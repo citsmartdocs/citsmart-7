@@ -1,6 +1,6 @@
 # CITSmart Docs Repository - Legacy Products
 
-Here you can access the documentation repository of legacy CITSmart's products, which are available in different languages. In addition, you can access the [feedback repository][1] to propose ideas and send feedback.
+Here you can access the documentation repository of legacy CITSmart's products, which are available in different languages.
 
 The documentation can be accessed on the official website [CITsmart Docs][2]. See also the documentation repository for [developers][3].
 
