@@ -89,14 +89,14 @@ Configurando o e-mail de notificação de aprovação
 
     !!! warning "ATENÇÃO"
 
-        - Este e-mail é feito por HTML.
+         - Este e-mail é feito por HTML.
 
-        - O modelo de notificação de aprovação por e-mail a ser utilizado está
-        disponível em anexo.
+         - O modelo de notificação de aprovação por e-mail a ser utilizado está
+         disponível em anexo.
 
-        - Para maiores detalhes de como transferir o modelo HTLM ao cadastrar uma nova
-        notificação, veja o conhecimento [Cadastro e pesquisa de configuração de modelo de
-        e-mail][5]
+         - Para maiores detalhes de como transferir o modelo HTLM ao cadastrar uma nova
+         notificação, veja o conhecimento [Cadastro e pesquisa de configuração de modelo de
+         e-mail][5]
 
 1.  Logo após transcrever o modelo HTML para a o cadastro da notificação,
     verifique as seguintes diretrizes:
@@ -118,7 +118,7 @@ Configurando o e-mail de notificação de aprovação
 1.  Realizada as instruções acima, o modelo de e-mail estará pronto, conforme a
     figura abaixo:
 
-    ![approve](images/approve-request-32.png)
+    ![approve](images/approve-request-3.png)
 
     **Figura 2 - Exemplo do e-mail**
 
