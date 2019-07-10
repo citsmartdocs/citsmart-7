@@ -72,8 +72,8 @@ serão exibidas as informações do(s) IC(s) em gráficos, conforme exemplo
 ilustrado na figura abaixo:
 
 ![Gráficos IC](images/ger-disp.img4.png)
-**Figura 4 - Gráficos de disponibilidade
-por item de configuração**
+**Figura 4 - Gráficos de 
+disponibilidade por item de configuração**
 
 - **Disponibilidade por Período**: apresenta a disponibilidade por dia de cada IC,
     dentro do período informado;
@@ -85,3 +85,45 @@ por item de configuração**
     de indisponibilidade, basta clicar no botão "Salvar tabela" referente;
 - Para download da imagem ou PDF dos gráficos, basta clicar no 
     ícone ![icone](images/ger-disp.img14.png) do gráfico referente.
+    
+Verificando a disponibilidade de grupo de item de configuração
+----------------------------------------------------------------
+
+1. Na tela de **Gerenciamento de Disponibilidade**, clique em 
+**Grupo de Item de Configuração**. Feito isso, será apresentado o filtro de
+grupo de ICs, conforme ilustrado na figura abaixo:
+
+![Disponibilidade - IC](images/ger-disp.img5.png)
+**Figura 5 - Gerenciamento de disponibilidade - 
+Item de configuração**
+
+2. Clique no campo **Grupo Item de Configuração**, será apresenta a tela
+de pesquisa de grupo de ICs. Realize a pesquisa e selecione o grupo de ICs
+desejado. Após isso, o Grupo de ICs será adicionado na tela conforme 
+exemplo ilustrado na figura abaixo:
+
+![Filtros de grupo IC](images/ger-disp.img6.png)
+**Figura 6 - Filtros de grupo de IC**
+
+    !!! warning "ATENÇÃO"
+    
+        Pode ser adicionado vários grupos, quantos desejar, para verificação.
+        
+3. Após o filtro definido, clique no botão "Atualizar Gráficos". Feito isso,
+serão exibidas as informações do(s) grupo(s) de ICs em gráficos, conforme 
+exemplo ilustrado na figura abaixo:
+
+![Gráficos grupo de IC](images/ger-disp.img7.png)
+**Figura 7 - Gráficos de disponibilidade 
+por grupo de IC**
+
+- **Disponibilidade por Período**: apresenta a disponibilidade por dia de 
+cada grupo de ICs, dentro do período informado;
+- **Disponibilidade Total**: apresenta a disponibilidade total de cada 
+grupo de ICs, dentro do período informado;
+- **Ocorrências de Indisponibilidade**: apresenta as ocorrências de 
+indisponibilidade de cada grupo de ICs, dentro do período informado;
+- Para download da tabela de disponibilidade total e/ou ocorrências de
+indisponibilidade, basta clicar no botão "Salvar tabela" referente;
+- Para download da imagem ou PDF dos gráficos, basta clicar no 
+ícone ![icone](images/ger-disp.img14.png) do gráfico referente.
