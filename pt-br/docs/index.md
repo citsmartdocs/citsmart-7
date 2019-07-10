@@ -1,3 +1,7 @@
-Title: Docs 7
+Title: Bem-vindo
 
-# Docs 7
+# Estamos aqui para ajudá-lo!
+
+Bem-vindo ao Centro de Documentação do CITSmart. Aqui você encontrará informações úteis sobre nossos produtos, guias de instalação, configuração da plataforma e implantação dos processos. Veja também nosso site para desenvolvedores: https://developers.citsmart.com.
+
+Clique no menu acima para entrar na árvore de documentação dos nossos produtos.
