@@ -36,5 +36,9 @@ principal(is) deste módulo, desta forma se pode obter um conhecimento mais deta
 Veja também
 -------------
 
-- [Gerenciamento de disponibilidade](pt-br/docs/citsmart-platform-7/processes/
-availability/availability-management.htlm)
+- Gerenciamento de disponibilidade
+
+!!! tip "About"
+
+    <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
+    <b>Updated:</b>07/10/2019 – Larissa Lourenço
