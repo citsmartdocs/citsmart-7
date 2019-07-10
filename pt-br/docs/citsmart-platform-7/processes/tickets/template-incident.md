@@ -20,20 +20,20 @@ Pré-condições
 1.  Ter acesso à funcionalidade de Templates
     Incidentes/Requisições/Procedimentos (ver conhecimento [Cadastro e pesquisa
     de perfil de
-    acesso][1](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/153));
+    acesso][1]);
 
 2.  Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de
-    grupo][2](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/249));
+    grupo][2]);
 
 3.  Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de
-    contrato][3](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/256));
+    contrato][3]);
 
 4.  Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de
-    unidade][4](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/200));
+    unidade][4]);
 
 5.  Ter o grupo vinculado ao contrato (ver conhecimento [Como relacionar grupo
     ao
-    contrato?][5](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/349));
+    contrato?][5]);
 
 6.  Ter a unidade vinculada ao contrato (ver conhecimento [Como relacionar
     unidade ao
