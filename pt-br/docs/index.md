@@ -1,4 +1,4 @@
-Title: Bem-vindo
+Title: Bom-vindo
 
 # Estamos aqui para ajudá-lo!
 
