@@ -39,6 +39,7 @@ Gerenciamento de disponibilidade
 conforme ilustrada na figura abaixo:
 
 ![Gerenciamento](images/ger-disp.img1.png)
+
 **Figura 1 - Tela de
 gerenciamento de disponibilidade**
 
@@ -54,6 +55,7 @@ Verificando a disponibilidade de item de configuração
 Feito isso, será apresentado o filtro de IC, conforme ilustrado na figura abaixo:
 
 ![Item de configuração](images/ger-disp.img2.png)
+
 **Figura 2 - Gerenciamento de disponibilidade - 
 Item de configuração**
 
@@ -62,6 +64,7 @@ Realize a pesquisa e selecione o IC desejado. Após isso, o IC será adicionado 
 conforme exemplo ilustrado na figura abaixo:
 
 ![Filtros IC](images/ger-disp.img3.png)
+
 **Figura 3 - Filtros de IC**
 
     !!! warning "ATENÇÃO"
@@ -73,6 +76,7 @@ serão exibidas as informações do(s) IC(s) em gráficos, conforme exemplo
 ilustrado na figura abaixo:
 
 ![Gráficos IC](images/ger-disp.img4.png)
+
 **Figura 4 - Gráficos de 
 disponibilidade por item de configuração**
 
@@ -95,6 +99,7 @@ Verificando a disponibilidade de grupo de item de configuração
 grupo de ICs, conforme ilustrado na figura abaixo:
 
 ![Disponibilidade - IC](images/ger-disp.img5.png)
+
 **Figura 5 - Gerenciamento de disponibilidade - 
 Item de configuração**
 
@@ -104,6 +109,7 @@ desejado. Após isso, o Grupo de ICs será adicionado na tela conforme
 exemplo ilustrado na figura abaixo:
 
 ![Filtros de grupo IC](images/ger-disp.img6.png)
+
 **Figura 6 - Filtros de grupo de IC**
 
     !!! warning "ATENÇÃO"
@@ -115,6 +121,7 @@ serão exibidas as informações do(s) grupo(s) de ICs em gráficos, conforme
 exemplo ilustrado na figura abaixo:
 
 ![Gráficos grupo de IC](images/ger-disp.img7.png)
+
 **Figura 7 - Gráficos de 
 disponibilidade por grupo de IC**
 
