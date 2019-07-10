@@ -79,8 +79,8 @@ Listagem de itens
 Preenchimento dos campos cadastrais
 -----------------------------------
 
-1.  Ao clicar no botão *Novo*, a tela de cadastro das** Regras de Escalonamento
-    e notificações automáticas **será exibida, conforme ilustrada na figura
+1.  Ao clicar no botão *Novo*, a tela de cadastro das **Regras de Escalonamento
+    e notificações automáticas** será exibida, conforme ilustrada na figura
     abaixo:
 
     ![escalonamento](images/escalation-rule3.png)
@@ -95,7 +95,7 @@ Preenchimento dos campos cadastrais
 
     -   **Solicitante**: informe o solicitante da regra;
 
-    -   **Grupo executor: **informe o nome do grupo executor;
+    -   **Grupo executor**: informe o nome do grupo executor;
 
     -   **Catálogo**: selecione o tipo de catálogo (Negócio ou Técnico);
 
