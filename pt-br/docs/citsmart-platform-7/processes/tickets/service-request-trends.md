@@ -8,8 +8,8 @@ lançamento de uma nova solicitação.
 Como acessar
 ------------
 
-1.  Acesse o menu principal **Processos ITIL **\> **Gerência de
-    Ticket **\> **Análise de Tendências, **aba Solicitações de Serviço.
+1.  Acesse o menu principal **Processos ITIL > **Gerência de
+    Ticket > **Análise de Tendências,** aba Solicitações de Serviço.
 
 Pré-condições
 -------------
