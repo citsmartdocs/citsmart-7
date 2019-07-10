@@ -156,7 +156,7 @@ Anexos
 [2]:
 [3]:
 [4]:
-[5]:/pt-br/docs/citsmart-platform-7/processes/tickets/images/AguardandoAprovacao - email HTML.txt
+[5]:/pt-br/docs/citsmart-platform-7/processes/tickets/images/aguardandoaprovacao-email.docx
 
 !!! tip "About"
 
