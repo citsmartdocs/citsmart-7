@@ -26,7 +26,7 @@ Filtros
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Origem.
+    -   Origem.
 
 1.  Na tela de **Origem**, clique na guia **Pesquisar Origem**, será apresentada
     a tela de pesquisa conforme ilustrada na figura abaixo:
