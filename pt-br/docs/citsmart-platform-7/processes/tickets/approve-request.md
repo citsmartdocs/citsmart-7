@@ -149,7 +149,7 @@ Configurando o e-mail de notificação de aprovação
 Anexos
 ------
 
-[Dowload - AguardandoAprovacao - email HTML][5]
+[Dowload - AguardandoAprovacao - email][5]
 
 
 [1]:
