@@ -37,7 +37,7 @@ Filtros
 
 1.  Realize a pesquisa de origem:
 
-2.  Informe o nome da origem que deseja pesquisar e clique no botão *Pesquisar*.
+    -   Informe o nome da origem que deseja pesquisar e clique no botão *Pesquisar*.
     Após isso, será exibido o registro da origem conforme o nome informado.
 
     -   Caso deseje listar todos os registros de origem, basta clicar
