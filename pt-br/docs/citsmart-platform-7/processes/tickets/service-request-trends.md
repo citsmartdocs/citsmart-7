@@ -115,9 +115,9 @@ Listagem de itens
 
     !!!warning "ATENÇÃO"
 
-       Serão exibidas em cada guia (Serviço, Causa e Item de Configuração), a
-       quantidade crítica de solicitações, igual ou superior à quantidade crítica
-       mínima informada no filtro.
+        Serão exibidas em cada guia (Serviço, Causa e Item de Configuração), a
+        quantidade crítica de solicitações, igual ou superior à quantidade crítica
+        mínima informada no filtro.
 
 1.  Em cada guia serão apresentados os resultados referentes a cada tipo
     (Serviço, Causa e Item de Configuração) e em cada item serão exibidos dois
