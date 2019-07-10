@@ -75,7 +75,7 @@ Filtros
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Nome.
+    -   Nome.
 
     ![template](images/template-incident-1.png)
 
