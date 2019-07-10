@@ -46,7 +46,7 @@ Listagem de itens
 a identificação dos itens desejados na listagem padrão da funcionalidade:
 **Nome** e **Acordo de disponibilidade (percentual)**.
 
-[Tela de listagem](images/grupo-disponibilidade.img02.png)
+![Tela de listagem](images/grupo-disponibilidade.img02.png)
     
 2. Após a pesquisa, selecione o registro desejado. Feito isso, será 
 direcionado para a tela de cadastro exibindo o conteúdo referente
@@ -63,7 +63,7 @@ Preenchimento dos campos cadastrais
 1. Será apresentada a tela de Cadastro de **Grupo de Disponibilidade**, 
 conforme ilustrada na figura abaixo:
 
-[Tela de cadastro](images/grupo-disponibilidade.img03.png)
+![Tela de cadastro](images/grupo-disponibilidade.img03.png)
     
 2. Preencha os campos conforme orientações abaixo:
 
