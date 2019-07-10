@@ -29,6 +29,7 @@ localização dos itens desejados:
  Será apresentada a tela de pesquisa conforme ilustrada na figura abaixo:
  
  ![Grupo disponibilidade](images/grupo-disponibilidade.img01.png)
+ Figura 1 - Tela de pesquisa de grupo de disponibilidade
  
  3. Realize a pesquisa de grupo de disponibilidade;
  
