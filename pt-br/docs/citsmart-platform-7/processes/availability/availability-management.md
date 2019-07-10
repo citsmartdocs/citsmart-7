@@ -135,3 +135,51 @@ indisponibilidade de cada grupo de ICs, dentro do período informado;
 indisponibilidade, basta clicar no botão "Salvar tabela" referente;
 - Para download da imagem ou PDF dos gráficos, basta clicar no 
 ícone ![icone](images/ger-disp.img14.png) do gráfico referente.
+
+Verificando a disponibilidade de grupo de disponibilidade
+-----------------------------------------------------------
+
+1. Na tela de **Gerenciamento de Disponibilidade**, clique em **Grupo de 
+Disponibilidade**. Feito isso, será apresentado o filtro de grupo de 
+disponibilidade, conforme ilustrado na figura abaixo:
+
+![Grupo de disponibilidade](images/ger-disp.img8.png)
+
+**Figura 8 - Gerenciamento de disponibilidade -
+Grupo de disponibilidade**
+
+2. Clique no campo **Grupo de Disponibilidade**, será apresenta a tela 
+de pesquisa de grupo de disponibilidade. Realize a pesquisa e selecione
+o grupo de disponibilidade desejado. Após isso, o grupo de disponibilidade
+será adicionado na tela conforme exemplo ilustrado na figura abaixo:
+
+![Filtros grupos](images/ger-disp.img9.png)
+
+**Figura 9 - Filtros de grupo de disponibilidade**
+
+    !! warning "ATENÇÃO"
+    
+       Pode ser adicionado vários grupos, quantos desejar, para verificação.
+       
+3. Após o filtro definido, clique no botão "Atualizar Gráficos". Feito isso, 
+serão exibidas as informações do(s) grupo(s) de disponibilidade em gráficos,
+conforme exemplo ilustrado na figura abaixo:
+
+![Gráficos grupos de disponibilidade](images/ger-disp.img10.png)
+
+**Figura 10 - Gráficos de disponibilidade por
+grupo de disponibilidade**
+
+- **Disponibilidade por Período**: apresenta a disponibilidade por dia 
+de cada grupo de disponibilidade, dentro do período informado;
+- **Disponibilidade Total** : apresenta a disponibilidade total de cada
+grupo de disponibilidade, dentro do período informado; 
+- **Ocorrências de Indisponibilidade**: apresenta as ocorrências de 
+indisponibilidade de cada grupo de disponibilidade, dentro do período
+informado;
+- Para download da tabela de disponibilidade total e/ou ocorrências de 
+indisponibilidade, basta clicar no botão "Salvar tabela" referente;
+- Para download da imagem ou PDF dos gráficos, basta clicar no 
+ícone ![icone](images/ger-disp.img14.png)  do gráfico referente.
+
+
