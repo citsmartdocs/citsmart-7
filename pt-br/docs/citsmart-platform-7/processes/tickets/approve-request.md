@@ -54,7 +54,7 @@ Passos para configurar e-mail no fluxo
 
     !!! warning "ATENÇÃO"
     
-       Não alterar o template de e-mail de criação (vinculado ao portfólio) para o template de aprovação.
+        Não alterar o template de e-mail de criação (vinculado ao portfólio) para o template de aprovação.
 
 1.  Configurar, na aba Destinatários, os tipos destinatários (grupo/usuário) do
     e-mail a ser enviado;
@@ -69,10 +69,10 @@ Passos para configurar e-mail no fluxo
 
      !!! warning "ATENÇÃO"
      
-         * Caso opte que o destinatário seja "grupo", é necessário vincular o envio do e-mail para os 
+         - Caso opte que o destinatário seja "grupo", é necessário vincular o envio do e-mail para os 
          usuários do grupo selecionado (Acesso e Permissão > Grupo).
 
-         * Caso no grupo aprovador, o usuário coloque para receber e-mail, "outros
+         - Caso no grupo aprovador, o usuário coloque para receber e-mail, "outros
          usuários", deve ser observado que esse usuário talvez não poderá aprovar a
          solicitação, pois, a condição para isso é que o usuário esteja no grupo
          aprovador e não somente sendo informado que existe uma aprovação.
