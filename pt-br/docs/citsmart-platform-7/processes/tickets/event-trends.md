@@ -116,15 +116,15 @@ Listagem de itens
 
     **Figura 2 - Tela de listagem de eventos - aba Classificação**
 
-Aba Item de Configuração:
+    Aba Item de Configuração:
 
--   **ID, Item de Configuração** e **Quantidade Crítica**.
+    -   **ID, Item de Configuração** e **Quantidade Crítica**.
 
     ![trend 3](images/event-trends-3.png)
 
     **Figura 3 - Tela de listagem de eventos - aba Item de Configuração**
 
--   Aba Serviço Técnico:
+    -   Aba Serviço Técnico:
 
     -   **ID, Item de Configuração** e **Quantidade Crítica.**
 
@@ -132,7 +132,7 @@ Aba Item de Configuração:
 
     **Figura 4 - Tela de listagem de eventos - aba Serviço Técnico**
 
--   Aba Catálogo de Negócio:
+    -   Aba Catálogo de Negócio:
 
     -   **ID, Item de Configuração** e **Quantidade Crítica.**
 
