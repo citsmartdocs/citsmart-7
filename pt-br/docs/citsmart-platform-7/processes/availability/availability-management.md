@@ -39,7 +39,8 @@ Gerenciamento de disponibilidade
 conforme ilustrada na figura abaixo:
 
 ![Gerenciamento](images/ger-disp.img1.png)
-**Figura 1 - Tela de gerenciamento de disponibilidade**
+**Figura 1 - Tela de gerenciamento 
+de disponibilidade**
 
 2. Nesta tela de Gerenciamento de Disponibilidade, é possível verificar a 
 disponibilidade de ICs, disponibilidade do Grupo de ICs, disponibilidade do
@@ -60,6 +61,7 @@ Realize a pesquisa e selecione o IC desejado. Após isso, o IC será adicionado 
 conforme exemplo ilustrado na figura abaixo:
 
 ![Filtros IC](images/ger-disp.img3.png)
+**Figura 3 - Filtros de IC**
 
     !!! warning "ATENÇÃO"
     
@@ -70,14 +72,16 @@ serão exibidas as informações do(s) IC(s) em gráficos, conforme exemplo
 ilustrado na figura abaixo:
 
 ![Gráficos IC](images/ger-disp.img4.png)
+**Figura 4 - Gráficos de disponibilidade
+por item de configuração**
 
-    - **Disponibilidade por Período**: apresenta a disponibilidade por dia de cada IC,
+- **Disponibilidade por Período**: apresenta a disponibilidade por dia de cada IC,
     dentro do período informado;
-    - **Disponibilidade Total**: apresenta a disponibilidade total de cada IC, 
+- **Disponibilidade Total**: apresenta a disponibilidade total de cada IC, 
     dentro do período informado;
-    - **Ocorrências de Indisponibilidade**: apresenta as ocorrências de indisponibilidade
+- **Ocorrências de Indisponibilidade**: apresenta as ocorrências de indisponibilidade
     de cada IC, dentro do período informado;
-    - Para download da tabela de disponibilidade total e/ou ocorrências
+- Para download da tabela de disponibilidade total e/ou ocorrências
     de indisponibilidade, basta clicar no botão "Salvar tabela" referente;
-    - Para download da imagem ou PDF dos gráficos, basta clicar no 
+- Para download da imagem ou PDF dos gráficos, basta clicar no 
     ícone ![icone](images/ger-disp.img14.png) do gráfico referente.
