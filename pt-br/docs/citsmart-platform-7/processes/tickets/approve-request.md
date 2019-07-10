@@ -80,7 +80,7 @@ Passos para configurar e-mail no fluxo
 Configurando o e-mail de notificação de aprovação
 -------------------------------------------------
 
-1.  Acesse a funcionalidade através do menu **Sistema → Configurações → Modelo
+1.  Acesse a funcionalidade através do menu **Sistema > Configurações > Modelo
     de e-mail**;
 
 2.  Será apresentada a tela de Cadastro de modelo de e-mail;
@@ -89,12 +89,12 @@ Configurando o e-mail de notificação de aprovação
 
     !!! warning "ATENÇÃO"
 
-        * Este e-mail é feito por HTML.
+        - Este e-mail é feito por HTML.
 
-        * O modelo de notificação de aprovação por e-mail a ser utilizado está
+        - O modelo de notificação de aprovação por e-mail a ser utilizado está
         disponível em anexo.
 
-        * Para maiores detalhes de como transferir o modelo HTLM ao cadastrar uma nova
+        - Para maiores detalhes de como transferir o modelo HTLM ao cadastrar uma nova
         notificação, veja o conhecimento [Cadastro e pesquisa de configuração de modelo de
         e-mail][5]
 
