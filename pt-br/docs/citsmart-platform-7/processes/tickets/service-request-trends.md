@@ -63,7 +63,7 @@ Filtros
     -   **Período de Abertura**: informar o período do cadastro de solicitações
         de serviço;
 
-    -   **Contrato**:** **informar o contrato para verificar as solicitações de
+    -   **Contrato**: informar o contrato para verificar as solicitações de
         serviço referente ao mesmo;
 
     -   **Tipo de solicitação**: selecionar o tipo de solicitação que deseja
@@ -100,7 +100,7 @@ Listagem de itens
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** ID, Serviço **e** Quantidade Crítica.**
+    funcionalidade: **ID, Serviço** e **Quantidade Crítica**.
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Gerar Gráfico* e *Criar Problema*.
@@ -113,9 +113,11 @@ Listagem de itens
     
     **Figura 2 - Resultados para análise de tendência**
 
-**REGRA: serão exibidas em cada guia (Serviço, Causa e Item de Configuração), a
-quantidade crítica de solicitações, igual ou superior à quantidade crítica
-mínima informada no filtro.**
+    !!!warning "ATENÇÃO"
+
+       Serão exibidas em cada guia (Serviço, Causa e Item de Configuração), a
+       quantidade crítica de solicitações, igual ou superior à quantidade crítica
+       mínima informada no filtro.
 
 1.  Em cada guia serão apresentados os resultados referentes a cada tipo
     (Serviço, Causa e Item de Configuração) e em cada item serão exibidos dois
