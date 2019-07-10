@@ -42,7 +42,8 @@ Como acessar
 1.  Acesse a funcionalidade através da navegação no menu
     principal **Sistema > Manutenção de fluxos**.
 
-### **Passos para configurar e-mail no fluxo**
+Passos para configurar e-mail no fluxo
+---------------------------------
 
 1.  Selecione o fluxo de aprovação de solicitação;
 
