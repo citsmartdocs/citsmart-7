@@ -46,7 +46,7 @@ Listagem de itens
 a identificação dos itens desejados na listagem padrão da funcionalidade:
 **Nome** e **Acordo de disponibilidade (percentual)**.
 
-    [Tela de listagem](images/grupo-disponibilidade.img02.png)
+[Tela de listagem](images/grupo-disponibilidade.img02.png)
     
 2. Após a pesquisa, selecione o registro desejado. Feito isso, será 
 direcionado para a tela de cadastro exibindo o conteúdo referente
@@ -57,13 +57,13 @@ as informações dos campos desejados e clicar no botão "Gravar" para que seja 
 a alteração realizada no registro, onde a data, hora e usuário serão gravados
 automaticamente para uma futura auditoria.
 
-Preenchimentol dos campos cadastrais
+Preenchimento dos campos cadastrais
 -------------------------------------
 
 1. Será apresentada a tela de Cadastro de **Grupo de Disponibilidade**, 
 conforme ilustrada na figura abaixo:
 
-    [Tela de cadastro](images/grupo-disponibilidade.img03.png)
+[Tela de cadastro](images/grupo-disponibilidade.img03.png)
     
 2. Preencha os campos conforme orientações abaixo:
 
@@ -90,3 +90,7 @@ ao grupo, conforme exemplo ilustrado na figura abaixo:
 serão gravados automaticamente para uma futura auditoria.
 
 
+!!! tip "About"
+
+    <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
+    <b>Updated:</b>07/10/2019 – Larissa Lourenço
