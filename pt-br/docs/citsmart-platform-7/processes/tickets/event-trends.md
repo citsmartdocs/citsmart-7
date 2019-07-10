@@ -95,19 +95,19 @@ Listagem de itens
     sistema irá filtrar e totalizar os eventos que atendem aos filtros
     selecionados e gerará quatro guias de resultados, sendo:
 
--   **Classificação**: nessa guia é apresentado as ocorrências de eventos por
+    -   **Classificação**: nessa guia é apresentado as ocorrências de eventos por
     classificação;
 
--   **Item de Configuração:** nessa guia é apresentado as ocorrências de eventos
+    -   **Item de Configuração:** nessa guia é apresentado as ocorrências de eventos
     por item de configuração;
 
--   **Serviço Técnico**: nessa guia é apresentado as ocorrências de eventos por
+    -   **Serviço Técnico**: nessa guia é apresentado as ocorrências de eventos por
     serviço técnico;
 
--   **Catálogo de Negócio**: nessa guia é apresentado as ocorrências de eventos
+    -   **Catálogo de Negócio**: nessa guia é apresentado as ocorrências de eventos
     por serviços de negócios.
 
--   Aba Classificação:
+    -   Aba Classificação:
 
     -   **Classificação **e** Quantidade Crítica.**
 
@@ -116,15 +116,15 @@ Listagem de itens
 
     **Figura 2 - Tela de listagem de eventos - aba Classificação**
 
-Aba Item de Configuração:
+    Aba Item de Configuração:
 
--   **ID, Item de Configuração** e **Quantidade Crítica**.
+    -   **ID, Item de Configuração** e **Quantidade Crítica**.
 
     ![trend 3](images/event-trends-3.png)
 
     **Figura 3 - Tela de listagem de eventos - aba Item de Configuração**
 
--   Aba Serviço Técnico:
+    -   Aba Serviço Técnico:
 
     -   **ID, Item de Configuração** e **Quantidade Crítica.**
 
@@ -132,7 +132,7 @@ Aba Item de Configuração:
 
     **Figura 4 - Tela de listagem de eventos - aba Serviço Técnico**
 
--   Aba Catálogo de Negócio:
+    -   Aba Catálogo de Negócio:
 
     -   **ID, Item de Configuração** e **Quantidade Crítica.**
 
