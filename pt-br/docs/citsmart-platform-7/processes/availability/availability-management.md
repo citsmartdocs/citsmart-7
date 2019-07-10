@@ -39,8 +39,8 @@ Gerenciamento de disponibilidade
 conforme ilustrada na figura abaixo:
 
 ![Gerenciamento](images/ger-disp.img1.png)
-**Figura 1 - Tela de gerenciamento 
-de disponibilidade**
+**Figura 1 - Tela de
+gerenciamento de disponibilidade**
 
 2. Nesta tela de Gerenciamento de Disponibilidade, é possível verificar a 
 disponibilidade de ICs, disponibilidade do Grupo de ICs, disponibilidade do
@@ -54,7 +54,8 @@ Verificando a disponibilidade de item de configuração
 Feito isso, será apresentado o filtro de IC, conforme ilustrado na figura abaixo:
 
 ![Item de configuração](images/ger-disp.img2.png)
-**Figura 2 - Gerenciamento de disponibilidade - Item de configuração**
+**Figura 2 - Gerenciamento de disponibilidade - 
+Item de configuração**
 
 2. Clique no campo **Item de Configuração**, será apresenta a tela de pesquisa de ICs.
 Realize a pesquisa e selecione o IC desejado. Após isso, o IC será adicionado na tela,
@@ -114,8 +115,8 @@ serão exibidas as informações do(s) grupo(s) de ICs em gráficos, conforme
 exemplo ilustrado na figura abaixo:
 
 ![Gráficos grupo de IC](images/ger-disp.img7.png)
-**Figura 7 - Gráficos de disponibilidade 
-por grupo de IC**
+**Figura 7 - Gráficos de 
+disponibilidade por grupo de IC**
 
 - **Disponibilidade por Período**: apresenta a disponibilidade por dia de 
 cada grupo de ICs, dentro do período informado;
