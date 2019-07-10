@@ -4,7 +4,7 @@ Description: Tem por objetivo gerar gráfico de Análise de Tendência de Evento
 por Serviço de Negócio em determinado período, a fim de realizar uma análise dos
 eventos.
 
-# Análise de tendências de eventos
+# Análise de tendência de eventos
 
 Esta funcionalidade tem por objetivo gerar gráfico de Análise de Tendência de
 Eventos por Serviço de Negócio em determinado período, a fim de realizar uma
