@@ -61,7 +61,7 @@ Passos para configurar e-mail no fluxo
 
     !!! warning "ATENÇÃO"
         
-        O sistema não busca destinatários via "Expressão".**
+        O sistema não busca destinatários via "Expressão".
 
     ![approve](images/approve-request-2.png)
 
