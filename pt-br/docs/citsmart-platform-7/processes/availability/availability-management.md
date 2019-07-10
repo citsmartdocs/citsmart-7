@@ -182,4 +182,47 @@ indisponibilidade, basta clicar no botão "Salvar tabela" referente;
 - Para download da imagem ou PDF dos gráficos, basta clicar no 
 ícone ![icone](images/ger-disp.img14.png)  do gráfico referente.
 
+Verificando a disponibilidade de serviço
+-------------------------------------------
 
+1. Na tela de **Gerenciamento de Disponibilidade**, clique em **Serviço**. 
+Feito isso, será apresentado o filtro de serviço, conforme ilustrado
+na figura abaixo:
+
+![Serviço](images/ger-disp.img11.png)
+
+**Figura 11 - Gerenciamento de disponibilidade - Serviço**
+
+2. Clique no campo **Serviço**, será apresenta a tela de pesquisa de serviços.
+Realize a pesquisa e selecione o serviço desejado. Após isso, o serviço 
+será adicionado na tela conforme exemplo ilustrado na figura abaixo:
+
+![Filtros serviço](images/ger-disp.img12.png)
+
+    !! warning "ATENÇÃO"
+    
+       Pode ser adicionado vários serviços, quantos desejar, para verificação.
+       
+3. Após o filtro definido, clique no botão "Atualizar Gráficos". 
+Feito isso, serão exibidas as informações do(s) Serviço(s) em gráficos,
+conforme exemplo ilustrado na figura abaixo:
+
+![Gráficos serviços](images/ger-disp.img13.png)
+
+**Figura 13 - Gráficos de disponibilidade por serviço**
+
+- **Disponibilidade por Período**: apresenta a disponibilidade por 
+dia de cada serviço, dentro do período informado;
+- **Disponibilidade Total**: apresenta a disponibilidade total de cada 
+serviço, dentro do período informado;
+- **Ocorrências de Indisponibilidade**: apresenta as ocorrências de 
+indisponibilidade de cada serviço, dentro do período informado;
+- Para download da tabela de disponibilidade total e/ou ocorrências de 
+indisponibilidade, basta clicar no botão "Salvar tabela" referente;
+- Para download da imagem ou PDF dos gráficos, basta clicar no
+ícone ![icone](images/ger-disp.img14.png) do gráfico referente.
+
+!!! tip "About"
+
+    <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
+    <b>Updated:</b>07/10/2019 – Larissa Lourenço

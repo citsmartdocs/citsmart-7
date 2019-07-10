@@ -149,14 +149,14 @@ Configurando o e-mail de notificação de aprovação
 Anexos
 ------
 
-[Dowload - AguardandoAprovacao - email HTML][5]
+[Dowload - AguardandoAprovacao - email][5]
 
 
 [1]:
 [2]:
 [3]:
 [4]:
-[5]:/pt-br/docs/citsmart-platform-7/processes/tickets/images/AguardandoAprovacao - email HTML.txt
+[5]:/pt-br/docs/citsmart-platform-7/processes/tickets/images/aguardandoaprovacao-email.docx
 
 !!! tip "About"
 
