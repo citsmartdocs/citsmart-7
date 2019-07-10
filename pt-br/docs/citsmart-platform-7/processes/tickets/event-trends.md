@@ -95,19 +95,19 @@ Listagem de itens
     sistema irá filtrar e totalizar os eventos que atendem aos filtros
     selecionados e gerará quatro guias de resultados, sendo:
 
--   **Classificação**: nessa guia é apresentado as ocorrências de eventos por
+    -   **Classificação**: nessa guia é apresentado as ocorrências de eventos por
     classificação;
 
--   **Item de Configuração:** nessa guia é apresentado as ocorrências de eventos
+    -   **Item de Configuração:** nessa guia é apresentado as ocorrências de eventos
     por item de configuração;
 
--   **Serviço Técnico**: nessa guia é apresentado as ocorrências de eventos por
+    -   **Serviço Técnico**: nessa guia é apresentado as ocorrências de eventos por
     serviço técnico;
 
--   **Catálogo de Negócio**: nessa guia é apresentado as ocorrências de eventos
+    -   **Catálogo de Negócio**: nessa guia é apresentado as ocorrências de eventos
     por serviços de negócios.
 
--   Aba Classificação:
+    -   Aba Classificação:
 
     -   **Classificação **e** Quantidade Crítica.**
 
