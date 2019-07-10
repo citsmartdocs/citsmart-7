@@ -149,13 +149,14 @@ Configurando o e-mail de notificação de aprovação
 Anexos
 ------
 
--   attach_file [AguardandoAprovacao - email
-    HTML.txt](https://itsm.citsmartcloud.com/citsmart/pages/visualizarUploadTemp/visualizarUploadTemp.load?path=ID=17343)
+[Dowload - AguardandoAprovacao - email HTML][5]
+
 
 [1]:
 [2]:
 [3]:
 [4]:
+[5]:/pt-br/docs/citsmart-platform-7/processes/tickets/images/AguardandoAprovacao - email HTML.txt
 
 !!! tip "About"
 
