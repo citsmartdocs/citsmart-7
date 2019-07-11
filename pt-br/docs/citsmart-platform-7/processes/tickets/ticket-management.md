@@ -364,7 +364,7 @@ Verificação das atividades periódicas
 
     ![ticket](images/management-19.png)
 
-    Figura 10 - Agenda de atividades
+    **Figura 10 - Agenda de atividades**
 
 •	Grupo de Atividades: selecione o grupo executor de atividades periódicas para visualizar suas tarefas agendadas;
 
@@ -387,7 +387,7 @@ Vinculando problemas
 
    ![ticket](images/management-20.png)
 
-   Figura 11 - Tela de pesquisa de problemas relacionados
+   **Figura 11 - Tela de pesquisa de problemas relacionados**
 
 2.	No campo de pesquisa, é permitido a busca pelo título de problema previamente cadastrados;
 
