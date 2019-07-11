@@ -56,25 +56,25 @@ Preenchimento de campos cadastrais
 
 1. Para ter uma melhor visão das opções da funcionalidade, segue imagem:
 
-![Gerenciamento de mudança](images/cad-mud.img1.png)
+    ![Gerenciamento de mudança](images/cad-mud.img1.png)
 
-**Figura 1 - Tela de gerenciamento de mudança**
+    **Figura 1 - Tela de gerenciamento de mudança**
 
-![num](images/num1.png) ![amplia](images/sim-aum.png) : amplia a tela de Gerenciamento de Mudanças;
+    ![num](images/num1.png) ![amplia](images/sim-aum.png) : amplia a tela de Gerenciamento de Mudanças;
 
-![num](images/num2.png) **Gerenciamento**: apresentada os registros de requisições de mudança para atendimento e gerenciamento;
+    ![num](images/num2.png) **Gerenciamento**: apresentada os registros de requisições de mudança para atendimento e gerenciamento;
 
-![num](images/num3.png) **Gráficos**: apresenta os gráficos de informações das requisições de mudanças por situação 
+    ![num](images/num3.png) **Gráficos**: apresenta os gráficos de informações das requisições de mudanças por situação 
 (em andamento, suspensas e atrasadas), por prioridade e por grupo;
 
-![num](images/num4.png) **Requisições para votação**: apresentada os registros de requisições de mudança para aprovação;
+    ![num](images/num4.png) **Requisições para votação**: apresentada os registros de requisições de mudança para aprovação;
 
-![num](images/num5.png) **Filtros**: apresenta os filtros para pesquisa de requisições de mudança;
+    ![num](images/num5.png) **Filtros**: apresenta os filtros para pesquisa de requisições de mudança;
 
-![num](images/num6.png) **Ações**: permite registrar novas requisições de mudança e realizar uma pesquisa rápida de
+    ![num](images/num6.png) **Ações**: permite registrar novas requisições de mudança e realizar uma pesquisa rápida de
 requisição de mudança;
 
-![num](images/num7.png) **Relatórios**: apresenta os relatórios dinâmicos referentes ao gerenciamento de mudança.
+    ![num](images/num7.png) **Relatórios**: apresenta os relatórios dinâmicos referentes ao gerenciamento de mudança.
 
 2. Após o acesso a funcionalidade, será apresentada a respectiva tela de "Cadastrar nova mudança", contendo uma série de passos a 
 serem seguidos para realizar o registro:
@@ -110,9 +110,9 @@ serem seguidos para realizar o registro:
        - **Mudança Normal**: é uma mudança que segue um fluxo normal de avaliação, aprovação e autorização;
        - **Mudança Emergencial**: é uma mudança em um serviço que pretende reparar emergencialmente um erro no serviço de TI.
        
-       !!! note "NOTA"
+    !!! note "NOTA"
        
-           Mudança Padrão e Mudança Emergencial não requer informações da categoria e comitê consultivo de mudança, pois as mesmas não participam do Votação da Requisição de Mudança.
+        Mudança Padrão e Mudança Emergencial não requer informações da categoria e comitê consultivo de mudança, pois as mesmas não participam do Votação da Requisição de Mudança.
            
     - Se o tipo de requisição de mudança informado for "Normal", informe a **Categoria**;
     - **Impacto**: informe o impacto da mudança;
