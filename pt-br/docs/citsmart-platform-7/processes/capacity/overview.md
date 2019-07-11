@@ -22,3 +22,18 @@ atuais e futuras do negócio;
 - **Gestão da capacidade de serviços**: gerencia o desempenho dos serviços de TI em operação. São suas responsabilidades garantir, 
 monitorar e reportar os níveis de desempenho definidos nos acordos de nível de serviço (SLA) e nos requisitos de nível de serviço (SLR).
 Seu foco está nos serviços atuais suportados pelo negócio;
+
+- **Gestão da capacidade de recursos**: monitora e reporta os níveis de desempenho,
+individuais, dos recursos (componentes) de infraestrutura de TI. Seu foco está na
+tecnologia responsável por sustentar toda a provisão de serviços.
+
+Neste módulo serão definidos os indicadores de capacidade (performance/desempenho)
+que serão vinculados aos Serviços e Itens de Configuração.
+
+Onde estão suas funcionalidades
+---------------------------------
+
+Acesse o menu principal **Processos ITIL > Gerência de Capacidade**.
+
+![Menu](images/mod-cap.img1.png)
+
