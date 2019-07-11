@@ -9,58 +9,58 @@ A tela abaixo mostra a principal tela do módulo tickets:
 
    **Figura 1 - Tela de gerenciamento de tickets**
 
-•	1: Campo de pesquisa: permite buscar os tickets;
+•	**1**: Campo de pesquisa: permite buscar os tickets;
 
-•	2: Botão de menu: exibe os itens de menu da tela de gerenciamento;
+•	**2**: Botão de menu: exibe os itens de menu da tela de gerenciamento;
 
-•	3: Tickets: apresenta os registros de requisições de serviços e incidentes para atendimento e gerenciamento;
+•	**3**: Tickets: apresenta os registros de requisições de serviços e incidentes para atendimento e gerenciamento;
 
-•	4: Auditoria: apresenta os logs gerados nas diversas ações relacionadas aos tickets;
+•	**4**: Auditoria: apresenta os logs gerados nas diversas ações relacionadas aos tickets;
 
-•	5: Resumo: exibe a quantidade de tickets por diversos itens;
+•	**5**: Resumo: exibe a quantidade de tickets por diversos itens;
 
-•	6: Pesquisa avançada: permite realizar uma busca avançada dos tickets;
+•	**6**: Pesquisa avançada: permite realizar uma busca avançada dos tickets;
 
-•	7: Agenda: permite visualizar a agenda de atividades periódicas, na qual se verifica as atividades referentes aos tickets que foram agendados para serem atendidos em uma data determinada;
+•	**7**: Agenda: permite visualizar a agenda de atividades periódicas, na qual se verifica as atividades referentes aos tickets que foram agendados para serem atendidos em uma data determinada;
 
-•	8: Atualização automática: recurso para, quando acionado, atualizar a lista de tickets de forma automática. O tempo de atualização automática da lista de ticket é de 30 segundos. Atualmente, este tempo não pode ser alterado;
+•	**8**: Atualização automática: recurso para, quando acionado, atualizar a lista de tickets de forma automática. O tempo de atualização automática da lista de ticket é de 30 segundos. Atualmente, este tempo não pode ser alterado;
 
-•	9: Atualização manual: recurso usado para atualizar a lista de tickets;
+•	**9**: Atualização manual: recurso usado para atualizar a lista de tickets;
 
-•	10: Relatórios: permite acessar relatórios do tipo global, ou seja, aqueles não ligados a um ticket específico, podendo analisar todos (na criação do relatório via opção Relatórios Smart esta característica é definida);
+•	**10**: Relatórios: permite acessar relatórios do tipo global, ou seja, aqueles não ligados a um ticket específico, podendo analisar todos (na criação do relatório via opção Relatórios Smart esta característica é definida);
 
-•	11: Opções: apresenta a funcionalidade de “Suspensão/Reativação” (que permite suspender todas os tickets com status “Em andamento” de um determinado grupo executor e reativar os mesmos) e a funcionalidade de “Alterar colunas” (que permite alterar a disposição das colunas na lista de tickets; o conjunto de colunas definidas permanece mesmo após o encerramento da sessão do usuário);
+•	**11**: Opções: apresenta a funcionalidade de “Suspensão/Reativação” (que permite suspender todas os tickets com status “Em andamento” de um determinado grupo executor e reativar os mesmos) e a funcionalidade de “Alterar colunas” (que permite alterar a disposição das colunas na lista de tickets; o conjunto de colunas definidas permanece mesmo após o encerramento da sessão do usuário);
 
-•	12: Listagem: filtra o modo de exibição de ticket por listagem;
+•	**12**: Listagem: filtra o modo de exibição de ticket por listagem;
 
-•	13: Por atendente: filtra o modo de exibição de ticket por atendente no modo kanban;
+•	**13**: Por atendente: filtra o modo de exibição de ticket por atendente no modo kanban;
 
-•	14: Por situação: filtra o modo de exibição de ticket por situação SLA. Para esta opção ficar visível é necessário habilitar a permissão de acesso para o usuário logado, marque o item "Gestão de Equipe" (ver conhecimento Permissão de acesso do gerenciamento de tickets);
+•	**14**: Por situação: filtra o modo de exibição de ticket por situação SLA. Para esta opção ficar visível é necessário habilitar a permissão de acesso para o usuário logado, marque o item "Gestão de Equipe" (ver conhecimento Permissão de acesso do gerenciamento de tickets);
 
-•	15: Por status do fluxo: filtra o modo de exibição de ticket por status do fluxo;
+•	**15**: Por status do fluxo: filtra o modo de exibição de ticket por status do fluxo;
 
-•	16: Clique para capturar e ser responsável pelo ticket;
+•	**16**: Clique para capturar e ser responsável pelo ticket;
 
-•	17: Clique para mostrar todas as informações básicas referente ao ticket, não sendo possível nessa tela realizar qualquer tipo de alteração nos dados;
+•	**17**: Clique para mostrar todas as informações básicas referente ao ticket, não sendo possível nessa tela realizar qualquer tipo de alteração nos dados;
 
-•	18: Clique para mostrar apenas a descrição do ticket;
+•	**18**: Clique para mostrar apenas a descrição do ticket;
 
-•	19: Clique disponibilizar a funcionalidade de Mensagem, que permite a troca de mensagens entre o solicitante do ticket e o responsável pela sua resolução;
+•	**19**: Clique disponibilizar a funcionalidade de Mensagem, que permite a troca de mensagens entre o solicitante do ticket e o responsável pela sua resolução;
 
-•	20: Clique para acessar relatórios do tipo específico, ou seja, aqueles ligados ao ticket atual (na criação do relatório via opção Relatórios Smart esta característica é definida);
+•	**20**: Clique para acessar relatórios do tipo específico, ou seja, aqueles ligados ao ticket atual (na criação do relatório via opção Relatórios Smart esta característica é definida);
 
    !!! warning "ATENÇÃO"
 
        A exibição destes relatórios depende da configuração (cadastro) de relatórios específicos na funcionalidade Relatórios > Relatórios Smart > Gerador de Relatórios Smart (ver conhecimento Gerador de relatórios Smart)
 
 
-•	21: Clique para mostrar o fluxo referente ao ticket, sendo possível então observar a posição do usuário dentro do mesmo;
+•	**21**: Clique para mostrar o fluxo referente ao ticket, sendo possível então observar a posição do usuário dentro do mesmo;
 
-•	22: Clique para abrir outras ações, tais como: Delegar, Suspender, Alterar SLA, Reclassificar, Criar sub-solicitações, Exibir sub-solicitações, Agendar atividade, Criar solicitação relacionada e Imprimir solicitação;
+•	**22**: Clique para abrir outras ações, tais como: Delegar, Suspender, Alterar SLA, Reclassificar, Criar sub-solicitações, Exibir sub-solicitações, Agendar atividade, Criar solicitação relacionada e Imprimir solicitação;
 
-•	23: Solicitações: listagem de registros de tickets;
+•	**23**: Solicitações: listagem de registros de tickets;
 
-•	24: Botão de Opções: ao ser acionado apresenta o botão para cadastro de novos tickets e o botão para cadastro de ticket via template.
+•	**24**: Botão de Opções: ao ser acionado apresenta o botão para cadastro de novos tickets e o botão para cadastro de ticket via template.
 
 A lista abaixo mostra as 28 possíveis operações desta tela, em ordem alfabética:
 
