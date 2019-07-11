@@ -118,4 +118,54 @@ serem seguidos para realizar o registro:
     - **Impacto**: informe o impacto da mudança;
     - **Urgência**: informe a urgência da mudança;
     - **Prioridade**: a prioridade será estabelecida pelo sistema, após informar o impacto e urgência;
+    - **Descrição**: informe a descrição da mudança que está sendo solicitada. A descrição deve ser objetiva, incluindo toda informação necessária para realização da mudança;
+    - **Grupo Executor**: informe o grupo executor, o qual será responsável pelo atendimento da requisição de mudança. Caso não seja informado o grupo, o mesmo será estabelecido conforme definido no cadastro de Tipo de Mudança de acordo com o fluxo;
+    - **Comitê Consultivo de Mudanças**: informe o Comitê Consultivo de Mudanças, grupo responsável por avaliar, executar análise de risco e garantir o envolvimento de todas as áreas relacionadas às mudanças, aprovando ou não sua execução;
+   
+3. Clique no botão "Gravar" para efetuar o registro da requisição de mudança, onde a data, hora e usuário serão gravados automaticamente para uma futura auditoria;
+
+4. Será exibida uma mensagem confirmando o sucesso do registro da requisição de mudança.
+
+![Confirmação](images/cad-mud.img4.png)
+
+**Figura 4 - Confirmação do registro da requisição de mudança**
+
+Vinculando IC's da mudança
+----------------------------
+
+1. Informe os itens de configuração (IC's) referente à mudança:
+
+    - Ao lado direito da tela de requisição de mudança, clique em **IC's da Mudança**;
+    
+    ![Seleção](images/cad-mud.img5.png)
+    
+    **Figura 5 - Seleção de IC’s da mudança**
+    
+    - Será apresentada a tela de adição de item de configuração. Clique no ícone ![simbolo](images/simb-lupa.png) para adicionar os itens de configuração.
+    - Será apresentada a janela para pesquisa de itens de configuração. Realize a pesquisa, selecione o item de 
+    configuração referente à mudança;
+    - Será exibida a mensagem "Deseja vincular o IC?", clique em "OK";
+    - Será exibida a mensagem "Deseja informar o que será alterado?". Se desejar realizar alguma alteração no IC, clique
+    no botão "Sim" e será direcionado para a tela contendo informações gerais, características e itens relacionados ao 
+    IC selecionado. Realize as alterações necessárias e clique em "Gravar". Se não desejar realizar nenhuma alteração
+    no IC selecionado, clique no botão "Não";
+    - Será apresentada a mensagem de que o item de configuração foi gravado com sucesso, clique em "OK" para efetuar 
+    a operação. Feito isso, será relacionado o item de configuração à requisição de mudança;
+
+    ![Relacionamento](images/cad-mud.img6.png)
+    
+    **Figura 6 - Relacionamento de Item de Configuração à Requisição de Mudança**
+    
+    - Para editar as informações do item de configuração, basta clicar no ícone ![simbolo](images/simb-lapis.png) do
+    mesmo;
+    - Para visualizar as informações do item de configuração, basta clicar no ícone ![simbolo](images/simb-prancheta.png)
+    do mesmo;
+    - Caso queira remover um item de configuração que foi relacionado à requisição de mudança, basta clicar no ícone
+    ![simbolo](images/simb-menos.png) do mesmo.
+    
+    !!! note "NOTA"
+    
+        os itens de configuração relacionados à mudança serão automaticamente relacionados e apresentados na Análise de Impacto e Risco por Alvos.
+        
+
     
