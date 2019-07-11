@@ -1,6 +1,5 @@
 title: Módulo Gerenciamento de Capacidade
-Description: O Gerenciamento de Capacidade é o processo responsável por tornar possível o atendimento dos 
-requisitos relacionados à capacidade 
+Description: O Gerenciamento de Capacidade é o processo responsável por tornar possível o 
 # Módulo Gerenciamento de Capacidade
 
 Objetivo do módulo
