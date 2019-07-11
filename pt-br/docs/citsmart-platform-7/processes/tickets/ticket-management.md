@@ -717,9 +717,9 @@ Cadastro da execução do ticket
 
 4.	Após registro das informações sobre a execução da atividade para atendimento do ticket, clique no botão de opções ![ticket](images/management-6.png) e logo em seguida clique no botão ![ticket](images/management-39.png)  para gravar e avançar o fluxo, onde o ticket será encaminhado para fase de validação e encerramento. Mas, caso queira gravar somente as informações registradas sobre a execução do ticket e manter a tarefa atual, clique no botão ![ticket](images/management-10.png) .
 
-    !!! warning "ATENÇÃO"
+   !!! warning "ATENÇÃO"
 
-       Caso tenha optado por "Gravar a Solução/Resposta na Base de Conhecimento", ao gravar o ticket, o conhecimento será criado e vinculado ao ticket.
+       Caso tenha optado por "Gravar a Solução/Resposta na Base de Conhecimento", ao gravar o ticket, o conhecimento será criado e            vinculado ao ticket.
 
 Validação e encerramento do ticket
 ----------------------------------
