@@ -676,7 +676,7 @@ Captura de ticket
 
     !!! warning "ATENÇÃO"
     
-        Uma vez capturado o ticket, passa a ser possível executar a vinculação dele com vários outros itens: Itens de configuração do solicitante, solicitações relacionadas, sub-solicitações, anexos, agenda, problema, mudança, liberação, itens de configuração relacionado, projeto, conhecimento e leituras de e-mails (vide a figura 6), conforme explanado nas seções seguintes.
+        Uma vez capturado o ticket, passa a ser possível executar a vinculação dele com vários outros itens: Itens de configuração do           solicitante, solicitações relacionadas, sub-solicitações, anexos, agenda, problema, mudança, liberação, itens de configuração           relacionado, projeto, conhecimento e leituras de e-mails (vide a figura 6), conforme explanado nas seções seguintes.
 
 
 Cadastro da execução do ticket
