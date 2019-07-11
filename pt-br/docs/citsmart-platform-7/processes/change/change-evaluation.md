@@ -62,8 +62,8 @@ opção Iniciar/Executar tarefa da mesma, conforme indicado na imagem abaixo:
 
 - Verifique se a requisição de mudança foi atendida conforme solicitado;
 - Registre as informações necessárias sobre a avaliação da requisição de mudança:
-   a. Clique no botão "Adicionar registro de execução";
-   b. Descreva as informações sobre a execução de sua atividade.
+   - Clique no botão "Adicionar registro de execução";
+   - Descreva as informações sobre a execução de sua atividade.
 - No campo **Fechamento**, informe o fechamento da requisição de mudança, ou seja, os detalhes da finalização da execução da 
 requisição de mudança;
 -  Após registro das informações sobre a avaliação e finalização da requisição de mudança, clique no botão "Gravar e avançar o fluxo"
