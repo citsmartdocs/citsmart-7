@@ -40,7 +40,7 @@ padrão da funcionalidade: **Descrição** e **Situação**.
 
 2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Editar" e "Excluir".
 
-    ![Itens](just-mud.img2.png)
+    ![Itens](images/just-mud.img2.png)
     
     **Figura 2 - Tela de itens**
     
