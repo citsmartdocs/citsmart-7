@@ -5,9 +5,9 @@ Description: Tem por objetivo elucidar de forma clara e didática a funcionalida
 Este conhecimento tem por objetivo elucidar de forma clara e didática a funcionalidade ticket como um todo, explicando concisamente suas opções.
 A tela abaixo mostra a principal tela do módulo tickets:
 
-    ![ticket](images/management-1.png)
+   ![ticket](images/management-1.png)
 
-    **Figura 1 - Tela de gerenciamento de tickets**
+   **Figura 1 - Tela de gerenciamento de tickets**
 
 •	1: Campo de pesquisa: permite buscar os tickets;
 
