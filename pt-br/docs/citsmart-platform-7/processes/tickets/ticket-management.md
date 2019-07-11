@@ -603,7 +603,7 @@ Vinculando conhecimento
 2.	Será apresentada a tela de registro do determinado ticket. Clique no botão de menu ![ticket](images/management-11.png) e após isso, clique em Conhecimento;
 3.	Será exibida a tela de Conhecimento, clique no botão Pesquisa de Conhecimentos. Será aberto a tela de pesquisa da base de conhecimento;
 4.	Pesquise e selecione o conhecimento desejado para efetuar a vinculação do mesmo ao ticket;
-5.	Se desejar excluir o vínculo do conhecimento ao ticket, basta clicar no ícone ![ticket](images/management-11.png) do mesmo.
+5.	Se desejar excluir o vínculo do conhecimento ao ticket, basta clicar no ícone ![ticket](images/management-21.png) do mesmo.
 
 Vinculando e-mails lidos
 ------------------------
