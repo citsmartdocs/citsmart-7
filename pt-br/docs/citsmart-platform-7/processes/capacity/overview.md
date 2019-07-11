@@ -37,3 +37,21 @@ Acesse o menu principal **Processos ITIL > Gerência de Capacidade**.
 
 ![Menu](images/mod-cap.img1.png)
 
+**Figura 1 - Menu do módulo gerência de capacidade**
+
+Principal funcionalidade (em destaque)
+----------------------------------------
+
+Na seção "Veja também" é possível acessar a(s) funcionalidade(s) principal(is) deste módulo, desta forma se pode obter um conhecimento mais detalhado.
+
+Veja também
+--------------
+
+- Cadastro e pesquisa de indicadores de capacidade;
+- Importação de dados de indicadores de capacidade.
+
+!!! tip "About"
+
+    <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
+    <b>Updated:</b>07/11/2019 – Larissa Lourenço
+
