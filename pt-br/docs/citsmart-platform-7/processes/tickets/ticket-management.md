@@ -49,7 +49,7 @@ A tela abaixo mostra a principal tela do módulo tickets:
 
 -	**20**: Clique para acessar relatórios do tipo específico, ou seja, aqueles ligados ao ticket atual (na criação do relatório via opção Relatórios Smart esta característica é definida);
 
-   !!! warning "ATENÇÃO"
+    !!! warning "ATENÇÃO"
 
        A exibição destes relatórios depende da configuração (cadastro) de relatórios específicos na funcionalidade Relatórios > Relatórios Smart > Gerador de Relatórios Smart (ver conhecimento Gerador de relatórios Smart)
 
