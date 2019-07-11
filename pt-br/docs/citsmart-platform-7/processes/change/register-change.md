@@ -167,5 +167,138 @@ Vinculando IC's da mudança
     
         os itens de configuração relacionados à mudança serão automaticamente relacionados e apresentados na Análise de Impacto e Risco por Alvos.
         
+Vinculando serviços do IC
+--------------------------
 
+1. Se houver serviços relacionados ao(s) IC(s) escolhido(s) na requisição de mudança, para consultá-lo(s), proceda da
+seguinte maneira:
     
+    - Ao lado direito da tela de requisição de mudança, clique em **Serviços do IC**;
+    
+    ![Seleção](images/cad-mud.img7.png)
+    
+    **Figura 7 - Seleção de serviços do IC**
+    
+    - Será apresentada a tela de consulta de serviços do IC, conforme ilustrada na figura abaixo:
+    
+    ![Relacionamento](images/cad-mud.img8.png)
+    
+    **Figura 8 - Relacionamento de serviços ao item de configuração**
+    
+    - Clique no botão ![simbolo](images/simb-atual.png) , caso queira vincular esse serviço à requisição de mudança;
+    - Clique no botão "Fechar" para retornar à tela de Registro de Requisição de Mudança;
+    
+Vinculando serviços da mudança
+-------------------------------
+
+1. Informe o(s) serviço(s) referente à mudança:
+
+   - Ao lado direito da tela de requisição de mudança, clique na opção **Serviços da Mudança**;
+   
+   ![Seleção](images/cad-mud.img9.png)
+   
+   **Figura 9 - Seleção serviço**
+   
+   - Clique no ícone ![simbolo](images/simb-lupa.png) para adicionar o serviço;
+   - Será exibida uma janela para pesquisa do serviço. Realize a pesquisa e selecione o serviço. Feito isso, o serviço
+   será relacionado à mudança;
+   
+   ![Relacionamento](images/cad-mud.img10.png)
+   
+   **Figura 10 - Relacionamento de serviços à mudança**
+   
+   - Caso queira visualizar o desenho do mapa do serviço, basta clicar no ícone ![simbolo](images/simb-lupa.png) ;
+   - Caso queira remover um serviço que foi relacionado à mudança, basta clicar no ícone ![simbolo](images/simb-menos.png) .
+   
+!!! note "NOTA"
+
+    Os serviços relacionados à mudança serão automaticamente relacionados e apresentados na Análise de Impacto e Risco por Alvos.
+    
+Vinculando IC's do serviço da mudança
+---------------------------------------
+
+1. Se houver IC's relacionados ao(s) serviço(s) da mudança escolhido(s) na requisição de mudança, para consultá-lo(s),
+proceda da seguinte maneira:
+
+ - Ao lado direito da tela de requisição de mudança, clique em **IC's dos Serviços da Mudança**;
+ 
+ ![Seleção](images/cad-mud.img11.png)
+ 
+ **Figura 11 - Seleção de IC's dos serviços da mudança**
+ 
+ - Será apresentada a tela de consulta de IC's do Serviço da Mudança, conforme ilustrada na figura abaixo:
+ 
+ ![Itens de configuração](images/cad-mud.img12.png)
+ 
+ **Figura 12 - IC's do serviço da mudança**
+ 
+ - Clique no botão ![simbolo](images/simb-atual.png) , caso queira vincular o IC à mudança;
+ - Clique no botão "Fechar" para retornar à tela de Registro de Requisição de Mudança.
+ 
+Vinculando anexos
+------------------
+
+1. Caso queira anexar um arquivo na requisição de mudança, proceda da seguinte maneira:
+
+  - Ao lado direito da tela de requisição de mudança, clique em **Anexos**;
+  
+  ![Anexos](images/cad-mud.img13.png)
+  
+  **Figura 13 - Seleção de anexos**
+  
+  - Será apresentada a tela de anexo de arquivos, conforme ilustrada abaixo:
+  
+  ![Tela de anexos](images/cad-mud.img14.png)
+  
+  **Figura 14 - Tela de anexos**
+  
+  - Clique no botão "Escolher arquivo". Será apresentada uma janela, onde poderá selecionar os arquivos 
+  desejados;
+  - Selecione o arquivo;
+  - Informe a descrição do arquivo e clique no botão "Adicionar";
+  - Após adição do arquivo, clique no botão "Fechar" para retornar à tela de Registro de Requisição de Mudança;
+ 
+Vinculando checklist
+---------------------
+
+1. Caso queira adiciona um Checklist à mudança, proceda da seguinte maneira:
+
+  - Ao lado direito da tela de requisição de mudança, clique em **Checklist**;
+  
+  ![Checklist](images/cad-mud.img15.png)
+  
+  **Figura 15 - Seleção de checklist**
+  
+  - Será apresentada a tela de checklist, conforme ilustrada abaixo:
+  
+  ![Vinculando](images/cad-mud.img16.png)
+  
+  **Figura 16 - Tela de checklist**
+  
+  - Selecione um questionário vinculado à mudança cadastrada. Responda os campos nele contido. Feito isso, o 
+  checklist será vinculado à mudança.
+  
+Vinculando base de conhecimento
+---------------------------------
+
+1. Caso queira consultar a Base de Conhecimento, proceda da seguinte maneira:
+
+ - Ao lado direito da tela de requisição de mudança, clique em **Base de Conhecimento**;
+ 
+ ![Seleção](images/cad-mud.img17.png)
+ 
+ **Figura 17 - Seleção de base de conhecimento**
+ 
+  - Será apresentada a tela de consulta à Base de Conhecimento, conforme ilustrada na figura abaixo:
+  
+  ![Pesquisa](images/cad-mud.img18.png)
+  
+  **Figura 18 - Tela de consulta à base de conhecimento**
+  
+  - Realize a pesquisa do conhecimento desejado;
+  - Após a pesquisa, feche a janela para retornar à tela de Registro de Requisição de Mudanças.
+  
+!!! tip "About"
+
+    <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
+    <b>Updated:</b>07/11/2019 – Larissa Lourenço
