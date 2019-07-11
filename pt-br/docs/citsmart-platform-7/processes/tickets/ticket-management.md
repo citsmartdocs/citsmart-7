@@ -1470,55 +1470,55 @@ Pesquisa avançada
 
 1.	Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a localização dos itens desejados:
 
--	Data de abertura: informar o período que deseja verificar os registros de ticket;
+   -	Data de abertura: informar o período que deseja verificar os registros de ticket;
 
--	Data de encerramento: informar o período de encerramento do ticket para verificar os tickets que foram fechados no determinado período;
+   -	Data de encerramento: informar o período de encerramento do ticket para verificar os tickets que foram fechados no determinado período;
 
--	Número: informar o número de identificação do ticket, caso queira verificar um ticket específico;
+   -	Número: informar o número de identificação do ticket, caso queira verificar um ticket específico;
 
-  -	Ordenação: definir a ordem em que os tickets serão apresentados;
+   -	Ordenação: definir a ordem em que os tickets serão apresentados;
 
-  -	Contrato: informar o contrato para verificar os tickets relacionados ao mesmo;
+   -	Contrato: informar o contrato para verificar os tickets relacionados ao mesmo;
 
-  -	Catálogo: informar o tipo de catálogo de serviços para verificar os tickets referentes;
+   -	Catálogo: informar o tipo de catálogo de serviços para verificar os tickets referentes;
 
-  -	Serviço/Serviço de Apoio: informar o serviço caso deseje verificar os tickets referente ao mesmo;
+   -	Serviço/Serviço de Apoio: informar o serviço caso deseje verificar os tickets referente ao mesmo;
 
-  -	Tipo de solicitação: informar o tipo de ticket para verificação dos tickets;
+   -	Tipo de solicitação: informar o tipo de ticket para verificação dos tickets;
 
-  -	Atividade (Requisição/Incidente): informar o serviço caso deseje verificar os tickets referentes ao mesmo;
+   -	Atividade (Requisição/Incidente): informar o serviço caso deseje verificar os tickets referentes ao mesmo;
 
-  -	Considerar Hierarquia: marcar este campo caso queira considerar a hierarquia do serviço;
+   -	Considerar Hierarquia: marcar este campo caso queira considerar a hierarquia do serviço;
 
-  -	Item de Configuração: informar o item de configuração para verificar os tickets relacionados ao mesmo;
+   -	Item de Configuração: informar o item de configuração para verificar os tickets relacionados ao mesmo;
 
-  -	Situação: informar a situação para verificar os tickets referentes;
+   -	Situação: informar a situação para verificar os tickets referentes;
 
-  -	Prioridade: informar a prioridade para verificar os tickets referentes;
+   -	Prioridade: informar a prioridade para verificar os tickets referentes;
 
-  -	Grupo executor/solucionador: informar o grupo executor para verificar os tickets que foram direcionados ao mesmo;
+   -	Grupo executor/solucionador: informar o grupo executor para verificar os tickets que foram direcionados ao mesmo;
 
-  -	Fase: informar a fase do ticket para verificar os tickets que se encontram na determinada fase;
+   -	Fase: informar a fase do ticket para verificar os tickets que se encontram na determinada fase;
 
-  -	Origem: informar a origem do contato do ticket para verificar os tickets relacionados;
+   -	Origem: informar a origem do contato do ticket para verificar os tickets relacionados;
 
-  -	Unidade: informar a unidade desejada para verificar os tickets relacionados a mesma;
+   -	Unidade: informar a unidade desejada para verificar os tickets relacionados a mesma;
 
    !!! note "NOTA"
 
        Caso o parâmetro “61 – Vincula contratos a unidade” esteja habilitado, serão disponibilizadas somente as unidades vinculadas ao contrato ao qual tem vínculo com os grupos em que pertence.
 
-  -	Localidade: informar a localidade para verificar os tickets relacionados ao mesmo;
+   -	Localidade: informar a localidade para verificar os tickets relacionados ao mesmo;
 
-  -	Palavra-chave: informar a palavra-chave para verificar os tickets relacionados ao mesmo;
+   -	Palavra-chave: informar a palavra-chave para verificar os tickets relacionados ao mesmo;
 
-  -	Solicitante: informar o solicitante de serviços para verificar seus tickets;
+   -	Solicitante: informar o solicitante de serviços para verificar seus tickets;
 
-  -	Criado por: informar o responsável que fez o registro de ticket para verificar os tickets que foram registrados pelo mesmo;
+   -	Criado por: informar o responsável que fez o registro de ticket para verificar os tickets que foram registrados pelo mesmo;
 
-  -	Responsável Atual: informar o responsável pelo atendimento do ticket para os tickets que foram atendidos pelo mesmo;
+   -	Responsável Atual: informar o responsável pelo atendimento do ticket para os tickets que foram atendidos pelo mesmo;
 
-  -	Exibir campo de descrição em relatórios?: marcar este campo caso queira que o conteúdo do campo “Descrição” do ticketseja exibido no relatório;
+   -	Exibir campo de descrição em relatórios?: marcar este campo caso queira que o conteúdo do campo “Descrição” do ticketseja exibido no relatório;
 
    !!! info "IMPORTANTE"
 
@@ -1531,12 +1531,12 @@ Pesquisa avançada
 2.	Após definir os filtros, clique no botão Pesquisar. Feito isso, serão listados os tickets, conforme os filtros escolhidos;
 3.	Realizada a pesquisa, escolha um dos formatos de arquivo (PDF, XLS e CSV) para gerar o relatório. Depois de escolher o formato, o sistema verificará o parâmetro 261 e encontrando registro maior que a quantidade permitida, será exibida a seguinte mensagem:
 
-  -	"A quantidade de registros encontrados ultrapassa a quantidade máxima permitida de visualização. Favor redefinir os filtros de pesquisa."
+   -	"A quantidade de registros encontrados ultrapassa a quantidade máxima permitida de visualização. Favor redefinir os filtros de pesquisa."
 
 4.	Porém, caso a quantidade de registro retornada da pesquisa for menor que o limitado no parâmetro 261, então o sistema verifica a configuração do parâmetro 378;
 5.	É verificada a quantidade de registros para gerar o relatório em 2º plano, se a quantidade for maior que a quantidade parametrizada, então o sistema exibe a seguinte mensagem:
 
-  -	"O relatório está sendo processado. Uma notificação lhe será enviada quando estiver pronto."
+   -	"O relatório está sendo processado. Uma notificação lhe será enviada quando estiver pronto."
 
 6.	Caso o arquivo a ser gerado for muito extenso, o sistema disparará uma notificação na tela principal, informando que o download do mesmo está finalizando. Ao concluído, clique no botão Visualizar e acesse o relatório através do link disponibilizado;
 7.	O sistema retorna a quantidade de chamados encontrados acima da apresentação da pesquisa.
