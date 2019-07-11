@@ -121,15 +121,15 @@ Cadastro de ticket
 14.	O solicitante deve estar incluído no grupo que está vinculado ao contrato para que seja possível registrar o ticket;
 15.	Informe o conteúdo abaixo nos parâmetros (ver conhecimento Regras de parametrização - tickets):
 
-•	Parâmetro 9:
+  -	Parâmetro 9:
 
-•	Parâmetro 40;
+  -	Parâmetro 40;
 
-•	Parâmetro 41;
+  -	Parâmetro 41;
 
-•	Parâmetro 260: default 1-Lista sem restrição;
+  -	Parâmetro 260: default 1-Lista sem restrição;
 
-•	Parâmetro 343: default: "S".
+  -	Parâmetro 343: default: "S".
 
 ### Filtros (pesquisa rápida)
 
