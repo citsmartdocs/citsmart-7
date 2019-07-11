@@ -1204,7 +1204,7 @@ Cadastro e vinculação de ticket relacionado
     
 5.	Preencha os campos com as informações necessárias e clique no botão Gravar para efetuar o registro;
 
-    !!! warning "ATENÇÃO"
+   !!! warning "ATENÇÃO"
     
        O preenchimento das respostas de qualquer questionário previamente cadastro só pode ser respondido nesta tela pois a mesma fornece um cadastro de ticket mais amplo.
 
