@@ -760,7 +760,7 @@ Cadastro de ocorrência referente ao ticket
 
     ![ticket](images/management-42.png)
 
-    **Figura 29 - Tela de cadastro de ocorrência*
+    **Figura 29 - Tela de cadastro de ocorrência**
     
 4.	Preencha os campos conforme orientação abaixo:
 
@@ -1061,7 +1061,7 @@ Reclassificação do ticket
 3.	Reclassifique as informações do serviço. Após isso, clique no botão de opções ![ticket](images/management-6.png) e logo em seguida clique no botão gravar ![ticket](images/management-10.png). Feito isso, o ticket será reclassificado.
 
 
-    !!! warning "ATENÇÃO"
+   !!! warning "ATENÇÃO"
     
        Após efetuar a alteração das informações do ticket (incidente), será enviado um e-mail para o solicitante notificando sobre a alteração feita. Se essa alteração for na descrição do ticket, será apresentado no e-mail de notificação (em destaque) a alteração feita na descrição. Lembrando que esse e-mail de notificação somente será enviado caso tenha habilitado o envio do mesmo no parâmetro "231 - Ativar envio de e-mail quando for editado um incidente (S ou N - Default: S)". A reclassificação inclui uma delegação implícita para o Grupo ou Atendente destino, em versões anteriores, o usuário tinha que: reclassificar, capturar a atividade e delegar a outro grupo
 
@@ -1210,17 +1210,17 @@ Cadastro e vinculação de ticket relacionado
 
 6.	Ao selecionar o botão Criar Relacionada por cópia são reaproveitados os campos descritos na solicitação principal (pai).
 
-     !!! warning "ATENÇÃO"
+    !!! warning "ATENÇÃO"
  
-         O botão Criar relacionada por cópia somente estará disponível se o parâmetro 385 for ativado.
+        O botão Criar relacionada por cópia somente estará disponível se o parâmetro 385 for ativado.
 
 •	São preenchidos automaticamente os campos Solicitante (devidamente com suas ações automáticas de ramal, telefone e unidade) e Descrição;
 
 •	São preenchidas de forma automática também as abas: Anexo, Itens de Configuração e Base conhecimento;
 
-    !!! info "INFORMAÇÃO"
+   !!! info "INFORMAÇÃO"
 
-         As informações inseridas de forma automática são advindas da solicitação considerada como pai, ou seja, da solicitação que possibilitou a origem da solicitação relacionada
+        As informações inseridas de forma automática são advindas da solicitação considerada como pai, ou seja, da solicitação que possibilitou a origem da solicitação relacionada
 
 
 •	Informe a atividade e caso a mesma possua questionário, o sistema disponibilizará o questionário para resposta;
@@ -1506,7 +1506,7 @@ Pesquisa avançada
 
    !!! note "NOTA"
 
-        Caso o parâmetro “61 – Vincula contratos a unidade” esteja habilitado, serão disponibilizadas somente as unidades vinculadas ao contrato ao qual tem vínculo com os grupos em que pertence.
+       Caso o parâmetro “61 – Vincula contratos a unidade” esteja habilitado, serão disponibilizadas somente as unidades vinculadas ao contrato ao qual tem vínculo com os grupos em que pertence.
 
 •	Localidade: informar a localidade para verificar os tickets relacionados ao mesmo;
 
