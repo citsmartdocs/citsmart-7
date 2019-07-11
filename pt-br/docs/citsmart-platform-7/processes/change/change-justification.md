@@ -47,7 +47,7 @@ padrão da funcionalidade: **Descrição** e **Situação**.
 3. Para realizar a pesquisa de uma justificativa de requisição de mudança, informe a descrição e/ou situação da mesma. Após
 isso, será exibido o registro conforme os dados informados;
 
-4. Para alterar os dados do registro de justificativa de requisição de mudança, clique no botão Editar. Feito isso, será 
+4. Para alterar os dados do registro de justificativa de requisição de mudança, clique no botão "Editar". Feito isso, será 
 direcionado para a tela de cadastro exibindo o conteúdo referente ao registro selecionado.
 
 Preenchimento dos campos cadastrais
