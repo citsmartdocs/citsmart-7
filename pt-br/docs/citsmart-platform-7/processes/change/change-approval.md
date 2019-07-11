@@ -25,9 +25,9 @@ Filtros
 1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
 facilitando a localização dos itens desejados:
 
-- Número da mudança;
-- Atribuída/Compartilhada;
-- Itens por página.
+ - Número da mudança;
+ - Atribuída/Compartilhada;
+ - Itens por página.
 
 ![Pesquisa](images/aprov-mud.img1.png)
 
