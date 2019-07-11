@@ -348,7 +348,7 @@ Vinculando anexos
 ----------------
 
 1.	Localize o ticket desejado, pressione sobre o mesmo e logo em seguida clique no ícone ![ticket](images/management-13.png) ;
-2.	Será apresentada a tela de registro do determinado ticket. Clique no botão de menu ![ticket](images/management-11.png))  e após isso, clique em Anexos;
+2.	Será apresentada a tela de registro do determinado ticket. Clique no botão de menu ![ticket](images/management-11.png)  e após isso, clique em Anexos;
 3.	Será exibida a tela de Anexos, vincule o arquivo desejado, conforme a figura abaixo:
 
     ![ticket](images/management-18.png)
