@@ -56,8 +56,7 @@ informações desejadas e clicar no botão "Gravar".
 Preenchimento dos campos cadastrais
 -------------------------------------
 
-1. Será apresentada a tela de **Cadastro de Indicadores de Capacidade/Performance, conforme
-ilustrada na figura abaixo:
+1. Será apresentada a tela de **Cadastro de Indicadores de Capacidade/Performance**, conforme ilustrada na figura abaixo:
 
 ![Cadastro](images/ind-cap.img3.png)
 
