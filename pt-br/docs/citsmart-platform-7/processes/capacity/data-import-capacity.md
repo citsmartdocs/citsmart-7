@@ -16,9 +16,9 @@ Realizando importação de dados de indicadores de capacidade/performance
 2. Clique na guia **Importar Dados**, será apresentada a tela de importação de dados, conforme 
 ilustrada na figura abaixo:
 
-![Importação](images/dados-cap.img1.png)
+    ![Importação](images/dados-cap.img1.png)
 
-**Figura 1 - Tela de importação de dados**
+    **Figura 1 - Tela de importação de dados**
 
 3. Anexe o arquivo para importação dos dados;
 
