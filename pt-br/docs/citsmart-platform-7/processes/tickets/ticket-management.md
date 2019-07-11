@@ -1243,11 +1243,11 @@ Cadastro e vinculação de ticket relacionado
 
 3.	Preencha os campos conforme orientação abaixo:
 
-•	Solicitante: informe o nome do solicitante, ou seja, o nome da pessoa que está solicitando a abertura de incidente ou requisição de serviço;
+  -	Solicitante: informe o nome do solicitante, ou seja, o nome da pessoa que está solicitando a abertura de incidente ou requisição de serviço;
 
-   -	![ticket](images/management-71.png)  : ao clicar no ícone, permite vincular o ticket relacionado ao usuário logado;
+     -	![ticket](images/management-71.png)  : ao clicar no ícone, permite vincular o ticket relacionado ao usuário logado;
     
-   -	![ticket](images/management-72.png) : ao clicar no ícone, permite vincular o ticket relacionado ao responsável do ticket principal.
+     -	![ticket](images/management-72.png) : ao clicar no ícone, permite vincular o ticket relacionado ao responsável do ticket principal.
 
    !!! note "NOTA"
 
