@@ -91,4 +91,31 @@ serem seguidos para realizar o registro:
         - Caso não encontre o registro do solicitante, é possível realizar um cadastro rápido clicando no 
         ícone ![simbolo](images/simb-mais.png).
     - **Nome do Contato**: informe o nome do contato;
+    - **E-mail**: informe o e-mail do solicitante para contato;
+    - **Telefone**: informe código de área (DDD) e o número de telefone do solicitante, para contato;
+    - **Ramal**: informe o número do ramal do solicitante para contato;
+    - **Unidade**: selecione a unidade do solicitante;
+    - **Localidade Física**: informe a localização física do solicitante;
+    - **Observação**: descreva as observações sobre o contato, caso seja necessário.
+    
+    - Registre as informações da requisição, conforme indicadas abaixo:
+    
+    ![Cadastro](images/cad-mud.img3.png)
+    
+    **Figura 3 - Tela de cadastro de nova mudança**
+    
+    - **Título**: informe o título da requisição de mudança;
+    - **Tipo**: informe o tipo de mudança que está sendo solicitada;
+       - **Mudança Padrão**: é uma mudança que é previamente pré-aprovada pelo Gerenciamento de Mudança e já possui procedimentos aceitos e estabelecidos;
+       - **Mudança Normal**: é uma mudança que segue um fluxo normal de avaliação, aprovação e autorização;
+       - **Mudança Emergencial**: é uma mudança em um serviço que pretende reparar emergencialmente um erro no serviço de TI.
+       
+       !!! note "NOTA"
+       
+           Mudança Padrão e Mudança Emergencial não requer informações da categoria e comitê consultivo de mudança, pois as mesmas não participam do Votação da Requisição de Mudança.
+           
+    - Se o tipo de requisição de mudança informado for "Normal", informe a **Categoria**;
+    - **Impacto**: informe o impacto da mudança;
+    - **Urgência**: informe a urgência da mudança;
+    - **Prioridade**: a prioridade será estabelecida pelo sistema, após informar o impacto e urgência;
     
