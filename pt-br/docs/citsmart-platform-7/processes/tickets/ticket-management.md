@@ -1450,15 +1450,15 @@ Pesquisa avançada
 1.	Possuir chamados abertos, em qualquer situação.
 2.	Informe os conteúdos abaixo nos parâmetros (ver conhecimento Regras de parametrização - ticket):
 
-  -	Parâmetro 40;
+    -	Parâmetro 40;
 
-  -	Parâmetro 41;
+    -	Parâmetro 41;
 
-  -	Parâmetro 260: default 1-Lista sem Restrição;
+    -	Parâmetro 260: default 1-Lista sem Restrição;
 
-  -	Parâmetro 261;
+    -	Parâmetro 261;
 
-  -	Parâmetro 343: default: "S";
+    -	Parâmetro 343: default: "S";
 
 3.	Configure o parâmetro 378 (ver conhecimento Regras de parametrização - sistema).
 
