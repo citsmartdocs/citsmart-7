@@ -1342,7 +1342,7 @@ Esta técnica faz parte da estratégia comum da administração chamada “Gest�
 
 1.	O quadro Kanban recupera os tickets de cada atendente (usuário) que compõem o grupo selecionado. Esses tickets são agrupados por atendente numa forma gráfica, didática e dinâmica;
 2.	As informações estão estruturadas com modos de exibição, filtros, legendas e raias que agrupam os tickets de cada atendente;
-3.	Clique no ícone ![ticket](images/okta.img1.png) . Será apresentada a tela principal da funcionalidade no modo de exibição "quadro Kanban", conforme ilustrado na figura abaixo:
+3.	Clique no ícone ![ticket](images/management-91.png) . Será apresentada a tela principal da funcionalidade no modo de exibição "quadro Kanban", conforme ilustrado na figura abaixo:
 
     ![ticket](images/management-76.png)
 
