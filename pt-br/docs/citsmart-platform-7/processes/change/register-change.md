@@ -86,3 +86,9 @@ serem seguidos para realizar o registro:
     **Figura 2 - Tela de cadastro de nova mudança**
     
     - **Contrato**: informe o contrato referente a requisição de mudança;
+    - **Solicitante**: informe o solicitante, ou seja, a pessoa que está solicitando a mudança;
+        - Clique no campo solicitante. Após isso, será exibida uma tela para pesquisa de solicitante, realize a pesquisa e selecione o solicitante;
+        - Caso não encontre o registro do solicitante, é possível realizar um cadastro rápido clicando no 
+        ícone ![simbolo](images/simb-mais.png).
+    - **Nome do Contato**: informe o nome do contato;
+    
