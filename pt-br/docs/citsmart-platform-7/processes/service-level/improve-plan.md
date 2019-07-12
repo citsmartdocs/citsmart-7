@@ -158,7 +158,7 @@ Registrando ações e monitoramento do objetivo do plano de melhoria
     para registro de ações e outra para registro de monitoramento conforme
     ilustrado na figura abaixo:
 
-![Criar](images/improve-plan-6.png)
+![Criar](images/improve-plan-8.png)
 
 **Figura 6 - Área para registro de ações e monitoramento**
 
@@ -167,7 +167,7 @@ Registrando ações e monitoramento do objetivo do plano de melhoria
 1.  Clique no botão *Cadastrar Ação*. Feito isso, será apresentada uma tela para
     registro das informações da ação conforme ilustrado na figura abaixo:
 
-    ![Criar](images/improve-plan-6.png)
+    ![Criar](images/improve-plan-9.png)
 
     **Figura 7 - Tela de cadastro de ação**
 
