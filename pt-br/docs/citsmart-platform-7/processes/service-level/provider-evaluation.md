@@ -44,8 +44,8 @@ Listagem de itens
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** Serviço, Situação, Tipo de Demanda do Serviço, Tem SLA?,
-    Data de Início **e **Data Fim.**
+    funcionalidade: Serviço, Situação, Tipo de Demanda do Serviço, Tem SLA?,
+    Data de Início e Data Fim.
 
 2.  Será gerado o relatório de desempenho do fornecedor por serviço, conforme
     exemplo ilustrado na figura abaixo:
