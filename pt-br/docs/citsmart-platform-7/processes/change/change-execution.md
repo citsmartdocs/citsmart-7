@@ -21,11 +21,11 @@ Filtros
 1.Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da
 funcionalidade, facilitando a localização dos itens desejados:
 
-    - Número da mudança;
+- Número da mudança;
     
-    - Atribuída/Compartilhada;
+- Atribuída/Compartilhada;
     
-    - Itens por página.
+- Itens por página.
     
 ![Filtros](images/exec-mud.img1.png)
     
