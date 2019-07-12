@@ -88,10 +88,10 @@ Importando cronogramas MS-Project para atividades de mudança
     
     **Figura 5 - Importar MS Project**
     
-            - Clique no botão "Escolher arquivo". Será apresentada uma janela, onde poderá selecionar o arquivo desejado;
-            - Selecione o arquivo;
-            - Informe a descrição do arquivo e clique no botão "Adicionar";
-            - Após adição do arquivo, clique no botão Importar e confirme a execução da importação.
+- Clique no botão "Escolher arquivo". Será apresentada uma janela, onde poderá selecionar o arquivo desejado;
+- Selecione o arquivo;
+- Informe a descrição do arquivo e clique no botão "Adicionar";
+- Após adição do arquivo, clique no botão Importar e confirme a execução da importação.
 
 Anexando plano reversão
 --------------------------
@@ -162,13 +162,15 @@ Lista de projetos
 Planejando a análise de impacto e risco por alvos
 ---------------------------------------------------
 
-##Pré-condições##
+Pré-condições
+--------------
 
 1. Depende do tipo cadastrado em tipo de mudança (ver conhecimento Cadastro e pesquisa de Tipo de Mudança);
 
 2. Informe a "análise de impacto e risco" envolvido na mudança, que pode ser "por alvo" ou "simplificado".
 
-##Análise de Impacto e Risco Por Alvos##
+Análise de Impacto e Risco Por Alvos
+--------------------------------------
 
 1. Na tela de listagem de **Gerenciamento de Mudanças > botão Ação > Iniciar/Executar tarefa**;
 
@@ -299,7 +301,8 @@ Planejando a análise de impacto e risco por alvos
     clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para
     uma futura auditoria.
     
-##Análise de Impacto e Risco Simplificado##
+Análise de Impacto e Risco Simplificado
+----------------------------------------
 
     - Ao lado direito da tela de requisição de mudança, clique na opção **Análise de Impacto e Risco Simplificado**;
     
