@@ -38,15 +38,15 @@ Listagem de itens
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** Atividade, Situação, Tipo de demanda do Serviço, Tem SLA?,
-    Data de Início, Data Fim **e **Quantidade Requisições/Incidentes.**
+    funcionalidade: Atividade, Situação, Tipo de demanda do Serviço, Tem SLA?,
+    Data de Início, Data Fim e Quantidade Requisições/Incidentes.
 
 2.  Será apresentada a tela de **Avaliação de Contrato**, conforme ilustrada na
     figura a seguir:
 
-![Criar conta okta](images/contract-evaluation.png)
+    ![Criar conta](images/contract-evaluation.png)
 
-**Figura 1 - Tela de consulta de desempenho do contrato por serviço**
+    **Figura 1 - Tela de consulta de desempenho do contrato por serviço**
 
 1.  Selecione o contrato e informe o período desejado;
 
