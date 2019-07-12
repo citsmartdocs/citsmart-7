@@ -43,6 +43,8 @@ e "Ação'.
 
 ![Listagem](images/exec-mud.img2.png)
 
+**Figura 2 - Tela de listagem de mudança**
+
 Preenchimento dos campos cadastrais
 ------------------------------------
 
