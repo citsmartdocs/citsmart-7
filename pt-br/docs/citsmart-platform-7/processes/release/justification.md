@@ -12,7 +12,7 @@ Como acessar
 ------------
 
 1.  Acesse a funcionalidade de Justificativa de Requisição de
-    Liberação** **através da navegação no menu principal **Processos ITIL
+    Liberação através da navegação no menu principal **Processos ITIL
     \> Gerência de Liberação \> Justificativa Requisição Liberação**.
 
 Pré-condições
