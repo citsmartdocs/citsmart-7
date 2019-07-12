@@ -106,9 +106,9 @@ serem seguidos para realizar o registro:
     
     - **Título**: informe o título da requisição de mudança;
     - **Tipo**: informe o tipo de mudança que está sendo solicitada;
-       - **Mudança Padrão**: é uma mudança que é previamente pré-aprovada pelo Gerenciamento de Mudança e já possui procedimentos aceitos e estabelecidos;
-       - **Mudança Normal**: é uma mudança que segue um fluxo normal de avaliação, aprovação e autorização;
-       - **Mudança Emergencial**: é uma mudança em um serviço que pretende reparar emergencialmente um erro no serviço de TI.
+        - **Mudança Padrão**: é uma mudança que é previamente pré-aprovada pelo Gerenciamento de Mudança e já possui procedimentos aceitos e estabelecidos;
+        - **Mudança Normal**: é uma mudança que segue um fluxo normal de avaliação, aprovação e autorização;
+        - **Mudança Emergencial**: é uma mudança em um serviço que pretende reparar emergencialmente um erro no serviço de TI.
        
     !!! note "NOTA"
        
@@ -193,11 +193,11 @@ Vinculando serviços da mudança
 
 1. Informe o(s) serviço(s) referente à mudança:
 
-   - Ao lado direito da tela de requisição de mudança, clique na opção **Serviços da Mudança**;
+    - Ao lado direito da tela de requisição de mudança, clique na opção **Serviços da Mudança**;
    
-   ![Seleção](images/cad-mud.img9.png)
+    ![Seleção](images/cad-mud.img9.png)
    
-   **Figura 9 - Seleção serviço**
+    **Figura 9 - Seleção serviço**
    
    - Clique no ícone ![simbolo](images/simb-lupa.png) para adicionar o serviço;
    - Será exibida uma janela para pesquisa do serviço. Realize a pesquisa e selecione o serviço. Feito isso, o serviço
@@ -220,11 +220,11 @@ Vinculando IC's do serviço da mudança
 1. Se houver IC's relacionados ao(s) serviço(s) da mudança escolhido(s) na requisição de mudança, para consultá-lo(s),
 proceda da seguinte maneira:
 
- - Ao lado direito da tela de requisição de mudança, clique em **IC's dos Serviços da Mudança**;
+    - Ao lado direito da tela de requisição de mudança, clique em **IC's dos Serviços da Mudança**;
  
- ![Seleção](images/cad-mud.img11.png)
+    ![Seleção](images/cad-mud.img11.png)
  
- **Figura 11 - Seleção de IC's dos serviços da mudança**
+    **Figura 11 - Seleção de IC's dos serviços da mudança**
  
  - Será apresentada a tela de consulta de IC's do Serviço da Mudança, conforme ilustrada na figura abaixo:
  
@@ -240,11 +240,11 @@ Vinculando anexos
 
 1. Caso queira anexar um arquivo na requisição de mudança, proceda da seguinte maneira:
 
-  - Ao lado direito da tela de requisição de mudança, clique em **Anexos**;
+    - Ao lado direito da tela de requisição de mudança, clique em **Anexos**;
   
-  ![Anexos](images/cad-mud.img13.png)
+    ![Anexos](images/cad-mud.img13.png)
   
-  **Figura 13 - Seleção de anexos**
+    **Figura 13 - Seleção de anexos**
   
   - Será apresentada a tela de anexo de arquivos, conforme ilustrada abaixo:
   
@@ -263,11 +263,11 @@ Vinculando checklist
 
 1. Caso queira adiciona um Checklist à mudança, proceda da seguinte maneira:
 
-  - Ao lado direito da tela de requisição de mudança, clique em **Checklist**;
+     - Ao lado direito da tela de requisição de mudança, clique em **Checklist**;
   
-  ![Checklist](images/cad-mud.img15.png)
+    ![Checklist](images/cad-mud.img15.png)
   
-  **Figura 15 - Seleção de checklist**
+     **Figura 15 - Seleção de checklist**
   
   - Será apresentada a tela de checklist, conforme ilustrada abaixo:
   
@@ -283,11 +283,11 @@ Vinculando base de conhecimento
 
 1. Caso queira consultar a Base de Conhecimento, proceda da seguinte maneira:
 
- - Ao lado direito da tela de requisição de mudança, clique em **Base de Conhecimento**;
+    - Ao lado direito da tela de requisição de mudança, clique em **Base de Conhecimento**;
  
- ![Seleção](images/cad-mud.img17.png)
+    ![Seleção](images/cad-mud.img17.png)
  
- **Figura 17 - Seleção de base de conhecimento**
+    **Figura 17 - Seleção de base de conhecimento**
  
   - Será apresentada a tela de consulta à Base de Conhecimento, conforme ilustrada na figura abaixo:
   

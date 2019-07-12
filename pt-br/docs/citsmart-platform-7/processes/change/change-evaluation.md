@@ -21,9 +21,9 @@ Filtros
 1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
 facilitando a localização dos itens desejados:
 
-- Número de mudança;
-- Atribuída/Compartilhada;
-- Itens por página
+    - Número de mudança;
+    - Atribuída/Compartilhada;
+    - Itens por página
 
 ![Pesquisa](images/ava-mud.img1.png)
 
@@ -52,7 +52,7 @@ Avaliando e finalizando requisição de mudança
 -----------------------------------------------
 
 1. Na guia Gerenciamento, localize a requisição de mudança que será avaliada e finalizada, clique no botão "Ação" e selecione a 
-opção Iniciar/Executar tarefa da mesma, conforme indicado na imagem abaixo:
+opção "Iniciar/Executar tarefa" da mesma, conforme indicado na imagem abaixo:
 
     ![Avaliação](images/ava-mud.img3.png)
 
@@ -71,7 +71,7 @@ opção Iniciar/Executar tarefa da mesma, conforme indicado na imagem abaixo:
 
 !!! note "REGRA"
 
-    todos "Erros conhecidos" relacionados à um problema ao qual foi relacionado à mudança que está sendo encerrada, serão arquivados, caso o Parâmetro 232 (ERRO CONHECIDO - Arquivar Erro Conhecido ao concluir Mudança? (S ou N - Default: 'N')) esteja definido com o valor "S".
+    Todos "Erros conhecidos" relacionados à um problema ao qual foi relacionado à mudança que está sendo encerrada, serão arquivados, caso o Parâmetro 232 (ERRO CONHECIDO - Arquivar Erro Conhecido ao concluir Mudança? (S ou N - Default: 'N')) esteja definido com o valor "S".
     
 !!! tip "About"
 

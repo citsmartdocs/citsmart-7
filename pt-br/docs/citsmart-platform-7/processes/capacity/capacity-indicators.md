@@ -23,11 +23,11 @@ Filtros
 1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da 
 funcionalidade, facilitando a localização dos itens desejados:
 
- - Nome
+    - Nome
 
-![Pesquisa](images/ind-cap.img1.png)
+    ![Pesquisa](images/ind-cap.img1.png)
 
-**Figura 1 - Tela de pesquisa de indicadores de capacidade/performance**
+    **Figura 1 - Tela de pesquisa de indicadores de capacidade/performance**
 
 2. Realize a pesquisa do indicador de capacidade/performance;
 
@@ -64,8 +64,8 @@ Preenchimento dos campos cadastrais
 
 2. Preencha os campos conforme orientações abaixo:
 
- - **Nome**: informe o nome do indicador de capacidade/performance;
- - **Valor**: informe o valor do indicador de capacidade/performance.
+    - **Nome**: informe o nome do indicador de capacidade/performance;
+    - **Valor**: informe o valor do indicador de capacidade/performance.
 
 3. Após os dados informados, clique no botão Gravar para efetuar o registro, onde a data,
 hora e usuário serão gravados automaticamente para uma futura auditoria;

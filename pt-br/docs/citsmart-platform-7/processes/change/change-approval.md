@@ -25,9 +25,9 @@ Filtros
 1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
 facilitando a localização dos itens desejados:
 
- - Número da mudança;
- - Atribuída/Compartilhada;
- - Itens por página.
+     - Número da mudança;
+     - Atribuída/Compartilhada;
+     - Itens por página.
 
 ![Pesquisa](images/aprov-mud.img1.png)
 
@@ -60,9 +60,9 @@ Preenchimento dos campos cadastrais
 1. Na guia **Requisições para votação**, localize a requisição de mudança que deseja aprovar, clique no botão Votar da mesma,
 conforme indicado na figura abaixo:
 
-![Botão](images/aprov-mud.img3.png)
+    ![Botão](images/aprov-mud.img3.png)
 
-**Figura 3 - Botão votar**
+    **Figura 3 - Botão votar**
 
 2. Será exibida a tela para votação da requisição de mudança, conforme indicado na figura abaixo:
 
@@ -83,29 +83,25 @@ Verificação da aprovação do comitê de mudança consultiva
 1. Para prosseguir com a aprovação, o responsável pela requisição de mudança, que faz parte do grupo executor, deve verificar
 a aprovação do Comitê Consultivo de Mudanças.
 
-- Na aba **Gerenciamento**, localize a requisição de mudança, clique no botão "Ação", selecione a opção "Iniciar/Executar tarefa" e será 
-exibida a tela de requisição de mudança com os campos preenchidos, com o conteúdo referente à requisição selecionada;
+    - Na aba **Gerenciamento**, localize a requisição de mudança, clique no botão "Ação", selecione a opção "Iniciar/Executar tarefa" e será exibida a tela de requisição de mudança com os campos preenchidos, com o conteúdo referente à requisição selecionada;
 
-- Ao lado direito da tela de requisição de mudança, clique na opção **Votação RDM**;
+    - Ao lado direito da tela de requisição de mudança, clique na opção **Votação RDM**;
 
-![Seleção](images/aprov-mud.img5.png)
+    ![Seleção](images/aprov-mud.img5.png)
 
-**Figura 5 - Seleção de Votação RDM**
+    **Figura 5 - Seleção de Votação RDM**
 
-- Será apresentada a tela de consulta de votação da requisição de mudança, conforme exemplo ilustrado abaixo:
+    - Será apresentada a tela de consulta de votação da requisição de mudança, conforme exemplo ilustrado abaixo:
 
-![Consulta](images/aprov-mud.img6.png)
+    ![Consulta](images/aprov-mud.img6.png)
 
-**Figura 6 - Consulta de aprovação da requisição de mudança**
+    **Figura 6 - Consulta de aprovação da requisição de mudança**
 
-- Caso já tenha obtido a aprovação necessária, clique no botão "Gravar e avançar o fluxo" para efetuar a operação, onde a requisição de
-mudança será aprovada e encaminhada para fase de planejamento;
+    - Caso já tenha obtido a aprovação necessária, clique no botão "Gravar e avançar o fluxo" para efetuar a operação, onde a requisição de mudança será aprovada e encaminhada para fase de planejamento;
 
 !!! note "NOTA"
 
-    O sistema permite alterar o Comitê Consultivo de Mudança (CCM) em qualquer momento, desde que, não tenha sido iniciada a votação 
-    da Requisição de Mudança. A partir do momento que se inicia a votação da Requisição de Mudança, ainda que se altere os membros do CCM,
-    o sistema não altera os votantes da Requisição.
+    O sistema permite alterar o Comitê Consultivo de Mudança (CCM) em qualquer momento, desde que, não tenha sido iniciada a votação da Requisição de Mudança. A partir do momento que se inicia a votação da Requisição de Mudança, ainda que se altere os membros do CCM, o sistema não altera os votantes da Requisição.
     
 !!! tip "About"
 

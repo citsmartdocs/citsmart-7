@@ -23,9 +23,9 @@ Filtros
 1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
 facilitando a localização dos itens desejados, conforme ilustrado na figura abaixo:
 
-- Nome do risco
+    - Nome do risco
 
-- Descrição
+    - Descrição
 
 2. Na tela de **Risco**, clique na aba **Pesquisa Risco**. Será apresentada a tela de pesquisa conforme ilustrada na figura abaixo:
 
