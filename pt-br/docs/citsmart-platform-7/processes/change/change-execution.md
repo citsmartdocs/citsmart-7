@@ -110,7 +110,7 @@ Vinculando os incidentes/requisições à mudança
     **Figura 7 - Relacionamento de incidente/requisição à mudança**
     
     - Caso queira criar registrar um novo incidente referente à mudança, basta clicar 
-    no ícone ![simbolo](images/simb-mais.png) ;
+    no ícone ![simbolo](images/exec-mais.png) ;
     - Caso queira remover um incidente/requisição que foi relacionado, basta clicar no
     ícone ![simbolo](images/simb-menos.png) .
     
