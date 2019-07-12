@@ -201,7 +201,7 @@ Registrando ações e monitoramento do objetivo do plano de melhoria
     tela para registro das informações do monitoramento conforme ilustrado na
     figura abaixo:
 
-    ![Criar](images/improve-plan-9.png)
+    ![Criar](images/improve-plan-11.png)
 
     **Figura 8 - Tela de cadastro de monitoramento**
 
