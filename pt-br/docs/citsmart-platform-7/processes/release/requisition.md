@@ -141,18 +141,18 @@ Preenchimento dos campos cadastrais
     -  **Nome do Contato**: informe o nome de uma pessoa para contato sobre a
     registro de liberação;
 
-        -  **E-mail**: informe o e-mail do contato;
+     -  **E-mail**: informe o e-mail do contato;
 
-        -  **Telefone**: informe código de área (DDD) e o número de telefone do
+     -  **Telefone**: informe código de área (DDD) e o número de telefone do
         contato;
 
-        -  **Ramal**: informe o número do ramal do contato, caso o tenha;
+     -  **Ramal**: informe o número do ramal do contato, caso o tenha;
 
-        -  **Unidade**: selecione a unidade na qual o contato está lotado;
+     -  **Unidade**: selecione a unidade na qual o contato está lotado;
 
-        -  **Localidade Física**: informe a localização do contato;
+     -  **Localidade Física**: informe a localização do contato;
 
-        -  **Observação**: descreva as observações sobre o contato, caso seja
+     -  **Observação**: descreva as observações sobre o contato, caso seja
         necessário.
 
 1.  Registre as informações da requisição, conforme indicadas abaixo:
