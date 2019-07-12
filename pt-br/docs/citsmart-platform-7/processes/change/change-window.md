@@ -33,7 +33,7 @@ Preenchimento dos campos cadastrais
 1. Será apresentada a tela de janela de mudança em formato de calendário, onde poderão ser
 visualizados períodos de manutenção e blackout, conforme ilustrada na figura abaixo:
 
-    ![Janela](mages/jane-mud.img1.png)
+    ![Janela](images/jane-mud.img1.png)
     
     **Figura 1 - Calendário de janela de mudança**
     
