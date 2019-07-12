@@ -53,6 +53,11 @@ e "Ação".
 
 - Se desejar gerar um relatório das informações da requisição de mudança, clique no botão "Relatório Registro de Execução".
 
+Preenchimento dos campos cadastrais
+------------------------------------
+
+1. Não se aplica.
+
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
