@@ -1,6 +1,4 @@
 title: Passos para abertura automática de solicitação de serviço via e-mail
----------------------------------------------------------------------------
-
 Description: Tem o objetivo de orientar quanto a abertura automática de
 solicitação de serviço via e-mail, agilizando o processo de abertura de
 Requisições de Serviço recebida pelo usuário
