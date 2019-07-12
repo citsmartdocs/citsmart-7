@@ -164,7 +164,7 @@ Preenchimento dos campos cadastrais
     -   Se o tipo de acordo informado for **Disponibilidade**, informe o índice de
     disponibilidade do serviço:
 
-    ![Criar](images/register-sla-3.png)
+    ![Criar](images/register-sla-4.png)
 
     **Figura 4 - Registro de índice de disponibilidade**
 
