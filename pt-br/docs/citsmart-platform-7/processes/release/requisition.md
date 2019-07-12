@@ -224,7 +224,7 @@ Vinculando mudanças
 1.  Relacione a(s) mudança(s) que será(ão) liberada(s):
 
     -   Ao lado direito da tela, clique em **Processos/Opções** e logo em seguida na
-    opção** Mudanças**;
+    opção **Mudanças**;
 
     ![Criar](images/requisition-9.png)
 
@@ -232,7 +232,7 @@ Vinculando mudanças
 
     -   Será apresentada a tela de vínculo de mudanças. Clique no ícone ![Criar](images/requisition-10.png). Após isso, será exibida a tela de pesquisa de mudanças;
 
-        -   Realize a pesquisa e selecione a mudança que será liberada. Feito isso,
+    -   Realize a pesquisa e selecione a mudança que será liberada. Feito isso,
         o registro de mudança será adicionado na tela, conforme exemplo
         ilustrado na figura a seguir;
 
