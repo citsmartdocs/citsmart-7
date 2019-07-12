@@ -2,7 +2,7 @@ title: Captura de registro de liberação
 Description: Esta funcionalidade permite atribuir a requisição de liberação para
 o próprio usuário, tornando-se o responsável atual pela execução da mesma.
 
-#Captura de registro de liberação
+# Captura de registro de liberação
 
 Esta funcionalidade permite atribuir a requisição de liberação para o próprio
 usuário, tornando-se o responsável atual pela execução dela.
@@ -10,7 +10,7 @@ usuário, tornando-se o responsável atual pela execução dela.
 Como acessar
 ------------
 
-1.  Acesse a funcionalidade de Gerenciamento de Liberação **através da
+1.  Acesse a funcionalidade de Gerenciamento de Liberação através da
     navegação no menu principal **Processos ITIL \> Gerência de
     Liberação \> Gerenciamento de Liberação**.
 
@@ -42,7 +42,7 @@ Listagem de itens
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
     funcionalidade: **Número**, **Solicitante**, **Criada**
-    **em**, **Prioridade**, **Prazo Limite**, **Atraso**, **Situação**, **Tarefa
+    **em**, **Prioridade**, **Prazo Limite**, **Atraso**, **Situação**, **Tarefa**
     **atual**, **Grupo Executor**, **Responsável atual** e **Compartilhada com**.
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da

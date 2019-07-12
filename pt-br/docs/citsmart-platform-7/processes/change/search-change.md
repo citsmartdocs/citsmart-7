@@ -43,17 +43,17 @@ filtros necessários para sua pesquisa, conforme ilustração abaixo:
     
 3. Preencha os campos conforme orientações abaixo:
 
-- Após os filtros definidos, clique no botão "Pesquisar" para efetuar a operação;
-- Serão listados os registros de requisição de mudança, conforme os filtros escolhidos, abaixo dos botões "Pesquisar",
+    - Após os filtros definidos, clique no botão "Pesquisar" para efetuar a operação;
+    - Serão listados os registros de requisição de mudança, conforme os filtros escolhidos, abaixo dos botões "Pesquisar",
 "Limpar" e "Gerar Relatório".
-- Ao lado de cada registro de requisição de mudança da lista, há ícones que permite realizar as seguintes ações:
+    - Ao lado de cada registro de requisição de mudança da lista, há ícones que permite realizar as seguintes ações:
 visualizar as informações e os anexos da requisição de mudança;
-    - Para visualizar as informações da requisição de mudança, clique em "Visualizar";
-        - Será exibida a tela de registro da determinada requisição de mudança para visualização.
-    - Para visualizar os anexos da solicitação de serviço, clique no ícone ![simbolo](images/simb-clips.png) ;
-        - Será aberta uma janela exibindo os anexos da requisição de mudança para visualização.
-- Caso seja necessário, clique no botão "Gerar (PDF)" para gerar o relatório de requisição de mudança em formato PDF.
-- Caso seja necessário, clique no botão "Gerar (XLS)" para gerar o relatório de requisição de mudança em formato Excel.
+        - Para visualizar as informações da requisição de mudança, clique em "Visualizar";
+            - Será exibida a tela de registro da determinada requisição de mudança para visualização.
+        - Para visualizar os anexos da solicitação de serviço, clique no ícone ![simbolo](images/simb-clips.png) ;
+            - Será aberta uma janela exibindo os anexos da requisição de mudança para visualização.
+    - Caso seja necessário, clique no botão "Gerar (PDF)" para gerar o relatório de requisição de mudança em formato PDF.
+    - Caso seja necessário, clique no botão "Gerar (XLS)" para gerar o relatório de requisição de mudança em formato Excel.
 
 Listagem de itens
 ------------------

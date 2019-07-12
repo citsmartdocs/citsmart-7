@@ -199,8 +199,9 @@ Vinculando serviços da mudança
    
     **Figura 9 - Seleção serviço**
    
-   - Clique no ícone ![simbolo](images/simb-lupa.png) para adicionar o serviço;
-   - Será exibida uma janela para pesquisa do serviço. Realize a pesquisa e selecione o serviço. Feito isso, o serviço
+    - Clique no ícone ![simbolo](images/simb-lupa.png) para adicionar o serviço;
+    
+    - Será exibida uma janela para pesquisa do serviço. Realize a pesquisa e selecione o serviço. Feito isso, o serviço
    será relacionado à mudança;
    
    ![Relacionamento](images/cad-mud.img10.png)
@@ -226,7 +227,7 @@ proceda da seguinte maneira:
  
     **Figura 11 - Seleção de IC's dos serviços da mudança**
  
- - Será apresentada a tela de consulta de IC's do Serviço da Mudança, conforme ilustrada na figura abaixo:
+    - Será apresentada a tela de consulta de IC's do Serviço da Mudança, conforme ilustrada na figura abaixo:
  
  ![Itens de configuração](images/cad-mud.img12.png)
  
@@ -246,7 +247,7 @@ Vinculando anexos
   
     **Figura 13 - Seleção de anexos**
   
-  - Será apresentada a tela de anexo de arquivos, conforme ilustrada abaixo:
+    - Será apresentada a tela de anexo de arquivos, conforme ilustrada abaixo:
   
   ![Tela de anexos](images/cad-mud.img14.png)
   
@@ -269,7 +270,7 @@ Vinculando checklist
   
      **Figura 15 - Seleção de checklist**
   
-  - Será apresentada a tela de checklist, conforme ilustrada abaixo:
+    - Será apresentada a tela de checklist, conforme ilustrada abaixo:
   
   ![Vinculando](images/cad-mud.img16.png)
   
@@ -289,7 +290,7 @@ Vinculando base de conhecimento
  
     **Figura 17 - Seleção de base de conhecimento**
  
-  - Será apresentada a tela de consulta à Base de Conhecimento, conforme ilustrada na figura abaixo:
+    - Será apresentada a tela de consulta à Base de Conhecimento, conforme ilustrada na figura abaixo:
   
   ![Pesquisa](images/cad-mud.img18.png)
   
