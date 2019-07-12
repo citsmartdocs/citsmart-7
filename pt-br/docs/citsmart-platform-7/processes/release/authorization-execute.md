@@ -47,7 +47,7 @@ Listagem de items
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Visualizar*, *Relatórios* e *Ação*.
 
-    ![Criar](images/execute-1.png)
+    ![Criar](images/execute-2.png)
 
     **Figura 2 - Tela de listagem de liberação**
 
@@ -60,7 +60,7 @@ Listagem de items
     para execução, clique no botão *Ações* e selecione a opção *Iniciar/Executar*
     *tarefa*, conforme indicado na figura abaixo:
 
-    ![Criar](images/execute-2.png)
+    ![Criar](images/execute-3.png)
 
     **Figura 3 - Autorizar liberação para execução**
 
