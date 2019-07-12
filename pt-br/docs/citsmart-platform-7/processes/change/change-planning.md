@@ -247,8 +247,8 @@ Análise de Impacto e Risco Por Alvos
     - **Alvo**: selecione o alvo. Caso queira limpar o dado informado no campo, clique no 
     ícone ![simbolo](images/simb-fechar.png);
     - Adicione os riscos à avaliação:
-     - Clique no botão "Adicionar risco" e será apresentada a tela de cadastro e/ou pesquisa de riscos, 
-     conforme ilustrada na figura abaixo:
+        - Clique no botão "Adicionar risco" e será apresentada a tela de cadastro e/ou pesquisa de riscos, 
+        conforme ilustrada na figura abaixo:
             
     ![Cadastro](images/planej-mud.img19.png)
     
