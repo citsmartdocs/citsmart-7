@@ -1,6 +1,6 @@
-title: Visão Geral
+title: Módulo Gerenciamento de Disponibilidade
 Description: O Gerenciamento de Disponibilidade é o processo responsável por garantir que os serviços de TI 
-# Visão Geral
+# Módulo Gerenciamento de Disponibilidade
 
 Objetivo do módulo
 ---------------------
