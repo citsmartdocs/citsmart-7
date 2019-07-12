@@ -177,7 +177,7 @@ Preenchimento dos campos cadastrais
     prioridade vai de 1 a 5, sendo que o 1 é a prioridade mais alta e 5 é a mais
     baixa:
 
-    ![Criar](images/register-sla-3.png)
+    ![Criar](images/register-sla-5.png)
 
     **Figura 5 - Registro de tempo (por fase)**
 
