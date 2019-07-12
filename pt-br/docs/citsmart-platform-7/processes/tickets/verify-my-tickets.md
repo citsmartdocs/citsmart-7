@@ -40,7 +40,7 @@ Filtros
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados, conforme ilustrado na figura abaixo:
 
--   Item Configuração
+    -  Item Configuração
 
 1.  Será apresentada a tela de verificação de Tickets solicitados por mim,
     conforme ilustrada na figura abaixo:
