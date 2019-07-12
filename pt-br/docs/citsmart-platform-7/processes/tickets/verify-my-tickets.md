@@ -45,7 +45,7 @@ Filtros
 1.  Será apresentada a tela de verificação de Tickets solicitados por mim,
     conforme ilustrada na figura abaixo:
 
-    ![Criar conta okta](images/verify-ticket-1.png)
+    ![Criar conta](images/verify-ticket-1.png)
 
     **Figura 1 - Tela de pesquisa de tickets**
 
@@ -71,7 +71,7 @@ Listagem de itens
     **Solicitação**, **Data de abertura**, **Prazo**, **Descrição**,
     **Resposta**, **Situação**, **Hora limite** e **Tempo Restante**.
 
-![Criar conta okta](images/verify-ticket-3.png)
+![Criar conta](images/verify-ticket-3.png)
 
 **Figura 2 - Tela de listagem de tickets**
     
