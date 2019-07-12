@@ -21,11 +21,11 @@ Filtros
 1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
 facilitando a localização dos itens desejados:
 
-- Nº da mudança;
+    - Nº da mudança;
 
-- Atribuída/Compartilhada;
+    - Atribuída/Compartilhada;
 
-- Itens Por Página.
+    - Itens Por Página.
 
 ![Filtros](images/vsu-mud.img1.png)
 
@@ -49,9 +49,9 @@ e "Ação".
     
 4. Será aberta a tela de Registro da Requisição de Mudança para visualização;
 
-- Se desejar gerar PDF das informações da requisição de mudança, clique no botão "Gerar PDF"
+    - Se desejar gerar PDF das informações da requisição de mudança, clique no botão "Gerar PDF"
 
-- Se desejar gerar um relatório das informações da requisição de mudança, clique no botão "Relatório Registro de Execução".
+    - Se desejar gerar um relatório das informações da requisição de mudança, clique no botão "Relatório Registro de Execução".
 
 Preenchimento dos campos cadastrais
 ------------------------------------

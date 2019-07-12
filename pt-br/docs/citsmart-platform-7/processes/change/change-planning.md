@@ -64,17 +64,17 @@ Planejando requisições de mudança
     
     **Figura 4 - Adicionar atividade**
     
-- **Atividade**: informe o nome da atividade;
+    - **Atividade**: informe o nome da atividade;
 
-- **Responsável**: informe o responsável pela atividade;
+    - **Responsável**: informe o responsável pela atividade;
 
-- **Situação**: este campo será preenchido de acordo com a andamento da atividade;
+    - **Situação**: este campo será preenchido de acordo com a andamento da atividade;
 
-- **Data/Hora Início**: informe a data e hora planejada para início da execução da atividade;
+    - **Data/Hora Início**: informe a data e hora planejada para início da execução da atividade;
 
-- **Data/Hora Fim**: informe a data e hora planejada para o fim da execução da atividade;
+    - **Data/Hora Fim**: informe a data e hora planejada para o fim da execução da atividade;
 
-- **Tempo estimado (minutos)**: informe o prazo planejado para execução da atividade, em minutos.
+    - **Tempo estimado (minutos)**: informe o prazo planejado para execução da atividade, em minutos.
 
 Importando cronogramas MS-Project para atividades de mudança
 --------------------------------------------------------------
@@ -88,10 +88,10 @@ Importando cronogramas MS-Project para atividades de mudança
     
     **Figura 5 - Importar MS Project**
     
-- Clique no botão "Escolher arquivo". Será apresentada uma janela, onde poderá selecionar o arquivo desejado;
-- Selecione o arquivo;
-- Informe a descrição do arquivo e clique no botão "Adicionar";
-- Após adição do arquivo, clique no botão Importar e confirme a execução da importação.
+    - Clique no botão "Escolher arquivo". Será apresentada uma janela, onde poderá selecionar o arquivo desejado;
+    - Selecione o arquivo;
+    - Informe a descrição do arquivo e clique no botão "Adicionar";
+    - Após adição do arquivo, clique no botão Importar e confirme a execução da importação.
 
 Anexando plano reversão
 --------------------------
