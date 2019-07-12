@@ -57,7 +57,7 @@ Listagem de items
 
 1.  Será apresentada a tela de Gerenciamento de
     Liberação. Na guia **Gerenciamento**, localize a liberação que será liberada
-    para execução, clique no botão *Ações* e selecione a opção *Iniciar/Executar
+    para execução, clique no botão *Ações* e selecione a opção *Iniciar/Executar*
     *tarefa*, conforme indicado na figura abaixo:
 
     ![Criar](images/execute-2.png)
