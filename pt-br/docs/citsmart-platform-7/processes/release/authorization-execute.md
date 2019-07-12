@@ -45,7 +45,7 @@ Listagem de items
     **atual** e **Compartilhado com**.
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Visualizar*, *Relatórios *e *Ação*.
+    listagem, são eles: *Visualizar*, *Relatórios* e *Ação*.
 
     ![Criar](images/execute-1.png)
 
