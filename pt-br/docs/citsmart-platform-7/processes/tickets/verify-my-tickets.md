@@ -58,7 +58,7 @@ Filtros
 
     !!! info "IMPORTANTE"
 
-        Esta tela possui um temporizador ![Criar](images/verify-ticket-2.png) que, ao ser ativado com um clique,
+        Esta tela possui um temporizador (imagem de relógio) que, ao ser ativado com um clique,
         apresenta um cronômetro sobre o tempo gasto e o tempo restante para
         finalizar o atendimento da solicitação no campo Tempo restante da listagem
         de itens.
