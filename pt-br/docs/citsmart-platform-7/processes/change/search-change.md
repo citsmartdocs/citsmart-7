@@ -31,7 +31,7 @@ facilitando a localização dos itens desejados:
     - **Status**: selecione o status referente à requisição de mudança que deseja pesquisar;
     - **Grupo Solucionador**: selecione o grupo solucionador referente à requisição de mudança que deseja pesquisar;
     - **Tipo**: selecione o tipo de mudança;
-    - **Caso queira que a descrição da requisição de mudança seja exibida no relatório, marque a opção 
+    - Caso queira que a descrição da requisição de mudança seja exibida no relatório, marque a opção 
     **Exibir Campo Descrição em Relatórios?**;
     
 2. Será apresentada a tela de pesquisa de requisição de mudança contendo campos onde poderá definir os 
@@ -51,6 +51,7 @@ visualizar as informações e os anexos da requisição de mudança;
     - Para visualizar as informações da requisição de mudança, clique em "Visualizar";
         - Será exibida a tela de registro da determinada requisição de mudança para visualização.
     - Para visualizar os anexos da solicitação de serviço, clique no ícone ![simbolo](images/simb-clips.png) ;
+        - Será aberta uma janela exibindo os anexos da requisição de mudança para visualização.
 - Caso seja necessário, clique no botão "Gerar (PDF)" para gerar o relatório de requisição de mudança em formato PDF.
 - Caso seja necessário, clique no botão "Gerar (XLS)" para gerar o relatório de requisição de mudança em formato Excel.
 
