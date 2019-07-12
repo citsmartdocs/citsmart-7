@@ -25,7 +25,7 @@ Pré-condições
 Como acessar
 ------------
 
-1.  Acesse a funcionalidade de Tempo de Atendimento** **através da navegação no
+1.  Acesse a funcionalidade de Tempo de Atendimento através da navegação no
     menu principal **Processos ITIL \> Gerência de Níveis de
     Serviço \> Tempo de Atendimento**.
 
