@@ -22,7 +22,9 @@ Filtros
 funcionalidade, facilitando a localização dos itens desejados:
 
     - Número da mudança;
+    
     - Atribuída/Compartilhada;
+    
     - Itens por página.
     
 ![Filtros](images/exec-mud.img1.png)
