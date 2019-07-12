@@ -25,9 +25,9 @@ funcionalidade, facilitando a localização dos itens desejados:
     - Atribuída/Compartilhada;
     - Itens por página.
     
-    ![Filtros](images/exec-mud.img1.png)
+![Filtros](images/exec-mud.img1.png)
     
-    **Figura 1 - Tela de filtros**
+**Figura 1 - Tela de filtros**
     
 Listagem de itens
 -------------------
