@@ -59,7 +59,7 @@ Listagem de items
 
 1.  Realize a pesquisa do tempo de atendimento:
 
-2.  A consulta é realizada por tipo de atendimento (Global, Cliente e
+    -  A consulta é realizada por tipo de atendimento (Global, Cliente e
     Requisição/Incidente/Procedimento). Selecione o tipo de atendimento que
     desejar, informe o título do registro e clique no botão *Pesquisar*. Feito
     isso, será exibido o registro conforme o título informado;
