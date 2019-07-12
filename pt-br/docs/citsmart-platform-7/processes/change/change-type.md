@@ -1,6 +1,5 @@
 title: Cadastro e pesquisa de tipo de mudança
-Description: Esta funcionalidade tem por objetivo registrar o tipo de mudança que será utilizado para definir toda a configuração 
-do fluxo de trabalho que a requisição irá seguir.
+Description: Esta funcionalidade tem por objetivo registrar o tipo de mudança que será utilizado para definir toda a configuração do fluxo de trabalho que a requisição irá seguir.
 # Cadastro e pesquisa de tipo de mudança
 
 Esta funcionalidade tem por objetivo registrar o tipo de mudança que será utilizado para definir toda a configuração do fluxo de
@@ -100,13 +99,3 @@ Preenchimento dos campos cadastrais
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
     <b>Updated:</b>07/11/2019 – Larissa Lourenço
-
-
-
-
-
-
-
-
-
-

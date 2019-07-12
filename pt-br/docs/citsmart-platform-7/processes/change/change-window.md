@@ -1,6 +1,5 @@
 title: Janela de mudança
-Description: Gerenciar os períodos em que a 
-organização passa por um momento de manutenção ou blackout e assim ajudar no planejamento de uma mudança.
+Description: Gerenciar os períodos em que a organização passa por um momento de manutenção ou blackout e assim ajudar no planejamento de uma mudança.
 # Janela de mudança
 
 Gerenciar os períodos em que a organização passa por um momento de manutenção ou
