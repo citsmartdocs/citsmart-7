@@ -375,9 +375,9 @@ Vinculando problemas
 
     -	Pesquisar Problema.
 
-   ![ticket](images/management-20.png)
+    ![ticket](images/management-20.png)
 
-   **Figura 11 - Tela de pesquisa de problemas relacionados**
+    **Figura 11 - Tela de pesquisa de problemas relacionados**
 
 2.	No campo de pesquisa, é permitido a busca pelo título de problema previamente cadastrados;
 
