@@ -72,7 +72,7 @@ Agendando uma atividade
 Preenchimento dos campos cadastrais
 -----------------------------------
 
-1.  Ao selecionar a opção *Agendar Requisição de Liberação (segundo a figura
+1.  Ao selecionar a opção Agendar Requisição de Liberação (segundo a figura
     anterior), será exibida a tela de Agenda de Atividade. Clique na aba **Criar
     Agendamento**.
 
