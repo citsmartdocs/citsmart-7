@@ -210,22 +210,22 @@ requisição/incidente**
 
     -  Informe a unidade e atribua uma prioridade;
 
-    -  **Unidade**: informe a unidade desejada;
+       -  **Unidade**: informe a unidade desejada;
 
-    -  **Prioridade**: indique a prioridade do serviço para a unidade;
+       -  **Prioridade**: indique a prioridade do serviço para a unidade;
 
     -  Feito isso, clique no botão *Incluir* para efetuar a operação.
 
     -  Informe o empregado e atribua uma prioridade;
 
-    -  **Empregados**: informe o empregado;
+       -  **Empregados**: informe o empregado;
 
-    -  **Prioridade**: indique a prioridade do serviço para o empregado;
+       -  **Prioridade**: indique a prioridade do serviço para o empregado;
 
-    -  **Crítico**: indique se o empregado é do tipo "crítico" ao negócio, ou seja,
-    que deve ter o atendimento do serviço com prioridade alta.
+       -  **Crítico**: indique se o empregado é do tipo "crítico" ao negócio, ou seja,
+          que deve ter o atendimento do serviço com prioridade alta.
 
-    -  Feito isso, clique no botão *Incluir* para efetuar a operação.
+     -  Feito isso, clique no botão *Incluir* para efetuar a operação.
 
 1.  Após o cadastro dos dados, clique no botão *Gravar* para efetuar o registro,
     onde a data, hora e usuário serão gravados automaticamente para uma futura
