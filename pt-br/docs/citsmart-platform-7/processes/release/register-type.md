@@ -4,7 +4,7 @@ Description: Esta funcionalidade tem por objetivo registrar o tipo de liberaçã
 que será utilizado para definir toda a configuração do fluxo de trabalho que a
 liberação irá seguir.
 
-\# Cadastro e pesquisa de tipo de liberação
+# Cadastro e pesquisa de tipo de liberação
 
 Esta funcionalidade tem por objetivo registrar o tipo de liberação que será
 utilizado para definir toda a configuração do fluxo de trabalho que a liberação
