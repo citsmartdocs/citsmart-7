@@ -230,46 +230,40 @@ Cadastro de ticket
 
     b)	Registre as informações do ticket:
 
-     - Catálogo: selecione o catálogo de serviços;
+    - Catálogo: selecione o catálogo de serviços;
 
-     - Serviço: informe o serviço referente ao catálogo de serviços selecionado. Se o catálogo de serviços for "Negócio", serão 
+    - Serviço: informe o serviço referente ao catálogo de serviços selecionado. Se o catálogo de serviços for "Negócio", serão 
 disponibilizados neste campo os serviços de negócio para seleção, mas se o catálogo de serviços for "Técnico", serão disponibilizados 
 neste campo os serviços de apoio/técnico para seleção;
 
-     - Tipo: selecione o tipo do ticket, se é uma abertura de incidente ou requisição de serviço;
+    - Tipo: selecione o tipo do ticket, se é uma abertura de incidente ou requisição de serviço;
 
-     - Incidente: caso a situação apresentada seja uma interrupção não planejada, uma redução na qualidade do serviço ou falha de algum item
-de configuração que ainda não tenha impactado um serviço de TI. Ex.: O link de rede está fora, a rede está lenta, o servidor inacessível,
+    - Incidente: caso a situação apresentada seja uma interrupção não planejada, uma redução na qualidade do serviço ou falha de algum item de configuração que ainda não tenha impactado um serviço de TI. Ex.: O link de rede está fora, a rede está lenta, o servidor inacessível,
 etc.
 
-     - Requisição: refere-se aos pedidos de demandas realizados pelos usuários dentro do ambiente da Tecnologia da Informação. 
+    - Requisição: refere-se aos pedidos de demandas realizados pelos usuários dentro do ambiente da Tecnologia da Informação. 
 Podem ser desde pedidos de acesso até sugestões de melhoria a baixo custo. Ex.: pedido de acesso à rede para um novo usuário, 
 solicitação de configuração de algum equipamento, requisição para adicionar algum software na estação de trabalho, etc.
 
-     - Categoria: informe a categoria de serviço para facilitar a busca da atividade (requisição/incidente). A categoria irá identificar a 
-natureza da atividade, posicionando-o dentro de grupos semelhantes de atuação, situando-o na hierarquia de sua categoria;
+    - Categoria: informe a categoria de serviço para facilitar a busca da atividade (requisição/incidente). A categoria irá identificar a natureza da atividade, posicionando-o dentro de grupos semelhantes de atuação, situando-o na hierarquia de sua categoria;
 
-     - Atividade (Requisição/Incidente): informe a atividade que será realizada referente ao tipo de ticket. Caso a atividade informada tenha um “Script de Orientação” associado, o mesmo será exibido na guia de "Scripts" representada pelo ícone ![ticket](images/management-9.png)  localizado no canto superior direito da tela;
+    - Atividade (Requisição/Incidente): informe a atividade que será realizada referente ao tipo de ticket. Caso a atividade informada tenha um “Script de Orientação” associado, o mesmo será exibido na guia de "Scripts" representada pelo ícone ![ticket](images/management-9.png)  localizado no canto superior direito da tela;
 
-     - Contrato: após informar a atividade (requisição/incidente), será exibido o contrato para o qual será feita a abertura de incidente ou requisição de serviço;
+    - Contrato: após informar a atividade (requisição/incidente), será exibido o contrato para o qual será feita a abertura de incidente ou requisição de serviço;
 
-     - Urgência: após informar a atividade (requisição/incidente), será exibida a informação da urgência a qual indica a velocidade na qual o serviço precisa ser realizado;
+    - Urgência: após informar a atividade (requisição/incidente), será exibida a informação da urgência a qual indica a velocidade na qual o serviço precisa ser realizado;
 
-     - Impacto: após informar a atividade (requisição/incidente), será exibida a informação de impacto do serviço ao negócio;
+    - Impacto: após informar a atividade (requisição/incidente), será exibida a informação de impacto do serviço ao negócio;
 
     !!! warning "ATENÇÃO"
     
         Após informar a atividade do ticket, será estabelecido o tempo previsto para seu atendimento, conforme configurado no registro do tempo de atendimento vinculado à atividade. O tempo de atendimento será contabilizado de acordo com o que foi definido no calendário vinculado à unidade, mas caso a unidade não tenha um calendário vinculado, será contabilizado de acordo com o calendário vinculado ao serviço. Porém, ao encerrar o tempo previsto de atendimento é contabilizado o atraso em tempo corrido, sendo desconsiderado o calendário.
 
-     - Título: informe o título do ticket;
+    - Título: informe o título do ticket;
 
-     - Descrição: informe a descrição do ticket. A descrição deve ser objetiva, incluindo toda informação necessária para o atendimento do mesmo;
+    - Descrição: informe a descrição do ticket. A descrição deve ser objetiva, incluindo toda informação necessária para o atendimento do mesmo;
 
-     - Direcionar para grupo: informe o grupo para o qual será direcionado o ticket. Caso não informe o grupo, o ticket será direcionado 
-para o grupo definido no fluxo de requisição/incidente. Se não estiver definido o grupo no fluxo, o ticket será direcionado para o 
-grupo definido no registro do vínculo da atividade de requisição/incidente ao contrato. Mas se o grupo não estiver definido no registro
-do vínculo da atividade ao contrato, o ticket será direcionado para o grupo definido no parâmetro "ID Grupo Nível 1"(para que esse campo esteja ativado é necessário configurar a funcionalidade - ver conhecimento Manutenção de fluxo de trabalho, seção Implementando a 
-funcionalidade direcionar grupo no fluxo sobre a atividade);
+    - Direcionar para grupo: informe o grupo para o qual será direcionado o ticket. Caso não informe o grupo, o ticket será direcionado para o grupo definido no fluxo de requisição/incidente. Se não estiver definido o grupo no fluxo, o ticket será direcionado para o grupo definido no registro do vínculo da atividade de requisição/incidente ao contrato. Mas se o grupo não estiver definido no registrodo vínculo da atividade ao contrato, o ticket será direcionado para o grupo definido no parâmetro "ID Grupo Nível 1"(para que esse campo esteja ativado é necessário configurar a funcionalidade - ver conhecimento Manutenção de fluxo de trabalho, seção Implementando a funcionalidade direcionar grupo no fluxo sobre a atividade);
 
      - Notificações: marque as opções de envio de notificação sobre o ticket para serem enviadas ao solicitante;
 
