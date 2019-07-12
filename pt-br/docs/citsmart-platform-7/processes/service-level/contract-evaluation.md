@@ -57,3 +57,8 @@ Preenchimento dos campos cadastrais
 -----------------------------------
 
 1.  Não se aplica.
+
+!!! tip "About"
+
+    <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
+    <b>Updated:</b>07/12/2019 - Anna.Martins
