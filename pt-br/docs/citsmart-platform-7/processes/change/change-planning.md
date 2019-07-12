@@ -322,7 +322,7 @@ Análise de Impacto e Risco Simplificado
     
         - **Razão da mudança**: descreva qual a razão para a mudança;
         - **Análise de impacto**: descreva os impactos que a mudança terá;
-        - **Análise dos riscos**: descreva a análise dos riscos envolvidos na mudança.
+        - **Análise dos riscos**: descreva a análise dos riscos envolvidos na mudança.  
         
 !!! tip "About"
 
