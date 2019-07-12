@@ -230,46 +230,40 @@ Cadastro de ticket
 
     b)	Registre as informações do ticket:
 
-     - Catálogo: selecione o catálogo de serviços;
+    - Catálogo: selecione o catálogo de serviços;
 
-     - Serviço: informe o serviço referente ao catálogo de serviços selecionado. Se o catálogo de serviços for "Negócio", serão 
+    - Serviço: informe o serviço referente ao catálogo de serviços selecionado. Se o catálogo de serviços for "Negócio", serão 
 disponibilizados neste campo os serviços de negócio para seleção, mas se o catálogo de serviços for "Técnico", serão disponibilizados 
 neste campo os serviços de apoio/técnico para seleção;
 
-     - Tipo: selecione o tipo do ticket, se é uma abertura de incidente ou requisição de serviço;
+    - Tipo: selecione o tipo do ticket, se é uma abertura de incidente ou requisição de serviço;
 
-     - Incidente: caso a situação apresentada seja uma interrupção não planejada, uma redução na qualidade do serviço ou falha de algum item
-de configuração que ainda não tenha impactado um serviço de TI. Ex.: O link de rede está fora, a rede está lenta, o servidor inacessível,
+    - Incidente: caso a situação apresentada seja uma interrupção não planejada, uma redução na qualidade do serviço ou falha de algum item de configuração que ainda não tenha impactado um serviço de TI. Ex.: O link de rede está fora, a rede está lenta, o servidor inacessível,
 etc.
 
-     - Requisição: refere-se aos pedidos de demandas realizados pelos usuários dentro do ambiente da Tecnologia da Informação. 
+    - Requisição: refere-se aos pedidos de demandas realizados pelos usuários dentro do ambiente da Tecnologia da Informação. 
 Podem ser desde pedidos de acesso até sugestões de melhoria a baixo custo. Ex.: pedido de acesso à rede para um novo usuário, 
 solicitação de configuração de algum equipamento, requisição para adicionar algum software na estação de trabalho, etc.
 
-     - Categoria: informe a categoria de serviço para facilitar a busca da atividade (requisição/incidente). A categoria irá identificar a 
-natureza da atividade, posicionando-o dentro de grupos semelhantes de atuação, situando-o na hierarquia de sua categoria;
+    - Categoria: informe a categoria de serviço para facilitar a busca da atividade (requisição/incidente). A categoria irá identificar a natureza da atividade, posicionando-o dentro de grupos semelhantes de atuação, situando-o na hierarquia de sua categoria;
 
-     - Atividade (Requisição/Incidente): informe a atividade que será realizada referente ao tipo de ticket. Caso a atividade informada tenha um “Script de Orientação” associado, o mesmo será exibido na guia de "Scripts" representada pelo ícone ![ticket](images/management-9.png)  localizado no canto superior direito da tela;
+    - Atividade (Requisição/Incidente): informe a atividade que será realizada referente ao tipo de ticket. Caso a atividade informada tenha um “Script de Orientação” associado, o mesmo será exibido na guia de "Scripts" representada pelo ícone ![ticket](images/management-9.png)  localizado no canto superior direito da tela;
 
-     - Contrato: após informar a atividade (requisição/incidente), será exibido o contrato para o qual será feita a abertura de incidente ou requisição de serviço;
+    - Contrato: após informar a atividade (requisição/incidente), será exibido o contrato para o qual será feita a abertura de incidente ou requisição de serviço;
 
-     - Urgência: após informar a atividade (requisição/incidente), será exibida a informação da urgência a qual indica a velocidade na qual o serviço precisa ser realizado;
+    - Urgência: após informar a atividade (requisição/incidente), será exibida a informação da urgência a qual indica a velocidade na qual o serviço precisa ser realizado;
 
-     - Impacto: após informar a atividade (requisição/incidente), será exibida a informação de impacto do serviço ao negócio;
+    - Impacto: após informar a atividade (requisição/incidente), será exibida a informação de impacto do serviço ao negócio;
 
     !!! warning "ATENÇÃO"
     
         Após informar a atividade do ticket, será estabelecido o tempo previsto para seu atendimento, conforme configurado no registro do tempo de atendimento vinculado à atividade. O tempo de atendimento será contabilizado de acordo com o que foi definido no calendário vinculado à unidade, mas caso a unidade não tenha um calendário vinculado, será contabilizado de acordo com o calendário vinculado ao serviço. Porém, ao encerrar o tempo previsto de atendimento é contabilizado o atraso em tempo corrido, sendo desconsiderado o calendário.
 
-     - Título: informe o título do ticket;
+    - Título: informe o título do ticket;
 
-     - Descrição: informe a descrição do ticket. A descrição deve ser objetiva, incluindo toda informação necessária para o atendimento do mesmo;
+    - Descrição: informe a descrição do ticket. A descrição deve ser objetiva, incluindo toda informação necessária para o atendimento do mesmo;
 
-     - Direcionar para grupo: informe o grupo para o qual será direcionado o ticket. Caso não informe o grupo, o ticket será direcionado 
-para o grupo definido no fluxo de requisição/incidente. Se não estiver definido o grupo no fluxo, o ticket será direcionado para o 
-grupo definido no registro do vínculo da atividade de requisição/incidente ao contrato. Mas se o grupo não estiver definido no registro
-do vínculo da atividade ao contrato, o ticket será direcionado para o grupo definido no parâmetro "ID Grupo Nível 1"(para que esse campo esteja ativado é necessário configurar a funcionalidade - ver conhecimento Manutenção de fluxo de trabalho, seção Implementando a 
-funcionalidade direcionar grupo no fluxo sobre a atividade);
+    - Direcionar para grupo: informe o grupo para o qual será direcionado o ticket. Caso não informe o grupo, o ticket será direcionado para o grupo definido no fluxo de requisição/incidente. Se não estiver definido o grupo no fluxo, o ticket será direcionado para o grupo definido no registro do vínculo da atividade de requisição/incidente ao contrato. Mas se o grupo não estiver definido no registrodo vínculo da atividade ao contrato, o ticket será direcionado para o grupo definido no parâmetro "ID Grupo Nível 1"(para que esse campo esteja ativado é necessário configurar a funcionalidade - ver conhecimento Manutenção de fluxo de trabalho, seção Implementando a funcionalidade direcionar grupo no fluxo sobre a atividade);
 
      - Notificações: marque as opções de envio de notificação sobre o ticket para serem enviadas ao solicitante;
 
@@ -381,9 +375,9 @@ Vinculando problemas
 
     -	Pesquisar Problema.
 
-   ![ticket](images/management-20.png)
+    ![ticket](images/management-20.png)
 
-   **Figura 11 - Tela de pesquisa de problemas relacionados**
+    **Figura 11 - Tela de pesquisa de problemas relacionados**
 
 2.	No campo de pesquisa, é permitido a busca pelo título de problema previamente cadastrados;
 
@@ -965,7 +959,7 @@ Suspensão e reativação de múltiplos tickets
 
 ### Reativando múltiplos tickets suspensos
 
-1.	Na tela de Gerenciamento Ticket, clique no ícone   e em Suspensão/Reativação, conforme indicado na figura abaixo:
+1.	Na tela de Gerenciamento Ticket, clique no ícone ![ticket](images/management-51.png)  e em Suspensão/Reativação, conforme indicado na figura abaixo:
 
     ![ticket](images/management-54.png)
 
@@ -1154,7 +1148,7 @@ Agendamento de atividade de ticket
 
 3.	Após os dados informados, clique no botão Gravar para efetuar a operação, onde a data, hora e usuário serão gravados automaticamente para uma futura auditoria.
 
-!!! info "INFORMAÇÃO"
+!!! info "IMPORTANTE"
 
      As atividades que foram agendadas poderão ser visualizadas na Agenda de Atividades. Para acessar a agenda, clique em Agenda, localizada no menu da tela de Gerenciamento de Ticket ou no menu principal, Gestão Integrada > Automação das Operações de TI > Agenda Ativ. Periódicas
 
@@ -1265,9 +1259,9 @@ Cadastro e vinculação de ticket relacionado
 
     -	Tipo: selecione o tipo do ticket, se é incidente ou requisição;
 
-       -	Incidente: caso a situação apresentada seja uma interrupção não planejada, uma redução na qualidade do serviço ou falha de algum item de configuração que ainda não tenha impactado um serviço de TI. Ex: o link de rede está fora, a rede está lenta, o servidor inacessível, etc.
+        - Incidente: caso a situação apresentada seja uma interrupção não planejada, uma redução na qualidade do serviço ou falha de algum item de configuração que ainda não tenha impactado um serviço de TI. Ex: o link de rede está fora, a rede está lenta, o servidor inacessível, etc.
   
-       -	Requisição: refere-se aos pedidos de demandas realizados pelos usuários dentro do ambiente da Tecnologia da Informação. Podem ser desde pedidos de acesso até sugestões de melhoria a baixo custo. Ex: pedido de acesso à rede para um novo usuário, solicitação de configuração de algum equipamento, requisição para adicionar algum software na estação de trabalho, etc.
+        - Requisição: refere-se aos pedidos de demandas realizados pelos usuários dentro do ambiente da Tecnologia da Informação. Podem ser desde pedidos de acesso até sugestões de melhoria a baixo custo. Ex: pedido de acesso à rede para um novo usuário, solicitação de configuração de algum equipamento, requisição para adicionar algum software na estação de trabalho, etc.
   
     -	Atividade (Requisição/Incidente): informe a atividade que será realizada referente ao tipo de ticket;
 
@@ -1335,7 +1329,7 @@ Esta técnica faz parte da estratégia comum da administração chamada “Gest�
 2.	Dar permissão para o Perfil de Acesso desejado (ver conhecimento Permissão de acesso do gerenciamento de tickets).
 
 
-### Explicando o quadro kanban
+### Explicando o quadro Kanban
 
 1.	O quadro Kanban recupera os tickets de cada atendente (usuário) que compõem o grupo selecionado. Esses tickets são agrupados por atendente numa forma gráfica, didática e dinâmica;
 2.	As informações estão estruturadas com modos de exibição, filtros, legendas e raias que agrupam os tickets de cada atendente;
@@ -1593,11 +1587,11 @@ Pesquisa avançada
 
     -	Tipo: destinação do ticket:
 
-       -	Requisição;
+        - Requisição;
 
-       -	Incidente;
+        - Incidente;
 
-       -	Procedimento.
+        - Procedimento.
 
     -	Solicitante: nome do usuário que solicitou a atividade;
 
@@ -1640,31 +1634,31 @@ Pesquisa avançada
 
     -	Data e hora da suspensão: data e hora da última suspensão;
 
-       -	Pré condição: o ticket deverá ter sido suspenso, caso contrário não existe informação nesse campo;
+        - Pré condição: o ticket deverá ter sido suspenso, caso contrário não existe informação nesse campo;
   
-       -	Um ticket pode possuir várias suspensões ao longo do seu ciclo de vida, por isso, esse campo retornará somente dados da última suspensão;
+        - Um ticket pode possuir várias suspensões ao longo do seu ciclo de vida, por isso, esse campo retornará somente dados da última suspensão;
 
     -	Data e hora da reativação: data e hora da última reativação;
 
-       -	Pré condição: o ticket deverá estar suspenso, caso contrário não existe informação nesse campo;
+        - Pré condição: o ticket deverá estar suspenso, caso contrário não existe informação nesse campo;
   
-       -	Um ticket pode possuir várias reativações ao longo do seu ciclo de vida, por isso, esse campo retornará somente dados da última reativação;
+        - Um ticket pode possuir várias reativações ao longo do seu ciclo de vida, por isso, esse campo retornará somente dados da última reativação;
 
     -	Impacto: reflete o nível impelido no ticket,
 
-       -	Os impactos podem variar caso o parâmetro 104 - Calcular a prioridade do ticket dinamicamente usando a fórmula cadastrada. (Ex: S ou N - Default: 'N') esteja ativo;
+        - Os impactos podem variar caso o parâmetro 104 - Calcular a prioridade do ticket dinamicamente usando a fórmula cadastrada. (Ex: S ou N - Default: 'N') esteja ativo;
 
-       -	Os impactos podem ser: Alto, Médio ou Baixo (sem o parâmetro 104);
+        - Os impactos podem ser: Alto, Médio ou Baixo (sem o parâmetro 104);
 
-       -	Os impactos podem ser: Altíssimo, Alto, Elevado, Médio, Baixo (com o parâmetro 104);
+        - Os impactos podem ser: Altíssimo, Alto, Elevado, Médio, Baixo (com o parâmetro 104);
 
     -	Urgência: reflete o quanto para o usuário o ticket aberto precisa de tratamento imediato;
 
-       -	A urgência também pode sofrer variação do parâmetro 104;
+        - A urgência também pode sofrer variação do parâmetro 104;
 
-       -	As urgências podem ser: alta, média ou baixa (sem o parâmetro 104);
+        - As urgências podem ser: alta, média ou baixa (sem o parâmetro 104);
 
-       -	As urgências podem ser: crítica, alta, média ou baixa (com o parâmetro 104);
+        - As urgências podem ser: crítica, alta, média ou baixa (com o parâmetro 104);
       
     -	Causa: motivos que ocasionaram o reporte do ticket;
 
@@ -1680,11 +1674,11 @@ Pesquisa avançada
 
     -	Tempo de atraso do SLA: prazo em HH:MM que o SLA está fora do prazo estabelecido para atendimento;
   
-        -	o SLA fora do prazo é contado pela subtração entre o tempo de atendimento e tempo total de atendimento, lembrando que se o SLA estiver fora do prazo, o sistema desconsidera o calendário;
+         -	o SLA fora do prazo é contado pela subtração entre o tempo de atendimento e tempo total de atendimento, lembrando que se o SLA estiver fora do prazo, o sistema desconsidera o calendário;
 
     -	Dentro SLA?: informa se o prazo de atendimento ficou dentro ou fora do acordo de nível de serviço (SLA)
 
-        -	Valores possíveis: Sim ou Não;
+         -	Valores possíveis: Sim ou Não;
 
     -	Localidade: local para onde foi aberta o ticket;
 
@@ -1692,19 +1686,19 @@ Pesquisa avançada
 
     -	Telefone do solicitante: número do telefone de contato do solicitante:
 
-        -	Esse campo pode ser alterado no momento do cadastro do ticket;
+         -	Esse campo pode ser alterado no momento do cadastro do ticket;
 
     -	Ramal do solicitante: número do ramal do solicitante;
 
     -	E-mail do solicitante: informação sobre o endereço de e-mail do solicitante;
 
-        -	Esse campo pode ser alterado no momento do cadastro do ticket;
+         -	Esse campo pode ser alterado no momento do cadastro do ticket;
 
     -	Unidade: órgão ao qual pertence o solicitante;
 
     -	Justificativa de SLA vencido: descrição do motivo pelo qual o tempo de atendimento não foi suficiente;
 
-        -	Caso o tempo de atendimento tenha se excedido, esse campo é de preenchimento obrigatório;
+         -	Caso o tempo de atendimento tenha se excedido, esse campo é de preenchimento obrigatório;
 
     -	Tipo de catálogo: negócio/técnico;
 
@@ -1714,7 +1708,7 @@ Pesquisa avançada
 
     -	Quantidade de anexos: número de anexos que possui o ticket;
 
-        -	Essa quantidade pode ser incrementada ou decrementada durante o ciclo de vida do ticket, portanto ele deve refletir a quantidade no momento em que se imprime o relatório.
+         -	Essa quantidade pode ser incrementada ou decrementada durante o ciclo de vida do ticket, portanto ele deve refletir a quantidade no momento em que se imprime o relatório.
 
 Reabertura de ticket
 -------------------
