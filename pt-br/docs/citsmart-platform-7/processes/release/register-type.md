@@ -13,8 +13,8 @@ irá seguir.
 Como acessar
 ------------
 
-1.  Acesse a funcionalidade de tipo de liberação** **através da navegação no
-    menu principal **Processos ITIL** \> **Gerência de Liberação **\> **Tipo de
+1.  Acesse a funcionalidade de tipo de liberação através da navegação no
+    menu principal **Processos ITIL \> Gerência de Liberação \> Tipo de
     Liberação**.
 
 Pré-condições
