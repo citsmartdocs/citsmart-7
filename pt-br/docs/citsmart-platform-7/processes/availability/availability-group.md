@@ -23,13 +23,14 @@ Filtros
 de itens na listagem padrão da funcionalidade, facilitando a 
 localização dos itens desejados:
 
- - Nome.
+    - Nome.
  
  2. Na tela de **Grupo de Disponibilidade**, clique na aba **Pesquisa**.
  Será apresentada a tela de pesquisa conforme ilustrada na figura abaixo:
  
- ![Grupo disponibilidade](images/grupo-disponibilidade.img01.png)
- **Figura 1 - Tela de pesquisa de grupo de disponibilidade**
+     ![Grupo disponibilidade](images/grupo-disponibilidade.img01.png)
+     
+     **Figura 1 - Tela de pesquisa de grupo de disponibilidade**
  
  3. Realize a pesquisa de grupo de disponibilidade;
  
@@ -47,8 +48,9 @@ Listagem de itens
 a identificação dos itens desejados na listagem padrão da funcionalidade:
 **Nome** e **Acordo de disponibilidade (percentual)**.
 
-![Tela de listagem](images/grupo-disponibilidade.img02.png)
-**Figura 2 - Tela de listagem de grupo de disponibilidade**
+    ![Tela de listagem](images/grupo-disponibilidade.img02.png)
+    
+    **Figura 2 - Tela de listagem de grupo de disponibilidade**
     
 2. Após a pesquisa, selecione o registro desejado. Feito isso, será 
 direcionado para a tela de cadastro exibindo o conteúdo referente
@@ -65,8 +67,9 @@ Preenchimento dos campos cadastrais
 1. Será apresentada a tela de Cadastro de **Grupo de Disponibilidade**, 
 conforme ilustrada na figura abaixo:
 
-![Tela de cadastro](images/grupo-disponibilidade.img03.png)
-**Figura 3 - Tela de cadastro de grupo de disponibilidade**
+    ![Tela de cadastro](images/grupo-disponibilidade.img03.png)
+    
+    **Figura 3 - Tela de cadastro de grupo de disponibilidade**
     
 2. Preencha os campos conforme orientações abaixo:
 
@@ -84,16 +87,17 @@ de IC, realize a pesquisa e selecione o IC. Feito isso, o IC será adicionado
 ao grupo, conforme exemplo ilustrado na figura abaixo:
 
     ![Tela de pesquisa](images/grupo-disponibilidade.img04.png)
+    
     **Figura 4 - Pesquisa item de configuração**
     
 4. Para verificar as informações do IC, basta clicar no botão "Visualizar" do mesmo;
 
-    ![Detalhmento](images/grupo-disponibilidade.img05.png)
+    ![Detalhamento](images/grupo-disponibilidade.img05.png)
+    
     **Figura 5 - Detalhamento de item de configuração**
     
 5. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário 
 serão gravados automaticamente para uma futura auditoria.
-
 
 !!! tip "About"
 
