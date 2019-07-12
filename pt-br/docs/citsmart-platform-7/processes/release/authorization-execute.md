@@ -53,7 +53,7 @@ Listagem de items
 
     !!! info "IMPORTANTE"
 
-     **Somente o “solicitante” pode autorizar a execução da liberação**
+        Somente o “solicitante” pode autorizar a execução da liberação.
 
 1.  Será apresentada a tela de Gerenciamento de
     Liberação. Na guia **Gerenciamento**, localize a liberação que será liberada
