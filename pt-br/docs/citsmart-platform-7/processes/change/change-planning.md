@@ -88,10 +88,10 @@ Importando cronogramas MS-Project para atividades de mudança
     
     **Figura 5 - Importar MS Project**
     
-            - Clique no botão "Escolher arquivo". Será apresentada uma janela, onde poderá selecionar o arquivo desejado;
-            - Selecione o arquivo;
-            - Informe a descrição do arquivo e clique no botão "Adicionar";
-            - Após adição do arquivo, clique no botão Importar e confirme a execução da importação.
+- Clique no botão "Escolher arquivo". Será apresentada uma janela, onde poderá selecionar o arquivo desejado;
+- Selecione o arquivo;
+- Informe a descrição do arquivo e clique no botão "Adicionar";
+- Após adição do arquivo, clique no botão Importar e confirme a execução da importação.
 
 Anexando plano reversão
 --------------------------
@@ -162,13 +162,15 @@ Lista de projetos
 Planejando a análise de impacto e risco por alvos
 ---------------------------------------------------
 
-##Pré-condições##
+Pré-condições
+--------------
 
 1. Depende do tipo cadastrado em tipo de mudança (ver conhecimento Cadastro e pesquisa de Tipo de Mudança);
 
 2. Informe a "análise de impacto e risco" envolvido na mudança, que pode ser "por alvo" ou "simplificado".
 
-##Análise de Impacto e Risco Por Alvos##
+Análise de Impacto e Risco Por Alvos
+--------------------------------------
 
 1. Na tela de listagem de **Gerenciamento de Mudanças > botão Ação > Iniciar/Executar tarefa**;
 
@@ -216,17 +218,17 @@ Planejando a análise de impacto e risco por alvos
     
     **Figura 16 - Seleção de alvos**
     
-        - **Possíveis Impactos**: informe os possíveis impactos do alvo para a mudança;
-        - **Gravidade**: informe a gravidade do alvo para a mudança;
-        - **Objetivo do tempo de recuperação**: informe o tempo esperado para recuperação do alvo durante a mudança;
-        - **Objetivo para ponto de recuperação**: informe o tempo que começará a recuperação do alvo durante a mudança;
-        - **Custo por hora de inatividade**: defina o custo por hora quando houver indisponibilidade desse alvo; dessa função
+    - **Possíveis Impactos**: informe os possíveis impactos do alvo para a mudança;
+    - **Gravidade**: informe a gravidade do alvo para a mudança;
+    - **Objetivo do tempo de recuperação**: informe o tempo esperado para recuperação do alvo durante a mudança;
+    - **Objetivo para ponto de recuperação**: informe o tempo que começará a recuperação do alvo durante a mudança;
+    - **Custo por hora de inatividade**: defina o custo por hora quando houver indisponibilidade desse alvo; dessa função
         vital;
-        - **Máximo tolerável de inatividade**: informe o tempo máximo que o alvo poderá ficar inativo;
-        - **Custo do impacto**: defina o custo por impacto quando houver indisponibilidade desse alvo, dessa função vital;
-        - **Estratégia 1**: descreva a primeira estratégia para continuidade do serviço;
-        - **Estratégia 2**: descreva a segunda estratégia para continuidade do serviço;
-        - **Estratégia 3**: descreva a terceira estratégia para continuidade do serviço;
+    - **Máximo tolerável de inatividade**: informe o tempo máximo que o alvo poderá ficar inativo;
+    - **Custo do impacto**: defina o custo por impacto quando houver indisponibilidade desse alvo, dessa função vital;
+    - **Estratégia 1**: descreva a primeira estratégia para continuidade do serviço;
+    - **Estratégia 2**: descreva a segunda estratégia para continuidade do serviço;
+    - **Estratégia 3**: descreva a terceira estratégia para continuidade do serviço;
         
     - Na aba **Avaliação de Riscos**, faça a avaliação de riscos para os alvos da mudança;
     
@@ -240,55 +242,54 @@ Planejando a análise de impacto e risco por alvos
     
     **Figura 18 - Adicionar cenário**
     
-        - **Nome cenário**: informe o nome do cenário;
-        - **Tipo de Alvo**: selecione o tipo de alvo;
-        - **Alvo**: selecione o alvo. Caso queira limpar o dado informado no campo, clique no 
-        ícone ![simbolo](images/simb-fechar.png);
-        - Adicione os riscos à avaliação:
-            - Clique no botão "Adicionar risco" e será apresentada a tela de cadastro e/ou pesquisa de 
-            riscos, conforme ilustrada na figura abaixo:
+    - **Nome cenário**: informe o nome do cenário;
+    - **Tipo de Alvo**: selecione o tipo de alvo;
+    - **Alvo**: selecione o alvo. Caso queira limpar o dado informado no campo, clique no 
+    ícone ![simbolo](images/simb-fechar.png);
+    - Adicione os riscos à avaliação:
+     - Clique no botão "Adicionar risco" e será apresentada a tela de cadastro e/ou pesquisa de riscos, 
+     conforme ilustrada na figura abaixo:
             
     ![Cadastro](images/planej-mud.img19.png)
     
     **Figura 19 - Tela de cadastro e pesquisa de risco**
     
-            - Realize a pesquisa e selecione o risco desejado. Após isso, será adicionado o risco na 
-            tela, conforme exemplo ilustrado na figura abaixo:
+     - Realize a pesquisa e selecione o risco desejado. Após isso, será adicionado o risco na tela, conforme 
+     exemplo ilustrado na figura abaixo:
             
     ![Ameaças](images/planej-mud.img20.png)
     
     **Figura 20 - Ameaças**
     
-        - Clique no botão "Selecionar ameaça" para adicionar a ameaça do risco. Será apresentado o campo para 
-        informar a ameaça. Após selecionar a ameaça clique no ícone para expandir a tela e informar a probabilidade, 
-        o impacto da ameaça e justificativa sobre o risco;
+    - Clique no botão "Selecionar ameaça" para adicionar a ameaça do risco. Será apresentado o campo para informar a 
+    ameaça. Após selecionar a ameaça clique no ícone para expandir a tela e informar a probabilidade, o impacto da
+    ameaça e justificativa sobre o risco;
         
     ![Ameaças](images/planej-mud.img21.png)
     
     **Figura 21 - Ameaças**
     
-        - Após informar a(s) ameaça(s), clique na guia **Planos de Tratativa**. Será apresenta a tela de plano
-        de tratativa conforme ilustrada na figura abaixo:
+    - Após informar a(s) ameaça(s), clique na guia **Planos de Tratativa**. Será apresenta a tela de plano de tratativa conforme ilustrada na figura abaixo:
         
     ![Planos](images/planej-mud.img22.png)
     
     **Figura 22 - Planos de tratativa**
     
-        - Clique no botão Adicionar tratativa, para registrar a tratativa da ameaça. Será apresentado o campo para
-        informar a descrição do plano de tratativa. Após informar o nome do plano clique no
-        ícone ![simbolo](images/simb-mais.cinza.png) para expandir a tela e informar a probabilidade e o impacto
-        da tratativa sobre a ameaça;
+    - Clique no botão Adicionar tratativa, para registrar a tratativa da ameaça. Será apresentado o campo para 
+    informar a descrição do plano de tratativa. Após informar o nome do plano clique no 
+    ícone ![simbolo](images/simb-mais.cinza.png) para expandir a tela e informar a probabilidade e o impacto 
+    da tratativa sobre a ameaça;
         
     ![Tratativa](images/planej-mud.img23.png)
     
     **Figura 23 - Planos de tratativa**
     
-        - **Nome do plano de tratativa**: informe no nome do plano de tratativa das ameaças;
-        - **Ameaças relacionadas**: informe as ameaças relacionadas ao risco;
-        - **Probabilidade**: informe a probabilidade de tratativa das ameaças;
-        - **Impacto**: informe o impacto da tratativa sobre as ameaças;
-        - **Proposta de medida de recuperação**: descreva a proposta da medida de recuperação;
-        - **Proposta de plano de mitigação**: descreva a proposta do plano de mitigação;
+    - **Nome do plano de tratativa**: informe no nome do plano de tratativa das ameaças;
+    - **Ameaças relacionadas**: informe as ameaças relacionadas ao risco;
+    - **Probabilidade**: informe a probabilidade de tratativa das ameaças;
+    - **Impacto**: informe o impacto da tratativa sobre as ameaças;
+    - **Proposta de medida de recuperação**: descreva a proposta da medida de recuperação;
+    - **Proposta de plano de mitigação**: descreva a proposta do plano de mitigação;
         
     !!! note "NOTA"
     
@@ -299,27 +300,28 @@ Planejando a análise de impacto e risco por alvos
     clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para
     uma futura auditoria.
     
-##Análise de Impacto e Risco Simplificado##
+Análise de Impacto e Risco Simplificado
+----------------------------------------
 
-    - Ao lado direito da tela de requisição de mudança, clique na opção **Análise de Impacto e Risco Simplificado**;
+- Ao lado direito da tela de requisição de mudança, clique na opção **Análise de Impacto e Risco Simplificado**;
     
     ![Risco](images/planej-mud.img24.png)
     
     **Figura 24 - Análise de impacto e risco simplificado**
     
-    - Clique no ícone ![simbolo](images/simb-lupa.png) para relacionar os riscos à requisição de mudança;
-        - Será exibida uma janela para pesquisa de riscos. Realize a pesquisa e selecione o risco referente à
-        mudança. Feito isso, o risco será relacionado a requisição de mudança;
+- Clique no ícone ![simbolo](images/simb-lupa.png) para relacionar os riscos à requisição de mudança;
+    - Será exibida uma janela para pesquisa de riscos. Realize a pesquisa e selecione o risco referente à 
+    mudança. Feito isso, o risco será relacionado a requisição de mudança;
         
     ![Riscos](images/planej-mud.img25.png)
     
     **Figura 25 - Registro dos riscos envolvidos na mudança**
     
-    - Caso queira registrar um novo risco a partir desta tela, clique no ícone ![simbolo](images/exec-mais.png) ;
+- Caso queira registrar um novo risco a partir desta tela, clique no ícone ![simbolo](images/exec-mais.png) ;
     
-        - **Razão da mudança**: descreva qual a razão para a mudança;
-        - **Análise de impacto**: descreva os impactos que a mudança terá;
-        - **Análise dos riscos**: descreva a análise dos riscos envolvidos na mudança.
+    - **Razão da mudança**: descreva qual a razão para a mudança;
+    - **Análise de impacto**: descreva os impactos que a mudança terá;
+    - **Análise dos riscos**: descreva a análise dos riscos envolvidos na mudança.  
         
 !!! tip "About"
 
