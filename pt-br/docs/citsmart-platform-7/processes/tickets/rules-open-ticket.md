@@ -24,10 +24,10 @@ de solicitação de serviço via e-mail:
 6.  Os anexos constantes do e-mail serão anexados à solicitação de serviço
     criadas, observadas:
 
-  -  O parâmetro 318: Lista de extensões de arquivos que não poderão ser anexados
+    -  O parâmetro 318: Lista de extensões de arquivos que não poderão ser anexados
     (Para mais de uma extensão separar por ponto e vírgula);
 
-  -  O parâmetro 278 : Tamanho máximo de arquivo, em bytes, para upload.
+    -  O parâmetro 278 : Tamanho máximo de arquivo, em bytes, para upload.
     Default[1073741824] = 1GB
 
 
