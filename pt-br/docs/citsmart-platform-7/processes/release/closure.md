@@ -4,9 +4,9 @@ Description: Esta funcionalidade permite finalizar a requisição de liberação
 
 Esta funcionalidade permite finalizar a requisição de liberação.
 
-    !!! note "NOTA"
+!!! note "NOTA"
 
-        Somente o "solicitante" pode encerrar a requisição de liberaçã
+    Somente o "solicitante" pode encerrar a requisição de liberação.
 
 Como acessar
 ------------
