@@ -42,7 +42,7 @@ Listagem de itens
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
     funcionalidade: **Número**, **Solicitante**, **Criada**
-    **em**, **Prioridade**, **Prazo Limite**, **Atraso**, **Situação**, **Tarefa
+    **em**, **Prioridade**, **Prazo Limite**, **Atraso**, **Situação**, **Tarefa**
     **atual**, **Grupo Executor**, **Responsável atual** e **Compartilhada com**.
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
