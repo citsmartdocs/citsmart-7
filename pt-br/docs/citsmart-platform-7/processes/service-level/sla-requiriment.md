@@ -50,7 +50,7 @@ Listagem de itens
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Editar* e* Excluir*.
 
-    ![Criar](images/sla-requiriment-1.png)
+    ![Criar](images/sla-requiriment-2.png)
 
     **Figura 2 - Tela de listagem de requisito de Acordo de Nível de Serviço**
 
@@ -70,7 +70,7 @@ Preenchimento dos campos cadastrais
     Requisito de Acordo de Nível de Serviço**, conforme ilustrada na figura a
     seguir:
 
-    ![Criar](images/sla-requiriment-1.png)
+    ![Criar](images/sla-requiriment-3.png)
 
     **Figura 3 - Tela de cadastro de requisito de Acordo de Nível de Serviço**
 
