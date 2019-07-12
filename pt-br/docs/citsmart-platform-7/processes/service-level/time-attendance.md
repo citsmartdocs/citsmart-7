@@ -59,7 +59,7 @@ Listagem de items
 
 1.  Realize a pesquisa do tempo de atendimento:
 
-2.  A consulta é realizada por tipo de atendimento (Global, Cliente e
+    -  A consulta é realizada por tipo de atendimento (Global, Cliente e
     Requisição/Incidente/Procedimento). Selecione o tipo de atendimento que
     desejar, informe o título do registro e clique no botão *Pesquisar*. Feito
     isso, será exibido o registro conforme o título informado;
@@ -210,22 +210,22 @@ requisição/incidente**
 
     -  Informe a unidade e atribua uma prioridade;
 
-    -  **Unidade**: informe a unidade desejada;
+       -  **Unidade**: informe a unidade desejada;
 
-    -  **Prioridade**: indique a prioridade do serviço para a unidade;
+       -  **Prioridade**: indique a prioridade do serviço para a unidade;
 
     -  Feito isso, clique no botão *Incluir* para efetuar a operação.
 
     -  Informe o empregado e atribua uma prioridade;
 
-    -  **Empregados**: informe o empregado;
+       -  **Empregados**: informe o empregado;
 
-    -  **Prioridade**: indique a prioridade do serviço para o empregado;
+       -  **Prioridade**: indique a prioridade do serviço para o empregado;
 
-    -  **Crítico**: indique se o empregado é do tipo "crítico" ao negócio, ou seja,
-    que deve ter o atendimento do serviço com prioridade alta.
+       -  **Crítico**: indique se o empregado é do tipo "crítico" ao negócio, ou seja,
+          que deve ter o atendimento do serviço com prioridade alta.
 
-    -  Feito isso, clique no botão *Incluir* para efetuar a operação.
+     -  Feito isso, clique no botão *Incluir* para efetuar a operação.
 
 1.  Após o cadastro dos dados, clique no botão *Gravar* para efetuar o registro,
     onde a data, hora e usuário serão gravados automaticamente para uma futura
