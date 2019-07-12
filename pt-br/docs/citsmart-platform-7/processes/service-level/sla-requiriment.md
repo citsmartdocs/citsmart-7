@@ -59,7 +59,7 @@ Listagem de itens
     de cadastro exibindo o conteúdo do registro;
 
 2.  Caso queira criar um SLA a partir do requisito, basta clicar no botão *Criar
-    SLA a partir deste Requisito.
+    SLA* a partir deste Requisito.
 
 Preenchimento dos campos cadastrais
 -----------------------------------
