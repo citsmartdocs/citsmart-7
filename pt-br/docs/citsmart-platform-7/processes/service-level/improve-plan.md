@@ -50,7 +50,7 @@ Listagem de itens
 
 1.  O seguinte campo cadastral está disponível ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** Título.**
+    funcionalidade: **Título**.
 
 2.  Na tela de Plano de Melhoria, clique na guia **Pesquisa**. Será apresentada
     a tela de pesquisa conforme ilustrada na figura abaixo:
