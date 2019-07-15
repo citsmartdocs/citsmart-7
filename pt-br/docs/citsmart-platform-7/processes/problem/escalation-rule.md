@@ -130,15 +130,15 @@ Preenchimento dos campos cadastrais
 
     b. Informe os dados da Regra de Classificação/Notificação:
 
-      -   **Classificação/Evento**: selecione a opção desejada para ser enviada
+       -   **Classificação/Evento**: selecione a opção desejada para ser enviada
     notificação para o responsável:
 
-         -  Se a opção selecionada for “Vencendo” será habilitado o campo “Prazo
+       -  Se a opção selecionada for “Vencendo” será habilitado o campo “Prazo
          restante p/ execução (min)”. Informe o tempo, em minutos, que deve
          restar para o término da atividade a partir da data de criação para ser
          enviado uma notificação;
 
-         -  Se a opção selecionada for “Percentual SLA” será habilitado o campo
+       -  Se a opção selecionada for “Percentual SLA” será habilitado o campo
         “Valor (%)”. Informe, em porcentagem, em quanto tempo o SLA da atividade
         deve estar para ser enviado uma notificação;
 
