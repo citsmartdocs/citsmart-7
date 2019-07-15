@@ -42,9 +42,9 @@ Listagem de itens
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** Número**,** Solicitante**,** Criada
-    em**,** Prioridade**,** Prazo Limite**,** Atraso, Situação**,** Tarefa
-    atual**, **Grupo Executor**, **Responsável atual** e **Compartilhada com**.
+    funcionalidade: Número, Solicitante, Criada
+    em, Prioridade, Prazo Limite, Atraso, Situação, Tarefa
+    atual, Grupo Executor, Responsável atual e Compartilhada com.
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Visualizar*, *Relatórios*, *Agendar Requisição de
@@ -66,7 +66,7 @@ Listagem de itens
     -  Certifique-se que a execução da liberação de mudanças ocorreu conforme
     solicitado;
 
-    -  Na área de **Requisição**, no campo **Situação, **informe a situação da
+    -  Na área de **Requisição**, no campo **Situação**, informe a situação da
     requisição de liberação (Resolvido ou Não Resolvido);
 
     -  Registre as informações necessárias sobre a execução da homologação:
@@ -95,12 +95,12 @@ Listagem de itens
     -  No campo **Fechamento**, informe os detalhes sobre realização da liberação
     das mudanças;
 
-    -  Clique no botão *Gravar e avançar o fluxo* para efetuar a operação, onde a
-    requisição de liberação será encaminhada para o solicitante finalizá-la.
+        -  Clique no botão *Gravar e avançar o fluxo* para efetuar a operação, onde a
+          requisição de liberação será encaminhada para o solicitante finalizá-la.
 
-    -  Caso queira gravar somente as informações registradas sobre a homologação
-    realizada e manter a tarefa atual, clique no botão *Gravar e manter a tarefa
-    atual*.
+         -  Caso queira gravar somente as informações registradas sobre a homologação
+         realizada e manter a tarefa atual, clique no botão *Gravar e manter a tarefa
+         atual*.
 
 Preenchimento dos campos cadastrais
 -----------------------------------
