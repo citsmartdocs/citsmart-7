@@ -139,7 +139,7 @@ Vinculando base de conhecimento
 
     **Figura 7 - Guia de base de conhecimento**
 
-    -  Será apresentada a tela de vínculo de conhecimento. Clique no ícone ![Criar](images/execution-9.png)  para
+    -  Será apresentada a tela de vínculo de conhecimento. Clique no ícone ![Criar](images/execution-10.png)  para
     adicionar o conhecimento;
 
     -  Será exibida a tela de pesquisa de conhecimento. Realize a pesquisa e
