@@ -35,11 +35,11 @@ Listagem de itens
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** Número, Título, Contrato, Criada em, Prioridade, Prazo
-    limite, Solicitante, Status, Grupo Executor **e **Responsável atual.**
+    funcionalidade: Número, Título, Contrato, Criada em, Prioridade, Prazo
+    limite, Solicitante, Status, Grupo Executor e Responsável atual.
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Visualizar*, *Relatório *e *Ação*.
+    listagem, são eles: *Visualizar*, *Relatório* e *Ação*.
 
     ![Criar](images/resolve-2.png)
 
@@ -52,7 +52,7 @@ Nesta etapa, deve verificar se a solução aplicada resolveu o problema. Verific
 se será necessária uma mudança, caso seja, submeter uma requisição de mudança
 (RDM) para o processo de Gerenciamento de Mudanças. Caso não seja necessária uma
 mudança, executar as ações necessárias para resolução do problema e recuperação
-do serviço. Registrar os detalhes completos da solução e ações no Problema*.*
+do serviço. Registrar os detalhes completos da solução e ações no Problema.
 
 **O membro do grupo designado para resolução deve capturar o problema e iniciar
 a atividade.**
