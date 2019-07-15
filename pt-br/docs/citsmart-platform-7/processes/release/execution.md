@@ -89,17 +89,17 @@ Vinculando itens de configuração
     pesquisa e clique no botão *Pesquisar*. Serão apresentados os ICs conforme o
     filtro informado;
 
-3.  Clique no ícone ![Criar](images/execution-4.png)  do IC desejado. Feito isso, o IC será vinculado à
+3.  Clique no ícone ![Criar](images/execution-5.png)  do IC desejado. Feito isso, o IC será vinculado à
     requisição de liberação;
 
-    ![Criar](images/execution-5.png)
+    ![Criar](images/execution-6.png)
 
      **Figura 4 - Item de configuração relacionado**
 
     -  Caso queira excluir o vínculo do item de configuração com a requisição de
-    liberação, basta clicar no ícone ![Criar](images/execution-6.png) do mesmo.
+    liberação, basta clicar no ícone ![Criar](images/execution-7.png) do mesmo.
 
-    -  Caso queira verificar informações detalhadas do IC, basta clicar no ícone ![Criar](images/execution-7.png)
+    -  Caso queira verificar informações detalhadas do IC, basta clicar no ícone ![Criar](images/execution-8.png)
      do mesmo.
 
 Vinculando problema
@@ -111,11 +111,11 @@ Vinculando problema
         em **Processos/Opções** e logo em seguida na opção **Problema**,
         conforme indicado na figura abaixo:
 
-    ![Criar](images/execution-8.png)
+    ![Criar](images/execution-9.png)
 
      **Figura 5 - Guia de problema**
 
-1.  Será apresentada a tela de vínculo de problemas. Clique no ícone ![Criar](images/execution-9.png)  para
+1.  Será apresentada a tela de vínculo de problemas. Clique no ícone ![Criar](images/execution-10.png)  para
     adição de problemas;
 
 2.  Será exibida a tela de pesquisa de problemas. Realize a pesquisa e selecione
