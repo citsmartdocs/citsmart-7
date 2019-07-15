@@ -251,12 +251,12 @@ Visão geral das funções da tela principal
    - **3: **Gráficos** - apresenta os gráficos de informações dos problemas por
     situação (em andamento, suspensas e atrasadas), por prioridade e por grupo;
 
-   - **4: **Filtros** - apresenta os filtros para pesquisa de registro de problemas;
+   - **4: Filtros** - apresenta os filtros para pesquisa de registro de problemas;
 
-   - **5: **Ações** - permite registrar um novo problema e realizar uma pesquisa
+   - **5: Ações** - permite registrar um novo problema e realizar uma pesquisa
     avançada de problemas;
 
-   - **6: **Relatórios** - apresenta os relatórios dinâmicos relacionados ao
+   - **6: Relatórios** - apresenta os relatórios dinâmicos relacionados ao
     gerenciamento de problemas.
 
 !!! tip "About"
