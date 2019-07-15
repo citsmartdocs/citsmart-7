@@ -81,8 +81,8 @@ Listagem de itens
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** Número, Contrato, Solicitante, Criada em, Prioridade,
-    Situação, Data inicial, Data limite, Grupo Aprovador **e** Fechamento.**
+    funcionalidade: Número, Contrato, Solicitante, Criada em, Prioridade,
+    Situação, Data inicial, Data limite, Grupo Aprovador e Fechamento.
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Consultar histórico do
