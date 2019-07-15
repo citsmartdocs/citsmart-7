@@ -2,7 +2,7 @@ title: Pesquisa de registro de liberação
 
 Description:
 
-#Pesquisa de registro de liberação
+# Pesquisa de registro de liberação
 
 Esta funcionalidade permite realizar a busca de requisições de liberação de
 acordo com filtros definidos.
