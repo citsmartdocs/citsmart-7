@@ -44,7 +44,7 @@ Listagem de itens
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Visualizar*, *Relatórios* e *Ação*.
 
-    ![Criar](images/another-1.png)
+    ![Criar](images/another-2.png)
 
     **Figura 2 - Tela de listagem de problema**
 
@@ -99,13 +99,13 @@ Preenchimento dos campos cadastrais
    
    **Figura 7 - Tela de pesquisa de problema**
 
-    -  Informe o número e/ou título do problema que deseja pesquisar e clique no
+   -  Informe o número e/ou título do problema que deseja pesquisar e clique no
     botão *Pesquisar*;
 
-    -  Selecione o registro desejado e o mesmo será apresentado na tela de
+   -  Selecione o registro desejado e o mesmo será apresentado na tela de
     relacionamento de problema;
 
-    -  Feito isso, basta clicar no botão *Gravar e avançar o fluxo* ou *Gravar e
+   -  Feito isso, basta clicar no botão *Gravar e avançar o fluxo* ou *Gravar e
     manter a tarefa atual* caso queira gravar somente as informações registradas
     sobre o relacionamento do incidente e manter a tarefa atual da solicitação.
 
