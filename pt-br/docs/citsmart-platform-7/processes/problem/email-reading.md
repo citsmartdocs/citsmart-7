@@ -92,7 +92,7 @@ Preenchimento dos campos cadastrais
 1.  Clique no botão *Verificar e-mails*. Serão exibidos os e-mails, conforme
     mostrado na figura abaixo:
 
-    ![Criar](images/email-2.png)
+    ![Criar](images/email-3.png)
 
     **Figura 3 - Leitura de e-mails**
 
@@ -112,7 +112,7 @@ Preenchimento dos campos cadastrais
     campo **Descrição** será preenchido com o conteúdo do e-mail, após clicar no
     botão *Carregar E-mail*, conforme mostrado na figura abaixo;
 
-    ![Criar](images/email-2.png)
+    ![Criar](images/email-4.png)
 
     **Figura 4 - Tela de registro de problema**
 
