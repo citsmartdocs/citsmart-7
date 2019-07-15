@@ -94,7 +94,7 @@ Vinculando solicitação de serviço ao problema
     Será exibida a tela para pesquisa do mesmo, conforme exemplo ilustrado na
     figura abaixo:
 
-    ![Criar](images/ticket-9.png)>   
+    ![Criar](images/ticket-9.png)   
 
     **Figura 7 - Tela de pesquisa de requisição de serviço/incidente**
 
