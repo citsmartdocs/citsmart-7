@@ -11,9 +11,9 @@ foram executadas e testadas.
 Como acessar
 ------------
 
-1.  Acesse a funcionalidade de Gerenciamento de Liberação** **através da
-    navegação no menu principal **Processos ITIL **\> **Gerência de
-    Liberação **\> **Gerenciamento de Liberação**.
+1.  Acesse a funcionalidade de Gerenciamento de Liberação através da
+    navegação no menu principal **Processos ITIL > Gerência de
+    Liberação > Gerenciamento de Liberação**.
 
 Pré-condições
 -------------
@@ -72,8 +72,8 @@ Listagem de itens
     -  Registre as informações necessárias sobre a execução da homologação:
 
         -  Na área de **Fechamento**, clique no botão *Adicionar registro de
-        execução*. Feito isso, descreva as informações sobre a execução de sua
-        atividade.
+           execução*. Feito isso, descreva as informações sobre a execução de sua
+           atividade.
 
 1.  Caso tenha informado a situação **Não Resolvida**:
 
