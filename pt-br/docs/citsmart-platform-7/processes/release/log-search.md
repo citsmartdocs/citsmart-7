@@ -56,7 +56,7 @@ Filtros
     -  **Grupo Solucionador**: informar o grupo executor para verificar as
     requisições de liberação que foram direcionadas para o mesmo;
 
-    -  **Exibir campo descrição em relatórios?**:** **caso queira que a descrição
+    -  **Exibir campo descrição em relatórios?**: caso queira que a descrição
     da requisição de liberação seja apresentada no relatório, marque essa opção.
 
 1.  Para realizar a pesquisa: acesse a funcionalidade, logo após será
