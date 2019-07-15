@@ -52,7 +52,7 @@ Nesta etapa, deve verificar se a solução aplicada resolveu o problema. Verific
 se será necessária uma mudança, caso seja, submeter uma requisição de mudança
 (RDM) para o processo de Gerenciamento de Mudanças. Caso não seja necessária uma
 mudança, executar as ações necessárias para resolução do problema e recuperação
-do serviço. Registrar os detalhes completos da solução e ações no Problema*.*
+do serviço. Registrar os detalhes completos da solução e ações no Problema.
 
 **O membro do grupo designado para resolução deve capturar o problema e iniciar
 a atividade.**
