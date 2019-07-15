@@ -195,7 +195,7 @@ Vinculando anexo
     -  É apresentada a tela de anexo de arquivos, conforme ilustrada na figura
     abaixo:
 
-    ![Criar](images/register-.png)
+    ![Criar](images/register-7.png)
     
     **Figura 6 - Tela de anexos**
 
