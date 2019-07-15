@@ -81,9 +81,9 @@ informações para auxiliar na resolução de incidentes ou problemas.
 
     -  Realize registro do erro conhecido na base de conhecimento:
 
-    -  Clique na guia **Processos/Opções** e logo em seguida em **Erros
-    Conhecidos**, localizada no canto direito da tela, conforme indicado na
-    figura abaixo:
+        -  Clique na guia **Processos/Opções** e logo em seguida em **Erros
+           Conhecidos**, localizada no canto direito da tela, conforme indicado na
+           figura abaixo:
 
     ![Criar](images/errors-4.png)
 
