@@ -122,7 +122,7 @@ Preenchimento dos campos cadastrais
 
 1.  Registre as informações da requisição, conforme indicadas abaixo:
 
-    ![Criar](images/register-problem-3.png)
+    ![Criar](images/register-3.png)
 
     **Figura 3 - Tela de registro de problemas**
 
