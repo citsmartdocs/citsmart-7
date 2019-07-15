@@ -248,7 +248,7 @@ Visão geral das funções da tela principal
    - **2: Gerenciamento**- apresentada os registros de problemas para atendimento e
     gerenciamento;
 
-   - **3: **Gráficos** - apresenta os gráficos de informações dos problemas por
+   - **3: Gráficos** - apresenta os gráficos de informações dos problemas por
     situação (em andamento, suspensas e atrasadas), por prioridade e por grupo;
 
    - **4: Filtros** - apresenta os filtros para pesquisa de registro de problemas;
