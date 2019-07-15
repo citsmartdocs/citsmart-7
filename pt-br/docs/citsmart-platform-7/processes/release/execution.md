@@ -282,7 +282,7 @@ Vinculando requisição de compras vinculadas
 
     **Figura 18 - Tela de vínculo de requisição de compras**
 
-    -  Clique no ícone ![Criar](images/execution-9.png)  para adicionar a requisição de compras. Será exibida a
+    -  Clique no ícone ![Criar](images/execution-10.png)  para adicionar a requisição de compras. Será exibida a
     tela de pesquisa de requisição de compras. Realize a pesquisa e selecione a
     requisição de compras que deseja associar à requisição de liberação. Feito
     isso, será relacionada a requisição de compras à requisição de liberação.
