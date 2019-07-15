@@ -9,7 +9,7 @@ Como acessar
 ------------
 
 1.  Acesse a funcionalidade de Gerenciamento de Liberação através da
-    navegação no menu principal **Processos ITIL \>Gerência de
+    navegação no menu principal **Processos ITIL \> Gerência de
     Liberação \> Gerenciamento de Liberação**.
 
 Pré-condições
