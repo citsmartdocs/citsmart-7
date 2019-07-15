@@ -76,8 +76,8 @@ Listagem de itens
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** Tipo de Solicitação, Número do Contrato, Nome do Serviço,
-    Grupo, Nome do Solicitante, Urgência **e**Impacto.**
+    funcionalidade: Tipo de Solicitação, Número do Contrato, Nome do Serviço,
+    Grupo, Nome do Solicitante, Urgência e Impacto.
 
     ![Criar](images/escalation-2.png)
 
@@ -105,27 +105,27 @@ Preenchimento dos campos cadastrais
 
        -   **Contrato**: selecione o contrato;
 
-      -   **Usuário Solicitante**: informe o solicitante, caso deseje filtrar por
+       -   **Usuário Solicitante**: informe o solicitante, caso deseje filtrar por
     solicitante;
 
-        -   **Tipo de Solicitação**: informe um tipo de solicitação, caso deseje filtrar
+       -  **Tipo de Solicitação**: informe um tipo de solicitação, caso deseje filtrar
     por tipo de solicitação;
 
-      -   **Catálogo**: selecione o tipo de catálogo, caso deseje filtrar por
+       -   **Catálogo**: selecione o tipo de catálogo, caso deseje filtrar por
     catálogo;
 
-      -   **Serviço**: informe o serviço do catálogo, caso deseje filtrar por serviço;
+       -   **Serviço**: informe o serviço do catálogo, caso deseje filtrar por serviço;
 
-      -   **Atividade (Requisição/Incidente)**: informe o tipo de serviço (requisição
+       -   **Atividade (Requisição/Incidente)**: informe o tipo de serviço (requisição
     ou incidente) para qual será aplicado o filtro;
 
-      -   **Grupo Executor**: informe um grupo executor, caso deseje filtrar por grupo
+       -   **Grupo Executor**: informe um grupo executor, caso deseje filtrar por grupo
     executor;
 
-      -   **Urgência**: informe o nível de urgência, caso deseje filtrar por grau de
+       -   **Urgência**: informe o nível de urgência, caso deseje filtrar por grau de
     urgência;
 
-      -   **Impacto**: informe o nível de impacto, caso deseje filtrar por grau de
+       -   **Impacto**: informe o nível de impacto, caso deseje filtrar por grau de
     impacto.
 
     b. Informe os dados da Regra de Classificação/Notificação:
