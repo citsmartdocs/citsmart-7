@@ -371,11 +371,11 @@ Vinculando ocorrência
     **Figura 24 - Registro de ocorrências**
 
     -  **Categoria**: selecione a categoria da ocorrência. Caso não seja encontrada
-    a categoria, é possível realizar um cadastro rápido clicando no ícone ![Criar](images/execution-9.png)  de
+    a categoria, é possível realizar um cadastro rápido clicando no ícone ![Criar](images/execution-10.png)  de
     “Categoria”;
 
     -  **Origem**: selecione a origem da ocorrência. Caso não seja encontrada a
-        origem, é possível realizar um cadastro rápido clicando no ícone ![Criar](images/execution-9.png)  de
+        origem, é possível realizar um cadastro rápido clicando no ícone ![Criar](images/execution-10.png)  de
         “Origem”;
 
     -  **Tempo Gasto (min)**: informe o tempo gasto da ocorrência em minutos;
