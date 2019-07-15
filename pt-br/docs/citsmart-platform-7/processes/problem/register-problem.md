@@ -71,7 +71,7 @@ Preenchimento dos campos cadastrais
 
 2.  Registre as informações do contrato, conforme indicadas abaixo:
 
-    ![Criar](images/register-problem-1.png)
+    ![Criar](images/register-1.png)
 
     **Figura 1 - Tela de registro de problemas**
 
@@ -97,7 +97,7 @@ Preenchimento dos campos cadastrais
 
 1.  Registre as informações do solicitante, conforme indicadas abaixo:
 
-    ![Criar](images/register-problem-2.png)
+    ![Criar](images/register-2.png)
 
     **Figura 2 - Tela de registro de problemas**
 
@@ -131,7 +131,7 @@ Preenchimento dos campos cadastrais
     -  **Categoria Problema**: informe a categoria do problema. Essa categoria já
     deve estar previamente cadastrada no sistema para que possa selecioná-la. Se
     a categoria desejada não for encontrada pode-se efetuar o seu registro
-    clicando no ícone ![Criar](images/register-problem-4.png)  de categoria problema;
+    clicando no ícone ![Criar](images/register-4.png)  de categoria problema;
 
     -  **Origem**: informe a origem, ou seja, a fonte da solicitação de resolução
     do problema;
@@ -154,7 +154,7 @@ Preenchimento dos campos cadastrais
     tomadas. A prioridade vai de 1 a 5, sendo que o 1 é a prioridade mais alta e
     5 é a mais baixa.
 
-    ![Criar](images/register-problem-5.png)
+    ![Criar](images/register-5.png)
 
     **Figura 4 - Matriz de impacto e urgência**
 
@@ -164,16 +164,16 @@ Preenchimento dos campos cadastrais
     -  **Gerenciamento**: informe o tipo do gerenciamento do problema:
 
         -  **Proativo**: proveniente do Gerenciamento Proativo de Problemas para a
-        prevenção da ocorrência de Incidentes. Se preocupa em prevenir que
-        incidentes ocorram. Responsável por tratar de assuntos idênticos antes
-        que eles aconteçam, garantindo que tais cenários também sejam
-        endereçados;
+            prevenção da ocorrência de Incidentes. Se preocupa em prevenir que
+            incidentes ocorram. Responsável por tratar de assuntos idênticos antes
+           que eles aconteçam, garantindo que tais cenários também sejam
+           endereçados;
 
         -  **Reativo**: proveniente do processo de Gerenciamento de Incidentes. Se
-        preocupa com a resolução de problemas em resposta a um ou mais
-        incidentes. Executa a revisão e a análise de incidentes para identificar
-        a quais grupos devem ser endereçados e quais as ações necessárias para
-        tratá-los.
+           preocupa com a resolução de problemas em resposta a um ou mais
+           incidentes. Executa a revisão e a análise de incidentes para identificar
+           a quais grupos devem ser endereçados e quais as ações necessárias para
+           tratá-los.
 
     -  **Descrição**: descreve com detalhes o problema ocorrido. Essa descrição
     deve ser objetiva, incluindo toda informação necessária para resolução do
@@ -188,14 +188,14 @@ Vinculando anexo
     -  Clique na guia **Anexos**, localizada no canto superior direito da tela,
     conforme indicado na figura abaixo:
 
-    ![Criar](images/register-problem-6.png)
+    ![Criar](images/register-6.png)
 
     **Figura 5 - Guia de anexos**
 
     -  É apresentada a tela de anexo de arquivos, conforme ilustrada na figura
     abaixo:
 
-    ![Criar](images/register-problem-7.png)
+    ![Criar](images/register-.png)
     
     **Figura 6 - Tela de anexos**
 
@@ -215,14 +215,14 @@ Vinculando base de conhecimento
     -   Clique na guia **Base de Conhecimento**, localizada no canto superior
     direito da tela, conforme indicado na figura abaixo:
 
-    ![Criar](images/register-problem-8.png)
+    ![Criar](images/register-8.png)
  
     **Figura 7 - Guia de base conhecimento**
 
     -  Será apresentada a tela de consulta à base de conhecimento conforme
     ilustrada na figura abaixo:
 
-    ![Criar](images/register-problem-9.png)
+    ![Criar](images/register-9.png)
 
     **Figura 8 - Base de conhecimento**
 
@@ -232,31 +232,31 @@ Vinculando base de conhecimento
 
 2.  Será exibida uma mensagem confirmando o sucesso do registro de problema:
 
-    ![Criar](images/register-problem-10.png)
+    ![Criar](images/register-10.png)
 
     **Figura 9 - Confirmação do registro de problema**
 
 Visão geral das funções da tela principal
 -----------------------------------------
 
-    ![Criar](images/register-problem-11.png)
+![Criar](images/register-11.png)
 
-    **Figura 10 - Tela de gerenciamento de problemas**
+**Figura 10 - Tela de gerenciamento de problemas**
 
-    - ![Criar](images/register-problem-12.png) : amplia a tela de Gerenciamento de Problemas;
+   - ![Criar](images/register-12.png) : amplia a tela de Gerenciamento de Problemas;
 
-    -  **Gerenciamento**: apresentada os registros de problemas para atendimento e
+   -  **Gerenciamento**: apresentada os registros de problemas para atendimento e
     gerenciamento;
 
-    -  **Gráficos**: apresenta os gráficos de informações dos problemas por
+   -  **Gráficos**: apresenta os gráficos de informações dos problemas por
     situação (em andamento, suspensas e atrasadas), por prioridade e por grupo;
 
-    -  **Filtros**: apresenta os filtros para pesquisa de registro de problemas;
+   -  **Filtros**: apresenta os filtros para pesquisa de registro de problemas;
 
-    -  **Ações**: permite registrar um novo problema e realizar uma pesquisa
+   -  **Ações**: permite registrar um novo problema e realizar uma pesquisa
     avançada de problemas;
 
-    -  **Relatórios**: apresenta os relatórios dinâmicos relacionados ao
+   -  **Relatórios**: apresenta os relatórios dinâmicos relacionados ao
     gerenciamento de problemas.
 
 !!! tip "About"
