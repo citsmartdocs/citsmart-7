@@ -1,5 +1,4 @@
 title: Teste de liberação
-
 Description: Esta funcionalidade permite registrar as informações da execução
 dos testes referente às mudanças que foram realizadas durante a fase de execução
 da requisição de liberação.
