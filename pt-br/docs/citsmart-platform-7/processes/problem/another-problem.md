@@ -69,9 +69,9 @@ Preenchimento dos campos cadastrais
 
 1.  É apresentada a tela de relacionamento de problema;
 
-   ![Criar](images/another-5.png)
+    ![Criar](images/another-5.png)
    
-   **Figura 5 - Relacionar problema**
+    **Figura 5 - Relacionar problema**
 
 1.  Clique no botão *Cadastro de Problema*, será exibida a tela de registro de
     Problema, conforme exemplo ilustrado na figura abaixo:
