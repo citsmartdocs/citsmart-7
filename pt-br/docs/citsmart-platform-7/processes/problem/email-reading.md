@@ -102,14 +102,14 @@ Preenchimento dos campos cadastrais
     -  Caso o remetente do e-mail escolhido seja um colaborador cadastrado no
     sistema, após clicar no botão *Carregar E-mail*, os
     campos **Solicitante**, **Nome do
-    Contato**, **E-mail**, **Unidade** e** Origem** serão preenchidos
+    Contato**, **E-mail**, **Unidade** e **Origem** serão preenchidos
     automaticamente com as informações referente ao colaborador, conforme
     ilustrado na figura abaixo. Mas caso o remetente não seja um colaborador
     cadastrado no sistema, deverá preencher os campos com as informações
     necessárias;
 
     -  Independente se o remetente é ou não um colaborador cadastrado no sistema, o
-    campo **Descrição **será preenchido com o conteúdo do e-mail, após clicar no
+    campo **Descrição** será preenchido com o conteúdo do e-mail, após clicar no
     botão *Carregar E-mail*, conforme mostrado na figura abaixo;
 
     ![Criar](images/email-2.png)
