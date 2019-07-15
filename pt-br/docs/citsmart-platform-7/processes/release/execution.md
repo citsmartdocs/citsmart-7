@@ -246,7 +246,7 @@ Vinculando papéis/responsabilidades
      **Figura 15 - Guia de Papéis/responsabilidade**
 
     -  Será apresentada a tela para adição de papéis/responsabilidades. Clique no
-    ícone ![Criar](images/execution-9.png) para busca dos colaboradores envolvidos na execução da liberação;
+    ícone ![Criar](images/execution-10.png) para busca dos colaboradores envolvidos na execução da liberação;
 
     -  Será exibida a tela de pesquisa de colaborador. Realize a pesquisa e
     selecione o colaborador envolvido na execução da liberação. Feito isso, será
