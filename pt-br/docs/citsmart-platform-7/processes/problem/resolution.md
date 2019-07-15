@@ -39,7 +39,7 @@ Listagem de itens
     limite, Solicitante, Status, Grupo Executor e Responsável atual.
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Visualizar*, *Relatório *e *Ação*.
+    listagem, são eles: *Visualizar*, *Relatório* e *Ação*.
 
     ![Criar](images/resolve-2.png)
 
