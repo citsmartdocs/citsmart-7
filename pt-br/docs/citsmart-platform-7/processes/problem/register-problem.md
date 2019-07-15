@@ -243,20 +243,20 @@ Visão geral das funções da tela principal
 
 **Figura 10 - Tela de gerenciamento de problemas**
 
-   - ![Criar](images/register-12.png) : amplia a tela de Gerenciamento de Problemas;
+   - 1![Criar](images/register-12.png) : amplia a tela de Gerenciamento de Problemas;
 
-   -  **Gerenciamento**: apresentada os registros de problemas para atendimento e
+   - 2 **Gerenciamento**: apresentada os registros de problemas para atendimento e
     gerenciamento;
 
-   -  **Gráficos**: apresenta os gráficos de informações dos problemas por
+   - 3 **Gráficos**: apresenta os gráficos de informações dos problemas por
     situação (em andamento, suspensas e atrasadas), por prioridade e por grupo;
 
-   -  **Filtros**: apresenta os filtros para pesquisa de registro de problemas;
+   - 4 **Filtros**: apresenta os filtros para pesquisa de registro de problemas;
 
-   -  **Ações**: permite registrar um novo problema e realizar uma pesquisa
+   - 5 **Ações**: permite registrar um novo problema e realizar uma pesquisa
     avançada de problemas;
 
-   -  **Relatórios**: apresenta os relatórios dinâmicos relacionados ao
+   - 6 **Relatórios**: apresenta os relatórios dinâmicos relacionados ao
     gerenciamento de problemas.
 
 !!! tip "About"
