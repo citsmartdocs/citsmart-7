@@ -1,6 +1,6 @@
 title: Suspensão de registro de liberação
 
-Description:
+Description:Esta funcionalidade permite suspender a execução da requisição de liberação.
 
 # Suspensão de registro de liberação
 
