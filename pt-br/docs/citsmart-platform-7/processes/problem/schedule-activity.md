@@ -33,7 +33,7 @@ Filtros
 
    -  Número do problema;
 
-    ![Criar](images/schedule-activity-1.png)
+   ![Criar](images/schedule-activity-1.png)
 
    **Figura 1 - Tela de pesquisa de problemas**
 
