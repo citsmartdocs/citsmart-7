@@ -133,32 +133,32 @@ Preenchimento dos campos cadastrais
       -  **Classificação/Evento**: selecione a opção desejada para ser enviada
     notificação para o responsável:
 
-       *  Se a opção selecionada for “Vencendo” será habilitado o campo “Prazo
+       * Se a opção selecionada for “Vencendo” será habilitado o campo “Prazo
          restante p/ execução (min)”. Informe o tempo, em minutos, que deve
          restar para o término da atividade a partir da data de criação para ser
          enviado uma notificação;
 
-       *  Se a opção selecionada for “Percentual SLA” será habilitado o campo
+       * Se a opção selecionada for “Percentual SLA” será habilitado o campo
         “Valor (%)”. Informe, em porcentagem, em quanto tempo o SLA da atividade
         deve estar para ser enviado uma notificação;
 
-      -   **Enviar e-mail**: habilite esta opção caso queira enviar mensagens de
+       -  **Enviar e-mail**: habilite esta opção caso queira enviar mensagens de
     notificação via e-mail para o usuário solicitante da atividade;
 
-      -   **Prazo para enviar e-mails de notificação (min)**: informe o tempo, em
+       -  **Prazo para enviar e-mails de notificação (min)**: informe o tempo, em
     minutos, que o usuário será informado via e-mail das ocorrências dos itens
     selecionados;
 
-      -   **Data de referência**: informe a data de referência para envio do e-mail;
+       -  **Data de referência**: informe a data de referência para envio do e-mail;
 
-      -   **Criar Problema**: habilite esta opção caso queira lançar uma ocorrência do
+       -  **Criar Problema**: habilite esta opção caso queira lançar uma ocorrência do
     tipo problema, obedecendo ao prazo para criação de problema;
 
-      -   **Prazo para criar um Problema (min)**: informe o prazo, em minutos, que o
+       -  **Prazo para criar um Problema (min)**: informe o prazo, em minutos, que o
     sistema irá lançar uma ocorrência do tipo problema, desde que esteja
     habilitado o campo **Criar Problema**;
 
-      -   **Data de referência**: informe a data de referência para criação do
+       -  **Data de referência**: informe a data de referência para criação do
     problema.
 
     c. Informe os dados das Regras de Escalonamento:
