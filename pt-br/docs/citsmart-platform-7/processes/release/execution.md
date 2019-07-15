@@ -202,7 +202,7 @@ Vinculando mídia definitiva
     **Figura 12 - Mídia definitiva relacionada**
 
 -   Caso queira excluir uma mídia que foi relacionada à requisição de liberação,
-    basta clicar no ícone ![Criar](images/execution-6.png) do mesmo.
+    basta clicar no ícone ![Criar](images/execution-7.png) do mesmo.
 
 Vinculando documentos gerais
 ----------------------------
