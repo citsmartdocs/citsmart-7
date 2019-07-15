@@ -37,7 +37,7 @@ Listagem de itens
     identificação dos itens desejados na listagem padrão da
     funcionalidade: Número, Título, Contrato, Criada em, Prioridade, Prazo
     limite, Solicitante, Status, Tarefa atual, Grupo
-    executor e Responsável atua*.
+    executor e Responsável atua.
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Visualizar*, *Relatórios* e *Ação*.
