@@ -66,7 +66,7 @@ Listagem de itens
     -  Certifique-se que a execução da liberação de mudanças ocorreu conforme
     solicitado;
 
-    -  Na área de **Requisição**, no campo **Situação, **informe a situação da
+    -  Na área de **Requisição**, no campo **Situação**, informe a situação da
     requisição de liberação (Resolvido ou Não Resolvido);
 
     -  Registre as informações necessárias sobre a execução da homologação:
