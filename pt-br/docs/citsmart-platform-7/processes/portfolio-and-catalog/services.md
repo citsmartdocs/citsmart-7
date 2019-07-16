@@ -363,7 +363,7 @@ Registrando serviço de apoio
 
 2.  Após informar os dados do Serviço de Apoio, clique no botão *Gravar* para
     efetuar a operação. Feito isso, o serviço será gravado e apresentado na tela
-    no **Portfólio de Serviços de Apoio **e** **uma tela será apresentada com a
+    no Portfólio de Serviços de Apoio e uma tela será apresentada com a
     listagem de serviços.
 
 3.  Para configurar os atributos do Serviço de Apoio , clique no
