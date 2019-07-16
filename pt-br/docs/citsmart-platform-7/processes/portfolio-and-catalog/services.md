@@ -222,11 +222,11 @@ Cadastrando serviço de negócio
 
     -  Vincule os grupos que terão acesso ao serviço no Portal e no Chat:
 
-   !!! note "NOTA"
+    !!! note "NOTA"
 
-       A configuração da permissão de acesso do grupo para visualização do
-       Serviço no Portal, somente será aplicada caso o parâmetro “Habilita
-       permissão de acesso para grupos de usuário no portal” esteja habilitado.
+        A configuração da permissão de acesso do grupo para visualização do
+        Serviço no Portal, somente será aplicada caso o parâmetro “Habilita
+        permissão de acesso para grupos de usuário no portal” esteja habilitado.
 
 1.  Clique na aba **Permissão de Acesso**, será apresentada a tela para vincular
     os grupos, conforme ilustrada na figura abaixo:
@@ -255,15 +255,15 @@ Cadastrando serviço de negócio
 3.  Para excluir o Serviço de Negócio, clique no botão *Editar* do mesmo e logo
     em seguida clique no botão *Excluir* para efetuar a operação.
 
-    !!! note "NOTA"
+     !!! note "NOTA"
 
-        Quando o serviço estiver com status em "requisitos", "definição",
-        "análise", "aprovado", "termo de abertura", "desenho", "desenvolvimento",
-        "construção" ou "teste", ele se encontrará na parte de "Funil de
-        Serviços". Quando o serviço estiver com o status em "liberação" ou
-        "produção", ele se encontrará na parte de "Catálogo de Serviços". Quando o
-        serviço estiver com o status em "aposentando" ou "aposentado", ele se
-        encontrará na parte de "Serviço Obsoletos".
+         Quando o serviço estiver com status em "requisitos", "definição",
+         "análise", "aprovado", "termo de abertura", "desenho", "desenvolvimento",
+         "construção" ou "teste", ele se encontrará na parte de "Funil de
+         Serviços". Quando o serviço estiver com o status em "liberação" ou
+         "produção", ele se encontrará na parte de "Catálogo de Serviços". Quando o
+         serviço estiver com o status em "aposentando" ou "aposentado", ele se
+         encontrará na parte de "Serviço Obsoletos".
 
 1.  Caso queira disponibilizar o serviço nas 3 línguas disponíveis
     (Português/Inglês/Espanhol), clique na aba Multi-idiomas conforme figura
