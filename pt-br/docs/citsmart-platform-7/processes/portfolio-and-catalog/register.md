@@ -231,8 +231,8 @@ Uma visão rápida da principal funcionalidade do módulo
 
    !!! info "IMPORTANTE"
 
-   O Portfólio de Serviços irá fazer o controle de todos novos serviços
-   propostos, em desenvolvimento, em produção e aposentado.
+      O Portfólio de Serviços irá fazer o controle de todos novos serviços
+      propostos, em desenvolvimento, em produção e aposentado.
 
 Visão geral das funções da tela principal
 -----------------------------------------
