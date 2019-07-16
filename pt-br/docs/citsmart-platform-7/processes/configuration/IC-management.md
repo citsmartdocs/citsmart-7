@@ -229,4 +229,96 @@ Registrando um novo item de configuração
     - **Impacto**: informe o impacto que causa a ausência do funcionamento do IC dentro do ambiente organizacional;
     - **Urgência**: informe a urgência do restabelecimento do IC dentro do ambiente organizacional;
     - **Colaborador**: informe o colaborador que utiliza ou irá utilizar o item de configuração;
+    - **Grupo**: informe o grupo de IC ao qual o IC fará parte;
+        - **Mudanças**: relacione uma mudança ao IC, quando for necessário. Caso queira limpar o dado informado no campo, clique
+        no ícone ![simbolo](images/simb-fech-cin.png);
+        - **Tipo de Responsável**: selecione o tipo de responsável: usuário ou grupo;
+        - **Responsável**: informe o responsável do item de configuração, de acordo com o tipo de responsável. Caso queira 
+        limpar o dado informado no campo, clique no ícone ![simbolo](images/simb-fech-cin.png);
+        - **Item de Configuração** Pai: se o IC que está sendo cadastrado faz parte de outro IC, informe-o. Caso queira limpar 
+        o dado informado no campo, clique no ícone ![simbolo](images/simb-fech-cin.png);
+        - **Custo por hora de indisponibilidade**: informe o valor da hora de indisponibilidade do IC;
+        - **Informações Adicionais**: descreva as demais informações sobre o item de configuração, caso seja importante;
+        
+4. Após informar todos os dados, clique no botão "Gravar" para efetuar o registro do Item de Configuração, onde a data, hora e usuário serão gravados automaticamente para uma futura auditoria.
+
+Registrando garantia do item de configuração
+----------------------------------------------
+
+1. Na tela de **Cadastro de Item de Configuração**, clique na guia **Garantias**, conforme ilustrada na figura abaixo:
+
+    ![Registro](images/geren-IC.img15.png)
+    
+    **Figura 15 - Tela de registro de garantias**
+    
+2. Clique no botão "Adicionar". Será apresentada a tela de pesquisa de Fornecedor, pesquise e selecione o mesmo e serão apresentados os campos para preenchimento, conforme ilustrado na figura abaixo:
+
+    ![Registro](images/geren-IC.img16.png)
+    
+    **Figura 16 - Tela de registro de garantias**
+    
+    - **Data de início**: informe a data inicial da garantia;
+    - **Data fim**: informe a data final da garantia;
+    - Caso queira excluir a garantia, basta clicar no ícone ![simbolo](images/simb-fech-cin.png) da mesma.
+    
+3. Após os dados informados, clique no botão "Gravar".
+
+Consultando os itens de configuração
+--------------------------------------
+
+1. Na tela de **Gerenciamento de Itens de Configuração**, é permitido realizar consultas de ICs nas seguintes formas:
+
+- **Por processo**: permite visualizar os itens de configuração relacionados com os processos: Incidente, Problema, Mudança 
+e Liberação;
+- **Por grupo**: permite visualizar os itens de configuração de um determinado grupo;
+- **Por filtros**: permite visualizar os itens de configuração de acordo com o filtro informado.
+
+Consultando IC's por processo
+-------------------------------
+
+1. Na área de **Dashboard** são apresentados em cada processo a quantidade de ICs relacionados, conforme exemplo ilustrado na figura abaixo:
+
+    ![Dashboard](images/geren-IC.img17.png)
+    
+    **Figura 17 - Dashboard**
+    
+2. Clique em um processo para verificar os ICs relacionados. Feito isso, serão apresentados os ICs, os quais estão relacionados com o determinado processo. A figura abaixo ilustra um exemplo:
+
+    ![IC](images/geren-IC.img18.png)
+    
+    **Figura 18 - IC (Item de Configuração) relacionado ao processo de incidente**
+    
+3. É permitido também verificar os ICs relacionados a dois ou mais processos, basta selecionar os processos que deseja e logo 
+em seguida serão apresentadas os ICs que estão relacionados com os processos. A figura a seguir ilustra um exemplo:
+
+!!! warning "ATENÇÃO"
+
+    Serão apresentados somente os ICs que estão relacionados com os processos selecionados, por exemplo: caso tenha 
+    selecionado dois processos e não é apresentado nenhum IC, isso significa que não existe IC relacionado com os processos.
+    
+![Relacionado](images/geren-IC.img19.png)
+
+**Figura 19 - IC relacionado aos processos de incidente e problema**
+
+Consultando IC's por grupo
+----------------------------
+
+1. Na área de **Banco de Dados de Gerenciamento de Configuração** é apresentado por padrão três Grupos de ICs: 
+"Desenvolvimento", "Homologação" e "Produção". Estes grupos têm como filhos outros Grupos de ICs e/ou Itens de Configuração;
+
+2. Clique no(s) grupo(s) desejado(s) para visualização dos ICs. Feito isso, serão apresentados os ICs do determinado 
+grupo, conforme o exemplo ilustrado na figura a seguir;
+
+3. Após entrar em um grupo de IC e caso queira voltar para o grupo anterior, ou seja, o grupo superior, clique sobre a descrição
+do mesmo apresentada na barra de navegação, localizada na parte superior da tela. O exemplo ilustrado na figura abaixo 
+apresenta a barra de navegação, onde permite navegar entre os grupos de ICs.
+
+![Grupo](images/geren-IC.img20.png)
+
+**Figura 20 - Itens de configuração por grupo**
+
+Consultando IC's por filtros
+-----------------------------
+
+1. Na área de **Filtros**, clique no ícone ![simbolo](
    
