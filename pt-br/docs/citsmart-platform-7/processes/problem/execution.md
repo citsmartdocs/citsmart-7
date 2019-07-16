@@ -91,6 +91,7 @@ Executando problema
       -  Clique no botão *Adicionar Registro de Execução*;
 
       -  Descreva as informações sobre a execução do problema.
+      
 
 Vinculando itens de configuração ao problema
 --------------------------------------------
