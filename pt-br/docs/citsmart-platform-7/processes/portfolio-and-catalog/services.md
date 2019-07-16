@@ -265,9 +265,14 @@ Cadastrando serviço de negócio
          serviço estiver com o status em "aposentando" ou "aposentado", ele se
          encontrará na parte de "Serviço Obsoletos".
 
+
 1.  Caso queira disponibilizar o serviço nas 3 línguas disponíveis
     (Português/Inglês/Espanhol), clique na aba Multi-idiomas conforme figura
     abaixo:
+    
+    !!! info "IMPORTANTE"
+         
+             O campo Multi-idiomas somente aparecerá no cadastro/edição de serviço se o mesmo estiver com opção SIM na aba                      principal do portfólio escolhido.
 
     ![Criar](images/service-10.png)
    
@@ -282,7 +287,7 @@ Vinculando com pesquisas
 ------------------------
 
 Ao cadastrar um serviço, é possível vinculá-lo a pesquisas previamente
-  cadastradas.
+cadastradas.
 
      !!! Abstract "SAIBA MAIS"
 
