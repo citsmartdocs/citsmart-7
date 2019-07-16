@@ -50,28 +50,28 @@ Listagem de itens
 Executando problema
 -------------------
 
-   **!!! note "NOTA"**
+   !!! note "NOTA"
 
-   **Nesta etapa, é realizada a classificação do problema e designará a área
-   apropriada para tratar o problema de acordo com o Catálogo de Serviços de
-   TI.**
+       Nesta etapa, é realizada a classificação do problema e designará a área
+       apropriada para tratar o problema de acordo com o Catálogo de Serviços de
+       TI.
 
-!!! info "IMPORTANTE"
+   !!! info "IMPORTANTE"
 
-   **Deve vincular o problema a incidentes existentes e registrar o problema
-   para facilitar a priorização de soluções de problemas. Avaliar o impacto
-   sobre os negócios e determinar a urgência da solução. Essa avaliação
-   determina a classificação do problema.**
-
-!!! info " IMPORTANTE "
-
-   **Deve assegurar que todas as informações necessárias para investigação e
-   diagnostico estejam registradas no problema.**
+       Deve vincular o problema a incidentes existentes e registrar o problema
+       para facilitar a priorização de soluções de problemas. Avaliar o impacto
+       sobre os negócios e determinar a urgência da solução. Essa avaliação
+       determina a classificação do problema.
 
    !!! info " IMPORTANTE "
 
-   **As ações de execução da tarefa, somente serão permitidas aos usuários que
-   estejam contidos dentro do grupo de execução.**
+       Deve assegurar que todas as informações necessárias para investigação e
+       diagnostico estejam registradas no problema.
+
+   !!! info " IMPORTANTE "
+
+       As ações de execução da tarefa, somente serão permitidas aos usuários que
+       estejam contidos dentro do grupo de execução.
 
 1.  Na guia **Gerenciamento**, localize o registro de problema que se deseja
     registrar a execução da tarefa, clique no botão *Ação* e na
@@ -84,19 +84,19 @@ Executando problema
 1.  Será exibida a tela de **Registro de Problema** com os campos preenchidos,
     com o conteúdo referente ao registro selecionado;
 
--   No quadro de **Fechamento**, registre as informações necessárias da execução
+  -  No quadro de **Fechamento**, registre as informações necessárias da execução
     da tarefa:
 
-    -   Clique no botão *Adicionar Registro de Execução*;
+      -  Clique no botão *Adicionar Registro de Execução*;
 
-    -   Descreva as informações sobre a execução do problema.
+      -  Descreva as informações sobre a execução do problema.
 
 Vinculando itens de configuração ao problema
 --------------------------------------------
 
 1.  Informe o(s) item (itens) de configuração (IC's) afetado(s) pelo problema:
 
--   Clique na guia **Processos/Opções** e logo em seguida em **Itens de
+    - Clique na guia **Processos/Opções** e logo em seguida em **Itens de
     Configuração**, localizada no canto direito da tela, conforme indicado na
     figura abaixo:
      
@@ -104,13 +104,13 @@ Vinculando itens de configuração ao problema
 
     **Figura 4 - Seleção de itens de configuração**
 
--   Será apresentada a tela de relacionamento de item de configuração. Clique no
+    -  Será apresentada a tela de relacionamento de item de configuração. Clique no
     ícone [Criar](images/execution-5.png) para adicionar o item de configuração.
 
--   Será apresentada a janela para pesquisa de itens de configuração. Realize a
+    -  Será apresentada a janela para pesquisa de itens de configuração. Realize a
     pesquisa, selecione o item de configuração referente ao problema;
 
--   Será exibida uma janela para descrever resumidamente o problema do item de
+    -  Será exibida uma janela para descrever resumidamente o problema do item de
     configuração. Descreva o problema e clique em *OK* para efetuar a operação.
     Após isso, o item de configuração será relacionado ao problema;
 
@@ -118,7 +118,7 @@ Vinculando itens de configuração ao problema
 
     **Figura 5 - Relacionamento de item de configuração ao problema**
 
--   Caso queira remover um item de configuração que foi relacionado à requisição
+    -  Caso queira remover um item de configuração que foi relacionado à requisição
     de mudança, basta clicar no ícone [Criar](images/execution-7.png)   do mesmo.
 
 Vinculando um conhecimento ao problema
@@ -126,7 +126,7 @@ Vinculando um conhecimento ao problema
 
 1.  Relacione um conhecimento referente ao problema:
 
--   Clique na guia **Processos/Opções** e logo em seguida em **Base de
+    -  Clique na guia **Processos/Opções** e logo em seguida em **Base de
     Conhecimento**, localizada no canto direito da tela, conforme indicado na
     figura abaixo:
 
@@ -134,9 +134,9 @@ Vinculando um conhecimento ao problema
 
     **Figura 6 - Seleção de base de conhecimento**
 
--   Clique no botão *Adicionar Conhecimento* para adicionar o conhecimento;
+    -  Clique no botão *Adicionar Conhecimento* para adicionar o conhecimento;
 
--   Será exibida uma janela para pesquisa de conhecimento. Realize a pesquisa e
+    -  Será exibida uma janela para pesquisa de conhecimento. Realize a pesquisa e
     selecione o conhecimento. Feito isso, será relacionado o conhecimento ao
     problema;
 
@@ -144,10 +144,10 @@ Vinculando um conhecimento ao problema
     
     **Figura 7 - Relacionamento de conhecimento ao problema**
 
--   Caso queira criar registrar um novo conhecimento referente ao problema,
+    -  Caso queira criar registrar um novo conhecimento referente ao problema,
     basta clicar no botão *Cadastro de Conhecimento*;
 
--   Caso queira remover um conhecimento que foi relacionado, basta clicar no
+    -  Caso queira remover um conhecimento que foi relacionado, basta clicar no
     ícone [Criar](images/execution-7.png) .
 
 Vinculando anexos
@@ -156,25 +156,25 @@ Vinculando anexos
 1.  Caso queira anexar um arquivo à execução do problema, proceda da seguinte
     maneira:
 
--   Clique na guia **Anexos**, localizada no canto superior direito da tela,
+    -  Clique na guia **Anexos**, localizada no canto superior direito da tela,
     conforme indicado na figura abaixo:
 
     [Criar](images/execution-10.png)
 
     **Figura 8 - Seleção de anexos**
 
--   É apresentada a tela de anexo de arquivos, conforme ilustrada na figura
+    -  É apresentada a tela de anexo de arquivos, conforme ilustrada na figura
     abaixo:
 
     [Criar](images/execution-11.png)
 
     **Figura 9 - Tela de anexos**
 
--   Clique no botão *Escolher arquivo* e selecione o arquivo desejado;
+    -  Clique no botão *Escolher arquivo* e selecione o arquivo desejado;
 
--   Informe a descrição do arquivo e clique no botão *Adicionar*;
+    -  Informe a descrição do arquivo e clique no botão *Adicionar*;
 
--   Após adição do arquivo, clique no botão *Fechar* para retornar à tela de
+    -  Após adição do arquivo, clique no botão *Fechar* para retornar à tela de
     registro de problema.
 
 Vinculando ocorrência ao problema
@@ -183,14 +183,14 @@ Vinculando ocorrência ao problema
 1.  Caso queira inserir uma ocorrência ao registro de problema, proceda da
     seguinte maneira:
 
--   Clique na guia **Ocorrência**, localizada no canto superior direito da tela,
+    -  Clique na guia **Ocorrência**, localizada no canto superior direito da tela,
     conforme indicado na figura abaixo:
 
     [Criar](images/execution-12.png)
 
     **Figura 10 - Seleção de ocorrência**
 
--   Será exibida a tela de **Ocorrências** contendo duas abas, uma para exibição
+    -  Será exibida a tela de **Ocorrências** contendo duas abas, uma para exibição
     da relação de ocorrências registradas e outra para registro de novas
     ocorrências. Clique na aba de **Cadastro de Ocorrências** e preencha os
     campos conforme orientações abaixo:
@@ -203,26 +203,26 @@ Vinculando ocorrência ao problema
     a categoria, é possível realizar um cadastro rápido clicando no ícone [Criar](images/execution-14.png) de
     Categoria;
 
-    -   **Origem**: selecione a origem da ocorrência. Caso não seja encontrada a
+    -  **Origem**: selecione a origem da ocorrência. Caso não seja encontrada a
         origem, é possível realizar um cadastro rápido clicando no ícone [Criar](images/execution-14.png) de
         Origem;
 
-    -   **Tempo Gasto (min)**: informe o tempo gasto da ocorrência em minutos;
+    -  **Tempo Gasto (min)**: informe o tempo gasto da ocorrência em minutos;
 
-    -   **Registrado por**: preenchido automaticamente pelo usuário que está
+    -  **Registrado por**: preenchido automaticamente pelo usuário que está
         executando a atividade;
 
-    -   **Descrição**: informe a descrição da ocorrência;
+    -  **Descrição**: informe a descrição da ocorrência;
 
-    -   **Ocorrências**: informe a ocorrência;
+    -  **Ocorrências**: informe a ocorrência;
 
-    -   **Informações de Contato**: descreva as informações para contato;
+    -  **Informações de Contato**: descreva as informações para contato;
 
-    -   Após os dados informados, clique no botão *Gravar* para efetuar a
+    -  Após os dados informados, clique no botão *Gravar* para efetuar a
         operação, onde a data, hora e usuário serão gravados automaticamente
         para uma futura auditoria;
 
-    -   Será exibida uma mensagem confirmando o sucesso da operação e retornará
+    -  Será exibida uma mensagem confirmando o sucesso da operação e retornará
         à tela de registro de problema.
 
 2.  Após registro das informações da execução da tarefa de problema, clique no
