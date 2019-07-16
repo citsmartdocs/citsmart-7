@@ -580,3 +580,189 @@ tipos de relação que os IC podem ter:
 
 **Figura 42 - Detalhes das duas seções visíveis em itens relacionados (IC-filhos e relacionados pelo mapa de serviço)**
 
+Realizando análise de impacto do item de configuração
+-------------------------------------------------------
+
+1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**. 
+Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+
+2. Clique na guia de **Serviços Impactados**, conforme indicado na figura abaixo:
+
+    ![Serviços](images/geren-IC.img43.png)
+    
+    **Figura 43 - Guia de serviços impactados**
+    
+3. Será exibida uma tela apresentando os serviços que utilizam o IC, conforme exemplo ilustrado na figura abaixo:
+
+    ![Serviços](images/geren-IC.img44.png)
+    
+    **Figura 44 - Serviços impactados**
+    
+4. Caso queira verificar o desenho do mapa de ativos do serviço, basta clicar no botão "Mapa" do serviço desejado.
+
+Vinculando calendário ao item de configuração
+-----------------------------------------------
+
+1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**. 
+Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+
+2. Clique na guia de **Calendário**, conforme indicado na figura abaixo:
+
+    ![Calendário](images/geren-IC.img45.png)
+    
+    **Figura 45 - Guia de calendário**
+    
+3. Será apresentada a tela para vínculo do calendário, conforme ilustrada na figura abaixo:
+
+    ![Vínculo](images/geren-IC.img46.png)
+    
+    **Figura 46 - Tela de vínculo de calendário**
+    
+4. Informe o calendário que deseja vincular e após isso, clique no botão "Adicionar" para efetuar o vínculo do calendário ao IC.
+
+Vinculando acordo de nível de serviço ao item de configuração
+---------------------------------------------------------------
+
+1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**. 
+Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+
+2. Clique na guia de **Acordo de Nível de Serviço**, conforme indicado na figura abaixo:
+
+    ![Guia](images/geren-IC.img47.png)
+    
+    **Figura 47 - Guia de acordo de nível de serviço**
+    
+3. Será apresentada a tela para vínculo do acordo de nível de serviço do tipo "disponibilidade", conforme ilustrada na 
+figura abaixo:
+
+    ![Vínculo](images/geren-IC.img48.png)
+    
+    **Figura 48 - Tela de vínculo de ANS**
+    
+4. Informe o acordo de nível de serviço que deseja vincular e após isso, clique no botão "Adicionar" para efetuar o vínculo do 
+acordo de nível de serviço ao IC.
+
+Verificando garantias relacionadas a um item de configuração
+---------------------------------------------------------------
+
+1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**. 
+Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração; 
+
+2. Clique na guia de **Garantias**, conforme indicado na figura abaixo:
+
+    ![Guia](images/geren-IC.img49.png)
+    
+    **Figura 49 - Guia de itens relacionados**
+    
+3. Serão apresentadas as Garantias que estão relacionados ao Item de Configuração.
+
+![Garantias](images/geren-IC.img50.png)
+    
+**Figura 50 - Garantias**
+    
+Realizando auditoria de item de configuração
+----------------------------------------------
+
+1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**.
+Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+
+2. Clique na guia de **Auditoria**, conforme indicado na figura abaixo:
+
+    ![Auditoria](images/geren-IC.img51.png)
+    
+    **Figura 51 - Guia de Auditoria**
+    
+3. Será apresenta uma tela para informação do período que deseja verificar os dados do item de configuração para auditoria. 
+A figura abaixo ilustra essa tela:
+
+    ![Auditoria](images/geren-IC.img52.png)
+    
+    **Figura 52 - Auditoria de item de configuração**
+    
+    - **Data de início**: informe a data inicial de referência de auditoria;
+    - **Data fim**: informe a data final de referência de auditoria.
+    
+4. Após o período informado, clique no botão "Pesquisar". Feito isso, será exibido o histórico do Item de Configuração de acordo 
+com o período informado, permitindo realizar a auditoria.
+
+Verificando o histórico do item de configuração
+-------------------------------------------------
+
+1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item ** Consultando os Itens de Configuração**. 
+Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+
+2. Clique na guia de **Histórico**, conforme indicado na figura abaixo:
+
+    ![Histórico](images/geren-IC.img53.png)
+    
+    **Figura 53 - Guia de histórico**
+    
+3. Será apresentada a tela de histórico do item de configuração, conforme ilustrada na figura abaixo:
+
+    ![IC](images/geren-IC.img54.png)
+    
+    **Figura 54 - Histórico de item de configuração (IC)*
+    
+4. O item de configuração poderá ter um ou mais ponto de restauração *(baselines)* gerado. E para gerar um ponto de restauração, 
+basta clicar no botão "Gerar Ponto de Restauração".
+
+5. Para restaurar o Item de Configuração para uma determinada versão, ou seja, recuperar de volta a configuração conhecida do IC, 
+basta clicar no botão "Restaurar".
+
+6. Para restaurar o Item de Configuração para uma versão específica, ou seja, recuperar a configuração CI conhecida, basta clicar 
+no botão "Restaurar".
+
+Verificando o status de execução do inventário de IC
+------------------------------------------------------
+
+Essa funcionalidade permite visualizar o status atual da execução do inventário através da aplicação CITSmart Inventory.
+
+1. Na tela de **Gerenciamento de Itens de Configuração**, clique no ícone ![simbolo](images/simb-dash.png). Feito isso, será 
+apresentada a respectiva tela para verificação do status de execução do inventário, conforme ilustração abaixo:
+
+    ![Status](images/geren-IC.img55.png)
+    
+    **Figura 55- Tela de status de execução do inventário**
+    
+2. Para realizar uma pesquisa específica, informe o filtro conforme sua necessidade:
+
+    - Conexão CITSmart Inventory
+    - Identificação do IC
+    - IP
+    - Status, podendo assumir os seguintes valores:
+        - **Inventariada**: o sistema capturou as informações do IC com sucesso;
+        - **Inacessível**: o sistema não conseguiu inventariar a máquina, a mesma pode estar sem rede por exemplo, e o agente 
+        não conseguiu estabelecer uma conexão para capturar os dados;
+        - **Ignorada**: na conexão de inventário, caso o usuário tenha optado por Ignorar Máquinas Inventariadas, o sistema
+        passa um período sem inventariar a mesma e atribui esse Status;
+        - **Em execução**: o inventário está em andamento no momento;
+        - **Não Inventariada**: o sistema ainda não capturou as informações do IC.
+        
+3. Clique no botão "Filtrar". Após isso, será apresentada a tela com os dados do inventário conforme o filtro informado;
+
+4. Caso deseje fazer um inventário de um item de configuração específico, clique no botão "Inventariar Agora".
+
+Exportando CMDB
+-----------------
+
+1. Na tela de **Gerenciamento de Itens de Configuração**, selecione o Grupo de ICs que deseja exportar as informações. Feito isso, em **Ações**, clique no botão "Exportar CMDB", conforme indicado na figura abaixo:
+
+    ![CMDB](images/geren-IC.img56.png)
+    
+    **Figura 56 - Botão exportar CMDB**
+    
+2. O sistema exportará as informações do banco de dados em formato XML, conforme figura abaixo:
+
+![Exportação](images/geren-IC.img57.png)
+
+**Figura 57 - Exportação XML**
+
+Veja também
+-------------
+
+- Como faço o desenho de ativos que compõem o meu serviço?
+
+!!! tip "About"
+
+    <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
+    <b>Updated:</b>07/16/2019 – Larissa Lourenço
