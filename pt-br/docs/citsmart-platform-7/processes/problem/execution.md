@@ -44,7 +44,7 @@ Listagem de itens
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Visualizar*, *Relatórios* e *Ação*.
 
-    [Criar](images/execution-2.png)
+    ![Criar](images/execution-2.png)
 
     **Figura 2 - Tela de listagem de problema**
 
@@ -78,7 +78,7 @@ Executando problema
     registrar a execução da tarefa, clique no botão *Ação* e na
     opção *Iniciar/Executar tarefa*, conforme indicado na imagem abaixo:
 
-    [Criar](images/execution-3.png)
+    ![Criar](images/execution-3.png)
 
     **Figura 3 - Tela de gerenciamento de problemas**
 
@@ -102,12 +102,12 @@ Vinculando itens de configuração ao problema
     Configuração**, localizada no canto direito da tela, conforme indicado na
     figura abaixo:
      
-    [Criar](images/execution-4.png)
+    ![Criar](images/execution-4.png)
 
     **Figura 4 - Seleção de itens de configuração**
 
     -  Será apresentada a tela de relacionamento de item de configuração. Clique no
-    ícone [Criar](images/execution-5.png) para adicionar o item de configuração.
+    ícone ![Criar](images/execution-5.png) para adicionar o item de configuração.
 
     -  Será apresentada a janela para pesquisa de itens de configuração. Realize a
     pesquisa, selecione o item de configuração referente ao problema;
@@ -116,12 +116,12 @@ Vinculando itens de configuração ao problema
     configuração. Descreva o problema e clique em *OK* para efetuar a operação.
     Após isso, o item de configuração será relacionado ao problema;
 
-    [Criar](images/execution-6.png)
+    ![Criar](images/execution-6.png)
 
     **Figura 5 - Relacionamento de item de configuração ao problema**
 
     -  Caso queira remover um item de configuração que foi relacionado à requisição
-    de mudança, basta clicar no ícone [Criar](images/execution-7.png)   do mesmo.
+    de mudança, basta clicar no ícone ![Criar](images/execution-7.png)   do mesmo.
 
 Vinculando um conhecimento ao problema
 --------------------------------------
@@ -132,7 +132,7 @@ Vinculando um conhecimento ao problema
     Conhecimento**, localizada no canto direito da tela, conforme indicado na
     figura abaixo:
 
-    [Criar](images/execution-8.png)
+    ![Criar](images/execution-8.png)
 
     **Figura 6 - Seleção de base de conhecimento**
 
@@ -142,7 +142,7 @@ Vinculando um conhecimento ao problema
     selecione o conhecimento. Feito isso, será relacionado o conhecimento ao
     problema;
 
-    [Criar](images/execution-9.png)
+    ![Criar](images/execution-9.png)
     
     **Figura 7 - Relacionamento de conhecimento ao problema**
 
@@ -150,7 +150,7 @@ Vinculando um conhecimento ao problema
     basta clicar no botão *Cadastro de Conhecimento*;
 
     -  Caso queira remover um conhecimento que foi relacionado, basta clicar no
-    ícone [Criar](images/execution-7.png) .
+    ícone ![Criar](images/execution-7.png) .
 
 Vinculando anexos
 -----------------
@@ -161,14 +161,14 @@ Vinculando anexos
     -  Clique na guia **Anexos**, localizada no canto superior direito da tela,
     conforme indicado na figura abaixo:
 
-    [Criar](images/execution-10.png)
+    ![Criar](images/execution-10.png)
 
     **Figura 8 - Seleção de anexos**
 
     -  É apresentada a tela de anexo de arquivos, conforme ilustrada na figura
     abaixo:
 
-    [Criar](images/execution-11.png)
+    ![Criar](images/execution-11.png)
 
     **Figura 9 - Tela de anexos**
 
@@ -188,7 +188,7 @@ Vinculando ocorrência ao problema
     -  Clique na guia **Ocorrência**, localizada no canto superior direito da tela,
     conforme indicado na figura abaixo:
 
-    [Criar](images/execution-12.png)
+    ![Criar](images/execution-12.png)
 
     **Figura 10 - Seleção de ocorrência**
 
@@ -197,16 +197,16 @@ Vinculando ocorrência ao problema
     ocorrências. Clique na aba de **Cadastro de Ocorrências** e preencha os
     campos conforme orientações abaixo:
 
-    [Criar](images/execution-13.png)
+    ![Criar](images/execution-13.png)
 
     **Figura 11 - Registro de ocorrência**
 
     - **Categoria**: selecione a categoria da ocorrência. Caso não seja encontrada
-    a categoria, é possível realizar um cadastro rápido clicando no ícone [Criar](images/execution-14.png) de
+    a categoria, é possível realizar um cadastro rápido clicando no ícone ![Criar](images/execution-14.png) de
     Categoria;
 
     -  **Origem**: selecione a origem da ocorrência. Caso não seja encontrada a
-        origem, é possível realizar um cadastro rápido clicando no ícone [Criar](images/execution-14.png) de
+        origem, é possível realizar um cadastro rápido clicando no ícone ![Criar](images/execution-14.png) de
         Origem;
 
     -  **Tempo Gasto (min)**: informe o tempo gasto da ocorrência em minutos;
