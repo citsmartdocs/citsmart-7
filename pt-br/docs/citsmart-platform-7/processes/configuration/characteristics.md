@@ -83,4 +83,4 @@ Preenchimento dos campos cadastrais
  !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>16/07/2019 – Larissa Lourenço
+    <b>Updated:</b>07/16/2019 – Larissa Lourenço
