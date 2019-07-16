@@ -27,7 +27,7 @@ Filtros
 
 -   Número do problema.
 
-    
+    ![Criar](images/reactivation-1.png)
 
     **Figura 1 - Tela de filtros**
 
@@ -43,7 +43,7 @@ Listagem de itens
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Visualizar*, *Relatórios* e *Ação*.
 
-    
+    ![Criar](images/reactivation-2.png)
 
     **Figura 2 - Tela de listagem de problemas**
 
@@ -59,7 +59,7 @@ Reativando problema
     reativar, clique no botão *Ação* e na opção *Reativar*, conforme indicado na
     imagem abaixo:
 
-    
+    ![Criar](images/reactivation-3.png)
 
     **Figura 3 - Tela de gerenciamento de problemas**
 
