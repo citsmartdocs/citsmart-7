@@ -153,43 +153,43 @@ solução.
        Uma solução de contorno deverá ser temporária até que seja encontrada uma
        solução definitiva para o problema.
 
--   Clique na guia **Processos/Opções** e logo em seguida em **Solução**,
+   -  Clique na guia **Processos/Opções** e logo em seguida em **Solução**,
     localizada no canto direito da tela, conforme indicado na figura abaixo:
 
     ![Criar](images/investigation-13.png)
 
     **Figura 10 - Guia de solução**
 
--   É apresentada a tela de cadastro de solução, conforme ilustrada na figura
+   -  É apresentada a tela de cadastro de solução, conforme ilustrada na figura
     abaixo:
 
-    ![Criar](images/investigation-14.png)
+   ![Criar](images/investigation-14.png)
 
-    **Figura 11 - Registro de solução de contorno do problema**
+   **Figura 11 - Registro de solução de contorno do problema**
 
--   Clique no ícone ![Criar](images/investigation-12.png) de solução de contorno para registrar as informações de uma
+   -  Clique no ícone ![Criar](images/investigation-12.png) de solução de contorno para registrar as informações de uma
     solução de contorno;
 
--   Será exibida uma tela para registrar as informações da solução de contorno;
+   -  Será exibida uma tela para registrar as informações da solução de contorno;
 
-    -   **Título**: defina o título da solução de contorno;
+       -   **Título**: defina o título da solução de contorno;
 
-    -   **Descrição**: descreva a solução de contorno proposta;
+       -   **Descrição**: descreva a solução de contorno proposta;
 
-    -   Após os dados informados, clique no botão *Gravar* para efetuar o
-        registro das informações de solução de contorno, onde a data, hora e
-        usuário serão gravados automaticamente para uma futura auditoria.
+       -   Após os dados informados, clique no botão *Gravar* para efetuar o
+           registro das informações de solução de contorno, onde a data, hora e
+           usuário serão gravados automaticamente para uma futura auditoria.
 
--   Caso tenha uma solução definitiva para o problema, clique no ícone ![Criar](images/investigation-12.png) de
+   -  Caso tenha uma solução definitiva para o problema, clique no ícone ![Criar](images/investigation-12.png) de
     solução definitiva para registrar as informações de uma solução definitiva;
 
--   Será exibida uma tela para registrar as informações da solução definitiva;
+   -  Será exibida uma tela para registrar as informações da solução definitiva;
 
-    -   **Título**: defina o título da solução definitiva;
+       -  **Título**: defina o título da solução definitiva;
 
-    -   **Descrição**: descreva a solução definitiva proposta;
+       -  **Descrição**: descreva a solução definitiva proposta;
 
-    -   Após os dados informados, clique no botão *Gravar* para efetuar o
+       -  Após os dados informados, clique no botão *Gravar* para efetuar o
         registro das informações de solução definitiva, onde a data, hora e
         usuário serão gravados automaticamente para uma futura auditoria.
 
