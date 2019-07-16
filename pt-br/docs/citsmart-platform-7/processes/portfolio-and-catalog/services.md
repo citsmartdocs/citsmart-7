@@ -82,53 +82,53 @@ Cadastrando serviço de negócio
 
 1.  Preencha os campos conforme orientação abaixo:
 
-    -   **Nome do Serviço**: informe o nome do serviço;
+    -  **Nome do Serviço**: informe o nome do serviço;
 
-    -   **Processo de Iniciação**: informe de qual processo o serviço se originou;
+    -  **Processo de Iniciação**: informe de qual processo o serviço se originou;
 
-    -   **Categoria**: informe a categoria do serviço. Ao clicar neste campo, será
+    -  **Categoria**: informe a categoria do serviço. Ao clicar neste campo, será
     apresentada a tela de pesquisa de categoria, realize a pesquisa da categoria
     desejada e selecione a mesma. Mas, caso não tenha uma categoria registrada,
     poderá registrar uma a partir dessa tela, basta clicar na aba “Cadastro de
     Categoria de Serviço”;
 
-    -   **Data da Implantação**: informe a data de implantação do serviço;
+    -  **Data da Implantação**: informe a data de implantação do serviço;
 
-    -   **Fase do Serviço**: selecione a fase do serviço;
+    -  **Fase do Serviço**: selecione a fase do serviço;
 
-        -   **Definir**: esta fase indica que o serviço está em inicialização. Nesta
-    fase se inicia a coleta de informações sobre todos os serviços existentes e
-    propostos, a definição de novos serviços, casos de negócio e validação dos
-    dados do portfólio.
+       -  **Definir**: esta fase indica que o serviço está em inicialização. Nesta
+          fase se inicia a coleta de informações sobre todos os serviços existentes e
+          propostos, a definição de novos serviços, casos de negócio e validação dos
+          dados do portfólio.
 
-        -   **Analisar**: esta fase indica que o serviço está sendo analisado. Nesta
-    fase é analisado se o serviço vai dar retorno ao negócio e fazemos um
-    balanceamento entre oferta e demanda. Identificando também o que serviço
-    representa para o negócio. Nesta atividade faremos um levantamento macro
-    prévio de quais recursos serão utilizados por estes serviços: pessoas,
-    hardware, software, treinamento, etc. Quando essa opção for selecionada,
-    serão apresentados campos para serem preenchidos, conforme ilustrado na
-    figura abaixo:
+       -  **Analisar**: esta fase indica que o serviço está sendo analisado. Nesta
+          fase é analisado se o serviço vai dar retorno ao negócio e fazemos um
+          balanceamento entre oferta e demanda. Identificando também o que serviço
+          representa para o negócio. Nesta atividade faremos um levantamento macro
+          prévio de quais recursos serão utilizados por estes serviços: pessoas,
+          hardware, software, treinamento, etc. Quando essa opção for selecionada,
+          serão apresentados campos para serem preenchidos, conforme ilustrado na
+          figura abaixo:
 
-    ![Criar](images/service-5.png)
+      ![Criar](images/service-5.png)
 
-    **Figura 5 - Tela de análise do serviço**
+      **Figura 5 - Tela de análise do serviço**
 
-            -   **Tipo de Investimento**: indique o tipo de investimento referente ao
+       -  **Tipo de Investimento**: indique o tipo de investimento referente ao
     serviço;
 
-            -   **Demanda**: indique o tipo de demanda do serviço;
+       -  **Demanda**: indique o tipo de demanda do serviço;
 
-            -   **Retorno Financeiro do Serviço**: indique o retorno financeiro do serviço.
+       -  **Retorno Financeiro do Serviço**: indique o retorno financeiro do serviço.
 
-        -   **Aprovar**: esta fase indica que o serviço proposto está em aprovação. Fase
+      -  **Aprovar**: esta fase indica que o serviço proposto está em aprovação. Fase
     para finalizar o serviço proposto, autorizar serviços e recursos e tomar
     decisões para o futuro. Nesta fase é feita a aprovação do serviço proposto,
     o serviço é analisado e verifica-se se o mesmo está dando retorno para o
     negócio. Se ele não der retorno, significa que virou custo, e aí devemos
     considerá-los como obsoleto.
 
-        -   **Termo de Abertura**: esta fase indica que o serviço está seguindo para
+      -  **Termo de Abertura**: esta fase indica que o serviço está seguindo para
     fase de desenho de serviços e os serviços existentes são renovados no
     catálogo de serviços. Nesta fase comunica-se as decisões, aloca recursos e
     contrata serviços.
