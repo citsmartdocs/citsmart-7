@@ -28,7 +28,7 @@ Filtros
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Nome.
+    -   Nome.
 
 1.  Na tela de **Categoria Serviço**, clique na guia **Pesquisa Categoria
     Serviço** conforme ilustrada na figura abaixo:
