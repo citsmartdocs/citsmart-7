@@ -49,10 +49,10 @@ Preenchimento dos campos cadastrais
 
     a) Cadastro de Impacto:
 
-        -   **Nível do Impacto**: descreva o nível do impacto. Exemplo: Alto,
+       -  **Nível do Impacto**: descreva o nível do impacto. Exemplo: Alto,
             Médio, Baixo;
 
-        -   **Sigla**: informe a sigla referente ao nível de impacto;
+       -  **Sigla**: informe a sigla referente ao nível de impacto;
 
     !!! note "NOTA"
 
