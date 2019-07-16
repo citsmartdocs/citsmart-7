@@ -68,7 +68,7 @@ Preenchimento dos campos cadastrais
     três línguas diferentes (Português/Inglês/Espanhol). Ao clicar em SIM, uma
     nova aba aparecerá para o cadastro nos idiomas.
 
-   !!! note "NOTA"
+    !!! note "NOTA"
 
         A escolha do tipo Negócio/Apoio deve estar alinhada com o tipo do contrato
         que se pretende vincular ao Portfólio. Somente contratos do tipo “Contrato”
@@ -92,7 +92,7 @@ Preenchimento dos campos cadastrais
 
     ![Criar](images/portfolio-5.png)
 
-    **Figura 5 - Disponibilização do portfólio no Smart Portal e chat**
+     **Figura 5 - Disponibilização do portfólio no Smart Portal e chat**
 
        -  **Disponível no portal**: selecione a opção "Sim" para disponibilizar o
            portfólio no Smart Portal. Ao selecionar a opção "Sim", duas novas abas
