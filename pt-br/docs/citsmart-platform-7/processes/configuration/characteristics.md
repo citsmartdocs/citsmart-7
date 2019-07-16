@@ -70,9 +70,9 @@ Preenchimento dos campos cadastrais
      - **TAG**: informe a TAG para identificação da característica;
      - **Valor padrão**: informar um valor para identificação da característica;
      
-     !!! abstract "SAIBA MAIS"
+    !!! abstract "SAIBA MAIS"
      
-         O valor padrão possibilita especificar alguma grandeza com características iguais de diversos tipos de itens de 
+        O valor padrão possibilita especificar alguma grandeza com características iguais de diversos tipos de itens de 
          configuração.
          
      - **Descrição**: informe a descrição da característica;
@@ -80,7 +80,7 @@ Preenchimento dos campos cadastrais
  3. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados
  automaticamente para uma futura auditoria.
  
- !!! tip "About"
+!!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
     <b>Updated:</b>07/16/2019 – Larissa Lourenço
