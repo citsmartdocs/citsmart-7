@@ -13,7 +13,7 @@ que ações adequadas sejam tomadas.
 Como acessar
 ------------
 
-1.  Acesse a funcionalidade de Prioridade de Solicitação de Serviço** **através
+1.  Acesse a funcionalidade de Prioridade de Solicitação de Serviço através
     da navegação no menu principal **Processos ITIL > Gerência de Portfólio e
     Catálogo > Prioridade Solicitações Serviço**.
 
