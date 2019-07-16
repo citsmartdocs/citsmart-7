@@ -60,9 +60,9 @@ Preenchimento dos campos cadastrais
 
     -  **Tipo**: informe o tipo do portfólio de serviços:
 
-        -  **Negócio: **provê os serviços de negócios/TI;
+        -  **Negócio**: provê os serviços de negócios/TI;
 
-        -  **Apoio:** provê os serviços de apoio/técnico.
+        -  **Apoio**: provê os serviços de apoio/técnico.
 
     -  **Multi-idiomas**: escolha se o portfólio terá ou não disponibilidade em
     três línguas diferentes (Português/Inglês/Espanhol). Ao clicar em SIM, uma
