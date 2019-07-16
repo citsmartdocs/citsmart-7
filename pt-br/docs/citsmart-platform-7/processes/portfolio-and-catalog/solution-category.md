@@ -31,7 +31,7 @@ Filtros
 1.  Clique na guia de **Pesquisa de Categoria de Solução**. Feito isso, será
     apresentada a tela de pesquisa, conforme ilustrada na figura abaixo:
 
-    ![Criar](images/solution-category-1.png)
+    ![Criar](images/solution-1.png)
 
     **Figura 1 - Tela de pesquisa de categoria de solução**
 
@@ -51,7 +51,7 @@ Listagem de itens
     identificação dos itens desejados na listagem padrão da
     funcionalidade:** Nome.**
 
-    ![Criar](images/solution-category-2.png)
+    ![Criar](images/solution-2.png)
 
     **Figura 2 - Listagem de categoria de solução**
 
@@ -70,7 +70,7 @@ Preenchimento dos campos cadastrais
 1.  Será apresentada a tela de Cadastro de Categoria de Solução, conforme
     ilustrada na figura abaixo:
 
-    ![Criar](images/solution-category-3.png)
+    ![Criar](images/solution-3.png)
 
     **Figura 3 - Tela de cadastro de categoria de solução**
 
