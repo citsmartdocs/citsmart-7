@@ -72,7 +72,7 @@ Preenchimento dos campos cadastrais
     !!! note "NOTA"
 
         Pode-se adicionar vários níveis de urgência, conforme sua necessidade, basta
-        clicar no ícone** com sinal positivo (+).
+        clicar no ícone com sinal positivo (+).
 
     -   Após informar os níveis de urgência, clique no botão *Gravar Urgência* para
     efetuar a operação.
