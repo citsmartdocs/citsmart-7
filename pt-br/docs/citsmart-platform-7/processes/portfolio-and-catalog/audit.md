@@ -78,6 +78,11 @@ Listagem de itens
 1.  Após os dados informados, clique no botão *Gravar* para efetuar o registro.
 
 
+Preenchimento dos campos cadastrais
+---------------------------------
+
+1.  Não se aplica.
+
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
