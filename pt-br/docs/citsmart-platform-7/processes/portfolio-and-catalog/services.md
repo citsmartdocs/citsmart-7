@@ -270,15 +270,16 @@ Cadastrando serviço de negócio
     (Português/Inglês/Espanhol), clique na aba Multi-idiomas conforme figura
     abaixo:
     
-    !!! info "IMPORTANTE"
+   !!! info "IMPORTANTE"
          
-             O campo Multi-idiomas somente aparecerá no cadastro/edição de serviço se o mesmo estiver com opção SIM na aba                      principal do portfólio escolhido.
+           O campo Multi-idiomas somente aparecerá no cadastro/edição de serviço se o mesmo estiver com opção SIM na aba                      principal do portfólio escolhido.
 
-    ![Criar](images/service-10.png)
+    
+   ![Criar](images/service-10.png)
    
-    **Figura 10 - Tela de internacionalização de serviços**
+   **Figura 10 - Tela de internacionalização de serviços**
 
-    !!! note "NOTA"
+   !!! note "NOTA"
 
         Caso uma das 3 línguas nessa aba ficar em branco, as informações serão
         preenchidas com as que estiver contidas na aba "Apresentação".
