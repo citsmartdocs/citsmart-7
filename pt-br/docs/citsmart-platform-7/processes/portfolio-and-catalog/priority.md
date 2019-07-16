@@ -56,8 +56,8 @@ Preenchimento dos campos cadastrais
 
     !!! note "NOTA"
 
-       Pode ser adicionado vários níveis de impacto, conforme sua necessidade,
-       basta clicar no ícone basta clicar no ícone com sinal positivo (+). 
+        Pode ser adicionado vários níveis de impacto, conforme sua necessidade,
+        basta clicar no ícone basta clicar no ícone com sinal positivo (+). 
 
     -   Após informar os níveis de impacto, clique no botão *Gravar Impacto* para
     efetuar a operação.
