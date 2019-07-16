@@ -70,10 +70,10 @@ Preenchimento dos campos cadastrais
 
    !!! note "NOTA"
 
-       A escolha do tipo Negócio/Apoio deve estar alinhada com o tipo do contrato
-       que se pretende vincular ao Portfólio. Somente contratos do tipo “Contrato”
-       são vinculados ao tipo "Negócio" e somente contratos do tipo “Contrato de
-       Apoio” e “Acordo de Nível Operacional” são vinculados ao tipo "Apoio".
+        A escolha do tipo Negócio/Apoio deve estar alinhada com o tipo do contrato
+        que se pretende vincular ao Portfólio. Somente contratos do tipo “Contrato”
+        são vinculados ao tipo "Negócio" e somente contratos do tipo “Contrato de
+        Apoio” e “Acordo de Nível Operacional” são vinculados ao tipo "Apoio".
 
 1.  Caso queira disponibilizar o portfólio de serviços nos 3 idiomas disponíveis
     a aba correspondente aparecerá, conforme figura abaixo:
@@ -82,10 +82,10 @@ Preenchimento dos campos cadastrais
 
     **Figura 4 - Internacionalização do portfólio**
 
-  !!! info "IMPORTANTE"
+   !!! info "IMPORTANTE"
 
-       Caso uma das 3 línguas nessa aba ficar em branco, as informações serão
-       preenchidas com as que estiver contidas na aba "Apresentação".
+        Caso uma das 3 línguas nessa aba ficar em branco, as informações serão
+        preenchidas com as que estiver contidas na aba "Apresentação".
 
 1.  Caso queira disponibilizar o portfólio de serviços no Portal Smart e/ou
     Chat, clique na aba **Apresentação**;
