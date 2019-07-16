@@ -262,7 +262,7 @@ Registrando atividades de incidente do serviço
 3.  Na guia "Catalogo de Serviço", eleja o serviço almejado e clique
     em *Avançar* ;
 
-4.  Feito isso, clique na aba **Incidentes.**
+4.  Feito isso, clique na aba **Incidentes**.
 
 ### Filtros
 
@@ -276,7 +276,7 @@ Registrando atividades de incidente do serviço
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** ID **e** Nome Incidente.**
+    funcionalidade: ID e Nome Incidente.
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Editar* e *Desvincular*.
