@@ -320,5 +320,27 @@ apresenta a barra de navegação, onde permite navegar entre os grupos de ICs.
 Consultando IC's por filtros
 -----------------------------
 
-1. Na área de **Filtros**, clique no ícone ![simbolo](
+1. Na área de **Filtros**, clique no ícone ![simbolo](images/simb-mais-cinz.png) da mesma para expandir a área. Feito isso,
+serão apresentados os filtros para realizar a consulta do IC de acordo com sua necessidade, conforme ilustrado na figura abaixo:
+
+    ![Filtros](images/geren-IC.img21.png)
+    
+    **Figura 21 - Filtros para consulta de IC**
+    
+    - **Status**: informe o status do IC para consulta dos ICs referente ao status;**
+    - **Criticidade**: informe a criticidade para consulta dos ICs referente à criticidade;
+    - **Identificação**: informe a identificação do IC para consulta de um IC específico;
+    - **Pesquisar somente no grupo atual**: caso queira visualizar somente os ICs do grupo atual, ou seja, o grupo em que 
+    está acessando no momento, habilite o filtro;
+    - **Exibir itens filhos**: caso queira visualizar os ICs filhos, habilite o filtro;
+    
+2. Após os filtros definidos, clique no botão "Filtrar" para efetuar a operação. Feito isso, serão exibidos os ICs 
+conforme os filtros definidos. A figura abaixo ilustra um exemplo:
+
+![Itens](images/geren-IC.img22.png)
+
+**Figura 22 - Itens de configuração**
+
+Alterando os dados do item de configuração
+--------------------------------------------
    
