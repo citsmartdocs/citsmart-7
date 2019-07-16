@@ -39,7 +39,7 @@ Filtros
 
 1.  Realize a pesquisa de categoria de serviço;
 
-2.  Informe o nome da categoria de serviço e clique no botão *Pesquisar*. Após
+    -  Informe o nome da categoria de serviço e clique no botão *Pesquisar*. Após
     isso, será exibido o registro conforme o nome informado.
 
     -  Caso deseje listar todos os registros de categoria de serviço, basta
