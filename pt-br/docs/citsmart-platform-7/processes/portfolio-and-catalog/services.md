@@ -121,61 +121,61 @@ Cadastrando serviço de negócio
 
        -  **Retorno Financeiro do Serviço**: indique o retorno financeiro do serviço.
 
-      -  **Aprovar**: esta fase indica que o serviço proposto está em aprovação. Fase
-    para finalizar o serviço proposto, autorizar serviços e recursos e tomar
-    decisões para o futuro. Nesta fase é feita a aprovação do serviço proposto,
-    o serviço é analisado e verifica-se se o mesmo está dando retorno para o
-    negócio. Se ele não der retorno, significa que virou custo, e aí devemos
-    considerá-los como obsoleto.
+          -  **Aprovar**: esta fase indica que o serviço proposto está em aprovação. Fase
+             para finalizar o serviço proposto, autorizar serviços e recursos e tomar
+             decisões para o futuro. Nesta fase é feita a aprovação do serviço proposto,
+             o serviço é analisado e verifica-se se o mesmo está dando retorno para o
+             negócio. Se ele não der retorno, significa que virou custo, e aí devemos
+             considerá-los como obsoleto.
 
-      -  **Termo de Abertura**: esta fase indica que o serviço está seguindo para
-    fase de desenho de serviços e os serviços existentes são renovados no
-    catálogo de serviços. Nesta fase comunica-se as decisões, aloca recursos e
-    contrata serviços.
+          -  **Termo de Abertura**: esta fase indica que o serviço está seguindo para
+             fase de desenho de serviços e os serviços existentes são renovados no
+             catálogo de serviços. Nesta fase comunica-se as decisões, aloca recursos e
+             contrata serviços.
 
-    -   **Status do Serviço**: informe o status do serviço;
+    -  **Status do Serviço**: informe o status do serviço;
 
-    -   **Criticidade**: este campo será ativado quando o serviço estiver na fase de
+    -  **Criticidade**: este campo será ativado quando o serviço estiver na fase de
     análise para informar o nível crítico do serviço;
 
-    -   **Importância do Serviço ao Negócio**: informe a importância do serviço ao
+    -  **Importância do Serviço ao Negócio**: informe a importância do serviço ao
     negócio:
 
-        -   **Alta**: informá-lo caso o serviço seja imprescindível para o funcionamento
+       -  **Alta**: informá-lo caso o serviço seja imprescindível para o funcionamento
     do negócio.
 
-        -   **Média**: informá-la caso o serviço seja importante para o negócio, mas a
+       -  **Média**: informá-la caso o serviço seja importante para o negócio, mas a
     produtividade não seja totalmente dependente dele.
 
-        -   **Baixa**: informá-lo se o serviço a ser realizado for necessário para o
+       -  **Baixa**: informá-lo se o serviço a ser realizado for necessário para o
     dia-a-dia da empresa, mas a sua ausência não cause situações drásticas.
 
-        -   **Normal**: informá-lo caso o serviço a ser realizado não interfira no
+       -  **Normal**: informá-lo caso o serviço a ser realizado não interfira no
     cotidiano produtivo da organização.
 
-        -   **A combinar**: informá-lo quando não se sabe o tipo de importância do
+       -  **A combinar**: informá-lo quando não se sabe o tipo de importância do
     serviço ao negócio no momento do registro.
 
-    -   **Tipo de Serviço**: informe o tipo do serviço;
+    -  **Tipo de Serviço**: informe o tipo do serviço;
 
-    -   **Lugar de Execução dos Serviços**: informe o local onde o serviço será
+    -  **Lugar de Execução dos Serviços**: informe o local onde o serviço será
     executado;
 
-        -   **Interno**: o serviço será realizado dentro da organização;
+       -  **Interno**: o serviço será realizado dentro da organização;
 
-        -   **Externo**: o serviço será realizado fora da organização. Por exemplo: em
+       -  **Externo**: o serviço será realizado fora da organização. Por exemplo: em
         outra organização ou em uma filial;
 
-        -   **Interno/Externo**: o serviço poderá ser realizado dentro da organização
+       -  **Interno/Externo**: o serviço poderá ser realizado dentro da organização
         como fora.
 
-    -   **Detalhamento**: descreva os detalhes do serviço;
+    -  **Detalhamento**: descreva os detalhes do serviço;
 
-    -   **Objetivo**: descreva o objetivo do serviço;
+    -  **Objetivo**: descreva o objetivo do serviço;
 
-    -   **Valor**: informe o valor do serviço para o negócio;
+    -  **Valor**: informe o valor do serviço para o negócio;
 
-    -   **Template de Serviço**: informe o template do serviço para personalização
+    -  **Template de Serviço**: informe o template do serviço para personalização
     da tela de registro do serviço, por exemplo: ao selecionar um template que
     consta um questionário, será apresentada na tela de registro de serviço uma
     aba de "questionário" para inserção de informações a respeito do serviço;
@@ -187,7 +187,7 @@ Cadastrando serviço de negócio
 
     **Figura 6 - Tela de anexo de documentos**
 
-    -   Selecione o tipo de anexo, clique no botão *Adicionar Arquivo* e selecione o
+    -  Selecione o tipo de anexo, clique no botão *Adicionar Arquivo* e selecione o
     arquivo desejado.
 
 1.  Caso queira disponibilizar o serviço no Portal Smart e Chat, clique na
@@ -197,30 +197,30 @@ Cadastrando serviço de negócio
 
     **Figura 7 - Disponibilização do serviço no Smart Portal e chat**
 
-    -   **Disponível no portal**: selecione a opção "Sim" para disponibilizar o
+    -  **Disponível no portal**: selecione a opção "Sim" para disponibilizar o
     serviço no Smart Portal. Ao selecionar a opção "Sim", uma nova aba chamada
     "Pesquisas " aparecerá (Para maiores informações, leia a seção "Vinculando
     com Pesquisas").
 
-    -   **Disponível via chat**: selecione a opção “Sim” para disponibilizar o
+    -  **Disponível via chat**: selecione a opção “Sim” para disponibilizar o
     serviço no Chat;
 
-    -   **Aprovação automática de avaliação do serviço**: defina se a avaliação do
+    -  **Aprovação automática de avaliação do serviço**: defina se a avaliação do
     serviço, realizada no Smart Portal, passará por uma aprovação automática;
 
-    -   **Nome**: informe o nome do serviço para ser exbido no Smart Portal e Chat;
+    -  **Nome**: informe o nome do serviço para ser exbido no Smart Portal e Chat;
 
-    -   **Descrição**: informe uma breve descrição do serviço, a qual será exibida
+    -  **Descrição**: informe uma breve descrição do serviço, a qual será exibida
     no Smart Portal e Chat;
 
-    -   Clique no botão *Selecione uma imagem* e será apresentada uma tela para
+    -  Clique no botão *Selecione uma imagem* e será apresentada uma tela para
     selecionar uma imagem que representará o serviço:
 
     ![Criar](images/service-8.png)
 
     **Figura 8 - Tela de seleção de imagem**
 
-    -   Vincule os grupos que terão acesso ao serviço no Portal e no Chat:
+    -  Vincule os grupos que terão acesso ao serviço no Portal e no Chat:
 
    !!! note "NOTA"
 
@@ -235,15 +235,15 @@ Cadastrando serviço de negócio
 
     **Figura 9 - Permissão de acesso por grupo**
 
-    -   Clique no botão *Vincular Grupos*, será exibida a tela de pesquisa de grupo.
+    -  Clique no botão *Vincular Grupos*, será exibida a tela de pesquisa de grupo.
     Nesta tela, serão listados somente os grupos que foram vinculados no
     registro do portfólio de serviço;
 
-    -   Realize a pesquisa, selecione os grupos que terão permissão para visualizar
+    -  Realize a pesquisa, selecione os grupos que terão permissão para visualizar
     o serviço no Portal Smart e no Chat, e clique no botão *Enviar* para efetuar
     a operação.
 
-    -   Para desvincular o grupo, basta clicar no botão *Desvincular* do mesmo.
+    -  Para desvincular o grupo, basta clicar no botão *Desvincular* do mesmo.
 
 1.  Após informar os dados do serviço de negócio, clique no botão *Gravar*.
     Feito isso, o serviço será gravado e apresentado no **Portfólio de Serviços
