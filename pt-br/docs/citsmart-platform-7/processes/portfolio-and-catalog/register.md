@@ -241,23 +241,23 @@ Visão geral das funções da tela principal
     
 **Figura 15 - Gerenciamento de portfólio de serviços**
 
--   **1**: Botão de menu -** ao clicar neste botão, permite esconder/exibir o menu
+-   **1**: Botão de menu - ao clicar neste botão, permite esconder/exibir o menu
     do Gerenciamento de Portfólio;
 
--   **2**: Barra de navegação** - permite navegar entre os dados do portfólio;
+-   **2**: Barra de navegação - permite navegar entre os dados do portfólio;
 
--   **3**: Campo de pesquisa** - permite realizar a busca de portfólios de
+-   **3**: Campo de pesquisa - permite realizar a busca de portfólios de
     serviços;
 
--   **4**: Negócio** - local para armazenar os portfólios de serviços de negócio;
+-   **4**: Negócio - local para armazenar os portfólios de serviços de negócio;
 
--   **5**: Apoio** - local para armazenar os portfólios de serviços de apoio;
+-   **5**: Apoio - local para armazenar os portfólios de serviços de apoio;
 
--   **6**: Novo Portfólio** - permite criar um novo portfólio de serviços;
+-   **6**: Novo Portfólio - permite criar um novo portfólio de serviços;
 
--   **7**: Editar** - permite editar o registro de portfólio de serviços;
+-   **7**: Editar - permite editar o registro de portfólio de serviços;
 
--   **8**: Avançar** - permite acessar o portfólio de serviços.
+-   **8**: Avançar - permite acessar o portfólio de serviços.
 
 Veja também
 -----------
