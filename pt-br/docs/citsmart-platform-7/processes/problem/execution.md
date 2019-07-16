@@ -199,7 +199,7 @@ Vinculando ocorrência ao problema
 
     **Figura 11 - Registro de ocorrência**
 
-1.  **Categoria**: selecione a categoria da ocorrência. Caso não seja encontrada
+    - **Categoria**: selecione a categoria da ocorrência. Caso não seja encontrada
     a categoria, é possível realizar um cadastro rápido clicando no ícone [Criar](images/execution-14.png) de
     Categoria;
 
