@@ -2,7 +2,7 @@ title: Pesquisa de problema
 Description: Buscar os problemas ocorridos de acordo com filtros definidos pelo
 usuário.
 
-#Pesquisa de problema
+# Pesquisa de problema
 
 Buscar os problemas ocorridos de acordo com filtros definidos pelo usuário.
 
