@@ -82,7 +82,7 @@ Preenchimento dos campos cadastrais
 
     **Figura 4 - Internacionalização do portfólio**
 
-   !!! info "IMPORTANTE"
+    !!! info "IMPORTANTE"
 
         Caso uma das 3 línguas nessa aba ficar em branco, as informações serão
         preenchidas com as que estiver contidas na aba "Apresentação".
@@ -94,18 +94,18 @@ Preenchimento dos campos cadastrais
 
     **Figura 5 - Disponibilização do portfólio no Smart Portal e chat**
 
-        -  **Disponível no portal**: selecione a opção "Sim" para disponibilizar o
+       -  **Disponível no portal**: selecione a opção "Sim" para disponibilizar o
            portfólio no Smart Portal. Ao selecionar a opção "Sim", duas novas abas
            chamadas "Permissão de Acesso" e " Pesquisas" ficarão disponíveis (para
            maiores informações, leia a seção "Vinculando com Pesquisas");
 
-        -  **Disponível via chat**: selecione a opção “Sim” para disponibilizar o
+       -  **Disponível via chat**: selecione a opção “Sim” para disponibilizar o
             portfólio no Chat;
 
-        -  **Nome**: informe o nome do portfólio que será exibido no Smart Portal e
+       -  **Nome**: informe o nome do portfólio que será exibido no Smart Portal e
            Chat;
 
-        -  **Descrição**: informe uma breve descrição do portfólio de serviços, a qual
+       -  **Descrição**: informe uma breve descrição do portfólio de serviços, a qual
            será exibida no Smart Portal e Chat;
 
     -  Clique no botão *Selecione uma imagem* e será apresentada uma tela para
@@ -150,7 +150,7 @@ Vinculando com pesquisas
 Ao cadastrar um portfólio, é possível vinculá-lo a pesquisas previamente
 cadastradas.
 
-    !!! Abstract "SAIBA MAIS"
+   !!! Abstract "SAIBA MAIS"
 
         Para maiores informações sobre como cadastrar uma pesquisa, ver
         conhecimento [Cadastro e pesquisa de pesquisa de
@@ -159,27 +159,27 @@ cadastradas.
 1.  Preencha os campos cadastrais referentes ao novo portfólio. Logo após, na
     aba Apresentação, selecione "*Sim*" na opção "disponível no portal",
     conforme a figura abaixo. Será apresentado então, a aba "Pesquisas":
-
-   ![Criar](images/portfolio-8.png)
+ 
+    ![Criar](images/portfolio-8.png)
    
-   **Figura 8 - Tela de apresentação**
+    **Figura 8 - Tela de apresentação**
 
 1.  Clique na aba *Pesquisas*. Será apresentada a tela de vínculo de pesquisas,
     conforme ilustrada na figura abaixo:
 
-   ![Criar](images/portfolio-9.png)
+    ![Criar](images/portfolio-9.png)
    
-   **Figura 9 - Tela de vinculação de pesquisas**
+    **Figura 9 - Tela de vinculação de pesquisas**
 
 1.  Vincule pesquisas ao portfólio;
 
--   Clique no botão *Vincular pesquisas*. Após isso, será apresentada a tela de
+    -  Clique no botão *Vincular pesquisas*. Após isso, será apresentada a tela de
     pesquisa de pesquisas;
 
--   Realize a pesquisa, selecione a pesquisa que deseja vincular ao portfólio e
+    -  Realize a pesquisa, selecione a pesquisa que deseja vincular ao portfólio e
     clique no botão *Enviar* para efetuar a operação;
 
--   Para remover o vínculo da pesquisa selecionada com o portfólio, clique
+    -  Para remover o vínculo da pesquisa selecionada com o portfólio, clique
     em *Excluir*.
 
 Uma visão rápida da principal funcionalidade do módulo
@@ -237,9 +237,9 @@ Uma visão rápida da principal funcionalidade do módulo
 Visão geral das funções da tela principal
 -----------------------------------------
 
-    ![Criar](images/portfolio-15.png)  
+![Criar](images/portfolio-15.png)  
     
-    **Figura 15 - Gerenciamento de portfólio de serviços**
+**Figura 15 - Gerenciamento de portfólio de serviços**
 
 -   **1**: Botão de menu -** ao clicar neste botão, permite esconder/exibir o menu
     do Gerenciamento de Portfólio;
