@@ -344,3 +344,239 @@ conforme os filtros definidos. A figura abaixo ilustra um exemplo:
 Alterando os dados do item de configuração
 --------------------------------------------
    
+1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**.
+Após a consulta, clique sobre o item de configuração, será apresentada a tela de informações do determinado Item de
+Configuração,conforme ilustrada na figura a seguir:
+
+    ![Informações](images/geren-IC.img23.png)
+    
+    **Figura 23 - Tela de informações de item de configuração**
+    
+2. Clique no botão "Lista de Ações" e logo em seguida clique em "Editar", conforme indicado na figura abaixo:
+
+    ![Editar](images/geren-IC.img24.png)
+    
+    **Figura 24 - Seleção da ação "Editar"**
+    
+3. Será apresentada a tela de registro do Item de Configuração, conforme exemplo ilustrado na figura abaixo:
+
+    ![Registro](images/geren-IC.img25.png)
+    
+    **Figura 25 - Tela de registro de item de configuração**
+    
+4. Altere os dados que desejar e clique no botão "Gravar" para que seja gravada a alteração realizada no registro de IC, onde
+a data, hora e usuário serão gravados automaticamente para uma futura auditoria.
+
+!!! abstract "SAIBA MAIS"
+
+    As alterações de itens de configuração são gravadas em um histórico. Todas as vezes que o item é modificado, uma nova
+    versão é inserida com as mudanças.
+    
+Registrando item de configuração relacionado a um item de configuração
+------------------------------------------------------------------------
+
+1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**. 
+Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+
+2. Clique no botão "Lista de Ações" e logo em seguida clique em "Criar item de configuração relacionado", conforme indicado na 
+figura a seguir:
+
+    ![Criar](images/geren-IC.img26.png)
+    
+    **Figura 26 - Seleção da ação "Criar item de configuração relacionado"**
+    
+3. Será apresentada a tela de Cadastro de Item de Configuração para registro das informações do IC relacionado. Registre 
+as informações conforme as orientações contidas no item **Registrando um novo Item de Configuração**.
+
+!!! warning "ATENÇÃO"
+
+    Os campos "Identificação", "Nome" e "Contrato" não estarão preenchidos, pois seu conteúdo difere do IC pai. Esse preenchimento automático estende-se à opção "Características" (menu lateral à esquerda).
+    
+Executando script referente ao item de configuração
+-----------------------------------------------------
+
+1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**. 
+Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+
+2. Clique no botão "Lista de Ações" e logo em seguida clique em "Executar script", conforme indicado na figura abaixo:
+
+    ![Seleção](images/geren-IC.img27.png)
+    
+    **Figura 27 - Seleção da ação "Criar item de configuração relacionado"**
+    
+3. Será apresentada a tela de **Execução de Scripts** conforme ilustrada na figura abaixo:
+
+    ![Execução](images/geren-IC.img28.png)
+    
+    **Figura 28 - Tela de execução de scripts**
+    
+4. Descreva os scripts que deseja executar e clique no botão "Executar Script" para efetuar a operação.
+
+Verificando os processos (requisição, incidente, problemas, mudanças, liberação e base de conhecimento) relacionados ao IC
+----------------------------------------------------------------------------------------------------------------------------
+
+1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item Consultando os Itens de Configuração. Após
+a consulta, clique sobre o Item de Configuração. Será apresentada a tela de informações do determinado Item de Configuração.
+Nessa tela é apresentado a quantidade de requisições, incidentes, problemas, mudanças, liberações e conhecimentos relacionados 
+ao IC, conforme exemplo ilustrado na figura abaixo:
+
+    ![Informações](images/geren-IC.img29.png)
+    
+    **Figura 29 - Tela de informações de item de configuração**
+    
+2. Para verificar as requisições relacionadas ao IC, basta clicar na guia **Requisições**.
+
+3. Para verificar os incidentes relacionados ao IC, basta clicar na guia **Incidentes**.
+
+4.Para verificar os problemas relacionados ao IC, basta clicar na guia **Problemas**.
+
+5. Para verificar as requisições de mudanças relacionadas ao IC, basta clicar na guia **Mudanças**.
+
+6. Para verificar as liberações relacionadas ao IC, basta clicar na guia **Liberações**.
+
+7. Para verificar ou relacionar conhecimentos ao IC, basta clicar na guia **Base de Conhecimento**.
+
+Verificando ocorrências de eventos do IC
+------------------------------------------
+
+1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**.
+Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+
+2. Clique na guia de **Eventos**, conforme indicado na figura abaixo:
+
+    ![Eventos](images/geren-IC.img30.png)
+    
+    **Figura 30 - Guia de eventos**
+    
+3. Serão apresentados os filtros para busca de eventos que foram gerados para o IC, conforme ilustrado na figura abaixo:
+
+    ![Ocorrências](images/geren-IC.img31.png)
+    
+    **Figura 31 - Pesquisa de ocorrências de eventos do IC**
+    
+4. Defina os filtros de acordo com sua necessidade e clique no botão "Pesquisar".Feito isso, serão exibidos os eventos ocorridos.
+
+Registrando o valor financeiro do IC
+--------------------------------------
+
+1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**.
+Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+
+2. Clique na guia de **Financeiro**, conforme indicado na figura abaixo:
+
+    ![Guia](images/geren-IC.img32.png)
+    
+    **Figura 32 - Guia financeiro**
+    
+3. Serão apresentados os campos para preenchimento com as informações do valor financeiro do Item de Configuração, conforme 
+ilustrado na figura abaixo:
+
+    ![Valor](images/geren-IC.img33.png)
+    
+    **Figura 33 - Tela de registro de valor financeiro do IC**
+    
+    - **Data de início**: informe a data inicial do valor do IC;
+    - **Data fim**: informe a data final do valor do IC;
+    - **Valor do item de configuração**: informe o valor do IC;
+    
+4. Após os dados informados, clique no botão "Gravar". Feito isso, será gravado e apresentado na tela o valor financeiro do
+Item de Configuração.
+
+5. Caso queira alterar os dados o valor financeiro do IC, basta clicar no ícone ![simbolo](images/simb-lapis.png) do mesmo.
+
+6. Caso queira excluir o valor financeiro do IC, basta clicar no ícone ![simbolo](images/simb.fech-red.png) do mesmo.
+
+Verificando indicadores de capacidade/performance ao IC
+---------------------------------------------------------
+
+1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**.
+Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+
+2. Clique na guia de **Capacidade**, conforme indicado na figura abaixo:
+
+    ![Capacidade](images/geren-IC.img34.png)
+    
+    **Figura 34 - Guia de capacidade**
+    
+3. Será apresentada a tela para vínculo de indicadores de capacidade ao Item de Configuração, conforme ilustrada na figura 
+abaixo:
+
+    ![Vínculo](images/geren-IC.img35.png)
+    
+    **Figura 35 - Vínculo de indicadores de capacidade ao IC**
+    
+4. Clique no botão "Vincular indicadores de capacidade/performance". Feito isso, será exibida a tela de pesquisa de indicadores
+de capacidade. Realize a pesquisa, selecione os indicadores e clique no botão "Adicionar" para efetuar a operação.
+
+5. Caso queira excluir o vínculo de um indicador de capacidade com o IC, basta clicar no ícone
+![simbolo](images/simb.fech-red.png) do mesmo.
+
+Vinculando atributos de demanda ao IC
+---------------------------------------
+
+1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**. 
+Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+
+2. Clique na guia de **Demanda**, conforme indicado na figura abaixo:
+
+    ![Demanda](images/geren-IC.img36.png)
+    
+    **Figura 36 - Guia de demanda**
+    
+3. Será apresentada a tela para vínculo de atributos da demanda ao Item de Configuração, conforme ilustrada na figura abaixo:
+
+    ![Atributos](images/geren-IC.img37.png)
+    
+    **Figura 37 - Vínculo de atributos da demanda ao IC**
+    
+4. Clique no botão "Vincular atributos da demanda". Feito isso, será exibida a tela de pesquisa de atributos. Realize a pesquisa, 
+selecione os atributos e clique no botão "Adicionar" para efetuar a operação.
+
+5. Caso queira excluir o vínculo de um atributo de demanda com o IC, basta clicar no ícone ![simbolo](images/simb.fech-red.png)
+do mesmo.
+
+Verificando item de configuração pai
+--------------------------------------
+
+1. Realize a consulta do Item de Configuração Pai que deseja, conforme descrito no item **Consultando os Itens de Configuração**.
+Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+
+2. Clique na guia de **Item de Configuração Pai**, conforme indicado na figura abaixo:
+
+    ![Guia](images/geren-IC.img38.png)
+    
+    **Figura 38 - Guia de item de configuração pai**
+    
+3. Será apresentado o Item de Configuração Pai que está relacionado ao Item de Configuração.
+
+    ![Item](images/geren-IC.img39.png)
+    
+    **Figura 39 - Item de configuração pai**
+    
+Verificando itens de configuração relacionados a um item de configuração
+--------------------------------------------------------------------------
+
+1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**.  
+Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+
+2. Clique na guia de **Itens Relacionados**, conforme indicado na figura abaixo:
+
+    ![Itens](images/geren-IC.img40.png)
+    
+    **Figura 40 - Guia de itens relacionados**
+    
+3. Serão apresentados os Itens de Configuração que estão relacionados ao Item de Configuração.
+
+    ![Relacionados](images/geren-IC.img41.png)
+    
+    **Figura 41 - Itens relacionados**
+    
+4. Para verificar as informações do IC relacionado, basta clicar em "Visualizar".
+
+5. Um dos tipos de relação entre IC é explicada no conhecimento sobre o "Mapa de Serviço". Abaixo segue exemplo de 2 
+tipos de relação que os IC podem ter:
+
+![Detalhes](images/geren-IC.img42.png)
+
+**Figura 42 - Detalhes das duas seções visíveis em itens relacionados (IC-filhos e relacionados pelo mapa de serviço)**
+
