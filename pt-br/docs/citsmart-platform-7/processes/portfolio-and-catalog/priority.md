@@ -47,7 +47,7 @@ Preenchimento dos campos cadastrais
 
 1.  Preencha os campos conforme orientações abaixo:
 
-    1.  Cadastro de Impacto:
+    a) Cadastro de Impacto:
 
         -   **Nível do Impacto**: descreva o nível do impacto. Exemplo: Alto,
             Médio, Baixo;
@@ -62,7 +62,7 @@ Preenchimento dos campos cadastrais
     -   Após informar os níveis de impacto, clique no botão *Gravar Impacto* para
     efetuar a operação.
 
-1.  Cadastro de Urgência:
+    b)  Cadastro de Urgência:
 
     -   **Nível da Urgência**: defina o nível de urgência. Exemplo: Alta, Média,
         Baixa;
@@ -77,7 +77,7 @@ Preenchimento dos campos cadastrais
     -   Após informar os níveis de urgência, clique no botão *Gravar Urgência* para
     efetuar a operação.
 
-1.  Cadastro da Matriz de Prioridade:
+    c)  Cadastro da Matriz de Prioridade:
 
     -   Clique no botão *Cadastrar Matriz de Prioridade*. Feito isso, serão
         apresentados os campos para definir a matriz de prioridade;
@@ -90,10 +90,10 @@ Preenchimento dos campos cadastrais
             impacto e urgência informados. Lembrando que esse valor deve ser de
             1 a 5, sendo que o 1 é a prioridade mais alta e 5 é a mais baixa;
 
-2.  Feito isso, clique no ícone ![Criar](images/priority-2.png) para adição das informações de prioridade na
+     d)  Feito isso, clique no ícone ![Criar](images/priority-2.png) para adição das informações de prioridade na
     matriz;
 
-3.  Após definir a matriz de prioridade, clique no botão *Gravar Matriz de
+     e)  Após definir a matriz de prioridade, clique no botão *Gravar Matriz de
     Prioridade* para efetuar a operação.
 
     ![Criar](images/priority-3.png)
