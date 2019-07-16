@@ -10,7 +10,7 @@ incidentes.
 Como acessar
 ------------
 
-1.  Acesse a funcionalidade de Categoria de Solução** **através da navegação no
+1.  Acesse a funcionalidade de Categoria de Solução através da navegação no
     menu principal **Processos ITIL > Gerência de Portfólio e
     Catálogo > Categoria Solução**.
 
