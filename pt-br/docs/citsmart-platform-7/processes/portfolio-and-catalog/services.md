@@ -290,7 +290,7 @@ Vinculando com pesquisas
 Ao cadastrar um serviço, é possível vinculá-lo a pesquisas previamente
 cadastradas.
 
-     !!! Abstract "SAIBA MAIS"
+   !!! Abstract "SAIBA MAIS"
 
          Para maiores informações sobre como cadastrar uma pesquisa, ver
          conhecimento [Cadastro e pesquisa de pesquisa de
@@ -325,7 +325,7 @@ cadastradas.
 Registrando serviço de apoio
 ----------------------------
 
-Listagem de itens
+### Listagem de itens
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
@@ -349,7 +349,7 @@ Listagem de itens
 
     **Figura 14 - Portfólio de serviços de apoio**
 
-Preenchimento dos campos cadastrais
+### Preenchimento dos campos cadastrais
 
 1.  Clique no botão *Novo Serviço*, será apresentada a tela de **Cadastro de
     Serviço de Apoio**, conforme ilustrada na figura abaixo:
