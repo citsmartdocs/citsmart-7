@@ -5,7 +5,7 @@ de Apoio/Técnico*.
 
 # Configuração dos atributos do serviço
 
-As orientações descritas neste “conhecimento” poderão ser seguidas para
+As orientações descritas neste documento poderão ser seguidas para
 configurar os atributos tanto do *Serviço de Negócio/TI* quanto do *Serviço de
 Apoio/Técnico*.
 
