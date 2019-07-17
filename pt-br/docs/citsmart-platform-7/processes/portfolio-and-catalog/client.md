@@ -12,7 +12,7 @@ Esta funcionalidade tem por objetivo cadastrar e realizar pesquisa por clientes.
 Como acessar
 ------------
 
-1.  Acesse a funcionalidade de cliente** **através da navegação no menu
+1.  Acesse a funcionalidade de cliente através da navegação no menu
     principal **Processos ITIL > Gerência de Portfólio e Catálogo > Clientes**.
 
 Pré-condições
