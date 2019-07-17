@@ -996,7 +996,7 @@ Administração das avaliações do serviço
     botão *Buscar*. Após isso, serão listadas as avaliações (nota e comentário)
     do serviço.
 
-2.  Para aprovar a avaliação do serviço, basta clicar no ícone  da mesma.
+2.  Para aprovar a avaliação do serviço, basta clicar no ícone ![Criar](images/configure-21.png) da mesma.
 
 ### Preenchimento dos campos cadastrais
 
