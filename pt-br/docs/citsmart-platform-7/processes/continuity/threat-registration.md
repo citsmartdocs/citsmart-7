@@ -32,11 +32,11 @@ figura abaixo:
     
 3. Realize a pesquisa da ameaça:
 
-- Informe o nome da ameaça que deseja pesquisar e clique no botão "Pesquisar";
+    - Informe o nome da ameaça que deseja pesquisar e clique no botão "Pesquisar";
 
-- Após isso, será exibido o registro da ameaça conforme o nome informado;
+    - Após isso, será exibido o registro da ameaça conforme o nome informado;
 
-- Caso deseje listar todos os registros de ameaça, basta clicar diretamente no botão "Pesquisar".
+    - Caso deseje listar todos os registros de ameaça, basta clicar diretamente no botão "Pesquisar".
 
 Listagem de itens
 -------------------

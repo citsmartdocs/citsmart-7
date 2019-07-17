@@ -33,10 +33,10 @@ ilustrada na figura abaixo:
     
 3. Realize a pesquisa da categoria de risco;
 
-- Informe o Nome e/ou Tag da categoria de risco que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o 
-registro da categoria conforme o(s) dado(s) informado(s);
+    - Informe o Nome e/ou Tag da categoria de risco que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o 
+    registro da categoria conforme o(s) dado(s) informado(s);
 
-- Caso deseje listar todos os registros de categoria de risco, basta clicar diretamente no botão "Pesquisar".
+    - Caso deseje listar todos os registros de categoria de risco, basta clicar diretamente no botão "Pesquisar".
 
 Listagem de itens
 -------------------
