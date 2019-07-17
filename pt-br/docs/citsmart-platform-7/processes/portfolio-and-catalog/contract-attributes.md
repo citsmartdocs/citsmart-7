@@ -166,7 +166,7 @@ Vinculando atividades de requisição ao contrato
     **Figura 3 - Tela de registro do vínculo da atividade de requisição ao
     contrato**
 
-1.  Preencha os campos conforme orientações abaixo:
+2.  Preencha os campos conforme orientações abaixo:
 
     - **Condição de Operação**: selecione o período de disponibilidade da operação
     da(s) atividade(s) de requisição. Exemplo:
@@ -270,34 +270,34 @@ Vinculando atividades de requisição ao contrato
     **Figura 6 - Painel de seleção das categorias de ocorrências e do grupo
      desejado**
 
-   !!! note "NOTA"
+    !!! note "NOTA"
 
-       Esta configuração não muda em nada o aspecto das demais funcionalidades do
-       sistema, apenas restringe alguns registros de serem visualizados por
-       usuários que não estão nos grupos liberados para a categoria de ocorrência.
+        Esta configuração não muda em nada o aspecto das demais funcionalidades do
+        sistema, apenas restringe alguns registros de serem visualizados por
+        usuários que não estão nos grupos liberados para a categoria de ocorrência.
 
-   -  Adicione a(s) atividade(s) de requisição:
+    -  Adicione a(s) atividade(s) de requisição:
 
-       -  Na seção **Requisição**, são apresentadas as atividades de requisição do
-       serviço, deixe somente as que irão serem vinculadas ao contrato;
+        -  Na seção **Requisição**, são apresentadas as atividades de requisição do
+           serviço, deixe somente as que irão serem vinculadas ao contrato;
 
-   -  Caso tenha removido uma atividade de requisição e queira vincular ela no
+    -  Caso tenha removido uma atividade de requisição e queira vincular ela no
     contrato, clique no botão *Adicionar*. Será exibida uma janela para pesquisa
     de atividades de requisição do serviço. Realize a pesquisa, selecione a
     atividade de requisição e clique no botão *Enviar* para vincular a atividade
     ao contrato.
 
-   -  Adicione o fluxo de trabalho da(s) atividade(s) de requisição:
+    -  Adicione o fluxo de trabalho da(s) atividade(s) de requisição:
 
        -  Na seção **Fluxo Serviço**, clique no botão *Adicionar* (segundo a figura
-         anterior). Será exibida uma tela para informar o fluxo da(s) atividade(s) de
-         requisição, conforme ilustrada na figura abaixo:
+          anterior). Será exibida uma tela para informar o fluxo da(s) atividade(s) de
+          requisição, conforme ilustrada na figura abaixo:
 
-   ![Criar](images/contract-attributes-7.png)
+    ![Criar](images/contract-attributes-7.png)
 
-   **Figura 7 - Fluxo de trabalho**
+    **Figura 7 - Fluxo de trabalho**
 
-   -  Selecione o fluxo que a(s) atividade(s) deverá(ão) seguir e clique no
+    -  Selecione o fluxo que a(s) atividade(s) deverá(ão) seguir e clique no
     botão *Gravar* para efetuar a operação.
 
 1.  Após informar os dados necessários, clique no botão *Gravar* para efetuar a
