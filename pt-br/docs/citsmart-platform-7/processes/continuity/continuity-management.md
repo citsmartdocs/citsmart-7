@@ -405,8 +405,8 @@ uma tarja *vermelha* informando a porcentagem de funções vitais não contempla
     
     **Figura 31 - Visualização de cenário**
     
-    -Clique na guia de **Planos de Tratativa** do risco, serão apresentados dois botões que permite utilizar a proposta de medida 
-    de recuperação como medida de recuperação e utilizar a proposta de plano de mitigação como medida de resposta;
+    - Clique na guia de **Planos de Tratativa** do risco, serão apresentados dois botões que permite utilizar a proposta de 
+    medida de recuperação como medida de recuperação e utilizar a proposta de plano de mitigação como medida de resposta;
     
     ![Planos](images/ger-cont.img32.png)
     
