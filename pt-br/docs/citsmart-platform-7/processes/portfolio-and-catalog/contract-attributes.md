@@ -371,7 +371,7 @@ Vinculando procedimento do serviço ao contrato
     guia **Procedimentos** e após isso, será apresentada a tela onde permite
     vincular o procedimento ao contrato.
 
-#### Pré-condições
+### Pré-condições
 
 1.  Para realizar o vínculo dos procedimentos ao contrato, os mesmos já devem
     estar registrados e vinculados ao serviço.
