@@ -95,7 +95,7 @@ Listagem de itens
     de **Informações do Contrato**, onde poderá realizar as configurações
     necessárias, conforme ilustrada na figura abaixo:
 
-    ![Criar](images/contract-attibutes-1.png)
+    ![Criar](images/contract-attributes-1.png)
 
     **Figura 1 - Tela de informações do contrato**
 
@@ -151,7 +151,7 @@ Vinculando atividades de requisição ao contrato
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Editar* e *Excluir*.
 
-    ![Criar](images/contract-attibutes-2.png)
+    ![Criar](images/contract-attributes-2.png)
 
     **Figura 2 - Tela de vínculo de atividade de requisição ao contrato**
 
@@ -161,7 +161,7 @@ Vinculando atividades de requisição ao contrato
     anterior). Será exibida a tela para realizar o vínculo da atividade de
     requisição, conforme ilustrada na figura abaixo:
 
-    ![Criar](images/contract-attibutes-3.png)
+    ![Criar](images/contract-attributes-3.png)
 
     **Figura 3 - Tela de registro do vínculo da atividade de requisição ao
     contrato**
@@ -250,14 +250,14 @@ Vinculando atividades de requisição ao contrato
     -  **Aplicar permissões de acesso nas ocorrências?**:** **tenha sua opção "Sim"
     selecionada, uma nova aba aparece ao lado da aba Principal:
 
-    ![Criar](images/contract-attibutes-2.png)
+    ![Criar](images/contract-attributes-4.png)
 
     **Figura 4 - Aba de permissões**
 
     -  Na guia Principal, ao clicar na nova aba uma lista de Grupos que já tiveram
     sua permissão configurada:
 
-    ![Criar](images/contract-attibutes-2.png)
+    ![Criar](images/contract-attributes-5.png)
 
     **Figura 5 - Lista de grupos vinculados com permissão configurada**
 
@@ -265,7 +265,7 @@ Vinculando atividades de requisição ao contrato
     as categorias de ocorrência surge para permitir ao Administrador marcar
     aquelas que devem ser liberadas para o Grupo selecionado:
 
-    ![Criar](images/contract-attibutes-2.png)
+    ![Criar](images/contract-attributes-6.png)
 
     **Figura 6 - Painel de seleção das categorias de ocorrências e do grupo
      desejado**
@@ -293,7 +293,7 @@ Vinculando atividades de requisição ao contrato
          anterior). Será exibida uma tela para informar o fluxo da(s) atividade(s) de
          requisição, conforme ilustrada na figura abaixo:
 
-   ![Criar](images/contract-attibutes-7.png)
+   ![Criar](images/contract-attributes-7.png)
 
    **Figura 7 - Fluxo de trabalho**
 
@@ -336,12 +336,12 @@ Vinculando atividades de incidente ao contrato
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** ID **e** Nome Incidente.**
+    funcionalidade: ID e Nome Incidente.
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Editar* e *Excluir*.
 
-    ![Criar](images/contract-attibutes-8.png)
+    ![Criar](images/contract-attributes-8.png)
 
     **Figura 8 - Tela de vínculo de atividade de incidente ao contrato**
 
@@ -351,7 +351,7 @@ Vinculando atividades de incidente ao contrato
     exibida a tela para realizar o vínculo da atividade de incidente, conforme
     ilustrada na figura abaixo:
 
-    ![Criar](images/contract-attibutes-9.png)
+    ![Criar](images/contract-attributes-9.png)
 
     **Figura 9 - Tela de registro do vínculo da atividade de incidente ao contrato**
 
@@ -393,7 +393,7 @@ Vinculando procedimento do serviço ao contrato
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Editar* e *Excluir*.
 
-    ![Criar](images/contract-attibutes-10.png)
+    ![Criar](images/contract-attributes-10.png)
 
     **Figura 10 - Tela de vínculo de procedimento ao contrato**
 
@@ -403,7 +403,7 @@ Vinculando procedimento do serviço ao contrato
     exibida a tela para realizar o vínculo do procedimento, conforme ilustrada
     na figura abaixo:
 
-    ![Criar](images/contract-attibutes-11.png)
+    ![Criar](images/contract-attributes-11.png)
 
     **Figura 11 - Tela de registro do vínculo do procedimento ao contrato**
 
@@ -423,7 +423,7 @@ Registrando custo de indisponibilidade
     após isso, será apresentada uma tela onde permite registar o custo da
     disponibilidade do contrato.
 
-    ![Criar](images/contract-attibutes-12.png)
+    ![Criar](images/contract-attributes-12.png)
 
     **Figura 12 - Tela de registro de valor da hora de indisponibilidade**
 
@@ -475,7 +475,7 @@ Vinculando acordo de disponibilidade ao contrato
     disponibilidade desejado para efetuar a operação. Feito isso, o acordo será
     vinculado ao contrato.
 
-    ![Criar](images/contract-attibutes-13.png)
+    ![Criar](images/contract-attributes-13.png)
 
     **Figura 13 - Tela de acordo de disponibilidade**
 
@@ -516,7 +516,7 @@ Vinculando calendário ao contrato
     e clique no botão *Adicionar* para efetuar a operação. Feito isso, o
     calendário será vinculado ao contrato;
 
-    ![Criar](images/contract-attibutes-14.png)
+    ![Criar](images/contract-attributes-14.png)
 
     **Figura 14 - Tela de vínculo de calendário ao contrato**
 
@@ -556,7 +556,7 @@ contratado*
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Editar* e *Excluir*;
 
-    ![Criar](images/contract-attibutes-15.png)
+    ![Criar](images/contract-attributes-15.png)
 
     **Figura 15 - Tela de vínculo de rateio**
 
@@ -566,7 +566,7 @@ contratado*
     isso, será exibida a tela de cadastro do rateio, conforme ilustrado na
     figura abaixo:
 
-    ![Criar](images/contract-attibutes-16.png)
+    ![Criar](images/contract-attributes-16.png)
 
     **Figura 16 - Tela de cadastro de rateio**
 
