@@ -35,7 +35,7 @@ Filtros
 
     -   Situação.
 
-1.  Na tela de **Clientes**, clique na aba **Pesquisa, **será apresentada a tela
+1.  Na tela de **Clientes**, clique na aba **Pesquisa**, será apresentada a tela
     de **Pesquisa de Clientes**, conforme ilustrada na figura abaixo:
 
     ![Criar](images/client-1.png)
