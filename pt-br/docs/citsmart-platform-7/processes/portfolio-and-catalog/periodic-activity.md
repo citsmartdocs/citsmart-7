@@ -39,11 +39,11 @@ Filtros
 
 1.  Realize a pesquisa do grupo de atividade periódica:
 
-2.  Informe o nome do grupo de atividade periódica e clique no
+    - Informe o nome do grupo de atividade periódica e clique no
     botão *Pesquisar*. Após isso, será exibido o registro conforme o nome
     informado.
 
-    -   Caso deseje visualizar todos os registros de grupo de atividade
+    - Caso deseje visualizar todos os registros de grupo de atividade
         periódica, basta clicar diretamente no botão *Pesquisar*.
 
 Listagem de itens
