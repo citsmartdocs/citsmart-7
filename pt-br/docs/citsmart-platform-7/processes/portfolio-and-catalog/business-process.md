@@ -63,7 +63,7 @@ Listagem de itens
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Nome **e** Cliente**, conforme a figura abaixo:
+    funcionalidade: Nome e Cliente, conforme a figura abaixo:
 
     ![Criar](images/okta.img1.png)
 
