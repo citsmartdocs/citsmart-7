@@ -1,5 +1,5 @@
 title: Configuração dos atributos do serviço
-Description: As orientações descritas neste “conhecimento” poderão ser seguidas
+Description: As orientações descritas neste documento poderão ser seguidas
 para configurar os atributos tanto do *Serviço de Negócio/TI* quanto do *Serviço
 de Apoio/Técnico*.
 
