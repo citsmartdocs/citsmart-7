@@ -41,7 +41,7 @@ Listagem de itens
     identificação dos itens desejados na listagem padrão da
     funcionalidade:** Causa **e** Data inicial.**
 
-    ![Criar](images/cause-incident-1.png)
+    ![Criar](images/cause-incident-2.png)
 
     **Figura 2 - Tela de causa de incidentes**
 
