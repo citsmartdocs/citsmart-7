@@ -89,19 +89,19 @@ Preenchimento de campos cadastrais
 
     a)  **Tipo de Acordo/Contrato**: selecione o tipo de acordo/contrato;
 
-        -   **Contrato**: refere-se ao contrato entre a empresa contratante e a
+       -  **Contrato**: refere-se ao contrato entre a empresa contratante e a
         empresa prestadora de serviços. Ao selecionar esse tipo, serão
         disponibilizados no campo "fornecedor" somente os fornecedores do tipo
         "provedor de serviços" e no campo "cliente" somente os clientes do tipo
         "externo" para seleção.
 
-        -   **Acordo de Nível Operacional**: refere-se ao acordo interno entre os
+       -  **Acordo de Nível Operacional**: refere-se ao acordo interno entre os
         departamentos da mesma empresa. A selecionar esse tipo, serão
         disponibilizados no campo "fornecedor" somente os fornecedores tipo
         "interno" e no campo "cliente" somente os clientes do tipo "interno"
         para seleção.
 
-        -   **Contrato de Apoio**: refere-se ao contrato entre a empresa provedora
+       -  **Contrato de Apoio**: refere-se ao contrato entre a empresa provedora
         de serviços e um terceiro, fornecedor externo. Ao selecionar esse tipo,
         serão disponibilizados no campo "fornecedor" somente os fornecedores do
         tipo "externo" e no campo "cliente" somente os clientes do tipo
