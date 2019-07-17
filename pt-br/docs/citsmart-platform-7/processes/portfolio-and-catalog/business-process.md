@@ -127,7 +127,7 @@ Preenchimento dos campos cadastrais
         -   Para excluir o vínculo da unidade com o processo de negócio, basta
             clicar no ícone ![Criar](images/business-4.png)  da mesma.
 
-Após informar os dados, clique no botão *Gravar* para efetuar o registro, onde a
+3.  Após informar os dados, clique no botão *Gravar* para efetuar o registro, onde a
 data, hora e usuário serão gravados automaticamente para uma futura auditoria.
 
 !!! tip "About"
