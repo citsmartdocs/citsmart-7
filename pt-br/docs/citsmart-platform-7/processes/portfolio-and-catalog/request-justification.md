@@ -48,6 +48,8 @@ Listagem de itens
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Editar* e *Excluir*.
 
+![Criar](images/justification-2.png)
+
 **Figura 2 - Listagem de justificativa de solicitação**
 
 Preenchimento dos campos cadastrais
@@ -58,7 +60,7 @@ Preenchimento dos campos cadastrais
 2.  Clique no botão *Novo*. Feito isso, será apresentada a tela de **Cadastro de
     Justificativa de Solicitação**, conforme ilustrada na figura a seguir:
 
-    ![Criar](images/justification-2.png)
+    ![Criar](images/justification-3.png)
 
     **Figura 3 - Tela de cadastro de justificativa de solicitação**
 
