@@ -12,8 +12,8 @@ Como acessar
 ------------
 
 1.  Acesse a funcionalidade de Grupo de Atividade Periódica através da navegação
-    no menu principal **Processos ITIL → Gerência de Portfólio e
-    Catálogo → Grupo Ativ. Periódica.**
+    no menu principal **Processos ITIL > Gerência de Portfólio e
+    Catálogo > Grupo Ativ. Periódica**.
 
 Pré-condições
 -------------
@@ -27,7 +27,7 @@ Filtros
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados, conforme ilustrado na figura abaixo:
 
--   Nome.
+    -   Nome.
 
 1.  Na tela de Grupo de Atividade Periódica, clique na guia
     de **Pesquisa**. Será apresentada a tela de pesquisa, conforme ilustrada na
