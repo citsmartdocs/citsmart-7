@@ -174,7 +174,7 @@ Vinculando atividades de requisição ao contrato
        -  **24 x 7**: 24 horas por dia, 7 dias por semana, ou seja, serviço disponível
     o tempo todo, sem interrupção;
 
-       -  **Horário Comercial: **disponível de segunda-feira à sexta-feira de 8:00 às
+       -  **Horário Comercial**: disponível de segunda-feira à sexta-feira de 8:00 às
     18:00.
 
     -  **Data de Início**: informe a data inicial da atividade de requisição no
