@@ -163,7 +163,7 @@ fase inicial, com status de "Definição".
 
 1.  Preencha os campos conforme orientações abaixo:
 
-2.  Informe os dados gerais:
+a)  Informe os dados gerais:
 
     -   **Data de criação**: informe a data de criação dos requisitos;
 
@@ -171,7 +171,7 @@ fase inicial, com status de "Definição".
 
     -   **Dono do Serviço**: informe o responsável pelo serviço.
 
-3.  Informe os dados referente a utilidade do serviço:
+b)  Informe os dados referente a utilidade do serviço:
 
     -   **Especificação**: descreva as especificações do serviço;
 
@@ -180,7 +180,7 @@ fase inicial, com status de "Definição".
     -   **Funcionalidades Essenciais**: descreva as funcionalidades essenciais
         do serviço.
 
-4.  Informe os dados referente a garantia do serviço:
+c)  Informe os dados referente a garantia do serviço:
 
     -   **Segurança**: descreva a segurança do serviço;
 
@@ -195,7 +195,7 @@ fase inicial, com status de "Definição".
 
     -   **Interrupções Planejadas**: descreva as interrupções planejadas.
 
-5.  Informe os dados referente ao suporte do serviço:
+d)  Informe os dados referente ao suporte do serviço:
 
     -   **Gestão de Incidentes**: descreva sobre a gestão de incidentes
         referente ao serviço;
@@ -206,15 +206,15 @@ fase inicial, com status de "Definição".
     -   **Gestão de Mudanças**: descreva sobre a gestão de mudanças referente ao
         serviço.
 
-6.  Informe os dados da conformidade do serviço:
+e)  Informe os dados da conformidade do serviço:
 
     -   **Interna**: descreva a conformidade do serviço interno;
 
     -   **Externa**: descreva sobre a conformidade do serviço externo.
 
-7.  Caso queira anexar um arquivo, clique na aba **Documento Anexos**.
+f)  Caso queira anexar um arquivo, clique na aba **Documento Anexos**.
 
-8.  Após o preenchimento dos campos com as informações necessárias, clique no
+3.  Após o preenchimento dos campos com as informações necessárias, clique no
     botão *Gravar* para efetuar o registro de requisitos de nível de serviço.
 
 Registrando os atributos financeiros
