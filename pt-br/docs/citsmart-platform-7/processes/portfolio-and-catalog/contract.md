@@ -274,7 +274,7 @@ Vinculando grupos de usuários
     em *Adicionar*. Feito isso, será exibida a tela para vincular grupo(s) de
     colaboradores(s) ao contrato, conforme ilustrada na figura abaixo:
 
-    ![Criar](images/contract-3.png)
+    ![Criar](images/contract-7.png)
 
     **Figura 7 - Informações complementares - Vínculo de grupos**
 
