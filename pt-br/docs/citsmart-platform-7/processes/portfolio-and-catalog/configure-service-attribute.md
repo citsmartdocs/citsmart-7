@@ -366,7 +366,7 @@ Vinculando processo de negócio ao serviço
     tela, basta clicar no botão *Novo Processo de Negócio*.
 
 3.  Após o vínculo do processo de negócio ao serviço, o mesmo será apresentado
-    na tela de** **processos de negócio do serviço.
+    na tela de processos de negócio do serviço.
 
 4.  Para visualizar os dados do processo de negócio, basta clicar no
     botão *Visualizar* do mesmo.
@@ -397,7 +397,7 @@ Vinculando o dono do negócio ao serviço
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade: **ID**, **Nome, Tipo**.
+    funcionalidade: ID, Nome, Tipo.
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Desvincular*.
@@ -443,7 +443,7 @@ Vinculando usuário do negócio ao serviço
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade: **ID**, **Nome **e** Descrição**.
+    funcionalidade: ID, Nome e Descrição.
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Desvincular*.
@@ -460,7 +460,7 @@ Vinculando usuário do negócio ao serviço
 2.  Caso o "usuário do negócio" seja um ou mais grupos, clique no
     botão *Vincular grupo de usuário* para vincular o(s) grupo(s) ao serviço.
     Feito isso, será exibida a tela para pesquisa de grupos. Realize a pesquisa,
-    selecione o(s) grupo(s) e clique no botão *Enviar*para efetuar o vínculo.
+    selecione o(s) grupo(s) e clique no botão *Enviar* para efetuar o vínculo.
 
 3.  Para excluir o vínculo do usuário do negócio com o serviço, basta clicar no
     botão *Desvincular* do mesmo.
@@ -488,10 +488,10 @@ Vinculando serviço de apoio / técnico
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** ID, Nome Serviço de Apoio, Fase **e** Status do Serviço.**
+    funcionalidade: ID, Nome Serviço de Apoio, Fase e Status do Serviço.
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e* Desvincular*.
+    listagem, são eles: *Editar* e *Desvincular*.
 
     ![Criar](images/configure-8.png)
 
@@ -603,7 +603,7 @@ Vinculando aplicações ao serviço
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** ID, Nome e Nome Responsável.**
+    funcionalidade: ID, Nome e Nome Responsável.
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Editar* e *Desvincular*.
@@ -624,7 +624,7 @@ Vinculando aplicações ao serviço
     botão *Editar* da mesma.
 
 4.  Para excluir o vínculo da aplicação com o serviço, basta clicar no
-    botão *Desvincular*** **do mesmo.
+    botão *Desvincular* do mesmo.
 
 ### Preenchimento dos campos cadastrais
 
@@ -684,7 +684,7 @@ Filtros
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** ID, Descrição do Contrato, Cliente **e** Fornecedor.**
+    funcionalidade: ID, Descrição do Contrato, Cliente e Fornecedor.
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Editar*, *Desvincular* e *Avançar*.
@@ -716,7 +716,7 @@ Filtros
     uma futura auditoria.
 
 4.  Para excluir o vínculo do contrato com o serviço, basta clicar no
-    botão *Desvincular*** **do mesmo.
+    botão *Desvincular* do mesmo.
 
 5.  Para configurar os atributos do contrato do serviço, clique no
     botão *Avançar* do mesmo.
@@ -748,7 +748,7 @@ Vinculando proprietários de ti ao serviço
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** ID, Nome e Tipo**.
+    funcionalidade: **ID, Nome e Tipo**.
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Desvincular* .
@@ -768,7 +768,7 @@ Vinculando proprietários de ti ao serviço
     vínculo.
 
 3.  Para excluir o vínculo do usuário ou grupo com o serviço, basta clicar no
-    botão *Desvincular*** **do mesmo.
+    botão *Desvincular* do mesmo.
 
 ### Preenchimento dos campos cadastrais
 
@@ -793,7 +793,7 @@ Vinculando conhecimento ao serviço
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** ID **e** Título.**
+    funcionalidade: **ID e Título.**
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Desvincular*.
@@ -812,7 +812,7 @@ Vinculando conhecimento ao serviço
     conhecimentos desejados e clique botão *Enviar* para efetuar o vínculo.
 
 2.  Para excluir o vínculo do conhecimento com o serviço, basta clicar no
-    botão *Desvincular*** **do mesmo.
+    botão *Desvincular* do mesmo.
 
 ### Preenchimento dos campos cadastrais
 
@@ -856,7 +856,7 @@ Vinculando habilidades ao serviço
     dos campos.
 
 3.  Para excluir o vínculo da habilidade com o serviço, basta clicar no
-    botão *Desvincular*** **do registro da mesma.
+    botão *Desvincular* do registro da mesma.
 
 ### Preenchimento dos campos cadastrais
 
@@ -884,7 +884,7 @@ ao serviço.
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** ID **e** Nome Serviço de Procedimento.**
+    funcionalidade: **ID e Nome Serviço de Procedimento**.
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Editar* e *Desvincular*.
@@ -956,7 +956,7 @@ ao serviço.
     logo em seguida clique no botão *Excluir*.
 
 5.  Para desvincular a procedimento do serviço, basta clicar no
-    botão *Desvincular*** **do mesmo.
+    botão *Desvincular* do mesmo.
 
 6.  Para vincular novamente um procedimento ao serviço, clique no
     botão *Vincular Serviço de Procedimento*. Feito isso, será exibida a tela
@@ -982,8 +982,8 @@ Administração das avaliações do serviço
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** ID, Usuário, Nota Avaliação, Comentário,
-    Aprovado **e** Data Criação.**
+    funcionalidade: **ID, Usuário, Nota Avaliação, Comentário,
+    Aprovado e Data Criação**.
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Excluir* e *Aprovar Avaliação*.
