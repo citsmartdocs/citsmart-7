@@ -15,7 +15,7 @@ mais baixa.
 Como acessar
 -----------
 
-1.  Acesse a funcionalidade de Prioridade** **através da navegação no menu
+1.  Acesse a funcionalidade de Prioridade através da navegação no menu
     principal **Processos ITIL > Gerência de Portfólio e Catálogo > Prioridade**.
 
 Pré-condições
