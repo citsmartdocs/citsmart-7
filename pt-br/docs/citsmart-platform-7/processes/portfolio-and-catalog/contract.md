@@ -18,6 +18,7 @@ Como acessar
     Catálogo > Cadastro de Contratos**.
 
 Pré-condições
+------------
 
 1.  Ter o fornecedor cadastrado (ver conhecimento [Cadastro e pesquisa de
     fornecedor]();
@@ -33,6 +34,7 @@ Pré-condições
     operação]().
 
 Filtros
+-------
 
 1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
     itens na listagem padrão da funcionalidade, facilitando a localização dos
