@@ -61,7 +61,7 @@ Listagem de itens
     selecionado.
 
 2.  Para alterar os dados do registro de tipo de serviço, basta modificar as
-    informações dos campos desejados e clicar no botão *Gravar*para que seja
+    informações dos campos desejados e clicar no botão *Gravar* para que seja
     gravada a alteração realizada no registro, onde a data, hora e usuário serão
     gravados automaticamente para uma futura auditoria.
 
