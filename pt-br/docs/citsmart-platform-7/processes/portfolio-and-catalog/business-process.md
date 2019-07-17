@@ -12,7 +12,7 @@ serviços de TI.
 Como acessar
 ------------
 
-1.  Acesse a funcionalidade de processo de negócio** **através da navegação no
+1.  Acesse a funcionalidade de processo de negócio através da navegação no
     menu principal **Processos ITIL > Gerência de Portfólio e
     Catálogo > Processo de Negócio**.
 
