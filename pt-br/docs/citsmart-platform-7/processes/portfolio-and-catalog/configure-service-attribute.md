@@ -163,56 +163,56 @@ fase inicial, com status de "Definição".
 
 1.  Preencha os campos conforme orientações abaixo:
 
-a)  Informe os dados gerais:
+    a)  Informe os dados gerais:
 
-    -   **Data de criação**: informe a data de criação dos requisitos;
+      -  **Data de criação**: informe a data de criação dos requisitos;
 
-    -   **Data de início do Serviço**: informe a data de início do serviço;
+      -  **Data de início do Serviço**: informe a data de início do serviço;
 
-    -   **Dono do Serviço**: informe o responsável pelo serviço.
+      -  **Dono do Serviço**: informe o responsável pelo serviço.
 
-b)  Informe os dados referente a utilidade do serviço:
+    b)  Informe os dados referente a utilidade do serviço:
 
-    -   **Especificação**: descreva as especificações do serviço;
+      -   **Especificação**: descreva as especificações do serviço;
 
-    -   **Contexto**: descreva o contexto do serviço;
+      -   **Contexto**: descreva o contexto do serviço;
 
-    -   **Funcionalidades Essenciais**: descreva as funcionalidades essenciais
+      -   **Funcionalidades Essenciais**: descreva as funcionalidades essenciais
         do serviço.
 
-c)  Informe os dados referente a garantia do serviço:
+    c)  Informe os dados referente a garantia do serviço:
 
-    -   **Segurança**: descreva a segurança do serviço;
+      -   **Segurança**: descreva a segurança do serviço;
 
-    -   **Disponibilidade**: descreva a disponibilidade do serviço;
+      -   **Disponibilidade**: descreva a disponibilidade do serviço;
 
-    -   **Capacidade**: descreva a capacidade do serviço;
+      -   **Capacidade**: descreva a capacidade do serviço;
 
-    -   **Continuidade de Negócio**: descreva a continuidade de negócio do
+      -   **Continuidade de Negócio**: descreva a continuidade de negócio do
         serviço;
 
-    -   **Performance/Desempenho**: descreva o desempenho do serviço;
+      -   **Performance/Desempenho**: descreva o desempenho do serviço;
 
-    -   **Interrupções Planejadas**: descreva as interrupções planejadas.
+      -   **Interrupções Planejadas**: descreva as interrupções planejadas.
 
-d)  Informe os dados referente ao suporte do serviço:
+    d)  Informe os dados referente ao suporte do serviço:
 
-    -   **Gestão de Incidentes**: descreva sobre a gestão de incidentes
+      -   **Gestão de Incidentes**: descreva sobre a gestão de incidentes
         referente ao serviço;
 
-    -   **Gestão de Problemas**: descreva sobre a gestão de problemas referente
+      -   **Gestão de Problemas**: descreva sobre a gestão de problemas referente
         ao serviço;
 
-    -   **Gestão de Mudanças**: descreva sobre a gestão de mudanças referente ao
+      -   **Gestão de Mudanças**: descreva sobre a gestão de mudanças referente ao
         serviço.
 
-e)  Informe os dados da conformidade do serviço:
+    e)  Informe os dados da conformidade do serviço:
 
-    -   **Interna**: descreva a conformidade do serviço interno;
+      -   **Interna**: descreva a conformidade do serviço interno;
 
-    -   **Externa**: descreva sobre a conformidade do serviço externo.
+      -   **Externa**: descreva sobre a conformidade do serviço externo.
 
-f)  Caso queira anexar um arquivo, clique na aba **Documento Anexos**.
+    f)  Caso queira anexar um arquivo, clique na aba **Documento Anexos**.
 
 3.  Após o preenchimento dos campos com as informações necessárias, clique no
     botão *Gravar* para efetuar o registro de requisitos de nível de serviço.
