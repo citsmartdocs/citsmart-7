@@ -31,7 +31,7 @@ Filtros
 1.  Na tela de Template de Serviço, clique na guia **Pesquisa de Template**.
     Será apresentada a tela de pesquisa conforme ilustrada na figura abaixo:
 
-    ![Criar](images/teplate-service-1.png)
+    ![Criar](images/template-service-1.png)
 
     **Figura 1 - Tela de pesquisa de template de serviço**
 
@@ -51,7 +51,7 @@ Listagem de itens
     identificação dos itens desejados na listagem padrão da
     funcionalidade:** Identificador **e** Nome do template de serviço.**
 
-    ![Criar](images/teplate-service-2.png)
+    ![Criar](images/template-service-2.png)
 
     **Figura 2 - Lista de template de serviço**
 
@@ -69,7 +69,7 @@ Preenchimento dos campos cadastrais
 1.  Será apresentada a tela de Template de Serviço, conforme ilustrada na figura
     abaixo:
 
-    ![Criar](images/teplate-service-3.png)
+    ![Criar](images/template-service-3.png)
 
     **Figura 3 - Tela de Cadastro de Template de Serviço**
 
