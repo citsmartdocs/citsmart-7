@@ -65,14 +65,14 @@ Registrando continuidade de serviço
     
     ![número](images/num5.png) **Avançar Continuidade**: permite acessar a continuidade de serviços.
     
-- Para alterar os dados do registro de continuidade de serviço, clique no botão "Editar", altere os dados e clique em "Salvar"
-para fazer a alteração, onde a data, a hora e o usuário serão salvos automaticamente para uma auditoria futura.
+    - Para alterar os dados do registro de continuidade de serviço, clique no botão "Editar", altere os dados e clique em
+    "Salvar" para fazer a alteração, onde a data, a hora e o usuário serão salvos automaticamente para uma auditoria futura.
 
-- Para excluir o registro de continuidade do serviço, selecione a continuidade do serviço desejada, clique em "Editar" e, em 
-seguida, clique no botão "Excluir" dados para executar a operação.
+    - Para excluir o registro de continuidade do serviço, selecione a continuidade do serviço desejada, clique em "Editar" e, em 
+    seguida, clique no botão "Excluir" dados para executar a operação.
 
-- Após registrar a continuidade, clique no botão "Avançar" para acessá-la. A tela Gerenciamento de Continuidade de Serviço será 
-então exibida.
+    - Após registrar a continuidade, clique no botão "Avançar" para acessá-la. A tela Gerenciamento de Continuidade de Serviço
+    será então exibida.
 
 Iniciação
 -----------
@@ -170,7 +170,7 @@ gravados automaticamente para uma futura auditoria;
 Definindo projeto
 -------------------
 
-1. Na tela de **Gerenciamento de Continuidade**, na fase de **Iniciação*8, clique na guia **Projeto**. Feito isso, será 
+1. Na tela de **Gerenciamento de Continuidade**, na fase de **Iniciação**, clique na guia **Projeto**. Feito isso, será 
 apresentada a tela de definição do projeto, conforme ilustrada na figura abaixo:
 
     ![Vínculo](images/ger-cont.img11.png)
@@ -286,7 +286,7 @@ abaixo:
     
     **Figura 19 - Tela de adição de cenário**
     
-2. Clique no botão Adicionar Cenário. Feito isso, será apresentado o cenário na tela, clique no 
+2. Clique no botão "Adicionar Cenário". Feito isso, será apresentado o cenário na tela, clique no 
 ícone ![simbolo](images/simb-mais.cinza.png) do mesmo para registro das características, conforme ilustrado na figura abaixo:
 
     ![Registro](images/ger-cont.img20.png)
