@@ -11,8 +11,8 @@ Como acessar
 ------------
 
 1.  Acesse a funcionalidade de Tipo de Serviço através da navegação no menu
-    **principal Processos ITIL → Gerência de Portfólio e Catálogo → Tipo
-    Serviço.**
+    principal **Processos ITIL > Gerência de Portfólio e Catálogo > Tipo
+    Serviço**.
 
 Pré-condições
 -------------
@@ -50,7 +50,7 @@ Listagem de itens
 
 1.  O seguinte campo cadastral está disponível ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** Nome do Tipo Serviço**.
+    funcionalidade: **Nome do Tipo Serviço**.
 
     ![Criar](images/type-service-2.png)
 
