@@ -185,7 +185,7 @@ acordado no contrato entre o provedor de serviços e o cliente.
     clique no botão *Novo*. Feito isso, será exibida a tela para cadastro do
     acordo de nível de serviço, conforme ilustrada na figura abaixo:
 
-  ![Criar](images/contract-3.png)  
+  ![Criar](images/contract-4.png)  
 
    **Figura 4 - Informações complementares – Registro de Acordo de Nível de Serviço
     do contrato**
