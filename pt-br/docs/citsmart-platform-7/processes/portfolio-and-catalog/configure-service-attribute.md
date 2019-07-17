@@ -672,7 +672,7 @@ Vinculando contratos ao serviço
 
 1.  Clique em **Contratos**.
 
-Filtros
+### Filtros
 
 1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
     na listagem padrão da funcionalidade, facilitando a localização dos itens
