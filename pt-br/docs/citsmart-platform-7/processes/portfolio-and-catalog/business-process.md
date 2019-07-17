@@ -45,7 +45,7 @@ Filtros
     Negócio**. Será apresentada a respectiva tela de pesquisa, conforme
     ilustrada na figura abaixo:
 
-    ![Criar](images/okta.img1.png)
+    ![Criar](images/business-1.png)
 
     **Figura 1 - Tela de pesquisa de processo de negócio**
 
@@ -65,7 +65,7 @@ Listagem de itens
     identificação dos itens desejados na listagem padrão da
     funcionalidade: Nome e Cliente, conforme a figura abaixo:
 
-    ![Criar](images/okta.img1.png)
+    ![Criar](images/business-2.png)
 
     **Figura 2 - Tela de itens**
 
@@ -83,7 +83,7 @@ Preenchimento dos campos cadastrais
 1.  Será apresentada a tela de **Cadastro de Processo de Negócio**, conforme
     ilustrada na figura abaixo:
 
-    ![Criar](images/okta.img1.png)
+    ![Criar](images/business-3.png)
 
     **Figura 3 - Tela de cadastro de processo de negócio**
 
@@ -125,7 +125,7 @@ Preenchimento dos campos cadastrais
             em *Enviar* para vínculo da(s) unidade(s) ao processo de negócio.
 
         -   Para excluir o vínculo da unidade com o processo de negócio, basta
-            clicar no ícone   da mesma.
+            clicar no ícone ![Criar](images/business-4.png)  da mesma.
 
 Após informar os dados, clique no botão *Gravar* para efetuar o registro, onde a
 data, hora e usuário serão gravados automaticamente para uma futura auditoria.
