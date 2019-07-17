@@ -31,7 +31,7 @@ Filtros
 1.  Na tela Condição de operação, clique na guia **Pesquisa Condição de
     Operação**.
 
-    ![Criar](images/condition-operation-1.png)
+    ![Criar](images/condition-1.png)
 
     **Figura 1 - Tela de pesquisa de condição de operação**
 
@@ -51,7 +51,7 @@ Listagem de itens
     identificação dos itens desejados na listagem padrão da
     funcionalidade:** Nome.**
 
-    ![Criar](images/condition-operation-2.png)
+    ![Criar](images/condition-2.png)
 
     **Figura 2 -Listagem de condição de operação**
 
@@ -64,7 +64,7 @@ Preenchimento dos campos cadastrais
 
 1.  Será apresentada a tela de Condição de Operação, conforme abaixo:
 
-    ![Criar](images/condition-operation-3.png)
+    ![Criar](images/condition-3.png)
 
     **Figura 3 - Tela de cadastro de condição de operação**
 
