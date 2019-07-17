@@ -99,4 +99,4 @@ Preenchimento dos campos cadastrais
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/15/2019 – Anna Martins
+    <b>Updated:</b>07/17/2019 – Anna Martins
