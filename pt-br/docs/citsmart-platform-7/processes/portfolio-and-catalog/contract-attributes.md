@@ -62,9 +62,9 @@ Configurando os atributos do contrato
 
 ### Como acessar
 
-1.  Acesse a funcionalidade através da navegação no menu principal** Processos
-    ITIL → Gerência de Portfólio e Catálogo →Gerenciamento de Portfólio e
-    Catálogo.**
+1.  Acesse a funcionalidade através da navegação no menu principal Processos
+    ITIL > Gerência de Portfólio e Catálogo > Gerenciamento de Portfólio e
+    Catálogo.
 
 2.  Acesse o menu principal. Após isso, será apresentada a tela de Gerenciamento
     de Portfólio de Serviços;
