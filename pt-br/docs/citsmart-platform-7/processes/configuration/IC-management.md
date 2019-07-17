@@ -268,10 +268,10 @@ Consultando os itens de configuração
 
 1. Na tela de **Gerenciamento de Itens de Configuração**, é permitido realizar consultas de ICs nas seguintes formas:
 
-- **Por processo**: permite visualizar os itens de configuração relacionados com os processos: Incidente, Problema, Mudança 
-e Liberação;
-- **Por grupo**: permite visualizar os itens de configuração de um determinado grupo;
-- **Por filtros**: permite visualizar os itens de configuração de acordo com o filtro informado.
+    - **Por processo**: permite visualizar os itens de configuração relacionados com os processos: Incidente, Problema, Mudança 
+    e Liberação;
+    - **Por grupo**: permite visualizar os itens de configuração de um determinado grupo;
+    - **Por filtros**: permite visualizar os itens de configuração de acordo com o filtro informado.
 
 Consultando IC's por processo
 -------------------------------
@@ -415,8 +415,8 @@ Após a consulta, clique sobre o item de configuração. Será apresentada a tel
 Verificando os processos (requisição, incidente, problemas, mudanças, liberação e base de conhecimento) relacionados ao IC
 ----------------------------------------------------------------------------------------------------------------------------
 
-1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item Consultando os Itens de Configuração. Após
-a consulta, clique sobre o Item de Configuração. Será apresentada a tela de informações do determinado Item de Configuração.
+1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**. 
+Após a consulta, clique sobre o Item de Configuração. Será apresentada a tela de informações do determinado Item de Configuração.
 Nessa tela é apresentado a quantidade de requisições, incidentes, problemas, mudanças, liberações e conhecimentos relacionados 
 ao IC, conforme exemplo ilustrado na figura abaixo:
 
@@ -428,7 +428,7 @@ ao IC, conforme exemplo ilustrado na figura abaixo:
 
 3. Para verificar os incidentes relacionados ao IC, basta clicar na guia **Incidentes**.
 
-4.Para verificar os problemas relacionados ao IC, basta clicar na guia **Problemas**.
+4. Para verificar os problemas relacionados ao IC, basta clicar na guia **Problemas**.
 
 5. Para verificar as requisições de mudanças relacionadas ao IC, basta clicar na guia **Mudanças**.
 
@@ -688,7 +688,7 @@ com o período informado, permitindo realizar a auditoria.
 Verificando o histórico do item de configuração
 -------------------------------------------------
 
-1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item ** Consultando os Itens de Configuração**. 
+1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**. 
 Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
 
 2. Clique na guia de **Histórico**, conforme indicado na figura abaixo:
@@ -701,7 +701,7 @@ Após a consulta, clique sobre o item de configuração. Será apresentada a tel
 
     ![IC](images/geren-IC.img54.png)
     
-    **Figura 54 - Histórico de item de configuração (IC)*
+    **Figura 54 - Histórico de item de configuração (IC)**
     
 4. O item de configuração poderá ter um ou mais ponto de restauração *(baselines)* gerado. E para gerar um ponto de restauração, 
 basta clicar no botão "Gerar Ponto de Restauração".
