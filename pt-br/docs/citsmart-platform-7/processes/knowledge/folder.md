@@ -73,18 +73,18 @@ Preenchimento dos campos cadastrais
 -   **Perfil de Acesso**: permite selecionar os perfis que terão acesso à pasta,
     permitindo configurar:
 
-    -   **Permissão: **define se o perfil pode fazer Leitura ou Leitura/
+    -   **Permissão**: define se o perfil pode fazer Leitura ou Leitura/
         Gravação
 
-    -   **Pode publicar: **define se o usuário pode ou não publicar
+    -   **Pode publicar**: define se o usuário pode ou não publicar
 
--   **Grupo: **seleciona os grupos que terão a pasta, clicando no botão
+-   **Grupo**: seleciona os grupos que terão a pasta, clicando no botão
     Adicionar. Permite a reunião de mais de um perfil/grupo em um só:
 
-    -   **Permissão: **define se o perfil pode fazer Leitura ou Leitura/
+    -   **Permissão**: define se o perfil pode fazer Leitura ou Leitura/
         Gravação
 
-    -   **Pode publicar: **define se o usuário pode ou não publicar
+    -   **Pode publicar**: define se o usuário pode ou não publicar
 
 !!! info "IMPORTANTE"
 
