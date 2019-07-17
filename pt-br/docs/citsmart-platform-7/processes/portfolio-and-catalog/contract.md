@@ -126,9 +126,9 @@ Preenchimento de campos cadastrais
 
     i) **Moeda**: selecione a moeda;
 
-        -   **Real**: moeda corrente oficial do Brasil;
+       -  **Real**: moeda corrente oficial do Brasil;
 
-        -   **UST**:** **Unidade Serviço Técnico, quantificação monetária relativa aos
+       -  **UST**:** **Unidade Serviço Técnico, quantificação monetária relativa aos
     serviços utilizados em determinados contratos públicos federais, conforme
     IN04, ou outras que porventura possam servir de métricas para a valoração de
     serviço.
@@ -187,40 +187,40 @@ acordado no contrato entre o provedor de serviços e o cliente.
 
   ![Criar](images/contract-3.png)  
 
-    **Figura 4 - Informações complementares – Registro de Acordo de Nível de Serviço
+   **Figura 4 - Informações complementares – Registro de Acordo de Nível de Serviço
     do contrato**
 
-    -   **Descrição do Acordo**: descreva o que foi acordado no contrato, de forma
+   -  **Descrição do Acordo**: descreva o que foi acordado no contrato, de forma
     macro. Exemplo: Disponibilidade mensal de atendimentos aos serviços
     críticos;
 
-    -   **Data início**: informe a data de início do acordo. Essa data pode
+   -  **Data início**: informe a data de início do acordo. Essa data pode
         divergir com a data do contrato em si, pois acordos podem ser inseridos
         posteriormente;
 
-    -   **Data fim**: informe a data prevista para o final do acordo;
+   -  **Data fim**: informe a data prevista para o final do acordo;
 
-    -   **Valor Limite**: informe o valor limite para glosa. Esse valor pode ser
+   -  **Valor Limite**: informe o valor limite para glosa. Esse valor pode ser
         um percentual de atendimento ou quantidade de eventos. Exemplo: o
         serviço deve alcançar mensalmente 99,7 % de disponibilidade ou podem
         ocorrer no mês até 4 incidentes causados pela organização contratada. O
         excedente deste limite será penalizado com o valor especificado na
         Descrição de Glosa.
 
-    -   **Unidade do Valor Limite**: informe a unidade do valor limite para
+   -  **Unidade do Valor Limite**: informe a unidade do valor limite para
         glosa. Exemplo: percentual ou quantidade de eventos;
 
-    -   **Detalhamento do Acordo**:descreva os detalhes do que foi acordado
+   -  **Detalhamento do Acordo**:descreva os detalhes do que foi acordado
         no contrato. Exemplo: A disponibilidade de uso para os serviços críticos
         deve ser de 24x7;
 
-    -   **Descrição da Glosa**: descreva os percentuais a serem pagos sobre o
+   -  **Descrição da Glosa**: descreva os percentuais a serem pagos sobre o
         valor do contrato no caso do não cumprimento do acordo. Exemplo: 0,5% de
         glosa para cada décimo de falha no serviço ou 0,2% para cada falha de
         notificação superior à meta até 10 ocorrências, 0,5% até 20 ocorrências,
         etc.
 
-    -   Após informar os dados necessários, clique em *Adicionar* para adicionar
+   -  Após informar os dados necessários, clique em *Adicionar* para adicionar
         o acordo de nível de serviço ao contrato.
 
 Vinculando visão de complexidade do contrato
@@ -314,20 +314,20 @@ quais stakeholders, em que frequência (quando) e por qual meio (como).
 
     **Figura 9 - Informações complementares - Registro de matriz de comunicação**
 
-    -   **Grupo envolvido**: informe o grupo que deve receber a informação. Exemplo:
+-   **Grupo envolvido**: informe o grupo que deve receber a informação. Exemplo:
     usuários, *stakeholders, *fornecedores, patrocinadores, etc.;
 
-    -   **Responsabilidades**: informe os responsáveis pela informação. Exemplo:
+-   **Responsabilidades**: informe os responsáveis pela informação. Exemplo:
         gerente de projeto, analista de sistemas, etc.;
 
-    -   **Tipo de registo**: selecione o tipo de registro que deverá ser
+-   **Tipo de registo**: selecione o tipo de registro que deverá ser
         comunicado;
 
-    -   **Frequência**: informe quando que deve ocorrer a comunicação;
+-   **Frequência**: informe quando que deve ocorrer a comunicação;
 
-    -   **Forma de contato**: selecione o meio de comunicação;
+-   **Forma de contato**: selecione o meio de comunicação;
 
-    -   Após os dados informados, clique no botão *Adicionar* para adição da
+-   Após os dados informados, clique no botão *Adicionar* para adição da
         matriz de comunicação ao contrato.
 
 Vinculando fórmula do contrato
@@ -377,10 +377,10 @@ Vinculando anexos
 
     **Figura 12 - Informações complementares - Anexo de arquivos**
 
-    -   Informe a descrição do anexo, clique no botão *Adicionar Arquivo* e
+    -  Informe a descrição do anexo, clique no botão *Adicionar Arquivo* e
     selecione o arquivo desejado;
 
-    -   Após isso, será adicionado o arquivo ao contrato.
+    -  Após isso, será adicionado o arquivo ao contrato.
 
 1.  Após os dados do contrato informados, clique no botão *Gravar* para efetuar
     o registro, onde a data, hora e usuário serão gravados automaticamente para
