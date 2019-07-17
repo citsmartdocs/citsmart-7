@@ -30,10 +30,10 @@ a localização dos itens desejados:
     
 2. Realize a pesquisa da categoria de ameaça:
 
-- Informe o nome da categoria de ameaça que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o registro 
-da categoria de ameaça conforme o nome informado.
+    - Informe o nome da categoria de ameaça que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o  
+    registro da categoria de ameaça conforme o nome informado.
 
-- Caso deseje listar todos os registros de categoria de ameaça, basta clicar diretamente no botão "Pesquisar".
+    - Caso deseje listar todos os registros de categoria de ameaça, basta clicar diretamente no botão "Pesquisar".
 
 Listagem de itens
 -------------------
