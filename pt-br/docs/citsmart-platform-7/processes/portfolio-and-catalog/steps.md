@@ -45,11 +45,11 @@ Procedimento operacional padronizado (pop) para criação de novos serviços
     pesquisa de cliente]().
 
 7.  Cada fornecedor (provedor de serviços, interno ou externo) que poderá apoiar
-    o novo serviço deve estar criado no sistema. Acesse o menu **Processos ITIL
+    o novo serviço deve estar criado no sistema. Acesse o menu **Processos ITIL**
     **> Gerência de Portfólio de Catálogo > Fornecedor** (ver conhecimento [Cadastro e pesquisa de fornecedor]().
 
 8.  Cada contrato que pode ser relacionado ao novo serviço deve estar criado no
-    sistema. Acesse o menu **Processos ITIL > Gerência de Portfólio de Catálogo
+    sistema. Acesse o menu **Processos ITIL > Gerência de Portfólio de Catálogo**
     **> Cadastro de Contrato** (ver conhecimento [Cadastro e pesquisa de contrato]().
 
     -   Trata-se de um acordo entre duas partes, que se obrigam a cumprir o que
