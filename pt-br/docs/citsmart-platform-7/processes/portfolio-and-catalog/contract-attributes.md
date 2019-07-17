@@ -247,7 +247,7 @@ Vinculando atividades de requisição ao contrato
     usuários ou se todos os usuários visualizam todas as ocorrências. Caso o
     campo
 
-    -  **Aplicar permissões de acesso nas ocorrências?**:** **tenha sua opção "Sim"
+    -  **Aplicar permissões de acesso nas ocorrências?**: tenha sua opção "Sim"
     selecionada, uma nova aba aparece ao lado da aba Principal:
 
     ![Criar](images/contract-attributes-4.png)
@@ -261,7 +261,7 @@ Vinculando atividades de requisição ao contrato
 
     **Figura 5 - Lista de grupos vinculados com permissão configurada**
 
-    -  Ao clicar no **Adicionar **(segundo a figura anterior) um painel com todas
+    -  Ao clicar no **Adicionar** (segundo a figura anterior) um painel com todas
     as categorias de ocorrência surge para permitir ao Administrador marcar
     aquelas que devem ser liberadas para o Grupo selecionado:
 
@@ -509,7 +509,7 @@ Vinculando calendário ao contrato
     funcionalidade: ID, Nome, Data Início e Data Fim;
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Desativar;*
+    listagem, são eles: *Desativar*;
 
 3.  Clique no botão *Vincular Calendário*. Feito isso, será exibida a tela de
     pesquisa de calendário. Realize a pesquisa, selecione o calendário desejado
@@ -534,7 +534,7 @@ contratado*
 
 ### Como acessar
 
-1.  Na tela Informações do Contrato, clique na aba **Rateio **e após isso, será
+1.  Na tela Informações do Contrato, clique na aba **Rateio** e após isso, será
     apresentada a tela onde permite vincular o rateio ao contrato.
 
 ### Pré-condições
