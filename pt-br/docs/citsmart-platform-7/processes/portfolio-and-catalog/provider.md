@@ -60,7 +60,7 @@ Listagem de itens
     identificação dos itens desejados na listagem padrão da
     funcionalidade:** Nome/Razão social** e **CPF/CNPJ.**
 
-    ![Criar](images/provider-1.png)
+    ![Criar](images/provider-2.png)
 
     **Figura 2 - Listagem de fornecedores**
 
@@ -80,7 +80,7 @@ Preenchimento dos campos cadastrais
     será apresentada a tela de **Cadastro de Fornecedor**, conforme ilustrada na
     figura abaixo:
 
-    ![Criar](images/provider-1.png)
+    ![Criar](images/provider-3.png)
 
     **Figura 3 - Tela de cadastro de fornecedor**
 
