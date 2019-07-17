@@ -696,29 +696,29 @@ Vinculando contratos ao serviço
 1.  Clique no botão *Vincular Contrato*. Feito isso, será exibida a tela para
     pesquisa do contrato;
 
-   !!! info "IMPORTANTE"
+    !!! info "IMPORTANTE"
 
-       Serão disponibilizados somente os contratos do tipo “contrato” para
-       vincular ao serviço de negócio/TI e somente os contratos do tipo “contrato
-       de apoio” e “acordo de nível operacional” para vincular ao serviço de
-       apoio/técnico.
+         Serão disponibilizados somente os contratos do tipo “contrato” para
+         vincular ao serviço de negócio/TI e somente os contratos do tipo “contrato
+         de apoio” e “acordo de nível operacional” para vincular ao serviço de
+         apoio/técnico.
 
-1.  Realize a pesquisa do contrato. Após a isso, basta selecionar o mesmo para
+4.  Realize a pesquisa do contrato. Após a isso, basta selecionar o mesmo para
     efetuar o vínculo com sucesso.
 
-2.  Caso não encontre o registro do contrato e haja a necessidade de registrar
+5.  Caso não encontre o registro do contrato e haja a necessidade de registrar
     um contrato para vincular ao serviço, poderá registrá-lo a partir dessa
     tela, basta clicar no botão *Nova Contrato*.
 
-3.  Para alterar os dados do contrato, clique no botão *Editar* do mesmo,
+6.  Para alterar os dados do contrato, clique no botão *Editar* do mesmo,
     modifique os dados que desejar e clique em *Gravar* para efetuar a
     alteração, onde a data, hora e usuário serão gravados automaticamente para
     uma futura auditoria.
 
-4.  Para excluir o vínculo do contrato com o serviço, basta clicar no
+7.  Para excluir o vínculo do contrato com o serviço, basta clicar no
     botão *Desvincular* do mesmo.
 
-5.  Para configurar os atributos do contrato do serviço, clique no
+8.  Para configurar os atributos do contrato do serviço, clique no
     botão *Avançar* do mesmo.
 
 ### Preenchimento dos campos cadastrais
