@@ -33,9 +33,9 @@ Filtros
     Categoria de Imagem**. Será apresentada a tela de pesquisa conforme
     ilustrada na figura abaixo:
 
-   ![Criar](images/category-1.png)
+    ![Criar](images/category-1.png)
    
-   **Figura 1 - Tela de pesquisa de categoria de imagem**
+    **Figura 1 - Tela de pesquisa de categoria de imagem**
 
 1.  Realize a pesquisa de categoria de imagem:
 
