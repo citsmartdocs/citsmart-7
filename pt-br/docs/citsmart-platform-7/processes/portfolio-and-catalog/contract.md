@@ -51,11 +51,11 @@ Filtros
 
 1.  Realize a pesquisa do contrato;
 
-2.  Informe o número do contrato e clique no botão *Pesquisar*. Após isso, será
+    - Informe o número do contrato e clique no botão *Pesquisar*. Após isso, será
     exibido o registro do contrato conforme o número informado.
 
-    -   Caso deseje listar todos os registros de contrato, basta clicar
-        diretamente no botão *Pesquisar*.
+    - Caso deseje listar todos os registros de contrato, basta clicar
+     diretamente no botão *Pesquisar*.
 
 Listagem de itens
 ----------------
