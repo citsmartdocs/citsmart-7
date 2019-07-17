@@ -448,7 +448,7 @@ Vinculando usuário do negócio ao serviço
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Desvincular*.
 
-    ![Criar](images/configure-1.png)
+    ![Criar](images/configure-7.png)
 
     **Figura 7 - Tela de vínculo de usuário do negócio**
 
