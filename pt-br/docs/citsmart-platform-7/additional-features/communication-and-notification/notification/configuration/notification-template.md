@@ -12,7 +12,7 @@ Como acessar
 -----------
 
 1.  Acesse a funcionalidade de Template de Notificação através da navegação no
-    menu principal **Sistema   Notificações   Template de Notificação.**
+    menu principal **Sistema > Notificações > Template de Notificação**.
 
 Pré-condições
 ------------
