@@ -167,7 +167,7 @@ desejados:
 
 -   Campo Pesquisar
 
-###Funcionamento
+### Funcionamento
 
 Na tela do portal o usuário informa o que deseja pesquisar, o sistema pega
 aquela descrição. Ao fazer a pesquisa no Solr, ele verifica nos tópicos se
@@ -180,7 +180,13 @@ os arquivos para serem importados no smartReport que estão em anexo.
 
 Anexos
 ------
+[Dowload - Contabilização][1]
+[Dowload - Contabilização][1]
+[Dowload - Contabilização][1]
 
+[1]:/pt-br/citsmart-platform-7/process/knowledge/images/ResumoPesquisasnaoencontradas-postgre(1).citreport
+[2]:/pt-br/citsmart-platform-7/process/knowledge/images/Resumodebuscas-postgre(1).citreport
+[3]:/pt-br/citsmart-platform-7/process/knowledge/images/Relatóriode Pesquisasencontradas-postgre(1).citreport
 
 !!! tip "About"
 
