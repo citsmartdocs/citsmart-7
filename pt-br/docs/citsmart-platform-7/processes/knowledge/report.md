@@ -98,18 +98,18 @@ O seguinte filtro possibilita ao usuário restringir a participação de itens n
 listagem padrão da funcionalidade, facilitando a localização dos itens
 desejados:
 
-    -   Nome do relatório.
+   -  Nome do relatório.
 
-    ![Criar](images/report-4.png)
+   ![Criar](images/report-4.png)
 
-    **Figura 4 - Tela de pesquisa de relatórios de assuntos**
+   **Figura 4 - Tela de pesquisa de relatórios de assuntos**
 
 Relatório de pesquisas encontradas
 --------------------------------
 
-    ![Criar](images/report-5.png)
+   ![Criar](images/report-5.png)
 
-    **Figura 5 - Relatório de pesquisas encontradas**
+   **Figura 5 - Relatório de pesquisas encontradas**
 
 Gráfico de barras apresenta:
 
@@ -128,9 +128,9 @@ smartReport estão em anexo.
 
 ### Resumo pesquisas não encontradas
 
-    ![Criar](images/report-6.png)
+   ![Criar](images/report-6.png)
 
-    **Figura 6 - Resumo de Buscas não encontradas**
+   **Figura 6 - Resumo de Buscas não encontradas**
 
 Gráfico de barras apresenta:
 
@@ -150,9 +150,9 @@ os arquivos para serem importados no smartReport estão em anexo.
 
 ### Resumo de buscas
 
-    ![Criar](images/report-7.png)
+   ![Criar](images/report-7.png)
     
-    **Figura 7 - Resumo de Buscas**
+   **Figura 7 - Resumo de Buscas**
 
 A tabela apresenta um resumo total da quantidade de assuntos pesquisados
 (encontrados e não encontrados sem distinção)
