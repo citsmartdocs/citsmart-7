@@ -10,8 +10,8 @@ para efeitos de pesquisa na base de conhecimento.
 Como acessar
 ------------
 
-1.  Acesse a funcionalidade de sinônimo** **através da navegação no menu
-    principal **Processos ITIL   Gerência de Conhecimento  Sinônimo.**
+1.  Acesse a funcionalidade de sinônimo através da navegação no menu
+    principal **Processos ITIL >  Gerência de Conhecimento > Sinônimo**.
 
 Pré-condições
 ------------
