@@ -123,10 +123,10 @@ Visualizando as notificações
     
     **Figura 4 - Alerta de notificação**
 
-   !!! info "IMPORTANTE"
+    !!! info "IMPORTANTE"
 
-       No determinado período, que foi configurado no registro da notificação,
-       será apresentada a mensagem de alerta.
+        No determinado período, que foi configurado no registro da notificação,
+        será apresentada a mensagem de alerta.
 
 1.  Para visualizar todas as notificações do sistema, clique na
     opção **Notificações**, localizada na parte superior da tela. Será
