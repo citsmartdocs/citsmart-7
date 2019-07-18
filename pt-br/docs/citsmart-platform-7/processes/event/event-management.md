@@ -57,7 +57,7 @@ padrão da funcionalidade: **Classificação, Ferramenta, Data/Hora, Categoria, 
 2. Após acessar a funcionalidade de **Gerenciamento de Eventos** são visualizadas todas as ocorrências registradas no MongoDB 
 através da aplicação Citsmart Event Monitor, conforme ilustração abaixo:
 
-    ![Listagem](images/even-noti.img3.png)
+    ![Listagem](images/ger-eve.img3.png)
     
     **Figura 3 - Tela de listagem de eventos**
     
