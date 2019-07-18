@@ -34,7 +34,7 @@ Filtros
 
     -   Situação.
 
-    
+    ![Criar](images/notification-1.png)
     
     **Figura 1 - Tela de pesquisa de notificação**
 
@@ -51,7 +51,7 @@ Listagem de itens
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Editar* e *Excluir*.
 
-
+![Criar](images/notification-2.png)
 
 **Figura 2 - Tela de listagem de notificação**
 
@@ -65,7 +65,7 @@ Preenchimento dos campos cadastrais
     anterior). Feito isso, será apresentada a respectiva tela de cadastro de
     notificação, conforme ilustração abaixo:
 
-    
+    ![Criar](images/notification-3.png)    
     
     **Figura 3 - Cadastro de notificação**
 
@@ -107,9 +107,9 @@ Preenchimento dos campos cadastrais
 
 !!! note "NOTA"
 
-   As notificações registradas, serão exibidas durante o período estabelecido
-   neste registro. Após passar o período, o sistema irá inativar as
-   notificações.
+    As notificações registradas, serão exibidas durante o período estabelecido
+    neste registro. Após passar o período, o sistema irá inativar as
+    notificações.
 
 Visualizando as notificações
 ---------------------------
@@ -119,43 +119,45 @@ Visualizando as notificações
     visualizar a notificação. Mas, caso queira visualizar a notificação, em um
     momento posterior, clique no botão *Fechar* da mensagem de alerta.
 
-    
+    ![Criar](images/notification-4.png)
     
     **Figura 4 - Alerta de notificação**
 
    !!! info "IMPORTANTE"
 
-   **No determinado período, que foi configurado no registro da notificação,
-   será apresentada a mensagem de alerta**
+       No determinado período, que foi configurado no registro da notificação,
+       será apresentada a mensagem de alerta.
 
 1.  Para visualizar todas as notificações do sistema, clique na
     opção **Notificações**, localizada na parte superior da tela. Será
     apresentada as notificações que ainda não foram visualizadas, conforme
     exemplo ilustrado na figura abaixo:
-
-**Figura 5 - Notificações**
+    
+    ![Criar](images/notification-5.png)
+    
+    **Figura 5 - Notificações**
 
    !!! info "IMPORTANTE"
 
-   O sistema mostra o contador de notificação incrementado somente quando
-   existir notificação que exige confirmação de leitura.
+      O sistema mostra o contador de notificação incrementado somente quando
+      existir notificação que exige confirmação de leitura.
 
 1.  Para ver todas as notificações, clique na opção "+VER TODOS", será
     apresentada a tela para verificação das notificações, conforme ilustrada na
     figura abaixo:
 
-    
+    ![Criar](images/notification-6.png)
     
     **Figura 6 - Minhas notificações**
 
--   A notificação com o ícone  , indica que a mesma foi visualizada;
+    -   A notificação com o ícone ![Criar](images/notification-7.png) , indica que a mesma foi visualizada;
 
--   A notificação com o ícone  , indica que a mesma não foi visualizada;
+    -   A notificação com o ícone ![Criar](images/notification-8.png) , indica que a mesma não foi visualizada;
 
--   A notificação com o ícone  , indica que a mesma exija confirmação de
+    -   A notificação com o ícone ![Criar](images/notification-9.png) , indica que a mesma exija confirmação de
     leitura;
 
--   A notificação com o ícone  , indica que a leitura da mesma foi confirmada.
+    -   A notificação com o ícone ![Criar](images/notification-10.png) , indica que a leitura da mesma foi confirmada.
 
 1.  Clique no botão *Visualizar* da notificação. Após isso, será apresentada as
     informações da mesma. Caso a notificação exija a confirmação da leitura,
