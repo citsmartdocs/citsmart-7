@@ -172,9 +172,9 @@ quantidade de ocorrência por ferramentas e quantidade de ocorrências por item 
 Consultando gráficos
 ----------------------
 
-1. Após acessar a funcionalidade de Gerenciamento de Eventos, no menu Gráficos, será apresentada a tela com as informações de 
-ocorrência de eventos, sendo essas demonstradas em gráficos, conforme exemplificados nas imagens abaixo. Nesta tela é possível 
-filtrar as ocorrências por data/período (busca realizado pelo campo  no canto superior do lado direito):
+1. Após acessar a funcionalidade de **Gerenciamento de Eventos**, no menu **Gráficos**, será apresentada a tela com as 
+informações de ocorrência de eventos, sendo essas demonstradas em gráficos, conforme exemplificados nas imagens abaixo. Nesta 
+tela é possível filtrar as ocorrências por data/período (busca realizado pelo campo  no canto superior do lado direito):
 
     ![Gráfico](images/ger-eve.img11.png)
     
