@@ -52,7 +52,7 @@ Listagem de itens
 
 Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
 identificação dos itens desejados na listagem padrão da funcionalidade: ID,
-Nome, Categoría, Tipo de Consulta, Tipo de relatório, Ações.
+Nome, Categoria, Tipo de Consulta, Tipo de relatório, Ações.
 
 ![Criar](images/report-2.png)
 
