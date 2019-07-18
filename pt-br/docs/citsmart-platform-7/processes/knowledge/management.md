@@ -182,10 +182,10 @@ Preenchimento dos campos cadastrais
     -   Para adicionar um vídeo ao conteúdo do conhecimento, proceda da seguinte
     forma:
 
-    -   Clique no ícone . Feito isso, será exibida a tela upload de vídeo, conforme
+    -   Clique no ícone ![Criar](images/management-11.png) . Feito isso, será exibida a tela upload de vídeo, conforme
     ilustrada na figura abaixo:
 
-    ![Criar](images/management-11.png)
+    ![Criar](images/management-12.png)
     
     **Figura 8 - Upload de vídeo do servidor**
 
@@ -221,14 +221,14 @@ Preenchimento dos campos cadastrais
          -   Clique com o botão direito do mouse sobre o vídeo e logo em seguida clique
          em *Copiar código de incorporação*, conforme indicado na figura abaixo:
 
-     ![Criar](images/management-12.png)
+     ![Criar](images/management-13.png)
      
      **Figura 9 - Vídeo do YouTube**
 
     -   No campo **Código**, cole o código do vídeo do YouTube, conforme exemplo
     ilustrado na figura abaixo:
 
-     ![Criar](images/management-13.png)
+     ![Criar](images/management-14.png)
      
      **Figura 10 - Upload de vídeo do YouTube**
 
@@ -284,7 +284,7 @@ Para realizar este vínculo, basta seguir os seguintes passos:
     Interessadas**. Feito isso, será apresentada a tela para adição das partes
     interessadas;
 
-    ![Criar](images/management-14.png)
+    ![Criar](images/management-16.png)
 
     **Figura 11 - Tela de adição de partes interessadas**
 
@@ -296,7 +296,7 @@ Configurando as notificações
 1.  Na tela de **Cadastro de Conhecimento**, clique na aba **Notificações**.
     Feito isso, será apresentada a tela de configuração de notificações;
 
-    ![Criar](images/management-15.png)
+    ![Criar](images/management-17.png)
 
     **Figura 12 - Tela de configuração de notificação**
 
@@ -313,7 +313,7 @@ Vinculando item de configuração ao conhecimento
 2.  Clique na aba **Item de Configuração** e após isso, será exibida a tela de
     vínculo de Item de Configuração ao conhecimento;
 
-    ![Criar](images/management-16.png)
+    ![Criar](images/management-18.png)
 
     **Figura 13 - Tela de vínculo de item de configuração**
 
