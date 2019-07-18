@@ -32,7 +32,7 @@ Filtros
 
     -   Situação.
 
-1.  Na tela de** Notificações via E-mail**, são listadas as **Notificações via
+1.  Na tela de Notificações via E-mail, são listadas as **Notificações via
     E-mail** que foram registradas, conforme exemplo ilustrado na figura abaixo:
 
 ![Criar](images/notification-1.png)
