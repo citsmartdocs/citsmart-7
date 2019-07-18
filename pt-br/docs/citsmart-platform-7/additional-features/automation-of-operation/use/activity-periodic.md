@@ -114,16 +114,16 @@ Preenchimento dos campos cadastrais
     
     **Figura 4 - Agendamento de atividades**
 
-        -   **Tipo de agendamento**: informe o tipo do agendamento da atividade
+       -  **Tipo de agendamento**: informe o tipo do agendamento da atividade
         (diariamente, semanalmente, mensalmente ou uma vez);
 
-        -   **Inicia em**: informe a data e horário de início;
+       -  **Inicia em**: informe a data e horário de início;
 
-        -   **Expira em**: informe a data de expiração;
+       -  **Expira em**: informe a data de expiração;
 
-        -   **Duração estimada**: informe a duração estimada, em minutos;
+       -  **Duração estimada**: informe a duração estimada, em minutos;
 
-        -   Informe os dados para agendar a atividade, de acordo com o tipo de
+       -  Informe os dados para agendar a atividade, de acordo com o tipo de
     agendamento escolhido;
 
       -   **Repetir o agendamento no dia**: marque essa opção, somente se desejar
