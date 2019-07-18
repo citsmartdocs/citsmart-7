@@ -146,7 +146,7 @@ Definindo a matriz de comunicação do projeto
 1.  Após os dados informados, clique em *Gravar* para efetuar o registro. Após
     isso, será exibido o registro na tela de Projeto.
 
-    ![Criar](images/project-6.png)
+    ![Criar](images/project-7.png)
     
     **Figura 6 - Tela de cadastro de pontos de contato**
 
