@@ -3,7 +3,7 @@ Description: O Gerenciamento do Conhecimento tem o objetivo de disponibilizar e
 gerenciar as informações e conhecimentos, de forma confiável e íntegra, que
 apoiam a execução do serviço.
 
-#Gerenciamento de conhecimento
+# Gerenciamento de conhecimento
 
 O Gerenciamento do Conhecimento tem o objetivo de disponibilizar e gerenciar as
 informações e conhecimentos, de forma confiável e íntegra, que apoiam a execução
