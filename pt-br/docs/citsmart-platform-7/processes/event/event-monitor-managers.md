@@ -352,8 +352,8 @@ descrição. Portanto serão abordadas somente as informações principais para 
     
     **Figura 20 - Tela de cadastro de gerente Inventory**
     
-    - Caso desejar editar as regras para Information, Warning e Exception, basta clicar no ícone ![simbolo](images/sim-
-    lapis.white.png);
+    - Caso desejar editar as regras para Information, Warning e Exception, basta clicar no ícone 
+    ![simbolo](images/sim-lapis.white.png);
     - Caso desejar editar as ações clique no ícone ![simbolo](images/sim-lapis.white.png) e para excluir um item de configuração 
     da lista, clique no ícone ![simbolo](images/simb-menos.red.png).
     
