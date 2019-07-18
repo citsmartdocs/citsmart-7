@@ -181,8 +181,10 @@ os arquivos para serem importados no smartReport que estão em anexo.
 Anexos
 ------
 [Dowload - Contabilização][1]
-[Dowload - Contabilização][1]
-[Dowload - Contabilização][1]
+
+[Dowload - Contabilização][2]
+
+[Dowload - Contabilização][3]
 
 [1]:/pt-br/citsmart-platform-7/process/knowledge/images/ResumoPesquisasnaoencontradas-postgre(1).citreport
 [2]:/pt-br/citsmart-platform-7/process/knowledge/images/Resumodebuscas-postgre(1).citreport
