@@ -25,7 +25,7 @@ Filtros
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Nome Moeda.
+    -   Nome Moeda.
 
     ![Criar](images/moeda-1.png)
     
