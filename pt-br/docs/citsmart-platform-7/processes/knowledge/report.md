@@ -31,7 +31,7 @@ Pré-condições
 Como acessar
 -----------
 
-1.  Acesse o menu principal **Relatórios > Relatórios Smart >  Gerador
+1.  Acesse o menu principal **Relatórios > Relatórios Smart > Gerador
     de Relatórios Smart**.
 
 Filtros
