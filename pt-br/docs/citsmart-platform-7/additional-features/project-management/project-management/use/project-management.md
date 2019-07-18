@@ -189,7 +189,7 @@ Cadastrando os papéis/responsabilidades
 1.  Após vincular os recursos, eles serão exibidos na tela de projeto, conforme
     exemplo ilustrado na figura a seguir:
 
-![Criar](images/project-10.png)
+![Criar](images/project-8.png)
 
 **Figura 9 – Recursos do projeto**
 
@@ -201,7 +201,7 @@ Cadastrando as tarefas
     aba **Planejamento/Execução**, será apresentada a tela de planejamento de
     tarefas do projeto:
 
-    ![Criar](images/project-10.png)
+    ![Criar](images/project-9.png)
     
     **Figura 10 – Tela de planejamento/execução**
 
@@ -213,10 +213,10 @@ Cadastrando as tarefas
         exibido o modelo de tarefa, e caso irá proceder com o modelo, clique no
         botão *Gravar* e confirme a importação do mesmo
 
-1.  Clique no ícone de ações ![Criar](images/project-11.png)  do projeto. Feito isso, será exibida a tela de
+1.  Clique no ícone de ações ![Criar](images/project-10.png)  do projeto. Feito isso, será exibida a tela de
     Cadastro de Tarefa, conforme ilustrada na figura a seguir:
 
-    ![Criar](images/project-12.png)
+    ![Criar](images/project-11.png)
     
     **Figura 11 – Tela de cadastro de tarefa**
 
@@ -260,7 +260,7 @@ Cadastrando as tarefas
 3.  Após registro da tarefa, caso queira realizar uma edição na mesma, basta
     clicar no ícone ![Criar](images/project-12.png)  ;
 
-4.  Se for necessário registrar uma sub-tarefa, basta clicar no ícone ![Criar](images/project-13.png)  da
+4.  Se for necessário registrar uma sub-tarefa, basta clicar no ícone ![Criar](images/project-10.png)  da
     tarefa e prosseguir com o registro.
 
 Criando modelo de tarefa
