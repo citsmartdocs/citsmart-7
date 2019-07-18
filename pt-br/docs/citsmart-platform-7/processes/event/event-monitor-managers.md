@@ -106,7 +106,7 @@ descrição. Portanto serão abordadas somente as informações principais para 
     
     **Figura 4 - Tela pesquisa item de configuração**
     
-        - Realize a pesquisa e clique no ícone ![simbolo](images/simb-check.green.png) para selecionar o IC pai desejado e gravar 
+    - Realize a pesquisa e clique no ícone ![simbolo](images/simb-check.green.png) para selecionar o IC pai desejado e gravar 
         na tela de gerente.
     - Ao clicar no campo Host, serão listados os hosts que estão sendo monitorados pelo Nagios para seleção. Feito isso, serão 
     apresentados os serviços do Host, conforme exemplo ilustrado abaixo:
