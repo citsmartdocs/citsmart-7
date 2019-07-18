@@ -91,6 +91,9 @@ Verificando os registros de horas gastas com as tarefas (timesheet)
     uma tarefa. Feito isso, será apresentada a tela de registro de horas gastas
     com a tarefa, conforme exemplo ilustrado na figura a seguir:
 
+![Criar](images/tasks-8.png)
+
+**Figura 5 – Registro de horas gastas com uma tarefa**
 
 !!! tip "About"
 
