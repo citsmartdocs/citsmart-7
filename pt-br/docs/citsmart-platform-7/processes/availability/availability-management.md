@@ -120,16 +120,16 @@ exemplo ilustrado na figura abaixo:
 
     **Figura 7 - Gráficos de disponibilidade por grupo de IC**
 
-- **Disponibilidade por Período**: apresenta a disponibilidade por dia de 
-cada grupo de ICs, dentro do período informado;
-- **Disponibilidade Total**: apresenta a disponibilidade total de cada 
-grupo de ICs, dentro do período informado;
-- **Ocorrências de Indisponibilidade**: apresenta as ocorrências de 
-indisponibilidade de cada grupo de ICs, dentro do período informado;
-- Para download da tabela de disponibilidade total e/ou ocorrências de
-indisponibilidade, basta clicar no botão "Salvar tabela" referente;
-- Para download da imagem ou PDF dos gráficos, basta clicar no 
-ícone ![icone](images/ger-disp.img14.png) do gráfico referente.
+    - **Disponibilidade por Período**: apresenta a disponibilidade por dia de 
+    cada grupo de ICs, dentro do período informado;
+    - **Disponibilidade Total**: apresenta a disponibilidade total de cada 
+    grupo de ICs, dentro do período informado;
+    - **Ocorrências de Indisponibilidade**: apresenta as ocorrências de 
+    indisponibilidade de cada grupo de ICs, dentro do período informado;
+    - Para download da tabela de disponibilidade total e/ou ocorrências de
+    indisponibilidade, basta clicar no botão "Salvar tabela" referente;
+    - Para download da imagem ou PDF dos gráficos, basta clicar no 
+    ícone ![icone](images/ger-disp.img14.png) do gráfico referente.
 
 Verificando a disponibilidade de grupo de disponibilidade
 -----------------------------------------------------------
