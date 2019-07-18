@@ -68,7 +68,7 @@ Preenchimento dos campos cadastrais
 
    **Figura 3 - Tela de cadastro de motivo de suspensão de atividade**
 
-1.  Informe a descrição do motivo da suspensão de atividade e clique no
+2.  Informe a descrição do motivo da suspensão de atividade e clique no
     botão *Gravar* para efetuar o registro, onde a data, hora e usuário serão
     gravados automaticamente para uma futura auditoria.
 
