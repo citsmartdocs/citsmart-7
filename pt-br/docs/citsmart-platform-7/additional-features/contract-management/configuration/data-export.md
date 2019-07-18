@@ -48,6 +48,7 @@ Realizando a exportação de dados
 3.  Será exportado os dados em um arquivo em formato XML.
 
 
+
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
