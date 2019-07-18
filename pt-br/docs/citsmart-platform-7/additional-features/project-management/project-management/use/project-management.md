@@ -165,7 +165,7 @@ Cadastrando os papéis/responsabilidades
 1.  Clique no botão *Vincular novo recurso*, feito isso, será apresentada a tela
     para vínculo dos recursos:
 
-    ![Criar](images/project-9.png)
+    ![Criar](images/project-6.png)
     
     **Figura 8 – Tela de cadastro de recursos**
 
