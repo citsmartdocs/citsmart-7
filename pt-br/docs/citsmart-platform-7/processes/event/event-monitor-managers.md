@@ -214,7 +214,7 @@ descrição. Portanto serão abordadas somente as informações principais para 
     - Ao clicar no campo Host, os hosts que estão sendo monitorados pelo Zabbix aparecerão para a seleção.
     - Uma vez feito isso, os serviços do Host serão apresentados, conforme mostrado abaixo:
     
-    ![Zabbix](imges/eve-monitor.img11.png)
+    ![Zabbix](images/eve-monitor.img11.png)
     
     **Figura 11 - Tela de registro do gerente Zabbix**
     
