@@ -10,8 +10,8 @@ rotinas do sistema.
 Como acessar
 -----------
 
-1.  Acesse a funcionalidade de Moeda** **através da navegação no menu
-    principal **Gestão Integrada   Gerência de Contratos  Moeda.**
+1.  Acesse a funcionalidade de Moeda através da navegação no menu
+    principal **Gestão Integrada > Gerência de Contratos > Moeda**.
 
 Pré-condições
 ------------
