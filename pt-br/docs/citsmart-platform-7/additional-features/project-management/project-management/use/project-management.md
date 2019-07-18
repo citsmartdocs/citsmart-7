@@ -158,14 +158,14 @@ Cadastrando os papéis/responsabilidades
 2.  Na tela de registro do Projeto, clique na aba **Papéis/Responsabilidades**,
     será apresentada uma tela conforme ilustrada na figura abaixo:
 
-    ![Criar](images/project-7.png)
+    ![Criar](images/project-8.png)
     
     **Figura 7 – Tela de papéis/responsabilidades**
 
 1.  Clique no botão *Vincular novo recurso*, feito isso, será apresentada a tela
     para vínculo dos recursos:
 
-    ![Criar](images/project-8.png)
+    ![Criar](images/project-9.png)
     
     **Figura 8 – Tela de cadastro de recursos**
 
@@ -189,7 +189,7 @@ Cadastrando os papéis/responsabilidades
 1.  Após vincular os recursos, eles serão exibidos na tela de projeto, conforme
     exemplo ilustrado na figura a seguir:
 
-![Criar](images/project-9.png)
+![Criar](images/project-10.png)
 
 **Figura 9 – Recursos do projeto**
 
