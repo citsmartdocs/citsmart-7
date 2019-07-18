@@ -56,7 +56,7 @@ Listagem de itens
 Preenchimento dos campos cadastrais
 ----------------------------------
 
-1.  Será apresentada a tela de** Notificações via E-mail**;
+1.  Será apresentada a tela de Notificações via E-mail;
 
 2.  Clique no botão *Novo*. Feito isso, será apresentada a tela de Cadastro de
     Notificação via E-mail, conforme ilustrada na figura abaixo:
@@ -88,7 +88,7 @@ Preenchimento dos campos cadastrais
     em *Remover*. Se desejar remover todos os grupos vinculados, clique no
     botão *Remover todos*.
 
-1.  Vincule usuário(s) à notificação via e-mail;
+5.  Vincule usuário(s) à notificação via e-mail;
 
     -   Clique no botão *Vincular usuário*. Após isso, será apresentada a tela de
     pesquisa de usuários;
@@ -105,13 +105,13 @@ Preenchimento dos campos cadastrais
         Se a notificação via e-mail não for atribuída a nenhum grupo e/ou usuário,
         todos os usuários do sistema serão notificados.
 
-    -   **Descrição breve**: informe uma descrição resumida da notificação via
+   -  **Descrição breve**: informe uma descrição resumida da notificação via
     e-mail;
 
-     -   **Descrição da notificação**: informe a descrição detalhada da notificação
+   -  **Descrição da notificação**: informe a descrição detalhada da notificação
     via e-mail.
 
-1.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
+6.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
     neste caso a data, hora e horário serão armazenados automaticamente para uma
     futura auditoria.
 
