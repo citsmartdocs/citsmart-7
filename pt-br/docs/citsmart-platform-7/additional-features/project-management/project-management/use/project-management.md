@@ -175,16 +175,16 @@ Cadastrando os papéis/responsabilidades
 
     !!! note "NOTA"
 
-       É permitido a seleção de vários usuários para o vínculo.
+         É permitido a seleção de vários usuários para o vínculo.
 
    !!! example "EXEMPLO"
 
-       Para selecionar vários usuários para o vínculo, realize a busca de um
-       usuário e selecione-o e logo após busque por outro usuário e selecione-o. E
-       depois disso, basta clicar no botão *Enviar*.
+         Para selecionar vários usuários para o vínculo, realize a busca de um
+         usuário e selecione-o e logo após busque por outro usuário e selecione-o. E
+         depois disso, basta clicar no botão *Enviar*.
 
-       Caso não tenha os papéis registrados, poderá realizar um cadastro a partir
-       dessa tela, basta clicar no botão *Papéis*.
+         Caso não tenha os papéis registrados, poderá realizar um cadastro a partir
+         dessa tela, basta clicar no botão *Papéis*.
 
 1.  Após vincular os recursos, eles serão exibidos na tela de projeto, conforme
     exemplo ilustrado na figura a seguir:
