@@ -6,12 +6,12 @@ Eventos.
 Trata-se da funcionalidade responsável por gerenciar a aplicação que faz a análise, monitoração e sinalização de Eventos, que 
 pode ser: 
 
-    - **Gerente Nagios**;
-    - **Gerente Zabbix**;
-    - **Gerente Inventory**;
-    - **Gerente de Eventos Global**;
-    - **Gerente Genérico Nagios**;
-    - **Gerente Genérico Zabbix**.
+- **Gerente Nagios**;
+- **Gerente Zabbix**;
+- **Gerente Inventory**;
+- **Gerente de Eventos Global**;
+- **Gerente Genérico Nagios**;
+- **Gerente Genérico Zabbix**.
     
 Pré-condições
 ---------------
@@ -40,3 +40,24 @@ e ocorrência de eventos capturadas a partir do Nagios. Permite ao usuário info
 processado, quais os itens de configuração que ele irá gerenciar e as ações a serem tomadas automaticamente.
 
 ## Como acessar ##
+
+1. Acesse a funcionalidade de gerente nagios através da navegação no menu principal 
+**Processos ITIL > Gerência de Evento > Gerente Nagios**.
+
+## Filtros ##
+
+1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando 
+a localização dos itens desejados:
+
+    - Nome
+    
+    ![Nagios](images/eve-monitor.img1.png)
+    
+    **Figura 1 - Tela de pesquisa de gerente Nagios**
+    
+2. Realize a pesquisa de Gerente Nagios:
+
+    - Informe o nome do gerente nagios que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o registro 
+    conforme o nome informado;
+    
+    - Caso deseje listar todos os registros de gerente nagios, basta clicar diretamente no botão "Pesquisar".
