@@ -24,10 +24,10 @@ Realizando a importação de dados
     
     **Figura 1 - Tela de importação de dados**
 
-   !!! note “NOTA”
+    !!! note “NOTA”
 
-       Se o arquivo não fizer referência a um contrato, não se deve selecionar o
-       contrato, basta adicionar o arquivo para importação dos dados.
+        Se o arquivo não fizer referência a um contrato, não se deve selecionar o
+        contrato, basta adicionar o arquivo para importação dos dados.
 
 1.  Adicione o arquivo para importação dos dados;
 
