@@ -11,6 +11,7 @@ Como acessar
     Atividade**.
 
 Pré-condições
+-------------
 
 1.  Não se aplica.
 
