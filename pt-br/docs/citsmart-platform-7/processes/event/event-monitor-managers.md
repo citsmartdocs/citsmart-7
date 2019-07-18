@@ -523,7 +523,7 @@ abaixo:
     
     **Figura 27- Tela de cadastro de gerente genérico Nagios**
     
-        - Informe os dados do **Host**;
+    - Informe os dados do **Host**;
     - Selecione o host e se desejar gerar ocorrências para Up e Down, informe suas respectivas ações, urgências e impactos.
         - Informe os dados do **Serviço**.
     - Selecione o serviço e se desejar gerar ocorrências para Information, Warning e Exception, informe suas respectivas ações, 
