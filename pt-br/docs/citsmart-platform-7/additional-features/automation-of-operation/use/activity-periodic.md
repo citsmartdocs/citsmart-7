@@ -10,7 +10,7 @@ relacionadas aos contratos.
 Como acessar
 -----------
 
-1.  Acesse a funcionalidade de Atividade Periódica** **através da navegação no
+1.  Acesse a funcionalidade de Atividade Periódica através da navegação no
     menu principal **Gestão Integrada > Automação das Operações de TI > Atividade
     Periódica.**
 
