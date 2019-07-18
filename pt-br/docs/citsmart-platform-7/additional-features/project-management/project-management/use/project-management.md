@@ -169,7 +169,7 @@ Cadastrando os papéis/responsabilidades
     
     **Figura 8 – Tela de cadastro de recursos**
 
-1.  Realize a pesquisa dos usuários os quais são membros do projeto, selecione
+4.  Realize a pesquisa dos usuários os quais são membros do projeto, selecione
     os mesmos e clique no botão *Enviar* para efetuar a operação. Selecione o
     papel dos usuários e clique no botão *Salvar* para efetuar o vínculo.
 
@@ -177,7 +177,7 @@ Cadastrando os papéis/responsabilidades
 
          É permitido a seleção de vários usuários para o vínculo.
 
-   !!! example "EXEMPLO"
+    !!! example "EXEMPLO"
 
          Para selecionar vários usuários para o vínculo, realize a busca de um
          usuário e selecione-o e logo após busque por outro usuário e selecione-o. E
@@ -186,7 +186,7 @@ Cadastrando os papéis/responsabilidades
          Caso não tenha os papéis registrados, poderá realizar um cadastro a partir
          dessa tela, basta clicar no botão *Papéis*.
 
-1.  Após vincular os recursos, eles serão exibidos na tela de projeto, conforme
+5.  Após vincular os recursos, eles serão exibidos na tela de projeto, conforme
     exemplo ilustrado na figura a seguir:
 
 ![Criar](images/project-8.png)
