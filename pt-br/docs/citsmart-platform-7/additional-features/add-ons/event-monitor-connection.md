@@ -12,9 +12,9 @@ instalado o Jboss do CITSmart Event Monitor.
 Como acessar
 ------------
 
-1.  Acesse a funcionalidade de conexão do CITSmart event monitor** **através da
-    navegação no menu principal **Processos ITIL  Gerência de Evento   Conexões
-    Event Monitor.**
+1.  Acesse a funcionalidade de conexão do CITSmart event monitor através da
+    navegação no menu principal **Processos ITIL > Gerência de Evento >  Conexões
+    Event Monitor**.
 
 Pré-condições
 ------------
