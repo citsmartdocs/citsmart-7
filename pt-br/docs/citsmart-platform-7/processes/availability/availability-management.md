@@ -206,16 +206,16 @@ conforme exemplo ilustrado na figura abaixo:
 
     **Figura 13 - Gráficos de disponibilidade por serviço**
 
-- **Disponibilidade por Período**: apresenta a disponibilidade por 
-dia de cada serviço, dentro do período informado;
-- **Disponibilidade Total**: apresenta a disponibilidade total de cada 
-serviço, dentro do período informado;
-- **Ocorrências de Indisponibilidade**: apresenta as ocorrências de 
-indisponibilidade de cada serviço, dentro do período informado;
-- Para download da tabela de disponibilidade total e/ou ocorrências de 
-indisponibilidade, basta clicar no botão "Salvar tabela" referente;
-- Para download da imagem ou PDF dos gráficos, basta clicar no
-ícone ![icone](images/ger-disp.img14.png) do gráfico referente.
+    - **Disponibilidade por Período**: apresenta a disponibilidade por 
+    dia de cada serviço, dentro do período informado;
+    - **Disponibilidade Total**: apresenta a disponibilidade total de cada 
+    serviço, dentro do período informado;
+    - **Ocorrências de Indisponibilidade**: apresenta as ocorrências de 
+    indisponibilidade de cada serviço, dentro do período informado;
+    - Para download da tabela de disponibilidade total e/ou ocorrências de 
+    indisponibilidade, basta clicar no botão "Salvar tabela" referente;
+    - Para download da imagem ou PDF dos gráficos, basta clicar no
+    ícone ![icone](images/ger-disp.img14.png) do gráfico referente.
 
 !!! tip "About"
 
