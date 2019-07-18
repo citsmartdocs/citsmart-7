@@ -612,17 +612,17 @@ será apresentada a tela de **Cadastro de Gerente Genérico Zabbix**, conforme i
     
     **Figura 32 - Tela de cadastro de monitoramento**
     
-        - **Título**: informe um título para os itens que serão monitorados;
-        - **Host**: selecione o host desejado;
-        - **Trigger**: selecione a trigger desejada;
-        - **Tipo de evento**: selecione quais os tipos de eventos que serão disparados, suas respectivas ações, urgências e 
-        impactos;
-        - **Grupo de categoria de ocorrência**: selecione o grupo de categoria de ocorrência;
-        - **Categoria de ocorrência**: selecione a categoria de ocorrência;
-        - **Agendador**: selecione um temporizador para o Zabbix levantar informações;
-        - **Correção automática**: ative esta opção caso deseje a correção automática de eventos e defina o tempo (em minutos) 
-        para o encerramento da ocorrência caso o mesmo não volte a acontecer;
-        - Clique no botão "Adicionar" para registrar os itens que serão monitorados.
+    - **Título**: informe um título para os itens que serão monitorados;
+    - **Host**: selecione o host desejado;
+    - **Trigger**: selecione a trigger desejada;
+    - **Tipo de evento**: selecione quais os tipos de eventos que serão disparados, suas respectivas ações, urgências e 
+    impactos;
+    - **Grupo de categoria de ocorrência**: selecione o grupo de categoria de ocorrência;
+    - **Categoria de ocorrência**: selecione a categoria de ocorrência;
+    - **Agendador**: selecione um temporizador para o Zabbix levantar informações;
+    - **Correção automática**: ative esta opção caso deseje a correção automática de eventos e defina o tempo (em minutos) 
+    para o encerramento da ocorrência caso o mesmo não volte a acontecer;
+    - Clique no botão "Adicionar" para registrar os itens que serão monitorados.
         
     ![Cadastro](images/eve-monitor.img33.png)
     
