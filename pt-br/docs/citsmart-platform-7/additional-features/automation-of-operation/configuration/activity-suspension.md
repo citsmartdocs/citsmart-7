@@ -22,7 +22,7 @@ Filtros
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Nome.
+    -   Nome.
 
     ![Criar](images/suspension-1.png)
     
@@ -66,7 +66,7 @@ Preenchimento dos campos cadastrais
 
    ![Criar](images/suspension-3.png) 
 
-    **Figura 3 - Tela de cadastro de motivo de suspensão de atividade**
+   **Figura 3 - Tela de cadastro de motivo de suspensão de atividade**
 
 1.  Informe a descrição do motivo da suspensão de atividade e clique no
     botão *Gravar* para efetuar o registro, onde a data, hora e usuário serão
