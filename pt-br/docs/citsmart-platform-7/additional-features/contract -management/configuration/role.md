@@ -30,7 +30,7 @@ Listagem de itens
     identificação dos itens desejados na listagem padrão da
     funcionalidade: **Título e Ativo**.
 
-    ![Criar](images/role-1.png)
+    ![Criar](images/papel-1.png)
     
     **Figura 1 - Tela de listagem de papel**
 
@@ -51,7 +51,7 @@ Preenchimento dos campos cadastrais
 2.  Feito isso, será apresentada a tela de **Cadastro de Papel**, conforme
     ilustrada na figura a seguir:
 
-    ![Criar](images/role-2.png)
+    ![Criar](images/papel-2.png)
     
     **Figura 2 - Tela de cadastro de papel**
 
