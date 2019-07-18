@@ -121,7 +121,7 @@ Definindo a matriz de comunicação do projeto
 
 1.  Preencha os campos conforme orientações abaixo:
 
-    -   **Empregado**:** **informe o nome do colaborador que faz parte do projeto;
+    -   **Empregado**: informe o nome do colaborador que faz parte do projeto;
 
     -   **Responsabilidade**: selecione a responsabilidade do colaborador dentro do
     projeto;
