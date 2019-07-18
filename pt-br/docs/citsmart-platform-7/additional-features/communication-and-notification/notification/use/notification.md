@@ -137,10 +137,10 @@ Visualizando as notificações
     
     **Figura 5 - Notificações**
 
-   !!! info "IMPORTANTE"
+    !!! info "IMPORTANTE"
 
-      O sistema mostra o contador de notificação incrementado somente quando
-      existir notificação que exige confirmação de leitura.
+        O sistema mostra o contador de notificação incrementado somente quando
+        existir notificação que exige confirmação de leitura.
 
 1.  Para ver todas as notificações, clique na opção "+VER TODOS", será
     apresentada a tela para verificação das notificações, conforme ilustrada na
