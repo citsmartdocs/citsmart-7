@@ -10,9 +10,9 @@ inicial dos dados relacionados aos contratos.
 Como acessar
 -----------
 
-1.  Acesse a funcionalidade de Exportação de Contratos** **através da navegação
-    no menu principal **Gestão Integrada  Gerência de Contratos  Exportação de
-    Contratos.**
+1.  Acesse a funcionalidade de Exportação de Contratos através da navegação
+    no menu principal **Gestão Integrada > Gerência de Contratos > Exportação de
+    Contratos**.
 
 Realizando a exportação de dados
 -------------------------------
