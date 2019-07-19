@@ -532,7 +532,7 @@ Vinculando sla global ao serviço do contrato
 
 **Segunda forma**:
 
-1.  Na guia de** Serviço do Contrato**, são apresentados os serviços que estão
+1.  Na guia de **Serviço do Contrato**, são apresentados os serviços que estão
     vinculados ao contrato. Clique no ícone ![Criar](images/manage-12.png)  do serviço desejado;
 
 2.  Feito isso, serão exibidos dois botões *Vincular Acordo* e *Criar Acordo
@@ -545,8 +545,8 @@ Vinculando sla global ao serviço do contrato
 
     ![Criar](images/manage-22.png)
     
-    **Figura 18 -** **Vínculo do acordo de nível de serviço global ao serviço do
-    contrato**
+    **Figura 18 - Vínculo do acordo de nível de serviço global ao serviço do
+     contrato**
 
 1.  Preencha os campos conforme orientação abaixo:
 
@@ -604,9 +604,9 @@ Registrando atividades do serviço do contrato
        A contabilização será feita das solicitações "fechadas", no período da OS
        (Ordem de Serviço), do serviço do tipo requisição/incidente informado.
 
-    -   **Tipo custo**: selecione o tipo de custo da atividade.
+   - **Tipo custo**: selecione o tipo de custo da atividade.
 
-1.  Se o tipo de custo selecionado for **Custo Total**,** **proceda da seguinte
+1.  Se o tipo de custo selecionado for **Custo Total**, proceda da seguinte
     forma:
 
     ![Criar](images/manage-25.png)
@@ -640,12 +640,12 @@ Registrando atividades do serviço do contrato
     -   **Quantidade**: campo referente ao período. Serve para indicar o número de
     vezes que essa atividade foi executada dentro do período. Exemplo:
 
-    -   **Quantidade: 1. Período Mensal:** a atividade é realizada uma vez por mês;
+    -   **Quantidade: 1. Período Mensal**: a atividade é realizada uma vez por mês;
 
-    -   **Quantidade: 1. Período Semanal:** a atividade é realizada uma vez por
+    -   **Quantidade: 1. Período Semanal**: a atividade é realizada uma vez por
     semana;
 
-    -   **Quantidade: 2. Período Diário: **a atividade é executada durante dois
+    -   **Quantidade: 2. Período Diário**: a atividade é executada durante dois
     períodos por dia.
 
 1.  Após os dados informados, clique no botão *Gravar* para efetuar a operação,
@@ -684,7 +684,7 @@ Excluindo vínculo dos serviços com o contrato
     **Figura 23 - Exclusão de serviços do contrato**
 
 1.  Será exibida uma mensagem para confirmação da exclusão dos serviços, basta
-    clicar em *Ok* para efetuar a operação;
+    clicar em *OK* para efetuar a operação;
 
 2.  Feito isso, será excluído com sucesso o vínculo dos serviços com o contrato.
 
@@ -757,25 +757,25 @@ Criando ordem de serviço (os)
        Será realizado o arredondamento do custo total da OS, após a soma dos
        custos totais de cada atividade do serviço.
 
-    -   **Número**: informe o número da ordem de serviço;
+   -   **Número**: informe o número da ordem de serviço;
 
-    -   **Área requisitante**: informe a área requisitante da ordem de serviço;
+   -   **Área requisitante**: informe a área requisitante da ordem de serviço;
 
-    -   **Tarefa/Demanda**: descreva a tarefa/demanda da ordem de serviço;
+   -   **Tarefa/Demanda**: descreva a tarefa/demanda da ordem de serviço;
 
-    -   **Objetivo**: descreve o objetivo da ordem de serviço;
+   -   **Objetivo**: descreve o objetivo da ordem de serviço;
 
-    -   **Situação**: selecione a situação da ordem de serviço;
+   -   **Situação**: selecione a situação da ordem de serviço;
 
-    -   Caso o parâmetro "**243 - Ativar assinaturas personalizadas no relatório de
+   -   Caso o parâmetro "**243 - Ativar assinaturas personalizadas no relatório de
     Ordens de Serviço**" esteja habilitado, será exibido o campo **Grupo de
     Assinaturas**,** **onde deverá selecionar o grupo de assinaturas a ser
     utilizadas na impressão do relatório de ordem de serviço. A figura abaixo
     ilustra esse campo:
 
-    ![Criar](images/manage-31.png)
+   ![Criar](images/manage-31.png)
     
-    **Figura 26 - Campo grupo de assinaturas**
+   **Figura 26 - Campo grupo de assinaturas**
 
 1.  Após os dados informados, clique no botão *Gravar Dados* para efetuar o
     registro, onde a data, hora e usuário serão gravados automaticamente para
@@ -860,8 +860,8 @@ Gerando R.A. (relatório de atividade)
 
     !!! note "NOTA"
 
-       O R.A. (Relatório de Atividade) serve para comprovar que o serviço foi
-       entregue*.
+        O R.A. (Relatório de Atividade) serve para comprovar que o serviço foi
+        entregue.
 
 Executando ordem de serviço
 --------------------------
@@ -895,7 +895,7 @@ Executando ordem de serviço
 
 !!! info "IMPORTANTE"
 
-    Após execução da OS, pode ser gerada uma fatura para mesma**.**
+    Após execução da OS, pode ser gerada uma fatura para mesma.
 
 Faturas
 -------
@@ -1043,7 +1043,7 @@ Notificações
 Adicionando notificação
 ----------------------
 
-1.  Na guia de **Notificação**, clique no botão *Adicionar Notificação;*
+1.  Na guia de **Notificação**, clique no botão *Adicionar Notificação*;
 
 2.  Será apresentada a tela de notificação, conforme ilustrada na figura abaixo:
 
