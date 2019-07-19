@@ -14,8 +14,8 @@ gerencial, na tela principal do sistema.
 Como acessar
 -----------
 
-1.  Acesse o menu principal **Sistema   Configurações   Definição de Métricas e
-    KPIs.**
+1.  Acesse o menu principal **Sistema > Configurações > Definição de Métricas e
+    KPIs**.
 
 Pré-condições
 -----------
@@ -45,7 +45,7 @@ Definindo as métricas do processo de gerenciamento de incidentes - preenchimen
 -------------------------------------------------------------------------------------------------
 
 1.  Após o acesso a funcionalidade, clique em *Editar* (conforme a figura
-    anterior), será apresentada a tela de** Definição de Métricas e KPIs**,
+    anterior), será apresentada a tela de **Definição de Métricas e KPIs**,
     conforme ilustrada na figura abaixo;
 
     ![Criar](images/kpi-2.png)
