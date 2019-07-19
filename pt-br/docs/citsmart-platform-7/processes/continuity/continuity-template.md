@@ -1,6 +1,5 @@
 title: Cadastro e pesquisa de template de continuidade
 Description: Esta funcionalidade tem por objetivo registrar template de continuidade, o qual será utilizado para personalizar
-a tela de registro de testes.
 # Cadastro e pesquisa de template de continuidade
 
 Esta funcionalidade tem por objetivo registrar template de continuidade, o qual será utilizado para personalizar a tela 
@@ -31,10 +30,10 @@ a localização dos itens desejados:
     
 2. Realize a pesquisa do template de continuidade:
 
-- Informe o nome do template de continuidade que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o registro 
-conforme o nome informado;
+    - Informe o nome do template de continuidade que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o 
+    registro conforme o nome informado;
 
-- Caso deseje listar todos os registros de template de continuidade, basta clicar diretamente no botão "Pesquisar".
+    - Caso deseje listar todos os registros de template de continuidade, basta clicar diretamente no botão "Pesquisar".
 
 Listagem de itens
 ------------------
