@@ -777,7 +777,7 @@ Criando ordem de serviço (os)
     
    **Figura 26 - Campo grupo de assinaturas**
 
-1.  Após os dados informados, clique no botão *Gravar Dados* para efetuar o
+4.  Após os dados informados, clique no botão *Gravar Dados* para efetuar o
     registro, onde a data, hora e usuário serão gravados automaticamente para
     uma futura auditoria.
 
