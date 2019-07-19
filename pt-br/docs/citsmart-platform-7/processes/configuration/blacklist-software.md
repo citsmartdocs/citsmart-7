@@ -34,10 +34,10 @@ de pesquisa conforme ilustrada na figura abaixo:
     
  3. Realize a pesquisa de software para lista negra;
  
- - Informe o nome do software para lista negra que deseja pesquisar e clique no botão 
- "Pesquisar". Após isso, será exibido o registro de software para lista negra conforme o nome informado;
+    - Informe o nome do software para lista negra que deseja pesquisar e clique no botão 
+    "Pesquisar". Após isso, será exibido o registro de software para lista negra conforme o nome informado;
  
- - Caso deseje listar todos os registros de software para lista negra, basta clicar diretamente no botão "Pesquisar";
+    - Caso deseje listar todos os registros de software para lista negra, basta clicar diretamente no botão "Pesquisar";
  
 Listagem de itens
 -------------------
