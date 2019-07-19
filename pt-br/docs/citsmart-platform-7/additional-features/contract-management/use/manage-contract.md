@@ -403,11 +403,11 @@ Vinculando SLA específico ao serviço do contrato
     
     **Figura 11 - Índice**
 
-    -   Informe o percentual de disponibilidade do serviço, isto é, se definir 90%
+    6.  Informe o percentual de disponibilidade do serviço, isto é, se definir 90%
     significa que a partir de 10% de indisponibilidade sobre o serviço o
     contrato poderá sofrer algum tipo de penalidade acordada sobre ele;
 
-    -   Se o tipo de acordo informado for **Falhas repetitivas**, informe os dados
+    7.  Se o tipo de acordo informado for **Falhas repetitivas**, informe os dados
     do acordo de serviço por falhas repetitivas:
 
     ![Criar](images/manage-15.png)
@@ -436,10 +436,10 @@ Vinculando SLA específico ao serviço do contrato
 
     -   **Limite Glosa**: informe o limite da glosa;
 
-1.  Caso deseje informar outros dados de resultados esperados e níveis de
-    qualidade exigidos, basta clicar no ícone ![Criar](images/manage-5.png)  e preencher os campos;
+8.  Caso deseje informar outros dados de resultados esperados e níveis de
+    qualidade exigidos, basta clicar no ícone ![Criar](images/manage-5.png) e preencher os campos;
 
-2.  Se o tipo de acordo informado for **Tempo (por fase)**, defina os prazos de
+9.  Se o tipo de acordo informado for **Tempo (por fase)**, defina os prazos de
     SLA (acordo de nível de serviço), levando em consideração a prioridade:
 
     ![Criar](images/manage-17.png)
