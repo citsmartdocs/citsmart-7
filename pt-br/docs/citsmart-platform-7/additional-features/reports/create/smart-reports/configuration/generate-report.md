@@ -138,10 +138,10 @@ Preenchimento dos campos cadastrais
 
     **Figura 5 - Tela de campos ao selecionar "Gráfico de pizza" ou "Gráfico de barra"**
 
-       -  **Data table **- Utilizar esse tipo para criar relatório que inclua
+       -  **Data table** - Utilizar esse tipo para criar relatório que inclua
     todos os dados de uma determinada tabela;
 
-       -  **Cubo **- Utilizar esse tipo para criar uma consulta que permite o
+       -  **Cubo** - Utilizar esse tipo para criar uma consulta que permite o
     cruzamento de informações para fornecer dados ao relatório;
 
        -  **Retorna HTML** - Utilizar esse tipo para criar relatório com HTML.
