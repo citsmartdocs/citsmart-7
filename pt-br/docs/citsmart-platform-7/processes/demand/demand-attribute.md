@@ -1,6 +1,5 @@
 title: Cadastro e pesquisa de atributo da demanda
 Description: Esta funcionalidade tem o objetivo de cadastrar os atributos da demanda que serão vinculados aos Serviços e Itens de 
-Configuração (IC).
 # Cadastro e pesquisa de atributo da demanda
 
 Esta funcionalidade tem o objetivo de cadastrar os atributos da demanda que serão vinculados aos Serviços e Itens de 
