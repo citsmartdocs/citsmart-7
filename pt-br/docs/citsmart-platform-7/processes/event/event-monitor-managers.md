@@ -1,6 +1,5 @@
 title: Cadastro e pesquisa de gerentes do CITSmart event monitor
 Description: Trata-se da funcionalidade responsável por gerenciar a aplicação que faz a análise, monitoração e sinalização de
-Eventos.
 # Cadastro e pesquisa de gerentes do CITSmart event monitor
 
 Trata-se da funcionalidade responsável por gerenciar a aplicação que faz a análise, monitoração e sinalização de Eventos, que 
