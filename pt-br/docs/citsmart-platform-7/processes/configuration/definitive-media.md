@@ -36,9 +36,10 @@ conforme ilustrada na figura abaixo:
     
 3. Realize a pesquisa de mídia definitiva:
 
-- Informe o nome da mídia definitiva que deseja pesquisar e clique no botão "Pesquisar". Após isso, 
-será exibido o registro da mídia definitiva conforme o nome informado;
-- Caso deseje listar todos os registros de mídia definitiva, basta clicar diretamente no botão "Pesquisar";
+    - Informe o nome da mídia definitiva que deseja pesquisar e clique no botão "Pesquisar". Após isso, 
+    será exibido o registro da mídia definitiva conforme o nome informado;
+    
+    - Caso deseje listar todos os registros de mídia definitiva, basta clicar diretamente no botão "Pesquisar";
 
 Listagem de itens
 -------------------
