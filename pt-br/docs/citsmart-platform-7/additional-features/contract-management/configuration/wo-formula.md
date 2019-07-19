@@ -107,12 +107,12 @@ Preenchimento dos campos cadastrais
         Pode-se utilizar as chaves "{}" para delimitar um texto que deseje incluir
         na fórmula, onde o mesmo não influenciará o cálculo do valor da atividade
 
-1.  Caso adicione um valor numérico próximo a uma variável, ele será concatenado
+6.  Caso adicione um valor numérico próximo a uma variável, ele será concatenado
     com ela.
 
     -  **Situação**: informe a situação da fórmula.
 
-2.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
+7.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
     onde a data, hora e usuário serão gravados automaticamente para uma futura
     auditoria;
 
