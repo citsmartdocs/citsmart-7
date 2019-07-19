@@ -32,10 +32,10 @@ a localização dos itens desejados:
     
 2. Realize a pesquisa de risco;
 
-- Informe o nome e/ou descrição do risco que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o registro 
-do risco conforme o nome informado;
+    - Informe o nome e/ou descrição do risco que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o  
+    registro do risco conforme o nome informado;
 
-- Caso deseje listar todos os registros de risco, basta clicar diretamente no botão "Pesquisar".
+    - Caso deseje listar todos os registros de risco, basta clicar diretamente no botão "Pesquisar".
 
 Listagem de itens
 -------------------
