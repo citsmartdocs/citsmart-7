@@ -149,7 +149,7 @@ Vinculando um serviço ao contrato
     de e-mail de andamento de solicitação para envio de notificação nas demais
     ações realizadas nas solicitações de serviço;
 
-    -   **Grupo Escalação 1**º** Nível**: selecione o grupo para escalação do
+    -   **Grupo Escalação 1º Nível**: selecione o grupo para escalação do
     atendimento de 1º Nível;
 
     -   **Grupo Executor**: defina o grupo executor do serviço, caso não o informe,
