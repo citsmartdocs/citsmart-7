@@ -839,10 +839,10 @@ Gerando impressão de ordem de serviço
 Gerando R.A. (relatório de atividade)
 ------------------------------------
 
-1.  Clique no ícone ![Criar](images/manage-35.png)  da OS aprovada. Feito isso, será exibida uma janela para
+1.  Clique no ícone ![Criar](images/manage-36.png)  da OS aprovada. Feito isso, será exibida uma janela para
     registro das informações a respeito da geração do relatório de atividade;
 
-    ![Criar](images/manage-36.png)
+    ![Criar](images/manage-37.png)
     
     **Figura 28 - Tela de geração de R.A.**
 
