@@ -358,7 +358,7 @@ Vinculando SLA específico ao serviço do contrato
         de acordo estipula os limites desta modalidade de documento ao serviço
         escolhido;
 
-        -   **Tempo (por fases)**:** **esse tipo de acordo** **vincula o tempo de
+        -   **Tempo (por fases)**: esse tipo de acordo vincula o tempo de
         atendimento a uma fase, ou seja, no lugar de calcular por tempo, o SLA
         será calculado por uma fase que corresponde a um período acordado para o
         período de captura e período de execução;
