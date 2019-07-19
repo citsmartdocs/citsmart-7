@@ -231,7 +231,7 @@ no caso de gerenciamento das Ordens de Serviços relacionadas à moeda UST.
 1.  Clique na guia **Visão complexidade por contrato** e após isso, clique sobre
     a complexidade que deseja informar o valor:
 
-    ![Criar](images/register-4.png)
+    ![Criar](images/register-5.png)
     
     **Figura 5 - Informações complementares - Visão de complexidade**
 
