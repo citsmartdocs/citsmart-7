@@ -44,10 +44,10 @@ Adicionando widget ao dashboard
     
     **Figura 2 - Edição do dashboard**
 
-1.  Clique no ícone ![Criar](images/panel-5.png)  para adicionar um widget. Será apresentada a tela para
+1.  Clique no ícone ![Criar](images/panel-6.png)  para adicionar um widget. Será apresentada a tela para
     escolha do widget desejado;
 
-    ![Criar](images/panel-6.png)
+    ![Criar](images/panel-7.png)
     
     **Figura 3 - Widgets**
 
@@ -62,12 +62,12 @@ Adicionando widget ao dashboard
 
 1.  Caso tenha adicionado o widget de "links", informe os links desejados;
 
-    -   Clique no ícone de configuração ![Criar](images/panel-7.png)  do widget;
+    -   Clique no ícone de configuração ![Criar](images/panel-8.png)  do widget;
 
     -   Será apresentada a tela de adição dos links, conforme ilustrado na figura
     abaixo:
 
-     ![Criar](images/panel-8.png)
+     ![Criar](images/panel-9.png)
      
      **Figura 4 - Cadastro de Links**
 
@@ -77,13 +77,13 @@ Adicionando widget ao dashboard
     -   Clique no botão *Adicionar*. Após isso, serão exibidos os campos para
     informar os dados do link;
 
-    ![Criar](images/panel-9.png)
+    ![Criar](images/panel-10.png)
     
     **Figura 5 - Detalhes do cadastro de Links**
 
-   -   **Tipo**: informe o tipo do link:
+    -   **Tipo**: informe o tipo do link:
 
-      -   **Interno**: escolha esse tipo caso o link que será adicionado é referente a
+       -   **Interno**: escolha esse tipo caso o link que será adicionado é referente a
       uma funcionalidade do sistema -\> selecione o menu que corresponde a
       funcionalidade do sistema desejada;
 
@@ -93,10 +93,10 @@ Adicionando widget ao dashboard
 
     -   Clique no botão *Aplicar* para efetuar o cadastro.
 
-1.  Após os widgets adicionados e configurados, clique no ícone ![Criar](images/panel-10.png)  para salvar as
+1.  Após os widgets adicionados e configurados, clique no ícone ![Criar](images/panel-11.png)  para salvar as
     alterações feitas no dashboard.
 
-2.  Caso queira modificar o layout do dashboard, clique no ícone ![Criar](images/panel-11.png) .
+2.  Caso queira modificar o layout do dashboard, clique no ícone ![Criar](images/panel-12.png) .
 
 
 !!! tip "About"
