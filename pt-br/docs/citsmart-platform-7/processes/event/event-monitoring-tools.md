@@ -1,6 +1,5 @@
 title: Cadastro e pesquisa das ferramentas de monitoração de eventos
 Description: Esta funcionalidade tem como objetivo cadastrar as ferramentas que serão vinculadas ao Gerenciamento de Eventos para 
-realizar a monitoração dos diversos itens de configuração.
 # Cadastro e pesquisa das ferramentas de monitoração de eventos
 
 Esta funcionalidade tem como objetivo cadastrar as ferramentas que serão vinculadas ao Gerenciamento de Eventos para realizar a 
