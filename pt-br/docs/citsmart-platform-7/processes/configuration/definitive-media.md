@@ -1,6 +1,5 @@
 title: Cadastro e pesquisa de mídia definitiva
 Description: Esta funcionalidade tem por objetivo registrar as versões definitivas e autorizadas de todos 
-os Itens de Configuração (ICs).
 # Cadastro e pesquisa de mídia definitiva
 
 Esta funcionalidade tem por objetivo registrar as versões definitivas e autorizadas de todos os Itens de
