@@ -31,11 +31,11 @@ funcionalidade, facilitando a localização dos itens desejados:
 
 2. Realize a pesquisa do indicador de capacidade/performance;
 
-  - Informe o nome do indicador de capacidade/performance que deseja pesquisar e clique no 
-botão "Pesquisar". Após isso, será exibido o registro do indicador conforme o nome informado.
+    - Informe o nome do indicador de capacidade/performance que deseja pesquisar e clique no 
+    botão "Pesquisar". Após isso, será exibido o registro do indicador conforme o nome informado.
 
-  - Caso deseje listar todos os registros de indicador de capacidade/performance,
-basta clicar diretamente no botão "Pesquisar".
+    - Caso deseje listar todos os registros de indicador de capacidade/performance,
+    basta clicar diretamente no botão "Pesquisar".
 
 Listagem de Itens
 ------------------
