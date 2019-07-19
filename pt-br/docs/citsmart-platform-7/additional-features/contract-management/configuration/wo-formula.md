@@ -121,7 +121,7 @@ Preenchimento dos campos cadastrais
        Antes de gravar a fórmula, o sistema deve validar a sintaxe e só permitir
        a gravação se estiver correta.
 
-1.  Será exibida uma mensagem confirmando o sucesso do registro de fórmula.
+8.  Será exibida uma mensagem confirmando o sucesso do registro de fórmula.
 
 
 !!! tip "About"
