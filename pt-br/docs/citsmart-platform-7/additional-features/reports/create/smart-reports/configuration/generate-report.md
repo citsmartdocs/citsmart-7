@@ -71,8 +71,8 @@ Preenchimento dos campos cadastrais
 
     !!! info "IMPORTANTE"
 
-        A biblioteca D3 ([https://d3js.org](https://d3js.org/)/) de gráficos poderá
-        ser utilizada na criação de relatórios do tipo JSP.
+         A biblioteca D3 ([https://d3js.org](https://d3js.org/)/) de gráficos poderá
+         ser utilizada na criação de relatórios do tipo JSP.
 
     ![Criar](images/generate-3.png)
     
