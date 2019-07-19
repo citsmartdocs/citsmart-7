@@ -23,8 +23,8 @@ Filtros
 Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando
 a localização dos itens desejados:
 
-    - Url Conexão;
-    - DN Base.
+- Url Conexão;
+- DN Base.
     
 ![Conexão](images/ldap.img1.png)
 
