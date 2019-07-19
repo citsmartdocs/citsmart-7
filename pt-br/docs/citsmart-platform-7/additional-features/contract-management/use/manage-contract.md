@@ -1063,7 +1063,7 @@ Adicionando notificação
 
 2.  Informe os grupos que serão notificados;
 
-3.  Clique no ícone ![Criar](images/manage-47.png)  . Feito isso, será exibida a tela para pesquisa de grupo.
+3.  Clique no ícone ![Criar](images/manage-46.png)  . Feito isso, será exibida a tela para pesquisa de grupo.
     Realize a pesquisa do grupo desejado e selecione o mesmo;
 
 4.  Selecione os serviços do contrato, os quais deseja receber notificações
