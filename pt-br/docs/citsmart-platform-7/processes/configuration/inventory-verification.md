@@ -1,6 +1,5 @@
 title: Verificação de itens de configuração capturados pelo inventory (agente)
 Description: Esta funcionalidade tem por objetivo apresentar os detalhes dos Itens de Configuração coletados pela rotina de
-inventário.
 # Verificação de itens de configuração capturados pelo inventory (agente)
 
 Esta funcionalidade tem por objetivo apresentar os detalhes dos Itens de Configuração coletados pela rotina de inventário.
