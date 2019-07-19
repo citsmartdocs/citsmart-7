@@ -496,7 +496,7 @@ Vinculando SLA específico ao serviço do contrato
     contrato, clique no ícone ![Criar](images/manage-11.png)  ao lado do acordo, onde será aberta a tela de
     acordo de nível de serviço e clique no botão *Excluir Dados*.
 
-Vinculando sla global ao serviço do contrato
+Vinculando SLA global ao serviço do contrato
 -------------------------------------------
 
 1.  Para vincular um SLA global ao Serviço do Contrato é necessário ter
@@ -606,7 +606,7 @@ Registrando atividades do serviço do contrato
 
    - **Tipo custo**: selecione o tipo de custo da atividade.
 
-1.  Se o tipo de custo selecionado for **Custo Total**, proceda da seguinte
+6.  Se o tipo de custo selecionado for **Custo Total**, proceda da seguinte
     forma:
 
     ![Criar](images/manage-25.png)
@@ -619,7 +619,7 @@ Registrando atividades do serviço do contrato
     -   **Complexidade**: informar o nível de complexidade (dificuldade)
     correspondente que a atividade requer para o desenvolvimento da tarefa.
 
-1.  Se o tipo de custo selecionado for **Fórmula**, proceda da seguinte forma:
+7.  Se o tipo de custo selecionado for **Fórmula**, proceda da seguinte forma:
 
     ![Criar](images/manage-25.png)
     
@@ -648,14 +648,14 @@ Registrando atividades do serviço do contrato
     -   **Quantidade: 2. Período Diário**: a atividade é executada durante dois
     períodos por dia.
 
-1.  Após os dados informados, clique no botão *Gravar* para efetuar a operação,
+8.  Após os dados informados, clique no botão *Gravar* para efetuar a operação,
     onde a data, hora e usuário serão gravados automaticamente para uma futura
     auditoria;
 
-2.  Para editar uma atividade que foi adicionada ao serviço do contrato, basta
+9.  Para editar uma atividade que foi adicionada ao serviço do contrato, basta
     clicar no ícone ![Criar](images/manage-11.png)  ao lado da mesma;
 
-3.  Para excluir uma atividade que foi adicionada ao serviço do contrato, basta
+10.  Para excluir uma atividade que foi adicionada ao serviço do contrato, basta
     clicar no ícone ![Criar](images/manage-11.png)  ao lado da mesma, onde será aberta a tela de atividade do
     serviço e clicar no botão *Excluir Dados* para efetuar a operação.
 
