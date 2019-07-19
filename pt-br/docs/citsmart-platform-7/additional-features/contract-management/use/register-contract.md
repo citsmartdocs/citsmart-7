@@ -76,6 +76,7 @@ Listagem de itens
     alteração realizada no registro.
 
 Preenchimento de campos cadastrais
+----------------------------------
 
 1.  Após o acesso a funcionalidade, será apresentada a tela de **Cadastro de
     Contrato**, conforme ilustrada na figura abaixo:
