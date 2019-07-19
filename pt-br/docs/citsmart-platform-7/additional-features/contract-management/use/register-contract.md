@@ -209,7 +209,7 @@ acordado no contrato entre o provedor de serviços e o cliente.
 -   **Unidade do Valor Limite**: informe a unidade do valor limite para glosa.
     Exemplo: percentual ou quantidade de eventos;
 
--   **Detalhamento do Acordo**:** **descreva os detalhes do que foi acordado no
+-   **Detalhamento do Acordo**: descreva os detalhes do que foi acordado no
     contrato. Exemplo: A disponibilidade de uso para os serviços críticos deve
     ser de 24x7;
 
