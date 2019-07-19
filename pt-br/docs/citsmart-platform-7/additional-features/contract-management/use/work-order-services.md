@@ -10,8 +10,8 @@ Esta funcionalidade tem o objetivo de cadastrar os serviços de ordens de servi�
 Como acessar
 ----------
 
-1.  Acesse o menu principal **Gestão Integrada   Gerência de Contratos 
-    Cadastro de Serviços OS.** Após isso, será apresentada a tela de **Serviço
+1.  Acesse o menu principal **Gestão Integrada  > Gerência de Contratos >
+    Cadastro de Serviços OS**. Após isso, será apresentada a tela de **Serviço
     Ordem de Serviço**.
 
 Pré-condições
