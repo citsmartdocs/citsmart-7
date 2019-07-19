@@ -12,8 +12,8 @@ do contrato.
 Como acessar
 -----------
 
-1.  Acesse a funcionalidade de Fórmula OS** **através da navegação no menu
-    principal **Gestão Integrada   Gerência de Contratos   Fórmula OS.**
+1.  Acesse a funcionalidade de Fórmula OS através da navegação no menu
+    principal **Gestão Integrada > Gerência de Contratos >  Fórmula OS**.
 
 Pré-condições
 ------------
