@@ -1,6 +1,5 @@
 title: Módulo Gerenciamento de Demanda
 Description: O Gerenciamento de Demanda é o processo que busca compreender, antecipar e influenciar a demanda dos clientes por 
-serviços.
 # Módulo Gerenciamento de Demanda
 
 Objetivo do módulo
