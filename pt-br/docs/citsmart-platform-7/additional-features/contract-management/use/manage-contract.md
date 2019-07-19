@@ -321,7 +321,7 @@ Editando informações do vínculo do serviço ao contrato
     alteração realizada no serviço do contrato, onde a data, hora e usuário
     serão gravados automaticamente para uma futura auditoria.
 
-Vinculando sla específico ao serviço do contrato
+Vinculando SLA específico ao serviço do contrato
 -----------------------------------------------
 
 1.  Na guia de **Serviço do Contrato**, são apresentados os serviços que estão
@@ -335,7 +335,7 @@ Vinculando sla específico ao serviço do contrato
 4.  Após isso, será apresentada a tela de registro de acordo de nível de serviço
     específico, conforme ilustrada na figura abaixo:
 
-    ![Criar](images/manage-12.png)
+    ![Criar](images/manage-13.png)
     
     **Figura 10 - Tela de registro de acordo de nível de serviço**
 
@@ -344,10 +344,10 @@ Vinculando sla específico ao serviço do contrato
     -   **Tipo de Acordo**: informe o tipo de acordo de serviço;
 
         -   **Disponibilidade**: esse tipo de acordo indica a disponibilidade do
-        serviço, ou seja, se está acessível durante um período de tempo
-        acordado. Ex.: ter o prestador de serviço monitorando o site da empresa
-        cliente em tempo integral para ter certeza que os usuários possam ter
-        acesso ao conteúdo do site em tempo integral;
+            serviço, ou seja, se está acessível durante um período de tempo
+            acordado. Ex.: ter o prestador de serviço monitorando o site da empresa
+            cliente em tempo integral para ter certeza que os usuários possam ter
+            acesso ao conteúdo do site em tempo integral;
 
         -   **Falhas repetitivas**: medir a quantidade de falhas ocorridas durante
         certo tempo acordado e se porventura ultrapassar a quantidade combinada,
