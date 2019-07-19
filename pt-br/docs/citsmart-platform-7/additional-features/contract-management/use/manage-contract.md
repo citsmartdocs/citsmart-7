@@ -769,7 +769,7 @@ Criando ordem de serviço (os)
 
    -   Caso o parâmetro "**243 - Ativar assinaturas personalizadas no relatório de
     Ordens de Serviço**" esteja habilitado, será exibido o campo **Grupo de
-    Assinaturas**,** **onde deverá selecionar o grupo de assinaturas a ser
+    Assinaturas**, onde deverá selecionar o grupo de assinaturas a ser
     utilizadas na impressão do relatório de ordem de serviço. A figura abaixo
     ilustra esse campo:
 
