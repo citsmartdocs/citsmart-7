@@ -90,10 +90,10 @@ Preenchimento dos campos cadastrais
 
     !!! warning "ATENÇÃO"
 
-       Para se criar um Sub Relatório o mesmo já deve estar cadastrado e o "Tipo
-       de consulta" deverá ser SQL.
+        Para se criar um Sub Relatório o mesmo já deve estar cadastrado e o "Tipo
+        de consulta" deverá ser SQL.
 
-    -   **SQL **- Utilizar esse tipo para criar relatório que retorna as informações
+    -   **SQL** - Utilizar esse tipo para criar relatório que retorna as informações
     do Banco de Dados através de uma Query. Ao selecionar esse tipo serão
     exibidas as abas "Designer" e "SQL" e campo de "Regra de Negócio", ao
     selecionar essa opção serão apresentados novos campos, conforme figura
@@ -118,19 +118,19 @@ Preenchimento dos campos cadastrais
         Para se criar um Sub Relatório (Drill) o " Tipo de relatório" deverá
         ser "Gráfico de pizza" ou " Gráfico de Barra".
 
-        -   **Template**- Utilizar esse tipo para criar um relatório com design e
+       -  **Template**- Utilizar esse tipo para criar um relatório com design e
     estrutura desejada. Para criação do relatório com esse tipo, basta
     selecionar o tipo, informar o RhinoScript ou SQL no campo referente,
     informar o FreeMarker (framework de template) no em "Template" e os
     parâmetros se for necessário;
 
-        -   **Gráfico de linha**- Utilizar esse tipo para criar relatório que exibe
+       -   **Gráfico de linha**- Utilizar esse tipo para criar relatório que exibe
     as informações em gráfico de linha;
 
-        -   **Gráfico de pizza**- Utilizar esse tipo para criar relatório que exibe
+       -   **Gráfico de pizza**- Utilizar esse tipo para criar relatório que exibe
     as informações em gráfico de pizza:
 
-        -   **Gráfico de barra**- Utilizar esse tipo para criar relatório que exibe
+       -   **Gráfico de barra**- Utilizar esse tipo para criar relatório que exibe
     as informações em gráfico de barra, ao selecionar a opção "pizza" ou
     "barra", serão apresentados novos campos, conforme figura abaixo:
 
@@ -138,24 +138,24 @@ Preenchimento dos campos cadastrais
 
     **Figura 5 - Tela de campos ao selecionar "Gráfico de pizza" ou "Gráfico de barra"**
 
-        -   **Data table **- Utilizar esse tipo para criar relatório que inclua
+       -  **Data table **- Utilizar esse tipo para criar relatório que inclua
     todos os dados de uma determinada tabela;
 
-        -   **Cubo **- Utilizar esse tipo para criar uma consulta que permite o
+       -  **Cubo **- Utilizar esse tipo para criar uma consulta que permite o
     cruzamento de informações para fornecer dados ao relatório;
 
-        -   **Retorna HTML** - Utilizar esse tipo para criar relatório com HTML.
+       -  **Retorna HTML** - Utilizar esse tipo para criar relatório com HTML.
 
     -   **Módulo onde será exibido**: escolha uma opção onde o relatório será
     exibido;
 
-        -   **N/A**: selecione essa opção, caso queira que o relatório não seja exibido
+       -  **N/A**: selecione essa opção, caso queira que o relatório não seja exibido
     em nenhum módulo;
 
-        -   **Geral**: selecione essa opção para exibição do relatório em um ou mais
+       -  **Geral**: selecione essa opção para exibição do relatório em um ou mais
     módulos, onde deseja que o relatório seja exibido;
 
-        -   **Específico**: selecione um único módulo onde deseja que o relatório seja
+       -  **Específico**: selecione um único módulo onde deseja que o relatório seja
     exibido.
 
     -   **Grupos**: informe o grupo que terá permissão para visualizar o relatório;
