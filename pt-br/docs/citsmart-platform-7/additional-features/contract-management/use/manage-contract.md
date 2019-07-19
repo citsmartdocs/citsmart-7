@@ -299,7 +299,7 @@ Verificando os serviços do contrato
 1.  Para verificar os serviços já vinculados no contrato, proceda conforme os
     passos descritos abaixo:
 
-2.  Na guia de** Serviços do Contrato**, são apresentados todos os serviços que
+2.  Na guia de **Serviços do Contrato**, são apresentados todos os serviços que
     estão vinculados ao contrato, conforme ilustrado na figura abaixo:
 
     ![Criar](images/manage-10.png)
