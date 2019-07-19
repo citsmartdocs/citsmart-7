@@ -1,6 +1,5 @@
 title: Cadastro e pesquisa de auditoria de eventos
 Description: O objetivo deste recurso é manter um banco de dados do histórico de todas as mudanças de eventos para realizar
-uma auditoria manual.
 # Cadastro e pesquisa de auditoria de eventos
 
 O objetivo deste recurso é manter um banco de dados do histórico de todas as mudanças de eventos para realizar uma auditoria manual.
