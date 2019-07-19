@@ -403,11 +403,11 @@ Vinculando SLA específico ao serviço do contrato
     
     **Figura 11 - Índice**
 
-    6.  Informe o percentual de disponibilidade do serviço, isto é, se definir 90%
+6.  Informe o percentual de disponibilidade do serviço, isto é, se definir 90%
     significa que a partir de 10% de indisponibilidade sobre o serviço o
     contrato poderá sofrer algum tipo de penalidade acordada sobre ele;
 
-    7.  Se o tipo de acordo informado for **Falhas repetitivas**, informe os dados
+7.  Se o tipo de acordo informado for **Falhas repetitivas**, informe os dados
     do acordo de serviço por falhas repetitivas:
 
     ![Criar](images/manage-15.png)
