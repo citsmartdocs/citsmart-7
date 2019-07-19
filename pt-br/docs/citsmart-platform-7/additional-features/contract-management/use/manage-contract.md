@@ -287,9 +287,9 @@ Vinculando vários serviços ao contrato
        Caso seja necessário fazer uso de mais de um fluxo, é importante informar
        qual será o principal.
 
-1.  Clique em *Gravar* para efetuar a operação.
+  c)  Clique em *Gravar* para efetuar a operação.
 
-2.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
+5.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
     onde a data, hora e usuário serão gravados automaticamente para uma futura
     auditoria.
 
