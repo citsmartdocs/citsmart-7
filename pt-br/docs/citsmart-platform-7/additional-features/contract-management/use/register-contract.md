@@ -128,7 +128,7 @@ Preenchimento de campos cadastrais
 
       -   **Real**: moeda corrente oficial do Brasil;
 
-      -   **UST**:** **Unidade Serviço Técnico, quantificação monetária relativa aos
+      -   **UST**: Unidade Serviço Técnico, quantificação monetária relativa aos
       serviços utilizados em determinados contratos públicos federais, conforme
       IN04, ou outras que porventura possam servir de métricas para a valoração de
       serviço.
