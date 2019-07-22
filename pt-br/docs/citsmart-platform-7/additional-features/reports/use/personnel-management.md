@@ -48,9 +48,9 @@ Filtros
 
     !!! info "IMPORTANTE"
 
-       Caso não seja informado um colaborador, será gerado o relatório contendo
-       as informações de todos os colaboradores ativos da(s) respectiva(s)
-       unidade(s), referente ao contrato informado.
+        Caso não seja informado um colaborador, será gerado o relatório contendo
+        as informações de todos os colaboradores ativos da(s) respectiva(s)
+        unidade(s), referente ao contrato informado.
 
 1.  Se desejar remover algum colaborador, basta selecioná-lo e clicar no
     botão *Remover*. Mas caso deseje remover todos os colaboradores, basta
