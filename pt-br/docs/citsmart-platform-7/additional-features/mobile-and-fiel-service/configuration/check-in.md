@@ -49,7 +49,7 @@ Listagem de itens
 
 1.  O seguinte campo cadastral está disponível ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** Nome.**
+    funcionalidade: **Nome**.
 
     ![Criar](images/checkin-2.png)
     
