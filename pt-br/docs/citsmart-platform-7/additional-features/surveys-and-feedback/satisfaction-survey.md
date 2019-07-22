@@ -11,7 +11,7 @@ satisfação do atendimento de serviço.
 Como acessar
 -----------
 
-1.  Acesse a funcionalidade de grau de satisfação** **através da navegação no
+1.  Acesse a funcionalidade de grau de satisfação através da navegação no
     menu principal **Sistema > Grau de satisfação do atendimento**.
 
 Pré-condições
