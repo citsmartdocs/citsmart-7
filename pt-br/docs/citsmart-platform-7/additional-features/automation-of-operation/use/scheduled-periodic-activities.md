@@ -73,12 +73,12 @@ Preenchimento dos campos cadastrais
     
     **Figura 2 - Registro de execução de atividade**
 
-       -  **Situação**: selecione a situação que a atividade se encontra.
+    -  **Situação**: selecione a situação que a atividade se encontra.
 
-    -   Clique no botão orientações técnicas, para verificar as orientações para
+    -  Clique no botão orientações técnicas, para verificar as orientações para
     execução da atividade;
 
-    -   Se a situação selecionada for “**Em execução**” ou “**Executado**”, preencha
+    -  Se a situação selecionada for “**Em execução**” ou “**Executado**”, preencha
     os campos:
 
        -  **Detalhamento**: descreva os detalhes da execução da atividade;
