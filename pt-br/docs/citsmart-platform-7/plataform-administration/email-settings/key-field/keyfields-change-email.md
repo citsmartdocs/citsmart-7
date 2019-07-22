@@ -17,11 +17,10 @@ São relacionados abaixo os campos chave disponíveis para inserção no cadastr
 |    ${DATACONCLUSAOSTR}    |           Data de Conclusão. Informa a data da conclusão do atendimento da requisição de mudança.           |
 |     ${DATAHORACAPTURA}    |       Data e Hora de Captura da Requisição. Informa a data e hora da captura da requisição de mudança.      |
 |    ${DATAHORAINICIOSTR}   | Data e Hora do Registro da Requisição. Informa a data e hora em que a requisição de mudança foi registrada. |
-| ${DATAHORASOLICITACAOSTR} | Data e Hora do Registro da Requisição. Informa a data e hora em que a requisição de mudança foi registrada. |
 |  {DATAHORAINICIOAGENDADA} | Data e Hora de Início Agendada. Informa a data e hora de início do atendimento da requisição de mudança que foi agendada.|          
 | ${DATAHORASOLICITACAOSTR} | Data e Hora do Registro da Requisição. Informa a data e hora em que a requisição de mudança foi registrada  |
-| ${DATAHORATERMINOAGENDADA}| Data e Hora de Término Agendada. Informa a data da votação para aprovação da mudança.                       |
-|  ${DATAHORATERMINOSTR}    | Prazo Limite. Informa a prazo limite para atendimento da requisição de mudança.                             |
+| ${DATAHORATERMINOAGENDADA}| Data e Hora de Término Agendada. Informa a data e hora de término do atendimento da requisição de mudança que foi agendada.                       |
+|  ${DATAHORATERMINOSTR}    | Prazo Limite. Informa o prazo limite para atendimento da requisição de mudança.                             |
 |   ${DATAINICIO}           | Data de Início da Reunião. Informa a data de início da reunião agendada.                                    |
 |    ${DATAVOTACAO}         | Data da Votação. Informa a data da votação para aprovação da requisição de mudança.                         |
 |       ${DESCRICAO}        | Descrição da Requisição de Mudança. Informa a descrição da requisição de mudança.                           |
@@ -32,10 +31,10 @@ São relacionados abaixo os campos chave disponíveis para inserção no cadastr
 |     ${HORAINICIO}         |    Hora de Início da Reunião. Informa a hora de início da reunião agendada                                  |
 |  ${IDREQUISICAOMUDANCA}   |    Número da Requisição de Mudança. Informa o número de identificação da requisição de mudança.             |
 |       ${NIVELIMPACTO}     |     Impacto.   Informa o impacto da requisição de mudança.                                                  |
-|     ${LOCALREUNIAO}       |     Local da Reunião.Informa o local da reunião agendada.                                                   |
+|     ${LOCALREUNIAO}       |     Local da Reunião. Informa o local da reunião agendada.                                                |
 |     ${NIVELURGENCIA}      |     Urgência. Informa a urgência da requisição de mudança.                                                  |
 | ${NOMECATEGORIAMUDANCA}   |      Categoria da Mudança. Informa da categoria da requisição de mudança.                                   |
-|      ${NOMECONTATO}       |      Nome do Contato. Informar o nome do solicitante para contato                                           |
+|      ${NOMECONTATO}       |      Nome do Contato. Informar o nome do solicitante para contato.                                           |
 |      ${NOMEGRUPOATUAL}    |      Grupo Atual. Informa o grupo atual responsável pelo atendimento da requisição de mudança.              |
 |      ${NOMEGRUPONIVEL1}   |      Grupo de Nível 1. Informa o grupo de nível 1 configurado para atendimento da requisição de mudança.    |
 |    ${NOMESOLICITANTE}     |    Nome do Solicitante. Informa o nome do solicitante da requisição de mudança.                             |
