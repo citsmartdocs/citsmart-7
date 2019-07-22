@@ -119,14 +119,14 @@ Configuração das rotas
        Ao clicar no marcador da rota, no mapa, serão apresentadas as informações
        da solicitação de serviço.
 
-1.  Clique no botão *Gravar* para efetuar a operação, onde a data, hora e
+5.  Clique no botão *Gravar* para efetuar a operação, onde a data, hora e
     usuário serão gravados automaticamente para uma futura auditoria.
 
-!!! info "IMPORTANTE"
+   !!! info "IMPORTANTE"
 
-Após a gravação, será enviada uma notificação para o técnico, onde ele
-poderá verificar pelo aplicativo CITSmart Enterprise ITSM Mobile a(s)
-solicitação(ões) que será(ão) atendida(s) por ele.
+     Após a gravação, será enviada uma notificação para o técnico, onde ele
+     poderá verificar pelo aplicativo CITSmart Enterprise ITSM Mobile a(s)
+     solicitação(ões) que será(ão) atendida(s) por ele.
 
 
 !!! tip "About"
