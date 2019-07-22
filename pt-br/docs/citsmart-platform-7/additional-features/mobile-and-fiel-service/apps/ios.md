@@ -83,18 +83,18 @@ aplicativo na loja on-line (App Store).
         o domínio LDAP de uso e seu usuário;
 
         -   O formato é citsmart.local\\usuario.consultor (exemplo), sendo que a
-    primeira parte é a informação do domínio e a segunda parte é o usuário;
+            primeira parte é a informação do domínio e a segunda parte é o usuário;
 
     -   **Senha:** o usuário irá digitar a senha de acesso ao sistema;
 
     -   **Disponível**:
 
         -   Habilitado: Quando está habilitado, a conexão será a fornecida no campo
-        URL, e além disso, para pegar a posição do atendente esse campo deve
-        estar habilitado;
+            URL, e além disso, para pegar a posição do atendente esse campo deve
+            estar habilitado;
 
         -   Desabilitado: Quando está desabilitado o sistema não permitirá conexão
-        ao servidor nem irá pegar a posição do atendente.
+            ao servidor nem irá pegar a posição do atendente.
 
     !!! warning "ATENÇÃO"
 
@@ -131,7 +131,7 @@ Utilização do app no mobile
     
     **Figura 6 - Tela de menu**
 
-1.  Para escolher o tipo de solicitação que deseja visualizar, clique no ícone 
+1.  Para escolher o tipo de solicitação que deseja visualizar, clique no ícone ![Criar](images/ios-6.1.png) 
      localizado no canto esquerdo superior;
 
     ![Criar](images/ios-7.png)
