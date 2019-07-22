@@ -253,48 +253,48 @@ Utilização do app no mobile
 
 1.  Registre as informações da solicitação de serviço:
 
-    -   **Catálogo**: selecione o catálogo de serviços;
+    -  **Catálogo**: selecione o catálogo de serviços;
 
-    -   **Serviço**: informe o serviço referente ao catálogo de serviços
+    -  **Serviço**: informe o serviço referente ao catálogo de serviços
     selecionado. Se o catálogo de serviços for "**Negócio**", serão
     disponibilizados neste campo os serviços de negócio para seleção, mas se o
     catálogo de serviços for "**Técnico**", serão disponibilizados neste campo
     os serviços de apoio/técnico para seleção;
 
-    -   **Tipo**: selecione o tipo da solicitação, se é uma abertura de incidente ou
+    -  **Tipo**: selecione o tipo da solicitação, se é uma abertura de incidente ou
     requisição de serviço:
 
-       -   **Incidente**:** **caso a situação apresentada seja uma interrupção não
-        planejada, uma redução na qualidade do serviço ou falha de algum item de
-        configuração que ainda não tenha impactado um serviço de TI. Ex.: O link
-        de rede está fora, a rede está lenta, o servidor inacessível, etc.;
+       -  **Incidente**: caso a situação apresentada seja uma interrupção não
+          planejada, uma redução na qualidade do serviço ou falha de algum item de
+          configuração que ainda não tenha impactado um serviço de TI. Ex.: O link
+          de rede está fora, a rede está lenta, o servidor inacessível, etc.;
 
-       -   **Requisição**: refere-se aos pedidos de demandas realizados pelos
-        usuários dentro do ambiente da Tecnologia da Informação. Podem ser desde
-        pedidos de acesso até sugestões de melhoria a baixo custo. Ex.: pedido
-        de acesso à rede para um novo usuário, solicitação de configuração de
-        algum equipamento, requisição para adicionar algum software na estação
-        de trabalho, etc.
+       -  **Requisição**: refere-se aos pedidos de demandas realizados pelos
+          usuários dentro do ambiente da Tecnologia da Informação. Podem ser desde
+          pedidos de acesso até sugestões de melhoria a baixo custo. Ex.: pedido
+          de acesso à rede para um novo usuário, solicitação de configuração de
+          algum equipamento, requisição para adicionar algum software na estação
+          de trabalho, etc.
 
-    -   **Categoria**: informe a categoria de serviço para facilitar a busca da
+    -  **Categoria**: informe a categoria de serviço para facilitar a busca da
     atividade (requisição/incidente). A categoria irá identificar a natureza da
     atividade, posicionando-o dentro de grupos semelhantes de atuação,
     situando-o na hierarquia de sua categoria;
 
-    -   **Atividade (Requisição/Incidente)**: informe a atividade que será realizada
+    -  **Atividade (Requisição/Incidente)**: informe a atividade que será realizada
     referente ao tipo de solicitação. Caso a atividade informada tenha um
     “Script de Orientação” associado, o mesmo será exibido na guia de "Scripts"
     representada pelo ícone localizado no canto superior direito da tela;
 
-    -   **Contrato**: após informar a atividade (requisição/incidente), será exibido
+    -  **Contrato**: após informar a atividade (requisição/incidente), será exibido
     o contrato para o qual será feita a abertura de incidente ou requisição de
     serviço;
 
-    -   **Urgência**: após informar a atividade (requisição/incidente), será exibida
+    -  **Urgência**: após informar a atividade (requisição/incidente), será exibida
     a informação da urgência a qual indica a velocidade na qual o serviço
     precisa ser realizado;
 
-    -   **Impacto**: após informar a atividade (requisição/incidente), será exibida
+    -  **Impacto**: após informar a atividade (requisição/incidente), será exibida
     a informação de impacto do serviço ao negócio;
 
     !!! note "NOTA"
@@ -323,7 +323,7 @@ Utilização do app no mobile
     atividade ao contrato, a solicitação será direcionada para o grupo definido
     no parâmetro "**ID Grupo Nível 1**";
 
-    -   **Notificações**:** **marque as opções de envio de notificação sobre a
+    -   **Notificações**: marque as opções de envio de notificação sobre a
     solicitação para serem enviadas ao solicitante;
 
     -   **Registro de Execução**: não é necessário o preenchimento deste campo, pois
