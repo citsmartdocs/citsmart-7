@@ -61,7 +61,7 @@ Preenchimento dos campos cadastrais
 Verificando o posicionamento dos atendentes
 ------------------------------------------
 
-1.  Será apresentada a tela de** Verificação da Posição do Técnico**, conforme
+1.  Será apresentada a tela de **Verificação da Posição do Técnico**, conforme
     ilustrada na figura a seguir. Nesta tela, poderá visualizar a localização
     do(s) técnico(s) no mapa, de acordo com os filtros informados;
 
