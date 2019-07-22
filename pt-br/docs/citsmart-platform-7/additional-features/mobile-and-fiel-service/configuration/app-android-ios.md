@@ -95,7 +95,7 @@ abaixo:
 2.  Realize o download do primeiro certificado, conforme indicado na figura
     abaixo:
 
-    ![Criar](images/android-ios-1.png)
+    ![Criar](images/android-ios-1.jpg)
     
     **Figura 1 - Certificado intermediário da GlobalSign**
 
@@ -105,7 +105,7 @@ abaixo:
 2.  No desktop: clicar com botão direito no certificado baixado (conforme figura
     abaixo), clicar em instalar certificado e avançar até concluir.
 
-    ![Criar](images/android-ios-2.png)
+    ![Criar](images/android-ios-2.jpg)
     
     **Figura 2 - Instalação do certificado no Windows**
 
@@ -138,30 +138,30 @@ Google.
 
 2.  Clique em Criar um projeto, conforme indicado na figura abaixo:
 
-    ![Criar](images/android-ios-3.png)
+    ![Criar](images/android-ios-3.jpg)
     
     **Figura 3 - Console do desenvolvedor Google**
 
 1.  Será apresentada uma janela, conforme ilustrada na figura abaixo, para
     informar os dados do novo projeto;
 
-    ![Criar](images/android-ios-3.png)
+    ![Criar](images/android-ios-4.jpg)
     
     **Figura 4 - Tela de criação de projeto**
 
 1.  Informe o nome do projeto e clique no botão Criar para criação do projeto.
 
 2.  Após criar o projeto, clique em APIs e serviços. Para criar a API Key,
-    clique em APIs e serviços → Credenciais → Criar credenciais → Chave de API,
+    clique em APIs e serviços > Credenciais > Criar credenciais > Chave de API,
     conforme indicado na figura abaixo:
 
-    ![Criar](images/android-ios-5.png)
+    ![Criar](images/android-ios-5.jpg)
     
     **Figura 5 - Tela de criação de API Key**
 
 1.  Feito isso, a chave de API será apresentada:
 
-    ![Criar](images/android-ios-6.png)
+    ![Criar](images/android-ios-6.jpg)
     
     **Figura 6 - Tela de opções de API Key para criação**
 
@@ -176,7 +176,7 @@ Apis a serem utilizadas nas soluções
 
 Segue abaixo as APIs do Google a serem consideradas nas soluções:
 
-![Criar](images/android-ios-7.png) 
+![Criar](images/android-ios-7.jpg) 
     
 **Figura 7 - APIs**
 
@@ -222,7 +222,7 @@ Para ativar uma API para uso, proceda conforme os passos descritos abaixo:
 2.  Clique em APIs e serviços → Ativar APIs e serviços , conforme indicado na
     figura abaixo:
 
-    ![Criar](images/android-ios-8.png)
+    ![Criar](images/android-ios-8.jpg)
     
     **Figura 8 - APIs Google**
 
@@ -230,7 +230,7 @@ Para ativar uma API para uso, proceda conforme os passos descritos abaixo:
     figura abaixo representa um exemplo de API) e clique no botão Ativar API
     conforme indicado na figura abaixo:
 
-    ![Criar](images/android-ios-9.png)
+    ![Criar](images/android-ios-9.jpg)
     
     **Figura 9 - Ativação da APIs Google**
 
