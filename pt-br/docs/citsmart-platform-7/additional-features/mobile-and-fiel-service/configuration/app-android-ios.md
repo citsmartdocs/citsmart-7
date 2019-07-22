@@ -74,7 +74,7 @@ A configuração dos Web services são fundamentais para o acesso a todas as
 funcionalidades do aplicativo. Siga os passos para melhor configurá-lo:
 
 1.  No CITSmart Enterprise (Web), acesse a funcionalidade de Web Services
-    referente ao mobile (Sistema → Configurações → Web Services Citsmart
+    referente ao mobile (Sistema > Configurações > Web Services Citsmart
     Mobile);
 
 2.  Clique na aba “Vincular Grupos” e vincule o grupo executor de atividades aos
