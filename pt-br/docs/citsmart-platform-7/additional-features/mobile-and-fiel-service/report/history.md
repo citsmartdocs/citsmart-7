@@ -70,22 +70,22 @@ Verificando o histórico de atendimento
 
 1.  Defina os filtros de acordo com sua necessidade:
 
-    -   **Estado**: informar o estado das solicitações de serviços que deseja
+   -  **Estado**: informar o estado das solicitações de serviços que deseja
     verificar o histórico de seu atendimento pelo(s) técnico(s) de campo;
 
-    -   **Cidades**: informar a cidade referente às solicitações de serviços que
+   -  **Cidades**: informar a cidade referente às solicitações de serviços que
     deseja verificar o histórico de seu atendimento pelo(s) técnico(s) de campo;
 
-    -   **Contrato**: informar o contrato referente às solicitações de serviços que
+   -  **Contrato**: informar o contrato referente às solicitações de serviços que
     deseja verificar o histórico de seu atendimento pelo(s) técnico(s) de campo;
 
-    -   **Unidade**: informar a unidade referente às solicitações de serviços que
+   -  **Unidade**: informar a unidade referente às solicitações de serviços que
     deseja verificar o histórico de seu atendimento pelo(s) técnico(s) de campo;
 
-    -   **Grupo Executor**: informar o grupo executor de solicitações de serviços
+   -  **Grupo Executor**: informar o grupo executor de solicitações de serviços
     para verificar o atendimento;
 
-    -   **Técnico**: informar o técnico para verificar o histórico de atendimento
+   -  **Técnico**: informar o técnico para verificar o histórico de atendimento
     das solicitações de serviços;
 
    !!! note "NOTA"
