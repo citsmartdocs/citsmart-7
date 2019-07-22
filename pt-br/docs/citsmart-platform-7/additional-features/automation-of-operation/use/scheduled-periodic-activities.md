@@ -87,7 +87,7 @@ Preenchimento dos campos cadastrais
 
        -   **Hora de execução**: informe a hora de execução da atividade.
 
-    -   Se a situação selecionada for “**Suspenso**”, preencha os campos:
+    -  Se a situação selecionada for “**Suspenso**”, preencha os campos:
 
        -   **Motivo**: selecione o motivo da suspensão da atividade;
 
@@ -95,9 +95,9 @@ Preenchimento dos campos cadastrais
 
        -   Informe a data e hora da suspensão da atividade.
 
-    -   Após os dados informados, clique no botão *Gravar* para efetuar o registro.
+    -  Após os dados informados, clique no botão *Gravar* para efetuar o registro.
 
-    -   A atividade que estiver **em execução**, será exibida com a cor azul,
+    -  A atividade que estiver **em execução**, será exibida com a cor azul,
     conforme exemplo ilustrado na figura abaixo:
     
     ![Criar](images/schedule-3.png)
