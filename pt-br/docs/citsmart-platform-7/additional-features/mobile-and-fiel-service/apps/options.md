@@ -30,14 +30,14 @@ Filtros
     itens na listagem padrão da funcionalidade, facilitando a localização dos
     itens desejados:
 
--   Título;
+    -   Título;
 
--   Situação.
+    -   Situação.
 
 1.  Na tela inicial da funcionalidade **Configuração das opções de mobile**, é
     possível realizar a pesquisa de configuração das opções de mobile:
 
--   Informe o nome e a situação da configuração que deseja pesquisar.
+    -   Informe o nome e a situação da configuração que deseja pesquisar.
 
     ![Criar](images/options-1.png)
     
