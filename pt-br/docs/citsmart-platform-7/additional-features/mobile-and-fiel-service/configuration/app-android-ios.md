@@ -33,7 +33,7 @@ funcionalidades do aplicativo. Seguir os passos para melhor configurá-lo:
 2.  Clicar na aba “Vincular Grupos” e vincular o grupo executor de atividades aos
     Web Services do CITSmart Experience Mobile.
 
-!!! Abstract "Regra"
+!!! note "NOTA"
 
     No momento que o grupo for selecionado ele será vinculado a todos os Web
     Services do CITSmart Experience de forma automatizada.
@@ -82,10 +82,10 @@ Certificado Digital) é necessário a instalação do mesmo:
 Para que seja possível o uso e consumo das APIs Google é necessário que uma API
 Key seja criada. Para isso, os seguintes passos devem ser seguidos:
 
-!!! Abstract "ATENÇÃO"
+!!! info "IMPORTANTE"
 
-    Para realizar esses procedimentos é necessário estar logado com uma conta
-    Google.
+      Para realizar esses procedimentos é necessário estar logado com uma conta
+      Google.
 
 4.  Acessar o console do desenvolvedor
     Google [https://console.developers.google.com](https://console.developers.google.com/);
@@ -190,17 +190,20 @@ Para ativar uma API para uso, proceder conforme os passos descritos abaixo:
 4.  Feito isso, a API estará habilitada para uso.
 
 
-Relacionado
+Utilizando o aplicativo
 -----------
 
-[Configurar parametrização - mobile](/pt-br/citsmart-platform-8/platform-administration/parameters-list/configuration-parametrization-mobile.html)
+Ver conhecimento: 
 
-[Configurar parametrização - sistema](/pt-br/citsmart-platform-8/platform-administration/parameters-list/configure-parametrization-system.html)
 
-[Manual de utilização do aplicativo mobile CITSmart Experience](/pt-br/citsmart-platform-8/additional-features/mobile-and-field-service/apps/citsmart-app.html)
+[Manual do usuário do aplicativo mobile CITSmart Enterprise ITSM (Android)]()
 
-[Configurar as opções de menu no mobile](/pt-br/citsmart-platform-8/additional-features/mobile-and-field-service/configuration/configure-mobile-options.html)
+[Manual do usuário do aplicativo mobile CITSmart Enterprise ITSM (Android)]()
+
+
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
+    <b>Updated:</b>07/22/2019 – Anna Martins
+
