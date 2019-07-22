@@ -52,15 +52,15 @@ Utilização dos campos chaves
 Segue abaixo os exemplos de utilização dos campos chaves disponíveis para inserção no cadastro de modelo de e-mail relacionado
 a mudanças.
 
-    ![Exemplo](images/key-mud.img1.png)
+![Exemplo](Images/key-mud.img1.png)
 
 **Figura 1 - Exemplo de inserção dos campos chave no modelo de e-mail**
 
-    ![Exemplo](images/key-mud.img2.png)
+![Exemplo](Images/key-mud.img2.png)
 
 **Figura 2 - Exemplo do resultado de envio do modelo de e-mail**
 
-   ![Campos](images/key-mud.img3.png)
+![Campos](Images/key-mud.img3.png)
 
 **Figura 3 - Exemplo**
 
