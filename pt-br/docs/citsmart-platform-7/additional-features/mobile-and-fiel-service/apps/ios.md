@@ -169,29 +169,29 @@ Utilização do app no mobile
 1.  Em cada solicitação, quando se clica em cima é apresentado uma listagem de
     opções, sendo:
 
-    ![Criar](images/ios-11.png)
+    ![Criar](images/ios-11.jpg)
     
-    **Figura 11-** **Lista de ticket**
+    **Figura 11- Lista de ticket**
 
-- ![Criar](images/ios-12.png)   - captura a solicitação para o usuário logado ou apenas visualiza o ticket
+- ![Criar](images/ios-12.jpg)   - captura a solicitação para o usuário logado ou apenas visualiza o ticket
     sem capturar;
 
-- ![Criar](images/ios-13.png)   - visualiza o ticket;
+- ![Criar](images/ios-13.jpg)   - visualiza o ticket;
 
-- ![Criar](images/ios-14.png)   - mostra o resumo da solicitação;
+- ![Criar](images/ios-14.jpg)   - mostra o resumo da solicitação;
 
-- ![Criar](images/ios-15.png)   - visualiza mensagens;
+- ![Criar](images/ios-15.jpg)   - visualiza mensagens;
 
-- ![Criar](images/ios-16.png)   - mostra relatórios do ticket;
+- ![Criar](images/ios-16.jpg)   - mostra relatórios do ticket;
 
-- ![Criar](images/ios-17.png)   - menu de opções de ações para a solicitação (Delegar, Suspender, Alterar
+- ![Criar](images/ios-17.jpg)   - menu de opções de ações para a solicitação (Delegar, Suspender, Alterar
     SLA, Reclassificar, Criar sub-solicitações, Exibir sub-solicitações, Agendar
     atividade, Criar solicitação relacionada e Imprimir Solicitação).
 
 ### Criando solicitação de serviço
 
-1.  Para criar uma solicitação de serviço, pressione o ícone ![Criar](images/ios-18.png)  localizado no
-    canto direito inferior da tela e selecione o ícone ![Criar](images/ios-19.png) “Novo ticket”, conforme
+1.  Para criar uma solicitação de serviço, pressione o ícone ![Criar](images/ios-18.jpg)  localizado no
+    canto direito inferior da tela e selecione o ícone ![Criar](images/ios-19.jpg) “Novo ticket”, conforme
     ilustrado abaixo:
 
     ![Criar](images/ios-20.png)
@@ -206,19 +206,19 @@ Utilização do app no mobile
 1.  Será apresentada a tela com campos cadastrais, conforme figuras abaixo:
 
     
-    ![Criar](images/ios-21.png)
+    ![Criar](images/ios-21.jpg)
     
     **Figura 13 - Tela de cadastro de nova solicitação**
 
-    ![Criar](images/ios-22.png)
+    ![Criar](images/ios-22.jpg)
    
     **Figura 14 - Tela de cadastro de nova solicitação (continuação)**
 
-    ![Criar](images/ios-23.png)
+    ![Criar](images/ios-23.jpg)
     
     **Figura 15 - Tela de cadastro de nova solicitação (continuação)**
 
-    ![Criar](images/ios-24.png)
+    ![Criar](images/ios-24.jpg)
     
     **Figura 16 - Tela de cadastro de nova solicitação (continuação)**
 
@@ -264,12 +264,12 @@ Utilização do app no mobile
     -   **Tipo**: selecione o tipo da solicitação, se é uma abertura de incidente ou
     requisição de serviço:
 
-        -   **Incidente**:** **caso a situação apresentada seja uma interrupção não
+       -   **Incidente**:** **caso a situação apresentada seja uma interrupção não
         planejada, uma redução na qualidade do serviço ou falha de algum item de
         configuração que ainda não tenha impactado um serviço de TI. Ex.: O link
         de rede está fora, a rede está lenta, o servidor inacessível, etc.;
 
-        -   **Requisição**: refere-se aos pedidos de demandas realizados pelos
+       -   **Requisição**: refere-se aos pedidos de demandas realizados pelos
         usuários dentro do ambiente da Tecnologia da Informação. Podem ser desde
         pedidos de acesso até sugestões de melhoria a baixo custo. Ex.: pedido
         de acesso à rede para um novo usuário, solicitação de configuração de
@@ -343,7 +343,7 @@ necessário aprová-las.
 2.  Será apresentada a tela de “Detalhes” exibindo a descrição da solicitação
     para aprovação/rejeição da mesma;
 
-    ![Criar](images/ios-25.png)
+    ![Criar](images/ios-25.jpg)
     
     **Figura 17 - Tela de Aprovação/Rejeição de Solicitação**
 
@@ -353,7 +353,7 @@ necessário aprová-las.
     uma tela para escolha da justificativa desta rejeição, conforme apresentada
     na figura abaixo:
 
-    ![Criar](images/ios-26.png)
+    ![Criar](images/ios-26.jpg)
     
     **Figura 18 - Tela justificava de rejeição da solicitação**
 
