@@ -102,7 +102,7 @@ Verificando o histórico de atendimento
   -  **Situação da Solicitação**: selecionar a situação de atendimento da
   solicitação de serviço.
 
-1.  Após os filtros definido, clique no botão *Pesquisar*. Feito isso, serão
+2.  Após os filtros definido, clique no botão *Pesquisar*. Feito isso, serão
     exibidos no mapa o histórico de atendimento das solicitações de serviço pelo
     técnico de campo, conforme exemplo ilustrado na figura a seguir:
 
