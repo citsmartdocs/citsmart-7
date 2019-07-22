@@ -43,7 +43,7 @@ Filtros
     exibida em formato de calendário, onde poderá ser visualizada as atividades.
     A figura abaixo ilustra essa tela:
 
-    ![Criar](images/periodic-1.png)
+    ![Criar](images/schedule-1.png)
     
     **Figura 1 - Agenda de atividades**
 
@@ -69,7 +69,7 @@ Preenchimento dos campos cadastrais
     isso, será exibida a tela para cadastrar as informações necessárias,
     conforme exemplo ilustrado na figura abaixo:
 
-    ![Criar](images/periodic-2.png)
+    ![Criar](images/schedule-2.png)
     
     **Figura 2 - Registro de execução de atividade**
 
@@ -99,14 +99,25 @@ Preenchimento dos campos cadastrais
 
     -   A atividade que estiver **em execução**, será exibida com a cor azul,
     conforme exemplo ilustrado na figura abaixo:
+    
+    ![Criar](images/schedule-3.png)
+    
+    **Figura 3 - Exemplo 1**
 
     -   A atividade que for **executada**, será exibida com a cor verde, conforme
     exemplo ilustrado na figura abaixo:
 
+     ![Criar](images/schedule-4.png)
+    
+    **Figura 4 - Exemplo 2**
+
     -   A atividade que for **suspensa**, será exibida com a cor cinza, conforme
     exemplo ilustrado na figura abaixo:
 
-
+    ![Criar](images/schedule-5.png)
+    
+    **Figura 5 - Exemplo 3**
+    
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
