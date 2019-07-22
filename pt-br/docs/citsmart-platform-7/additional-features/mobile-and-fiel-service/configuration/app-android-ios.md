@@ -171,7 +171,7 @@ Google.
 
 2.  Após as chaves criadas, as APIs já poderão ser consumidas.
 
-Apis a serem utilizadas nas soluções
+APIs a serem utilizadas nas soluções
 -----------------------------------
 
 Segue abaixo as APIs do Google a serem consideradas nas soluções:
@@ -211,15 +211,15 @@ Segue abaixo as APIs do Google a serem consideradas nas soluções:
     informações sobre o uso dessa API,
     acesse: <https://developers.google.com/maps/documentation/javascript>.
 
-Ativando uma Api
+Ativando uma API
 ---------------
 
 Para ativar uma API para uso, proceda conforme os passos descritos abaixo:
 
-1.  Após de executar os passos descritos na seção 'Criando chave para uso e
+1.  Após de executar os passos descritos na seção "Criando chave para uso e
     consumo das APIs Google";
 
-2.  Clique em APIs e serviços → Ativar APIs e serviços , conforme indicado na
+2.  Clique em APIs e serviços > Ativar APIs e serviços , conforme indicado na
     figura abaixo:
 
     ![Criar](images/android-ios-8.jpg)
