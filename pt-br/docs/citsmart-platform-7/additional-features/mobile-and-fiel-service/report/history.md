@@ -93,14 +93,14 @@ Verificando o histórico de atendimento
        Ao selecionar o técnico, serão apresentadas as solicitações de serviços
        que o mesmo atendeu e que faz referência ao(s) contrato(s) que ele pertence.
 
-    -   **Data início**: informar a data inicial que faz referência ao dia
+   -  **Data início**: informar a data inicial que faz referência ao dia
     trabalhado do técnico;
 
-    -   **Data fim**: informar a data final que faz referência ao dia trabalhado do
+  -  **Data fim**: informar a data final que faz referência ao dia trabalhado do
     técnico;
 
-    -   **Situação da Solicitação**: selecionar a situação de atendimento da
-    solicitação de serviço.
+  -  **Situação da Solicitação**: selecionar a situação de atendimento da
+  solicitação de serviço.
 
 1.  Após os filtros definido, clique no botão *Pesquisar*. Feito isso, serão
     exibidos no mapa o histórico de atendimento das solicitações de serviço pelo
