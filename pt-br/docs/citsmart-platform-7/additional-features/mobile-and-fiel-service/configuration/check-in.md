@@ -29,7 +29,7 @@ Filtros
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Nome.
+    -   Nome.
 
     ![Criar](images/checkin-1.png)
     
