@@ -35,7 +35,7 @@ Pré-condições
 1.  Implantar a versão 7.2.2.0 (ou superior) do **CITSmart Enterprise ITSM**;
 
 2.  Configurar o servidor para uso do aplicativo mobile **CITSmart ITSM
-    Enterprise **(ver conhecimentos: [Manual de configuração do servidor para
+    Enterprise** (ver conhecimentos: [Manual de configuração do servidor para
     uso do CITSmart ITSM Enterprise (iOS e
     Android)]() e [Cadastro
     e Pesquisa das Configurações das Opções de
