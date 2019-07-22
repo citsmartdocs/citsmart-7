@@ -173,12 +173,12 @@ Utilização do app no mobile
     
     **Figura 11- Lista de ticket**
 
-- ![Criar](images/ios-12.jpg)   - captura a solicitação para o usuário logado ou apenas visualiza o ticket
+- ![Criar](images/ios-12.png)   - captura a solicitação para o usuário logado ou apenas visualiza o ticket
     sem capturar;
 
-- ![Criar](images/ios-13.jpg)   - visualiza o ticket;
+- ![Criar](images/ios-13.png)   - visualiza o ticket;
 
-- ![Criar](images/ios-14.jpg)   - mostra o resumo da solicitação;
+- ![Criar](images/ios-14.png)   - mostra o resumo da solicitação;
 
 - ![Criar](images/ios-15.jpg)   - visualiza mensagens;
 
@@ -194,7 +194,7 @@ Utilização do app no mobile
     canto direito inferior da tela e selecione o ícone ![Criar](images/ios-19.jpg) “Novo ticket”, conforme
     ilustrado abaixo:
 
-    ![Criar](images/ios-20.png)
+    ![Criar](images/ios-20.jpg)
     
     **Figura 12 – Criação de solicitação de serviço**
 
