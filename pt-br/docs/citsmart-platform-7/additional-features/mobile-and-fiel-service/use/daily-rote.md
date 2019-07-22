@@ -66,7 +66,7 @@ Preenchimento dos campos cadastrais
 Configuração das rotas
 ---------------------
 
-1.  Será apresentada a tela de** Configuração das Rotas**, conforme ilustrada na
+1.  Será apresentada a tela de **Configuração das Rotas**, conforme ilustrada na
     figura a seguir. Nesta tela, permite realizar a pesquisa de solicitações de
     acordo com os filtros informados, ou seja, de acordo com sua necessidade, a
     fim de direcionar as solicitações abertas para serem atendidas pelo técnico
