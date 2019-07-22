@@ -284,7 +284,7 @@ Utilização do app no mobile
     -  **Atividade (Requisição/Incidente)**: informe a atividade que será realizada
     referente ao tipo de solicitação. Caso a atividade informada tenha um
     “Script de Orientação” associado, o mesmo será exibido na guia de "Scripts"
-    representada pelo ícone localizado no canto superior direito da tela;
+    representada pelo ícone ![Criar](images/ios-25.jpg) localizado no canto superior direito da tela;
 
     -  **Contrato**: após informar a atividade (requisição/incidente), será exibido
     o contrato para o qual será feita a abertura de incidente ou requisição de
@@ -343,7 +343,7 @@ necessário aprová-las.
 2.  Será apresentada a tela de “Detalhes” exibindo a descrição da solicitação
     para aprovação/rejeição da mesma;
 
-    ![Criar](images/ios-25.jpg)
+    ![Criar](images/ios-26.jpg)
     
     **Figura 17 - Tela de Aprovação/Rejeição de Solicitação**
 
@@ -353,7 +353,7 @@ necessário aprová-las.
     uma tela para escolha da justificativa desta rejeição, conforme apresentada
     na figura abaixo:
 
-    ![Criar](images/ios-26.jpg)
+    ![Criar](images/ios-27.jpg)
     
     **Figura 18 - Tela justificava de rejeição da solicitação**
 
