@@ -198,7 +198,7 @@ Utilização do app no mobile
     
     **Figura 12 – Criação de solicitação de serviço**
 
-    !!! info "importante"
+    !!! info "IMPORTANTE"
 
         A solicitação registrada pelo CITSmart ITSM Enterprise utiliza serviços que
         são configurados no CITSmart Enterprise Web.
