@@ -241,7 +241,7 @@ Utilizando o aplicativo
 
 [Manual do usuário do aplicativo mobile CITSmart Enterprise ITSM (Android)]()
 
-[Manual do usuário do aplicativo mobile CITSmart Enterprise ITSM (Android)]()
+[Manual do usuário do aplicativo mobile CITSmart Enterprise ITSM (iOS)]()
 
 
 
