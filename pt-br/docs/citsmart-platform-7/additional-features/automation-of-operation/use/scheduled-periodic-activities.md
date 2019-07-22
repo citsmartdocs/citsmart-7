@@ -73,7 +73,7 @@ Preenchimento dos campos cadastrais
     
     **Figura 2 - Registro de execução de atividade**
 
-    -   **Situação**: selecione a situação que a atividade se encontra.
+       -  **Situação**: selecione a situação que a atividade se encontra.
 
     -   Clique no botão orientações técnicas, para verificar as orientações para
     execução da atividade;
@@ -81,19 +81,19 @@ Preenchimento dos campos cadastrais
     -   Se a situação selecionada for “**Em execução**” ou “**Executado**”, preencha
     os campos:
 
-    -   **Detalhamento**: descreva os detalhes da execução da atividade;
+       -  **Detalhamento**: descreva os detalhes da execução da atividade;
 
-    -   **Data da execução**: informe a data da execução da atividade;
+       -   **Data da execução**: informe a data da execução da atividade;
 
-    -   **Hora de execução**: informe a hora de execução da atividade.
+       -   **Hora de execução**: informe a hora de execução da atividade.
 
     -   Se a situação selecionada for “**Suspenso**”, preencha os campos:
 
-    -   **Motivo**: selecione o motivo da suspensão da atividade;
+       -   **Motivo**: selecione o motivo da suspensão da atividade;
 
-    -   **Complemento**: informe o complemento do motivo da suspensão;
+       -   **Complemento**: informe o complemento do motivo da suspensão;
 
-    -   Informe a data e hora da suspensão da atividade.
+       -   Informe a data e hora da suspensão da atividade.
 
     -   Após os dados informados, clique no botão *Gravar* para efetuar o registro.
 
