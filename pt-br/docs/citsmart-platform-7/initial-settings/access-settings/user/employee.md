@@ -3,7 +3,7 @@ title: Cadastro e pesquisa de colaborador
 Description: Esta funcionalidade permite cadastrar cada pessoa que possuir algum
 tipo de vínculo com a organização, tais como: um funcionário, um parceiro, etc.
 
-\# Cadastro e pesquisa de colaborador
+# Cadastro e pesquisa de colaborador
 
 Esta funcionalidade permite cadastrar cada pessoa que possuir algum tipo de
 vínculo com a organização, tais como: um funcionário, um parceiro, etc.
@@ -12,7 +12,7 @@ Como acessar
 -----------
 
 1.  Acesse a funcionalidade de colaborador através da navegação no menu
-    principal **Cadastro Gerais   Gerência de Pessoal  Colaborador.**
+    principal **Cadastro Gerais > Gerência de Pessoal > Colaborador**.
 
 Pré-condições
 ------------
