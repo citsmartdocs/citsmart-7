@@ -727,7 +727,7 @@ Geração de certificado auto assinado SSL
     -->
     ````
     
-    ***Remova o “<!-- SET YOUR SSL OPTIONS” e “-->”***:
+    ***Remova o “!-- SET YOUR SSL OPTIONS” e “-->”***:
     
     ````sh
     <connector name="https" protocol="HTTP/1.1" scheme="https" socket-binding="https" secure="true">
@@ -822,26 +822,26 @@ Acesso ao CITSmart Enterprise
     neste parâmetro;
 
     -   **54 - Caminho da pasta que ficará o arquivo de LOG (Ex: Linux -
-    /var/tmp/):** informe o diretório para armazenar os arquivos de LOG;
+    **/var/tmp/)**: informe o diretório para armazenar os arquivos de LOG;
 
     -   **53 - Tipos: 'CIT_LOG' (arquivo de log), 'DB_LOG' (grava no banco)**:
     Defina o tipo de LOG. Se o tipo de LOG selecionado for 'CIT_LOG', será salvo
     o arquivo de LOG no diretório (definido no parâmetro anterior). Se for
     selecionado 'DB_LOG', será gravado o arquivo de LOG em banco de dados;
 
-    -   **56 - Extensão do arquivo de log **(**Ex: txt):** informe a extensão do
+    -   **56 - Extensão do arquivo de log (Ex: txt)**: informe a extensão do
     arquivo de LOG: txt;
 
     -   **44 - Diretório Upload repositório path (Ex: Windows -
-    C:/temp)**:* *informe o* *diretório padrão para armazenar os arquivos que
+    **C:/temp)**: informe o diretório padrão para armazenar os arquivos que
     serão feitos upload;
 
-    -   **18 - GED Diretório (Ex: Windows - C:/gedCitsmart)**: informe o diretório
+    -  **18 - GED Diretório (Ex: Windows - C:/gedCitsmart)**: informe o diretório
     para manipulação dos arquivos do GED (Gerenciamento Eletrônico de
     Documento).
 
     -   **363 - URL do Help (Ex.: https://help.citsmart.com/citsmart)**: informe
-    exatamente o conteúdo **https://help.citsmart.com/citsmart) **para que esta
+    exatamente o conteúdo **https://help.citsmart.com/citsmart)** para que esta
     nova instalação possa usufruir do Guia do Usuário (o help do produto).
 
     !!! note "NOTA"
