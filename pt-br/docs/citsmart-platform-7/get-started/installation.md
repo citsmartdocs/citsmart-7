@@ -144,15 +144,15 @@ Requisitos mínimos
 Software e download
 ------------------
 
-    !!! info "IMPORTANTE"
+  !!! info "IMPORTANTE"
 
-       Recomendamos Red Hat, CentOS, Debian ou Ubuntu.
+      Recomendamos Red Hat, CentOS, Debian ou Ubuntu.
 
-    !!! Abstract "SAIBA MAIS"
+  !!! Abstract "SAIBA MAIS"
 
-       Todos os nossos arquivos citados neste documento podem ser baixados
-       acessando a área de download da CITSmart Corporation
-       ([http://files.citsmart.com](http://files.citsmart.com/))
+      Todos os nossos arquivos citados neste documento podem ser baixados
+      acessando a área de download da CITSmart Corporation
+      ([http://files.citsmart.com](http://files.citsmart.com/))
 
 Para execução do CITSmart, baixaremos os pacotes necessários conforme o
 procedimento relativo ao produto.
@@ -162,26 +162,26 @@ procedimento relativo ao produto.
 Download do pacote conforme seu banco de dados (no manual utilizaremos o pacote
 com PostgreSQL):
 
-    -   Jboss (PostgreSQL) : jboss-7.1.2_postgres.tar.gz
+   -   Jboss (PostgreSQL) : jboss-7.1.2_postgres.tar.gz
 
-    -   Jboss (Oracle): jboss-7.1.2_oracle.tar.gz
+   -   Jboss (Oracle): jboss-7.1.2_oracle.tar.gz
 
-    -   Jboss (MSSQL): jboss-7.1.2_mssql.tar.gz
+   -   Jboss (MSSQL): jboss-7.1.2_mssql.tar.gz
 
-    -   Java JDK (qualquer banco): jdk1.7.0_80_x64.tar.gz
+   -   Java JDK (qualquer banco): jdk1.7.0_80_x64.tar.gz
 
 ## Servidor de JMS Apache ActiveMQ
 
-    -   Apache ActiveMQ 5.14.5: apache-activemq-5.14.5.tar.gz
+   -   Apache ActiveMQ 5.14.5: apache-activemq-5.14.5.tar.gz
 
-    -   Java JDK: jdk1.7.0_80_x64.tar.gz
+   -   Java JDK: jdk1.7.0_80_x64.tar.gz
 
 ## Servidor de Banco de Dados MongoDB
 
-    -   Para localizar o download conforme sua
+   -   Para localizar o download conforme sua
     distribuição: <https://www.mongodb.com/download-center#community>
 
-    -   Para o download do MongoDB para Ubuntu Server LTS
+   -   Para o download do MongoDB para Ubuntu Server LTS
     16.04: <https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1604-3.4.5.tgz>
 
 ## Servidor de Banco de Dados PostgreSQL/Oracle/MSSQL
