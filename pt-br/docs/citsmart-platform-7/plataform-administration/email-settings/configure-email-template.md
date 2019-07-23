@@ -76,7 +76,8 @@ Preenchimento dos campos cadastrais
     - Na tela de **Galeria de Imagens**, selecione a categoria na qual foi adicionada a imagem. Feito isso, clique no botão "URL"
     da imagem para exibição do endereço da imagem;
     - Copie o endereço da imagem, feche a tela de galeria;
-    - Na tela de **Modelo de E-mail**, no campo Texto, clique no ícone ![simbolo](images/simb-img.jpg) para inserção da imagem;
+    - Na tela de **Modelo de E-mail**, no campo **Texto**, clique no ícone ![simbolo](images/simb-img.jpg) para inserção da 
+    imagem;
     - Será exibida uma tela para informar a URL da imagem que deseja adicionar no modelo de e-mail, conforme ilustrada na figura 
     abaixo:
     
