@@ -1004,8 +1004,8 @@ Siga os passos:
     **Figura 8 - Certificado gerado**
 
 1.  Testando o envio de e-mail substitua, pelo meu e-mail que foi atribuído:
-    echo "**Test Email message cerbody" \| mail -s "Email test subject"
-    test\@example.com **;
+    echo "**Test Email message cerbody" \| mail -s "Email test subject"**
+    **test\@example.com**;
 
 2.  Checar se realmente o e-mail foi enviado: **tail -f /var/log/mail.log**:
 
