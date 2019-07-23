@@ -51,7 +51,7 @@ Filtros
 
    ![Criar](images/group-1.png) 
     
-    **Figura 1 - Tela de pesquisa de grupo**
+   **Figura 1 - Tela de pesquisa de grupo**
 
 1.  Para realizar a busca de um grupo específico, informe o nome e/ou sigla do
     grupo que deseja. Após isso, será exibido o registro conforme os dados
