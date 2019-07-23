@@ -32,11 +32,11 @@ Filtros
 
 1.  Realize a pesquisa do item de menu;
 
--   Informe a** **descrição do menu que deseja pesquisar e clique no
+    -   Informe a descrição do menu que deseja pesquisar e clique no
     botão *Pesquisar*. Após isso, será exibido o registro de menu conforme a
     descrição informada;
 
--   Caso deseje listar todos os registros de menu, basta clicar diretamente no
+    -   Caso deseje listar todos os registros de menu, basta clicar diretamente no
     botão *Pesquisar*.
 
 Listagem de itens
