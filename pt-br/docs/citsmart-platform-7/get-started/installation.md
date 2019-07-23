@@ -131,6 +131,7 @@ Requisitos mínimos
     possuir como requisitos mínimos:
 
 |                         Máquina                        |       1 x Windows      |
+|:------------------------------------------------------:|:----------------------:|
 |                         Memória                        |          8 GB          |
 |                          Disco                         |          80 GB         |
 |                      Processadores                     |        8 (vCPU)        |
