@@ -1,6 +1,5 @@
 title: Execução de liberação
-Description: Esta funcionalidade permite registrar as informações referente a
-execução da requisição de liberação das mudanças.
+Description:Esta funcionalidade permite registrar as informações referente a execução da requisição de liberação das mudanças.
 
 # Execução de liberação
 
