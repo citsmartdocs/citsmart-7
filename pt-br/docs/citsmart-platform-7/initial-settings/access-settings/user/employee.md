@@ -166,10 +166,10 @@ Preenchimento dos campos cadastrais
         -   **Data de Admissão**: informe a data de admissão do colaborador;
 
         -   **Data Desligamento**: informe a data de desligamento do colaborador,
-        quando o mesmo for desligado;
+            quando o mesmo for desligado;
 
         -   **Cônjuge**: informe o nome do cônjuge do colaborador, ou seja, o nome
-        da pessoa que em que se tem uma união estável;
+             da pessoa que em que se tem uma união estável;
 
         -   **Estado Civil**: selecione o estado civil do colaborador;
 
