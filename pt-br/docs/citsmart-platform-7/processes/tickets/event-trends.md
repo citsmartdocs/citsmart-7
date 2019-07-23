@@ -1,8 +1,5 @@
 title: Análise de tendência de eventos
-
-Description: Tem por objetivo gerar gráfico de Análise de Tendência de Eventos
-por Serviço de Negócio em determinado período, a fim de realizar uma análise dos
-eventos.
+Description: Tem por objetivo gerar gráfico de Análise de Tendência de Eventos por Serviço de Negócio em determinado período, a fim de realizar uma análise dos eventos.
 
 # Análise de tendência de eventos
 
@@ -20,8 +17,8 @@ Como acessar
 ------------
 
 1.  Acesse a funcionalidade de análise de tendências de eventos através da
-    navegação no menu principal **Processos ITIL** > **Gerência de
-    Tickets** > **Análise de Tendências.**
+    navegação no menu principal **Processos ITIL > Gerência de
+    Tickets > Análise de Tendências**.
 
 2.  Após o acesso a funcionalidade, será apresentada a tela Análise de
     Tendências, clique na aba *Eventos* para abrir a tela de análise de
@@ -31,19 +28,19 @@ Pré-condições
 -------------
 
 1.  Ter um contrato cadastrado e ativo (ver conhecimento [Cadastro e pesquisa de
-    contrato] [1](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/256));
+    contrato] [1]();
 
 2.  Ter uma solicitação de serviço cadastrada ([Gerenciamento de ticket
-    (serviços)][2](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/4699))
+    (serviços)][2]()
     e estar vinculada ao contrato;
 
 3.  Configurar conexão do CITSmart Event Monitor (ver conhecimento [Conexão
     CITSmart Event
-    Monitor][3](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/502));
+    Monitor][3]();
 
 4.  Configurar e instalar a ferramenta de monitoração (ver conhecimento [Manual
     de instalação do componente
-    Inventory][4](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/170)).
+    Inventory][4]().
 
 Filtros
 -------
@@ -58,29 +55,29 @@ Filtros
 
 1.  Preencha os campos conforme as orientações abaixo:
 
--   **EVM - Conexão do Citsmart Event Monitor:** informe a conexão do Citsmart
+-   **EVM - Conexão do Citsmart Event Monitor**: informe a conexão do Citsmart
     Event Monitor;
 
--   **Eventos Globais:** selecione a opção desejada (um evento desse tipo tem
+-   **Eventos Globais**: selecione a opção desejada (um evento desse tipo tem
     impacto em vários segmentos);
 
--   **Classificação:** informe a classificação do evento que deseja analisar;
+-   **Classificação**: informe a classificação do evento que deseja analisar;
 
--   **Ferramenta Monitoração - Conexão:** informe a ferramenta de monitoração;
+-   **Ferramenta Monitoração - Conexão**: informe a ferramenta de monitoração;
 
--   **Item de Configuração Pai:** informe o item de configuração pai;
+-   **Item de Configuração Pai**: informe o item de configuração pai;
 
--   **Item de Configuração Gerenciado:** informe o item de configuração
+-   **Item de Configuração Gerenciado**: informe o item de configuração
     gerenciado;
 
--   **Grupo categoria ocorrência:** selecione o grupo de categoria de ocorrência
+-   **Grupo categoria ocorrência**: selecione o grupo de categoria de ocorrência
     de eventos;
 
--   **Categoria ocorrência:** selecione a categoria de ocorrência de eventos;
+-   **Categoria ocorrência**: selecione a categoria de ocorrência de eventos;
 
--   **Quantidade Crítica:** informe a quantidade crítica de eventos;
+-   **Quantidade Crítica**: informe a quantidade crítica de eventos;
 
--   **Período de ocorrência:** informe o período desejado, com a data início e
+-   **Período de ocorrência**: informe o período desejado, com a data início e
     data fim de ocorrência de evento.
 
 Listagem de itens
@@ -98,7 +95,7 @@ Listagem de itens
     -   **Classificação**: nessa guia é apresentado as ocorrências de eventos por
     classificação;
 
-    -   **Item de Configuração:** nessa guia é apresentado as ocorrências de eventos
+    -   **Item de Configuração**: nessa guia é apresentado as ocorrências de eventos
     por item de configuração;
 
     -   **Serviço Técnico**: nessa guia é apresentado as ocorrências de eventos por
@@ -109,7 +106,7 @@ Listagem de itens
 
     -   Aba Classificação:
 
-    -   **Classificação **e** Quantidade Crítica.**
+    -   **Classificação e Quantidade Crítica.**
 
 
     ![trend 2](images/event-trends-2.png)
@@ -134,7 +131,7 @@ Listagem de itens
 
     -   Aba Catálogo de Negócio:
 
-    -   **ID, Item de Configuração** e **Quantidade Crítica.**
+    -   **ID, Item de Configuração e Quantidade Crítica.**
 
     ![trend 5](images/event-trends-5.png)
 
