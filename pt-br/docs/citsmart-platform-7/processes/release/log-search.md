@@ -1,6 +1,5 @@
 title: Pesquisa de registro de liberação
-
-Description:
+Description:Esta funcionalidade permite realizar a busca de requisições de liberação de acordo com filtros definidos.
 
 # Pesquisa de registro de liberação
 
@@ -86,7 +85,7 @@ Listagem de itens
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Consultar histórico do
-    Ticket*, *Visualizar*e *Ocorrência da Liberação* .
+    Ticket*, *Visualizar* e *Ocorrência da Liberação* .
 
     ![Criar](images/log-1.png)
 
