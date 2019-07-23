@@ -559,14 +559,14 @@ rotina de **processamento batch** do CITSmart para ambiente clusterizado.
     instalação desejada. Edite este arquivo e realize as seguintes
     configurações:
 
--   Verificar se a propriedade *org.quartz.jobStore.driverDelegateClass* é
+    -  Verificar se a propriedade *org.quartz.jobStore.driverDelegateClass* é
     correspondente ao banco de dados da instalação:
 
-    -  Postgresql = *org.quartz.impl.jdbcjobstore.PostgreSQLDelegate*
+       -  Postgresql = *org.quartz.impl.jdbcjobstore.PostgreSQLDelegate*
+        
+       -  Oracle = *org.quartz.impl.jdbcjobstore.oracle.OracleDelegate*
 
-        -   Oracle = *org.quartz.impl.jdbcjobstore.oracle.OracleDelegate*
-
-        -   Microsoft SQL Server = *org.quartz.impl.jdbcjobstore.MSSQLDelegate*
+       -  Microsoft SQL Server = *org.quartz.impl.jdbcjobstore.MSSQLDelegate*
 
     -  Alterar a propriedade *org.quartz.jobStore.dataSource* para que seja
         exatamente igual ao **pool-name** que foi informado no arquivo de
