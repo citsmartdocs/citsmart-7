@@ -644,7 +644,7 @@ rotina de **processamento batch** do CITSmart em ambiente standalone.
     utiliza o banco de dados para armazenar os Jobs do quartz, portanto,
     torna-se necessária a carga deles, na memória, durante a inicialização. Para
     isso, é necessário adicionar no arquivo *citsmart.cfg* o
-    parâmetro:* *INICIAR_PROCESSAMENTOS_BATCH=TRUE
+    parâmetro: *INICIAR_PROCESSAMENTOS_BATCH=TRUE*
 
 Download dos deploys do CITSmart
 --------------------------------
