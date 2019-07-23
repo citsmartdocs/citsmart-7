@@ -1,6 +1,5 @@
 title: Captura de registro de liberação
-Description: Esta funcionalidade permite atribuir a requisição de liberação para
-o próprio usuário, tornando-se o responsável atual pela execução da mesma.
+Description:Esta funcionalidade permite atribuir a requisição de liberação para o próprio usuário, tornando-se o responsável atual pela execução da mesma.
 
 # Captura de registro de liberação
 
