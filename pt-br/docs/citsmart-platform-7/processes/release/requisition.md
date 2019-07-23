@@ -1,6 +1,5 @@
 title: Cadastro e pesquisa de requisição de liberação
-Description: Esta funcionalidade permite registrar a requisição de liberação de
-mudanças na infraestrutura de TI.
+Description:Esta funcionalidade permite registrar a requisição de liberação de mudanças na infraestrutura de TI.
 
 # Cadastro e pesquisa de requisição de liberação
 
