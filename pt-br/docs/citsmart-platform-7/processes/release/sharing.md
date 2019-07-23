@@ -1,6 +1,5 @@
 title: Compartilhamento de liberação
-Description: Esta funcionalidade permite compartilhar a requisição de liberação
-com outro grupo executor ou usuário.
+Description:Esta funcionalidade permite compartilhar a requisição de liberação com outro grupo executor ou usuário.
 
 # Compartilhamento de liberação
 
