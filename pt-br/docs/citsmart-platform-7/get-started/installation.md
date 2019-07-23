@@ -1037,9 +1037,9 @@ procedimentos de segurança que são:
 
 !!! note "NOTA"
 
-    A partir da versão 7.2.2.0 o parâmetro 363 passou a ser essencial para o
-    acesso automático da sua instância com o Guia do Usuário (o help do
-    produto). Ele deve ser preenchido com: https://help.citsmart.com/citsmart
+     A partir da versão 7.2.2.0 o parâmetro 363 passou a ser essencial para o
+     acesso automático da sua instância com o Guia do Usuário (o help do
+     produto). Ele deve ser preenchido com: https://help.citsmart.com/citsmart
 
 Backup das visões
 -----------------
@@ -1160,8 +1160,8 @@ abaixo:
     
     !!! warning "ATENÇÃO"
 
-       Siga corretamente a validação do passo 11, pois o sistema ficará bloqueado
-       aos usuários até este passo tenha sido realizado.
+        Siga corretamente a validação do passo 11, pois o sistema ficará bloqueado
+        aos usuários até este passo tenha sido realizado.
 
 Validação da atualização
 ------------------------
