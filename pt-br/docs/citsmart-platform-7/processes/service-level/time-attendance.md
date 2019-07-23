@@ -1,8 +1,5 @@
 title:Cadastro e pesquisa de tempo de atendimento
-Description:  Permite registrar o tempo de atendimento do
-tipo *Global* (aplica-se a todos os serviços), *Cliente*(aplica-se aos serviços
-de um contrato) e *Incidente/Requisição/Procedimento* (aplica-se a um serviço
-específico).
+Description:Permite registrar o tempo de atendimento do tipo *Global* (aplica-se a todos os serviços), *Cliente*(aplica-se aos serviços de um contrato) e *Incidente/Requisição/Procedimento* (aplica-se a um serviço específico).
 
 # Cadastro e pesquisa de tempo de atendimento
 
@@ -51,7 +48,7 @@ Listagem de items
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** Título SLA, Descrição **e** Situação.**
+    funcionalidade: Título SLA, Descrição e Situação.
 
     ![Criar](images/attendance-2.png)
 
@@ -191,7 +188,7 @@ Preenchimento de campos cadastrais
     **Figura 5 - Aplicação do tempo de atendimento aos serviços de um cliente
 (Contrato)**
 
-    -   **Requisição/Incidente/Procedimento**: permite selecionar somente um serviço
+    - **Requisição/Incidente/Procedimento**: permite selecionar somente um serviço
     para aplicar a configuração do tempo de atendimento, conforme exemplo
     ilustrado na figura abaixo:
 
@@ -210,19 +207,19 @@ requisição/incidente**
 
     -  Informe a unidade e atribua uma prioridade;
 
-       -  **Unidade**: informe a unidade desejada;
+        -  **Unidade**: informe a unidade desejada;
 
-       -  **Prioridade**: indique a prioridade do serviço para a unidade;
+        -  **Prioridade**: indique a prioridade do serviço para a unidade;
 
     -  Feito isso, clique no botão *Incluir* para efetuar a operação.
 
     -  Informe o empregado e atribua uma prioridade;
 
-       -  **Empregados**: informe o empregado;
+        -  **Empregados**: informe o empregado;
 
-       -  **Prioridade**: indique a prioridade do serviço para o empregado;
+        -  **Prioridade**: indique a prioridade do serviço para o empregado;
 
-       -  **Crítico**: indique se o empregado é do tipo "crítico" ao negócio, ou seja,
+        -  **Crítico**: indique se o empregado é do tipo "crítico" ao negócio, ou seja,
           que deve ter o atendimento do serviço com prioridade alta.
 
      -  Feito isso, clique no botão *Incluir* para efetuar a operação.
