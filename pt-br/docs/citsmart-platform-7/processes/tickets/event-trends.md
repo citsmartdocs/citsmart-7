@@ -104,7 +104,7 @@ Listagem de itens
     -   **Catálogo de Negócio**: nessa guia é apresentado as ocorrências de eventos
     por serviços de negócios.
 
-    -   Aba Classificação:
+    Aba Classificação:
 
     -   **Classificação e Quantidade Crítica.**
 
@@ -121,7 +121,7 @@ Listagem de itens
 
     **Figura 3 - Tela de listagem de eventos - aba Item de Configuração**
 
-    -   Aba Serviço Técnico:
+    Aba Serviço Técnico:
 
     -   **ID, Item de Configuração** e **Quantidade Crítica.**
 
@@ -129,7 +129,7 @@ Listagem de itens
 
     **Figura 4 - Tela de listagem de eventos - aba Serviço Técnico**
 
-    -   Aba Catálogo de Negócio:
+    Aba Catálogo de Negócio:
 
     -   **ID, Item de Configuração e Quantidade Crítica.**
 
