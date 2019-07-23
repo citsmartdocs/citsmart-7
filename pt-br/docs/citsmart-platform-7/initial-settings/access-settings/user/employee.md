@@ -104,11 +104,11 @@ Preenchimento dos campos cadastrais
 
     -   **Unidade**: informe a unidade na qual o colaborador está alocado. Caso
         não encontre a unidade, é possível realizar um cadastro rápido a partir
-        desta tela, basta clicar no ícone   ;
+        desta tela, basta clicar no ícone ![Criar](images/employee-4.png)  ;
 
     -   **Cargos**: selecione o cargo que o colaborador ocupará. Caso não
         encontre o cargo, é possível realizar um cadastro rápido a partir desta
-        tela, basta clicar no ícone   ;
+        tela, basta clicar no ícone ![Criar](images/employee-4.png)  ;
 
     -   Preencha as informações a respeito do pagamento do colaborador:
 
@@ -126,7 +126,7 @@ Preenchimento dos campos cadastrais
         -   **Valor Vale Refeição/Alim. (Média) (R\$)**: informe o valor do
                 vale refeição/alimentação pago pela empresa para o colaborador;
 
-        -   **Custo por Hora (Calculado pelo sistema) (R\$) **e **Custo
+        -   **Custo por Hora (Calculado pelo sistema) (R\$) e Custo
                 Total Mensal (Calculado pelo sistema)**: estes campos serão
                 preenchidos após a realização dos cálculos feitos pelo sistema;
 
@@ -152,7 +152,7 @@ Preenchimento dos campos cadastrais
         -   **UF Exped. RG**: informe o estado, onde foi emitido o RG;
 
         -   **Número CTPS**: informe o número da CTPS (Carteira de Trabalho e
-        Previdência Social) do colaborador;
+             Previdência Social) do colaborador;
 
         -   **Data Emissão CTPS**: informe a data de emissão da CTPS do colaborador;
 
@@ -161,7 +161,7 @@ Preenchimento dos campos cadastrais
         -   **UF CTPS**: selecione o estado, onde foi emitida a CTPS;
 
         -   **Matrícula - NIT (PIS ou PASEP)**: informe o número de identificação do
-        trabalhador (PIS ou PASEP);
+            trabalhador (PIS ou PASEP);
 
         -   **Data de Admissão**: informe a data de admissão do colaborador;
 
@@ -178,7 +178,7 @@ Preenchimento dos campos cadastrais
         -   **Nome da Mãe**: informe o nome da mãe do colaborador;
 
         -   **Observação**: informe alguma observação que achar conveniente sobre o
-        colaborador.
+             colaborador.
 
 3.  Após informar os dados, clique no botão *Gravar* para efetuar o registro,
     onde a data, hora e usuário serão gravados automaticamente para uma futura
