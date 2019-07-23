@@ -983,7 +983,7 @@ Siga os passos:
     diretório: **cd /etc/postfix/sasl** e depois crie o arquivo: **touch
     sasl_passwd**;
 
-2.  Editar: **vim sasl_passwd **;
+2.  Editar: **vim sasl_passwd**;
 
 3.  Coloque o e-mail real logo depois seguido dois pontos e a
     senha: **[smtp.gmail.com]:587 exemplo\@gmail.com:123** ;
