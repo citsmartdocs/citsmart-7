@@ -116,13 +116,13 @@ Preenchimento dos campos cadastrais
            explicitamente habilite esta para os perfis que desejar, tornando-a
            disponível para os perfis pretendidos.
 
--   **Acesso ao sistema CITSmart**: defina se o perfil terá acesso ao sistema a
+    -   **Acesso ao sistema CITSmart**: defina se o perfil terá acesso ao sistema a
     partir do portal;
 
--   **Acesso por situação de OS**: selecione as situações de OS que o perfil
+    -   **Acesso por situação de OS**: selecione as situações de OS que o perfil
     terá acesso;
 
--   **Acesso por situação de Fatura**: selecione as situações da fatura que o
+    -   **Acesso por situação de Fatura**: selecione as situações da fatura que o
     perfil terá acesso.
 
 1.  Após informar os dados, clique no botão *Gravar* para efetuar o registro,
