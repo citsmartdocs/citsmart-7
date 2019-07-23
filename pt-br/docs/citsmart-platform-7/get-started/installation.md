@@ -113,7 +113,7 @@ Requisitos mínimos
 
 **Tabela 3 - Requisitos Mínimos**
 
--   O ambiente de execução do **servidor de indexação** **Apache Solr **deve
+-   O ambiente de execução do **servidor de indexação** Apache Solr deve
     possuir como requisitos mínimos:
 
 |                           Máquina                           | 1 x GNU/Linux RedHat ou Debian (incluindo derivados) |
