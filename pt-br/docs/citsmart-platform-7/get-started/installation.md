@@ -686,31 +686,55 @@ Geração de certificado auto assinado SSL
 
 1.  Conecte no servidor do Jboss.
 
-    ````sh
+    
     ***Deletando alias antigos***.
-    # /opt/jdk1.7.0_80/bin/keytool -keystore /opt/jdk1.7.0_80/jre/lib/security/cacerts -delete -alias GRPv1
+    ````sh
+        # /opt/jdk1.7.0_80/bin/keytool -keystore /opt/jdk1.7.0_80/jre/lib/security/cacerts -delete -alias GRPv1
+    ````
+    
     ***Criando alias novo com DNS (exemplo sub.example.com)***:
+    
+    ````sh
     # /opt/jdk1.7.0_80/bin/keytool -genkey -alias GRPv1 -keyalg RSA -keystore /opt/jboss-                 7.1.2/standalone/configuration/GRPv1.keystore -ext san=dns:sub.example.com -validity 3650 -storepass 123456
+    ````
+    
     ***Criando alias com IP do serviodor do Jboss (exemplo 10.2.1.82)***:
+    
+    ````sh
     # /opt/jdk1.7.0_80/bin/keytool -genkey -alias GRPv1 -keyalg RSA -keystore /opt/jboss-  7.1.2/standalone/configuration/GRPv1.keystore -ext san=ip:10.2.1.82 -validity 3650 -storepass 123456
+    ````
+    
     ***Exportando certificado para extensão .cer***:
+    
+    ````sh
     # /opt/jdk1.7.0_80/bin/keytool -export -alias GRPv1 -keystore /opt/jboss-7.1.2/standalone/configuration/GRPv1.keystore -    validity 3650 -file /opt/jboss-7.1.2/standalone/configuration/GRPv1.cer
+    ````
+    
     ***Adicionando certificado no cacerts do Java***:
+    
+    ````sh
     # /opt/jdk1.7.0_80/bin/keytool -keystore /opt/jdk1.7.0_80/jre/lib/security/cacerts -importcert -alias GRPv1 -file /opt/jboss-7.1.2/standalone/configuration/GRPv1.cer
     ````
     
-    ````sh
+    
     ***Atual***:
+    
+    ````sh
     <!-- SET YOUR SSL OPTIONS
     <connector name="https" protocol="HTTP/1.1" scheme="https" socket-binding="https" secure="true">
     <ssl name="citsmart-ssl" key-alias="GRPv1" password="123456" certificate-key-file="${jboss.server.config.dir}/GRPv1.keystore"/>
     </connector>
     -->
+    ````
+    
     ***Remova o “<!-- SET YOUR SSL OPTIONS” e “-->”***:
+    
+    ````sh
     <connector name="https" protocol="HTTP/1.1" scheme="https" socket-binding="https" secure="true">
     <ssl name="citsmart-ssl" key-alias="GRPv1" password="123456" certificate-key-file="${jboss.server.config.dir}/GRPv1.keystore"/>
     </connector>
     ````
+    
 1.  Após a geração do certificado, descomente
     no **/opt/jboss-7.1.2/standalone/configuration/standalone-full.xml** do
     jboss.
