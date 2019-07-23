@@ -1,6 +1,5 @@
 title: Avaliação de fornecedor
-Description:  Esta funcionalidade tem por objetivo verificar o desempenho do
-fornecedor por serviço..
+Description:Esta funcionalidade tem por objetivo verificar o desempenho do fornecedor por serviço.
 
 # Avaliação de fornecedor
 
