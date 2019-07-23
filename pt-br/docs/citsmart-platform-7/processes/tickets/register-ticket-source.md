@@ -1,6 +1,5 @@
-title: Cadastro e pesquisa de origem de tickets
-Description: Tem o objetivo de registrar diversos tipos de equipes ou áreas que
-podem gerar um ticket.
+title:Cadastro e pesquisa de origem de tickets
+Description:Tem o objetivo de registrar diversos tipos de equipes ou áreas que podem gerar um ticket.
 
 # Cadastro e pesquisa de origem de tickets
 
@@ -48,7 +47,7 @@ Listagem de itens
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da funcionalidade:** ID
-    Origem **e **Origem**.
+    Origem e Origem**.
 
     ![pesquisa de origem](images/ticket-source-2.png)
 
