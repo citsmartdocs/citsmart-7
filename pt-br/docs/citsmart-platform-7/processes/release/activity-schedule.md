@@ -1,6 +1,5 @@
 title: Agendamento de atividade de liberação
-Description:  Permite agendar atividades referente à requisição de liberação
-para execução.
+Description:Permite agendar atividades referente à requisição de liberação para execução.
 
 # Agendamento de atividade de liberação
 
