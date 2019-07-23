@@ -229,3 +229,141 @@ CITSmart.
     **Java(TM) SE Runtime Environment (build 1.7.0_80-b15)**
     **Java HotSpot(TM) 64-Bit Server VM (build 24.80-b11, mixed mode)**
     ```
+
+2.  Extraia o Jboss para o diretório /opt.
+
+3.  No exemplo abaixo utilizamos o Jboss com o PostgreSQL configurado.
+
+   ```sh
+   # tar -xvzf jboss-7.1.2_postgres.tar.gz -C /opt/
+   ```
+
+4.  Agora devemos configurar o arquivo standalone-full.xml.
+
+**Algumas configurações só serão possíveis após a instalação de todos os
+componentes da solução**.
+
+    ```sh
+    <!-- SET TRUE TO ENABLE EVM -->
+    <property name="citsmart.evm.enable" value="false"/>
+    <!-- SET TRUE TO ENABLE INVENTORY -->
+    <property name="citsmart.inventory.enable" value="false"/>
+    <!-- SET MONGODB IP -->
+    <property name="mongodb.host" value="IP_MONGODB"/>
+    <!-- SET MONGODB PORT -->
+    <property name="mongodb.port" value="PORT_MONGODB"/>
+    <!-- SET MONGODB USER -->
+    <property name="mongodb.user" value="USER_MONGODB"/>
+    <!-- SET MONGODB PASSWORD -->
+    <property name="mongodb.password" value="PASSWD_MONGODB"/>
+    <!-- SET CITSMART IP -->
+    <property name="citsmart.host" value="127.0.0.1"/>
+    <!-- SET CITSMART PORT -->
+    <property name="citsmart.port" value="8080"/>
+    <!-- SET CITSMART CONTEXT -->
+    <property name="citsmart.context" value="citsmart"/>
+    <!-- SET CITSMART ADMINISTRATOR LOGIN -->
+    <property name="citsmart.login" value="consultor"/>
+    <!-- SET CITSMART ADMINISTRATOR PASSWORD -->
+    <property name="citsmart.password" value="password"/>
+    <!-- SET CITSMART INVENTORY ID -->
+    <property name="citsmart.inventory.id" value="inventory_local"/>
+    <!-- SET CITSMART EVM ID -->
+    <property name="citsmart.evm.id" value="evm_local"/>
+    ```
+    
+5.  As seções necessárias de configuração estão demonstradas abaixo e estarão
+    explicadas na seção **"Parâmetros CITSmart"**.
+
+6.  Para o banco de dados precisaremos de duas bases, chamadas de
+    CITSMART_NAME_DB e CITGRP_NAME_DB.
+
+7.  Existem **4 entradas** de datasource para o **CITSMART_NAME_DB**.
+
+    ```sh
+    <!-- SET YOUR DATABASE INFORMATION - CHANGE IP_DB, PORT_DB, CITSMART_NAME_DB, CITGRP_NAME_DB, USER_DB, PASSWD_DB -->
+    <connection-url>jdbc:postgresql://IP_DB:PORT_DB/CITSMART_NAME_DB</connection-url>
+    <driver>postgres</driver>
+    <pool>
+    <min-pool-size>10</min-pool-size>
+    <max-pool-size>1000</max-pool-size>
+    <prefill>true</prefill>
+    <flush-strategy>FailingConnectionOnly</flush-strategy>
+    </pool>
+    <security>
+    <user-name>USER_DB</user-name>
+    <password>PASSWD_DB</password>
+    ```
+
+8.  Existem **9 entradas** de datasource para o **CITGRP_NAME_DB**.
+
+    ```sh
+    <!-- SET YOUR DATABASE INFORMATION - CHANGE IP_DB, PORT_DB, CITSMART_NAME_DB, CITGRP_NAME_DB, USER_DB, PASSWD_DB -->
+    <connection-url>jdbc:postgresql://IP_DB:PORT_DB/CITGRP_NAME_DB</connection-url>
+    <driver>postgres</driver>
+    <pool>
+    <min-pool-size>10</min-pool-size>
+    <max-pool-size>1000</max-pool-size>
+    <flush-strategy>IdleConnections</flush-strategy>
+    </pool>
+    <security>
+    <user-name>USER_DB</user-name>
+    <password>PASSWD_DB</password>
+    ```
+    
+**Servidor de JMS Apache ActiveMQ**
+
+Descomprima o ActiveMQ e JAVA no diretório /opt e crie o link simbólico do JAVA.
+
+    ```sh
+    # tar -xvzf apache-activemq-5.14.5.tar.gz -C /opt/
+    # tar -xvzf jdk-1.7.0_80-linux-x64.tar.gz -C /opt/
+    # ln -s /opt/jdk1.7.0_80/bin/java /usr/bin
+    ```
+
+**Servidor de Banco de Dados MongoDB**
+
+1.  Após baixar o MongoDB para sua correta distribuição, deve-se efetuar a
+    descompressão para o diretório /opt.
+
+    ```sh
+    # tar -xvzf mongodb-linux-x86_64-ubuntu1604-3.4.5.tgz -C /opt/
+    ```
+
+2.  Devemos criar um diretório para a base e iniciar o MongoDB. Repare que ele
+    irá subir com permissões irrestritas de acesso.
+
+    ```sh
+    # mkdir -p /data/db
+    # cd /opt/mongodb-linux-x86_64-ubuntu1604-3.4.5/bin/
+    #./mongod
+    <mensagens de acesso irrestrito>
+    ```
+
+3.  Com o MongoDB iniciado, abra outro terminal, acesse o diretório bin do
+    MongoDB e crie a base CITSmart definindo seu usuário e senha.
+
+4.  O retorno “**Successfully added user**” deve ser observado.
+
+5.  Digite exit para sair do console do MongoDB.
+
+    ```sh
+    # cd /opt/mongodb-linux-x86_64-ubuntu1604-3.4.5/bin/
+    # ./mongo
+    <mensagens de acesso irrestrito>
+    use admin
+    db.createUser({
+    user: "admin",
+    pwd: "yourpassword",
+    roles:[
+    { role: "root", db: "admin" },
+    { role: "dbOwner", db: "citsmart" }
+    ]
+    })
+    ```
+
+6.  Retorne ao terminal anterior e finalize o processo do mongodb com um CTRL+C.
+   
+    
+    
+    
