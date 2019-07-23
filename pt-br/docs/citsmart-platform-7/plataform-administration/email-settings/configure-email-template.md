@@ -107,7 +107,11 @@ Caso o modelo de e-mail tenha sido feito em HTML, basta seguir os passos abaixo 
 
 2. Clique no botão ![simbolo](images/simb-cod.jpg);
 
-3. Verifique se o resultado final foi o esperado.
+3. Cole (crtl + V) o conteúdo;
+
+4. Clique novamente no botão ![simbolo](images/simb-cod.jpg);
+
+5. Verifique se o resultado final foi o esperado.
 
 !!! note "NOTA"
 
