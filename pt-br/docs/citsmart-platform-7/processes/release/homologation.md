@@ -1,7 +1,6 @@
 title: Homologação de liberação
 
-Description: Esta funcionalidade permite realizar homologação da liberação de
-mudanças que foram executadas e testadas.
+Description:Esta funcionalidade permite realizar homologação da liberação de mudanças que foram executadas e testadas.
 
 # Homologação de liberação
 
