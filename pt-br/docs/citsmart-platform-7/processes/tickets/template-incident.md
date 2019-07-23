@@ -1,6 +1,5 @@
 title: Cadastro e pesquisa de template de incidentes, requisições e procedimentos
-Description: Tem o objetivo de cadastrar um template para facilitar a abertura
-de uma nova solicitação.
+Description: Tem o objetivo de cadastrar um template para facilitar a abertura de uma nova solicitação.
 
 # Cadastro e pesquisa de template de incidentes, requisições e procedimentos
 
@@ -95,7 +94,7 @@ Listagem de itens
 
 1.  O seguinte campo cadastral está disponível ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** Nome.**
+    funcionalidade: **Nome.**
 
     ![template](images/template-incident-2.png)
 
