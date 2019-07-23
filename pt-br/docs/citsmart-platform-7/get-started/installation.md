@@ -1,6 +1,5 @@
 title: Manual de instalação on-premise (ITSM)
-Description: Esse guia prático visa demostrar o passo a passo da instalação e
-atualização da ferramenta CITSmart Enterprise.
+Description: Esse guia prático visa demostrar o passo a passo da instalação e atualização da ferramenta CITSmart Enterprise.
 
 # Manual de instalação on-premise (ITSM)
 
