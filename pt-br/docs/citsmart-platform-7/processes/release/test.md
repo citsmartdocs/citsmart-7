@@ -1,7 +1,5 @@
 title: Teste de liberação
-Description: Esta funcionalidade permite registrar as informações da execução
-dos testes referente às mudanças que foram realizadas durante a fase de execução
-da requisição de liberação.
+Description:Esta funcionalidade permite registrar as informações da execução dos testes referente às mudanças que foram realizadas durante a fase de execução da requisição de liberação.
 
 # Teste de liberação
 
@@ -95,7 +93,7 @@ Vinculando anexo
     para fase de homologação;
 
 2.  Caso queira gravar somente as informações registradas sobre o teste
-    realizado e manter a tarefa atual, clique no botão G*ravar e manter a tarefa
+    realizado e manter a tarefa atual, clique no botão *Gravar e manter a tarefa
     atual*;
 
    -  Em ambos os casos anteriores ao clicar no botão *Gravar* a data, hora e
