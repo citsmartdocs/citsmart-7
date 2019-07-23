@@ -207,22 +207,23 @@ Preenchimento dos campos cadastrais
     relacionadas ao grupo;
 
        -  Informe o nome ou CPF do colaborador para busca do mesmo e logo após
-    selecione-o. Após isso, será adicionado o e-mail do colaborador na tela de
-    registro;
+       selecione-o. Após isso, será adicionado o e-mail do colaborador na tela de
+       registro;
 
        - Caso tenha a necessidade de incluir um e-mail externo para recebimento das
-    notificações, clique em *Adicionar*. Será apresentada a tela de cadastro de
-    e-mail, conforme ilustrada na figura abaixo:
+       notificações, clique em *Adicionar*. Será apresentada a tela de cadastro de
+       e-mail, conforme ilustrada na figura abaixo:
 
     ![Criar](images/group-8.png)
     
     **Figura 6 - Cadastro de e-mail externo**
 
-    -  Informe o nome do responsável do e-mail, o e-mail e clique no
-    botão *Enviar* para efetuar a operação;
+    
+       -  Informe o nome do responsável do e-mail, o e-mail e clique no
+       botão *Enviar* para efetuar a operação;
 
-    -  Caso queira remover algum e-mail que foi adicionado ao grupo, basta
-    selecionar o mesmo e clicar em *Remover*.
+       -  Caso queira remover algum e-mail que foi adicionado ao grupo, basta
+       selecionar o mesmo e clicar em *Remover*.
 
 1.  Após informar todos os dados, clique no botão *Gravar* para efetuar o
     registro, onde a data, hora e usuário serão gravados automaticamente para
