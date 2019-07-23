@@ -72,13 +72,13 @@ Preenchimento dos campos cadastrais
     
     **Figura 5 - Exemplo de caixa de e-mail**
     
-        - **Saída**: ao escolher essa opção, significa que o usuário irá parametrizar uma rota por onde os e-mails que precisam 
-        ser enviados a partir do sistema sairão (por isso chamado de caixa de saída). Serão abertos novos campos cadastrais ao 
-        escolher essa opção, são eles:
+    - **Saída**: ao escolher essa opção, significa que o usuário irá parametrizar uma rota por onde os e-mails que precisam 
+    ser enviados a partir do sistema sairão (por isso chamado de caixa de saída). Serão abertos novos campos cadastrais ao 
+    escolher essa opção, são eles:
         
     ![Cadastro](images/caix-email.img6.jpg)
     
-    **Figura 6 - Tela de cadastro de caixa de e-mail de saída*
+    **Figura 6 - Tela de cadastro de caixa de e-mail de saída**
     
     - **Requer autenticação TLS/SSL?**
         - Os certificados SSL (Secure Sockets Layer) fazem parte da segurança de sites. Ao acessar um site com SSL, o certificado
