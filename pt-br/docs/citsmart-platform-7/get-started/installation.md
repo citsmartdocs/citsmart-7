@@ -71,14 +71,15 @@ Requisitos mínimos
 -   O ambiente de execução do **servidor de aplicação** Jboss e o servidor de
     JMS Apache ActiceMQ deve possuir como requisitos mínimos:
 
-|  Máquina                                                        |1 x GNU/Linux RedHat ou Debian (incluindo derivados)  |
-|-----------------------------------------------------------------|------------------------------------------------------|
-|                         **Memória**                             |                     **16 GB RAM**                    |
-|                         **Disco**                               |                      **120 GB**                      |
-|                     **Processadores**                           |                     **4 (vCPU)**                     |
-|             **Leitura/Escrita em disco (I/O)**                  |                    **> 150 MB/s**                    |
-|                          **Rede**                               |                    **> 100 Mbps**                    |
-|**Saltos para soluções(Bancos, EVM, INV, MongoDB, Coletor WMI)** |              **Mesma rede, sem saltos**              |
+|                           Requisito                           |                     Especificação                    |
+|:-------------------------------------------------------------:|:----------------------------------------------------:|
+|                            Máquina                            | 1 x GNU/Linux RedHat ou Debian (incluindo derivados) |
+|                            Memória                            |                       16 GB RAM                      |
+|                             Disco                             |                        120 GB                        |
+|                         Processadores                         |                       4 (vCPU)                       |
+|                 Leitura/Escrita em disco (I/O)                |                      > 150 MB/s                      |
+|                              Rede                             |                      > 100 Mbps                      |
+| Saltos para soluções (Bancos, EVM, INV, MongoDB, Coletor WMI) |                Mesma rede, sem saltos                |
 
 
 **Tabela 1 - Requisitos Mínimos**
@@ -86,14 +87,15 @@ Requisitos mínimos
 -   O ambiente de execução do **servidor de banco de dados** deve possuir como
     requisitos mínimos:
 
-|                           Máquina                           | 1 x GNU/Linux RedHat ou Debian (incluindo derivados) |
+|                          Requisito                          |                     Especificação                    |
 |:-----------------------------------------------------------:|:----------------------------------------------------:|
-|                         **Memória                           |                         4 GB                         |
+|                           Máquina                           | 1 x GNU/Linux RedHat ou Debian (incluindo derivados) |
+|                           Memória                           |                         4 GB                         |
 |                            Disco                            |                        120 GB                        |
 |                        Processadores                        |                       2 (vCPU)                       |
 |                Leitura/Escrita em disco (I/O)               |                      > 150 MB/s                      |
 |                             Rede                            |                      > 100 Mbps                      |
-| Saltos para soluções (ISTM, EVM, INV, MongoDB, Coletor WMI) |                Mesma rede, sem saltos**              |
+| Saltos para soluções (ISTM, EVM, INV, MongoDB, Coletor WMI) |                Mesma rede, sem saltos                |
 
 
 **Tabela 2 - Requisitos Mínimos**
@@ -101,14 +103,15 @@ Requisitos mínimos
    O ambiente de execução do **servidor de banco de dados
    não-relacional** MongoDB deve possuir como requisitos mínimos:
 
-|                           Máquina                          | 1 x GNU/Linux RedHat ou Debian (incluindo derivados) |
+|                          Requisito                         |                     Especificação                    |
 |:----------------------------------------------------------:|:----------------------------------------------------:|
-|                         **Memória                          |                         4 GB                         |
+|                           Máquina                          | 1 x GNU/Linux RedHat ou Debian (incluindo derivados) |
+|                           Memória                          |                         4 GB                         |
 |                            Disco                           |                        120 GB                        |
 |                        Processadores                       |                       2 (vCPU)                       |
 |               Leitura/Escrita em disco (I/O)               |                      > 150 MB/s                      |
 |                            Rede                            |                      > 100 Mbps                      |
-| Saltos para soluções (Bancos, EVM, INV, ITSM, Coletor WMI) |                Mesma rede, sem saltos**              |
+| Saltos para soluções (Bancos, EVM, INV, ITSM, Coletor WMI) |                Mesma rede, sem saltos                |
 
 
 **Tabela 3 - Requisitos Mínimos**
@@ -116,28 +119,30 @@ Requisitos mínimos
 -   O ambiente de execução do **servidor de indexação** Apache Solr deve
     possuir como requisitos mínimos:
 
-|                           Máquina                           | 1 x GNU/Linux RedHat ou Debian (incluindo derivados) |
+|                          Requisito                          |                     Especificação                    |
 |:-----------------------------------------------------------:|:----------------------------------------------------:|
-|                         **Memória                           |                         4 GB                         |
+|                           Máquina                           | 1 x GNU/Linux RedHat ou Debian (incluindo derivados) |
+|                           Memória                           |                         4 GB                         |
 |                            Disco                            |                        120 GB                        |
 |                        Processadores                        |                       2 (vCPU)                       |
 |                Leitura/Escrita em disco (I/O)               |                      > 150 MB/s                      |
 |                             Rede                            |                      > 100 Mbps                      |
-| Saltos para soluções (ISTM, EVM, INV, MongoDB, Coletor WMI) |                Mesma rede, sem saltos**              |
+| Saltos para soluções (ISTM, EVM, INV, MongoDB, Coletor WMI) |                Mesma rede, sem saltos                |
 
 **Tabela 4 - Requisitos Mínimos**
 
 -   O ambiente de execução do **servidor ms-windows para coletas via WMI** deve
     possuir como requisitos mínimos:
 
-|                         Máquina                        |       1 x Windows       |
-|:------------------------------------------------------:|:-----------------------:|
-|                       **Memória                        |          8 GB           |
-|                          Disco                         |          80 GB          |
-|                      Processadores                     |        8 (vCPU)         |
-|             Leitura/Escrita em disco (I/O)             |       > 150 MB/s        |
-|                          Rede                          |       > 100 Mbps        |
-| Saltos para soluções (Bancos, EVM, INV, ITSM, MongoDB) |Mesma rede, sem saltos** |
+|                        Requisito                       |      Especificação     |
+|:------------------------------------------------------:|:----------------------:|
+|                         Máquina                        |       1 x Windows      |
+|                         Memória                        |          8 GB          |
+|                          Disco                         |          80 GB         |
+|                      Processadores                     |        8 (vCPU)        |
+|             Leitura/Escrita em disco (I/O)             |       > 150 MB/s       |
+|                          Rede                          |       > 100 Mbps       |
+| Saltos para soluções (Bancos, EVM, INV, ITSM, MongoDB) | Mesma rede, sem saltos |
 
 **Tabela 5 - Requisitos Mínimos**
 
