@@ -821,7 +821,7 @@ Acesso ao CITSmart Enterprise
     arquivo de LOG. Os arquivos de LOG serão gravados com nome conforme definido
     neste parâmetro;
 
-    -   **54 - Caminho da pasta que ficará o arquivo de LOG (Ex: Linux -
+    -   **54 - Caminho da pasta que ficará o arquivo de LOG (Ex: Linux -**
     **/var/tmp/)**: informe o diretório para armazenar os arquivos de LOG;
 
     -   **53 - Tipos: 'CIT_LOG' (arquivo de log), 'DB_LOG' (grava no banco)**:
@@ -832,7 +832,7 @@ Acesso ao CITSmart Enterprise
     -   **56 - Extensão do arquivo de log (Ex: txt)**: informe a extensão do
     arquivo de LOG: txt;
 
-    -   **44 - Diretório Upload repositório path (Ex: Windows -
+    -   **44 - Diretório Upload repositório path (Ex: Windows -**
     **C:/temp)**: informe o diretório padrão para armazenar os arquivos que
     serão feitos upload;
 
