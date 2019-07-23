@@ -487,7 +487,7 @@ Servidor de indexação apache Solr
 
        *\<property name="mongodb.password" value="PASSWD_MONGODB"/\>*
 
--  ***Configure o IP do Jboss conforme sua rede. Manual padrão 127.0.0.1.***
+-   ***Configure o IP do Jboss conforme sua rede. Manual padrão 127.0.0.1.***
 
        *\<property name="citsmart.host" value="127.0.0.1"/\>*
 
