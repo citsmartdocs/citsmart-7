@@ -14,7 +14,7 @@ Como acessar
 ------------
 
 1.  Acesse a funcionalidade de Permissão de Acesso do Smart Decisions através da
-    navegação no menu principal **Acesso e Permissão  SmartDecisions.**
+    navegação no menu principal **Acesso e Permissão > SmartDecisions**.
 
 Pré-condições
 ------------
