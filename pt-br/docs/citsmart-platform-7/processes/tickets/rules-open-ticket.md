@@ -1,6 +1,5 @@
 title: Regras sobre a abertura automática de solicitação de serviço via e-mail
-Description: Regras sobre a abertura automática de solicitação de serviço via
-e-mail
+Description:Regras sobre a abertura automática de solicitação de serviço via e-mail
 
 # Regras sobre a abertura automática de solicitação de serviço via e-mail
 
