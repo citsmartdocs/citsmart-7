@@ -1,7 +1,5 @@
 title: Cadastro e pesquisa de justificativa de liberação
-
-Description: Esta funcionalidade tem por objetivo registrar a justificativa de
-requisição de liberação que será utilizado em outras rotinas do sistema.
+Description:Esta funcionalidade tem por objetivo registrar a justificativa de requisição de liberação que será utilizado em outras rotinas do sistema.
 
 # Cadastro e pesquisa de justificativa de liberação
 
