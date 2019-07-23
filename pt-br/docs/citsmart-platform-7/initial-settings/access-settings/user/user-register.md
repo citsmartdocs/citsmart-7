@@ -84,8 +84,7 @@ Preenchimento dos campos cadastrais
         o "perfil de acesso" do mesmo será definido pelo sistema, o qual é
         configurado no parâmetro "39" - LDAP - Id do perfil de acesso que será
         setado automaticamente caso o usuário não possua nenhum" (ver
-        conhecimento **[Regras de parametrização -
-        LDAP]().
+        conhecimento [Regras de parametrização - LDAP]().
 
     ![Criar](images/user-3.png)
     
