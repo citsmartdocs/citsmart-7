@@ -1,6 +1,5 @@
 title: Aprovação de solicitação via e-mail
-Description: Tem por objetivo aprovar ou rejeitar a solicitação de um ticket por
-meio do e-mail, sem a necessidade do administrador estar logado
+Description: Tem por objetivo aprovar ou rejeitar a solicitação de um ticket por meio do e-mail, sem a necessidade do administrador estar logado
 
 # Aprovação de solicitação via e-mail
 
@@ -12,7 +11,7 @@ Pré-condições
 
 1.  Informe o conteúdo abaixo nos parâmetros (ver conhecimento [Regras de
     parametrização -
-    sistema][1](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/1659))**;**
+    sistema][1]()**;**
 
     -   Parâmetro 33: URL de acesso ao sistema corretamente;
 
@@ -20,9 +19,9 @@ Pré-condições
 
 1.  Ter ao menos um usuário/grupo cadastrado (ver conhecimentos [Cadastro e
     pesquisa de
-    usuário][2](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/248); [Cadastro
+    usuário][2](); [Cadastro
     e pesquisa de
-    grupo][3](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/249));
+    grupo][3]();
 
 2.  Saber desenhar fluxo de aprovação de solicitação via e-mail cadastrado.
     Neste fluxo deverá existir a tarefa "Aprovação" e o desenho para envio de
@@ -67,15 +66,15 @@ Passos para configurar e-mail no fluxo
 
     **Figura 1 - Tela de configuração de destinatário**
 
-     !!! warning "ATENÇÃO"
+!!! warning "ATENÇÃO"
      
-         - Caso opte que o destinatário seja "grupo", é necessário vincular o envio do e-mail para os 
-         usuários do grupo selecionado (Acesso e Permissão > Grupo).
+    - Caso opte que o destinatário seja "grupo", é necessário vincular o envio do e-mail para os 
+    usuários do grupo selecionado (Acesso e Permissão > Grupo).
 
-         - Caso no grupo aprovador, o usuário coloque para receber e-mail, "outros
-         usuários", deve ser observado que esse usuário talvez não poderá aprovar a
-         solicitação, pois, a condição para isso é que o usuário esteja no grupo
-         aprovador e não somente sendo informado que existe uma aprovação.
+    - Caso no grupo aprovador, o usuário coloque para receber e-mail, "outros
+     usuários", deve ser observado que esse usuário talvez não poderá aprovar a
+     solicitação, pois, a condição para isso é que o usuário esteja no grupo
+     aprovador e não somente sendo informado que existe uma aprovação.
 
 Configurando o e-mail de notificação de aprovação
 -------------------------------------------------
@@ -122,7 +121,7 @@ Configurando o e-mail de notificação de aprovação
 
     **Figura 2 - Exemplo do e-mail**
 
-1.  O usuário clica em *Visualiza*r:
+1.  O usuário clica em *Visualizar*:
 
     -   Permite observar os detalhes do pedido;
 
