@@ -1,7 +1,5 @@
 title: Cadastro e pesquisa de acordo de nível de serviço geral
-Description:  Esta funcionalidade tem por objetivo registrar o acordo de nível
-de serviço do tipo *disponibilidade*, *tempo (por fases)* e *informações
-diversas capturadas de outras fontes*.
+Description:Esta funcionalidade tem por objetivo registrar o acordo de nível de serviço do tipo *disponibilidade*, *tempo (por fases)* e *informações diversas capturadas de outras fontes*.
 
 # Cadastro e pesquisa de acordo de nível de serviço geral
 
@@ -85,8 +83,8 @@ Listagem de itens
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Título**, **Situação**,** Data de Início**, **Data
-    fim** e **Avaliar em**.
+    funcionalidade: Título, Situação, Data de Início, Data
+    fim e Avaliar em.
 
 ![Criar](images/register-sla-2.png)
 
