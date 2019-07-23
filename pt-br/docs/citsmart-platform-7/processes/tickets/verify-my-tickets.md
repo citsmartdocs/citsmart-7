@@ -1,6 +1,5 @@
 title: Verificação de meus tickets
-Description: Tem o objetivo fornecer um resumo das solicitações de serviços
-(tickets) feitas pelo usuário
+Description: Tem o objetivo fornecer um resumo das solicitações de serviços (tickets) feitas pelo usuário
 
 # Verificação de meus tickets
 
@@ -22,15 +21,15 @@ Pré-condições
 
 1.  Ter um item de configuração cadastrado (ver conhecimento [Gerenciamento de
     itens de
-    configuração](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/754) seção
+    configuração]() seção
     Registrando um novo item de configuração) e estar vinculado a uma
     solicitação de serviço (ver conhecimento [Gerenciamento de ticket
-    (serviços)](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/4558) seção
+    (serviços)]() seção
     Vinculação itens de configuração do solicitante);
 
 2.  Ter solicitações de serviço cadastradas (ver conhecimento [Gerenciamento de
     ticket
-    (serviços)](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/4558) seção
+    (serviços)]() seção
     Cadastro de ticket).
 
 Filtros
