@@ -25,4 +25,4 @@ auditoria.
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/23/2019 – Anna Martins
+    <b>Updated:</b>07/23/2019 – Larissa Lourenço
