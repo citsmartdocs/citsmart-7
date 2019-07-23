@@ -562,20 +562,20 @@ rotina de **processamento batch** do CITSmart para ambiente clusterizado.
 -   Verificar se a propriedade *org.quartz.jobStore.driverDelegateClass* é
     correspondente ao banco de dados da instalação:
 
-    -   Postgresql = *org.quartz.impl.jdbcjobstore.PostgreSQLDelegate*
+    -  Postgresql = *org.quartz.impl.jdbcjobstore.PostgreSQLDelegate*
 
         -   Oracle = *org.quartz.impl.jdbcjobstore.oracle.OracleDelegate*
 
         -   Microsoft SQL Server = *org.quartz.impl.jdbcjobstore.MSSQLDelegate*
 
-    -   Alterar a propriedade *org.quartz.jobStore.dataSource* para que seja
+    -  Alterar a propriedade *org.quartz.jobStore.dataSource* para que seja
         exatamente igual ao **pool-name** que foi informado no arquivo de
         configuração do JBoss: standalone.xml ou domain.xml;
 
-    -   Se o ambiente for clusterizado a
+    -  Se o ambiente for clusterizado a
         propriedade *org.quartz.jobStore.isClustered* deverá estar *true*;
 
-    -   Alterar a propriedade *org.quartz.dataSource.citsmart.jndiURL* para a
+    -  Alterar a propriedade *org.quartz.dataSource.citsmart.jndiURL* para a
         mesma URL do **jndi-name** presente no arquivo de configuração do JBoss.
 
 2.  Abaixo é apresentada uma imagem ilustrando os locais do
