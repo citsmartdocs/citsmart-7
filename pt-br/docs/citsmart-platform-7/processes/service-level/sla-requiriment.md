@@ -1,6 +1,5 @@
 title: Cadastro e pesquisa de requisito de acordo de nível de serviço
-Description:  Esta funcionalidade tem por objetivo registrar os planos de
-melhoria que visa implementar melhorias ao serviço de TI.
+Description:Esta funcionalidade tem por objetivo registrar os planos de melhoria que visa implementar melhorias ao serviço de TI.
 
 # Cadastro e pesquisa de requisito de acordo de nível de serviço
 
@@ -45,7 +44,7 @@ Listagem de itens
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade: ** Assunto** e **Situação**.
+    funcionalidade:  Assunto e Situação.
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Editar* e *Excluir*.
