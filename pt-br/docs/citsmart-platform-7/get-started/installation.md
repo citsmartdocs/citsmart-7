@@ -73,9 +73,9 @@ Requisitos mínimos
 
 |                            Máquina                            | 1 x GNU/Linux RedHat ou Debian (incluindo derivados) |
 |---------------------------------------------------------------|------------------------------------------------------|
-|                            **Memória                            |                       16 GB RAM                      |
-|                             Disco                             |                        120 GB                        |
-|                         Processadores                         |                       4 (vCPU)                       |
+|                           **Memória**                         |                     **16 GB RAM**                    |
+|                           **Disco**                           |                      **120 GB**                      |
+|                       **Processadores**                       |                     **4 (vCPU)**                     |
 |                 Leitura/Escrita em disco (I/O)                |                      > 150 MB/s                      |
 |                              Rede                             |                      > 100 Mbps                      |
 | Saltos para soluções (Bancos, EVM, INV, MongoDB, Coletor WMI) |                Mesma rede, sem saltos**                |
