@@ -1,7 +1,5 @@
 title: Análise de tendências de solicitações de serviço
-Description: Tem por objetivo realizar uma análise das solicitações, baseada na
-quantidade crítica, para identificar quais itens vão influenciar em um
-lançamento de uma nova solicitação.
+Description: Tem por objetivo realizar uma análise das solicitações, baseada na quantidade crítica, para identificar quais itens vão influenciar em um lançamento de uma nova solicitação.
 
 # Análise de tendências de solicitações de serviço
 
@@ -15,14 +13,11 @@ Pré-condições
 -------------
 
 1.  Ter um contrato cadastrado e ativo (ver conhecimento [Cadastro e pesquisa de
-    contrato][1](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/256));
+    contrato][1]();
 
 2.  Ter uma solicitação de serviço cadastrada (ver cohecimento [Gerenciamento de
-    ticket(serviços)][2](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/4699) seção
-    Cadastro de ticket) e estar vinculada ao contrato (ver
-    conhecimento [Configuração dos atributos de
-    serviço][3](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/966) seção
-    Vinculando contratos ao serviço).
+    ticket(serviços)][2]() seção Cadastro de ticket) e estar vinculada ao contrato (ver
+    conhecimento [Configuração dos atributos de serviço][3]() seção Vinculando contratos ao serviço).
 
 Filtros
 -------
@@ -100,7 +95,7 @@ Listagem de itens
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade: **ID, Serviço** e **Quantidade Crítica**.
+    funcionalidade: **ID, Serviço e Quantidade Crítica**.
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Gerar Gráfico* e *Criar Problema*.
@@ -121,7 +116,7 @@ Listagem de itens
 
 1.  Em cada guia serão apresentados os resultados referentes a cada tipo
     (Serviço, Causa e Item de Configuração) e em cada item serão exibidos dois
-    botões, um para **Gerar Gráfico **de Análise de Tendências (conforme
+    botões, um para **Gerar Gráfico de Análise de Tendências** (conforme
     ilustrado na figura anterior) o qual apresenta as datas que compreendem o
     período informado e o número de ocorrências naquela data, e outro
     para **Criar Problema**, onde será exibida a tela de cadastro de problema
@@ -164,7 +159,7 @@ Veja também
 -----------
 
 -   [Análise de tendência de
-    eventos][5](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/494).
+    eventos][5]().
 
 [1]:
 [2]:
