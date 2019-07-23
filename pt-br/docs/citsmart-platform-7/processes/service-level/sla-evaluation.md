@@ -1,7 +1,5 @@
 title: Avaliação de SLA
-Description:  Esta funcionalidade tem por objetivo gerar informações de acordo
-de nível de serviço, onde as mesmas auxiliarão na confecção de plano de
-qualidade.
+Description:Esta funcionalidade tem por objetivo gerar informações de acordo de nível de serviço, onde as mesmas auxiliarão na confecção de plano de qualidade.
 
 # Avaliação de SLA
 
