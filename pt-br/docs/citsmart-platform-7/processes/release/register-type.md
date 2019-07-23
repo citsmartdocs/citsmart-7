@@ -1,8 +1,6 @@
 title: Cadastro e pesquisa de tipo de liberação
 
-Description: Esta funcionalidade tem por objetivo registrar o tipo de liberação
-que será utilizado para definir toda a configuração do fluxo de trabalho que a
-liberação irá seguir.
+Description:Esta funcionalidade tem por objetivo registrar o tipo de liberação que será utilizado para definir toda a configuração do fluxo de trabalho que a liberação irá seguir.
 
 # Cadastro e pesquisa de tipo de liberação
 
@@ -75,7 +73,7 @@ Listagem de itens
     selecionado;
 
 2.  Para alterar os dados do registro de tipo de liberação, basta modificar as
-    informações dos campos desejados e clicar no botão *Gravar*para que seja
+    informações dos campos desejados e clicar no botão *Gravar* para que seja
     gravada a alteração realizada no registro, onde a data, hora e usuário serão
     gravados automaticamente para uma futura auditoria.
 
