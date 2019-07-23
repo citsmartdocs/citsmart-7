@@ -31,7 +31,7 @@ Listagem de itens
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** ID **e** Nome.**
+    funcionalidade: ID e Nome.
 
 2.  Existe um botão de ação disponível ao usuário em relação a cada item da
     listagem, é ele: *Editar*.
