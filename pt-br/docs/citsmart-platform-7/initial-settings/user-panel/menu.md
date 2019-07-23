@@ -30,7 +30,7 @@ Filtros
    
    **Figura 1 - Tela de pesquisa de menu**
 
-1.  Realize a pesquisa do item de menu;
+2.  Realize a pesquisa do item de menu;
 
     -   Informe a descrição do menu que deseja pesquisar e clique no
     botão *Pesquisar*. Após isso, será exibido o registro de menu conforme a
@@ -44,7 +44,7 @@ Listagem de itens
 
 1.  O seguinte campo cadastral está disponível ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** Descrição.**
+    funcionalidade: **Descrição**.
 
     ![Criar](images/menu-2.png)
     
