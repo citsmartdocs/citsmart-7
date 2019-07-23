@@ -30,7 +30,7 @@ auditoria.
 | 352 | Habilita o envio de notificações para celulares durante a criação de solicitações                                        | S ou N (Default: N) | Permite controlar se as notificações do sistema serão enviadas para dispositivos móveis (gerais).                                                                                                                                                                                                      | Não se aplica              |
 | 353 | Habilita o envio de notificações para celulares durante a atualização de solicitações informando atendimentos próximos   | S ou N (Default: N) | Permite controlar se as notificações do sistema serão enviadas para dispositivos móveis (gerais).                                                                                                                                                                                                      | Não se aplica              |
 
-**Tabela 1 - Lista de parâmetros**
+**Tabela 1 - Lista de parâmetros** 
 
 !!! tip "About"
 
