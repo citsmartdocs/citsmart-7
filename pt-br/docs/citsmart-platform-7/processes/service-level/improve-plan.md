@@ -1,6 +1,5 @@
 title: Cadastro e pesquisa de plano de melhoria
-Description: Esta funcionalidade tem por objetivo registrar os planos de
-melhoria que visa implementar melhorias ao serviço de TI.
+Description: Esta funcionalidade tem por objetivo registrar os planos de melhoria que visa implementar melhorias ao serviço de TI.
 
 # Cadastro e pesquisa de plano de melhoria
 
