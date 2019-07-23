@@ -226,8 +226,8 @@ CITSmart.
     # ln -s /opt/jdk1.7.0_80/bin/keytool /usr/bin
     # java -version
     java version "1.7.0_80"
-    **Java(TM) SE Runtime Environment (build 1.7.0_80-b15)**
-    **Java HotSpot(TM) 64-Bit Server VM (build 24.80-b11, mixed mode)**
+    ***Java(TM) SE Runtime Environment (build 1.7.0_80-b15)***
+    ***Java HotSpot(TM) 64-Bit Server VM (build 24.80-b11, mixed mode)***
     ```
 
 2.  Extraia o Jboss para o diretório /opt.
