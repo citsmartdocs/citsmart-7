@@ -72,7 +72,6 @@ Requisitos mínimos
     JMS Apache ActiceMQ deve possuir como requisitos mínimos:
 
 |                            Máquina                            | 1 x GNU/Linux RedHat ou Debian (incluindo derivados) |
-|:-------------------------------------------------------------:|:----------------------------------------------------:|
 |                            Memória                            |                       16 GB RAM                      |
 |                             Disco                             |                        120 GB                        |
 |                         Processadores                         |                       4 (vCPU)                       |
@@ -87,7 +86,6 @@ Requisitos mínimos
     requisitos mínimos:
 
 |                           Máquina                           | 1 x GNU/Linux RedHat ou Debian (incluindo derivados) |
-|:-----------------------------------------------------------:|:----------------------------------------------------:|
 |                           Memória                           |                         4 GB                         |
 |                            Disco                            |                        120 GB                        |
 |                        Processadores                        |                       2 (vCPU)                       |
@@ -102,7 +100,6 @@ Requisitos mínimos
    não-relacional** MongoDB deve possuir como requisitos mínimos:
 
 |                           Máquina                          | 1 x GNU/Linux RedHat ou Debian (incluindo derivados) |
-|:----------------------------------------------------------:|:----------------------------------------------------:|
 |                           Memória                          |                         4 GB                         |
 |                            Disco                           |                        120 GB                        |
 |                        Processadores                       |                       2 (vCPU)                       |
@@ -117,7 +114,6 @@ Requisitos mínimos
     possuir como requisitos mínimos:
 
 |                           Máquina                           | 1 x GNU/Linux RedHat ou Debian (incluindo derivados) |
-|:-----------------------------------------------------------:|:----------------------------------------------------:|
 |                           Memória                           |                         4 GB                         |
 |                            Disco                            |                        120 GB                        |
 |                        Processadores                        |                       2 (vCPU)                       |
@@ -131,7 +127,6 @@ Requisitos mínimos
     possuir como requisitos mínimos:
 
 |                         Máquina                        |       1 x Windows      |
-|:------------------------------------------------------:|:----------------------:|
 |                         Memória                        |          8 GB          |
 |                          Disco                         |          80 GB         |
 |                      Processadores                     |        8 (vCPU)        |
