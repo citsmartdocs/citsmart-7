@@ -214,7 +214,7 @@ Preenchimento dos campos cadastrais
     notificações, clique em *Adicionar*. Será apresentada a tela de cadastro de
     e-mail, conforme ilustrada na figura abaixo:
 
-    ![Criar](images/group-9.png)
+    ![Criar](images/group-8.png)
     
     **Figura 6 - Cadastro de e-mail externo**
 
