@@ -26,9 +26,9 @@ a localização dos itens desejados:
     
     !!! warning "ATENÇÃO"
     
-        Caso os nomes das tabelas não estejam atualizados, acesse a funcionalidade Parâmetros CITSmart e defina o nome do banco de
-        dados utilizado no parâmetro ' DB - nome do SHEMA do banco de dados '. Após isto, acesse funcionalidade Carrega Meta Dados
-        e atualize todas as tabelas.
+        Caso os nomes das tabelas não estejam atualizados, acesse a funcionalidade Parâmetros CITSmart e defina o nome do banco 
+        de dados utilizado no parâmetro ' DB - nome do SHEMA do banco de dados '. Após isto, acesse funcionalidade Carrega Meta 
+        Dados e atualize todas as tabelas.
         
     - **Usuário**: informe o nome do usuário, caso queira verificar o log do sistema referente ao usuário;
     - **Quantidade de logs por página**: selecione a quantidade de logs que serão exibidos por página.
@@ -37,4 +37,26 @@ a localização dos itens desejados:
 
 3. Caso queira gerar o relatório do log do sistema, clique no botão "Gerar Relatório".
 
-    ![Logs](images/
+    ![Logs](images/log-sis.img1.jpg)
+    
+    **Figura 1 - Tela de log do sistema**
+    
+Listagem de itens
+-------------------
+
+1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem 
+padrão da funcionalidade: **Usuário, Tabela, Operação, Data/Hora e Dados**.
+
+![Listagem](images/log-sis.img2.jpg)
+
+**Figura 2 - Tela de listagem de log do sistema**
+
+Preenchimento dos campos cadastrais
+--------------------------------------
+
+1. Não se aplica.
+
+!!! tip "About"
+
+    <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
+    <b>Updated:</b>07/23/2019 – Larissa Lourenço
