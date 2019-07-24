@@ -196,7 +196,7 @@ Preenchimento dos campos cadastrais
     !!! note "NOTA"
     
         No momento de cadastro do ticket que tenha um formulário do tipo padrão, estarão disponíveis no botão 
-        ![simbolo](images/simb-menu.jpg) , localizado no canto superior esquerdo, apenas as funcionalidades: IC do Solicitante, Anexos, 
+        ![simbolo](images/simb-menu.jpg), localizado no canto superior esquerdo, apenas as funcionalidades: IC do Solicitante, Anexos, 
         Agenda, Liberação, Projeto, Conhecimento e Leitura de e-mails.
         
     !!! info "IMPORTANTE"
