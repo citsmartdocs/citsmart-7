@@ -44,7 +44,9 @@ Listagem de itens
 1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens desejados na listagem padrão da 
 funcionalidade: **Descrição**.
 
-    ![Listagem](images/calenda-img2.jpg**
+    ![Listagem](images/calenda-img2.jpg)
+    
+    **Figura 2 - Tela de listagem de calendário**
     
 2. Após a pesquisa, selecione o registro desejado, será direcionado para a tela de cadastro exibindo o conteúdo referente ao 
 registro selecionado;
