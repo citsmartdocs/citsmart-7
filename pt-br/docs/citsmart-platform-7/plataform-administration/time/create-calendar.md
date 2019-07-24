@@ -7,8 +7,7 @@ Esta funcionalidade tem por objetivo criar calendários (escalas) de jornadas de
 Como acessar
 ---------------
 
-1. Acesse a funcionalidade de calendário através da navegação no menu principal **Cadastros Gerais > Gerência de Pessoal 
-> Calendário**.
+1. Acesse a funcionalidade de calendário através da navegação no menu principal **Cadastros Gerais > Gerência de Pessoal > Calendário**.
 
 Pré-condições
 ---------------
