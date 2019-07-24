@@ -1,6 +1,5 @@
 title: Verificação do histórico de atendimento
-Description: Esta funcionalidade tem por objetivo verificar o histórico de
-atendimento das solicitações de serviços feito pelos técnicos de campo.
+Description: Esta funcionalidade tem por objetivo verificar o histórico de atendimento das solicitações de serviços feito pelos técnicos de campo.
 
 # Verificação do histórico de atendimento
 
@@ -19,7 +18,7 @@ Pré-condições
 
 1.  Configurar a conexão do sistema com as API's do Google (ver
     conhecimento [Manual de configuração do servidor para uso do CITSmart ITSM
-    Enterprise (iOS e Android)]() - seções 5 a 7).
+    Enterprise (iOS e Android)] - seções 5 a 7).
 
 Filtros
 -------
@@ -28,23 +27,23 @@ Filtros
     itens na listagem padrão da funcionalidade, facilitando a localização dos
     itens desejados:
 
--   Contrato;
+    -   Contrato;
 
--   Unidade;
+    -   Unidade;
 
--   Grupo executor;
+    -   Grupo executor;
 
--   Técnico;
+    -   Técnico;
 
--   Data início;
+    -   Data início;
 
--   Data fim;
+    -   Data fim;
 
--   Situação da solicitação;
+    -   Situação da solicitação;
 
-![Criar](images/history-1.png)
+    ![Criar](images/history-1.png)
 
-**Figura 1 - Tela de pesquisa de histórico de atendimento**
+    **Figura 1 - Tela de pesquisa de histórico de atendimento**
 
 Listagem de itens
 -----------------
@@ -96,11 +95,11 @@ Verificando o histórico de atendimento
    -  **Data início**: informar a data inicial que faz referência ao dia
     trabalhado do técnico;
 
-  -  **Data fim**: informar a data final que faz referência ao dia trabalhado do
+   -  **Data fim**: informar a data final que faz referência ao dia trabalhado do
     técnico;
 
-  -  **Situação da Solicitação**: selecionar a situação de atendimento da
-  solicitação de serviço.
+   -  **Situação da Solicitação**: selecionar a situação de atendimento da
+   solicitação de serviço.
 
 2.  Após os filtros definido, clique no botão *Pesquisar*. Feito isso, serão
     exibidos no mapa o histórico de atendimento das solicitações de serviço pelo
