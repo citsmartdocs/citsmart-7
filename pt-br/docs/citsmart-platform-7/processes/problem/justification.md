@@ -1,6 +1,5 @@
-title: Cadastro e pesquisa de justificativa de problema
-Description: Esta funcionalidade tem por objetivo registrar as justificativas de
-problemas que serão utilizadas em outras rotinas do Sistema.
+title:Cadastro e pesquisa de justificativa de problema
+Description:Esta funcionalidade tem por objetivo registrar as justificativas de problemas que serão utilizadas em outras rotinas do Sistema.
 
 # Cadastro e pesquisa de justificativa de problema
 
