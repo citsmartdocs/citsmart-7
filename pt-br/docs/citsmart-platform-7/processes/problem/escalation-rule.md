@@ -16,23 +16,21 @@ Pré-condições
     propriedade **START_MONITORA_INCIDENTES** informando o parâmetro **TRUE**.
 
 2.  Informe o conteúdo abaixo no parâmetro (ver conhecimento [Regras de
-    parametrização -
-    ticket]();
+    parametrização - ticket];
 
     -   Parâmetro 190: com o valor S
 
 1.  Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de
-    contrato]();
+    contrato];
 
 2.  Ter o colaborador cadastrado (ver conhecimento [Cadastro e pesquisa de
-    colaborador]();
+    colaborador];
 
 3.  Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de
-    grupo]();
+    grupo];
 
 4.  Ter o portfólio de serviços definido.(ver conhecimento [Cadastro de
-    portfólio de
-    serviços]().
+    portfólio de serviços].
 
 Filtros
 -------
