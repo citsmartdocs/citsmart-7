@@ -1,6 +1,5 @@
-title: Cadastro de requisição de mudança a partir de um problema
-Description: Esta funcionalidade permite realizar o registro de uma requisição
-de mudança a partir de um problema.
+title:Cadastro de requisição de mudança a partir de um problema
+Description:Esta funcionalidade permite realizar o registro de uma requisição de mudança a partir de um problema.
 
 # Cadastro de requisição de mudança a partir de um problema
 
