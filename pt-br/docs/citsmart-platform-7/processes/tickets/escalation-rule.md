@@ -46,7 +46,7 @@ Filtros
 
     -   Situação.
     
-    ![escalonamento](images/escalation-rule-1.png)
+    ![escalonamento](images/escalation-rule1.png)
     
     **Figura 1 - Tela de pesquisa de regra de escalonamento**
 
@@ -79,7 +79,7 @@ Preenchimento dos campos cadastrais
     e notificações automáticas** será exibida, conforme ilustrada na figura
     abaixo:
 
-    ![escalonamento](images/escalation-rule-3.png)
+    ![escalonamento](images/escalation-rule3.png)
 
     **Figura 3 - Tela de cadastro de regras de escalonamento**
 
