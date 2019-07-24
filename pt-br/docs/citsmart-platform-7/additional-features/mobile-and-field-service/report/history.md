@@ -69,37 +69,37 @@ Verificando o histórico de atendimento
 
 2.  Defina os filtros de acordo com sua necessidade:
 
-   -  **Estado**: informar o estado das solicitações de serviços que deseja
+    -  **Estado**: informar o estado das solicitações de serviços que deseja
     verificar o histórico de seu atendimento pelo(s) técnico(s) de campo;
 
-   -  **Cidades**: informar a cidade referente às solicitações de serviços que
+    -  **Cidades**: informar a cidade referente às solicitações de serviços que
     deseja verificar o histórico de seu atendimento pelo(s) técnico(s) de campo;
 
-   -  **Contrato**: informar o contrato referente às solicitações de serviços que
+    -  **Contrato**: informar o contrato referente às solicitações de serviços que
     deseja verificar o histórico de seu atendimento pelo(s) técnico(s) de campo;
 
-   -  **Unidade**: informar a unidade referente às solicitações de serviços que
+    -  **Unidade**: informar a unidade referente às solicitações de serviços que
     deseja verificar o histórico de seu atendimento pelo(s) técnico(s) de campo;
 
-   -  **Grupo Executor**: informar o grupo executor de solicitações de serviços
+    -  **Grupo Executor**: informar o grupo executor de solicitações de serviços
     para verificar o atendimento;
 
-   -  **Técnico**: informar o técnico para verificar o histórico de atendimento
+    -  **Técnico**: informar o técnico para verificar o histórico de atendimento
     das solicitações de serviços;
 
-   !!! note "NOTA"
+    !!! note "NOTA"
 
-       Ao selecionar o técnico, serão apresentadas as solicitações de serviços
-       que o mesmo atendeu e que faz referência ao(s) contrato(s) que ele pertence.
+         Ao selecionar o técnico, serão apresentadas as solicitações de serviços
+         que o mesmo atendeu e que faz referência ao(s) contrato(s) que ele pertence.
 
-   -  **Data início**: informar a data inicial que faz referência ao dia
+    -  **Data início**: informar a data inicial que faz referência ao dia
     trabalhado do técnico;
 
-   -  **Data fim**: informar a data final que faz referência ao dia trabalhado do
+    -  **Data fim**: informar a data final que faz referência ao dia trabalhado do
     técnico;
 
-   -  **Situação da Solicitação**: selecionar a situação de atendimento da
-   solicitação de serviço.
+    -  **Situação da Solicitação**: selecionar a situação de atendimento da
+    solicitação de serviço.
 
 3.  Após os filtros definido, clique no botão *Pesquisar*. Feito isso, serão
     exibidos no mapa o histórico de atendimento das solicitações de serviço pelo
