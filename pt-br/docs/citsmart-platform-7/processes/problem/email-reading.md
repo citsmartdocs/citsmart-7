@@ -1,6 +1,5 @@
-title: Cadastro de problemas via leitura de email
-Description: Esta funcionalidade permite realizar o registro de um problema via
-leitura de e-mail.
+title:Cadastro de problemas via leitura de email
+Description:Esta funcionalidade permite realizar o registro de um problema via leitura de e-mail.
 
 # Cadastro de problemas via leitura de email
 
@@ -27,7 +26,7 @@ Pré-condições
     colaborador]());
 
 4.  Cadastrar grupo (ver conhecimento [Cadastro e pesquisa de
-    grupo](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/249));
+    grupo]();
 
 5.  Cadastrar categoria de problema, a qual deverá ter o vínculo com o fluxo
     referente ao problema (ver conhecimento [Cadastro e pesquisa de categoria de
@@ -73,8 +72,8 @@ Preenchimento dos campos cadastrais
 
 1.  Após os parâmetros configurados, na tela de **Gerenciamento de
     Problemas** clique no botão *Novo Problema*. Será exibida a tela
-    de**Registro de Problemas**, informe o contrato para qual será feito o
-    registro de problema e clique no botão *Leitura de e-mails*localizado na
+    de **Registro de Problemas**, informe o contrato para qual será feito o
+    registro de problema e clique no botão *Leitura de e-mails* localizado na
     parte superior da tela de registro de problema conforme indicado na figura
     abaixo:
 
