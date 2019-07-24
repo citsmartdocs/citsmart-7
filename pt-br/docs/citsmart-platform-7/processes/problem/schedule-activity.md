@@ -69,8 +69,7 @@ Agendando atividade
 2.  Será exibida uma janela para agendar atividades contendo duas abas, uma
     para **Histórico de Agendamentos** e outra para **Criar Agendamento**;
 
--   Na aba **Histórico de Agendamentos**, serão listados os Agendamentos das
-    atividades que foram criados;
+    -   Na aba **Histórico de Agendamentos**, serão listados os Agendamentos das atividades que foram criados;
 
     ![Criar](images/schedule-activity-4.png)
 
