@@ -1,6 +1,5 @@
-title: Cadastro de problema a partir de outro problema
-Description: Esta funcionalidade permite realizar o registro de um problema a
-partir de um problema.
+title:Cadastro de problema a partir de outro problema
+Description:Esta funcionalidade permite realizar o registro de um problema a partir de um problema.
 
 # Cadastro de problema a partir de outro problema
 
@@ -89,11 +88,11 @@ Preenchimento dos campos cadastrais
     botão *Pesquisa Problema*. Será exibida a tela para pesquisa do mesmo,
     conforme exemplo ilustrado na figura abaixo:
 
-   !!! info "IMPORTANTE"
+    !!! info "IMPORTANTE"
 
-       O sistema permite relacionar um ou mais problemas ao problema principal.
-       Os problemas a serem relacionados devem estar com o status diferente de
-       "Cancelado" e "Concluído".
+         O sistema permite relacionar um ou mais problemas ao problema principal.
+         Os problemas a serem relacionados devem estar com o status diferente de
+         "Cancelado" e "Concluído".
 
    ![Criar](images/another-7.png)
    
