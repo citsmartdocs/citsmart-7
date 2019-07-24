@@ -28,11 +28,11 @@ Filtros
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
-   -  Número do problema;
+    -  Número do problema;
 
-   ![Criar](images/schedule-activity-1.png)
+    ![Criar](images/schedule-activity-1.png)
 
-   **Figura 1 - Tela de pesquisa de problemas**
+    **Figura 1 - Tela de pesquisa de problemas**
 
 Listagem de itens
 -----------------
