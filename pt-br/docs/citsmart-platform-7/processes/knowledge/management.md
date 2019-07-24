@@ -1,7 +1,5 @@
 title: Gerenciamento de conhecimento
-Description: O Gerenciamento do Conhecimento tem o objetivo de disponibilizar e
-gerenciar as informações e conhecimentos, de forma confiável e íntegra, que
-apoiam a execução do serviço.
+Description: O Gerenciamento do Conhecimento tem o objetivo de disponibilizar e gerenciar as informações e conhecimentos, de forma confiável e íntegra, que apoiam a execução do serviço.
 
 # Gerenciamento de conhecimento
 
@@ -19,8 +17,7 @@ Pré-condições
 ------------
 
 1.  Ter pastas cadastradas para inserção e organização dos conhecimentos (ver
-    conhecimento [Cadastro e pesquisa de
-    pasta]().
+    conhecimento [Cadastro e pesquisa de pasta].
 
 Filtros
 ------
@@ -330,13 +327,13 @@ Opções avançadas
 
     **Figura 14 - Funcionalidades avançadas**
 
--   **Ger. Disponibilidade?**: significa se conhecimento cadastrado é referente
+    -   **Ger. Disponibilidade?**: significa se conhecimento cadastrado é referente
     ao Gerenciamento de Disponibilidade;
 
--   **Direitos Autorais**: significa se conhecimento cadastrado é referente a um
+    -   **Direitos Autorais**: significa se conhecimento cadastrado é referente a um
     direito autoral;
 
--   **Legislação**: significa se conhecimento cadastrado é referente a uma
+    -   **Legislação**: significa se conhecimento cadastrado é referente a uma
     legislação.
 
 
