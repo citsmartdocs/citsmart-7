@@ -1,6 +1,5 @@
 title: Cadastro e pesquisa de contrato
-Description: O contrato é um acordo entre duas partes, que se obrigam a cumprir
-o que foi entre elas combinado sob determinadas condições.
+Description: O contrato é um acordo entre duas partes, que se obrigam a cumprir o que foi entre elas combinado sob determinadas condições.
 
 # Cadastro e pesquisa de contrato
 
@@ -21,17 +20,17 @@ Pré-condições
 ------------
 
 1.  Ter o fornecedor cadastrado (ver conhecimento [Cadastro e pesquisa de
-    fornecedor]();
+    fornecedor];
 
 2.  Ter o cliente cadastrado (ver conhecimento [Cadastro e pesquisa de
-    cliente]();
+    cliente];
 
 3.  Ter a moeda cadastrada (ver conhecimento [Cadastro e pesquisa de
-    moeda]();
+    moeda];
 
 4.  Ter a condição de operação cadastrada (ver conhecimento [Cadastro e pesquisa
     de condição de
-    operação]().
+    operação].
 
 Filtros
 -------
@@ -143,9 +142,9 @@ Preenchimento de campos cadastrais
 
     !!! warning "ATENÇÃO"
 
-        O campo Valor Mensal do Contrato é relevante para a gestão de ativos
-        financeiros do sistema e seu cálculo leva em consideração: o valor total do
-        contrato e as datas de início e fim do contrato.
+         O campo Valor Mensal do Contrato é relevante para a gestão de ativos
+         financeiros do sistema e seu cálculo leva em consideração: o valor total do
+         contrato e as datas de início e fim do contrato.
 
 m)  **Data do Contrato**: informe a data em que foi realizado o contrato;
 
