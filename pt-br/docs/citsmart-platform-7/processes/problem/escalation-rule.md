@@ -166,13 +166,13 @@ Preenchimento dos campos cadastrais
       -   **Grupo Executor**: informe para qual grupo será escalonado os itens
     filtrados pela regra de escalonamento;
 
-      -   **Prazo de Execução (min)**:** **defina quando se deve escalonar os itens
+      -   **Prazo de Execução (min)**: defina quando se deve escalonar os itens
     filtrados para o **Grupo Executor** informado;
 
       -   **Escalonar por**: defina a data da atividade que será usada para calcular o
     prazo de execução para o escalonamento.
 
-      -   **Prioridade**:** **defina a prioridade do escalonamento;
+      -   **Prioridade**: defina a prioridade do escalonamento;
 
       -   Clique em *Adicionar* para inserção da regra de escalonamento.
 
