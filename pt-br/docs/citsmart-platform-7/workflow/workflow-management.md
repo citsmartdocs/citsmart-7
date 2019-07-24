@@ -101,7 +101,7 @@ Criação de fluxo
     
     **Figura 6 - Elemento do fluxo**
 
-    -  Caso queira excluir um elemento que foi inserido no desenho do fluxo, clique
+      -  Caso queira excluir um elemento que foi inserido no desenho do fluxo, clique
     no mesmo e pressione a tela Ctrl + Delete.
 
 4.  Após o fluxo definido, clique no botão *Gravar* para efetuar a operação.
