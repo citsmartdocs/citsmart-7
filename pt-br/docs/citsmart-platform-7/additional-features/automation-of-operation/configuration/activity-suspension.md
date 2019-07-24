@@ -1,6 +1,5 @@
 title: Cadastro e pesquisa de motivo de suspensão de atividade
-Description: Esta funcionalidade tem por objetivo registrar o motivo da
-suspensão da atividade periódica.
+Description: Esta funcionalidade tem por objetivo registrar o motivo da suspensão da atividade periódica.
 
 # Cadastro e pesquisa de motivo de suspensão de atividade
 
@@ -42,7 +41,7 @@ Listagem de itens
 
 1.  O seguinte campo cadastral está disponível ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** Nome.**
+    funcionalidade: **Nome**.
 
     ![Criar](images/suspension-2.png)
 
@@ -64,9 +63,9 @@ Preenchimento dos campos cadastrais
 1.  Será apresentada a tela de Cadastro de Motivo de Suspensão de Atividade,
     conforme ilustrada na figura abaixo:
 
-   ![Criar](images/suspension-3.png) 
+    ![Criar](images/suspension-3.png) 
 
-   **Figura 3 - Tela de cadastro de motivo de suspensão de atividade**
+    **Figura 3 - Tela de cadastro de motivo de suspensão de atividade**
 
 2.  Informe a descrição do motivo da suspensão de atividade e clique no
     botão *Gravar* para efetuar o registro, onde a data, hora e usuário serão
