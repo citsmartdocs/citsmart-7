@@ -11,7 +11,7 @@ Pré-condições
 
 1.  Informe o conteúdo abaixo nos parâmetros (ver conhecimento [Regras de
     parametrização -
-    sistema][1]()**;**
+    sistema][1]**;**
 
     -   Parâmetro 33: URL de acesso ao sistema corretamente;
 
@@ -151,7 +151,7 @@ Anexos
 [Dowload - AguardandoAprovacao - email][5]
 
 
-[1]:
+[1]:https://citsmart-7.citsmart.com/pt-br/citsmart-platform-7/processes/tickets/approve-request.html
 [2]:
 [3]:
 [4]:
