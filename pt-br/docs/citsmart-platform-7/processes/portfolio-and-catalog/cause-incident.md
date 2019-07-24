@@ -1,6 +1,5 @@
 title: Cadastro e pesquisa de causa de incidentes
-Description:Esta funcionalidade permite registrar e pesquisar as causas da ocorrência de
-incidentes.
+Description:Esta funcionalidade permite registrar e pesquisar as causas da ocorrência de incidentes.
 
 # Cadastro e pesquisa de causa de incidentes
 
@@ -39,7 +38,7 @@ Listagem de itens
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** Causa **e** Data inicial.**
+    funcionalidade: **Causa e Data inicial**.
 
     ![Criar](images/cause-incident-2.png)
 
