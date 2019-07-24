@@ -63,7 +63,7 @@ do serviço. Registrar os detalhes completos da solução e ações no Problema.
 
     **Figura 3 - Tela de gerenciamento de problemas**
 
-1.  Será exibida a tela de **Registro de Problema** com os campos preenchidos,
+2.  Será exibida a tela de **Registro de Problema** com os campos preenchidos,
     referente ao registro selecionado.
 
     -  No quadro de **Fechamento**, registre as informações necessárias da execução
