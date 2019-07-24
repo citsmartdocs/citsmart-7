@@ -17,10 +17,10 @@ Pré-condições
 -------------
 
 1.  Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de
-    contrato]();
+    contrato];
 
 2.  Ter atividades cadastradas (ver conhecimento [Cadastro da atividade de
-    serviço]().
+    serviço].
 
 Filtros
 -------
