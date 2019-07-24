@@ -1,6 +1,5 @@
 title: Exportação de dados de contratos
-Description: Esta funcionalidade tem por objetivo de exportar os dados para
-facilitar a carga inicial dos dados relacionados aos contratos.
+Description: Esta funcionalidade tem por objetivo de exportar os dados para facilitar a carga inicial dos dados relacionados aos contratos.
 
 # Exportação de dados de contratos
 
