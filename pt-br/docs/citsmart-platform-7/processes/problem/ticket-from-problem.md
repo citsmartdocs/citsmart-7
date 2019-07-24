@@ -1,6 +1,5 @@
-title: Cadastro de solicitação de serviço a partir de um problema
-Description: Esta funcionalidade permite realizar o registro de uma solicitação
-de serviço a partir de um problema.
+title:Cadastro de solicitação de serviço a partir de um problema
+Description:Esta funcionalidade permite realizar o registro de uma solicitação de serviço a partir de um problema.
 
 # Cadastro de solicitação de serviço a partir de um problema
 
