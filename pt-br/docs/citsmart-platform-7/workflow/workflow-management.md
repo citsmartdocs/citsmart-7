@@ -75,33 +75,33 @@ Criação de fluxo
    
    **Figura 4 - Cadastro das informações do fluxo**
 
-    -   **Eventos:** apresenta os elementos de eventos para ser utilizado no desenho
+   -   **Eventos:** apresenta os elementos de eventos para ser utilizado no desenho
     do fluxo;
 
-    -   **Tarefas:** apresenta os elementos de tarefas para ser utilizado no desenho
+   -   **Tarefas:** apresenta os elementos de tarefas para ser utilizado no desenho
     do fluxo;
 
-    -   **Gateways:** apresenta os elementos de condições para ser utilizado no
+   -   **Gateways:** apresenta os elementos de condições para ser utilizado no
     desenho do fluxo.
 
-    -   Para inserir os elementos, basta clicar no elemento desejado e arrastá-lo
+   -   Para inserir os elementos, basta clicar no elemento desejado e arrastá-lo
     para a área de desenho. Ao arrastar e soltar o elemento na área de desenho,
     será exibida uma tela para definição das propriedades, conforme exemplo
     ilustrado na figura abaixo:
 
-    ![Criar](images/workflow-5.png)
+   ![Criar](images/workflow-5.png)
     
-    **Figura 5 - Definição das propriedades do elemento "Tarefa" do fluxo**
+   **Figura 5 - Definição das propriedades do elemento "Tarefa" do fluxo**
 
-    -   As propriedades de um elemento também podem ser definidas ao clicar duas
+   -   As propriedades de um elemento também podem ser definidas ao clicar duas
     vezes no elemento ou clicar no elemento e logo após clicar no ícone
     apresentado ao lado do mesmo, conforme indicado na figura abaixo:
 
-    ![Criar](images/workflow-6.png)
+   ![Criar](images/workflow-6.png)
     
-    **Figura 6 - Elemento do fluxo**
+   **Figura 6 - Elemento do fluxo**
 
-    -   Caso queira excluir um elemento que foi inserido no desenho do fluxo, clique
+   -   Caso queira excluir um elemento que foi inserido no desenho do fluxo, clique
     no mesmo e pressione a tela Ctrl + Delete.
 
 4.  Após o fluxo definido, clique no botão *Gravar* para efetuar a operação.
@@ -123,9 +123,9 @@ Vinculando a um conhecimento
      para dar acesso de leitura ao conteúdo, para tanto, tal conhecimento
      geralmente é um escrito na forma de um passo a passo.
 
-    ![Criar](images/workflow-7.png)
+   ![Criar](images/workflow-7.png)
     
-    **Figura 7 - Aba do conhecimento**
+   **Figura 7 - Aba do conhecimento**
 
 Implementando funcionalidades no fluxo sobre a atividade
 ------------------------------------------------------
@@ -198,7 +198,7 @@ Componente IBM WATSON
 -------------------
 
 1.  A partir da versão 7.2.2.0 um novo componente que interage com a **API
-    Conversation **do** IBM Watson **passou a estar disponível na barra de
+    Conversation** do **IBM Watson** passou a estar disponível na barra de
     ferramentas (grupo **Tarefa**), chamado de **Watson conversation** ![Criar](images/workflow-9.png).
 
 2.  A solução **IBM Watson** é um sistema de resposta a perguntas em linguagem
@@ -208,24 +208,24 @@ Componente IBM WATSON
 
 3.  Ao incluir este componente em um fluxo, deve-se preencher seus atributos:
 
-    -   **Nome:** nome que vem preenchido com "Conversação Watson";
+    -   **Nome**: nome que vem preenchido com "Conversação Watson";
 
-    -   **ID Workspace:** identificador a servir para referências;
+    -   **ID Workspace**: identificador a servir para referências;
 
-    -   **Data da versão:** data que deve ser preenchida no formato aaaa-mm-dd;
+    -   **Data da versão**: data que deve ser preenchida no formato aaaa-mm-dd;
 
-    -   **Usuário para conexão:** credencial de conexão;
+    -   **Usuário para conexão**: credencial de conexão;
 
-    -   **Senha para conexão:** credencial de conexão;
+    -   **Senha para conexão**: credencial de conexão;
 
-    -   **Texto de entrada:** texto que aparecerá na entrada.
+    -   **Texto de entrada**: texto que aparecerá na entrada.
 
-    !!! info "IMPORTANTE"
+   !!! info "IMPORTANTE"
 
          Para usar este componente, a organização deve possuir a arquitetura IBM
          BlueMIX, possibilitando assim acesso à API Conversation do Watson.**
 
-    !!! note "NOTA"
+   !!! note "NOTA"
 
          IBM Bluemix é uma implementação da arquitetura de nuvem aberta da IBM,
          baseada em Cloud Foundry, que permite criar, implementar e gerenciar
