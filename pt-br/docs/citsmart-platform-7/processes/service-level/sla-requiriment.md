@@ -18,7 +18,7 @@ Pré-condições
 -------------
 
 1.  Ter o colaborador cadastrado (ver conhecimento [Cadastro e Pesquisa de
-    Colaborador]().
+    Colaborador].
 
 Filtros
 -------
