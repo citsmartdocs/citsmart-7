@@ -83,7 +83,7 @@ Preenchimento dos campos cadastrais
 
 2.  Preencha os campos conforme orientações abaixo:
 
-3.  **Nome**: informe o nome do novo colaborador;
+    -   **Nome**: informe o nome do novo colaborador;
 
     -   **Tipo de Parceiro**: informe o tipo de vínculo que o colaborador possui
         com a empresa;
@@ -140,7 +140,7 @@ Preenchimento dos campos cadastrais
         -   **Data de Nascimento**: informe a data de nascimento do colaborador;
 
         -   **Sexo**: marque uma das opções referentes ao sexo do colaborador:
-        Masculino ou Feminino;
+            Masculino ou Feminino;
 
         -   **RG**: informe o número do RG do colaborador;
 
@@ -179,7 +179,7 @@ Preenchimento dos campos cadastrais
         -   **Observação**: informe alguma observação que achar conveniente sobre o
              colaborador.
 
-4.  Após informar os dados, clique no botão *Gravar* para efetuar o registro,
+3.  Após informar os dados, clique no botão *Gravar* para efetuar o registro,
     onde a data, hora e usuário serão gravados automaticamente para uma futura
     auditoria.
 
