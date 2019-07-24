@@ -339,7 +339,7 @@ Vinculando processo de negócio ao serviço
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Nome do Processo de Negócio.
+    -   Nome do Processo de Negócio.
 
 ### Listagem de itens
 
@@ -389,7 +389,7 @@ Vinculando o dono do negócio ao serviço
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Nome .
+    -   Nome .
 
 ### Listagem de itens
 
@@ -435,7 +435,7 @@ Vinculando usuário do negócio ao serviço
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Nome.
+    -   Nome.
 
 ### Listagem de itens
 
@@ -480,7 +480,7 @@ Vinculando serviço de apoio / técnico
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Nome do Serviço.
+    -   Nome do Serviço.
 
 ### Listagem de itens
 
