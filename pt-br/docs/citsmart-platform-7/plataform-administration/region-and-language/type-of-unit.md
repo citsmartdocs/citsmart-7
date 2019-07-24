@@ -8,7 +8,7 @@ Como acessar
 ---------------
 
 1. Acesse a funcionalidade de tipos de unidade através da navegação no menu principal 
-**Cadastros Gerais > Gerência de Pessoal > Tipo de Unidade.
+**Cadastros Gerais > Gerência de Pessoal > Tipo de Unidade**.
 
 Pré-condições
 ---------------
