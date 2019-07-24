@@ -1,6 +1,5 @@
 title: Cadastro e pesquisa de serviços de ordens de serviço (OS)
-Description: Esta funcionalidade tem o objetivo de cadastrar os serviços de
-ordens de serviço (OS).
+Description: Esta funcionalidade tem o objetivo de cadastrar os serviços de ordens de serviço (OS).
 
 # Cadastro e pesquisa de serviços de ordens de serviço (OS)
 
@@ -19,11 +18,11 @@ Pré-condições
 
 1.  Ter a categoria de serviço cadastrada (ver conhecimento [Cadastro e pesquisa
     de categoria de
-    serviço]();
+    serviço];
 
 2.  Ter o tipo de serviço cadastrado (ver conhecimento [Cadastro e pesquisa de
     tipo de
-    serviço]().
+    serviço].
 
 Filtros
 ------
@@ -83,50 +82,50 @@ Preenchimento dos campos cadastrais
 
 1.  Preencha os campos conforme orientação abaixo:
 
-    -   **Nome do Serviço**: informe o nome do serviço de OS;
+    -  **Nome do Serviço**: informe o nome do serviço de OS;
 
-    -   **Sigla/Abreviação**: informe uma sigla ou uma abreviação para identificar o
+    -  **Sigla/Abreviação**: informe uma sigla ou uma abreviação para identificar o
     serviço, caso achar necessário;
 
-    -   **Situação**: informe situação do serviço de OS;
+    -  **Situação**: informe situação do serviço de OS;
 
-    -   **Data de implantação**: definir a data que será implementado o serviço;
+    -  **Data de implantação**: definir a data que será implementado o serviço;
 
-    -   **Categoria do Serviço**: informe a categoria do serviço de OS;
+    -  **Categoria do Serviço**: informe a categoria do serviço de OS;
 
-    -   **Detalhamento do Serviço**: descreva os detalhes do serviço de OS;
+    -  **Detalhamento do Serviço**: descreva os detalhes do serviço de OS;
 
-    -   **Objetivo do Serviço**: descreva o objetivo do serviço de OS;
+    -  **Objetivo do Serviço**: descreva o objetivo do serviço de OS;
 
-    -   **Tipo de Evento**: informe o tipo de evento do serviço de OS;
+    -  **Tipo de Evento**: informe o tipo de evento do serviço de OS;
 
-    -   **Importância do Serviço ao Negócio**: informe a importância do serviço de
+    -  **Importância do Serviço ao Negócio**: informe a importância do serviço de
     OS ao negócio;
 
-        -   **Alta**: informá-lo caso o serviço seja imprescindível para o
+        -  **Alta**: informá-lo caso o serviço seja imprescindível para o
         funcionamento do negócio;
 
-        -   **Média**: informá-la caso o serviço seja importante para o negócio, mas
+        -  **Média**: informá-la caso o serviço seja importante para o negócio, mas
         a produtividade não seja totalmente dependente dele;
 
-        -   **Baixa**: informá-lo se o serviço a ser realizado for necessário para o
+        -  **Baixa**: informá-lo se o serviço a ser realizado for necessário para o
         dia-a-dia da empresa, mas a sua ausência não cause situações drásticas;
 
-        -   **Normal**: informá-lo caso o serviço a ser realizado não interfira no
+        -  **Normal**: informá-lo caso o serviço a ser realizado não interfira no
         cotidiano produtivo da organização;
 
-        -   **A combinar**: informá-lo quando não se sabe o tipo de importância do
+        -  **A combinar**: informá-lo quando não se sabe o tipo de importância do
         serviço ao negócio no momento do registro.
 
-    -   **Local de Execução dos Serviços**: informe o local onde o serviço de OS
+    -  **Local de Execução dos Serviços**: informe o local onde o serviço de OS
     será executado;
 
-        -   **Interno**: o serviço será realizado dentro da organização;
+        -  **Interno**: o serviço será realizado dentro da organização;
 
-        -   **Externo**: o serviço será realizado fora da organização. Por exemplo:
+        -  **Externo**: o serviço será realizado fora da organização. Por exemplo:
         em outra organização ou em uma filial;
 
-        -   **Interno/Externo**: o serviço poderá ser realizado dentro da
+        -  **Interno/Externo**: o serviço poderá ser realizado dentro da
         organização como fora.
 
 1.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
