@@ -1,8 +1,6 @@
 title: Manual de confirguraçãodo servidor CITSmart ENterprise ITSM para uso de APPs (iOS e Android)
 
-Description:Este documento tem o propósito de fornecer orientações necessárias para
-configurar o servidor para o uso adequado do CITSmart ITSM Enterprise na
-plataforma iOS e Android.
+Description:Este documento tem o propósito de fornecer orientações necessárias para configurar o servidor para o uso adequado do CITSmart ITSM Enterprise na plataforma iOS e Android.
 
 # Manual de confirguraçãodo servidor CITSmart Enterprise ITSM para uso de APPs (iOS e Android)
 
@@ -20,8 +18,7 @@ Pré-condições
 2.  Configurar o parâmetro 257 - Tamanho de página para retorno nos serviços
     REST paginados: definir a quantidade de registros retornado em serviços de
     listagem consumidos pelo Mobile (Padrão: 10) (ver conhecimento [Configurar
-    parametrização -
-    Mobile]();
+    parametrização - Mobile];
 
 3.  Configurar o parâmetro 272 - Determina se serão notificados somente
     solicitações sem responsável no CITSmart ITSM Enterprise :
@@ -64,8 +61,7 @@ Pré-condições
 
 12. Configurar o parâmetro 254 - API Key para uso de serviços Google: informar a
     API key (chave) para utilizar os serviços MAPS da Google (ver
-    conhecimento [Configurar parametrização -
-    sistema]().
+    conhecimento [Configurar parametrização - sistema].
 
 Configurando os web services
 ---------------------------
@@ -89,8 +85,7 @@ Para reconhecer o certificado intermediário da GlobalSign (Emissora do
 Certificado Digital) é necessário a instalação do mesmo. Segue os procedimentos
 abaixo:
 
-1.  Acesso o
-    endereço: <https://support.globalsign.com/customer/portal/articles/1464460-domainssl-intermediate-certificates>;
+1.  Acesso o endereço: <https://support.globalsign.com/customer/portal/articles/1464460-domainssl-intermediate-certificates>;
 
 2.  Realize o download do primeiro certificado, conforme indicado na figura
     abaixo:
@@ -239,9 +234,9 @@ Para ativar uma API para uso, proceda conforme os passos descritos abaixo:
 Utilizando o aplicativo
 ----------------------
 
-[Manual do usuário do aplicativo mobile CITSmart Enterprise ITSM (Android)]()
+[Manual do usuário do aplicativo mobile CITSmart Enterprise ITSM (Android)]
 
-[Manual do usuário do aplicativo mobile CITSmart Enterprise ITSM (iOS)]()
+[Manual do usuário do aplicativo mobile CITSmart Enterprise ITSM (iOS)]
 
 
 

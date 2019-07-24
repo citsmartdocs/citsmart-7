@@ -1,6 +1,5 @@
 title: Verificação do histórico de atendimento
-Description: Esta funcionalidade tem por objetivo verificar o histórico de
-atendimento das solicitações de serviços feito pelos técnicos de campo.
+Description: Esta funcionalidade tem por objetivo verificar o histórico de atendimento das solicitações de serviços feito pelos técnicos de campo.
 
 # Verificação do histórico de atendimento
 
@@ -19,7 +18,7 @@ Pré-condições
 
 1.  Configurar a conexão do sistema com as API's do Google (ver
     conhecimento [Manual de configuração do servidor para uso do CITSmart ITSM
-    Enterprise (iOS e Android)]() - seções 5 a 7).
+    Enterprise (iOS e Android)] - seções 5 a 7).
 
 Filtros
 -------
@@ -28,23 +27,23 @@ Filtros
     itens na listagem padrão da funcionalidade, facilitando a localização dos
     itens desejados:
 
--   Contrato;
+    -   Contrato;
 
--   Unidade;
+    -   Unidade;
 
--   Grupo executor;
+    -   Grupo executor;
 
--   Técnico;
+    -   Técnico;
 
--   Data início;
+    -   Data início;
 
--   Data fim;
+    -   Data fim;
 
--   Situação da solicitação;
+    -   Situação da solicitação;
 
-![Criar](images/history-1.png)
+    ![Criar](images/history-1.png)
 
-**Figura 1 - Tela de pesquisa de histórico de atendimento**
+    **Figura 1 - Tela de pesquisa de histórico de atendimento**
 
 Listagem de itens
 -----------------
@@ -68,41 +67,41 @@ Verificando o histórico de atendimento
     
     **Figura 2 - Tela de histórico de atendimento**
 
-1.  Defina os filtros de acordo com sua necessidade:
+2.  Defina os filtros de acordo com sua necessidade:
 
-   -  **Estado**: informar o estado das solicitações de serviços que deseja
+    -  **Estado**: informar o estado das solicitações de serviços que deseja
     verificar o histórico de seu atendimento pelo(s) técnico(s) de campo;
 
-   -  **Cidades**: informar a cidade referente às solicitações de serviços que
+    -  **Cidades**: informar a cidade referente às solicitações de serviços que
     deseja verificar o histórico de seu atendimento pelo(s) técnico(s) de campo;
 
-   -  **Contrato**: informar o contrato referente às solicitações de serviços que
+    -  **Contrato**: informar o contrato referente às solicitações de serviços que
     deseja verificar o histórico de seu atendimento pelo(s) técnico(s) de campo;
 
-   -  **Unidade**: informar a unidade referente às solicitações de serviços que
+    -  **Unidade**: informar a unidade referente às solicitações de serviços que
     deseja verificar o histórico de seu atendimento pelo(s) técnico(s) de campo;
 
-   -  **Grupo Executor**: informar o grupo executor de solicitações de serviços
+    -  **Grupo Executor**: informar o grupo executor de solicitações de serviços
     para verificar o atendimento;
 
-   -  **Técnico**: informar o técnico para verificar o histórico de atendimento
+    -  **Técnico**: informar o técnico para verificar o histórico de atendimento
     das solicitações de serviços;
 
-   !!! note "NOTA"
+    !!! note "NOTA"
 
-       Ao selecionar o técnico, serão apresentadas as solicitações de serviços
-       que o mesmo atendeu e que faz referência ao(s) contrato(s) que ele pertence.
+         Ao selecionar o técnico, serão apresentadas as solicitações de serviços
+         que o mesmo atendeu e que faz referência ao(s) contrato(s) que ele pertence.
 
-   -  **Data início**: informar a data inicial que faz referência ao dia
+    -  **Data início**: informar a data inicial que faz referência ao dia
     trabalhado do técnico;
 
-  -  **Data fim**: informar a data final que faz referência ao dia trabalhado do
+    -  **Data fim**: informar a data final que faz referência ao dia trabalhado do
     técnico;
 
-  -  **Situação da Solicitação**: selecionar a situação de atendimento da
-  solicitação de serviço.
+    -  **Situação da Solicitação**: selecionar a situação de atendimento da
+    solicitação de serviço.
 
-2.  Após os filtros definido, clique no botão *Pesquisar*. Feito isso, serão
+3.  Após os filtros definido, clique no botão *Pesquisar*. Feito isso, serão
     exibidos no mapa o histórico de atendimento das solicitações de serviço pelo
     técnico de campo, conforme exemplo ilustrado na figura a seguir:
 

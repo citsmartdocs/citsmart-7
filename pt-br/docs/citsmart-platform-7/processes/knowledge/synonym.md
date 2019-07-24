@@ -28,7 +28,7 @@ Filtros
 
     -   Palavra correspondente.
 
-1.  Na tela de **Sinônimo**, será apresentada a tela de pesquisa conforme
+2.  Na tela de **Sinônimo**, será apresentada a tela de pesquisa conforme
     ilustrada na figura a seguir. Nesta tela, são exibidas as palavras sinônimas
     já registradas e os campos de filtros para realizar a busca de determinados
     registros;
@@ -37,22 +37,22 @@ Filtros
 
     **Figura 1 - Tela de pesquisa de sinônimos**
 
-1.  Para realizar a busca de sinônimos, informe a palavra e/ou palavra
+3.  Para realizar a busca de sinônimos, informe a palavra e/ou palavra
     correspondente. Após isso, será exibido o registro conforme os dados
     informados.
 
-2.  Para alterar os dados do registro de sinônimo, clique no botão *Editar*.
+4.  Para alterar os dados do registro de sinônimo, clique no botão *Editar*.
     Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo
     referente ao registro selecionado.
 
-3.  Para indexar um sinônimo, clique no botão *Sincronizar* e será exibido um
+5.  Para indexar um sinônimo, clique no botão *Sincronizar* e será exibido um
     alerta de confirmação:
 
     ![Criar](images/synonym-2.png)
 
     **Figura 2 - Confirmação de indexação**
 
--   Clique no botão *Confirmar*.
+    -   Clique no botão *Confirmar*.
 
 Listagem de itens
 ----------------
@@ -80,16 +80,16 @@ Preenchimento dos campos cadastrais
 
     **Figura 4 - Tela de cadastro de palavras sinônimas**
 
-1.  Preencha os campos conforme orientações abaixo:
+3.  Preencha os campos conforme orientações abaixo:
 
     -   **Palavra**: informe a descrição da palavra;
 
     -   **Palavra correspondente**: informe a descrição da palavra correspondente.
 
-1.  Clique no botão *Gravar* para efetuar o registro, onde a data, hora e
+4.  Clique no botão *Gravar* para efetuar o registro, onde a data, hora e
     usuário serão gravados automaticamente para uma futura auditoria;
 
-2.  O botão *Voltar*, retorna para a página de pesquisa de sinônimo.
+5.  O botão *Voltar*, retorna para a página de pesquisa de sinônimo.
 
 
 !!! tip "About"

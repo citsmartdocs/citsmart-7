@@ -1,8 +1,6 @@
 title: Verificação do posicionamento dos atendentes
 
-Description: Esta funcionalidade tem por objetivo verificar o posicionamento dos
-técnicos, ou seja, a localização atual dos técnicos de campo, responsáveis pelo
-atendimento das solicitações de serviço.
+Description: Esta funcionalidade tem por objetivo verificar o posicionamento dos técnicos, ou seja, a localização atual dos técnicos de campo, responsáveis pelo atendimento das solicitações de serviço.
 
 # Verificação do posicionamento dos atendentes
 
@@ -22,8 +20,7 @@ Pré-condições
 
 1.  Configurar a conexão do sistema com as API's do Google (ver
     conhecimento [Manual de configuração do servidor para uso do CITSmart ITSM
-    Enterprise (iOS e
-    Android)]().
+    Enterprise (iOS e Android)].
 
 Filtros
 ------
@@ -32,21 +29,21 @@ Filtros
     itens na listagem padrão da funcionalidade, facilitando a localização dos
     itens desejados:
 
--   Contrato;
+    -   Contrato;
 
--   Grupo executor;
+    -   Grupo executor;
 
--   Unidade;
+    -   Unidade;
 
--   Técnico;
+    -   Técnico;
 
--   Data início;
+    -   Data início;
 
--   Data fim.
+    -   Data fim.
 
-![Criar](images/position-1.png)
+    ![Criar](images/position-1.png)
 
-**Figura 1 - Tela de filtro de posição de técnico**
+    **Figura 1 - Tela de filtro de posição de técnico**
 
 Listagem de itens
 ----------------
@@ -69,7 +66,7 @@ Verificando o posicionamento dos atendentes
     
     **Figura 2 - Tela de posicionamento dos técnicos**
 
-1.  Defina os filtros conforme sua necessidade:
+2.  Defina os filtros conforme sua necessidade:
 
     -   **Contrato**: informar o contrato do técnico para verificar sua localização;
 
@@ -87,7 +84,7 @@ Verificando o posicionamento dos atendentes
     -   **Data fim**: informar a data final do atendimento da solicitação de
     serviço.
 
-1.  Após os filtros definidos, clique no botão *Pesquisar*. Feito isso, serão
+3.  Após os filtros definidos, clique no botão *Pesquisar*. Feito isso, serão
     exibidos no mapa os pontos de localização dos técnicos, conforme exemplo
     ilustrado na figura abaixo:
 
@@ -96,7 +93,7 @@ Verificando o posicionamento dos atendentes
     **Figura 3 - Visualização do posicionamento (localização) dos técnicos de
     campo**
 
-1.  Clique no ponto de localização do técnico para verificar as informações
+4.  Clique no ponto de localização do técnico para verificar as informações
     referentes ao atendimento da solicitação de serviço.
 
 

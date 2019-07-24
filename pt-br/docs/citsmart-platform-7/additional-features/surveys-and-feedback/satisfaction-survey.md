@@ -1,7 +1,6 @@
 title: Cadastro e pesquisa de grau de satisfação
 
-Description: A finalidade desta funcionalidade é permitir a configuração do grau
-de satisfação do atendimento de serviço.
+Description: A finalidade desta funcionalidade é permitir a configuração do grau de satisfação do atendimento de serviço.
 
 # Cadastro e pesquisa de grau de satisfação
 
@@ -30,7 +29,7 @@ Filtros
 
     -   Idioma.
 
-1.  Na tela de **Cadastro de Grau de Satisfação**, clique na aba **Pesquisa**,
+2.  Na tela de **Cadastro de Grau de Satisfação**, clique na aba **Pesquisa**,
     será apresentada a respectiva tela de pesquisa conforme ilustrada na figura
     abaixo:
 
@@ -38,13 +37,13 @@ Filtros
     
     **Figura 1 - Tela de pesquisa de grau de satisfação**
 
-1.  Realize a pesquisa do grau de satisfação;
+3.  Realize a pesquisa do grau de satisfação;
 
--   Informe a descrição do grau de satisfação, selecione o idioma e clique no
+    -   Informe a descrição do grau de satisfação, selecione o idioma e clique no
     botão *Pesquisar*. Após isso, será exibido o registro conforme os dados
     informados;
 
--   Caso deseje listar todos os registros, basta clicar diretamente no
+    -   Caso deseje listar todos os registros, basta clicar diretamente no
     botão *Pesquisar*.
 
 Listagem de itens
@@ -58,11 +57,11 @@ Listagem de itens
     
     **Figura 2 - Tela de listagem de pesquisa de grau de satisfação**
 
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
+2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
     para a tela de cadastro exibindo o conteúdo referente ao registro
     selecionado;
 
-2.  Para alterar os dados do registro de grau de satisfação, basta modificar as
+3.  Para alterar os dados do registro de grau de satisfação, basta modificar as
     informações desejadas e clicar no botão *Gravar*.
 
 Preenchimento dos campos cadastrais
@@ -75,7 +74,7 @@ Preenchimento dos campos cadastrais
     
     **Figura 3 - Tela de cadastro de grau de satisfação**
 
-1.  Preencha os campos conforme orientação abaixo:
+2.  Preencha os campos conforme orientação abaixo:
 
     -   **Grau de satisfação**: defina o grau de satisfação do atendimento de
     serviço;
@@ -84,7 +83,7 @@ Preenchimento dos campos cadastrais
 
     -   **Idioma**: informe o idioma do sistema.
 
-1.  Após preenchimento dos campos, clique no botão *Gravar* para efetuar o
+3.  Após preenchimento dos campos, clique no botão *Gravar* para efetuar o
     registro, onde a data, hora e usuário serão gravados automaticamente para
     uma futura auditoria.
 

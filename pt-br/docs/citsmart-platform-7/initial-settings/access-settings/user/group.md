@@ -1,6 +1,5 @@
 title: Cadastro e pesquisa de grupo
-Description: Esta funcionalidade permite o cadastro de grupos e o vínculo deles
-com usuários, um perfil, contratos e e-mails para notificação.
+Description: Esta funcionalidade permite o cadastro de grupos e o vínculo deles com usuários, um perfil, contratos e e-mails para notificação.
 
 # Cadastro e pesquisa de grupo
 
@@ -28,11 +27,10 @@ Pré-condições
 ------------
 
 1.  Cadastrar perfil de acesso (ver conhecimento [Cadastro e pesquisa de perfil
-    de
-    acesso]( );
+    de acesso];
 
 2.  Cadastrar colaborador (ver conhecimento [Cadastro e pesquisa de
-    colaborador]( ).
+    colaborador].
 
 Filtros
 -------
@@ -45,7 +43,7 @@ Filtros
 
     -   Sigla.
 
-1.  Na tela de Cadastro de Grupo, são exibidos os grupos já registrados e os
+2.  Na tela de Cadastro de Grupo, são exibidos os grupos já registrados e os
     filtros que permitem realizar uma busca específica de acordo com sua
     necessidade:
 
@@ -53,7 +51,7 @@ Filtros
     
     **Figura 1 - Tela de pesquisa de grupo**
 
-1.  Para realizar a busca de um grupo específico, informe o nome e/ou sigla do
+3.  Para realizar a busca de um grupo específico, informe o nome e/ou sigla do
     grupo que deseja. Após isso, será exibido o registro conforme os dados
     informados.
 
@@ -68,7 +66,7 @@ Listagem de itens
     
     **Figura 2 - Tela de listagem de grupo**
 
-1.  Existem botões de ação disponíveis ao usuário em relação a cada item da
+2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Editar* e *Excluir;*
 
     !!! info "IMPORTANTE"
@@ -76,7 +74,7 @@ Listagem de itens
         A exclusão de grupo depende de não existir portfólios, colaboradores e
         contratos vinculados ao mesmo.
 
-1.  Para alterar os dados do registro de grupo, clique no botão *Editar*. Feito
+3.  Para alterar os dados do registro de grupo, clique no botão *Editar*. Feito
     isso, será direcionado para a tela de cadastro exibindo o conteúdo referente
     ao registro selecionado.
 
@@ -90,7 +88,7 @@ Preenchimento dos campos cadastrais
     
     **Figura 3 - Tela de cadastro de grupo**
 
-1.  Preencha os campos conforme orientações abaixo:
+2.  Preencha os campos conforme orientações abaixo:
 
     -  **Nome**: informe o nome do grupo;
 
@@ -162,12 +160,12 @@ Preenchimento dos campos cadastrais
         -  **Delegar**: o grupo poderá delegar permissões nos fluxos de trabalho;
 
         -  **Suspender**: o grupo poderá suspender permissões nos fluxos de
-        trabalho;
+           trabalho;
 
         -  **Reativar**: o grupo poderá reativar permissões nos fluxos de trabalho;
 
         -  **Alterar SLA**: o grupo poderá alterar o SLA das permissões nos fluxos
-        de trabalho;
+           de trabalho;
 
         -  **Reabrir**: o grupo poderá reabrir permissões nos fluxos de trabalho;
 
@@ -225,7 +223,7 @@ Preenchimento dos campos cadastrais
        -  Caso queira remover algum e-mail que foi adicionado ao grupo, basta
        selecionar o mesmo e clicar em *Remover*.
 
-1.  Após informar todos os dados, clique no botão *Gravar* para efetuar o
+3.  Após informar todos os dados, clique no botão *Gravar* para efetuar o
     registro, onde a data, hora e usuário serão gravados automaticamente para
     uma futura auditoria.
 

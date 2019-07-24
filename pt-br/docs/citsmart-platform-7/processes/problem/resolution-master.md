@@ -63,15 +63,15 @@ do serviço. Registrar os detalhes completos da solução e ações no Problema.
 
     **Figura 3 - Tela de gerenciamento de problemas**
 
-1.  Será exibida a tela de **Registro de Problema** com os campos preenchidos,
+2.  Será exibida a tela de **Registro de Problema** com os campos preenchidos,
     referente ao registro selecionado.
 
     -  No quadro de **Fechamento**, registre as informações necessárias da execução
     da tarefa;
 
-        -  Clique no botão *Adicionar Registro de Execução*;
+       -  Clique no botão *Adicionar Registro de Execução*;
 
-        -  Descreva as informações sobre a execução da sua atividade.
+       -  Descreva as informações sobre a execução da sua atividade.
 
     -  Registre as informações de revisão de problema grave;
 

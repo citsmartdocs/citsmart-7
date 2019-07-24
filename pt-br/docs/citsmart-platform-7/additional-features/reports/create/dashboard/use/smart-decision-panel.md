@@ -1,8 +1,6 @@
 title: Painel gerencial (Smart decision)
 
-Description: Neste painel é possível adicionar dashboard com links de
-funcionalidades para acesso rápido, relatórios smart e gráficos que contém
-informações relevantes.
+Description: Neste painel é possível adicionar dashboard com links de funcionalidades para acesso rápido, relatórios smart e gráficos que contém informações relevantes.
 
 # Painel gerencial (Smart decision)
 
@@ -29,9 +27,9 @@ Adicionando dashboard
 
     -   **Ícone**: selecione um ícone para representar o dashboard.
 
-1.  Após os dados informados, clique no botão *Gravar* para efetuar o registro;
+2.  Após os dados informados, clique no botão *Gravar* para efetuar o registro;
 
-2.  Para editar as informações do dashboard, clique no ícone ![Criar](images/panel-3.png) .
+3.  Para editar as informações do dashboard, clique no ícone ![Criar](images/panel-3.png) .
 
 Adicionando widget ao dashboard
 ------------------------------
@@ -44,14 +42,14 @@ Adicionando widget ao dashboard
     
     **Figura 2 - Edição do dashboard**
 
-1.  Clique no ícone ![Criar](images/panel-6.png)  para adicionar um widget. Será apresentada a tela para
+2.  Clique no ícone ![Criar](images/panel-6.png)  para adicionar um widget. Será apresentada a tela para
     escolha do widget desejado;
 
     ![Criar](images/panel-7.png)
     
     **Figura 3 - Widgets**
 
-1.  Clique em uma das opções e logo após clique no widget que deseja adicionar
+3.  Clique em uma das opções e logo após clique no widget que deseja adicionar
     ao dashboard:
 
     -   **Acesso rápido**: permite adicionar links para acesso rápido;
@@ -60,7 +58,7 @@ Adicionando widget ao dashboard
 
     -   **Widgets**: permite adicionar gráficos com informações relevantes.
 
-1.  Caso tenha adicionado o widget de "links", informe os links desejados;
+4.  Caso tenha adicionado o widget de "links", informe os links desejados;
 
     -   Clique no ícone de configuração ![Criar](images/panel-8.png)  do widget;
 
@@ -93,10 +91,10 @@ Adicionando widget ao dashboard
 
     -   Clique no botão *Aplicar* para efetuar o cadastro.
 
-1.  Após os widgets adicionados e configurados, clique no ícone ![Criar](images/panel-11.png)  para salvar as
+5.  Após os widgets adicionados e configurados, clique no ícone ![Criar](images/panel-11.png)  para salvar as
     alterações feitas no dashboard.
 
-2.  Caso queira modificar o layout do dashboard, clique no ícone ![Criar](images/panel-12.png) .
+6.  Caso queira modificar o layout do dashboard, clique no ícone ![Criar](images/panel-12.png) .
 
 
 !!! tip "About"

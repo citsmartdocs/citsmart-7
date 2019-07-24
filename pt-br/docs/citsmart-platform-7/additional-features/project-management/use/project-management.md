@@ -1,6 +1,5 @@
 title: Cadastro e gerenciamento de projetos
-Description: O Projeto é um processo único, consistindo de um grupo de tarefas
-coordenadas e controladas com datas para início e término.
+Description: O Projeto é um processo único, consistindo de um grupo de tarefas coordenadas e controladas com datas para início e término.
 
 # Cadastro e gerenciamento de projetos
 
@@ -19,10 +18,10 @@ Pré-condições
 ------------
 
 1.  Cadastrar colaborador (ver conhecimento [Cadastro e pesquisa de
-    colaborador]();
+    colaborador];
 
 2.  Cadastrar usuário (ver conhecimento [Cadastro e pesquisa de
-    usuário]().
+    usuário].
 
 Filtros
 -------
@@ -54,7 +53,7 @@ Preenchimento dos campos cadastrais
      
      **Figura 2 - Tela de cadastro de projeto**
 
-1.  Preencha os campos conforme orientações abaixo:
+2.  Preencha os campos conforme orientações abaixo:
 
     -   **Nome**: informe o nome do projeto;
 
@@ -64,10 +63,10 @@ Preenchimento dos campos cadastrais
     exibido um campo para informar o registro referente ao processo que originou
     a criação do projeto.
 
-1.  O botão *Importar modelo*, permite importar um modelo de projeto para
+3.  O botão *Importar modelo*, permite importar um modelo de projeto para
     criação um projeto a partir do mesmo;
 
-2.  Após os dados iniciais do projeto informados, clique no botão *Gravar* para
+4.  Após os dados iniciais do projeto informados, clique no botão *Gravar* para
     efetuar o registro, onde a data, hora e usuário serão gravados
     automaticamente para uma futura auditoria.
 
@@ -96,10 +95,10 @@ Adicionando documentos
 
 1.  Adicione um documento ao projeto, caso seja necessário.
 
--   No registro do Projeto, na área de **Documentos**, clique em *Novo
+    -   No registro do Projeto, na área de **Documentos**, clique em *Novo
     documento*, será apresentada a tela de adição de documentos;
 
--   Informe os dados do documento, anexe o mesmo e clique no botão *Gravar* para
+    -   Informe os dados do documento, anexe o mesmo e clique no botão *Gravar* para
     efetuar a operação.
 
 Definindo a matriz de comunicação do projeto
@@ -112,14 +111,14 @@ Definindo a matriz de comunicação do projeto
     
     **Figura 4 – Tela de pontos de contato**
 
-1.  Clique no botão *Novo*, será apresentada a tela de cadastro de pontos de
+2.  Clique no botão *Novo*, será apresentada a tela de cadastro de pontos de
     contato:
 
     ![Criar](images/project-5.png)
     
     **Figura 5 - Tela de cadastro de pontos de contato**
 
-1.  Preencha os campos conforme orientações abaixo:
+3.  Preencha os campos conforme orientações abaixo:
 
     -   **Empregado**: informe o nome do colaborador que faz parte do projeto;
 
@@ -143,7 +142,7 @@ Definindo a matriz de comunicação do projeto
 
         Somente poderá ser escalonado um colaborador que está ativo no projeto.
 
-1.  Após os dados informados, clique em *Gravar* para efetuar o registro. Após
+4.  Após os dados informados, clique em *Gravar* para efetuar o registro. Após
     isso, será exibido o registro na tela de Projeto.
 
     ![Criar](images/project-7.png)
@@ -162,7 +161,7 @@ Cadastrando os papéis/responsabilidades
     
     **Figura 7 – Tela de papéis/responsabilidades**
 
-1.  Clique no botão *Vincular novo recurso*, feito isso, será apresentada a tela
+3.  Clique no botão *Vincular novo recurso*, feito isso, será apresentada a tela
     para vínculo dos recursos:
 
     ![Criar](images/project-8.1.png)
@@ -213,14 +212,14 @@ Cadastrando as tarefas
         exibido o modelo de tarefa, e caso irá proceder com o modelo, clique no
         botão *Gravar* e confirme a importação do mesmo
 
-1.  Clique no ícone de ações ![Criar](images/project-10.png)  do projeto. Feito isso, será exibida a tela de
+2.  Clique no ícone de ações ![Criar](images/project-10.png)  do projeto. Feito isso, será exibida a tela de
     Cadastro de Tarefa, conforme ilustrada na figura a seguir:
 
     ![Criar](images/project-11.png)
     
     **Figura 11 – Tela de cadastro de tarefa**
 
-1.  Preencha os campos conforme orientações abaixo:
+3.  Preencha os campos conforme orientações abaixo:
 
     -   **Título**: informe o título da tarefa;
 
@@ -229,7 +228,7 @@ Cadastrando as tarefas
 
     -   **Atribuído a**: informe o recurso que irá executar a tarefa.
 
-1.  Realize o **planejamento** da tarefa:
+4.  Realize o **planejamento** da tarefa:
 
     -   **Início**: informe a data prevista para o início da execução da tarefa.
     Marque o campo no momento da execução da atividade;
@@ -241,7 +240,7 @@ Cadastrando as tarefas
     -   **Tempo estimado (horas)**: informe a quantidade de horas que levará para
     execução da atividade.
 
-1.  Alguns campos da área de “**execução**” são para simples conferência,
+5.  Alguns campos da área de “**execução**” são para simples conferência,
     portanto não é necessário o preenchimento dos mesmos:
 
     -   **Início**: será exibida a data que iniciou a execução da tarefa;
@@ -254,13 +253,13 @@ Cadastrando as tarefas
 
     -   **Tempo gasto (horas)**: serão apresentadas as horas gastas com a tarefa;
 
-2.  Após informar os dados da tarefa, clique no botão *Adicionar tarefa* para
+6.  Após informar os dados da tarefa, clique no botão *Adicionar tarefa* para
     efetuar a operação;
 
-3.  Após registro da tarefa, caso queira realizar uma edição na mesma, basta
+7.  Após registro da tarefa, caso queira realizar uma edição na mesma, basta
     clicar no ícone ![Criar](images/project-12.png)  ;
 
-4.  Se for necessário registrar uma sub-tarefa, basta clicar no ícone ![Criar](images/project-10.png)  da
+8.  Se for necessário registrar uma sub-tarefa, basta clicar no ícone ![Criar](images/project-10.png)  da
     tarefa e prosseguir com o registro.
 
 Criando modelo de tarefa
@@ -278,7 +277,7 @@ Criando modelo de tarefa
     
     **Figura 12 – Tela de cadastro de tarefa**
 
-1.  Informe o nome do modelo e clique no botão *Criar novo modelo* para efetuar
+3.  Informe o nome do modelo e clique no botão *Criar novo modelo* para efetuar
     a operação.
 
 Criando linha de base do projeto
@@ -295,13 +294,13 @@ dados atuais.
 1.  Para criar uma linha de base das tarefas do projeto, proceda da seguinte
     forma:
 
--   Na tela de Planejamento de Tarefas do Projeto, clique no botão *Criar linha
+    -   Na tela de Planejamento de Tarefas do Projeto, clique no botão *Criar linha
     de base* e confirme a criação da mesma. Feito isso, será apresentada a linha
     de base;
 
--   Clique em *Voltar* para retornar ao planejamento das tarefas do projeto;
+    -   Clique em *Voltar* para retornar ao planejamento das tarefas do projeto;
 
--   Após retornar para a tela de planejamento das tarefas, para visualizar a
+    -   Após retornar para a tela de planejamento das tarefas, para visualizar a
     linha de base, basta clicar no botão *Visualizar linha de base*.
 
 Monitoramento do projeto
@@ -315,11 +314,11 @@ Monitoramento do projeto
     
     **Figura 13 – Tela de monitoramento de tarefas do projeto**
 
-- ![Criar](images/project-16.png)  - Permite editar as informações da tarefa;
+    - ![Criar](images/project-16.png)  - Permite editar as informações da tarefa;
 
-- ![Criar](images/project-17.png) - Permite registrar as horas gastas com a tarefa;
+    - ![Criar](images/project-17.png) - Permite registrar as horas gastas com a tarefa;
 
-- ![Criar](images/project-18.png) - Permite visualizar as horas que foram registradas na tarefa do projeto.
+    - ![Criar](images/project-18.png) - Permite visualizar as horas que foram registradas na tarefa do projeto.
 
 Problemas técnicos/administrativos
 ---------------------------------

@@ -1,8 +1,6 @@
 title: Cadastro de template de Smart decisions
 
-Description: A funcionalidade de "Decisões Smart - Templates" tem por objetivo
-criar templates para serem utilizados na criação de dashboard na tela principal
-do sistema.
+Description: A funcionalidade de "Decisões Smart - Templates" tem por objetivo criar templates para serem utilizados na criação de dashboard na tela principal do sistema.
 
 # Cadastro de template de Smart decisions
 
@@ -52,7 +50,7 @@ Preenchimento dos campos cadastrais
     
     **Figura 2 - Cadastro de template**
 
-1.  Para criar um template, proceda conforme orientação abaixo:
+3.  Para criar um template, proceda conforme orientação abaixo:
 
     -   **Nome**: informe o nome do template;
 
@@ -64,7 +62,7 @@ Preenchimento dos campos cadastrais
 
     -   Para desfazer o que foi feito no dashboard, basta clicar no ícone ![Criar](images/template-6.png) .
 
-1.  Após o template criado, clique no botão *Gravar* para efetuar a operação.
+4.  Após o template criado, clique no botão *Gravar* para efetuar a operação.
 
 
 !!! tip "About"

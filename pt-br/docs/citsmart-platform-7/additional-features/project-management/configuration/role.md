@@ -1,6 +1,5 @@
 title: Cadastro e pesquisa de papel
-Description: Esta funcionalidade tem o objetivo de cadastrar os papéis dos
-colaboradores relacionados aos projetos.
+Description: Esta funcionalidade tem o objetivo de cadastrar os papéis dos colaboradores relacionados aos projetos.
 
 # Cadastro e pesquisa de papel
 
@@ -34,12 +33,12 @@ Listagem de itens
     
     **Figura 1 - Tela de listagem de papel**
 
-1.  Existem botões de ação disponíveis ao usuário em relação a cada item da
+2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Editar* e *Excluir;*
 
-2.  Para alterar os dados do registro de papel, clique no botão *Editar*;
+3.  Para alterar os dados do registro de papel, clique no botão *Editar*;
 
-3.  Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo
+4.  Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo
     referente ao registro selecionado.
 
 Preenchimento dos campos cadastrais
@@ -55,13 +54,13 @@ Preenchimento dos campos cadastrais
     
     **Figura 2 - Tela de cadastro de papel**
 
-1.  Preencha os campos conforme orientações abaixo:
+3.  Preencha os campos conforme orientações abaixo:
 
     -   **Nome**: informe o nome do papel;
 
     -   **Ativo**: informe a situação do papel.
 
-1.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
+4.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
     onde a data, hora e usuário serão gravados automaticamente para uma futura
     auditoria.
 

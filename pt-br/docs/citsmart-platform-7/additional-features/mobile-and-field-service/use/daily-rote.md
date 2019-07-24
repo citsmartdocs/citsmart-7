@@ -1,6 +1,5 @@
 title: Configuração das rotas diárias
-Description: Esta funcionalidade tem por objetivo configurar a agenda diárias
-dos técnicos de campo.
+Description: Esta funcionalidade tem por objetivo configurar a agenda diárias dos técnicos de campo.
 
 # Configuração das rotas diárias
 
@@ -20,7 +19,7 @@ Pré-condições
 
 1.  Configurar a conexão do sistema com as API's do Google (ver
     conhecimento [Manual de configuração do servidor para uso do CITSmart ITSM
-    Enterprise (iOS e Android)]() - seções 5 a 7).
+    Enterprise (iOS e Android)] - seções 5 a 7).
 
 Filtros
 -------
@@ -29,29 +28,29 @@ Filtros
     itens na listagem padrão da funcionalidade, facilitando a localização dos
     itens desejados:
 
--   **Técnico**: informar o nome do técnico responsável pelo atendimento de
+    -   **Técnico**: informar o nome do técnico responsável pelo atendimento de
     solicitações de serviços;
 
--   **Período de Abertura**: informar o período de abertura das solicitações de
+    -   **Período de Abertura**: informar o período de abertura das solicitações de
     serviços;
 
--   **Estado**: informar o estado da unidade da solicitação de serviço;
+    -   **Estado**: informar o estado da unidade da solicitação de serviço;
 
--   **Cidades**: informar a cidade da unidade da solicitação de serviço;
+    -   **Cidades**: informar a cidade da unidade da solicitação de serviço;
 
--   **Contrato**: informar o contrato da solicitação de serviço;
+    -   **Contrato**: informar o contrato da solicitação de serviço;
 
--   **Unidade**: informar a unidade de negócio do contrato da solicitação de
+    -   **Unidade**: informar a unidade de negócio do contrato da solicitação de
     serviço;
 
--   **Localidade**: informar a localidade da unidade;
+    -   **Localidade**: informar a localidade da unidade;
 
--   **Tipo de solicitação**: informar o tipo de solicitação de serviço que
+    -   **Tipo de solicitação**: informar o tipo de solicitação de serviço que
     deseja verificar.
 
-![Criar](images/daily-1.png)
+    ![Criar](images/daily-1.png)
 
-**Figura 1 - Tela de pesquisa de rota**
+    **Figura 1 - Tela de pesquisa de rota**
 
 Listagem de itens
 ----------------
@@ -76,9 +75,9 @@ Configuração das rotas
     
     **Figura 2 - Tela de configuração das rotas**
 
-1.  Defina os filtros conforme sua necessidade;
+2.  Defina os filtros conforme sua necessidade;
 
-2.  Após os filtros definidos para pesquisa das solicitações de serviços, clique
+3.  Após os filtros definidos para pesquisa das solicitações de serviços, clique
     no botão *Pesquisar*. Serão apresentadas as solicitações, as quais o técnico
     tem permissão de execução, com a seguinte situação:
 
@@ -94,7 +93,7 @@ Configuração das rotas
     
     **Figura 3 - Solicitações de serviços**
 
-1.  Direcione a(s) solicitação(ões) de serviço(s) disponível(is) para o técnico
+4.  Direcione a(s) solicitação(ões) de serviço(s) disponível(is) para o técnico
     realizar o atendimento:
 
     -   Caso seja necessário visualizar os detalhes de uma solicitação de serviço,
@@ -122,11 +121,11 @@ Configuração das rotas
 5.  Clique no botão *Gravar* para efetuar a operação, onde a data, hora e
     usuário serão gravados automaticamente para uma futura auditoria.
 
-   !!! info "IMPORTANTE"
+    !!! info "IMPORTANTE"
 
-     Após a gravação, será enviada uma notificação para o técnico, onde ele
-     poderá verificar pelo aplicativo CITSmart Enterprise ITSM Mobile a(s)
-     solicitação(ões) que será(ão) atendida(s) por ele.
+        Após a gravação, será enviada uma notificação para o técnico, onde ele
+        poderá verificar pelo aplicativo CITSmart Enterprise ITSM Mobile a(s)
+        solicitação(ões) que será(ão) atendida(s) por ele.
 
 
 !!! tip "About"

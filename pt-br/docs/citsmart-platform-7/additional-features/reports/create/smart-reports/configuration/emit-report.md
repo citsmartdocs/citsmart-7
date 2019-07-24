@@ -7,7 +7,7 @@ Como acessar
 -----------
 
 1.  Para acessar a funcionalidade de Relatórios Smart clique no menu
-    principal **Relatórios >  Relatórios Smart > Relatórios Smart**.
+    principal **Relatórios > Relatórios Smart > Relatórios Smart**.
 
 Pré-condições
 ------------
@@ -20,11 +20,11 @@ Filtros
 1.  O seguinte filtro permite que o usuário restrinja a participação de itens na
     lista de características padrão, facilitando a busca dos itens desejados:
 
--   Pesquisar
+    -   Pesquisar
 
-![Criar](images/emit.png)
+    ![Criar](images/emit.png)
 
-**Figura 1 - Tela de pesquisa de relatórios**
+    **Figura 1 - Tela de pesquisa de relatórios**
 
 Listagem de itens
 -----------------
@@ -49,8 +49,8 @@ Uma visão rápida da principal funcionalidade do módulo
 
 !!! note "NOTA"
 
-    Os relatórios construídos pelo **[Gerador de relatórios
-    Smart]()** são exibidos nesta tela de Relatórios Smart.
+     Os relatórios construídos pelo **[Gerador de relatórios
+     Smart]()** são exibidos nesta tela de Relatórios Smart.
 
 
 !!! tip "About"

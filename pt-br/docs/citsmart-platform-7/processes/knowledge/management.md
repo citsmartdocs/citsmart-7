@@ -70,7 +70,7 @@ Preenchimento dos campos cadastrais
 
     **Figura 3 - Tela de cadastro de conhecimento**
 
-1.  Preencha os campos conforme orientação abaixo:
+3.  Preencha os campos conforme orientação abaixo:
 
     -   **Título**: informe o título do conhecimento;
 
@@ -134,11 +134,10 @@ Preenchimento dos campos cadastrais
     -   **Conteúdo**: descreva o texto do conhecimento;
 
         -   Para adicionar um link (hiperlink) ao conteúdo do conhecimento, no intuito
-        de acessar um link externo, proceda da seguinte forma:
+            de acessar um link externo, proceda da seguinte forma:
 
-        -   Selecione uma palavra ou frase e clique no ícone ![Criar](images/management-21.png) para adição do
-        hiperlink. Feito isso, será exibida a tela para informar os dados do
-        mesmo, conforme ilustrada na figura abaixo:
+        -   Selecione uma palavra ou frase e clique no ícone ![Criar](images/management-21.png) para  adição do
+            hiperlink. Feito isso, será exibida a tela para informar os dados do mesmo, conforme ilustrada na figura abaixo:
 
     ![Criar](images/management-6.png)
 
@@ -198,25 +197,25 @@ Preenchimento dos campos cadastrais
     -   Após o vídeo selecionado, defina as configurações do mesmo:
 
         -   **Responsivo:** significa que o vídeo será renderizado conforme o tamanho da
-         tela;
+            tela;
 
         -   **Mostrar controles**: significa que o vídeo possuirá os botões de executar,
-        para etc;
+            para etc;
 
         -   **Início Automático**: significa que o vídeo iniciará sua execução assim que
-        a tela do conhecimento se abrir;
+            a tela do conhecimento se abrir;
 
         -   **Tamanho**: defina o tamanho que o vídeo irá aparecer na tela;
 
         -   **Alinhamento**: selecione o alinhamento do vídeo para ser apresentado no
-        conhecimento.
+            conhecimento.
 
      -   Na aba **Embedded**, permite inserir vídeos do YouTube:
 
          -   Acesse o YouTube, busque pelo vídeo que deseja adicionar no conhecimento;
 
          -   Clique com o botão direito do mouse sobre o vídeo e logo em seguida clique
-         em *Copiar código de incorporação*, conforme indicado na figura abaixo:
+             em *Copiar código de incorporação*, conforme indicado na figura abaixo:
 
      ![Criar](images/management-13.png)
      
@@ -234,7 +233,7 @@ Preenchimento dos campos cadastrais
      -   Para anexar um arquivo no registro de conhecimento, basta clicar no mesmo e
     arrastar para área de anexo.
 
-1.  Após os dados informados, clique no botão de opções ![Criar](images/management-3.png) e logo em seguida
+4.  Após os dados informados, clique no botão de opções ![Criar](images/management-3.png) e logo em seguida
     clique no botão gravar ![Criar](images/management-15.png)  para efetuar o registro, onde a data, hora e
     usuário serão gravados automaticamente para uma futura auditoria.
 
@@ -285,19 +284,19 @@ Para realizar este vínculo, basta seguir os seguintes passos:
 
     **Figura 11 - Tela de adição de partes interessadas**
 
-1.  Preencha os campos conforme desejar e clique no botão *Adicionar*.
+2.  Preencha os campos conforme desejar e clique no botão *Adicionar*.
 
 Configurando as notificações
 ---------------------------
 
-1.  Na tela de **Cadastro de Conhecimento**, clique na aba **Notificações**.
+3.  Na tela de **Cadastro de Conhecimento**, clique na aba **Notificações**.
     Feito isso, será apresentada a tela de configuração de notificações;
 
     ![Criar](images/management-17.png)
 
     **Figura 12 - Tela de configuração de notificação**
 
-1.  Preencha os campos com as informações corretas para a configuração de
+4.  Preencha os campos com as informações corretas para a configuração de
     notificação referente ao conhecimento.
 
 Vinculando item de configuração ao conhecimento
@@ -314,7 +313,7 @@ Vinculando item de configuração ao conhecimento
 
     **Figura 13 - Tela de vínculo de item de configuração**
 
-1.  Busque o Item de Configuração que deseja vincular ao conhecimento. Após a
+3.  Busque o Item de Configuração que deseja vincular ao conhecimento. Após a
     busca, basta clicar sobre o mesmo para efetuar o vínculo.
 
 Opções avançadas

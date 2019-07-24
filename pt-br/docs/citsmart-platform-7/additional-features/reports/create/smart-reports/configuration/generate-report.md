@@ -1,7 +1,5 @@
 title: Gerador de relatórios Smart
-Description: Esta funcionalidade tem o objetivo de prover a facilidade de
-elaboração de relatórios personalizados com os dados das funcionalidades
-requeridas.
+Description: Esta funcionalidade tem o objetivo de prover a facilidade de elaboração de relatórios personalizados com os dados das funcionalidades requeridas.
 
 # Gerador de relatórios Smart
 
@@ -29,7 +27,7 @@ Filtros
 
     -   Nome.
 
-1.  Na tela de **Relatórios Smart**, é apresentado um campo de filtro para
+2.  Na tela de **Relatórios Smart**, é apresentado um campo de filtro para
     realizar a busca de determinados registros, conforme ilustrada na figura
     abaixo:
 
@@ -37,7 +35,7 @@ Filtros
     
     **Figura 1 - Tela de pesquisa de relatórios**
 
-1.  Para realizar a busca de um registro específico, informe o nome do
+3.  Para realizar a busca de um registro específico, informe o nome do
     relatório. Após isso, será exibido o determinado registro conforme o filtro
     informado.
 
@@ -56,11 +54,11 @@ Listagem de itens
     
     **Figura 2 - Tela de listagem de relatório smart**
 
-1.  Para verificar e/ou alterar os dados do registro de relatório, clique no
+3.  Para verificar e/ou alterar os dados do registro de relatório, clique no
     botão *Editar* e após isso, será direcionado para a tela de cadastro
     exibindo o conteúdo referente ao registro selecionado.
 
-2.  Para importar um relatório (arquivo .citreport), clique no botão *Importar*.
+4.  Para importar um relatório (arquivo .citreport), clique no botão *Importar*.
 
 Preenchimento dos campos cadastrais
 ----------------------------------
@@ -78,7 +76,7 @@ Preenchimento dos campos cadastrais
     
     **Figura 3 - Tela de construção de relatórios smart**
 
-1.  Preencha os campos conforme orientações abaixo:
+2.  Preencha os campos conforme orientações abaixo:
 
     -   **Identificação**: informe a identificação do relatório que deseja criar;
 
@@ -115,8 +113,8 @@ Preenchimento dos campos cadastrais
 
     !!! warning "ATENÇÃO"
 
-        Para se criar um Sub Relatório (Drill) o " Tipo de relatório" deverá
-        ser "Gráfico de pizza" ou " Gráfico de Barra".
+         Para se criar um Sub Relatório (Drill) o " Tipo de relatório" deverá
+         ser "Gráfico de pizza" ou " Gráfico de Barra".
 
        -  **Template**- Utilizar esse tipo para criar um relatório com design e
     estrutura desejada. Para criação do relatório com esse tipo, basta
@@ -163,7 +161,7 @@ Preenchimento dos campos cadastrais
     -   Na aba "Parâmetros", informe os parâmetros referentes ao tipo de consulta e
     relatório selecionado.
 
-1.  Após construção do relatório, clique no botão *Gravar* para efetuar o
+3.  Após construção do relatório, clique no botão *Gravar* para efetuar o
     registro, neste caso a data, hora e usuário serão armazenados
     automaticamente para uma futura auditoria.
 

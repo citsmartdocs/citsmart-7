@@ -1,7 +1,6 @@
 title: Cadastro e pesquisa de cargo
 
-Description: Esta funcionalidade tem por objetivo registrar os cargos existentes
-na organização.
+Description: Esta funcionalidade tem por objetivo registrar os cargos existentes na organização.
 
 # Cadastro e pesquisa de cargo
 
@@ -28,20 +27,20 @@ Filtros
 
     -   Nome cargo.
 
-1.  Na tela de **Cargos**, clique na aba **Pesquisa de cargos**. Será
+2.  Na tela de **Cargos**, clique na aba **Pesquisa de cargos**. Será
     apresentada a tela de pesquisa conforme ilustrada na figura abaixo:
 
     ![Criar](images/position-1.png)
     
     **Figura 1 - Tela de pesquisa de cargo**
 
-1.  Realize a pesquisa de cargo.
+3.  Realize a pesquisa de cargo.
 
--   Informe o nome do cargo que deseja pesquisar e clique no botão *Pesquisar*;
+    -   Informe o nome do cargo que deseja pesquisar e clique no botão *Pesquisar*;
 
--   Após isso, será exibido o registro de cargo conforme a descrição informada;
+    -   Após isso, será exibido o registro de cargo conforme a descrição informada;
 
--   Caso deseje listar todos os registros de cargo, basta clicar diretamente no
+    -   Caso deseje listar todos os registros de cargo, basta clicar diretamente no
     botão *Pesquisar*.
 
 Listagem de itens
@@ -55,11 +54,11 @@ Listagem de itens
     
     **Figura 2 - Tela de listagem de cargo**
 
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
+2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
     para a tela de cadastro exibindo o conteúdo referente ao registro
     selecionado;
 
-2.  Para alterar os dados do registro de cargo, basta modificar as informações
+3.  Para alterar os dados do registro de cargo, basta modificar as informações
     dos campos desejados e clicar no botão *Gravar* para que seja gravada a
     alteração realizada no registro, onde a data, hora e usuário serão gravados
     automaticamente para uma futura auditoria.
@@ -74,11 +73,11 @@ Preenchimento dos campos cadastrais
     
     **Figura 3 - Tela de cadastro de cargo**
 
-1.  Preencha os campos conforme orientações abaixo:
+2.  Preencha os campos conforme orientações abaixo:
 
     -   **Nome do Cargo**: informe o nome do cargo, ex: Analista de Sistemas.
 
-1.  Clique no botão *Gravar* para efetuar o registro, onde a data, hora e
+3.  Clique no botão *Gravar* para efetuar o registro, onde a data, hora e
     usuário serão gravados automaticamente para uma futura auditoria.
 
 

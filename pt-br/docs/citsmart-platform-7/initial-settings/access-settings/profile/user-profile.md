@@ -1,7 +1,6 @@
 title: Cadastro e pesquisa de perfil de acesso
 
-Description: O perfil de acesso define quais direitos e permissões tem o usuário
-do sistema.
+Description: O perfil de acesso define quais direitos e permissões tem o usuário do sistema.
 
 # Cadastro e pesquisa de perfil de acesso
 
@@ -14,7 +13,7 @@ Como acessar
 ------------
 
 1.  Acesse a funcionalidade de Perfil de Acesso através da navegação no menu
-    principal **Acesso e Permissão   Perfil de Acesso.**
+    principal **Acesso e Permissão > Perfil de Acesso**.
 
 Pré-condições
 ------------
@@ -30,7 +29,7 @@ Filtros
 
     -   Nome
 
-1.  Na tela de Cadastro de Perfil de Acesso, clique na aba **Pesquisa de Perfil
+2.  Na tela de Cadastro de Perfil de Acesso, clique na aba **Pesquisa de Perfil
     de Acesso**. Será apresentada a tela de pesquisa conforme ilustrada na
     figura abaixo:
 
@@ -38,13 +37,13 @@ Filtros
     
     **Figura 1 - Tela de pesquisa de perfil de acesso**
 
-1.  Realize a pesquisa do perfil de acesso:
+3.  Realize a pesquisa do perfil de acesso:
 
--   Informe o nome do perfil de acesso que deseja pesquisar e clique no
+    -   Informe o nome do perfil de acesso que deseja pesquisar e clique no
     botão *Pesquisar*. Após isso, será exibido o registro de perfil de acesso
     conforme o nome informado;
 
--   Caso deseje listar todos os registros de perfil de acesso, basta clicar
+    -   Caso deseje listar todos os registros de perfil de acesso, basta clicar
     diretamente no botão *Pesquisar*.
 
 Listagem de itens
@@ -58,16 +57,16 @@ Listagem de itens
     
     **Figura 2 - Tela de listagem de perfil de acesso**
 
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
+2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
     para a tela de cadastro exibindo o conteúdo referente ao registro
     selecionado;
 
-2.  Para alterar os dados do registro de perfil de acesso, basta modificar as
+3.  Para alterar os dados do registro de perfil de acesso, basta modificar as
     informações dos campos desejados e clicar no botão *Gravar*para que seja
     gravada a alteração realizada no registro, onde a data, hora e usuário serão
     gravados automaticamente para uma futura auditoria;
 
-3.  Para excluir o registro de perfil de acesso, basta clicar no
+4.  Para excluir o registro de perfil de acesso, basta clicar no
     botão *Excluir* e confirmar a exclusão.
 
 Preenchimento dos campos cadastrais
@@ -80,7 +79,7 @@ Preenchimento dos campos cadastrais
     
     **Figura 3 - Tela de cadastro de perfil de acesso**
 
-1.  Preencha os campos conforme orientações abaixo:
+2.  Preencha os campos conforme orientações abaixo:
 
     -   **Nome**: informe o nome do perfil de acesso;
 
@@ -125,7 +124,7 @@ Preenchimento dos campos cadastrais
     -   **Acesso por situação de Fatura**: selecione as situações da fatura que o
     perfil terá acesso.
 
-1.  Após informar os dados, clique no botão *Gravar* para efetuar o registro,
+3.  Após informar os dados, clique no botão *Gravar* para efetuar o registro,
     onde a data, hora e usuário serão gravados automaticamente para uma futura
     auditoria.
 
