@@ -1,7 +1,6 @@
 title: Cadastro e pesquisa de colaborador
 
-Description: Esta funcionalidade permite cadastrar cada pessoa que possuir algum
-tipo de vínculo com a organização, tais como: um funcionário, um parceiro, etc.
+Description: Esta funcionalidade permite cadastrar cada pessoa que possuir algum tipo de vínculo com a organização, tais como: um funcionário, um parceiro, etc.
 
 # Cadastro e pesquisa de colaborador
 
@@ -18,10 +17,10 @@ Pré-condições
 ------------
 
 1.  Cadastrar unidade (ver conhecimento [Cadastro e pesquisa de
-    unidade]();
+    unidade];
 
 2.  Cadastrar cargo (ver conhecimento [Cadastro e pesquisa de
-    cargo]().
+    cargo].
 
 Filtros
 -------
@@ -36,20 +35,20 @@ Filtros
 
     -   Situação.
 
-1.  Clique na aba **Pesquisa de Colaborador**, será apresentada a tela
+2.  Clique na aba **Pesquisa de Colaborador**, será apresentada a tela
     de **Pesquisa de Colaborador**, conforme ilustrado na figura abaixo:
 
     ![Criar](images/employee-1.png)
     
     **Figura 1 - Tela de pesquisa de colaborador**
 
-1.  Realize a pesquisa de colaborador:
+3.  Realize a pesquisa de colaborador:
 
--   Informe o nome, CPF e/ou situação do colaborador e clique no
+    -   Informe o nome, CPF e/ou situação do colaborador e clique no
     botão *Pesquisar*. Após isso, será exibido o registro de colaborador
     conforme os dados informados;
 
--   Caso deseje listar todos os registros de colaborador, basta clicar
+    -   Caso deseje listar todos os registros de colaborador, basta clicar
     diretamente no botão *Pesquisar*.
 
 Listagem de itens
@@ -63,11 +62,11 @@ Listagem de itens
      
      **Figura 2 - Tela de listagem de colaborador**
 
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
+2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
     para a tela de cadastro exibindo o conteúdo referente ao registro
     selecionado;
 
-2.  Para alterar os dados do registro do colaborador, basta modificar as
+3.  Para alterar os dados do registro do colaborador, basta modificar as
     informações dos campos desejados e clicar no botão *Gravar*para que seja
     gravada a alteração realizada no registro, onde a data, hora e usuário serão
     gravados automaticamente para uma futura auditoria.
@@ -82,9 +81,9 @@ Preenchimento dos campos cadastrais
     
     **Figura 3 - Tela de cadastro de colaborador**
 
-1.  Preencha os campos conforme orientações abaixo:
+2.  Preencha os campos conforme orientações abaixo:
 
-2.  **Nome**: informe o nome do novo colaborador;
+3.  **Nome**: informe o nome do novo colaborador;
 
     -   **Tipo de Parceiro**: informe o tipo de vínculo que o colaborador possui
         com a empresa;
@@ -180,7 +179,7 @@ Preenchimento dos campos cadastrais
         -   **Observação**: informe alguma observação que achar conveniente sobre o
              colaborador.
 
-3.  Após informar os dados, clique no botão *Gravar* para efetuar o registro,
+4.  Após informar os dados, clique no botão *Gravar* para efetuar o registro,
     onde a data, hora e usuário serão gravados automaticamente para uma futura
     auditoria.
 
