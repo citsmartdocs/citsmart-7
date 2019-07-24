@@ -151,10 +151,10 @@ Anexos
 [Dowload - AguardandoAprovacao - email][5]
 
 
-[1]:https://citsmart-7.citsmart.com/pt-br/citsmart-platform-7/processes/tickets/approve-request.html
-[2]:
-[3]:
-[4]:
+[1]:#
+[2]:#
+[3]:#
+[4]:#
 [5]:/pt-br/docs/citsmart-platform-7/processes/tickets/images/aguardandoaprovacao-email.docx
 
 !!! tip "About"
