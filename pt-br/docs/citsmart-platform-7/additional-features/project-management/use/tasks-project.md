@@ -1,6 +1,5 @@
 title: Minhas tarefas de projeto
-Description: Esta funcionalidade tem o objetivo de gerenciar suas tarefas
-relacionadas aos projetos.
+Description: Esta funcionalidade tem o objetivo de gerenciar suas tarefas relacionadas aos projetos.
 
 # Minhas tarefas de projeto
 
@@ -25,11 +24,11 @@ Filtros
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Filtro.
+    -   Filtro.
 
-![Criar](images/tasks-1.png)
+    ![Criar](images/tasks-1.png)
 
-**Figura 1 - Tela de pesquisa de tarefas**
+    **Figura 1 - Tela de pesquisa de tarefas**
 
 Listagem de itens
 --------------
@@ -47,7 +46,7 @@ Listagem de itens
     
     **Figura 2 - Tela de listagem de tarefas**
 
-1.  Para atualizar as informações sobre a execução da tarefa, como por exemplo,
+3.  Para atualizar as informações sobre a execução da tarefa, como por exemplo,
     o status, clique no ícone ![Criar](images/tasks-3.png)  da mesma.
 
 Registrando as horas gastas com a tarefa - preenchimento dos campos cadastrais
@@ -61,7 +60,7 @@ Registrando as horas gastas com a tarefa - preenchimento dos campos cadastrais
     
     **Figura 3 – Tela de cadastro de horas**
 
-1.  Preencha os campos conforme orientações abaixo:
+2.  Preencha os campos conforme orientações abaixo:
 
     -   **Data**: informe a data em que foi executada a tarefa;
 
@@ -73,7 +72,7 @@ Registrando as horas gastas com a tarefa - preenchimento dos campos cadastrais
 
     -   **Atividade**: selecione o tipo de atividade executado em relação a tarefa.
 
-1.  Após os dados informados, clique no botão *Gravar* para efetuar o registro.
+3.  Após os dados informados, clique no botão *Gravar* para efetuar o registro.
 
 Verificando os registros de horas gastas com as tarefas (timesheet)
 -----------------------------------------------------------------
@@ -87,7 +86,7 @@ Verificando os registros de horas gastas com as tarefas (timesheet)
     
     **Figura 4 – Registro de horas gastas com todas tarefas**
 
-1.  Clique no ícone ![Criar](images/tasks-6.png)  da tarefa para verificar o registro das horas gastas com
+2.  Clique no ícone ![Criar](images/tasks-6.png)  da tarefa para verificar o registro das horas gastas com
     uma tarefa. Feito isso, será apresentada a tela de registro de horas gastas
     com a tarefa, conforme exemplo ilustrado na figura a seguir:
 
