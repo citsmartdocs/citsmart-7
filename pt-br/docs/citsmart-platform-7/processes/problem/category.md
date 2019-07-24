@@ -1,7 +1,5 @@
-title: Cadastro e pesquisa de categoria de problema
-Description: Tem por objetivo registrar a categoria de problema que será
-utilizado para definir toda a configuração do fluxo de trabalho que o problema
-irá seguir.
+title:Cadastro e pesquisa de categoria de problema
+Description:Tem por objetivo registrar a categoria de problema que será utilizado para definir toda a configuração do fluxo de trabalho que o problema irá seguir.
 
 # Cadastro e pesquisa de categoria de problema
 
