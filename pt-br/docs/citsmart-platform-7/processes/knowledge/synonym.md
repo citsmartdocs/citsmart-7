@@ -1,6 +1,5 @@
 title: Cadastro e pesquisa de sinônimo
-Description: Esta funcionalidade tem por objetivo manter o registro de palavras
-sinônimas para efeitos de pesquisa na base de conhecimento.
+Description: Esta funcionalidade tem por objetivo manter o registro de palavras sinônimas para efeitos de pesquisa na base de conhecimento.
 
 # Cadastro e pesquisa de sinônimo
 
