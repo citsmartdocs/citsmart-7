@@ -1,7 +1,5 @@
 title: Cadastro e pesquisa de notificação
-Description: A funcionalidade de Notificação tem por objetivo criar mensagem de
-alerta no intuito de notificar os usuários sobre eventos que irão ocorrer no
-sistema.
+Description: A funcionalidade de Notificação tem por objetivo criar mensagem de alerta no intuito de notificar os usuários sobre eventos que irão ocorrer no sistema.
 
 # Cadastro e pesquisa de notificação
 
