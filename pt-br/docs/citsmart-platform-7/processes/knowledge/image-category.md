@@ -1,7 +1,5 @@
-title: Cadastro e pesquisa de categoria de imagem
-Description: Esta funcionalidade tem por objetivo de registrar as categorias de
-imagens para organização das imagens dentro da galeria que o sistema administra
-e usa.
+title:Cadastro e pesquisa de categoria de imagem
+Description:Esta funcionalidade tem por objetivo de registrar as categorias de imagens para organização das imagens dentro da galeria que o sistema administra e usa.
 
 # Cadastro e pesquisa de categoria de imagem
 
@@ -39,11 +37,11 @@ Filtros
 
 1.  Realize a pesquisa de categoria de imagem:
 
--   Informe o nome da categoria de imagem que deseja pesquisar e clique no
+    -   Informe o nome da categoria de imagem que deseja pesquisar e clique no
     botão *Pesquisar*. Após isso, será exibido o registro da categoria de imagem
     conforme o nome informado;
 
--   Caso deseje listar todos os registros de categoria de imagem, basta clicar
+    -   Caso deseje listar todos os registros de categoria de imagem, basta clicar
     diretamente no botão *Pesquisar*.
 
 Listagem de itens
