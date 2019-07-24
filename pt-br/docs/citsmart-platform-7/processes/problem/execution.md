@@ -25,7 +25,7 @@ Filtros
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Número do problema.
+    -   Número do problema.
 
     ![Criar](images/execution-1.png)
 
@@ -53,26 +53,26 @@ Executando problema
 
    !!! note "NOTA"
 
-       Nesta etapa, é realizada a classificação do problema e designará a área
-       apropriada para tratar o problema de acordo com o Catálogo de Serviços de
-       TI.
+        Nesta etapa, é realizada a classificação do problema e designará a área
+        apropriada para tratar o problema de acordo com o Catálogo de Serviços de
+        TI.
 
    !!! info "IMPORTANTE"
 
-       Deve vincular o problema a incidentes existentes e registrar o problema
-       para facilitar a priorização de soluções de problemas. Avaliar o impacto
-       sobre os negócios e determinar a urgência da solução. Essa avaliação
-       determina a classificação do problema.
+        Deve vincular o problema a incidentes existentes e registrar o problema
+        para facilitar a priorização de soluções de problemas. Avaliar o impacto
+        sobre os negócios e determinar a urgência da solução. Essa avaliação
+        determina a classificação do problema.
 
    !!! info " IMPORTANTE "
 
-       Deve assegurar que todas as informações necessárias para investigação e
-       diagnostico estejam registradas no problema.
+        Deve assegurar que todas as informações necessárias para investigação e
+        diagnostico estejam registradas no problema.
 
    !!! info " IMPORTANTE "
 
-       As ações de execução da tarefa, somente serão permitidas aos usuários que
-       estejam contidos dentro do grupo de execução.
+        As ações de execução da tarefa, somente serão permitidas aos usuários que
+        estejam contidos dentro do grupo de execução.
 
 1.  Na guia **Gerenciamento**, localize o registro de problema que se deseja
     registrar a execução da tarefa, clique no botão *Ação* e na
