@@ -1,7 +1,5 @@
 title: Definição de métricas e KPIs
-Description: A funcionalidade de Definição de Métricas e KPIs tem por objetivo
-definir os alvos dos indicadores do processo de Gerenciamento de Incidentes para
-análise gerencial.
+Description: A funcionalidade de Definição de Métricas e KPIs tem por objetivo definir os alvos dos indicadores do processo de Gerenciamento de Incidentes para análise gerencial.
 
 # Definição de métricas e KPIs
 
@@ -52,18 +50,18 @@ Definindo as métricas do processo de gerenciamento de incidentes - preenchimen
     
     **Figura 2 - Definição de métricas e KPIs**
 
-1.  Preencha os campos conforme orientação abaixo:
+2.  Preencha os campos conforme orientação abaixo:
 
     -   Nos campos "**Sucesso**", informe o valor aceitável para o negócio;
 
     -   Nos campos "**Aviso**", informe o valor crítico para o negócio.
 
-1.  Após os dados informados, clique no botão *Gravar* para efetuar a operação.
+3.  Após os dados informados, clique no botão *Gravar* para efetuar a operação.
 
 Veja também
 -----------
 
--   [Cadastro de Template de Smart Decisions]().
+-   [Cadastro de Template de Smart Decisions].
 
 
 !!! tip "About"
