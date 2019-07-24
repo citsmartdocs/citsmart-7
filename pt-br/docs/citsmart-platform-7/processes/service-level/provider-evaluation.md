@@ -17,10 +17,10 @@ Pré-condições
 -------------
 
 1.  Ter o fornecedor cadastrado (ver conhecimento [Cadastro e pesquisa de
-    fornecedor](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/377));
+    fornecedor];
 
 2.  Ter um serviço cadastrado (ver conhecimento [Cadastro da atividade de
-    serviço](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/4450)).
+    serviço].
 
 Filtros
 -------
