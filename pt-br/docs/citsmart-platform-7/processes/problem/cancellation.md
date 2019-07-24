@@ -1,6 +1,5 @@
-title: Cancelamento de problema
-Description: Esta funcionalidade permite realizar o cancelamento do registro de
-problema.
+title:Cancelamento de problema
+Description:Esta funcionalidade permite realizar o cancelamento do registro de problema.
 
 # Cancelamento de problema
 
