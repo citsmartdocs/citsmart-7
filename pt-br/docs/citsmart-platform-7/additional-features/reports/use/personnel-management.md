@@ -1,7 +1,6 @@
 title:Geração de relatórios-Gerência de pessoal
 
-Description: Este relatório tem o objetivo de apresentar as informações dos
-colaboradores por unidade.
+Description: Este relatório tem o objetivo de apresentar as informações dos colaboradores por unidade.
 
 # Geração de relatórios-Gerência de pessoal
 
@@ -37,28 +36,28 @@ Filtros
     -   **Colaborador**: será(ão) listado(s) o(s) colaborador(es) escolhido(s) no
     campo anterior.
 
-1.  Será apresentada a tela de** Geração de Relatório de Colaborador por
+2.  Será apresentada a tela de** Geração de Relatório de Colaborador por
     Unidade**, conforme ilustrada na figura a seguir:
 
     ![Criar](images/pessoal.png)
 
     **Figura 1 - Tela de geração de relatório de colaborador por unidade**
 
-1.  Defina os filtros conforme sua necessidade.
+3.  Defina os filtros conforme sua necessidade.
 
     !!! info "IMPORTANTE"
 
-        Caso não seja informado um colaborador, será gerado o relatório contendo
-        as informações de todos os colaboradores ativos da(s) respectiva(s)
-        unidade(s), referente ao contrato informado.
+         Caso não seja informado um colaborador, será gerado o relatório contendo
+         as informações de todos os colaboradores ativos da(s) respectiva(s)
+         unidade(s), referente ao contrato informado.
 
-1.  Se desejar remover algum colaborador, basta selecioná-lo e clicar no
+4.  Se desejar remover algum colaborador, basta selecioná-lo e clicar no
     botão *Remover*. Mas caso deseje remover todos os colaboradores, basta
     clicar diretamente no botão *Remover Todos*;
 
-2.  Clique no botão *Gerar PDF* para gerar o relatório em formato PDF;
+5.  Clique no botão *Gerar PDF* para gerar o relatório em formato PDF;
 
-3.  Clique no botão *Gerar XLS* para gerar o relatório em formato Excel.
+6.  Clique no botão *Gerar XLS* para gerar o relatório em formato Excel.
 
 Listagem de itens
 ----------------
