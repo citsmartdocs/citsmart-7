@@ -10,18 +10,16 @@ Como acessar
 ------------
 
 1.  Acesse a funcionalidade de agendamento de atividade através da navegação no
-    menu principal **Processos ITIL > Gerência de
-    Problema > Gerenciamento de Problema**.
+    menu principal **Processos ITIL > Gerência de Problema > Gerenciamento de Problema**.
 
 Pré-condições
 -------------
 
 1.  Ter ao menos um problema cadastrado (ver conhecimento [Cadastro de
-    problema]();
+    problema];
 
 2.  Ter os grupo de atividade periódica cadastrada (ver conhecimento [Cadastro e
-    pesquisa de grupo de atividade
-    periódica]().
+    pesquisa de grupo de atividade periódica].
 
 Filtros
 -------
