@@ -1,5 +1,5 @@
 title: Cadastro de resolução de problema grave
-Description:
+description: Esta funcionalidade permite realizar o registro de resolução de problema grave
 
 # Cadastro de resolução de problema grave
 
@@ -112,22 +112,22 @@ do serviço. Registrar os detalhes completos da solução e ações no Problema.
 
     **Figura 7 - Tela de relacionamento de mudanças**
 
-       -  Caso queira remover uma mudança que foi relacionada para solucionar o
+    -  Caso queira remover uma mudança que foi relacionada para solucionar o
     problema, basta clicar no ícone ![Criar](images/resolution-8.png) da mesma.
 
-       -  Caso não encontre a mudança e haja a necessidade de registrar uma requisição
+    -  Caso não encontre a mudança e haja a necessidade de registrar uma requisição
     de mudança, poderá registrá-la no sistema a partir dessa tela, basta clicar
     no ícone ![Criar](images/resolution-9.png) de mudança.
 
     -  No quadro de **Fechamento**, registre as informações sobre a solução que foi
     realizada:
 
-       -  **Causa**: selecione a causa do problema;
+       - **Causa**: selecione a causa do problema;
 
-       -  **Categoria de Solução**: selecione a categoria de solução do problema, ou
+       - **Categoria de Solução**: selecione a categoria de solução do problema, ou
     seja, o que foi usado para resolver o problema;
 
-       -  **Fechamento**: informe os detalhes da solução encontrada para o problema.
+       - **Fechamento**: informe os detalhes da solução encontrada para o problema.
 
     -  Após registro das informações sobre a resolução do problema, clique no
     botão *Gravar e avançar o fluxo* para efetuar a operação, onde o problema e

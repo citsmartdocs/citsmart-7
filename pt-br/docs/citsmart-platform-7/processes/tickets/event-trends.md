@@ -28,19 +28,16 @@ Pré-condições
 -------------
 
 1.  Ter um contrato cadastrado e ativo (ver conhecimento [Cadastro e pesquisa de
-    contrato] [1]();
+    contrato] ;
 
 2.  Ter uma solicitação de serviço cadastrada ([Gerenciamento de ticket
-    (serviços)][2]()
-    e estar vinculada ao contrato;
+    (serviços)] e estar vinculada ao contrato;
 
 3.  Configurar conexão do CITSmart Event Monitor (ver conhecimento [Conexão
-    CITSmart Event
-    Monitor][3]();
+    CITSmart Event Monitor];
 
 4.  Configurar e instalar a ferramenta de monitoração (ver conhecimento [Manual
-    de instalação do componente
-    Inventory][4]().
+    de instalação do componente Inventory].
 
 Filtros
 -------
@@ -55,29 +52,29 @@ Filtros
 
 1.  Preencha os campos conforme as orientações abaixo:
 
--   **EVM - Conexão do Citsmart Event Monitor**: informe a conexão do Citsmart
+    -   **EVM - Conexão do Citsmart Event Monitor**: informe a conexão do Citsmart
     Event Monitor;
 
--   **Eventos Globais**: selecione a opção desejada (um evento desse tipo tem
+    -   **Eventos Globais**: selecione a opção desejada (um evento desse tipo tem
     impacto em vários segmentos);
 
--   **Classificação**: informe a classificação do evento que deseja analisar;
+    -   **Classificação**: informe a classificação do evento que deseja analisar;
 
--   **Ferramenta Monitoração - Conexão**: informe a ferramenta de monitoração;
+    -   **Ferramenta Monitoração - Conexão**: informe a ferramenta de monitoração;
 
--   **Item de Configuração Pai**: informe o item de configuração pai;
+    -   **Item de Configuração Pai**: informe o item de configuração pai;
 
--   **Item de Configuração Gerenciado**: informe o item de configuração
+    -   **Item de Configuração Gerenciado**: informe o item de configuração
     gerenciado;
 
--   **Grupo categoria ocorrência**: selecione o grupo de categoria de ocorrência
+    -   **Grupo categoria ocorrência**: selecione o grupo de categoria de ocorrência
     de eventos;
 
--   **Categoria ocorrência**: selecione a categoria de ocorrência de eventos;
+    -   **Categoria ocorrência**: selecione a categoria de ocorrência de eventos;
 
--   **Quantidade Crítica**: informe a quantidade crítica de eventos;
+    -   **Quantidade Crítica**: informe a quantidade crítica de eventos;
 
--   **Período de ocorrência**: informe o período desejado, com a data início e
+    -   **Período de ocorrência**: informe o período desejado, com a data início e
     data fim de ocorrência de evento.
 
 Listagem de itens
@@ -153,12 +150,12 @@ Veja também
 -----------
 
 -   [Análise de tendências de solicitações de
-    serviço](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/395).
+    serviço].
 
-[1]:
-[2]:
-[3]:
-[4]:
+[1]:#
+[2]:#
+[3]:#
+[4]:#
 
 !!! tip "About"
 

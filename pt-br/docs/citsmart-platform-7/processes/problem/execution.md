@@ -15,8 +15,7 @@ Como acessar
 Pré-condições
 -------------
 
-1.  Ter um problema registrado (ver conhecimento [Cadastro de
-    problema]().
+1.  Ter um problema registrado (ver conhecimento [Cadastro de problema].
 
 Filtros
 -------
@@ -51,28 +50,29 @@ Listagem de itens
 Executando problema
 -------------------
 
-   !!! note "NOTA"
+!!! note "NOTA"
 
-        Nesta etapa, é realizada a classificação do problema e designará a área
-        apropriada para tratar o problema de acordo com o Catálogo de Serviços de
-        TI.
+     Nesta etapa, é realizada a classificação do problema e designará a área
+     apropriada para tratar o problema de acordo com o Catálogo de Serviços de
+     TI.
 
-   !!! info "IMPORTANTE"
+!!! info "IMPORTANTE"
 
-        Deve vincular o problema a incidentes existentes e registrar o problema
-        para facilitar a priorização de soluções de problemas. Avaliar o impacto
-        sobre os negócios e determinar a urgência da solução. Essa avaliação
-        determina a classificação do problema.
+      Deve vincular o problema a incidentes existentes e registrar o problema
+      para facilitar a priorização de soluções de problemas. Avaliar o impacto
+      sobre os negócios e determinar a urgência da solução. Essa avaliação
+      determina a classificação do problema.
 
-   !!! info " IMPORTANTE "
+!!! info "IMPORTANTE"
 
         Deve assegurar que todas as informações necessárias para investigação e
         diagnostico estejam registradas no problema.
 
-   !!! info " IMPORTANTE "
+!!! info "IMPORTANTE"
 
         As ações de execução da tarefa, somente serão permitidas aos usuários que
         estejam contidos dentro do grupo de execução.
+
 
 1.  Na guia **Gerenciamento**, localize o registro de problema que se deseja
     registrar a execução da tarefa, clique no botão *Ação* e na

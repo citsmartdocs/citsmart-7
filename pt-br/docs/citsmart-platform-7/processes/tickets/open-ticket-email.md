@@ -23,22 +23,18 @@ Detalhes das atividades
 #### Cadastro de template de ação automática - incidente / requisição / procedimento
 
 1.  Cadastro de template de Ação automática - Incidente/Requisição/Procedimento
-    (ver conhecimento [Cadastro e pesquisa de ações
-    automáticas](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/495)),
+    (ver conhecimento [Cadastro e pesquisa de ações automáticas],
     pois será utilizado como template para a abertura da solicitação de serviço.
 
 #### Realizar as configurações de e-mail
 
 1.  Realizar as configurações de e-mail (ver conhecimento [Manual de
-    configuração de ação automática via
-    e-mail.](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/4132)),
-    esse cadastro será utilizado para vincular o template cadastrado.
+    configuração de ação automática via e-mail.], esse cadastro será utilizado para vincular o template cadastrado.
 
 #### Realizar as configurações do processamento batch
 
 1.  Realizar as configurações do processamento Batch (ver conhecimento [Cadastro
-    e pesquisa de processamento
-    Batch](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/3961));
+    e pesquisa de processamento Batch];
 
 2.  Esse cadastro informa a cada quanto tempo o sistema fará a leitura dos
     e-mails.
@@ -61,8 +57,7 @@ Informações adicionais
 
 3.  O sistema marca automaticamente o e-mail como lido para que não haja
     duplicação de cadastro (ver conhecimento [Regras sobre a abertura automática
-    de solicitação de serviço via
-    e-mail](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/326));
+    de solicitação de serviço via e-mail];
 
 4.  Caso o sistema identifique que o colaborador é usuário do sistema, através
     do e-mail do remetente e o usuário estiver em um grupo vinculado ao mesmo

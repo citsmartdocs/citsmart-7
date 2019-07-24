@@ -11,13 +11,12 @@ Pré-condições
 -------------
 
 1.  Definir o fluxo referente ao gerenciamento de problema (ver
-    conhecimento [Manutenção de fluxo de
-    trabalho]();
+    conhecimento [Manutenção de fluxo de trabalho];
 
 2.  Criar o template de problema;
 
 3.  Cadastrar o grupo executor (ver conhecimento [Cadastro e pesquisa de
-    grupo]().
+    grupo].
 
 Como acessar
 ------------

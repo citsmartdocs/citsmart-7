@@ -15,12 +15,10 @@ Como acessar
 Pré-condições
 -------------
 
-1.  Ter um problema registrado (ver conhecimento [Cadastro de
-    problema]();
+1.  Ter um problema registrado (ver conhecimento [Cadastro de problema];
 
 2.  Cadastrar justificativa de problema (ver conhecimento [Cadastro e pesquisa
-    de justificativa de
-    problema]().
+    de justificativa de problema].
 
 Filtros
 -------

@@ -10,10 +10,10 @@ Pré-condições
 -------------
 
 1.  Ter o fornecedor cadastrado (ver conhecimento [Cadastro e Pesquisa de
-    Fornecedor]();
+    Fornecedor];
 
 2.  Ter o contrato cadastrado (ver conhecimento [Cadastro e Pesquisa de
-    Contrato]().
+    Contrato].
 
 Como acessar
 ------------

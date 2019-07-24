@@ -16,7 +16,7 @@ Pré-condições
 -------------
 
 1.  Ter problemas registrados (ver conhecimento [Cadastro de
-    problema]();
+    problema];
 
 Filtros
 -------

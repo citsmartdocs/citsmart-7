@@ -16,27 +16,24 @@ Pré-condições
     propriedade **START_MONITORA_INCIDENTES** informando o
     parâmetro **TRUE**, para esse ajuste neste arquivo somente o administrador
     do sistema operacional do servidor da aplicação (ver conhecimento [Manual de
-    instalação on-premise
-    (ITSM)][1]();
+    instalação on-premise (ITSM)];
 
 2.  Informe o conteúdo abaixo no parâmetro (ver conhecimento [Regras de
-    parametrização -
-    ticket][2]();
+    parametrização -ticket];
 
     -   Parâmetro 190: com o valor S
 
 1.  Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de
-    contrato][3]();
+    contrato];
 
 2.  Ter o colaborador cadastrado (ver conhecimento [Cadastro e pesquisa de
-    colaborador][4]();
+    colaborador];
 
 3.  Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de
-    grupo][5]();
+    grupo];
 
 4.  Ter o portfólio de serviços definido (ver conhecimento [Cadastro de
-    portfólio de
-    serviços][6]().
+    portfólio de serviços].
 
 Filtros
 -------
@@ -49,7 +46,7 @@ Filtros
 
     -   Situação.
     
-    ![escalonamento](images/escalation-rule-1.png)
+    ![escalonamento](images/escalation-rule1.png)
     
     **Figura 1 - Tela de pesquisa de regra de escalonamento**
 
@@ -82,7 +79,7 @@ Preenchimento dos campos cadastrais
     e notificações automáticas** será exibida, conforme ilustrada na figura
     abaixo:
 
-    ![escalonamento](images/escalation-rule-3.png)
+    ![escalonamento](images/escalation-rule3.png)
 
     **Figura 3 - Tela de cadastro de regras de escalonamento**
 
@@ -130,11 +127,12 @@ Preenchimento dos campos cadastrais
 1.  Clique em *Adicionar* e a nova regra de escalonamento será exibida em uma
     nova listagem para checagem, se regra estiver correta, clicar em *Gravar*.
 
-[1]:
-[2]:
-[3]:
-[4]:
-[5]:
+[1]:#
+[2]:#
+[3]:#
+[4]:#
+[5]:#
+
 
 
 !!! tip "About"

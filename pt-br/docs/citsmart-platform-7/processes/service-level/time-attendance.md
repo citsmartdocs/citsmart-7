@@ -12,12 +12,8 @@ Pré-condições
 -------------
 
 1.  Ter definido o portfólio de serviços para aplicar o tempo de atendimento aos
-    serviços (ver conhecimentos [Cadastro de Portfólio de
-    Serviços](), [Cadastro
-    de
-    Serviços](), [Configuração
-    dos Atributos do
-    Serviço]()
+    serviços (ver conhecimentos [Cadastro de Portfólio de Serviços], [Cadastro
+    de Serviços], [Configuração dos Atributos do Serviço]
 
 Como acessar
 ------------

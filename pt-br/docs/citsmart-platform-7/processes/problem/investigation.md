@@ -15,8 +15,7 @@ Como acessar
 Pré-condições
 -------------
 
-1.  Ter um problema registrado (ver conhecimento [Cadastro de
-    problema]().
+1.  Ter um problema registrado (ver conhecimento [Cadastro de problema].
 
 Filtros
 -------

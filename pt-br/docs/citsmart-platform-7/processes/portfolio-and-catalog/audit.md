@@ -39,9 +39,9 @@ Filtros
     itens na listagem padrão da funcionalidade, facilitando a localização dos
     itens desejados:
 
--   Período de abertura;
+    -   Período de abertura;
 
--   Categoria.
+    -   Categoria.
 
     ![Criar](images/audit-1.png) 
 

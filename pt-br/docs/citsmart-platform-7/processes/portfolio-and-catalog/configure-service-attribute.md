@@ -1,7 +1,5 @@
 title: Configuração dos atributos do serviço
-Description: As orientações descritas neste documento poderão ser seguidas
-para configurar os atributos tanto do *Serviço de Negócio/TI* quanto do *Serviço
-de Apoio/Técnico*.
+Description: As orientações descritas neste documento poderão ser seguidas para configurar os atributos tanto do *Serviço de Negócio/TI* quanto do *Serviço de Apoio/Técnico*.
 
 # Configuração dos atributos do serviço
 
@@ -103,7 +101,7 @@ Configurando os atributos do serviço
 
     -   **Incidentes**: permite registrar as atividades de incidente do serviço;
 
-    -   **Procedimentos**:** **permite registrar os procedimentos referente ao
+    -   **Procedimentos**: permite registrar os procedimentos referente ao
     serviço, que serão utilizados pelo gerenciamento de continuidade para
     disparar e controlar as atividades de restauração do serviço;
 
@@ -341,7 +339,7 @@ Vinculando processo de negócio ao serviço
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Nome do Processo de Negócio.
+    -   Nome do Processo de Negócio.
 
 ### Listagem de itens
 
@@ -391,7 +389,7 @@ Vinculando o dono do negócio ao serviço
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Nome .
+    -   Nome .
 
 ### Listagem de itens
 
@@ -437,7 +435,7 @@ Vinculando usuário do negócio ao serviço
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Nome.
+    -   Nome.
 
 ### Listagem de itens
 
@@ -482,7 +480,7 @@ Vinculando serviço de apoio / técnico
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Nome do Serviço.
+    -   Nome do Serviço.
 
 ### Listagem de itens
 
@@ -597,7 +595,7 @@ Vinculando aplicações ao serviço
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Nome.
+    -   Nome.
 
 ### Listagem de itens
 
@@ -678,7 +676,7 @@ Vinculando contratos ao serviço
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Número do contrato.
+    -   Número do contrato.
 
 ### Listagem de itens
 
@@ -738,11 +736,11 @@ Vinculando proprietários de ti ao serviço
     itens na listagem padrão da funcionalidade, facilitando a localização dos
     itens desejados:
 
--   Nome;
+    -   Nome;
 
--   CPF;
+    -   CPF;
 
--   Situação.
+    -   Situação.
 
 ### Listagem de itens
 
@@ -787,7 +785,7 @@ Vinculando conhecimento ao serviço
     itens na listagem padrão da funcionalidade, facilitando a localização dos
     itens desejados:
 
--   Título;
+    -   Título;
 
 ### Listagem de itens
 
@@ -831,7 +829,7 @@ Vinculando habilidades ao serviço
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Nome da Habilidade.
+    -   Nome da Habilidade.
 
 ### Listagem de itens
 
@@ -878,7 +876,7 @@ ao serviço.
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Nome do Serviço.
+    -   Nome do Serviço.
 
 ### Listagem de itens
 
@@ -976,7 +974,7 @@ Administração das avaliações do serviço
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Data.
+    -   Data.
 
 ### Listagem de itens
 

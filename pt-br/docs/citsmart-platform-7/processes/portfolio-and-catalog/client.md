@@ -1,6 +1,5 @@
 title: Cadastro e pesquisa de cliente
-Description: Esta funcionalidade tem por objetivo cadastrar e realizar pesquisa
-por clientes
+Description: Esta funcionalidade tem por objetivo cadastrar e realizar pesquisa por clientes
 
 # Cadastro e pesquisa de cliente
 
