@@ -75,19 +75,19 @@ Criação de fluxo
    
     **Figura 4 - Cadastro das informações do fluxo**
 
-       -  **Eventos:** apresenta os elementos de eventos para ser utilizado no desenho
+    -  **Eventos:** apresenta os elementos de eventos para ser utilizado no desenho
        do fluxo;
 
-       -  **Tarefas:** apresenta os elementos de tarefas para ser utilizado no desenho
+    -  **Tarefas:** apresenta os elementos de tarefas para ser utilizado no desenho
       do fluxo;
 
-       -  **Gateways:** apresenta os elementos de condições para ser utilizado no
+    -  **Gateways:** apresenta os elementos de condições para ser utilizado no
       desenho do fluxo.
 
     -  Para inserir os elementos, basta clicar no elemento desejado e arrastá-lo
     para a área de desenho. Ao arrastar e soltar o elemento na área de desenho,
     será exibida uma tela para definição das propriedades, conforme exemplo
-    ilustrado na figura abaixo:
+    ilustrado na figura abaixo.
 
     ![Criar](images/workflow-5.png)
     
