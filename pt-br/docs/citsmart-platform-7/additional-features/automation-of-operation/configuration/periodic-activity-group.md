@@ -1,7 +1,5 @@
 title: Cadastro e pesquisa de grupo de atividade periódica
-Description: Esta funcionalidade tem o objetivo de registrar os grupos de
-atividades periódica, os quais são responsáveis por executar as atividades
-periódicas.
+Description: Esta funcionalidade tem o objetivo de registrar os grupos de atividades periódica, os quais são responsáveis por executar as atividades periódicas.
 
 # Cadastro e pesquisa de grupo de atividade periódica
 
@@ -50,7 +48,7 @@ Listagem de itens
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** Código, Nome **e** Descrição**, conforme a figura abaixo:
+    funcionalidade: **Código, Nome e Descrição**, conforme a figura abaixo:
 
     ![Criar](images/group-2.png)
     
