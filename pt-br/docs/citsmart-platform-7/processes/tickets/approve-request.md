@@ -10,18 +10,14 @@ Pré-condições
 -------------
 
 1.  Informe o conteúdo abaixo nos parâmetros (ver conhecimento [Regras de
-    parametrização -
-    sistema];
+    parametrização - sistema];
 
     -   Parâmetro 33: URL de acesso ao sistema corretamente;
 
     -   Parâmetro 370: deverá estar setado em 'S';
 
 1.  Ter ao menos um usuário/grupo cadastrado (ver conhecimentos [Cadastro e
-    pesquisa de
-    usuário]; [Cadastro
-    e pesquisa de
-    grupo];
+    pesquisa de usuário]; [Cadastro e pesquisa de grupo];
 
 2.  Saber desenhar fluxo de aprovação de solicitação via e-mail cadastrado.
     Neste fluxo deverá existir a tarefa "Aprovação" e o desenho para envio de
