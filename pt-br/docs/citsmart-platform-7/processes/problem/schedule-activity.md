@@ -1,6 +1,5 @@
-title: Agendamento de atividade de problema
-Description: Esta funcionalidade permite criar e visualizar agendamento de
-atividades referente ao registro de problema.
+title:Agendamento de atividade de problema
+Description:Esta funcionalidade permite criar e visualizar agendamento de atividades referente ao registro de problema.
 
 # Agendamento de atividade de problema
 
@@ -42,9 +41,9 @@ Listagem de itens
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** Número**, **Título, Contrato, Criada em, Prioridade, Prazo
-    limite,** **Solicitante**, **Status**, **Tarefa atual**, **Grupo
-    executor** e **Responsável atual**.
+    funcionalidade: Número, Título, Contrato, Criada em, Prioridade, Prazo
+    limite, Solicitante*, Status, Tarefa atual, Grupo
+    executor e Responsável atual.
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Visualizar*, *Relatórios* e *Ação*.
