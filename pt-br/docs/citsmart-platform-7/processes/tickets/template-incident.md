@@ -18,49 +18,40 @@ Pré-condições
 
 1.  Ter acesso à funcionalidade de Templates
     Incidentes/Requisições/Procedimentos (ver conhecimento [Cadastro e pesquisa
-    de perfil de
-    acesso][1]);
+    de perfil de acesso];
 
 2.  Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de
-    grupo][2]);
+    grupo];
 
 3.  Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de
-    contrato][3]);
+    contrato];
 
 4.  Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de
-    unidade][4]);
+    unidade];
 
 5.  Ter o grupo vinculado ao contrato (ver conhecimento [Como relacionar grupo
-    ao
-    contrato?][5]);
+    ao contrato?];
 
 6.  Ter a unidade vinculada ao contrato (ver conhecimento [Como relacionar
-    unidade ao
-    contrato?][6]);
+    unidade ao contrato?];
 
 7.  Ter o portfólio com o serviço e as atividades de requisição e incidente
-    cadastrados (ver conhecimentos [Cadastro de portfólio de
-    serviços][7]), [Cadastro
-    de
-    serviços][8], [Configuração
-    dos atributos do
-    serviço][9]);
+    cadastrados (ver conhecimentos [Cadastro de portfólio de serviços], [Cadastro
+    de serviços], [Configuração dos atributos do serviço];
 
 8.  Ter o tempo de atendimento das atividades de requisição e incidente
     definidos (ver conhecimento [Cadastro e pesquisa de tempo de
-    atendimento][10];
+    atendimento];
 
 9.  Ter o contrato vinculado ao serviço (Ver conhecimento [Configuração dos
-    atributos do
-    serviço][11]);
+    atributos do serviço];
 
 10. Ter as atividades de requisição e incidente vinculadas ao contrato do
     serviço (ver conhecimento [Configuração dos atributos do contrato do
-    serviço][12]);
+    serviço];
 
 11. Informe o conteúdo abaixo no parâmetro (ver conhecimento [Regras de
-    parametrização -
-    Ticket][13]):
+    parametrização - Ticket]:
 
     -   Parâmetro 9: definir o grupo de 1º nível para o atendimento da solicitação.
 
@@ -190,19 +181,19 @@ Preenchimento dos campos cadastrais
     onde a data, hora e usuário serão gravados automaticamente para uma futura
     auditoria.
 
-[1]:
-[2]:
-[3]:
-[4]:
-[5]:
-[6]:
-[7]:
-[8]:
-[9]:
-[10]:
-[11]:
-[12]:
-[13]:
+[1]:#
+[2]:#
+[3]:#
+[4]:#
+[5]:#
+[6]:#
+[7]:#
+[8]:#
+[9]:#
+[10]:#
+[11]:#
+[12]:#
+[13]:#
 
 
 !!! tip "About"
