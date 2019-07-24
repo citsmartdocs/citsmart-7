@@ -25,7 +25,7 @@ Filtros
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Número do problema.
+    -   Número do problema.
 
     ![Criar](images/reactivation-1.png)
 
