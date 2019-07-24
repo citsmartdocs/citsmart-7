@@ -159,7 +159,7 @@ Veja também
 -----------
 
 -   [Análise de tendência de
-    eventos][5]().
+    eventos][5].
 
 [1]:#
 [2]:#
