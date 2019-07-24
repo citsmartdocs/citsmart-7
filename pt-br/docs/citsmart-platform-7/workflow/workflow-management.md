@@ -71,37 +71,37 @@ Criação de fluxo
     do fluxo. Após isso, será apresentada a área de desenho, conforme ilustrada
     na figura abaixo:
 
-![Criar](images/workflow-4.png)
+    ![Criar](images/workflow-4.png)
    
-**Figura 4 - Cadastro das informações do fluxo**
+    **Figura 4 - Cadastro das informações do fluxo**
 
-   -  **Eventos:** apresenta os elementos de eventos para ser utilizado no desenho
-    do fluxo;
+       -  **Eventos:** apresenta os elementos de eventos para ser utilizado no desenho
+       do fluxo;
 
-   -  **Tarefas:** apresenta os elementos de tarefas para ser utilizado no desenho
-    do fluxo;
+       -  **Tarefas:** apresenta os elementos de tarefas para ser utilizado no desenho
+      do fluxo;
 
-   -  **Gateways:** apresenta os elementos de condições para ser utilizado no
-    desenho do fluxo.
+       -  **Gateways:** apresenta os elementos de condições para ser utilizado no
+      desenho do fluxo.
 
-  -  Para inserir os elementos, basta clicar no elemento desejado e arrastá-lo
+    -  Para inserir os elementos, basta clicar no elemento desejado e arrastá-lo
     para a área de desenho. Ao arrastar e soltar o elemento na área de desenho,
     será exibida uma tela para definição das propriedades, conforme exemplo
     ilustrado na figura abaixo:
 
-   ![Criar](images/workflow-5.png)
+    ![Criar](images/workflow-5.png)
     
-   **Figura 5 - Definição das propriedades do elemento "Tarefa" do fluxo**
+    **Figura 5 - Definição das propriedades do elemento "Tarefa" do fluxo**
 
-   -  As propriedades de um elemento também podem ser definidas ao clicar duas
+    -  As propriedades de um elemento também podem ser definidas ao clicar duas
     vezes no elemento ou clicar no elemento e logo após clicar no ícone
     apresentado ao lado do mesmo, conforme indicado na figura abaixo:
 
-   ![Criar](images/workflow-6.png)
+    ![Criar](images/workflow-6.png)
     
-   **Figura 6 - Elemento do fluxo**
+    **Figura 6 - Elemento do fluxo**
 
-   -  Caso queira excluir um elemento que foi inserido no desenho do fluxo, clique
+    -  Caso queira excluir um elemento que foi inserido no desenho do fluxo, clique
     no mesmo e pressione a tela Ctrl + Delete.
 
 4.  Após o fluxo definido, clique no botão *Gravar* para efetuar a operação.
