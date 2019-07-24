@@ -1,6 +1,5 @@
-title: Cadastro de erros conhecidos
-Description: Esta funcionalidade permite realizar o registro do erro conhecido
-na base de conhecimento.
+title:Cadastro de erros conhecidos
+Description:Esta funcionalidade permite realizar o registro do erro conhecido na base de conhecimento.
 
 # Cadastro de erros conhecidos
 
@@ -57,10 +56,10 @@ conhecido e realizado o registro do erro conhecido na base de conhecimento,
 permitindo que as equipes de suporte, incluindo o Service Desk, tenham acesso às
 informações para auxiliar na resolução de incidentes ou problemas.
 
-   !!! info "IMPORTANTE"
+!!! info "IMPORTANTE"
 
-       O membro do grupo designado para registrar erros conhecidos deve capturar
-       o problema e iniciar a atividade.
+     O membro do grupo designado para registrar erros conhecidos deve capturar
+     o problema e iniciar a atividade.
 
 1.  Na guia **Gerenciamento**, localize o registro de problema que deseja
     registrar o erro conhecido, clique no botão *Ação* e selecione a
