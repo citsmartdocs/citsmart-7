@@ -1,8 +1,6 @@
 title: Permissão de acesso do Smart Decisions
 
-Description: A funcionalidade de Permissão de Acesso do Smart Decisions permite
-definir quem terá acesso aos widgets para inserção no dashboard o qual é exibido
-na tela principal do sistema.
+Description: A funcionalidade de Permissão de Acesso do Smart Decisions permite definir quem terá acesso aos widgets para inserção no dashboard o qual é exibido na tela principal do sistema.
 
 # Permissão de acesso do Smart Decisions
 
@@ -63,7 +61,7 @@ Definindo permissão de acesso
     pesquisa do grupo, busque pelo grupo desejado, seleciono-o e clique
     em *Enviar* para efetuar o vínculo.
 
-1.  Após definição da permissão de acesso, clique no botão *Gravar* para efetuar
+3.  Após definição da permissão de acesso, clique no botão *Gravar* para efetuar
     o registro, onde a data, hora e usuário serão gravados automaticamente para
     uma futura auditoria.
 
