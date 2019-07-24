@@ -1,5 +1,4 @@
 title: Verificação das atividades periódicas agendadas
-
 Description: Esta funcionalidade tem por objetivo verificar as atividades agendadas referentes ao gerenciamento de requisição e incidente, gerenciamento de problema, gerenciamento de mudança e gerenciamento de liberação para execução das mesmas.
 
 # Verificação das atividades periódicas agendadas
@@ -36,7 +35,7 @@ Filtros
 
     -   Diário.
 
-1.  Será apresentada a tela de **Agenda de Atividades Periódicas**. A mesma é
+2.  Será apresentada a tela de **Agenda de Atividades Periódicas**. A mesma é
     exibida em formato de calendário, onde poderá ser visualizada as atividades.
     A figura abaixo ilustra essa tela:
 
@@ -50,7 +49,7 @@ Filtros
     -   **Grupo Pesquisa**: selecione o gerenciamento que deseja visualizar a suas
     atividades de que foram agendadas.
 
-1.  As atividades podem ser visualizadas mensalmente, semanalmente ou
+3.  As atividades podem ser visualizadas mensalmente, semanalmente ou
     diariamente. Para definir o tipo de visualização, clique em um dos botões
     localizados acima do calendário: **Mensal**, **Semanal** ou **Diária.**
 
