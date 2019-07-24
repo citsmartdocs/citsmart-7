@@ -1,7 +1,5 @@
 title: Cadastro e pesquisa de notificação via email
-Description: A funcionalidade de Notificação via E-mail tem por objetivo enviar
-mensagens via e-mail no intuito de notificar os usuários sobre eventos que irão
-ocorrer no sistema.
+Description: A funcionalidade de Notificação via E-mail tem por objetivo enviar mensagens via e-mail no intuito de notificar os usuários sobre eventos que irão ocorrer no sistema.
 
 # Cadastro e pesquisa de notificação via email
 
@@ -100,10 +98,10 @@ Preenchimento dos campos cadastrais
     em *Remover*. Se desejar remover todos os usuários vinculados, clique no
     botão *Remover todos*.
 
-   !!! info "IMPORTANTE"
+    !!! info "IMPORTANTE"
 
-        Se a notificação via e-mail não for atribuída a nenhum grupo e/ou usuário,
-        todos os usuários do sistema serão notificados.
+         Se a notificação via e-mail não for atribuída a nenhum grupo e/ou usuário,
+         todos os usuários do sistema serão notificados.
 
    -  **Descrição breve**: informe uma descrição resumida da notificação via
     e-mail;
