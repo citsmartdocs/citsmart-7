@@ -1,6 +1,5 @@
-title: Visualização de problema
-Description: Esta funcionalidade permite visualizar as informações do registro
-de problema.
+title:Visualização de problema
+Description:Esta funcionalidade permite visualizar as informações do registro de problema.
 
 # Visualização de problema
 
@@ -26,7 +25,7 @@ Filtros
     itens na listagem padrão da funcionalidade, facilitando a localização dos
     itens desejados:
 
--   Número do problema
+    -   Número do problema
 
     ![Criar](images/visualization-1.png)
 
