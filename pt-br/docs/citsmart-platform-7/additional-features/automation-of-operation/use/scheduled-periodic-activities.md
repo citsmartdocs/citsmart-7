@@ -65,54 +65,54 @@ Preenchimento dos campos cadastrais
     isso, será exibida a tela para cadastrar as informações necessárias,
     conforme exemplo ilustrado na figura abaixo:
 
-![Criar](images/schedule-2.png)
+    ![Criar](images/schedule-2.png)
     
-**Figura 2 - Registro de execução de atividade**
+    **Figura 2 - Registro de execução de atividade**
 
-- **Situação**: selecione a situação que a atividade se encontra.
+    - **Situação**: selecione a situação que a atividade se encontra.
 
-- Clique no botão orientações técnicas, para verificar as orientações para
+    - Clique no botão orientações técnicas, para verificar as orientações para
     execução da atividade;
 
-- Se a situação selecionada for “**Em execução**” ou “**Executado**”, preencha
+    - Se a situação selecionada for “**Em execução**” ou “**Executado**”, preencha
     os campos:
 
-    - **Detalhamento**: descreva os detalhes da execução da atividade;
+       - **Detalhamento**: descreva os detalhes da execução da atividade;
 
-    -  **Data da execução**: informe a data da execução da atividade;
+       -  **Data da execução**: informe a data da execução da atividade;
 
-    -  **Hora de execução**: informe a hora de execução da atividade.
+       -  **Hora de execução**: informe a hora de execução da atividade.
 
- -  Se a situação selecionada for “**Suspenso**”, preencha os campos:
+    -  Se a situação selecionada for “**Suspenso**”, preencha os campos:
 
-     -  **Motivo**: selecione o motivo da suspensão da atividade;
+       -  **Motivo**: selecione o motivo da suspensão da atividade;
 
-     -  **Complemento**: informe o complemento do motivo da suspensão;
+       -  **Complemento**: informe o complemento do motivo da suspensão;
 
-     -  Informe a data e hora da suspensão da atividade.
+       -  Informe a data e hora da suspensão da atividade.
 
- -  Após os dados informados, clique no botão *Gravar* para efetuar o registro.
+    -  Após os dados informados, clique no botão *Gravar* para efetuar o registro.
 
-    -  A atividade que estiver **em execução**, será exibida com a cor azul,
-    conforme exemplo ilustrado na figura abaixo:
+        -  A atividade que estiver **em execução**, será exibida com a cor azul,
+           conforme exemplo ilustrado na figura abaixo:
     
     ![Criar](images/schedule-3.png)
     
     **Figura 3 - Exemplo 1**
 
-  -   A atividade que for **executada**, será exibida com a cor verde, conforme
+    -  A atividade que for **executada**, será exibida com a cor verde, conforme
     exemplo ilustrado na figura abaixo:
 
-   ![Criar](images/schedule-4.png)
+    ![Criar](images/schedule-4.png)
     
-   **Figura 4 - Exemplo 2**
+    **Figura 4 - Exemplo 2**
 
-  -   A atividade que for **suspensa**, será exibida com a cor cinza, conforme
+    -  A atividade que for **suspensa**, será exibida com a cor cinza, conforme
     exemplo ilustrado na figura abaixo:
 
-   ![Criar](images/schedule-5.png)
+    ![Criar](images/schedule-5.png)
     
-   **Figura 5 - Exemplo 3**
+    **Figura 5 - Exemplo 3**
     
 !!! tip "About"
 
