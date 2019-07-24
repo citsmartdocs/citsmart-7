@@ -1,7 +1,5 @@
 title: Cadastro e pesquisa de grupo de assinaturas
-
-Description: Esta funcionalidade permite registrar os grupos de assinaturas que
-serão impressos em relatórios.
+Description: Esta funcionalidade permite registrar os grupos de assinaturas que serão impressos em relatórios.
 
 # Cadastro e pesquisa de grupo de assinaturas
 
@@ -16,8 +14,7 @@ Pré-condições
 ------------
 
 1.  Para registrar o grupo de assinaturas é necessário ter a assinatura
-    cadastrada (ver conhecimento [Cadastro e pesquisa de
-    assinatura]().
+    cadastrada (ver conhecimento [Cadastro e pesquisa de assinatura].
 
 Filtros
 ------
