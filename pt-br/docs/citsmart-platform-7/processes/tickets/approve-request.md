@@ -19,9 +19,9 @@ Pré-condições
 
 1.  Ter ao menos um usuário/grupo cadastrado (ver conhecimentos [Cadastro e
     pesquisa de
-    usuário][2](); [Cadastro
+    usuário][2]; [Cadastro
     e pesquisa de
-    grupo][3]();
+    grupo][3];
 
 2.  Saber desenhar fluxo de aprovação de solicitação via e-mail cadastrado.
     Neste fluxo deverá existir a tarefa "Aprovação" e o desenho para envio de
@@ -33,7 +33,7 @@ Pré-condições
 
 4.  O servidor de e-mail deverá ser configurado (ver conhecimento [Regras de
     parametrização -
-    e-mail][4](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/1653)).
+    e-mail][4]).
 
 Como acessar
 ------------
