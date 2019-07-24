@@ -1,7 +1,6 @@
-title: Captura de problema
+title:Captura de problema
 
-Description: Esta funcionalidade permite capturar a tarefa, ou seja, se tornar o
-responsável atual pelo atendimento do problema.
+Description:Esta funcionalidade permite capturar a tarefa, ou seja, se tornar o responsável atual pelo atendimento do problema.
 
 # Captura de problema
 
@@ -28,7 +27,7 @@ Filtros
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Nº do Problema.
+    -   Nº do Problema.
 
     ![Criar](images/capture-1.png)
 
