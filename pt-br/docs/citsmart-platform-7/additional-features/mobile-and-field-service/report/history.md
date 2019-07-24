@@ -67,7 +67,7 @@ Verificando o histórico de atendimento
     
     **Figura 2 - Tela de histórico de atendimento**
 
-1.  Defina os filtros de acordo com sua necessidade:
+2.  Defina os filtros de acordo com sua necessidade:
 
    -  **Estado**: informar o estado das solicitações de serviços que deseja
     verificar o histórico de seu atendimento pelo(s) técnico(s) de campo;
@@ -101,7 +101,7 @@ Verificando o histórico de atendimento
    -  **Situação da Solicitação**: selecionar a situação de atendimento da
    solicitação de serviço.
 
-2.  Após os filtros definido, clique no botão *Pesquisar*. Feito isso, serão
+3.  Após os filtros definido, clique no botão *Pesquisar*. Feito isso, serão
     exibidos no mapa o histórico de atendimento das solicitações de serviço pelo
     técnico de campo, conforme exemplo ilustrado na figura a seguir:
 
