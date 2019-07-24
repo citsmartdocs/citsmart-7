@@ -60,10 +60,10 @@ principal. Serão utilizados todos os recursos e técnicas de resolução de
 problemas disponíveis para identificar a causa raiz, a falha apontada e uma
 solução.
 
-    !!! info "IMPORTANTE"
+!!! info "IMPORTANTE"
 
-         O membro do grupo designado para realizar a investigação e diagnóstico
-         deve capturar o problema e iniciar a atividade.
+     O membro do grupo designado para realizar a investigação e diagnóstico
+     deve capturar o problema e iniciar a atividade.
 
 1.  Na guia **Gerenciamento**, localize o registro de problema que deseja
     registrar a investigação e diagnóstico, clique no botão *Ação* e selecione a
