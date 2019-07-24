@@ -1,8 +1,6 @@
 title: Cadastro e pesquisa de pasta
 
-Description: Esta funcionalidade tem por objetivo criar e manter pastas que
-serão utilizadas para armazenamento e organização dos conhecimentos registrados
-na base.
+Description:Esta funcionalidade tem por objetivo criar e manter pastas que serão utilizadas para armazenamento e organização dos conhecimentos registrados na base.
 
 # Cadastro e pesquisa de pasta
 
@@ -19,10 +17,8 @@ Pré-condições
 -------------
 
 1.  Ter ao menos um perfil cadastrado, um grupo cadastrado ou ambos cenários
-    (ver conhecimento [Cadastro e pesquisa de perfil de
-    acesso](), [Cadastro
-    e pesquisa de
-    grupo]().
+    (ver conhecimento [Cadastro e pesquisa de perfil de acesso], [Cadastro
+    e pesquisa de grupo].
 
 Filtros
 ------
@@ -31,9 +27,9 @@ Filtros
     itens na listagem padrão da funcionalidade, facilitando a localização dos
     itens desejados:
 
--   Pasta
+    -   Pasta
 
--   Pasta Superior (escolha única)
+    -   Pasta Superior (escolha única)
 
 ![Criar](images/folder-1.png)
 
@@ -64,27 +60,27 @@ Preenchimento dos campos cadastrais
 
 1.  Preencha os campos:
 
--   **Nome**: define o título usado nas listas de pastas em outras
+    -  **Nome**: define o título usado nas listas de pastas em outras
     funcionalidades
 
--   **Pasta Superior**: define a pasta que agrupa esta pasta e outras, quando
+    -  **Pasta Superior**: define a pasta que agrupa esta pasta e outras, quando
     não preenchido significa que não há nenhum nível superior de pastas
 
--   **Perfil de Acesso**: permite selecionar os perfis que terão acesso à pasta,
+    -  **Perfil de Acesso**: permite selecionar os perfis que terão acesso à pasta,
     permitindo configurar:
 
-    -   **Permissão**: define se o perfil pode fazer Leitura ou Leitura/
+       -  **Permissão**: define se o perfil pode fazer Leitura ou Leitura/
         Gravação
 
-    -   **Pode publicar**: define se o usuário pode ou não publicar
+       -  **Pode publicar**: define se o usuário pode ou não publicar
 
--   **Grupo**: seleciona os grupos que terão a pasta, clicando no botão
+    -  **Grupo**: seleciona os grupos que terão a pasta, clicando no botão
     Adicionar. Permite a reunião de mais de um perfil/grupo em um só:
 
-    -   **Permissão**: define se o perfil pode fazer Leitura ou Leitura/
+       -  **Permissão**: define se o perfil pode fazer Leitura ou Leitura/
         Gravação
 
-    -   **Pode publicar**: define se o usuário pode ou não publicar
+       -  **Pode publicar**: define se o usuário pode ou não publicar
 
 !!! info "IMPORTANTE"
 
