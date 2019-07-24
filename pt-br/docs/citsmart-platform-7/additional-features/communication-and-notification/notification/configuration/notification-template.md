@@ -1,7 +1,5 @@
 title: Cadastro e pesquisa de template de notificação
-Description: A funcionalidade Template de Notificação tem por objetivo cria um
-template de notificação para vincular ao Gerenciamento de Eventos e Base de
-Conhecimento.
+Description: A funcionalidade Template de Notificação tem por objetivo cria um template de notificação para vincular ao Gerenciamento de Eventos e Base de Conhecimento.
 
 # Cadastro e pesquisa de template de notificação
 

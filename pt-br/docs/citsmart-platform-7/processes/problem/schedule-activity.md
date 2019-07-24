@@ -1,5 +1,5 @@
-title:Agendamento de atividade de problema
-Description:Esta funcionalidade permite criar e visualizar agendamento de atividades referente ao registro de problema.
+title: Agendamento de atividade de problema
+Description: Esta funcionalidade permite criar e visualizar agendamento de atividades referente ao registro de problema.
 
 # Agendamento de atividade de problema
 
@@ -66,11 +66,10 @@ Agendando atividade
 
     **Figura 3 - Tela de gerenciamento de problemas**
 
-1.  Será exibida uma janela para agendar atividades contendo duas abas, uma
+2.  Será exibida uma janela para agendar atividades contendo duas abas, uma
     para **Histórico de Agendamentos** e outra para **Criar Agendamento**;
 
--   Na aba **Histórico de Agendamentos**, serão listados os Agendamentos das
-    atividades que foram criados;
+    -   Na aba **Histórico de Agendamentos**, serão listados os Agendamentos das atividades que foram criados;
 
     ![Criar](images/schedule-activity-4.png)
 
@@ -98,10 +97,10 @@ Preenchimento dos campos cadastrais
     -  **Duração estimada**: informe a duração estimada em minutos, ou seja, o
     tempo que levará para realizar a atividade;
 
-1.  Clique no botão *Gravar* para efetuar a operação, onde a data, hora e
+2.  Clique no botão *Gravar* para efetuar a operação, onde a data, hora e
     usuário serão gravados automaticamente para uma futura auditoria;
 
-2.  Será exibida uma mensagem confirmando o sucesso do agendamento da atividade.
+3.  Será exibida uma mensagem confirmando o sucesso do agendamento da atividade.
 
 !!! tip "About"
 

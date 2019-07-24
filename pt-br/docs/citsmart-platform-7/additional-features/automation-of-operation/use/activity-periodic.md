@@ -1,6 +1,5 @@
 title: Cadastro e pesquisa de atividade periódica
-Description: Esta funcionalidade permite registrar e verificar as atividades
-periódicas relacionadas aos contratos.
+Description: Esta funcionalidade permite registrar e verificar as atividades periódicas relacionadas aos contratos.
 
 # Cadastro e pesquisa de atividade periódica
 
@@ -18,11 +17,10 @@ Pré-condições
 ------------
 
 1.  Ter contrato cadastrado (ver conhecimento [Cadastro e pesquisa de
-    contrato]();
+    contrato];
 
 2.  Ter grupo de atividade periódica cadastrado (ver conhecimento [Cadastro e
-    pesquisa de grupo de atividade
-    periódica]().
+    pesquisa de grupo de atividade periódica].
 
 Filtros
 ------

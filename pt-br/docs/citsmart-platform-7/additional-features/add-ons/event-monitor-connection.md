@@ -1,7 +1,5 @@
 title: Conexão CITSmart Event Monitor
-Description: Esta funcionalidade tem como objetivo cadastrar todas as
-propriedades referentes à conexão do CITSmart Event Monitor, de acordo com o IP
-e porta onde está instalado o Jboss do CITSmart Event Monitor.
+Description: Esta funcionalidade tem como objetivo cadastrar todas as propriedades referentes à conexão do CITSmart Event Monitor, de acordo com o IP e porta onde está instalado o Jboss do CITSmart Event Monitor.
 
 # Conexão CITSmart Event Monitor
 

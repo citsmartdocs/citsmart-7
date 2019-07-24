@@ -1,7 +1,6 @@
 title: Manual do usuário do aplicativo mobile CITSmart Enterprise ITSM (Android)
 
-Description: Este documento tem o propósito de fornecer orientações necessárias
-para instalar, configurar e utilizar o aplicativo CITSmart Enterprise Mobile.
+Description: Este documento tem o propósito de fornecer orientações necessárias para instalar, configurar e utilizar o aplicativo CITSmart Enterprise Mobile.
 
 # Manual do usuário do aplicativo mobile CITSmart Enterprise ITSM (Android)
 
@@ -511,6 +510,7 @@ ação.
 
 -   Selecione a notificação para ser direcionado à sua lista de solicitação
     pessoal.
+
 
 
 !!! tip "About"

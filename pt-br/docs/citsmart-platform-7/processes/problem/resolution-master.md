@@ -1,5 +1,5 @@
 title: Cadastro de resolução de problema grave
-Description:
+description: Esta funcionalidade permite realizar o registro de resolução de problema grave
 
 # Cadastro de resolução de problema grave
 

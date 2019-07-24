@@ -1,6 +1,5 @@
 title: Armazenamento de imagens na galeria
-Description: Esta funcionalidade tem o objetivo de realizar upload de imagens
-para serem utilizadas posteriormente no sistema.
+Description: Esta funcionalidade tem o objetivo de realizar upload de imagens para serem utilizadas posteriormente no sistema.
 
 # Armazenamento de imagens na galeria
 
@@ -19,7 +18,7 @@ Pré- condições
 
 1.  Para adição de imagens na galeria é necessário ter realizado o cadastro de
     categoria de imagem (ver conhecimento [Cadastro e pesquisa de categoria de
-    imagem]().
+    imagem].
 
 Filtros
 -------
@@ -28,7 +27,7 @@ Filtros
     itens na listagem padrão da funcionalidade, facilitando a localização dos
     itens desejados, conforme ilustrado na figura abaixo:
 
--   Categoria
+    -   Categoria
 
     ![Criar](images/store-1.png)
 
@@ -63,10 +62,10 @@ Adicionando imagens na galeria
 
     **Figura 3 - Adição de imagem**
 
--   Clique no botão *Selecionar arquivo*. Selecione a imagem que deseja
+    -   Clique no botão *Selecionar arquivo*. Selecione a imagem que deseja
     adicionar, informe a descrição da imagem e os detalhes caso seja necessário;
 
--   Clique no botão *Enviar*. Após isso, a imagem será adicionada na galeria de
+    -   Clique no botão *Enviar*. Após isso, a imagem será adicionada na galeria de
     imagens.
 
 

@@ -1,7 +1,5 @@
 title: Cadastro e pesquisa de formula de ordem de serviços (OS)
-Description: Esta funcionalidade tem o objetivo de registrar as fórmulas
-personalizadas para configurar "como" será o cálculo do valor do custo total da
-atividade do serviço do contrato.
+Description: Esta funcionalidade tem o objetivo de registrar as fórmulas personalizadas para configurar "como" será o cálculo do valor do custo total da atividade do serviço do contrato.
 
 # Cadastro e pesquisa de formula de ordem de serviços (OS)
 
@@ -37,11 +35,11 @@ Filtros
 
 1.  Realize a pesquisa de fórmula OS:
 
--   Informe a descrição e/ou a situação da fórmula OS que deseja pesquisar e
+    -   Informe a descrição e/ou a situação da fórmula OS que deseja pesquisar e
     clique no botão *Pesquisar*. Após isso, será exibido o registro conforme os
     dados informados;
 
--   Caso deseje listar todos os registros de fórmula, basta clicar diretamente
+    -   Caso deseje listar todos os registros de fórmula, basta clicar diretamente
     no botão *Pesquisar*.
 
 Listagem de itens
@@ -98,14 +96,14 @@ Preenchimento dos campos cadastrais
 3.  Tudo isso para o usuário ter uma ideia se a estrutura do cálculo é o
     esperado.
 
-   ![Criar](images/wo-5.png)
+    ![Criar](images/wo-5.png)
    
-   **Figura 5 - Exemplo 2 de fórmula**
+    **Figura 5 - Exemplo 2 de fórmula**
 
-   !!! info "IMPORTANTE"
+    !!! info "IMPORTANTE"
 
-        Pode-se utilizar as chaves "{}" para delimitar um texto que deseje incluir
-        na fórmula, onde o mesmo não influenciará o cálculo do valor da atividade
+         Pode-se utilizar as chaves "{}" para delimitar um texto que deseje incluir
+         na fórmula, onde o mesmo não influenciará o cálculo do valor da atividade
 
 6.  Caso adicione um valor numérico próximo a uma variável, ele será concatenado
     com ela.
@@ -116,10 +114,10 @@ Preenchimento dos campos cadastrais
     onde a data, hora e usuário serão gravados automaticamente para uma futura
     auditoria;
 
-   !!! note "NOTA"
+    !!! note "NOTA"
 
-       Antes de gravar a fórmula, o sistema deve validar a sintaxe e só permitir
-       a gravação se estiver correta.
+        Antes de gravar a fórmula, o sistema deve validar a sintaxe e só permitir
+        a gravação se estiver correta.
 
 8.  Será exibida uma mensagem confirmando o sucesso do registro de fórmula.
 

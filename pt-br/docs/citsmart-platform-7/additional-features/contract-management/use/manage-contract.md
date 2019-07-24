@@ -1,7 +1,6 @@
 title: Administração de contratos
 
-Description: A administração dos contratos é utilizada com o objetivo de
-gerenciar os contratos já cadastrados no sistema.
+Description: A administração dos contratos é utilizada com o objetivo de gerenciar os contratos já cadastrados no sistema.
 
 # Administração de contratos
 
@@ -21,25 +20,23 @@ Pré-condições
 ------------
 
 1.  Cadastrar grupo (ver conhecimento [Cadastro e pesquisa de
-    grupo]();
+    grupo];
 
 2.  Cadastrar contrato (ver conhecimento [Cadastro e pesquisa de
-    contrato]();
+    contrato];
 
 3.  Cadastrar serviços (ver conhecimento [Cadastro de portfólio de
-    serviços](); [Cadastro
+    serviços]; [Cadastro
     de
-    serviço](); [Cadastro
+    serviço]; [Cadastro
     da atividade de
-    serviço]();
+    serviço];
 
 4.  Cadastrar acordo de nível de serviço (geral) (ver conhecimento [Cadastro e
-    pesquisa de acordo de nível de serviço
-    geral]();
+    pesquisa de acordo de nível de serviço geral];
 
 5.  Cadastrar modelo de e-mail (ver conhecimento [Cadastro e pesquisa de
-    configuração de modelo de
-    e-mail]().
+    configuração de modelo de e-mail].
 
 Filtros
 ------
@@ -179,13 +176,13 @@ Vinculando um serviço ao contrato
 
     -   **Fluxo Principal**, informe se o fluxo é o principal.
 
-   !!! info "IMPORTANTE"
+    !!! info "IMPORTANTE"
 
-       Caso seja necessário fazer uso de mais de um fluxo, é importante informar
-       qual é o principal.
+         Caso seja necessário fazer uso de mais de um fluxo, é importante informar
+         qual é o principal.
 
 
-   c)  Clique em *Gravar* para efetuar a operação.
+    c)  Clique em *Gravar* para efetuar a operação.
 
 5.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
     onde a data, hora e usuário serão gravados automaticamente para uma futura
@@ -282,12 +279,12 @@ Vinculando vários serviços ao contrato
 
     -   **Fluxo Principal**: informe se o fluxo é o principal;
 
-   !!! info "IMPORTANTE"
+    !!! info "IMPORTANTE"
 
-       Caso seja necessário fazer uso de mais de um fluxo, é importante informar
-       qual será o principal.
+         Caso seja necessário fazer uso de mais de um fluxo, é importante informar
+         qual será o principal.
 
-  c)  Clique em *Gravar* para efetuar a operação.
+    c)  Clique em *Gravar* para efetuar a operação.
 
 5.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
     onde a data, hora e usuário serão gravados automaticamente para uma futura
@@ -599,10 +596,10 @@ Registrando atividades do serviço do contrato
     -   **Contabilizar**: informe se a atividade é para contabilizar as solicitações
     do serviço do contrato. Se "sim", informe o serviço do contrato;
 
-   !!! info "IMPORTANTE"
+    !!! info "IMPORTANTE"
 
-       A contabilização será feita das solicitações "fechadas", no período da OS
-       (Ordem de Serviço), do serviço do tipo requisição/incidente informado.
+         A contabilização será feita das solicitações "fechadas", no período da OS
+         (Ordem de Serviço), do serviço do tipo requisição/incidente informado.
 
    - **Tipo custo**: selecione o tipo de custo da atividade.
 
@@ -752,10 +749,10 @@ Criando ordem de serviço (os)
     referentes ao mesmo irão aparecer, incluindo suas atividades e seus
     respectivos valores;
 
-   !!! info "IMPORTANTE"
+    !!! info "IMPORTANTE"
 
-       Será realizado o arredondamento do custo total da OS, após a soma dos
-       custos totais de cada atividade do serviço.
+        Será realizado o arredondamento do custo total da OS, após a soma dos
+        custos totais de cada atividade do serviço.
 
    -   **Número**: informe o número da ordem de serviço;
 
@@ -858,10 +855,10 @@ Gerando R.A. (relatório de atividade)
     onde a data, hora e usuário serão gravados automaticamente para uma futura
     auditoria.
 
-    !!! note "NOTA"
+     !!! note "NOTA"
 
-        O R.A. (Relatório de Atividade) serve para comprovar que o serviço foi
-        entregue.
+          O R.A. (Relatório de Atividade) serve para comprovar que o serviço foi
+          entregue.
 
 Executando ordem de serviço
 --------------------------

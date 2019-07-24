@@ -1,8 +1,6 @@
 title: Cadastro e pesquisa de assinatura
 
-Description: Esta funcionalidade tem o objetivo de registrar campos de
-assinaturas para serem associados a um grupo de assinatura, a fim da
-personalização de assinaturas presentes no relatório de Ordens de Serviço.
+Description: Esta funcionalidade tem o objetivo de registrar campos de assinaturas para serem associados a um grupo de assinatura, a fim da personalização de assinaturas presentes no relatório de Ordens de Serviço.
 
 # Cadastro e pesquisa de assinatura
 
@@ -22,8 +20,7 @@ Pré-condições
 -------------
 
 1.  Para cadastrar a assinatura é necessário ter o colaborador cadastrado (ver
-    conhecimento [Cadastro e pesquisa de
-    colaborador]().
+    conhecimento [Cadastro e pesquisa de colaborador].
 
 Filtros
 -------
@@ -32,11 +29,11 @@ Filtros
     itens na listagem padrão da funcionalidade, facilitando a localização dos
     itens desejados:
 
-    -   Responsável;
+    -   Responsável
 
-    -   Fase;
+    -   Fase
 
-    -   Papel.
+    -   Papel
 
     ![Criar](images/signature-1.png)
     
@@ -44,11 +41,11 @@ Filtros
 
 1.  Realize a pesquisa de assinaturas:
 
--   Informe o nome do responsável da assinatura, fase do processo e/ou papel
+    -   Informe o nome do responsável da assinatura, fase do processo e/ou papel
     desempenhado pelo responsável, e clique no botão *Pesquisar*. Após isso,
     será exibido o registro conforme os dados informados;
 
--   Caso deseje listar todos os registros de assinaturas, basta clicar
+    -   Caso deseje listar todos os registros de assinaturas, basta clicar
     diretamente no botão *Pesquisar*.
 
 Listagem de itens
