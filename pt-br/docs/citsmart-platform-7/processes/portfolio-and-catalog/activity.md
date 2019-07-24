@@ -1,6 +1,5 @@
-title: Cadastro da atividade de serviço
-Description: Esta funcionalidade tem por objetivo registrar as atividades de um
-serviço (requisição e/ou incidente).
+title:Cadastro da atividade de serviço
+Description:Esta funcionalidade tem por objetivo registrar as atividades de um serviço (requisição e/ou incidente).
 
 # Cadastro da atividade de serviço
 
@@ -52,7 +51,7 @@ Registrando atividades de requisição do serviço
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Nome do Serviço.
+    -   Nome do Serviço.
 
 ### Listagem de itens
 
@@ -164,7 +163,7 @@ Registrando atividades de requisição do serviço
 
         Para que ocorra a exibição da data limite é necessário o cadastro de uma SLA
         para a atividade (ver conhecimento **[Configuração dos atributos do contrato do
-        serviço]()**,na seção Vinculando atividades de requisição ao contrato). Os parâmetros "Exibir
+        serviço]()**, na seção Vinculando atividades de requisição ao contrato). Os parâmetros "Exibir
         prioridade" e "Exibir data limite" possuem seu valor default igual "Sim".
 
     -   **Nome**: informe o nome da atividade de requisição para exibição no portal
@@ -220,7 +219,7 @@ Registrando atividades de requisição do serviço
     logo em seguida clique no botão *Excluir Dados;*
 
 4.  Para desvincular a atividade de requisição do serviço, basta clicar no
-    botão *Desvincular*** **da mesma;
+    botão *Desvincular* da mesma;
 
 5.  Para vincular novamente uma atividade de requisição ao serviço, clique no
     botão *Vincular Serviço de Requisição*. Feito isso, será exibida a tela para
@@ -377,13 +376,13 @@ Registrando atividades de incidente do serviço
     Portal de Serviço será fornecida a informação de Data e Hora Limite do
     atendimento do chamado;
 
-    **!!! note "NOTA"**
+    !!! note "NOTA"
 
-          Para que ocorra a exibição da data limite é necessário o cadastro de uma
-          SLA para a atividade (ver conhecimento [Configuração dos atributos do
-          contrato do serviço](), na seção Vinculando atividades de requisição ao contrato). Os parâmetros
-          "Exibir prioridade" e "Exibir data limite" possuem seu valor default igual
-          "Sim".
+        Para que ocorra a exibição da data limite é necessário o cadastro de uma
+        SLA para a atividade (ver conhecimento [Configuração dos atributos do
+        contrato do serviço](), na seção Vinculando atividades de requisição ao contrato). Os parâmetros
+        "Exibir prioridade" e "Exibir data limite" possuem seu valor default igual
+        "Sim".
 
     -   **Nome**: informe o nome da atividade de incidente para exibição no portal
     e/ou chat;
@@ -437,7 +436,7 @@ Registrando atividades de incidente do serviço
     logo em seguida clique no botão *Excluir;*
 
 4.  Para desvincular a atividade de incidente, basta clicar no
-    botão *Desvincular*** **da mesma;
+    botão *Desvincular* da mesma;
 
 5.  Para vincular novamente uma atividade de incidente ao serviço, clique no
     botão *Vincular Incidente*. Feito isso, será exibida a tela para pesquisa

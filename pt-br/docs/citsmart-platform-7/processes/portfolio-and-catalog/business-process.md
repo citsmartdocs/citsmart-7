@@ -1,6 +1,5 @@
-title: Cadastro e pesquisa de processo de negócio
-Description: O Processo de Negócio irá contribuir para a entrega de um produto
-ou serviço aos clientes.
+title:Cadastro e pesquisa de processo de negócio
+Description:O Processo de Negócio irá contribuir para a entrega de um produto ou serviço aos clientes.
 
 # Cadastro e pesquisa de processo de negócio
 
