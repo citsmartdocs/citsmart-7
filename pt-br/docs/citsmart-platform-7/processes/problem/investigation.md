@@ -1,6 +1,5 @@
-title: Investigação e diagnóstico de problema
-Description: Esta funcionalidade tem por objetivo investigar e diagnosticar
-problema.
+title:Investigação e diagnóstico de problema
+Description:Esta funcionalidade tem por objetivo investigar e diagnosticar problema.
 
 # Investigação e diagnóstico de problema
 
@@ -26,7 +25,7 @@ Filtros
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Nº do Problema.
+    -   Nº do Problema.
 
     ![Criar](images/investigation-1.png)
 
@@ -37,9 +36,9 @@ Listagem de itens
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** Número, Título, Contrato, Criada em, Prioridade, Prazo
-    limite, Solicitante, Status, Tarefa atual, Grupo executor** e **Responsável
-    atual**.
+    funcionalidade: Número, Título, Contrato, Criada em, Prioridade, Prazo
+    limite, Solicitante, Status, Tarefa atual, Grupo executor e Responsável
+    atual.
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Visualizar*, *Relatórios* e *Ação*.
@@ -61,10 +60,10 @@ principal. Serão utilizados todos os recursos e técnicas de resolução de
 problemas disponíveis para identificar a causa raiz, a falha apontada e uma
 solução.
 
-!! info "IMPORTANTE"
+    !!! info "IMPORTANTE"
 
-      O membro do grupo designado para realizar a investigação e diagnóstico
-      deve capturar o problema e iniciar a atividade.
+         O membro do grupo designado para realizar a investigação e diagnóstico
+         deve capturar o problema e iniciar a atividade.
 
 1.  Na guia **Gerenciamento**, localize o registro de problema que deseja
     registrar a investigação e diagnóstico, clique no botão *Ação* e selecione a
