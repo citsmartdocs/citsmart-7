@@ -84,7 +84,7 @@ Criação de fluxo
     -  **Gateways:** apresenta os elementos de condições para ser utilizado no
       desenho do fluxo.
 
-    -  Para inserir os elementos, basta clicar no elemento desejado e arrastá-lo
+        -  Para inserir os elementos, basta clicar no elemento desejado e arrastá-lo
     para a área de desenho. Ao arrastar e soltar o elemento na área de desenho,
     será exibida uma tela para definição das propriedades, conforme exemplo
     ilustrado na figura abaixo.
@@ -101,7 +101,7 @@ Criação de fluxo
     
     **Figura 6 - Elemento do fluxo**
 
-    -  Caso queira excluir um elemento que foi inserido no desenho do fluxo, clique
+      -  Caso queira excluir um elemento que foi inserido no desenho do fluxo, clique
     no mesmo e pressione a tela Ctrl + Delete.
 
 4.  Após o fluxo definido, clique no botão *Gravar* para efetuar a operação.
