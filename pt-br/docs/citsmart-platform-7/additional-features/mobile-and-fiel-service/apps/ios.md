@@ -1,8 +1,5 @@
 title: Manual do usuário do aplicativo mobile CITSmart ITSM Enterprise (iOS)
-
-Description: Este documento tem o propósito de fornecer orientações necessárias
-para instalar, configurar e utilizar o aplicativo mobile **CITSmart ITSM
-Enterprise** na plataforma iOS.
+Description: Este documento tem o propósito de fornecer orientações necessárias para instalar, configurar e utilizar o aplicativo mobile **CITSmart ITSM Enterprise** na plataforma iOS.
 
 # Manual do usuário do aplicativo mobile CITSmart ITSM Enterprise (iOS)
 
