@@ -1,6 +1,5 @@
 title: Importação de dados de contratos
-Description: Esta funcionalidade tem o objetivo de realizar a importação dos
-dados de contratos.
+Description: Esta funcionalidade tem o objetivo de realizar a importação dos dados de contratos.
 
 # Importação de dados de contratos
 
@@ -26,8 +25,8 @@ Realizando a importação de dados
 
     !!! note “NOTA”
 
-        Se o arquivo não fizer referência a um contrato, não se deve selecionar o
-        contrato, basta adicionar o arquivo para importação dos dados.
+         Se o arquivo não fizer referência a um contrato, não se deve selecionar o
+         contrato, basta adicionar o arquivo para importação dos dados.
 
 1.  Adicione o arquivo para importação dos dados;
 
@@ -44,8 +43,8 @@ Realizando a importação de dados
 
 !!! note “NOTA”
 
-     Ao fazer a importação dos dados, o sistema irá manter os dados existentes
-     e adicionar somente os dados não existentes.
+      Ao fazer a importação dos dados, o sistema irá manter os dados existentes
+      e adicionar somente os dados não existentes.
 
 
 !!! tip "About"
