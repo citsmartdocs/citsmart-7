@@ -1,6 +1,5 @@
 title: Cadastro e pesquisa de moeda
-Description: Esta funcionalidade permite registrar as moedas que serão
-utilizadas em outras rotinas do sistema.
+Description: Esta funcionalidade permite registrar as moedas que serão utilizadas em outras rotinas do sistema.
 
 # Cadastro e pesquisa de moeda
 
@@ -33,10 +32,10 @@ Filtros
 
 1.  Realize a pesquisa de moeda:
 
--   Informe o nome da moeda que deseja pesquisar e clique no botão *Pesquisar*.
+    -   Informe o nome da moeda que deseja pesquisar e clique no botão *Pesquisar*.
     Após isso, será exibido o registro da moeda conforme o nome informado;
 
--   Caso deseje listar todos os registros de moeda, basta clicar diretamente no
+    -   Caso deseje listar todos os registros de moeda, basta clicar diretamente no
     botão *Pesquisar*.
 
 Listagem de itens
