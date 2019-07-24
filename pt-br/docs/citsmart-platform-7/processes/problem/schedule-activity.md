@@ -1,5 +1,5 @@
 title: Agendamento de atividade de problema
-Description:Esta funcionalidade permite criar e visualizar agendamento de atividades referente ao registro de problema.
+Description: Esta funcionalidade permite criar e visualizar agendamento de atividades referente ao registro de problema.
 
 # Agendamento de atividade de problema
 
