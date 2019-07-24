@@ -396,8 +396,8 @@ localização da mesma.
 
     !!! note "NOTA"
 
-        Para que seja possível visualizar a rota, é necessário que a unidade tenha
-        as coordenadas configuradas a partir de uma longitude e latitude.
+         Para que seja possível visualizar a rota, é necessário que a unidade tenha
+         as coordenadas configuradas a partir de uma longitude e latitude.
 
 1.  Após verificar a rota e chegar no local para atendimento da solicitação de
     serviço, realize o check-in da solicitação;
