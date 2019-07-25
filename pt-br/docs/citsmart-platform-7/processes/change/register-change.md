@@ -39,8 +39,7 @@ relacionado ao contrato (ver conhecimento Como relacionar grupo ao contrato?);
 
 9. Ter a mudança cadastrada
 
-10. Ter o questionário cadastrado (ver conhecimento [Cadastro e pesquisa de questionários](/plataform-a
-dministration/questionnaires/questionnaires-management/register-questionnaire.html))
+10. Ter o questionário cadastrado (ver conhecimento [Cadastro e pesquisa de questionários](/plataform-administration/questionnaires/questionnaires-management/register-questionnaire.html))
 
 Filtros
 ----------
