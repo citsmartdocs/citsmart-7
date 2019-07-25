@@ -122,12 +122,12 @@ do serviço. Registrar os detalhes completos da solução e ações no Problema.
     -  No quadro de **Fechamento**, registre as informações sobre a solução que foi
     realizada:
 
-           - **Causa**: selecione a causa do problema;
+       * **Causa**: selecione a causa do problema;
 
-           - **Categoria de Solução**: selecione a categoria de solução do problema, ou
+       * **Categoria de Solução**: selecione a categoria de solução do problema, ou
     seja, o que foi usado para resolver o problema;
 
-           - **Fechamento**: informe os detalhes da solução encontrada para o problema.
+       * **Fechamento**: informe os detalhes da solução encontrada para o problema.
 
     -  Após registro das informações sobre a resolução do problema, clique no
     botão *Gravar e avançar o fluxo* para efetuar a operação, onde o problema e
