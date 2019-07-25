@@ -14,10 +14,10 @@ Pré-condições
 ---------------
 
 1. O grupo ao qual o usuário está cadastrado deve ter o valor igual a "SIM" do Comitê Consultivo 
-de Mudanças (ver conhecimento Cadastro e pesquisa de grupo);
+de Mudanças (ver conhecimento [Cadastro e pesquisa de grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html));
 
 2. Para tipos de fluxo não emergencial nem padrão (Normal), as "Permissões nos fluxos de trabalho" do
-grupo ao qual o usuário está cadastrado devem estar todas ativadas (ver conhecimento Cadastro e pesquisa de grupo).
+grupo ao qual o usuário está cadastrado devem estar todas ativadas (ver conhecimento [Cadastro e pesquisa de grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html)).
 
 Filtros
 --------
