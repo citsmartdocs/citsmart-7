@@ -39,7 +39,7 @@ localização dos itens desejados:
      grupo de disponibilidade conforme o nome informado;
      
      - Caso deseje listar todos os registros de grupo de disponibilidade, 
-     basta clicar diretamente no botão Pesquisar.
+     basta clicar diretamente no botão "Pesquisar".
      
 Listagem de itens
 -------------------
