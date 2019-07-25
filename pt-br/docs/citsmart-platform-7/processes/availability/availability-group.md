@@ -14,7 +14,7 @@ Como acessar
 Pré-condições
 --------------
 
-1. Cadastrar calendário (ver conhecimento Cadastro e pesquisa de calendário).
+1. Cadastrar calendário (ver conhecimento [Cadastro e pesquisa de calendário](/pt-br/citsmart-platform-7/plataform-administration/time/create-calendar)).
 
 Filtros
 ----------
