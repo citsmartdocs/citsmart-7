@@ -1,6 +1,5 @@
-title: Relatório de tópicos ou asusntos encontrados, não encontrados e resumo de
-buscas
-Description:Esta funcionalidade tem o objetivo de realizar Relatórios de Tópicos ou Assuntos disponíveis ou não na base de conhecimento que são pesquisados no Portal do conhecimento.
+title: Relatório de tópicos ou asusntos encontrados, não encontrados e resumo de buscas.
+Description: Esta funcionalidade tem o objetivo de realizar Relatórios de Tópicos ou Assuntos disponíveis ou não na base de conhecimento que são pesquisados no Portal do conhecimento.
 
 # Relatório de tópicos ou asusntos encontrados, não encontrados e resumo de buscas
 
@@ -39,11 +38,11 @@ O seguinte filtro possibilita ao usuário restringir a participação de itens n
 listagem padrão da funcionalidade, facilitando a localização dos itens
 desejados:
 
--   Nome.
+   -   Nome.
 
-    ![Criar](images/report-1.png)
+   ![Criar](images/report-1.png)
 
-    **Figura 1 - Tela de pesquisa de relatório**
+   **Figura 1 - Tela de pesquisa de relatório**
 
 Listagem de itens
 ----------------

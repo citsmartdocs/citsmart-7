@@ -28,16 +28,16 @@ Pré-condições
 -------------
 
 1.  Ter um contrato cadastrado e ativo (ver conhecimento [Cadastro e pesquisa de
-    contrato] ;
+    contrato](1)) ;
 
 2.  Ter uma solicitação de serviço cadastrada ([Gerenciamento de ticket
-    (serviços)] e estar vinculada ao contrato;
+    (serviços)](2)) e estar vinculada ao contrato;
 
 3.  Configurar conexão do CITSmart Event Monitor (ver conhecimento [Conexão
-    CITSmart Event Monitor];
+    CITSmart Event Monitor](3));
 
 4.  Configurar e instalar a ferramenta de monitoração (ver conhecimento [Manual
-    de instalação do componente Inventory].
+    de instalação do componente Inventory](4)).
 
 Filtros
 -------
@@ -152,9 +152,9 @@ Veja também
 -   [Análise de tendências de solicitações de
     serviço].
 
-[1]:#
-[2]:#
-[3]:#
+[1]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[2]:/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html
+[3]:/pt-br/citsmart-platform-7/additional-features/add-ons/event-monitor-connection.html
 [4]:#
 
 !!! tip "About"

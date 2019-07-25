@@ -1,6 +1,5 @@
 title: Captura de requisição de mudança
 Description: Esta funcionalidade refere-se ao ato de atribuir a determinada tarefa para o próprio usuário, tornando-se o 
-responsável atual pela requisição de mudança.
 # Captura de requisição de mudança
 
 Esta funcionalidade refere-se ao ato de atribuir a determinada tarefa para o próprio usuário, tornando-se o responsável 
@@ -53,7 +52,7 @@ Preenchimento dos campos cadastrais
 Capturando tarefa
 ------------------
 
-1. Na guia **Gerenciamento**, localize a requisição de mudança que deseja capturar, clique no botão Ação e selecione a opção 
+1. Na guia **Gerenciamento**, localize a requisição de mudança que deseja capturar, clique no botão "Ação" e selecione a opção 
 "Capturar tarefa", conforme indicado na imagem abaixo:
 
     ![Capturar](images/cap-mud.img3.png)

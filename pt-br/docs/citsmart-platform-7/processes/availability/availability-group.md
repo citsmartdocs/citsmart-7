@@ -14,7 +14,7 @@ Como acessar
 Pré-condições
 --------------
 
-1. Cadastrar calendário (ver conhecimento Cadastro e pesquisa de calendário).
+1. Cadastrar calendário (ver conhecimento [Cadastro e pesquisa de calendário](/pt-br/citsmart-platform-7/plataform-administration/time/create-calendar)).
 
 Filtros
 ----------
@@ -39,7 +39,7 @@ localização dos itens desejados:
      grupo de disponibilidade conforme o nome informado;
      
      - Caso deseje listar todos os registros de grupo de disponibilidade, 
-     basta clicar diretamente no botão Pesquisar.
+     basta clicar diretamente no botão "Pesquisar".
      
 Listagem de itens
 -------------------
@@ -88,7 +88,7 @@ ao grupo, conforme exemplo ilustrado na figura abaixo:
 
     ![Tela de pesquisa](images/grupo-disponibilidade.img04.png)
     
-    **Figura 4 - Pesquisa item de configuração**
+    **Figura 4 - Pesquisa item de configuração**  
     
 4. Para verificar as informações do IC, basta clicar no botão "Visualizar" do mesmo;
 

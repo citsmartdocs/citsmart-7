@@ -36,9 +36,9 @@ Filtros
 
     ![Criar](images/category-1.png)
 
-**Figura 1 - Tela de pesquisa de categoria**
+    **Figura 1 - Tela de pesquisa de categoria**
 
-1.  Realize a pesquisa de categoria de problema;
+2.  Realize a pesquisa de categoria de problema;
 
     -   Informe o nome da categoria de problema que deseja pesquisar e clique no
         botão *Pesquisar*. Após isso, será exibido o registro da categoria de
@@ -58,11 +58,11 @@ Listagem de itens
 
     **Figura 2 - Tela de listagem de categoria**
 
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
+2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
     para a tela de cadastro exibindo o conteúdo referente ao registro
     selecionado;
 
-2.  Para alterar os dados do registro de categoria de problema, basta modificar
+3.  Para alterar os dados do registro de categoria de problema, basta modificar
     as informações dos campos desejados e clicar no botão *Gravar* para que seja
     gravada a alteração realizada no registro, onde a data, hora e usuário serão
     gravados automaticamente para uma futura auditoria.
@@ -77,7 +77,7 @@ Preenchimento dos campos cadastrais
 
     **Figura 3 - Tela de cadastro de categoria de problema**
 
-1.  Preencha os campos conforme orientações abaixo:
+2.  Preencha os campos conforme orientações abaixo:
 
     -   **Nome**: informe o nome da categoria de problema;
 
@@ -94,7 +94,7 @@ Preenchimento dos campos cadastrais
 
     -   **Urgência**: selecione a urgência da categoria de problema;
 
-2.  Clique no botão *Gravar* para efetuar o registro, onde a data, hora e
+3.  Clique no botão *Gravar* para efetuar o registro, onde a data, hora e
     usuário serão gravados automaticamente para uma futura auditoria.
 
 

@@ -71,7 +71,7 @@ ilustrada na figura abaixo:
     trabalho, após gravar o registro. O montante das horas a serem trabalhadas será calculado em função dos horários informados;
     - **Jornada de Trabalho**: defina o formato de hora. O formato de horas a serem definidos são:
         - **24 Hs**: representação das horas de forma contínua, ou seja, 24 horas por dia;
-        - **AM/PM: representação das horas num ciclo de 0 a 12 horas, diferenciando- as por AM e PM.
+        - **AM/PM**: representação das horas num ciclo de 0 a 12 horas, diferenciando- as por AM e PM.
     - **Hora Início**: informe a hora de início da jornada de trabalho;
     - **Hora Final**: informe a hora final da jornada de trabalho.
     

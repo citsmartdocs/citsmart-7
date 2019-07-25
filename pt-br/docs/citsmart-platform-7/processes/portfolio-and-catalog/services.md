@@ -286,10 +286,10 @@ Vinculando com pesquisas
 Ao cadastrar um serviço, é possível vinculá-lo a pesquisas previamente
 cadastradas.
 
-   !!! Abstract "SAIBA MAIS"
+!!! Abstract "SAIBA MAIS"
 
-        Para maiores informações sobre como cadastrar uma pesquisa, ver
-        conhecimento [Cadastro e pesquisa de pesquisa de satisfação].
+     Para maiores informações sobre como cadastrar uma pesquisa, ver
+     conhecimento [Cadastro e pesquisa de pesquisa de satisfação].
 
 1.  Preencha os campos cadastrais referentes ao novo serviço. Na aba
     Apresentação, selecione "*Sim*" na opção "disponível no portal", conforme a

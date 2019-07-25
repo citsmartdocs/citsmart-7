@@ -7,7 +7,7 @@ Esta funcionalidade permite realizar o planejamento de execução da requisiçã
 Pré-condições
 ---------------
 
-1. Ter cadastrado uma requisição de mudança (ver conhecimento Cadastro de requisição de mudança).
+1. Ter cadastrado uma requisição de mudança (ver conhecimento [Cadastro de requisição de mudança](/pt-br/citsmart-platform-7/processes/change/register-change.html)).
 
 Planejando requisições de mudança
 -----------------------------------
@@ -165,7 +165,7 @@ Planejando a análise de impacto e risco por alvos
 Pré-condições
 --------------
 
-1. Depende do tipo cadastrado em tipo de mudança (ver conhecimento Cadastro e pesquisa de Tipo de Mudança);
+1. Depende do tipo cadastrado em tipo de mudança (ver conhecimento [Cadastro e pesquisa de Tipo de Mudança](/pt-br/citsmart-platform-7/processes/change/change-type.html));
 
 2. Informe a "análise de impacto e risco" envolvido na mudança, que pode ser "por alvo" ou "simplificado".
 
@@ -294,7 +294,8 @@ Análise de Impacto e Risco Por Alvos
     !!! note "NOTA"
     
         É possível, após registro dos dados do plano de tratativa, verificar o gráfico de avaliação de riscos.
-        (ver conhecimento Execução de Requisição de Mudança), na seção Acompanhando o Desenvolvimento dos Riscos.
+        (ver conhecimento Execução de Requisição de Mudança), 
+        na seção Acompanhando o Desenvolvimento dos Riscos.
         
     - Após a definição de ameaças e planos de tratativa, a avaliação de risco estará completa, diante disso, 
     clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para
@@ -327,3 +328,5 @@ Análise de Impacto e Risco Simplificado
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
     <b>Updated:</b>07/12/2019 – Larissa Lourenço
+    
+ 

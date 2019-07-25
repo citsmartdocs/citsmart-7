@@ -14,10 +14,10 @@ Pré-condições
 ---------------
 
 1. O grupo ao qual o usuário está cadastrado deve ter o valor igual a "SIM" do Comitê Consultivo 
-de Mudanças (ver conhecimento Cadastro e pesquisa de grupo);
+de Mudanças (ver conhecimento [Cadastro e pesquisa de grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html));
 
 2. Para tipos de fluxo não emergencial nem padrão (Normal), as "Permissões nos fluxos de trabalho" do
-grupo ao qual o usuário está cadastrado devem estar todas ativadas (ver conhecimento Cadastro e pesquisa de grupo).
+grupo ao qual o usuário está cadastrado devem estar todas ativadas (ver conhecimento [Cadastro e pesquisa de grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html)).
 
 Filtros
 --------
@@ -51,7 +51,7 @@ Preenchimento dos campos cadastrais
 
 !!! info "REGRA"
 
-    somente os membros do "Comitê Consultivo de Mudança (CCM)" podem realizar a aprovação da Requisição de Mudança. Para
+    Somente os membros do "Comitê Consultivo de Mudança (CCM)" podem realizar a aprovação da Requisição de Mudança. Para
     aprovar uma Requisição de Mudança deve se atentar na configuração do parâmetro "Votação da RDM utilizando a regra 
     da maioria absoluta (50% + 1) (Valores: "S" ou "N" Default: "S")", onde o valor "S" define a aprovação da Requisição
     de Mudança quando há mais de 50% de aprovação do CCM e o valor "N" define a aprovação da Requisição de Mudança quando 

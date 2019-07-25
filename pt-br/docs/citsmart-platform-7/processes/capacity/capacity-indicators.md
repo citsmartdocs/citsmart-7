@@ -67,7 +67,7 @@ Preenchimento dos campos cadastrais
     - **Nome**: informe o nome do indicador de capacidade/performance;
     - **Valor**: informe o valor do indicador de capacidade/performance.
 
-3. Após os dados informados, clique no botão Gravar para efetuar o registro, onde a data,
+3. Após os dados informados, clique no botão "Gravar" para efetuar o registro, onde a data,
 hora e usuário serão gravados automaticamente para uma futura auditoria;
 
 !!! tip "About"

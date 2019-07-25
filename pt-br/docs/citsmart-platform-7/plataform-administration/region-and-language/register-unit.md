@@ -81,6 +81,7 @@ Preenchimento dos campos cadastrais
     - **UFs**: informe a unidade da federação, ou seja, o estado em que a unidade que está sendo cadastrada se encontra;
     - **Cidades**: informe a cidade da unidade;
     - **Logradouro** informe o logradouro, ex.: nome da rua, avenida;
+    - **CEP**: informe o CEP;
     
     !!! note "NOTA"
     

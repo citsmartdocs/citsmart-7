@@ -16,24 +16,24 @@ Pré-condições
     propriedade **START_MONITORA_INCIDENTES** informando o
     parâmetro **TRUE**, para esse ajuste neste arquivo somente o administrador
     do sistema operacional do servidor da aplicação (ver conhecimento [Manual de
-    instalação on-premise (ITSM)];
+    instalação on-premise (ITSM)](1));
 
 2.  Informe o conteúdo abaixo no parâmetro (ver conhecimento [Regras de
-    parametrização -ticket];
+    parametrização -ticket](2));
 
     -   Parâmetro 190: com o valor S
 
 1.  Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de
-    contrato];
+    contrato](3));
 
 2.  Ter o colaborador cadastrado (ver conhecimento [Cadastro e pesquisa de
-    colaborador];
+    colaborador](4));
 
 3.  Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de
-    grupo];
+    grupo](5));
 
 4.  Ter o portfólio de serviços definido (ver conhecimento [Cadastro de
-    portfólio de serviços].
+    portfólio de serviços](6)).
 
 Filtros
 -------
@@ -127,11 +127,12 @@ Preenchimento dos campos cadastrais
 1.  Clique em *Adicionar* e a nova regra de escalonamento será exibida em uma
     nova listagem para checagem, se regra estiver correta, clicar em *Gravar*.
 
-[1]:#
-[2]:#
-[3]:#
-[4]:#
-[5]:#
+[1]:/pt-br/citsmart-platform-7/get-started/installation.html
+[2]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrizaion-ticket.html
+[3]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[4]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html
+[5]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[6]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
 
 
 

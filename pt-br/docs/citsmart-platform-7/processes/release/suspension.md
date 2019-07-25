@@ -29,9 +29,9 @@ Filtros
     itens na listagem padrão da funcionalidade, facilitando a localização dos
     itens desejados:
 
--   Nº da Requisição;
+    -   Nº da Requisição;
 
--   Atribuída/Compartilhada.
+    -   Atribuída/Compartilhada.
 
     ![Criar](images/suspension-1.png)
 
@@ -65,7 +65,7 @@ Preenchimento de campos cadastrais
 
     **Figura 3 - Suspendendo requisição de liberação**
 
-1.  Será exibida a tela de registro de justificativa de suspensão da requisição
+2.  Será exibida a tela de registro de justificativa de suspensão da requisição
     de liberação:
 
     ![Criar](images/suspension-4.png)
@@ -81,7 +81,7 @@ Preenchimento de campos cadastrais
     -   Após os dados informados, clique no botão *Gravar*, onde a data, hora e
     usuário serão armazenados automaticamente para uma futura auditoria.
 
-1.  Após a suspensão da requisição de liberação, a situação da mesma será
+3.  Após a suspensão da requisição de liberação, a situação da mesma será
     atualizada para **Suspensa**, conforme indicado na figura a seguir:
 
     ![Criar](images/suspension-5.png)

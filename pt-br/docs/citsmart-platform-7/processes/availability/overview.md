@@ -36,7 +36,7 @@ principal(is) deste módulo, desta forma se pode obter um conhecimento mais deta
 Veja também
 -------------
 
-- Gerenciamento de disponibilidade
+- [Gerenciamento de disponibilidade](/pt-br/citsmart-platform-7/processes/availability/availability-management.html)
 
 !!! tip "About"
 

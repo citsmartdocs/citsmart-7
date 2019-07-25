@@ -49,7 +49,7 @@ Listagem de itens
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** Código**,** Nome **e** Descrição**, conforme a figura
+    funcionalidade: Código, Nome e Descrição, conforme a figura
     abaixo:
 
     ![Criar](images/periodic-2.png)
@@ -61,7 +61,7 @@ Listagem de itens
     selecionado.
 
 3.  Para alterar os dados do registro do grupo de atividade periódica, basta
-    modificar as informações desejadas e clicar no botão *Gravar*para que seja
+    modificar as informações desejadas e clicar no botão *Gravar* para que seja
     gravada a alteração realizada no registro, onde a data, hora e usuário serão
     gravados automaticamente para uma futura auditoria;
 

@@ -1,7 +1,5 @@
 title: Cadastro e pesquisa de prioridade
-Description: Esta funcionalidade permite definir a prioridade a qual será usada
-para identificar a importância do serviço e identificar os tempos requeridos
-para que ações adequadas sejam tomadas.
+Description: Esta funcionalidade permite definir a prioridade a qual será usada para identificar a importância do serviço e identificar os tempos requeridos para que ações adequadas sejam tomadas.
 
 # Cadastro e pesquisa de prioridade
 
@@ -32,20 +30,20 @@ Filtros
 
     -   Nome da Prioridade.
 
-1.  Na tela de **Prioridade**, clique na aba Pesquisa de Prioridade, conforme a
+2.  Na tela de **Prioridade**, clique na aba Pesquisa de Prioridade, conforme a
     figura abaixo:
 
     ![Criar](images/register-priority-1.png)
 
     **Figura 1 - Tela de pesquisa de prioridade**
 
-1.  Realize a pesquisa de prioridade;
+3.  Realize a pesquisa de prioridade;
 
-2.  Informe o nome da prioridade que deseja pesquisar e clique no
+4.  Informe o nome da prioridade que deseja pesquisar e clique no
     botão *Pesquisar*. Após isso, será exibido o registro conforme o nome
     informado;
 
-3.  Caso deseje listar todos os registros de prioridade, basta clicar
+5.  Caso deseje listar todos os registros de prioridade, basta clicar
     diretamente no botão *Pesquisar*;
 
 Listagem de itens
@@ -59,7 +57,7 @@ Listagem de itens
 
     **Figura 2 - Tela de itens**
 
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
+2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
     para a tela de cadastro exibindo o conteúdo referente ao registro
     selecionado.
 
@@ -73,7 +71,7 @@ Preenchimento dos campos cadastrais
 
     **Figura 3 - Tela de cadastro de prioridade**
 
-1.  Preencha os campos conforme orientações abaixo:
+2.  Preencha os campos conforme orientações abaixo:
 
     -  **Nome de Prioridade**: informe a identificação da prioridade, por
         exemplo: 1;
@@ -81,7 +79,7 @@ Preenchimento dos campos cadastrais
     -  **Grupo da Prioridade**: selecione o grupo da prioridade a qual a
         prioridade pertencerá;
 
-2.  Clique no botão *Gravar* para efetuar o registro, onde a data, hora e
+3.  Clique no botão *Gravar* para efetuar o registro, onde a data, hora e
     usuário serão gravados automaticamente para uma futura auditoria.
 
 
