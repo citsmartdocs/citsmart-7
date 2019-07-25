@@ -1,6 +1,5 @@
 title: Cadastro e pesquisa de justificativa de solicitação
-Description: Essa funcionalidade permite registrar as justificativas de
-solicitação de serviços.
+Description: Essa funcionalidade permite registrar as justificativas de solicitação de serviços.
 
 # Cadastro e pesquisa de justificativa de solicitação
 
@@ -30,7 +29,7 @@ Filtros
 
     -   Situação.
 
-1.  Para realizar a busca de uma justificativa de solicitação, informe a
+2.  Para realizar a busca de uma justificativa de solicitação, informe a
     descrição e/ou situação da mesma. Após isso, será exibido o registro
     conforme os dados informados.
 
@@ -64,7 +63,7 @@ Preenchimento dos campos cadastrais
 
     **Figura 3 - Tela de cadastro de justificativa de solicitação**
 
-1.  Preencha os campos conforme orientações abaixo:
+3.  Preencha os campos conforme orientações abaixo:
 
     -   **Descrição**: informe a descrição da justificativa de solicitação;
 
@@ -80,7 +79,7 @@ Preenchimento dos campos cadastrais
     -   **Aprovação**: defina se a justificativa de solicitação é para ser
         utilizada na fase de aprovação da solicitação de serviço.
 
-2.  Clique no botão *Gravar* para efetuar o registro, onde a data, hora e
+4.  Clique no botão *Gravar* para efetuar o registro, onde a data, hora e
     usuário serão gravados automaticamente para uma futura auditoria
 
 
