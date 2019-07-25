@@ -20,11 +20,11 @@ Para verificar os gráficos de disponibilidade é necessário, primeiramente,
 realizar os seguintes procedimentos:
 
 1. Cadastrar o grupo de disponibilidade (ver conhecimento 
-Cadastro e pesquisa de grupo de disponibilidade);
+[Cadastro e pesquisa de grupo de disponibilidade](/pt-br/citsmart-platform-7/processes/availability/availability-group.html));
 
 2. Vincular o calendário, acordo de nível de serviço do tipo "disponibilidade" 
 e custo por hora de indisponibilidade ao Item de Configuração
-(ver conhecimento Gerenciamento de itens de configuração);
+(ver conhecimento [Gerenciamento de itens de configuração](/pt-br/citsmart-platform-7/processes/configuration/IC-management.html));
 
 3. Vincular o calendário, acordo de nível de serviço do tipo "disponibilidade" 
 e custo por hora de indisponibilidade ao Grupo de ICs;
