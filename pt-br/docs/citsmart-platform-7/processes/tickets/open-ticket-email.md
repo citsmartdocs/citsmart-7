@@ -23,18 +23,18 @@ Detalhes das atividades
 #### Cadastro de template de ação automática - incidente / requisição / procedimento
 
 1.  Cadastro de template de Ação automática - Incidente/Requisição/Procedimento
-    (ver conhecimento [Cadastro e pesquisa de ações automáticas],
+    (ver conhecimento [Cadastro e pesquisa de ações automáticas](1)),
     pois será utilizado como template para a abertura da solicitação de serviço.
 
 #### Realizar as configurações de e-mail
 
 1.  Realizar as configurações de e-mail (ver conhecimento [Manual de
-    configuração de ação automática via e-mail.], esse cadastro será utilizado para vincular o template cadastrado.
+    configuração de ação automática via e-mail.](2)), esse cadastro será utilizado para vincular o template cadastrado.
 
 #### Realizar as configurações do processamento batch
 
 1.  Realizar as configurações do processamento Batch (ver conhecimento [Cadastro
-    e pesquisa de processamento Batch];
+    e pesquisa de processamento Batch](3));
 
 2.  Esse cadastro informa a cada quanto tempo o sistema fará a leitura dos
     e-mails.
@@ -57,7 +57,7 @@ Informações adicionais
 
 3.  O sistema marca automaticamente o e-mail como lido para que não haja
     duplicação de cadastro (ver conhecimento [Regras sobre a abertura automática
-    de solicitação de serviço via e-mail];
+    de solicitação de serviço via e-mail](4));
 
 4.  Caso o sistema identifique que o colaborador é usuário do sistema, através
     do e-mail do remetente e o usuário estiver em um grupo vinculado ao mesmo
@@ -68,6 +68,11 @@ Informações adicionais
 5.  Caso o sistema não identifique o solicitante, então, o sistema atribuirá a
     solicitação de serviço, ao usuário informado no cadastro de Ação Automática
     Incidente/Requisição/Procedimento.
+
+[1]:/pt-br/citsmart-platform-7/plataform-administration/configuring-automatic-actions/automatic-actions.html
+[2]:/pt-br/citsmart-platform-7/plataform-administration/configuring-automatic-actions/automatic-action-email.html
+[3]:/pt-br/citsmart-platform-7/plataform-administration/configuring-automatic-actions/batch-processing.html
+[4]:/pt-br/citsmart-platform-7/processes/tickets/rules-open-ticket.html
 
 
 !!! tip "About"
