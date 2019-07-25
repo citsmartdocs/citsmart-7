@@ -158,7 +158,7 @@ Preenchimento dos campos cadastrais
 Veja também
 -----------
 
--   [Análise de tendência de eventos](4)).
+-   [Análise de tendência de eventos](4).
 
 [1]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
 [2]:/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html
