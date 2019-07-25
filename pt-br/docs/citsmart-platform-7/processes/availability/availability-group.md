@@ -88,7 +88,7 @@ ao grupo, conforme exemplo ilustrado na figura abaixo:
 
     ![Tela de pesquisa](images/grupo-disponibilidade.img04.png)
     
-    **Figura 4 - Pesquisa item de configuração**
+    **Figura 4 - Pesquisa item de configuração**  
     
 4. Para verificar as informações do IC, basta clicar no botão "Visualizar" do mesmo;
 
