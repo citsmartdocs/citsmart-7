@@ -117,7 +117,7 @@ Preenchimento dos campos cadastrais
     -  **Fax**: informe o código de área (DDD) e o número do fax do fornecedor,
         caso tenha;
 
-    -  **E-mail**: informe o *e-*mail do fornecedor;
+    -  **E-mail**: informe o e-mail do fornecedor;
 
     -  **Nome do contato**: informe um nome para contato com fornecedor;
 
