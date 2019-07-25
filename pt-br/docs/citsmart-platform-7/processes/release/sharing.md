@@ -11,14 +11,13 @@ Como acessar
 
 1.  Acesse a funcionalidade de Gerenciamento de Liberação através da
     navegação no menu principal **Processos ITIL \> Gerência de
-    Liberação \> Gerenciamento de Liberação.**
+    Liberação \> Gerenciamento de Liberação**.
 
 Pré-condições
 -------------
 
 1.  Ter requisição de liberação registrada (ver conhecimento [Cadastro e
-    pesquisa de requisição de
-    liberação]();
+    pesquisa de requisição de liberação]();
 
 2.  Ter permissão para delegar/compartilhar a requisição de liberação.
 
@@ -42,9 +41,9 @@ Listagem de itens
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Número, Solicitante, Criada em, Prioridade, Prazo limite,**
-    **Atraso, Situação, Tarefa atual, Grupo** **Executor, Responsável**
-    **atual** e **Compartilhada com**.
+    funcionalidade: Número, Solicitante, Criada em, Prioridade, Prazo limite,
+    Atraso, Situação, Tarefa atual, Grupo Executor, Responsável
+    atual e Compartilhada com.
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Visualizar,* *Relatórios* e *Ação*.
