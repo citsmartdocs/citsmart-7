@@ -293,9 +293,9 @@ Para liberar o Ping no Windows 7 é necessário entrar no Firewall em “Regras 
 Entrada” e ativar a regra “Compartilhamento de Arquivo e Impressora (Solicitação
 de Eco - ICMPv4-In)”
 
-    ![figure](images/inventory-12.png)
+   ![figure](images/inventory-12.png)
     
-    **Figura 10 - Firewall do Windows com segurança avançada**
+   **Figura 10 - Firewall do Windows com segurança avançada**
 
 #### Instalação do mongodb
 
