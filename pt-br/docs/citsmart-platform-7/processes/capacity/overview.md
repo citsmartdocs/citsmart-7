@@ -46,8 +46,8 @@ Na seção "Veja também" é possível acessar a(s) funcionalidade(s) principal(
 Veja também
 --------------
 
-- Cadastro e pesquisa de indicadores de capacidade;
-- Importação de dados de indicadores de capacidade.
+- [Cadastro e pesquisa de indicadores de capacidade](/pt-br/citsmart-platform-7/processes/capacity/capacity-indicators.html);
+- [Importação de dados de indicadores de capacidade](/pt-br/citsmart-platform-7/processes/capacity/data-import-capacity.html).
 
 !!! tip "About"
 
