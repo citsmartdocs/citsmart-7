@@ -13,7 +13,7 @@ Como acessar
 Pré-condições
 ---------------
 
-1. Ter ao menos uma requisição de mudança cadastrada. (ver o conhecimento Cadastro de requisição de mudança).
+1. Ter ao menos uma requisição de mudança cadastrada. (ver o conhecimento [Cadastro de requisição de mudança](/pt-br/citsmart-platform-7/processes/change/register-change.html)).
 
 Filtros
 ---------
