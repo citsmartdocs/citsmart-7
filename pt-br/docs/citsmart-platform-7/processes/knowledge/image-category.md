@@ -27,7 +27,7 @@ Filtros
 
     -   Nome Categoria.
 
-1.  Na tela de **Categoria Galeria de Imagem**, clique na aba **Pesquisa
+2.  Na tela de **Categoria Galeria de Imagem**, clique na aba **Pesquisa
     Categoria de Imagem**. Será apresentada a tela de pesquisa conforme
     ilustrada na figura abaixo:
 
@@ -35,7 +35,7 @@ Filtros
    
     **Figura 1 - Tela de pesquisa de categoria de imagem**
 
-1.  Realize a pesquisa de categoria de imagem:
+3.  Realize a pesquisa de categoria de imagem:
 
     -   Informe o nome da categoria de imagem que deseja pesquisar e clique no
     botão *Pesquisar*. Após isso, será exibido o registro da categoria de imagem
@@ -55,11 +55,11 @@ Listagem de itens
 
     **Figura 2 - Tela de listagem de categoria de imagem**
 
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
+2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
     para a tela de cadastro exibindo o conteúdo referente ao registro
     selecionado;
 
-2.  Para alterar os dados do registro de categoria de imagem, basta modificar as
+3.  Para alterar os dados do registro de categoria de imagem, basta modificar as
     informações dos campos desejados e clicar no botão *Gravar* para que seja
     gravada a alteração realizada no registro, onde a data, hora e usuário serão
     gravados automaticamente para uma futura auditoria.
@@ -75,9 +75,9 @@ Preenchimento dos campos cadastrais
 
     **Figura 3 - Tela de cadastro de categoria de imagem**
 
-1.  Preencha os campos conforme orientações abaixo:
+2.  Preencha os campos conforme orientações abaixo:
 
--   **Nome Categoria**: informe o nome da categoria de imagem.
+    -   **Nome Categoria**: informe o nome da categoria de imagem.
 
 
 !!! tip "About"
