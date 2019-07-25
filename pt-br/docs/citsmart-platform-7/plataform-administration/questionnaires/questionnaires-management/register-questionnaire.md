@@ -78,7 +78,7 @@ selecionado.
 
 !!! note "NOTA"
 
-    Para garantir maior produtividade, o botão Copiar de outro questionário permite ao Administrador que importe Questionários 
+    Para garantir maior produtividade, o botão "Copiar de outro questionário" permite ao Administrador que importe Questionários 
     construídos tanto na forma anterior, quanto na forma atual.
     
 !!! tip "About"
