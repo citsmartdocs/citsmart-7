@@ -1,6 +1,5 @@
 title: Cadastro de prioridade de solicitações de serviço
-Description: Permite definir a matriz de prioridade para calcular o tempo de
-atendimento (SLA) da solicitação de serviço dinamicamente.
+Description: Permite definir a matriz de prioridade para calcular o tempo de atendimento (SLA) da solicitação de serviço dinamicamente.
 
 # Cadastro de prioridade de solicitações de serviço
 
@@ -23,7 +22,7 @@ Pré-condições
 1.  Configure o parâmetro abaixo (ver conhecimento [Regras de parametrização -
     Ticket]():
 
--   Parâmetro 104: valor S.
+    -   Parâmetro 104: valor S.
 
 Filtros
 -------
@@ -45,7 +44,7 @@ Preenchimento dos campos cadastrais
 
     **Figura 1 - Tela de cadastro de prioridade de solicitações de serviço**
 
-1.  Preencha os campos conforme orientações abaixo:
+2.  Preencha os campos conforme orientações abaixo:
 
     a) Cadastro de Impacto:
 
@@ -108,8 +107,9 @@ Preenchimento dos campos cadastrais
         de prioridade. Lembrando que para isso ocorrer o parâmetro deve estar
         habilitado.
         
- !!! tip "About"
+!!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
     <b>Updated:</b>07/16/2019 – Anna Martins
+
        
