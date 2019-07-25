@@ -58,7 +58,7 @@ Preenchimento dos campos cadastrais
     - **Categoria**: lista de categorias pré-cadastradas que ajudam a gerenciar conjuntos de Questionários;
     - **Grupo**: um Questionário organiza seus itens de forma agrupada por algum critério subjetivo do consultor ou cliente, pode
     haver mais de um grupo no questionário (como se fossem vários assuntos);
-        - **<Título do Grupo>**: logo em frente da palavra "Grupo" é possível editar e trocar a expressão "sem título 1" por um
+        - **Título do Grupo**: logo em frente da palavra "Grupo" é possível editar e trocar a expressão "sem título 1" por um
         título significativo para descrever a finalidade/critério do agrupamento;
         - Um grupo pode ter uma ou mais Questões, cada uma composta por:
             - **Questão**: título da Questão para que seja possível o leitor entender o que deve responder;
