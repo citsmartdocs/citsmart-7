@@ -65,7 +65,7 @@ Listagem de itens
 Preenchimento dos campos cadastrais
 -----------------------------------
 
-1.  Acesse a funcionalidade, após isso, será apresentada a tela de** Cadastro de
+1.  Acesse a funcionalidade, após isso, será apresentada a tela de **Cadastro de
     Habilidades**, conforme a figura abaixo:
 
     ![Criar](images/skill-3.png)
