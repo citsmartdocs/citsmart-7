@@ -96,7 +96,7 @@ Pré-condições
 Como acessar
 --------------
 
-1. Acesse a funcionalidade através da navegação no menu principal**Sistema > Ações Automáticas > Ações Notificação**.
+1. Acesse a funcionalidade através da navegação no menu principal **Sistema > Ações Automáticas > Ações Notificação**.
 
 !!! note "NOTA"
 
