@@ -92,21 +92,21 @@ Preenchimento dos campos cadastrais
 
     Uma visão rápida da funcionalidade:
 
-    - 1: ![Criar](images/requisition-17.png)   : amplia a tela de Gerenciamento de Liberação;
+    - **1**: ![Criar](images/requisition-17.png)   : amplia a tela de Gerenciamento de Liberação;
 
-    - 2:  **Gerenciamento**: apresentada os registros de registro de liberação para
+    - **2**:  Gerenciamento: apresentada os registros de registro de liberação para
     atendimento e gerenciamento;
 
-    - 3:  **Gráficos**: apresenta os gráficos de informações dos registros de
+    - **3**:  Gráficos: apresenta os gráficos de informações dos registros de
     liberação por situação (em andamento, suspensas e atrasadas), por prioridade
     e por grupo;
 
-    - 4:  **Filtros**: apresenta os filtros para pesquisa de registro de liberação;
+    - **4**:  Filtros: apresenta os filtros para pesquisa de registro de liberação;
 
-    - 5:  **Ações**: permite registrar novo problema e realizar uma pesquisa rápida
+    - **5**:  Ações: permite registrar novo problema e realizar uma pesquisa rápida
     de registro de liberação;
 
-    - 6:  **Relatórios**: apresenta os relatórios dinâmicos referente ao
+    - **6**:  Relatórios: apresenta os relatórios dinâmicos referente ao
     gerenciamento de liberação.
 
     ![Criar](images/requisition-4.png)
