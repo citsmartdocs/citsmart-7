@@ -31,7 +31,7 @@ Listagem de itens
 --------------------
 
 1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem padrão
-da funcionalidade: **ID, Identificação do template de solicitação de serviço e Nome do template de solicitação de serviço**.
+da funcionalidade: **ID, Identificação do template de solicitação de serviço** e **Nome do template de solicitação de serviço**.
 
 2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Editar" e "Excluir".
 
@@ -72,7 +72,7 @@ Esta funcionalidade permite personalizar a tela de serviços com referência, pr
 Dentro do tipo JSP existem sub-tipos previamente cadastrados. A utilidade deste tipo de template só é observada nas versões 
 anteriores à 7.2.3.9.*
 
-!!!! warning "ATENÇÃO"
+!!! warning "ATENÇÃO"
 
     Esta classe de template deverá ser manipulada por analista que possua conhecimento de programação JAVA.
     
@@ -188,7 +188,7 @@ Preenchimento dos campos cadastrais
     - **Habilita botão gravar e continuar**: habilita o botão "gravar e avançar o fluxo" ![simbolo](images/simb-seta.green.jpg) 
     localizado no canto direito inferior da tela de gerenciamento de solicitação de serviço.
     
-    !!!! note "NOTA"
+    !!! note "NOTA"
     
         Os campos de habilitação citados acima apesar de selecionados por default, sua visualização não estará disponível no 
         momento de criação de ticket . Esta visualização ocorrerá com a efetivação do cadastro.
