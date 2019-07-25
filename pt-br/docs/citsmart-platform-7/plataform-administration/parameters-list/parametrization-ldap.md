@@ -15,6 +15,11 @@ implícita usando a funcionalidade **Configuração LDAP** ou de forma explícit
 
 **Tabela 1 - Lista de parâmetros**
 
+Veja também
+-------------
+
+- Cadastro e pesquisa de conexões LDAP.
+
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
