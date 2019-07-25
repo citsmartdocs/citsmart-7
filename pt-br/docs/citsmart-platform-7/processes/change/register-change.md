@@ -165,7 +165,7 @@ Vinculando IC's da mudança
     
     !!! note "NOTA"
     
-        os itens de configuração relacionados à mudança serão automaticamente relacionados e apresentados na Análise de Impacto e Risco por Alvos.
+        Os itens de configuração relacionados à mudança serão automaticamente relacionados e apresentados na Análise de Impacto e Risco por Alvos.
         
 Vinculando serviços do IC
 --------------------------
