@@ -422,19 +422,18 @@ Cadastro de Conexões do CITSmart Inventory
 
 !!! info "IMPORTANTE"
 
-   O campo “Identificador Inventory” corresponde à propriedade
-   “citsmart.inventory.id” do “standalone-full.xml” do servidor de aplicações
-   onde está instalado o CITSmart Inventory.
+    O campo “Identificador Inventory” corresponde à propriedade
+    “citsmart.inventory.id” do “standalone-full.xml” do servidor de aplicações
+    onde está instalado o CITSmart Inventory.
 
-   O campo “IP Servidor Agente de Captura” refere-se ao IP do servidor onde
-   está instalado o Agente de Captura das informações das máquinas.
+    O campo “IP Servidor Agente de Captura” refere-se ao IP do servidor onde
+    está instalado o Agente de Captura das informações das máquinas.
 
 !!! note "NOTA"
 
-   Caso seja adotada a integração do CITSmart Inventory com o OCS Inventory,
-   é obrigatório observar as instruções contidas no
-   conhecimento**[ Configuração da Conexão do CITSmart
-   Inventory].
+    Caso seja adotada a integração do CITSmart Inventory com o OCS Inventory,
+    é obrigatório observar as instruções contidas no
+    conhecimento**[ Configuração da Conexão do CITSmart Inventory].
 
 
 !!! tip "About"
