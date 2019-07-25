@@ -1,6 +1,5 @@
 title: Cadastro e pesquisa de fornecedor
-Description: Esta funcionalidade tem por objetivo cadastrar e pesquisar um
-fornecedor.
+Description: Esta funcionalidade tem por objetivo cadastrar e pesquisar um fornecedor.
 
 # Cadastro e pesquisa de fornecedor
 
@@ -20,7 +19,7 @@ Pré-condições
 -------------
 
 1.  Realizar a carga de países (ver conhecimento [Carga de
-    países]().
+    países].
 
 Filtros
 -------
@@ -33,7 +32,7 @@ Filtros
 
     -   CPF/CNPJ
 
-1.  Na tela de **Fornecedor**, clique na guia **Pesquisa de Fornecedores, **será
+2.  Na tela de **Fornecedor**, clique na guia **Pesquisa de Fornecedores, **será
     apresentada a respectiva tela de pesquisa conforme ilustrada na figura
     abaixo:
 
@@ -41,16 +40,16 @@ Filtros
 
     **Figura 1 - Tela de pesquisa de fornecedor**
 
-1.  Realize a pesquisa de fornecedor;
+3.  Realize a pesquisa de fornecedor;
 
     -   **Nome/Razão social**: informe a razão social do fornecedor;
 
     -   **CPF/CNPJ**: informe o CPF/CNPJ do fornecedor;
 
-2.  Após o filtro definido, clique no botão *Pesquisar*. Feito isso, será
+4.  Após o filtro definido, clique no botão *Pesquisar*. Feito isso, será
     exibido o registro conforme os dados informados.
 
-3.  Caso deseje listar todos os registros de fornecedor, basta clicar
+5.  Caso deseje listar todos os registros de fornecedor, basta clicar
     diretamente no botão *Pesquisar*.
 
 Listagem de itens
@@ -58,17 +57,17 @@ Listagem de itens
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** Nome/Razão social** e **CPF/CNPJ.**
+    funcionalidade: **Nome/Razão social** e **CPF/CNPJ**.
 
     ![Criar](images/provider-2.png)
 
     **Figura 2 - Listagem de fornecedores**
 
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
+2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
     para a tela de cadastro exibindo o conteúdo referente ao registro
     selecionado;
 
-2.  Para alterar os dados do registro de fornecedor, basta modificar as
+3.  Para alterar os dados do registro de fornecedor, basta modificar as
     informações dos campos desejados e clicar no botão *Gravar* para que seja
     gravada a alteração realizada no registro, onde a data, hora e usuário serão
     gravados automaticamente para uma futura auditoria.
@@ -84,7 +83,7 @@ Preenchimento dos campos cadastrais
 
     **Figura 3 - Tela de cadastro de fornecedor**
 
-1.  Preencha os campos conforme orientação abaixo:
+2.  Preencha os campos conforme orientação abaixo:
 
     -  **Tipo de Fornecedor**: selecione o(s) tipo(s) de fornecedor(es):
 
@@ -168,7 +167,7 @@ Preenchimento dos campos cadastrais
     -  **Gerenciamento de Desacordo ou Disputas Contratuais**: descreva quais
     procedimentos a serem tomados no caso de desacordos ou disputas contratuais.
 
-1.  Após informar os dados, clique no botão *Gravar* para efetuar o registro,
+3.  Após informar os dados, clique no botão *Gravar* para efetuar o registro,
     onde a data, hora e usuário serão gravados automaticamente para uma futura
     auditoria.
 
