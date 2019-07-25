@@ -15,7 +15,7 @@ Pré-condições
 ---------------
 
 1. Ter a justificativa de requisição de mudança cadastrada (ver conhecimento 
-Cadastro e Pesquisa de Justificativa de Requisição de Mudança)
+[Cadastro e Pesquisa de Justificativa de Requisição de Mudança](/pt-br/citsmart-platform-7/processes/change/change-justification.html))
 
 Filtros
 ----------
