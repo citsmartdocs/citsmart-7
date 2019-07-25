@@ -16,8 +16,7 @@ Pré- condições
 --------------
 
 1.  Ter requisição de liberação registrada (ver conhecimento [Cadastro e
-    pesquisa de requisição de
-    liberação]();
+    pesquisa de requisição de liberação];
 
 2.  Ter permissão para cancelar a requisição de liberação.
 
@@ -41,9 +40,9 @@ Listagem de itens
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Número, Solicitante, Criada em, Prioridade, Prazo limite,
+    funcionalidade: Número, Solicitante, Criada em, Prioridade, Prazo limite,
     Atraso, Situação, Tarefa atual Grupo Executor, Responsável
-    atual** e **Compartilhada com**;
+    atual e Compartilhada com;
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Visualizar*, *Relatórios* e *Ação* (Agendar Requisição
@@ -72,7 +71,7 @@ Cancelando a requisição de liberação
 
     **Figura 3 - Cancelar requisição de liberação**
 
-1.  Será exibida a tela de **Registro da Requisição de Liberação** com os campos
+3.  Será exibida a tela de **Registro da Requisição de Liberação** com os campos
     preenchidos, com o conteúdo referente a requisição selecionada;
 
     -   Na área de **Requisição**, no campo **Situação**, altere a situação da
@@ -81,15 +80,15 @@ Cancelando a requisição de liberação
     -   Na área de **Fechamento**, no campo **Fechamento**, descreva o porquê do
     cancelamento da requisição de liberação.
 
-1.  Após registro das informações sobre o cancelamento da liberação, clique no
+4.  Após registro das informações sobre o cancelamento da liberação, clique no
     botão *Gravar e avançar o fluxo* para efetuar a operação, onde a liberação
     será cancelada com sucesso.
 
-2.  Caso queira gravar somente as informações registradas sobre o cancelamento
+5.  Caso queira gravar somente as informações registradas sobre o cancelamento
     da liberação e manter a tarefa atual, clique no botão *Gravar e manter a
     tarefa atual*.
 
-3.  Em ambos os casos anteriores ao clicar no botão "Gravar" a data, hora e
+6.  Em ambos os casos anteriores ao clicar no botão "Gravar" a data, hora e
     usuário serão armazenados automaticamente para uma futuraauditoria.
 
 !!! tip "About"
