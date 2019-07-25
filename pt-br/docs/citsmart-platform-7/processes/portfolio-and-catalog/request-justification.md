@@ -25,9 +25,9 @@ Filtros
     itens na listagem padrão da funcionalidade, facilitando a localização dos
     itens desejados:
 
-    -   Descrição;
+    -  Descrição;
 
-    -   Situação.
+    -  Situação.
 
 2.  Para realizar a busca de uma justificativa de solicitação, informe a
     descrição e/ou situação da mesma. Após isso, será exibido o registro
@@ -65,18 +65,18 @@ Preenchimento dos campos cadastrais
 
 3.  Preencha os campos conforme orientações abaixo:
 
-    -   **Descrição**: informe a descrição da justificativa de solicitação;
+    -  **Descrição**: informe a descrição da justificativa de solicitação;
 
-    -   **Situação**: selecione a situação da justificativa de solicitação,
+    -  **Situação**: selecione a situação da justificativa de solicitação,
         ativo ou inativo;
 
-    -   **Suspensão**: defina se a justificativa é para ser utilizada na
+    -  **Suspensão**: defina se a justificativa é para ser utilizada na
         suspensão da solicitação;
 
-    -   **Viagem**: defina se a justificativa de solicitação é para ser
+    -  **Viagem**: defina se a justificativa de solicitação é para ser
         utilizada na aprovação de requisição de viagem;
 
-    -   **Aprovação**: defina se a justificativa de solicitação é para ser
+    -  **Aprovação**: defina se a justificativa de solicitação é para ser
         utilizada na fase de aprovação da solicitação de serviço.
 
 4.  Clique no botão *Gravar* para efetuar o registro, onde a data, hora e
