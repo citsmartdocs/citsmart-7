@@ -393,10 +393,10 @@ Altere a seguinte seção deste arquivo, conforme indicado abaixo.
 
 !!! note "NOTA"
 
-   Na tag property das configurações acima *<property name="citsmart.login" value=""/>*,
-   referente a seção standalone-full.xml (CITSmart Inventory), na propriedade
-   "nome" o valor que normalmente é o login do usuário, desde a versão 7.2.2.0
-   é preciso informar o contexto.
+    Na tag property das configurações acima *<property name="citsmart.login" value=""/>*,
+    referente a seção standalone-full.xml (CITSmart Inventory), na propriedade
+    "nome" o valor que normalmente é o login do usuário, desde a versão 7.2.2.0
+    é preciso informar o contexto.
 
 #### Cadastro de conexão
 
