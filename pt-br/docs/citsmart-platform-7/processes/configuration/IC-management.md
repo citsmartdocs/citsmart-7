@@ -235,7 +235,7 @@ Registrando um novo item de configuração
         - **Tipo de Responsável**: selecione o tipo de responsável: usuário ou grupo;
         - **Responsável**: informe o responsável do item de configuração, de acordo com o tipo de responsável. Caso queira 
         limpar o dado informado no campo, clique no ícone ![simbolo](images/simb-fech-cin.png);
-        - **Item de Configuração** Pai: se o IC que está sendo cadastrado faz parte de outro IC, informe-o. Caso queira limpar 
+        - **Item de Configuração Pai**: se o IC que está sendo cadastrado faz parte de outro IC, informe-o. Caso queira limpar 
         o dado informado no campo, clique no ícone ![simbolo](images/simb-fech-cin.png);
         - **Custo por hora de indisponibilidade**: informe o valor da hora de indisponibilidade do IC;
         - **Informações Adicionais**: descreva as demais informações sobre o item de configuração, caso seja importante;
