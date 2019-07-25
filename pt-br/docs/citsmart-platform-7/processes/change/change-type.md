@@ -20,7 +20,7 @@ Pré-condições
 
 3. Ter o grupo executor cadastrado (ver conhecimento [Cadastro e pesquisa de grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html))
 
-4. Ter o calendário cadastrado (ver conhecimento [Cadastro e pesquisa de calendário])(/pt-br/citsmart-platform-7/plataform-administration/time/create-calendar.html))
+4. Ter o calendário cadastrado (ver conhecimento [Cadastro e pesquisa de calendário](/pt-br/citsmart-platform-7/plataform-administration/time/create-calendar.html))
 
 Filtros
 ---------
