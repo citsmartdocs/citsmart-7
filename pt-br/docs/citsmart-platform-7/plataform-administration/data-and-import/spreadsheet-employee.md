@@ -8,7 +8,7 @@ Cadastro modelo de planilha para importação
 ---------------------------------------------
 
 1. Acesse a funcionalidade de carga do colaborador através da navegação no menu principal 
-(**Sistema > Importação e Carga de Dados > Carga Colaborador*). Após isso, será apresentada a tela de **Carga do Colaborador** para
+(**Sistema > Importação e Carga de Dados > Carga Colaborador**). Após isso, será apresentada a tela de **Carga do Colaborador** para
 registro de modelo de planilha para importação, conforme ilustrada na figura abaixo:
 
     ![Cadastro](images/mode-plan.img1.png)
