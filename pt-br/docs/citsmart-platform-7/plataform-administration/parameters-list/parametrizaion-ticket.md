@@ -6,9 +6,9 @@ Siga as instruções abaixo:
 
 1. Acesse a funcionalidade através da navegação no menu principal;
 
-2. Posicione o mouse na opção Parametrização;
+2. Posicione o mouse na opção **Parametrização**;
 
-3. Clique na opção Gerência de Ticket;
+3. Clique na opção **Gerência de Ticket**;
 
 4. É apresentado uma lista de parâmetros para serem configurados, defina os valores dos parâmetros (atributos);
 
