@@ -67,6 +67,8 @@ Exemplo dos Campos Chave Exibidos no E-mail
 
 ![Exemplos](Images/key-prob.img3.png)
 
+**Tabela 2 - Exemplos de campos-chave**
+
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
