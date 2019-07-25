@@ -1,6 +1,5 @@
 title: Cadastro e pesquisa de tipo de serviço
-Description: Esta funcionalidade tem por objetivo registrar os tipos de serviço
-que serão utilizadas em outras rotinas do sistema.
+Description: Esta funcionalidade tem por objetivo registrar os tipos de serviço que serão utilizadas em outras rotinas do sistema.
 
 # Cadastro e pesquisa de tipo de serviço
 
@@ -28,7 +27,7 @@ Filtros
 
     -   Nome do Tipo de Serviço
 
-1.  Na tela de Tipo de Serviço, clique na aba **Pesquisa de Tipo Serviço**, será
+2.  Na tela de Tipo de Serviço, clique na aba **Pesquisa de Tipo Serviço**, será
     apresentada a respectiva tela de pesquisa conforme ilustrada na figura
     abaixo:
 
@@ -36,7 +35,7 @@ Filtros
 
     **Figura 1 - Tela de pesquisa de tipo de serviço**
 
-1.  Realize a pesquisa de tipo de serviço;
+3.  Realize a pesquisa de tipo de serviço;
 
     -   Informe o nome do tipo de serviço que deseja pesquisar e clique no
         botão *Pesquisar*. Após isso, será exibido o registro conforme o nome
@@ -56,11 +55,11 @@ Listagem de itens
 
     **Figura 2 - Tela de itens**
 
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
+2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
     para a tela de cadastro exibindo o conteúdo referente ao registro
     selecionado.
 
-2.  Para alterar os dados do registro de tipo de serviço, basta modificar as
+3.  Para alterar os dados do registro de tipo de serviço, basta modificar as
     informações dos campos desejados e clicar no botão *Gravar* para que seja
     gravada a alteração realizada no registro, onde a data, hora e usuário serão
     gravados automaticamente para uma futura auditoria.
@@ -75,11 +74,11 @@ Preenchimento dos campos cadastrais
 
     **Figura 3 - Tela de cadastro de tipo de serviço**
 
-1.  Preencha o campo conforme orientação abaixo:
+2.  Preencha o campo conforme orientação abaixo:
 
     -   Informe o nome do tipo de serviço. Ex.: Rotineira;
 
-2.  Clique no botão *Gravar* para efetuar o registro, onde a data, hora e
+3.  Clique no botão *Gravar* para efetuar o registro, onde a data, hora e
     usuário serão gravados automaticamente para uma futura auditoria.
 
 
