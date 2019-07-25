@@ -14,18 +14,23 @@ Antes de começar
 Pré-condições
 ---------------
 
-1. Ter o contrato cadastrado (ver conhecimento Cadastro e pesquisa de contrato)
+1. Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de contrato](/pt-br/citsmart-platform-7/additional-
+features/contract-management/use/register-contract.html))
 
-2. Ter a unidade cadastrada (ver conhecimento Cadastro e pesquisa de unidade)
+2. Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de unidade](/pt-br/citsmart-platform-7/plataform-
+administration/region-and-language/register-unit.html))
 
-3. Ter solicitante cadastrado (ver conhecimento Cadastro e pesquisa de colaborador)
+3. Ter solicitante cadastrado (ver conhecimento [Cadastro e pesquisa de colaborador](/pt-br/citsmart-platform-7/initial-
+settings/access-settings/user/employee.html))
 
-4. Ter o “Comitê Consultivo de Mudanças” cadastrado (ver conhecimento Cadastro e pesquisa de grupo)
+4. Ter o “Comitê Consultivo de Mudanças” cadastrado (ver conhecimento [Cadastro e pesquisa de grupo](/pt-br/citsmart-platform-
+7/initial-settings/access-settings/user/group.html))
 
 5. Ter o tipo de mudança cadastrado, o qual deverá ter o vínculo com o fluxo referente a requisição de mudança
-(ver conhecimento Cadastro e pesquisa de tipo de mudança)
+(ver conhecimento [Cadastro e pesquisa de tipo de mudança](/pt-br/citsmart-platform-7/processes/change/change-type.html))
 
-6. Configurar os parâmetros abaixo (Regras de parametrização - mudança):
+6. Configurar os parâmetros abaixo ([Regras de parametrização - mudança](/pt-br/citsmart-platform-7/plataform-
+administration/parameters-list/parametrization-change.html)):
 
     - Parâmetro 47;
     - Parâmetro 279;
@@ -39,7 +44,7 @@ relacionado ao contrato (ver conhecimento Como relacionar grupo ao contrato?);
 
 9. Ter a mudança cadastrada
 
-10. Ter o questionário cadastrado (ver conhecimento Cadastro e pesquisa de questionários)
+10. Ter o questionário cadastrado (ver conhecimento [Cadastro e pesquisa de questionários](/plataform-administration/questionnaires/questionnaires-management/register-questionnaire.html))
 
 Filtros
 ----------
