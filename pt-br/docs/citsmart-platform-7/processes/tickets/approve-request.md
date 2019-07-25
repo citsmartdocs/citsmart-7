@@ -10,14 +10,14 @@ Pré-condições
 -------------
 
 1.  Informe o conteúdo abaixo nos parâmetros (ver conhecimento [Regras de
-    parametrização - sistema];
+    parametrização - sistema](1);
 
     -   Parâmetro 33: URL de acesso ao sistema corretamente;
 
     -   Parâmetro 370: deverá estar setado em 'S';
 
 1.  Ter ao menos um usuário/grupo cadastrado (ver conhecimentos [Cadastro e
-    pesquisa de usuário]; [Cadastro e pesquisa de grupo];
+    pesquisa de usuário](2); [Cadastro e pesquisa de grupo](3);
 
 2.  Saber desenhar fluxo de aprovação de solicitação via e-mail cadastrado.
     Neste fluxo deverá existir a tarefa "Aprovação" e o desenho para envio de
@@ -28,7 +28,7 @@ Pré-condições
     encontra em anexo;
 
 4.  O servidor de e-mail deverá ser configurado (ver conhecimento [Regras de
-    parametrização - e-mail].
+    parametrização - e-mail](4).
 
 Como acessar
 ------------
@@ -92,7 +92,7 @@ Configurando o e-mail de notificação de aprovação
          notificação, veja o conhecimento [Cadastro e pesquisa de configuração de modelo de
          e-mail][5]
 
-1.  Logo após transcrever o modelo HTML para a o cadastro da notificação,
+4.  Logo após transcrever o modelo HTML para a o cadastro da notificação,
     verifique as seguintes diretrizes:
 
     -   href="{TOKEN(serviceRequestIncident, \${IDSOLICITACAOSERVICO}, VIEW, 50)};
@@ -109,23 +109,23 @@ Configurando o e-mail de notificação de aprovação
     -   MM (50) - Tempo de expiração do token em Minutos : esse campo pode ser
     alterado pelo usuário;
 
-1.  Realizada as instruções acima, o modelo de e-mail estará pronto, conforme a
+5.  Realizada as instruções acima, o modelo de e-mail estará pronto, conforme a
     figura abaixo:
 
     ![approve](images/approve-request-3.png)
 
     **Figura 2 - Exemplo do e-mail**
 
-1.  O usuário clica em *Visualizar*:
+6.  O usuário clica em *Visualizar*:
 
     -   Permite observar os detalhes do pedido;
 
-2.  Se o usuário clicar *Aprovar*:
+7.  Se o usuário clicar *Aprovar*:
 
     -   Permite a aprovação do pedido e uma caixa de diálogo confirmando que a
     aprovação é gerada;
 
-1.  Se o usuário clicar em *Rejeitar*;
+8.  Se o usuário clicar em *Rejeitar*;
 
     -   Permite a rejeição da solicitação e uma caixa de diálogo é gerada que
         confirma a desaprovação.
@@ -146,10 +146,10 @@ Anexos
 [Dowload - AguardandoAprovacao - email][5]
 
 
-[1]:#
-[2]:#
-[3]:#
-[4]:#
+[1]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-system.html
+[2]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/user-register.html
+[3]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[4]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-email.html
 [5]:/pt-br/docs/citsmart-platform-7/processes/tickets/images/aguardandoaprovacao-email.docx
 
 !!! tip "About"
