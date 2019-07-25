@@ -24,7 +24,7 @@ Filtros
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Descrição portfólio
+    -   Descrição portfólio
 
     ![Criar](images/portfolio-1.png)
 
@@ -54,7 +54,7 @@ Preenchimento dos campos cadastrais
 
     **Figura 3 - Tela de cadastro de portfólio**
 
-1.  Preencha os campos conforme orientação abaixo:
+2.  Preencha os campos conforme orientação abaixo:
 
     -  **Nome Portfólio**: informe o nome do portfólio de serviços;
 
@@ -75,7 +75,7 @@ Preenchimento dos campos cadastrais
         são vinculados ao tipo "Negócio" e somente contratos do tipo “Contrato de
         Apoio” e “Acordo de Nível Operacional” são vinculados ao tipo "Apoio".
 
-1.  Caso queira disponibilizar o portfólio de serviços nos 3 idiomas disponíveis
+3.  Caso queira disponibilizar o portfólio de serviços nos 3 idiomas disponíveis
     a aba correspondente aparecerá, conforme figura abaixo:
 
     ![Criar](images/portfolio-4.png)
@@ -87,7 +87,7 @@ Preenchimento dos campos cadastrais
         Caso uma das 3 línguas nessa aba ficar em branco, as informações serão
         preenchidas com as que estiver contidas na aba "Apresentação".
 
-1.  Caso queira disponibilizar o portfólio de serviços no Portal Smart e/ou
+4.  Caso queira disponibilizar o portfólio de serviços no Portal Smart e/ou
     Chat, clique na aba **Apresentação**;
 
     ![Criar](images/portfolio-5.png)
@@ -121,7 +121,7 @@ Preenchimento dos campos cadastrais
         no Smart Portal, somente será aplicada caso o parâmetro 293 “Habilita permissão
         de acesso para grupos de usuário no portal” esteja habilitado.
 
-1.  Clique na aba **Permissão de Acesso**, será apresentada a tela para vínculo
+5.  Clique na aba **Permissão de Acesso**, será apresentada a tela para vínculo
     dos grupos, conforme ilustrada na figura abaixo:
 
     ![Criar](images/portfolio-7.png)
@@ -141,7 +141,7 @@ Preenchimento dos campos cadastrais
 
         Podem ser adicionados vários grupos, quantos desejar
 
-1.  Após informar os dados do portfólio, clique no botão *Gravar* para efetuar o
+6.  Após informar os dados do portfólio, clique no botão *Gravar* para efetuar o
     registro.
 
 Vinculando com pesquisas
@@ -150,11 +150,11 @@ Vinculando com pesquisas
 Ao cadastrar um portfólio, é possível vinculá-lo a pesquisas previamente
 cadastradas.
 
-   !!! Abstract "SAIBA MAIS"
+!!! Abstract "SAIBA MAIS"
 
-        Para maiores informações sobre como cadastrar uma pesquisa, ver
-        conhecimento [Cadastro e pesquisa de pesquisa de
-        satisfação]()
+     Para maiores informações sobre como cadastrar uma pesquisa, ver
+     conhecimento [Cadastro e pesquisa de pesquisa de
+     satisfação]()
 
 1.  Preencha os campos cadastrais referentes ao novo portfólio. Logo após, na
     aba Apresentação, selecione "*Sim*" na opção "disponível no portal",
@@ -164,14 +164,14 @@ cadastradas.
    
     **Figura 8 - Tela de apresentação**
 
-1.  Clique na aba *Pesquisas*. Será apresentada a tela de vínculo de pesquisas,
+2.  Clique na aba *Pesquisas*. Será apresentada a tela de vínculo de pesquisas,
     conforme ilustrada na figura abaixo:
 
     ![Criar](images/portfolio-9.png)
    
     **Figura 9 - Tela de vinculação de pesquisas**
 
-1.  Vincule pesquisas ao portfólio;
+3.  Vincule pesquisas ao portfólio;
 
     -  Clique no botão *Vincular pesquisas*. Após isso, será apresentada a tela de
     pesquisa de pesquisas;
@@ -193,7 +193,7 @@ Uma visão rápida da principal funcionalidade do módulo
 
     **Figura 10 - Portfólio de serviços**
 
-1.  Note que o **Portfólio de Serviços** é dividido em três partes, sendo:
+2.  Note que o **Portfólio de Serviços** é dividido em três partes, sendo:
 
     -   **Funil de Serviços**: inclui todos os serviços que estão propostos ou em
     desenvolvimento. Esses serviços são para ser aplicados na fase de produção
@@ -221,7 +221,7 @@ Uma visão rápida da principal funcionalidade do módulo
 
     **Figura 13 - Serviços obsoletos**
 
-1.  O Portfólio é responsável por gerenciar o serviço durante o seu ciclo de
+3.  O Portfólio é responsável por gerenciar o serviço durante o seu ciclo de
     vida. A figura abaixo apresenta uma visão da gestão do Portfólio de
     Serviços:
 
@@ -229,10 +229,10 @@ Uma visão rápida da principal funcionalidade do módulo
 
     **Figura 14 - Gestão do portfólio de serviços**
 
-   !!! info "IMPORTANTE"
+!!! info "IMPORTANTE"
 
-      O Portfólio de Serviços irá fazer o controle de todos novos serviços
-      propostos, em desenvolvimento, em produção e aposentado.
+     O Portfólio de Serviços irá fazer o controle de todos novos serviços
+     propostos, em desenvolvimento, em produção e aposentado.
 
 Visão geral das funções da tela principal
 -----------------------------------------
@@ -262,8 +262,7 @@ Visão geral das funções da tela principal
 Veja também
 -----------
 
--   [Cadastro de
-    serviços]().
+-   [Cadastro de serviços].
 
 
 !!! tip "About"
