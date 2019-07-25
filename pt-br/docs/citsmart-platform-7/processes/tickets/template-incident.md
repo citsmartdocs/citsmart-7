@@ -18,40 +18,40 @@ Pré-condições
 
 1.  Ter acesso à funcionalidade de Templates
     Incidentes/Requisições/Procedimentos (ver conhecimento [Cadastro e pesquisa
-    de perfil de acesso];
+    de perfil de acesso](1));
 
 2.  Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de
-    grupo];
+    grupo](2));
 
 3.  Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de
-    contrato];
+    contrato](3));
 
 4.  Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de
-    unidade];
+    unidade](4));
 
 5.  Ter o grupo vinculado ao contrato (ver conhecimento [Como relacionar grupo
-    ao contrato?];
+    ao contrato?](5));
 
 6.  Ter a unidade vinculada ao contrato (ver conhecimento [Como relacionar
-    unidade ao contrato?];
+    unidade ao contrato?](6));
 
 7.  Ter o portfólio com o serviço e as atividades de requisição e incidente
-    cadastrados (ver conhecimentos [Cadastro de portfólio de serviços], [Cadastro
-    de serviços], [Configuração dos atributos do serviço];
+    cadastrados (ver conhecimentos [Cadastro de portfólio de serviços](7), [Cadastro
+    de serviços](8)), [Configuração dos atributos do serviço](9));
 
 8.  Ter o tempo de atendimento das atividades de requisição e incidente
     definidos (ver conhecimento [Cadastro e pesquisa de tempo de
-    atendimento];
+    atendimento](10));
 
 9.  Ter o contrato vinculado ao serviço (Ver conhecimento [Configuração dos
-    atributos do serviço];
+    atributos do serviço](11));
 
 10. Ter as atividades de requisição e incidente vinculadas ao contrato do
     serviço (ver conhecimento [Configuração dos atributos do contrato do
-    serviço];
+    serviço](12));
 
 11. Informe o conteúdo abaixo no parâmetro (ver conhecimento [Regras de
-    parametrização - Ticket]:
+    parametrização - Ticket](13)):
 
     -   Parâmetro 9: definir o grupo de 1º nível para o atendimento da solicitação.
 
@@ -181,19 +181,19 @@ Preenchimento dos campos cadastrais
     onde a data, hora e usuário serão gravados automaticamente para uma futura
     auditoria.
 
-[1]:#
-[2]:#
-[3]:#
-[4]:#
+[1]:/pt-br/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
+[2]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[3]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[4]:/pt-br/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html
 [5]:#
 [6]:#
-[7]:#
-[8]:#
-[9]:#
-[10]:#
-[11]:#
-[12]:#
-[13]:#
+[7]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+[8]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/services.html
+[9]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
+[10]:/pt-br/citsmart-platform-7/processes/service-level/time-attendance.html
+[11]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
+[12]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/contract-attributes.html
+[13]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrizaion-ticket.html
 
 
 !!! tip "About"
