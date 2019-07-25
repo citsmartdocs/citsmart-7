@@ -45,3 +45,29 @@ São relacionados abaixo os campos chave disponíveis para inserção no cadastr
 |        ${STATUS}             |                               Status do Problema.Informa o status em que o problema se encontra.                               |
 |           ${TITULO}          |                               Título do Problema.Informa o título do problema que foi registrado.                              |
 |          ${URGENCIA}         |                              Urgência do Problema.Informa a identificação da Urgência do Problema.                             |
+
+**Tabela 1 - Significado dos campos-chave**
+
+Utilização dos campos chave
+----------------------------
+
+Segue abaixo os exemplos de utilização dos campos chave disponíveis para inserção no cadastro de modelo de e-mail relacionado a 
+problemas.
+
+![Exemplo](images/key-prob.img1.png)
+
+**Figura 1 - Exemplo de inserção**
+
+![Resultado](images/key-prob.img2.png)
+
+**Figura 2 - Exemplo do resultado do envio**
+
+Exemplo dos Campos Chave Exibidos no E-mail
+---------------------------------------------
+
+![Exemplos](images/key-prob.img3.png)
+
+!!! tip "About"
+
+    <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
+    <b>Updated:</b>07/25/2019 – Larissa Lourenço
