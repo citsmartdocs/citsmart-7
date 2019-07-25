@@ -14,13 +14,13 @@ Como acessar
 Pré-condições
 --------------
 
-1. Ter o fluxo referente ao gerenciamento de mudança cadastrado (ver conhecimento Manutenção de fluxo de trabalho)
+1. Ter o fluxo referente ao gerenciamento de mudança cadastrado (ver conhecimento [Manutenção de fluxo de trabalho](/pt-br/citsmart-platform-7/workflow/workflow-management.html))
 
-2. Configurar os modelos de e-mails (ver conhecimento Cadastro e pesquisa de configuração de modelo de e-mail)
+2. Configurar os modelos de e-mails (ver conhecimento [Cadastro e pesquisa de configuração de modelo de e-mail](/pt-br/citsmart-platform-7/plataform-administration/email-settings/configure-email-template.html))
 
-3. Ter o grupo executor cadastrado (ver conhecimento Cadastro e pesquisa de grupo)
+3. Ter o grupo executor cadastrado (ver conhecimento [Cadastro e pesquisa de grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html))
 
-4. Ter o calendário cadastrado (ver conhecimento Cadastro e pesquisa de calendário)
+4. Ter o calendário cadastrado (ver conhecimento [Cadastro e pesquisa de calendário])(/pt-br/citsmart-platform-7/plataform-administration/time/create-calendar.html))
 
 Filtros
 ---------
