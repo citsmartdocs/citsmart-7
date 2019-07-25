@@ -1,6 +1,5 @@
 title: Cadastro e pesquisa de contrato
-Description: O contrato é um acordo entre duas partes, que se obrigam a cumprir
-o que foi entre elas combinado sob determinadas condições. 
+Description: O contrato é um acordo entre duas partes, que se obrigam a cumprir o que foi entre elas combinado sob determinadas condições. 
 
 # Cadastro e pesquisa de contrato
 
@@ -21,17 +20,16 @@ Pré-condições
 ------------
 
 1.  Ter o fornecedor cadastrado (ver conhecimento [Cadastro e pesquisa de
-    fornecedor]();
+    fornecedor];
 
 2.  Ter o cliente cadastrado (ver conhecimento [Cadastro e pesquisa de
-    cliente]();
+    cliente];
 
 3.  Ter a moeda cadastrada (ver conhecimento [Cadastro e pesquisa de
-    moeda]();
+    moeda];
 
 4.  Ter a condição de operação cadastrada (ver conhecimento [Cadastro e pesquisa
-    de condição de
-    operação]().
+    de condição de operação].
 
 Filtros
 -------
@@ -42,14 +40,14 @@ Filtros
 
     -   Número do Contrato.
 
-1.  Na tela de **Contratos**, clique na guia de **Listagem**. Será apresentada a
+2.  Na tela de **Contratos**, clique na guia de **Listagem**. Será apresentada a
     tela de pesquisa, conforme ilustrada na figura abaixo:
 
     ![Criar](images/contract-1.png)
 
     **Figura 1 - Tela de pesquisa de contrato**
 
-1.  Realize a pesquisa do contrato;
+3.  Realize a pesquisa do contrato;
 
     - Informe o número do contrato e clique no botão *Pesquisar*. Após isso, será
     exibido o registro do contrato conforme o número informado.
@@ -68,10 +66,10 @@ Listagem de itens
 
     **Figura 2 - Tela de item**
 
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
+2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
     para tela de cadastro exibindo o conteúdo referente ao registro selecionado;
 
-2.  Para alterar os dados do registro de contrato, basta modificar as
+3.  Para alterar os dados do registro de contrato, basta modificar as
     informações dos campos desejados e clicar no botão *Gravar* para efetuar a
     alteração realizada no registro.
 
@@ -85,7 +83,7 @@ Preenchimento de campos cadastrais
 
     **Figura 3 - Tela de cadastro de contrato**
 
-1.  Preencha os campos conforme orientações abaixo:
+2.  Preencha os campos conforme orientações abaixo:
 
     a)  **Tipo de Acordo/Contrato**: selecione o tipo de acordo/contrato;
 
@@ -237,10 +235,10 @@ no caso de gerenciamento das Ordens de Serviços relacionadas à moeda UST.
 
      **Figura 5 - Informações complementares - Visão de complexidade**
 
--   **Valor Complexidade**: informe quanto vale cada nível de complexidade para
+    -   **Valor Complexidade**: informe quanto vale cada nível de complexidade para
     organização. Exemplo: alta = 6, baixa = 1, especialista = 10.
 
--   Caso deseje remover o valor da complexidade, clique no botão *Limpa*r.
+    -   Caso deseje remover o valor da complexidade, clique no botão *Limpar*.
 
 Vinculando perfis do contrato
 ----------------------------
@@ -256,13 +254,13 @@ fundamentais para desenvolvimento de um projeto relacionado ao contrato.
 
     **Figura 6 - Informações complementares - Registro dos perfis do contrato**
 
--   **Custo Hora**: informe o custo da hora de trabalho relativo a função que
+    -   **Custo Hora**: informe o custo da hora de trabalho relativo a função que
     será desempenhada no projeto;
 
--   **Descrição**: informe a descrição da função requerida para o projeto.
+    -   **Descrição**: informe a descrição da função requerida para o projeto.
     Exemplo: Analista de Sistemas, Analista de Desenvolvimento e entre outros.
 
--   Após os dados informados, clique em *Adicionar* para adicionar o perfil do
+    -   Após os dados informados, clique em *Adicionar* para adicionar o perfil do
     profissional ao contrato.
 
 Vinculando grupos de usuários
@@ -278,7 +276,7 @@ Vinculando grupos de usuários
 
     **Figura 7 - Informações complementares - Vínculo de grupos**
 
--   Informe o grupo e clique no botão *Adicionar* para vínculo do mesmo ao
+    -   Informe o grupo e clique no botão *Adicionar* para vínculo do mesmo ao
     contrato.
 
 Vinculando produtos do contrato
@@ -295,10 +293,10 @@ relacionado ao contrato.
 
     **Figura 8 - Informações complementares - Cadastro de produtos**
 
--   Informe a descrição do produto, referente ao projeto, que será entregue.
+    -   Informe a descrição do produto, referente ao projeto, que será entregue.
     Exemplo: documentação, *deploy*, *script*, fluxo de trabalho e entre outros.
 
--   Clique no botão *Adicionar* para adição do mesmo no contrato.
+    -   Clique no botão *Adicionar* para adição do mesmo no contrato.
 
 Vinculando matriz comunicação
 ----------------------------
@@ -314,20 +312,20 @@ quais stakeholders, em que frequência (quando) e por qual meio (como).
 
     **Figura 9 - Informações complementares - Registro de matriz de comunicação**
 
--   **Grupo envolvido**: informe o grupo que deve receber a informação. Exemplo:
+    -   **Grupo envolvido**: informe o grupo que deve receber a informação. Exemplo:
     usuários, *stakeholders, *fornecedores, patrocinadores, etc.;
 
--   **Responsabilidades**: informe os responsáveis pela informação. Exemplo:
+    -   **Responsabilidades**: informe os responsáveis pela informação. Exemplo:
         gerente de projeto, analista de sistemas, etc.;
 
--   **Tipo de registo**: selecione o tipo de registro que deverá ser
+    -   **Tipo de registo**: selecione o tipo de registro que deverá ser
         comunicado;
 
--   **Frequência**: informe quando que deve ocorrer a comunicação;
+    -   **Frequência**: informe quando que deve ocorrer a comunicação;
 
--   **Forma de contato**: selecione o meio de comunicação;
+    -   **Forma de contato**: selecione o meio de comunicação;
 
--   Após os dados informados, clique no botão *Adicionar* para adição da
+    -   Após os dados informados, clique no botão *Adicionar* para adição da
         matriz de comunicação ao contrato.
 
 Vinculando fórmula do contrato
@@ -362,7 +360,7 @@ Vinculando unidades de negócio
 
     **Figura 11 - Informações complementares - Vínculo de unidades de negócio**
 
--   Realize a pesquisa da unidade e após isso, selecione a unidade para vincular
+    -   Realize a pesquisa da unidade e após isso, selecione a unidade para vincular
     ao contrato.
 
 Vinculando anexos
@@ -382,7 +380,7 @@ Vinculando anexos
 
     -  Após isso, será adicionado o arquivo ao contrato.
 
-1.  Após os dados do contrato informados, clique no botão *Gravar* para efetuar
+2.  Após os dados do contrato informados, clique no botão *Gravar* para efetuar
     o registro, onde a data, hora e usuário serão gravados automaticamente para
     uma futura auditoria.
 
