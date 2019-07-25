@@ -13,11 +13,11 @@ Pré-condições
 -------------
 
 1.  Ter um contrato cadastrado e ativo (ver conhecimento [Cadastro e pesquisa de
-    contrato];
+    contrato](1));
 
 2.  Ter uma solicitação de serviço cadastrada (ver cohecimento [Gerenciamento de
-    ticket(serviços)] seção Cadastro de ticket) e estar vinculada ao contrato (ver
-    conhecimento [Configuração dos atributos de serviço] seção Vinculando contratos ao serviço).
+    ticket(serviços)](2)) seção Cadastro de ticket) e estar vinculada ao contrato (ver
+    conhecimento [Configuração dos atributos de serviço](3) seção Vinculando contratos ao serviço).
 
 Filtros
 -------
@@ -111,7 +111,7 @@ Listagem de itens
 
     !!! warning "ATENÇÃO"
 
-         Serão exibidas em cada guia (Serviço, Causa e Item de Configuração), a quantidade crítica de solicitações, igual            ou superior à quantidade crítica mínima informada no filtro.
+         Serão exibidas em cada guia (Serviço, Causa e Item de Configuração), a quantidade crítica de solicitações, igual ou superior à quantidade crítica mínima informada no filtro.
         
 
 1.  Em cada guia serão apresentados os resultados referentes a cada tipo
@@ -158,14 +158,13 @@ Preenchimento dos campos cadastrais
 Veja também
 -----------
 
--   [Análise de tendência de
-    eventos][5].
+-   [Análise de tendência de eventos](4)).
 
-[1]:#
-[2]:#
-[3]:#
-[4]:#
-[5]:#
+[1]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[2]:/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html
+[3]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
+[4]:/pt-br/citsmart-platform-7/processes/tickets/event-trends.html
+
 
 
 !!! tip "About"
