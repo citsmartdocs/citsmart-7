@@ -1,6 +1,5 @@
 title: Cadastro e pesquisa de condição de operação
-Description: Esta funcionalidade tem o objetivo de registrar e pesquisar a
-disponibilidade da operação de serviços.
+Description: Esta funcionalidade tem o objetivo de registrar e pesquisar a disponibilidade da operação de serviços.
 
 # Cadastro e pesquisa de condição de operação
 
@@ -28,14 +27,14 @@ Filtros
 
     -   Nome
 
-1.  Na tela Condição de operação, clique na guia **Pesquisa Condição de
+2.  Na tela Condição de operação, clique na guia **Pesquisa Condição de
     Operação**.
 
     ![Criar](images/condition-1.png)
 
     **Figura 1 - Tela de pesquisa de condição de operação**
 
-1.  Realize a pesquisa de condição de operação;
+3.  Realize a pesquisa de condição de operação;
 
     -  Informe a descrição da condição de operação que deseja pesquisar e
         clique no botão *Pesquisar*. Após isso, será exibido o registro conforme
@@ -49,13 +48,13 @@ Listagem de itens
 
 1.  O seguinte campo cadastral está disponível ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade:** Nome.**
+    funcionalidade: **Nome**.
 
     ![Criar](images/condition-2.png)
 
     **Figura 2 -Listagem de condição de operação**
 
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
+2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
     para a tela de cadastro exibindo o conteúdo referente ao registro
     selecionado;
 
@@ -68,10 +67,10 @@ Preenchimento dos campos cadastrais
 
     **Figura 3 - Tela de cadastro de condição de operação**
 
-1.  Informe a descrição da condição de operação dos serviços. Ex.: 24 x 7 ou
+2.  Informe a descrição da condição de operação dos serviços. Ex.: 24 x 7 ou
     Horário Comercial.
 
-2.  Clique no botão *Gravar* para efetuar o registro, onde a data, hora e
+3.  Clique no botão *Gravar* para efetuar o registro, onde a data, hora e
     usuário serão gravados automaticamente para uma futura auditoria.
 
 
