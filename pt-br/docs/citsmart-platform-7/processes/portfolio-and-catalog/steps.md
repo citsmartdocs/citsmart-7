@@ -38,7 +38,7 @@ Procedimento operacional padronizado (pop) para criação de novos serviços
 9.  Cada grupo de colaboradores que interagirá com o novo serviço deve ter sido criado. Acesse o menu **Acesso e Permissão > Grupo** (ver conhecimento [Cadastro e pesquisa de grupo]. E cada grupo criado deve estar vinculado a cada Contrato de cada novo
  Serviço (**Processos ITIL > Gerência de Portfólio de Catálogo > Cadastro de Contratos > Grupos de Usuários**) (ver conhecimento [Cadastro e pesquisa de contrato].
 
-10. Cada Portfólio que conterá o novo serviço deve estar criado. Acesse o menu **Processos ITIL > Gerência de Portfólio e Catálogo > Gerenciamento de Portfólio** (ver conhecimento [Cadastro de portfólio de serviços]**.
+10. Cada Portfólio que conterá o novo serviço deve estar criado. Acesse o menu **Processos ITIL > Gerência de Portfólio e Catálogo > Gerenciamento de Portfólio** (ver conhecimento [Cadastro de portfólio de serviços].
 
 11. A permissão de acesso a cada Portfólio de cada novo Serviço deve estar definida para liberar ou restringir o acesso dos perfis de usuários às funcionalidades existentes na tela de Gerenciamento de Portfólio. Acesse o menu **Acesso e Permissão > Gerência de Portfólio** (ver conhecimento [Permissão de acesso do gerenciamento de portfólio].
 
