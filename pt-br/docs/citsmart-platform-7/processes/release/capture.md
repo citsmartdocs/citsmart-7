@@ -17,8 +17,7 @@ Pré-condições
 -------------
 
 1.  Ter requisição de liberação registrada (ver conhecimento [Cadastro e
-    pesquisa de requisição de
-    liberação]().
+    pesquisa de requisição de liberação].
 
 Filtros
 -------
@@ -40,9 +39,9 @@ Listagem de itens
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Número**, **Solicitante**, **Criada**
-    **em**, **Prioridade**, **Prazo Limite**, **Atraso**, **Situação**, **Tarefa**
-    **atual**, **Grupo Executor**, **Responsável atual** e **Compartilhada com**.
+    funcionalidade: Número, Solicitante, Criada
+    em, Prioridade**, **Prazo Limite**, Atraso, Situação, Tarefa
+    atual, Grupo Executor, Responsável atual e Compartilhada com.
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Visualizar*, *Relatórios* e *Ação*.
