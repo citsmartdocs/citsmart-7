@@ -124,7 +124,7 @@ Account* – sem permissões de acesso à rede e outros equipamentos).
     Caso o Agente já esteja instalado e você queira desinstalar para instalação
     de uma nova versão, basta proceder da seguinte forma:
 
-    -   Em “Painel de Controle” > “Ferramenta Administrativas” → “Serviços”, clique
+    -   Em “Painel de Controle” > “Ferramenta Administrativas” > “Serviços”, clique
     em Parar no Serviço agCITSmart.NET;
 
     -   Em “Painel de Controle” > “Programas e Recursos”, localize o software
