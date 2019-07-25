@@ -72,13 +72,13 @@ solução.
 
     **Figura 3 - Tela de gerenciamento de problemas**
 
-1.  Será exibida a tela de **Registro de Problema** com os campos preenchidos,
+2.  Será exibida a tela de **Registro de Problema** com os campos preenchidos,
     com o conteúdo referente ao problema selecionado;
 
-2.  Consulte a base de conhecimento a fim de obter o conhecimento necessário
+3.  Consulte a base de conhecimento a fim de obter o conhecimento necessário
     para resolução do problema;
 
-3.  Clique na guia **Base de Conhecimento**, localizada no canto superior
+4.  Clique na guia **Base de Conhecimento**, localizada no canto superior
     direito da tela, conforme indicado na figura abaixo:
 
     ![Criar](images/investigation-4.png)
@@ -92,7 +92,7 @@ solução.
 
     **Figura 5 - Base de conhecimento**
 
-1.  Registre as informações sobre avaliação e diagnóstico do problema:
+5.  Registre as informações sobre avaliação e diagnóstico do problema:
 
     -  Clique na guia **Processos/Opções** e logo em seguida em **Avaliação e
     Diagnóstico**, localizada no canto direito da tela, conforme indicado na
@@ -116,7 +116,7 @@ solução.
 
     -  **Diagnóstico**: descreva o diagnóstico do problema realizado.
 
-1.  Informe a mudança, caso for necessário para resolução do problema:
+6.  Informe a mudança, caso for necessário para resolução do problema:
 
     -  Clique na guia **Processos/Opções** e logo em seguida em **Mudanças**,
     localizada no canto direito da tela, conforme indicado na figura abaixo:
@@ -143,7 +143,7 @@ solução.
     de mudança, poderá registrá-la no sistema a partir dessa tela, basta clicar
     no ícone ![Criar](images/investigation-12.png) de mudança.
 
-1.  Após o registro das informações de avaliação e diagnóstico, informe a
+7.  Após o registro das informações de avaliação e diagnóstico, informe a
     solução de contorno:
 
     !!! info "IMPORTANTE"
@@ -170,32 +170,28 @@ solução.
 
     -  Será exibida uma tela para registrar as informações da solução de contorno;
 
-       -   **Título**: defina o título da solução de contorno;
+         -   **Título**: defina o título da solução de contorno;
 
-       -   **Descrição**: descreva a solução de contorno proposta;
+         -   **Descrição**: descreva a solução de contorno proposta;
 
-       -   Após os dados informados, clique no botão *Gravar* para efetuar o
-           registro das informações de solução de contorno, onde a data, hora e
-           usuário serão gravados automaticamente para uma futura auditoria.
+         -   Após os dados informados, clique no botão *Gravar* para efetuar o registro das informações de solução de contorno, onde a             data, hora e usuário serão gravados automaticamente para uma futura auditoria.
 
     -  Caso tenha uma solução definitiva para o problema, clique no ícone ![Criar](images/investigation-12.png) de
     solução definitiva para registrar as informações de uma solução definitiva;
 
     -  Será exibida uma tela para registrar as informações da solução definitiva;
 
-       -  **Título**: defina o título da solução definitiva;
+          -  **Título**: defina o título da solução definitiva;
 
-       -  **Descrição**: descreva a solução definitiva proposta;
+          -  **Descrição**: descreva a solução definitiva proposta;
 
-       -  Após os dados informados, clique no botão *Gravar* para efetuar o
-          registro das informações de solução definitiva, onde a data, hora e
-          usuário serão gravados automaticamente para uma futura auditoria.
+          -  Após os dados informados, clique no botão *Gravar* para efetuar o registro das informações de solução definitiva, onde a            data, hora e  usuário serão gravados automaticamente para uma futura auditoria.
 
-1.  Após registro das informações da investigação e diagnóstico do problema,
+8.  Após registro das informações da investigação e diagnóstico do problema,
     clique no botão *Gravar e avançar o fluxo*, para efetuar a operação, onde o
     problema será encaminhado para fase de registro do erro conhecido;
 
-2.  Caso queira gravar somente as informações registradas sobre a investigação e
+9.  Caso queira gravar somente as informações registradas sobre a investigação e
     diagnóstico do problema e manter a tarefa atual, clique no botão *Gravar e
     manter a tarefa atual*;
 
