@@ -49,7 +49,7 @@ um conhecimento mais detalhado.
 Veja também
 ------------
 
-- Cadastro de requisição de mudança.
+- [Cadastro de requisição de mudança](/pt-br/citsmart-platform-7/processes/change/register-change.html).
 
 !!! tip "About"
 
