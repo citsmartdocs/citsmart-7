@@ -155,7 +155,7 @@ Veja também
 [1]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
 [2]:/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html
 [3]:/pt-br/citsmart-platform-7/additional-features/add-ons/event-monitor-connection.html
-[4]:#
+[4]:/pt-br/citsmart-platform-7/additional-features/add-ons/inventory-installation.html
 
 !!! tip "About"
 
