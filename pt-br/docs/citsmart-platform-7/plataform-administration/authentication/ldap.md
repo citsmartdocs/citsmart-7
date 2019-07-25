@@ -86,15 +86,16 @@ figura abaixo:
     - **Atributo para nome**: informe o atributo do LDAP que será setado como nome do usuário CITSmart;
     - **Atualizar vínculos**: por padrão o valor selecionado é “NÃO”. Serve para não atualizar os itens: Perfil de Acesso e 
     Grupo;
+        - Sempre: o sistema atualiza os vínculos de Perfil de Acesso e Grupo sempre que o sistema sincronizar o LDAP;
+        - Nunca: o sistema nunca atualiza os vínculos de Perfil de Acesso e Grupo nem mesmo na 1ª criação, ou seja, a carga
+        de colaboradores é feita, porém, nenhum usuário estará em um Grupo ou Perfil de Acesso pré estabelecido;
+        - Somente na criação: o sistema atualiza os vínculos de Perfil de Acesso e Grupo somente na criação de um novo usuário 
+        quando o sistema sincronizar com LDAP.
     - **Perfil de acesso**: selecione o perfil de acesso que será atribuído automaticamente a cada sincronização;
     
-    !!!! warning "ATENÇÃO"
+    !!!! info "IMPORTANTE"
     
-        É importante notar que se o campo "Atualizar vínculos" for igual a SIM, o conteúdo atribuído ao campo "Perfil de Acesso" 
-        será atribuído a todos usuários do mesmo domínio e grupo da configuração escolhida. Caso não queira a execução desta 
-        sobreposição, deve-se mudar "Atualizar vínculos" para NÃO ou atribua "-- Selecione --" ao campo "Perfil de Acesso", o 
-        que eliminará o risco da sobreposição no cadastro de usuários da solução. De forma análoga, esta regra vale para o 
-        campo "Grupo".
+        O sistema não permite excluir um usuário que tem origem no LDAP.
         
     - **Grupo**: informe o grupo que os usuários serão vinculados;
     - **Paginação**: defina o número máximo de usuários que a rotina de sincronização irá retornar;
