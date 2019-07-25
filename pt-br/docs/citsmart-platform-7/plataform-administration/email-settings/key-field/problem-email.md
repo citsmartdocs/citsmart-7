@@ -54,18 +54,18 @@ Utilização dos campos chave
 Segue abaixo os exemplos de utilização dos campos chave disponíveis para inserção no cadastro de modelo de e-mail relacionado a 
 problemas.
 
-![Exemplo](images/key-prob.img1.png)
+![Exemplo](Images/key-prob.img1.png)
 
 **Figura 1 - Exemplo de inserção**
 
-![Resultado](images/key-prob.img2.png)
+![Resultado](Images/key-prob.img2.png)
 
 **Figura 2 - Exemplo do resultado do envio**
 
 Exemplo dos Campos Chave Exibidos no E-mail
 ---------------------------------------------
 
-![Exemplos](images/key-prob.img3.png)
+![Exemplos](Images/key-prob.img3.png)
 
 !!! tip "About"
 
