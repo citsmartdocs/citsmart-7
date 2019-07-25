@@ -230,22 +230,22 @@ CITSmart.
     # ln -s /opt/jdk1.7.0_80/bin/keytool /usr/bin
     # java -version
     java version "1.7.0_80"
-    **Java(TM) SE Runtime Environment (build 1.7.0_80-b15)**
-    **Java HotSpot(TM) 64-Bit Server VM (build 24.80-b11, mixed mode)**
+    Java(TM) SE Runtime Environment (build 1.7.0_80-b15)
+    Java HotSpot(TM) 64-Bit Server VM (build 24.80-b11, mixed mode)
     ````
 
 2.  Extraia o Jboss para o diretório /opt.
 
 3.  No exemplo abaixo utilizamos o Jboss com o PostgreSQL configurado.
 
-   ````sh
-   # tar -xvzf jboss-7.1.2_postgres.tar.gz -C /opt/
-   ````
+    ````sh
+    # tar -xvzf jboss-7.1.2_postgres.tar.gz -C /opt/
+    ````
 
 4.  Agora devemos configurar o arquivo standalone-full.xml.
 
-**Algumas configurações só serão possíveis após a instalação de todos os
-componentes da solução**.
+Algumas configurações só serão possíveis após a instalação de todos os
+componentes da solução.
 
     ````sh
     <!-- SET TRUE TO ENABLE EVM -->
@@ -332,7 +332,7 @@ Descomprima o ActiveMQ e JAVA no diretório /opt e crie o link simbólico do JAV
 
     ````sh
     # tar -xvzf mongodb-linux-x86_64-ubuntu1604-3.4.5.tgz -C /opt/
-    ```
+    ````
 
 2.  Devemos criar um diretório para a base e iniciar o MongoDB. Repare que ele
     irá subir com permissões irrestritas de acesso.
@@ -342,7 +342,7 @@ Descomprima o ActiveMQ e JAVA no diretório /opt e crie o link simbólico do JAV
     # cd /opt/mongodb-linux-x86_64-ubuntu1604-3.4.5/bin/
     #./mongod
     <mensagens de acesso irrestrito>
-    ```
+    ````
 
 3.  Com o MongoDB iniciado, abra outro terminal, acesse o diretório bin do
     MongoDB e crie a base CITSmart definindo seu usuário e senha.
@@ -381,6 +381,7 @@ Servidor de banco de dados Postgresql/Oracle/Mssql
     # apt-get update
     # apt-get install postgresql-9.5
     ````
+
 3.	Após instalar o PostgreSQL precisamos criar a base de dados, usuário e senha.
 
     ````sh
@@ -449,6 +450,7 @@ Servidor de indexação apache Solr
     # chown -R solr /opt/solr-6.4.2/
     # sudo -u solr /opt/solr-6.4.2/bin/solr start
     ````
+
 4.	Descomprima o arquivo para configurações da base de conhecimento e execute a criação da collection.
 
     ````sh
@@ -552,12 +554,12 @@ Configuração do processamento batch (arquivo quartz.properties)
 Abaixo são apresentados os passos que devem ser realizados para configurar a
 rotina de **processamento batch** do CITSmart para ambiente clusterizado.
 
-   !!! warning "ATENÇÃO"
+!!! warning "ATENÇÃO"
 
-      Nunca utilize a rotina de processamento batch em ambiente clusterizado,
-      sem que o horário dos servidores seja sincronizado. Portanto, não realize as
-      configurações sem que, primeiramente, os servidores estejam com esta
-      sincronização ativa.
+    Nunca utilize a rotina de processamento batch em ambiente clusterizado,
+    sem que o horário dos servidores seja sincronizado. Portanto, não realize as
+    configurações sem que, primeiramente, os servidores estejam com esta
+    sincronização ativa.
 
 1.  Adicionar o arquivo *quartz.properties* disponibilizado no deploy da versão
     e correspondente ao banco de dados utilizado, diretamente na pasta
@@ -616,8 +618,8 @@ rotina de **processamento batch** do CITSmart em ambiente standalone.
     para ambiente standalone, diretamente na pasta “configuration” do diretório
     standalone do JBoss.
 
-2.  No arquivo de configuração do JBoss *standalone.xml, *incluir na
-    tag *system-properties* a propriedade** org.quartz.properties**, conforme
+2.  No arquivo de configuração do JBoss *standalone.xml*, incluir na
+    tag *system-properties* a propriedade **org.quartz.properties**, conforme
     indicado abaixo:
 
     ````sh
@@ -657,12 +659,12 @@ Download dos deploys do CITSmart
 
 Com os deploys em mãos, mova-os para o diretório deployments do Jboss.
  
-    ````sh
-    # cp <deploy 1>.war /opt/jboss-7.1.2/standalone/deployments/
-    # cp <deploy 2>.war /opt/jboss-7.1.2/standalone/deployments/
-    # cp <deploy 3>.war /opt/jboss-7.1.2/standalone/deployments/
-    <continue conforme os deploys disponíveis para sua subscrição>
-    ````
+````sh
+# cp <deploy 1>.war /opt/jboss-7.1.2/standalone/deployments/
+# cp <deploy 2>.war /opt/jboss-7.1.2/standalone/deployments/
+# cp <deploy 3>.war /opt/jboss-7.1.2/standalone/deployments/
+<continue conforme os deploys disponíveis para sua subscrição>
+````
 
 Criação de diretórios para instalação
 ------------------------------------
@@ -670,17 +672,18 @@ Criação de diretórios para instalação
 Crie os diretórios abaixo para serem configurados nos 3 passos de instalação
 web.
     
-    ````sh
-    ***Para GED***:
-    mkdir /opt/citsmart/ged
-    ***Para Base de Conhecimento***:
-    mkdir /opt/citsmart/kb
-    ***Para Palavras Gêmeas***:
-    mkdir /opt/citsmart/twinwords
-    ***Para Anexos de Base de Conhecimento***:
-    mkdir /opt/citsmart/attachkb
-    ***Para Upload***:
-    mkdir /opt/citsmart/upload
+````sh
+Para GED:
+mkdir /opt/citsmart/ged
+Para Base de Conhecimento:
+mkdir /opt/citsmart/kb
+Para Palavras Gêmeas:
+mkdir /opt/citsmart/twinwords
+Para Anexos de Base de Conhecimento:
+mkdir /opt/citsmart/attachkb
+Para Upload:
+mkdir /opt/citsmart/upload
+````
 
 Geração de certificado auto assinado SSL
 ---------------------------------------
@@ -740,7 +743,8 @@ Geração de certificado auto assinado SSL
     <ssl name="citsmart-ssl" key-alias="GRPv1" password="123456" certificate-key-file="${jboss.server.config.dir}/GRPv1.keystore"/>
     </connector>
     ````
-    
+   
+   
 2.  Após a geração do certificado, descomente
     no **/opt/jboss-7.1.2/standalone/configuration/standalone-full.xml** do
     jboss.
@@ -795,7 +799,7 @@ Acesso ao CITSmart Enterprise
 
    -  O contexto citsmart é o padrão do CITSmart Enterprise ITSM.
 
-   **Primeiro Acesso: **Digite a URL
+   **Primeiro Acesso**: Digite a URL
 
    ![Criar](images/installation-2.png)
     
@@ -890,7 +894,7 @@ Siga os passos:
 
 4.  Habilitar no boot do sistema: **systemctl enable postfix;**
 
-5.  Entre no diretório:** cd /etc/postfix:**
+5.  Entre no diretório**: cd /etc/postfix:**
 
 6.  Fazer uma cópia dos arquivos: **cp main.cf main.cf.original;**
 
@@ -898,15 +902,23 @@ Siga os passos:
 
 8.  Após apagar os arquivos adicionamos essas configurações:
  
-***vim /etc/postfix/main.cf
-myhostname = hostname.example.com
-relayhost = [smtp.gmail.com]:587
-smtp_use_tls = yes
-smtp_sasl_auth_enable = yes
-smtp_sasl_password_maps = hash:/etc/postfix/sasl_passwd
-smtp_tls_CAfile = /etc/ssl/certs/ca-bundle.crt
-smtp_sasl_security_options = noanonymous
-smtp_sasl_tls_security_options = noanonymous***
+    ***vim /etc/postfix/main.cf**
+
+    **myhostname = hostname.example.com**
+
+    **relayhost = [smtp.gmail.com]:587**
+
+    **smtp_use_tls = yes**
+
+    **smtp_sasl_auth_enable = yes**
+
+    **smtp_sasl_password_maps = hash:/etc/postfix/sasl_passwd**
+
+    **smtp_tls_CAfile = /etc/ssl/certs/ca-bundle.crt**
+
+    **smtp_sasl_security_options = noanonymous**
+
+    **smtp_sasl_tls_security_options = noanonymous***
  
 9.  Entre no diretório do postfix: **cd /etc/postfix;**
 
@@ -1268,47 +1280,48 @@ descritas abaixo:
         arquivo smtp.crt. Ao abrir este arquivo, será possível verificar as
         propriedades do certificado e suas respectivas impressões digitais.
 
-**Exemplo do conteúdo:**
+    **Exemplo do conteúdo:**
     
-   -----BEGIN CERTIFICATE-----
-   MIIFBjCCA+6gAwIBAgIBAzANBgkqhkiG9w0BAQUFADCBjDELMAkGA1UEBhMCQlIx
-   CzAJBgNVBAgTAkRGMRIwEAYDVQQHFAlCcmFzw61saWExDDAKBgNVBAoTA1BSRjEO
-   MAwGA1UECxMFRElURUwxDzANBgNVBAMTBlBSRi1DQTEPMA0GA1UEKRMGUFJGLUNB
-   MRwwGgYJKoZIhvcNAQkBFg1jYUBwcmYuZ292LmJyMB4XDTE0MDIyNTIyNDcyMFoX
-   DTI0MDIyMzIyNDcyMFowgZ4xCzAJBgNVBAYTAkJSMQswCQYDVQQIEwJERjESMBAG
-   A1UEBxQJQnJhc8OtbGlhMQwwCgYDVQQKEwNQUkYxDjAMBgNVBAsTBURJVEVMMRcw
-   FQYDVQQDEw5teDMucHJmLmdvdi5icjERMA8GA1UEKRMIY2hhbmdlbWUxJDAiBgkq
-   hkiG9w0BCQEWFXBvc3RtYXN0ZXJAcHJmLmdvdi5icjCCASIwDQYJKoZIhvcNAQEB
-   BQADggEPADCCAQoCggEBAMqLX1/yDGC9cFWovRljsGPr7tk8sdPccgx1UH+TkL8h
-   n8TxJIjgO40MNsUdsIVL+xO7aulIWmWhB9bNQDmCuCjBeXnp3vND8OFXThKXBd64
-   OxVzLHhG9DpIK+9i28jRhcjBNTNVrMKLAGiUFYWw2luKYl6HE96ftovn1UUm013b
-   n7SZXDF0fUKWObOPl1UIQKh1Yy/+h5B8hAhcqNlSVZGGkTAdTGe/NcTjqyGTuwIB
-   WUVPPO24WfqvgDukP68gT5e6D2REis7GSR+pcxpwH242iFCFQli4ATt1kvmglCQ5
-   OjXO+/1s7tt4u8FYzBXk2KiDqtajnqZT+AoLnMsRpDcCAwEAAaOCAV0wggFZMAkG
-   A1UdEwQCMAAwEQYJYIZIAYb4QgEBBAQDAgZAMDQGCWCGSAGG+EIBDQQnFiVFYXN5
-   LVJTQSBHZW5lcmF0ZWQgU2VydmVyIENlcnRpZmljYXRlMB0GA1UdDgQWBBSOtZGL
-   2GmIO5K6xH5l7TwhPLDQfTCBwQYDVR0jBIG5MIG2gBScCoQRvlGi++0ILaLpd0zU
-   6gJu5KGBkqSBjzCBjDELMAkGA1UEBhMCQlIxCzAJBgNVBAgTAkRGMRIwEAYDVQQH
-   FAlCcmFzw61saWExDDAKBgNVBAoTA1BSRjEOMAwGA1UECxMFRElURUwxDzANBgNV
-   BAMTBlBSRi1DQTEPMA0GA1UEKRMGUFJGLUNBMRwwGgYJKoZIhvcNAQkBFg1jYUBw
-   cmYuZ292LmJyggkAsb36xutVAGkwEwYDVR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0P
-   BAQDAgWgMA0GCSqGSIb3DQEBBQUAA4IBAQBH76r7YW7pch2ck6S1BQlJOQpI6SlK
-   pntOPzn98vvkzaRTKdYDronGGy2RZ21ced6+Zyh34Vv2CQMpCY7N5wH1/XFJNP0G
-   MIydH/SAOY6stJH4CRadLa0Lb5Q5dKTB5BfJAwNRqkkQLMGFDWw6r4MEJpSgP6QL
-   QTDcJcIvmjnRdbzddA6IspUG0sSs8wE4QUksRJyFfwAFrQ+7cMcpbcWSn8+gVOTg
-   p5+eRgCCjBzl4E7DcLIgB10izTgQqik06WbTlcSXr2NqZRcrJaULxPT7GL8WCP8W
-   4NkW/oi8jSORUHd8YoOZKOO7v6s4+9WlT8tf7YrcyuRuo1e4l+NzevJ8
-   -----END CERTIFICATE-----    
+    -----BEGIN CERTIFICATE-----
+    MIIFBjCCA+6gAwIBAgIBAzANBgkqhkiG9w0BAQUFADCBjDELMAkGA1UEBhMCQlIx
+    CzAJBgNVBAgTAkRGMRIwEAYDVQQHFAlCcmFzw61saWExDDAKBgNVBAoTA1BSRjEO
+    MAwGA1UECxMFRElURUwxDzANBgNVBAMTBlBSRi1DQTEPMA0GA1UEKRMGUFJGLUNB
+    MRwwGgYJKoZIhvcNAQkBFg1jYUBwcmYuZ292LmJyMB4XDTE0MDIyNTIyNDcyMFoX
+    DTI0MDIyMzIyNDcyMFowgZ4xCzAJBgNVBAYTAkJSMQswCQYDVQQIEwJERjESMBAG
+    A1UEBxQJQnJhc8OtbGlhMQwwCgYDVQQKEwNQUkYxDjAMBgNVBAsTBURJVEVMMRcw
+    FQYDVQQDEw5teDMucHJmLmdvdi5icjERMA8GA1UEKRMIY2hhbmdlbWUxJDAiBgkq
+    hkiG9w0BCQEWFXBvc3RtYXN0ZXJAcHJmLmdvdi5icjCCASIwDQYJKoZIhvcNAQEB
+    BQADggEPADCCAQoCggEBAMqLX1/yDGC9cFWovRljsGPr7tk8sdPccgx1UH+TkL8h
+    n8TxJIjgO40MNsUdsIVL+xO7aulIWmWhB9bNQDmCuCjBeXnp3vND8OFXThKXBd64
+    OxVzLHhG9DpIK+9i28jRhcjBNTNVrMKLAGiUFYWw2luKYl6HE96ftovn1UUm013b
+    n7SZXDF0fUKWObOPl1UIQKh1Yy/+h5B8hAhcqNlSVZGGkTAdTGe/NcTjqyGTuwIB
+    WUVPPO24WfqvgDukP68gT5e6D2REis7GSR+pcxpwH242iFCFQli4ATt1kvmglCQ5
+    OjXO+/1s7tt4u8FYzBXk2KiDqtajnqZT+AoLnMsRpDcCAwEAAaOCAV0wggFZMAkG
+    A1UdEwQCMAAwEQYJYIZIAYb4QgEBBAQDAgZAMDQGCWCGSAGG+EIBDQQnFiVFYXN5
+    LVJTQSBHZW5lcmF0ZWQgU2VydmVyIENlcnRpZmljYXRlMB0GA1UdDgQWBBSOtZGL
+    2GmIO5K6xH5l7TwhPLDQfTCBwQYDVR0jBIG5MIG2gBScCoQRvlGi++0ILaLpd0zU
+    6gJu5KGBkqSBjzCBjDELMAkGA1UEBhMCQlIxCzAJBgNVBAgTAkRGMRIwEAYDVQQH
+    FAlCcmFzw61saWExDDAKBgNVBAoTA1BSRjEOMAwGA1UECxMFRElURUwxDzANBgNV
+    BAMTBlBSRi1DQTEPMA0GA1UEKRMGUFJGLUNBMRwwGgYJKoZIhvcNAQkBFg1jYUBw
+    cmYuZ292LmJyggkAsb36xutVAGkwEwYDVR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0P
+    BAQDAgWgMA0GCSqGSIb3DQEBBQUAA4IBAQBH76r7YW7pch2ck6S1BQlJOQpI6SlK
+    pntOPzn98vvkzaRTKdYDronGGy2RZ21ced6+Zyh34Vv2CQMpCY7N5wH1/XFJNP0G
+    MIydH/SAOY6stJH4CRadLa0Lb5Q5dKTB5BfJAwNRqkkQLMGFDWw6r4MEJpSgP6QL
+    QTDcJcIvmjnRdbzddA6IspUG0sSs8wE4QUksRJyFfwAFrQ+7cMcpbcWSn8+gVOTg
+    p5+eRgCCjBzl4E7DcLIgB10izTgQqik06WbTlcSXr2NqZRcrJaULxPT7GL8WCP8W
+    4NkW/oi8jSORUHd8YoOZKOO7v6s4+9WlT8tf7YrcyuRuo1e4l+NzevJ8
+    -----END CERTIFICATE-----    
+    
     
 4.  Importe o arquivo cacerts da pasta /jre/lib/security:
 
     -   keytool -import -keystore cacerts -file smtp.cer
 
-   !!! note "NOTA"
+    !!! note "NOTA"
 
-      No Windows, é necessário copiar o arquivo cacerts para uma pasta que não
-      necessite de permissão de administrador ou abrir o console em modo
-      administrador.
+        No Windows, é necessário copiar o arquivo cacerts para uma pasta que não
+        necessite de permissão de administrador ou abrir o console em modo
+        administrador.
 
 5.  Reinicie o servidor.
 
@@ -1323,7 +1336,7 @@ Veja também
 
 -   [Manual de instalação do Central Authentication Service (CAS) - versão 3.0 (ITSM)];
 
--   [Manual de instalação do componente EVM]().
+-   [Manual de instalação do componente EVM].
     
     
 !!! tip "About"
