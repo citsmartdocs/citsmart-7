@@ -251,15 +251,15 @@ Cadastrando serviço de negócio
 8.  Para excluir o Serviço de Negócio, clique no botão *Editar* do mesmo e logo
     em seguida clique no botão *Excluir* para efetuar a operação.
 
-     !!! note "NOTA"
+    !!! note "NOTA"
 
-         Quando o serviço estiver com status em "requisitos", "definição",
-         "análise", "aprovado", "termo de abertura", "desenho", "desenvolvimento",
-         "construção" ou "teste", ele se encontrará na parte de "Funil de
-         Serviços". Quando o serviço estiver com o status em "liberação" ou
-         "produção", ele se encontrará na parte de "Catálogo de Serviços". Quando o
-         serviço estiver com o status em "aposentando" ou "aposentado", ele se
-         encontrará na parte de "Serviço Obsoletos".
+        Quando o serviço estiver com status em "requisitos", "definição",
+        "análise", "aprovado", "termo de abertura", "desenho", "desenvolvimento",
+        "construção" ou "teste", ele se encontrará na parte de "Funil de
+        Serviços". Quando o serviço estiver com o status em "liberação" ou
+        "produção", ele se encontrará na parte de "Catálogo de Serviços". Quando o
+        serviço estiver com o status em "aposentando" ou "aposentado", ele se
+        encontrará na parte de "Serviço Obsoletos".
 
 
 9.  Caso queira disponibilizar o serviço nas 3 línguas disponíveis
