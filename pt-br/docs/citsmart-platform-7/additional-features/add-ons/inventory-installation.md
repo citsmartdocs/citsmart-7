@@ -82,18 +82,18 @@ caso eliminando a necessidade de configurar a porta SNMP de cada máquina).
     (*switches*) e impressoras. Para que o SNMP funcione em ambiente Windows e
     Linux é necessário instalar os componentes/pacotes e habilitar permissões.
 
--   **CMDB: **É um repositório de informações relacionadas a todos os
+-   **CMDB**: É um repositório de informações relacionadas a todos os
     componentes do CITSmart. Ele contém os detalhes dos [itens de
     configuração](https://pt.wikipedia.org/wiki/Item_de_configura%C3%A7%C3%A3o) (IC)
     na infraestrutura de TI.
 
--   **Citsmart Inventory: **Aplicação responsável por realizar o inventário dos
+-   **Citsmart Inventory**: Aplicação responsável por realizar o inventário dos
     ativos e itens de configuração na rede e enviar os dados obtidos para o
     CITSmart armazenar no banco de dados.
 
 -   Loja CITSmart no banco de dados.
 
--   **MongoDB: **Banco de dados orientado a documentos, diferente dos bancos de
+-   **MongoDB**: Banco de dados orientado a documentos, diferente dos bancos de
     dados tradicionais que seguem o modelo relacional. Ele é de [grande
     armazenamento de
     dados](https://pt.wikipedia.org/wiki/Banco_de_dados_muito_grande) e de maior
