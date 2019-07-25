@@ -1,7 +1,5 @@
 title: Cadastro e pesquisa de categoria de serviço
-Description: Permite registrar e pesquisar as categorias para posicionar os
-serviços de negócio, apoio, requisição, incidente e procedimento, dentro de
-grupos semelhantes de atuação
+Description: Permite registrar e pesquisar as categorias para posicionar os serviços de negócio, apoio, requisição, incidente e procedimento, dentro de grupos semelhantes de atuação.
 
 # Cadastro e pesquisa de categoria de serviço
 
@@ -30,20 +28,20 @@ Filtros
 
     -   Nome.
 
-1.  Na tela de **Categoria Serviço**, clique na guia **Pesquisa Categoria
+2.  Na tela de **Categoria Serviço**, clique na guia **Pesquisa Categoria
     Serviço** conforme ilustrada na figura abaixo:
 
     ![Criar](images/service-category-1.png)
 
     **Figura 1 - Tela de pesquisa de categoria de serviço**
 
-1.  Realize a pesquisa de categoria de serviço;
+3.  Realize a pesquisa de categoria de serviço;
 
     -  Informe o nome da categoria de serviço e clique no botão *Pesquisar*. Após
     isso, será exibido o registro conforme o nome informado.
 
     -  Caso deseje listar todos os registros de categoria de serviço, basta
-        clicar diretamente no botão *Pesquisar*.
+    clicar diretamente no botão *Pesquisar*.
 
 Listagem de itens
 -----------------
@@ -56,7 +54,7 @@ Listagem de itens
 
     **Figura 2 - Tela de listagem de categoria de serviço**
 
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
+2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
     para a tela de cadastro exibindo o conteúdo referente ao registro
     selecionado, podendo editar a Categoria de Serviço.
 
@@ -70,7 +68,7 @@ Preenchimento dos campos cadastrais
 
     **Figura 3 - Tela de cadastro de categoria de serviço**
 
-1.  Preencha os campos conforme orientações abaixo:
+2.  Preencha os campos conforme orientações abaixo:
 
     -  **Nome**: informe o nome da categoria de serviço;
 
