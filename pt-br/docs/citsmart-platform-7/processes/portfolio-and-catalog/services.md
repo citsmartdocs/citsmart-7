@@ -9,19 +9,15 @@ Pré-condições
 -------------
 
 1.  Ter permissão de acesso às funcionalidades do Gerenciamento de Portfólio
-    (ver conhecimento [Permissão de acesso do gerenciamento de
-    portfólio]();
+    (ver conhecimento [Permissão de acesso do gerenciamento de portfólio];
 
 2.  Ter o portfólio de serviços cadastrado (ver conhecimento [Cadastro de
-    portfólio de
-    serviços]();
+    portfólio de serviços];
 
 3.  Ter a categoria de serviço cadastrada (ver conhecimento [Cadastro e pesquisa
-    de categoria de
-    serviço]();
+    de categoria de serviço];
 
-4.  Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de
-    grupo]().
+4.  Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de grupo].
 
 Como acessar
 ------------
@@ -37,7 +33,7 @@ Filtros
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Descrição Portfólio
+    -   Descrição Portfólio
 
 ![Criar](images/service-1.png)
 
@@ -63,7 +59,7 @@ Cadastrando serviço de negócio
 
     **Figura 2 - Tela de gerenciamento de portfólio de serviços de negócio**
 
-1.  Clique no botão *Avançar* do portfólio para acessá-lo. Feito isso, será
+4.  Clique no botão *Avançar* do portfólio para acessá-lo. Feito isso, será
     apresentada a tela do **Portfólio de Serviços de Negócio**;
 
     ![Criar](images/service-3.png)
@@ -80,7 +76,7 @@ Cadastrando serviço de negócio
 
     **Figura 4 - Tela de cadastro de serviço**
 
-1.  Preencha os campos conforme orientação abaixo:
+2.  Preencha os campos conforme orientação abaixo:
 
     -  **Nome do Serviço**: informe o nome do serviço;
 
@@ -94,28 +90,28 @@ Cadastrando serviço de negócio
 
     -  **Data da Implantação**: informe a data de implantação do serviço;
 
-    -  **Fase do Serviço**: selecione a fase do serviço;
+    -  **Fase do Serviço**: selecione a fase do serviço:
 
-       -  **Definir**: esta fase indica que o serviço está em inicialização. Nesta
-          fase se inicia a coleta de informações sobre todos os serviços existentes e
-          propostos, a definição de novos serviços, casos de negócio e validação dos
-          dados do portfólio.
+          -  **Definir**: esta fase indica que o serviço está em inicialização. Nesta
+             fase se inicia a coleta de informações sobre todos os serviços existentes e
+             propostos, a definição de novos serviços, casos de negócio e validação dos
+             dados do portfólio.
 
-       -  **Analisar**: esta fase indica que o serviço está sendo analisado. Nesta
-          fase é analisado se o serviço vai dar retorno ao negócio e fazemos um
-          balanceamento entre oferta e demanda. Identificando também o que serviço
-          representa para o negócio. Nesta atividade faremos um levantamento macro
-          prévio de quais recursos serão utilizados por estes serviços: pessoas,
-          hardware, software, treinamento, etc. Quando essa opção for selecionada,
-          serão apresentados campos para serem preenchidos, conforme ilustrado na
-          figura abaixo:
+          -  **Analisar**: esta fase indica que o serviço está sendo analisado. Nesta
+             fase é analisado se o serviço vai dar retorno ao negócio e fazemos um
+             balanceamento entre oferta e demanda. Identificando também o que serviço
+             representa para o negócio. Nesta atividade faremos um levantamento macro
+             prévio de quais recursos serão utilizados por estes serviços: pessoas,
+             hardware, software, treinamento, etc. Quando essa opção for selecionada,
+             serão apresentados campos para serem preenchidos, conforme ilustrado na
+             figura abaixo:
 
       ![Criar](images/service-5.png)
 
       **Figura 5 - Tela de análise do serviço**
 
        -  **Tipo de Investimento**: indique o tipo de investimento referente ao
-    serviço;
+          serviço;
 
        -  **Demanda**: indique o tipo de demanda do serviço;
 
@@ -180,7 +176,7 @@ Cadastrando serviço de negócio
     consta um questionário, será apresentada na tela de registro de serviço uma
     aba de "questionário" para inserção de informações a respeito do serviço;
 
-1.  Caso queira anexar um arquivo, clique na aba **Documentos Anexos**. Será
+3.  Caso queira anexar um arquivo, clique na aba **Documentos Anexos**. Será
     exibida a tela para anexo de arquivos, conforme ilustrada na figura abaixo:
 
     ![Criar](images/service-6.png)
@@ -190,7 +186,7 @@ Cadastrando serviço de negócio
     -  Selecione o tipo de anexo, clique no botão *Adicionar Arquivo* e selecione o
     arquivo desejado.
 
-1.  Caso queira disponibilizar o serviço no Portal Smart e Chat, clique na
+4.  Caso queira disponibilizar o serviço no Portal Smart e Chat, clique na
     aba **Apresentação:**
 
     ![Criar](images/service-7.png)
@@ -228,7 +224,7 @@ Cadastrando serviço de negócio
         Serviço no Portal, somente será aplicada caso o parâmetro “Habilita
         permissão de acesso para grupos de usuário no portal” esteja habilitado.
 
-1.  Clique na aba **Permissão de Acesso**, será apresentada a tela para vincular
+5.  Clique na aba **Permissão de Acesso**, será apresentada a tela para vincular
     os grupos, conforme ilustrada na figura abaixo:
 
     ![Criar](images/service-9.png)
@@ -245,14 +241,14 @@ Cadastrando serviço de negócio
 
     -  Para desvincular o grupo, basta clicar no botão *Desvincular* do mesmo.
 
-1.  Após informar os dados do serviço de negócio, clique no botão *Gravar*.
+6.  Após informar os dados do serviço de negócio, clique no botão *Gravar*.
     Feito isso, o serviço será gravado e apresentado no **Portfólio de Serviços
     de Negócio**. Será apresentada tela com listagem de serviços.
 
-2.  Para configurar os atributos do Serviço de Negócio, clique no
+7.  Para configurar os atributos do Serviço de Negócio, clique no
     botão *Avançar*.
 
-3.  Para excluir o Serviço de Negócio, clique no botão *Editar* do mesmo e logo
+8.  Para excluir o Serviço de Negócio, clique no botão *Editar* do mesmo e logo
     em seguida clique no botão *Excluir* para efetuar a operação.
 
      !!! note "NOTA"
@@ -266,23 +262,23 @@ Cadastrando serviço de negócio
          encontrará na parte de "Serviço Obsoletos".
 
 
-1.  Caso queira disponibilizar o serviço nas 3 línguas disponíveis
+9.  Caso queira disponibilizar o serviço nas 3 línguas disponíveis
     (Português/Inglês/Espanhol), clique na aba Multi-idiomas conforme figura
     abaixo:
     
-   !!! info "IMPORTANTE"
+!!! info "IMPORTANTE"
          
-           O campo Multi-idiomas somente aparecerá no cadastro/edição de serviço se o mesmo estiver com opção SIM na aba                      principal do portfólio escolhido.
+     O campo Multi-idiomas somente aparecerá no cadastro/edição de serviço se o mesmo estiver com opção SIM na aba        principal do portfólio escolhido.
 
     
    ![Criar](images/service-10.png)
    
    **Figura 10 - Tela de internacionalização de serviços**
 
-   !!! note "NOTA"
+!!! note "NOTA"
 
-        Caso uma das 3 línguas nessa aba ficar em branco, as informações serão
-        preenchidas com as que estiver contidas na aba "Apresentação".
+     Caso uma das 3 línguas nessa aba ficar em branco, as informações serão
+     preenchidas com as que estiver contidas na aba "Apresentação".
 
 Vinculando com pesquisas
 ------------------------
@@ -292,9 +288,8 @@ cadastradas.
 
    !!! Abstract "SAIBA MAIS"
 
-         Para maiores informações sobre como cadastrar uma pesquisa, ver
-         conhecimento [Cadastro e pesquisa de pesquisa de
-         satisfação]().
+        Para maiores informações sobre como cadastrar uma pesquisa, ver
+        conhecimento [Cadastro e pesquisa de pesquisa de satisfação].
 
 1.  Preencha os campos cadastrais referentes ao novo serviço. Na aba
     Apresentação, selecione "*Sim*" na opção "disponível no portal", conforme a
@@ -304,14 +299,14 @@ cadastradas.
 
     **Figura 11 - Tela de apresentação**
 
-1.  Clique na aba *Pesquisas*. Será apresentada a tela de vínculo de pesquisas,
+2.  Clique na aba *Pesquisas*. Será apresentada a tela de vínculo de pesquisas,
     conforme ilustrada na figura abaixo:
 
     ![Criar](images/service-12.png)
 
     **Figura 12 - Tela de vinculação de pesquisas**
 
-1.  Vincule pesquisas ao serviço:
+3.  Vincule pesquisas ao serviço:
 
     -   Clique no botão *Vincular pesquisas*. Após isso, será apresentada a tela
     pesquisas;
@@ -342,7 +337,7 @@ Registrando serviço de apoio
 
     **Figura 13 - Tela de gerenciamento de portfólio**
 
-1.  Clique no botão *Avançar* do portfólio para acessá-lo. Feito isso, será
+4.  Clique no botão *Avançar* do portfólio para acessá-lo. Feito isso, será
     apresentada a tela do **Portfólio de Serviços de Apoio**;
 
     ![Criar](images/service-14.png)
@@ -358,22 +353,21 @@ Registrando serviço de apoio
 
     **Figura 15 - Tela de cadastro de serviço de apoio / técnico**
 
-1.  Preencha os campos seguindo as orientações descrita no item anterior
+2.  Preencha os campos seguindo as orientações descrita no item anterior
     “Cadastrando Serviço de Negócio”.
 
-2.  Após informar os dados do Serviço de Apoio, clique no botão *Gravar* para
+3.  Após informar os dados do Serviço de Apoio, clique no botão *Gravar* para
     efetuar a operação. Feito isso, o serviço será gravado e apresentado na tela
     no Portfólio de Serviços de Apoio e uma tela será apresentada com a
     listagem de serviços.
 
-3.  Para configurar os atributos do Serviço de Apoio , clique no
+4.  Para configurar os atributos do Serviço de Apoio , clique no
     botão *Avançar*.
 
 Veja também
 -----------
 
--   [Configuração dos atributos do
-    serviço]().
+-   [Configuração dos atributos do serviço].
 
 
 !!! tip "About"
