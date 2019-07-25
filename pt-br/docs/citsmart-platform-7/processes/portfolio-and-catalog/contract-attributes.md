@@ -1,7 +1,5 @@
 title: Configuração dos atributos do contrato do serviço
-Description: As orientações devem ser seguidas para configurar os atributos
-tanto do *Contrato do Serviço de Negócio/TI* quanto do *Contrato do Serviço de
-Apoio/Técnico*.
+Description: As orientações devem ser seguidas para configurar os atributos tanto do *Contrato do Serviço de Negócio/TI* quanto do *Contrato do Serviço de Apoio/Técnico*.
 
 # Configuração dos atributos do contrato do serviço
 
@@ -14,48 +12,40 @@ Pré-condições
 
 1.  Ter permissão de acesso às funcionalidades de Gerenciamento de Portfólio e
     Catálogo (ver conhecimento [Permissão de Acesso do Gerenciamento de
-    Portfólio]();
+    Portfólio];
 
 2.  Ter o portfólio com os serviços cadastrados (ver conhecimentos [Cadastro de
-    Portfólio de
-    Serviços](), [Cadastro
-    de
-    Serviços]();
+    Portfólio de Serviços], [Cadastro deServiços];
 
 3.  Ter o contrato vinculado ao serviço (ver conhecimento [Configuração dos
-    Atributos do
-    Serviço]();
+    Atributos do Serviço];
 
 4.  Ter o fornecedor cadastrado (ver conhecimento [Cadastro e Pesquisa de
-    Fornecedor]();
+    Fornecedor];
 
 5.  Ter o cliente cadastrado (ver conhecimento [Cadastro e Pesquisa de
-    Cliente]();
+    Cliente];
 
 6.  Ter a moeda cadastrada (ver conhecimento [Cadastro e Pesquisa de
-    Moeda]();
+    Moeda];
 
 7.  Ter a condição de operação cadastrada (ver conhecimento [Cadastro e Pesquisa
-    de Condição de
-    Operação]();
+    de Condição de Operação];
 
 8.  Ter o calendário definido (ver conhecimento [Cadastro e Pesquisa de
-    Calendário]();
+    Calendário];
 
 9.  Ter o tempo de atendimento de serviços definido (ver conhecimento [Cadastro
-    e Pesquisa de Tempo de
-    Atendimento]();
+    e Pesquisa de Tempo de Atendimento];
 
 10. Ter modelos de e-mails definidos (ver conhecimento [Cadastro e Pesquisa de
-    Configuração de Modelo de
-    E-mail]();
+    Configuração de Modelo de E-mail];
 
 11. Ter o fluxo de trabalho definido (ver conhecimento [Manutenção de Fluxo de
-    Trabalho]();
+    Trabalho];
 
 12. Ter definidas as pesquisas (ver conhecimento [Cadastro e pesquisa de
-    Pesquisa de
-    Satisfação]().
+    Pesquisa de Satisfação].
 
 Configurando os atributos do contrato
 ------------------------------------
@@ -78,7 +68,7 @@ Configurando os atributos do contrato
 5.  Clique em **Contratos** e logo em seguida clique no botão *Avançar* do
     contrato do serviço para acessá-lo.
 
--   Nos itens a seguir será abordado sobre "como" configurar os atributos do
+    -   Nos itens a seguir será abordado sobre "como" configurar os atributos do
     contrato.
 
 ### Filtros
@@ -99,25 +89,25 @@ Configurando os atributos do contrato
 
     **Figura 1 - Tela de informações do contrato**
 
--   **Detalhes**: permite verificar e/ou atualizar os dados do contrato;
+    -   **Detalhes**: permite verificar e/ou atualizar os dados do contrato;
 
--   **Requisições**: permite vincular as atividades de requisição do serviço ao
+    -   **Requisições**: permite vincular as atividades de requisição do serviço ao
     contrato;
 
--   **Incidentes**: permite vincular as atividades de incidente do serviço ao
+    -   **Incidentes**: permite vincular as atividades de incidente do serviço ao
     contrato;
 
--   **Procedimentos**: permite vincular os procedimentos do serviço ao contrato;
+    -   **Procedimentos**: permite vincular os procedimentos do serviço ao contrato;
 
--   **Custo de Indisponibilidade**: permite registrar o valor da hora da
+    -   **Custo de Indisponibilidade**: permite registrar o valor da hora da
     indisponibilidade dos serviços do contrato;
 
--   **Acordo de Disponibilidade**: permite vincular um acordo de nível de
+    -   **Acordo de Disponibilidade**: permite vincular um acordo de nível de
     serviço do tipo "disponibilidade" ao contrato;
 
--   **Calendário**: permite vincular um calendário ao contrato.
+    -   **Calendário**: permite vincular um calendário ao contrato.
 
--   **Rateio**: permite informar um percentual de rateio para um determinado
+    -   **Rateio**: permite informar um percentual de rateio para um determinado
     serviço.
 
 Vinculando atividades de requisição ao contrato
@@ -140,7 +130,7 @@ Vinculando atividades de requisição ao contrato
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Nome Serviço de Requisição
+    -   Nome Serviço de Requisição
 
 ### Listagem de itens
 
@@ -171,10 +161,10 @@ Vinculando atividades de requisição ao contrato
     - **Condição de Operação**: selecione o período de disponibilidade da operação
     da(s) atividade(s) de requisição. Exemplo:
 
-       -  **24 x 7**: 24 horas por dia, 7 dias por semana, ou seja, serviço disponível
+    -  **24 x 7**: 24 horas por dia, 7 dias por semana, ou seja, serviço disponível
     o tempo todo, sem interrupção;
 
-       -  **Horário Comercial**: disponível de segunda-feira à sexta-feira de 8:00 às
+    -  **Horário Comercial**: disponível de segunda-feira à sexta-feira de 8:00 às
     18:00.
 
     -  **Data de Início**: informe a data inicial da atividade de requisição no
@@ -300,14 +290,14 @@ Vinculando atividades de requisição ao contrato
     -  Selecione o fluxo que a(s) atividade(s) deverá(ão) seguir e clique no
     botão *Gravar* para efetuar a operação.
 
-1.  Após informar os dados necessários, clique no botão *Gravar* para efetuar a
+3.  Após informar os dados necessários, clique no botão *Gravar* para efetuar a
     operação. Feito isso, a(s) atividade(s) de requisição será(ão) vinculada(s)
     ao contrato.
 
-2.  Para alterar os dados do vínculo da atividade de requisição com o contrato,
+4.  Para alterar os dados do vínculo da atividade de requisição com o contrato,
     clique no botão *Editar* do registro do mesmo.
 
-3.  Para excluir o vínculo da atividade de requisição com o contrato, basta
+5.  Para excluir o vínculo da atividade de requisição com o contrato, basta
     clicar no botão *Excluir* do registro do mesmo.
 
 Vinculando atividades de incidente ao contrato
@@ -330,7 +320,7 @@ Vinculando atividades de incidente ao contrato
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Nome Incidente.
+    -   Nome Incidente.
 
 ### Listagem de itens
 
@@ -355,10 +345,10 @@ Vinculando atividades de incidente ao contrato
 
     **Figura 9 - Tela de registro do vínculo da atividade de incidente ao contrato**
 
-1.  Preencha os campos conforme orientações descritas no item anterior
+2.  Preencha os campos conforme orientações descritas no item anterior
     "Vinculando Atividades de Requisição ao Contrato";
 
-2.  Após informar os dados necessários, clique no botão *Gravar* para efetuar a
+3.  Após informar os dados necessários, clique no botão *Gravar* para efetuar a
     operação. Feito isso, a(s) atividade(s) de incidente será(ão) vinculada(s)
     ao contrato.
 
@@ -382,7 +372,7 @@ Vinculando procedimento do serviço ao contrato
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Nome Serviço de Procedimento.
+   -   Nome Serviço de Procedimento.
 
 ### Listagem de itens
 
@@ -407,10 +397,10 @@ Vinculando procedimento do serviço ao contrato
 
     **Figura 11 - Tela de registro do vínculo do procedimento ao contrato**
 
-1.  Preencha os campos conforme orientações descritas no item "Vinculando
+2.  Preencha os campos conforme orientações descritas no item "Vinculando
     Atividades de Requisição ao Contrato";
 
-2.  Após informar os dados necessários, clique no botão *Gravar* para efetuar a
+3.  Após informar os dados necessários, clique no botão *Gravar* para efetuar a
     operação. Feito isso, o(s) procedimento(s) será(ão) vinculado(s) ao
     contrato.
 
@@ -427,7 +417,7 @@ Registrando custo de indisponibilidade
 
     **Figura 12 - Tela de registro de valor da hora de indisponibilidade**
 
-1.  Informe o valor da hora da indisponibilidade dos serviços do contrato e
+2.  Informe o valor da hora da indisponibilidade dos serviços do contrato e
     clique no botão *Gravar* para efetuar o registro.
 
 ### Filtros
@@ -457,7 +447,7 @@ Vinculando acordo de disponibilidade ao contrato
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Título SLA.
+    -   Título SLA.
 
 ### Listagem de itens
 
@@ -500,7 +490,7 @@ Vinculando calendário ao contrato
     na listagem padrão da funcionalidade, facilitando a localização dos itens
     desejados:
 
--   Nome.
+    -   Nome.
 
 ### Listagem de itens
 
@@ -520,7 +510,7 @@ Vinculando calendário ao contrato
 
     **Figura 14 - Tela de vínculo de calendário ao contrato**
 
-1.  Para desvincular o calendário, basta clicar no botão *Desativar* do mesmo.
+4.  Para desvincular o calendário, basta clicar no botão *Desativar* do mesmo.
 
 ### Preenchimento dos campos cadastrais
 
@@ -540,8 +530,7 @@ contratado*
 ### Pré-condições
 
 1.  É necessário permitir o acesso a opção rateio (ver conhecimento [Permissão
-    de acesso do gerenciamento de
-    portfólio]().
+    de acesso do gerenciamento de portfólio].
 
 ### Filtros
 
@@ -570,7 +559,7 @@ contratado*
 
     **Figura 16 - Tela de cadastro de rateio**
 
-1.  Preencha os campos conforme orientações abaixo:
+2.  Preencha os campos conforme orientações abaixo:
 
     -  **Percentual**: informe um percentual de 1 a 100%.
 
@@ -588,9 +577,9 @@ contratado*
         Não é permitido cadastros ou alterações de rateios cujos ciclos já tenham
         se encerrado.
 
-1.  Clique no botão *Gravar* para efetuar a operação
+3.  Clique no botão *Gravar* para efetuar a operação
 
-2.  Para alterar os dados do vínculo do rateio (já cadastrado) com o contrato,
+4.  Para alterar os dados do vínculo do rateio (já cadastrado) com o contrato,
     clique no botão *Editar* do registro do mesmo.
 
     !!! info "IMPORTANTE"
@@ -598,7 +587,7 @@ contratado*
         Ao editar, é possível alterar os campos Percentual e Ciclo, porém este
         percentual deve ser acima de 0%.
 
-1.  Para excluir o vínculo do rateio com o contrato, basta clicar no
+5.  Para excluir o vínculo do rateio com o contrato, basta clicar no
     botão *Excluir* do registro do mesmo.
 
 !!! note "NOTA"
