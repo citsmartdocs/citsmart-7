@@ -40,9 +40,9 @@ Listagem de items
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Número, Solicitante, Criada em, Prioridade, Prazo limite**,
-    **Atraso, Situação, Tarefa atual, Grupo Executor, Responsável**
-    **atual** e **Compartilhado com**.
+    funcionalidade: Número, Solicitante, Criada em, Prioridade, Prazo limite,
+    Atraso, Situação, Tarefa atual, Grupo Executor, Responsável
+    atual e Compartilhado com.
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Visualizar*, *Relatórios* e *Ação*.
@@ -55,7 +55,7 @@ Listagem de items
 
         Somente o “solicitante” pode autorizar a execução da liberação.
 
-1.  Será apresentada a tela de Gerenciamento de
+3.  Será apresentada a tela de Gerenciamento de
     Liberação. Na guia **Gerenciamento**, localize a liberação que será liberada
     para execução, clique no botão *Ações* e selecione a opção *Iniciar/Executar*
     *tarefa*, conforme indicado na figura abaixo:
@@ -64,10 +64,10 @@ Listagem de items
 
     **Figura 3 - Autorizar liberação para execução**
 
-1.  Será exibida a tela de **Registro de Liberação** com os campos preenchidos,
+4.  Será exibida a tela de **Registro de Liberação** com os campos preenchidos,
     com o conteúdo referente à liberação selecionada;
 
-2.  Verifique se as informações do registro de liberação estão corretas e clique
+5.  Verifique se as informações do registro de liberação estão corretas e clique
     no botão *Gravar e avançar o fluxo* para efetuar a operação, onde a
     liberação será encaminhada para o grupo executor realizar sua execução,
     neste caso a data, hora e usuário serão armazenados automaticamente para uma
