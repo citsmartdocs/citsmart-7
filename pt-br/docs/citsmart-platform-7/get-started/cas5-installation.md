@@ -13,7 +13,7 @@ depois de fornecer suas credenciais (como usuário e senha) apenas uma vez.
 !!! info "IMPORTANTE"
 
     Esta versão (5.0) é aplicável exclusivamente para os produtos GRP, já o
-    ITSM deve usar a [versão 3.0][1]).
+    ITSM deve usar a [versão 3.0][1].
 
 Download
 ---------
