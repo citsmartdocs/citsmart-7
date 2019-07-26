@@ -39,13 +39,13 @@ Logando no ambiente
 
 ![simbolo](images/num3.png) previamente cadastrada por um administrador.
 
-![simbolo](images/num4.png)
+![simbolo](images/num4.png) permite o usuário recuperar sua senha.
 
 ![Recuperação](images/autenti-img2.jpg)
     
 **Figura 2- Tela para recuperação de senha**
     
-![simbolo](images/num5.png)
+![simbolo](images/num5.png) disponibiliza os meios de contato com o administrador.
 
 ![Informações](images/autenti-img3.jpg)
     
@@ -78,8 +78,8 @@ Como restaurar a senha
 
 3. Informar o e-mail para onde será enviada a nova senha;
 
-4. Após estes passos, o sistema atribui novo conteúdo provisório à senha do usuário e a envia por e-mail conforme modelo de e-mail
-cadastrado.
+4. Após estes passos, o sistema atribui novo conteúdo provisório à senha do usuário e a envia por e-mail conforme modelo de 
+e-mail cadastrado.
 
 !!! warning "ATENÇÃO"
 
