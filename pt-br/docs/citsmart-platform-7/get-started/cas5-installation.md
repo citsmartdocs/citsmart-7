@@ -13,7 +13,7 @@ depois de fornecer suas credenciais (como usuário e senha) apenas uma vez.
 !!! info "IMPORTANTE"
 
     Esta versão (5.0) é aplicável exclusivamente para os produtos GRP, já o
-    ITSM deve usar a [versão 3.0][1].
+    ITSM deve usar a [versão 3.0][2].
 
 Download
 ---------
@@ -134,7 +134,7 @@ Para realizar autenticação no banco de dados:
 2.  Pronto, agora é apenas realizar as demais configurações típicas do CAS.
 
 
-[1]:/pt-br/citsmart-platform-7/get-started/cas3-installation.html
+[2]:/pt-br/citsmart-platform-7/get-started/cas3-installation.html
 
 
 
