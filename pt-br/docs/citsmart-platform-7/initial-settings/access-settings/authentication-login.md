@@ -41,15 +41,15 @@ Logando no ambiente
 
 ![simbolo](images/num4.png)
 
-    ![Recuperação](images/autenti-img2.jpg)
+![Recuperação](images/autenti-img2.jpg)
     
-    **Figura 2- Tela para recuperação de senha**
+**Figura 2- Tela para recuperação de senha**
     
 ![simbolo](images/num5.png)
 
-    ![Informações](imges/autenti-img3.jpg)
+![Informações](imges/autenti-img3.jpg)
     
-    **Figura 3 - Tela de informações de contato**
+**Figura 3 - Tela de informações de contato**
     
 Esqueci minha senha
 --------------------
