@@ -262,9 +262,9 @@ Preenchimento dos campos cadastrais
 Veja também
 --------------
 
-- Manutenção de fluxo de trabalho;
+- [Manutenção de fluxo de trabalho](/pt-br/citsmart-platform-7/workflow/workflow-management.html);
 
-- Cadastro da atividade de serviço.
+- [Cadastro da atividade de serviço](/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/activity.html).
 
 !!! tip "About"
 
