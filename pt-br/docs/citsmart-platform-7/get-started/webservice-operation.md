@@ -125,7 +125,7 @@ Preenchimento dos campos cadastrais
 
 4.  Clique no botão *Gravar* para efetuar o registro de novo parâmetro.
 
--   **Permissões**: vincule o(s) grupo(s) que poderá(ão) executar a operação do
+    -   **Permissões**: vincule o(s) grupo(s) que poderá(ão) executar a operação do
     web service.
 
 5.  Clique no botão *Adicionar Grupo*. Feito isso, será apresentada uma tela
