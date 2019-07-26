@@ -294,7 +294,7 @@ Análise de Impacto e Risco Por Alvos
     !!! note "NOTA"
     
         É possível, após registro dos dados do plano de tratativa, verificar o gráfico de avaliação de riscos.
-        (ver conhecimento Execução de Requisição de Mudança), 
+        (ver conhecimento [Execução de Requisição de Mudança][1]), 
         na seção Acompanhando o Desenvolvimento dos Riscos.
         
     - Após a definição de ameaças e planos de tratativa, a avaliação de risco estará completa, diante disso, 
@@ -323,6 +323,8 @@ Análise de Impacto e Risco Simplificado
     - **Razão da mudança**: descreva qual a razão para a mudança;
     - **Análise de impacto**: descreva os impactos que a mudança terá;
     - **Análise dos riscos**: descreva a análise dos riscos envolvidos na mudança.  
+    
+[1](/pt-br/citsmart-platform-7/processes/change/change-execution.html)
         
 !!! tip "About"
 
