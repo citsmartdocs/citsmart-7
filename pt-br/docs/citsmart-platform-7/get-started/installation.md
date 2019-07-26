@@ -1324,7 +1324,7 @@ Veja também
 
 [Configuração da conexão do Citsmart inventory](3);
 
-[Manual de instalação do componente Inventory];
+[Manual de instalação do componente Inventory](4);
 
 [Manual de instalação do Central Authentication Service (CAS) - versão 3.0 (ITSM)];
 
@@ -1334,7 +1334,7 @@ Veja também
 [1]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-email.html
 [2]:/pt-br/citsmart-platform-7/additional-features/add-ons/event-monitor-connection.html
 [3]:/pt-br/citsmart-platform-7/processes/event/inventory-connection-setup.html
-[4]:#
+[4]:/pt-br/citsmart-platform-7/additional-features/add-ons/inventory-installation.html
 [5]:#
 [6]:#
 
