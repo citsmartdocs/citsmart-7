@@ -13,7 +13,7 @@ depois de fornecer suas credenciais (como usuário e senha) apenas uma vez.
 !!! info "IMPORTANTE"
 
     Esta versão (5.0) é aplicável exclusivamente para os produtos GRP, já o
-    ITSM deve usar a [versão 3.0](1)).
+    ITSM deve usar a [versão 3.0][1]).
 
 Download
 ---------
@@ -30,7 +30,7 @@ Ldap
 
 Para realizar autenticação no LDAP:
 
-1.  **Adicionar **os parâmetros a seguir no arquivo de configuração do
+1.  **Adicionar** os parâmetros a seguir no arquivo de configuração do
     cas.properties:
 
     -   cas.authn.ldap[0].type=AUTHENTICATED
@@ -135,6 +135,8 @@ Para realizar autenticação no banco de dados:
 
 
 [1]:/pt-br/citsmart-platform-7/get-started/cas3-installation.html
+
+
 
 !!! tip "About"
 
