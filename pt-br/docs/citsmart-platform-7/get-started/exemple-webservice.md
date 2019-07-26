@@ -459,15 +459,15 @@ Objeto da classe **CtOcurrence** contendo:
 Exemplo: consulta ocorrências da solicitação
 ------------------------------------------
 
-**URL: **/services/request/listOccurrences
+**URL**: /services/request/listOccurrences
 
 **Atributos de entrada**
 
 -   **requestNumber**: número da solicitação no CITSmart. Obrigatório quando o
-    atributo **requestNumberOrigin **não for informado.
+    atributo **requestNumberOrigin** não for informado.
 
 -   **requestNumberOrigin**: número da solicitação no sistema de origem.
-    Obrigatório quando o atributo **requestNumber **não for informado.
+    Obrigatório quando o atributo **requestNumber** não for informado.
 
 **Atributos de saída**
 
