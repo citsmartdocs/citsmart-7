@@ -93,7 +93,7 @@ figura abaixo:
         quando o sistema sincronizar com LDAP.
     - **Perfil de acesso**: selecione o perfil de acesso que será atribuído automaticamente a cada sincronização;
     
-    !!!! info "IMPORTANTE"
+    !!! info "IMPORTANTE"
     
         O sistema não permite excluir um usuário que tem origem no LDAP.
         
