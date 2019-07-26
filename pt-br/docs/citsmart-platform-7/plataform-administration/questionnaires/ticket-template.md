@@ -132,7 +132,7 @@ Template do tipo Questionário
 Pré-condições
 ---------------
 
-1. Ter ao menos um questionário cadastrado (ver conhecimento Cadastro e pesquisa de questionários).
+1. Ter ao menos um questionário cadastrado (ver conhecimento [Cadastro e pesquisa de questionários](/pt-br/citsmart-platform-7/plataform-administration/questionnaires/questionnaires-management/register-questionnaire.html)).
 
 Preenchimento dos campos cadastrais
 ------------------------------------
