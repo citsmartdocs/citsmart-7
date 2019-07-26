@@ -19,7 +19,7 @@ Para relacionar unidade ao contrato, proceda conforme as orientações abaixo:
     na tela de cadastro de unidade. Feito isso, clique no botão Gravar para
     efetuar a operação;
 
-4.  Após configurar o parâmetro, acesse a funcionalidade de** Cadastro de
+4.  Após configurar o parâmetro, acesse a funcionalidade de Cadastro de
     Unidade através da navegação no menu principal **Cadastros
     Gerais > Gerência de Pessoal > Unidade**. Será apresentada a tela de
     cadastro de unidade, exibindo os contratos;
