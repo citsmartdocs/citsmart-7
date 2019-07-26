@@ -145,6 +145,8 @@ constantes, no LOG do JBoss, proceda conforme os passos descritos abaixo:
 
     -   Clique na aba Handlers e logo em seguida no botão *Add*;
 
+    ![Criar](images/asterisk-15.png)
+    
     **Figura 15 – Adição de Handlers da categoria de LOG**
 
     -   Será exibida uma janela para informar o handler da categoria. Adicione o
