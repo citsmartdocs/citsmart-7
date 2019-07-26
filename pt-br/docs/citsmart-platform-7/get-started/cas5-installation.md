@@ -21,9 +21,9 @@ Download
 Deve ser usada a versão customizada pela CITSmart Corporation, pois é a adequada
 para uso em nossas soluções: [http://files.citsmart.com](http://files.citsmart.com/)
 
-   !!! info "IMPORTANTE"
+!!! info "IMPORTANTE"
 
-       Este acesso exigirá login e senha controlados pela CITSmart Corporation.
+     Este acesso exigirá login e senha controlados pela CITSmart Corporation.
 
 Ldap
 ----
