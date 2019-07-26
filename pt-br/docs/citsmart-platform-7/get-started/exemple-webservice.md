@@ -380,7 +380,7 @@ Exemplo: inclui ocorrência na solicitação
 **Atributos de entrada**
 
 -   **requestNumber**: número da solicitação no CITSmart. Obrigatório quando o
-    atributo **requestNumberOrigin **não for informado.
+    atributo **requestNumberOrigin** não for informado.
 
 -   **requestNumberOrigin**: número da solicitação no sistema de origem.
     Obrigatório quando o atributo **requestNumber** não for informado.
