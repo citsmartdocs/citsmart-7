@@ -1320,9 +1320,9 @@ descritas abaixo:
 Veja também
 -----------
 
-[Conexão CITSmart Event Monitor];
+[Conexão CITSmart Event Monitor](2);
 
-[Configuração da conexão do Citsmart inventory];
+[Configuração da conexão do Citsmart inventory](3);
 
 [Manual de instalação do componente Inventory];
 
