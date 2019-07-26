@@ -34,7 +34,7 @@ exportação de todas as tabelas do sistema com os comandos SQLs;
     - Caso queira exportar objetos relacionados, marque o campo referente;
     - Caso queira exportar a tabela no padrão SQL, marque o campo referente;
     - Caso seja necessário, poderá informar uma condição e o valor para os campos da tabela;
-    - Clique no botão Processar para realizar a exportação da tabela.
+    - Clique no botão "Processar" para realizar a exportação da tabela.
     
     ![Configuração](images/ger-dados.img2.png)
     
