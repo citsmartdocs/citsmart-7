@@ -6,8 +6,7 @@ Description: Esse guia prático visa demostrar o passo a passo da instalação e
 Esse guia prático visa demostrar o passo a passo da instalação e atualização da
 ferramenta CITSmart Enterprise.
 
-Pré-condições
-------------
+## Pré-condições
 
 1.  O protocolo **https** é obrigatório, porém o Administrador pode optar por um
     certificado auto assinado.
@@ -64,8 +63,7 @@ Pré-condições
 
     -   Reinicie o processo de instalação.
 
-Requisitos mínimos
------------------
+## Requisitos mínimos
 
    -   O ambiente de execução do **servidor de aplicação** Jboss e o servidor de
     JMS Apache ActiceMQ deve possuir como requisitos mínimos:
@@ -145,8 +143,7 @@ Requisitos mínimos
 
 **Tabela 5 - Requisitos Mínimos**
 
-Software e download
-------------------
+## Software e download
 
 !!! info "IMPORTANTE"
 
@@ -161,7 +158,7 @@ Software e download
 Para execução do CITSmart, baixaremos os pacotes necessários conforme o
 procedimento relativo ao produto.
 
-#### Servidor de Aplicação Jboss
+### Servidor de Aplicação Jboss
 
 Download do pacote conforme seu banco de dados (no manual utilizaremos o pacote
 com PostgreSQL):
@@ -174,13 +171,13 @@ com PostgreSQL):
 
    -   Java JDK (qualquer banco): jdk1.7.0_80_x64.tar.gz
 
-#### Servidor de JMS Apache ActiveMQ
+### Servidor de JMS Apache ActiveMQ
 
    -   Apache ActiveMQ 5.14.5: apache-activemq-5.14.5.tar.gz
 
    -   Java JDK: jdk1.7.0_80_x64.tar.gz
 
-#### Servidor de Banco de Dados MongoDB
+### Servidor de Banco de Dados MongoDB
 
    -   Para localizar o download conforme sua
     distribuição: <https://www.mongodb.com/download-center#community>
@@ -188,7 +185,7 @@ com PostgreSQL):
    -   Para o download do MongoDB para Ubuntu Server LTS
     16.04: <https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1604-3.4.5.tgz>
 
-#### Servidor de Banco de Dados PostgreSQL/Oracle/MSSQL
+### Servidor de Banco de Dados PostgreSQL/Oracle/MSSQL
 
 O CITSmart é compatível com o PostgreSQL ou superior e o download será feito no
 momento da configuração dos pacotes.
@@ -200,13 +197,12 @@ informações e melhores práticas de cada fabricante:
 
 -   *MSSQL:* <https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server>.
 
-#### Servidor de Indexação Apache Solr
+### Servidor de Indexação Apache Solr
 
 -   Configurações para base de conhecimento:
     http://files.citsmart.com/base_conhecimento_configs.zip
 
-Configuração dos pacotes
------------------------
+## Configuração dos pacotes
 
 !!! note "NOTA"
 
@@ -218,11 +214,11 @@ Configuração dos pacotes
 Com os downloads finalizados podemos dar início a instalação da solução
 CITSmart.
 
-## Servidor de Aplicação Jboss
+### Servidor de Aplicação Jboss
 
-1.  Devemos descompactar o pacote JAVA JDK no diretório /opt e criar dois links
-    simbólicos para o /usr/bin. Recomendamos que seu ambiente não possua nenhum
-    JAVA instalado. Execute java –version e confira a versão do java.
+1. Devemos descompactar o pacote JAVA JDK no diretório /opt e criar dois links
+  simbólicos para o /usr/bin. Recomendamos que seu ambiente não possua nenhum
+  JAVA instalado. Execute java –version e confira a versão do java.
 
     ```sh
     tar -xvzf jdk-1.7.0_80-linux-x64.tar.gz -C /opt/
@@ -234,9 +230,9 @@ CITSmart.
     Java HotSpot(TM) 64-Bit Server VM (build 24.80-b11, mixed mode)
     ```
 
-2.  Extraia o Jboss para o diretório /opt.
+2. Extraia o Jboss para o diretório /opt.
 
-3.  No exemplo abaixo utilizamos o Jboss com o PostgreSQL configurado.
+3. No exemplo abaixo utilizamos o Jboss com o PostgreSQL configurado.
 
     ```sh
     tar -xvzf jboss-7.1.2_postgres.tar.gz -C /opt/
@@ -244,35 +240,35 @@ CITSmart.
 
 4.  Agora devemos configurar o arquivo standalone-full.xml.
 
-Algumas configurações só serão possíveis após a instalação de todos os
+    Algumas configurações só serão possíveis após a instalação de todos os
 componentes da solução.
 
     ```java
-    #-- SET TRUE TO ENABLE EVM --
+    <!-- SET TRUE TO ENABLE EVM -->
     <property name="citsmart.evm.enable" value="false"/>
-    #-- SET TRUE TO ENABLE INVENTORY --
+    <!-- SET TRUE TO ENABLE INVENTORY -->
     <property name="citsmart.inventory.enable" value="false"/>
-    #-- SET MONGODB IP --
+    <!-- SET MONGODB IP -->
     <property name="mongodb.host" value="IP_MONGODB"/>
-    #-- SET MONGODB PORT --
+    <!-- SET MONGODB PORT -->
     <property name="mongodb.port" value="PORT_MONGODB"/>
-    #-- SET MONGODB USER --
+    <!-- SET MONGODB USER -->
     <property name="mongodb.user" value="USER_MONGODB"/>
-    #-- SET MONGODB PASSWORD --
+    <!-- SET MONGODB PASSWORD -->
     <property name="mongodb.password" value="PASSWD_MONGODB"/>
-    #-- SET CITSMART IP --
+    <!-- SET CITSMART IP -->
     <property name="citsmart.host" value="127.0.0.1"/>
-    #-- SET CITSMART PORT --
+    <!-- SET CITSMART PORT -->
     <property name="citsmart.port" value="8080"/>
-    #-- SET CITSMART CONTEXT --
+    <!-- SET CITSMART CONTEXT -->
     <property name="citsmart.context" value="citsmart"/>
-    #-- SET CITSMART ADMINISTRATOR LOGIN --
+    <!-- SET CITSMART ADMINISTRATOR LOGIN -->
     <property name="citsmart.login" value="consultor"/>
-    #-- SET CITSMART ADMINISTRATOR PASSWORD --
+    <!-- SET CITSMART ADMINISTRATOR PASSWORD -->
     <property name="citsmart.password" value="password"/>
-    #-- SET CITSMART INVENTORY ID --
+    <!-- SET CITSMART INVENTORY ID -->
     <property name="citsmart.inventory.id" value="inventory_local"/>
-    #-- SET CITSMART EVM ID --
+    <!-- SET CITSMART EVM ID -->
     <property name="citsmart.evm.id" value="evm_local"/>
     ```
 
@@ -284,7 +280,7 @@ componentes da solução.
 
 7.  Existem **4 entradas** de datasource para o **CITSMART_NAME_DB**.
 
-    ````sh
+    ```sh
     <!-- SET YOUR DATABASE INFORMATION - CHANGE IP_DB, PORT_DB, CITSMART_NAME_DB, CITGRP_NAME_DB, USER_DB,      PASSWD_DB -->
     <connection-url>jdbc:postgresql://IP_DB:PORT_DB/CITSMART_NAME_DB</connection-url>
     <driver>postgres</driver>
@@ -297,11 +293,11 @@ componentes da solução.
     <security>
     <user-name>USER_DB</user-name>
     <password>PASSWD_DB</password>
-    ````
+    ```
 
 8.  Existem **9 entradas** de datasource para o **CITGRP_NAME_DB**.
 
-    ````sh
+    ```sh
     <!-- SET YOUR DATABASE INFORMATION - CHANGE IP_DB, PORT_DB, CITSMART_NAME_DB, CITGRP_NAME_DB, USER_DB, PASSWD_DB -->
     <connection-url>jdbc:postgresql://IP_DB:PORT_DB/CITGRP_NAME_DB</connection-url>
     <driver>postgres</driver>
@@ -313,36 +309,36 @@ componentes da solução.
     <security>
     <user-name>USER_DB</user-name>
     <password>PASSWD_DB</password>
-    ````
-    
+    ```
+
 **Servidor de JMS Apache ActiveMQ**
 
 Descomprima o ActiveMQ e JAVA no diretório /opt e crie o link simbólico do JAVA.
 
-    ````sh
-    # tar -xvzf apache-activemq-5.14.5.tar.gz -C /opt/
-    # tar -xvzf jdk-1.7.0_80-linux-x64.tar.gz -C /opt/
-    # ln -s /opt/jdk1.7.0_80/bin/java /usr/bin
-    ````
+```sh
+tar -xvzf apache-activemq-5.14.5.tar.gz -C /opt/
+tar -xvzf jdk-1.7.0_80-linux-x64.tar.gz -C /opt/
+ln -s /opt/jdk1.7.0_80/bin/java /usr/bin
+```
 
 **Servidor de Banco de Dados MongoDB**
 
 1.  Após baixar o MongoDB para sua correta distribuição, deve-se efetuar a
     descompressão para o diretório /opt.
 
-    ````sh
-    # tar -xvzf mongodb-linux-x86_64-ubuntu1604-3.4.5.tgz -C /opt/
-    ````
+    ```sh
+    tar -xvzf mongodb-linux-x86_64-ubuntu1604-3.4.5.tgz -C /opt/
+    ```
 
 2.  Devemos criar um diretório para a base e iniciar o MongoDB. Repare que ele
     irá subir com permissões irrestritas de acesso.
 
-    ````sh
-    # mkdir -p /data/db
-    # cd /opt/mongodb-linux-x86_64-ubuntu1604-3.4.5/bin/
-    #./mongod
+    ```sh
+    mkdir -p /data/db
+    cd /opt/mongodb-linux-x86_64-ubuntu1604-3.4.5/bin/
+    ./mongod
     <mensagens de acesso irrestrito>
-    ````
+    ```
 
 3.  Com o MongoDB iniciado, abra outro terminal, acesse o diretório bin do
     MongoDB e crie a base CITSmart definindo seu usuário e senha.
@@ -351,9 +347,9 @@ Descomprima o ActiveMQ e JAVA no diretório /opt e crie o link simbólico do JAV
 
 5.  Digite exit para sair do console do MongoDB.
 
-    ````sh
-    # cd /opt/mongodb-linux-x86_64-ubuntu1604-3.4.5/bin/
-    # ./mongo
+    ```sh
+    cd /opt/mongodb-linux-x86_64-ubuntu1604-3.4.5/bin/
+    ./mongo
     <mensagens de acesso irrestrito>
     use admin
     db.createUser({
@@ -364,29 +360,28 @@ Descomprima o ActiveMQ e JAVA no diretório /opt e crie o link simbólico do JAV
     { role: "dbOwner", db: "citsmart" }
     ]
     })
-    ````
+    ```
 
-6.  Retorne ao terminal anterior e finalize o processo do mongodb com um CTRL+C.
-   
-Servidor de banco de dados Postgresql/Oracle/Mssql
--------------------------------------------------
+6. Retorne ao terminal anterior e finalize o processo do mongodb com um CTRL+C.
+
+### Servidor de banco de dados Postgresql/Oracle/Mssql
 
 1.  O PostgreSQL podemos instalar diretamente do repositório da distribuição
     caso seja igual ou superior a versão 9.2.
 
 2.  No manual estamos utilizando o Ubuntu Server LTS 16.0.4 que possuí a versão
     9.5 no repositório.
-    
-    ````sh
-    # apt-get update
-    # apt-get install postgresql-9.5
-    ````
+
+    ```sh
+    apt-get update
+    apt-get install postgresql-9.5
+    ```
 
 3.	Após instalar o PostgreSQL precisamos criar a base de dados, usuário e senha.
 
-    ````sh
-    # systemctl start postgresql
-    # su – postgres
+    ```sh
+    systemctl start postgresql
+    su – postgres
     $ psql
     postgres=# create user citsmart with password 'yourpassword';
     <mensagem CREATE ROLE>
@@ -397,68 +392,67 @@ Servidor de banco de dados Postgresql/Oracle/Mssql
     postgres=# alter role citsmart superuser;
     <mensagem ALTER ROLE>
     postgres=#exit
-    ````
-    
+    ```
+
     !!! info "IMPORTANTE"
-    
-         Observe o retorno dos comandos analisando a correta execução.
-    
+
+        Observe o retorno dos comandos analisando a correta execução.
+
 4.	Agora iremos configurar o /etc/postgresql/9.5/main/pg_hba.conf para permitir a conexão do Jboss para a database e usuário do citsmart. No final do arquivo altere as linhas:    
-    
-    ````sh
+
+    ```sh
     Padrão:
     host all all 127.0.0.1/32 md5
     Alterado:
     host CITSMART_NAME_DB USER_DB IP_JBOSS/32 md5
     host CITGRP_NAME_DB USER_DB IP_JBOSS/32 md5
-    ````
+    ```
 
 5.	Hora de abrir o listening no arquivo /etc/postgresql/9.5/main/postgresql.conf .
 6.	Após as configurações, de um restart no postgresql.
 
-
-    ````sh
+    ```sh
     Padrão está comentado:
     #listen_addresses = 'localhost'
     Alterado:
     listen_addresses = ‘0.0.0.0'
-    # systemctl restart postgresql
-    ````
-    
+    systemctl restart postgresql
+    ```
+
 Servidor de indexação apache Solr
 -------------------------------
 
 1.  Instale o pacote unzip conforme sua distribuição.
 
 2.  Descompacte o JAVA e Solr para /opt/.
-    
-    ````sh 
-    # apt-get install unzip
-    # unzip -x solr-6.4.2.zip -d /opt/
-    # tar -xvzf jdk-8u131-linux-x64.tar.gz -C /opt
-    # ln -s /opt/jdk1.8.0_131/bin/java /usr/bin/
-    # java -version
+
+    ```sh
+    apt-get install unzip
+    unzip -x solr-6.4.2.zip -d /opt/
+    tar -xvzf jdk-8u131-linux-x64.tar.gz -C /opt
+    ln -s /opt/jdk1.8.0_131/bin/java /usr/bin/
+    java -version
     java version "1.8.0_131"
     Java(TM) SE Runtime Environment (build 1.8.0_131-b11)
     Java HotSpot(TM) 64-Bit Server VM (build 25.131-b11, mixed mode)
-    ````
+    ```
 
 3.	Crie um usuário para execução do Solr com shell falso e de permissão no diretório do Solr para ele e inicie.
 
-    ````sh
-    # useradd -s /bin/false solr
-    # chown -R solr /opt/solr-6.4.2/
-    # sudo -u solr /opt/solr-6.4.2/bin/solr start
-    ````
+    ```sh
+    useradd -s /bin/false solr
+    chown -R solr /opt/solr-6.4.2/
+    sudo -u solr /opt/solr-6.4.2/bin/solr start
+    ```
 
 4.	Descomprima o arquivo para configurações da base de conhecimento e execute a criação da collection.
 
-    ````sh
-    # unzip -x base_conhecimento_configs.zip -d /opt/solr-6.4.2/
-    # cd /opt/solr-6.4.2
-    # sudo -u solr /opt/solr-6.4.2/bin/solr create -c base_conhecimento -d base_conhecimento_configs -s 2 -rf 2
-    ````
-    
+    ```sh
+    unzip -x base_conhecimento_configs.zip -d /opt/solr-6.4.2/
+    cd /opt/solr-6.4.2
+    sudo -u solr /opt/solr-6.4.2/bin/solr create -c base_conhecimento -d base_conhecimento_configs -s 2 -rf 2
+    ```
+
 5.	Observe o retorno do comando com “Creating new core 'base_conhecimento” e o “status”:0.
 
 
@@ -470,7 +464,7 @@ Parâmetros CITSmart
     Todos os parâmetros devem ser configurados antes do start completo da
     solução.
 
-    
+
 -   ***False ou true para habilitar/desabilitar o EVM. Padrão false.***
 
        *\<property name="citsmart.evm.enable" value="false"/\>*
@@ -510,7 +504,7 @@ Parâmetros CITSmart
 -   ***Configure o contexto do deploy citsmart. Manual padrão consultor.***
 
        *\<property name="citsmart.login" value="consultor"/\>*
-    
+
 -   ***Configure a SENHA do citsmart. Manual padrão password.***
 
        *\<property name="citsmart.password" value="password"/\>*
@@ -545,7 +539,7 @@ Parâmetros CITSmart
 
 -   ***PASSWD_DB: Senha de acesso do usuário de banco. Manual criado com
     yourpassword.***
-   
+
 Configuração do processamento batch (arquivo quartz.properties)
 ----------------------------------------------------------
 
@@ -571,7 +565,7 @@ rotina de **processamento batch** do CITSmart para ambiente clusterizado.
     correspondente ao banco de dados da instalação:
 
        -  Postgresql = *org.quartz.impl.jdbcjobstore.PostgreSQLDelegate*
-        
+
        -  Oracle = *org.quartz.impl.jdbcjobstore.oracle.OracleDelegate*
 
        -  Microsoft SQL Server = *org.quartz.impl.jdbcjobstore.MSSQLDelegate*
@@ -590,12 +584,12 @@ rotina de **processamento batch** do CITSmart para ambiente clusterizado.
     arquivo *quartz.properties *que devem ser avaliados:
 
     ![Criar](images/installation-1.png)
-    
+
     **Figura 1 - Arquivo quartz.properties**
 
-3.	No arquivo de configuração do JBoss standalone.xml ou domain.xml, incluir na tag system-properties a propriedade org.quartz.properties, conforme indicado abaixo: 
- 
-    ````sh
+3.	No arquivo de configuração do JBoss standalone.xml ou domain.xml, incluir na tag system-properties a propriedade org.quartz.properties, conforme indicado abaixo:
+
+    ```sh
     <system-properties>
     <property name="org.apache.tomcat.util.http.Parameters.MAX_COUNT" value="2000"/>
     <property name="mongodb.host" value="localhost"/>
@@ -607,8 +601,8 @@ rotina de **processamento batch** do CITSmart para ambiente clusterizado.
     <property name="esper.threads" value="4"/>
     <property name="org.quartz.properties" value="${jboss.server.config.dir}/quartz.properties"/>
     </system-properties>
-    ````
-    
+    ```
+
 ### Ambiente Standalone
 
 Abaixo são apresentados os passos que devem ser realizados para configurar a
@@ -622,7 +616,7 @@ rotina de **processamento batch** do CITSmart em ambiente standalone.
     tag *system-properties* a propriedade **org.quartz.properties**, conforme
     indicado abaixo:
 
-    ````sh
+    ```sh
     \<system-properties\>
 
     \<property name="org.apache.tomcat.util.http.Parameters.MAX_COUNT"
@@ -646,8 +640,8 @@ rotina de **processamento batch** do CITSmart em ambiente standalone.
     value="\${jboss.server.config.dir}/quartz.properties"/\>
 
     \</system-properties\>
-    ````
-    
+    ```
+
 3.  Configure o arquivo *citsmart.cfg*. A configuração padrão do CITSmart não
     utiliza o banco de dados para armazenar os Jobs do quartz, portanto,
     torna-se necessária a carga deles, na memória, durante a inicialização. Para
@@ -658,21 +652,21 @@ Download dos deploys do CITSmart
 --------------------------------
 
 Com os deploys em mãos, mova-os para o diretório deployments do Jboss.
- 
-````sh
+
+```sh
 # cp <deploy 1>.war /opt/jboss-7.1.2/standalone/deployments/
 # cp <deploy 2>.war /opt/jboss-7.1.2/standalone/deployments/
 # cp <deploy 3>.war /opt/jboss-7.1.2/standalone/deployments/
 <continue conforme os deploys disponíveis para sua subscrição>
-````
+```
 
 Criação de diretórios para instalação
 ------------------------------------
 
 Crie os diretórios abaixo para serem configurados nos 3 passos de instalação
 web.
-    
-````sh
+
+```sh
 Para GED:
 mkdir /opt/citsmart/ged
 Para Base de Conhecimento:
@@ -683,7 +677,7 @@ Para Anexos de Base de Conhecimento:
 mkdir /opt/citsmart/attachkb
 Para Upload:
 mkdir /opt/citsmart/upload
-````
+```
 
 Geração de certificado auto assinado SSL
 ---------------------------------------
@@ -695,56 +689,55 @@ Geração de certificado auto assinado SSL
 
 1.  Conecte no servidor do Jboss.
 
-    
     ***Deletando alias antigos***.
-    ````sh
-        # /opt/jdk1.7.0_80/bin/keytool -keystore /opt/jdk1.7.0_80/jre/lib/security/cacerts -delete -alias GRPv1
-    ````
-    
+
+    ```sh
+    /opt/jdk1.7.0_80/bin/keytool -keystore /opt/jdk1.7.0_80/jre/lib/security/cacerts -delete -alias GRPv1
+    ```
+
     ***Criando alias novo com DNS (exemplo sub.example.com)***:
-    
-    ````sh
-    # /opt/jdk1.7.0_80/bin/keytool -genkey -alias GRPv1 -keyalg RSA -keystore /opt/jboss-                 7.1.2/standalone/configuration/GRPv1.keystore -ext san=dns:sub.example.com -validity 3650 -storepass 123456
-    ````
-    
+
+    ```sh
+    /opt/jdk1.7.0_80/bin/keytool -genkey -alias GRPv1 -keyalg RSA -keystore /opt/jboss-                 7.1.2/standalone/configuration/GRPv1.keystore -ext san=dns:sub.example.com -validity 3650 -storepass 123456
+    ```
+
     ***Criando alias com IP do serviodor do Jboss (exemplo 10.2.1.82)***:
-    
-    ````sh
-    # /opt/jdk1.7.0_80/bin/keytool -genkey -alias GRPv1 -keyalg RSA -keystore /opt/jboss-  7.1.2/standalone/configuration/GRPv1.keystore -ext san=ip:10.2.1.82 -validity 3650 -storepass 123456
-    ````
-    
+
+    ```sh
+    /opt/jdk1.7.0_80/bin/keytool -genkey -alias GRPv1 -keyalg RSA -keystore /opt/jboss-  7.1.2/standalone/configuration/GRPv1.keystore -ext san=ip:10.2.1.82 -validity 3650 -storepass 123456
+    ```
+
     ***Exportando certificado para extensão .cer***:
-    
-    ````sh
-    # /opt/jdk1.7.0_80/bin/keytool -export -alias GRPv1 -keystore /opt/jboss-7.1.2/standalone/configuration/GRPv1.keystore -    validity 3650 -file /opt/jboss-7.1.2/standalone/configuration/GRPv1.cer
-    ````
-    
+
+    ```sh
+    /opt/jdk1.7.0_80/bin/keytool -export -alias GRPv1 -keystore /opt/jboss-7.1.2/standalone/configuration/GRPv1.keystore -    validity 3650 -file /opt/jboss-7.1.2/standalone/configuration/GRPv1.cer
+    ```
+
     ***Adicionando certificado no cacerts do Java***:
-    
-    ````sh
-    # /opt/jdk1.7.0_80/bin/keytool -keystore /opt/jdk1.7.0_80/jre/lib/security/cacerts -importcert -alias GRPv1 -file /opt/jboss-7.1.2/standalone/configuration/GRPv1.cer
-    ````
-    
-    
+
+    ```sh
+    /opt/jdk1.7.0_80/bin/keytool -keystore /opt/jdk1.7.0_80/jre/lib/security/cacerts -importcert -alias GRPv1 -file /opt/jboss-7.1.2/standalone/configuration/GRPv1.cer
+    ```
+
     ***Atual***:
-    
-    ````sh
+
+    ```sh
     <!-- SET YOUR SSL OPTIONS
     <connector name="https" protocol="HTTP/1.1" scheme="https" socket-binding="https" secure="true">
     <ssl name="citsmart-ssl" key-alias="GRPv1" password="123456" certificate-key-file="${jboss.server.config.dir}/GRPv1.keystore"/>
     </connector>
     -->
-    ````
-    
+    ```
+
     ***Remova o “!-- SET YOUR SSL OPTIONS” e “-->”***:
-    
-    ````sh
+
+    ```sh
     <connector name="https" protocol="HTTP/1.1" scheme="https" socket-binding="https" secure="true">
     <ssl name="citsmart-ssl" key-alias="GRPv1" password="123456" certificate-key-file="${jboss.server.config.dir}/GRPv1.keystore"/>
     </connector>
-    ````
-   
-   
+    ```
+
+
 2.  Após a geração do certificado, descomente
     no **/opt/jboss-7.1.2/standalone/configuration/standalone-full.xml** do
     jboss.
@@ -754,43 +747,43 @@ Iniciando as soluções seguindo dependências
 
 Você pode criar as daemons conforme padrão de sua empresa ou iniciar as soluções
 no terminal.
-    
+
 ***Servidor de Banco de Dados PostgreSQL***
-    
-````sh
-# systemctl postgresql start
-````
+
+```sh
+systemctl postgresql start
+```
 
 ***Servidor de Banco de Dados MongoDB***
 
-````sh
-# systemctl postgresql start
-````
+```sh
+systemctl postgresql start
+```
 ***Servidor de Indexação Apache Solr***
 
-````sh
-# sudo -u solr /opt/solr/bin/solr start
-````
+```sh
+sudo -u solr /opt/solr/bin/solr start
+```
 
 ***Servidor de JMS Apache ActiveMQ***
 
-````sh
-# /opt/apache-activemq-5.14.5/bin/activemq start
-````
+```sh
+/opt/apache-activemq-5.14.5/bin/activemq start
+```
 
 ***Servidor de Aplicação Jboss***
 
-````sh
-# /opt/jboss-7.1.2/bin/standalone.sh -Djboss.bind.address=0.0.0.0
-````
- 
+```sh
+/opt/jboss-7.1.2/bin/standalone.sh -Djboss.bind.address=0.0.0.0
+```
+
 
 Acesso ao CITSmart Enterprise
 ----------------------------
 
    -  Para acessar o CITSmart, devemos acessar o IP ou DNS seguido da porta e
     contexto.
-    
+
     **Exemplo de URL: https://10.2.1.82:8080/citsmart**
 
    -  O IP é o endereçamento da máquina onde o Jboss está em execução. Ao invés do
@@ -802,19 +795,19 @@ Acesso ao CITSmart Enterprise
    **Primeiro Acesso**: Digite a URL
 
    ![Criar](images/installation-2.png)
-    
+
    **Figura 2 - Tela inicial da instalação**
 
 1.  Aceite o termo de uso e clique em *Próximo*;
 
     ![Criar](images/installation-3.png)
-    
+
     **Figura 3 - Tela de ativação de licença**
 
 2.  Informe a licença e clique em *Próximo*.
 
     ![Criar](images/installation-4.png)
-    
+
     **Figura 4 - Tela de configuração**
 
 3.  Configure os parâmetros do sistema, informando para cada atributo seu
@@ -871,9 +864,9 @@ Acesso ao CITSmart Enterprise
     CITSmart, conforme ilustrada na imagem abaixo:
 
     ![Criar](images/installation-2.png)
-    
+
     **Figura 6 - Tela inicial do sistema**
- 
+
 Utilizando o postfix no centos7 para envio de e-mails a partir do citsmart (apenas para versão community)
 --------------------------------------------------------------------------------------------------------
 
@@ -901,7 +894,7 @@ Siga os passos:
 7.  Limpar todo o conteúdo do: **rm –rf /etc/postfix.main.cf;**
 
 8.  Após apagar os arquivos adicionamos essas configurações:
- 
+
     ***vim /etc/postfix/main.cf**
 
     **myhostname = hostname.example.com**
@@ -919,7 +912,7 @@ Siga os passos:
     **smtp_sasl_security_options = noanonymous**
 
     **smtp_sasl_tls_security_options = noanonymous***
- 
+
 9.  Entre no diretório do postfix: **cd /etc/postfix;**
 
 10.  Criar o Arquivo de Senha: **touch sasl_passwd;**
@@ -945,9 +938,9 @@ Siga os passos:
 
 18. Observar a linha Status=sent 250.2.0.0 OK significa que o e-mail foi enviado
     corretamente ao destinatário:
-    
+
     ![Criar](images/installation-7.png)
-    
+
     **Figura 7 - Status=sent 250.2.0.0 OK**
 
 19.  Configurar os parâmetros do CITSmart :
@@ -957,7 +950,7 @@ Siga os passos:
 
 20.  Desta forma, o CITSmart utiliza o servidor local como relay para envio de
     e-mails.
-    
+
 Utilizando o postfix no Ubuntu para envio de e-mails a partir do citsmart (apenas para versão Community)
 ----------------------------------------------------------------------------------------------------
 
@@ -1016,9 +1009,9 @@ Siga os passos:
 11.  Criar o certificado de cadeia: **cat
     /etc/ssl/certs/thawte_Primary_Root_CA.pem \| sudo tee -a
     /etc/postfix/cacert.pem** :
-    
+
     ![Criar](images/installation-8.png)
-    
+
     **Figura 8 - Certificado gerado**
 
 12.  Testando o envio de e-mail substitua, pelo meu e-mail que foi atribuído:
@@ -1028,7 +1021,7 @@ Siga os passos:
 13.  Checar se realmente o e-mail foi enviado: **tail -f /var/log/mail.log**:
 
     ![Criar](images/installation-9.png)
-    
+
     **Figura 9 - Observar status=sent 250.2.0.0 OK**
 
 14.  Configurar os parâmetros do CITSmart:
@@ -1038,7 +1031,7 @@ Siga os passos:
 
 15.  Desta forma, o CITSmart utiliza o servidor local como relay para envio de
     e-mails.
-    
+
 Recomendações para a atualização de versão deste produto
 ------------------------------------------------------
 
@@ -1068,7 +1061,7 @@ Backup das visões
 2.  Será exibida tela de Visão;
 
     ![Criar](images/installation-10.png)
-    
+
     **Figura 10 - Visões**
 
 3.  Clique no botão “Exportar Visões XML”;
@@ -1076,7 +1069,7 @@ Backup das visões
 4.  Será exibida uma janela para seleção das visões a serem exportadas;
 
     ![Criar](images/installation-11.png)
-    
+
     **Figura 11 - Exportação de visões**
 
 5.  Selecione todas as visões, marcando a opção “Marcar todos” e clique no botão
@@ -1175,7 +1168,7 @@ abaixo:
 10.  Feito isso, inicie o JBoss;
 
 11.  Realize a validação da atualização conforme tópico seguinte.
-    
+
     !!! warning "ATENÇÃO"
 
         Siga corretamente a validação do passo 11, pois o sistema ficará bloqueado
@@ -1193,7 +1186,7 @@ Validação da atualização
 3.  Clique no botão *Validar Atualização* para que seja concluída a atualização;
 
     ![Criar](images/installation-12.png)
-    
+
     **Figura 12 - Validando a atualização**
 
 4.  Caso ocorra alguma inconsistência durante a execução de scripts automática
@@ -1201,7 +1194,7 @@ Validação da atualização
     inconsistência, conforme abaixo:
 
     ![Criar](images/installation-13.png)
-    
+
     **Figura 13 - Scripts**
 
 5.  Para realizar as tratativas dos scripts com inconsistência, selecione a
@@ -1209,14 +1202,14 @@ Validação da atualização
     visualizar o script;
 
     ![Criar](images/installation-14.png)
-    
+
     **Figura 14 - Escolha da versão**
 
 6.  Após selecionar a versão desejada, será exibida uma janela apresentando os
     scripts;
 
     ![Criar](images/installation-15.png)
-    
+
     **Figura 15 - Detalhes do Script**
 
 7.  Copie os scripts indicados e rode no banco de dados;
@@ -1247,7 +1240,7 @@ Refazer a indexação (reindex)
 3.  Será exibida tela de Indexação;
 
     ![Criar](images/installation-16.png)
-    
+
     **Figura 16 - Tela indexação**
 
 4.  Clicar no botão “Remover indexação base de conhecimento” e aguardar a
@@ -1281,7 +1274,7 @@ descritas abaixo:
         propriedades do certificado e suas respectivas impressões digitais.
 
     **Exemplo do conteúdo:**
-    
+
     -----BEGIN CERTIFICATE-----
     MIIFBjCCA+6gAwIBAgIBAzANBgkqhkiG9w0BAQUFADCBjDELMAkGA1UEBhMCQlIx
     CzAJBgNVBAgTAkRGMRIwEAYDVQQHFAlCcmFzw61saWExDDAKBgNVBAoTA1BSRjEO
@@ -1311,8 +1304,8 @@ descritas abaixo:
     p5+eRgCCjBzl4E7DcLIgB10izTgQqik06WbTlcSXr2NqZRcrJaULxPT7GL8WCP8W
     4NkW/oi8jSORUHd8YoOZKOO7v6s4+9WlT8tf7YrcyuRuo1e4l+NzevJ8
     -----END CERTIFICATE-----    
-    
-    
+
+
 4.  Importe o arquivo cacerts da pasta /jre/lib/security:
 
     -   keytool -import -keystore cacerts -file smtp.cer
@@ -1337,8 +1330,8 @@ Veja também
 -   [Manual de instalação do Central Authentication Service (CAS) - versão 3.0 (ITSM)];
 
 -   [Manual de instalação do componente EVM].
-    
-    
+
+
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
