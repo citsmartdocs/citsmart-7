@@ -392,7 +392,7 @@ Glossário acrônimos
 18. **PIS/PASEP**: Programa de Integração Social e do Programa de Formação do
 Patrimônio do Servidor Público.
 
-19. **RDM*: Requisição de Mudança.
+19. **RDM**: Requisição de Mudança.
 
     - Espanhol (es): **SDC**: (Solicitud de Cambio).
     - Inglês (en-US): **RFC** (Request for Change).
