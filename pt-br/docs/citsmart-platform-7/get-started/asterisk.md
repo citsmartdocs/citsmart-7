@@ -225,7 +225,7 @@ utilizado para o atendimento, conforme os passos descritos abaixo:
 
      Para efetuar o registro da solicitação de serviço, o solicitante, ou seja,
      a pessoa que está solicitando o serviço deve estar cadastro no sistema e
-     vinculado ao mesmo contrato do atendente**
+     vinculado ao mesmo contrato do atendente.
 
 ![Criar](images/asterisk-22.png)
 
