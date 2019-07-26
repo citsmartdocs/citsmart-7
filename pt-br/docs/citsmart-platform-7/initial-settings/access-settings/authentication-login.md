@@ -47,7 +47,7 @@ Logando no ambiente
     
 ![simbolo](images/num5.png)
 
-![Informações](imges/autenti-img3.jpg)
+![Informações](images/autenti-img3.jpg)
     
 **Figura 3 - Tela de informações de contato**
     
