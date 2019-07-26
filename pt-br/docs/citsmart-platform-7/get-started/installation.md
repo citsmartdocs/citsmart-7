@@ -783,7 +783,7 @@ Acesso ao CITSmart Enterprise
    -  Para acessar o CITSmart, devemos acessar o IP ou DNS seguido da porta e
     contexto.
 
-    **Exemplo de URL: https://10.2.1.82:8080/citsmart**
+   **Exemplo de URL: https://10.2.1.82:8080/citsmart**
 
    -  O IP é o endereçamento da máquina onde o Jboss está em execução. Ao invés do
     IP pode-se utilizar um endereço DNS. O IP 10.2.1.82 é um exemplo de ip
