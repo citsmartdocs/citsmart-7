@@ -80,10 +80,10 @@ conhecimentos escolhidos a dedo para explicar a funcionalidade atualmente aberta
 Para que este recurso efetivamente funcione existe um pré-requisito que fica a cargo da equipe que administra a base de 
 conhecimento de sua organização, qual seja:
 
-    1. Cada documento que contribuir para a explicação de uma tela/funcionalidade deve ter o campo “Tags” preenchido com uma 
-    palavra-chave na opção **Processos ITIL > Gerência de Conhecimento > Gerenciamento de Conhecimento**;
-    2. Essa mesma palavra-chave deve ser usada no preenchimento do campo “Tags” do cadastro de cada tela/funcionalidade (opção
-    **Cadastros Gerais > Menu** do ITSM) que deve ser vinculada ao conhecimento que a explica.
+1. Cada documento que contribuir para a explicação de uma tela/funcionalidade deve ter o campo “Tags” preenchido com uma 
+palavra-chave na opção **Processos ITIL > Gerência de Conhecimento > Gerenciamento de Conhecimento**;
+2. Essa mesma palavra-chave deve ser usada no preenchimento do campo “Tags” do cadastro de cada tela/funcionalidade (opção
+**Cadastros Gerais > Menu** do ITSM) que deve ser vinculada ao conhecimento que a explica.
     
 O efeito final desta configuração de Tags é bastante didático e produtivo, porque reduz bastante o desgaste do usuário final que 
 sem isso tem que se deslocar para o Portal do Conhecimento para ali realizar navegações e pesquisas adicionais (overhead) para 
