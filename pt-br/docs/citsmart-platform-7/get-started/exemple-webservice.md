@@ -209,7 +209,7 @@ Exemplo: alteração de informações do incidente/requisição
             informado).
 
         -   **name**: nome do serviço. Obrigatório quando o serviço não existir
-            no CITSmart e o atributo **synchronize **for igual a true.
+            no CITSmart e o atributo **synchronize** for igual a true.
 
         -   **category**: categoria do serviço. Obrigatório quando o serviço não
             existir no CITSmart e o atributo **synchronize** for igual a true.
