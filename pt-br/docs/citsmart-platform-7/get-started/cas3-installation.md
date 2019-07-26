@@ -40,6 +40,10 @@ Para realizar autenticação no banco de dados:
 
 2.  Pronto, agora é apenas realizar as demais configurações típicas do CAS.
 
+
+[1]:/pt-br/citsmart-platform-7/get-started/cas5-installation.html
+
+
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
