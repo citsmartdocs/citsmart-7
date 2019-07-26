@@ -23,11 +23,11 @@ Logando no ambiente
 
 ![simbolo](images/num1.png) permite o usuário escolher de uma lista em qual ambiente será feita a autenticação:
 
-    - citsmart.local: ambiente default onde os usuários são cadastrados no banco de dados da aplicação;
-    - <domínio1>
-    - <domínio2>
-    - ...
-    - <domínioN>
+- citsmart.local: ambiente default onde os usuários são cadastrados no banco de dados da aplicação;
+- <domínio1>
+- <domínio2>
+- ...
+- <domínioN>
     
     !!! warning "ATENÇÃO"
     
