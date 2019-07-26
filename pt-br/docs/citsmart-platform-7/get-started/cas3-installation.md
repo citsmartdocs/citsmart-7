@@ -1,13 +1,7 @@
 title: Manual de instalação do Central Authentication Service (CAS) - versão 3.0 (ITSM)
----------------------------------------------------------------------------------------
+Description: Trata-se de um pacote de software que implementa um protocolo de autenticação única para a web, para permitir que um usuário acesse múltiplas aplicações depois de fornecer suas credenciais (como usuário e senha) apenas uma vez.
 
-Description: Trata-se de um pacote de software que implementa um protocolo de
-autenticação única para a web, para permitir que um usuário acesse múltiplas
-aplicações depois de fornecer suas credenciais (como usuário e senha) apenas uma
-vez.
-
-# Manual de instalação do Central Authentication Service (CAS) - versão 3.0
-(ITSM)
+# Manual de instalação do Central Authentication Service (CAS) - versão 3.0 (ITSM)
 
 Trata-se de um pacote de software que implementa um protocolo de autenticação
 única para a web, para permitir que um usuário acesse múltiplas aplicações
@@ -16,14 +10,13 @@ depois de fornecer suas credenciais (como usuário e senha) apenas uma vez.
 !!! info "IMPORTANTE"
 
     Esta versão (3.0) é aplicável exclusivamente para o produto ITSM, já a
-    linha GRP deve usar a **[versão 5.0]()
+    linha GRP deve usar a [versão 5.0](1)
 
 Download
 -------
 
 Deve ser usada a versão customizada pela CITSmart Corporation, pois é a adequada
-para uso em nossas
-soluções: [http://files.citsmart.com](http://files.citsmart.com/)
+para uso em nossas soluções: [http://files.citsmart.com](http://files.citsmart.com/)
 
 !!! info "IMPORTANTE"
 
