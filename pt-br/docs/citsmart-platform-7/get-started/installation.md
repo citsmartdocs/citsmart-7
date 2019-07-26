@@ -248,34 +248,34 @@ Algumas configurações só serão possíveis após a instalação de todos os
 componentes da solução.
 
     ```sh
-    <!-- SET TRUE TO ENABLE EVM -->
+    #-- SET TRUE TO ENABLE EVM --
     <property name="citsmart.evm.enable" value="false"/>
-    <!-- SET TRUE TO ENABLE INVENTORY -->
+    #-- SET TRUE TO ENABLE INVENTORY --
     <property name="citsmart.inventory.enable" value="false"/>
-    <!-- SET MONGODB IP -->
+    #-- SET MONGODB IP --
     <property name="mongodb.host" value="IP_MONGODB"/>
-    <!-- SET MONGODB PORT -->
+    #-- SET MONGODB PORT --
     <property name="mongodb.port" value="PORT_MONGODB"/>
-    <!-- SET MONGODB USER -->
+    #-- SET MONGODB USER --
     <property name="mongodb.user" value="USER_MONGODB"/>
-    <!-- SET MONGODB PASSWORD -->
+    #-- SET MONGODB PASSWORD --
     <property name="mongodb.password" value="PASSWD_MONGODB"/>
-    <!-- SET CITSMART IP -->
+    #-- SET CITSMART IP --
     <property name="citsmart.host" value="127.0.0.1"/>
-    <!-- SET CITSMART PORT -->
+    #-- SET CITSMART PORT --
     <property name="citsmart.port" value="8080"/>
-    <!-- SET CITSMART CONTEXT -->
+    #-- SET CITSMART CONTEXT --
     <property name="citsmart.context" value="citsmart"/>
-    <!-- SET CITSMART ADMINISTRATOR LOGIN -->
+    #-- SET CITSMART ADMINISTRATOR LOGIN --
     <property name="citsmart.login" value="consultor"/>
-    <!-- SET CITSMART ADMINISTRATOR PASSWORD -->
+    #-- SET CITSMART ADMINISTRATOR PASSWORD --
     <property name="citsmart.password" value="password"/>
-    <!-- SET CITSMART INVENTORY ID -->
+    #-- SET CITSMART INVENTORY ID --
     <property name="citsmart.inventory.id" value="inventory_local"/>
-    <!-- SET CITSMART EVM ID -->
+    #-- SET CITSMART EVM ID --
     <property name="citsmart.evm.id" value="evm_local"/>
     ```
-    
+
 5.  As seções necessárias de configuração estão demonstradas abaixo e estarão
     explicadas na seção **"Parâmetros CITSmart"**.
 
