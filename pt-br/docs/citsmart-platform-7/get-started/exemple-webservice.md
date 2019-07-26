@@ -24,7 +24,7 @@ Pré-condições
     execução da operação login.
 
 5.  O usuário autenticado compõe a chave para sincronização dos dados, quando o
-    atributo **synchronize **tiver o valor **true.**
+    atributo **synchronize** tiver o valor **true**.
 
 6.  Os serviços de inclusão e atualização de solicitações contam com o
     atributo **synchronize**. Quando este atributo for **true**, o
@@ -55,7 +55,7 @@ Exemplo: criação de incidente/requisição
 -   **sourceRequest**: informações da solicitação origem da
     classe **CtRequest**, contendo:
 
-    -   **numberOrigin**: número da solicitação no sistema de origem​​​
+    -   **numberOrigin**: número da solicitação no sistema de origem
         (obrigatório. Este atributo é necessário para que o CITSmart mantenha o
         DE-PARA entre sua base de dados e o número original do sistema origem.
 
