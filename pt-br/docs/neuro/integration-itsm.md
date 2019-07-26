@@ -178,7 +178,7 @@ Utilização dos formulários neuro nas tarefas de fluxo
     
     **Figura 10 - Formulário associado**
 
-## Execução de regras de negócio do neuro pelo itsm
+## Execução de regras de negócio do neuro pelo ITSM
 
 1.  Para execução de regras de negócio do Neuro, deve ser feito o seguinte:
 
@@ -208,7 +208,7 @@ Utilização dos formulários neuro nas tarefas de fluxo
   
     **Figura 12 - Fluxo ESI**
 
-## Execução de transações de objeto de negócio pelo itsm
+## Execução de transações de objeto de negócio pelo ITSM
 
 1.  Para execução de transações de objeto de negócio do Neuro, deve ser feito o
     seguinte:
