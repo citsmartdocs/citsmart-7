@@ -313,13 +313,13 @@ componentes da solução.
 
 **Servidor de JMS Apache ActiveMQ**
 
-Descomprima o ActiveMQ e JAVA no diretório /opt e crie o link simbólico do JAVA.
+    Descomprima o ActiveMQ e JAVA no diretório /opt e crie o link simbólico do JAVA.
 
-```sh
-tar -xvzf apache-activemq-5.14.5.tar.gz -C /opt/
-tar -xvzf jdk-1.7.0_80-linux-x64.tar.gz -C /opt/
-ln -s /opt/jdk1.7.0_80/bin/java /usr/bin
-```
+    ```sh
+    tar -xvzf apache-activemq-5.14.5.tar.gz -C /opt/
+    tar -xvzf jdk-1.7.0_80-linux-x64.tar.gz -C /opt/
+    ln -s /opt/jdk1.7.0_80/bin/java /usr/bin
+    ```
 
 **Servidor de Banco de Dados MongoDB**
 
@@ -651,33 +651,33 @@ rotina de **processamento batch** do CITSmart em ambiente standalone.
 Download dos deploys do CITSmart
 --------------------------------
 
-Com os deploys em mãos, mova-os para o diretório deployments do Jboss.
+    Com os deploys em mãos, mova-os para o diretório deployments do Jboss.
 
-```sh
-# cp <deploy 1>.war /opt/jboss-7.1.2/standalone/deployments/
-# cp <deploy 2>.war /opt/jboss-7.1.2/standalone/deployments/
-# cp <deploy 3>.war /opt/jboss-7.1.2/standalone/deployments/
-<continue conforme os deploys disponíveis para sua subscrição>
-```
+    ```sh
+    # cp <deploy 1>.war /opt/jboss-7.1.2/standalone/deployments/
+    # cp <deploy 2>.war /opt/jboss-7.1.2/standalone/deployments/
+    # cp <deploy 3>.war /opt/jboss-7.1.2/standalone/deployments/
+    <continue conforme os deploys disponíveis para sua subscrição>
+    ```
 
 Criação de diretórios para instalação
 ------------------------------------
 
-Crie os diretórios abaixo para serem configurados nos 3 passos de instalação
-web.
+    Crie os diretórios abaixo para serem configurados nos 3 passos de instalação
+    web.
 
-```sh
-Para GED:
-mkdir /opt/citsmart/ged
-Para Base de Conhecimento:
-mkdir /opt/citsmart/kb
-Para Palavras Gêmeas:
-mkdir /opt/citsmart/twinwords
-Para Anexos de Base de Conhecimento:
-mkdir /opt/citsmart/attachkb
-Para Upload:
-mkdir /opt/citsmart/upload
-```
+    ```sh
+    Para GED:
+    mkdir /opt/citsmart/ged
+    Para Base de Conhecimento:
+    mkdir /opt/citsmart/kb
+    Para Palavras Gêmeas:
+    mkdir /opt/citsmart/twinwords
+    Para Anexos de Base de Conhecimento:
+    mkdir /opt/citsmart/attachkb
+    Para Upload:
+    mkdir /opt/citsmart/upload
+    ```
 
 Geração de certificado auto assinado SSL
 ---------------------------------------
@@ -736,7 +736,6 @@ Geração de certificado auto assinado SSL
     <ssl name="citsmart-ssl" key-alias="GRPv1" password="123456" certificate-key-file="${jboss.server.config.dir}/GRPv1.keystore"/>
     </connector>
     ```
-
 
 2.  Após a geração do certificado, descomente
     no **/opt/jboss-7.1.2/standalone/configuration/standalone-full.xml** do
@@ -943,10 +942,10 @@ Siga os passos:
 
     **Figura 7 - Status=sent 250.2.0.0 OK**
 
-19.  Configurar os parâmetros do CITSmart :
+19.  Configurar os parâmetros do CITSmart:
 
-    -   10, 11, 12, 13, 14, 199 e 269 (ver conhecimento [Regras de parametrização -
-    e-mail]().
+    -  10, 11, 12, 13, 14, 199 e 269 (ver conhecimento [Regras de parametrização -
+     e-mail](1).
 
 20.  Desta forma, o CITSmart utiliza o servidor local como relay para envio de
     e-mails.
@@ -1010,9 +1009,9 @@ Siga os passos:
     /etc/ssl/certs/thawte_Primary_Root_CA.pem \| sudo tee -a
     /etc/postfix/cacert.pem** :
 
-    ![Criar](images/installation-8.png)
+   ![Criar](images/installation-8.png)
 
-    **Figura 8 - Certificado gerado**
+   **Figura 8 - Certificado gerado**
 
 12.  Testando o envio de e-mail substitua, pelo meu e-mail que foi atribuído:
     echo "**Test Email message cerbody" \| mail -s "Email test subject"**
@@ -1020,9 +1019,9 @@ Siga os passos:
 
 13.  Checar se realmente o e-mail foi enviado: **tail -f /var/log/mail.log**:
 
-    ![Criar](images/installation-9.png)
+   ![Criar](images/installation-9.png)
 
-    **Figura 9 - Observar status=sent 250.2.0.0 OK**
+   **Figura 9 - Observar status=sent 250.2.0.0 OK**
 
 14.  Configurar os parâmetros do CITSmart:
 
@@ -1169,7 +1168,7 @@ abaixo:
 
 11.  Realize a validação da atualização conforme tópico seguinte.
 
-    !!! warning "ATENÇÃO"
+   !!! warning "ATENÇÃO"
 
         Siga corretamente a validação do passo 11, pois o sistema ficará bloqueado
         aos usuários até este passo tenha sido realizado.
@@ -1331,6 +1330,13 @@ Veja também
 
 -   [Manual de instalação do componente EVM].
 
+
+[1]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-email.html
+[2]:/pt-br/citsmart-platform-7/additional-features/add-ons/event-monitor-connection.html
+[3]:/pt-br/citsmart-platform-7/processes/event/inventory-connection-setup.html
+[4]:#
+[5]:#
+[6]:#
 
 !!! tip "About"
 
