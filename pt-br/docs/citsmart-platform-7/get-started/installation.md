@@ -311,17 +311,17 @@ componentes da solução.
     <password>PASSWD_DB</password>
     ```
 
-**Servidor de JMS Apache ActiveMQ**
+### Servidor de JMS Apache ActiveMQ
 
-   Descomprima o ActiveMQ e JAVA no diretório /opt e crie o link simbólico do JAVA.
+Descomprima o ActiveMQ e JAVA no diretório /opt e crie o link simbólico do JAVA.
 
-    ```sh
-    tar -xvzf apache-activemq-5.14.5.tar.gz -C /opt/
-    tar -xvzf jdk-1.7.0_80-linux-x64.tar.gz -C /opt/
-    ln -s /opt/jdk1.7.0_80/bin/java /usr/bin
-    ```
+```sh
+tar -xvzf apache-activemq-5.14.5.tar.gz -C /opt/
+tar -xvzf jdk-1.7.0_80-linux-x64.tar.gz -C /opt/
+ln -s /opt/jdk1.7.0_80/bin/java /usr/bin
+```
 
-**Servidor de Banco de Dados MongoDB**
+### Servidor de Banco de Dados MongoDB
 
 1.  Após baixar o MongoDB para sua correta distribuição, deve-se efetuar a
     descompressão para o diretório /opt.
@@ -350,6 +350,8 @@ componentes da solução.
     ```sh
     cd /opt/mongodb-linux-x86_64-ubuntu1604-3.4.5/bin/
     ./mongo
+    ```
+    ```
     <mensagens de acesso irrestrito>
     use admin
     db.createUser({
@@ -415,12 +417,11 @@ componentes da solução.
     Padrão está comentado:
     #listen_addresses = 'localhost'
     Alterado:
-    listen_addresses = ‘0.0.0.0'
+    listen_addresses = '0.0.0.0'
     systemctl restart postgresql
     ```
 
-Servidor de indexação apache Solr
--------------------------------
+### Servidor de indexação apache Solr
 
 1.  Instale o pacote unzip conforme sua distribuição.
 
@@ -456,8 +457,7 @@ Servidor de indexação apache Solr
 5.	Observe o retorno do comando com “Creating new core 'base_conhecimento” e o “status”:0.
 
 
-Parâmetros CITSmart
-------------------
+## Parâmetros CITSmart
 
 !!! warning "ATENÇÃO"
 
@@ -540,8 +540,7 @@ Parâmetros CITSmart
 -   ***PASSWD_DB: Senha de acesso do usuário de banco. Manual criado com
     yourpassword.***
 
-Configuração do processamento batch (arquivo quartz.properties)
-----------------------------------------------------------
+## Configuração do processamento batch (arquivo quartz.properties)
 
 ### Ambiente Cluster
 
@@ -616,7 +615,7 @@ rotina de **processamento batch** do CITSmart em ambiente standalone.
     tag *system-properties* a propriedade **org.quartz.properties**, conforme
     indicado abaixo:
 
-    ```sh
+    ```java
     \<system-properties\>
 
     \<property name="org.apache.tomcat.util.http.Parameters.MAX_COUNT"
@@ -648,39 +647,35 @@ rotina de **processamento batch** do CITSmart em ambiente standalone.
     isso, é necessário adicionar no arquivo *citsmart.cfg* o
     parâmetro: *INICIAR_PROCESSAMENTOS_BATCH=TRUE*
 
-Download dos deploys do CITSmart
---------------------------------
+## Download dos deploys do CITSmart
 
-    Com os deploys em mãos, mova-os para o diretório deployments do Jboss.
+Com os deploys em mãos, mova-os para o diretório deployments do Jboss.
 
-    ```sh
-    # cp <deploy 1>.war /opt/jboss-7.1.2/standalone/deployments/
-    # cp <deploy 2>.war /opt/jboss-7.1.2/standalone/deployments/
-    # cp <deploy 3>.war /opt/jboss-7.1.2/standalone/deployments/
-    <continue conforme os deploys disponíveis para sua subscrição>
-    ```
+```sh
+cp <deploy 1>.war /opt/jboss-7.1.2/standalone/deployments/
+cp <deploy 2>.war /opt/jboss-7.1.2/standalone/deployments/
+cp <deploy 3>.war /opt/jboss-7.1.2/standalone/deployments/
+<continue conforme os deploys disponíveis para sua subscrição>
+```
 
-Criação de diretórios para instalação
-------------------------------------
+### Criação de diretórios para instalação
 
-    Crie os diretórios abaixo para serem configurados nos 3 passos de instalação
-    web.
+Crie os diretórios abaixo para serem configurados nos 3 passos de instalaçãoweb.
 
-    ```sh
-    Para GED:
-    mkdir /opt/citsmart/ged
-    Para Base de Conhecimento:
-    mkdir /opt/citsmart/kb
-    Para Palavras Gêmeas:
-    mkdir /opt/citsmart/twinwords
-    Para Anexos de Base de Conhecimento:
-    mkdir /opt/citsmart/attachkb
-    Para Upload:
-    mkdir /opt/citsmart/upload
-    ```
+```sh
+Para GED:
+mkdir /opt/citsmart/ged
+Para Base de Conhecimento:
+mkdir /opt/citsmart/kb
+Para Palavras Gêmeas:
+mkdir /opt/citsmart/twinwords
+Para Anexos de Base de Conhecimento:
+mkdir /opt/citsmart/attachkb
+Para Upload:
+mkdir /opt/citsmart/upload
+```
 
-Geração de certificado auto assinado SSL
----------------------------------------
+### Geração de certificado auto assinado SSL
 
 !!! info "IMPORTANTE"
 
@@ -741,8 +736,7 @@ Geração de certificado auto assinado SSL
     no **/opt/jboss-7.1.2/standalone/configuration/standalone-full.xml** do
     jboss.
 
-Iniciando as soluções seguindo dependências
------------------------------------------
+### Iniciando as soluções seguindo dependências
 
 Você pode criar as daemons conforme padrão de sua empresa ou iniciar as soluções
 no terminal.
@@ -777,8 +771,7 @@ sudo -u solr /opt/solr/bin/solr start
 ```
 
 
-Acesso ao CITSmart Enterprise
-----------------------------
+### Acesso ao CITSmart Enterprise
 
    -  Para acessar o CITSmart, devemos acessar o IP ou DNS seguido da porta e
     contexto.
