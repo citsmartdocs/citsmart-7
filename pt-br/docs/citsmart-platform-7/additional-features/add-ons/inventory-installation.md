@@ -177,7 +177,7 @@ proceda conforme os passos descritos abaixo:
 
 5.  Será apresentada a tela de Propriedades do Serviço SNMP. Clique na
     aba **Segurança**, marque a opção **Aceitar pacotes SNMP de qualquer
-    host **e clique em *Adicionar* para cria uma nova comunidade, conforme
+    host** e clique em *Adicionar* para cria uma nova comunidade, conforme
     indicado na figura abaixo;
 
     ![figure](images/inventory-7.png)
@@ -322,7 +322,7 @@ conforme os passos indicados abaixo:
 2.  Baixar o JBoss para Inventory: **jboss-as-7.1.Final - Inventory**;
 
 3.  Copie as últimas versões das aplicações CITSmart e CITSmart Inventory
-    (arquivos com extensão **.war**) para a pasta**deployments** das respectivas
+    (arquivos com extensão **.war**) para a pasta **deployments** das respectivas
     instâncias do JBoss;
 
 4.  Altere o arquivo **standalone-full.xml** das respectivas instâncias do
@@ -433,8 +433,10 @@ Cadastro de Conexões do CITSmart Inventory
 
     Caso seja adotada a integração do CITSmart Inventory com o OCS Inventory,
     é obrigatório observar as instruções contidas no
-    conhecimento**[ Configuração da Conexão do CITSmart Inventory].
+    conhecimento [Configuração da Conexão do CITSmart Inventory](1)).
 
+
+[1]:/pt-br/citsmart-platform-7/processes/event/inventory-connection-setup.html
 
 !!! tip "About"
 
