@@ -63,7 +63,7 @@ configuração do servidor de aplicação JBoss conforme orientação abaixo:
 
 3.  Após a alteração, salve o arquivo.
 
-Evm - event monitor
+EVM - Event Monitor
 ------------------
 
 Caso esteja utilizando o módulo de EVM - Event Monitor, altere o arquivo de
@@ -92,9 +92,9 @@ Novo contexto
 Após realizada a configuração para alteração do contexto, ao subir o sistema
 será apresentado o novo contexto conforme exemplo ilustrado na figura abaixo.
 
-    ![Criar](images/context-7.png)
+![Criar](images/context-7.png)
     
-    **Figura 7 - Novo contexto**
+**Figura 7 - Novo contexto**
 
 
 !!! tip "About"
