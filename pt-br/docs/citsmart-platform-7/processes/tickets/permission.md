@@ -21,7 +21,7 @@ Pré-condições
 -------------
 
 1.  Ter o perfil de Acesso cadastrado (ver conhecimento [Cadastro e pesquisa de
-    perfil de acesso](1).
+    perfil de acesso](1)).
 
 Filtros
 -------
