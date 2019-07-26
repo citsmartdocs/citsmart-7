@@ -221,3 +221,9 @@ Utilização dos formulários neuro nas tarefas de fluxo
 ![Criar](images/integration-14.png)
 
 **Figura 13 - Transação de BD**
+
+
+!!! tip "About"
+
+    <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
+    <b>Updated:</b>7/26/2019 – Anna Martins
