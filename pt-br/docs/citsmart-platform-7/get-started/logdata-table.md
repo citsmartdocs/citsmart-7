@@ -21,7 +21,7 @@ abaixo:
 
 1.  Em **Sistema > Parâmetros CITSmart**, realize a pesquisa do parâmetro “117 –
     Informar o caminho para salvar a tabela LOGDADOS” (ver conhecimento [Regras
-    de parametrização - Sistema](1);
+    de parametrização - Sistema](1));
 
     ![Criar](images/logdata-1.png)
     
