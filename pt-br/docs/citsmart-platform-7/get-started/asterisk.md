@@ -174,7 +174,7 @@ Para executar a funcionalidade de VoIP, é necessário configurar os parâmetros
 sistema:
 
 1.  Preencher os parâmetros conforme conhecimento relacionado "Regras de
-    parametrização - Telefonia" .
+    parametrização - Telefonia".
 
 !!! warning "ATENÇÃO"
 
