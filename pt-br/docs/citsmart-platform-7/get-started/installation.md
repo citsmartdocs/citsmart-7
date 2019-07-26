@@ -247,7 +247,7 @@ CITSmart.
 Algumas configurações só serão possíveis após a instalação de todos os
 componentes da solução.
 
-    ```sh
+    ```java
     #-- SET TRUE TO ENABLE EVM --
     <property name="citsmart.evm.enable" value="false"/>
     #-- SET TRUE TO ENABLE INVENTORY --
