@@ -14,7 +14,7 @@ Como acessar
 ------------
 
 1.  Acesse a funcionalidade de operação web service através da navegação no
-    menu principal **Sistema > Web Service > Operação de Web Service.
+    menu principal **Sistema > Web Service > Operação de Web Service**.
 
 Pré-condições
 ------------
