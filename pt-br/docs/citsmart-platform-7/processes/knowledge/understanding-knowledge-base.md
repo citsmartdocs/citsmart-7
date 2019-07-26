@@ -96,9 +96,9 @@ O CITSmart Enterprise ITSM, assim como as melhores ferramentas de Gestão de Con
 de base de conhecimento" para o usuário final, em nosso caso usando a tecnologia SolR, um dos recursos tecnológicos mais 
 avançados do mercado.
 
-Na parte central da tela do Portal do Conhecimento localiza-se um campo tipo texto preenchido com a frase “O que deseja saber?”. 
-Ao digitar uma palavra neste campo e teclar ENTER, a solução inicia um processo de busca em todos os registros da base de 
-conhecimento, incluindo dentro dos arquivos anexados em cada desses registros.
+Na parte central da tela do Portal do Conhecimento localiza-se um campo tipo texto preenchido com a frase **“O que deseja 
+saber?”**. Ao digitar uma palavra neste campo e teclar ENTER, a solução inicia um processo de busca em todos os registros da base 
+de conhecimento, incluindo dentro dos arquivos anexados em cada desses registros.
 
 ![Campo](images/base-img5.jpg)
 
