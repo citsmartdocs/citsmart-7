@@ -127,7 +127,7 @@ Utilização dos formulários neuro na abertura de solicitação ITSM
     -   Cadastrar um template do tipo Neuro no ITSM e associá-lo ao formulário,
     conforme tela a seguir:
 
-    ![Criar](images/integration-1.png)
+    ![Criar](images/integration-6.png)
     
     **Figura 6 - Template de solicitação**
 
@@ -137,7 +137,7 @@ Utilização dos formulários neuro na abertura de solicitação ITSM
 
     -   Associar o template à atividade do portfólio
 
-    ![Criar](images/integration-1.png)
+    ![Criar](images/integration-7.png)
     
     **Figura 7 - Cadastro/Edição serviço**
 
