@@ -63,7 +63,7 @@ configuração do servidor de aplicação JBoss conforme orientação abaixo:
 
 3.  Após a alteração, salve o arquivo.
 
-Evm - event monitor
+EVM - Event Monitor
 ------------------
 
 Caso esteja utilizando o módulo de EVM - Event Monitor, altere o arquivo de
