@@ -330,7 +330,7 @@ Coleção de objetos da classe **CtRequest** contendo:
     M=Médio, L=Baixo. Se não for informado, o impacto será calculado a partir
     dos parâmetros do catálogo de serviço do CITSmart.
 
--   **groupId**:** **sigla do grupo executor no CITSmart (opcional). Se não for
+-   **groupId**: sigla do grupo executor no CITSmart (opcional). Se não for
     informada, o grupo executor será obtido a partir dos parâmetros do catálogo
     de serviço do CITSmart.
 
@@ -354,7 +354,7 @@ Coleção de objetos da classe **CtRequest** contendo:
 Exemplo: detalha incidente/requisição do solicitante
 ----------------------------------------------------
 
-**URL: **/services/request/getById
+**URL**: /services/request/getById
 
 **Atributos de entrada**
 
