@@ -313,7 +313,7 @@ componentes da solução.
 
 **Servidor de JMS Apache ActiveMQ**
 
-    Descomprima o ActiveMQ e JAVA no diretório /opt e crie o link simbólico do JAVA.
+   Descomprima o ActiveMQ e JAVA no diretório /opt e crie o link simbólico do JAVA.
 
     ```sh
     tar -xvzf apache-activemq-5.14.5.tar.gz -C /opt/
