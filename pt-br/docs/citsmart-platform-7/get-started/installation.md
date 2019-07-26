@@ -944,7 +944,7 @@ Siga os passos:
 
 19.  Configurar os parâmetros do CITSmart:
 
-    -  10, 11, 12, 13, 14, 199 e 269 (ver conhecimento [Regras de parametrização -
+   -  10, 11, 12, 13, 14, 199 e 269 (ver conhecimento [Regras de parametrização -
      e-mail](1).
 
 20.  Desta forma, o CITSmart utiliza o servidor local como relay para envio de
