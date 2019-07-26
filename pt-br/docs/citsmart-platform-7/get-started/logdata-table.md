@@ -67,6 +67,8 @@ abaixo:
 **Figura 4 - O arquivo**
 
 
+[1]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-system.html
+
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
