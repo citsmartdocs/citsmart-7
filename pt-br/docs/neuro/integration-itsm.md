@@ -73,6 +73,7 @@ Formas de integração
 2.  Cada uma das formas de integração é detalhada a seguir.
 
 Acesso às telas do neuro pelo ITSM
+---------------------------------
 
 1.  Caso o parâmetro de integração 309 indique que a integração está habilitada
     e o usuário logado no ITSM tenha acesso à integração (usuário consultor já
