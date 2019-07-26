@@ -256,7 +256,7 @@ Exemplo: alteração da situação de um incidente/requisição
 
 **Atributos de Entrada**
 
--   ** number**: número da solicitação no Citsmart ITSM. Obrigatório quando o
+-   **number**: número da solicitação no Citsmart ITSM. Obrigatório quando o
     atributo **numberOrigin** não for informado.
 
 -   **numberOrigin**: número da solicitação no sistema de origem. Obrigatório
