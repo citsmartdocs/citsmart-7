@@ -945,7 +945,7 @@ Siga os passos:
 19.  Configurar os parâmetros do CITSmart:
 
    -  10, 11, 12, 13, 14, 199 e 269 (ver conhecimento [Regras de parametrização -
-     e-mail](1).
+     e-mail](1)).
 
 20.  Desta forma, o CITSmart utiliza o servidor local como relay para envio de
     e-mails.
@@ -1320,15 +1320,15 @@ descritas abaixo:
 Veja também
 -----------
 
--   [Conexão CITSmart Event Monitor];
+[Conexão CITSmart Event Monitor];
 
--   [Configuração da conexão do Citsmart inventory];
+[Configuração da conexão do Citsmart inventory];
 
--   [Manual de instalação do componente Inventory];
+[Manual de instalação do componente Inventory];
 
--   [Manual de instalação do Central Authentication Service (CAS) - versão 3.0 (ITSM)];
+[Manual de instalação do Central Authentication Service (CAS) - versão 3.0 (ITSM)];
 
--   [Manual de instalação do componente EVM].
+[Manual de instalação do componente EVM].
 
 
 [1]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-email.html
