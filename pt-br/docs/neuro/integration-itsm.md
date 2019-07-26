@@ -189,10 +189,6 @@ Utilização dos formulários neuro nas tarefas de fluxo
     ![Criar](images/integration-11.png)
 
     ![Criar](images/integration-12.png)
-    
-    **Figura 10 - Formulário associado**
-
-    ![Criar](images/integration-13.png)
  
     **Figura 11 - Regra de Negócio**
 
@@ -204,7 +200,7 @@ Utilização dos formulários neuro nas tarefas de fluxo
 
     -   Referenciar um fluxo ESI na aba de propriedades.
 
-    ![Criar](images/integration-14.png)
+    ![Criar](images/integration-13.png)
   
     **Figura 12 - Fluxo ESI**
 
@@ -219,7 +215,7 @@ Utilização dos formulários neuro nas tarefas de fluxo
     banco de dados, tipo do SQL, variável JSON de entrada e variável JSON de
     saída.
 
-![Criar](images/integration-15.png)
+![Criar](images/integration-14.png)
 
 **Figura 13 - Transação de BD**
 
