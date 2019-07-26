@@ -224,30 +224,30 @@ CITSmart.
     simbólicos para o /usr/bin. Recomendamos que seu ambiente não possua nenhum
     JAVA instalado. Execute java –version e confira a versão do java.
 
-    ````sh
-    # tar -xvzf jdk-1.7.0_80-linux-x64.tar.gz -C /opt/
-    # ln -s /opt/jdk1.7.0_80/bin/java /usr/bin
-    # ln -s /opt/jdk1.7.0_80/bin/keytool /usr/bin
-    # java -version
+    ```sh
+    tar -xvzf jdk-1.7.0_80-linux-x64.tar.gz -C /opt/
+    ln -s /opt/jdk1.7.0_80/bin/java /usr/bin
+    ln -s /opt/jdk1.7.0_80/bin/keytool /usr/bin
+    java -version
     java version "1.7.0_80"
     Java(TM) SE Runtime Environment (build 1.7.0_80-b15)
     Java HotSpot(TM) 64-Bit Server VM (build 24.80-b11, mixed mode)
-    ````
+    ```
 
 2.  Extraia o Jboss para o diretório /opt.
 
 3.  No exemplo abaixo utilizamos o Jboss com o PostgreSQL configurado.
 
-    ````sh
-    # tar -xvzf jboss-7.1.2_postgres.tar.gz -C /opt/
-    ````
+    ```sh
+    tar -xvzf jboss-7.1.2_postgres.tar.gz -C /opt/
+    ```
 
 4.  Agora devemos configurar o arquivo standalone-full.xml.
 
 Algumas configurações só serão possíveis após a instalação de todos os
 componentes da solução.
 
-    ````sh
+    ```sh
     <!-- SET TRUE TO ENABLE EVM -->
     <property name="citsmart.evm.enable" value="false"/>
     <!-- SET TRUE TO ENABLE INVENTORY -->
@@ -274,7 +274,7 @@ componentes da solução.
     <property name="citsmart.inventory.id" value="inventory_local"/>
     <!-- SET CITSMART EVM ID -->
     <property name="citsmart.evm.id" value="evm_local"/>
-    ````
+    ```
     
 5.  As seções necessárias de configuração estão demonstradas abaixo e estarão
     explicadas na seção **"Parâmetros CITSmart"**.
