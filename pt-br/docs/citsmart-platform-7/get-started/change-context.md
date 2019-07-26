@@ -92,9 +92,9 @@ Novo contexto
 Após realizada a configuração para alteração do contexto, ao subir o sistema
 será apresentado o novo contexto conforme exemplo ilustrado na figura abaixo.
 
-    ![Criar](images/context-7.png)
+![Criar](images/context-7.png)
     
-    **Figura 7 - Novo contexto**
+**Figura 7 - Novo contexto**
 
 
 !!! tip "About"
