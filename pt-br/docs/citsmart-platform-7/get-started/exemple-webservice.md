@@ -69,7 +69,7 @@ Exemplo: criação de incidente/requisição
         atributo **synchronize** for igual a true.
 
     -   **contact**: dados do solicitante. Obrigatório quando o solicitante não
-        existir no CITSmart e o atributo** synchronize** for igual a true.
+        existir no CITSmart e o atribut o**synchronize** for igual a true.
 
         -   **name**: nome do solicitante (obrigatório).
 
