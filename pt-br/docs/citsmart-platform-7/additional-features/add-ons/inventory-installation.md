@@ -53,7 +53,7 @@ caso eliminando a necessidade de configurar a porta SNMP de cada máquina).
     coletar informações de outras estações Windows remotas. A conversa do
     Servidor CITSmart com este servidor é feita através de Protocolo TCP/IP,
     conexão TCP, pela porta 7103. Devem ser feitas as devidas liberações
-    nos*firewalls *para que este processo de comunicação funcione corretamente.
+    nos *firewalls* para que este processo de comunicação funcione corretamente.
     Deve-se também atribuir um usuário e senha com permissões de administração
     de rede para a execução do Serviço do Windows (Windows Service), pois este
     componente fará acesso às máquinas remotas utilizando o recurso WMI,
