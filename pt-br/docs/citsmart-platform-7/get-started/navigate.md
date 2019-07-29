@@ -109,9 +109,9 @@ Detalhamento
 
 7. Ícone ![simbolo](images/simb-3points.green.jpg)
 
-8. Ícone ![simbolo](images/simb-lupa.black.jpg)
+8. Ícone ![simbolo](images/simb-lupa.black.jpg) - visualiza o histórico do registro atual
 
-9. Ícone ![simbolo](images/simb-clips.grey.jpg)
+9. Ícone ![simbolo](images/simb-clips.grey.jpg)- visualiza os anexos do registro atual
 
 Inclusão
 ----------
