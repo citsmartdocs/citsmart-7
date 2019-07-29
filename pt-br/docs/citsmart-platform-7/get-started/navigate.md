@@ -160,25 +160,33 @@ Edição
 
 8. Ícone ![simbolo](images/simb-relo.green.jpg)
 
-9. Ícone ![simbolo](images/simb-ok-white.jpg)
+9. Ícone ![simbolo](images/simb-ok-white.jpg)- neste caso especificamente a alteração se refere a aprovação de uma informação
 
-10. Ícone ![simbolo](images/simb-maos.jpg)
+10. Ícone ![simbolo](images/simb-maos.jpg)- neste caso especificamente a alteração se refere a vínculos que o registro atual pode 
+ter com outros registros
 
-11. Ícone ![simbolo](images/simb-lupa-grey.jpg)
+11. Ícone ![simbolo](images/simb-lupa-grey.jpg)- neste caso especificamente a alteração se refere a vínculos que o registro atual 
+pode ter com outros registros
 
-12. Ícone ![simbolo](images/simb-alicate.jpg)
+12. Ícone ![simbolo](images/simb-alicate.jpg) - neste caso especificamente a alteração se refere a vínculos que o registro atual 
+pode ter com outros registros
 
-13. Ícone ![simbolo](images/simb-folhlapisblue.jpg)
+13. Ícone ![simbolo](images/simb-folhlapisblue.jpg)- neste caso especificamente a alteração se refere a vínculos que o registro 
+atual pode ter com alguma situação
 
-14. Ícone ![simbolo](images/simb-spot.grey.jpg)
+14. Ícone ![simbolo](images/simb-spot.grey.jpg)- neste caso especificamente a alteração se refere a vínculos que o registro atual 
+pode ter com alguma situação
 
-15. Ícone ![simbolo](images/simb-livro.jpg)
+15. Ícone ![simbolo](images/simb-livro.jpg)- neste caso especificamente a alteração se refere a vínculos que o registro atual 
+pode ter com alguma situação
 
-16. Ícone ![simbolo](images/simb-ok.green.jpg)
+16. Ícone ![simbolo](images/simb-ok.green.jpg)- neste caso especificamente a alteração se refere a vínculos que o registro atual 
+ter com outros registros
 
-17. Ícone ![simbolo](images/simb-2setas.green.jpg)
+17. Ícone ![simbolo](images/simb-2setas.green.jpg)- neste caso especificamente a alteração se refere a vínculos que o registro 
+atual pode ter com outros registros
 
-18. Ícone ![simbolo](images/simb-fech.red.jpg)
+18. Ícone ![simbolo](images/simb-fech.red.jpg) - neste caso especificamente a remoção de vínculos que o registro atual pode ter com outros registros
 
 19. Botão "Gravar"
 
