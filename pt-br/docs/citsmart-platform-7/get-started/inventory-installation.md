@@ -90,10 +90,10 @@ utilize um usuário e senha com permissões de Administração da rede Windows (
 
 Caso o Agente já esteja instalado e você queira desinstalar para instalação de uma nova versão, basta proceder da seguinte forma:
 
-    - Em “Painel de Controle” > “Ferramenta Administrativas” → “Serviços”, clique em Parar no Serviço agCITSmart.NET;
-    - Em “Painel de Controle” → “Programas e Recursos”, localize o software AgentCITSmart.NET e escolha a opção Desinstalar;
-    - Caso o serviço ainda esteja instalado, basta entrar em uma janela de comandos (Prompt do DOS) e digitar o comando 
-    **sc delete agCITSmart.NET**. Após isso, dê um refresh na janela de serviços do Windows.
+- Em “Painel de Controle” > “Ferramenta Administrativas” → “Serviços”, clique em Parar no Serviço agCITSmart.NET;
+- Em “Painel de Controle” → “Programas e Recursos”, localize o software AgentCITSmart.NET e escolha a opção Desinstalar;
+- Caso o serviço ainda esteja instalado, basta entrar em uma janela de comandos (Prompt do DOS) e digitar o comando 
+**sc delete agCITSmart.NET**. Após isso, dê um refresh na janela de serviços do Windows.
     
 *SNMP*: O protocolo SNMP (do inglês Simple Network Management Protocol - Protocolo Simples de Gerência de Rede) é um protocolo, 
 da camada de aplicação, de gerência típica de redes IP, que facilita o intercâmbio de informação entre os dispositivos de rede, 
