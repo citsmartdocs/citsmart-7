@@ -51,7 +51,7 @@ conhecimento mais detalhado.
 Veja também
 --------------
 
--[Cadastro e pesquisa de registro de liberação](/pt-br/citsmart-platform-7/processes/release/requisition.html)
+- [Cadastro e pesquisa de registro de liberação](/pt-br/citsmart-platform-7/processes/release/requisition.html)
 
 !!! tip "About"
 
