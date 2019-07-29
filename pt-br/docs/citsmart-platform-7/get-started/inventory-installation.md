@@ -267,13 +267,13 @@ Standalone-full.xml (CITSmart)
 
 Altere a seguinte seção deste arquivo, conforme indicado abaixo.
 
-![Inventory](images/cod-img12)
+![Inventory](images/cod-img12.jpg)
 
 **standalone-full.xml (CITSmart Inventory)**
 
 Altere a seguinte seção deste arquivo, conforme indicado abaixo.
 
-![Inventory](images/cod-img13)
+![Inventory](images/cod-img13.jpg)
 
 !!! warning "ATENÇÃO"
 
