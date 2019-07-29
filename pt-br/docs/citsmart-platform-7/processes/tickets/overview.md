@@ -11,8 +11,11 @@ Cumprimento de requisição
 Segundo a ITIL, o processo de Cumprimento de Requisição é responsável por gerenciar o ciclo de vida de todas as requisições de 
 serviços efetuadas pelos usuários e busca manter a satisfação dos mesmos por meio do tratamento eficiente e profissional de todas
 as requisições de serviço, assim como providencia um canal para os usuários requisitarem e receberem serviços padrão, com os 
-controles de acesso e qualidade definidos. Esse processo também provê informações para usuários e clientes sobre a disponibilidade
-de serviços e procedimentos para obtê-los, além de ajudar com informações gerais, reclamações ou comentários.
+controles de acesso e qualidade definidos. Esse processo também provê informações para usuários e clientes sobre a 
+disponibilidade de serviços e procedimentos para obtê-los, além de ajudar com informações gerais, reclamações ou comentários.
+
+As atividades deste processo variam de acordo com o que está sendo requisitado. As requisições de serviço são tratadas por um 
+processo específico.
 
 Gerenciamento de incidentes
 -----------------------------
@@ -21,8 +24,8 @@ O Gerenciamento de Incidentes é o processo responsável por gerenciar todo o ci
 informados pela equipe técnica, por ferramentas de detecção de eventos – sistemas de monitoramento e alarmismo - pelos usuários e
 por fornecedores.
 
-O Gerenciamento de Incidentes tem como objetivo restaurar a operação normal do serviço de maneira rápida e garantir, desta forma, os
-melhores níveis de qualidade e disponibilidade do serviço
+O Gerenciamento de Incidentes tem como objetivo restaurar a operação normal do serviço de maneira rápida e garantir, desta forma, 
+os melhores níveis de qualidade e disponibilidade do serviço.
 
 Onde estão suas funcionalidades
 ---------------------------------
