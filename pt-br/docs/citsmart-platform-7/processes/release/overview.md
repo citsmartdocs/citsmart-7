@@ -9,8 +9,8 @@ Liberação (release) é definida como uma mudança significativa na infraestrut
 de novos ICs, ou a atualização dos atuais.
 
 O processo de Gerenciamento de Liberação provê o gerenciamento físico de software e hardware, permitindo o planejamento das 
-liberações a serem realizadas na infraestrutura de TI, apoiando-se nas informações sobre ICs e seus relacionamentos armazenadas na
-BDGC.
+liberações a serem realizadas na infraestrutura de TI, apoiando-se nas informações sobre ICs e seus relacionamentos armazenadas 
+na BDGC.
 
 Segundo a ITIL os principais objetivos do processo de Gerenciamento de Liberação são:
 
