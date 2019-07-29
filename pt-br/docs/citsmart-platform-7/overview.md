@@ -39,7 +39,7 @@ Público-alvo da solução e principais benefícios
 
 | Púlico-alvo                                      | Benefícios                                                                                                                                                                                                                                                                                                                        |
 |--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [direção][14] Alta Direção                                     | - Promover melhorias na eficiência dos processos de prestação de serviços de TI e de negócio - Visualizar relatórios e dashboards que apoiem mudanças e melhorias - Visualizar a saúde dos seus serviços de negócio - Visualizar o monitoramento estratégico de riscos - Reconhecer o valor do serviço para o negócio             |
+| Alta Direção                                     | - Promover melhorias na eficiência dos processos de prestação de serviços de TI e de negócio - Visualizar relatórios e dashboards que apoiem mudanças e melhorias - Visualizar a saúde dos seus serviços de negócio - Visualizar o monitoramento estratégico de riscos - Reconhecer o valor do serviço para o negócio             |
 | Atendimento ao Cliente                           | - Agilizar a solução dos problemas de seus clientes - Melhorar a sua imagem - Conectar equipes - Corrigir problemas em tempo real - Acompanhar as solicitações - Usar base de conhecimento - Rotear atendimentos para o serviço de campo - Reduzir custos com inteligência cognitiva - Monitorar eventos - Identificar tendências |
 | Gestão de Fornecedores e Contratos Terceirizados | - Gerenciar contratos de prestação de serviços aplicando o SIAM (Integração e Gerenciamento de Serviços) - Avaliar o desempenho da prestação de serviço - Fixar metas de atingimento de KPIs - Gerenciar o fluxo financeiro dos contratos - Aplicar multas/glosas                                                                 |
 | Gestão da Infraestrutura de TI                   | - Controlar os ativos, clientes, fornecedores e itens de configuração necessários para prover os serviços - Administrar os acordos de nível de serviço (ANS) - Estruturar catálogos e portfólios de serviços - Elaborar os desenhos de serviço no padrão BPMN - Fazer medições de serviços com qualidade e garantia               |
@@ -94,5 +94,5 @@ Público-alvo da solução e principais benefícios
 [11]:/pt-br/citsmart-platform-7/processes/tickets/overview.ht
 [12]:/pt-br/citsmart-platform-7/processes/event/overview.html
 [13]:/pt-br/citsmart-platform-7/processes/problem/overview.html
-[14]:(images/simb-reuniao.jpg)
+
 
