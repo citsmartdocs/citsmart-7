@@ -95,23 +95,23 @@ Detalhamento
 
 **Opções de links e ícones**
 
-1. Ícone [simbolo](images/simb-seta.grey.jpg)
+1. Ícone ![simbolo](images/simb-seta.grey.jpg)
 
-2. Ícone [simbolo](images/simb-seta.green.jpg)
+2. Ícone ![simbolo](images/simb-seta.green.jpg)
 
-3. Ícone [simbolo](images/simb-iei.grey.jpg)
+3. Ícone ![simbolo](images/simb-iei.grey.jpg)
 
-4. Ícone [simbolo](images/simb-iei.black.jpg)
+4. Ícone ![simbolo](images/simb-iei.black.jpg)
 
-5. Ícone [simbolo](images/simb-mais-grey.jpg)
+5. Ícone ![simbolo](images/simb-mais-grey.jpg)
 
-6. Ícone [simbolo](images/simb-olho.green.jpg)
+6. Ícone ![simbolo](images/simb-olho.green.jpg)
 
-7. Ícone [simbolo](images/simb-3points.green.jpg)
+7. Ícone ![simbolo](images/simb-3points.green.jpg)
 
-8. Ícone [simbolo](images/simb-lupa.black.jpg)
+8. Ícone ![simbolo](images/simb-lupa.black.jpg)
 
-9. Ícone [simbolo](images/simb-clips.grey.jpg)
+9. Ícone ![simbolo](images/simb-clips.grey.jpg)
 
 Inclusão
 ----------
@@ -122,12 +122,12 @@ Inclusão
 
 **Opções de links e ícones**
 
-1. Ícone [simbolo](images/simb-mais.green-redo.jpg)
+1. Ícone ![simbolo](images/simb-mais.green-redo.jpg)
 
-2. Ícone [simbolo](images/simb-mais.green-quada.jpg)- neste caso específico serve para abrir um cadastro básico
+2. Ícone ![simbolo](images/simb-mais.green-quada.jpg)- neste caso específico serve para abrir um cadastro básico
 
-3. Ícone [simbolo](images/simb-2folhas.jpg)- neste caso específico trata-se de uma inclusão de novo registro com cópia de dados a 
-partir do registro atual
+3. Ícone ![simbolo](images/simb-2folhas.jpg)- neste caso específico trata-se de uma inclusão de novo registro com cópia de dados 
+a partir do registro atual
 
 4. Botão "Adicionar"
 
@@ -144,41 +144,41 @@ Edição
 
 **Opções de links e ícones**
 
-1. Ícone [simbolo](images/simb-lapis.green-quad.jpg)
+1. Ícone ![simbolo](images/simb-lapis.green-quad.jpg)
 
-2. Ícone [simbolo](images/simb-lapis.green.jpg)
+2. Ícone ![simbolo](images/simb-lapis.green.jpg)
 
-3. Ícone [simbolo](images/simb-folhlapis.jpg)
+3. Ícone ![simbolo](images/simb-folhlapis.jpg)
 
-4. Ícone [simbolo](images/simb-lapis-marron.jpg)
+4. Ícone ![simbolo](images/simb-lapis-marron.jpg)
 
-5. Ícone [simbolo](images/simb-lapis-grey.quad.jpg)
+5. Ícone ![simbolo](images/simb-lapis-grey.quad.jpg)
 
-6. Ícone [simbolo](images/simb-folhablue.jpg)
+6. Ícone ![simbolo](images/simb-folhablue.jpg)
 
-7. Ícone [simbolo](images/simb-forn.jpg)
+7. Ícone ![simbolo](images/simb-forn.jpg)
 
-8. Ícone [simbolo](images/simb-relo.green.jpg)
+8. Ícone ![simbolo](images/simb-relo.green.jpg)
 
-9. Ícone [simbolo](images/simb-ok-white.jpg)
+9. Ícone ![simbolo](images/simb-ok-white.jpg)
 
-10. Ícone [simbolo](images/simb-maos.jpg)
+10. Ícone ![simbolo](images/simb-maos.jpg)
 
-11. Ícone [simbolo](images/simb-lupa-grey.jpg)
+11. Ícone ![simbolo](images/simb-lupa-grey.jpg)
 
-12. Ícone [simbolo](images/simb-alicate.jpg)
+12. Ícone ![simbolo](images/simb-alicate.jpg)
 
-13. Ícone [simbolo](images/simb-folhlapisblue.jpg)
+13. Ícone ![simbolo](images/simb-folhlapisblue.jpg)
 
-14. Ícone [simbolo](images/simb-spot.grey.jpg)
+14. Ícone ![simbolo](images/simb-spot.grey.jpg)
 
-15. Ícone [simbolo](images/simb-livro.jpg)
+15. Ícone ![simbolo](images/simb-livro.jpg)
 
-16. Ícone [simbolo](images/simb-ok.green.jpg)
+16. Ícone ![simbolo](images/simb-ok.green.jpg)
 
-17. Ícone [simbolo](images/simb-2setas.green.jpg)
+17. Ícone ![simbolo](images/simb-2setas.green.jpg)
 
-18. Ícone [simbolo](images/simb-fech.red.jpg)
+18. Ícone ![simbolo](images/simb-fech.red.jpg)
 
 19. Botão "Gravar"
 
@@ -193,23 +193,23 @@ Exclusão ou Desvinculação
 
 **Opções de links e ícones**
 
-1. Ícone [simbolo](images/simb-lix.red.jpg)
+1. Ícone ![simbolo](images/simb-lix.red.jpg)
 
-2. Ícone [simbolo](images/simb-fech.redwhite.jpg)
+2. Ícone ![simbolo](images/simb-fech.redwhite.jpg)
 
-3. Ícone [simbolo](images/sim-fech.greenwhite.jpg)
+3. Ícone ![simbolo](images/sim-fech.greenwhite.jpg)
 
-4. Ícone [simbolo](images/simb-fech.green.jpg)
+4. Ícone ![simbolo](images/simb-fech.green.jpg)
 
-5. Ícone [simbolo](images/simb-fech.grey.jpg)
+5. Ícone ![simbolo](images/simb-fech.grey.jpg)
 
-6. Ícone [simbolo](images/simb-fech-red-redon.jpg)
+6. Ícone ![simbolo](images/simb-fech-red-redon.jpg)
 
-7. Ícone [simbolo](images/simb-menos.red.jpg)
+7. Ícone ![simbolo](images/simb-menos.red.jpg)
 
-8. Ícone [simbolo](images/simb-xis.red.jpg)
+8. Ícone ![simbolo](images/simb-xis.red.jpg)
 
-9. Ícone [simbolo](images/simb-xis.red.small.jpg)
+9. Ícone ![simbolo](images/simb-xis.red.small.jpg)
 
 10. Botão "Excluir"
 
@@ -224,11 +224,11 @@ Gravação
 
 **Opções de links e ícones**
 
-1. Ícone [simbolo](images/simb-dis.green.jpg)
+1. Ícone ![simbolo](images/simb-dis.green.jpg)
 
-2. Ícone [simbolo](images/simb-arq.blue.jpg)
+2. Ícone ![simbolo](images/simb-arq.blue.jpg)
 
-3. Ícone [simbolo](images/simb-avan.green.jpg)
+3. Ícone ![simbolo](images/simb-avan.green.jpg)
 
 Limpar
 ----------
@@ -239,7 +239,7 @@ Limpar
 
 **Opções de links e ícones**
 
-1. Ícone [simbolo](images/simb-voltar.blue.jpg)
+1. Ícone ![simbolo](images/simb-voltar.blue.jpg)
 
 2. Botão "Limpar"
 
@@ -254,7 +254,7 @@ Anexos
 
 **Opções de links e ícones**
 
-1. Ícone [simbolo](images/simb-clips.green.jpg)
+1. Ícone ![simbolo](images/simb-clips.green.jpg)
 
 Pesquisa
 ----------
@@ -265,11 +265,11 @@ Pesquisa
 
 **Opções de links e ícones**
 
-1. Ícone [simbolo](images/simb-seta.grey.jpg)
+1. Ícone ![simbolo](images/simb-seta.grey.jpg)
 
-2. Ícone [simbolo](images/simb-2pess.jpg)
+2. Ícone ![simbolo](images/simb-2pess.jpg)
 
-3. Ícone [simbolo](images/simb-lupa-grey.jpg)
+3. Ícone ![simbolo](images/simb-lupa-grey.jpg)
 
 4. Botão "Pesquisar"
 
@@ -282,11 +282,11 @@ Exportação
 
 **Opções de links e ícones**
 
-1. Ícone [simbolo](images/simb-pdf.jpg)- neste caso exporta para um formato compatível com Acrobat Reader (extensão PDF)
+1. Ícone ![simbolo](images/simb-pdf.jpg)- neste caso exporta para um formato compatível com Acrobat Reader (extensão PDF)
 
-2. Ícone [simbolo](images/simb-excel.jpg)- neste caso exporta para um formato compatível com MS-Excel
+2. Ícone ![simbolo](images/simb-excel.jpg)- neste caso exporta para um formato compatível com MS-Excel
 
-3. Ícone [simbolo](images/simb-menu.jpg) - neste caso exporta gráficos para formato PDF ou formato de imagem
+3. Ícone ![simbolo](images/simb-menu.jpg) - neste caso exporta gráficos para formato PDF ou formato de imagem
 
 4. Botão "Salvar tabela" - neste caso exporta para um formato compatível com MS-Excel
 
@@ -303,7 +303,7 @@ Gráfico
 
 **Opções de links e ícones**
 
-1. Ícone [simbolo](images/simb.cimabaix.jpg)
+1. Ícone ![simbolo](images/simb.cimabaix.jpg)
 
 2. Botão "Atualizar Gráficos"
 
@@ -316,7 +316,7 @@ Execução
 
 **Opções de links e ícones**
 
-1. Ícone [simbolo](images/simb-triang.jpg)
+1. Ícone ![simbolo](images/simb-triang.jpg)
 
 2. Botão "Executar"
 
