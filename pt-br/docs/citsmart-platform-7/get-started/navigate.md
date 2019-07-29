@@ -234,9 +234,9 @@ Gravação
 
 1. Ícone ![simbolo](images/simb-dis.green.jpg)
 
-2. Ícone ![simbolo](images/simb-arq.blue.jpg)
+2. Ícone ![simbolo](images/simb-arq.blue.jpg) - neste caso grava com status "Arquivado"
 
-3. Ícone ![simbolo](images/simb-avan.green.jpg)
+3. Ícone ![simbolo](images/simb-avan.green.jpg)- neste caso grava e avança o fluxo
 
 Limpar
 ----------
