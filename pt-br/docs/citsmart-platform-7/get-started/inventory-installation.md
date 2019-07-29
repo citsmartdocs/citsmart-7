@@ -277,7 +277,7 @@ Altere a seguinte seção deste arquivo, conforme indicado abaixo.
 
 !!! warning "ATENÇÃO"
 
-    Na tag property das configurações acima **<property name="citsmart.login" value=""/>**  , referente a seção 
+    Na tag property das configurações acima <property name="citsmart.login" value=""/>  , referente a seção 
     tandalone-full.xml (CITSmart Inventory), na propriedade "nome" o valor que normalmente é o login do usuário, desde a
     versão 7.2.2.0 é preciso informar o "contexto".
     
