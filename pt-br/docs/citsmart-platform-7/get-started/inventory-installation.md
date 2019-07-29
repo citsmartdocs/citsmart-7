@@ -156,7 +156,7 @@ a opção **Somente Leitura** para os direitos da comunidade e clique em Adicion
 Instalação/Configuração do SNMP no ambiente Linux
 -----------------------------------------------------
 
-Para realizar a instalação/configuração do SNMP no ambiente Linux, proceda conforme os passos descritos abaixo:
+Para realizar a instalação/configuração do SNMP no ambiente *Linux*, proceda conforme os passos descritos abaixo:
 
 *Instalação do SNMP no Sistema Operacional CentOS*
 
