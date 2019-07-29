@@ -29,9 +29,9 @@ A imagem abaixo mostra a cobertura significativa desta solução em relação ao
 | **Estágios do ciclo de vida ITIL para serviços** | **Processos ITIL**                                                                                                                                               |
 |----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Service Strategy                             | [Gerenciamento de Portfólio de Serviços][2]                                                                                                                      |
-| Service Design                               | [Gerenciamento de Nível de Serviços][3]; [Gerenciamento de Catálogo de Serviços][4]; [Gerenciamento de Continuidade de Serviços de TI][5]; Gerenciamento de Disponibilidade |
-| Service Transition                           | [Gerenciamento de Mudança][6]; [Gerenciamento de Configuração e Ativo de Serviço][7]; [Gerenciamento de Liberação e Entrega][8]; [Gerenciamento de Conhecimento][9]              |
-| Service Operation                            | [Gerenciamento de Requisições e Incidentes][10]; [Gerenciamento de Evento][11]; [Gerenciamento de Problema][12]                                                               |
+| Service Design                               | [Gerenciamento de Nível de Serviços][3]; [Gerenciamento de Catálogo de Serviços][4]; [Gerenciamento de Continuidade de Serviços de TI][5]; [Gerenciamento de Disponibilidade][6] |
+| Service Transition                           | [Gerenciamento de Mudança][7]; [Gerenciamento de Configuração e Ativo de Serviço][8]; [Gerenciamento de Liberação e Entrega][9]; [Gerenciamento de Conhecimento][10]              |
+| Service Operation                            | [Gerenciamento de Requisições e Incidentes][11]; [Gerenciamento de Evento][12]; [Gerenciamento de Problema][13]                                                               |
 
 
 
@@ -79,11 +79,12 @@ A imagem abaixo mostra a cobertura significativa desta solução em relação ao
 [3]:/pt-br/citsmart-platform-7/processes/service-level/overview.html
 [4]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/overview.html
 [5]:/pt-br/citsmart-platform-7/processes/continuity/overview.html
-[6]:/pt-br/citsmart-platform-7/processes/change/overview.html
-[7]:/pt-br/citsmart-platform-7/processes/configuration/overview.html
-[8]:/pt-br/citsmart-platform-7/processes/release/overview.html
-[9]:/pt-br/citsmart-platform-7/processes/knowledge/overview.html
-[10]:/pt-br/citsmart-platform-7/processes/tickets/overview.ht
-[11]:/pt-br/citsmart-platform-7/processes/event/overview.html
-[12]:/pt-br/citsmart-platform-7/processes/problem/overview.html
+[6]:/pt-br/citsmart-platform-7/processes/availability/overview.html
+[7]:/pt-br/citsmart-platform-7/processes/change/overview.html
+[8]:/pt-br/citsmart-platform-7/processes/configuration/overview.html
+[9]:/pt-br/citsmart-platform-7/processes/release/overview.html
+[10]:/pt-br/citsmart-platform-7/processes/knowledge/overview.html
+[11]:/pt-br/citsmart-platform-7/processes/tickets/overview.ht
+[12]:/pt-br/citsmart-platform-7/processes/event/overview.html
+[13]:/pt-br/citsmart-platform-7/processes/problem/overview.html
 
