@@ -34,6 +34,8 @@ A imagem abaixo mostra a cobertura significativa desta solução em relação ao
 | Service Operation                            | [Gerenciamento de Requisições e Incidentes][11]; [Gerenciamento de Evento][12]; [Gerenciamento de Problema][13]                                                               |
 
 
+Público-alvo da solução e principais benefícios
+---------------------------------------------------
 
 
 
