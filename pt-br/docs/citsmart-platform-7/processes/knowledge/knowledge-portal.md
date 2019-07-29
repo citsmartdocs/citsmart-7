@@ -26,7 +26,7 @@ mesmas;
 
 ![simbolo](images/num6.png) **Favoritos**: conhecimentos que foram marcados como favorito pelo o usuário logado;
 
-![simbolo](imges/num7.png) **Curtidos**: conhecimentos que foram curtidos pelo usuário logado;
+![simbolo](images/num7.png) **Curtidos**: conhecimentos que foram curtidos pelo usuário logado;
 
 ![simbolo](images/num8.png) **Indicados**: conhecimentos indicados ao usuário, referentes às funcionalidades do sistema mais 
 acessadas. Exemplo: o usuário logado acessa sempre a funcionalidade de "Solicitação de Serviço", quando o mesmo entrar no Portal do 
