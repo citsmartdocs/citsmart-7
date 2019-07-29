@@ -1,7 +1,7 @@
 title: Relatório de tópicos ou asusntos encontrados, não encontrados e resumo de buscas.
 Description: Esta funcionalidade tem o objetivo de realizar Relatórios de Tópicos ou Assuntos disponíveis ou não na base de conhecimento que são pesquisados no Portal do conhecimento.
 
-# Relatório de tópicos ou asusntos encontrados, não encontrados e resumo de buscas
+# Relatório de tópicos ou assuntos encontrados, não encontrados e resumo de buscas
 
 Esta funcionalidade tem o objetivo de realizar Relatórios de Tópicos ou Assuntos
 disponíveis ou não na base de conhecimento que são pesquisados no Portal do
