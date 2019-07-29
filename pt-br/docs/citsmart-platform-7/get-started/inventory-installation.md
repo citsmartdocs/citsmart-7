@@ -151,6 +151,8 @@ a opção **Somente Leitura** para os direitos da comunidade e clique em Adicion
     
     **Figura 9 - Configuração do serviço SNMP**
     
+8. Para efetuar a configuração do Serviço SNMP, basta clicar no botão "Ok".
+    
 Instalação/Configuração do SNMP no ambiente Linux
 -----------------------------------------------------
 
