@@ -121,13 +121,16 @@ Inventory tentará acessar através do agente de captura.
 !!! note "NOTA"
 
     As configurações relacionadas ao Inventário Citsmart são realizadas no CITSmart ITSM, no menu 
-    Processos ITIL → Gerenciamento de Eventos → Conexões de Inventário.
+    Processos ITIL > Gerenciamento de Eventos > Conexões de Inventário.
     
 O Agente de captura Citsmart.Net pode ser usado como um "centralizador" de captura, ao qual os pedidos de captura de inventário
 para todas as outras máquinas em uma rede seriam direcionados. Este é mesmo o caminho mais adequado para redes com uma grande 
 quantidade de máquinas. Você também pode realizar o inventário sem o Agente de captura Citsmart.Net. Neste caso, é necessário
 configurar o serviço "SNMP" de cada máquina. Por outro lado, o Capture Agent Citsmart.Net também pode ser instalado
 individualmente em cada máquina (neste caso, eliminando a necessidade de configurar a porta SNMP de cada máquina).
+
+Se for utilizado o Citsmart Inventory para a captura de Eventos, seguir as informações sobre o Agente de Captura CITSMART.NET e 
+SNMP que está contido no conhecimento “Manual de instalação do componente Inventory”.
 
 Instalando/Configurando SNMP no ambiente Windows
 ------------------------------------------------------
