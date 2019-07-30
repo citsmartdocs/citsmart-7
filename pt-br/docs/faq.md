@@ -10,7 +10,7 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
    
     a. Resolução de um certificado auto assinado ou um certificado não assinado por uma autoridade CA
    
-    Senha padrão: a senha Java TrutstStore é: *changeit*.
+    Senha padrão: a senha Java TrutstStore é: changeit.
    
     b. Exportar o Certificado da aplicação (JIRA, Multidão, Bambu, etc), que deseja se conectar:
    
@@ -51,8 +51,8 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     $ JAVA_HOME / bin / keytool-import-alias do jira_tomcat-file jira_cert.cerkeystore $ JAVA_HOME / jre / lib / security / 
     cacerts
   
-    **(OPCIONAL) Caso tenha alterado a localização TrustStore padrão certifique-se de definir o JAVA_OPTS variável de ambiente 
-    antes de reiniciar**:
+    (OPCIONAL) Caso tenha alterado a localização TrustStore padrão certifique-se de definir o JAVA_OPTS variável de ambiente 
+    antes de reiniciar:
   
     - No Windows:
     set JAVA_OPTS =% JAVA_OPTS%-Djavax.net.ssl.trustStore = "c: \ my \ caminho \ \ aqui cacerts"-Djavax.net.ssl.trustStorePassword = "changeit"
@@ -61,11 +61,11 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
    
     JAVA_OPTS exportação = "$ JAVA_OPTS-Djavax.net.ssl.trustStore = / meu / path / here / cacerts-Djavax.net.ssl.trustStorePassword = changeit"
     
-    *Restart Stash*
+    Restart Stash
    
 !!! Question "[Ambiente] Erro: pesquisa na base não encontra o documento mesmo após acionar a atualização pelo sistema"
     
-    Após mudanças **estruturais** nas coleções do SolR, não basta atualizar SolR pela aplicação ITSM, deve-se antes atualizar os
+    Após mudanças estruturais nas coleções do SolR, não basta atualizar SolR pela aplicação ITSM, deve-se antes atualizar os
     configset do SolR.
     
     Segue os passos para atualização:
@@ -201,7 +201,7 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
         caso tenha determinado que as notificações não serão obrigatórias, ao registrar uma solicitação de serviço, essas opções
         poderão ser definidas pelo responsável do registro da solicitação.
         
-    6. Na tela de **Registro de Incidente/Requisição de Serviço**, ao registrar uma solicitação de serviço será estabelecida a
+    6. Na tela de Registro de Incidente/Requisição de Serviço, ao registrar uma solicitação de serviço será estabelecida a
     regra referente a notificação por e-mail, definida no cadastro de grupo.
     
     !!! note "NOTA"
@@ -215,77 +215,77 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     A configuração dos nomes das fases do ciclo de vida do IC pode ser realizada a partir da tela de Configuração do GCAS e a 
     partir da tela de Parâmetros do CITSmart. Para realizar essa configuração, proceda conforme orientações abaixo:
     
-    *Configuração a partir da tela de configuração do GCAS*
+    Configuração a partir da tela de configuração do GCAS
     
-    1. Acesse a funcionalidade de **Configuração do GCAS** através da navegação no menu principal **Processos ITIL > Gerência de
-    Configuração > Configuração do GCAS**. Feito isso, será apresentada a tela de configuração dos parâmetros (atributos) de 
+    1. Acesse a funcionalidade de Configuração do GCAS através da navegação no menu principal Processos ITIL > Gerência de
+    Configuração > Configuração do GCAS. Feito isso, será apresentada a tela de configuração dos parâmetros (atributos) de 
     gerenciamento de configuração e ativos de serviço;
     
     2. Informe os valores dos parâmetros (atributos):
-        - **Nome do Grupo de ICs que estão na Fase de Desenvolvimento (Ex: ICs em Desenvolvimento)**
-        - **Nome do Grupo de ICs que estão na Fase de Produção (Ex: ICs em Produção)**
-        - **Nome do Grupo de ICs que estão na Fase de Produção (Ex: ICs em Homologação)**.
+        - Nome do Grupo de ICs que estão na Fase de Desenvolvimento (Ex: ICs em Desenvolvimento)
+        - Nome do Grupo de ICs que estão na Fase de Produção (Ex: ICs em Produção)
+        - Nome do Grupo de ICs que estão na Fase de Produção (Ex: ICs em Homologação).
         
     3. Clique no botão Gravar para efetuar a operação, onde a data, hora e usuário serão gravados automaticamente para uma futura
     auditoria.
     
     4. Após configuração dos parâmetros referente ao nome das fases do ciclo de vida do IC, será exibido na tela de 
-    **Gerenciamento de Itens de Configuração** a descrição das fases do ciclo de vida do IC, conforme especificado no valor do 
+    Gerenciamento de Itens de Configuração a descrição das fases do ciclo de vida do IC, conforme especificado no valor do 
     parâmetro.
     
-    *Configuração a partir da tela de parâmetros do CITSmart*
+    a. Configuração a partir da tela de parâmetros do CITSmart
     
-    1. Acesse a funcionalidade de **Parâmetros do CITSmart através da navegação no menu principal **Parametrização > Parâmetros 
-    CITSmart**.
+    1. Acesse a funcionalidade de Parâmetros do CITSmart através da navegação no menu principal Parametrização > Parâmetros 
+    CITSmart.
     
-    2. Após isso, será apresentada a tela de **Parâmetros do Citsmart**, clique na aba **Pesquisa de Parâmetros do Citsmart**.
+    2. Após isso, será apresentada a tela de Parâmetros do Citsmart, clique na aba Pesquisa de Parâmetros do Citsmart.
     Será apresenta a tela para pesquisa de parâmetros;
     
-    3. Realize a pesquisa do parâmetro "**92 - Nome do Grupo de ICs que estão na Fase de Desenvolvimento (Ex: ICs em 
-    Desenvolvimento)**"
+    3. Realize a pesquisa do parâmetro "92 - Nome do Grupo de ICs que estão na Fase de Desenvolvimento (Ex: ICs em 
+    Desenvolvimento)"
     
     4. Selecione o mesmo. Após isso, será apresentada a tela de registro do parâmetro com o conteúdo referente ao registro 
     selecionado
     
-    5. No campo **valor**, informe o nome do grupo de ICs da fase de desenvolvimento
+    5. No campo valor, informe o nome do grupo de ICs da fase de desenvolvimento
     
     6. Clique no botão Gravar para efetuar a operação, neste caso a data, hora e usuário serão armazenados automaticamente para
     uma futura auditoria.
     
-    7. Realize a pesquisa do parâmetro "**93 - Nome do Grupo de ICs que estão na Fase de Produção (Ex: ICs em Produção)**"
+    7. Realize a pesquisa do parâmetro "93 - Nome do Grupo de ICs que estão na Fase de Produção (Ex: ICs em Produção)"
     
     8. Selecione o mesmo. Após isso, será apresentada a tela de registro do parâmetro com o conteúdo referente ao registro 
     selecionado;
     
-    9. No campo **valor**, informe o nome do grupo de ICs da fase de produção
+    9. No campo valor, informe o nome do grupo de ICs da fase de produção
     
-    10. Clique no botão Gravar para efetuar a operação, neste caso a data, hora e usuário serão armazenados automaticamente para
-    uma futura auditoria.
+    10. Clique no botão "Gravar" para efetuar a operação, neste caso a data, hora e usuário serão armazenados automaticamente 
+    para uma futura auditoria.
     
     11. Selecione o mesmo. Após isso, será apresentada a tela de registro do parâmetro com o conteúdo referente ao registro 
     selecionado
     
-    12. No campo **valor**, informe o nome do grupo de ICs da fase de homologação
+    12. No campo valor, informe o nome do grupo de ICs da fase de homologação
     
-    13. Clique no botão Gravar para efetuar a operação, neste caso a data, hora e usuário serão armazenados automaticamente para 
-    uma futura auditoria.
+    13. Clique no botão "Gravar" para efetuar a operação, neste caso a data, hora e usuário serão armazenados automaticamente 
+    para uma futura auditoria.
     
 !!! Question "Como definir a obrigatoriedade do vínculo da mudança com IC?"
 
     A obrigatoriedade do vínculo da mudança com o IC é definida na tela de Parâmetro do CITSmart. Para definir essa 
     obrigatoriedade, proceda conforme orientações abaixo:
     
-    1. Acesse a funcionalidade de **Parâmetros do CITSmart** através da navegação no menu principal **Parametrização > Parâmetros
-    CITSmart**;
+    1. Acesse a funcionalidade de Parâmetros do CITSmart através da navegação no menu principal Parametrização > Parâmetros
+    CITSmart;
     
-    2. Será apresentada a tela de **Parâmetros do CITSmart**, clique na aba **Pesquisa de Parâmetros do CITSmart**;
+    2. Será apresentada a tela de Parâmetros do CITSmart, clique na aba Pesquisa de Parâmetros do CITSmart;
     
-    3. Será apresenta a tela para pesquisa de parâmetros. Realize a pesquisa do parâmetro "**85 - Verificação de vínculo de
-    mudança relacionada ao Item de configuração (Default: S)**;
+    3. Será apresenta a tela para pesquisa de parâmetros. Realize a pesquisa do parâmetro "85 - Verificação de vínculo de
+    mudança relacionada ao Item de configuração (Default: S);
     
     4. Selecione o mesmo;
     
-    5. Será apresentada a tela de registro do parâmetro com o conteúdo referente ao registro selecionado, no campo **valor**, 
+    5. Será apresentada a tela de registro do parâmetro com o conteúdo referente ao registro selecionado, no campo valor, 
     informe o valor "S";
     
     6. Clique no botão "Gravar" para efetuar a operação, neste caso a data, hora e usuário serão armazenados automaticamente para
@@ -297,7 +297,7 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
 
     Para definir o grupo padrão para atendimento de 1º nível, proceda conforme as orientações abaixo:
     
-    1. Acesse a funcionalidade de **Cadastro de Grupo** através da navegação no menu principal **Acesso e Permissão > Grupo**. 
+    1. Acesse a funcionalidade de Cadastro de Grupo através da navegação no menu principal Acesso e Permissão > Grupo. 
     Será apresentada a tela de cadastro de grupo, exibindo os contratos;
     
     2. Realize o cadastro do grupo de 1º nível, caso não esteja cadastrado, e proceda com o preenchimento dos campos;
@@ -305,16 +305,16 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     3. Caso o grupo de 1º nível já esteja cadastrado no sistema, realize a pesquisa do grupo e obtenha o seu número de 
     identificação (ID);
     
-    4. Após obter o ID do grupo de 1º nível, acesse a funcionalidade de **Parâmetros do Citsmart** através da navegação no menu 
-    principal **Parametrização > Parâmetros Citsmart**;
+    4. Após obter o ID do grupo de 1º nível, acesse a funcionalidade de Parâmetros do Citsmart através da navegação no menu 
+    principal Parametrização > Parâmetros Citsmart;
     
-    5. Será apresentada a tela **Parâmetros do Citsmart**, clique na aba **Pesquisa de Parâmetros do Citsmart**;
+    5. Será apresentada a tela Parâmetros do Citsmart, clique na aba Pesquisa de Parâmetros do Citsmart;
     
-    6. Realize a pesquisa do parâmetro "**9 - ID Grupo Nível 1**";
+    6. Realize a pesquisa do parâmetro "9 - ID Grupo Nível 1";
     
     7. Selecione o mesmo;
     
-    8. Será apresentada a tela de registro do parâmetro com o conteúdo referente ao registro selecionado, no campo **valor**, 
+    8. Será apresentada a tela de registro do parâmetro com o conteúdo referente ao registro selecionado, no campo valor, 
     informe o número de identificação (ID) do grupo de 1º nível;
     
     9. Clique no botão "Gravar" para efetuar a operação, neste caso a data, hora e usuário serão armazenados automaticamente para
@@ -334,9 +334,9 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     
     Para realizar esse desenho, proceda conforme as orientações abaixo (ver conhecimento [Configuração dos atributos do serviço][2]
     
-    1. Acesse a funcionalidade de **Desenho de Mapa do Serviço** referente ao Serviço de Negócio **Gerência de Portfólio e 
+    1. Acesse a funcionalidade de **Desenho de Mapa do Serviço** referente ao Serviço de Negócio Gerência de Portfólio e 
     Catálogo > Gerenciamento de Portfólio e Catálogo > Menu Apoio > Avançar Portfólio > Catálogo de Serviços > Avançar Serviço
-    > Mapa de Serviço**;
+    > Mapa de Serviço;
     
     2. Será apresentada a tela para desenho dos ativos que compõem o serviço de negócio;
     
@@ -352,24 +352,24 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     
     1. Crie o modelo de e-mail (o modelo de e-mail deve conter a seguinte palavra-chave: ${LINKPESQUISASATISFACAO})
     
-    2. Acesse a funcionalidade de **Parâmetros do Citsmart** através da navegação no menu principal **Parametrização >
-    Parâmetros Citsmart**;
+    2. Acesse a funcionalidade de Parâmetros do Citsmart através da navegação no menu principal Parametrização >
+    Parâmetros Citsmart;
     
-    3. Será apresentada a tela de **Parâmetros do Citsmart**, clique na aba **Pesquisa de Parâmetros do Citsmart**;
+    3. Será apresentada a tela de Parâmetros do Citsmart, clique na aba Pesquisa de Parâmetros do Citsmart;
     
-    4. Realize a pesquisa do parâmetro "**31 - Envia e-mail na execução dos fluxos de solicitações/incidentes**";
+    4. Realize a pesquisa do parâmetro "31 - Envia e-mail na execução dos fluxos de solicitações/incidentes";
     
     5. Selecione o mesmo;
     
-    6. Será apresentada a tela de registro do parâmetro com o conteúdo referente ao registro selecionado, no campo **valor**, 
+    6. Será apresentada a tela de registro do parâmetro com o conteúdo referente ao registro selecionado, no campo valor, 
     informe o valor "S" para que seja habilitado o envio de e-mail referente as solicitações de serviço;
     
     7. Clique no botão "Gravar" para efetuar a operação;
     
-    8. Acesse os serviços de requisição, incidente e procedimento do contrato referente ao serviço de negócio **Gerência de 
+    8. Acesse os serviços de requisição, incidente e procedimento do contrato referente ao serviço de negócio Gerência de 
     Portfólio e Catálogo > Gerenciamento de Portfólio e Catálogo > Menu Apoio > Avançar Portfólio > Catálogo de Serviços > 
     Avançar Serviço e serviço técnico Gerência de Portfólio e Catálogo > Gerenciamento de Portfólio e Catálogo > Menu Apoio >
-    Avançar Portfólio > Catálogo de Serviços > Avançar Serviço** e verifique se o modelo de e-mail que foi criado está informado
+    Avançar Portfólio > Catálogo de Serviços > Avançar Serviço e verifique se o modelo de e-mail que foi criado está informado
     no campo "Modelo de E-mail na finalização de Solicitações/Incidentes";
     
     9. Ao receber uma notificação por e-mail da solicitação de serviço que foi atendida, será exibido um link para realizar a 
@@ -380,19 +380,19 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     A regra de escalonamento de solicitação de serviço é habilitada na tela de Parâmetro do Citsmart. Para habilitar essa regra,
     proceda conforme orientações abaixo:
     
-    1. No arquivo citsmart.cfg colocar a rotina **START_MONITORA_INCIDENTES=TRUE**
+    1. No arquivo citsmart.cfg colocar a rotina START_MONITORA_INCIDENTES=TRUE
     
-    2. Acesse a funcionalidade de **Parâmetros do Citsmart** através da navegação no menu principal **Sistema → Parâmetros Citsmart**;
+    2. Acesse a funcionalidade de Parâmetros do Citsmart através da navegação no menu principal Sistema > Parâmetros Citsmart;
     
-    3. Será apresentada a tela de **Parâmetros do Citsmart**, clique na aba **Pesquisa de Parâmetros do Citsmart**;
+    3. Será apresentada a tela de Parâmetros do Citsmart, clique na aba Pesquisa de Parâmetros do Citsmart;
     
-    4. Pesquise e altere o parâmetro **190 - Liga o funcionamento das regras de escalonamento? (Ex: S ou N - Default:'N')** 
+    4. Pesquise e altere o parâmetro 190 - Liga o funcionamento das regras de escalonamento? (Ex: S ou N - Default:'N') 
     informando o valor "S" para ativar escalonamento de solicitação de serviço;
     
-    5. Pesquise e altere o parâmetro **31 - Envia e-mail na execução dos fluxos de solicitações/incidentes (Ex: S ou N)** 
+    5. Pesquise e altere o parâmetro 31 - Envia e-mail na execução dos fluxos de solicitações/incidentes (Ex: S ou N) 
     informando o valor "S";
     
-    6. Pesquise e altere o parâmetro **297 - Desativa envio de e-mails do sistema (Valores: "S" ou "N" Default: "N")** informando
+    6. Pesquise e altere o parâmetro 297 - Desativa envio de e-mails do sistema (Valores: "S" ou "N" Default: "N") informando
     o valor "N";
     
     7. Também faça as devidas alterações nos seguintes parâmetros, conforme as necessidade e cenário da instalação:
@@ -412,15 +412,15 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     
     Para habilitar essa regra, proceda conforme orientações abaixo:
     
-    1. Acesse a funcionalidade de **Parâmetros do Citsmart** através da navegação no menu principal **Parametrização > Parâmetros
-    Citsmart**;
+    1. Acesse a funcionalidade de Parâmetros do Citsmart através da navegação no menu principal Parametrização > Parâmetros
+    Citsmart;
     
-    2. Será apresentada a tela de **Parâmetros do Citsmart**, clique na aba **Pesquisa de Parâmetros do Citsmart**;
+    2. Será apresentada a tela de Parâmetros do Citsmart, clique na aba Pesquisa de Parâmetros do Citsmart;
     
-    3. Será apresenta a tela para pesquisa de parâmetros, realize a pesquisa do parâmetro "**193 - Habilita o escalonamento de
-    mudanças definido nas regras de escalonamento? (Ex: S ou N - Padrão 'N')** e selecione o mesmo;
+    3. Será apresenta a tela para pesquisa de parâmetros, realize a pesquisa do parâmetro "193 - Habilita o escalonamento de
+    mudanças definido nas regras de escalonamento? (Ex: S ou N - Padrão 'N') e selecione o mesmo;
     
-    4. Será apresentada a tela de registro do parâmetro com o conteúdo referente ao registro selecionado, no campo **valor**, 
+    4. Será apresentada a tela de registro do parâmetro com o conteúdo referente ao registro selecionado, no campo valor, 
     informe o valor "S" para ativar escalonamento de mudanças;
     
     5. Clique no botão "Gravar" para efetuar a operação, neste caso a data, hora e usuário serão armazenados automaticamente para 
