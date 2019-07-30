@@ -217,6 +217,7 @@ Veja também
 
 - [Dicas sobre como realizar pesquisas no Portal do Conhecimento e Guia do Usuário][46]
 
+
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
