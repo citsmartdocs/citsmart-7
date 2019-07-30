@@ -5,61 +5,63 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
 
 !!! Question "Erro: certificado digital não assinado por autoridade (CA)"
 
-   Exportação de Certificados SSL da aplicação alvo, importe-o para o servidor do Stash JVM TrustStore e reinicie Stash para que
-   Stash a confiar no aplicativo de destino.
+    Exportação de Certificados SSL da aplicação alvo, importe-o para o servidor do Stash JVM TrustStore e reinicie Stash para que
+    Stash a confiar no aplicativo de destino.
    
-   **Resolução de um certificado auto assinado ou um certificado não assinado por uma autoridade CA**
+    **Resolução de um certificado auto assinado ou um certificado não assinado por uma autoridade CA**
    
-   Senha padrão: a senha Java TrutstStore é: *changeit*.
+    Senha padrão: a senha Java TrutstStore é: *changeit*.
    
-   *Exportar o Certificado da aplicação (JIRA, Multidão, Bambu, etc), que deseja se conectar*:
+    *Exportar o Certificado da aplicação (JIRA, Multidão, Bambu, etc), que deseja se conectar*:
    
-   A sintaxe de comando:
+    A sintaxe de comando:
 
-   keytool-exportação-alias <existing_alias_in_keystore>-file
+    keytool-exportação-alias <existing_alias_in_keystore>-file
 
-   <any_filename_here>-keystore <path/to/keystore>
+    <any_filename_here>-keystore <path/to/keystore>
    
-   Por exemplo:
+    Por exemplo:
    
-   - No Windows:
-   % JAVA_HOME% \ bin \ keytool-export-apelido jira_tomcat-file jira_cert.cerkeystore C: \ Users \ jira_user \ jira.keystore
+    - No Windows:
+    % JAVA_HOME% \ bin \ keytool-export-apelido jira_tomcat-file jira_cert.cerkeystore C: \ Users \ jira_user \ jira.keystore
    
-   - No Linux:
+    - No Linux:
 
-   $ JAVA_HOME / bin / keytool-export-apelido jira_tomcat-file jira_cert.cerkeystore / home / jira_user / jira.keystore
+    $ JAVA_HOME / bin / keytool-export-apelido jira_tomcat-file jira_cert.cerkeystore / home / jira_user / jira.keystore
    
-   *Importar o certificado do aplicativo para o servidor TrustStore Stash*:
+    *Importar o certificado do aplicativo para o servidor TrustStore Stash*:
    
-   O arquivo TrustStore default (cacerts) está localizado no diretório home Java nesta pasta:
+    O arquivo TrustStore default (cacerts) está localizado no diretório home Java nesta pasta:
    
-   <Java directory> home / jre / lib / security
+    <Java directory> home / jre / lib / security
    
-   A sintaxe de comando:
+    A sintaxe de comando:
    
-   keytool-import-alias <new_unique_alias>-file
+    keytool-import-alias <new_unique_alias>-file
    
-   <any_filename_here_from_above>-keystore <path/to/truststore>
+    <any_filename_here_from_above>-keystore <path/to/truststore>
    
-   Por exemplo:
+    Por exemplo:
    
-   - No Windows:
-   % JAVA_HOME% \ bin \ keytool-import-alias do jira_tomcat-file jira_cert.cer-keystore% JAVA_HOME% \ jre \ lib \ security \ cacerts
+    - No Windows:
+    % JAVA_HOME% \ bin \ keytool-import-alias do jira_tomcat-file jira_cert.cer-keystore% JAVA_HOME% \ jre \ lib \ security \ 
+    cacerts
 
-  - No Linux:
-  $ JAVA_HOME / bin / keytool-import-alias do jira_tomcat-file jira_cert.cerkeystore $ JAVA_HOME / jre / lib / security / cacerts
+    - No Linux:
+    $ JAVA_HOME / bin / keytool-import-alias do jira_tomcat-file jira_cert.cerkeystore $ JAVA_HOME / jre / lib / security / 
+    cacerts
   
-  **(OPCIONAL) Caso tenha alterado a localização TrustStore padrão certifique-se de definir o JAVA_OPTS variável de ambiente 
-  antes de reiniciar**:
+    **(OPCIONAL) Caso tenha alterado a localização TrustStore padrão certifique-se de definir o JAVA_OPTS variável de ambiente 
+    antes de reiniciar**:
   
-  - No Windows:
-  set JAVA_OPTS =% JAVA_OPTS%-Djavax.net.ssl.trustStore = "c: \ my \ caminho \ \ aqui cacerts"-Djavax.net.ssl.trustStorePassword = "changeit"
+    - No Windows:
+    set JAVA_OPTS =% JAVA_OPTS%-Djavax.net.ssl.trustStore = "c: \ my \ caminho \ \ aqui cacerts"-Djavax.net.ssl.trustStorePassword = "changeit"
    
-   - No Linux:
+    - No Linux:
    
-   JAVA_OPTS exportação = "$ JAVA_OPTS-Djavax.net.ssl.trustStore = / meu / path / here / cacerts-Djavax.net.ssl.trustStorePassword = changeit"
+    JAVA_OPTS exportação = "$ JAVA_OPTS-Djavax.net.ssl.trustStore = / meu / path / here / cacerts-Djavax.net.ssl.trustStorePassword = changeit"
     
-   *Restart Stash*
+    *Restart Stash*
    
 !!! Question "[Ambiente] Erro: pesquisa na base não encontra o documento mesmo após acionar a atualização pelo sistema"
     
