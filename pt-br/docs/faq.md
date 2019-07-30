@@ -426,7 +426,196 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     5. Clique no botão "Gravar" para efetuar a operação, neste caso a data, hora e usuário serão armazenados automaticamente para 
     uma futura auditoria.
     
-!!! Question "
+!!! Question "Como habilitar a regra de escalonamento do módulo de problemas?"
+
+    A regra de escalonamento de problema é habilitada na tela de Parâmetro do Citsmart.
+    
+    Para habilitar essa regra, proceda conforme orientações abaixo:
+    
+    1. Acesse a funcionalidade de Parâmetros do Citsmart através da navegação no menu principal Parametrização → Parâmetros 
+    Citsmart;
+    
+    2. Será apresentada a tela de Parâmetros do Citsmart, clique na aba Pesquisa de Parâmetros do Citsmart;
+    
+    3. Será apresenta a tela para pesquisa de parâmetros, realize a pesquisa do parâmetro "194 - Habilita o escalonamento de 
+    problema definido nas regras de escalonamento? (Ex: S ou N - Default 'N')" e selecione o mesmo;
+    
+    4. Será apresentada a tela de registro do parâmetro com o conteúdo referente ao registro selecionado, no campo valor, informe 
+    o valor "S" para ativar escalonamento de problemas;
+    
+    5. Clique no botão "Gravar" para efetuar a operação, neste caso a data, hora e usuário serão armazenados automaticamente para 
+    uma futura auditoria.
+    
+!!! Question "Como habilitar a rotina de leitura automática de e-mails?"
+
+    Ao enviar um e-mail para o suporte do CITSmart será feita a leitura do e-mail automática, caso o e-mail seja referente a uma 
+    solicitação, será verificado o título do e-mail, se contém a palavra ‘Solicitação’ e o número da solicitação, caso contenha, 
+    será armazenado o e-mail como ocorrência na solicitação referente.
+    
+    Para que essa rotina de leitura de e-mails funcione perfeitamente, é necessário realizar os seguintes procedimentos:
+    
+    1. Instalar a versão do java 7, caso tenha versão inferior a rotina não funcionará;
+    
+    2. Acesse a funcionalidade de Parâmetros do Citsmart através da navegação no menu principal Parametrização→ Parâmetros 
+    Citsmart;
+    
+    3. Será apresentada a tela de Parâmetros do Citsmart, clique na aba Pesquisa de Parâmetros do Citsmart;
+    
+    4. Será apresenta a tela para pesquisa de parâmetros, realize a pesquisa do parâmetro "23 - SMTP LEITURA - Servidor de 
+    entrada de e-mails do Service Desk" e selecione o mesmo;
+    
+    5. Será apresentada a tela de registro do parâmetro com o conteúdo referente ao registro selecionado, no campo valor, informe 
+    o servidor de entrada de e-mail (ex.: orion.egrupo.com.br);
+    
+    6. Clique no botão Gravar para efetuar a operação, neste caso a data, hora e usuário serão armazenados automaticamente para 
+    uma futura auditoria;
+    
+    7. Realize a pesquisa do parâmetro "24 - SMTP LEITURA - Caixa de entrada de e-mails do Service Desk" e selecione o mesmo;
+    
+    8. Será apresentada a tela de registro do parâmetro com o conteúdo referente ao registro selecionado, no campo valor, informe 
+    o e-mail ou login da conta de e-mail (ex.: suporte.citsmart);
+    
+    9. Clique no botão Gravar para efetuar a operação, neste caso a data, hora e usuário serão armazenados automaticamente para 
+    uma futura auditoria;
+    
+    10. Realize a pesquisa do parâmetro "25 - SMTP LEITURA - Senha da Caixa de entrada de e-mails do Service Desk" e selecione o 
+    mesmo;
+    
+    11. Será apresentada a tela de registro do parâmetro com o conteúdo referente ao registro selecionado, no campo valor, a 
+    senha da conta de e-mail;
+    
+    12. Clique no botão Gravar para efetuar a operação, neste caso a data, hora e usuário serão armazenados automaticamente para 
+    uma futura auditoria;
+    
+    13. Realize a pesquisa do parâmetro "26 - SMTP LEITURA - Provider do servidor de e-mails do Service Desk (imaps, pops, imap, 
+    pop, etc)" e selecione o mesmo;
+    
+    14. Será apresentada a tela de registro do parâmetro com o conteúdo referente ao registro selecionado, no campo valor, 
+    informe o protocolo que será utilizado para leitura de e-mails (ex.: imap ou pop) e clique no botão Gravar para efetuar a 
+    operação, neste caso a data, hora e usuário serão armazenados automaticamente para uma futura auditoria;
+    
+    15. Realize a pesquisa do parâmetro "27 - SMTP LEITURA - Porta do servidor de e-mails do Service Desk" e selecione o mesmo;
+    
+    16. Será apresentada a tela de registro do parâmetro com o conteúdo referente ao registro selecionado, no campo valor, 
+    informe a porta que será utilizada para acessar o servidor de e-mails (587 para servidor pop ou 995 para servidor imap);
+    
+    17. Clique no botão Gravar para efetuar a operação, neste caso a data, hora e usuário serão armazenados automaticamente para 
+    uma futura auditoria;
+    
+    18. Realize a pesquisa do parâmetro "28 - SMTP LEITURA - Pasta da caixa de entrada de e-mails do Service Desk" e selecione o 
+    mesmo;
+    
+    19. Será apresentada a tela de registro do parâmetro com o conteúdo referente ao registro selecionado, no campo valor, 
+    informe a pasta da caixa de entrada da conta de e-mail;
+    
+    20. Clique no botão Gravar para efetuar a operação, neste caso a data, hora e usuário serão armazenados automaticamente para 
+    uma futura auditoria;
+    
+    21. Realize a pesquisa do parâmetro "200 - Habilitar rotina para leitura de e-mails novos automaticamente ?(ex: S ou N - 
+    Default 'N')" e selecione o mesmo;
+    
+    22. Será apresentada a tela de registro do parâmetro com o conteúdo referente ao registro selecionado, no campo valor, 
+    informe o valor "S" para ativar a rotina de leitura de e-mail automaticamente;
+    
+    23. Clique no botão Gravar para efetuar a operação, neste caso a data, hora e usuário serão armazenados automaticamente para 
+    uma futura auditoria.
+    
+!!! Question "Como habilitar o Portal de Serviços (Smart Portal)?"
+
+    Para que os usuários tenham acesso ao Portal ou ao Portal Smart, deve-se habilitar o mesmo da seguinte forma:
+    
+    1. Acesse a funcionalidade de Parâmetros do Citsmart através da navegação no menu principal Parametrização → Parâmetros 
+    Citsmart. Será apresentada a tela de Parâmetros do Citsmart, clique na aba Pesquisa de Parâmetros do Citsmart. Feito isso, 
+    será apresenta a tela para pesquisa de parâmetros;
+    
+    2. Realize a pesquisa do parâmetro "46 - Habilitar Portal como tela inicial do Citsmart?" e selecione o mesmo. Após isso, 
+    será apresentada a tela de registro do parâmetro com o conteúdo referente ao registro selecionado, conforme ilustrado na 
+    figura abaixo:
+    
+    ![Pesquisa](images/para.img1.jpg)
+    
+    **Figura 1 - Tela de pesquisa de parâmetros do Citsmart**
+    
+    3. No campo valor, informe o valor "S" para habilitar o portal como tela inicial. Feito isso, clique no botão Gravar para 
+    efetuar a operação, neste caso a data, hora e usuário serão armazenados automaticamente para uma futura auditoria;
+    
+    4. Após configurar o parâmetro, ao logar no sistema, será exibido como tela inicial o Portal.
+    
+!!! Question "Como integrar o AD da empresa do cliente no CITSmart Enterprise ITSM que está na cloud ofertada pela CITSmart 
+Corporation?"
+
+    Em relação ao LDAP compliance do CITSmart Enterprise ITSM, existem dois cenários:
+    
+    1. Em ambientes on-demand: há necessidade de conexão ao servidor de diretórios do cliente.
+    
+    2. Em ambiente cloud (ofertado pela CITSmart Corporation): há necessidade de habilitar a conexão ao servidor de diretórios do 
+    cliente.
+    
+!!! Question "Como melhorar o desempenho do CITSmart Enterprise ITSM?"
+
+    O desempenho do sistema é definido como o tempo que o software demora para realizar uma determinada tarefa, visto que esse 
+    desempenho é um forte atributo de qualidade percebido pelos usuários do software.
+    
+    Existe a capacidade de o sistema funcionar com mais de uma instância, para isso, será necessário utilizar o arquivo de 
+    configuração (citsmart.cfg), onde é possível ativar ou inativar rotinas.
+    
+    Para utilizar essa capacidade, deverá existir o arquivo citsmart.cfg no diretório:
+    
+    - \jboss\standalone\configuration\ (quando o Jboss sobe como uma única instância)
+    - \jboss\domain\configuration\ (quando é utilizado cluster, tem domains e hosts)
+    
+    Abaixo segue as orientações necessárias para realizar a configuração:
+    
+    !!! note "NOTA"
+    
+        Onde estiver ${valor} substitua pelos valores correspondentes.
+        
+    1. START_MODE_RULES=${valor} (Este parâmetro define se processa as regras de escalonamento. Informe o valor TRUE para ativar 
+    ou FALSE para desativar).
+    
+    2. START_MODE_ITSM=${valor} (Este parâmetro define se apresenta a interface do ITSM. Informe o valor TRUE ou FALSE. Se 
+    estiver definido com o valor FALSE, não irá permitir abrir as funcionalidades de incidentes, etc. (do ITSM)).
+    
+    3. START_MONITORING_ASSETS=${valor} (Este parâmetro define se o monitoramento de ativos será ativado. Informe o valor TRUE 
+    para ativar ou FALSE para desativar).
+    
+    4. QUANTIDADE_BACKUPLOGDADOS=${valor} (Este parâmetro define a quantidade de itens da tabela logdados que serão feitos 
+    backup. Informe a quantidade de itens, ex.: 1000).
+    
+    5. Os parâmetros abaixo quando não ativados faz com que o sistema suba com as threads desativadas para melhorar o desempenho 
+    do sistema. É necessário configurar esses parâmetros antes da inicialização do Jboss para o funcionamento dos mesmos.
+    
+    6. START_MONITORA_INCIDENTES=${valor} (Este parâmetro define se desativa o monitoramento de incidentes. Informe o valor TRUE 
+    ativar ou FALSE desativar).
+    
+    7. START_VERIFICA_EVENTOS=${valor} (Este parâmetro define se desativa a verificação de eventos. Informe o valor TRUE ativar 
+    ou FALSE desativar).
+    
+    8. O uso dos parâmetros abaixo é opcional. Os mesmos fazem a separação do pool de conexão principal com o pool de execução do 
+    fluxo, inventário e relatório.
+        - JDBC_ALIAS_BPM=java:/jdbc/${valor} (Este parâmetro define o nome do datasource do fluxo. Informe o nome do datasource, 
+        ex.: java:/jdbc/citsmartFluxo).
+        - JDBC_ALIAS_INVENTORY= java:/jdbc/${valor} (Este parâmetro define o nome do datasource do inventário. Informe o nome do 
+        datasource, ex.: java:/jdbc/citsmart_inventory).
+        - JDBC_ALIAS_REPORTS= java:/jdbc/${valor} (Este parâmetro define o nome do datasource dos relatórios. Informe o nome do 
+        datasource, ex.: java:/jdbc/citsmart_reports).
+        
+    9. O parâmetro abaixo separa o processamento da rotina de eventos BPM em um pool de thread separado do pool de thread 
+    principal do sistema, para aliviar no uso de recursos do banco de dados e do servidor.
+        - JDBC_ALIAS_BPM_EVENTOS=java:/jdbc/${valor} (Este parâmetro define o nome do datasource de eventos BPM. Informe o nome 
+        do datasource, ex.: java:/jdbc/citsmartBpmEventos).
+        
+!!! Question "Como navegar pelas telas usando os controles presentes no CITSmart Enterprise ITSM?"
+
+    [Navegação](/pt-br/citsmart-platform-7/get-started/navigate.html)
+    
+
+    
+
+
+
+
+
 
 
   
