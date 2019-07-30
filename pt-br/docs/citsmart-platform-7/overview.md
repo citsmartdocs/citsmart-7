@@ -66,7 +66,9 @@ Público-alvo da solução e principais benefícios
   - [CITSmart Enterprise ITSM][20]
   - [Inventory][21]
   - [EVM][22]
-  - Mobile ([Android][23] e [iOS][24]
+  - Mobile ([Android][23] e [iOS][24])
+  
+4. Perguntas mais frequentes: [FAQ][47]
   
 ![simbolo](images/simb-conec.jpg) Entendendo a estruturação atual de sub-sistemas e funcionalidades da solução
 ----------------------------------------------------------------------------------------------------------------
@@ -266,3 +268,4 @@ Veja também
 [44]:
 [45]:
 [46]:/pt-br/citsmart-platform-7/processes/knowledge/tips-search-knowledge.html
+[47]:
