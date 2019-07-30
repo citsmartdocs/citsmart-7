@@ -180,7 +180,7 @@ Público-alvo da solução e principais benefícios
     - **Smart Decision** - [introdução][42] e documentação
     - **Chat** - [introdução][43]
     - **Smart Button** - [introdução][44]
-    - [Neuro][45] - recurso construtor e executor de fluxos incorporado na solução ITSM para potencializar a gestão de fluxos
+    - Neuro - recurso construtor e executor de fluxos incorporado na solução ITSM para potencializar a gestão de fluxos
     de negócio
     
 
