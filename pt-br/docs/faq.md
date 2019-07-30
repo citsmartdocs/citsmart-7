@@ -608,6 +608,127 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
 
     [Navegação](/pt-br/citsmart-platform-7/get-started/navigate.html)
     
+!!! Question "Como o Gerenciamento de Eventos pode se transformar numa ferramenta de monitoramento de negócios?"
+
+    a. Esquema de Webservice para sistemas legados (monitoramento de negócios)
+    
+    É possível conectar o componente EVM com qualquer software, mesmo um diferente daqueles que o módulo de Gerenciamento de 
+    Eventos normalmente se integra (Nagios, Zabbix e Inventory), desde que os dados enviados (via webservice) segam um padrão 
+    pré-estabelecido.
+    
+    Uma vez que os dados são enviados para o Citsmart Event Monitor, podem ser criadas regras (por exemplo, com o EPL do Esper) 
+    para que determinados eventos sejam disparados de acordo com alguma condição observada nos dados.
+    
+    Exemplo "Folha de Pagamentos":
+    
+        - Digamos que seja regra de uma empresa não contratar mais de 5 funcionários por setor.
+        - O programa de folha de pagamento poderia enviar os dados mínimos de cada contratação por departamento (definido no 
+        plano orçamentário da empresa), de modo que sempre que o número de contração por departamento ultrapassar o limite pré-
+        estabelecido, um evento de “excesso de contratação” poderia ser disparado.
+        
+!!! Question "Como relacionar grupo ao contrato?"
+
+    Para relacionar grupo ao contrato, proceda conforme as orientações abaixo:
+    
+    1. Acesse a funcionalidade de Parâmetros do CITSmart através da navegação no menu principal. Posicione o mouse na opção 
+    Parametrização e clique na opção Parâmetros CITSmart. Será apresentada a tela de Parâmetros do CITSmart, clique na aba 
+    Pesquisa de Parâmetros do CITSmart. Feito isso, será apresenta a tela para pesquisa de parâmetros;
+    
+    2. Realize a pesquisa do parâmetro "41 - Faz o controle de vínculo de colaboradores aos contratos (S/N)?" e selecione o 
+    mesmo;
+    
+    3. No campo valor, informe o valor "S" para que seja exibido os contratos na tela de cadastro de grupo. Feito isso, clique no 
+    botão Gravar para efetuar a operação, neste caso a data, hora e usuário serão armazenados automaticamente para uma futura 
+    auditoria.
+    
+    4. Após configurar o parâmetro, acesse a funcionalidade de Cadastro de Grupo através da navegação no menu principal Acesso e 
+    Permissão > Grupo. Será apresentada a tela de cadastro de grupo, exibindo os contratos (ver conhecimento 
+    [Cadastrar um grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html)).
+    
+    5. Caso o grupo que deseja vincular ao contrato já esteja registrado no sistema, realize a pesquisa do grupo e selecione o 
+    mesmo;
+    
+    6. Feito isso, será exibida a tela de registro do determinado grupo;
+    
+    7. Selecione os contratos, os quais o grupo será vinculado. Após isso, clique no botão "Gravar" para efetuar a operação, 
+    neste caso a data, hora e usuário serão armazenados automaticamente para uma futura auditoria.
+    
+!!! Question "Como relacionar unidade ao contrato?"
+
+    Para relacionar unidade ao contrato, proceda conforme as orientações abaixo:
+    
+    1. Acesse a funcionalidade de Parâmetros do CITSmart através da navegação no menu principal. Posicione o mouse na opção 
+    Parametrização e clique na opção Parâmetros CITSmart. Após isso, será apresentada a tela de Parâmetros do CITSmart, clique na 
+    aba Pesquisa de Parâmetros do CITSmart. Feito isso, será apresenta a tela para pesquisa de parâmetros;
+    
+    2. Realize a pesquisa do parâmetro "61 - Vincula contratos a unidade" e selecione o mesmo. Após isso, será apresentada a tela 
+    de registro do parâmetro com o conteúdo referente ao registro selecionado;
+    
+    3. No campo valor, informe o valor "S" para que seja exibido os contratos na tela de cadastro de unidade. Feito isso, clique 
+    no botão Gravar para efetuar a operação;
+    
+    4. Após configurar o parâmetro, acesse a funcionalidade de Cadastro de Unidade através da navegação no menu principal 
+    Cadastros Gerais > Gerência de Pessoal > Unidade. Será apresentada a tela de cadastro de unidade, exibindo os contratos;
+    
+    5. Caso a unidade que deseja vincular ao contrato já esteja registrada no sistema, realize a pesquisa da unidade e selecione 
+    a mesma. Feito isso, será exibida a tela de registro da determinada unidade;
+    
+    6. Selecione os contratos, os quais a unidade será vinculada.
+    
+    7. Clique no botão "Gravar" para efetuar a operação, neste caso a data, hora e usuário serão armazenados automaticamente para 
+    uma futura auditoria.
+    
+!!! Question "Como são ranqueados os documentos no momento da pesquisa do Solr na base de conhecimento?"
+
+    Para rankear (posicionar) os documentos no momento da pesquisa, o Solr gera uma pontuação (score) para cada documento.
+    
+    Assim, o documento que possuir a maior pontuação, é apresentado em primeiro lugar e os demais, com menor pontuação, em 
+    sequência.
+    
+    Para calcular a pontuação dos documentos o Solr utiliza um algoritmo padrão, onde é verificado a frequência do termo (term 
+    frequency) pesquisado. Mas, é possível alterar a pontuação com a utilização dos impulsionadores (boosts).
+    
+    Os impulsionadores do Solr podem ser utilizados em dois momentos, no momento da indexação ou consulta, sendo mais comum o seu 
+    uso na pesquisa.
+    
+    Alguns impulsionadores que podem alterar o cálculo da pontuação, no momento da pesquisa, são:
+    
+        - term^num: onde o “num” é a importância do termo pesquisado, exemplo: incident^2;
+        - E também pode ser utilizado os impulsionadores de campo e as funções do dismax e edismax para impulsionar a pesquisa.
+        
+    No ITSM não é utilizado nenhum impulsionador, até o momento, somente é utilizado o cálculo padrão de pontuação do Solr, e no 
+    final da pesquisa é realizado a ordenação pela pontuação e pela quantidade de vezes que o conhecimento foi votado/curtido.
+    
+    Os impulsionadores estão em aberto para o uso, mas para utilizá-los é necessária uma análise melhor da importância dos campos 
+    e dos documentos adicionados ao Solr, pela base de conhecimento.
+    
+!!! Question "Como vincular colaboradores (usuários) a um grupo?"
+
+    Há duas formas de vincular os colaboradores (usuários) aos grupos, sendo:
+    
+    a. A partir do cadastro de grupo
+    
+    1. Acesse a funcionalidade de Cadastro de Grupo através da navegação no menu principal. Posicione o mouse na opção Acesso e 
+    Permissão e clique na opção Grupo (ver conhecimento [Cadastro e pesquisa de grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html));
+    
+    2. Será apresentada a tela de Cadastro de Grupo. Caso o grupo já esteja registrado no sistema, realize a pesquisa do grupo e 
+    selecione o mesmo. Feito isso, será exibida a tela de registro do determinado grupo;
+    
+    3. Clique no ícone de adicionar do campo Colaboradores, será exibida a tela para pesquisa de colaboradores;
+    
+    4. Realize a pesquisa do colaborador que deseja vincular ao grupo e selecione o mesmo. Após isso, o colaborador será 
+    vinculado ao grupo conforme indicado no exemplo ilustrado na figura abaixo:
+    
+        ![Colaboradores](images/cola.img1.jpg)
+        
+        Figura 1 - Tela de Colaboradores
+        
+    5. Após o vínculo, clique no botão "Gravar" para efetuar a operação, neste caso a data, hora e usuário serão armazenados 
+    automaticamente para uma futura auditoria.
+
+
+
+    
 
     
 
