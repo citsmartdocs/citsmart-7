@@ -266,7 +266,7 @@ Veja também
 [41]:/pt-br/citsmart-platform-7/additional-features/reports/create/smart-reports/configuration/emit-report.html
 [42]:/pt-br/citsmart-platform-7/additional-features/reports/create/dashboard/use/template-smart-decision.html
 [43]:
-[44]:
+[44]:/pt-br/citsmart-platform-7/plataform-administration/customizable-fields/smart.button.html
 [45]:
 [46]:
 
