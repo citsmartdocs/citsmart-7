@@ -497,7 +497,7 @@ Citsmart Inventory.
 Cadastro de ferramentas de monitoração
 --------------------------------------------
 
-1. Acesse o menu Processos ITIL → Gerência de Evento → Ferramentas de Monitoração;
+1. Acesse o menu **Processos ITIL > Gerência de Evento > Ferramentas de Monitoração**;
 
     ![Monitoração](images/evm.img24.jpg)
     
@@ -539,7 +539,7 @@ consultados no Zabbix.
 Cadastro de gerente de eventos Nagios
 ----------------------------------------
 
-1. Acesse o menu Processos ITIL → Gerência de Evento → Gerente Nagios;
+1. Acesse o menu **Processos ITIL > Gerência de Evento > Gerente Nagios**;
 
     ![Nagios](images/evm.img26..jpg)
     
