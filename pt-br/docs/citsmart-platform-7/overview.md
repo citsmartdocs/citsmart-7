@@ -215,7 +215,7 @@ Firewall)
 Veja também
 --------------
 
-- [Dicas sobre como realizar pesquisas no Portal do Conhecimento e Guia do Usuário][46]
+- [Dicas sobre como realizar pesquisas no Portal do Conhecimento e Guia do Usuário](/pt-br/citsmart-platform-7/processes/knowledge/tips-search-knowledge.html)
 
 
 !!! tip "About"
@@ -268,6 +268,5 @@ Veja também
 [43]:
 [44]:
 [45]:
-[46]:/pt-br/citsmart-platform-7/processes/knowledge/tips-search-knowledge.html
-[47]:
+[46]:
 
