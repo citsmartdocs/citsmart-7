@@ -8,11 +8,11 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     Exportação de Certificados SSL da aplicação alvo, importe-o para o servidor do Stash JVM TrustStore e reinicie Stash para que
     Stash a confiar no aplicativo de destino.
    
-    **Resolução de um certificado auto assinado ou um certificado não assinado por uma autoridade CA**
+    a. Resolução de um certificado auto assinado ou um certificado não assinado por uma autoridade CA
    
     Senha padrão: a senha Java TrutstStore é: *changeit*.
    
-    *Exportar o Certificado da aplicação (JIRA, Multidão, Bambu, etc), que deseja se conectar*:
+    b. Exportar o Certificado da aplicação (JIRA, Multidão, Bambu, etc), que deseja se conectar:
    
     A sintaxe de comando:
 
@@ -68,26 +68,26 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     Após mudanças **estruturais** nas coleções do SolR, não basta atualizar SolR pela aplicação ITSM, deve-se antes atualizar os
     configset do SolR.
     
-    Segue os **passos** para atualização:
+    Segue os passos para atualização:
     
     1. Remover qualquer coleção existente no configset “base_conhecimento_configs”
-    2. Parar o servidor Solr com o comando: **solr stop –all**
+    2. Parar o servidor Solr com o comando: solr stop –all
     3. Acessar a pasta raiz do Solr $PATH_SOLR/server/solr/configsets/
     4. Excluir a pasta “base_conhecimento_configs”
     5. Copiar o novo config que está em anexo para esta pasta
-    6. Subir o servidor Solr com o comando: **solr start -noprompt**
-    7. Executar o comando para criação da coleção: **solr create -c base_conhecimento -d base_conhecimento_configs**
+    6. Subir o servidor Solr com o comando: solr start -noprompt
+    7. Executar o comando para criação da coleção: solr create -c base_conhecimento -d base_conhecimento_configs
     8. Acessar o sistema CITSmart no caminho: Sistema > Configurações > Gerência de Conhecimento (Indexação) (ver conhecimento
     Indexação de conhecimentos)
-    9. Clicar no botão: **Indexar base de conhecimento**
+    9. Clicar no botão: Indexar base de conhecimento
 
 !!! Question "[Ambiente] Perda do caminho das fontes"
     
-    *Descrição*
+    a. Descrição
     
     Não está sendo possível gerar o relatório nativo "Relatório Execução Solicitação".
     
-    *Solução/Resposta*
+    b. Solução/Resposta
     
     Atribuir ("setar") via linha de comando no servidor o caminho correto das fontes.
        
@@ -139,24 +139,24 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     1. Configure os seguintes parâmetros do sistema que definem o comportamento do mecanismo de resposta automática ( ver 
     conhecimento Regras de parametrização - Provisionamento e logística):
     
-        - **Parâmetro 139**: Define o prazo máximo, em dias, que o usuário tem para responder a pesquisa de satisfação, antes que 
+        - Parâmetro 139: Define o prazo máximo, em dias, que o usuário tem para responder a pesquisa de satisfação, antes que 
         essa seja respondida automaticamente pelo sistema;
-        - **Parâmetro 152**: Nota padrão que será atribuída as pesquisas de satisfação que forem respondidas automaticamente. 
+        - Parâmetro 152: Nota padrão que será atribuída as pesquisas de satisfação que forem respondidas automaticamente. 
         Opções: OTIMO, BOM, REGULAR E RUIM;
-        - **Parâmetro 151**: Ativa ou Desativa as respostas automáticas no sistema. S para ativar e N para desativar.
+        - Parâmetro 151: Ativa ou Desativa as respostas automáticas no sistema. S para ativar e N para desativar.
         
     2. Acesse a funcionalidade de Processamento Batch (**Sistema > Processamento Batch**).
     
     3. Será apresentada a tela de cadastro de processamento batch preencha os campos:
     
-        - **Descrição**: informe a descrição que identificará esse processamento. Por exemplo: “Resposta automática pesquisa
+        - Descrição: informe a descrição que identificará esse processamento. Por exemplo: “Resposta automática pesquisa
         satisfação”;
-        - **Situação**: a situação define se esse processamento estará ativo ou inativo. Quando ele se encontrar inativado as 
+        - Situação: a situação define se esse processamento estará ativo ou inativo. Quando ele se encontrar inativado as 
         solicitações deixarão de ser respondidas;
-        - **Tipo**: selecionar o tipo “Classe Java”;
-        - **Agendamento**: define quando essa rotina será executada, cabe ao administrador do sistema definir qual o melhor 
+        - Tipo: selecionar o tipo “Classe Java”;
+        - Agendamento: define quando essa rotina será executada, cabe ao administrador do sistema definir qual o melhor 
         horário e frequência para a execução;
-        - **Conteúdo**informe o texto: **br.com.centralit.citcorpore.quartz.job.AvaliarSolicitacoesNaoRespondidas**;
+        - Conteúdo: informe o texto: **br.com.centralit.citcorpore.quartz.job.AvaliarSolicitacoesNaoRespondidas**;
         
     4. Clique no botão Gravar para efetuar o registro.
     
@@ -172,8 +172,8 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     
     Para que essa notificação seja enviada é necessário realizar os seguintes procedimentos:
     
-    1. Acesse os **Serviços do Contrato** referente ao serviço de negócio **Gerenciamento de Portfólio > Portfólio de Serviços >
-    Serviço de Negócio > Contrato > Serviços e serviço técnico **Gerenciamento de Portfólio > Portfólio de Serviços > Serviço de
+    1. Acesse os Serviços do Contrato referente ao serviço de negócio Gerenciamento de Portfólio > Portfólio de Serviços >
+    Serviço de Negócio > Contrato > Serviços e serviço técnico Gerenciamento de Portfólio > Portfólio de Serviços > Serviço de
     Negócio > Serviço de Apoio/Técnico > Contrato > Serviços e informe o modelo de e-mail nos campos:
         - "Modelo de E-mail Abertura Incidente/Requisição"
         - "Modelo de E-mail na finalização de Solicitações/Incidentes"
@@ -183,15 +183,15 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     
         Caso não informe os modelos de e-mail, as notificações não serão enviadas.
         
-    2. Acesse a funcionalidade de **Cadastro de Grupo** através da navegação no menu principal **Cadastro Gerais > Gerência de
-    Pessoal > Grup**.
+    2. Acesse a funcionalidade de Cadastro de Grupo através da navegação no menu principal Cadastro Gerais > Gerência de
+    Pessoal > Grupo.
     
-    3. Será apresentada a tela de **Cadastro de Grupo**. Caso o grupo já esteja registrado no sistema, realize a pesquisa do 
+    3. Será apresentada a tela de Cadastro de Grupo. Caso o grupo já esteja registrado no sistema, realize a pesquisa do 
     grupo;
     
     4. Selecione o mesmo;
     
-    5. Será exibida a tela de registro do determinado grupo, defina se as **notificações de e-mail** (abertura, andamento e 
+    5. Será exibida a tela de registro do determinado grupo, defina se as notificações de e-mail (abertura, andamento e 
     encerramento) referentes às solicitações, serão de envio obrigatório;
     
     !!! warning "ATENÇÃO"
