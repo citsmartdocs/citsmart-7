@@ -541,8 +541,7 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     
     4. Após configurar o parâmetro, ao logar no sistema, será exibido como tela inicial o Portal.
     
-!!! Question "Como integrar o AD da empresa do cliente no CITSmart Enterprise ITSM que está na cloud ofertada pela CITSmart 
-Corporation?"
+!!! Question "Como integrar o AD da empresa do cliente no CITSmart Enterprise ITSM que está na cloud ofertada pela CITSmart Corporation?"
 
     Em relação ao LDAP compliance do CITSmart Enterprise ITSM, existem dois cenários:
     
