@@ -206,45 +206,45 @@ Para realizar a instalação/configuração do SNMP no ambiente Linux, proceda c
 
 Existem algumas premissas básicas ao configurar o SNMP, são elas:
 
-    a. Configuração da comunidade
+a. Configuração da comunidade
     
-    Caso esta linha não exista você deverá criá-la, porém caso ela exista, deixe-a de acordo como está mostrado abaixo:
+Caso esta linha não exista você deverá criá-la, porém caso ela exista, deixe-a de acordo como está mostrado abaixo:
     
-    ![Código](images/cod.img3.jpg)
+![Código](images/cod.img3.jpg)
     
-    b. Configuração do grupo
+b. Configuração do grupo
     
-    Caso estas linhas não existam você deverá criá-las, porém caso elas existem, deixe-as de acordo como está demonstrado abaixo:
+Caso estas linhas não existam você deverá criá-las, porém caso elas existem, deixe-as de acordo como está demonstrado abaixo:
     
-    ![Código](images/cod.img4.jpg)
+![Código](images/cod.img4.jpg)
     
-    c. Configuração da árvore SNMP
+c. Configuração da árvore SNMP
     
-    Caso esta linha não exista você deverá criá-la, porém caso ela exista, deixe-a de acordo como está mostrado abaixo:
+Caso esta linha não exista você deverá criá-la, porém caso ela exista, deixe-a de acordo como está mostrado abaixo:
     
-    ![Código](images/cod.img5.jpg)
+![Código](images/cod.img5.jpg)
     
-    d. Configuração de acesso do grupo
+d. Configuração de acesso do grupo
     
-    Caso esta linha não exista você deverá criá-la, porém caso ela exista, deixe-a de acordo como está mostrado abaixo:
+Caso esta linha não exista você deverá criá-la, porém caso ela exista, deixe-a de acordo como está mostrado abaixo:
     
-    ![Código](images/cod.img6.jpg)
+![Código](images/cod.img6.jpg)
     
-    e. A configuração completa deverá ficar similar ao apresentado abaixo:
+e. A configuração completa deverá ficar similar ao apresentado abaixo:
     
-    ![Código](images/cod.img7.jpg)
+![Código](images/cod.img7.jpg)
     
-    f. Reinicie o serviço SNMP com o seguinte comando:
+f. Reinicie o serviço SNMP com o seguinte comando:
     
-    ![Código](images/cod.img8.jpg)
+![Código](images/cod.img8.jpg)
     
-    g. Após restartar o SNMP, realize o teste local com o objetivo de verificar se o SNMP está rodando:
+g. Após restartar o SNMP, realize o teste local com o objetivo de verificar se o SNMP está rodando:
     
-    ![Código](images/cod.img9.jpg)
+![Código](images/cod.img9.jpg)
     
-    h. O teste deverá retornar o seguinte resultado:
+h. O teste deverá retornar o seguinte resultado:
     
-    ![Código](images/cod.img10.jpg)
+![Código](images/cod.img10.jpg)
     
 Instalação do MongoDB
 ------------------------
