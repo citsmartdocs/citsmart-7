@@ -81,7 +81,7 @@ Público-alvo da solução e principais benefícios
 2. **Níveis de Serviço** - [introdução][29] e [documentação][49]
 3. **Mudança** - [introdução][30] e [documentação][50]
 4. **Liberação** - [introdução][31] e [documentação][51]
-5. **Conhecimento** - [introdução][32] e documentação
+5. **Conhecimento** - [introdução][32] e [documentação][52]
 6. **Configuração e Ativo de Serviço** - [introdução][33] e documentação
 7. **Evento** - [introdução][34] e documentação
 8. **Requisições e Incidentes** - [introdução][35] e documentação
@@ -274,3 +274,4 @@ Veja também
 [49]:/pt-br/citsmart-platform-7/processes/service-level/all-documentation.html
 [50]:/pt-br/citsmart-platform-7/processes/change/all-documentation.html
 [51]:/pt-br/citsmart-platform-7/processes/release/all-documentation.html
+[52]:/pt-br/citsmart-platform-7/processes/knowledge/all-documentation.html
