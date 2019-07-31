@@ -77,7 +77,7 @@ Público-alvo da solução e principais benefícios
     - Objetivo geral: reúne as principais funcionalidades de todos os [Processos da ITIL][25] atendidos pela solução.
     - Sub-sistemas/Funcionalidades (neste caso são os **13 processos ITIL**, os quais têm o selo [PinkVERIFY][26] certificado 
     pela [Pink Elephant][27]):
-1. **Portfólio e Catálogo** - [introdução][28] e documentação[48]
+1. **Portfólio e Catálogo** - [introdução][28] e [documentação][48]
 2. **Níveis de Serviço** - [introdução][29] e documentação
 3. **Mudança** - [introdução][30] e documentação
 4. **Liberação** - [introdução][31] e documentação
