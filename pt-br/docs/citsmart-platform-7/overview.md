@@ -269,4 +269,5 @@ Veja também
 [44]:/pt-br/citsmart-platform-7/plataform-administration/customizable-fields/smart.button.html
 [45]:
 [46]:
+[47]:/pt-br/faq.html
 
