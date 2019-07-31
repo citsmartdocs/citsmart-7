@@ -79,7 +79,7 @@ Público-alvo da solução e principais benefícios
     pela [Pink Elephant][27]):
 1. **Portfólio e Catálogo** - [introdução][28] e [documentação][48]
 2. **Níveis de Serviço** - [introdução][29] e [documentação][49]
-3. **Mudança** - [introdução][30] e documentação
+3. **Mudança** - [introdução][30] e [documentação][50]
 4. **Liberação** - [introdução][31] e documentação
 5. **Conhecimento** - [introdução][32] e documentação
 6. **Configuração e Ativo de Serviço** - [introdução][33] e documentação
@@ -272,3 +272,4 @@ Veja também
 [47]:/pt-br/faq.html
 [48]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/all-documentation.html
 [49]:/pt-br/citsmart-platform-7/processes/service-level/all-documentation.html
+[50]:/pt-br/citsmart-platform-7/processes/change/all-documentation.html
