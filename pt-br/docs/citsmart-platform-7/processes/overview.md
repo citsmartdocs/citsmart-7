@@ -78,7 +78,7 @@ Público-alvo da solução e principais benefícios
     - Sub-sistemas/Funcionalidades (neste caso são os **13 processos ITIL**, os quais têm o selo [PinkVERIFY][26] certificado 
     pela [Pink Elephant][27]):
 1. **Portfólio e Catálogo** - [introdução][28] e [documentação][48]
-2. **Níveis de Serviço** - [introdução][29] e documentação
+2. **Níveis de Serviço** - [introdução][29] e [documentação][49]
 3. **Mudança** - [introdução][30] e documentação
 4. **Liberação** - [introdução][31] e documentação
 5. **Conhecimento** - [introdução][32] e documentação
@@ -271,3 +271,4 @@ Veja também
 [46]:
 [47]:/pt-br/faq.html
 [48]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/all-documentation.html
+[49]:/pt-br/citsmart-platform-7/processes/service-level/all-documentation.html
