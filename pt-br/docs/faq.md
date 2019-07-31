@@ -335,8 +335,7 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     Para realizar esse desenho, proceda conforme as orientações abaixo (ver conhecimento [Configuração dos atributos do serviço][2]
     
     1. Acesse a funcionalidade de **Desenho de Mapa do Serviço** referente ao Serviço de Negócio Gerência de Portfólio e 
-    Catálogo > Gerenciamento de Portfólio e Catálogo > Menu Apoio > Avançar Portfólio > Catálogo de Serviços > Avançar Serviço
-    > Mapa de Serviço;
+    Catálogo > Gerenciamento de Portfólio e Catálogo > Menu Apoio > Avançar Portfólio > Catálogo de Serviços > Avançar Serviço > Mapa de Serviço;
     
     2. Será apresentada a tela para desenho dos ativos que compõem o serviço de negócio;
     
@@ -621,10 +620,10 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     
     Exemplo "Folha de Pagamentos":
     
-        - Digamos que seja regra de uma empresa não contratar mais de 5 funcionários por setor.
-        - O programa de folha de pagamento poderia enviar os dados mínimos de cada contratação por departamento (definido no 
-        plano orçamentário da empresa), de modo que sempre que o número de contração por departamento ultrapassar o limite pré-
-        estabelecido, um evento de “excesso de contratação” poderia ser disparado.
+    - Digamos que seja regra de uma empresa não contratar mais de 5 funcionários por setor.
+    - O programa de folha de pagamento poderia enviar os dados mínimos de cada contratação por departamento (definido no 
+    plano orçamentário da empresa), de modo que sempre que o número de contração por departamento ultrapassar o limite pré-
+    estabelecido, um evento de “excesso de contratação” poderia ser disparado.
         
 !!! Question "Como relacionar grupo ao contrato?"
 
@@ -693,8 +692,8 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     
     Alguns impulsionadores que podem alterar o cálculo da pontuação, no momento da pesquisa, são:
     
-        - term^num: onde o “num” é a importância do termo pesquisado, exemplo: incident^2;
-        - E também pode ser utilizado os impulsionadores de campo e as funções do dismax e edismax para impulsionar a pesquisa.
+    - term^num: onde o “num” é a importância do termo pesquisado, exemplo: incident^2;
+    - E também pode ser utilizado os impulsionadores de campo e as funções do dismax e edismax para impulsionar a pesquisa.
         
     No ITSM não é utilizado nenhum impulsionador, até o momento, somente é utilizado o cálculo padrão de pontuação do Solr, e no 
     final da pesquisa é realizado a ordenação pela pontuação e pela quantidade de vezes que o conhecimento foi votado/curtido.
@@ -721,7 +720,7 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     
         ![Colaboradores](images/cola.img1.jpg)
         
-        Figura 1 - Tela de Colaboradores
+        **Figura 1 - Tela de Colaboradores**
         
     5. Após o vínculo, clique no botão "Gravar" para efetuar a operação, neste caso a data, hora e usuário serão armazenados 
     automaticamente para uma futura auditoria.
