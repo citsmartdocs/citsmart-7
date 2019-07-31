@@ -724,20 +724,280 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
         
     5. Após o vínculo, clique no botão "Gravar" para efetuar a operação, neste caso a data, hora e usuário serão armazenados 
     automaticamente para uma futura auditoria.
-
-
-
     
+!!! Question "[Eventos] Erro: "Falha ao tentar conectar à ferramenta de monitoração" para Zabixx"
 
+    Verifique o contexto zabbix:
     
+    Exemplo:
+    
+    O Evm procura o zabbix.
+    
+    O Zabbix precisa apontar para o contexto /zabbix.
+    
+    Veja também:
+    
+    - [Cadastro e pesquisa das ferramentas de monitoração de eventos](/pt-br/citsmart-platform-7/processes/event/event-monitoring-tools.html)
+    
+!!! Question "O arquivo de backup será sobrescrito ou terá um arquivo para cada dia?"
 
+    Se a sua rotina for um backup por dia, vai ser criado um arquivo por dia, contendo no nome a data do respectivo arquivo.
+    
+!!! Question "O que é preciso para configurar um IC que está fisicamente na rede da empresa do cliente para ser inventariado pelo CITSmart Enterprise ITSM que está na cloud ofertada pela CITSmart Corporation?"
 
+    [Original] Na cloud, o mongodb e evm/inv ficam na estrutura do cliente, devido não ser possível se conectar em um range 
+    interno com origem da cloud.
+    
+    [Para validação] Neste cenário específico, os componentes MongoDB, CITSmart EVM e CITSmart Inventory devem ser instalados e 
+    configurados dentro da estrutura de rede do cliente, pois não é possível ao CITSmart Enterprise ITSM (Cloud) se conectar a um 
+    range interno de um cliente.
+    
+!!! Question "Para qual destinatário será feito envio de notificações de ICs?"
 
+    As notificações de ICs serão enviadas para o destinatário definido na tela de Parâmetro do Citsmart.
+    
+    Para definir o destinatário, proceda conforme orientações abaixo:
+    
+    1. Acesse a funcionalidade de Parâmetros do Citsmart através da navegação no menu principal Parametrização > Parâmetros 
+    Citsmart;
+    
+    2. Será apresentada a tela de Parâmetros do Citsmart, clique na aba Pesquisa de Parâmetros do Citsmart;
+    
+    3. Será apresenta a tela para pesquisa de parâmetros;
+    
+    4. Realize a pesquisa do parâmetro "90 - Envio de e-mails de Notificação de ICs (1-Grupo, 2-Proprietário, 3-Todos)";
+    
+    5. Selecione o mesmo;
+    
+    6. Será apresentada a tela de registro do parâmetro com o conteúdo referente ao registro selecionado, no campo valor, informe 
+    o número de identificação do destinatário (1 - Grupo, 2 - Proprietário ou 3 - Todos);
+    
+    7. Clique no botão "Gravar" para efetuar a operação, neste caso a data, hora e usuário serão armazenados automaticamente para 
+    uma futura auditoria;
+    
+    8. Após configuração do parâmetro, será realizado o envio de e-mails de notificações de ICs para o destinatário (grupo, 
+    proprietário ou todos), conforme especificado no valor do parâmetro.
+    
+!!! Question "Por que a numeração de solicitação de serviço nem sempre seguirá uma ordem sequencial rigorosa/perfeita na tela de solicitação de serviços ou em alguns relatórios?"
 
+    Tanto a tela de Solicitação de Serviços quanto em alguns relatórios (tais como "Qualidade de Atendimento - SLA"), a ordenação 
+    do número das solicitações segue uma ordem sequencial crescente, exceto quando:
+    
+    1. Os relatórios agrupam os dados por algum critério especial (ex.: pelo prazo de SLA, que é o que acontece no caso do 
+    relatório "Qualidade de Atendimento - SLA")
+    
+    2. Quando o recurso denominado Sequence Block é impactado por um fator externo, isso ocorre se:
+    
+    - Há uma parada da aplicação para atualização de versão, ou manutenção de ambiente e posterior retorno.
+    - O ambiente é clusterizado.
+    
+!!! Question "Por que em alguns relatórios a mesma solicitação aparece mais de uma vez?"
 
+    Em alguns relatórios como por exemplo o "Relatório Incidentes / Solicitações de Serviços - Detalhado", tanto no formato pdf 
+    como no xls, pode existir sim a mesma solicitação mais de uma vez, contudo são detalhamentos distintos porque trata de cada 
+    etapa da solicitação, então cada vez que ela "repete" é porque muda-se a tarefa, ou o responsável, ou a fase, ou a situação, 
+    ou o grupo solucionador ou a data hora final de atendimento.
+    
+    Já em outros relatórios, tais como o "Relatório Incidentes / Solicitações de Serviços" não há detalhamento da solicitação de 
+    acordo com as atividades e por isso não é mostrada a solicitação mais de uma vez.
+    
+!!! Question "Por que o resultado é "Relatório Vazio" ao gerar o relatorioControlePercentualQuantitativoSla selecionando no filtro a situação "em Andamento" e o "grupo solucionador"?"
 
+    Não se trata de um erro, o campo de grupo solucionador é preenchido somente quando a solicitação é encerrada, isso faz com 
+    que só traga resultados para as situações do tipo "Fechada", incompatível com o que se está pedindo/informando nos filtros.
+    
+!!! Question "Por que os horários criados pela ferramenta estão diferentes da hora atual?"
 
-  
-  
+    *Cenário*
+    
+    1. Ao criar um chamado, a hora fica diferente da hora real, alternando entre 1 (uma) à 3 (três) horas de atraso ou 
+    adiantamento.
+    
+    *O que verificar*
+    
+    1. Arquivo de configuração do Banco Postgresql:
+    
+        - Postgresql.conf
+        - timezone = 'BRAZIL/EAST'
+        
+    2. No container cloud:
+    
+        - Configuração de timezone no sistema operacional.
+        
+    3. Configuração do TimeZone no JRE:
+    
+        - https://docs.oracle.com/javase/9/troubleshoot/time-zone-settings-jre.htm#JSTGD362
+        
+!!! Question "Quais as permissões necessárias na pasta de destino do backup da tabela Logdados?"
+
+    A permissões na pasta devem ser de leitura e gravação para o usuário que o JBoss utiliza.
+    
+!!! Question "Quais o significado de cada status do inventário de ICs?"
+
+    - **Inventariado**: o inventário conseguiu ler as informações do IC e se encerrou com sucesso;
+    - **Ignorado**: na tela de citsmart/pages/evmInventoryConfiguracao/evmInventoryConfiguracao.load temos uma opção para ignorar 
+    as máquinas já inventariadas, essa marcação aparece quando isso ocorre;
+    - **Inacessível**: quando o servidor encontra o IC, mas não consegue trazer as informações;
+    - **Não inventariado: quando nem encontra o IC na rede, mas tem conhecimento de que ele já existiu;
+    - **Em execução**: durante a leitura do inventário, o IC fica nesse status.
+    
+!!! Question "Qual é o conjunto de scripts indicado para a exclusão completa de um portfólio?"
+
+    Supondo que o número do Portfólio seja 1 apenas para exemplificar.
+    
+    DELETE FROM ocorrenciaservicocontrato osc WHERE osc.ID IN(
+    SELECT osc.id from ocorrenciaservicocontrato osc
+    INNER JOIN ocorrenciaservico os ON os.IDOCORRENCIASERVICO = osc.IDOCORRENCIASERVICO
+    INNER JOIN servico s on s.idservico = os.idservico 
+    INNER JOIN portfolioservico p on p.idportfolioservico = s.idportfolioservico
+    WHERE p.idportfolioservico = 2);
+    
+    DELETE FROM ocorrenciaservicodetalhes osd WHERE osd.ID in (
+    SELECT osd.ID FROM ocorrenciaservicodetalhes osd
+    INNER JOIN ocorrenciaservico os ON os.IDOCORRENCIASERVICO = osd.IDOCORRENCIASERVICO
+    INNER JOIN servico s on s.idservico = os.idservico 
+    INNER JOIN portfolioservico p on p.idportfolioservico = s.idportfolioservico
+    WHERE p.idportfolioservico = 2);
+    
+    DELETE FROM ocorrenciaservicorelacionado oscr WHERE oscr.ID IN( 
+    SELECT oscr.ID FROM ocorrenciaservicorelacionado oscr
+    INNER JOIN ocorrenciaservico os ON os.IDOCORRENCIASERVICO = oscr.IDOCORRENCIASERVICO
+    INNER JOIN servico s on s.idservico = os.idservico 
+    INNER JOIN portfolioservico p on p.idportfolioservico = s.idportfolioservico
+    WHERE p.idportfolioservico = 2);
+    
+    DELETE FROM ocorrenciaservico os WHERE os.IDOCORRENCIASERVICO IN (
+    SELECT os.IDOCORRENCIASERVICO FROM ocorrenciaservico os
+    INNER JOIN servico s on s.idservico = os.idservico 
+    INNER JOIN portfolioservico p on p.idportfolioservico = s.idportfolioservico
+    WHERE p.idportfolioservico = 2);
+    
+    DELETE FROM avaliacaoservico avs WHERE avs.IDAVALIACAOSERVICO IN (
+    SELECT avs.IDAVALIACAOSERVICO FROM avaliacaoservico avs
+    INNER JOIN servico s on s.idservico = avs.idservico 
+    INNER JOIN portfolioservico p on p.idportfolioservico = s.idportfolioservico
+    WHERE p.idportfolioservico = 2);
+    
+    DELETE FROM acordoservicocontrato acsc WHERE acsc.IDACORDOSERVICOCONTRATO IN(
+    SELECT acsc.IDACORDOSERVICOCONTRATO FROM acordoservicocontrato acsc
+    INNER JOIN servicocontrato sc ON sc.IDSERVICOCONTRATO = acsc.IDSERVICOCONTRATO
+    INNER JOIN servico s on s.idservico = sc.idservico 
+    INNER JOIN portfolioservico p on p.idportfolioservico = s.idportfolioservico
+    WHERE p.idportfolioservico = 2);
+    
+    DELETE FROM fluxoservico fs WHERE fs.idfluxoservico IN(
+    SELECT fs.idfluxoservico FROM fluxoservico fs
+    INNER JOIN servicocontrato sc ON sc.IDSERVICOCONTRATO = fs.IDSERVICOCONTRATO
+    INNER JOIN servico s on s.idservico = sc.idservico 
+    INNER JOIN portfolioservico p on p.idportfolioservico = s.idportfolioservico
+    WHERE p.idportfolioservico = 2);
+    
+    DELETE FROM servicocontrato sc WHERE sc.IDSERVICOCONTRATO IN(
+    SELECT sc.IDSERVICOCONTRATO FROM servicocontrato sc
+    INNER JOIN servico s on s.idservico = sc.idservico 
+    INNER JOIN portfolioservico p on p.idportfolioservico = s.idportfolioservico
+    WHERE p.idportfolioservico = 2);
+    
+    DELETE FROM servicoautorelacionamento servauto WHERE servauto.IDSERVICOAUTORELACIONAMENTO IN(
+    SELECT servauto.IDSERVICOAUTORELACIONAMENTO FROM servicoautorelacionamento servauto
+    INNER JOIN servico s on s.idservico = servauto.idservico 
+    INNER JOIN portfolioservico p on p.idportfolioservico = s.idportfolioservico
+    WHERE p.idportfolioservico = 2);
+    
+    DELETE FROM servico s WHERE s.idservico IN(
+    SELECT s.idservico FROM servico s
+    INNER JOIN portfolioservico p on p.idportfolioservico = s.idportfolioservico
+    WHERE p.idportfolioservico = 2);
+    
+    DELETE FROM portfolioservico p WHERE p.idportfolioservico = 2;
+    
+!!! Question  "Qual é o conjunto de scripts indicado para limpar todos os dados de inventário e de itens de configuração?"
+
+    1. update evm_gerente set iditemconfiguracaopai = null;
+    2. update parametrocorpore set valor = 'NAME' where idparametrocorpore = 4;
+    3. update recurso set iditemconfiguracao = null where iditemconfiguracao is not null;
+    4. update evm_gerente set iditemconfiguracaopai = null
+    5. delete from empregadoitemconfiguracao;
+    6. delete from eventoitemconfiguracao;
+    7. delete from historicotentativa;
+    8. delete from justificacaofalha;
+    9. delete from usuarioitemconfiguracao;
+    10. delete from requisicaomudancaitemconfiguracao;
+    11. delete from requisicaoliberacaoitemconfiguracao;
+    12. delete from problemaitemconfiguracao;
+    13. delete from conhecimentoic;
+    14. delete from softwareslistanegraencontrados;
+    15. delete from itemconfiguracaoevento;
+    16. delete from itemcfgsolicitacaoserv;
+    17. delete from imagemitemconfiguracao;
+    18. delete from auditoriaitemconfig;
+    19. delete from historicovalor;
+    20. delete from historicoic;
+    21. delete from valor;
+    22. delete from caracteristica;
+    23. delete from tipoitemcfgcaracteristica;
+    24. delete from tipoitemconfiguracao;
+    25. delete from itemconfiguracao;
+    
+!!! Question "Qual o limite de tamanho de arquivo para upload nas funcionalidades com este recurso?"
+
+    O upload dos anexos especifica o tamanho limite de 15 Mbytes para cada arquivo carregado no sistema. Porém, na tela do Portal 
+    continua com o limite de 5 Mbytes para o tamanho do arquivo.
+    
+!!! Question "Qual o significado de cada privacidade que um conhecimento pode ter na base de conhecimento?"
+
+    - **Público**: todos os usuários com acesso no Portal do Conhecimento possuem acesso, independente se têm acesso à pasta do 
+    conhecimento;
+    - **Confidencial**: somente o autor e o aprovador podem visualizar o conhecimento;
+    - **Interno**: somente pessoas com permissão na pasta do conhecimento podem visualizar.
+    
+!!! Question "Quando ocorre a limpeza dos dados da tabela Logdados?"
+
+    A rotina de backup da tabela LogDados retira os dados da tabela e salva em arquivo, ou seja, a tabela fica limpa após o 
+    processamento.
+    
+!!! Question "Quando ocorre a sincronização dos dados com o LDAP?"
+
+    O sistema sincroniza os dados das credenciais de seus usuários com o LDAP em três situações distintas:
+    
+    1. Na ativação da aplicação, geralmente em sequência ao procedimento de atualização de versão do produto;
+    
+    2. Quando o usuário faz o logon (o acesso ao sistema com seu login e senha), nesse momento o sistema automaticamente verifica 
+    a autenticação e permissão do usuário;
+    
+    3. Na funcionalidade Configuração de LDAP, quando o usuário clica na opção 'Sincronizar'.
+    
+!!! Question "[Ticket/Tarefa] Erro: horário de cadastro de ticket/tarefa diferente de um servidor"
+
+    *Descrição*:
+    
+    O cliente informa que o horário da criação de um chamado está com o horário diferente de um servidor.
+    
+    *Solução/Resposta*:
+    
+    Para verificar a hora que está no banco de dados, siga os seguintes passos:
+    
+    1. Acesse a funcionalidade de execução de scripts através da navegação no menu principal Sistema > Banco de Dados > Execução 
+    de Scripts.;
+    
+    2. Será apresentada a tela de Cadastro de Scripts;
+    
+    3. Inserir no campo SQL Query a seguinte consulta: SELECT CURRENT_TIMESTAMP ;
+    
+    4. Clique em Executar;
+    
+    5. O sistema retorna os seguintes resultados:
+    
+        - Primeiro o resultado da data e hora do banco de dados;
+        - Segundo o horário do Servidor.
+        
+    6. Verifique as horas e se elas não baterem com a hora atual de sua localização abra um chamado com essas evidências à 
+    Infraestrutura.
+    
+!!! tip "About"
+
+    <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
+    <b>Updated:</b>07/31/2019 - Larissa Lourenço
+    
 
 [2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
