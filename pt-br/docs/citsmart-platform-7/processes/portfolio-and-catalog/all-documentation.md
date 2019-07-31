@@ -30,7 +30,7 @@ Description: Disponibiliza todos os conhecimentos do processo.
 
 [Cadastro e pesquisa de habilidade](/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/skill.html)
 
-[Cadastro e pesquisa de justificativa de solicitação](/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/request-justification.html]
+[Cadastro e pesquisa de justificativa de solicitação](/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/request-justification.html)
 
 [Cadastro e pesquisa de prioridade](/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/priority-register.html)
 
