@@ -332,7 +332,7 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     desenhos eficientes e eficazes para gerenciamento do serviço durante seu ciclo de vida, demonstrando os itens de configuração
     relacionados.
     
-    Para realizar esse desenho, proceda conforme as orientações abaixo (ver conhecimento [Configuração dos atributos do serviço][2]
+    Para realizar esse desenho, proceda conforme as orientações abaixo (ver conhecimento [Configuração dos atributos do serviço][2])
     
     1. Acesse a funcionalidade de **Desenho de Mapa do Serviço** referente ao Serviço de Negócio Gerência de Portfólio e 
     Catálogo > Gerenciamento de Portfólio e Catálogo > Menu Apoio > Avançar Portfólio > Catálogo de Serviços > Avançar Serviço > Mapa de Serviço;
