@@ -100,7 +100,7 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     3. A notificação terá o número da solicitação com um hyperlink, basta clicar no número, que logo em seguida será redirecionado
     para tela de Gerenciamento de Serviços apresentando as informações da solicitação.
     
-    [Download][1]
+    ![Download](images/neuro (1).jpg)
 
 !!! Question "Como configurar a autenticação do Nagios via LDAP?"
     
@@ -739,5 +739,5 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
 
   
   
-[1]:![download](images/neuro (1).jpg)
+
 [2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
