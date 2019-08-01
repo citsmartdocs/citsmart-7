@@ -84,7 +84,7 @@ Público-alvo da solução e principais benefícios
 5. **Conhecimento** - [introdução][32] e [documentação][52]
 6. **Configuração e Ativo de Serviço** - [introdução][33] e [documentação][53]
 7. **Evento** - [introdução][34] e [documentação][54]
-8. **Requisições e Incidentes** - [introdução][35] e documentação
+8. **Requisições e Incidentes** - [introdução][35] e [documentação][55]
 9. **Problema** - [introdução][36] e documentação
 10. **Continuidade** - [introdução][37] e documentação
 11. **Capacidade** - [introdução][38] e documentação
@@ -277,3 +277,4 @@ Veja também
 [52]:/pt-br/citsmart-platform-7/processes/knowledge/all-documentation.html
 [53]:/pt-br/citsmart-platform-7/processes/configuration/all-documentation.html
 [54]:/pt-br/citsmart-platform-7/processes/event/all-documentation.html
+[55]:/pt-br/citsmart-platform-7/processes/tickets/all-documentation.html
