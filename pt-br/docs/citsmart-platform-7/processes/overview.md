@@ -82,8 +82,8 @@ Público-alvo da solução e principais benefícios
 3. **Mudança** - [introdução][30] e [documentação][50]
 4. **Liberação** - [introdução][31] e [documentação][51]
 5. **Conhecimento** - [introdução][32] e [documentação][52]
-6. **Configuração e Ativo de Serviço** - [introdução][33] e documentação
-7. **Evento** - [introdução][34] e documentação
+6. **Configuração e Ativo de Serviço** - [introdução][33] e [documentação][53]
+7. **Evento** - [introdução][34] e [documentação][54]
 8. **Requisições e Incidentes** - [introdução][35] e documentação
 9. **Problema** - [introdução][36] e documentação
 10. **Continuidade** - [introdução][37] e documentação
@@ -275,3 +275,5 @@ Veja também
 [50]:/pt-br/citsmart-platform-7/processes/change/all-documentation.html
 [51]:/pt-br/citsmart-platform-7/processes/release/all-documentation.html
 [52]:/pt-br/citsmart-platform-7/processes/knowledge/all-documentation.html
+[53]:/pt-br/citsmart-platform-7/processes/configuration/all-documentation.html
+[54]:/pt-br/citsmart-platform-7/processes/event/all-documentation.html
