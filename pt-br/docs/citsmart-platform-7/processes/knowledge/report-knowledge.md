@@ -62,7 +62,7 @@ a localização dos itens desejados:
 2. Será apresentada a tela de **Geração de Relatório Quantitativo de Base de Conhecimento**, conforme ilustrada na figura a 
 seguir:
 
-    [Tela](images/rel-conh.img2.jpg)
+    ![Tela](images/rel-conh.img2.jpg)
     
     **Figura 2 - Tela de geração de relatório de base de conhecimento**
     
