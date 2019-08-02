@@ -129,5 +129,5 @@ seguir:
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>02/08/2019 - Larissa Lourenço
+    <b>Updated:</b>02/08/2019 - Larissa Lourenço  
 
