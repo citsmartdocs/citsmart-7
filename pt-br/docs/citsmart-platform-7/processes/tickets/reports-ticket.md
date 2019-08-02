@@ -380,6 +380,8 @@ facilitando a localização dos itens desejados:
     
     **Figura 10 - Tela de geração de relatório de aprovação de solicitação**
     
+3. Defina os filtros conforme sua necessidade.
+    
 Gerando relatório de execução de solicitação
 ----------------------------------------------
 
