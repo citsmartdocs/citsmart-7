@@ -21,7 +21,7 @@ Gerando relatório de problema/incidentes
 *Como acessar*
 
 1. Acesse a funcionalidade de Relatório de Problema/Incidentes através da navegação no menu principal 
-**Relatórios > Gerência de Problemas > Problema/Incidentes.
+**Relatórios > Gerência de Problemas > Problema/Incidentes**.
 
 *Filtros*
 
@@ -29,7 +29,7 @@ Gerando relatório de problema/incidentes
 facilitando a localização dos itens desejados:
 
     - **Período de Abertura**: informe o período que deseja verificar os incidentes relacionados ao problema;
-    - **Nº Problema: informe o número de identificação do problema para verificar os incidentes relacionados;
+    - **Nº Problema**: informe o número de identificação do problema para verificar os incidentes relacionados;
     - **Contrato**: informe o contrato referente ao problema, caso seja necessário.
     
 2. Será apresentada a tela de **Geração de Relatório de Problema/Incidentes**, conforme ilustrada na figura a seguir:
