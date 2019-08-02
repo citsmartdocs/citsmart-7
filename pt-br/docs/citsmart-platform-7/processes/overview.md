@@ -87,9 +87,9 @@ Público-alvo da solução e principais benefícios
 8. **Requisições e Incidentes** - [introdução][35] e [documentação][55]
 9. **Problema** - [introdução][36] e [documentação][56]
 10. **Continuidade** - [introdução][37] e [documentação][57]
-11. **Capacidade** - [introdução][38] e documentação
-12. **Demanda** - [introdução][39] e documentação
-13. **Disponibilidade** - [introdução][40] e documentação
+11. **Capacidade** - [introdução][38] e [documentação][58]
+12. **Demanda** - [introdução][39] e [documentação][59]
+13. **Disponibilidade** - [introdução][40] e [documentação][60]
 - **Menu: Gerência Integrada**
     - Objetivo geral: reúne diversos módulos de gestão com o intuito de apoiar os processos ITIL e minimizar os riscos.
     - Documentação: link
@@ -280,3 +280,6 @@ Veja também
 [55]:/pt-br/citsmart-platform-7/processes/tickets/all-documentation.html
 [56]:/pt-br/citsmart-platform-7/processes/problem/all-documentation.html
 [57]:/pt-br/citsmart-platform-7/processes/continuity/all-documentation.html
+[58]:/pt-br/citsmart-platform-7/processes/capacity/all-documentation.html
+[59]:/pt-br/citsmart-platform-7/processes/demand/all-documentation.html
+[60]:/pt-br/citsmart-platform-7/processes/availability/all-documentation.html
