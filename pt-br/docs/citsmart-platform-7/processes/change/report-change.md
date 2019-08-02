@@ -39,8 +39,7 @@ facilitando a localização dos itens desejados:
 
 1. Não se aplica.
 
-*Preenchimento dos campos cadastrais
---------------------------------------
+*Preenchimento dos campos cadastrais*
 
 1. Não se aplica.
 
