@@ -92,7 +92,7 @@ Público-alvo da solução e principais benefícios
 13. **Disponibilidade** - [introdução][40] e [documentação][60]
 - **Menu: Gerência Integrada**
     - Objetivo geral: reúne diversos módulos de gestão com o intuito de apoiar os processos ITIL e minimizar os riscos.
-    - Documentação: link
+    - Documentação: [link][61]
     - Sub-sistemas/Funcionalidades:
         - **Automação das Operações de TI** - Refere-se às funcionalidades de verificação do agendamento das atividades 
         relacionadas aos processos de requisição, incidentes, mudanças, problema e liberação.
@@ -283,3 +283,4 @@ Veja também
 [58]:/pt-br/citsmart-platform-7/processes/capacity/all-documentation.html
 [59]:/pt-br/citsmart-platform-7/processes/demand/all-documentation.html
 [60]:/pt-br/citsmart-platform-7/processes/availability/all-documentation.html
+[61]:/pt-br/citsmart-platform-7/additional-features/all-documentation.html
