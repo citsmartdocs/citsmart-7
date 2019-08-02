@@ -7,12 +7,12 @@ Gerando relatório de item de configuração Pacote Office
 
 Esse relatório tem o objetivo de apresentar as chaves (licenças) válidas, inválidas e duplicadas das mídias.
 
-# Como acessar #
+ *Como acessar* 
 
 1. Acesse a funcionalidade de Relatório de Item de Configuração Pacote Office através da navegação no menu principal
 **Relatórios > Gerência de Configurações > Relatório Item Configuração Pacote Office**.
 
-# Filtros #
+ *Filtros*
 
 1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
 facilitando a localização dos itens desejados:
@@ -45,12 +45,12 @@ Gerando relatório de mudança/item de configuração
 Esse relatório tem o objetivo de fornecer as informações das diferentes requisições de mudança relacionadas ao mesmo item de 
 configuração.
 
-# Como acessar #
+*Como acessar*
 
 1. Acesse a funcionalidade de Relatório de Mudança/Item de Configuração através da navegação no menu principal 
 **Relatórios > Gerência de Configurações > Mudança/Item Configuração**.
 
-# Filtros #
+*Filtros*
 
 1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
 facilitando a localização dos itens desejados:
