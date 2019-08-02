@@ -74,7 +74,7 @@ Gerando relatório quantitativo de solicitação/problema por serviço
 *Como acessar*
 
 1. Acesse a funcionalidade de Relatório Quantitativo de Solicitação/Problema por Serviço através da navegação no menu principal 
-** Relatórios > Gerência de Problemas > Solicitação/Problema por Serviço**.
+**Relatórios > Gerência de Problemas > Solicitação/Problema por Serviço**.
 
 *Filtros*
 
