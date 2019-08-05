@@ -135,7 +135,7 @@ Público-alvo da solução e principais benefícios
     - Objetivo geral: engloba os principais parâmetros do produto para que o comportamento e as regras de negócio sejam adaptados 
     às diversas necessidades do cliente. Permite personalizar determinada funcionalidade de acordo com os parâmetros 
     estabelecidos, por exemplo: alterando cálculos, fórmulas, metodologia, etc..
-    - Documentação: link
+    - Documentação: [link][64]
     - Sub-sistemas/Funcionalidades:
         - Chat
         - Configuração LDAP
@@ -286,3 +286,4 @@ Veja também
 [61]:/pt-br/citsmart-platform-7/additional-features/all-documentation.html
 [62]:/pt-br/citsmart-platform-7/additional-features/reports/all-documentation.html
 [63]:/pt-br/citsmart-platform-7/initial-settings/access-settings/all-documentation.html
+[64]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/all-documentation.html
