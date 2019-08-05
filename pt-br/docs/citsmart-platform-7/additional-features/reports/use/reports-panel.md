@@ -46,13 +46,13 @@ Incidentes e requisições
 Na tela de **Painel de Gráficos e Relatórios**, selecione o grupo de informações **Incidentes e Requisições**. Serão apresentados
 os gráficos e relatórios existentes no grupo para geração dos mesmos, conforme ilustrado na figura abaixo:
 
-    ![Relatório](images/painel.img2.jpg)
+![Relatório](images/painel.img2.jpg)
     
-    **Figura 2 - Painel de gráficos e relatórios de incidentes e requisições**
+**Figura 2 - Painel de gráficos e relatórios de incidentes e requisições**
     
-    !!! note "NOTA"
+!!! note "NOTA"
     
-        Os seguintes tópicos serão abordados sobre como gerar gráficos e relatórios para incidentes e solicitações.
+    Os seguintes tópicos serão abordados sobre como gerar gráficos e relatórios para incidentes e solicitações.
         
 *Monitoramento de incidentes*
 
