@@ -26,7 +26,7 @@ a localização dos itens desejados:
 - Url Conexão;
 - DN Base.
     
-![Conexão](images/ldap.img1.png)
+![Conexão](images/con-ldap.img1.jpg)
 
 **Figura 1 - Tela de pesquisa de conexão LDAP**
 
@@ -38,7 +38,7 @@ da funcionalidade: **ID, URL Conexão** e **DN Base**.
 
 Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Editar" e "Excluir".
 
-![Listagem](images/ldap.img2.png)
+![Listagem](images/con-ldap.img2.jpg)
 
 **Figura 2 - Tela de lista de conexões LDAP**
 
@@ -55,7 +55,7 @@ Preenchimento dos campos cadastrais
 2. Clique no botão "Novo" (conforme a figura anterior). Feito isso, será apresentada a tela de Cadastro de Conexão LDAP, conforme 
 ilustrada na figura a seguir:
 
-    ![Cadastro](images/ldap.img3.png)
+    ![Cadastro](images/con-ldap.img3.jpg)
     
     **Figura 3 - Tela de cadastro de conexão LDAP**
     
@@ -71,7 +71,7 @@ ilustrada na figura a seguir:
 4. Clique no botão "Adicionar novo grupo" e após isso, será apresentada a tela para cadastro dos dados, conforme ilustrada na
 figura abaixo:
 
-    ![Grupo](images/ldap.img4.png)
+    ![Grupo](images/con-ldap.img4.jpg)
     
     **Figura 4 - Tela de cadastro de grupo LDAP**
     
@@ -103,7 +103,7 @@ figura abaixo:
     - Após os dados informados, clique no botão "Adicionar". O grupo LDAP será adicionado na tela de conexão LDAP, conforme 
     exemplo ilustrado na figura abaixo:
     
-    ![LDAP](images/ldap.img5.png)
+    ![LDAP](images/con-ldap.img5.jpg)
     
     **Figura 5 - Grupos LDAP**
     
