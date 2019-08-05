@@ -123,7 +123,7 @@ Público-alvo da solução e principais benefícios
 - **Menu: Acesso e Permissão**
     - Objetivo geral: engloba todas as funcionalidades que diz respeito à definição da permissão de acesso ao sistema, garantindo 
     sigilo, foco e controle de quem pode o quê.
-    - Documentação: link
+    - Documentação: [link][63]
     - Sub-sistemas/Funcionalidades:
         - Perfil de Acesso
         - Grupo
@@ -285,3 +285,4 @@ Veja também
 [60]:/pt-br/citsmart-platform-7/processes/availability/all-documentation.html
 [61]:/pt-br/citsmart-platform-7/additional-features/all-documentation.html
 [62]:/pt-br/citsmart-platform-7/additional-features/reports/all-documentation.html
+[63]:/pt-br/citsmart-platform-7/initial-settings/access-settings/all-documentation.html
