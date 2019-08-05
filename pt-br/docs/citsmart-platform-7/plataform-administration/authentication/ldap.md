@@ -15,7 +15,7 @@ Como acessar
 Pré-condições
 ---------------
 
-1. Cadastrar horários para agendamento da sincronização automática (ver Cadastro e Pesquisa de Horários)
+1. Cadastrar horários para agendamento da sincronização automática (ver [Cadastro e Pesquisa de Horários][1])
 
 Filtros
 ----------
@@ -130,3 +130,5 @@ equivalentes.
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
     <b>Updated:</b>07/19/2019 – Larissa Lourenço
+    
+[1]:/pt-br/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
