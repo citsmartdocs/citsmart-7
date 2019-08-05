@@ -31,7 +31,7 @@ Legendas de botões
 
 1. Na área de representação dos gráficos contém quatro ícones, no qual possibilita a visualização de forma diferente do mesmo.
 
-    - O ícone ![simbolo](images/simb-planil(1).jpg) ao ser clicado gera uma tabela com informações;
+    - O ícone ![simbolo](images/simb-planil (1).jpg) ao ser clicado gera uma tabela com informações;
     
     - O ícone ![simbolo](images/simb-graf.jpg)  ao ser clicado exibe as opções de gráficos (Pizza 3D, Pizza 2D, Barra 3D, Barra 
     2D, Linha 3D e Linha 2D), para que possa selecionar a forma do gráfico que deseja visualizar;
