@@ -108,7 +108,7 @@ Público-alvo da solução e principais benefícios
         produtos e serviços.
 - **Menu: Relatórios**
     - Objetivo geral: disponibiliza os principais recursos e opções de emissão de relatórios operacionais/gerenciais da solução.
-    - Documentação: link
+    - Documentação: [link][62]
     - Sub-sistemas/Funcionalidades:
         - Configurações
         - Conhecimentos
@@ -284,3 +284,4 @@ Veja também
 [59]:/pt-br/citsmart-platform-7/processes/demand/all-documentation.html
 [60]:/pt-br/citsmart-platform-7/processes/availability/all-documentation.html
 [61]:/pt-br/citsmart-platform-7/additional-features/all-documentation.html
+[62]:/pt-br/citsmart-platform-7/additional-features/reports/all-documentation.html
