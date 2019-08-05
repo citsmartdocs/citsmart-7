@@ -22,6 +22,8 @@ Filtros
 1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a 
 localização dos itens desejados:
 
+    - Filtrar Web Service.
+
     ![Pesquisa](images/web-service.img1.jpg)
     
     **Figura 1 - Tela de pesquisa de web service para CITSmart mobile**
