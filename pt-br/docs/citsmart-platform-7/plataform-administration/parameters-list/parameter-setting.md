@@ -22,7 +22,7 @@ localização dos itens desejados:
 
     - Pesquise aqui.
     
-    ![Pesquisa](imges/conf-para.img1.jpg)
+    ![Pesquisa](images/conf-para.img1.jpg)
     
     **Figura 1 - Tela de pesquisa de parâmetros do CITSmart**
     
