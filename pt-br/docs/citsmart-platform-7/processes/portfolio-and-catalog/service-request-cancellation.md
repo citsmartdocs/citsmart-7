@@ -26,7 +26,7 @@ Filtros
 1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando
 a localização dos itens desejados:
 
-    - Pesquisa;
+    - Pesquisa; 
     - Situação;
     - Ordenar por;
     - Ordem.
