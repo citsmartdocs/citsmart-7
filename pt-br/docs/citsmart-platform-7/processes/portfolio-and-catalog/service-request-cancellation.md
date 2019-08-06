@@ -50,7 +50,7 @@ solicitação, Pesquisa de satisfação, Descrição, Anexos, Ocorrências, Regi
 **Figura 2 - Tela de listagem de solicitação**
 
 Preenchimento dos campos cadastrais
--------------------------------------
+------------------------------------- 
 
 1. Não se aplica.
 
