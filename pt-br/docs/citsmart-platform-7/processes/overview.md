@@ -233,7 +233,7 @@ Veja também
 [8]:/pt-br/citsmart-platform-7/processes/configuration/overview.html
 [9]:/pt-br/citsmart-platform-7/processes/release/overview.html
 [10]:/pt-br/citsmart-platform-7/processes/knowledge/overview.html
-[11]:/pt-br/citsmart-platform-7/processes/tickets/overview.ht
+[11]:/pt-br/citsmart-platform-7/processes/tickets/overview.html
 [12]:/pt-br/citsmart-platform-7/processes/event/overview.html
 [13]:/pt-br/citsmart-platform-7/processes/problem/overview.html
 [14]:/pt-br/glossary.html
