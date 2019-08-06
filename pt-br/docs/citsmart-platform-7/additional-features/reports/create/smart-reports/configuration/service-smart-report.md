@@ -15,9 +15,12 @@ Este relatório se propõe a informar a relação de atividades e seus tempos de
 Anexos
 --------
 
-[Download-RelSolAndamento][1]
+[Download - RelSolAndamento][1]
+
 [Download - RelSolAndamentoAtendente][2]
+
 [Download - RequisicoesIncidentesporSituacao][3]
+
 [Download - TempodeAtendimentoporPeriodo][4]
 
 
@@ -26,7 +29,10 @@ Anexos
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
     <b>Updated:</b>08/06/2019 - Larissa Lourenço
 
-[1]:RelSolAndamento.citreport
-[2]:RelSolAndamentoAtendente.citreport
-[3]:RelSolAndamentoAtendente.citreport
-[4]:Tempodeatendimentoporperiodo.citreport
+[1]:/pt-br/docs/citsmart-platform-7/additional-features/reports/create/smart-reports/configuration/images/RelSolAndamento.citreport
+
+[2]:/pt-br/docs/citsmart-platform-7/additional-features/reports/create/smart-reports/configuration/images/RelSolAndamentoAtendente.citreport
+
+[3]:/pt-br/docs/citsmart-platform-7/additional-features/reports/create/smart-reports/configuration/images/RelSolAndamentoAtendente.citreport
+
+[4]:/pt-br/docs/citsmart-platform-7/additional-features/reports/create/smart-reports/configuration/images/Tempodeatendimentoporperiodo.citreport
