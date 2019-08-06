@@ -30,7 +30,7 @@ Registrando opinião sobre o atendimento da solicitação de serviço
 1. Serão exibidas as solicitações de serviço;
 
 2. Busque a solicitação de serviço (fechada) que deseja registrar sua opinião e clique ícone ![simbolo](images/simb-excla.jpg) da 
-mesma. Feito isso, será apresentada a tela de Registro de Opinião, conforme ilustrada na figura abaixo:
+mesma. Feito isso, será apresentada a tela de **Registro de Opinião**, conforme ilustrada na figura abaixo:
 
     ![Registro](images/opiniao.img1.jpg)
     
