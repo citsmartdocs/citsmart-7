@@ -156,7 +156,7 @@ Público-alvo da solução e principais benefícios
 - **Menu: Sistema**
     - Objetivo geral: engloba os principais recursos tecnológicos configuráveis do produto, possibilitando obter o máximo de 
     controle e segurança no produto.
-    - Documentação: link
+    - Documentação: [link][65]
     - Sub-sistemas/Funcionalidades:
         - Acesso Remoto
         - Banco de Dados
@@ -176,7 +176,7 @@ Público-alvo da solução e principais benefícios
         - Visões e Meta dados
         - Web Service
 - **Recursos da solução em destaque**:
-    - **Smart Reports** - [introdução][41] e documentação
+    - **Smart Reports** - [introdução][41] e [documentação][66]
     - **Smart Decision** - [introdução][42] e documentação
     - **Chat** - [introdução][43]
     - **Smart Button** - [introdução][44]
@@ -287,3 +287,5 @@ Veja também
 [62]:/pt-br/citsmart-platform-7/additional-features/reports/all-documentation.html
 [63]:/pt-br/citsmart-platform-7/initial-settings/access-settings/all-documentation.html
 [64]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/all-documentation.html
+[65]:/pt-br/citsmart-platform-7/get-started/system-documentation.html
+[66]:/pt-br/citsmart-platform-7/additional-features/reports/create/smart-reports/configuration/all-documentation.html
