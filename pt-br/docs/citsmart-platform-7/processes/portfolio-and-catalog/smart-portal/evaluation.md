@@ -11,7 +11,7 @@ Pré-condições
 ----------------
 
 1. Ter o portfólio com os serviços e as atividades de requisição/incidente cadastrados e disponibilizados no Smart Portal (ver
-conhecimento [Cadastro de portfólio de serviços][1].
+conhecimento [Cadastro de portfólio de serviços][1]).
 
 Avaliando os serviços
 -------------------------
