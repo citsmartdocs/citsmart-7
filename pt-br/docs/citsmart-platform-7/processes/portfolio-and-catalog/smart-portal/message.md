@@ -97,6 +97,10 @@ localização dos itens desejados:
 3. Caso realizar a busca utilizando outros filtros, basta clicar no ícone ![simbolo](images/simb-seta.down.jpg) do campo de 
 pesquisa.
 
+    ![Pesquisa](images/mensa.img5.jpg)
+    
+    **Figura 5 - Tela de pesquisa rápida de solicitação**
+
 *Listagem de itens*
 
 1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem 
