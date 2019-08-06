@@ -8,6 +8,11 @@ Como acessar
 1. Na tela inicial do **Smart Portal**, clique no botão de menu ![simbolo](images/simb-meno.white.jpg) e logo após clique em **Minhas
 solicitações**. Após isso, serão exibidas as solicitações de serviço;
 
+Pré-condições
+---------------
+
+1. A solicitação de serviço deverá estar com a situação “fechada” (ver conhecimento [Gerenciamento de ticket (serviços)][1]
+
 Filtros
 ----------
 
@@ -40,7 +45,7 @@ Pesquisa de satisfação, Descrição, Anexos, Ocorrências, Registrar Ocorrênc
 Preenchimento dos campos cadastrais
 --------------------------------------
 
-1. Busque a solicitação de serviço (fechada) que deseja avaliar e clique no ícone ![simbolo](images/satis.img3.jpg) da mesma. Feito
+1. Busque a solicitação de serviço (fechada) que deseja avaliar e clique no ícone ![simbolo](images/simb-2dedos.jpg) da mesma. Feito
 isso, será apresentada a tela de **Pesquisa de Satisfação**, conforme ilustrada na figura abaixo:
 
     ![Registro](images/satis.img3.jpg)
@@ -65,3 +70,4 @@ isso, será apresentada a tela de **Pesquisa de Satisfação**, conforme ilustra
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
     <b>Updated:</b>08/06/2019 - Larissa Lourenço
 
+[1]:/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html
