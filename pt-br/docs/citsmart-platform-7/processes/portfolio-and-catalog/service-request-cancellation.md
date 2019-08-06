@@ -5,13 +5,13 @@ Description: Disponibiliza o cancelamento de solicitações de serviço via Smar
 Como acessar
 --------------
 
-1. Na tela inicial do **Smart Portal**, clique no botão de menu ![simbolo](images/simb-meno.white.jpg) e logo após, clique em 
-**Minhas solicitações**.
+1. Na tela inicial do **Smart Portal**, clique no botão de menu
+![Simbolo](images/simb-meno.white.jpg) e logo após, clique em **Minhas solicitações**.
 
 Pré-condições
 ----------------
 
-1. Ter a solicitação de serviço registrada (ver conhecimento [Gerenciamento de ticket (serviços)]);
+1. Ter a solicitação de serviço registrada (ver conhecimento [Gerenciamento de ticket (serviços)][1]);
 
 2. Ter permissão no fluxo de trabalho que faz vínculo com a atividade de requisição/incidente para cancelar a solicitação. Essa 
 permissão é definida no cadastro de grupo (ver conhecimento [Cadastro e pesquisa de grupo][2]);
