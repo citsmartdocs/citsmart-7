@@ -16,7 +16,7 @@ ticket (serviços)][1], seção "Preenchimento Dos Campos Cadastrais - Cadastro 
 
 2. Ter habilitado o parâmetro “**Registrar Ocorrência pelo Portal**”;
 
-3. Ter configurado o parâmetro abaixo (ver conhecimento [Regras de parametrização - Smart Portal][2]:
+3. Ter configurado o parâmetro abaixo (ver conhecimento [Regras de parametrização - Smart Portal][2]):
 
     - Parâmetro 253.
     
