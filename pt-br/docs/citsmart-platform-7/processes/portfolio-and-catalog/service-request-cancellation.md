@@ -31,9 +31,9 @@ a localização dos itens desejados:
     - Ordenar por;
     - Ordem.
     
-![Pesquisa](images/canc.img1.jpg)
+    ![Pesquisa](images/canc.img1.jpg)
     
-**Figura 1 - Tela de pesquisa de solicitação**
+    **Figura 1 - Tela de pesquisa de solicitação**
     
 Listagem de itens
 ---------------------
@@ -45,9 +45,9 @@ do SLA** e **Prioridade**.
 2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: *Registar opinião, Reabrir 
 solicitação, Pesquisa de satisfação, Descrição, Anexos, Ocorrências, Registrar Ocorrência, Cancelar Solicitação* e *Mensagem*.
 
-![Listagem](images/canc.img2.jpg)
+    ![Listagem](images/canc.img2.jpg)
 
-**Figura 2 - Tela de listagem de solicitação**
+    **Figura 2 - Tela de listagem de solicitação**
 
 Preenchimento dos campos cadastrais
 ------------------------------------- 
