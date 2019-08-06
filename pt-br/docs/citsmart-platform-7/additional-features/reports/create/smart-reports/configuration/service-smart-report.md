@@ -15,7 +15,7 @@ Este relatório se propõe a informar a relação de atividades e seus tempos de
 Anexos
 --------
 
-[Download - RelSolAndamento][1]
+[Download-RelSolAndamento][1]
 [Download - RelSolAndamentoAtendente][2]
 [Download - RequisicoesIncidentesporSituacao][3]
 [Download - TempodeAtendimentoporPeriodo][4]
