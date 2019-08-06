@@ -177,7 +177,7 @@ Público-alvo da solução e principais benefícios
         - Web Service
 - **Recursos da solução em destaque**:
     - **Smart Reports** - [introdução][41] e [documentação][66]
-    - **Smart Decision** - [introdução][42] e documentação
+    - **Smart Decision** - [introdução][42] e [documentação][67]
     - **Chat** - [introdução][43]
     - **Smart Button** - [introdução][44]
     - Neuro - recurso construtor e executor de fluxos incorporado na solução ITSM para potencializar a gestão de fluxos
@@ -289,3 +289,4 @@ Veja também
 [64]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/all-documentation.html
 [65]:/pt-br/citsmart-platform-7/get-started/system-documentation.html
 [66]:/pt-br/citsmart-platform-7/additional-features/reports/create/smart-reports/configuration/all-documentation.html
+[67]:
