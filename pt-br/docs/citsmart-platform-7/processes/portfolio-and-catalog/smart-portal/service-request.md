@@ -26,7 +26,7 @@ definida no cadastro de grupo (ver conhecimento Cadastro e pesquisa de grupo ) ;
 disponibilizados no Smart Portal, caso o parâmetro “**Habilita permissão de acesso para grupos de usuário no portal**” esteja
 habilitado;
 
-6. Ter configurado o parâmetro "*Identifica o id de origem do chamado padrão da solicitação de serviço*" com o número de identificação
+6. Ter configurado o parâmetro "**Identifica o id de origem do chamado padrão da solicitação de serviço**" com o número de identificação
 da origem;
 
 7. Ter a unidade (a qual o usuário logado está relacionado) vinculada ao contrato relacionado à atividade de requisição/incidente do
