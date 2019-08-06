@@ -2,7 +2,7 @@ title: Manual de confirguraçãodo servidor CITSmart ENterprise ITSM para uso de
 
 Description:Este documento tem o propósito de fornecer orientações necessárias para configurar o servidor para o uso adequado do CITSmart ITSM Enterprise na plataforma iOS e Android.
 
-# Manual de confirguraçãodo servidor CITSmart Enterprise ITSM para uso de APPs (iOS e Android)
+# Manual de confirguração do servidor CITSmart Enterprise ITSM para uso de APPs (iOS e Android)
 
 Este documento tem o propósito de fornecer orientações necessárias para
 configurar o servidor para o uso adequado do CITSmart ITSM Enterprise na
