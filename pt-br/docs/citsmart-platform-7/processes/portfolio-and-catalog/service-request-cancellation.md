@@ -5,8 +5,8 @@ Description: Disponibiliza o cancelamento de solicitações de serviço via Smar
 Como acessar
 --------------
 
-1. Na tela inicial do **Smart Portal**, clique no botão de menu ![simbolo](images/simb-meno.white.jpg) e logo após, clique em **Minhas
-solicitações**.
+1. Na tela inicial do **Smart Portal**, clique no botão de menu ![simbolo](images/simb-meno.white.jpg) e logo após, clique em 
+**Minhas solicitações**.
 
 Pré-condições
 ----------------
