@@ -11,7 +11,7 @@ solicitações**. Após isso, serão exibidas as solicitações de serviço;
 Pré-condições
 ---------------
 
-1. A solicitação de serviço deverá estar com a situação “fechada” (ver conhecimento [Gerenciamento de ticket (serviços)][1]
+1. A solicitação de serviço deverá estar com a situação “fechada” (ver conhecimento [Gerenciamento de ticket (serviços)][1], seção "Preenchimento Dos Campos Cadastrais - Cadastro De Ticket").
 
 Filtros
 ----------
