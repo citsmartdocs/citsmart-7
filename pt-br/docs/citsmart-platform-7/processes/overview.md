@@ -289,4 +289,4 @@ Veja também
 [64]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/all-documentation.html
 [65]:/pt-br/citsmart-platform-7/get-started/system-documentation.html
 [66]:/pt-br/citsmart-platform-7/additional-features/reports/create/smart-reports/configuration/all-documentation.html
-[67]:
+[67]:/pt-br/citsmart-platform-7/additional-features/reports/create/dashboard/use/smart-decision-documentation.html
