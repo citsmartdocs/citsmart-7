@@ -63,6 +63,8 @@ conforme exemplo ilustrado na figura abaixo:
     
     !!! info "IMPORTANTE"
     
+        Somente são exibidas as últimas 10 ocorrências da solicitação.
+    
 2. Para verificar os detalhes da ocorrência, clique no ícone ![simbolo](images/simb-mais.green.jpg).
 
 
