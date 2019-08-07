@@ -36,7 +36,7 @@ sua necessidade;
 Vinculando o template de solicitação de serviço ao formulário CITSmart Neuro
 -------------------------------------------------------------------------------
 
-1. Acesse a funcionalidade através do menu Sistema → Template de Solicitação de Serviço;
+1. Acesse a funcionalidade através do menu **Sistema → Template de Solicitação de Serviço**;
 
 2. Crie um novo template, preenchendo os campos abaixo (ver conhecimento 
 Cadastro e pesquisa de template de solicitação de serviço);
