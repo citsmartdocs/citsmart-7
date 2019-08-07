@@ -85,6 +85,11 @@ Veja também
 - [Cancelamento de Solicitação de Serviço via Smart Portal][5];
 
 - [Reabertura de Solicitação de Serviço via Smart Portal][6].
+
+!!! tip "About"
+
+    <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
+    <b>Updated:</b>08/07/2019 - Larissa Lourenço
     
 [1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/smart-portal/service-request.html
 [2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/smart-portal/opinion.html
