@@ -91,6 +91,7 @@ Neuro.
 
 A sintaxe para incorporação da diretiva ao HTML é a seguinte:
 
+
 <itsm-tasks sql-name="identificação do SQL do objeto de negócio" object-map="objeto JSON com parâmetros para execução do SQL"></itsm-tasks>
 
 A diretiva utiliza o recurso de página HTML itsm-tasks para exibição dos dados:
@@ -219,20 +220,31 @@ possível visualizar facilmente o conteúdo)
     Vale ressaltar que, como o objeto de negócio Neuro vw_itsm_tasks é implementado por View, a sintaxe da DDL varia de acordo com
     cada gerenciador de banco de dados. Por isso, há anexos de pacotes para cada tipo de banco de dados.
     
-![Posgres](images/package_itsm_tasks_postgres.json)
+[Posgres][1]
 
-![Sqlserver](images/package_itsm_tasks_sqlserver.json)
+[Sqlserver][2]
 
-![Directive](images/itsm-tasks-directive.js)
+![Directive][3]
 
-![Tasks](images/itsm-tasks.html)
+![Tasks][4]
 
-![Oracle](images/package_itsm_tasks_oracle.json)
+![Oracle][5]
 
-![Css](images/itsm-tasks.css)
+![Css][6]
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
     <b>Updated:</b>08/07/2019 - Larissa Lourenço
 
+[1]:pt-br/citsmart-platform-7/additional-features/reports/create/dashboard/configuration/images/package_itsm_tasks_postgres.json
+
+[2]:pt-br/citsmart-platform-7/additional-features/reports/create/dashboard/configuration/images/package_itsm_tasks_sqlserver.json
+
+[3]:pt-br/citsmart-platform-7/additional-features/reports/create/dashboard/configuration/images/itsm-tasks-directive.js
+
+[4]:pt-br/citsmart-platform-7/additional-features/reports/create/dashboard/configuration/images/itsm-tasks.html
+
+[5]:pt-br/citsmart-platform-7/additional-features/reports/create/dashboard/configuration/images/package_itsm_tasks_oracle.json
+
+[6]:pt-br/citsmart-platform-7/additional-features/reports/create/dashboard/configuration/images/itsm-tasks.css
