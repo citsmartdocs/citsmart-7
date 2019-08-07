@@ -56,7 +56,7 @@ Público-alvo da solução e principais benefícios
     - Entenda como navegar nas telas da solução: [Navegabilidade][16]
     - Conheça os três ambientes operacionais na solução, cada um com sua finalidade e características:
         - [Sistema][17] 
-        - Smart Portal (Portal de Serviços) - [introdução][18] e documentação
+        - Smart Portal (Portal de Serviços) - [introdução][18] e [documentação][68]
         - [Portal do Conhecimento][19]
     - Cabe ao Administrador da solução realizar a configuração de permissão de acesso a cada opção do menu principal do sistema 
     para determinados usuários.
@@ -180,7 +180,7 @@ Público-alvo da solução e principais benefícios
     - **Smart Decision** - [introdução][42] e [documentação][67]
     - **Chat** - [introdução][43]
     - **Smart Button** - [introdução][44]
-    - Neuro - recurso construtor e executor de fluxos incorporado na solução ITSM para potencializar a gestão de fluxos
+    - **Neuro** - recurso construtor e executor de fluxos incorporado na solução ITSM para potencializar a gestão de fluxos
     de negócio
     
 
@@ -290,3 +290,4 @@ Veja também
 [65]:/pt-br/citsmart-platform-7/get-started/system-documentation.html
 [66]:/pt-br/citsmart-platform-7/additional-features/reports/create/smart-reports/configuration/all-documentation.html
 [67]:/pt-br/citsmart-platform-7/additional-features/reports/create/dashboard/use/smart-decision-documentation.html
+[68]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/smart-portal/all-documentation.html
