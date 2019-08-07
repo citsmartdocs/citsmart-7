@@ -19,24 +19,24 @@ Modo de usar
 
 A tela abaixo exibe um exemplo com o painel “**Chamados abertos para os meus grupos**”:
 
-    ![Chamados](images/dashboard.img1.jpg)
+![Chamados](images/dashboard.img1.jpg)
     
-    **Figura 1 - Tela de chamados**
+**Figura 1 - Tela de chamados**
     
 Um duplo clique numa das linhas faz exibir a tela da solicitação e permite que o usuário execute a tarefa (caso tenha permissão):
 
-    ![Exemplo](images/dashboard.img2.jpg)
+![Exemplo](images/dashboard.img2.jpg)
     
-    **Figura 2 - Tela de exemplo de chamados**
+**Figura 2 - Tela de exemplo de chamados**
     
 Componentes Neuro
 -------------------
 
 O pacote neuro **itsm_tasks** contém todos os componentes necessários à criação de painéis no CITSmart Enterprise ITSM:
 
-    ![Neuro](images/dashboard.img3.jpg)
+![Neuro](images/dashboard.img3.jpg)
     
-    **Figura 3 - Tela de componentes Neuro**
+**Figura 3 - Tela de componentes Neuro**
     
 O pacote é composto dos seguintes elementos:
 
@@ -58,24 +58,24 @@ Objeto de negócio
 O objeto de negócio **vw_itsm_tasks**, do tipo VIEW, reúne todos os atributos necessários à exibição das linhas de tarefas nos 
 painéis.
 
-    ![DDL](images/dashboard.img4.jpg)
+![DDL](images/dashboard.img4.jpg)
     
-    **Figura 4 - Tela de DDL**
+**Figura 4 - Tela de DDL**
     
 Conforme será explicado, cada SQL do objeto de negócio pode ser associado a um painel através da diretiva **itsm-taks**:
 
-    ![SQL](images/dashboard.img5.jpg)
+![SQL](images/dashboard.img5.jpg)
     
-    **Figura 5 - Tela de SQL**
+**Figura 5 - Tela de SQL**
     
 O objeto de negócio do pacote **itsm-tasks** já vem configurado com três SQLs. Porém, conforme a necessidade, esses SQLs podem ser
 customizados ou outros SQLs podem ser criados.
 
 As colunas do **relatório CSV** exportado no painel são as mesmas colunas configuradas na aba **Formulário** do objeto de negócio:
 
-    ![Grid](images/dashboard.img6.jpg)
+![Grid](images/dashboard.img6.jpg)
     
-    **Figura 6 - Tela de campos da grid**
+**Figura 6 - Tela de campos da grid**
     
 Recursos CSS
 --------------
@@ -96,9 +96,9 @@ itsm-tasks>*
 
 A diretiva utiliza o recurso de página HTML itsm-tasks para exibição dos dados:
 
-    ![Listagem](images/dashboard.img7.jpg)
+![Listagem](images/dashboard.img7.jpg)
     
-    **Figura 7 - Tela de listagem de solicitação**
+**Figura 7 - Tela de listagem de solicitação**
     
 Além de possibilitar a exibição e execução das tarefas, a diretiva permite:
 
@@ -137,17 +137,17 @@ Esta orientação é destinada a Consultores ou usuários CITSmart que dominem o
 
 O componente **Requisição/Incidente** pode ser acessado na aba **Tarefas** do desenho do fluxo:
 
-    ![Tarefas](images/dashboard.img10.jpg)
+![Tarefas](images/dashboard.img10.jpg)
     
-    **Figura 10 - Tela de tarefas**
+**Figura 10 - Tela de tarefas**
     
 Ele permite a criação de tickets ou incidentes relacionados ou não ao ticket do fluxo que está sendo executado.
 
 Segue um exemplo de fluxo que utiliza o componente:
 
-    ![Exemplo](images/dashboard.img11.jpg)
+![Exemplo](images/dashboard.img11.jpg)
     
-    **Figura 11 - Exemplo de fluxo**
+**Figura 11 - Exemplo de fluxo**
     
 No exemplo anterior, a execução dos componentes **Pedidos de Compra e Análise do Projeto** é disparada paralelamente após a execução
 da tarefa **Criar WBS**.
@@ -162,9 +162,9 @@ Detalhando as propriedades do componente
 
 A figura seguinte exibe as propriedades do componente:
 
-    ![Propriedades](images/dashboard.img12.jpg)
+![Propriedades](images/dashboard.img12.jpg)
     
-    **Figura 12 - Tela de propriedades do componente**
+**Figura 12 - Tela de propriedades do componente**
     
 Segue a descrição de cada propriedade:
 
@@ -236,92 +236,4 @@ possível visualizar facilmente o conteúdo)
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
     <b>Updated:</b>08/07/2019 - Larissa Lourenço
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
