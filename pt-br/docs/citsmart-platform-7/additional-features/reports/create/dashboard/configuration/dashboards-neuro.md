@@ -91,8 +91,7 @@ Neuro.
 
 A sintaxe para incorporação da diretiva ao HTML é a seguinte:
 
-*<itsm-tasks sql-name="identificação do SQL do objeto de negócio" object-map="objeto JSON com parâmetros para execução do SQL"></
-itsm-tasks>*
+*<itsm-tasks sql-name="identificação do SQL do objeto de negócio" object-map="objeto JSON com parâmetros para execução do SQL"></itsm-tasks>*
 
 A diretiva utiliza o recurso de página HTML itsm-tasks para exibição dos dados:
 
