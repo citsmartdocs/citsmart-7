@@ -79,7 +79,7 @@ produto-idioma há um conjunto de atributos possíveis de alteração:
 1. Pasta (fora da pasta indicada ao produto não será visualizado nada que estiver em outras pastas)
 2. Ícone
 
-![Configuração](images/conf-guia.img3.jpg)
+![Configuração](images/conf-g.img1.jpg)
 
 **Figura 3 - Tela de configuração do guia do usuário**
 
