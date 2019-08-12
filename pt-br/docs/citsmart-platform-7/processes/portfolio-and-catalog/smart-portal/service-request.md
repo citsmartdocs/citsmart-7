@@ -11,16 +11,15 @@ de serviços (Negócio ou Apoio) e selecione o catálogo de serviços desejado.
 Pré-condições
 ------------------
 
-1. Ter o contrato cadastrado (ver conhecimento Cadastro e pesquisa de contrato );
+1. Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de contrato][1]);
 
 2. Ter o portfólio com os serviços e as atividades de requisição/incidente cadastrados e disponibilizados no Smart Portal (ver 
-conhecimento Cadastro de portfólio de serviços, Cadastro de serviços e Cadastro da atividade de serviço );
+conhecimento [Cadastro de portfólio de serviços][2], [Cadastro de serviços][3] e [Cadastro da atividade de serviço][4]);
 
-3. Ter o tempo de atendimento das atividades de requisição/incidente definido (ver conhecimento Cadastro e pesquisa de tempo de 
-atendimento );
+3. Ter o tempo de atendimento das atividades de requisição/incidente definido (ver conhecimento [Cadastro e pesquisa de tempo de 
+atendimento][5]);
 
-4. Ter permissão no fluxo de trabalho que faz vínculo com a atividade de requisição/incidente para criar solicitação. Essa permissão é
-definida no cadastro de grupo (ver conhecimento Cadastro e pesquisa de grupo ) ;
+4. Ter permissão no fluxo de trabalho que faz vínculo com a atividade de requisição/incidente para criar solicitação. Essa permissão é definida no cadastro de grupo (ver conhecimento [Cadastro e pesquisa de grupo][6]) ;
 
 5. Ser membro do grupo que tem permissão de acesso ao portfólio, serviços e atividades de requisição/incidente que estão 
 disponibilizados no Smart Portal, caso o parâmetro “**Habilita permissão de acesso para grupos de usuário no portal**” esteja
@@ -29,13 +28,13 @@ habilitado;
 6. Ter configurado o parâmetro "**Identifica o id de origem do chamado padrão da solicitação de serviço**" com o número de identificação
 da origem;
 
-7. Ter a unidade (a qual o usuário logado está relacionado) vinculada ao contrato relacionado à atividade de requisição/incidente do
-serviço, caso o parâmetro "**Vincula contratos a unidade**" esteja habilitado (ver conhecimento Como relacionar unidade ao contrato? );
+7. Ter a unidade (a qual o usuário logado está relacionado) vinculada ao contrato relacionado à atividade de requisição/incidente do serviço, caso o parâmetro "**Vincula contratos a unidade**" esteja habilitado (ver conhecimento 
+[Como relacionar unidade ao contrato?][7]);
 
-8. Ser membro do grupo que faz vínculo ao contrato relacionado à atividade de requisição/incidente do serviço, caso o parâmetro “Faz o
-controle de vínculo de colaboradores aos contratos" esteja habilitado (ver conhecimento Como relacionar grupo ao contrato? );
+8. Ser membro do grupo que faz vínculo ao contrato relacionado à atividade de requisição/incidente do serviço, caso o parâmetro “Faz o controle de vínculo de colaboradores aos contratos" esteja habilitado (ver conhecimento 
+[Como relacionar grupo ao contrato?][8]);
 
-9. Ter parametrizado a prioridade e data limite da solicitação (ver conhecimento Cadastro da atividade de serviço).
+9. Ter parametrizado a prioridade e data limite da solicitação (ver conhecimento [Cadastro da atividade de serviço][9]).
 
 Filtros
 ----------
@@ -111,4 +110,22 @@ como seu número, prioridade e data limite , conforme a figura abaixo:
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
     <b>Updated:</b>08/06/2019 - Larissa Lourenço
+    
+[1]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+
+[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+
+[3]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/services.html
+
+[4]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/activity.html
+
+[5]:/pt-br/citsmart-platform-7/processes/service-level/time-attendance.html
+
+[6]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
+
+[7]:/pt-br/citsmart-platform-7/processes/tickets/relate-unit.html
+
+[8]:/pt-br/citsmart-platform-7/processes/tickets/relate-group.html
+
+[9]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/activity.html
         
