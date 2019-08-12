@@ -913,11 +913,11 @@ Suspensão e reativação de múltiplos tickets
 
 ### Pré-condições
 
-1.	Ter permissão para realizar a suspensão e reativação de múltiplos tickets (ver conhecimento Cadastro e pesquisa de grupo);
-2.	Ter o contrato cadastrado (ver conhecimento Cadastro e pesquisa de contrato);
-3.	Ter o colaborador cadastrado (ver conhecimento Cadastro e pesquisa de colaborador);
-4.	Ter o grupo cadastrado (ver conhecimento Cadastro e pesquisa de grupo);
-5.	Ter a justificativa de ticket cadastrada (ver conhecimento Cadastro e pesquisa de justificativa de solicitação).
+1.	Ter permissão para realizar a suspensão e reativação de múltiplos tickets (ver conhecimento [Cadastro e pesquisa de grupo](3));
+2.	Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de contrato](5));
+3.	Ter o colaborador cadastrado (ver conhecimento [Cadastro e pesquisa de colaborador](4));
+4.	Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de grupo](3));
+5.	Ter a justificativa de ticket cadastrada (ver conhecimento [Cadastro e pesquisa de justificativa de solicitação](28)).
 
 ### Suspendendo múltiplos tickets
 
