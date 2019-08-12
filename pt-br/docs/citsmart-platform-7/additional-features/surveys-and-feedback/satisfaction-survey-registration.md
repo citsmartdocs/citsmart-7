@@ -9,7 +9,7 @@ O formulário da pesquisa é construído na forma de um questionário.
 Como acessar
 ---------------
 
-1. Acesse a funcionalidade: Cadastros Gerais → Cadastro de Pesquisas.
+1. Acesse a funcionalidade: **Cadastros Gerais > Cadastro de Pesquisas**.
 
 Pré-condições
 ----------------
