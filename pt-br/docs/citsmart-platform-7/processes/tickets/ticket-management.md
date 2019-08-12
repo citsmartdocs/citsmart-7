@@ -35,7 +35,7 @@ A tela abaixo mostra a principal tela do módulo tickets:
 
 -	**13**: Por atendente: filtra o modo de exibição de ticket por atendente no modo kanban;
 
--	**14**: Por situação: filtra o modo de exibição de ticket por situação SLA. Para esta opção ficar visível é necessário habilitar a permissão de acesso para o usuário logado, marque o item "Gestão de Equipe" (ver conhecimento Permissão de acesso do gerenciamento de tickets);
+-	**14**: Por situação: filtra o modo de exibição de ticket por situação SLA. Para esta opção ficar visível é necessário habilitar a permissão de acesso para o usuário logado, marque o item "Gestão de Equipe" (ver conhecimento Permissão de acesso do gerenciamento de tickets [/pt-br/citsmart-platform-7/processes/tickets/permission.html]);
 
 -	**15**: Por status do fluxo: filtra o modo de exibição de ticket por status do fluxo;
 
