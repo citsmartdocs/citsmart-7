@@ -7,24 +7,24 @@ O Gerenciamento de Continuidade foca em recuperar os serviços de TI e seus comp
 Pré-condições
 --------------
 
-1. Cadastrar categoria de ameaça (ver conhecimento Cadastro e pesquisa de categoria de ameaça);
+1. Cadastrar categoria de ameaça (ver conhecimento [Cadastro e pesquisa de categoria de ameaça][1]);
 
-2. Cadastrar ameaça (ver conhecimento Cadastro e pesquisa de ameaça);
+2. Cadastrar ameaça (ver conhecimento [Cadastro e pesquisa de ameaça][2]);
 
 3. Vincular a categoria de ameaça a ameaça cadastrada;
 
-4. Cadastrar categoria de risco (ver conhecimento Cadastro e pesquisa de categoria de risco);
+4. Cadastrar categoria de risco (ver conhecimento [Cadastro e pesquisa de categoria de risco][3]);
 
-5. Cadastrar risco (ver conhecimento Cadastro e pesquisa de risco de continuidade);
+5. Cadastrar risco (ver conhecimento [Cadastro e pesquisa de risco de continuidade][4]);
 
-6. Cadastrar cliente (ver conhecimento Cadastro e pesquisa de cliente);
+6. Cadastrar cliente (ver conhecimento [Cadastro e pesquisa de cliente][5]);
 
-7. Cadastrar colaborador (ver conhecimento Cadastro e pesquisa de colaborador);
+7. Cadastrar colaborador (ver conhecimento [Cadastro e pesquisa de colaborador][6]);
 
 8. Cadastrar ações automáticas de Incidente, Requisição e Procedimentos referente ao Gerenciamento de Eventos (ver conhecimento
-Cadastro e pesquisa de ações automáticas);
+[Cadastro e pesquisa de ações automáticas][7]);
 
-9. Cadastrar na base de conhecimento documento do tipo Medida de Recuperação (ver conhecimento Gerenciamento de conhecimento).
+9. Cadastrar na base de conhecimento documento do tipo Medida de Recuperação (ver conhecimento [Gerenciamento de conhecimento][8]).
 
 Como acessar
 ---------------
@@ -842,3 +842,19 @@ vínculo do serviço de procedimento com contrato. A figura abaixo ilustra o des
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
     <b>Updated:</b>07/17/2019 – Larissa Lourenço
+    
+[1]:/pt-br/citsmart-platform-7/processes/continuity/threat-category.html
+
+[2]:/pt-br/citsmart-platform-7/processes/continuity/threat-registration.html
+
+[3]:/pt-br/citsmart-platform-7/processes/continuity/risk-category.html
+
+[4]:/pt-br/citsmart-platform-7/processes/continuity/continuity-risk.html
+
+[5]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/client.html
+
+[6]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html
+
+[7]:/pt-br/citsmart-platform-7/plataform-administration/configuring-automatic-actions/automatic-actions.html
+
+[8]:/pt-br/citsmart-platform-7/processes/knowledge/management.html
