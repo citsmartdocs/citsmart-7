@@ -1,7 +1,7 @@
 title: Como relaciona unidade ao contrato?
 Description: Como relaciona unidade ao contrato
 
-# Como relaciona unidade ao contrato?
+# Como relacionar unidade ao contrato?
 
 Para relacionar unidade ao contrato, proceda conforme as orientações abaixo:
 
