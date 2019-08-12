@@ -14,7 +14,7 @@ Como acessar
 Pré-condições
 ---------------
 
-1. Cadastrar um questionário (ver conhecimento Cadastro e pesquisa de categoria de questionários).
+1. Cadastrar um questionário (ver conhecimento [Cadastro e pesquisa de categoria de questionários](/pt-br/citsmart-platform-7/plataform-administration/questionnaires/questionnaires-management/questionnaire-category.html)).
 
 Filtros
 ---------
