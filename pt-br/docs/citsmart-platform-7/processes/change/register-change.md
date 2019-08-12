@@ -33,9 +33,9 @@ Pré-condições
    
 7. Ter o grupo vinculado ao contrato, associando os Solicitantes (colaboradores) já cadastrados a este grupo. 
 Caso seja preciso criar um novo colaborador, é necessário incluí-lo ao Grupo de Solicitante no qual esteja 
-relacionado ao contrato (ver conhecimento Como relacionar grupo ao contrato?);
+relacionado ao contrato (ver conhecimento [Como relacionar grupo ao contrato?](/pt-br/citsmart-platform-7/processes/tickets/relate-group.html));
 
-8. Ter a unidade vinculada ao contrato (ver conhecimento Como relacionar unidade ao contrato?)
+8. Ter a unidade vinculada ao contrato (ver conhecimento [Como relacionar unidade ao contrato?](/pt-br/citsmart-platform-7/processes/tickets/relate-unit.html))
 
 9. Ter a mudança cadastrada
 
