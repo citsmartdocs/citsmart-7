@@ -11,7 +11,7 @@ Como acessar
 Pré-condições
 --------------
 
-1. Cadastrar ação automática de incidente/requisição/procedimento (ver conhecimento Cadastro e pesquisa de ações automáticas, 
+1. Cadastrar ação automática de incidente/requisição/procedimento (ver conhecimento [Cadastro e pesquisa de ações automáticas][1], 
 seção "Ações Automáticas - Incidentes/Requisições/Procedimentos").
 
 Filtros
@@ -84,3 +84,5 @@ automaticamente para uma futura auditoria.
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
     <b>Updated:</b>07/19/2019 – Larissa Lourenço
+    
+[1]:/pt-br/citsmart-platform-7/plataform-administration/configuring-automatic-actions/automatic-actions.html
