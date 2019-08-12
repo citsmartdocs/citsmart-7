@@ -14,7 +14,7 @@ Description: Disponibiliza todos os conhecimentos do processo.
 
 [Cadastro e pesquisa de template de incidentes, requisições e procedimentos](/pt-br/citsmart-platform-7/processes/tickets/template-incident.html)
 
-[Gerenciamento de ticket (serviços](/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html)
+[Gerenciamento de ticket (serviços)](/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html)
 
 [Passos para abertura automática de solicitação de serviço via e-mail](/pt-br/citsmart-platform-7/processes/tickets/open-ticket-email.html)
 
