@@ -1319,14 +1319,14 @@ Impressão do ticket
 Quadro Kanban
 -------------
 
-Esta opção tem por objetivo auxiliar gestores no acompanhamento detalhado de suas filas de atendimento de tickets, fazendo uso da técnica de gestão chamada de Kanban. Segundo o site Significados, Kanban é a utilização de cartões (post-it e outros) para indicar o andamento dos fluxos de produção em empresas de fabricação em série.
+Esta opção tem por objetivo auxiliar gestores no acompanhamento detalhado de suas filas de atendimento de tickets, fazendo uso da técnica de gestão chamada de Kanban. Segundo o site [Significados](31) , Kanban é a utilização de cartões (post-it e outros) para indicar o andamento dos fluxos de produção em empresas de fabricação em série.
 Nesses cartões são colocadas indicações sobre uma determinada tarefa, por exemplo, “para executar”/“em execução”/“feito”, e sempre que o fluxo avança seu posicionamento muda para a direita no quadro.
 Esta técnica faz parte da estratégia comum da administração chamada “Gestão à Vista” que prima pela transparência do avanço dos trabalhos para toda a equipe.
 
 ### Pré-condições
 
 1.	Ter ao menos um ticket registrado;
-2.	Dar permissão para o Perfil de Acesso desejado (ver conhecimento Permissão de acesso do gerenciamento de tickets).
+2.	Dar permissão para o Perfil de Acesso desejado (ver conhecimento [Permissão de acesso do gerenciamento de tickets](32).
 
 
 ### Explicando o quadro Kanban
@@ -1792,6 +1792,7 @@ Cadastro de ticket via template
 [28]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/request-justification.html
 [29]:/pt-br/citsmart-platform-7/additional-features/automation-of-operation/configuration/periodic-activity-group.html
 [30]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-system.html
+[31]:https://www.significados.com.br/kanban/
 
 
 !!! tip "About"
