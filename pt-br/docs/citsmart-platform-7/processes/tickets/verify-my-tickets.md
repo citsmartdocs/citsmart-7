@@ -20,12 +20,12 @@ Pré-condições
 -------------
 
 1.  Ter um item de configuração cadastrado (ver conhecimento [Gerenciamento de
-    itens de configuração] seção Registrando um novo item de configuração) e estar vinculado a uma
+    itens de configuração][1] seção Registrando um novo item de configuração) e estar vinculado a uma
     solicitação de serviço (ver conhecimento [Gerenciamento de ticket
-    (serviços)] seção Vinculação itens de configuração do solicitante);
+    (serviços)][2] seção Vinculação itens de configuração do solicitante);
 
 2.  Ter solicitações de serviço cadastradas (ver conhecimento [Gerenciamento de
-    ticket (serviços)] seção Cadastro de ticket).
+    ticket (serviços)][2] seção Cadastro de ticket).
 
 Filtros
 -------
@@ -74,6 +74,10 @@ Preenchimento dos campos cadastrais
 -----------------------------------
 
 1.  Não se aplica.
+
+[1]:/pt-br/citsmart-platform-7/processes/configuration/IC-management.html
+[2]:/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html
+
 
 
 !!! tip "About"
