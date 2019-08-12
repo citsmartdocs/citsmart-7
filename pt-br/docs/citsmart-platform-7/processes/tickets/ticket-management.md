@@ -35,7 +35,7 @@ A tela abaixo mostra a principal tela do módulo tickets:
 
 -	**13**: Por atendente: filtra o modo de exibição de ticket por atendente no modo kanban;
 
--	**14**: Por situação: filtra o modo de exibição de ticket por situação SLA. Para esta opção ficar visível é necessário habilitar a permissão de acesso para o usuário logado, marque o item "Gestão de Equipe" (ver conhecimento [Permissão de acesso do gerenciamento de tickets](1));
+-	**14**: Por situação: filtra o modo de exibição de ticket por situação SLA. Para esta opção ficar visível é necessário habilitar a permissão de acesso para o usuário logado, marque o item "Gestão de Equipe" (ver conhecimento [Permissão de acesso do gerenciamento de tickets]([1]);
 
 -	**15**: Por status do fluxo: filtra o modo de exibição de ticket por status do fluxo;
 
@@ -51,7 +51,7 @@ A tela abaixo mostra a principal tela do módulo tickets:
 
     !!! warning "ATENÇÃO"
 
-        A exibição destes relatórios depende da configuração (cadastro) de relatórios específicos na funcionalidade Relatórios > Relatórios Smart > Gerador de Relatórios Smart (ver conhecimento [Gerador de relatórios Smart](2))
+        A exibição destes relatórios depende da configuração (cadastro) de relatórios específicos na funcionalidade Relatórios > Relatórios Smart > Gerador de Relatórios Smart (ver conhecimento [Gerador de relatórios Smart][2])
 
 
 -	**21**: Clique para mostrar o fluxo referente ao ticket, sendo possível então observar a posição do usuário dentro do mesmo;
@@ -105,21 +105,21 @@ Cadastro de ticket
 
 ### Pré-condições
 
-1.	Ter permissão para registrar ticket (ver conhecimento [Cadastro e pesquisa de grupo](3));
-2.	Ter o colaborador cadastrado (ver conhecimento [Cadastro e pesquisa de colaborador](4));
-3.	Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de grupo](3));
-4.	Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de contrato](5));
-5.	Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de unidade](6));
+1.	Ter permissão para registrar ticket (ver conhecimento [Cadastro e pesquisa de grupo][3]);
+2.	Ter o colaborador cadastrado (ver conhecimento [Cadastro e pesquisa de colaborador][4]);
+3.	Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de grupo][3]);
+4.	Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de contrato][5]);
+5.	Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de unidade][6]);
 6.	Ter o usuário vinculado à unidade;
 7.	Ter o usuário vinculado ao grupo;
-8.	Ter o grupo vinculado ao contrato (ver conhecimento [Como relacionar grupo ao contrato?](7));
-9.	Ter a unidade vinculada ao contrato (ver conhecimento [Como relacionar unidade ao contrato?](8));
-10. Ter o portfólio com o serviço e as atividades de tickets cadastrados (ver conhecimentos [Cadastro de portfólio de serviços](9), [Cadastro de serviços](10), [Configuração dos atributos do serviço](11));
-11. Ter o tempo de atendimento das atividades de tickets definidos (ver conhecimento [Cadastro e pesquisa de tempo de atendimento](12))
-12. Ter o contrato vinculado ao serviço (ver conhecimento [Configuração dos atributos do serviço](11));
-13. Ter as atividades de tickets vinculadas ao contrato do serviço (ver conhecimento [Configuração dos atributos do contrato do serviço](13));
+8.	Ter o grupo vinculado ao contrato (ver conhecimento [Como relacionar grupo ao contrato?][7]);
+9.	Ter a unidade vinculada ao contrato (ver conhecimento [Como relacionar unidade ao contrato?][8]);
+10. Ter o portfólio com o serviço e as atividades de tickets cadastrados (ver conhecimentos [Cadastro de portfólio de serviços][9], [Cadastro de serviços][10], [Configuração dos atributos do serviço][11]);
+11. Ter o tempo de atendimento das atividades de tickets definidos (ver conhecimento [Cadastro e pesquisa de tempo de atendimento][12])
+12. Ter o contrato vinculado ao serviço (ver conhecimento [Configuração dos atributos do serviço][12]);
+13. Ter as atividades de tickets vinculadas ao contrato do serviço (ver conhecimento [Configuração dos atributos do contrato do serviço][13]);
 14. O solicitante deve estar incluído no grupo que está vinculado ao contrato para que seja possível registrar o ticket;
-15. Informe o conteúdo abaixo nos parâmetros (ver conhecimento [Regras de parametrização - tickets](14)):
+15. Informe o conteúdo abaixo nos parâmetros (ver conhecimento [Regras de parametrização - tickets][14]):
 
     - Parâmetro 9:
 
