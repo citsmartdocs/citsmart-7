@@ -18,7 +18,7 @@ Pré-condições
 -------------
 
 1.  Ter o colaborador cadastrado (ver conhecimento [Cadastro e Pesquisa de
-    Colaborador].
+    Colaborador][1].
 
 Filtros
 -------
@@ -90,6 +90,8 @@ Preenchimento dos campos cadastrais
 1.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
     onde a data, hora e usuário serão gravados automaticamente para uma futura
     auditoria.
+
+[1]:/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html
 
 
 !!! tip "About"
