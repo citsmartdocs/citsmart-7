@@ -716,7 +716,7 @@ Validação e encerramento do ticket
 
 ### Pré-condições
 
-1.	Ter permissão para validar o ticket (ver conhecimento Cadastro e pesquisa de grupo).
+1.	Ter permissão para validar o ticket (ver conhecimento [Cadastro e pesquisa de grupo](3)).
 
 ### Validando o ticket
 
@@ -735,11 +735,11 @@ Cadastro de ocorrência referente ao ticket
 
 ### Pré-condições
 
-1.	Ter permissão para executar o ticket (ver conhecimento Cadastro e pesquisa de grupo).
+1.	Ter permissão para executar o ticket (ver conhecimento [Cadastro e pesquisa de grupo](3)).
 
 ### Cadastrando ocorrência referente ao ticket
 
-1.	Será apresentada a tela de Gerenciamento de Ticket. Localize o ticket no qual irá registrar a ocorrência, clique sobre o mesmo e logo em seguida clique no ícone ![ticket](images/management-13.png) .
+1.	Será apresentada a tela de Gerenciamento de Ticket. Localize o ticket no qual irá registrar a ocorrência, clique sobre o mesmo e logo em seguida clique no ícone ![ticket](images/management-13.png).
 2.	No registro do ticket, clique no ícone ![ticket](images/management-38.png)  localizado no canto superior direito da tela. Após isso, serão exibidas as ocorrências do ticket, conforme exemplo ilustrado na figura abaixo:
 
     ![ticket](images/management-41.png)
@@ -777,7 +777,7 @@ Aprovação de ticket
 
 ### Pré-condições
 
-1.	Ter permissão para aprovar o ticket (ver conhecimento Cadastro e pesquisa de grupo).
+1.	Ter permissão para aprovar o ticket (ver conhecimento [Cadastro e pesquisa de grupo](3)).
 
 ### Aprovando o ticket
 
@@ -806,7 +806,7 @@ Cancelamento de ticket
 
 ### Pré-condições
 
-1.	Ter permissão para cancelar o ticket (ver conhecimento Cadastro e pesquisa de grupo).
+1.	Ter permissão para cancelar o ticket (ver conhecimento [Cadastro e pesquisa de grupo](3)).
 
 ### Cancelando o ticket
 
@@ -829,7 +829,7 @@ Direcionamento do ticket
 
 ### Pré-condições
 
-1.	Ter permissão para executar o ticket (ver conhecimento Cadastro e pesquisa de grupo).
+1.	Ter permissão para executar o ticket (ver conhecimento [Cadastro e pesquisa de grupo]((3)).
 
 ### Direcionando o ticket para atendimento
 
@@ -843,8 +843,8 @@ Delegação do ticket
 
 ### Pré-condições
 
-1.	Ter permissão para executar o ticket (ver conhecimento Cadastro e pesquisa de grupo);
-2.	Para que essa opção esteja visível é necessário sua configuração no fluxo vinculado (ver conhecimento Manutenção de fluxo de trabalho, seção Implementando a funcionalidade delegar no fluxo sobre a atividade).
+1.	Ter permissão para executar o ticket (ver conhecimento [Cadastro e pesquisa de grupo](3));
+2.	Para que essa opção esteja visível é necessário sua configuração no fluxo vinculado (ver conhecimento [Manutenção de fluxo de trabalho](15), seção Implementando a funcionalidade delegar no fluxo sobre a atividade).
 
 ### Delegando um ticket
 
