@@ -35,7 +35,7 @@ A tela abaixo mostra a principal tela do módulo tickets:
 
 -	**13**: Por atendente: filtra o modo de exibição de ticket por atendente no modo kanban;
 
--	**14**: Por situação: filtra o modo de exibição de ticket por situação SLA. Para esta opção ficar visível é necessário habilitar a permissão de acesso para o usuário logado, marque o item "Gestão de Equipe" (ver conhecimento [Permissão de acesso do gerenciamento de tickets]([1]);
+-	**14**: Por situação: filtra o modo de exibição de ticket por situação SLA. Para esta opção ficar visível é necessário habilitar a permissão de acesso para o usuário logado, marque o item "Gestão de Equipe" (ver conhecimento [Permissão de acesso do gerenciamento de tickets][1]);
 
 -	**15**: Por status do fluxo: filtra o modo de exibição de ticket por status do fluxo;
 
@@ -116,7 +116,7 @@ Cadastro de ticket
 9.	Ter a unidade vinculada ao contrato (ver conhecimento [Como relacionar unidade ao contrato?][8]);
 10. Ter o portfólio com o serviço e as atividades de tickets cadastrados (ver conhecimentos [Cadastro de portfólio de serviços][9], [Cadastro de serviços][10], [Configuração dos atributos do serviço][11]);
 11. Ter o tempo de atendimento das atividades de tickets definidos (ver conhecimento [Cadastro e pesquisa de tempo de atendimento][12])
-12. Ter o contrato vinculado ao serviço (ver conhecimento [Configuração dos atributos do serviço][12]);
+12. Ter o contrato vinculado ao serviço (ver conhecimento [Configuração dos atributos do serviço][11]);
 13. Ter as atividades de tickets vinculadas ao contrato do serviço (ver conhecimento [Configuração dos atributos do contrato do serviço][13]);
 14. O solicitante deve estar incluído no grupo que está vinculado ao contrato para que seja possível registrar o ticket;
 15. Informe o conteúdo abaixo nos parâmetros (ver conhecimento [Regras de parametrização - tickets][14]):
@@ -262,7 +262,7 @@ solicitação de configuração de algum equipamento, requisição para adiciona
 
     - Descrição: informe a descrição do ticket. A descrição deve ser objetiva, incluindo toda informação necessária para o atendimento do mesmo;
 
-    - Direcionar para grupo: informe o grupo para o qual será direcionado o ticket. Caso não informe o grupo, o ticket será direcionado para o grupo definido no fluxo de requisição/incidente. Se não estiver definido o grupo no fluxo, o ticket será direcionado para o grupo definido no registro do vínculo da atividade de requisição/incidente ao contrato. Mas se o grupo não estiver definido no registrodo vínculo da atividade ao contrato, o ticket será direcionado para o grupo definido no parâmetro "ID Grupo Nível 1" (para que esse campo esteja ativado é necessário configurar a funcionalidade - ver conhecimento [Manutenção de fluxo de trabalho](15), seção Implementando a funcionalidade direcionar grupo no fluxo sobre a atividade);
+    - Direcionar para grupo: informe o grupo para o qual será direcionado o ticket. Caso não informe o grupo, o ticket será direcionado para o grupo definido no fluxo de requisição/incidente. Se não estiver definido o grupo no fluxo, o ticket será direcionado para o grupo definido no registro do vínculo da atividade de requisição/incidente ao contrato. Mas se o grupo não estiver definido no registrodo vínculo da atividade ao contrato, o ticket será direcionado para o grupo definido no parâmetro "ID Grupo Nível 1" (para que esse campo esteja ativado é necessário configurar a funcionalidade - ver conhecimento [Manutenção de fluxo de trabalho][15], seção Implementando a funcionalidade direcionar grupo no fluxo sobre a atividade);
 
      - Notificações: marque as opções de envio de notificação sobre o ticket para serem enviadas ao solicitante;
 
@@ -306,7 +306,7 @@ Vinculação itens de configuração do solicitante
 
 ### Pré-condições
 
-1.	Ter ao menos um Item de Configuração cadastrado (ver conhecimento [Gerenciamento de itens de configuração][16].
+1.	Ter ao menos um Item de Configuração cadastrado (ver conhecimento [Gerenciamento de itens de configuração][16]).
 
 ### Vinculando um item de configuração do solicitante
 
@@ -606,7 +606,7 @@ Vinculando e-mails lidos
 5.	Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de unidade][6]);
 6.	Ter o grupo vinculado ao contrato (ver conhecimento [Como relacionar grupo ao contrato?][7]);
 7.	Ter a unidade vinculada ao contrato (ver conhecimento [Como relacionar unidade ao contrato?][8]);
-8.	Ter o portfólio com o serviço e as atividades de requisição e incidente cadastrados (ver conhecimentos [Cadastro de portfólio de serviços[9]], [Cadastro de serviços[10]], [Configuração dos atributos do serviço][11]);
+8.	Ter o portfólio com o serviço e as atividades de requisição e incidente cadastrados (ver conhecimentos [Cadastro de portfólio de serviços][9], [Cadastro de serviços][10], [Configuração dos atributos do serviço][11]);
 9.	Ter o tempo de atendimento das atividades de requisição e incidente definidos (ver conhecimento [Cadastro e pesquisa de tempo de atendimento][12]);
 10. Ter o contrato vinculado ao serviço (ver conhecimento [Configuração dos atributos do serviço][11]);
 11. Ter as atividades de requisição e incidente vinculadas ao contrato do serviço (ver conhecimento [Configuração dos atributos do contrato do serviço][13]);
@@ -1792,8 +1792,8 @@ Cadastro de ticket via template
 [29]:/pt-br/citsmart-platform-7/additional-features/automation-of-operation/configuration/periodic-activity-group.html
 [30]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-system.html
 [31]:https://www.significados.com.br/kanban/
-[32]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-system.html
-[33]:/pt-br/citsmart-platform-7/processes/tickets/template-incident.html
+[32]:/pt-br/citsmart-platform-7/processes/tickets/template-incident.html
+
 
 
 !!! tip "About"
