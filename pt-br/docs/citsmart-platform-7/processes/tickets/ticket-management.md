@@ -1061,7 +1061,7 @@ Criação e visualização de sub-solicitação
 
 1.	Ter permissão para registrar ticket (ver conhecimento [Cadastro e pesquisa de grupo][3]);
 2.	Ter o colaborador cadastrado (ver conhecimento [Cadastro e pesquisa de colaborador][4]);
-3.	Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de unidade][6).
+3.	Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de unidade][6]).
 
 ### Criando a sub-solicitação
 
@@ -1165,7 +1165,7 @@ Cadastro e vinculação de ticket relacionado
 6.	Ter a unidade vinculada ao contrato (ver conhecimento [Como relacionar unidade ao contrato?][8]);
 7.	Ter o portfólio com o serviço e as atividades de requisição e incidente cadastrados (ver conhecimentos [Cadastro de portfólio de serviços][9], [Cadastro de serviços][10], [Configuração dos atributos do serviço][11]);
 8.	Ter o tempo de atendimento das atividades de requisição e incidente definidos (ver conhecimento [Cadastro e pesquisa de tempo de atendimento][12]);
-9.	Ter o contrato vinculado ao serviço (ver conhecimento [Configuração dos atributos do serviço]([11])
+9.	Ter o contrato vinculado ao serviço (ver conhecimento [Configuração dos atributos do serviço][11]);
 10.	Ter as atividades de requisição e incidente vinculadas ao contrato do serviço (ver conhecimento [Configuração dos atributos do contrato do serviço][13]);
 11.	Informe o conteúdo abaixo no parâmetro (ver conhecimento [Regras de parametrização - sistema][30]):
 
@@ -1318,7 +1318,7 @@ Impressão do ticket
 Quadro Kanban
 -------------
 
-Esta opção tem por objetivo auxiliar gestores no acompanhamento detalhado de suas filas de atendimento de tickets, fazendo uso da técnica de gestão chamada de Kanban. Segundo o site [Significados](31) , Kanban é a utilização de cartões (post-it e outros) para indicar o andamento dos fluxos de produção em empresas de fabricação em série.
+Esta opção tem por objetivo auxiliar gestores no acompanhamento detalhado de suas filas de atendimento de tickets, fazendo uso da técnica de gestão chamada de Kanban. Segundo o site [Significados][31] , Kanban é a utilização de cartões (post-it e outros) para indicar o andamento dos fluxos de produção em empresas de fabricação em série.
 Nesses cartões são colocadas indicações sobre uma determinada tarefa, por exemplo, “para executar”/“em execução”/“feito”, e sempre que o fluxo avança seu posicionamento muda para a direita no quadro.
 Esta técnica faz parte da estratégia comum da administração chamada “Gestão à Vista” que prima pela transparência do avanço dos trabalhos para toda a equipe.
 
