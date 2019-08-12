@@ -984,7 +984,7 @@ Reativação de um ticket suspenso
 
 ### Pré-condições
 
-1.	Ter permissão para reativar o ticket suspenso (ver conhecimento Cadastro e pesquisa de grupo).
+1.	Ter permissão para reativar o ticket suspenso (ver conhecimento [Cadastro e pesquisa de grupo](3)).
 
 ### Reativando o ticket
 
@@ -1002,8 +1002,8 @@ Alteração do sla do ticket
 
 ### Pré-condições
 
-1.	Ter permissão para alterar o SLA do ticket (ver conhecimento Cadastro e pesquisa de grupo);
-2.	Ter a justificativa de ticket cadastrada (ver conhecimento Cadastro e pesquisa de justificativa de solicitação).
+1.	Ter permissão para alterar o SLA do ticket (ver conhecimento [Cadastro e pesquisa de grupo](3));
+2.	Ter a justificativa de ticket cadastrada (ver conhecimento [Cadastro e pesquisa de justificativa de solicitação](28)).
 
 ### Alterando o SLA
 
@@ -1060,9 +1060,9 @@ Criação e visualização de sub-solicitação
 
 ### Pré-condições
 
-1.	Ter permissão para registrar ticket (ver conhecimento Cadastro e pesquisa de grupo);
-2.	Ter o colaborador cadastrado (ver conhecimento Cadastro e pesquisa de colaborador);
-3.	Ter a unidade cadastrada (ver conhecimento Cadastro e pesquisa de unidade).
+1.	Ter permissão para registrar ticket (ver conhecimento [Cadastro e pesquisa de grupo](3));
+2.	Ter o colaborador cadastrado (ver conhecimento [Cadastro e pesquisa de colaborador](4));
+3.	Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de unidade](6)).
 
 ### Criando a sub-solicitação
 
