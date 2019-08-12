@@ -17,8 +17,8 @@ Pré-condições
 -------------
 
 1.  Ter ao menos um perfil cadastrado, um grupo cadastrado ou ambos cenários
-    (ver conhecimento [Cadastro e pesquisa de perfil de acesso], [Cadastro
-    e pesquisa de grupo].
+    (ver conhecimento [Cadastro e pesquisa de perfil de acesso][1], [Cadastro
+    e pesquisa de grupo][2].
 
 Filtros
 ------
@@ -93,3 +93,7 @@ Preenchimento dos campos cadastrais
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
     <b>Updated:</b>07/17/2019 – Anna Martins
+    
+[1]:/pt-br/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
+
+[2]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
