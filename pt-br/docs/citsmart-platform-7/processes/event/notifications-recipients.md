@@ -14,9 +14,9 @@ Como acessar
 Pré-condições
 --------------
 
-1. Cadastro de colaborador (ver conhecimento Cadastro e pesquisa de colaborador);
+1. Cadastro de colaborador (ver conhecimento [Cadastro e pesquisa de colaborador](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html));
 
-2. Cadastro de grupo (ver conhecimento Cadastro e pesquisa de grupo).
+2. Cadastro de grupo (ver conhecimento [Cadastro e pesquisa de grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html)).
 
 Filtros
 ---------
