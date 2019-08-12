@@ -13,9 +13,9 @@ Gerência de Mudança > Cadastrar Risco**.
 Pré-condições
 ---------------
 
-1. Ter a categoria de risco cadastrada (ver conhecimento Cadastro e Pesquisa de Categoria de Risco);
+1. Ter a categoria de risco cadastrada (ver conhecimento [Cadastro e Pesquisa de Categoria de Risco](/pt-br/citsmart-platform-7/processes/continuity/risk-category.html));
 
-2. Ter a ameaça cadastrada (ver conhecimento Cadastro e Pesquisa de Ameaça).
+2. Ter a ameaça cadastrada (ver conhecimento [Cadastro e Pesquisa de Ameaça](/pt-br/citsmart-platform-7/processes/continuity/threat-registration.html)).
 
 Filtros
 ---------
