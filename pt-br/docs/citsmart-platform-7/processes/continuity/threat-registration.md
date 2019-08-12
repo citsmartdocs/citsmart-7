@@ -13,7 +13,7 @@ Como acessar
 Pré-condições
 ---------------
 
-1. Cadastrar Categoria de Ameaça (ver conhecimento Cadastro e pesquisa de categoria de ameaça).
+1. Cadastrar Categoria de Ameaça (ver conhecimento [Cadastro e pesquisa de categoria de ameaça](/pt-br/citsmart-platform-7/processes/continuity/threat-category.html)).
 
 Filtros
 ---------
