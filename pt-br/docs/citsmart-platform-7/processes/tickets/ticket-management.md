@@ -233,8 +233,7 @@ Cadastro de ticket
     - Catálogo: selecione o catálogo de serviços;
 
     - Serviço: informe o serviço referente ao catálogo de serviços selecionado. Se o catálogo de serviços for "Negócio", serão 
-disponibilizados neste campo os serviços de negócio para seleção, mas se o catálogo de serviços for "Técnico", serão disponibilizados 
-neste campo os serviços de apoio/técnico para seleção;
+disponibilizados neste campo os serviços de negócio para seleção, mas se o catálogo de serviços for "Técnico", serão disponibilizados neste campo os serviços de apoio/técnico para seleção;
 
     - Tipo: selecione o tipo do ticket, se é uma abertura de incidente ou requisição de serviço;
 
@@ -307,7 +306,7 @@ Vinculação itens de configuração do solicitante
 
 ### Pré-condições
 
-1.	Ter ao menos um Item de Configuração cadastrado (ver conhecimento [Gerenciamento de itens de configuração](16).
+1.	Ter ao menos um Item de Configuração cadastrado (ver conhecimento [Gerenciamento de itens de configuração][16].
 
 ### Vinculando um item de configuração do solicitante
 
@@ -367,7 +366,7 @@ Vinculando problemas
 
 ### Pré-condições
 
-1.	Ter ao menos um problema cadastrado (ver conhecimento [Cadastro de problema](17)).
+1.	Ter ao menos um problema cadastrado (ver conhecimento [Cadastro de problema][17]).
 
 ### Filtros
 
@@ -406,7 +405,7 @@ Vinculando requisição de mudança
 
 ### Pré-condições
 
-1.	Ter ao menos uma requisição de mudança cadastrada (ver conhecimento [Cadastro de requisição de mudança](18)).
+1.	Ter ao menos uma requisição de mudança cadastrada (ver conhecimento [Cadastro de requisição de mudança][18]).
 
 ### Filtros
 
@@ -443,7 +442,7 @@ Vinculação de requisição de liberação
 
 ### Pré-condições
 
-1.	Ter ao menos uma requisição de liberação cadastrada (ver conhecimento [Cadastro e pesquisa de requisição de liberação](19)).
+1.	Ter ao menos uma requisição de liberação cadastrada (ver conhecimento [Cadastro e pesquisa de requisição de liberação][19]).
 
 ### Filtros
 
@@ -465,7 +464,7 @@ Vinculação de requisição de liberação
 
 ### Vinculação de liberação
 
-1.	Localize o ticket desejado, pressione sobre o mesmo e logo em seguida clique no ícone ![ticket](images/management-13.png)  ;
+1.	Localize o ticket desejado, pressione sobre o mesmo e logo em seguida clique no ícone ![ticket](images/management-13.png) ;
 2.	Será apresentada a tela de registro do determinado ticket. Clique no botão de menu ![ticket](images/management-11.png)  e após isso, clique no item de Liberação;
 3.	Será exibida a tela de Liberações relacionadas, clique no botão Cadastrar nova liberação e será exibida a tela de registro de requisição de liberação, conforme ilustrado na figura abaixo:
 
@@ -480,7 +479,7 @@ Vinculando item de configuração relacionado
 
 ### Pré-condições
  
-1.	Ter ao menos um Item de Configuração cadastrado (ver conhecimento [Gerenciamento de itens de configuração](20)).
+1.	Ter ao menos um Item de Configuração cadastrado (ver conhecimento [Gerenciamento de itens de configuração][20]).
 
 ### Filtros 
 
@@ -530,8 +529,8 @@ Vinculando projeto
 
 ### Pré-condições
 
-1.	Ter permissão para executar a solicitação de serviço (ver conhecimento [Cadastro e pesquisa de grupo](3));
-2.	Ter ao menos um projeto cadastrado (ver conhecimento [Cadastro e gerenciamento de projetos](21)).
+1.	Ter permissão para executar a solicitação de serviço (ver conhecimento [Cadastro e pesquisa de grupo][3]);
+2.	Ter ao menos um projeto cadastrado (ver conhecimento [Cadastro e gerenciamento de projetos][21]).
 
 ### Filtros
 
@@ -562,7 +561,7 @@ Vinculando conhecimento
 
 ### Pré-condições
 
-1.	Ter ao menos um conhecimento cadastrado (ver conhecimento [Gerenciamento de Conhecimento](22).
+1.	Ter ao menos um conhecimento cadastrado (ver conhecimento [Gerenciamento de Conhecimento][22]).
 
 ### Filtros
 
@@ -600,20 +599,20 @@ Vinculando e-mails lidos
 
 ### Pré-condições
 
-1.	Ter permissão para registrar ticket (ver conhecimento [Cadastro e pesquisa de grupo](3));
-2.	Ter o colaborador cadastrado (ver conhecimento [Cadastro e pesquisa de colaborador](4));
-3.	Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de grupo](3));
-4.	Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de contrato](23));
-5.	Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de unidade](6));
-6.	Ter o grupo vinculado ao contrato (ver conhecimento [Como relacionar grupo ao contrato?](7));
-7.	Ter a unidade vinculada ao contrato (ver conhecimento [Como relacionar unidade ao contrato?](8));
-8.	Ter o portfólio com o serviço e as atividades de requisição e incidente cadastrados (ver conhecimentos [Cadastro de portfólio de serviços(9)], [Cadastro de serviços(10)], [Configuração dos atributos do serviço](11));
-9.	Ter o tempo de atendimento das atividades de requisição e incidente definidos (ver conhecimento [Cadastro e pesquisa de tempo de atendimento](12));
-10. Ter o contrato vinculado ao serviço (ver conhecimento [Configuração dos atributos do serviço](11));
-11. Ter as atividades de requisição e incidente vinculadas ao contrato do serviço (ver conhecimento [Configuração dos atributos do contrato do serviço](13));
-12. Configure o parâmetro 9 (ver conhecimento [Regras de parametrização - ticket](24));
+1.	Ter permissão para registrar ticket (ver conhecimento [Cadastro e pesquisa de grupo][3]);
+2.	Ter o colaborador cadastrado (ver conhecimento [Cadastro e pesquisa de colaborador][4]);
+3.	Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de grupo][3]);
+4.	Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de contrato][23]);
+5.	Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de unidade][6]);
+6.	Ter o grupo vinculado ao contrato (ver conhecimento [Como relacionar grupo ao contrato?][7]);
+7.	Ter a unidade vinculada ao contrato (ver conhecimento [Como relacionar unidade ao contrato?][8]);
+8.	Ter o portfólio com o serviço e as atividades de requisição e incidente cadastrados (ver conhecimentos [Cadastro de portfólio de serviços[9]], [Cadastro de serviços[10]], [Configuração dos atributos do serviço][11]);
+9.	Ter o tempo de atendimento das atividades de requisição e incidente definidos (ver conhecimento [Cadastro e pesquisa de tempo de atendimento][12]);
+10. Ter o contrato vinculado ao serviço (ver conhecimento [Configuração dos atributos do serviço][11]);
+11. Ter as atividades de requisição e incidente vinculadas ao contrato do serviço (ver conhecimento [Configuração dos atributos do contrato do serviço][13]);
+12. Configure o parâmetro 9 (ver conhecimento [Regras de parametrização - ticket][24]);
 13. O solicitante deve estar incluído no grupo que está vinculado ao contrato para que seja possível registrar o ticket;
-14. Configure os parâmetros 23,24,25,26,27,28 e 72 (ver conhecimento [Regras de parametrização - e-mail](25)).
+14. Configure os parâmetros 23,24,25,26,27,28 e 72 (ver conhecimento [Regras de parametrização - e-mail][25]).
 
 ### Vinculação de leituras de e-mail
 
@@ -650,7 +649,7 @@ Captura de ticket
 
 ### Pré-condições
 
-1.	Ter permissão para executar o ticket (ver conhecimento [Cadastro e pesquisa de grupo](3)).
+1.	Ter permissão para executar o ticket (ver conhecimento [Cadastro e pesquisa de grupo][3]).
 
 ### Capturando ticket
 
@@ -674,9 +673,9 @@ Cadastro da execução do ticket
 
 ### Pré-condições
 
-1.	Ter permissão para executar o ticket (ver conhecimento [Cadastro e pesquisa de grupo](3));
-2.	Ter a causa de incidentes cadastrada (ver conhecimento [Cadastro e pesquisa de causa de incidentes](26));
-3.	Ter a categoria de solução cadastrada (ver conhecimento [Cadastro e pesquisa de categoria de solução](27)).
+1.	Ter permissão para executar o ticket (ver conhecimento [Cadastro e pesquisa de grupo][3]);
+2.	Ter a causa de incidentes cadastrada (ver conhecimento [Cadastro e pesquisa de causa de incidentes][26]);
+3.	Ter a categoria de solução cadastrada (ver conhecimento [Cadastro e pesquisa de categoria de solução][27]).
 
 ### Cadastrando a execução do ticket
 
@@ -716,7 +715,7 @@ Validação e encerramento do ticket
 
 ### Pré-condições
 
-1.	Ter permissão para validar o ticket (ver conhecimento [Cadastro e pesquisa de grupo](3)).
+1.	Ter permissão para validar o ticket (ver conhecimento [Cadastro e pesquisa de grupo][3]).
 
 ### Validando o ticket
 
@@ -735,7 +734,7 @@ Cadastro de ocorrência referente ao ticket
 
 ### Pré-condições
 
-1.	Ter permissão para executar o ticket (ver conhecimento [Cadastro e pesquisa de grupo](3)).
+1.	Ter permissão para executar o ticket (ver conhecimento [Cadastro e pesquisa de grupo][3]).
 
 ### Cadastrando ocorrência referente ao ticket
 
@@ -777,7 +776,7 @@ Aprovação de ticket
 
 ### Pré-condições
 
-1.	Ter permissão para aprovar o ticket (ver conhecimento [Cadastro e pesquisa de grupo](3)).
+1.	Ter permissão para aprovar o ticket (ver conhecimento [Cadastro e pesquisa de grupo][3]).
 
 ### Aprovando o ticket
 
@@ -806,7 +805,7 @@ Cancelamento de ticket
 
 ### Pré-condições
 
-1.	Ter permissão para cancelar o ticket (ver conhecimento [Cadastro e pesquisa de grupo](3)).
+1.	Ter permissão para cancelar o ticket (ver conhecimento [Cadastro e pesquisa de grupo][3]).
 
 ### Cancelando o ticket
 
@@ -829,22 +828,22 @@ Direcionamento do ticket
 
 ### Pré-condições
 
-1.	Ter permissão para executar o ticket (ver conhecimento [Cadastro e pesquisa de grupo](3)).
+1.	Ter permissão para executar o ticket (ver conhecimento [Cadastro e pesquisa de grupo][3]).
 
 ### Direcionando o ticket para atendimento
 
 1.	Será apresentada a tela de Gerenciamento de Ticket. Localize o ticket desejado, pressione sobre o mesmo e logo em seguida clique no ícone ![ticket](images/management-13.png) ;
 2.	Será exibida a tela de registro do ticket com os campos preenchidos, com o conteúdo referente ao ticket selecionado;
 3.	No campo Direcionar para grupo, selecione o grupo para o qual será direcionado o ticket para realizar o atendimento do mesmo;
-4.	Clique no botão de opções ![ticket](images/management-6.png)  e logo em seguida clique no botão ![ticket](images/management-39.png) para gravar e avançar o fluxo, onde o ticket será encaminhado para fase de atendimento. Mas, caso queira gravar somente as informações registradas sobre a validação do ticket e manter a tarefa atual, clique no botão![ticket](images/management-10.png)  .
+4.	Clique no botão de opções ![ticket](images/management-6.png)  e logo em seguida clique no botão ![ticket](images/management-39.png) para gravar e avançar o fluxo, onde o ticket será encaminhado para fase de atendimento. Mas, caso queira gravar somente as informações registradas sobre a validação do ticket e manter a tarefa atual, clique no botão![ticket](images/management-10.png) .
 
 Delegação do ticket
 -------------------
 
 ### Pré-condições
 
-1.	Ter permissão para executar o ticket (ver conhecimento [Cadastro e pesquisa de grupo](3));
-2.	Para que essa opção esteja visível é necessário sua configuração no fluxo vinculado (ver conhecimento [Manutenção de fluxo de trabalho](15), seção Implementando a funcionalidade delegar no fluxo sobre a atividade).
+1.	Ter permissão para executar o ticket (ver conhecimento [Cadastro e pesquisa de grupo][3]);
+2.	Para que essa opção esteja visível é necessário sua configuração no fluxo vinculado (ver conhecimento [Manutenção de fluxo de trabalho][15], seção Implementando a funcionalidade delegar no fluxo sobre a atividade).
 
 ### Delegando um ticket
 
@@ -879,8 +878,8 @@ Suspensão do ticket
 
 ### Pré-condições
 
-1.	Ter permissão para suspender a solicitação de serviço (ver conhecimento [Cadastro e pesquisa de grupo](3));
-2.	Ter a justificativa de suspensão de solicitação cadastrada (ver conhecimento [Cadastro e pesquisa de justificativa de solicitação](28)).
+1.	Ter permissão para suspender a solicitação de serviço (ver conhecimento [Cadastro e pesquisa de grupo][3]);
+2.	Ter a justificativa de suspensão de solicitação cadastrada (ver conhecimento [Cadastro e pesquisa de justificativa de solicitação][28]).
 
 ### Suspendendo o ticket
 
@@ -913,11 +912,11 @@ Suspensão e reativação de múltiplos tickets
 
 ### Pré-condições
 
-1.	Ter permissão para realizar a suspensão e reativação de múltiplos tickets (ver conhecimento [Cadastro e pesquisa de grupo](3));
-2.	Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de contrato](5));
-3.	Ter o colaborador cadastrado (ver conhecimento [Cadastro e pesquisa de colaborador](4));
-4.	Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de grupo](3));
-5.	Ter a justificativa de ticket cadastrada (ver conhecimento [Cadastro e pesquisa de justificativa de solicitação](28)).
+1.	Ter permissão para realizar a suspensão e reativação de múltiplos tickets (ver conhecimento [Cadastro e pesquisa de grupo][3]);
+2.	Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de contrato][5]);
+3.	Ter o colaborador cadastrado (ver conhecimento [Cadastro e pesquisa de colaborador][4]);
+4.	Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de grupo][3]);
+5.	Ter a justificativa de ticket cadastrada (ver conhecimento [Cadastro e pesquisa de justificativa de solicitação][28]).
 
 ### Suspendendo múltiplos tickets
 
@@ -984,7 +983,7 @@ Reativação de um ticket suspenso
 
 ### Pré-condições
 
-1.	Ter permissão para reativar o ticket suspenso (ver conhecimento [Cadastro e pesquisa de grupo](3)).
+1.	Ter permissão para reativar o ticket suspenso (ver conhecimento [Cadastro e pesquisa de grupo][3]).
 
 ### Reativando o ticket
 
@@ -1002,8 +1001,8 @@ Alteração do sla do ticket
 
 ### Pré-condições
 
-1.	Ter permissão para alterar o SLA do ticket (ver conhecimento [Cadastro e pesquisa de grupo](3));
-2.	Ter a justificativa de ticket cadastrada (ver conhecimento [Cadastro e pesquisa de justificativa de solicitação](28)).
+1.	Ter permissão para alterar o SLA do ticket (ver conhecimento [Cadastro e pesquisa de grupo][3]);
+2.	Ter a justificativa de ticket cadastrada (ver conhecimento [Cadastro e pesquisa de justificativa de solicitação][28]).
 
 ### Alterando o SLA
 
@@ -1060,9 +1059,9 @@ Criação e visualização de sub-solicitação
 
 ### Pré-condições
 
-1.	Ter permissão para registrar ticket (ver conhecimento [Cadastro e pesquisa de grupo](3));
-2.	Ter o colaborador cadastrado (ver conhecimento [Cadastro e pesquisa de colaborador](4));
-3.	Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de unidade](6)).
+1.	Ter permissão para registrar ticket (ver conhecimento [Cadastro e pesquisa de grupo][3]);
+2.	Ter o colaborador cadastrado (ver conhecimento [Cadastro e pesquisa de colaborador][4]);
+3.	Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de unidade][6).
 
 ### Criando a sub-solicitação
 
@@ -1121,7 +1120,7 @@ Agendamento de atividade de ticket
 
 ### Pré-condições
 
-1.	Ter os grupos de atividade periódica cadastrados para agendamento das atividades do ticket (ver conhecimento [Cadastro e pesquisa de grupo de atividade periódica](29)).
+1.	Ter os grupos de atividade periódica cadastrados para agendamento das atividades do ticket (ver conhecimento [Cadastro e pesquisa de grupo de atividade periódica][29]).
 
 ### Agendando atividade
 
@@ -1158,17 +1157,17 @@ Cadastro e vinculação de ticket relacionado
 
 ### Pré-condições
 
-1.	Ter permissão para registrar ticket (ver conhecimento [Cadastro e pesquisa de grupo](3));
-2.	Ter o colaborador cadastrado (ver conhecimento [Cadastro e pesquisa de colaborador](4));
-3.	Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de contrato](5));
-4.	Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de unidade](6));
-5.	Ter o grupo vinculado ao contrato (ver conhecimento [Como relacionar grupo ao contrato?](7));
-6.	Ter a unidade vinculada ao contrato (ver conhecimento [Como relacionar unidade ao contrato?](8));
-7.	Ter o portfólio com o serviço e as atividades de requisição e incidente cadastrados (ver conhecimentos [Cadastro de portfólio de serviços](9), [Cadastro de serviços](10), [Configuração dos atributos do serviço](11));
-8.	Ter o tempo de atendimento das atividades de requisição e incidente definidos (ver conhecimento [Cadastro e pesquisa de tempo de atendimento](12));
-9.	Ter o contrato vinculado ao serviço (ver conhecimento [Configuração dos atributos do serviço](11))
-10.	Ter as atividades de requisição e incidente vinculadas ao contrato do serviço (ver conhecimento [Configuração dos atributos do contrato do serviço](13));
-11.	Informe o conteúdo abaixo no parâmetro (ver conhecimento [Regras de parametrização - sistema](30)):
+1.	Ter permissão para registrar ticket (ver conhecimento [Cadastro e pesquisa de grupo][3]);
+2.	Ter o colaborador cadastrado (ver conhecimento [Cadastro e pesquisa de colaborador][4]);
+3.	Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de contrato][5]);
+4.	Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de unidade][6]);
+5.	Ter o grupo vinculado ao contrato (ver conhecimento [Como relacionar grupo ao contrato?][7]);
+6.	Ter a unidade vinculada ao contrato (ver conhecimento [Como relacionar unidade ao contrato?][8]);
+7.	Ter o portfólio com o serviço e as atividades de requisição e incidente cadastrados (ver conhecimentos [Cadastro de portfólio de serviços][9], [Cadastro de serviços][10], [Configuração dos atributos do serviço][11]);
+8.	Ter o tempo de atendimento das atividades de requisição e incidente definidos (ver conhecimento [Cadastro e pesquisa de tempo de atendimento][12]);
+9.	Ter o contrato vinculado ao serviço (ver conhecimento [Configuração dos atributos do serviço]([11])
+10.	Ter as atividades de requisição e incidente vinculadas ao contrato do serviço (ver conhecimento [Configuração dos atributos do contrato do serviço][13]);
+11.	Informe o conteúdo abaixo no parâmetro (ver conhecimento [Regras de parametrização - sistema][30]):
 
     - Parâmetro 385: setar em "S".
 
@@ -1326,7 +1325,7 @@ Esta técnica faz parte da estratégia comum da administração chamada “Gest�
 ### Pré-condições
 
 1.	Ter ao menos um ticket registrado;
-2.	Dar permissão para o Perfil de Acesso desejado (ver conhecimento [Permissão de acesso do gerenciamento de tickets](32).
+2.	Dar permissão para o Perfil de Acesso desejado (ver conhecimento [Permissão de acesso do gerenciamento de tickets][33].
 
 
 ### Explicando o quadro Kanban
@@ -1442,7 +1441,7 @@ Pesquisa avançada
 ### Pré-condições
 
 1.	Possuir chamados abertos, em qualquer situação.
-2.	Informe os conteúdos abaixo nos parâmetros (ver conhecimento [Regras de parametrização - ticket](24)):
+2.	Informe os conteúdos abaixo nos parâmetros (ver conhecimento [Regras de parametrização - ticket][24]):
 
     -	Parâmetro 40;
 
@@ -1454,7 +1453,7 @@ Pesquisa avançada
 
     -	Parâmetro 343: default: "S";
 
-3.	Configure o parâmetro 378 (ver conhecimento [Regras de parametrização - sistema](32)).
+3.	Configure o parâmetro 378 (ver conhecimento [Regras de parametrização - sistema][32]).
 
 !!! note "NOTA"
 
@@ -1733,17 +1732,17 @@ Cadastro de ticket via template
 
 ### Pré-condições
 
-1.	Ter os templates cadastrados para registro de uma solicitação utilizando essa funcionalidade (ver conhecimento [Cadastro e pesquisa de template de incidentes, requisições e procedimentos](33));
-2.	Ter permissão para registrar um ticket (ver conhecimento [Cadastro e pesquisa de grupo](3));
-3.	Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de grupo](3));
-4.	Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de unidade](6));
-5.	Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de contrato](5));
-6.	Ter o portfólio com o serviço e as atividades de requisição e incidente cadastrados (ver conhecimentos [Cadastro de portfólio de serviços](9), [Cadastro de serviços](10), [Configuração dos atributos do serviço](11));
-7.	Ter o tempo de atendimento das atividades de requisição e incidente definidos (ver conhecimento [Cadastro e pesquisa de tempo de atendimento](12));
-8.	Ter o contrato vinculado ao serviço (ver conhecimento [Configuração dos atributos do serviço](11));
-9.	Ter as atividades de requisição e incidente vinculadas ao contrato do serviço (ver conhecimento [Configuração dos atributos do contrato do serviço](13);
-10. Ter o grupo vinculado ao contrato (ver conhecimento [Como relacionar grupo ao contrato?](7);
-11. Ter a unidade vinculada ao contrato (ver conhecimento [Como relacionar unidade ao contrato?](8));
+1.	Ter os templates cadastrados para registro de uma solicitação utilizando essa funcionalidade (ver conhecimento [Cadastro e pesquisa de template de incidentes, requisições e procedimentos][33]);
+2.	Ter permissão para registrar um ticket (ver conhecimento [Cadastro e pesquisa de grupo][3]));
+3.	Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de grupo][3]);
+4.	Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de unidade][6]);
+5.	Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de contrato][5]);
+6.	Ter o portfólio com o serviço e as atividades de requisição e incidente cadastrados (ver conhecimentos [Cadastro de portfólio de serviços][9], [Cadastro de serviços][10], [Configuração dos atributos do serviço][11]);
+7.	Ter o tempo de atendimento das atividades de requisição e incidente definidos (ver conhecimento [Cadastro e pesquisa de tempo de atendimento][12]);
+8.	Ter o contrato vinculado ao serviço (ver conhecimento [Configuração dos atributos do serviço][11]);
+9.	Ter as atividades de requisição e incidente vinculadas ao contrato do serviço (ver conhecimento [Configuração dos atributos do contrato do serviço][13];
+10. Ter o grupo vinculado ao contrato (ver conhecimento [Como relacionar grupo ao contrato?][7]);
+11. Ter a unidade vinculada ao contrato (ver conhecimento [Como relacionar unidade ao contrato?][8]);
 12. Ter o usuário vinculado à unidade;
 13. Ter o usuário vinculado ao grupo.
 
