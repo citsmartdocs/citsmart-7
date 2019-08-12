@@ -13,13 +13,13 @@ configuração referente à notificação que será disparada quando as condiç�
 Pré-condições
 ---------------
 
-1. Cadastrar modelo de EPL (ver conhecimento Cadastro e pesquisa de modelos de EPL);
+1. Cadastrar modelo de EPL (ver conhecimento [Cadastro e pesquisa de modelos de EPL](/pt-br/citsmart-platform-7/processes/event/epl-models.html));
 
-2. Configurar destinatário (ver conhecimento Configuração dos destinatários das notificações);
+2. Configurar destinatário (ver conhecimento [Configuração dos destinatários das notificações](/pt-br/citsmart-platform-7/processes/event/notifications-recipients.html));
 
-3. Cadastrar modelo de e-mail (ver conhecimento Cadastro e pesquisa de configuração de modelo de e-mail);
+3. Cadastrar modelo de e-mail (ver conhecimento [Cadastro e pesquisa de configuração de modelo de e-mail](/pt-br/citsmart-platform-7/plataform-administration/email-settings/configure-email-template.html));
 
-4. Cadastrar template de notificação (ver conhecimento Cadastro e pesquisa de template de notificação).
+4. Cadastrar template de notificação (ver conhecimento [Cadastro e pesquisa de template de notificação](/pt-br/citsmart-platform-7/additional-features/communication-and-notification/notification/configuration/notification-template.html)).
 
 Como acessar
 ---------------
