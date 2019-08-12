@@ -30,7 +30,7 @@ dados, conforme ilustrada na figura abaixo:
 Veja também
 -------------
 
-- Módulo Gerenciamento de Demanda
+- [Módulo Gerenciamento de Demanda](/pt-br/citsmart-platform-7/processes/demand/overview.html)
 
 !!! tip "About"
 
