@@ -12,13 +12,13 @@ Pré-condições
 ----------------
 
 1. Ter o portfólio com os serviços e as atividades de requisição/incidente cadastrados e disponibilizados no Smart Portal (ver 
-conhecimento Cadastro de portfólio de serviços; Cadastro de serviços ; Cadastro da atividade de serviço );
+conhecimento [Cadastro de portfólio de serviços][1]; [Cadastro de serviços][2]; [Cadastro da atividade de serviço][3]);
 
-2. Ter conhecimentos relacionados ao serviço (ver conhecimento Configuração dos atributos do serviço, seção "Vinculando conhecimento 
-ao serviço");
+2. Ter conhecimentos relacionados ao serviço (ver conhecimento [Configuração dos atributos do serviço][4], seção "Vinculando 
+conhecimento ao serviço");
 
-3. Ter conhecimentos relacionados à solicitação referente à atividade de requisição/incidente (ver conhecimento Cadastro da atividade 
-de serviço).
+3. Ter conhecimentos relacionados à solicitação referente à atividade de requisição/incidente (ver conhecimento 
+[Cadastro da atividade de serviço][5]).
 
 Filtros
 -----------
@@ -61,3 +61,13 @@ exemplo ilustrado na figura abaixo:
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
     <b>Updated:</b>08/07/2019 - Larissa Lourenço
+    
+[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+
+[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/services.html
+
+[3]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/activity.html
+
+[4]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
+
+[5]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/activity.html
