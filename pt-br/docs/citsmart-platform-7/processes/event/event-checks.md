@@ -14,7 +14,7 @@ Como acessar
 Pré-condições
 ---------------
 
-1. Cadastrar tipo de item de configuração (ver conhecimento Cadastro e pesquisa de tipo de item de configuração).
+1. Cadastrar tipo de item de configuração (ver conhecimento [Cadastro e pesquisa de tipo de item de configuração](/pt-br/citsmart-platform-7/processes/configuration/IC-type.html)).
 
 Filtros
 ---------
