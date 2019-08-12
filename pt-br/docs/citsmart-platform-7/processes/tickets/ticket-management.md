@@ -650,7 +650,7 @@ Captura de ticket
 
 ### Pré-condições
 
-1.	Ter permissão para executar o ticket (ver conhecimento Cadastro e pesquisa de grupo).
+1.	Ter permissão para executar o ticket (ver conhecimento [Cadastro e pesquisa de grupo](3)).
 
 ### Capturando ticket
 
@@ -674,9 +674,9 @@ Cadastro da execução do ticket
 
 ### Pré-condições
 
-1.	Ter permissão para executar o ticket (ver conhecimento Cadastro e pesquisa de grupo);
-2.	Ter a causa de incidentes cadastrada (ver conhecimento Cadastro e pesquisa de causa de incidentes);
-3.	Ter a categoria de solução cadastrada (ver conhecimento Cadastro e pesquisa de categoria de solução).
+1.	Ter permissão para executar o ticket (ver conhecimento [Cadastro e pesquisa de grupo](3));
+2.	Ter a causa de incidentes cadastrada (ver conhecimento [Cadastro e pesquisa de causa de incidentes](26));
+3.	Ter a categoria de solução cadastrada (ver conhecimento [Cadastro e pesquisa de categoria de solução](27)).
 
 ### Cadastrando a execução do ticket
 
@@ -1787,6 +1787,8 @@ Cadastro de ticket via template
 [23]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/contract.html
 [24]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrizaion-ticket.html
 [25]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-email.html
+[26]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/cause-incident.html
+[27]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/solution-category.html
 
 
 !!! tip "About"
