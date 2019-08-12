@@ -8,7 +8,7 @@ monitoração dos diversos itens de configuração.
 Pré-condições
 ---------------
 
-1. Cadastrar Conexão do CITSmart Event Monitor (ver conhecimento Conexão CITSmart Event Monitor).
+1. Cadastrar Conexão do CITSmart Event Monitor (ver conhecimento [Conexão CITSmart Event Monitor](/pt-br/citsmart-platform-7/additional-features/add-ons/event-monitor-connection.html)).
 
 Como acessar
 ---------------
