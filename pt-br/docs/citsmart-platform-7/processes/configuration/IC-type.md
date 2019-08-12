@@ -13,7 +13,7 @@ Como acessar
 Pré-condições
 ---------------
 
-1. Cadastrar característica (ver conhecimento Cadastro e pesquisa de característica).
+1. Cadastrar característica (ver conhecimento [Cadastro e pesquisa de característica](/pt-br/citsmart-platform-7/processes/configuration/characteristics.html)).
 
 Filtros
 ---------
