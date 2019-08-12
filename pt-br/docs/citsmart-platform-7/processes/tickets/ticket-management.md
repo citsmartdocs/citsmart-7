@@ -1121,7 +1121,7 @@ Agendamento de atividade de ticket
 
 ### Pré-condições
 
-1.	Ter os grupos de atividade periódica cadastrados para agendamento das atividades do ticket (ver conhecimento Cadastro e pesquisa de grupo de atividade periódica).
+1.	Ter os grupos de atividade periódica cadastrados para agendamento das atividades do ticket (ver conhecimento [Cadastro e pesquisa de grupo de atividade periódica](29)).
 
 ### Agendando atividade
 
@@ -1158,17 +1158,17 @@ Cadastro e vinculação de ticket relacionado
 
 ### Pré-condições
 
-1.	Ter permissão para registrar ticket (ver conhecimento Cadastro e pesquisa de grupo);
-2.	Ter o colaborador cadastrado (ver conhecimento Cadastro e pesquisa de colaborador);
-3.	Ter o contrato cadastrado (ver conhecimento Cadastro e pesquisa de contrato);
-4.	Ter a unidade cadastrada (ver conhecimento Cadastro e pesquisa de unidade);
-5.	Ter o grupo vinculado ao contrato (ver conhecimento Como relacionar grupo ao contrato?);
-6.	Ter a unidade vinculada ao contrato (ver conhecimento Como relacionar unidade ao contrato?);
-7.	Ter o portfólio com o serviço e as atividades de requisição e incidente cadastrados (ver conhecimentos Cadastro de portfólio de serviços, Cadastro de serviços, Configuração dos atributos do serviço);
-8.	Ter o tempo de atendimento das atividades de requisição e incidente definidos (ver conhecimento Cadastro e pesquisa de tempo de atendimento);
-9.	Ter o contrato vinculado ao serviço (ver conhecimento Configuração dos atributos do serviço)
-10.	Ter as atividades de requisição e incidente vinculadas ao contrato do serviço (ver conhecimento Configuração dos atributos do contrato do serviço);
-11.	Informe o conteúdo abaixo no parâmetro (ver conhecimento Regras de parametrização - sistema):
+1.	Ter permissão para registrar ticket (ver conhecimento [Cadastro e pesquisa de grupo](3));
+2.	Ter o colaborador cadastrado (ver conhecimento [Cadastro e pesquisa de colaborador](4));
+3.	Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de contrato](5));
+4.	Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de unidade](6));
+5.	Ter o grupo vinculado ao contrato (ver conhecimento [Como relacionar grupo ao contrato?](7));
+6.	Ter a unidade vinculada ao contrato (ver conhecimento [Como relacionar unidade ao contrato?](8));
+7.	Ter o portfólio com o serviço e as atividades de requisição e incidente cadastrados (ver conhecimentos [Cadastro de portfólio de serviços](9), [Cadastro de serviços](10), [Configuração dos atributos do serviço](11));
+8.	Ter o tempo de atendimento das atividades de requisição e incidente definidos (ver conhecimento [Cadastro e pesquisa de tempo de atendimento](12));
+9.	Ter o contrato vinculado ao serviço (ver conhecimento [Configuração dos atributos do serviço](11))
+10.	Ter as atividades de requisição e incidente vinculadas ao contrato do serviço (ver conhecimento [Configuração dos atributos do contrato do serviço](13));
+11.	Informe o conteúdo abaixo no parâmetro (ver conhecimento [Regras de parametrização - sistema](30)):
 
     - Parâmetro 385: setar em "S".
 
@@ -1790,6 +1790,8 @@ Cadastro de ticket via template
 [26]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/cause-incident.html
 [27]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/solution-category.html
 [28]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/request-justification.html
+[29]:/pt-br/citsmart-platform-7/additional-features/automation-of-operation/configuration/periodic-activity-group.html
+[30]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-system.html
 
 
 !!! tip "About"
