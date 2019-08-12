@@ -15,17 +15,17 @@ pode ser:
 Pré-condições
 ---------------
 
-1. Cadastrar conexão do CITSmart Event Monitor (ver conhecimento Conexão CITSmart Event Monitor);
+1. Cadastrar conexão do CITSmart Event Monitor (ver conhecimento [Conexão CITSmart Event Monitor](/pt-br/citsmart-platform-7/additional-features/add-ons/event-monitor-connection.html));
 
-2. Cadastrar horário (ver conhecimento Cadastro e pesquisa de horários);
+2. Cadastrar horário (ver conhecimento [Cadastro e pesquisa de horários](/pt-br/citsmart-platform-7/processes/event/time-registration.html));
 
-3. Cadastrar categoria de ocorrência (ver conhecimento Cadastro e pesquisa de categoria de ocorrência);
+3. Cadastrar categoria de ocorrência (ver conhecimento [Cadastro e pesquisa de categoria de ocorrência](/pt-br/citsmart-platform-7/processes/event/occurrence-category.html));
 
-4. Cadastrar ação automática (ver conhecimento Cadastro e pesquisa de ações automáticas);
+4. Cadastrar ação automática (ver conhecimento [Cadastro e pesquisa de ações automáticas](/pt-br/citsmart-platform-7/plataform-administration/configuring-automatic-actions/automatic-actions.html));
 
-5. Cadastrar Conexão do CITSmart Inventory (ver conhecimento Configuração da conexão do CITSmart Inventory);
+5. Cadastrar Conexão do CITSmart Inventory (ver conhecimento [Configuração da conexão do CITSmart Inventory](/pt-br/citsmart-platform-7/processes/event/inventory-connection-setup.html));
 
-6. Cadastrar check (ver conhecimento Cadastro e pesquisa de checks de eventos).
+6. Cadastrar check (ver conhecimento [Cadastro e pesquisa de checks de eventos](/pt-br/citsmart-platform-7/processes/event/event-checks.html)).
 
 Gerente Nagios
 -----------------
