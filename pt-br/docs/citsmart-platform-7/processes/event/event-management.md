@@ -22,12 +22,12 @@ Como acessar
 Pré-condições
 ---------------
 
-1. Cadastrar Conexão do CITSmart Event Monitor (ver conhecimento Conexão CITSmart Event Monitor);
+1. Cadastrar Conexão do CITSmart Event Monitor (ver conhecimento [Conexão CITSmart Event Monitor](/pt-br/citsmart-platform-7/additional-features/add-ons/event-monitor-connection.html));
 
 2. Cadastrar Ferramenta de Monitoração;
 
 3. Ter pelo menos uma Requisição/Incidente cadastrada e vinculada ao IC (Item de Configuração) que gerou o evento, caso queira
-"Executar" o serviço usando tela de Eventos (ver conhecimento Gerenciamento de ticket (serviços)).
+"Executar" o serviço usando tela de Eventos (ver conhecimento [Gerenciamento de ticket (serviços)](/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html)).
 
 Filtros
 ---------
