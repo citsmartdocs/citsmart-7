@@ -829,7 +829,7 @@ Direcionamento do ticket
 
 ### Pré-condições
 
-1.	Ter permissão para executar o ticket (ver conhecimento [Cadastro e pesquisa de grupo]((3)).
+1.	Ter permissão para executar o ticket (ver conhecimento [Cadastro e pesquisa de grupo](3)).
 
 ### Direcionando o ticket para atendimento
 
@@ -879,8 +879,8 @@ Suspensão do ticket
 
 ### Pré-condições
 
-1.	Ter permissão para suspender a solicitação de serviço (ver conhecimento Cadastro e pesquisa de grupo);
-2.	Ter a justificativa de suspensão de solicitação cadastrada (ver conhecimento Cadastro e pesquisa de justificativa de solicitação).
+1.	Ter permissão para suspender a solicitação de serviço (ver conhecimento [Cadastro e pesquisa de grupo](3));
+2.	Ter a justificativa de suspensão de solicitação cadastrada (ver conhecimento [Cadastro e pesquisa de justificativa de solicitação](28)).
 
 ### Suspendendo o ticket
 
@@ -1789,6 +1789,7 @@ Cadastro de ticket via template
 [25]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-email.html
 [26]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/cause-incident.html
 [27]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/solution-category.html
+[28]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/request-justification.html
 
 
 !!! tip "About"
