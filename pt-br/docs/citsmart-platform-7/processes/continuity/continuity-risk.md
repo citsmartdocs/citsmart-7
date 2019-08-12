@@ -13,9 +13,9 @@ Como acessar
 Pré-condições
 --------------
 
-1. Cadastrar categoria de risco (ver conhecimento Cadastro e pesquisa de categoria de risco);
+1. Cadastrar categoria de risco (ver conhecimento [Cadastro e pesquisa de categoria de risco](/pt-br/citsmart-platform-7/processes/continuity/risk-category.html));
 
-2. Cadastrar ameaça (ver conhecimento Cadastro e pesquisa de ameaça).
+2. Cadastrar ameaça (ver conhecimento [Cadastro e pesquisa de ameaça](/pt-br/citsmart-platform-7/processes/continuity/threat-registration.html)).
 
 Filtros
 ---------
