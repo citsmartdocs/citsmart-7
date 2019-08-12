@@ -1,6 +1,5 @@
 title: Permissão de acesso do gerenciamento de tickets
-Description: A funcionalidade de Permissão de Acesso permite definir quem terá acesso às funcionalidades da tela de Gerenciamento de Requisições e Incidentes e
-qual tipo de acesso é permitido (leitura, gravação e/ou exclusão).
+Description: A funcionalidade de Permissão de Acesso permite definir quem terá acesso às funcionalidades da tela de Gerenciamento de Requisições e Incidentes e qual tipo de acesso é permitido (leitura, gravação e/ou exclusão).
 
 # Permissão de acesso do gerenciamento de tickets
 
