@@ -71,6 +71,6 @@ facilitando a localização dos itens desejados:
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/02/2019 - Larissa Lourenç
+    <b>Updated:</b>08/02/2019 - Larissa Lourenço
 
 
