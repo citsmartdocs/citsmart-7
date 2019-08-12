@@ -922,7 +922,7 @@ Suspensão e reativação de múltiplos tickets
 ### Suspendendo múltiplos tickets
 
 1.	Será exibida a tela de Gerenciamento Ticket;
-2.	Clique no ícone ![ticket](images/management-51.png)  e em Suspensão/Reativação, conforme indicado na figura abaixo:
+2.	Clique no ícone ![ticket](images/management-51.png) e em Suspensão/Reativação, conforme indicado na figura abaixo:
 
     ![ticket](images/management-52.png)
 
@@ -1442,7 +1442,7 @@ Pesquisa avançada
 ### Pré-condições
 
 1.	Possuir chamados abertos, em qualquer situação.
-2.	Informe os conteúdos abaixo nos parâmetros (ver conhecimento Regras de parametrização - ticket):
+2.	Informe os conteúdos abaixo nos parâmetros (ver conhecimento [Regras de parametrização - ticket](24)):
 
     -	Parâmetro 40;
 
@@ -1454,7 +1454,7 @@ Pesquisa avançada
 
     -	Parâmetro 343: default: "S";
 
-3.	Configure o parâmetro 378 (ver conhecimento Regras de parametrização - sistema).
+3.	Configure o parâmetro 378 (ver conhecimento [Regras de parametrização - sistema](32)).
 
 !!! note "NOTA"
 
@@ -1715,7 +1715,7 @@ Reabertura de ticket
 
 ### Como acessar
 
-1.	Clique no botão de menu ![ticket](images/management-11.png)  e após isso, clique no item de Pesquisa Avançada.
+1.	Clique no botão de menu ![ticket](images/management-11.png) e após isso, clique no item de Pesquisa Avançada.
 
 ### Reabrindo o ticket
 
@@ -1733,17 +1733,17 @@ Cadastro de ticket via template
 
 ### Pré-condições
 
-1.	Ter os templates cadastrados para registro de uma solicitação utilizando essa funcionalidade (ver conhecimento Cadastro e pesquisa de template de incidentes, requisições e procedimentos);
-2.	Ter permissão para registrar um ticket (ver conhecimento Cadastro e pesquisa de grupo);
-3.	Ter o grupo cadastrado (ver conhecimento Cadastro e pesquisa de grupo);
-4.	Ter a unidade cadastrada (ver conhecimento Cadastro e pesquisa de unidade);
-5.	Ter o contrato cadastrado (ver conhecimento Cadastro e pesquisa de contrato);
-6.	Ter o portfólio com o serviço e as atividades de requisição e incidente cadastrados (ver conhecimentos Cadastro de portfólio de serviços, Cadastro de serviços, Configuração dos atributos do serviço);
-7.	Ter o tempo de atendimento das atividades de requisição e incidente definidos (ver conhecimento Cadastro e pesquisa de tempo de atendimento);
-8.	Ter o contrato vinculado ao serviço (ver conhecimento Configuração dos atributos do serviço);
-9.	Ter as atividades de requisição e incidente vinculadas ao contrato do serviço (ver conhecimento Configuração dos atributos do contrato do serviço);
-10. Ter o grupo vinculado ao contrato (ver conhecimento Como relacionar grupo ao contrato?);
-11. Ter a unidade vinculada ao contrato (ver conhecimento Como relacionar unidade ao contrato?);
+1.	Ter os templates cadastrados para registro de uma solicitação utilizando essa funcionalidade (ver conhecimento [Cadastro e pesquisa de template de incidentes, requisições e procedimentos](33));
+2.	Ter permissão para registrar um ticket (ver conhecimento [Cadastro e pesquisa de grupo](3));
+3.	Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de grupo](3));
+4.	Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de unidade](6));
+5.	Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de contrato](5));
+6.	Ter o portfólio com o serviço e as atividades de requisição e incidente cadastrados (ver conhecimentos [Cadastro de portfólio de serviços](9), [Cadastro de serviços](10), [Configuração dos atributos do serviço](11));
+7.	Ter o tempo de atendimento das atividades de requisição e incidente definidos (ver conhecimento [Cadastro e pesquisa de tempo de atendimento](12));
+8.	Ter o contrato vinculado ao serviço (ver conhecimento [Configuração dos atributos do serviço](11));
+9.	Ter as atividades de requisição e incidente vinculadas ao contrato do serviço (ver conhecimento [Configuração dos atributos do contrato do serviço](13);
+10. Ter o grupo vinculado ao contrato (ver conhecimento [Como relacionar grupo ao contrato?](7);
+11. Ter a unidade vinculada ao contrato (ver conhecimento [Como relacionar unidade ao contrato?](8));
 12. Ter o usuário vinculado à unidade;
 13. Ter o usuário vinculado ao grupo.
 
@@ -1793,6 +1793,8 @@ Cadastro de ticket via template
 [29]:/pt-br/citsmart-platform-7/additional-features/automation-of-operation/configuration/periodic-activity-group.html
 [30]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-system.html
 [31]:https://www.significados.com.br/kanban/
+[32]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-system.html
+[33]:/pt-br/citsmart-platform-7/processes/tickets/template-incident.html
 
 
 !!! tip "About"
