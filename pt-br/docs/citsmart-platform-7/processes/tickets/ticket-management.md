@@ -35,7 +35,7 @@ A tela abaixo mostra a principal tela do módulo tickets:
 
 -	**13**: Por atendente: filtra o modo de exibição de ticket por atendente no modo kanban;
 
--	**14**: Por situação: filtra o modo de exibição de ticket por situação SLA. Para esta opção ficar visível é necessário habilitar a permissão de acesso para o usuário logado, marque o item "Gestão de Equipe" (ver conhecimento Permissão de acesso do gerenciamento de tickets [/pt-br/citsmart-platform-7/processes/tickets/permission.html]);
+-	**14**: Por situação: filtra o modo de exibição de ticket por situação SLA. Para esta opção ficar visível é necessário habilitar a permissão de acesso para o usuário logado, marque o item "Gestão de Equipe" (ver conhecimento [Permissão de acesso do gerenciamento de tickets](1));
 
 -	**15**: Por status do fluxo: filtra o modo de exibição de ticket por status do fluxo;
 
@@ -51,7 +51,7 @@ A tela abaixo mostra a principal tela do módulo tickets:
 
     !!! warning "ATENÇÃO"
 
-        A exibição destes relatórios depende da configuração (cadastro) de relatórios específicos na funcionalidade Relatórios > Relatórios Smart > Gerador de Relatórios Smart (ver conhecimento Gerador de relatórios Smart)
+        A exibição destes relatórios depende da configuração (cadastro) de relatórios específicos na funcionalidade Relatórios > Relatórios Smart > Gerador de Relatórios Smart (ver conhecimento [Gerador de relatórios Smart](2))
 
 
 -	**21**: Clique para mostrar o fluxo referente ao ticket, sendo possível então observar a posição do usuário dentro do mesmo;
@@ -105,21 +105,21 @@ Cadastro de ticket
 
 ### Pré-condições
 
-1.	Ter permissão para registrar ticket (ver conhecimento Cadastro e pesquisa de grupo);
-2.	Ter o colaborador cadastrado (ver conhecimento Cadastro e pesquisa de colaborador);
-3.	Ter o grupo cadastrado (ver conhecimento Cadastro e pesquisa de grupo);
-4.	Ter o contrato cadastrado (ver conhecimento Cadastro e pesquisa de contrato);
-5.	Ter a unidade cadastrada (ver conhecimento Cadastro e pesquisa de unidade);
+1.	Ter permissão para registrar ticket (ver conhecimento [Cadastro e pesquisa de grupo](3));
+2.	Ter o colaborador cadastrado (ver conhecimento [Cadastro e pesquisa de colaborador](4));
+3.	Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de grupo](3));
+4.	Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de contrato](5));
+5.	Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de unidade](6));
 6.	Ter o usuário vinculado à unidade;
 7.	Ter o usuário vinculado ao grupo;
-8.	Ter o grupo vinculado ao contrato (ver conhecimento Como relacionar grupo ao contrato?);
-9.	Ter a unidade vinculada ao contrato (ver conhecimento Como relacionar unidade ao contrato?);
-10. Ter o portfólio com o serviço e as atividades de tickets cadastrados (ver conhecimentos Cadastro de portfólio de serviços, Cadastro de serviços, Configuração dos atributos do serviço);
-11. Ter o tempo de atendimento das atividades de tickets definidos (ver conhecimento Cadastro e pesquisa de tempo de atendimento)
-12. Ter o contrato vinculado ao serviço (ver conhecimento Configuração dos atributos do serviço);
-13. Ter as atividades de tickets vinculadas ao contrato do serviço (ver conhecimento Configuração dos atributos do contrato do serviço);
+8.	Ter o grupo vinculado ao contrato (ver conhecimento [Como relacionar grupo ao contrato?](7));
+9.	Ter a unidade vinculada ao contrato (ver conhecimento [Como relacionar unidade ao contrato?](8));
+10. Ter o portfólio com o serviço e as atividades de tickets cadastrados (ver conhecimentos [Cadastro de portfólio de serviços](9), [Cadastro de serviços](10), [Configuração dos atributos do serviço](11));
+11. Ter o tempo de atendimento das atividades de tickets definidos (ver conhecimento [Cadastro e pesquisa de tempo de atendimento](12))
+12. Ter o contrato vinculado ao serviço (ver conhecimento [Configuração dos atributos do serviço](11));
+13. Ter as atividades de tickets vinculadas ao contrato do serviço (ver conhecimento [Configuração dos atributos do contrato do serviço](13));
 14. O solicitante deve estar incluído no grupo que está vinculado ao contrato para que seja possível registrar o ticket;
-15. Informe o conteúdo abaixo nos parâmetros (ver conhecimento Regras de parametrização - tickets):
+15. Informe o conteúdo abaixo nos parâmetros (ver conhecimento [Regras de parametrização - tickets](14)):
 
     - Parâmetro 9:
 
@@ -209,19 +209,19 @@ Cadastro de ticket
         Por uma questão de desempenho e de preservação do layout da tela, esses dois resumos são paginados, ou seja, é 
         possível avançar/retroceder para visualizar todas as informações.
 
-     -	Telefone: informe o número de telefone do solicitante;
+      -	Telefone: informe o número de telefone do solicitante;
 
-     -	Ramal: informe o número do ramal do solicitante, caso o tenha;
+      -	Ramal: informe o número do ramal do solicitante, caso o tenha;
 
-     -	E-mail: informe o e-mail do solicitante;
+      -	E-mail: informe o e-mail do solicitante;
 
-     -	Origem do contato: informe a origem do contato para registro do ticket;
+      -	Origem do contato: informe a origem do contato para registro do ticket;
 
-     -	Unidade: selecione a unidade na qual o solicitante está lotado;
+      -	Unidade: selecione a unidade na qual o solicitante está lotado;
 
-     -	Localidade Física: informe a localização do solicitante;
+      -	Localidade Física: informe a localização do solicitante;
 
-     -	Outras Informações: descreva as observações sobre o solicitante, se achar necessário.
+      -	Outras Informações: descreva as observações sobre o solicitante, se achar necessário.
 
     !!! warning " ATENÇÃO"
 
@@ -263,7 +263,7 @@ solicitação de configuração de algum equipamento, requisição para adiciona
 
     - Descrição: informe a descrição do ticket. A descrição deve ser objetiva, incluindo toda informação necessária para o atendimento do mesmo;
 
-    - Direcionar para grupo: informe o grupo para o qual será direcionado o ticket. Caso não informe o grupo, o ticket será direcionado para o grupo definido no fluxo de requisição/incidente. Se não estiver definido o grupo no fluxo, o ticket será direcionado para o grupo definido no registro do vínculo da atividade de requisição/incidente ao contrato. Mas se o grupo não estiver definido no registrodo vínculo da atividade ao contrato, o ticket será direcionado para o grupo definido no parâmetro "ID Grupo Nível 1"(para que esse campo esteja ativado é necessário configurar a funcionalidade - ver conhecimento Manutenção de fluxo de trabalho, seção Implementando a funcionalidade direcionar grupo no fluxo sobre a atividade);
+    - Direcionar para grupo: informe o grupo para o qual será direcionado o ticket. Caso não informe o grupo, o ticket será direcionado para o grupo definido no fluxo de requisição/incidente. Se não estiver definido o grupo no fluxo, o ticket será direcionado para o grupo definido no registro do vínculo da atividade de requisição/incidente ao contrato. Mas se o grupo não estiver definido no registrodo vínculo da atividade ao contrato, o ticket será direcionado para o grupo definido no parâmetro "ID Grupo Nível 1" (para que esse campo esteja ativado é necessário configurar a funcionalidade - ver conhecimento [Manutenção de fluxo de trabalho](15), seção Implementando a funcionalidade direcionar grupo no fluxo sobre a atividade);
 
      - Notificações: marque as opções de envio de notificação sobre o ticket para serem enviadas ao solicitante;
 
@@ -307,7 +307,7 @@ Vinculação itens de configuração do solicitante
 
 ### Pré-condições
 
-1.	Ter ao menos um Item de Configuração cadastrado (ver conhecimento Gerenciamento de itens de configuração).
+1.	Ter ao menos um Item de Configuração cadastrado (ver conhecimento [Gerenciamento de itens de configuração](16).
 
 ### Vinculando um item de configuração do solicitante
 
@@ -367,7 +367,7 @@ Vinculando problemas
 
 ### Pré-condições
 
-1.	Ter ao menos um problema cadastrado (ver conhecimento Cadastro de problema).
+1.	Ter ao menos um problema cadastrado (ver conhecimento [Cadastro de problema](17)).
 
 ### Filtros
 
@@ -406,7 +406,7 @@ Vinculando requisição de mudança
 
 ### Pré-condições
 
-1.	Ter ao menos uma requisição de mudança cadastrada (ver conhecimento Cadastro de requisição de mudança).
+1.	Ter ao menos uma requisição de mudança cadastrada (ver conhecimento [Cadastro de requisição de mudança](18)).
 
 ### Filtros
 
@@ -443,7 +443,7 @@ Vinculação de requisição de liberação
 
 ### Pré-condições
 
-1.	Ter ao menos uma requisição de liberação cadastrada (ver conhecimento Cadastro e pesquisa de requisição de liberação).
+1.	Ter ao menos uma requisição de liberação cadastrada (ver conhecimento [Cadastro e pesquisa de requisição de liberação](19)).
 
 ### Filtros
 
@@ -480,7 +480,7 @@ Vinculando item de configuração relacionado
 
 ### Pré-condições
  
-1.	Ter ao menos um Item de Configuração cadastrado (ver conhecimento Gerenciamento de itens de configuração).
+1.	Ter ao menos um Item de Configuração cadastrado (ver conhecimento [Gerenciamento de itens de configuração](20)).
 
 ### Filtros 
 
@@ -530,8 +530,8 @@ Vinculando projeto
 
 ### Pré-condições
 
-1.	Ter permissão para executar a solicitação de serviço (ver conhecimento Cadastro e pesquisa de grupo);
-2.	Ter ao menos um projeto cadastrado (ver conhecimento Cadastro e gerenciamento de projetos).
+1.	Ter permissão para executar a solicitação de serviço (ver conhecimento [Cadastro e pesquisa de grupo](3));
+2.	Ter ao menos um projeto cadastrado (ver conhecimento [Cadastro e gerenciamento de projetos](21)).
 
 ### Filtros
 
@@ -562,7 +562,7 @@ Vinculando conhecimento
 
 ### Pré-condições
 
-1.	Ter ao menos um conhecimento cadastrado (ver conhecimento Gerenciamento de Conhecimento).
+1.	Ter ao menos um conhecimento cadastrado (ver conhecimento [Gerenciamento de Conhecimento](22).
 
 ### Filtros
 
@@ -600,20 +600,20 @@ Vinculando e-mails lidos
 
 ### Pré-condições
 
-1.	Ter permissão para registrar ticket (ver conhecimento Cadastro e pesquisa de grupo);
-2.	Ter o colaborador cadastrado (ver conhecimento Cadastro e pesquisa de colaborador);
-3.	Ter o grupo cadastrado (ver conhecimento Cadastro e pesquisa de grupo);
-4.	Ter o contrato cadastrado (ver conhecimento Cadastro e pesquisa de contrato);
-5.	Ter a unidade cadastrada (ver conhecimento Cadastro e pesquisa de unidade);
-6.	Ter o grupo vinculado ao contrato (ver conhecimento Como relacionar grupo ao contrato?);
-7.	Ter a unidade vinculada ao contrato (ver conhecimento Como relacionar unidade ao contrato?);
-8.	Ter o portfólio com o serviço e as atividades de requisição e incidente cadastrados (ver conhecimentos Cadastro de portfólio de serviços, Cadastro de serviços, Configuração dos atributos do serviço);
-9.	Ter o tempo de atendimento das atividades de requisição e incidente definidos (ver conhecimento Cadastro e pesquisa de tempo de atendimento);
-10. Ter o contrato vinculado ao serviço (ver conhecimento Configuração dos atributos do serviço);
-11. Ter as atividades de requisição e incidente vinculadas ao contrato do serviço (ver conhecimento Configuração dos atributos do contrato do serviço);
-12. Configure o parâmetro 9 (ver conhecimento Regras de parametrização - ticket);
+1.	Ter permissão para registrar ticket (ver conhecimento [Cadastro e pesquisa de grupo](3));
+2.	Ter o colaborador cadastrado (ver conhecimento [Cadastro e pesquisa de colaborador](4));
+3.	Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de grupo](3));
+4.	Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de contrato](23));
+5.	Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de unidade](6));
+6.	Ter o grupo vinculado ao contrato (ver conhecimento [Como relacionar grupo ao contrato?](7));
+7.	Ter a unidade vinculada ao contrato (ver conhecimento [Como relacionar unidade ao contrato?](8));
+8.	Ter o portfólio com o serviço e as atividades de requisição e incidente cadastrados (ver conhecimentos [Cadastro de portfólio de serviços(9)], [Cadastro de serviços(10)], [Configuração dos atributos do serviço](11));
+9.	Ter o tempo de atendimento das atividades de requisição e incidente definidos (ver conhecimento [Cadastro e pesquisa de tempo de atendimento](12));
+10. Ter o contrato vinculado ao serviço (ver conhecimento [Configuração dos atributos do serviço](11));
+11. Ter as atividades de requisição e incidente vinculadas ao contrato do serviço (ver conhecimento [Configuração dos atributos do contrato do serviço](13));
+12. Configure o parâmetro 9 (ver conhecimento [Regras de parametrização - ticket](24));
 13. O solicitante deve estar incluído no grupo que está vinculado ao contrato para que seja possível registrar o ticket;
-14. Configure os parâmetros 23,24,25,26,27,28 e 72 (ver conhecimento Regras de parametrização - e-mail).
+14. Configure os parâmetros 23,24,25,26,27,28 e 72 (ver conhecimento [Regras de parametrização - e-mail](25)).
 
 ### Vinculação de leituras de e-mail
 
@@ -1759,6 +1759,34 @@ Cadastro de ticket via template
 3.	Preencha os campos com as informações necessárias;
 4.	Após os dados informados, clique no botão de opções ![ticket](images/management-6.png) e logo em seguida clique no botão gravar ![ticket](images/management-10.png)
  para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma futura auditoria.
+
+
+
+[1]:/pt-br/citsmart-platform-7/processes/tickets/permission.html
+[2]:/pt-br/citsmart-platform-7/additional-features/reports/create/smart-reports/configuration/generate-report.html
+[3]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[4]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html
+[5]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[6]:/pt-br/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html
+[7]:/pt-br/citsmart-platform-7/processes/tickets/relate-group.html
+[8]:/pt-br/citsmart-platform-7/processes/tickets/relate-unit.html
+[9]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+[10]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/services.html
+[11]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
+[12]:/pt-br/citsmart-platform-7/processes/service-level/time-attendance.html
+[13]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/contract-attributes.html
+[14]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrizaion-ticket.html
+[15]:/pt-br/citsmart-platform-7/workflow/workflow-management.html
+[16]:/pt-br/citsmart-platform-7/processes/configuration/IC-management.html
+[17]:/pt-br/citsmart-platform-7/processes/problem/register-problem.html
+[18]:/pt-br/citsmart-platform-7/processes/change/register-change.html
+[19]:/pt-br/citsmart-platform-7/processes/release/requisition.html
+[20]:/pt-br/citsmart-platform-7/processes/configuration/IC-management.html
+[21]:/pt-br/citsmart-platform-7/additional-features/project-management/use/project-management.html
+[22]:/pt-br/citsmart-platform-7/processes/knowledge/management.html
+[23]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/contract.html
+[24]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrizaion-ticket.html
+[25]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-email.html
 
 
 !!! tip "About"
