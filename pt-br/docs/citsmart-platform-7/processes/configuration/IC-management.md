@@ -573,7 +573,7 @@ Após a consulta, clique sobre o item de configuração. Será apresentada a tel
     
 4. Para verificar as informações do IC relacionado, basta clicar em "Visualizar".
 
-5. Um dos tipos de relação entre IC é explicada no conhecimento sobre o "Mapa de Serviço". Abaixo segue exemplo de 2 
+5. Um dos tipos de relação entre IC é explicada no conhecimento sobre o "[Mapa de Serviço][1]". Abaixo segue exemplo de 2 
 tipos de relação que os IC podem ter:
 
 ![Detalhes](images/geren-IC.img42.png)
@@ -766,3 +766,5 @@ Veja também
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
     <b>Updated:</b>07/16/2019 – Larissa Lourenço
+
+[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
