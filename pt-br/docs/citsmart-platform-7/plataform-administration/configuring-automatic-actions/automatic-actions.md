@@ -89,9 +89,9 @@ de eventos do CITSmart Nagios, Zabbix, Inventory e Eventos Correlacionados.
 Pré-condições
 ----------------
 
-1. Cadastrar usuário (ver conhecimento Cadastro e pesquisa de usuário);
+1. Cadastrar usuário (ver conhecimento [Cadastro e pesquisa de usuário](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/user-register.html));
 
-2. Cadastrar usuário (ver conhecimento Cadastro e pesquisa de usuário);
+2. Cadastrar grupo (ver conhecimento [Cadastro e pesquisa de grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html));
 
 Como acessar
 --------------
@@ -179,19 +179,19 @@ e Eventos Correlacionados.
 Pré-condições
 ----------------
 
-1. Cadastrar contrato (ver conhecimento Cadastro e pesquisa de contrato);
+1. Cadastrar contrato (ver conhecimento [Cadastro e pesquisa de contrato](/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract));
 
-2. Cadastrar unidade (ver conhecimento Cadastro e pesquisa de unidade);
+2. Cadastrar unidade (ver conhecimento [Cadastro e pesquisa de unidade](/pt-br/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html));
 
-3. Cadastrar solicitante (colaborador) (ver conhecimento Cadastro e pesquisa de colaborador);
+3. Cadastrar solicitante (colaborador) (ver conhecimento [Cadastro e pesquisa de colaborador](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html));
 
 4. Cadastrar “Comitê Consultivo de Mudanças” (grupo) para que seja listado na tela de requisição de mudanças (ver conhecimento 
-Cadastro e pesquisa de grupo);
+[Cadastro e pesquisa de grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html));
 
 5. Cadastrar tipo de mudança, o qual deverá ter o vínculo com o fluxo referente a requisição de mudança (ver conhecimento 
-Cadastro e pesquisa de tipo de mudança);
+[Cadastro e pesquisa de tipo de mudança](/pt-br/citsmart-platform-7/processes/change/change-type.html));
 
-6. Configure os parâmetros abaixo (ver conhecimento Regras de parametrização - mudança):
+6. Configure os parâmetros abaixo (ver conhecimento [Regras de parametrização - mudança](/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-change.html)):
 
     - Parâmetro 47;
     - Parâmetro 279;
@@ -200,11 +200,11 @@ Cadastro e pesquisa de tipo de mudança);
 7. Vincular grupo aos contratos, associando os Solicitantes (colaboradores) já cadastrados a este grupo, para que sejam listados 
 os contratos e os solicitantes relacionados na tela de requisição de mudança. Caso seja preciso criar um novo colaborador, é
 necessário incluí-lo ao Grupo de Solicitante no qual esteja relacionado ao contrato para que o mesmo consiga realizar uma 
-requisição de mudança, ou seja, para que o nome dele seja listado na tela de requisição de mudança (ver conhecimento Cadastro
-e pesquisa de contrato);
+requisição de mudança, ou seja, para que o nome dele seja listado na tela de requisição de mudança (ver conhecimento [Cadastro
+e pesquisa de contrato](/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract));
 
-8. Vincular unidade ao contrato para que a unidade seja listada na tela de requisição de mudança (ver conhecimento Cadastro e 
-pesquisa de contrato).
+8. Vincular unidade ao contrato para que a unidade seja listada na tela de requisição de mudança (ver conhecimento [Cadastro e 
+pesquisa de contrato](/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract)).
 
 Como acessar
 --------------
@@ -294,25 +294,25 @@ Zabbix, Inventory e Eventos Correlacionados.
 Pré-condições
 ----------------
 
-1. Cadastrar contrato (ver conhecimento Cadastro e pesquisa de contrato);
+1. Cadastrar contrato (ver conhecimento [Cadastro e pesquisa de contrato](/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract));
 
-2. Cadastrar unidade (ver conhecimento Cadastro e pesquisa de unidade);
+2. Cadastrar unidade (ver conhecimento [Cadastro e pesquisa de unidade](/pt-br/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html));
 
-3. Cadastrar solicitante (colaborador) (ver conhecimento Cadastro e pesquisa de colaborador);
+3. Cadastrar solicitante (colaborador) (ver conhecimento [Cadastro e pesquisa de colaborador](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html));
 
-4. Cadastrar grupo (ver conhecimento Cadastro e pesquisa de grupo);
+4. Cadastrar grupo (ver conhecimento [Cadastro e pesquisa de grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html));
 
 5. Cadastrar categoria de problema, a qual deverá ter o vínculo com o fluxo referente ao problema (ver conhecimento 
-Cadastro e pesquisa de categoria de problema);
+[Cadastro e pesquisa de categoria de problema)](/pt-br/citsmart-platform-7/processes/problem/category.html);
 
 6. Vincular unidade ao contrato para que a unidade seja listada na tela de registro de problema (ver conhecimento 
-Cadastro e pesquisa de contrato);
+[Cadastro e pesquisa de contrato](/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract));
 
 7. Vincular grupo aos contratos, associando os solicitantes (colaboradores) já cadastrados a este grupo, para que sejam listados
 os contratos e os solicitantes relacionados na tela de registro de problema. Caso seja preciso criar um novo colaborador, é 
 necessário incluí-lo ao grupo de solicitante no qual esteja relacionado ao contrato para que o mesmo consiga registrar um 
 problema, ou seja, para que o nome dele seja listado na tela de registro de problema (ver conhecimento 
-Cadastro e pesquisa de contrato).
+[Cadastro e pesquisa de contrato](/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract)).
 
 Como acessar
 --------------
@@ -417,26 +417,26 @@ gerentes de eventos do CITSmart Nagios, Zabbix, Inventory e Eventos Correlaciona
 Pré-condições
 ----------------
 
-1. Cadastrar grupo (ver conhecimento Cadastro e pesquisa de grupo);
+1. Cadastrar grupo (ver conhecimento [Cadastro e pesquisa de grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html));
 
-2. Cadastrar contrato (ver conhecimento Cadastro e pesquisa de contrato);
+2. Cadastrar contrato (ver conhecimento [Cadastro e pesquisa de contrato](/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract));
 
 3. Vincular grupo aos contratos, associando os solicitantes (colaboradores) já relacionado a este grupo, para que sejam listados
 os contratos e os solicitantes relacionados na tela de solicitação. Caso seja preciso criar um novo colaborador, é necessário 
 incluí-lo ao grupo no qual está relacionado ao contrato para que o mesmo consiga abrir uma solicitação, ou seja, para que o nome
-dele seja listado na tela de registro de solicitação (ver conhecimento Cadastro e pesquisa de contrato);
+dele seja listado na tela de registro de solicitação (ver conhecimento [Cadastro e pesquisa de contrato](/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract));
 
 4. Vincular unidade aos contratos para que a mesma seja listada na tela de solicitação (ver conhecimento 
-Cadastro e pesquisa de contrato);
+[Cadastro e pesquisa de contrato](/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract));
 
-5. Definir portfólio de serviços (ver conhecimento Cadastro de portfólio de serviços);
+5. Definir portfólio de serviços (ver conhecimento [Cadastro de portfólio de serviços](/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html));
 
-6. Definir tempo de atendimento dos serviços (ver conhecimento Cadastro e pesquisa de tempo de atendimento);
+6. Definir tempo de atendimento dos serviços (ver conhecimento [Cadastro e pesquisa de tempo de atendimento](/pt-br/citsmart-platform-7/processes/service-level/time-attendance.html));
 
 7. Definir grupo de primeiro nível para o atendimento da solicitação, caso não seja direcionado para um Grupo;
 
-8. Cadastrar grupos de atividade periódica para agendamento das atividades da solicitação (ver conhecimento Cadastro
-e pesquisa de grupo de atividade periódica).
+8. Cadastrar grupos de atividade periódica para agendamento das atividades da solicitação (ver conhecimento [Cadastro
+e pesquisa de grupo de atividade periódica](/pt-br/citsmart-platform-7/additional-features/automation-of-operation/configuration/periodic-activity-group.html)).
 
 Como acessar
 --------------
