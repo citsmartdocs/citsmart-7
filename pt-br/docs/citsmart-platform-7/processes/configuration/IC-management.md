@@ -7,18 +7,18 @@ Esta funcionalidade permite identificar, registrar e gerenciar os Itens de Confi
 Pré-condições
 --------------
 
-1. Cadastrar Acordo de Nível de Serviço (Geral) do tipo "Disponibilidade" (ver conhecimento Cadastro e pesquisa de acordo
-de nível de serviço geral);
+1. Cadastrar Acordo de Nível de Serviço (Geral) do tipo "Disponibilidade" (ver conhecimento [Cadastro e pesquisa de acordo
+de nível de serviço geral](/pt-br/citsmart-platform-7/processes/service-level/register-sla.html));
 
-2. Cadastrar localidade (ver conhecimento Cadastro e pesquisa de localidade);
+2. Cadastrar localidade (ver conhecimento [Cadastro e pesquisa de localidade](/pt-br/citsmart-platform-7/plataform-administration/region-and-language/register-locations.html));
 
-3. Cadastrar colaborador (ver conhecimento Cadastro e pesquisa de colaborador);
+3. Cadastrar colaborador (ver conhecimento [Cadastro e pesquisa de colaborador](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html));
 
-4. Cadastrar grupo (ver conhecimento Cadastro e pesquisa de grupo);
+4. Cadastrar grupo (ver conhecimento [Cadastro e pesquisa de grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html));
 
-5. Cadastrar contrato (ver conhecimento Cadastro e pesquisa de contrato);
+5. Cadastrar contrato (ver conhecimento [Cadastro e pesquisa de contrato](/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html));
 
-6. Cadastrar tipo de Item de Configuração (ver conhecimento Cadastro e pesquisa de tipo de item de configuração);
+6. Cadastrar tipo de Item de Configuração (ver conhecimento [Cadastro e pesquisa de tipo de item de configuração](/pt-br/citsmart-platform-7/processes/configuration/IC-type.html));
 
 7. Cadastrar ao menos um Item de Configuração principal caso necessite criar outro Item de Configuração relacionado (ver seção 
 "Registrando item de configuração relacionado a um item de configuração").
