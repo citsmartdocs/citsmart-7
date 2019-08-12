@@ -68,9 +68,9 @@ facilitando a localização dos itens desejados:
     
 3. Defina os filtros conforme sua necessidade.
 
-    !!! tip "About"
+!!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/02/2019 - Larissa Lourenço
+    <b>Updated:</b>08/02/2019 - Larissa Lourenç
 
 
