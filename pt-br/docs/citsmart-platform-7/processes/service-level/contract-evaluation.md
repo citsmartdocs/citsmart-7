@@ -17,7 +17,7 @@ Pré-condições
 -------------
 
 1.  Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de
-    contrato][1);
+    contrato][1]);
 
 2.  Ter atividades cadastradas (ver conhecimento [Cadastro da atividade de
     serviço][2]).
