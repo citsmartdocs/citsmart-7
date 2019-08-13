@@ -80,6 +80,7 @@ funcionalidades do aplicativo. Siga os passos para melhor configurá-lo:
 Services do CITSmart ITSM Enterprise de forma automatizada.**
 
 Instalação do certificado intermediário globalsign
+-------------------------------------------------------
 
 Para reconhecer o certificado intermediário da GlobalSign (Emissora do
 Certificado Digital) é necessário a instalação do mesmo. Segue os procedimentos
@@ -94,17 +95,17 @@ abaixo:
     
     **Figura 1 - Certificado intermediário da GlobalSign**
 
-1.  No mobile: informar o nome genérico (sugestão: GlobalSign) e clicar em
+3.  No mobile: informar o nome genérico (sugestão: GlobalSign) e clicar em
     avançar.
 
-2.  No desktop: clicar com botão direito no certificado baixado (conforme figura
+4.  No desktop: clicar com botão direito no certificado baixado (conforme figura
     abaixo), clicar em instalar certificado e avançar até concluir.
 
     ![Criar](images/android-ios-2.jpg)
     
     **Figura 2 - Instalação do certificado no Windows**
 
-1.  Depois de instalado, basta alterar o endereço do aplicativo para suas
+5.  Depois de instalado, basta alterar o endereço do aplicativo para suas
     necessidades (exemplo:
     “[https://citsmart.empresa.com.br/citsmart](https://citsmart.centralit.com.br/citsmart)”).
 
