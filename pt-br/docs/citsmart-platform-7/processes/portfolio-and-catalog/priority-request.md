@@ -20,7 +20,7 @@ Pré-condições
 -------------
 
 1.  Configure o parâmetro abaixo (ver conhecimento [Regras de parametrização -
-    Ticket]():
+    Ticket][1]):
 
     -   Parâmetro 104: valor S.
 
@@ -106,7 +106,9 @@ Preenchimento dos campos cadastrais
         nível de impacto e nível de urgência informados, sendo considerado a matriz
         de prioridade. Lembrando que para isso ocorrer o parâmetro deve estar
         habilitado.
-        
+   
+[1]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrizaion-ticket.html   
+   
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
