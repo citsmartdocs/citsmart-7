@@ -19,7 +19,7 @@ Pré-condições
 
 1.  Configurar a conexão do sistema com as API's do Google (ver
     conhecimento [Manual de configuração do servidor para uso do CITSmart ITSM
-    Enterprise (iOS e Android)] - seções 5 a 7).
+    Enterprise (iOS e Android)][1] - seções 5 a 7).
 
 Filtros
 -------
@@ -132,3 +132,5 @@ Configuração das rotas
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
     <b>Updated:</b>07/22/2019 – Anna Martins
+
+[1]:/pt-br/citsmart-platform-7/additional-features/mobile-and-field-service/configuration/app-android-ios.html
