@@ -16,10 +16,10 @@ Pré-condições
 -------------
 
 1.  Ter ao menos um problema cadastrado (ver conhecimento [Cadastro de
-    problema];
+    problema][1]);
 
 2.  Ter os grupo de atividade periódica cadastrada (ver conhecimento [Cadastro e
-    pesquisa de grupo de atividade periódica].
+    pesquisa de grupo de atividade periódica][2]).
 
 Filtros
 -------
@@ -101,6 +101,9 @@ Preenchimento dos campos cadastrais
     usuário serão gravados automaticamente para uma futura auditoria;
 
 3.  Será exibida uma mensagem confirmando o sucesso do agendamento da atividade.
+
+[1]:/pt-br/citsmart-platform-7/processes/problem/register-problem.html
+[2]:/pt-br/citsmart-platform-7/additional-features/automation-of-operation/configuration/periodic-activity-group.html
 
 !!! tip "About"
 
