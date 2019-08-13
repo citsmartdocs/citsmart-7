@@ -137,7 +137,7 @@ Instalando/Configurando SNMP no ambiente Windows
 
 Para realizar a instalação/configuração do serviço SNMP no ambiente Windows, proceda conforme os passos descritos abaixo:
 
-1. Abra a tela de recursos do Windows **Painel de Controle → Programas e Recursos → Ativar ou desativar recursos do Windows**;
+1. Abra a tela de recursos do Windows **Painel de Controle > Programas e Recursos > Ativar ou desativar recursos do Windows**;
 
     ![Windows](images/evm.img2.jpg)
     
