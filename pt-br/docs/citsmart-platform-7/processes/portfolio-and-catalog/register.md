@@ -8,7 +8,7 @@ Como acessar
 
 1.  Acesse a funcionalidade de Gerenciamento de Portfólio de Serviços através da
     navegação no menu principal **Processos ITIL > Gerência de Portfólio e
-    Catálogo >  Gerenciamento de Portfólio e Catálogo**.
+    Catálogo > Gerenciamento de Portfólio e Catálogo**.
 
 Pré-condições
 -------------
