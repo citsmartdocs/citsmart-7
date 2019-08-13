@@ -16,7 +16,7 @@ Pré-condições
 -------------
 
 1.  Ter um problema registrado (ver conhecimento [Cadastro de
-    problema]().
+    problema][1]).
 
 Filtros
 -------
@@ -63,7 +63,7 @@ Cancelando registro de problema
 
     **Figura 3 - Tela de gerenciamento de problemas**
 
-1.  Será exibida a tela de **Registro de Problema** com os campos preenchidos,
+2.  Será exibida a tela de **Registro de Problema** com os campos preenchidos,
     com conteúdo referente ao problema selecionado. No quadro
     de **Fechamento**, registre as informações necessárias;
 
@@ -81,6 +81,8 @@ Cancelando registro de problema
 
 -  Em ambos os casos anteriores, ao clicar no botão *Gravar* a data, hora e
     usuário serão gravados automaticamente para uma futura auditoria.
+
+[1]:/pt-br/citsmart-platform-7/processes/problem/register-problem.html
 
 
 !!! tip "About"
