@@ -32,7 +32,7 @@ Pré-condições
     pesquisa de acordo de nível de serviço geral](/pt-br/citsmart-platform-7/processes/service-level/register-sla.html));
 
 5.  Cadastrar modelo de e-mail (ver conhecimento [Cadastro e pesquisa de
-    configuração de modelo de e-mail](/pt-br/citsmart-platform-7/plataform-administration/email-settings/configure-email-template.html).
+    configuração de modelo de e-mail](/pt-br/citsmart-platform-7/plataform-administration/email-settings/configure-email-template.html)).
 
 Filtros
 ------
