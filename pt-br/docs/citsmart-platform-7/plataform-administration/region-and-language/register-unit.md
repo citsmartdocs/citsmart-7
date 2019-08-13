@@ -12,11 +12,11 @@ Como acessar
 Pré-condições
 ----------------
 
-1. Informe o conteúdo abaixo no parâmetro (ver conhecimento Regras de parametrização - Sistema):
+1. Informe o conteúdo abaixo no parâmetro (ver conhecimento [Regras de parametrização - Sistema](/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-system.html)):
 
     - Parâmetro 254: "AIzaSyBuu_v0DeKsL1w-2FY6E-PZHYsw6ghuKJY".
     
-2. Realizar a carga de países (ver conhecimento Carga de países).
+2. Realizar a carga de países (ver conhecimento [Carga de países](/pt-br/citsmart-platform-7/plataform-administration/region-and-language/load-countries.html)).
 
 Filtros
 ----------
