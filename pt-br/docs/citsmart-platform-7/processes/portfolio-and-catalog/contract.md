@@ -20,16 +20,16 @@ Pré-condições
 ------------
 
 1.  Ter o fornecedor cadastrado (ver conhecimento [Cadastro e pesquisa de
-    fornecedor];
+    fornecedor][1]);
 
 2.  Ter o cliente cadastrado (ver conhecimento [Cadastro e pesquisa de
-    cliente];
+    cliente][2]);
 
 3.  Ter a moeda cadastrada (ver conhecimento [Cadastro e pesquisa de
-    moeda];
+    moeda][3]);
 
 4.  Ter a condição de operação cadastrada (ver conhecimento [Cadastro e pesquisa
-    de condição de operação].
+    de condição de operação][4]).
 
 Filtros
 -------
@@ -394,6 +394,11 @@ Verificando o histórico de auditoria do contrato
 ![Criar](images/contract-13.png)
 
 **Figura 13 - Histórico do contrato**
+
+[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/provider.html
+[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/client.html
+[3]:/pt-br/citsmart-platform-7/additional-features/contract-management/configuration/currency.html
+[4]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/operating-condition.html
 
 
 !!! tip "About"
