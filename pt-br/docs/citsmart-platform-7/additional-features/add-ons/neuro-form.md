@@ -39,7 +39,7 @@ Vinculando o template de solicitação de serviço ao formulário CITSmart Neuro
 1. Acesse a funcionalidade através do menu **Sistema → Template de Solicitação de Serviço**;
 
 2. Crie um novo template, preenchendo os campos abaixo (ver conhecimento 
-Cadastro e pesquisa de template de solicitação de serviço);
+[Cadastro e pesquisa de template de solicitação de serviço](/pt-br/citsmart-platform-7/plataform-administration/questionnaires/ticket-template.html));
 
     ![Exemplo](images/form-neuro.img3.jpg)
     
@@ -78,7 +78,7 @@ Validando a personalização da pesquisa
 
 1. Acesse a funcionalidade **Processos ITIL > Gerência de Requisição e Incidente > Requisição de Serviços e Incidentes**.
 
-2. Inicie o cadastramento de um novo ticket (ver conhecimento Gerenciamento de ticket (serviços));
+2. Inicie o cadastramento de um novo ticket (ver conhecimento [Gerenciamento de ticket (serviços)](/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html));
 
 !!! note "NOTA"
 
