@@ -10,10 +10,10 @@ Pré-condições
 -------------
 
 1.  Ter o fornecedor cadastrado (ver conhecimento [Cadastro e Pesquisa de
-    Fornecedor];
+    Fornecedor][1]);
 
 2.  Ter o contrato cadastrado (ver conhecimento [Cadastro e Pesquisa de
-    Contrato].
+    Contrato][2]).
 
 Como acessar
 ------------
@@ -35,13 +35,13 @@ Filtros
 
     **Figura 1 - Tela de pesquisa de planos de melhoria**
 
-1.  Realize a pesquisa do plano de melhoria;
+2.  Realize a pesquisa do plano de melhoria;
 
-2.  Informe o título do plano de melhoria que deseja pesquisar e clique no
+3.  Informe o título do plano de melhoria que deseja pesquisar e clique no
     botão *Pesquisar*. Após isso, será exibido o registro do plano de melhoria
     conforme o título informado.
 
-3.  Caso deseje listar todos os registros de plano de melhoria, basta clicar
+4.  Caso deseje listar todos os registros de plano de melhoria, basta clicar
     diretamente no botão *Pesquisar*.
 
 Listagem de itens
@@ -58,11 +58,11 @@ Listagem de itens
 
     **Figura 2 - Listagem de títulos de planos de melhoria**
 
-1.  Após a pesquisa, selecione o registro de plano de melhoria desejado. Feito
+3.  Após a pesquisa, selecione o registro de plano de melhoria desejado. Feito
     isso, será direcionado para tela de cadastro exibindo o conteúdo referente
     ao registro selecionado.
 
-2.  Para alterar os dados do registro de plano de melhoria, basta modificar as
+4.  Para alterar os dados do registro de plano de melhoria, basta modificar as
     informações dos campos desejados e clicar no botão *Gravar*para que seja
     gravada a alteração realizada no registro, onde a data, hora e usuário serão
     gravados automaticamente para uma futura auditoria.
@@ -77,7 +77,7 @@ Preenchimento dos campos cadastrais
 
     **Figura 3 - Tela de cadastro de plano de melhoria**
 
-1.  Preencha os campos conforme orientações abaixo:
+2.  Preencha os campos conforme orientações abaixo:
 
     -  **Título**: informe o título do plano de melhoria;
 
@@ -104,7 +104,7 @@ Preenchimento dos campos cadastrais
 
     -  **Notas**: informe as notas do plano de melhoria.
 
-1.  Clique no botão *Gravar* para efetuar a operação, onde a data, hora e
+3.  Clique no botão *Gravar* para efetuar a operação, onde a data, hora e
     usuário serão gravados automaticamente para uma futura auditoria.
 
 Registrando objetivos do plano de melhoria
@@ -117,7 +117,7 @@ Registrando objetivos do plano de melhoria
 
     **Figura 4 - Tela de cadastro de plano de melhoria**
 
-1.  Clique no botão *Cadastrar Objetivo*. Feito isso, será apresentada uma tela
+2.  Clique no botão *Cadastrar Objetivo*. Feito isso, será apresentada uma tela
     para registro das informações do objetivo do plano de melhoria, conforme
     ilustrado na figura abaixo:
 
@@ -139,15 +139,15 @@ Registrando objetivos do plano de melhoria
 
     -  **Responsável**: informe o responsável pelo objetivo do plano de melhoria.
 
-1.  Após os dados informados, clique no botão *Gravar* para gravação e adição do
+3.  Após os dados informados, clique no botão *Gravar* para gravação e adição do
     objetivo no registro de plano de melhoria.
 
-2.  Para alterar as informações do registro do objetivo do plano de melhoria,
+4.  Para alterar as informações do registro do objetivo do plano de melhoria,
     clique no ícone ![Criar](images/improve-plan-6.png) do mesmo, modifique os dados que desejar e clique
     em *Gravar* para efetuar a alteração, onde a data, hora e usuário serão
     gravados automaticamente para uma futura auditoria.
 
-3.  Para verificar/registrar as ações e monitoramento do objetivo, clique no
+5.  Para verificar/registrar as ações e monitoramento do objetivo, clique no
     ícone ![Criar](images/improve-plan-7.png) do mesmo.
 
 Registrando ações e monitoramento do objetivo do plano de melhoria
@@ -186,10 +186,10 @@ Registrando ações e monitoramento do objetivo do plano de melhoria
     -  **Detalhamento**: descreva o que será feito para atingir o objetivo e como
     será feito;
 
-1.  Após os dados informados, clique no botão *Gravar* para gravação e adição da
+2.  Após os dados informados, clique no botão *Gravar* para gravação e adição da
     ação do objetivo no registro de plano de melhoria.
 
-2.  Para alterar as informações do registro de ação, clique no ícone 
+3.  Para alterar as informações do registro de ação, clique no ícone 
     ![Criar](images/improve-plan-6.png) do mesmo, modifique os dados que desejar e clique em *Gravar*para efetuar a
     alteração, onde a data, hora e usuário serão gravados automaticamente para
     uma futura auditoria;
@@ -224,13 +224,16 @@ Registrando ações e monitoramento do objetivo do plano de melhoria
     inserção do KPI no registro de monitoramento. Pode ser inserido vários KPIs
     no registro, quantos forem necessários.
 
-1.  Após os dados informados, clique no botão *Gravar* para gravação e adição do
+2.  Após os dados informados, clique no botão *Gravar* para gravação e adição do
     monitoramento do objetivo no registro de plano de melhoria.
 
-2.  Para alterar as informações do registro de monitoramento, clique no ícone 
+3.  Para alterar as informações do registro de monitoramento, clique no ícone 
     ![Criar](images/improve-plan-6.png) do mesmo, modifique os dados que desejar e
     clique em *Gravar* para efetuar a alteração, onde a data, hora e usuário
     serão gravados automaticamente para uma futura auditoria.
+
+[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/provider.html
+[2]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
 
 !!! tip "About"
 
