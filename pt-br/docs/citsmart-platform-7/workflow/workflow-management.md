@@ -236,7 +236,7 @@ Componente IBM WATSON
 Veja também
 ----------
 
--   [Gerenciamento de ticket (serviços)].
+-   [Gerenciamento de ticket (serviços)](/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html).
 
 
 !!! tip "About"
