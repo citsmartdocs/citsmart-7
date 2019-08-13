@@ -96,7 +96,7 @@ oferecidas pelo sistema, conforme imagem abaixo:
 - **Data Início**: data do cadastro da unidade.
 - **Data Fim**: campo não obrigatório.
 - **Localização**: local onde reside a estrutura organizacional.
-- **Responsável: selecione e adicione o(s) responsável(eis) pela unidade. Caso o sistema não encontre o nome inserido, um novo 
+- **Responsável**: selecione e adicione o(s) responsável(eis) pela unidade. Caso o sistema não encontre o nome inserido, um novo 
     responsável pode ser adicionado clicando no ícone ![simbolo](images/simb-plus.jpg) **Erro! Fonte de referência não encontrada**.
 
 Após inserir todas as informações necessárias, clique em “**Salvar**”, para que o sistema armazene as informações inseridas.
