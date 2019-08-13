@@ -18,7 +18,7 @@ Pré-condições
 -------------
 
 1.  Ter problemas registrados (ver conhecimento [Cadastro de
-    problema]().
+    problema][1]).
 
 Filtros
 -------
@@ -65,10 +65,12 @@ Capturando problema
 
     **Figura 3 - Tela de gerenciamento de problemas**
 
-1.  Será exibida uma mensagem de confirmação da captura da tarefa. Clique
+2.  Será exibida uma mensagem de confirmação da captura da tarefa. Clique
     em *OK* para efetuar a operação. Será apresentado o responsável atual pelo
     atendimento do problema na lista de registros de problema.
 
+
+[1]:/pt-br/citsmart-platform-7/processes/problem/register-problem.html
 
 !!! tip "About"
 
