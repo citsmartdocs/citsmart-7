@@ -15,7 +15,7 @@ Pré-condições
 
 1.  Ter definido a permissão de acesso às funcionalidades do Gerenciamento de
     Portfólio (ver conhecimento [Permissão de acesso do gerenciamento de
-    portfólio]().
+    portfólio][1]).
 
 Filtros
 -------
@@ -264,6 +264,9 @@ Veja também
 
 -   [Cadastro de serviços].
 
+
+[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/portfolio-access.html
+[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/services.html
 
 !!! tip "About"
 
