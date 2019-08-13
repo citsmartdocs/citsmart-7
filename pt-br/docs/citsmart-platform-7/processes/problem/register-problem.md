@@ -16,28 +16,27 @@ Pré-condições
 -------------
 
 1.  Cadastrar contrato (ver conhecimento [Cadastro e pesquisa de
-    contrato];
+    contrato][1]);
 
 2.  Cadastrar unidade (ver conhecimento [Cadastro e pesquisa de
-    unidade];
+    unidade][2]);
 
 3.  Cadastrar solicitante (colaborador) (ver conhecimento [Cadastro e pesquisa
-    de
-    colaborador];
+    de colaborador][3]);
 
 4.  Cadastrar grupo (ver conhecimento [Cadastro e pesquisa de
-    grupo];
+    grupo][4]);
 
 5.  Cadastrar categoria de problema, a qual deverá ter o vínculo com o fluxo
     referente ao problema (ver conhecimento [Cadastro e pesquisa de categoria de
-    problema];
+    problema][5]);
 
 6.  Vincular unidade ao contrato para que a unidade seja listada na tela de
     registro de problema (ver conhecimento [Como relacionar unidade ao
-    contrato?];
+    contrato?][6]);
 
 7.  Definir o fluxo referente ao gerenciamento de problema (ver
-    conhecimento [Manutenção de fluxo de trabalho];
+    conhecimento [Manutenção de fluxo de trabalho][7]);
 
 8.  Cadastrar o grupo executor;
 
@@ -49,7 +48,7 @@ Pré-condições
     criar um novo colaborador, é necessário incluí-lo ao grupo de solicitante no
     qual esteja relacionado ao contrato para que o mesmo consiga registrar um
     problema, ou seja, para que o nome dele seja listado na tela de registro de
-    problema.(ver conhecimento [Como relacionar grupo ao contrato?].
+    problema (ver conhecimento [Como relacionar grupo ao contrato?][8]).
 
 Filtros
 -------
@@ -256,6 +255,16 @@ Visão geral das funções da tela principal
 
    - **6**: Relatórios - apresenta os relatórios dinâmicos relacionados ao
     gerenciamento de problemas.
+
+[1]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[2]:/pt-br/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html
+[3]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html
+[4]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[5]:/pt-br/citsmart-platform-7/processes/problem/category.html
+[6]:/pt-br/citsmart-platform-7/processes/tickets/relate-unit.html
+[7]:/pt-br/citsmart-platform-7/workflow/workflow-management.html
+[8]:/pt-br/citsmart-platform-7/processes/tickets/relate-group.html
+
 
 !!! tip "About"
 
