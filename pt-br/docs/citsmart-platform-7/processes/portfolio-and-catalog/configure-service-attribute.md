@@ -575,7 +575,7 @@ Criando o desenho do mapa de serviço
     !!! Abstract "SAIBA MAIS"
 
         Para cadastrar cada atividade de um serviço (requisição ou incidente),
-        utilize o conhecimento [Cadastro da atividade de serviço][1]).
+        utilize o conhecimento [Cadastro da atividade de serviço][8]).
 
 Vinculando aplicações ao serviço
 -------------------------------
@@ -1003,6 +1003,7 @@ Administração das avaliações do serviço
 [5]:/pt-br/citsmart-platform-7/plataform-administration/time/create-calendar.html
 [6]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
 [7]:/pt-br/citsmart-platform-7/plataform-administration/time/create-cycle.html
+[8]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/activity.html
 
 !!! tip "About"
 
