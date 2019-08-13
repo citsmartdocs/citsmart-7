@@ -50,10 +50,12 @@ Uma visão rápida da principal funcionalidade do módulo
 !!! note "NOTA"
 
      Os relatórios construídos pelo **[Gerador de relatórios
-     Smart]()** são exibidos nesta tela de Relatórios Smart.
+     Smart][1]** são exibidos nesta tela de Relatórios Smart.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
     <b>Updated:</b>07/19/2019 – Anna Martins
+    
+[1]:/pt-br/citsmart-platform-7/additional-features/reports/create/smart-reports/configuration/generate-report.html
