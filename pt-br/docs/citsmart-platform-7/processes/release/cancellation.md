@@ -16,7 +16,7 @@ Pré- condições
 --------------
 
 1.  Ter requisição de liberação registrada (ver conhecimento [Cadastro e
-    pesquisa de requisição de liberação];
+    pesquisa de requisição de liberação][1]);
 
 2.  Ter permissão para cancelar a requisição de liberação.
 
@@ -90,6 +90,8 @@ Cancelando a requisição de liberação
 
 6.  Em ambos os casos anteriores ao clicar no botão "Gravar" a data, hora e
     usuário serão armazenados automaticamente para uma futuraauditoria.
+
+[1]:/pt-br/citsmart-platform-7/processes/release/requisition.html
 
 !!! tip "About"
 
