@@ -27,10 +27,10 @@ Pré-condições
 ------------
 
 1.  Cadastrar perfil de acesso (ver conhecimento [Cadastro e pesquisa de perfil
-    de acesso];
+    de acesso](/pt-br/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html));
 
 2.  Cadastrar colaborador (ver conhecimento [Cadastro e pesquisa de
-    colaborador].
+    colaborador](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html)).
 
 Filtros
 -------
