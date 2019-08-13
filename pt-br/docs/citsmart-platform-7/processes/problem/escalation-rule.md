@@ -16,21 +16,21 @@ Pré-condições
     propriedade **START_MONITORA_INCIDENTES** informando o parâmetro **TRUE**.
 
 2.  Informe o conteúdo abaixo no parâmetro (ver conhecimento [Regras de
-    parametrização - ticket];
+    parametrização - ticket][1]);
 
     -   Parâmetro 190: com o valor S
 
 1.  Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de
-    contrato];
+    contrato][2]);
 
 2.  Ter o colaborador cadastrado (ver conhecimento [Cadastro e pesquisa de
-    colaborador];
+    colaborador][3]);
 
 3.  Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de
-    grupo];
+    grupo][4]);
 
 4.  Ter o portfólio de serviços definido.(ver conhecimento [Cadastro de
-    portfólio de serviços].
+    portfólio de serviços][5]).
 
 Filtros
 -------
@@ -51,14 +51,14 @@ Filtros
 
     -  Nome do Solicitante.
 
-1.  Clique na guia **Pesquisa das Regras de Escalonamento**, será apresentada a
+2.  Clique na guia **Pesquisa das Regras de Escalonamento**, será apresentada a
     tela de pesquisa, conforme ilustrada na figura abaixo:
 
     ![Criar](images/escalation-1.png)
 
     **Figura 1 - Tela de pesquisa das regras de escalonamento**
 
-1.  Realize a pesquisa do registro de regras de escalonamento:
+3.  Realize a pesquisa do registro de regras de escalonamento:
 
     -   Informe o tipo de gerenciamento, tipo de solicitação, número do
         contrato, nome do serviço, grupo e/ou nome do solicitante referente a
@@ -81,7 +81,7 @@ Listagem de itens
 
     **Figura 2 - Tela de lista de itens**
 
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
+2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
     para tela de cadastro exibindo o conteúdo referente ao registro selecionado.
 
 Preenchimento dos campos cadastrais
@@ -94,7 +94,7 @@ Preenchimento dos campos cadastrais
 
     **Figura 3 - Tela de cadastro de regras de escalonamento**
 
-1.  Preencha os campos conforme orientação abaixo:
+2.  Preencha os campos conforme orientação abaixo:
 
     a. Informe os dados de Filtros:
 
@@ -174,9 +174,14 @@ Preenchimento dos campos cadastrais
 
       -   Clique em *Adicionar* para inserção da regra de escalonamento.
 
-1.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
+3.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
     onde a data, hora e usuário serão gravados automaticamente para uma futura
     auditoria.
+
+[1]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrizaion-ticket.html
+[2]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[3]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html
+[4]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
 
 
 !!! tip "About"
