@@ -61,7 +61,7 @@ Definindo as métricas do processo de gerenciamento de incidentes - preenchimen
 Veja também
 -----------
 
--   [Cadastro de Template de Smart Decisions].
+-   [Cadastro de Template de Smart Decisions](/pt-br/citsmart-platform-7/additional-features/reports/create/dashboard/use/template-smart-decision.html).
 
 
 !!! tip "About"
