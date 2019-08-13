@@ -12,8 +12,8 @@ Pré-condições
 -------------
 
 1.  Ter definido o portfólio de serviços para aplicar o tempo de atendimento aos
-    serviços (ver conhecimentos [Cadastro de Portfólio de Serviços], [Cadastro
-    de Serviços], [Configuração dos Atributos do Serviço]
+    serviços (ver conhecimentos [Cadastro de Portfólio de Serviços][1], [Cadastro
+    de Serviços][2], [Configuração dos Atributos do Serviço][3].
 
 Como acessar
 ------------
@@ -224,6 +224,10 @@ requisição/incidente**
     onde a data, hora e usuário serão gravados automaticamente para uma futura
     auditoria.
 
+
+[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/services.html
+[3]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
 
 !!! tip "About"
 
