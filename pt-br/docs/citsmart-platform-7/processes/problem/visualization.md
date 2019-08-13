@@ -15,7 +15,7 @@ Como acessar
 Pré-condições
 -------------
 
-1.  Ter um problema registrado (ver conhecimento [Cadastro de problema].
+1.  Ter um problema registrado (ver conhecimento [Cadastro de problema][1]).
 
 Filtros
 -------
@@ -62,11 +62,13 @@ Visualizando um problema
 
     **Figura 3 - Tela de Gerenciamento de Problemas**
 
-1.  Será aberta a tela para visualização das devidas informações;
+2.  Será aberta a tela para visualização das devidas informações;
 
-2.  Se desejar realizar a impressão das informações do registro de problema,
+3.  Se desejar realizar a impressão das informações do registro de problema,
     clique no botão *Imprimir PDF* ou *Imprimir Xls*.
 
+
+[1]:/pt-br/citsmart-platform-7/processes/problem/register-problem.html
 
 !!! tip "About"
 
