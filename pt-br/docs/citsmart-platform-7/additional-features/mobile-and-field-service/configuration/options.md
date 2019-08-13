@@ -17,8 +17,8 @@ Pré-condições
 
 1.  Ter o aplicativo CITSmart Enterprise ITSM Mobile instalado no dispositivo
     mobile (ver conhecimento [Manual do usuário do aplicativo mobile CITSmart
-    ITSM Enterprise (iOS)], [Manual do usuário do aplicativo mobile CITSmart Enterprise ITSM
-    (Android)];
+    ITSM Enterprise (iOS)][1], [Manual do usuário do aplicativo mobile CITSmart Enterprise ITSM
+    (Android)][2]);
 
 Filtros
 ------
@@ -104,3 +104,7 @@ Verificando o portal de serviços no mobile
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
     <b>Updated:</b>07/22/2019 – Anna Martins
+    
+[1]:/pt-br/citsmart-platform-7/additional-features/mobile-and-field-service/apps/ios.html
+
+[2]:/pt-br/citsmart-platform-7/additional-features/mobile-and-field-service/apps/android.html
