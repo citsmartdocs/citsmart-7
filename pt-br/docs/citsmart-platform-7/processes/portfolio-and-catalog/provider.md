@@ -18,8 +18,7 @@ Como acessar
 Pré-condições
 -------------
 
-1.  Realizar a carga de países (ver conhecimento [Carga de
-    países].
+1.  Realizar a carga de países (ver conhecimento [Carga de países][1]).
 
 Filtros
 -------
@@ -171,6 +170,8 @@ Preenchimento dos campos cadastrais
     onde a data, hora e usuário serão gravados automaticamente para uma futura
     auditoria.
 
+
+[1]:/pt-br/citsmart-platform-7/plataform-administration/region-and-language/load-countries.html
 
 !!! tip "About"
 
