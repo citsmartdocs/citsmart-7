@@ -20,17 +20,16 @@ Pré-condições
 ------------
 
 1.  Ter o fornecedor cadastrado (ver conhecimento [Cadastro e pesquisa de
-    fornecedor];
+    fornecedor](/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/provider.html));
 
 2.  Ter o cliente cadastrado (ver conhecimento [Cadastro e pesquisa de
-    cliente];
+    cliente](/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/client.html));
 
 3.  Ter a moeda cadastrada (ver conhecimento [Cadastro e pesquisa de
-    moeda];
+    moeda](/pt-br/citsmart-platform-7/additional-features/contract-management/configuration/currency.html));
 
 4.  Ter a condição de operação cadastrada (ver conhecimento [Cadastro e pesquisa
-    de condição de
-    operação].
+    de condição de operação](/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/operating-condition.html)).
 
 Filtros
 -------
