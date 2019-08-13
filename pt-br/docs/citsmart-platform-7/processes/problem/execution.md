@@ -15,7 +15,7 @@ Como acessar
 Pré-condições
 -------------
 
-1.  Ter um problema registrado (ver conhecimento [Cadastro de problema].
+1.  Ter um problema registrado (ver conhecimento [Cadastro de problema][1]).
 
 Filtros
 -------
@@ -237,6 +237,8 @@ Vinculando ocorrência ao problema
 
 4.  Em ambos os casos anteriores, ao clicar no botão *Gravar* a data, hora e
     usuário serão gravados automaticamente para uma futura auditoria.
+
+[1]:/pt-br/citsmart-platform-7/processes/problem/register-problem.html
 
 
 !!! tip "About"
