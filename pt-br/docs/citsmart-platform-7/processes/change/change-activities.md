@@ -24,7 +24,7 @@ Listagem de itens
 ------------------
 
 1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na 
-listagem padrão da funcionalidade: **Nº da Mudança, Requisição de Mudança, Atividade, Data/Hora Fim** e **Situação**.
+listagem padrão da funcionalidade: Nº da Mudança, Requisição de Mudança, Atividade, Data/Hora Fim e Situação.
 
 2. Existe um botão de ação disponível ao usuário em relação a cada item da listagem, é ele: "Executar".
 
