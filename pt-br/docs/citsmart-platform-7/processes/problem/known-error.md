@@ -17,7 +17,7 @@ Pré-condições
 -------------
 
 1.  Ter um problema registrado (ver conhecimento [Cadastro de
-    problema].
+    problema][1]).
 
 Filtros
 -------
@@ -118,6 +118,8 @@ informações para auxiliar na resolução de incidentes ou problemas.
 3.  Em ambos os casos anteriores, ao clicar no botão *Gravar* a data, hora e
     usuário serão gravados automaticamente para uma futura auditoria.
 
+
+[1]:/pt-br/citsmart-platform-7/processes/problem/register-problem.html
 
 !!! tip "About"
 
