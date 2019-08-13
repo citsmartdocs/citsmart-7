@@ -19,17 +19,16 @@ Pré-condições
 -------------
 
 1.  Ter o cliente cadastrado (ver conhecimento [Cadastro e pesquisa de
-    cliente]();
+    cliente][1]);
 
 2.  Cadastrar grupo (ver conhecimento [Cadastro e pesquisa de
-    grupo]();
+    grupo][2]);
 
 3.  Cadastrar unidade (ver conhecimento [Cadastro e pesquisa de
-    unidade]();
+    unidade][3]);
 
 4.  Ter os fluxos de trabalho definidos (ver conhecimento [Manutenção de fluxo
-    de
-    trabalho]().
+    de trabalho][4]).
 
 Filtros
 -------
@@ -128,6 +127,12 @@ Preenchimento dos campos cadastrais
 
 3.  Após informar os dados, clique no botão *Gravar* para efetuar o registro, onde a
 data, hora e usuário serão gravados automaticamente para uma futura auditoria.
+
+[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/client.html
+[2]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[3]:/pt-br/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html
+[4]:/pt-br/citsmart-platform-7/workflow/workflow-management.html
+
 
 !!! tip "About"
 
