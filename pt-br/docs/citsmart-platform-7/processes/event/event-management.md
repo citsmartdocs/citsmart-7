@@ -97,9 +97,9 @@ através dessa funcionalidade;
 2. Clique no ícone ![simbolo](images/simb-abrir.png)  da seção de Pesquisa ![simbolo](images/simb-pesq.png), então será 
 apresentada a respectiva tela para pesquisa de ocorrência de evento, conforme ilustração abaixo:
 
-    ![Pesquisa](images/ger-eve.img4.png)
+   ![Pesquisa](images/ger-eve.img4.png)
     
-    **Figura 4 - Tela de pesquisa de ocorrência de evento**
+   **Figura 4 - Tela de pesquisa de ocorrência de evento**
     
 3. Informe os filtros de acordo com sua necessidade para pesquisa de ocorrência de eventos.
 
@@ -129,16 +129,16 @@ Ações
 1. Ao clicar na opção "Ações" do menu da **Figura 6**, uma tela será mostrada com a relação de todos os incidentes/requisições
 vinculados a ocorrência selecionada:
 
-    ![Ações](images/ger-eve.img7.png)
+   ![Ações](images/ger-eve.img7.png)
     
-    **Figura 7 - Ações**
+   **Figura 7 - Ações**
     
 2. Ao clicar no botão "Executar", uma nova tela é apresentada mostrando e disponibilizando a requisição/incidente para
 executá-lo normalmente (Encerrar, Capturar, etc.). conforme figura abaixo:
 
-    ![Incidente](images/ger-eve.img8.png)
+   ![Incidente](images/ger-eve.img8.png)
     
-    **Figura 8 - Tela de requisição/incidente**
+   **Figura 8 - Tela de requisição/incidente**
     
 Ocorrências relacionadas
 --------------------------
