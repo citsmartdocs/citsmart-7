@@ -12,40 +12,40 @@ Pré-condições
 
 1.  Ter permissão de acesso às funcionalidades de Gerenciamento de Portfólio e
     Catálogo (ver conhecimento [Permissão de Acesso do Gerenciamento de
-    Portfólio];
+    Portfólio][1]);
 
 2.  Ter o portfólio com os serviços cadastrados (ver conhecimentos [Cadastro de
-    Portfólio de Serviços], [Cadastro deServiços];
+    Portfólio de Serviços][2]), [Cadastro de Serviços][3]);
 
 3.  Ter o contrato vinculado ao serviço (ver conhecimento [Configuração dos
-    Atributos do Serviço];
+    Atributos do Serviço][4]);
 
 4.  Ter o fornecedor cadastrado (ver conhecimento [Cadastro e Pesquisa de
-    Fornecedor];
+    Fornecedor][5]);
 
 5.  Ter o cliente cadastrado (ver conhecimento [Cadastro e Pesquisa de
-    Cliente];
+    Cliente][6]);
 
 6.  Ter a moeda cadastrada (ver conhecimento [Cadastro e Pesquisa de
-    Moeda];
+    Moeda][7]);
 
 7.  Ter a condição de operação cadastrada (ver conhecimento [Cadastro e Pesquisa
-    de Condição de Operação];
+    de Condição de Operação][8]);
 
 8.  Ter o calendário definido (ver conhecimento [Cadastro e Pesquisa de
-    Calendário];
+    Calendário][9]);
 
 9.  Ter o tempo de atendimento de serviços definido (ver conhecimento [Cadastro
-    e Pesquisa de Tempo de Atendimento];
+    e Pesquisa de Tempo de Atendimento][10]);
 
 10. Ter modelos de e-mails definidos (ver conhecimento [Cadastro e Pesquisa de
-    Configuração de Modelo de E-mail];
+    Configuração de Modelo de E-mail][11]);
 
 11. Ter o fluxo de trabalho definido (ver conhecimento [Manutenção de Fluxo de
-    Trabalho];
+    Trabalho][12]);
 
 12. Ter definidas as pesquisas (ver conhecimento [Cadastro e pesquisa de
-    Pesquisa de Satisfação].
+    Pesquisa de Satisfação][13]).
 
 Configurando os atributos do contrato
 ------------------------------------
@@ -595,6 +595,19 @@ contratado*
     Não é possível excluir um rateio cujo ciclo tenha serviços encerrados
     com as configurações cadastradas.
 
+[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/portfolio-access.html
+[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+[3]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/services.html
+[4]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
+[5]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/provider.html
+[6]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/client.html
+[7]:/pt-br/citsmart-platform-7/additional-features/contract-management/configuration/currency.html
+[8]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/operating-condition.html
+[9]:/pt-br/citsmart-platform-7/plataform-administration/time/create-calendar.html
+[10]:/pt-br/citsmart-platform-7/processes/service-level/time-attendance.html
+[11]:/pt-br/citsmart-platform-7/plataform-administration/email-settings/configure-email-template.html
+[12]:/pt-br/citsmart-platform-7/workflow/workflow-management.html
+[13]:/pt-br/citsmart-platform-7/additional-features/surveys-and-feedback/satisfaction-survey-registration.html
 
 
 !!! tip "About"
