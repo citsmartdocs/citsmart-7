@@ -33,8 +33,8 @@ Pré-condições
 
 2.  Configurar o servidor para uso do aplicativo mobile **CITSmart ITSM
     Enterprise** (ver conhecimentos: [Manual de configuração do servidor para
-    uso do CITSmart ITSM Enterprise (iOS e Android)] e [Cadastro
-    e Pesquisa das Configurações das Opções de Mobile].
+    uso do CITSmart ITSM Enterprise (iOS e Android)][1] e [Cadastro
+    e Pesquisa das Configurações das Opções de Mobile][2]).
 
 Instalação e configuração do app no mobile
 ------------------------------------------
@@ -126,7 +126,8 @@ Utilização do app no mobile
     
     **Figura 6 - Tela de menu**
 
-1.  Para escolher o tipo de solicitação que deseja visualizar, clique no ícone ![Criar](images/ios-         6.1.png) localizado no canto esquerdo superior;
+1.  Para escolher o tipo de solicitação que deseja visualizar, clique no ícone ![Criar](images/ios-6.1.png) localizado no canto 
+esquerdo superior;
 
     ![Criar](images/ios-7.png)
     
@@ -359,3 +360,7 @@ necessário aprová-las.
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
     <b>Updated:</b>07/22/2019 – Anna Martins
+    
+[1]:/pt-br/citsmart-platform-7/additional-features/mobile-and-field-service/configuration/app-android-ios.html
+
+[2]:/pt-br/citsmart-platform-7/additional-features/mobile-and-field-service/configuration/options.html
