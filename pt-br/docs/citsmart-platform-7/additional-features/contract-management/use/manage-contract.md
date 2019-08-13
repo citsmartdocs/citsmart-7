@@ -20,23 +20,19 @@ Pré-condições
 ------------
 
 1.  Cadastrar grupo (ver conhecimento [Cadastro e pesquisa de
-    grupo];
+    grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html));
 
 2.  Cadastrar contrato (ver conhecimento [Cadastro e pesquisa de
-    contrato];
+    contrato](/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html));
 
-3.  Cadastrar serviços (ver conhecimento [Cadastro de portfólio de
-    serviços]; [Cadastro
-    de
-    serviço]; [Cadastro
-    da atividade de
-    serviço];
+3.  Cadastrar serviços (ver conhecimento [Cadastro de portfólio de serviços][1]; [Cadastro de serviço][2]; 
+[Cadastro da atividade serviço][3]);
 
 4.  Cadastrar acordo de nível de serviço (geral) (ver conhecimento [Cadastro e
-    pesquisa de acordo de nível de serviço geral];
+    pesquisa de acordo de nível de serviço geral](/pt-br/citsmart-platform-7/processes/service-level/register-sla.html));
 
 5.  Cadastrar modelo de e-mail (ver conhecimento [Cadastro e pesquisa de
-    configuração de modelo de e-mail].
+    configuração de modelo de e-mail](/pt-br/citsmart-platform-7/plataform-administration/email-settings/configure-email-template.html).
 
 Filtros
 ------
@@ -1075,3 +1071,9 @@ Adicionando notificação
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
     <b>Updated:</b>07/19/2019 – Anna Martins
+
+[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+
+[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/services.html
+
+[3]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/activity.html
