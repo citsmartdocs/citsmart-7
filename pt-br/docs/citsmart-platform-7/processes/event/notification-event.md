@@ -8,7 +8,7 @@ configuração referente à notificação que será disparada quando as condiç�
 !!! warning "ATENÇÃO"
 
     É necessário ter conhecimento da linguagem de processamento de eventos. Para mais informações consulte 
-    o site: [http://www.espertech.com/esper](http://www.espertech.com/esper)
+    o site: [espertech](http://www.espertech.com/esper)
     
 Pré-condições
 ---------------
