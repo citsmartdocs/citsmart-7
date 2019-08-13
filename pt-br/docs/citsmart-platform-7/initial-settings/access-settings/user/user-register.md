@@ -17,10 +17,10 @@ Pré-condições
 -----------
 
 1.  Ter um perfil de acesso definido (ver conhecimento [Cadastro e pesquisa de
-    perfil de acesso];
+    perfil de acesso](/pt-br/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html));
 
 2.  Ter o colaborador cadastrado (ver conhecimento [Cadastro e pesquisa de
-    colaborador].
+    colaborador](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html)).
 
 Filtros
 -------
