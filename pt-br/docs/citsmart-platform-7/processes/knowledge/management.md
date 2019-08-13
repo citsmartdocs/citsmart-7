@@ -13,7 +13,7 @@ Como acessar
 Pré-condições
 ------------
 
-1.  Ter pastas cadastradas para inserção e organização dos conhecimentos (ver conhecimento [Cadastro e pesquisa de pasta](/pt-br/citsmart-platform-7/processes/knowledge/folder.html)).
+1.  Ter pastas cadastradas para inserção e organização dos conhecimentos (ver conhecimento [Cadastro e pesquisa de pasta][1]).
 
 Filtros
 ------
@@ -264,6 +264,7 @@ Opções avançadas
 
     -   **Legislação**: significa se conhecimento cadastrado é referente a uma legislação.
 
+[1]:/pt-br/citsmart-platform-7/processes/knowledge/folder.html
 
 !!! tip "About"
 
