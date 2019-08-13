@@ -17,7 +17,7 @@ Pré-condições
 -------------
 
 1.  Ter requisição de liberação registrada (ver conhecimento [Cadastro e
-    pesquisa de requisição de liberação].
+    pesquisa de requisição de liberação][1]).
 
 Filtros
 -------
@@ -71,6 +71,8 @@ Capturando requisição de liberação
 
 2.  Clique em *Ok* para efetuar a operação. Feito isso, será apresentado o
     responsável atual pela execução da requisição de liberação no registro dela.
+
+[1]:/pt-br/citsmart-platform-7/processes/release/requisition.html
 
 !!! tip "About"
 
