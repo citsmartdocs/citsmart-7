@@ -18,7 +18,7 @@ Pré-condições
 2.  Configurar o parâmetro 257 - Tamanho de página para retorno nos serviços
     REST paginados: definir a quantidade de registros retornado em serviços de
     listagem consumidos pelo Mobile (Padrão: 10) (ver conhecimento [Configurar
-    parametrização - Mobile];
+    parametrização - Mobile](/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-mobile.html));
 
 3.  Configurar o parâmetro 272 - Determina se serão notificados somente
     solicitações sem responsável no CITSmart ITSM Enterprise :
@@ -61,7 +61,7 @@ Pré-condições
 
 12. Configurar o parâmetro 254 - API Key para uso de serviços Google: informar a
     API key (chave) para utilizar os serviços MAPS da Google (ver
-    conhecimento [Configurar parametrização - sistema].
+    conhecimento [Configurar parametrização - sistema](/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-system.html)).
 
 Configurando os web services
 ---------------------------
@@ -133,20 +133,20 @@ Google.
 
 2.  Clique em Criar um projeto, conforme indicado na figura abaixo:
 
-    ![Criar](images/android-ios-3.jpg)
+        ![Criar](images/android-ios-3.jpg)
     
-    **Figura 3 - Console do desenvolvedor Google**
+        **Figura 3 - Console do desenvolvedor Google**
 
-1.  Será apresentada uma janela, conforme ilustrada na figura abaixo, para
+3.  Será apresentada uma janela, conforme ilustrada na figura abaixo, para
     informar os dados do novo projeto;
 
     ![Criar](images/android-ios-4.jpg)
     
     **Figura 4 - Tela de criação de projeto**
 
-1.  Informe o nome do projeto e clique no botão Criar para criação do projeto.
+4.  Informe o nome do projeto e clique no botão Criar para criação do projeto.
 
-2.  Após criar o projeto, clique em APIs e serviços. Para criar a API Key,
+5.  Após criar o projeto, clique em APIs e serviços. Para criar a API Key,
     clique em APIs e serviços > Credenciais > Criar credenciais > Chave de API,
     conforme indicado na figura abaixo:
 
@@ -154,17 +154,17 @@ Google.
     
     **Figura 5 - Tela de criação de API Key**
 
-1.  Feito isso, a chave de API será apresentada:
+6.  Feito isso, a chave de API será apresentada:
 
     ![Criar](images/android-ios-6.jpg)
     
     **Figura 6 - Tela de opções de API Key para criação**
 
-1.  Escolha a opção que melhor lhe atenda. Para mais informações sobre qual
+7.  Escolha a opção que melhor lhe atenda. Para mais informações sobre qual
     chave irá lhe atender,
     acesse <https://developers.google.com/console/help/new/#generatingdevkeys>.
 
-2.  Após as chaves criadas, as APIs já poderão ser consumidas.
+8.  Após as chaves criadas, as APIs já poderão ser consumidas.
 
 APIs a serem utilizadas nas soluções
 -----------------------------------
@@ -221,7 +221,7 @@ Para ativar uma API para uso, proceda conforme os passos descritos abaixo:
     
     **Figura 8 - APIs Google**
 
-1.  Será apresentada a biblioteca de APIs. Selecione a API que deseja ativar ( a
+3.  Será apresentada a biblioteca de APIs. Selecione a API que deseja ativar ( a
     figura abaixo representa um exemplo de API) e clique no botão Ativar API
     conforme indicado na figura abaixo:
 
@@ -229,14 +229,14 @@ Para ativar uma API para uso, proceda conforme os passos descritos abaixo:
     
     **Figura 9 - Ativação da APIs Google**
 
-1.  Feito isso, a API estará habilitada para uso.
+4.  Feito isso, a API estará habilitada para uso.
 
 Utilizando o aplicativo
 ----------------------
 
-[Manual do usuário do aplicativo mobile CITSmart Enterprise ITSM (Android)]
+[Manual do usuário do aplicativo mobile CITSmart Enterprise ITSM (Android)](/pt-br/citsmart-platform-7/additional-features/mobile-and-field-service/apps/android.html)
 
-[Manual do usuário do aplicativo mobile CITSmart Enterprise ITSM (iOS)]
+[Manual do usuário do aplicativo mobile CITSmart Enterprise ITSM (iOS)](/pt-br/citsmart-platform-7/additional-features/mobile-and-field-service/apps/ios.html)
 
 
 
