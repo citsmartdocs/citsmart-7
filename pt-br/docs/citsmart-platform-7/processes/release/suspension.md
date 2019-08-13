@@ -20,7 +20,7 @@ Pré-condições
 
 2.  Ter a justificativa de requisição de liberação cadastrada (ver
     conhecimento [Cadastro e pesquisa de justificativa de
-    liberação]().
+    liberação][1]).
 
 Filtros
 -------
@@ -87,6 +87,8 @@ Preenchimento de campos cadastrais
     ![Criar](images/suspension-5.png)
 
     **Figura 5 - Requisição de liberação suspensa**
+
+[1]:/pt-br/citsmart-platform-7/processes/release/justification.html
 
 !!! tip "About"
 
