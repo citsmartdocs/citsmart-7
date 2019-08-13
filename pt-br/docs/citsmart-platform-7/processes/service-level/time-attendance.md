@@ -63,8 +63,7 @@ Listagem de items
 Preenchimento de campos cadastrais
 ----------------------------------
 
-1.  Será apresentada a tela de **Cadastro de Tempo de Atendimento**, conforme
-    ilustrada na figura abaixo:
+1.  Será apresentada a tela de **Cadastro de Tempo de Atendimento**, conforme ilustrada na figura abaixo:
 
     ![Criar](images/attendance-3.png)
 
