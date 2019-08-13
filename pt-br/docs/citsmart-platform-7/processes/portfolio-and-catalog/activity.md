@@ -10,23 +10,19 @@ Pré-condições
 ------------
 
 1.  Ter o portfólio com os serviços cadastrados (ver conhecimentos [Cadastro de
-    portfólio de
-    serviços](), [Cadastro
-    de
-    serviços]();
+    portfólio de serviços][1], [Cadastro de serviços][2]);
 
 2.  Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de
-    grupo]();
+    grupo][3]);
 
 3.  Ter os itens de configuração cadastrados (ver conhecimento [Gerenciamento de
-    itens de
-    configuração]();
+    itens de configuração][4]);
 
 4.  Ter o calendário definido (ver conhecimento [Cadastro e pesquisa de
-    calendário]();
+    calendário][5]);
 
 5.  Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de
-    contrato]().
+    contrato][6]).
 
 Registrando atividades de requisição do serviço
 ---------------------------------------------
@@ -294,7 +290,7 @@ Registrando atividades de incidente do serviço
 
     **Figura 8 - Tela de cadastro de atividade de incidente**
 
-1.  Preencha os campos conforme orientações abaixo:
+2.  Preencha os campos conforme orientações abaixo:
 
     -   **Nome do Atividade**: defina o nome da atividade de incidente;
 
@@ -339,7 +335,7 @@ Registrando atividades de incidente do serviço
     -   **Lugar de Execução das Atividades**: selecione o local de execução da
     atividade de incidente.
 
-1.  Caso queira disponibilizar a atividade de incidente no Portal Smart e/ou
+3.  Caso queira disponibilizar a atividade de incidente no Portal Smart e/ou
     Chat para solicitação, clique na aba **Apresentação**;
 
     ![Criar](images/activity-9.png)
@@ -397,7 +393,7 @@ Registrando atividades de incidente do serviço
 
     **Figura 10- Tela de seleção de imagem**
 
-1.  Vincule o grupo executor, o qual terá acesso a atividade de incidente no
+4.  Vincule o grupo executor, o qual terá acesso a atividade de incidente no
     portal e/ou chat:
 
     !!! note "NOTA"
@@ -423,27 +419,33 @@ Registrando atividades de incidente do serviço
         Na tela de pesquisa de grupo, serão listados somente os grupos que foram
         vinculados no registro de portfólio de serviço.
 
-1.  Após informar os dados necessários da atividade de incidente, clique no
+5.  Após informar os dados necessários da atividade de incidente, clique no
     botão *Gravar* para efetuar o registro. Feito isso, a atividade de incidente
     será gravada e vinculada ao serviço;
 
-2.  Para alterar os dados da atividade de incidente, clique no botão *Editar* da
+6.  Para alterar os dados da atividade de incidente, clique no botão *Editar* da
     mesma, modifique os dados que desejar e clique em *Gravar* para efetuar a
     alteração, onde a data, hora e usuário serão gravados automaticamente para
     uma futura auditoria;
 
-3.  Para excluir a atividade de incidente, clique no botão *Editar* da mesma e
+7.  Para excluir a atividade de incidente, clique no botão *Editar* da mesma e
     logo em seguida clique no botão *Excluir;*
 
-4.  Para desvincular a atividade de incidente, basta clicar no
+8.  Para desvincular a atividade de incidente, basta clicar no
     botão *Desvincular* da mesma;
 
-5.  Para vincular novamente uma atividade de incidente ao serviço, clique no
+9.  Para vincular novamente uma atividade de incidente ao serviço, clique no
     botão *Vincular Incidente*. Feito isso, será exibida a tela para pesquisa
     das atividades de incidente que foram desvinculadas do serviço. Realize a
     pesquisa e selecione a atividade de incidente para realizar o vínculo com
     sucesso.
 
+[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/services.html
+[3]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[4]:/pt-br/citsmart-platform-7/processes/configuration/IC-management.html
+[5]:/pt-br/citsmart-platform-7/plataform-administration/time/create-calendar.html
+[6]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
 
 !!! tip "About"
 
