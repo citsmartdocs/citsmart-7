@@ -29,8 +29,7 @@ Pré-condições
 -------------
 
 1.  Ter o portfólio de serviços definido (ver conhecimento [Cadastro de
-    portfólio de
-    serviços]().
+    portfólio de serviços][1]).
 
 Filtros
 -------
@@ -82,6 +81,8 @@ Preenchimento dos campos cadastrais
 ---------------------------------
 
 1.  Não se aplica.
+
+[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
 
 !!! tip "About"
 
