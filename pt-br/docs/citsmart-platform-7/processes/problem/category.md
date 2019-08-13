@@ -10,13 +10,11 @@ irá seguir.
 Pré-condições
 -------------
 
-1.  Definir o fluxo referente ao gerenciamento de problema (ver
-    conhecimento [Manutenção de fluxo de trabalho];
+1.  Definir o fluxo referente ao gerenciamento de problema (ver conhecimento [Manutenção de fluxo de trabalho][1]);
 
 2.  Criar o template de problema;
 
-3.  Cadastrar o grupo executor (ver conhecimento [Cadastro e pesquisa de
-    grupo].
+3.  Cadastrar o grupo executor (ver conhecimento [Cadastro e pesquisa de grupo][2]).
 
 Como acessar
 ------------
@@ -97,6 +95,9 @@ Preenchimento dos campos cadastrais
 3.  Clique no botão *Gravar* para efetuar o registro, onde a data, hora e
     usuário serão gravados automaticamente para uma futura auditoria.
 
+
+[1]:/pt-br/citsmart-platform-7/workflow/workflow-management.html
+[2]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
 
 !!! tip "About"
 
