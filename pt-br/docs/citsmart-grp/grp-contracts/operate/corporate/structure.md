@@ -23,17 +23,17 @@ Para cadastrar um novo Órgão, basta clicar em “**Cadastrar**” para que a s
 
 Nesta tela, o usuário deverá preencher os seguintes campos:
 
-    - **Nome**: nome do órgão que será cadastrado.
-    - **Sigla**: sigla do órgão que será cadastrado.
-    - **Data início**: data início da vigência do órgão.
-    - **Data fim**: data fim para vigência do órgão.
+- **Nome**: nome do órgão que será cadastrado.
+- **Sigla**: sigla do órgão que será cadastrado.
+- **Data início**: data início da vigência do órgão.
+- **Data fim**: data fim para vigência do órgão.
     
 Após inserir todas as informações necessárias, clique em “**Salvar**”, para que o sistema armazene as informações inseridas.
 
 Nesta tela as seguintes ações também poderão ser realizadas:
 
-    - **Limpar**: limpa todos os campos preenchidos antes de salvar o cadastro.
-    - **Pesquisar**: retorna à tela de pesquisa.
+- **Limpar**: limpa todos os campos preenchidos antes de salvar o cadastro.
+- **Pesquisar**: retorna à tela de pesquisa.
     
 Para visualizar as informações de um cadastro clique em “**Visualizar**” e o sistema exibirá a tela de cadastro. A tela de 
 visualização permite também editar as informações e retornar à tela de pesquisa.
@@ -47,8 +47,8 @@ O botão “**Filtros**” permite criar filtros específicos para visualizaçã
 
 As ações disponíveis dentro da tela de visualização de um Órgão são:
 
-    - **Editar**: permite editar as informações de um registro.
-    - **Pesquisar**: retorna à tela de pesquisa.
+- **Editar**: permite editar as informações de um registro.
+- **Pesquisar**: retorna à tela de pesquisa.
     
 Nível de autoridade
 ---------------------
