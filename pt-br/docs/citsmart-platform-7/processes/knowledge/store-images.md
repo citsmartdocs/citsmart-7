@@ -18,7 +18,7 @@ Pré- condições
 
 1.  Para adição de imagens na galeria é necessário ter realizado o cadastro de
     categoria de imagem (ver conhecimento [Cadastro e pesquisa de categoria de
-    imagem](/pt-br/citsmart-platform-7/processes/knowledge/image-category.html)).
+    imagem][1]).
 
 Filtros
 -------
@@ -68,6 +68,8 @@ Adicionando imagens na galeria
     -   Clique no botão *Enviar*. Após isso, a imagem será adicionada na galeria de
     imagens.
 
+
+[1]:/pt-br/citsmart-platform-7/processes/knowledge/image-category.html
 
 !!! tip "About"
 
