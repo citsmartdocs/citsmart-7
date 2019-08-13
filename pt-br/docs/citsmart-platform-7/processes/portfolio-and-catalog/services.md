@@ -9,15 +9,15 @@ Pré-condições
 -------------
 
 1.  Ter permissão de acesso às funcionalidades do Gerenciamento de Portfólio
-    (ver conhecimento [Permissão de acesso do gerenciamento de portfólio];
+    (ver conhecimento [Permissão de acesso do gerenciamento de portfólio][1]);
 
 2.  Ter o portfólio de serviços cadastrado (ver conhecimento [Cadastro de
-    portfólio de serviços];
+    portfólio de serviços][2]);
 
 3.  Ter a categoria de serviço cadastrada (ver conhecimento [Cadastro e pesquisa
-    de categoria de serviço];
+    de categoria de serviço][3]);
 
-4.  Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de grupo].
+4.  Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de grupo][4]).
 
 Como acessar
 ------------
@@ -367,7 +367,13 @@ Registrando serviço de apoio
 Veja também
 -----------
 
--   [Configuração dos atributos do serviço].
+-   [Configuração dos atributos do serviço][5]).
+
+[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/portfolio-access.html
+[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+[3]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/service-category.html
+[4]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[5]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
 
 
 !!! tip "About"
