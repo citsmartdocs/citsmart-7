@@ -17,33 +17,28 @@ Pré-condições
 -------------
 
 1.  Ter o colaborador cadastrado (ver conhecimento [Cadastro e pesquisa de
-    colaborador]();
+    colaborador][1]);
 
 2.  Ter o grupo executor cadastrado (ver conhecimento [Cadastro e pesquisa de
-    grupo]();
+    grupo][2]);
 
 3.  Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de
-    unidade]();
+    unidade][3]);
 
 4.  Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de
-    contrato]()
-    ;
+    contrato][4]);
 
 5.  Ter o grupo vinculado ao contrato (ver conhecimento [Como relacionar grupo
-    ao
-    contrato?]();
+    ao contrato?][5]);
 
 6.  Ter a unidade vinculada ao contrato (ver conhecimento [Como relacionar
-    unidade ao
-    contrato?]();
+    unidade ao contrato?][6]);
 
 7.  Ter o tipo de liberação cadastrado (ver conhecimento [Cadastro e pesquisa de
-    tipo de
-    liberação]();
+    tipo de liberação][7]);
 
 8.  Ter o grupo de atividade periódica cadastrado (ver conhecimento [Cadastro e
-    pesquisa de grupo de atividade
-    periódica]().
+    pesquisa de grupo de atividade periódica][8]).
 
 Filtros
 -------
@@ -113,7 +108,7 @@ Preenchimento dos campos cadastrais
 
     **Figura 4 - Tela de gerenciamento de liberação**
 
-1.  Registre as informações do contrato, conforme indicadas abaixo:
+3.  Registre as informações do contrato, conforme indicadas abaixo:
 
     ![Criar](images/requisition-5.png)
 
@@ -121,7 +116,7 @@ Preenchimento dos campos cadastrais
 
     -   **Contrato**: informe o contrato referente a registro de liberação;
 
-1.  Registre as informações do solicitante, conforme indicadas abaixo:
+4.  Registre as informações do solicitante, conforme indicadas abaixo:
 
     ![Criar](images/requisition-6.png)
 
@@ -154,7 +149,7 @@ Preenchimento dos campos cadastrais
      -  **Observação**: descreva as observações sobre o contato, caso seja
         necessário.
 
-1.  Registre as informações da requisição, conforme indicadas abaixo:
+5.  Registre as informações da requisição, conforme indicadas abaixo:
 
     ![Criar](images/requisition-7.png)
 
@@ -190,7 +185,7 @@ Preenchimento dos campos cadastrais
 
     **Figure 8 - Urgência X impacto**
 
-1.  A combinação destas informações definirá a prioridade necessária para
+6.  A combinação destas informações definirá a prioridade necessária para
     realização da liberação.
 
     -   **Descrição**: informe a descrição da liberação de mudança que está sendo
@@ -283,6 +278,16 @@ Vinculando anexos
 
 -   Será exibida uma mensagem confirmando o sucesso do registro da registro de
     liberação.
+
+
+[1]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html
+[2]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[3]:/pt-br/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html
+[4]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[5]:/pt-br/citsmart-platform-7/processes/tickets/relate-group.html
+[6]:/pt-br/citsmart-platform-7/processes/tickets/relate-unit.html
+[7]:/pt-br/citsmart-platform-7/processes/release/register-type.html
+[8]:/pt-br/citsmart-platform-7/additional-features/automation-of-operation/configuration/periodic-activity-group.html
 
 !!! tip "About"
 
