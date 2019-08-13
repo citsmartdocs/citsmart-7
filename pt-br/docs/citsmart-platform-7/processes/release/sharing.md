@@ -17,7 +17,7 @@ Pré-condições
 -------------
 
 1.  Ter requisição de liberação registrada (ver conhecimento [Cadastro e
-    pesquisa de requisição de liberação][1];
+    pesquisa de requisição de liberação][1]);
 
 2.  Ter permissão para delegar/compartilhar a requisição de liberação.
 
