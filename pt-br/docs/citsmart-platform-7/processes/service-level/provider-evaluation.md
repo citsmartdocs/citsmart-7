@@ -17,10 +17,10 @@ Pré-condições
 -------------
 
 1.  Ter o fornecedor cadastrado (ver conhecimento [Cadastro e pesquisa de
-    fornecedor];
+    fornecedor][1]);
 
 2.  Ter um serviço cadastrado (ver conhecimento [Cadastro da atividade de
-    serviço].
+    serviço][2]).
 
 Filtros
 -------
@@ -31,7 +31,7 @@ Filtros
 
      - Pesquisar Fornecedor.
 
-1.  Será apresentada a tela de **Avaliação de Fornecedor**, conforme ilustrada
+2.  Será apresentada a tela de **Avaliação de Fornecedor**, conforme ilustrada
     na figura a seguir:
 
 ![Criar conta](images/provider-evaluation-1.png)
@@ -58,6 +58,9 @@ Preenchimento dos campos cadastrais
 
 1.  Não se aplica.
 
+
+[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/provider.html
+[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/activity.html
 
 !!! tip "About"
 
