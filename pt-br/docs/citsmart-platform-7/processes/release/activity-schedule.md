@@ -17,12 +17,10 @@ Pré-condições
 -------------
 
 1.  Ter requisição de liberação registrada (ver conhecimento [Cadastro e
-    pesquisa de requisição de
-    liberação]();
+    pesquisa de requisição de liberação][1]);
 
 2.  Ter o grupo de atividade periódica cadastrado (ver conhecimento [Cadastro e
-    pesquisa de grupo de atividade
-    periódica]().
+    pesquisa de grupo de atividade periódica][2]).
 
 Filtros
 -------
@@ -82,7 +80,7 @@ Preenchimento dos campos cadastrais
 
     **Figura 4 - Agendamento de atividades**
 
-1.  Preencha os seguintes campos:
+3.  Preencha os seguintes campos:
 
     -   **Grupo de Atividades (para o agendamento)**: selecione o grupo que irá
     executar a atividade de liberação;
@@ -95,10 +93,12 @@ Preenchimento dos campos cadastrais
     -   **Duração estimada**: informe a duração estimada, em minutos, ou seja, o
     tempo que levará para realizar a atividade.
 
-1.  Após os dados informados, clique no botão *Gravar* para efetuar a operação,
+4.  Após os dados informados, clique no botão *Gravar* para efetuar a operação,
     onde a data, hora e usuário serão gravados automaticamente para uma futura
     auditoria.
 
+[1]:/pt-br/citsmart-platform-7/processes/release/requisition.html
+[2]:/pt-br/citsmart-platform-7/additional-features/automation-of-operation/configuration/periodic-activity-group.html
 
 !!! tip "About"
 
