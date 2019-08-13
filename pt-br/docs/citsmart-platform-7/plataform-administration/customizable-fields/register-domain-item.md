@@ -14,7 +14,7 @@ Como acessar
 Pré-condições
 ---------------
 
-1. Ter o domínio cadastrado (ver conhecimento Cadastro e pesquisa de domínios).
+1. Ter o domínio cadastrado (ver conhecimento [Cadastro e pesquisa de domínios](/pt-br/citsmart-platform-7/plataform-administration/customizable-fields/register-domain.html).
 
 Filtros
 --------
