@@ -17,12 +17,10 @@ Pré-condições
 ------------
 
 1.  Ter a categoria de serviço cadastrada (ver conhecimento [Cadastro e pesquisa
-    de categoria de
-    serviço];
+    de categoria de serviço](/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/service-category.html));
 
 2.  Ter o tipo de serviço cadastrado (ver conhecimento [Cadastro e pesquisa de
-    tipo de
-    serviço].
+    tipo de serviço](/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/type-service.html)).
 
 Filtros
 ------
