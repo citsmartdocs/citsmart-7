@@ -11,8 +11,8 @@ Como acessar
 -----------
 
 1.  Acesse a funcionalidade de Relatório de Unidade Colaborador através da
-    navegação no menu principal **Relatórios > Gerência de Pessoal > Relatório
-    Unidade Colaborador**.
+   navegação no menu principal **Relatórios > Gerência de Pessoal > 
+   Relatório Unidade Colaborador**.
 
 Pré-condições
 ------------
