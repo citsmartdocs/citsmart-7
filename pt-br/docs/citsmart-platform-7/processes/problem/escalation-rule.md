@@ -182,6 +182,7 @@ Preenchimento dos campos cadastrais
 [2]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
 [3]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html
 [4]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[5]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
 
 
 !!! tip "About"
