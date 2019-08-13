@@ -15,7 +15,7 @@ Como acessar
 Pré-condições
 -------------
 
-1.  Ter um problema registrado (ver conhecimento [Cadastro de problema].
+1.  Ter um problema registrado (ver conhecimento [Cadastro de problema][1]).
 
 Filtros
 -------
@@ -174,7 +174,7 @@ solução.
 
          -   **Descrição**: descreva a solução de contorno proposta;
 
-         -   Após os dados informados, clique no botão *Gravar* para efetuar o registro das informações de solução de contorno, onde a             data, hora e usuário serão gravados automaticamente para uma futura auditoria.
+         -   Após os dados informados, clique no botão *Gravar* para efetuar o registro das informações de solução de contorno, onde a data, hora e usuário serão gravados automaticamente para uma futura auditoria.
 
     -  Caso tenha uma solução definitiva para o problema, clique no ícone ![Criar](images/investigation-12.png) de
     solução definitiva para registrar as informações de uma solução definitiva;
@@ -185,7 +185,7 @@ solução.
 
           -  **Descrição**: descreva a solução definitiva proposta;
 
-          -  Após os dados informados, clique no botão *Gravar* para efetuar o registro das informações de solução definitiva, onde a            data, hora e  usuário serão gravados automaticamente para uma futura auditoria.
+          -  Após os dados informados, clique no botão *Gravar* para efetuar o registro das informações de solução definitiva, onde a data, hora e  usuário serão gravados automaticamente para uma futura auditoria.
 
 8.  Após registro das informações da investigação e diagnóstico do problema,
     clique no botão *Gravar e avançar o fluxo*, para efetuar a operação, onde o
@@ -199,6 +199,8 @@ solução.
 
     Em ambos os casos anteriores, ao clicar no botão Gravar a data, hora e
     usuário serão armazenados automaticamente.
+
+[1]:/pt-br/citsmart-platform-7/processes/problem/register-problem.html
 
 
 !!! tip "About"
