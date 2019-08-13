@@ -14,7 +14,7 @@ Como acessar
 Pré-condições
 ---------------
 
-1. Cadastrar tipo de item de configuração (ver conhecimento [Cadastro e pesquisa de tipo de item de configuração](/pt-br/citsmart-platform-7/processes/configuration/IC-type.html)).
+1. Cadastrar tipo de item de configuração (ver conhecimento [Cadastro e pesquisa de tipo de item de configuração][1]).
 
 Filtros
 ---------
@@ -79,6 +79,8 @@ descrição. Portanto serão abordadas somente as informações principais para 
         
 3. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma 
 futura auditoria.
+
+[1]:/pt-br/citsmart-platform-7/processes/configuration/IC-type.html
 
 !!! tip "About"
 
