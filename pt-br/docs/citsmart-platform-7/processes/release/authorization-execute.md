@@ -17,8 +17,7 @@ Pré-condições
 -------------
 
 1.  Ter permissão para executar a liberação (ver conhecimento [Cadastro e
-    pesquisa de perfil de
-    acesso]()
+    pesquisa de perfil de acesso][1]).
 
 Filtros
 -------
@@ -77,6 +76,8 @@ Preenchimento dos campos cadastrais
 -----------------------------------
 
 1.  Não se aplica.
+
+[1]:/pt-br/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
 
 !!! tip "About"
 
