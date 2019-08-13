@@ -22,12 +22,12 @@ Como acessar
 Pré-condições
 ---------------
 
-1. Cadastrar Conexão do CITSmart Event Monitor (ver conhecimento [Conexão CITSmart Event Monitor](/pt-br/citsmart-platform-7/additional-features/add-ons/event-monitor-connection.html));
+1. Cadastrar Conexão do CITSmart Event Monitor (ver conhecimento [Conexão CITSmart Event Monitor][1]);
 
 2. Cadastrar Ferramenta de Monitoração;
 
 3. Ter pelo menos uma Requisição/Incidente cadastrada e vinculada ao IC (Item de Configuração) que gerou o evento, caso queira
-"Executar" o serviço usando tela de Eventos (ver conhecimento [Gerenciamento de ticket (serviços)](/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html)).
+"Executar" o serviço usando tela de Eventos (ver conhecimento [Gerenciamento de ticket (serviços)][2]).
 
 Filtros
 ---------
@@ -44,9 +44,9 @@ facilitando a localização dos itens desejados, conforme ilustrado na figura ab
     - Data inicial;
     - Data final.
     
-    ![Ocorrência](images/ger-eve.img2.png)
+   ![Ocorrência](images/ger-eve.img2.png)
     
-    **Figura 2 - Tela de pesquisa de ocorrência de evento**
+   **Figura 2 - Tela de pesquisa de ocorrência de evento**
     
 Listagem de itens das ocorrências de eventos
 ----------------------------------------------
@@ -57,9 +57,9 @@ padrão da funcionalidade: **Classificação, Ferramenta, Data/Hora, Categoria, 
 2. Após acessar a funcionalidade de **Gerenciamento de Eventos** são visualizadas todas as ocorrências registradas no MongoDB 
 através da aplicação Citsmart Event Monitor, conforme ilustração abaixo:
 
-    ![Listagem](images/ger-eve.img3.png)
+   ![Listagem](images/ger-eve.img3.png)
     
-    **Figura 3 - Tela de listagem de eventos**
+   **Figura 3 - Tela de listagem de eventos**
     
 3. A guia ![simbolo](images/simb-atuali.png) ![simbolo](images/simb-voltar.png) ![simbolo](images/simb-conf.png), apresenta as 
 seguintes funcionalidades para a listagem de eventos:
@@ -176,17 +176,20 @@ Consultando gráficos
 informações de ocorrência de eventos, sendo essas demonstradas em gráficos, conforme exemplificados nas imagens abaixo. Nesta 
 tela é possível filtrar as ocorrências por data/período (busca realizado pelo campo  no canto superior do lado direito):
 
-    ![Gráfico](images/ger-eve.img11.png)
+   ![Gráfico](images/ger-eve.img11.png)
     
-    **Figura 11 - Gráfico quantidade de ocorrências por tipos de evento**
+   **Figura 11 - Gráfico quantidade de ocorrências por tipos de evento**
     
-    ![Quantidade](images/ger-eve.img12.png)
+   ![Quantidade](images/ger-eve.img12.png)
     
-    **Figura 12 - Gráfico quantidade de ocorrências por ferramentas**
+   **Figura 12 - Gráfico quantidade de ocorrências por ferramentas**
     
-    ![Item](images/ger-eve.img13.png)
+   ![Item](images/ger-eve.img13.png)
     
-    **Figura 13 - Gráfico quantidade de ocorrências por item de configuração**
+   **Figura 13 - Gráfico quantidade de ocorrências por item de configuração**
+    
+[1]:/pt-br/citsmart-platform-7/additional-features/add-ons/event-monitor-connection.html
+[2]:/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html
     
 !!! tip "About"
 
