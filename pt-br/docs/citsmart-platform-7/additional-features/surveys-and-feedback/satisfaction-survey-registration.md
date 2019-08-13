@@ -14,10 +14,10 @@ Como acessar
 Pré-condições
 ----------------
 
-1. Usuário precisa ter um Questionário cadastrado no sistema (ver conhecimento Cadastro e pesquisa de categoria de questionários);
+1. Usuário precisa ter um Questionário cadastrado no sistema (ver conhecimento [Cadastro e pesquisa de categoria de questionários](/pt-br/citsmart-platform-7/plataform-administration/questionnaires/questionnaires-management/questionnaire-category.html));
 
 
-2. Informe o conteúdo abaixo no parâmetro (ver conhecimento Regras de parametrização - Sistema):
+2. Informe o conteúdo abaixo no parâmetro (ver conhecimento [Regras de parametrização - Sistema](/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-system.html)):
 
     - Parâmetro 33: URL do Sistema.
 
