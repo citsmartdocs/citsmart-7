@@ -15,7 +15,7 @@ Pré-condições
 
 1. Conhecimento em programação e banco de dados;
 
-2. Cadastrar conexão externa (ver conhecimento Manual de configuração de conexões externas de banco de dados).
+2. Cadastrar conexão externa (ver conhecimento [Manual de configuração de conexões externas de banco de dados](/pt-br/citsmart-platform-7/plataform-administration/database/register-external-connections.html)).
 
 Filtros
 ---------
