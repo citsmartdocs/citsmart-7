@@ -73,17 +73,17 @@ o que foi definido no calendário**.
 
 ### Veja também
 
--   [Cadastro e pesquisa de calendário][5]);
+-   [Cadastro e pesquisa de calendário][5];
 
--   [Cadastro e pesquisa de jornadas de trabalho][4]);
+-   [Cadastro e pesquisa de jornadas de trabalho][4];
 
--   [Cadastro e pesquisa de grupo][9]);
+-   [Cadastro e pesquisa de grupo][9];
 
--   [Cadastro e pesquisa de perfil de acesso][1]);
+-   [Cadastro e pesquisa de perfil de acesso][1];
 
--   [Cadastro e pesquisa de colaborador][2]);
+-   [Cadastro e pesquisa de colaborador][2];
 
--   [Cadastro e pesquisa de usuário][3]);
+-   [Cadastro e pesquisa de usuário][3];
 
 
 
