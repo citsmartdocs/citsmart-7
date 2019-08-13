@@ -20,7 +20,7 @@ Pré-condições
 -------------
 
 1.  Para cadastrar a assinatura é necessário ter o colaborador cadastrado (ver
-    conhecimento [Cadastro e pesquisa de colaborador].
+    conhecimento [Cadastro e pesquisa de colaborador](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html)).
 
 Filtros
 -------
