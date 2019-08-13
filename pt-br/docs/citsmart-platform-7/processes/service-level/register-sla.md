@@ -19,23 +19,19 @@ Pré-condições
 -------------
 
 1.  Ter a prioridade cadastrada (ver conhecimento [Cadastro e pesquisa de
-    prioridade]
+    prioridade][1].
 
 2.  Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de
-    grupo]
+    grupo][2].
 
 3.  Ter definido os modelos de e-mail (ver conhecimento [Cadastro e pesquisa de
-    configuração de modelo de e-mail]
+    configuração de modelo de e-mail][3].
 
-4.  Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de
-    unidade]
+4.  Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de unidade][4].
 
-5.  Ter o usuário cadastrado (ver conhecimento [Cadastro e pesquisa de
-    usuário]
+5.  Ter o usuário cadastrado (ver conhecimento [Cadastro e pesquisa de usuário][5].
 
-6.  Ter o requisito de acordo de nível de serviço cadastrado (ver
-    conhecimento [Cadastro e pesquisa de requisito de acordo de nível de
-    serviço]
+6.  Ter o requisito de acordo de nível de serviço cadastrado (ver conhecimento [Cadastro e pesquisa de requisito de acordo de nível de serviço][6].
 
 Filtros
 -------
@@ -50,7 +46,7 @@ Filtros
 
     -  Tipo de Acordo.
 
-1.  Na tela Acordo de nível de serviço geral, clique na guia **Acordo de nível
+2.  Na tela Acordo de nível de serviço geral, clique na guia **Acordo de nível
     de serviço de pesquisa** (Geral). A tela de pesquisa será exibida conforme
     mostrado na figura abaixo:
 
@@ -58,7 +54,7 @@ Filtros
 
     **Figura 1 - Tela de pesquisa de Acordo de Nível de Serviço geral**
 
-1.  Realizar pesquisa de acordo de nível de serviço;
+3.  Realizar pesquisa de acordo de nível de serviço;
 
     -   **Título**: insira o título do contrato de nível de serviço que deseja
     pesquisar;
@@ -72,7 +68,7 @@ Filtros
     -   Se deseja listar todos os registros do acordo de nível de serviço, basta
     clicar no botão *Pesquisar* diretamente.
 
-1.  Para alterar os dados de registro de acordo com o acordo de nível de
+4.  Para alterar os dados de registro de acordo com o acordo de nível de
     serviço, basta modificar as informações dos campos desejados e clicar no
     botão *Gravar* para salvar a alteração feita na gravação, onde a data, a
     hora e o usuário serão salvos automaticamente para uma auditoria futura.
@@ -81,8 +77,7 @@ Listagem de itens
 -----------------
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Título, Situação, Data de Início, Data
+    identificação dos itens desejados na listagem padrão da funcionalidade: Título, Situação, Data de Início, Data
     fim e Avaliar em.
 
 ![Criar](images/register-sla-2.png)
@@ -99,7 +94,7 @@ Preenchimento dos campos cadastrais
 
     **Figura 3 - Tela de cadastro de Acordo de Nível de Serviço geral**
 
-1.  Preencha os campos conforme orientações abaixo:
+2.  Preencha os campos conforme orientações abaixo:
 
     -  **Título do Acordo**: informe o título do acordo de nível de serviço;
 
@@ -250,7 +245,7 @@ Preenchimento dos campos cadastrais
     cada décimo de falha no serviço ou 0,2% para cada falha de notificação
     superior à meta até 10 ocorrências, 0,5% até 20 ocorrências, etc.
 
-1.  Após informar os dados, clique no botão *Gravar* para efetuar o registro,
+3.  Após informar os dados, clique no botão *Gravar* para efetuar o registro,
     onde a data, hora e usuário serão gravados automaticamente para uma futura
     auditoria.
 
@@ -276,6 +271,14 @@ Verificando o histórico de auditoria do acordo de nível de serviço
 ![Criar](images/register-sla-9.png)
 
  **Figura 7 -Tela de histórico de auditoria**
+
+[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/priority-register.html
+[2]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[3]:/pt-br/citsmart-platform-7/plataform-administration/email-settings/configure-email-template.html
+[4]:/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html
+[5]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/user-register.html
+[6]:/pt-br/citsmart-platform-7/processes/service-level/sla-requiriment.html
+
 
 !!! tip "About"
 
