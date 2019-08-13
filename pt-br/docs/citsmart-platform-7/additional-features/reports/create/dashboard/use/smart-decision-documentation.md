@@ -4,7 +4,7 @@ Description: Disponibiliza toods os conhecimentos do relatório.
 
 [Cadastro de template de Smart decisions](/pt-br/citsmart-platform-7/additional-features/reports/create/dashboard/use/template-smart-decision.html)
 
-[Painel gerencial (Smart decision](/pt-br/citsmart-platform-7/additional-features/reports/create/dashboard/use/smart-decision-panel.html)
+[Painel gerencial (Smart decision)](/pt-br/citsmart-platform-7/additional-features/reports/create/dashboard/use/smart-decision-panel.html)
 
 [Permissão de acesso do Smart Decisions](/pt-br/citsmart-platform-7/additional-features/reports/create/dashboard/configuration/smart-decisions-access.html)
 
