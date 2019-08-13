@@ -11,26 +11,22 @@ Pré-condições
 ------------
 
 1.  Ter o portfólio com os serviços cadastrados (ver conhecimentos [Cadastro de
-    portfólio de
-    serviços](), [Cadastro
-    de
-    serviços]();
+    portfólio de serviços][1]), [Cadastro de serviços][2]);
 
 2.  Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de
-    grupo]();
+    grupo][3]);
 
 3.  Ter os itens de configuração cadastrados (ver conhecimento [Gerenciamento de
-    itens de
-    configuração]();
+    itens de configuração][4]);
 
 4.  Ter o calendário definido (ver conhecimento [Cadastro e pesquisa de
-    calendário]();
+    calendário][5]);
 
 5.  Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de
-    contrato]();
+    contrato][6]);
 
 6.  Ter um ciclo cadastrado (ver conhecimento [Cadastro e pesquisa de
-    ciclos]().
+    ciclos][7]).
 
 Configurando os atributos do serviço
 ------------------------------------
@@ -239,7 +235,7 @@ Registrando os atributos financeiros
 
     **Figura 3 - Tela de cadastro de atributos financeiros**
 
-1.  Preencha os campos conforme orientações abaixo:
+2.  Preencha os campos conforme orientações abaixo:
 
     -   **Categoria**: informe a categoria do atributo financeiro. Caso não
         exista categoria registrada, clique no botão *Adicionar / Editar
@@ -252,10 +248,10 @@ Registrando os atributos financeiros
     -   **Valor**: informe o valor do serviço, levando em consideração o tipo de
         atributo financeiro informado.
 
-2.  Após informar os dados, clique no botão *Adicionar ao Serviço*. O atributo
+3.  Após informar os dados, clique no botão *Adicionar ao Serviço*. O atributo
     financeiro será gravado e apresentado na tela.
 
-3.  Caso queira importar os dados de atributos financeiros, clique no
+4.  Caso queira importar os dados de atributos financeiros, clique no
     botão *Importar*. Feito isso, será exibida uma tela para anexar o arquivo de
     atributos financeiros. Nessa tela, são apresentados os modelos de arquivos
     para orientar na forma e ordem que os dados devem estar no arquivo.
@@ -264,7 +260,7 @@ Registrando os atributos financeiros
     Após a verificação, informe o arquivo e clique no botão *Enviar* para
     efetuar a importação.
 
-4.  Para alterar os dados do atributo financeiro do serviço, clique em *Editar*,
+5.  Para alterar os dados do atributo financeiro do serviço, clique em *Editar*,
     modifique os dados que desejar para efetuar a alteração, onde a data, hora e
     usuário serão gravados automaticamente para uma futura auditoria;
 
@@ -297,7 +293,7 @@ análise para aprovação, para verificar se será utilizado o serviço.
 
     **Figura 4 - Tela de cadastro de caso de negócio**
 
-1.  Preencha os campos conforme orientações abaixo:
+2.  Preencha os campos conforme orientações abaixo:
 
     -   **Caso de Negócio**: defina o nome do caso de negócio;
 
@@ -354,22 +350,22 @@ Vinculando processo de negócio ao serviço
 
     **Figura 5 - Tela de vínculo do processo de negócio**
 
-1.  Clique no botão *Vincular Processo de Negócio*. Feito isso, será exibida a
+3.  Clique no botão *Vincular Processo de Negócio*. Feito isso, será exibida a
     tela para pesquisa de processo de negócio. Realize a pesquisa, selecione os
     processos de negócio que desejar e clique no botão *Enviar* para efetuar a
     operação.
 
-2.  Caso não encontre o registro de processo de negócio e haja a necessidade de
+4.  Caso não encontre o registro de processo de negócio e haja a necessidade de
     registrar um para vincular ao serviço, poderá registrá-lo a partir dessa
     tela, basta clicar no botão *Novo Processo de Negócio*.
 
-3.  Após o vínculo do processo de negócio ao serviço, o mesmo será apresentado
+5.  Após o vínculo do processo de negócio ao serviço, o mesmo será apresentado
     na tela de processos de negócio do serviço.
 
-4.  Para visualizar os dados do processo de negócio, basta clicar no
+6.  Para visualizar os dados do processo de negócio, basta clicar no
     botão *Visualizar* do mesmo.
 
-5.  Para excluir o vínculo do processo de negócio com o serviço, basta clicar no
+7.  Para excluir o vínculo do processo de negócio com o serviço, basta clicar no
     botão *Excluir* do mesmo.
 
 ### Preenchimento dos campos cadastrais
@@ -404,18 +400,18 @@ Vinculando o dono do negócio ao serviço
 
     **Figura 6 - Tela de vínculo de dono do negócio**
 
-1.  Caso o "dono do negócio" seja um ou mais colaboradores, clique no
+3.  Caso o "dono do negócio" seja um ou mais colaboradores, clique no
     botão *Vincular Dono do Negócio - Empregado* para vincular o(s)
     colaborador(es) ao serviço. Após isso, será exibida a tela para pesquisa de
     colaboradores. Realize a pesquisa, selecione o(s) colaborador(es) e clique
     no botão *Enviar* para efetuar o vínculo.
 
-2.  Caso o "dono do negócio" seja um ou mais grupos, clique no botão *Vincular
+4.  Caso o "dono do negócio" seja um ou mais grupos, clique no botão *Vincular
     Grupos* para vincular o(s) grupo(s) ao serviço. Após isso, será exibida a
     tela para pesquisa de grupos. Realize a pesquisa, selecione o(s) grupo(s) e
     clique no botão *Enviar* para efetuar o vínculo.
 
-3.  Para excluir o vínculo do dono do negócio com o serviço, basta clicar no
+5.  Para excluir o vínculo do dono do negócio com o serviço, basta clicar no
     botão *Desvincular* do mesmo.
 
 ### Preenchimento dos campos cadastrais
@@ -450,17 +446,17 @@ Vinculando usuário do negócio ao serviço
 
     **Figura 7 - Tela de vínculo de usuário do negócio**
 
-1.  Clique no botão *Vincular usuário* para vincular o(s) usuário(s) ao serviço.
+3.  Clique no botão *Vincular usuário* para vincular o(s) usuário(s) ao serviço.
     Feito isso, será exibida a tela para pesquisa de usuários do sistema.
     Realize a pesquisa, selecione o(s) usuário(s) e clique no
     botão *Enviar* para efetuar o vínculo.
 
-2.  Caso o "usuário do negócio" seja um ou mais grupos, clique no
+4.  Caso o "usuário do negócio" seja um ou mais grupos, clique no
     botão *Vincular grupo de usuário* para vincular o(s) grupo(s) ao serviço.
     Feito isso, será exibida a tela para pesquisa de grupos. Realize a pesquisa,
     selecione o(s) grupo(s) e clique no botão *Enviar* para efetuar o vínculo.
 
-3.  Para excluir o vínculo do usuário do negócio com o serviço, basta clicar no
+5.  Para excluir o vínculo do usuário do negócio com o serviço, basta clicar no
     botão *Desvincular* do mesmo.
 
 ### Preenchimento dos campos cadastrais
@@ -532,7 +528,7 @@ Criando o desenho do mapa de serviço
 
     **Figura 9 - Tela de criação do desenho do mapa de serviços**
 
-1.  Desenhe o mapa do serviço, utilizando os ícones de **Serviços de
+2.  Desenhe o mapa do serviço, utilizando os ícones de **Serviços de
     Apoio** para representar os serviços de apoio/técnico e os ícones de **Itens
     de Configuração** para representar os ICs. Siga as orientações abaixo:
 
@@ -570,17 +566,16 @@ Criando o desenho do mapa de serviço
     -   Para excluir o serviço de apoio/técnico ou o IC representado por um ícone,
     basta clicar duas vezes sobre o ícone do mesmo e clicar no botão *Excluir*.
 
-1.  Após criar o desenho do mapa de serviço, clique no botão *Gravar*,
+3.  Após criar o desenho do mapa de serviço, clique no botão *Gravar*,
     localizado na parte superior da tela, para efetuar o registro.
 
-2.  Clique no botão *Gerar impressão* para gerar a impressão do desenho, caso
+4.  Clique no botão *Gerar impressão* para gerar a impressão do desenho, caso
     seja necessário.
 
     !!! Abstract "SAIBA MAIS"
 
         Para cadastrar cada atividade de um serviço (requisição ou incidente),
-        utilize o conhecimento [Cadastro da atividade de
-        serviço]()
+        utilize o conhecimento [Cadastro da atividade de serviço][1]).
 
 Vinculando aplicações ao serviço
 -------------------------------
@@ -610,18 +605,18 @@ Vinculando aplicações ao serviço
 
     **Figura 12 - Tela de vínculo de aplicações ao serviço**
 
-1.  Clique no botão *Vincular Aplicação*. Feito isso, será exibida a tela para
+3.  Clique no botão *Vincular Aplicação*. Feito isso, será exibida a tela para
     pesquisa da aplicação. Realize a pesquisa e selecione a aplicação para
     realizar o vínculo.
 
-2.  Caso não encontre o registro da aplicação e haja a necessidade de registrar
+4.  Caso não encontre o registro da aplicação e haja a necessidade de registrar
     uma aplicação para vincular ao serviço, poderá registrá-la a partir dessa
     tela, basta clicar no botão *Nova Aplicação*.
 
-3.  Para alterar os dados da aplicação vinculada ao serviço, clique no
+5.  Para alterar os dados da aplicação vinculada ao serviço, clique no
     botão *Editar* da mesma.
 
-4.  Para excluir o vínculo da aplicação com o serviço, basta clicar no
+6.  Para excluir o vínculo da aplicação com o serviço, basta clicar no
     botão *Desvincular* do mesmo.
 
 ### Preenchimento dos campos cadastrais
@@ -641,15 +636,15 @@ Registrando esquema de dados do serviço
 
     **Figura 13 - Tela de cadastro de esquema de dados do serviço**
 
-1.  Descreva os detalhes do esquema de dados do serviço;
+2.  Descreva os detalhes do esquema de dados do serviço;
 
-2.  Adicione o desenho do esquema de dados referente ao serviço:
+3.  Adicione o desenho do esquema de dados referente ao serviço:
 
     -   Informe a descrição do anexo, clique no botão *Adicionar Arquivo* e
         selecione o arquivo desejado. Feito isso, o mesmo será adicionado no
         registro de esquema de dados.
 
-3.  Após os dados registrados, clique no botão *Gravar* para efetuar a operação.
+4.  Após os dados registrados, clique no botão *Gravar* para efetuar a operação.
 
 ### Filtros
 
@@ -691,7 +686,7 @@ Vinculando contratos ao serviço
 
     **Figura 14 - Tela de vínculo de contrato ao serviço**
 
-1.  Clique no botão *Vincular Contrato*. Feito isso, será exibida a tela para
+3.  Clique no botão *Vincular Contrato*. Feito isso, será exibida a tela para
     pesquisa do contrato;
 
     !!! info "IMPORTANTE"
@@ -755,17 +750,17 @@ Vinculando proprietários de ti ao serviço
 
     **Figura 15 - Tela de vínculo de proprietários de TI ao serviço**
 
-1.  Caso o "proprietário de TI" seja um usuário, clique no botão *Vincular
+2.  Caso o "proprietário de TI" seja um usuário, clique no botão *Vincular
     Usuários*. Feito isso, será exibida a tela para pesquisa de usuários.
     Realize a pesquisa, selecione os usuários e clique no botão *Enviar* para
     efetuar o vínculo.
 
-2.  Caso o "proprietário de TI" seja um grupo, clique no botão *Vincular
+3.  Caso o "proprietário de TI" seja um grupo, clique no botão *Vincular
     Grupos*. Feito isso, será exibida a tela para pesquisa de grupos. Realize a
     pesquisa, selecione os grupos e clique no botão *Enviar* para efetuar o
     vínculo.
 
-3.  Para excluir o vínculo do usuário ou grupo com o serviço, basta clicar no
+4.  Para excluir o vínculo do usuário ou grupo com o serviço, basta clicar no
     botão *Desvincular* do mesmo.
 
 ### Preenchimento dos campos cadastrais
@@ -805,11 +800,11 @@ Vinculando conhecimento ao serviço
         Se o serviço estiver disponibilizado no Smart Portal, os conhecimentos
         relacionados ao mesmo também serão exibidos no Smart Portal.
 
-1.  Clique no botão *Vincular Conhecimento*. Feito isso, será exibida a tela
+3.  Clique no botão *Vincular Conhecimento*. Feito isso, será exibida a tela
     para pesquisa de conhecimentos. Realize a pesquisa, selecione os
     conhecimentos desejados e clique botão *Enviar* para efetuar o vínculo.
 
-2.  Para excluir o vínculo do conhecimento com o serviço, basta clicar no
+4.  Para excluir o vínculo do conhecimento com o serviço, basta clicar no
     botão *Desvincular* do mesmo.
 
 ### Preenchimento dos campos cadastrais
@@ -844,16 +839,16 @@ Vinculando habilidades ao serviço
 
     **Figura 17 - Tela de vínculo de habilidade ao serviço**
 
-1.  Clique no botão *Vincular Habilidade*. Feito isso, será exibida a tela de
+3.  Clique no botão *Vincular Habilidade*. Feito isso, será exibida a tela de
     pesquisa de habilidade. Realize a pesquisa, selecione as habilidades
     desejadas e clique no botão *Enviar* para efetuar o vínculo.
 
-2.  Caso não encontre o registro da habilidade e haja a necessidade de registrar
+4.  Caso não encontre o registro da habilidade e haja a necessidade de registrar
     uma habilidade para vincular ao serviço, poderá registrá-la a partir dessa
     tela, basta clicar no botão *Nova Habilidade* e proceder com o preenchimento
     dos campos.
 
-3.  Para excluir o vínculo da habilidade com o serviço, basta clicar no
+5.  Para excluir o vínculo da habilidade com o serviço, basta clicar no
     botão *Desvincular* do registro da mesma.
 
 ### Preenchimento dos campos cadastrais
@@ -900,7 +895,7 @@ ao serviço.
 
     **Figura 19 - Tela de cadastro de procedimento do serviço**
 
-1.  Preencha os campos conforme orientações abaixo:
+2.  Preencha os campos conforme orientações abaixo:
 
     -   **Nome do Serviço**: defina o nome do procedimento;
 
@@ -941,22 +936,22 @@ ao serviço.
     -   **Lugar de Execução dos Serviços**: selecione o local de execução do
         procedimento.
 
-2.  Após informar os dados necessários do procedimento, clique no
+3.  Após informar os dados necessários do procedimento, clique no
     botão *Gravar* para efetuar o registro. Feito isso, o procedimento será
     gravado e vinculado ao serviço.
 
-3.  Para alterar os dados do procedimento, clique no botão *Editar* do mesmo,
+4.  Para alterar os dados do procedimento, clique no botão *Editar* do mesmo,
     modifique os dados que desejar e clique em *Gravar*para efetuar a alteração,
     onde a data, hora e usuário serão gravados automaticamente para uma futura
     auditoria.
 
-4.  Para excluir o procedimento do serviço, clique no botão *Editar* do mesmo e
+5.  Para excluir o procedimento do serviço, clique no botão *Editar* do mesmo e
     logo em seguida clique no botão *Excluir*.
 
-5.  Para desvincular a procedimento do serviço, basta clicar no
+6.  Para desvincular a procedimento do serviço, basta clicar no
     botão *Desvincular* do mesmo.
 
-6.  Para vincular novamente um procedimento ao serviço, clique no
+7.  Para vincular novamente um procedimento ao serviço, clique no
     botão *Vincular Serviço de Procedimento*. Feito isso, será exibida a tela
     para pesquisa dos procedimentos que foram desvinculados do serviço. Realize
     a pesquisa e selecione o procedimento para realizar o vínculo com sucesso.
@@ -990,16 +985,24 @@ Administração das avaliações do serviço
 
     **Figura 20 - Tela de administração de avaliações**
 
-1.  Informe o período do registro da avaliação do serviço e clique no
+3.  Informe o período do registro da avaliação do serviço e clique no
     botão *Buscar*. Após isso, serão listadas as avaliações (nota e comentário)
     do serviço.
 
-2.  Para aprovar a avaliação do serviço, basta clicar no ícone ![Criar](images/configure-21.png) da mesma.
+4.  Para aprovar a avaliação do serviço, basta clicar no ícone ![Criar](images/configure-21.png) da mesma.
 
 ### Preenchimento dos campos cadastrais
 
 1.  Não se aplica.
 
+
+[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/services.html
+[3]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[4]:/pt-br/citsmart-platform-7/processes/configuration/IC-management.html
+[5]:/pt-br/citsmart-platform-7/plataform-administration/time/create-calendar.html
+[6]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[7]:/pt-br/citsmart-platform-7/plataform-administration/time/create-cycle.html
 
 !!! tip "About"
 
