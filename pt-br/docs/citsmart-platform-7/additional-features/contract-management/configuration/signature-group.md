@@ -14,7 +14,7 @@ Pré-condições
 ------------
 
 1.  Para registrar o grupo de assinaturas é necessário ter a assinatura
-    cadastrada (ver conhecimento [Cadastro e pesquisa de assinatura].
+    cadastrada (ver conhecimento [Cadastro e pesquisa de assinatura](/pt-br/citsmart-platform-7/additional-features/contract-management/configuration/signature.html)).
 
 Filtros
 ------
