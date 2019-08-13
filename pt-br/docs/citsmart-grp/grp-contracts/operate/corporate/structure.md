@@ -82,29 +82,29 @@ Para cadastrar uma nova Unidade, basta clicar em “**Cadastrar**” para que a 
     
 Nesta tela, o usuário deverá preencher os seguintes campos:
 
-    - **Estrutura Superior**: seleciona a estrutura superior, quando houver.
-    - **Nome**: nome da estrutura organizacional.
-    - **Sigla**: sigla utilizada para a estrutura organizacional.
-    - **Tipo de Estrutura Organizacional**: o usuário deverá selecionar o tipo de estrutura organizacional, de acordo com as opções
-    oferecidas pelo sistema, conforme imagem abaixo:
+- **Estrutura Superior**: seleciona a estrutura superior, quando houver.
+- **Nome**: nome da estrutura organizacional.
+- **Sigla**: sigla utilizada para a estrutura organizacional.
+- **Tipo de Estrutura Organizacional**: o usuário deverá selecionar o tipo de estrutura organizacional, de acordo com as opções
+oferecidas pelo sistema, conforme imagem abaixo:
     
-    ![Selecionando](images/estrutura.img5.jpg)
+![Selecionando](images/estrutura.img5.jpg)
     
-    **Figura 5 - Selecionando uma estrutura organizacional**
+**Figura 5 - Selecionando uma estrutura organizacional**
     
-    - **Classificação**: número ou nome identificador da estrutura.
-    - **Data Início**: data do cadastro da unidade.
-    - **Data Fim**: campo não obrigatório.
-    - **Localização**: local onde reside a estrutura organizacional.
-    - **Responsável: selecione e adicione o(s) responsável(eis) pela unidade. Caso o sistema não encontre o nome inserido, um novo 
+- **Classificação**: número ou nome identificador da estrutura.
+- **Data Início**: data do cadastro da unidade.
+- **Data Fim**: campo não obrigatório.
+- **Localização**: local onde reside a estrutura organizacional.
+- **Responsável: selecione e adicione o(s) responsável(eis) pela unidade. Caso o sistema não encontre o nome inserido, um novo 
     responsável pode ser adicionado clicando no ícone ![simbolo](images/simb-plus.jpg) ** Erro! Fonte de referência não encontrada**.
 
 Após inserir todas as informações necessárias, clique em “**Salvar**”, para que o sistema armazene as informações inseridas.
 
 Nesta tela as seguintes ações também poderão ser realizadas:
 
-    - **Limpar**: limpa todos os campos preenchidos antes de salvar o cadastro.
-    - **Pesquisar**: retorna à tela de pesquisa.
+- **Limpar**: limpa todos os campos preenchidos antes de salvar o cadastro.
+- **Pesquisar**: retorna à tela de pesquisa.
     
 Para visualizar as informações de um cadastro clique em “**Visualizar**” e o sistema exibirá a tela de cadastro. A tela de
 visualização permite também editar as informações e retornar à tela de pesquisa.
@@ -118,16 +118,16 @@ O botão “**Filtros**” permite criar filtros específicos para visualizaçã
 
 As ações disponíveis dentro da tela de visualização de uma Unidade são:
 
-    - **Editar**: permite editar as informações de um registro.
-    - **Remover**: permite excluir o registro de uma Unidade.
-    - **Bloquear**: permite bloquear a utilização de uma Unidade, a partir de uma data inicial informada.
-    - **Definições de Patrimônio**: permite definir a unidade como Unidade Localizadora de Bens.
-    - **Definições de Almoxarifado**: permite definir a unidade como almoxarifado padrão da instituição.
-    - **Pesquisar**: retorna à tela de pesquisa.
+- **Editar**: permite editar as informações de um registro.
+- **Remover**: permite excluir o registro de uma Unidade.
+- **Bloquear**: permite bloquear a utilização de uma Unidade, a partir de uma data inicial informada.
+- **Definições de Patrimônio**: permite definir a unidade como Unidade Localizadora de Bens.
+- **Definições de Almoxarifado**: permite definir a unidade como almoxarifado padrão da instituição.
+- **Pesquisar**: retorna à tela de pesquisa.
     
-    ![Bloqueando](images/estrutura.img6.jpg)
+![Bloqueando](images/estrutura.img6.jpg)
     
-    **Figura 6 - Bloqueando uma unidade**
+**Figura 6 - Bloqueando uma unidade**
     
 Para definir a unidade para **Patrimônio**, clique em “**Definições de Patrimônio**” (disponível no menu superior) será apresentada 
 a tela a seguir, onde será possível definir se a unidade em questão é uma “Unidade localizadora de bens”.
@@ -204,10 +204,10 @@ Para cadastrar uma localização, clique em “Localização” no submenu e esc
 
 Preencha os campos do cadastro, conforme orientações abaixo:
 
-    - **Localização superior**: permite vincular a localização a ser cadastrada a uma localização superior.
-    - **Código**: será gerado automaticamente pelo sistema;
-    - **Nome**: nome da localização
-    - **Endereço**: ao preencher o campo CEP, o sistema trará automaticamente o restante dos campos preenchidos.
+- **Localização superior**: permite vincular a localização a ser cadastrada a uma localização superior.
+- **Código**: será gerado automaticamente pelo sistema;
+- **Nome**: nome da localização
+- **Endereço**: ao preencher o campo CEP, o sistema trará automaticamente o restante dos campos preenchidos.
     
 Mapa organizacional
 ---------------------
@@ -231,18 +231,18 @@ Para cadastrar um novo Mapa Organizacional, basta clicar em “**Cadastrar**” 
 
 Nesta tela, o usuário deverá preencher os seguintes campos:
 
-    - **Nome**: nome que será dado ao mapa organizacional.
-    - **Data início**: data início para o mapa organizacional.
-    - **Data fim**: data fim para o mapa organizacional.
-    - **Observação**: permite inserir uma observação, para aquele mapa que está sendo cadastrado. Logo após o preenchimento deste 
-    campo, clique em “**Adicionar**”, para que o sistema armazene a observação inserida.
+- **Nome**: nome que será dado ao mapa organizacional.
+- **Data início**: data início para o mapa organizacional.
+- **Data fim**: data fim para o mapa organizacional.
+- **Observação**: permite inserir uma observação, para aquele mapa que está sendo cadastrado. Logo após o preenchimento deste 
+campo, clique em “**Adicionar**”, para que o sistema armazene a observação inserida.
     
 Após inserir todas as informações necessárias, clique em “**Salvar**”, para que o sistema armazene as informações inseridas.
 
 Nesta tela as seguintes ações também poderão ser realizadas:
 
-    - **Limpar**: limpa todos os campos preenchidos antes de salvar o cadastro.
-    - **Pesquisar**: retorna à tela de pesquisa.
+- **Limpar**: limpa todos os campos preenchidos antes de salvar o cadastro.
+- **Pesquisar**: retorna à tela de pesquisa.
     
 Para visualizar as informações de um cadastro clique em “**Visualizar**” e o sistema exibirá a tela de cadastro. A tela de 
 visualização permite também editar as informações e retornar à tela de pesquisa.
@@ -256,7 +256,7 @@ O botão “**Filtros**” permite criar filtros específicos para visualizaçã
 
 A única ação disponível dentro da tela de visualização de um Mapa Organizacional é:
 
-    - **Pesquisar**: retorna à tela de pesquisa.
+- **Pesquisar**: retorna à tela de pesquisa.
     
 !!! tip "About"
 
