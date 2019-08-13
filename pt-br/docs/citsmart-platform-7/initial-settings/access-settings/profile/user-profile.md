@@ -62,7 +62,7 @@ Listagem de itens
     selecionado;
 
 3.  Para alterar os dados do registro de perfil de acesso, basta modificar as
-    informações dos campos desejados e clicar no botão *Gravar*para que seja
+    informações dos campos desejados e clicar no botão *Gravar* para que seja
     gravada a alteração realizada no registro, onde a data, hora e usuário serão
     gravados automaticamente para uma futura auditoria;
 
@@ -95,25 +95,25 @@ Preenchimento dos campos cadastrais
         -   **Delete**: o usuário com este perfil poderá fazer o “Gravar” e
             ainda excluir os dados do sistema.
 
-       !!! info "IMPORTANTE"
+    !!! info "IMPORTANTE"
 
-           As exclusões executadas no produto são exclusões lógicas (e não físicas),
-           portanto em casos extremos há como recuperar algo excluído, porém isso
-           exigirá apoio técnico de um analista/consultor.
+        As exclusões executadas no produto são exclusões lógicas (e não físicas),
+        portanto em casos extremos há como recuperar algo excluído, porém isso
+        exigirá apoio técnico de um analista/consultor.
 
-       !!! note "NOTA"
+    !!! note "NOTA"
 
-           Ao determinar o tipo de perfil de acesso, marcando/desmarcando um
-           checkbox, todos os checkboxs subordinados a este na estrutura são igualmente
-           marcados/desmarcados em cascata.
+        Ao determinar o tipo de perfil de acesso, marcando/desmarcando um
+        checkbox, todos os checkboxs subordinados a este na estrutura são igualmente
+        marcados/desmarcados em cascata.
 
-       !!! note "NOTA"
+     !!! note "NOTA"
 
-           Os perfis de acesso ficarão desabilitados (os checkboxs de todos os perfis
-           de acessos pré-existentes ficarão desmarcados), por default, quando for
-           criadas novas funcionalidades, exigindo, portanto, que o administrador
-           explicitamente habilite esta para os perfis que desejar, tornando-a
-           disponível para os perfis pretendidos.
+         Os perfis de acesso ficarão desabilitados (os checkboxs de todos os perfis
+         de acessos pré-existentes ficarão desmarcados), por default, quando for
+         criadas novas funcionalidades, exigindo, portanto, que o administrador
+         explicitamente habilite esta para os perfis que desejar, tornando-a
+         disponível para os perfis pretendidos.
 
     -   **Acesso ao sistema CITSmart**: defina se o perfil terá acesso ao sistema a
     partir do portal;
