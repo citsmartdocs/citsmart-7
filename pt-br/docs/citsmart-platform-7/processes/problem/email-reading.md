@@ -16,26 +16,26 @@ Pré-condições
 -------------
 
 1.  Cadastrar contrato (ver conhecimento [Cadastro e pesquisa de
-    contrato];
+    contrato][1]);
 
 2.  Cadastrar unidade (ver conhecimento [Cadastro e pesquisa de
-    unidade];
+    unidade][2]);
 
 3.  Cadastrar solicitante (colaborador) (ver conhecimento [Cadastro e pesquisa
-    de colaborador];
+    de colaborador][3]);
 
-4.  Cadastrar grupo (ver conhecimento [Cadastro e pesquisa de grupo];
+4.  Cadastrar grupo (ver conhecimento [Cadastro e pesquisa de grupo][4]);
 
 5.  Cadastrar categoria de problema, a qual deverá ter o vínculo com o fluxo
     referente ao problema (ver conhecimento [Cadastro e pesquisa de categoria de
-    problema];
+    problema][5]);
 
 6.  Vincular unidade ao contrato para que a unidade seja listada na tela de
     registro de problema (ver conhecimento [Como relacionar unidade ao
-    contrato?];
+    contrato?][6]);
 
 7.  Definir o fluxo referente ao gerenciamento de problema (ver
-    conhecimento [Manutenção de fluxo de trabalho];
+    conhecimento [Manutenção de fluxo de trabalho][7]);
 
 8.  Cadastrar o grupo executor;
 
@@ -47,12 +47,10 @@ Pré-condições
     criar um novo colaborador, é necessário incluí-lo ao grupo de solicitante no
     qual esteja relacionado ao contrato para que o mesmo consiga registrar um
     problema, ou seja, para que o nome dele seja listado na tela de registro de
-    problema (ver conhecimento [Como relacionar grupo ao
-    contrato?]();
+    problema (ver conhecimento [Como relacionar grupo ao contrato?][8]);
 
 11. Configurar os parâmetros 23, 24, 25, 26, 27, 28 e 72 (ver
-    conhecimento [Regras de parametrização -
-    E-mail]().
+    conhecimento [Regras de parametrização - E-mail][9]).
 
 Filtros
 -------
@@ -78,14 +76,14 @@ Preenchimento dos campos cadastrais
 
      **Figura 1 - Seleção de leitura de e-mails**
 
-1.  Será exibida uma tela para verificar os e-mails recebidos, conforme
+2.  Será exibida uma tela para verificar os e-mails recebidos, conforme
     ilustrada na figura abaixo:
 
     ![Criar](images/email-2.png)
 
     **Figura 2 - Tela de leitura de e-mails**
 
-1.  Clique no botão *Verificar e-mails*. Serão exibidos os e-mails, conforme
+3.  Clique no botão *Verificar e-mails*. Serão exibidos os e-mails, conforme
     mostrado na figura abaixo:
 
     ![Criar](images/email-3.png)
@@ -122,6 +120,17 @@ Preenchimento dos campos cadastrais
 
     Ao registrar um problema através da leitura de e-mail, o e-mail escolhido
     não será apresentado novamente na listagem de e-mails.
+
+
+[1]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[2]:/pt-br/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html
+[3]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html
+[4]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[5]:/pt-br/citsmart-platform-7/processes/problem/category.html
+[6]:/pt-br/citsmart-platform-7/processes/tickets/relate-unit.html
+[7]:/pt-br/citsmart-platform-7/workflow/workflow-management.html
+[8]:/pt-br/citsmart-platform-7/processes/tickets/relate-group.html
+[9]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-email.html
 
 
 !!! tip "About"
