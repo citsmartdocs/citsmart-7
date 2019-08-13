@@ -16,9 +16,8 @@ Como acessar
 Pré-condições
 -------------
 
-1.  Ter requisição de liberação registrada (ver conhecimento [Cadastro e
-    pesquisa de requisição de
-    liberação]();
+1.  Ter requisição de liberação registrada (ver conhecimento [Cadastro e pesquisa de requisição de
+    liberação][1]);
 
 2.  Ter permissão para executar a requisição de liberação .
 
@@ -412,7 +411,7 @@ Consultando base de conhecimento
     -  Em ambos os casos anteriores ao clicar no botão "Gravar" a data, hora e
     usuário serão armazenados automaticamente para uma futura auditoria.
 
-
+[1]:/pt-br/citsmart-platform-7/processes/release/requisition.html
 
 !!! tip "About"
 
