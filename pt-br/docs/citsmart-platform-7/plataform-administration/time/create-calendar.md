@@ -12,9 +12,9 @@ Como acessar
 Pré-condições
 ---------------
 
-1. Cadastrar perfil de acesso (ver conhecimento Cadastro e pesquisa de perfil de acesso);
+1. Cadastrar perfil de acesso (ver conhecimento [Cadastro e pesquisa de perfil de acesso](/pt-br/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html));
 
-2. Cadastrar jornada de trabalho (ver conhecimento Cadastro e pesquisa de jornadas de trabalho).
+2. Cadastrar jornada de trabalho (ver conhecimento [Cadastro e pesquisa de jornadas de trabalho](/pt-br/citsmart-platform-7/plataform-administration/time/create-working-day.html)).
 
 Filtros
 ----------
