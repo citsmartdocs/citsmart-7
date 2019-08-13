@@ -17,7 +17,7 @@ Pré-condições
 -------------
 
 1.  Ter requisição de liberação registrada (ver conhecimento [Cadastro e
-    pesquisa de requisição de liberação]();
+    pesquisa de requisição de liberação][1];
 
 2.  Ter permissão para delegar/compartilhar a requisição de liberação.
 
@@ -58,17 +58,17 @@ Listagem de itens
 
     **Figura 2 - Compartilhar requisição de liberação**
 
-1.  Será exibida uma tela para a seleção do **Grupo** ou **Usuário**, com o qual
+5.  Será exibida uma tela para a seleção do **Grupo** ou **Usuário**, com o qual
     será compartilhada a requisição;
 
     ![Criar](images/sharing-3.png)
 
     **Figura 3 - Compartilhamento da requisição de liberação**
 
-1.  Selecione o grupo ou usuário que deseja compartilhar a requisição. Feito
+6.  Selecione o grupo ou usuário que deseja compartilhar a requisição. Feito
     isso, clique no botão *Gravar*;
 
-2.  Após efetuar a operação, será exibido o nome do usuário ou grupo, com o qual
+7.  Após efetuar a operação, será exibido o nome do usuário ou grupo, com o qual
     foi compartilhada a requisição de liberação, em **Compartilhada com**,
     conforme exemplo ilustrado na figura abaixo:
 
@@ -80,6 +80,8 @@ Preenchimento dos campos cadastrais
 -----------------------------------
 
 1.  Não se aplica.
+
+[1]:/pt-br/citsmart-platform-7/processes/release/requisition.html
 
 !!! tip "About"
 
