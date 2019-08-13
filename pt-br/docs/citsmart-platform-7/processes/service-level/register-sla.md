@@ -19,19 +19,19 @@ Pré-condições
 -------------
 
 1.  Ter a prioridade cadastrada (ver conhecimento [Cadastro e pesquisa de
-    prioridade][1].
+    prioridade][1]).
 
 2.  Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de
-    grupo][2].
+    grupo][2]).
 
 3.  Ter definido os modelos de e-mail (ver conhecimento [Cadastro e pesquisa de
-    configuração de modelo de e-mail][3].
+    configuração de modelo de e-mail][3]).
 
-4.  Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de unidade][4].
+4.  Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de unidade][4]).
 
-5.  Ter o usuário cadastrado (ver conhecimento [Cadastro e pesquisa de usuário][5].
+5.  Ter o usuário cadastrado (ver conhecimento [Cadastro e pesquisa de usuário][5]).
 
-6.  Ter o requisito de acordo de nível de serviço cadastrado (ver conhecimento [Cadastro e pesquisa de requisito de acordo de nível de serviço][6].
+6.  Ter o requisito de acordo de nível de serviço cadastrado (ver conhecimento [Cadastro e pesquisa de requisito de acordo de nível de serviço][6]).
 
 Filtros
 -------
