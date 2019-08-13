@@ -14,9 +14,9 @@ Como acessar
 Pré-condições
 ----------------
 
-1. Cadastrar tipo de serviço (ver conhecimento Cadastro e pesquisa de tipo de serviço);
+1. Cadastrar tipo de serviço (ver conhecimento [Cadastro e pesquisa de tipo de serviço](/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/type-service.html));
 
-2. Cadastrar a categoria de serviço (ver conhecimento Cadastro e pesquisa de categoria de serviço).
+2. Cadastrar a categoria de serviço (ver conhecimento [Cadastro e pesquisa de categoria de serviço](/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/service-category.html)).
 
 Filtros
 ---------
