@@ -18,7 +18,7 @@ Pré-condições
 -------------
 
 1.  Ter o colaborador cadastrado (ver conhecimento [Cadastro e Pesquisa de
-    Colaborador][1].
+    Colaborador][1]).
 
 Filtros
 -------
@@ -35,7 +35,7 @@ Filtros
     
     **Figura 1 - Tela de pesquisa de requisito de Acordo de Nível de Serviço**
 
-1.  Para realizar a busca de um registro de requisito de acordo de nível de
+2.  Para realizar a busca de um registro de requisito de acordo de nível de
     serviço, informe o assunto e/ou situação do mesmo. Após isso, será exibido o
     registro conforme o filtro informado.
 
@@ -53,11 +53,11 @@ Listagem de itens
 
     **Figura 2 - Tela de listagem de requisito de Acordo de Nível de Serviço**
 
-1.  Para alterar os dados do registro de requisito de acordo de nível de
+3.  Para alterar os dados do registro de requisito de acordo de nível de
     serviço, clique no botão *Editar*. Feito isso, será direcionado para a tela
     de cadastro exibindo o conteúdo do registro;
 
-2.  Caso queira criar um SLA a partir do requisito, basta clicar no botão *Criar
+4.  Caso queira criar um SLA a partir do requisito, basta clicar no botão *Criar
     SLA* a partir deste Requisito.
 
 Preenchimento dos campos cadastrais
