@@ -39,7 +39,7 @@ Gerando relatório de acompanhamento de USTS
 *Como acessar*
 
 1. Acesse a funcionalidade de Relatório de Acompanhamento de USTs através da navegação no menu principal 
-**Relatórios > Gerência de Contratos → Acompanhamento USTs**.
+**Relatórios > Gerência de Contratos > Acompanhamento USTs**.
 
 *Filtros*
 
