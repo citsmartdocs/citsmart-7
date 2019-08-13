@@ -367,7 +367,7 @@ Registrando serviço de apoio
 Veja também
 -----------
 
--   [Configuração dos atributos do serviço][5]).
+-   [Configuração dos atributos do serviço][5].
 
 [1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/portfolio-access.html
 [2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
