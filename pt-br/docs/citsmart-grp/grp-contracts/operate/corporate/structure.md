@@ -172,8 +172,8 @@ Caso a unidade seja do tipo “**Unidade Requisitante**”, o botão com esse t�
     e almoxarifado como, por exemplo: “Entrada de bens” e “Entrada de materiais. Há necessidade de haver, ao menos, um almoxarifado
     habilitado como padrão.
     
-Caso a unidade seja do tipo “Almoxarifado”, o botão com esse título deverá ser habilitado para “Sim”. Quando esta opção for 
-habilitada, o sistema disponibilizará a opção “Dias que pode realizar requisições”, que é utilizado pelos os órgãos/instituições
+Caso a unidade seja do tipo “**Almoxarifado**”, o botão com esse título deverá ser habilitado para “Sim”. Quando esta opção for 
+habilitada, o sistema disponibilizará a opção “**Dias que pode realizar requisições**”, que é utilizado pelos os órgãos/instituições
 que possuem calendário específico para “abertura” de período para solicitações de materiais por unidade requisitante.
 
 !!! note "NOTA"
