@@ -133,9 +133,9 @@ Google.
 
 2.  Clique em Criar um projeto, conforme indicado na figura abaixo:
 
-        ![Criar](images/android-ios-3.jpg)
+    ![Criar](images/android-ios-3.jpg)
     
-        **Figura 3 - Console do desenvolvedor Google**
+    **Figura 3 - Console do desenvolvedor Google**
 
 3.  Será apresentada uma janela, conforme ilustrada na figura abaixo, para
     informar os dados do novo projeto;
