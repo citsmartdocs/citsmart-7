@@ -18,7 +18,7 @@ implícita usando a funcionalidade **Configuração LDAP** ou de forma explícit
 Veja também
 -------------
 
-- Cadastro e pesquisa de conexões LDAP.
+- [Cadastro e pesquisa de conexões LDAP](/pt-br/citsmart-platform-7/plataform-administration/authentication/ldap.html).
 
 !!! tip "About"
 
