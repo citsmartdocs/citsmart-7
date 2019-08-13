@@ -15,10 +15,10 @@ Como acessar
 Pré-condições
 -------------
 
-1.  Ter um problema registrado (ver conhecimento [Cadastro de problema];
+1.  Ter um problema registrado (ver conhecimento [Cadastro de problema][1]);
 
 2.  Cadastrar justificativa de problema (ver conhecimento [Cadastro e pesquisa
-    de justificativa de problema].
+    de justificativa de problema][2]).
 
 Filtros
 -------
@@ -65,7 +65,7 @@ Suspendendo problema
 
     **Figura 3 - Tela de gerenciamento de problemas**
 
-1.  Será exibida uma janela para registro da justificativa de suspensão do
+2.  Será exibida uma janela para registro da justificativa de suspensão do
     problema:
 
     ![Criar](images/suspension-4.png)
@@ -84,13 +84,15 @@ Suspendendo problema
     operação, onde a data, hora e usuário serão gravados automaticamente para
     uma futura auditoria;
 
-1.  A situação do problema será atualizada na lista de registros de problema
+3.  A situação do problema será atualizada na lista de registros de problema
     para Suspensa, conforme ilustrado na figura abaixo:
 
     ![Criar](images/suspension-5.png)
 
     **Figura 5 - Tela de gerenciamento de problemas**
 
+[1]:/pt-br/citsmart-platform-7/processes/problem/register-problem.html
+[2]:/pt-br/citsmart-platform-7/processes/problem/justification.html
 
 !!! tip "About"
 
