@@ -17,7 +17,7 @@ Pré-condições
 ------------
 
 1.  Ter contrato cadastrado (ver conhecimento [Cadastro e pesquisa de
-    contrato](/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html);
+    contrato](/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html));
 
 2.  Ter grupo de atividade periódica cadastrado (ver conhecimento [Cadastro e
     pesquisa de grupo de atividade periódica](/pt-br/citsmart-platform-7/additional-features/automation-of-operation/configuration/periodic-activity-group.html)).
