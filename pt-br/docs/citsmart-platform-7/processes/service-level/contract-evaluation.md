@@ -17,10 +17,10 @@ Pré-condições
 -------------
 
 1.  Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de
-    contrato];
+    contrato][1);
 
 2.  Ter atividades cadastradas (ver conhecimento [Cadastro da atividade de
-    serviço].
+    serviço][2]).
 
 Filtros
 -------
@@ -57,6 +57,9 @@ Preenchimento dos campos cadastrais
 -----------------------------------
 
 1.  Não se aplica.
+
+[1]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/activity.html
 
 !!! tip "About"
 
