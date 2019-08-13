@@ -17,10 +17,10 @@ Pré-condições
 ------------
 
 1.  Cadastrar unidade (ver conhecimento [Cadastro e pesquisa de
-    unidade];
+    unidade](/pt-br/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html));
 
 2.  Cadastrar cargo (ver conhecimento [Cadastro e pesquisa de
-    cargo].
+    cargo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/position.html)).
 
 Filtros
 -------
