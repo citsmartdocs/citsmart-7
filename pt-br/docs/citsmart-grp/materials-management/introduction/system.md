@@ -84,7 +84,7 @@ Ao clicar em “Redefinir Senha”, o sistema apresentará a seguinte tela:
 
 Nesta tela o usuário deverá preencher o campo “Senha Antiga” e logo após
 informar a “Nova Senha” e “Confirmar a Nova Senha”. Em seguida o usuário deverá
-clicar em, para que o sistema armazene a nova senha.
+clicar em ![figura](images/system-13.png) , para que o sistema armazene a nova senha.
 
    !!! warning "ATENÇÃO"
 
@@ -95,7 +95,7 @@ clicar em, para que o sistema armazene a nova senha.
 
 Ao clicar na opção “**Sobre**” o sistema apresentará a seguinte tela:
 
-   ![figura](images/system-13.png)
+   ![figura](images/system-14.png)
 
    **Figura 9 - Sobre**
 
@@ -107,7 +107,7 @@ Ao clicar na opção “**Sobre**” o sistema apresentará a seguinte tela:
 Para finalizar a sessão do sistema, basta que o usuário clique na opção “Sair”,
 conforme ilustrado abaixo:
 
-   ![figura](images/system-14.png)
+   ![figura](images/system-15.png)
     
    **Figura 10 - Sair do sistema**
 
@@ -117,7 +117,7 @@ conforme ilustrado abaixo:
         e cor das abas), o que visa facilitar a identificação de cada módulo, caso o
         usuário do sistema opere com mais de um módulo.
 
-![figura](images/system-15.png)
+![figura](images/system-16.png)
 
 **Figura 11 - Cor de cada módulo**
 
