@@ -1,8 +1,6 @@
-title: Central Authetication Service (CAS) installation guide – version 5.0
-(GRP)
+title: Central Authetication Service (CAS) installation guide – version 5.0(GRP)
 
-Description: Trata-se de um pacote de software que implementa um protocolo de autenticação única para a web, para permitir que um usuário acesse múltiplas
-aplicações depois de fornecer suas credenciais (como usuário e senha) apenas uma vez.
+Description: Trata-se de um pacote de software que implementa um protocolo de autenticação única para a web, para permitir que um usuário acesse múltiplas aplicações depois de fornecer suas credenciais (como usuário e senha) apenas uma vez.
 
 # Central Authetication Service (CAS) installation guide – version 5.0 (GRP)
 
