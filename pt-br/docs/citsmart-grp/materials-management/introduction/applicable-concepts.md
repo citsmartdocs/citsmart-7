@@ -600,7 +600,7 @@ c)  Decorrerá, no caso de material de consumo, pelo atendimento às requisiçõ
     inutilização, abandono (para aqueles materiais sem nenhum valor econômico) e
     furto ou roubo.
 
-    !!! note "NOTA"
+   !!! note "NOTA"
 
         Face ao resultado do exame mencionado na alínea “a”, o dirigente do
         Departamento de Administração ou da unidade equivalente aquilatará da
