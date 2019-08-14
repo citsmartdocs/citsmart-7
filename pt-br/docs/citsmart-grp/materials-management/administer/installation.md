@@ -61,12 +61,12 @@ Software and download
 
 !!! warning "ATENÇÃO"
 
->   A partir desse ponto é obrigatório uma subscrição.
+    A partir desse ponto é obrigatório uma subscrição.
 
->   A instalação do CITSmart GRP requer sistema operacional GNU/Linux com kernel
->   igual ou superior ao 3.10.
+    A instalação do CITSmart GRP requer sistema operacional GNU/Linux com kernel
+    igual ou superior ao 3.10.
 
->   Recomendamos Red Hat, CentOS, Debian ou Ubuntu.
+    Recomendamos Red Hat, CentOS, Debian ou Ubuntu.
 
 Para execução do CITSmart GRP, baixaremos os pacotes necessários conforme o
 procedimento relativo ao produto.
