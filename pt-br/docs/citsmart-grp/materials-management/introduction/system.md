@@ -4,12 +4,12 @@ Description:Sistema
 
 Acessando o sistema
 
-    !!! warning "ATENÇÃO"
+!!! warning "ATENÇÃO"
 
-        Esta solução pode ser integrado ao sistema de autenticação utilizado por sua
-        instituição, neste caso, o usuário e senha seriam os mesmos utilizados para
-        acessar a sua rede de dados corporativa. Para este treinamento, o instrutor
-        irá informar (em sala de aula) o seu usuário e senha.
+    Esta solução pode ser integrado ao sistema de autenticação utilizado por sua
+    instituição, neste caso, o usuário e senha seriam os mesmos utilizados para
+    acessar a sua rede de dados corporativa. Para este treinamento, o instrutor
+    irá informar (em sala de aula) o seu usuário e senha.
 
 O acesso ao sistema CITSmart GRP está condicionado primeiramente ao usuário ter
 as permissões necessárias para desempenhar suas atividades.
