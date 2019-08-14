@@ -149,7 +149,7 @@ java version "1.8.0_131"
 
 Java(TM) SE Runtime Environment (build 1.8.0_131-b11)
 
-*Java HotSpot(TM) 64-Bit Server VM (build 25.131-b11, mixed mode)*
+Java HotSpot(TM) 64-Bit Server VM (build 25.131-b11, mixed mode)
 ```
 
 Extraia o Wildfly para o diretório /opt.
@@ -157,7 +157,7 @@ Extraia o Wildfly para o diretório /opt.
 No exemplo abaixo utilizamos o Wildfly com o PostgreSQL configurado.
 
 ```sh
-*\# tar -xvzf wildfly-10.1.0_postgres.tar.gz -C /opt/*
+\# tar -xvzf wildfly-10.1.0_postgres.tar.gz -C /opt/
 ```
 
 Agora devemos configurar o arquivo standalone-full.xml.
@@ -173,30 +173,32 @@ As seções necessárias de configuração estão demonstradas abaixo.
 
 Existem **5 entradas** de datasource para o **CITGRP_NAME_DB**.
 
-*\<!-- SET YOUR DATABASE INFORMATION - CHANGE IP_DB, PORT_DB, CITSMART_NAME_DB,
-CITGRP_NAME_DB, USER_DB, PASSWD_DB --\>*
+```sh
+\<!-- SET YOUR DATABASE INFORMATION - CHANGE IP_DB, PORT_DB, CITSMART_NAME_DB,
+CITGRP_NAME_DB, USER_DB, PASSWD_DB --\>
 
-*\<connection-url\>jdbc:postgresql://IP_DB:PORT_DB/CITGRP_NAME_DB\</connection-url\>*
+\<connection-url\>jdbc:postgresql://IP_DB:PORT_DB/CITGRP_NAME_DB\</connection-url\>
 
-*\<driver\>postgres\</driver\>*
+\<driver\>postgres\</driver\>
 
-*\<pool\>*
+\<pool\>
 
-*\<min-pool-size\>10\</min-pool-size\>*
+\<min-pool-size\>10\</min-pool-size\>
 
-*\<max-pool-size\>1000\</max-pool-size\>*
+\<max-pool-size\>1000\</max-pool-size\>
 
-*\<flush-strategy\>IdleConnections\</flush-strategy\>*
+\<flush-strategy\>IdleConnections\</flush-strategy\>
 
-*\</pool\>*
+\</pool\>
 
-*\<security\>*
+\<security\>
 
-*\<user-name\>USER_DB\</user-name\>*
+\<user-name\>USER_DB\</user-name\>
 
-*\<password\>PASSWD_DB\</password\>*
+\<password\>PASSWD_DB\</password\>
+```
 
-SERVIDOR DE BANCO DE DADOS PostgreSQL/Oracle/MSSQL
+Servidor de banco de dados PostgreSQL/Oracle/MSSQL
 --------------------------------------------------
 
 O PostgreSQL podemos instalar diretamente do repositório da distribuição caso
@@ -205,34 +207,36 @@ seja igual ou superior a versão 9.2.
 No manual estamos utilizando o Ubuntu Server LTS 16.0.4 que possuí a versão 9.5
 no repositório.
 
-*\# apt-get update*
+```sh
+\# apt-get update
 
-*\# apt-get install postgresql-9.5*
+\# apt-get install postgresql-9.5
 
 Após instalar o PostgreSQL precisamos criar a base de dados, usuário e senha.
 
-*\# systemctl start postgresql*
+\# systemctl start postgresql
 
-*\# su – postgres*
+\# su – postgres
 
-*\$ psql*
+\$ psql
 
-*\<mensagem CREATE DATABASE\>*
+\<mensagem CREATE DATABASE\>
 
-*postgres=\# create user citsmart with password 'yourpassword';*
+postgres=\# create user citsmart with password 'yourpassword';
 
-*\<mensagem CREATE ROLE\>*
+\<mensagem CREATE ROLE\>
 
-*postgres=\# create database citgrpdb with owner citsmart encoding 'UTF8'
-tablespace pg_default;*
+postgres=\# create database citgrpdb with owner citsmart encoding 'UTF8'
+tablespace pg_default;
 
-*\<mensagem CREATE DATABASE\>*
+\<mensagem CREATE DATABASE\>
 
-*postgres=\# alter role citsmart superuser;*
+postgres=\# alter role citsmart superuser;
 
-*\<mensagem ALTER ROLE\>*
+\<mensagem ALTER ROLE\>
 
-*postgres=\#exit*
+postgres=\#exit
+```
 
 Observe o retorno dos comandos analisando a correta execução.
 
@@ -245,6 +249,7 @@ Hora de abrir o listening no arquivo **/etc/postgresql/9.5/main/postgresql.conf
 
 Após as configurações, de um restart no postgresql.
 
+```sh
 *Padrão:*
 
 *host all all 127.0.0.1/32 md5*
@@ -252,7 +257,9 @@ Após as configurações, de um restart no postgresql.
 *Alterado:*
 
 *host CITGRP_NAME_DB USER_DB IP\_ Wildfly /32 md5*
+```
 
+```sh
 *Padrão está comentado:*
 
 *\#listen_addresses = 'localhost'*
@@ -262,8 +269,9 @@ Após as configurações, de um restart no postgresql.
 *listen_addresses = ‘0.0.0.0'*
 
 *\# systemctl restart postgresql*
+```
 
-CONFIGURAÇÃO DO CAS
+Configuração do CAS
 -------------------
 
 Execute a instrução mais indicada de instalação do CAS, segue dois exemplos:
@@ -274,144 +282,146 @@ Execute a instrução mais indicada de instalação do CAS, segue dois exemplos:
 2.  [Manual de instalação do central authentication service (CAS) - versão 5.0
     (GRP)](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/2717)
 
-Faça o download dos arquivos de configuração
-em <http://files.citsmart.com/cas-config.tar.gz> e descompacte em
-/etc/cas/config.
+Faça o download dos arquivos de configuração em <http://files.citsmart.com/cas-config.tar.gz> e descompacte em /etc/cas/config.
 
->   !!! note "NOTA"
+   !!! note "NOTA"
 
->   Este acesso exigirá login e senha controlados pela CITSmart Corporation
+       Este acesso exigirá login e senha controlados pela CITSmart Corporation
 
-*\# mkdir –p /etc/cas/config*
+```sh
+\# mkdir –p /etc/cas/config
 
-*\# tar xzvf cas-config.tar.gz –C /etc/cas/config*
+\# tar xzvf cas-config.tar.gz –C /etc/cas/config
+```
 
 Agora iremos configurar o cas para autenticação via banco de dados PostgreSQL.
 
 Abra o arquivo **/etc/cas/config/cas.properties **e altere as informações de
 conexão com o banco de dados.
 
-*\# vim /etc/cas/config/cas.properties*
+```sh
+\# vim /etc/cas/config/cas.properties
 
-*cas.authn.jdbc.search[0].fieldUser=username*
+cas.authn.jdbc.search[0].fieldUser=username
 
-*cas.authn.jdbc.search[0].tableUsers=seguranca_usuario*
+cas.authn.jdbc.search[0].tableUsers=seguranca_usuario
 
-*cas.authn.jdbc.search[0].fieldPassword=password*
+cas.authn.jdbc.search[0].fieldPassword=password
 
-*cas.authn.jdbc.search[0].healthQuery=SELECT 1*
+cas.authn.jdbc.search[0].healthQuery=SELECT 1
 
-*cas.authn.jdbc.search[0].isolateInternalQueries=false*
+cas.authn.jdbc.search[0].isolateInternalQueries=false
 
-*cas.authn.jdbc.search[0].url=jdbc:postgresql://IP_DB:PORT_DB/CITGRP_NAME_DB*
+cas.authn.jdbc.search[0].url=jdbc:postgresql://IP_DB:PORT_DB/CITGRP_NAME_DB
 
-*cas.authn.jdbc.search[0].failFast=true*
+cas.authn.jdbc.search[0].failFast=true
 
-*cas.authn.jdbc.search[0].isolationLevelName=ISOLATION_READ_COMMITTED*
+cas.authn.jdbc.search[0].isolationLevelName=ISOLATION_READ_COMMITTED
 
-*cas.authn.jdbc.search[0].dialect=org.hibernate.dialect.PostgreSQL94Dialect*
+cas.authn.jdbc.search[0].dialect=org.hibernate.dialect.PostgreSQL94Dialect
 
-*cas.authn.jdbc.search[0].leakThreshold=10*
+cas.authn.jdbc.search[0].leakThreshold=10
 
-*cas.authn.jdbc.search[0].propagationBehaviorName=PROPAGATION_REQUIRED*
+cas.authn.jdbc.search[0].propagationBehaviorName=PROPAGATION_REQUIRED*
 
-*cas.authn.jdbc.search[0].batchSize=1*
+cas.authn.jdbc.search[0].batchSize=1
 
-*cas.authn.jdbc.search[0].user= USER_DB*
+cas.authn.jdbc.search[0].user= USER_DB
 
-*cas.authn.jdbc.search[0].ddlAuto=validate*
+cas.authn.jdbc.search[0].ddlAuto=validate
 
-*cas.authn.jdbc.search[0].maxAgeDays=180*
+cas.authn.jdbc.search[0].maxAgeDays=180
 
-*cas.authn.jdbc.search[0].password= PASSWD_DB*
+cas.authn.jdbc.search[0].password= PASSWD_DB
 
-*cas.authn.jdbc.search[0].autocommit=false*
+cas.authn.jdbc.search[0].autocommit=false
 
-*cas.authn.jdbc.search[0].driverClass=org.postgresql.Driver*
+cas.authn.jdbc.search[0].driverClass=org.postgresql.Driver
 
-*cas.authn.jdbc.search[0].idleTimeout=5000*
+cas.authn.jdbc.search[0].idleTimeout=5000
 
-*cas.authn.jdbc.search[0].passwordEncoder.type=BCRYPT*
+cas.authn.jdbc.search[0].passwordEncoder.type=BCRYPT
 
-*\#cas.authn.jdbc.search[0].passwordEncoder.type=DEFAULT*
+\#cas.authn.jdbc.search[0].passwordEncoder.type=DEFAULT
 
-*cas.authn.jdbc.search[0].passwordEncoder.secret=*
+cas.authn.jdbc.search[0].passwordEncoder.secret=
 
-*cas.authn.jdbc.search[0].passwordEncoder.characterEncoding=UTF-8*
+cas.authn.jdbc.search[0].passwordEncoder.characterEncoding=UTF-8
 
-*cas.authn.jdbc.search[0].passwordEncoder.strength=10*
+cas.authn.jdbc.search[0].passwordEncoder.strength=10
 
-*cas.authn.jdbc.search[0].passwordEncoder.encodingAlgorithm=MD5*
+cas.authn.jdbc.search[0].passwordEncoder.encodingAlgorithm=MD5
+```
 
-CONFIGURAÇÃO DO cit-app.properties
+Configuração do cit-app.properties
 ----------------------------------
 
->   Agora iremos configurar o arquivo cit-app.properties
->   em **/opt/wildfly/modules/system/layers/base/br/com/citsmart-grp/main/cit-app.properties **e
->   atualizar as informações conforme necessidade.
+Agora iremos configurar o arquivo cit-app.properties em **/opt/wildfly/modules/system/layers/base/br/com/citsmart-grp/main/cit-app.properties** e atualizar as informações conforme necessidade.
 
-*\# 1 - Quando for autenticacao via banco de dados direto o arquivo
+```sh
+\# 1 - Quando for autenticacao via banco de dados direto o arquivo
 spring-security*
 
-*\# 2 - Quando for autenticacao via jasig-cas o arquivo spring-security-cas*
+\# 2 - Quando for autenticacao via jasig-cas o arquivo spring-security-cas
 
-*metodo.autenticacao=2*
+metodo.autenticacao=2
 
-*metodo.autenticacao.ldap=false*
+metodo.autenticacao.ldap=false
 
-*cas.return.url=https://10.2.1.82:8443/cit-portal-web/*
+cas.return.url=https://10.2.1.82:8443/cit-portal-web/
 
-*authentication.method=spring-security-cas.xml*
+authentication.method=spring-security-cas.xml
 
-*authentication.url=https://10.2.1.82:8443*
+authentication.url=https://10.2.1.82:8443
 
-*server.port=8443*
+server.port=8443
 
-*\# PROPRIEDADES DE AMBIENTE DE EXECUÇÃO*
+\# PROPRIEDADES DE AMBIENTE DE EXECUÇÃO
 
-*environment=dev*
+environment=dev
 
-*\#environment=prod*
+\#environment=prod
 
-*\# PROPRIEDADES DE PERSISTENCIA*
+\# PROPRIEDADES DE PERSISTENCIA
 
-*hibernate.show.sql=false*
+hibernate.show.sql=false
 
-*hibernate.format.sql=true*
+hibernate.format.sql=true
 
-*hibernate.generate.ddl=true*
+hibernate.generate.ddl=true
 
-*hibernate.hbm2ddl.auto=validate*
+hibernate.hbm2ddl.auto=validate
 
-*hibernate.use_sql_comments=false*
+hibernate.use_sql_comments=false
 
-*hibernate.generate_statistics=true*
+hibernate.generate_statistics=true
 
-*hibernate.dialect= br.com.centralit.framework.util.PostgreSQLCustomDialect*
+hibernate.dialect= br.com.centralit.framework.util.PostgreSQLCustomDialect
 
-*\# PROPRIEDADES DE ARQUIVO MINIFICADOS*
+\# PROPRIEDADES DE ARQUIVO MINIFICADOS
 
-*arquivoMinJS=false*
+arquivoMinJS=false
 
-*\# PROPRIEDADES LOCAL TEMP DOCUMENTOS GERADO*
+\# PROPRIEDADES LOCAL TEMP DOCUMENTOS GERADO
 
-*documento.dir.output=/opt/wildfly/reports*
+documento.dir.output=/opt/wildfly/reports
 
-*documento.dir.duracao.dia=1*
+documento.dir.duracao.dia=1
 
-*cron.expression.file.clean=0 0/1 \* 1/1 \* ? \**
+cron.expression.file.clean=0 0/1 \* 1/1 \* ? \*
 
-*ecm.dir.privateKeyFile=/opt/wildfly/assets/private.der*
+ecm.dir.privateKeyFile=/opt/wildfly/assets/private.der
 
-*ecm.dir.encryptedKeyFile=/opt/wildfly/assets/key.encrypt*
+ecm.dir.encryptedKeyFile=/opt/wildfly/assets/key.encrypt
+```
 
-PARÂMETROS CITSmart GRP
+Parâmetros CITSmart GRP
 -----------------------
 
 !!! warning "ATENÇÃO"
 
->   Todos os parâmetros devem ser configurados antes do start completo da
->   solução.
+    Todos os parâmetros devem ser configurados antes do start completo da
+    solução.
 
 *DataSource do standalone-full.xml*
 
@@ -432,118 +442,125 @@ PARÂMETROS CITSmart GRP
 *PASSWD_DB: Senha de acesso do usuário de banco. Manual criado com
 yourpassword.*
 
-GERAÇÃO DE CERTIFICADO AUTO ASSINADO SSL
+Geração de certificado auto assinado SSL
 ----------------------------------------
 
 !!! info "IMPORTANTE"
 
->   Para o Wildfly será gerado um certificado auto assinado. Caso você possua um
->   certificado é importante utiliza-lo.
+    Para o Wildfly será gerado um certificado auto assinado. Caso você possua um
+    certificado é importante utilizá-lo.
 
 Conecte no servidor do Wildfly.
 
-*Deletando alias antigos.*
 
-*\# keytool -keystore /opt/jdk1.8.0_131/jre/lib/security/cacerts -delete -alias
-GRPv1*
+```sh
+Deletando alias antigos.
 
-*Criando alias novo com DNS (exemplo sub.example.com):*
+\# keytool -keystore /opt/jdk1.8.0_131/jre/lib/security/cacerts -delete -alias
+GRPv1
 
-*\# keytool -genkey -alias GRPv1 -keyalg RSA -keystore
+Criando alias novo com DNS (exemplo sub.example.com):
+
+\# keytool -genkey -alias GRPv1 -keyalg RSA -keystore
 /opt/wildfly/standalone/configuration/GRPv1.keystore -ext
-san=dns:sub.example.com -validity 3650 -storepass 123456*
+san=dns:sub.example.com -validity 3650 -storepass 123456
 
-*Criando alias com IP do serviodor do Jboss (exemplo 10.2.1.82):*
+Criando alias com IP do serviodor do Jboss (exemplo 10.2.1.82):
 
-*\# /keytool -genkey -alias GRPv1 -keyalg RSA -keystore
+\# /keytool -genkey -alias GRPv1 -keyalg RSA -keystore
 /opt/wildfly/standalone/configuration/GRPv1.keystore -ext
-san=ip:10.2.1.82 -validity 3650 -storepass 123456*
+san=ip:10.2.1.82 -validity 3650 -storepass 123456
 
-*Exportando certificado para extensão .cer:*
+Exportando certificado para extensão .cer:
 
-*\# keytool -export -alias GRPv1 -keystore
+\# keytool -export -alias GRPv1 -keystore
 /opt/wildfly/standalone/configuration/GRPv1.keystore -validity 3650 -file
 /opt/wildfly/standalone/configuration/GRPv1.cer*
 
-*Adicionando certificado no cacerts do Java:*
+Adicionando certificado no cacerts do Java:
 
-*\# keytool -keystore /opt/jdk1.8.0_131/jre/lib/security/cacerts -importcert
--alias GRPv1 -file /opt/wildfly/standalone/configuration/GRPv1.cer*
+\# keytool -keystore /opt/jdk1.8.0_131/jre/lib/security/cacerts -importcert
+-alias GRPv1 -file /opt/wildfly/standalone/configuration/GRPv1.cer
+```
 
 Após a geração do certificado, atualize as informações referente ao ssl
 no **/opt/wildfly/standalone/configuration/standalone-full.xml** do Wildfly.
 
-INICIANDO AS SOLUÇÕES SEGUINDO DEPENDÊNCIAS
+Iniciando as soluções seguindo dependências
 -------------------------------------------
 
 Podem ser criadas as daemons conforme padrão de sua empresa ou iniciar as
 soluções no terminal.
 
-**SERVIDOR DE BANCO DE DADOS PostgreSQL**
+**Servidor de aplicação de dados PostgreSQL**
 
-*\# systemctl postgresql start*
+```sh
+\# systemctl postgresql start
+```
 
-**SERVIDOR DE APLICAÇÃO Wildfly**
+**Servidor de aplicação Wildfly**
 
-*\<security-realms\>*
+```sh
+\<security-realms\>
 
-*\<security-realm name="ManagementRealm"\>*
+\<security-realm name="ManagementRealm"\>
 
-*\<authentication\>*
+\<authentication\>
 
-*\<local default-user="\$local" skip-group-loading="true"/\>*
+\<local default-user="\$local" skip-group-loading="true"/\>
 
-*\<properties path="mgmt-users.properties"
+\<properties path="mgmt-users.properties"
+relative-to="jboss.server.config.dir"/\>
+
+\</authentication\>
+
+\<authorization map-groups-to-roles="false"\>*
+
+\<properties path="mgmt-groups.properties"
 relative-to="jboss.server.config.dir"/\>*
 
-*\</authentication\>*
+\</authorization\>
 
-*\<authorization map-groups-to-roles="false"\>*
+\</security-realm\>
 
-*\<properties path="mgmt-groups.properties"
-relative-to="jboss.server.config.dir"/\>*
+\<security-realm name="ApplicationRealm"\>
 
-*\</authorization\>*
+\<server-identities\>
 
-*\</security-realm\>*
+\<ssl\>
 
-*\<security-realm name="ApplicationRealm"\>*
-
-*\<server-identities\>*
-
-*\<ssl\>*
-
-*\<keystore path="GRPv1.keystore" relative-to="jboss.server.config.dir"
+\<keystore path="GRPv1.keystore" relative-to="jboss.server.config.dir"
 keystore-password="123456" alias="GRPv1" key-password="123456"
-generate-self-signed-certificate-host=" 10.2.1.82"/\>*
+generate-self-signed-certificate-host=" 10.2.1.82"/\>
 
-*\</ssl\>*
+\</ssl\>
 
-*\</server-identities\>*
+\</server-identities\>
 
-*\<authentication\>*
+\<authentication\>
 
-*\<local default-user="\$local" allowed-users="\*" skip-group-loading="true"/\>*
+\<local default-user="\$local" allowed-users="\*" skip-group-loading="true"/\>
 
-*\<properties path="application-users.properties"
-relative-to="jboss.server.config.dir"/\>*
+\<properties path="application-users.properties"
+relative-to="jboss.server.config.dir"/\>
 
-*\</authentication\>*
+\</authentication\>
 
-*\<authorization\>*
+\<authorization\>
 
-*\<properties path="application-roles.properties"
-relative-to="jboss.server.config.dir"/\>*
+\<properties path="application-roles.properties"
+relative-to="jboss.server.config.dir"/\>
 
-*\</authorization\>*
+\</authorization\>
 
-*\</security-realm\>*
+\</security-realm\>
 
-*\</security-realms\>*
+\</security-realms\>
 
-*\# /opt/wildfly/bin/standalone.sh -Djboss.bind.address=0.0.0.0*
+\# /opt/wildfly/bin/standalone.sh -Djboss.bind.address=0.0.0.0
+```
 
-DOWNLOAD DOS DEPLOYS DO CITSmart GRP
+Download dos deploys do CITSmart GRP
 ------------------------------------
 
 Os deploys devem ser baixados conforme sua subscrição e login
@@ -552,13 +569,15 @@ em [http://files.citsmart.com/](http://files.citsmart.com/deploys).
 Com os deploys em mãos, mova-os para o diretório deployments do Wildfly, na
 seguinte ordem:
 
-*\# cp cas.war /opt/wildfly/standalone/deployments/*
+```sh
+\# cp cas.war /opt/wildfly/standalone/deployments/
 
-*\# cp cit-portal.war /opt/ wildfly/standalone/deployments/*
+\# cp cit-portal.war /opt/ wildfly/standalone/deployments/
 
-*\<continue conforme os deploys disponíveis para sua subscrição\>*
+\<continue conforme os deploys disponíveis para sua subscrição\>
+```
 
-ACESSO AO CITSmart GRP
+Acesso ao CITSmart GRP
 ----------------------
 
 Para acessar o CITSmart Enterprise, devemos acessar o IP ou DNS seguido da porta
@@ -566,7 +585,7 @@ e contexto.
 
 !!! example "EXEMPLO"
 
->   Exemplo de URL: <https://10.2.1.82:8443/cit-portal-web>
+    Exemplo de URL: <https://10.2.1.82:8443/cit-portal-web>
 
 O IP é o endereçamento da máquina onde o Wildfly está em execução. Ao invés do
 IP pode-se utilizar um endereço DNS. O IP 10.2.1.82 é um exemplo de ip utilizado
@@ -574,14 +593,16 @@ para a criação desse ambiente.
 
 O contexto cit-portal-web é o padrão do CITSmart GRP.
 
-PRIMEIRO ACESSO
+Primeiro acesso
 ---------------
 
 Digite a URL <https://10.2.1.82:8443/cit-portal-web>.
 
+![figura](images/installation.png)
+
 **Figura N - Tela de login do produto**
 
-LOGIN E CONFIGURAÇÕES BÁSICAS
+Login e configurações básicas
 -----------------------------
 
 Acesse o ambiente com usuário padrão admin e senha admin. No primeiro acesso é
@@ -594,9 +615,7 @@ sistema, Corporativo, Administração de Materiais, Contratos, etc.
 
 !!! warning "ATENÇÃO"
 
->   Após habilitar os módulos salve, faça logout e login novamente.
-
-
+    Após habilitar os módulos salve, faça logout e login novamente.
 
 
 
