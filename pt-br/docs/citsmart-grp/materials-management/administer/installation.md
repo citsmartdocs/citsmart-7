@@ -250,25 +250,25 @@ Hora de abrir o listening no arquivo **/etc/postgresql/9.5/main/postgresql.conf
 Após as configurações, de um restart no postgresql.
 
 ```sh
-*Padrão:*
+Padrão:
 
-*host all all 127.0.0.1/32 md5*
+host all all 127.0.0.1/32 md5
 
-*Alterado:*
+Alterado:
 
-*host CITGRP_NAME_DB USER_DB IP\_ Wildfly /32 md5*
+host CITGRP_NAME_DB USER_DB IP\_ Wildfly /32 md5
 ```
 
 ```sh
-*Padrão está comentado:*
+Padrão está comentado:
 
-*\#listen_addresses = 'localhost'*
+\#listen_addresses = 'localhost'
 
-*Alterado:*
+Alterado:
 
-*listen_addresses = ‘0.0.0.0'*
+listen_addresses = ‘0.0.0.0'
 
-*\# systemctl restart postgresql*
+\# systemctl restart postgresql
 ```
 
 Configuração do CAS
@@ -277,10 +277,10 @@ Configuração do CAS
 Execute a instrução mais indicada de instalação do CAS, segue dois exemplos:
 
 1.  [Manual de instalação do Central Authentication Service (CAS) - versão 3.0
-    (ITSM)](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/2718)
+    (ITSM)]()
 
 2.  [Manual de instalação do central authentication service (CAS) - versão 5.0
-    (GRP)](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/2717)
+    (GRP)]()
 
 Faça o download dos arquivos de configuração em <http://files.citsmart.com/cas-config.tar.gz> e descompacte em /etc/cas/config.
 
@@ -296,7 +296,7 @@ Faça o download dos arquivos de configuração em <http://files.citsmart.com/c
 
 Agora iremos configurar o cas para autenticação via banco de dados PostgreSQL.
 
-Abra o arquivo **/etc/cas/config/cas.properties **e altere as informações de
+Abra o arquivo **/etc/cas/config/cas.properties** e altere as informações de
 conexão com o banco de dados.
 
 ```sh
@@ -423,24 +423,24 @@ Parâmetros CITSmart GRP
     Todos os parâmetros devem ser configurados antes do start completo da
     solução.
 
-*DataSource do standalone-full.xml*
+DataSource do standalone-full.xml
 
-*\<connection-url\>jdbc:postgresql://IP_DB:PORT_DB/CITGRP_NAME_DB\</connection-url\>*
+\<connection-url\>jdbc:postgresql://IP_DB:PORT_DB/CITGRP_NAME_DB\</connection-url\>
 
-*\<user-name\>USER_DB\</user-name\>*
+\<user-name\>USER_DB\</user-name\>
 
-*\<password\>PASSWD_DB\</password\>*
+\<password\>PASSWD_DB\</password\>
 
-*IP_DB: configuração de rede do servidor de banco de dados PostgreSQL.*
+IP_DB: configuração de rede do servidor de banco de dados PostgreSQL.
 
-*PORT_DB: Padrão 5432(PostgreSQL).*
+PORT_DB: Padrão 5432(PostgreSQL).
 
-*CITGRP_NAME_DB: Manual criado como citgrpdb.*
+CITGRP_NAME_DB: Manual criado como citgrpdb.
 
-*USER_DB: Usuário de acesso a base. Manual criado com citsmart.*
+USER_DB: Usuário de acesso a base. Manual criado com citsmart.
 
-*PASSWD_DB: Senha de acesso do usuário de banco. Manual criado com
-yourpassword.*
+PASSWD_DB: Senha de acesso do usuário de banco. Manual criado com
+yourpassword.
 
 Geração de certificado auto assinado SSL
 ----------------------------------------
@@ -600,7 +600,7 @@ Digite a URL <https://10.2.1.82:8443/cit-portal-web>.
 
 ![figura](images/installation.png)
 
-**Figura N - Tela de login do produto**
+**Figura 1 - Tela de login do produto**
 
 Login e configurações básicas
 -----------------------------
