@@ -364,7 +364,7 @@ Agora iremos configurar o arquivo cit-app.properties em **/opt/wildfly/modules/
 
 ```sh
 \# 1 - Quando for autenticacao via banco de dados direto o arquivo
-spring-security*
+spring-security
 
 \# 2 - Quando for autenticacao via jasig-cas o arquivo spring-security-cas
 
