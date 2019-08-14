@@ -36,12 +36,12 @@ Itens da Lista de Verificação:
 
 Em seguida clique em “**Adicionar**” para inserir os itens da lista de verificação, e a tela seguinte será exibida:
 
-    ![Inserindo](images/control.img3.jpg)
+![Inserindo](images/control.img3.jpg)
     
-    **Figura 3 - Inserindo itens da lista de verificação**
+**Figura 3 - Inserindo itens da lista de verificação**
     
-    - **Descrição**: nome do item de verificação que posteriormente será respondido como Sim, Não ou Não se Aplica
-    - **Fundamento Legal**: citação do artigo, inciso ou parte da legislação que menciona sobre o item a ser verificado
+- **Descrição**: nome do item de verificação que posteriormente será respondido como Sim, Não ou Não se Aplica
+- **Fundamento Legal**: citação do artigo, inciso ou parte da legislação que menciona sobre o item a ser verificado
     
 Clique em “**Adicionar**” para incluir um item à lista de verificação ou
 
