@@ -502,9 +502,6 @@ Cadastro de domínios
 Ao clicar em “Cadastro de Domínios”, a seguinte tela será apresentada para
 visualizar as tabelas de domínios cadastradas:
 
-![figure](images/5cas-28.png)
-
-**Figura 23 - Lista de Domínios Cadastrados**
 
 
 !!! tip "About"
