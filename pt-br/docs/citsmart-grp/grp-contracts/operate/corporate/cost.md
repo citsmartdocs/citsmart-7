@@ -43,7 +43,7 @@ visualização permite também editar as informações e retornar à tela de pes
 Para editar um cadastro clique em “**Editar**”, e o sistema exibirá a tela de cadastro selecionado, permitindo a edição das 
 informações.
 
-Para excluir um cadastro, clique em “**Remover**, e o sistema excluirá completamente o cadastro.
+Para excluir um cadastro, clique em “**Remover**", e o sistema excluirá completamente o cadastro.
 
 O botão “**Filtros**” permite criar filtros específicos para visualização na tela de pesquisa.
 
