@@ -560,7 +560,9 @@ relative-to="jboss.server.config.dir"/\>
 \</security-realm\>
 
 \</security-realms\>
+```
 
+```sh
 \# /opt/wildfly/bin/standalone.sh -Djboss.bind.address=0.0.0.0
 ```
 
