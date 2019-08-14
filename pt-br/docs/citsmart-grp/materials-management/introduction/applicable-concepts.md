@@ -162,7 +162,7 @@ Caracteriza-se como incorporação, a entrada de um bem no acervo patrimonial do
 
        Os Materiais permanentes recebidos, mediante qualquer processo de
        aquisição, devem ser incorporados ao patrimônio antes de serem distribuídos
-       às Unidades que irão elativ-los.
+       às Unidades que irão utilizá-los.
 
    !!! note “NOTA”
 
@@ -468,7 +468,7 @@ número de patrimônio ou tombamento:
 
         Materiais permanentes e materiais de consumo recebidos, mediante qualquer
         processo de aquisição, devem ser incorporados ao patrimônio antes de serem
-        distribuídos às Unidades que irão utilizá-los
+        distribuídos às Unidades que irão utilizá-los.
 
 Carga
 -----
@@ -513,7 +513,7 @@ setor, ou criando-se um termo complementar para os itens incluídos.
        quer trate de material de consumo nos almoxarifados, quer trate de
        equipamentos ou material permanente em uso pelo setor competente. Em ambos
        os casos, a ocorrência de tais registros está condicionada à apresentação de
-       documentos que os justifiquem (Vide item 6.1 da IN/SEDAP nº 205/1988).**
+       documentos que os justifiquem (Vide item 6.1 da IN/SEDAP nº 205/1988).
 
 Nenhum material deverá ser liberado aos usuários, antes de cumpridas as
 formalidades de recebimento, aceitação e registro no competente instrumento de
