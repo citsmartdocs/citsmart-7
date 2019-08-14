@@ -228,11 +228,11 @@ armazene as informações no banco de dados.
 
 Nesta tela as seguintes ações também poderão ser realizadas:
 
--   **Limpar: **limpa todos os campos preenchidos.
+-   **Limpar**: limpa todos os campos preenchidos.
 
--   **Remover: **remove o registro.
+-   **Remover**: remove o registro.
 
--   **Pesquisar: **retorna à tela de pesquisa.
+-   **Pesquisar**: retorna à tela de pesquisa.
 
 Ao selecionar um usuário e clicar em “**Visualizar**”, as informações
 cadastradas são exibidas.
