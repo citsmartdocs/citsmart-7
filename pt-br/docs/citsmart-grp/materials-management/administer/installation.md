@@ -119,7 +119,7 @@ Configuração de pacotes
 !!! note "NOTA"
 
     Utiliza-se o diretório /opt para instalação de todos os pacotes para o
-    CITSmart GRP e /etc/cas/config para a configuração do cas.**
+    CITSmart GRP e /etc/cas/config para a configuração do cas.
 
     O GNU/Linux com instalação mínima deve estar configurado nas 2 máquinas.
 
