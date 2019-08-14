@@ -269,7 +269,9 @@ Padrão está comentado:
 Alterado:
 
 listen_addresses = ‘0.0.0.0'
+```
 
+```sh
 \# systemctl restart postgresql
 ```
 
