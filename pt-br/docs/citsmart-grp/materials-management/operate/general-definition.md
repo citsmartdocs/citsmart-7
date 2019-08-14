@@ -192,8 +192,8 @@ no botão “**Salvar**”.
 
 !!! info "IMPORTANTE"
 
-   As abas Almoxarifado e Patrimônio só serão exibidas caso o cliente tenha os
-   módulos em questão.
+    As abas Almoxarifado e Patrimônio só serão exibidas caso o cliente tenha os
+    módulos em questão.
 
 
 !!! tip "About"
