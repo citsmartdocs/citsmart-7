@@ -79,7 +79,7 @@ apresentará a seguinte tela:
     -   **Verificar preço médio de entrada de materiais (0 – 100%):** define a
         porcentagem de diferença a ser considerado o preço médio de materiais.
 
-    -   **Configuração de Ressuprimento: **permite definir as informações para
+    -   **Configuração de Ressuprimento**: permite definir as informações para
         que o sistema informe sobre a necessidade de ressuprimento de materiais,
         definindo:
 
@@ -97,7 +97,7 @@ apresentará a seguinte tela:
     
     **Figura 3 - Aba Almoxarifado**
 
--   **Aba Patrimônio:** permite realizar as configurações iniciais para o módulo
+-   **Aba Patrimônio**: permite realizar as configurações iniciais para o módulo
     Patrimônio, conforme apresentado a seguir:
 
     -   **Máscara do número patrimonial**: define qual a máscara a ser utilizada
@@ -149,9 +149,9 @@ de acordo com as definições configuradas.
 Ao selecionar a opção “**Notificação**” no submenu “**Geral**”, a seguinte tela
 será mostrada:
 
-    ![figure](images/5cas-7.png)
+   ![figure](images/5cas-7.png)
 
-    **Figura 7 - Visualizando Notificações Configuradas**
+   **Figura 7 - Visualizando Notificações Configuradas**
 
 Na tela de pesquisa é possível, **Visualizar** as informações de uma Notificação
 cadastrado, **Remover** uma Notificação e ainda criar **Filtros**específicos de
@@ -180,9 +180,9 @@ visualizar os usuários já cadastrados, editar e remover cadastros.
 Ao clicar em Usuário, a tela de pesquisa será exibida permitindo visualizar os
 cadastros realizados.
 
-    ![figure](images/5cas-8.png)
+   ![figure](images/5cas-8.png)
     
-    **Figura 8 - Pesquisando Usuários**
+   **Figura 8 - Pesquisando Usuários**
 
 As opções de botões apresentadas na tela permitem: **cadastrar** um novo
 usuário, **visualizar** o cadastro de um usuário selecionado, **editar**
@@ -192,9 +192,9 @@ visualização.
 Ao clicar em “**Cadastrar**”, e a tela abaixo será aberta para realizar o
 cadastro de um novo usuário.
 
-    ![figure](images/5cas-9.png)
+   ![figure](images/5cas-9.png)
 
-    **Figura 9 - Cadastrando Usuário**
+   **Figura 9 - Cadastrando Usuário**
 
 Nesta tela de cadastro, as seguintes informações deverão ser preenchidas:
 
@@ -236,11 +236,10 @@ Nesta tela as seguintes ações também poderão ser realizadas:
 
 Ao selecionar um usuário e clicar em “**Visualizar**”, as informações
 cadastradas são exibidas.
+ 
+   ![figure](images/5cas-10.png)
 
-    
-    ![figure](images/5cas-10.png)
-
-    **Figura 10 - Visualizando um Cadastro**
+   **Figura 10 - Visualizando um Cadastro**
 
 A tela de visualização permite também editar as informações e retornar à tela de
 pesquisa.
@@ -263,9 +262,9 @@ além de visualizar grupos, editar e remover cadastros de grupos.
 Ao clicar em Grupo, a tela de pesquisa será exibida permitindo visualizar os
 cadastros realizados.
 
-    ![figure](images/5cas-11.png)
+   ![figure](images/5cas-11.png)
 
-    **Figura 11 - Pesquisando Grupos de Usuários**
+   **Figura 11 - Pesquisando Grupos de Usuários**
 
 As opções de botões apresentadas na tela permitem:
 
@@ -282,11 +281,10 @@ As opções de botões apresentadas na tela permitem:
 
 Ao clicar em “**Cadastrar**”, e a tela abaixo será aberta para realizar o
 cadastro de um novo grupo.
-
     
-    ![figure](images/5cas-12.png)
+   ![figure](images/5cas-12.png)
 
-    **Figura 12 - Cadastrando Grupo de Usuários**
+   **Figura 12 - Cadastrando Grupo de Usuários**
 
 A tela de cadastro apresentará alguns campos para preenchimento, conforme
 abaixo:
@@ -358,25 +356,23 @@ menu, cadastrar novos módulos e configurar a internacionalização.
 Para configurar o Menu, clique sobre a funcionalidade para alterar a ordem dos
 módulos, ícones e cores, como mostrado na imagem abaixo:
 
-    
-     ![figure](images/5cas-15.png)
+   ![figure](images/5cas-15.png)
 
-     **Figura 15 - Configurando o Menu**
+   **Figura 15 - Configurando o Menu**
 
 Ao clicar no ícone ![figure](images/5cas-16.png)  , as opções da funcionalidade serão mostradas à frente,
 conforme abaixo.
 
-    ![figure](images/5cas-17.png)
+   ![figure](images/5cas-17.png)
     
-    **Figura 17- Exibindo Configurações do Menu**
+   **Figura 17- Exibindo Configurações do Menu**
 
 Ao clicar no ícone ![figure](images/5cas-18.png)  (Adicionar), a seguinte tela será exibida para adicionar um
 novo menu principal
-
     
-     ![figure](images/5cas-19.png)
+   ![figure](images/5cas-19.png)
     
-     **Figura 19 - Adicionando Opções Dentro do Menu**
+   **Figura 19 - Adicionando Opções Dentro do Menu**
 
 -   **Nome**: Nome do novo menu.
 
@@ -403,9 +399,9 @@ armazene as informações no banco de dados.
     
 Ao clicar no ícone ![figure](images/5cas-28.png) (Arquivos do Menu), a seguinte tela será exibida para inserir novos arquivos no menu.
 
-    ![figure](images/5cas-20.png)
+   ![figure](images/5cas-20.png)
     
-    **Figura 18 - Adicionando um Arquivos do Menu**
+   **Figura 18 - Adicionando um Arquivos do Menu**
 
 Após informar o Caminho, selecionar o Tipo e marcar Ativo, clique em
 “**Adicionar novo item**” para que o sistema armazene as novas configurações.
@@ -424,9 +420,9 @@ plataforma e configurar informações relacionadas a eles.
 
 Ao clicar em “Módulos”, o sistema exibirá a seguinte tela:
 
-    ![figure](images/5cas-23.png)
+   ![figure](images/5cas-23.png)
     
-    **Figura 19- Exibindo os Módulos Cadastrados**
+   **Figura 19- Exibindo os Módulos Cadastrados**
 
 Nesta tela o usuário, terá disponível as seguintes opções:
 
@@ -441,9 +437,9 @@ Nesta tela o usuário, terá disponível as seguintes opções:
 Ao clicar em “**Cadastrar**”, o sistema irá apresentar ao usuário a seguinte
 tela:
 
-    ![figure](images/5cas-24.png)
+   ![figure](images/5cas-24.png)
     
-    **Figura 20 - Cadastrando Módulo**
+   **Figura 20 - Cadastrando Módulo**
 
 Nesta tela o usuário deverá preencher os seguintes campos:
 
@@ -467,9 +463,9 @@ Para retornar a tela anterior, basta clicar em “**Pesquisar**”.
 Para editar informações de um módulo, clique em “**Editar**”, e o sistema
 exibirá a seguinte tela:
 
-    ![figure](images/5cas-25.png)
+   ![figure](images/5cas-25.png)
     
-    **Figura 21 - Editando Informações do Módulo**
+   **Figura 21 - Editando Informações do Módulo**
 
 Após editar os campos desejados, clique em “Salvar”, para que o sistema armazene
 as configurações, ou clique em “Remover”, para excluir o módulo.
@@ -480,9 +476,9 @@ Arquivos padrão
 Esta funcionalidade serve para adicionar arquivos de formatação .css ou arquivos
 .js que são utilizados pela ferramenta para execução dos módulos.
 
-    ![figure](images/5cas-26.png)
+   ![figure](images/5cas-26.png)
     
-    **Figura 22 - Adicionando Arquivos Padrão**
+   **Figura 22 - Adicionando Arquivos Padrão**
 
 Internacionalização
 -------------------
@@ -490,9 +486,9 @@ Internacionalização
 Ao selecionar a opção “Internacionalização” no submenu “Conteúdo”, será
 apresentada ao usuário a seguinte tela:
 
-    ![figure](images/5cas-27.png)
+   ![figure](images/5cas-27.png)
     
-    **Figura 22 - Internacionalização**
+   **Figura 22 - Internacionalização**
 
 Menu tarefas domínio
 -----------------------
