@@ -790,7 +790,7 @@ Tipos de inventários físicos
         (sistema de controle interno), os bens móveis (material de consumo,
         equipamento, material permanente e semoventes) serão agrupados segundo as
         categorias patrimoniais constantes do Plano de Contas Único (IN/STN nº
-        23/1986). Obs.: Plano de Contas alterado pela IN/STN 08, de 05/11/1993.**
+        23/1986). Obs.: Plano de Contas alterado pela IN/STN 08, de 05/11/1993.
 
 -   **Analítico**: É aquele em que devem figurar a perfeita caracterização do
     material, de modo que se possa identificar qualquer bem, demonstrando a
@@ -868,12 +868,12 @@ Assim seguem alguns conceitos (contábeis) para melhor entendimento:
 A seguir, quadro comparativo, visando facilitar o entendimento e a diferença
 desses três conceitos (depreciação, amortização e exaustão).
 
-   !(images/introduction-2.png)
+   ![figura](images/introduction-2.png)
 
    **Figura 2 - Diferenciação entre depreciação, amortização e exaustão**
 
 
-   !(images/introduction-3.png)
+   ![figura](images/introduction-3.png)
 
    **Figura 3 - Bens que não sofrem depreciação**
 
