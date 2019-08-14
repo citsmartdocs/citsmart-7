@@ -130,7 +130,7 @@ equipamento de informática, veículo, etc.), para, posteriormente, ser codifica
 nos registros patrimoniais. Esta aquisição se dá através de um processo
 licitatório que se encerra com o RECEBIMENTO do bem pelo GESTOR PATRIMONIAL.
 
-    !!! info "IMPORTANTE"
+   !!! info "IMPORTANTE"
 
         Para haver racionalização das compras e de acordo com o item 2.1 da
         IN/SEDAP nº 205/1988, é recomendável que as unidades centralizem as
@@ -158,13 +158,13 @@ Incorporações (entradas)
 Caracteriza-se como incorporação, a entrada de um bem no acervo patrimonial do
 órgão/instituição, bem como a adição do seu valor à conta do ativo imobilizado.
 
-    !!! warning “ATENÇÃO”
+   !!! warning “ATENÇÃO”
 
        Os Materiais permanentes recebidos, mediante qualquer processo de
        aquisição, devem ser incorporados ao patrimônio antes de serem distribuídos
        às Unidades que irão elativ-los.
 
-    !!! note “NOTA”
+   !!! note “NOTA”
 
         Conforme item 3.2, capítulo Recebimento e Aceitação, da IN/SEDAP nº
         205/1988, são considerados documentos hábeis para recebimento, em tais casos
@@ -178,7 +178,7 @@ Caracteriza-se como incorporação, a entrada de um bem no acervo patrimonial do
 Desses documentos constarão, obrigatoriamente: descrição do material,
 quantidade, unidade de medida, preços (unitário e total).
 
-    !!! note “NOTA”
+   !!! note “NOTA”
 
         Quanto à sua natureza e finalidade os materiais são classificados na forma
         disposta no Plano de Contas da Administração Pública Federal, conforme
@@ -198,7 +198,7 @@ Enquanto se aguarda o aceite do material, que deve ter a ciência do fornecedor,
 não se deve movimentá-lo, no total ou em parte, e o pagamento somente poderá
 ocorrer após o aceite, que representa a segunda fase da despesa (liquidação).
 
-    !!! note "NOTA"
+   !!! note "NOTA"
 
         O recebimento ocorrerá nos almoxarifados, salvo quando o material não
         possa ou não deva ali ser estocado ou recebido, caso em que a entrega se
@@ -477,7 +477,7 @@ Carga é a efetiva responsabilidade pela guarda e uso de material pelo seu
 consignatário, sendo que o material somente assim será considerado, no
 almoxarifado, após o cumprimento das formalidades de recebimento e aceitação.
 
-    !!! warning "ATENÇÃO"
+   !!! warning "ATENÇÃO"
 
         É responsabilidade do titular da Unidade Administrativa (UA), no qual o bem
         está localizado, a guarda, utilização e manutenção do mesmo. O detentor de
@@ -502,12 +502,12 @@ carga patrimonial deverá ser atualizada.
 Esta atualização pode ser feita reemitindo-se o Termo de Responsabilidade do
 setor, ou criando-se um termo complementar para os itens incluídos.
 
-    !!! info "IMPORTANTE"
+   !!! info "IMPORTANTE"
 
        Para mais detalhes das formalidades, vide item 6.2, capítulo carga e
        descarga, da IN/SEDAP nº 205/1988.
 
-    !!! note "NOTA"
+   !!! note "NOTA"
 
        Toda movimentação de entrada e saída de carga deve ser objeto de registro,
        quer trate de material de consumo nos almoxarifados, quer trate de
@@ -539,7 +539,7 @@ ao departamento de administração ou unidade equivalente, e deve obedecer aos
 critérios de consumo médio de cada setor da unidade, com finalidade de evitar,
 sempre que possível, a demanda reprimida e a consequente ruptura de estoque.
 
-    !!! note "NOTA"
+   !!! note "NOTA"
 
        Nenhum equipamento ou material permanente poderá ser distribuído à unidade
        requisitante sem a respectiva carga, que se efetiva com o competente termo
@@ -568,7 +568,7 @@ ainda que, sob a responsabilidade do mesmo consignatário, nem de uma unidade
 organizacional para outra sem prévia ciência do departamento de administração ou
 da unidade equivalente.
 
-    !!! note "NOTA"
+   !!! note "NOTA"
 
        O Departamento de Administração ou unidade equivalente deverá promover,
        periodicamente, o levantamento dos equipamentos e materiais permanentes em
@@ -787,10 +787,10 @@ Tipos de inventários físicos
     !!! note "NOTA"
 
         Nos inventários destinados a atender as exigências do “órgão fiscalizador”
-       (sistema de controle interno), os bens móveis (material de consumo,
-       equipamento, material permanente e semoventes) serão agrupados segundo as
-       categorias patrimoniais constantes do Plano de Contas Único (IN/STN nº
-       23/1986). Obs.: Plano de Contas alterado pela IN/STN 08, de 05/11/1993.**
+        (sistema de controle interno), os bens móveis (material de consumo,
+        equipamento, material permanente e semoventes) serão agrupados segundo as
+        categorias patrimoniais constantes do Plano de Contas Único (IN/STN nº
+        23/1986). Obs.: Plano de Contas alterado pela IN/STN 08, de 05/11/1993.**
 
 -   **Analítico**: É aquele em que devem figurar a perfeita caracterização do
     material, de modo que se possa identificar qualquer bem, demonstrando a
@@ -857,7 +857,7 @@ Assim seguem alguns conceitos (contábeis) para melhor entendimento:
 deduzido do seu valor residual, quando possível ou necessária a sua
 determinação.**
 
-    !!! warning "ATENÇÃO"
+   !!! warning "ATENÇÃO"
 
         A depreciação será iniciada no mês seguinte à aquisição, incorporação e/ou
         sua efetiva utilização, não devendo haver depreciação em fração menor que 1
@@ -866,15 +866,14 @@ determinação.**
 A seguir, quadro comparativo, visando facilitar o entendimento e a diferença
 desses três conceitos (depreciação, amortização e exaustão).
 
+   !(images/introduction-2.png)
 
-    !(images/introduction-2.png)
-
-    **Figura 2 - Diferenciação entre depreciação, amortização e exaustão**
+   **Figura 2 - Diferenciação entre depreciação, amortização e exaustão**
 
 
-    !(images/introduction-3.png)
+   !(images/introduction-3.png)
 
-    **Figura 3 - Bens que não sofrem depreciação**
+   **Figura 3 - Bens que não sofrem depreciação**
 
 -   **Avaliação**: é a atribuição de um valor monetário a itens do ativo ou
     passivo cuja obtenção decorreu de julgamento fundado em consenso entre as
