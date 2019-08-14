@@ -77,9 +77,9 @@ apresentará a seguinte tela:
    de administração de materiais e queira utilizar a classificação de materiais
    ele deve marcar essa opção.
 
-    ![figura](images/general-5.png)
+   ![figura](images/general-5.png)
     
-    **Figura 5 - Aba Geral**
+   **Figura 5 - Aba Geral**
 
 -   A aba “**Almoxarifado**” permite definir configurações pertinentes a esse
     módulo.
@@ -120,9 +120,9 @@ apresentará a seguinte tela:
    Campo **Notificar por e-mail**: A notificação sempre ocorrerá pelo portal do
    CITSmart GRP, mas pode também ocorrer por e-mail caso o cliente desejar.
 
-    ![figura](images/general-6.png)
+   ![figura](images/general-6.png)
 
-    **Figura 6 - Aba Almoxarifado**
+   **Figura 6 - Aba Almoxarifado**
 
 -   A aba “**Patrimônio**” permite definir configurações pertinentes a esse
     módulo.
@@ -136,18 +136,18 @@ apresentará a seguinte tela:
    Prefixo, Dígito e Sufixo, Dígito Verificado, Prefixo, Prefixo e Sufixo,
    Sufixo, Todos.
 
-    ![figura](images/general-7.png)
+   ![figura](images/general-7.png)
     
-    **Figura 7 - Aba Patrimônio (Número Patrimonial)**
+   **Figura 7 - Aba Patrimônio (Número Patrimonial)**
 
    **Almoxarifado**
 
    Campo **Conta almoxarifado**: Conta contábil para os bens que estão em
    estoque.
 
-    ![figura](images/general-8.png)
+   ![figura](images/general-8.png)
     
-    **Figura 8 - Aba Patrimônio (Almoxarifado)**
+   **Figura 8 - Aba Patrimônio (Almoxarifado)**
 
    **Depreciação**
 
@@ -158,9 +158,9 @@ apresentará a seguinte tela:
    entre Dar entrada/saída da diferença entre o valor antigo e novo e Dar saída
    do valor antigo e entrada do novo.
 
-    ![figura](images/general-9.png)
+   ![figura](images/general-9.png)
     
-    **Figura 9 - Aba Patrimônio (Depreciação)**
+   **Figura 9 - Aba Patrimônio (Depreciação)**
 
    **Transferência externa**
 
@@ -171,9 +171,9 @@ apresentará a seguinte tela:
 
    Campo **Conta destino**: Conta contábil de bens a receber no destino.
 
-    ![figura](images/general-10.png)
+   ![figura](images/general-10.png)
     
-    **Figura 10 - Aba Patrimônio (Transferência externa)**
+   **Figura 10 - Aba Patrimônio (Transferência externa)**
 
    **Cessão de bens**
 
@@ -183,9 +183,9 @@ apresentará a seguinte tela:
    Campo **Conta de saída de Cessão**: Escolher conta contábil de saída para os
    bens cedidos a terceiros.
 
-    ![figura](images/general-11.png)
+   ![figura](images/general-11.png)
     
-    **Figura 11 - Aba Patrimônio (Cessão de bens)**
+   **Figura 11 - Aba Patrimônio (Cessão de bens)**
 
 As alterações realizadas em “**Definições Gerais**” poderão ser salvas clicando
 no botão “**Salvar**”.
