@@ -35,7 +35,7 @@ pelo conjunto de seus bens imóveis e permanentes móveis.
 Envolve uma fase importante: a CONSCIENTIZAÇÃO dos usuários sobre a importância
 da mencionada CONSERVAÇÃO do bem público.
 
-    !!! note "NOTA"
+   !!! note "NOTA"
 
         De acordo com a IN/SEDAP nº 205/1988, e com o Decreto nº 99.658/1990,
         material é uma designação genérica de equipamentos, componentes,
@@ -43,9 +43,9 @@ da mencionada CONSERVAÇÃO do bem público.
         itens empregados ou passíveis de emprego nas atividades das organizações
         públicas federais, independentemente de qualquer fator, bem como aquele
         oriundo de demolição ou desmontagem, aparas, acondicionamentos, embalagens e
-        resíduos economicamente aproveitáveis.**
+        resíduos economicamente aproveitáveis.
 
-    !!! warning "ATENÇÃO"
+   !!! warning "ATENÇÃO"
 
         Subentende-se que a legislação supracitada, quando trata de material,
         refere-se a bens permanentes e de consumo.
