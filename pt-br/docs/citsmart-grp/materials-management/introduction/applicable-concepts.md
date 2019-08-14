@@ -464,7 +464,7 @@ número de patrimônio ou tombamento:
 
 -   o número de patrimônio é único para todas as unidades do órgão/instituição.
 
-    !!! note "NOTA"
+    !!! warning "ATENÇÃO"
 
         Materiais permanentes e materiais de consumo recebidos, mediante qualquer
         processo de aquisição, devem ser incorporados ao patrimônio antes de serem
@@ -502,7 +502,7 @@ carga patrimonial deverá ser atualizada.
 Esta atualização pode ser feita reemitindo-se o Termo de Responsabilidade do
 setor, ou criando-se um termo complementar para os itens incluídos.
 
-   !!! info "IMPORTANTE"
+   !!! abstract "SAIBA MAIS"
 
        Para mais detalhes das formalidades, vide item 6.2, capítulo carga e
        descarga, da IN/SEDAP nº 205/1988.
@@ -587,15 +587,15 @@ Descarga
 A descarga, que se efetivará com a transferência de responsabilidade pela guarda
 do material:
 
-1.  Deverá, quando viável, ser precedida de exame do material, realizado por
+a)  Deverá, quando viável, ser precedida de exame do material, realizado por
     comissão especial;
 
-2.  Será, como regra geral, baseada em processo regular, onde constem todos os
+b)  Será, como regra geral, baseada em processo regular, onde constem todos os
     detalhes do material (descrição, estado de conservação, preço, data de
     inclusão em carga, destino de matéria-prima eventualmente aproveitável e
     demais informações); e
 
-3.  Decorrerá, no caso de material de consumo, pelo atendimento às requisições
+c)  Decorrerá, no caso de material de consumo, pelo atendimento às requisições
     internas e em qualquer caso, por cessão, venda, permuta, doação,
     inutilização, abandono (para aqueles materiais sem nenhum valor econômico) e
     furto ou roubo.
@@ -606,9 +606,9 @@ do material:
         Departamento de Administração ou da unidade equivalente aquilatará da
         necessidade de autorizar a descarga do material ou a sua recuperação, ou
         ainda, se houver indício de irregularidade na avaria ou desaparecimento
-       desse material, mandar proceder a sindicância e/ou inquérito para apuração
-       de responsabilidades, ressalvo o que dispõe o item 3.1.1. da IN/DASP nº
-       142/1983.
+        desse material, mandar proceder a sindicância e/ou inquérito para apuração
+        de responsabilidades, ressalvo o que dispõe o item 3.1.1. da IN/DASP nº
+        142/1983.
 
 Em princípio, não deverá ser feita descarga isolada das peças ou partes de
 material que, para efeito de carga tenham sido registradas com a unidade “jogo”,
@@ -853,9 +853,11 @@ Assim seguem alguns conceitos (contábeis) para melhor entendimento:
 -   **Exaustão**: é a redução do valor, decorrente da exploração, dos recursos
     minerais, florestais e outros recursos naturais esgotáveis.
 
-**Valor depreciável, amortizável e exaurível é o valor original de um ativo
-deduzido do seu valor residual, quando possível ou necessária a sua
-determinação.**
+    !!! note "NOTA"
+
+        Valor depreciável, amortizável e exaurível é o valor original de um ativo
+        deduzido do seu valor residual, quando possível ou necessária a sua
+        determinação.
 
    !!! warning "ATENÇÃO"
 
@@ -943,8 +945,8 @@ desses três conceitos (depreciação, amortização e exaustão).
 
 !!! warning "ATENÇÃO"
 
-  O RMB levará em consideração apenas os bens que ingressaram na UG
-  especificada e permaneceram na UG até o final do período indicado.
+    O RMB levará em consideração apenas os bens que ingressaram na UG
+    especificada e permaneceram na UG até o final do período indicado.
 
 
 !!! tip "About"
