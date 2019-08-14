@@ -427,24 +427,24 @@ Parâmetros CITSmart GRP
     Todos os parâmetros devem ser configurados antes do start completo da
     solução.
 
-DataSource do standalone-full.xml
+*DataSource do standalone-full.xml*
 
-\<connection-url\>jdbc:postgresql://IP_DB:PORT_DB/CITGRP_NAME_DB\</connection-url\>
+*\<connection-url\>jdbc:postgresql://IP_DB:PORT_DB/CITGRP_NAME_DB\</connection-url\>*
 
-\<user-name\>USER_DB\</user-name\>
+*\<user-name\>USER_DB\</user-name\>*
 
-\<password\>PASSWD_DB\</password\>
+*\<password\>PASSWD_DB\</password\>*
 
-IP_DB: configuração de rede do servidor de banco de dados PostgreSQL.
+***IP_DB: configuração de rede do servidor de banco de dados PostgreSQL.
 
-PORT_DB: Padrão 5432(PostgreSQL).
+***PORT_DB: Padrão 5432(PostgreSQL).***
 
-CITGRP_NAME_DB: Manual criado como citgrpdb.
+***CITGRP_NAME_DB: Manual criado como citgrpdb.***
 
-USER_DB: Usuário de acesso a base. Manual criado com citsmart.
+***USER_DB: Usuário de acesso a base. Manual criado com citsmart.***
 
-PASSWD_DB: Senha de acesso do usuário de banco. Manual criado com
-yourpassword.
+***PASSWD_DB: Senha de acesso do usuário de banco. Manual criado com
+yourpassword.***
 
 Geração de certificado auto assinado SSL
 ----------------------------------------
