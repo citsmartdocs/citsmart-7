@@ -25,7 +25,7 @@ Na tela apresentada na figura acima insira o seu login e sua senha, clique no
 botão logar e aguarde o carregamento do sistema e dos inventários cadastrados no
 CITSmart GRP, conforme demonstrada na figura apresentada a seguir.
 
-![Criar](images/vent2.png)
+![Criar](images/vent-2.png)
     
 **Figura 2 - Carregamento**
 
