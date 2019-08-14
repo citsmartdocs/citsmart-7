@@ -29,8 +29,8 @@ Preencha os campos a seguir.
 
 Lista de Verificação:
 
-    - **Nome da Lista de Verificação**: nome que irá identificar a lista de verificação
-    - **Data**: data em que a lista é cadastrada
+- **Nome da Lista de Verificação**: nome que irá identificar a lista de verificação
+- **Data**: data em que a lista é cadastrada
     
 Itens da Lista de Verificação:
 
