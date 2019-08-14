@@ -55,21 +55,21 @@ Clique em “**Cancelar**”.
 
 Anexos e Observação:
 
-    ![Anexos](images/control.img4.jpg)
+![Anexos](images/control.img4.jpg)
     
-    **Figura 4 - Anexos e observação de lista de verificação**
+**Figura 4 - Anexos e observação de lista de verificação**
     
 Clique em “**Adicionar**”, para anexar documentos no cadastro e a tela seguinte será exibida.
 
-    ![Anexar](images/control.img5.jpg)
+![Anexar](images/control.img5.jpg)
     
-    **Figura 5 - Anexando documentos**
+**Figura 5 - Anexando documentos**
     
-    - **Tipo de Documento**: tipo de documento (exemplo: ata, ofício, nota de empenho...)
-    - **Data da Emissão**: data em que o documento foi emitido
-    - **Nº do Documento**: número do documento emitido
-    - **Emissor**: nome do emissor do documento
-    - **Arquivo**: abra o explorer e arraste o documento para a área indicada ou clique na área indicada para selecionar o 
+- **Tipo de Documento**: tipo de documento (exemplo: ata, ofício, nota de empenho...)
+- **Data da Emissão**: data em que o documento foi emitido
+- **Nº do Documento**: número do documento emitido
+- **Emissor**: nome do emissor do documento
+- **Arquivo**: abra o explorer e arraste o documento para a área indicada ou clique na área indicada para selecionar o 
     documento
     
 Clique em “**Adicionar**” para incluir um documento à notificação ou
@@ -82,37 +82,37 @@ Clique em “**Cancelar**”.
 
     A associação de documentos não é obrigatória.
 
-    - **Observação**: descrição de informação que seja relevante para o cadastro. Ao adicionar uma observação, o nome do usuário,
-    data e horário serão gravados na tela.
+- **Observação**: descrição de informação que seja relevante para o cadastro. Ao adicionar uma observação, o nome do usuário,
+data e horário serão gravados na tela.
     
-    ![Observação](images/control.img6.jpg)
+![Observação](images/control.img6.jpg)
     
-    **Figura 6 - Adicionando uma observação**
+**Figura 6 - Adicionando uma observação**
     
 Após o preenchimento dos campos, clique em “**Salvar**”, para que o sistema armazene as informações no banco de dados.
 
 Nesta tela as seguintes ações também poderão ser realizadas:
 
-    - **Limpar**: limpa todos os campos preenchidos antes de salvar o cadastro.
-    - **Pesquisar**: retorna à tela de pesquisa.
+- **Limpar**: limpa todos os campos preenchidos antes de salvar o cadastro.
+- **Pesquisar**: retorna à tela de pesquisa.
     
 2. Para visualizar as informações de um cadastro, selecione uma Lista de Verificação e clique em “Visualizar”, conforme demonstrado
 a seguir.
 
-    ![Selecionando](images/control.img7.jpg)
+![Selecionando](images/control.img7.jpg)
     
-    **Figura 7 - Selecionando uma lista de verificação**
+**Figura 7 - Selecionando uma lista de verificação**
     
-    ![Visualizando](images/control.img8.jpg)
+![Visualizando](images/control.img8.jpg)
     
-    **Figura 8 - Visualizando uma lista de verificação**
+**Figura 8 - Visualizando uma lista de verificação**
     
 Na tela de visualização é possível realizar as seguintes ações:
 
-    - **Editar**: alterar informações do cadastro
-    - **Remover**: excluir o cadastro
-    - **Gerar Lista de Verificação**: gerar o documento com as informações do cadastro
-    - **Pesquisar**: retornar à tela de pesquisa de cadastro
+- **Editar**: alterar informações do cadastro
+- **Remover**: excluir o cadastro
+- **Gerar Lista de Verificação**: gerar o documento com as informações do cadastro
+- **Pesquisar**: retornar à tela de pesquisa de cadastro
     
 3. Para editar as informações de um cadastro, selecione uma Lista de Verificação e clique em “**Editar**”. A tela apresentada será
 a do cadastro da Lista de Verificação.
@@ -161,11 +161,11 @@ Nesta tela é possível realizar ações como: **Cadastrar** um novo Questionár
     
 Preencha os campos a seguir.
 
-    - **Nome do Checklist**: nome de identificação do questionário
-    - **Tipo de Questionário**: o questionário pode ser do tipo Checklist de análise da solução ou Geral
-    - **Questão**: nome da pergunta que será verificada no questionário
-    - **Tipo de Resposta**: tipo definido para a resposta da questão que pode ser Booleana, Múltipla escolha, Texto livre ou Única 
-    escolha
+- **Nome do Checklist**: nome de identificação do questionário
+- **Tipo de Questionário**: o questionário pode ser do tipo Checklist de análise da solução ou Geral
+- **Questão**: nome da pergunta que será verificada no questionário
+ - **Tipo de Resposta**: tipo definido para a resposta da questão que pode ser Booleana, Múltipla escolha, Texto livre ou Única 
+escolha
     
 Perguntas:
 
@@ -179,25 +179,25 @@ Após o preenchimento dos campos, clique em “**Salvar**”, para que o sistema
 
 Nesta tela as seguintes ações também poderão ser realizadas:
 
-    - **Limpar**: limpa todos os campos preenchidos antes de salvar o cadastro.
-    - **Pesquisar**: retorna à tela de pesquisa.
+- **Limpar**: limpa todos os campos preenchidos antes de salvar o cadastro.
+- **Pesquisar**: retorna à tela de pesquisa.
     
 2. Para visualizar as informações de um cadastro, selecione um Questionário e clique em “**Visualizar**”, conforme demonstrado a 
 seguir.
 
-    ![Selecionando](images/control.img14.jpg)
+![Selecionando](images/control.img14.jpg)
     
-    **Figura 14 - Selecionando um questionário**
+**Figura 14 - Selecionando um questionário**
     
-    ![Visualizar](images/control.img15.jpg)
+![Visualizar](images/control.img15.jpg)
     
-    **Figura 15 - Visualizando um questionário**
+**Figura 15 - Visualizando um questionário**
     
 Na tela de visualização é possível realizar as seguintes ações:
 
-    - **Editar**: alterar informações do cadastro
-    - **Remover**: excluir o cadastro
-    - **Pesquisar**: retornar à tela de pesquisa de cadastro
+- **Editar**: alterar informações do cadastro
+- **Remover**: excluir o cadastro
+- **Pesquisar**: retornar à tela de pesquisa de cadastro
     
 3. Para editar as informações de um cadastro, selecione um Questionário e clique em “**Editar**”. A tela apresentada será a do 
 cadastro dos Questionários.
