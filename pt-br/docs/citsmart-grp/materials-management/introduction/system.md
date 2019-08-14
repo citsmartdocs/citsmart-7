@@ -47,9 +47,9 @@ nome de um Menu ou Funcionalidade.
 sistema as adicione aos seus favoritos. Ao clicar no ícone ![figura](images/system-5.png) o usuário poderá
 visualizar todas as telas adicionadas, conforme ilustrado abaixo:
 
-    ![figura](images/system-6.png)
+   ![figura](images/system-6.png)
 
-    **Figura 4 - Favoritos**
+   **Figura 4 - Favoritos**
 
 **Alertas e Notificações** ![figura](images/system-7.png): Os Alertas e Notificações poderão ser visualizados
 na barra superior do sistema, conforme imagem abaixo;
