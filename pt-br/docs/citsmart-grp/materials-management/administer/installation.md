@@ -141,7 +141,7 @@ instalado. Execute java –version e confira a versão do java.
 
 \# ln -s /opt/jdk1.8.0_131/bin/java /usr/bin
 
-\# ln -s /opt/* *jdk1.8.0_131/bin/keytool /usr/bin
+\# ln -s /opt/jdk1.8.0_131/bin/keytool /usr/bin
 
 \# java -version
 
