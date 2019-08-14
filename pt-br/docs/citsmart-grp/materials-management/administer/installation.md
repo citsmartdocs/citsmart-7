@@ -435,7 +435,7 @@ Parâmetros CITSmart GRP
 
 *\<password\>PASSWD_DB\</password\>*
 
-***IP_DB: configuração de rede do servidor de banco de dados PostgreSQL.
+***IP_DB: configuração de rede do servidor de banco de dados PostgreSQL.***
 
 ***PORT_DB: Padrão 5432(PostgreSQL).***
 
