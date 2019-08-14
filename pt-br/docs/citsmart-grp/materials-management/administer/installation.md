@@ -281,10 +281,10 @@ Configuração do CAS
 Execute a instrução mais indicada de instalação do CAS, segue dois exemplos:
 
 1.  [Manual de instalação do Central Authentication Service (CAS) - versão 3.0
-    (ITSM)]()
+    (ITSM)][1]
 
 2.  [Manual de instalação do central authentication service (CAS) - versão 5.0
-    (GRP)]()
+    (GRP)][2]
 
 Faça o download dos arquivos de configuração em <http://files.citsmart.com/cas-config.tar.gz> e descompacte em /etc/cas/config.
 
@@ -623,6 +623,8 @@ sistema, Corporativo, Administração de Materiais, Contratos, etc.
 
     Após habilitar os módulos salve, faça logout e login novamente.
 
+[1]:/pt-br/citsmart-platform-7/get-started/cas3-installation.html
+[2]:/pt-br/citsmart-grp/materials-management/administer/cas5-installation.html
 
 
 !!! tip "About"
