@@ -604,7 +604,7 @@ Primeiro acesso
 
 Digite a URL <https://10.2.1.82:8443/cit-portal-web>.
 
-![figura](images/installation.png)
+![figura](images/manual.png)
 
 **Figura 1 - Tela de login do produto**
 

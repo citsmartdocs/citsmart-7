@@ -171,9 +171,9 @@ Perguntas:
 
 Em seguida clique em “**Adicionar**” para inserir a questão na tabela de perguntas, e a tela seguinte será exibida:
 
-    !!! note "NOTA"
+!!! note "NOTA"
     
-        Várias questões podem ser adicionadas a um mesmo questionário.
+    Várias questões podem ser adicionadas a um mesmo questionário.
 
 Após o preenchimento dos campos, clique em “**Salvar**”, para que o sistema armazene as informações no banco de dados.
 
