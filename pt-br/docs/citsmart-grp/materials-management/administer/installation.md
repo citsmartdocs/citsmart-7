@@ -211,9 +211,11 @@ no repositório.
 \# apt-get update
 
 \# apt-get install postgresql-9.5
+```
 
 Após instalar o PostgreSQL precisamos criar a base de dados, usuário e senha.
 
+```sh
 \# systemctl start postgresql
 
 \# su – postgres
