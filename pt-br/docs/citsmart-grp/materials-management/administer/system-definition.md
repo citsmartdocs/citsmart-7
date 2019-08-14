@@ -56,9 +56,9 @@ Exibe as definições de comportamentos dentro do sistema.
 Ao clicar em “**Definições Gerais**” do submenu “**Geral**”, o sistema
 apresentará a seguinte tela:
 
-    ![figure](images/5cas-2.png)
+   ![figure](images/5cas-2.png)
 
-    **Figura 2 - Definindo Configurações Gerais**
+   **Figura 2 - Definindo Configurações Gerais**
 
 -   **Aba Página Login**: permite alterar a imagem carregada ao realizar o login
     no módulo.
