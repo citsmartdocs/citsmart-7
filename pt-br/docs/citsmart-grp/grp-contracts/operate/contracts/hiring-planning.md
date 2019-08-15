@@ -236,7 +236,7 @@ Clique em “**Adicionar**” para incluir um requisito de negócio ao estudo t�
 
 Clique em “**Adicionar e continuar**” para incluir outro negócio ao estudo técnico ou
 
-Clique em “Cancelar”.
+Clique em “**Cancelar**”.
 
 !!! info "IMPORTANTE"
 
@@ -269,7 +269,7 @@ Clique em “**Adicionar**”, para inserir as informações da solução escolh
 “Pessoas (Agentes)” > “Cadastro de Pessoas” para adicioná-lo e em seguida retorne ao cadastro do Estudo Técnico
 - **Valor**: valor de custo da solução
 - **Descrição da Alternativa**: detalhamento da solução objeto da contratação
-- **Responda ao **Checklist de Análise** conforme mostrado na imagem acima.
+- Responda ao **Checklist de Análise** conforme mostrado na imagem acima.
 
 Clique em “**Adicionar**” para incluir uma solução ao estudo técnico ou
 
