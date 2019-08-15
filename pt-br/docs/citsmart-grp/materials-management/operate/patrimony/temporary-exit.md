@@ -46,3 +46,9 @@ automaticamente o bem informado em uma lista.
 Após o preenchimento de todos os campos da tela, clique em “Salvar” para que o
 sistema armazene as informações cadastradas e permita emitir o termo de saída
 temporária.
+
+!!! tip "About"
+
+    <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
+    <b>Updated:</b>08/15/2019 – Anna Martins
+
