@@ -65,7 +65,7 @@ Após informar estes dados será possível salvar a transferência externa.
 Após salva, a transferência externa será apresentada na lista de “Entradas” da
 unidade gestora de destino.
 
-!!! info "Importante"
+!!! info "IMPORTANTE"
 
     Para realizar o recebimento dos bens, a unidade gestora de destino deverá
     tratar a transferência externa como uma entrada de bens e efetuar a sua
