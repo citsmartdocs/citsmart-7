@@ -52,7 +52,7 @@ Aguarde o carregamento de todas as estruturas organizacionais para só então
 iniciar o inventário. O tempo de carregamento dependerá da rede onde os
 celulares estarão conectados e da quantidade de bens.
 
-O aplicativo só liberará o botão “Iniciar Inventário ****” após o carregamento
+O aplicativo só liberará o botão “Iniciar Inventário ![Criar](images/invent.png)” após o carregamento
 completo das estruturas do inventário.
 
 As figuras a seguir apresentarão as estruturas organizacionais disponíveis no
