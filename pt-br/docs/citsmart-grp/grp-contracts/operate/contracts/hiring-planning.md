@@ -710,149 +710,386 @@ Clique em “**Adicionar**”, para inserir as Sanções e a tela seguinte será
 
 **Figura 54 - Adicionando sanções**
 
+- **Sanção**: nome da sanção que poderá ser aplicada
+- **Tipo de Sanção**: tipo relacionado ao nome da sanção
+- **Descrição**: detalhamento explicativo da sanção quando ocorrer
 
+Clique em “**Adicionar**” para incluir uma sanção ao termo de referência ou
 
+Clique em “**Adicionar e continuar**” para incluir outra sanção ao termo de referência ou
 
+Clique em “**Cancelar**”.
 
+!!! info "IMPORTANTE"
 
+    
+    Pelo menos uma sanção deverá ser adicionada no cadastro do Termo de Referência.
 
+Após o preenchimento dos campos, clique em “**Próximo**” ou clique na etapa 6 – “**Critérios de Seleção**”, para seguir com o 
+preenchimento do cadastro.
 
+Etapa 6: Critérios de Seleção
 
+![Termo](images/contrata.img55.jpg)
 
+**Figura 55 - Cadastrando termo de referência - Etapa 6**
 
+![Cadastro](images/contrata.img56.jpg)
 
+**Figura 56 - Cadastrando termo de referência - Etapa 6 (continuação)**
 
+- **Empreitada**: tipo de preço que pode ser Preço Global ou Preço Unitário
+- **Adjudicação do Objeto**: tipo de adjudicação que pode ser Global ou Por Item
+- **Justificativa**: detalhamento do critério de seleção
+- **Qualificação Técnica**: detalhamento da qualificação técnica
+- **Modalidade**: tipos de modalidades cabíveis para a contratação que pode ser Concorrência, Concurso, Convite, Leilão, Tomada de Preço
+- **Justificativa da Modalidade**: detalhamento explicativo da modalidade escolhida
+- **Justificativa para Aplicação do Direito de Preferência**: detalhamento explicativo relacionado ao direito de preferência
+- **Justificativa para Contratação Direta**: detalhamento explicativo caso haja contratação direta
+- **Critérios Técnicos de Habilitação**: detalhamentos dos critérios técnicos no caso de habilitação
 
+Após o preenchimento dos campos, clique em “**Próximo**” ou clique na etapa 7 – “**Anexos e Observações**”, para seguir com o 
+preenchimento do cadastro.
 
+Etapa 7: Anexos e Observações
 
+![Termo](images/contrata.img57.jpg)
 
+**Figura 57 - Cadastrando termo de referência - Etapa 7**
 
+![Referência](images/contrata.img58.jpg)
 
+**Figura 58 - Cadastrando termo de referência - Etapa 7 (continuação)**
 
+Clique em “**Adicionar**”, para anexar documentos no cadastro e a tela seguinte será exibida.
 
+![Anexos](images/contrata.img59.jpg)
 
+**Figura 59 - Anexando documentos**
 
+- **Tipo de Documento**: tipo de documento (exemplo: ata, ofício, nota de empenho
+- **Data da Emissão**: data em que o documento foi emitido
+- **Nº do Documento**: número do documento emitido
+- **Emissor**: nome do emissor do documento
+- **Arquivo**: abra o explorer e arraste o documento para a área indicada ou clique na área indicada para selecionar o documento
 
+Clique em “**Adicionar**” para incluir um documento ao termo de referência ou
 
+Clique em “**Adicionar e continuar**” para incluir outro documento ao termo de referência ou
 
+Clique em “**Cancelar**”.
 
+!!! note "NOTA"
 
+    A associação de documentos não é obrigatória.
 
+- **Observação**: descrição de informação que seja relevante para o cadastro. Ao adicionar uma observação, o nome do usuário, data 
+e horário serão gravados na tela.
 
+![Adicionar](images/contrata.img60.jpg)
 
+**Figura 60 - Adicionando uma observação**
 
+Após o preenchimento dos campos, clique em “**Salvar**”, para que o sistema armazene as informações no banco de dados.
 
+Nesta tela as seguintes ações também poderão ser realizadas:
 
+- **Limpar**: limpa todos os campos preenchidos antes de salvar o cadastro.
+- **Pesquisar**: retorna à tela de pesquisa.
 
+2. Para visualizar as informações de um cadastro, selecione um Termo de Referência e clique em “**Visualizar**”, conforme 
+demonstrado a seguir.
 
+![Termo](images/contrata.img61.jpg)
 
+**Figura 61 - Selecionando um termo de referência**
 
+![Visualizando](images/contrata.img62.jpg)
 
+**Figura 62 - Visualizando um termo de referência**
 
+Na tela de visualização é possível realizar as seguintes ações:
 
+- **Editar**: alterar informações do cadastro
+- **Remover**: excluir o cadastro
+- **Gerar Termo de Referência**: gerar o documento com as informações do cadastro
+- **Pesquisar**: retornar à tela de pesquisa de cadastro
 
+3. Para editar as informações de um cadastro, selecione um Termo de Referência e clique em “**Editar**”. A tela apresentada será a 
+do cadastro do Termo de Referência.
 
+4. Para remover as informações de um cadastro, selecione um Termo de Referência e clique em “**Remover**” e o sistema exibirá uma 
+mensagem solicitando a confirmação da exclusão, como demonstrado a seguir:
 
+![Confirmar](images/contrata.img63.jpg)
 
+**Figura 63 - Confirmando a exclusão de um termo de referência**
 
+Clique em “**Confirmar**” para excluir o Termo de Referência ou clique em “**Cancelar” para desistir da exclusão.
 
+5. Para gerar a tabela de Termo de Referência em um arquivo excel, clique em “**Gerar CSV**”.
 
+6. Para criar filtros de busca, clique em “**Filtros**”. Esta ação permite a configuração de filtros específicos.
 
+7. Para mostrar rascunho de cadastros, clique em “**Mostrar Rascunho**”. Os rascunhos são salvos automaticamente pelo sistema ao 
+iniciar um cadastro.
 
+![Exibir](images/contrata.img64.jpg)
 
+**Figura 64 - Exibindo rascunhos de cadastros iniciados**
 
+Na tela de rascunho é possível:
 
+- **Carregar**: abre a tela de cadastro permite continuar de onde parou
+- **Remover**: exclui um rascunho
+- **Fechar**: fecha a tela de rascunho
+- **Transferir**: transfere o documento para outro usuário finalizar o cadastro
 
+![Transferindo](images/contrata.img65.jpg)
 
+**Figura 65 - Transferindo um rascunho**
 
+Ao clicar em “**Salvar**”, o rascunho aparecerá na tela de rascunhos do usuário informado.
 
+Ao clicar em “**Cancelar**”, a ação de transferir é cancelada e a tela retorna para a lista de rascunhos.
 
+Ao clicar em “**Fechar**”, a tela de rascunhos é fechada completamente
 
+8. Para gerar o documento com as informações do cadastro, selecione um Termo de Referência e clique em “**Gerar Termo de 
+Referência**”.
 
+![Referência](images/contrata.img66.jpg)
 
+**Figura 66 - Selecionando um termo de referência**
 
+O sistema exibirá uma mensagem e logo em seguida o documento será gerado em uma nova aba.
 
+![Mensagem](images/contrata.img67.jpg)
 
+**Figura 67 - Mensagem de documento gerado
 
+![Documento](images/contrata.img68.jpg)
 
+**Figura 68 - Documento de termo de referência gerado**
 
+Com o documento gerado é possível: **Aumentar o zoom, Diminuir o zoom, Fazer o download** (em .pdf) e **Imprimir**.
 
+Análise de riscos
+-------------------
 
+Ao clicar na opção “**Análise de Riscos**” no submenu “**Planejamento da Contratação**”, o sistema apresentará a tela de 
+consulta/pesquisa das análises de riscos cadastradas:
 
+![Análise](images/contrata.img69.jpg)
 
+**Figura 69 - Consultando análise de riscos**
 
+Nesta tela é possível realizar ações como: **Cadastrar** uma nova Análise de Riscos, **Visualizar** o cadastro de uma Análise de 
+Riscos, **Editar** informações do cadastro de uma Análise de Riscos, **Remover** um cadastro, **Gerar CSV, Mostrar Rascunho, Gerar 
+Análise de Riscos** ainda criar **Filtros** específicos de busca.
 
+1. Para cadastrar uma nova Análise de Riscos, basta clicar em “**Cadastrar**” e o sistema exibirá a tela seguinte:
 
+![Cadastro](images/contrata.img70.jpg)
 
+**Figura 70 - Cadastrando uma análise de riscos**
 
+![Análise](images/contrata.img71.jpg)
 
+**Figura 71 - Cadastrando uma análise de riscos**
 
+![Riscos](images/contrata.img72.jpg)
 
+**Figura 72 - Cadastrando uma análise de riscos**
 
+Preencha os campos a seguir.
 
+Análise de Riscos:
 
+- **Data**: data do registro da análise de riscos
+- **Nº Termo de Referência**: número de identificação do Termo de Referência vinculado à Análise de Riscos
 
+!!! note "NOTA"
 
+    Os campos em cinza são preenchidos pelo sistema.
 
+Riscos:
 
+- **Tipo de Análise de Riscos**: o tipo da análise depende do tipo de contratação, se é da solução ou do processo de contratação
+- **Título do Risco**: nome do risco
+- **Probabilidade**: nível da probabilidade
+- **Impacto**: nível do impacto
 
+!!! info "IMPORTANTE"
 
+    O nível do risco será calculado pelo sistema (Probabilidade x Impacto = Nível do Risco).
 
+Danos Potenciais:
 
+Clique em “**Adicionar**” para inserir os danos potenciais do risco, e a tela seguinte será exibida:
 
+![Danos](images/contrata.img73.jpg)
 
+**Figura 73 - Adicionando danos potenciais**
 
+- **Dano Identificado**: nome do dano potencial que poderá causar diante do risco
 
+Clique em “**Adicionar**” para incluir um dano potencial à análise de riscos ou
 
+Clique em “**Adicionar e continuar**” para incluir outro dano potencial à análise de riscos ou
 
+Clique em “**Cancelar**".
 
+!!! info "IMPORTANTE"
 
+    Pelo menos um dano potencial deverá ser adicionado no cadastro da Análise de Riscos.
 
+Ações:
 
+Clique em “**Adicionar**” para inserir as ações preventiva e de contingência, e a tela seguinte será exibida:
 
+![Ações](images/contrata.img74.jpg)
 
+**Figura 74- Adicionando ações**
 
+- **Tipo da Ação**: tipo da ação a ser tomada quando ocorrer o risco
+- **Descrição da Ação**: detalhamento da ação especificada quando ocorrer o risco
+- **Responsável**: tipo de papel responsável pela ação
+- **Prazo**: data limite para que a ação seja executada
 
+Clique em “**Adicionar**” para incluir uma ação à análise de riscos ou
 
+Clique em “**Adicionar e continuar**” para incluir outra ação à análise de riscos ou
 
+Clique em “**Cancelar**".
 
+!!! info "IMPORTANTE"
 
+    Pelo menos uma ação deverá ser adicionada no cadastro da Análise de Riscos.
 
+Anexos e Observações:
 
+![Anexos](images/contrata.img75.jpg)
 
+**Figura 75 - Anexos e observação da análise de riscos**
 
+![Anexando](images/contrata.img76.jpg)
 
+**Figura 76 - Anexando documentos**
 
+- **Tipo de Documento**: tipo de documento (exemplo: ata, ofício, nota de empenho...)
+- **Data da Emissão**: data em que o documento foi emitido
+- **Nº do Documento**: número do documento emitido
+- **Emissor**: nome do emissor do documento
+- **Arquivo**: abra o explorer e arraste o documento para a área indicada ou clique na área indicada para selecionar o documento
 
+Clique em “**Adicionar**” para incluir um documento à análise de riscos ou
 
+Clique em “**Adicionar e continuar**” para incluir outro documento à análise de riscos ou
 
+Clique em “**Cancelar**".
 
+!!! note "NOTA"
 
+    A associação de documentos não é obrigatória.
 
+- **Observação**: descrição de informação que seja relevante para o cadastro. Ao adicionar uma observação, o nome do usuário, data 
+e horário será gravados na tela.
 
+![Observação](images/contrata.img77.jpg)
 
+**Figura 77 - Adicionando uma observação**
 
+Após o preenchimento dos campos, clique em “**Salvar**”, para que o sistema armazene as informações no banco de dados.
 
+Nesta tela as seguintes ações também poderão ser realizadas:
 
+- **Limpar**: limpa todos os campos preenchidos antes de salvar o cadastro.
+- **Pesquisar**: retorna à tela de pesquisa.
 
+2. Para visualizar as informações de um cadastro, selecione uma Análise de Riscos e clique em “**Visualizar**, conforme demonstrado 
+a seguir.
 
+![Riscos](images/contrata.img78.jpg)
 
+**Figura 78 - Selecionando uma análise de riscos**
 
+![Visualizando](images/contrata.img79.jpg)
 
+**Figura 79 - Visualizando uma análise de riscos**
 
+Na tela de visualização é possível realizar as seguintes ações:
 
+- **Editar**: alterar informações do cadastro
+- **Remover**: excluir o cadastro
+- **Gerar Análise de Riscos**: gerar o documento com as informações do cadastro
+- **Pesquisar**: retornar à tela de pesquisa de cadastro
 
+3. Para editar as informações de um cadastro, selecione uma Análise de Riscos e clique em “**Editar**”. A tela apresentada será a 
+do cadastro da Análise de Riscos.
 
+4. Para remover as informações de um cadastro, selecione uma Análise de Riscos e clique em “**Remover**” e o sistema exibirá uma 
+mensagem solicitando a confirmação da exclusão, como demonstrado a seguir:
 
+![Confirmando](images/contrata.img80.jpg)
 
+**Figura 80 - Confirmando a exclusão de uma análise de riscos**
 
+Clique em “**Confirmar** para excluir a Análise de Riscos ou clique em “**Cancelar**” para desistir da exclusão.
 
+5. Para gerar a tabela de Análise de Riscos em um arquivo excel, clique em “**Gerar CSV**"
 
+6. Para criar filtros de busca, clique em “**Filtros**”. Esta ação permite a configuração de filtros específicos.
 
+7. Para mostrar rascunho de cadastros, clique em “**Mostrar Rascunho**”. Os rascunhos são salvos automaticamente pelo sistema ao 
+iniciar um cadastro.
 
+![Exibir](images/contrata.img81.jpg)
 
+**Figura 81 - Exibindo rascunhos de cadastros iniciados**
 
+Na tela de rascunho é possível:
 
+- **Carregar**: abre a tela de cadastro permite continuar de onde parou
+- **Remover**: exclui um rascunho
+- **Fechar**: fecha a tela de rascunho
+- **Transferir**: transfere o documento para outro usuário finalizar o cadastro
+
+![Rascunho](images/contrata.img82.jpg)
+
+**Figura 82 - Transferindo um rascunho**
+
+Ao clicar em “**Salvar**”, o rascunho aparecerá na tela de rascunhos do usuário informado.
+
+Ao clicar em “**Cancelar**”, a ação de transferir é cancelada e a tela retorna para a lista de rascunhos.
+
+Ao clicar em “**Fechar**”, a tela de rascunhos é fechada completamente
+
+8. Para gerar o documento com as informações do cadastro, selecione uma Análise de Riscos e clique em “**Gerar Análise de 
+Riscos**".
+
+![Selecionando](images/contrata.img83.jpg)
+
+**Figura 83 - Selecionando uma análise de riscos**
+
+O sistema exibirá uma mensagem e logo em seguida o documento será gerado em uma nova aba.
+
+![Mensagem](images/contrata.img84.jpg)
+
+**Figura 84 - Mensagem de documento gerado**
+
+![Documento](images/contrata.img85.jpg)
+
+**Figura 85 - Documento de análise de riscos gerado**
+
+Com o documento gerado é possível: **Aumentar o zoom, Diminuir o zoom, Fazer o download** (em .pdf) e **Imprimir**.
+
+
+!!! tip "About"
+
+    <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
+    <b>Updated:</b>08/15/2019 - Larissa Lourenço
+    
 
 
 
