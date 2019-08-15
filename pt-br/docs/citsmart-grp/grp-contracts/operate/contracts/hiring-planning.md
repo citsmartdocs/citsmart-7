@@ -152,11 +152,11 @@ Nesta tela as seguintes ações também poderão ser realizadas:
 2. Para visualizar as informações de um cadastro, selecione um Objetivo Estratégico e clique em “**Visualizar**”, conforme 
 demonstrado a seguir.
 
-![Objetivo](images/control.img10.jpg)
+![Objetivo](images/contrata.img10.jpg)
 
 **Figura 10 - Selecionando um objetivo estratégico**
 
-![Visualizando](images/control.img11.jpg)
+![Visualizando](images/contrata.img11.jpg)
 
 **Figura 11 - Visualizando um objetivo estratégico**
 
@@ -172,7 +172,7 @@ do cadastro do Objetivo Estratégico.
 4. Para remover as informações de um cadastro, selecione um Objetivo Estratégico e clique em “**Remover**” e o sistema exibirá uma
 mensagem solicitando a confirmação da exclusão, como demonstrado a seguir:
 
-    ![Exclusão](images/control.img12.jpg)
+    ![Exclusão](images/contrata.img12.jpg)
     
     **Figura 12 - Confirmando a exclusão de um objetivo estratégico**
     
@@ -188,7 +188,7 @@ Estudo técnico
 Ao clicar na opção “**Estudo Técnico**” no submenu “**Planejamento da Contratação**”, o sistema apresentará a tela de 
 consulta/pesquisa dos Estudos Técnicos cadastrados:
 
-![Estudo](images/control.img13.jpg)
+![Estudo](images/contrata.img13.jpg)
 
 **Figura 13 - Consultando estudo técnico**
 
@@ -202,7 +202,7 @@ Note que o cadastro do Estudo Técnico é dividido em etapas. Navegue pelas etap
 
 Etapa 1: Planejamento da Contratação
 
-![Etapa](images/control.img14.jpg)
+![Etapa](images/contrata.img14.jpg)
 
 **Figura 14 - Cadastrando um estudo técnico – Etapa 1**
 
@@ -218,13 +218,13 @@ preenchimento do cadastro.
 
 Etapa 2: Definições de Requisitos
 
-![Segunda](images/control.img15.jpg)
+![Segunda](images/contrata.img15.jpg)
 
 **Figura 15 - Cadastrando um estudo técnico - Etapa 2**
 
 Clique em “**Adicionar**”, para inserir os requisitos de negócio da contratação e a tela seguinte será exibida.
 
-![Adicionando](images/control.img16.jpg)
+![Adicionando](images/contrata.img16.jpg)
 
 **Figura 16 - Adicionando requisitos de negócio**
 
@@ -250,11 +250,11 @@ com o preenchimento do cadastro.
 
 Etapa 3: Levantamento das Alternativas
 
-![Cadastro](images/control.img17.jpg)
+![Cadastro](images/contrata.img17.jpg)
 
 **Figura 17 - Cadastrando estudo técnico - Etapa 3**
 
-![Estudo](images/control.img18.jpg)
+![Estudo](images/contrata.img18.jpg)
 
 **Figura 18 - Cadastrando estudo técnico - Etapa 3 (continuação)**
 
