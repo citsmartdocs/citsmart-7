@@ -38,10 +38,10 @@ apresentada, no mesmo arquivo, a ficha individual de cada bem selecionado.
 Para o relatório analítico: selecione (na tela principal de “Bem patrimonial”)
 um ou mais itens (bens patrimoniais) para gerar o relatório analítico de bens.
 
-   !!! warning "ATENÇÃO"
+!!! warning "ATENÇÃO"
 
-   Se selecionado mais de um bem, será apresentado, no mesmo arquivo, o
-   relatório analítico para cada bem selecionado.
+    Se selecionado mais de um bem, será apresentado, no mesmo arquivo, o
+    relatório analítico para cada bem selecionado.
 
 
 !!! tip "About"
