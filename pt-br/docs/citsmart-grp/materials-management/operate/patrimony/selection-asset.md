@@ -1,8 +1,7 @@
 title: Seleção de bem patrimonial
-
 Description:Seleçao de bem patrimonial
 
-\#Seleção de bem patrimonial
+# Seleção de bem patrimonial
 
 Como acessar
 ------------
