@@ -38,15 +38,15 @@ Para “Cadastrar” uma seleção de bem patrimonial siga as instruções a seg
    
    **Figura 1 - Seleção**
 
-   !!! info "IMPORTANTE"
+ !!! info "IMPORTANTE"
 
-   O filtro será aplicado considerando todas as opções informadas/selecionadas,
-   inclusive considerando seleções/indicações realizadas em abas distintas
-   (Geral, Localização, Movimentações e Características).
+     O filtro será aplicado considerando todas as opções informadas/selecionadas,
+     inclusive considerando seleções/indicações realizadas em abas distintas
+     (Geral, Localização, Movimentações e Características).
 
-   No exemplo a seguir, foi disponibilizado para seleção, os bens que se
-   enquadraram nas duas opções selecionadas (Situação: “Bom” e Status:
-   “Utilizado).
+     No exemplo a seguir, foi disponibilizado para seleção, os bens que se
+     enquadraram nas duas opções selecionadas (Situação: “Bom” e Status:
+     “Utilizado).
 
    Clique em “Salvar” para cadastrar/armazenar a seleção de bem patrimonial.
 
