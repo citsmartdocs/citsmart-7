@@ -13,9 +13,9 @@ No menu principal, em “Corporativo”, clique em “Cadastro de comissões” 
 submenu “Comissão. Ao clicar em “Cadastrar”, o sistema apresentará a seguinte
 tela:
 
-    ![figura](images/assets-1.png)
+   ![figura](images/assets-1.png)
     
-    **Figura 1 - Tela de cadastro de comissão**
+   **Figura 1 - Tela de cadastro de comissão**
 
 Preencha os campos do formulário conforme instruções abaixo:
 
@@ -45,9 +45,9 @@ Em “Administração de Materiais”, clique em “Inventário de bens” no su
 
 Ao clicar em “Cadastrar”, o sistema apresentará a seguinte tela:
 
-    ![figura](images/assets-2.png)
+   ![figura](images/assets-2.png)
     
-    **Figura 2 - Tela de cadastro de inventário**
+   **Figura 2 - Tela de cadastro de inventário**
 
 -   Informe o nome do Inventário.
 
