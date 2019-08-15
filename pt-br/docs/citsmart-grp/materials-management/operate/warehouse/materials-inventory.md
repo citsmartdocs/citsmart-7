@@ -1,8 +1,7 @@
 title: Inventário de materiais
-
 Description: Inventário de materiais
 
-\#Inventário de materiais
+# Inventário de materiais
 
 Como acessar
 ------------
@@ -10,14 +9,14 @@ Como acessar
 Em “Administração de Materiais”, almoxarifado clique em “Inventário de
 Materiais”, e será exibida a seguinte tela:
 
-  ![figura](images/material-1.png)
+  ![figura](images/materials-1.png)
 
  **Figura 1 - Tela de pesquisa de inventário de materiais**
 
 Ao clicar em Cadastrar, o sistema apresentará a tela de cadastro de inventário,
 conforme abaixo:
 
-  ![figura](images/material-2.png)
+  ![figura](images/materials-2.png)
 
  **Figura 2 - Tela de cadastro de inventário de materiais**
 
