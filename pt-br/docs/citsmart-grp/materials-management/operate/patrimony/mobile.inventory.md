@@ -63,7 +63,9 @@ adicionar bem e ver bens.
 
 ![Criar](images/vent4.png)
 
-**Figura 4 - Estruturas Disponíveis**
+![Criar](images/vent5.png)
+
+**Figuras 4 - Estruturas Disponíveis**
 
 Lendo dados de bens pelo mobile
 -------------------------------
@@ -76,7 +78,7 @@ Caso seja necessário incluir um bem na estrutura organizacional que está sendo
 inventariada, basta clicar na opção “+ Adicionar Bens” e o aplicativo abrirá a
 tela apresentada na figura a seguir:
 
-   ![Criar](images/vent5.png)
+   ![Criar](images/vent6.png)
     
    **Figura 5 - Leitura**
 
@@ -85,7 +87,7 @@ dos bens constantes na estrutura organizacional não sejam encontrados será
 apresentada a seguinte tela de alerta, conforme figura, independentemente do
 tipo de leitura selecionado.
 
-   ![Criar](images/vent6.png)
+   ![Criar](images/vent7.png)
     
    **Figura 6 - Erro de Leitura**
 
@@ -95,7 +97,7 @@ possível visualizar todos os bens coletados.
 Para isto, clique na opção Ver Bens e serão apresentadas 03 opções: previstos,
 lidos/incluídos e não lidos, conforme figuras a seguir.
 
-   ![Criar](images/vent7.png)
+   ![Criar](images/vent8.png)
     
    **Figura 7 - Ver Bens**
 
@@ -105,7 +107,7 @@ estrutura organizacional selecionada.
 As figuras a seguir apresentam as visões para os bens não lidos e
 lidos/incluídos, respectivamente.
 
-   ![Criar](images/vent8.png)
+   ![Criar](images/vent9.png)
     
    **Figura 8 - Bens não lidos**
 
@@ -129,7 +131,7 @@ A figura a seguir demonstra como deve ser enviado os dados coletados.
 
 Para sincronizar os dados clique em “Enviar Inventários”:
 
-![Criar](images/vent9.png)
+![Criar](images/vent10.png)
 
 **Figura 9 - Sincronização**
 
