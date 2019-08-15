@@ -522,7 +522,7 @@ Ao clicar em “**Fechar**”, a tela de rascunhos é fechada completamente
 
 O sistema exibirá uma mensagem e logo em seguida o documento será gerado em uma nova aba.
 
-[Documento](images/contrata.img37.jpg)
+![Documento](images/contrata.img37.jpg)
 
 **Figura 37 - Mensagem de documento gerado**
 
