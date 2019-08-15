@@ -14,7 +14,7 @@ Preenchimento dos campos cadastrais
 
 Ao clicar em “Cadastrar”, o sistema apresentará a seguinte tela:
     
-    ![figura](images/addition-1.png)
+   ![figura](images/addition-1.png)
     
   **Figura 1 - Tela de cadastro de bens patrimoniais**
    
