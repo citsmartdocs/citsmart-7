@@ -24,7 +24,7 @@ Preencha o nome do material que deseja consultar.
 
 Navegue pelas abas para saber informações sobre o material, conforme a imagem:
 
-![figura](images/inquiry-1.png)
+![figura](images/inquiry-2.png)
 
 **Figura 2 - Detalhes sobre o Material**
 
