@@ -15,9 +15,9 @@ Como reavaliar
 
 Ao clicar em “Cadastrar”, o sistema apresentará a seguinte tela:
     
-    ![figura](images/revaluation.png)
+   ![figura](images/revaluation.png)
     
-    **Figura 1 - Reavaliação**
+   **Figura 1 - Reavaliação**
 
 Preencha os campos do formulário conforme instruções abaixo:
 
