@@ -866,7 +866,7 @@ O sistema exibirá uma mensagem e logo em seguida o documento será gerado em um
 
 ![Mensagem](images/contrata.img67.jpg)
 
-**Figura 67 - Mensagem de documento gerado
+**Figura 67 - Mensagem de documento gerado**
 
 ![Documento](images/contrata.img68.jpg)
 
