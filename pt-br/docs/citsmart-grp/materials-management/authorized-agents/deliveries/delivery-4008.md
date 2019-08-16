@@ -24,7 +24,7 @@ Description: Documento de entrega ADM Materiais 4.0.0.8
         de versão no ambiente dos clientes.
 
 ATENÇÃO, esta versão tem dependência do módulo [Corporativo
-3.1.8.5]()
+3.1.8.5](/pt-br/citsmart-grp/materials-management/authorized-agents/deliveries/delivery-3185.html)
 
 **DOWNLOADS**
 
