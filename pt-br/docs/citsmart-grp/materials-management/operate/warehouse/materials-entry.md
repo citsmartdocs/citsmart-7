@@ -1,8 +1,8 @@
-**title: Entrada de materiais**
+title: Entrada de materiais
 
-**Description: Entrada de materiais**
+Description: Entrada de materiais
 
-**\#Entrada de materiais**
+# Entrada de materiais
 
 Como acessar
 ------------
@@ -45,7 +45,9 @@ Ao clicar em “Cadastrar”, o sistema apresentará a tela abaixo.
 Preencha os campos da 1ª tela do formulário “Entrada de bens” conforme
 instruções a seguir:
 
-**Figura 1 - Tela de cadastro - Etapa 1**
+   ![figura](images/entry-1.png)
+   
+   **Figura 1 - Tela de cadastro - Etapa 1**
 
 Dados da entrada
 ----------------
@@ -75,10 +77,14 @@ Dados da entrada
     de matérias. Lembrando que essa data deverá estar dentro do mês de
     referência vigente.
 
--   **Figura 2 - Tela de cadastro - Etapa 2**
+   ![figura](images/entry-2.png)
+   
+   **Figura 2 - Tela de cadastro - Etapa 2**
 
 -   Preencha os campos da 2ª tela do formulário “Entrada de bens” conforme
     instruções a seguir:
+
+![figura](images/entry-3.png)
 
 **Figura 3 - Tela de cadastro - Etapa 2 (continuação)**
 
@@ -93,7 +99,9 @@ Dados materiais
 Ao clicar em “Adicionar”, será possível informar os materiais que deverão ser
 adicionados nesta entrada, conforme figura abaixo:
 
-**Figura 4 - Tela de cadastro de materiais**
+   ![figura](images/entry-4.png)
+   
+   **Figura 4 - Tela de cadastro de materiais**
 
 Ao adicionar os materiais deverá ser definido:
 
