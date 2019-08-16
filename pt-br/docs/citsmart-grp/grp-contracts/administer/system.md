@@ -143,7 +143,7 @@ As opções de botões apresentadas na tela permitem:
 - **Remover**: permite remover o cadastro do grupo selecionado.
 - **Filtros**: permite configurar filtros específicos de visualização.
 
-Ao clicar em “Cadastrar”, e a tela abaixo será aberta para realizar o cadastro de um novo grupo.
+Ao clicar em “**Cadastrar**”, e a tela abaixo será aberta para realizar o cadastro de um novo grupo.
 
 ![Grupo](images/sistemas.img8.jpg)
 
