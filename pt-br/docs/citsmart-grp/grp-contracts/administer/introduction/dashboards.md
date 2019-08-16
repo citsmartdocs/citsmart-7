@@ -112,6 +112,43 @@ informações dos painéis.
 Para cadastrar um novo Painel, basta clicar em “**Cadastrar**” para que o sistema direcione para a tela de cadastro, conforme
 abaixo:
 
+![Painel](images/dashboard.img13.jpg)
+
+**Figura 13 - Cadastrando um Painel**
+
+Ao clicar em “**Widget**”, o sistema direcionará para a tela de pesquisa dos *widgets* cadastrados:
+
+![Widgets](images/dashboard.img14.jpg)
+
+**Figura 14 - Pesquisa de Widgets Cadastrados**
+
+Na tela de pesquisa é possível, **Cadastrar** um novo *Widget*, Visualizar as informações de um *Widget* cadastrado, 
+**Editar** as informações de um *Widget* cadastrado, **Remover** o cadastro de um Widget e ainda criar **Filtros** específicos 
+de busca de informações dos widgets.
+
+Para cadastrar um novo *Widget*, basta clicar em “**Cadastrar**” para que o sistema apresente a tela de cadastro, conforme a 
+seguir:
+
+![Cadastro](images/dashboard.img15.jpg)
+
+**Figura 15- Cadastrando um Widget**
+
+!!! tip "About"
+
+    <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
+    <b>Updated:</b>08/16/2019 - Larissa Lourenço
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
