@@ -1,7 +1,7 @@
-title: Documento de entrega GRP ADM 3.0.8.5
-Description: Documento de entrega GRP ADM 3.0.8.5
+title: Documento de entrega GRP ADM 3.0.8.5 e GRP COR 3.1.6.2
+Description: Documento de entrega GRP ADM 3.0.8.5 e GRP COR 3.1.6.2
 
-# Documento de entrega GRP ADM 3.0.8.5
+# Documento de entrega GRP ADM 3.0.8.5 e GRP COR 3.1.6.2
 
 -   **Nome da Solução**: CITSmart Enterprise GRP Administração de Materiais.
 
