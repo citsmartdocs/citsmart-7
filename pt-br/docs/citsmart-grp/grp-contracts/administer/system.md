@@ -20,7 +20,7 @@ Exibe as definições de comportamentos dentro do sistema.
 
 Ao clicar em “**Definições Gerais**” do submenu “**Geral**”, o sistema apresentará a seguinte tela:
 
-![Definir](images/Figura 2 - Definindo Configurações Gerais)
+![Definir](images/sistemas.img2.jpg)
 
 **Figura 2 - Definindo Configurações Gerais**
 
