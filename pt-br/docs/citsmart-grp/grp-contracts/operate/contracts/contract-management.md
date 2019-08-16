@@ -1555,157 +1555,185 @@ seguir.
 
 **Figura 109 - Visualizando uma notificação**
 
+Na tela de visualização é possível realizar as seguintes ações:
 
+- **Editar**: alterar informações do cadastro
+- **Gerar Notificação**: gerar o documento com as informações do cadastro
+- **Pesquisar**: retornar à tela de pesquisa de cadastro
 
+Para editar as informações de um cadastro, selecione uma Notificação e clique em “**Editar**”. A tela apresentada será a do 
+cadastro da Notificação.
 
+Para criar filtros de busca, clique em “**Filtros**”. Esta ação permite a configuração de filtros específicos.
 
+Para gerar o documento com as informações do cadastro, selecione uma Notificação e clique em “**Gerar Notificação**”.
 
+![Notificação](images/contrato.img110.jpg)
 
+**Figura 110 - Selecionando uma notificação**
 
+O sistema exibirá uma mensagem e logo em seguida o documento será gerado em uma nova aba.
 
+![Mensagem](images/contrato.img111.jpg)
 
+**Figura 111 - Mensagem de documento gerado**
 
+![Documento](images/contrato.img112.jpg)
 
+**Figura 112 - Documento de uma notificação gerado**
 
+Com o documento gerado é possível: **Aumentar o zoom, Diminuir o zoom, Fazer o download** (em .pdf) e **Imprimir**.
 
+Encerramento de contratos
+----------------------------
 
+Ao clicar na opção “**Encerramento de Contratos**” no submenu “**Gestão e Fiscalização de Contrato**”, o sistema apresentará 
+a tela de consulta/pesquisa dos Contratos Encerrados.
 
+![Consultando](images/contrato.img113.jpg)
 
+**Figura 113 - Consultando encerramentos de contratos**
 
+Nesta tela é possível realizar ações como: **Cadastrar** um novo Encerramento de Contrato, **Visualizar** o cadastro de um 
+Encerramento de Contrato, **Editar** informações do cadastro de um Encerramento de Contrato, **Gerar CSV, Gerar Termo de 
+Encerramento** e ainda criar **Filtros** específicos de busca.Note que o cadastro do Encerramento de Contrato é dividido em 
+etapas. Navegue pelas etapas para preencher os campos.
 
+Etapa 1: informações do contrato
+-----------------------------------
 
+Para cadastrar um novo Encerramento de Contrato, basta clicar em “Cadastrar” e o sistema exibirá a tela seguinte:
 
+![Encerramento](images/contrato.img114.jpg)
 
+![Contrato](images/contrato.img114.1.jpg)
 
+**Figura 114 - Cadastrando um encerramento de contrato - Etapa 1**
 
+- **Número/Ano Contrato**: número de identificação do Contrato que será encerrado
+- **Contratante**: nome do fornecedor contratado
 
+!!! note "NOTA"
 
+    Ao informar o número do contrato, alguns campos serão preenchidos pelo sistema
 
+Etapa 2: termos de encerramento
+-----------------------------------
 
+![Cadastro](images/contrato.img115.jpg)
 
+![Encerramento](images/contrato.img115.1.jpg)
 
+**Figura 115 - Cadastrando um encerramento de contrato - Etapa 2**
 
+- **Data do Encerramento**: data que em o contrato está sendo encerrado
+- **Introdução**: descrição detalhada do encerramento
+- **Motivo**: detalhamento do motivo pelo encerramento do contrato
+- **Encaminhamentos**: detalhamentos do tipo de encaminhamento que será dado. Por default, este campo está preenchido com um 
+texto que poderá ser editado.
+- **Existem Pendência?**: caso existam pendências no contrato, o sistema apresentará um campo para descrever as pendências.
+- **Decisão**: descrição da decisão a ser tomada quanto ao encerramento do contrato
 
+!!! note "NOTA"
 
+    Os campos em cinza serão preenchidos pelo sistema.
 
+Etapa 3: anexos e observações
+---------------------------------
 
+![Cadastro](images/contrato.img116.jpg)
 
+![Encerramento](images/contrato.img116.1.jpg)
 
+**Figura 116 - Cadastrando um enceramento de contrato - Etapa 3**
 
+Clique em “**Adicionar**”, para anexar documentos no cadastro e a tela seguinte será exibida.
 
+![Anexos](images/contrato.img117.jpg)
 
+**Figura 117 - Anexando documentos**
 
+- **Tipo de Documento**: tipo de documento (exemplo: ata, ofício, nota de empenho...)
+- **Data da Emissão**: data em que o documento foi emitido
+- **Nº do Documento**: número do documento emitido
+- **Emissor**: nome do emissor do documento
+- **Arquivo**: abra o explorer e arraste o documento para a área indicada ou clique na área indicada para selecionar o 
+documento
 
+Clique em “**Adicionar**” para incluir um documento ao encerramento ou
 
+Clique em “**Adicionar e continuar**” para incluir outro documento ao encerramento ou
 
+Clique em “**Cancelar**”.
 
+!!! note "NOTA"
 
+    A associação de documentos não é obrigatória.
+    
+- **Observação**: descrição de informação que seja relevante para o cadastro. Ao adicionar uma observação, o nome do usuário, 
+data e horário serão gravados na tela.
 
+![Adicionar](images/contrato.img118.jpg)
 
+**Figura 118 - Adicionando uma observação**
 
+Após o preenchimento dos campos, clique em “**Salvar**”, para que o sistema armazene as informações no banco de dados.
 
+Nesta tela as seguintes ações também poderão ser realizadas:
 
+- **Limpar**: limpa todos os campos preenchidos antes de salvar o cadastro.
+- **Pesquisar**: retorna à tela de pesquisa.
 
+2. Para visualizar as informações de um cadastro, selecione um Encerramento de Contrato e clique em “**Visualizar**”, 
+conforme demonstrado a seguir.
 
+![Selecionar](images/contrato.img119.jpg)
 
+**Figura 119 - Selecionando um encerramento de contrato**
 
+![Visualizar](images/contrato.img120.jpg)
 
+**Figura 120 - Visualizando um encerramento de contrato**
 
+Na tela de visualização é possível realizar as seguintes ações:
 
+- **Gerar Termo de Encerramento**: gerar o documento com as informações do cadastro
+- **Pesquisar**: retornar à tela de pesquisa de cadastro
 
+!!! info "IMPORTANTE"
 
+    Um Encerramento de Contrato não poderá ser excluído do sistema.
+    
+Para editar as informações de um cadastro, selecione um Encerramento de Contrato e clique em “**Editar**”. A tela apresentada 
+será a do cadastro do Encerramento de Contrato.
 
+Para gerar a tabela de Encerramento de Contratos em um arquivo excel, clique em “**Gerar CSV**”.
 
+Para criar filtros de busca, clique em “**Filtros**”. Esta ação permite a configuração de filtros específicos.
 
+Para gerar o documento com as informações do cadastro, selecione um Encerramento de Contrato e clique em “**Gerar Termo de 
+Encerramento**”.
 
+![Selecionando](images/contrato.img121.jpg)
 
+**Figura 121 - Selecionando um encerramento de contrato**
 
+O sistema exibirá uma mensagem e logo em seguida o documento será gerado em uma nova aba.
 
+![Mensagem](images/contrato.img122.jpg)
 
+**Figura 122 - Mensagem de documento gerado**
 
+![Documento](images/contrato.img123.jpg)
 
+**Figura 123 - Documento de Termo de Encerramento Gerado**
 
+Com o documento gerado é possível: **Aumentar o zoom, Diminuir o zoom, Fazer o download** (em .pdf) e **Imprimir**.
 
+!!! tip "About"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
+    <b>Updated:</b>08/16/2019 - Larissa Lourenço
 
 
 
