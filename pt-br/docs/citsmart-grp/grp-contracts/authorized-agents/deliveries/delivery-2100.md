@@ -4,10 +4,10 @@ Description: CITSmart Enterprise GRP Contratos.
 
 - **Nome da Solução**: CITSmart Enterprise GRP Contratos
 - **Versão**: 2.1.0.0-beta
-- **Documento criado em: 08/02/2019
+- **Documento criado em**: 08/02/2019
 - **Versão entregue em**: 08/02/2019
 - **Última alteração em**: 08/02/2019
-- **Objetivos:
+- **Objetivos**:
 
     1. antecipar a visão de escopo para que todos os stakeholders possam ter conhecimento do que se espera da versão.
     
