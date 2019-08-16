@@ -53,7 +53,8 @@ todo o Menu para encontrá-la.
 Favoritos
 ------------
 
-Clique no ícone ![simbolo](images/simb.sino.jpg) e a lista de páginas **favoritas** será exibida, apresentando a tela abaixo:
+Clique no ícone ![simbolo](images/simb.estrela.jpg) e a lista de páginas **favoritas** será exibida, apresentando a tela 
+abaixo:
 
 ![Favoritos](images/login.img5.jpg)
 
