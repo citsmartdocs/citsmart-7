@@ -2,7 +2,7 @@ title:Documento de entrega ADM Materiais 3.0.7.3
 
 Description: Documento de entrega ADM Materiais 3.0.7.3
 
-\# Documento de entrega ADM Materiais 3.0.7.3
+# Documento de entrega ADM Materiais 3.0.7.3
 
 -   **Nome da Solução**: CITSmart Enterprise GRP Administração de Materiais
 
