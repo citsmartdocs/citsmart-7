@@ -14,9 +14,9 @@ Como cadastrar
 
 Ao clicar em cadastrar, será apresentada a seguinte tela:
 
-   ![figure](materials-request-1.png)
+   ![figure](images/materials-request-1.png)
    
-   ![figure](materials-request-2.png)
+   ![figure](images/materials-request-2.png)
 
 **Figura 1 - Tela de requisição de materiais**
 
