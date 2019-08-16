@@ -24,7 +24,7 @@ Description: Documento de entrega ADM Materiais 4.0.0.8
         de versão no ambiente dos clientes.
 
 ATENÇÃO, esta versão tem dependência do módulo [Corporativo
-3.1.8.5](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/8794)
+3.1.8.5]()
 
 **DOWNLOADS**
 
