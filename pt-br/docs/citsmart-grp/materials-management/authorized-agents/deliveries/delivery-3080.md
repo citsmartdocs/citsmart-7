@@ -2,7 +2,7 @@ title: Documento de entrega GRP ADM 3.0.8.0 e COR 3.1.5.4
 
 Description: Documento de entrega GRP ADM 3.0.8.0 e COR 3.1.5.4
 
-\#Documento de entrega GRP ADM 3.0.8.0 e COR 3.1.5.4
+# Documento de entrega GRP ADM 3.0.8.0 e COR 3.1.5.4
 
 -   **Nome da Solução**: CITSmart Enterprise GRP Contratos
 
