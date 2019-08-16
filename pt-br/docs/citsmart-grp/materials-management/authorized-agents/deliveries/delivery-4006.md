@@ -1,8 +1,8 @@
-title: Documento de entrega ADM Materiais 4.0.0.5, Corporativo 3.1.8.3 e Contratos 2.0.5.9
+title: Documento de entrega ADM Materiais 4.0.0.6
 
-Description: Documento de entrega ADM Materiais 4.0.0.5, Corporativo 3.1.8.3 e Contratos 2.0.5.9
+Description: Documento de entrega ADM Materiais 4.0.0.6
 
-# Documento de entrega ADM Materiais 4.0.0.5, Corporativo 3.1.8.3 e Contratos 2.0.5.9
+# Documento de entrega ADM Materiais 4.0.0.6
 
 -   **Nome da Solução**: CITSmart Enterprise GRP Administração de Materiais
 
@@ -43,6 +43,7 @@ ATENÇÃO, esta versão tem dependência do módulo [Corporativo
 | ITSM #8615 | Erro na transferência interna, aceite eletrônico influenciando na exclusão da transf. |                        |
 | ITSM #8936 | Erro na transferência interna, aceite eletrônico influenciando na exclusão da transf. |                        |
 
+Alguns itens acima estão com a mesma descrição por que se tratam do mesmo assunto.
 
 **IMPACTOS NOS MANUAIS DE INSTALAÇÃO/ATUALIZAÇÃO**
 
