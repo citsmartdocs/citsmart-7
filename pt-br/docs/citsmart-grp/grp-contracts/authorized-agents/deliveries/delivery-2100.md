@@ -30,7 +30,7 @@ Escopo
 
 | Demanda    | Descrição                                                                     | Conhecimento impactado                                                        |
 |------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| ITSM #7002 | Criação de telas para repactuação, apostilamento e alteração no termo aditivo | Criação de telas para repactuação, apostilamento e alteração no termo aditivos no GRP.|
+| ITSM #7002 | Criação de telas para repactuação, apostilamento e alteração no termo aditivo | Processo de criação de repactuações, apostilamentos e termos aditivos no GRP|
 
 Atenção, esta alteração é praticamente irreversível, realize o backup antes da alteração.
 
