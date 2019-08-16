@@ -1,8 +1,7 @@
 title: Documento de entrega Corporativo 3.1.8.4
-
 Description: Documento de entrega Corporativo 3.1.8.4
 
-\# Documento de entrega Corporativo 3.1.8.4
+# Documento de entrega Corporativo 3.1.8.4
 
 -   **Nome da Solução**: CITSmart Enterprise GRP Corporativo
 
