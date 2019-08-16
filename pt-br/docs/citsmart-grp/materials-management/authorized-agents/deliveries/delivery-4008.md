@@ -2,7 +2,7 @@ title: Documento de entrega ADM Materiais 4.0.0.8
 
 Description: Documento de entrega ADM Materiais 4.0.0.8
 
-\#Documento de entrega ADM Materiais 4.0.0.8
+# Documento de entrega ADM Materiais 4.0.0.8
 
 -   **Nome da Solução**: CITSmart Enterprise GRP Administração de Materiais
 
