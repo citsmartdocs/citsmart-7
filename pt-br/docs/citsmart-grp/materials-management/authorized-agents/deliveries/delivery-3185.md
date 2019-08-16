@@ -33,7 +33,7 @@ Description: Documento de entrega Corporativo 3.1.8.5
 Esta versão é para compor as versões 4.0.0.7 do Adm de materiais, Patrimonio,
 Almoxarifado e Contratos 2.1.0.0
 
-**MPACTOS NOS MANUAIS DE INSTALAÇÃO/ATUALIZAÇÃO**
+**IMPACTOS NOS MANUAIS DE INSTALAÇÃO/ATUALIZAÇÃO**
 
 1.  Nenhum.
 
