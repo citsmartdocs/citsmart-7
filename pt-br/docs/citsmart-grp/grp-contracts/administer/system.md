@@ -254,6 +254,8 @@ Ao clicar em “Módulos”, o sistema exibirá a seguinte tela:
 
 ![Exibir](images/sistemas.img15.jpg)
 
+**Figura 15- Exibindo os Módulos Cadastrados**
+
 Nesta tela o usuário, terá disponível as seguintes opções:
 
 - Cadastrar;
