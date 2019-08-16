@@ -9,9 +9,9 @@ Description: CITSmart Enterprise GRP Contratos.
 - **Última alteração em**: 08/02/2019
 - **Objetivos**:
 
-    1. antecipar a visão de escopo para que todos os stakeholders possam ter conhecimento do que se espera da versão.
+1. antecipar a visão de escopo para que todos os stakeholders possam ter conhecimento do que se espera da versão.
     
-    2. levar ao conhecimento dos Agentes Autorizados (parceiros) as principais informações desta entrega, reduzindo o risco de 
+2. levar ao conhecimento dos Agentes Autorizados (parceiros) as principais informações desta entrega, reduzindo o risco de 
     problemas na atualização de versão no ambiente dos clientes.
     
 ATENÇÃO, esta versão tem dependência do módulo Corporativo 3.1.8.4
