@@ -58,7 +58,7 @@ Orientações especiais
 Orientações anteriores que devem ser observadas nesta entrega
 -----------------------------------------------------------------
 
-1. É recomendada uma análise detalhada dos seguintes itens encontrados no documento de Entrega anterior:
+1. É recomendada uma análise detalhada dos seguintes itens encontrados no documento de **Entrega anterior**:
 
 - Lista de conhecimentos impactados
 - Seção de impactos nos manuais de instalação/configuração
