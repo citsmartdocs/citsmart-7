@@ -489,6 +489,10 @@ Clique em “**Adicionar e continuar**” para incluir outro item à ordem de fo
 
 Clique em “**Cancelar**”.
 
+!!! info "IMPORTANTE"
+
+    Pelo menos um item deverá ser adicionado à Ordem de Fornecimento.
+
 Anexos e observação
 ---------------------
 
