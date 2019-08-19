@@ -32,7 +32,7 @@ Description: Checklist de usabilidade
 10. Existe uma tabela com mais de 10 registros? Se sim existe paginação?
 
 11. Todos os campos que apresentarem erros quando o formulário for submetido
-    contém um ícone com informações adicionais do erro?​ Exemplo: 
+    contém um ícone com informações adicionais do erro? 
 
 12. As mensagens de ajuda em caso de erro são suficientes para o usuário
     identificar o erro e a solução?
@@ -44,18 +44,18 @@ Description: Checklist de usabilidade
 14. Os botões estão na interface conforme definição do padrão? Ações Terminais
     primeiro alinhadas a esquerda, depois demais ações da funcionalidade logo
     após ações terminais à esquerda, e ações genéricas a direita na barra de
-    ações. Exemplo:
-
+    ações. 
+    
 15. Os botões de caixas de diálogo ou modais estão seguindo a mesma lógica
     proposta na questão acima?
 
 16. Nos AutoCompletes, Selects ou Grids, as opções estão organizadas segundo
     alguma ordem lógica? Exemplo: Alfabética, Data de Inserção, Agrupado etc.
 
-17. Os Campos obrigatórios possuem diferenciação dos demais? No padrão \*?
+17. Os Campos obrigatórios possuem diferenciação dos demais? No padrão?
 
 18. Os campos que não podem ser alterados após o uso possuem diferenciação? No
-    padrão \*\*​?
+    padrão?
 
 19. As mensagens de erro e aviso estão conforme padrão definido para Erro,
     Informação e Atenção?
