@@ -282,7 +282,7 @@ diretório: **D:\\desenvolvimento\\projetos\\citsmart-corporativo\\branches\\de
 8.6 Repita o passo **8.1**  
 8.7 Na tela que se segue adicione no campo **URL Repository** o
 valor: [https://citdfsrv013.cit.local:8443/svn/citsmart-corporativo/branches/desenvolvimento](https://citdfsrv013.cit.local:8443/svn/citsmart-corporativo/branches/desenvolvimento)  
-8.8 No campo *Checkout Directory *adicione o
+8.8 No campo **Checkout Directory** adicione o
 valor: **D:\\desenvolvimento\\projetos\\citsmart-corporativo\\branches\\desenvolvimento**  
 8.9 Repita o passo 8.4.
 
