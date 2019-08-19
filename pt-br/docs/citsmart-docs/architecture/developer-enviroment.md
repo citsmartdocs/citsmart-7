@@ -173,7 +173,7 @@ token safeNet e instalar na máquina.
 Realize o download do arquivo ​abaixo e informe no arquivo de
 configuração **citapp.properties **​o caminho do diretório extraído.   
 Ex.:
-\#OCR **ecm.orc.img=**C:\\\\desenv\\\\workspaces\\\\git\\\\cit-grp-ecm\\\\cit-ecm-api\\\\tessdata
+\#OCR **ecm.orc.img=** C:\\\\desenv\\\\workspaces\\\\git\\\\cit-grp-ecm\\\\cit-ecm-api\\\\tessdata
 
 
 !!! tip "About"
