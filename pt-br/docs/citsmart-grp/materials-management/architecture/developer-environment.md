@@ -33,10 +33,10 @@ Sistema" e clicar no botão "Variáveis de Ambiente";
 no botão "Nova";  
 4.5. Na janela "Nova Variável do Sistema", digitar:
 
--   No campo "Nome da Variável": *JAVA_HOME*
+-   No campo "Nome da Variável": **JAVA_HOME**
 
 -   No campo "Valor da Variável" adicionar o caminho completo onde o Java JDK
-    foi instalado: *D:\\desenvolvimento\\java\\jdk1.7.0_71*
+    foi instalado: **D:\\desenvolvimento\\java\\jdk1.7.0_71**
 
 -   Clicar em Ok.
 
@@ -44,9 +44,9 @@ no botão "Nova";
 no botão "Nova";
 4.7. Na janela "Nova Variável do Sistema", digitar:
 
--   No campo "Nome da Variável": *CLASSPATH*
+-   No campo "Nome da Variável": **CLASSPATH**
 
--   No campo "Valor da Variável": *%JAVA_HOME%\\lib*
+-   No campo "Valor da Variável": **%JAVA_HOME%\\lib**
 
 -   Clicar em Ok.
 
@@ -56,7 +56,7 @@ no botão "Nova";
 localizar a variável *PATH* e clicar no botão "Editar";
 
 -   Na janela "Editar variável de ambiente", no campo "Valor da variável"
-    acrescentar, no **final, **seguinte texto: *;%JAVA_HOME%\\bin*
+    acrescentar, no **final**, seguinte texto: **;%JAVA_HOME%\\bin**
 
 -   Clicar em Ok.
 
@@ -115,13 +115,13 @@ outras coisas podem ser feitas extendendo-se funcionalidades com plugins.
   
 O Maven possui "fases" que determinam as etapas de um build. São elas:
 
--   **validate **– valida o projeto sem compilar;
+-   **validate** – valida o projeto sem compilar;
 
--   **compile **– compila o código-fonte;
+-   **compile** – compila o código-fonte;
 
--   **test **– executa os testes do projeto;
+-   **test** – executa os testes do projeto;
 
--   **package **– empacota o executável para distribuição (JAR);
+-   **package** – empacota o executável para distribuição (JAR);
 
 -   **integration-test** – executa testes de integração;
 
@@ -198,18 +198,18 @@ Sistema" e clicar no botão "Variáveis de Ambiente";
 5.3. Na janela "Variáveis de Ambiente", no grupo "Variáveis de Sistema" clicar
 no botão "Nova" e na janela "Nova Variável do Sistema", digitar:
 
--   No campo "Nome da Variável": *M2_HOME*
+-   No campo "Nome da Variável": **M2_HOME**
 
 -   No campo "Valor da Variável" adicionar o caminho completo onde o Maven
-    está: *D:\\desenvolvimento\\tools\\maven-3.2.3*
+    está: **D:\\desenvolvimento\\tools\\maven-3.2.3**
 
 -   Clicar em Ok.
 
 5.4. Na janela "Variáveis de Ambiente", no grupo "Variáveis de Sistema",
-localizar a variável *PATH* e clicar no botão "Editar";
+localizar a variável **PATH** e clicar no botão "Editar";
 
 -   Na janela "Editar variável de ambiente", no campo "Valor da variável"
-    acrescentar no **final **o seguinte texto *;%M2_HOME%\\bin *(note que no
+    acrescentar no **final** o seguinte texto **;%M2_HOME%\\bin** (note que no
     início do conteúdo existe um ponto-e-vírgula, é muito importante que o
     conteúdo seja idêntico ao informado no texto em negrito.)
 
@@ -220,20 +220,20 @@ localizar a variável *PATH* e clicar no botão "Editar";
   
   
 5.5 Após configurar o maven no ambiente é preciso alterar algumas configurações
-no arquivo *settings.xml* que está localizado na
-pasta *D:\\desenvolvimento\\tools\\maven-3.2.3\\conf *as linhas a serem
+no arquivo **settings.xml** que está localizado na
+pasta **D:\\desenvolvimento\\tools\\maven-3.2.3\\conf** as linhas a serem
 alteradas são:  
   
 \<servers\>  
 \<server\>  
 \<id\>central\</id\>  
-*\<username\>\</username\>*  
-*\<password\>\</password\>*  
+**\<username\>\</username\>** 
+**\<password\>\</password\>**  
 \</server\>  
 \<server\>  
 \<id\>snapshots\</id\>  
-*\<username\>\</username\>*  
-*\<password\>\</password\>*  
+**\<username\>\</username\>**  
+**\<password\>\</password\>**  
 \</server\>  
 \</servers\>  
   
@@ -264,10 +264,10 @@ diretório *D:\\desenvolvimento\\projetos\\citsmart-grp-modules\\branches\\dese
 
 8.1 Clique com o direito na área da pasta e vá na opção: *SVN Checkout...*
 
-8.2 Na* *tela que se segue adicione no campo *URL Repository *o
+8.2 Na tela que se segue adicione no campo **URL Repository** o
 valor: [https://citdfsrv013.cit.local:8443/svn/Citsmart-GRP/branches/desenvolvimento](https://citdfsrv013.cit.local:8443/svn/Citsmart-GRP/branches/desenvolvimento)  
   
-8.3 No campo *Checkout Directory *adicione o
+8.3 No campo **Checkout Directory** adicione o
 valor: *D:\\desenvolvimento\\projetos\\citsmart-grp-modules\\branches\\desenvolvimento*
 
 8.4 Ao clicar em *OK *será iniciado o download do código-fonte. No término será
@@ -277,9 +277,9 @@ Faça o checkout do repositório corporativo de modo semelhante ao passo anterio
 alterando a URL e o diretório dos projetos:
   
 8.5 Abra o
-diretório: *D:\\desenvolvimento\\projetos\\citsmart-corporativo\\branches\\desenvolvimento*  
-8.6 Repita o passo** 8.1**  
-8.7 Na* *tela que se segue adicione no campo *URL Repository *o
+diretório: **D:\\desenvolvimento\\projetos\\citsmart-corporativo\\branches\\desenvolvimento**  
+8.6 Repita o passo **8.1**  
+8.7 Na* *tela que se segue adicione no campo **URL Repository** o
 valor: [https://citdfsrv013.cit.local:8443/svn/citsmart-corporativo/branches/desenvolvimento](https://citdfsrv013.cit.local:8443/svn/citsmart-corporativo/branches/desenvolvimento)  
 8.8 No campo *Checkout Directory *adicione o
 valor: **D:\\desenvolvimento\\projetos\\citsmart-corporativo\\branches\\desenvolvimento**  
@@ -314,9 +314,9 @@ Eclipse](http://www.eclipse.org/downloads/download.php?file=/technology/epp/down
 
 9.1 Descompacte a pasta para o diretório **D:\\desenvolvimento\\ide**
 
-9.2 Execute o arquivo *eclipse.exe*
+9.2 Execute o arquivo **eclipse.exe**
 
-9.3 Selecione a workspace: *D:\\desenvolvimento\\workspace\\centralit*
+9.3 Selecione a workspace: **D:\\desenvolvimento\\workspace\\centralit**
 
 9.4 No "Package explorer" ou no "Project Explorer", clique com o botão direito e
 selecione a opção "Import...".
@@ -325,8 +325,8 @@ selecione a opção "Import...".
 selecione a opção "Existing Maven Projects" e clique em "Next".
 
 9.6 Em seguida, clique em "Browse" e selecione o caminho
-do **cit-grp-parent **dentro do workspace ou simplesmente copie o
-caminho: *D:\\Desenvolvimento\\projetos\\citsmart-corporativo\\branches\\desenvolvimento\\cit-grp-parent​*
+do **cit-grp-parent** dentro do workspace ou simplesmente copie o
+caminho: **D:\\Desenvolvimento\\projetos\\citsmart-corporativo\\branches\\desenvolvimento\\cit-grp-parent**
 
 9.7 Os projetos que foram adicionados ao workspace durante o processo de
 "Checkout" do SVN estarão disponíveis.  
@@ -339,7 +339,7 @@ opção "Run as" \> "Maven install...".
 
 
 9.12 Repita o passo 9.6 para o seguite
-diretório: *D:\\Desenvolvimento\\projetos\\citsmart-grp-modules\\branches\\desenvolvimento\\cit-suite*  
+diretório: **D:\\Desenvolvimento\\projetos\\citsmart-grp-modules\\branches\\desenvolvimento\\cit-suite**  
 9.13 O projeto cit-suite é a raiz dos modulos cit-grp. Em seguida execute o
 maven install (conforme o passo 9.11) para o projeto cit-suite que no eclipse
 aparece como citsmart-grp-modules.
@@ -348,7 +348,7 @@ aparece como citsmart-grp-modules.
 
 10 Para o projeto cit-esi é preciso um broker JMS para as filas de
 mensagens. **Este passo só é obrigatório para os casos onde o desenvolvedor fará
-deploy deste projeto.**
+deploy deste projeto**.
 
 10.1 Se você fez o download da pasta do ambiente de desenvolvimento informada no
 tópico 2 (caso contrário baixe o serviço em:
@@ -356,7 +356,7 @@ tópico 2 (caso contrário baixe o serviço em:
 desenvolvimento\\Desenvolvimento\\tools\\apache-activemq-5.11.1.rar), deve ter
 na estrutura de
 diretórios */Desenvolvimento\\tools\\apache-activemq-5.11.1\\bin\\win64* execute
-o script: **InstallService.bat **como administrador.
+o script: **InstallService.bat** como administrador.
 
 será aberto um prompt de comandos, instalado o serviço e fechado rapidamente.
 
@@ -392,7 +392,7 @@ Corporativo
 ├── cit-core  
 └── cit-esi-io  
   
-O projeto **cit-grp-parent **abriga exclusivamente as configurações gerais de
+O projeto **cit-grp-parent** abriga exclusivamente as configurações gerais de
 build e plugins para ambos repositórios (corporativo e Citsmart-grp). Já o
 pom.xml que está na raiz abriga as configurações dos projetos filhos contidos
 neste repositório assim como dependências gerais que devam ser herdadas por
@@ -444,7 +444,7 @@ Citsmart-GRP
 
 Note que para cada módulo existe um agrupador com seus respectivos sub-módulos
 "...api" e "...web". Cada módulo agrupador é filho do módulo agrupador
-master **deste repositório. **Assim é possível construir cada módulo
+master **deste repositório**. Assim é possível construir cada módulo
 independentemente.  
 O projeto agrupador **cit-grp-modules** contém propriedades e configurações
 específicas dos projetos deste repositório.  
@@ -475,17 +475,17 @@ foi configurado) para a documentação.
 
 Os plugins configurados para o build dos projetos Citsmart-GRP são:
 
--   **maven-resources-plugin;**
+-   **maven-resources-plugin**;
 
--   **maven-jar-plugin;**
+-   **maven-jar-plugin**;
 
--   **maven-compiler-plugin;**
+-   **maven-compiler-plugin**;
 
--   **maven-war-plugin;**
+-   **maven-war-plugin**;
 
 -   maven-source-plugin;
 
--   **maven-dependency-plugin;**
+-   **maven-dependency-plugin**;
 
 -   jacoco-maven-plugin;
 
@@ -495,17 +495,17 @@ Os plugins configurados para o build dos projetos Citsmart-GRP são:
 
 -   native2ascii-maven-plugin;
 
--   **versions-maven-plugin;**
+-   **versions-maven-plugin**;
 
--   **maven-license-plugin;**
+-   **maven-license-plugin**;
 
--   **maven-antrun-plugin;**
+-   **maven-antrun-plugin**;
 
--   **minify-maven-plugin;**
+-   **minify-maven-plugin**;
 
 -   findbugs-maven-plugin;
 
--   **lifecycle-mapping.**
+-   **lifecycle-mapping**.
 
 Todos os plugins citados acima são importantes para o projeto, etretanto, os que
 estão em negrito são os mais utilizados e que merecem atenção especial. Como
@@ -520,7 +520,7 @@ profile dev é ativado por padrão em todos os builds. Cada perfil define
 propriedades específicas para cada ambiente e estas propriedades é que são
 usadas para a filtragem (filtering) dos tokens (placeholders \${} ) do maven em
 arquivos. Os únicos arquivos que **não são filtrados pelo maven** são os de
-extensão **.xml. **Isso se deve ao fato de que o spring possui uma configuração,
+extensão **.xml**. Isso se deve ao fato de que o spring possui uma configuração,
 no arquivo application-context-base.xml e no arquivo web.xml de cada módulo,
 para injetar as propriedades encontradas no arquivo cit-app.properties em tempo
 de execução na aplicação e usa o mesmo token do maven (\${}).
@@ -529,13 +529,13 @@ de execução na aplicação e usa o mesmo token do maven (\${}).
 processo de buid como profile **prod**, Quando acessada, a aplicação irá busca
 apenas estes tipos de arquivos.
 
-Isso significa que se você encontrar o token **\${} **em algum arquivo .xml quem
+Isso significa que se você encontrar o token **\${}** em algum arquivo .xml quem
 vai substituir essa informação é o Spring. Significa também que se o token for
 adicionado em algum arquivo .java e a chave da propriedade **for a
 mesma** definida em algum profile no pom.xml do projeto o maven vai substituir e
 o spring não vai conseguir ler e injetar o valor da propriedade em tempo de
 execução ocasionando RuntimeException. Exemplo: no profile dev do pom.xml do
-parent existe a propriedade *\<log4j.level\>debug\</log4j.level\> *se essa mesma
+parent existe a propriedade *\<log4j.level\>debug\</log4j.level\>* se essa mesma
 propriedade for adicionada em alguma classe java para que o spring use o maven
 vai substituir e o spring não conseguirá injetar o valor. Então é importante que
 as propriedades a serem usadas pelo spring e maven **não possuam o mesmo nome**.
@@ -554,20 +554,20 @@ comandos maven que devem ser executados para os casos desta publicação especia
 É uma exigência da sede que todos as entregas dos binários estejam acompanhadas
 dos códigos fontes, para este caso não existe segredo. Basta copiar os
 diretórios dos projetos ou pegar os artefatos gerados com o comando **"mvn
-install"** na pasta target com o nome: **"...sources.jar", **estes jars
+install"** na pasta target com o nome: **"...sources.jar"**, estes jars
 simplesmente compactam o código fonte como estão na estrutura de diretórios.
 
 Para o portal do software público é uma exigência que os códigos fontes possuam
 cabeçalhos de licença de código livre GLP V2. Com o
-plugin **maven-license-plugin **esta tarefa outrora árdua, se torna extremamente
+plugin **maven-license-plugin** esta tarefa outrora árdua, se torna extremamente
 simples.
 
-Basta com que à partir dos projetos **cit-grp-parent** no repositório
-corporativo e no projeto **cit-grp-modules **no repositório Citsmart-GRPexecute
-o comando: *mvn license:format *assim todos os projetos filhos dentro dos seus
+Basta com que a partir dos projetos **cit-grp-parent** no repositório
+corporativo e no projeto **cit-grp-modules** no repositório Citsmart-GRPexecute
+o comando: **mvn license:format** assim todos os projetos filhos dentro dos seus
 respectivos repositório serão adicionados os cabeçalhos de licença.
 
-O cabeçalho template está no diretório *\\cit-grp-parent\\src\\licensing​ . *É
+O cabeçalho template está no diretório **\\cit-grp-parent\\src\\licensing**. É
 importante salientar que os arquivos pom.xml também deve conter o cabeçalho de
 licença, mas o plugin não consegue inserir os cabeçalhos nestes arquivos pois
 estão carregados em memória durante a execução do plugin desta forma, nestes
@@ -575,12 +575,12 @@ arquivos específicamente, **devem ser adicionados manualmente**. Atualmente, e
 todos os pom.xml já estão adicionados esses cabeçalhos e commitados.
 
 A cada entrega é preciso incrementar o número das versões dos artefatos. Para
-fazer isto, basta executar o plugin *versions-maven-plugin.*
+fazer isto, basta executar o plugin **versions-maven-plugin**.
 
 Siga os seguintes passos:
 
-1.  Vá no projeto cit-grp-parent e execute o comando: *mvn versions:set
-    -DnewVersion=0.0.7-BETA versions:commit clean install*onde o campo marcado
+1.  Vá no projeto cit-grp-parent e execute o comando: **mvn versions:set
+    -DnewVersion=0.0.7-BETA versions:commit clean install** onde o campo marcado
     em vermelho deve ser alterado para versão desejada.
 
 2.  Vá no projeto cit-grp-modules e execute os comandos:
@@ -592,8 +592,8 @@ Siga os seguintes passos:
     -   **mvn clean install**
 
 É importante notar que a versão a ser definida nos projetos filhos do
-projeto **cit-grp-modules **devem **ser a mesma** definida no** projeto
-cit-grp-parent.**  
+projeto **cit-grp-modules** devem **ser a mesma** definida no **projeto
+cit-grp-parent**.  
 Se o build ocorreu com sucesso então os binários estão prontos para serem
 publicados.
 
