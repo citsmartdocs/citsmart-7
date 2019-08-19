@@ -457,7 +457,7 @@ do CDI. As URL seguem abaixo:
 
 Escolha o método de autenticação desejado e faça o download. Antes de publicar
 no JBoss é necessário fazer a configuração de conexão com seu banco ou com o
-LDAP. Para isto, edite o arquio *cas.properties *localizado dentro do .war no
+LDAP. Para isto, edite o arquio *cas.properties* localizado dentro do .war no
 seguinte caminho:
 
 -   **cas-db-1.0.0-RELEASE.war\\WEB-INF\\cas.properties**
@@ -563,7 +563,7 @@ são no total 295 tabelas:
   
 Com as tabelas criadas a aplicação CIT-GRP pode ser acessada via browser através
 da
-URL: [http://localhost:8080/cit-portal-web](http://localhost:8080/cit-portal-web/)* .*  
+URL: **[http://localhost:8080/cit-portal-web](http://localhost:8080/cit-portal-web/)**.  
 Note que como ativamos o protocolo HTTPS, o próprio Jboss deve redirecionar a
 aplicação para a porta correta, caso isto não aconteça, altere o acesso para a
 seguinte URL: *https://localhot:8443/cit-portal-web*  
