@@ -100,7 +100,7 @@ pool-name="/env/jdbc/cit-portal" enabled="true" use-java-context="true"\>
 Os campos destacados devem ser revisados e alterados de acordo com as
 configurações do servidor do banco de dados.   
 Caso o Postgres esteja em uma máquina diferente da máquina que está instalado o
-Jboss deve-se substituir, no campo *url, *o ip do servidor do postgres.  
+Jboss deve-se substituir, no campo **url**, o ip do servidor do postgres.  
 Os campos **user-name** e **password** devem ser alterados de acordo com as
 configurações do banco de dados.
 
