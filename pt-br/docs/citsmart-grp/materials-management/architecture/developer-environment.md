@@ -42,6 +42,7 @@ no botão "Nova";
 
 4.6. Na janela "Variáveis de Ambiente", no grupo "Variáveis de Sistema" clicar
 no botão "Nova";
+
 4.7. Na janela "Nova Variável do Sistema", digitar:
 
 -   No campo "Nome da Variável": **CLASSPATH**
