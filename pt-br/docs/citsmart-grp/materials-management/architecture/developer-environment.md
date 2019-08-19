@@ -263,7 +263,7 @@ checkout primeiro do citsmart-grp. Siga os passos abaixo:
 8. Abra o
 diretório *D:\\desenvolvimento\\projetos\\citsmart-grp-modules\\branches\\desenvolvimento*
 
-8.1 Clique com o direito na área da pasta e vá na opção: *SVN Checkout...*
+8.1 Clique com o direito na área da pasta e vá na opção: **SVN Checkout...**
 
 8.2 Na tela que se segue adicione no campo **URL Repository** o
 valor: [https://citdfsrv013.cit.local:8443/svn/Citsmart-GRP/branches/desenvolvimento](https://citdfsrv013.cit.local:8443/svn/Citsmart-GRP/branches/desenvolvimento)  
@@ -271,7 +271,7 @@ valor: [https://citdfsrv013.cit.local:8443/svn/Citsmart-GRP/branches/desenvolvi
 8.3 No campo **Checkout Directory** adicione o
 valor: *D:\\desenvolvimento\\projetos\\citsmart-grp-modules\\branches\\desenvolvimento*
 
-8.4 Ao clicar em *OK *será iniciado o download do código-fonte. No término será
+8.4 Ao clicar em *OK* será iniciado o download do código-fonte. No término será
 exibido a mensagem de sucesso:
 
 Faça o checkout do repositório corporativo de modo semelhante ao passo anterior,
