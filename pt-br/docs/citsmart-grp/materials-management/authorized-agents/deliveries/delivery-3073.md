@@ -80,3 +80,9 @@ Description: Documento de entrega ADM Materiais 3.0.7.3
 
 3.  Salvar o log da execução dos scripts no banco de dados para que eventuais
     imprevistos possam ser devidamente tratados
+
+
+!!! tip "About"
+
+    <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
+    <b>Updated:</b>08/16/2019 – Anna Martins
