@@ -145,17 +145,17 @@ token safeNet e instalar na máquina.
 4.  Acessar no Chrome a url *chrome://extensions/* em seguida habilitar o **Modo
     do desenvolvedor:** 
 
-5.  Após habilitar o **Modo do desenvolver **no Chrome clique no
-    botão **Carregar extensão expandida... **para realizar a instalação da
+5.  Após habilitar o **Modo do desenvolver** no Chrome clique no
+    botão **Carregar extensão expandida...** para realizar a instalação da
     extensão do Chrome.
 
-6.  Ao clicar no botão **Carregar extensão expandia... **surgirá a
+6.  Ao clicar no botão **Carregar extensão expandia...** surgirá a
     janela **Procurar pasta**, selecione o diretório que foi criado após a
     extração do arquivo citsmart-assinatura-extension.zip e clique no
     botão **OK**, finalizando assim a instalação da exntensão.
 
 7.  Finalizada a instalação da extensão do Chorme deve-se inserir o
-    parâmetro **ecm.signature.chromeExtensionId **no arquivo cit-app.properties,
+    parâmetro **ecm.signature.chromeExtensionId** no arquivo cit-app.properties,
     que encontra-se no
     diretório **JBOSS_HOME**\\modules\\system\\layers\\base\\br\\com\\citsmart-grp\\main\\cit-app.properties.
     O valor a ser informado a este parâmetro é o ID gerado pelo Chrome após a
