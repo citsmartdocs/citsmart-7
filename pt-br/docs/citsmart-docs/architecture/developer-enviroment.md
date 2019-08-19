@@ -32,8 +32,8 @@ arquivo **JBOSS_HOME**\\modules\\br\\com\\citsmart-grp\\main\\cit-app.propertie
 -   ecm.dir.encryptedKeyFile : Path do arquivo key.encrypt
 
 ​4. Para a realização da criptografia do documento será necessário fazer download
-do **UnlimitedJCEPolicyJDK7** no endereço **: **[Java Cryptography
-Extension](http://www.oracle.com/technetwork/pt/java/javase/downloads/jce-7-download-432124.html)
+do **UnlimitedJCEPolicyJDK7** no endereço: **[Java Cryptography
+Extension](http://www.oracle.com/technetwork/pt/java/javase/downloads/jce-7-download-432124.html)**
 
 5. Descompactar o arquivo, copiar os arquivos local_policy.jar e
 US_export_policy.jar​​ para o diretorio: \\Java\\jdk1.7.0_71\\jre\\lib\\security​​​
