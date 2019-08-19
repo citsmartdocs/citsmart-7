@@ -455,3 +455,254 @@ Bibliotecas utilizadas
 |        hamcrest-all        |                Hamcrest All                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        A self-contained hamcrest jar containing all of the sub-modules in a single artifact.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                                                                                                                                                                                                                       1.3                                                                                                                                                                                                                       |                                         |                                                          |  300 KB |                                      BSD License                                     |                                       http://central.maven.org/maven2/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar                                      |
 |       fixture-factory      |               Fixture-factory              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           Generator to create fake objects from a template                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                      3.0.0                                                                                                                                                                                                                      |                                         |        https://github.com/six2six/fixture-factory        |  60 KB  |                       The Apache Software License, Version 2.0                       |                                 http://central.maven.org/maven2/br/com/six2six/fixture-factory/3.0.0/fixture-factory-3.0.0.jar                                |
 |            gson            |                    Gson                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Gson is a Java library that can be used to convert Java Objects into their JSON representation. It can also be used to convert a JSON string to an equivalent Java object. Gson can work with arbitrary Java objects including pre-existing objects that you do not have source-code of.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |                                                                                                                                                                                                                       2.3                                                                                                                                                                                                                       |               Google, Inc.              |           http://code.google.com/p/google-gson/          |  203 KB |                       The Apache Software License, Version 2.0                       |                                           http://central.maven.org/maven2/com/google/code/gson/gson/2.3/gson-2.3.jar                                          |
+
+
+**Tabela 6**
+
+
+Ferramentas e frameworks
+------------------------
+
+**JAVADOC**
+
+JavaDoc é uma ferramenta para a criação de documentação de pacotes, classes,
+atributos e métodos Java a partir do processamento do código fonte com
+comentários em formato adequado.  
+Os comentários para javadoc devem ser iniciados por **/\*\*** e encerrados
+por **\*/**, podendo incluir diretrizes sobre o que deve ser incluído na
+documentação gerada (em HTML).​  
+De maneira geral o JavaDoc fornece uma linguagem específica para enriquecer os
+comentários que introduzem classes, atributos e métodos. Seu funcionamento
+baseia-se na inserção de textos explicativos em forma de um comentário especial,
+que antecedem um escopo de uma classe ou método, tendo assim, a responsabilidade
+de apresentar o mesmo.  
+  
+​Podemos combinar tags da própria especificação HTML, com as tags oferecidas pelo
+JavaDoc, tornando possível à criação de documentos completos gerados a partir
+dos comentários do próprio código.​
+
+**Tags**
+
+​  
+Com as tags podemos especificar, por exemplo, o autor, a versão, links, data,
+exceções lançadas, lista de argumentos de um método e tipo de retorno de um
+método.  
+​Essas tags são inseridas dentro do bloco de comentários, antecedidas pelo
+carctetre **\@ (arroba)**, e após o nome da própria tag, inseri-se o conteúdo
+desejado.
+
+
+|     Tag     |                                                                         Significado                                                                        |
+|:-----------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|   @author   |                                                    Especifica o autor da classe ou do método em questão.​                                                   |
+| @deprecated​ | Identifica classes ou métodos obsoletos. É interessante informar nessa tag, quais métodos ou classes podem ser usadas como alternativa ao método obsoleto.​ |
+|    ​@link    |                                Possibilita a definição de um link para um outro documento local ou remoto através de um URL.​                               |
+|    ​​@param   |                                                      Mostra um parâmetro que será passado a um método.​                                                     |
+|   @return​   |                                                         Mostra qual o tipo de retorno de um método.​                                                        |
+|     ​@see    |   Possibilita a definição referências de classes ou métodos, que podem ser consultadas para melhor compreender a​ idéia daquilo que está sendo comentada.​​   |
+|    ​@since​   |                                           Indica desde quando uma classe ou métodos foi adicionado na aplicação.                                           |
+|   @throws​   |                                              Indica os tipos de exceções que podem ser lançadas por um método.                                             |
+|   ​@version  |                                                                 Informa a versão da classe​                                                                 |
+
+
+**Tabela 7**
+
+
+**Utilizando template de documentação(JavaDoc)**
+
+-   Para utilizar o template de documentação(JAVA DOC) utilize os seguintes
+    atalhos​
+
+    -   Para documentação de classe, métodos e atributos – **Alt + Shift + J**
+
+    -   Para documentação de métodos getters e setters sendo gerado automático,
+        marque a opção (*[x] Generate method comments*).​
+
+​
+
+-   Para utilizar da formatação padrão definida utilize o atalho **Ctrl + Shift
+    + F**
+
+-   Nas classes e métodos coloque a iniciativa e regra de negócio concatenando
+    se já existir alguma.​
+
+EXEMPLO JAVADOC
+
+package br.com.centralit.framework.model;
+
+import javax.persistence.Entity;  
+import javax.persistence.FetchType;  
+import javax.persistence.GeneratedValue;  
+import javax.persistence.GenerationType;  
+import javax.persistence.Id;  
+import javax.persistence.ManyToOne;  
+import javax.persistence.Table;  
+import javax.persistence.Transient;
+
+import org.springframework.security.core.GrantedAuthority;
+
+import br.com.centralit.framework.model.arquitetura.PersistentObjectAudit;
+
+/\*\*  
+\*
+
+\* 
+
+\*
+
+\* **Company: **Central IT - Governança Corporativa -
+
+\*
+
+\* **Title: **Classe UsuarioPrivilegio
+
+\*
+
+\* **Description: **Classe de dóminio responsável por definir provilégios ao
+usuário
+
+\*
+
+\* **Iniciativa(s):** [NUMERO_INICIATIVA](http://portalcdi.centralit.com.br/sites/filialgoiania/arquitetura/wikiclportal/LINK_PORTAL)
+
+\*
+
+\* **Regra(s) de
+negócio:** [NUMERO_REGRA_DE_NEGOCIO](http://portalcdi.centralit.com.br/sites/filialgoiania/arquitetura/wikiclportal/LINK_PORTAL) \*  
+\*   
+\* \@since 18/11/2014 - 16:25:52  
+\*   
+\* \@version 1.0.0  
+\*   
+\* \@author wilker.machado  
+\*   
+\*/  
+\@Entity  
+\@Table(name = "seguranca_usuario_privilegio")  
+public class UsuarioPrivilegio extends PersistentObjectAudit implements
+GrantedAuthority {  
+  
+/\*\* Atributo serialVersionUID. \*/  
+private static final long serialVersionUID = -8503052269804529123L;  
+  
+/\*\* Atributo id. \*/  
+\@Id  
+\@GeneratedValue(strategy = GenerationType.IDENTITY)  
+private Long id;  
+  
+/\*\* Atributo usuario. \*/  
+\@ManyToOne(fetch = FetchType.LAZY)  
+private Usuario usuario;  
+  
+/\*\* Atributo privilegio. \*/  
+\@ManyToOne(fetch = FetchType.LAZY)  
+private Privilegio privilegio;  
+  
+/\*\*  
+\* Responsável pela criação de novas instâncias desta classe.  
+\*/  
+public UsuarioPrivilegio() {  
+  
+}  
+  
+/\*\*  
+\* Responsável pela criação de novas instâncias desta classe.  
+\*   
+\* \@param usuario  
+\* \@param privilegio  
+\*/  
+public UsuarioPrivilegio( Usuario usuario, Privilegio privilegio ) {  
+  
+super();  
+this.usuario = usuario;  
+this.privilegio = privilegio;  
+}  
+  
+/\*\*  
+\* Retorna o valor do atributo id  
+\*   
+\* \@return Long  
+\*/  
+public Long getId() {  
+  
+return id;  
+}  
+  
+/\*\*  
+\* Define o valor do atributo id.  
+\*   
+\* \@param id  
+\*/  
+public void setId(Long id) {  
+  
+this.id = id;  
+}  
+  
+/\*\*  
+\* Retorna o valor do atributo usuario  
+\*   
+\* \@return Usuario  
+\*/  
+public Usuario getUsuario() {  
+  
+return usuario;  
+}  
+  
+/\*\*  
+\* Define o valor do atributo usuario.  
+\*   
+\* \@param usuario  
+\*/  
+public void setUsuario(Usuario usuario) {  
+  
+this.usuario = usuario;  
+}  
+  
+/\*\*  
+\* Retorna o valor do atributo privilegio  
+\*   
+\* \@return Privilegio  
+\*/  
+public Privilegio getPrivilegio() {  
+  
+return privilegio;  
+}  
+  
+/\*\*  
+\* Define o valor do atributo privilegio.  
+\*   
+\* \@param privilegio  
+\*/  
+public void setPrivilegio(Privilegio privilegio) {  
+  
+this.privilegio = privilegio;  
+}  
+  
+/\*\*  
+\*   
+\* Método responsável por retornar o nome do privilégio  
+\*   
+\* \@author wilker.machado  
+\*   
+\* \@return the name property (getAuthority required by Acegi's GrantedAuthority
+interface)  
+\* \@see org.springframework.security.core.GrantedAuthority\#getAuthority()  
+\*/  
+\@Transient  
+public String getAuthority() {  
+  
+return privilegio.getNome();  
+}
+
+}
+
+
+
+!!! tip "About"
+
+    <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
+    <b>Updated:</b>08/19/2019 – Anna Martins
+
+
+
+
