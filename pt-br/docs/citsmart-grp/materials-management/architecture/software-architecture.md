@@ -214,13 +214,13 @@ forma:
 A diretiva poderá validar campo obrigatório, tamanho, tipo e-mail, aplicar
 máscara.
 
-|      NOME ARQUIVO      |                                     LOCALIZAÇÃO                                    |   INCLUDE HTML  |                                                                                           EXEMPLO                                                                                           |                                                                                                        DIRETIVA                                                                                                        |
+|      NOME ​ARQUIVO      |                                     ​LOCALIZAÇÃO                                    |   INCLUDE HTML  |                                                                                           EXEMPLO                                                                                           |                                                                                                        ​DIRETIVA                                                                                                        |
 |:----------------------:|:----------------------------------------------------------------------------------:|:---------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| LabelInputDirective.js | /cit-portal-web/src/main/webapp/assets/js-angular/directive/LabelInputDirective.js | <label-input /> | ...<label-input ng-id="exemplo.nome" ng-type="text" ng-obrigatorio='true' ng-label="LABEL.PORTADOR" ng-model="exemplo.nome" ng-disabled="false" ng-maxlength="10" form="formPortador"/>.... | require: ['^ngModel'],scope : {id : "@ngId",label : "@ngLabel",obrigatorio : "=ngObrigatorio",disabled : "=ngDisabled",model : "=ngModel",mask : "=ngMask",maxlength : "=ngMaxlength",form : "=form",type : "@ngType"} |
+| LabelInputDirective.js | ​/cit-portal-web/src/main/webapp/assets/js-angular/directive/LabelInputDirective.js | <label-input /> | ...<label-input ng-id="exemplo.nome" ng-type="text" ng-obrigatorio='true' ng-label="LABEL.PORTADOR" ng-model="exemplo.nome" ng-disabled="false" ng-maxlength="10" form="formPortador"/>....​ | ​require: ['^ngModel'],scope : {id : "@ngId",label : "@ngLabel",obrigatorio : "=ngObrigatorio",disabled : "=ngDisabled",model : "=ngModel",mask : "=ngMask",maxlength : "=ngMaxlength",form : "=form",type : "@ngType"} |
 
 **Tabela 3**
 
-Componentes smart - diretiva label input money
+Componentes Smart - Diretiva label input money
 ----------------------------------------------
 
 Foi criada uma diretiva de "Label Input Money", que permite ao desenvolvedor
