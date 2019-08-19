@@ -308,8 +308,7 @@ procedimentos:
     -   ecm.dir.encryptedKeyFile=Path do arquivo/key.encrypt
 
 -   Fazer download do **UnlimitedJCEPolicyJDK7** no endereço : **[Java
-    Cryptography**
-    Extension](http://www.oracle.com/technetwork/pt/java/javase/downloads/jce-7-download-432124.html)
+    Cryptography Extension](http://www.oracle.com/technetwork/pt/java/javase/downloads/jce-7-download-432124.html)**
 
 -   Descompactar o arquivo **UnlimitedJCEPolicyJDK7**, copiar os arquivos
     local_policy.jar e US_export_policy.jar para o diretorio:
