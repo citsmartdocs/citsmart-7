@@ -1,8 +1,7 @@
 title: Documento de entrega GRP Docs 2.1.1.0 e COR 3.1.5.0
-
 Description: Documento de entrega GRP Docs 2.1.1.0 e COR 3.1.5.0
 
-\# Documento de entrega GRP Docs 2.1.1.0 e COR 3.1.5.0
+# Documento de entrega GRP Docs 2.1.1.0 e COR 3.1.5.0
 
 -   **Nome da Solução**: CITSmart Enterprise GRP Docs
 
