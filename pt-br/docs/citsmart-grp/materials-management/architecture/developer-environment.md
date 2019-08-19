@@ -280,7 +280,7 @@ alterando a URL e o diretório dos projetos:
 8.5 Abra o
 diretório: **D:\\desenvolvimento\\projetos\\citsmart-corporativo\\branches\\desenvolvimento**  
 8.6 Repita o passo **8.1**  
-8.7 Na* *tela que se segue adicione no campo **URL Repository** o
+8.7 Na tela que se segue adicione no campo **URL Repository** o
 valor: [https://citdfsrv013.cit.local:8443/svn/citsmart-corporativo/branches/desenvolvimento](https://citdfsrv013.cit.local:8443/svn/citsmart-corporativo/branches/desenvolvimento)  
 8.8 No campo *Checkout Directory *adicione o
 valor: **D:\\desenvolvimento\\projetos\\citsmart-corporativo\\branches\\desenvolvimento**  
@@ -304,7 +304,7 @@ Abra o Eclipse. Vá em Window \> Preferences \> Java \> Code Style \> Clean Up
 
 -   Importe o arquivo java-code-templates.xml
 
-    -   Marque a opção (*[x] Automatically add comments ...*)
+    -   Marque a opção (**[x] Automatically add comments ...**)
 
 -   Depois vá em Window \> Preferences \> Java \> Code Style \> Formatter
 
@@ -441,7 +441,7 @@ Citsmart-GRP
 \| └── cit-esi-listener-web  
 └── cit-monitor-es  
 ├── cit-monitor-es-api  
-└── cit-monitor-es-web​
+└── cit-monitor-es-web
 
 Note que para cada módulo existe um agrupador com seus respectivos sub-módulos
 "...api" e "...web". Cada módulo agrupador é filho do módulo agrupador
@@ -603,7 +603,3 @@ publicados.
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
     <b>Updated:</b>08/19/2019 – Anna Martins
-
-
-
-
