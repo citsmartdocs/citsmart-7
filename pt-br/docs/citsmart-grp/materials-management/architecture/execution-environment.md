@@ -425,7 +425,7 @@ Insira a senha para o certificado (sugerido): 123456
      
    Para listar o certificado importado, use o comando:
 
--   **Windows**:* keytool -keystore cacerts -list \| find "grp"*
+-   **Windows**: *keytool -keystore cacerts -list \| find "grp"*
 
 -   **Linux**: *keytool -keystore cacerts -list \| grep grp*
 
@@ -450,10 +450,10 @@ CAS, uma para cada método de autenticação, encontra-se publicada no Artifacto
 do CDI. As URL seguem abaixo:
 
 -   CAS para autenticação via banco de
-    dados: [http://ferramentasgo.centralit.com.br:8092/artifactory/builds-release-grp/org/jasig/cas/cas-server-webapp/3.5.2/cas-db-1.0.0-RELEASE.war​](http://ferramentasgo.centralit.com.br:8092/artifactory/builds-release-grp/org/jasig/cas/cas-server-webapp/3.5.2/cas-db-1.0.0-RELEASE.war)
+    dados: [http://ferramentasgo.centralit.com.br:8092/artifactory/builds-release-grp/org/jasig/cas/cas-server-webapp/3.5.2/cas-db-1.0.0-RELEASE.war](http://ferramentasgo.centralit.com.br:8092/artifactory/builds-release-grp/org/jasig/cas/cas-server-webapp/3.5.2/cas-db-1.0.0-RELEASE.war)
 
 -   CAS para autenticação via
-    LDAP: [http://ferramentasgo.centralit.com.br:8092/artifactory/builds-release-grp/org/jasig/cas/cas-server-webapp/3.5.2/cas-ldap-1.0.0-RELEASE.war​](http://ferramentasgo.centralit.com.br:8092/artifactory/builds-release-grp/org/jasig/cas/cas-server-webapp/3.5.2/cas-ldap-1.0.0-RELEASE.war)
+    LDAP: [http://ferramentasgo.centralit.com.br:8092/artifactory/builds-release-grp/org/jasig/cas/cas-server-webapp/3.5.2/cas-ldap-1.0.0-RELEASE.war](http://ferramentasgo.centralit.com.br:8092/artifactory/builds-release-grp/org/jasig/cas/cas-server-webapp/3.5.2/cas-ldap-1.0.0-RELEASE.war)
 
 Escolha o método de autenticação desejado e faça o download. Antes de publicar
 no JBoss é necessário fazer a configuração de conexão com seu banco ou com o
@@ -520,16 +520,16 @@ acordo com o sistema operacional:
 -   **Windows**
 
     -   Para executar em modo console (dentro do prompt de comandos) execute
-        o *scritp: apache-activemq-5.11.1\\bin\\activemq.bat;*
+        o **scritp: apache-activemq-5.11.1\\bin\\activemq.bat;**
 
     -   Para instalar o serviço execute o
-        script: *apache-activemq-5.11.1\\bin\\win64\\InstallService.bat* em modo
+        script: **apache-activemq-5.11.1\\bin\\win64\\InstallService.bat** em modo
         administrador;
 
 -   **Linux**
 
-    -   Execute navegue até o diretório: *apache-activemq-5.11.1\\bin* e execute
-        o comando: *./activemq start & *(OBS.: crie um script com prermissão de
+    -   Execute navegue até o diretório: **apache-activemq-5.11.1\\bin** e execute
+        o comando: **./activemq start &** (OBS.: crie um script com prermissão de
         execução no diretório /etc/init.d que execute o comando citado neste
         tópico, desta forma será iniciado o serviço todas as vezes que o
         servidor for reiniciado).
