@@ -154,7 +154,7 @@ Corporativo
 mvn clean install dentro da pasta cit-grp-parent​
 (\\cit-grp-corporativo\\cit-grp-parent)
 
-Componentes smart - filtro
+Componentes Smart - filtro
 --------------------------
 
 Foi criado uma diretiva de "Filtro", que permite ao desenvolvedor adicioná-la
@@ -170,7 +170,7 @@ favorita ou não.
 
 **Tabela 1**
 
-Componentes smart - diretiva favorito
+Componentes Smart - Diretiva favorito
 -------------------------------------
 
 Foi criada uma diretiva de "Favorito", que permite ao desenvolvedor adicioná-la
@@ -192,7 +192,7 @@ no *AppController.js "addFavorito"* que faz o papel de favoritar/desfavoritar.
 
 |     NOME ARQUIVO     |                                    LOCALIZAÇÃO                                   | INCLUDE HTML |                                                                                                        EXEMPLO                                                                                                       |
 |:--------------------:|:--------------------------------------------------------------------------------:|:------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| FavoritoDirective.js | /cit-portal-web/src/main/webapp/assets/js-angular/directive/FavoritoDirective.js | <favorito /> | <div id="breadcrumbs" class="breadcrumbs"><ul class="breadcrumb"><li><i class="ace-icon fa fa-home home-icon"></i><a href="#">Home</a></li><li class="active"><favorito /> </li></ul></div><!-- #breadcrumbs -->.... |
+| FavoritoDirective.js | /cit-portal-web/src/main/webapp/assets/js-angular/directive/FavoritoDirective.js |  favorito /  | <div id="breadcrumbs" class="breadcrumbs"><ul class="breadcrumb"><li><i class="ace-icon fa fa-home home-icon"></i><a href="#">Home</a></li><li class="active"><favorito /> </li></ul></div><!-- #breadcrumbs -->.... |
 
 **Tabela 2**
 
