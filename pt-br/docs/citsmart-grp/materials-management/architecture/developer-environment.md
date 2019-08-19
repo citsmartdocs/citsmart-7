@@ -23,7 +23,7 @@ instalar o Java "jdk-7u71-windows-x64" presente em
 O caminho de destino da instalação deve ser "**D:\\desenvolvimento\\java**". A
 versão pdrão utilizada é a 1.7.0.71.  
   
-4.1. Após a instalação do JDK, é necessário configurar as variáveis de ambiente.​  
+4.1. Após a instalação do JDK, é necessário configurar as variáveis de ambiente.  
 4.2. Clicar no Menu Iniciar \> Configurações \> Painel de Controle \> Sistema;  
   
 4.3. Na janela do "Sistema" selecionar a opção "Configurações Avançadas do
