@@ -192,7 +192,7 @@ no *AppController.js "addFavorito"* que faz o papel de favoritar/desfavoritar.
 
 |     NOME ARQUIVO     |                                    LOCALIZAÇÃO                                   | INCLUDE HTML |                                                                                                        EXEMPLO                                                                                                       |
 |:--------------------:|:--------------------------------------------------------------------------------:|:------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| FavoritoDirective.js | /cit-portal-web/src/main/webapp/assets/js-angular/directive/FavoritoDirective.js |  favorito /  | <div id="breadcrumbs" class="breadcrumbs"><ul class="breadcrumb"><li><i class="ace-icon fa fa-home home-icon"></i><a href="#">Home</a></li><li class="active"><favorito /> </li></ul></div><!-- #breadcrumbs -->.... |
+| FavoritoDirective.js | /cit-portal-web/src/main/webapp/assets/js-angular/directive/FavoritoDirective.js |  favorito /  | '<div id="breadcrumbs" class="breadcrumbs"><ul class="breadcrumb"><li><i class="ace-icon fa fa-home home-icon"></i><a href="#">Home</a></li><li class="active"><favorito /> </li></ul></div><!-- #breadcrumbs -->....' |
 
 **Tabela 2**
 
