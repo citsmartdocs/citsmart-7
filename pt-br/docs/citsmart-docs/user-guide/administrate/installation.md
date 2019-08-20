@@ -281,7 +281,7 @@ Hora de abrir o listening no arquivo **/etc/postgresql/9.5/main/postgresql.conf
 
 Após as configurações, de um restart no postgresql.
 
-Servidor de JMS Apache Activemq
+Servidor de JMS Apache ActiveMQ
 -------------------------------
 
 ```sh
@@ -301,7 +301,7 @@ Configuração do CAS
 Faça o download dos arquivos de configuração em cas-config.tar.gz e descompacte
 em /etc/cas/config.
 
-Agora iremos configurar o **cas **para autenticação via banco de dados
+Agora iremos configurar o **cas** para autenticação via banco de dados
 PostgreSQL.
 
 ```sh
