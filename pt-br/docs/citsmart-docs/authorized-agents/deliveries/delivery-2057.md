@@ -92,7 +92,7 @@ ADM/PATR/ALM
 3.  **Executar o script anexado "cnt_migracao_materiais.sql" após atualizar o
     sistema e realizar o primeiro login**
     
-    !!! tip "About"
+!!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
     <b>Updated:</b>08/20/2019 – Anna Martins
