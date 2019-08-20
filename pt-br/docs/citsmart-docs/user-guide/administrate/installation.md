@@ -66,8 +66,9 @@ O ambiente de execução do **servidor de aplicação** Jboss deve possuir com
 requisitos mínimos:
 
 
-|             Máquina            |                     1 x GNU/Linux RedHat ou Debian (incluindo derivados)                     |
+|            Ambiente            |                                           Requisito                                          |
 |:------------------------------:|:--------------------------------------------------------------------------------------------:|
+|             Máquina            |                     1 x GNU/Linux RedHat ou Debian (incluindo derivados)                     |
 |             Memória            |                                           8 GB RAM                                           |
 |              Disco             | Disco: 50GB livre para a aplicação Disco: 1 TB livre para guarda de documentos (File System) |
 |          Processadores         |                                           4 (vCPU)                                           |
@@ -76,8 +77,9 @@ requisitos mínimos:
 
 O ambiente de execução do servidor Solr deve possuir como requisitos mínimos:
 
-|             Máquina            | 1 x GNU/Linux RedHat ou Debian (incluindo derivados) |
+|             Ambiente           |                      Requisito                       |
 |:------------------------------:|:----------------------------------------------------:|
+|             Máquina            | 1 x GNU/Linux RedHat ou Debian (incluindo derivados) |
 |             Memória            |                       2 GB RAM                       |
 |              Disco             |          Disco: 50GB livre para a aplicação          |
 |          Processadores         |                       1 (vCPU)                       |
@@ -86,8 +88,9 @@ O ambiente de execução do servidor Solr deve possuir como requisitos mínimos:
 
 O ambiente de execução do servidor ActiveMQ deve possuir como requisitos mínimos:
 
-|             Máquina            | 1 x GNU/Linux RedHat ou Debian (incluindo derivados) |
+|             Ambiente           |                      Requisito                       |
 |:------------------------------:|:----------------------------------------------------:|
+|             Máquina            | 1 x GNU/Linux RedHat ou Debian (incluindo derivados) |
 |             Memória            |                       2 GB RAM                       |
 |              Disco             |          Disco: 50GB livre para a aplicação          |
 |          Processadores         |                       1 (vCPU)                       |
