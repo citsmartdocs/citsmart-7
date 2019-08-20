@@ -130,7 +130,7 @@ com PostgreSQL):
 
     Todos os nossos arquivos citados neste documento podem ser baixados na área
     de download da CITSmart Corporation a partir do
-    link: [http://files.citsmart.com/][1].
+    link:[http://files.citsmart.com/][1].
 
 Servidor de JMS Apache Activemq
 -------------------------------
@@ -803,7 +803,7 @@ valor desejado, por exemplo: *52428800 *significa que a aplicação aceita upl
 de arquivos com tamanho de no máximo 50 mega bytes.
 
 
-[1]:http://files.citsmart.com/wildfly-10.1.0_postgres.tar.gz
+[1]://files.citsmart.com/wildfly-10.1.0_postgres.tar.gz
 
 !!! tip "About"
 
