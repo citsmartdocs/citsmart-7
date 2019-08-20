@@ -640,29 +640,29 @@ abaixo:
 
 1. Realize o download dos arquivos:
 
--   *cit-portal-web.war*
+    -  *cit-portal-web.war*
 
--   *cit-ecm-web.war*
+    -  *cit-ecm-web.war*
 
--   *cit-esi-web.war*
+    -  *cit-esi-web.war*
 
 2. Acesse o site, realize o login e clique na aba “Downloads”;
 
--   Será exibida uma página contendo os links para download dos arquivos
+    -  Será exibida uma página contendo os links para download dos arquivos
     necessários para atualização do Software Citsmart que são:
 
-    -   Documentação da versão;
+      -  Documentação da versão;
 
-    -   Versão do Citsmart Docs atualizado.
+      -  Versão do Citsmart Docs atualizado.
 
 3. Efetue o download de todos os arquivos citados acima;
 
--   Será exibida uma janela para realização do download do arquivo. A
+    -   Será exibida uma janela para realização do download do arquivo. A
     documentação no formato.pdf e o arquivo de atualização (.zip);
 
 4. Realize o download dos arquivos;
 
--   Os arquivos serão salvos no local de download padrão no computador;
+    -   Os arquivos serão salvos no local de download padrão no computador;
 
 5. Após conclusão do download, abra a pasta na qual os arquivos estão
 armazenados e descompacte os mesmos.
