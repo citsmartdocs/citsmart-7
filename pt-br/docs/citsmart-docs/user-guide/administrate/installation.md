@@ -105,7 +105,7 @@ Download
 Para execução do CITSmart DOCS, baixaremos os pacotes necessários conforme o
 procedimento relativo ao produto.
 
-Servidor de aplicação wildfly
+Servidor de aplicação Wildfly
 -----------------------------
 
 !!! tip "DICA"
