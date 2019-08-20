@@ -256,9 +256,9 @@ Após instalar o PostgreSQL precisamos criar a base de dados, usuário e senha.
 Observe o retorno dos comandos analisando a correta execução.
 
 ```sh
-Padrão:
+**Padrão**:
 host all all 127.0.0.1/32 md5
-Alterado:
+**Alterado**:
 host CITGRP_NAME_DB USER_DB IP_ Wildfly /32 md5
 ```
 
@@ -267,14 +267,13 @@ a conexão do Jboss para a database e usuário do citsmart. No final do arquivo
 altere as linhas:
 
 ```sh
-Padrão está comentado:
+**Padrão está comentado**:
 #listen_addresses = 'localhost'
 Alterado:
 listen_addresses = ‘0.0.0.0'
 ```
 
-Hora de abrir o listening no arquivo **/etc/postgresql/9.5/main/postgresql.conf
-.**
+Hora de abrir o listening no arquivo **/etc/postgresql/9.5/main/postgresql.conf.**
 
 ```sh
 # systemctl restart postgresql
