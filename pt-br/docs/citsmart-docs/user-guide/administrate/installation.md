@@ -98,9 +98,9 @@ O ambiente de execução do servidor ActiveMQ deve possuir como requisitos míni
 Download
 --------
 
->   !!! info "IMPORTANTE"
+!!! info "IMPORTANTE"
 
->   Recomendamos Red Hat, CentOS, Debian ou Ubuntu
+    Recomendamos Red Hat, CentOS, Debian ou Ubuntu
 
 Para execução do CITSmart DOCS, baixaremos os pacotes necessários conforme o
 procedimento relativo ao produto.
