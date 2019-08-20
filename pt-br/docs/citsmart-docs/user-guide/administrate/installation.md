@@ -573,7 +573,7 @@ Primeiro acesso
 Digite a URL https://127.0.0.1:8483/cit-portal-web.
 
 
-![figura][images/install-1.png]
+![figura](images/install-1.png)
 
 **Figura 1 - Tela inicial**
 
@@ -715,14 +715,14 @@ Caso ocorra alguma inconsistência durante a execução de scripts automática n
 sistema, será exibida uma tela, onde serão indicados os scripts com
 inconsistência, conforme abaixo:
 
-   ![figura][images/install-2.png]
+   ![figura](images/install-2.png)
 
   **Figura 2 - Tela de atualização do modelo de dados**
 
 Clique no botão **Visualizar scripts não executados** para visualizar os scripts
 no sistema:
 
-  ![figura][images/install-3.png]
+  ![figura](images/install-3.png)
   
   **Figura 3 - Tela de visualização dos scripts com erros**
 
@@ -730,7 +730,7 @@ Para realizar as tratativas dos scripts com inconsistência, clique no botão
 download, e será baixado um arquivo no formato csv contendo os scripts que não
 foram executados com sucesso:
 
-  ![figura][images/install-4.png]
+  ![figura](images/install-4.png)
   
   **Figura 4 - Arquivo csv com os scripts que serão executados**
 
