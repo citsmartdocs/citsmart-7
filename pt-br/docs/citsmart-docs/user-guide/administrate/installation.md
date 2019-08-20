@@ -3,7 +3,7 @@ Description: Esse guia prático visa demostrar o passo a passo da instalação d
 ferramenta CITSmart DOCS, seguindo padrões do servidor de aplicação Wildfly e
 PostgreSQL server.
 
-# Dicionário do banco de dados (Docs)
+# Manual de instalação on-premise (Docs)
 
 Esse guia prático visa demostrar o passo a passo da instalação da ferramenta
 CITSmart DOCS, seguindo padrões do servidor de aplicação Wildfly e PostgreSQL
