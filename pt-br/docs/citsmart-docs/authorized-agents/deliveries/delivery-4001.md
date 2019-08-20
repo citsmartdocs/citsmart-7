@@ -34,6 +34,11 @@ Description: Documento de entrega ADM materiais 4.0.0.1
 
 **ESCOPO**
 
+|   DEMANDA  |                     ASSUNTO / MÓDULO                    |                                                                                          DESCRIÇÃO                                                                                          | CONHECIMENTO IMPACTADO |
+|:----------:|:-------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------:|
+| ITSM #8451 |       Alteração no relatório de baixas no período       | Solicitação de alteração no relatório de baixas no período, o resumo contábil foi alterado incluindo os seguintes campos totalizadores: Total Aquisição, Total Depreciação e Total Líquido. |                        |
+| ITSM #8422 | Alteração no relatório de reavaliação de bens detalhado |                                     Solicitação de alteração de layout, ordenação de dados do relatório e inclusão de resumo contábil com totalizadores                                     |                        |
+| ITSM #8141 | Alteração no relatório de reavaliação de bens detalhado |                                                 Solicitação para alteração de nomes e legendas no relatório de reavaliação de bens detalhado                                                |                        |
 
 
 **IMPACTOS NOS MANUAIS DE INSTALAÇÃO/ATUALIZAÇÃO**
