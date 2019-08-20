@@ -132,7 +132,7 @@ com PostgreSQL):
     de download da CITSmart Corporation a partir do
     link:[http://files.citsmart.com/][1].
 
-Servidor de JMS Apache Activemq
+Servidor de JMS Apache ActiveMQ
 -------------------------------
 
 Apache ActiveMQ 5.14.5: apache-activemq-5.14.5.tar.gz
