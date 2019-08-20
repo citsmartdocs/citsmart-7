@@ -349,7 +349,7 @@ foram executados, estes scripts devem ser executados manualmente.
 afirmando que já foram executados os scripts e será armazenado como responsável
 destes scripts.​**
 
-### Checklist de implementação**​**
+### Checklist de implementação
 
 1.  ​​​Os arquivos envolvidos no Caso de Uso foram criados no mesmo módulo?
     Exemplo: Modelo, Dao, DaoImpl, Service, ServiceImpl, Validator,
