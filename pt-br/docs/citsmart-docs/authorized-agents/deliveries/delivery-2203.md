@@ -60,7 +60,7 @@ Description: Documento de entrega GRP Docs 2.2.0.3 e COR 3.1.6.3
 
 [Link para baixar os fontes](http://kb.citsmartcloud.com/entregas/papelzero/Enterprise/2.2.0.3/)
 
-![figura](images/delivery-2203.png)
+![figura](images/delivey-2203.png)
 
 
 **SCRIPTS SQL**
