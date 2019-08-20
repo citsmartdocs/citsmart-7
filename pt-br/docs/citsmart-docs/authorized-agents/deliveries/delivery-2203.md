@@ -1,8 +1,7 @@
 title: Documento de entrega GRP Docs 2.2.0.3 e COR 3.1.6.3
-
 Description: Documento de entrega GRP Docs 2.2.0.3 e COR 3.1.6.3
 
-\# Documento de entrega GRP Docs 2.2.0.3 e COR 3.1.6.3
+# Documento de entrega GRP Docs 2.2.0.3 e COR 3.1.6.3
 
 -   **Nome da Solução**: CITSmart Enterprise GRP Docs
 
@@ -56,11 +55,12 @@ Description: Documento de entrega GRP Docs 2.2.0.3 e COR 3.1.6.3
 
 **ORIENTAÇÕES ESPECIAIS**
 
-1.  Adicionar o parâmetro, **ecm.dir.fonts **,na tela de propriedades do sistema
+1.  Adicionar o parâmetro, **ecm.dir.fonts**, na tela de propriedades do sistema
     e configurar o caminho dos arquivos fontes, segue exemplo abaixo:
 
 [Link para baixar os fontes](http://kb.citsmartcloud.com/entregas/papelzero/Enterprise/2.2.0.3/)
 
+![figura](images/delivey-2203.png)
 
 
 **SCRIPTS SQL**
