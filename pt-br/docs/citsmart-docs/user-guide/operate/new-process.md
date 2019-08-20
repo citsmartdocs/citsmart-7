@@ -47,9 +47,9 @@ deverá estar contido em um processo. Sendo assim, um processo funciona como um 
     na tela de cadastro de tipos de processos.
         - Quando o tipo de processo é selecionado, o sistema carregará as definições do tipo selecionado. A imagem abaixo ilustra o funcionamento:
 
-    ![Esquema](images/novo.img2.jpg)
+        ![Esquema](images/novo.img2.jpg)
     
-    **Figura 2 - Esquema**
+        **Figura 2 - Esquema**
     
         - De acordo com o tipo de processo selecionado, são herdadas as sugestões de assuntos e os níveis de acesso 
         permitidos para aquele tipo de processo. À partir do nível de acesso selecionado, são herdadas as hipóteses legais
