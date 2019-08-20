@@ -55,7 +55,7 @@ Description: Documento de entrega GRP Docs 2.2.0.3 e COR 3.1.6.3
 
 **ORIENTAÇÕES ESPECIAIS**
 
-1.  Adicionar o parâmetro, **ecm.dir.fonts **,na tela de propriedades do sistema
+1.  Adicionar o parâmetro, **ecm.dir.fonts**, na tela de propriedades do sistema
     e configurar o caminho dos arquivos fontes, segue exemplo abaixo:
 
 [Link para baixar os fontes](http://kb.citsmartcloud.com/entregas/papelzero/Enterprise/2.2.0.3/)
