@@ -143,9 +143,9 @@ Servidor de banco de dados Postgresql/Oracle/MSSQL
 Recomenda-se que instalações de Oracle ou MSSQL sejam efetuados conforme
 informações e melhores práticas de cada fabricante:
 
--   Oracle*:* <https://docs.oracle.com/cd/E11882_01/server.112/e10897/toc.htm>
+-   Oracle: <https://docs.oracle.com/cd/E11882_01/server.112/e10897/toc.htm>
 
--   MSSQL*:* <https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server>.
+-   MSSQL: <https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server>.
 
 Servidor de Indexação Apache Solr
 
@@ -392,7 +392,7 @@ hibernate.dialect= br.com.centralit.framework.util.PostgreSQLCustomDialect
 ```
 
 Agora iremos configurar o arquivo cit-app.properties
-em **/opt/wildfly/modules/system/layers/base/br/com/citsmart-grp/main/cit-app.properties **e
+em **/opt/wildfly/modules/system/layers/base/br/com/citsmart-grp/main/cit-app.properties** e
 atualizar as informações conforme necessidade.
 
 ```sh
@@ -437,7 +437,7 @@ Todos os parâmetros devem ser configurados antes do start completo da solução
 Parâmetros CITSmart DOCS
 ------------------------
 
-*DataSource do standalone-full.xml*
+**DataSource do standalone-full.xml**
 
 *\<connection-url\>jdbc:postgresql://IP_DB:PORT_DB/CITGRP_NAME_DB\</connection-url\>*
 
@@ -445,16 +445,16 @@ Parâmetros CITSmart DOCS
 
 *\<password\>PASSWD_DB\</password\>*
 
-*IP_DB: configuração de rede do servidor de banco de dados PostgreSQL.*
+**IP_DB: configuração de rede do servidor de banco de dados PostgreSQL.**
 
-*PORT_DB: Padrão 5432(PostgreSQL).*
+**PORT_DB: Padrão 5432(PostgreSQL).**
 
-*CITGRP_NAME_DB: Manual criado como citgrpdb.*
+**CITGRP_NAME_DB: Manual criado como citgrpdb.**
 
-*USER_DB: Usuário de acesso a base. Manual criado com citsmart.*
+**USER_DB: Usuário de acesso a base. Manual criado com citsmart.**
 
-*PASSWD_DB: Senha de acesso do usuário de banco. Manual criado com
-yourpassword.*
+**PASSWD_DB: Senha de acesso do usuário de banco. Manual criado com
+yourpassword.**
 
 Geração de certificados auto assinado SSL
 -----------------------------------------
@@ -529,14 +529,14 @@ Servidor de aplicação Wildfly
 -----------------------------
 
 ```sh
-*\# /opt/wildfly/bin/standalone.sh -Djboss.bind.address=0.0.0.0*
+\# /opt/wildfly/bin/standalone.sh -Djboss.bind.address=0.0.0.0
 ```sh
 
 Servidor de jms Apache ActiveMQ
 -------------------------------
 
 ```sh
-*\# /opt/apache-activemq-5.14.5/bin/activemq start*
+\# /opt/apache-activemq-5.14.5/bin/activemq start
 ```
 
 Download dos deploys do CITSmart DOCS
@@ -557,7 +557,7 @@ Acesso ao CITSmart DOCS
 Para acessar o CITSmart DOCS, devemos acessar o IP ou DNS seguido da porta e
 contexto.
 
-*Exemplo de URL: https://10.2.1.82:8443/cit-portal-web*
+**Exemplo de URL: https://10.2.1.82:8443/cit-portal-web**
 
 O IP é o endereçamento da máquina onde o Wildfly está em execução. Ao invés do
 IP pode-se utilizar um endereço DNS. O IP 10.2.1.82 é um exemplo de ip utilizado
@@ -754,17 +754,17 @@ Para que o procedimento de Ocr em imagens possa ser executado deve-se instalar o
 pacote **build-essential** e a lib **leptonica 1.72.**
 
 Para instalar os pacotes descritos acima, proceder conforme as rotinas descritas
-abaixo: *obs. Todos os comandos devem ser executados com o usuário root.*
+abaixo: **obs: Todos os comandos devem ser executados com o usuário root**.
 
 1. Atualizar e baixar as informações de todos os repositórios disponíveis:
 
 -   **apt-get update**
 
-2. Instalar o pacote **build-essential:**
+2. Instalar o pacote **build-essential**:
 
 -   **apt-get install build-essential**
 
-3. Fazer o download da lib **leptonica 1.72:**
+3. Fazer o download da lib **leptonica 1.72**:
 
 -   **wget http://www.leptonica.com/source/leptonica-1.72.tar.gz**
 
@@ -798,8 +798,8 @@ Dentro do arquivo **standalone-full.xml** procurar as tags:
 -   **\<https-listener name="https" socket-binding="https" max-post-size="52428800" max-header-size="52428800"
     security-realm="ApplicationRealm" enable-http2="true"/\>**
 
-Alterar os valores dos atributos *max-post-size* e *max-header-size* para o
-valor desejado, por exemplo: *52428800 *significa que a aplicação aceita upload
+Alterar os valores dos atributos **max-post-size** e **max-header-size** para o
+valor desejado, por exemplo: **52428800** significa que a aplicação aceita upload
 de arquivos com tamanho de no máximo 50 mega bytes.
 
 
