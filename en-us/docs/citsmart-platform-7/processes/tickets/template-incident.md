@@ -1,199 +1,139 @@
-title: Cadastro e pesquisa de template de incidentes, requisições e procedimentos
-Description: Tem o objetivo de cadastrar um template para facilitar a abertura de uma nova solicitação.
+title: Incidents, requests and procedures template registration and search
+Description: This feature aims to register a template to facilitate the opening of a new request.
 
-# Cadastro e pesquisa de template de incidentes, requisições e procedimentos
+# Incidents, requests and procedures template registration and search
 
 Esta funcionalidade tem por objetivo cadastrar um template para facilitar a
 abertura de uma nova solicitação.
 
-Como acessar
+How to access
 ------------
 
-1.  Acesse a funcionalidade de Template de Incidentes/Requisições/Procedimentos
-    através da navegação no menu principal **Processos ITIL > Gerência de
-    Ticket > Templates Incidentes/Requisições/Procedimentos**.
+1.  Access the Incident/Request/Procedures Template functionality by navigating the main menu **Process Management > Ticket Management > Templates Incidents/Requests/Procedures**.
 
-Pré-condições
+Preconditions
 -------------
 
-1.  Ter acesso à funcionalidade de Templates
-    Incidentes/Requisições/Procedimentos (ver conhecimento [Cadastro e pesquisa
-    de perfil de acesso](1));
+1.  Have access to the Incidents, Requests and Procedures Template functionality (see knowledge Access profile registration and search)(1);
 
-2.  Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de
-    grupo](2));
+2.  Have the group registered (see knowledge Group registration and search);
 
-3.  Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de
-    contrato](3));
+3.  Have the contract registered (see knowledge Contract registration and search);;
 
-4.  Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de
-    unidade](4));
+4.  Have the unit registered (see knowledge Unit registration and search);
 
-5.  Ter o grupo vinculado ao contrato (ver conhecimento [Como relacionar grupo
-    ao contrato?](5));
+5.  Have the group bound to the contract (see knowledge How to relate group to contract?);
 
-6.  Ter a unidade vinculada ao contrato (ver conhecimento [Como relacionar
-    unidade ao contrato?](6));
+6.  Have the unit bound to the contract (see knowledge How to relate unit to contract?);
 
-7.  Ter o portfólio com o serviço e as atividades de requisição e incidente
-    cadastrados (ver conhecimentos [Cadastro de portfólio de serviços](7), [Cadastro
-    de serviços](8)), [Configuração dos atributos do serviço](9));
+7.  Have the portfolio with the service and the request and incident activities registered (see knowledge Service portfolio registration, Service registration, Service attributes configuration);
 
-8.  Ter o tempo de atendimento das atividades de requisição e incidente
-    definidos (ver conhecimento [Cadastro e pesquisa de tempo de
-    atendimento](10));
+8.  Have the time of attendance of the request and incident activities defined (see knowledge Time attendance registration and search);
 
-9.  Ter o contrato vinculado ao serviço (Ver conhecimento [Configuração dos
-    atributos do serviço](11));
+9.  Have the contract bound to the service (see knowledge Service attributes configuration);
 
-10. Ter as atividades de requisição e incidente vinculadas ao contrato do
-    serviço (ver conhecimento [Configuração dos atributos do contrato do
-    serviço](12));
+10. Have request and incident activities bound to the service contract (see knowledge Service contract attributes configuration);
 
-11. Informe o conteúdo abaixo no parâmetro (ver conhecimento [Regras de
-    parametrização - Ticket](13)):
+11. Enter the content below into the parameter (see knowledge Parameterization rules - Ticket):
 
-    -   Parâmetro 9: definir o grupo de 1º nível para o atendimento da solicitação.
+    -   Parameter 9: set the 1st level group to service the request.
 
-1.  O solicitante deve estar incluído no grupo que está vinculado ao contrato
-    para que seja possível registrar a solicitação.
+12.  The requestor must be included in the group that is bound to the contract so that the request can be registered.
 
-Filtros
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier to find the desired items:
 
     -   Nome.
 
     ![template](images/template-incident-1.png)
 
-    **Figura 1 - Tela de pesquisa de template incidentes/requisições/procedimentos**
+    **Figure 1 - Incident templates search/requests/procedures screen**
 
-1.  Realize a pesquisa do template;
+2.  Perform template search;
 
--   Informe o nome do template que deseja pesquisar e clique no
-    botão *Pesquisar*. Após isso, será exibido o registro do template conforme o
-    nome informado;
+-   Enter the name of the template you want to search and click the Search button. After this, the template registration will be displayed according to the name entered;
 
--   Caso deseje listar todos os registros de template, basta clicar diretamente
-    no botão *Pesquisar.*
+-   If you want to list all the template records, just click directly on the Search button.
 
-Listagem de itens
+Items list
 -----------------
 
-1.  O seguinte campo cadastral está disponível ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Nome.**
+1.  The following cadastral field is available to the user to facilitate the identification of the desired items in the standard feature listing: **Name**.
 
     ![template](images/template-incident-2.png)
 
-    **Figura 2 - Tela de listagem de templates incidentes/requisições/procedimentos**
+    **Figure 2 - List screen of incident templates/requests/procedures**
 
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a aba de cadastro exibindo o conteúdo referente ao registro
-    selecionado;
+2.  After searching, select the desired record. Once this is done, it will be directed to the registration tab displaying the contents of the selected record;
 
-2.  Para alterar os dados do registro de template, basta modificar as
-    informações dos campos desejados e clicar no botão *Gravar* para que seja
-    gravada a alteração realizada no registro, onde a data, hora e usuário serão
-    gravados automaticamente para uma futura auditoria.
+3.  To change the data of the template record, simply modify the information of the desired fields and click on the Save button to save the change made in the record, where the date, time and user will be saved automatically for a future audit.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -----------------------------------
 
-1.  Será apresentada a tela de cadastro de Template de
-    Incidentes/Requisições/Procedimentos, conforme ilustrada na figura abaixo:
+1.  The Templates Incidents/Requests/Procedures screen will be displayed, as shown in the figure below:
     
     ![template](images/template-incident-3.png)
 
-    **Figura 3 - Tela de cadastro de template**
+    **Figure 3 - Template master screen**
 
-1.  Preencha os campos conforme orientação abaixo:
+2.  Fill in the fields as directed below:
 
-    -   **Nome**: informe o nome do Incidente, Requisição ou Procedimento;
+    -   **Name**: enter the name of the Incident, Request or Procedure;
 
-    -   **Solicitante**: informe o nome do solicitante, ou seja, o nome da pessoa
-    que está solicitando a abertura de incidente ou requisição de serviço;
+    -   **Applicant Name**: state the name of the applicant, ie the name of the person requesting the opening of an incident or service request;
 
-    -   **E-mail**: informe o e-mail do solicitante;
+    -   **E-mail**: inform the requestor's e-mail;
 
-    -   **Origem do Contato**: informe a origem da solicitação;
+    -   **Contact Origin**: enter the origin of the request;
 
-    -   **Catálogo**: esse campo será estabelecido pelo sistema após informar o
-    solicitante e contrato. Caso o contrato selecionado seja do tipo "contrato",
-    será exibida neste campo a informação do Catálogo de Serviços de "Negócio" e
-    caso o contrato selecionado seja do tipo "contrato de apoio" ou "acordo de
-    nível operacional", será exibida neste campo a informação do Catálogo de
-    Serviços "Técnico";
+    -   **Catalog**: this field will be established by the system after informing the applicant and contract. If the selected contract is of the type "contract", the information in the "Business" Service Catalog will be displayed in this field and if the selected contract is of the type "support agreement" or "operational level agreement", it will be displayed in this field The information in the "Technical" Service Catalog;
 
-    -   **Serviço**: informe o serviço referente ao catálogo de serviços. Se o
-    catálogo de serviços for de "negócio", serão disponibilizados neste campo os
-    serviços de negócio para seleção, mas se o catálogo de serviços for
-    "técnico", serão disponibilizados neste campo os serviços de apoio/técnico
-    para seleção;
+    -   **Service**: inform the service regarding the service catalog. If the service catalog is a "business", the business services for selection will be available in this field, but if the service catalog is "technical", the support/technical services for selection will be available in this field;
 
-    -   **Utilizar a categoria de serviço**: marque este campo, se optar buscar os
-    serviços por categoria;
+    -   **Use the service category**: check this field if you choose to search the services by category;
 
-    -   **Categoria de Serviço**: caso tenha optado pela busca de serviços por
-    categoria, informe a categoria de serviço desejado. A categoria do serviço
-    irá identificar a natureza do serviço, posicionando-o dentro de grupos
-    semelhantes de atuação, situando-o na hierarquia de sua categoria;
+    -   **Service Category**: if you have chosen to search for services by category, enter the category of service you want. The service category will identify the nature of the service, positioning it within similar groups of service, placing it in the hierarchy of its category;
 
-    -   **Tipo de solicitação**: informe o tipo da solicitação, se é uma abertura de
-    incidente, requisição de serviço ou procedimento;
+    -   **Type**: enter the type of request, whether it is an incident opening, service request or procedure;
 
-        -   **Incidente**: caso a situação apresentada seja uma interrupção não
-        planejada, uma redução na qualidade do serviço ou falha de algum item de
-        configuração que ainda não tenha impactado um serviço de TI. Ex: o link
-        de rede está fora, a rede está lenta, o servidor inacessível, etc.
+        -   **Incident**: if the situation presented is an unplanned outage, a reduction in the quality of service, or failure of any configuration item that has not yet impacted an IT service. e.g.: The network link is out, the network is slow, the server is inaccessible, etc.
 
-        -   **Requisição**: refere-se aos pedidos de demandas realizados pelos
-        usuários dentro do ambiente da Tecnologia da Informação. Podem ser desde
-        pedidos de acesso até sugestões de melhoria a baixo custo. Ex: pedido de
-        acesso à rede para um novo usuário, solicitação de configuração de algum
-        equipamento, requisição para adicionar algum software na estação de
-        trabalho, etc.
+        -   **Request**: refers to requests for demands made by users within the Information Technology environment. They can range from access requests to suggestions for improvement at low cost. e.g.: network access request for a new user, request for configuration of some equipment, request to add some software to the workstation, etc..
 
-        -   **Procedimento**: refere-se ao procedimento de continuidade do serviço
-        de TI, no caso de ocorrência de incidente crítico.
+        -   **Procedure**: refers to the IT service continuity procedure, in case of critical incident occurrence.
 
-    -   **Incidente/Requisição/Procedimento**: informe o serviço que será realizado;
+    -   **Incident/Request/Procedure**: inform the service that will be performed;
 
-    -   **Contrato**: informe o contrato para qual será feita a solicitação;
+    -   **Contract**: state the contract for which the request will be made;;
 
-    -   **Unidade**: informe a unidade do solicitante;
+    -   **Unit**: report the unit of the applicant;
 
-    -   **Urgência**: indique a velocidade na qual o serviço precisa ser realizado;
+    -   **Urgency**: indicate the speed at which the service needs to be performed;
 
-    -   **Impacto**: indique o impacto ao negócio;
+    -   **Impact**: indicate the impact to the business;
 
-    -   **Descrição**: informe a descrição da solicitação. A descrição deve ser
-    objetiva, incluindo toda informação necessária para o atendimento da
-    solicitação;
+    -   **Description**: enter the description of the request. The description must be objective, including all the information necessary to fulfill the request;
 
-    -   **Item Configuração**: informe o item de configuração referente a
-    solicitação.
+    -   **Configuration Item**: enter the configuration item for the request.
 
-1.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
-    onde a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria.
+3.  After the data has been entered, click the Save button to register, where the date, time and user will be saved automatically for a future audit
 
-[1]:/pt-br/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
-[2]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
-[3]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
-[4]:/pt-br/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html
+[1]:/en-us/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
+[2]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[3]:/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[4]:/en-us/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html
 [5]:#
 [6]:#
-[7]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
-[8]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/services.html
-[9]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
-[10]:/pt-br/citsmart-platform-7/processes/service-level/time-attendance.html
-[11]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
-[12]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/contract-attributes.html
-[13]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrizaion-ticket.html
+[7]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+[8]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/services.html
+[9]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
+[10]:/en-us/citsmart-platform-7/processes/service-level/time-attendance.html
+[11]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
+[12]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/contract-attributes.html
+[13]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrizaion-ticket.html
 
 
 !!! tip "About"
