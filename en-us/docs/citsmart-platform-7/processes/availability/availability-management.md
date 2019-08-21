@@ -104,7 +104,7 @@ displayed in graphs, as shown in the figure below:
     - **Total Availability**: displays the total availability of each group of CIs within the reporting period;
     - **Unavailability Occurrences**: presents the occurrences of downtime of each group of CIs, within the reported period;
     - To download the total availability table and / or downtime occurrences, simply click on the *Save table* button;
-    - To download the image or PDF of the charts, just click on the icon of the chart [simbolo](images/simb-menu.jpg).
+    - To download the image or PDF of the charts, just click on the icon of the chart ![simbolo](images/simb-menu.jpg).
 
 Verifying availability group availability
 --------------------------------------------
