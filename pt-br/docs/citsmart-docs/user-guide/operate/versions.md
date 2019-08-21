@@ -53,6 +53,10 @@ Visualizando versões
 
     Não é possível visualizar ou restaurar uma versão anterior.
     
+![Versões](images/versão.img3.jpg)
+
+**Figura 3 - Tela de versões de documento**
+    
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
