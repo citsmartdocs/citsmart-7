@@ -59,7 +59,7 @@ a ação de apensação (relacionamento).
 5. Clique no **número de protocolo** do processo aberto desejado. Logo após, será aberto uma aba com as informações do
 processo.
 
-6. Clique no botão *Ações de Processo* (localizado no canto superior direito da tela) e selecione Processos Relacionados:
+6. Clique no botão *Ações de Processo* (localizado no canto superior direito da tela) e selecione **Processos Relacionados**:
 
     ![Relacionamento](images/relacionar.img3.jpg)
     
