@@ -63,7 +63,7 @@ processo.
 
 7. Clique em *Salvar*;
 
-8. Clique no ícone [simbolo](images/simb-quebrar.jpg) para remover a relação.
+8. Clique no ícone ![simbolo](images/simb-quebrar.jpg) para remover a relação.
 
 !!! tip "About"
 
