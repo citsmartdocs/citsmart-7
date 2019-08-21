@@ -50,25 +50,25 @@ conforme ilustrada na figura abaixo:
     
 2. Preencha os campos conforme orientações abaixo:
 
-    a. **Nome**: informe o nome do tipo de processo;
-    b. **Descrição**: descrição textual sobre o tipo de processo;
-    c. **Níveis de Acesso Permitidos**: ao criar um tipo de processo, você deverá definir quais são os níveis de acesso permitidos para o mesmo.
+    - **Nome**: informe o nome do tipo de processo;
+    - **Descrição**: descrição textual sobre o tipo de processo;
+    - **Níveis de Acesso Permitidos**: ao criar um tipo de processo, você deverá definir quais são os níveis de acesso permitidos para o mesmo.
     
     !!! info "IMPORTANTE"
     
-        O nível de acesso segue uma lógica de hierarquia. Caso um tipo de processo possa ser classificado em um nível de
-        acesso mais alto, todos os níveis de acesso abaixo deles também serão passíveis de classificação. Exemplo: Um tipo
-        de processo que pode ser classificado no nível de acesso Secreto, automaticamente também poderá ser classificado
-        nos níveis menores (Reservado, Restrito e Público).
+    O nível de acesso segue uma lógica de hierarquia. Caso um tipo de processo possa ser classificado em um nível de
+    acesso mais alto, todos os níveis de acesso abaixo deles também serão passíveis de classificação. Exemplo: Um tipo
+    de processo que pode ser classificado no nível de acesso Secreto, automaticamente também poderá ser classificado
+    nos níveis menores (Reservado, Restrito e Público).
         
-        - Os processos criados com esse tipo, só poderão ser classificados nos níveis de acesso selecionados.
+    - Os processos criados com esse tipo, só poderão ser classificados nos níveis de acesso selecionados.
     
-    d. Sugestão de assuntos: há também a possibilidade de se fazer sugestões de assuntos relacionados àquele tipo de processo.
+    - Sugestão de assuntos: há também a possibilidade de se fazer sugestões de assuntos relacionados àquele tipo de processo.
     
-        - O objetivo dessa função é auxiliar o usuário na escolha de um assunto, respeitando o plano de classificação, 
-        temporalidade e destinação.
-        - Como o próprio nome diz, são apenas indicadas sugestões, não sendo obrigatório o usuário selecionar algum dos 
-        assuntos sugeridos no momento da criação de um processo daquele tipo.
+    - O objetivo dessa função é auxiliar o usuário na escolha de um assunto, respeitando o plano de classificação, 
+    temporalidade e destinação.
+    - Como o próprio nome diz, são apenas indicadas sugestões, não sendo obrigatório o usuário selecionar algum dos 
+    assuntos sugeridos no momento da criação de um processo daquele tipo.
         
 3. Clique em *Salvar* para armazenar os dados do tipo de processo. Clique em *Pesquisar* para voltar para a tela anterior.
 
