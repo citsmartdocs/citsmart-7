@@ -1,44 +1,41 @@
-title: Módulo Gerenciamento de Disponibilidade
-Description: O Gerenciamento de Disponibilidade é o processo responsável por garantir que os serviços de TI 
-# Módulo Gerenciamento de Disponibilidade
+title: Availability Management module
+Description: Management and Availability is the process responsible for ensuring that IT services
+# Availability Management module
 
-Objetivo do módulo
+Module objective
 ---------------------
 
-O Gerenciamento de Disponibilidade é o processo responsável por garantir que os serviços de TI 
-atendam às necessidades atuais e futuras de disponibilidade do negócio de uma maneira mais 
-efetiva com custo adequado. O mesmo garante que todos os processos, infraestruturas, ferramentas,
-papéis, etc. de TI sejam adequados para as metas de nível de serviço acordadas para disponibilidade.
+Management and Availability is the process responsible for ensuring that IT services meet current and future business 
+availability needs in a more cost effective manner. The same guarantees that all IT processes, infrastructures, tools, roles, 
+etc. requirements for the agreed service level goals for availability.
 
-O principal objetivo do Gerenciamento da Disponibilidade é o fornecimento de um determinado nível de
-disponibilidade dos serviços de TI, proporcionando ao cliente atingir seus objetivos
-com eficiência de custo.
+The primary goal of Availability Management is to provide a certain level of availability of IT services, enabling the 
+customer to achieve their goals with cost efficiency.
 
-Esta funcionalidade tem por objetivo verificar a disponibilidade de ICs, disponibilidade do 
-Grupo de ICs,disponibilidade do Grupo de Disponibilidade e disponibilidade do 
-Serviço de Negócio.
+This functionality is intended to verify the availability of CIs, IC Group availability, Availability Group availability, and 
+Business Service availability.
 
-Onde estão suas funcionalidades
+Where are the features
 ---------------------------------
 
-Acesse o menu principal **Processos ITIL > Gerência de Disponibilidade**.
+To access the functionality click on the main menu **Process Management > Availability Management**.
 
-![Menu](images/modulo-disp.png)
+![Menu](images/module.img1.jpg)
 
-**Figura 1 - Menu do módulo gerência de disponibilidade**
+**Figure 1 - Availability Management module menu**
 
-Principal funcionalidade (em destaque)
-----------------------------------------
+Main feature (In highlight)
+------------------------------
 
-Na seção "Veja também" é possível acessar a(s) funcionalidade(s)
-principal(is) deste módulo, desta forma se pode obter um conhecimento mais detalhado.
+In the *See also* section you can access the main functionality(ies) of this module, in order to obtain a more detailed 
+knowledge.
 
-Veja também
+See also
 -------------
 
-- [Gerenciamento de disponibilidade](/pt-br/citsmart-platform-7/processes/availability/availability-management.html)
+- [Availability management](/en-us/citsmart-platform-7/processes/availability/availability-management.html)
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/10/2019 – Larissa Lourenço
+    <b>Updated:</b>08/21/2019 – Larissa Lourenço
