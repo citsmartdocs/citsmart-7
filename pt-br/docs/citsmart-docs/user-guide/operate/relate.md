@@ -59,11 +59,17 @@ a ação de apensação (relacionamento).
 5. Clique no **número de protocolo** do processo aberto desejado. Logo após, será aberto uma aba com as informações do
 processo.
 
-6. Clique no botão Ações de Processo (localizado no canto superior direito da tela) e selecione Processos Relacionados:
+6. Clique no botão *Ações de Processo* (localizado no canto superior direito da tela) e selecione Processos Relacionados:
 
-7. Clique em *Salvar*;
+    ![Relacionamento](images/relacionar.img3.jpg)
+    
+    **Figura 3 - Relacionamento de processos**
 
-8. Clique no ícone ![simbolo](images/simb-quebrar.jpg) para remover a relação.
+7. Procure o processo pelo seu número de protocolo, selecione e o mesmo aparecerá na listagem;
+
+8. Clique em *Salvar*;
+
+9. Clique no ícone ![simbolo](images/simb-quebrar.jpg) para remover a relação.
 
 !!! tip "About"
 
