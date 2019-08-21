@@ -185,8 +185,8 @@ Preenchimento dos campos cadastrais
 [2]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
 [3]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
 [4]:/pt-br/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html
-[5]:#
-[6]:#
+[5]:/pt-br/citsmart-platform-7/processes/tickets/relate-group.html
+[6]:/pt-br/citsmart-platform-7/processes/tickets/relate-unit.html
 [7]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
 [8]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/services.html
 [9]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
