@@ -61,7 +61,7 @@ conforme ilustrada na figura abaixo:
     de processo que pode ser classificado no nível de acesso Secreto, automaticamente também poderá ser classificado
     nos níveis menores (Reservado, Restrito e Público).
         
-        - Os processos criados com esse tipo, só poderão ser classificados nos níveis de acesso selecionados.
+    - Os processos criados com esse tipo, só poderão ser classificados nos níveis de acesso selecionados.
     
     - Sugestão de assuntos: há também a possibilidade de se fazer sugestões de assuntos relacionados àquele tipo de processo.
     
