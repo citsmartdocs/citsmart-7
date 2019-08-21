@@ -61,14 +61,14 @@ conforme ilustrada na figura abaixo:
     de processo que pode ser classificado no nível de acesso Secreto, automaticamente também poderá ser classificado
     nos níveis menores (Reservado, Restrito e Público).
         
-    - Os processos criados com esse tipo, só poderão ser classificados nos níveis de acesso selecionados.
+        - Os processos criados com esse tipo, só poderão ser classificados nos níveis de acesso selecionados.
     
     - Sugestão de assuntos: há também a possibilidade de se fazer sugestões de assuntos relacionados àquele tipo de processo.
     
-    - O objetivo dessa função é auxiliar o usuário na escolha de um assunto, respeitando o plano de classificação, 
-    temporalidade e destinação.
-    - Como o próprio nome diz, são apenas indicadas sugestões, não sendo obrigatório o usuário selecionar algum dos 
-    assuntos sugeridos no momento da criação de um processo daquele tipo.
+        - O objetivo dessa função é auxiliar o usuário na escolha de um assunto, respeitando o plano de classificação, 
+        temporalidade e destinação.
+        - Como o próprio nome diz, são apenas indicadas sugestões, não sendo obrigatório o usuário selecionar algum dos 
+        assuntos sugeridos no momento da criação de um processo daquele tipo.
         
 3. Clique em *Salvar* para armazenar os dados do tipo de processo. Clique em *Pesquisar* para voltar para a tela anterior.
 
