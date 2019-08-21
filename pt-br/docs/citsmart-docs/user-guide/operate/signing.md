@@ -74,10 +74,10 @@ Assinar**, conforme a figura abaixo:
     - Para usuário servidor – função de servidor;
     - Para usuário terceirizado – função de terceirizado.
     
-5. Quando a assinatura é efetuada, o sistema gera um código verificador e um código CRC respectivo à assinatura, que pode ser 
-utilizado para validá-la posteriormente no Portal Validador de Documentos (Validando processos e documentos sigilosos). Esses 
-códigos podem ser consultados a partir da própria assinatura (dentro do documento, ou através do menu “Visualizar 
-assinaturas”).
+5. Quando a assinatura é efetuada, o sistema gera um código verificador e um código CRC respectivo à assinatura, que pode 
+ser utilizado para validá-la posteriormente no Portal Validador de Documentos
+([Validando processos e documentos sigilosos](/pt-br/citsmart-docs/user-guide/operate/validate.html)). Esses códigos podem 
+ser consultados a partir da própria assinatura (dentro do documento, ou através do menu “Visualizar assinaturas”).
 
     !!! warning "ATENÇÃO"
 
