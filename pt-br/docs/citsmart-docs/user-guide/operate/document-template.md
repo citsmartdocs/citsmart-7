@@ -42,11 +42,9 @@ Preenchimento dos campos cadastrais
 
 1. Os modelos de documentos são compostos de:
 
-    - Cabeçalho: é cadastrado no menu de cabeçalhos (Mantendo cabeçalhos). Os cabeçalhos podem ser reaproveitados em diversos
-    tipos de documento.
+    - Cabeçalho: é cadastrado no menu de cabeçalhos ([Mantendo cabeçalhos](/pt-br/citsmart-docs/user-guide/operate/headers.html)). Os cabeçalhos podem ser reaproveitados em diversos tipos de documento.
     - Conteúdo: é cadastrado na própria tela de modelos de documentos. Este é o template do corpo do documento.
-    - Rodapé: é cadastrado no menu de rodapés (Mantendo as informações do rodapé). Os rodapés também podem ser reaproveitados 
-    em diversos tipos de documento.
+    - Rodapé: é cadastrado no menu de rodapés ([Mantendo as informações do rodapé](/pt-br/citsmart-docs/user-guide/operate/footer.html)). Os rodapés também podem ser reaproveitados em diversos tipos de documento.
     
 2. Os modelos de documentos podem conter campos dinâmicos que são preenchidos com variáveis do documento. Atualmente, está 
 disponível a variável @numeroDocumento@, que, ao referenciada no modelo, será substituída dinamicamente pelo número do 
