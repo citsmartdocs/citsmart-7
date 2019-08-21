@@ -5,7 +5,7 @@ Description: Processos arquivados são processos que estão concluídos em todas
 Processos arquivados são processos que estão concluídos em todas as unidades nas quais foi tramitado.
 
 Quando isso ocorre, significa que a contagem do prazo de temporalidade foi iniciada para a destinação final. Saiba mais no 
-conhecimento Mantendo um plano de classificação, temporalidade e destinação.
+conhecimento [Mantendo um plano de classificação, temporalidade e destinação](/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/4987).
 
 Como acessar 
 ---------------
