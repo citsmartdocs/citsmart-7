@@ -18,40 +18,40 @@ Pré-condições
 
 1.  Ter acesso à funcionalidade de Templates
     Incidentes/Requisições/Procedimentos (ver conhecimento [Cadastro e pesquisa
-    de perfil de acesso](1));
+    de perfil de acesso][1]);
 
 2.  Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de
-    grupo](2));
+    grupo][2]);
 
 3.  Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de
-    contrato](3));
+    contrato][3]);
 
 4.  Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de
-    unidade](4));
+    unidade][4]);
 
 5.  Ter o grupo vinculado ao contrato (ver conhecimento [Como relacionar grupo
-    ao contrato?](5));
+    ao contrato?][5]);
 
 6.  Ter a unidade vinculada ao contrato (ver conhecimento [Como relacionar
-    unidade ao contrato?](6));
+    unidade ao contrato?][6]);
 
 7.  Ter o portfólio com o serviço e as atividades de requisição e incidente
-    cadastrados (ver conhecimentos [Cadastro de portfólio de serviços](7), [Cadastro
-    de serviços](8)), [Configuração dos atributos do serviço](9));
+    cadastrados (ver conhecimentos [Cadastro de portfólio de serviços][7], [Cadastro
+    de serviços][8]), [Configuração dos atributos do serviço][9]);
 
 8.  Ter o tempo de atendimento das atividades de requisição e incidente
     definidos (ver conhecimento [Cadastro e pesquisa de tempo de
-    atendimento](10));
+    atendimento][10]);
 
 9.  Ter o contrato vinculado ao serviço (Ver conhecimento [Configuração dos
-    atributos do serviço](11));
+    atributos do serviço][11]);
 
 10. Ter as atividades de requisição e incidente vinculadas ao contrato do
     serviço (ver conhecimento [Configuração dos atributos do contrato do
-    serviço](12));
+    serviço][12]);
 
 11. Informe o conteúdo abaixo no parâmetro (ver conhecimento [Regras de
-    parametrização - Ticket](13)):
+    parametrização - Ticket][13]):
 
     -   Parâmetro 9: definir o grupo de 1º nível para o atendimento da solicitação.
 
@@ -185,8 +185,8 @@ Preenchimento dos campos cadastrais
 [2]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
 [3]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
 [4]:/pt-br/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html
-[5]:#
-[6]:#
+[5]:/pt-br/citsmart-platform-7/processes/tickets/relate-group.html
+[6]:/pt-br/citsmart-platform-7/processes/tickets/relate-unit.html
 [7]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
 [8]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/services.html
 [9]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
