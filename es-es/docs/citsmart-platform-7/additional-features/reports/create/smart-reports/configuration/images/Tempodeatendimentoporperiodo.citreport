@@ -1,0 +1,374 @@
+﻿<?xml version='1.0' encoding='UTF-8'?><br.com.centralit.citcorpore.bean.SmartReportDTO><identificacao>Tempo de atendimento por periodo</identificacao><descricao>Tempo de atendimento por periodo</descricao><idCategoria>1</idCategoria><tipoConsulta>2</tipoConsulta><tipoRelatorio>7</tipoRelatorio><parametros>&lt;PARAMETERS>
+
+	&lt;PARAM name='dataInicial' type='java.sql.Date' size='10' value='' description='citcorpore.comum.datainicio' fix='false' mandatory="true" default="{YEAR_AGO}"/>
+
+  	&lt;PARAM name='dataFinal' type='java.sql.Date' size='10' value='' description='citcorpore.comum.datafim' fix='false' mandatory="true" default="{TODAY}"/>
+ &lt;PARAM name='contrato' type='java.lang.Integer' typeHTML='select' size='0' value='' description='Contrato' fix='false' mandatory='false' reload='true' onload='true'>
+	&lt;OPTION value='-1' text='Todos'/> 
+	&lt;OPTIONS type='SQL' onload='true'>
+		SELECT idcontrato, numero||' ('||nomefantasia||')' 
+		FROM contratos ct join clientes cl on cl.idcliente = ct.idcliente and (ct.deleted is null OR ct.deleted = 'N' OR ct.deleted = 'n') 
+                               AND (ct.datafimcontrato IS NULL OR ct.datafimcontrato >= CURRENT_TIMESTAMP) 
+                               AND (ct.situacao = 'A' ) 
+		ORDER BY 2
+	&lt;/OPTIONS>
+ &lt;/PARAM>
+&lt;/PARAMETERS></parametros><sql></sql><script>var importNames = JavaImporter();
+importNames.importPackage(Packages.java.util);
+importNames.importPackage(Packages.java.lang);
+importNames.importPackage(Packages.br.com.citframework.util);
+importNames.importPackage(Packages.br.com.centralit.citsmart.rest.v3.util);
+
+var pDataInicio = importNames.UtilDatas.getTimeStampInicioPeriodo(hashParametros.get("PARAM.dataInicial"));
+var pDataFim = importNames.UtilDatas.getTimeStampFimPeriodo(hashParametros.get("PARAM.dataFinal"));
+var pContrato = importNames.Integer.parseInt(hashParametros.get("PARAM.contrato"));
+
+function twoDigits(number) {
+     return (number &lt; 10 ? '0' : '') + number;
+}
+
+formataHHMM = function(hora,minuto){
+	var texto = new importNames.StringBuilder();
+ 
+	if (hora!=null) {
+		texto.append(twoDigits(hora));
+	} else {
+		texto.append("00");
+	}
+	
+	texto.append(":");
+	
+	if (minuto!=null) {
+		texto.append(twoDigits(minuto));
+	} else {
+		texto.append("00");
+	}
+	return texto.toString();
+}
+
+calculaTempoTotal = function (seconds) {
+	var hours = parseInt( seconds / 3600 );
+	var restante = (seconds - (hours*3600));
+	var minutes = 0;
+	var segundos = 0;
+	if (restante>0){
+		minutes = parseInt( restante / 60 );
+		restante = (restante - (minutes*60));
+		if (restante>0){
+			segundos = restante;
+		}
+	}
+	return twoDigits(hours) + ":" + twoDigits(minutes) + ":" + twoDigits(segundos);
+}
+
+formataTimeStamp = function(dataHora){
+	if (dataHora!=null){
+		return importNames.UtilDatas.formatTimestamp(dataHora);
+	} else {
+		return " ";
+	}
+}
+
+formataData = function(dataHora){
+	if (dataHora!=null){
+		return importNames.UtilDate.formatarData(dataHora);
+	} else {
+		return " ";
+	}
+}
+
+obtemNomeContrato = function(idContrato){
+	var nomeContrato = "Todos";
+	var resultado = null;
+	resultado = jdbcEngine.execSQL("select numero from contratos where idcontrato = "+idContrato, null, 0);
+	if ((resultado!=null)&amp;&amp;(resultado.size()>0)) {
+		nomeContrato = resultado.get(0)[0];
+	}
+	return nomeContrato;
+}
+
+montarSql1 = function() {	
+	var sql = new importNames.StringBuilder();
+	
+	sql.append("select  ss.idsolicitacaoservico,")
+			.append("ss.descricao,")
+			.append("ss.resposta,")
+			.append("case ")
+				.append("when vwstatussemsusp.idsolicitacaoservico is null ")
+					.append("then 'Sem Suspensão' ")
+					.append("else 'Com Suspensão' ")
+				.append("end as indicadorsuspensao,")
+			.append("cast(c.numero as varchar(1000))as contrato,")
+			.append("(select nomeservico from servico where idservico in (select idservicorelacionado from servicoautorelacionamento where idservico = s.idservico)) as nomeservico,")
+			.append("s.nomeservico as atividade,")
+			.append("ss.idtipodemandaservico,")
+			.append("t.nometipodemandaservico,")
+			.append("ss.idstatus,")
+			.append("ss.datahorasolicitacao,")
+			.append("ss.datahorafim,")
+			.append("ss.datahoracaptura,")
+			.append("(case when ss.prazocapturahh is null then 0 else ss.prazocapturahh end) as prazocapturahh,")
+			.append("(case when ss.prazocapturamm is null then 0 else ss.prazocapturamm end) as prazocapturamm,")
+		.append("((DATE_PART('day', date_trunc('second', ss.datahorafim) - date_trunc('second', ss.datahorasolicitacao)) * 24 + ") 
+		  .append("DATE_PART('hour', date_trunc('second', ss.datahorafim) - date_trunc('second', ss.datahorasolicitacao))) * 60 + ")
+		  .append("DATE_PART('minute', date_trunc('second', ss.datahorafim) - date_trunc('second', ss.datahorasolicitacao))) * 60 + ") 
+		  .append("DATE_PART('second', date_trunc('second', ss.datahorafim) - date_trunc('second', ss.datahorasolicitacao)) as tempoatendimentototal,")
+			.append("cast((case when ss.tempoatendimentohh is null then 0 else ss.tempoatendimentohh end) as integer) as tempoatendimentohh,")
+			.append("cast((case when ss.tempoatendimentomm is null then 0 else ss.tempoatendimentomm end) as integer) as tempoatendimentomm,")
+			.append("cast(ss.prazohh as integer) as prazohh,")
+			.append("cast(ss.prazomm as integer) as prazomm,")
+			.append("case ")
+				.append("when (case when ss.tempoatendimentohh is null then 0 else ss.tempoatendimentohh end * 60 ) + case when ss.tempoatendimentomm is null then 0 else ss.tempoatendimentomm end &lt;= (case when ss.prazohh is null then 0 else ss.prazohh end * 60 ) + case when prazomm is null then 0 else prazomm end ")
+				.append("then 'S' ")
+				.append("else 'N' ")
+			.append("end as prc_noprazo,")
+			.append("ss.idprioridade,")
+			.append("e.nome as solicitante,")
+			.append("uresp.nome as tecnico_solucionador,")
+			.append("case when ss.tempoatendimentomm is null then 'Sem Grupo Responsável' else g.nome end as grupo_responsavel,")
+			.append("u.nome as criado_por,")
+			.append("pais.nomepais,")
+			.append("regioes.nome,")
+			.append("ufs.siglauf,")
+			.append("cidades.nomecidade,")
+			.append("unidade.idunidade,")
+			.append("unidade.nome as nomeunidade,")
+			.append("localidade.idlocalidade,")
+			.append("localidade.nomelocalidade,")
+			.append("idgrupoatual,")
+			.append("idresponsavel,")
+			.append("prioridade.nomeprioridade,")
+			.append("case ")
+				.append("when ((seqreabertura is not null) and (seqreabertura > 0)) ")
+					.append("then 'S' ")
+					.append("else 'N' ")
+				.append("end as reaberta, ")
+			.append("case ")
+				.append("when (((houvemudanca is not null) and (houvemudanca = 'S')) and (((prazohhAnterior is not null) and (prazohhAnterior > 0)) or ((prazommAnterior is not null) and (prazommAnterior > 0)))) ")
+					.append("then 'S' ")
+					.append("else 'N' ")
+				.append("end as slareestimado,")
+			.append("case ")
+				.append("when (v.valorservico is null) ")
+					.append("then 0 ")
+					.append("else v.valorservico ")
+				.append("end as valorservico, ")
+			.append("case ")
+				.append("when ((vwreagendada.reagendada is not null) and (vwreagendada.reagendada > 0)) ")
+					.append("then 'S' ")
+					.append("else 'N' ")
+				.append("end as reagendada,")
+			.append("ss.idcalendario,")
+			.append("c.idcontrato,")
+			.append("s.idservico,")
+			.append("ss.datahorainiciosla ")
+	.append("from solicitacaoservico ss ")
+	 .append("inner join servicocontrato sc on sc.idservicocontrato = ss.idservicocontrato ")
+	 .append("inner join servico s on s.idservico = sc.idservico ")
+	 .append("inner join contratos c on c.idcontrato = sc.idcontrato ")
+	 .append("inner join tipodemandaservico t on t.idtipodemandaservico = ss.idtipodemandaservico ")
+	 .append("inner join usuario u on u.idusuario = ss.idresponsavel ")
+	 .append("inner join empregados e on e.idempregado = ss.idsolicitante ")
+	 .append("inner join unidade on unidade.idunidade = ss.idunidade ")
+	 .append("inner join prioridade on ss.idprioridade = prioridade.idprioridade ")
+	 .append("inner join contatosolicitacaoservico contssl on contssl.idcontatosolicitacaoservico = ss.idcontatosolicitacaoservico ")
+	 .append("left join bpm_itemtrabalhofluxo it on ss.idtarefaencerramento =  it.iditemtrabalho ")
+	 .append("left join usuario uresp on it.idresponsavelatual = uresp.idusuario ")
+	 .append("left join localidade on contssl.idlocalidade = localidade.idlocalidade ")
+	 .append("left join grupo g on g.idgrupo = ss.idgrupoatual ")
+	 .append("left join valorservicocontrato v on v.idservicocontrato = sc.idservicocontrato and v.datafim is null ")
+	 .append("left join endereco on unidade.idendereco = endereco.idendereco ")
+	 .append("left join pais on endereco.idpais = pais.idpais ")
+	 .append("left join cidades on endereco.idcidade = cidades.idcidade ")
+	 .append("left join ufs on ufs.iduf = cidades.iduf ")
+	 .append("left join regioes on (case when ufs.idregioes is null then 0 else cast(ufs.idregioes as integer) end) = regioes.idregioes ")
+	 .append("left join (select distinct idsolicitacaoservico ")
+				.append("from ocorrenciasolicitacao ")
+				.append("where idjustificativa is not null) vwstatussemsusp on vwstatussemsusp.idsolicitacaoservico = ss.idsolicitacaoservico ")
+	 .append("left join (select max(idatividadeperiodica) reagendada, idsolicitacaoservico ")
+				.append("from atividadeperiodica ")
+				.append("group by idsolicitacaoservico) vwreagendada on vwreagendada.idsolicitacaoservico = ss.idsolicitacaoservico ")
+	.append("where ");
+
+	if (pContrato!=null &amp;&amp; pContrato>0) {
+		sql.append("c.idcontrato = ? and ");
+	}
+	sql.append("(datahorafim is not null) ")
+	   .append("and ss.datahorafim between ? and ? ")
+	   .append("and ss.idstatus = 6 ")
+	.append("order by ss.idsolicitacaoservico");
+
+	return sql.toString();
+}
+
+executaConsulta1 = function(){
+	var resultado = null;
+	var parmsUtilizadosNoSQL = new importNames.ArrayList();
+	if (pContrato!=null &amp;&amp; pContrato>0) {
+		parmsUtilizadosNoSQL.add(pContrato);
+	}
+	parmsUtilizadosNoSQL.add(pDataInicio);
+	parmsUtilizadosNoSQL.add(pDataFim);
+	
+	sqlConsulta = montarSql1();
+	resultado = jdbcEngine.execSQL(sqlConsulta, parmsUtilizadosNoSQL.toArray(), 0);
+	return resultado ;
+}
+
+fadd = function(texto){
+	if (texto!=null){
+		return texto;
+	} else {
+		return " ";
+	}
+}
+
+construirRelatorio = function(){
+	var consulta = executaConsulta1();
+	var registro = null;
+	var relatorio = new importNames.StringBuilder();
+	
+	relatorio.append("&lt;!DOCTYPE html>");
+	relatorio.append("&lt;html>");
+	relatorio.append("&lt;head>");
+	relatorio.append("&lt;/head>");
+	relatorio.append("&lt;style>");
+	relatorio.append("img {");
+		relatorio.append("border: 1px solid #ddd;");
+		relatorio.append("border-radius: 4px;");
+		relatorio.append("padding: 5px;");
+	relatorio.append("}");
+	relatorio.append("&lt;/style>");
+	relatorio.append("&lt;body>");
+		relatorio.append("&lt;table width='100%'>");
+			relatorio.append("&lt;tr>");
+				relatorio.append("&lt;td width='5%'>");
+					relatorio.append("Filtros");
+				relatorio.append("&lt;/td>");
+				relatorio.append("&lt;td width='95%'>");
+					relatorio.append("Data Fim: ");
+					relatorio.append(formataData(pDataInicio));
+					relatorio.append(" e ");
+					relatorio.append(formataData(pDataFim));
+				relatorio.append("&lt;/td>");
+			relatorio.append("&lt;/tr>");
+			relatorio.append("&lt;tr>");
+				relatorio.append("&lt;td>");
+					relatorio.append(" ");
+				relatorio.append("&lt;/td>");
+				relatorio.append("&lt;td>");
+					relatorio.append("Contrato: ");
+					relatorio.append(obtemNomeContrato(pContrato));
+				relatorio.append("&lt;/td>");
+			relatorio.append("&lt;/tr>");
+		relatorio.append("&lt;/table>");
+		relatorio.append("&lt;table width='100%'>");
+			relatorio.append("&lt;tr>");
+				relatorio.append("&lt;td>");
+					relatorio.append("&lt;table class=\"table table-bordered table-striped table-condensed\">");
+
+	if((consulta!=null)&amp;&amp;(consulta.size()>0)){
+					relatorio.append("&lt;thead>");
+						relatorio.append("&lt;tr> ");
+							relatorio.append("&lt;th >");
+								relatorio.append("N&amp;uacute;mero");
+							relatorio.append("&lt;/th>");
+							relatorio.append("&lt;th >");
+								relatorio.append("Atividade");
+							relatorio.append("&lt;/th>");
+							relatorio.append("&lt;th >");
+								relatorio.append("Data In&amp;iacute;cio");
+							relatorio.append("&lt;/th>");
+							relatorio.append("&lt;th >");
+								relatorio.append("Data Fim");
+							relatorio.append("&lt;/th>");
+							relatorio.append("&lt;th >");
+								relatorio.append("ANS");
+							relatorio.append("&lt;/th>");
+							relatorio.append("&lt;th >");
+								relatorio.append("Tempo de atendimento total");
+							relatorio.append("&lt;/th>");
+							relatorio.append("&lt;th >");
+								relatorio.append("Reagendado");
+							relatorio.append("&lt;/th>");
+							relatorio.append("&lt;th >");
+								relatorio.append("Reaberto");
+							relatorio.append("&lt;/th>");
+							relatorio.append("&lt;th >");
+								relatorio.append("T&amp;eacute;cnico");
+							relatorio.append("&lt;/th>");
+							relatorio.append("&lt;th >");
+								relatorio.append("Unidade");
+							relatorio.append("&lt;/th>");
+							relatorio.append("&lt;th >");
+								relatorio.append("Resposta");
+							relatorio.append("&lt;/th>");
+							relatorio.append("&lt;th >");
+								relatorio.append("Solu&amp;ccedil;&amp;atilde;o");
+							relatorio.append("&lt;/th>");
+						relatorio.append("&lt;/tr>");
+					relatorio.append("&lt;/thead>");
+					relatorio.append("&lt;tbody>");
+
+		for (var it1 = consulta.iterator(); it1.hasNext();){
+			registro = it1.next();
+
+				relatorio.append("&lt;tr> ");
+					relatorio.append("&lt;td >");
+						relatorio.append(fadd(registro[0]));
+					relatorio.append("&lt;/td>");
+					relatorio.append("&lt;td >");
+						relatorio.append(fadd(registro[6]));
+					relatorio.append("&lt;/td>");
+					relatorio.append("&lt;td >");
+						relatorio.append(formataTimeStamp(registro[10]));
+					relatorio.append("&lt;/td>");
+					relatorio.append("&lt;td >");
+						relatorio.append(formataTimeStamp(registro[11]));
+					relatorio.append("&lt;/td>");
+					relatorio.append("&lt;td >");
+						relatorio.append(formataHHMM(registro[18],registro[19]));
+					relatorio.append("&lt;/td>");
+					relatorio.append("&lt;td >");
+						relatorio.append(calculaTempoTotal(registro[15]));
+					relatorio.append("&lt;/td>");
+					relatorio.append("&lt;td >");
+						relatorio.append(fadd(registro[40]));
+					relatorio.append("&lt;/td>");
+					relatorio.append("&lt;td >");
+						relatorio.append(fadd(registro[37]));
+					relatorio.append("&lt;/td>");
+					relatorio.append("&lt;td >");
+						relatorio.append(fadd(registro[23]));
+					relatorio.append("&lt;/td>");
+					relatorio.append("&lt;td >");
+						relatorio.append(fadd(registro[31]));
+					relatorio.append("&lt;/td>");
+					relatorio.append("&lt;td >");
+						relatorio.append(fadd(registro[1]));
+					relatorio.append("&lt;/td>");
+					relatorio.append("&lt;td >");
+						relatorio.append(fadd(registro[2]));
+					relatorio.append("&lt;/td>");
+				relatorio.append("&lt;/tr>");
+		}
+				relatorio.append("&lt;/tbody>");
+	} else {
+		relatorio.append("&lt;tr> ");
+			relatorio.append("&lt;td >");
+				relatorio.append("&lt;b>A consulta n&amp;#227;o retornou resultados!!!&lt;/b>");
+			relatorio.append("&lt;/td>");
+		relatorio.append("&lt;/tr>");
+	}
+
+					relatorio.append("&lt;/table>");
+				relatorio.append("&lt;/td>");
+			relatorio.append("&lt;/tr>");
+		relatorio.append("&lt;/table>");
+	relatorio.append("&lt;/body>");
+	relatorio.append("&lt;/html>");
+	
+	return relatorio.toString();
+}
+
+HTML_RESULT.append(construirRelatorio());</script><jsp></jsp><template></template><tipoExibicao>G</tipoExibicao><moduloExibicao>GIR</moduloExibicao></br.com.centralit.citcorpore.bean.SmartReportDTO>

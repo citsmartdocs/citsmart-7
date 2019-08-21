@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?><br.com.centralit.citcorpore.bean.SmartReportDTO><identificacao>Requisicoes/Incidentes por situacao</identificacao><descricao>reqincsituacao</descricao><idCategoria>1</idCategoria><tipoConsulta>1</tipoConsulta><tipoRelatorio>4</tipoRelatorio><parametros></parametros><sql>select 0,tmp.situacao, count(*)
+from solicitacaoservico solserv
+inner join (select
+	idsolicitacaoservico,
+	case f_sla_noprazo(ss.idstatus, ss.situacaosla, ss.datahoralimite, ss.datahorasuspensaosla,ss.prazohh,ss.prazomm,ss.tempoatendimentohh,ss.tempoatendimentomm)
+		when 'N' then 'Vencido'
+		when 'S' then 
+			case when TO_CHAR(age(datahoralimite, now()) , 'HH' ) = '00' THEN 'A vencer' else 'No prazo' end
+		
+	end as situacao
+from solicitacaoservico ss) tmp on solserv.idsolicitacaoservico = tmp.idsolicitacaoservico
+group by 1,2</sql><script>{"tableListEdit" : [],"relationListEdit": [],"conditionListEdit" : [],"campoList" : []}</script><jsp></jsp><template></template><tipoExibicao>N</tipoExibicao><moduloExibicao></moduloExibicao></br.com.centralit.citcorpore.bean.SmartReportDTO>

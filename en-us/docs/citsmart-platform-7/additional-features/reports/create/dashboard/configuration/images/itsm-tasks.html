@@ -1,0 +1,132 @@
+
+<div class="table-container">
+	<div class="table-header clearfix" style="width: {{getHeaderWidth()}}%">
+		<div class="table-header-right">
+			<a type="button" class="btn btn-sm btn-primary table-header-item" ng-disabled="!filterCriteria.keywordValue" ng-click="filterResult(true)" >
+				{{'citcorpore.comum.filtrar' | translate}}
+			</a>  
+			<a type="button" class="btn btn-sm btn-default table-header-item" ng-click="limparFilters()" >
+				{{'citcorpore.comum.limparFiltros' | translate}}
+			</a> 
+			<a type="button" style="margin-left: 40px" class="btn btn-sm btn-info table-header-item" ng-click="fetchResult()" >
+				{{'citcorpore.comum.atualizar' | translate}}
+			</a>  
+			<a type="button" class="btn btn-sm btn-default table-header-item" ng-click="exportCSV()" >
+				{{'LABEL.EXPORTAR_CSV' | translate}}
+			</a>  
+		</div><!-- .table-header-right -->
+
+		<div class="table-header-left">
+			<div class="form-group">
+				<div class="input-group small" style="width: 100%" >
+					<input type="text" class="form-control" style="height: 30px" maxlength="255" placeholder="{{labelPalavraChave}}" ng-model="filterCriteria.keywordValue" />
+				</div>
+			</div><!-- .form-group -->
+		</div><!-- .table-header-left -->
+	</div><!-- .table-header -->
+	
+	<div id="list-{{uuid}}">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="text-center m15" ng-show="(!requests || requests.length == 0) && loading == false">
+					{{"MSG04" | translate}}
+				</div>
+				<div class="text-center m15" ng-show="(!requests || requests.length == 0) && loading == true">
+					{{"citcorpore.comum.aguardeCarregando..." | translate}}
+				</div>
+				<div class="tableless request-list" ng-show="requests && requests.length > 0">
+					<div class="tableless-tr">
+						<div class="tableless-th no-hide text-center pointer" style="width: 3%">&nbsp;</div>
+						<div class="tableless-th numero small" >{{ "citcorpore.ui.tabela.coluna.Numero" | translate }}</div>
+						<div ng-if="!shortList && !details" class="tableless-th w50 prioridade small" >{{ "citcorporeRelatorio.comum.prioridade" | translate }}</div>
+						<div ng-if="!details" class="tableless-th w150 solicitacao small" >{{ "citcorpore.comum.atividade" | translate }}</div>
+						<div ng-if="!shortList" class="tableless-th w100 dataCriacao small" >{{ "lookup.dataCriacao" | translate }}</div>
+						<div class="tableless-th tarefa small w200" >{{ "projeto.tarefa" | translate }}</div>
+						<div ng-if="details" class="tableless-th detalhes w200 small" >{{ "gerenciaportfolio.detalhes" | translate }}</div>
+						<div ng-if="!shortList" class="tableless-th grupoAtual small" >{{ "citcorpore.comum.grupoAtual" | translate }}</div>
+						<div ng-if="!shortList" class="tableless-th responsavel small" >{{ "citcorpore.comum.responsavel" | translate }}</div>
+						<div class="tableless-th situacao small" >{{ "serviceRequestIncident.situacaoTarefa" | translate }}</div>
+						<div ng-if="!shortList && !details" class="tableless-th w100 dataLimite small" >{{ "pesquisarequisicaoliberacao.datalimite" | translate }}</div>
+					</div>
+					<div id="list-item-{{request.id}}" name="list-item" class="tableless-tr request-item" ng-class="request.idstatus == 2 ? 'request-item-suspended' : (request.critico && request.critico == 'S' ? 'request-item-critic' : '')" data-request="{{request.id}}" ng-repeat="request in requests" ng-dblclick="openRequest($event, request, false)">
+						<div class="tableless-td request-type" style="width: 3%" ng-mouseover="request.hovered = true" ng-mouseleave="request.hovered = false">
+							<span class="tipo">
+								<i ng-class="request.idstatus == 2 ? 'suspended' : (request.type == 'I' ? 'incidente' : 'requisicao')">{{request.type == 'I' ? 'I' : 'R'}}</i>
+							</span>
+						</div>
+						<div class="tableless-td numero" >
+							<div class="request-id small">{{request.id}}</div>
+						</div>
+						<div ng-if="!shortList && !details" class="tableless-td prioridade" >
+							<span class="badge badge-prioridade" ng-class="request.idstatus == 2 ? 'badge-default' : (request.priority <= 2 ? 'badge-danger' : (request.priority >= 4 ? 'badge-success' : (request.priority == 3 ? 'badge-warning' : 'badge-default')))">
+								<span class="small" ng-if="request.priority <= 2">{{"citcorpore.comum.alta" | translate}}</span>
+								<span class="small" ng-if="request.priority == 3">{{"citcorpore.comum.media" | translate}}</span>
+								<span class="small" ng-if="request.priority >= 4">{{"citcorpore.comum.baixa" | translate}}</span>
+							</span>
+						</div>
+						<div ng-if="!details" class="tableless-td ellipsis servico small" title="{{request.activity}}">{{request.activity}}</div>
+						<div ng-if="!shortList" class="tableless-td dataCriacao small">{{request.creationdate | date : 'dd/MM/yyyy HH:mm'}}</div>
+						<div class="tableless-td ellipsis tarefa ellipsis w200 small" title="{{request.task}}" >{{request.task}}</div>
+						<div ng-if="details" class="tableless-td detalhes ellipsis w200 small" title="{{request.details}}" >{{request.details}}</div>
+						<div ng-if="!shortList" class="tableless-td ellipsis grupoAtual small" title="{{request.currentGroup}}">{{request.currentgroup}}</div>
+						<div ng-if="!shortList" class="tableless-td ellipsis responsavel small" title="{{request.responsible}}">{{request.responsible}}</div>
+						
+						<div ng-show="!request.flowstatus_id" class="tableless-td situacao" >
+							<span class="badge badge-prioridade" ng-class="{'badge-success': request.idstatus == 1 || request.idstatus == 4 || request.idstatus == 5 || request.idstatus == 7, 'badge-default': request.idstatus == 2 || request.idstatus == 6, 'badge-danger' : request.idstatus == 3}"><small>{{request.flowstatus | translate}}</small></span>
+						</div>
+						<div ng-show="request.flowstatus_id" class="tableless-td situacao" >
+							<span class="badge" style="background-color:{{request.backgroundcolor}}; color:{{request.textcolor}}; width:100%"><small>{{request.flowstatus | translate}}</small></span>
+						</div>
+						
+						<div ng-if="!shortList && !details" class="tableless-td dataLimite small">{{request.slalimit | date : 'dd/MM/yyyy HH:mm'}}</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div ng-show="totalItens > 0">
+	    <div class="row">
+	    	<div class="col-md-4 pagination text-center small">
+		    	{{$translate.instant('citcorpore.comum.mostrando')}}							
+				{{totalItens < 1 ? '0' : (filterCriteria.limit*filterCriteria.start-(filterCriteria.limit-1))}}							
+				{{$translate.instant('citcorpore.comum.a')}}								
+				{{(filterCriteria.limit*filterCriteria.start) > totalItens ? totalItens : (filterCriteria.limit*filterCriteria.start)}}
+				<translate>{{$translate.instant('citcorpore.comum.deMin')}}</translate>
+				({{totalItens}})
+				<span ng-if="totalElements > 1">{{$translate.instant('citcorpore.comum.itens')}}</span>
+				<span ng-if="totalElements < 2">{{$translate.instant('citcorpore.comum.item')}}</span>
+			</div><!-- .col -->
+			<div class="col-sm-2 pagination text-center small" ng-if="totalItens > 10">
+				{{"citcorpore.comum.itensPorPagina" | translate}}
+				<a href="#void" ng-click="updateTotalItens(10);" ng-if="totalItens != 10">10</a>
+				<a href="#void" ng-click="updateTotalItens(50);" ng-if="totalItens != 50">50</a>
+				<a href="#void" ng-click="updateTotalItens(100);" ng-if="totalItens != 100">100</a>
+			</div>
+			<div class="col-md-6 pagination text-right small">
+				<ul>
+					<li ng-class="{disabled: filterCriteria.start == 1}" ><a href ng-click="fetchResult(1)"><i class="fa fa-angle-double-left"></i></a></li>
+					<li ng-class="{disabled: filterCriteria.start == 1}" ><a href ng-click="fetchResult(filterCriteria.start - 1)"><i class="fa fa-angle-left"></i></a></li>
+					<li ng-repeat="page in pages track by $index" ng-class="{active: page.active}"><a href ng-click="fetchResult(page.number)">{{page.text}}</a></li>
+					<li ng-class="{disabled: filterCriteria.start == totalPages}" ><a href ng-click="fetchResult(filterCriteria.start + 1)"><i class="fa fa-angle-right"></i></a></li>
+					<li ng-class="{disabled: filterCriteria.start == totalPages}" ><a href ng-click="fetchResult(totalPages)"><i class="fa fa-angle-double-right"></i></a></li>
+				</ul>
+			</div>
+	    </div>
+	</div>
+	
+	<div class="modal fade" id="modal-request" tabindex="-1" role="dialog" aria-labelledby="modal-request-label">
+		<div class="modal-dialog modal-full" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+				</div>
+				<div class="modal-body" style="padding:0;">
+					<iframe id="content-request" name="content-request" src="" style="width:100%;height:500px;"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>	
+</div>
+
+
