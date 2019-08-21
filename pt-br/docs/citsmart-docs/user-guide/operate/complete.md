@@ -9,10 +9,10 @@ A contagem da temporalidade para destinação final só acontece uma vez que o p
 quais foi tramitado.
 
 Após a conclusão, não será possível executar mais nenhuma ação no processo ou em seus documentos, a não ser a reabertura do
-processo ( Solicitando a reabertura de um processo ).
+processo ([Solicitando a reabertura de um processo](/pt-br/citsmart-docs/user-guide/operate/reopen.html) ).
 
-Processos concluídos em todas as unidades são redirecionados para a tela de processos arquivados (Visualizando todos os 
-processos arquivados).
+Processos concluídos em todas as unidades são redirecionados para a tela de processos arquivados ([Visualizando todos os 
+processos arquivados](/pt-br/citsmart-docs/user-guide/operate/viewing.html)).
 
 Como acessar
 ---------------

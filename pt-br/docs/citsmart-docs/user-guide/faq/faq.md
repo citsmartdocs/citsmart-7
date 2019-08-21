@@ -18,8 +18,8 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
 
     Além disso, cada elemento pode ou não ser utilizado como classificação, ou seja, você poderá definir se o elemento é um 
     elemento fim ou apenas um agrupador.
-
-   Saiba mais em Mantendo um plano de classificação, temporalidade e destinação.
+    
+    Saiba mais em [Mantendo um plano de classificação, temporalidade e destinação](/pt-br/citsmart-docs/user-guide/operate/plan.html).
    
 !!! Question "Como é calculada a temporalidade de documentos e processos?"
 
@@ -51,22 +51,22 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     - Eliminação: os artefatos serão eliminados permanentemente.
     - Guarda permanente: os artefatos serão guardados permanentemente no servidor de guarda de documentos.
     
-    A destinação é definida no conhecimento Mantendo um plano de classificação, temporalidade e destinação .
+    A destinação é definida no conhecimento [Mantendo um plano de classificação, temporalidade e destinação](/pt-br/citsmart-docs/user-guide/operate/plan.html).
     
 !!! Question "Como eu incluo um documento no sistema?"
 
     Poderão ser incluídos documentos em várias extensões no sistema. Ao incluir um documento, deverão ser informados os
-    metadados, que variam de acordo com a forma de criação, se online ou anexo. Saiba mais no conhecimento Incluindo um
-    documento.
+    metadados, que variam de acordo com a forma de criação, se online ou anexo. Saiba mais no conhecimento [Incluindo um
+    documento](/pt-br/citsmart-docs/user-guide/operate/adding.html).
     
 !!! "Question "Como eu localizo um processo ou documento no sistema?"
 
     Caso o processo esteja aberto na sua unidade, você poderá localizá-lo tanto na tela de processos abertos/gerados 
-    (Pesquisando processos abertos/gerados na unidade) como na tela de pesquisa (Pesquisando todos os processos e os 
-    documentos)
+    ([Pesquisando processos abertos/gerados na unidade](/pt-br/citsmart-docs/user-guide/operate/searching.html)) como na tela 
+    de pesquisa ([Pesquisando todos os processos e os documentos](/pt-br/citsmart-docs/user-guide/operate/search-all-processes.html))
     
     Caso o processo esteja concluído em todas as unidades, você poderá localizá-lo através da tela de processos arquivados
-    (Visualizando todos os processos arquivados)
+    ([Visualizando todos os processos arquivados](/pt-br/citsmart-docs/user-guide/operate/viewing.html))
     
 !!! Question "Como funciona a privacidade dos processos e dos documentos?"
 
@@ -92,8 +92,8 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     
 !!! Question "Como eu crio templates para os documentos?"
 
-    Podem ser criados templates para documentos criados via editor de texto da aplicação. Os modelos de documentos (Mantendo
-    modelos de documentos) são compostos de:
+    Podem ser criados templates para documentos criados via editor de texto da aplicação. Os modelos de documentos ([Mantendo
+    modelos de documentos](/pt-br/citsmart-docs/user-guide/operate/document-template.html)) são compostos de:
 
     - Cabeçalho: é cadastrado no menu de cabeçalhos. Os cabeçalhos podem ser reaproveitados em diversos tipos de documento.
     - Conteúdo: é cadastrado na própria tela de modelos de documentos. Este é o template do corpo do documento.
@@ -101,11 +101,11 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     
 !!! Question "Existe uma forma de alterar um processo que já foi concluído em todas as unidades?"
 
-    Sim, mas para isso é necessário solicitar a reabertura do processo (Solicitando a reabertura de um processo)
+    Sim, mas para isso é necessário solicitar a reabertura do processo ([Solicitando a reabertura de um processo](/pt-br/citsmart-docs/user-guide/operate/reopen.html))
     
 !!! Question "Como funciona o compartilhamento de processos com outras unidades organizacionais?"
 
-    Os processos podem ser tramitados para outras unidades através da funcionalidade de envio de processos (Enviar processos).
+    Os processos podem ser tramitados para outras unidades através da funcionalidade de envio de processos ([Enviar processos](/pt-br/citsmart-docs/user-guide/operate/submit-processes.html)).
     
 !!! Question "Quem é responsável pela validação dos processos e documentos sigilosos?"
 

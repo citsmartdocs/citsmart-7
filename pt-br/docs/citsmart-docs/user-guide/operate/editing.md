@@ -7,8 +7,8 @@ Esta funcionalidade tem por objetivo a edição de documentos.
 Os documentos poderão ser editados tanto a nível de metadados quanto a nível de conteúdo do documento. No caso de documentos 
 anexados, os anexos poderão ser substituídos por novas versões.
 
-Para editar um documento cujo processo estiver concluído na unidade, o usuário deverá reabrir (Solicitando a reabertura de um 
-processo) o processo.
+Para editar um documento cujo processo estiver concluído na unidade, o usuário deverá reabrir ([Solicitando a reabertura de um 
+processo](/pt-br/citsmart-docs/user-guide/operate/reopen.html)) o processo.
 
 !!! warning "ATENÇÃO"
 
@@ -27,8 +27,8 @@ Pré-condições
 Filtros
 ---------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando
-a localização dos itens desejados:
+1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
+facilitando a localização dos itens desejados:
 
 - Palavra chave.
 

@@ -43,7 +43,7 @@ deverá estar contido em um processo. Sendo assim, um processo funciona como um 
     pode ser informado (quando for trazido de outra solução).
         - No segundo caso, deverá ser informada a data de referência do protocolo informado, que é a data que o mesmo foi
         criado na outra plataforma.
-    - **Tipo de processo**: o tipo de processo (Mantendo tipos de processo) é um metadado que deve ser cadastrado previamente 
+    - **Tipo de processo**: o tipo de processo ([Mantendo tipos de processo](/pt-br/citsmart-docs/user-guide/operate/process-types.html)) é um metadado que deve ser cadastrado previamente 
     na tela de cadastro de tipos de processos.
         - Quando o tipo de processo é selecionado, o sistema carregará as definições do tipo selecionado. A imagem abaixo ilustra o funcionamento:
 

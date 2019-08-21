@@ -53,7 +53,7 @@ Preenchimento dos campos cadastrais
 anexo;
 
 3. Lembrando que alguns tipos de documento só podem ser criados de forma online ou anexa, dependendo do que foi definido no 
-cadastro daquele tipo de documento (Mantendo tipos de documento);
+cadastro daquele tipo de documento ([Mantendo tipos de documento](/pt-br/citsmart-docs/user-guide/operate/document-types.html));
 
 !!! note "NOTA"
 
@@ -61,7 +61,7 @@ cadastro daquele tipo de documento (Mantendo tipos de documento);
     informada a sua localização em meio físico. Exemplo: Armário 3 Sala 2.
     
 4. Documentos online deverão ser produzidos no editor de texto da ferramenta, seguindo o template definido no menu de modelos
-de documentos (Mantendo modelos de documentos);
+de documentos ([Mantendo modelos de documentos](/pt-br/citsmart-docs/user-guide/operate/document-template.html));
 
 5. Os documentos incluídos ficarão disponíveis para acesso através da paleta localizada no canto esquerdo da tela do processo;
 

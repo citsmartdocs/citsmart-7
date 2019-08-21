@@ -22,7 +22,7 @@ Filtros
 1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando 
 a localização dos itens desejados:
 
-- Palavra chave o enter.
+- Palavra chave ou enter.
 
 ![Pesquisa](images/despachar.img1.jpg)
 
