@@ -1,105 +1,93 @@
-title: Cadastro e pesquisa de grupo de disponibilidade
-Description: Esta funcionalidade tem por objetivo agrupar itens de configuração para gerar índice de disponibilidades.
-# Cadastro e pesquisa de grupo de disponibilidade
+title: Availability group registration and search
+Description: The goal of this feature is to group configuration items together to generate availability indicators..
+# Availability group registration and search
 
-Esta funcionalidade tem por objetivo agrupar itens
-de configuração para gerar índice de disponibilidades.
+The goal of this feature is to group configuration items together to generate availability indicators.
 
-Como acessar
+How to access
 ---------------
 
-1. Acesse a funcionalidade de grupo de disponibilidade através da navegação no menu principal 
-**Processos ITIL > Gerência de Disponibilidade > Grupo de Disponibilidade**.
+1. Access the Availability Group feature navigating through the main menu 
+**Process Management > Availability Management > Availability Group**.
 
-Pré-condições
+Preconditions
 --------------
 
-1. Cadastrar calendário (ver conhecimento [Cadastro e pesquisa de calendário](/pt-br/citsmart-platform-7/plataform-administration/time/create-calendar)).
+1. Register a Calendar (see knowledge Calendar registration and search).
 
-Filtros
+Filters
 ----------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação 
-de itens na listagem padrão da funcionalidade, facilitando a 
-localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it 
+easier to find the desired items:
 
-    - Nome.
+    - Name.
  
- 2. Na tela de **Grupo de Disponibilidade**, clique na aba **Pesquisa**.
- Será apresentada a tela de pesquisa conforme ilustrada na figura abaixo:
+ 2. On the **Availability Group** screen, click on the **Search** tab. The search screen will be displayed as illustrated on 
+ the image below:
+
  
-     ![Grupo disponibilidade](images/grupo-disponibilidade.img01.png)
+     ![Group](images/goup.img1.jpg)
      
-     **Figura 1 - Tela de pesquisa de grupo de disponibilidade**
+     **Figure 1 - Availability group search screen**
  
- 3. Realize a pesquisa de grupo de disponibilidade;
+ 3. Perform a availability group search;
  
-     - Informe o nome do grupo de disponibilidade que deseja pesquisar
-     e clique no botão "Pesquisar". Após isso, será exibido o registro do
-     grupo de disponibilidade conforme o nome informado;
-     
-     - Caso deseje listar todos os registros de grupo de disponibilidade, 
-     basta clicar diretamente no botão "Pesquisar".
-     
-Listagem de itens
+     - Insert the name of the intended availability group and click on the *Search* button. Afterwards, the availability group 
+     entry will be displayed according to the description provided.
+
+     - To list all availability groups, just click directly on the *Search* button, if needed.
+    
+Items list
 -------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar
-a identificação dos itens desejados na listagem padrão da funcionalidade:
-**Nome** e **Acordo de disponibilidade (percentual)**.
+1. The following cadastral fields are available to the user to make it easier to identify the desired items in the standard 
+feature listing: **Name** and **Availability Agreement (percentage)**.
 
-    ![Tela de listagem](images/grupo-disponibilidade.img02.png)
+    ![Listing](images/goup.img2.jpg)
     
-    **Figura 2 - Tela de listagem de grupo de disponibilidade**
+    **Figure 2 - Availability listing screen**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será 
-direcionado para a tela de cadastro exibindo o conteúdo referente
-ao registro selecionado;
+2. After searching, select the intended entry. Afterwards, they will be redirected to the registry screen displaying the 
+content belonging to the selected entry.
 
-3. Para alterar os dados do registro de grupo de disponibilidade, basta modificar
-as informações dos campos desejados e clicar no botão "Gravar" para que seja gravada
-a alteração realizada no registro, onde a data, hora e usuário serão gravados
-automaticamente para uma futura auditoria.
+3. To edit a availability group entry, just modify the information on the intended fields and click on the *Save* button to 
+confirm the changes to the database, at which date, time and user will be stored automatically for a future audit.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Será apresentada a tela de Cadastro de **Grupo de Disponibilidade**, 
-conforme ilustrada na figura abaixo:
+1. The **Availability Group Registration** screen will be displayed, as illustrated on the image below:
 
-    ![Tela de cadastro](images/grupo-disponibilidade.img03.png)
+    ![Entry](images/goup.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de grupo de disponibilidade**
+    **Figure 3 - Availability group entry screen**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill out the fields as instructed below:
 
-    - **Nome**: informe o nome do grupo de disponibilidade;
-    - **Calendário**: informe o calendário do grupo de disponibilidade;
-    - **Custo por hora de indisponibilidade**: informe o custo da hora de 
-    indisponibilidade do grupo;
-    - **Acordo de Disponibilidade (percentual)**: informe o percentual de
-    disponibilidade acordado;
-    - **Itens de Configuração**: adicione os itens de configuração para
-    o grupo de disponibilidade.
+    - **Name**: name the availability group;
+    - **Calendar**: insert the availability group calendar;
+    - **Downtime Cost:**: insert the group's downtime cost per hour;
+    - **Availability Agreement (Percentage)**: insert the agreed availability percentage;
+    - **Configuration Items**: add the configuration items to the availability group:
     
-3. Clique no botão "Pesquisar Item de Configuração", será apresentada a tela de pesquisa
-de IC, realize a pesquisa e selecione o IC. Feito isso, o IC será adicionado
-ao grupo, conforme exemplo ilustrado na figura abaixo:
+3. Click on the *Configuraton Item Search* button, the CI search screen will be displayed, perform a search and select the CI. 
+Then, the CI will be added to the group, as illustrated on the image below:
 
-    ![Tela de pesquisa](images/grupo-disponibilidade.img04.png)
+    ![Search](images/goup.img4.jpg)
     
-    **Figura 4 - Pesquisa item de configuração**  
+    **Figure 4 - Configuration item search**  
     
-4. Para verificar as informações do IC, basta clicar no botão "Visualizar" do mesmo;
+4. To check the configuration item's information, just click on its *View* button;
 
-    ![Detalhamento](images/grupo-disponibilidade.img05.png)
+    ![Description](images/goup.img5.jpg)
     
-    **Figura 5 - Detalhamento de item de configuração**
+    **Figure 5 - Configuration item description**
     
-5. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário 
-serão gravados automaticamente para uma futura auditoria.
+5. Click on the *Save* button to confirm the changes to the database, at which date, time and user will be stored 
+automatically for a future audit.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/10/2019 – Larissa Lourenço
+    <b>Updated:</b>08/21/2019 – Larissa Lourenço
