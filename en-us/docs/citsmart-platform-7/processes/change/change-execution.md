@@ -62,7 +62,7 @@ button and select the *Start/Run Task* from it, as shown in the image below:
     
 2. The *Change Request* screen appears with the fields filled with the content of the selected request;
 
-    - RegiRecord the required information about the execution of the change request:
+    - Record the required information about the execution of the change request:
         - Click on the *Closure* tab; 
         - Click the *Add an Execution Register* button;
         - Describe the information about the execution of your activity.
@@ -122,7 +122,7 @@ Linking release to change
     
     **Figure 8 - Release selection**
     
-    - Click on icon ![simbolo](images/simb-lupa.png) to link the release;
+    - Click on icon ![simbolo](images/simb-lupa.jpg) to link the release;
     - A window for release search appears. Perform the search and select the release. Once this is done, release will be 
     related to change;
     
