@@ -17,7 +17,7 @@ delayed), by priority and by performer group, demonstrated on graphics, as illus
 
 ![Graphics](images/graphics.img1.jpg)
 
-**Figure 1 - Changes graphics screen**
+**Figure 1 - Changes graphics screen**  
 
 !!! tip "About"
 
