@@ -137,7 +137,7 @@ Linking knowledge to change
 
 1. Inform knowledge regarding change:
 
-    - On the right side of the change request screen, click the *Knowledge Base* option;
+    - On the right side of the change request screen, click the **Knowledge Base** option;
     
     ![Knowledge](images/execution.img10.jpg)
     
@@ -152,7 +152,7 @@ Linking knowledge to change
     
     **Figure 11 - Knowledge relationship to change**
     
-    - If you want to remove a related knowledge, simply click on the icon ![simbolo](images/simb-menos.png).
+    - If you want to remove a related knowledge, simply click on the icon ![simbolo](images/simb-menos.jpg).
     
 Linking roles/responsibilities to change
 -----------------------------------------------
