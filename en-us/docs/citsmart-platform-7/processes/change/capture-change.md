@@ -1,69 +1,67 @@
-title: Captura de requisição de mudança
-Description: Esta funcionalidade refere-se ao ato de atribuir a determinada tarefa para o próprio usuário, tornando-se o 
-# Captura de requisição de mudança
+title: Change request capture
+Description: This functionality refers to the act of assigning the particular task to the user itself
+# Change request capture
 
-Esta funcionalidade refere-se ao ato de atribuir a determinada tarefa para o próprio usuário, tornando-se o responsável 
-atual pela requisição de mudança.
+This functionality refers to the act of assigning the particular task to the user itself, becoming the current responsible for the request for change.
 
-Como acessar
+How to access
 -------------
 
-1. Acesse a funcionalidade de captura de requisição de mudança através da navegação no menu principal
-**Processos ITIL > Gerência de Mudança > Gerenciamento de Mudança**.
+1. Access the change request capture functionality through navigation in the main menu 
+**Process Management > Change Management > Change Management**.
 
-Pré-condições
+Preconditions
 ----------------
 
-1. Não se aplica.
+1. Not applicable.
 
-Filtros
+Filters
 ----------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+1. The following filters enable the user to restrict the participation of items in the standard feature listing, making it 
+easier to locate the desired items:
 
-    - Número da mudança;
-    - Atribuída/Compartilhada;
-    - Itens por página.
+    - Change Number;
+    - Assigned/Shared;
+    - Items per page.
     
-    ![Filtros](images/cap-mud.img1.png)
+    ![Filters](images/captura.img1.jpg)
     
-    **Figura 1 - Tela de filtros**
+    **Figure 1 - Filters screen**
     
-Listagem de itens
+Items list
 ------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na 
-listagem padrão da funcionalidade: Número, Solicitante, Criada em, Prioridade, Prazo, Prazo limite, Atraso, Situação, 
-Tarefa atual, Grupo Executor e Responsável atual.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the 
+standard listing of the functionality: **Number, User, Created on, Priority, Dead Line, Time Limit, Expired, Situation, Current task, Executor Group** and **Current responsible**;
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Visualizar", "Relatórios"
-e "Ação".
+2. There are action buttons available to the user in relation to each item in the listing, they are: *View, Reports*, and 
+*Action*.
 
-![Listagem](images/cap-mud.img2.png)
+![Listing](images/captura.img2.jpg)
 
-**Figura 2 - Tela de listagem de tarefas**
+**Figure 2 - Task listing screen**
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Não se aplica.
+1. Not applicable.
 
-Capturando tarefa
+Capturing task
 ------------------
 
-1. Na guia **Gerenciamento**, localize a requisição de mudança que deseja capturar, clique no botão "Ação" e selecione a opção 
-"Capturar tarefa", conforme indicado na imagem abaixo:
+1. On the **Management** tab, locate the change request that you want to capture, click the action button and select the 
+Capture Task option, as indicated in the image below:
 
-    ![Capturar](images/cap-mud.img3.png)
+    ![Capture](images/captura.img3.jpg)
     
-    **Figura 3 - Capturar tarefa**
+    **Figure 3 - Capture task**
     
-2. Será exibida uma mensagem de confirmação da captura da tarefa. Clique em "OK" para efetuar a operação;
+2. A task capture confirmation message will be displayed. Click *OK* to perform the operation;
 
-3. Será apresentado o responsável atual pelo atendimento da requisição de mudança na lista de requisições.
+3. The current responsible for the request for change in the request list will be presented.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Larissa Lourenço
+    <b>Updated:</b>08/22/2019 – Larissa Lourenço
