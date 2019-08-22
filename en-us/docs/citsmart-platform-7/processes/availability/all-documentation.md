@@ -1,6 +1,6 @@
-title:  Cadastro e pesquisa de grupo de disponibilidade
-Description: Disponibiliza todos os conhecimentos do processo. 
-# Cadastro e pesquisa de grupo de disponibilidade
+title:  Availability process Overview
+Description: Provides all the knowledge of the process.
+# Availability process Overview
 
 [Availability group registration and search](/en-us/citsmart-platform-7/processes/availability/availability-group.html)
 
