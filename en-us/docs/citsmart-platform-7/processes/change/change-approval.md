@@ -1,109 +1,111 @@
-title: Aprovação de requisição de mudança
-Description: Essa funcionalidade permite realizar aprovação da requisição de mudança.
-# Aprovação de requisição de mudança
+title: Change request approval
+Description: This feature allows the approval of the change request.
+# Change request approvalprovação de requisição de mudança
 
-Essa funcionalidade permite realizar aprovação da requisição de mudança.
+This feature allows the approval of the change request.
 
-Como acessar
+How to access
 ---------------
 
-1. Acesse a funcionalidade de aprovação de requisição de mudança através da navegação no menu 
-principal **Processos ITIL > Gerência de Mudança > Gerenciamento de Mudança**.
+1. Access the change request approval feature navigating through the main menu 
+**Process Management > Change Management > Change Management**.
 
-Pré-condições
+Preconditions
 ---------------
 
-1. O grupo ao qual o usuário está cadastrado deve ter o valor igual a "SIM" do Comitê Consultivo 
-de Mudanças (ver conhecimento [Cadastro e pesquisa de grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html));
+1. The group to which the user is registered must have the value equal to "YES" of the Advisory Committee of Changes (see knowledge [Group registration and search](/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html));
 
-2. Para tipos de fluxo não emergencial nem padrão (Normal), as "Permissões nos fluxos de trabalho" do
-grupo ao qual o usuário está cadastrado devem estar todas ativadas (ver conhecimento [Cadastro e pesquisa de grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html)).
+2. For non-emergency and non-standard (Normal) flow types, the "Workflow Permissions" of the group to which the user is registered must all be enabled (see Knowledge [Group registration and search](/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html)).
 
-Filtros
+Filters
 --------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+1. The following filters enable the user to restrict the participation of items in the standard feature listing, making it 
+easier to locate the desired items:
 
-     - Número da mudança;
-     - Atribuída/Compartilhada;
-     - Itens por página.
+     - Change number;
+     - Assigned/Shared;
+     - Items per page.
 
-![Pesquisa](images/aprov-mud.img1.png)
+![Search](images/aprovar.img1.jpg)
 
-**Figura 1 - Tela de pesquisa de mudança**
+**Figure 1 - Change search screen**
 
-Listagem de itens
+Items list
 -------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados
-na listagem padrão da funcionalidade: Número, Solicitante, Criada em, Prioridade, Prazo, Prazo limite, Atraso, Situação,
-Tarefa atual, Grupo Executor e Responsável atual.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the 
+standard listing of the functionality: **Number, User, Create on, Priority, Dead line, Time limit, Expired, Situation, Current 
+task, Executor Group** and **Current Responsible**.
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Visualizar" e "Relatórios".
+2. There are action buttons available to the user in relation to each item in the listing, they are: *View* and *Reports*.
 
-![Listagem](images/aprov-mud.img2.png)
+![Listing](images/aprovar.img2.jpg)
 
-**Figura 2 - Tela de listagem de mudança**
+**Figure 2 - Change listing screen**
 
-Preenchimento dos campos cadastrais
+Filling in te registration fields
 -------------------------------------
 
-!!! info "REGRA"
+!!! info "IMPORTANTE"
 
-    Somente os membros do "Comitê Consultivo de Mudança (CCM)" podem realizar a aprovação da Requisição de Mudança. Para
-    aprovar uma Requisição de Mudança deve se atentar na configuração do parâmetro "Votação da RDM utilizando a regra 
-    da maioria absoluta (50% + 1) (Valores: "S" ou "N" Default: "S")", onde o valor "S" define a aprovação da Requisição
-    de Mudança quando há mais de 50% de aprovação do CCM e o valor "N" define a aprovação da Requisição de Mudança quando 
-    há 100% de aprovação do CCM.
+    Only members of the "Change Advisory Board" may approve a change request.To approve a Change Request the parameter 
+    configuration must be taken into account: "RFC voting using the rule of absolute majority (50% +1) (Values: "Y" or "N")", 
+    at which "Y" determines the approval of the change request when the CAB approval is over 50% and and the "N" value 
+    determines the approval of the Change Request when the CAB approval is at 100%.
     
-1. Na guia **Requisições para votação**, localize a requisição de mudança que deseja aprovar, clique no botão Votar da mesma,
-conforme indicado na figura abaixo:
+1. On the **Request for votes** tab, locate the change request to be approved, click on its Vote button, as indicated on the 
+image below:
 
-    ![Botão](images/aprov-mud.img3.png)
+    ![Button](images/aprovar.img3.jpg)
 
-    **Figura 3 - Botão votar**
+    **Figure 3 - Vote button**
 
-2. Será exibida a tela para votação da requisição de mudança, conforme indicado na figura abaixo:
+2. The change request vote screen will be displayed, as indicated on the image below:
 
-![Aprovar](images/aprov-mud.img4.png)
+![Approve](images/aprovar.img4.jpg)
 
-**Figura 4 - Aprovar requisição de mudanças**
+**Figure 4 - Approve change request**
 
-- **Nome**: é preenchido automaticamente com o nome do membro do CCM que está votando da requisição de mudança;
-- **Votação**:  selecione a sua escolha de votação para a requisição de mudança, Aprovada ou Rejeitada;
-- **Comentários**: se desejar, faça um comentário sobre a votação da requisição de mudança;
-- **Data/Hora**: é preenchido automaticamente quando for realizada a consulta da votação da requisição de com a informação
-de data e hora da aprovação/rejeição da mesma;
-- Clique no botão "Gravar" para efetuar o registro da votação.
+- **Name**: it is automatically filled with the name of the CAB member who is voting on the change request;
+- **Vote**: select the vote choice for the change request (Approved or Rejected);
+- **Comments**: If desired, write a comment regarding the voting on the change request;
+- **Date/Time**: it is automatically filled when the voting on the change request is started with the date and time data of 
+its approval/rejection.
+- Click on the *Save* button to confirm the vote registration.
 
-Verificação da aprovação do comitê de mudança consultiva
----------------------------------------------------------
+Checking the approval of the advisory commitee on changes
+------------------------------------------------------------
 
-1. Para prosseguir com a aprovação, o responsável pela requisição de mudança, que faz parte do grupo executor, deve verificar
-a aprovação do Comitê Consultivo de Mudanças.
+1. To proceed with the approval, the responsible for the change request, which is part of the performer group, must check the 
+approval of the Change Advisory Board.
 
-    - Na aba **Gerenciamento**, localize a requisição de mudança, clique no botão "Ação", selecione a opção "Iniciar/Executar tarefa" e será exibida a tela de requisição de mudança com os campos preenchidos, com o conteúdo referente à requisição selecionada;
+    - On the **Management** tab, locate the change request, click on the *Action* button, select the *Start/Run Task* option 
+    and the change request screen with the field filled out will be displayed, showing the content of the selected request.
 
-    - Ao lado direito da tela de requisição de mudança, clique na opção **Votação RDM**;
+    - On the right side of the change request screen, click on the **Vote RFC** option;
 
-    ![Seleção](images/aprov-mud.img5.png)
+    ![Selection](images/aprovar.img5.jpg)
 
-    **Figura 5 - Seleção de Votação RDM**
+    **Figure 5 - Vote RFC selection**
 
-    - Será apresentada a tela de consulta de votação da requisição de mudança, conforme exemplo ilustrado abaixo:
+    - The change request voting screen will be displayed, as illustrated on the image below:
 
-    ![Consulta](images/aprov-mud.img6.png)
+    ![Voting](images/aprovar.img6.jpg)
 
-    **Figura 6 - Consulta de aprovação da requisição de mudança**
+    **Figure 6 - Change request voting screen**
 
-    - Caso já tenha obtido a aprovação necessária, clique no botão "Gravar e avançar o fluxo" para efetuar a operação, onde a requisição de mudança será aprovada e encaminhada para fase de planejamento;
+    - If the necessary approval has already been obtained, click on the *Save and Forward Flow* button to perform the 
+    operation, at which the change request will be approved and sent to the planning phase.
 
-!!! note "NOTA"
 
-    O sistema permite alterar o Comitê Consultivo de Mudança (CCM) em qualquer momento, desde que, não tenha sido iniciada a votação da Requisição de Mudança. A partir do momento que se inicia a votação da Requisição de Mudança, ainda que se altere os membros do CCM, o sistema não altera os votantes da Requisição.
+!!! note "NOTE"
+
+    The system allows you to change the Consultative Committee on Change (CCC) at any time, as long as you have not started 
+    the voting on the Request for Change. From the moment the Voting for the Change Request begins, even if you change the 
+    members of the MCC, the system does not change the voters of the Request.
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/11/2019 – Larissa Lourenço
+    <b>Updated:</b>08/22/2019 – Larissa Lourenço
