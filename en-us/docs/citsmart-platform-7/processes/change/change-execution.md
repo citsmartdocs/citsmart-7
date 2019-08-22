@@ -180,7 +180,7 @@ Linking roles/responsibilities to change
     **Figure 13 - Relationship of role/responsibilities to change**
     
     - If you want to delete the information about the person involved in the execution of the change request that was added, 
-    just click on the change request icon ![simbolo](images/simb-xis.jpg) da mesma. With the exception of those responsible 
+    just click on the change request icon ![simbolo](images/simb-xis.jpg). With the exception of those responsible 
     who were automatically brought in from the bond with the CI.
     
 Linking occurrences to change
