@@ -56,7 +56,7 @@ selecione o arquivo que desejar;
 
 4. Clique no botão "Executar" para salvar as informações preenchidas referente a atividade.
 
-!!! tip "About"
+!!! tip "About" 
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
     <b>Updated:</b>07/12/2019 – Larissa Lourenço
