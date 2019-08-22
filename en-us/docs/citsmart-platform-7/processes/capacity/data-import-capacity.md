@@ -1,40 +1,36 @@
-title: Importação de dados de indicadores de capacidade
-Description: Importação de dados
-# Importação de dados de indicadores de capacidade
+title: Capacity indicator data import
+Description: Data import
+# Capacity indicator data import
 
-Como acessar
+How to access
 ----------------
 
-1. Acesse a funcionalidade de Indicadores de Capacidade/Performance através da navegação 
-no menu principal **Processos ITIL > Gerência de Capacidade > Indicadores de Capacidade/Performance**.
+1. Access the **Capacity/Performance Indicators** feature navigating through the main menu **ITIL Processes > Capacity Management > Capacity/Performance Indicators**.
 
-Realizando importação de dados de indicadores de capacidade/performance
---------------------------------------------------------------------------
+Performing a capacity/performance indicator import
+---------------------------------------------------------
 
-1. Será apresentada a tela de Indicadores de Capacidade/Performance.
+1. The Capacity/Performance Indicators screen will be displayed,
 
-2. Clique na guia **Importar Dados**, será apresentada a tela de importação de dados, conforme 
-ilustrada na figura abaixo:
+2. Click, on the **Import Data** tab, then the data import screen will be displayed, as illustrated on the image below:
 
-    ![Importação](images/dados-cap.img1.png)
+    ![Import](images/indicador.img1.jpg)
 
-    **Figura 1 - Tela de importação de dados**
+    **Figure 1 - Data import screen**
 
-3. Anexe o arquivo para importação dos dados;
+3. Attach the file for data import:
 
-4. Note que na tela são apresentados os modelos de arquivos para orientar na forma e ordem que os
-dados devem estar no arquivo;
+4. Note that template files are displayed on screen to guide the structure and order the data must be in the file.
 
-5. Portanto, antes de selecionar o arquivo, verifique se o mesmo está de acordo com o modelo, levando 
-em consideração o formato (.xls, .xlsx, .xml ou .csv);
+5. Therefore, before selecting the file, make sure it is consistent with the template, taking into account the format (.xls, 
+.xlsx, .xml or .csv).
 
-6. Após a verificação, clique no botão "Escolher arquivo", selecione o arquivo e clique no botão
-"Enviar" para efetuar a importação;
+6. After checking, click on the *Choose File* button, select the file and click on the *Add* button to perform the import;
 
-7. Feito isso, os dados serão importados com sucesso.
+7. Then, the data will be successfully imported.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/11/2019 – Larissa Lourenço
+    <b>Updated:</b>08/22/2019 – Larissa Lourenço
 
