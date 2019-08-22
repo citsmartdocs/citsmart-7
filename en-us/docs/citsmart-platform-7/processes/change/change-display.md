@@ -1,65 +1,64 @@
-title: Visualização de requisição de mudança
-Description: Esta funcionalidade permite visualizar as informações da requisição de mudança.
-# Visualização de requisição de mudança
+title: Change request view
+Description: This feature allows viewing information in the change request registry.
+# Change request view
 
-Esta funcionalidade permite visualizar as informações da requisição de mudança.
+This feature allows viewing information in the change request registry.
 
-Como acessar
---------------
+How to access
+----------------
 
-1. Acesse a funcionalidade através da navegação no menu principal 
-**Processos ITIL > Gerência de Mudança > Gerenciamento de Mudança**.
+1. Access the feature navigating through the main menu **Process Management > Change Management > Change Management**.
 
-Pré-condições
+Preconditions
 ---------------
 
-1. Não se aplica.
+1. No applicable.
 
-Filtros
+Filters
 ---------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+1. The following filters enables the user to restrict the participation of items in the standard feature listing, making it 
+easier to find the desired items:
 
-    - Nº da mudança;
+    - Change Number;
 
-    - Atribuída/Compartilhada;
+    - Assigned/Shared;
 
-    - Itens Por Página.
+    - Items Per Page.
 
-![Filtros](images/vsu-mud.img1.png)
+![Filters](images/view.img1.jpg)
 
-**Figura 1 - Tela de filtros**
+**Figure 1 - Filters screen**
 
-Listagem de itens
+Items list
 ------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: Número, Solicitante, Criada em, Prioridade, Prazo, Prazo limite, Situação, Tarefa atual, 
-Grupo executor e Responsável atual.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the 
+standard feature listing: **Number, User, Created on, Priority, Dead line, Time limit, Expired, Situation, Current task, 
+Executor Group** and **Current responsible**.
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Visualizar", "Relatórios" 
-e "Ação".
+2. There are action buttons available to the user for each item in the listing, they are: *View, Reports*, and *Action*.
 
-3. Na guia **Gerenciamento**, localize a requisição de mudança que deseja visualizar e clique no botão "Visualizar" da mesma:
 
-    ![Botão](images/vsu-mud.img2.png)
+3. In the *Management* tab, locate the change request which will be viewed, and then click the View button:
+
+    ![Button](images/view.img2.jpg)
     
-    **Figura 2 - Botão visualizar**
+    **Figure 2 – View button**
     
-4. Será aberta a tela de Registro da Requisição de Mudança para visualização;
+4. The Change Request entry screen will be displayed. Click on the *Closure* tab;
 
-    - Se desejar gerar PDF das informações da requisição de mudança, clique no botão "Gerar PDF"
+    - To generate PDF from the change request information, click the *Generate PDF* button;
 
-    - Se desejar gerar um relatório das informações da requisição de mudança, clique no botão "Relatório Registro de Execução".
+    - To generate a change Request Information report, click the report *Generate Report* button.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 ------------------------------------
 
-1. Não se aplica.
+1. Not applicable.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>01/12/2019 – Larissa Lourenço
+    <b>Updated:</b>08/22/2019 – Larissa Lourenço
 
