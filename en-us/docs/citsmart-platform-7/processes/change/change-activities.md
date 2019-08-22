@@ -1,62 +1,63 @@
-title: Gerenciamento de atividades de mudança
-Description: Esta funcionalidade tem o objetivo de gerenciar suas atividades relacionadas às requisições de mudança.
-# Gerenciamento de atividades de mudança
+title: Change activity management
+Description: This functionality is intended to manage your activities related to change requests.
+# Change activity management
 
-Esta funcionalidade tem o objetivo de gerenciar suas atividades relacionadas às requisições de mudança.
+This functionality is intended to manage your activities related to change requests.
 
-Como acessar
+How to access
 ---------------
 
-1. Acesse a funcionalidade de minhas atividades através da navegação no menu principal 
-**Processos ITIL > Gerência de Mudança > Minhas Atividades**.
+1. Access the functionality of my activities by navigating the main menu 
+**Process Management > Change Management > My Activities**.
 
-Pré-condições
+Preconditions
 ---------------
 
-1. Ter atividades atribuídas ao seu usuário.
+1. Have activities assigned to your user.
 
-Filtros
+Filters
 --------
 
-1. Não se aplica.
+1. Not applicable.
 
-Listagem de itens
+Items list
 ------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na 
-listagem padrão da funcionalidade: Nº da Mudança, Requisição de Mudança, Atividade, Data/Hora Fim e Situação.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the 
+standard feature listing: **Change Number, Change Request, Activity, Start Date/time, Ende Date/Time** and **Status**.
 
-2. Existe um botão de ação disponível ao usuário em relação a cada item da listagem, é ele: "Executar".
+2. There is one action button available to the user for each item in the listing, it is: Execute.
 
-3. Será apresentada a tela **Minhas Atividades**, conforme ilustrada na figura abaixo:
+3. Once this is done, the **My Activities** screen will be displayed, as shown in the figure below:
 
-![Atividades](images/ativi-mud.img1.png)
+![Activities](images/atividade.img1.jpg)
 
-**Figura 1 - Minhas atividades**
+**Figure 1 - My activities**
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 ------------------------------------
 
-1. Para registrar informações da execução da atividade, basta clicar no botão "Executar" e será apresentada a tela,
-conforme ilustrado abaixo:
+1. To record activity execution information, just click on the *Execute* button and the screen will be displayed, as 
+illustrated below:
 
-    ![Execução](images/ativi-mud.img2.png)
+    ![Execution](images/atividade.img2.jpg)
     
-    **Figura 2 - Registro de execução de atividade**
+    **Figure 2 - Activity execution log**
     
-    - **Situação**: selecione a situação da atividade, para facilitar o gerenciamento da mudança;
+    - **Status**: select the situation of the activity, to facilitate the management of the change;
     
-2. Clique no botão "Orientações técnicas" para visualizar o que foi informado da descrição da requisição de mudança;
+2. Click on the *Technical Guidelines* button to view what was informed of the change request description:
 
-    - **Detalhamento**: informe os detalhes sobre a execução da atividade;
-    - **Data/Hora Início Execução**: informe a data e o horário de início da execução da atividade;
-    
-3. Para anexar um arquivo à atividade, informe a descrição do anexo, clique no botão "Adicionar Arquivo", e 
-selecione o arquivo que desejar;
+    - **Details**: enter the details about the execution of the activity;
+    - **Date/Time to start execution**: enter the start date and time of the activity execution;
+    - **Date/Time to finish execution**: enter the date and time of the execution of the activity.
 
-4. Clique no botão "Executar" para salvar as informações preenchidas referente a atividade.
+3. To attach a file to the activity, enter the description of the attachment, click the *Add File* button, and select the file 
+you want;
+
+4. Click on the *Execute* button to save the completed information regarding the activity.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Larissa Lourenço
+    <b>Updated:</b>08/22/2019 – Larissa Lourenço
