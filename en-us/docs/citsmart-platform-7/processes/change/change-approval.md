@@ -1,6 +1,6 @@
 title: Change request approval
 Description: This feature allows the approval of the change request.
-# Change request approvalprovação de requisição de mudança
+# Change request approval
 
 This feature allows the approval of the change request.
 
