@@ -1,234 +1,227 @@
-title: Execução de requisição de mudança
-Description: Essa funcionalidade permite realizar a execução da requisição de mudança.
-# Execução de requisição de mudança
+title: Change request execution
+Description: This functionality allows you to perform the change request execution.
+# Change request execution
 
-Essa funcionalidade permite realizar a execução da requisição de mudança.
+This functionality allows you to perform the change request execution.
 
-Como acessar
+How to access
 --------------
 
-1. Acesse a funcionalidade de execução de requisição de mudança através da navegação no menu principal 
-**Processos ITIL > Gerência de Mudança > Gerenciamento de Mudança**.
+1. Access the change request execution feature by navigating the main menu 
+**Process Management > Change Management > Change Management**.
 
-Pré-condições
+Preconditions
 ---------------
 
-1. Ter cadastrado ao menos uma requisição de mudança (ver conhecimento [Cadastro de requisição de mudança](/pt-br/citsmart-platform-7/processes/change/register-change.html)).
+1. Have registered at least one change request (see knowledge [Change request registration](/en-us/citsmart-platform-7/processes/change/register-change.html)).
 
-Filtros
---------
+Filters
+----------
 
-1.Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da
-funcionalidade, facilitando a localização dos itens desejados:
+1. The following filters enable the user to restrict the participation of items in the standard feature listing, making it 
+easier to locate the desired items:
 
-- Número da mudança;
+- Change Number;
     
-- Atribuída/Compartilhada;
+- Assigned/Shared;
     
-- Itens por página.
+- Items per page.
     
-![Filtros](images/exec-mud.img1.png)
+![Filters](images/execution.img1.jpg)
     
-**Figura 1 - Tela de filtros**
+**Figure 1 - Filters screen**
     
-Listagem de itens
+Items list
 -------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na
-listagem padrão da funcionalidade: Número, Solicitante, Criada em, Prioridade, Prazo, Prazo limite, Atraso, Situação,
-Tarefa atual, Executor e Responsável atual.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the 
+standard listing of the functionality: **Number, User, Prioriy, Dead Line, Time Limit, Expired, Situation, Current task, 
+Executor Group** and **Current responsible**.
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Visualizar", "Relatórios" 
-e "Ação'.
+2. There are action buttons available to the user in relation to each item in the listing, they are: **View, Reports** and 
+**Action**.
 
-![Listagem](images/exec-mud.img2.png)
+![Listing](images/execution.img2.jpg)
 
-**Figura 2 - Tela de listagem de mudança**
+**Figure 2 - Change listing screen**
 
-Preenchimento dos campos cadastrais
+Fiiling in the registration fields
 ------------------------------------
 
-1. Não se aplica.
+1. Not applicable.
 
-Executando requisição de mudança
+Executing change request
 ---------------------------------
 
-1. Na guia **Gerenciamento**, localize a requisição de mudança que deseja registrar as informações de sua execução, 
-clique no botão "Ação" e selecione a opção "Iniciar/Executar" tarefa da mesma, conforme indicado na imagem abaixo:
+1. On the **Management** tab, locate the change request that you want to record the execution information on, click the Action 
+button and select the *Start/Run Task* from it, as shown in the image below:
 
-    ![Execução](images/exec-mud.img3.png)
+    ![Execution](images/execution.img3.jpg)
     
-    **Figura 3 - Registrar execução da requisição de mudança**
+    **Figure 3 - Register execution of request for change**
     
-2. Será exibida a tela de **Requisição de Mudança** com os campos preenchidos com o conteúdo referente à requisição selecionada;
+2. The *Change Request* screen appears with the fields filled with the content of the selected request;
 
-    - Registre as informações necessárias sobre a execução da requisição de mudança:
-    
-        - Clique no botão "Adicionar registro de execução";
-        - Descreva as informações sobre a execução de sua atividade.
+    - RegiRecord the required information about the execution of the change request:
+        - Click on the *Closure* tab; 
+        - Click the *Add an Execution Register* button;
+        - Describe the information about the execution of your activity.
         
-Vinculando problema à mudança
+Liking problem to change
 ------------------------------
 
-1. Informe o(s) problema(s) referente à mudança:
+1. Please state the problem(s) regarding the change:
 
-    - Ao lado direito da tela de requisição de mudança, clique na opção **Problema**;
+    - On the right side of the change request screen, click on the **Problem** option;
     
-    ![Problema](images/exec-mud.img4.png)
+    ![Problem](images/execution.img4.jpg)
     
-    **Figura 4 - Seleção de problema**
+    **Figure 4 - Problem selection**
     
-    - Clique no ícone ![simbolo](images/simb-lupa.png) para vincular um problema;
-    - Será exibida uma janela para pesquisa de problemas. Realize a pesquisa e selecione o 
-    problema. Feito isso, será relacionado o problema à mudança;
+    - Click on icon ![simbolo](images/simb-lupa.jpg) to link a problem;
+    - A window for troubleshooting will be displayed. Perform the search and select the problem. Once this has been done, the 
+    problem will be;
     
-    ![Relacionamento](images/exec-mud.img5.png)
+    ![Relationship](images/execution.img5.jpg)
     
-    **Figura 5 - Relacionamento de problema à mudança**
+    **Figure 5 - Problem to change relationship**
     
-    - Caso queira visualizar o registro de problema que foi relacionado à mudança, basta clicar no
-    ícone ![simbolo](images/sim-iei.png) do mesmo;
-    - Caso queira remover um problema que foi relacionado à mudança, basta clicar no 
-    ícone ![simbolo](images/simb-menos.png) do mesmo.
+    - If you wanted to view the problem log that was related to the change, just click on the icon ![simbolo](images/simb-iei.jpg); 
+    - If you want to remove a problem that was related to the change, simply click on the icon ![simbolo](images/simb-menos.jpg).
     
-Vinculando os incidentes/requisições à mudança
+Liking incidents/requests to change
 -----------------------------------------------
 
-1. Informe os incidentes/requisições de serviço referente à mudança:
+1. Report incidents/service requests regarding change:
 
-    - Ao lado direito da tela de requisição de mudança, clique na opção **Incidentes/Requisições**;
+    - On the right side of the change request screen, click the **Incidents/Requests** option;
     
-    ![Incidentes](images/exec-mud.img6.png)
+    ![Incidents](images/execution.img6.jpg)
     
-    **Figura 6 - Seleção de incidentes/requisições**
+    **Figure 6 - Incidents/requests selection**
     
-    - Clique no ícone ![simbolo](images/simb-lupa.png) para vincular o Incidente/Requisição de Serviço;
-    - Será exibida uma janela para pesquisa de Incidente/requisição de serviços, realize a pesquisa e selecione o
-    incidente/requisição;
-    - Será relacionado o incidente/requisição à mudança;
+    - Click on icone ![simbolo](images/simb-lupa.jpg) to link the incident/service request;;
+    - A window will appear for Incident search/service request, perform the search and select the incident/request;
+    - Will the incident/request be related to the change;
     
-    ![Incidente](images/exec-mud.img7.png)
+    ![Incident](images/execution.img7.jpg)
     
-    **Figura 7 - Relacionamento de incidente/requisição à mudança**
+    **Figure 7 - Incident / requests for change relationship**
     
-    - Caso queira criar registrar um novo incidente referente à mudança, basta clicar 
-    no ícone ![simbolo](images/exec-mais.png) ;
-    - Caso queira remover um incidente/requisição que foi relacionado, basta clicar no
-    ícone ![simbolo](images/simb-menos.png) .
+    - If you want to create a new change incident, just click the ![simbolo](images/simb-plus.jpg);
+    - If you want to remove an incident/request that was listed, simply click the ![simbolo](images/simb-menos.jpg).
     
-Vinculando liberação à mudança
+Linking release to change
 -------------------------------
 
-1. Informe a liberação referente à mudança:
+1. Inform release regarding change:
 
-    - Ao lado direito da tela de requisição de mudança, clique na opção **Liberação**;
+    - On the right side of the change request screen, click the **Release** option;
     
-    ![Liberação](images/exec-mud.img8.png)
+    ![Release](images/execution.img8.jpg)
     
-    **Figura 8 - Seleção de liberação**
+    **Figure 8 - Release selection**
     
-    - Clique no ícone ![simbolo](images/simb-lupa.png) para vincular a liberação;
-    - Será exibida uma janela para pesquisa de liberação. Realize a pesquisa e selecione a liberação. 
-    Feito isso, será relacionada a liberação à mudança;
+    - Click on icon ![simbolo](images/simb-lupa.png) to link the release;
+    - A window for release search appears. Perform the search and select the release. Once this is done, release will be 
+    related to change;
     
-    ![Liberação](images/exec-mud.img9.png)
+    ![Release](images/execution.img9.jpg)
     
-    **Figura 9 - Relacionamento de liberação à mudança**
+    **Figure 9 - Release to change relationship**
     
-    - Caso queira remover uma liberação que foi relacionada, basta clicar
-    no ícone ![simbolo](images/simb-menos.png) . 
+    - If you want to remove a release that was listed, just click the icon ![simbolo](images/simb-menos.jpg). 
     
-Vinculando conhecimento à mudança
+Linking knowledge to change
 ----------------------------------
 
-1. Informe o conhecimento referente à mudança:
+1. Inform knowledge regarding change:
 
-    - Ao lado direito da tela de requisição de mudança, clique na opção **Base de Conhecimento**;
+    - On the right side of the change request screen, click the *Knowledge Base* option;
     
-    ![Conhecimento](images/exec-mud.img10.png)
+    ![Knowledge](images/execution.img10.jpg)
     
-    **Figura 10 - Seleção de base de conhecimento**
+    **Figure 10 - Knowledge base selection**
     
-    - Clique no botão "Adicionar Conhecimento" para adicionar o conhecimento;
-    - Será exibida uma janela para pesquisa de conhecimento. Realize a pesquisa e selecione o 
-    conhecimento. Feito isso, será relacionado o conhecimento à mudança;
-    - Caso queira criar registrar um novo conhecimento referente à mudança, basta clicar no botão "Cadastro de Conhecimento";
+    - Click the *Add Knowledge* button to add knowledge;;
+    - A window for knowledge search will be displayed. Perform the survey and select the knowledge. Once this is done, 
+    knowledge will be related to change;
+    - If you want to create a new knowledge about the change, just click the *Guideline Registracion* button;
     
-    ![Conhecimento](images/exec-mud.img11.png)
+    ![Knowledge](images/execution.img11.jpg)
     
-    **Figura 11 - Relacionamento de conhecimento à mudança**
+    **Figure 11 - Knowledge relationship to change**
     
-    - Caso queira remover um conhecimento que foi relacionado, basta clicar 
-    no ícone ![simbolo](images/simb-menos.png) .
+    - If you want to remove a related knowledge, simply click on the icon ![simbolo](images/simb-menos.png).
     
-Vinculando papéis/responsabilidades à mudança
+Linking roles/responsibilities to change
 -----------------------------------------------
 
-1. Informe os papéis/responsabilidades, ou seja, as pessoas envolvidas na execução da requisição de mudança:
+1. Inform the roles/responsibilities, the people involved in executing the change request:
 
-    - Ao lado direito da tela de requisição de mudança, clique na opção **Papéis/Responsabilidades**;
+    - On the right side of the change request screen, click the **Roles/Responsibilities** option;
     
-    ![Responsabilidades](images/exec-mud.img12.png)
+    ![Roles](images/execution.img12.jpg)
     
-    **Figura 12 - Seleção de papéis/responsabilidades**
+    **Figure 12 - Roles/responsibilities selection**
     
-    - Será exibida uma janela para realizar a pesquisa das pessoas envolvidas na execução da requisição de mudança;
+    - A window will be displayed to perform the search of the people involved in executing the change request;
     
-    !!! note "NOTA"
+    !!! note "NOTE"
     
-        Os responsáveis pelo IC vinculado a requisição de mudança já serão apresentados automaticamente.
+        Those responsible for the CI linked to the change request will already be presented automatically.
         
-    - Realize a pesquisa e selecione o empregado envolvido na execução da requisição de mudança;
-    - Informe o papel do empregado na execução de mudança;
-    - Selecione a responsabilidade e clique em Adicionar para efetuar a operação;
+    - Perform the search and select the employee involved in executing the change request;
+    - Inform the employee's role in the execution of change;
+    - Select the responsibility and click *Add* to carry out the operation;
     
-    ![Responsabilidades](images/exec-mud.img13.png)
+    ![Responsabilities](images/execution.img13.jpg)
     
-    **Figura 13 - Relacionamento de papéis/responsabilidades à mudança**
+    **Figure 13 - Relationship of role/responsibilities to change**
     
-    - Caso queira excluir a informação sobre a pessoa envolvida na execução da requisição de mudança que foi 
-    adicionada, basta clicar no ícone ![simbolo](images/sim-exe.xis.png) da mesma. Com exceção dos responsáveis que
-    foram trazidos automaticamente do vínculo com o IC.
+    - If you want to delete the information about the person involved in the execution of the change request that was added, 
+    just click on the change request icon ![simbolo](images/simb-xis.jpg) da mesma. With the exception of those responsible 
+    who were automatically brought in from the bond with the CI.
     
-Vinculando ocorrência à mudança
+Linking occurrences to change
 ---------------------------------
 
-1. Caso queira inserir uma ocorrência à requisição de mudança, proceda da seguinte maneira:
+1. If you want to insert an occurrence to the change request, proceed as follows:
 
-    - Ao lado direito da tela de requisição de mudança, clique na opção **Ocorrência**;
+    - On the right side of the change request screen, click on the **Occurrences** option;
     
-    ![Ocorrência](images/exec-mud.img14.png)
+    ![Occurrence](images/execution.img14.jpg)
     
-    **Figura 14 - Seleção de ocorrência**
+    **Figure 14 - Occurrences selection**
     
-    - Será apresentada a tela de **Ocorrências** contendo duas abas, uma para visualização da
-    relação das ocorrências registradas e outra para cadastro de ocorrência;
-    - Clique na aba **Cadastro de Ocorrência**, será apresentada tela de cadastro conforme ilustrada na figura abaixo:
+    - The **Occurrence** screen will be displayed containing two tabs, one for visualizing the relation of the recorded 
+    occurrences and another for recording the occurrence;
+    - Click on the **Registered Occurrence List** tab, the registration screen will be displayed as shown in the figure below:
     
-    ![Ocorrência](images/exec-mud.img15.png)
+    ![Occurence](images/execution.img15.jpg)
     
-    **Figura 15 - Registro de ocorrência**
+    **Figure 15 - Record of occurrence**
     
-    - Preencha os campos de acordo a orientação abaixo:
-        - **Categoria**: selecione a categoria da ocorrência. Caso não seja encontrada a categoria, é possível realizar
-        um cadastro rápido clicando no ícone ![simbolo](images/sim-exe.mais.png) ;
-        - **Origem**: selecione a origem da ocorrência. Caso não seja encontrada a origem, é possível realizar um cadastro 
-        rápido clicando no ícone;
-        - **Tempo Gasto (min)**: informe o tempo gasto (em minutos);
-        - **Registrado por**: informe por quem está sendo registrada a ocorrência;
-        - **Descrição**: informe a descrição da ocorrência;
-        - **Ocorrências**: descreva os detalhes da ocorrência;
-        - **Informações de Contato**: descreva as informações para contato;
-        - Após informar todos os dados da ocorrência, clique no botão "Gravar" para efetuar a operação, onde a data, hora
-        e usuário serão armazenados automaticamente para uma futura auditoria.
-    - Após o registro das informações sobre a execução da requisição de mudança, clique no botão "Gravar e avançar o fluxo"
-    para efetuar a operação, onde a liberação será encaminhada para fase de avaliação;
-    - Caso queira gravar somente as informações registradas da execução da requisição de mudança e manter a tarefa atual,
-    clique no botão "Gravar e manter a tarefa atual";
-    - Em ambos os casos anteriores, ao clicar no botão "Gravar" a data, hora e usuário serão armazenados automaticamente
-    para uma futura auditoria.
+    - Fill in the fields as indicated below:
+        - **Category**: select the category of the occurrence. If the category is not found, it is possible to perform a quick 
+        registration by clicking on the icon ![simbolo](images/simb-mais.green.jpg);
+        - **Origin**: select the source of the occurrence. If the source is not found, you can perform a quick registration by 
+        clicking on the icon;
+        - **Spent time (min)**: enter the time spent (in minutes);
+        - **Registered by**: inform by whom the occurrence is being recorded;
+        - **Description**: report the description of the occurrence;
+        - **Occurrence**: describe the details of the occurrence;
+        - **User Information**: describe the contact information;
+        - After entering all the data of the occurrence, click on the *Save* button to carry out the operation, where the 
+        date, time and user will be automatically stored for a future audit.
+    - After recording the information about the execution of the change request, click on the button *Save and Forward Flow* 
+    to carry out the operation, where the release will be sent to the evaluation phase;
+    - If you want to save only the logged information of the execution of the change request and keep the current job, click 
+    the *Save and Keep the Current Task* button;
+    - In both previous cases, when you click on the *Save* button the date, time and user will be stored automatically for a 
+    future audit.
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Larissa Lourenço
+    <b>Updated:</b>08/22/2019 – Larissa Lourenço
