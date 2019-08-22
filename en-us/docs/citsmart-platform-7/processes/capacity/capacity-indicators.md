@@ -1,78 +1,77 @@
-title: Cadastro e pesquisa de indicadores de capacidade
-Description: Esta funcionalidade tem o objetivo de cadastrar os indicadores de capacidade/performance
-# Cadastro e pesquisa de indicadores de capacidade
+title: Capacity Indicators registration and search
+Description: The goal of this feature is to register the capacity/performance indicators 
+# Capacity Indicators registration and search
 
-Esta funcionalidade tem o objetivo de cadastrar os indicadores de capacidade/performance que serão vinculados aos
-Serviços e aos Itens de Configuração (IC).
+The goal of this feature is to register the capacity/performance indicators which will be linked to the Services and to the 
+Configuration Items (CI).
 
-Como acessar
+How to access
 --------------
 
-1. Acesse a funcionalidade de Indicadores de Capacidade/Performance através da navegação
-no menu principal **Processos ITIL > Gerência de Capacidade > Indicadores de 
-Capacidade/Performance**.
+1. Access the company feature navigating through the main menu **Process Management > Capacity Management > 
+Capacity/PerformanceIndicators**.
 
-Pré-condições
+Preconditions
 ----------------
 
-1. Não se aplica.
+1. No applicable.
 
-Filtros
+Filters
 ----------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da 
-funcionalidade, facilitando a localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it 
+easier to find the desired items:
 
-    - Nome
+    - Name.
 
-    ![Pesquisa](images/ind-cap.img1.png)
+    ![Search](images/capacity.img1.jpg)
 
-    **Figura 1 - Tela de pesquisa de indicadores de capacidade/performance**
+    **Figure 1 - Capacity/performance indicators search screen**
 
-2. Realize a pesquisa do indicador de capacidade/performance;
+2. Perform a capacity/performance indicator search;
 
-    - Informe o nome do indicador de capacidade/performance que deseja pesquisar e clique no 
-    botão "Pesquisar". Após isso, será exibido o registro do indicador conforme o nome informado.
+    - Insert the name of the intended indicator and click on the *Search* button. Afterwards, the indicator entry will be 
+    displayed according to the description provided.
 
-    - Caso deseje listar todos os registros de indicador de capacidade/performance,
-    basta clicar diretamente no botão "Pesquisar".
+    - To list all indicators, just click directly on the *Search* button, if needed.
 
-Listagem de Itens
+Items list
 ------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação
-dos itens desejados na listagem padrão da funcionalidade: **Nome** e **Valor**.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the 
+standard feature listing: **Name** and **Value**.
 
-    ![Listagem](images/ind-cap.img2.png)
+    ![Listing](images/capacity.img2.jpg)
 
-    **Figura 2 - Tela de listagem de indicadores de capacidade/performance**
+    **Figure 2 - List of capacity/performance indicators**
 
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela 
-de cadastro exibindo o conteúdo referente ao registro selecionado;
+2. After searching, select the intended entry. Afterwards, they will be redirected to the registry screen displaying the 
+content belonging to the selected entry;
 
-3. Para alterar os dados do registro de indicador de capacidade/performance, basta modificar as 
-informações desejadas e clicar no botão "Gravar".
+3. To edit a capacity/performance indicator entry, just modify the information on the intended fields and click on the *Save* 
+button
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Será apresentada a tela de **Cadastro de Indicadores de Capacidade/Performance**, conforme ilustrada na figura abaixo:
+1. The capacity/performance indicators entry screen will be displayed, as illustrated on the image below:
 
-    ![Cadastro](images/ind-cap.img3.png)
+    ![Registration](images/capacity.img3.jpg)
 
-     **Figura 3 - Tela de cadastro de indicadores de capacidade/performance**
+     **Figure 3 - Capacity/Performance indicators entry screen**
 
-2. Preencha os campos conforme orientações abaixo:
+2. Fill out the fields as instructed below:
 
-    - **Nome**: informe o nome do indicador de capacidade/performance;
-    - **Valor**: informe o valor do indicador de capacidade/performance.
+    - **Name**: name the capacity/performance indicator;
+    - **Value**: insert the value of the capacity/performance indicator.
 
-3. Após os dados informados, clique no botão "Gravar" para efetuar o registro, onde a data,
-hora e usuário serão gravados automaticamente para uma futura auditoria;
+3. Click on the *Save* the button to confirm the entry, at which date, time and user will automatically be stored for a future 
+audit.
+
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/11/2019 – Larissa Lourenço
+    <b>Updated:</b>08/22/2019 – Larissa Lourenço
 
 
