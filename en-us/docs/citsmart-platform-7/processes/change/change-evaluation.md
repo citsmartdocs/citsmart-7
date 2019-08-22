@@ -1,79 +1,84 @@
-title: Avaliação e finalização de requisição de mudança
-Description: Essa funcionalidade permite realizar a avaliação da requisição de mudança e finalizar a mesma.
-# Avaliação e finalização de requisição de mudança
+title: Change request evaluating and completing
+Description: This feature allows evaluating and completing a change request.
+# Change request evaluating and completing
 
-Essa funcionalidade permite realizar a avaliação da requisição de mudança e finalizar a mesma.
+This feature allows evaluating and completing a change request.
 
-Como acessar
+How to access
 --------------
 
-1. Acesse a funcionalidade de avaliação e finalização de requisição de mudança através da navegação no menu principal
-**Processos ITIL > Gerência de Mudança > Gerência de Mudança**.
+1. Access the change request evaluation and completion feature navigating through the main menu 
+**Process Management > Change Management > Change Management**.
 
-Pré-condições
+Preconditions
 --------------
 
-1. Não se aplica.
+1. Not applicable.
 
-Filtros
+Filters
 ---------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+1. The following filters enable the user to restrict the participation of items in the standard feature listing, making it 
+easier to locate the desired items:
 
-    - Número de mudança;
-    - Atribuída/Compartilhada;
-    - Itens por página
+    - Change number;
+    - Assigned/Shared;
+    - Items per page.
 
-![Pesquisa](images/ava-mud.img1.png)
+![Search](images/evaluation.img1.jpg)
 
-**Figura 1 - Tela de pesquisa de mudança**
+**Figure 1 - Change search screen**
 
-Listagem de itens
+Items list
 ------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: Número, Solicitante, Criada em, Prioridade, Prazo, Prazo limite, Atraso, Situação, Tarefa atual,
-Grupo Executor e Responsável atual.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the 
+standard listing of the functionality: **Number, Applicant Name, Created on, Priority, Deadline,Time limit, Delay, Situation, 
+Current task,Executor Group** and **Currently Responsible**.
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Visualizar", "Relatórios" e "Ação" 
-(Criar Atividade, Suspender mudança e Iniciar/Executar tarefa)
+2. There are action buttons available to the user in relation to each item in the listing, they are: *View, Reports* and 
+*Action* (Create Activity, Suspend change and Start/Run task).Existem botões de ação disponíveis ao usuário em relação a cada 
+item da listagem, são eles: "Visualizar", "Relatórios" e "Ação"(Criar Atividade, Suspender mudança e Iniciar/Executar tarefa)
 
-![Listagem](images/ava-mud.img2.png)
+![Listing](images/evaluation.img2.jpg)
 
-**Figura 2 - Tela de listagem de mudança**
+**Figure 2 - Change listing screen**
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 ------------------------------------
 
-1. Não se aplica
+1. Not applicable.
 
-Avaliando e finalizando requisição de mudança
+Evaluating and terminating a request change
 -----------------------------------------------
 
-1. Na guia Gerenciamento, localize a requisição de mudança que será avaliada e finalizada, clique no botão "Ação" e selecione a 
-opção "Iniciar/Executar tarefa" da mesma, conforme indicado na imagem abaixo:
+1. On the **Management** tab, locate the change request which will be evaluated and completed, click on the Action button and 
+select its Start/Run Task button, as indicated on the image below:
 
-    ![Avaliação](images/ava-mud.img3.png)
+    ![Evaluate](images/evaluation.img3.jpg)
 
-    **Figura 3 - Realizar avaliação da requisição de mudança**
+    **Figure 3 - Evaluate the change request**
 
-2. Será exibida a tela de Requisição de Mudança com os campos preenchidos, com o conteúdo referente à requisição selecionada;
-    
-    - Verifique se a requisição de mudança foi atendida conforme solicitado;
-    - Registre as informações necessárias sobre a avaliação da requisição de mudança:
-        - Clique no botão "Adicionar registro de execução";
-        - Descreva as informações sobre a execução de sua atividade.
-    - No campo **Fechamento**, informe o fechamento da requisição de mudança, ou seja, os detalhes da finalização da execução da requisição de mudança;
-    -  Após registro das informações sobre a avaliação e finalização da requisição de mudança, clique no botão "Gravar e avançar o fluxo" para efetuar a operação, onde a requisição de mudança e os problemas, incidentes e itens de configuração relacionados serão finalizados com sucesso;
-    - Caso queira gravar somente as informações registradas sobre a avaliação e finalização da requisição de mudança e manter a tarefa atual, clique no botão "Gravar e manter a tarefa atual";
-    - Em ambos os casos anteriores, ao clicar no botão Gravar a data, hora e usuário serão armazenados automaticamente para uma futura auditoria.
+2. The Change Request screen with the field filled out will be displayed, featuring the content of the selected request;
 
-!!! note "REGRA"
+    - Check if the change request was attended as requested;
+    - Register the necessary information on the change request closure;
+        - Click on the *Add an Execution Register* button;
+        - Describe the information the activity execution.
+    - On the **Closure** area, insert the completion of the change request, that is, the details of the change request execution completion;
+    -  After registering all the information on the evaluation and completion of the change request, click on the *Save and 
+    Forward Flow* button to perform the operation, at which the change request and the related problems, incidents and 
+    configuration items will be successfully closed as well;
+    - To only save the registered information on the evaluation and completion of the change request and keep the current 
+    task, click on the *Save and Keep the Current Task* button;
+    - In both previous cases, clicking on the *Save* button automatically saves the date, time and user for a future audit.
 
-    Todos "Erros conhecidos" relacionados à um problema ao qual foi relacionado à mudança que está sendo encerrada, serão arquivados, caso o Parâmetro 232 (ERRO CONHECIDO - Arquivar Erro Conhecido ao concluir Mudança? (S ou N - Default: 'N')) esteja definido com o valor "S".
+!!! note "NOTE"
+
+    All "known errors" related to a problem linked to a change wich is being closed will be archived, in case the parameter 
+    "Know Error - Archive error when completing Change? (Y or N - Default: 'N') is defined by the "Y" value.
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/11/2019 – Larissa Lourenço
+    <b>Updated:</b>08/22/2019 – Larissa Lourenço
