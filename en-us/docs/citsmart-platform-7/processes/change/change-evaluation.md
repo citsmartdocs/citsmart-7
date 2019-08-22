@@ -53,7 +53,7 @@ Evaluating and terminating a request change
 -----------------------------------------------
 
 1. On the **Management** tab, locate the change request which will be evaluated and completed, click on the Action button and 
-select its Start/Run Task button, as indicated on the image below:
+select its *Start/Run Task* button, as indicated on the image below:
 
     ![Evaluate](images/evaluation.img3.jpg)
 
