@@ -1,24 +1,25 @@
-title: Gráficos de requisição de mudança
-Description: Esta funcionalidade permite visualizar os gráficos de requisição de mudança.
-# Gráficos de requisição de mudança
+title: Change request graphics
+Description: Change request graphics.
+# Change request graphics
 
-Como acessar
+How to access
 -------------
 
-1. Acesse a funcionalidade de gráficos de requisição de mudança através da navegação no menu principal
-**Processos ITIL > Gerência de Mudança > Gerenciamento de Mudança**.
+1. Access the change request graphics feature navigating through the main menu 
+**Process Management > Change Management > Change Management**.
 
-Visualizando gráficos
+Viewing graphics
 ----------------------
 
-1. Clique na guia **Gráficos** e será apresentado as informações das requisições por situação (em andamento, suspensas e atrasadas),
-por prioridade e por grupo executor, sendo essas demonstradas em gráficos conforme ilustrado na figura abaixo:
+1. Click on the **Graphics** tab and the information on request will be displayed by status (In execution, suspended and 
+delayed), by priority and by performer group, demonstrated on graphics, as illustrated on the image below:
 
-![Gráficos](images/graf-mud.img1.png)
 
-**Figura 1 - Tela de gráficos de mudanças**
+![Graphics](images/graphics.img1.jpg)
+
+**Figure 1 - Changes graphics screen**
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Larissa Lourenço
+    <b>Updated:</b>08/22/2019 – Larissa Lourenço
