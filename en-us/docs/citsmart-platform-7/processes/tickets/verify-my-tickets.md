@@ -73,7 +73,6 @@ Filling in the registration fields
 [3]:/en-us/citsmart-platform-7/processes/tickets/ticket-management.html
 
 
-
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
