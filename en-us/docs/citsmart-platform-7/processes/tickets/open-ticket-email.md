@@ -21,18 +21,18 @@ Preconditions
 Details of activities
 ---------------------
 
-### **AUTOMATIC ACTIONS - INCIDENTS/REQUESTS/PROCEDURES ACTIONS**
+### Automatic actions - Incidents/requests/procedures actions
 
 1.  Automatic Actions - Incidents/Requests/Procedures Template registration
     because it will be used as a template for the opening of the service request
     (see knowledge [Automatic actions registration and search][1]).
 
-### **PERFORM E-MAIL SETTINGS**
+### Perform e-mail settings
 
 1.  Perform e-mail settings, this register will be used to link the registered
     template (see knowledge [Automatic Actions via E-mail setup guide][2]).
 
-### **CONFIGURE THE BATCH PROCESSING**
+### Configure the bacth processing
 
 1.  Realize the Batch processing configuration (see knowledge [Batch
     processing registration and search][3]);
