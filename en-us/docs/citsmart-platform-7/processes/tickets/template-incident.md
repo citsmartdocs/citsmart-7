@@ -26,7 +26,7 @@ Preconditions
 
 6.  Have the unit bound to the contract (see knowledge [How to relate unit to contract?][6]);
 
-7.  Have the portfolio with the service and the request and incident activities registered (see knowledge [Service portfolio registration[7], Service registration[8], Service attributes configuration][9]);
+7.  Have the portfolio with the service and the request and incident activities registered (see knowledge [Service portfolio registration][7], [Service registration][8], [Service attributes configuration][9]);
 
 8.  Have the time of attendance of the request and incident activities defined (see knowledge [Time attendance registration and search][10]);
 
