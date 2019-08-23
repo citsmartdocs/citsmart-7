@@ -114,3 +114,4 @@ Filling in the registratio fields
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
     <b>Updated:</b>07/10/2019 – Anna Martins
+
