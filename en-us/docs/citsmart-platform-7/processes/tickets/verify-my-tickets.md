@@ -71,6 +71,7 @@ Filling in the registration fields
 
 [1]:/en-us/citsmart-platform-7/processes/configuration/IC-management.html
 [2]:/en-us/citsmart-platform-7/processes/tickets/ticket-management.html
+[3]:/en-us/citsmart-platform-7/processes/tickets/ticket-management.html
 
 
 
