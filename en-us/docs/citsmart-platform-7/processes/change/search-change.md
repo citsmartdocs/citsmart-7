@@ -1,79 +1,74 @@
-title: Pesquisa de requisição de mudança
-Description: Realizar a pesquisa das requisições de mudança de acordo com filtros definidos pelo usuário.
-# Pesquisa de requisição de mudança
+title: Change request search
+Description: Perform search for change requests according to user-defined filters.
+# Change request search
 
-Realizar a pesquisa das requisições de mudança de acordo com filtros definidos pelo usuário.
+Perform search for change requests according to user-defined filters.
 
-Como acessar
---------------
+How to access
+----------------
 
-1. Acesse a funcionalidade de pesquisa de requisição de mudança através da navegação no menu principal
-**Processos ITIL > Gerência de Mudanças > Pesquisar Requisição Mudança** ou **Processos ITIL > Gerência de Mudanças > Gerenciamento 
-de Mudança** e clique no botão "Pesquisa Mudança".
+1. Access the change request search functionality by navigating the main menu **Process Management > Change Management** and click 
+the **Change Request Search** option or **Process Management > Change Management > Change Management** and click the *Search Change* 
+button.
 
-Pré-condições
+Preconditions
 ---------------
 
-1. Não se aplica.
+1. Not applicable.
 
-Filtros
+Filters
 ---------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+1. The following filters enable the user to restrict the participation of items in the standard feature listing, making it easier to find the desired items:
 
-    - **Período de Abertura**: informe o período desejado;
-    - **Número**: informe o número de identificação da requisição de mudança;
-    - **Ordenação**: selecione a ordenação;
-    - **Item de Configuração**: informe o item de configuração referente à requisição de mudança que deseja pesquisar;
-    - **Solicitante**: informe o solicitante referente à requisição de mudança que deseja pesquisar;
-    - **Responsável atual**: informe o responsável referente à requisição de mudança que deseja pesquisar;
-    - **Status**: selecione o status referente à requisição de mudança que deseja pesquisar;
-    - **Grupo Solucionador**: selecione o grupo solucionador referente à requisição de mudança que deseja pesquisar;
-    - **Tipo**: selecione o tipo de mudança;
-    - Caso queira que a descrição da requisição de mudança seja exibida no relatório, marque a opção 
-    **Exibir Campo Descrição em Relatórios?**;
+    - **Opening Period**: enter the desired period;
+    - **Number**: enter the ID number of the change request;
+    - **Order by**: select sorting;
+    - **Configuration item**: enter the configuration item for the change request you want to search;
+    - **User**: inform the requestor about the change request you wish to search;
+    - **Currently responsible**: inform the responsible for the change request that you want to search;
+    - **Status**: select the status for the change request you want to search;
+    - **Solution group**: select the solver group for the change request you want to search;
+    - **Type**: select the type of change;
+    - If you want the description of the change request to be displayed in the report, check the option **Would you like to see the 
+    description on the report?**.
     
-2. Será apresentada a tela de pesquisa de requisição de mudança contendo campos onde poderá definir os 
-filtros necessários para sua pesquisa, conforme ilustração abaixo:
+2. The change request search screen will be displayed containing fields where you can define the necessary filters for your search, as shown below:
 
-    ![Pesquisa](images/pesq-mud.img1.png)
+    ![Search](images/search.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de requisição de mudança**
+    **Figure 1 - Request for change search screen**
     
-3. Preencha os campos conforme orientações abaixo:
+3. Fill in the fields and click the *Search* button to perform the operation;
 
-    - Após os filtros definidos, clique no botão "Pesquisar" para efetuar a operação;
-    - Serão listados os registros de requisição de mudança, conforme os filtros escolhidos, abaixo dos botões "Pesquisar",
-"Limpar" e "Gerar Relatório".
-    - Ao lado de cada registro de requisição de mudança da lista, há ícones que permite realizar as seguintes ações:
-visualizar as informações e os anexos da requisição de mudança;
-        - Para visualizar as informações da requisição de mudança, clique em "Visualizar";
-            - Será exibida a tela de registro da determinada requisição de mudança para visualização.
-        - Para visualizar os anexos da solicitação de serviço, clique no ícone ![simbolo](images/simb-clips.png) ;
-            - Será aberta uma janela exibindo os anexos da requisição de mudança para visualização.
-    - Caso seja necessário, clique no botão "Gerar (PDF)" para gerar o relatório de requisição de mudança em formato PDF.
-    - Caso seja necessário, clique no botão "Gerar (XLS)" para gerar o relatório de requisição de mudança em formato Excel.
+    - Change request records will be listed, depending on the filters chosen, below the *Search, Clear*, and *Generate* buttons.
+    - Next to each list change request record, there are icons that allow you to perform the following actions: view the information 
+    and attachments of the change request;io".
+        - To view the change request information, click *View*;
+            - The registration screen of the given request for change to preview is displayed.
+        - To view attachments for the service request, click the icon ![simbolo](images/simb-clips.grey.jpg);
+            - A window will be opened displaying the attachments of the request for change to preview.
+    - If necessary, click the *Generate (PDF)* button to generate the change request report in PDF format;
+    - If necessary, click the *Generate (XLS)* button to generate the change request report in Excel format.
 
-Listagem de itens
+Items list
 ------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados 
-na listagem padrão da funcionalidade: Contrato, Número da mudança, Tipo, Status, Título, Motivo, Descrição,
-Responsável atual, Solicitante, Categoria, Data/Hora Início, Conclusão, Grupo e Fechamento.
+1. The following registration fields are available to the user to facilitate the identification of the desired items in the standard 
+list of functionality: **Contract, Change Number, Type, Status, Title, Reason, Description, Current Responsible, User, Category, Start Date/Time , Conclusion, Group** and **Closure**.
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Visualizar" e "Visualizar Anexos".
+2. There are action buttons available to the user for each item in the listing, they are: *View* and *View Attachments*.
 
-![Itens](images/pesq-mud.img2.png)
+![Itens](images/search.img2.jpg)
 
-**Figura 2 - Tela de itens**
+**Figure 2 - Items screen**
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 ------------------------------------
 
-1. Não se aplica.
+1. Not applicable.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Larissa Lourenço
+    <b>Updated:</b>08/23/2019 – Larissa Lourenço
