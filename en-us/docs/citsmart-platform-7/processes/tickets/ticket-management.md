@@ -10,51 +10,51 @@ The screen below shows the main screen of the tickets module:
 
 **Figure 1 - Request management screen (Requests and Incidents)**
 
-- **1 Search field**: allows you to search for tickets;
+- **1** Search field: allows you to search for tickets;
 
-- **2 Menu button**: displays the menu items of the management screen;
+- **2** Menu button: displays the menu items of the management screen;
 
-- **3 Tickets**: the records of service requests and incidents are presented for
+- **3** Tickets: the records of service requests and incidents are presented for
 treatment and management;
 
-- **4 Audit**: presents the logs generated in the various actions related to the
+- **4** Audit: presents the logs generated in the various actions related to the
 tickets;
 
-- **5 Summary**: displays the quantity of tickets per various items;
+- **5** Summary: displays the quantity of tickets per various items;
 
-- **6 Advanced** **search**: allows you to perform an advanced search of the
+- **6** Advanced search: allows you to perform an advanced search of the
 tickets;
 
-- **7 Calendar**: allows the visualization of the periodic activities schedule, in
+- **7** Calendar: allows the visualization of the periodic activities schedule, in
 which are verified the activities related to tickets that have been scheduled to
 be attended on a given date;
 
-- **8 Automatic update**: feature to, when triggered, update the list of tickets
+- **8** Automatic update: feature to, when triggered, update the list of tickets
 automatically. The automatic update time of the ticket list is *30 seconds*.
 Currently, this time can not be changed;
 
-- **9 Manual update**: feature used to update the tickets list ;
+- **9** Manual update: feature used to update the tickets list ;
 
-- **10 Reports**: allows access to reports of the global type, that is, those not
+- **10** Reports: allows access to reports of the global type, that is, those not
 linked to a specific ticket, and the user can analyze all of them (in the
 creation of the report via Smart Reports this option is available)
 
-- **11 Options**:features the "Suspend/Reactivate" functionality (which allows you to
+- **11** Options:features the "Suspend/Reactivate" functionality (which allows you to
 suspend all tickets with status "In progress" of a certain executor group and
 reactivate them) and the "Change columns" functionality (which allows changing
 the column layout in the list of tickets; set of defined columns remains even
 after the user's session is closed);
 
-- **12 List**: filters the ticket view by listing;
+- **12** List: filters the ticket view by listing;
 
-- **13 By Operator**: filters the ticket view per attendant in kanban mode;
+- **13** By Operator: filters the ticket view per attendant in kanban mode;
 
-- **14 By SLA status**: filters the ticket view by SLA status. For this option to be
+- **14** By SLA status: filters the ticket view by SLA status. For this option to be
 visible it is necessary to enable the access permission for the logged in user,
 check the item "Team Management" (see knowledge [Ticket Management Module access
 permissions][1])
 
-- **15 By flow status**: filters the ticket view by flow status;
+- **15** By flow status: filters the ticket view by flow status;
 
 - **16** Click to capture and be responsible for the ticket;
 
