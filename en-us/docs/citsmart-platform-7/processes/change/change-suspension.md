@@ -1,87 +1,82 @@
-title: Suspensão de requisição de mudança
-Description: Esta funcionalidade permite suspender requisição de mudança.
-# Suspensão de requisição de mudança
+title: Change request suspension
+Description: This feature allows you to suspend a change request.
+# Change request suspension
 
-Esta funcionalidade permite suspender requisição de mudança.
+This feature allows you to suspend a change request.
 
-Como acessar
+How to access
 --------------
 
-1. Acesse a funcionalidade de suspensão de requisição de mudança através da navegação no menu principal
-**Processos ITIL > Gerência de Mudança > Gerenciamento de Mudança**. Na guia **Gerenciamento**, localize a requisição de
-mudança que deseja suspender, clique no botão "Ação" e selecione a opção "Suspender mudança".
+1. Access the change request suspension feature by navigating the main menu 
+**Process Management > Change Management > Change Management**.
 
-Pré-condições
+Preconditions
 ---------------
 
-1. Ter a justificativa de requisição de mudança cadastrada (ver conhecimento 
-[Cadastro e Pesquisa de Justificativa de Requisição de Mudança](/pt-br/citsmart-platform-7/processes/change/change-justification.html))
+1. Have the justification for change request registered (see knowledge [Reason for change request registration and search](/pt-br/citsmart-platform-7/processes/change/change-justification.html))
 
-Filtros
+Filters
 ----------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+1. The following filters enable the user to restrict the participation of items in the standard feature listing, making it easier to 
+locate the desired items:
 
-    - Número da mudança;
+    - Change Number;
 
-    - Atribuída/Compartilhada;
+    - Assigned/Shared
 
-    - Itens por página.
+    - Items per page
 
-    ![Pesquisa](images/susp-mud.img1.png)
+    ![Search](images/suspention.img1.jpg)
 
-    **Figura 1 - Tela de pesquisa de mudança**
+    **Figure 1 - Change search screen**
 
-Listagem de itens
+Items list
 -------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na
-listagem padrão da funcionalidade: Número, Solicitante, Criada em, Prioridade, Prazo, Prazo limite, Atraso, Situação,
-Tarefa atual, Grupo Executor e Responsável atual.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard 
+listing of the functionality: **Number, User, Created on, Priority, Dead line, Time limit, Expired, Situation, Current task, Executor Group** and **Current responsible**.
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Visualizar", "Relatórios" 
-e "Ação".
+2. There are action buttons available to the user in relation to each item in the listing, they are: *View, Reports* and *Action*.
 
-![Listagem](images/susp-mud.img2.png)
+![Listing](images/suspention.img2.jpg)
 
-**Figura 2 - Tela de listagem de mudança**
+**Figure 2 - Change listing screen**
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 ------------------------------------
 
-1. Não se aplica.
+1. Not applicable.
 
-Suspendendo requisição de mudança
+Suspending change request
 -----------------------------------
 
-1. Na guia **Gerenciamento**, localize a requisição de mudança que deseja suspender, clique no botão "Ação" e selecione a opção
-"Suspender mudança", conforme indicado na imagem abaixo:
+1. On the **Management** tab, locate the change request you want to suspend, click the *Action* button and select the *Suspend change* option, as indicated in the image below:
 
-    ![Botão](images/susp-mud.img3.png)
+    ![Button](images/suspention.img3.jpg)
     
-    **Figura 3 - Botão suspender mudança**
+    **Figure 3 - Suspend change button**
     
-2. Será exibida uma janela para registro da justificativa de suspensão da requisição de mudança:
+2. A window will appear to record the justification for suspending the change request:
 
-    ![Suspensão](images/susp-mud.img4.png)
+    ![Suspension](images/suspention.img4.jpg)
     
-    **Figura 4 - Registro de suspensão de requisição de mudança**
+    **Figure 4 - Request for suspension record of change**
     
-    - **Justificativa**: selecione a Justificativa da suspensão da requisição de mudança;
-    - **Complemento da justificativa**: informe o complemento da justificativa de suspensão da requisição de mudança;
-    - Após informar os dados, clique no botão "Gravar" e será exibida uma mensagem para confirmação da suspensão, clique em "OK" 
-    para efetuar a operação, onde a data, hora e usuário serão gravados automaticamente para uma futura auditoria;
-    - O botão "Cancelar", ao ser clicado, cancela a operação e retorna à tela de Gerenciamento de Mudanças.
+    - **Justification**: Select the reason for the suspension of the change request;
+    - **Justification Complement**: inform the complement of the justification of suspension of the request for change;
+    - After reporting the data, click the Save button and a message is displayed to confirm the suspension, click *OK* to perform 
+    the operation, where the date, time, and user will be automatically written to a future audit;
+    - The *Cancel* button, when clicked, cancels the operation and returns to the change management screen.
     
-3. Após a suspensão da requisição de mudança, a mesma será atualizada na lista de requisições de mudança, mudando a
-situação para **Suspensa**, conforme indicado na imagem abaixo:
+3. After the suspension of the change request, it will be updated in the list of change requests, changing the situation to 
+**Suspended**, as indicated in the image below:
 
-![Suspensa](images/susp-mud.img5.png)
+![Suspended](images/suspention.img5.jpg)
 
-**Figura 5 - Requisição de mudança suspensa**
+**Figure 5 - Request for suspended change**
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Larissa Lourenço
+    <b>Updated:</b>08/23/2019 – Larissa Lourenço
