@@ -1,49 +1,48 @@
-title:  Geração de relatórios - Gerência de Mudanças
-Description: Este relatório tem o objetivo de apresentar a quantidade de requisição de mudanças. 
-# Geração de relatórios - Gerência de Mudanças
+title:  Report generation - Change Management
+Description: This report aims to present the amount of change request.
+# Report generation - Change Management
 
-Gerando relatório de quantitativo de mudança
+Generating quantitative change report
 -----------------------------------------------
 
-Este relatório tem o objetivo de apresentar a quantidade de requisição de mudanças.
+This report aims to present the amount of change request.
 
-*Como acessar*
+*How to access*
 
-1. Acesse a funcionalidade de Relatório Quantitativo de Mudança através da navegação no menu principal 
-**Relatórios > Gerência de Mudanças > Quantitativo de Mudança**.
+1. Access the Quantitative Change Report feature by navigating the main menu **Reports > Change Management > Quantitative Change**.
 
-*Pré-condições*
+*Preconditions*
 
-1. Não se aplica.
+1. Not applicable.
 
-*Filtros*
+*Filters*
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+1. The following filter enable the user to restrict the participation of items in the standard feature listing, making it easier to 
+locate the desired items as shown in the figure below:
 
-    - **Período de Abertura**: informe o período desejado.
+    - **Opening Period**: enter the desired period;
     
-2. Será apresentada a tela de **Geração de Relatório Quantitativo de Mudança**, conforme ilustrada na figura a seguir:
+2. The **Quantitative Change Report Generation** screen will be displayed, as shown in the following figure:
 
-    ![Mudanças](images/rel-mud.img1.jpg)
+    ![Change](images/report.img1.jpg)
     
-    **Figura 1 - Tela de geração do relatório quantitativo de mudanças**
+    **Figure 1 - Generation report of the quantitative change report**
     
-3. Defina os filtros conforme sua necessidade;
+3. Set the filters as needed.
 
-4. Clique no botão "Gerar PDF" para gerar o relatório quantitativo de mudanças no formato PDF;
+4. Click the *Generate PDF* button to generate the quantitative report of changes in PDF format.
 
-5. Clique no botão "Gerar XSL" para gerar o relatório quantitativo de mudanças no formato Excel.
+5. Click the *Generate XSL* button to generate the quantitative report of changes in Excel format.
 
-*Listagem de itens*
+*Items list*
 
-1. Não se aplica.
+1. Not applicable.
 
-*Preenchimento dos campos cadastrais*
+*Filling in the registration fields*
 
-1. Não se aplica.
+1. Not applicable.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/02/2019 - Larissa Lourenço
+    <b>Updated:</b>08/23/2019 - Larissa Lourenço
