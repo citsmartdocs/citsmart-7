@@ -1,101 +1,95 @@
-title: Cadastro e pesquisa de tipo de mudança
-Description: Esta funcionalidade tem por objetivo registrar o tipo de mudança que será utilizado para definir toda a configuração do fluxo de trabalho que a requisição irá seguir.
-# Cadastro e pesquisa de tipo de mudança
+title: Change Type registration and search
+Description: The goal of this feature is to register the change type used to determine all the workflow
+# Change Type registration and search
 
-Esta funcionalidade tem por objetivo registrar o tipo de mudança que será utilizado para definir toda a configuração do fluxo de
-trabalho que a requisição irá seguir.
+The goal of this feature is to register the change type used to determine all the workflow structure followed by the request.
 
-Como acessar
---------------
+How to access
+----------------
 
-1. Acesse a funcionalidade de tipo de mudança através da navegação no menu principal 
-**Processos ITIL > Gerência de Mudança > Tipo de Mudança**.
+1. Navigate to the change type feature through the main menu **Process Management > Change Management > Change Type**.
 
-Pré-condições
---------------
+Preconditions
+-----------------
 
-1. Ter o fluxo referente ao gerenciamento de mudança cadastrado (ver conhecimento [Manutenção de fluxo de trabalho](/pt-br/citsmart-platform-7/workflow/workflow-management.html))
+1. Have the change management workflow registered (see knowledge [Workflow maintenance](/en-us/citsmart-platform-7/workflow/workflow-management.html))
 
-2. Configurar os modelos de e-mails (ver conhecimento [Cadastro e pesquisa de configuração de modelo de e-mail](/pt-br/citsmart-platform-7/plataform-administration/email-settings/configure-email-template.html))
+2. Configure the e-mail templates (see knowledge [E-mail template configuration registration and search](/en-us/citsmart-platform-7/plataform-administration/email-settings/configure-email-template.html))
 
-3. Ter o grupo executor cadastrado (ver conhecimento [Cadastro e pesquisa de grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html))
+3. Have the performer group registered (see knowledge [Group registration and search](/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html))
 
-4. Ter o calendário cadastrado (ver conhecimento [Cadastro e pesquisa de calendário](/pt-br/citsmart-platform-7/plataform-administration/time/create-calendar.html))
+4. Have the calendar registered (see knowledge [Calendar registration and search](/en-us/citsmart-platform-7/plataform-administration/time/create-calendar.html))
 
-Filtros
+Filters
 ---------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da
-funcionalidade, facilitando a localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier to 
+find the desired items:
 
-    - Nome.
+    - Name.
     
-    ![Pesquisa](images/tip-mud.img1.png)
+    ![Search](images/type.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de tipo de mudança**
+    **Figure 1 - Change type search screen**
     
-2. Realize a pesquisa de tipo de mudança. Informe o nome do tipo de mudança que deseja pesquisar e clique no botão 
-"Pesquisar". Após isso, será exibido o registro do tipo de mudança conforme o nome informado;
+2. Search the change type.Insert the intended change type name and click on the Search button. Afterwards, the change type entry 
+will be displayed according to the inserted name;
 
-    - Realize a pesquisa de tipo de mudança. Informe o nome do tipo de mudança que deseja pesquisar e clique no botão "Pesquisar". 
-    Após isso, será exibido o registro do tipo de mudança conforme o nome informado;
+    - In case the user intends to list all change type entries, just click directly on the *Search* button.
     
-Listagem de itens
+Items list
 -------------------
 
-1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens desejados na
-listagem padrão da funcionalidade: **Nome**.
+1. The following cadastral field is available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **Name**.
 
-    ![Listagem](images/tip-mud.img2.png)
+    ![Listing](images/type.img2.jpg)
     
-    **Figura 2 - Listagem de tipo de mudança**
+    **Figure 2 - Change Type listing**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo
-o conteúdo referente ao registro selecionado;
+2. Afterwards, select the intended entry. Thereafter, the user will be redirected to the registry screen displaying the content 
+related to the selected entry;
 
-3. Para alterar os dados do registro de tipo de mudança, basta modificar as informações dos campos desejados e
-clicar no botão "Gravar" para que seja gravada a alteração realizada no registro, onde a data, hora e usuário serão 
-gravados automaticamente para uma futura auditoria.
+3. To edit the change type entry data, just modify the information on the intended forms and click on the *Save* button in order to 
+save the changes in the registry, in which date, time and user will be stored for a future audit.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Será apresentada a tela de cadastro de **Tipo de Mudança**, conforme ilustrada na figura abaixo:
+1. The **Type of Change** entry screen will appear, as illustrated below:
 
-    ![Cadastro](images/tip-mud.img3.png)
+    ![Entry](images/type.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de tipo de mudança**
+    **Figure 3 - Change type entry screen**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill out the fields according to the instructions below:
 
-    - **Nome**: informe o nome do tipo de mudança;
+    - **Name**: insert the name of the change type;
     
-    - **Fluxo**: selecione o fluxo para que o mesmo seja associado ao tipo de mudança que está sendo cadastrado;
+    - **Flow**: select the flow in order to associate it to the change type being registered;
+
+    - **Performer Group**: insert the group in charge of the task, which will be the standard group for the change type;
     
-    - **Grupo Executor**: informe o grupo executor, o qual será o grupo padrão do tipo de mudança, responsável pela
-    execução da requisição de mudança;
+    - **E-mail template for Change (Open)**: select the change request e-mail template which will notify the plaintiff that the 
+    change request has been registered;
     
-    - **E-mail Criação**: selecione o modelo de e-mail de registro de requisição de mudança que servirá para 
-    notificar ao solicitante que a requisição de mudança foi registrada;
+    - **E-mail template for Change (Closure)**: select the change request conclusion e-mail template which will notify the plaintiff 
+    that the change request has been finished;
     
-    - **E-mail Finalização**: selecione o modelo de e-mail de finalização da requisição de mudança que servirá 
-    para notificar ao solicitante que a requisição de mudança foi finalizada;
+    - **E-mail template for Change (Other Actions)**: select the change request progress e-mail template which will notify the 
+    plaintiff on the progress of the change request;
     
-    - **E-mail Ações**: selecione o modelo de e-mail de andamento da requisição de mudança que servirá para
-    notificar ao solicitante sobre o andamento da requisição de mudança;
+    - **Impact**: insert the impact of the change type;
     
-    - **Impacto**: informe o impacto do tipo de mudança;
+    - **Urgency**: insert the urgency of the change type;
     
-    - **Urgência**: informe a urgência do tipo de mudança;
+    - **Calendar**: insert the calendar of the change type;
     
-    - **Calendário**: informe o calendário do tipo de mudança;
+    - **Type of Impact and Risk Analysis**: select the type of risk and impact analysis, simplified or targeted;
     
-    - **Tipo de Análise de Impacto e Risco**: selecione o tipo de análise de impacto e risco, simplificado ou por alvos;
-    
-    - Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente
-    para uma futura auditoria.
+    - Click on the *Save* button to register, as date, time and user will be automatically recorded for a future audit.
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/11/2019 – Larissa Lourenço
+    <b>Updated:</b>08/23/2019 – Larissa Lourenço
