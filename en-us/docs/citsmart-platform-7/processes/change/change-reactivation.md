@@ -1,69 +1,69 @@
-title: Reativação de requisição de mudança
-Description: Esta funcionalidade permite reativar requisição de mudança que foi suspensa.
-# Reativação de requisição de mudança
+title: Change request reactivation
+Description: This functionality allows you to reactivate a change request that has been suspended.
+# Change request reactivation
 
-Esta funcionalidade permite reativar requisição de mudança que foi suspensa.
+This functionality allows you to reactivate a change request that has been suspended.
 
-Como acessar
+How to access
 --------------
 
-1. Acesse a funcionalidade de reativação de requisição de mudança através da navegação no menu principal 
-**Processos ITIL > Gerência de Mudança > Gerenciamento de Mudança**.
+1. Access the change request reactivation feature by navigating the main menu 
+**Process Management > Change Management > Change Management**.
 
-Pré-condições
+Preconditions
 ---------------
 
-1. Ter ao menos uma requisição de mudança cadastrada. (ver o conhecimento [Cadastro de requisição de mudança](/pt-br/citsmart-platform-7/processes/change/register-change.html)).
+1. Have registered at least one change request (see knowledge [Change request registration](/pt-br/citsmart-platform-7/processes/change/register-change.html)).
 
-Filtros
+Filters
 ---------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+1. The following filters enable the user to restrict the participation of items in the standard feature listing, making it easier to 
+locate the desired items:
 
-    - Número da mudança;
+    - Change Number;
 
-    - Atribuída/Compartilhada;
+    - Assigned/Shared;
 
-    - Itens por página.
+    - Items per page.
 
-    ![Pesquisa](images/reat-mud.img1.png)
+    ![Pesquisa](images/reactivate.img1.jpg)
 
-    **Figura 1 - Tela de pesquisa de mudança**
+    **Figure 1 - Change Search Screen**
 
-Listagem de itens
+Items list
 ------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: Número, Solicitante, Criada em, Prioridade, Prazo, Prazo limite, Atraso, Situação, Tarefa atual, 
-Grupo Executor e Responsável atual.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard 
+listing of the functionality: **Number, User, Create on, Priority, Dead Line, Time limit, Expired, Situation, current task, Executor 
+Group** and **Current responsible**.
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Visualizar" e "Relatórios".
+2. There are action buttons available to the user in relation to each item in the listing, they are: *View* and *Reports*.
 
-![Listagem](images/reat-mud.img2.png)
+![Listing](images/reactivate.img2.jpg)
 
-**Figura 2 - Tela de listagem de mudança**
+**Figure 2 - Change listing screen**
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Não se aplica.
+1. Not applicable.
 
-Reativando requisição de mudança
+Reactivating request for change
 ---------------------------------
 
-1. Na guia **Gerenciamento**, localize a requisição de mudança que está suspensa e deseja reativar, clique no botão "Ação"
-e selecione a opção "Reativar mudança", conforme indicado na imagem abaixo:
+1. On the **Management** tab, locate the change request that is suspended and you want to reactivate it, click on the Action button 
+and select the option *Reactivate change*.
 
-    ![Reativar](images/reat-mud.img3.png)
+    ![Reactivate](images/reactivate.img3.jpg)
     
-    **Figura 3 - Botão reativar mudança**
+    **Figure 3 - Reactivate change button**
     
-    - Será exibida uma mensagem para confirmação da reativação.
-    - Clique em "OK" para efetuar a operação.
-    - A situação da requisição será atualizada na lista de requisições de mudança.
+    - A message will be displayed to confirm reactivation;
+    - Click *OK* to perform the operation;
+    - The change request situation will be updated in the list of change requests.
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Larissa Lourenço
+    <b>Updated:</b>08/23/2019 – Larissa Lourenço
