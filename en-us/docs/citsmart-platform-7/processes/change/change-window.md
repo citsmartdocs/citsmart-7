@@ -1,71 +1,70 @@
-title: Janela de mudança
-Description: Gerenciar os períodos em que a organização passa por um momento de manutenção ou blackout e assim ajudar no planejamento de uma mudança.
-# Janela de mudança
+title: Change window
+Description: Manage the periods in which the organization goes through a maintenance and thus help in planning a change.
+# Change window
 
-Gerenciar os períodos em que a organização passa por um momento de manutenção ou
-blackout e assim ajudar no planejamento de uma mudança.
+Manage the periods in which the organization goes through a maintenance or blackout time and thus help in planning a change.
 
-Como acessar
--------------
-
-1. Acesse a funcionalidade de janela de mudança através da navegação no menu principal 
-**Processos ITIL > Gerência de Mudanças > Janela de Mudança**.
-
-Pré-condições
+How to access
 ---------------
 
-1. Não se aplica.
+1. Access the change window functionality through navigation in the main menu 
+**ITIL Processes > Change Management > Change Window**.
 
-Filtros
+Preconditions
+---------------
+
+1. Not applicable.
+
+Filters
 ---------
 
-1. Não se aplica.
+1. Not applicable.
 
-Listagem de itens
--------------------
+Items list
+------------
 
-1. Não se aplica.
+1. Not applicable.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Será apresentada a tela de janela de mudança em formato de calendário, onde poderão ser
-visualizados períodos de manutenção e blackout, conforme ilustrada na figura abaixo:
+1. After that, the change window screen will appear in calendar format, where you can see maintenance periods and blackouts, as 
+shown in the figure below:
 
-    ![Janela](images/jane-mud.img1.png)
+    ![Window](images/window.img1.jpg)
     
-    **Figura 1 - Calendário de janela de mudança**
+    **Figure 1 - Change window calendar**
     
-2. Para cadastrar nova janela de mudança, clique na data que desejar que será apresentada a tela para cadastro de 
-janela de mudança, conforme ilustrado abaixo:
+2. To register a new change window, click on the date you want the change window registration screen to be displayed, as shown 
+below:
 
-    ![Janela](images/jane-mud.img2.png)
+    ![Change](images/window.img2.jpg)
     
-    **Figura 2 - Janela de mudança**
+    **Figure 2 - Change window**
     
-    - **Janela de Mudança**: informe a descrição para identificar a janela de mudança;
-    - **Tipo**: selecione o tipo da janela de mudança:
-        - **Manutenção**: estabelece períodos de tempo em que as mudanças no IC ocorrerão;
-        - **Blackout**: estabelecem períodos de tempo em que as mudanças no IC não devem ocorrer.
-    - **Global**: esse campo deve ser marcado para uma janela de manutenção que não pode ter IC's associados;
+    - **Change Window**: enter the description to identify the change window;
+    - **Type**: select the type of change window:
+        - **Blackout**: establish periods of time when changes in the CI should not occur.
+        - **Maintenance**: establish periods of time in which changes in the IC will occur.
+    - **Global**: this field must be marked for a maintenance window that can not have associated IC's;
     
-    !!! info "IMPORTANTE"
+    !!! info "IMPORTANT"
     
-        Esse campo só deve ser marcado para janela de mudança do tipo "Manutenção".
+        This field should only be marked for change window type "Maintenance".
         
-    - **Data/Hora Início**: informe a data e o horário de início de interrupção para execução da janela de mudança;
-    - **Data/Hora Fim**: informe a data e o horário final de interrupção para execução da janela de mudança;
-    - **Detalhes**: informe os detalhes da janela de mudança, por exemplo, causa raiz, propósito etc;
-    - **Recorrência**: se houver, informe a recorrência dessa janela de mudança, assim poderá reprogramar automaticamente
-    a janela de mudança com as seguintes recorrências:
-        - **Diária**: informe a data limite para a recorrência diária;
-        - **Semanal**: informe a data limite para a recorrência semanal e selecione os dias da semana que desejar, além 
-        do dia da semana que está sendo cadastrada a janela de mudança;
-        - **Mensal**: informe a data limite para a recorrência mensal;
-        - **Anual**: informe a data limite para a recorrência anual.
+    - **Start Date/Time**: enter the start date and time of interruption to run the change window;
+    - **End Date/Time**: enter the date and the final time of interruption for execution of the change window;
+    - **Details**: enter the details of the change window, for example root cause, purpose etc.;
+    - **Recurrence**: if there is, inform the recurrence of this change window, so you can automatically reprogram the change window 
+    with the following recurrences:
+        - **Daily**: inform the deadline for daily recurrence;
+        - **Weekly**: inform the deadline for the weekly recurrence and select the days of the week you wish, in addition to the day 
+        of the week that the change window is being registered;
+        - **Monthly**: inform the deadline for the monthly recurrence;
+        - **Yearly**: inform the deadline for annual recurrence.
         
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Larissa Lourenço
+    <b>Updated:</b>08/23/2019 – Larissa Lourenço
        
