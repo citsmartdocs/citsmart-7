@@ -81,7 +81,7 @@ Importing MS-Project schedules for change activities
 
 1. In the "Activities List" you can register the activities manually or by using the Microsoft Project application;
 
-    - To import registered activities into the Microsoft Project application, click *Import MS Project*;
+    - To import registered activities into the Microsoft Project application, click *Import MS Project*;  
         - The screen to import the MS Project file will be displayed:
         
     ![MSProject](images/planning.img5.jpg)
