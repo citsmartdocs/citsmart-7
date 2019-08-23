@@ -110,7 +110,6 @@ Filling in the registratio fields
 [6]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
 
 
-
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
