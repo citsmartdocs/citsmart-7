@@ -1,78 +1,78 @@
-title:Passos para abertura automática de solicitação de serviço via e-mail
-Description:Tem o objetivo de orientar quanto a abertura automática de solicitação de serviço via e-mail, agilizando o processo de abertura de Requisições de Serviço recebida pelo usuário
+title: Steps for automatic opening of service request via e-mail
+Description: This knowledge aims to guide the automatic opening of service
+request via e-mail, speeding up the process of opening Service Requests received
+by the user.
 
-# Passos para abertura automática de solicitação de serviço via e-mail
+# Steps for automatic opening of service request via e-mail
 
-Este conhecimento tem por objetivo orientar quanto a abertura automática de
-solicitação de serviço via e-mail, agilizando o processo de abertura de
-Requisições de Serviço recebida pelo usuário.
+This knowledge aims to guide the automatic opening of service request via
+e-mail, speeding up the process of opening Service Requests received by the
+user.
 
-![Criar ticket](images/open-ticket.png)
+![figure](images/open-ticket.png)
 
-**Figura 1 - Diagrama do POP para abertura automática de solicitação de serviço
-via e-mail**
+**Figure 1 - SOP diagram for automatic opening of service request via e-mail**
 
-Pré-condições
+Preconditions
 -------------
 
-1.  O serviço deverá possuir um SLA do Tipo Tempo atribuído à ele.
+1.  The service must have a Time Type SLA assigned to it.
 
-Detalhes das atividades
------------------------
+Details of activities
+---------------------
 
-#### Cadastro de template de ação automática - incidente / requisição / procedimento
+### **AUTOMATIC ACTIONS - INCIDENTS/REQUESTS/PROCEDURES ACTIONS**
 
-1.  Cadastro de template de Ação automática - Incidente/Requisição/Procedimento
-    (ver conhecimento [Cadastro e pesquisa de ações automáticas](1)),
-    pois será utilizado como template para a abertura da solicitação de serviço.
+1.  Automatic Actions - Incidents/Requests/Procedures Template registration
+    because it will be used as a template for the opening of the service request
+    (see knowledge [Automatic actions registration and search][1]).
 
-#### Realizar as configurações de e-mail
+### **PERFORM E-MAIL SETTINGS**
 
-1.  Realizar as configurações de e-mail (ver conhecimento [Manual de
-    configuração de ação automática via e-mail.](2)), esse cadastro será utilizado para vincular o template cadastrado.
+1.  Perform e-mail settings, this register will be used to link the registered
+    template (see knowledge [Automatic Actions via E-mail setup guide][2]).
 
-#### Realizar as configurações do processamento batch
+### **CONFIGURE THE BATCH PROCESSING**
 
-1.  Realizar as configurações do processamento Batch (ver conhecimento [Cadastro
-    e pesquisa de processamento Batch](3));
+1.  Realize the Batch processing configuration (see knowledge [Batch
+    processing registration and search][3]);
 
-2.  Esse cadastro informa a cada quanto tempo o sistema fará a leitura dos
-    e-mails.
+2.  This register informs every time the system will read the e-mails.
 
-!!! note "NOTA"
+!!! note "NOTE"
 
-     É necessário colocar no campo Conteúdo a seguinte informação
-     'br.com.centralit.citcorpore.quartz.job.JobConfiguracaoAberturaAutomaticaViaEmail'
-     (sem aspas). Esse é o comando que executa o Job desejado para a ação de
-     Abertura Automática via E-mail.
+    It is necessary to put in the Content field the following information
+    'br.com.centralit.citcorpore.quartz.job.JobConfiguracaoAberturaAutomaticaViaE-mail'
+    (without quotes). This is the command that executes the desired Job for the
+    Automatic Opening action via E-mail.
 
-Informações adicionais
+Additional information
 ----------------------
 
-1.  Após a realização da configuração, o sistema irá disparar o Job no horário
-    desejado;
+1.  After the configuration is completed, the system will fire the Job at the
+    desired time;
 
-2.  Os e-mails que estiverem na caixa sem marcação de leitura, serão lidos e
-    deles serão abertas Solicitações de Serviços;
+2.  The e-mails that are in the box without a reading mark will be read, and
+    from them will be opened Service Requests;
 
-3.  O sistema marca automaticamente o e-mail como lido para que não haja
-    duplicação de cadastro (ver conhecimento [Regras sobre a abertura automática
-    de solicitação de serviço via e-mail](4));
+3.  The system automatically marks the e-mail as read so there is no duplication
+    of registration (see knowledge [Rules for automatic opening of service
+    request via e-mail][4]);
 
-4.  Caso o sistema identifique que o colaborador é usuário do sistema, através
-    do e-mail do remetente e o usuário estiver em um grupo vinculado ao mesmo
-    contrato que o template foi criado (Ações Automáticas -
-    Incidentes/Requisições/Procedimentos), então, a solicitação de serviço será
-    criada com o solicitante do e-mail;
+4.  If the system identifies that the employee is a system user, through the
+    sender's e-mail and the user is in a group linked to the same contract that
+    the template was created Automatic Actions - Incidents/Requests/Procedures),
+    then the service request will be created with the requestor of the e-mail;
 
-5.  Caso o sistema não identifique o solicitante, então, o sistema atribuirá a
-    solicitação de serviço, ao usuário informado no cadastro de Ação Automática
-    Incidente/Requisição/Procedimento.
+5.  If the system does not identify the requestor, then the system will assign
+    the service request to the user entered in the Incident/Request/Procedure
+    Automatic Action register.
 
-[1]:/pt-br/citsmart-platform-7/plataform-administration/configuring-automatic-actions/automatic-actions.html
-[2]:/pt-br/citsmart-platform-7/plataform-administration/configuring-automatic-actions/automatic-action-email.html
-[3]:/pt-br/citsmart-platform-7/plataform-administration/configuring-automatic-actions/batch-processing.html
-[4]:/pt-br/citsmart-platform-7/processes/tickets/rules-open-ticket.html
+
+[1]:/en-us/citsmart-platform-7/plataform-administration/configuring-automatic-actions/automatic-actions.html
+[2]:/en-us/citsmart-platform-7/plataform-administration/configuring-automatic-actions/automatic-action-email.html
+[3]:/en-us/citsmart-platform-7/plataform-administration/configuring-automatic-actions/batch-processing.html
+[4]:/en-us/citsmart-platform-7/processes/tickets/rules-open-ticket.html
 
 
 !!! tip "About"
