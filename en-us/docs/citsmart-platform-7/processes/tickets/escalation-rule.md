@@ -47,7 +47,7 @@ Itens list
 
 2.  There are action buttons available to the user for each item in the listing, they are: *Edit* and *Delete*.
 
-    ![escalonamento](images/escalation-rule2.png)
+    ![figure](images/escalation-rule2.png)
 
     **Figure 2 - Scheduling list screen**
 
@@ -58,7 +58,7 @@ Filling in the registratio fields
 
 1.  When you click the New button, the Schedules Rules and Automatic Notifications screen appears, as shown in the figure below:
 
-    ![escalonamento](images/escalation-rule3.png)
+    ![figure](images/escalation-rule3.png)
 
     **Figure 3 - Scheduling rules registration screen**
 
@@ -114,3 +114,4 @@ Filling in the registratio fields
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
     <b>Updated:</b>07/10/2019 – Anna Martins
+
