@@ -18,7 +18,7 @@ Preconditions
 
 2.  Have the group registered (see knowledge [Group registration and search][2]);
 
-3.  Have the contract registered (see knowledge [Contract registration and search][3]);;
+3.  Have the contract registered (see knowledge [Contract registration and search][3]);
 
 4.  Have the unit registered (see knowledge [Unit registration and search][4]);
 
