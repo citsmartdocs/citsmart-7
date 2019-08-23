@@ -14,7 +14,7 @@ How to access
 Preconditions
 -------------
 
-1.  Have access to the Incidents, Requests and Procedures Template functionality (see knowledge Access profile registration and search)[1];
+1.  Have access to the Incidents, Requests and Procedures Template functionality (see knowledge [Access profile registration and search])[1];
 
 2.  Have the group registered (see knowledge [Group registration and search][2]);
 
