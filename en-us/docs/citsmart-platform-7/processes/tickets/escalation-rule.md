@@ -1,138 +1,113 @@
-title: Cadastro e pesquisa de regras de escalonamento de um ticket
-Description: Tem o objetivo de registrar diversos tipos de equipes ou áreas que podem gerar um ticket.
+title: Registration and search of ticket scheduling rules
+Description: Registration and search of ticket scheduling rules
 
-# Cadastro e pesquisa de regras de escalonamento de um ticket
+# Registration and search of ticket scheduling rules
 
-Como acessar
+How to access
 -----------
 
-1.  Acesse o menu principal **Processos ITIL > Gerência de
-    Ticket > Regras de escalonamento**.
+1.  Access the functionality through navigation in the main menu **Process Management > Ticket Management > Escalation rules**.
 
-Pré-condições
+Preconditions
 -------------
 
-1.  No arquivo citsmart.cfg, ter configurado a
-    propriedade **START_MONITORA_INCIDENTES** informando o
-    parâmetro **TRUE**, para esse ajuste neste arquivo somente o administrador
-    do sistema operacional do servidor da aplicação (ver conhecimento [Manual de
-    instalação on-premise (ITSM)](1));
+1.  In the citsmart.cfg file, you have set the START_MONITORA_INCIDENTES property to the parameter TRUE (see knowledge [On-premise installation guide (ITSM)][1]);
 
-2.  Informe o conteúdo abaixo no parâmetro (ver conhecimento [Regras de
-    parametrização -ticket](2));
+2.  Enter the content below into the parameter (see knowledge [Parameterization rules - ticket][2]);
 
-    -   Parâmetro 190: com o valor S
+    -   Parameter 190: with the value Y
 
-1.  Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de
-    contrato](3));
+3.  Have the contract registered. (see knowledge [Contract registration and search][3]);
 
-2.  Ter o colaborador cadastrado (ver conhecimento [Cadastro e pesquisa de
-    colaborador](4));
+4.  Have the staff registered. (see knowledge [Staff registration and search][4]);
 
-3.  Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de
-    grupo](5));
+5.  Have the group registered. (see knowledge [Group registration and search][5]);
 
-4.  Ter o portfólio de serviços definido (ver conhecimento [Cadastro de
-    portfólio de serviços](6)).
+6.  Have the service portfolio defined. (see knowledge [Service portfolio registration][6]).
 
-Filtros
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filters enables the user to restrict the participation of items in the standard feature listing, making it easier to find the desired items:
 
-    -   Título;
+    -   Títle;
 
-    -   Situação.
+    -   Situation.
     
-    ![escalonamento](images/escalation-rule1.png)
+    ![figure](images/escalation-rule1.png)
     
-    **Figura 1 - Tela de pesquisa de regra de escalonamento**
+    **Figure 1 - Scheduling rules search screen**
 
-1.  Realize a pesquisa do registro de regras de escalonamento, informando o nome
-    da regra, o filtro *Situação* pode ser usado para refinar mais ainda a
-    pesquisa.
+2.  Perform the scheduling rule record search by entering the name of the rule, the Situation filter can be used to further refine the search.
 
-Listagem de itens
+Itens list
 -----------------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Título e Situação.
+1.  The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard feature listing: Title and Status.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Excluir*.
+2.  There are action buttons available to the user for each item in the listing, they are: *Edit* and *Delete*.
 
     ![escalonamento](images/escalation-rule2.png)
 
-    **Figura 2 - Tela de lista de itens**
+    **Figure 2 - Scheduling list screen**
 
-1.  Após a pesquisa, selecione o registro desejado clicando no botão *Editar*.
-    Feito isso, será direcionado para tela de cadastro exibindo o conteúdo
-    referente ao registro selecionado.
+3.  After the search, select the desired record by clicking the Edit button. Once this is done, you will be directed to the registration screen displaying the contents of the selected record.
 
-Preenchimento dos campos cadastrais
+Filling in the registratio fields
 -----------------------------------
 
-1.  Ao clicar no botão *Novo*, a tela de cadastro das **Regras de Escalonamento
-    e notificações automáticas** será exibida, conforme ilustrada na figura
-    abaixo:
+1.  When you click the New button, the Schedules Rules and Automatic Notifications screen appears, as shown in the figure below:
 
     ![escalonamento](images/escalation-rule3.png)
 
-    **Figura 3 - Tela de cadastro de regras de escalonamento**
+    **Figure 3 - Scheduling rules registration screen**
 
-1.  Preencha os campos conforme orientação abaixo:
+1.  Fill in the fields as directed below:
 
-    -   **Título**: informe o nome na nova regra de escalonamento;
+    -   **Title**: enter the name in the new scheduling rule;
 
-    -   **Situação**:informe a situação da regra (ativo ou inativo);
+    -   **Status**:state the status of the rule (active or inactive);
 
-    -   **Solicitante**: informe o solicitante da regra;
+    -   **User**: inform the rule requester;
 
-    -   **Grupo executor**: informe o nome do grupo executor;
+    -   **Executer group**: enter the name of the executing group;
 
-    -   **Catálogo**: selecione o tipo de catálogo (Negócio ou Técnico);
+    -   **Catalog**: select the type of catalog (Business or Technical);
 
-    -   **Serviço**: informe o serviço do catálogo;
+    -   **Service**: inform the catalog service;
 
-    -   **Tipo**: informe um tipo de solicitação (Requisição ou Incidente);
+    -   **Type**: enter a request type (request or Incident);
 
-    -   **Categoria**: selecione um tipo de categoria;
+    -   **Category**: select a category type;
 
-    -   **Atividade (Requisição/Incidente)**: informe o nome do tipo de serviço
-    (requisição ou incidente);
+    -   **Activity (Request/ Incident)**: enter the name of the service type (request or incident);
 
-    -   **Contrato**: selecione o contrato a ser vinculado;
+    -   **Contract**: select the contract to be linked;
 
-    -   **Impacto**: informe o nível de impacto (Baixo, Médio ou Alto);
+    -   **Impact**: inform the impact level (Low, Medium or High);
 
-    -   **Urgência**: informe o nível de urgência (Baixo, Médio ou Alto);
+    -   **Urgency**: inform the urgency level (Low, Medium or High);
 
-    -   Regras
+    -   Rules
 
-        -   **Tempo**:digitar a quantidade de tempo referente a regra;
+        -   **Time**: enter the amount of time per rule;
 
-        -   **Formato**: escolher se refere a minutos (tempo da regra) ou percentual
-            (referente ao tempo do SLA);
+        -   **Format**: choose refers to minutes (rule time) or percentage (referring to SLA time);
 
-        -   **Condição**: informe a condição (Antes ou Depois);
+        -   **Condition**: inform the condition (Before or After);;
 
-        -   **Data**: escolha a data de referência (data de criação, data da última
-            ocorrência ou data limite);
+        -   **Date**: choose the reference date (creation date, date of the last occurrence or final date);
 
-        -   **Ação**: informe o tipo de ação.
+        -   **Action**: inform the type of action.
 
-1.  Clique em *Adicionar* e a nova regra de escalonamento será exibida em uma
-    nova listagem para checagem, se regra estiver correta, clicar em *Gravar*.
+1.  Click Add, and the new scheduling rule will appear in a new checklist, if rule is correct, click *Save*.
 
-[1]:/pt-br/citsmart-platform-7/get-started/installation.html
-[2]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrizaion-ticket.html
-[3]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
-[4]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html
-[5]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
-[6]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+[1]:/en-us/citsmart-platform-7/get-started/installation.html
+[2]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrizaion-ticket.html
+[3]:/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[4]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/employee.html
+[5]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[6]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
 
 
 
