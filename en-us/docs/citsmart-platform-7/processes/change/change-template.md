@@ -1,113 +1,108 @@
-title: Cadastro e pesquisa de template de mudança
-Description: Esta funcionalidade tem por objetivo cadastrar um template para facilitar a abertura de uma nova requisição de mudança.
-# Cadastro e pesquisa de template de mudança
+title: Change request template registration and search
+Description: The goal of this feature is to create a template to facilitate opening a new change request.
+# Change request template registration and search
 
-Esta funcionalidade tem por objetivo cadastrar um template para facilitar a abertura de uma nova requisição de mudança.
+The goal of this feature is to create a template to facilitate opening a new change request.
 
-Como acessar
----------------
+How to access
+-----------------
 
-1. Acesse a funcionalidade de template de mudança através da navegação no menu principal 
-**Processos ITIL > Gerência de Mudança > Template de Mudança**.
+1. Access the change template functionality by navigating in the main menu 
+**Process Management > Change Management > Template Change**.
 
-Pré-condições
----------------
+Preconditions
+-----------------
 
-1. Não se aplica.
+1. No applicable.
 
-Filtros
+Filters
 ---------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da 
-funcionalidade, facilitando a localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier to 
+find the desired items:
 
-    - Nome
+    - Name.
     
-    ![Pesquisa](images/temp-mud.img1.png)
+    ![Search](images/template.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de template de mudança**
+    **Figure 1 - Change template search screen**
     
-2. Realize a pesquisa de template de mudança;
+2. Search the change template:
 
-    - Informe o nome do template de mudança que deseja pesquisar e clique no botão "Pesquisar". Após isso,
-    será exibido o registro do template de mudança conforme o nome informado;
+    - Inform the name of the template being searched and click on the *Search* button;
     
-    - Caso deseje listar todos os registros de risco, basta clicar diretamente no botão "Pesquisar".
+    - In case all entries are intended to be listed, just click directly on the *Search* button.
     
-Listagem de itens
+Items list
 -------------------
 
-1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens
-desejados na listagem padrão da funcionalidade: **Nome**.
+1. The following cadastral field is available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **Name**.
 
-2. Na tela de **Template mudança**, clique na aba **Pesquisa**.
+2. On the **Change template** screen, click on the *Search* tab. A search screen will appear as illustrated below:
 
-    ![Listagem](images/temp-mud.img2.png)
+    ![Listing](images/template.img2.jpg)
     
-    **Figura 2 - Listagem de template de mudança**
+    **Figure 2 - Change template listing**
     
-3. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro
-exibindo o conteúdo referente ao registro selecionado;
+3. After searching, select the intended entry; then, the user will be redirected to the registry screen displaying the content of 
+the selected entry;
 
-4. Para alterar os dados do registro de template de mudança, basta modificar as informações dos campos 
-desejados e clicar no botão "Gravar" para que seja gravada a alteração realizada no registro, onde a data,
-hora e usuário serão gravados automaticamente para uma futura auditoria.
+4. To edit the data of the change template entry, just modify the information of the intended fields and click on the *Save* button 
+in order to register the change made to the database, where the date, time and user will be saved automatically for a future audit.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 --------------------------------------
 
-1. Será apresentada a tela de cadastro de template de mudança, conforme ilustrada na figura abaixo:
+1. The **Change Template Registration** screen will appear, as illustrated below:
 
-    ![Cadastro](images/temp-mud.img3.png)
+    ![Entry](images/template.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de template de mudança**
+    **Figure 3 – Change Template entry screen**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill out the fields according to the guidelines below:
 
-    - **Nome**: informe o nome do template de mudança;
+    - **Name**: insert the name of the change request template;
     
-    - **Contrato**: selecione o contrato para qual será feita a requisição de mudança;
+    - **Contract**: select the contract for which will be made the change request;
     
-    - **Solicitante**: informe o nome do solicitante, ou seja, o nome da pessoa que está solicitando a
-    abertura de requisição de mudança;
+    - **Requester**: insert the petitioner’s name, that is, the name of the person opening a change request;
     
-    - **Título**: informe o título da requisição de mudança;
+    - **Title**: insert the title of the change request;
+
+    - **Description**: insert the description of the change request;
     
-    - **Descrição**: informe a descrição da requisição de mudança. A descrição deve ser objetiva, incluindo toda 
-    informação necessária para o atendimento da requisição;
+    - **Type**: select the change type;
     
-    - **Tipo**: selecione o tipo de mudança;
-    
-        - **Mudança padrão**: é uma mudança que é previamente pré-aprovada pelo Gerenciamento de Mudança e já possui
-        procedimentos aceitos e estabelecidos;
+        - **Standard Change**: it is a change which has been previously pre-approved by the Change Management and already has 
+        accepted and established procedures;
         
-        - **Mudança normal**: é uma mudança que segue um fluxo normal de avaliação, aprovação e autorização;
+        - **Normal Change**: it is a change that follows a regular process of evaluation, approval and endorsement;
         
-        - **Mudança emergencial**: é uma mudança em um serviço que pretende reparar emergencialmente um erro no serviço de TI.
+        - **Emergency Change**: it is a change in a service with the purpose of urgently repairing an IT service error.
         
-    - **Grupo**: selecione o grupo executor, o qual será responsável pelo atendimento da requisição de mudança. Caso não seja 
-    informado o grupo, o mesmo será estabelecido conforme definido no cadastro de Tipo de Mudança de acordo com o fluxo;
+    - **Group**: Select the group performing the task, which will be responsible for fulfilling the change request. If no group is 
+    informed, it will be established according to the specified standard of the type of change per workflow;
     
-    - **Comitê Consultivo de Mudança**: selecione o Comitê Consultivo de Mudanças, grupo responsável por avaliar, executar 
-    análise de risco e garantir o envolvimento de todas as áreas relacionadas às mudanças, aprovando ou não sua execução;
+    - **Change Advisory Board (CAB)**: select the Change Advisory Board, group responsible for assessing, performing risk assessment 
+    and ensuring all fields related to the changes are involved, approving or not its execution;
     
-    - **Urgência**: selecione a urgência da mudança;
+    - **Urgency**: select the urgency of the change;
     
-    - **Impacto**: selecione o impacto da mudança;
+    - **Impact**: select the impact of the change;
     
-    - **Prioridade**: a prioridade será estabelecida pelo sistema, após informar a urgência e impacto;
+    - **Priority**: the system will establish the priority, after informing the urgency and impact;
     
-    - **Item Configuração**: selecione o(s) item(s) de configuração referente a requisição;
+    - **Configuration Item**: select the configuration item (s) regarding the request;
     
-    - **Base de Conhecimento**: selecione o(s) conhecimento(s) referente a requisição;
+    - **Knowledge Base**: select the knowledge regarding the request;
     
-    - Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados
-    automaticamente para uma futura auditoria.
+    - Click on the *Save* button to create the entry, which date, time and user will be automatically stored for a future audit.
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/11/2019 – Larissa Lourenço
+    <b>Updated:</b>08/23/2019 – Larissa Lourenço
       
     
     
