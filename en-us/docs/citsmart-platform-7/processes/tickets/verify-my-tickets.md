@@ -18,10 +18,9 @@ Preconditions
 
 1.  Have a registered configuration item (see knowledge [Configuration item
     management][1] section Registering a new configuration item) and be linked to a service request
-    (see knowledge [Ticket management (services)][2]) section Linking the aplicant's configuration item (CI));
+    (see knowledge [Ticket management (services)][2] section Linking the aplicant's configuration item (CI));
 
-2.  Have registered service requests (see knowledge [Ticket management
-    (services)][3] section Ticket registration).
+2.  Have registered service requests (see knowledge [Ticket management (services)][3] section Ticket registration).
 
 Filters
 -------
