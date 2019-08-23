@@ -307,7 +307,7 @@ Impact and simplified risk analysis
     - A window for risk search will be displayed. Perform the search and select the risk pertaining to the change. Once this is 
     done, the risk will be related to the request for change;
         
-    ![Risks](images/planej-mud.img25.png)
+    ![Risks](images/planning.img25.jpg)
     
     **Figure 25 - Record of Risks involved in change**
     
