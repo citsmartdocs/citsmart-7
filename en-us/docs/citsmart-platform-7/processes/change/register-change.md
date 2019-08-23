@@ -144,7 +144,7 @@ Linking related CI
     
     **Figure 5 - Related CI selection**
     
-    - The configuration item addition screen will be displayed. Click the icon ![simbolo](images/simb-lupa.png) to add the 
+    - The configuration item addition screen will be displayed. Click the icon ![simbolo](images/simb-lupa.jpg) to add the 
     configuration items.
     - The window for searching for configuration items will be displayed. Perform the search, select the configuration item for the 
     change;
@@ -201,7 +201,7 @@ Liking change service's
    
     **Figure 9 - Change services selection**
    
-    - Click the icon ![simbolo](images/simb-lupa.png) to add the service;
+    - Click the icon ![simbolo](images/simb-lupa.jpg) to add the service;
     
     - A window will appear for service search. Perform the search and select the service. Once this is done, the service will be;
    
@@ -209,7 +209,7 @@ Liking change service's
    
    **Figure 10 - Service to change relationships**
    
-   - If you want to see the service map design, simply click on the icon ![simbolo](images/simb-lupa.png) ;
+   - If you want to see the service map design, simply click on the icon ![simbolo](images/simb-lupa.jpg) ;
    - If you want to remove a service that was related to the change, simply click the icon ![simbolo](images/simb-menos.red.jpg).
    
 !!! note "NOTE"
