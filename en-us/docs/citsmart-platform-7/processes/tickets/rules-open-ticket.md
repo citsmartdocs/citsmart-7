@@ -1,36 +1,38 @@
-title: Regras sobre a abertura automática de solicitação de serviço via e-mail
-Description:Regras sobre a abertura automática de solicitação de serviço via e-mail
+title: Rules for automatic opening of service request via e-mail
+Description: Here are some key rules related to automatic opening of Service
+Request via e-mail
 
-# Regras sobre a abertura automática de solicitação de serviço via e-mail
+# Rules for automatic opening of service request via e-mail
 
-[RN] Segue algumas das principais regras relacionadas com a abertura automática
-de solicitação de serviço via e-mail:
+[BR] Here are some key rules related to automatic opening of Service Request via
+e-mail:
 
-1.  Os e-mails que estiverem na caixa de entrada sem marcação de leitura serão
-    lidos e deles serão abertas solicitações de serviços.
+1.  E-mails that are in your inbox without a read mark will be read and service
+    requests will be opened from them.
 
-2.  O sistema marca o e-mail como lido para que não haja duplicação de cadastro.
+2.  The system marks the e-mail as read so there is no duplicate registration.
 
-3.  O sistema compara o e-mail do remetente com os cadastros internos para
-    verificar se é usuário.
+3.  The system compares the sender's e-mail with the internal subscriptions to
+    verify that he or she is a user.
 
-4.  Caso o remetente seja usuário do sistema: a solicitação é criada com ele
-    como solicitante.
+4.  If the sender is a system user: the request is created with him as the
+    requestor.
 
-5.  Caso o remetente não seja usuário do sistema: a solicitação é criada com o
-    solicitante indicado na tela de configuração de abertura automática.
+5.  If the sender is not a system user: the request is created with the
+    requestor indicated in the automatic opening configuration screen.
 
-6.  Os anexos constantes do e-mail serão anexados à solicitação de serviço
-    criadas, observadas:
+6.  The attachments in the e-mail will be attached to the service request
+    created, observed:
 
-    -  O parâmetro 318: Lista de extensões de arquivos que não poderão ser anexados
-    (Para mais de uma extensão separar por ponto e vírgula);
+-   The parameter 318: List of file extensions that cannot be attached (For more
+    than one extension separate with semicolons);
 
-    -  O parâmetro 278 : Tamanho máximo de arquivo, em bytes, para upload.
-    Default[1073741824] = 1GB
+-   The parameter 278: Maximum size of file, in bytes to upload. Default
+    [1073741824] = 1GB.
+
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Anna Martins
+    <b>Updated:</b>07/23/2019 – Anna Martins
