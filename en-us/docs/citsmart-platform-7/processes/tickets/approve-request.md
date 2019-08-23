@@ -1,158 +1,156 @@
-title: Aprovação de solicitação via e-mail
-Description: Tem por objetivo aprovar ou rejeitar a solicitação de um ticket por meio do e-mail, sem a necessidade do administrador estar logado
+title: Request approval via e-mail
+Description: This functionality aims to approve or reject the ticket request
+through the e-mail, without the need for the administrator to be logged in.
 
-# Aprovação de solicitação via e-mail
+# Request approval via e-mail
 
-Esta funcionalidade tem por objetivo aprovar ou rejeitar a solicitação de um
-ticket por meio do e-mail, sem a necessidade do administrador estar logado.
-
-Pré-condições
+Preconditions
 -------------
 
-1.  Informe o conteúdo abaixo nos parâmetros (ver conhecimento [Regras de
-    parametrização - sistema](1));
+1.  Enter the content below into the parameters (see knowledge [Parameterization
+    rules - system][1]);
 
-    -   Parâmetro 33: URL de acesso ao sistema corretamente;
+   -   Parameter 33: system URL ;
 
-    -   Parâmetro 370: deverá estar setado em 'S';
+   -   Parameter 370: should be set to "Y";
 
-1.  Ter ao menos um usuário/grupo cadastrado (ver conhecimentos [Cadastro e
-    pesquisa de usuário](2); [Cadastro e pesquisa de grupo](3));
+2.  Have at least one user/group registered (see knowledge [User registration
+    and search][2], [Group registration and search][3]);
 
-2.  Saber desenhar fluxo de aprovação de solicitação via e-mail cadastrado.
-    Neste fluxo deverá existir a tarefa "Aprovação" e o desenho para envio de
-    e-mail (para maiores detalhes, ver a seção "Passos para configurar e-mail no
-    fluxo");
+3.  Know how to design request approval flow via registered e-mail. In this flow
+    there should be an "Approval" task and the design for sending e-mail (for
+    more details, see the section "Steps to setup e-mail on the flow");
 
-3.  Cadastrar o modelo de e-mail com o modelo "Aguardando Aprovação" que se
-    encontra em anexo;
+4.  Register the e-mail template with the "Waiting Approval" template that is
+    attached;
 
-4.  O servidor de e-mail deverá ser configurado (ver conhecimento [Regras de
-    parametrização - e-mail](4)).
+5.  The e-mail server must be set up correctly (see knowledge [Parameterization
+    rules - e-mail][4]).
 
-Como acessar
-------------
+How to access
+-------------
 
-1.  Acesse a funcionalidade através da navegação no menu
-    principal **Sistema > Manutenção de fluxos**.
+1.  Access the application functionality through navigation in the main
+    menu **System > Flow Maintenance**.
 
-Passos para configurar e-mail no fluxo
+Steps to setup e-mail on the flow
 ---------------------------------
 
-1.  Selecione o fluxo de aprovação de solicitação;
+1.  Select the request approval flow;
 
-2.  No fluxo de aprovação de solicitação clique no ícone ![approve](images/approve-request-1.png), para configurar;
+2.  In the request approval flow click the icon ![figure](images/approve-request-1.png) to setup;
 
-3.  Cadastrar, na aba Identificação, o nome e o modelo de e-mail a ser utilizado
-    (Para cadastrar o modelo de e-mail, verifique a seção seguinte);
+3.  Register the name and model of the e-mail to be used in the Identification
+    tab (To register the e-mail template, check the next section);
 
-    !!! warning "ATENÇÃO"
-    
-        Não alterar o template de e-mail de criação (vinculado ao portfólio) para o template de aprovação.
+    !!! warning "ATTENTION"
 
-1.  Configurar, na aba Destinatários, os tipos destinatários (grupo/usuário) do
-    e-mail a ser enviado;
+        Do not change the creation e-mail template (linked to the portfolio) to the
+        approval template.
 
-    !!! warning "ATENÇÃO"
-        
-        O sistema não busca destinatários via "Expressão".
+4.  Configure, in the Recipients tab, the recipients (group/user) of the e-mail
+    to be sent;
 
-    ![approve](images/approve-request-2.png)
+!!! warning "ATTENTION"
 
-    **Figura 1 - Tela de configuração de destinatário**
+    The system does not search for recipients via "Expression".
 
-!!! warning "ATENÇÃO"
-     
-    - Caso opte que o destinatário seja "grupo", é necessário vincular o envio do e-mail para os 
-    usuários do grupo selecionado (Acesso e Permissão > Grupo).
+  ![figure](images/approve-request-2.png)  
 
-    - Caso no grupo aprovador, o usuário coloque para receber e-mail, "outros
-     usuários", deve ser observado que esse usuário talvez não poderá aprovar a
-     solicitação, pois, a condição para isso é que o usuário esteja no grupo
-     aprovador e não somente sendo informado que existe uma aprovação.
+**Figure 1 - Recipient configuration screen**
 
-Configurando o e-mail de notificação de aprovação
--------------------------------------------------
+   !!! warning "ATTENTION"
 
-1.  Acesse a funcionalidade através do menu **Sistema > Configurações > Modelo
-    de e-mail**;
+       If you choose the recipient to be "group", you must link the sending of the
+       e-mail to the users of the selected group (Access and Permission → Group).
 
-2.  Será apresentada a tela de Cadastro de modelo de e-mail;
+   !!! warning "ATTENTION"
 
-3.  Cadastrar o e-mail de notificação de aprovação;
+       If in the approving group, the user places to receive e-mail, "other users",
+       it should be noted that this user may not be able to approve the request,
+       since the condition for this is that the user is in the approving group and
+       not only being informed that there is an approva
 
-    !!! warning "ATENÇÃO"
 
-         - Este e-mail é feito por HTML.
+Setting the approval notification e-mail
+----------------------------------------
 
-         - O modelo de notificação de aprovação por e-mail a ser utilizado está
-         disponível em anexo.
+1.  Access the feature via the menu **System > Settings > E-mail model**;
 
-         - Para maiores detalhes de como transferir o modelo HTLM ao cadastrar uma nova
-         notificação, veja o conhecimento [Cadastro e pesquisa de configuração de modelo de
-         e-mail][5]
+2.  The E-mail model master screen will be displayed;
 
-4.  Logo após transcrever o modelo HTML para a o cadastro da notificação,
-    verifique as seguintes diretrizes:
+3.  Record the approval notification e-mail.
+
+   !!! warning "ATTENTION"
+
+      This e-mail is made by HTML.
+
+      The e-mail approval notification model to be used is available in the
+      attachements.
+
+      For more details on how to download the HTLM template when registering for a
+      new notification, see knowledge [E-mail template configuration registration
+      and search][5].
+
+4.  Once you have passed the HTML model for the notification template, check the
+    following guidelines:
 
     -   href="{TOKEN(serviceRequestIncident, \${IDSOLICITACAOSERVICO}, VIEW, 50)};
 
-    -   serviceRequestIncident = Direcionamento da interface : esse campo não pode
-    ser alterado pelo usuário;
+    -   serviceRequestIncident = Direcionamento da interface** **-this field can not
+    be changed by the user;
 
     -   \${IDSOLICITACAOSERVICO} = Chave para incrementar o número da solicitação de
-    serviço : esse campo não pode ser alterado pelo usuário;
+    serviço -this field can not be changed by the user;
 
-    -   VIEW - chama o comando para abrir a solicitação : esse campo não pode ser
-    alterado pelo usuário;
+    -   VIEW - calls the command to open the request -this field can not be changed
+    by the user;;
 
-    -   MM (50) - Tempo de expiração do token em Minutos : esse campo pode ser
-    alterado pelo usuário;
+    -   MM (50) - Tempo de expiração do token em Minutos - this field can be changed
+    by the user;
 
-5.  Realizada as instruções acima, o modelo de e-mail estará pronto, conforme a
-    figura abaixo:
+5.  Following the instructions above, the e-mail template will be ready, as
+    shown below:
 
-    ![approve](images/approve-request-3.png)
-
-    **Figura 2 - Exemplo do e-mail**
-
-6.  O usuário clica em *Visualizar*:
-
-    -   Permite observar os detalhes do pedido;
-
-7.  Se o usuário clicar *Aprovar*:
-
-    -   Permite a aprovação do pedido e uma caixa de diálogo confirmando que a
-    aprovação é gerada;
-
-8.  Se o usuário clicar em *Rejeitar*;
-
-    -   Permite a rejeição da solicitação e uma caixa de diálogo é gerada que
-        confirma a desaprovação.
-
-    !!! warning "ATENÇÃO"
+    ![figure](images/approve-request-3.png)
     
-        Ao enviar o e-mail, esse rótulo será substituído por um link direto ao
-        pedido, válido por 8 horas, por exemplo. Após 8 horas, quem clica no link é
-        redirecionado para uma página de erro do sistema (figura 3).
+    **Figure 2 - E-mail example**
 
-    ![approve](images/approve-request-4.png)
+6.  The user clicks View:
 
-    **Figura 3 - Mensagem de erro**
+  -   Allows to observe the request details ;
 
-Anexos
-------
+7.  If the user clicks Approve:
 
-[Dowload - AguardandoAprovacao - email][5]
+  -   Allows the request approval and a dialog box is generated confirming the
+    approval;
+
+8.  If the user clicks Reject:
+
+  -   Allows the request rejection of the and a dialog box is generated confirming
+    the disapproval.
+
+!!! warning "ATTENTION"
+
+     When sending the e-mail, this tag would be replaced by a direct link to the request, with validity of 8 hours, for              example. After 8 hours, who clicks>   the link is redirected to a system error page (next figure).
+
+![figure](images/approve-request-4.png)
+    
+**Figure 3 - Error message**
+
+Attachments
+-----------
+
+[Dowload - Approval - email][5]
 
 
-[1]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-system.html
-[2]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/user-register.html
-[3]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
-[4]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-email.html
-[5]:/pt-br/docs/citsmart-platform-7/processes/tickets/images/aguardandoaprovacao-email.docx
+[1]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-system.html
+[2]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/user-register.html
+[3]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[4]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-email.html
+[5]:/en-us/docs/citsmart-platform-7/processes/tickets/images/aguardandoaprovacao-email.docx
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/10/2019 – Anna Martins
+    <b>Updated:</b>07/23/2019 – Anna Martins
