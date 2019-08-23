@@ -14,27 +14,27 @@ How to access
 Preconditions
 -------------
 
-1.  Have access to the Incidents, Requests and Procedures Template functionality (see knowledge Access profile registration and search)(1);
+1.  Have access to the Incidents, Requests and Procedures Template functionality (see knowledge Access profile registration and search)[1];
 
-2.  Have the group registered (see knowledge [Group registration and search][1]);
+2.  Have the group registered (see knowledge [Group registration and search][2]);
 
-3.  Have the contract registered (see knowledge [Contract registration and search][2]);;
+3.  Have the contract registered (see knowledge [Contract registration and search][3]);;
 
-4.  Have the unit registered (see knowledge [Unit registration and search][3]);
+4.  Have the unit registered (see knowledge [Unit registration and search][4]);
 
-5.  Have the group bound to the contract (see knowledge [How to relate group to contract?][4]);
+5.  Have the group bound to the contract (see knowledge [How to relate group to contract?][5]);
 
-6.  Have the unit bound to the contract (see knowledge [How to relate unit to contract?][5]);
+6.  Have the unit bound to the contract (see knowledge [How to relate unit to contract?][6]);
 
-7.  Have the portfolio with the service and the request and incident activities registered (see knowledge [Service portfolio registration, Service registration, Service attributes configuration][6]);
+7.  Have the portfolio with the service and the request and incident activities registered (see knowledge [Service portfolio registration[7], Service registration[8], Service attributes configuration][9]);
 
-8.  Have the time of attendance of the request and incident activities defined (see knowledge [Time attendance registration and search][7]);
+8.  Have the time of attendance of the request and incident activities defined (see knowledge [Time attendance registration and search][10]);
 
-9.  Have the contract bound to the service (see knowledge [Service attributes configuration][8]);
+9.  Have the contract bound to the service (see knowledge [Service attributes configuration][11]);
 
-10. Have request and incident activities bound to the service contract (see knowledge [Service contract attributes configuration][9]);
+10. Have request and incident activities bound to the service contract (see knowledge [Service contract attributes configuration][12]);
 
-11. Enter the content below into the parameter (see knowledge [Parameterization rules - Ticket][10]):
+11. Enter the content below into the parameter (see knowledge [Parameterization rules - Ticket][13]):
 
     -   Parameter 9: set the 1st level group to service the request.
 
