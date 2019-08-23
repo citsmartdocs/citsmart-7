@@ -297,7 +297,7 @@ Impact and risk analysis by targets
 Impact and simplified risk analysis
 ----------------------------------------
 
-- On the right side of the change request screen, click on the Simplified Risk and Impact Analysis option;
+- On the right side of the change request screen, click on the **Simplified Risk and Impact Analysis** option;
     
     ![Risk](images/planning.img24.jpg)
     
@@ -311,7 +311,7 @@ Impact and simplified risk analysis
     
     **Figure 25 - Record of Risks involved in change**
     
-- If you want to record a new risk from this screen, click the icon ![simbolo](images/simb-mais.green.jpg);
+- If you want to record a new risk from this screen, click the icon ![simbolo](images/simb-plus.jpg);
     
     - **Change Reason**: describe the reason for the change;
     - **Impact Analysis**: describe the impacts that the change will have;
