@@ -1,86 +1,80 @@
-title: Verificação de meus tickets
-Description: Tem o objetivo fornecer um resumo das solicitações de serviços (tickets) feitas pelo usuário
+title: My tickets check
+Description: This functionality is intended to provide a summary of service
+requests (tickets) made by the user.
 
-# Verificação de meus tickets
+# My tickets check
 
-Esta funcionalidade tem por objetivo fornecer um resumo das solicitações de
-serviços (tickets) feitas pelo usuário.
+Access to user requests can also be performed in the Smart Portal, making the
+query faster without having to enter the system.
 
-O acesso às solicitações do usuário também pode ser realizado no Portal de
-Serviços, tornando a consulta mais rápida sem ter que entrar no sistema.
-
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de Minhas Requisições através da navegação no menu
-    principal **Processos ITIL > Gerência de Ticket > Minhas
-    Requisições**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter um item de configuração cadastrado (ver conhecimento [Gerenciamento de
-    itens de configuração][1] seção Registrando um novo item de configuração) e estar vinculado a uma
-    solicitação de serviço (ver conhecimento [Gerenciamento de ticket
-    (serviços)][2] seção Vinculação itens de configuração do solicitante);
+1.  Access the My Requests feature by navigating the main menu **Processes
+    Management > Ticket Management> My Request**.
 
-2.  Ter solicitações de serviço cadastradas (ver conhecimento [Gerenciamento de
-    ticket (serviços)][2] seção Cadastro de ticket).
+Preconditions
+-------------
 
-Filtros
+1.  Have a registered configuration item (see knowledge [Configuration item
+    management][1] section Registering a new configuration item) and be linked to a service request
+    (see knowledge [Ticket management (services)][2]) section Linking the aplicant's configuration item (CI));
+
+2.  Have registered service requests (see knowledge [Ticket management
+    (services)][3] section Ticket registration).
+
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados, conforme ilustrado na figura abaixo:
+1.  The following filter allows the user to restrict the participation of items
+    in the standard listing of the functionality, facilitating the location of
+    the desired items, as shown in the figure below:
 
-    -  Item Configuração
+    -   Configuration Item.
 
-1.  Será apresentada a tela de verificação de Tickets solicitados por mim,
-    conforme ilustrada na figura abaixo:
+2.  The Tickets screen will be displayed, as shown in the figure below:
 
     ![Criar conta](images/verify-ticket-1.png)
 
-    **Figura 1 - Tela de pesquisa de tickets**
+    **Figure 1 - Ticket check screen**
 
-    -   Informe o item de configuração e clique em *Pesquisar*. Feito isso, serão
-    listados os resumos das solicitações de serviço (tickets) relacionadas ao
-    item de configuração;
+-   Enter the Configuration Item and click *Search*. Once this has been done,
+    the summaries of the service requests (tickets) related to the configuration
+    item will be listed;
 
-    -   Caso deseje verificar todas as solicitações de serviço (tickets), clique
-    diretamente no botão *Pesquisar*
+-   If you want to check all service requests (tickets), click directly on
+    the *Search* button.
 
-    !!! info "IMPORTANTE"
+!!! info "IMPORTANT"
 
-        Esta tela possui um temporizador (imagem de relógio) que, ao ser ativado com um clique,
-        apresenta um cronômetro sobre o tempo gasto e o tempo restante para
-        finalizar o atendimento da solicitação no campo Tempo restante da listagem
-        de itens.
+    In this screen has a timer (watch figure)  that, when activated with a
+    click, displays a timer on the time spent and the remaining time to finish
+    the request in the Remaining time field of the item list.
 
-Listagem de itens
------------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da funcionalidade:
-    **Solicitação**, **Data de abertura**, **Prazo**, **Descrição**,
-    **Resposta**, **Situação**, **Hora limite** e **Tempo Restante**.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard listing of the
+    functionality: Ticket, Opening Date, Deadline, **Description, Answer, Status, Time
+    limit and Remaining Time.
 
 ![Criar conta](images/verify-ticket-3.png)
 
-**Figura 2 - Tela de listagem de tickets**
-    
+**Figure 2 - Items screen**
 
-Preenchimento dos campos cadastrais
------------------------------------
+Filling in the registration fields
+----------------------------------
 
-1.  Não se aplica.
+1.  Not applicable.
 
-[1]:/pt-br/citsmart-platform-7/processes/configuration/IC-management.html
-[2]:/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html
+
+[1]:/en-us/citsmart-platform-7/processes/configuration/IC-management.html
+[2]:/en-us/citsmart-platform-7/processes/tickets/ticket-management.html
 
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Anna Martins
+    <b>Updated:</b>07/23/2019 – Anna Martins
