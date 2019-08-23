@@ -52,22 +52,22 @@ after the user's session is closed);
 - **14** By SLA status: filters the ticket view by SLA status. For this option to be
 visible it is necessary to enable the access permission for the logged in user,
 check the item "Team Management" (see knowledge [Ticket Management Module access
-permissions][1])
+permissions][1]);
 
-- **15** By flow status: filters the ticket view by flow status;
+- **15**: By flow status: filters the ticket view by flow status;
 
-- **16** Click to capture and be responsible for the ticket;
+- **16**: Click to capture and be responsible for the ticket;
 
 - **17** Click to show all the basic information regarding the ticket, it's not possible
 on this screen to make any kind of change in the data;
 
-- **18** Click to show only the description of the ticket;
+- **18**: Click to show only the description of the ticket;
 
-- **19** Click to make available the Message functionality, which allows the exchange of
+- **19**: Click to make available the Message functionality, which allows the exchange of
 messages between the the ticket requester and the person responsible for its
 resolution;
 
- - **20** Click to access reports of the specific type, that is, those linked to the
+- **20**: Click to access reports of the specific type, that is, those linked to the
 current ticket (in the creation of the report via Smart Reports this option is
 defined);
 
@@ -77,10 +77,10 @@ defined);
      specific reports in the Reports > Smart Reports > Smart Report Generator
      (see knowledge [Smart Report generator][2])
 
-- **21** Click to show the flow referring to the ticket, being possible then to observe
+- **21**: Click to show the flow referring to the ticket, being possible then to observe
 the position of the user inside it;
 
-- **22** Click to open other actions, such as: Delegate, Suspend, Change SLA, Reclassify,
+- **22**: Click to open other actions, such as: Delegate, Suspend, Change SLA, Reclassify,
 Create sub-requests, Display (show) sub-requests, Schedule activity, Create
 related request and Print request.
 
@@ -159,7 +159,7 @@ Ticket registration
 
 ## How to access
 
-1.  Access the main menu** Process Management \> Ticket Management \> Ticket**
+1.  Access the main menu Process Management > Ticket Management > Ticket.
 
 ## Preconditions
 
@@ -222,7 +222,7 @@ Ticket registration
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Search here: on the search field, it is possible to search by number,
+   -   Search here: on the search field, it is possible to search by number,
     description of the task and responsible for the service;
 
    ![figure](images/management-2.png)
@@ -238,38 +238,38 @@ Ticket registration
 
    **Figure 3 - Expanded quick search screen**
 
--   **Number**: inform the ticket identification number if you want to check a
+   -   **Number**: inform the ticket identification number if you want to check a
     specific ticket;
 
--   **Requester**:** **inform the service requester to check their tickets;
+   -   **Requester**:** **inform the service requester to check their tickets;
 
--   **Request Type**: inform the type of ticket for the ticket verification;
+   -   **Request Type**: inform the type of ticket for the ticket verification;
 
--   **Status**: inform the situation to verify the related tickets;
+   -   **Status**: inform the situation to verify the related tickets;
 
--   **Contrac**t: inform the contract to verify the tickets related to it;
+   -   **Contrac**t: inform the contract to verify the tickets related to it;
 
--   **Executor group**: inform the executor group to verify the tickets that
+   -   **Executor group**: inform the executor group to verify the tickets that
     were directed to the same;
 
--   **Current work**: inform the task type to verify the tickets related to it;
+   -   **Current work**: inform the task type to verify the tickets related to it;
 
--   **Responsible**: inform the responsible for the ticket attendance to verify
+   -   **Responsible**: inform the responsible for the ticket attendance to verify
     the tickets that were attended by him;
 
--   **SLA Status**: inform the SLA situation to verify the tickets related to
+   -   **SLA Status**: inform the SLA situation to verify the tickets related to
     the selected situation;
 
--   **Sort by**: allows you to set the order in which tickets will be displayed;
+   -   **Sort by**: allows you to set the order in which tickets will be displayed;
 
--   **View**: inform the form of the ticket visualization according to the
+   -   **View**: inform the form of the ticket visualization according to the
     actions available to the eventual responsible for the ticket, such as:
     execution and visualization only;
 
--   **Exhibition**: allows you to filter the ticket of the requests considered
+   -   **Exhibition**: allows you to filter the ticket of the requests considered
     critical and requests opened by the chat;
 
--   **Show Sub Requests**: if it is marked with *Yes*, the search result will
+   -   **Show Sub Requests**: if it is marked with *Yes*, the search result will
     also bring the sub-tickets of each result item.
 
 !!! warning "ATTENTION"
@@ -345,65 +345,65 @@ Ticket registration
 
 1.  Record the ticket information:
 
--   **Catalog**: select the catalog of services;
+   -   **Catalog**: select the catalog of services;
 
-    -   **Service**: enter the service for the selected service catalog. If the
+       -   **Service**: enter the service for the selected service catalog. If the
         service catalog is "**Business**", the business services for selection
         will be available in this field, but if the service catalog is
         "**Technical**", the support/technical services for selection will be
         available in this field;
 
-    -   **Type**: select the ticket type, whether it is an incident opening or
+       -   **Type**: select the ticket type, whether it is an incident opening or
         service request:
 
--   **Incident**: if the situation presented is an unplanned outage, a reduction
+   -   **Incident**: if the situation presented is an unplanned outage, a reduction
     in the quality of the service or failure of any configuration item that has
     not yet impacted an IT service. E.g: The network link is out, the network is
     slow, the server is inaccessible, etc.;
 
--   **Request**: refers to requests for demands made by users within the
+   -   **Request**: refers to requests for demands made by users within the
     Information Technology environment. They can range from access requests to
     suggestions for improvement at low cost. e.g.: request of access to the
     network for a new user, request of configuration of some equipment, request
     to add some software in the workstation, etc.
 
--   **Category**: enter the category of service to facilitate the search of the
+   -   **Category**: enter the category of service to facilitate the search of the
     activity (Request/incident). The category will identify the nature of the
     activity, positioning it within similar groups of action, placing it in the
     hierarchy of its category;
 
--   **Activity (Request/Incident)**: inform the activity that will be performed
+   -   **Activity (Request/Incident)**: inform the activity that will be performed
     regarding the ticket type. If the reported activity has a "Guidance Script"
     associated with it, it will be displayed in the "Scripts" tab represented by
     the icon located in the upper right corner of the screen;
 
--   **Contract**: after informing the activity (Request/incident), the contract
+   -   **Contract**: after informing the activity (Request/incident), the contract
     will be displayed for which the opening of an incident or service request
     will be made;
 
--   **Impact**: after informing the activity (Request/incident), the impact
+   -   **Impact**: after informing the activity (Request/incident), the impact
     information of the service to the business will be displayed;
 
--   **Urgency**: after informing the activity (Request/incident), the urgency
+   -   **Urgency**: after informing the activity (Request/incident), the urgency
     information will be displayed which indicates the speed at which the service
     needs to be performed;
 
-!!! warning "ATTENTION"
+   !!! warning "ATTENTION"
 
-    After informing the ticket activity, the expected time to fulfill the
-    request will be established, as configured in the record of the time of
-    service related to the activity. The service time will be counted according
-    to what was defined in the calendar linked to the unit, but if the unit does
-    not have a linked calendar, it will be accounted according to the calendar
-    linked to the service. However, when closing the expected time of attendance
-    is counted the delay in time, being disregarded the calendar.
+       After informing the ticket activity, the expected time to fulfill the
+       request will be established, as configured in the record of the time of
+       service related to the activity. The service time will be counted according
+       to what was defined in the calendar linked to the unit, but if the unit does
+       not have a linked calendar, it will be accounted according to the calendar
+       linked to the service. However, when closing the expected time of attendance
+       is counted the delay in time, being disregarded the calendar.
 
--   **Title**: inform the ticket title;
+   -   **Title**: inform the ticket title;
 
--   **Description**: enter the ticket´s description. The description must be
+   -   **Description**: enter the ticket´s description. The description must be
     objective, including all the information necessary to attend to it;
 
--   **Escalate to group**: inform the group to which the ticket will be
+   -   **Escalate to group**: inform the group to which the ticket will be
     directed. If you do not inform the group, the ticket will be directed to the
     group defined in the request/incident flow. If the group is not defined in
     the flow, the ticket will be directed to the group defined in the link
@@ -415,14 +415,14 @@ Ticket registration
     section Implementing the functionality escalate to group the flow on the
     activity);
 
--   **Notifications**: check the options for sending notification of the
+   -   **Notifications**: check the options for sending notification of the
     ticket to be sent to the applicant;
 
--   **Register Execution**: it is not necessary to complete this field, as it is
+   -   **Register Execution**: it is not necessary to complete this field, as it is
     indicated for the technician who will answer the ticket and will describe
     about the execution of his activity;
 
--   **Status**: select the option that fits with the current ticket
+   -   **Status**: select the option that fits with the current ticket
     status: **Registered**.
 
 4.  After the data is entered, click the radio button  and then click the record
@@ -440,19 +440,19 @@ Possible links to ticket
 
     **Figure 6 - Ticket registration - side menu**
 
--   To add files to the ticket, click** Attachments**;
+   -   To add files to the ticket, click** Attachments**;
 
--   To relate a problem to the ticket, click **Problem**;
+   -   To relate a problem to the ticket, click **Problem**;
 
--   To relate a change request to the ticket, click **Change**;
+   -   To relate a change request to the ticket, click **Change**;
 
--   To relate a release request to the ticket, click **Release**;
+   -   To relate a release request to the ticket, click **Release**;
 
--   To relate an IC to the ticket, click **Configuration Items**;
+   -   To relate an IC to the ticket, click **Configuration Items**;
 
--   To relate a project to the ticket, click **Project**;
+   -   To relate a project to the ticket, click **Project**;
 
--   To relate a knowledge to the ticket, click **Knowledge**.
+   -   To relate a knowledge to the ticket, click **Knowledge**.
 
 !!! warning "ATTENTION"
 
