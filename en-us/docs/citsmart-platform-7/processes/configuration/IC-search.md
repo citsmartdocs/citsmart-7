@@ -48,7 +48,7 @@ Items list
 1. The following registration fields are available to the user to facilitate the identification of the desired items in the 
 standard listing of the functionality: **ID** and **Identification**.
 
-2. There are action buttons available to the user in relation to each item in the listing, they are: *View and *Select* as 
+2. There are action buttons available to the user in relation to each item in the listing, they are: *View* and *Select* as 
 illustrated below:  
 
     ![Listing](images/search.img2.jpg)
