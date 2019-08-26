@@ -1,66 +1,65 @@
-title: Verificação de itens de configuração capturados pelo inventory (agente)
-Description: Esta funcionalidade tem por objetivo apresentar os detalhes dos Itens de Configuração coletados pela rotina de
-# Verificação de itens de configuração capturados pelo inventory (agente)
+title: Checking configuration Items captured by inventory agent
+Description: The goal of this feature is to display the configuration items collected during inventory routines.
+# Checking configuration Items captured by inventory agent
 
-Esta funcionalidade tem por objetivo apresentar os detalhes dos Itens de Configuração coletados pela rotina de inventário.
+The goal of this feature is to display the configuration items collected during inventory routines.
 
-Como acessar
---------------
+How to access
+----------------
 
-1. Acesse a funcionalidade de Visualização de Ativos através da navegação no menu principal 
-**Processos ITIL > Gerência de Configuração > Visualização de Ativos**.
+1. Access the Asset View feature navigating through the main menu ITIL **Processes > Configuration Management > Asset View**.
 
-Pré-condições
+Preconditions
 ---------------
 
-1. Não se aplica.
+1. No applicable.
 
-Filtros
+Filters
 ---------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+1. The following filters enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Estrutura;
+    - Structure;
     - Status;
-    - Criticidade;
-    - Grupo de Trabalho;
-    - Tipo Membro do Domínio;
-    - Usuário;
-    - Processador;
-    - Sistema Operacional;
-    - Software Instalado.
+    - Criticality;
+    - Working Group
+    - Type Domain Member;
+    - User;
+    - Processor;
+    - Operating System;
+    - Installed Software.
     
-2. Será apresentada a tela de **Avaliação de Item de Configuração**. Nesta tela, contém filtros onde poderá defini-los de acordo 
-com sua necessidade para busca dos Itens de Configuração que foram capturados pela rotina de inventário. Defina os filtros e 
-clique no botão "Pesquisar". A figura abaixo ilustra essa tela:
+2. The Assessment CI screen will be displayed. This screen contains filters to be selected, as needed, in order to search for the 
+Configuration Items which were captured during inventory routine. Determine the filter and click on the *Search* button. It is 
+illustrated on the image below:
 
-![Pesquisa](images/Iventory.img1.png)
+![Search](images/inventory.img1.jpg)
 
-**Figura 1 - Tela de Pesquisa de Item de configuração capturados pela rotina de inventário**
+**Figure 1 - Configuration items collected during inventory routine search screen**
 
-Listagem de itens
+Items list
 ------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: **Equipamento, Descrição, IP, Último Inventário, Sistema Operacional** e **Storages**.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **Equipament, Description, IP, Last Inventory, Opeating System** and **Storages**;
 
-2. Serão exibidos os ICs conforme exemplo ilustrado na figura abaixo:
+2. All CIs will be displayed as illustrated on the image below:
 
-    ![Capturado](images/Iventory.img2.png)
+    ![Captured](images/inventory.img2.jpg)
     
-    **Figura 2 - Itens de configuração capturados pela rotina de inventário**
+    **Figure 2 - configuration items captured during inventory routine**
     
-3. Para verificar as informações de configuração da rede do IC, clique no ícone ![simbolo](images/Iventory-simb.png) do mesmo.
+3. To check the information on the CI network, click on its ![symbol](images/simb-hand.jpg) icon;
 
-4. Para verificar os softwares do IC, clique no ícone do mesmo.
+4. To check the CI software, click on its ![symbol](images/simb-iei.jpg) icon.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 ------------------------------------
 
-1. Não se aplica.
+1. No applicable.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Larissa Lourenço
+    <b>Updated:</b>08/26/2019 – Larissa Lourenço
