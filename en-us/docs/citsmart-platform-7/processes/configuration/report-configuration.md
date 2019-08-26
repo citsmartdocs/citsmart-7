@@ -1,76 +1,77 @@
-title:  Geração de relatórios - Gerência de Configurações
-Description: Esse relatório tem o objetivo de apresentar as chaves (licenças) válidas, inválidas e duplicadas das mídias. 
-# Geração de relatórios - Gerência de Configurações
+title:  Report generation - Configuration Management
+Description: This report aims to present valid, invalid, and duplicate media (license) keys. 
+# Report generation - Configuration Management
 
-Gerando relatório de item de configuração Pacote Office
+Generating configuration item report - office package
 -----------------------------------------------------------
 
-Esse relatório tem o objetivo de apresentar as chaves (licenças) válidas, inválidas e duplicadas das mídias.
+*This report aims to present valid, invalid, and duplicate media (license) keys*.
 
- *Como acessar* 
+ *How to access* 
 
-1. Acesse a funcionalidade de Relatório de Item de Configuração Pacote Office através da navegação no menu principal
-**Relatórios > Gerência de Configurações > Relatório Item Configuração Pacote Office**.
+1. Access the Office Package Configuration Report Report functionality by navigating the main menu 
+**Reports > Assets and Configuration Management > CI Report Office Suit**.
 
- *Filtros*
+ *Filters*
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+1. The following filter enable the user to restrict the participation of items in the standard feature listing, making it easier to 
+locate the desired items as shown in the figure below:
 
-    - Nome;
+    - Name;
     - Software;
-    - Procurar chaves.
+    - Find duplicated keys
     
-    ![Item](images/rela-conf.img1.jpg)
+2. The Office Package Configuration Report Generation screen will be displayed, as shown in the following figure:
     
-    **Figura 1 - Tela de geração de relatório de item configuração - Pacote Office**
+    ![Item](images/report.img1.jpg)
+    
+    **Figure 1 - Item report generation screen configuration - Office Package**
 
-2. Informe a mídia desejada para gerar o relatório. Após isso, serão exibidos os campos para filtrar as chaves (licenças) válidas,
-inválidas e duplicadas;
+3. Inform the media you want to generate the report. After that, the fields to filter valid, invalid and duplicate keys (licenses) 
+will be displayed;
 
-    ![Geração](images/rela-conf.img2.jpg)
+    ![Report](images/report.img2.jpg)
     
-    **Figura 2 - Filtros para geração do relatório de item de configuração - Pacote Office**
+    **Figure 2 - Filters for generating the configuration item report - Office Package**
     
-    - **Software**: selecione a opção que deseja verificar;
-    - **Procurar chaves duplicadas**: marque esta opção caso queira verificar as chaves duplicadas relacionadas à mídia.
+    - **Software**: Select the option you want to check;
+    - **Look for duplicate keys**: Check this option if you want to check the duplicate keys related to the media;
     
-    !!! note "NOTA"
+    !!! note "NOTE"
     
-        As chaves licenciadas (válidas) serão consideradas as que estiverem registradas no cadastro de mídia.
+        Licensed (valid) keys will be considered those that are registered in the media file.
         
-Gerando relatório de mudança/item de configuração
+Generating change report/configuration item
 ----------------------------------------------------
 
-Esse relatório tem o objetivo de fornecer as informações das diferentes requisições de mudança relacionadas ao mesmo item de 
-configuração.
+*This report is intended to provide information on the different change Requests related to the same configuration item*.
 
-*Como acessar*
+*How to access*
 
-1. Acesse a funcionalidade de Relatório de Mudança/Item de Configuração através da navegação no menu principal 
-**Relatórios > Gerência de Configurações > Mudança/Item Configuração**.
+1. Access the Change Report / Configuration Item feature by navigating the main menu 
+**Reports > Assets and Configuration Management > Change/CI report**.
 
-*Filtros*
+*Filters*
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+1. The following filters enable the user to restrict the participation of items in the standard feature listing, making it easier 
+to locate the desired items as shown in the figure below:
 
-    - **Período de Abertura**: informe o período que deseja gerar o relatório;
-    - **Nº Mudança**: informe o número de identificação da mudança;
-    - **Nº Item de Configuração**: informe o número de identificação do item de configuração
-    - **Contrato**: selecione o contrato desejado.
+    - **Opening Period**: Enter the period you want to generate the report;
+    - **Change No.**: Enter the change identification number;
+    - **Configuration Item No**.: Enter the configuration item identification number;
+    - **Contract**: select the desired contract.
     
-2. Será apresentada a tela de **Geração de Relatório de Mudança/Item de Configuração**, conforme ilustrada na figura a seguir:
+2. The **Change Report Generation/Configuration Item** screen will be displayed, as shown in the following figure:
 
-    ![Item](images/rela-conf.img3.jpg)
+    ![Item](images/report.img3.jpg)
     
-    **Figura 3 - Tela de geração de relatório de mudança/item configuração**
+    **Figure 3 - Change report generation screen / item configuration**
     
-3. Defina os filtros conforme sua necessidade.
+3. Set the filters as needed.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/02/2019 - Larissa Lourenço
+    <b>Updated:</b>08/26/2019 - Larissa Lourenço
 
 
