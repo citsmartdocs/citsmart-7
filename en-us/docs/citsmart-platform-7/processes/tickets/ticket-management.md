@@ -214,7 +214,7 @@ Ticket registration
    -   **Number**: inform the ticket identification number if you want to check a
     specific ticket;
 
-   -   **Requester**:** **inform the service requester to check their tickets;
+   -   **Requester**: inform the service requester to check their tickets;
 
    -   **Request Type**: inform the type of ticket for the ticket verification;
 
