@@ -1,86 +1,81 @@
-title: Cadastro e pesquisa de característica
-Description: Esta funcionalidade tem por objetivo registrar as características do Item de Configuração (IC).
-# Cadastro e pesquisa de característica
+title: Feature registration and search
+Description: The goal of this option is to register the features of the Configuration Item (CI).
+# Feature registration and search
 
-Esta funcionalidade tem por objetivo registrar as características do Item de Configuração (IC).
+The goal of this option is to register the features of the Configuration Item (CI).
 
-Como acessar
+How to access
 --------------
 
-1. Acesse a funcionalidade através da navegação no menu principal 
-**Processos ITIL > Gerência de Configuração > Característica**.
+1. Access the feature option navigating through the main menu **Process Management > Configuration Management > Feature**.
 
-Pré-condições
+Preconditions
 ---------------
 
-1. Não se aplica.
+1. Not applicable.
 
-Filtros
+Filters
 ---------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados, conforme ilustrado na figura abaixo:
+1. The following filters enable the user to restrict the participation of items in the standard feature listing, making it easier 
+to locate the desired items as shown in the figure below:
 
-    - Característica.
+    - Feature.
     
-2. Na tela de **Característica**, clique na aba **Pesquisa de Características**. 
-Será apresentada a tela de pesquisa conforme ilustrada na figura abaixo:
+2. On the **Feature** screen, click on the **Search** tab. The search screen will be displayed as illustrated on the image below:
 
-    ![Pesquisa](images/carac.img1.png)
+    ![Search](images/feature.img1.jpg)
     
-    **Figura 1- Tela de pesquisa de característica**
+    **Figure 1 - Feature search screen**
     
-3. Realize a pesquisa de característica:
+3. Perform a feature search:
 
-    - Informe o nome da característica que deseja pesquisar e clique no botão "Pesquisar". 
-    Após isso, será exibido o registro da característica conforme o nome informado;
+    - Insert the name of the intended feature and click on the *Search* button. Afterwards, the feature entry will be displayed 
+    according to the description provided;
     
-    - caso deseje listar todos os registros de característica, basta clicar diretamente no botão "Pesquisar";
+    - To list all features, just click directly on the *Search* button, if needed.
     
-Listagem de itens
+Items list
 -------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens 
-desejados na listagem padrão da funcionalidade: **Característica, Tag** e **Descrição**.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard 
+listing of the functionality: **Feature, Tag** and **Description**, as shown in the figure below:
 
-    ![Listagem](images/carac.img2.png)
+    ![Items](images/feature.img2.jpg)
     
-    **Figura 2 - Tela de listagem de característica**
+    **Figure 2 - Items screen**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de 
-cadastro exibindo o conteúdo referente ao registro selecionado;
+2. After searching, select the intended entry. Afterwards, they will be redirected to the registry screen displaying the content 
+belonging to the selected entry;
 
-3. Para alterar os dados do registro de característica, basta modificar as informações dos campos desejados
-e clicar no botão "Gravar" para que seja gravada a alteração realizada no registro, onde a data, hora e usuário
-serão gravados automaticamente para uma futura auditoria. 
+3. To edit a company entry, just modify the information on the intended fields and click on the *Save* button to confirm the 
+changes to the database, at which date, time and user will be stored automatically for a future audit.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
- 1. Acesse a funcionalidade, após isso, será apresentada a tela de **Cadastro de Característica**, 
- conforme ilustrada na figura abaixo:
+ 1. Access the functionality, afterwards, the feature entry screen will be displayed, as illustrated on the image below:
  
-     ![Cadastro](images/carac.img3.png)
+     ![Feature](images/feature.img3.jpg)
      
-     **Figura 3 - Tela de cadastro de característica**
+     **Figure 3 - Feature entry screen**
      
- 2. Preencha os campos conforme orientações abaixo:
+ 2. Fill out the fields as instructed below:
  
-     - **Característica**: informe o nome da característica;
-     - **TAG**: informe a TAG para identificação da característica;
-     - **Valor padrão**: informar um valor para identificação da característica;
+     - **Feature**: name the feature;
+     - **TAG**: insert a TAG to identify the feature;
+     - **Default Value**: enter a value for identification of the characteristic;
      
-    !!! abstract "SAIBA MAIS"
+    !!! abstract "KNOW MORE"
      
-        O valor padrão possibilita especificar alguma grandeza com características iguais de diversos tipos de itens de 
-         configuração.
+        The default value allows you to specify some quantity with equal characteristics of several types of configuration items.
          
-     - **Descrição**: informe a descrição da característica;
+     - **Description**: describe the feature.
      
- 3. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados
- automaticamente para uma futura auditoria.
+ 3. Click on the *Save* the button to confirm the entry, at which date, time and user will automatically be stored for a future 
+ audit.
  
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/16/2019 – Larissa Lourenço
+    <b>Updated:</b>08/26/2019 – Larissa Lourenço
