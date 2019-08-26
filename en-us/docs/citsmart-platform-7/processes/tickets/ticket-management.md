@@ -348,7 +348,7 @@ Ticket registration
    -   **Activity (Request/Incident)**: inform the activity that will be performed
     regarding the ticket type. If the reported activity has a "Guidance Script"
     associated with it, it will be displayed in the "Scripts" tab represented by
-    the icon located in the upper right corner of the screen;
+    the icon ![figure](images/management-9.png) located in the upper right corner of the screen;
 
    -   **Contract**: after informing the activity (Request/incident), the contract
     will be displayed for which the opening of an incident or service request
