@@ -2495,6 +2495,7 @@ Ticket registration via template
 [30]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-system.html
 [31]:https://www.planview.com/resources/articles/what-is-kanban/
 [32]:/en-us/citsmart-platform-7/processes/tickets/template-incident.html
+[33]:/en-us/citsmart-platform-7/processes/tickets/permission.html
 
 
 
