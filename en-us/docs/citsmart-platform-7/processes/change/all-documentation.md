@@ -1,44 +1,44 @@
-title:  Visão geral do processo de Mudança
-Description: Disponibiliza todos os conhecimentos do processo. 
-# Visão geral do processo de Mudança
+title:  Change process overview
+Description: Provides all the knowledge of the process. 
+# Change process overview
 
-[Aprovação de requisição de mudança](/pt-br/citsmart-platform-7/processes/change/change-approval.html)
+[Change request approval](/en-us/citsmart-platform-7/processes/change/change-approval.html)
 
-[Avaliação e finalização de requisição de mudança](/pt-br/citsmart-platform-7/processes/change/change-evaluation.html)
+[Change request evaluating and completing](/en-us/citsmart-platform-7/processes/change/change-evaluation.html)
 
-[Cadastro de requisição de mudança](/pt-br/citsmart-platform-7/processes/change/register-change.html)
+[Change request registration](/en-us/citsmart-platform-7/processes/change/register-change.html)
 
 [Cadastro e pesquisa de justificativa de requisição de mudança](/pt-br/citsmart-platform-7/processes/change/change-justification.html)
 
-[Cadastro e pesquisa de risco de mudança](/pt-br/citsmart-platform-7/processes/change/risk-change.html)
+[Risk of change registration and search](/en-us/citsmart-platform-7/processes/change/risk-change.html)
 
-[Cadastro e pesquisa de template de mudança](/pt-br/citsmart-platform-7/processes/change/change-template.html)
+[Change request template registration and search](/en-us/citsmart-platform-7/processes/change/change-template.html)
 
-[Cadastro e pesquisa de tipo de mudança](/pt-br/citsmart-platform-7/processes/change/change-type.html)
+[Change Type registration and search](/en-us/citsmart-platform-7/processes/change/change-type.html)
 
-[Cancelamento de requisição de mudança](/pt-br/citsmart-platform-7/processes/change/change-cancellation.html)
+[Cancelling a change request](/en-us/citsmart-platform-7/processes/change/change-cancellation.html)
 
-[Captura de requisição de mudança](/pt-br/citsmart-platform-7/processes/change/capture-change.html)
+[Change request capture](/en-us/citsmart-platform-7/processes/change/capture-change.html)
 
-[Execução de requisição de mudança](/pt-br/citsmart-platform-7/processes/change/change-execution.html)
+[Change request execution](/en-us/citsmart-platform-7/processes/change/change-execution.html)
 
-[Gerenciamento de atividades de mudança](/pt-br/citsmart-platform-7/processes/change/change-activities.html)
+[Change activity management](/en-us/citsmart-platform-7/processes/change/change-activities.html)
 
-[Gráficos de requisição de mudança](/pt-br/citsmart-platform-7/processes/change/change-charts.html)
+[Change request graphics](/en-us/citsmart-platform-7/processes/change/change-charts.html)
 
-[Janela de mudança](/pt-br/citsmart-platform-7/processes/change/change-window.html)
+[Change window](/en-us/citsmart-platform-7/processes/change/change-window.html)
 
-[Pesquisa de requisição de mudança](/pt-br/citsmart-platform-7/processes/change/search-change.html)
+[Change request search](/en-us/citsmart-platform-7/processes/change/search-change.html)
 
-[Planejamento de requisição de mudança](/pt-br/citsmart-platform-7/processes/change/change-planning.html)
+[Change request planning](/en-us/citsmart-platform-7/processes/change/change-planning.html)
 
-[Reativação de requisição de mudança](/pt-br/citsmart-platform-7/processes/change/change-reactivation.html)
+[Change request reactivation](/en-us/citsmart-platform-7/processes/change/change-reactivation.html)
 
-[Suspensão de requisição de mudança](/pt-br/citsmart-platform-7/processes/change/change-suspension.html)
+[Change request suspension](/en-us/citsmart-platform-7/processes/change/change-suspension.html)
 
-[Visualização de requisição de mudança](/pt-br/citsmart-platform-7/processes/change/change-display.html)
+[Change request view](/en-us/citsmart-platform-7/processes/change/change-display.html)
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/31/2019 - Larissa Lourenço
+    <b>Updated:</b>08/26/2019 - Larissa Lourenço

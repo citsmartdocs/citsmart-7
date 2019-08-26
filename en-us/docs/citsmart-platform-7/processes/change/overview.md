@@ -1,57 +1,52 @@
-title: Módulo Gerenciamento de Mudança
-Description: O Gerenciamento de Mudanças é o processo responsável por avaliar, coordenar e decidir sobre a realização de mudanças 
-# Módulo Gerenciamento de Mudança
+title: Change Management module
+Description: Change Management module
+# Change Management module
 
-Objetivo do módulo
+Module objective
 --------------------
 
-O Gerenciamento de Mudanças é o processo responsável por avaliar, coordenar e decidir sobre a realização de
-mudanças propostas a Itens de Configuração (ICs).
+Change Management is the process responsible for evaluating, coordinating, and deciding on making proposed changes to Configuration 
+Items (CIs).
 
-Segundo a ITIL, o principal objetivo desde processo é assegurar que mudanças sejam feitas de uma forma controlada,
-e sejam avaliadas, priorizadas, planejadas, testadas, implantadas e documentadas.
+According to ITIL, the main goal of the process is to ensure that changes are made in a controlled way, and are evaluated, 
+prioritized, planned, tested, deployed and documented.
 
-As mudanças podem ser categorizadas da seguinte forma: Mudança Padrão, Mudança Normal e Mudança Emergencial.
+Changes can be categorized as follows: Standard Change, Normal Change, and Emergency Change.
 
-- **Mudança Padrão**: pré-autorizada de baixo risco, ocorre com frequência. Inicia-se por um gatilho definido que segue
-um procedimento ou instrução de trabalho para a realização das atividades - bastante conhecidas - possuem um orçamento
-pré-determinado. Ex.: Instalação de um pacote padrão de aplicativos para desktop.
+- **Standard Change**: pre-authorized low-risk, occurs frequently. It is initiated by a defined trigger that follows a procedure or work instruction to carry out the activities - well known - have a pre-determined budget. Eg: Install a standard desktop application package.
 
-- **Mudança Normal**: qualquer alteração de serviços que não seja emergencial ou padrão. Segue as políticas, prazos e procedimentos
-definidos pela organização.
+- **Normal Change**: any service change other than emergency or standard. It follows the policies, deadlines and procedures defined 
+by the organization.
 
-- **Mudança Emergencial**: mudança que precisa ser realizada o quanto antes. Ex.: Mudança para resolver um Incidente Grave 
-ou implementar uma correção de segurança. O processo de Gerenciamento de Mudança normalmente tem um procedimento específico
-para tratar mudanças emergenciais.
+- **Emergency Change**: change that needs to be accomplished as soon as possible. Eg: Change to resolve a Serious Incident or 
+implement a security fix. The Change Management process usually has a specific procedure to handle emergency changes.
 
-Onde estão suas funcionalidades
+Where are the features
 ---------------------------------
 
-Acesse o menu principal **Processos ITIL > Gerência de Mudança**.
+To access the functionality click on the main menu **Process Management > Change Management**.
 
-![Menu](images/mud-mod.img1.png)
+![Menu](images/module.img1.jpg)
 
-**Figura 1 - Menu do módulo gerência de mudança**
+**Figure 1 - Change Management module menu**
 
-Principal funcionalidade (em destaque)
+Main feature (in highlight)
 ---------------------------------------
 
-Na seção "Veja também" é possível acessar a(s) funcionalidade(s) principal(is) deste módulo, desta forma se pode obter 
-um conhecimento mais detalhado.
+In the *See also* section you can access the main functionality(ies) of this module, in order to obtain a more detailed knowledge.
 
-!!! note "NOTA"
+!!! note "NOTE"
 
-    Dependendo da sua permissão de acesso, é possível realizar uma série de ações nas requisições de mudança existentes, 
-    sendo: visualizar as informações da requisição de mudança, agendar atividades referente à requisição de mudança, 
-    suspender o atendimento da requisição de mudança, reativar a requisição de mudança que foi suspensa para atendimento, 
-    capturar requisição de mudança para execução, executar requisição de mudança e entre outras.
+    Depending on your access permission, you can perform a series of actions on the existing change requests, such as: viewing the 
+    change request information, scheduling activities for the change request, suspending the request for change, reactivating Change 
+    request that has been suspended for service, capture change request for execution, execute change request, and so on.
     
-Veja também
+See also
 ------------
 
-- [Cadastro de requisição de mudança](/pt-br/citsmart-platform-7/processes/change/register-change.html).
+- [Change request registration](/en-us/citsmart-platform-7/processes/change/register-change.html).
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Larissa Lourenço
+    <b>Updated:</b>08/26/2019 – Larissa Lourenço
