@@ -1,14 +1,14 @@
-title:  Visão geral do processo de Configuração e Ativo de Serviço
-Description: Disponibiliza todos os conhecimentos do processo. 
-# Visão geral do processo de Configuração e Ativo de Serviço
+title:  Service Asset and Configuration Process Overview
+Description: Provides all the knowledge of the process. 
+# Service Asset and Configuration Process Overview
 
-[Cadastro e pesquisa de característica](/pt-br/citsmart-platform-7/processes/configuration/characteristics.html)
+[Feature registration and search](/en-us/citsmart-platform-7/processes/configuration/characteristics.html)
 
-[Cadastro e pesquisa de grupo de item de configuração](/pt-br/citsmart-platform-7/processes/configuration/group-IC.html)
+[Configuration Item group registration and search](/en-us/citsmart-platform-7/processes/configuration/group-IC.html)
 
-[Cadastro e pesquisa de lista negra de software](/pt-br/citsmart-platform-7/processes/configuration/blacklist-software.html)
+[Software blacklist registration and search](/en-us/citsmart-platform-7/processes/configuration/blacklist-software.html)
 
-[Cadastro e pesquisa de mídia definitiva](/pt-br/citsmart-platform-7/processes/configuration/definitive-media.html)
+[Definitive media registration and search](/en-us/citsmart-platform-7/processes/configuration/definitive-media.html)
 
 [Cadastro e pesquisa de tipo de item de configuração](/pt-br/citsmart-platform-7/processes/configuration/IC-type.html)
 
