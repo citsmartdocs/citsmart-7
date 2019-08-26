@@ -132,7 +132,7 @@ Ticket registration
 
 ### How to access
 
-1.  Access the main menu Process Management > Ticket Management > Ticket.
+1.  Access the main menu **Process Management > Ticket Management > Ticket**.
 
 ### Preconditions
 
