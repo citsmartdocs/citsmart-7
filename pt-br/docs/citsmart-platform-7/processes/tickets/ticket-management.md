@@ -209,6 +209,7 @@ Cadastro de ticket
         Por uma questão de desempenho e de preservação do layout da tela, esses dois resumos são paginados, ou seja, é 
         possível avançar/retroceder para visualizar todas as informações.
 
+      
       -	**Telefone**: informe o número de telefone do solicitante;
 
       -	**Ramal**: informe o número do ramal do solicitante, caso o tenha;
