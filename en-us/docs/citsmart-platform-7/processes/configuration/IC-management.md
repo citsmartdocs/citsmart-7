@@ -65,7 +65,7 @@ Creating a new configuration item group
 !!! abstract "KNOW MORE"
 
     There is another way to register and search a Configuration Item Group presented in knowledge Configuration item group 
-    registration and search.".
+    registration and search".
     
 1. On the Configuration Items Management screen, under **Action**, click the *Create New Group* button;
 
