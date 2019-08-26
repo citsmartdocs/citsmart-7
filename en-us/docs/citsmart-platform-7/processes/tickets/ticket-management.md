@@ -284,7 +284,7 @@ Ticket registration
 
     a)  Record the information of the applicant:
 
-      v-   **User**: enter the name of the requester, that is, the name of the person
+      -  **User**: enter the name of the requester, that is, the name of the person
     requesting the opening of the ticket;
 
     !!! warning "ATTENTION"
