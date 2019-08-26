@@ -1,67 +1,66 @@
-title: Pesquisa de itens de configuração
-Description: Esta funcionalidade tem por objetivo realizar a busca de Itens de Configuração de acordo com filtros definidos.
-# Pesquisa de itens de configuração
+title: Configuration items search
+Description: The goal of this feature is to perform searches for Configuration Items according to the determined filters.
+# Configuration items search
 
-Esta funcionalidade tem por objetivo realizar a busca de Itens de Configuração de acordo com filtros definidos.
+The goal of this feature is to perform searches for Configuration Items according to the determined filters.
 
-Como acessar
--------------
+How to access
+----------------
 
-1. Acesse a funcionalidade de Pesquisa de Item de Configuração através da navegação no menu principal
-**Processos ITIL > Gerência de Configuração > Pesquisa Item Config**.
+1. Access the configuration item search feature navigating through the main menu 
+**Process Management > Configuration Management > Search Configuration Item**
 
-Pré-condições
+Preconditions
 ---------------
 
-1. Não se aplica.
+1. Not applicable.
 
-Filtros
+Filters
 ---------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando
-a localização dos itens desejados, conforme ilustrado na figura abaixo:
+1. The following filters enable the user to restrict the participation of items in the standard feature listing, making it easier 
+to locate the desired items as shown in the figure below:
 
-    - **Identificação**: informar a identificação do IC que deseja consultar;
-    - **Grupo**: informar o grupo para consulta os ICs;
-    - **Data Início**: informar a data inicial do registro IC;
-    - **Data fim**: informar a data final do IC;
-    - **Status**: informar o status do IC para consulta dos ICs referente ao status;
-    - **Criticidade do Serviço**: informar a criticidade para consulta dos ICs referente à criticidade;
-    - **Exibir itens filhos**: caso queira visualizar os ICs filhos, habilite o filtro.
+    - **Identification**: insert the identification number of the intended CI;
+    - **Group**: insert the CI group which will be searched;
+    - **Start Date**: insert the CI entry start date;
+    - **End Date**: insert the IC end date
+    - **Status**: insert the CI status to search by status;
+    - **Service Criticality**: insert the criticality to search CIs by criticality
+    - **Show Related Items**: to view related CIs, turn on the filter.
     
-2. Acesse a funcionalidade, após isso, será apresentada a tela de **Pesquisa de Item de Configuração**, conforme ilustrada na 
-figura abaixo:
+2. Access functionality, afterwards, the **Configuration Item Search** screen will be displayed, as illustrated on the image below:
 
-    ![Filtros](images/pesquisa-IC.img1.png)
+    ![Filters](images/search.img1.jpg)
     
-    **Figura 1 - Tela de filtros**
+    **Figure 1 - Filter screen**
     
-3. Defina os filtros conforme sua necessidade;
+3. Determine the filters as needed;
 
-4. Após os filtros definidos, clique no botão "Pesquisar" para efetuar a busca dos ICs;
+4. After determining the filters, click on the *Search* button to search for CIs;
 
-5. O botão "Verificar Expiração", ao ser acionado, verifica a data de expiração de licenças dos ICs e envia um e-mail de 
-notificação para os responsáveis dos mesmos.
+5. The *Check Expiration* button, when pressed, check the expiration date of CI licenses and sends a notification e-mail to their 
+assigned staff members.
 
-Listagem de itens
+Items list
 -------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: **ID** e **Identificação**;
+1. The following registration fields are available to the user to facilitate the identification of the desired items in the 
+standard listing of the functionality: **ID** and **Identification**.
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Visualizar" e "Selecionar", 
-conforme ilustrado abaixo:
+2. There are action buttons available to the user in relation to each item in the listing, they are: *View and *Select* as 
+illustrated below:  
 
-    ![Listagem](images/pesquisa-IC.img2.png)
+    ![Listing](images/search.img2.jpg)
     
-    **Figura 2 - Tela de listagem de itens de configuração**
+    **Figure 2 - Items screen**
     
-Preenchimeno dos campos cadastrais
+Filling in the registration Fields
 -----------------------------------
 
-1. Não se aplica.
+1. Not applicable.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Larissa Lourenço
+    <b>Updated:</b>08/26/2019 - Larissa Lourenço
