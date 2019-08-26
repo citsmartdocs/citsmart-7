@@ -282,7 +282,7 @@ The figure below illustrates an example:
 
     ![IC](images/management.img18.jpg)
     
-    *Figure 18 - CI (Configuration Item) related to the incident process**
+    **Figure 18 - CI (Configuration Item) related to the incident process**
     
 3. It is also allowed to check the CIs related to two or more processes, just select the processes you want and then the CIs that 
 are related to the processes will be presented. The following figure illustrates an example:
