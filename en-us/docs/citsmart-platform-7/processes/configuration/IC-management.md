@@ -207,14 +207,14 @@ Registering a new configuration item
     - **Unit**: enter the business unit/department/stock in which the configuration item is allocated;
     - **Location**: enter the location where the configuration item is located;
     - **Expiration Date**: enter the expiration date of the configuration item license;
-    - **Media**: inform the definitive media (where the definite and authorized versions of software CIs are securely stored) of the 
-    CI, if necessary. If you want to clear the data entered in the field, click on the icon ![simbolo](images/simb-close.grey.jpg);
+    - **Media**: inform the definitive media (where the definite and authorized versions of software CIs are securely stored) of 
+    the CI, if necessary. If you want to clear the data entered in the field, click on the icon ![simbolo](images/simb-close.grey.jpg);
     - **CI Type**: enter the type of configuration item;
 
     !!! abstract "KNOW MORE"
     
-        When the configuration item type is informed, the characteristics listed in the characteristics tab will be displayed, where 
-        the value for each characteristic can be registered.
+        When the configuration item type is informed, the characteristics listed in the characteristics tab will be displayed, 
+        where the value for each characteristic can be registered.
         
     - **Status**: select the status of the configuration item;
     - **Fixed Assets**: if the CI is a fixed asset (tangible business asset that has a long-lived service life, for example, a 
@@ -224,13 +224,13 @@ Registering a new configuration item
     - **Urgency**: report the urgency of reestablishing the CI within the organizational environment;
     - **Staff**: inform the employee who uses or will use the configuration item;
     - **Group**: inform the CI group to which the CI will join;
-    - **Mudanças**: relacione uma mudança ao IC, quando for necessário. Caso queira limpar o dado informado no campo, clique
-    no ícone ![simbolo](images/simb-close.grey.jpg);
+    - **Changes**: relate a change to the CI, when necessary. If you want to clear the data entered in the field, click the
+    ![simbolo](images/simb-close.grey.jpg);
     - **Type of Responsible**: select the type of responsible: user or group;
-    - **Responsible**: inform the person in charge of the configuration item, according to the type of person in charge. If you want 
-    to clear the data entered in the field, click the ![simbolo](images/simb-close.grey.jpg);
+    - **Responsible**: inform the person in charge of the configuration item, according to the type of person in charge. If you 
+    want to clear the data entered in the field, click the ![simbolo](images/simb-close.grey.jpg);
     - **Parent Configuration Item**: if the CI being registered is part of another CI, inform it. If you want to clear the data 
-    entered in the field, click the ![simbolo](images/ssimb-close.grey.jpg);
+    entered in the field, click the ![simbolo](images/simb-close.grey.jpg);
     - **Downtime Cost**: inform the value of the time of downtime of the CI;
     - **Additional Information**: describe the other information about the configuration item, if it is important.
         
