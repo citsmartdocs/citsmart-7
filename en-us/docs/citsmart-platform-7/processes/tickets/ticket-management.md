@@ -84,9 +84,9 @@ the position of the user inside it;
 Create sub-requests, Display (show) sub-requests, Schedule activity, Create
 related request and Print request.
 
-- **23: Requests** - ticket log listing;
+- **23**: Requests - ticket log listing;
 
-- **24: Options Button** - when triggered displays the button to register new
+- **24**: Options Button - when triggered displays the button to register new
 tickets and the button to register the ticket via template.
 
 The list below shows the 28 possible operations of this screen, in alphabetical
