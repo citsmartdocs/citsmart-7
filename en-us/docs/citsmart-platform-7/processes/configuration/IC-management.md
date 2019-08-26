@@ -20,7 +20,7 @@ Preconditions
 6. Enter Configuration Item type (see knowledge [Configuration item type registration and search](/en-us/citsmart-platform-7/processes/configuration/IC-type.html));
 
 7. Register at least one Main Configuration Item if you need to create another related Configuration Item (see section "Registering 
-configuration item related to a configuration item).
+configuration item related to a configuration item).  
 
 How to access
 --------------
