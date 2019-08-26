@@ -484,7 +484,7 @@ displayed on the screen;
 Checking capacity/performance indicators for CI
 ---------------------------------------------------------
 
-1. Perform the query for the Configuration Item you want, as described in the **Consulting CI's By Filters item. After the query, 
+1. Perform the query for the Configuration Item you want, as described in the **Consulting CI's By Filters** item. After the query, 
 click on the configuration item. The information screen for the given Configuration Item will be displayed;
 
 2. Click the **Capacity** tab as shown in the figure below:
