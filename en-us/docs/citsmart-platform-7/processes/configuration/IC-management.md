@@ -119,9 +119,9 @@ Deleting configuration item group
     
     **Figure 6 - Delete group button**
     
-2. Click *do you confirm?* button to perform the operation;
+2. A message will be displayed to confirm the deletion of the group;
 
-3. Clique em "Confirmar" para efetuar a operação;
+3. Click *do you confirm?* button to perform the operation;
 
 4. The exclusion of the CI group will be successfully performed.
 
