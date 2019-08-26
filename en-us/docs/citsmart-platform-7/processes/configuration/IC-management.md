@@ -31,7 +31,7 @@ How to access
 Configuration item management
 ----------------------------------------
 
-1. The Configuration Item Management screen will be displayed, as shown in the figure below:
+1. The **Configuration Item Management** screen will be displayed, as shown in the figure below:
 
     ![Management](images/management.img1.jpg)
     
