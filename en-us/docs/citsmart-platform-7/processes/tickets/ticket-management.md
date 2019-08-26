@@ -398,8 +398,8 @@ Ticket registration
    -   **Status**: select the option that fits with the current ticket
     status: Registered.
 
-4.  After the data is entered, click the radio button  and then click the record
-    button  to register, where the date, time and user will be automatically
+5.  After the data is entered, click the radio button ![figure](images/management-6.png) and then click the record
+    button ![figure](images/management-10.png) to register, where the date, time and user will be automatically
     saved for a future audit.
 
 Possible links to ticket
