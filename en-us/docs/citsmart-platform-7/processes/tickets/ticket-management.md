@@ -1920,28 +1920,28 @@ team.
    
    **Figure 59 - Details**
 
--   **1** Responsible - indicates to which attendant it was assigned
+-   **1**: Responsible - indicates to which attendant it was assigned
 
--   **2** Amount - counts the tickets assigned to the attendant
+-   **2**: Amount - counts the tickets assigned to the attendant
 
--   **3** ID - identification
+-   **3**: ID - identification
 
--   **4** Type - indicates if it is a request or an incident
+-   **4**: Type - indicates if it is a request or an incident
 
--   **5** Priority - indicates the level of urgency (Low, Medium or High)
+-   **5**: Priority - indicates the level of urgency (Low, Medium or High)
 
--   **6** SLA Status - indicates the situation in relation to its solution deadline
+-   **6**: SLA Status - indicates the situation in relation to its solution deadline
     (On time, To expire, Expired)
 
--   **7** Requester - It's who asked for the execution.
+-   **7**: Requester - It's who asked for the execution.
 
--   **8** Service - indicates the type of service binded
+-   **8**: Service - indicates the type of service binded
 
--   **9** Activity - indicates the type of activity binded
+-   **9**: Activity - indicates the type of activity binded
 
--   **10** Limit - indicates the date and time threshold of its completion
+-   **10**: Limit - indicates the date and time threshold of its completion
 
--   **11** Status - indicates the general stage of the ticket (In attendance,
+-   **11**: Status - indicates the general stage of the ticket (In attendance,
     Solved, etc.)
 
 -   **12**: click to show a summary of ticket data
