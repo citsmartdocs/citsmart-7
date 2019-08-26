@@ -166,39 +166,39 @@ localização dos itens desejados:
 pesquisa. Será então apresentada uma tela com vários filtros, possibilitando dessa forma o refinamento da pesquisa. A figura abaixo
 ilustra estes filtros:
 
-    ![ticket](images/management-4.png)
+   ![ticket](images/management-4.png)
 
-    **Figura 3 - Tela de pesquisa detalhada**
+   **Figura 3 - Tela de pesquisa detalhada**
     
-    - **Número**: informar o número de identificação do ticket, caso queira verificar um ticket específico;
+   - **Número**: informar o número de identificação do ticket, caso queira verificar um ticket específico;
 
-    - **Solicitante**: informar o solicitante de serviços para verificar seus tickets;
+   - **Solicitante**: informar o solicitante de serviços para verificar seus tickets;
 
-    - **Tipo de solicitação**: informar o tipo de ticket para verificação dos tickets;
+   - **Tipo de solicitação**: informar o tipo de ticket para verificação dos tickets;
 
-    - **Situação**: informar a situação para verificar os tickets referentes;
+   - **Situação**: informar a situação para verificar os tickets referentes;
 
-    - **Contrato**: informar o contrato para verificar aos tickets relacionadas ao mesmo;
+   - **Contrato**: informar o contrato para verificar aos tickets relacionadas ao mesmo;
 
-    - **Grupo executor**: informar o grupo executor para verificar os tickets que foram direcionadas ao mesmo;
+   - **Grupo executor**: informar o grupo executor para verificar os tickets que foram direcionadas ao mesmo;
 
-    - **Tarefa atual**: informar o tipo de tarefa para verificar os tickets relacionados ao mesmo;
+   - **Tarefa atual**: informar o tipo de tarefa para verificar os tickets relacionados ao mesmo;
 
-    - **Responsável**: informar o responsável pelo atendimento do ticket para verificar aos tickets que foram atendidos pelo mesmo;
+   - **Responsável**: informar o responsável pelo atendimento do ticket para verificar aos tickets que foram atendidos pelo mesmo;
 
-    - **Situação SLA**: informar a situação do SLA para verificar os tickets referentes à situação selecionada;
+   - **Situação SLA**: informar a situação do SLA para verificar os tickets referentes à situação selecionada;
 
-    - **Ordenar por**: permite definir a ordem em que os tickets serão apresentados;
+   - **Ordenar por**: permite definir a ordem em que os tickets serão apresentados;
 
-    - **Visualizar**: informar a forma de visualização do ticket de acordo com as ações disponíveis ao eventual responsável pelo
+   - **Visualizar**: informar a forma de visualização do ticket de acordo com as ações disponíveis ao eventual responsável pelo
     ticket, tais como: execução e apenas visualização;
 
-    -	**Exibição**: permite filtrar o ticket das solicitações consideradas críticas e solicitações abertas pelo chat;
+   -	**Exibição**: permite filtrar o ticket das solicitações consideradas críticas e solicitações abertas pelo chat;
 
-    -	**Exibir Sub-solicitações**: se estiver marcado com Sim, o resultado da pesquisa trará também os sub-tickets de cada item do
+   -	**Exibir Sub-solicitações**: se estiver marcado com Sim, o resultado da pesquisa trará também os sub-tickets de cada item do
     resultado.
 
-    !!! warning "ATENÇÃO"
+!!! warning "ATENÇÃO"
     
         A eficácia da pesquisa depende do seguimento de algumas regras de permissão pelo filtro, tais como: execução, delegação,
         acompanhamento, visualização, grupos de usuários, vínculo com contrato, unidades e colaborador logado.
@@ -301,23 +301,24 @@ no botão de cadastro ![ticket](images/management-7.png).
         acordo com o calendário vinculado ao serviço. Porém, ao encerrar o tempo previsto de atendimento é contabilizado o atraso em 
         tempo corrido, sendo desconsiderado o calendário.
 
-    - **Título**: informe o título do ticket;
+   
+   - **Título**: informe o título do ticket;
 
-    - **Descrição**: informe a descrição do ticket. A descrição deve ser objetiva, incluindo toda informação necessária para o 
+   - **Descrição**: informe a descrição do ticket. A descrição deve ser objetiva, incluindo toda informação necessária para o 
     atendimento do mesmo;
 
-    - **Direcionar para grupo**: informe o grupo para o qual será direcionado o ticket. Caso não informe o grupo, o ticket será 
+   - **Direcionar para grupo**: informe o grupo para o qual será direcionado o ticket. Caso não informe o grupo, o ticket será 
     direcionado para o grupo definido no fluxo de requisição/incidente. Se não estiver definido o grupo no fluxo, o ticket será 
     direcionado para o grupo definido no registro do vínculo da atividade de requisição/incidente ao contrato. Mas se o grupo não
     estiver definido no registrodo vínculo da atividade ao contrato, o ticket será direcionado para o grupo definido no parâmetro
     "ID Grupo Nível 1" (para que esse campo esteja ativado é necessário configurar a funcionalidade - ver conhecimento [Manutenção 
     de fluxo de trabalho][15], seção Implementando a funcionalidade direcionar grupo no fluxo sobre a atividade);
 
-    - **Notificações**: marque as opções de envio de notificação sobre o ticket para serem enviadas ao solicitante;
+   - **Notificações**: marque as opções de envio de notificação sobre o ticket para serem enviadas ao solicitante;
 
-    - **Registro de Execução**: não é necessário o preenchimento deste campo, pois o mesmo é indicado para o técnico que irá atender o ticket e descreverá sobre a execução de sua atividade;
+   - **Registro de Execução**: não é necessário o preenchimento deste campo, pois o mesmo é indicado para o técnico que irá atender o ticket e descreverá sobre a execução de sua atividade;
 
-    - **Situação**: selecione a opção que se encaixa com o atual estado do ticket: Registrada/Em andamento.
+   - **Situação**: selecione a opção que se encaixa com o atual estado do ticket: Registrada/Em andamento.
 
 5.	Após os dados informados, clique no botão de opções ![ticket](images/management-6.png)  e logo em seguida clique no botão gravar ![ticket](images/management-10.png) para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma futura auditoria.
 
@@ -345,9 +346,9 @@ Possíveis vínculos ao ticket
   -	Para relacionar um conhecimento ao ticket, clique em **Conhecimento**.
 
 
-    !!! warning "ATENÇÃO"
+!!! warning "ATENÇÃO"
 
-        Os conhecimentos relacionados ao registro do ticket de atividade de requisição/incidente do serviço serão exibidos no Smart Portal, se a atividade de requisição/incidente estiver disponibilizada no mesmo.
+     Os conhecimentos relacionados ao registro do ticket de atividade de requisição/incidente do serviço serão exibidos no Smart Portal, se a atividade de requisição/incidente estiver disponibilizada no mesmo.
 
 Vinculação itens de configuração do solicitante
 ----------------------------------------------
