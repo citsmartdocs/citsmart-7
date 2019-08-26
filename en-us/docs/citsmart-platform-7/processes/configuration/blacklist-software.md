@@ -1,78 +1,77 @@
-title: Cadastro e pesquisa de lista negra de software
-Description: Esta funcionalidade tem por objetivo possibilitar a criação de Lista Negra de Softwares.
-# Cadastro e pesquisa de lista negra de software
+title: Software blacklist registration and search
+Description: The goal of this feature is to allow the creation of a Software Blacklist to notify the responsible staff members
+# Software blacklist registration and search
 
-Esta funcionalidade tem por objetivo possibilitar a criação de Lista Negra de Softwares para que seja 
-notificado os responsáveis sempre que detectada a instalação em alguma máquina da rede, onde esta será detectada no 
-momento em que gerar o inventário.
+The goal of this feature is to allow the creation of a Software Blacklist to notify the responsible staff members everytime one of 
+them is installed in a networked computed, at which it will be detected the moment it generates an inventory.
 
-Como acessar
--------------
+How to access
+----------------
 
-1. Acesse a funcionalidade de lista negra de software através da navegação no menu principal 
-**Processos ITIL > Gerência de Configuração > Softwares Lista Negra**.
+1. Access the software blacklist feature navigating through the main menu 
+**Process Management > Configuration Management > Software Blacklist**.
 
-Pré-condições
+Preconditions
 ---------------
 
-1. Não se aplica.
+1. Not applicable.
 
-Filtros
+Filters
 ---------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a 
-localização dos itens desejados, conforme ilustrado na figura abaixo:
+1. The following filter enable the user to restrict the participation of items in the standard feature listing, making it easier to 
+locate the desired items as shown in the figure below:
 
-    - Nome Software Lista Negra.
+    - Blacklisted Software Name.
     
-2. Na tela de **Softwares Lista Negra**, clique na aba **Pesquisa de Softwares Lista Negra**. Será apresentada a tela 
-de pesquisa conforme ilustrada na figura abaixo:
+2. On the **Software Blacklist** screen, click on the **Search Software Blacklist** tab. The search screen will be displayed as 
+illustrated on the image below:
 
-    ![Pesquisa](images/lista-negra.img1.png)
+    ![Search](images/blacklist.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de software para lista negra**
+    **Figure 1 - Software blacklist search screen**
     
- 3. Realize a pesquisa de software para lista negra;
+ 3. Perform a blacklisted software search:
  
-    - Informe o nome do software para lista negra que deseja pesquisar e clique no botão 
-    "Pesquisar". Após isso, será exibido o registro de software para lista negra conforme o nome informado;
+    - Insert the name of the intended software and click on the *Search* button. Afterwards, the software entry will be displayed 
+    according to the description provided;
  
-    - Caso deseje listar todos os registros de software para lista negra, basta clicar diretamente no botão "Pesquisar";
+    - To list all blacklisted software, just click directly on the *Search* button, if needed.
  
-Listagem de itens
+Items list
 -------------------
 
-1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: **Nome**.
+1. The following cadastral field is available to the user to facilitate the identification of the desired items in the standard 
+listing of the functionality: **Blacklisted Software Name**, as shown in the figure below:
 
-    ![Itens](images/lista-negra.img2.png)
+    ![Items](images/blacklist.img2.jpg)
     
-    **Figura 2 - Tela de itens**
+    **Figure 2 - Items screen**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo o 
-conteúdo referente ao registro selecionado;
+2. After searching, select the intended entry. Afterwards, they will be redirected to the registry screen displaying the content 
+belonging to the selected entry;
 
-3. Para alterar os dados do registro de software para lista negra, basta modificar as informações dos campos desejados
-e clicar no botão "Gravar" para que seja gravada a alteração realizada no registro, onde a data, hora e usuário serão gravados
-automaticamente para uma futura auditoria.
+3. To edit a blacklisted software entry, just modify the information on the intended fields and click on the Save button to confirm 
+the changes to the database, at which date, time and user will be stored automatically for a future audit.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Será apresentada a tela de cadastro de software para lista negra, conforme ilustrada na figura abaixo:
+1. Access functionality, afterwards, the software blacklist entry screen will be displayed, as illustrated on the image below:
 
-    ![Cadastro](images/lista-negra.img3.png)
+    ![Entry](images/blacklist.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de software para lista negra**
+    **Figure 3 - Software blacklist entry screen**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill out the fields as instructed below:
 
-    - **Nome Software Lista Negra**: informe o nome do software.
+    - **Blacklisted Software Name**: insert the software name;
     
-3. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente 
-ara uma futura auditoria.
+3. Click on the *Save* the button to confirm the entry, at which date, time and user will automatically be stored for a future 
+audit.
+
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/16/2019 – Larissa Lourenço
+    <b>Updated:</b>08/26/2019 – Larissa Lourenço
