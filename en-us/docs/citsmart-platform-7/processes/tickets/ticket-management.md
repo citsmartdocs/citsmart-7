@@ -542,7 +542,7 @@ Linking problems
 3.  If you wish to delete the problem link with the ticket, simply click on the
     icon ![figure](images/management-21.png) .
 
-## Items list
+### Items list
 
 1.  The following cadastral fields are available to the user to facilitate the
     identification of the desired items in the standard listing of the
@@ -551,7 +551,7 @@ Linking problems
 2.  There is one action button available to the user in relation to each item in
     the listing, it is: Remove.
 
-## Linking problems
+### Linking problems
 
 1.  Locate the desired ticket, press on it and then click on the icon ![figure](images/management-13.png) ;
 
@@ -593,7 +593,7 @@ Linking change request
 3.  If you want to delete the link from the change request with the ticket,
     simply click the ![figure](images/management-21.png) .
 
-## Items list
+### Items list
 
 1.  The following cadastral fields are available to the user to facilitate the
     identification of the desired items in the standard listing of the
@@ -750,7 +750,7 @@ Linking project
 2.  Have at least one project registered (see knowledge [Project registration
     and management][21]).
 
-## Filters
+### Filters
 
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
@@ -763,14 +763,14 @@ Linking project
 
 2.  To show the available projects, just click on the filter.
 
-## Items list
+### Items list
 
 1.  The following cadastral fields are available to the user to make it easier
     to identify the desired items in the default list of functionality: ID
     Project, Project Name, Responsible and Process (see previous
     figure).
 
-## Project linking
+### Project linking
 
 1.  Locate the desired ticket, press on it and then click on the icon ![figure](images/management-13.png) ;
 
@@ -808,7 +808,7 @@ Linking knowledge
 
 2.  Search the desired knowledge.
 
-## Items list
+### Items list
 
 1.  The following cadastral fields are available to the user to facilitate the
     identification of the desired items in the standard listing of the
@@ -818,7 +818,7 @@ Linking knowledge
    
    **Figure 21 - Knowledge listing screen**
 
-## Linking a knowledge
+### Linking a knowledge
 
 1.  Locate the desired ticket, press on it and then click on the icon ![figure](images/management-13.png) ;
 
@@ -915,12 +915,12 @@ Linking read e-mails
 Ticket capture
 --------------
 
-## Preconditions
+### Preconditions
 
 1.  Have permission to execute the service request (see knowledge [Group
     registration and search][3]).
 
-## Capturing ticket
+### Capturing ticket
 
 1.  The Ticket Management screen will be displayed;
 
@@ -948,7 +948,7 @@ Ticket capture
 Ticket execution registration
 -----------------------------
 
-## Preconditions
+### Preconditions
 
 1.  Have permission to execute the service request (see knowledge [Group
     registration and search][3]);
@@ -1020,12 +1020,12 @@ Ticket execution registration
 Ticket validation and termination
 ---------------------------------
 
-## Preconditions
+### Preconditions
 
 1.  Have permission to validate the service request (see knowledge [Group
     registration and search][3]).
 
-## Validating the ticket
+### Validating the ticket
 
 1.  Locate the desired ticket, press on it and then click on the icon ![figure](images/management-13.png) ;
 
@@ -1049,12 +1049,12 @@ Ticket validation and termination
 Ticket occurrence registry
 --------------------------
 
-## Preconditions
+### Preconditions
 
 1.  Have permission to run the Service Request (see knowledge [Group
     registration and search][3]).
 
-## Registering ticket occurrence
+### Registering ticket occurrence
 
 1.  The **Ticket Management** screen will be displayed. Locate the ticket in
     which to record the occurrence, click on it and then click on the icon ![figure](images/management-13.png);
@@ -1173,11 +1173,11 @@ Ticket cancellation
 Ticket direction
 ----------------
 
-## Preconditions
+### Preconditions
 
 1.  Have permission to run the Service Request (see knowledge [Group  registration and search][3]).
 
-## Directing the ticket for service
+### Directing the ticket for service
 
 1.  The **Ticket Managemen**t screen will be displayed.Locate the desired
     ticket, press on it and then click on the icon ![figure](images/management-13.png);
@@ -1361,7 +1361,7 @@ Suspension and reactivation of multiple ticket
     operation, at which all the ticket from the selected performer group in
     execution will be suspended.
 
-## Reactivating multiple suspended ticket
+### Reactivating multiple suspended ticket
 
 1.  On the **Request/Incident Management** screen, click on the ![figure](images/management-1.png) icon and
     on *Suspension/Reactivation*, as indicated on the image below:
@@ -1506,7 +1506,7 @@ Ticket reclassification
 Sub-request creation and visualization
 --------------------------------------
 
-## Preconditions
+### Preconditions
 
 1.  Have permission to register ticket (see knowledge [Group registration and
     search][3]);
@@ -1517,7 +1517,7 @@ Sub-request creation and visualization
 3.  Have the unit registered (see knowledge [Unit registration and
     search][6]).
 
-## Creating sub-requests
+### Creating sub-requests
 
 1.  Locate the ticket that will create a sub-ticket, click on it and then click
     the "options" icon and *Create sub-requests*, as indicated in the figure
@@ -1564,7 +1564,7 @@ Sub-request creation and visualization
     operation, where the date, time and user will be saved automatically for a
     future audit.
 
-## Viewing sub-requests
+### Viewing sub-requests
 
 1.  Locate the ticket that will view the sub-ticket, click on it and then click
     on the "options" icon and on Display sub-requests, as indicated in the
@@ -1584,12 +1584,12 @@ Sub-request creation and visualization
 Ticket activity schedule
 ------------------------
 
-## Preconditions
+### Preconditions
 
 1.  Have periodic activity groups registered to schedule the ticket activities
     (see knowledge [Periodic activity group registration and search][29]).
 
-## Scheduling activity
+### Scheduling activity
 
 1.  Locate the ticket you want to schedule an activity, click on it, and then
     click on the options icon and on Schedule Activity.
@@ -1874,14 +1874,14 @@ This technique is part of the common management strategy called "Management at a
 Glance", which emphasizes the progress transparency of the work for the entire
 team.
 
-## Preconditions
+### Preconditions
 
 1.  Have a ticket registered;
 
 2.  Give permission for the desired Access Profile (see knowledge [Ticket
     management module access permission][33]).
 
-## Explaining the Kanban frame
+### Explaining the Kanban frame
 
 1.  The Kanban frame retrieves the tickets of each attendant (user) that makes
     up the selected group. These tickets are grouped by attendant in a didactic
@@ -2043,7 +2043,7 @@ Advanced search
     places a value greater or less than five thousand records, the system
     considers the value informed by the user.
 
-## Filters
+### Filters
 
 1.  The following filters enable the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
@@ -2439,7 +2439,7 @@ Ticket registration via template
 
 13. Have the user linked to the group.
 
-## Registering the ticket via template
+### Registering the ticket via template
 
 1.  Click the radio button ![figure](images/management-6.png) located in the lower right corner of the screen,
     then click on the template button via template ![figure](images/management-88.png) . Once this is done, the
