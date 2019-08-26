@@ -1842,6 +1842,7 @@ Cadastro de ticket via template
 [30]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-system.html
 [31]:https://www.significados.com.br/kanban/
 [32]:/pt-br/citsmart-platform-7/processes/tickets/template-incident.html
+[33]:/pt-br/citsmart-platform-7/processes/tickets/permission.html
 
 
 
