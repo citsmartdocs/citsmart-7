@@ -73,9 +73,9 @@ defined);
 
    !!! warning "ATTENTION"
 
-     Viewing these reports depends on the configuration (registration) of
-     specific reports in the Reports > Smart Reports > Smart Report Generator
-     (see knowledge [Smart Report generator][2])
+       Viewing these reports depends on the configuration (registration) of
+       specific reports in the Reports > Smart Reports > Smart Report Generator
+       (see knowledge [Smart Report generator][2])
 
 - **21**: Click to show the flow referring to the ticket, being possible then to observe
 the position of the user inside it;
