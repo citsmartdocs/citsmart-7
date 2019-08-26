@@ -237,7 +237,6 @@ no botão de cadastro ![ticket](images/management-7.png).
         preservação do layout da tela, esses dois resumos são paginados, ou seja, é possível avançar/retroceder para visualizar 
         todas as informações.
 
-  
      -	**Telefone**: informe o número de telefone do solicitante;
 
      -	**Ramal**: informe o número do ramal do solicitante, caso o tenha;
@@ -314,11 +313,11 @@ no botão de cadastro ![ticket](images/management-7.png).
     "ID Grupo Nível 1" (para que esse campo esteja ativado é necessário configurar a funcionalidade - ver conhecimento [Manutenção 
     de fluxo de trabalho][15], seção Implementando a funcionalidade direcionar grupo no fluxo sobre a atividade);
 
-     - **Notificações**: marque as opções de envio de notificação sobre o ticket para serem enviadas ao solicitante;
+    - **Notificações**: marque as opções de envio de notificação sobre o ticket para serem enviadas ao solicitante;
 
-     - **Registro de Execução**: não é necessário o preenchimento deste campo, pois o mesmo é indicado para o técnico que irá atender o ticket e descreverá sobre a execução de sua atividade;
+    - **Registro de Execução**: não é necessário o preenchimento deste campo, pois o mesmo é indicado para o técnico que irá atender o ticket e descreverá sobre a execução de sua atividade;
 
-     - **Situação**: selecione a opção que se encaixa com o atual estado do ticket: Registrada/Em andamento.
+    - **Situação**: selecione a opção que se encaixa com o atual estado do ticket: Registrada/Em andamento.
 
 5.	Após os dados informados, clique no botão de opções ![ticket](images/management-6.png)  e logo em seguida clique no botão gravar ![ticket](images/management-10.png) para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma futura auditoria.
 
