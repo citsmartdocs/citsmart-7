@@ -201,11 +201,13 @@ Cadastro de ticket
     a)	Registre as informações do solicitante:
 
       -	**Solicitante**: informe o nome do solicitante, ou seja, o nome da pessoa que está solicitando a abertura do ticket;
-
     
     !!! warning "ATENÇÃO"
     
-        Ao informar o solicitante é mostrado um resumo estatístico dos chamados dele (por situação), bem como um outro resumo               estatístico de satisfação (por tipo de resposta) dos serviços já solicitados por ele. Por uma questão de desempenho e de             preservação do layout da tela, esses dois resumos são paginados, ou seja, é possível avançar/retroceder para visualizar             todas as informações.
+        Ao informar o solicitante é mostrado um resumo estatístico dos chamados dele (por situação), bem como um outro resumo 
+        estatístico de satisfação (por tipo de resposta) dos serviços já solicitados por ele. Por uma questão de desempenho e de 
+        preservação do layout da tela, esses dois resumos são paginados, ou seja, é possível avançar/retroceder para visualizar 
+        todas as informações.
 
   
      -	**Telefone**: informe o número de telefone do solicitante;
