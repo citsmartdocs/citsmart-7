@@ -1599,7 +1599,7 @@ Ticket activity schedule
    **Figure 50 - Schedule ticket activity**
 
 2.  The **Schedule Activities** screen will appear, click on
-    the** Scheduling** **Creation** tab, and fill in the fields:
+    the Scheduling Creation tab, and fill in the fields:
 
    ![figure](images/management-66.png)
    
