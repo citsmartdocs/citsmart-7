@@ -9,58 +9,58 @@ A tela abaixo mostra a principal tela do módulo tickets:
 
    **Figura 1 - Tela de gerenciamento de tickets**
 
--	**1**: Campo de pesquisa: permite buscar os tickets;
+-	**1**: Campo de pesquisa - permite buscar os tickets;
 
--	**2**: Botão de menu: exibe os itens de menu da tela de gerenciamento;
+-	**2**: Botão de menu - exibe os itens de menu da tela de gerenciamento;
 
--	**3**: Tickets: apresenta os registros de requisições de serviços e incidentes para atendimento e gerenciamento;
+-	**3**: Tickets - apresenta os registros de requisições de serviços e incidentes para atendimento e gerenciamento;
 
--	**4**: Auditoria: apresenta os logs gerados nas diversas ações relacionadas aos tickets;
+-	**4**: Auditoria - apresenta os logs gerados nas diversas ações relacionadas aos tickets;
 
--	**5**: Resumo: exibe a quantidade de tickets por diversos itens;
+-	**5**: Resumo - exibe a quantidade de tickets por diversos itens;
 
--	**6**: Pesquisa avançada: permite realizar uma busca avançada dos tickets;
+-	**6**: Pesquisa avançada - permite realizar uma busca avançada dos tickets;
 
--	**7**: Agenda: permite visualizar a agenda de atividades periódicas, na qual se verifica as atividades referentes aos tickets que foram agendados para serem atendidos em uma data determinada;
+-	**7**: Agenda - permite visualizar a agenda de atividades periódicas, na qual se verifica as atividades referentes aos tickets que foram agendados para serem atendidos em uma data determinada;
 
--	**8**: Atualização automática: recurso para, quando acionado, atualizar a lista de tickets de forma automática. O tempo de atualização automática da lista de ticket é de 30 segundos. Atualmente, este tempo não pode ser alterado;
+-	**8** : Atualização automática - recurso para, quando acionado, atualizar a lista de tickets de forma automática. O tempo de atualização automática da lista de ticket é de 30 segundos. Atualmente, este tempo não pode ser alterado;
 
--	**9**: Atualização manual: recurso usado para atualizar a lista de tickets;
+-	**9** : Atualização manual - recurso usado para atualizar a lista de tickets;
 
--	**10**: Relatórios: permite acessar relatórios do tipo global, ou seja, aqueles não ligados a um ticket específico, podendo analisar todos (na criação do relatório via opção Relatórios Smart esta característica é definida);
+-	**10** : Relatórios - permite acessar relatórios do tipo global, ou seja, aqueles não ligados a um ticket específico, podendo analisar todos (na criação do relatório via opção Relatórios Smart esta característica é definida);
 
--	**11**: Opções: apresenta a funcionalidade de “Suspensão/Reativação” (que permite suspender todas os tickets com status “Em andamento” de um determinado grupo executor e reativar os mesmos) e a funcionalidade de “Alterar colunas” (que permite alterar a disposição das colunas na lista de tickets; o conjunto de colunas definidas permanece mesmo após o encerramento da sessão do usuário);
+-	**11** : Opções - apresenta a funcionalidade de “Suspensão/Reativação” (que permite suspender todas os tickets com status “Em andamento” de um determinado grupo executor e reativar os mesmos) e a funcionalidade de “Alterar colunas” (que permite alterar a disposição das colunas na lista de tickets; o conjunto de colunas definidas permanece mesmo após o encerramento da sessão do usuário);
 
--	**12**: Listagem: filtra o modo de exibição de ticket por listagem;
+-	**12** : Listagem - filtra o modo de exibição de ticket por listagem;
 
--	**13**: Por atendente: filtra o modo de exibição de ticket por atendente no modo kanban;
+-	**13** : Por atendente - filtra o modo de exibição de ticket por atendente no modo kanban;
 
--	**14**: Por situação: filtra o modo de exibição de ticket por situação SLA. Para esta opção ficar visível é necessário habilitar a permissão de acesso para o usuário logado, marque o item "Gestão de Equipe" (ver conhecimento [Permissão de acesso do gerenciamento de tickets][1]);
+-	**14** : Por situação - filtra o modo de exibição de ticket por situação SLA. Para esta opção ficar visível é necessário habilitar a permissão de acesso para o usuário logado, marque o item "Gestão de Equipe" (ver conhecimento [Permissão de acesso do gerenciamento de tickets][1]);
 
--	**15**: Por status do fluxo: filtra o modo de exibição de ticket por status do fluxo;
+-	**15** : Por status do fluxo - filtra o modo de exibição de ticket por status do fluxo;
 
--	**16**: Clique para capturar e ser responsável pelo ticket;
+-	**16** : Clique para capturar e ser responsável pelo ticket;
 
--	**17**: Clique para mostrar todas as informações básicas referente ao ticket, não sendo possível nessa tela realizar qualquer tipo de alteração nos dados;
+-	**17** : Clique para mostrar todas as informações básicas referente ao ticket, não sendo possível nessa tela realizar qualquer tipo de alteração nos dados;
 
--	**18**: Clique para mostrar apenas a descrição do ticket;
+-	**18** : Clique para mostrar apenas a descrição do ticket;
 
--	**19**: Clique disponibilizar a funcionalidade de Mensagem, que permite a troca de mensagens entre o solicitante do ticket e o responsável pela sua resolução;
+-	**19** : Clique disponibilizar a funcionalidade de Mensagem, que permite a troca de mensagens entre o solicitante do ticket e o responsável pela sua resolução;
 
--	**20**: Clique para acessar relatórios do tipo específico, ou seja, aqueles ligados ao ticket atual (na criação do relatório via opção Relatórios Smart esta característica é definida);
+-	**20** : Clique para acessar relatórios do tipo específico, ou seja, aqueles ligados ao ticket atual (na criação do relatório via opção Relatórios Smart esta característica é definida);
 
     !!! warning "ATENÇÃO"
 
         A exibição destes relatórios depende da configuração (cadastro) de relatórios específicos na funcionalidade Relatórios > Relatórios Smart > Gerador de Relatórios Smart (ver conhecimento [Gerador de relatórios Smart][2])
 
 
--	**21**: Clique para mostrar o fluxo referente ao ticket, sendo possível então observar a posição do usuário dentro do mesmo;
+-	**21** : Clique para mostrar o fluxo referente ao ticket, sendo possível então observar a posição do usuário dentro do mesmo;
 
 -	**22**: Clique para abrir outras ações, tais como: Delegar, Suspender, Alterar SLA, Reclassificar, Criar sub-solicitações, Exibir sub-solicitações, Agendar atividade, Criar solicitação relacionada e Imprimir solicitação;
 
--	**23**: Solicitações: listagem de registros de tickets;
+-	**23** : Solicitações - listagem de registros de tickets;
 
--	**24**: Botão de Opções: ao ser acionado apresenta o botão para cadastro de novos tickets e o botão para cadastro de ticket via template.
+-	**24** : Botão de Opções - ao ser acionado apresenta o botão para cadastro de novos tickets e o botão para cadastro de ticket via template.
 
 A lista abaixo mostra as 28 possíveis operações desta tela, em ordem alfabética:
 
@@ -147,31 +147,31 @@ Cadastro de ticket
 
     **Figura 3 - Tela de pesquisa detalhada**
     
-    - Número: informar o número de identificação do ticket, caso queira verificar um ticket específico;
+    - **Número**: informar o número de identificação do ticket, caso queira verificar um ticket específico;
 
-    - Solicitante: informar o solicitante de serviços para verificar seus tickets;
+    - **Solicitante**: informar o solicitante de serviços para verificar seus tickets;
 
-    - Tipo de solicitação: informar o tipo de ticket para verificação dos tickets;
+    - **Tipo de solicitação**: informar o tipo de ticket para verificação dos tickets;
 
-    - Situação: informar a situação para verificar os tickets referentes;
+    - **Situação**: informar a situação para verificar os tickets referentes;
 
-    - Contrato: informar o contrato para verificar aos tickets relacionadas ao mesmo;
+    - **Contrato**: informar o contrato para verificar aos tickets relacionadas ao mesmo;
 
-    - Grupo executor: informar o grupo executor para verificar os tickets que foram direcionadas ao mesmo;
+    - **Grupo executor**: informar o grupo executor para verificar os tickets que foram direcionadas ao mesmo;
 
-    - Tarefa atual: informar o tipo de tarefa para verificar os tickets relacionados ao mesmo;
+    - **Tarefa atual**: informar o tipo de tarefa para verificar os tickets relacionados ao mesmo;
 
-    - Responsável: informar o responsável pelo atendimento do ticket para verificar aos tickets que foram atendidos pelo mesmo;
+    - **Responsável**: informar o responsável pelo atendimento do ticket para verificar aos tickets que foram atendidos pelo mesmo;
 
-    - Situação SLA: informar a situação do SLA para verificar os tickets referentes à situação selecionada;
+    - **Situação SLA**: informar a situação do SLA para verificar os tickets referentes à situação selecionada;
 
-    - Ordenar por: permite definir a ordem em que os tickets serão apresentados;
+    - **Ordenar por**: permite definir a ordem em que os tickets serão apresentados;
 
-    - Visualizar: informar a forma de visualização do ticket de acordo com as ações disponíveis ao eventual responsável pelo ticket, tais como: execução e apenas visualização;
+    - **Visualizar**: informar a forma de visualização do ticket de acordo com as ações disponíveis ao eventual responsável pelo ticket, tais como: execução e apenas visualização;
 
-    -	Exibição: permite filtrar o ticket das solicitações consideradas críticas e solicitações abertas pelo chat;
+    -	**Exibição**: permite filtrar o ticket das solicitações consideradas críticas e solicitações abertas pelo chat;
 
-    -	Exibir Sub-solicitações: se estiver marcado com Sim, o resultado da pesquisa trará também os sub-tickets de cada item do resultado.
+    -	**Exibir Sub-solicitações**: se estiver marcado com Sim, o resultado da pesquisa trará também os sub-tickets de cada item do resultado.
 
     !!! warning "ATENÇÃO"
     
@@ -190,7 +190,7 @@ Cadastro de ticket
 
 1.	Ao acessar a funcionalidade, será exibida a tela de Gerenciamento ticket;
 2.	Clique no botão de opções ![ticket](images/management-6.png) localizado no canto inferior direito da tela, logo em seguida clique no botão de cadastro ![ticket](images/management-7.png).
-3.	Feito isso, será apresentada a tela de Cadastro de ticket, conforme ilustrada na figura a seguir:
+3.	Feito isso, será apresentada a tela de **Cadastro de ticket**, conforme ilustrada na figura a seguir:
 
     ![ticket](images/management-8.png)
 
@@ -200,7 +200,7 @@ Cadastro de ticket
 
     a)	Registre as informações do solicitante:
 
-      -	Solicitante: informe o nome do solicitante, ou seja, o nome da pessoa que está solicitando a abertura do ticket;
+      -	**Solicitante**: informe o nome do solicitante, ou seja, o nome da pessoa que está solicitando a abertura do ticket;
 
     !!! warning "ATENÇÃO"
     
@@ -209,19 +209,19 @@ Cadastro de ticket
         Por uma questão de desempenho e de preservação do layout da tela, esses dois resumos são paginados, ou seja, é 
         possível avançar/retroceder para visualizar todas as informações.
 
-      -	Telefone: informe o número de telefone do solicitante;
+      -	**Telefone**: informe o número de telefone do solicitante;
 
-      -	Ramal: informe o número do ramal do solicitante, caso o tenha;
+      -	**Ramal**: informe o número do ramal do solicitante, caso o tenha;
 
-      -	E-mail: informe o e-mail do solicitante;
+      -	**E-mail**: informe o e-mail do solicitante;
 
-      -	Origem do contato: informe a origem do contato para registro do ticket;
+      -	**Origem do contato**: informe a origem do contato para registro do ticket;
 
-      -	Unidade: selecione a unidade na qual o solicitante está lotado;
+      -	**Unidade**: selecione a unidade na qual o solicitante está lotado;
 
-      -	Localidade Física: informe a localização do solicitante;
+      -	**Localidade Física**: informe a localização do solicitante;
 
-      -	Outras Informações: descreva as observações sobre o solicitante, se achar necessário.
+      -	**Outras Informações**: descreva as observações sobre o solicitante, se achar necessário.
 
     !!! warning " ATENÇÃO"
 
@@ -230,71 +230,68 @@ Cadastro de ticket
 
     b)	Registre as informações do ticket:
 
-    - Catálogo: selecione o catálogo de serviços;
+    - **Catálogo**: selecione o catálogo de serviços;
 
-    - Serviço: informe o serviço referente ao catálogo de serviços selecionado. Se o catálogo de serviços for "Negócio", serão 
-disponibilizados neste campo os serviços de negócio para seleção, mas se o catálogo de serviços for "Técnico", serão disponibilizados neste campo os serviços de apoio/técnico para seleção;
+    - **Serviço**: informe o serviço referente ao catálogo de serviços selecionado. Se o catálogo de serviços for "Negócio", serão 
+        disponibilizados neste campo os serviços de negócio para seleção, mas se o catálogo de serviços for "Técnico", serão                 disponibilizados neste campo os serviços de apoio/técnico para seleção;
 
-    - Tipo: selecione o tipo do ticket, se é uma abertura de incidente ou requisição de serviço;
+    - **Tipo**: selecione o tipo do ticket, se é uma abertura de incidente ou requisição de serviço:
 
-    - Incidente: caso a situação apresentada seja uma interrupção não planejada, uma redução na qualidade do serviço ou falha de algum item de configuração que ainda não tenha impactado um serviço de TI. Ex.: O link de rede está fora, a rede está lenta, o servidor inacessível,
-etc.
+      - **Incidente**: caso a situação apresentada seja uma interrupção não planejada, uma redução na qualidade do serviço ou falha       de algum item de configuração que ainda não tenha impactado um serviço de TI. Ex.: O link de rede está fora, a rede está             lenta, o servidor inacessível, etc.
 
-    - Requisição: refere-se aos pedidos de demandas realizados pelos usuários dentro do ambiente da Tecnologia da Informação. 
-Podem ser desde pedidos de acesso até sugestões de melhoria a baixo custo. Ex.: pedido de acesso à rede para um novo usuário, 
-solicitação de configuração de algum equipamento, requisição para adicionar algum software na estação de trabalho, etc.
+      - **Requisição**: refere-se aos pedidos de demandas realizados pelos usuários dentro do ambiente da Tecnologia da Informação. 
+        Podem ser desde pedidos de acesso até sugestões de melhoria a baixo custo. Ex.: pedido de acesso à rede para um novo                 usuário, solicitação de configuração de algum equipamento, requisição para adicionar algum software na estação de trabalho,         etc.
 
-    - Categoria: informe a categoria de serviço para facilitar a busca da atividade (requisição/incidente). A categoria irá identificar a natureza da atividade, posicionando-o dentro de grupos semelhantes de atuação, situando-o na hierarquia de sua categoria;
+   - **Categoria**: informe a categoria de serviço para facilitar a busca da atividade (requisição/incidente). A categoria irá identificar a natureza da atividade, posicionando-o dentro de grupos semelhantes de atuação, situando-o na hierarquia de sua categoria;
 
-    - Atividade (Requisição/Incidente): informe a atividade que será realizada referente ao tipo de ticket. Caso a atividade informada tenha um “Script de Orientação” associado, o mesmo será exibido na guia de "Scripts" representada pelo ícone ![ticket](images/management-9.png)  localizado no canto superior direito da tela;
+   - **Atividade (Requisição/Incidente)**: informe a atividade que será realizada referente ao tipo de ticket. Caso a atividade informada tenha um “Script de Orientação” associado, o mesmo será exibido na guia de "Scripts" representada pelo ícone ![ticket](images/management-9.png)  localizado no canto superior direito da tela;
 
-    - Contrato: após informar a atividade (requisição/incidente), será exibido o contrato para o qual será feita a abertura de incidente ou requisição de serviço;
+   - **Contrato**: após informar a atividade (requisição/incidente), será exibido o contrato para o qual será feita a abertura de incidente ou requisição de serviço;
 
-    - Urgência: após informar a atividade (requisição/incidente), será exibida a informação da urgência a qual indica a velocidade na qual o serviço precisa ser realizado;
+   - **Urgência**: após informar a atividade (requisição/incidente), será exibida a informação da urgência a qual indica a velocidade na qual o serviço precisa ser realizado;
 
-    - Impacto: após informar a atividade (requisição/incidente), será exibida a informação de impacto do serviço ao negócio;
+   - **Impacto**: após informar a atividade (requisição/incidente), será exibida a informação de impacto do serviço ao negócio;
 
     !!! warning "ATENÇÃO"
     
         Após informar a atividade do ticket, será estabelecido o tempo previsto para seu atendimento, conforme configurado no registro do tempo de atendimento vinculado à atividade. O tempo de atendimento será contabilizado de acordo com o que foi definido no calendário vinculado à unidade, mas caso a unidade não tenha um calendário vinculado, será contabilizado de acordo com o calendário vinculado ao serviço. Porém, ao encerrar o tempo previsto de atendimento é contabilizado o atraso em tempo corrido, sendo desconsiderado o calendário.
 
-    - Título: informe o título do ticket;
+    - **Título**: informe o título do ticket;
 
-    - Descrição: informe a descrição do ticket. A descrição deve ser objetiva, incluindo toda informação necessária para o atendimento do mesmo;
+    - **Descrição*: informe a descrição do ticket. A descrição deve ser objetiva, incluindo toda informação necessária para o atendimento do mesmo;
 
-    - Direcionar para grupo: informe o grupo para o qual será direcionado o ticket. Caso não informe o grupo, o ticket será direcionado para o grupo definido no fluxo de requisição/incidente. Se não estiver definido o grupo no fluxo, o ticket será direcionado para o grupo definido no registro do vínculo da atividade de requisição/incidente ao contrato. Mas se o grupo não estiver definido no registrodo vínculo da atividade ao contrato, o ticket será direcionado para o grupo definido no parâmetro "ID Grupo Nível 1" (para que esse campo esteja ativado é necessário configurar a funcionalidade - ver conhecimento [Manutenção de fluxo de trabalho][15], seção Implementando a funcionalidade direcionar grupo no fluxo sobre a atividade);
+    - **Direcionar para grupo**: informe o grupo para o qual será direcionado o ticket. Caso não informe o grupo, o ticket será direcionado para o grupo definido no fluxo de requisição/incidente. Se não estiver definido o grupo no fluxo, o ticket será direcionado para o grupo definido no registro do vínculo da atividade de requisição/incidente ao contrato. Mas se o grupo não estiver definido no registrodo vínculo da atividade ao contrato, o ticket será direcionado para o grupo definido no parâmetro "ID Grupo Nível 1" (para que esse campo esteja ativado é necessário configurar a funcionalidade - ver conhecimento [Manutenção de fluxo de trabalho][15], seção Implementando a funcionalidade direcionar grupo no fluxo sobre a atividade);
 
-     - Notificações: marque as opções de envio de notificação sobre o ticket para serem enviadas ao solicitante;
+     - **Notificações**: marque as opções de envio de notificação sobre o ticket para serem enviadas ao solicitante;
 
-     - Registro de Execução: não é necessário o preenchimento deste campo, pois o mesmo é indicado para o técnico que irá atender o ticket e descreverá sobre a execução de sua atividade;
+     - **Registro de Execução**: não é necessário o preenchimento deste campo, pois o mesmo é indicado para o técnico que irá atender o ticket e descreverá sobre a execução de sua atividade;
 
-     - Situação: selecione a opção que se encaixa com o atual estado do ticket: Registrada/Em andamento.
+     - **Situação**: selecione a opção que se encaixa com o atual estado do ticket: Registrada/Em andamento.
 
 5.	Após os dados informados, clique no botão de opções ![ticket](images/management-6.png)  e logo em seguida clique no botão gravar ![ticket](images/management-10.png) para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma futura auditoria.
 
 Possíveis vínculos ao ticket
 ---------------------------
 
-1.	Para informar os dados complementares do ticket (requisição ou incidente), marque a opção de captura ou visualização deste, posteriormente,
-clique no botão de menu. Serão exibidos os itens, conforme ilustrado na figura abaixo:
+1.	Para informar os dados complementares do ticket (requisição ou incidente), marque a opção de captura ou visualização deste, posteriormente, nclique no botão de menu. Serão exibidos os itens, conforme ilustrado na figura abaixo:
 
    ![ticket](images/management-12.png)
 
    **Figura 6 - Cadastro de ticket - menu lateral**
 
-  -	Para adicionar arquivos ao ticket, basta clicar em Anexos;
+  -	Para adicionar arquivos ao ticket, basta clicar em **Anexos**;
 
-  -	Para relacionar um problema ao ticket, clique em Problema;
+  -	Para relacionar um problema ao ticket, clique em **Problema**;
 
-  -	Para relacionar uma requisição de mudança ao ticket, clique em Mudança;
+  -	Para relacionar uma requisição de mudança ao ticket, clique em **Mudança**;
 
-  -	Para relacionar uma requisição de liberação ao ticket, clique em Liberação;
+  -	Para relacionar uma requisição de liberação ao ticket, clique em **Liberação**;
 
-  -	Para relacionar um IC ao ticket, clique em Itens de Configuração;
+  -	Para relacionar um IC ao ticket, clique em Itens de **Configuração**;
 
-  -	Para relacionar um projeto ao ticket, clique em Projeto;
+  -	Para relacionar um projeto ao ticket, clique em **Projeto**;
 
-  -	Para relacionar um conhecimento ao ticket, clique em Conhecimento.
+  -	Para relacionar um conhecimento ao ticket, clique em **Conhecimento**.
 
 
     !!! warning "ATENÇÃO"
@@ -355,9 +352,9 @@ Verificação das atividades periódicas
 
     **Figura 10 - Agenda de atividades**
 
-      -	Grupo de Atividades: selecione o grupo executor de atividades periódicas para visualizar suas tarefas agendadas;
+      -	**Grupo de Atividades**: selecione o grupo executor de atividades periódicas para visualizar suas tarefas agendadas;
 
-      -	Grupo Pesquisa: selecione o gerenciamento que deseja visualizar a suas atividades de que foram agendadas;
+      -	**Grupo Pesquisa**: selecione o gerenciamento que deseja visualizar a suas atividades de que foram agendadas;
 
     -	As atividades podem ser visualizadas mensalmente, semanalmente ou diariamente. Para definir o tipo de visualização, clique em um dos botões localizados acima do calendário: Mensal, Semanal ou Diária.
 
@@ -616,7 +613,7 @@ Vinculando e-mails lidos
 
 ### Vinculação de leituras de e-mail
 
-!!! info "INFORMAÇÃO"
+!!! info "IMPORTANTE"
 
      A leitura de e-mail só será realizada se os parâmetros estiverem configurados corretamente.
         
@@ -691,12 +688,12 @@ Cadastro da execução do ticket
 
       -	Se o tipo de ticket for Incidente, preencha os campos:
 
-         * Causa: selecione a causa do incidente;
-         * Categoria de Solução: selecione a categoria de solução do incidente;
-         * Detalhamento da Causa: descreva os detalhes da causa do incidente;
-         * Solução Resposta: descreva os detalhes da solução que foi realizada para atendimento do incidente;
-         * Gravar Solução/Resposta na Base de Conhecimento: caso queira gravar a "solução resposta" na base de conhecimento, marque esse campo e informe o título do novo conhecimento;
-         * Solução Temporária: indique se a atividade realizada para atendimento do incidente foi uma solução temporária.
+          * Causa: selecione a causa do incidente;
+          * Categoria de Solução: selecione a categoria de solução do incidente;
+          * Detalhamento da Causa: descreva os detalhes da causa do incidente;
+          * Solução Resposta: descreva os detalhes da solução que foi realizada para atendimento do incidente;
+          * Gravar Solução/Resposta na Base de Conhecimento: caso queira gravar a "solução resposta" na base de conhecimento, marque esse campo e informe o título do novo conhecimento;
+          * Solução Temporária: indique se a atividade realizada para atendimento do incidente foi uma solução temporária.
 
     -	Se o tipo de ticket for Requisição, preencha o campo Solução Resposta, descreva o que foi realizado para atendimento da requisição de serviço.
       
@@ -727,7 +724,7 @@ Validação e encerramento do ticket
     **Figura 27 - Registro do ticket**
 
 3.	No campo Registo de Execução, descreva as informações sobre a execução de sua atividade;
-4.	Após a validação do atendimento do ticket, clique no botão de opções ![ticket](images/management-6.png)  e logo em seguida clique no botão ![ticket](images/management-39.png)  para gravar e avançar o fluxo, onde o ticket será finalizado com sucesso. Mas, caso queira gravar somente as informações registradas sobre a validação do ticket e manter a tarefa atual, clique no botão ![ticket](images/management-10.png)  .
+4.	Após a validação do atendimento do ticket, clique no botão de opções ![ticket](images/management-6.png)  e logo em seguida clique no botão ![ticket](images/management-39.png)  para gravar e avançar o fluxo, onde o ticket será finalizado com sucesso. Mas, caso queira gravar somente as informações registradas sobre a validação do ticket e manter a tarefa atual, clique no botão ![ticket](images/management-10.png).
 
 Cadastro de ocorrência referente ao ticket
 ------------------------------------------
@@ -753,21 +750,21 @@ Cadastro de ocorrência referente ao ticket
     
 4.	Preencha os campos conforme orientação abaixo:
 
-    -	Categoria: informe a categoria da ocorrência. Caso não seja encontrada a categoria, é possível realizar um cadastro rápido a partir dessa tela, basta clicar no ícone ![ticket](images/management-90.png) ;
+    -	**Categoria**: informe a categoria da ocorrência. Caso não seja encontrada a categoria, é possível realizar um cadastro rápido a partir dessa tela, basta clicar no ícone ![ticket](images/management-90.png) ;
 
-    -	Origem: informe a origem da ocorrência. Caso não seja encontrada a origem, é possível realizar um cadastro rápido a partir dessa tela, basta clicar no botão ícone ![ticket](images/management-90.png) ;
+    -	**Origem**: informe a origem da ocorrência. Caso não seja encontrada a origem, é possível realizar um cadastro rápido a partir dessa tela, basta clicar no botão ícone ![ticket](images/management-90.png) ;
 
-    -	Registrado por: informe por quem está sendo registrada a ocorrência;
+    -	**Registrado por**: informe por quem está sendo registrada a ocorrência;
 
-    -	Tempo Gasto: informe a quantidade de minutos gasto com a ocorrência;
+    -	**Tempo Gasto**: informe a quantidade de minutos gasto com a ocorrência;
 
-    -	Descrição: informe uma breve descrição da ocorrência;
+    -	**Descrição**: informe uma breve descrição da ocorrência;
 
-    -	Ocorrência: descreva as ocorrências;
+    -	**Ocorrência**: descreva as ocorrências;
 
-    -	Informações de Contato: descreva as informações para contato;
+    -	**Informações de Contato**: descreva as informações para contato;
 
-    -	Notificar Solicitante: marque este campo caso deseje comunicar ao solicitante o registro da ocorrência, sendo assim, será enviado um e-mail de notificação de ocorrência ao solicitante utilizando o modelo de e-mail vinculado ao parâmetro que o define.
+    -	**Notificar Solicitante**: marque este campo caso deseje comunicar ao solicitante o registro da ocorrência, sendo assim, será enviado um e-mail de notificação de ocorrência ao solicitante utilizando o modelo de e-mail vinculado ao parâmetro que o define.
 
 5.	Após os dados informados, clique no botão Gravar para efetuar a operação, como complemento da operação, a data, hora e usuário serão gravados automaticamente para uma futura auditoria.
 
@@ -862,7 +859,7 @@ Delegação do ticket
 3.	Informe o grupo ou usuário que deseja delegar o ticket;
 4.	Descreva a justificativa da delegação do ticket.
 
-    !!! info "INFORMAÇÃO"
+    !!! info "IMPORTANTE"
 
         No campo “Atribuir ao grupo”, serão disponibilizados somente os grupos em que pertence. No campo onde se informa o usuário, serão disponibilizados somente os membros dos grupos em que pertence.
 
@@ -935,20 +932,20 @@ Suspensão e reativação de múltiplos tickets
 
 4.	Todos os campos dessa tela na verdade são filtros, ou seja, o usuário que vai suspender em massa filtra:
 
-    -	Contrato: selecione o contrato (o sistema filtra pelos contratos que o usuário logado possui permissão de acesso), no qual será realizada a suspensão dos tickets;
+    -	**Contrato**: selecione o contrato (o sistema filtra pelos contratos que o usuário logado possui permissão de acesso), no qual será realizada a suspensão dos tickets;
 
-    -	Solicitante da Solicitação: informe o responsável por solicitar a suspensão dos tickets (esse campo filtra os tickets cujo o solicitante está). Basta clicar dentro da caixa de texto e digitar as inicias do nome do solicitante que será feita a busca dos usuários ligados ao contrato selecionado. Outra forma de busca é utilizar o botão Pesquisa Avançada, que apresentará uma tela de pesquisa, onde poderá informar os dados necessários para sua pesquisa e após informá-los, clicar em Pesquisar e selecionar o colaborador, responsável pela suspensão dos tickets;
+    -	**Solicitante da Solicitação**: informe o responsável por solicitar a suspensão dos tickets (esse campo filtra os tickets cujo o solicitante está). Basta clicar dentro da caixa de texto e digitar as inicias do nome do solicitante que será feita a busca dos usuários ligados ao contrato selecionado. Outra forma de busca é utilizar o botão Pesquisa Avançada, que apresentará uma tela de pesquisa, onde poderá informar os dados necessários para sua pesquisa e após informá-los, clicar em Pesquisar e selecionar o colaborador, responsável pela suspensão dos tickets;
 
-    -	Grupo: selecione o grupo responsável pelo atendimento dos tickets que serão suspensos. Neste campo, serão disponibilizados somente os grupos de Service Desk ativos ao qual o solicitante informado pertence;
+    -	**Grupo**: selecione o grupo responsável pelo atendimento dos tickets que serão suspensos. Neste campo, serão disponibilizados somente os grupos de Service Desk ativos ao qual o solicitante informado pertence;
 
     !!! warning "ATENÇÃO"
 
         Ao registrar o grupo do qual o usuário é membro (através da funcionalidade Acesso e Permissão > Grupo), no campo "Suspensão/Reativação" selecione o valor "Não". O fato do usuário selecionar "Não" para este campo Suspensão/Reativação da tela de cadastro de grupo não influencia no aparecimento do botão “Suspensão/Reativação” na tela de ticket
 
 
-      - Justificativa: selecione uma justificativa da suspensão dos tickets;
+      - **Justificativa**: selecione uma justificativa da suspensão dos tickets;
 
-      - Complemento da justificativa: descreva o complemento da justificativa selecionada.
+      - **Complemento da justificativa**: descreva o complemento da justificativa selecionada.
 
     !!! warning "ATENÇÃO"
 
@@ -958,7 +955,7 @@ Suspensão e reativação de múltiplos tickets
 
 ### Reativando múltiplos tickets suspensos
 
-1.	Na tela de Gerenciamento Ticket, clique no ícone ![ticket](images/management-51.png)  e em Suspensão/Reativação, conforme indicado na figura abaixo:
+1.	Na tela de Gerenciamento Ticket, clique no ícone ![ticket](images/management-51.png) e em Suspensão/Reativação, conforme indicado na figura abaixo:
 
     ![ticket](images/management-54.png)
 
@@ -970,11 +967,11 @@ Suspensão e reativação de múltiplos tickets
 
     **Figura 41 - Tela de reativação de tickets suspensos**
 
-    -	Contrato: selecione o contrato, no qual será realizada a reativação dos tickets suspensos;
+    -	**Contrato**: selecione o contrato, no qual será realizada a reativação dos tickets suspensos;
 
-    -	Solicitante da Reativação: informe o responsável por solicitar a reativação dos tickets suspensos. Basta clicar dentro da caixa de texto e digitar as inicias do nome do solicitante que será feita a busca dos usuários ligados ao contrato selecionado. Outra forma de busca é utilizar o botão Pesquisa Avançada, que apresentará uma tela de pesquisa, onde poderá informar os dados necessários para sua pesquisa e após informá-los, clicar em Pesquisar e selecionar o colaborador, responsável pela reativação dos tickets suspensos;
+    -	**Solicitante da Reativação**: informe o responsável por solicitar a reativação dos tickets suspensos. Basta clicar dentro da caixa de texto e digitar as inicias do nome do solicitante que será feita a busca dos usuários ligados ao contrato selecionado. Outra forma de busca é utilizar o botão Pesquisa Avançada, que apresentará uma tela de pesquisa, onde poderá informar os dados necessários para sua pesquisa e após informá-los, clicar em Pesquisar e selecionar o colaborador, responsável pela reativação dos tickets suspensos;
 
-    -	Grupo: selecione o grupo responsável pelo atendimento dos tickets que estão suspensos. Neste campo serão disponibilizados somente os grupos de Service Desk ativos ao qual o solicitante informado pertence.
+    -	**Grupo**: selecione o grupo responsável pelo atendimento dos tickets que estão suspensos. Neste campo serão disponibilizados somente os grupos de Service Desk ativos ao qual o solicitante informado pertence.
 
 3.	Após os dados informados, clique no botão Reativar, para efetuar a operação, onde todos os tickets do grupo executor selecionado que estão suspensos serão reativados.
 
@@ -996,7 +993,7 @@ Reativação de um ticket suspenso
 
 3.	Será exibida uma mensagem para confirmação da reativação do ticket, basta clicar em Confirmar para efetuar a operação.
 
-Alteração do sla do ticket
+Alteração do SLA do ticket
 -------------------------
 
 ### Pré-condições
@@ -1018,15 +1015,15 @@ Alteração do sla do ticket
 
     **Figura 44 - Alteração de SLA do ticket**
 
-    -	Tipo de SLA: defina o tipo de acordo de nível de serviço;
+    -	**Tipo de SLA**: defina o tipo de acordo de nível de serviço;
 
-    -	Tempo: defina a quantidade de horas que levará para atender o ticket;
+    -	**Tempo**: defina a quantidade de horas que levará para atender o ticket;
 
-    -	Calendário: informe o calendário que seguirá para contabilizar o tempo de atendimento;
+    -	**Calendário**: informe o calendário que seguirá para contabilizar o tempo de atendimento;
 
-    -	Justificativa: selecione a justificativa referente a mudança do tempo de atendimento do ticket;
+    -	**Justificativa**: selecione a justificativa referente a mudança do tempo de atendimento do ticket;
 
-    -	Complemento da justificativa: descreva os detalhes da justificativa selecionada, se achar necessário.
+    -	**Complemento da justificativa**: descreva os detalhes da justificativa selecionada, se achar necessário.
 
 3.	Após os dados informados, clique no botão Gravar para efetuar a operação, onde a data, hora e usuário serão gravados automaticamente para uma futura auditoria.
 
@@ -1079,25 +1076,25 @@ Criação e visualização de sub-solicitação
 
 3.	Preencha os campos com as informações do solicitante:
 
-    -	Solicitante: informe o nome do solicitante, ou seja, o nome da pessoa que está solicitando o serviço referente ao ticket;
+    -	**Solicitante**: informe o nome do solicitante, ou seja, o nome da pessoa que está solicitando o serviço referente ao ticket;
 
     !!! note "NOTA"
     
         Caso o solicitante já tenha os dados pessoais (telefone, e-mail e/ou unidade) registrados no sistema, após informá-lo, os campos referentes aos dados serão preenchidos com as respectivas informações
 
-    -	Telefone: informe o telefone do solicitante para contato;
+    -	**Telefone**: informe o telefone do solicitante para contato;
 
-    -	E-mail: informe o e-mail do solicitante para contato;
+    -	**E-mail**: informe o e-mail do solicitante para contato;
 
-    -	Origem do contato: informe a origem do contato para registro do sub-ticket;
+    -	**Origem do contato**: informe a origem do contato para registro do sub-ticket;
 
-    -	Unidade: informe a unidade do solicitante;
+    -	**Unidade**: informe a unidade do solicitante;
 
-    -	Localidade física: informe a localização do solicitante;
+    -	**Localidade física**: informe a localização do solicitante;
 
-    -	Outras Informações: descreva as observações sobre o solicitante, se achar necessário;
+    -	**Outras Informações**: descreva as observações sobre o solicitante, se achar necessário;
 
-    -	Direcionar para grupo: informe em qual grupo você deseja direcionar o sub-ticket.
+    -	**Direcionar para grupo**: informe em qual grupo você deseja direcionar o sub-ticket.
 
 4.	Após os dados informados, clique no botão Gravar para efetuar a operação, onde a data, hora e usuário serão gravados automaticamente para uma futura auditoria.
 
@@ -1137,13 +1134,13 @@ Agendamento de atividade de ticket
 
     **Figura 51 - Agendamento de atividades**
 
-    -	Grupo de Atividades (para o agendamento): selecione o grupo que será responsável por executar a atividade;
+    -	**Grupo de Atividades (para o agendamento)**: selecione o grupo que será responsável por executar a atividade;
 
-    -	Orientação Técnica: descreva a orientação técnica necessária para execução da atividade;
+    -	**Orientação Técnica**: descreva a orientação técnica necessária para execução da atividade;
 
-    -	Agendar para: informe a data e hora, período que será agendado a atividade para sua execução;
+    -	**Agendar para**: informe a data e hora, período que será agendado a atividade para sua execução;
 
-    -	Duração estimada: informe a duração estimada em minutos, ou seja, o tempo que levará para realizar a atividade.
+    -	**Duração estimada**: informe a duração estimada em minutos, ou seja, o tempo que levará para realizar a atividade.
 
 3.	Após os dados informados, clique no botão Gravar para efetuar a operação, onde a data, hora e usuário serão gravados automaticamente para uma futura auditoria.
 
@@ -1233,7 +1230,7 @@ Cadastro e vinculação de ticket relacionado
 
 3.	Preencha os campos conforme orientação abaixo:
 
-    -	Solicitante: informe o nome do solicitante, ou seja, o nome da pessoa que está solicitando a abertura de incidente ou requisição de serviço;
+    -	**Solicitante**: informe o nome do solicitante, ou seja, o nome da pessoa que está solicitando a abertura de incidente ou requisição de serviço;
 
      - ![ticket](images/management-71.png)  : ao clicar no ícone, permite vincular o ticket relacionado ao usuário logado;
     
@@ -1244,45 +1241,45 @@ Cadastro e vinculação de ticket relacionado
         Caso o solicitante já tenha os dados pessoais (telefone, ramal, e-mail e/ou unidade) registrados no sistema, após               informá-lo, os campos referentes aos dados serão preenchidos com as respectivas informações
 
 
-    -	Telefone: informe o número de telefone do solicitante;
+    -	**Telefone**: informe o número de telefone do solicitante;
 
-    -	E-mail: informe o e-mail do solicitante;
+    -	**E-mail**: informe o e-mail do solicitante;
 
-    -	Origem do contato: informe a origem do contato do ticket;
+    -	**Origem do contato**: informe a origem do contato do ticket;
 
-    -	Catálogo: selecione o catálogo de serviços;
+    -	**Catálogo**: selecione o catálogo de serviços;
 
-    -	Serviço: informe o serviço referente ao catálogo de serviços. Se o catálogo de serviços for “Negócio”, serão disponibilizados neste campo os serviços de negócio para seleção, mas se o catálogo de serviços for "Técnico", serão disponibilizados neste campo os serviços de apoio/técnico para seleção;
+    -	**Serviço**: informe o serviço referente ao catálogo de serviços. Se o catálogo de serviços for “Negócio”, serão disponibilizados neste campo os serviços de negócio para seleção, mas se o catálogo de serviços for "Técnico", serão disponibilizados neste campo os serviços de apoio/técnico para seleção;
 
-    -	Categoria: informe a categoria de serviço para facilitar a busca da atividade (requisição/incidente);
+    -	**Categoria**: informe a categoria de serviço para facilitar a busca da atividade (requisição/incidente);
 
-    -	Tipo: selecione o tipo do ticket, se é incidente ou requisição;
+    -	**Tipo**: selecione o tipo do ticket, se é incidente ou requisição;
 
-        - Incidente: caso a situação apresentada seja uma interrupção não planejada, uma redução na qualidade do serviço ou falha de algum item de configuração que ainda não tenha impactado um serviço de TI. Ex: o link de rede está fora, a rede está lenta, o servidor inacessível, etc.
+        - **Incidente**: caso a situação apresentada seja uma interrupção não planejada, uma redução na qualidade do serviço ou falha de algum item de configuração que ainda não tenha impactado um serviço de TI. Ex: o link de rede está fora, a rede está lenta, o servidor inacessível, etc.
   
-        - Requisição: refere-se aos pedidos de demandas realizados pelos usuários dentro do ambiente da Tecnologia da Informação. Podem ser desde pedidos de acesso até sugestões de melhoria a baixo custo. Ex: pedido de acesso à rede para um novo usuário, solicitação de configuração de algum equipamento, requisição para adicionar algum software na estação de trabalho, etc.
+        - **Requisição**: refere-se aos pedidos de demandas realizados pelos usuários dentro do ambiente da Tecnologia da Informação. Podem ser desde pedidos de acesso até sugestões de melhoria a baixo custo. Ex: pedido de acesso à rede para um novo usuário, solicitação de configuração de algum equipamento, requisição para adicionar algum software na estação de trabalho, etc.
   
-    -	Atividade (Requisição/Incidente): informe a atividade que será realizada referente ao tipo de ticket;
+    -	**Atividade (Requisição/Incidente)**: informe a atividade que será realizada referente ao tipo de ticket;
 
-    -	SLA: após informar a atividade (requisição/incidente) será estabelecido o tempo de atendimento da mesma;
+    -	**SLA**: após informar a atividade (requisição/incidente) será estabelecido o tempo de atendimento da mesma;
 
-    -	Contrato: após informar a atividade (requisição/incidente), será exibido o contrato para o qual será feita a abertura de incidente ou requisição de serviço;
+    -	**Contrato**: após informar a atividade (requisição/incidente), será exibido o contrato para o qual será feita a abertura de incidente ou requisição de serviço;
 
-    -	Unidade: informe a unidade do solicitante;
+    -	**Unidade**: informe a unidade do solicitante;
 
-    -	Impacto: após informar a atividade (requisição/incidente), será exibida a informação do impacto ao negócio;
+    -	**Impacto**: após informar a atividade (requisição/incidente), será exibida a informação do impacto ao negócio;
 
-    -	Urgência: após informar a atividade (requisição/incidente), será exibida a informação da urgência, a qual indica a velocidade que atividade do serviço precisa ser realizada;
+    -	**Urgência**: após informar a atividade (requisição/incidente), será exibida a informação da urgência, a qual indica a velocidade que atividade do serviço precisa ser realizada;
 
-    -	Título: informe o título do ticket;
+    -	**Título**: informe o título do ticket;
 
-    -	Descrição: informe a descrição do ticket. A descrição deve ser objetiva, incluindo toda informação necessária para o atendimento da mesma;
+    -	**Descrição**: informe a descrição do ticket. A descrição deve ser objetiva, incluindo toda informação necessária para o atendimento da mesma;
 
-    -	Direcionar para grupo: permite escolher um grupo, vinculado ao ticket, para que a solicitação relacionada seja direcionada;
+    -	**Direcionar para grupo**: permite escolher um grupo, vinculado ao ticket, para que a solicitação relacionada seja direcionada;
 
     -	Caso queira vincular um Item de Configuração, clique no botão Pesquisa Item de Configuração, realize a pesquisa e selecione o IC;
 
-    -	Situação: selecione a opção que se encaixa com o atual estado do ticket: Registrada/Em andamento, Resolvida ou Cancelada.
+    -	**Situação**: selecione a opção que se encaixa com o atual estado do ticket: Registrada/Em andamento, Resolvida ou Cancelada.
 
 4.	Após os dados informados, clique no botão Gravar e manter tarefa atual. Após isso, o ticket relacionado será criado com sucesso, sendo apresentada no mesmo um ícone que representa o ticket principal, conforme exemplo ilustrado na figura a seguir;
 
@@ -1338,15 +1335,15 @@ Esta técnica faz parte da estratégia comum da administração chamada “Gest�
 
     **Figura 58 - Quadro Kanban**
 
-    - 1: Modos de Exibição: escolha entre: ![ticket](images/management-77.png) (mostra todos os campos do ticket) e ![ticket](images/management-78.png)  (esconde a maior parte desses detalhes)
+    - **1**: Modos de Exibição - escolha entre: ![ticket](images/management-77.png) (mostra todos os campos do ticket) e ![ticket](images/management-78.png)  (esconde a maior parte desses detalhes)
     
-    - 2: Grupo (atendentes): selecione o grupo de atendentes (usuários) que deseja acompanhar
+    - **2**: Grupo (atendentes) - selecione o grupo de atendentes (usuários) que deseja acompanhar
     
-    - 3: Legendas: conjunto didático de legendas sobre: Tipo, Prioridade, Situação e Status do Tempo de Atendimento
+    - **3**: Legendas - conjunto didático de legendas sobre: Tipo, Prioridade, Situação e Status do Tempo de Atendimento
     
-    - 4: Responsável: legenda específica sobre responsáveis pelos tickets, indicando o nome das pessoas que estão no Grupo selecionado
+    - **4**: Responsável - legenda específica sobre responsáveis pelos tickets, indicando o nome das pessoas que estão no Grupo selecionado
 
-    !!! info "INFORMAÇÃO"
+    !!! info "IMPORTANT"
 
         Para atribuir o ticket para um atendente basta usar o mouse clicando e arrastando (simulando o conceito da mudança de um post-it em um quadro real fixado na parede)
 
@@ -1356,41 +1353,41 @@ Esta técnica faz parte da estratégia comum da administração chamada “Gest�
 
    **Figura 59 - Detalhes**
     
--	1: Responsável: indica para qual atendente ele foi atribuído
+-	**1**: Responsável: indica para qual atendente ele foi atribuído
 
--	2: Quantidade: contabiliza os tickets atribuídos ao atendente
+-	**2**: Quantidade: contabiliza os tickets atribuídos ao atendente
 
--	3: ID: identificador único
+-	**3**: ID: identificador único
 
--	4: Tipo: indica se é uma requisição ou um incidente
+-	**4**: Tipo: indica se é uma requisição ou um incidente
 
--	5: Prioridade: indica o nível de urgência (Baixa, Média ou Alta)
+-	**5**: Prioridade: indica o nível de urgência (Baixa, Média ou Alta)
 
--	6: Status da SLA: indica a situação em relação ao seu prazo de solução (No prazo, A vencer, Vencida)
+-	**6**: Status da SLA: indica a situação em relação ao seu prazo de solução (No prazo, A vencer, Vencida)
 
--	7: Solicitante: é quem pediu pela execução
+-	**7**: Solicitante: é quem pediu pela execução
 
--	8: Serviço: indica o tipo de serviço vinculado
+-	**8**: Serviço: indica o tipo de serviço vinculado
 
--	9: Atividade: indica o tipo de atividade vinculada
+-	**9**: Atividade: indica o tipo de atividade vinculada
 
--	10: Limite: indica a data e hora limite de conclusão
+-	**10**: Limite: indica a data e hora limite de conclusão
 
--	11: Situação: indica o estágio geral do ticket (Em atendimento, Resolvida, etc.)
+-	**11**: Situação: indica o estágio geral do ticket (Em atendimento, Resolvida, etc.)
 
--	12: Clique para mostrar um resumo dos dados do ticket
+-	**12**: Clique para mostrar um resumo dos dados do ticket
 
--	13: Clique para mostrar os anexos
+-	**13**: Clique para mostrar os anexos
 
--	14: Clique para mostrar os itens de configuração vinculados
+-	**14**: Clique para mostrar os itens de configuração vinculados
 
--	15: Indica que a solicitação possui outras tarefas relacionadas (solicitação filho)
+-	**15**: Indica que a solicitação possui outras tarefas relacionadas (solicitação filho)
 
--	16: Permite ao usuário capturar e ser responsável pela solicitação.
+-	**16**: Permite ao usuário capturar e ser responsável pela solicitação.
 
--	17: Mostra a solicitação inicial (solicitação pai)
+-	**17**: Mostra a solicitação inicial (solicitação pai)
 
--	18: Clique para mudar modo de exibição para compacto
+-	**18**: Clique para mudar modo de exibição para compacto
 
 Auditoria do ticket
 ------------------
@@ -1463,55 +1460,55 @@ Pesquisa avançada
 
 1.	Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a localização dos itens desejados:
 
-    -	Data de abertura: informar o período que deseja verificar os registros de ticket;
+    -	**Data de abertura**: informar o período que deseja verificar os registros de ticket;
 
-    -	Data de encerramento: informar o período de encerramento do ticket para verificar os tickets que foram fechados no determinado período;
+    -	**Data de encerramento**: informar o período de encerramento do ticket para verificar os tickets que foram fechados no determinado período;
 
-    -	Número: informar o número de identificação do ticket, caso queira verificar um ticket específico;
+    -	**Número**: informar o número de identificação do ticket, caso queira verificar um ticket específico;
 
-    -	Ordenação: definir a ordem em que os tickets serão apresentados;
+    -	**Ordenação**: definir a ordem em que os tickets serão apresentados;
 
-    -	Contrato: informar o contrato para verificar os tickets relacionados ao mesmo;
+    -	**Contrato**: informar o contrato para verificar os tickets relacionados ao mesmo;
 
-    -	Catálogo: informar o tipo de catálogo de serviços para verificar os tickets referentes;
+    -	**Catálogo**: informar o tipo de catálogo de serviços para verificar os tickets referentes;
 
-    -	Serviço/Serviço de Apoio: informar o serviço caso deseje verificar os tickets referente ao mesmo;
+    -	**Serviço/Serviço de Apoio**: informar o serviço caso deseje verificar os tickets referente ao mesmo;
 
-    -	Tipo de solicitação: informar o tipo de ticket para verificação dos tickets;
+    -	**Tipo de solicitação**: informar o tipo de ticket para verificação dos tickets;
 
-    -	Atividade (Requisição/Incidente): informar o serviço caso deseje verificar os tickets referentes ao mesmo;
+    -	**Atividade (Requisição/Incidente)**: informar o serviço caso deseje verificar os tickets referentes ao mesmo;
 
-    -	Considerar Hierarquia: marcar este campo caso queira considerar a hierarquia do serviço;
+    -	**Considerar Hierarquia**: marcar este campo caso queira considerar a hierarquia do serviço;
 
-    -	Item de Configuração: informar o item de configuração para verificar os tickets relacionados ao mesmo;
+    -	**Item de Configuração**: informar o item de configuração para verificar os tickets relacionados ao mesmo;
 
-    -	Situação: informar a situação para verificar os tickets referentes;
+    -	**Situação**: informar a situação para verificar os tickets referentes;
 
-    -	Prioridade: informar a prioridade para verificar os tickets referentes;
+    -	**Prioridade**: informar a prioridade para verificar os tickets referentes;
 
-    -	Grupo executor/solucionador: informar o grupo executor para verificar os tickets que foram direcionados ao mesmo;
+    -	**Grupo executor/solucionador**: informar o grupo executor para verificar os tickets que foram direcionados ao mesmo;
 
-    -	Fase: informar a fase do ticket para verificar os tickets que se encontram na determinada fase;
+    -	**Fase**: informar a fase do ticket para verificar os tickets que se encontram na determinada fase;
 
-    -	Origem: informar a origem do contato do ticket para verificar os tickets relacionados;
+    -	**Origem**: informar a origem do contato do ticket para verificar os tickets relacionados;
 
-    -	Unidade: informar a unidade desejada para verificar os tickets relacionados a mesma;
+    -	**Unidade**: informar a unidade desejada para verificar os tickets relacionados a mesma;
 
     !!! note "NOTA"
 
         Caso o parâmetro “61 – Vincula contratos a unidade” esteja habilitado, serão disponibilizadas somente as unidades vinculadas ao contrato ao qual tem vínculo com os grupos em que pertence.
 
-    -	Localidade: informar a localidade para verificar os tickets relacionados ao mesmo;
+    -	**Localidade**: informar a localidade para verificar os tickets relacionados ao mesmo;
 
-    -	Palavra-chave: informar a palavra-chave para verificar os tickets relacionados ao mesmo;
+    - **Palavra-chave**: informar a palavra-chave para verificar os tickets relacionados ao mesmo;
 
-    -	Solicitante: informar o solicitante de serviços para verificar seus tickets;
+    -	**Solicitante**: informar o solicitante de serviços para verificar seus tickets;
 
-    -	Criado por: informar o responsável que fez o registro de ticket para verificar os tickets que foram registrados pelo mesmo;
+    -	**Criado por**: informar o responsável que fez o registro de ticket para verificar os tickets que foram registrados pelo mesmo;
 
-    -	Responsável Atual: informar o responsável pelo atendimento do ticket para os tickets que foram atendidos pelo mesmo;
+    -	**Responsável Atual**: informar o responsável pelo atendimento do ticket para os tickets que foram atendidos pelo mesmo;
 
-    -	Exibir campo de descrição em relatórios?: marcar este campo caso queira que o conteúdo do campo “Descrição” do ticketseja exibido no relatório;
+    -	**Exibir campo de descrição em relatórios?**: marcar este campo caso queira que o conteúdo do campo “Descrição” do ticketseja exibido no relatório;
 
     !!! info "IMPORTANTE"
 
@@ -1578,13 +1575,13 @@ Pesquisa avançada
 
 4.	O sistema exporta o resultado no formato desejado, com os seguintes campos:
 
-    -	ID Solicitação Serviço: número do ticket aberto;
+    -	**ID Solicitação Serviço**: número do ticket aberto;
 
-    -	Serviço: descrição do Serviço de Negócio;
+    -	**Serviço**: descrição do Serviço de Negócio;
 
-    -	Atividade (Requisição/Incidente): descrição da atividade;
+    -	**Atividade (Requisição/Incidente)**: descrição da atividade;
 
-    -	Tipo: destinação do ticket:
+    -	**Tipo**: destinação do ticket:
 
         - Requisição;
 
@@ -1592,58 +1589,58 @@ Pesquisa avançada
 
         - Procedimento.
 
-    -	Solicitante: nome do usuário que solicitou a atividade;
+    -	**Solicitante**: nome do usuário que solicitou a atividade;
 
-    -	Criador: nome do usuário que criou o ticket;
+    -	**Criador**: nome do usuário que criou o ticket;
 
-    -	Data/hora abertura: data e hora em que ticket foi aberto;
+    -	**Data/hora abertura**: data e hora em que ticket foi aberto;
 
     !!! note "NOTA"
 
         Os três campos seguintes somente aparecerão se possuir uma atividade que possua SLA de captura cadastrado e aberto no sistema.
 
-    -	Data/Hora de captura: data e hora em que o analista realizou a primeira da captura para atendimento do chamado;
+    -	**Data/Hora de captura**: data e hora em que o analista realizou a primeira da captura para atendimento do chamado;
 
-    -	Tempo captura: prazo decorrido entre a data/hora de abertura do chamado e a data/hora da 1ª captura;
+    -	**Tempo captura**: prazo decorrido entre a data/hora de abertura do chamado e a data/hora da 1ª captura;
 
-    -	Prazo de captura (SLA): tempo em horas ou minutos inserido no cadastro de tempo de atendimento para captura do chamado;
+    -	**Prazo de captura (SLA)**: tempo em horas ou minutos inserido no cadastro de tempo de atendimento para captura do chamado;
 
-    -	Tempo atendimento: tempo gasto entre a data hora encerramento e a data e hora de abertura dentro do calendário;
+    -	**Tempo atendimento**: tempo gasto entre a data hora encerramento e a data e hora de abertura dentro do calendário;
 
     !!! info "IMPORTANTE" 
 
          No caso do SLA ter se excedido o tempo de atendimento, o sistema contará da abertura do chamado até o encerramento e desconsiderará o calendário.
 
 
-    -	Descrição: o que foi solicitado na atividade;
+    -	**Descrição**: o que foi solicitado na atividade;
 
-    -	Solução/resposta: o que o técnico descreveu como resposta ao ticket pedido;
+    -	**Solução/resposta**: o que o técnico descreveu como resposta ao ticket pedido;
 
-    -	Situação: status do ticket;
+    -	**Situação**: status do ticket;
 
-    -	Data/Hora limite: tempo estabelecido no acordo de nível de serviço;
+    -	**Data/Hora limite**: tempo estabelecido no acordo de nível de serviço;
 
-    -	Grupo: grupo que está responsável ou encerrou o atendimento;
+    -	**Grupo**: grupo que está responsável ou encerrou o atendimento;
 
-    -	Data/hora encerramento: caso exista, retorna a data e a hora que o ticket foi colocado como resolvido ou fechado;
+    -	**Data/hora encerramento**: caso exista, retorna a data e a hora que o ticket foi colocado como resolvido ou fechado;
 
-    -	Responsável Atual: nome do técnico que está atuando no ticket ou nome do técnico que encerrou o ticket.
+    -	**Responsável Atual**: nome do técnico que está atuando no ticket ou nome do técnico que encerrou o ticket.
 
-    -	Origem do Contato: canal de atendimento por onde se iniciou o ticket (ex: Telefone, Internet, e-mail etc);
+    -	**Origem do Contato**: canal de atendimento por onde se iniciou o ticket (ex: Telefone, Internet, e-mail etc);
 
-    -	Data e hora da suspensão: data e hora da última suspensão;
+    - **Data e hora da suspensão**: data e hora da última suspensão;
 
         - Pré condição: o ticket deverá ter sido suspenso, caso contrário não existe informação nesse campo;
   
         - Um ticket pode possuir várias suspensões ao longo do seu ciclo de vida, por isso, esse campo retornará somente dados da última suspensão;
 
-    -	Data e hora da reativação: data e hora da última reativação;
+    -	**Data e hora da reativação**: data e hora da última reativação;
 
         - Pré condição: o ticket deverá estar suspenso, caso contrário não existe informação nesse campo;
   
         - Um ticket pode possuir várias reativações ao longo do seu ciclo de vida, por isso, esse campo retornará somente dados da última reativação;
 
-    -	Impacto: reflete o nível impelido no ticket,
+    -	**Impacto**: reflete o nível impelido no ticket,
 
         - Os impactos podem variar caso o parâmetro 104 - Calcular a prioridade do ticket dinamicamente usando a fórmula cadastrada. (Ex: S ou N - Default: 'N') esteja ativo;
 
@@ -1651,7 +1648,7 @@ Pesquisa avançada
 
         - Os impactos podem ser: Altíssimo, Alto, Elevado, Médio, Baixo (com o parâmetro 104);
 
-    -	Urgência: reflete o quanto para o usuário o ticket aberto precisa de tratamento imediato;
+    -	**Urgência**: reflete o quanto para o usuário o ticket aberto precisa de tratamento imediato;
 
         - A urgência também pode sofrer variação do parâmetro 104;
 
@@ -1659,53 +1656,53 @@ Pesquisa avançada
 
         - As urgências podem ser: crítica, alta, média ou baixa (com o parâmetro 104);
       
-    -	Causa: motivos que ocasionaram o reporte do ticket;
+    -	**Causa**: motivos que ocasionaram o reporte do ticket;
 
-    -	Detalhamento da Causa: descrição detalhada sobre o que ocasionou o reporte do ticket;
+    -	**Detalhamento da Causa**: descrição detalhada sobre o que ocasionou o reporte do ticket;
 
-    -	Categoria da Solução: descrição da Solução dada ao encerrar um ticket.
+    -	**Categoria da Solução**: descrição da Solução dada ao encerrar um ticket.
 
-    -	Contrato: retorna o número do contrato que gerou o ticket;
+    -	**Contrato**: retorna o número do contrato que gerou o ticket;
 
-    -	SLA: tempo de atendimento para a atividade aberta, conforme contrato;
+    -	**SLA**: tempo de atendimento para a atividade aberta, conforme contrato;
 
-    -	Prioridade: obtido pelo fator Impacto X Urgência, a prioridade é representada em termos numéricos de 1 a 5 e é um limiar contido ao cadastrar o Tempo de Atendimento;
+    -	**Prioridade**: obtido pelo fator Impacto X Urgência, a prioridade é representada em termos numéricos de 1 a 5 e é um limiar contido ao cadastrar o Tempo de Atendimento;
 
-    -	Tempo de atraso do SLA: prazo em HH:MM que o SLA está fora do prazo estabelecido para atendimento;
+    -	**Tempo de atraso do SLA**: prazo em HH:MM que o SLA está fora do prazo estabelecido para atendimento;
   
          -	o SLA fora do prazo é contado pela subtração entre o tempo de atendimento e tempo total de atendimento, lembrando que se o SLA estiver fora do prazo, o sistema desconsidera o calendário;
 
-    -	Dentro SLA?: informa se o prazo de atendimento ficou dentro ou fora do acordo de nível de serviço (SLA)
+    -	**Dentro SLA?**: informa se o prazo de atendimento ficou dentro ou fora do acordo de nível de serviço (SLA)
 
          -	Valores possíveis: Sim ou Não;
 
-    -	Localidade: local para onde foi aberta o ticket;
+    -	**Localidade**: local para onde foi aberta o ticket;
 
-    -	Lista IC: lista dos Itens de Configuração vinculados ao ticket;
+    -	**Lista IC**: lista dos Itens de Configuração vinculados ao ticket;
 
-    -	Telefone do solicitante: número do telefone de contato do solicitante:
-
-         -	Esse campo pode ser alterado no momento do cadastro do ticket;
-
-    -	Ramal do solicitante: número do ramal do solicitante;
-
-    -	E-mail do solicitante: informação sobre o endereço de e-mail do solicitante;
+    -	**Telefone do solicitante**: número do telefone de contato do solicitante:
 
          -	Esse campo pode ser alterado no momento do cadastro do ticket;
 
-    -	Unidade: órgão ao qual pertence o solicitante;
+    -	**Ramal do solicitante**: número do ramal do solicitante;
 
-    -	Justificativa de SLA vencido: descrição do motivo pelo qual o tempo de atendimento não foi suficiente;
+    -	**E-mail do solicitante**: informação sobre o endereço de e-mail do solicitante;
+
+         -	Esse campo pode ser alterado no momento do cadastro do ticket;
+
+    -	**Unidade**: órgão ao qual pertence o solicitante;
+
+    -	**Justificativa de SLA vencido**: descrição do motivo pelo qual o tempo de atendimento não foi suficiente;
 
          -	Caso o tempo de atendimento tenha se excedido, esse campo é de preenchimento obrigatório;
 
-    -	Tipo de catálogo: negócio/técnico;
+    -	**Tipo de catálogo**: negócio/técnico;
 
-    -	Solicitação Pai (Sub-Solicitação): número do ticket pai do sub- ticket;
+    -	**Solicitação Pai (Sub-Solicitação)**: número do ticket pai do sub- ticket;
 
-    -	Solicitação Pai (Relacionada): número do ticket pai do ticket relacionado que teve os dados descritos;
+    -	**Solicitação Pai (Relacionada)**: número do ticket pai do ticket relacionado que teve os dados descritos;
 
-    -	Quantidade de anexos: número de anexos que possui o ticket;
+    -	**Quantidade de anexos**: número de anexos que possui o ticket;
 
          -	Essa quantidade pode ser incrementada ou decrementada durante o ciclo de vida do ticket, portanto ele deve refletir a quantidade no momento em que se imprime o relatório.
 
