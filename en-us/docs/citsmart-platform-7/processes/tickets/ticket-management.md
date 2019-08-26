@@ -2234,10 +2234,10 @@ Advanced search
     The following three fields will only appear if you have an activity that
     has a registered SLA that has been registered and opened in the system.
 
-   -   **Date/Time of capture:** date and time when the analyst performed the first
+   -   **Date/Time of capture**: date and time when the analyst performed the first
     of the capture to attend the call;
 
-   -   **Time capture:** time elapsed between the date/time the call was opened and
+   -   **Time capture**: time elapsed between the date/time the call was opened and
     the date/time of the first capture;
 
    -   **Deadline capture (SLA)**: time in hours or minutes inserted in the call
@@ -2280,7 +2280,7 @@ Advanced search
        -   a ticket may have multiple suspensions throughout its lifecycle, so this
         field will only return data from the last suspend.
 
-   -   **Date and time of reactivation: **date and time of last reactivation:
+   -   **Date and time of reactivation**: date and time of last reactivation:
 
        -   precondition: The ticket should be suspended, otherwise there is no
         information in this field;
@@ -2310,7 +2310,7 @@ Advanced search
 
    -  **Cause**: reasons that caused the ticket report;
 
-   -  **Detail of the Cause **: detailed description of what caused the ticket
+   -  **Detail of the Cause**: detailed description of what caused the ticket
     report;
 
    -  **Contract**: Returns the contract number that generated the ticket;
@@ -2335,23 +2335,23 @@ Advanced search
 
        -  Possible values: Yes or No;
 
-   -  **Locality:** where the ticket was opened;
+   -  **Locality**: where the ticket was opened;
 
-   -  **Main IC:** list of Configuration Items linked to the ticket;
+   -  **Main IC**: list of Configuration Items linked to the ticket;
 
-   -  **Applicant's telephone number:** applicant's telephone number:
+   -  **Applicant's telephone number**: applicant's telephone number:
 
        -  This field can be changed at the time of registration of the ticket;
 
    -  **Applicant's extension**: applicant's extension number;
 
-   -  **Applicant's e-mail:** information about the applicant's e-mail address;
+   -  **Applicant's e-mail**: information about the applicant's e-mail address;
 
        -  This field can be changed at the time of registration of the ticket;
 
    -  **Unit**: locality to which the applicant belongs;
 
-   -  **SLA overdue justification:** description of reason why service time was
+   -  **SLA overdue justification**: description of reason why service time was
     not sufficient;
 
        -  If the service time has been exceeded, this field is mandatory;
@@ -2360,7 +2360,7 @@ Advanced search
 
    -  **Request Parent (Sub-Request)**: subscriber's parent ticket number;
 
-   -  **Request Parent: The service **ticket parent number of the related ticket
+   -  **Request Parent**: The service ticket parent number of the related ticket
     that had the data described;
 
    -  **Solution Category**: solution description given when you terminate a
