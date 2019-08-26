@@ -25,8 +25,8 @@ configuration item related to a configuration item).
 How to access
 --------------
 
-1. Access the Configuration Item Management feature by navigating through the main menu **ITIL Processes > Configuration Management 
-> Configuration Management**.
+1. Access the Configuration Item Management feature by navigating through the main menu 
+**ITIL Processes > Configuration Management > Configuration Management**.
 
 Configuration item management
 ----------------------------------------
