@@ -1363,7 +1363,7 @@ Suspension and reactivation of multiple ticket
 
 ### Reactivating multiple suspended ticket
 
-1.  On the **Request/Incident Management** screen, click on the ![figure](images/management-1.png) icon and
+1.  On the **Request/Incident Management** screen, click on the ![figure](images/management-51.png) icon and
     on *Suspension/Reactivation*, as indicated on the image below:
 
    ![figure](images/management-54.png)
