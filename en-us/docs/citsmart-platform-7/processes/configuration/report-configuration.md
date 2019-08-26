@@ -21,7 +21,7 @@ locate the desired items as shown in the figure below:
     - Software;
     - Find duplicated keys
     
-2. The Office Package Configuration Report Generation screen will be displayed, as shown in the following figure:
+2. The **Office Package Configuration Report Generation** screen will be displayed, as shown in the following figure:
     
     ![Item](images/report.img1.jpg)
     
