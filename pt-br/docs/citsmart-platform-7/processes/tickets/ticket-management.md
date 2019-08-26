@@ -202,6 +202,7 @@ Cadastro de ticket
 
       -	**Solicitante**: informe o nome do solicitante, ou seja, o nome da pessoa que está solicitando a abertura do ticket;
 
+    
     !!! warning "ATENÇÃO"
     
         Ao informar o solicitante é mostrado um resumo estatístico dos chamados dele (por situação), 
@@ -209,26 +210,29 @@ Cadastro de ticket
         Por uma questão de desempenho e de preservação do layout da tela, esses dois resumos são paginados, ou seja, é 
         possível avançar/retroceder para visualizar todas as informações.
 
+
       
-      -	**Telefone**: informe o número de telefone do solicitante;
+     -	**Telefone**: informe o número de telefone do solicitante;
 
-      -	**Ramal**: informe o número do ramal do solicitante, caso o tenha;
+     -	**Ramal**: informe o número do ramal do solicitante, caso o tenha;
 
-      -	**E-mail**: informe o e-mail do solicitante;
+     -	**E-mail**: informe o e-mail do solicitante;
 
-      -	**Origem do contato**: informe a origem do contato para registro do ticket;
+     -	**Origem do contato**: informe a origem do contato para registro do ticket;
 
-      -	**Unidade**: selecione a unidade na qual o solicitante está lotado;
+     -	**Unidade**: selecione a unidade na qual o solicitante está lotado;
 
-      -	**Localidade Física**: informe a localização do solicitante;
+     -	**Localidade Física**: informe a localização do solicitante;
 
-      -	**Outras Informações**: descreva as observações sobre o solicitante, se achar necessário.
+     -	**Outras Informações**: descreva as observações sobre o solicitante, se achar necessário.
+     
 
     !!! warning " ATENÇÃO"
 
         Caso exista questionário (Satisfação) vinculado a atividade, o solicitante responderá através do e-mail automático
         de pesquisa de satisfação.
 
+    
     b)	Registre as informações do ticket:
 
     - **Catálogo**: selecione o catálogo de serviços;
