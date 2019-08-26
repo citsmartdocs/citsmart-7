@@ -254,7 +254,7 @@ Cadastro de ticket
 
     !!! warning "ATENÇÃO"
     
-        Após informar a atividade do ticket, será estabelecido o tempo previsto para seu atendimento, conforme configurado no registro do tempo de atendimento vinculado à atividade. O tempo de atendimento será contabilizado de acordo com o que foi definido no calendário vinculado à unidade, mas caso a unidade não tenha um calendário vinculado, será contabilizado de acordo com o calendário vinculado ao serviço. Porém, ao encerrar o tempo previsto de atendimento é contabilizado o atraso em tempo corrido, sendo desconsiderado o calendário.
+        Após informar a atividade do ticket, será estabelecido o tempo previsto para seu atendimento, conforme configurado no               registro do tempo de atendimento vinculado à atividade. O tempo de atendimento será contabilizado de acordo com o que foi           definido no calendário vinculado à unidade, mas caso a unidade não tenha um calendário vinculado, será contabilizado de             acordo com o calendário vinculado ao serviço. Porém, ao encerrar o tempo previsto de atendimento é contabilizado o atraso em         tempo corrido, sendo desconsiderado o calendário.
 
     - **Título**: informe o título do ticket;
 
