@@ -1536,7 +1536,7 @@ Sub-request creation and visualization
 
 3.  Fill in the fields with the applicant's information:
 
-   -   **Applicant Name: **enter the name of the applicant, that is, the name of
+   -   **Applicant Name**: enter the name of the applicant, that is, the name of
     the person requesting the service for the ticket;
 
    !!! note "NOTE"
