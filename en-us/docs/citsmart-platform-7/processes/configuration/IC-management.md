@@ -1,770 +1,761 @@
-title: Gerenciamento de itens de configuração
-Description: Esta funcionalidade permite identificar, registrar e gerenciar os Itens de Configuração presentes na organização.
-# Gerenciamento de itens de configuração
+title: Configuration item management
+Description: This functionality allows you to identify, register, and manage the Configuration Items in your organization.
+# Configuration item management
 
-Esta funcionalidade permite identificar, registrar e gerenciar os Itens de Configuração presentes na organização.
+This functionality allows you to identify, register, and manage the Configuration Items in your organization.
 
-Pré-condições
+Preconditions
 --------------
 
-1. Cadastrar Acordo de Nível de Serviço (Geral) do tipo "Disponibilidade" (ver conhecimento [Cadastro e pesquisa de acordo
-de nível de serviço geral](/pt-br/citsmart-platform-7/processes/service-level/register-sla.html));
+1. Enter Service Level Agreement (General) of type "Availability" (see knowledge [General service level agreement registration and search](/en-us/citsmart-platform-7/processes/service-level/register-sla.html));
 
-2. Cadastrar localidade (ver conhecimento [Cadastro e pesquisa de localidade](/pt-br/citsmart-platform-7/plataform-administration/region-and-language/register-locations.html));
+2. Enter locality (see knowledge [Location registration and search]);(/en-us/citsmart-platform-7/plataform-administration/region-and-language/register-locations.html));
 
-3. Cadastrar colaborador (ver conhecimento [Cadastro e pesquisa de colaborador](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html));
+3. Register employee (see knowledge [Staff registration and search](/en-us/citsmart-platform-7/initial-settings/access-settings/user/employee.html));
 
-4. Cadastrar grupo (ver conhecimento [Cadastro e pesquisa de grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html));
+4. Group membership (see knowledge [Group registration and search])(/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html));
 
-5. Cadastrar contrato (ver conhecimento [Cadastro e pesquisa de contrato](/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html));
+5. Register contract (see knowledge [Contract registration and search](/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract.html));
 
-6. Cadastrar tipo de Item de Configuração (ver conhecimento [Cadastro e pesquisa de tipo de item de configuração](/pt-br/citsmart-platform-7/processes/configuration/IC-type.html));
+6. Enter Configuration Item type (see knowledge [Configuration item type registration and search](/en-us/citsmart-platform-7/processes/configuration/IC-type.html));
 
-7. Cadastrar ao menos um Item de Configuração principal caso necessite criar outro Item de Configuração relacionado (ver seção 
-"Registrando item de configuração relacionado a um item de configuração").
+7. Register at least one Main Configuration Item if you need to create another related Configuration Item (see section "Registering 
+configuration item related to a configuration item).
 
-Como acessar
+How to access
 --------------
 
-1. Acesse a funcionalidade de Gerenciamento de Item de Configuração através da navegação no menu principal 
-**Processos ITIL > Gerência de Configuração > Gerenciamento de Configuração**.
+1. Access the Configuration Item Management feature by navigating through the main menu **ITIL Processes > Configuration Management 
+> Configuration Management**.
 
-Gerenciamento de itens de configuração
+Configuration item management
 ----------------------------------------
 
-1. Será apresentada a tela de **Gerenciamento de Item de Configuração**, conforme ilustrada na figura abaixo:
+1. The Configuration Item Management screen will be displayed, as shown in the figure below:
 
-    ![Gerenciamento](images/geren-IC.img1.png)
+    ![Management](images/management.img1.jpg)
     
-    **Figura 1 - Tela de gerenciamento de itens de configuração**
+    **Figure 1 - Configuration items management screen**
     
-    ![simbolo](images/num1.png) ![simbolo](images/simb-ampl.png): amplia a tela de Gerenciamento de Itens de Configuração;
+    ![symbol](images/1.png) ![symbol](images/simb-expend.jpg): expands the Configuration Items Management screen;
     
-    ![simbolo](images/num2.png) ![simbolo](images/simb-dash.png): permite visualizar o status de execução do inventário;
+    ![symbol](images/2.png) ![symbol](images/simb-inventory.jpg): allows you to view the inventory execution status;
     
-    ![simbolo](images/num3.png) **Dashboard**: apresenta os itens de configurações relacionados aos processos de Incidente,
-    Problema, Mudança e Liberação;
+    ![symbol](images/3.png) **Dashboard**: displays the configuration items related to the Incident, Problem, Change, and Release 
+    processes;
     
-    ![Número](images/num4.png) **Relatórios**: apresenta os relatórios dinâmicos referentes ao Gerenciamento de Configuração 
-    e Ativos de Serviços;
+    ![number](images/4.png) **Reports**: displays the dynamic reports for Configuration Management and Service Assets;
     
-    ![Número](images/num5.png) **Filtros**: apresenta os demais filtros para pesquisa dos Itens de Configuração;
+    ![number](images/5.png) **Filters**: presents the other filters for searching the Configuration Items;
     
-    ![Número](images/num6.png) **Ações**: permite registrar novo Item de Configuração, criar, alterar e excluir grupo de Item
-    de Configuração, vincular calendário, acordo de nível de serviço e custo por hora de indisponibilidade ao grupo de Item
-    de Configuração, e exportar CMDB;
+    ![number](images/6.png) **Actions**: allows you to register new Configuration Item, create, change, and delete Configuration 
+    Item group, calendar link, service level agreement, and cost per hour of downtime to the Configuration Item group, and export 
+    CMDB;
     
-    ![Número](images/num7.png) **Banco de Dados de Gerenciamento de Configuração**: repositório usado para armazenar os registros
-    de Itens de Configuração organizados em grupos.
+    ![number](images/7.png) **Database Configuration Management**: repository used to store the records of Configuration Items 
+    organized into groups.
     
-2. Nesta tela de **Gerenciamento de Itens de Configuração**, é possível criar um novo grupo de IC, registrar um novo item de 
-configuração, consultar os itens de configuração (IC) existentes, e ao selecionar um item de configuração existente também é 
-possível editar suas informações, criar itens relacionado, consultar os itens relacionados e entre outras ações. Nos próximos
-tópicos será abordado sobre como realizar essas ações.
+2. In this **Configuration Items Management** screen, you can create a new CI group, register a new configuration item, consult the 
+existing configuration items (IC), and select an existing configuration item and you can also edit its information, create related 
+items, check related items, and other actions. In the next topics will be discussed on how to carry out these actions.
 
-Criando um novo grupo de item de configuração
+Creating a new configuration item group
 -----------------------------------------------
 
-!!! abstract "SAIBA MAIS"
+!!! abstract "KNOW MORE"
 
-    Existe uma outra maneira para se cadastrar e pesquisar um Grupo de Item de Configuração apresentado no conhecimento "Cadastro
-    e pesquisa de grupo de item de configuração".
+    There is another way to register and search a Configuration Item Group presented in knowledge Configuration item group 
+    registration and search.".
     
-1. Na tela de **Gerenciamento de Itens de Configuração**, em **Ações**, clique no botão "Criar novo grupo":
+1. On the Configuration Items Management screen, under **Action**, click the *Create New Group* button;
 
-    ![Botão](images/geren-IC.img2.png)
+    ![Button](images/management.img2.jpg)
     
-    **Figura 2 - Botão criar novo grupo**
+    **Figure 2 - Create new group button**
     
-2. Será apresentada a tela de cadastro de grupo de item de configuração, conforme ilustrada na figura abaixo:
+2. The configuration item group registration screen will be displayed, as shown in the figure below:
 
-    ![Registro](images/geren-IC.img3.png)
+    ![Registration](images/management.img3.jpg)
     
-    **Figura 3 - Registro de grupo de item de configuração**
+    **Figure 3 - Configuration item group registration**
     
-    - **Nome**: informe o nome do novo grupo de IC;
-    - **Grupo pai**: informe o grupo pai, ou seja, grupo superior ao qual o grupo que está sendo criado faz parte;
-    - **Ícone**: selecione um ícone para representar o novo grupo de IC;
-    - **Cor de fundo**: essa função permite definir a cor de fundo do grupo de IC. Para selecionar uma cor, basta posicionar 
-    o mouse na cor desejada e clicar na mesma;
-    - **Cor do Ícone/Texto**: essa função permite definir a cor do ícone e do texto do grupo de IC. Para selecionar uma cor, 
-    basta posicionar o mouse na cor desejada e clicar na mesma;
-    - Feito isso, clique no botão "Gravar" para efetuar o registro. A figura abaixa apresenta os grupos de ICs depois de criados:
+    - **Name**: enter the name of the new CI group;
+    - **Parent group**: inform the parent group, that is, the upper group to which the group being created is part;
+    - **Icon**: select an icon to represent the new CI group;
+    - **Background Color**: this function allows you to set the background color of the CI group. To select a color, simply position 
+    the mouse on the desired color and click on it;
+    - **Icon/Text Color**: this function allows you to set the color of the CI group icon and text. To select a color, simply 
+    position the mouse on the desired color and click on it;
+    - Once this is done, click the *Save* button to register.
     
-    ![Grupos](images/geren-IC.img4.png)
+    ![Groups](images/management.img4.jpg)
     
-    **Figura 4 - Grupos de itens de configuração**
+    **Figure 4 - Configuration item groups**
     
-Alterando grupo de item de configuração
+Changing configuration item group
 -----------------------------------------
 
-1. Clique no grupo desejado e na área de **Ações**, clique no botão "Alterar grupo";
+1. Click the desired group and in the **Actions** area, click the *Change group* button;
 
-    ![Botão](images/geren-IC.img5.png)
+    ![Button](images/management.img5.jpg)
     
-    **Figura 5 - Botão alterar grupo**
+    **Figure 5 - Change group button**
     
-2. Será exibida a tela de registro do determinado grupo de IC;
+2. The registration screen of the selected CI group will be displayed;
 
-3. Altere os dados do grupo e clique em "Gravar" para efetuar a alteração, onde a data, hora e usuário serão gravados 
-automaticamente para uma futura auditoria.
+3. Change the group's data and click *Save* to make the change, where the date, time and user will be saved automatically for a 
+future audit.
 
-Excluindo grupo de item de configuração
+Deleting configuration item group
 -----------------------------------------
 
-!!! info "IMPORTANTE"
+!!! info "IMPORTANT"
 
-    Somente pode ser excluído o grupo que não item relacionados (grupos e/ou itens de configuração).
+     You can only delete the group that does not item related (groups and/or configuration items).
     
-1. Clique no grupo desejado e na área de **Ações** clique no botão "Excluir grupo";
+1. Click the desired group and in the **Action** area click the *Remove group* button;
 
-    ![Excluir](images/geren-IC.img6.png)
+    ![Delete](images/management.img6.jpg)
     
-    **Figura 6 - Botão excluir grupo**
+    **Figure 6 - Delete group button**
     
-2. Será exibida uma mensagem para confirmação da exclusão do grupo;
+2. Click *do you confirm?* button to perform the operation;
 
 3. Clique em "Confirmar" para efetuar a operação;
 
-4. Será realizada com sucesso a exclusão do grupo de IC.
+4. The exclusion of the CI group will be successfully performed.
 
-Vinculando calendário ao grupo de IC's
+Linking calendar to the CI Group
 ----------------------------------------
 
-1. Na tela de **Gerenciamento de Itens de Configuração**, selecione o Grupo que deseja vincular o calendário. Feito isso,
-em **Ações**, clique no botão "Vincular calendário", conforme indicado na figura abaixo:
+1. On the **Configuration Item Management** screen, select the Group you want to link the calendar to. Once done, under **Action**, 
+click the *Link Calendar* button, as indicated in the figure below:
 
-    ![Vincular](images/geren-IC.img7.png)
+    ![Linking](images/management.img7.jpg)
     
-    **Figura 7 - Botão Vincular Calendário**
+    **Figure 7 - Calendar link button**
     
-2. Será apresentada a tela para vínculo do calendário, conforme ilustrada na figura abaixo:
+2. The calendar link screen will be displayed, as shown in the figure below:
 
-    ![Vínculo](images/geren-IC.img8.png)
+    ![Link](images/management.img8.jpg)
     
-    **Figura 8 - Tela de vínculo de calendário**
+    **Figure 8 - Calendar link screen**
     
-3. Pesquise e selecione o calendário que deseja vincular e após isso, clique no botão "Adicionar" para efetuar o vínculo
-do calendário com o Grupo de ICs.
+3. Browse and select the calendar you want to link, and then click the *Add* button to link the calendar with the CI Group.
 
-Vinculando acordo de nível de serviço ao grupo de IC's
+Linking service level agreement to the CI Group
 --------------------------------------------------------
 
-1. Na tela de **Gerenciamento de Itens de Configuração**, selecione o **Grupo** que deseja vincular o acordo de nível de serviço. 
-Feito isso, em **Ações**, clique no botão "Vincular acordo de nível de serviço", conforme indicado na figura abaixo:
+1. On the **Configuration Item Management** screen, select the Group that you want to link the service level agreement to. Once 
+done, under **Action**, click the *Link SLA* button, as shown in the figure below:
 
-    ![Acordo](images/geren-IC.img9.png)
+    ![Agreement](images/management.img9.jpg)
     
-    **Figura 9 - Botão vincular acordo de nível de serviço**
+    **Figure 9 - Link service level agreement button**
     
-2. Será apresentada a tela para vínculo do acordo de nível de serviço do tipo "disponibilidade", conforme ilustrada na figura 
-abaixo:
+2. The screen for linking the service level agreement of type "availability" will be displayed, as shown in the figure below:
 
-    ![Vínculo](images/geren-IC.img10.png)
+    ![Link](images/management.img10.jpg)
     
-    **Figura 10 - Tela de vínculo de ANS**
+    **Figure 10 - SLA link screen**
     
-3. Pesquise e selecione o acordo de nível de serviço que deseja vincular e após isso, clique no botão "Adicionar" para efetuar 
-o vínculo do acordo de nível de serviço com o Grupo de ICs.
+3. Browse and select the service level agreement that you want to link, and then click the *Add* button to link the service level 
+agreement with the CI Group.
 
-Registrando custo por hora de indisponibilidade do grupo de IC's
+Registering cost per hour of downtime of the CI Group
 ------------------------------------------------------------------
 
-1. Na tela de **Gerenciamento de Itens de Configuração**, selecione o Grupo desejado. Feito isso, em **Ações**, clique no botão 
-"Custo por hora de indisponibilidade", conforme indicado na figura abaixo:
+1. On the Configuration Item Management screen, select the desired Group. Once this is done, under **Action**, click the *Cost per 
+hour downtime* button, as indicated in the figure below:
 
-    ![Custo](images/geren-IC.img11.png)
+    ![Cost](images/management.img11.jpg)
     
-    **Figura 11 - Botão custo**
+    **Figure 11 - Cost button**
     
-2. Será apresentada a tela de registro do custo por hora de indisponibilidade, conforme ilustrada na figura abaixo:
+2. The cost-per-hour downtime screen will be displayed, as shown in the figure below:
 
-    ![Registrar](images/geren-IC.img12.png)
+    ![Register](images/management.img12.jpg)
     
-    **Figura 12 - Registro de custo por hora de indisponibilidade**
+    **Figure 12 - Recording of cost per hour of downtime**
     
-3. Informe o valor da hora de indisponibilidade do grupo de ICs. Após isso, clique no botão "Adicionar" para efetuar o registro.
+3. Enter the value of the CI group downtime. After that, click the Add button to register.
 
-Registrando um novo item de configuração
+Registering a new configuration item
 ------------------------------------------
 
-1. Na tela de **Gerenciamento de Itens de Configuração**, em **Ações**, clique no botão "Criar novo item de configuração";
+1. On the **Configuration Item Management** screen, under **Action**, click the *Create New CI* button;
 
-    ![Novo](images/geren-IC.img13.png)
+    ![New](images/management.img13.jpg)
     
-    **Figura 13 - Botão criar novo item de configuração**
+    **Figure 13 - Create new configuration item button**
     
-2. É apresentada a tela **Cadastro de Item de Configuração**, conforme ilustrada na figura abaixo:
+2. The **Configuration Item Master Data** screen is displayed, as shown in the figure below:
 
-    ![Registro](images/geren-IC.img14.png)
+    ![Registration](images/management.img14.jpg)
     
-    **Figura 14 - Tela de registro de item de configuração (IC)**
+    **Figure 14 - Configuration item registration (IC) screen**
     
-3. Preencha os campos conforme orientações abaixo:
+3. Fill in the fields as directed below:
 
-    - **Identificação**: informe a identificação do novo item de configuração;
-    - **Nome**: informe o nome do novo item de configuração;
-    - **Contrato**: selecione o contrato ao qual o item de configuração pertence;
-    - **Família**: informe a família a qual o item de configuração pertence;
-    - **Classe**: informe o nome da classe do item de configuração;
-    - **Versão**: informe a versão do item de configuração;
-    - **Número Série**: informe o número de série do item de configuração;
-    - **Unidade**: informe a unidade de negócio/departamento/lotação em que o item de configuração está alocado;
-    - **Localidade**: informe o local onde o item de configuração se encontra;
-    - **Data Expiração**: informe a data de expiração da licença do item de configuração;
-    - **Mídia**: informe a mídia definitiva (local em que as versões definitivas e autorizadas de ICs de “softwares” são 
-    armazenadas de maneira segura) do IC, se for necessário. Caso queira limpar o dado informado no campo, clique
-    no ícone ![simbolo](images/simb-fech-cin.png);
-    - **Tipo Item Configuração**: informe o tipo de item de configuração;
+    - **Identification**: inform the identification of the new configuration item;
+    - **Name**: enter the name of the new configuration item;
+    - **Contract**: select the contract to which the configuration item belongs;
+    - **Family**: inform the family to which the configuration item belongs;
+    - **Class**: enter the class name of the configuration item;
+    - **Version**: enter the version of the configuration item;
+    - **Serial Number**: enter the serial number of the configuration item;
+    - **Unit**: enter the business unit/department/stock in which the configuration item is allocated;
+    - **Location**: enter the location where the configuration item is located;
+    - **Expiration Date**: enter the expiration date of the configuration item license;
+    - **Media**: inform the definitive media (where the definite and authorized versions of software CIs are securely stored) of the 
+    CI, if necessary. If you want to clear the data entered in the field, click on the icon ![simbolo](images/simb-close.grey.jpg);
+    - **CI Type**: enter the type of configuration item;
 
-    !!! abstract "SAIBA MAIS"
+    !!! abstract "KNOW MORE"
     
-        Ao ser informado o tipo de item de configuração, serão exibidas as características relacionadas na guia de 
-        características, onde poderá ser registrado o valor para cada característica.
+        When the configuration item type is informed, the characteristics listed in the characteristics tab will be displayed, where 
+        the value for each characteristic can be registered.
         
-    - **Status**: selecione o estado do item de configuração;
-    - **Ativo Fixo**: Se o IC for um ativo fixo (ativo de negócio tangível que tem uma vida útil de longa duração, por exemplo, 
-    um servidor ou uma licença de software), informe a identificação do patrimônio do mesmo;
-    - **Criticidade do Serviço**: informe a importância que o IC tem para a organização;
-    - **Impacto**: informe o impacto que causa a ausência do funcionamento do IC dentro do ambiente organizacional;
-    - **Urgência**: informe a urgência do restabelecimento do IC dentro do ambiente organizacional;
-    - **Colaborador**: informe o colaborador que utiliza ou irá utilizar o item de configuração;
-    - **Grupo**: informe o grupo de IC ao qual o IC fará parte;
-        - **Mudanças**: relacione uma mudança ao IC, quando for necessário. Caso queira limpar o dado informado no campo, clique
-        no ícone ![simbolo](images/simb-fech-cin.png);
-        - **Tipo de Responsável**: selecione o tipo de responsável: usuário ou grupo;
-        - **Responsável**: informe o responsável do item de configuração, de acordo com o tipo de responsável. Caso queira 
-        limpar o dado informado no campo, clique no ícone ![simbolo](images/simb-fech-cin.png);
-        - **Item de Configuração Pai**: se o IC que está sendo cadastrado faz parte de outro IC, informe-o. Caso queira limpar 
-        o dado informado no campo, clique no ícone ![simbolo](images/simb-fech-cin.png);
-        - **Custo por hora de indisponibilidade**: informe o valor da hora de indisponibilidade do IC;
-        - **Informações Adicionais**: descreva as demais informações sobre o item de configuração, caso seja importante;
+    - **Status**: select the status of the configuration item;
+    - **Fixed Assets**: if the CI is a fixed asset (tangible business asset that has a long-lived service life, for example, a 
+    server or a software license), inform the asset's identification of the asset;
+    - **Service Criticality**: inform the importance that the CI has for the organization;
+    - **Impact**: report the impact of the lack of operation of the CI within the organizational environment;
+    - **Urgency**: report the urgency of reestablishing the CI within the organizational environment;
+    - **Staff**: inform the employee who uses or will use the configuration item;
+    - **Group**: inform the CI group to which the CI will join;
+    - **Mudanças**: relacione uma mudança ao IC, quando for necessário. Caso queira limpar o dado informado no campo, clique
+    no ícone ![simbolo](images/simb-close.grey.jpg);
+    - **Type of Responsible**: select the type of responsible: user or group;
+    - **Responsible**: inform the person in charge of the configuration item, according to the type of person in charge. If you want 
+    to clear the data entered in the field, click the ![simbolo](images/simb-close.grey.jpg);
+    - **Parent Configuration Item**: if the CI being registered is part of another CI, inform it. If you want to clear the data 
+    entered in the field, click the ![simbolo](images/ssimb-close.grey.jpg);
+    - **Downtime Cost**: inform the value of the time of downtime of the CI;
+    - **Additional Information**: describe the other information about the configuration item, if it is important.
         
-4. Após informar todos os dados, clique no botão "Gravar" para efetuar o registro do Item de Configuração, onde a data, hora e usuário serão gravados automaticamente para uma futura auditoria.
+4. After entering all the data, click the *Save* button to register the Configuration Item, where the date, time and user will be 
+saved automatically for a future audit.
 
-Registrando garantia do item de configuração
+Registering configuration item warranty
 ----------------------------------------------
 
-1. Na tela de **Cadastro de Item de Configuração**, clique na guia **Garantias**, conforme ilustrada na figura abaixo:
+1. On the **Configuration Item Master Data** screen, click the **Warranties** tab, as shown in the figure below:
 
-    ![Registro](images/geren-IC.img15.png)
+    ![Registration](images/management.img15.jpg)
     
-    **Figura 15 - Tela de registro de garantias**
+    **Figure 15 - Warranty registration screen**
     
-2. Clique no botão "Adicionar". Será apresentada a tela de pesquisa de Fornecedor, pesquise e selecione o mesmo e serão apresentados os campos para preenchimento, conforme ilustrado na figura abaixo:
+2. Click the *Add* button. The Supplier search screen will be displayed, search and select it, and fill fields will be displayed, as 
+shown in the figure below:
 
-    ![Registro](images/geren-IC.img16.png)
+    ![Registration](images/management.img16.jpg)
     
-    **Figura 16 - Tela de registro de garantias**
+    **Figure 16 - Warranty registration screen**
     
-    - **Data de início**: informe a data inicial da garantia;
-    - **Data fim**: informe a data final da garantia;
-    - Caso queira excluir a garantia, basta clicar no ícone ![simbolo](images/simb-fech-cin.png) da mesma.
+    - **Start dat**e: enter the start date of the guarantee;
+    - **End date**: please inform the end date of the guarantee;
+    - If you want to exclude the warranty, just click on the warranty icon ![simbolo](images/simb-close.grey.jpg).
     
-3. Após os dados informados, clique no botão "Gravar".
+3. After the data is entered, click the *Save* button.
 
-Consultando os itens de configuração
+Consulting the configuration items
 --------------------------------------
 
-1. Na tela de **Gerenciamento de Itens de Configuração**, é permitido realizar consultas de ICs nas seguintes formas:
+1. On the **Configuration Items Management** screen, you can perform CI queries in the following ways:
 
-    - **Por processo**: permite visualizar os itens de configuração relacionados com os processos: Incidente, Problema, Mudança 
-    e Liberação;
-    - **Por grupo**: permite visualizar os itens de configuração de um determinado grupo;
-    - **Por filtros**: permite visualizar os itens de configuração de acordo com o filtro informado.
+    - **By process**: allows you to view the configuration items related to the processes: Incident, Problem, Change and Release;
+    - **By group**: allows you to view the configuration items of a particular group;
+    - **By filters**: allows you to view the configuration items according to the filter you have entered..
 
-Consultando IC's por processo
+Consulting CIS by process
 -------------------------------
 
-1. Na área de **Dashboard** são apresentados em cada processo a quantidade de ICs relacionados, conforme exemplo ilustrado na figura abaixo:
+1. In the **Dashboard** area the quantity of related CIs is presented in each process, as shown in the figure below:
 
-    ![Dashboard](images/geren-IC.img17.png)
+    ![Dashboard](images/management.img17.jpg)
     
-    **Figura 17 - Dashboard**
+    **Figure 17 - Dashboard**
     
-2. Clique em um processo para verificar os ICs relacionados. Feito isso, serão apresentados os ICs, os quais estão relacionados com o determinado processo. A figura abaixo ilustra um exemplo:
+2. Click a process to check the related CIs. Once this is done, the CIs will be presented, which are related to the given process. 
+The figure below illustrates an example:
 
-    ![IC](images/geren-IC.img18.png)
+    ![IC](images/management.img18.jpg)
     
-    **Figura 18 - IC (Item de Configuração) relacionado ao processo de incidente**
+    *Figure 18 - CI (Configuration Item) related to the incident process**
     
-3. É permitido também verificar os ICs relacionados a dois ou mais processos, basta selecionar os processos que deseja e logo 
-em seguida serão apresentadas os ICs que estão relacionados com os processos. A figura a seguir ilustra um exemplo:
+3. It is also allowed to check the CIs related to two or more processes, just select the processes you want and then the CIs that 
+are related to the processes will be presented. The following figure illustrates an example:
 
-!!! warning "ATENÇÃO"
+!!! warning "WARNING"
 
-    Serão apresentados somente os ICs que estão relacionados com os processos selecionados, por exemplo: caso tenha 
-    selecionado dois processos e não é apresentado nenhum IC, isso significa que não existe IC relacionado com os processos.
+    Only the CIs that are related to the selected processes will be presented, for example: if you have selected two processes and 
+    no CI is displayed, this means that there is no process-related CI.
     
-![Relacionado](images/geren-IC.img19.png)
+![Processes](images/management.img19.jpg)
 
-**Figura 19 - IC relacionado aos processos de incidente e problema**
+**Figure 19 - CI related to incident and problem processes**
 
-Consultando IC's por grupo
+Consulting CIS by group
 ----------------------------
 
-1. Na área de **Banco de Dados de Gerenciamento de Configuração** é apresentado por padrão três Grupos de ICs: 
-"Desenvolvimento", "Homologação" e "Produção". Estes grupos têm como filhos outros Grupos de ICs e/ou Itens de Configuração;
+1. In the Configuration Management Database area, three CI groups are displayed by default: **Development, Homologation** and 
+**Production**. These groups have as their children other Groups of CIs and/or Configuration Items;
 
-2. Clique no(s) grupo(s) desejado(s) para visualização dos ICs. Feito isso, serão apresentados os ICs do determinado 
-grupo, conforme o exemplo ilustrado na figura a seguir;
+2. Click on the desired group (s) to view the CIs. Once this is done, the CIs of the given group will be presented, according to the 
+example shown in the following figure;
 
-3. Após entrar em um grupo de IC e caso queira voltar para o grupo anterior, ou seja, o grupo superior, clique sobre a descrição
-do mesmo apresentada na barra de navegação, localizada na parte superior da tela. O exemplo ilustrado na figura abaixo 
-apresenta a barra de navegação, onde permite navegar entre os grupos de ICs.
+3. After entering an CI group and if you want to go back to the previous group, that is, the top group, click on the group 
+description in the navigation bar at the top of the screen.
 
-![Grupo](images/geren-IC.img20.png)
+![Group](images/management.img20.jpg)
 
-**Figura 20 - Itens de configuração por grupo**
+**Figura 20 - Configuration items by group**
 
-Consultando IC's por filtros
+Consulting CIS by filters
 -----------------------------
 
-1. Na área de **Filtros**, clique no ícone ![simbolo](images/simb-mais-cinz.png) da mesma para expandir a área. Feito isso,
-serão apresentados os filtros para realizar a consulta do IC de acordo com sua necessidade, conforme ilustrado na figura abaixo:
+1. In the **Filters** area, click the ![symbol](images/simb-plus.grey.jpg) to expand the area. Once this is done, the filters will 
+be presented to consult the CI according to your needs, as shown in the figure below:
 
-    ![Filtros](images/geren-IC.img21.png)
+    ![Filters](images/management.img21.jpg)
     
-    **Figura 21 - Filtros para consulta de IC**
+    **Figure 21 - CI query filters**
     
-    - **Status**: informe o status do IC para consulta dos ICs referente ao status;**
-    - **Criticidade**: informe a criticidade para consulta dos ICs referente à criticidade;
-    - **Identificação**: informe a identificação do IC para consulta de um IC específico;
-    - **Pesquisar somente no grupo atual**: caso queira visualizar somente os ICs do grupo atual, ou seja, o grupo em que 
-    está acessando no momento, habilite o filtro;
-    - **Exibir itens filhos**: caso queira visualizar os ICs filhos, habilite o filtro;
+    - **Status**: report the status of the CI for consultation of CIs regarding status;
+    - **Criticality**: report the criticality for consultation of CIs regarding criticality;
+    - **Identification**: inform the identification of the CI for consultation of a specific CI;
+    - **Search only in the current group**: if you want to see only the CIs of the current group, that is, the group you are 
+    currently accessing, enable the filter;
+    - **Show Related Items**: if you want to view child CIs, enable the filter.
     
-2. Após os filtros definidos, clique no botão "Filtrar" para efetuar a operação. Feito isso, serão exibidos os ICs 
-conforme os filtros definidos. A figura abaixo ilustra um exemplo:
+2. After the filters are set, click the *Filter* button to perform the operation. Once this is done, the CIs will be displayed 
+according to the filters defined. The figure below illustrates an example:
 
-![Itens](images/geren-IC.img22.png)
+![Items](images/management.img22.jpg)
 
-**Figura 22 - Itens de configuração**
+**Figure 22 - Configuration items**
 
-Alterando os dados do item de configuração
+Changing the configuration item data
 --------------------------------------------
    
-1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**.
-Após a consulta, clique sobre o item de configuração, será apresentada a tela de informações do determinado Item de
-Configuração,conforme ilustrada na figura a seguir:
+1. Perform the query for the Configuration Item you want, as described in the **Consulting CI's By Filters** item. After the query, 
+click on the configuration item, the information screen of the given Configuration Item will be displayed, as shown in the following 
+figure:
 
-    ![Informações](images/geren-IC.img23.png)
+    ![Information](images/management.img23.jpg)
     
-    **Figura 23 - Tela de informações de item de configuração**
+    **Figure 23 - Configuration item information screen**
     
-2. Clique no botão "Lista de Ações" e logo em seguida clique em "Editar", conforme indicado na figura abaixo:
+2. Click the *Actions List* button and then click Edit as shown in the figure below:
 
-    ![Editar](images/geren-IC.img24.png)
+    ![Edit](images/management.img24.jpg)
     
-    **Figura 24 - Seleção da ação "Editar"**
+    **Figure 24 - Edit action selection"**
     
-3. Será apresentada a tela de registro do Item de Configuração, conforme exemplo ilustrado na figura abaixo:
+3. The Setup Item registration screen will be displayed;
 
-    ![Registro](images/geren-IC.img25.png)
+    ![Record](images/management.img25.jpg)
     
-    **Figura 25 - Tela de registro de item de configuração**
+    **Figure 25 - Configuration item record screen**
     
-4. Altere os dados que desejar e clique no botão "Gravar" para que seja gravada a alteração realizada no registro de IC, onde
-a data, hora e usuário serão gravados automaticamente para uma futura auditoria.
+4. Change the data you want and click the *Save* button to save the change made to the CI record, where the date, time and user will 
+be saved automatically for a future audit.
 
-!!! abstract "SAIBA MAIS"
+!!! abstract "KNOW MORE"
 
-    As alterações de itens de configuração são gravadas em um histórico. Todas as vezes que o item é modificado, uma nova
-    versão é inserida com as mudanças.
+    Changes to configuration items are recorded in a history. Every time the item is modified, a new version is inserted with the 
+    changes.
     
-Registrando item de configuração relacionado a um item de configuração
+Registering configuration item related to a configuration item
 ------------------------------------------------------------------------
 
-1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**. 
-Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+1. Perform the query for the Configuration Item you want, as described in the **Consulting CI's By Filters** item. After the query, 
+click on the configuration item. The information screen for the given Configuration Item will be displayed;
 
-2. Clique no botão "Lista de Ações" e logo em seguida clique em "Criar item de configuração relacionado", conforme indicado na 
-figura a seguir:
+2. Click the Action List button and then click *Create related configuration item* as shown in the following figure:
 
-    ![Criar](images/geren-IC.img26.png)
+    ![Create](images/management.img26.jpg)
     
-    **Figura 26 - Seleção da ação "Criar item de configuração relacionado"**
+    **Figure 26 - Action selection "Create related configuration item"**
     
-3. Será apresentada a tela de Cadastro de Item de Configuração para registro das informações do IC relacionado. Registre 
-as informações conforme as orientações contidas no item **Registrando um novo Item de Configuração**.
+3. The Configuration Item Master screen will be displayed to record related CI information. Record the information according to the 
+guidelines contained in the item **Registering a new Configuration Item**.
 
-!!! warning "ATENÇÃO"
+!!! warning "WARNING"
 
-    Os campos "Identificação", "Nome" e "Contrato" não estarão preenchidos, pois seu conteúdo difere do IC pai. Esse preenchimento automático estende-se à opção "Características" (menu lateral à esquerda).
+    The fields "Identification", "Name" and "Contract" will not be filled as their content differs from the parent IC. This 
+    automatic filling extends to the "Features" option (left side menu).
     
-Executando script referente ao item de configuração
+Running script regarding configuration item
 -----------------------------------------------------
 
-1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**. 
-Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+1. Perform the query for the Configuration Item you want, as described in the **Consulting CI's By Filters** item. After the query, 
+click on the configuration item. The information screen for the given Configuration Item will be displayed;
 
-2. Clique no botão "Lista de Ações" e logo em seguida clique em "Executar script", conforme indicado na figura abaixo:
+2. Click on the *Actions List* button and then click on *Execute scritp*, as indicated in the figure below:
 
-    ![Seleção](images/geren-IC.img27.png)
+    ![Selection](images/management.img27.jpg)
     
-    **Figura 27 - Seleção da ação "Criar item de configuração relacionado"**
+    **Figure 27 - Action selection "Create related configuration item"**
     
-3. Será apresentada a tela de **Execução de Scripts** conforme ilustrada na figura abaixo:
+3. The **Script Execution** screen will be displayed as shown in the figure below:
 
-    ![Execução](images/geren-IC.img28.png)
+    ![Scripting](images/management.img28.jpg)
     
-    **Figura 28 - Tela de execução de scripts**
+    **Figure 28 - Scripting screen**
     
-4. Descreva os scripts que deseja executar e clique no botão "Executar Script" para efetuar a operação.
+4. Describe the scripts you want to run and click the *Run Script* button to perform the operation.
 
-Verificando os processos (requisição, incidente, problemas, mudanças, liberação e base de conhecimento) relacionados ao IC
+Verifying processes (request, incident, problems, changes, release and knowledge base)
 ----------------------------------------------------------------------------------------------------------------------------
 
-1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**. 
-Após a consulta, clique sobre o Item de Configuração. Será apresentada a tela de informações do determinado Item de Configuração.
-Nessa tela é apresentado a quantidade de requisições, incidentes, problemas, mudanças, liberações e conhecimentos relacionados 
-ao IC, conforme exemplo ilustrado na figura abaixo:
+1. Perform the query for the Configuration Item you want, as described in the Consulting CI's By Filters item. After the query, 
+click on the Configuration Item. The information screen for the given Configuration Item will be displayed. This screen shows the 
+number of requests, incidents, problems, changes, releases and knowledge related to the CI, according to the example shown in the 
+figure below:
 
-    ![Informações](images/geren-IC.img29.png)
+    ![Information](images/management.img29.jpg)
     
-    **Figura 29 - Tela de informações de item de configuração**
+    **Figure 29 - Configuration item information screen**
     
-2. Para verificar as requisições relacionadas ao IC, basta clicar na guia **Requisições**.
+2. To verify CI-related requests, simply click on the **Requests** tab;
 
-3. Para verificar os incidentes relacionados ao IC, basta clicar na guia **Incidentes**.
+3. To check for CI-related incidents, simply click on the **Incidents** tab;
 
-4. Para verificar os problemas relacionados ao IC, basta clicar na guia **Problemas**.
+4. To check for CI related problems, simply click on the **Problems** tab;
 
-5. Para verificar as requisições de mudanças relacionadas ao IC, basta clicar na guia **Mudanças**.
+5. To check for CI-related change requests, simply click on the **Changes** tab;
 
-6. Para verificar as liberações relacionadas ao IC, basta clicar na guia **Liberações**.
+6. To check CI-related releases, simply click the **Releases** tab;
 
-7. Para verificar ou relacionar conhecimentos ao IC, basta clicar na guia **Base de Conhecimento**.
+7. To verify or relate knowledge to the CI, simply click on the **Knowledge Base** tab.
 
-Verificando ocorrências de eventos do IC
+Checking CI event occurrences
 ------------------------------------------
 
-1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**.
-Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+1. Perform the query for the Configuration Item you want, as described in the **Consulting CI's By Filters** item. After the query, 
+click on the configuration item. The information screen for the given Configuration Item will be displayed;
 
-2. Clique na guia de **Eventos**, conforme indicado na figura abaixo:
+2. Click the **Events** tab, as shown in the figure below:
 
-    ![Eventos](images/geren-IC.img30.png)
+    ![Survey](images/management.img30.jpg)
     
-    **Figura 30 - Guia de eventos**
+    **Figure 30 - Events guide**
     
-3. Serão apresentados os filtros para busca de eventos que foram gerados para o IC, conforme ilustrado na figura abaixo:
+3. The filters to search for events that were generated for the CI will be presented, as shown in the figure below:
 
-    ![Ocorrências](images/geren-IC.img31.png)
+    ![Occurrence](images/management.img31.jpg)
     
-    **Figura 31 - Pesquisa de ocorrências de eventos do IC**
+    **Figure 31 - CI event occurrence survey**
     
-4. Defina os filtros de acordo com sua necessidade e clique no botão "Pesquisar".Feito isso, serão exibidos os eventos ocorridos.
+4. Define the filters according to your needs and click the *Search* button. This will display the events that occurred.
 
-Registrando o valor financeiro do IC
---------------------------------------
+Recording the financial value of the CI
+-----------------------------------------
 
-1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**.
-Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+1. Perform the query for the Configuration Item you want, as described in the **Consulting CI's By Filters** item. After the query, 
+click on the configuration item. The information screen for the given Configuration Item will be displayed;
 
-2. Clique na guia de **Financeiro**, conforme indicado na figura abaixo:
+2. Click the **Financial** tab, as shown in the figure below:
 
-    ![Guia](images/geren-IC.img32.png)
+    ![Guide](images/management.img32.jpg)
     
-    **Figura 32 - Guia financeiro**
+    **Figure 32 - Financial guide**
     
-3. Serão apresentados os campos para preenchimento com as informações do valor financeiro do Item de Configuração, conforme 
-ilustrado na figura abaixo:
+3. The fields to fill in with the information of the financial value of the Configuration Item will be presented, as shown in the 
+figure below:
 
-    ![Valor](images/geren-IC.img33.png)
+    ![Value](images/management.img33.jpg)
     
-    **Figura 33 - Tela de registro de valor financeiro do IC**
+    **Figure 33 - CI's financial value record screen**
     
-    - **Data de início**: informe a data inicial do valor do IC;
-    - **Data fim**: informe a data final do valor do IC;
-    - **Valor do item de configuração**: informe o valor do IC;
+    - **Start date**: enter the start date of the CI value;
+    - **End Date**: enter the end date of the CI value;
+    - Value of the configuration item: enter the value of the CI.;
     
-4. Após os dados informados, clique no botão "Gravar". Feito isso, será gravado e apresentado na tela o valor financeiro do
-Item de Configuração.
+4. After the data is entered, click the *Save* button. Once this is done, the financial value of the Setup Item will be saved and 
+displayed on the screen;
 
-5. Caso queira alterar os dados o valor financeiro do IC, basta clicar no ícone ![simbolo](images/simb-lapis.png) do mesmo.
+5. If you want to change the data the financial value of the CI, just click the Icon ![symbol](images/simb-pencil.jpg).
 
-6. Caso queira excluir o valor financeiro do IC, basta clicar no ícone ![simbolo](images/simb.fech-red.png) do mesmo.
+6. If you want to exclude the financial value of the CI, just click on the Icon ![symbol](images/simb-plus.red.jpg).
 
-Verificando indicadores de capacidade/performance ao IC
+Checking capacity/performance indicators for CI
 ---------------------------------------------------------
 
-1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**.
-Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+1. Perform the query for the Configuration Item you want, as described in the **Consulting CI's By Filters item. After the query, 
+click on the configuration item. The information screen for the given Configuration Item will be displayed;
 
-2. Clique na guia de **Capacidade**, conforme indicado na figura abaixo:
+2. Click the **Capacity** tab as shown in the figure below:
 
-    ![Capacidade](images/geren-IC.img34.png)
+    ![Capacity](images/management.img34.jpg)
     
-    **Figura 34 - Guia de capacidade**
+    **Figure 34 - Capacity guide**
     
-3. Será apresentada a tela para vínculo de indicadores de capacidade ao Item de Configuração, conforme ilustrada na figura 
-abaixo:
+3. The screen for linking capacity indicators to the Configuration Item will be displayed, as shown in the figure below:
 
-    ![Vínculo](images/geren-IC.img35.png)
+    ![Link](images/management.img35.jpg)
     
-    **Figura 35 - Vínculo de indicadores de capacidade ao IC**
+    **Figure 35 - Link of CI capacity indicators**
     
-4. Clique no botão "Vincular indicadores de capacidade/performance". Feito isso, será exibida a tela de pesquisa de indicadores
-de capacidade. Realize a pesquisa, selecione os indicadores e clique no botão "Adicionar" para efetuar a operação.
+4. Click the Link Performance/Capacity Indicators button. Once this is done, the capacity indicators search screen will be 
+displayed. Perform the search, select the bookmarks, and click the Add button to perform the operation;
 
-5. Caso queira excluir o vínculo de um indicador de capacidade com o IC, basta clicar no ícone
-![simbolo](images/simb.fech-red.png) do mesmo.
+5. If you want to exclude the link from a capacity indicator with the CI, simply click on the icon
+![symbol](images/simb-plus.red.jpg).
 
-Vinculando atributos de demanda ao IC
+Linking demand attributes to the CI
 ---------------------------------------
 
-1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**. 
-Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+1. Perform the query for the Configuration Item you want, as described in the **Consulting CI's By Filters** item. After the query, 
+click on the configuration item. The information screen for the given Configuration Item will be displayed;
 
-2. Clique na guia de **Demanda**, conforme indicado na figura abaixo:
+2. Click on the **Demand** tab, as indicated in the figure below:
 
-    ![Demanda](images/geren-IC.img36.png)
+    ![Demand](images/management.img36.jpg)
     
-    **Figura 36 - Guia de demanda**
+    **Figure 36 - Demand guide**
     
-3. Será apresentada a tela para vínculo de atributos da demanda ao Item de Configuração, conforme ilustrada na figura abaixo:
+3. The screen for linking demand attributes to the Configuration Item will be displayed, as shown in the figure below:
 
-    ![Atributos](images/geren-IC.img37.png)
+    ![Attributes](images/management.img37.jpg)
     
-    **Figura 37 - Vínculo de atributos da demanda ao IC**
+    **Figure 37 - Link of demand attributes to CI**
     
-4. Clique no botão "Vincular atributos da demanda". Feito isso, será exibida a tela de pesquisa de atributos. Realize a pesquisa, 
-selecione os atributos e clique no botão "Adicionar" para efetuar a operação.
+4. Click the *Link Demand Attributes* button. Once this is done, the attribute search screen will be displayed. Perform the search, 
+select the attributes and click the *Add* button to perform the operation;
 
-5. Caso queira excluir o vínculo de um atributo de demanda com o IC, basta clicar no ícone ![simbolo](images/simb.fech-red.png)
-do mesmo.
+5. If you want to exclude the link from a demand attribute with the CI, just click on the Icon ![simbolo](images/simb-plus.red.jpg).
 
-Verificando item de configuração pai
+Checking configuration item parent
 --------------------------------------
 
-1. Realize a consulta do Item de Configuração Pai que deseja, conforme descrito no item **Consultando os Itens de Configuração**.
-Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+1. Perform the query of the Configuration Item of the Parent that you want, as described in the item **Consulting CI's By Filters**. 
+After the query, click on the configuration item. The information screen for the given Configuration Item will be displayed;
 
-2. Clique na guia de **Item de Configuração Pai**, conforme indicado na figura abaixo:
+2. Click the **Parent Configuration Item** tab, as shown in the figure below:
 
-    ![Guia](images/geren-IC.img38.png)
+    ![Guide](images/management.img38.jpg)
     
-    **Figura 38 - Guia de item de configuração pai**
+    **Figure 38 - Parent configuration item guide**
     
-3. Será apresentado o Item de Configuração Pai que está relacionado ao Item de Configuração.
+3. The Parent Configuration Item that is related to the Configuration Item will be displayed.
 
-    ![Item](images/geren-IC.img39.png)
+    ![Item](images/management.img39.jpg)
     
-    **Figura 39 - Item de configuração pai**
+    **Figure 39 - Configuration item parent**
     
-Verificando itens de configuração relacionados a um item de configuração
+Checking configuration items related to a configuration item
 --------------------------------------------------------------------------
 
-1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**.  
-Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+1. Perform the query for the Configuration Item you want, as described in the **Consulting CI's By Filters** item. After the query, 
+click on the configuration item. The information screen for the given Configuration Item will be displayed;
 
-2. Clique na guia de **Itens Relacionados**, conforme indicado na figura abaixo:
+2. Click the **Related Items** tab, as shown in the figure below:
 
-    ![Itens](images/geren-IC.img40.png)
+    ![IteMs](images/management.img40.jpg)
     
-    **Figura 40 - Guia de itens relacionados**
+    **Figure 40 - Related items guide**
     
-3. Serão apresentados os Itens de Configuração que estão relacionados ao Item de Configuração.
+3. The Configuration Items that are related to the Configuration Item will be displayed;
 
-    ![Relacionados](images/geren-IC.img41.png)
+    ![Related](images/management.img41.jpg)
     
-    **Figura 41 - Itens relacionados**
+    **Figure 41 - Related items**
     
-4. Para verificar as informações do IC relacionado, basta clicar em "Visualizar".
+4. To check the related CI information, just click *Preview*;
 
-5. Um dos tipos de relação entre IC é explicada no conhecimento sobre o "[Mapa de Serviço][1]". Abaixo segue exemplo de 2 
-tipos de relação que os IC podem ter:
+5. One of the types of relationship between CI is made using knowledge about the [Service Map][1] . Here is an example of two types 
+of relationships that CI can have:
 
-![Detalhes](images/geren-IC.img42.png)
+![Details](images/management.img42.jpg)
 
-**Figura 42 - Detalhes das duas seções visíveis em itens relacionados (IC-filhos e relacionados pelo mapa de serviço)**
+**Figure 42 - Details of the two sections visible in related items (IC-children and service-map related)**
 
-Realizando análise de impacto do item de configuração
+Performing configuration item impact analysis
 -------------------------------------------------------
 
-1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**. 
-Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+1. Perform the query for the Configuration Item you want, as described in the **Consulting CI's By Filters** item. After the query, 
+click on the configuration item. The information screen for the given Configuration Item will be displayed;
 
-2. Clique na guia de **Serviços Impactados**, conforme indicado na figura abaixo:
+2. Click the **Impact Services** tab, as shown in the figure below:
 
-    ![Serviços](images/geren-IC.img43.png)
+    ![Services](images/management.img43.jpg)
     
-    **Figura 43 - Guia de serviços impactados**
+    **Figure 43 - Impacted services guide**
     
-3. Será exibida uma tela apresentando os serviços que utilizam o IC, conforme exemplo ilustrado na figura abaixo:
+3. A screen will be displayed showing the services that use the CI, as shown in the figure below:
 
-    ![Serviços](images/geren-IC.img44.png)
+    ![Services](images/management.img44.jpg)
     
-    **Figura 44 - Serviços impactados**
+    **Figure 44 - Impacted services**
     
-4. Caso queira verificar o desenho do mapa de ativos do serviço, basta clicar no botão "Mapa" do serviço desejado.
+4. If you want to check the map of the service asset map, just click the *Map* button of the service you want.
 
-Vinculando calendário ao item de configuração
+Linking calendar to configuration item
 -----------------------------------------------
 
-1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**. 
-Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+1. Perform the query for the Configuration Item you want, as described in the **Consulting the Configuration Items** item. After the 
+query, click on the configuration item. The information screen for the given Configuration Item will be displayed;
 
-2. Clique na guia de **Calendário**, conforme indicado na figura abaixo:
+2. Click the **Calendar** tab, as shown in the figure below:
 
-    ![Calendário](images/geren-IC.img45.png)
+    ![Calendar](images/management.img45.jpg)
     
-    **Figura 45 - Guia de calendário**
+    **Figure 45 - Calendar guide**
     
-3. Será apresentada a tela para vínculo do calendário, conforme ilustrada na figura abaixo:
+3. The calendar link screen will be displayed, as shown in the figure below:
 
-    ![Vínculo](images/geren-IC.img46.png)
+    ![Link](images/management.img46.jpg)
     
-    **Figura 46 - Tela de vínculo de calendário**
+    **Figure 46 - Calendar link screen**
     
-4. Informe o calendário que deseja vincular e após isso, clique no botão "Adicionar" para efetuar o vínculo do calendário ao IC.
+4. Enter the calendar you want to link to and then click the *Add* button to link the calendar to the CI.
 
-Vinculando acordo de nível de serviço ao item de configuração
+Liking service level agreement to configuration item
 ---------------------------------------------------------------
 
-1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**. 
-Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+1. Perform the query for the Configuration Item you want, as described in the **Consulting the Configuration Items** item. After the 
+query, click on the configuration item. The information screen for the given Configuration Item will be displayed;
 
-2. Clique na guia de **Acordo de Nível de Serviço**, conforme indicado na figura abaixo:
+2. Click the **Service Level Agreement** tab, as shown in the figure below:
 
-    ![Guia](images/geren-IC.img47.png)
+    ![Guide](images/management.img47.jpg)
     
-    **Figura 47 - Guia de acordo de nível de serviço**
+    **Figure 47 - Service level agreement guide**
     
-3. Será apresentada a tela para vínculo do acordo de nível de serviço do tipo "disponibilidade", conforme ilustrada na 
-figura abaixo:
+3. The screen for linking the service level agreement of type "availability" will be displayed, as shown in the figure below:
 
-    ![Vínculo](images/geren-IC.img48.png)
+    ![Link](images/management.img48.jpg)
     
-    **Figura 48 - Tela de vínculo de ANS**
-    
-4. Informe o acordo de nível de serviço que deseja vincular e após isso, clique no botão "Adicionar" para efetuar o vínculo do 
-acordo de nível de serviço ao IC.
+    **Figure 48 - SLA link screen**
+   
+4. Enter the service level agreement you want to link, and then click the *Add* button to link the service level agreement to the 
+CI.
 
-Verificando garantias relacionadas a um item de configuração
+Verifying warranties related to a configuration item
 ---------------------------------------------------------------
 
-1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**. 
-Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração; 
+1. Perform the query for the Configuration Item you want, as described in the **Consulting the Configuration Items** item. After the 
+query, click on the configuration item. The information screen for the given Configuration Item will be displayed;
+ 
+2. Click the **Warranties** tab, as shown in the figure below:
 
-2. Clique na guia de **Garantias**, conforme indicado na figura abaixo:
+    ![Guide](images/management.img49.jpg)
+    
+    **Figure 49 - Related items guide**
+    
+3. The Warranties that are related to the Setup Item will be displayed.
 
-    ![Guia](images/geren-IC.img49.png)
+![Garantees](images/management.img50.jpg)
     
-    **Figura 49 - Guia de itens relacionados**
+**Figure 50 - Guarantees**
     
-3. Serão apresentadas as Garantias que estão relacionados ao Item de Configuração.
-
-![Garantias](images/geren-IC.img50.png)
-    
-**Figura 50 - Garantias**
-    
-Realizando auditoria de item de configuração
+Performing configuration item audit
 ----------------------------------------------
 
-1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**.
-Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+1. Perform the query for the Configuration Item you want, as described in the **Consulting the Configuration Items** item. After the 
+query, click on the configuration item. The information screen for the given Configuration Item will be displayed;
 
-2. Clique na guia de **Auditoria**, conforme indicado na figura abaixo:
+2. Click the **Audit** tab, as shown in the figure below:
 
-    ![Auditoria](images/geren-IC.img51.png)
+    ![Audit](images/management.img51.jpg)
     
-    **Figura 51 - Guia de Auditoria**
+    **Figure 51 - Audit guide**
     
-3. Será apresenta uma tela para informação do período que deseja verificar os dados do item de configuração para auditoria. 
-A figura abaixo ilustra essa tela:
+3. It will display a screen for information of the period you want to check the data of the configuration item for auditing. The 
+figure below illustrates this screen:
 
-    ![Auditoria](images/geren-IC.img52.png)
+    ![Audit](images/management.img52.jpg)
     
-    **Figura 52 - Auditoria de item de configuração**
+    **Figure 52 - Configuration item audit**
     
-    - **Data de início**: informe a data inicial de referência de auditoria;
-    - **Data fim**: informe a data final de referência de auditoria.
+    - **Start date**: report the initial audit reference date;
+    - **End Date**: Report the end date of the audit reference.
     
-4. Após o período informado, clique no botão "Pesquisar". Feito isso, será exibido o histórico do Item de Configuração de acordo 
-com o período informado, permitindo realizar a auditoria.
+4. After the given period, click the *Search* button. Once this is done, the History of the Configuration Item will be displayed 
+according to the reporting period, allowing you to perform the audit.
 
-Verificando o histórico do item de configuração
+Checking the configuration item history
 -------------------------------------------------
 
-1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**. 
-Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+1. Perform the query for the Configuration Item you want, as described in the **Consulting the Configuration Items** item. After the 
+query, click on the configuration item. The information screen for the given Configuration Item will be displayed;
 
-2. Clique na guia de **Histórico**, conforme indicado na figura abaixo:
+2. Click the **History** tab, as shown in the figure below:
 
-    ![Histórico](images/geren-IC.img53.png)
+    ![History](images/management.img53.jpg)
     
-    **Figura 53 - Guia de histórico**
+    **Figure 53 - History guide**
     
-3. Será apresentada a tela de histórico do item de configuração, conforme ilustrada na figura abaixo:
+3. The configuration item history screen will be displayed, as shown in the figure below:
 
-    ![IC](images/geren-IC.img54.png)
+    ![IC](images/management.img54.jpg)
     
-    **Figura 54 - Histórico de item de configuração (IC)**
+    **Figure 54 - Configuration item history (CI)**
     
-4. O item de configuração poderá ter um ou mais ponto de restauração *(baselines)* gerado. E para gerar um ponto de restauração, 
-basta clicar no botão "Gerar Ponto de Restauração".
+4. The configuration item may have one or more restore points (baselines) generated;
 
-5. Para restaurar o Item de Configuração para uma determinada versão, ou seja, recuperar de volta a configuração conhecida do IC, 
-basta clicar no botão "Restaurar".
+5. And to generate a restore point, simply click the *Generate Restore Point* button;
 
-6. Para restaurar o Item de Configuração para uma versão específica, ou seja, recuperar a configuração CI conhecida, basta clicar 
-no botão "Restaurar".
+6. To restore the Configuration Item to a particular version, ie retrieve the known CI configuration back, simply click the 
+*Restore* button.
 
-Verificando o status de execução do inventário de IC
+Checking the CI inventory execution status
 ------------------------------------------------------
 
-Essa funcionalidade permite visualizar o status atual da execução do inventário através da aplicação CITSmart Inventory.
+This feature lets you view the current status of inventory execution through the CITSmart Inventory application.
 
-1. Na tela de **Gerenciamento de Itens de Configuração**, clique no ícone ![simbolo](images/simb-dash.png). Feito isso, será 
-apresentada a respectiva tela para verificação do status de execução do inventário, conforme ilustração abaixo:
+1. On the **Configuration Item Management** screen, click the ![symbol](images/simb-inventory.jpg). Once this is done, the 
+respective inventory execution check screen will be displayed, as shown below:
 
-    ![Status](images/geren-IC.img55.png)
+    ![Status](images/management.img55.jpg)
     
-    **Figura 55- Tela de status de execução do inventário**
+    **Figure 55 - Inventory execution status screen**
     
-2. Para realizar uma pesquisa específica, informe o filtro conforme sua necessidade:
+2. To perform a specific search, enter the filter as required:
 
-    - Conexão CITSmart Inventory
-    - Identificação do IC
+    - CITSmart Inventory Connection;
+    - CI Identification;
     - IP
-    - Status, podendo assumir os seguintes valores:
-        - **Inventariada**: o sistema capturou as informações do IC com sucesso;
-        - **Inacessível**: o sistema não conseguiu inventariar a máquina, a mesma pode estar sem rede por exemplo, e o agente 
-        não conseguiu estabelecer uma conexão para capturar os dados;
-        - **Ignorada**: na conexão de inventário, caso o usuário tenha optado por Ignorar Máquinas Inventariadas, o sistema
-        passa um período sem inventariar a mesma e atribui esse Status;
-        - **Em execução**: o inventário está em andamento no momento;
-        - **Não Inventariada**: o sistema ainda não capturou as informações do IC.
+    - Status, and can assume the following values:
+        - **Inventoried**: the system captured the CI information successfully;
+        - **Ignored**: the system could not inventory the machine, it may be without a network, for example, and the agent could not 
+        establish a connection to capture the data;
+        - **Unreachable**: in the inventory connection, if the user has chosen to Ignore Inventoried Machines, the system goes 
+        through a period without inventorying it and assigns this Status;
+        - **In Execution**: inventory is currently in progress;
+        - **Not Inventoried**: the system has not yet captured the CI information.
         
-3. Clique no botão "Filtrar". Após isso, será apresentada a tela com os dados do inventário conforme o filtro informado;
+3. Click the *Filter* button. After that, the screen with the inventory data will be displayed according to the filter entered;
 
-4. Caso deseje fazer um inventário de um item de configuração específico, clique no botão "Inventariar Agora".
+4. If you want to inventory a specific configuration item, click the *Inventory Now* button.
 
-Exportando CMDB
+Exporting CMDB
 -----------------
 
-1. Na tela de **Gerenciamento de Itens de Configuração**, selecione o Grupo de ICs que deseja exportar as informações. Feito isso, em **Ações**, clique no botão "Exportar CMDB", conforme indicado na figura abaixo:
+1. On the **Configuration Items Management** screen, select the CI Group that you want to export the information to. Click on the 
+*Export CMDB* button, as shown in the figure below:
 
-    ![CMDB](images/geren-IC.img56.png)
+    ![CMDB](images/management.img56.jpg)
     
-    **Figura 56 - Botão exportar CMDB**
+    **Figure 56 - Export CMDB button**
     
-2. O sistema exportará as informações do banco de dados em formato XML, conforme figura abaixo:
+2. The system will export the database information in XML format.
 
-![Exportação](images/geren-IC.img57.png)
+![Export](images/management.img57.jpg)
 
-**Figura 57 - Exportação XML**
+**Figure 57 - Export XML**
 
-Veja também
+See also
 -------------
 
-- Como faço o desenho de ativos que compõem o meu serviço?
+- How do I design the assets that make up my service?
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/16/2019 – Larissa Lourenço
+    <b>Updated:</b>08/26/2019 – Larissa Lourenço
 
-[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
+[1]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
