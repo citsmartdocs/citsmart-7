@@ -1,97 +1,96 @@
-title: Cadastro e pesquisa de mídia definitiva
-Description: Esta funcionalidade tem por objetivo registrar as versões definitivas e autorizadas de todos 
-# Cadastro e pesquisa de mídia definitiva
+title: Definitive media registration and search
+Description: The goal of this feature is to register the definitive and authorized versions
+# Definitive media registration and search
 
-Esta funcionalidade tem por objetivo registrar as versões definitivas e autorizadas de todos os Itens de
-Configuração (ICs) de Software de maneira segura.
+The goal of this feature is to register the definitive and authorized versions if all software Configuration Items (CIs) in a 
+secure manner.
 
-Pode conter itens de configuração associados com licenças e documentação.
+May contain configuration items associated to licenses or credentials.
 
-Como acessar
---------------
-
-1. Acesse a funcionalidade de mídia definitiva através da navegação no menu principal 
-**Processos ITIL > Gerência de Configuração > Mídia Software**.
-
-Pré-condições
+How to access
 ----------------
 
-1. Não se aplica.
+1. Access the Media Software feature navigating through the main menu 
+**Process Management > Configuration Management > Media Software**.
 
-Filtros
+Preconditions
+----------------
+
+1. No applicable.
+
+Filters
 ---------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados, conforme ilustrado na figura abaixo:
+1. The following filters enable the user to restrict the participation of items in the standard feature listing, making it easier 
+to locate the desired items as shown in the figure below:
 
-    - Nome.
+    - Name.
     
-2. Na tela de **Mídia Definitiva**, clique na aba **Pesquisa de Mídia Definitiva**. Será apresentada a tela de pesquisa 
-conforme ilustrada na figura abaixo:
+2. On the **Media Software** screen, click on the **Search Definitive Media** tab. The search screen will be displayed as 
+illustrated on the image below:
 
-    ![Pesquisa](images/midia-defi.img1.png)
+    ![Search](images/media.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de mídia definitiva**
+    **Figure 1 - Definitive media search screen**
     
-3. Realize a pesquisa de mídia definitiva:
+3. Perform a definitive media search:
 
-    - Informe o nome da mídia definitiva que deseja pesquisar e clique no botão "Pesquisar". Após isso, 
-    será exibido o registro da mídia definitiva conforme o nome informado;
+    - Insert the name of the intended definitive media and click on the *Search* button. Afterwards, the definitive media entry 
+    will be displayed according to the description provided;
     
-    - Caso deseje listar todos os registros de mídia definitiva, basta clicar diretamente no botão "Pesquisar";
+    - To list all definitive medias, just click directly on the *Search* button, if needed.
 
-Listagem de itens
+Items list
 -------------------
 
-1. O seguinte campo cadastral está disponível para o usuário para facilitar a identificação dos elementos desejados
-na lista padrão de funcionalidade: **Nome**.
+1. The following cadastral field is available to the user to make it easier to identify the desired items in the default listing of 
+the functionality: **Name**.
 
-    ![Listagem](images/midia-defi.img2.png)
+    ![Listing](images/media.img2.jpg)
     
-    **Figura 2 - Tela de listagem de mídia definitiva**
+    **Figure 2 - Definitive media items screen**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo o 
-conteúdo referente ao registro selecionado;
+2. After searching, select the intended entry. Afterwards, they will be redirected to the registry screen displaying the content 
+belonging to the selected entry;
 
-3. Para alterar os dados do registro de mídia definitiva, basta modificar as informações dos campos desejados e 
-clicar no botão "Gravar" para que seja gravada a alteração realizada no registro, onde a data, hora e usuário serão gravados
-automaticamente para uma futura auditoria.
+3. To edit a definitve media entry, just modify the information on the intended fields and click on the *Save* button to confirm 
+the changes to the database, at which date, time and user will be stored automatically for a future audit.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Acesse a funcionalidade, após isso, será apresentada a tela de **Cadastro de Mídia Definitiva**, conforme ilustrada na 
-figura abaixo:
+1. Access the feature, afterwards, the media software entry screen will be displayed, as illustrated on the image below:
 
-    ![Cadastro](images/midia-defi.img3.png)
+    ![Entry](images/media.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de mídia definitiva**
+    **Figure 3 - Media software entry screen**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill out the fields as instructed below:
 
-    - **Nome**: informe o nome da mídia;
-    - **Endereço Físico**: informe o endereço físico da mídia;
-    - **Endereço Lógico**: informe o endereço lógico da mídia;
-    - **Tipo de mídia**: selecione o tipo de mídia;
-    - **Tipo de Software**: informe o tipo de software;
-    - **Nº de licenças**: esse campo é para simples conferência, será exibido a quantidade de licenças da mídia, após adicionar
-    as chaves (licenças);
-    - **Versão**: informe a versão da mídia;
-    - Adicione as licenças da mídia definitiva;
-    - **Chave**: informe a chave da mídia definitiva;
-    - **Quantidade Permissões de Uso**: informe a quantidade permitida de uso da chave da mídia;
-    - Clique no ícone ![simbolo](images/simb-mais.png) para adição de licença.
+    - **Name**: name the media software;
+    - **Physical Address**: insert the media physical address;
+    - **Logical Address**: insert the media logical address;
+    - **Media Type**: select the media type;
+    - **Software Type**: insert the software type;
+    - **License Number**: this field is for checking purposes only, the amount of licenses will be displayed, after adding their 
+    respective keys (licenses)
+    - **Version**: insert the media software version;
+    - Add the media software definitive licenses;
+    - **Key**: insert the definitive media key;
+    - **Nº of Licenses**: insert the allowed usage of the media key;
+    - Click on the ![simbolo](images/simb-more.green.jpg) icon to add the license.
     
-3. Relacione um conhecimento à mídia definitiva;
+3. Link a knowledge to a definitive media:
 
-    - Informe o nome do conhecimento desejado e clique no botão "Buscar" para busca do mesmo. Será exibida uma janela 
-    apresentando o resultado, basta clicar no botão "Selecionar" do conhecimento para vinculá-lo à mídia definitiva.
+    - Inser the name of the intended knowledge and click on the button *Search* to search it. A screen featuring the results will 
+    be displayed, just click on the button *Select* of the knowledge to link it to the media
     
-4. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma 
-futura auditoria.
+4. Click on the *Save* the button to confirm the entry, at which date, time and user will automatically be stored for a future 
+audit.
+
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/16/2019 – Larissa Lourenço
+    <b>Updated:</b>08/26/2019 – Larissa Lourenço
 
