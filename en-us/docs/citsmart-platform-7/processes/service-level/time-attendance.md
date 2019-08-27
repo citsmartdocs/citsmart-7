@@ -92,7 +92,7 @@ Filling in the registrations fields
     -   **Urgency**: report the urgency of restoring service within the
         organizational environment;
 
-    -   **Impact/Urgency Change **: define if it will be allowed to change the
+    -   **Impact/Urgency Change**: define if it will be allowed to change the
         impact and urgency in the registration of service request;
 
     -   **Seasonal**: check this option if the service time is temporary;
