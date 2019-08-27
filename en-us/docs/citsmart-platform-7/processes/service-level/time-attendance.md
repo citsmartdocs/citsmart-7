@@ -182,7 +182,7 @@ Filling in the registrations fields
 
     -   Enter the unit and assign a priority. Once this is done, click the *Add* button to perform the:
 
-        -   **Priority: **indicate the priority of the service for the unit;
+        -   **Priority**: indicate the priority of the service for the unit;
 
         -   **Unit**: enter the desired unit.
 
