@@ -68,8 +68,8 @@ Items list
 ----------
 
 1.  The following cadastral fields are available to the user to facilitate the
-    identification of the desired items in the standard feature listing: **ID,
-    Service **and **Critical Quantity**;
+    identification of the desired items in the standard feature listing: ID,
+    Service and Critical Quantity;
 
 2.  There are action buttons available to the user for each item in the listing,
     they are: *Generate Graphic* and *Create Problem*;
@@ -89,7 +89,7 @@ Items list
 
 4.  Each tab will display the results for each type (service, cause and
     configuration item) and in each item two buttons will be displayed, one
-    to **Generate Graphic **(as shown in the previous figure) which shows the
+    to Generate Graphic (as shown in the previous figure) which shows the
     dates that comprise the reported period and the number of occurrences on
     that date, and another one for **Create Problem**, where the problem
     register screen will be displayed to record the required information of the
