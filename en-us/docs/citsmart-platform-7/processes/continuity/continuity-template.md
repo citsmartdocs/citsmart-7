@@ -1,84 +1,82 @@
-title: Cadastro e pesquisa de template de continuidade
-Description: Esta funcionalidade tem por objetivo registrar template de continuidade, o qual será utilizado para personalizar
-# Cadastro e pesquisa de template de continuidade
+title: Continuity template registration and search
+Description: The goal of this feature is to register a continuity template, which will be used to customize the test entry screen.
+# Continuity template registration and search
 
-Esta funcionalidade tem por objetivo registrar template de continuidade, o qual será utilizado para personalizar a tela 
-de registro de testes.
+The goal of this feature is to register a continuity template, which will be used to customize the test entry screen.
 
-Como acessar
----------------
+How to access
+-----------------
 
-1. Acesse a funcionalidade de template de continuidade através da navegação no menu principal 
-**Processos ITIL > Gerência de Continuidade > Template de Continuidade**.
+1. Access the Continuity Template feature navigating through the main menu 
+**Process Management > Continuity Management > Continuity Template**.
 
-Pré-condições
----------------
+Preconditions
+-----------------
 
-1. Cadastrar um questionário (ver conhecimento [Cadastro e pesquisa de categoria de questionários](/pt-br/citsmart-platform-7/plataform-administration/questionnaires/questionnaires-management/questionnaire-category.html)).
+1. Register a questionnaire (see knowledge [Questionnaire Category registration and search](/en-us/citsmart-platform-7/plataform-administration/questionnaires/questionnaires-management/questionnaire-category.html)).
 
-Filtros
+Filters
 ---------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando
-a localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Nome.
+    - Name.
     
-    ![Pesquisa](images/tem-cont.img1.png)
+    ![Search](images/template.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de template de continuidade**
+    **Figure 1 - Continuity template search screen**
     
-2. Realize a pesquisa do template de continuidade:
+2. Perform a continuity template search:
 
-    - Informe o nome do template de continuidade que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o 
-    registro conforme o nome informado;
+    - Insert the name of the intended template and click on the *Search* button. Afterwards, the template entry will be displayed 
+    according to the description provided.
 
-    - Caso deseje listar todos os registros de template de continuidade, basta clicar diretamente no botão "Pesquisar".
+    - To list all continuity templates, just click directly on the *Search* button, if needed.
 
-Listagem de itens
+Items list
 ------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: **Identificador** e **Nome**.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **ID** and **Name**.
 
-    ![Listagem](images/tem-cont.img2.png)
+    ![Listing](images/template.img2.jpg)
     
-    **Figura 2 -Tela de listagem de template de continuidade**
+    **Figure 2 - Continuity template listing screen**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para tela de cadastro exibindo o conteúdo 
-referente ao registro selecionado;
+2. After searching, select the intended entry. Afterwards, they will be redirected to the registry screen displaying the content 
+belonging to the selected entry.
 
-3. Para alterar os dados do registro de template de continuidade, basta modificar os campos desejados e clicar no botão "Gravar"
-para efetuar a alteração realizada no registro, onde a data, hora e usuário serão gravados automaticamente para uma futura 
-auditoria.
+3. To edit a template entry, just modify the information on the intended fields and click on the *Save* button to confirm the 
+changes to the database, at which date, time and user will be stored automatically for a future audit.
 
-Preenchimento dos campos cadastrais
-------------------------------------
+Filling in the registration fields
+--------------------------------------
 
-1. Será apresentada a tela de cadastro de template de continuidade, conforme ilustrada na figura abaixo:
+1. The **Continuity Template Registration** screen will be displayed, as illustrated on the image below:
 
-    ![Cadastro](images/tem-cont.img3.png)
+    ![Registration](images/template.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de template de continuidade**
+    **Figure 3 - Continuity template registration screen**
     
-2. Preencha os campos conforme orientação abaixo:
+2. Fill out the fields as instructed below:
 
-    - **Nome**: informe o nome do template de continuidade;
-    - **Identificação do template de continuidade**: informe a identificação do template de continuidade;
-    - **Tipo de Template**: selecione o tipo de template de continuidade;
-    - **Nome da classe Dto**: informe o nome da classe Dto do template de continuidade;
-    - **Nome da classe Action**: informe o nome classe Action do template de continuidade;
-    - **Nome da classe de serviço**: informe o nome da classe de serviço do template de continuidade;
-    - **Url de recuperação**: informe a URL (endereço) de recuperação;
-    - **Altura da div**: informe o valor da altura da DIV;
-    - **Questionário**: informe o questionário da continuidade. O mesmo é definido na tela de Questionário;
-    - **Script após recuperação**: informe o script após recuperação.
+    - **Name**: name the continuity template;
+    - **Identification of continuity template**: insert the continuity template identification;
+    - **Template Type**: select the template type;
+    - **DTO Class Name**: insert the continuity template dto class' name;
+    - **Action Class Name**: insert the continuity template action class' name ;
+    - **Service Class Name**: insert the continuity template service class' name;
+    - **Recovery URL**: inser the recovery URL address;
+    - **DIV height**: insert the DIV height value;
+    - **Questionnaire**: insert the continuity questionnaire. It is determined on the Questionnaire screen;
+    - **Script after recovery**: insert the script after recovery;
     
-3. Após o registro dos dados, clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados
-automaticamente para uma futura auditoria.
+3. After the entry, click on the *Save* the button to confirm the entry, at which date, time and user will automatically be stored 
+for a future audit.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Larissa Lourenço
+    <b>Updated:</b>08/27/2019 – Larissa Lourenço
 
