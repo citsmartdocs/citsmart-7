@@ -391,7 +391,7 @@ and a *red* stripe informing the percentage of vital functions not contemplated 
     and select the desired vital function. Once this is done, the vital function will be added to the screen, as shown in the 
     figure below:
     
-    ![Function](images/ger-cont.img30.png)
+    ![Function](images/management.img30.jpg)
     
     **Figure 30 - Select vital function**
     
