@@ -275,7 +275,7 @@ Verificando o histórico de auditoria do acordo de nível de serviço
 [1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/priority-register.html
 [2]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
 [3]:/pt-br/citsmart-platform-7/plataform-administration/email-settings/configure-email-template.html
-[4]:/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html
+[4]:/pt-br/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html
 [5]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/user-register.html
 [6]:/pt-br/citsmart-platform-7/processes/service-level/sla-requiriment.html
 
