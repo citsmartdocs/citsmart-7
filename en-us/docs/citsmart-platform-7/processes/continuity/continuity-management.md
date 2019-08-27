@@ -641,7 +641,7 @@ future audit.
 
 4. The *Next* button, when triggered, advances to the next step of the continuous operation phase.
 
-Realizando revisão e auditoria
+Conducting review and audit
 --------------------------------
 
 1. On the **Continuity Management** screen, in the **Continuous Operation** phase, click the **Review and Audit** tab. Once this is 

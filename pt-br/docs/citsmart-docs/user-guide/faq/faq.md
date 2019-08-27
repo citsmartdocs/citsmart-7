@@ -43,7 +43,7 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     - TTG = Tempo total de guarda após conclusão em todas as unidades
     - TTG = (FC-TVP) + FI
     
-!!! Question "O que acontece quando a temporalidade é atingida?
+!!! Question "O que acontece quando a temporalidade é atingida?"
 
     O processo/documento segue para a sua destinação final. A destinação define o que acontecerá com o processo/documento 
     quando sua temporalidade for atingida. Poderá ser:
@@ -59,7 +59,7 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     metadados, que variam de acordo com a forma de criação, se online ou anexo. Saiba mais no conhecimento [Incluindo um
     documento](/pt-br/citsmart-docs/user-guide/operate/adding.html).
     
-!!! "Question "Como eu localizo um processo ou documento no sistema?"
+!!! Question "Como eu localizo um processo ou documento no sistema?"
 
     Caso o processo esteja aberto na sua unidade, você poderá localizá-lo tanto na tela de processos abertos/gerados 
     ([Pesquisando processos abertos/gerados na unidade](/pt-br/citsmart-docs/user-guide/operate/searching.html)) como na tela 
