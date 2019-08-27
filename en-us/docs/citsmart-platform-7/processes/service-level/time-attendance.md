@@ -173,7 +173,7 @@ Filling in the registrations fields
     
     **Figure 6- Application of the time of service to the request/incident service**
 
-    4.  If type of service time selected is **Customer** or **Incident/Request/Procedur** e, list the units and
+4.  If type of service time selected is **Customer** or **Incident/Request/Procedur** e, list the units and
     employees (employees);
 
     ![Criar](images/attendance-7.png)
