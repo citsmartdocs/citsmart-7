@@ -1,55 +1,53 @@
-title: Avaliação de SLA
-Description:Esta funcionalidade tem por objetivo gerar informações de acordo de nível de serviço, onde as mesmas auxiliarão na confecção de plano de qualidade.
+title: SLA evaluation
+Description: This feature aims to generate information according to the level of service, where they will assist in the preparation of a quality plan.
 
-# Avaliação de SLA
+# SLA evaluation
 
-Esta funcionalidade tem por objetivo gerar informações de acordo de nível de
-serviço, onde as mesmas auxiliarão na confecção de plano de qualidade.
+This feature aims to generate information according to the level of service,
+where they will assist in the preparation of a quality plan.
 
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de Avaliação de SLA através da navegação no menu
-    principal **Processos ITIL \> Gerência de Níveis de
-    Serviço \> Avaliação de SLA**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Não se aplica.
+1.  Access the SLA Evaluation feature by navigating the main menu **Processes
+    Management > Service Level Management > SLA Evaluation**.
 
-Filtros
+Preconditions
+-------------
+
+1.  No applicable.
+
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -   Período.
+   -   Period.
 
-1.  Será apresentada a tela de Geração de Informações de SLA, conforme ilustrada
-    na figura a seguir:
+2.  The SLA Information Generation screen will be displayed, as shown in the
+    following figure:
 
-    ![Criar sla](images/sla-evaluation.png)
+    ![figura](images/sla-evaluation.png)
+    
+    **Figure 1 - SLA Information generation screen**
 
-    **Figura 1 - Tela de geração de informações de SLA**
+3.  Enter the desired period and click the *Generate Information* button;
 
-1.  Informe o período desejado e clique no botão *Gerar Informações*;
+4.  The SLA information will be displayed according to the reporting period.
 
-2.  Será exibida as informações do SLA conforme o período informado.
+Items list
+----------
 
-Listagem de itens
------------------
+1.  No applicable.
 
-1.  Não se aplica.
+Filling in the registration fields
+----------------------------------
 
-Preenchimento dos campos cadastrais
------------------------------------
-
-1.  Não se aplica.
+1.  No applicable.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Anna Martins
+    <b>Updated:</b>08/27/2019 – Anna Martins
