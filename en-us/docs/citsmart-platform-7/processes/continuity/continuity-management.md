@@ -118,7 +118,7 @@ respective policy registration screen will be displayed, as shown in the figure 
     - Enter the description for the file that will be attached, click the *Add File* button and select the file you want. After 
     that, the file will be appended and displayed in the policy attachment screen.
     
-    ![File](images/ger-cont.img7.png)
+    ![File](images/management.img7.jpg)
     
     **Figure 7 - Attached policy file**
     
@@ -242,617 +242,605 @@ Registering business impact analysis
 Once this is done, the screen will be presented to add the vital function in order to record the characteristics of the impact on 
 the business, as shown in the figure below:
 
-    ![Adição](images/ger-cont.img17.png)
+    ![Addition](images/management.img17.jpg)
     
-    **Figura 17 - Tela de adição de função vital**
+    **Figure 17 - Vital function addition screen**
     
-2. Clique no botão "Selecionar Função Vital" para adicionar a função vital à análise de impacto do negócio. Feito isso, será 
-exibida a tela de pesquisa de funções vitais. Realize a pesquisa e selecione a função vital que desejar. Após isso, será 
-adicionada na tela a função vital, clique no ícone ![simbolo](images/simb-mais.cinza.png) da mesma para registro das informações 
-da análise de impacto no negócio, conforme exemplo ilustrado na figura abaixo:
+2. Click the Select Vital Function button to add the vital function to the business impact analysis. Once this is done, the vital 
+functions search screen will be displayed. Perform the search and select the vital function you want. After that, the vital 
+function will be added to the screen, click on the icon ![symbol](images/simb-seta.grey.jpg) of it to register the information of 
+the business impact analysis, as shown in the figure below:
 
-    ![Registro](images/ger-cont.img18.png)
+    ![Log](images/management.img18.jpg)
     
-    **Figura 18 - Tela de registro de impacto no negócio**
+    **Figure 18 - Business impact log screen**
     
-    - **Possíveis Impactos**: informe os possíveis impactos ao negócio;
-    - **Gravidade**: selecione a gravidade ao negócio;
-    - **Objetivo para ponto de recuperação**: informe o tempo que começará a recuperação do serviço;
-    - **Objetivo do tempo de recuperação**: informe o tempo esperado para recuperação do serviço;
-    - **Custo por hora de inatividade**: defina o custo por hora quando houver indisponibilidade dessa função vital;
-    - **Máximo tolerável de inatividade**: informe o tempo máximo que o serviço poderá ficar inativo;
-    - **Custo do impacto**: defina o custo do impacto quando houver indisponibilidade dessa função vital;
-    - **Estratégia 1**: descreva a primeira estratégia para continuidade do serviço;
-    - **Estratégia 2**: descreva a segunda estratégia para continuidade do serviço;
-    - **Estratégia 3**: descreva a terceira estratégia para continuidade do serviço.
+    - **Possible Impacts**: inform the possible impacts to the business;
+    - **Severity**: select gravity to the business;
+    - **Recovery Point Goal**: enter the time that the recovery of the service will begin;
+    - **Recovery time objective**: enter the expected time for service recovery;
+    - **Cost per hour of inactivity**: set the cost per hour when this vital function is unavailable;
+    - **Maximum tolerable downtime**: enter the maximum time the service can be idle;
+    - **Cost of impact**: define the cost of impact when this vital function is unavailable;
+    - **Strategy 1**: describe the first strategy for service continuity;
+    - **Strategy 2**: describe the second strategy for service continuity;
+    - **Strategy 3**: describe the third strategy for service continuity.
     
-3. Após informar as características do impacto no negócio, clique no botão "Gravar" para efetuar o registro, onde a data, hora e 
-usuário serão gravados automaticamente para uma futura auditoria;
+3. After informing the characteristics of the impact on the business, click the *Save* button to register, where the date, time and 
+user will be saved automatically for a future audit.
 
-4. O botão "Voltar", ao ser acionado, retorna para a etapa anterior da fase de requisitos e estratégia;
+4. The *Back* button, when triggered, returns to the previous step of the requirements and strategy phase.
 
-5. O botão "Avançar", ao ser acionado, avança para a próxima etapa da fase de requisitos e estratégia.
+5. The *Next* button, when triggered, advances to the next step in the requirements and strategy phase.
 
-Registrando avaliação de riscos
+Registering risk assessment
 ---------------------------------
 
-1. Na tela de **Gerenciamento de Continuidade**, na fase de **Requisitos e Estratégia**, clique na guia **Avaliação de Riscos**. 
-Feito isso, será apresentada a tela de adição de cenários para registro da avaliação dos riscos, conforme ilustrada na figura 
-abaixo:
+1. On the **Continuity Management** screen, in the **Requirements and Strategy** phase, click the **Risk Assessment** tab. Once 
+this is done, the scenario addition screen will be displayed to record the risk assessment, as shown in the figure below:
 
-    ![Adição](images/ger-cont.img19.png)
+    ![Addition](images/management.img19.jpg)
     
-    **Figura 19 - Tela de adição de cenário**
+    **Figure 19 - Scenario addition screen**
     
-2. Clique no botão "Adicionar Cenário". Feito isso, será apresentado o cenário na tela, clique no 
-ícone ![simbolo](images/simb-mais.cinza.png) do mesmo para registro das características, conforme ilustrado na figura abaixo:
+2. Click the Add Scenario button. Once this is done, the scenario will be displayed on the screen, click on the icon
+![simbolo](images/simb-plus.grey.jpg) to record the characteristics, as shown in the figure below:
 
-    ![Registro](images/ger-cont.img20.png)
+    ![Record](images/management.img20.jpg)
     
-    **Figura 20 - Tela de registro de cenário**
+    **Figure 20 - Scenario record screen**
     
-    - **Nome cenário**: informe descrição do cenário;
-    - **Função vital**: selecione a função vital. Caso queira limpar o dado informado no campo, clique no 
-    ícone ![simbolo](images/simb-fechar.green.png) ;
+    - **Scenario name**: report scenario description
+    - **Vital function**: select the vital function. If you want to clear the data entered in the field, click the
+    ![simbolo](images/simb-close.green.jpg);
     
-3. Adicione os serviços à avaliação de risco:
+3. Add services to risk assessment:
 
-    - Clique no botão "Adicionar serviço", será apresentada a tela de pesquisa de serviços, conforme ilustrada na figura abaixo:
+    - Click the *Add service* button, the service search screen will be displayed, as shown in the figure below:
     
-    ![Pesquisa](images/ger-cont.img21.png)
+    ![Search](images/management.img21.jpg)
     
-    **Figura 21 - Tela de pesquisa de serviço**
+    **Figure 21 - Service search screen**
     
-    - Realize a pesquisa e selecione o serviço desejado. Após isso, será adicionado o serviço na tela, conforme exemplo ilustrado 
-    na figura abaixo:
+    - Perform the search and select the desired service. After this, the service will be added on the screen,as shown in the figure 
+    below:
     
-    ![Serviço](images/ger-cont.img22.png)
+    ![Service](images/management.img22.jpg)
     
-    **Figura 22 - Serviço relacionado à cenário**
+    **Figure 22 - Scenario-related service**
     
-4. Adicione os riscos à avaliação:
+4. Add risk to evaluation:
 
-    - Clique no botão "Adicionar risco", será apresentada a tela de pesquisa de riscos, conforme ilustrada na figura abaixo:
+    - Click the *Add Risk* button, the risk search screen will be displayed, as shown in the figure below:
     
-    ![Pesquisa](images/ger-cont.img23.png)
+    ![Search](images/management.img23.jpg)
     
-    **Figura 23 - Tela de pesquisa de riscos**
+    **Figure 23 - Risk search screen**
     
-    - Realize a pesquisa e selecione o risco desejado. Após isso, será adicionado o risco na tela, conforme exemplo ilustrado na 
-    figura abaixo:
+    - Perform the search and select the desired risk. After that, the risk will be added to the screen, as shown in the figure 
+    below:
     
-    ![Ameaças](images/ger-cont.img24.png)
+    ![Threats](images/management.img24.jpg)
     
-    **Figura 24 - Guia de ameaças**
+    **Figure 24 - Threats guide**
     
-    - Clique no botão "Selecionar ameaça" para adicionar a ameaça do risco ou no botão "Adicionar ameaça" para criar um nova ameaça. Será apresentado o campo para informar a ameaça. Após selecionar a ameaça clique no ícone para expandir a tela e informar a probabilidade e o impacto da ameaça sobre o risco;
+    - Click the *Select Threat* button to add the threat of risk or the *Add Threat* button to create a new threat. The field to 
+    report the threat will be displayed. After selecting the threat click on the icon to expand the screen and inform the 
+    probability and the impact of the threat on the risk;
     
-    ![Registro](images/ger-cont.img25.png)
+    ![Register](images/management.img25.jpg)
     
-    **Figura 25 - Registro de ameaças**
+    **Figure 25 - Threat register**
     
-    - Após informar as ameaças, clique na guia **Planos de Tratativa**. Será apresenta a tela de plano de tratativa conforme 
-    ilustrada na figura abaixo:
+    - After reporting the threats, click the *Treatment Plans* tab. It will be presented the treatment plan screen as shown in the 
+    figure below:
     
-    ![Tratativa](images/ger-cont.img26.png)
+    ![Treatment](images/management.img26.jpg)
     
-    **Figura 26 - Guia de Planos de Tratativa**
+    **Figure 26 - Treatment plans guide**
     
-    - Clique no botão "Adicionar tratativa", para registrar a tratativa da ameaça. Será apresentado o campo para informar a 
-    descrição do plano de tratativa. Após informar o nome do plano clique no ícone ![simbolo](images/simb-mais.cinza.png) para 
-    expandir a tela e informar a probabilidade e o impacto da tratativa sobre a ameaça;
+    - Click the *Add treatment* button to record the threat handling. The field will be displayed to inform the description of the 
+    treatment plan. After entering the name of the plan click the icon ![simbolo](images/simb-plus.grey.jpg) to expand the screen 
+    and inform the probability and the impact of the treaty on the threat;
     
-    ![Plano](images/ger-cont.img27.png)
+    ![Plan](images/management.img27.jpg)
     
-    **Figura 27 - Registro de plano de tratativa**
+    **Figure 27 - Treatment plan registration**
     
-    - **Nome do plano de tratativa**: informe no nome do plano de tratativa das ameaças;
-    - **Ameaças relacionadas**: informe as ameaças relacionadas ao risco;
-    - **Probabilidade**: informe a probabilidade de tratativa das ameaças;
-    - **Impacto**: informe o impacto da tratativa sobre as ameaças;
-    - **Proposta de medida de recuperação**: descreva a proposta da medida de recuperação;
-    - **Proposta de plano de mitigação**: descreva a proposta do plano de mitigação.
+    - **Treatment plan name**: report in the name of the plan to treat the threats;
+    - **Threats related**: Report risk-related threats;
+    - **Probability**: report the probability of threat handling;
+    - **Impact**: report the impact of trafficking on threats;
+    - **Recovery measure proposal**: describe the proposal for the recovery measure;
+    - **Mitigation plan proposal**: describe the proposed mitigation plan.
     
-    - Após registro dos dados do plano de tratativa, clique no ícone ![simbolo](images/simb-2setas.png) para verificar o gráfico 
-    de avaliação de riscos. A figura abaixo ilustra o exemplo do gráfico de avaliação de riscos:
+    - After recording the treatment plan data, click on the icon ![simbolo](images/simb-2setas.jpg) to check the risk assessment 
+    chart. The figure below illustrates the example of the risk assessment chart:
     
-    ![Gráfico](images/ger-cont.img28.png)
+    ![Chart](images/management.img28.jpg)
     
-    **Figura 28 - Gráfico de avaliação de riscos**
+    **Figure 28 - Risk assessment chart**
     
-5. Após a definição de ameaças e planos de tratativa, a avaliação de risco estará completa, diante disso, clique no botão 
-"Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma futura auditoria.
+5. After the definition of threats and treatment plans, the risk assessment will be complete, then click the *Save* button to 
+register, where the date, time and user will be automatically saved for a future audit.
 
-6. O botão "Voltar", ao ser acionado, retorna para a etapa anterior da fase de requisitos e estratégia.
+6. The *Back* button, when triggered, returns to the previous step of the requirements and strategy phase.
 
-7. O botão "Avançar", ao ser acionado, avança para a próxima etapa da fase de requisitos e estratégia.
+7. The *Next* button, when triggered, advances to the next step in the requirements and strategy phase.
 
-Registrando estratégia de continuidade de serviços de TI
+Registering IT services continuity strategy
 ----------------------------------------------------------
 
-1. Na tela de **Gerenciamento de Continuidade**, na fase de **Requisitos e Estratégia**, clique na guia **Estratégia de 
-Continuidade de Serviços de TI**. Feito isso, será apresentada a tela para registro da estratégia de continuidade de serviço de 
-TI, conforme ilustrada na figura abaixo:
+1. On the **Continuity Management** screen, in the **Requirements and Strategy** phase, click the **IT Services Continuity 
+Strategy** tab. Once this is done, the screen for recording the IT service continuity strategy will be displayed, as shown in the 
+figure below::
 
-    ![Estratégia](images/ger-cont.img29.png)
+    ![Strategy](images/management.img29.jpg)
     
-    **Figura 29 - Tela de registro de estratégia de continuidade de serviço de TI**
+    **Figure 29 - IT Service Continuity strategy logging screen**
     
-2. Nesta tela, é apresentado uma tarja *verde* informando a porcentagem de funções vitais contempladas para o sumário executivo e 
-uma tarja *vermelha* informando a porcentagem de funções vitais não contempladas para o objetivo;
+2. In this screen, a *green* stripe is displayed informing the percentage of vital functions contemplated for the executive summary 
+and a *red* stripe informing the percentage of vital functions not contemplated for the objective;
 
-    - **Sumário Executivo**: descreva o sumário executivo da estratégia de continuidade de serviço de TI;
-    - **Objetivo**: descreva o objetivo da estratégia de continuidade de serviço de TI.
+    - **Executive Summary**: describe the executive summary of the IT service continuity strategy;
+    - **Objective**: describe the purpose of the IT service continuity strategy
     
-3. Adicione as funções vitais:
+3. Add vital functions:
 
-    - Clique no botão "Selecionar Função Vital". Será apresentada a tela para pesquisa de funções vitais. Realize a pesquisa e 
-    selecione a função vital desejada. Feito isso, será adicionado na tela a função vital, conforme exemplo ilustrado na figura 
-    abaixo:
+    - Click the *Select Vital Function* button. The screen for searching for vital functions will be displayed. Perform the search 
+    and select the desired vital function. Once this is done, the vital function will be added to the screen, as shown in the 
+    figure below:
     
-    ![Função](images/ger-cont.img30.png)
+    ![Function](images/management.img30.jpg)
     
-    **Figura 30- Selecionar função vital**
+    **Figure 30 - Select vital function**
     
-    - Clique no botão "Serviços" da função vital para visualizar os serviços vinculados à mesma;
-    - Clique no botão "Cenários" para visualizar os cenários vinculados à mesma. Após isso, serão apresentados os cenários, 
-    clique no ícone ![simbolo](images/simb.mais.png) do cenário para exibição das informações do mesmo, conforme exemplo 
-    ilustrado na figura abaixo:
+    - Click the *Services* button to view the services linked to it;
+    - Click the Scenarios button to see the scenarios linked to it. After this, the scenarios will be presented, click on the icon 
+    ![simbolo](images/simb-plus.grey.jpg) of the scenario to display the information of the same, as shown in the figure below:
     
-    ![Visualização](images/ger-cont.img31.png)
+    ![Preview](images/management.img31.jpg)
     
-    **Figura 31 - Visualização de cenário**
+    **Figure 31 - Scenario preview**
     
-    - Clique na guia de **Planos de Tratativa** do risco, serão apresentados dois botões que permite utilizar a proposta de 
-    medida de recuperação como medida de recuperação e utilizar a proposta de plano de mitigação como medida de resposta;
+    - Click on the **Risk Treatment plans** tab, two buttons will appear that allow you to use the proposed recovery measure as a 
+    recovery measure and use the proposed mitigation plan as a response measure;
     
-    ![Planos](images/ger-cont.img32.png)
+    ![Plans](images/management.img32.jpg)
     
-    **Figura 32 - Visualização de planos de tratativa**
+    **Figure 32 - Visualization of treated plans**
     
-    - Após clicar nos botões, será adicionado na tela de Estratégia da Continuidade de Serviço de TI a medida de recuperação e 
-    medida de resposta para definição, conforme exemplo ilustrado na figura abaixo:
+    - After clicking the buttons, the recovery measure and response measure for definition will be added in the IT Service 
+    Continuity Strategy screen, as shown in the figure below:
     
-    ![Medidas](images/ger-cont.img33.png)
+    ![Measures](images/management.img33.jpg)
     
-    **Figura 33 - Medidas de recuperação e medidas de respostas aos riscos**
+    **Figure 33 - Recovery measures and Risk response measures**
     
-4. Após a definição da estratégia da continuidade de serviço de TI, clique no botão "Gravar" para efetuar o registro, onde a 
-data, hora e usuário serão gravados automaticamente para uma futura auditoria;
+4. After defining the IT service continuity strategy, click the *Save* button to register, where the date, time, and user are 
+automatically saved for a future audit.
 
-5. O botão "Voltar", ao ser acionado, retorna para a etapa anterior da fase de requisitos e estratégia;
+5. The *Back* button, when triggered, returns to the previous step of the requirements and strategy phase.
 
-6. O botão "Finalizar", ao ser acionado, encerra os registros da fase de requisitos e estratégia e avança para a próxima fase do 
-processo.
+6. The *Finish* button, when triggered, closes the requirements and strategy phase records and advances to the next stage of the 
+process.
 
-Implementação
---------------
+Implementation
+----------------
 
-1. Após o registo da Continuidade de Serviço de TI, clique no botão "Avançar" da mesma para acessá-la, conforme indicado na 
-figura abaixo:
+1. After registering for IT Service Continuity, click the *Next* button IT Service Continuity to access it;
 
-    ![Acesso](images/ger-cont.img34.png)
+    ![Access](images/management.img34.jpg)
     
-    **Figura 34 - Acesso a continuidade de serviço de TI**
+    **Figure 34 - Access to IT service continuity**
     
-2. Será apresentada a tela de informações de **Continuidade do Serviço de TI**, clique na fase de **Implementação**, nesta fase é 
-definido o plano de continuidade, planejamento organizacional e estratégia de testes. Feito isso, será apresentada a tela onde 
-poderá registrar as informações necessárias dessa fase, conforme ilustrada na figura abaixo:
+2. The **IT Service Continuity** information screen will be displayed, click on the **Implementation** phase, at this stage the 
+continuity plan, organizational planning and testing strategy will be defined. Once this is done, you will be presented with the 
+screen where you can register the necessary information for this phase, as shown in the figure below:
 
-![Implementação](images/ger-cont.img35.png)
+![Implementation](images/management.img35.jpg)
 
-**Figura 35 - Fase de implementação da continuidade do serviço de TI**
+**Figure 35 - Implementation phase of IT service continuity**
 
-Registrando o plano de continuidade
+Registering the continuity plan
 -------------------------------------
 
-1. Na tela de **Gerenciamento de Continuidade**, na fase de **Implementação**, clique na guia **Plano de Continuidade**. Feito 
-isso, será apresentada a respectiva tela de cadastro de plano de continuidade, conforme ilustrada na figura abaixo:
+1. On the **Continuity Management** screen, in the **Implementation** phase, click the **Continuity Plan** tab. Once this is done, 
+the respective continuity plan register screen will be displayed, as shown in the figure below:
 
-    ![Registro](images/ger-cont.img36.png)
+    ![Record](images/management.img36.jpg)
     
-    **Figura 36 - Tela de registro de plano de continuidade**
+    **Figure 36 - Continuity plan record screen**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill in the fields as directed below:
 
-    - **Título**: informe o título do plano de continuidade;
-    - **Versão**: este campo é para simples conferência, será apresentado a versão do plano de continuidade;
-    - **Status**: informe o status do plano de continuidade;
-    - **Descrição**: descreva os detalhes do plano de continuidade;
-    - **Procedimentos de Continuidade**: informe o procedimento de continuidade (ação automática de 
-    incidente/requisição/procedimento);
-    - **Responsável**: informe o responsável pelo plano de continuidade;
-    - **Validade**: informe a data de validade para o plano de continuidade;
-    - **Autorização**: informe se o plano de continuidade será autorizado;
-    - **Mudança Relacionada**: informe a mudança referente ao plano de continuidade;
-    - Clique no botão "Gravar", e serão apresentadas as opções para relacionar conhecimento(s), relacionar medida(s) de 
-    recuperação e adicionar anexo(s).
+    - **Title**: report the title of the continuity plan;
+    - **Version**: this field is for simple conference, will be presented the version of the continuity plan;
+    - **Status**: report the status of the continuity plan;
+    - **Description**: describe the details of the continuity plan;
+    - **Procedure for Continuity**: report the continuity procedure (automatic incident / Request / procedure action);
+    - **Responsible**: inform the person responsible for the continuity plan;
+    - **Validity**: Enter the expiration date for the continuity plan;
+    - **Authorization**: state whether the continuity plan will be authorized;
+    - **Related Change**: report change regarding continuity plan;
+    - Click the *Save* button, and the options for relating knowledge, relating recovery measure, and add attachment will be 
+    displayed.
     
-3. Relacione um conhecimento ao plano de continuidade:
+3. Relate a knowledge to the continuity plan:
 
-    - Clique no botão "Relacionar Conhecimentos", será apresentada a tela de pesquisa de conhecimentos. Realize a pesquisa e 
-    selecione o conhecimento. Feito isso, será vinculado o conhecimento ao plano de continuidade, conforme exemplo ilustrado na 
-    figura abaixo:
+    - Click the *Relate Knowledge* button, the knowledge search screen will be displayed. Perform the survey and select the 
+    knowledge. Once this is done, knowledge will be linked to the continuity plan, as shown in the figure below:
     
-    ![Conhecimentos](images/ger-cont.img37.png)
+    ![Knowledge](images/management.img37.jpg)
     
-    **Figura 37 - Relacionar conhecimentos**
+    **Figure 37 - Relate knowledge**
     
-    - Para visualizar o conteúdo do conhecimento, basta clicar no ícone ![simbolo](images/simb-iei.png) do mesmo;
-    - Para excluir o vínculo do conhecimento com o plano de continuidade, basta clicar no
-    ícone ![simbolo](images/simb-fechar.red.png) do mesmo.
+    - To view the knowledge content, just click on the *Details* button.
+    - To delete the knowledge link with the continuity plan, simply click on the *Delete* button.
     
-4. Relacione medidas de recuperação ao plano de continuidade:
+4. Relate recovery measures to the continuity plan:
 
-    - Clique no botão "Relacionar Medidas de Recuperação", será apresentada a tela de pesquisa de medidas de recuperação. Realize 
-    a pesquisa e selecione a medida de recuperação. Feito isso, será vinculado a medida de recuperação ao plano de continuidade, 
-    conforme exemplo ilustrado na figura abaixo:
+    - Click the *Relate Recovery Measures* button, the recovery measures search screen appears. Perform the search and select the 
+    recovery measure. Once this has been done, the recovery measure will be linked to the continuity plan, as shown in the figure 
+    below:
     
-    ![Relacionar](images/ger-cont.img38.png)
+    ![Relate](images/management.img38.jpg)
     
-    **Figura 38 - Relacionar medidas de recuperação**
+    **Figure 38 - Relate recovery measures**
     
-5. Caso queira anexar um arquivo, clique no botão "Anexos". Será exibida a tela para anexo de arquivos. Informe a descrição para 
-o arquivo que será anexado, clique no botão "Adicionar Arquivo" e selecione o arquivo desejado. Após isso, o arquivo será anexado 
-e apresentado na tela de anexo do plano de continuidade;
+5. If you want to attach a file, click the *Attachments* button. The file attachment screen appears. Enter the description for the 
+file that will be attached, click the *Add File* button and select the file you want. After that, the file will be attached and 
+displayed on the continuity plan attachment screen.
 
-6. Após informação dos dados do plano de continuidade, clique no botão "Gravar" para efetuar o registro, onde a data, hora e 
-usuário serão gravados automaticamente para uma futura auditoria;
+6. After information of the continuity plan data, click the *Save* button to register, where the date, time and user will be saved 
+automatically for a future audit.
 
-7. O botão "Avançar", ao ser acionado, avança para a próxima etapa da fase de implementação.
+7. The *Next* button, when triggered, advances to the next stage of the deployment phase.
 
-Registrando planejamento organizacional
+Registering organizational planning
 -----------------------------------------
 
-1. Na tela de **Gerenciamento de Continuidade**, na fase de **Implementação**, clique na guia **Planejamento Organizacional**. 
-Feito isso, será apresentada a tela de cadastro de planejamento organizacional, conforme ilustrada na figura abaixo:
+1. On the **Continuity Management** screen, in the **Implementation** phase, click the **Organizational Planning** tab. Once this 
+is done, the organizational planning register screen will be displayed, as shown in the figure below:
 
-    ![Planejamento](images/ger-cont.img39.png)
+    ![Planning](images/management.img39.jpg)
     
-    **Figura 39 - Tela de registro de planejamento organizacional**
+    **Figure 39 - Organizational planning record screen**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill in the fields as directed below:
 
-    - **Sumário Executivo**: descreva um resumo sobre o planejamento organizacional;
-    - Informe a comissão executiva do planejamento organizacional:
-        - **Grupo**: informe o grupo do planejamento;
-        - **Responsabilidade**: informe a responsabilidade do grupo.
+    - **Executive Summary**: Describe a summary of organizational planning;
+    - Inform the executive committee of organizational planning:
+        - **Group**: report the planning group;
+        - **Responsibility**: Inform group responsibility.
         
-3. Adicione o grupo de coordenação do planejamento organizacional:
+3. Add the organizational planning coordination group:
 
-    - Clique no botão "Adicionar Grupo", serão exibidos os campos: Grupo e Responsabilidade;
-    - **Grupo**: informe o grupo de coordenação do planejamento organizacional;
-    - **Responsável**: informe responsabilidade do grupo.
+    - Click the *Add Group* button, the fields: Group and Responsibility will be displayed;
+    - **Group**: report the organizational planning coordination group;
+    - **Responsibility**: report group responsibility..
     
-4. Adicione a equipe de recuperação:
+4. Add recovery team:
 
-    - Clique no botão "Adicionar Grupo", serão exibidos os campos: Grupo e Responsabilidade;
-    - **Grupo**: informe o grupo de recuperação do planejamento organizacional;
-    - **Responsável**: informe responsabilidade do grupo.
+    - Click the *Add Group* button, the fields: Group and Responsibility will be displayed;
+    - **Group**: report the organizational planning recovery group;
+    - **Responsibility**: report group responsibility.
     
-5. Após definição do planejamento organizacional, clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário 
-serão gravados automaticamente para uma futura auditoria;
+5. After the organizational plan is defined, click the *Save* button to register, where the date, time and user are automatically 
+saved for a future audit.
 
-6. O botão "Voltar", ao ser acionado, retorna para a etapa anterior da fase de implementação;
+6. The *Back* button, when triggered, returns to the previous step of the deployment phase.
 
-7. O botão "Avançar", ao ser acionado, avança para a próxima etapa da fase de implementação.
+7. The *Next* button, when triggered, advances to the next stage of the deployment pha
 
-Registrando estratégia de testes
+Registering test strategy
 ----------------------------------
 
-1. Na tela de **Gerenciamento de Continuidade**, na fase de **Implementação**, clique na guia **Estratégia de Testes**. Feito 
-isso, será apresentada a tela de cadastro de estratégia de testes, conforme ilustrada na figura abaixo:
+1. On the **Continuity Management** screen, in the **Implementation** phase, click the **Test Strategy** tab. Once this is done, 
+the test strategy registration screen will be displayed, as shown in the figure below:
 
-    ![Registro](images/ger-cont.img40.png)
+    ![Registration](images/management.img40.jpg)
     
-    **Figura 40 - Tela de registro estratégia de testes**
+    **Figure 40 - Test strategy registration screen**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill in the fields as directed below:
 
-    - **Nome**: informe a descrição da estratégica de testes;
-    - **Sumário Executivo**: descreva o resumo do plano de teste, níveis de teste, cenários de teste, critérios de aceite do 
-    teste e etc.;
-    - Adicione as medidas de recuperação. Essas medidas de recuperação (tratativas) são traçadas dentro dos cenários da etapa de 
-    Estratégia de Continuidade do Serviço da fase de Requisitos e Estratégia.
+    - **Name**: describe the description of the strategic test;
+    - **Executive Summary**: describe the summary of the test plan, test levels, test scenarios, test acceptance criteria and etc;
+    - Add recovery measures. These (negotiation) recovery measures are traced within the scenarios of the Service Continuity 
+    Strategy stage of the Requirements and Strategy phase:
     
-3. Clique no botão "Selecionar medida de recuperação", será apresentada a tela de pesquisa de medidas de recuperação. Realize a 
-pesquisa e selecione a medida de recuperação. Feito isso, será exibida uma tela para definir o plano de teste da medida de 
-recuperação, conforme ilustrada na figura abaixo:
+3. Click the *Select Recovery Measure* button, the Recovery Measurements Search screen appears. Perform the search and select the 
+recovery measure. Once this is done, a screen will be displayed to define the test plan for the recovery measure, as shown in the 
+figure below:
 
-    ![Medidas](images/ger-cont.img41.png)
+    ![Measures](images/management.img41.jpg)
     
-    **Figura 41 - Registro medidas de recuperação**
+    **Figure 41 - Recording recovery measures**
     
-    - **Nome do plano de teste**: informe o nome do plano de testes;
-    - **Plano de teste**: descreva o plano de teste que será seguido. Nesse momento pode-se escrever os tipos de teste que será 
-    realizado, riscos e contingência e os critérios de saída;
-    - **Data/Hora Início**: informe a data e hora de início dos testes;
-    - **Data/Hora Fim**: informe a data e hora de encerramento dos testes.
-    - Informe o grupo participante dos testes.
+    - **Test plan name**: Enter the name of the test plan;
+    - **Test plan**: Describe the test plan that will be followed. At this point you can write the types of test that will be 
+    carried out, risks and contingency and the exit criteria;
+    - **Start Date/Time**: enter the start date and time of the tests;
+    - **End Date/Time**: Enter the date and time of the test closure.
+    - Please inform the participant of the tests:
     
-4. Clique no botão "Selecionar grupo participante", será apresentada a tela de pesquisa de grupos. Realize a pesquisa e selecione 
-o grupo. Feito isso, será adicionado o grupo participante na tela.
+4. Click the *Select participant group* button, the Group Search screen appears. Perform the search and select the group. Once this 
+is done, the participant group will be added to the screen.
 
-    - Informe o grupo facilitador dos testes;
-    - Clique no botão "Selecionar grupo facilitador", será apresentada a tela de pesquisa de grupos. Realize a pesquisa e 
-    selecione o grupo. Feito isso, será adicionado o grupo facilitador na tela;
-    - **Tipo de teste**: selecione o tipo de teste que será realizado durante a etapa de testes;
-    - **Checklist**: selecione o checklist que será verificado nos testes;
-    - Caso queira anexar um arquivo ao plano de teste, basta clicar no ícone ![simbolo](images/simb-clips.png);
+    - Inform the test facilitator group:
+    - Click the *Select facilitator group* button, the Group Search screen appears. Perform the search and select the group. Once 
+    this is done, the facilitator group will be added to the screen.
+    - To delete the facilitator group, simply click the *Delete* button.
+    - **Test type**: Select the type of test that will be performed during the testing step;
+    - **Checklist**: Select the checklist that will be checked in the tests;
+    - If you want to attach a file to the test plan, just click the icon ![simbolo](images/simb-clips.jpg);
     
-5. Após informar os dados da estratégia de testes e caso queira anexar um arquivo, clique na aba **Anexos**. Será exibida a tela 
-para anexo de arquivos conforme ilustrada na figura abaixo:
+5. After entering the test strategy data and if you want to attach a file, click the **Attachment** tab. The file attachment screen 
+will be displayed as shown in the figure below:
 
-    ![Anexo](images/ger-cont.img42.png)
+    ![Attachment](images/management.img42.jpg)
     
-    **Figura 42 - Tela de anexo de arquivos**
+    **Figure 42 - File attachment screen**
     
-    - Informe a descrição para o arquivo que será anexado, clique no botão "Adicionar Arquivo" e selecione o arquivo desejado. 
-    Após isso, o arquivo será anexado e apresentado na tela de anexo da estratégia de testes.
+    - Enter the description for the file that will be attached, click the *Add File* button and select the file you want. After 
+    that, the file will be appended and displayed on the test strategy attachment screen.
     
-6. Após a definição da estratégia de testes, clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão 
-gravados automaticamente para uma futura auditoria;
+6. After defining the test strategy, click the *Save* button to register, where the date, time and user will be saved automatically 
+for a future audit.
 
-7. O botão "Voltar", ao ser acionado, retorna para a etapa anterior da fase de implementação;
+7. The *Back* button, when triggered, returns to the previous step of the deployment phase.
 
-8. O botão "Finalizar", ao ser acionado, encerra os registros da fase de implementação e avança para a próxima fase do processo.
+8. The *Finish* button, when triggered, closes the records of the implementation phase and advances to the next stage of the 
+process.
 
-Operação contínua
--------------------
+Continuous operation
+----------------------
 
-1. Após o registro da Continuidade de Serviço de TI, clique no botão "Avançar" da mesma para acessá-la, conforme indicado na 
-figura abaixo:
+1. After registering for IT Service Continuity, click the *Next* button IT Service Continuity to access it;
 
-    ![Acesso](images/ger-cont.img43.png)
+    ![Access](images/management.img43.jpg)
     
-    **Figura 43 - Acesso a continuidade de serviço de TI**
+    **Figure 43 -Access to IT service continuity**
     
-2. Será apresentada a tela de informações de **Continuidade do Serviço de TI**, clique na fase de **Operação Contínua**, nesta 
-fase é definido a conscientização, auditoria, testes e invocação. Feito isso, será apresentada a tela onde poderá registrar as 
-informações necessárias dessa fase, conforme ilustrada na figura abaixo:
+2. The **IT Service Continuity information** screen will be displayed, click on the **Continuous Operation** phase, at this stage 
+the awareness, auditing, testing and invocation will be defined. Once this is done, you will be presented with the screen where you 
+can register the necessary information for this phase, as shown in the figure below:
 
-![Operação](images/ger-cont.img44.png)
+![Operation](images/management.img44.jpg)
 
-**Figura 44 - Fase de operação contínua da continuidade do serviço de TI**
+**Figure 44 - Continuous operation phase of IT service continuity**
 
-Conscientização (educação e treinamento)
+Awareness (education and training)
 ------------------------------------------
 
-1. Na tela de **Gerenciamento de Continuidade**, na fase de **Operação Contínua**, clique na guia **Conscientização (Educação e 
-Treinamento)**. Feito isso, será apresentada a tela de cadastro, conforme ilustrada na figura abaixo:
+1. On the **Continuity Management** screen, in the **Continuous Operation** phase, click the **Awareness (Education and Training)** 
+tab. Once this is done, the registration screen will be displayed, as shown in the figure below:
 
-    ![Registro](images/ger-cont.img45.png)
+    ![Recording](images/management.img45.jpg)
     
-    **Figura 45 - Tela de registro de conscientização**
+    **Figure 45 - Awareness recording screen**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill in the fields as directed below:
 
-    - **Sumário Executivo**: descreva o sumário executivo;
-    - Informe os registros de treinamento;
-    - Clique no botão "Adicionar Registro", será apresentada a tela registro dos dados de treinamento, conforme ilustrada na 
-    figura abaixo:
+    - **Executive Summary**: describe the executive summary;
+    - Inform the training records:
+    - Click the *Add Record* button, the Training Data Log screen will be displayed, as shown in the figure below:
     
-    ![Treinamento](images/ger-cont.img46.png)
+    ![Training](images/management.img46.jpg)
     
-    **Figura 46 - Registro de treinamento**
+    **Figure 46 - Training registration**
     
-    - **Análise Crítica da Ação**: informe a análise crítica sobre o treinamento;
-    - **Tipo de Atividade**: selecione o tipo de atividade do treinamento;
-    - **Status**: selecione o status do treinamento;
-    - Caso queira anexar um arquivo ao registro de treinamento, basta clicar no ícone ![simbolo](images/simb-clips.png).
+    - **Critical analysis of the action**: report the critical analysis of the training;
+    - **Activity type**: select the type of training activity;
+    - **Status**: select the status of the training;
+    - If you want to attach a file to the training log, simply click the icon ![simbolo](images/simb-clips.jpg).
     
-3. Após a informação dos dados, clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados 
-automaticamente para uma futura auditoria;
+3. After the data is entered, click the *Save* button to register, where the date, time and user will be saved automatically for a 
+future audit.
 
-4. O botão "Avançar", ao ser acionado, avança para a próxima etapa da fase de operação contínua.
+4. The *Next* button, when triggered, advances to the next step of the continuous operation phase.
 
 Realizando revisão e auditoria
 --------------------------------
 
-1. Na tela de **Gerenciamento de Continuidade**, na fase de **Operação Contínua**, clique na guia **Revisão e Auditoria**. Feito 
-isso, será apresentada a tela de revisão e auditoria da continuidade do serviço. Nesta tela permite verificar o histórico de 
-alterações do registro de continuidade de serviço de TI para auditoria do mesmo e registrar as informações necessárias da 
-auditoria realizada. A figura abaixo ilustra essa tela:
+1. On the **Continuity Management** screen, in the **Continuous Operation** phase, click the **Review and Audit** tab. Once this is 
+done, the service continuity review and audit screen will be displayed. In this screen, you can check the history of changes to the 
+IT service continuity record to audit the IT service and record the required information from the audit performed. The figure below 
+illustrates this screen:
 
-    ![Auditorias](images/ger-cont.img47.png)
+    ![Audits](images/management.img47.jpg)
     
-    **Figura 47 - Tela auditorias registradas**
+    **Figure 47 - Registered audits screen**
     
-2. Para realizar uma busca específica da alteração feita no registro de continuidade do serviço de TI, informe o período 
-desejado, selecione a categoria e clique no botão "Buscar". Após isso, serão apresentados os dados para revisão e auditoria;
+2. To perform a specific search of the change made to the IT service continuity record, enter the desired date range, select the 
+category and click the *Search* button. After that, the data for review and auditing will be presented;
 
-3. Para verificar mais detalhes sobre a modificação realizada, basta clicar no botão "Expandir" do item desejado;
+3. To check more details about the modification made, just click on the *Expand* button of the desired item.
 
-4. Caso tenha a necessidade de registrar os detalhes da auditoria realizada, clique na aba **Cadastrar Auditoria**. Feito isso, 
-será apresentada a tela de cadastro conforme ilustrada na figura abaixo:
+4. If you need to record the details of the audit performed, click on the tab *Register Audit*. Once this is done, the registration 
+screen will be displayed as shown in the figure below:
 
-    ![Auditoria](images/ger-cont.img48.png)
+    ![Audit](images/management.img48.jpg)
     
-    **Figura 48 - Tela cadastrar auditoria**
+    **Figure 48 - Audit register screen**
     
-    - **Categoria**: selecione a categoria de continuidade de serviço, na qual foi feita a auditoria;
-    - **Descrição**: informe os detalhes da auditoria realizada.
+    - **Category**: select the category of continuity of service, in which the audit was performed;
+    - **Description**: Enter the details of the audit performed
     
-5. Após informar todos os dados necessários, clique no botão "Gravar" para efetuar o registro;
+5. After entering all the required data, click the *Save* button to register.
 
-6. O botão "Voltar", ao ser acionado, retorna para a etapa anterior da fase de operação contínua;
+6. The *Back* button, when triggered, returns to the previous step of the continuous operation phase.
 
-7. O botão "Avançar", ao ser acionado, avança para a próxima etapa da fase de contínua.
+7. The *Next* button, when triggered, advances to the next step in the continuous phase.
 
-Testes
+Tests
 ---------
 
-1. Na tela de **Gerenciamento de Continuidade**, na fase de **Operação Contínua**, clique na guia **Testes**. Feito isso, será 
-apresentado o calendário de testes, conforme ilustrado na figura abaixo:
+1. On the **Continuity Management** screen, in the **Continuous Operation** phase, click the **Tests** tab. Once this is done, the 
+test calendar will be displayed, as shown in the figure below:
 
-    ![Testes](images/ger-cont.img49.png)
+    ![Tests](images/management.img49.jpg)
     
-    **Figura 49 - Calendário de testes**
+    **Figure 49 - Test schedule**
     
-2. Neste calendário, são apresentados os eventos de testes traçados durante a implementação, o que chamamos de estratégia de 
-testes. Estes eventos de testes podem ser visualizados por mês, semana ou dia. Para definir o tipo de visualização, clique em um 
-dos botões localizados acima do calendário: **Mês, Semana** ou **Dia**;
+2. In this calendar, we present the test events traced during the implementation, which we call test strategy. These test events 
+can be viewed by month, week, or day. To set the display type, click one of the buttons located above the calendar: **Month, 
+Week**, or **Day**;
 
-3. Clique no evento de teste para registrar as demais informações sobre o teste. Após isso, será apresentada a tela de evento de 
-teste exibindo as informações principais do mesmo, conforme ilustrada na figura abaixo:
+3. Click the test event to record the remaining test information. After that, the test event screen displays the main event 
+information, as shown in the figure below:
 
-    ![Guia](images/ger-cont.img50.png)
+    ![Main](images/management.img50.jpg)
     
-    **Figura 50 - Guia informações principais**
+    **Figure 50 - Main information tab**
     
-4. Adicione os grupos de teste. Clique na aba **Grupo**, será apresentada a tela conforme ilustrada na figura abaixo:
+4. Add the test groups. Click on the **Group** tab, the screen will be displayed as shown in the figure below:
 
-    ![Grupo](images/ger-cont.img51.png)
+    ![Group](images/management.img51.jpg)
     
-    **Figura 51 - Guia grupo**
+    **Figure 51 - Group tab**
     
-5. Clique no botão "Adicionar Grupo", será apresentada a tela de pesquisa de grupo. Realize a pesquisa do grupo desejado e 
-selecione o mesmo para efetuar a operação;
+5. Click the *Add Group* button, the Group Search screen will appear. Perform the desired group search and select the group to 
+perform the operation.
 
-6. Após a adição dos grupos, os mesmos serão exibidos na tela de evento de teste, conforme exemplo ilustrado na figura abaixo:
+6. After adding the groups, they will be displayed on the test event screen, as shown in the figure below:
 
-    ![Grupo](images/ger-cont.img52.png)
+    ![Group](images/management.img52.jpg)
     
-    **Figura 52 - Grupo relacionado**
+    **Figure 52 - Related group**
     
-7. Adicione os colaboradores envolvidos no teste. Clique na aba **Colaborador**, será apresentada a tela conforme ilustrada na 
-figura abaixo:
+7. Add the employees involved in the test. Click the **Staff** tab, the screen will be displayed as shown in the figure below:
 
-    ![Colaborador](images/ger-cont.img53.png)
+    ![Staff](images/management.img53.jpg)
     
-    **Figura 53 - Guia colaborador**
+    **Figure 53 - Staff tab**
     
-8. Clique no botão "Adicionar Colaborador", será apresentada a tela de pesquisa de colaborador. Realize a pesquisa do colaborador 
-desejado e selecione o mesmo para efetuar a operação;
+8. Click the *Add Staff* button, the Staff Search screen will be displayed. Perform the poll of the desired collaborator and select 
+the same one to carry out the operation.
 
-9. Após a adição dos colaboradores, os mesmos serão exibidos na tela de evento de teste, conforme exemplo ilustrado na figura 
-abaixo:
+9. After adding employees, they will be displayed on the test event screen, as shown in the figure below:
 
-    ![Relacionado](images/ger-cont.img54.png)
+    ![Related](images/management.img54.jpg)
     
-    **Figura 54 - Colaborador relacionado**
+    **Figure 54 - Related contributor**
     
-10. Informe a evidência de teste. Clique na guia **Evidências de teste**, será apresentada a tela conforme ilustrada na figura 
-abaixo:
+10. Inform the test evidence. Click the **Test Evidence** tab, the screen will be displayed as shown in the figure below:
 
-    ![Teste](images/ger-cont.img55.png)
+    ![Test](images/management.img55.jpg)
     
-    **Figura 55 - Guia evidência de teste**
+    **Figure 55 - Test evidence tab**
     
-11. Clique no botão "Adicionar Evidência de teste", será apresentada a tela de pesquisa de evidências de teste. Realize a 
-pesquisa da evidência de teste desejada e selecione a mesma para efetuar a operação. Caso não encontre o registro da evidência de 
-teste e haja a necessidade de registrar uma evidência para adicionar ao evento de teste, poderá registrá-la a partir dessa tela, 
-basta clicar no botão "Criar Evidência de teste";
+11. Click the *Add Test Evidence* button, the Test Evidence Search screen appears. Perform the desired test evidence search and 
+select it to perform the operation. If you do not find the record of the test evidence and need to record evidence to add to the 
+test event, you can register it from this screen by simply clicking the *Create Test Evidence* button;
 
-12. Após a adição das evidências de teste, as mesmas serão exibidas na tela de evento de teste, conforme exemplo ilustrado na 
-figura abaixo:
+12. After adding the test evidence, they will be displayed on the test event screen, as shown in the figure below:
 
-    ![Evidência](images/ger-cont.img56.png)
+    ![Evidence](images/management.img56.jpg)
     
-    **Figura 56 - Evidência de teste relacionado**
+    **Figure 56 - Evidence of related test**
     
-    - Para visualizar o conteúdo da evidência de teste, basta clicar no botão "Detalhe" da mesma.
+    - To view the contents of the test evidence, simply click the *Details* button.
     
-13. Informe os planos de teste. Clique na aba **Planos de teste**, será apresentada a tela conforme ilustrada na figura abaixo:
+13. Please inform the test plans. Click on the **Test Plans** tab, the screen will be displayed as shown in the figure below:
 
-    ![Planos](images/ger-cont.img57.png)
+    ![Plans](images/management.img57.jpg)
     
-    **Figura 57 - Guia planos de teste**
+    **Figure 57 - Test plans tab**
     
-    - Clique no botão "Planos de teste", será apresentada a tela de pesquisa de planos de teste. Realize a pesquisa do plano de 
-    teste desejado e selecione o mesmo para efetuar a operação;
-    - Após a adição dos planos de teste, os mesmos serão exibidos na tela de evento de teste, conforme exemplo ilustrado na 
-    figura abaixo:
+    - Click the *Add Test Plans* button, the Test Plan Search screen appears. Perform the desired test plan search and select the 
+    test plan to perform the operation;
+    - After adding the test plans, they will be displayed on the test event screen.
     
-    ![Planos](images/ger-cont.img58.png)
+    ![Plans](images/management.img58.jpg)
     
-    **Figura 58 - Planos de teste relacionado**
+    **Figure 58 - Related test plans tab**
     
-14. Após informar todos os dados necessários do evento de teste, clique no botão "Adicionar" para efetuar a operação;
+14. After entering all the necessary data for the test event, click the *Add* button to perform the operation.
 
-15. O botão "Excluir", ao ser acionado, exclui o evento de teste do calendário;
+15. The *Delete* button, when triggered, deletes the test event from the calendar.
 
-16. Clique no botão "Gravar" do calendário de testes para aplicar as alterações realizadas;
+16. Click the *Save* button in the test calendar to apply the changes you made.
 
-17. O botão "Voltar" do calendário de teste, ao ser acionado, retorna para a etapa anterior da fase de operação contínua;
+17. The *Back* button of the test calendar, when triggered, returns to the previous step of the continuous operation phase.
 
-18. O botão "Avançar" do calendário de teste, ao ser acionado, avança para a próxima etapa da fase de operação contínua.
+18. The *Next* button on the test calendar, when triggered, advances to the next stage of the continuous operation phase.
 
-Invocação
-----------
+Invocation
+--------------
 
-O gatilho para haver uma invocação é a abertura de um incidente do tipo crítico. O incidente tem que estar aprovado para exibição 
-na tela de Invocação.
+The trigger for an invocation is the opening of an incident of the critical type. The incident must be approved for display on the 
+Summon screen.
 
-1. Na tela de **Gerenciamento de Continuidade**, na fase de **Operação Contínua**, clique na guia **Invocação**. Feito isso, será 
-apresentado a tela de invocação, conforme ilustrado na figura abaixo:
+1. On the **Continuity Management** screen, in the **Continuous Operation** phase, click the **Invocation** tab. Once this is done, 
+the invocation screen will be displayed, as shown in the figure below:
 
-    ![Invocação](images/ger-cont.img59.png)
+    ![Invocation](images/management.img59.jpg)
     
-    **Figura 59 - Tela invocação**
+    **Figure 59 - Invocation screen**
     
-    !!! warning "ATENÇÃO"
+    !!! warning "WARNING"
     
-        Para iniciar o procedimento de continuidade, os dados básicos dos procedimentos já devem estar registrados nas 
-        Iniciativas/Solicitações/Procedimentos Ação Automática.
+        To begin the continuity procedure, the basic procedures data should already be registered in the Incidents / 
+        Requests/Procedures Automatic Actions screen.
         
-2. Clique no botão "Iniciar Plano de Continuidade Principal", para iniciar o procedimento principal de continuidade, o qual já 
-deve estar cadastrado no plano de continuidade da fase de implementação;
+2. Click on the *Start Main Continuity Plan* button to start the main continuity procedure, which must already be registered in the 
+continuity plan of the implementation phase;
 
-3. Clique no botão "Iniciar Plano de Continuidade Auxiliar", para iniciar os procedimentos auxiliares de continuidade;
+3. Click the *Start Auxiliary Continuity Plan* button to start the continuity auxiliary procedures;
 
-4. O exemplo ilustrado na figura abaixo apresenta os procedimentos de continuidade que foram iniciados:
+4. The example shown in the figure below shows the continuity procedures that were started:
 
-    ![Procedimentos](images/ger-cont.img60.png)
+    ![Procedures](images/management.img60.jpg)
     
-    **Figura 60 - Procedimentos de continuidade iniciados**
+    **Figure 60 - Initiated continuity procedures**
     
-5. Para verificar a descrição da solicitação de procedimento de continuidade, basta clicar no botão "Descrição";
+5. To verify the description of the continuity procedure request, simply click the *Description* button;
 
-6. Para visualizar a solicitação de procedimento de continuidade, basta clicar no botão "Visualizar";
+6. To view the continuity procedure request, simply click the *Visualize* button;
 
-7. Para capturar a solicitação de procedimento de continuidade para execução da mesma, basta clicar no botão "Capturar tarefa";
+7. To capture the request for continuity procedure to execute it, just click on the *Capture Task* button;
 
-8. Para executar a solicitação de procedimento de continuidade, clique no botão "Executar", será apresentada a tela para 
-atendimento da solicitação.
+8. To execute the continuity procedure request, click the *Execute* button, the request fulfillment screen will be displayed.
 
-Fluxo de incidente crítico
+Critical incident flow
 -----------------------------
 
-A solicitação de serviço do tipo "incidente crítico" segue o fluxo definido no portfólio de serviços, no momento do vínculo do 
-serviço de incidente com contrato. A figura abaixo ilustra o desenho do fluxo:
+The "critical incident" service request follows the flow defined in the service portfolio, at the time of the contract incident 
+service link. The figure below illustrates the flow pattern:
 
-![Fluxo](images/ger-cont.img61.png)
+![Flow](images/management.img61.jpg)
 
-**Figura 61 - Fluxo de incidente crítico**
+**Figure 61 - Critical incident flow**
 
-Fluxo de procedimento de continuidade
+Flow of continuity procedure
 ---------------------------------------
 
-A solicitação de serviço do tipo procedimento de continuidade segue o fluxo definido no portfólio de serviços, no momento do 
-vínculo do serviço de procedimento com contrato. A figura abaixo ilustra o desenho do fluxo:
+The service request of the continuity procedure type follows the flow defined in the service portfolio, at the moment of the 
+service of the contract procedure service. The figure below illustrates the flow pattern:
 
-![Fluxo](images/ger-cont.img62.png)
+![Flow](images/management.img62.jpg)
 
-**Figura 62 - Fluxo de procedimento de continuidade**
+**Figure 62 - Continuity procedure flow**
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Larissa Lourenço
+    <b>Updated:</b>08/27/2019 – Larissa Lourenço
     
-[1]:/pt-br/citsmart-platform-7/processes/continuity/threat-category.html
+[1]:/en-us/citsmart-platform-7/processes/continuity/threat-category.html
 
-[2]:/pt-br/citsmart-platform-7/processes/continuity/threat-registration.html
+[2]:/en-us/citsmart-platform-7/processes/continuity/threat-registration.html
 
-[3]:/pt-br/citsmart-platform-7/processes/continuity/risk-category.html
+[3]:/en-us/citsmart-platform-7/processes/continuity/risk-category.html
 
-[4]:/pt-br/citsmart-platform-7/processes/continuity/continuity-risk.html
+[4]:/en-us/citsmart-platform-7/processes/continuity/continuity-risk.html
 
-[5]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/client.html
+[5]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/client.html
 
-[6]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html
+[6]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/employee.html
 
-[7]:/pt-br/citsmart-platform-7/plataform-administration/configuring-automatic-actions/automatic-actions.html
+[7]:/en-us/citsmart-platform-7/plataform-administration/configuring-automatic-actions/automatic-actions.html
 
-[8]:/pt-br/citsmart-platform-7/processes/knowledge/management.html
+[8]:/en-us/citsmart-platform-7/processes/knowledge/management.html
