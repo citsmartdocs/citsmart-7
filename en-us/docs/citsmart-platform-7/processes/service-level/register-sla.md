@@ -165,7 +165,7 @@ Filling in the registration fields
     priority is from 1 to 5, with 1 being the highest priority and 5 being the
     lowest:
 
-    ![figure](images/register-sla-1.png)
+    ![figure](images/register-sla-5.png)
     
     **Figure 5 - Time recording (per phase)**
 
@@ -213,7 +213,7 @@ priority and escalate the group to execute the service request.
    -  If the type of agreement informed is Information captured from several
     other sources, please inform the service agreement data:
 
-   ![figure](images/register-sla-6.png)
+   ![figure](images/register-sla-8.png)
     
    **Figure 6 - Recording of Information captured from several other sources**
 
@@ -256,7 +256,7 @@ Verifying the audit history of the service level agreement
     -   The history of the changes made to the service level agreement record is
     displayed in the History tab, as shown in the figure below:
 
-![figure](images/register-sla-7.png)
+![figure](images/register-sla-9.png)
 
 **Figure 7 - Audit History screen**
 
@@ -273,3 +273,4 @@ Verifying the audit history of the service level agreement
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
     <b>Updated:</b>08/27/2019 – Anna Martins
+
