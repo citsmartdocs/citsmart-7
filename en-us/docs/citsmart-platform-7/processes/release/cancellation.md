@@ -1,8 +1,7 @@
 title: Release record cancellation
-
 Description: This feature allows cancelling the release request.
 
-\# Release record cancellation
+# Release record cancellation
 
 This feature allows cancelling the release request.
 
@@ -10,7 +9,7 @@ How to access
 -------------
 
 1.  Access the Release Management feature navigating through the main
-    menu **Process Management > Release Management > Release Management.**
+    menu **Process Management > Release Management > Release Management**.
 
 Preconditions
 -------------
@@ -40,9 +39,9 @@ Items list
 
 1.  The following cadastral field (s) are available to the user to facilitate
     the identification of the desired items in the standard listing of the
-    functionality:** Number, Applicant Name, Created on, Priority, Time limit,
+    functionality: Number, Applicant Name, Created on, Priority, Time limit,
     Delay, Situation, Current task, Executor Group, Currently
-    Responsible** and **Shared with**.
+    Responsible and Shared with.
 
 2.  There are action buttons available to the user in relation to each item in
     the listing, they are: *View*, *Reports* and *Action*.
@@ -61,7 +60,7 @@ Cancelling the release request
 
 1.  The release management screen will be displayed.
 
-2.  On the **Management **tab, locate the release request which will be
+2.  On the **Management** tab, locate the release request which will be
     cancelled, click on the *Action* button and select
     the *Start/RunTask* option, as indicated on the image below:
 
@@ -72,7 +71,7 @@ Cancelling the release request
 3.  The **Release Request Entry** screen will be displayed with all the fields
     filled out with the content related to the selected request;
 
-   -   On the **Request **area, on the Status field, change the release request
+   -   On the **Request** area, on the Status field, change the release request
     status to "Cancelled";
 
    -   On the **Closure** area, on the Closure field, describe the release request
