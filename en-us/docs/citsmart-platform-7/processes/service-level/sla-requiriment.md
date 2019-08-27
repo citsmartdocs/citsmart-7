@@ -1,9 +1,7 @@
 title: Service level agreement condition registration and search
+Description: The goal of this feature is to register the service level agreement conditions to be used in other system routines.
 
-Description: The goal of this feature is to register the service level agreement
-conditions to be used in other system routines.
-
-\# Service level agreement condition registration and search
+# Service level agreement condition registration and search
 
 The goal of this feature is to register the service level agreement conditions
 to be used in other system routines.
