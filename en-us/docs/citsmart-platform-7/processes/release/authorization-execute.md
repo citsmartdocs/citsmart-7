@@ -1,85 +1,85 @@
-title: Autorização da execução de liberação
+title: Release execution authorization
+Description: This feature allows authorizing the release request execution.
 
-Description: Esta funcionalidade permite autorizar a execução da liberação.
+# Release execution authorization
 
-# Autorização da execução de liberação
+This feature allows authorizing the release request execution.
 
-Esta funcionalidade permite autorizar a execução da liberação.
-
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de Gerenciamento de Liberação através da
-    navegação no menu principal **Processos ITIL \> Gerência de
-    Liberação \> Gerenciamento de Liberação**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter permissão para executar a liberação (ver conhecimento [Cadastro e
-    pesquisa de perfil de acesso][1]).
+1.  Access the **Release Management** feature navigating through the main
+    menu **Process Management > Release Management > Release
+    Management**.
 
-Filtros
+Preconditions
+-------------
+
+1.  Have permission to execute the release request (see knowledge [Access
+    profile registration and search][1]).
+
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -   Número da liberação;
+-   Request Nº;
 
-    -   Atribuída/Compartilhada.
+-   Assigned/Shared.
 
-![Criar](images/execute-1.png)
+![figure](images/execute-1.png)
 
-**Figura 1 - Tela de pesquisa liberação**
+**Figure 1 - Release search screen**
 
-Listagem de items
------------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Número, Solicitante, Criada em, Prioridade, Prazo limite,
-    Atraso, Situação, Tarefa atual, Grupo Executor, Responsável
-    atual e Compartilhado com.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: Number, Applicant Name, Created on, Priority, Time limit, Delay
+    Situation, Current task Executor Group, Current Responsible and Share
+    With.**
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Visualizar*, *Relatórios* e *Ação*.
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *View*, *Reports*, and *Action*.
 
-    ![Criar](images/execute-2.png)
+    ![figure](images/execute-1.png)
+ 
+    **Figure 2 - Release listing screen**
 
-    **Figura 2 - Tela de listagem de liberação**
+   !!! info "IMPORTANT"
 
-    !!! info "IMPORTANTE"
+      Only the "applicant" may authorize the release request execution.
 
-        Somente o “solicitante” pode autorizar a execução da liberação.
+3.  The release management screen will be displayed;
 
-3.  Será apresentada a tela de Gerenciamento de
-    Liberação. Na guia **Gerenciamento**, localize a liberação que será liberada
-    para execução, clique no botão *Ações* e selecione a opção *Iniciar/Executar*
-    *tarefa*, conforme indicado na figura abaixo:
+4.  On the **Management** tab, locate the release request which will be cleared
+    to be executed, click on the *Action* button and select the *Start/Run
+    Task* option;
 
-    ![Criar](images/execute-3.png)
+   ![figure](images/execute-3.png)
+   
+   **Figure 3 - Authorize release request for execution**
 
-    **Figura 3 - Autorizar liberação para execução**
+5.  The **Release Request Entry** screen will be displayed with all the fields
+    filled out with the content related to the selected request;
 
-4.  Será exibida a tela de **Registro de Liberação** com os campos preenchidos,
-    com o conteúdo referente à liberação selecionada;
+6.  Check if the release request registry data is correct and click on the *Save
+    and Forward Flow* button to perform the operation, at which the release
+    request will be sent to the perform group so it can be executed, on this
+    case the date, time and user will automatically be stored for a future
+    audit.
 
-5.  Verifique se as informações do registro de liberação estão corretas e clique
-    no botão *Gravar e avançar o fluxo* para efetuar a operação, onde a
-    liberação será encaminhada para o grupo executor realizar sua execução,
-    neste caso a data, hora e usuário serão armazenados automaticamente para uma
-    futura auditoria.
+Filling in the registration fields
+----------------------------------
 
-Preenchimento dos campos cadastrais
------------------------------------
+1.  No applicable.
 
-1.  Não se aplica.
 
-[1]:/pt-br/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
+[1]:/en-us/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Anna Martins
+    <b>Updated:</b>08/27/2019 – Anna Martins
