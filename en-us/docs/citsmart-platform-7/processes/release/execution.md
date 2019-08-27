@@ -104,7 +104,7 @@ Linking problem
 1.  Relate the problems to the release request, if necessary:
 
     -   On the right side of the release request screen, click
-        on** Processes/Options** and then on the **Problem** option, as shown in
+        on **Processes/Options** and then on the **Problem** option, as shown in
         the figure below:
 
     ![figure](images/execution-9.png)
@@ -263,7 +263,7 @@ Linking request purchases linked
     relate it to the release Request:
 
     -   On the right side of the release request screen, click on
-    the **Processes/Option**s tab and select the **Request purchases
+    the **Processes/Options** tab and select the **Request purchases
     linked** option as shown in the following figure:
 
      ![figure](images/execution-22.png)
@@ -402,9 +402,9 @@ Consulting knowledg base
     where the release will be sent to the test phase;
 
 -   If you want to save only the logged release information and keep the current
-    job, click on the *Save and Keep the Current Task* button*;*
+    job, click on the *Save and Keep the Current Task* button;
 
--   In both cases prior to clicking the *Save *button the date, time and user
+-   In both cases prior to clicking the *Save* button the date, time and user
     will be stored automatically for a future audit.
 
 
