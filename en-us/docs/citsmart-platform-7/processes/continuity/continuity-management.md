@@ -173,76 +173,74 @@ Defining project
 1. On the **Continuity Management** screen, in the **Initiation** phase, click the **Project** tab. Once this is done, the project 
 definition screen will be displayed, as shown in the figure below:
 
-    ![Linkmages/ger-cont.img11.png)
+    ![Link](images/management.img11.jpg)
     
-    **Figura 11 - Tela de vínculo de projeto**
+    **Figure 11 - Project link screen**
     
-2. Clique no botão "Vincular Projeto" para relacionar um projeto já existente à continuidade do serviço. Feito isso, será exibida 
-a tela de pesquisa do projeto. Realize a pesquisa e selecione o projeto desejado para efetuar a operação. Após isso, será 
-apresentado o registro de projeto conforme exemplo ilustrado na figura abaixo:
+2. Click the *Link Project* button to link an existing project to the continuity of the service. Once this is done, the project 
+search screen will be displayed. Perform the search and select the desired project to perform the operation. After this, the 
+project record will be presented as shown in the figure below:
 
-    ![Projeto](images/ger-cont.img12.png)
+    ![Project](images/management.img12.jpg)
     
-    **Figura 12 - Registro de projeto**
+    **Figure 12 - Project registration**
     
-    - Caso seja necessário a criação de um novo projeto, poderá registrá-lo a partir dessa tela, basta clicar no botão 
-    "Criar Novo Projeto".
-    - Para alterar os dados do projeto, basta clicar no ícone ![simbolo](images/simb-lapis.marrom.png) do mesmo, localizado 
-    no canto superior esquerdo.
+    - If you need to create a new project, you can register it from this screen, just click the *Create New Project* button.
+    - To change the project data, just click on the project's icon ![symbol](images/simb-pencil.brown.jpg) in the upper left 
+    corner.
     
-3. Após definição do projeto, clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados
-automaticamente para uma futura auditoria;
+3. After the project has been defined, click the *Save* button to register, where the date, time and user will be saved 
+automatically for a future audit.
 
-4. O botão "Voltar", ao ser acionado, retorna para a etapa anterior da fase de iniciação;
+4. The *Back* button, when triggered, returns to the previous step of the initiation phase.
 
-5. O botão "Avançar", ao ser acionado, avança para a próxima etapa da fase de iniciação.
+5. The *Finish* button, when triggered, closes the initiation phase records and advances to the next stage of the process.
 
-Requisitos e estratégia
---------------------------
-
-1. Será apresentada a tela de informações de **Continuidade do Serviço de TI**, clique na fase de **Requisitos e Estratégia**, 
-nesta fase é definido as funções vitais, análise de impacto no negócio, avaliação de riscos e estratégia de continuidade. Feito 
-isso, será apresentada a tela onde poderá registrar as informações necessárias dessa fase, conforme ilustrada na figura abaixo:
-
-![Requisitos](images/ger-cont.img13.png)
-
-**Figura 13 - Fase de requisitos e estratégia da continuidade do serviço de TI**
-
-Registrando funções vitais
+Requirements and strategy
 ----------------------------
 
-1. Na tela de **Gerenciamento de Continuidade**, na fase de **Requisitos e Estratégia**, clique na guia **Funções Vitais**. Feito 
-isso, será apresentada a tela de cadastro de funções vitais, conforme ilustrada na figura abaixo:
+1. The **IT Service Continuity** information screen will be displayed, click on the **Requirements and Strategy** phase, this phase 
+defines the vital functions, business impact analysis, risk assessment and continuity strategy. Once this is done, you will be 
+presented with the screen where you can register the necessary information for this phase, as shown in the figure below:
 
-    ![Adição](images/ger-cont.img14.png)
-    
-    **Figura 14 - Tela de adição de função vital**
-    
-2. Clique no botão "Adicionar Função Vital" para adicionar o(s) processo(s) de negócio. Feito isso, será exibida a tela de 
-pesquisa do processo de negócio. Realize a pesquisa, selecione o(s) processo(s) desejado(s) e clique no botão "Enviar" para 
-efetuar a operação. Após isso, será(ão) adicionado(s) na tela o(s) registro(s) de processo de negócio, conforme exemplo ilustrado 
-na figura abaixo:
+![Requirements](images/management.img13.jpg)
 
-    ![Registro](images/ger-cont.img15.png)
-    
-    **Figura 15 - Registro de função vital**
-    
-3. Após definição das funções vitais, clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão 
-gravados automaticamente para uma futura auditoria. Após a gravação do registro, será apresentado o botão "Anexar" para anexo de 
-arquivos referente a função vital, conforme ilustrado na figura abaixo:
+**Figure 13 - Requirements phase and IT service continuity strategy**
 
-    ![Função](images/ger-cont.img16.png)
-    
-    **Figura 16 - Registro de função vital**
-    
-4. O botão "Avançar", ao ser acionado, avança para a próxima etapa da fase de requisitos e estratégia.
+Recording vital functions
+----------------------------
 
-Registrando análise de impacto no negócio
+1. On the **Continuity Management** screen, in the **Requirements and Strategy** phase, click the **Vital Functions** tab. Once 
+this is done, the vital functions registration screen will be displayed, as shown in the figure below:
+
+    ![Addition](images/management.img14.jpg)
+    
+    **Figure 14 - Vital function addition screen**
+    
+2. Click the *Add Vital Function* button to add the business process (s). Once this is done, the business process search screen 
+will be displayed. Perform the search, select the desired process (s) and click the *Submit* button to perform the operation. After 
+this, the business process registration (s) will be added on the screen, as shown in the figure below:
+
+    ![Record](images/management.img15.jpg)
+    
+    **Figure 15 - Vital function record**
+    
+3. After defining the vital functions, click the *Save* button to register, where the date, time and user will be saved 
+automatically for a future audit. After recording the record, the file attachment Attach button for the vital function will be 
+displayed, as shown in the figure below:
+
+    ![Function](images/management.img16.jpg)
+    
+    **Figure 16 - Vital function record**
+    
+4. The **Next** button, when triggered, advances to the next step in the requirements and strategy phase.
+
+Registering business impact analysis
 --------------------------------------------
 
-1. Na tela de **Gerenciamento de Continuidade**, na fase de **Requisitos e Estratégia**, clique na guia **Análise de Impacto no 
-Negócio**. Feito isso, será apresentada a tela para adição da função vital no intuito de registrar as características do impacto 
-no negócio, conforme ilustrada na figura abaixo:
+1. On the **Continuity Management** screen, in the **Requirements and Strategy** phase, click the **Business Impact Analysis** tab. 
+Once this is done, the screen will be presented to add the vital function in order to record the characteristics of the impact on 
+the business, as shown in the figure below:
 
     ![Adição](images/ger-cont.img17.png)
     
