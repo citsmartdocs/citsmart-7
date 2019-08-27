@@ -1,419 +1,416 @@
-title: Execução de liberação
-Description:Esta funcionalidade permite registrar as informações referente a execução da requisição de liberação das mudanças.
+title: Release execution
+Description: This functionality allows you to record information regarding the execution of the change release request.
 
-# Execução de liberação
+#Release execution
 
-Esta funcionalidade permite registrar as informações referente a execução da
-requisição de liberação das mudanças.
+This functionality allows you to record information regarding the execution of
+the change release request.
 
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de Gerenciamento de Liberação através da
-    navegação no menu principal **Processos ITIL > Gerência de
-    Liberação > Gerenciamento de Liberação**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter requisição de liberação registrada (ver conhecimento [Cadastro e pesquisa de requisição de
-    liberação][1]);
+1.  Access the Release Management functionality through navigation in the main
+    menu **Process Management > Release Management > Release Management**.
 
-2.  Ter permissão para executar a requisição de liberação .
+Preconditions
+-------------
 
-Filtros
+1.  Have registered release Request (see knowledge [Release record registration
+    and search][1]);
+
+2.  Be allowed to execute the release request.
+
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filters enables the user to restrict the participation of
+    items in the standard feature listing, making it easier to find the desired
+    items:
 
-    -  Nº de Requisição;
+    -   Request Nº;
 
-    -  Atribuída/Compartilhada.
+    -   Assigned/Shared.
 
-    ![Criar](images/execution-1.png)
+![figure](images/execution-1.png)
 
-    **Figura 1 - Tela de pesquisa de requisição**
+**Figure 1 - Request search screen**
 
-Listagem de itens
------------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Número, Solicitante, Criada em, Prioridade, Prazo limite,
-    Atraso, Situação, Tarefa atual, Grupo Executor, Responsável
-    atual e Compartilhado com.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: Number, Applicant Name, Created on, Priority, Deadline, Delay,
+    Situation, Current task, Executor Group, Current responsible and Shared
+    with;
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Visualizar,* *Relatórios* e *Ação*.
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *View*, *Reports* and *Action;*
 
-3.  Será apresentada a tela de Gerenciamento de Liberação;
+3.  The Release Management screen will be displayed;
 
-4.  Na guia **Gerenciamento**, localize a requisição de liberação que será
-    registrada a sua execução, clique no botão *Ação* e selecione a
-    opção *Iniciar/Executar tarefa*, conforme indicado na figura abaixo:
+4.  On the **Management** tab, locate the release request that will be recorded
+    on your execution, click on the *Action* button and select the *Start/Run
+    task* option, as indicated in the figure below:
 
-    ![Criar](images/execution-2.png)
+    ![figure](images/execution-2.png)
+    
+    **Figure 2 - Execute release request**
 
-    **Figura 2 - Executar requisição de liberação**
+5.  The **Release Request Registration** screen appears with the fields filled,
+    with the contents of the selected Request;
 
-1.  Será exibida a tela de **Registro da** **Requisição de Liberação** com os
-    campos preenchidos, com o conteúdo referente à requisição selecionada;
+6.  Record the information needed to execute the release request:
 
-2.  Registre as informações necessárias da execução da requisição de liberação:
+-   In the **Closing** area, click on the *Add an Execution Record* button.
+    After that, describe the information about the execution of your
+    activity.
 
-    -  Na área de **Fechamento**, clique no botão *Adicionar registro de
-        execução*. Feito isso, descreva as informações sobre a execução de sua
-        atividade.
-
-Vinculando itens de configuração
---------------------------------
-
-1.  Relacione os itens de configuração afetados pela liberação:
-
-    -   Ao lado direito da tela de requisição de liberação, clique
-        em **Processos/Opções** e logo em seguida na opção **Itens de
-        Configuração**, conforme indicado na figura abaixo:
-
-    ![Criar](images/execution-3.png)
-
-     **Figura 3 - Guia de itens de configuração**
-
-1.  Será apresentada a tela de vínculo de itens de configuração. Clique no ícone ![Criar](images/execution-4.png)
-     para busca do item de configuração;
-
-2.  Será exibida a tela de pesquisa de ICs. Informe o filtro necessário para sua
-    pesquisa e clique no botão *Pesquisar*. Serão apresentados os ICs conforme o
-    filtro informado;
-
-3.  Clique no ícone ![Criar](images/execution-5.png)  do IC desejado. Feito isso, o IC será vinculado à
-    requisição de liberação;
-
-    ![Criar](images/execution-6.png)
-
-     **Figura 4 - Item de configuração relacionado**
-
-    -  Caso queira excluir o vínculo do item de configuração com a requisição de
-    liberação, basta clicar no ícone ![Criar](images/execution-7.png) do mesmo.
-
-    -  Caso queira verificar informações detalhadas do IC, basta clicar no ícone ![Criar](images/execution-8.png)
-     do mesmo.
-
-Vinculando problema
--------------------
-
-1.  Relacione os problemas à requisição de liberação, caso seja necessário:
-
-    -  Ao lado direito da tela de requisição de liberação, clique
-        em **Processos/Opções** e logo em seguida na opção **Problema**,
-        conforme indicado na figura abaixo:
-
-    ![Criar](images/execution-9.png)
-
-     **Figura 5 - Guia de problema**
-
-1.  Será apresentada a tela de vínculo de problemas. Clique no ícone ![Criar](images/execution-10.png)  para
-    adição de problemas;
-
-2.  Será exibida a tela de pesquisa de problemas. Realize a pesquisa e selecione
-    o problema referente à requisição de liberação. Feito isso, o mesmo será
-    relacionado à requisição de liberação;
-
-    ![Criar](images/execution-11.png)
-
-     **Figura 6 - Tela de vínculo de problemas**
-
-Vinculando base de conhecimento
--------------------------------
-
-1.  Relacione os conhecimentos referente à requisição de liberação:
-
-    -   Ao lado direito da tela de requisição de liberação, clique
-        em **Processos/Opções** e logo em seguida na opção **Base de
-        Conhecimento**, conforme indicado na figura abaixo:
-
-    ![Criar](images/execution-12.png)
-
-    **Figura 7 - Guia de base de conhecimento**
-
-    -  Será apresentada a tela de vínculo de conhecimento. Clique no ícone ![Criar](images/execution-10.png)  para
-    adicionar o conhecimento;
-
-    -  Será exibida a tela de pesquisa de conhecimento. Realize a pesquisa e
-    selecione o conhecimento. Feito isso, será relacionado o conhecimento à
-    requisição de liberação;
-
-     ![Criar](images/execution-13.png)
-
-     **Figura 8 - Tela de vínculo de conhecimento à requisição de liberação**
-
-Vinculando documentos legais
-----------------------------
-
-1.  Adicione os documentos legais referente aos procedimentos da liberação:
-
-    -  Ao lado direito da tela de requisição de liberação, clique
-        em **Processos/Opções** e logo em seguida na opção **Documentos
-        Legais**, conforme indicado na figura abaixo:
-
-     ![Criar](images/execution-14.png)
-
-     **Figura 9 - Guia de documentos legais**
-
-    -  Será apresentada a tela para anexo de documentos, conforme ilustrada na
-    figura a seguir:
-
-     ![Criar](images/execution-15.png)
-
-     **Figura 10 - Tela adição de documentos legais**
-
-    -  Clique no botão *Selecionar arquivo*. Será exibida uma janela para seleção
-    do arquivo;
-
-    -  Selecione o arquivo (documento legal) e após isso, informe a descrição
-        do mesmo e clique no botão *Adicionar* para efetuar a operação;
-
-Vinculando mídia definitiva
+Linking configuration items
 ---------------------------
 
-1.  Caso seja necessário, relacione as mídias definitivas referente aos itens de
-    configuração relacionados à requisição de liberação:
+1.  List the configuration items affected by the release:
 
-    -   Ao lado direito da tela de requisição de liberação, clique
-        em **Processos/Opções** e logo em seguida na opção **Mídia Definitiva**,
-        conforme indicado na figura a seguir:
+    -   On the right side of the release request screen, click
+        on **Processes/Options** and then on the **Configuration Items** option,
+        as indicated in the figure below:
 
-     ![Criar](images/execution-16.png)
-
-     **Figura 11 - Guia de mídia definitiva**
-
-    -  Será apresentada a tela de vínculo de mídias definitivas. Clique no ícone ![Criar](images/execution-4.png)
-    para busca da mídia;
-
-    -  Será exibida a tela de pesquisa de mídia definitiva. Realize a pesquisa e
-    selecione a mídia referente aos ICs relacionados à requisição de liberação.
-    Feito isso, será relacionada a mídia definitiva à requisição de liberação;
+    ![figure](images/execution-3.png)
     
-    ![Criar](images/execution-17.png)
+    **Figure 3 - Configuration items guide**
 
-    **Figura 12 - Mídia definitiva relacionada**
+2.  The setup items link screen will be displayed. Click on the icon ![figure](images/execution-4.png)  for
+    search of the configuration item;
 
--   Caso queira excluir uma mídia que foi relacionada à requisição de liberação,
-    basta clicar no ícone ![Criar](images/execution-7.png) do mesmo.
+3.  The IC Search screen will be displayed. Enter the necessary filter for your
+    search and click on the *Search* button. The ICs will be presented according
+    to the filter informed;
 
-Vinculando documentos gerais
-----------------------------
+4.  Click on the IC icon ![figure](images/execution-5.png)  you want. Once this has been done, the IC will be
+    linked to the;
 
-1.  Adicione os documentos gerais referente à requisição de liberação:
+    ![figure](images/execution-6.png)
+    
+    **Figure 4 - Related configuration item**
 
-    -  Ao lado direito da tela de requisição de liberação, clique
-        em **Processos/Opções** e logo em seguida na opção **Documentos
-        Gerais**, conforme indicado na figura a seguir:
+-   If you want to delete the link from the configuration item with the release
+    request, just click on the icon ![figure](images/execution-7.png)  for it;
 
-    ![Criar](images/execution-18.png)
+-   If you want to check the IC's detailed information, just click on the icon ![figure](images/execution-8.png).
 
-     **Figura 13 - Guia de documentos gerais**
+Linking problem
+---------------
 
-    -  Será apresentada a tela para anexo de documentos, conforme ilustrada na
-    figura a seguir:
+1.  Relate the problems to the release request, if necessary:
 
-    ![Criar](images/execution-19.png)
+    -   On the right side of the release request screen, click
+        on** Processes/Options** and then on the **Problem** option, as shown in
+        the figure below:
 
-    **Figura 14 - Tela de adição de documentos gerais**
+    ![figure](images/execution-9.png)
+    
+    **Figure 5 - Problem guide**
 
-    -  Clique no botão *Selecionar arquivo*. Será exibida uma janela para seleção
-    do arquivo;
+2.  The problem link screen will be displayed. Click on the icon ![figure](images/execution-10.png)  to add
+    problems;
 
-    -  Selecione o arquivo e após isso, informe a descrição do mesmo e clique
-        no botão *Adicionar* para efetuar a operação;
+3.  The troubleshooting screen will be displayed. Perform the search and select
+    the problem relating to the release Request. Once this is done, it will be
+    related to the release request.
 
-Vinculando papéis/responsabilidades
------------------------------------
+![figure](images/execution-11.png)
 
-1.  Informe os papéis/responsabilidades, ou seja, os recursos envolvidos na
-    execução da liberação de mudança:
+**Figure 6 - Problem link screen**
 
-    -  Ao lado direito da tela de requisição de liberação, clique na
-        aba **Processos/Opções** e selecione a
-        opção **Papéis/Responsabilidades**, conforme indicado na figura a
-        seguir:
+Linking knowledge base
+----------------------
 
-    ![Criar](images/execution-20.png)
+1.  List the knowledge related to the release request:
 
-     **Figura 15 - Guia de Papéis/responsabilidade**
+    -   On the right side of the release request screen, click
+        on **Processes/Options** and then on the **Knowledge Base** option, as
+        shown in the figure below:
 
-    -  Será apresentada a tela para adição de papéis/responsabilidades. Clique no
-    ícone ![Criar](images/execution-10.png) para busca dos colaboradores envolvidos na execução da liberação;
+     ![figure](images/execution-12.png)
+     
+     **Figure 7 - Knowledge base guide**
 
-    -  Será exibida a tela de pesquisa de colaborador. Realize a pesquisa e
-    selecione o colaborador envolvido na execução da liberação. Feito isso, será
-    apresentada uma tela para informar a descrição do papel concedido ao
-    determinado colaborador;
+-   The knowledge link screen will be displayed. Click on the icon ![figure](images/execution-10.png)  to add
+    knowledge;
 
-    -  Informe a descrição do papel que o colaborador exercerá e clique
-    em *Ok* para efetuar a operação. Após isso, será adicionado no registro o
-    colaborador envolvido na execução da requisição de liberação;
+-   The Knowledge Search screen appears. Perform the survey and select the
+    knowledge. Once this is done, the knowledge will be related to the release
+    request.
 
-    ![Criar](images/execution-21.png)
+    ![figure](images/execution-13.png)
+    
+    **Figure 8 - Knowledge link to release request screen**
 
-    **Figura 16 - Papéis / responsabilidade**
+Linking legal documents
+-----------------------
 
-Vinculando requisição de compras vinculadas
--------------------------------------------
+1.  Add legal documents pertaining to release procedures:
 
-1.  Caso tenha realizado uma requisição de compras para executar a liberação da
-    mudança, relacione a mesma à requisição de liberação:
+    -   At the right side of the release request screen, click
+        on **Processes/Options** and then on the **Legal Documents** option, as
+        indicated in the figure below:
 
-    -  Ao lado direito da tela de requisição de liberação, clique na
-        aba **Processos/Opções** e selecione a opção **Requisição de compras
-        vinculadas**, conforme indicado na figura a seguir:
+    ![figure](images/execution-14.png)
+    
+    **Figure 9 - Legal documents guide**
 
-    ![Criar](images/execution-22.png)
+   -   The Document Attachment screen will be displayed, as shown in the following
+    figure:
 
-     **Figura 17 - Guia de requisição de compras**
+   ![figure](images/execution-15.png)
+    
+   **Figure 10 - Adding legal documents screen**
 
-    -  Será apresentada a tela para vínculo da requisição de compras, conforme
-    ilustrada na figura abaixo:
+   -   Click on the *Choose File* button. A window for selecting the file will be
+    displayed;
 
-    ![Criar](images/execution-23.png)
+   -   Select the file (legal document) and after that, inform the description of
+    it and click on the *Add* button to carry out the operation.
 
-    **Figura 18 - Tela de vínculo de requisição de compras**
+Linking definitive media
+------------------------
 
-    -  Clique no ícone ![Criar](images/execution-10.png)  para adicionar a requisição de compras. Será exibida a
-    tela de pesquisa de requisição de compras. Realize a pesquisa e selecione a
-    requisição de compras que deseja associar à requisição de liberação. Feito
-    isso, será relacionada a requisição de compras à requisição de liberação.
+1.  If necessary, list the definitive media for configuration items related to
+    the release Request:
 
-Vinculando checklist
---------------------
+    -   On the right side of the release request screen, click
+        on **Processes/Options** and then on the **Definitive Media** option, as
+        shown in the following figure:
 
-1.  Caso seja necessário, responda o checklist referente a execução da liberação
-    da mudança:
+     ![figure](images/execution-16.png)
+    
+    **Figure 11 - Definitive media guide**
 
-    -   Ao lado direito da tela de requisição de liberação, clique na
-        aba **Processos/Opções** e selecione a opção **Checklist**, conforme
-        indicado na figura a seguir:
+    -   The link for the definitive media will be displayed. Click on the media
+    search icon  ![figure](images/execution-4.png) ;
 
-    ![Criar](images/execution-24.png)
+    -   The final media search screen appears. Perform the search and select the
+    media related to the CIs related to the release request. Once this is done,
+    the definitive media will be related to the release request;
 
-     **Figura 19 - Guia de checklist**
+     ![figure](images/execution-17.png)
+    
+    **Figure 12 - Related definitive media**
 
-    -  Será apresentada a tela de Checklist, conforme ilustrada na figura a seguir:
+-   If you want to delete a media that was related to the release request, just
+    click on the media icon  ![figure](images/execution-7.png) .
 
-    ![Criar](images/execution-25.png)
+Linking general documents
+-------------------------
 
-    **Figura 20 - Checklist da liberação**
+1.  Add the general documents related to the release request:
 
-    -  Selecione o questionário e preencha o mesmo de acordo com a execução da
-    requisição de liberação realizada;
+    -   On the right side of the release request screen, click
+        on **Processes/Options** and then on the **General Documents** option,
+        as shown in the following figure:
 
-    -  Após preenchimento do questionário, clique no botão *Gravar* para
-        efetuar a operação. Feito isso, será apresentado o questionário, o qual
-        foi respondido, em “Histórico”;
+     ![figure](images/execution-18.png)
+    
+    **Figure 13 - General documents guide**
 
-    -  Caso queira editar as informações do questionário, clique no ícone ![Criar](images/execution-26.png)  do
-        mesmo, altere os dados desejados e clique no botão *Gravar* para efetuar
-        a operação.
+    -   The Document Attachment screen will be displayed, as shown in the following
+    figure:
 
-Vinculando anexos
------------------
+     ![figure](images/execution-19.png)
+    
+    **Figure 14 - General documents addition screen**
 
-1.  Caso queira visualizar os anexos da requisição ou anexar um arquivo à
-    requisição de liberação, proceda da seguinte maneira:
+-   Click the *Choose File* button. A window for selecting the file will be
+    displayed;
 
-    -   Ao lado direito da tela de requisição de liberação, clique
-        em **Anexos**, conforme indicado na figura a seguir:
+-   Select the file and after that, enter the description of the file and click
+    on the *Add* button to perform the operation.
 
-    ![Criar](images/execution-27.png)
+Linking roles/responsabilities
+------------------------------
 
-    **Figura 21 - Guia de anexos**
+1.  Inform the roles/responsibilities, ie the resources involved in implementing
+    the release of change:
 
-    -  Será apresentada a tela de anexo de arquivos, conforme ilustrada na figura
-    abaixo:
+    -   On the right side of the release request screen, click on
+        the **Processes/Options tab** and select
+        the **Roles/Responsibilities** option, as shown in the following figure:
 
-    ![Criar](images/execution-28.png)
+     ![figure](images/execution-20.png)
+    
+    **Figure 15 - Role/responsibility guide**
 
-    **Figura 22 - Tela de adição de arquivos**
+-   The screen for adding roles/responsibilities will be displayed. Click on the
+    icon  ![figure](images/execution-10.png)  to search for the employees involved in the execution of the release;
 
-1.  Para adicionar um arquivo, clique no botão *Selecionar arquivo*. Será
-    apresentada a tela para selecionar o arquivo desejado:
+-   The collaborator search screen appears. Perform the survey and select the
+    developer involved in the execution of the release. Once this is done, a
+    screen will be displayed to inform the description of the role granted to
+    the particular collaborator;
 
-    -  Selecione o arquivo e após isso, informe a descrição do arquivo e clique no
-    botão *Adicionar*;
+-   Enter the description of the role that the employee will exercise and
+    click *Ok* to carry out the operation. After this, the employee involved in
+    the execution of the release request will be added to the registry.
 
-    -  Após adição do arquivo, clique no botão *Fechar* para retornar à tela de
-    requisição de liberação.
+ ![figure](images/execution-21.png)
 
-Vinculando ocorrência
----------------------
+**Figure 16 - Roles/responsibility**
 
-1.  Caso queira inserir uma ocorrência à requisição de liberação, proceda da
-    seguinte maneira:
-
-    -   Ao lado direito da tela de requisição de liberação, clique
-        em **Ocorrência**, conforme indicado na figura a seguir:
-
-    ![Criar](images/execution-29.png)
-
-    **Figura 23 - Guia de ocorrência**
-
-    -  Será exibida a tela de **Ocorrências** contendo duas abas, uma para exibição
-    da relação de ocorrências registradas e outra para cadastro de ocorrência;
-
-1.  Na aba de **Cadastro de Ocorrências**, possui campos que devem ser
-    preenchidos conforme descritos abaixo:
-
-    ![Criar](images/execution-30.png)
-
-    **Figura 24 - Registro de ocorrências**
-
-    -  **Categoria**: selecione a categoria da ocorrência. Caso não seja encontrada
-    a categoria, é possível realizar um cadastro rápido clicando no ícone ![Criar](images/execution-10.png)  de
-    “Categoria”;
-
-    -  **Origem**: selecione a origem da ocorrência. Caso não seja encontrada a
-        origem, é possível realizar um cadastro rápido clicando no ícone ![Criar](images/execution-10.png)  de
-        “Origem”;
-
-    -  **Tempo Gasto (min)**: informe o tempo gasto da ocorrência em minutos;
-
-    -  **Registrado por**: informe por quem está sendo registrada a ocorrência;
-
-    -  **Descrição**: informe a descrição da ocorrência;
-
-    -  **Ocorrência**: informe a ocorrência;
-
-    -  **Informações de Contato**: descreva as informações para contato;
-
-1.  Clique no botão *Gravar*. Após isso, será exibida uma mensagem confirmando o
-    sucesso da operação e retornará à tela de requisição de liberação.
-
-Consultando base de conhecimento
+Linking request purchases linked
 --------------------------------
 
-1.  Caso queira consultar a base de conhecimento, basta clicar na guia de **Base
-    de Conhecimento**, localizada ao lado direito da tela, conforme indicado na
-    figura a seguir:
+1.  If you have made a purchase Request to execute the release of the change,
+    relate it to the release Request:
 
-    ![Criar](images/execution-31.png)
+    -   On the right side of the release request screen, click on
+    the **Processes/Option**s tab and select the **Request purchases
+    linked** option as shown in the following figure:
 
-    **Figura 25 - Guia de base de conhecimento**
+     ![figure](images/execution-22.png)
+    
+    **Figure 17 - Purchasing request guide**
 
-    -  Após registro das informações da execução da requisição de liberação, clique
-    no botão *Gravar e avançar o fluxo* para efetuar a operação, onde a
-    liberação será encaminhada para fase de teste;
+    -   The screen for linking the purchase Request will be displayed, as shown in
+    the figure below:
 
-    -  Caso queira gravar somente as informações registradas da execução da
-    liberação e manter a tarefa atual, clique no botão *Gravar e manter a tarefa
-    atual*;
+    ![figure](images/execution-23.png)
+   
+   **Figure 18 - Purchasing request link screen**
 
-    -  Em ambos os casos anteriores ao clicar no botão "Gravar" a data, hora e
-    usuário serão armazenados automaticamente para uma futura auditoria.
+-   Click on the icon  ![figure](images/execution-10.png)  to add the purchase Request. The Purchase Request Search
+    screen appears. Perform the search and select the purchase Request you want
+    to associate with the release Request. Once this has been done, the purchase
+    Request will be related to the release Request.
 
-[1]:/pt-br/citsmart-platform-7/processes/release/requisition.html
+Linking checklist
+-----------------
+
+1.  If necessary, respond to the checklist regarding the execution of the
+    release of the change:
+
+    -   On the right side of the release request screen, click on
+        the** Processes/Options** tab and select the **Checklist** option, as
+        shown in the following figure:
+
+     ![figure](images/execution-24.png)
+    
+    **Figure 19 - Checklist guide**
+
+    -   The Checklist screen will be displayed, as shown in the following figure:
+
+     ![figure](images/execution-25.png)
+    
+    **Figure 20 - Release checklist**
+
+    -   Select the questionnaire and fill it in according to the execution of the
+    release request;
+
+    -   After completing the questionnaire, click on the *Save* button to perform
+    the operation. Once this is done, the questionnaire will be presented, which
+    was answered in "History";
+
+-   If you want to edit the information of the questionnaire, click on the icon  ![figure](images/execution-26.png) 
+    of the questionnaire, change the desired data and click on the
+    button *Record* to carry out the operation.
+
+Linking attachments
+-------------------
+
+1.  If you want to view the attachment attachments or attach a file to the
+    release request, proceed as follows:
+
+    -   To the right side of the release request screen, click **Attachments**,
+        as shown in the following figure:
+
+     ![figure](images/execution-27.png)
+    
+    **Figure 21 - Attachments guide**
+
+    -   The file attachment screen will be displayed, as shown in the figure below:
+
+     ![figure](images/execution-28.png)
+    
+    **Figure 22 - File addition screen**
+
+2.  To add a file, click on the *Choose File* button. The screen will appear to
+    select the desired file:
+
+-   Select the file and after that, enter the description of the file and click
+    on the *Add* button;
+
+-   After adding the file, click on the *Close* button to return to the release
+    request screen.
+
+Linking occurrences
+-------------------
+
+1.  If you want to insert an instance of the release request, proceed as
+    follows:
+
+    -   On the right side of the release request screen, click **Occurrence** as
+        shown in the following figure:
+
+     ![figure](images/execution-29.png)
+    
+    **Figure 23 - Occurrence guide**
+
+    -   The **Occurrences** screen will be displayed containing two tabs, one for
+    displaying the list of recorded occurrences and another for registering an
+    occurrence.
+
+2.  In the tab **Record of Occurrences**, has fields that must be filled as
+    described below:
+
+     ![figure](images/execution-30.png)
+    
+    **Figure 24 - Record of occurrences**
+
+    -   **Category**: Select the category of the occurrence. If the category is not
+    found, it is possible to perform a quick registration by clicking on the
+    "Category" icon  ![figure](images/execution-10.png);
+
+    -   **Source**: Select the source of the occurrence. If the origin is not found,
+    it is possible to make a quick register by clicking on the icon "Source"  ![figure](images/execution-10.png);
+
+    -   **Time Spent (min)**: report the time spent in minutes;
+
+    -   **Registered by**: inform by whom the occurrence is being recorded;
+
+    -   **Description**: report the description of the occurrence;
+
+    -   **Occurrence**: report the occurrence;
+
+    -   **Contact Information**: Describe the contact information.
+
+3.  Click on the *Save* button. After this, a message will be displayed
+    confirming the success of the operation and will return to the release
+    request screen.
+
+Consulting knowledg base
+------------------------
+
+1.  If you want to consult the knowledge base, just click on the **Knowledge
+    Base** tab, located on the right side of the screen, as shown in the
+    following figure:
+
+     ![figure](images/execution-31.png)
+    
+    **Figure 25 - Knowledge base guide**
+
+-   After recording the information of the execution of the release request,
+    click on the button *Save and Forward flow* to carry out the operation,
+    where the release will be sent to the test phase;
+
+-   If you want to save only the logged release information and keep the current
+    job, click on the *Save and Keep the Current Task* button*;*
+
+-   In both cases prior to clicking the *Save *button the date, time and user
+    will be stored automatically for a future audit.
+
+
+[1]:/en-us/citsmart-platform-7/processes/release/requisition.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/15/2019 – Anna Martins
+    <b>Updated:</b>08/27/2019 – Anna Martins
