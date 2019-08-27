@@ -1,7 +1,7 @@
 title: Release execution
 Description: This functionality allows you to record information regarding the execution of the change release request.
 
-#Release execution
+# Release execution
 
 This functionality allows you to record information regarding the execution of
 the change release request.
@@ -45,7 +45,7 @@ Items list
     with;
 
 2.  There are action buttons available to the user for each item in the listing,
-    they are: *View*, *Reports* and *Action;*
+    they are: *View*, *Reports* and *Action*;
 
 3.  The Release Management screen will be displayed;
 
