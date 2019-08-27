@@ -13,8 +13,7 @@ Pré-condições
 Como acessar
 ------------
 
-1.  Acesse a funcionalidade de Tempo de Atendimento através da navegação no menu principal **Processos ITIL \> Gerência de Níveis de
-    Serviço \> Tempo de Atendimento**.
+1.  Acesse a funcionalidade de Tempo de Atendimento através da navegação no menu principal **Processos ITIL > Gerência de Níveis de Serviço > Tempo de Atendimento**.
 
 Filtros
 -------
@@ -32,8 +31,7 @@ Filtros
 Listagem de items
 -----------------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem padrão da
-    funcionalidade: Título SLA, Descrição e Situação.
+1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem padrão da funcionalidade: Título SLA, Descrição e Situação.
 
     ![Criar](images/attendance-2.png)
 
@@ -97,7 +95,7 @@ Preenchimento de campos cadastrais
 
     -  **Contatos**: descreva as informações para contato referente ao tempo de atendimento;
 
-    -  Defina o tempo de atendimento dos serviços, levando em consideração a prioridade. A prioridade é usada para identificar os tempos    requeridos para  que ações adequadas sejam tomadas. A prioridade vai de 1 a 5, sendo que o 1 é a prioridade mais alta e 5 é a mais      baixa. Selecione a prioridade para definição do tempo:
+    -  Defina o tempo de atendimento dos serviços, levando em consideração a prioridade. A prioridade é usada para identificar os tempos requeridos para  que ações adequadas sejam tomadas. A prioridade vai de 1 a 5, sendo que o 1 é a prioridade mais alta e 5 é a mais baixa. Selecione a prioridade para definição do tempo:
 
         -  **Captura**: defina o tempo de captura da solicitação do serviço, conforme a prioridade selecionada;
 
@@ -105,7 +103,7 @@ Preenchimento de campos cadastrais
 
     !!! warning "ATENÇÃO"
 
-        Antes de preencher os campos da aba "Automação" ela deve estar adequadamente parametrizada, para isso se faz necessário executar         os passos contidos no conhecimento [Como habilitar a regra de escalonamento das Solicitações de Serviço?](),com exceção do               parâmetro "190 - Liga o funcionamento das regras de escalonamento? (Ex: S ou N - Default:´N´)" que deverá estar igual a ‘N’             neste contexto.
+        Antes de preencher os campos da aba "Automação" ela deve estar adequadamente parametrizada, para isso se faz necessário executar os passos contidos no conhecimento de FAQ [Como habilitar a regra de escalonamento das Solicitações de Serviço?][4],com exceção doparâmetro "190 - Liga o funcionamento das regras de escalonamento? (Ex: S ou N - Default:´N´)" que deverá estar igual a ‘N’ neste contexto.
 
 3.  Defina os dados da automação:
 
@@ -113,13 +111,13 @@ Preenchimento de campos cadastrais
 
     -   **Prioridade**: informe a prioridade de execução do serviço;
 
-    -   **Modelo de E-mail**: selecione o modelo de e-mail, o qual será enviado quando a solicitação do serviço não for atendida no         tempo de atendimento determinado.
+    -   **Modelo de E-mail**: selecione o modelo de e-mail, o qual será enviado quando a solicitação do serviço não for atendida no tempo de atendimento determinado.
 
     -   **Tempo de Ação**: informe o tempo para execução da solicitação do serviço;
 
     !!! note "NOTA"
 
-        Após os N minutos (informado no tempo de ação) e caso não tenha realizado nenhuma ação na solicitação do serviço vinculado a             este tempo de atendimento, o sistema atribuirá a prioridade e escalará o grupo para execução da solicitação do serviço.
+        Após os N minutos (informado no tempo de ação) e caso não tenha realizado nenhuma ação na solicitação do serviço vinculado a este tempo de atendimento, o sistema atribuirá a prioridade e escalará o grupo para execução da solicitação do serviço.
 
     -  No quadro de **Incidente/Requisição/Procedimento**, selecione os serviços para aplicar as configurações, levando em consideração o tipo de tempo de atendimento selecionado:
 
@@ -167,7 +165,7 @@ Preenchimento de campos cadastrais
 
         -  **Prioridade**: indique a prioridade do serviço para o empregado;
 
-        -  **Crítico**: indique se o empregado é do tipo "crítico" ao negócio, ou seja, que deve ter o atendimento do serviço com               prioridade alta.
+        -  **Crítico**: indique se o empregado é do tipo "crítico" ao negócio, ou seja, que deve ter o atendimento do serviço com prioridade alta.
 
     -  Feito isso, clique no botão *Incluir* para efetuar a operação.
 
@@ -179,6 +177,7 @@ Preenchimento de campos cadastrais
 [1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
 [2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/services.html
 [3]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
+[4]:/pt-br/citsmart-docs/user-guide/faq/faq.html
 
 !!! tip "About"
 

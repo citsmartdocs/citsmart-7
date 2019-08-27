@@ -92,7 +92,7 @@ Filling in the registrations fields
     -   **Urgency**: report the urgency of restoring service within the
         organizational environment;
 
-    -   **Impact/Urgency Change **: define if it will be allowed to change the
+    -   **Impact/Urgency Change**: define if it will be allowed to change the
         impact and urgency in the registration of service request;
 
     -   **Seasonal**: check this option if the service time is temporary;
@@ -126,8 +126,8 @@ Filling in the registrations fields
     !!! warning "ATTENTION"
 
         Before filling in the fields of the "Automation" tab it must be properly
-        parameterized, for this it is necessary to perform the steps in the
-        knowledge "**[How to enable the service requests scheduling
+        parameterized, for this it is necessary to perform the steps in the FAQ
+        knowledge "[How to enable the service requests scheduling
         rule?][4]", except for parameter 190 which should be equal to 'N' in this context.
 
 3.  Define the automation data:
@@ -139,7 +139,7 @@ Filling in the registrations fields
 
     -   **Priority**: enter the priority of execution of the service;
 
-    -   **Group**: report the executing group of the servic.
+    -   **Group**: report the executing group of the service.
 
     !!! note "NOTE"
 
@@ -159,21 +159,21 @@ Filling in the registrations fields
     
     **Figure 4 - Application of service time to contracts services**
 
-    -   **Client: **allows to select only one contract to apply the configuration of
+    -   **Client**: allows to select only one contract to apply the configuration of
     the service time in the services of the same, as shown in the figure below:
 
     ![Criar](images/attendance-5.png)
     
     **Figure 5 - Application of customer service time (contract)**
 
-    -   **Request/Incident/Procedure: **select only one service to apply the service
+    -   **Request/Incident/Procedure**: select only one service to apply the service
     time setting, as shown in the figure below:
 
     ![Criar](images/attendance-6.png)
     
     **Figure 6- Application of the time of service to the request/incident service**
 
-    4.  If type of service time selected is **Customer** or **Incident/Request/Procedur** e, list the units and
+4.  If type of service time selected is **Customer** or **Incident/Request/Procedur** e, list the units and
     employees (employees);
 
     ![Criar](images/attendance-7.png)
@@ -182,7 +182,7 @@ Filling in the registrations fields
 
     -   Enter the unit and assign a priority. Once this is done, click the *Add* button to perform the:
 
-        -   **Priority: **indicate the priority of the service for the unit;
+        -   **Priority**: indicate the priority of the service for the unit;
 
         -   **Unit**: enter the desired unit.
 
@@ -206,6 +206,8 @@ Filling in the registrations fields
 [1]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
 [2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/services.html
 [3]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
+[4]:/en-us/citsmart-docs/user-guide/faq/faq.html
+
 
 !!! tip "About"
 
