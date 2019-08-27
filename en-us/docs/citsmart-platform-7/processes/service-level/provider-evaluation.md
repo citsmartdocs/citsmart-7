@@ -32,7 +32,7 @@ Filters
 2.  The **Provider Evaluation** screen will be displayed, as illustrated on the
     image below:
 
-![figura](images/provider/evaluation-1.png)
+![figura](images/provider-evaluation-1.png)
 
 **Figure 1 - Provider Performance Evaluation Screen**
 
@@ -47,7 +47,7 @@ Items list
 2.  The provider performance report by service will be generated, as illustrated
     on the image below:
 
-![figura](images/provider/evaluation-2.png)
+![figura](images/provider-evaluation-2.png)
 
 **Figure 2 - Provider Evaluation Report**
 
@@ -64,4 +64,4 @@ Filling in the registration fields
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Anna Martins
+    <b>Updated:</b>08/27/2019 – Anna Martins
