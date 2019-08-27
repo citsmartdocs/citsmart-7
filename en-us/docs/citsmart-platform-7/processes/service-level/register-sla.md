@@ -1,287 +1,276 @@
-title: Cadastro e pesquisa de acordo de nível de serviço geral
-Description:Esta funcionalidade tem por objetivo registrar o acordo de nível de serviço do tipo *disponibilidade*, *tempo (por fases)* e *informações diversas capturadas de outras fontes*.
+title: General service level agreement registration and search
+Description: This feature allows you to record the service level agreement of type *availability*, *time (byphases)* and *miscellaneous information captured from other sources*.
 
-# Cadastro e pesquisa de acordo de nível de serviço geral
+# General service level agreement registration and search
 
+This feature allows you to record the service level agreement of
+type *availability*, *time (by phases)* and *miscellaneous information captured
+from other sources*.
 
-Essa funcionalidade permite registrar o acordo de nível de serviço do
-tipo *disponibilidade*, *tempo (por fases)* e *informações diversas capturadas
-de outras fontes*.
-
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de Acordo de Nível de Serviço Geral através da
-    navegação no menu principal **Processos ITIL \> Gerência de Nível de
-    Serviço \> Acordo de Nível de Serviço**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter a prioridade cadastrada (ver conhecimento [Cadastro e pesquisa de
-    prioridade][1]).
+1.  Access the General Service Level Agreement functionality by navigating the
+    main menu **Processes Management > Service Level
+    Management >  Service Level Agreement**.
 
-2.  Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de
-    grupo][2]).
+Preconditions
+-------------
 
-3.  Ter definido os modelos de e-mail (ver conhecimento [Cadastro e pesquisa de
-    configuração de modelo de e-mail][3]).
+1.  Have the priority registered (see knowledge [Priority registration and search][1]);
 
-4.  Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de unidade][4]).
+2.  Have the group registered (see knowledge [Group registration and search][2]);
 
-5.  Ter o usuário cadastrado (ver conhecimento [Cadastro e pesquisa de usuário][5]).
+3.  Have defined e-mail templates (see knowledge [E-mail template configuration registration and search][3]);
 
-6.  Ter o requisito de acordo de nível de serviço cadastrado (ver conhecimento [Cadastro e pesquisa de requisito de acordo de nível de serviço][6]).
+4.  Have the unit registered (see knowledge [Unit registration and search][4]);
 
-Filtros
+5.  Have the user registered (see knowledge [User registration and search][5]);
+
+6.  Have the service level agreement requirement registered (see knowledge [Service level agreement condition registration and search][6]).
+
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados, conforme ilustrado na figura abaixo:
+1.  The following filter allows the user to restrict the participation of items
+    in the standard listing of the functionality, facilitating the location of
+    the desired items, as shown in the figure below:
 
-    -  Título;
+   -   Title;
 
-    -  Situação;
+   -   Status;
 
-    -  Tipo de Acordo.
+   -   Agreement Type.
 
-2.  Na tela Acordo de nível de serviço geral, clique na guia **Acordo de nível
-    de serviço de pesquisa** (Geral). A tela de pesquisa será exibida conforme
-    mostrado na figura abaixo:
+2.  On the General Service Level Agreement screen, click the Search Service
+    Level Agreement (General) tab. The search screen will be displayed as shown
+    in the figure below:
 
-    ![Criar](images/register-sla-1.png)
+    ![figure](images/register-sla-1.png)
+    
+    **Figure 1 - General Service Level Agreement search screen**
 
-    **Figura 1 - Tela de pesquisa de Acordo de Nível de Serviço geral**
+3.  Perform service level agreement search:
 
-3.  Realizar pesquisa de acordo de nível de serviço;
+    -   **Title**: enter the title of the service level agreement you want to
+        search;
 
-    -   **Título**: insira o título do contrato de nível de serviço que deseja
-    pesquisar;
+    -   **Status**: select the status of the service level agreement;
 
-    -   **Situação**: selecione o status do contrato de nível de serviço;
+    -   After the filter is set, click the *Search* button. Once this is done,
+        the service level agreement record will be displayed according to the
+        data reported;
 
-    -   Depois que o filtro estiver configurado, clique no botão *Pesquisar*. Uma
-    vez feito isso, o registro do acordo de nível de serviço será exibido de
-    acordo com os dados relatados.
+    -   If you want to list all of the service level agreement records, simply
+        click the *Search* button directly.
 
-    -   Se deseja listar todos os registros do acordo de nível de serviço, basta
-    clicar no botão *Pesquisar* diretamente.
+4.  To change the log data according to the service level agreement, simply
+    modify the information of the desired fields and click the Record button to
+    save the change made to the record, where the date, time and user will be
+    saved automatically for a future audit.
 
-4.  Para alterar os dados de registro de acordo com o acordo de nível de
-    serviço, basta modificar as informações dos campos desejados e clicar no
-    botão *Gravar* para salvar a alteração feita na gravação, onde a data, a
-    hora e o usuário serão salvos automaticamente para uma auditoria futura.
+Items list
+----------
 
-Listagem de itens
------------------
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard listing of the
+    functionality: Title, Status, Start Date, End
+    Date and Evaluate.
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da funcionalidade: Título, Situação, Data de Início, Data
-    fim e Avaliar em.
+![figure](images/register-sla-2.png)
 
-![Criar](images/register-sla-2.png)
+**Figure 2 - Items screen**
 
-**Figura 2 - Tela de itens**
+Filling in the registration fields
+----------------------------------
 
-Preenchimento dos campos cadastrais
------------------------------------
+1.  The **General Service Level Agreement Master** screen will be displayed, as
+    shown in the following figure:
 
-1.  Será apresentada a tela de **Cadastro de Acordo de Nível de Serviço Geral**,
-    conforme ilustrada na figura a seguir:
+    ![figure](images/register-sla-3.png)
+    
+    **Figure 3 - General Service Level Agreement Record screen**
 
-    ![Criar](images/register-sla-3.png)
+2.  Fill in the fields as directed below:
 
-    **Figura 3 - Tela de cadastro de Acordo de Nível de Serviço geral**
+    -  **Agreement Title**: enter the title of the service level agreement;
 
-2.  Preencha os campos conforme orientações abaixo:
+    -  **Agreement Type**: select the type of service level agreement;
 
-    -  **Título do Acordo**: informe o título do acordo de nível de serviço;
+       -  **Availability**: this type of agreement indicates the availability of
+          the service, that is, if it is accessible for an agreed period of time.
+          Eg: Have the service provider monitoring the client's company site full
+          time to make sure that users can access the content of the site full
+          time;
 
-    -  **Tipo de Acordo**: selecione o tipo de acordo de nível de serviço;
+       -  **Time (by phases)**: this type of agreement links the service time to a
+          phase, that is, instead of calculating by time, the SLA will be
+          calculated by a phase that corresponds to an agreed period for the
+          capture period and execution;
 
-       -  **Disponibilidade**: esse tipo de acordo indica a disponibilidade do
-           serviço, ou seja, se está acessível durante um período de tempo acordado.
-           Ex.: ter o prestador de serviço monitorando o site da empresa cliente em
-           tempo integral para ter certeza que os usuários possam ter acesso ao
-           conteúdo do site em tempo integral;
+       -  **Information captured from several other sources**: this type of
+          agreement stipulates the limits of the OS (Service Order) to the chosen
+          service.
 
-        -  **Tempo (por fases)**: esse tipo de acordo vincula o tempo de atendimento a
-           uma fase, ou seja, no lugar de calcular por tempo, o SLA será calculado por
-           uma fase que corresponde a um período acordado para o período de captura e
-           período de execução;
+    -   **Seasonality**: inform the time when services and service level agreement
+    will be evolved in accordance with the business;
 
-        -  **Informações diversas capturadas de outras fontes**: esse tipo de acordo
-           estipula os limites da OS (Ordem de Serviço) ao serviço escolhido.
+    -   **Impact**: report the impact that causes the absence of service operation
+    within the organizational environment. Example: the local network stops
+    working, the impact on the organization is very high, since nobody accesses
+    the services provided by the servers;
 
-    -   **Sazonalidade**: informe a época em que os serviços e acordo de nível de
-    serviço serão evoluídos em conformidade com o negócio;
+    -   **Urgency**: inform the urgency of the restoration of the service within the
+    organizational environment. Example: following the above example, the
+    urgency to reestablish the local network link is high since the company is
+    dependent on the communication with the servers for the storage of its
+    operational information, damaging all the productivity of the company in
+    this stop;
 
-    -   **Impacto**: informe o impacto que causa a ausência do funcionamento do
-    serviço dentro do ambiente organizacional. Exemplo: a rede local para de
-    funcionar, o impacto na organização é muito alto, já que ninguém acessa os
-    serviços disponibilizados pelos servidores;
+    -   **Allows impact/urgency change?**: define if it will be allowed to change
+    the impact and urgency in the registration of the service request;
 
-    -   **Urgência**: informe a urgência do restabelecimento do serviço dentro do
-    ambiente organizacional. Exemplo: seguindo o exemplo citado acima, a
-    urgência de restabelecimento do link da rede local é alta já que a empresa é
-    dependente da comunicação com os servidores para o armazenamento de suas
-    informações operacionais prejudicando toda a produtividade da empresa nesta
-    parada;
+    -   **Situation**: report the service level agreement status: Active (in current
+    use) or Inactive (disabled);
 
-    -   **Permite a mudança de Impacto e Urgência no registro da solicitação?**:
-    defina se será permitido a mudança do impacto e urgência no registro da
-    solicitação de serviço;
+    -   **Agreement Description**:describe the details of the service level
+    agreement;
 
-    -   **Situação**: informe a situação do acordo de nível de serviço: Ativo (em
-    uso corrente) ou Inativo (desabilitado);
+    -   **Agreement Scope**: describe a macro view on the service level agreement;
 
-    -   **Descrição do Acordo**: descreva os detalhes sobre o acordo de nível de
-    serviço;
+    -   **Start Date**: Enter the start date of the service level agreement;
 
-    -   **Escopo do Acordo**: descreva uma visão macro sobre o acordo de nível de
-    serviço;
+    -   **End Date**: Enter the future date for termination of the service level
+    agreement. It may be informed at the time of closure of the agreement;
 
-    -   **Data de Início**: informe a data de início do acordo de nível de serviço;
+    -   **Evaluate**: enter the date on which the service level agreement will be
+    evaluated;
 
-    -   **Data Fim**: informe a data futura para encerramento do acordo de nível de
-    serviço. A mesma pode ser informada no momento do encerramento do acordo;
+    -   **Contacts**: describe the contact information about the service level
+    agreement;
 
-    -   **Avaliar Em**: informe a data na qual o acordo de nível de serviço será
-    avaliado;
+    -   If the type of informed agreement is **Availability**, enter the service
+    availability index:
 
-    -   **Contatos**: descreva as informações para contato sobre o acordo de nível
-    de serviço;
+    ![figure](images/register-sla-4.png)
+    
+    **Figure 4 - Availability Index Log**
 
-    -   Se o tipo de acordo informado for **Disponibilidade**, informe o índice de
-    disponibilidade do serviço:
+       -   Inform the percentage of availability of the service, that is, if 90% means
+           that from 10% of downtime on the service the contract may suffer some type
+           of agreed penalty on itI
 
-    ![Criar](images/register-sla-4.png)
+    -   If the type of informed agreement is **Time (per phase)**, set the SLA
+    (Service Level Agreement) deadlines, taking into account the priority. The
+    priority is from 1 to 5, with 1 being the highest priority and 5 being the
+    lowest:
 
-    **Figura 4 - Registro de índice de disponibilidade**
+    ![figure](images/register-sla-1.png)
+    
+    **Figure 5 - Time recording (per phase)**
 
-       -  Informe o percentual de disponibilidade do serviço, isto é, se definir 90%
-          significa que a partir de 10% de indisponibilidade sobre o serviço o
-          contrato poderá sofrer algum tipo de penalidade acordada sobre ele.
+    -   **Capture**: set the capture time of the service request, according to
+    priority;
 
-    -  Se o tipo de acordo informado for Tempo (por fase), defina os prazos de SLA
-    (acordo de nível de serviço), levando em consideração a prioridade. A
-    prioridade vai de 1 a 5, sendo que o 1 é a prioridade mais alta e 5 é a mais
-    baixa:
+    -   **Resolution**: set the resolution time of the service, according to
+        priority;
 
-    ![Criar](images/register-sla-5.png)
+    -   **Action Time**: enter the time for execution of the service request;
 
-    **Figura 5 - Registro de tempo (por fase)**
+    -   **Priority**: enter the priority of the service;
 
-       -  **Captura**: defina o tempo de captura da solicitação de serviço, conforme a
-    prioridade;
+    -   **Group**: report the executing group of the service;
 
-       -  **Resolução**: defina o tempo de resolução do serviço, conforme a
-    prioridade;
+    -   **E-mail Model**: select the e-mail template, which will be sent when
+        the service request is not met by the specified SLA deadline.
 
-       -  **Tempo de Ação**: informe o tempo para execução da solicitação de serviço;
+After the N minutes (informed in the action time) and if you have not taken
+any action on the service request linked to this SLA, the system will assign the
+priority and escalate the group to execute the service request.
 
-       -  **Prioridade**: informe a prioridade do serviço;
+   -  Select the units and assign a priority to each;
 
-       -  **Grupo**: informe o grupo executor do serviço;
+         -  **Search Unit**: enter the unit that receives priority;
 
-       -  **Modelo de E-mail**: selecione o modelo de e-mail, o qual será enviado
-    quando a solicitação de serviço não for atendida pelo prazo de SLA
-    determinado.
+         -  **Priority**: Indicate the priority of the service for the unit;
 
-    !!! info "IMPORTANTE"
+         -  Once this is done, click the ![figure](images/register-sla-6.png) to add unit priority information;
 
-        Após os N minutos (informado no tempo de ação) e caso não tenha realizado
-        nenhuma ação na solicitação do serviço vinculado a este SLA, o sistema
-        atribuirá a prioridade e escalará o grupo para execução da solicitação do
-        serviço.
+         -  If you want to remove some priority information from the drive that was
+        added, just click the ![figure](images/register-sla-7.png) .
 
-    -   Selecione as unidades e atribua uma prioridade para cada;
+   -  Select the users and assign a priority to each;
 
-         -  **Buscar Unidade**: informe a unidade que receberá a prioridade;
+         -   **Search User**: inform the user; 
+    
+         -   **Priority**: indicate the priority of the service for the user;
 
-         -   **Prioridade**: indique a prioridade do serviço para a unidade;
+         -   Once this is done, click the ![figure](images/register-sla-6.png) for adding user priority information;
 
-        -   Feito isso, clique no ícone ![Criar](images/register-sla-6.png) para adição das informações de
-            prioridade da unidade;
+         -   If you want to remove some priority information from the user that
+            was added, just click on the icon ![figure](images/register-sla-7.png).
 
-        -   Caso queira remover alguma informação de prioridade da unidade que
-              foi adicionada, basta clicar no ícone ![Criar](images/register-sla-7.png).
+   -  If the type of agreement informed is Information captured from several
+    other sources, please inform the service agreement data:
 
-    -  Selecione os usuários e atribua uma prioridade para cada;
+   ![figure](images/register-sla-6.png)
+    
+   **Figure 6 - Recording of Information captured from several other sources**
 
-       -   **Buscar Usuário**: informe o usuário;
+   -   **Value limit**: enter the limit value for gloss. This value can be a p
+    rcentage of attendance or number of events. Example: the service must reach
+    99.7% of availability per month or up to 4 incidents of the contracted
+    organization may occur in the month. The excess of this limit will be
+    penalized with the value specified in the Glare limit field;
 
-       -   **Prioridade**: indique a prioridade do serviço para o usuário;
+   -   **Unit (Limit** **Value)**: enter the unit of the value limit for gloss.
+    Example: percentage or quantity of events;
 
-       -   Feito isso, clique no ícone ![Criar](images/register-sla-6.png) para adição das informações de
-            prioridade do usuário;
+   -   **Gloss**: Please provide details of what has been agreed regarding gloss.
+    Example: Availability of use for critical services should be 24x7;
 
-       -   Caso queira remover alguma informação de prioridade do usuário que
-            foi adicionada, basta clicar no ícone ![Criar](images/register-sla-7.png).
+   -   **Gloss of Limit**: enter the percentages to be paid on the value of the
+    contract in case of non-compliance. Example: 0.5% gloss for every tenth of
+    service failure or 0.2% for each reporting failure above the target up to 10
+    occurrences, 0.5% up to 20 occurrences, etc.
 
-    -   Se o tipo de acordo informado for Informações diversas capturadas de outras
-    fontes, informe os dados de acordo de serviço:
+3.  After entering the data, click the *Save* button to register, where the
+    date, time and user will be saved automatically for a future audit.
 
-    ![Criar](images/register-sla-8.png)
+Verifying the audit history of the service level agreement
+----------------------------------------------------------
 
-    **Figura 6 - Registro de informações diversas capturadas de outras fontes**
+1.  After searching, select the desired record. Once this is done, it will be
+    directed to the registration screen displaying the contents of the selected
+    registry;
 
-    -   **Valor Limite**: informe o valor limite para glosa. Esse valor pode ser um
-    percentual de atendimento ou quantidade de eventos. Exemplo: o serviço deve
-    alcançar mensalmente 99,7 % de disponibilidade ou podem ocorrer no mês até 4
-    incidentes causados pela organização contratada. O excedente deste limite
-    será penalizado com o valor especificado no campo Limite de Glosa;
+    -   The relationship between the service level agreement and customer contracts
+    is provided in the Client Contracts tab;
 
-    -   **Unidade (do Valor Limite)**: informe a unidade do valor limite para glosa.
-    Exemplo: percentual ou quantidade de eventos;
+    -   The relationship between the service level agreement and the operational
+    level agreement is provided in the Operational Level Agreement tab;
 
-    -   **Glosa**: informe os detalhes do que foi acordado referente a glosa.
-    Exemplo: A disponibilidade de uso para os serviços críticos deve ser de
-    24x7;
+    -   The third-party Contracts tab is the association between the service level
+    agreement with third-party contracts;
 
-    -   **Limite Glosa**: informe os percentuais a serem pagos sobre o valor do
-    contrato no caso do não cumprimento do acordo. Exemplo: 0,5% de glosa para
-    cada décimo de falha no serviço ou 0,2% para cada falha de notificação
-    superior à meta até 10 ocorrências, 0,5% até 20 ocorrências, etc.
+    -   The history of the changes made to the service level agreement record is
+    displayed in the History tab, as shown in the figure below:
 
-3.  Após informar os dados, clique no botão *Gravar* para efetuar o registro,
-    onde a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria.
+![figure](images/register-sla-7.png)
 
-Verificando o histórico de auditoria do acordo de nível de serviço
-------------------------------------------------------------------
+**Figure 7 - Audit History screen**
 
-1.  Depois de pesquisar, selecione o registro desejado. Uma vez feito isso, será
-    direcionado para a tela de registro exibindo o conteúdo do registro
-    selecionado:
 
-    -  A relação entre o acordo de nível de serviço e os contratos de clientes é
-    fornecida na guia Contratos do Cliente;
-
-    -  A relação entre o acordo de nível de serviço e o acordo de nível operacional
-    é fornecida na guia Acordo de Nível Operacional;
-
-    -  A guia Contratos de terceiros é a associação entre o contrato de nível de
-    serviço com contratos de terceiros;
-
-    -  O histórico das mudanças feitas no registro do acordo de nível de serviço é
-    exibido na guia Histórico, conforme mostrado na figura abaixo:
-
-![Criar](images/register-sla-9.png)
-
- **Figura 7 -Tela de histórico de auditoria**
-
-[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/priority-register.html
-[2]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
-[3]:/pt-br/citsmart-platform-7/plataform-administration/email-settings/configure-email-template.html
-[4]:/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html
-[5]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/user-register.html
-[6]:/pt-br/citsmart-platform-7/processes/service-level/sla-requiriment.html
+[1]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/priority-register.html
+[2]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[3]:/en-us/citsmart-platform-7/plataform-administration/email-settings/configure-email-template.html
+[4]:/en-us/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html
+[5]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/user-register.html
+[6]:/en-us/citsmart-platform-7/processes/service-level/sla-requiriment.html
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Anna Martins
+    <b>Updated:</b>08/27/2019 – Anna Martins
 

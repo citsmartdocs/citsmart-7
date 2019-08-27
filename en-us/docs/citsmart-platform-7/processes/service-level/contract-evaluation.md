@@ -1,67 +1,64 @@
-title: Avaliação de contrato
-Description:  Verificar o desempenho do contrato por serviço.
+title: Contract evaluation
+Description: The goal of this feature is to check the performance of the service contract.
 
-# Avaliação de contrato
+# Contract evaluation
 
-Esta funcionalidade tem por objetivo verificar o desempenho do contrato por
-serviço.
-
-Como acessar
+How to access
 ------------
 
-1.  Acesse a funcionalidade de Avaliação de Contrato através da navegação no
-    menu principal **Processos ITIL > Gerência de Nível de
-    Serviço > Avaliação de Contrato**.
+1.  Access the Contract Evaluation feature navigating through the main
+    menu **Process Management > Service Level Management > Contract
+    Evaluation**.
 
-Pré-condições
--------------
+Preconditions
+------------
 
-1.  Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de
-    contrato][1]);
+1.  Have the contract registered (see knowledge [Contract registration and
+    search][1]);
 
-2.  Ter atividades cadastradas (ver conhecimento [Cadastro da atividade de
-    serviço][2]).
+2.  Have activities registered (see knowledge [Service activity
+    registration][2]).
 
-Filtros
--------
+Filters
+------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filters enables the user to restrict the participation of
+    items in the standard feature listing, making it easier to find the desired
+    items:
 
-    -  Contrato;
+-   Contract;
 
-    -  Período.
+-   Period.
 
-Listagem de itens
------------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Atividade, Situação, Tipo de demanda do Serviço, Tem SLA?,
-    Data de Início, Data Fim e Quantidade Requisições/Incidentes.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: Activity, Status, Type, Is there any SLA?, Start Date, End
+    Date and Quantity of Requests/ Incidents.
 
-2.  Será apresentada a tela de **Avaliação de Contrato**, conforme ilustrada na
-    figura a seguir:
+2.  The **Contract Evaluation** screen will be displayed, as illustrated on the
+    image below:
 
-    ![Criar conta](images/contract-evaluation.png)
+    ![figura](images/contract-evaluation.png)
+    
+    **Figure 1 - Service Contract Performance Screen**
 
-    **Figura 1 - Tela de consulta de desempenho do contrato por serviço**
+3.  Select the contract and insert the intended period;
 
-1.  Selecione o contrato e informe o período desejado;
+4.  After setting the filters, click on the *Generate Information* button.
+    Afterwards, the service performance report will be generated.
 
-2.  Após os filtros definidos, clique no botão *Gerar Informações*. Feito isso,
-    será gerado o relatório de desempenho do contrato por serviço.
+Filling in the registration fields
+--------------------------------
 
-Preenchimento dos campos cadastrais
------------------------------------
+1.  No applicable.
 
-1.  Não se aplica.
-
-[1]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
-[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/activity.html
+[1]:/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/activity.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 - Anna.Martins
+    <b>Updated:</b>08/27/2019 - Anna Martins

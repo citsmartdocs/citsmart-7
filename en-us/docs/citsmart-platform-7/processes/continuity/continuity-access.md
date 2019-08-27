@@ -1,67 +1,65 @@
-title:  Permissão de acesso do gerenciamento de continuidade
-Description: Tem por objetivo definir quem terá acesso às funcionalidades do gerenciamento de continuidade. 
-# Permissão de acesso do gerenciamento de continuidade
+title:  Continuity management access permission
+Description: This functionality aims to define who will have access to the functionality of continuity management. 
+# Continuity management access permission
 
-Esta funcionalidade tem por objetivo definir quem terá acesso às funcionalidades do gerenciamento de continuidade e qual tipo de 
-acesso é permitido (leitura, gravação e/ou exclusão).
+This functionality aims to define who will have access to the functionality of continuity management and what type of access is 
+allowed (reading, writing and/or deletion).
 
-Como acessar
+How to access
 ---------------
 
-1. Acesse a funcionalidade de permissão de acesso de gerenciamento de continuidade através da navegação no menu principal 
-**Permissão de Acesso > Gerência de Continuidade**.
+1. Access the Continuity Management Access Permission feature by navigating the main menu 
+**Access and Permission > Continuity Management**.
 
-Pré-condições
+Preconditions
 ---------------
 
-1. Cadastrar perfil de acesso (ver conhecimento [Cadastro e pesquisa de perfil de acesso][1]);
+1. Register access profile (see knowledge [Access profile registration and search][1]);
 
-Filtros
+Filters
 ---------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a 
-localização dos itens desejados:
+1. The following filter enable the user to restrict the participation of items in the standard feature listing, making it easier to 
+locate the desired items as shown in the figure below:
 
-    - Nome
+    - Name.
     
-2. Será apresentada a tela para definição da permissão de acesso, conforme ilustrada na figura abaixo:
+2. The screen for **Defining the Access Permission** will be displayed, as shown in the figure below:
 
-    ![Permissão](images/acess-cont.img1.jpg)
+    ![Permission](images/access.img1.jpg)
     
-    **Figura 1 - Tela de permissão de acesso de gerenciamento de continuidade**
+    **Figure 1 - Continuity management access permission screen**
     
-    - Ao clicar em Perfil de Acesso, será aberta uma aba de pesquisa do mesmo, conforme a figura abaixo:
+    - Clicking on the Access Profile will open a search tab for it, as shown below:
     
-    ![Pesquisa](images/acess-cont.img2.jpg)
+    ![Search](images/access.img2.jpg)
     
-    **Figura 2 - Tela de pesquisa de acesso de gerenciamento de continuidade**
+    **Figure 2 - Continuity management access lookup screen**
     
-    - Informe o perfil de acesso para aplicar o tipo de acesso que o mesmo terá;
+    - Enter the access profile to apply the type of access it will have;
     
-3. Para cada funcionalidade do gerenciamento de continuidade defina as ações (pesquisar, gravar e/ou excluir) que o perfil poderá 
-realizar;
+3. For each continuity management functionality, define the actions (search, save, and/or delete) that the profile can perform;
 
-4. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma futura
-auditoria.
+4. Click the *Save* button to register, where the date, time and user will be saved automatically for a future audit.
 
-Listagem de itens
+Items list
 --------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem
-padrão da funcionalidade: **ID Perfil** e **Nome**.
+1. The following cadastral fields are available to the user to make it easier to identify the desired items in the standard feature 
+listing: **ID Profile** and **Name**.
 
-    ![Listagem](images/acess-cont.img3.jpg)
+    ![Listing](images/access.img3.jpg)
     
-    **Figura 3 - Tela de listagem de acesso de gerenciamento de continuidade**
+    **Figure 3 - Continuity management access listing screen**
     
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 ------------------------------------
 
-1. Não se aplica.
+1. Not applicable.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/05/2019 - Larissa Lourenço
+    <b>Updated:</b>08/27/2019 - Larissa Lourenço
 
-[1]:/pt-br/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
+[1]:/en-us/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html

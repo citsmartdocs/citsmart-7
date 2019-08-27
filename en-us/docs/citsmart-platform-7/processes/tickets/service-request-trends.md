@@ -1,173 +1,148 @@
-title: Análise de tendências de solicitações de serviço
-Description: Tem por objetivo realizar uma análise das solicitações, baseada na quantidade crítica, para identificar quais itens vão influenciar em um lançamento de uma nova solicitação.
+title: Trend analysis of service requests
+Description: This functionality is intended to perform a critical quantity-based request analysis to identify which items will influence a launch of a new request.
 
-# Análise de tendências de solicitações de serviço
+# Trend analysis of service requests
 
-Como acessar
-------------
+This functionality is intended to perform a critical quantity-based request
+analysis to identify which items will influence a launch of a new request.
 
-1.  Acesse o menu principal **Processos ITIL > Gerência de
-    Ticket > Análise de Tendências**, aba Solicitações de Serviço.
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter um contrato cadastrado e ativo (ver conhecimento [Cadastro e pesquisa de
-    contrato](1));
+1.  Access the main menu **Process Management > Ticket
+    Management > Trend Analysis, Service Requests tab**.
 
-2.  Ter uma solicitação de serviço cadastrada (ver cohecimento [Gerenciamento de
-    ticket(serviços)](2)) seção Cadastro de ticket) e estar vinculada ao contrato (ver
-    conhecimento [Configuração dos atributos de serviço](3) seção Vinculando contratos ao serviço).
+Preconditions
+-------------
 
-Filtros
+1.  Have a registered contract and active (see knowledge [Contract registration and search][1]);
+
+2.  Have a registered ticket (see knowledge [Ticket management (services)][2] Ticket registration section) and be linked by the contract (see knowledge [Service Attributes configuration][3]) Linking contracts to the service section).
+
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados, conforme ilustrado na figura abaixo:
+1.  The following filters enables the user to restrict the participation of
+    items in the standard feature listing, making it easier to find the desired
+    items:
 
-    -   Período de abertura;
+   -   **Opening Period**: inform the period of registration of service requests;
 
-    -   Contrato;
+   -   **Contract**: inform the contract to verify the service requests related to
+    the same;
 
-    -   Tipo de solicitação;
+   -   **Type**: select the type of request you want to check;
 
-    -   Nome do Serviço;
+   -   **Service Name**: inform the service to verify the amount of requests
+    related to the same;
 
-    -   Grupo executor;
+   -   **Executor Group**: select the executor group to check the service requests
+    that were directed to it;
 
-    -   Solicitante;
+   -   **User**: inform the requesting user name to verify the service requests
+    requested by the same;
 
-    -   Urgência;
+   -   **Urgency**: select the degree of urgency to verify the service requests
+    related to the same;
 
-    -   Impacto;
+   -   **Impact**: select the degree of impact to verify service requests related
+    to it;
 
-    -   Item de configuração;
+   -   **Configuration Item**: inform the configuration item to check the service
+    requests related to it;
 
-    -   Causa;
+   -   **Cause**: inform the cause to verify the service requests caused by it;
 
-    -   Quantidade Crítica.
+   -   **Critical Quantity**: report the critical number of service requests that
+    deserve attention and analysis.
 
+   ![figure](images/request-trends-1.png)
+   
+   **Figure 1 - Service requests trend analysis screen**
 
-    ![figura 1](images/request-trends-1.png)
+2.  Fill in the filters as needed;
 
-    **Figura 1 - Tela de análise de tendência de solicitações de serviço**
+3.  After the filters are entered, click on the *Search* button.
 
-1.  Preencha os filtros conforme sua necessidade:
+Items list
+----------
 
-    -   **Período de Abertura**: informar o período do cadastro de solicitações
-        de serviço;
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature listing: ID,
+    Service and Critical Quantity;
 
-    -   **Contrato**: informar o contrato para verificar as solicitações de
-        serviço referente ao mesmo;
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Generate Graphic* and *Create Problem*;
 
-    -   **Tipo de solicitação**: selecionar o tipo de solicitação que deseja
-        verificar;
+3.  Once this is done, the system will filter and total the number of requests
+    that satisfy the selected filters and generate three results guides;
 
-    -   **Nome do Serviço**: informar o serviço para verificar a quantidade de
-        solicitações referente ao mesmo;
+   ![figure](images/request-trends-2.png)
+   
+   **Figure 2 - Results for trend analysis**
 
-    -   **Grupo executor**: selecionar o grupo executor para verificar as
-        solicitações de serviço que foram direcionadas para o mesmo;
+   !!! warning "ATTENTION"
 
-    -   **Solicitante**: informar o nome do usuário solicitante para verificar
-        as solicitações de serviço solicitadas pelo mesmo;
+      The critical amount of requests equal to or greater than the minimum
+      critical amount reported in the filter will be displayed on each tab
+      (Service, Cause and Configuration Item).
 
-    -   **Urgência**: selecionar o grau de urgência para verificar as
-        solicitações de serviço referentes ao mesmo;
+4.  Each tab will display the results for each type (service, cause and
+    configuration item) and in each item two buttons will be displayed, one
+    to Generate Graphic (as shown in the previous figure) which shows the
+    dates that comprise the reported period and the number of occurrences on
+    that date, and another one for **Create Problem**, where the problem
+    register screen will be displayed to record the required information of the
+    problem.
 
-    -   **Impacto**: selecionar o grau do impacto para verificar as solicitações
-        de serviço referentes ao mesmo;
-
-    -   **Item de Configuração**: informar o item de configuração para verificar
-        as solicitações de serviços relacionadas ao mesmo;
-
-    -   **Causa**: informar a causa para verificar as solicitações de serviço
-        ocasionadas pela mesma;
-
-    -   **Quantidade Crítica**: informar o número crítico de solicitações de
-        serviços que merecem atenção e análise.
-
-2.  Após os filtros informados, clique no botão *Pesquisar*.
-
-Listagem de itens
------------------
-
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **ID, Serviço e Quantidade Crítica**.
-
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Gerar Gráfico* e *Criar Problema*.
-
-3.  O sistema irá filtrar e totalizar a quantidade de solicitações que atendem
-    aos filtros selecionados e gerará três guias de resultados, conforme exemplo
-    ilustrado na figura abaixo:
+    ![figure](images/request-trends-3.png)
     
-    ![figura 2](images/request-trends-2.png)
+    **Figure 3 - Gantt chart of service request trends analysis**
+
+    -   When you choose to register a problem from the **Service**, the problem
+    registration screen will be displayed with the "Description" field fed with
+    the corresponding service name;
+
+    ![figure](images/request-trends-4.png)
     
-    **Figura 2 - Resultados para análise de tendência**
+    **Figure 4 - Create problem screen - Service tab**
+
+    -   When you choose to register a problem from the **Cause**, the problem
+    register screen will be displayed with the fields "Description" and "cause"
+    fed with the description of the corresponding cause;
+
+     ![figure](images/request-trends-5.png)
+     
+     **Figure 5- Create problem screen - Cause tab**
+
+    -   When you choose to register a problem from the **Configuration item**, the
+    problem registration screen will be displayed with the "description" field
+    fed with information from the corresponding configuration item.
+
+![figure](images/request-trends-6.png)
+
+**Figure 6- Create problem screen - Configuration item tab**
+
+Filling in the registration fields
+----------------------------------
+
+1.  No applicable.
+
+See also
+--------
+
+-   [Event trend analysis][4])
 
 
-    !!! warning "ATENÇÃO"
 
-         Serão exibidas em cada guia (Serviço, Causa e Item de Configuração), a quantidade crítica de solicitações, igual ou superior à quantidade crítica mínima informada no filtro.
-        
-
-1.  Em cada guia serão apresentados os resultados referentes a cada tipo
-    (Serviço, Causa e Item de Configuração) e em cada item serão exibidos dois
-    botões, um para **Gerar Gráfico de Análise de Tendências** (conforme
-    ilustrado na figura anterior) o qual apresenta as datas que compreendem o
-    período informado e o número de ocorrências naquela data, e outro
-    para **Criar Problema**, onde será exibida a tela de cadastro de problema
-    para registro das informações necessárias do problema.
-
-    ![figura 3](images/request-trends-3.png)
-
-    **Figura 3 - Gráfico gantt de análise de tendências de solicitações de serviço**
-
--   Ao optar por registrar um problema a partir do **Serviço**, será exibida a
-    tela de cadastro de problema com o campo "Descrição" alimentado com o nome
-    do serviço correspondente;
-
-    ![figura 4](images/request-trends-4.png)
-
-    **Figura 4 - Tela Criar problema - aba Serviço**
-
--   Ao optar por registrar um problema a partir da **Causa**, será exibida a
-    tela de cadastro de problema com os campos "Descrição" e "Causa" alimentados
-    com a descrição da causa correspondente;
-
-    ![figura 5](images/request-trends-5.png)
-
-    **Figura 5 - Tela Criar problema - aba Causa**
-
--   Ao optar por registrar um problema a partir do **Item de Configuração**,
-    será exibida a tela de cadastro de problema com o campo "Descrição"
-    alimentado com informação do item de configuração correspondente.
-
-    ![figura 6](images/request-trends-6.png)
-
-    **Figura 6 - Tela Criar problema - aba Item de Configuração**
-
-Preenchimento dos campos cadastrais
------------------------------------
-
-1.  Não se aplica.
-
-Veja também
------------
-
-[Análise de tendência de eventos](4).
-
-[1]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
-[2]:/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html
-[3]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
-[4]:/pt-br/citsmart-platform-7/processes/tickets/event-trends.html
+[1]:/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[2]:/en-us/citsmart-platform-7/processes/tickets/ticket-management.html
+[3]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
+[4]:/en-us/citsmart-platform-7/processes/tickets/event-trends.html
 
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/10/2019 – Anna Martins
+    <b>Updated:</b>08/27/2019 – Anna Martins

@@ -26,35 +26,6 @@ Filtros
     itens na listagem padrão da funcionalidade, facilitando a localização dos
     itens desejados, conforme ilustrado na figura abaixo:
 
-    -   Período de abertura;
-
-    -   Contrato;
-
-    -   Tipo de solicitação;
-
-    -   Nome do Serviço;
-
-    -   Grupo executor;
-
-    -   Solicitante;
-
-    -   Urgência;
-
-    -   Impacto;
-
-    -   Item de configuração;
-
-    -   Causa;
-
-    -   Quantidade Crítica.
-
-
-    ![figura 1](images/request-trends-1.png)
-
-    **Figura 1 - Tela de análise de tendência de solicitações de serviço**
-
-1.  Preencha os filtros conforme sua necessidade:
-
     -   **Período de Abertura**: informar o período do cadastro de solicitações
         de serviço;
 
@@ -88,14 +59,20 @@ Filtros
     -   **Quantidade Crítica**: informar o número crítico de solicitações de
         serviços que merecem atenção e análise.
 
-2.  Após os filtros informados, clique no botão *Pesquisar*.
+    ![figura 1](images/request-trends-1.png)
+
+    **Figura 1 - Tela de análise de tendência de solicitações de serviço**
+
+2.  Preencha os filtros conforme sua necessidade;
+
+3.  Após os filtros informados, clique no botão Pesquisar.
 
 Listagem de itens
 -----------------
 
 1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
     identificação dos itens desejados na listagem padrão da
-    funcionalidade: **ID, Serviço e Quantidade Crítica**.
+    funcionalidade: ID, Serviço e Quantidade Crítica.
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Gerar Gráfico* e *Criar Problema*.
