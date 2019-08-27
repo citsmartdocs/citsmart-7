@@ -135,8 +135,6 @@ See also
 
 
 
-[Análise de tendência de eventos](4).
-
 [1]:/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
 [2]:/en-us/citsmart-platform-7/processes/tickets/ticket-management.html
 [3]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
