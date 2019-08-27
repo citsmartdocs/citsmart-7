@@ -1,179 +1,179 @@
-title: Gerenciamento de continuidade
-Description: O Gerenciamento de Continuidade foca em recuperar os serviços de TI e seus componentes diante de um evento de desastre.
-# Gerenciamento de continuidade
+title: Continuity Management
+Description: Continuity Management focuses on recovering IT services and their components in the face of a disaster event.
+# Continuity Management
 
-O Gerenciamento de Continuidade foca em recuperar os serviços de TI e seus componentes diante de um evento de desastre.
+Continuity Management focuses on recovering IT services and their components in the face of a disaster event.
 
-Pré-condições
+Preconditions
 --------------
 
-1. Cadastrar categoria de ameaça (ver conhecimento [Cadastro e pesquisa de categoria de ameaça][1]);
+1. Register category of threat (see knowledge [Threat category registration and search][1]);
 
-2. Cadastrar ameaça (ver conhecimento [Cadastro e pesquisa de ameaça][2]);
+2. Register threat (see knowledge [Threat registration and search][2]);
 
-3. Vincular a categoria de ameaça a ameaça cadastrada;
+3. Link the threat category to the registered threat;
 
-4. Cadastrar categoria de risco (ver conhecimento [Cadastro e pesquisa de categoria de risco][3]);
+4. Register the risk category (see knowledge [Risk category registration and search][3]);
 
-5. Cadastrar risco (ver conhecimento [Cadastro e pesquisa de risco de continuidade][4]);
+5. Register risk (see knowledge [Continuity risk registration and search][4]);
 
-6. Cadastrar cliente (ver conhecimento [Cadastro e pesquisa de cliente][5]);
+6. Register Customer (see knowledge [Customer registration and search][5]);
 
-7. Cadastrar colaborador (ver conhecimento [Cadastro e pesquisa de colaborador][6]);
+7. Register employee (see knowledge [Staff registration and search][6]);
 
-8. Cadastrar ações automáticas de Incidente, Requisição e Procedimentos referente ao Gerenciamento de Eventos (ver conhecimento
-[Cadastro e pesquisa de ações automáticas][7]);
+8. Record Incident, Request and Procedures automatic actions related to Event Management (see knowledge [Automatic actions registration and search][7]);
 
-9. Cadastrar na base de conhecimento documento do tipo Medida de Recuperação (ver conhecimento [Gerenciamento de conhecimento][8]).
+9. Register on the knowledge base a document of type Recovery Measure (see knowledge [Knowledge management][8]).
 
-Como acessar
+How to access
 ---------------
 
-1. Acesse a funcionalidade pelo menu principal **Processos ITIL > Gerência de Continuidade > Gerenciamento de Continuidade**.
+1. Access the functionality through navigation in the main menu 
+**Process Management > Continuity Management > Continuity Management**.
 
-Registrando continuidade de serviço
+Registering continuity of service
 ------------------------------------
 
-1. Na tela de **Gerenciamento de Continuidade**, clique no botão "Registro de Continuidade", conforme indicado na figura abaixo:
+1. On the **Continuity Management** screen, click the *Register Continuity* button, as shown in the figure below:
 
-    ![Continuidade](images/ger-cont.img1.png)
+    ![Continuity](images/management.img1.jpg)
     
-    **Figura 1 - Botão registro de continuidade**
+    **Figure 1 - Continuity registration button**
     
-2. Será apresentada a tela de **Cadastro de Continuidade**, conforme ilustrada na figura abaixo:
+2. The **Continuity Registration** screen will be displayed, as shown in the figure below:
 
-    ![Cadastro](images/ger-cont.img2.png)
+    ![Registration](images/management.img2.jpg)
     
-    **Figura 2 - Tela de cadastro de continuidade**
+    **Figure 2 - Continuity master data screen**
     
-    - **Nome**: defina o nome da continuidade do serviço;
-    - **Cliente**: informe o cliente da continuidade do serviço;
-    - Após informar os dados da continuidade do serviço, clique no botão "Gravar" para efetuar o registro. A figura abaixa 
-    apresenta a **Continuidade do Serviço** depois de registrada:
+    - **Name**: define the name of the service continuity;
+    - **Client**: inform the customer of the continuity of the service;
+    - After entering the service continuity data, click the *Save* button to register. The figure below shows the Service 
+    Continuity after being registered:
     
-    ![Gerenciamento](images/ger-cont.img3.png)
+    ![Management](images/management.img3.jpg)
     
-    **Figura 3 - Tela de gerenciamento de continuidade**
+    **Figure 3 - Service continuity record**
     
-    ![numero](images/num1.png) ![simbolo](images/simb-ampl.png): amplia a tela de Gerenciamento de Continuidade;
+    ![number](images/1.png) ![symbol](images/simb-expend.jpg): extends the Continuity Management screen;
     
-    ![número](images/num2.png) **Barra de Navegação**: permite navegar entre os dados da continuidade;
+    ![number](images/2.png) **Navigation Bar**: allows the navigation between the continuity data;
     
-    ![número](images/num3.png) **Botão Registro de Continuidade**: permite registrar uma nova continuidade de serviços;
+    ![number](images/3.png) **Continuity Register button**: allows the registration of a new continuity of services;
     
-    ![número](images/num4.png) **Editar Continuidade**: permite editar os dados do registro de continuidade;
+    ![number](images/4.png) **Edit Continuity**: allows the edit the data of the continuity record;
     
-    ![número](images/num5.png) **Avançar Continuidade**: permite acessar a continuidade de serviços.
+    ![number](images/5.png) **Next Continuity**: allows the access to the continuity of services.
     
-    - Para alterar os dados do registro de continuidade de serviço, clique no botão "Editar", altere os dados e clique em
-    "Salvar" para fazer a alteração, onde a data, a hora e o usuário serão salvos automaticamente para uma auditoria futura.
+    - To change the service continuity record data, click the *Edit* button service continuity record data, change the data, and 
+    click *Save* to make the change, where the date, time, and user are automatically saved for a future audit.
 
-    - Para excluir o registro de continuidade do serviço, selecione a continuidade do serviço desejada, clique em "Editar" e, em 
-    seguida, clique no botão "Excluir" dados para executar a operação.
+    - To delete the service continuity log, click the *Edit button* service continuity log, and then click the *Delete Data* button 
+    to perform the operation.
 
-    - Após registrar a continuidade, clique no botão "Avançar" para acessá-la. A tela Gerenciamento de Continuidade de Serviço
-    será então exibida.
+    - After registering for Continuity of Service, click the *Next* button to access it. The Service Continuity Management screen 
+    will be displayed.
 
-Iniciação
+Initiation
 -----------
 
-1. Após o registro da Continuidade de Serviço de TI, clique em Avançar da mesma para acessá-la;
+1. After registering for IT Service Continuity, click the *Next* button IT Service Continuity to access it;
 
-2. Será apresentada a tela de informações de Continuidade do Serviço de TI, clique na fase de Iniciação, nesta fase é definido
-a política, escopo e projeto. Feito isso, será apresentada a tela onde poderá registrar as informações necessárias dessa fase, 
-conforme ilustrada na figura abaixo:
+2. The **IT Service Continuity** information screen will be displayed, click on the **Initiation** phase, at this stage the policy, 
+scope and project will be defined. Once this is done, you will be presented with the screen where you can register the necessary 
+information for this phase, as shown in the figure below:
 
-![Iniciação](images/ger-cont.img4.png)
+![Initiation](images/management.img4.jpg)
 
-**Figura 4 - Fase de iniciação da continuidade do serviço de TI**
+**Figure 4 - IT service continuity initiation phase**
 
-Definindo política
+Defining policy
 --------------------
 
-A política deve ser definida e comunicada o mais cedo possível para que todos os membros da organização envolvidos ou afetados
-pela continuidade de negócio sejam conscientizados sobre suas responsabilidades para suportar o Gerenciamento de Continuidade 
-do Serviço de TI (GCSTI) de acordo com os objetivos da política.
+The policy should be defined and communicated as early as possible so that all members of the organization involved or affected by 
+business continuity are made aware of their responsibilities to support IT Service Continuity Management (ITSCM) in accordance with 
+policy objectives.
 
-1. Na tela de **Gerenciamento de Continuidade**, na fase de **Iniciação**, clique na guia **Política**. Feito isso, será 
-apresentada a respectiva tela de cadastro de política, conforme ilustrada na figura abaixo:
+1. On the **Continuity Management** screen, in the **Initiation** phase, click the **Policy** tab. Once this is done, the 
+respective policy registration screen will be displayed, as shown in the figure below:
 
-    ![Registro](images/ger-cont.img5.png)
+    ![Registration](images/management.img5.jpg)
     
-    **Figura 5 - Tela de registro de política**
+    **Figure 5 - Policy registration screen**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill in the fields as directed below:
 
-    - **Título**: informe o título da política;
-    - **Versão**: informe a versão da política;
-    - **Data de Validade**: informe a data de validade da política;
-    - **Descrição**: descreva os detalhes da política;
-    - **Responsável**: informe o responsável pela política;
-    - Após informar os dados e caso queira anexar um arquivo, clique na aba **Anexar**. Será exibida a tela para anexo de 
-    arquivos conforme ilustrada na figura abaixo:
+    - **Title**: report the title of the policy;
+    - **Version**: report the version of the policy;
+    - **Expiration Date**: enter the expiration date of the policy;
+    - **Description**: describe the details of the policy;
+    - **Responsible**: inform the responsible for the policy;
+    - After entering the data and if you want to attach a file, click the **Attachment** tab. The file attachment screen will be 
+    displayed as shown in the figure below:
     
-    ![Anexos](images/ger-cont.img6.png)
+    ![Attachment](images/management.img6.jpg)
     
-    **Figura 6 - Tela de anexo de arquivos**
+    **Figure 6 - File attachment screen**
     
-    - Informe a descrição para o arquivo que será anexado, clique no botão "Adicionar Arquivo" e selecione o arquivo desejado. 
-    Após isso, o arquivo será anexado e apresentado na tela de anexo da política, conforme exemplo ilustrado na figura abaixo:
+    - Enter the description for the file that will be attached, click the *Add File* button and select the file you want. After 
+    that, the file will be appended and displayed in the policy attachment screen.
     
-    ![Arquivo](images/ger-cont.img7.png)
+    ![File](images/ger-cont.img7.png)
     
-    **Figura 7 - Arquivo de política anexado**
+    **Figure 7 - Attached policy file**
     
-3. Após a definição da política, clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados 
-automaticamente para uma futura auditoria;
+3. After setting the policy, click the *Save* button to register, where the date, time and user will be saved automatically for a 
+future audit.
 
-4. O botão "Avançar", ao ser acionado, avança para a próxima etapa da fase de iniciação.
+4. The *Next* button, when triggered, advances to the next step of the initiation phase.
 
-Registrando escopo
+Registering scope
 ---------------------
 
-Definição do escopo e responsabilidades das equipes cobrindo as atividades do processo como avaliação de risco, Análise de
-impacto do Negócio (AIN), determinação dos controles de acordo com os requisitos dos clientes e regulatórios, considerando os
-pontos de auditoria e conformidade com a ISO 27001.
+Definition of the scope and responsibilities of the teams covering the activities of the process such as risk assessment, Business 
+Impact Analysis (BAI), determination of controls according to customer and regulatory requirements, considering audit points and 
+compliance with ISO 27001 .
 
-1. Na tela de **Gerenciamento de Continuidade**, na fase de **Iniciação**, clique na guia **Escopo**. Feito isso, será apresentada
-a respectiva tela de cadastro de escopo, conforme ilustrada na figura abaixo:
+1. On the **Continuity Management**screen, in the **Initiation** phase, click the **Scope** tab. Once this is done, the respective 
+scope register screen will be displayed, as shown in the figure below:
 
-    ![Registro](images/ger-cont.img8.png)
+    ![Scope](images/management.img8.jpg)
     
-    **Figura 8 - Tela de registro de escopo**
+    **Figure 8 - Scope registraton screen**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill in the fields as directed below:
 
-    - **Sumário Executivo**: descreva um resumo sobre o plano de negócio da organização;
-    - **Descrição**: descreva os detalhes do escopo da continuidade do serviço;
-    - **Data de Validade**: informe a data de validade do escopo da continuidade do serviço;
-    - Após informar os dados e caso queira anexar um arquivo, clique na aba **Anexar**. Será exibida a tela para anexo de 
-    arquivos conforme ilustrada na figura abaixo:
+    - **Executive Summary**: describe a summary of the organization's business plan;
+    - **Description**: describe the details of the scope of service continuity;
+    - **Validity date**: enter the expiration date of the scope of service continuity;
+    - After entering the data and if you want to attach a file, click the **Attachment** tab. The file attachment screen will be 
+    displayed as shown in the figure below:
     
-    ![Anexos](images/ger-cont.img9.png)
+    ![Attachment](images/management.img9.jpg)
     
-    **Figura 9 - Tela de anexo de arquivos**
+    **Figure 9 - File attachment screen**
     
-    - Informe a descrição para o arquivo que será anexado, clique no botão "Adicionar Arquivo" e selecione o arquivo desejado. 
-    Após isso, o arquivo será anexado e apresentado na tela de anexo do escopo, conforme exemplo ilustrado na figura abaixo:
-    
-    ![Arquivo](images/ger-cont.img10.png)
-    
-    **Figura 10 - Arquivo de escopo anexado**
-    
-3. Após registro das informações do escopo, clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão
-gravados automaticamente para uma futura auditoria;
+    - Enter the description for the file that will be attached, click the *Add File* button and select the file you want. After 
+    that, the file will be appended and displayed in the scope attachment screen, as shown in the figure below:
 
-4. O botão "Voltar", ao ser acionado, retorna para a etapa anterior da fase de iniciação;
+    ![Scope](images/management.img10.jpg)
+    
+    **Figura 10 - Attached scope file**
+    
+3. After recording the scope information, click the *Save* button to register, where the date, time and user will be automatically 
+saved for a future audit.
 
-5. O botão "Avançar", ao ser acionado, avança para a próxima etapa da fase de iniciação.
+4. The *Back* button, when triggered, returns to the previous step of the initiation phase.
 
-Definindo projeto
+5. The *Next* button, when triggered, advances to the next step of the initiation phase.
+
+Defining project
 -------------------
 
-1. Na tela de **Gerenciamento de Continuidade**, na fase de **Iniciação**, clique na guia **Projeto**. Feito isso, será 
-apresentada a tela de definição do projeto, conforme ilustrada na figura abaixo:
+1. On the **Continuity Management** screen, in the **Initiation** phase, click the **Project** tab. Once this is done, the project 
+definition screen will be displayed, as shown in the figure below:
 
-    ![Vínculo](images/ger-cont.img11.png)
+    ![Linkmages/ger-cont.img11.png)
     
     **Figura 11 - Tela de vínculo de projeto**
     

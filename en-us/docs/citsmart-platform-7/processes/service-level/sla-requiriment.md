@@ -1,100 +1,99 @@
-title: Cadastro e pesquisa de requisito de acordo de nível de serviço
-Description:Esta funcionalidade tem por objetivo registrar os planos de melhoria que visa implementar melhorias ao serviço de TI.
+title: Service level agreement condition registration and search
+Description: The goal of this feature is to register the service level agreement conditions to be used in other system routines.
 
-# Cadastro e pesquisa de requisito de acordo de nível de serviço
+# Service level agreement condition registration and search
 
-Esta funcionalidade tem o objetivo de registrar os requisitos de acordo de nível
-de serviço para serem utilizados em outras rotinas do sistema.
+The goal of this feature is to register the service level agreement conditions
+to be used in other system routines.
 
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de **Requisito de Acordo de Nível de
-    Serviço** através da navegação no menu principal **Processos
-    ITIL > Gerência de Nível de Serviço > Requisição de Nível de
-    Serviço**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter o colaborador cadastrado (ver conhecimento [Cadastro e Pesquisa de
-    Colaborador][1]).
+1.  Access the Service Level Agreement Condition feature navigating through
+    the main menu **Process Management > Service Level
+    Management > SLA Request**.
 
-Filtros
+Preconditions
+-------------
+
+1.  Have the employee registered (see knowledge [Staff registration and
+    search][1]).
+
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados, conforme ilustrado na figura abaixo:
+1.  The following filters enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to locate the desired
+    items as shown in the figure below:
 
-    -  Assunto;
+   -   Subject;
 
-    -  Situação.
+   -   Status.
 
-    ![Criar](images/sla-requiriment-1.png)
+   ![figura](images/sla-requiriment-1.png)
+   
+   **Figure 1 - Service Level Agreement Condition search screen**
+
+2.  To search for a service level agreement condition entry, insert the subject
+    and/or status of the service level agreement condition. Afterwards, the
+    entries will be displayed according to the filters provided.
+
+Items list
+----------
+
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard listing of the
+    functionality: **Subject** and **Status**;
+
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Edit* and *Delete* (according to the figure 1);
+
+    ![figura](images/sla-requiriment-2.png)
+
+    **Figure 2 - SLA condition listing screen**
+
+3.  To edit a service level agreement condition, click on the *Edit* button.
+    Afterwards, they will be directed to the registry screen displaying the
+    content of the selected entry;
+
+4.  To create another SLA condition using the current one, just click on
+    the *Create SLA from this Requirement*.
+
+Filling in the registration fields
+----------------------------------
+
+1.  The Service Level Agreement condition screen will be displayed;
+
+2.  Click on the *New* button. Then, the **Service Level Agreement Requirement
+    Master Data** screen will be displayed, as illustrated on the image below:
+
+    ![figura](images/sla-requiriment-3.png)
     
-    **Figura 1 - Tela de pesquisa de requisito de Acordo de Nível de Serviço**
+    **Figure 3 - Service Level Agreement Condition Entry screen**
 
-2.  Para realizar a busca de um registro de requisito de acordo de nível de
-    serviço, informe o assunto e/ou situação do mesmo. Após isso, será exibido o
-    registro conforme o filtro informado.
+3.  Complete the fields as instructed below:
 
-Listagem de itens
------------------
+    -   **User**: insert the condition's applicant;
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade:  Assunto e Situação.
+    -   **Ordered in:** insert the date on which the service level agreement
+        condition was requested;
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Excluir*.
+    -   **Status**: insert the status of the service level agreement condition;
 
-    ![Criar](images/sla-requiriment-2.png)
+    -   **Subject**: insert the subject of service level agreement condition;
 
-    **Figura 2 - Tela de listagem de requisito de Acordo de Nível de Serviço**
+    -   **Details**: insert the details of the service level agreement
+        condition.
 
-3.  Para alterar os dados do registro de requisito de acordo de nível de
-    serviço, clique no botão *Editar*. Feito isso, será direcionado para a tela
-    de cadastro exibindo o conteúdo do registro;
+4.  After inserting the data, click on the *Save* button to confirm the entry,
+    at which date, time and user will be automatically stored for a future
+    audit.
 
-4.  Caso queira criar um SLA a partir do requisito, basta clicar no botão *Criar
-    SLA* a partir deste Requisito.
 
-Preenchimento dos campos cadastrais
------------------------------------
-
-1.  Será apresentada a tela de **Requisito de Acordo de Nível de Serviço**;
-
-2.  Clique no botão *Novo*. Feito isso, será apresentada a tela de **Cadastro de
-    Requisito de Acordo de Nível de Serviço**, conforme ilustrada na figura a
-    seguir:
-
-    ![Criar](images/sla-requiriment-3.png)
-
-    **Figura 3 - Tela de cadastro de requisito de Acordo de Nível de Serviço**
-
-1.  Preencha os campos conforme orientações abaixo:
-
-    -   **Solicitante**: informe o solicitante do requisito;
-
-    -   **Requisitado em**: informe a data em que foi solicitado o requisito de
-    acordo de nível de serviço;
-
-    -   **Situação**: informe a situação do requisito de acordo de nível de serviço;
-
-    -   **Assunto**: informe o assunto do requisito de acordo de nível de serviço;
-
-    -   **Detalhamento**: informe os detalhes do requisito de acordo de nível de
-    serviço.
-
-1.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
-    onde a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria.
-
-[1]:/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html
+[1]:/en-us/citsmart-platform-7/processes/tickets/ticket-management.html
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Anna Martins
+    <b>Updated:</b>08/27/2019 – Anna Martins
