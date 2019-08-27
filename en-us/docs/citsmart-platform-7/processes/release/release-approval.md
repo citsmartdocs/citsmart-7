@@ -6,7 +6,7 @@ Description: This feature allows the approval of the changes release that have b
 How to access
 -------------
 
-1.  Access the **Release Management **feature navigating through the main
+1.  Access the **Release Management** feature navigating through the main
     menu **Process Management > Release Management > Release
     Management**.
 
@@ -36,9 +36,9 @@ Items list
 
 1.  The following cadastral fields are available to the user to facilitate the
     identification of the desired items in the default listing of the
-    functionality: **Number, Applicant Name, Created on, Priority, Time
+    functionality: Number, Applicant Name, Created on, Priority, Time
     limit, Delay, Situation, Current task, Executor Group, Current
-    responsible** and **Shared with;**
+    responsible and Shared with;
 
 2.  There are action buttons available to the user for each item in the listing,
     they are: *View*, *Reports*, *Request Release Schedule* , *Suspend
@@ -57,12 +57,12 @@ Items list
 
     -   Make sure the execution of the change release was performed as requested;
 
-    -   In the **Request **area, in the **Status** field, insert the current
+    -   In the **Request** area, in the **Status** field, insert the current
     situation of the release request (Solved or Unresolved);
 
     -   Register the necessary information on the approval:
 
-    -   In the **Closure **area, click the on the *Add an Execution
+    -   In the **Closure** area, click the on the *Add an Execution
     Register* button. Afterwards, describe the information about the activity's
     execution.
 
