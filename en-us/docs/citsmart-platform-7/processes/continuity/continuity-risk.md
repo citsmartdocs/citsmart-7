@@ -1,90 +1,86 @@
-title: Cadastro e pesquisa de risco de continuidade
-Description: Esta funcionalidade tem por objetivo cadastrar os riscos que serão usadas durante o registro da Continuidade.
-# Cadastro e pesquisa de risco de continuidade
+title: Continuity risk registration and search
+Description: The goal of this feature is to register the risks which will be used during the continuity registry.
+# Continuity risk registration and search
 
-Esta funcionalidade tem por objetivo cadastrar os riscos que serão usadas durante o registro da Continuidade.
+The goal of this feature is to register the risks which will be used during the continuity registry.
 
-Como acessar
+How to access
 --------------
 
-1. Acesse a funcionalidade de risco através da navegação no menu principal 
-**Processos ITIL > Gerência de Continuidade > Cadastro de Risco**.
+1. Access the Risk Register feature navigating through the main menu 
+**Process Management > Continuity Management > Risk Register**.
 
-Pré-condições
---------------
+Preconditions
+----------------
 
-1. Cadastrar categoria de risco (ver conhecimento [Cadastro e pesquisa de categoria de risco](/pt-br/citsmart-platform-7/processes/continuity/risk-category.html));
+1. Register a risk category (see knowledge [Risk category registration and search](/en-us/citsmart-platform-7/processes/continuity/risk-category.html));
 
-2. Cadastrar ameaça (ver conhecimento [Cadastro e pesquisa de ameaça](/pt-br/citsmart-platform-7/processes/continuity/threat-registration.html)).
+2. Register a threat (see knowledge [Threat registration and search](/en-us/citsmart-platform-7/processes/continuity/threat-registration.html)).
 
-Filtros
+Filters
 ---------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando
-a localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Nome do Risco;
-    - Descrição.
+    - Risk name;
+    - Details.
     
-    ![Pesquisa](images/risco-cont.img1.png)
+    ![Search](images/risk.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de risco**
+    **Figure 1 - Risk search screen**
     
-2. Realize a pesquisa de risco;
+2. Perform a risk search:
 
-    - Informe o nome e/ou descrição do risco que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o  
-    registro do risco conforme o nome informado;
+    - Insert the name of the intended risk and click on the *Search* button. Afterwards, the risk entry will be displayed according 
+    to the description provided.
 
-    - Caso deseje listar todos os registros de risco, basta clicar diretamente no botão "Pesquisar".
+    - To list all risks categories, just click directly on the *Search* button, if needed.
 
-Listagem de itens
+Items list
 -------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: **Nome do Risco, Categoria de Risco** e **Descrição**.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **Risk name, Risk Category** and **Details**.
 
-    ![Listagem](images/risco-cont.img2.png)
+    ![Listing](images/risk.img2.jpg)
     
-    **Figura 2 - Tela de listagem de risco**
+    **Figure 2 - Risk listing screen**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo 
-referente ao registro selecionado;
+2. After searching, select the intended entry. Afterwards, they will be redirected to the registry screen displaying the content 
+belonging to the selected entry.
 
-3. Para alterar os dados do registro de risco, basta modificar as informações dos campos desejados e clicar no botão "Gravar" 
-para que seja gravada a alteração realizada no registro, onde a data, hora e usuário serão gravados automaticamente para uma
-futura auditoria.
+3. To edit a risk entry, just modify the information on the intended fields and click on the *Save* button to confirm the changes 
+to the database, at which date, time and user will be stored automatically for a future audit.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 ------------------------------------
 
-1. Será apresentada a tela de cadastro de risco, conforme ilustrada na figura abaixo:
+1. The **Risk Registration** screen will be displayed, as illustrated on the image below:
 
-    ![Cadastro](images/risco-cont.img3.png)
+    ![Entrey](images/risk.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de risco**
+    **Figure 3 - Risk entry screen**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill out the fields as instructed below:
 
-    - **Nome do risco**: informe o nome do risco;
-    - **Nome da categoria**: selecione a categoria do risco;
-    - **Nível do Risco**: selecione o nível do risco;
-    - **Descrição**: informe a descrição do risco;
-    - Vincule ameaça(s) ao risco:
-        - Clique no botão "Vincular Ameaça". Feito isso, será exibida a tela de pesquisa de ameaça. Realize a pesquisa, selecione 
-        a(s) ameaça(s) desejada(s) e clique no botão "Enviar" para efetuar a operação. Caso não encontre o registro da ameaça e
-        haja a necessidade de registrar uma ameaça para vincular ao risco, poderá registrá-la a partir dessa tela, basta clicar
-        no botão "Nova Ameaça";
-        - Após o vínculo da(s) ameaça(s) ao risco, a(s) mesma(s) será(ão) apresentada(s) na tela de registro de risco, conforme
-        exemplo ilustrado na figura abaixo:
+    - **Risk Name**: describe the risk;
+    - **Category Name**: insert the risk category;
+    - **Risk Level**: select the level of risk
+    - Link a threat to a risk:
+        - Click on the *Link Threat* button. Afterwards, the threat search screen will be displayed. Perform the search, select the 
+        intended threats and click on the *Add* button to confirm. If the intended threat entry can't be found and they need to 
+        register a threat to link to the risk, it can be registered on this screen, just click on the *New Threat* button
+        - After linking the threat to a risk, they will be displayed on the risk entry screen, as illustrated on the image below.
         
-    ![Ameaças](images/risco-cont.img4.png)
+    ![Threats](images/risk.img4.jpg)
     
-    **Figura 4 - Ameaças vinculadas ao risco**
+    **Figure 4 - Threats linked to a risk**
     
-3. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma 
-futura auditoria.
+3. Click on the *Save* the button to confirm the entry, at which date, time and user will automatically be stored for a future 
+audit.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Larissa Lourenço
+    <b>Updated:</b>08/27/2019 – Larissa Lourenço
