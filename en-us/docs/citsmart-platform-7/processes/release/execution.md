@@ -289,7 +289,7 @@ Linking checklist
     release of the change:
 
     -   On the right side of the release request screen, click on
-        the** Processes/Options** tab and select the **Checklist** option, as
+        the **Processes/Options** tab and select the **Checklist** option, as
         shown in the following figure:
 
      ![figure](images/execution-24.png)
