@@ -1,87 +1,86 @@
-title: Cadastro e pesquisa de categoria de risco
-Description: Esta funcionalidade tem por objetivo cadastrar as categorias de riscos que serão usadas durante o cadastro do risco.
-# Cadastro e pesquisa de categoria de risco
+title: Risk category registration and search
+Description: The goal of this feature is to register the risk categories which will be used during the risk entry.
+# Risk category registration and search
 
-Esta funcionalidade tem por objetivo cadastrar as categorias de riscos que serão usadas durante o cadastro do risco.
+The goal of this feature is to register the risk categories which will be used during the risk entry.
 
-Como acessar
---------------
+How to access
+----------------
 
-1. Acesse a funcionalidade de categoria de risco através da navegação no menu principal 
-**Processos ITIL > Gerência de Continuidade > Cadastro Categoria de Risco**.
+1. Access the **Threat Category** feature navigating through the main menu 
+**Process Management > Continuity Management > Risk Category Register**.
 
-Pré-condições
+Preconditions
 ---------------
 
-1. Não se aplica.
+1. Not applicable.
 
-Filtros
----------
+Filters
+-----------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Nome;
+    - Name;
     - Tag.
     
-2. Na tela de **Categorias de Risco**, clique na guia **Pesquisar Categoria**, será apresentada a tela de pesquisa conforme 
-ilustrada na figura abaixo:
+2. On the **Risk Category** screen, click on the **Risk Category Search** tab. The search screen will be displayed as illustrated 
+on the image below:
 
-    ![Pesquisa](images/cat-risco.img1.png)
+    ![Search](images/category.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de categoria de risco**
+    **Figure 1 - Risk category search screen**
     
-3. Realize a pesquisa da categoria de risco;
+3. Perform a risk category search;
 
-    - Informe o Nome e/ou Tag da categoria de risco que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o 
-    registro da categoria conforme o(s) dado(s) informado(s);
+    - Insert the name and/or Tag of the intended risk category and click on the *Search* button. Afterwards, the threat category 
+    entry will be displayed according to the description provided.
 
-    - Caso deseje listar todos os registros de categoria de risco, basta clicar diretamente no botão "Pesquisar".
+    - To list all risk categories, just click directly on the *Search* button, if needed.
 
-Listagem de itens
+Items list
 -------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: **Nome, Tag, Cor** e **Ícone**.
+1. The following cadastral fields are available to the user to make it easier to identify the desired items in the standard feature 
+listing: **Name, Tag, Color** and **Icon**.
 
-    ![Listagem](images/cat-risco.img2.png)
+    ![Listing](images/category.img2.jpg)
     
-    **Figura 2 - Tela de listagem de categoria de risco**
+    **Figure 2 - Risk category listing screen**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo
-referente ao registro selecionado;
+2. After searching, select the intended entry. Afterwards, they will be redirected to the registry screen displaying the content 
+belonging to the selected entry.
 
-3. Para alterar os dados do registro de categoria de risco, basta modificar as informações desejadas e clicar no botão "Gravar" 
-para efetuar a alteração realizada no registro, onde a data, hora e usuário serão gravados automaticamente para uma futura 
-auditoria.
+3. To edit a risk category entry, just modify the information on the intended fields and click on the *Save* button to confirm the 
+changes to the database, at which date, time and user will be stored automatically for a future audit.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Será apresentada a tela de **Cadastro de Categoria de Risco**, conforme ilustrada na figura abaixo:
+1. The risk category entry screen will be displayed, as illustrated on the image below:
 
-    ![Cadastro](images/cat-risco.img3.png)
+    ![Category](images/category.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de categoria de risco**
+    **Figure 3 - Risk category entry screen**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill out the fields as instructed below:
 
-    - **Nome**: informe o nome da categoria de risco;
-    - **Tag**: informe a Tag que identificará a categoria de risco;
-    - **Cor**: informe uma cor para categoria de risco. Ao clicar neste campo, será apresentada uma paleta de cores para seleção 
-    da cor desejada conforme ilustrada na figura abaixo:
+    - **Name**: name the risk category;
+    - **Tag**:  insert the Tag which will identify the risk category;
+    - **Color**: assign a color to the risk category. Clicking on this field, a color palette screen will be displayed in order to 
+    select the intended color, as illustrated on the image below:
     
-    ![Paleta](images/cat-risco.img4.png)
+    ![Palette](images/category.img4.jpg)
     
-    **Figura 4 - Paleta**
+    **Figure 4 - Palette**
     
-    - Para selecionar uma cor, basta posicionar o mouse na cor desejada e clicar na mesma.
-    - **Ícone**: selecione um ícone que representará a categoria de risco.
+    - To select a color, just place the mouse on over the intended color and click on it.
+    - **Icon**: select an icon which will represent the risk category;
     
-3. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma futura 
-auditoria.
+3. Click on the *Save* the button to confirm the entry, at which date, time and user will automatically be stored for a future 
+audit.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Larissa Lourenço
+    <b>Updated:</b>08/27/2019 – Larissa Lourenço
