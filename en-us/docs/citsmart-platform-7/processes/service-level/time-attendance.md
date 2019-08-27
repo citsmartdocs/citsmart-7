@@ -159,7 +159,7 @@ Filling in the registrations fields
     
     **Figure 4 - Application of service time to contracts services**
 
-    -   **Client: **allows to select only one contract to apply the configuration of
+    -   **Client**: allows to select only one contract to apply the configuration of
     the service time in the services of the same, as shown in the figure below:
 
     ![Criar](images/attendance-5.png)
