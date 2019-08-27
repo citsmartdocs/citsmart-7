@@ -133,7 +133,7 @@ See also
 
 -   [Event trend analysis][4])
 
------------
+
 
 [Análise de tendência de eventos](4).
 
