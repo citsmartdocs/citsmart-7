@@ -1,85 +1,84 @@
-title:Cadastro e pesquisa de origem de tickets
-Description:Tem o objetivo de registrar diversos tipos de equipes ou áreas que podem gerar um ticket.
+title: Ticket source registration and search
+Description: This functionality has the purpose of registering several types of
+teams or areas that can generate a ticket.
 
-# Cadastro e pesquisa de origem de tickets
+# Ticket source registration and search
 
-Esta funcionalidade tem o objetivo de registrar diversos tipos de equipes ou
-áreas que podem gerar um ticket.
+This functionality has the purpose of registering several types of teams or
+areas that can generate a ticket.
 
-Como acessar
-------------
+How to access
+-------------
 
-1.  Acesse a funcionalidade de Origem de Tickets através da navegação no menu
-    principal **Processos ITIL > Gerência de Ticket > Origem de
-    Solicitações**.
+1.  Access the Source of Requests functionality by navigating the main
+    menu **Process Management > Ticket Management > Ticket Origins**.
 
-Pré-condições
-------------
+Preconditions
+-------------
 
-1.  Não se aplica.
+1.  No applicable.
 
-Filtros
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -   Origem.
+-   Contact Origin.
 
-1.  Na tela de **Origem**, clique na guia **Pesquisar Origem**, será apresentada
-    a tela de pesquisa conforme ilustrada na figura abaixo:
+2.  In the Contact Origin screen, click the Origin Search tab, the
+    search screen will be displayed as shown in the figure below:
 
-    ![pesquisa de origem](images/ticket-source-1.png)
+    ![figure](images/ticket-source-1.png)
 
-    **Figura 1 - Tela de pesquisa de origem**
+    **Figure 1 - Origin search screen**
 
-1.  Realize a pesquisa de origem:
+3.  Perform the origin search:
 
-    -   Informe o nome da origem que deseja pesquisar e clique no botão *Pesquisar*.
-    Após isso, será exibido o registro da origem conforme o nome informado.
+    -   Enter the origin name desired, click the *Search* button. After that,
+        the origin record will be displayed according to the registered name;
 
-    -   Caso deseje listar todos os registros de origem, basta clicar
-        diretamente no botão *Pesquisar*.
+    -   If you want to list all the contact origin records, simply click
+        the *Search* button directly.
 
-Listagem de itens
-----------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da funcionalidade:** ID
-    Origem e Origem**.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard listing of the
+    functionality: **ID Origin** and **Origin**:
 
-    ![pesquisa de origem](images/ticket-source-2.png)
+    ![figure](images/ticket-source-2.png)
+    
+    **Figure 2 - Origin items list screen**
 
-    **Figura 2 - Tela de listagem de origem**
+2.  After searching, select the desired record. Once this is done, it will be
+    directed to the registration tab showing the contents of the selected
+    registry;
 
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a aba de cadastro exibindo o conteúdo referente ao registro
-    selecionado;
+3.  To change the data of the contact origin record, simply modify the
+    information of the desired fields and click the Save button to save the
+    change made to the record, where the date, time and user will be saved
+    automatically for a future audit.
 
-2.  Para alterar os dados do registro de origem, basta procurar a origem,
-    selecioná-la, modificar as informações dos campos desejados e clicar no
-    botão *Gravar* para que seja gravada a alteração realizada no registro, onde
-    a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria.
+Filling in the registration fields
+----------------------------------
 
-Preenchimento dos campos cadastrais
-------------------------------------
+1.  In the **Contact Origin** screen, click the **Origin Registration** tab,
+    the **Request Contac Origin Registration** screen will be displayed, as
+    shown in the figure below:
 
-1.  Na tela de **Origem**, clique na guia **Cadastro Origem**, será apresentada
-    a tela de **Cadastro de Origem de Solicitações**, conforme ilustrada na
-    figura abaixo:
+    ![figure](images/ticket-source-3.png)
+    
+    **Figure 3 - Origin record screen**
 
-    ![pesquisa de origem](images/ticket-source-3.png)
+2.  Enter the name of the service request source and click the *Save* button to
+    register, where the date, time and user are automatically saved for a future
+    audit.
 
-     **Figura 3 - Tela de cadastro de origem**
-
-1.  Informe o nome da origem de tickets de serviço e clique no
-    botão *Gravar* para efetuar o registro, onde a data, hora e usuário serão
-    gravados automaticamente para uma futura auditoria.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/10/2019 – Anna Martins
+    <b>Updated:</b>07/27/2019 – Anna Martins
