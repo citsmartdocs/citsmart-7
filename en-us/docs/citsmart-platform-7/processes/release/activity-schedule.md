@@ -1,106 +1,107 @@
-title: Agendamento de atividade de liberação
-Description:Permite agendar atividades referente à requisição de liberação para execução.
+title: Release activity scheduling
+Description: This feature allows scheduling activities related to the release request for execution.
 
-# Agendamento de atividade de liberação
+# Release activity scheduling
 
-Esta funcionalidade permite agendar atividades referente à requisição de
-liberação para execução.
+This feature allows scheduling activities related to the release request for
+execution.
 
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de Gerenciamento de Liberação através da
-    navegação no menu principal **Processos ITIL > Gerência de
-    Liberação > Gerenciamento de Liberação**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter requisição de liberação registrada (ver conhecimento [Cadastro e
-    pesquisa de requisição de liberação][1]);
+1.  Access the Release Management feature navigating through the main
+    menu **Process Management > Release Management > Release Management**.
 
-2.  Ter o grupo de atividade periódica cadastrado (ver conhecimento [Cadastro e
-    pesquisa de grupo de atividade periódica][2]).
+Preconditions
+-------------
 
-Filtros
+1.  Register a release request (see knowledge [Release record registration and
+    search][1]);
+
+2.  Registered periodic activity group (see knowledge [Periodic activity group
+    registration and search][2]).
+
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to locate the desired
+    items as shown in the figure below:
 
-    -   Número da requisição;
+   -   Request number;
 
-    -   Atribuída/Compartilhada.
+   -   Assigned/Shared.
 
-    ![Criar](images/schedule-1.png)
+![Figura](images/schedule-1.png)
 
-    **Figura 1 - Tela de pesquisa**
+**Figure 1 - Search screen**
 
-Listagem de itens
------------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Número**, **Solicitante**, **Criada em**, **Prioridade**,
-    **Prazo limite**, **Atraso**, **Situação**, **Tarefa atual**, **Grupo**
-    **executor**, **Responsável atual** e **Compartilhada com**.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard list of
+    functionality: Number, User, Created on, Priority, Time
+    limit, Expired, Situation, Current task, Executer
+    group, Current responsible and Shared with.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Visualizar* e *Relatórios*.
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *View* and *Reports*.
 
-![Criar](images/schedule-2.png)
+![Figura](images/schedule-2.png)
 
-**Figura 2 - Tela de listagem de itens**
+**Figure 2 - Listing screen**
 
-Agendando uma atividade
------------------------
+Scheduling an activity
+----------------------
 
-1.  Será apresentada a tela de Gerenciamento de Liberação;
+1.  The release management screen will be displayed;
 
-2.  Na guia **Gerenciamento**, localize a requisição de liberação que se deseja
-    agendar a atividade, clique no botão *Ações* e selecione a opção *Agendar
-    Requisição de Liberação*:
+2.  On the **management** tab, locate the release request in order to schedule
+    an activity, click on the *Action* button and select the *Request Release
+    Schedule* option.
 
-![Criar](images/schedule-3.png)
+![Figura](images/schedule-3.png)
 
-**Figura 3 - Agendamento de atividade da requisição de liberação**
+**Figure 3- Release request activity schedule**
 
-Preenchimento dos campos cadastrais
------------------------------------
+Filling in the registration fields
+----------------------------------
 
-1.  Ao selecionar a opção Agendar Requisição de Liberação (segundo a figura
-    anterior), será exibida a tela de Agenda de Atividade. Clique na aba **Criar
-    Agendamento**.
+1.  When you select the *Request Release Schedule *option (according to the
+    previous figure), the Activity Schedule screen will be displayed. Click on
+    the **Scheduling Creation** tab;
 
-2.  Feito isso, será apresentada a tela onde poderá agendar a atividade
-    referente a requisição de liberação, conforme a figura abaixo:
+2.  Afterwards, the screen where the activity related to the release request can
+    be scheduled will be displayed, according to the figure below:
 
-    ![Criar](images/schedule-4.png)
+    ![Figura](images/schedule-1.png)
+    
+    **Figura 4 - Scheduling activities**
 
-    **Figura 4 - Agendamento de atividades**
+3.  Fill in the following fields:
 
-3.  Preencha os seguintes campos:
+    -   **Activity Group (for scheduling)**: select the group which will exectue the
+    release activity;
 
-    -   **Grupo de Atividades (para o agendamento)**: selecione o grupo que irá
-    executar a atividade de liberação;
+    -   **Technical Guidelines**: insert the technical guidelines for the activity
+    execution;
 
-    -   **Orientação Técnica**: informe a orientação técnica para execução da
-    atividade;
+    -   **Schedule For**: insert the time and date at which the activity will be
+    performed;
 
-    -   **Agendar para**: informe a data e hora que será executada a atividade;
+    -   **Estimated Time**: insert the estimated duration, in minutes, that is, the
+    time taken to perform the activity.
 
-    -   **Duração estimada**: informe a duração estimada, em minutos, ou seja, o
-    tempo que levará para realizar a atividade.
+4.  After inserting the data, click on the *Save* the button to confirm the
+    entry, at which date, time and user will automatically be stored for a
+    future audit.
 
-4.  Após os dados informados, clique no botão *Gravar* para efetuar a operação,
-    onde a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria.
 
-[1]:/pt-br/citsmart-platform-7/processes/release/requisition.html
-[2]:/pt-br/citsmart-platform-7/additional-features/automation-of-operation/configuration/periodic-activity-group.html
+[1]:/en-us/citsmart-platform-7/processes/release/requisition.html
+[2]:/en-us/citsmart-platform-7/additional-features/automation-of-operation/configuration/periodic-activity-group.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Anna Martins
+    <b>Updated:</b>08/27/2019 – Anna Martins
