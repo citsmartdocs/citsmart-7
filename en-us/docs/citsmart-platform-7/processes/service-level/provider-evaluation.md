@@ -1,66 +1,65 @@
-title: Avaliação de fornecedor
-Description:Esta funcionalidade tem por objetivo verificar o desempenho do fornecedor por serviço.
+Title:Provider evaluation
+Description: The goal of this feature is to check the performance of the provider by service.
 
-# Avaliação de fornecedor
+# Provider evaluation
 
-Esta funcionalidade tem por objetivo verificar o desempenho do fornecedor por
-serviço.
+The goal of this feature is to check the performance of the provider by service.
 
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de Avaliação de Fornecedor através da navegação no
-    menu principal **Processos ITIL > Gerência de Nível de
-    Serviço > Avaliação por Fornecedor**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter o fornecedor cadastrado (ver conhecimento [Cadastro e pesquisa de
-    fornecedor][1]);
+1.  Access the Provider Evaluation feature navigating through the main
+    menu **Process Management > Service Level Management > Provider
+    Evaluation**.
 
-2.  Ter um serviço cadastrado (ver conhecimento [Cadastro da atividade de
-    serviço][2]).
+Preconditions
+-------------
 
-Filtros
+1.  Have the provider registered (see knowledge [Supplier registration and
+    search][1]);
+
+2.  Have a service registered (see knowledge [Service activity
+    registration][2]).
+
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-     - Pesquisar Fornecedor.
+   -   Search Provider.
 
-2.  Será apresentada a tela de **Avaliação de Fornecedor**, conforme ilustrada
-    na figura a seguir:
+2.  The **Provider Evaluation** screen will be displayed, as illustrated on the
+    image below:
 
-![Criar conta](images/provider-evaluation-1.png)
+![figura](images/provider/evaluation-1.png)
 
-**Figura 1 - Tela de avaliação de desempenho do fornecedor por serviço**
+**Figure 1 - Provider Performance Evaluation Screen**
 
-Listagem de itens
------------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Serviço, Situação, Tipo de Demanda do Serviço, Tem SLA?,
-    Data de Início e Data Fim.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: Service, Status, Type, Is there any SLA?, Star Date and End
+    Date.
 
-2.  Será gerado o relatório de desempenho do fornecedor por serviço, conforme
-    exemplo ilustrado na figura abaixo:
+2.  The provider performance report by service will be generated, as illustrated
+    on the image below:
 
-![Criar conta](images/provider-evaluation-2.png)
+![figura](images/provider/evaluation-2.png)
 
-**Figura 2 - Relatório de avaliação do fornecedor**
+**Figure 2 - Provider Evaluation Report**
 
-Preenchimento dos campos cadastrais
------------------------------------
+Filling in the registration fields
+----------------------------------
 
-1.  Não se aplica.
+1.  Not applicable.
 
 
-[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/provider.html
-[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/activity.html
+
+[1]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/provider.html
+[2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/activity.html
 
 !!! tip "About"
 

@@ -201,7 +201,7 @@ Monitoring
 1.  Click the *Register Monitoring* button. Once this is done, a screen will be
     displayed to record the monitoring information as shown in the figure below:
 
-    ![figure](images/improve-plan-10.png)
+    ![figure](images/improve-plan.10.png)
     
     **Figure 8 - Monitoring screen**
 
@@ -228,7 +228,7 @@ Monitoring
 2.  After the data is entered, click the *Save* button for recording and adding
     the objective monitoring in the improvement plan record;
 
-3.  To change the tracking log information, click the  , modify the data you
+3.  To change the tracking log information, click the ![figure](images/improve-plan-6.png) , modify the data you
     want and click *Save* to make the change, where the date, time and user will
     be saved automatically for a future audit.
 
