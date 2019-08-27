@@ -1,82 +1,79 @@
-title: Cadastro e pesquisa de justificativa de liberação
-Description:Esta funcionalidade tem por objetivo registrar a justificativa de requisição de liberação que será utilizado em outras rotinas do sistema.
+title: Release justification registration and search
+Description: The goal of this feature is to register a release request justification which will be used in other system routines.
 
-# Cadastro e pesquisa de justificativa de liberação
+# Release justification registration and search
 
-Esta funcionalidade tem por objetivo registrar a justificativa de requisição de
-liberação que será utilizado em outras rotinas do sistema.
+The goal of this feature is to register a release request justification which
+will be used in other system routines.
 
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de Justificativa de Requisição de
-    Liberação através da navegação no menu principal **Processos ITIL
-    \> Gerência de Liberação \> Justificativa Requisição Liberação**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Não se aplica.
+1.  Access the Release Request Justification feature navigating through the main
+    menu **Process Management > Release Management > Release Justification**.
 
-Filtros
+Preconditions
+-------------
+
+1.  No applicable.
+
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -   Descrição;
+-   Description;
 
-    -   Situação.
+-   Status.
 
-    ![Criar](images/justification-1.png)
+![figure](images/justification-1.png)
 
-    **Figura 1 - Pesquisa de justificativa de requisição de liberação**
+**Figure 1 - Search for reason for release request**
 
-Listagem de itens
------------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Descrição** e **Situação**.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: **Description** and **Status.**
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Excluir*.
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Edit* and *Delete.*
 
-    ![Criar](images/justification-2.png)
+   ![figure](images/justification-2.png)
+   
+   **Figure 2 - Listing of release request justification**
 
-    **Figura 2 - Listagem de justificativa de requisição de liberação**
+3.  To edit a release request justification entry, click on the *Edit* button.
+    Afterwards, the user will be redirected to the registry screen displaying
+    the content in the entry.
 
-1.  Para alterar os dados do registro da justificativa de requisição de
-    liberação, clique no botão *Editar*. Feito isso, será direcionado para a
-    tela de cadastro exibindo o conteúdo do registro.
+Filling in the registration fields
+----------------------------------
 
-Preenchimento dos campos cadastrais
------------------------------------
+1.  The Release Request Justification Screen will be displayed;
 
-1.  Será apresentada a tela de Justificativa de Requisição de Liberação;
+2.  Click the *New* button. Afterwards, the **Release Request
+    Justification** entry screen will be displayed, as illustrated on the image
+    below:
 
-2.  Clique no botão *Novo*. Feito isso, será apresentada a tela de **Cadastro de
-    Justificativa de Requisição de Liberação**, conforme ilustrada na figura a
-    seguir:
+   ![figure](images/justification-3.png)
+   
+   **Figure 3 - Release request justification entry screen**
 
-    ![Criar](images/justification-3.png)
+3.  Fill out the fields as instructed below:
 
-    **Figura 3 - Tela de cadastro de justificativa de requisição de liberação**
+    -   **Description**: describe the reason for the release request;
 
-1.  Preencha os campos conforme orientações abaixo:
+    -   **Status**: insert the release request justification status;
 
-    -   **Descrição**: informe a descrição da justificativa de requisição de
-    liberação;
+    -   **Suspended**: insert if the justification will be used to suspend a release
+    request; check one of the options (Yes or No).
 
-    -   **Situação**: informe a situação da justificativa de requisição de
-    liberação;
+4.  Click on the *Save* the button to confirm the entry, at which date, time and
+    user will automatically be stored for a future audit.
 
-    -   **Suspenso**: informe se a justificativa será para suspensão da requisição
-    de liberação, marcando uma das opções (Não ou Sim).
-
-1.  Clique no botão *Gravar* para efetuar o registro, onde a data, hora e
-    usuário serão gravados automaticamente para uma futura auditoria
 
 !!! tip "About"
 
