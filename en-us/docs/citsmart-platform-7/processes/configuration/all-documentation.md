@@ -10,15 +10,15 @@ Description: Provides all the knowledge of the process.
 
 [Definitive media registration and search](/en-us/citsmart-platform-7/processes/configuration/definitive-media.html)
 
-[Cadastro e pesquisa de tipo de item de configuração](/pt-br/citsmart-platform-7/processes/configuration/IC-type.html)
+[Configuration item type registration and search](/en-us/citsmart-platform-7/processes/configuration/IC-type.html)
 
-[Gerenciamento de itens de configuração](/pt-br/citsmart-platform-7/processes/configuration/IC-management.html)
+[Configuration item management](/en-us/citsmart-platform-7/processes/configuration/IC-management.html)
 
-[Pesquisa de itens de configuração](/pt-br/citsmart-platform-7/processes/configuration/IC-search.html)
+[Configuration items search](/en-us/citsmart-platform-7/processes/configuration/IC-search.html)
 
-[Verificação de itens de configuração capturados pelo inventory (agente)](/pt-br/citsmart-platform-7/processes/configuration/inventory-verification.html)
+[Checking configuration Items captured by inventory agent](/en-us/citsmart-platform-7/processes/configuration/inventory-verification.html)
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/31/2019 - Larissa Lourenço
+    <b>Updated:</b>08/27/2019 - Larissa Lourenço
