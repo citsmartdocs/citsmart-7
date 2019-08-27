@@ -118,7 +118,7 @@ respective policy registration screen will be displayed, as shown in the figure 
     - Enter the description for the file that will be attached, click the *Add File* button and select the file you want. After 
     that, the file will be appended and displayed in the policy attachment screen.
     
-    ![File](images/ger-cont.img7.png)
+    ![File](images/management.img7.jpg)
     
     **Figure 7 - Attached policy file**
     
