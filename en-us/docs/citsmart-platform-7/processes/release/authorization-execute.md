@@ -39,7 +39,7 @@ Items list
     identification of the desired items in the standard feature
     listing: Number, Applicant Name, Created on, Priority, Time limit, Delay
     Situation, Current task Executor Group, Current Responsible and Share
-    With.**
+    With.
 
 2.  There are action buttons available to the user for each item in the listing,
     they are: *View*, *Reports*, and *Action*.
