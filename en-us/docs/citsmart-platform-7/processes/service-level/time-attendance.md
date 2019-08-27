@@ -127,7 +127,7 @@ Filling in the registrations fields
 
         Before filling in the fields of the "Automation" tab it must be properly
         parameterized, for this it is necessary to perform the steps in the
-        knowledge "**[How to enable the service requests scheduling
+        knowledge "[How to enable the service requests scheduling
         rule?][4]", except for parameter 190 which should be equal to 'N' in this context.
 
 3.  Define the automation data:
@@ -139,7 +139,7 @@ Filling in the registrations fields
 
     -   **Priority**: enter the priority of execution of the service;
 
-    -   **Group**: report the executing group of the servic.
+    -   **Group**: report the executing group of the service.
 
     !!! note "NOTE"
 
