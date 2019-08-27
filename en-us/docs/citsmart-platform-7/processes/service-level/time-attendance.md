@@ -1,186 +1,213 @@
-title:Cadastro e pesquisa de tempo de atendimento
-Description:Permite registrar o tempo de atendimento do tipo *Global* (aplica-se a todos os serviços), *Cliente*(aplica-se aos serviços de um contrato) e *Incidente/Requisição/Procedimento* (aplica-se a um serviço específico).
+title: Time attendance registration and search
+Description: The service time feature allows you to record the service time of the Global type (applies to all services), Customer (applies to contract services) and Incident/Request/Procedure (applies to a specific service).
 
-# Cadastro e pesquisa de tempo de atendimento
+# Time attendance registration and search
 
-A funcionalidade de tempo de atendimento permite registrar o tempo de atendimento do tipo *Global* (aplica-se a todos os serviços), *Cliente* (aplica-se aos serviços de um contrato) e *Incidente/Requisição/Procedimento* (aplica-se a um serviço específico).
+The service time feature allows you to record the service time of the Global
+type (applies to all services), Customer (applies to contract services) and
+Incident/Request/Procedure (applies to a specific service).
 
-Pré-condições
+Preconditions
 -------------
 
-1.  Ter definido o portfólio de serviços para aplicar o tempo de atendimento aos serviços (ver conhecimentos [Cadastro de Portfólio de Serviços][1], [Cadastro de Serviços][2], [Configuração dos Atributos do Serviço][3].
+1.  Have defined the portfolio of services to apply the time of service to the
+    services (see knowledge [Service Portfolio registration][1]), [Service
+    registration][2]), [Service Attributes configuration][3]).
 
-Como acessar
-------------
+How to access
+-------------
 
-1.  Acesse a funcionalidade de Tempo de Atendimento através da navegação no menu principal **Processos ITIL \> Gerência de Níveis de
-    Serviço \> Tempo de Atendimento**.
+1.  Access the Call Time feature by browsing the main menu **Process
+    Management > Service Level Management > Service Time**.
 
-Filtros
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a localização dos itens desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -  Título SLA
+   -   SLA Title.
 
-2.  Na tela de **Tempo de Atendimento**, clique na guia **Pesquisa**, será apresentada a respectiva tela de pesquisa conforme ilustrada na figura abaixo:
+2.  On the Time of Service screen, click the Search tab, the respective
+    search screen will be displayed as shown in the figure below:
 
-![Criar](images/attendance-1.png)
+![figura](images/attendance-1.png)
 
-**Figura 1 - Tela de pesquisa de tempo de atendimento**
+**Figure 1 - Service level target screen**
 
-Listagem de items
------------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem padrão da
-    funcionalidade: Título SLA, Descrição e Situação.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature listing: SLA
+    Title, Description and Situation.
 
-    ![Criar](images/attendance-2.png)
+    ![figura](images/attendance-2.png)
+    
+    **Figure 2 - Service time listing screen**
 
-    **Figura 2 - Tela de listagem de tempo de atendimento**
+2.  Perform the survey of the time of service:
 
-2.  Realize a pesquisa do tempo de atendimento:
+    -  The consultation is performed by type of service (Global, Customer and
+    Request/Incident/Procedure). Select the type of service you want, enter the
+    title of the record and click the *Search* button. Once this is done, the
+    registration will be displayed according to the title informed;
 
-    -  A consulta é realizada por tipo de atendimento (Global, Cliente e
-    Requisição/Incidente/Procedimento). Selecione o tipo de atendimento que
-    desejar, informe o título do registro e clique no botão *Pesquisar*. Feito
-    isso, será exibido o registro conforme o título informado;
+    -  If you want to list all service time records for a service type, simply
+    click directly on the *Search* button, where all the records related to the
+    type of service selected will be displayed.
 
-    -  Caso queira listar todos os registros de tempo de atendimento de um tipo
-       de atendimento, basta clicar diretamente no botão *Pesquisar*, onde
-       todos os registros referentes ao tipo de atendimento selecionado serão
-       exibidos.
+3.  After the search, select the desired service time record. Once this is done,
+    you will be directed to the registration screen displaying the contents of
+    the selected record;
 
-3.  Após a pesquisa, selecione o registro de tempo de atendimento desejado.
-    Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo
-    referente ao registro selecionado.
+4.  To change the time stamp data, simply change the information of the desired
+    fields and click on the *Save* button to save the change made to the record,
+    where the date, time and user will be saved automatically for a future
+    audit.
 
-4.  Para alterar os dados do registro de tempo de atendimento, basta modificar
-    as informações dos campos desejados e clicar no botão *Gravar* para que seja
-    gravada a alteração realizada no registro, onde a data, hora e usuário serão
-    gravados automaticamente para uma futura auditoria.
+Filling in the registrations fields
+-----------------------------------
 
-Preenchimento de campos cadastrais
-----------------------------------
+1.  The **Time Attendance Registration** screen will be displayed, as shown in
+    the figure below:
 
-1.  Será apresentada a tela de **Cadastro de Tempo de Atendimento**, conforme ilustrada na figura abaixo:
+    ![figura](images/attendance-3.png)
+    
+    **Figure 3 - Attendance time master screen**
 
-    ![Criar](images/attendance-3.png)
+2.  Fill in the fields as directed below:
 
-    **Figura 3 - Tela de cadastro de tempo de atendimento**
+    -   Select the type of service time you want to
+        create: **Global**, **Customer** or **Incident/Request/Procedure**;
 
-2.  Preencha os campos conforme orientação abaixo:
+    -   **Title**: inform the title of the time of service;
 
-    -  Selecione o tipo de tempo de atendimento que deseja criar: **Global**, **Cliente** ou **Incidente/Requisição/Procedimento**;
+    -   **Situation**: select the service time situation: Active (in current
+        use) or Inactive (disabled);
 
-    -  **Título**: informe o título do tempo de atendimento;
+    -   **Impact**: report the impact that causes the absence of service
+        operation within the organizational environment;
 
-    -  **Situação**: selecione a situação do tempo de atendimento: Ativo (em uso corrente) ou Inativo (desabilitado);
+    -   **Urgency**: report the urgency of restoring service within the
+        organizational environment;
 
-    -  **Impacto**: informe o impacto que causa a ausência do funcionamento do serviço dentro do ambiente organizacional;
+    -   **Impact/Urgency Change **: define if it will be allowed to change the
+        impact and urgency in the registration of service request;
 
-    -  **Urgência**: informe a urgência do restabelecimento do serviço dentro do ambiente organizacional;
+    -   **Seasonal**: check this option if the service time is temporary;
 
-    -  **Mudança de Impacto / Urgência**: defina se será permitido a alteração do impacto e urgência no registro de solicitação de serviço;
+    -   **Start date**: enter the start date of the service time;
 
-    -  **Sazonal**: marque essa opção caso o tempo de atendimento seja temporário. Ao marcar essa opção, o preenchimento do campo "Data fim" se torna obrigatório;
+    -   **End date**: enter a future date to deactivate the service time, or
+        inform the date when the service is to be deactivated;
 
-    -  **Data de início**: informe a data de início do tempo de atendimento de serviços;
+    -   **Evaluate in**: state the date on which the service time will be
+        evaluated;
 
-    -  **Data fim**: informe uma data futura para desativação do tempo de atendimento ou informe a data no momento que for desativar o mesmo;
+    -   **Description**: describe the details about the time of service;
 
-    -  **Avaliar em**: informe a data na qual o tempo de atendimento de serviços será avaliado;
+    -   **Scope**: describe a macro view on the time of service rendering;
 
-    -  **Descrição**: descreva os detalhes sobre o tempo de atendimento de serviços;
+    -   **Contacts**: describe the contact information regarding the time of
+        service;
 
-    -  **Escopo**: descreva uma visão macro sobre o tempo de atendimento de serviços;
+    -   Define how long the service is serviced, taking priority into account.
+        Priority is used to identify the times required for appropriate action
+        to be taken. The priority is from 1 to 5, with 1 being the highest
+        priority and 5 being the lowest. Select the priority for time setting:
 
-    -  **Contatos**: descreva as informações para contato referente ao tempo de atendimento;
+        -   **Resolution**: set the resolution time of the service, according to the
+            priority selected.
 
-    -  Defina o tempo de atendimento dos serviços, levando em consideração a prioridade. A prioridade é usada para identificar os tempos    requeridos para  que ações adequadas sejam tomadas. A prioridade vai de 1 a 5, sendo que o 1 é a prioridade mais alta e 5 é a mais      baixa. Selecione a prioridade para definição do tempo:
+        -   **Capture**: set the capture time of the service request, according to
+            the selected priority.
 
-        -  **Captura**: defina o tempo de captura da solicitação do serviço, conforme a prioridade selecionada;
+    !!! warning "ATTENTION"
 
-        -  **Resolução**: defina o tempo de resolução do serviço, conforme a prioridade selecionada.
+        Before filling in the fields of the "Automation" tab it must be properly
+        parameterized, for this it is necessary to perform the steps in the
+        knowledge "**[How to enable the service requests scheduling
+        rule?][4]", except for parameter 190 which should be equal to 'N' in this context.
 
-    !!! warning "ATENÇÃO"
+3.  Define the automation data:
 
-        Antes de preencher os campos da aba "Automação" ela deve estar adequadamente parametrizada, para isso se faz necessário executar         os passos contidos no conhecimento [Como habilitar a regra de escalonamento das Solicitações de Serviço?](),com exceção do               parâmetro "190 - Liga o funcionamento das regras de escalonamento? (Ex: S ou N - Default:´N´)" que deverá estar igual a ‘N’             neste contexto.
+    -   **Action Time**: enter the time for executing the service request;
 
-3.  Defina os dados da automação:
+    -   **E-mail Template**: select the e-mail template, which will be sent
+        when the service request is not answered at the specified service time;
 
-    -   **Grupo**: informe o grupo executor do serviço.
+    -   **Priority**: enter the priority of execution of the service;
 
-    -   **Prioridade**: informe a prioridade de execução do serviço;
+    -   **Group**: report the executing group of the servic.
 
-    -   **Modelo de E-mail**: selecione o modelo de e-mail, o qual será enviado quando a solicitação do serviço não for atendida no         tempo de atendimento determinado.
+    !!! note "NOTE"
 
-    -   **Tempo de Ação**: informe o tempo para execução da solicitação do serviço;
+        After the N minutes (informed in the action time) and if you have not
+        taken any actions in the request of the service linked to this service time,
+        the system will assign the priority and escalate the group to execute the
+        service request.
 
-    !!! note "NOTA"
+    -   In the **Incident/Request/Procedure** box, select the services to apply the
+    settings, taking into account the type of service time selected:
 
-        Após os N minutos (informado no tempo de ação) e caso não tenha realizado nenhuma ação na solicitação do serviço vinculado a             este tempo de atendimento, o sistema atribuirá a prioridade e escalará o grupo para execução da solicitação do serviço.
-
-    -  No quadro de **Incidente/Requisição/Procedimento**, selecione os serviços para aplicar as configurações, levando em consideração o tipo de tempo de atendimento selecionado:
-
-    -  **Global**: permite selecionar todos os contratos, quantos desejar, para aplicar a configuração do tempo de atendimento nos serviços dos mesmos, conforme exemplo ilustrado na figura abaixo:
+    -  **Global**: allows you to select all contracts, as many as you wish, to
+        apply the configuration of the service time in their services, according
+        to the example shown in the figure below:
 
     ![Criar](images/attendance-4.png)
+    
+    **Figure 4 - Application of service time to contracts services**
 
-    **Figura 4 - Aplicação do Tempo de Atendimento aos Serviços dos Contratos**
-
-    -   **Cliente**: permite selecionar somente um contrato parar aplicar a
-    configuração do tempo de atendimento nos serviços do mesmo, conforme exemplo
-    ilustrado na figura abaixo:
+    -   **Client: **allows to select only one contract to apply the configuration of
+    the service time in the services of the same, as shown in the figure below:
 
     ![Criar](images/attendance-5.png)
+    
+    **Figure 5 - Application of customer service time (contract)**
 
-    **Figura 5 - Aplicação do tempo de atendimento aos serviços de um cliente
-(Contrato)**
-
-    - **Requisição/Incidente/Procedimento**: permite selecionar somente um serviço
-    para aplicar a configuração do tempo de atendimento, conforme exemplo
-    ilustrado na figura abaixo:
+    -   **Request/Incident/Procedure: **select only one service to apply the service
+    time setting, as shown in the figure below:
 
     ![Criar](images/attendance-6.png)
+    
+    **Figure 6- Application of the time of service to the request/incident service**
 
-    **Figura 6 - Aplicação do tempo de atendimento ao serviço de requisição/incidente**
-
-4.  Se tipo o tipo de tempo de atendimento selecionado for **Cliente** ou **Incidente/Requisição/Procedimento**, relacione as
-    unidades e os empregados (colaboradores);
+    4.  If type of service time selected is **Customer** or **Incident/Request/Procedur** e, list the units and
+    employees (employees);
 
     ![Criar](images/attendance-7.png)
+    
+    **Figure 7 - Unit and employee relationships**
 
-    **Figura 7 - Relacionamento de unidade e empregado**
+    -   Enter the unit and assign a priority. Once this is done, click the *Add* button to perform the:
 
-    -  Informe a unidade e atribua uma prioridade;
+        -   **Priority: **indicate the priority of the service for the unit;
 
-        -  **Unidade**: informe a unidade desejada;
+        -   **Unit**: enter the desired unit.
 
-        -  **Prioridade**: indique a prioridade do serviço para a unidade;
+    -   Inform the employee and assign a priority;
 
-    -  Feito isso, clique no botão *Incluir* para efetuar a operação.
+        -   **Employees**: report the employee;
 
-    -  Informe o empregado e atribua uma prioridade;
+        -   **Priority**: indicate the priority of the service for the employee;
 
-        -  **Empregados**: informe o empregado;
+        -   **Critical**: indicate if the employee is of the type "critical" to the
+            business, that is, that must have the attendance of the service with
+            high priority;
 
-        -  **Prioridade**: indique a prioridade do serviço para o empregado;
+    -   Once this is done, click the *Add* button to perform the operation.
 
-        -  **Crítico**: indique se o empregado é do tipo "crítico" ao negócio, ou seja, que deve ter o atendimento do serviço com               prioridade alta.
-
-    -  Feito isso, clique no botão *Incluir* para efetuar a operação.
-
-5.  Após o cadastro dos dados, clique no botão *Gravar* para efetuar o registro,
-    onde a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria.
+5.  After recording the data, click on the *Save* button to register, where the
+    date, time and user will be saved automatically for a future audit.
 
 
-[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
-[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/services.html
-[3]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
+
+[1]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+[2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/services.html
+[3]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Anna Martins
+    <b>Updated:</b>08/27/2019 – Anna Martins
