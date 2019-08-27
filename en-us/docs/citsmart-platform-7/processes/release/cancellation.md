@@ -1,99 +1,96 @@
-title: Cancelamento de registro de liberação
-Description: Esta funcionalidade permite cancelar a requisição de liberação.
+title: Release record cancellation
 
-# Cancelamento de registro de liberação
+Description: This feature allows cancelling the release request.
 
-Esta funcionalidade permite cancelar a requisição de liberação.
+\# Release record cancellation
 
-Como acessar
-------------
+This feature allows cancelling the release request.
 
-1.  Acesse a funcionalidade de Gerenciamento de Liberação através da
-    navegação no menu principal **Processos ITIL \> Gerência de
-    Liberação \> Gerenciamento de Liberação**.
+How to access
+-------------
 
-Pré- condições
---------------
+1.  Access the Release Management feature navigating through the main
+    menu **Process Management > Release Management > Release Management.**
 
-1.  Ter requisição de liberação registrada (ver conhecimento [Cadastro e
-    pesquisa de requisição de liberação][1]);
+Preconditions
+-------------
 
-2.  Ter permissão para cancelar a requisição de liberação.
+1.  Register a release request (see knowledge [Release record registration and
+    search][1]);
 
-Filtros
+2.  Clearance to cancel the release request.
+
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filters enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to locate the desired
+    items:
 
-    -   Número da requisição;
+-   Request number;
 
-    -   Atribuída/Compartilhada.
+-   Assigned/Shared.
 
-    ![Criar](images/cancellation-1.png)
+![figure](images/cancellation-1.png)
 
-    **Figura 1 - Tela de filtros**
+**Figure 1 - Filters screen**
 
-Listagem de itens
------------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Número, Solicitante, Criada em, Prioridade, Prazo limite,
-    Atraso, Situação, Tarefa atual Grupo Executor, Responsável
-    atual e Compartilhada com;
+1.  The following cadastral field (s) are available to the user to facilitate
+    the identification of the desired items in the standard listing of the
+    functionality:** Number, Applicant Name, Created on, Priority, Time limit,
+    Delay, Situation, Current task, Executor Group, Currently
+    Responsible** and **Shared with**.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Visualizar*, *Relatórios* e *Ação* (Agendar Requisição
-    de Liberação, Suspender liberação, Iniciar/Executar tarefa e
-    Delegar/compartilhar tarefa).
+2.  There are action buttons available to the user in relation to each item in
+    the listing, they are: *View*, *Reports* and *Action*.
 
-    ![Criar](images/cancellation-2.png)
+![figure](images/cancellation-2.png)
 
-    **Figura 2 - Tela de listagem de liberação**
+**Figure 2 - Problem listing screen**
 
-Preenchimento dos campos cadastrais
------------------------------------
+Filling in the registration fields
+----------------------------------
 
-1.  Não se aplica.
+1.  Not applicable.
 
-Cancelando a requisição de liberação
-------------------------------------
+Cancelling the release request
+------------------------------
 
-1.  Será apresentada a tela de Gerenciamento de Liberação;
+1.  The release management screen will be displayed.
 
-2.  Na guia **Gerenciamento**, localize a requisição de liberação que será
-    cancelada, clique no botão *Ações* e selecione a opção *Iniciar/Executar
-    tarefa*, conforme indicado na figura abaixo:
+2.  On the **Management **tab, locate the release request which will be
+    cancelled, click on the *Action* button and select
+    the *Start/RunTask* option, as indicated on the image below:
 
-    ![Criar](images/cancellation-3.png)
+   ![figure](images/cancellation-3.png)
+   
+   **Figure 3 - Cancel the release request**
 
-    **Figura 3 - Cancelar requisição de liberação**
+3.  The **Release Request Entry** screen will be displayed with all the fields
+    filled out with the content related to the selected request;
 
-3.  Será exibida a tela de **Registro da Requisição de Liberação** com os campos
-    preenchidos, com o conteúdo referente a requisição selecionada;
+   -   On the **Request **area, on the Status field, change the release request
+    status to "Cancelled";
 
-    -   Na área de **Requisição**, no campo **Situação**, altere a situação da
-    requisição de liberação para “Cancelada”;
+   -   On the **Closure** area, on the Closure field, describe the release request
+    cancellation reason.
 
-    -   Na área de **Fechamento**, no campo **Fechamento**, descreva o porquê do
-    cancelamento da requisição de liberação.
+4.  After registering the information concerning the release cancellation, click
+    on the *Save and Forward Flow* button to perform the operation, at which the
+    release will be successfully cancelled;
 
-4.  Após registro das informações sobre o cancelamento da liberação, clique no
-    botão *Gravar e avançar o fluxo* para efetuar a operação, onde a liberação
-    será cancelada com sucesso.
+5.  To save only the release's cancellation information and maintain the current
+    task, click on the *Save and Keep Current* *Task* button;
 
-5.  Caso queira gravar somente as informações registradas sobre o cancelamento
-    da liberação e manter a tarefa atual, clique no botão *Gravar e manter a
-    tarefa atual*.
+6.  In both cases, clicking on the "save" button will automatically store the
+    date, time and user for a future audit.
 
-6.  Em ambos os casos anteriores ao clicar no botão "Gravar" a data, hora e
-    usuário serão armazenados automaticamente para uma futuraauditoria.
-
-[1]:/pt-br/citsmart-platform-7/processes/release/requisition.html
+[1]:/en-us/citsmart-platform-7/processes/release/requisition.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/10/2019 – Anna Martins
+    <b>Updated:</b>08/27/2019 – Anna Martins
