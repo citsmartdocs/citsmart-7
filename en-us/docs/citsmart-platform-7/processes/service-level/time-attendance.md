@@ -166,7 +166,7 @@ Filling in the registrations fields
     
     **Figure 5 - Application of customer service time (contract)**
 
-    -   **Request/Incident/Procedure: **select only one service to apply the service
+    -   **Request/Incident/Procedure**: select only one service to apply the service
     time setting, as shown in the figure below:
 
     ![Criar](images/attendance-6.png)
@@ -206,6 +206,7 @@ Filling in the registrations fields
 [1]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
 [2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/services.html
 [3]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
+
 
 !!! tip "About"
 
