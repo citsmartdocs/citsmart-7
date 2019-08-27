@@ -157,7 +157,7 @@ Registering actions and monitoring the purpose of the improvement plan
     presented for registration of actions and another for recording of
     monitoring as shown in the figure below:
 
-![figure](images/improve-plan-7.png)
+![figure](images/improve-plan-8.png)
 
 **Figure 6 - Area for Record of Actions and Monitoring**
 
@@ -166,7 +166,7 @@ Registering actions and monitoring the purpose of the improvement plan
 1.  Click the *Register Action* button. Once this is done, a screen will appear
     for recording the action information as shown in the figure below:
 
-    ![figure](images/improve-plan-8.png)
+    ![figure](images/improve-plan-9.png)
 
     **Figure 7 - Action Registration screen**
 
@@ -201,7 +201,7 @@ Monitoring
 1.  Click the *Register Monitoring* button. Once this is done, a screen will be
     displayed to record the monitoring information as shown in the figure below:
 
-    ![figure](images/improve-plan-9.png)
+    ![figure](images/improve-plan-10.png)
     
     **Figure 8 - Monitoring screen**
 
