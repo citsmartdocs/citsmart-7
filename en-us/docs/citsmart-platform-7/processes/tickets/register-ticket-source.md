@@ -24,7 +24,7 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Contact Origin.
+    -   Contact Origin.
 
 2.  In the Contact Origin screen, click the Origin Search tab, the
     search screen will be displayed as shown in the figure below:
@@ -35,18 +35,18 @@ Filters
 
 3.  Perform the origin search:
 
-    -   Enter the origin name desired, click the *Search* button. After that,
+    -   Enter the origin name desired, click the Search button. After that,
         the origin record will be displayed according to the registered name;
 
     -   If you want to list all the contact origin records, simply click
-        the *Search* button directly.
+        the Search button directly.
 
 Items list
 ----------
 
 1.  The following cadastral fields are available to the user to facilitate the
     identification of the desired items in the standard listing of the
-    functionality: **ID Origin** and **Origin**:
+    functionality: ID Origin and Origin:
 
     ![figure](images/ticket-source-2.png)
     
