@@ -228,7 +228,7 @@ Monitoring
 2.  After the data is entered, click the *Save* button for recording and adding
     the objective monitoring in the improvement plan record;
 
-3.  To change the tracking log information, click the  , modify the data you
+3.  To change the tracking log information, click the ![figure](images/improve-plan-6.png) , modify the data you
     want and click *Save* to make the change, where the date, time and user will
     be saved automatically for a future audit.
 
