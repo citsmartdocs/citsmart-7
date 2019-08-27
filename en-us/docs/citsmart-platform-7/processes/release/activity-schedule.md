@@ -75,7 +75,7 @@ Filling in the registration fields
 2.  Afterwards, the screen where the activity related to the release request can
     be scheduled will be displayed, according to the figure below:
 
-    ![Figura](images/schedule-1.png)
+    ![Figura](images/schedule-4.png)
     
     **Figura 4 - Scheduling activities**
 
