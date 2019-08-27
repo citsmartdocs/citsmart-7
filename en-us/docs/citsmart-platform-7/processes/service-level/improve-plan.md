@@ -201,7 +201,7 @@ Monitoring
 1.  Click the *Register Monitoring* button. Once this is done, a screen will be
     displayed to record the monitoring information as shown in the figure below:
 
-    ![figure](images/improve-plan-10.png)
+    ![figure](images/improve-plan.10.png)
     
     **Figure 8 - Monitoring screen**
 
