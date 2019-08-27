@@ -126,7 +126,7 @@ Filling in the registrations fields
     !!! warning "ATTENTION"
 
         Before filling in the fields of the "Automation" tab it must be properly
-        parameterized, for this it is necessary to perform the steps in the
+        parameterized, for this it is necessary to perform the steps in the FAQ
         knowledge "[How to enable the service requests scheduling
         rule?][4]", except for parameter 190 which should be equal to 'N' in this context.
 
@@ -206,6 +206,7 @@ Filling in the registrations fields
 [1]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
 [2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/services.html
 [3]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
+[4]:/en-us/citsmart-docs/user-guide/faq/faq.html
 
 
 !!! tip "About"
