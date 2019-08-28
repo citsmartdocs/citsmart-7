@@ -1,6 +1,6 @@
 title: Event audit registration and search
 Description: This functionality is intended to provide a historical basis for all event changes and manual auditing.
-# Event audit registration and searchs
+# Event audit registration and search
 
 This functionality is intended to provide a historical basis for all event changes and manual auditing.
 
