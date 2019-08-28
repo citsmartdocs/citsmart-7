@@ -108,7 +108,7 @@ will be used to identify the root cause, the identified failure, and a solution.
     
     **Figure 7- Evaluation and diagnostic record**
 
-    -   **Root Cause: **tell the main cause of the problem;
+    -   **Root Cause**: tell the main cause of the problem;
 
     -   **Error Message Associated**: describe the error message associated with the
     problem;
@@ -179,7 +179,7 @@ will be used to identify the root cause, the identified failure, and a solution.
 
    -   A screen will be displayed to record the final solution information;
 
-       -   **Title: **define the title of the final solution;
+       -   **Title**: define the title of the final solution;
 
        -   **Description**: describe the proposed final solution;
 
