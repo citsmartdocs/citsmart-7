@@ -212,6 +212,7 @@ displayed. Therefore, only the main information will be addressed to register th
     
     - After presenting the Host services, if you wanted to register the IC in CITSmart with the Host data selected, just click the 
     *Create IC* button;
+    - Remember that this registration can only be done if there is no IC with the same Host ID;
     - Inform the other fields that will be used to generate the events of this manager;
     - Enter the data for the child configuration item.
     
