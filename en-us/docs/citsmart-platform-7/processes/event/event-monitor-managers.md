@@ -409,7 +409,7 @@ displayed. Therefore, only the main information will be addressed to register th
     - Enter the **connection type**:
         - **Correlation**: this type of connection is used to manage correlation events between the types of events in CITSmart 
         (Nagios Event Manager, Zabbix Event Manager and Inventory Event Manager);
-        - **External: this type of connection is used to manage external events, sent through a WS. The same is passive, that is, 
+        - **External**: this type of connection is used to manage external events, sent through a WS. The same is passive, that is, 
         it waits for the receipt of any event that is sent through the WS and compares with the events managed in the global 
         manager registry;
         - **File**: This type of connection is used to manage events as read from log files. When selecting this type of 
