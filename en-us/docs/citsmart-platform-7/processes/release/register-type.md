@@ -24,7 +24,7 @@ Preconditions
 3.  Have the performer group registered (see knowledge [Group registration and
     search][3]);
 
-4.  Have the calendar registered (Vsee knowledge [Calendar registration and
+4.  Have the calendar registered (see knowledge [Calendar registration and
     search][4]).
 
 Filters
