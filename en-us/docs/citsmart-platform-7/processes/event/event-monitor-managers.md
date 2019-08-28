@@ -319,8 +319,6 @@ displayed. Therefore, only the main information will be addressed to register th
     
     **Figure 18 - Inventory manager master screen**
     
-    - Caso desejar editar as regras para Information, Warning e Exception, basta clicar no ícone
-    ![simbolo](images/sim-lapis.white.png);
     - If you want to edit the rules for Information, Warning and Exception, just click the icon
     ![simbolo](images/simb-lapis.jpg);
     - If you want to edit the actions click the icon ![simbolo](images/simb-lapis.jpg) and to delete a configuration item from the 
