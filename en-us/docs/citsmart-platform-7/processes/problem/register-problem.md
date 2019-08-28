@@ -90,7 +90,7 @@ Filling in the registration fields
     selection, but if the service catalog is "technical", the support/technical
     services for selection will be available in this field.
 
-2.  Record the information of the applicant, as indicated below:
+3.  Record the information of the applicant, as indicated below:
 
    ![figure](images/register-2.png)
    
@@ -114,7 +114,7 @@ Filling in the registration fields
    -   **Observation**: describe the additional details about the contact, if
     necessary.
 
-3.  Record the request information, as indicated below:
+4.  Record the request information, as indicated below:
 
    ![figure](images/register-3.png)
    
@@ -152,7 +152,7 @@ Filling in the registration fields
    
    **Figure 4 - Impact and urgency matrix**
 
-4.  The combination of this information will define the priority needed to
+5.  The combination of this information will define the priority needed to
     address the problem.
 
    -   Management: enter the type of problem management:
