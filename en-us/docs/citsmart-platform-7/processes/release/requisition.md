@@ -66,7 +66,7 @@ Items list
 2.  There are action buttons available to the user in relation to each item in
     the listing, they are: *View*, *Reports* and *Action*.
 
-![figure](images/requisitin-2.png)
+![figure](images/requisition-2.png)
 
 **Figure 2 - Release listing screen**
 
@@ -80,13 +80,13 @@ Filling in the registration fields
 
 2.  Understanding the main screen of the feature:
 
-   ![figure](images/requisitin-3.png)
+   ![figure](images/requisition-3.png)
    
    **Figure 3 - Release Management screen**
 
 A quick overview of the functionality:
 
-- **1**  ![figure](images/requisitin-17.png) : extends the Release Management screen;
+- **1**  ![figure](images/requisition-17.png) : extends the Release Management screen;
 
 - **2**:  Management - the release Request records for attendance and management
     are presented;
@@ -101,13 +101,13 @@ A quick overview of the functionality:
 
 - **6**: Reports - displays the release reports for release management.
 
-   ![figure](images/requisitin-4.png)
+   ![figure](images/requisition-4.png)
    
    **Figure 4 - Release management screen**
 
 4.  Record the contract information as indicated below:
 
-   ![figure](images/requisitin-5.png)
+   ![figure](images/requisition-5.png)
    
    **Figure 5 - Release request record - contract information**
 
@@ -115,7 +115,7 @@ A quick overview of the functionality:
 
 5.  Record the information of the requester, as indicated below:
 
-   ![figure](images/requisitin-6.png)
+   ![figure](images/requisition-6.png)
    
    **Figure 6 - Release request record - applicant information**
 
