@@ -1,248 +1,243 @@
-title: Execução de problema
+title: Problem execution
 Description: Esta funcionalidade permite realizar a execução de problema.
 
-# Execução de problema
+# Problem execution
 
-Esta funcionalidade permite realizar a execução de problema.
+This functionality allows you to perform the problem execution.
 
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de execução de problema através da navegação no menu
-    principal **Processos ITIL > Gerência de Problema > Gerenciamento de
-    Problema**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter um problema registrado (ver conhecimento [Cadastro de problema][1]).
+1.  Access the problem execution functionality by navigating the main
+    menu **Process Management > Problem Management > Problem
+    Management**.
 
-Filtros
+Preconditions
+-------------
+
+1.  Have problem registered (see knowledge [Problem registration][1]).
+
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -   Número do problema.
+-   Problem Number.
 
-    ![Criar](images/execution-1.png)
+![figure](images/execution-1.png)
 
-    **Figura 1 - Tela de filtros**
+**Figure 1 - Problem search screen**
 
+Items list
+----------
 
-Listagem de itens
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard listing of the
+    functionality: Number, Title, Contract, Created on, Priority, Time
+    limit, User, Status, Current Task, Executor Group and Current
+    Responsible.
+
+2.  There are action buttons available to the user in relation to each item in
+    the listing, they are: *View*, *Reports* and *Action*.
+
+![figure](images/execution-2.png)
+
+**Figure 2 - Problem listing screen**
+
+Executing problem
 -----------------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Número, Título, Contrato, Criada em, Prioridade, Prazo
-    limite, Solicitante, Status, Tarefa atual, Grupo executor e Responsável
-    atual.
+!!! note "NOTE"
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Visualizar*, *Relatórios* e *Ação*.
+    In this step, the problem classification is performed and will designate
+    the appropriate area to treat the problem according to the IT Service
+    Catalog.
 
-    ![Criar](images/execution-2.png)
+!!! info "IMPORTANT"
 
-    **Figura 2 - Tela de listagem de problema**
+    You should link the problem to existing incidents and record the problem
+    to make it easier to prioritize troubleshooting. Evaluate the impact on the
+    business and determine the urgency of the solution. This assessment
+    determines the classification of the problem.
 
-Executando problema
+!!! info "IMPORTANT"
+
+    You must ensure that all information necessary for investigation and
+    diagnosis is recorded in the problem.
+
+!!! info "IMPORTANT"
+
+    The task execution actions will only be allowed to users that are
+    contained within the execution grou.
+
+1.  Access the problem execution functionality by navigating the main
+    menu **Process Management > Problem Management > Problem
+    Management**. On the Management tab, locate the problem log that you want to
+    log the task execution to, click the *Action*button and the *Start/Run
+    Task* option, as shown in the image below:
+
+   ![figure](images/execution-3.png)
+   
+   **Figure 3 - Problem management screen**
+
+2.  The Problem Log screen appears with the fields filled in, with the contents
+    of the selected record;
+
+3.  In the **Closure** frame, record the information needed to complete the
+    task;
+
+-   Click the *Add an Execution Register* button;
+
+-   Please describe the information about the issue.
+
+Linking configuration items to the problem
+------------------------------------------
+
+1.  Enter the configuration items (CIs) affected by the problem:
+
+   -   Click the **Processes/Options** tab, and then click **Configuration Items**,
+    located on the right-hand corner of the screen, as shown in the figure
+    below:
+
+   ![figure](images/execution-4.png)
+   
+   **Figure 4 - Selection of configuration items**
+
+   -   The configuration item relationship screen will be displayed. Click the
+    icon ![figure](images/execution-5.png) to add the configuration item;
+
+   -   The window for searching for configuration items will be displayed. Perform
+    the search, select the configuration item for the problem;
+
+   -   A window will be displayed to briefly describe the problem of the
+    configuration item. Describe the problem and click *OK* to complete the
+    operation. After this, the configuration item will be related to the
+    problem;
+
+   ![figure](images/execution-6.png)
+   
+   **Figure 5 - Configuration item relationship to problem**
+
+   -   If you want to remove a configuration item that was related to the change
+    request, simply click on the change icon ![figure](images/execution-7.png).
+    
+
+Linking a knowledge to the problem
+----------------------------------
+
+1.  Relate knowledge about the problem:
+
+   -   Click on the Processes/Options tab and then on Knowledge Base, located in
+    the right corner of the screen, as shown in the figure below:
+
+   ![figure](images/execution-8.png)
+   
+   **Figure 6 - Knowledge base selection**
+
+   -   Click the *Add Knowledge* button to add knowledge;
+
+   -   A window for knowledge search will be displayed. Perform the survey and
+    select the knowledge. Once this is done, knowledge will be related to the
+    problem;
+
+   ![figure](images/execution-9.png)
+   
+   **Figure 7 - Knowledge relationship to problem**
+
+   -   If you want to create a new knowledge about the problem, just click the
+    Knowledge Registry button;
+
+   -   If you want to remove a related knowledge, simply click on the icon ![figure](images/execution-10.png) .
+
+Linking attachments
 -------------------
 
-!!! note "NOTA"
+1.  If you want to attach a file to the problem, proceed as follows:
 
-     Nesta etapa, é realizada a classificação do problema e designará a área
-     apropriada para tratar o problema de acordo com o Catálogo de Serviços de
-     TI.
+   -   Click the **Attachments** tab, located in the upper right corner of the
+    screen, as shown in the figure below:
 
-!!! info "IMPORTANTE"
+   ![figure](images/execution-11.png)
 
-      Deve vincular o problema a incidentes existentes e registrar o problema
-      para facilitar a priorização de soluções de problemas. Avaliar o impacto
-      sobre os negócios e determinar a urgência da solução. Essa avaliação
-      determina a classificação do problema.
+   **Figure 8 - Selection of attachments**
 
-!!! info "IMPORTANTE"
+   -   The file attachment screen is displayed, as shown in the figure below:
 
-        Deve assegurar que todas as informações necessárias para investigação e
-        diagnostico estejam registradas no problema.
+   ![figure](images/execution-12.png)
+   
+   **Figure 9 - Attachments screen**
 
-!!! info "IMPORTANTE"
+-   Click the *Choose File* button and select the desired file;
 
-        As ações de execução da tarefa, somente serão permitidas aos usuários que
-        estejam contidos dentro do grupo de execução.
+-   Enter the description of the file and click the *Add* button;
 
+-   After adding the file, click the *Close* button to return to the problem log
+    screen.
 
-1.  Na guia **Gerenciamento**, localize o registro de problema que se deseja
-    registrar a execução da tarefa, clique no botão *Ação* e na
-    opção *Iniciar/Executar tarefa*, conforme indicado na imagem abaixo:
-
-    ![Criar](images/execution-3.png)
-
-    **Figura 3 - Tela de gerenciamento de problemas**
-
-1.  Será exibida a tela de **Registro de Problema** com os campos preenchidos,
-    com o conteúdo referente ao registro selecionado;
-
-  -  No quadro de **Fechamento**, registre as informações necessárias da execução
-    da tarefa:
-
-      -  Clique no botão *Adicionar Registro de Execução*;
-
-      -  Descreva as informações sobre a execução do problema.
-      
-
-Vinculando itens de configuração ao problema
---------------------------------------------
-
-1.  Informe o(s) item (itens) de configuração (IC's) afetado(s) pelo problema:
-
-    - Clique na guia **Processos/Opções** e logo em seguida em **Itens de
-    Configuração**, localizada no canto direito da tela, conforme indicado na
-    figura abaixo:
-     
-    ![Criar](images/execution-4.png)
-
-    **Figura 4 - Seleção de itens de configuração**
-
-    -  Será apresentada a tela de relacionamento de item de configuração. Clique no
-    ícone ![Criar](images/execution-5.png) para adicionar o item de configuração.
-
-    -  Será apresentada a janela para pesquisa de itens de configuração. Realize a
-    pesquisa, selecione o item de configuração referente ao problema;
-
-    -  Será exibida uma janela para descrever resumidamente o problema do item de
-    configuração. Descreva o problema e clique em *OK* para efetuar a operação.
-    Após isso, o item de configuração será relacionado ao problema;
-
-    ![Criar](images/execution-6.png)
-
-    **Figura 5 - Relacionamento de item de configuração ao problema**
-
-    -  Caso queira remover um item de configuração que foi relacionado à requisição
-    de mudança, basta clicar no ícone ![Criar](images/execution-7.png)   do mesmo.
-
-Vinculando um conhecimento ao problema
---------------------------------------
-
-1.  Relacione um conhecimento referente ao problema:
-
-    -  Clique na guia **Processos/Opções** e logo em seguida em **Base de
-    Conhecimento**, localizada no canto direito da tela, conforme indicado na
-    figura abaixo:
-
-    ![Criar](images/execution-8.png)
-
-    **Figura 6 - Seleção de base de conhecimento**
-
-    -  Clique no botão *Adicionar Conhecimento* para adicionar o conhecimento;
-
-    -  Será exibida uma janela para pesquisa de conhecimento. Realize a pesquisa e
-    selecione o conhecimento. Feito isso, será relacionado o conhecimento ao
-    problema;
-
-    ![Criar](images/execution-9.png)
-    
-    **Figura 7 - Relacionamento de conhecimento ao problema**
-
-    -  Caso queira criar registrar um novo conhecimento referente ao problema,
-    basta clicar no botão *Cadastro de Conhecimento*;
-
-    -  Caso queira remover um conhecimento que foi relacionado, basta clicar no
-    ícone ![Criar](images/execution-7.png) .
-
-Vinculando anexos
------------------
-
-1.  Caso queira anexar um arquivo à execução do problema, proceda da seguinte
-    maneira:
-
-    -  Clique na guia **Anexos**, localizada no canto superior direito da tela,
-    conforme indicado na figura abaixo:
-
-    ![Criar](images/execution-10.png)
-
-    **Figura 8 - Seleção de anexos**
-
-    -  É apresentada a tela de anexo de arquivos, conforme ilustrada na figura
-    abaixo:
-
-    ![Criar](images/execution-11.png)
-
-    **Figura 9 - Tela de anexos**
-
-    -  Clique no botão *Escolher arquivo* e selecione o arquivo desejado;
-
-    -  Informe a descrição do arquivo e clique no botão *Adicionar*;
-
-    -  Após adição do arquivo, clique no botão *Fechar* para retornar à tela de
-    registro de problema.
-
-Vinculando ocorrência ao problema
+Linking occurrence to the problem
 ---------------------------------
 
-1.  Caso queira inserir uma ocorrência ao registro de problema, proceda da
-    seguinte maneira:
+1.  If you want to insert an instance of the problem log, proceed as follows:
 
-    -  Clique na guia **Ocorrência**, localizada no canto superior direito da tela,
-    conforme indicado na figura abaixo:
+   -   Click the **Occurrence** tab, located in the upper right corner of the
+    screen, as shown in the figure below:
 
-    ![Criar](images/execution-12.png)
+   ![figure](images/execution-13.png)
+   
+   **Figure 10 - Selection of occurrence**
 
-    **Figura 10 - Seleção de ocorrência**
+   -   The **Occurrences** screen containing two tabs will be displayed, one for
+    displaying the list of recorded occurrences and another for recording new
+    occurrences. Click on the **Register of Occurrences** tab and fill in the
+    fields as below:
 
-    -  Será exibida a tela de **Ocorrências** contendo duas abas, uma para exibição
-    da relação de ocorrências registradas e outra para registro de novas
-    ocorrências. Clique na aba de **Cadastro de Ocorrências** e preencha os
-    campos conforme orientações abaixo:
+   ![figure](images/execution-14.png)
+   
+   **Figure 11 - Occurrence record**
 
-    ![Criar](images/execution-13.png)
+   -   **Category**: select the category of the occurrence. If the category is not
+    found, it is possible to perform a quick registration by clicking the
+    Category icon ![figure](images/execution-15.png);
 
-    **Figura 11 - Registro de ocorrência**
+   -   **Origiin**: select the source of the occurrence. If the source is not
+    found, you can perform a quick registration by clicking the Source icon ![figure](images/execution-15.png);
 
-    - **Categoria**: selecione a categoria da ocorrência. Caso não seja encontrada
-    a categoria, é possível realizar um cadastro rápido clicando no ícone ![Criar](images/execution-14.png) de
-    Categoria;
+   -   **Spent time (min)**: report the time spent in minutes;
 
-    -  **Origem**: selecione a origem da ocorrência. Caso não seja encontrada a
-        origem, é possível realizar um cadastro rápido clicando no ícone ![Criar](images/execution-14.png) de
-        Origem;
+   -   **Registered by**: automatically populated by the user who is running the
+    activity;
 
-    -  **Tempo Gasto (min)**: informe o tempo gasto da ocorrência em minutos;
+   -   **Description**: report the description of the occurrence;
 
-    -  **Registrado por**: preenchido automaticamente pelo usuário que está
-        executando a atividade;
+   -   **Occurrence**: report the occurrence;
 
-    -  **Descrição**: informe a descrição da ocorrência;
+   -   **User Information**: describe the contact information;
 
-    -  **Ocorrências**: informe a ocorrência;
+   -   After the data has been entered, click on the *Save* button to perform the
+    operation, where the date, time and user will be saved automatically for a
+    future audit;
 
-    -  **Informações de Contato**: descreva as informações para contato;
+   -   A message confirming the success of the operation will be displayed and will
+    return to the problem log screen.
 
-    -  Após os dados informados, clique no botão *Gravar* para efetuar a
-        operação, onde a data, hora e usuário serão gravados automaticamente
-        para uma futura auditoria;
+2.  After recording the information of the execution of the problem task, click
+    on the button *Save and Forward*, to carry out the operation, where the
+    problem will be sent to the investigation and diagnostic phase;
 
-    -  Será exibida uma mensagem confirmando o sucesso da operação e retornará
-        à tela de registro de problema.
+3.  If you want to save only the logged information about running the problem
+    task and keep the current task, click the *Save and Keep the Current
+    Task* button;
 
-2.  Após registro das informações da execução da tarefa de problema, clique no
-    botão *Gravar e avançar o fluxo*, para efetuar a operação, onde o problema
-    será encaminhado para fase de investigação e diagnóstico;
+4.  In both cases above, clicking the *Save* button will automatically record
+    the date, time and user for a future audit.
 
-3.  Caso queira gravar somente as informações registradas sobre a execução da
-    tarefa de problema e manter a tarefa atual, clique no botão *Gravar e manter
-    a tarefa atual*;
 
-4.  Em ambos os casos anteriores, ao clicar no botão *Gravar* a data, hora e
-    usuário serão gravados automaticamente para uma futura auditoria.
-
-[1]:/pt-br/citsmart-platform-7/processes/problem/register-problem.html
+[1]:/en-us/citsmart-platform-7/processes/problem/register-problem.html
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/16/2019 – Anna Martins
+    <b>Updated:</b>08/28/2019 – Anna Martins
     
