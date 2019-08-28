@@ -1,57 +1,55 @@
-title: Módulo Gerenciamento de Continuidade
-Description: O Gerenciamento de Continuidade foca em recuperar os serviços de TI e seus componentes diante de um evento de desastre.
-# Módulo Gerenciamento de Continuidade
+title: Continuity Management module
+Description: Continuity Management focuses on recovering IT services and their components in the face of a disaster event.
+# Continuity Management module
 
-Objetivo do módulo
+Module objective
 --------------------
 
-O Gerenciamento de Continuidade foca em recuperar os serviços de TI e seus componentes diante de um evento de desastre.
+Continuity Management focuses on recovering IT services and their components in the face of a disaster event.
 
-O que pode ser um evento de desastre?
+What can be a disaster event?
 
-1. Incêndios;
-2. Enchentes;
-3. Terrorismo;
-4. Apagões ou blackouts;
-5. Queda de sistemas;
-6. Vandalismo;
-7. Tempestades.
+1. Fires;
+2. Flooding;
+3. Terrorism;
+4. Blackouts;
+5. Fall of systems;
+6. Vandalism;
+7. Storms.
 
-A definição do que poderá ser um desastre varia nas organizações de acordo com o impacto ao negócio.
+The definition of what could be a disaster varies in organizations according to business impact.
 
-O propósito do Gerenciamento de Continuidade é apoiar o processo de continuidade do negócio, gerenciar os riscos
-que podem afetar seriamente os serviços de TI e garantir a provisão desses serviços no mínimo acordo de nível de serviço.
+The purpose of Continuity Management is to support the business continuity process, manage the risks that can seriously affect IT 
+services, and ensure the provision of these services in the minimum service level agreement.
 
-Onde estão suas funcionalidades
+Where are the features
 --------------------------------
 
-Acesse o menu principal **Processos ITIL > Gerência de Continuidade**.
+To access the functionality click on the main menu **Process Management > Continuity Management**.
 
-![Menu](images/visao.img1.png)
+![Menu](images/module.img1.jpg)
 
-**Figura 1 - Menu do Módulo Gerência de Continuidade**
+**Figure 1 - Continuity Management module menu**
 
-Principal funcionalidade (em destaque)
+Main feature (in highlight)
 ----------------------------------------
 
-Na seção "Veja também" é possível acessar a(s) funcionalidade(s) principal(is) deste módulo, desta forma se pode obter um 
-conhecimento mais detalhado.
+In the *See also* section you can access the main functionality(ies) of this module, in order to obtain a more detailed knowledge.
 
-!!! abstract "SAIBA MAIS"
+!!! abstract "KNOW MORE"
 
-    Essa funcionalidade é responsável por iniciar o Gerenciamento de Continuidade do Negócio que dará base
-    ao Gerenciamento de Continuidade agir em um momento de desastre. Por sua vez, o Gerenciamento de Continuidade de Serviço
-    de TI se liga aos processos de Gerenciamento de Nível de Serviço, Gerenciamento de Disponibilidade, Gerenciamento de 
-    Configuração, Gerenciamento de Capacidade e Gerenciamento de Mudança para garantir que as implementações de 
-    recuperação ocorram de maneira satisfatória diante da necessidade de uso.
+    This functionality is responsible for initiating Business Continuity Management that will provide Continuity 
+    Management capability to act in a time of disaster. In turn, IT Service Continuity Management connects to the Service Level 
+    Management, Availability Management, Configuration Management, Capacity Management, and Change Management processes to ensure 
+    that recovery implementations occur satisfactorily Need to use.
     
-Veja também
+See also
 -------------
 
-- [Gerenciamento de Continuidade](/pt-br/citsmart-platform-7/processes/continuity/continuity-management.html)
+- [Continuity Management](/en-us/citsmart-platform-7/processes/continuity/continuity-management.html)
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Larissa Lourenço
+    <b>Updated:</b>08/28/2019 – Larissa Lourenço
 
