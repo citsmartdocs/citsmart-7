@@ -1,97 +1,94 @@
-title: Suspensão de registro de liberação
+title: Release record suspension
+Description: This feature allows suspending the execution of the release request.
 
-Description:Esta funcionalidade permite suspender a execução da requisição de liberação.
+# Release record suspension
 
-# Suspensão de registro de liberação
+This feature allows suspending the execution of the release request.
 
-Esta funcionalidade permite suspender a execução da requisição de liberação.
-
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de Gerenciamento de Liberação através da
-    navegação no menu principal **Processos ITIL \> Gerência de
-    Liberação \> Gerenciamento de Liberação**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter a permissão para suspender a requisição de liberação;
+1.  Access the **Release Management** feature navigating through the main
+    menu **Process Management > Release Management > Release
+    Management**.
 
-2.  Ter a justificativa de requisição de liberação cadastrada (ver
-    conhecimento [Cadastro e pesquisa de justificativa de
-    liberação][1]).
+Preconditions
+-------------
 
-Filtros
+1.  Clearance to suspend the release request;
+
+2.  Register a release request justification (see knowledge [Release
+    justification registration and search][1]).
+
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filters enables the user to restrict the participation of
+    items in the standard feature listing, making it easier to find the desired
+    items:
 
-    -   Nº da Requisição;
+-   Request Nº;
 
-    -   Atribuída/Compartilhada.
+-   Assigned/Shared.
 
-    ![Criar](images/suspension-1.png)
+![figure](images/suspension-1.png)
 
-    **Figura 1 - Tela de pesquisa de requisição de liberação**
+**Figure 1 - Release search screen**
 
-Listagem de itens
------------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Número, Solicitante, Criada em, Prioridade, Prazo limite,
-    Atraso, Situação, Tarefa atual, Grupo Executor, Responsável
-    atual e Compartilhado com.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: Number, Applicant Name, Created on, Priority, Deadline, Delay,
+    Situation, Current task, Executor Group, Current responsible and Shared
+    with.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Visualizar*, *Relatórios* e *Ação*.
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *View*, *Reports* and *Action*.
 
-    ![Criar](images/suspension-2.png)
+![figure](images/suspension-2.png)
 
-    **Figura 2 - Tela de listagem de requisição de liberação**
+**Figure 2 - Release listing screen**
 
-Preenchimento de campos cadastrais
+Filling in the registration fields
 ----------------------------------
 
-1.  Será apresentada a tela de Gerenciamento de
-    Liberação. Na guia **Gerenciamento**, localize a requisição de liberação que
-    deseja suspender, clique no botão *Ações* e selecione a opção *Suspender
-    liberação*, conforme indicado na figura abaixo:
+1.  The release management screen will be displayed. On the **Management** tab,
+    locate the release request which will be suspended, click on
+    the *Action* button and click on the *Suspend Release* option, as indicated
+    on the image below:
 
-    ![Criar](images/suspension-3.png)
+   ![figure](images/suspension-3.png)
+   
+   **Figure 3 - Release request suspension**
 
-    **Figura 3 - Suspendendo requisição de liberação**
+2.  The release request suspension justification entry screen will be displayed:
 
-2.  Será exibida a tela de registro de justificativa de suspensão da requisição
-    de liberação:
+   ![figure](images/suspension-4.png)
+   
+   **Figure 4 - Release request suspension justification entry screen**
 
-    ![Criar](images/suspension-4.png)
+   -   **Justification**: select the reason for the release request suspension (an
+    option **must** be selected);
 
-    **Figura 4 - Registro da justificativa de suspensão da requisição de liberação**
+   -   **Justification Complement**: insert a complimentary information on the
+    release request's suspension;
 
-    -   **Justificativa**: selecione a justificativa de suspensão da requisição de
-    liberação (campo de seleção obrigatória);
+   -   After inserting all data, click on the *Save* button, at which date, time
+    and user will be automatically stored for a future audit.
 
-    -   **Complemento da justificativa**: informe o complemento da justificativa de
-    suspensão da requisição de liberação;
+3.  After suspending the release request, the situation will be updated to
+    Suspended, as indicated on the image below:
 
-    -   Após os dados informados, clique no botão *Gravar*, onde a data, hora e
-    usuário serão armazenados automaticamente para uma futura auditoria.
+![figure](images/suspension-5.png)
 
-3.  Após a suspensão da requisição de liberação, a situação da mesma será
-    atualizada para **Suspensa**, conforme indicado na figura a seguir:
+**Figure 5 - Suspended release request**
 
-    ![Criar](images/suspension-5.png)
-
-    **Figura 5 - Requisição de liberação suspensa**
-
-[1]:/pt-br/citsmart-platform-7/processes/release/justification.html
+[1]:/en-us/citsmart-platform-7/processes/release/justification.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/15/2019 – Anna Martins
+    <b>Updated:</b>08/28/2019 – Anna Martins
 
