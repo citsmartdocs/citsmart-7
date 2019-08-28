@@ -8,7 +8,7 @@ port where the CITSmart Event Monitor JBoss is installed.
 How o access
 --------------
 
-1. Access the Event Monitor Connections feature navigating through the main menu 
+1. Access the **Event Monitor Connections** feature navigating through the main menu 
 **Process Management > Event Management > Event Monitor Connections**.
 
 Preconditions
