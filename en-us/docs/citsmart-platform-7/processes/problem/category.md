@@ -1,105 +1,104 @@
-title:Cadastro e pesquisa de categoria de problema
-Description:Tem por objetivo registrar a categoria de problema que será utilizado para definir toda a configuração do fluxo de trabalho que o problema irá seguir.
+title:Problem category registration and search
+Description:This functionality is intended to record the problem category that will be used to define the entire workflow configuration that the problem will follow.
 
-# Cadastro e pesquisa de categoria de problema
+# Problem category registration and search
 
-Esta funcionalidade tem por objetivo registrar a categoria de problema que será
-utilizado para definir toda a configuração do fluxo de trabalho que o problema
-irá seguir.
+This functionality is intended to record the problem category that will be used
+to define the entire workflow configuration that the problem will follow.
 
-Pré-condições
+Preconditions
 -------------
 
-1.  Definir o fluxo referente ao gerenciamento de problema (ver conhecimento [Manutenção de fluxo de trabalho][1]);
+1.  Define the flow related to problem management (see the knowledge [Workflow
+    maintenance][1]);
 
-2.  Criar o template de problema;
+2.  Create the problem template;
 
-3.  Cadastrar o grupo executor (ver conhecimento [Cadastro e pesquisa de grupo][2]).
+3.  Register the executor group (see knowledge [Group registration and
+    search][2]).
 
-Como acessar
-------------
+How to access
+-------------
 
-1.  Acesse a funcionalidade de categoria de problema através da navegação no
-    menu principal **Processos ITIL > Gerência de Problema > Categoria
-    Problema**.
+1.  Access the problem category functionality by navigating the main
+    menu **Process Management > Problem Management > Problem
+    Category**.
 
-Filtros
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -  Nome da Categoria.
+   -   Problem Category Name.
 
-    ![Criar](images/category-1.png)
+   ![figure](images/category-1.png)
+   
+   **Figure 1 - Category search screen**
 
-    **Figura 1 - Tela de pesquisa de categoria**
+2.  Perform the problem category search;
 
-2.  Realize a pesquisa de categoria de problema;
+-   Enter the name of the problem category you want to search for and click
+        the *Search* button. After this, the problem category record will be
+        displayed according to the name entered;
 
-    -   Informe o nome da categoria de problema que deseja pesquisar e clique no
-        botão *Pesquisar*. Após isso, será exibido o registro da categoria de
-        problema conforme o nome informado;
+-   If you want to list all of the problem category records, simply click
+        the *Search* button directly;
 
-    -   Caso deseje listar todos os registros de categoria de problema, basta
-        clicar diretamente no botão *Pesquisa*.
+Items list
+----------
 
-Listagem de itens
------------------
+1.  The following cadastral field is available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: **Problem Category Name**.
 
-1.  O seguinte campo cadastral está disponível ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Nome da Categoria**.
+   ![figure](images/category-2.png)
+   
+   **Figure 2 - Category listing screen**
 
-    ![Criar](images/category-2.png)
+2.  After searching, select the desired record. Once this is done, it will be
+    directed to the registration screen displaying the contents of the selected
+    registry;
 
-    **Figura 2 - Tela de listagem de categoria**
+3.  To change the problem category record data, simply change the information of
+    the desired fields and click the *Save* button to save the change made to
+    the record, where the date, time and user will be saved automatically for a
+    future audit.
 
-2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a tela de cadastro exibindo o conteúdo referente ao registro
-    selecionado;
+Filling in the registration fields
+----------------------------------
 
-3.  Para alterar os dados do registro de categoria de problema, basta modificar
-    as informações dos campos desejados e clicar no botão *Gravar* para que seja
-    gravada a alteração realizada no registro, onde a data, hora e usuário serão
-    gravados automaticamente para uma futura auditoria.
+1.  The problem category registration screen will be displayed, as shown in the
+    figure below:
 
-Preenchimento dos campos cadastrais
------------------------------------
+   ![figure](images/category-1.png)
+   
+   **Figure 3- Problem category registration screen**
 
-1.  Será apresentada a tela de cadastro de categoria de problema, conforme
-    ilustrada na figura abaixo:
+2.  Fill in the fields as shown below:
 
-    ![Criar](images/category-3.png)
+    -   **Name**: enter the name of the problem category;
 
-    **Figura 3 - Tela de cadastro de categoria de problema**
+    -   **Flow**: select the flow so that it is associated with the problem
+        category being registered;
 
-2.  Preencha os campos conforme orientações abaixo:
+    -   **Executor group**: select the executor group, which will be the default
+        group, responsible for executing the problem activity;
 
-    -   **Nome**: informe o nome da categoria de problema;
+    -   **Problem Template**: select the problem template, if necessary;
 
-    -   **Fluxo**: selecione o fluxo para que o mesmo seja associado à categoria
-        de problema que está sendo cadastrada;
+    -   **Impact**: select the impact of the problem category;
 
-    -   **Grupo Executor**: selecione o grupo executor, o qual será o grupo
-        padrão, responsável pela execução da atividade de problema;
+    -   **Urgency**: select the urgency of the problem category.
 
-    -   **Template Problema**: selecione o template de problema, caso seja
-        necessário;
-
-    -   **Impacto**: selecione o impacto da categoria de problema;
-
-    -   **Urgência**: selecione a urgência da categoria de problema;
-
-3.  Clique no botão *Gravar* para efetuar o registro, onde a data, hora e
-    usuário serão gravados automaticamente para uma futura auditoria.
+3.  Click on the *Save* button to register, where the date, time and user will
+    be saved automatically for a future audit.
 
 
-[1]:/pt-br/citsmart-platform-7/workflow/workflow-management.html
-[2]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[1]:/en-us/citsmart-platform-7/workflow/workflow-management.html
+[2]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/15/2019 – Anna Martins
+    <b>Updated:</b>08/28/2019 – Anna Martins
