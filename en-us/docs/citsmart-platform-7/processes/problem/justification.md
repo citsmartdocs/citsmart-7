@@ -1,87 +1,89 @@
-title:Cadastro e pesquisa de justificativa de problema
-Description:Esta funcionalidade tem por objetivo registrar as justificativas de problemas que serão utilizadas em outras rotinas do Sistema.
+title: Problem justification registration and search
+Description: This functionality is intended to record the justifications for
+problems that will be used in other system routines.
 
-# Cadastro e pesquisa de justificativa de problema
+# Problem justification registration and search
 
-Esta funcionalidade tem por objetivo registrar as justificativas de problemas
-que serão utilizadas em outras rotinas do sistema.
+This functionality is intended to record the justifications for problems that
+will be used in other system routines.
 
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de Justificativa de Problemas através da navegação
-    no menu principal **Processos ITIL > Gerência de
-    Problema > Justificativa de Problemas**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Não se aplica.
+1.  Access the Problem Justification feature by navigating the main
+    menu **Process Management > Problem Management > Problem
+    Justification**.
 
-Filtros
+Preconditions
+-------------
+
+1.  No applicable.
+
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados, conforme ilustrado na figura abaixo:
+1.  The following filters enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to locate the desired
+    items as shown in the figure below:
 
-    -  Descrição;
+   -   Description;
 
-    -  Situação.
+   -   Status.
 
-1.  Na tela de **Cadastro de Justificativa de Problemas**, clique no
-    botão *Pesquisa*. Feito isso, será apresentada a tela de **Justificativa de
-    Problemas**, conforme ilustrada na figura a seguir. Nesta tela, são exibidas
-    as justificativas de problemas cadastradas para visualização.
+2.  On the Issue Rationale screen, click *Search*. Once this is done,
+    the **Problem Justification** screen will be displayed, as shown in the
+    following figure. In this screen, the justifications of problems registered
+    for visualization are displayed.
 
-    ![Criar](images/justification-1.png)
+   ![figure](images/justification-1.png)
+   
+   **Figure 1 - Problem justification search screen**
 
-    **Figura 1 - Tela de pesquisa de justificativa de problemas**
+3.  To carry out the search for a problem justification, inform the description
+    and/or situation of the same.
 
-1.  Para realizar a pesquisa de uma justificativa de problema, informe a
-    descrição e/ou situação da mesma.
+Items list
+----------
 
-Listagem de itens
------------------
+1.  The following cadastral fields are available to the user to make it easier
+    to identify the desired items in the standard feature
+    list: **Description** and **Status;**
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Descrição** e **Situação**.
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Edit* and *Delete;*
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Excluir*.
+   ![figure](images/justification-2.png)
+   
+   **Figure 2 - Items screen**
 
-    ![Criar](images/justification-2.png)
+3.  After the search, the record will be displayed according to the data
+    entered.
 
-    **Figura 2 - Tela de lista de itens**
+Filling in the registration fields
+----------------------------------
 
-1.  Após a pesquisa, será exibido o registro conforme os dados informados.
+1.  The **Problem Justification** screen will be displayed. Click
+    the *New* button. Once this is done, the **Problem Justification
+    Registration** screen will be displayed, as shown in the following figure:
 
-Preenchimento dos campos cadastrais
------------------------------------
+   ![figure](images/justification-3.png)
+   
+   **Figure 3 - Problem justification registration screen**
 
-1.  Será apresentada a tela de **Justificativa de Problemas**. Clique no
-    botão *Novo*. Feito isso, será apresentada a tela de **Cadastro de
-    Justificativa de Problemas**, conforme ilustrada na figura a seguir:
+2.  Fill in the fields as directed below:
 
-     ![Criar](images/justification-3.png)
+    -   **Description**: report the description of the problem justification;
 
-    **Figura 3 - Tela de cadastro de justificativa de problemas**
+    -   **Suspension**: define whether the justification is for suspension of
+        the problem;
 
-1.  Preencha os campos conforme orientações abaixo:
+    -   **Status**: select the situation of the problem justification.
 
-    -   **Descrição**: informe a descrição da justificativa de problema;
-
-    -   **Suspensão**: defina se a justificativa é para suspensão do problema;
-
-    -   **Situação**: selecione a situação da justificativa de problema.
-
-2.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
-    onde a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria.
+3.  After the data has been entered, click the *Save* button to register, where
+    the date, time and user will be saved automatically for a future audit.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/15/2019 – Anna Martins
+    <b>Updated:</b>08/28/2019 – Anna Martins
