@@ -47,9 +47,9 @@ Capturing events
     
     **{"properties" : {"uuid" : "5e5517507c66", "name" : "Barry Allen", "type" : "HR", "status" : "Hiring"}}**
    
-        - The "**properties**" element is required, and if it was not sent, it will not be possible to identify the event;
-        - The "**uuid**" element is required for the identification of related events;
-        - The WS will not return any information, only the 200 OK response stating that the request was successful.
+    - The "**properties**" element is required, and if it was not sent, it will not be possible to identify the event;      
+    - The "**uuid**" element is required for the identification of related events;
+    - The WS will not return any information, only the 200 OK response stating that the request was successful.
         
 Viewing captured events
 -----------------------------------
