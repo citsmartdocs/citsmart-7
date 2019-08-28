@@ -1,197 +1,192 @@
-title: Gerenciamento de evento
-Description: Esta funcionalidade tem como objetivo apresentar algumas funcionalidades para o gerenciamento de eventos.
-# Gerenciamento de evento
+title: Event management
+Description: This functionality aims to present some functionality for managing events.
+# Event management
 
-Esta funcionalidade tem como objetivo apresentar algumas funcionalidades para o gerenciamento de eventos, permitindo visualizar 
-gráficos, acompanhar o monitoramento e pesquisar ocorrência de eventos.
+This functionality aims to present some functionality for managing events, allowing you to view graphs, monitor monitoring and 
+search for event occurrence.
 
-- Gráficos;
-- Gerenciamento;
-- Pesquisa.
+- Graphics;
+- Management;
+- Search.
 
-Como acessar
--------------
+How to access
+----------------
 
-1. Acesse a funcionalidade de **Gerenciamento de Eventos** através da navegação no menu principal. Posicione o mouse na opção 
-**Processos ITIL > Gerência de Evento > Gerenciamento de Eventos**.
+1. Access the **Event Management** feature by navigating through the main menu. Position the mouse in the option 
+**ITIL Processes > Event Management > Event Management**.
 
-![Menu](images/ger-eve.img1.png)
+![Menu](images/management.img1.jpg)
 
-**Figura 1 - Tela menu de gerenciamento de eventos**
+**Figure 1 - Event management menu screen**
 
-Pré-condições
+Preconditions
 ---------------
 
-1. Cadastrar Conexão do CITSmart Event Monitor (ver conhecimento [Conexão CITSmart Event Monitor][1]);
+1. Register Connection of the CITSmart Event Monitor (see knowledge [CITSmart event monitor connection][1]);
 
-2. Cadastrar Ferramenta de Monitoração;
+2. Register Monitoring Tool;
 
-3. Ter pelo menos uma Requisição/Incidente cadastrada e vinculada ao IC (Item de Configuração) que gerou o evento, caso queira
-"Executar" o serviço usando tela de Eventos (ver conhecimento [Gerenciamento de ticket (serviços)][2]).
+3. Have at least one Request/Incident registered and linked to the IC (Configuration Item) that generated the event, if you want to 
+"Run" the service using the Events screen (see knowledge [Ticket management (services)][2]).
 
-Filtros
+Filters
 ---------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados, conforme ilustrado na figura abaixo:
+1. The following filters enable the user to restrict the participation of items in the standard feature listing, making it easier 
+to locate the desired items as shown in the figure below:
 
-    - Id da ocorrência;
-    - Ferramenta;
-    - Classificação;
-    - Situação;
+    - Occurrence ID;
+    - Tool;
+    - Classification;
+    - Status;
     - Host;
-    - Gerenciado;
-    - Data inicial;
-    - Data final.
+    - Managed;
+    - Start date;
+    - Final date.
     
-   ![Ocorrência](images/ger-eve.img2.png)
+   ![Occurrence](images/management.img2.jpg)
     
-   **Figura 2 - Tela de pesquisa de ocorrência de evento**
+   **Figure 2 - Event occurrence search screen**
     
-Listagem de itens das ocorrências de eventos
+Items list of events occurrences
 ----------------------------------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: **Classificação, Ferramenta, Data/Hora, Categoria, Host, Gerenciando, Prioridade** e **Situação**.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard 
+listing of the functionality: **Classification, Tool, Date/Time, Category, Host, Managed, Priority** and **Status**;
 
-2. Após acessar a funcionalidade de **Gerenciamento de Eventos** são visualizadas todas as ocorrências registradas no MongoDB 
-através da aplicação Citsmart Event Monitor, conforme ilustração abaixo:
+2. After accessing the **Event Management** feature, all the events recorded in MongoDB are viewed through the CITSmart Event 
+Monitor application, as shown below:
 
-   ![Listagem](images/ger-eve.img3.png)
+   ![Listing](images/management.img3.jpg)
     
-   **Figura 3 - Tela de listagem de eventos**
+   **Figure 3 - Listing of events screen**
     
-3. A guia ![simbolo](images/simb-atuali.png) ![simbolo](images/simb-voltar.png) ![simbolo](images/simb-conf.png), apresenta as 
-seguintes funcionalidades para a listagem de eventos:
+3. The guide ![symbol](images/simb-menu.white.jpg), presents the following features for the event listing:
 
-    - **Atualização automática** ![simbolo](images/simb-atuali.png): possibilita que a opção "atualizar lista" seja executada de 
-    tempos em tempos;
-    - **Atualizar lista** ![simbolo](images/simb-voltar.png): ao clicar a lista de eventos é atualizada;
-    - **Opções** ![simbolo](images/simb-conf.png): possibilita a alteração das colunas da lista de eventos.
+    - **Automat refresh** ![symbol](images/simb-refresh.jpg) : enables the refresh list option to be run from time to time;
+    - **Update list** ![symbol](images/simb-update.jpg): clicking, the events list is updated;
+    - **Options** ![symbol](images/simb-conf.png): enables the change of the columns in the event list.
     
-4. Ao clicar sobre qualquer evento da listagem, a guia ![simbolo](images/simb-dash.png) será mostrada:
+4. By clicking on any event in the listing, the ![symbol](images/simb-menu.green.jpg) will be shown:
 
-    - **Abrir** ![simbolo](images/simb-play.png): é possível acessar os detalhes de cada ocorrência de eventos;
-    - **Encerrar ocorrência** ![simbolo](images/simb-v.png): encerra a ocorrência aberta;
-    - **Encerrar ocorrência e todas as ações** ![simbolo](images/simb-2v.png): encerra a ocorrência e as ações vinculadas a ela;
-    - **Mais opções** ![simbolo](images/simb-3pontos.png): é possível realizar três ações ao clicar nesse ícone (criar solicitação
-    de serviço/criar requisição de mudança/criar requisição de problema).
+    - **Open** ![symbol](images/simb-open.jpg): you can access the details of each occurrence of events;
+    - **Close occurrence** ![symbol](images/simb-ok.jpg): closes the open event;
+    - **Close occurrence and all actions** ![symbol](images/simb-2ok.jpg): closes the occurrence and actions related to it;
+    - **More options** ![symbol](images/simb-3pints.jpg): you can perform three actions by clicking this icon (create service 
+    request/create change request/create problem request).
     
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Não se aplica.
+1. No applicable.
 
-Opção - gerenciamento de eventos
+Option - event management
 ----------------------------------
 
-Essa funcionalidade permite acompanhar em tempo real as ocorrências de todas as ferramentas, sendo atualizada automaticamente
-de acordo com o tempo. Esta tela exibirá somente ocorrências que estão iniciadas e aguardando tratamento.
+This feature allows real-time tracking of occurrences of all tools and is automatically updated according to time. This screen will 
+only display occurrences that are started and awaiting treatment.
 
-Pesquisa
+Search
 -----------
 
-1. Todos os eventos das ferramentas de monitoração Nagios, Zabbix e Citsmart Inventory poderão ser filtradas 
-através dessa funcionalidade;
+1. All events in the Nagios, Zabbix, and CITSmart Inventory monitoring tools can be filtered through this functionality;
 
-2. Clique no ícone ![simbolo](images/simb-abrir.png)  da seção de Pesquisa ![simbolo](images/simb-pesq.png), então será 
-apresentada a respectiva tela para pesquisa de ocorrência de evento, conforme ilustração abaixo:
+2. Click on the icon ![simbolo](images/simb-seta.jpg) of the **Search** section ![symbol](images/simb-search.jpg), then the 
+respective event search screen will be displayed, as shown below:
 
-   ![Pesquisa](images/ger-eve.img4.png)
+   ![Search](images/management.img4.jpg)
     
-   **Figura 4 - Tela de pesquisa de ocorrência de evento**
+   **Figure 4 - Event occurrence search screen**
     
-3. Informe os filtros de acordo com sua necessidade para pesquisa de ocorrência de eventos.
+3. Enter the filters according to your need to search for event occurrence;
 
-4. Clique no botão ![simbolo](images/simb-lupa.png) e a listagem de ocorrências com a aplicação do filtro é mostrada conforme
-a **Figura 3**.
+4. Click on the button ![symbol](images/simb-lupa.jpg) and the listing of occurrences with the application of the filter is shown 
+as in **Figure 3**;
 
-5. Passa a ser possível acessar os detalhes de cada ocorrência de eventos, como mostrado na figura abaixo, através do botão
-![simbolo](images/simb-play.png) (que surge quando clicar na ocorrência):
+5. It will now be possible to access the details of each occurrence of events, as shown in the figure below, through the button
+![symbol](images/simb-open.jpg) (which appears when clicking on the occurrence):
 
-![Informações](images/ger-eve.img5.png)
+![Informations](images/management.img5.jpg)
 
-**Figura 5 - Informações do evento**
+**Figure 5 - Event informations**
 
-Menu da tela de detalhamento
+Detail screen menu
 ------------------------------
 
-1. Ao clicar no ícone ![simbolo](images/simb-menu.png) localizado no canto esquerdo superior, será apresentado a 
-seguinte listagem:
+1. By clicking on the ![symbol](images/simb-barra.jpg)  located in the upper left corner, the following listing will be displayed:
 
-![Detalhamento](images/ger-eve.img6.png)
+![Detailing](images/management.img6.jpg)
 
-**Figura 6 - Tela de detalhamento**
+**Figure 6 - Detailing screen**
 
-Ações
--------
+Actions
+-----------
 
-1. Ao clicar na opção "Ações" do menu da **Figura 6**, uma tela será mostrada com a relação de todos os incidentes/requisições
-vinculados a ocorrência selecionada:
+1. By clicking the *Actions* option in the menu in **Figure 6**, a screen will be displayed with the list of all incidents/requests 
+linked to the selected occurrence:
 
-   ![Ações](images/ger-eve.img7.png)
+   ![Action](images/management.img7.jpg)
     
-   **Figura 7 - Ações**
+   **Figure 7 - Action**
     
-2. Ao clicar no botão "Executar", uma nova tela é apresentada mostrando e disponibilizando a requisição/incidente para
-executá-lo normalmente (Encerrar, Capturar, etc.). conforme figura abaixo:
+2. When you click the *Execute* button, a new screen is displayed showing and making available the request/incident to execute it 
+normally (Shut down, Caput, etc.) as shown below:
 
-   ![Incidente](images/ger-eve.img8.png)
+   ![Incident](images/management.img8.jpg)
     
-   **Figura 8 - Tela de requisição/incidente**
+   **Figure 8 - Request/Incident screen**
     
-Ocorrências relacionadas
+Related occurrences
 --------------------------
 
-1. Para visualizar ocorrências relacionadas, basta clicar na guia **Ocorrências relacionadas**, conforme exemplo ilustrado 
-abaixo:
+1. To view related occurrences, tap the **Related Occurrences** tab, as shown in the example below:
 
-![Relacionadas](images/ger-eve.img9.png)
+![Related](images/management.img9.jpg)
 
-**Figura 9 - Ocorrências relacionadas**
+**Figure 9 - Related occurrences**
 
-Conhecimentos relacionados
+Related knowledge
 ---------------------------
 
-1. Para ver o detalhamento da ocorrência, clique na ocorrência que será apresentada a tela detalhes:
+1. To see the detail of the occurrence, click on the instance that will display the details screen:
 
-    - Para visualizar os conhecimentos já gravados e cadastrar novos conhecimentos na Base de Conhecimento, clique na guia de 
-    **Base de Conhecimento**, será apresentado os conhecimentos já relacionados e para a criação de um conhecimento novo, basta
-    clicar no botão "Criar Conhecimento". A figura abaixo apresenta essa tela:
+    - To view the knowledge already recorded and to register new knowledge in the Knowledge Base, click the **Knowledge Base** tab, 
+    the related knowledge will be presented and to create a new knowledge, just click the *Create Knowledge* button. The figure 
+    below shows this screen:
     
-    ![Conhecimentos](images/ger-eve.img10.png)
+    ![Knowledge](images/management.img10.jpg)
     
-    **Figura 10 - Conhecimentos relacionados**
+    **Figure 10 - Related knowledges**
     
-Opção - gráficos
+Option - graphics
 -----------------
 
-Essa funcionalidade permite visualizar gráficos de comparação por tipos de evento, quantidade de ocorrências por tipos de evento, 
-quantidade de ocorrência por ferramentas e quantidade de ocorrências por item de configuração, conforme filtros escolhidos.
+This feature lets you view comparison charts by event types, number of occurrences by event types, number of instances per tool, 
+and number of occurrences per configuration item, as selected filters.
 
-Consultando gráficos
+Checking graphics
 ----------------------
 
-1. Após acessar a funcionalidade de **Gerenciamento de Eventos**, no menu **Gráficos**, será apresentada a tela com as 
-informações de ocorrência de eventos, sendo essas demonstradas em gráficos, conforme exemplificados nas imagens abaixo. Nesta 
-tela é possível filtrar as ocorrências por data/período (busca realizado pelo campo  no canto superior do lado direito):
+1. After accessing the Event Management functionality, in the Graphs menu, the event occurrence information screen will be 
+displayed, which will be shown in graphs, as exemplified in the images below. From this screen it is possible to filter the 
+occurrences by date/period (search conducted by field  in the upper right-hand corner):
 
-   ![Gráfico](images/ger-eve.img11.png)
+   ![Charts](images/management.img11.jpg)
     
-   **Figura 11 - Gráfico quantidade de ocorrências por tipos de evento**
+   **Figure 11 - Number of occurences by type of event**
     
-   ![Quantidade](images/ger-eve.img12.png)
+   ![Tools](images/management.img12.jpg)
     
-   **Figura 12 - Gráfico quantidade de ocorrências por ferramentas**
+   **Figure 12 - Number of occurrences by tools**
     
-   ![Item](images/ger-eve.img13.png)
+   ![Item](images/management.img13.jpg)
     
-   **Figura 13 - Gráfico quantidade de ocorrências por item de configuração**
+   **Figure 13- Number of occurrences by configuration item**
     
-[1]:/pt-br/citsmart-platform-7/additional-features/add-ons/event-monitor-connection.html
-[2]:/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html
+[1]:/en-us/citsmart-platform-7/additional-features/add-ons/event-monitor-connection.html
+[2]:/en-us/citsmart-platform-7/processes/tickets/ticket-management.html
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/18/2019 – Larissa Lourenço
+    <b>Updated:</b>08/28/2019 – Larissa Lourenço
