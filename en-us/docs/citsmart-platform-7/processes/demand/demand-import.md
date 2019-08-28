@@ -21,7 +21,7 @@ data import screen will be displayed, as illustrated on the image below::
 
     - Note there are file templates displayed on screen to instruct the format and order the data must be arranged in the file. 
     Therefore, before selecting the file, make sure it is in consonance with the template, taking into account the format (.xls, 
-    .xlsx, .xml or .csv), After checking, click on the Choose File button, select the file and click on the Add button to confirm 
+    .xlsx, .xml or .csv), After checking, click on the *Choose File* button, select the file and click on the *Add* button to confirm 
     the import.
     
     - Afterwards, the data will be successfully imported.
