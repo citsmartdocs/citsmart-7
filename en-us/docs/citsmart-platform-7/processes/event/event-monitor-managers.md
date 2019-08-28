@@ -357,8 +357,8 @@ This functionality is intended to create rules for monitoring various types of e
 
 ## How to access ##
 
-1. Access global event manager functionality by navigating the main menu ITIL Processes → Event Management → Manager of Global 
-Events.
+1. Access global event manager functionality by navigating the main menu 
+**ITIL Processes > Event Management > Manager of Global Events**.
 
 ## Filters ##
 
