@@ -16,7 +16,7 @@ How to access
 Preconditions
 -------------
 
-1.  Have at least one problem registered (see knowledge[Problem
+1.  Have at least one problem registered (see knowledge [Problem
     registration][1]);
 
 2.  Have the periodic activity group registered (see knowledge [Periodic
