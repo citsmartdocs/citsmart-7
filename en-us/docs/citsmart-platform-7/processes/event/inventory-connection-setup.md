@@ -1,140 +1,137 @@
-title: Configuração da conexão do Citsmart inventory
-Description: Esta funcionalidade tem como objetivo cadastrar todas as propriedades referentes à conexão do CITSmart Inventory.
-# Configuração da conexão do Citsmart inventory
+title: CITSmart Inventory Connection setup
+Description: The goal of this feature is to register all properties related to the CITSmart Inventory connection.
+# CITSmart Inventory Connection setup
 
-Esta funcionalidade tem como objetivo cadastrar todas as propriedades referentes à conexão do CITSmart Inventory, de acordo com o IP 
-e porta onde está instalado o Jboss do CITSmart Inventory.
+The goal of this feature is to register all properties related to the CITSmart Inventory connection, acoording to the IP and Port 
+where the CITSmart Inventory JBoss is installed.
 
-Como acessar
+How to access
+-----------------
+
+1. Access the **Inventory Connections** feature navigating through the main menu 
+**Process Management > Event Management > Inventory Connections**.
+
+Preconditions
 ---------------
 
-1. Acesse a funcionalidade de conexão e configuração CITSmart inventory através da navegação no menu principal 
-**Processos ITIL > Gerência de Evento > Conexões Inventory**.
+1. No applicable.
 
-Pré-condições
----------------
-
-1. Não se aplica.
-
-Filtros
+Filters
 ----------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando 
-a localização dos itens desejados:
+1. The following filters enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Nome;
-    - Ferramenta;
-    - Endereço;
-    - Identificador Inventory;
+    - Name;
+    - Tool;
+    - Address;
+    - Inventory Identifier;
     - Status.
     
-    ![Pesquisa](images/ivent-cone.img1.png)
+    ![Search](images/inventory.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de conexão do CITSmart inventory**
+    **Figure 1 - CITSmart inventory connections search screen**
     
-2. Realize a pesquisa de conexão CITSmart Inventory;
+2. Perform a connection search:
 
-    - Informe os filtros (nome da conexão, ferramenta de monitoração, endereço do servidor CITSmart Inventory, identificador do 
-    Inventory e/ou status da conexão) conforme sua necessidade e clique no botão "Pesquisar". Após isso, será exibido o registro 
-    da conexão CITSmart Inventory conforme os dados informados;
+    - Insert the name of the intended connection and click on the *Search* button. Afterwards, the connection entry will be 
+    displayed according to the description provided;
     
-    - Caso deseje listar todos os registros, basta clicar diretamente no botão "Pesquisar".
+    - To list all connections, just click directly on the *Search* button, if needed.
     
-Listagem de itens
+Items list
 --------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: **Nome, Identificador Inventory, Status, Ferramenta, Endereço** e **Porta**.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **Name, Inventory Identifier,Status, Tool, Address** and **Port**.
 
-2. Na tela de **EVM - Conexão e Configuração CITSmart Inventory**, clique na aba **Pesquisar Configuração**. Será apresentada a 
-tela de pesquisa conforme ilustrada na figura abaixo:
+2. On the **Inventory Connections** screen, click on the **Search Configuration** tab. The search screen will be displayed as 
+illustrated on the image below:
 
-    ![Listagem](images/ivent-cone.img2.png)
+    ![Listing](images/inventory.img2.jpg)
     
-    **Figura 2 - Tela de listagem de conexão do CITSmart inventory**
+    **Figure 2 - Connection listing screen of CITSmart Inventory**
     
-3. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo 
-referente ao registro selecionado e as informações do usuário que realizou o registro e data/hora da criação;
+3. After searching, select the intended entry. Afterwards, they will be redirected to the registry screen displaying the content 
+belonging to the selected entry;
 
-4. Para alterar os dados do registro de conexão CITSmart Inventory, basta modificar as informações dos campos desejados e clicar no botão "Gravar".
-    
-Preenchimento dos campos cadastrais
+4. To edit a connection entry, just modify the information on the intended fields and click on the *Save* button to confirm the c
+changes to the database, at which date, time and user will be stored automatically for a future audit.
+
+Filling in the registration fields
 -------------------------------------
 
-1. Será apresentada a tela de cadastro de conexão CITSmart Inventory, conforme ilustrada na figura abaixo:
+1. The inventory connections entry screen will be displayed, as illustrated on the image below:
 
-    ![Cadastro](images/ivent-cone.img3.png)
+    ![Entry](images/inventory.img3.jpg)
     
-    **Figura 3- Tela de cadastro de conexão do CITSmart inventory**
+    **Figure 3 - CITSmart inventory connections entry screen**
     
-2. Nesta tela, os campos são autoexplicativos. Basta posicionar o mouse sobre o campo escolhido e será apresentada uma breve descrição. Portanto serão abordadas somente as informações principais para efetuar o registro da conexão;
+2. On this screen, the fields are self explanatory. Just place the cursor on the intended field and a brief description will be 
+displayed. Therefore, only the main information to perform a connection entry will be displayed;
 
-    - Informe os **Dados da Conexão**.
+    - Insert the **Connection Data**.
     
-    !!! warning "ATENÇÃO"
+    !!! warning "WARNING"
     
-        Selecionando a opção "Ignorar máquinas já inventariada" (No caso de máquinas inventariadas é possível definir quantos  
-        dias essa máquina ficará sem novo inventário e por isso seu Status será colocado como Ignorado até que se passe o total 
-        de dias parametrizado) serão abertas duas caixas que se referem a Período e Formato do período, marcar a opção que melhor 
-        se encaixe e gravar as configurações.
+        Selecting the "Ignore already inventoried machine" option (In the case of inventoried machines it is possible to define how 
+        many days this machine will be without new inventory and therefore its Status will be set to Ignored until the total number 
+        of days has been parameterized). refer to Period and Period format, select the option that best fits and save the settings.
         
-Premissas OCS Inventory
---------------------------
+OCS Inventory assumptions
+-----------------------------
 
-![OCS](images/ivent-cone.img4.png)
+![OCS](images/inventory.img4.jpg)
 
-**Figura 4 - Integração CITSmart inventory - OCS inventory**
+**Figure 4 - CITSmart Inventory Integration - OCS Inventory**
 
-3. Se o tipo de conexão (ferramenta de inventário) escolhida for o OCS Inventory será apresentado o campo de configuração do 
-mesmo para ser informado o repositório de XML, conforme ilustrado abaixo. Além disso, existem alguns **pré-requisitos** muito 
-relevantes que devem ser observados:
+3. If the type of connection (inventory tool) chosen is the OCS Inventory the configuration field will be displayed to be informed 
+of the XML repository, as shown below. In addition, there are some very relevant prerequisites that should be observed:
 
-    - Após instalar o OCS Inventory, ele não vem como padrão qualquer tipo de integração com outro sistema, para isso no menu 
-    Inventory files precisa atribuir GENERATE_OCS_FILES = ON, OCS_FILES_FORMAT = XML e especificar o caminho onde irão ser 
-    guardados os arquivos XML em OCS_FILES_PATH
-    - O local especificado para a geração dos arquivos XML é algo muito estratégico:
-        - Caso o servidor OCS seja o mesmo servidor do Inventory, trata-se do menor risco pois a pasta provavelmente estará 
-        acessível para leitura
-        - Caso o servidor OCS **NÃO** seja o mesmo servidor do Inventory, deve-se optar por uma dessas duas opções:
-            - o OCS Inventory deve ter permissão para gravar no servidor do Inventory
-            - o Inventory deve ter permissão (compartilhamento) no servidor OCS Inventory
+    - After installing OCS Inventory, it does not default to any type of integration with another system, so in the Inventory files 
+    menu you need to assign GENERATE_OCS_FILES = ON, OCS_FILES_FORMAT = XML and specify the path where XML files will be stored in 
+    OCS_FILES_PATH
+    - The location specified for generating XML files is very strategic:
+        - If the OCS server is the same as the Inventory server, this is the least risk because the folder is likely to be 
+        readable;
+        - If the OCS server is *NOT* the same as the Inventory server, you must choose one of two options:
+            - OCS Inventory must be allowed to write to the Inventory server;
+            - Inventory must have permission (share) on the OCS Inventory server.
             
-    ![Cadastro](images/ivent-cone.img5.png)
+    ![Entry](images/inventory.img5.jpg)
     
-    **Figura 5 - Tela de Cadastro de Conexão do CITSmart inventory**
+    **Figure 5 - CITSmart inventory connection entry screen**
     
-4. Caso deseje relacionar o CITSmart Inventory com o CITSmart Event Monitor, marque a opção **Adicionar conexão com o CITSmart 
-Event Monitor**.
+4. To link the CITSmart Inventory to the Citsmart Event Monitor, select the **Add connection to the CITSmart Event Monitor** 
+option;
 
-5. Feito isso, escolha a conexão do CITSmart Event Monitor.
+5. Afterwards, choose the CITSmart Event Monitor Connection.
 
-    !!! note "NOTA"
+    !!! note "NOTE"
     
-        Para relacionar o CITSmart Inventory com o CITSmart Event Monitor é necessário, primeiramente, efetuar a configuração da 
-        conexão do CITSmart Event Monitor.
+        To link the CITSmart Inventory to the CITSmart Event Monitor it is necessary, first, to configure the CITSmart Event 
+        Monitor Connection.
         
-6. Após informar os dados da conexão, clique no botão **Testar Conexão** para testar conexão com CITSmart Inventory;
+6. After inserting the connection data, click on the **Test Connection** button to test the connection to the CITSmart Inventory:
 
-    - Informe os dados da **Configuração**;
-        - O campo **Identificador Inventory** corresponde à propriedade *“idCitsmartInventory”* do arquivo de propriedades 
-        *“inventory_config.properties”*.
-        - Se desejar ignorar máquinas já inventariadas, selecione a opção e informe o período e o formato do período.
-    - Informe os dados do Agente de Captura .Net.
-        - O campo **IP Servidor Agente de Captura** refere-se ao IP do servidor onde está instalado o Agente de Captura das 
-        informações das máquinas.
-    - Informe os dados do Agente SNMP.
+    - Insert the configuration data:
+        - The **Inventort Identification** corresponds to the “**idCitsmartInventory**” property of the properties file 
+        “**inventory_config.properties**”;
+        - To ignore machines already inventoried, select the option and insert the period and its format.
+    - Insert the .Net Capture Agent data:
+        - The capture agent server IP refers to the server ip where the machine's information capture agent is installed.
+    - Insert the SNMP agent data.
     
-    !!! warning "ATENÇÃO"
+    !!! warning "WARNING"
     
-        A aplicação de Inventário realiza a captura dos dados por meio da porta do Agente SNMP (161) e/ou pelo Agente de Captura 
-        (porta 7103 desenvolvido pela CITSmart Corporation, em .Net). Inicialmente, o Inventory realiza um comando "ping" para 
-        verificar se a máquina está ativa. Se conseguir realizar o comando, tenta acessar a porta SNMP do item de configuração. 
-        Se o acesso à porta não for obtido com sucesso, o Inventory tenta realizar o acesso através do agente de captura.
+       The Inventory application captures the data through the SNMP Agent (161) port and / or the Capture Agent (port 7103 eveloped 
+       by CITSmart Corporation, in .Net). Initially, Inventory performs a "ping" command to verify that the machine is active. If 
+       you can perform the command, try to access the SNMP port of the configuration item. If access to the port is not obtained 
+       successfully, Inventory tries to access through the capture agent.
         
-7. Clique no botão "Gravar e Aplicar Configurações" para efetuar o registro, onde a data, hora e usuário serão gravados 
-automaticamente para uma futura auditoria.
+7. Click on the *Save and Apply Configurations* to confirm the entry, at which date, time and user will automatically be stored for a future audit.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/18/2019 – Larissa Lourenço
+    <b>Updated:</b>08/28/2019 – Larissa Lourenço
