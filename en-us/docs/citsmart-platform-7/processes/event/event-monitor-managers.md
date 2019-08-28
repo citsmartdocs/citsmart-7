@@ -452,7 +452,7 @@ The purpose is to simplify the monitoring of an entire network in search of the 
 ## How to access ##
 
 1. Access the generic Nagios manager functionality by navigating the main menu 
-**ITIL Processes > Event Management > Generic Nagios Manager.
+**ITIL Processes > Event Management > Generic Nagios Manager**.
 
 ## Filters ##
 
