@@ -1,127 +1,122 @@
-title:Cadastro de erros conhecidos
-Description:Esta funcionalidade permite realizar o registro do erro conhecido na base de conhecimento.
+title: Known errors registration
+Description: This feature lets you write the known error in the knowledge base.
 
-# Cadastro de erros conhecidos
+# Known errors registration
 
-Esta funcionalidade permite realizar o registro do erro conhecido na base de
-conhecimento.
+This feature lets you write the known error in the knowledge base.
 
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de registro de erros conhecidos através da navegação
-    no menu principal **Processos ITIL > Gerência de
-    Problema > Gerenciamento de Problema**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter um problema registrado (ver conhecimento [Cadastro de
-    problema][1]).
+1.  Access the known error logon feature by navigating to the main menu **ITIL
+    Processes > Problem Management > Problem Management**.
 
-Filtros
+Preconditions
+-------------
+
+1.  Have a registered problem (see knowledge [Problem
+    registration]([1]).
+
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -  Número do problema.
+-   Problem Number.
 
-    ![Criar](images/errors-1.png)
+ ![Criar](images/errors-1.png)
 
-    **Figura 1 - Tela de filtros**
+**Figure 1 - Filters screen**
 
-Listagem de itens
------------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Número, Título, Contrato, Criada em, Prioridade, Prazo
-    limite, Solicitante, Status, Tarefa atual, Grupo executor e Responsável
-    atual.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard listing of the
+    functionality: Number, Title, Contract, Created
+    on, Priority, Time limit, User, Status, Current
+    Task, Executor Group and Current Responsible.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Visualizar*, *Relatórios* e *Ação*.
+2.  There are action buttons available to the user in relation to each item in
+    the listing, they are: *View*, *Reports* and *Action*.
 
-    ![Criar](images/errors-2.png)
+ ![Criar](images/errors-2.png)
 
-    **Figura 2 - Tela de listagem de problemas**
+**Figure 2 - Problem listing screen**
 
-Preenchimento dos campos cadastrais
------------------------------------
+Filling in the registration fields
+----------------------------------
 
-Nesta etapa, é feita avaliação da solução proposta para a correção do erro
-conhecido e realizado o registro do erro conhecido na base de conhecimento,
-permitindo que as equipes de suporte, incluindo o Service Desk, tenham acesso às
-informações para auxiliar na resolução de incidentes ou problemas.
+In this step, the proposed solution for known error correction is evaluated and
+the known error log is recorded in the knowledge base, allowing support staff,
+including Service Desk, to access the information to assist in the resolution of
+incidents or problems
 
-!!! info "IMPORTANTE"
+   !!! info "IMPORTANT"
 
-     O membro do grupo designado para registrar erros conhecidos deve capturar
-     o problema e iniciar a atividade.
+      The group member assigned to register known errors must capture the
+      problem and start the activity.
 
-1.  Na guia **Gerenciamento**, localize o registro de problema que deseja
-    registrar o erro conhecido, clique no botão *Ação* e selecione a
-    opção *Iniciar/Executar tarefa*, conforme indicado na imagem abaixo:
+1.  On the **Management** tab, locate the problem record that you want to record
+    the known error, click the *Action* button and select the *Start/Run
+    Task* option, as shown in the image below:
 
-    ![Criar](images/errors-3.png)
+   ![Criar](images/errors-3.png)
 
-    **Figura 3 - Tela de gerenciamento de problemas**
+   **Figure 3 - Problem management screen**
 
-1.  Será exibida a tela de **Registro de Problema** com os campos preenchidos,
-    com o conteúdo referente ao problema selecionado;
+2.  The **Problem Registration** screen will appear with the fields filled, with
+    the content of the problem selected;
 
-    -  Registre as informações necessárias da execução da tarefa de registro de
-    erro conhecido;
+3.  Record the information needed to perform the known error logging task;
 
-        -  No quadro de **Fechamento**, clique no botão *Adicionar Registro de
-        Execução* e descreva as informações sobre a execução de sua atividade.
+    -   In the **Closure** frame, click the *Add an Execution Register* button
+        and describe the information about the execution of your activity.
 
-    -  Realize registro do erro conhecido na base de conhecimento:
+4.  Run a known error log in the knowledge base:
 
-        -  Clique na guia **Processos/Opções** e logo em seguida em **Erros
-           Conhecidos**, localizada no canto direito da tela, conforme indicado na
-           figura abaixo:
+    -   Click the **Processes/Options** tab, and then **Known Errors**, located
+        on the right-hand corner of the screen, as shown in the figure below:
 
     ![Criar](images/errors-4.png)
+   
+   **Figure 4 - Selection of known errors**
 
-    **Figura 4 - Seleção de erro conhecido**
+5.  The known error screen is displayed. Click the icon and the Knowledge Base
+    screen will appear to record the known error information;
 
-    -  É apresentada a tela de erro conhecido. Clique no ícone ![Criar](images/errors-6.png)  e será exibida a
-    tela de base de conhecimento para registro das informações do erro
-    conhecido;
+    -   After saving the known error information, click the *Save* button to
+        perform the operation and return to the screen of known errors;
 
-        -  Registre as informações necessárias sobre o erro conhecido;
-
-        -  Após registro das informações do erro conhecido, clique no
-        botão *Gravar* para efetuar a operação e retornar à tela de erros
-        conhecidos:
+    -   Record the necessary information about the known error;
 
     ![Criar](images/errors-5.png)
+   
+   **Figure 5 - List of errors with known problems**
 
-    **Figura 5 - Relacionamento de erro conhecido ao problema**
+   -   To edit the known error information in the knowledge base, simply click on
+    the knowledge base icon ;
 
-    -  Para editar as informações do erro conhecido na base de conhecimento, basta
-    clicar no ícone ![Criar](images/errors-7.png)  do mesmo;
+   -   If you want to remove a known error related to the problem, simply click on
+    the error icon.
 
-    -  Caso queira remover um registro de erro conhecido que foi relacionado ao
-    problema, basta clicar no ícone ![Criar](images/errors-8.png)  do mesmo.
+6.  After recording the known error information, click the *Save and Forward
+    Flow* button and advance the flow to perform the operation, where the
+    problem will be sent to the resolution phase;
 
-1.  Após registro das informações de erro conhecido, clique no botão *Gravar e
-    avançar o fluxo*, para efetuar a operação, onde o problema será encaminhado
-    para fase de resolução;
+7.  If you want to save only the logged information about the known error and
+    keep the current job, click the *Save and Keep the Current Task* button and
+    keep the current task;
 
-2.  Caso queira gravar somente as informações registradas sobre a erro conhecido
-    e manter a tarefa atual, clique no botão *Gravar e manter a tarefa atual*;
-
-3.  Em ambos os casos anteriores, ao clicar no botão *Gravar* a data, hora e
-    usuário serão gravados automaticamente para uma futura auditoria.
+8.  In both cases above, clicking the *Save* button will automatically record
+    the date, time, and user for a future audit.
 
 
-[1]:/pt-br/citsmart-platform-7/processes/problem/register-problem.html
+
+[1]:/en-us/citsmart-platform-7/processes/problem/register-problem.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/15/2019 – Anna Martins
+    <b>Updated:</b>08/28/2019 – Anna Martins
