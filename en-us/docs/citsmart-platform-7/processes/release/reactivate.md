@@ -1,69 +1,69 @@
-title: Reativação de registro de liberação
-Description:Esta funcionalidade permite reativar a requisição de liberação que foi suspensa.
+title: Release record reactivation
+Description: The goal of this feature is to allow reactivating a suspended
+release request.
 
-# Reativação de registro de liberação
+# Release record reactivation
 
-Esta funcionalidade permite reativar a requisição de liberação que foi suspensa.
+The goal of this feature is to allow reactivating a suspended release request.
 
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de Gerenciamento de Liberação através da
-    navegação no menu principal **Processos ITIL \> Gerência de
-    Liberação \> Gerenciamento de Liberação**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter a permissão para reativar a requisição de liberação.
+1.  Access the **Release Management** feature navigating through the main
+    menu **Process Management > Release Management > Release
+    Management**.
 
-Filtros
+Preconditions
+-------------
+
+1.  Clearance to reactivate the release request.
+
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filters enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -  Número da Requisição;
+-   Request Number;
 
-    -  Atribuída/Compartilhada.
+-   Assigned/Shared.
 
-    ![Criar](images/reactivate-1.png)
+![figure](images/reactivate-1.png)
 
-    **Figura 1 - Tela de pesquisa de liberação**
+**Figure 1 - Release search screen**
 
-Listagem de itens
------------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Número,Solicitante, Criada
-    em, Prioridade, Prazo Limite, Atraso, Situação, Tarefa
-    atual, Grupo Executor, Responsável atual e Compartilhada com.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the default listing of the
+    functionality: Number, Applicant Name, *Created
+    on, Priority, Time limit, Delay, Situation, Current
+    task, Executor Group, Current responsible and Shared with;
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Visualizar*, *Relatórios* e *Ação*.
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *View*, *Reports*, *Request Release Schedule* , *Reactivate
+    Release*, and *Delegate/Share Task (Job Share)*;
 
-3.  Para reativar a requisição de liberação, acesse a guia **Gerenciamento**,
-    localize a requisição de liberação que está suspensa e deseja reativar,
-    clique no botão *Ações* e selecione a opção *Reativar mudança*, conforme
-    indicado na figura abaixo:
+3.  To reactivate the release request, access **Management** tab, locate the
+    suspended release request which will be reactivated, click on
+    the *Action* button and select the *Reactivate Release* option, as indicated
+    on the image below:
 
-    ![Criar](images/reactivate-1.png)
+  ![figure](images/reactivate-2.png)
+  
+  **Figure 2 - Reactivate release request**
 
-    **Figura 2 - Reativar requisição de liberação**
+1.  A message will be displayed confirming the reactivation;
 
-1.  Será exibida uma mensagem para confirmação da reativação.
+2.  Click on *Ok* to perform the operation;
 
-2.  Clique em *Ok* para efetuar a operação.
+3.  The status of the release will be updated on the release request list.
 
-3.  A situação da requisição será atualizada na lista de requisições de
-    liberação.
+Filling in the registration fields
+----------------------------------
 
-Preenchimento dos campos cadastrais
------------------------------------
-
-1.  Não se aplica.
+1.  Not applicable.
 
 
 !!! tip "About"
