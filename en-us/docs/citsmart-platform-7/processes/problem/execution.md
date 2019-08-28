@@ -148,7 +148,7 @@ Linking a knowledge to the problem
    -   If you want to create a new knowledge about the problem, just click the
     Knowledge Registry button;
 
-   -   If you want to remove a related knowledge, simply click on the icon ![figure](images/execution-10.png) .
+   -   If you want to remove a related knowledge, simply click on the icon ![figure](images/execution-7.png) .
 
 Linking attachments
 -------------------
@@ -158,13 +158,13 @@ Linking attachments
    -   Click the **Attachments** tab, located in the upper right corner of the
     screen, as shown in the figure below:
 
-   ![figure](images/execution-11.png)
+   ![figure](images/execution-10.png)
 
    **Figure 8 - Selection of attachments**
 
    -   The file attachment screen is displayed, as shown in the figure below:
 
-   ![figure](images/execution-12.png)
+   ![figure](images/execution-11.png)
    
    **Figure 9 - Attachments screen**
 
@@ -183,7 +183,7 @@ Linking occurrence to the problem
    -   Click the **Occurrence** tab, located in the upper right corner of the
     screen, as shown in the figure below:
 
-   ![figure](images/execution-13.png)
+   ![figure](images/execution-12.png)
    
    **Figure 10 - Selection of occurrence**
 
@@ -192,16 +192,16 @@ Linking occurrence to the problem
     occurrences. Click on the **Register of Occurrences** tab and fill in the
     fields as below:
 
-   ![figure](images/execution-14.png)
+   ![figure](images/execution-13.png)
    
    **Figure 11 - Occurrence record**
 
    -   **Category**: select the category of the occurrence. If the category is not
     found, it is possible to perform a quick registration by clicking the
-    Category icon ![figure](images/execution-15.png);
+    Category icon ![figure](images/register-4.png);
 
-   -   **Origiin**: select the source of the occurrence. If the source is not
-    found, you can perform a quick registration by clicking the Source icon ![figure](images/execution-15.png);
+   -   **Origin**: select the source of the occurrence. If the source is not
+    found, you can perform a quick registration by clicking the Source icon ![figure](images/register-4.png);
 
    -   **Spent time (min)**: report the time spent in minutes;
 
