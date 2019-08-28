@@ -13,7 +13,7 @@ Acessing graphics
 
 1.  Click on the **Graphs** tab and the information of the problem records by situation (in progress, suspended and delayed), by priority and by executor group will be displayed, these being shown in graphs as shown in the figure below:
 
-![Criar](images/chart.png)   
+![figure](images/chart.png)   
 
 **Figure 1 - Problem Graphs screen**
 
