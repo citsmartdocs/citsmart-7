@@ -1,43 +1,42 @@
-title: Módulo Gerenciamento de Demanda
-Description: O Gerenciamento de Demanda é o processo que busca compreender, antecipar e influenciar a demanda dos clientes por 
-# Módulo Gerenciamento de Demanda
+title: Demand Management module
+Description: Demand Management is the process that seeks to understand, anticipate and influence customer demand 
+# Demand Management module
 
-Objetivo do módulo
+Module objective
 --------------------
 
-O Gerenciamento de Demanda é o processo que busca compreender, antecipar e influenciar a demanda dos clientes por serviços e
-fornecer a capacidade necessária para atender a essa demanda. O mesmo está intimamente ligado à garantia de prestação de serviços,
-por isso é um processo crítico a ser gerenciado, porque, para garantir que os serviços serão entregues, dentro da capacidade e 
-disponibilidade exigida no custo, no acordo de nível de serviço e na qualidade.
+Demand Management is the process that seeks to understand, anticipate and influence customer demand for services and provide the 
+capacity needed to meet this demand. The same is closely linked to the guarantee of service delivery, so it is a critical process 
+to be managed, because, to ensure that the services will be delivered, within the capacity and availability required infere in 
+cost, service level agreement and quality .
 
-Este processo trabalha em estreita colaboração com o Gerenciamento de Capacidade para garantir que o provedor tenha capacidade 
-para atender a demanda. É neste módulo que registra os atributos da demanda.
+This process works closely with Capacity Management to ensure that the provider has the capacity to meet the demand. It is in this 
+module that it records the attributes of the demand.
 
-Esta funcionalidade destina-se a registrar os atributos de demanda que serão vinculados aos itens de Serviços e Configuração.
+This functionality is intended to record the demand attributes that will be linked to the Services and Configuration Items.
 
-Onde estão suas funcionalidades
+Where are the features
 ---------------------------------
 
-Acesse o menu principal **Processos ITIL > Gerência de Demanda**.
+To access the functionality click on the main menu **Process Management > Demand Management**.
 
-![Menu](images/visao.img1.png)
+![Menu](images/module.img1.jpg)
 
-**Figura 1 - Menu do Módulo Gerência de Demanda**
+**Figure 1 - Demand Management module menu**
 
-Principal funcionalidades (em destaque)
+Main feature (in highlight)
 -----------------------------------------
 
-Na seção "Veja também" é possível acessar a(s) funcionalidade(s) principal(is) deste módulo, desta forma se pode obter um 
-conhecimento mais detalhado.
+In the *See also* section you can access the main functionality(ies) of this module, in order to obtain a more detailed knowledge.
 
-Veja também
+See also
 -------------
 
-- [Cadastro e pesquisa de atributo da demanda](/pt-br/citsmart-platform-7/processes/demand/demand-attribute.html)
+- [Demand Attribute registration and search](/en-us/citsmart-platform-7/processes/demand/demand-attribute.html)
 
-- [Importação de dados de atributo da demanda](/pt-br/citsmart-platform-7/processes/demand/demand-import.html)
+- [Demand attribute data import](/en-us/citsmart-platform-7/processes/demand/demand-import.html)
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Larissa Lourenço
+    <b>Updated:</b>08/28/2019 – Larissa Lourenço
