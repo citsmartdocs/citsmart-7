@@ -12,7 +12,7 @@ This feature allows closing down a release request.
 How to access
 ------------
 
-1.  Access the **Release Management **feature navigating through the main
+1.  Access the **Release Management** feature navigating through the main
     menu **Process Management > Release Management > Release
     Management**.
 
