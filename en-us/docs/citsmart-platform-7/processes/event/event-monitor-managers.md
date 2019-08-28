@@ -570,7 +570,7 @@ according to the data reported.
 1. The following cadastral fields are available to the user to make it easier to identify the desired items in the standard feature 
 listing:  **Title**  and **Status**.
 
-2. There are action buttons available to the user for each item in the listing, they are: *"Edit* and *Delete*.
+2. There are action buttons available to the user for each item in the listing, they are: *Edit* and *Delete*.
 
 ![Listing](images/managers.img30.jpg)
 
