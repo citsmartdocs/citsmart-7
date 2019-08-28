@@ -96,10 +96,10 @@ incidents or problems
    **Figure 5 - List of errors with known problems**
 
    -   To edit the known error information in the knowledge base, simply click on
-    the knowledge base icon ![Criar](images/errors-6.png);
+    the knowledge base icon ![Criar](images/errors-7.png);
 
    -   If you want to remove a known error related to the problem, simply click on
-    the error icon ![Criar](images/errors-7.png).
+    the error icon ![Criar](images/errors-8.png).
 
 6.  After recording the known error information, click the *Save and Forward
     Flow* button and advance the flow to perform the operation, where the
