@@ -199,7 +199,7 @@ will be used to identify the root cause, the identified failure, and a solution.
 !!! note "NOTE"
 
     In both previous cases, when you click on the Save button the date, time
-    and user will be automatically stored.*
+    and user will be automatically stored.
 
 
 [1]:/en-us/citsmart-platform-7/processes/problem/register-problem.html
