@@ -59,7 +59,7 @@ Items list
 
 -   Record the necessary information about the tests;
 
--   In the **Closing **area, click the *Add an Execution Record* button. After
+-   In the **Closing** area, click the *Add an Execution Record* button. After
     that, describe the information about the execution of your activity.
 
 Linking attachments
