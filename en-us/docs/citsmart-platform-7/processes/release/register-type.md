@@ -1,122 +1,115 @@
-title: Cadastro e pesquisa de tipo de liberação
+title: Release type registration and search
+Description: The goal of this feature is to register the release type which will be used to define the entire workflow followed by the release.
 
-Description:Esta funcionalidade tem por objetivo registrar o tipo de liberação que será utilizado para definir toda a configuração do fluxo de trabalho que a liberação irá seguir.
+# Release type registration and search
 
-# Cadastro e pesquisa de tipo de liberação
+The goal of this feature is to register the release type which will be used to
+define the entire workflow followed by the release.
 
-Esta funcionalidade tem por objetivo registrar o tipo de liberação que será
-utilizado para definir toda a configuração do fluxo de trabalho que a liberação
-irá seguir.
-
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de tipo de liberação através da navegação no
-    menu principal **Processos ITIL \> Gerência de Liberação \> Tipo de
-    Liberação**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter o fluxo referente ao gerenciamento de liberação cadastrado (ver
-    conhecimento [Manutenção de fluxo de trabalho][1]).
+1.  Access the release type feature navigating through the main menu **Process
+    Management > Release Management > Release Type**.
 
-2.  Configurar os modelos de e-mails (ver conhecimento [Cadastro e pesquisa de
-    configuração de modelo de e-mail][2]).
+Preconditions
+-------------
 
-3.  Ter o grupo executor cadastrado (ver conhecimento [Cadastro e pesquisa de
-    grupo][3]).
+1.  Have the flow related to the release management registered (see
+    knowledge [Workflow maintenance][1]);
 
-4.  Ter o calendário cadastrado (ver conhecimento [Cadastro e pesquisa de
-    calendário][4]).
+2.  Configure the e-mail templates (see knowledge [E-mail Template Configuration
+    registration and search][2]);
 
-Filtros
+3.  Have the performer group registered (see knowledge [Group registration and
+    search][3]);
+
+4.  Have the calendar registered (Vsee knowledge [Calendar registration and
+    search][4]).
+
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -  Nome.
+   -   Name.
 
-1.  Na tela de **Tipo de Liberação**, clique na aba **Pesquisa de Liberação**.
-    Será apresentada a tela de pesquisa conforme ilustrada na figura abaixo:
+2.  On the **Release Type** screen, click the **Search Release** tab. The search
+    screen will be displayed as illustrated on the image below:
 
-    ![Criar](images/type-1.png)
+   ![figure](images/type-1.png)
+   
+   **Figure 1 - Release type search screen**
 
-    **Figura 1 - Tela de pesquisa de tipo de liberação**
+3.  Perform a release type search:
 
-1.  Realize a pesquisa de tipo de liberação:
+-   Insert the name of the intended release type and click on
+    the *Search* button. Afterwards, the release type entry will be displayed
+    according to the description provided;
 
-    -  Informe o nome do tipo de liberação que deseja pesquisar e clique no
-    botão *Pesquisar*. Após isso, será exibido o registro do tipo de liberação
-    conforme o nome informado;
+-   If you want to list all release type entries, just click directly on
+    the *Search* button.
 
-    -  Caso deseje listar todos os registros de tipo de liberação, basta clicar
-    diretamente no botão *Pesquisar*.
+Items list
+----------
 
-Listagem de itens
------------------
+1.  The following cadastral field is available to the user to make it easier to
+    identify the desired items in the default listing of the
+    functionality: **Name**.
 
-1.  O seguinte campo cadastral está disponível ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Nome**.
+   ![figure](images/type-2.png)
+   
+   **Figure 2 - Items screen**
 
-    ![Criar](images/type-2.png)
+2.  After searching, select the intended entry. Afterwards, they will be
+    redirected to the registry screen displaying the content belonging to the
+    selected entry;
 
-    **Figura 2 - Tela de pesquisa de tipo de liberação**
+3.  To edit a release type entry, just modify the information on the intended
+    fields and click on the *Save* button to confirm the changes to the
+    database, at which date, time and user will be stored automatically for a
+    future audit.
 
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a tela de cadastro exibindo o conteúdo referente ao registro
-    selecionado;
+Filling in the registration fields
+----------------------------------
 
-2.  Para alterar os dados do registro de tipo de liberação, basta modificar as
-    informações dos campos desejados e clicar no botão *Gravar* para que seja
-    gravada a alteração realizada no registro, onde a data, hora e usuário serão
-    gravados automaticamente para uma futura auditoria.
+1.  On the **Release Type** screen, click the **Search Release** tab. The search
+    screen will be displayed as illustrated on the image below:
 
-Preenchimento dos campos cadastrais
------------------------------------
+   ![figure](images/type-3.png)
+   
+   **Figure 3 - Release type registration screen**
 
-1.  Será apresentada a tela de **Cadastro de Tipo de Liberação**, conforme
-    ilustrada na figura abaixo:
+2.  Fill out the fields as instructed below:
 
-    ![Criar](images/type-3.png)
+   -   **Name**: insert the name of the release type;
 
-    **Figura 3 - Tela de cadastro de tipo de liberação**
+   -   **Flow**: select the release flow so it can be associated to the release
+    type being registered;
 
-1.  Preencha os campos conforme orientações abaixo:
+   -   **Creation Template**: select the creation e-mail template which will be
+    used to notify the applicant the release has been registered;
 
-    -   **Nome**: informe o nome do tipo de liberação;
+   -   **Closure Template**: select the closure e-mail template which will be used
+    to notify the applicant the release has been completed;
 
-    -   **Fluxo**: selecione o fluxo de liberação para que o mesmo seja
-        associado ao tipo de liberação que está sendo cadastrado;
+   -   **Actions Template**: select the actions e-mail template which will be used
+    to notify the applicant of the release's progress;
 
-    -   **E-mail Criação**: selecione o modelo de e-mail de registro de
-        liberação que servirá para notificar ao solicitante que a liberação foi
-        registrada;
+   -   **Executor Group**: insert the executor group, which will be the default
+    group for this release type, responsible for executing the change request;
 
-    -   **E-mail Finalização**: selecione o modelo de e-mail de finalização da
-        liberação que servirá para notificar ao solicitante que a liberação foi
-        finalizada;
+   -   **Calendar**: insert the release type's calendar.
 
-    -   **E-mail Ações**: selecione o modelo de e-mail de andamento da liberação
-        que servirá para notificar ao solicitante sobre o andamento da
-        liberação;
+3.  Click on the *Save* the button to confirm the entry, at which date, time and
+    user will automatically be stored for a future audit.
 
-    -   **Grupo Executor**: informe o grupo executor, o qual será o grupo padrão
-        do tipo de liberação, responsável pela execução da requisição de
-        mudança;
 
-    -   **Calendário**: informe o calendário do tipo de liberação;
-
-2.  Clique no botão *Gravar* para efetuar o registro, onde a data, hora e
-    usuário serão gravados automaticamente para uma futura auditoria.
-
-[1]:/pt-br/citsmart-platform-7/workflow/workflow-management.html
-[2]:/pt-br/citsmart-platform-7/plataform-administration/email-settings/configure-email-template.html
-[3]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
-[4]:/pt-br/citsmart-platform-7/plataform-administration/time/create-calendar.html
+[1]:/en-us/citsmart-platform-7/workflow/workflow-management.html
+[2]:/en-us/citsmart-platform-7/plataform-administration/email-settings/configure-email-template.html
+[3]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[4]:/en-us/citsmart-platform-7/plataform-administration/time/create-calendar.html
 
 !!! tip "About"
 
