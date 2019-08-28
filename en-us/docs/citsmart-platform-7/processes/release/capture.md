@@ -1,6 +1,5 @@
 title: Release record capture
-Description: This feature allows atributing a release request to itself, making
-the current user the responsible for executing it.
+Description: This feature allows atributing a release request to itself, making the current user the responsible for executing it.
 
 # Release record capture
 
@@ -56,7 +55,7 @@ Filling in the registration fields
 Capturing a release request
 ---------------------------
 
-1.  To capture the release request, access the **Management **tab, locate the
+1.  To capture the release request, access the **Management** tab, locate the
     release request which will be cleared to be executed, click on
     the *Action* button and click on the *Capture Task* option, as indicated on
     the image below:
