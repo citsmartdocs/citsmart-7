@@ -200,7 +200,7 @@ Linking occurrence to the problem
     found, it is possible to perform a quick registration by clicking the
     Category icon ![figure](images/register-4.png);
 
-   -   **Origiin**: select the source of the occurrence. If the source is not
+   -   **Origin**: select the source of the occurrence. If the source is not
     found, you can perform a quick registration by clicking the Source icon ![figure](images/register-4.png);
 
    -   **Spent time (min)**: report the time spent in minutes;
