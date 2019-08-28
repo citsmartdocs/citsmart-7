@@ -105,7 +105,7 @@ A quick overview of the functionality:
    
    **Figure 4 - Release management screen**
 
-4.  Record the contract information as indicated below:
+3.  Record the contract information as indicated below:
 
    ![figure](images/requisition-5.png)
    
@@ -113,7 +113,7 @@ A quick overview of the functionality:
 
    -  **Contract**-: report the contract regarding the release request.
 
-5.  Record the information of the requester, as indicated below:
+4.  Record the information of the requester, as indicated below:
 
    ![figure](images/requisition-6.png)
    
@@ -143,7 +143,7 @@ A quick overview of the functionality:
 
    -   **Note**: describe the observations about the contact, if necessary.
 
-6.  Record the Request information, as indicated below:
+5.  Record the Request information, as indicated below:
 
     ![figure](images/requisition-7.png)
     
@@ -179,7 +179,7 @@ A quick overview of the functionality:
     
     **Figure 8 - Urgency X impact**
 
-7.  The combination of this information will define the priority needed to
+6.  The combination of this information will define the priority needed to
     achieve the release.
 
     -   **Description**: enter the description of the change release being
