@@ -1,61 +1,60 @@
-title: Cadastro e pesquisa de eventos de notificação
-Description: Esta funcionalidade tem por objetivo estabelecer quais as regras que irão definir um evento de notificação.
-# Cadastro e pesquisa de eventos de notificação
+title: Event notifications registration and search
+Description: The goal of this feature is to establish which rules will determine an event notification.
+# Event notifications registration and search
 
-Esta funcionalidade tem por objetivo estabelecer quais as regras que irão definir um evento de notificação, ou seja, realizar a 
-configuração referente à notificação que será disparada quando as condições da EPL forem satisfeitas.
+The goal of this feature is to establish which rules will determine an event notification, that is, perform the configuration 
+related to the notification which will be triggered when the EPL conditions are met.
 
-!!! warning "ATENÇÃO"
+!!! warning "WARNING"
 
-    É necessário ter conhecimento da linguagem de processamento de eventos. Para mais informações consulte 
-    o site: [espertech](http://www.espertech.com/esper)
+    It is necessary to have knowledge on the event processing language. For more information check the website: 
+    [espertech](http://www.espertech.com/esper)
     
-Pré-condições
+Preconditions
 ---------------
 
-1. Cadastrar modelo de EPL (ver conhecimento [Cadastro e pesquisa de modelos de EPL](/pt-br/citsmart-platform-7/processes/event/epl-models.html));
+1. Register an EPL model (see knowledge [EPL model registration and search](/en-us/citsmart-platform-7/processes/event/epl-models.html));
 
-2. Configurar destinatário (ver conhecimento [Configuração dos destinatários das notificações](/pt-br/citsmart-platform-7/processes/event/notifications-recipients.html));
+2. Register a recipient (see knowledge [Notification recipients setup](/en-us/citsmart-platform-7/processes/event/notifications-recipients.html));
 
-3. Cadastrar modelo de e-mail (ver conhecimento [Cadastro e pesquisa de configuração de modelo de e-mail](/pt-br/citsmart-platform-7/plataform-administration/email-settings/configure-email-template.html));
+3. Register an e-mail template (see knowledge [E-mail template configuration registration and search](/en-us/citsmart-platform-7/plataform-administration/email-settings/configure-email-template.html));
 
-4. Cadastrar template de notificação (ver conhecimento [Cadastro e pesquisa de template de notificação](/pt-br/citsmart-platform-7/additional-features/communication-and-notification/notification/configuration/notification-template.html)).
+4. Register an notification template (see knowledge [Template notification registration and search](/en-us/citsmart-platform-7/additional-features/communication-and-notification/notification/configuration/notification-template.html)).
 
-Como acessar
----------------
+How to access
+-----------------
 
-1. Acesse a funcionalidade de configuração de eventos de notificação através da navegação no menu principal 
-**Processos ITIL > Gerência de Evento > Configuração de Eventos de Notificação**.
+1. Access the **Monitoring Tools** feature navigating through the main menu 
+**Process Management > Event Management > Event Notification**.
 
-Filtros
----------
+Filters
+-----------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Identificador;
-    - Descrição.
+    - ID;
+    - Description.
     
-2. Na tela de **Configuração de Eventos de Notificação**, clique na aba **Pesquisa**. Será apresentada a tela de pesquisa 
-conforme ilustrada na figura abaixo:
+2. On the **Notification Event Configuration** screen, click the **Search** tab. The search screen will be displayed as shown in 
+the figure below:
 
-    ![Pesquisa](images/even-noti.img1.png)
+    ![Search](images/notifications.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de configuração de eventos de notificação**
+    **Figure 1 - Notification event configuration search screen**
     
-3. Realize a pesquisa de configuração de eventos de notificação;
+3. Perform a citsmart event monitor connection search:
 
-    - Informe o identificador e/ou a descrição da configuração de eventos de notificação e clique no botão "Pesquisar". Após isso,
-    será exibido o registro conforme os dados informados;
+    - Insert the id and or/description of the intended event notification configuration and click on the *Search* button. 
+    Afterwards, the connection entry will be displayed according to the description provided;
     
-    - Caso deseje listar todos os registros de configuração de eventos de notificação, basta clicar diretamente no botão 
-    "Pesquisar".
+    - To list all connections, just click directly on the *Search* button, if needed.
     
-Listagem de itens
+Items list
 -------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: **Identificador** e **Descrição**.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **ID** and **Description**.
 
     ![Listagem](images/even-noti.img2.png)
     
