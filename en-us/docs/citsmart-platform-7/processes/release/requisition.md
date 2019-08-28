@@ -250,13 +250,13 @@ Linking attachments
 
    -   On the right side of the screen, click **Attachments**;
 
-   ![figure](images/requisition-14)
+   ![figure](images/requisition-15)
    
    **Figure 11 - Attachments guide**
 
    -   A file attachment window will appear;
 
-   ![figure](images/requisition-15)
+   ![figure](images/requisition-16)
    
    **Figure 12 - File attachment**
 
