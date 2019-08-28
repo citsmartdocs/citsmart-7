@@ -50,7 +50,7 @@ Filters
 
 -   Assigned/Shared.
 
-![figure](images/requisitin-1.png)
+![figure](images/requisition-1.png)
 
 **Figure 1 - Release search screen**
 
