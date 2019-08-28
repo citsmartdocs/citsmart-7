@@ -61,11 +61,11 @@ Cancelling
    
    **Figure 3 - Problem Management Screen**
 
-2.  The** Problem Log** screen will appear with the fields filled, with content
+2.  The **Problem Log** screen will appear with the fields filled, with content
     related to the selected problem. In the **Closing** table, record the
     necessary information;
 
--   In the **Status **field, select the option "Canceled";
+-   In the **Status** field, select the option "Canceled";
 
 -   In the **Closing** field, describe the details of the problem cancellation;
 
