@@ -1,80 +1,79 @@
-title: Captura de registro de liberação
-Description:Esta funcionalidade permite atribuir a requisição de liberação para o próprio usuário, tornando-se o responsável atual pela execução da mesma.
+title: Release record capture
+Description: This feature allows atributing a release request to itself, making
+the current user the responsible for executing it.
 
-# Captura de registro de liberação
+# Release record capture
 
-Esta funcionalidade permite atribuir a requisição de liberação para o próprio
-usuário, tornando-se o responsável atual pela execução dela.
-
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de Gerenciamento de Liberação através da
-    navegação no menu principal **Processos ITIL \> Gerência de
-    Liberação \> Gerenciamento de Liberação**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter requisição de liberação registrada (ver conhecimento [Cadastro e
-    pesquisa de requisição de liberação][1]).
+1.  Access the Release Management feature navigating through the main
+    menu **Process Management > Release Management > Release
+    Management**.
 
-Filtros
+Preconditions
+-------------
+
+1.  Register a release request (see knowledge [Release record registration and
+    search][1]).
+
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filters enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -   Número da Requisição;
+-   Request Number;
 
-    -   Atribuída/Compartilhada.
+-   Assigned/Shared.
 
-    ![Criar](images/capture-1.png)
+![figure](images/capture-1.png)
 
-    **Figura 1 - Tela de filtros**
+**Figure 1 - Filters screen**
 
-Listagem de itens
------------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Número, Solicitante, Criada
-    em, Prioridade, Prazo Limite, Atraso, Situação, Tarefa
-    atual, Grupo Executor, Responsável atual e Compartilhada com.
+1.  The following registration fields are available to the user to facilitate
+    the identification of the desired items in the default listing of the
+    functionality: Number, Applicant Name, Created
+    on, Priority, Time limit, Delay, Situation, Current
+    task, Executor Group, Current Responsible and Shared with.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Visualizar*, *Relatórios* e *Ação*.
+2.  There are action buttons available to the user for each item in the listing,
+    they are: Preview, Reports, Schedule Release Request, Suspend Release,
+    Capture Task, Start/Execute Task, and Delegate/Share Task.
 
-    ![Criar](images/capture-2.png)
+![figure](images/capture-2.png)
 
-    **Figura 2 - Tela de listagem de liberação**
+**Figure 2 - Task listing screen**
 
-Preenchimento dos campos cadastrais
------------------------------------
-
-1.  Não se aplica.
-
-Capturando requisição de liberação
+Filling in the registration fields
 ----------------------------------
 
-1.  Para capturar a requisição de liberação, acesse a guia **Gerenciamento**,
-    localize a requisição de liberação que deseja capturar, clique no
-    botão *Ações* e clique na opção *Capturar tarefa*, conforme indicado na
-    figura a seguir:
+1.  Not applicable.
 
-    ![Criar](images/capture-3.png)
+Capturing a release request
+---------------------------
 
-    **Figura 3 – Captura de requisição de liberação**
+1.  To capture the release request, access the **Management **tab, locate the
+    release request which will be cleared to be executed, click on
+    the *Action* button and click on the *Capture Task* option, as indicated on
+    the image below:
 
-1.  Será exibida uma mensagem de confirmação da captura da tarefa.
+  ![figure](images/capture-3.png)
+  
+  **Figure 3 - Release request capture**
 
-2.  Clique em *Ok* para efetuar a operação. Feito isso, será apresentado o
-    responsável atual pela execução da requisição de liberação no registro dela.
+1.  A message confirming the task capture will be displayed;
 
-[1]:/pt-br/citsmart-platform-7/processes/release/requisition.html
+2.  Click on *Ok* to confirm the operation. Afterwards, the current responsible
+    for the task's execution will be displayed on the system registry.
+
+
+[1]:/en-us/citsmart-platform-7/processes/release/requisition.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 - Anna Martins
+    <b>Updated:</b>08/28/2019 - Anna Martins
