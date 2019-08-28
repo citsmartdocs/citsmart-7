@@ -1,107 +1,104 @@
-title: Reabertura de registro de liberação
-Description:Esta funcionalidade permite reabrir a requisição de liberação de mudanças
+title: Release record reopening
+Description: This feature allows reopening the change release request.
 
-# Reabertura de registro de liberação
+# Release record reopening
 
-Esta funcionalidade permite reabrir a requisição de liberação de mudanças.
+This feature allows reopening the change release request.
 
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de Gerenciamento de Liberação através da
-    navegação no menu principal **Processos ITIL \> Gerência de
-    Liberação \> Gerenciamento de Liberação**.
-
-2.  Será apresentada a tela de Gerenciamento de Liberação. Na
-    guia **Gerenciamento**, clique no botão *Pesquisa Liberação* para realizar a
-    pesquisa de requisições de liberação, conforme indicado na figura abaixo:
-
-    ![Criar](images/reopen-1.png)
-
-    **Figura 1 – Pesquisar requisição de liberação**
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter a permissão para reabrir a requisição de liberação;
+1.  Access the **Release Management** feature navigating through the main
+    menu **Process Management > Release Management > Release
+    Management**.
 
-2.  Solicitar a reabertura da requisição de liberação.
+2.  The release management screen will be displayed. On the **Management** tab,
+    click on the *Search Release* button to search for release requests, as
+    indicated on the image below:
 
-Filtros
+![figure](images/reopen-1.png)
+
+**Figure 1 - Release Request search**
+
+Preconditions
+-------------
+
+1.  Have the permission to reopen the release request;
+
+2.  Reopening Release Request.
+
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filters enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -  Período de abertura da requisição de liberação;
+   -   Opening Period;
 
-    -  Período de Encerramento da requisição de liberação;
+   -   Closing Period;
 
-    -  Número;
+   -   Number;
 
-    -  Contrato;
+   -   Contract;
 
-    -  Ordenação;
+   -   Order by;
 
-    -  Unidade;
+   -   Unity;
 
-    -  Solicitante;
+   -   User;
 
-    -  Situação;
+   -   Situation;
 
-    -  Prioridade;
+   -   Priority;
 
-    -  Grupo Solucionador;
+   -   Solution Group;
 
-    -  Exibir campo descrição em relatório?
+   -   Would you like to see the description report?.
 
-1.  Ao acessar a funcionalidade, será exibida a janela de **Pesquisa de
-    Requisição de Liberação**, onde poderá informar os filtros necessários para
-    sua pesquisa;
+2.  By accessing the functionality, the **Release Request Search** window will
+    be displayed, at which the necessary search filters can be inserted
 
-    ![Criar](images/reopen-2.png)
+   ![figure](images/reopen-2.png)
+   
+   **Figure 2 - Release request search screen**
 
-    **Figura 2 – Tela de pesquisa de requisição de liberação**
+-   Search the intended release request to be reopened;
 
-    -  Realize a pesquisa da requisição de liberação que deseja reabrir;
+-   Afterwards, click the reopen ![figure](images/reopen-3.png) icon on the release request. Once this is
+    done, a message will be displayed to confirm the reopening of the release
+    request;
 
-    -  Após a pesquisa, clique no ícone de reabertura ![Criar](images/reopen-3.png)  da requisição de liberação.
-    Feito isso, será exibida uma mensagem para confirmação da reabertura da
-    requisição de liberação.
+-   Click *Ok* to perform the operation;
 
-    -  Clique em *Ok* para efetuar a operação.
+-   The release request will be reopened and sent to the applicant in order to
+    be executed again.
 
-    -  A requisição de liberação será reaberta e encaminhada para o solicitante
-    liberar a mesma para uma nova execução.
+Items list
+----------
 
-Listagem de itens
------------------
+1.  The following registration fields are available to the user to facilitate
+    the identification of the desired items in the default listing of the
+    functionality: Number, Contract, Requester, Built
+    in, Priority, Situation, Start date, Final
+    date, Approver group and Closure;
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Número, Contrato, Solicitante, Criada
-    em, Prioridade, Situação, Data inicial, Data
-    limite, Grupo Aprovador e Fechamento.
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Search Ticket History*, *View* and *View Attachments*;
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Consultar histórico do
-    Ticket* , *Visualizar* e *Visualizar anexos*.
+3.  It will appear on the release request list, as illustrated on the image
+    below:
 
-    -  Após a reabertura da requisição, a mesma será exibida na lista de
-    requisições de liberação, conforme exemplo ilustrado na figura abaixo:
+![figure](images/reopen-4.png)
 
-    ![Criar](images/reopen-4.png)
+**Figure 3 - Reopened release request**
 
-    **Figura 3 – Requisição de liberação reaberta**
+Filling in the registration fields
+----------------------------------
 
-Preenchimento dos campos cadastrais
------------------------------------
-
-1.  Não se aplica.
+1.  Not applicable.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/15/2019 – Anna Martins
+    <b>Updated:</b>08/27/2019 – Anna Martins
