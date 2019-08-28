@@ -1,130 +1,127 @@
-title: Pesquisa de registro de liberação
-Description:Esta funcionalidade permite realizar a busca de requisições de liberação de acordo com filtros definidos.
+title: Release record search
+Description: This feature allows you to search for release requests according to defined filters.
 
-# Pesquisa de registro de liberação
+# Release record search
 
-Esta funcionalidade permite realizar a busca de requisições de liberação de
-acordo com filtros definidos.
+This feature allows you to search for release requests according to defined
+filters.
 
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de Pesquisa de Liberação através da navegação no
-    menu principal **Processos ITIL \> Gerência de Liberação \> Pesquisa
-    Liberação**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Não se aplica.
+1.  Access the Release Search feature navigating through the main
+    menu **Process Management > Release Management > Search Release**.
 
-Filtros
+Preconditions
+-------------
+
+1.  Not applicable.
+
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filters enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -  **Período de abertura da requisição de liberação**: informar o período de
-    registro da requisição de liberação;
+   -   **Opening Period**: insert the release request entry period;
 
-    -  **Período de encerramento da requisição de liberação**: informar o período
-    de encerramento da requisição de liberação para buscar as requisições que
-    foram fechadas no determinado período;
+   -   **Closing Period**: insert the release request closing period to search for
+    requests that were closed in the given period;
 
-    -  **Número**: informar o número de identificação da requisição de liberação,
-    caso queira buscar uma requisição específica;
+   -   **Number**: enter the identification number of the release request, to
+    search for a specific request;
 
-    -  **Contrato**: informar o contrato para buscar as requisições de liberação
-    relacionadas ao mesmo;
+   -   **Contract**: insert the contract to look for related release requests;
 
-    -  **Ordenação**: definir a ordem que as requisições serão apresentadas;
+   -   **Order By**: define the order that the requests will be presented;
 
-    -  **Unidade**: informar a unidade desejada para verificar as requisições de
-    liberação relacionadas a mesma;
+   -   **Unit**: insert the intended unit to check the release requests related to
+    it;
 
-    -  **Solicitante**: informar o colaborador para verificar as liberações de
-    mudanças que foram solicitadas por ele;
+   -   **User**: insert the employee which will verify the change releases
+    requested by them;
 
-    -  **Situação**: informar uma situação para verificar as requisições de
-    liberação referentes;
+   -   **Situation**: insert a situation to check for related release requests;
 
-    -  **Prioridade**: informar uma prioridade para verificar as requisições de
-    liberação referentes;
+   -   **Priority**: insert the priority to check for related release requests;
 
-    -  **Grupo Solucionador**: informar o grupo executor para verificar as
-    requisições de liberação que foram direcionadas para o mesmo;
+   -   **Solution Group**: insert the perfrormer group to check the release
+    requests that were forwarded to it;
 
-    -  **Exibir campo descrição em relatórios?**: caso queira que a descrição
-    da requisição de liberação seja apresentada no relatório, marque essa opção.
+   -   **Would you like to see the description on the report?**: if you want the
+    description of the release request to appear in the report, check this
+    option.
 
-1.  Para realizar a pesquisa: acesse a funcionalidade, logo após será
-    apresentada a tela de **Pesquisa de Requisição de Liberação**, onde poderá
-    definir os filtros necessários para sua pesquisa, conforme a figura abaixo:
+2.  To perform the search: access the functionality, soon after the **Release
+    Request Search** screen will be displayed, where necessary search filters
+    can be defined, according to the figure below:
 
-    ![Criar](images/log-1.png)
+   ![figure](images/log-1.png)
+   
+   **Figure** **1 - Release request search screen**
 
-    **Figura 1 - Tela de pesquisa de requisição de liberação**
+3.  After the filters are set, click the *Search* button. Afterwards, the
+    release requests will be listed, according to the chosen filters;
 
-1.  Após os filtros definidos, clique no botão *Pesquisar*. Após isso, serão
-    listadas as requisições de liberação, conforme os filtros escolhidos;
+4.  To generate a release request report in PDF format, click the *Generate
+    PDF* button;
 
-2.  Para gerar o relatório da requisição de liberação em formato PDF, clique no
-    botão *Gerar Relatório (PDF)*.
+5.  To generate a release request report in Excel format, click the *Generate
+    XLS* button.
 
-3.  Para gerar o relatório da requisição de liberação em formato Excel, clique
-    no botão *Gerar Relatório (XLS)*.
+Items list
+----------
 
-Listagem de itens
------------------
+1.  The following registration fields are available to the user to facilitate
+    the identification of the desired items in the default listing of the
+    functionality: Number, Contract, Requester, Built
+    in, Priority, Situation, Start Date, Final
+    Date, Approver Group and Closure;
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Número, Contrato, Solicitante, Criada em, Prioridade,
-    Situação, Data inicial, Data limite, Grupo Aprovador e Fechamento.
+2.  There are action buttons available to the user in relation to each item in
+    the listing, they are: *Search Ticket history*, *View* and *Occurrence
+    Release*;
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Consultar histórico do
-    Ticket*, *Visualizar* e *Ocorrência da Liberação* .
+   ![figure](images/log-2.png)
+   
+   **Figure 2 - Release request listing screen**
 
-    ![Criar](images/log-1.png)
+3.  Next to each release request entry, there are icons which can be used to
+    check the releases' history, reopen the release request and view its
+    attachments;
 
-    **Figura 2 - Tela de listagem de requisição de liberação**
+4.  To view the history of the release request, proceed as follows:
 
-1.  Ao lado de cada registro de requisição de liberação da lista, há ícones para
-    consulta de histórico, reabertura da requisição de liberação e visualização
-    de anexos;
+    -   Click the ![figure](images/log-3.png) icon;
 
-2.  Para consultar o histórico da requisição de liberação, procede da seguinte
-    forma:
+    -   A window will be opened and display the entire history of the release
+        request.
 
-    -  Clique no ícone ![Criar](images/log-3.png) ;
+5.  To reopen the release request, proceed as follows:
 
-    -  Será aberta uma janela exibindo todo o histórico da requisição de
-        liberação para visualização.
+    -   Click the ![figure](images/log-4.png) icon;
 
-3.  Para realizar a reabertura da requisição de liberação, proceder da seguinte
-    forma:
+    -   A message will be displayed confirming the reopening of the request;
 
-    -  Clique no ícone ![Criar](images/log-4.png) ;
+    -   Click *OK* to perform the operation;
 
-    -  Será exibida uma mensagem para confirmação da reabertura da solicitação;
+    -   A message will be displayed confirming the request was successfully
+        reopened.
 
-    -  Clicar em *Ok* para efetuar a operação;
+6.  To view the attachments for the release request, proceed as follows:
 
-    -  Será exibida uma mensagem confirmando o sucesso da reabertura da
-        solicitação.
+    -   Click the icon ![figure](images/log-5.png);
 
-4.  Para visualizar os anexos da requisição de liberação, proceder da seguinte
-    forma:
+    -   A window will display the release's attachments.
 
-    -  Clique no ícone ![Criar](images/log-5.png) ;
+Filling in the registration fields
+----------------------------------
 
-    -  Será aberta uma janela exibindo os anexos da solicitação para
-        visualização.
+1.  Not applicable.
+
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/15/2019 – Anna Martins
+    <b>Updated:</b>08/27/2019 – Anna Martins
 
