@@ -1,79 +1,76 @@
-title: Cadastro e pesquisa das ferramentas de monitoração de eventos
-Description: Esta funcionalidade tem como objetivo cadastrar as ferramentas que serão vinculadas ao Gerenciamento de Eventos para 
-# Cadastro e pesquisa das ferramentas de monitoração de eventos
+title: Event monitoring tools registration and search
+Description: The goal of this feature is to register the tools which will be linked to the Event Management to monitor 
+# Event monitoring tools registration and search
 
-Esta funcionalidade tem como objetivo cadastrar as ferramentas que serão vinculadas ao Gerenciamento de Eventos para realizar a 
-monitoração dos diversos itens de configuração.
+The goal of this feature is to register the tools which will be linked to the Event Management to monitor several configuration 
+items.
 
-Pré-condições
----------------
+Preconditions
+------------------
 
-1. Cadastrar Conexão do CITSmart Event Monitor (ver conhecimento [Conexão CITSmart Event Monitor](/pt-br/citsmart-platform-7/additional-features/add-ons/event-monitor-connection.html)).
+1. Register a CITSmart Event Monitor Connection (see knowledge [CITSmart Event Monitor connection](/en-us/citsmart-platform-7/additional-features/add-ons/event-monitor-connection.html)).
 
-Como acessar
----------------
+How to access
+-----------------
 
-1. Acesse a funcionalidade de ferramenta de monitoração através da navegação no menu principal 
-**Processos ITIL > Gerência de Evento > Ferramentas de Monitoração**.
+1. Access the Monitoring Tools feature navigating through the main menu **Process Management > Event Management > Check**.
 
-Filtros
----------
+Filters
+-----------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+1. The following filters enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    -  Nome;
-    - Ferramenta;
-    - Endereço;
+    - Name;
+    - Tool;
+    - Address;
     - Status.
     
-    ![Pesquisa](images/moni-ferr.img1.png)
+    ![Search](images/tools.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de conexões**
+    **Figure 1 - Connection search screen**
     
-2. Realize a pesquisa de conexão do Citsmart event monitor;
+2. Perform a CITSmart Event Monitor connection search:
 
-    - Informe os filtros (nome da conexão, ferramenta de monitoração, endereço IP do servidor e/ou status da conexão) conforme 
-    sua necessidade e clique no botão "Pesquisar". Após isso, será exibido o registro da conexão da ferramenta de monitoração 
-    conforme os dados informados;
+    - Insert the name of the intended connection and click on the *Search* button. Afterwards, the connection entry will be 
+    displayed according to the description provided;
     
-    - Caso deseje listar todos os registros, basta clicar diretamente no botão "Pesquisar".
+    - To list all connections, just click directly on the *Search* button, if needed.
     
-Listagem de itens
+Items list
 -------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem
-padrão da funcionalidade: **Nome, Ferramenta, Status, Protocolo, Endereço** e **Porta**.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **Name, Tool, Status, Protocol, Address** and **Port**.
 
-    ![Listagem](images/moni-ferr.img2.png)
+    ![Listing](images/tools.img2.jpg)
     
-    **Figura 2 - Tela de listagem de conexões**
+    **Figure 2 - Connection listing screen**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo
-referente ao registro selecionado e as informações do usuário que realizou o registro e data/hora da criação;
+2. After searching, select the intended entry. Afterwards, they will be redirected to the registry screen displaying the content 
+belonging to the selected entry;
 
-3. Para alterar os dados do registro da conexão da ferramenta de monitoração, basta modificar as informações desejadas e clicar
-no botão "Gravar", para confirmar as alterações no banco de dados, em que data, hora e usuário serão armazenados automaticamente 
-para uma auditoria futura.
+3. To edit a connection entry, just modify the information on the intended fields and click on the *Save* button to confirm the 
+changes to the database, at which date, time and user will be stored automatically for a future audit.
 
-Preenchimento dos campos cadastrais
-------------------------------------
+Filling in the registration fields
+--------------------------------------
 
-1. Será apresentada a tela de **Cadastro de Conexão da Ferramenta de Monitoração**, conforme ilustrada na figura abaixo:
+1. The Parent CI screen will be displayed, as illustrated on the image below:
 
-    ![Cadastro](images/moni-ferr.img3.png)
+    ![Entry](images/tools.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de conexão da ferramenta de monitoração**
+    **Figure 3 - Monitoring tool connection entry screen**
     
-2. Nesta tela, os campos são autoexplicativos. Basta posicionar o mouse sobre o campo escolhido e será apresentada uma breve
-descrição. Portanto serão abordadas somente as informações principais para efetuar o registro da conexão;
+2. On the screen, the fields are self explanatory. Just place the cursor on the intended field and a brief description will be 
+displayed. Therefore, only the main information to perform a connection entry will be displayed:
 
-    - Informe os dados da conexão;
-    - No campo **EVM - Conexão do Citsmart Event Monitor**, selecione a conexão do Citsmart Event Monitor que deseja relacionar 
-    a ferramenta de monitoração;
-    - Após informar os dados da conexão, clique no botão **Testar Conexão** para testar conexão com a ferramenta de monitoração.
+    - Insert the connection data;
+    - On the **EVM- CITSmart Event Monitor Connection** field, select the CITSmart Event Monitor connection which will be linked to 
+    the tool;
+    - After inserting the connection data, cick on the **Test Connection** button to test the connection to the monitoring tool.
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Larissa Lourenço
+    <b>Updated:</b>08/28/2019 – Larissa Lourenço
