@@ -71,7 +71,7 @@ Filling in the registration fields
 1.  The problem category registration screen will be displayed, as shown in the
     figure below:
 
-   ![figure](images/category-1.png)
+   ![figure](images/category-3.png)
    
    **Figure 3- Problem category registration screen**
 
