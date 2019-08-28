@@ -1,76 +1,73 @@
-title: Reativação de problema
-Description: Esta funcionalidade permite reativar um problema que foi suspenso.
+title: Problem reactivation
+Description: This feature allows you to re-enable a problem that has been suspended.
 
-# Reativação de problema
+# Problem reactivation
 
-Esta funcionalidade permite reativar um problema que foi suspenso.
+This feature allows you to re-enable a problem that has been suspended.
 
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de reativação de problema através da navegação no
-    menu principal **Processos ITIL > Gerência de
-    Problema > Gerenciamento de Problema**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter problemas registrados (ver conhecimento [Cadastro de
-    problema][1]);
+1.  Access the problem reactivation feature by navigating the main
+    menu **Process Management > Problem Management > Problem
+    Management**.
 
-Filtros
+Preconditions
+-------------
+
+1.  Have problem registered (see knowledge [Problem registration][1]).
+
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -   Número do problema.
+-   Problem number.
 
-    ![Criar](images/reactivation-1.png)
+![figure](images/reactivation-1.png)
 
-    **Figura 1 - Tela de filtros**
+**Figure 1 - Filters screen**
 
-Listagem de itens
------------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Número, Título, Contrato, Criada em, Prioridade, Prazo
-    limite, Solicitante, Status, Tarefa atual, Grupo
-    executor e Responsável atual.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard listing of the
+    functionality: Number, Title, Contract, Created on, Priority, Time
+    limit, User, Status, Current Task, Executor Group and Current
+    Responsible.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Visualizar*, *Relatórios* e *Ação*.
+2.  There are action buttons available to the user in relation to each item in
+    the listing, they are: *View*, *Reports* and *Action*.
 
-    ![Criar](images/reactivation-2.png)
+![figure](images/reactivation-2.png)
 
-    **Figura 2 - Tela de listagem de problemas**
+**Figure 2 - Problem listing screen**
 
-Preenchimento dos campos cadastrais
------------------------------------
+Filling in the registration fields
+----------------------------------
 
-1.  Não se aplica.
+1.  Not applicable.
 
-Reativando problema
--------------------
+Reactivating a problem
+----------------------
 
-1.  Na guia **Gerenciamento**, localize o registro de problema que se deseja
-    reativar, clique no botão *Ação* e na opção *Reativar*, conforme indicado na
-    imagem abaixo:
+1.  On the **Management** tab, locate the problem record that you want to
+    re-enable, click the *Action* button and the *Reactivate* option, as shown
+    in the image below:
 
-    ![Criar](images/reactivation-3.png)
+   ![figure](images/reactivation-3.png)
+   
+   **Figure 3 - Problem management screen**
 
-    **Figura 3 - Tela de gerenciamento de problemas**
+2.  A message will be displayed to confirm reactivation. Click *OK* to perform
+    the operation. The problem status will be updated in the trouble log list.
 
-2.  Será exibida uma mensagem para confirmação da reativação. Clique
-    em *OK* para efetuar a operação. A situação do problema será atualizada na
-    lista de registro de problemas.
-
-[1]:/pt-br/citsmart-platform-7/processes/problem/register-problem.html
+[1]:/en-us/citsmart-platform-7/processes/problem/register-problem.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/16/2019 – Anna Martins
+    <b>Updated:</b>08/28/2019 – Anna Martins
 
