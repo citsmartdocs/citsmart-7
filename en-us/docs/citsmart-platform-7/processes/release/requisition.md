@@ -182,28 +182,28 @@ A quick overview of the functionality:
 6.  The combination of this information will define the priority needed to
     achieve the release.
 
-    -   **Description**: enter the description of the change release being
+    -  **Description**: enter the description of the change release being
     requested. The description must be objective, including all information
     necessary for the release;
 
-   -   **Appointment**: schedules the activity of the release Request for
+    -  **Appointment**: schedules the activity of the release Request for
     execution:
 
-   -   **Start Date**: enter the scheduled start date of the release Request;
+    -  **Start Date**: enter the scheduled start date of the release Request;
 
-   -   **Start Time**: enter the time programmed to start the execution of the
+    -  **Start Time**: enter the time programmed to start the execution of the
     release request;
 
-   -   **End Date**: enter the scheduled date for the end of the release request
+    -  **End Date**: enter the scheduled date for the end of the release request
     execution;
 
-   -   **End Time**: enter the scheduled time for the end of the release request
+    -  **End Time**: enter the scheduled time for the end of the release request
     execution;
 
-   -   **Activity Group (for scheduling)**: select the group that will perform the
+    -  **Activity Group (for scheduling)**: select the group that will perform the
     activity of the release Request.
 
-   -   **E-mail Notification**: check the options for sending notification about
+    -  **E-mail Notification**: check the options for sending notification about
     the release request that will be sent to the requestor.
 
 Linking changes
