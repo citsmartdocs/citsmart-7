@@ -1,73 +1,72 @@
-title: Cadastro e pesquisa de atributo da demanda
-Description: Esta funcionalidade tem o objetivo de cadastrar os atributos da demanda que serão vinculados aos Serviços e Itens de 
-# Cadastro e pesquisa de atributo da demanda
+title: Demand Attribute registration and search
+Description: The goal of this feature is to register the demand attributes which will be linked to the services and the 
+# Demand Attribute registration and search
 
-Esta funcionalidade tem o objetivo de cadastrar os atributos da demanda que serão vinculados aos Serviços e Itens de 
-Configuração (IC).
+The goal of this feature is to register the demand attributes which will be linked to the services and the Configuration Items 
+(IC).
 
-Como acessar
---------------
+How to access
+-----------------
 
-1. Acesse a funcionalidade de Atributo da Demanda através da navegação no menu principal 
-**Processos ITIL > Gerência de Demanda > Atributo da Demanda**.
+1. Access the **Demand Attribute** feature navigating through the main menu 
+**Process Management > Demand Management > Demand Attributes**.
 
-Pré-condições
+Preconditions
 ---------------
 
-1. Não se aplica.
+1. Not applicable.
 
-Filtros
+Filters
 ---------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Nome.
+    - Name.
     
-    ![Pesquisa](images/atri-dem.img1.png)
+    ![Search](images/attribute.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de atributo da demanda**
+    **Figure 1 - Demand attribute search screen**
     
-2. Realize a pesquisa do atributo da demanda;
+2. Perform a demand attribute search;
 
-    - Informe o nome do atributo da demanda que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o 
-    registro do atributo conforme o nome informado.
+    - Insert the name of the intended attribute and click on the *Search* button. Afterwards, the attribute entry will be displayed 
+    according to the description provided.
     
-    - Caso deseje listar todos os registros de atributo da demanda, basta clicar diretamente no botão "Pesquisar".
+    - To list all demand attributes, just click directly on the *Search* button, if needed.
     
-Listagem de itens
+Items list
 -------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na
-listagem padrão da funcionalidade: **Nome** e **Valor**.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **Name** and **Value**.
   
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo o 
-conteúdo referente ao registro selecionado, conforme o exemplo ilustrado na figura abaixo:
-
-    ![Listagem](images/atri-dem.img2.png)
+    ![Listing](images/attribute.img2.jpg)
     
-    **Figura 2 - Tela de listagem de atributo de demanda**
+    **Figure 2 - Demand attribute listing screen**
     
-3. Para alterar os dados do registro de atributo da demanda, basta modificar as informações desejadas e clicar no botão "Gravar";
+2. After searching, select the intended entry. Afterwards, they will be redirected to the registry screen displaying the content belonging to the selected entry.
+    
+3. To edit a demand attribute entry, just modify the information on the intended fields and click on the *Save* button;
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 ------------------------------------
 
-1. Será apresentada a tela de **Cadastro de Atributo da Demanda**, conforme ilustrada na figura abaixo:
+1. The **Demand Attributes Screen** will be displayed, as illustrated on the image below:
 
-    ![Cadastro](images/atri-dem.img3.png)
+    ![Entry](images/attribute.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de atributo da demanda**
+    **Figure 3 - Demand attribute entry screen**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill out the fields as instructed below:
 
-    - **Nome**: informe o nome do atributo da demanda;
-    - **Valor**: informe o valor do atributo da demanda.
+    - **Name**: name the demand attribute;
+    - **Value**: insert the demand attribute's value.
     
-3. Após os dados informados, clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados
-automaticamente para uma futura auditoria.
+3. After inserting the data, click on the *Save* the button to confirm the entry, at which date, time and user will automatically 
+be stored for a future audit.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Larissa Lourenço
+    <b>Updated:</b>08/28/2019 – Larissa Lourenço
