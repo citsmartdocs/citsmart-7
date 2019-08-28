@@ -1,29 +1,24 @@
-title: Visualização de gráficos de problemas
-Description: Gráficos
+title: Problem graph visualization
+Description: Problem graph visualization
 
-# Visualização de gráficos de problemas
+# Problem graph visualization
 
-Como acessar
+How to access
 ------------
 
-1.  Acesse a funcionalidade de gráficos de problemas através da navegação no
-    menu principal **Processos ITIL > Gerência de Problema > Gerência de
-    Problema**.
+1.  Access problem graphing functionality by navigating the main menu **Process Management > Problem Management > Problem Management**.
 
-Acessando gráficos
+Acessing graphics
 ------------------
 
-1.  Clique na guia **Gráficos** e será apresentado as informações dos registros
-    de problemas por situação (em andamento, suspensas e atrasadas), por
-    prioridade e por grupo executor, sendo essas demonstradas em gráficos
-    conforme ilustrado na figura abaixo:
+1.  Click on the **Graphs** tab and the information of the problem records by situation (in progress, suspended and delayed), by priority and by executor group will be displayed, these being shown in graphs as shown in the figure below:
 
 ![Criar](images/chart.png)   
 
-**Figura 1 - Tela de Gráficos de Problemas**
+**Figure 1 - Problem Graphs screen**
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/16/2019 – Anna Martins
+    <b>Updated:</b>08/28/2019 – Anna Martins
