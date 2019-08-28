@@ -1,91 +1,88 @@
-title:Cancelamento de problema
-Description:Esta funcionalidade permite realizar o cancelamento do registro de problema.
+title: Problem cancellation
+Description: This functionality allows you to cancel the problem log.
 
-# Cancelamento de problema
+# Problem cancellation
 
-Esta funcionalidade permite realizar o cancelamento do registro de problema.
+This functionality allows you to cancel the problem log.
 
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de cancelamento de registro de problema através da
-    navegação no menu principal **Processos ITIL > Gerência de
-    Problema > Gerenciamento de Problema**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter um problema registrado (ver conhecimento [Cadastro de
-    problema][1]).
+1.  Access the problem log cancellation feature by navigating the main
+    menu **Process Management > Problem Management > Problem
+    Management**.
 
-Filtros
+Preconditions
+-------------
+
+1.  Have registered problem (see knowledge [Problem registration][1]).
+
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -   Número do problema
+-   Problem Number
 
-    ![Criar](images/cancel-1.png)
+![figure](images/cancel-1.png)
 
-    **Figura 1 - Tela de filtros**
+**Figure 1 - Filters screen**
 
-Listagem de itens
------------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Número, Título, Contrato, Criada em, Prioridade, Prazo
-    limite, Solicitante, Status, Tarefa atual, Grupo executor e Responsável
-    atual.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard listing of the
+    functionality: Number, Title, Contract, Created on, Priority, Time
+    limit, User, Status, Current Task, Executor Group and Current
+    Responsible.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Visualizar*, *Relatórios* e *Ação*.
+2.  There are action buttons available to the user in relation to each item in
+    the listing, they are: *View*, *Reports* and *Action*.
 
-    ![Criar](images/cancel-2.png)
+![figure](images/cancel-2.png)
 
-    **Figura 2 - Tela de listagem de problemas**
+**Figure 2 - Problem listing screen**
 
-Preenchimento dos campos cadastrais
------------------------------------
+Filling in the registration fields
+----------------------------------
 
-1.  Não se aplica.
+1.  Not applicable.
 
-Cancelando registro de problema
--------------------------------
+Cancelling
+----------
 
-1.  Na guia **Gerenciamento**, localize o registro de problema que se deseja
-    cancelar, clique no botão *Ação* e na opção *Iniciar/Executar tarefa*,
-    conforme indicado na imagem abaixo:
+1.  On the Management tab, locate the problem record that you want to cancel,
+    click the *Action* button and the *Start/Run task* option, as shown in the
+    image below:
 
-    ![Criar](images/cancel-3.png)
+   ![figure](images/cancel-3.png)
+   
+   **Figure 3 - Problem Management Screen**
 
-    **Figura 3 - Tela de gerenciamento de problemas**
+2.  The **Problem Log** screen will appear with the fields filled, with content
+    related to the selected problem. In the **Closing** table, record the
+    necessary information;
 
-2.  Será exibida a tela de **Registro de Problema** com os campos preenchidos,
-    com conteúdo referente ao problema selecionado. No quadro
-    de **Fechamento**, registre as informações necessárias;
+-   In the **Status** field, select the option "Canceled";
 
--  No campo **Situação**, selecione a opção "Cancelado";
+-   In the **Closing** field, describe the details of the problem cancellation;
 
--  No campo **Fechamento**, descreva os detalhes do cancelamento do problema;
+-   After recording the trouble-cancelling information, click the *Save and
+    Forward Flow* to perform the operation, where the trouble ticket will be
+    canceled successfully;
 
--  Após registro das informações do cancelamento do registro do problema,
-    clique no botão *Gravar e avançar o fluxo* para efetuar a operação, onde o
-    registro de problema será cancelado com sucesso;
+-   If you want to save only the logged information about cancelling the problem
+    and keep the current job, click the *Save and Keep the Current Task*;
 
--  Caso queira gravar somente as informações registradas sobre o cancelamento
-    do problema e manter a tarefa atual, clique no botão *Gravar e manter a
-    tarefa atual*;
+-   In both cases above, clicking the *Save* button will automatically record
+    the date, time and user for a future audit.
 
--  Em ambos os casos anteriores, ao clicar no botão *Gravar* a data, hora e
-    usuário serão gravados automaticamente para uma futura auditoria.
-
-[1]:/pt-br/citsmart-platform-7/processes/problem/register-problem.html
+[1]:/en-us/citsmart-platform-7/processes/problem/register-problem.html
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/16/2019 – Anna Martins
+    <b>Updated:</b>08/28/2019 – Anna Martins

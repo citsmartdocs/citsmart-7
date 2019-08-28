@@ -1,111 +1,107 @@
-title: Agendamento de atividade de problema
-Description: Esta funcionalidade permite criar e visualizar agendamento de atividades referente ao registro de problema.
 
-# Agendamento de atividade de problema
+title: Problem activity scheduling
+Description: This functionality allows you to create and view activity scheduling for the problem log.
 
-Esta funcionalidade permite criar e visualizar agendamento de atividades
-referente ao registro de problema.
+# Problem activity scheduling
 
-Como acessar
-------------
+This functionality allows you to create and view activity scheduling for the
+problem log.
 
-1.  Acesse a funcionalidade de agendamento de atividade através da navegação no
-    menu principal **Processos ITIL > Gerência de Problema > Gerenciamento de Problema**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter ao menos um problema cadastrado (ver conhecimento [Cadastro de
-    problema][1]);
+1.  Access the activity scheduling feature by navigating the main menu **Process
+    Management > Problem Management > Problem Management**.
 
-2.  Ter os grupo de atividade periódica cadastrada (ver conhecimento [Cadastro e
-    pesquisa de grupo de atividade periódica][2]).
+Preconditions
+-------------
 
-Filtros
+1.  Have at least one problem registered (see knowledge [Problem
+    registration][1]);
+
+2.  Have the periodic activity group registered (see knowledge [Periodic
+    activity group registration and search][2]).
+
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -  Número do problema;
+-   Problem number.
 
-    ![Criar](images/schedule-activity-1.png)
+![figure](images/schedule-activity-1.png)
 
-    **Figura 1 - Tela de pesquisa de problemas**
+**Figure 1 - Problem search screen**
 
-Listagem de itens
------------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Número, Título, Contrato, Criada em, Prioridade, Prazo
-    limite, Solicitante, Status, Tarefa atual, Grupo
-    executor e Responsável atual.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard listing of the
+    functionality: Number, Title, Contract, Created on, Priority, Time
+    limit, User, Status, Current Task, Executor Group and Current
+    Responsible.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Visualizar*, *Relatórios* e *Ação*.
+2.  There are action buttons available to the user in relation to each item in
+    the listing, they are: *View*, *Reports* and *Action*.
 
-    ![Criar](images/schedule-activity-2.png)
+![figure](images/schedule-activity-2.png)
 
-    **Figura 2 - Tela de listagem de problemas**
+**Figure 2 - Problem listing screen**
 
-Preenchimento dos campos cadastrais
------------------------------------
-
-1.  Não se aplica.
-
-Agendando atividade
+Activity scheduling
 -------------------
 
-1.  Na guia **Gerenciamento de Problemas**, localize o registro de problema que
-    se deseja agendar a atividade, clique no botão *Ação* e selecione a
-    opção *Agendar Atividade*, conforme indicado na imagem abaixo:
+1.  On the **Management** tab, locate the problem record that you want to
+    schedule the activity, click the *Action* button and select the *Schedule
+    Activity* option, as shown in the image below:
 
-    ![Criar](images/schedule-activity-3.png)
+   ![figure](images/schedule-activity-3.png)
+   
+   **Figure 3 - Problem management screen**
 
-    **Figura 3 - Tela de gerenciamento de problemas**
+2.  A window will appear to schedule activities containing two tabs, one
+    for **Scheduling History** and one for **Create Scheduling**;
 
-2.  Será exibida uma janela para agendar atividades contendo duas abas, uma
-    para **Histórico de Agendamentos** e outra para **Criar Agendamento**;
+   -   In the **Schedule History** tab, the Schedules of the activities that were
+    created will be listed;
 
-    -   Na aba **Histórico de Agendamentos**, serão listados os Agendamentos das atividades que foram criados;
+![figure](images/schedule-activity-4.png)
 
-    ![Criar](images/schedule-activity-4.png)
+**Figure 4 - Activity scheduling history**
 
-    **Figura 4 - Histórico de agendamento de atividades**
+Filling in the registration fields
+----------------------------------
 
-Preenchimento dos campos cadastrais
------------------------------------
+1.  In the **Scheduling Creation** tab, there are fields that must be filled in
+    to schedule the activity for the log problem, as follows:
 
-1.  Na aba **Criar Agendamento**, possui campos que devem ser preenchidos para
-    agendamento da atividade referente ao registro de problema, conforme segue
-    abaixo:
+   ![figure](images/schedule-activity-5.png)
+   
+   **Figure 5 - Creating activity scheduling**
 
-    ![Criar](images/schedule-activity-5.png)
+   -   **Activity Group:** select the Activity Group to schedule the activity;
 
-    **Figura 5 - Criar agendamento de atividades**
+   -   **Technical Guidance**: inform the Technical Guidance of the activity;
 
-    -  **Grupo de Atividades (para o agendamento)**: selecione o Grupo de
-    Atividades para o agendamento da atividade;
+   -   **Schedule for**: inform the date and time, period that will be scheduled to
+    carry out the activity;
 
-    -  **Orientação Técnica**: informe a Orientação técnica da atividade;
+   -   **Estimated Time**: enter the estimated duration in minutes, ie the time it
+    will take to perform the activity.
 
-    -  **Agendar para**: informe a data e hora, período que será agendado para
-    realizar a atividade;
+2.  Click the *Save* button to perform the operation, where the date, time and
+    user will be saved automatically for a future audit;
 
-    -  **Duração estimada**: informe a duração estimada em minutos, ou seja, o
-    tempo que levará para realizar a atividade;
+3.  A message confirming the successful scheduling of the activity will be
+    displayed.
 
-2.  Clique no botão *Gravar* para efetuar a operação, onde a data, hora e
-    usuário serão gravados automaticamente para uma futura auditoria;
 
-3.  Será exibida uma mensagem confirmando o sucesso do agendamento da atividade.
-
-[1]:/pt-br/citsmart-platform-7/processes/problem/register-problem.html
-[2]:/pt-br/citsmart-platform-7/additional-features/automation-of-operation/configuration/periodic-activity-group.html
+[1]:/en-us/citsmart-platform-7/processes/problem/register-problem.html
+[2]:/en-us/citsmart-platform-7/additional-features/automation-of-operation/configuration/periodic-activity-group.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/15/2019 – Anna Martins
+    <b>Updated:</b>08/28/2019 – Anna Martins
