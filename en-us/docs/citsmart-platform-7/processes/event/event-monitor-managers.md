@@ -1,636 +1,625 @@
-title: Cadastro e pesquisa de gerentes do CITSmart event monitor
-Description: Trata-se da funcionalidade responsável por gerenciar a aplicação que faz a análise, monitoração e sinalização de
-# Cadastro e pesquisa de gerentes do CITSmart event monitor
+title: CITSmart event monitor managers registration and search
+Description: It is the functionality responsible for managing the application that performs the analysis, monitoring 
+# CITSmart event monitor managers registration and search
 
-Trata-se da funcionalidade responsável por gerenciar a aplicação que faz a análise, monitoração e sinalização de Eventos, que 
-pode ser: 
+It is the functionality responsible for managing the application that performs the analysis, monitoring and signaling of Events, 
+which can be:
 
-- **Gerente Nagios**;
-- **Gerente Zabbix**;
-- **Gerente Inventory**;
-- **Gerente de Eventos Global**;
-- **Gerente Genérico Nagios**;
-- **Gerente Genérico Zabbix**.
+- Manager Nagios;
+- Manager Zabbix;
+- Inventory Manager;
+- Global Events Manager;
+- Generic Manager Nagios;
+- Generic Manager Zabbix.
     
-Pré-condições
+Preconditions
 ---------------
 
-1. Cadastrar conexão do CITSmart Event Monitor (ver conhecimento [Conexão CITSmart Event Monitor](/pt-br/citsmart-platform-7/additional-features/add-ons/event-monitor-connection.html));
+1. Register connection of CITSmart Event Monitor (see knowledge [CITSmart event monitor connection](/en-us/citsmart-platform-7/additional-features/add-ons/event-monitor-connection.html));
 
-2. Cadastrar horário (ver conhecimento [Cadastro e pesquisa de horários](/pt-br/citsmart-platform-7/processes/event/time-registration.html));
+2. Schedule time (see knowledge [Schedule registration and search](/en-us/citsmart-platform-7/processes/event/time-registration.html));
 
-3. Cadastrar categoria de ocorrência (ver conhecimento [Cadastro e pesquisa de categoria de ocorrência](/pt-br/citsmart-platform-7/processes/event/occurrence-category.html));
+3. Enter category of occurrence (see knowledge [Occurrence category registration and search](/en-us/citsmart-platform-7/processes/event/occurrence-category.html));
 
-4. Cadastrar ação automática (ver conhecimento [Cadastro e pesquisa de ações automáticas](/pt-br/citsmart-platform-7/plataform-administration/configuring-automatic-actions/automatic-actions.html));
+4. Enroll automatic action (see knowledge [Automatic actions registration and search](/en-us/citsmart-platform-7/plataform-administration/configuring-automatic-actions/automatic-actions.html));
 
-5. Cadastrar Conexão do CITSmart Inventory (ver conhecimento [Configuração da conexão do CITSmart Inventory](/pt-br/citsmart-platform-7/processes/event/inventory-connection-setup.html));
+5. Register CITSmart Inventory connection (see knowledge [CITSmart Inventory connection setup](/en-us/citsmart-platform-7/processes/event/inventory-connection-setup.html));
 
-6. Cadastrar check (ver conhecimento [Cadastro e pesquisa de checks de eventos](/pt-br/citsmart-platform-7/processes/event/event-checks.html)).
+6. Register check (see knowledge [Event checks registration and search](/en-us/citsmart-platform-7/processes/event/event-checks.html)).
 
-Gerente Nagios
+Nagios manager
 -----------------
 
-Nagios é uma ferramenta de monitoramento de rede. Ele pode monitorar tanto hosts quanto serviços, alertando quando ocorrerem
-problemas e também quando os problemas são resolvidos. Os Hosts são os equipamentos e os Serviços são os recursos oferecidos 
-pelos equipamentos.
+Nagios is a network monitoring tool. It can monitor both hosts and services, alerting when problems occur and also when problems 
+are solved. Hosts are the equipment and the Services are the resources offered by the equipment.
 
-O objetivo desta funcionalidade é cadastrar e manter os gerentes que serão responsáveis por monitorar os itens de configuração 
-e ocorrência de eventos capturadas a partir do Nagios. Permite ao usuário informar de quanto em quanto tempo o Gerente será 
-processado, quais os itens de configuração que ele irá gerenciar e as ações a serem tomadas automaticamente.
+The purpose of this feature is to register and maintain the managers who will be responsible for monitoring the configuration and 
+occurrence items of events captured from Nagios. It allows the user to indicate how much time the Manager will be processed, what 
+configuration items he will manage and what actions to take automatically.
 
-## Como acessar ##
+## How to access ##
 
-1. Acesse a funcionalidade de gerente nagios através da navegação no menu principal 
-**Processos ITIL > Gerência de Evento > Gerente Nagios**.
+1. Access the Nagios manager functionality through navigation in the main menu 
+**ITIL Processes > Event Management > Nagios Manager**.
 
-## Filtros ##
+## Filters ##
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando 
-a localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Nome
+    - Name
     
-    ![Nagios](images/eve-monitor.img1.png)
+    ![Nagios](images/managers.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de gerente Nagios**
+    **Figure 1 - Nagios manager search screen**
     
-2. Realize a pesquisa de Gerente Nagios:
+2. Perform the search for manager Nagios:
 
-    - Informe o nome do gerente nagios que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o registro 
-    conforme o nome informado;
+    - Enter the name of the Nagios manager you want to search and click the *Search* button. After this, the record will be 
+    displayed according to the name entered;
     
-    - Caso deseje listar todos os registros de gerente nagios, basta clicar diretamente no botão "Pesquisar".
+    - If you want to list all the Nagios manager records, simply click the *Search* button directly.
     
-## Listagem de itens ##
+## Items list ##
 
-1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens desejados na listagem padrão da 
-funcionalidade: **Nome**.
+1. The following cadastral field is available to the user to make it easier to identify the desired items in the default listing of 
+the functionality: **Name**.
 
-    ![Itens](images/eve-monitor.img2.png)
+    ![Items](images/managers.img2.jpg)
     
-    **Figura 2 - Tela de lista de itens**
+    **Figure 2 - Items list screen**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo 
-referente ao registro selecionado;
+2. After searching, select the desired record. Once this is done, it will be directed to the registration screen displaying the 
+contents of the selected registry;
 
-3. Para alterar os dados do registro de **Gerente Nagios**, basta modificar as informações dos campos desejados e clicar no botão 
-"Gravar" para que seja gravada a alteração realizada no registro, onde a data, hora e usuário serão gravados automaticamente para 
-uma futura auditoria.
+3. To change the Nagios manager log data, simply modify the information of the desired fields and click on the *Record* button to 
+save the change made to the registry, where the date, time and user will be saved automatically for a future audit.
 
-## Preenchimento dos campos cadastrais ##
+## Filling in the registration fields ##
 
-1. Acesse a funcionalidade, após isso, será apresentada a tela de **Cadastro de Gerente Nagios**, conforme ilustrada na figura 
-abaixo:
+1. Access functionality, after that, the **Nagios Manager Registration** screen will be displayed, as shown in the figure below:
 
-    ![Cadastro](images/eve-monitor.img3.png)
+    ![Entry](images/managers.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de gerente Nagios**
+    **Figure 3 - Nagios manager registry screen**
     
-2. Nesta tela, os campos são autoexplicativos. Basta posicionar o mouse sobre o campo escolhido e será apresentada uma breve 
-descrição. Portanto serão abordadas somente as informações principais para efetuar o registro da conexão;
+2. In this screen, the fields are self-explanatory. Simply place your mouse over the chosen field and a short description will be 
+displayed. Therefore only the main information will be addressed to register the connection:
 
-    - Informe os **Dados Básicos**;
-        - Ao selecionar a ferramenta de monitoração, serão listados os hosts que são monitorados pela ferramenta.
-    - Informe os **Dados Agendador**;
-        - **Ativar/Desativar autocorreção**: Determina se uma ocorrência de evento deverá ser encerrada automaticamente caso a 
-        condição que gerou a ocorrência inicialmente não voltar a acontecer. Se está opção for ativa, o campo “Tempo para 
-        encerramento de evento” será habilitado para preenchimento.
-        - **Tempo para encerramento de evento**: Neste campo deve-se informar o tempo em minutos para a autocorreção, a qual 
-        determina o tempo para o encerramento de uma ocorrência que não acontece mais.
-    - Informe os **Dados de Item de Configuração Pai**;
-        - Ao clicar no campo de iten de configuração pai, será apresentada a tela para pesquisa do IC pai conforme os filtros 
-        preenchidos. A figura abaixo ilustra esta tela:
+    - Enter the **Basic Data**:
+        - When you select the monitoring tool, the hosts that are monitored by the tool will be listed.
+    - Enter the **Scheduler Data**:
+        - **Enable/Disable self-connection**: determines whether an event occurrence should be automatically terminated if the 
+        condition that generated the event initially does not happen again. If this option is enabled, the "Event closure time" 
+        field will be enabled for completion;
+        - **Time for event closure**: in this field you must enter the time in minutes for autocorrection, which determines the 
+        time for closing an occurrence that no longer occurs.
+    - Enter the **Parent Configuration Item Data**:
+        - Clicking on the parent configuration item field will display the parent IC lookup screen as the filters are populated. 
+        The figure below illustrates this screen:
         
-    ![Pesquisa](images/eve-monitor.img4.png)
+    ![Search](images/managers.img4.jpg)
     
-    **Figura 4 - Tela pesquisa item de configuração**
+    **Figure 4 - Search screen configuration Item**
     
-    - Realize a pesquisa e clique no ícone ![simbolo](images/simb-check.green.png) para selecionar o IC pai desejado e gravar 
-        na tela de gerente.
-    - Ao clicar no campo Host, serão listados os hosts que estão sendo monitorados pelo Nagios para seleção. Feito isso, serão 
-    apresentados os serviços do Host, conforme exemplo ilustrado abaixo:
+    - Perform the search and click on the icon ![symbol](images/simb-quad.green.jpg) to select the desired parent IC and record on 
+    the manager screen;
+    - Clicking on the Host field will list the hosts being monitored by Nagios for selection. Once this is done, the Host services 
+    will be displayed, as shown in the example below:
     
-    ![Nagios](images/eve-monitor.img5.png)
+    ![Nagios](images/managers.img5.jpg)
     
-    **Figura 5 - Tela de cadastro de gerente Nagios**
+    **Figure 5 - Nagios manager registry screen**
     
-    - Após apresentação dos serviços do Host, caso queira cadastrar o IC no CITSmart com os dados do Host selecionado, basta 
-    clicar no botão "Criar IC". Lembrando que esse registro só poderá ser realizado caso não haja um IC com a mesma identificação 
-    do Host.
-    - Informe os demais campos que serão utilizados na geração dos eventos deste gerente.
-    - Informe os dados do item de configuração filho.
-    
-    ![Nagios](images/eve-monitor.img6.png)
-    
-    **Figura 6 - Tela de registro do gerenciador Nagios**
-    
-    - Conduzir uma relação entre o serviço Host e o iten de configuração filho. Cada serviço host deve estar relacionado ao seu 
-    respectivo item de configuração filho.
-    - Informe os outros campos que serão utilizados na geração de eventos de serviço.
-    - Digite as ações que serão ativadas quando ocorrer um evento de um determinado tipo (informações, aviso e exceção).
-    
-3. Clique no botão "Gravar" para executar o registro, onde a data, hora e usuário serão salvos automaticamente para uma auditoria 
-futura.
+    - After presenting the Host services, if you wanted to register the IC in CITSmart with the Host data selected, just click the 
+    *Create IC* button;
+    - Remember that this registration can only be done if there is no IC with the same Host ID;
+    - Inform the other fields that will be used to generate the events of this manager;
+    - Enter the data for the child configuration item.
 
-Gerente Zabbix
-----------------
+    ![Nagios](images/managers.img6.jpg)
+    
+    **Figure 6 - Nagios manager registry screen**
+    
+    - Perform a gap between the Host service and the child configuration item. Each Host service must be related to its respective 
+    child configuration item;
+    - Enter the other fields that will be used to generate service events;
+    - Inform the actions that will be triggered when there is an event of a certain type (*information, warning* and *exception*).
+    
+3. Click the *Record* button to register, where the date, time and user will be saved automatically for a future audit.
 
-O Zabbix é uma ferramenta para monitorar redes, servidores e serviços, projetados para monitorar disponibilidade, experiência do 
-usuário e qualidade de serviços.
+Zabbix manager
+-------------------
 
-O objetivo desta funcionalidade é registrar e manter os gerentes responsáveis pelo monitoramento dos itens de configuração cujo 
-status será consultado no Zabbix. Ele permite ao usuário associar os elementos de configuração aos seus respectivos disparadores 
-e às ações que devem ser tomadas na ocorrência de eventos.
+Zabbix is a monitoring tool for networks, servers and services, designed to monitor availability, user experience and quality of 
+services.
 
-## Como acessar ##
+The purpose of this feature is to register and maintain the managers who are responsible for monitoring the configuration items 
+whose statuses will be queried in Zabbix. It allows the user to associate the configuration items with their respective triggers 
+and with the actions that must be taken in the event occurrence.
 
-1. Acesse a funcionalidade do administrador Zabbix através da navegação no menu principal 
-**Processos ITIL > Gerência de eventos > Gerente Zabbix**.
+## How to access ##
 
-## Filtros ##
+1. Access the Zabbix manager functionality by navigating the main menu **ITIL Processes > Event Management > Zabbix Manager**.
 
-1. O seguinte filtro permite ao usuário restringir a participação de elementos na lista padrão de funcionalidades, facilitando a 
-localização dos itens desejados:
+## Filters ##
 
-    - Nome.
-    
-    ![Pesquisa](images/eve-monitor.img7.png)
-    
-    **Figura 7 - Tela de pesquisa de gerente Zabbix**
-    
-2. Realize a pesquisa do gerente Zabbix;
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Digite o nome do Gerente do Zabbix que deseja pesquisar e clique no botão "Pesquisar". Após disso, o registro será exibido 
-    de acordo com o nome informado;
+    - Name.
     
-    - Caso deseje listar todos os registros do Gerente Zabbix, basta clicar diretamente no botão "Pesquisar".
+    ![Search](images/managers.img7.jpg)
     
-## Listagem de itens ##
+    **Figure 7 - Zabbix manager search screen**
+    
+2. Perform Zabbix manager search:
 
-1. O seguinte campo cadastral está disponível para o usuário facilitar a identificação dos elementos desejados na lista padrão de 
-funcionalidade: **Nome**.
+    - Enter the name of the Zabbix manager you want to search and click the *Search* button. After this, the record will be 
+    displayed according to the name entered;
+    
+    - If you want to list all Zabbix manager records, simply click the *Search* button directly.
+    
+## Items list ##
 
-    ![Listagem](images/eve-monitor.img8.png)
-    
-    **Figura 8 - Tela da lista de itens**
-    
-2. Após a pesquisa, selecione o registro desejado. Uma vez feito isso, será direcionado para a tela de registro exibindo o 
-conteúdo referente à gravação selecionada;
+1. The following cadastral field is available to the user to make it easier to identify the desired items in the default listing of 
+the functionality: **Name**.
 
-3. Para alterar os dados do cadastro do Gerente do Zabbix, basta modificar as informações dos campos desejados e clicar no botão 
-"Gravar" para que a alteração feita na gravação seja gravada, onde a data, a hora e o usuário serão gravados automaticamente para 
-um futuro auditoria.
+    ![Listagem](images/managers.img8.jpg)
+    
+    **Figure 8 - Items list screen**
+    
+2. After searching, select the desired record. Once this is done, it will be directed to the registration screen displaying the 
+contents of the selected registry;
 
-## Preenchimento dos campos cadastrais ##
+3. To change Zabbix manager registry data, simply change the information of the desired fields and click the *Record* button to 
+save the change made to the registry, where the date, time and user will be saved automatically for a future audit.
 
-1. Acesse a funcionalidade, depois disso, será apresentada a tela de **Cadastro do Gerente Zabbix**, conforme ilustrada na figura 
-abaixo:
+## Filling in the registration fields ##
 
-    ![Zabbix](images/eve-monitor.img9.png)
-    
-    **Figura 9 - Tela de registro do gerente Zabbix**
-    
-2. Nesta tela, os campos são autoexplicativos. Basta posicionar o mouse sobre o campo escolhido e será apresentada uma breve 
-descrição. Portanto serão abordadas somente as informações principais para efetuar o registro da conexão;
+1. Access functionality, after that, the **Zabbix Manager Registration** screen will be displayed, as shown in the figure below:
 
-    - Informe os **Dados Básicos**;
-        - Ao selecionar a ferramenta de monitoramento, os hosts que são monitorados pela ferramenta estão listados.
-    - Informe os **Dados do Programador**;
-        - **Ativar/Desativar autocorreção**: Determina se uma ocorrência de evento deverá ser encerrada automaticamente caso a 
-        condição que gerou a ocorrência inicialmente não voltar a acontecer;
-        - **Tempo de encerramento do evento**: Neste campo deve-se informar o tempo em minutos para a autocorreção, a qual 
-        determina o tempo para o encerramento de uma ocorrência que não acontece mais.
-    - Informe os Dados do item de configuração do pai;
-        - Ao clicar no campo do "Item de configuração principal", a tela de pesquisa do IC principal aparecerá de acordo com os 
-        filtros preenchidos.
-    - A figura a seguir ilustra essa tela:
+    ![Zabbix](images/managers.img9.jpg)
     
-    ![IC](images/eve-monitor.img10.png)
+    **Figure 9 - Zabbix manager registration screen**
     
-    **Figura 10 - Tela de pesquisa do item de configuração**
-    
-    - Realize a pesquisa e clique no botão "Selecionar" para selecionar a IC principal desejada e grave na tela do administrador.
-    - Ao clicar no campo Host, os hosts que estão sendo monitorados pelo Zabbix aparecerão para a seleção.
-    - Uma vez feito isso, os serviços do Host serão apresentados, conforme mostrado abaixo:
-    
-    ![Zabbix](images/eve-monitor.img11.png)
-    
-    **Figura 11 - Tela de registro do gerente Zabbix**
-    
-    - Após apresentar os serviços Host, se deseja registrar o IC no CITSmart com os dados do Host selecionado, basta clicar no 
-    botão "Criar IC". Lembrando que esse registro só pode ser feito se não houver IC com o mesmo ID de host.
-    - Informe os outros campos que serão usados na geração dos eventos desse gerente.
-    - Informe os dados do **item de configuração do filho**.
-    
-    ![Zabbix](images/eve-monitor.img12.png)
-    
-    **Figura 12 - Tela de registro do gerente Zabbix**
-    
-    - Conduzir uma relação entre o serviço Host e o iten de configuração filho. Cada serviço host deve estar relacionado ao seu 
-    respectivo item de configuração filho.
-    - Informe os outros campos que serão utilizados na geração de eventos de serviço.
-    - Digite as ações que serão ativadas quando ocorrer um evento de um determinado tipo (information, warning e exception).
-    
-3. Clique no botão "Gravar" para executar o registro, onde a data, hora e usuário serão salvos automaticamente para uma auditoria 
-futura.
+2. In this screen, the fields are self-explanatory. Simply place your mouse over the chosen field and a short description will be 
+displayed. Therefore, only the main information will be addressed to register the connection:
 
-Gerente Inventory
+    - Enter the **Basic Data**:
+        - When you select the monitoring tool, the hosts that are monitored by the tool will be listed.
+    - Enter the **Scheduler Data**:
+        - **Enable/Disable AutoCorrect**: Determines whether an event occurrence should be automatically terminated if the 
+        condition that generated the event initially does not happen again;
+        - **Time for event closure**: In this field you must enter the time in minutes for autocorrection, which determines the 
+        time for closing an occurrence that no longer occurs.
+    - Enter the **Parent Configuration Item Data**:
+        - Clicking on the parent configuration item field will display the parent IC lookup screen as the filters are populated.
+    - The figure below illustrates this screen:
+    
+    ![IC](images/managers.img10.jpg)
+    
+    **Figure 10 - Search screen configuration item**
+    
+    - Perform the search and click on the icon ![symbol](images/simb-quad.green.jpg) to select the desired parent IC and record on 
+    the manager screen;
+    - Clicking on the Host field will list the hosts being monitored by Zabbix for selection;
+    - Once this is done, the Host services will be displayed, as shown in the example below:
+    
+    ![Zabbix](images/managers.img11.jpg)
+    
+    **Figure 11 - Zabbix manager registration screen**
+    
+    - After presenting the Host services, if you wanted to register the IC in CITSmart with the Host data selected, just click the 
+    *Create IC* button;
+    - Inform the other fields that will be used to generate the events of this manager;
+    - Enter the data for the child configuration item.
+    
+    ![Zabbix](images/managers.img12.jpg)
+    
+    **Figure 12 - Nagios manager registry screen**
+    
+    - Perform a gap between the Host service and the child configuration item. Each Host service must be related to its respective 
+    child configuration item;
+    - Enter the other fields that will be used to generate service events;
+    - Inform the actions that will be triggered when there is an event of a certain type (information, warning and exception).
+    
+3. Click the *Record* button to register, where the date, time and user will be saved automatically for a future audit.
+
+Inventory manager
 --------------------
 
-O objetivo desta funcionalidade é cadastrar e manter os gerentes que serão responsáveis pelas ocorrências de eventos capturadas a 
-partir do CITSmart Inventory. Permite ao usuário informar de quanto em quanto tempo o Gerente será processado, quais os itens de 
-configuração que ele irá gerenciar, os checks que serão aplicados e as ações a serem tomadas automaticamente.
+The purpose of this feature is to register and maintain the managers who will be responsible for the occurrences of events captured 
+from the CITSmart Inventory. It allows the user to indicate how much time the Manager will be processed, what configuration items 
+he will manage, the checks that will be applied and the actions to be taken automatically.
 
-## Como acessar ##
+## How to access ##
 
-1. Acesse a funcionalidade de gerente inventory através da navegação no menu principal **Processos ITIL > Gerência de Evento > 
-Gerente Inventory**.
+1. Access inventory manager functionality through navigation in the main menu 
+**ITIL Processes > Event Manager > Inventory Manager**.
 
-## Filtros ##
+## Filters ##
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando 
-a localização dos itens desejados, conforme ilustrado abaixo:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to locate the desired items, as illustrated below:
 
-    - Nome
+    - Name.
     
-    ![Inventory](images/eve-monitor.img13.png)
+    ![Inventory](images/managers.img13.jpg)
     
-    **Figura 13 - Tela de pesquisa de gerente Inventory**
+    **Figure 13 - Inventory manager search screen**
     
-2. Realize a pesquisa de gerente inventory;
+2. Perform search for inventory manager:
 
-    - Informe o nome do gerente inventory que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o registro 
-    conforme o nome informado;
+    - Enter the name of the inventory manager you want to search for and click the *Search* button. After this, the record will be 
+    displayed according to the name entered;
     
-    - Caso deseje listar todos os registros de gerente inventory, basta clicar diretamente no botão "Pesquisar".
+    - If you want to list all inventory manager records, simply click the *Search* button directly.
     
-## Listagem de itens ##
+## Items list ##
 
-1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens desejados na listagem padrão da 
-funcionalidade: **Nome**.
+1. The following cadastral field is available to the user to make it easier to identify the desired items in the default listing of 
+the functionality: **Name**.
 
-    ![Listagem](images/eve-monitor.img14.png)
+    ![Listing](images/managers.img14.jpg)
     
-    **Figura 14 - Tela de lista de itens**
+    **Figure 14 - Items list screen**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo 
-referente ao registro selecionado;
+2. After searching, select the desired record. Once this is done, it will be directed to the registration screen displaying the 
+contents of the selected registry;
 
-3. Para alterar os dados do registro de gerente inventory, basta modificar as informações dos campos desejados e clicar no botão 
-"Gravar" para que seja gravada a alteração realizada no registro, onde a data, hora e usuário serão gravados automaticamente para 
-uma futura auditoria.
+3. To change the data of the inventory manager record, simply modify the information of the desired fields and click the *Record* 
+button to save the change made to the record, where the date, time and user will be saved automatically for a future audit.
 
-## Preenchimento dos campos cadastrais
+## Filling in the registration fields ##
 
-1. Acesse a funcionalidade, após isso, será apresentada a tela de **Cadastro de Gerente Iventory**, conforme ilustrada na figura 
-abaixo:
+1. Access functionality, after that, the **Inventory Manager Registration** screen will be displayed, as shown in the figure below:
 
-    ![Inventory](images/eve-monitor.img15.png)
+    ![Inventory](images/managers.img15.jpg)
     
-    **Figura 15 - Tela de cadastro de gerente Inventory**
+    **Figure 15 - Inventory manager master screen**
     
-2. Nesta tela, os campos são autoexplicativos. Basta posicionar o mouse sobre o campo escolhido e será apresentada uma breve 
-descrição. Portanto serão abordadas somente as informações principais para efetuar o registro da conexão;
+2. In this screen, the fields are self-explanatory. Simply place your mouse over the chosen field and a short description will be 
+displayed. Therefore, only the main information will be addressed to register the connection;
 
-    - Informe os **Dados Básicos**;
-    - Informe os **Dados Agendador**;
-        - **Ativar/Desativar autocorreção**: Determina se uma ocorrência de evento deverá ser encerrada automaticamente caso a 
-        condição que gerou a ocorrência inicialmente não voltar a acontecer;
-        - **Tempo para encerramento de evento**: Neste campo deve-se informar o tempo em minutos para a autocorreção, a qual 
-        determina o tempo para o encerramento de uma ocorrência que não acontece mais.
-    - Informe os dados de **Tipo de Configuração para os Itens de Configuração**. Selecione uma das opções, “Configuração 
-    Específica” ou “Configuração Geral”;
-    - **Configuração Específica** permite criar regras específicas para um único item de configuração. Essas regras serão 
-    aplicadas no momento em que o item de configuração estiver sendo inventariado.
+    - Enter the **Basic Data**;
+    - Enter the **Scheduler Data**;
+        - **Enable/Disable AutoCorrect**: determines whether an event occurrence should be automatically terminated if the 
+        condition that generated the event initially does not happen again;
+        - **Time for event closure**: in this field you must enter the time in minutes for autocorrection, which determines the 
+        time for closing an occurrence that no longer occurs.
+    - Enter the **Configuration Type data for the Configuration Items**. Select one of the options, "Specific Configuration" or 
+    "General Configuration":
+    - **Specific Configuration** allows you to create specific rules for a single configuration item. These rules will be applied 
+    at the time the configuration item is being inventoried.
     
-    ![Cadastro](images/eve-monitor.img16.png)
+    ![Entry](images/managers.img16.jpg)
     
-    **Figura 16 - Tela de cadastro de gerente Inventory**
+    **Figure 16 - Inventory manager master screen**
     
-    - Informe os dados de item de configuração pai;
-    - Clicando no campo "Item de Configuração Pai", será apresentada a tela para pesquisa e seleção do mesmo conforme os filtros 
-    preenchidos.
+    - Enter the data of the parent configuration item;
+    - Clicking on the parent configuration item field will display the screen for searching and selecting the same as the filters 
+    are populated.
     
-    ![Pesquisa](images/eve-monitor.img17.png)
+    ![Search](images/managers.img17.jpg)
     
-    **Figura 17 - Tela pesquisa item de configuração**
+    **Figure 17 - Search screen configuration item**
     
-    - Selecione o item configuração filho ou tipo de item de configuração para aplicar uma regra específica;
-    - Ao selecionar o item de configuração filho ou tipo de item de configuração será listado no campo Check os registros do 
-    mesmo para ser selecionado;
-    - Após selecionar o check, serão apresentadas as condições default, as quais foram configuradas no cadastro de check. É 
-    permitido alteração dos valores dessas condições;
-    - Informe uma ação para cada condição. Essas ações serão disparadas, quando houve uma ocorrência de evento;
-    - Após informar os dados necessários, clique no botão "Adicionar". Serão listadas as regras definidas para o item de 
-    configuração, conforme ilustração abaixo:
+    - Select the child configuration item or configuration item type to apply a specific rule;
+    - Selecting the child configuration item or configuration item type will be listed in the Check the child records to be 
+    selected field;
+    - After selecting the check, the default conditions will be displayed, which have been configured in the check register. It is 
+    allowed to change the values of these conditions;
+    - Report an action for each condition. These actions will be triggered when there was an event occurrence;
+    - After entering the required data, click the Add button. The rules defined for the configuration item will be listed, as shown 
+    below:
     
-    ![Inventory](images/eve-monitor.img18.png)
+    ![Inventory](images/managers.img18.jpg)
     
-    **Figura 18 - Tela de cadastro de gerente Inventory**
+    **Figure 18 - Inventory manager master screen**
     
     - Caso desejar editar as regras para Information, Warning e Exception, basta clicar no ícone
     ![simbolo](images/sim-lapis.white.png);
-    - Caso desejar editar as ações clique no ícone ![simbolo](images/sim-lapis.white.png) e para excluir um item de configuração 
-    da lista, clique no ícone ![simbolo](images/simb-menos.red.png).
+    - If you want to edit the rules for Information, Warning and Exception, just click the icon
+    ![simbolo](images/simb-lapis.jpg);
+    - If you want to edit the actions click the icon ![simbolo](images/simb-lapis.jpg) and to delete a configuration item from the 
+    list, click the icon ![simbolo](images/simb-less.red.jpg).
     
-3. **Configuração Geral** permite criar regras para todos os itens de configuração. Essas regras serão aplicadas no momento em que os itens de configuração estiverem sendo inventariados.
+3. **General Configuration** allows you to create rules for all configuration items. These rules will be applied the moment the 
+configuration items are being inventoried.
 
-    ![Cadastro](images/eve-monitor.img19.png)
+    ![Entry](images/managers.img19.jpg)
     
-    **Figura 19 - Tela de cadastro de gerente Inventory**
+    **Figure 19 - Inventory manager master screen**
     
-    - Selecione o item configuração filho ou tipo de item de configuração para aplicar uma regra específica;
-    - Ao selecionar o tipo item de configuração será listado no campo Check os registros do mesmo para ser selecionado;
-    - Após selecionar o check, serão apresentadas as condições default, as quais foram configuradas no cadastro de check. É 
-    permitido alteração dos valores dessas condições;
-    - Informe uma ação para cada condição. Essas ações serão disparadas, quando houve uma ocorrência de evento;
-    - Após informar os dados necessários, clique no botão "Adicionar". Serão listadas as regras definidas para os itens de 
-    configuração, conforme ilustração abaixo:
+    - Select the child configuration item or configuration item type to apply a specific rule;
+    - When selecting the type of configuration item will be listed in the field Check the records of the same to be selected;
+    - After selecting the check, the default conditions will be displayed, which have been configured in the check register. It is 
+    allowed to change the values of these conditions;
+    - Report an action for each condition. These actions will be triggered when there was an event occurrence;
+    - After entering the required data, click the *Add* button. The rules defined for the configuration items will be listed, as 
+    shown below:
     
-    ![Cadastro](images/eve-monitor.img20.png)
+    ![Register](images/managers.img20.jpg)
     
-    **Figura 20 - Tela de cadastro de gerente Inventory**
+    **Figure 20 - Inventory manager master screen**
     
-    - Caso desejar editar as regras para Information, Warning e Exception, basta clicar no ícone 
-    ![simbolo](images/sim-lapis.white.png);
-    - Caso desejar editar as ações clique no ícone ![simbolo](images/sim-lapis.white.png) e para excluir um item de configuração 
-    da lista, clique no ícone ![simbolo](images/simb-menos.red.png).
+    - If you want to edit the rules for Information, Warning and Exception, just click the icon 
+    ![symbol](images/simb-lapis.jpg);
+    - If you want to edit the actions click the icon ![symbol](images/simb-lapis.jpg) and to delete a configuration item from the 
+    list, click the icon ![symbol](images/simb-less.red.jpg).
     
-4. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma futura 
-auditoria.
+4. Click the *Record* button to register, where the date, time and user will be saved automatically for a future audit.
 
-Gerente de eventos Global
+Global events manager
 --------------------------
 
-Esta funcionalidade tem como objetivo criar regras para monitorar vários tipos de eventos.
+This functionality is intended to create rules for monitoring various types of events.
 
-## Como acessar ##
+## How to access ##
 
-1. Acesse a funcionalidade de gerente de eventos global através da navegação no menu principal **Processos ITIL > Gerência de Evento > Gerente de Eventos Global**.
+1. Access global event manager functionality by navigating the main menu ITIL Processes → Event Management → Manager of Global 
+Events.
 
-## Filtros ##
+## Filters ##
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando 
-a localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Nome
+    - Name.
     
-    ![Pesquisa](images/eve-monitor.img21.png)
+    ![Search](images/managers.img21.jpg)
     
-    **Figura 21 - Tela de pesquisa de gerente de eventos Global**
+    **Figure 21 - Global event manager search screen**
     
-2. Realize a pesquisa de gerente de eventos global;
+2. Perform global event manager search:
 
-    - Informe o nome do gerente de eventos global que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o 
-    registro conforme o nome informado;
+    - Enter the name of the global event manager you want to search and click the *Search* button. After this, the record will be 
+    displayed according to the name entered;
     
-    - Caso deseje listar todos os registros de gerente de eventos global, basta clicar diretamente no botão "Pesquisar".
+    - If you want to list all global event manager records, simply click the *Search* button directly.
     
-## Listagem de itens ##
+## Items list ##
 
-1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens desejados na listagem padrão da 
-funcionalidade: **Nome**.
+1. The following cadastral field is available to the user to make it easier to identify the desired items in the default listing of 
+the functionality: **Name**.
 
-    ![Listagem](images/eve-monitor.img22.png)
+    ![Listing](images/managers.img22.jpg)
     
-    **Figura 22 - Tela de lista de itens**
+    **Figure 22 - Items list screen**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo 
-referente ao registro selecionado;
+2. After searching, select the desired record. Once this is done, it will be directed to the registration screen displaying the 
+contents of the selected registry;
 
-3. Para alterar os dados do registro de gerente de eventos global, basta modificar as informações dos campos desejados e clicar 
-no botão "Gravar" para que seja gravada a alteração realizada no registro, onde a data, hora e usuário serão gravados 
-automaticamente para uma futura auditoria.
+3. To change global event manager log data, simply change the information for the desired fields and click the *Record* button to 
+save the change made to the record, where the date, time and user will be saved automatically for a future audit.
 
-## Preenchimento dos campos cadastrais ##
+## Filling in the registration ##
 
-1. Acesse a funcionalidade, após isso, será apresentada a tela de **Cadastro de Gerente de Eventos Global**, conforme ilustrada 
-na figura abaixo:
+1. Access the feature, after this, the **Global Event Manager registration** screen will be displayed, as shown in the figure 
+below:
 
-    ![Global](images/eve-monitor.img23.png)
+    ![Global](images/managers.img23.jpg)
     
-    **Figura 23 - Tela de cadastro de eventos Global**
+    **Figure 23 - Global event record screen**
     
-2. Nesta tela, os campos são autoexplicativos. Basta posicionar o mouse sobre o campo escolhido e será apresentada uma breve 
-descrição. Portanto serão abordadas somente as informações principais para efetuar o registro da conexão;
+2. In this screen, the fields are self-explanatory. Simply place your mouse over the chosen field and a short description will be 
+displayed. Therefore, only the main information will be addressed to register the connection:
 
-    - Informe os **Dados Básicos**;
-    - Informe o tipo de conexão:
-        - **Correlação**: Este tipo de conexão é utilizado para gerenciar eventos de correlação entre os tipos de eventos 
-        existentes no CITSmart (Gerente de Eventos Nagios, Gerente de Eventos Zabbix e Gerente de Eventos Inventory);
-        - **Externo**: Este tipo de conexão é utilizado para gerenciar eventos externos, enviados através de um WS. O mesmo é 
-        passivo, ou seja, aguarda o recebimento de qualquer evento que for enviado através do WS e compara com os eventos 
-        gerenciados no cadastro de gerente global;
-        - **Arquivo**: Este tipo de conexão é utilizado para gerenciar eventos conforme a leitura de arquivos de log. Ao 
-        selecionar esse tipo de conexão, informe o “Agendador” e descreva o “ScriptRhino”.
-    - Informe os dados da **Ação para Information**;
-        - Selecione a ação que será disparada quando houver uma ocorrência de evento do tipo information, o grau de urgência e 
-        impacto. As regras para essa ação, são definidas utilizando a Linguagem de Processamento de Eventos - EPL. Clique no 
-        botão "Validar EPL de Information" para validar a EPL informada.
-    - Informe os dados da **Ação para Warning**;
-        - Selecione a ação que será disparada quando houver uma ocorrência de evento do tipo warning, o grau de urgência e 
-        impacto. As regras para essa ação, são definidas utilizando a Linguagem de Processamento de Eventos - EPL. Clique no 
-        botão "Validar EPL de Warning" para validar a EPL informada.
-    - Informe os dados da **Ação para Exception**;
-        - Selecione a ação que será disparada quando houver uma ocorrência de evento do tipo exception, o grau de urgência e 
-        impacto. As regras para essa ação, são definidas utilizando a Linguagem de Processamento de Eventos - EPL. Clique no 
-        botão "Validar EPL de Exception" para validar a EPL informada.
+    - Enter the **Basic Data**;
+    - Enter the **connection type**:
+        - **Correlation**: this type of connection is used to manage correlation events between the types of events in CITSmart 
+        (Nagios Event Manager, Zabbix Event Manager and Inventory Event Manager);
+        - **External: this type of connection is used to manage external events, sent through a WS. The same is passive, that is, 
+        it waits for the receipt of any event that is sent through the WS and compares with the events managed in the global 
+        manager registry;
+        - **File**: This type of connection is used to manage events as read from log files. When selecting this type of 
+        connection, inform the "Scheduler" and describe the "ScriptRhino".
+    - Enter **Action data for Information**:
+        - Select the action that will be triggered when there is an event of type information, the degree of urgency and impact. 
+        The rules for this action are defined using the Event Processing Language (EPL). Click the *Validate EPL Information* 
+        button to validate the informed EPL.
+    - Enter **Action data for Warning**:
+        - Select the action that will be triggered when there is an event of type warning, the degree of urgency and impact. The 
+        rules for this action are defined using the Event Processing Language (EPL). Click the *Validate EPL from Warning* button 
+        to  validate the informed EPL.
+    - Enter **Action data for Exception**:
+        - Select the action that will be triggered when there is an event occurrence of type exception, the degree of urgency and 
+        impact. The rules for this action are defined using the Event Processing Language (EPL). Click the *Validate Exit EPL* 
+        button to validate the EPL entered.
         
-    !!! warning "ATENÇÃO"
+    !!! warning "WARNING"
         
-        Cada gerente de eventos global contém uma EPL para Information (informação), Warning (advertência) e/ou Exception 
-        (exceção). EPL é uma linguagem de correlação de eventos utilizada pelo Esper (Espertech). Na inicialização do 
-        CITSmart Event Monitor, estes EPL são importados para a engine do Esper, de modo que um novo evento correlacionado 
-        será criado toda vez que a condição definida na EPL for satisfeita. Exemplo de uma EPL que faz correlação entre os 
-        eventos do CITSmart Inventory e Nagios: @Description ('Para qualquer evento do Nagios que ocorrer depois de um evento 
-        qualquer do Inventory, nos últimos 10 minutos) select * from pattern [every a=EventoCheckInventory-
-        >b=EventoServicoNagios where timer:within(10minutes)]
+        Each global manager contains an EPL for Information, Warning and/or Exception. EPL is an event correlation language used by 
+        Esper (Espertech). Upon initialization of the CITSmart Event Monitor (EVM), these EPLs are imported into the Esper engine 
+        so that a new correlated event will be created each time the condition defined in the EPL is satisfied. Example of an EPL 
+        that makes a correction between the CITSmart Inventory and Nagios events: @Description ("For any Nagios event that occurs 
+        after any Inventory event in the last 10 minutes") select * from pattern [every a = EventCheckInventory-> b = 
+        EventServiceNegios where timer: within (10 minutes)]
         
-3. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma futura 
-auditoria.
+3. Click the *Record* button to register, where the date, time and user will be saved automatically for a future audit.
 
-Gerente genérico Nagios
+Generic manager Nagios
 -------------------------
 
-O objetivo desta funcionalidade é cadastrar e manter os gerentes genéricos que serão responsáveis por monitorar os hosts e/ou 
-serviços da ferramenta de monitoramento Nagios.
+The purpose of this feature is to register and maintain the generic managers who will be responsible for monitoring the hosts 
+and/or services of the Nagios monitoring tool.
 
-Os gerentes permitem o monitoramento de todos os hosts ou todos os serviços de forma genérica, ou seja, sem a necessidade de 
-escolher um host específico para monitoramento.
+Managers allow the monitoring of all hosts or all services in a generic way, that is, without the need to choose a specific host 
+for monitoring.
 
-A finalidade é simplificar o monitoramento de uma rede inteira em busca dos eventos relevantes para o negócio.
+The purpose is to simplify the monitoring of an entire network in search of the relevant events for the business.
 
-## Como acessar ##
+## How to access ##
 
-1. Acesse a funcionalidade de gerente genérico nagios através da navegação no menu principal **Processos ITIL > Gerência de 
-Eventos > Gerente Genérico Nagios**.
+1. Access the generic Nagios manager functionality by navigating the main menu 
+**ITIL Processes > Event Management > Generic Nagios Manager.
 
-## Filtros ##
+## Filters ##
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando 
-a localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Nome.
+    - Name.
     
-    ![Nagios](images/eve-monitor.img24.png)
+    ![Nagios](images/managers.img24.jpg)
     
-    **Figura 24 - Tela de pesquisa de gerente genérico Nagios**
+    **Figure 24 - Nagios generic manager search screen**
     
-2. Realize a pesquisa de gerente genérico nagios;
+2. Perform generic Nagios manager search:
 
-    - Informe o nome do gerente genérico nagios que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o 
-    registro conforme o nome informado;
+    - Enter the name of the generic Nagios manager you want to search and click the *Search* button. After this, the record will be 
+    displayed according to the name entered;
     
-    - Caso deseje listar todos os registros de gerente genérico nagios, basta clicar diretamente no botão "Pesquisar".
+    - If you want to list all generic Nagios manager records, simply click the *Search* button directly.
     
-## Listagem de itens ##
+## Items list ##
 
-1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens desejados na listagem padrão da 
-funcionalidade: **Nome**.
+1. The following cadastral field is available to the user to make it easier to identify the desired items in the default listing of 
+the functionality: **Name**.
 
-    ![Listagem](images/eve-monitor.img25.png)
+    ![Listing](images/managers.img25.jpg)
     
-    **Figura 25 - Tela de lista de itens**
+    **Figure 25 - Items list screen**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo 
-referente ao registro selecionado;
+2. After searching, select the desired record. Once this is done, it will be directed to the registration screen displaying the 
+contents of the selected registry;
 
-3. Para alterar os dados do registro de gerente genérico nagios, basta modificar as informações dos campos desejados e clicar no 
-botão "Gravar" para que seja gravada a alteração realizada no registro, onde a data, hora e usuário serão gravados 
-automaticamente para uma futura auditoria.
+3. To change the data of the generic Nagios manager record, simply modify the information of the desired fields and click the 
+*Record* button to save the change made to the record, where the date, time and user will be saved automatically for a future 
+audit.
 
-## Preenchimento dos campos cadastrais ##
+## Filling in the registration fields ##
 
-1. Acesse a funcionalidade, após isso, será apresentada a tela de cadastro de **Gerente Genérico Nagios**, conforme ilustrada na 
-figura abaixo:
+1. Access the feature, after that, the **Generic Manager Registration** screen will be displayed, as shown in the figure below:
 
-    ![Genérico](images/eve-monitor.img26.png)
+    ![Generic](images/managers.img26.jpg)
     
-    **Figura 26 - Tela de cadastro de gerente genérico Nagios**
+    **Figure 26 - Nagios generic manager registration screen**
     
-2. Nesta tela, os campos são autoexplicativos. Basta posicionar o mouse sobre o campo escolhido e será apresentada uma breve 
-descrição.
+2. In this screen, the fields are self-explanatory. Simply place your mouse over the chosen field and a short description will be 
+displayed;
 
-3. Portanto serão abordadas somente as informações principais para efetuar o registro da conexão;
+3. Therefore, only the main information will be addressed to register the connection:
 
-    - Informe os **Dados Básicos**;
+    - Enter the **Basic Data**.
     
-4. Ao selecionar a ferramenta de monitoração, serão apresentados os campos para configuração do gerente, conforme ilustração 
-abaixo:
+4. When selecting the monitoring tool, the manager configuration fields will be shown, as shown below:
 
-    ![Nagios](images/eve-monitor.img27.png)
+    ![Nagios](images/managers.img27.jpg)
     
-    **Figura 27- Tela de cadastro de gerente genérico Nagios**
+    **Figure 27 - Nagios generic manager registration screen**
     
-    - Informe os dados do **Host**;
-    - Selecione o host e se desejar gerar ocorrências para Up e Down, informe suas respectivas ações, urgências e impactos.
-        - Informe os dados do **Serviço**.
-    - Selecione o serviço e se desejar gerar ocorrências para Information, Warning e Exception, informe suas respectivas ações, 
-    urgências e impactos.
-        - Configure **Outras Informações**;
-    - Selecione as informações para ocorrência, agendador e autocorreção.
+    - Enter the **Host** data.;
+    - Select the host and if you want to generate occurrences for Up and Down, inform their respective actions, urgencies and 
+    impacts.
+        - Enter the data of the **Service**.
+    - Select the service and if you want to generate occurrences for Information, Warning and Exception, inform your respective 
+    actions, urgencies and impacts.
+        - Configure **Other Information**;
+    - Select the information for occurrence, scheduler, and autocorrection.
     
-5. Clique no botão "Inserir/Alterar" para adicionar as configurações das informações da ferramenta de monitoração ao qual foi 
-selecionada:
+5. Click the *Insert/Change* button to add the settings for the monitoring tool information to which you selected:
 
-    ![Nagios](images/eve-monitor.img28.png)
+    ![Nagios](images/managers.img28.jpg)
     
-    **Figura 28 - Tela de cadastro de gerente genérico Nagios**
+    **Figure 28 - Nagios manager registry screen**
     
-    - Para editar as informações da configuração do gerente, selecione o ícone ![simbolo](images/simb-caneta.grey.png);
-    - Para ativar/inativar as informações da configuração do gerente, clique no ícone ![simbolo](images/simb-stop.grey.png);
-    - Para excluir informações da configuração do gerente, clique no ícone ![simbolo](images/simb-fech.whitered.png).
+    - To edit manager configuration information, select the icon ![symbol](images/simb-lapis.cinza.jpg);
+    - To enable/disable manager configuration information, click the icon ![symbol](images/simb-stop.grey.jpg);
+    - To delete information from the manager's configuration, click the icon ![symbol](images/simb-close.red.jpg).
     
-6. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma futura 
-auditoria.
+6. Click the *Record* button to register, where the date, time and user will be saved automatically for a future audit.
 
-Gerente genérico Zabbix (referente à versão 7.1.0.8 ou superior)
+Generic manager Zabbix (referring to version 7.1.0.8 or higher)
 -------------------------------------------------------------------
 
-O objetivo desta funcionalidade é cadastrar e manter os gerentes genéricos que serão responsáveis por monitorar os hosts e/ou 
-triggers da ferramenta de monitoramento Zabbix.
+The purpose of this feature is to register and maintain generic managers that will be responsible for monitoring the hosts and/or 
+triggers of the Zabbix monitoring tool.
 
-Os gerentes permitem o monitoramento de todos os hosts ou todas as triggers de forma genérica, ou seja, sem a obrigatoriedade de 
-escolher um host específico para monitoramento.
+Managers allow the monitoring of all hosts or all triggers in a generic way, that is, without the obligation to choose a specific 
+host for monitoring.
 
-A finalidade é simplificar o monitoramento de uma rede inteira em busca dos eventos relevantes para o negócio.
+The purpose is to simplify the monitoring of an entire network in search of the relevant events for the business.
 
-## Como acessar ##
+## How to access ##
 
-1. Acesse a funcionalidade de gerente genérico Zabbix através da navegação no menu principal **Processos ITIL > Gerência de 
-Evento > Gerente Genérico Zabbix**.
+1. Access the Generic Manager Zabbix functionality through navigation in the main menu
+**Process Management > Event Management > Generic Zabbix Manager**.
 
-## Filtros ##
+## Filters ##
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+1. The following filters enable the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Título;
-    - Situação.
+    - Title;
+    - Status.
     
-2. Na tela de **Gerente Genérico Zabbix**, será apresentada a tela de pesquisa conforme ilustrada na figura a seguir. Nesta tela, 
-são exibidos os gerentes genéricos Zabbix já registrados e os campos de filtros para realizar a busca de determinados registros;
+2. In the  **Generic Manager Zabbix**screen, the search screen appears as illustrated in the following figure. In this screen, the 
+Generic Zabbix Manager already registered and the filter fields are displayed to search certain records;
 
-    ![Zabbix](images/eve-monitor.img29.png)
+
+    ![Zabbix](images/managers.img29.jp)
     
-    **Figura 29 - Tela de pesquisa de gerente genérico Zabbix**
+    **Figure 29 - Zabbix generic manager search screen**
     
-3. Para realizar a busca de gerente genérico Zabbix, informe o título e/ou situação. Após isso, será exibido o registro conforme 
-os dados informados.
+3. To perform the generic Zabbix manager search, inform the title and/or situation. After this, the record will be displayed 
+according to the data reported.
 
-## Listagem de itens ##
+## Items list ##
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: **Título** e **Situação**.
+1. The following cadastral fields are available to the user to make it easier to identify the desired items in the standard feature 
+listing:  **Title**  and **Status**.
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Editar" e "Excluir".
+2. There are action buttons available to the user for each item in the listing, they are: *"Edit* and *Delete*.
 
-![Listagem](images/eve-monitor.img30.png)
+![Listing](images/managers.img30.jpg)
 
-**Figura 30 - Tela de lista de itens**
+**Figure 30 - Items list screen**
 
-## Preenchimento dos campos cadastrais ##
+## Filling in the registration fields ##
 
-1. Acesse a funcionalidade, após isso, será apresentada a tela de Gerente Genérico Zabbix. Clique no botão "Novo". Feito isso, 
-será apresentada a tela de **Cadastro de Gerente Genérico Zabbix**, conforme ilustrada na figura a seguir:
+1. Access the feature, after this, the **Generic Zabbix Manager** screen will be displayed;Click the *New* button. Done this, the 
+Zabbix generic manager registration screen will be displayed, as illustrated in the following figure:
 
-    ![Cadastro](images/eve-monitor.img31.png)
+    ![Entry](images/managers.img31.jpg)
     
-    **Figura 31 - Tela de cadastro de gerente genérico Zabbix**
+    **Figure 31 - Zabbix generic manager registration screen**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill in the fields as guidelines below:
 
-    - **Título**: informe o nome do gerente Zabbix;
-    - **Conexão**: selecione a conexão com a ferramenta de monitoração. Após isso, será apresentada a opção para adicionar os 
-    itens que serão monitorados pelo gerente;
-    - **Situação**: selecione a situação do gerente;
-    - Clique no botão "Adicionar novo item" e será exibida a tela para preenchimento dos dados dos itens que serão monitorados 
-    pelo gerente;
+    - **Title**: Enter the name of the manager Zabbix;
+    - **Connection**: select the connection with the monitoring tool. After that, the option to add the items that will be 
+    monitored by the manager will be displayed;
+    - **Status**: select the status of the manager;
+    - Click the *Add new item* button and the screen will appear to fill in the data of the items that will be monitored by the 
+    manager;
+
+    ![Monitoring](images/managers.img32.jpg)
     
-    ![Monitoramento](images/eve-monitor.img32.png)
+    **Figure 32 - Monitoring registration screen**
     
-    **Figura 32 - Tela de cadastro de monitoramento**
-    
-    - **Título**: informe um título para os itens que serão monitorados;
-    - **Host**: selecione o host desejado;
-    - **Trigger**: selecione a trigger desejada;
-    - **Tipo de evento**: selecione quais os tipos de eventos que serão disparados, suas respectivas ações, urgências e 
-    impactos;
-    - **Grupo de categoria de ocorrência**: selecione o grupo de categoria de ocorrência;
-    - **Categoria de ocorrência**: selecione a categoria de ocorrência;
-    - **Agendador**: selecione um temporizador para o Zabbix levantar informações;
-    - **Correção automática**: ative esta opção caso deseje a correção automática de eventos e defina o tempo (em minutos) 
-    para o encerramento da ocorrência caso o mesmo não volte a acontecer;
-    - Clique no botão "Adicionar" para registrar os itens que serão monitorados.
+    - **Title**: inform a title for the items that will be monitored;
+    - **Host**: select the desired host;
+    - **Trigger**: select the desired trigger;
+    - **Event Type**: select which types of events will be dismissed, their respective actions, urgency, and impacts;
+    - **Occurrence group category**: select the occurrence category group;
+    - **Occurrency category**: select the occurrence category;
+    - **Scheduler**: select a timer for the Zabbix to raise information;
+    - **Automatic correction**: enable this option if you want automatic correction of events and set the time (in minutes) to 
+    close the occurrence if it does not happen again;
+    - Click the *Add* button to register the items that will be monitored.
         
-    ![Cadastro](images/eve-monitor.img33.png)
+    ![Entry](images/managers.img33.jpg)
     
-    **Figura 33 - Tela de cadastro de gerente Zabbix**
+    **Figure 33 - Zabbix generic manager registration screen**
     
-3. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma futura 
-auditoria.
+    - To edit the information for a monitoring, click the *Edit* button;
+    - To delete information from a monitoring, click the *Delete* button.
+    
+3. Click the *Save* button to register, where the date, time and user will be automatically saved for a future audit.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/18/2019 – Larissa Lourenço     
+    <b>Updated:</b>08/28/2019 - Larissa Lourenço 
