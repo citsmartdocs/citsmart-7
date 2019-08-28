@@ -558,7 +558,7 @@ to find the desired items:
 Generic Zabbix Manager already registered and the filter fields are displayed to search certain records;
 
 
-    ![Zabbix](images/managers.img29.jp)
+    ![Zabbix](images/managers.img29.jpg)
     
     **Figure 29 - Zabbix generic manager search screen**
     
