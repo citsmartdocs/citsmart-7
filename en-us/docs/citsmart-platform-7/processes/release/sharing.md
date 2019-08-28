@@ -1,9 +1,7 @@
 title: Release record sharing
+Description: This feature allows sharing a release request with another performer group or user.
 
-Description: This feature allows sharing a release request with another
-performer group or user.
-
-\# Release record sharing
+# Release record sharing
 
 This feature allows sharing a release request with another performer group or
 user.
@@ -47,12 +45,12 @@ Items list
     with;
 
 2.  There are action buttons available to the user for each item in the listing,
-    they are: *View*, *Reports* and *Action;*
+    they are: *View*, *Reports* and *Action*;
 
 3.  The Release Management screen will be displayed;
 
 4.  On the management tab, locate the release request which will be shared,
-    click on the *Action* button and select the *Delegate/Job Share*option;
+    click on the *Action* button and select the *Delegate/Job Share* option;
 
    ![figure](images/sharing-2.png)
    
