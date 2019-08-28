@@ -1,209 +1,211 @@
-title:Investigação e diagnóstico de problema
-Description:Esta funcionalidade tem por objetivo investigar e diagnosticar problema.
+title: Conducting investigation and problem diagnosis
+Description: This functionality is intended to investigate and diagnose a problem.
 
-# Investigação e diagnóstico de problema
+# Conducting investigation and problem diagnosis
 
-Esta funcionalidade tem por objetivo investigar e diagnosticar problema.
+This functionality is intended to investigate and diagnose a problem.
 
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de investigação e diagnóstico de problema através da
-    navegação no menu principal **Processos ITIL > Gerência de
-    Problema > Gerenciamento de Problema**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter um problema registrado (ver conhecimento [Cadastro de problema][1]).
+1.  Access the problem investigation and diagnosis functionality by navigating
+    the main menu **Process Management > Problem Management > Problem
+    Management**.
 
-Filtros
+Preconditions
+-------------
+
+1.  Have problem registered (see knowledge [Problem
+    registration][1]).
+
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -   Nº do Problema.
+-   Description
 
-    ![Criar](images/investigation-1.png)
+![figure](images/investigation-1.png)
 
-    **Figura 1 - Tela de pesquisa de problema**
+**Figure 1 - Problem search screen**
 
-Listagem de itens
------------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Número, Título, Contrato, Criada em, Prioridade, Prazo
-    limite, Solicitante, Status, Tarefa atual, Grupo executor e Responsável
-    atual.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard listing of the
+    functionality: Number, Title, Contract, Created on, Priority, Time
+    limit, User, Status, Current Task, Executor Group and Current
+    Responsible.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Visualizar*, *Relatórios* e *Ação*.
+2.  There are action buttons available to the user in relation to each item in
+    the listing, they are: *View*, *Reports* and *Action*.
 
-    ![Criar](images/investigation-2.png)
+![figure](images/investigation-2.png)
 
-    **Figura 2 - Tela de listagem de problema**
+**Figure 2 - Problem listing screen**
 
-Preenchimento dos campos cadastrais
------------------------------------
+Filling in the registration fields
+----------------------------------
 
-1.  Não se aplica.
+1.  No applicable.
 
-Realizando investigação e diagnóstico de problema
--------------------------------------------------
+Conducting investigation and problem diagnosis
+----------------------------------------------
 
-Nesta etapa, é realizada a investigação do problema e o diagnóstico da causa
-principal. Serão utilizados todos os recursos e técnicas de resolução de
-problemas disponíveis para identificar a causa raiz, a falha apontada e uma
-solução.
+In this stage, the investigation of the problem and the diagnosis of the main
+cause is carried out. All available resources and problem-solving techniques
+will be used to identify the root cause, the identified failure, and a solution.
 
-!!! info "IMPORTANTE"
+   !!! info "IMPORTANT"
 
-     O membro do grupo designado para realizar a investigação e diagnóstico
-     deve capturar o problema e iniciar a atividade.
+      The group member assigned to conduct the investigation and diagnosis must
+      capture the problem and start the activity.
 
-1.  Na guia **Gerenciamento**, localize o registro de problema que deseja
-    registrar a investigação e diagnóstico, clique no botão *Ação* e selecione a
-    opção *Iniciar/Executar tarefa*, conforme indicado na imagem abaixo:
+1.  On the **Management** tab, locate the problem log that you want to log the
+    investigation and diagnosis, click the *Action* button and select
+    the *Start/Execute task* option, as indicated in the image below:
 
-    ![Criar](images/investigation-3.png)
-
-    **Figura 3 - Tela de gerenciamento de problemas**
-
-2.  Será exibida a tela de **Registro de Problema** com os campos preenchidos,
-    com o conteúdo referente ao problema selecionado;
-
-3.  Consulte a base de conhecimento a fim de obter o conhecimento necessário
-    para resolução do problema;
-
-4.  Clique na guia **Base de Conhecimento**, localizada no canto superior
-    direito da tela, conforme indicado na figura abaixo:
-
-    ![Criar](images/investigation-4.png)
+    ![figure](images/investigation-3.png)
     
-    **Figura 4 - Guia de base conhecimento**
+    **Figure 3 - Problem management screen**
 
-    -  Será apresentada a tela de consulta à base de conhecimento para realizar a
-    pesquisa do conhecimento necessário, conforme ilustrada na figura abaixo:
+2.  The **Problem Log** screen will appear with the fields filled, with the
+    contents of the problem selected;
 
-    ![Criar](images/investigation-5.png)
+3.  Consult the knowledge base to obtain the knowledge needed to solve the
+    problem;
 
-    **Figura 5 - Base de conhecimento**
+4.  Click the **Knowledge Base** tab, located in the upper right corner of the
+    screen, as shown in the figure below:
 
-5.  Registre as informações sobre avaliação e diagnóstico do problema:
+    ![figure](images/investigation-4.png)
+    
+    **Figure 4 - Knowledge base guide**
 
-    -  Clique na guia **Processos/Opções** e logo em seguida em **Avaliação e
-    Diagnóstico**, localizada no canto direito da tela, conforme indicado na
-    figura abaixo:
+    -   The knowledge base query screen will be displayed to perform the necessary
+    knowledge search, as shown in the figure below:
 
-    ![Criar](images/investigation-6.png)
+    ![figure](images/investigation-5.png)
+    
+    **Figure 5 - Knowledge base**
 
-    **Figura 6 - Guia de avaliação e diagnóstico**
+5.  Record information about the evaluation and diagnosis of the problem:
 
-    -  É apresentada a tela de cadastro de avaliação e diagnóstico, conforme
-    ilustrada na figura abaixo:
+    -   Click on the **Processes/Options** tab and then on **Evaluation and
+    Diagnosis**, located in the right corner of the screen, as indicated in the
+    figure below:
 
-    ![Criar](images/investigation-7.png)
+    ![figure](images/investigation-6.png)
+    
+    **Figure 6 - Assessment and diagnosis guide**
 
-    **Figura 7 - Registro de avaliação e diagnóstico**
+    -   The evaluation and diagnosis registration screen is displayed, as shown in
+    the figure below:
 
-    -  **Causa Raiz**: informe a causa principal do problema ocorrido;
+    ![figure](images/investigation-7.png)
+    
+    **Figure 7- Evaluation and diagnostic record**
 
-    -  **Mensagem de erro associada**: descreva a mensagem de erro associada ao
-    problema;
+    -   **Root Cause: **tell the main cause of the problem;
 
-    -  **Diagnóstico**: descreva o diagnóstico do problema realizado.
+    -   **Error Message Associated**: describe the error message associated with the
+    problem;
 
-6.  Informe a mudança, caso for necessário para resolução do problema:
+   -   **Diagnosis**: describe the diagnosis of the problem.
 
-    -  Clique na guia **Processos/Opções** e logo em seguida em **Mudanças**,
-    localizada no canto direito da tela, conforme indicado na figura abaixo:
+6.  Inform the change if necessary to solve the problem:
 
-    ![Criar](images/investigation-8.png)
+   -   Click on the **Processes/Options** tab and then on **Changes**, located in
+    the right corner of the screen, as indicated in the figure below:
 
-    **Figura 8 - Guia de mudanças**
+   ![figure](images/investigation-8.png)
+   
+   **Figure 8 - Change guide**
 
-    -  Clique no ícone ![Criar](images/investigation-9.png) para realizar a pesquisa da mudança que será feita para
-    solucionar o problema;
+   -   Click on the icon ![figure](images/investigation-9.png) to search for the change that will be made to solve the
+    problem;
 
-    -  Será exibida uma tela para pesquisa de mudanças. Realize a pesquisa e
-    selecione a mudança desejada. Após isso, a mudança será relacionada ao
-    problema;
+   -   A change search screen will be displayed. Perform the search and select the
+    desired change. After this, the change will be related to the problem
 
-    ![Criar](images/investigation-10.png)
+   ![figure](images/investigation-10.png)
+   
+   **Figure 9 - Change relationship screen**
 
-    **Figura 9 - Tela de relacionamento de mudanças**
+-   If you want to remove a change that was related to solve the problem, just
+    click the change icon ![figure](images/investigation-11.png).
 
-    -  Caso queira remover uma mudança que foi relacionada para solucionar o
-    problema, basta clicar no ícone ![Criar](images/investigation-11.png) da mesma;
+-   If you do not find the change and need to register a change request, you can
+    register it in the system from this screen, just click the change icon ![figure](images/investigation-12.png).
 
-    -  Caso não encontre a mudança e haja a necessidade de registrar uma requisição
-    de mudança, poderá registrá-la no sistema a partir dessa tela, basta clicar
-    no ícone ![Criar](images/investigation-12.png) de mudança.
+7.  After recording the evaluation and diagnostic information, inform the
+    workaround solution:
 
-7.  Após o registro das informações de avaliação e diagnóstico, informe a
-    solução de contorno:
+   !!! info "IMPORTANT"
 
-    !!! info "IMPORTANTE"
+      A boundary solution should be temporary until a definitive solution to the
+      problem is found.
 
-        Uma solução de contorno deverá ser temporária até que seja encontrada uma
-        solução definitiva para o problema.
+   -   Click the **Processes/Options** tab, and then click **Solution**, located on
+    the right-hand corner of the screen, as shown in the figure below:
 
-    -  Clique na guia **Processos/Opções** e logo em seguida em **Solução**,
-    localizada no canto direito da tela, conforme indicado na figura abaixo:
+   ![figure](images/investigation-13.png)
+   
+   **Figure 10 - Solution guide**
 
-    ![Criar](images/investigation-13.png)
+   -   The solution registration screen is displayed, as shown in the figure below:
 
-    **Figura 10 - Guia de solução**
+   ![figure](images/investigation-14.png)
+   
+   **Figure 11 - Workaround solution problem solution record**
 
-    -  É apresentada a tela de cadastro de solução, conforme ilustrada na figura
-    abaixo:
+   -   Click the workaround solution icon ![figure](images/investigation-12.png) to record the information for a
+    corkaround;
 
-    ![Criar](images/investigation-14.png)
+   -   A screen will appear to record the information of the workaround solution;
 
-    **Figura 11 - Registro de solução de contorno do problema**
+       -   **Title**: define the title of the boundary solution;
 
-    -  Clique no ícone ![Criar](images/investigation-12.png) de solução de contorno para registrar as informações de uma
-    solução de contorno;
+       -   **Description**: describe the proposed corkaround;
 
-    -  Será exibida uma tela para registrar as informações da solução de contorno;
+       -   After the data has been entered, click the *Save* button to register the
+        corkaround information, where the date, time and user will be
+        automatically saved for a future audit.
 
-         -   **Título**: defina o título da solução de contorno;
+   -   If you have a definitive solution to the problem, click the definitive
+    solution icon ![figure](images/investigation-12.png) to record the information for a definitive solution;
 
-         -   **Descrição**: descreva a solução de contorno proposta;
+   -   A screen will be displayed to record the final solution information;
 
-         -   Após os dados informados, clique no botão *Gravar* para efetuar o registro das informações de solução de contorno, onde a data, hora e usuário serão gravados automaticamente para uma futura auditoria.
+       -   **Title: **define the title of the final solution;
 
-    -  Caso tenha uma solução definitiva para o problema, clique no ícone ![Criar](images/investigation-12.png) de
-    solução definitiva para registrar as informações de uma solução definitiva;
+       -   **Description**: describe the proposed final solution;
 
-    -  Será exibida uma tela para registrar as informações da solução definitiva;
+       -   After the data is entered, click on the *Save* button to register the
+        final solution information, where the date, time and user will be saved
+        automatically for a future audit.
 
-          -  **Título**: defina o título da solução definitiva;
+8.  After recording the investigation information and diagnosing the problem,
+    click on the button *Save and Forward Flow*, to carry out the operation,
+    where the problem will be referred to the phase of recording the known
+    error;
 
-          -  **Descrição**: descreva a solução definitiva proposta;
+9.  If you want to save only the recorded information about the investigation
+    and diagnosis of the problem and keep the current task, click the *Save and
+    Keep the Current Task*;
 
-          -  Após os dados informados, clique no botão *Gravar* para efetuar o registro das informações de solução definitiva, onde a data, hora e  usuário serão gravados automaticamente para uma futura auditoria.
+!!! note "NOTE"
 
-8.  Após registro das informações da investigação e diagnóstico do problema,
-    clique no botão *Gravar e avançar o fluxo*, para efetuar a operação, onde o
-    problema será encaminhado para fase de registro do erro conhecido;
+    In both previous cases, when you click on the Save button the date, time
+    and user will be automatically stored.*
 
-9.  Caso queira gravar somente as informações registradas sobre a investigação e
-    diagnóstico do problema e manter a tarefa atual, clique no botão *Gravar e
-    manter a tarefa atual*;
 
-!!! note "NOTA"
-
-    Em ambos os casos anteriores, ao clicar no botão Gravar a data, hora e
-    usuário serão armazenados automaticamente.
-
-[1]:/pt-br/citsmart-platform-7/processes/problem/register-problem.html
+[1]:/en-us/citsmart-platform-7/processes/problem/register-problem.html
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/16/2019 – Anna Martins
+    <b>Updated:</b>08/28/2019 – Anna Martins
