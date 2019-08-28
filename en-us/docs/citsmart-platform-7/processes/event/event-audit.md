@@ -1,81 +1,81 @@
-title: Cadastro e pesquisa de auditoria de eventos
-Description: O objetivo deste recurso é manter um banco de dados do histórico de todas as mudanças de eventos para realizar
-# Cadastro e pesquisa de auditoria de eventos
+title: Event audit registration and search
+Description: This functionality is intended to provide a historical basis for all event changes and manual auditing.
+# Event audit registration and search
 
-O objetivo deste recurso é manter um banco de dados do histórico de todas as mudanças de eventos para realizar uma auditoria manual.
+This functionality is intended to provide a historical basis for all event changes and manual auditing.
 
-Como acessar
+How to access
 -------------
 
-1. Acesse o recurso Trilha de Auditoria navegando pelo menu principal 
-**Processos ITIL > Gerência de Evento > Trilha de Auditoria**.
+1. Access the **Event Audit Trail** feature by navigating through the main menu. Place the mouse in the option 
+**ITIL Processes > Event Management > Audit Trail**.
 
-Pré-condições
----------------
+Preconditions
+-----------------
 
-1. Não se aplica.
+1. No applicable.
 
-Filtros
----------
+Filters
+-----------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Período de Abertura;
-    - Categoria.
+    - Opening Period;
+    - Category.
     
-2. Na tela de **Trilha de Auditoria de Eventos**, na guia **Auditoria Registradas**, todas as auditorias de eventos que foram 
-executadas serão exibidas, conforme ilustrado abaixo:
+2. In the **Event Audit Trail** screen, under the **Register Audit** tab, all the audits of events performed will be presented, as 
+shown below:
 
-    ![Auditoria](images/aud-eve.img1.png)
+    ![Audit](images/audit.img1.jpg)
     
-    **Figura 1 - Tela de auditoria de evento**
+    **Figure 1 - Event audit screen**
     
-3. Para realizar uma pesquisa de auditoria específica, proceda conforme instruções abaixo:
+3. To perform a specific audit search, proceed as described below:
 
-    - **Período de abertura**: insira o período de auditoria pretendido;
-    - **Categoria**: selecione a categoria de auditoria.
+    - **Period**: enter the desired audit period;
+    - **Category**: select the audit category.
     
-4. Clique no botão "Pesquisar" e os dados da auditoria serão exibidos;
+4. Click on the *Search* button and the audit data will be displayed;
 
-Listagem de itens
+Items list
 ------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: **ID, Data de Criação, Criado por, Tipo** e **Categoria**.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **ID, Creation Date, Created by, Type** and **Category**.
 
-2. Existe um botão de ação disponível ao usuário em relação a cada item da listagem, é ele: "Expandir".
+2. There is one action button available to the user for each item in the listing, it is: *Expand*.
 
-    ![Listagem](images/aud-eve.img2.png)
+    ![Listing](images/audit.img2.jpg)
     
-    **Figura 2 - Tela de Lista de Itens**
+    **Figure 2 - Items list screen**
     
-3. Clique no botão "Expandir" para ver os detalhes da auditoria;
+3. Click on the button *Expand* to view audit details;
 
-4. A imagem abaixo ilustra um exemplo:
+4. The figure below illustrates an example:
 
-![Evento](images/aud-eve.img3.png)
+![Event](images/audit.img3.jpg)
 
-**Figura 3 - Tela de auditoria de evento**
+**Figure 3 - Event audit screen**
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Na tela de **Trilha de Auditoria de Eventos**, na guia **Cadastrar Auditoria**, a tela de auditoria manual é exibida:
+1. On the **Event Audit Trail** screen, in the **Register Audit** tab, the respective audit record screen is displayed manually, as 
+shown below:
 
-    ![Auditoria](images/aud-eve.img4.png)
+    ![Audit](images/audit.img4.jpg)
     
-    **Figura 4 - Tela de cadastro de auditoria**
+    **Figure 4 - Audit master register screen**
     
-2. Preencha os campos conforme indicado abaixo:
+2. Fill in the fields as directed below:
 
-    - **Categoria**: selecione a categoria de auditoria;
-    - **Descrição**: insira uma descrição para a auditoria realizada.
+    - **Category**: select an audit category;
+    - **Description**: please provide a description for the audit performed.
     
-3. Clique no botão "Salvar" o botão para confirmar a entrada, em que data, hora e usuário serão automaticamente armazenados para
-uma auditoria futura.
+3. Click on the *Save* button to register, where the date, time and user will be automatically saved for a future audit.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Larissa Lourenço
+    <b>Updated:</b>08/28/2019 – Larissa Lourenço

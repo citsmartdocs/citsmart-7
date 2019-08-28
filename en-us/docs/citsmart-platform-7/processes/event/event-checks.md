@@ -1,88 +1,86 @@
-title: Cadastro e pesquisa de checks de eventos
-Description: Esta funcionalidade tem como objetivo realizar o cadastro dos Checks de Eventos.
-# Cadastro e pesquisa de checks de eventos
+title: Event checks registration and search
+Description: The goal of this feature is to register the event checks .
+# Event checks registration and search
 
-Esta funcionalidade tem como objetivo realizar o cadastro dos Checks de Eventos que serão utilizados para monitoração dos itens de
-configuração, através do CITSmart Inventory.
+The goal of this feature is to register the event checks which will be used to monitor the configuration items, through the 
+CITSmart Inventory.
 
-Como acessar
+How to access
+-----------------
+
+1. Access the **Check** feature navigating through the main menu **Process Management > Event Management > Check**.
+
+Preconditions
 ---------------
 
-1. Acesse a funcionalidade de Checks de Eventos através da navegação no menu principal 
-**Processos ITIL > Gerência de Evento > Check**.
+1. Register a Configuration Item type (see knowledge [Configuration item type registration and search][1]).
 
-Pré-condições
----------------
+Filters
+-----------
 
-1. Cadastrar tipo de item de configuração (ver conhecimento [Cadastro e pesquisa de tipo de item de configuração][1]).
+1. The following filter enable the user to restrict the participation of items in the standard feature listing, making it easier to 
+locate the desired items as shown in the figure below:
 
-Filtros
----------
-
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a 
-localização dos itens desejados, conforme ilustrado na figura abaixo:
-
-    - Nome.
+    - Name.
     
-    ![Pesquisa](images/check-eve.img1.png)
+    ![Search](images/checks.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de checks de eventos**
+    **Figure 1 - Event checks search screen**
     
-2. Realize a pesquisa de Checks de Eventos;
+2. Perform a check search:
 
-    - Informe o nome do Checks de Eventos que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o registro de
-    check conforme o nome informado;
+    - Insert the name of the intended check and click on the *Search* button. Afterwards, the check entry will be displayed 
+    according to the description provided;
     
-    - Caso deseje listar todos os registros de check, basta clicar diretamente no botão "Pesquisar".
+    - To list all checks, just click directly on the *Search* button, if needed.
     
-Listagem de itens
+Items list
 ------------------
 
-1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens desejados na listagem padrão 
-da funcionalidade: **Nome**.
+1. The following cadastral field is available to the user to facilitate the identification of the desired items in the standard 
+listing of the functionality: **Name**.
 
-    ![Listagem](images/check-eve.img2.png)
+    ![Listing](images/checks.img2.jpg)
     
-    **Figura 2 - Tela de listagem de checks de eventos**
+    **Figure 2 - Events checks items list screen**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo 
-referente ao registro selecionado;
+2. After searching, select the intended entry. Afterwards, they will be redirected to the registry screen displaying the content 
+belonging to the selected entry;
 
-3. Para alterar os dados do registro de Checks de Eventos, basta modificar as informações dos campos desejados e clicar no botão
-"Gravar" para que seja gravada a alteração realizada no registro, onde a data, hora e usuário serão gravados automaticamente para
-uma futura auditoria.
+3. To edit a check entry, just modify the information on the intended fields and click on the *Save* button to confirm the changes 
+to the database, at which date, time and user will be stored automatically for a future audit.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 ------------------------------------
 
-1. Será apresentada a tela de **Cadastro de Checks de Eventos**, conforme ilustrada na figura abaixo:
+1. Access the feature, afterwards, the **Check Entry** screen will be displayed, as illustrated on the image below:
 
-    ![Cadastro](images/check-eve.img3.png)
+    ![Entry](images/checks.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de checks de eventos**
+    **Figure 3 - Check entry screen**
     
-2. Nesta tela, os campos são autoexplicativos. Basta posicionar o mouse sobre o campo escolhido e será apresentada uma breve
-descrição. Portanto serão abordadas somente as informações principais para efetuar o registro da conexão;
+2. On the screen, the field are self explanatory. Just place the cursor on the intended field and a brief description will be 
+displayed. Therefore, only the main information to perform a connection entry will be displayed:
 
-    - Informe os **Dados Básicos**;
-    - Informe os dados de **Check**. Se no campo **Tipo** for escolhida a opção “Percentual”, será apresentado o campo 
-    **Característica Complementar** para ser preenchido;
-    - Informe os dados de **Condições**. Associe uma condição para information (informação) e/ou warning (advertência) e/ou 
-    exception (exceção) e as mesmas serão avaliadas no monitoramento de eventos do item de configuração definido no check.
-        - **Information**: indica uma operação normal, ou seja, não requer qualquer ação e não representa uma exceção, está 
-        funcionando como deveria. Fornece dados para tomada de decisão. Geralmente usado para fins de estatísticas e
-        investigações.
-        - **Warning**: significa operação anormal, mas não excepcional. É um indicativo de que a situação pode requerer uma 
-        monitoração mais próxima, precisa ser verificada e que ações apropriadas precisam ser tomadas para impedir uma exceção.
-        - **Exception**: são exceções que indicam uma situação anormal que requer uma ação, uma operação fora dos limites 
-        aceitáveis, ou seja, pode representar falha total, uma funcionalidade inviabilizada ou um desempenho degradado.
+    - Insert the **Basic Information**;
+    - Insert the **Check** data. If the "Percentage" option is chosen on the Type field, the Complementary Feature field will be 
+    displayed so it can be filled out;
+    - Insert the **Terms** information. Associate a term to an information and/or warning and/or exception and they will be 
+    evaluated during the configuration item event monitoring determined on the check:
+        - **Information**: indicates a normal procedure, that is, does not require any actions and does not represent an exception, 
+        it is working as it should. Provides data for decision making. It is generally used for statistics and investigation 
+        purposes;
+        - **Warning**: Indicates an abnormal procedure, but not exceptional. It is an indicator the situation may require close 
+        monitoring, it needes to be verified and appropriate measures must be taken to prevent an exception;
+        - **Exception**: Exceptions that indicate an abnormal situation requires an action, a procedure out of the acceptable 
+        limits, that it, it can indicate a total failure, an impaired feature or degraded performance.
         
-3. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma 
-futura auditoria.
+3. Click on the **Save** the button to confirm the entry, at which date, time and user will automatically be stored for a future 
+audit.
 
-[1]:/pt-br/citsmart-platform-7/processes/configuration/IC-type.html
+[1]:/en-us/citsmart-platform-7/processes/configuration/IC-type.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Larissa Lourenço
+    <b>Updated:</b>08/28/2019 – Larissa Lourenço
