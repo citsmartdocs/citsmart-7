@@ -1,295 +1,289 @@
-title: Cadastro e pesquisa de requisição de liberação
-Description:Esta funcionalidade permite registrar a requisição de liberação de mudanças na infraestrutura de TI.
+title: Release record registration and search
+Description: This feature allows you to record the change release request in the IT infrastructure.
 
-# Cadastro e pesquisa de requisição de liberação
+# Release record registration and search
 
-Esta funcionalidade permite registrar a requisição de liberação de mudanças na
-infraestrutura de TI.
+This feature allows you to record the change release request in the IT
+infrastructure.
 
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de Gerenciamento de Liberação através da
-    navegação no menu principal **Processos ITIL \> Gerência de
-    Liberação \> Gerenciamento de Liberação**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter o colaborador cadastrado (ver conhecimento [Cadastro e pesquisa de
-    colaborador][1]);
+1.  Access the Release Management functionality through navigation in the main
+    menu **Process Management > Release Management**.
 
-2.  Ter o grupo executor cadastrado (ver conhecimento [Cadastro e pesquisa de
-    grupo][2]);
+Preconditions
+-------------
 
-3.  Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de
-    unidade][3]);
+1.  Have the employee registered (see knowledge [Staff registration and
+    search][1]);
 
-4.  Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de
-    contrato][4]);
+2.  Have the executor group registered (see knowledge [Group registration and
+    search][2]);
 
-5.  Ter o grupo vinculado ao contrato (ver conhecimento [Como relacionar grupo
-    ao contrato?][5]);
+3.  Have the unit registered (see knowledge [Unit registration and
+    search][3]);
 
-6.  Ter a unidade vinculada ao contrato (ver conhecimento [Como relacionar
-    unidade ao contrato?][6]);
+4.  Have the contract signed (see knowledge [Contract registration and
+    search][4]);
 
-7.  Ter o tipo de liberação cadastrado (ver conhecimento [Cadastro e pesquisa de
-    tipo de liberação][7]);
+5.  Have the group bound to the contract (see knowledge [How to relate group to
+    contract?][5]);
 
-8.  Ter o grupo de atividade periódica cadastrado (ver conhecimento [Cadastro e
-    pesquisa de grupo de atividade periódica][8]).
+6.  Have the unit linked to the contract (see knowledge [How to relate unit to
+    contract?][6]);
 
-Filtros
+7.  Have the type of release registered (see knowledge [Release type
+    registration and search][7]);
+
+8.  Have the periodic activity group registered (see knowledge [Periodic
+    activity group registration and search][8]).
+
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filters enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to locate the desired
+    items:
 
-    -   Número de requisição;
+-   Request number;
 
-    -   Atribuída/Compartilhada.
+-   Assigned/Shared.
 
-    ![Criar](images/requisition-1.png)
+![figure](images/requisition-1.png)
+
+**Figure 1 - Release search screen**
+
+Items list
+----------
+
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard listing of the
+    functionality: Number, User, Created on, Priority, Time limit, Delay,
+    Situation, Current task, Executor Group, Currently
+    Responsible and Shared with.
+
+2.  There are action buttons available to the user in relation to each item in
+    the listing, they are: *View*, *Reports* and *Action*.
+
+![figure](images/requisition-2.png)
+
+**Figure 2 - Release listing screen**
+
+Filling in the registration fields
+----------------------------------
+
+1.  The Release Management screen will be displayed. Click the *Register new
+    release* button .The respective **Release Registration** screen will be
+    displayed, containing a series of steps to follow to complete the
+    registration;
+
+2.  Understanding the main screen of the feature:
+
+   ![figure](images/requisition-3.png)
+   
+   **Figure 3 - Release Management screen**
+
+A quick overview of the functionality:
+
+- **1**  ![figure](images/requisition-17.png) : extends the Release Management screen;
+
+- **2**:  Management - the release Request records for attendance and management
+    are presented;
+
+- **3**:  Graphs - graphs the information of the release Requests by situation (in
+    progress, suspended and delayed), by priority and by group;
+
+- **4**: Filters - displays the filters for search of release Request;
+
+- **5**: Actions - allows you to register a new problem and perform a quick
+    search for a release request;
+
+- **6**: Reports - displays the release reports for release management.
+
+   ![figure](images/requisition-4.png)
+   
+   **Figure 4 - Release management screen**
+
+3.  Record the contract information as indicated below:
+
+   ![figure](images/requisition-5.png)
+   
+   **Figure 5 - Release request record - contract information**
+
+   -  **Contract**-: report the contract regarding the release request.
+
+4.  Record the information of the requester, as indicated below:
+
+   ![figure](images/requisition-6.png)
+   
+   **Figure 6 - Release request record - applicant information**
+
+   -   **Requested by**: enter the name of the person requesting the release
+    request;
+
+   !!! note "NOTE"
+
+      After informing the requesting party, if they already have the personal
+      data (contact information, e-mail, telephone, extension and/or unit)
+      registered in the system, the fields referring to this data will be filled
+      by the system with the information.
+
+   -   **Username**: enter the name of a contact person about the release request;
+
+   -   **E-mail**: inform the contact e-mail;
+
+   -   **Phone**: enter area code and contact phone number;
+
+   -   **Extension**: enter the extension number of the contact, if any;
+
+   -   **Unit**: select the unit on which the contact is full;
+
+   -   **Location**: enter the location of the contact;
+
+   -   **Note**: describe the observations about the contact, if necessary.
+
+5.  Record the Request information, as indicated below:
+
+    ![figure](images/requisition-7.png)
     
-    **Figura 1 - Tela de pequisa de liberação**
+    **Figure 7 - Release request record - request information**
 
-Listagem de itens
------------------
+    -   **Title**: set the title of the release Request;
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Número, Solicitante, Criada em, Prioridade, Prazo limite,
-    Atraso, Situação, Tarefa atual, Grupo Executor, Responsável
-    atual e Compartilhada com.
+    -   **Executor Group**: inform the executing group, which will be
+        responsible for executing the release request;
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Visualizar,* *Relatórios* e *Ações*.
+    -   **Status**: state the status of the release request;
 
-![Criar](images/requisition-2.png)
+    -   **Risk**: inform the risk of the release request;
 
-**Figura 2 - Tela de listagem de liberação**
+    -   **Type**: enter the type of the release Request;
 
-Preenchimento dos campos cadastrais
------------------------------------
+    -   **Release Date**: please state the date of release;
 
-1.  Será apresentada a tela de Gerenciamento de Liberação. Clique no
-    botão *Cadastrar nova liberação*. Será apresentada a respectiva tela
-    de **Cadastro de Liberação**, contendo uma série de passos a serem seguidos
-    para realizar o registro;
+    -   **Version**: report release version;
 
-2.  Entendendo a tela principal da funcionalidade:
+    -   **Impact**: report the impact of release on the organizational
+        environment;
 
-    ![Criar](images/requisition-3.png)
+    -   **Urgency**: inform the urgency of the release in the organizational
+        environment;
 
-    **Figura 3 - Tela de gerenciamento de liberação**
+    -   **Priority**: priority will be set after reporting impact and urgency.
+        Priority is used to identify the importance of release and to identify
+        the times required for appropriate action to be taken. The priority is
+        from 1 to 5, with 1 being the highest priority and 5 being the lowest.
 
-    Uma visão rápida da funcionalidade:
+    ![figure](images/requisition-8.png)
+    
+    **Figure 8 - Urgency X impact**
 
-    - **1**: ![Criar](images/requisition-17.png)   : amplia a tela de Gerenciamento de Liberação;
+6.  The combination of this information will define the priority needed to
+    achieve the release.
 
-    - **2**:  Gerenciamento: apresentada os registros de registro de liberação para
-    atendimento e gerenciamento;
+    -  **Description**: enter the description of the change release being
+    requested. The description must be objective, including all information
+    necessary for the release;
 
-    - **3**:  Gráficos: apresenta os gráficos de informações dos registros de
-    liberação por situação (em andamento, suspensas e atrasadas), por prioridade
-    e por grupo;
+    -  **Appointment**: schedules the activity of the release Request for
+    execution:
 
-    - **4**:  Filtros: apresenta os filtros para pesquisa de registro de liberação;
+    -  **Start Date**: enter the scheduled start date of the release Request;
 
-    - **5**:  Ações: permite registrar novo problema e realizar uma pesquisa rápida
-    de registro de liberação;
+    -  **Start Time**: enter the time programmed to start the execution of the
+    release request;
 
-    - **6**:  Relatórios: apresenta os relatórios dinâmicos referente ao
-    gerenciamento de liberação.
+    -  **End Date**: enter the scheduled date for the end of the release request
+    execution;
 
-    ![Criar](images/requisition-4.png)
+    -  **End Time**: enter the scheduled time for the end of the release request
+    execution;
 
-    **Figura 4 - Tela de gerenciamento de liberação**
+    -  **Activity Group (for scheduling)**: select the group that will perform the
+    activity of the release Request.
 
-3.  Registre as informações do contrato, conforme indicadas abaixo:
+    -  **E-mail Notification**: check the options for sending notification about
+    the release request that will be sent to the requestor.
 
-    ![Criar](images/requisition-5.png)
+Linking changes
+---------------
 
-    **Figura 5 - Registro de registro de liberação - informações do contrato**
+1.  List the changes that will be released:
 
-    -   **Contrato**: informe o contrato referente a registro de liberação;
+   -   On the right side of the screen, click on **Processes/Options** and then on
+    the **Changes** option;
 
-4.  Registre as informações do solicitante, conforme indicadas abaixo:
+   ![figure](images/requisition-9.png)
+   
+   **Figure 9 - Change guide**
 
-    ![Criar](images/requisition-6.png)
+   -   The change link screen will be displayed. Click the icon ![figure](images/requisition-10.png) . After that, the
+    change search screen will be displayed;
 
-    **Figura 6 - Registro de registro de liberação - informações do solicitante**
+   -   Perform the search and select the change that will be released. Once this is
+    done, the change log will be added to the screen, as shown in the following
+    figure.
 
-    -   **Solicitada por**: informe o nome da pessoa que está solicitando a registro
-    de liberação;
+!!! note "NOTE"
 
-    !!! note "NOTA"
+    If the change has related configuration items, they will be added to the
+    release.
 
-        Após informar o solicitante, caso o mesmo já tenha os dados pessoais
-        (informações de contato, e-mail, telefone, ramal e/ou unidade) registrados no
-        sistema, os campos referentes a estes dados serão preenchidos pelo sistema com
-        as informações.
+   ![figure](images/requisition-11.png)
+   
+   **Figure 10 - Change to release relationship**
 
-    -  **Nome do Contato**: informe o nome de uma pessoa para contato sobre a
-    registro de liberação;
+-   If you want to change the release status of the change that has been added,
+    just click on the icon ![figure](images/requisition-12.png) ;
 
-     -  **E-mail**: informe o e-mail do contato;
+-   Click the icon ![figure](images/requisition-13.png) to see the change reversion plan that will be released;
 
-     -  **Telefone**: informe código de área (DDD) e o número de telefone do
-        contato;
+-   If you want to delete the link from the change with the release, just click
+    the change icon ![figure](images/requisition-14.png).
 
-     -  **Ramal**: informe o número do ramal do contato, caso o tenha;
-
-     -  **Unidade**: selecione a unidade na qual o contato está lotado;
-
-     -  **Localidade Física**: informe a localização do contato;
-
-     -  **Observação**: descreva as observações sobre o contato, caso seja
-        necessário.
-
-5.  Registre as informações da requisição, conforme indicadas abaixo:
-
-    ![Criar](images/requisition-7.png)
-
-    **Figura 7 - Registro de registro de liberação - informações da requisição**
-
-    -   **Título**: defina o título da registro de liberação;
-
-    -   **Grupo Executor**: informe o grupo executor, o qual será responsável pela
-    execução da registro de liberação;
-
-    -   **Situação**: informe a situação da registro de liberação;
-
-    -   **Risco**: informe o risco da registro de liberação;
-
-    -   **Tipo**: informe o tipo da registro de liberação;
-
-    -   **Data da Liberação**: informe a data da liberação;
-
-    -   **Versão**: informe a versão da liberação;
-
-    -   **Impacto**: informe o impacto da liberação no ambiente organizacional;
-
-    -   **Urgência**: informe a urgência da realização da liberação no ambiente
-    organizacional;
-
-    -   **Prioridade**: a prioridade será definida após informar o impacto e a
-    urgência. A prioridade é usada para identificar a importância da liberação e
-    para identificar os tempos requeridos para que ações adequadas sejam
-    tomadas. A prioridade vai de 1 a 5, sendo que o 1 é a prioridade mais alta e
-    5 é a mais baixa.
-
-    ![Criar](images/requisition-8.png)
-
-    **Figure 8 - Urgência X impacto**
-
-6.  A combinação destas informações definirá a prioridade necessária para
-    realização da liberação.
-
-    -   **Descrição**: informe a descrição da liberação de mudança que está sendo
-    solicitada. A descrição deve ser objetiva, incluindo toda informação
-    necessária para realização da liberação;
-
-    -   **Agendamento**: agende a atividade da registro de liberação para execução:
-
-    -   **Data inicial planejada**: informe a data programada para início da
-    execução da registro de liberação;
-
-    -   **Hora Inicial**: informe a hora programada para início da execução da
-    registro de liberação;
-
-    -   **Data final planejada**: informe a data programada para o final da execução
-    da registro de liberação;
-
-    -   **Hora Final**: informe a hora programada para o final da execução da
-    registro de liberação;
-
-    -   **Grupo de Atividades (para o agendamento)**: selecione o grupo que irá
-    executar a atividade da registro de liberação.
-
-    -   **Notificação por e-mail**: marque as opções de envio de notificação sobre a
-    registro de liberação que serão enviadas para o solicitante.
-
-Vinculando mudanças
+Linking attachments
 -------------------
 
-1.  Relacione a(s) mudança(s) que será(ão) liberada(s):
+1.  If you want to attach a file to the release request record, do the
+    following:
 
-    -   Ao lado direito da tela, clique em **Processos/Opções** e logo em seguida na
-    opção **Mudanças**;
+   -   On the right side of the screen, click **Attachments**;
 
-    ![Criar](images/requisition-9.png)
+   ![figure](images/requisition-15)
+   
+   **Figure 11 - Attachments guide**
 
-    **Figura 9 - Guia de mudanças**
+   -   A file attachment window will appear;
 
-    -   Será apresentada a tela de vínculo de mudanças. Clique no ícone ![Criar](images/requisition-10.png). Após isso, será exibida a tela de pesquisa de mudanças;
+   ![figure](images/requisition-16)
+   
+   **Figure 12 - File attachment**
 
-    -   Realize a pesquisa e selecione a mudança que será liberada. Feito isso,
-        o registro de mudança será adicionado na tela, conforme exemplo
-        ilustrado na figura a seguir;
+-   Click the *Choose File* button. After that, select the desired file, enter
+    its description and click the *Add* button;
 
-    !!! note "NOTA"
+-   After adding the file, click the *Close* button to return to the release
+    request log screen;
 
-        Caso a mudança tenha itens de configuração relacionados, os mesmos
-        serão adicionados à liberação**.
+-   Click the *Save* button to register the release request, where the date,
+    time and user will be automatically saved for a future audit;
 
-
-    ![Criar](images/requisition-11.png)
-
-    **Figura 10- Relacionamento de mudança à liberação**
-
-    -   Caso queira alterar a situação da liberação da mudança que foi adicionada,
-    basta clicar no ícone ![Criar](images/requisition-12.png) da mesma;
-
-    -   Clique no ícone ![Criar](images/requisition-13.png)  para visualizar o plano de reversão da mudança que será liberada;
-
-    -   Caso queira excluir o vínculo da mudança com a liberação, basta clicar
-        no ícone ![Criar](images/requisition-14.png)  do mesmo.
-
-Vinculando anexos
------------------
-
-1.  Caso queira anexar um arquivo no registro da registro de liberação, proceda
-    da seguinte maneira:
-
-    -   Ao lado direito da tela, clique em **Anexos**;
-
-    ![Criar](images/requisition-15.png)
-
-    **Figura 11 - Guia de anexos**
-
-    -   Será apresentada uma janela para anexo de arquivos;
-
-    ![Criar](images/requisition-16.png)
-
-    **Figura 12 - Anexo de arquivos**
-
--   Clique no botão *Selecionar arquivo*. Após isso, selecione o arquivo
-    desejado, informe a descrição do mesmo e clique no botão *Adicionar*;
-
--   Após adição do arquivo, clique no botão *Fechar* para retornar à tela de
-    registro de registro de liberação.
-
--   Clique no botão *Gravar* para efetuar o registro da registro de liberação,
-    onde a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria.
-
--   Será exibida uma mensagem confirmando o sucesso do registro da registro de
-    liberação.
+-   A message confirming the successful registration of the release request will
+    be displayed.
 
 
-[1]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html
-[2]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
-[3]:/pt-br/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html
-[4]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
-[5]:/pt-br/citsmart-platform-7/processes/tickets/relate-group.html
-[6]:/pt-br/citsmart-platform-7/processes/tickets/relate-unit.html
-[7]:/pt-br/citsmart-platform-7/processes/release/register-type.html
-[8]:/pt-br/citsmart-platform-7/additional-features/automation-of-operation/configuration/periodic-activity-group.html
+
+[1]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/employee.html
+[2]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[3]:/en-us/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html
+[4]:/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[5]:/en-us/citsmart-platform-7/processes/tickets/relate-group.html
+[6]:/en-us/citsmart-platform-7/processes/tickets/relate-unit.html
+[7]:/en-us/citsmart-platform-7/processes/release/register-type.html
+[8]:/en-us/citsmart-platform-7/additional-features/automation-of-operation/configuration/periodic-activity-group.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Anna Martins
+    <b>Updated:</b>08/27/2019 – Anna Martins

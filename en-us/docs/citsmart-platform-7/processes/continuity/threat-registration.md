@@ -1,77 +1,77 @@
-title: Cadastro e pesquisa de ameaça
-Description: Esta funcionalidade tem por objetivo cadastrar as ameaças que serão usadas durante o registro da Continuidade.
-# Cadastro e pesquisa de ameaça
+title: Threat registration and search
+Description: The goal of this feature is to register threats which will be used during the continuity entry 
+# Threat registration and search
 
-Esta funcionalidade tem por objetivo cadastrar as ameaças que serão usadas durante o registro da Continuidade.
+The goal of this feature is to register threats which will be used during the continuity entry.
 
-Como acessar
--------------
+How to access
+-----------------
 
-1. Acesse a funcionalidade de ameaça através da navegação no menu principal 
-**Processos ITIL > Gerência de Continuidade > Cadastro de Ameaça**.
+1. Access the **Threat Register** feature navigating through the main menu 
+**Process Management > Continuity Management > Threat Register**.
 
-Pré-condições
----------------
+Preconditions
+-----------------
 
-1. Cadastrar Categoria de Ameaça (ver conhecimento [Cadastro e pesquisa de categoria de ameaça](/pt-br/citsmart-platform-7/processes/continuity/threat-category.html)).
+1. Register a Threat Category (see knowledge [Threat category registration and search](/en-us/citsmart-platform-7/processes/continuity/threat-category.html)).
 
-Filtros
----------
+Filters
+------------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Nome da ameaça.
+    - Threat Name.
     
-2. Na tela **Cadastrar Ameaça**, clique na aba **Pesquisar Ameaça**, será apresentada a tela de pesquisa conforme ilustrada na 
-figura abaixo:
+2. On the **Threat Registration** screen, click on the **Threat Search** tab. The search screen will be displayed as illustrated on 
+the image below:
 
-    ![Pesquisa](images/ameaça.img1.png)
+    ![Search](images/threat-reg.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de ameaça**
+    **Figure 1 - Threat search screen**
     
-3. Realize a pesquisa da ameaça:
+3. Perform a threat category search;
 
-    - Informe o nome da ameaça que deseja pesquisar e clique no botão "Pesquisar";
+    - Insert the name of the intended threat and click on the *Search* button;
 
-    - Após isso, será exibido o registro da ameaça conforme o nome informado;
+    - Afterwards, the threat entry will be displayed according to the description provided;
 
-    - Caso deseje listar todos os registros de ameaça, basta clicar diretamente no botão "Pesquisar".
+    - To list all threats, just click directly on the *Search* button, if needed.
 
-Listagem de itens
+Items list
 -------------------
 
-1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens desejados na listagem padrão
-da funcionalidade: **Nome da ameaça**.
+1. The following cadastral field is available to the user to make it easier to identify the desired items in the default listing of 
+the feature: **Threat Name**.
 
-    ![Listagem](images/ameaça.img2.png)
+    ![Listing](images/threat-reg.img2.jpg)
     
-    **Figura 2 - Tela de listagem de ameaças**
+    **Figure 2 - Threat listing screen**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo 
-referente ao registro selecionado;
+2. After searching, select the intended entry. Afterwards, they will be redirected to the registry screen displaying the content 
+belonging to the selected entry.
 
-3. Para alterar os dados do registro de ameaça, basta modificar as informações desejadas e clicar no botão "Gravar" para efetuar 
-a alteração realizada no registro, onde a data, hora e usuário serão gravados automaticamente para uma futura auditoria.
+3. To edit a threat category entry, just modify the information on the intended fields and click on the *Save* button to confirm 
+the changes to the database, at which date, time and user will be stored automatically for a future audit.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Será apresentada a tela de Cadastro de Ameaça, conforme ilustrada na figura abaixo:
+1. The threat entry screen will be displayed, as illustrated on the image below:
 
-    ![Cadastro](images/ameaça.img3.png)
+    ![Registration](images/threat-reg.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de ameaça**
+    **Figure 3 - Threat entry screen**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill out the fields as instructed below:
 
-    - **Nome da Ameaça**: informe a descrição da ameaça;
-    - **Categoria de Ameaça**: informe a categoria da ameaça.
+    - **Threat Name**: describe the threat;
+    - **Threat Category**: insert the threat category.
     
-3. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma 
-futura auditoria.
+3. Click on the *Save* the button to confirm the entry, at which date, time and user will automatically be stored for a future 
+audit.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Larissa Lourenço
+    <b>Updated:</b>08/27/2019 – Larissa Lourenço

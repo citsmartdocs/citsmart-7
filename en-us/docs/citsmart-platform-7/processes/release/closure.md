@@ -1,98 +1,96 @@
-title: Encerramento de liberação
-Description: Esta funcionalidade permite finalizar a requisição de liberação.
-# Encerramento de liberação
+title: Release record closing down
+Description: This feature allows closing down a release request.
 
-Esta funcionalidade permite finalizar a requisição de liberação.
+# Release record closing down
 
-!!! note "NOTA"
+This feature allows closing down a release request.
 
-    Somente o "solicitante" pode encerrar a requisição de liberação.
+!!! note "NOTE"
 
-Como acessar
+    Only the "applicant" may close down the release request.
+
+How to access
 ------------
 
-1.  Acesse a funcionalidade de Gerenciamento de Liberação através da
-    navegação no menu principal **Processos ITIL \>Gerência de
-    Liberação \> Gerenciamento de Liberação**.
+1.  Access the **Release Management** feature navigating through the main
+    menu **Process Management > Release Management > Release
+    Management**.
 
-Pré-condições
--------------
+Preconditions
+------------
 
-1.  Ter a requisição de liberação com a situação "resolvida".
+1.  Solved release request.
 
-Filtros
--------
+Filters
+------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filters enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -  Número da Requisição;
+-   Request Number;
 
-    -  Atribuída/Compartilhada.
+-   Assigned/Shared.
 
-![Criar](images/closure-1.png)
+![figure](images/closure-1.png)
 
-**Figura 1 - Tela de pesquisa de liberação**
+**Figure 1 - Release search screen**
 
-Listagem de itens
------------------
+Items list
+---------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Número, Solicitante, Criada
-    em, Prioridade, Prazo Limite, Atraso, Situação, Tarefa
-    atual, Grupo Executor, Responsável atual e Compartilhada com.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the default listing of the
+    functionality: Number, Applicant Name, Created on, Priority, Time
+    limit, Delay, Situation, Current task, Executor Group, Current
+    Responsible and Shared with;
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Visualizar*, *Relatórios*, *Agendar Requisição de*
-    *Liberação*, *Suspender liberação*, *Iniciar/Executar*
-    *tarefa* e *Delegar/Compartilhar tarefa*.
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *View*, *Reports*, *Request Release Schedule* , *Suspend
+    Release*, *Start/Run Task* and *Delegate/Share Task (Job Share)*;
 
-3.  Para encerrar a requisição de liberação, acesse a
-    guia **Gerenciamento**, localize a requisição de liberação que será
-    finalizada, clique no botão *Ações* e selecione a opção *Iniciar/Executar*
-    *tarefa*, conforme indicado na figura abaixo:
+3.  To closedown a release request, access the **Management** tab, locate the
+    release request which will closed down, click on the *Action*button and
+    select the *Start/Run Task* option, as indicated on the image below:
 
-    ![Criar](images/closure-2.png)
+   ![figure](images/closure-2.png)
+   
+   **Figure 2 - Execute current release management task**
 
-    **Figura 2 - Executar tarefa atual da requisição de liberação**
+4.  The **Release Request Entry** screen will be displayed with all the fields
+    filled out with the content related to the selected request
 
-1.  Será exibida a tela de **Requisição de Liberação** com os campos
-    preenchidos, com o conteúdo referente à requisição selecionada:
+    -   Check if the release changes were attended as requested;
 
-    -  Verifique se a liberação das mudanças foi atendida conforme solicitado;
+    -   Register the necessary information concerning the closure of the release
+    request.
 
-    -  Registre as informações necessárias sobre o encerramento da requisição de
-    liberação.
+5.  On the **Closure** area, click on the *Add an Execution Registry* button.
+    Afterwards, describe the information regarding the closure.
 
-1.  Na área de **Fechamento**, clique no botão *Adicionar registro de execução*.
-    Feito isso, descreva as informações sobre o encerramento.
+    -   After registering the information concerning the closure, click on the *Save
+    and Forward Flow* button to perform the operation, at which the release will
+    be successfully closed down.
 
-    -  Após registro das informações sobre o encerramento da liberação, clique no
-    botão *Gravar e avançar o fluxo* para efetuar a operação, onde a liberação
-    será finalizada com sucesso.
+6.  To save only the registered information concerning the release closure and
+    maintain the current task, click on the *Save and Keep the Current
+    Task* button;
 
-1.  Caso queira gravar somente as informações registradas sobre a encerramento
-    da liberação e manter a tarefa atual, clique no botão *Gravar e manter a
-    tarefa atual*;
+7.  In both previous cases, clicking on the *save button*, The date, time and
+    user will be automatically stored for a future audit.
 
-2.  Em ambos os casos anteriores, ao clicar no botão *Gravar* a data, hora e
-    usuário serão armazenados automaticamente para uma futura auditoria.
+!!! info "IMPORTANT"
 
-!!! info "IMPORTANTE"
+    After closing down the release request, the configuration items related to
+    it which are in development will be set to the production envirnment to be
+    verified.
 
-     Após finalizar a requisição de liberação, os itens de configuração
-     relacionados a mesma que estão em desenvolvimento ou em homologação, serão
-     encaminhados para o ambiente de produção para serem validados.
+Filling in the registration fields
+--------------------------------
 
-Preenchimento dos campos cadastrais
------------------------------------
-
-1.  Não se aplica.
+1.  Not applicable.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Anna Martins
+    <b>Updated:</b>08/27/2019 – Anna Martins
