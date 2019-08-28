@@ -14,8 +14,7 @@ How to access
 Preconditions
 -------------
 
-1.  Have a registered problem (see knowledge [Problem
-    registration]([1]).
+1.  Have a registered problem (see knowledge [Problem registration][1]).
 
 Filters
 -------
