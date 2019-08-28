@@ -1,84 +1,84 @@
-title: Captura de eventos de outras fontes/ferramentas
-Description: Permite capturar eventos de outras fontes ou ferramentas (WebService).
-# Captura de eventos de outras fontes/ferramentas
+title: Capturing events from other fonts/tools
+Description: Allows you to capture events from other sources or tools (WebService).
+# Capturing events from other fonts/tools
 
-Permite capturar eventos de outras fontes ou ferramentas (WebService).
+Allows you to capture events from other sources or tools (WebService).
 
-Pré-condições
---------------
+Preconditions
+----------------
 
-1. Não se aplica.
+1. No applicable.
 
-Capturando eventos de outras fontes/ferramentas
--------------------------------------------------
+Capturing events
+-----------------------
 
-## Como acessar ##
+## How to access ##
 
-1. Acesse a funcionalidade de captura de eventos de outras fontes/ferramentas através da navegação no menu principal 
-**Processos ITIL > Gerência de Evento > Gerente de Eventos Global**.
+1. Access the event capture functionality from other sources/tools by navigating the main menu 
+**ITIL Processes > Event Management > Global Event Manager**.
 
-## Filtros ##
+## Filters ##
 
-1. Não se aplica.
+1. No applicable.
 
-## Listagem de itens ##
+## Items list ##
 
-1. Não se aplica.
+1. No applicable.
 
-## Preenchimento dos campos cadastrais ##
+## Filling in the registration fields ##
 
-1. Na aba **Cadastrar Gerentes**, cadastre uma EPL para identificação dos eventos relevantes:
+1. In the **Register Event Manager** tab, register an EPL to identify the relevant events:
 
-    - Realize o cadastro de uma EPL que irá definir quais eventos serão relevantes e deverão ser registrados.
-    - Segue abaixo um exemplo de EPL para RH:
-        - @Description ('EPL para Evento de RH') select * from pattern [every (ev=EventoCorrelacao (properties('tipo')='RH'))]
+    - Make a record of an EPL that will define which events will be relevant and should be recorded.
+    - Here's an example of EPL for HR:
+        - @Description ('EPL for HR Event') select * from pattern [every (ev = EventCorrelation (properties ('type') = 'HR'))]
         
-    ![Global](images/cap-eve.img1.png)
+    ![Global](images/capture.img1.jpg)
     
-    **Figura 1 - Tela gerente de eventos global**
+    **Figure 1 - Global events manager screen**
     
-2. Esta EPL irá capturar e registrar qualquer evento que seja enviado utilizando nosso WS que contenha o tipo ‘RH’.
+2. This EPL will capture and record any event that is sent using our WS containing the 'RH' type.
 
-3. Envio de Eventos através do WebService:
+3. Sending Events via WebService:
 
-    - Utilize a URL http://<IP_EVM>:<PORTA>/citsmartevm/ws/processEvent para enviar os eventos que deverão ser processados pelo 
-    Esper. Este WebService utiliza método POST e recebe um JSON como dado para o processamento dos eventos. Segue abaixo um 
-    exemplo de JSON para ser enviado no WebService que irá se enquadrar no exemplo da EPL registrada acima:
-    {"properties" : {"uuid" : "5e5517507c66", "nome" : "Barry Allen", "tipo" : "RH", "situacao" : "Contratação"}}
+    - Use the URL http: // <IP_EVM>: <PORT> / citsmartevm / ws / processEvent to send the events that are to be processed by Esper. 
+    This WebService uses POST method and receives a JSON as data for the processing of events. Below is an example of JSON to be 
+    submitted in the WebService that will fit the example of the EPL registered above:
     
-        - O elemento “**properties**” é obrigatório, e se não foi enviado, não será possível a identificação do evento.
-        - O elemento “**uuid**” é obrigatório para a identificação de eventos relacionados.
-        - O WS não retornará nenhuma informação, somente a resposta de 200 OK informando que a requisição foi realizada com 
-        sucesso.
+    **{"properties" : {"uuid" : "5e5517507c66", "name" : "Barry Allen", "type" : "HR", "status" : "Hiring"}}**
+   
+    - The "**properties**" element is required, and if it was not sent, it will not be possible to identify the event;      
+    - The "**uuid**" element is required for the identification of related events;
+    - The WS will not return any information, only the 200 OK response stating that the request was successful.
         
-Visualizando os eventos capturados
+Viewing captured events
 -----------------------------------
 
-## Como acessar ##
+## How to access ##
 
-1. Após o registro da ocorrência de evento, o mesmo poderá ser visualizado na tela de Gerenciamento de Eventos 
-**Processos ITIL > Gerência de Eventos > Gerenciamento de Eventos**.
+1. After registering the event occurrence, it can be viewed in the Event Management screen 
+**ITIL Processes > Event Management > Event Management**.
 
-2. Nesta tela permite realizar a pesquisa da ocorrência e permite verificar os detalhes técnicos do evento, conforme exemplo 
-ilustrado na figura abaixo:
+2. In this screen it allows to perform the search of the occurrence and allows to verify the technical details of the event, as 
+shown in the figure below:
 
-![Ocorrência](images/cap-eve.img2.png)
+![Occurrence](images/capture.img2.jpg)
 
-**Figura 2 - Tela detalhes da ocorrência - detalhes técnicos**
+**Figure 2 - Occurrence details screen - technical details**
 
-## Filtros ##
+## Filters ##
 
-1. Não se aplica.
+1. No applicable.
 
-## Listagem de itens ##
+## Items list ##
 
-1. Não se aplica.
+1. No applicable.
 
-## Preenchimento dos campos cadastrais ##
+## Filling in the registration fields ##
 
-1. Não se aplica.
+1. No applicable.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/18/2019 – Larissa Lourenço
+    <b>Updated:</b>08/28/2019 – Larissa Lourenço

@@ -1,111 +1,112 @@
-title: Teste de liberação
-Description:Esta funcionalidade permite registrar as informações da execução dos testes referente às mudanças que foram realizadas durante a fase de execução da requisição de liberação.
+title: Release test
+Description: This feature allows you to register information on the test execution regarding the changes that were made during the execution of the release request.
 
-# Teste de liberação
+# Release test
 
-Como acessar
-------------
+his feature allows you to register information on the test execution regarding
+the changes that were made during the execution of the release request.
 
-1.  Acesse a funcionalidade de Gerenciamento de Liberação através da navegação
-    no menu principal **Processos ITIL \> Gerência de Liberação \>
-    Gerenciamento de Liberação**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter a requisição de liberação na fase de teste.
+1.  Access the **Release Management** feature navigating through the main
+    menu **Process Management > Release Management > Release
+    Management.**
 
-Filtros
+Preconditions
+-------------
+
+1.  Have the release request in the test phase.
+
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filters enables the user to restrict the participation of
+    items in the standard feature listing, making it easier to find the desired
+    items:
 
-    -  Nº da Requisição;
+-   Request Nº;
 
-    -  Atribuída/ Compartilhada.
+-   Assigned/Shared.
 
-    ![Criar](images/test-1.png)
+![figure](images/test-1.png)
 
-    **Figura 1 - Tela de pesquisa de liberação**
+**Figure 1 - Release search screen**
 
-Listagem de itens
------------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Número, Solicitante, Criada em, Prioridade, Prazo limite,
-    Atraso, Situação, Tarefa atual, Grupo Executor, Responsável
-    atual e Compartilhada com.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: Number, Aplicant Name, Created on, Prority, Time limit, Delay,
+    Situation, Current task, Executor Group, Current responsible e Shared
+    with.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Visualizar*, *Relatórios* e *Ação*.
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *View*, *Report*, and *Action*.
 
-3.  Será apresentada a tela de Gerenciamento de Liberação. Na
-    guia **Gerenciamento**, localize a requisição de liberação, na qual será
-    registrada as informações de teste, clique no botão *Ações* e selecione a
-    opção *Iniciar/Executar tarefa*, conforme indicado na figura abaixo:
+3.  The release management screen will be displayed. On the Management tab,
+    locate the release request, where the test information will be registerd,
+    click on the *Action* button and click on the *Start/Run Task* option, as
+    indicated on the image below:
 
-    ![Criar](images/test-2.png)
+   ![figure](images/test-2.png)
+   
+   **Figure 2 - Execute current release request task**
 
-    **Figura 2 - Executar tarefa atual da requisição de liberação**
+4.  The **Release Request Registration** screen appears with the fields filled,
+    with the contents of the selected request:
 
-1.  Será exibida a tela de **Registro da Requisição de Liberação** com os campos
-    preenchidos, com o conteúdo referente à requisição selecionada;
+-   Record the necessary information about the tests;
 
-    -  Registre as informações necessárias sobre a execução dos testes;
+-   In the **Closing** area, click the *Add an Execution Record* button. After
+    that, describe the information about the execution of your activity.
 
-    -  Na área de **Fechamento**, clique no botão *Adicionar registro de execução*.
-    Feito isso, descreva as informações sobre a execução de sua atividade.
+Linking attachments
+-------------------
 
-Vinculando anexo
-----------------
+1.  To attach a file to the release request, proceed as explained below:
 
-1.  Caso queira anexar um arquivo à requisição de liberação, proceda da seguinte
-    maneira:
+   -   On the right side of the release request screen, click on
+    the **Attachments** tab, as illustrated on the image:
 
-    -  Ao lado direito da tela de requisição de liberação, clique em **Anexos**,
-    conforme indicado na figura a seguir:
+   ![figure](images/test-3.png)
+   
+   **Figure 3 - Attachments guide**
 
-    ![Criar](images/test-3.png)
+   -   The file attachment screen will be displayed, as illustrated on the image
+    below:
 
-    **Figura 3 – Guia de anexos**
+   ![figure](images/test-4.png)
+   
+   **Figure 4 - File addition screen**
 
-    -  Será apresentada a tela de anexo de arquivos, conforme ilustrada na figura
-    abaixo:
+   -   To add a file, click the *Choose File* button. The screen will appear to
+    select the desired file;
 
-    ![Criar](images/test-4.png)
+   -   Select the file and after that, enter the description of the file and click
+    the *Add* button;
 
-    **Figura 4 – Tela de adição de arquivos**
+   -   After adding the file, click the *Close* button to return to the release
+    request screen.
 
-    -  Para adicionar um arquivo, clique no botão *Selecionar arquivo*. Será
-    apresentada a tela para selecionar o arquivo desejado;
+2.  After saving the information regarding the test performed, click on
+    the *Save and Forward Flow* button perform the operation, at which the
+    release will be sent to the approval phase;
 
-    -  Selecione o arquivo e após isso, informe a descrição do arquivo e clique no
-    botão *Adicionar*;
+3.  To save only the registerec information on the test performed and keep the
+    current task, click the *Save and Keep the Current Task* button:
 
-    -  Após adição do arquivo, clique no botão *Fechar* para retornar à tela de
-    requisição de liberação.
+-   In both cases prior to clicking the *Save* button the date, time and user
+    will be automatically stored for a future audit.
 
-1.  Após registro das informações do teste realizado, clique no botão *Gravar e
-    avançar o fluxo* para efetuar a operação, onde a liberação será encaminhada
-    para fase de homologação;
+Filling in the registration fields
+----------------------------------
 
-2.  Caso queira gravar somente as informações registradas sobre o teste
-    realizado e manter a tarefa atual, clique no botão *Gravar e manter a tarefa
-    atual*;
-
-   -  Em ambos os casos anteriores ao clicar no botão *Gravar* a data, hora e
-    usuário serão armazenados automaticamente para uma futura a auditoria.
-
-Preenchimento dos campos cadastrais
------------------------------------
-
-1.  Não se aplica.
+1.  Not Applicable.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/15/2019 – Anna Martins
+    <b>Updated:</b>08/28/2019 – Anna Martins
