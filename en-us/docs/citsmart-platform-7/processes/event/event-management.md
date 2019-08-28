@@ -65,7 +65,7 @@ Monitor application, as shown below:
 
     - **Automat refresh** ![symbol](images/simb-refresh.jpg) : enables the refresh list option to be run from time to time;
     - **Update list** ![symbol](images/simb-update.jpg): clicking, the events list is updated;
-    - **Options** ![symbol](images/simb-conf.png): enables the change of the columns in the event list.
+    - **Options** ![symbol](images/simb-conf.jpg): enables the change of the columns in the event list.
     
 4. By clicking on any event in the listing, the ![symbol](images/simb-menu.green.jpg) will be shown:
 
