@@ -1,77 +1,75 @@
-title: Cadastro e pesquisa de modelos de EPL
-Description: Esta funcionalidade permite criar e manter modelos de EPL a serem usados na criação de uma EPL.
-# Cadastro e pesquisa de modelos de EPL
+title: EPL model registration and search
+Description: This feature allows creating and keeping EPL models which will be used on an EPL creation.
+# EPL model registration and search
 
-Esta funcionalidade permite criar e manter modelos de EPL a serem usados na criação de uma EPL.
+This feature allows creating and keeping EPL models which will be used on an EPL creation.
 
-!!! warning "ATENÇÃO"
+!!! warning "WARNING"
 
-    É necessário ter conhecimento da linguagem de processamento de eventos. Para mais informações consulte o site: 
+    It is necessary to have knowledge on the event processing language. For more information refer to the website:  
     http://www.espertech.com/esper/esper-documentation/
     
-Como acessar
---------------
-
-1. Acesse a funcionalidade de **modelo de EPL** através da navegação no menu principal 
-**Processos ITIL > Gerência de Evento > Modelo de EPL**.
-
-Pré-condições
+How to access
 ----------------
 
-1. Não se aplica.
+1. Access the **EPL Model** feature navigating through the main menu **Process Management > Event Management > EPL Model**.
 
-Filtros
+Preconditions
+----------------
+
+1. No applicable.
+
+Filters
 ----------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando 
-a localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Descrição.
+    - Description.
     
-    ![Pesquisa](images/epl.img1.png)
+    ![Search](images/epl.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de modelo EPL**
+    **Figure 1 - EPL model search screen**
     
-2. Realize a pesquisa de modelo de EPL:
+2. Perform an EPL model search:
 
-    - Informe a descrição do modelo EPL que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o registro 
-    conforme a descrição informada;
+    - Insert the name of the intended EPL model and click on the *Search* button. Afterwards, the EPL model entry will be displayed 
+    according to the description provided;
     
-    - Caso deseje listar todos os registros de modelo EPL, basta clicar diretamente no botão "Pesquisar".
+    - To list all EPL models, just click directly on the *Search* button, if needed.
     
-Listagem de itens
+Items list
 -------------------
 
-1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens desejados na listagem padrão 
-da funcionalidade: **Descrição**.
+1. The following cadastral field is available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **Description**.
 
-    ![Listagem](images/epl.img2.png)
+    ![Listing](images/epl.img2.jpg)
     
-    **Figura 2 - Tela de listagem de modelo EPL**
+    **Figure 2 - EPL model listing screen**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo 
-referente ao registro selecionado.
+2. After searching, select the intended entry. Afterwards, they will be redirected to the registry screen displaying the content 
+belonging to the selected entry.
 
-Preenchimento dos campos cadastrais
+Filling in the ragistration fields
 -------------------------------------
 
-1. Será apresentada a tela de cadastro de modelo de EPL, conforme ilustrada na figura abaixo:
+1. The EPL Model entry screen will be displayed, as illustrated on the image below:
 
-    ![Cadastro](images/epl.img3.png)
+    ![Entry](images/epl.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de modelo de EPL**
+    **Figure 3 - EPL model entry screen**
     
-2. Informe os dados para cadastro de modelo de EPL:
+2. Fill out the fields as instructed below to register an EPL Model:
 
-    - **Descrição**: informe a descrição do modelo de EPL;
-    - **Operadores**: são itens que poderão ser utilizados na criação do modelo de EPL;
-    - **Modelo de EPL**: descreva o script de EPL que servirá como modelo para criação de EPL. 
-    Ex.: select * from Event where classeNegocio = 'BusinessClass' and ( old is null );
+    - **Description**: describe the EPL Model;
+    - **Operators**: itens which can be used in the creation of the EPL Model;
+    - **EPL Rule**: describe the EPL script which will serve as a model to the EPL creation. e.g.: select*from Event where classBusiness = 'BusinessClass' and (old is null).
     
-3. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma futura 
-auditoria.
+3. Click on the *Save* the button to confirm the entry, at which date, time and user will automatically be stored for a future 
+audit.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/18/2019 – Larissa Lourenço
+    <b>Updated:</b>08/28/2019 – Larissa Lourenço
