@@ -1,78 +1,71 @@
-title:Captura de problema
+title:Problem capturing
+Description:This functionality allows you to capture the task, that is, to become the current person in charge of the problem.
 
-Description:Esta funcionalidade permite capturar a tarefa, ou seja, se tornar o responsável atual pelo atendimento do problema.
+# Problem capturing
 
-# Captura de problema
-
-Esta funcionalidade permite capturar a tarefa, ou seja, se tornar o responsável
-atual pelo atendimento do problema.
-
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de captura de problema através da navegação no menu
-    principal **Processos ITIL > Gerência de Problema > Gerenciamento de
-    Problema**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter problemas registrados (ver conhecimento [Cadastro de
-    problema][1]).
+1.  Access problem capture functionality by navigating the main menu **Process
+    Management > Problem Management > Problem Management**.
 
-Filtros
+Preconditions
+-------------
+
+1.  Have problems registered (see knowledge [Problem registration][1]).
+
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -   Nº do Problema.
+-   Problem Number.
 
-    ![Criar](images/capture-1.png)
+![figure](images/capture-1.png)
 
-    **Figura 1 - Tela de filtros**
+**Figure 1 - Problem search screen**
 
-Listagem de itens
------------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Número, Título, Contrato, Criada em, Prioridade, Prazo
-    limite, Solicitante, Status, Tarefa atual, Grupo
-    executor e Responsável atual.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard listing of the
+    functionality: Number, Title, Contract, Created on, Priority, Time
+    limit, User, Status, Current Task, Executor Group and Current
+    Responsible.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Visualizar*, *Relatórios* e *Ação*.
+2.  There are action buttons available to the user in relation to each item in
+    the listing, they are: *View*, *Reports* and *Action*.
 
-    ![Criar](images/capture-2.png)
+![figure](images/capture-2.png)
 
-    **Figura 2 - Tela de listagem de itens**
-    
-Preenchimento dos campos cadastrais
------------------------------------
+**Figure 2 - Problem listing screen**
 
-1.  Não se aplica.
+Filling in the registration fields
+----------------------------------
 
-Capturando problema
--------------------
+1.  No applicable.
 
-1.  Na guia **Gerenciamento**, localize o registro de problema que se deseja
-    capturar, clique no botão *Ação* e selecione a opção *Capturar tarefa*,
-    conforme indicado na imagem abaixo:
+Capturing problems
+------------------
 
-    ![Criar](images/capture-3.png)
+1.  On the **Management** tab, locate the problem log that you want to capture,
+    click the *Action* button and select the *Capture task* option, as indicated
+    in the image below:
 
-    **Figura 3 - Tela de gerenciamento de problemas**
+   ![figure](images/capture-3.png)
+   
+   **Figure 3 - Problem management screen**
 
-2.  Será exibida uma mensagem de confirmação da captura da tarefa. Clique
-    em *OK* para efetuar a operação. Será apresentado o responsável atual pelo
-    atendimento do problema na lista de registros de problema.
+2.  A task capture confirmation message will be displayed. Click *OK* to perform
+    the operation. The current person responsible for attending the problem will
+    be presented in the list of problem records.
 
 
-[1]:/pt-br/citsmart-platform-7/processes/problem/register-problem.html
+[1]:/en-us/citsmart-platform-7/processes/problem/register-problem.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/16/2019 – Anna Martins
+    <b>Updated:</b>08/28/2019 – Anna Martins
