@@ -1,29 +1,29 @@
-title: Visualização de gráficos de liberação
-Description: Visualização de gráficos de liberação
+title: Release view graphs
+Description: Release view graphs
 
-# Visualização de gráficos de liberação
+# Release view graphs
 
-Como acessar
-------------
+How to access
+-------------
 
-1.  Acesse a funcionalidade de Gerenciamento de Liberação através da
-    navegação no menu principal **Processos ITIL > Gerência de
-    Liberação > Gerenciamento de Liberação**. Será apresentada a
-    tela Gerenciamento de Liberação;
+1.  Access the **Release Management** feature navigating through the main
+    menu **Process Management > Release Management > Release
+    Management**. The release management screen will be displayed.
 
-Visualizando os gráficos de liberação
--------------------------------------
+Viewing release charts
+----------------------
 
-1.  Clique na guia **Gráficos**. Feito isso, será apresentado as informações dos
-    registros de liberação por situação (em andamento, suspensas e atrasadas),
-    por prioridade e por grupo executor, sendo essas demonstradas em gráficos,
-    conforme ilustrado na figura abaixo:
+1.  Click on the **Charts** tab. Afterwards, the information on the release
+    entries by situation will be displayed (In Execution, Suspended and
+    Delayed), by priority and by performer group, which are demonstrated in
+    charts, as illustrated on the image below:
 
-    ![Criar](images/graph.png)
+![figure](images/graph.png)
 
-    **Figura 1 - Gráficos de liberação**
+**Figure 1 - Release charts**
+
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/15/2019 – Anna Martins
+    <b>Updated:</b>08/27/2019 – Anna Martins
