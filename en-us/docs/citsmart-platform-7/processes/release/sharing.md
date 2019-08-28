@@ -1,90 +1,90 @@
-title: Compartilhamento de liberação
-Description:Esta funcionalidade permite compartilhar a requisição de liberação com outro grupo executor ou usuário.
+title: Release record sharing
 
-# Compartilhamento de liberação
+Description: This feature allows sharing a release request with another
+performer group or user.
 
-Esta funcionalidade permite compartilhar a requisição de liberação com outro
-grupo executor ou usuário.
+\# Release record sharing
 
-Como acessar
-------------
+This feature allows sharing a release request with another performer group or
+user.
 
-1.  Acesse a funcionalidade de Gerenciamento de Liberação através da
-    navegação no menu principal **Processos ITIL \> Gerência de
-    Liberação \> Gerenciamento de Liberação**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter requisição de liberação registrada (ver conhecimento [Cadastro e
-    pesquisa de requisição de liberação][1]);
+1.  Access the **Release Management** feature navigating through the main
+    menu **Process Management > Release Management > Release
+    Management**.
 
-2.  Ter permissão para delegar/compartilhar a requisição de liberação.
+Preconditions
+-------------
 
-Filtros
+1.  Register a release request (see knowledge [Release record registration and
+    search][1]);
+
+2.  Clearance to share/delegate the release request.
+
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -   Nº da Requisição;
+-   Request Nº;
 
-    -   Atribuída/Compartilhada.
+-   Assigned/Shared.
 
-![Criar](images/sharing-1.png)
+![figure](images/sharing-1.png)
 
-**Figura 1 - Tela de pesquisa de liberação**
+**Figure 1 - Release search screen**
 
-Listagem de itens
------------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Número, Solicitante, Criada em, Prioridade, Prazo limite,
-    Atraso, Situação, Tarefa atual, Grupo Executor, Responsável
-    atual e Compartilhada com.
+1.  The following cadastral field is available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: Number, Applicant Name, Created on, Priority, Deadline, Delay,
+    Situation, Current task, Executor Group, Current responsible and Shared
+    with;
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Visualizar,* *Relatórios* e *Ação*.
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *View*, *Reports* and *Action;*
 
-3.  Será apresentada a tela de Gerenciamento de Liberação;
+3.  The Release Management screen will be displayed;
 
-4.  Na guia **Gerenciamento**, localize a requisição de liberação que será
-    compartilhada, clique no botão *Ações* e selecione a
-    opção *Delegar/compartilhar tarefa*, conforme indicado na figura abaixo:
+4.  On the management tab, locate the release request which will be shared,
+    click on the *Action* button and select the *Delegate/Job Share*option;
 
-    ![Criar](images/sharing-2.png)
+   ![figure](images/sharing-2.png)
+   
+   **Figure 2 - Shared release request**
 
-    **Figura 2 - Compartilhar requisição de liberação**
+5.  A screen to select the group or user whom the request will be shared with
+    will be displayed.
 
-5.  Será exibida uma tela para a seleção do **Grupo** ou **Usuário**, com o qual
-    será compartilhada a requisição;
+   ![figure](images/sharing-3.png)
+   
+   **Figure 3 - Request release sharing**
 
-    ![Criar](images/sharing-3.png)
+6.  Select the group or or user who wants to share the request. Once this is
+    done, click the *Save* button;
 
-    **Figura 3 - Compartilhamento da requisição de liberação**
+7.  After performing the operation, the name of the user or group with which the
+    release request was shared will be displayed in **Shared with**, as shown in
+    the figure below:
 
-6.  Selecione o grupo ou usuário que deseja compartilhar a requisição. Feito
-    isso, clique no botão *Gravar*;
+![figure](images/sharing-4.png)
 
-7.  Após efetuar a operação, será exibido o nome do usuário ou grupo, com o qual
-    foi compartilhada a requisição de liberação, em **Compartilhada com**,
-    conforme exemplo ilustrado na figura abaixo:
+**Figure 4 - Shared release request**
 
-    ![Criar](images/sharing-4.png)
+Filling in the registration fields
+----------------------------------
 
-    **Figura 4 – Requisição de liberação compartilhada**
+1.  No applicable.
 
-Preenchimento dos campos cadastrais
------------------------------------
-
-1.  Não se aplica.
-
-[1]:/pt-br/citsmart-platform-7/processes/release/requisition.html
+[1]:/en-us/citsmart-platform-7/processes/release/requisition.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 - Anna Martins
+    <b>Updated:</b>08/27/2019 - Anna Martins
 
