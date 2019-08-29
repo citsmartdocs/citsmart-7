@@ -1,79 +1,74 @@
-title: Permissão de acesso do gerenciamento de tickets
-Description: A funcionalidade de Permissão de Acesso permite definir quem terá acesso às funcionalidades da tela de Gerenciamento de Requisições e Incidentes e qual tipo de acesso é permitido (leitura, gravação e/ou exclusão).
+title: Ticket management module access permissions
 
-# Permissão de acesso do gerenciamento de tickets
+Description: The Access Permission feature allows you to define who will have access to the features of the Request and Incident Management screen and what type of access is allowed (read, write and/or delete).
 
+# Ticket management module access permissions
 
+The Access Permission feature allows you to define who will have access to the
+features of the Request and Incident Management screen and what type of access
+is allowed (read, write and/or delete).
 
-A funcionalidade de Permissão de Acesso permite definir quem terá acesso às
-funcionalidades da tela de Gerenciamento de Requisições e Incidentes e qual tipo
-de acesso é permitido (leitura, gravação e/ou exclusão).
-
-Como acessar
------------
-
-1.  Acesse a funcionalidade de Permissão de Acesso do Gerenciamento de
-    Requisições e Incidentes através da navegação no menu principal **Acesso e
-    Permissão  > Gerência de Requisições/Incidentes.**
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter o perfil de Acesso cadastrado (ver conhecimento [Cadastro e pesquisa de
-    perfil de acesso](1)).
+1.  Access the Requests and Incidents Management Access Permission feature by
+    navigating the main menu **Access and Permission > Request/Incident
+    Management**.
 
-Filtros
+Preconditions
+-------------
+
+1.  Have access profile registered (see knowledge [Access profile registration
+    and search][1]).
+
+Filters
 -------
 
-1.  Não se aplica.
+**No applicable.**
 
-Listagem de itens
-----------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da funcionalidade: ID
-    e Nome;
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: **ID** and **Name**.
 
-2.  Existe um botão de ação disponível ao usuário em relação a cada item da
-    listagem, é ele: *Editar;*
+2.  There is an action button available to the user for each item in the
+    listing, it is: *Edit:*
 
-3.  Será apresentada a tela para definição da **Permissão de Acesso** às
-    funcionalidades da tela de **Gerenciamento de Requisições e Incidentes**, na
-    qual exibe os **Perfis de Acesso** já registrados no sistema. A figura a
-    seguir ilustra essa tela:
+3.  The screen for defining the **Access Permission** to the functionalities of
+    the **Request and Incident Management **screen will be displayed, in which
+    it displays the **Access Profiles** already registered in the system. The
+    following figure illustrates this screen:
 
-    ![Criar](images/permission-1.png)
-    
-    **Figura 1 - Tela de permissão de acesso - Gerenciamento de requisições e
-incidentes**
+   ![figure](images/permission-1.png)
+   
+   **Figure 1 - Access permission screen - Request and incident management**
 
-1.  Clique no botão *Editar* do Perfil de Acesso para o qual irá definir o tipo
-    de acesso às funcionalidades da tela de Gerenciamento de Requisições e
-    Incidentes. Feito isso, serão apresentadas as funcionalidades do
-    Gerenciamento de Requisições e Incidentes, conforme ilustrado na figura
-    abaixo:
+4.  Click the* Edit* button of the Access Profile to define the type of access
+    to the features of the Request and Incident Management screen. Once this is
+    done, the Request and Incident Management features will be presented, as
+    shown in the figure below:
 
-    ![Criar](images/permission-2.png)
-    
-    **Figura 2 - Definição do tipo de acesso**
+   ![figure](images/permission-2.png)
+   
+   **Figure 2 - Definition of the type of access**
 
-2.  Para cada funcionalidade do Gerenciamento de Requisições e Incidentes,
-    selecione as ações (visualizar, gravar e/ou deletar) que o Perfil poderá
-    realizar;
+5.  For each Request and Incident Management feature, select the actions (view,
+    save and/or delete) that the Profile can perform;
 
-3.  Após definição da permissão de acesso, clique no botão *Gravar* para efetuar
-    o registro, onde a data, hora e usuário serão gravados automaticamente para
-    uma futura auditoria.
+6.  After setting the access permission, click the *Record *button to register,
+    where the date, time and user are automatically saved for a future audit.
 
-Preenchimento dos campos cadastrais
----------------------------------
+Filling in the registration fields
+----------------------------------
 
-1.  Não se aplica.
+1.  Not applicable
 
 
-[1]:/pt-br/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
+[1]:/en-us/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/26/2019 – Anna Martins
+    <b>Updated:</b>08/29/2019 – Anna Martins
