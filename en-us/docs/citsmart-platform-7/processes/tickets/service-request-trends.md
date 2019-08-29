@@ -83,9 +83,9 @@ Items list
 
    !!! warning "ATTENTION"
 
-      The critical amount of requests equal to or greater than the minimum
-      critical amount reported in the filter will be displayed on each tab
-      (Service, Cause and Configuration Item).
+        The critical amount of requests equal to or greater than the minimum
+        critical amount reported in the filter will be displayed on each tab
+        (Service, Cause and Configuration Item).
 
 4.  Each tab will display the results for each type (service, cause and
     configuration item) and in each item two buttons will be displayed, one
