@@ -462,7 +462,7 @@ This report is intended to present the history of service request records.
 Generating request per performer report
 ---------------------------------------
 
-This report is intended to present service requests per performer*.*
+This report is intended to present service requests per performer.
 
 ### How to access
 
