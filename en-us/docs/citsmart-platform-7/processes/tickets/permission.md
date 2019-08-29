@@ -24,7 +24,7 @@ Preconditions
 Filters
 -------
 
-**No applicable.**
+**No applicable**.
 
 Items list
 ----------
@@ -37,7 +37,7 @@ Items list
     listing, it is: *Edit:*
 
 3.  The screen for defining the **Access Permission** to the functionalities of
-    the **Request and Incident Management **screen will be displayed, in which
+    the **Request and Incident Management** screen will be displayed, in which
     it displays the **Access Profiles** already registered in the system. The
     following figure illustrates this screen:
 
