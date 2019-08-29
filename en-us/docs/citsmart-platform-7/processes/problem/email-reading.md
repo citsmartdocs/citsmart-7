@@ -1,139 +1,131 @@
-title:Cadastro de problemas via leitura de email
-Description:Esta funcionalidade permite realizar o registro de um problema via leitura de e-mail.
+title: Registering problems via e-mail reading
+Description: This feature allows you to log a problem by reading e-mail.
 
-# Cadastro de problemas via leitura de email
+# Registering problems via e-mail reading
 
-Esta funcionalidade permite realizar o registro de um problema via leitura de
-e-mail.
+This feature allows you to log a problem by reading e-mail.
 
-Como acessar
-------------
-
-1.  Acesse o menu principal **Processos ITIL > Gerência de Problema >
-    Gerenciamento de Problema**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Cadastrar contrato (ver conhecimento [Cadastro e pesquisa de
-    contrato][1]);
+1.  Access the main menu **Process Management > Problem Management > Problem
+    Management**.
 
-2.  Cadastrar unidade (ver conhecimento [Cadastro e pesquisa de
-    unidade][2]);
+Preconditions
+-------------
 
-3.  Cadastrar solicitante (colaborador) (ver conhecimento [Cadastro e pesquisa
-    de colaborador][3]);
+1.  Register contract (see knowledge [Contract registration and search][1]);
 
-4.  Cadastrar grupo (ver conhecimento [Cadastro e pesquisa de grupo][4]);
+2.  Register unit (see knowledge [Unit registration and search][2]);
 
-5.  Cadastrar categoria de problema, a qual deverá ter o vínculo com o fluxo
-    referente ao problema (ver conhecimento [Cadastro e pesquisa de categoria de
-    problema][5]);
+3.  Register applicant (collaborator) (see knowledge [Staff registration and search][3]);
 
-6.  Vincular unidade ao contrato para que a unidade seja listada na tela de
-    registro de problema (ver conhecimento [Como relacionar unidade ao
-    contrato?][6]);
+4.  Group membership (see knowledge [Group registration and search][4]);
 
-7.  Definir o fluxo referente ao gerenciamento de problema (ver
-    conhecimento [Manutenção de fluxo de trabalho][7]);
+5.  Enter category of problem, which should have the link with the flow
+    referring to the problem (see knowledge [Problem category registration and
+    search][5]);
 
-8.  Cadastrar o grupo executor;
+6.  Link unit to contract so that the drive is listed on the problem log screen
+    (see knowledge [How to relate unit to contract?][6]);
 
-9.  Criar o template de problema;
+7.  Define the flow related to problem management (see knowledge [Workflow maintenance][7]);
 
-10. Vincular o grupo aos contratos, associando os solicitantes (colaboradores)
-    já cadastrados a este grupo, para que sejam listados os contratos e os
-    solicitantes relacionados na tela de registro de problema. Caso seja preciso
-    criar um novo colaborador, é necessário incluí-lo ao grupo de solicitante no
-    qual esteja relacionado ao contrato para que o mesmo consiga registrar um
-    problema, ou seja, para que o nome dele seja listado na tela de registro de
-    problema (ver conhecimento [Como relacionar grupo ao contrato?][8]);
+8.  Register the executor group;
 
-11. Configurar os parâmetros 23, 24, 25, 26, 27, 28 e 72 (ver
-    conhecimento [Regras de parametrização - E-mail][9]).
+9.  Create the problem template;
 
-Filtros
+10. Link the group to the contracts, associating the applicants (collaborators)
+    already registered to this group, so that the contracts and related
+    applicants are listed on the problem log screen. If it is necessary to
+    create a new employee, it is necessary to include it in the group of the
+    applicant in which it is related to the contract so that it can register a
+    problem, that is, to have its name listed on the problem registration screen
+    (see knowledge [How to relate group to contract?][8]);
+
+11. The following parameters have to be configured: 23, 24, 25, 26, 27, 28 e 72
+    (see knowledge [Paramerization rules-E-mail][9]).
+
+Filters
 -------
 
-1.  Não se aplica.
+1.  No applicable.
 
-Listagem de itens
------------------
+Itens list
+----------
 
-1.  Não se aplica.
+1.  No applicable.
 
-Preenchimento dos campos cadastrais
------------------------------------
+Felling in the registration fields
+----------------------------------
 
-1.  Após os parâmetros configurados, na tela de **Gerenciamento de
-    Problemas** clique no botão *Novo Problema*. Será exibida a tela
-    de **Registro de Problemas**, informe o contrato para qual será feito o
-    registro de problema e clique no botão *Leitura de e-mails* localizado na
-    parte superior da tela de registro de problema conforme indicado na figura
-    abaixo:
+1.  After the configured parameters, in the **Problem Management** screen click
+    the *New Problem* button. The **Problem Registration** screen appears, enter
+    the contract for which the problem registration will be made, and click
+    the *E-mails* button located at the top of the problem log screen as shown
+    in the figure below:
 
-     ![Criar](images/email-1.png)
+   ![figure](images/email-1.png)
+   
+   **Figure 1 - Selection of reading e-mails**
 
-     **Figura 1 - Seleção de leitura de e-mails**
+2.  A screen will appear to check incoming e-mails, as shown in the figure
+    below:
 
-2.  Será exibida uma tela para verificar os e-mails recebidos, conforme
-    ilustrada na figura abaixo:
+   ![figure](images/email-2.png)
+  
+   **Figure 2 - E-mail reading screen**
 
-    ![Criar](images/email-2.png)
+   -   Click the *Verify E-mails* button. The e-mails will be displayed, as shown
+    in the figure below:
 
-    **Figura 2 - Tela de leitura de e-mails**
+   ![figure](images/email-3.png)
+   
+   **Figure 3 - Reading e-mails**
 
-3.  Clique no botão *Verificar e-mails*. Serão exibidos os e-mails, conforme
-    mostrado na figura abaixo:
+   -   Click the *Load E-mail* button, which allows the problem to be created based
+    on the chosen e-mail;
 
-    ![Criar](images/email-3.png)
+   -   If the sender of the chosen e-mail is a collaborator registered in the
+    system, after clicking on the *Load E-mail* button, the fields **Applicant,
+    Contact Name, E-mail, Unit and Source** will be filled automatically with
+    the information regarding the employee, as Shown in the figure below. But if
+    the sender is not a registered employee in the system, he/she must fill in
+    the fields with the necessary information;
 
-    **Figura 3 - Leitura de e-mails**
+   -   Regardless of whether or not the sender is a registered employee in the
+    system, the** Description** field will be populated with the contents of the
+    e-mail, after clicking on the *Load E-mail* button, as shown in the figure
+    below:
 
-    -  Clique no botão *Carregar E-mail*, o qual permite que o problema seja criado
-    com base no e-mail escolhido;
+   ![figure](images/email-4.png)
+   
+   **Figure 4 - Problem registration screen**
 
-    -  Caso o remetente do e-mail escolhido seja um colaborador cadastrado no
-    sistema, após clicar no botão *Carregar E-mail*, os
-    campos **Solicitante**, **Nome do
-    Contato**, **E-mail**, **Unidade** e **Origem** serão preenchidos
-    automaticamente com as informações referente ao colaborador, conforme
-    ilustrado na figura abaixo. Mas caso o remetente não seja um colaborador
-    cadastrado no sistema, deverá preencher os campos com as informações
-    necessárias;
+   -   Record the remaining information of the problem and click the *Save* button
+    to register, where the date, time and user will be saved automatically for a
+    future audit;
 
-    -  Independente se o remetente é ou não um colaborador cadastrado no sistema, o
-    campo **Descrição** será preenchido com o conteúdo do e-mail, após clicar no
-    botão *Carregar E-mail*, conforme mostrado na figura abaixo;
+   -   A message confirming the success of the problem registration appears.
 
-    ![Criar](images/email-4.png)
+!!! note "NOTE"
 
-    **Figura 4 - Tela de registro de problema**
-
-    -  Registre as demais informações do problema e clique no botão *Gravar* para
-    efetuar o registro, onde a data, hora e usuário serão gravados
-    automaticamente para uma futura auditoria;
-
-    -  Será exibida uma mensagem confirmando o sucesso do registro de problema.
-
-!!! note "NOTA"
-
-    Ao registrar um problema através da leitura de e-mail, o e-mail escolhido
-    não será apresentado novamente na listagem de e-mails.
+    When registering a problem by reading e-mail, the chosen e-mail will not
+    appear again in the e-mail list.
 
 
-[1]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
-[2]:/pt-br/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html
-[3]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html
-[4]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
-[5]:/pt-br/citsmart-platform-7/processes/problem/category.html
-[6]:/pt-br/citsmart-platform-7/processes/tickets/relate-unit.html
-[7]:/pt-br/citsmart-platform-7/workflow/workflow-management.html
-[8]:/pt-br/citsmart-platform-7/processes/tickets/relate-group.html
-[9]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-email.html
+[1]:/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[2]:/en-us/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html
+[3]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/employee.html
+[4]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[5]:/en-us/citsmart-platform-7/processes/problem/category.html
+[6]:/en-us/citsmart-platform-7/processes/tickets/relate-unit.html
+[7]:/en-us/citsmart-platform-7/workflow/workflow-management.html
+[8]:/en-us/citsmart-platform-7/processes/tickets/relate-group.html
+[9]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-email.html
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/15/2019 – Anna Martins
+    <b>Updated:</b>08/29/2019 – Anna Martins
