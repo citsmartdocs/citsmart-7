@@ -88,7 +88,7 @@ Items list
 Filling in the registration fields
 ----------------------------------
 
-1.  Once this is done, the **Scheduling Rules Master **screen will be displayed,
+1.  Once this is done, the **Scheduling Rules Master** screen will be displayed,
     as shown in the figure below:
 
    ![figure](images/escalation-3.png)
