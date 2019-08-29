@@ -146,7 +146,7 @@ Filling in the registration fields
 See also
 --------
 
--   [Trend analisys of service requests][5]).
+-   [Trend analisys of service requests][5].
 
 
 [1]:/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
