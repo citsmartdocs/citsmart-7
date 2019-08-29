@@ -56,82 +56,78 @@ Items list
 1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard 
 feature listing: **ID** and **Description**.
 
-    ![Listagem](images/even-noti.img2.png)
+    ![Listing](images/notifications.img2.jpg)
     
-    **Figura 2 - Tela de listagem de configuração de eventos de notificação**
+    **Figure 2 - Notification event configuration listing screen**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo
-referente ao registro selecionado;
+2. After searching, select the intended entry. Afterwards, they will be redirected to the registry screen displaying the content 
+belonging to the selected entry;
 
-3. Para alterar os dados do registro de configuração de eventos de notificação, basta modificar as informações dos campos 
-desejados e clicar no botão "Gravar" para que seja gravada a alteração realizada no registro, onde a data, hora e usuário serão 
-gravados automaticamente para uma futura auditoria.
+3. To edit a event notification configuration entry, just modify the information on the intended fields and click on the *Save* 
+button to confirm the changes to the database, at which date, time and user will be stored automatically for a future audit.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Será apresentada a tela de cadastro de configuração de eventos de notificação, conforme ilustrada na figura abaixo:
+1. The Event Notification screen will be displayed, as illustrated on the image below:
 
-    ![Cadastro](images/even-noti.img3.png)
+    ![Entry](images/notifications.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de configuração de eventos de notificação**
+    **Figure 3 - Event notification entry screen**
     
-2. Informe os dados para cadastro de configuração de eventos de notificação:
+2. Insert the data for registering the event notification configuration:
 
-    - **Identificador**: informe a identificação do evento de notificação. Essa identificação é uma palavra chave ou sigla para 
-    diferenciar os eventos.
-    - **Descrição**: informe a descrição que desejar para a configuração de eventos de notificação;
-    - **Nível de Alerta**: selecione o nível de alerta;
-    - **Informe os dados para Check - EPL**:
-        - **Modelo de EPL**: informe o modelo de EPL que será utilizado. Ao clicar neste campo, será apresentada a tela "Modelo 
-        de EPL", clique na guia "Pesquisar", realize a pesquisa e selecione o modelo de EPL. Caso queira criar um modelo de EPL, 
-        clique na guia "Cadastrar";
-        - **Objeto de Negócio**: selecione o objeto de negócio, o qual deverá ser analisado. No momento que é escolhido o objeto 
-        de negócio, o sistema substitui a chave 'BusinessClass' para o nome completo da classe DTO, ou seja, o objeto de negócio
-        selecionado;
-        - **Atributos do Objeto**: selecione os atributos. Os atributos definem as características dos objetos de negócios e serão 
-        apresentados conforme o objeto escolhido. No momento que é escolhido o atributo, o sistema substitui a chave 
-        'AttributeClass' para o nome do atributo da classe DTO selecionado;
-    - **Operadores**: são os itens que poderão ser usados para criação da EPL.
-    - **EPL**: descreva o script EPL para identificação do evento.
-        - Caso queira limpar os dados informados no campo, basta clicar no botão "Limpar EPL";
-            - **Informe os dados para Notificação por E-mail**: quando o evento cair na regra da EPL, será enviado e-mail 
-            de notificação para o destinatário escolhido;
-    - **Destinatário**: informe o destinatário. Ao clicar neste campo, será apresentada a tela "Destinatário", realize a pesquisa 
-    e selecione o destinatário.
-    - **Modelo de E-mail**: informe o modelo de e-mail. Ao clicar neste campo, será apresentada a tela "Modelo de E-mail", 
-    realize a pesquisa e selecione o modelo de e-mail.
-    - **Exige Confirmação?**: selecione Sim ou Não para a necessidade de uma confirmação quando a notificação for recebida;
-        - Se a opção marcada for **Não**, o sistema vai disparar um e-mail para o destinatário e registrar o evento de notificação
-        como concluído.
-        - Se a opção marcada for **Sim**, os campos com as informações de prazo de alerta em minutos, e prazo de confirmação em 
-        minutos deverão ser preenchidos, assim como as informações para escalonamento:
-            - **Destinatário de Escalonamento**: informe o destinatário de escalonamento. Ao clicar neste campo, será apresentada 
-            a tela "Destinatário de Escalonamento", realize a pesquisa e selecione o destinatário de escalonamento;
-            - **Modelo de E-mail Escalonamento**: informe o modelo de e-mail de escalonamento. Ao clicar neste campo, será 
-            apresentada a tela "Modelo de E-mail Escalonamento", realize a pesquisa e selecione o modelo de e-mail de 
-            escalonamento;
-            - **Prazo de Escalonamento (Minutos)**: informe o prazo de escalonamento.
-    - **Informe os dados para Notificação em Tela**: quando o evento cair na regra da EPL, será apresentada notificação na tela
-    conforme configurado no template escolhido;
-    - **Template de Notificação**: selecione o template de notificação desejado;
-    - **Exige Confirmação?**: selecione Sim ou Não para a necessidade de uma confirmação quando a notificação for recebida;
-    - **Prazo do Alerta (Minutos)**: informe o prazo de alerta da notificação em tela, em minutos;
-    - **Vincular usuário**: vincule usuário(s) à notificação em tela;
-        - Clique no botão "Vincular usuário". Após isso, será apresentada a tela de pesquisa de usuários;
-        - Realize a pesquisa, selecione o usuário que deseja vincular à notificação em tela;
-    - **Vincular grupo**: vincule grupo(s) à notificação em tela;
-        - Clique no botão "Vincular grupo". Após isso, será apresentada a tela de pesquisa de grupos;
-        - Realize a pesquisa, selecione o grupo que deseja vincular à notificação em tela;
+    - **ID**: insert the identifier of the event notification. This identification is a keyword or an acronym to distinguish the 
+    events;
+    - **Description**: describe the event notification configuration as intended;
+    - **Alert Level**: select the alert level;
+    - **Insert the data for the Check - EPL**:
+        - **EPL Model**: please state the EPL model that will be used. When you click on this field, the "EPL Template" screen will 
+        appear, click on the "Search" tab, perform the search and select the EPL template. If you want to create an EPL template, 
+        click on the "Upload" tab;
+        - **Business Object**: select the business object, which should be analyzed. When the business object is chosen, the system 
+        replaces the 'BusinessClass' key for the full name of the DTO class, that is, the selected business object;
+        - **Object Attributes**: select attributes. Attributes define the characteristics of business objects and are presented 
+        with the chosen object. At the time the attribute is chosen, the system overrides the 'AttributeClass' key for the 
+        attribute name of the selected DTO class.
+    - **Operators**: these are the items that can be used to create the EPL;
+    - **EPL**: describe the EPL script for event ID:
+        - If you want to clear the data entered in the field, just click on the Clear EPL button;
+            - **Enter the data for E-mail Notification**: when the event falls under the EPL rule, notification e-mail will be sent 
+            to the chosen recipient;
+    - **Recipient**: please inform the recipient. Clicking on this field will display the "Recipient" screen, perform the search 
+    and select the recipient;
+    - **E-mail template**: enter the e-mail template. Clicking on this field will display the "E-mail template" screen, perform the 
+    search and select the e-mail template;
+    - **Requires Confirmation ?**: select Yes or No for the need for a confirmation when the notification is received:
+        - If the checked option is **No**, the system will trigger an e-mail to the recipient and register the notification event 
+        as complete;
+        - If the checked option is **Yes**, the fields with alert information in minutes, and confirmation time in minutes must be 
+        filled in, as well as information for scheduling:
+            - **Scheduling recipient**: inform the recipient of escalation. Clicking this field will display the "Scheduling 
+            Recipient" screen, perform the search and select the scheduling recipient;
+            - **E-mail Template Scheduling**: enter the escalation e-mail template. Clicking on this field will display the "E-mail 
+            Scheduling Template" screen, perform the search and select the escalation e-mail template;
+            - **Scheduling Time (Minutes)**: inform the scheduling period.
+    - **Enter the data for Screen Notification**: when the event falls on the EPL rule, on-screen notification will be displayed as 
+    configured in the chosen template;
+    - **Notification Template**: select the desired notification template;
+    - **Require Confirmation ?**: select Yes or No for the need for a confirmation when the notification is received;
+    - **Alert Time (Minutes)**: enter the alert period of the notification on screen, in minutes;
+    - **Link user**: link user (s) to notification on screen;
+        - Click the *Link User* button. After that, the user search screen will be displayed;
+        - Perform the search, select the user you want to link to the on-screen notification.
+    - **Link group**: link group (s) to on-screen notification;
+        - Click the *Link Group* button. After that, the group search screen will be displayed;
+        - Perform the search, select the group you want to link to the on-screen notification.
 
-3. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma futura 
-auditoria.
+3. Click on the *Record* button to register, where the date, time and user will be saved automatically for a future audit.
 
-!!! note "NOTA"
+!!! note "NOTE"
 
-    No momento da gravação, o sistema faz uma validação da sintaxe da EPL.
+    At the time of writing, the system does a validation of the EPL syntax.
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/18/2019 – Larissa Lourenço
+    <b>Updated:</b>08/29/2019 – Larissa Lourenço
