@@ -1,76 +1,75 @@
-title:Visualização de problema
-Description:Esta funcionalidade permite visualizar as informações do registro de problema.
+title: Problem visualization
+Description: This functionality lets you view the information in the problem log.
 
-# Visualização de problema
+# Problem visualization
 
-Esta funcionalidade permite visualizar as informações do registro de problema.
+This functionality lets you view the information in the problem log.
 
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de visualização de registro de problema através da
-    navegação no menu principal **Processos ITIL > Gerência de Problema >
-    Gerenciamento de Problema**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter um problema registrado (ver conhecimento [Cadastro de problema][1]).
+1.  Access the problem log view functionality by navigating the main
+    menu **Process Management > Problem Management > Problem
+    Management**.
 
-Filtros
+Preconditions
+-------------
+
+1.  Have a problem registered (see knowledge [Problem registration][1]).
+
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filters enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to locate the desired
+    items:
 
-    -   Número do problema
+-   Problem Number
 
-    ![Criar](images/visualization-1.png)
+![figure](images/visualization-1.png)
 
-    **Figura 1 - Tela de pesquisa de problemas**
+**Figure 1 - Problem search screen**
 
-Listagem de itens
+Items list
+----------
+
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard listing of the
+    functionality: Number, Title, Contract, Created on, Priority, Time
+    limit, User, Status, Current Task, Executor Group and Current
+    Responsible.
+
+2.  There are action buttons available to the user in relation to each item in
+    the listing, they are: *View*, *Reports* and *Action*.
+
+![figure](images/visualization-2.png)
+
+**Figure 2 - Problem listing screen**
+
+Filling in the registration fields
+----------------------------------
+
+1.  Not applicable.
+
+Viewing a problem
 -----------------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Número, Título, Contrato, Criada em, Prioridade, Prazo
-    limite, Solicitante, Status, Tarefa atual, Grupo executor e Responsável
-    atual.
+1.  On the Management tab, locate the problem record that you want to view, and
+    then click to *View*. As shown in the image below:
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Visualizar*, *Relatórios* e *Ação*.
+   ![figure](images/visualization-3.png)
+   
+   **Figure 3 - Problem management screen**
 
-    ![Criar](images/visualization-2.png)
+2.  The screen will be opened to display the necessary information;
 
-    **Figura 2 - Tela de listagem de problema**
-
-Preenchimento dos campos cadastrais
------------------------------------
-
-1.  Não se aplica.
-
-Visualizando um problema
-------------------------
-
-1.  Na guia **Gerenciamento**, localize o registro de problema que deseja
-    visualizar e clique no botão *Visualizar* do mesmo, conforme indicado na
-    imagem abaixo:
-
-    ![Criar](images/visualization-3.png)
-
-    **Figura 3 - Tela de Gerenciamento de Problemas**
-
-2.  Será aberta a tela para visualização das devidas informações;
-
-3.  Se desejar realizar a impressão das informações do registro de problema,
-    clique no botão *Imprimir PDF* ou *Imprimir Xls*.
+3.  If you want to print the trouble ticket information, click the *Print
+    PDF* button or *Print XLS*.
 
 
-[1]:/pt-br/citsmart-platform-7/processes/problem/register-problem.html
+[1]:/en-us/citsmart-platform-7/processes/problem/register-problem.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/16/2019 – Anna Martins
+    <b>Updated:</b>08/29/2019 – Anna Martins
