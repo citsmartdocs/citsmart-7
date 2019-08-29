@@ -45,7 +45,7 @@ Items list
    
    **Figure 1 - Access permission screen - Request and incident management**
 
-4.  Click the* Edit* button of the Access Profile to define the type of access
+4.  Click the *Edit* button of the Access Profile to define the type of access
     to the features of the Request and Incident Management screen. Once this is
     done, the Request and Incident Management features will be presented, as
     shown in the figure below:
