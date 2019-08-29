@@ -57,7 +57,7 @@ Items list
 5.  For each Request and Incident Management feature, select the actions (view,
     save and/or delete) that the Profile can perform;
 
-6.  After setting the access permission, click the *Record *button to register,
+6.  After setting the access permission, click the *Record* button to register,
     where the date, time and user are automatically saved for a future audit.
 
 Filling in the registration fields
