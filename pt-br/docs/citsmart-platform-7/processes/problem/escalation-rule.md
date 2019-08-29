@@ -19,11 +19,11 @@ Pré-condições
 
 3.  Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de contrato][2]);
 
-4.  Ter o colaborador cadastrado (ver conhecimento [Cadastro e pesquisa de colaborador][4]);
+4.  Ter o colaborador cadastrado (ver conhecimento [Cadastro e pesquisa de colaborador][3]);
 
-5.  Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de grupo][5]));
+5.  Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de grupo][4]));
 
-6.  Ter o portfólio de serviços definido (ver conhecimento [Cadastro de portfólio de serviços][6]).
+6.  Ter o portfólio de serviços definido (ver conhecimento [Cadastro de portfólio de serviços][5]).
 
 Filtros
 -------
