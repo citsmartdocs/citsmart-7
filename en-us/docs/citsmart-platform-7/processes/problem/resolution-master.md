@@ -26,6 +26,8 @@ Filters
 
 -   Problem Number.
 
+![figure](images/resolution-1.png)
+
 **Figure 1 - Filters screen**
 
 Items list
@@ -39,6 +41,8 @@ Items list
 
 2.  There are action buttons available to the user in relation to each item in
     the listing, they are: *View*, *Reports* and *Action*.
+
+![figure](images/resolution-2.png)
 
 **Figure 2 - Problem listing screen**
 
