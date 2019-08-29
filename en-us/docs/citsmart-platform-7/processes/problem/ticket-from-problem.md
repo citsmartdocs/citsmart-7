@@ -1,116 +1,109 @@
-title:Cadastro de solicitação de serviço a partir de um problema
-Description:Esta funcionalidade permite realizar o registro de uma solicitação de serviço a partir de um problema.
+title: Registering a service request from a problem
+Description: This feature allows you to register a service request from a problem.
 
-# Cadastro de solicitação de serviço a partir de um problema
+# Registering a service request from a problem
 
-Esta funcionalidade permite realizar o registro de uma solicitação de serviço a
-partir de um problema.
+This feature allows you to register a service request from a problem.
 
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de registro de solicitação de serviço a partir de um
-    problema através da navegação no menu principal **Processos
-    ITIL > Gerência de Problema > Gerenciamento de Problema**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Não se aplica.
+1.  Access the service request registration functionality from a problem by
+    navigating the main menu **Process Management > Problem
+    Management > Problem Management**.
 
-Filtros
--------
+Preconditions
+-------------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+2.  No applicable.
 
-    -   Número do Problema.
+3.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    ![Criar](images/ticket-1.png)
+-   Problem Number.
 
-    **Figura 1 - Tela de pesquisa de problema**
+![figure](images/ticket-1.png)
 
-Listagem de itens
------------------
+**Figure 1 - Problem search screen**
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Número, Título, Contrato, Criada em, Prioridade, Prazo
-    limite, Solicitante, Status, Tarefa atual, Grupo executor e Responsável
-    atual.
+Items list
+----------
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Visualizar*, *Relatórios* e *Ação*.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard listing of the
+    functionality: Number, Title, Contract, Created on, Priority, Time
+    limit, User, Status, Current Task, Executor Group and Current
+    Responsible.
 
-    ![Criar](images/ticket-2.png)
+2.  There are action buttons available to the user in relation to each item in
+    the listing, they are: *View*, *Reports* and *Action*.
 
-    **Figura 2 - Tela de listagem de problema**
+![figure](images/ticket-2.png)
 
-Preenchimento dos campos cadastrais
------------------------------------
+**Figure 2 - Problem listing screen**
 
-1.  Na guia **Gerenciamento**, localize o problema desejado, clique no
-    botão *Ação* e selecione a opção *Iniciar/Executar tarefa* do mesmo,
-    conforme indicado na figura abaixo:
+Filling in the registration fields
+----------------------------------
 
-    ![Criar](images/ticket-3.png)
+1.  On the Management tab, locate the problem you want, click
+    the *Action* button and select the *Start/Run task* from it, as shown in the
+    figure below:
 
-    **Figura 3 - Botão ação**
+   ![figure](images/ticket-3.png)
+   
+   **Figure 3 - Action button**
 
-1.  Será exibida a tela de **Registro de Problema**, clique na
-    guia **Processos/Opções** e logo em seguida em **Incidentes/Requisições**,
-    localizada no canto direito da tela, conforme indicado na figura abaixo:
+2.  The **Problem Log** screen appears, click the **Processes/Options** tab, and
+    then click on **Incidents/Requests**, located on the right-hand corner of
+    the screen, as shown in the figure below:
 
-    ![Criar](images/ticket-4.png)
+   ![figure](images/ticket-4.png)
+   
+   **Figure 4 - Selection of Incidents/Requests**
 
-    **Figura 4 - Seleção de incidentes/requisições**
+3.  The incident/Request relationship screen is displayed;
 
-1.  É apresentada a tela de relacionamento de incidente/requisição;
+   ![figure](images/ticket-5.png)
+   
+   **Figure 5 - Relate Incidents/Requests**
 
-    ![Criar](images/ticket-5.png)
+4.  To register a service request, click the icon ![figure](images/ticket-6.png). The Service Request/Incident
+    registration screen appears, as shown in the figure below:
 
-    **Figura 5 - Relacionar incidentes/requisições**
+   ![figure](images/ticket-7.png)
+   
+   **Figure 6 - Service Request/Incident record screen**
 
-1.  Para registrar uma solicitação de serviço, clique no ícone ![Criar](images/ticket-6.png) . Será exibida a
-    tela de registro de Requisição de Serviço/Incidente, conforme exemplo
-    ilustrado na figura abaixo:
+-   Fill in the step by step with the necessary information and click *Save* to
+    register;
 
-    ![Criar](images/ticket-7.png)
+-   A message confirming the successful registration of the new service request
+    will be displayed.
 
-    **Figura 6 - Tela de registro de requisição de serviço/incidente**
+Linking service request to the problem
+--------------------------------------
 
--   Preencha o passo a passo com as informações necessárias e clique
-    em *Gravar* para efetuar o registro;
+1.  To link the service request to the problem, click the icon ![figure](images/ticket-8.png) . The screen will
+    be displayed to search for it, as shown in the figure below:
 
--   Será exibida uma mensagem confirmando o sucesso do registro da nova
-    solicitação de serviço.
+   ![figure](images/ticket-9.png)
+   
+   **Figure 7 - Service Request/Incident search screen**
 
-Vinculando solicitação de serviço ao problema
----------------------------------------------
+-   Enter the number of the service request you want to search for and click
+    the *Search* button. If you want to list all Request/incident records,
+    simply click the *Search* button directly;
 
-1.  Para vincular a solicitação de serviço ao problema clique no ícone ![Criar](images/ticket-8.png).
-    Será exibida a tela para pesquisa do mesmo, conforme exemplo ilustrado na
-    figura abaixo:
+-   Select the desired record and it will be displayed on the incident/Request
+    relationship screen;
 
-    ![Criar](images/ticket-9.png)   
-
-    **Figura 7 - Tela de pesquisa de requisição de serviço/incidente**
-
--   Informe o número da solicitação de serviço que deseja pesquisar e clique no
-    botão *Pesquisar*. Caso deseje listar todos os registros de
-    requisições/incidentes, basta clicar diretamente no botão *Pesquisar*;
-
--   Selecione o registro desejado e o mesmo será apresentado na tela de
-    relacionamento de incidente/requisição;
-
--   Feito isso, basta clicar no botão *Gravar e avançar o fluxo* ou *Gravar e
-    manter a tarefa atual* caso queira gravar somente as informações registradas
-    sobre o relacionamento da solicitação de serviço e manter a tarefa atual da
-    solicitação.
+-   Once you have done this, simply click the *Save and Forward Flow* button ,
+    or *Save and Keep the Current Task* if you want to save only the registered
+    information about the service request relationship and maintain the current
+    request task.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/15/2019 – Anna Martins
+    <b>Updated:</b>08/29/2019 – Anna Martins
