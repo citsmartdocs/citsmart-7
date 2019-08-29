@@ -75,7 +75,7 @@ Linking recipients - add employee
 1. To add a staff member select the tab **Recipients - Add Employee**, click on the *Add* button and the screen to search and 
 select the staff member will be displayed:
 
-![Staff](images/ddestina.img4.jpg)
+![Staff](images/destina.img4.jpg)
 
 **Figure 4 - Staff member search screen**
 
