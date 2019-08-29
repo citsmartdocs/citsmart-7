@@ -26,77 +26,75 @@ locate the desired items as shown in the figure below:
 
     - Name.
     
-2. On the Recipient Settings screen, click on the Search tab. The search screen will be displayed as illustrated on the image below:
+2. On the **Recipient Settings** screen, click on the **Search** tab. The search screen will be displayed as illustrated on the 
+image below:
 
+    ![Search](images/destina.img1.jpg)
+    
+    **Figure 1 - Recipient settings search screen**
+    
+3. Perform a recipient settings search:
 
-    ![Pesquisa](images/dest-noti.img1.png)
+    - Insert the name of the intended settings and click on the *Search* button. Afterwards, the settings entry will be displayed 
+    according to the description provided;
     
-    **Figura 1 - Tela de pesquisa de configuração de destinatário**
+    - To list all settings, just click directly on the *Search* button, if needed.
     
-3. Realize a pesquisa de configuração de destinatário;
-
-    - Informe o nome da configuração de destinatário que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o 
-    registro conforme o nome informado;
-    
-    - Caso deseje listar todos os registros de configuração de destinatário, basta clicar diretamente no botão "Pesquisar".
-    
-Listagem de itens
+Items list
 --------------------
 
-1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: **Nome**.
+1. The following cadastral field is available to the user to facilitate the identification of the desired items in the standard 
+listing of the functionality: **Name**.
 
-    ![Listagem](images/dest-noti.img2.png)
+    ![Listing](images/destina.img2.jpg)
     
-    **Figura 2 - Tela de listagem de configuração de destinatário**
+    **Figure 2 - Recipient settings items list screen**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo
-referente ao registro selecionado;
+2. After searching, select the intended entry. Afterwards, they will be redirected to the registry screen displaying the content 
+belonging to the selected entry;
 
-3. Para alterar os dados do registro de configuração de destinatário, basta modificar as informações dos campos desejados e 
-clicar no botão "Gravar" para que seja gravada a alteração realizada no registro, onde a data, hora e usuário serão gravados 
-automaticamente para uma futura auditoria.
+3. To edit a recipient settings entry, just modify the information on the intended fields and click on the *Save* button to confirm 
+the changes to the database, at which date, time and user will be stored automatically for a future audit.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Acesse a funcionalidade, após isso, será apresentada a tela de Cadastro de **Configuração de Destinatário**, conforme 
-ilustrada na figura abaixo:
+1. Access the feature, afterwards, the **Recipient Settings Entry** screen will be displayed, as illustrated on the image below:
 
-    ![Cadastro](images/dest-noti.img3.png)
+    ![Entry](images/destina.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de configuração de destinatário**
+    **Figure 3 - Recipient settings entry screen**
     
-2. Informe os dados para cadastro de configuração de destinatário:
+2. Insert the recipient settings information to be registered:
 
-    - **Nome**: informe o nome que desejar para a configuração de destinatário.
+    - **Name**: insert the recipient settings intended name.
     
-Vinculando destinatários - colaboradores
+Linking recipients - add employee
 ------------------------------------------
 
-1. Para adicionar colaborador selecione a aba **Destinatários - Colaboradores**, clique no botão "Adicionar" e será apresentada a 
-tela para pesquisar e selecionar colaborador:
+1. To add a staff member select the tab **Recipients - Add Employee**, click on the *Add* button and the screen to search and 
+select the staff member will be displayed:
 
-![Pesquisa](images/dest-noti.img4.png)
+![Staff](images/destina.img4.jpg)
 
-**Figura 4 - Tela de pesquisa de colaborador**
+**Figure 4 - Staff member search screen**
 
-Vinculando destinatários - grupos
+Linking recipients - add group
 ----------------------------------
 
-1. Para adicionar grupo selecione a aba **Destinatários - Grupos**, clique no botão "Adicionar" e será apresentada a tela para
-pesquisar e selecionar grupo:
+1. To add a group click on the tab **Recipients - Add Group**, click on the *Add* button and the screen to search and select the 
+group will be displayed:
 
-    ![Pesquisa](images/dest-noti.img5.png)
+    ![Search](images/destina.img5.jpg)
     
-    **Figura 5- Tela de pesquisa de grupo**
+    **Figure 5 - Group search screen**
     
-2. Para excluir os colaboradores e grupos adicionados, basta clicar no ícone ![simbolo](images/simb-menos.red.png).
+2. To remove the added staff members and groups, just click on the ![symbol](images/simb-less.red.jpg) icon;
 
-3. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para 
-uma futura auditoria.
+3. Click on the *Save* the button to confirm the entry, at which date, time and user will automatically be stored for a future 
+audit.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/18/2019 – Larissa Lourenço
+    <b>Updated:</b>08/29/2019 – Larissa Lourenço
