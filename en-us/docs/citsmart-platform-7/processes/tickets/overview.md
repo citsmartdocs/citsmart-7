@@ -32,8 +32,7 @@ and thus ensure the best levels of service quality and availability.
 Where are the features
 ----------------------
 
-To access the functionality click on the main menu** Process Management
-> Ticket Management**.
+To access the functionality click on the main menu **Process Management > Ticket Management**.
 
 ![figure](images/mod-ticket.img1.jpg)
 
