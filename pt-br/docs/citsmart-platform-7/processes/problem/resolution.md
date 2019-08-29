@@ -54,8 +54,10 @@ se será necessária uma mudança, caso seja, submeter uma requisição de mudan
 mudança, executar as ações necessárias para resolução do problema e recuperação
 do serviço. Registrar os detalhes completos da solução e ações no Problema.
 
-**O membro do grupo designado para resolução deve capturar o problema e iniciar
-a atividade.**
+!!! note "NOTA"
+
+     O membro do grupo designado para resolução deve capturar o problema e iniciar
+     a atividade.
 
 1.  Na guia **Gerenciamento**, localize o registro de problema que deseja
     registrar a resolução, clique no botão *Ação* e selecione a
@@ -65,7 +67,7 @@ a atividade.**
 
     **Figura 3 - Tela de gerenciamento de problemas**
 
-1.  Será exibida a tela de **Registro de Problema** com os campos preenchidos,
+2.  Será exibida a tela de **Registro de Problema** com os campos preenchidos,
     referente ao problema selecionado. No quadro de **Fechamento**, registre as
     informações necessárias;
 

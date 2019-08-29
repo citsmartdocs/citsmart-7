@@ -1,102 +1,102 @@
-title: Cadastro de resolução do problema
-Description:Esta funcionalidade permite realizar o registro de resolução de problema.
+title: Problem resolution registration
+Description: This functionality allows you to log the problem resolution.
 
-# Cadastro de resolução do problema
+# Problem resolution registration
 
-Esta funcionalidade permite realizar o registro de resolução de problema.
+This functionality allows you to log the problem resolution.
 
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de registro de resolução de problema através da
-    navegação no menu principal **Processos ITIL > Gerência de
-    Problema > Gerenciamento de Problema**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Não se aplica.
+1.  Access the problem resolution logging feature by navigating to the main
+    menu **Process Management > Problem Management > Problem Management**.
 
-Filtros
+Preconditions
+-------------
+
+1.  Have problem registered.
+
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -   Número do problema.
+-   Problem Number.
 
-    ![Criar](images/resolve-1.png)
-    
-    **Figura 1 - Tela de filtros**
+![figure](images/resolve-1.png)
 
-Listagem de itens
------------------
+**Figure 1 - Filters screen**
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Número, Título, Contrato, Criada em, Prioridade, Prazo
-    limite, Solicitante, Status, Grupo Executor e Responsável atual.
+Items list
+----------
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Visualizar*, *Relatório* e *Ação*.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard listing of the
+    functionality: Number, Title, Contract, Created on, Priority, Time
+    limit, User, Status, Current Task, Executor Group and Current
+    Responsible.
 
-    ![Criar](images/resolve-2.png)
+2.  There are action buttons available to the user in relation to each item in
+    the listing, they are: *View*, *Reports* and *Action*.
 
-    **Figura 2 - Tela de listagem de problemas**
+![figure](images/resolve-2.png)
 
-Preenchimento dos campos cadastrais
------------------------------------
+**Figure 2 - Problem listing screen**
 
-Nesta etapa, deve verificar se a solução aplicada resolveu o problema. Verificar
-se será necessária uma mudança, caso seja, submeter uma requisição de mudança
-(RDM) para o processo de Gerenciamento de Mudanças. Caso não seja necessária uma
-mudança, executar as ações necessárias para resolução do problema e recuperação
-do serviço. Registrar os detalhes completos da solução e ações no Problema.
+Filling in the registration fields
+----------------------------------
 
-**O membro do grupo designado para resolução deve capturar o problema e iniciar
-a atividade.**
+In this step, you should verify that the solution you have applied solved the
+problem. Check if a change, if any, is required to submit a change request (RDM)
+to the Change Management process. If a change is not required, take the
+necessary actions to solve the problem and recover the service. Record the
+complete details of the solution and actions in the Problem.
 
-1.  Na guia **Gerenciamento**, localize o registro de problema que deseja
-    registrar a resolução, clique no botão *Ação* e selecione a
-    opção *Iniciar/Executar tarefa*, conforme indicado na imagem abaixo:
+   !!! note "NOTE"
 
-    ![Criar](images/resolve-3.png)
+       The member of the group designated for resolution must capture the problem
+       and start the activity.
 
-    **Figura 3 - Tela de gerenciamento de problemas**
+1.  On the Management tab, locate the problem record that you want to log the
+    resolution to, click the *Action* button and select the *Start/Execute
+    task* option, as shown in the image below:
 
-1.  Será exibida a tela de **Registro de Problema** com os campos preenchidos,
-    referente ao problema selecionado. No quadro de **Fechamento**, registre as
-    informações necessárias;
+   ![figure](images/resolve-3.png)
+   
+   **Figure 3 - Problem management screen**
 
--   Registre as informações da execução da tarefa de resolução do problema;
+2.  The **Problem Registration** screen with the filled fields for the selected
+    problem will be displayed. In the **Closing** table, record the necessary
+    information:
 
-    -   Clique no botão *Adicionar registro de execução* e descreva as
-        informações sobre a execução de sua atividade.
+-   Record the execution information of the problem resolution task;
 
--   Registre as informações sobre a solução que foi realizada:
+    -   Click the *Closure* button and describe the information about running
+        your activity.
 
-    -   **Causa**: selecione a causa do problema;
+-   Record the information about the solution that was performed:
 
-    -   **Categoria de Solução**: selecione a categoria de solução do problema,
-        ou seja, o que foi usado para resolver o problema;
+-   **Cause**: select the cause of the problem;
 
-    -   **Fechamento**: informe os detalhes da solução encontrada para o
-        problema.
+-   **Closure**: enter the details of the solution found for the problem.
 
--   Após registro das informações sobre a resolução do problema, clique no
-    botão *Gravar e avançar o fluxo* para efetuar a operação, onde o problema e
-    os incidentes relacionados serão finalizados com sucesso;
+-   **Solution**: select the problem solution category, that is, what was used
+    to solve the problem;
 
--   Caso queira gravar somente as informações registradas sobre a resolução do
-    problema e manter a tarefa atual, clique no botão *Gravar e manter a tarefa
-    atual*;
+-   After recording the problem resolution information, click the *Save and
+    Forward Flow* button and advance the flow to perform the operation, where
+    the problem and related incidents will be successfully completed;
 
--   Em ambos os casos anteriores, a data, hora e usuário serão gravados
-    automaticamente para uma futura auditoria.
+-   If you want to save only the logged information about the problem resolution
+    and keep the current job, click the *Save and Keep the Current Task* button
+    and keep the current task;
+
+-   In both previous cases, the date, time and user will be automatically saved
+    for a future audit.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/15/2019 – Anna Martins
+    <b>Updated:</b>08/29/2019 – Anna Martins
