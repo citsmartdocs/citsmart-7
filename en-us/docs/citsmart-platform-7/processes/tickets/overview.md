@@ -1,67 +1,77 @@
-title:  Módulo Gerenciamento de Requisições e Incidente
-Description: Cumprimento de Requisição é responsável por gerenciar o ciclo de vida de todas as requisições. 
-# Módulo Gerenciamento de Requisições e Incidente
+title:  Ticket Management module
+Description: Request Fulfillment is responsible for managing the life cycle of all requests. 
+# Ticket Management module
 
-Objetivo de módulo
----------------------
+Module objective
+----------------
 
-Cumprimento de requisição
+Compliance requirement
+----------------------
+
+According to ITIL, the Compliance Requiriment is responsible for managing the
+life cycle of all service requests made by users and seeks to maintain their
+satisfaction by efficiently and professionally handling all service requests, as
+well as Provides a channel for users to request and receive standard services,
+with defined access and quality controls. This process also provides information
+to users and customers about the availability of services and procedures to
+obtain them, as well as help with general information, complaints or comments.
+
+The activities in this process vary according to what is being requested.
+Service requests are handled by a specific process.
+
+Incident management
+-------------------
+
+Incident Management is the process responsible for managing the entire life
+cycle of incidents. Incidents can be reported by the technical team, by event
+detection tools - monitoring systems and alarmism - by users and vendors.
+
+Incident Management aims to restore the normal operation of the service quickly
+and thus ensure the best levels of service quality and availability.
+
+Where are the features
+----------------------
+
+To access the functionality click on the main menu **Process Management > Ticket Management**.
+
+![figure](images/mod-ticket.img1.jpg)
+
+**Figure 1 - Ticket Management module menu**
+
+Main feature (in highlight)
 ---------------------------
 
-Segundo a ITIL, o processo de Cumprimento de Requisição é responsável por gerenciar o ciclo de vida de todas as requisições de 
-serviços efetuadas pelos usuários e busca manter a satisfação dos mesmos por meio do tratamento eficiente e profissional de todas
-as requisições de serviço, assim como providencia um canal para os usuários requisitarem e receberem serviços padrão, com os 
-controles de acesso e qualidade definidos. Esse processo também provê informações para usuários e clientes sobre a 
-disponibilidade de serviços e procedimentos para obtê-los, além de ajudar com informações gerais, reclamações ou comentários.
+In the *See also* section you can access the main functionality(ies) of this
+module, in order to obtain a more detailed knowledge.
 
-As atividades deste processo variam de acordo com o que está sendo requisitado. As requisições de serviço são tratadas por um 
-processo específico.
+!!! info "IMPORTANT"
 
-Gerenciamento de incidentes
------------------------------
+    From version 7.1.0.8 onwards, CITSmart Enterprise ITSM no longer presents
+    the "Graphics" icon in this functionality, because it is a powerful option
+    that deserves a lot of attention in relation to the consumption of
+    computational resources, it was decided by its transferred into the Smart
+    Decision option so that there the Administrator can prudently configure the
+    access permission for each type of management chart, according to the logged
+    in user.
 
-O Gerenciamento de Incidentes é o processo responsável por gerenciar todo o ciclo de vida dos incidentes. Os incidentes podem ser
-informados pela equipe técnica, por ferramentas de detecção de eventos – sistemas de monitoramento e alarmismo - pelos usuários e
-por fornecedores.
+!!! Abstract "TIPS"
 
-O Gerenciamento de Incidentes tem como objetivo restaurar a operação normal do serviço de maneira rápida e garantir, desta forma, 
-os melhores níveis de qualidade e disponibilidade do serviço.
+    Depending on your access permission, you can perform a series of actions on
+    existing Requests (requests and incidents), such as: viewing the service
+    request description, reclassifying the request information, delegating the
+    request to another person or group, suspending the request service,
+    reactivate the request that was suspended for service, change the SLA
+    (response time) of the request, create sub-requests, display sub-requests,
+    create related request, schedule activity for the request to be performed
+    (attended) in a scheduled date; Print request, cancel request, perform
+    request service and so on.
 
-Onde estão suas funcionalidades
----------------------------------
+See also
+--------
 
-Para acessar a funcionalidade clique no menu principal **Processos ITIL > Gerência de Requisição e Incidente**.
+-   [Ticket management
+    (services)](/en-us/citsmart-platform-7/processes/tickets/ticket-management.html).
 
-![Menu](images/mod-ticket.img1.jpg)
-
-**Figura 1 - Menu do módulo Gerência de Requisição e Incidente**
-
-Principal funcionalidade (em destaque)
----------------------------------------
-
-Na seção "Veja também" é possível acessar a(s) funcionalidade(s) principal(is) deste módulo, desta forma se pode obter um 
-conhecimento mais detalhado.
-
-!!! info "IMPORTANTE"
-
-    Da versão 7.1.0.8 em diante, o CITSmart Enterprise ITSM não mais apresenta nesta funcionalidade o ícone "Gráficos", pois 
-    trata-se de uma opção poderosa que merece bastante atenção em relação ao consumo de recursos computacionais, decidiu-se por
-    sua transferida para dentro da opção Smart Decision para que lá o Administrador possa configurar de maneira prudente a 
-    permissão de acesso a cada tipo de gráfico gerencial, conforme o usuário logado.
-    
-!!! abstract "SAIBA MAIS"
-
-    Dependendo da sua permissão de acesso, é possível realizar uma série de ações nas Solicitações (requisições e incidentes)
-    existentes, sendo: visualizar a descrição da solicitação de serviço, reclassificar as informações da solicitação, delegar a
-    solicitação para outra pessoa ou grupo, suspender o atendimento da solicitação, reativar a solicitação que foi suspensa para
-    atendimento, alterar o SLA (tempo de atendimento) da solicitação, criar sub-solicitações, exibir sub-solicitações, criar 
-    solicitação relacionada, agendar atividade referente à solicitação para ser executada (atendida) em uma data programada; 
-    Imprimir solicitação, cancelar solicitação, executar atendimento da solicitação e entre outras.
-    
-Veja também
--------------
-
-- [Gerenciamento de ticket (serviços)](/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html).
 
 !!! tip "About"
 
