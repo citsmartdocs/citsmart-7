@@ -1,6 +1,5 @@
 title: Ticket management (services)
-Description: This knowledge aims to elucidate in a clear and didactic way the
-ticket functionality as a whole, explaining concisely its options.
+Description: This knowledge aims to elucidate in a clear and didactic way the ticket functionality as a whole, explaining concisely its options.
 
 # Ticket management (services)
 
