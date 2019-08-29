@@ -77,7 +77,7 @@ complete details of the solution and actions in the Problem.
 
 -   Record the information about the solution that was performed:
 
--   **Cause: **select the cause of the problem;
+-   **Cause**: select the cause of the problem;
 
 -   **Closure**: enter the details of the solution found for the problem.
 
