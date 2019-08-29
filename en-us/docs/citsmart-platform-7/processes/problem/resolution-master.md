@@ -66,18 +66,15 @@ complete details of the solution and actions in the Problem.
 2.  The **Problem Log** screen with the filled fields for the selected record
     will be displayed.
 
-   -   In the **Closure** frame, record the information needed to complete the
-    task:
+   -  In the **Closure** frame, record the information needed to complete the  task:
 
-   -   Click the *Add an Execution Register button*;
+      -  Click the *Add an Execution Register button*;
 
-   -   Describe the information about the execution of your activity.
+      -  Describe the information about the execution of your activity.
 
-   -   Record the serious problem review information;
+   -  Record the serious problem review information;
 
-   -   Click the** Processes/Options** tab, and then click **Review Major Problem
-    ,** located on the right-hand corner of the screen, as shown in the figure
-    below:
+       -  Click the **Processes/Options** tab, and then click **Review Major Problem**, located on the right-hand corner of the screen, as shown in the figure below:
 
    ![figure](images/resolution-4.png)
    
