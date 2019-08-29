@@ -96,7 +96,7 @@ This report aims to present the causes and solutions of service requests.
     the *Generate analytical report XLS* button to generate the detailed report
     in Excel format;
 
-Generating gantt report
+Generating Gantt report
 -----------------------
 
 This report is intended to present service incidents and requests in the Gantt
