@@ -1,33 +1,33 @@
-title: Configuração dos destinatários das notificações
-Description: Esta funcionalidade tem como objetivo de configurar os destinatários que receberão as notificações. 
-# Configuração dos destinatários das notificações
+title: Notification recipients setup
+Description: This functionality aims to configure the recipients which will receive notifications. 
+# Notification recipients setup
 
-Esta funcionalidade tem como objetivo de configurar os destinatários que receberão as notificações. O destinatário pode ser 
-um ou mais colaboradores e/ou grupos.
+This functionality aims to configure the recipients which will receive notifications. The recipient can be one or more staff 
+members and/or groups.
 
-Como acessar
--------------
+How to access 
+-----------------
 
-1. Acesse a funcionalidade de configuração de destinatário através da navegação no menu principal 
-**Processos ITIL > Gerência de Evento > Configuração de Destinatário**. 
+1. Access the **Recipient Settings** feature navigating through the main menu 
+**Process Management > Event Management > Recipient Settings**.
 
-Pré-condições
---------------
+Preconditions
+----------------
 
-1. Cadastro de colaborador (ver conhecimento [Cadastro e pesquisa de colaborador](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html));
+1. Register staff members (see knowledge [Staff registration and search](/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html));
 
-2. Cadastro de grupo (ver conhecimento [Cadastro e pesquisa de grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html)).
+2. Register groups (see knowledge [Group registration and search](/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html)).
 
-Filtros
----------
+Filters
+-----------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados, conforme ilustrado na figura abaixo:
+1. The following filter enable the user to restrict the participation of items in the standard feature listing, making it easier to 
+locate the desired items as shown in the figure below:
 
-    - Nome.
+    - Name.
     
-2. Na tela de **Configuração de Destinatário**, clique na aba **Pesquisar**. Será apresentada a tela de pesquisa conforme ilustrada
-na figura abaixo:
+2. On the Recipient Settings screen, click on the Search tab. The search screen will be displayed as illustrated on the image below:
+
 
     ![Pesquisa](images/dest-noti.img1.png)
     
