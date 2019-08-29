@@ -1,100 +1,98 @@
-title: Suspensão de problema
-Description: Esta funcionalidade permite reativar um problema que foi suspenso.
+title: Problem suspension
+Description: This functionality allows you to suspend the problem log.
 
-# Suspensão de problema
+# Problem suspension
 
-Esta funcionalidade permite suspender o registro de problema.
+This functionality allows you to suspend the problem log.
 
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de suspensão de problema através da navegação no
-    menu principal **Processos ITIL > Gerência de Problema > Gerenciamento de
-    Problema**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter um problema registrado (ver conhecimento [Cadastro de problema][1]);
+1.  Access the problem suspension feature by navigating the main menu **Process
+    Management > Problem Management > Problem Management**.
 
-2.  Cadastrar justificativa de problema (ver conhecimento [Cadastro e pesquisa
-    de justificativa de problema][2]).
+Preconditions
+-------------
 
-Filtros
+1.  Have problem registered (see knowledge [Problem registration][1]);
+
+2.  Enter problem justification (see knowledge [Problem justification
+    registration and search][2]).
+
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filters enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to locate the desired
+    items:
 
-    -   Número do problema.
+-   Problem Number
 
-    ![Criar](images/suspension-1.png)
+![figure](images/suspension-1.png)
 
-    **Figura 1 - Tela de pesquisa de problema**
+**Figure 1 - Problem Search Screen**
 
-Listagem de itens
------------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Número, Título, Contrato, Criada em, Prioridade, Prazo
-    limite, Solicitante, Status, Tarefa atual, Grupo executor e Responsável
-    atual.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard listing of the
+    functionality: Number, Title, Contract, Created on, Priority, Time
+    limit, User, Status, Current Task, Executor Group and Current
+    Responsible.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Visualizar*, *Relatórios* e *Ação*.
+2.  There are action buttons available to the user in relation to each item in
+    the listing, they are: *View*, *Reports* and *Action*.
 
-    ![Criar](images/suspension-2.png)
+![figure](images/suspension-2.png)
 
-    **Figura 2 - Tela de listagem de problema**
+**Figure 2 - Problem listing screen**
 
-Preenchimento dos campos cadastrais
------------------------------------
+Filling in the registration fields
+----------------------------------
 
-1.  Não se aplica.
+1.  Not applicable.
 
-Suspendendo problema
---------------------
+Suspending problem
+------------------
 
-1.  Na guia **Gerenciamento**, localize o registro de problema que se deseja
-    suspender, clique no botão *Ação* e na opção *Suspender/Reativar*, conforme
-    indicado na figura abaixo:
+1.  On the **Management** tab, locate the problem log that you want to suspend,
+    click the *Action* button and the Suspend/Reactivate option, as shown in the
+    figure below:
 
-     ![Criar](images/suspension-3.png)
+   ![figure](images/suspension-3.png)
+   
+   **Figure 3 - Problem management screen**
 
-    **Figura 3 - Tela de gerenciamento de problemas**
+2.  A window will appear to record the justification for suspending the problem:
 
-2.  Será exibida uma janela para registro da justificativa de suspensão do
-    problema:
+   ![figure](images/suspension-4.png)
+   
+   **Figure 4 - Record of suspension justification of the problem**
 
-    ![Criar](images/suspension-4.png)
+   -   **Justification**: select the justification for suspending the problem. This
+    justification must already be previously registered in the system so that
+    you can select it;
 
-    **Figura 4 - Registro da justificativa de suspensão do problema**
+   -   **Justification Complement**: inform the complement of the justification of
+    suspension of the problem;
 
-    -  **Justificativa**: selecione a Justificativa de suspensão do problema. Esta
-    justificativa já deve estar previamente cadastrada no sistema para que possa
-    selecioná-la;
+   -   After the data is entered, click the *Save* button. A message will appear to
+    confirm the suspension, click the *OK* button to perform the operation,
+    where the date, time and user will be automatically saved for a future
+    audit.
 
-    -  **Complemento da Justificativa**: informe o complemento da justificativa de
-    suspensão do problema;
+3.  The problem situation will be updated in the problem log list
+    for **Suspend**, as shown in the figure below:
 
-    -  Após os dados informados, clique no botão *Gravar*. Será exibida uma
-    mensagem para confirmação da suspensão, clique no botão *OK* para efetuar a
-    operação, onde a data, hora e usuário serão gravados automaticamente para
-    uma futura auditoria;
+![figure](images/suspension-5.png)
 
-3.  A situação do problema será atualizada na lista de registros de problema
-    para Suspensa, conforme ilustrado na figura abaixo:
+**Figure 5 - Problem management screen**
 
-    ![Criar](images/suspension-5.png)
-
-    **Figura 5 - Tela de gerenciamento de problemas**
-
-[1]:/pt-br/citsmart-platform-7/processes/problem/register-problem.html
-[2]:/pt-br/citsmart-platform-7/processes/problem/justification.html
+[1]:/en-us/citsmart-platform-7/processes/problem/register-problem.html
+[2]:/en-us/citsmart-platform-7/processes/problem/justification.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/16/2019 – Anna Martins
+    <b>Updated:</b>08/29/2019 – Anna Martins
