@@ -1,38 +1,41 @@
-title: Como relacionar grupo ao contrato?
-Description: Como relacionar grupo ao contrato
+title: How to relate group to contract?
+Description: How to relate group to contract?
 
-# Como relacionar grupo ao contrato?
+# How to relate group to contract?
 
-Para relacionar grupo ao contrato, proceda conforme as orientações abaixo:
+To relate the group to the contract, proceed as follows:
 
-1.  Acesse a funcionalidade de **Parâmetros do CITSmart** através da navegação
-    no menu principal. Posicione o mouse na opção **Parametrização** e clique na
-    opção **Parâmetros CITSmart**. Será apresentada a tela de **Parâmetros do
-    CITSmart**, clique na aba **Pesquisa de Parâmetros do CITSmart**. Feito isso,
-    será apresenta a tela para pesquisa de parâmetros;
+1.  Access the **CITSmart Parameters** feature by navigating through the main
+    menu. Position the mouse in the **Parameterization** option and click on
+    the **Parameters CITSmart** option. The **CITSmart Parameters** screen will
+    appear, click the **CITSmart Parameters Search** tab. Once this is done, it
+    will display the screen for parameter search;
 
-2.  Realize a pesquisa do parâmetro "**41 - Faz o controle de vínculo de
-    colaboradores aos contratos (S/N)?**" e selecione o mesmo;
+2.  Perform the search for parameter **"41 - Does the control of employees'
+    binding to contracts (Y / N)?"** And select the same. After that, the
+    parameter registration screen with the contents of the selected record will
+    be displayed;
 
-3.  No campo **valor**, informe o valor "S" para que seja exibido os contratos
-    na tela de cadastro de grupo. Feito isso, clique no botão *Gravar*para
-    efetuar a operação, neste caso a data, hora e usuário serão armazenados
-    automaticamente para uma futura auditoria.
+3.  In the **value** field, enter the "Y" value so that the contracts are
+    displayed on the group master screen. Once this is done, click on the Save
+    button to perform the operation, in which case the date, time and user will
+    be stored automatically for a future audit.
 
-4.  Após configurar o parâmetro, acesse a funcionalidade de Cadastro
-    de Grupo através da navegação no menu principal **Acesso e
-    Permissão > Grupo**. Será apresentada a tela de cadastro de grupo,
-    exibindo os contratos (ver conhecimento [Cadastrar um
-    grupo](1)).
+4.  After configuring the parameter, access the **Group Master** feature by
+    navigating in the main menu **General Files > Personnel Management >
+    Group**. The group registration screen will be displayed, displaying the
+    contracts (see knowledge [Register group][1]).
 
-5.  Caso o grupo que deseja vincular ao contrato já esteja registrado no
-    sistema, realize a pesquisa do grupo e selecione o mesmo;
+5.  If the group you want to link to the contract is already registered in the
+    system, perform the group search and select the same.
 
-6.  Feito isso, será exibida a tela de registro do determinado grupo;
+6.  Once this is done, the registration screen of the selected group will be
+    displayed;
 
-7.  Selecione os contratos, os quais o grupo será vinculado. Após isso, clique
-    no botão *Gravar* para efetuar a operação, neste caso a data, hora e usuário
-    serão armazenados automaticamente para uma futura auditoria.
+7.  Select the contracts to which the group will be linked. After that, click
+    the *Record* button to perform the operation, in which case the date, time
+    and user will be stored automatically for a future audit.
+
 
 
 [1]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
@@ -40,4 +43,4 @@ Para relacionar grupo ao contrato, proceda conforme as orientações abaixo:
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/26/2019 – Anna Martins
+    <b>Updated:</b>08/29/2019 – Anna Martins
