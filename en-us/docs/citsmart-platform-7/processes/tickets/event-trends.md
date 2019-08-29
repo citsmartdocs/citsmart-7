@@ -1,163 +1,161 @@
-title: Análise de tendência de eventos
-Description: Tem por objetivo gerar gráfico de Análise de Tendência de Eventos por Serviço de Negócio em determinado período, a fim de realizar uma análise dos eventos.
+title: Event trend analysis
 
-# Análise de tendência de eventos
+Description: This functionality aims to generate a Trend Analysis Chart by Business Service on a given period, in order to perform an analysis of the events. Trend analysis consists of using data to forecast future results.
 
-Esta funcionalidade tem por objetivo gerar gráfico de Análise de Tendência de
-Eventos por Serviço de Negócio em determinado período, a fim de realizar uma
-análise dos eventos. A análise de tendências consiste na utilização de dados
-para projeção de resultados futuros.
+# Event trend analysis
 
-!!! warning "ATENÇÃO"
+This functionality aims to generate a Trend Analysis Chart by Business Service
+in a given period, in order to perform an analysis of the events. Trend analysis
+consists of using data to forecast future results.
 
-    Esta funcionalidade somente poderá ser usada em instâncias em que o
-    cliente implantou também o módulo de Evento.
+!!! note "NOTE"
 
-Como acessar
-------------
+    This functionality can only be used in instances where the client also
+    deployed the Events module.
 
-1.  Acesse a funcionalidade de análise de tendências de eventos através da
-    navegação no menu principal **Processos ITIL > Gerência de
-    Tickets > Análise de Tendências**.
-
-2.  Após o acesso a funcionalidade, será apresentada a tela Análise de
-    Tendências, clique na aba *Eventos* para abrir a tela de análise de
-    tendência de eventos.
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter um contrato cadastrado e ativo (ver conhecimento [Cadastro e pesquisa de
-    contrato](1)) ;
+1.  Access the event trend analysis functionality by navigating the main
+    menu **Processes Management > Tickets Management > Trend Analysis**;
 
-2.  Ter uma solicitação de serviço cadastrada ([Gerenciamento de ticket
-    (serviços)](2)) e estar vinculada ao contrato;
+2.  After accessing the functionality, the Trend Analysis screen will be
+    displayed, click on the *Events* tab, which will allow the trend analysis of
+    events.
 
-3.  Configurar conexão do CITSmart Event Monitor (ver conhecimento [Conexão
-    CITSmart Event Monitor](3));
+Preconditions
+-------------
 
-4.  Configurar e instalar a ferramenta de monitoração (ver conhecimento [Manual
-    de instalação do componente Inventory](4)).
+1.  Have a registered and active contract (see knowledge [Contract registration
+    and search][1]);
 
-Filtros
+2.  Have a regsitered ticket (see knowlegde [Ticket management
+    (services)][2]) and and be linked by the contract;
+
+3.  Configure CITSmart Event Monitor connection (see knowlegde [CITSmart Event
+    Monitor connection][3]);
+
+4.  Configure and install the monitoring tool (see knowledge [Inventory
+    component installation guide][4]).
+
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados, conforme ilustrado na figura abaixo:
+1.  The following filters enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to locate the desired
+    items as shown in the figure below:
 
-    ![trend 1](images/event-trends-1.png)    
+    ![figure](images/event-trends-1.png)
     
-    **Figura 1 - Tela de análise de tendência de eventos**
+    **Figure 1 - Event trend analysis screen**
 
-1.  Preencha os campos conforme as orientações abaixo:
+2.  Fill in the fields according to the following guidelines:
 
-    -   **EVM - Conexão do Citsmart Event Monitor**: informe a conexão do Citsmart
-    Event Monitor;
+-   **EVM - CITSmart Event Monitor Connection**: connection of the CITSmart
+    Event Monitor: inform the connection of the CITSmart Event Monitor;
 
-    -   **Eventos Globais**: selecione a opção desejada (um evento desse tipo tem
-    impacto em vários segmentos);
+-   **Global Events**: select the desired option;
 
-    -   **Classificação**: informe a classificação do evento que deseja analisar;
+-   **Classification**: enter the classification of the event you want to
+    analyze;
 
-    -   **Ferramenta Monitoração - Conexão**: informe a ferramenta de monitoração;
+-   **Monitoring Tool - Connection**: inform the monitoring tool;
 
-    -   **Item de Configuração Pai**: informe o item de configuração pai;
+-   **Parent Configuration Item**: enter the parent configuration item;
 
-    -   **Item de Configuração Gerenciado**: informe o item de configuração
-    gerenciado;
+-   **Managed Configuration Item**: report the managed configuration item;
 
-    -   **Grupo categoria ocorrência**: selecione o grupo de categoria de ocorrência
-    de eventos;
+-   **Occurrence group category**: select the category of event occurrence
+    category;
 
-    -   **Categoria ocorrência**: selecione a categoria de ocorrência de eventos;
+-   **Occurrence category**: select the occurrence category of events;
 
-    -   **Quantidade Crítica**: informe a quantidade crítica de eventos;
+-   **Critical Quantity**: enter the critical quantity;
 
-    -   **Período de ocorrência**: informe o período desejado, com a data início e
-    data fim de ocorrência de evento.
+-   **Occurrence Period**: enter the desired period, with the start date and end
+    date of event occurrence.
 
-Listagem de itens
------------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da funcionalidade.
-    Existe um botão de ação disponível ao usuário em relação a cada item da
-    listagem, é ele: *Gerar Gráfico*.
+1.  The following cadastral fields are available to the user to make it easier
+    to identify the desired items in the standard feature listing. There are
+    action buttons available to the user for each item in the listing, it
+    is: *Generate Graphic*;
 
-2.  Após preenchimento dos filtros, clique no botão *Pesquisar*. Feito isso, o
-    sistema irá filtrar e totalizar os eventos que atendem aos filtros
-    selecionados e gerará quatro guias de resultados, sendo:
+2.  After completing the filters, click the *Search* button. Once this is done,
+    the system will filter and totalize the events that meet the selected
+    filters and generate four results:
 
-    -   **Classificação**: nessa guia é apresentado as ocorrências de eventos por
-    classificação;
+-   **Classification**: this tab shows the occurrence of events by
+    classification;
 
-    -   **Item de Configuração**: nessa guia é apresentado as ocorrências de eventos
-    por item de configuração;
+-   **Configuration Item**: this tab shows the occurrence of events by
+    configuration item;
 
-    -   **Serviço Técnico**: nessa guia é apresentado as ocorrências de eventos por
-    serviço técnico;
+-   **Technical Service**: this tab shows the occurrences of events by technical
+    service;
 
-    -   **Catálogo de Negócio**: nessa guia é apresentado as ocorrências de eventos
-    por serviços de negócios.
+-   **Business Catalog**: this tab shows the occurrences of events by business
+    services.
 
-    Aba Classificação:
+-   Cassification tab:
 
-    -   **Classificação e Quantidade Crítica.**
+    -   **Classification** and **Critical Quantity**.
+
+   ![figure](images/event-trends-2.png)
+   
+   **Figure 2 - Events listing screen - Classification tab**
+
+-   Configuration Item tab:
+
+    -   **ID, Configuration Item** and **Critical Quantity**.
+
+   ![figure](images/event-trends-3.png)
+   
+   **Figure 3 - Events listing screen - Configuration Item tab**
+
+-   Technical Service tab:
+
+    -   **ID, Configuration Item** and **Critical Quantity**.
+
+   ![figure](images/event-trends-4.png)
+   
+   **Figure 4 - Events listing screen - Technical Service tab**
+
+-   Business Catalog tab:
+
+    -   **ID, Configuration Item** and **Critical Quantity**.
+
+   ![figure](images/event-trends-5.png)
+   
+   **Figure 5 - Events listing screen - Business Catalog tab**
+
+3.  Each result tab will contain a button for generating the trend analysis
+    chart, which displays the dates that comprise the period reported in the
+    filters and the number of occurrences of events on that particular date.
+    Therefore, if you want to generate the graph for trend analysis of the
+    events by classification, IC, technical service and/or business service,
+    just click the *Generate Graph* button.
+
+Filling in the registration fields
+----------------------------------
+
+1.  Not applicable.
+
+See also
+--------
+
+-   [Trend analysis of service requests][5].
 
 
-    ![trend 2](images/event-trends-2.png)
-
-    **Figura 2 - Tela de listagem de eventos - aba Classificação**
-
-    Aba Item de Configuração:
-
-    -   **ID, Item de Configuração** e **Quantidade Crítica**.
-
-    ![trend 3](images/event-trends-3.png)
-
-    **Figura 3 - Tela de listagem de eventos - aba Item de Configuração**
-
-    Aba Serviço Técnico:
-
-    -   **ID, Item de Configuração** e **Quantidade Crítica.**
-
-    ![trend 4](images/event-trends-4.png)
-
-    **Figura 4 - Tela de listagem de eventos - aba Serviço Técnico**
-
-    Aba Catálogo de Negócio:
-
-    -   **ID, Item de Configuração e Quantidade Crítica.**
-
-    ![trend 5](images/event-trends-5.png)
-
-    **Figura 5 - Tela de listagem de eventos - aba Catálogo de Negócio**
-
-1.  Em cada guia de resultado conterá um botão para geração do gráfico de
-    análise de tendências, o qual apresenta as datas que compreendem o período
-    informado nos filtros e o número quantitativo de ocorrências de eventos
-    naquela determinada data. Portanto, caso queira gerar o gráfico para análise
-    de tendência dos eventos por classificação, IC, serviço técnico e/ou serviço
-    de negócio, basta clicar no botão *Gerar Gráfico*.
-
-Preenchimento dos campos cadastrais
------------------------------------
-
-1.  Não se aplica.
-
-Veja também
------------
-
--   [Análise de tendências de solicitações de
-    serviço].
-
-[1]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
-[2]:/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html
-[3]:/pt-br/citsmart-platform-7/additional-features/add-ons/event-monitor-connection.html
-[4]:/pt-br/citsmart-platform-7/additional-features/add-ons/inventory-installation.html
+[1]:/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[2]:/en-us/citsmart-platform-7/processes/tickets/ticket-management.html
+[3]:/en-us/citsmart-platform-7/additional-features/add-ons/event-monitor-connection.html
+[4]:/en-us/citsmart-platform-7/additional-features/add-ons/inventory-installation.html
+[5]:/en-us/citsmart-platform-7/processes/tickets/service-request-trends.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/10/2019 – Anna Martins
+    <b>Updated:</b>08/29/2019 – Anna Martins

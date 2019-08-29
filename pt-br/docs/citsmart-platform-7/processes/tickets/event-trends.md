@@ -149,13 +149,13 @@ Preenchimento dos campos cadastrais
 Veja também
 -----------
 
--   [Análise de tendências de solicitações de
-    serviço].
+-   [Análise de tendências de solicitações de serviço][5].
 
 [1]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
 [2]:/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html
 [3]:/pt-br/citsmart-platform-7/additional-features/add-ons/event-monitor-connection.html
 [4]:/pt-br/citsmart-platform-7/additional-features/add-ons/inventory-installation.html
+[5]:/pt-br/citsmart-platform-7/processes/tickets/service-request-trends.html
 
 !!! tip "About"
 
