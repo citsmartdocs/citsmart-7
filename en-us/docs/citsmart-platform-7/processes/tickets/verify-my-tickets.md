@@ -1,6 +1,5 @@
 title: My tickets check
-Description: This functionality is intended to provide a summary of service
-requests (tickets) made by the user.
+Description: This functionality is intended to provide a summary of service requests (tickets) made by the user.
 
 # My tickets check
 
