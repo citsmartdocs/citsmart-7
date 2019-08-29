@@ -1,8 +1,7 @@
 title: Registration and search of rules for scheduling of a problem
-
 Description: Registration and search of rules for scheduling of a problem
 
-\# Registration and search of rules for scheduling of a problem
+# Registration and search of rules for scheduling of a problem
 
 How to access
 -------------
