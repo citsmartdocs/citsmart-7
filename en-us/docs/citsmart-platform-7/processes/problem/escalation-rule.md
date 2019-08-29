@@ -99,7 +99,7 @@ Filling in the registration fields
 
    a. Enter Filters data:
 
-   -   **Type of Management **: select the "Request" option for which the rule will
+   -   **Type of Management**: select the "Request" option for which the rule will
     be applied;
 
    -   **Contract**: select the contract;
@@ -127,7 +127,7 @@ Filling in the registration fields
 
    b. Enter Classification/Notification Rule data:
 
-   -   **Classification/Event: **select the desired option to be sent notification
+   -   **Classification/Event**: select the desired option to be sent notification
     to the person in charge:
 
    -   If the option selected is "Winning", the field "Remaining time for
