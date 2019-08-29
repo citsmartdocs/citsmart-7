@@ -94,7 +94,7 @@ Felling in the registration fields
     the fields with the necessary information;
 
    -   Regardless of whether or not the sender is a registered employee in the
-    system, the** Description** field will be populated with the contents of the
+    system, the **Description** field will be populated with the contents of the
     e-mail, after clicking on the *Load E-mail* button, as shown in the figure
     below:
 
