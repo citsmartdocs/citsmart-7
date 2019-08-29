@@ -87,16 +87,16 @@ Items list
     the system will filter and totalize the events that meet the selected
     filters and generate four results:
 
--   **Classification:** this tab shows the occurrence of events by
+-   **Classification**: this tab shows the occurrence of events by
     classification;
 
--   **Configuration Item: **this tab shows the occurrence of events by
+-   **Configuration Item**: this tab shows the occurrence of events by
     configuration item;
 
--   **Technical Service: **this tab shows the occurrences of events by technical
+-   **Technical Service**: this tab shows the occurrences of events by technical
     service;
 
--   **Business Catalog: **this tab shows the occurrences of events by business
+-   **Business Catalog**: this tab shows the occurrences of events by business
     services.
 
 -   Cassification tab:
