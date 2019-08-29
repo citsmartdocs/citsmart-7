@@ -1,7 +1,5 @@
 title: Steps for automatic opening of service request via e-mail
-Description: This knowledge aims to guide the automatic opening of service
-request via e-mail, speeding up the process of opening Service Requests received
-by the user.
+Description: This knowledge aims to guide the automatic opening of service request via e-mail, speeding up the process of opening Service Requests received by the user.
 
 # Steps for automatic opening of service request via e-mail
 

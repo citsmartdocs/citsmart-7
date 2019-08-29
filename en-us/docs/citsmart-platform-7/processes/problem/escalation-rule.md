@@ -1,191 +1,189 @@
-title: Cadastro e pesquisa de regras de escalonamento de um problema
-Description:
+title: Registration and search of rules for scheduling of a problem
+Description: Registration and search of rules for scheduling of a problem
 
-# Cadastro e pesquisa de regras de escalonamento de um problema
+# Registration and search of rules for scheduling of a problem
 
-Como acessar
-------------
-
-1.  Acesse o menu principal **Processos ITIL  > Gerência de
-    Problema > Regras de Escalonamento**.
-
-Pré-condições
+How to access
 -------------
 
-1.  No arquivo citsmart.cfg, ter configurado a
-    propriedade **START_MONITORA_INCIDENTES** informando o parâmetro **TRUE**.
+1.  Access the main menu **ITIL Processes > Problem Management > Escalation
+    Rules**.
 
-2.  Informe o conteúdo abaixo no parâmetro (ver conhecimento [Regras de
-    parametrização - ticket][1]);
+Preconditions
+-------------
 
-    -   Parâmetro 190: com o valor S
+1.  In the citsmart.cfg file, you have set
+    the **START_MONITORA_INCIDENTES** property to the parameter **TRUE**.
 
-1.  Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de
-    contrato][2]);
+2.  Enter the content below into the parameter (see knowledge [Parameterization
+    rules - ticket][1]);
 
-2.  Ter o colaborador cadastrado (ver conhecimento [Cadastro e pesquisa de
-    colaborador][3]);
+-   Parameter 190: with the value Y
 
-3.  Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de
-    grupo][4]);
+1.  Have the contract registered (see knowledge [Contract registration and
+    search][2]);
 
-4.  Ter o portfólio de serviços definido.(ver conhecimento [Cadastro de
-    portfólio de serviços][5]).
+2.  Have the staff registered (see knowledge [Staff registration and
+    search][3]);
 
-Filtros
+3.  Have the group registered (see knowledge [Group registration and
+    search][4]);
+
+4.  Have the service portfolio defined (see knowledge [Service Portfolio
+    registration][5]).
+
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filters enables the user to restrict the participation of
+    items in the standard feature listing, making it easier to find the desired
+    items:
 
-    -  Tipo de Gerenciamento;
+   -   Type of Management;
 
-    -  Tipo de Solicitação;
+   -   Type of Request;
 
-    -  Número do Contrato;
+   -   Contrac Number;
 
-    -  Nome do Serviço;
+   -   Service name;
 
-    -  Grupo;
+   -   Group;
 
-    -  Nome do Solicitante.
+   -   Applicant Name.
 
-2.  Clique na guia **Pesquisa das Regras de Escalonamento**, será apresentada a
-    tela de pesquisa, conforme ilustrada na figura abaixo:
+2.  Click on the **Scheduling Rules Search** tab, the search screen will be
+    displayed, as shown in the figure below:
 
-    ![Criar](images/escalation-1.png)
+   ![figure](images/escalation-1.png)
 
-    **Figura 1 - Tela de pesquisa das regras de escalonamento**
+   **Figure 1 - Scheduling rules search screen**
 
-3.  Realize a pesquisa do registro de regras de escalonamento:
+3.  Perform scoping rule record search;
 
-    -   Informe o tipo de gerenciamento, tipo de solicitação, número do
-        contrato, nome do serviço, grupo e/ou nome do solicitante referente a
-        regra de escalonamento que deseja pesquisar e clique no
-        botão *Pesquisar*. Após isso, será exibido o registro de regras de
-        escalonamento conforme o(s) dado(s) informado(s).
+    -   Enter the type of management, type of request, contract number, service
+        name, group and/or name of the requester for the scheduling rule you
+        want to search for and click the *Search* button. After this, the
+        scheduling rules record will be displayed according to the given data
+        (s).
 
-    -   Caso deseje listar todos os registros de regras de escalonamento, basta
-        clicar diretamente no botão *Pesquisar*.
+    -   If you want to list all the scheduling rule records, simply click
+        the *Search* button directly.
 
-Listagem de itens
------------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Tipo de Solicitação, Número do Contrato, Nome do Serviço,
-    Grupo, Nome do Solicitante, Urgência e Impacto.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature listing: **Type
+    of Request, Contract Number, Service name, Group, Applicant Name,
+    Urgency **and** Impact.**
 
-    ![Criar](images/escalation-2.png)
+   ![figure](images/escalation-2.png)
+   
+   **Figure 2 - Items list screen**
 
-    **Figura 2 - Tela de lista de itens**
+2.  After searching, select the desired record. Once this is done, you will be
+    directed to the registration screen displaying the contents of the selected
+    record.
 
-2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para tela de cadastro exibindo o conteúdo referente ao registro selecionado.
+Filling in the registration fields
+----------------------------------
 
-Preenchimento dos campos cadastrais
------------------------------------
+1.  Once this is done, the **Scheduling Rules Master** screen will be displayed,
+    as shown in the figure below:
 
-1.  Será apresentada a tela de **Cadastro das Regras de Escalonamento**,
-    conforme ilustrada na figura abaixo:
+   ![figure](images/escalation-3.png)
+   
+   **Figure 3 - Scheduling rules master screen**
 
-    ![Criar](images/escalation-3.png)
+2.  Fill in the fields as directed below:
 
-    **Figura 3 - Tela de cadastro de regras de escalonamento**
+   a. Enter Filters data:
 
-2.  Preencha os campos conforme orientação abaixo:
+   -   **Type of Management**: select the "Request" option for which the rule will
+    be applied;
 
-    a. Informe os dados de Filtros:
+   -   **Contract**: select the contract;
 
-       -   **Tipo de Gerenciamento**: selecione a opção “Solicitação” para o qual será
-    aplicado a regra;
+   -   **Requesting User**: report or applicant, if you wish to filter by
+    applicant;
 
-       -   **Contrato**: selecione o contrato;
+   -   **Type of request**: enter a request type if you want to filter by request
+    type;
 
-       -   **Usuário Solicitante**: informe o solicitante, caso deseje filtrar por
-    solicitante;
+   -   **Catalog**: select the type of catalog, if you want to filter by catalog;
 
-       -  **Tipo de Solicitação**: informe um tipo de solicitação, caso deseje filtrar
-    por tipo de solicitação;
+   -   **Service**: inform the catalog service, if you wish to filter by service;
 
-       -   **Catálogo**: selecione o tipo de catálogo, caso deseje filtrar por
-    catálogo;
+   -   **Activity (Request/Incident)**: inform the type of service (Request or
+    incident) to which the filter will be applied;
 
-       -   **Serviço**: informe o serviço do catálogo, caso deseje filtrar por serviço;
+   -   **Executor group**: report an executor group, if you want to filter by
+    executor group;
 
-       -   **Atividade (Requisição/Incidente)**: informe o tipo de serviço (requisição
-    ou incidente) para qual será aplicado o filtro;
+   -   **Urgency**: inform the level of urgency, if you wish to filter by degree of
+    urgency;
 
-       -   **Grupo Executor**: informe um grupo executor, caso deseje filtrar por grupo
-    executor;
+   -   **Impact**: enter the impact level if you wish to filter by impact level.
 
-       -   **Urgência**: informe o nível de urgência, caso deseje filtrar por grau de
-    urgência;
+   b. Enter Classification/Notification Rule data:
 
-       -   **Impacto**: informe o nível de impacto, caso deseje filtrar por grau de
-    impacto.
+   -   **Classification/Event**: select the desired option to be sent notification
+    to the person in charge:
 
-    b. Informe os dados da Regra de Classificação/Notificação:
+   -   If the option selected is "Winning", the field "Remaining time for
+        execution (min)" will be enabled. Enter the time, in minutes, that must
+        remain for the end of the activity from the creation date to be sent a
+        notification;
 
-      -  **Classificação/Evento**: selecione a opção desejada para ser enviada
-    notificação para o responsável:
+   -   If the option selected is "SLA Percentage", the field "Value (%)" will
+        be enabled. Report, in percentage, how long the SLA of the activity must
+        be to be sent a notification;
 
-       * Se a opção selecionada for “Vencendo” será habilitado o campo “Prazo
-         restante p/ execução (min)”. Informe o tempo, em minutos, que deve
-         restar para o término da atividade a partir da data de criação para ser
-         enviado uma notificação;
+   -   **Send e-mail**: enable this option if you want to send notification
+    messages via e-mail to the requesting user of the activity;
 
-       * Se a opção selecionada for “Percentual SLA” será habilitado o campo
-        “Valor (%)”. Informe, em porcentagem, em quanto tempo o SLA da atividade
-        deve estar para ser enviado uma notificação;
+   -   **Interval for sending notification e-mails (min)**: inform the time, in
+    minutes, that the user will be informed by e-mail of the occurrences of the
+    selected items;
 
-       -  **Enviar e-mail**: habilite esta opção caso queira enviar mensagens de
-    notificação via e-mail para o usuário solicitante da atividade;
+   -   **Reference date**: enter the reference date for sending the e-mail;
 
-       -  **Prazo para enviar e-mails de notificação (min)**: informe o tempo, em
-    minutos, que o usuário será informado via e-mail das ocorrências dos itens
-    selecionados;
+   -   **Create Problem**: enable this option if you want to launch a problem type
+    occurrence, obeying the deadline for creating a problem;
 
-       -  **Data de referência**: informe a data de referência para envio do e-mail;
+   -   **Deadline to create a Problem (min)**: enter the deadline, in minutes, that
+    the system will issue a problem type instance, provided the Create Problem
+    field is enabled;
 
-       -  **Criar Problema**: habilite esta opção caso queira lançar uma ocorrência do
-    tipo problema, obedecendo ao prazo para criação de problema;
+   -   **Reference date**: enter the reference date for creating the problem.
 
-       -  **Prazo para criar um Problema (min)**: informe o prazo, em minutos, que o
-    sistema irá lançar uma ocorrência do tipo problema, desde que esteja
-    habilitado o campo **Criar Problema**;
+   c. Enter the data of the Scheduling Rules:
 
-       -  **Data de referência**: informe a data de referência para criação do
-    problema.
+   -   **Executor Group**: inform to which group will be scaled the items filtered
+    by the scheduling rule;
 
-    c. Informe os dados das Regras de Escalonamento:
+   -   **Time of execution (min)**: define when to schedule the filtered items to
+    the Executor Group informed;
 
-      -   **Grupo Executor**: informe para qual grupo será escalonado os itens
-    filtrados pela regra de escalonamento;
+   -   **Escalated By**: define the date of the activity that will be used to
+    calculate the execution time for scheduling;
 
-      -   **Prazo de Execução (min)**: defina quando se deve escalonar os itens
-    filtrados para o **Grupo Executor** informado;
+   -   **Priority**: set escalation priority;
 
-      -   **Escalonar por**: defina a data da atividade que será usada para calcular o
-    prazo de execução para o escalonamento.
+   -   Click *Add* to insert the escalation rule.
 
-      -   **Prioridade**: defina a prioridade do escalonamento;
+3.  After the data is entered, click on the *Save* button to register, where the
+    date, time and user will be saved automatically for a future audit.
 
-      -   Clique em *Adicionar* para inserção da regra de escalonamento.
 
-3.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
-    onde a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria.
-
-[1]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrizaion-ticket.html
-[2]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
-[3]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html
-[4]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
-[5]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+[1]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrizaion-ticket.html
+[2]:/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[3]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/employee.html
+[4]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[5]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/15/2019 – Anna Martins
+    <b>Updated:</b>08/29/2019 – Anna Martins

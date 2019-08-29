@@ -1,6 +1,5 @@
 title: Rules for sending automatic e-mails with or without ticket attachments
-Description: Rules for sending automatic e-mails with or without ticket
-attachments
+Description: Rules for sending automatic e-mails with or without ticket attachments
 
 # Rules for sending automatic e-mails with or without ticket attachments
 
