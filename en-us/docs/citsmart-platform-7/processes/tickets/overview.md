@@ -64,7 +64,7 @@ module, in order to obtain a more detailed knowledge.
     (response time) of the request, create sub-requests, display sub-requests,
     create related request, schedule activity for the request to be performed
     (attended) in a scheduled date; Print request, cancel request, perform
-   request service and so o
+    request service and so on.
 
 See also
 --------
