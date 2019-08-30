@@ -1,62 +1,60 @@
-title:  Geração de relatórios - Gerenciamento de Eventos
-Description: Este relatório tem o objetivo de apresentar as ocorrências de eventos. 
-# Geração de relatórios - Gerenciamento de Eventos
+title:  Report generation - Event Management
+Description: This report is intended to present occurrences of events. 
+# Report generation - Event Management
 
-Este relatório tem o objetivo de apresentar as ocorrências de eventos que foram armazenadas no **Banco de Dados de Eventos 
-(MongoDB)**.
+This report is intended to present occurrences of events that have been stored in the **Event Database (MongoDB)**.
 
-Como acessar
+How to access
 -----------------
 
-1. Acesse a funcionalidade de Relatório de Ocorrência de Eventos através da navegação no menu principal 
-**Relatórios > Gerenciamento de Eventos > Ocorrência de Eventos**.
+1. Access the Event Occurrence Reporting feature by navigating in the main menu **Reports > Event Management > Event Occurrence**.
 
-Pré-condições
+Preconditions
 ----------------
 
-1. Não se aplica.
+1. No applicable.
 
-Filtros
+Filters
 ----------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade,
-facilitando a localização dos itens desejados:
+1. The following filters enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - EVM - Conexão do CITSmart Event Monitor;
-    - Eventos Globais;
-    - Classificação;
-    - Query do MongoDB;
-    - Ferramenta Monitoração - Conexão;
-    - Item de Configuração Pai;
-    - Item de Configuração Gerenciado;
-    - Grupo de Categoria de Ocorrência;
-    - Categoria de Ocorrência;
-    - Situação;
-    - Período da Ocorrência.
+    - EVM - Citsmart Event Monitor Connection;
+    - Global Events;
+    - Classification;
+    - MongoDB Query;
+    - Monitoring Tool - Connection;
+    - Configuration Item Father;
+    - Managed Configuration Item;
+    - Occurrence group category;
+    - Occurrence category;
+    - Situation;
+    - Occurrence Period.
     
-2. Será apresentada a tela de **Geração de Relatório de Ocorrência de Eventos**, conforme ilustrada na figura a seguir:
+2. The **Event Occurrence Report Generation** screen will be displayed, as shown in the following figure:
 
-    ![Ocorrência](images/rel-even.img1.jpg)
+    ![Report](images/report.img1.jpg)
     
-    **Figura 1 - Tela de geração de relatório de ocorrência de eventos**
+    **Figure 1 - Event occurrence report generation screen**
     
-3. Informe os filtros de acordo com sua necessidade para geração do relatório de ocorrência de eventos;
+3. Enter the filters according to your need to generate the report of occurrence of events;
 
-4. Clique no botão "Gerar PDF" para gerar o relatório de ocorrência de eventos no formato PDF;
+4. Click the *Generate PDF* button to generate the event occurrence report in PDF format.
 
-5. Clique no botão "Gerar XLS" para gerar o relatório de ocorrência de eventos no formato Excel.
+5. Click the *Generate XLS* button to generate the event report in Excel format.
 
-Listagem de itens
+Items list
 -------------------
 
-1. Não se aplica.
+1. No applicable.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 ---------------------------------------
 
-1. Não se aplica.
+1. No applicable.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/02/2019 - Larissa Lourenço
+    <b>Updated:</b>08/30/2019 - Larissa Lourenço

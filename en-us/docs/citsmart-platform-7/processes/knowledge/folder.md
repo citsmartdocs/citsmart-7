@@ -1,35 +1,30 @@
-title: Cadastro e pesquisa de pasta
+title: Folder registration and search
+Description: This functionality aims to create and maintain folders that will be used for storing and organizing the knowledge 
+# Folder registration and search
 
-Description:Esta funcionalidade tem por objetivo criar e manter pastas que serão utilizadas para armazenamento e organização dos conhecimentos registrados na base.
+This functionality aims to create and maintain folders that will be used for storing and organizing the knowledge recorded in the 
+database.
 
-# Cadastro e pesquisa de pasta
+How to access
+---------------
 
-Esta funcionalidade tem por objetivo criar e manter pastas que serão utilizadas
-para armazenamento e organização dos conhecimentos registrados na base.
+1.  Access the folder functionality through navigation in the main menu **ITIL Processes > Knowledge Management > Folder**.
 
-Como acessar
------------
-
-1.  Acesse a funcionalidade através da navegação no menu
-    principal **Processos ITIL >  Gerência de Conhecimento >  Pasta**.
-
-Pré-condições
+Preconditions
 -------------
 
-1.  Ter ao menos um perfil cadastrado, um grupo cadastrado ou ambos cenários
-    (ver conhecimento [Cadastro e pesquisa de perfil de acesso][1], [Cadastro
-    e pesquisa de grupo][2]).
+1.  Have at least one registered profile, a registered group or both scenarios (see knowledge 
+[Access profile registration and search][1], [Group registration and search][2].
 
-Filtros
-------
+Filters
+------------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    -   Pasta
+    -   Folder;
 
-    -   Pasta Superior (escolha única)
+    -   Higher folder.
 
 ![Criar](images/folder-1.png)
 
