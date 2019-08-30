@@ -1,7 +1,7 @@
-title: Cadastro e pesuisa de grupo de atividade periódica
+title: Cadastro e pesquisa de grupo de atividade periódica
 Description: Esta funcionalidade tem o objetivo de registrar os grupos de atividades periódica, os quais são responsáveis por executar as atividades periódicas.
 
-# Cadastro e pesuisa de grupo de atividade periódica
+# Cadastro e pesquisa de grupo de atividade periódica
 
 Esta funcionalidade tem o objetivo de registrar os grupos de atividades
 periódica, os quais são responsáveis por executar as atividades periódicas.
