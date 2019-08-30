@@ -268,7 +268,7 @@ following flags:
 
     **Figure 14 - Advanced features**
 
-    - **Availability Management: means if registered knowledge refers to Availability Management;
+    - **Availability Management**: means if registered knowledge refers to Availability Management;
 
     - **Copyright**: means if registered knowledge refers to a copyright;
 
