@@ -38,7 +38,7 @@ Preconditions
     new service must be created on the system. Access the **Processes Management > Catalog Portfolio Management > Supplier** menu (see knowledge [Supplier registration and search][7]).
 
 8.  Each contract that may be related to the new service must be created in the
-    system. Access the **Processes Management > Catalog Portfolio Management > Contract** menu(see knowledge [Contract registration and search][8]).
+    system. Access the **Processes Management > Catalog Portfolio Management > Contract** menu (see knowledge [Contract registration and search][8]).
 
     -   It is an agreement between two parties, which are obliged to comply with
         what was agreed between them under certain conditions. The contract may
