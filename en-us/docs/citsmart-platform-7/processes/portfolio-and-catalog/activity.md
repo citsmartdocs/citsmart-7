@@ -154,7 +154,7 @@ Registering service request activities
    !!! note "NOTE"
 
      In order for the deadline to be displayed, an SLA must be registered for
-     the activity (see knowledge **[Service contract attributes configuration][1])**,
+     the activity (see knowledge [Service contract attributes configuration][1]),
      in the section Linking request activities to contract). The parameters "Show
      priority" and "Show final date" have their default value equal to "Yes".
 
@@ -188,7 +188,7 @@ Registering service request activities
    **Figure 5 - Access by group permission**
 
 -   Click the *Link Groups* button. The Group Search screen appears. Perform the
-    search, select the groups and click on the *Add*button to perform the
+    search, select the groups and click on the *Add* button to perform the
     operation;
 
    !!! info "IMPORTANT"
@@ -367,7 +367,7 @@ Registering service incident activities
    !!! note "NOTE"
 
        In order for the deadline to be displayed, an SLA must be registered for
-       the activity (see knowledge [Service contract attributes configuration][1]),
+       the activity (see knowledge [Service contract attributes configuration][7]),
        in the section Linking request activities to contract). The parameters "Show
        priority" and "Show final date" have their default value equal to "Yes".
 
@@ -435,6 +435,7 @@ Registering service incident activities
 [4]:/en-us/citsmart-platform-7/processes/configuration/IC-management.html
 [5]:/en-us/citsmart-platform-7/plataform-administration/time/create-calendar.html
 [6]:/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[7]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/contract-attributes.html
 
 !!! tip "About"
 
