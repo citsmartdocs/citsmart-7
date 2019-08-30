@@ -1,3 +1,11 @@
+title: Contract registration
+Description: The contract is an agreement between two parties, which undertake
+to comply with what was agreed between them under certain conditions.
+
+# Contract registration
+
+
+
 The contract is an agreement between two parties, which undertake to comply with
 what was agreed between them under certain conditions. The contract may be of
 the *contract* type (contract between the service provider type and external
