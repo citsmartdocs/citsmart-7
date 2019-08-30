@@ -78,8 +78,7 @@ figure:
 
 4. Click the *Save* button to register, where the date, time and user will be saved automatically for a future audit;
 
-5. The Back button returns to the synonym search page.
-
+5. The *Back* button returns to the synonym search page.
 
 !!! tip "About"
 
