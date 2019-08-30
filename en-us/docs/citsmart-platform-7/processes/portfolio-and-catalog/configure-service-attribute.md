@@ -67,7 +67,7 @@ Configuring service attributes
 
 -   **Service Map**: allows you to define the service map design by relating
     support services and configuration items. In this design is defined which
-    support services will be used to carry out the core service**;**
+    support services will be used to carry out the core service;
 
 -   **Business Processes: allows you to link the business processes that are
     supported by the service;
