@@ -1,45 +1,53 @@
-title:  Módulo Gerenciamento de Problema
-Description: O principal objetivo do Gerenciamento de Problemas é minimizar o impacto adverso de incidentes e problemas. 
-# Módulo Gerenciamento de Problema
+title: Problem management module
+Description: Problem management module
 
-Objetivo do módulo
---------------------
+# Problem management module
 
-O processo de Gerenciamento de Problemas é responsável pela resolução definitiva e prevenção das falhas por trás dos incidentes que
-afetam o funcionamento normal dos serviços de TI.
+Module objective
+----------------
 
-Segundo a ITIL, o principal objetivo do Gerenciamento de Problemas é minimizar o impacto adverso de incidentes e problemas causados
-por erros na infraestrutura de TI no negócio e prevenir a reincidência destes erros. Esse processo busca encontrar a causa
-principal dos problemas e iniciar a ação que eliminará o erro.
+The Problem Management process is responsible for the final resolution and
+prevention of the flaws behind the incidents that affect the normal operation of
+IT services.
 
-Onde estão suas funcionalidades
-----------------------------------
+According to ITIL, the main goal of Problem Management is to minimize the
+adverse impact of incidents and problems caused by errors in the IT
+infrastructure in the business and to prevent recurrence of these errors. This
+process seeks to find the root cause of the problems and initiate the action
+that will eliminate the error.
 
-Acesse o menu principal **Processos ITIL > Gerência de Problema**.
+Where are the features
+----------------------
 
-![Menu](images/mod-prob.img1.jpg)
+To access the functionality click on the main menu **Process Management > Problem Management**.
 
-**Figura 1 - Menu do módulo Gerência de Problema.**
+![figure](images/mod-prob.img1.jpg)
 
-Principal funcionalidade (em destaque)
-----------------------------------------
+**Figure 1 - Problem Management module menu**
 
-Na seção "Veja também" é possível acessar a(s) funcionalidade(s) principal(is) deste módulo, desta forma se pode obter um
-conhecimento mais detalhado.
+Main feature (in highlight)
+---------------------------
 
-!!! abstract "SAIBA MAIS"
+In the *See also* section you can access the main functionality(ies) of this
+module, in order to obtain a more detailed knowledge.
 
-    Dependendo da sua permissão de acesso, é possível realizar uma série de ações nos registros de problemas, sendo: visualizar as 
-    informações do registro de problema, agendar atividade referente ao problema, capturar problema para resolução, suspender o 
-    atendimento do problema, reativar o problema que foi suspenso para atendimento, cancelar registro de problema, executar o 
-    atendimento do problema e entre outras.
-    
-Veja também
--------------
+!!! Abstract "TIPS"
 
-- [Cadastro de problema](/pt-br/citsmart-platform-7/processes/problem/register-problem.html).
+    Depending on your access permission, you can perform a series of actions on
+    the problem logs, such as: viewing the problem log information, scheduling
+    activity for the problem, catching the problem for resolution, suspending
+    the problem response, reactivating the problem, Problem that was suspended
+    for attendance, canceling problem registration, performing the attendance of
+    the problem and among others.
+
+See also
+--------
+
+- [Problem registration](/en-us/citsmart-platform-7/processes/problem/register-problem.html)
+
+
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/29/2019 - Larissa Lourenço
+    <b>Updated:</b>08/30/2019 - Anna Martins
