@@ -269,6 +269,11 @@ Liking user groups
 
     -   Enter the group and click the *Add* button to link it to the agreement.
 
+   ![figure](images/contract-7.png)
+   
+   **Figure 7 - Additional Information - Group link**
+
+
 Liking contract products
 ------------------------
 
