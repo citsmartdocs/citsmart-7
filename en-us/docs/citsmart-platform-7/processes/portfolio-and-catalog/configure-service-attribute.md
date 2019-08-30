@@ -282,7 +282,7 @@ used.
 1.  After accessing the functionality, the **Business Case Registration** screen
     will be displayed, as shown in the figure below:
 
-   ![figure](images/configure-16.png)
+   ![figure](images/configure-4.png)
    
    **Figure 4 - Business case registration screen**
 
