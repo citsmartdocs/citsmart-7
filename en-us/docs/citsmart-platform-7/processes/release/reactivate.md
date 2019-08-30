@@ -1,6 +1,5 @@
 title: Release record reactivation
-Description: The goal of this feature is to allow reactivating a suspended
-release request.
+Description: The goal of this feature is to allow reactivating a suspended release request.
 
 # Release record reactivation
 
