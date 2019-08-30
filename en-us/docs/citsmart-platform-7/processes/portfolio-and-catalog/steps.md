@@ -119,17 +119,17 @@ activity and report The defined service time for these activities.
 
 ### See also
 
--   [Calendar registration and search][5]);
+-   [Calendar registration and search][5];
 
--   [Workday registration and search][4]);
+-   [Workday registration and search][4];
 
--   [Group registration and search][9]);
+-   [Group registration and search][9];
 
--   [Access profile registration and search][4]);
+-   [Access profile registration and search][4];
 
--   [Staff registration and search][2]);
+-   [Staff registration and search][2];
 
--   [User registration and search][3]);
+-   [User registration and search][3];
 
 
 ### Attachments
