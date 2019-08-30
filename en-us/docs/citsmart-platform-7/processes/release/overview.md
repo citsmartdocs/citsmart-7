@@ -44,8 +44,7 @@ According to ITIL, the main goals of the Release Management process are:
 Where are the features
 ----------------------
 
-To access the functionality click on the main menu **Process Management
-> Release Management**.
+To access the functionality click on the main menu **Process Management > Release Management**.
 
 ![figure](images/mod-lib.img1.jpg)
 
