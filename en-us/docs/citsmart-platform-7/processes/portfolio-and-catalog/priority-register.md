@@ -1,89 +1,88 @@
-title: Cadastro e pesquisa de prioridade
-Description: Esta funcionalidade permite definir a prioridade a qual será usada para identificar a importância do serviço e identificar os tempos requeridos para que ações adequadas sejam tomadas.
+title: Priority registration and search
+Description: This feature allows you to define the priority which will be used to identify the importance of the service and identify the times required for appropriate action to be taken.
 
-# Cadastro e pesquisa de prioridade
+# Priority registration and search
 
-Esta funcionalidade permite definir a prioridade a qual será usada para
-identificar a importância do serviço e identificar os tempos requeridos para que
-ações adequadas sejam tomadas.
+This feature allows you to define the priority which will be used to identify
+the importance of the service and identify the times required for appropriate
+action to be taken.
 
-A prioridade deve ser de 1 a 5, sendo que o 1 é a prioridade mais alta e 5 é a
-mais baixa.
+The priority should be 1 to 5, with 1 being the highest priority and 5 being the
+lowest.
 
-Como acessar
------------
+How to access
+-------------
 
-1.  Acesse a funcionalidade de Prioridade através da navegação no menu
-    principal **Processos ITIL > Gerência de Portfólio e Catálogo > Prioridade**.
+1.  Access the Priority functionality through navigation in the main
+    menu **Processes Management > Portfolio and Catalog Management >
+    Priority**.
 
-Pré-condições
-------------
+Preconditions
+-------------
 
-1.  Não se aplica.
+1.  Not applicable.
 
-Filtros
-------
+Filters
+-------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados, conforme ilustrado na figura abaixo:
+1.  The following filters enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to locate the desired
+    items as shown in the figure below:
 
-    -   Nome da Prioridade.
+-   Priority Name.
 
-2.  Na tela de **Prioridade**, clique na aba Pesquisa de Prioridade, conforme a
-    figura abaixo:
+2.  On the **Priority** screen, click on the **Priority Search** tab, as shown
+    below:
 
-    ![Criar](images/register-priority-1.png)
+   ![Criar](images/register-priority-1.png)
+   
+   **Figure 1 - Priority search screen**
 
-    **Figura 1 - Tela de pesquisa de prioridade**
+3.  Perform priority search;
 
-3.  Realize a pesquisa de prioridade;
+4.  Enter the name of the priority you want to search and click
+    the *Search* button. After this, the record will be displayed according to
+    the name entered;
 
-4.  Informe o nome da prioridade que deseja pesquisar e clique no
-    botão *Pesquisar*. Após isso, será exibido o registro conforme o nome
-    informado;
+5.  If you want to list all the priority records, simply click
+    the *Search* button directly.
 
-5.  Caso deseje listar todos os registros de prioridade, basta clicar
-    diretamente no botão *Pesquisar*;
+Items list
+----------
 
-Listagem de itens
-----------------
+1.  The following cadastral fields are available to the user to make it easier
+    to identify the desired items in the default listing of
+    functionality: **Priority Name** and **Priority Group**.
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Nome da Prioridade e Grupo da Prioridade.
+   ![Criar](images/register-priority-2.png)
+   
+   **Figure 2 - Items Screen**
 
-    ![Criar](images/register-priority-2.png)
+2.  After searching, select the desired record. Once this is done, it will be
+    directed to the registration screen displaying the contents of the selected
+    registry.
 
-    **Figura 2 - Tela de itens**
+Filling in the registration fields
+----------------------------------
 
-2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a tela de cadastro exibindo o conteúdo referente ao registro
-    selecionado.
+1.  After accessing functionality, the **Priority Registration **screen will be
+    displayed, as shown in the figure below:
 
-Preenchimento dos campos cadastrais
------------------------------------
+   ![Criar](images/register-priority-3.png)
+   
+   **Figure 3 - Priority registration Screen**
 
-1.  Após o acesso a funcionalidade, será apresentada a tela de **Cadastro de
-    Prioridade**, conforme ilustrada na figura abaixo:
+2.  Fill in the fields as shown below:
 
-     ![Criar](images/register-priority-2.png)
+-   **Priority Name**: enter the priority ID, e.g.: 1;
 
-    **Figura 3 - Tela de cadastro de prioridade**
+-   **Priority Group**: select the priority group to which priority will belong.
 
-2.  Preencha os campos conforme orientações abaixo:
-
-    -  **Nome de Prioridade**: informe a identificação da prioridade, por
-        exemplo: 1;
-
-    -  **Grupo da Prioridade**: selecione o grupo da prioridade a qual a
-        prioridade pertencerá;
-
-3.  Clique no botão *Gravar* para efetuar o registro, onde a data, hora e
-    usuário serão gravados automaticamente para uma futura auditoria.
+3.  Click the *Save* button to register, where the date, time and user will be
+    automatically saved for a future audit.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Anna Martins
+    <b>Updated:</b>08/30/2019 – Anna Martins
