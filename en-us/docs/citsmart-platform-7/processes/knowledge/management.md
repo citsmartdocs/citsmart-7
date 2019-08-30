@@ -235,14 +235,14 @@ stakeholders will be displayed;
 Configuring notifications
 ---------------------------
 
-3. On the **Knowledge Master** screen, click the **Notification** tab. Once this is done, the notifications configuration screen 
+1. On the **Knowledge Master** screen, click the **Notification** tab. Once this is done, the notifications configuration screen 
 will be displayed;
 
     ![Configuration](images/management.img12.jpg)
 
     **Figure 12 – Notification configuration screen**
 
-4. Fill in the fields with the correct information for the knowledge notification setting.
+2. Fill in the fields with the correct information for the knowledge notification setting.
 
 Linking configuration item to knowledge
 -----------------------------------------------
