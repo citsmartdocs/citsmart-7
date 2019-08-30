@@ -1,81 +1,79 @@
-title: Cadastro e pesquisa de horários
-Description: Esta funcionalidade tem como objetivo agendar tarefas.
-# Cadastro e pesquisa de horários
+title: Schedule registration and search
+Description: The goal of this feature is to schedule tasks.
+# Schedule registration and search
 
-Esta funcionalidade tem como objetivo agendar tarefas. São escolhidos filtros de horário e data e é gerada uma 
-Expressão Cron que tem como objetivo criar agendas de disparo para serem executadas periodicamente nesses horários e 
-datas estabelecidos. Por exemplo, para realizar um inventário da rede, deve ser selecionado um agendamento previamente
-cadastrado para o sistema executar esse inventário de acordo com o horário escolhido.
+The goal of this feature is to schedule tasks. Time and date filters are chosen and a cronological expression is generated with the 
+goal of creating trigger schedules to be executed regularly on the established times and dates. For example, to perform a network 
+inventory, a previously scheduled entry must be selected so the system can perform the inventory on the chosen time.
 
-Como acessar
---------------
+How to access
+-----------------
 
-1. Acesse a funcionalidade de horário através da navegação no menu principal **Processos ITIL > Gerência de Evento > Horário**.
+1. Access the **Schedule** feature navigating through the main menu **Event Management > Event Management > Schedule**.
 
-Pré-condições
+Preconditions
 ---------------
 
-1. Não se aplica.
+1. Not applicable.
 
-Filtros
----------
+Filters
+-----------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando
-a localização dos itens desejados, conforme ilustrado na figura abaixo:
+1. The following filters enable the user to restrict the participation of items in the standard feature listing, making it easier 
+to locate the desired items as shown in the figure below:
 
-    - Nome.
+    - Name.
     
-    ![Pesquisa](images/horario.img1.png)
+    ![Search](images/time.img1.jpg)
     
-    **Figura 1- Tela de pesquisa de horário**
+    **Figure 1 - Schedule search screen**
     
-2. Realize a pesquisa de horário:
+2. Perform a schedule search:
 
-    - Informe o nome do horário que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o registro de horário 
-    conforme o nome informado;
+    - Insert the name of the intended schedule and click on the *Search* button. Afterwards, the schedule entry will be displayed 
+    according to the description provided;
     
-    - Caso deseje listar todos os registros de horário, basta clicar diretamente no botão "Pesquisar".
+    - To list all schedule, just click directly on the *Search* button, if needed.
     
-Listagem de itens
+Items list
 -------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: **Nome** e **Expressões Cron**, conforme ilustrado na figura abaixo:
+1. The following cadastral fields are available to the user to make it easier to identify the desired items in the default listing 
+of the functionality: **Name** and **Cron Expression**.
 
-    ![Listagem](images/horario.img2.png)
+    ![Listing](images/time.img2.jpg)
     
-    **Figura 2 - Tela de listagem de horário**
+    **Figure 2 - Schedule items list screen**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo 
-referente ao registro selecionado;
+2. After searching, select the intended entry. Afterwards, they will be redirected to the registry screen displaying the content 
+belonging to the selected entry;
 
-3. Para alterar os dados do registro de horário, basta modificar as informações dos campos desejados e clicar no botão "Gravar" 
-para que seja gravada a alteração realizada no registro, onde a data, hora e usuário serão gravados automaticamente para uma 
-futura auditoria.
+3. To edit a schedule entry, just modify the information on the intended fields and click on the Save button to confirm the changes 
+to the database, at which date, time and user will be stored automatically for a future audit.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Acesse a funcionalidade, após isso, será apresentada a tela de **Cadastro de Horário**, conforme ilustrada na figura abaixo:
+1. Access the feature, afterwards, the **Schedule Entry** screen will be displayed, as illustrated on the image below:
 
-    ![Cadastro](images/horario.img3.png)
+    ![Entry](images/time.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de horário**
+    **Figure 3 - Schedule entry screen**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill out the fields as instructed below:
 
-    - **Nome**: informe o nome que desejar para o agendamento de horário;
-    - Informe o tempo para o agendamento selecionando os **Segundos**, **Minutos** e **Horas** que desejar;
-    - Informe a data para o agendamento, selecionando o **Dia do Mês** ou **Dia da Semana**, **Mês** e **Ano** que desejar.
+    - **Name**: name the schedule entry;
+    - Insert the intended schedule time selecting the **Seconds, Minutes** and **Hours**;
+    - Insert the intended schedule date, selecting the **Day of Month** or **Day of Week, Month** and **Year**.
     
-    !!! note "NOTA"
+    !!! note "NOTE"
     
-        Informe somente uma das opções, Dia do Mês ou Dia da Semana.
+        Insert only one of the options, Day of month or Day of week.
         
-3. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma futura 
-auditoria.
+3. Click on the *Save* the button to confirm the entry, at which date, time and user will automatically be stored for a future 
+audit.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/18/2019 – Larissa Lourenço
+    <b>Updated:</b>08/30/2019 – Larissa Lourenço
