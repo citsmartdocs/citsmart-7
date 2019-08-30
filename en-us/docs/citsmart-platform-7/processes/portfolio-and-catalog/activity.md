@@ -94,7 +94,7 @@ Registering service request activities
 -   **Follow-up Template**: select, if there is one, the template for monitoring
     the request activity;
 
--   **Creation Template **: select, if one exists, the request activity
+-   **Creation Template**: select, if one exists, the request activity
     template;
 
 -   **Details**: describe the details of how the request activity should be
@@ -271,7 +271,7 @@ Registering service incident activities
     functionality: **ID** and **Incident Name**.
 
 2.  There are action buttons available to the user for each item in the listing,
-    they are: *Edit *and *Unlink*.
+    they are: *Edit* and *Unlink*.
 
 ![Criar](images/activity-7.png)
 
@@ -369,9 +369,9 @@ Registering service incident activities
    !!! note "NOTE"
 
        In order for the deadline to be displayed, an SLA must be registered for
-       the activity (see knowledge **[Service contract attributes configuration][1])**,
+       the activity (see knowledge [Service contract attributes configuration][1]),
        in the section Linking request activities to contract). The parameters "Show
-   priority" and "Show final date" have their default value equal to "Yes".**
+       priority" and "Show final date" have their default value equal to "Yes".
 
 -   **Name**: enter the name of the incident activity for viewing on the portal
     and/or chat;
@@ -403,7 +403,7 @@ Registering service incident activities
    **Figure 11 - Access by group permission**
 
 -   Click the *Link Groups* button. The Group Search screen appears. Perform the
-    search, select the groups and click on the *Add*button to perform the
+    search, select the groups and click on the *Add* button to perform the
     operation;
 
    !!! info "IMPORTANT"
