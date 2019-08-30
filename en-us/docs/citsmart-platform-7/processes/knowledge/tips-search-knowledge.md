@@ -36,7 +36,6 @@ Search tips
     - example 2:
         - search for "itsm"
         - it will show more than 170 items;
-        - se fizer a mesma pesquisa sem aspas alguma, vão aparecer mais de 300;
         - if you do the same search without any quotes, will appear more than 320. The system has searched for any knowledge that 
         has ITSM as a entire word and also as part of some words, eg. C**ITSM**ART.
         
@@ -52,8 +51,8 @@ Search tips
     - the product documentation is structured into folders, it reminds the system menu;
     - this way you will avoid seeing other subjects in the result;
     - the search brings all that is in the folder clicked and also in all its subfolders, they are the subtopics;
-    - ao selecionar uma pasta nas guias do lado esquerdo superior pelo ícone ![symbol](images/tips.jpg), it is possible to realize 
-    a new one searching in this folder. After this new search the system will show on left side the fields:
+    - to select a folder on guides located on the tabs on the top left by the icon ![symbol](images/tips.jpg), it is possible to 
+    realize a new one searching in this folder. After this new search the system will show on left side the fields:
         - **Selected Folder**: describes the name of the previously selected folder. It is possible to return to the root of the 
         folder by clicking on the folder description, in which case the system will return to the initial search behavior;
         - **Type**: refers to the type of document identified in this folder, the folder can contain various types of documents. 
