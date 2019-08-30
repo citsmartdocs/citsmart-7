@@ -1,141 +1,137 @@
-title:Cadastro e pesquisa de processo de negócio
-Description:O Processo de Negócio irá contribuir para a entrega de um produto ou serviço aos clientes.
+title: Business process registration and search
+Description: Contribute to the delivery of a product or service to customers.
 
-# Cadastro e pesquisa de processo de negócio
+# Business process registration and search
 
-O Processo de Negócio irá contribuir para a entrega de um produto ou serviço aos
-clientes. Por exemplo: um comerciante pode ter um processo de compra que o ajude
-a entregar serviços a seus clientes. Muitos processos de negócio dependem de
-serviços de TI.
+The Business Process will contribute to the delivery of a product or service to
+customers.For example, a merchant may have a purchase process that will help him
+deliver services to his customers. Many business processes depend on IT
+services.
 
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de processo de negócio através da navegação no
-    menu principal **Processos ITIL > Gerência de Portfólio e
-    Catálogo > Processo de Negócio**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter o cliente cadastrado (ver conhecimento [Cadastro e pesquisa de
-    cliente][1]);
+1.  Access the business process functionality through navigation in the main
+    menu **Processes Management > Portfolio and Catalog Management > Business Process Register**.
 
-2.  Cadastrar grupo (ver conhecimento [Cadastro e pesquisa de
-    grupo][2]);
+Preconditions
+-------------
 
-3.  Cadastrar unidade (ver conhecimento [Cadastro e pesquisa de
-    unidade][3]);
+1.  Customer registration (see knowledge [Customer registration and search ][1]);
 
-4.  Ter os fluxos de trabalho definidos (ver conhecimento [Manutenção de fluxo
-    de trabalho][4]).
+2.  Group registration (see knowledge [Group registration and search][2]);
 
-Filtros
+3.  Register unit (see knowledge [Unit registration and search][3]);
+
+4.  Have defined workflows (see knowledge [Workflow maintenance][4]).
+
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados, conforme ilustrado na figura abaixo:
+1.  The following filter enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to locate the desired
+    items as shown in the figure below:
 
-    -   Nome.
+-   Name.
 
-1.  Na tela de Processo de Negócio, clique na guia **Pesquisa de Processo de
-    Negócio**. Será apresentada a respectiva tela de pesquisa, conforme
-    ilustrada na figura abaixo:
+2.  On the Business Process screen, click the **Business Process Lookup** tab.
+    The respective search screen will be displayed, as shown in the figure
+    below:
 
-    ![Criar](images/business-1.png)
+   ![figure](images/business-1.png)
 
-    **Figura 1 - Tela de pesquisa de processo de negócio**
+   **Figure 1 - Business Process lookup screen**
 
-1.  Realize a pesquisa do processo de negócio;
+3.  Perform business process search:
 
-    -   Informe o nome do processo de negócio que deseja pesquisar e clique no
-        botão *Pesquisar*. Após isso, será exibido o registro de processo de
-        negócio conforme o nome informado.
+    -   Enter the name of the business process you want to search for and click
+        the *Search* button. After that, the business process register will be
+        displayed according to the name entered;
 
-    -   Caso deseje listar todos os registros de processo de negócio, basta
-        clicar diretamente no botão *Pesquisar*.
+    -   If you want to list all business process records, simply click
+        the *Search* button directly.
 
-Listagem de itens
------------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Nome e Cliente, conforme a figura abaixo:
+1.  The following registration fields are available to the user to facilitate
+    the identification of the desired items in the standard listing of the
+    functionality: **Name** and **Customer**.
 
-    ![Criar](images/business-2.png)
+   ![figure](images/business-2.png)
+   
+   **Figure 2 - Items screen**
 
-    **Figura 2 - Tela de itens**
+2.  After searching, select the desired record. Once this is done, it will be
+    directed to the registration screen displaying the contents of the selected
+    registry;
 
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para tela de cadastro exibindo o conteúdo referente ao registro selecionado;
+3.  To change the business process record data, simply change the information of
+    the desired fields and click the *Save* button to save the change made to
+    the record, where the date, time and user will be saved automatically for a
+    future audit.
 
-2.  Para alterar os dados do registro de processo de negócio, basta modificar as
-    informações dos campos desejados e clicar no botão *Gravar* para que seja
-    gravada a alteração realizada no registro, onde a data, hora e usuário serão
-    gravados automaticamente para uma futura auditoria.
+Filling in the registration fields
+----------------------------------
 
-Preenchimento dos campos cadastrais
------------------------------------
+1.  The **Business Process Registration** screen will be displayed, as shown in
+    the figure below:
 
-1.  Será apresentada a tela de **Cadastro de Processo de Negócio**, conforme
-    ilustrada na figura abaixo:
+   ![figure](images/business-3.png)
+   
+   **Figure 3 - Business Process Master Screen**
 
-    ![Criar](images/business-3.png)
+2.  Fill in the fields as directed below:
 
-    **Figura 3 - Tela de cadastro de processo de negócio**
+    -  **Name**: enter the name of the business process;
 
-1.  Preencha os campos conforme orientação abaixo:
+    -  **Customer**: inform the client of the business process;
 
-    -   **Nome**: informe o nome do processo de negócio;
+    -  **Responsible group**: inform the group responsible for the business
+        process;
 
-    -   **Cliente**: informe o cliente do processo de negócio;
+    -  **Administrator group**: inform the business process administrator
+        group;
 
-    -   **Grupo responsável**: informe o grupo responsável pelo processo de
-        negócio;
+    -  **Flows**: select the workflow (s) of the business process. Remembering
+        that these flows are defined in the flow designing screen;
 
-    -   **Grupo administrador**: informe o grupo administrador do processo de
-        negócio;
+    -  **Important function**: inform if the business process is referring to a
+        vital function. Vital function is a part of a business process that is
+        critical to business success, ie it is the part of running the business
+        that can not stop. Imagine, for example, software that takes care of the
+        process of an automatic teller machine for cash withdrawals: the
+        function of issuing banknotes for the customer will probably have a
+        greater criticality than the function of issuing extracts. Therefore,
+        the former is more likely to be considered a vital function. Vital role
+        is an important consideration in managing service continuity;
 
-    -   **Fluxos**: selecione o(s) fluxo(s) de trabalho do processo de negócio.
-        Lembrando que esses fluxos são definidos na tela de desenho de fluxo;
+    -  If the business process relates to a vital function, inform the business
+        impact and urgency.
 
-    -   **É função vital**: informe se o processo de negócio é referente a uma
-        função vital. A função vital é uma parte de um processo de negócio que é
-        crítico para o sucesso do negócio, ou seja, é a parte do funcionamento
-        do negócio que não pode parar. Imagine, por exemplo, um software que
-        cuida do processo de um caixa automático para saque de dinheiro:
-        provavelmente a função de emitir cédulas para o cliente terá uma
-        criticidade maior do que a função de emitir extratos. Portanto, a
-        primeira tem uma maior probabilidade de ser considerada uma função
-        vital. A função vital é uma consideração importante no gerenciamento de
-        continuidade de serviço.
+    -  **Unit**: link the unit (s) to the business process;
 
-    -   Caso o processo de negócio tenha relação com uma função vital, informe
-        o **impacto** ao negócio e a **urgência**.
+-   Click the *Link Unit* button. Once this is done, a screen will be displayed
+    to search for the desired unit;
 
-    -   **Unidade**: vincule a(s) unidade(s) ao processo de negócio;
+-   Perform the search, select the unit (s) and click *Add* to link the drive
+    (s) to the business process;
 
-        -   Clique no botão *Vincular unidade*. Feito isso, será exibida uma
-            tela para pesquisa da unidade desejada;
+-   To delete the link from the drive to the business process, simply click
+    the ![figure](images/business-4.png) .
 
-        -   Realize a pesquisa, selecione a(s) unidade(s) e clique
-            em *Enviar* para vínculo da(s) unidade(s) ao processo de negócio.
+3.  After entering the data, click the *Save* button to register, where the
+    date, time and user will be saved automatically for a future audit.
 
-        -   Para excluir o vínculo da unidade com o processo de negócio, basta
-            clicar no ícone ![Criar](images/business-4.png)  da mesma.
 
-3.  Após informar os dados, clique no botão *Gravar* para efetuar o registro, onde a
-data, hora e usuário serão gravados automaticamente para uma futura auditoria.
-
-[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/client.html
-[2]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
-[3]:/pt-br/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html
-[4]:/pt-br/citsmart-platform-7/workflow/workflow-management.html
+[1]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/client.html
+[2]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[3]:/en-us/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html
+[4]:/en-us/citsmart-platform-7/workflow/workflow-management.html
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Anna Martins
+    <b>Updated:</b>08/30/2019 – Anna Martins
 
