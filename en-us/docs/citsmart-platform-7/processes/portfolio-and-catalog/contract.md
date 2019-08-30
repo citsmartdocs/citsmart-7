@@ -1,407 +1,389 @@
-title: Cadastro e pesquisa de contrato
-Description: O contrato é um acordo entre duas partes, que se obrigam a cumprir o que foi entre elas combinado sob determinadas condições. 
+The contract is an agreement between two parties, which undertake to comply with
+what was agreed between them under certain conditions. The contract may be of
+the *contract* type (contract between the service provider type and external
+customer), *operational level agreement* (internal agreement between departments
+of the same organization, internal provider with internal customer) or *support
+agreement* (contract between External provider and internal customer).
 
-# Cadastro e pesquisa de contrato
+How to access
+-------------
 
-O contrato é um acordo entre duas partes, que se obrigam a cumprir o que foi
-entre elas combinado sob determinadas condições. O contrato pode ser do
-tipo *contrato* (contrato entre o fornecedor do tipo provedor de serviços e
-cliente externo), *acordo de nível operacional* (acordo interno entre os
-departamentos da mesma organização, fornecedor interno com cliente interno)
-ou *contrato de apoio* (contrato entre o fornecedor externo e cliente interno).
+1.  Access the feature click on the main menu **Processes Management > Portfolio and Catalog Management > Contract Registration**.
 
-Como acessar
------------
+Preconditions
+-------------
 
-1.  Acesse o menu principal **Processos ITIL > Gerência de Portfólio e
-    Catálogo > Cadastro de Contratos**.
+1.  Have the provider registered (see knowledge [Supplier registration and
+    search][1]);
 
-Pré-condições
-------------
+2.  Have the client registered (see knowledge [Customer registration and
+    search][2]);
 
-1.  Ter o fornecedor cadastrado (ver conhecimento [Cadastro e pesquisa de
-    fornecedor][1]);
+3.  Have the currency registered (see knowledge [Currency registration and
+    search][3]);
 
-2.  Ter o cliente cadastrado (ver conhecimento [Cadastro e pesquisa de
-    cliente][2]);
+4.  Have the operation condition registered (see knowledge [Operation condition
+    registration and search][4]).
 
-3.  Ter a moeda cadastrada (ver conhecimento [Cadastro e pesquisa de
-    moeda][3]);
-
-4.  Ter a condição de operação cadastrada (ver conhecimento [Cadastro e pesquisa
-    de condição de operação][4]).
-
-Filtros
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados, conforme ilustrado na figura abaixo:
+1.  The following filter enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to locate the desired
+    items as shown in the figure below:
 
-    -   Número do Contrato.
+-   Contact number.
 
-2.  Na tela de **Contratos**, clique na guia de **Listagem**. Será apresentada a
-    tela de pesquisa, conforme ilustrada na figura abaixo:
+2.  On the **Contracts** screen, click the **List** tab. The search screen will
+    be displayed, as shown in the figure below:
 
-    ![Criar](images/contract-1.png)
+   ![figure](images/contract-1.png)
+   
+   **Figure 1 - Contract search screen**
 
-    **Figura 1 - Tela de pesquisa de contrato**
+3.  Perform contract search;
 
-3.  Realize a pesquisa do contrato;
+-   Enter the contract number and click the *Search* button. After that, the
+    contract record will be displayed according to the number entered.
 
-    - Informe o número do contrato e clique no botão *Pesquisar*. Após isso, será
-    exibido o registro do contrato conforme o número informado.
+-   If you want to list all the contract records, simply click
+    the *Search* button directly.
 
-    - Caso deseje listar todos os registros de contrato, basta clicar
-     diretamente no botão *Pesquisar*.
+Items list
+----------
 
-Listagem de itens
-----------------
+1.  The following registration fields are available to the user to make it
+    easier to identify the desired items in the standard feature
+    listing: Contract Number, Customer Name, and Supplier.
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Número do Contrato, Nome Cliente e Fornecedor.
+   ![figure](images/contract-2.png)
+   
+   **Figure 2 - Item screen**
 
-    ![Criar](images/contract-2.png)
+2.  After searching, select the desired record. Once this is done, it will be
+    directed to the registration screen displaying the contents of the selected
+    registry;
 
-    **Figura 2 - Tela de item**
+3.  To change the contract record data, simply modify the information of the
+    desired fields and click the *Record* button to make the change made to the
+    record.
 
-2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para tela de cadastro exibindo o conteúdo referente ao registro selecionado;
+Filling in the registration fields
+----------------------------------
 
-3.  Para alterar os dados do registro de contrato, basta modificar as
-    informações dos campos desejados e clicar no botão *Gravar* para efetuar a
-    alteração realizada no registro.
+1.  After accessing the functionality, the Contract Master screen will be
+    displayed, as shown in the figure below:
 
-Preenchimento de campos cadastrais
----------------------------------
+   ![figure](images/contract-3.png)
+   
+   **Figure 3 - Contract Master Screen**
 
-1.  Após o acesso a funcionalidade, será apresentada a tela de **Cadastro de
-    Contrato**, conforme ilustrada na figura abaixo:
+2.  Fill in the fields as directed below:
 
-    ![Criar](images/contract-3.png)
+    a) **Type of Agreement/Contract**: select the type of agreement/contract;
 
-    **Figura 3 - Tela de cadastro de contrato**
+       -  **Contract**: refers to the contract between the contracting company and
+        the company providing services. When selecting this type, only suppliers
+        of type "service provider" will be available in the "supplier" field,
+        and in the "client" field only "external" clients will be available for
+        selection.
 
-2.  Preencha os campos conforme orientações abaixo:
+       -  **Operational Level Agreement**: refers to the internal agreement
+        between the departments of the same company. When selecting this type,
+        only the "internal" type suppliers will be available in the "supplier"
+        field and in the "client" field only the "internal" type clients for
+        selection.
 
-    a)  **Tipo de Acordo/Contrato**: selecione o tipo de acordo/contrato;
+       -  **Underpinning Contract**: refers to the contract between the service
+        provider and a third party, external supplier. When selecting this type,
+        only suppliers of the "external" type will be available in the
+        "supplier" field and in the "client" field only the "internal" clients
+        will be available for selection.
 
-       -  **Contrato**: refere-se ao contrato entre a empresa contratante e a
-        empresa prestadora de serviços. Ao selecionar esse tipo, serão
-        disponibilizados no campo "fornecedor" somente os fornecedores do tipo
-        "provedor de serviços" e no campo "cliente" somente os clientes do tipo
-        "externo" para seleção.
+    b)  **Supplier**: please inform the service provider;
 
-       -  **Acordo de Nível Operacional**: refere-se ao acordo interno entre os
-        departamentos da mesma empresa. A selecionar esse tipo, serão
-        disponibilizados no campo "fornecedor" somente os fornecedores tipo
-        "interno" e no campo "cliente" somente os clientes do tipo "interno"
-        para seleção.
+    c)  **Customer**: inform the client, who contracted/requested the services;
 
-       -  **Contrato de Apoio**: refere-se ao contrato entre a empresa provedora
-        de serviços e um terceiro, fornecedor externo. Ao selecionar esse tipo,
-        serão disponibilizados no campo "fornecedor" somente os fornecedores do
-        tipo "externo" e no campo "cliente" somente os clientes do tipo
-        "interno" para seleção.
+    d)  **Supervisor**: inform the supervisor of the contract, that is, the person
+    designated to monitor and supervise the contractual execution for the
+    purpose for which it is intended;
 
-    b)  **Fornecedor**: informe o prestador de serviços;
+    e)  **Manager**: inform the manager of the contract, ie the person responsible
+    for managing the contract;
 
-    c)  **Cliente**: informe o cliente, o qual contratou/solicitou os serviços;
+    f)  **Requester Group**: select the group of employees who can request services
+    in the contract;
 
-    d)  **Fiscal**: informe o fiscal do contrato, ou seja, a pessoa designada para
-    acompanhar e fiscalizar a execução contratual para o fim a que se destina;
+    g)  **Number**: provide the quantitative identification number of the contract;
 
-    e)  **Gestor**: informe o gestor do contrato, ou seja, a pessoa responsável pela
-    gestão do contrato;
+    h)  **Status**: select the situation of the contract;
 
-    f)  **Grupo de Solicitante**: selecione o grupo de colaboradores que podem
-    solicitar serviços no contrato;
+    i) **Currency**: select currency;
 
-    g)  **Número**: informe o número de identificação quantitativa do contrato;
+       -   **Real**: official Brazilian currency;
 
-    h)  **Situação**: selecione a situação do contrato;
+       -   **UST**: Technical Service Unit, monetary quantification regarding the
+        services used in certain federal public contracts, according to IN04, or
+        others that may serve as metrics for the valuation of service.
 
-    i) **Moeda**: selecione a moeda;
+    j) **Currency Quotation (quote)**: enter the currency quote. In the case of the
+    use of the UST or other correspondent, quantify the value referring to 1
+    unit of the currency. If the value is in Real, the quotation should remain R
+    \$ 0.00;
 
-       -  **Real**: moeda corrente oficial do Brasil;
+    k) **Estimated Contract Value**: enter the value considered for the contract;
 
-       -  **UST**: Unidade Serviço Técnico, quantificação monetária relativa aos
-    serviços utilizados em determinados contratos públicos federais, conforme
-    IN04, ou outras que porventura possam servir de métricas para a valoração de
-    serviço.
+    l) **Monthly Contract Value**: show the result of the calculation;
 
-    j)  **Cotação Moeda**: informe a cotação da moeda. No caso do uso da UST ou
-    outra correspondente, quantificar o valor referente a 1 unidade da moeda.
-    Caso o valor seja em Real, a cotação deve permanecer R\$ 0,00;
+!!! info "IMPORTANT"
 
-    k)  **Valor Estimado do Contrato**: informe o valor considerado para o contrato;
+    The Monthly Contract Value field is relevant to the financial assets
+    management in CITSmart Enterprise ITSM and its calculation takes into
+    account: the total value and the start and end dates of the contract.
 
-    l)  **Valor Mensal do Contrato**: Mostra o resultado do cálculo;
+m)  **Starts**: state the date the contract was made;
 
-    !!! info "IMPORTANTE"
+n)  **Ends**: state the date it was stipulated for the end of the contract;
 
-            O campo Valor Mensal do Contrato é relevante para a gestão de ativos
-            financeiros do sistema e seu cálculo leva em consideração: o valor total do
-            contrato e as datas de início e fim do contrato.
+o)  **Renewal**: inform the date of the revision / renewal of the contract;
 
-    m)  **Data do Contrato**: informe a data em que foi realizado o contrato;
+p)  **Support Hours**: enter the availability time of the support for the
+    execution of the service;
 
-    n)  **Data Término do Contrato**: informe a data em que foi estipulado para o
-    término do contrato;
+q)  **E-mail**: enter the registered e-mail outbox;
 
-    o)  **Data de Revisão / Renovação**: informe a data da revisão / renovação do
-    contrato;
+r)  **Register new user?**: inform if the system operator can register users of
+    services that are not previously registered in the system at the time of
+    registration of the request;
 
-    p)  **Horas de Suporte**: informe o tempo de disponibilidade do suporte para
-    execução do serviço;
+s)  **Scope**: describe the scope of the contract, that is, what it is intended
+    to achieve;
 
-    q)  **Caixa de Saída de E-mail**: informe a caixa de saída de e-mail cadastrada;
+t)  **Object**: give the generic description of the services included in the
+    contract;
 
-    r)  **Permite o cadastro de usuário (solicitante) caso o mesmo não seja
-    encontrado**: informe se o operador do sistema poderá realizar o cadastro
-    dos solicitantes de serviços que não estão previamente registrados no
-    sistema, no momento do registro da solicitação;
+u)  Add the additional information of the contract. This information can be
+    entered at the time of registration of the contract or later as required.
 
-    s)  **Escopo**: descreva o escopo do contrato, ou seja, aquilo que se pretende
-    atingir;
+Liking contract service level agreement
+---------------------------------------
 
-    t)  **Objeto**: informe a descrição genérica dos serviços contemplados no
-    contrato;
+**Contract Service Level Agreement**: allows you to specify what was areed in
+the contract between the service provider and the customer.
 
-    u)  Adicione as informações complementares do contrato. Essas informações podem
-    ser inseridas no momento do registro do contrato ou posteriormente, conforme
-    sua necessidade.
+1.  Click the **Contract Service Level Agreement** tab, and then click
+    the *New* button. Once this is done, the service level agreement screen will
+    be displayed, as shown in the figure below:
 
-Vinculando acordo de nível de serviço do contrato
--------------------------------------------------
+   ![figure](images/contract-4.png)
+   
+   **Figure 4 - Additional Information - Contract Service Level Agreement Registration**
 
-**Acordo de Nível de Serviço do Contrato**: permite especificar o que foi
-acordado no contrato entre o provedor de serviços e o cliente.
+-   **Agreement Description**: describe what was agreed in the agreement, in a
+    macro manner. Example: Monthly availability of services to critical services
 
-1.  Clique na guia **Acordo de Nível de Serviço do Contrato** e logo em seguida
-    clique no botão *Novo*. Feito isso, será exibida a tela para cadastro do
-    acordo de nível de serviço, conforme ilustrada na figura abaixo:
+-   **Start date**: enter the start date of the agreement. This date may differ
+    from the date of the contract itself, as agreements can be inserted later;
 
-  ![Criar](images/contract-4.png)  
+-   **End date**: please provide the expected end date of the agreement;
 
-   **Figura 4 - Informações complementares – Registro de Acordo de Nível de Serviço
-    do contrato**
+-   **Value Limit**: enter the value limit for gloss. This value can be a
+    percentage of attendance or number of events. Example: the service must
+    reach 99.7% of availability per month or up to 4 incidents of the contracted
+    organization may occur in the month. The excess of this limit will be
+    penalized with the value specified in the Description of Glory.
 
-   -  **Descrição do Acordo**: descreva o que foi acordado no contrato, de forma
-    macro. Exemplo: Disponibilidade mensal de atendimentos aos serviços
-    críticos;
+-   **Currency**: enter the unit of the value limit for gloss. Example:
+    percentage or quantity of events;
 
-   -  **Data início**: informe a data de início do acordo. Essa data pode
-        divergir com a data do contrato em si, pois acordos podem ser inseridos
-        posteriormente;
+-   **Agreement Details**: describe the details of what was agreed in the
+    agreement. Example: Availability of use for critical services should be
+    24x7;
 
-   -  **Data fim**: informe a data prevista para o final do acordo;
+-   **Penalty Description**: describe the percentages to be paid on the value of
+    the contract in case of non-compliance with the agreement. Example: 0.5%
+    gloss for every tenth of service failure or 0.2% for each reporting failure
+    above the target up to 10 occurrences, 0.5% up to 20 occurrences, etc.
 
-   -  **Valor Limite**: informe o valor limite para glosa. Esse valor pode ser
-        um percentual de atendimento ou quantidade de eventos. Exemplo: o
-        serviço deve alcançar mensalmente 99,7 % de disponibilidade ou podem
-        ocorrer no mês até 4 incidentes causados pela organização contratada. O
-        excedente deste limite será penalizado com o valor especificado na
-        Descrição de Glosa.
+-   After entering the required data, click *Add* to add the service level
+    agreement to the agreement.
 
-   -  **Unidade do Valor Limite**: informe a unidade do valor limite para
-        glosa. Exemplo: percentual ou quantidade de eventos;
+Liking vision of contract complexity
+------------------------------------
 
-   -  **Detalhamento do Acordo**:descreva os detalhes do que foi acordado
-        no contrato. Exemplo: A disponibilidade de uso para os serviços críticos
-        deve ser de 24x7;
+**Vision of Contract Complexity**: allows to identify the values of complexity
+referring to the operational costs of the contract. It is widely used in the
+case of the management of the Orders of Services related to the UST currency.
 
-   -  **Descrição da Glosa**: descreva os percentuais a serem pagos sobre o
-        valor do contrato no caso do não cumprimento do acordo. Exemplo: 0,5% de
-        glosa para cada décimo de falha no serviço ou 0,2% para cada falha de
-        notificação superior à meta até 10 ocorrências, 0,5% até 20 ocorrências,
-        etc.
+1.  Click the** Complexity By Contract** tab, and after that, click on the
+    complexity that you want to enter the value;
 
-   -  Após informar os dados necessários, clique em *Adicionar* para adicionar
-        o acordo de nível de serviço ao contrato.
+   ![figure](images/contract-5.png)
+   
+   **Figure 5 - Complementary Information - Complexity View**
 
-Vinculando visão de complexidade do contrato
--------------------------------------------
+-   **Value Complexity**: tell how much each level of complexity is worth for
+    organization. Example: high = 6, low = 1, expert = 10.
 
-**Visão de Complexidade do Contrato**: permite identificar os valores de
-complexidade referentes aos custos operacionais do contrato. É muito utilizado
-no caso de gerenciamento das Ordens de Serviços relacionadas à moeda UST.
+-   If you want to remove complexity value, click *Clear*.
 
-1.  Clique na guia **Visão complexidade por contrato** e após isso, clique sobre
-    a complexidade que deseja informar o valor:
+Liking contract profiles
+------------------------
 
-    ![Criar](images/contract-5.png)
+**Contract Profiles**: allows defining the profiles of the professionals that
+will be fundamental for the development of a project related to the contract;
 
-     **Figura 5 - Informações complementares - Visão de complexidade**
+1.  Click the **Contract Profiles** tab, and then click the *New* button. Once
+    this is done, the screen will be displayed to register the profile of the
+    professional, as shown in the figure below:
 
-    -   **Valor Complexidade**: informe quanto vale cada nível de complexidade para
-    organização. Exemplo: alta = 6, baixa = 1, especialista = 10.
+   ![figure](images/contract-6.png)
+   
+   **Figure 6 - Supplementary Information - Contract Profiles Registration**
 
-    -   Caso deseje remover o valor da complexidade, clique no botão *Limpar*.
+-   **Cost per Hour**: enter the cost of the working time relative to the
+    function that will be performed in the project;
 
-Vinculando perfis do contrato
-----------------------------
+-   **Description**: enter the description of the function required for the
+    project. Example: Systems Analyst, Development Analyst and others.
 
-**Perfis do Contrato**: permite definir os perfis dos profissionais que serão
-fundamentais para desenvolvimento de um projeto relacionado ao contrato.
+-   After the data is entered, click *Add* to add the professional profile to
+    the contract.
 
-1.  Clique na guia **Perfis do Contrato** e logo em seguida clique no botão
-    Novo. Feito isso, será exibida a tela para registrar o perfil do
-    profissional, conforme ilustrada na figura abaixo:
+Liking user groups
+------------------
 
-    ![Criar](images/contract-6.png)
+**User Groups**: allows you to link groups to the contract.
 
-    **Figura 6 - Informações complementares - Registro dos perfis do contrato**
+1.  Click the **User Groups** tab, and then click *New*. Once this is done, the
+    screen will be displayed to link employee group (s) to the contract, as
+    shown in the figure below:
 
-    -   **Custo Hora**: informe o custo da hora de trabalho relativo a função que
-    será desempenhada no projeto;
+    -   Enter the group and click the *Add* button to link it to the agreement.
 
-    -   **Descrição**: informe a descrição da função requerida para o projeto.
-    Exemplo: Analista de Sistemas, Analista de Desenvolvimento e entre outros.
+Liking contract products
+------------------------
 
-    -   Após os dados informados, clique em *Adicionar* para adicionar o perfil do
-    profissional ao contrato.
+**Contract Products**: allows you to specify project deliverables related to the
+contract.
 
-Vinculando grupos de usuários
-----------------------------
+1.  Click the **Contract Products** tab, and then click the *New* button. After
+    that, the screen for product registration will be displayed, as shown in the
+    figure below:
 
-**Grupos de Usuários**: permite vincular grupos ao contrato.
+   ![figure](images/contract-8.png)
+   
+   **Figure 8 - Supplementary Information - Product Registration**
 
-1.  Clique na guia **Grupos de Usuários** e logo em seguida clique
-    em *Adicionar*. Feito isso, será exibida a tela para vincular grupo(s) de
-    colaboradores(s) ao contrato, conforme ilustrada na figura abaixo:
+-   Inform the product description, referring to the project, that will be
+    delivered. Example: documentation, deploy, script, workflow and so on.
 
-    ![Criar](images/contract-7.png)
+-   Click the *Add* button to add it to the agreement.
 
-    **Figura 7 - Informações complementares - Vínculo de grupos**
+Liking matrix communication
+---------------------------
 
-    -   Informe o grupo e clique no botão *Adicionar* para vínculo do mesmo ao
-    contrato.
+**Matrix Communication**: allows to define which documents will be communicated,
+to which stakeholders, at what frequency (when) and by what means (like).
 
-Vinculando produtos do contrato
-------------------------------
+1.  Click the **Communication Matrix** tab, and then click the *New* button.
+    After that, the communication matrix register screen will be displayed, as
+    shown in the figure below:
 
-**Produtos do Contrato**: permite especificar os entregáveis do projeto
-relacionado ao contrato.
+   ![figure](images/contract-9.png)
+   
+   **Figure 9 - Complementary Information - Communication Matrix Registration**
 
-1.  Clique na guia **Produtos do Contrato** e logo em seguida clique no botão
-    Novo. Após isso, será exibida a tela para registro de produtos, conforme
-    ilustrada na figura abaixo:
+-   **Group involved**: inform the group that should receive the information.
+    Example: users, stakeholders, suppliers, sponsors, etc.;
 
-    ![Criar](images/contract-8.png)
+-   **Responsibilities**: inform those responsible for the information. Example:
+    project manager, systems analyst, etc.;
 
-    **Figura 8 - Informações complementares - Cadastro de produtos**
+-   **Evidence**: select the type of record to be reported;
 
-    -   Informe a descrição do produto, referente ao projeto, que será entregue.
-    Exemplo: documentação, *deploy*, *script*, fluxo de trabalho e entre outros.
+-   **Frequency**: inform when communication should occur;
 
-    -   Clique no botão *Adicionar* para adição do mesmo no contrato.
+-   **Contact type**: select the means of communication;
 
-Vinculando matriz comunicação
-----------------------------
+-   After the entered data, click the *Add* button to add the communication
+    matrix to the contract.
 
-**Matriz Comunicação**: permite definir quais documentos serão comunicados, para
-quais stakeholders, em que frequência (quando) e por qual meio (como).
+Liking contract formula
+-----------------------
 
-1.  Clique na guia **Matriz comunicação** e logo em seguida clique no botão
-    Novo. Após isso, será exibida a tela de cadastro de matriz de comunicação,
-    conforme ilustrada na figura abaixo:
+**Contract Formula**: allows you to link formulas to the contract. These
+formulas are used to obtain the value of the total cost of the contract service
+activities.
 
-    ![Criar](images/contract-9.png)
+1.  Click the **Contract Formula** tab and click the *New* button. After that,
+    the link screen of the formula in the contract will be displayed;
 
-    **Figura 9 - Informações complementares - Registro de matriz de comunicação**
+   ![figure](images/contract-10.png)
+   
+   **Figure 10 - Complementary Information - Linking Formulas**
 
-    -   **Grupo envolvido**: informe o grupo que deve receber a informação. Exemplo:
-    usuários, *stakeholders, *fornecedores, patrocinadores, etc.;
+-   Perform the search for the formula that will be used to obtain the value of
+    the total cost of the service activity(s) of the contract;
 
-    -   **Responsabilidades**: informe os responsáveis pela informação. Exemplo:
-        gerente de projeto, analista de sistemas, etc.;
+-   After the search, select the formula for addition in the contract.
 
-    -   **Tipo de registo**: selecione o tipo de registro que deverá ser
-        comunicado;
+Liking business units
+---------------------
 
-    -   **Frequência**: informe quando que deve ocorrer a comunicação;
+**Business Units**: allows the link of business units to the contract.
 
-    -   **Forma de contato**: selecione o meio de comunicação;
+1.  Click the **Business Units** tab, and then click the *Add* button. After
+    that, the screen to link business unit (s) to the contract will be
+    displayed, as shown in the figure below:
 
-    -   Após os dados informados, clique no botão *Adicionar* para adição da
-        matriz de comunicação ao contrato.
+  ![figure](images/contract-11.png)
+  
+  **Figure 11 - Complementary Information - Linking Business Units**
 
-Vinculando fórmula do contrato
------------------------------
+-   Perform the unit search and after that, select the unit to link to the
+    contract.
 
-**Fórmula do Contrato**: permite vincular fórmulas ao contrato. Essas fórmulas
-são utilizadas para obter o valor do custo total das atividades do serviço do
-contrato.
+Liking attachaments
+-------------------
 
-1.  Clique na guia **Fórmula do Contrato** e clique no botão Novo. Após isso,
-    será exibida a tela para vínculo da fórmula no contrato;
+**Attachments Contract**: allows you to attach files to the contract.
 
-    ![Criar](images/contract-10.png)
+1.  Click the Attachments tab, and after that, the file attachment area will be
+    displayed, as shown in the figure below:
 
-    **Figura 10 - Informações complementares – Vínculo de fórmulas**
+  ![figure](images/contract-12.png)
+  
+  **Figure 12 - Additional Information - File Attachment**
 
--   Realize a pesquisa da fórmula que será utilizada para obter o valor do custo
-    total da(s) atividade(s) do serviço do contrato;
+2.  Enter the description of the attachment, click the *Add File* button and
+    select the desired file;
 
--   Após a pesquisa, selecione a fórmula para adição no contrato.
+    -   After that, the file will be added to the contract.
 
-Vinculando unidades de negócio
------------------------------
+3.  After the entered contract data, click the *Record* button to register,
+    where the date, time and user will be saved automatically for a future
+    audit.
 
-**Unidades de Negócio**: permite vincular unidades de negócio ao contrato.
+Verifying the history audit contract
+------------------------------------
 
-1.  Clique na guia **Unidades de Negócio** e logo em seguida clique no
-    botão *Adicionar*. Após isso, será exibida a tela para vincular unidade(s)
-    de negócio ao contrato, conforme ilustrada na figura abaixo:
+1.  Every time a change is made to the agreement, this change is recorded in the
+    history for a future audit. The figure below illustrates the record of
+    changes made to the contract:
 
-    ![Criar](images/contract-11.png)
+![figure](images/contract-13.png)
 
-    **Figura 11 - Informações complementares - Vínculo de unidades de negócio**
+**Figure 13 - Contract History**
 
-    -   Realize a pesquisa da unidade e após isso, selecione a unidade para vincular
-    ao contrato.
 
-Vinculando anexos
------------------
-
-**Anexos Contrato**: permite anexar arquivos ao contrato;
-
-1.  Clique na guia **Anexos Contrato** e após isso, será apresentada a área de
-    anexo de arquivo, conforme ilustrada na figura abaixo:
-
-    ![Criar](images/contract-12.png)
-
-    **Figura 12 - Informações complementares - Anexo de arquivos**
-
-    -  Informe a descrição do anexo, clique no botão *Adicionar Arquivo* e
-    selecione o arquivo desejado;
-
-    -  Após isso, será adicionado o arquivo ao contrato.
-
-2.  Após os dados do contrato informados, clique no botão *Gravar* para efetuar
-    o registro, onde a data, hora e usuário serão gravados automaticamente para
-    uma futura auditoria.
-
-Verificando o histórico de auditoria do contrato
------------------------------------------------
-
-1.  Todas as vezes que é feita uma alteração no contrato, essa alteração é
-    gravada no histórico para uma futura auditoria. A figura abaixo ilustra o
-    registro das alterações feitas no contrato:
-
-![Criar](images/contract-13.png)
-
-**Figura 13 - Histórico do contrato**
-
-[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/provider.html
-[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/client.html
-[3]:/pt-br/citsmart-platform-7/additional-features/contract-management/configuration/currency.html
-[4]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/operating-condition.html
+[1]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/provider.html
+[2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/client.html
+[3]:/en-us/citsmart-platform-7/additional-features/contract-management/configuration/currency.html
+[4]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/operating-condition.html
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Anna Martins
+    <b>Updated:</b>08/30/2019 – Anna Martins
