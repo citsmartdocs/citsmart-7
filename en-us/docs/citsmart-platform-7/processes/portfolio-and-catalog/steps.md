@@ -80,7 +80,7 @@ Services.
 For each Business/IT Service, the request and incident activities are
 registered. Access the Portfolio Management screen **(Processes Management >
 Portfolio and Catalog Management > Portfolio Management)**, click
-the *Advance* button, of the desired Portfolio, and then click *Advance *again,
+the *Advance* button, of the desired Portfolio, and then click *Advance* again,
 and record the Request and Incident activities.
 
 **Register Time of Service of the Activities of each new Service**
@@ -117,7 +117,7 @@ activity and report The defined service time for these activities.
 
     The service service time will be calculated according to the schedule.
 
-### **SEE ALSO**
+### See also
 
 -   [Calendar registration and search][5]);
 
@@ -132,7 +132,7 @@ activity and report The defined service time for these activities.
 -   [User registration and search][3]);
 
 
-### **Attachments**
+### Attachments
 
 
 [1]:/en-us/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
