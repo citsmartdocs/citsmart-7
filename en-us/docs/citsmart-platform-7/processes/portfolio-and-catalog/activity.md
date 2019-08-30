@@ -67,7 +67,7 @@ Registering service request activities
     Request Activity Master screen will be displayed, as shown in the figure
     below:
 
-   ![Criar](images/activity-1.png)
+   ![Criar](images/activity-2.png)
    
    **Figure 2 - Request activity registration screen**
 
