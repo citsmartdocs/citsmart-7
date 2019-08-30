@@ -1,86 +1,74 @@
-title:Cadastro e pesquisa de categoria de imagem
-Description:Esta funcionalidade tem por objetivo de registrar as categorias de imagens para organização das imagens dentro da galeria que o sistema administra e usa.
+title: Image category registration and search
+Description: The goal of this feature is to register the picture gallery categories to organize the arrange images into galeries.
+# Image category registration and search
 
-# Cadastro e pesquisa de categoria de imagem
+The goal of this feature is to register the picture gallery categories to organize the arrange images into galeries used and 
+managed by the system.
 
-Esta funcionalidade tem por objetivo de registrar as categorias de imagens para
-organização das imagens dentro da galeria que o sistema administra e usa.
+How to access
+-----------------
 
-Como acessar
-------------
+1.  Access the image category feature navigating through the main menu 
+**Process Management > Knowledge Management > Picture Gallery Category**.
 
-1.  Acesse a funcionalidade de Pesquisa de Liberação através da navegação no
-    menu principal **Processos ITIL > Gerência de
-    Conhecimentos > Categoria Galerias de Imagens**.
+Preconditions
+-----------------
 
-Pré-condições
--------------
+1.  Not applicable.
 
-1.  Não se aplica.
+Filters
+-----------
 
-Filtros
---------
+1.  The following filter enable the user to restrict the participation of items in the standard feature listing, making it easier 
+to locate the desired items as shown in the figure below:
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados, conforme ilustrado na figura abaixo:
+    - Category Name.
 
-    -   Nome Categoria.
+2.  On the **Register** screen, click on the **Search** tab. The search screen will be displayed as illustrated on the image below:
 
-2.  Na tela de **Categoria Galeria de Imagem**, clique na aba **Pesquisa
-    Categoria de Imagem**. Será apresentada a tela de pesquisa conforme
-    ilustrada na figura abaixo:
-
-    ![Criar](images/category-1.png)
+    ![Search](images/category.img1.jpg)
    
-    **Figura 1 - Tela de pesquisa de categoria de imagem**
+    **Figure 1 - Picture gallery category search screen**
 
-3.  Realize a pesquisa de categoria de imagem:
+3.  Perform a picture gallery category search;
 
-    -   Informe o nome da categoria de imagem que deseja pesquisar e clique no
-    botão *Pesquisar*. Após isso, será exibido o registro da categoria de imagem
-    conforme o nome informado;
+    -   Insert the name of the intended category and click on the *Search* button. Afterwards, the category entry will be displayed 
+    according to the description provided;
 
-    -   Caso deseje listar todos os registros de categoria de imagem, basta clicar
-    diretamente no botão *Pesquisar*.
+    -   To list all categories, just click directly on the *Search* button, if needed.
 
-Listagem de itens
+Items list
 ----------------
 
-1.  O seguinte campo cadastral está disponível ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Nome Categoria**.
+1.  The following cadastral field is available to the user to make it easier to identify the desired items in the standard feature 
+listing: **Category Name**.
 
-    ![Criar](images/category-2.png)
+    ![Items](images/category.img2.jpg)
 
-    **Figura 2 - Tela de listagem de categoria de imagem**
+    **Figure 2 - Items screen**
 
-2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a tela de cadastro exibindo o conteúdo referente ao registro
-    selecionado;
+2.  After searching, select the intended entry. Afterwards, they will be redirected to the registry screen displaying the content 
+belonging to the selected entry;
 
-3.  Para alterar os dados do registro de categoria de imagem, basta modificar as
-    informações dos campos desejados e clicar no botão *Gravar* para que seja
-    gravada a alteração realizada no registro, onde a data, hora e usuário serão
-    gravados automaticamente para uma futura auditoria.
+3.  To edit a category entry, just modify the information on the intended fields and click on the *Save* button to confirm the 
+changes to the database, at which date, time and user will be stored automatically for a future audit.
 
-Preenchimento dos campos cadastrais
----------------------------------
+Filling in the registration fields
+--------------------------------------
 
-1.  Acesse a funcionalidade de categoria de imagem através da navegação no
-    menu principal. Após isso, será apresentada a tela de cadastro de categoria
-    de imagem, conforme ilustrada na figura abaixo:
+1.  Access image category functionality by navigating the main menu. Afterwards, the picture gallery category entry screen will be 
+displayed, as illustrated on the image below:
 
-    ![Criar](images/category-3.png)
+    ![Entry](images/category.img3.jpg)
 
-    **Figura 3 - Tela de cadastro de categoria de imagem**
+    **Figure 3 - Picture gallery category entry screen**
 
-2.  Preencha os campos conforme orientações abaixo:
+2.  Fill out the fields as instructed below:
 
-    -   **Nome Categoria**: informe o nome da categoria de imagem.
+    - **Category Name**: name the picture gallery category.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Anna Martins
+    <b>Updated:</b>08/30/2019 – Larissa Lourenço
