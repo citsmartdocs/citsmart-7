@@ -132,8 +132,6 @@ activity and report The defined service time for these activities.
 -   [User registration and search][3];
 
 
-### Attachments
-
 
 [1]:/en-us/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
 [2]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/employee.html

@@ -1,98 +1,86 @@
-title: Cadastro e pesquisa de sinônimo
-Description: Esta funcionalidade tem por objetivo manter o registro de palavras sinônimas para efeitos de pesquisa na base de conhecimento.
+title: Synonym registration and search
+Description: This functionality aims to keep the record of synonymous words for search purposes in the Knowledge base.
+# Synonym registration and search
 
-# Cadastro e pesquisa de sinônimo
+This functionality aims to keep the record of synonymous words for search purposes in the Knowledge base.
 
-Esta funcionalidade tem por objetivo manter o registro de palavras sinônimas
-para efeitos de pesquisa na base de conhecimento.
-
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de sinônimo através da navegação no menu
-    principal **Processos ITIL >  Gerência de Conhecimento > Sinônimo**.
-
-Pré-condições
-------------
-
-1.  Não se aplica.
-
-Filtros
--------
-
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
-
-    -   Palavra;
-
-    -   Palavra correspondente.
-
-2.  Na tela de **Sinônimo**, será apresentada a tela de pesquisa conforme
-    ilustrada na figura a seguir. Nesta tela, são exibidas as palavras sinônimas
-    já registradas e os campos de filtros para realizar a busca de determinados
-    registros;
-
-    ![Criar](images/synonym-1.png)
-
-    **Figura 1 - Tela de pesquisa de sinônimos**
-
-3.  Para realizar a busca de sinônimos, informe a palavra e/ou palavra
-    correspondente. Após isso, será exibido o registro conforme os dados
-    informados.
-
-4.  Para alterar os dados do registro de sinônimo, clique no botão *Editar*.
-    Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo
-    referente ao registro selecionado.
-
-5.  Para indexar um sinônimo, clique no botão *Sincronizar* e será exibido um
-    alerta de confirmação:
-
-    ![Criar](images/synonym-2.png)
-
-    **Figura 2 - Confirmação de indexação**
-
-    -   Clique no botão *Confirmar*.
-
-Listagem de itens
+How to access
 ----------------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Palavra, Palavra correspondente e Indexado.
+1. Access the synonym functionality by navigating the main menu 
+**Process Management > Knowledge Management > Synonym**.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Excluir*.
+Preconditions
+------------------
 
-    ![Criar](images/synonym-3.png)
+1. No applicable.
 
-    **Figura 3 - Tela de itens**
+Filters
+-----------
 
-Preenchimento dos campos cadastrais
-----------------------------------
+1. The following filters enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-1.  Será apresentada a tela de **Sinônimo**;
+    - Word;
 
-2.  Clique no botão *Novo*. Feito isso, será apresentada a tela de cadastro de
-    palavras sinônimas, conforme ilustrada na figura a seguir:
+    - Corresponding word.
 
-    ![Criar](images/synonym-4.png)
+2. On the **Synonym** screen, the search screen appears as illustrated in the following figure. On this screen, the words 
+synonymous already registered and the filter fields are displayed the search for certain records are displayed:
 
-    **Figura 4 - Tela de cadastro de palavras sinônimas**
+    ![Search](images/synonym.img1.jpg)
 
-3.  Preencha os campos conforme orientações abaixo:
+    **Figure 1 - Synonym search screen**
 
-    -   **Palavra**: informe a descrição da palavra;
+3. To search for synonyms, enter the corresponding word and/or word. After this, the record will be displayed according to the data 
+entered;
 
-    -   **Palavra correspondente**: informe a descrição da palavra correspondente.
+4. To change the data in the synonym registry, click the *Edit* button. Done this, you will be directed to the registration screen 
+displaying the content pertaining to the selected registry;
 
-4.  Clique no botão *Gravar* para efetuar o registro, onde a data, hora e
-    usuário serão gravados automaticamente para uma futura auditoria;
+5. To index a synonym, click the *Synchronize* button and a confirmation alert will be displayed:
 
-5.  O botão *Voltar*, retorna para a página de pesquisa de sinônimo.
+    ![Indexing](images/synonym.img2.jpg)
 
+    **Figure 2 - Indexing Confirmation**
+
+    - Click on the *do you confirm?* button.
+
+Items list
+----------------
+
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **Word, Corresponding word** and **Indexed**.
+
+2. There are action buttons available to the user for each item in the listing, they are: *Edit* and *Delete*.
+
+    ![Items](images/synonym.img3.jpg)
+
+    **Figure 3 - Items screen**
+
+Filling in the registration fields
+-------------------------------------
+
+1. The **Synonym** screen will be displayed;
+
+2. Click the *New* button. Done this, the synonymous words register screen will be displayed, as illustrated in the following 
+figure:
+
+    ![Entry](images/synonym.img4.jpg)
+
+    **Figure 4 - Synonym entry screen**
+
+3. Fill in the fields as guidelines below:
+
+    - **Word**: inform the description of the word;
+
+    - **Corresponding word**: inform the description of the corresponding word.
+
+4. Click the *Save* button to register, where the date, time and user will be saved automatically for a future audit;
+
+5. The *Back* button returns to the synonym search page.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/18/2019 – Anna Martins
+    <b>Updated:</b>08/30/2019 – Larissa Lourenço

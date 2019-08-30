@@ -1,453 +1,443 @@
-title:Cadastro da atividade de serviço
-Description:Esta funcionalidade tem por objetivo registrar as atividades de um serviço (requisição e/ou incidente).
+title: Service activity registration
+Description: This functionality is intended to record the activities of a service (request and/or incident).
 
-# Cadastro da atividade de serviço
+# Service activity registration
 
-Esta funcionalidade tem por objetivo registrar as atividades de um serviço
-(requisição e/ou incidente).
+This functionality is intended to record the activities of a service (request
+and/or incident).
 
-Pré-condições
-------------
+Preconditions
+-------------
 
-1.  Ter o portfólio com os serviços cadastrados (ver conhecimentos [Cadastro de
-    portfólio de serviços][1], [Cadastro de serviços][2]);
+1.  Have the portfolio with the services registered (see knowledge [Service
+    portfolio registration][1], [Service registration][2]);
 
-2.  Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de
-    grupo][3]);
+2.  Have the group registered (see knowledge [Group registration and
+    search][3]);
 
-3.  Ter os itens de configuração cadastrados (ver conhecimento [Gerenciamento de
-    itens de configuração][4]);
+3.  Have the configuration items registered (see knowledge [Configuration item
+    management][4]);
 
-4.  Ter o calendário definido (ver conhecimento [Cadastro e pesquisa de
-    calendário][5]);
+4.  Have the calendar set (see knowledge [Calendar registration and
+    search][5]);
 
-5.  Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de
-    contrato][6]).
+5.  Have the contract registered (see knowledge [Contract registration and
+    search][6]);
 
-Registrando atividades de requisição do serviço
----------------------------------------------
+Registering service request activities
+--------------------------------------
 
-### Como acessar
+### How to access
 
-1.  Acesse o menu principal **Processos ITIL > Gerência de Portfólio e
-    Catálogo > Gerenciamento de Portfólio e Catálogo**. Após isso, será
-    apresentada a tela de Gerenciamento de Portfólio de Serviços;
+1.  Access the main menu **Processes Management > Portfolio and Catalog
+    Management > Portfolio Management**. After that, the Services Portfolio
+    Management screen will be displayed;
 
-2.  Acesse o Portfólio de Serviços que deseja, clicando no botão *Avançar* do
-    mesmo;
+2.  Access the Services Portfolio you want by clicking the *Advance* button of
+    the same;
 
-3.  Na guia "Catalogo de Serviço", eleja o serviço almejado e clique
-    em *Avançar*;
+3.  On the "Service Catalog" tab, choose the desired service and
+    click *Advance*;
 
-4.  Feito isso, clique na aba **Requisições.**
+4.  Then click on the **Requests** tab.
 
-### Filtros
+### Filters
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -   Nome do Serviço.
+-   Service Request Name.
 
-### Listagem de itens
+### Items list
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: ID e Nome Serviço de Requisição.
+1.  The following cadastral fields are available to the user to make it easier
+    to identify the desired items in the standard feature listing: **ID**
+    and **Service Request Name**.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Desvincular*.
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Edit* and *Unlink*.
 
-    ![Criar](images/activity-1.png)
+![Criar](images/activity-1.png)
 
-    **Figura 1 - Tela de atividade de requisição do serviço**
+**Figure 1 - Service request activity screen**
 
-### Preenchimento de campos cadastrais
+### Filling in the registration fields
 
+1.  Click the *New Service Request* button. Once this is done, the Service
+    Request Activity Master screen will be displayed, as shown in the figure
+    below:
 
-1.  Clique no botão *Novo Serviço de Requisição*. Feito isso, será apresentada a
-    tela de Cadastro da Atividade de Requisição do Serviço, conforme ilustrada
-    na figura abaixo:
-    
-    ![Criar](images/activity-2.png)
+   ![Criar](images/activity-2.png)
+   
+   **Figure 2 - Request activity registration screen**
 
-    **Figura 2 - Tela de cadastro de atividade de requisição**
+2.  Fill in the fields as shown below:
 
-1.  Preencha os campos conforme orientações abaixo:
+-   **Activity Name**: define the name of the request activity;
 
-    -   **Nome da Atividade**: defina o nome da atividade de requisição;
+-   **Acronym/Abbreviation**: enter the acronym or abbreviation that will
+    represent the request activity;
 
-    -   **Sigla/Abreviação**: informe a sigla ou abreviação que representará a
-    atividade de requisição;
+-   **Activity Status**: select the status of the request activity;
 
-    -   **Situação da Atividade**: selecione a situação da atividade de requisição;
+-   **Type**: it is not necessary to fill this field, since it is already filled
+    automatically with the type "request";
 
-    -   **Tipo de Demanda**: não é necessário o preenchimento deste campo, pois o
-    mesmo já vem preenchido automaticamente com o tipo "Requisição";
+-   **Category**: enter the category of the request activity;
 
-    -   **Categoria**: informe a categoria da atividade de requisição;
+-   **Deployment**: inform the date of the implementation of the request
+    activity;
 
-    -   **Data de Implantação**: informe a data da implantação da atividade de
-    requisição;
+-   **Visualization Template**: linking the activity to a personalized
+    satisfaction survey through a Neuro form.
 
-    -   **Template de Visualização**: vinculação da atividade a uma pesquisa de
-    satisfação personalizada através de um formulário Neuro.
+-   **Follow-up Template**: select, if there is one, the template for monitoring
+    the request activity;
 
-    -   **Template acompanhamento**: selecione, caso exista, o template de
-    acompanhamento da atividade de requisição;
+-   **Creation Template**: select, if one exists, the request activity
+    template;
 
-    -   **Template criação**: selecione, caso exista, o template da atividade de
-    requisição;
+-   **Details**: describe the details of how the request activity should be
+    performed;
 
-    -   **Detalhamento**: descreva os detalhes sobre como a atividade de requisição
-    deverá ser executada;
+-   **Objective**: describe the objectives of the request activity;
 
-    -   **Objetivo**: descreva os objetivos da atividade de requisição;
+-   **Event Type**: select when the request activity will occur;
 
-    -   **Tipo de Evento**: selecione quando ocorrerá a atividade de requisição;
+-   **Orientation Script (KB -Knowledge Base)**: report, if available, the
+    support script stored in the Knowledge Base for guidance in the execution of
+    the request activity;
 
-    -   **SCRIPT de Orientação (Base de Conhecimento)**: informe, caso exista, o
-    script de apoio armazenado na Base de Conhecimento para orientação na
-    execução da atividade de requisição;
+-   **Activity Type**: select the type of the request activity;
 
-    -   **Tipo de Atividade**: selecione o tipo da atividade de requisição;
+-   **Importance of Activity to Business**: select the importance of the request
+    activity to the business;
 
-    -   **Importância da Atividade ao Negócio**: selecione a importância da
-    atividade de requisição ao negócio;
+-   **Place of Execution of Activities**: select the place of execution of the
+    request activity.
 
-    -   **Lugar de Execução das Atividades**: selecione o lugar de execução da
-    atividade de requisição;
+3.  If you want to make the request activity available in Smart Portal and/or
+    Chat for request, click the **Presentation** tab;
 
-1.  Caso queira disponibilizar a atividade de requisição no Smart Portal e/ou
-    Chat para solicitação, clique na aba **Apresentação**;
+   ![Criar](images/activity-3.png)
+   
+   **Figure 3 - Availability of request activity in the portal and/or chat**
 
-    ![Criar](images/activity-3.png)
+-   **Available in the portal**: select the "Yes" option to make the service
+    request activity available on the portal;
 
-    **Figura 3 - Disponibilização da atividade de requisição no portal e/ou chat**
+-   **Available for request by chat**: select the "Yes" option to make the
+    service request activity available in the chat;
 
-    -   **Disponível no portal**: selecione a opção "Sim" para disponibilizar a
-    atividade de requisição do serviço no portal;
+-   **Show field to select impact/urgency**: define whether the "impact" and
+    "urgency" fields are displayed in the portal on the activity request log
+    screen;
 
-    -   **Disponível via chat**: selecione a opção "Sim" para disponibilizar a
-    atividade de requisição do serviço no chat;
+-   **Show field to select a configuration item**: define whether the
+    configuration item functionality in the portal is displayed in the activity
+    request log screen, which allows the selection of the configuration item;
 
-    -   **Mostrar campo para selecionar o impacto/urgência**: defina se os campos
-    "impacto" e "urgência" serão exibidos no portal, na tela de registro de
-    solicitação da atividade;
+-   **Show field to set a description**: define whether the "description" field
+    in the portal will be displayed in the activity request log screen, which
+    allows you to describe the request in more detail;
 
-    -   **Mostrar campo para selecionar um item de configuração**: defina se será
-    exibido a funcionalidade de item de configuração no portal, na tela de
-    registro de solicitação da atividade, que permite a seleção do item de
-    configuração;
+-   **Show field to upload an attachment**: define whether the add attachment
+    field will appear in the portal on the activity request log screen, which
+    allows you to add files in the request;
 
-    -   **Mostrar campo para descrição**: defina se será exibido o campo de
-    "descrição" no portal, na tela de registro de solicitação da atividade, que
-    permite descrever com mais detalhes a solicitação;
+-   **Show priority**: define whether the service request open by the Service
+    Portal will be provided with the Priority information;
 
-    -   **Mostrar campo para adicionar um anexo**: defina se o campo de adição de
-    anexo será apresentado no portal, na tela de registro de solicitação da
-    atividade, que permite adicionar arquivos na solicitação;
+-   **Show final date**: define whether the service request open by the Service
+    Portal will be provided the date and time limit information;
 
-    -   **Exibir prioridade**: defina se ao abrir uma solicitação de serviço pelo
-    Portal de Serviço será fornecida a informação de Prioridade do chamado;
+   !!! note "NOTE"
 
-    -   **Exibir data limite**: defina se ao abrir uma solicitação de serviço pelo
-    Portal de Serviço será fornecida a informação de Data e Hora Limite do
-    atendimento do chamado;
+     In order for the deadline to be displayed, an SLA must be registered for
+     the activity (see knowledge [Service contract attributes configuration][1]),
+     in the section Linking request activities to contract). The parameters "Show
+     priority" and "Show final date" have their default value equal to "Yes".
 
-    !!! note "NOTA"
+-   **Name**: enter the name of the request activity for display on the portal
+    and/or chat;
 
-        Para que ocorra a exibição da data limite é necessário o cadastro de uma SLA
-        para a atividade (ver conhecimento **[Configuração dos atributos do contrato do
-        serviço]()**, na seção Vinculando atividades de requisição ao contrato). Os parâmetros "Exibir
-        prioridade" e "Exibir data limite" possuem seu valor default igual "Sim".
+-   **Description**: provide a brief description of the request activity, which
+    will be displayed on the portal.
 
-    -   **Nome**: informe o nome da atividade de requisição para exibição no portal
-    e/ou chat;
+-   Click the *Select an Image* button and a screen will appear to select an
+    image that will represent the request activity:
 
-    -   **Descrição**: informe uma breve descrição da atividade de requisição, a
-    qual será exibida no portal;
+   ![Criar](images/activity-4.png)
+   
+   **Figure 4 - Image selection screen**
 
-    -   Clique no botão *Selecione uma imagem* e será apresentada uma tela para
-    selecionar uma imagem que representará a atividade de requisição:
+4.  Link the executor group, which will have access to the request activity in
+    the portal and/or chat:
 
-    ![Criar](images/activity-4.png)
-    
-    **Figura 4 - Tela de seleção de imagem**
+   !!! note "NOTE"
 
-1.  Vincule o grupo executor, o qual terá acesso a atividade de requisição no
-    portal e/ou chat:
+      Configuring the group access permission to view the request activity in
+      the portal will only be applied if the parameter "Enable access permission
+     for user groups in the portal" is enabled.
 
-    !!! note "NOTA"
+-   Click on the **Access Permission** tab, the link screen of the groups will
+    be displayed, as shown in the figure below:
 
-        A configuração da permissão de acesso do grupo para visualização da atividade
-        de requisição no portal, somente será aplicada caso o parâmetro “Habilita
-        permissão de acesso para grupos de usuário no portal” esteja habilitado.
+   ![Criar](images/activity-5.png)
+   
+   **Figure 5 - Access by group permission**
 
-    -   Clique na aba **Permissão de Acesso**, será apresentada a tela para vínculo
-    dos grupos, conforme ilustrada na figura abaixo:
+-   Click the *Link Groups* button. The Group Search screen appears. Perform the
+    search, select the groups and click on the *Add* button to perform the
+    operation;
 
-    ![Criar](images/activity-5.png)
+   !!! info "IMPORTANT"
 
-    **Figura 5 - Permissão de acesso por grupo**
+      If one of the 3 languages on this tab is left blank, the information will
+      be filled out with the information contained in the "Presentation" tab.
 
-    -   Clique no botão *Vincular Grupos*. Será exibida a tela de pesquisa de grupo.
-    Realize a pesquisa, selecione os grupos e clique no botão *Enviar* para
-    efetuar a operação;
+-   To unlink the group, simply click the *Unlink*.
 
-    !!! info "IMPORTANTE"
+5.  After entering the required data for the request activity, click
+    the *Save* button to register. Once this is done, the request activity will
+    be recorded and linked to the service;
 
-        Na tela de pesquisa de grupo, serão listados somente os grupos que foram
-        vinculados no registro de portfólio de serviço.
+6.  To change the request activity data, click the *Edit* button of the request
+    activity, modify the data you want and click *Save* to make the change,
+    where the date, time and user will be saved automatically for a future
+    audit;
 
-    -   Para desvincular o grupo, basta clicar no botão *Desvincular* do mesmo.
+7.  To delete the request activity, click the *Edit* button on it, and then
+    click the *Delete* button;
 
-1.  Após informar os dados necessários da atividade de requisição, clique no
-    botão *Gravar* para efetuar o registro. Feito isso, a atividade de
-    requisição será gravada e vinculada ao serviço;
+8.  To unlink the service request activity, simply click on the *Unlink* button
+    of the service;
 
-2.  Para alterar os dados da atividade de requisição, clique no
-    botão *Editar* da mesma, modifique os dados que desejar e clique
-    em *Gravar* para efetuar a alteração, onde a data, hora e usuário serão
-    gravados automaticamente para uma futura auditoria;
+9.  To re-link a request activity to the service, click the *Link Service
+    Request* button. Once this is done, the screen for searching the request
+    activities that have been disconnected from the service will be displayed.
+    Perform the search and select the request activity to successfully complete
+    the link;
 
-3.  Para excluir a atividade de requisição, clique no botão *Editar* da mesma e
-    logo em seguida clique no botão *Excluir Dados;*
+10.  If you want to make the request activity available in the 3 available
+    languages (Portuguese/English/Spanish), click on the Multi-languages tab as
+    shown below:
 
-4.  Para desvincular a atividade de requisição do serviço, basta clicar no
-    botão *Desvincular* da mesma;
+   !!! info "IMPORTANT"
 
-5.  Para vincular novamente uma atividade de requisição ao serviço, clique no
-    botão *Vincular Serviço de Requisição*. Feito isso, será exibida a tela para
-    pesquisa das atividades de requisição que foram desvinculadas do serviço.
-    Realize a pesquisa e selecione a atividade de requisição para realizar o
-    vínculo com sucesso;
+      The Multi-languages field will only appear in the order activity
+      edit/registration if it has a YES option in the Main tab of the chosen
+      portfolio.
 
-6.  Caso queira disponibilizar a atividade de requisição nas 3 línguas
-    disponíveis (Português/Inglês/Espanhol), clique na aba Multi-idiomas
-    conforme figura abaixo:
+   ![Criar](images/activity-6.png)
+   
+   **Figure 6 - Request activity internationalization screen**
 
-    !!! info "IMPORTANTE"
+!!! note "NOTE"
 
-        O campo Multi-idiomas somente aparecerá no cadastro/edição de atividade de
-        requisição se o mesmo estiver com opção SIM na aba Principal do portfólio
-        escolhido.
+    If one of the 3 languages on this tab is left blank, the information will
+    be filled out with the information contained in the "Presentation" tab.
 
-    ![Criar](images/activity-6.png)
+Registering service incident activities
+---------------------------------------
 
-    **Figura 6 - Tela de internacionalização de atividade de requisição**
+### How to access
 
-!!! note "NOTA"
+1.  Access the main menu **Processes Management > Portfolio and Catalog
+    Management > Portfolio Management**. After that, the Services Portfolio
+    Management screen will be displayed;
 
-     Caso uma das 3 línguas nessa aba ficar em branco, as informações serão
-     preenchidas com as que estiver contidas na aba "Apresentação".
+2.  Access the Services Portfolio you want by clicking the *Advance* button of
+    the same;
 
-Registrando atividades de incidente do serviço
---------------------------------------------
+3.  On the "Service Catalog" tab, choose the desired service and
+    click *Advance*;
 
-### Como acessar
+4.  Then click on the **Incidents** tab.
 
-1.  Acesse o menu principal Processos ITIL \> Gerência de Portfólio e
-    Catálogo \> Gerenciamento de Portfólio e Catálogo. Após isso, será
-    apresentada a tela de Gerenciamento de Portfólio de Serviços;
+### Filters
 
-2.  Acesse o Portfólio de Serviços que deseja, clicando no botão *Avançar* do
-    mesmo;
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-3.  Na guia "Catalogo de Serviço", eleja o serviço almejado e clique
-    em *Avançar* ;
+-   Incident Name.
 
-4.  Feito isso, clique na aba **Incidentes**.
+### Items list
 
-### Filtros
+1.  The following cadastral fields are available to the user to make it easier
+    to identify the desired items in the default listing of the
+    functionality: **ID** and **Incident Name**.
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Edit* and *Unlink*.
 
--   Nome Incidente.
+![Criar](images/activity-7.png)
 
-### Listagem de itens
+**Figure 7 - Service incident activity screen**
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: ID e Nome Incidente.
+### Filling in the registration fields
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Desvincular*.
+1.  Click the *New Incident* button. Once this is done, the **Incident Activity
+    Master** screen will be displayed, as shown in the figure below:
 
-    ![Criar](images/activity-7.png)
+   ![Criar](images/activity-8.png)
+   
+   **Figure 8 - Incident activity master record screen**
 
-    **Figura 7 - Tela de atividade de incidente do serviço**
+2.  Fill in the fields as shown below:
 
-### Preenchimento dos campos cadastrais
+-   **Activity Name**: define the name of the incident activity;
 
-1.  Clique no botão *Novo Incidente*. Feito isso, será apresentada a tela
-    de **Cadastro de Atividade de Incidente**, conforme ilustrada na figura
-    abaixo:
+-   **Acronym/Abbreviation**: enter the acronym or abbreviation that will
+    represent the incident activity;
 
-    ![Criar](images/activity-8.png)
+-   **Activity Status**: select the status of the incident activity;
 
-    **Figura 8 - Tela de cadastro de atividade de incidente**
+-   **Deployment**: enter the date of deployment of the incident activity;
 
-2.  Preencha os campos conforme orientações abaixo:
+-   **Type**: it is not necessary to fill in this field, since it is already
+    filled automatically with the type "Incident";
 
-    -   **Nome do Atividade**: defina o nome da atividade de incidente;
+-   **Category**: report the category of incident activity;
 
-    -   **Sigla/Abreviação**: informe a sigla ou abreviação que representará a
-    atividade de incidente;
+-   **Follow-up Template**: select, if applicable, the Incident Activity
+    Tracking Template;
 
-    -   **Situação da Atividade**: selecione a situação da atividade de incidente;
+-   **Creation Template**: select, if any, the template of the incident
+    activity;
 
-    -   **Data de Implantação**: informe a data da implantação da atividade de
-    incidente;
+-   **Details**: describe the details of how the incident activity should be
+    performed;
 
-    -   **Tipo de Demanda**: não é necessário o preenchimento deste campo, pois o
-    mesmo já vem preenchido automaticamente com o tipo "Incidente";
+-   **Objective**: describe the purpose of the incident activity;
 
-    -   **Categoria**: informe a categoria da atividade de incidente;
+-   **Event Type**: select when the incident activity will occur;
 
-    -   **Template acompanhamento**: selecione, caso exista, o template de
-    acompanhamento da atividade de incidente;
+-   **Orientation Script (Knowledge Base)**: report, if any, the support script
+    stored in the Knowledge Base for guidance on the execution of the incident
+    activity;
 
-    -   **Template criação**: selecione, caso exista, o template da atividade de
-    incidente;
+-   **Critical**: report whether the incident activity is for "critical
+    incident" resolution;
 
-    -   **Detalhamento**: descreva os detalhes sobre como a atividade de incidente
-    deverá ser executada;
+-   **Activity Type**: select the type of incident activity;
 
-    -   **Objetivo**: descreva o objetivo da atividade de incidente;
+-   **Importance of Activity to Business**: select the importance of incident
+    activity to the business;
 
-    -   **Tipo de Evento**: selecione quando ocorrerá a atividade de incidente;
+-   **Place of Execution of Activities**: select the location where the incident
+    activity is to be run.
 
-    -   **SCRIPT de Orientação (Base de Conhecimento)**: informe, caso exista, o
-    script de apoio armazenado na Base de Conhecimento para orientação na
-    execução da atividade de incidente;
+3.  If you want to make available the incident activity in the Smart Portal
+    and/or Chat for request, click the **Presentation** tab;
 
-    -   **Crítico**: informe se a atividade de incidente é para resolução de
-    “incidente crítico";
+   ![Criar](images/activity-9.png)
+   
+   **Figure 9 - Availability of incident activity in portal and / or chat**
 
-    -   **Tipo de Atividade**: selecione o tipo da atividade de incidente;
+-   **Available in the portal**: select the "Yes" option to make the incident
+    activity available in the portal;
 
-    -   **Importância da Atividade ao Negócio**: selecione a importância da
-    atividade de incidente ao negócio;
+-   **Available for request by chat**: select the "Yes" option to make the
+    incident activity available in the chat;
 
-    -   **Lugar de Execução das Atividades**: selecione o local de execução da
-    atividade de incidente.
+-   **Show field to select impact/urgency**: Define whether the "impact" and
+    "urgency" fields will be displayed in the portal on the request log of the
+    incident activity;
 
-3.  Caso queira disponibilizar a atividade de incidente no Portal Smart e/ou
-    Chat para solicitação, clique na aba **Apresentação**;
+-   **Show field to select a configuration item**: define whether the
+    configuration item functionality in the portal is displayed on the Incident
+    Activity Request Log screen, which allows the selection of the configuration
+    item;
 
-    ![Criar](images/activity-9.png)
+-   **Show field to set a description**: define whether the "description" field
+    in the portal will be displayed on the request activity log screen, which
+    allows you to describe the request in more detail;
 
-    **Figura 9 - Disponibilização da atividade de incidente no portal e/ou chat**
+-   **Show field to upload an attachment**: define whether the Add Attachment
+    field will appear in the portal on the Incident Activity Request Log screen,
+    which allows you to add files in the request;
 
-    -   **Disponível no portal**: selecione a opção "Sim" para disponibilizar a
-    atividade de incidente no portal;
+-   **Show priority**: define whether the service request open by the Service
+    Portal will be provided with the Priority information;
 
-    -   **Disponível via chat**: selecione a opção "Sim" para disponibilizar a
-    atividade de incidente no chat;
+-   **Show final date**: define whether the service request open by the Service
+    Portal will be provided the date and time limit information ;
 
-    -   **Mostrar campo para selecionar o impacto/urgência**: defina se os campos
-    "impacto" e "urgência" serão exibidos no portal, na tela de registro de
-    solicitação da atividade de incidente;
+   !!! note "NOTE"
 
-    -   **Mostrar campo para selecionar um item de configuração**: defina se será
-    exibido a funcionalidade de item de configuração no portal, na tela de
-    registro de solicitação da atividade de incidente, que permite a seleção do
-    item de configuração;
+       In order for the deadline to be displayed, an SLA must be registered for
+       the activity (see knowledge [Service contract attributes configuration][7]),
+       in the section Linking request activities to contract). The parameters "Show
+       priority" and "Show final date" have their default value equal to "Yes".
 
-    -   **Mostrar campo para descrição**: defina se será exibido o campo de
-    "descrição" no portal, na tela de registro de solicitação da atividade de
-    incidente, que permite descrever com mais detalhes a solicitação;
+-   **Name**: enter the name of the incident activity for viewing on the portal
+    and/or chat;
 
-    -   **Mostrar campo para adicionar um anexo**: defina se o campo de adição de
-    anexo será apresentado no portal, na tela de registro de solicitação da
-    atividade de incidente, que permite adicionar arquivos na solicitação;
+-   **Description**: please provide a brief description of the incident
+    activity, which will be displayed on the portal;
 
-    -   **Exibir prioridade**: defina se ao abrir uma solicitação de serviço de pelo
-    Portal de Serviço será fornecida a informação de Prioridade do chamado;
+-   Click the *Select an image* button and a screen will appear to select an
+    image that will represent the incident activity:
 
-    -   **Exibir data limite**: defina se ao abrir uma solicitação de serviço pelo
-    Portal de Serviço será fornecida a informação de Data e Hora Limite do
-    atendimento do chamado;
+   ![Criar](images/activity-10.png)
+   
+   **Figure 10 - Image selection screen**
 
-    !!! note "NOTA"
+4.  Link the executor group, which will have access to incident activity in the
+    portal and/or chat:
 
-        Para que ocorra a exibição da data limite é necessário o cadastro de uma
-        SLA para a atividade (ver conhecimento [Configuração dos atributos do
-        contrato do serviço](), na seção Vinculando atividades de requisição ao contrato). Os parâmetros
-        "Exibir prioridade" e "Exibir data limite" possuem seu valor default igual
-        "Sim".
+   !!! note "NOTE"
 
-    -   **Nome**: informe o nome da atividade de incidente para exibição no portal
-    e/ou chat;
+       Setting the group access permission to view the service activity in the
+       portal will only be applied if the parameter "Enable access permission for
+      user groups in the portal" is enabled.
 
-    -   **Descrição**: informe uma breve descrição da atividade de incidente, a qual
-    será exibida no portal;
+-   Click on the **Access Permission** tab, the link screen of the groups will
+    be displayed, as shown in the figure below:
 
-    -   Clique no botão *Selecione uma imagem* e será apresentada uma tela para
-    selecionar uma imagem que representará a atividade de incidente:
+   ![Criar](images/activity-11.png)
+   
+   **Figure 11 - Access by group permission**
 
-    ![Criar](images/activity-10.png)
+-   Click the *Link Groups* button. The Group Search screen appears. Perform the
+    search, select the groups and click on the *Add* button to perform the
+    operation;
 
-    **Figura 10- Tela de seleção de imagem**
+   !!! info "IMPORTANT"
 
-4.  Vincule o grupo executor, o qual terá acesso a atividade de incidente no
-    portal e/ou chat:
+     In the group search screen, only the groups that have been linked in the
+     service portfolio record will be listed.
 
-    !!! note "NOTA"
+5.  After entering the required data for the incident activity, click
+    the *Save* button to register. Once this is done, the incident activity will
+    be recorded and linked to the service;
 
-        A configuração da permissão de acesso do grupo para visualização da
-        atividade de serviço no portal, somente será aplicada caso o parâmetro
-        “Habilita permissão de acesso para grupos de usuário no portal” esteja
-        habilitado.
+6.  To change the incident activity data, click the *Edit* button of the
+    incident, modify the data you want and click *Save* to make the change,
+    where the date, time and user will be saved automatically for a future
+    audit;
 
-    -   Clique na aba **Permissão de Acesso**, será apresentada a tela para vínculo
-    dos grupos, conforme ilustrada na figura abaixo:
+7.  To delete the incident activity, click the *Edit* button of the incident and
+    then click the *Delete* button;
 
-    ![Criar](images/activity-11.png)
+8.  To unlink the incident activity, simply click the *Unlink* from it button;
 
-    **Figura 11 - Permissão de acesso por grupo**
+9.  To re-link an incident activity to the service, click the *Link
+    Incident* button. Once this is done, the Incident Activity Search screen
+    that has been unlinked from the service will be displayed. Perform the
+    survey and select the incident activity to successfully complete the link.
 
-    -   Clique no botão *Vincular Grupos*. Será exibida a tela de pesquisa de grupo.
-    Realize a pesquisa, selecione os grupos e clique no botão *Enviar* para
-    efetuar a operação;
 
-    !!! info "IMPORTANTE"
-
-        Na tela de pesquisa de grupo, serão listados somente os grupos que foram
-        vinculados no registro de portfólio de serviço.
-
-5.  Após informar os dados necessários da atividade de incidente, clique no
-    botão *Gravar* para efetuar o registro. Feito isso, a atividade de incidente
-    será gravada e vinculada ao serviço;
-
-6.  Para alterar os dados da atividade de incidente, clique no botão *Editar* da
-    mesma, modifique os dados que desejar e clique em *Gravar* para efetuar a
-    alteração, onde a data, hora e usuário serão gravados automaticamente para
-    uma futura auditoria;
-
-7.  Para excluir a atividade de incidente, clique no botão *Editar* da mesma e
-    logo em seguida clique no botão *Excluir;*
-
-8.  Para desvincular a atividade de incidente, basta clicar no
-    botão *Desvincular* da mesma;
-
-9.  Para vincular novamente uma atividade de incidente ao serviço, clique no
-    botão *Vincular Incidente*. Feito isso, será exibida a tela para pesquisa
-    das atividades de incidente que foram desvinculadas do serviço. Realize a
-    pesquisa e selecione a atividade de incidente para realizar o vínculo com
-    sucesso.
-
-[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
-[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/services.html
-[3]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
-[4]:/pt-br/citsmart-platform-7/processes/configuration/IC-management.html
-[5]:/pt-br/citsmart-platform-7/plataform-administration/time/create-calendar.html
-[6]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[1]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+[2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/services.html
+[3]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[4]:/en-us/citsmart-platform-7/processes/configuration/IC-management.html
+[5]:/en-us/citsmart-platform-7/plataform-administration/time/create-calendar.html
+[6]:/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[7]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/contract-attributes.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/16/2019 – Anna Martins
+    <b>Updated:</b>08/30/2019 – Anna Martins
