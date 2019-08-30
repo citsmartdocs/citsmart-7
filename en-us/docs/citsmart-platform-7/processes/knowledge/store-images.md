@@ -1,77 +1,67 @@
-title: Armazenamento de imagens na galeria
-Description: Esta funcionalidade tem o objetivo de realizar upload de imagens para serem utilizadas posteriormente no sistema.
+title: Images upload in Gallery
+Description: This functionality has the purpose of uploading images for later use in the system.
+# Images upload in Gallery
 
-# Armazenamento de imagens na galeria
+This functionality has the purpose of uploading images for later use in the system.
 
-Esta funcionalidade tem o objetivo de realizar upload de imagens para serem
-utilizadas posteriormente no sistema.
+How to access
+----------------
 
-Como acessar
+1.  Access the Image Gallery feature by navigating the main menu **ITIL Processes > Knowledge Management > Image Gallery**.
+
+Preconditions
+------------------
+
+1. To add images to the gallery you must have done the image category registration (see the knowledge 
+[Image category registration and search][1]).
+
+Filters
 -----------
 
-1.  Acesse a funcionalidade de Galeria de Imagens através da navegação no menu
-    principal **Processos ITIL >  Gerência de Conhecimento >  Galeria de
-    Imagens**.
+1. The following filters enable the user to restrict the participation of items in the standard feature listing, making it easier 
+to locate the desired items as shown in the figure below:
 
-Pré- condições
----------------
+    - Category.
 
-1.  Para adição de imagens na galeria é necessário ter realizado o cadastro de
-    categoria de imagem (ver conhecimento [Cadastro e pesquisa de categoria de
-    imagem][1]).
+    ![Image](images/images.img1.jpg)
 
-Filtros
--------
+    **Figure 1 - Image gallery screen**
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados, conforme ilustrado na figura abaixo:
+Items list
+---------------------
 
-    -   Categoria
+1. Not applicable.
 
-    ![Criar](images/store-1.png)
+Filling in the registration fields
+-------------------------------------
 
-    **Figura 1 - Tela de galeria de imagens**
+1. Not applicable.
 
-Listagem de itens
----------------
-
-1.  Não se aplica.
-
-Preenchimento dos campos cadastrais
-----------------------------------
-
-1.  Não se aplica.
-
-Adicionando imagens na galeria
+Adding images to gallery
 ----------------------------
 
-1.  Após o acesso a funcionalidade, será apresentada a tela de **Galeria de
-    Imagens**, conforme ilustrada na figura abaixo:
+1. . After that, the **Image Gallery** screen will be displayed, as shown in the figure below:
 
-    ![Criar](images/store-2.png)
+    ![Gallery](images/images.img2.jpg)
 
-    **Figura 2 - Tela de galeria de imagens**
+    **Figure 2 - Image gallery screen**
 
-1.  Selecione a categoria, na qual será adicionada a imagem;
+1.  Select the category in which the image will be added;
 
-2.  Clique no botão *Adicionar Imagem*. Feito isso, será exibida a janela para
-    seleção e adição da imagem, conforme ilustrada na figura abaixo:
+2. Click the *Add Picture* button. Once this is done, the window for selecting and adding the image will be displayed, as shown in 
+the figure below:
 
-    ![Criar](images/store-3.png)
+    ![Addition](images/images.img3.jpg)
 
-    **Figura 3 - Adição de imagem**
+    **Figure 3 - Image addition**
 
-    -   Clique no botão *Selecionar arquivo*. Selecione a imagem que deseja
-    adicionar, informe a descrição da imagem e os detalhes caso seja necessário;
+    - Click the *Choose File* button. Select the image you want to add, enter the image description and details if necessary;
 
-    -   Clique no botão *Enviar*. Após isso, a imagem será adicionada na galeria de
-    imagens.
+    - Click the *Send* button. After that, the image will be added to the image gallery.
 
 
-[1]:/pt-br/citsmart-platform-7/processes/knowledge/image-category.html
-
+[1]:/en-us/citsmart-platform-7/processes/knowledge/image-category.html
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Anna Martins
+    <b>Updated:</b>08/30/2019 – Larissa Lourenço

@@ -65,7 +65,7 @@ Items list
 Filling in the registration fields
 ----------------------------------
 
-1.  After accessing functionality, the **Priority Registration **screen will be
+1.  After accessing functionality, the **Priority Registration** screen will be
     displayed, as shown in the figure below:
 
    ![Criar](images/register-priority-3.png)

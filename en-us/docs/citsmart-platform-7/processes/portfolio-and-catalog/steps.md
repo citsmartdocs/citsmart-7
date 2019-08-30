@@ -1,107 +1,156 @@
-title: Passos recomendados para criar novos serviços
-Description: procedimento operacional padronizado (pop) para criação de novos serviços.
+title: Recommended steps to create new services
+Description: Standarized operational procedure (SOP) for creation of new services
 
-# Passos recomendados para criar novos serviços
-
-Procedimento operacional padronizado (pop) para criação de novos serviços
-
-![Criar](images/steps.png)
-
-**Figura 1 - Diagrama do POP para criação de novos serviços**
-
-### Pré-condições
-
-1.  O perfil de acesso deve ter sido criado para controlar o acesso dos usuários às funcionalidades do sistema. Acesse o menu **Acesso e Permissão > Perfil de Acesso** e crie o perfil com permissão para pesquisar, gravar e/ou excluir as funcionalidades do sistema (ver conhecimento [Cadastro e pesquisa de perfil de acesso][1]).
-
-2.  Cada colaborador que interagirá com o novo serviço deve ter sido criado. Acesse o menu **Cadastros Gerais > Gerência de Pessoal > Colaborador** (ver conhecimento [Cadastro e pesquisa de colaborador][2]).
-
-3.  Cada colaborador que interagirá com o novo serviço deve ter seu usuário de login criado. Acesse o menu **Cadastros Gerais > Gerência de Pessoal > Usuário** (ver conhecimento [Cadastro e pesquisa de usuário][3]).
-
-4.  A jornada de trabalho relacionada ao novo serviço deve estar criada. Acesse o menu **Cadastros Gerais > Gerência de Pessoal > Jornada de Trabalho** (ver conhecimento [Cadastro e pesquisa de jornadas de trabalho][4]).
-
-5.  O calendário (escalas) de jornada de trabalho que será vinculado nas atividades do novo serviço. Acesse o menu **Cadastros Gerais > Gerência de Pessoal > Calendário** (ver conhecimento [Cadastro e pesquisa de calendário][5]).
-
-6.  Cada cliente (interno ou externo) que poderá solicitar/contratar o novo serviço deve estar cadastrado no sistema. Acesse o menu **Processos ITIL > Gerência de Portfólio de Catálogo > Cliente** (ver conhecimento [Cadastro e pesquisa de cliente][6]).
-
-7.  Cada fornecedor (provedor de serviços, interno ou externo) que poderá apoiar o novo serviço deve estar criado no sistema. Acesse o menu **Processos ITIL > Gerência de Portfólio de Catálogo > Fornecedor** (ver conhecimento [Cadastro e pesquisa de fornecedor][7]).
-
-8.  Cada contrato que pode ser relacionado ao novo serviço deve estar criado no sistema. Acesse o menu **Processos ITIL > Gerência de Portfólio de Catálogo > Cadastro de Contrato** (ver conhecimento [Cadastro e pesquisa de contrato][8]).
-
-    -   Trata-se de um acordo entre duas partes, que se obrigam a cumprir o que
-        foi entre elas combinado sob determinadas condições. O contrato pode ser
-        do tipo contrato (contrato entre o fornecedor do tipo “provedor de
-        serviços” e cliente “externo”), acordo de nível operacional (acordo
-        interno entre os departamentos da mesma organização, fornecedor interno
-        com cliente interno) ou contrato de apoio (contrato entre o fornecedor
-        externo e cliente interno).
-
-9.  Cada grupo de colaboradores que interagirá com o novo serviço deve ter sido criado. Acesse o menu **Acesso e Permissão > Grupo** (ver conhecimento [Cadastro e pesquisa de grupo][9]). E cada grupo criado deve estar vinculado a cada Contrato de cada novo
- Serviço (**Processos ITIL > Gerência de Portfólio de Catálogo > Cadastro de Contratos > Grupos de Usuários**) (ver conhecimento [Cadastro e pesquisa de contrato][8]).
-
-10. Cada Portfólio que conterá o novo serviço deve estar criado. Acesse o menu **Processos ITIL > Gerência de Portfólio e Catálogo > Gerenciamento de Portfólio** (ver conhecimento [Cadastro de portfólio de serviços][10]).
-
-11. A permissão de acesso a cada Portfólio de cada novo Serviço deve estar definida para liberar ou restringir o acesso dos perfis de usuários às funcionalidades existentes na tela de Gerenciamento de Portfólio. Acesse o menu **Acesso e Permissão > Gerência de Portfólio** (ver conhecimento [Permissão de acesso do gerenciamento de portfólio][11]).
-
-### Detalhes das atividades/tarefas do fluxo
-
-***Cadastrar cada Serviço desejado***
-
-Após criar o portfólio, registre os serviços de negócio/TI. Acesse o menu **Processos ITIL > Gerência de Portfólio e Catálogo > Gerenciamento de Portfólio**, clique no botão *Avançar Portfólio* e registre os Serviços de Negócio/TI.
-
-***Cadastrar Atividades de cada novo Serviço***
-
-Para cada Serviço de Negócio/TI são cadastradas as atividades de requisição e incidente. Acesse a tela de Gerenciamento de Portfólio (**Processos ITIL > Gerência de Portfólio e Catálogo > Gerenciamento de Portfólio**), clique no botão *Avançar Portfólio*, *Avançar Serviço* e registre as atividades de Requisição e Incidente.
-
-***Cadastrar Tempo de Atendimento das Atividades de cada novo Serviço***
-
-O tempo de atendimento é definido para controlar o tempo de execução das atividades do serviço. Acesse o menu **Processos ITIL > Gerência de Acordo de Níveis de Serviço > Tempo de Atendimento** e registre o tempo de atendimento.
-
-***Vincular Contrato a cada novo Serviço***
-
-Vincule o contrato que provê o serviço de negócio/TI. Acesse a tela de Gerenciamento de Portfólio (**Processos ITIL > Gerência de Portfólio e Catálogo > Gerenciamento de Portfólio**), clique no botão *Avançar Portfólio*, *Avançar Serviço* e vincule o contrato ao serviço.
-
-***Vincular Atividades ao Contrato de cada novo Serviço***
-
-Após o contrato vinculado ao serviço, vincule as atividades (requisição e incidente) ao contrato do serviço. Acesse a tela de Gerenciamento de Portfólio (**Processos ITIL > Gerência de Portfólio e Catálogo > Gerenciamento de Portfólio**), clique no botão *Avançar Portfólio*, *Avançar Serviço*, *Avançar Contrato* e vincule as atividades de requisição e incidentes.
-
-***Vincular Tempo de Atendimento das Atividades de cada novo Serviço***
-
-Acesse a tela de Gerenciamento de Portfólio (**Processos ITIL > Gerência de Portfólio e Catálogo > Gerenciamento de Portfólio**), clique no botão *Avançar Portfólio*, *Avançar Serviço*, *Avançar Contrato* e entre na tela de registro da atividade de requisição ou da atividade de incidente e informe o tempo de atendimento definido para estas atividades.
-
-**O tempo de atendimento das atividades do serviço será calculado de acordo com
-o que foi definido no calendário**.
-
-### Veja também
-
--   [Cadastro e pesquisa de calendário][5];
-
--   [Cadastro e pesquisa de jornadas de trabalho][4];
-
--   [Cadastro e pesquisa de grupo][9];
-
--   [Cadastro e pesquisa de perfil de acesso][1];
-
--   [Cadastro e pesquisa de colaborador][2];
-
--   [Cadastro e pesquisa de usuário][3];
+# Recommended steps to create new services
 
 
+![figure](images/steps.png)
 
-[1]:/pt-br/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
-[2]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html
-[3]:/citsmart-platform-7/initial-settings/access-settings/user/user-register.html
-[4]:/pt-br/citsmart-platform-7/plataform-administration/time/create-working-day.html
-[5]:/pt-br/citsmart-platform-7/plataform-administration/time/create-calendar.html
-[6]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/client.html
-[7]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/provider.html
-[8]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
-[9]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
-[10]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
-[11]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/portfolio-access.html
+**Figure 1 - SOP diagram for creation of new services**
+
+Preconditions
+-------------
+
+1.  The access profile must have been created to control user access to system
+    features. Access the **Access and Permission** > **Access Profile** and
+    create the profile with permission to search, save and/or delete system
+    features (see knowledge [Access Profile registration and search][1]).
+
+2.  Each employee who will interact with the new service must have been created.
+    Access the **General Registration > Staff Management > Staff** (see knowledge [Staff registration and search][2]).
+
+3.  Each employee who will interact with the new service must have their login
+    user created. Access the **General Registration > Staff Management >
+    User** (see knowledge [User registration and search][3]).
+
+4.  The working day related to the new service must be created. Access
+    the **General Registration > Staff Management > Workday** (see
+    knowledge [Workday registration and search][4]).
+
+5.  The work schedule (scales) that will be linked in the activities of the new
+    service. Access the **General Registration > Staff Management >
+    Calendar** (see knowledge [Calendar registration and search][5]).
+
+6.  Each client (internal or external) that can request / contract the new
+    service must be registered in the system. Access the **Processes Management > Catalog Portfolio Management > Customer** menu (see knowledge [Customer registration and search][6]).
+
+7.  Each provider (internal or external service provider) that can support the
+    new service must be created on the system. Access the **Processes Management > Catalog Portfolio Management > Supplier** menu (see knowledge [Supplier registration and search][7]).
+
+8.  Each contract that may be related to the new service must be created in the
+    system. Access the **Processes Management > Catalog Portfolio Management > Contract** menu (see knowledge [Contract registration and search][8]).
+
+    -   It is an agreement between two parties, which are obliged to comply with
+        what was agreed between them under certain conditions. The contract may
+        be of the contract type (contract between the "service provider" type
+        and "external" customer), operational level agreement (internal
+        agreement between departments of the same organization, internal
+        supplier with internal customer) or support agreement (Contract between
+        the external supplier and internal customer).
+
+9.  Each group of collaborators that will interact with the new service must
+    have been created. Access the **Access and Permission > Group** (see
+    knowledge [Group registration and search][9]).
+    And each group created must be linked to each Contract of each new Service
+    **Processes Management > Catalog Portfolio Management > Contract > User
+    Groups** (see knowledge [Contract registration and search][10]).
+
+10. Each Portfolio that will contain the new service must be created. Access
+    the **Processes Management > Portfolio and Catalog Management > Portfolio
+    Management** menu (see knowledge [Service portfolio registration][11]).
+
+11. Permission to access each Portfolio for each new Service must be set to
+    release or restrict user profile access to the existing functionality on the
+    Portfolio Management screen. Access the **Access and
+    Permission > Portfolio Management** (see knowledge [Portfolio management
+    access permission][12]).
+
+Details of flow activities/tasks
+--------------------------------
+
+**Register each desired service**
+
+After creating the portfolio, register the Business/IT services. Access
+the **Processes Management >Portfolio and Catalog Management > Portfolio
+Management**, click the Next Portfolio button, and register the Business/IT
+Services.
+
+**Register Activities for each new Service**
+
+For each Business/IT Service, the request and incident activities are
+registered. Access the Portfolio Management screen **(Processes Management >
+Portfolio and Catalog Management > Portfolio Management)**, click
+the *Advance* button, of the desired Portfolio, and then click *Advance* again,
+and record the Request and Incident activities.
+
+**Register Time of Service of the Activities of each new Service**
+
+The service time is defined to control the execution time of the service
+activities. Access the **Processes Management > Service Level Agreement
+Management > Service Time** menu and record the service time.
+
+**Link Contract to each new Service**
+
+Link the contract that provides the Business/IT service. Access the Portfolio
+Management screen **Processes Management > Portfolio and Catalog Management >
+Portfolio Management**, click the Advance button on the desired Portfolio, and
+the click *Advance* and link the contract to the service.
+
+**Link Activities to the Contract of each new Service**
+
+After the contract is linked to the service, link the activities (request and
+incident) to the service contract. Access the Portfolio Management
+screen **Processes Management > Portfolio and Catalog Management > Portfolio
+Management**, click the *Advance* button on the desired portfolio, then click
+on *Advance* on the desired service, click again and *Advance* contract, and
+link request and incident activities.
+
+**Link Service Activity Time for each new Service**
+
+Access the Portfolio Management screen **Processes Managament > Portfolio and
+Catalog Management > Portfolio Management**, click the *Advance* button on the
+desired portfolio, click *Advance* on the desired service, click on *Advance* on
+the desired contract, and enter the log of the request activity or incident
+activity and report The defined service time for these activities.
+
+!!! note "NOTE"
+
+    The service service time will be calculated according to the schedule.
+
+### See also
+
+-   [Calendar registration and search][5];
+
+-   [Workday registration and search][4];
+
+-   [Group registration and search][9];
+
+-   [Access profile registration and search][4];
+
+-   [Staff registration and search][2];
+
+-   [User registration and search][3];
+
+
+### Attachments
+
+
+[1]:/en-us/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
+[2]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/employee.html
+[3]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/user-register.html
+[4]:/en-us/citsmart-platform-7/plataform-administration/time/create-working-day.html
+[5]:/en-us/citsmart-platform-7/plataform-administration/time/create-calendar.html
+[6]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/client.html
+[7]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/provider.html
+[8]:/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[9]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[10]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+[11]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/portfolio-access.html
+[12]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/portfolio-access.html
 
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Anna Martins
+    <b>Updated:</b>08/30/2019 – Anna Martins
