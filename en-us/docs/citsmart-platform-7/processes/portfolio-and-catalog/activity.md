@@ -303,7 +303,7 @@ Registering service incident activities
 -   **Follow-up Template**: select, if applicable, the Incident Activity
     Tracking Template;
 
--   **Creation Template **: select, if any, the template of the incident
+-   **Creation Template**: select, if any, the template of the incident
     activity;
 
 -   **Details**: describe the details of how the incident activity should be
