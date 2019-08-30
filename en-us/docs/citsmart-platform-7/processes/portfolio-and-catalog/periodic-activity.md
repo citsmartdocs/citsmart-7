@@ -65,7 +65,7 @@ Items list
 Filling in the registration fields
 ----------------------------------
 
-1.  Access the feature, after that, the** Periodic Activity Group
+1.  Access the feature, after that, the **Periodic Activity Group
     Master** screen will be displayed, as shown in the figure below:
 
    ![figure](images/periodic-3.png)
