@@ -191,8 +191,6 @@ Registering service request activities
     search, select the groups and click on the *Add*button to perform the
     operation;
 
--   !!! info "Colocar Título"
-
    !!! info "IMPORTANT"
 
       If one of the 3 languages on this tab is left blank, the information will
