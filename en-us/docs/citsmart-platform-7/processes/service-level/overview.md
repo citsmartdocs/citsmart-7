@@ -25,8 +25,7 @@ the company that makes up the provision of an IT service.
 Where are the features
 ----------------------
 
-To access the functionality click on the main menu **Process Management
-> Service Level Management**.
+To access the functionality click on the main menu **Process Management > Service Level Management**.
 
 ![figure](images/mod-nivel.img1.jpg)
 
