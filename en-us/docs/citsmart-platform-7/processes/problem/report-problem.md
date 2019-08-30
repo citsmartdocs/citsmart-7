@@ -68,7 +68,7 @@ Generating quantitative problem reporting
     in the standard feature listing, making it easier to locate the desired
     items as shown in the figure below:
 
--   **Opening Period: **Enter the period you want to generate the quantitative
+-   **Opening Period**: Enter the period you want to generate the quantitative
     problem report;
 
 -   **Contract**: Select the contract, if you want to check the amount of
@@ -101,7 +101,7 @@ recorded, per service.*
     in the standard feature listing, making it easier to locate the desired
     items as shown in the figure below:
 
--   **Opening Period: **Inform the desired period to verify the quantity of
+-   **Opening Period**: Inform the desired period to verify the quantity of
     requests and registered problems, per service;
 
 -   **Contract**: Enter the contract to check the amount of requests and related
