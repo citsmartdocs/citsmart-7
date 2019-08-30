@@ -1,51 +1,51 @@
-title:  Visão geral do processo de Problema
-Description: Disponibiliza todos os conhecimentos do processo. 
-# Visão geral do processo de Problema
+title: Problem process overview
+Description: Provides all the knowledge of the process. 
+# Problem process overview
 
-[Agendamento de atividade de problema](/pt-br/citsmart-platform-7/processes/problem/schedule-activity.html)
+[Problem activity scheduling](/en-us/citsmart-platform-7/processes/problem/schedule-activity.html)
 
-[Cadastro de erros conhecidos](/pt-br/citsmart-platform-7/processes/problem/known-error.html)
+[Known errors registration](/en-us/citsmart-platform-7/processes/problem/known-error.html)
 
-[Cadastro de problema](/pt-br/citsmart-platform-7/processes/problem/register-problem.html)
+[Problem registration](/en-us/citsmart-platform-7/processes/problem/register-problem.html)
 
-[Cadastro de problema a partir de outro problema](/pt-br/citsmart-platform-7/processes/problem/another-problem.html)
+[Registering a problem from another problem](/en-us/citsmart-platform-7/processes/problem/another-problem.html)
 
-[Cadastro de problemas via leitura de email](/pt-br/citsmart-platform-7/processes/problem/email-reading.html)
+[Registering problems via e-mail reading](/en-us/citsmart-platform-7/processes/problem/email-reading.html)
 
-[Cadastro de requisição de mudança a partir de um problema](/pt-br/citsmart-platform-7/processes/problem/change-from-problem.html)
+[Registering request for change from a problem](/en-us/citsmart-platform-7/processes/problem/change-from-problem.html)
 
-[Cadastro de resolução de problema grave](/pt-br/citsmart-platform-7/processes/problem/resolution-master.html)
+[Registering serious problem resolution](/en-us/citsmart-platform-7/processes/problem/resolution-master.html)
 
-[Cadastro de resolução do problema](/pt-br/citsmart-platform-7/processes/problem/resolution.html)
+[Problem resolution registration](/en-us/citsmart-platform-7/processes/problem/resolution.html)
 
-[Cadastro de solicitação de serviço a partir de um problema](/pt-br/citsmart-platform-7/processes/problem/ticket-from-problem.html)
+[Registering a service request from a problem](/en-us/citsmart-platform-7/processes/problem/ticket-from-problem.html)
 
-[Cadastro e pesquisa de categoria de problema](/pt-br/citsmart-platform-7/processes/problem/category.html)
+[Problem category registration and search](/en-us/citsmart-platform-7/processes/problem/category.html)
 
-[Cadastro e pesquisa de justificativa de problema](/pt-br/citsmart-platform-7/processes/problem/justification.html)
+[Problem justification registration and search](/en-us/citsmart-platform-7/processes/problem/justification.html)
 
-[Cadastro e pesquisa de regras de escalonamento de um problema](/pt-br/citsmart-platform-7/processes/problem/escalation-rule.html)
+[Registration and search of rules for scheduling of a problem](/en-us/citsmart-platform-7/processes/problem/escalation-rule.html)
 
-[Cancelamento de problema](/pt-br/citsmart-platform-7/processes/problem/cancellation.html)
+[Problem cancellation](/en-us/citsmart-platform-7/processes/problem/cancellation.html)
 
-[Captura de problema](/pt-br/citsmart-platform-7/processes/problem/capture.html)
+[Problem capturing](/en-us/citsmart-platform-7/processes/problem/capture.html)
 
-[Execução de problema](/pt-br/citsmart-platform-7/processes/problem/execution.html)
+[Problem execution](/en-us/citsmart-platform-7/processes/problem/execution.html)
 
-[Investigação e diagnóstico de problema](/pt-br/citsmart-platform-7/processes/problem/investigation.html)
+[Conducting investigation and problem diagnosis](/en-us/citsmart-platform-7/processes/problem/investigation.html)
 
-[Pesquisa de problema](/pt-br/citsmart-platform-7/processes/problem/search.html)
+[Problems searching](/en-us/citsmart-platform-7/processes/problem/search.html)
 
-[Reativação de problema](/pt-br/citsmart-platform-7/processes/problem/reactivation.html)
+[Problem reactivation](/en-us/citsmart-platform-7/processes/problem/reactivation.html)
 
-[Suspensão de problema](/pt-br/citsmart-platform-7/processes/problem/suspension.html)
+[Problem suspension](/en-us/citsmart-platform-7/processes/problem/suspension.html)
 
-[Visualização de gráficos](/pt-br/citsmart-platform-7/processes/problem/chart-view.html)
+[Problem graph visualization](/en-us/citsmart-platform-7/processes/problem/chart-view.html)
 
-[Visualização de problema](/pt-br/citsmart-platform-7/processes/problem/visualization.html)
+[Problem visualization](/en-us/citsmart-platform-7/processes/problem/visualization.html)
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/01/2019 – Larissa Lourenço
+    <b>Updated:</b>08/30/2019 – Anna Martins
 
