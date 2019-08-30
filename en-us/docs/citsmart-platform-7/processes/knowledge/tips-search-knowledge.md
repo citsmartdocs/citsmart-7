@@ -1,75 +1,71 @@
-title:  Dicas sobre como realizar pesquisas no Portal do Conhecimento e Guia do Usuário
-Description: Melhores maneiras de se realizar buscas dentro do Portal do Conhecimento e no Guia do Usuário.
-# Dicas sobre como realizar pesquisas no Portal do Conhecimento e Guia do Usuário
+title: Tips on how to conduct searches on Knowledge Portal and User Guide
+Description: This knowledge aims to guide and suggest the best ways to conduct searches within the Knowledge Portal.
+# Tips on how to conduct searches on Knowledge Portal and User Guide
 
-Este conhecimento tem por objetivo orientar e sugerir as melhores maneiras de se realizar buscas dentro do Portal do Conhecimento e
-no Guia do Usuário.
+This knowledge aims to guide and suggest the best ways to conduct searches within the Knowledge Portal and the User Guide.
 
-Dicas de pesquisa
+Search tips
 -------------------
 
-1. Pesquise com exclusões:
+1. Search with exclusions:
 
-    - é possível refinar (reduzir) o resultado incluindo palavras a serem retiradas da lista resultante, exemplo:
-        - pesquise pela palavra **requisição** sem aspas;
-        - vão aparecer mais de 160 conhecimentos;
-        - acrescentar após a palavra usada a expressão **-incidente**;
-        - vão aparecer menos de 65 conhecimentos;
-        - isso porque qualquer palavra precedida por um sinal de negativo “-“ significa para o sistema que ela é indesejada no 
-        resultado da busca, um tipo de refinamento para evitar lixo;
-        - é possível excluir mais de uma palavra assim: **requisito -incidente -problema -evento**
-        - os resultados serão reduzidos para 50 conhecimentos.
+    - it is possible to refine (reduce) the result by including words to be taken from the resulting list, example:
+        - search for the word **request**;
+        - it will show more than 210 items;
+        - add after the word used the expression **-incident**;
+        - less than 105 knowledge will appear;
+        - any word preceded by a negative sign "-" means to the system that it is undesirable in the search result;
+        - and you can avoid more than one word at the same time: **request -incident -problem -event**
+        - it was reduced to 85.
         
-2. Variando a forma de escrever a palavra, exemplo:
-    - Requisição
-    - Requisições
-    - Requisitar
-    - Requisitou
-    - Requisitado
-    - Requisitada
-    - É possível pesquisar por uma "parte" da palavra: **Requisi**
+2. Varying how to spell the word, example:
+
+    - Request
+    - Requests
+    - Required
+    - it is possible to search only a *part* of the word: **Requ**
     
-3. Pesquisar por frase exata:
+3. Search for an exact phrase:
 
-    - colocar a frase desejada entre "aspas duplas", exemplo 1:
-        - pesquisar por "suspensão da solicitação";
-        - vão aparecer **3** conhecimentos;
-        - se fizer a mesma pesquisa sem aspas alguma, vão aparecer mais de 500. Este excesso é porque o sistema procura por qualquer
-        conhecimento que tenha pelo menos uma das palavras.
+    - just put the desired phrase in double quotation marks, example 1:
+        - search for "request suspension" ;
+        - will appear **5** results;
+        - if you do the same search without any quotes, will appear more than **210**. In this case the system has searched for any 
+        knowledge that has at least one of the words.
         
-    - exemplo 2:
-        - pesquise por "itsm";
-        - vão aparecer mais de 170 conhecimentos;
+    - example 2:
+        - search for "itsm"
+        - it will show more than 170 items;
         - se fizer a mesma pesquisa sem aspas alguma, vão aparecer mais de 300;
-        - este excesso é porque o sistema procura por qualquer conhecimento que tenha ITSM como "palavra" e também como "parte de 
-        uma palavra", ex.: C**ITSM**ART ;
+        - if you do the same search without any quotes, will appear more than 320. The system has searched for any knowledge that 
+        has ITSM as a entire word and also as part of some words, eg. C**ITSM**ART.
         
-4. Pesquisar priorizando uma palavra:
+4. Search by prioritizing a word:
 
-    - é possível realizar busca com mais de uma palavra priorizando uma delas no resultado. Acrescente o sinal positivo "+" na
-    frente da palavra que será priorizada, exemplo:
-        - requisito +ticket;
-        - +requisito ticket.
+    - it is possible to perform a search with more than one word prioritizing one of them in the result. Add the plus sign "+" in 
+    front of the word that will be prioritized, eg.:
+        - requiriment +ticket;
+        - +requiriment ticket.
         
-5. Navegue pelas *pastas* e clique na pasta do assunto desejado:
+5. Browse *folders* and click on the desired subject folder:
 
-    - a documentação do produto é estruturada em pastas e está orientada ao uso e menu do sistema;
-    - desta forma vai evitar de visualizar outros assuntos no resultado;
-    - a busca traz tudo que estiver na pasta clicada e também em todas as suas subpastas, são os sub-assuntos;
-    - ao selecionar uma pasta nas guias do lado esquerdo superior pelo ícone ![simbolo](images/pastas-img1.jpg), é possível 
-    realizar outra pesquisa dentro desta pasta. Após essa nova pesquisa o sistema trará à esquerda os campos: 
-        - **Pasta Selecionada** : descreve o nome da pasta selecionada anteriormente é possível retornar à raiz da pasta clicando
-        sobre a descrição da pasta, nesse caso, o sistema retornará ao comportamento inicial da busca;
-        - **Tipo** : refere-se ao tipo de documento identificado nessa pasta, a pasta pode conter vários tipos de documentos.
-        Tendo mais de um tipo de documento o sistema permite a pesquisa por tipos.
+    - the product documentation is structured into folders, it reminds the system menu;
+    - this way you will avoid seeing other subjects in the result;
+    - the search brings all that is in the folder clicked and also in all its subfolders, they are the subtopics;
+    - ao selecionar uma pasta nas guias do lado esquerdo superior pelo ícone ![symbol](images/tips.jpg), it is possible to realize 
+    a new one searching in this folder. After this new search the system will show on left side the fields:
+        - **Selected Folder**: describes the name of the previously selected folder. It is possible to return to the root of the 
+        folder by clicking on the folder description, in which case the system will return to the initial search behavior;
+        - **Type**: refers to the type of document identified in this folder, the folder can contain various types of documents. 
+        Having more than one type of document the system allows searching by types.
         
-Veja também
+See also
 --------------
 
-- [Portal do conhecimento](/pt-br/citsmart-platform-7/processes/knowledge/knowledge-portal.html).
+- [Portal do conhecimento](/en-us/citsmart-platform-7/processes/knowledge/knowledge-portal.html).
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/26/2019 - Larissa Lourenço
+    <b>Updated:</b>08/30/2019 - Larissa Lourenço
 
