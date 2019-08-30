@@ -1,22 +1,22 @@
-title:  Visão geral do processo de Eventos
-Description: Disponibiliza todos os conhecimentos do processo. 
-# Visão geral do processo de Eventos
+title: Events Process Overview
+Description: Provides all the knowledge of the process. 
+# Events Process Overview
 
-[Cadastro e pesquisa das ferramentas de monitoração de eventos](/pt-br/citsmart-platform-7/processes/event/event-monitoring-tools.html)
+[Event monitoring tools registration and search](/en-us/citsmart-platform-7/processes/event/event-monitoring-tools.html)
 
-[Cadastro e pesquisa de auditoria de eventos](/pt-br/citsmart-platform-7/processes/event/event-audit.html)
+[Event audit registration and search](/en-us/citsmart-platform-7/processes/event/event-audit.html)
 
-[Cadastro e pesquisa de categoria de ocorrência](/pt-br/citsmart-platform-7/processes/event/occurrence-category.html)
+[Occurrence category registration and search](/en-us/citsmart-platform-7/processes/event/occurrence-category.html)
 
-[Cadastro e pesquisa de checks de eventos](/pt-br/citsmart-platform-7/processes/event/event-checks.html)
+[Event checks registration and search](/en-us/citsmart-platform-7/processes/event/event-checks.html)
 
-[Cadastro e pesquisa de eventos de notificação](/pt-br/citsmart-platform-7/processes/event/notification-event.html)
+[Event notifications registration and search](/en-us/citsmart-platform-7/processes/event/notification-event.html)
 
-[Cadastro e pesquisa de gerentes do CITSmart event monitor](/pt-br/citsmart-platform-7/processes/event/event-monitor-managers.html)
+[CITSmart event monitor managers registration and search](/en-us/citsmart-platform-7/processes/event/event-monitor-managers.html)
 
-[Cadastro e pesquisa de horários](/pt-br/citsmart-platform-7/processes/event/time-registration.html)
+[Schedule registration and search](/en-us/citsmart-platform-7/processes/event/time-registration.html)
 
-[Cadastro e pesquisa de modelos de EPL](/pt-br/citsmart-platform-7/processes/event/epl-models.html)
+[EPL model registration and search](/pt-br/citsmart-platform-7/processes/event/epl-models.html)
 
 [Captura de eventos de outras fontes/ferramentas](/pt-br/citsmart-platform-7/processes/event/capturing-events.html)
 
