@@ -33,13 +33,11 @@ Preconditions
 
 6.  Each client (internal or external) that can request / contract the new
     service must be registered in the system. Access the **Processes Management
-    > Catalog Portfolio Management > Customer** menu (see knowledge [Customer
-    registration and search][6]).
+    > Catalog Portfolio Management > Customer** menu (see knowledge [Customer registration and search][6]).
 
 7.  Each provider (internal or external service provider) that can support the
     new service must be created on the system. Access the **Processes Management
-    > Catalog Portfolio Management > Supplier** menu (see knowledge [Supplier
-    registration and search][7]).
+    > Catalog Portfolio Management > Supplier** menu (see knowledge [Supplier registration and search][7]).
 
 8.  Each contract that may be related to the new service must be created in the
     system. Access the **Processes Management > Catalog Portfolio Management >
