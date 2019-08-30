@@ -1,42 +1,42 @@
-title: Cadastro e pesquisa de categoria de ocorrência
+title: Occurrence category registration and search
 Description: Esta funcionalidade tem como objetivo realizar o cadastro de categoria de ocorrência.
-# Cadastro e pesquisa de categoria de ocorrência
+# Occurrence category registration and search
 
-Esta funcionalidade tem como objetivo realizar o cadastro de categoria de ocorrência, ou seja, através dele é permitido agrupar 
-ocorrências de eventos de um mesmo tipo. Este cadastro será associado a cada item do cadastro de gerente de eventos do CITSmart 
-Inventory, Nagios ou Zabbix.
+This functionality has the purpose of registering the occurrence category, that is, through it it is possible to group occurrences 
+of events of the same type. This registration will be associated with each item in the CITSmart Inventory, Nagios or Zabbix event 
+manager registry.
 
-Como acessar
---------------
+How to access
+-----------------
 
-1. Acesse a funcionalidade de categoria de ocorrência através da navegação no menu principal 
-**Processos ITIL > Gerência de Evento > Categoria de ocorrência**.
+1. Access the event category functionality by navigating in the main menu 
+**Process Management > Event Management > Occurrence category**.
 
-Pré-condições
----------------
+Preconditions
+------------------
 
-1. Não se aplica.
+1. Not applicable.
 
-Filtros
----------
+Filters
+-----------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados, conforme ilustrado na figura abaixo:
+1. The following filters enable the user to restrict the participation of items in the standard feature listing, making it easier 
+to locate the desired items as shown in the figure below:
 
-    - Nome;
-    - Grupo de Tipo de Evento.
+    - Name;
+    - Ocurrence category group.
     
-2. Na tela de **EVM - Categoria de Ocorrência**, clique na aba **Pesquisa de categoria de ocorrência**. Será apresentada a tela de 
-pesquisa conforme ilustrada na figura abaixo:
+2. On the **EVM - Occurrence Category** screen, click the **Occurrence category search** tab. The search screen will be displayed 
+as shown in the figure below:
 
-    ![Pesquisa](images/cat-ocorr.img1.png)
+    ![Search](images/occurrence-categ.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de categoria de ocorrência**
+    **Figure 1 - Occurrence category search screen**
     
-3. Realize a pesquisa de categoria de ocorrência;
+3. Perform the occurrence category search:
 
-    - Informe o nome da categoria de ocorrência e/ou o grupo de tipo de evento e clique no botão "Pesquisar". Após isso, será 
-    exibido o registro da categoria de ocorrência conforme os dados informados.
+    - Enter the name of the event category and/or event type group and click the Search button. After that, the occurrence category 
+    record will be displayed according to the reported data;
     
     - Caso deseje listar todos os registros de categoria de ocorrência, basta clicar diretamente no botão "Pesquisar".
     
