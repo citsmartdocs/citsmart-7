@@ -14,7 +14,7 @@ Preconditions
 -------------
 
 1.  Have at least one registered profile, a registered group or both scenarios (see knowledge 
-[Access profile registration and search][1], [Group registration and search][2].
+[Access profile registration and search][1], [Group registration and search][2]).
 
 Filters
 ------------
