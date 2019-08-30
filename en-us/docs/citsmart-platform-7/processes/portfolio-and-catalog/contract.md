@@ -223,7 +223,7 @@ Liking vision of contract complexity
 referring to the operational costs of the contract. It is widely used in the
 case of the management of the Orders of Services related to the UST currency.
 
-1.  Click the** Complexity By Contract** tab, and after that, click on the
+1.  Click the **Complexity By Contract** tab, and after that, click on the
     complexity that you want to enter the value;
 
    ![figure](images/contract-5.png)
