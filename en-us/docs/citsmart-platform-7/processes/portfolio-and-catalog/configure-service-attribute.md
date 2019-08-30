@@ -1,10 +1,7 @@
 title: Service attributes configuration
+Description: The guidelines described in this "knowledge" can be followed to configure the attributes of both the *Business/IT Service* and the *Support/Technical Service*.
 
-Description: The guidelines described in this "knowledge" can be followed to
-configure the attributes of both the *Business/IT Service* and
-the *Support/Technical Service.*
-
-\# Service attributes configuration
+# Service attributes configuration
 
 The guidelines described in this "knowledge" can be followed to configure the
 attributes of both the *Business/IT Service* and the *Support/Technical
@@ -14,32 +11,25 @@ Preconditions
 -------------
 
 1.  Have the portfolio with the services registered (see knowledge [Service
-    portfolio
-    registration](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/1930), [Service
-    registration](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/1932));
+    portfolio registration][1]), [Service registration][2]);
 
-2.  Have the group registered (see knowledge [Group registration and
-    search](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/1353));
+2.  Have the group registered (see knowledge [Group registration and search][3]);
 
-3.  Have the configuration items registered (see knowledge [Configuration item
-    management](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/2348));
+3.  Have the configuration items registered (see knowledge [Configuration item management][4]);
 
-4.  Have the calendar set (see knowledge [Calendar registration and
-    search](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/1360));
+4.  Have the calendar set (see knowledge [Calendar registration and search][5]);
 
-5.  Have the contract registered (see knowledge [Contract registration and
-    search](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/1881));
+5.  Have the contract registered (see knowledge [Contract registration and search][6]);
 
-6.  Have a cycle registered (see knowledge [Cycle registration and
-    search](http://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/3361)).
+6.  Have a cycle registered (see knowledge [Cycle registration and search][7]).
 
 Configuring service attributes
 ------------------------------
 
 ### How to access
 
-1.  Access the main menu **Process Management** \> **Portfolio and Catalog
-    Management** \> **Portfolio and Catalog Management**. After that, the
+1.  Access the main menu **Process Management > Portfolio and Catalog
+    Management > Portfolio and Catalog Management**. After that, the
     Service Portfolio Management screen appears;
 
 2.  Access the Services Portfolio you want by clicking the *Advance* button of
@@ -60,71 +50,73 @@ Configuring service attributes
 1.  The **Service Information** will be displayed, where you can configure the
     attributes. The figure below illustrates this screen:
 
-**Figure 1 - Service information screen**
+   ![figure](images/configure-1.png)
+   
+   **Figure 1 - Service information screen**
 
--   **Details: **allows you to change/update the service data**;**
+-   **Details**: allows you to change/update the service data;
 
--   **Service Level Requirements: **allows you to record the service level
-    requirements**;**
+-   **Service Level Requirements**: allows you to record the service level
+    requirements;
 
--   **Financial Attributes: **it allows to register the financial attributes of
-    the service**;**
+-   **Financial Attributes**: it allows to register the financial attributes of
+    the service;
 
--   **Business Cases: **allows you to register the business case related to the
-    service. This business case is a summary of all service information**;**
+-   **Business Cases**: allows you to register the business case related to the
+    service. This business case is a summary of all service information;
 
--   **Service Map: **allows you to define the service map design by relating
+-   **Service Map**: allows you to define the service map design by relating
     support services and configuration items. In this design is defined which
     support services will be used to carry out the core service**;**
 
--   **Business Processes: **allows you to link the business processes that are
-    supported by the service**;**
+-   **Business Processes: allows you to link the business processes that are
+    supported by the service;
 
--   **Enable Service: **allows you to link support / technical services. These
-    services support, support the core service**;**
+-   **Enable Service**: allows you to link support / technical services. These
+    services support, support the core service;
 
--   **Business Owner: **allows to link the owner of the business to the service,
-    which can be collaborators or groups**;**
+-   **Business Owner**: allows to link the owner of the business to the service,
+    which can be collaborators or groups;
 
--   **Business User: **allows to link the users of the business to the
-    service**;**
+-   **Business User**: allows to link the users of the business to the
+    service;
 
--   **Requests: **allows to register the services request activities**;**
+-   **Requests**: allows to register the services request activities;
 
--   **Applications: **allows you to link the applications that are used to run
+-   **Applications**: allows you to link the applications that are used to run
     the service;
 
--   **Data Schema: **allows you to register the data schema for the service;
+-   **Data Schema**: allows you to register the data schema for the service;
 
--   **Incidents: **allows to record the service incident activities;
+-   **Incidents**: allows to record the service incident activities;
 
--   **Procedure: **it allows registering the procedures for the service, which
+-   **Procedure**:*it allows registering the procedures for the service, which
     will be used by the continuity management to trigger and control the service
     restoration activities;
 
--   **Contract: **allows to link the contracts that provides the service;
+-   **Contract**: allows to link the contracts that provides the service;
 
--   **Stakeholders: **allows you to link IT service owners to the service, which
+-   **Stakeholders**: allows you to link IT service owners to the service, which
     can be users or groups;
 
--   **Knowledge base: **allows to link a knowledge to the service. Knowledge is
+-   **Knowledge base**: allows to link a knowledge to the service. Knowledge is
     about information from the service provider to deliver the service;
 
--   **Capability: **allows linking skills/resources to service;
+-   **Capability**: allows linking skills/resources to service;
 
--   **Capacity/Performance: **allows linking capacity/performance indicators to
+-   **Capacity/Performance**: allows linking capacity/performance indicators to
     service;
 
--   **Demand Attributes: **allows to link attributes of the demand to the
+-   **Demand Attributes**: allows to link attributes of the demand to the
     service;
 
--   **Service Ratings: **allows you to manage the service evaluations that have
+-   **Service Ratings**: allows you to manage the service evaluations that have
     been registered via smart portal;
 
--   **Audit Service: **allows you to check the service history for audit of the
+-   **Audit Service**: allows you to check the service history for audit of the
     Service.
 
-1.  In the following items will be discussed on "how to" configure the main
+2.  In the following items will be discussed on "how to" configure the main
     attributes of the service.
 
 Defining service level requiriments
@@ -135,7 +127,7 @@ with status of "Definition".
 
 ### How to access
 
-1.  On the **Service Information Screen, **click **Service Level Requirements.**
+1.  On the **Service Information Screen**, click **Service Level Requirements**.
 
 ### Filters
 
@@ -148,21 +140,23 @@ with status of "Definition".
 ### Filling in the registration fields
 
 1.  After accessing functionality, the **Service Level Requirements
-    Master **screen will be displayed, as shown in the figure below:
+    Master** screen will be displayed, as shown in the figure below:
 
-**Figure 2 - Service level requirements master data sheet**
+   ![figure](images/configure-2.png)
+   
+   **Figure 2 - Service level requirements master data sheet**
 
-1.  Fill in the fields as shown below:
+2.  Fill in the fields as shown below:
 
-2.  Enter the general data:
+3.  Enter the general data:
 
-    -   **Creation Date: **inform the creation date of the requirements**;**
+    -   **Creation Date**: inform the creation date of the requirements;
 
-    -   **Service Start Date: **inform the start date of the service**;**
+    -   **Service Start Date**: inform the start date of the service;
 
-    -   **Service Owner: **inform the person responsible for the service**.**
+    -   **Service Owner**: inform the person responsible for the service.
 
-3.  Enter the usefulness of the service:
+4.  Enter the usefulness of the service:
 
     -   **Specification**: describe the service specifications;
 
@@ -171,7 +165,7 @@ with status of "Definition".
     -   **Essential Features**: describe the essential functionality of the
         service.
 
-4.  Enter the data concerning the guarantee of the service:
+5.  Enter the data concerning the guarantee of the service:
 
     -   **Security**: describe the security of the service;
 
@@ -186,7 +180,7 @@ with status of "Definition".
 
     -   **Planned Service Interruptions**: describe planned outages.
 
-5.  Enter the data for the service support:
+6.  Enter the data for the service support:
 
     -   **Incidents Management**: describe about the management of incidents
         related to the service;
@@ -197,15 +191,15 @@ with status of "Definition".
     -   **Change Management**: describe change management related to the
         service.
 
-6.  Enter service compliance data:
+7.  Enter service compliance data:
 
     -   **Internal**: describe the conformity of the internal service;
 
     -   **External**: describe the compliance of the external service.
 
-7.  If you want to attach a file, click the **Attachments** tab.
+8.  If you want to attach a file, click the **Attachments** tab.
 
-8.  After filling in the fields with the required information, click
+9.  After filling in the fields with the required information, click
     the *Save* button to register service level requirements.
 
 Recording financial attributes
@@ -228,9 +222,11 @@ Recording financial attributes
 1.  After accessing the functionality, the **Financial Attributes Master
     Data** screen will be displayed, as shown in the figure below:
 
-**Figure 3 - Financial attributes registration data screen**
+   ![figure](images/configure-3.png)
+   
+   **Figure 3 - Financial attributes registration data screen**
 
-1.  Fill in the fields as shown below:
+2.  Fill in the fields as shown below:
 
     -   **Category**: enter the category of the financial attribute. If there is
         no registered category, click the *Add/Edit Financial category
@@ -245,10 +241,10 @@ Recording financial attributes
 
     -   **Cycle**: enter the service's cycle.
 
-2.  After entering the data, click the *Add to Service* button. The financial
+3.  After entering the data, click the *Add to Service* button. The financial
     attribute will be saved and displayed on the screen;
 
-3.  If you want to import the financial attribute data, click
+4.  If you want to import the financial attribute data, click
     the *Import* button. Once this is done, a screen will be displayed to attach
     the financial attributes file. In this screen, the file templates are
     presented to guide you in the form and order that the data should be in the
@@ -256,7 +252,7 @@ Recording financial attributes
     the template, taking into account the format (.xls, .xlsx, .xml, or .csv).
     After verification, enter the file and click the *Add* button to import;
 
-4.  To change the service's financial attribute data, click the *Edit* button,
+5.  To change the service's financial attribute data, click the *Edit* button,
     modify the data you want and make the change, where the date, time and user
     will be saved automatically for a future audit.
 
@@ -283,12 +279,14 @@ used.
 
 ### Filling in the registration fields
 
-1.  After accessing the functionality, the **Business Case Registration **screen
+1.  After accessing the functionality, the **Business Case Registration** screen
     will be displayed, as shown in the figure below:
 
-**Figure 4 - Business case registration screen**
+   ![figure](images/configure-16.png)
+   
+   **Figure 4 - Business case registration screen**
 
-1.  Fill in the fields as shown below:
+2.  Fill in the fields as shown below:
 
     -   **Business Case**: define the name of the business case;
 
@@ -335,28 +333,30 @@ Linking business process to service
 
 1.  The following cadastral fields are available to the user to make it easier
     to identify the desired items in the default listing of the
-    functionality: **ID**,** Business Process Name**, and **Customer**;
+    functionality: **ID**, **Business Process Name**, and **Customer**;
 
 2.  There are action buttons available to the user for each item in the listing,
     they are: *View* and* Delete*;
 
-**Figure 5 - Business process link screen**
+   ![figure](images/configure-5.png)
+   
+   **Figure 5 - Business process link screen**
 
-1.  Click the *Link Business Process* button. Once this is done, the screen for
+3.  Click the *Link Business Process* button. Once this is done, the screen for
     business process search will be displayed. Perform the search, select the
     business processes you want, and click the *Add* button to perform the
     operation;
 
-2.  If you do not find the business process record and need to register one to
+4.  If you do not find the business process record and need to register one to
     link to the service, you can register it from this screen by clicking
     the *New Business Process* button;
 
-3.  After the link from the business process to the service, the same will be
+5.  After the link from the business process to the service, the same will be
     displayed on the service business process screen;
 
-4.  To view the business process data, simply click the *View* button;
+6.  To view the business process data, simply click the *View* button;
 
-5.  To delete the link from the business process to the service, simply click on
+7.  To delete the link from the business process to the service, simply click on
     the *Delete* button from the same.
 
 ### Filling in the registration fields
@@ -386,18 +386,20 @@ Linking business owner o service
 2.  There is one action button available to the user in relation to each item in
     the listing, it is: *Unlink*;
 
-**Figure 6 - Business owner link screen**
+   ![figure](images/configure-6.png)
+   
+   **Figure 6 - Business owner link screen**
 
-1.  If the "business owner" is one or more employees, click on the *Link
+3.  If the "business owner" is one or more employees, click on the *Link
     Owner* button to link the employee (s) to the service. After that, the
     employee search screen will be displayed. Perform the search, select the
     contributor (s) and click the *Add* button to make the link;
 
-2.  If the "business owner" is one or more groups, click the *Link
+4.  If the "business owner" is one or more groups, click the *Link
     Groups* button to link the group (s) to the service. After that, the group
     search screen will be displayed;
 
-3.  Perform the search, select the group (s) and click the *Add* button to make
+5.  Perform the search, select the group (s) and click the *Add* button to make
     the link.
 
 ### Filling in the registration fields
@@ -422,23 +424,25 @@ Linking business user to service
 
 1.  The following cadastral fields are available to the user to make it easier
     to identify the desired items in the standard feature
-    listing: **ID**,** Name **and **Description**;
+    listing: **ID**, **Name** and **Description**;
 
 2.  There is one action button available to the user in relation to each item in
     the listing, it is: *Unlink*;
 
-**Figure 7 - Business user link screen**
+   ![figure](images/configure-7.png)
+   
+   **Figure 7 - Business user link screen**
 
-1.  Click the *Link User* button to link the user (s) to the service. Once this
+3.  Click the *Link User* button to link the user (s) to the service. Once this
     is done, the system user search screen will be displayed. Perform the
     search, select the user (s) and click the *Add* button to make the link;
 
-2.  If the "business user" is one or more groups, click the *Link Group* button
+4.  If the "business user" is one or more groups, click the *Link Group* button
     to link the group (s) to the service. Once this is done, the group search
     screen will be displayed. Perform the search, select the group (s) and click
     the *Add* button to make the link;
 
-3.  To delete the user's link from the business to the service, simply click
+5.  To delete the user's link from the business to the service, simply click
     the *Unlink*.
 
 ### Filling in the registration fields
@@ -463,22 +467,24 @@ Linking support - technical service
 
 1.  The following registration fields are available to the user to facilitate
     the identification of the desired items in the standard listing of the
-    functionality: **ID**, **Enabling Service Name**,** Phase** and **Status**;
+    functionality: **ID**, **Enabling Service Name**, **Phase** and **Status**;
 
 2.  There are action buttons available to the user for each item in the listing,
     they are: *Edit* and *Unlink*;
 
-**Figure 8 - Support/Technical service link screen**
+   ![figure](images/configure-8.png)
+   
+   **Figure 8 - Support/Technical service link screen**
 
-1.  Click the *Link Service* button to link the support/technical services to
+3.  Click the *Link Service* button to link the support/technical services to
     the core service. Once this is done, the service search screen will be
     displayed. Perform the survey, select support/technical services and click
     the *Add* button to successfully link;
 
-2.  After the support/technical service link to the service, it will be
+4.  After the support/technical service link to the service, it will be
     displayed on the service support screen;
 
-3.  To exclude the support/technical service link with the service, simply click
+5.  To exclude the support/technical service link with the service, simply click
     the *Unlink* from the same service.
 
 ### Filling in the registration fields
@@ -492,19 +498,21 @@ Creating the service map design
     in the "Design" stage. In this design is defined what the service needs so
     that it can meet the needs of the business.
 
->   !!! info "IMPORTANT"
+   !!! info "IMPORTANT"
 
->   **To create the service map design, the Support/Technical Services must
->   already be defined.**
+     To create the service map design, the Support/Technical Services must
+     already be defined.
 
 ### How to access
 
 1.  Click **Service Map**. After that, the respective map for creating the
     service map will be displayed, as shown in the figure below:
 
-**Figure 9 - Map creation screen of services map**
+   ![figure](images/configure-9.png)
+   
+   **Figure 9 - Map creation screen of services map**
 
-1.  Design the service map using the **Support Services **icons to represent the
+2.  Design the service map using the **Support Services **icons to represent the
     support/technical services and the **Configuration Items**icons to represent
     the CIs. Follow the guidelines below:
 
@@ -513,7 +521,9 @@ Creating the service map design
     support/technical service data that will be represented by the icon chosen,
     as shown in the figure below:
 
-**Figure 10 - Support/Technical service information registration screen**
+   ![figure](images/configure-10.png)
+   
+   **Figure 10 - Support/Technical service information registration screen**
 
 -   Inform the support/technical service, its description and click on the
     button *Save* to carry out the operation;
@@ -523,7 +533,9 @@ Creating the service map design
     inform the IC data that will be represented by the chosen icon, as shown in
     the figure below:
 
-**Figure 11 - Configuration item information registration screen**
+   ![figure](images/configure-11.png)
+   
+   **Figure 11 - Configuration item information registration screen**
 
 -   Enter the configuration item and its description. After that, if you want to
     check the IC information, click the Display **Item Configuration** button;
@@ -539,17 +551,16 @@ Creating the service map design
     simply double click on the icon of the same and click on
     the *Delete* button.
 
-1.  After creating the service map design, click the *Save* button, located at
+3.  After creating the service map design, click the *Save* button, located at
     the top of the screen, to register;
 
-2.  Click the *Generate Print* button to generate the impression of the design,
+4.  Click the *Generate Print* button to generate the impression of the design,
     if necessary.
 
 !!! Abstract "TIPS"
 
->   To register each activity of a service (request or incident), use the
->   knowledge [Service activity
->   registration](https://itsm.citsmartcloud.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/4452)
+    To register each activity of a service (request or incident), use the
+    knowledge [Service activity registration][1]).
 
 Linking applications to the service
 -----------------------------------
@@ -574,20 +585,22 @@ Linking applications to the service
 2.  There are action buttons available to the user for each item in the listing,
     they are: *Edit* and *Unlink*;
 
-**Figure 22 - Application link to service screen**
+   ![figure](images/configure-12.png)
+   
+   **Figure 12 - Application link to service screen**
 
-1.  Click the *Link Application* button. Once this is done, the application
+3.  Click the *Link Application* button. Once this is done, the application
     search screen will be displayed. Perform the search and select the
     application to make the link;
 
-2.  If you do not find the application registration and need to register an
+4.  If you do not find the application registration and need to register an
     application to link to the service, you can register it from this screen by
     clicking the *New Application* button;
 
-3.  To change the data of the application linked to the service, click
+5.  To change the data of the application linked to the service, click
     the *Edit* button of the service;
 
-4.  To exclude the link from the application to the service, simply click on
+6.  To exclude the link from the application to the service, simply click on
     the *Unlink* button.
 
 ### Filling in the registration fields
@@ -602,17 +615,19 @@ Registering service data schema
 1.  Click **Data Schema**. After that, the** Service Data Schema Master** screen
     will be displayed, as shown in the figure below:
 
-**Figure 23 - Service data schema master data screen**
+   ![figure](images/configure-13.png)
+   
+   **Figure 13 - Service data schema master data screen**
 
-1.  Describe the details of the service data schema;
+2.  Describe the details of the service data schema;
 
-2.  Add the data schema design for the service:
+3.  Add the data schema design for the service:
 
     -   Enter the description of the attachment, click the *Add File* button and
         select the file you want. Once this is done, it will be added to the
         data schema record.
 
-3.  After the recorded data, click the *Save* button to perform the operation.
+4.  After the recorded data, click the *Save* button to perform the operation.
 
 ### Filters
 
@@ -649,34 +664,36 @@ Linking contracts to the service
 2.  There are action buttons available to the user for each item in the listing,
     they are: *Edit*, *Unlink* and *Advance*;
 
-**Figure 24 - Service contract link screen**
+   ![figure](images/configure-14.png)
+   
+   **Figure 14 - Service contract link screen**
 
-1.  Click the *Link Contract* button. Once this is done, the contract search
+3.  Click the *Link Contract* button. Once this is done, the contract search
     screen will be displayed.
 
->   !!! info "IMPORTANT"
+   !!! info "IMPORTANT"
 
->   **Only contracts of the type "contract" will be made available to link to
->   the business/IT service and only contracts of the type "support contract"
->   and "operational level agreement" to link to the support/technical
->   service.**
+      Only contracts of the type "contract" will be made available to link to
+      the business/IT service and only contracts of the type "support contract"
+      and "operational level agreement" to link to the support/technical
+      service. 
 
-1.  Perform contract search. After that, just select the one to make the link
+4.  Perform contract search. After that, just select the one to make the link
     successfully;
 
-2.  If you do not find the contract record and need to register a contract to
+5.  If you do not find the contract record and need to register a contract to
     link to the service, you can register it from this screen, just click on
     the *New Contract* button;
 
-3.  To change the contract data, click the *Edit* button of the contract, modify
+6.  To change the contract data, click the *Edit* button of the contract, modify
     the data you want and click *Save* to make the change, where the date, time
     and user will be saved automatically for a future audit;
 
-4.  To delete the link from the service contract, simply click
+7.  To delete the link from the service contract, simply click
     the *Unlink* button from the service;
 
-5.  To configure the service contract attributes, click the *Advance* button of
-    the service contract..
+8.  To configure the service contract attributes, click the *Advance* button of
+    the service contract.
 
 ### Filling in the registration fields
 
@@ -687,7 +704,7 @@ Liking it owners to service
 
 ### How to access
 
-1.  Click **Stakeholders.**
+1.  Click **Stakeholders**.
 
 ### Filters
 
@@ -710,17 +727,19 @@ Liking it owners to service
 2.  There is one action button available to the user in relation to each listing
     item, it is: *Unlink*;
 
-**Figure 25 -Stakeholders link to service screen**
+   ![figure](images/configure-16.png)
+   
+   **Figure 15 -Stakeholders link to service screen**
 
-1.  If the "IT owner" is a user, click the *Link Users* button. Once this is
+3.  If the "IT owner" is a user, click the *Link Users* button. Once this is
     done, the user search screen will be displayed. Perform the search, select
     the users and click the *Add* button to make the link;
 
-2.  If the "IT owner" is a group, click the *Link Groups* button. Once this is
+4.  If the "IT owner" is a group, click the *Link Groups* button. Once this is
     done, the group search screen will be displayed. Perform the search, select
     the groups and click the *Add* button to make the link;
 
-3.  To delete the user or group link with the service, simply click
+5.  To delete the user or group link with the service, simply click
     the *Unlink*.
 
 ### Filling in the registration fields
@@ -751,18 +770,20 @@ Linking knowledge to service
 2.  There is one action buttons available to the user in relation to each item
     in the listing, it is: *Unlink*.
 
-**Figure 26 - Service link screen**
+   ![figure](images/configure-16.png)
+   
+   **Figure 16 - Service link screen**
 
->   !!! note "NOTE"
+   !!! note "NOTE"
 
->   **If the service is available in the Smart Portal, the knowledge related to
->   it will also be displayed in the Smart Portal.**
+       If the service is available in the Smart Portal, the knowledge related to
+       it will also be displayed in the Smart Portal.
 
-1.  Click the *Link Knowledge* button. Once this is done, the knowledge search
+3.  Click the *Link Knowledge* button. Once this is done, the knowledge search
     screen will be displayed. Perform the search, select the desired knowledge
     and click the *Add* button to make the link;
 
-2.  To exclude the knowledge link with the service, simply click the *Unlink*.
+4.  To exclude the knowledge link with the service, simply click the *Unlink*.
 
 ### Filling in the registration fields
 
@@ -773,7 +794,7 @@ Linking skills to service
 
 ### How to access
 
-1.  Click **Capability.**
+1.  Click **Capability**.
 
 ### Filters
 
@@ -791,17 +812,19 @@ Linking skills to service
 2.  There are action buttons available to the user for each item in the listing,
     they are: *Edit* and *Unlink*;
 
-**Figure 27 - Service capability link screen**
+   ![figure](images/configure-17.png)
+   
+   **Figure 17 - Service capability link screen**
 
-1.  Click the *Link Capability* button. Once this is done, the skill search
+3.  Click the *Link Capability* button. Once this is done, the skill search
     screen will be displayed. Perform the search, select the skills you want,
     and click the *Add* button to make the link;
 
-2.  If you do not find the skill record and need to register an capability to
+4.  If you do not find the skill record and need to register an capability to
     link to the service, you can register it from this screen, just click on
     the *New Capability* button and proceed to fill in the fields;
 
-3.  To exclude the link from the capability with the service, simply click
+5.  To exclude the link from the capability with the service, simply click
     the *Unlink* from the same service's registry.
 
 ### Filling in the registration fields
@@ -828,21 +851,25 @@ The procedure will be used at the time of disasters related to the service.
 
 1.  The following cadastral fields are available to the user to make it easier
     to identify the desired items in the standard feature
-    listing: **ID**and **Procedure Name**;
+    listing: **ID** and **Procedure Name**;
 
 2.  There are action buttons available to the user in relation to each item in
     the listing, they are: *Edit* and *Unlink.*
 
-**Figure 28 - Service procedure screen**
+![figure](images/configure-18.png)
+
+**Figure 18 - Service procedure screen**
 
 ### Filling in the registration fields
 
 1.  Click the *New Procedure* button. Once this is done, the Procedure Record
     screen will be displayed, as shown in the figure below:
 
-**Figure 29 - Service procedure record screen**
+   ![figure](images/configure-19.png)
+   
+   **Figure 19 - Service procedure record screen**
 
-1.  Fill in the fields as shown below:
+2.  Fill in the fields as shown below:
 
     -   **Activity Name**: set the name of the procedure;
 
@@ -851,7 +878,7 @@ The procedure will be used at the time of disasters related to the service.
 
     -   **Activity Status**: select the status of the procedure;
 
-    -   **Deployment **: inform the date of the implementation of the procedure;
+    -   **Deployment**: inform the date of the implementation of the procedure;
 
     -   **Type**: it is not necessary to fill in this field, since it is already
         filled automatically with the type "Procedure";
@@ -861,7 +888,7 @@ The procedure will be used at the time of disasters related to the service.
     -   **Follow-up Template**: select, if there is one, the procedure follow-up
         template;
 
-    -   **Creation Template **: select, if it exists, the procedure template;
+    -   **Creation Template**: select, if it exists, the procedure template;
 
     -   **Details**: describe the details of how the procedure should be
         performed;
@@ -882,20 +909,20 @@ The procedure will be used at the time of disasters related to the service.
     -   **Place of Execution of Activities **: select the location where the
         procedure is to be performed.
 
-2.  After entering the required procedure data, click the *Save* button to
+3.  After entering the required procedure data, click the *Save* button to
     register. Once this is done, the procedure will be saved and linked to the
     service.
 
-3.  To change the procedure data, click the *Edit* button of the procedure,
+4.  To change the procedure data, click the *Edit* button of the procedure,
     modify the data you want and click *Save* to make the change, where the
     date, time and user will be saved automatically for a future audit.
 
-4.  To delete the service procedure, click the *Edit* button of the service, and
+5.  To delete the service procedure, click the *Edit* button of the service, and
     then click the *Delete* button.
 
-5.  To unlink the service procedure, simply click the *Unlink* button on it.
+6.  To unlink the service procedure, simply click the *Unlink* button on it.
 
-6.  To re-link a procedure to the service, click the *Link Procedure* button.
+7.  To re-link a procedure to the service, click the *Link Procedure* button.
     Once this is done, the screen for searching the procedures that have been
     disconnected from the service will be displayed. Perform the search and
     select the procedure to successfully complete the link .
@@ -919,18 +946,20 @@ Administration of service assessments
 1.  The following cadastral fields are available to the user to make it easier
     to identify the desired items in the standard feature
     listing: **ID**, **User**, **Evaluation Grade**, **Comment,
-    Aproved **and **Creation date**;
+    Aproved** and **Creation date**;
 
 2.  There are action buttons available to the user for each item in the listing,
     they are: *Delete Evaluation* and *Approve Rating* *(Evaluation)*;
 
-**Figure 30 - Assessment management screen**
+   ![figure](images/configure-20.png)
+   
+   **Figure 20 - Assessment management screen**
 
-1.  Enter the service evaluation registration period and click
+3.  Enter the service evaluation registration period and click
     the *Search* button. After this, the evaluations (note and comment) of the
     service will be listed;
 
-2.  To approve the evaluation of the service, just click on the icon .
+4.  To approve the evaluation of the service, just click on the icon ![figure](images/configure-21.png).
 
 ### Filling in the registration fields
 
