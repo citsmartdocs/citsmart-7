@@ -79,7 +79,7 @@ Filling in the registration fields
 ----------------------------------
 
 1.  In the **Customer** screen, click on the **Register** tab, the **Customer
-    Registration **screen will be displayed, as illustrated in the image below:
+    Registration** screen will be displayed, as illustrated in the image below:
 
    ![figure](images/client-3.png)
    
