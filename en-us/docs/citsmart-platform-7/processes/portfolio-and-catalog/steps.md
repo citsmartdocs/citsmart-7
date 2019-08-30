@@ -53,7 +53,7 @@ Preconditions
     knowledge [Group registration and search][9]).
     And each group created must be linked to each Contract of each new Service
     **Processes Management > Catalog Portfolio Management > Contract > User
-    Groups** (see knowledge [Contract registration and search][10).
+    Groups** (see knowledge [Contract registration and search][10]).
 
 10. Each Portfolio that will contain the new service must be created. Access
     the **Processes Management > Portfolio and Catalog Management > Portfolio
