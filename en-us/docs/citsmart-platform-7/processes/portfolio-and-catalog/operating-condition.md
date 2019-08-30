@@ -1,80 +1,79 @@
-title: Cadastro e pesquisa de condição de operação
-Description: Esta funcionalidade tem o objetivo de registrar e pesquisar a disponibilidade da operação de serviços.
+title: Operation condition registration and search
+Description: This feature is intended to record and search the availability of the service operation.
 
-# Cadastro e pesquisa de condição de operação
+# Operation condition registration and search
 
-Esta funcionalidade tem o objetivo de registrar e pesquisar a disponibilidade da
-operação de serviços.
+This feature is intended to record and search the availability of the service
+operation.
 
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de Condição de Operação através da navegação no menu
-    principal **Processos ITIL > Gerência de Portfólio e
-    Catálogo > Condição de Operação**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Não se aplica.
+1.  Access the Operation Condition functionality through navigation in the main
+    menu **Processes Management > Portfolio and Catalog Management > Operating
+    Condition**.
 
-Filtros
+Preconditions
+-------------
+
+1.  No applicable.
+
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -   Nome
+-   Name.
 
-2.  Na tela Condição de operação, clique na guia **Pesquisa Condição de
-    Operação**.
+2.  In the **Operation Condition** screen, click on the **Operation Condition
+    Search** tab.
 
-    ![Criar](images/condition-1.png)
+   ![figure](images/condition-1.png)
+   
+   **Figure 1 - Operation condition search screen**
 
-    **Figura 1 - Tela de pesquisa de condição de operação**
+3.  Perform the operation condition search;
 
-3.  Realize a pesquisa de condição de operação;
+-   Enter the description of the operation condition you want to search and
+    click the *Search* button. After this, the record will be displayed
+    according to the name entered;
 
-    -  Informe a descrição da condição de operação que deseja pesquisar e
-        clique no botão *Pesquisar*. Após isso, será exibido o registro conforme
-        o nome informado.
+-   If you want to list all the operating conditions, simply click
+    the *Search* button directly.
 
-    -  Caso deseje listar todos as condições de operação, basta clicar
-        diretamente no botão *Pesquisar*.
+Items list
+----------
 
-Listagem de itens
------------------
+1.  The following cadastral field is available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: **Name**.
 
-1.  O seguinte campo cadastral está disponível ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Nome**.
+   ![figure](images/condition-2.png)
+   
+   **Figure 2 - Operation condition list**
 
-    ![Criar](images/condition-2.png)
+2.  After searching, select the desired record. Once this is done, it will be
+    directed to the registration screen displaying the contents of the selected
+    registry.
 
-    **Figura 2 -Listagem de condição de operação**
+Filling in the registration fields
+----------------------------------
 
-2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a tela de cadastro exibindo o conteúdo referente ao registro
-    selecionado;
+1.  The Operation Condition screen will be displayed, as shown below:
 
-Preenchimento dos campos cadastrais
------------------------------------
+   ![figure](images/condition-3.png)
+   
+   **Figure 3 - Operation condition screen**
 
-1.  Será apresentada a tela de Condição de Operação, conforme abaixo:
+2.  Provide a description of the condition of service operation. e.g.: 24 x 7 or
+    Business Hours;
 
-    ![Criar](images/condition-3.png)
-
-    **Figura 3 - Tela de cadastro de condição de operação**
-
-2.  Informe a descrição da condição de operação dos serviços. Ex.: 24 x 7 ou
-    Horário Comercial.
-
-3.  Clique no botão *Gravar* para efetuar o registro, onde a data, hora e
-    usuário serão gravados automaticamente para uma futura auditoria.
+3.  Click the *Save* button to register, where the date, time and user will be
+    saved automatically for a future audit.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Anna Martins
+    <b>Updated:</b>08/30/2019 – Anna Martins

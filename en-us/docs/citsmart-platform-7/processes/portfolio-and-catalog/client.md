@@ -1,121 +1,117 @@
-title: Cadastro e pesquisa de cliente
-Description: Esta funcionalidade tem por objetivo cadastrar e realizar pesquisa por clientes
+title: Costumer registration and search
+Description: This functionality is intended to register and perform search by customers.
 
-# Cadastro e pesquisa de cliente
+# Costumer registration and search
 
-O cliente é uma organização ou pessoa que solicita produtos e/ou serviços. Ele
-pode ser interno e/ou externo à organização.
 
-Esta funcionalidade tem por objetivo cadastrar e realizar pesquisa por clientes.
+The customer is a company or person requesting products and/or services. It can
+be internal and/or external to the organization.
 
-Como acessar
-------------
+This functionality is intended to register and perform search by customers.
 
-1.  Acesse a funcionalidade de cliente através da navegação no menu
-    principal **Processos ITIL > Gerência de Portfólio e Catálogo > Clientes**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Não se aplica.
+1.  Access group feature navigating through the main menu **Processes
+    Management > Portfolio and Catalog Management > Customer**.
 
-Filtros
+Preconditions
+-------------
+
+1.  No applicable.
+
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filters enables the user to restrict the participation of
+    items in the standard feature listing, making it easier to find the desired
+    items:
 
-    -   Nome/Razão Social;
+-   Company;
 
-    -   Nome Fantasia;
+-   ID;
 
-    -   CPF/CNPJ;
+-   Status.
 
-    -   Situação.
+2.  In the **Customer** screen, click on the **Search** tab, the **Customer
+    Search** screen will be displayed as illustrated in the image below:
 
-1.  Na tela de **Clientes**, clique na aba **Pesquisa**, será apresentada a tela
-    de **Pesquisa de Clientes**, conforme ilustrada na figura abaixo:
+   ![figure](images/client-1.png)
+   
+   **Figure 1 - Customer search screen**
 
-    ![Criar](images/client-1.png)
+3.  Perform a customer search. Set the filters as needed:
 
-    **Figura 1 - Tela de pesquisa de cliente**
+    -   **Company Name**: insert the customer name/company name;
 
-1.  Realize a pesquisa do cliente. Defina o filtro conforme sua necessidade;
+    -   **ID**: insert the customer’s tax registration or social security
+        number;
 
-    -   **Nome/Razão Social**: informe o nome/razão social do cliente;
+    -   **Status**: select the customer’s current situation;
 
-    -   **Nome Fantasia**: informe o nome fantasia do cliente;
+    -   After the setting the filters, click the *Search* button. Then, the
+        entries will be displayed according to the data provided;
 
-    -   **CPF/CNPJ**: informe o CPF/CNPJ do cliente;
+    -   To list all customer entries, just click directly on
+        the *Search* button.
 
-    -   **Situação**: selecione a situação do cliente;
+Items list
+----------
 
-    -   Após o filtro definido, clique no botão *Pesquisar*. Feito isso, será
-        exibido o registro conforme os dados informados.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: **Company** and **ID**:
 
-    -   Caso deseje listar todos os registros de cliente, basta clicar
-        diretamente no botão *Pesquisar*.
+   ![figure](images/client-2.png)
+   
+   **Figure 2 - Customers Listing**
 
-Listagem de itens
------------------
+2.  After searching, select the intended entry. Once this is done, you will be
+    directed to the registry screen displaying the content of the selected
+    entry;
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Nome/Razão Social, Nome Fantasia e CPF/CNPJ.
+3.  To change a customer entry, just modify the information in the desired
+    fields and click the *Save* button to save the changes made to the registry,
+    at which the date, time and user are automatically stored for a future
+    audit.
 
-    ![Criar](images/client-2.png)
+Filling in the registration fields
+----------------------------------
 
-    **Figura 2 - Listagem de clientes**
+1.  In the **Customer** screen, click on the **Register** tab, the **Customer
+    Registration** screen will be displayed, as illustrated in the image below:
 
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a tela de cadastro exibindo o conteúdo referente ao registro
-    selecionado;
+   ![figure](images/client-3.png)
+   
+   **Figure 3 - Customer Entry Screen**
 
-2.  Para alterar os dados do registro de cliente, basta modificar as informações
-    dos campos desejados e clicar no botão *Gravar* para que seja gravada a
-    alteração realizada no registro, onde a data, hora e usuário serão gravados
-    automaticamente para uma futura auditoria.
+2.  Fill out the fields as instructed:
 
-Preenchimento dos campos cadastrais
------------------------------------
+    -   **Company Name**: if the customer is an individual, insert their full
+        name, if it is a corporation, insert the company’s registered name;
 
-1.  Na tela de **Clientes**, clique na aba **Cadastro**, será apresentada a
-    tela de **Cadastro de Cliente**, conforme ilustrada na figura abaixo:
+    -   **Fantasy Name**: insert the company’s fantasy name, if necessary;
 
-    ![Criar](images/client-3.png)
+    -   **ID**: if the customer is an individual, insert its social security
+        number, if it is a company, insert the federal tax registry.
 
-    **Figura 3 - Tela de cadastro de cliente**
+    -   **Situation**: select the customer's current status withiin the
+        organization (active or inactive);
 
-1.  Preencha os campos conforme orientações abaixo:
+    -   **Customer type**: select customer type:
 
-    -   **Nome/Razão Social**: caso o cliente seja uma pessoa física, informe o
-        nome completo do mesmo, caso seja uma pessoa jurídica, informe o nome de
-        registro da sua empresa;
+        -   **Internal**: one that is part of the same organization, as a
+            director, consultant, manager and others.
 
-    -   **Nome Fantasia**: informe o nome fantasia da empresa do cliente, se
-        achar necessário;
+        -   **External**: one that financially maintains the organization,
+            buying products or services.
 
-    -   **CPF/CNPJ**: se o cliente for pessoa física, informe o CPF, se for
-        pessoa jurídica, informe o CNPJ.
+3.  After inserting the data, click the *Save* button to confirm the entry, at
+    which date, time and user are automatically stored for future a audit.
 
-    -   **Situação**: selecione a situação do cliente na organização (ativo ou
-        inativo);
-
-    -   **Tipo Cliente**: selecione o tipo de cliente;
-
-        -   **Interno**: é aquele que faz parte da mesma organização, como o
-            diretor, consultor, gerente, dentre outros.
-
-        -   **Externo**: é aquele que mantêm financeiramente a organização,
-            adquirindo produtos ou serviços.
-
-2.  Após informar os dados, clique no botão *Gravar* para efetuar o registro,
-    onde a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria;
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Anna Martins
+    <b>Updated:</b>08/30/2019 – Anna Martins

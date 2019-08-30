@@ -1,85 +1,81 @@
-title: Cadastro e pesquisa de causa de incidentes
-Description:Esta funcionalidade permite registrar e pesquisar as causas da ocorrência de incidentes.
+title: Incident cause registration and search
+Description: This feature allows you to save and search the causes of incidents.
 
-# Cadastro e pesquisa de causa de incidentes
+# Incident cause registration and search
 
-Esta funcionalidade permite registrar e pesquisar as causas da ocorrência de
-incidentes.
+This feature allows you to save and search the causes of incidents.
 
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de Causa de Incidentes através da navegação no menu
-    principal **Processos ITIL > Gerência de Portfólio e
-    Catálogo > Causa Incidentes**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Não se aplica.
+1.  Access Incident Causes feature navigating through the main menu **Process
+    Management > Portfolio and Catalog Management > Incident Causes**.
 
-Filtros
+Preconditions
+-------------
+
+1.  No applicable.
+
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filters enables the user to restrict the participation of
+    items in the standard feature listing, making it easier to find the desired
+    items:
 
-    -   Causa;
+-   Cause;
 
-    -   Data inicial.
+-   Start Date.
 
-![Criar](images/cause-incident-1.png)
+![figure](images/cause-incident-1.png)
 
-**Figura 1 - Tela de pesquisa de causa incidente**
+**Figure 1 - Incident cause search screen**
 
-Listagem de itens
------------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Causa e Data inicial**.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: **Cause **and** Start Date.**
 
-    ![Criar](images/cause-incident-2.png)
+   ![figure](images/cause-incident-2.png)
+   
+   **Figure 2 - Incident cause screen**
 
-    **Figura 2 - Tela de causa de incidentes**
+2.  To search for an incident cause, enter the description and/or start date of
+    the incident. After this, the record will be displayed according to the data
+    entered.
 
-1.  Para realizar a busca de uma causa de incidentes, informe a descrição e/ou
-    data inicial da mesma. Após isso, será exibido o registro conforme os dados
-    informados;
+3.  There are action buttons available to the user for each item in the listing,
+    they are: *Edit* and *Delete*.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Excluir*.
+Filling in the registration fields
+----------------------------------
 
-Preenchimento dos campos cadastrais
------------------------------------
+1.  The incident causes screen will be displayed.
 
-1.  Será apresentada a tela de **Causa de Incidentes**;
+2.  Click the *New* button. Then, the **Incident Causes Registration** screen
+    will be displayed as illustrated in the following image:
 
-2.  Clique no botão *Novo*. Feito isso, será apresentada a tela de **Cadastro de
-    Causa de Incidentes**, conforme ilustrada na figura a seguir:
+   ![figure](images/cause-incident-3.png)
+   
+   **Figure 3 - Incident Cause Entry Screen**
 
-    ![Criar](images/cause-incident-3.png)
+3.  Fill out the fields as instructed:
 
-    **Figura 3 - Tela de cadastro de causa de incidentes**
+-   **Cause**: insert the description of the incident;
 
-1.  Preencha os campos conforme orientações abaixo:
+-   **Start**: insert the initial date of the incident cause registration;
 
-    -  **Causa**: informe a descrição da causa do incidente;
+-   **Parent incident cause**: select a higher incident cause if the incident
+    being registered is part of another incident cause.
 
-    -  **Data Início**: informe a data inicial do registro da causa de
-        incidente;
+4.  After inserting the data, click the *Save* button to confirm the entry, at
+    which the date, time and user are automatically stored for future audit.
 
-    -  **Causa Incidente Pai**: selecione uma causa incidente superior, caso a
-        causa de incidente que está sendo cadastrada faça parte de outra causa
-        de incidente.
-
-2.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
-    onde a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Anna Martins
+    <b>Updated:</b>08/30/2019 – Anna Martins

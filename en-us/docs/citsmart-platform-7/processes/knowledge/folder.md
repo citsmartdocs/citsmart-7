@@ -14,7 +14,7 @@ Preconditions
 -------------
 
 1.  Have at least one registered profile, a registered group or both scenarios (see knowledge 
-[Access profile registration and search][1], [Group registration and search][2].
+[Access profile registration and search][1], [Group registration and search][2]).
 
 Filters
 ------------
@@ -26,68 +26,53 @@ to find the desired items:
 
     -   Higher folder.
 
-![Criar](images/folder-1.png)
+![Folder](images/folder.img1.jpg)
 
-**Figura 1 - Tela de pesquisa pasta**
+**Figure 1 - Folder search screen**
 
-Listagem de itens
+Items list
 ----------------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: ID, Pasta e Pasta Superior.
+1.  The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **ID, Folder** and **Higher folder**.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Excluir*.
+2.  There are action buttons available to the user for each item in the listing, they are: *Edit* and *Delete*.
 
-![Criar](images/folder-2.png)
+![Create](images/folder.img2.jpg)
 
-**Figura 2 - Tela de listagem de pasta**
+**Figure 2 - Folder listing screen**
 
-Preenchimento dos campos cadastrais
----------------------------------
+Filling in the registration fields
+--------------------------------------
 
-1.  Ao se clicar no botão Novo, a seguinte tela será apresentada:
+1.  To open a new folder click on button *New*, as the figure bellow:
 
-    ![Criar](images/folder-3.png)
+    ![Entry](images/folder.img3.jpg)
 
-    **Figura 3 - Tela de cadastro de pasta**
+    **Figure 3 - New folder registration screen**
 
-1.  Preencha os campos:
+1.  Fill in the fields:
 
-    -  **Nome**: define o título usado nas listas de pastas em outras
-    funcionalidades
+    -  **Name**: enter the folder name;
+    -  **Higher Folder**: enter the upper folder, if the folder being registered is part of another folder;
+    -  **Access Profile**: select the profiles that will have access to the folder;
+       -  **Permission**: set the permissions for each selected profile;
+       -  **Can publish**: define for each selected profile whether they can publish knowledge related to the folder.
+    -  **Group**: select the groups that will have the folder by clicking the Add button. Allows the meeting of more than one 
+    profile/group in one:
+       -  **Permission**: sets whether the profile can read or read/write;
+       -  **Can publish**: define whether or not the user can publish.
 
-    -  **Pasta Superior**: define a pasta que agrupa esta pasta e outras, quando
-    não preenchido significa que não há nenhum nível superior de pastas
+!!! info "IMPORTANT"
 
-    -  **Perfil de Acesso**: permite selecionar os perfis que terão acesso à pasta,
-    permitindo configurar:
-
-       -  **Permissão**: define se o perfil pode fazer Leitura ou Leitura/
-        Gravação
-
-       -  **Pode publicar**: define se o usuário pode ou não publicar
-
-    -  **Grupo**: seleciona os grupos que terão a pasta, clicando no botão
-    Adicionar. Permite a reunião de mais de um perfil/grupo em um só:
-
-       -  **Permissão**: define se o perfil pode fazer Leitura ou Leitura/
-        Gravação
-
-       -  **Pode publicar**: define se o usuário pode ou não publicar
-
-!!! info "IMPORTANTE"
-
-     Quando definir o perfil de acesso das pastas por grupo e perfil de acesso,
-     prevalecerá aquele com maiores permissões (campos: Permissão e Pode
-     Publicar).
+     When defining the access profile of the folders by group and access profile, the one with the highest permissions will prevail 
+     (fields: Permission and Can Publish).
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Anna Martins
+    <b>Updated:</b>08/30/2019 – Larissa Lourenço
     
-[1]:/pt-br/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
-[2]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[1]:/en-us/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
+[2]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html
