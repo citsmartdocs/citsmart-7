@@ -1,59 +1,79 @@
-title:  Módulo Gerenciamento de Liberação
-Description: O processo de Gerenciamento de Liberação provê o gerenciamento físico de software e hardware. 
-# Módulo Gerenciamento de Liberação
+title: Release management module
+Description: Release management module
 
-Objetivo do módulo
----------------------
+# Release management module
 
-Liberação (release) é definida como uma mudança significativa na infraestrutura de TI da organização, a qual pode ser a introdução 
-de novos ICs, ou a atualização dos atuais.
+Module objective
+----------------
 
-O processo de Gerenciamento de Liberação provê o gerenciamento físico de software e hardware, permitindo o planejamento das 
-liberações a serem realizadas na infraestrutura de TI, apoiando-se nas informações sobre ICs e seus relacionamentos armazenadas 
-na BDGC.
+Release is defined as a significant change in the organization's IT
+infrastructure, which may be the introduction of new ICs, or the updating of
+current ones.
 
-Segundo a ITIL os principais objetivos do processo de Gerenciamento de Liberação são:
+The Release Management process provides the physical management of software and
+hardware, allowing the planning of the releases to be made in the IT
+infrastructure, based on information about CIs and their relationships stored in
+the BDGC.
 
-- Planejar, coordenar e implementar o software e o hardware;
-- Projetar e implementar procedimentos eficientes para a distribuição e a instalação de mudanças nos sistemas de TI;
-- Garantir que o hardware e o software relacionados com a mudanças possam ser acompanhados, tenham segurança, e que sejam
-instaladas apenas versões corretas, autorizadas e testadas;
-- Comunicar os usuários e considerar as expectativas deles durante o planejamento e implementação de novas liberações;
-- Determinar juntamente com o Gerenciamento de Mudanças a composição e o planejamento de uma implementação;
-- Implementar novas liberações de software e novo hardware na infraestrutura operacional, sob o controle do Gerenciamento de
-Mudanças e com suporte do Gerenciamento da Configuração;
-- Garantir que as cópias originais de softwares estejam armazenadas com segurança na BSD e que o BDGC seja atualizado. A mesma
-coisa vale para o hardware que está na DHD.
+According to ITIL, the main goals of the Release Management process are:
 
-Onde estão suas funcionalidades
-----------------------------------
+-   Plan, coordinate and implement software and hardware;
 
-Acesse o menu principal **Processos ITIL > Gerência de Liberação**.
+-   Design and implement efficient procedures for the distribution and
+    installation of changes in IT systems;
 
-![Menu](images/mod-lib.img1.jpg)
+-   Ensure that hardware and software related to changes can be tracked,
+    secured, and that only correct, authorized, and tested versions are
+    installed;
 
-**Figura 1 - Menu do módulo Gerência de Liberação**
+-   Communicate users and consider their expectations during the planning and
+    implementation of new releases;
 
-Principal funcionalidade (em destaque)
-----------------------------------------
+-   Determine together with Change Management the composition and planning of an
+    implementation;
 
-Na seção "Veja também" é possível acessar a(s) funcionalidade(s) principal(is) deste módulo, desta forma se pode obter um
-conhecimento mais detalhado.
+-   Implement new releases of software and new hardware in the operational
+    infrastructure, under the control of Change Management and with
 
-!!! abstract "SAIBA MAIS"
+-   Configuration Management support;
 
-    Dependendo da sua permissão de acesso, é possível realizar uma série de ações nas requisições de liberação existentes, sendo:
-    visualizar as informações do registro da requisição de liberação, agendar atividade referente à requisição de liberação,
-    suspender o atendimento da requisição de liberação, reativar a requisição de liberação que foi suspensa para atendimento, 
-    delegar a requisição de liberação para outra pessoa ou grupo, capturar requisição de liberação, executar atendimento da 
-    requisição de liberação e entre outras.
-    
-Veja também
---------------
+-   Ensure that the original copies of software are stored securely in the BSD
+    and that the BDGC is updated. The same thing goes for the hardware that is
+    on DHD.
 
-- [Cadastro e pesquisa de registro de liberação](/pt-br/citsmart-platform-7/processes/release/requisition.html)
+Where are the features
+----------------------
+
+To access the functionality click on the main menu **Process Management
+> Release Management**.
+
+![figure](images/mod-lib.img1.jpg)
+
+**Figure 1 - Release Management module menu**
+
+Main feature (in highlight)
+---------------------------
+
+In the *See also* section you can access the main functionality(ies) of this
+module, in order to obtain a more detailed knowledge.
+
+!!! Abstract "TIPS"
+
+    Depending on your access permission, you can perform a series of actions on
+    the existing release requests, such as: viewing the registration information
+    of the release Request, scheduling activity for the release Request,
+    suspending the request for release, Reactivate the request for release that
+    has been suspended for service, delegate the request for release to another
+    person or group, capture a request for release, execute the request for
+    release, and others.
+
+See also
+--------
+
+-   [Release Record registration and search](/en-us/citsmart-platform-7/processes/release/requisition.html).
+
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/29/2019 - Larissa Lourenço
+    <b>Updated:</b>08/30/2019 - Anna Martins
