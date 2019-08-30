@@ -1,9 +1,7 @@
 title: Operation condition registration and search
+Description: This feature is intended to record and search the availability of the service operation.
 
-Description: This feature is intended to record and search the availability of
-the service operation.
-
-\# Operation condition registration and search
+# Operation condition registration and search
 
 This feature is intended to record and search the availability of the service
 operation.
@@ -12,7 +10,7 @@ How to access
 -------------
 
 1.  Access the Operation Condition functionality through navigation in the main
-    menu **Processes Management \> Portfolio and Catalog Management \> Operating
+    menu **Processes Management > Portfolio and Catalog Management > Operating
     Condition**.
 
 Preconditions
@@ -28,7 +26,7 @@ Filters
 
 -   Name.
 
-2.  In the** Operation Condition** screen, click on the **Operation Condition
+2.  In the **Operation Condition** screen, click on the **Operation Condition
     Search** tab.
 
    ![figure](images/condition-1.png)
@@ -49,7 +47,7 @@ Items list
 
 1.  The following cadastral field is available to the user to facilitate the
     identification of the desired items in the standard feature
-    listing: **Name.**
+    listing: **Name**.
 
    ![figure](images/condition-2.png)
    
