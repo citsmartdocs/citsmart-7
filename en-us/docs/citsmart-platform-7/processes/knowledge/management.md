@@ -1,272 +1,282 @@
-title: Gerenciamento de conhecimento
-Description: O Gerenciamento do Conhecimento tem o objetivo de disponibilizar e gerenciar as informações e conhecimentos, de forma confiável e íntegra, que apoiam a execução do serviço.
+title: Knowledge management
+Description: Knowledge Management aims to provide and manage the information and knowledge.
+# Knowledge management
 
-# Gerenciamento de conhecimento
+Knowledge Management aims to provide and manage the information and knowledge, in a reliable and complete way, that support the 
+execution of the service.
 
-O Gerenciamento do Conhecimento tem o objetivo de disponibilizar e gerenciar as informações e conhecimentos, de forma confiável e íntegra, que apoiam a execução do serviço.
+How to access
+------------------
 
-Como acessar
------------
+1.  Access the main menu **ITIL Processes > Knowledge Management > Knowledge Management**.
 
-1.  Acesse o menu principal **Processos ITIL > Gerência de Conhecimento > Gerenciamento de Conhecimento**.
+Preconditions
+-----------------
 
-Pré-condições
-------------
+1.  Have registered folders for insertion and organization of knowledge (see the knowledge [Folder registration and search][1]).
 
-1.  Ter pastas cadastradas para inserção e organização dos conhecimentos (ver conhecimento [Cadastro e pesquisa de pasta][1]).
+Filters
+---------
 
-Filtros
-------
+1.  The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a localização dos itens desejados:
+    -   Title;
 
-    -   Título;
+    -   Document type;
 
-    -   Tipo do documento;
+    -   Content;
 
-    -   Conteúdo;
+    -   Published;
 
-    -   Publicado;
+    -   Status;
 
-    -   Situação;
+    -   Folder.
 
-    -   Pasta.
+![Search](images/management.img1.jpg)
 
-![Criar](images/management-1.png)
+**Figure 1 - Knowledge search screen**
 
-**Figura 1 - Tela de pesquisa de conhecimentos**
-
-Listagem de itens
+Items list
 ----------------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem padrão da funcionalidade: ID, Título, Tipo do documento, Versão, Publicado, Arquivado e Pasta.
+1.  The following cadastral field is available to the user to facilitate the identification of the desired items in the standard 
+listing of the functionality: **ID, Title, Document type, Version, Published, Retired** and **Folder**.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: *Editar* e *Excluir*.
+2.  There are action buttons available to the user in relation to each listing item, it is: *Edit* and *Delete*.
 
-![Criar](images/management-2.png)
+![Listing](images/management.img2.jpg)
 
-**Figura 2 - Tela de listagem de conhecimentos**
+**Figure 2 - Knowledge listing screen**
 
-Preenchimento dos campos cadastrais
----------------------------------
+Filling in the registration fields
+--------------------------------------
 
-1.  Será exibida a tela de Gerenciamento de Conhecimento;
+1.  The **Knowledge Management** screen will be displayed;
 
-2.  Clique no botão de opções ![Criar](images/management-3.png) e logo em seguida clique no botão de cadastro ![Criar](images/management-4.png) . Feito isso, será apresentada a tela de **Cadastro de Conhecimento**, conforme ilustrada na figura a seguir:
+2.  Click the radio button ![symbol](images/sim-menu.green.jpg) and then click the register button
+![symbol](images/simb-plus.green.jpg). Once this is done, the **Knowledge Registry** screen will be displayed, as shown in the 
+following figure:
 
-    ![Criar](images/management-5.png)
+    ![Entry](images/management.img3.jpg)
 
-    **Figura 3 - Tela de cadastro de conhecimento**
+    **Figure 3 - Knowledge registry screen**
 
-3.  Preencha os campos conforme orientação abaixo:
+3.  Fill in the fields as directed below:
 
-    -   **Título**: informe o título do conhecimento;
+    -   **Title**: report the title of knowledge;
 
-    -   **Versão**: esse campo é para simples conferencia. Será apresentada o número da versão do conhecimento após gravação do mesmo;
+    -   **Version**: this field is for simple conference. The knowledge version number will be displayed after recording it;
 
-    -   **Tipo de documento**: informe o tipo do conhecimento que será registrado;
+    -   **Document type**: state the type of knowledge to be registered;
 
-    -   **Fonte/Referência**: informe a fonte/referência do conhecimento;
+    -   **Source/Reference**: inform the source/knowledge reference;
 
-    -   **Pasta**: selecione a pasta na qual o conhecimento será armazenado;
+    -   **Folder**: select the folder in which the knowledge will be stored;
 
-    -   **Origem**: informe a origem do conhecimento;
+    -   **Origin**: inform the origin of the knowledge;
 
-    -   **Situação**: informe a situação do conhecimento;
+    -   **Status**: inform the knowledge situation;
 
-    -   **Data de Expiração**: informe a data de expiração do conhecimento;
+    -   **Expiration Date**: enter the expiration date of the knowledge;
 
-    -   **Justificativa/Observação**: informe as observações referente ao conhecimento, se achar necessário;
+    -   **Observation**: inform observations regarding knowledge, if necessary;
 
-    -   **Autor**: nesse campo será apresentado o nome do usuário que está registrando o conhecimento;
+    -   **Author**: in this field will be presented the name of the user who is registering the knowledge;
 
-    -   **Publicador**: nesse campo será apresentado o nome do usuário, responsável por aprovar e publicar o conhecimento no portal do conhecimento;
+    -   **Publisher**: in this field will be presented the name of the user, responsible for approving and publishing the knowledge 
+    in the knowledge portal;
 
-    -   **Privacidade**: defina a privacidade do conhecimento:
+    -   **Privacy**: define the privacy of knowledge;
 
-        -   **Confidencial**: apenas o autor do conhecimento e o administrador da pasta terá acesso ao conhecimento;
+        -   **Confidential**: only the knowledge author and the administrator of the folder will have access to the knowledge;
 
-        -   **Público**: todas as pessoas terão acesso ao conhecimento, mesmo aquelas que não têm permissão na pasta;
+        -   **Public**: all people will have access to knowledge, even to those who do not have permission in the folder;
 
-        -   **Interno**: somente as pessoas que têm permissão na pasta terão acesso ao conhecimento.
+        -   **Internal**: only people who have permission in the folder will have access to the knowledge.
 
-    !!! warning "ATENÇÃO"
+    !!! warning "WARNING"
 
-        Deve-se ter muito cuidado ao utilizar a privacidade “Público”, pois corre-se o
-        risco de disponibilizar documentos de forma inadequada. Este cenário
-        desconsidera a configuração de perfil de acesso e libera o acesso do documento a
-        todos os usuários.
+        If you do not select an option, the privacy of knowledge will be set by the system as "Public".
 
-    -   **Data de Criação**: esse campo é para simples conferência, pois será apresentado a data atual do registro do conhecimento;
+    -   **Creation Date**: this field is for simple conference, as the current date of the knowledge record will be displayed;
 
-    -   **Data de publicação**: será apresentado nesse campo a data de publicação do conhecimento no portal do conhecimento;
+    -   **Publication Date**: the date of publication of knowledge in the knowledge portal will be presented in this field;
 
-    -   **Publicar**: caso a pasta informada, permite a publicação do conhecimento, será exibido este campo para definir se o conhecimento será publicado no portal do conhecimento para pesquisa;
+    -   **Publish**: if the informed folder, allows the publication of the knowledge, this field will be displayed to define if the 
+    knowledge will be published in the knowledge portal for search;
 
-    -   **Tags**: informe as tags para o conhecimento. As tags são palavras-chave que servem justamente como uma etiqueta e ajudam na hora de organizar informações, agrupando aquelas que receberam a mesma marcação, facilitando encontrar outras relacionadas;
+    -   **Tags**:  report the tags to knowledge. Tags are keywords that serve just like a tag and help when organizing information, 
+    grouping those that have received the same tag, making it easier to find related tags;
 
-    -   **Conteúdo**: descreva o texto do conhecimento;
+    -   **Content**: describe the text of knowledge;
 
-        -   Para adicionar um link (hiperlink) ao conteúdo do conhecimento, no intuito de acessar um link externo, proceda da seguinte  forma:
+        -   To add a hyperlink to the knowledge content, in order to access an external link, do the following:
 
-        -   Selecione uma palavra ou frase e clique no ícone ![Criar](images/management-21.png) para  adição do hiperlink. Feito isso, será exibida a tela para informar os dados do mesmo, conforme ilustrada na figura abaixo:
+            -  Select a word or phrase and click the icon ![symbol](images/simb-link.jpg) to add the hyperlink. Once this is done, 
+            the screen will be displayed to inform the data of the same, as shown in the figure below:
 
-    ![Criar](images/management-6.png)
+    ![Link](images/management.img4.jpg)
 
-    **Figura 4 - Registro de informações do hiperlink**
+    **Figure 4 - Hyperlink information registration**
 
-    -   Informe o tipo de hiperlink, o protocolo e a URL do hiperlink. Feito isso, clique em *Ok* para efetuar a operação. Após isso, será inserido o hiperlink ao conhecimento, conforme exemplo ilustrado na figura abaixo:
+    - Enter the hyperlink type, protocol, and hyperlink URL. Once this is done, click *Ok* to perform the operation. After that, 
+    the hyperlink will be added to the knowledge, as shown in the figure below:
 
-    ![Criar](images/management-7.png)
+    ![Hyperlink](images/management.img5.jpg)
 
-    **Figura 5 - Hiperlink inserido ao conhecimento**
+    **Figure 5 - Hyperlink inserted into knowledge**
 
-    -   Para adicionar um link (hiperlink) ao conteúdo do conhecimento, no intuito de relacionar um conhecimento a outro conhecimento, proceda da seguinte forma:
+    -  To add a hyperlink to the content of knowledge, in order to relate one knowledge to another knowledge, proceed as follows:
 
-    -   Clique no ícone ![Criar](images/management-8.png) para adição do hiperlink. Feito isso, será exibida a tela para informar os dados do mesmo, conforme ilustrada na figura abaixo:
+    -  Click the icon ![symbol](images/simb-conect.jpg) to add the hyperlink. Once this is done, the screen will be displayed to 
+    inform the data of the same, as shown in the figure below:
 
-    ![Criar](images/management-9.png)
+    ![Information](images/management.img6.jpg)
     
-    **Figura 6 - Registro de informações do hiperlink**
+    **Figure 6 - Hyperlink information registration**
 
-    -   Informe a descrição para o hiperlink, pesquise e selecione o conhecimento que deseja relacionar. Feito isso, clique em *Ok* para efetuar a operação. Após isso, será inserido o hiperlink ao conhecimento, conforme exemplo ilustrado na figura abaixo:
+    - Enter the description for the hyperlink, search, and select the knowledge you want to relate. Once this is done, click *Ok* 
+    to perform the operation. After this, the hyperlink will be added to the knowledge, as shown in the figure below:
 
-    ![Criar](images/management-10.png)
+    ![Hyperlink](images/management.img7.jpg)
     
-    **Figura 7 - Hiperlink inserido ao conhecimento**
+    **Figure 7 - Hyperlink inserted into knowledge**
 
-    -   Para adicionar uma imagem ao conteúdo do conhecimento, basta clicar e arrastar a imagem do seu computador para a área de descrição do texto do conhecimento;
+    - To add an image to the knowledge content, simply click and drag the image from your computer to the description area of the 
+    knowledge text;
 
-    -   Para adicionar um vídeo ao conteúdo do conhecimento, proceda da seguinte forma:
+    - To add a video to the knowledge content, proceed as follows:
 
-    -   Clique no ícone ![Criar](images/management-11.png) . Feito isso, será exibida a tela upload de vídeo, conforme
-    ilustrada na figura abaixo:
+        - Click the ![symbol](images/simb-video.jpg). Once this is done, the video upload screen will be displayed, as shown in the 
+        figure below:
 
-    ![Criar](images/management-12.png)
+    ![Server](images/management.img8.jpg)
     
-    **Figura 8 - Upload de vídeo do servidor**
+    **Figure 8 - Server video upload**
 
-    -   Na aba **Vídeo do servidor**, permite inserir um vídeo que está localizado no servidor de vídeos ou no seu computador;
+    - In the Server Video tab, you can insert a video that is located on the video server or on your computer;
 
-    -   Clique no botão *Localizar no Servidor* e após isso, é apresentada a tela de vídeos;
+        - Click the Browse Server button, and then the videos screen will appear;
 
-    -   Selecione vídeo desejado. Mas caso não tenha o vídeo no servidor, adicione um novo vídeo;
+        - Select desired video. But if you do not have the video on the server, add a new video;
 
-    -   Após o vídeo selecionado, defina as configurações do mesmo:
+        - After the selected video, set the video settings;
 
-        -   **Responsivo:** significa que o vídeo será renderizado conforme o tamanho da tela;
+        - **Responsive width**: means that the video will be rendered according to the size of the screen;
 
-        -   **Mostrar controles**: significa que o vídeo possuirá os botões de executar, para etc;
+        - **Show controls**: means that the video will have the execute buttons, for etc;
 
-        -   **Início Automático**: significa que o vídeo iniciará sua execução assim que a tela do conhecimento se abrir;
+        - **Autoplay?**: means the video will start running as soon as the knowledge screen opens;
 
-        -   **Tamanho**: defina o tamanho que o vídeo irá aparecer na tela;
+        - **Size**: set the size that the video will appear on the screen;
 
-        -   **Alinhamento**: selecione o alinhamento do vídeo para ser apresentado no conhecimento.
+        - **Alignment**: select the alignment of the video to be presented in the knowledge.
 
-     -   Na aba **Embedded**, permite inserir vídeos do YouTube:
+    - On the Embedded tab, you can embed YouTube videos;
 
-         -   Acesse o YouTube, busque pelo vídeo que deseja adicionar no conhecimento;
+        - Go to YouTube, search for the video you want to add to the feed;
 
-         -   Clique com o botão direito do mouse sobre o vídeo e logo em seguida clique em *Copiar código de incorporação*, conforme indicado na figura abaixo:
+        -   Right-click on the video and then click *Copy embed code*, as shown in the picture below:
 
-     ![Criar](images/management-13.png)
+     ![Youtube](images/management.img9.jpg)
      
-     **Figura 9 - Vídeo do YouTube**
+     **Figure 9 - You Tube video**
 
-    -   No campo **Código**, cole o código do vídeo do YouTube, conforme exemplo ilustrado na figura abaixo:
+    - In the **Code** field, paste the YouTube video code, as shown in the figure below:
 
-     ![Criar](images/management-14.png)
+     ![Video](images/management.img10.jpg)
      
-     **Figura 10 - Upload de vídeo do YouTube**
+     **Figure 10 -YouTube video upload**
 
-     -   Após a inserção do vídeo, clique no botão *Ok* para efetuar a operação.
+     - After inserting the video, click the *Ok* button to perform the operation;
 
-     -   Para anexar um arquivo no registro de conhecimento, basta clicar no mesmo e arrastar para área de anexo.
+     - To attach a file to the knowledge record, just click on it and drag to the attachment area.
 
-4.  Após os dados informados, clique no botão de opções ![Criar](images/management-3.png) e logo em seguida clique no botão gravar ![Criar](images/management-15.png)  para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma futura auditoria.
+4. After the data is entered, click the radio button ![symbol](images/sim-menu.green.jpg)  and then click the record button
+![symbol](images/simb-save.jpg) to register, where the date, time and user will be recorded automatically for a future audit.
 
-Relacionando conhecimento
+Relating knowledge
 ------------------------
 
-1.  Na tela de **Cadastro de Conhecimento**, clique na aba **Documento relacionado**. Feito isso, será apresentada a tela de relacionamento de conhecimentos;
+1. On the **Knowledge Master** screen, click the **Related Document** tab. Once this is done, the knowledge relationship screen 
+will be displayed;
 
-2.  Busque o conhecimento que deseja relacionar ao conhecimento que está sendo cadastrado. Após a busca, basta clicar sobre o mesmo para efetuar o relacionamento.
+2. Look for the knowledge you want to relate to the knowledge that is being registered. After the search, just click on it to make 
+the relationship.
 
-Relacionando categoria de ocorrência de eventos
+Relating category occurrence
 -----------------------------------------------
 
-1.  Na tela de **Cadastro de Conhecimento**, clique na aba **Categoria de ocorrência de evento**. Feito isso, será apresentada a tela de
-    relacionamento de categoria de ocorrência;
+1. On the Knowledge Master screen, click the **Event Category Occurrence** Category  tab. Once this is done, the **Category of 
+Occurrence Category** screen will be displayed;
 
-2.  Busque a categoria de ocorrência de eventos que deseja relacionar ao conhecimento que está sendo cadastrado. Após a busca, basta clicar sobre o mesmo para efetuar o relacionamento.
+2. Find the category of occurrence of events that you want to relate to the knowledge you are registering. After the search, just 
+click on it to make the relationship.
 
-!!! info "IMPORTANTE"
+!!! info "IMPORTANT"
 
-    O objetivo do uso desta aba é fazer com que telas do módulo
-    Gerenciamento de Eventos mostrem conhecimentos relacionados a uma categoria
-    sempre que esta seja selecionada, similar ao que acontece com serviços no módulo
-    de Gerenciamento de Portfólio. Portanto é esta aba que permite configurar este
-    tipo de ligação entre os dois módulos.
+    The purpose of using this tab is to have Event Management screens display knowledge related to a category whenever it is 
+    selected, similar to what happens with services in the Portfolio Management module. Therefore it is this tab that allows to 
+    configure this type of connection between the two modules..
 
-Adicionando as partes interessadas
+Adding stakeholders
 ---------------------------------
 
-É possível associar um conhecimento a um usuário e/ou a um grupo de usuários, o objetivo desse tipo de vínculo é configurar notificações automáticas para aqueles com interesse em acompanhar qualquer mudança em um conteúdo específico.
+1. On the **Knowledge Master** screen, click the **Interesed Parts** tab. Once this is done, the screen for addition of 
+stakeholders will be displayed;
 
-Para realizar este vínculo, basta seguir os seguintes passos:
+    ![Addition](images/management.img11.jpg)
 
-1.  Na tela de **Cadastro de Conhecimento**, clique na aba **Partes Interessadas**. Feito isso, será apresentada a tela para adição das partes interessadas;
+    **Figure 11 – Stakeholder addition screen**
 
-    ![Criar](images/management-16.png)
+2. Fill in the fields as desired and click the *Add* button.
 
-    **Figura 11 - Tela de adição de partes interessadas**
-
-2.  Preencha os campos conforme desejar e clique no botão *Adicionar*.
-
-Configurando as notificações
+Configuring notifications
 ---------------------------
 
-3.  Na tela de **Cadastro de Conhecimento**, clique na aba **Notificações**. Feito isso, será apresentada a tela de configuração de notificações;
+3. On the **Knowledge Master** screen, click the **Notification** tab. Once this is done, the notifications configuration screen 
+will be displayed;
 
-    ![Criar](images/management-17.png)
+    ![Configuration](images/management.img12.jpg)
 
-    **Figura 12 - Tela de configuração de notificação**
+    **Figure 12 – Notification configuration screen**
 
-4.  Preencha os campos com as informações corretas para a configuração de notificação referente ao conhecimento.
+4. Fill in the fields with the correct information for the knowledge notification setting.
 
-Vinculando item de configuração ao conhecimento
+Linking configuration item to knowledge
 -----------------------------------------------
 
-1.  Na tela de **Gerenciamento de Conhecimento**, realize a busca do conhecimento desejado e após isso, clique no botão *Editar*. Será
-    apresentado o registro do determinado conhecimento;
+1. On the **Knowledge Management** screen, perform the search for the desired knowledge and then click the Edit button. The 
+registration of the particular knowledge will be presented;
 
-2.  Clique na aba **Item de Configuração** e após isso, será exibida a tela de vínculo de Item de Configuração ao conhecimento;
+2. Click on the **Configuration Item** tab and after that, the Knowledge Configuration link screen will be displayed;
 
-    ![Criar](images/management-18.png)
+    ![Item](images/management.img13.jpg)
 
-    **Figura 13 - Tela de vínculo de item de configuração**
+    **Figure 13 – Configuration item link screen**
 
-3.  Busque o Item de Configuração que deseja vincular ao conhecimento. Após a busca, basta clicar sobre o mesmo para efetuar o vínculo.
+3. Look for the Configuration Item that you want to link to knowledge. After the search, just click on it to make the link.
 
-Opções avançadas
----------------
+Advanced options
+--------------------
 
-1.  No canto superior direito na tela de cadastro de conhecimento existe o botão ![Criar](images/management-19.png)  que apresentará as seguintes flags:
+1. In the upper right corner of the knowledge there is the button ![symbol](images/simb-options.jpg) which will display the 
+following flags:
 
-    ![Criar](images/management-20.png)
+    ![Options](images/management.img14.jpg)
 
-    **Figura 14 - Funcionalidades avançadas**
+    **Figure 14 - Advanced features**
 
-    -   **Ger. Disponibilidade?**: significa se conhecimento cadastrado é referente ao Gerenciamento de Disponibilidade;
+    - **Availability Management: means if registered knowledge refers to Availability Management;
 
-    -   **Direitos Autorais**: significa se conhecimento cadastrado é referente a um direito autoral;
+    - **Copyright**: means if registered knowledge refers to a copyright;
 
-    -   **Legislação**: significa se conhecimento cadastrado é referente a uma legislação.
+    - **Legislation**: means if registered knowledge refers to legislation.
 
-[1]:/pt-br/citsmart-platform-7/processes/knowledge/folder.html
+[1]:/en-us/citsmart-platform-7/processes/knowledge/folder.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/18/2019 – Anna Martins
+    <b>Updated:</b>08/30/2019 – Larissa Lourenço
