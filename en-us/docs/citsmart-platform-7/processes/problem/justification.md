@@ -1,6 +1,5 @@
 title: Problem justification registration and search
-Description: This functionality is intended to record the justifications for
-problems that will be used in other system routines.
+Description: This functionality is intended to record the justifications for problems that will be used in other system routines.
 
 # Problem justification registration and search
 

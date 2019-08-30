@@ -1,6 +1,5 @@
 title: Ticket source registration and search
-Description: This functionality has the purpose of registering several types of
-teams or areas that can generate a ticket.
+Description: This functionality has the purpose of registering several types of teams or areas that can generate a ticket.
 
 # Ticket source registration and search
 

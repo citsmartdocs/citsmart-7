@@ -1,45 +1,53 @@
-title:  Módulo Gerenciamento de Nível de Serviço
-Description: O Gerenciamento de Nível de Serviço é um processo responsável por manter, melhorar e entregar a qualidade. 
-# Módulo Gerenciamento de Nível de Serviço
+title: Service level management module
+Description: Service level management module
 
-Objetivo do módulo
----------------------
+# Service level management module
 
-O Gerenciamento de Nível de Serviço é um processo responsável por manter, melhorar e entregar a qualidade esperada pelo negócio, 
-através de acordos, contratos, medindo o desempenho, justificando os custos relacionados ao negócio. O mesmo tem como objetivo
-assegurar que os serviços de TI atuais e planejados sejam entregues com as metas tangíveis. Isto pode ser feito com um ciclo
-constante de negociação, acordo, monitoração, reporte e revisão de metas e resultados obtidos e por meio de ações para corrigir e 
-melhorar o nível de serviço entregue.
+Module objective
+----------------
 
-As principais informações fornecidas pelo processo de Gerenciamento de Nível de Serviço incluem, Acordo de Nível de Serviço (SLA) e
-Acordo de Nível Operacional (ANO). O SLA é a definição formal do nível de serviço entregue pelo departamento de TI ou por um 
-provedor de serviços externo aos seus clientes. Ele deve incluir os objetivos de nível de serviços, que definirão a sua qualidade e
-a sua disponibilidade. O ANO, por sua vez, é um acordo operacional estabelecido entre os provedores de serviços da empresa que 
-compõe a prestação de um serviço de TI.
+Service Level Management is a process responsible for maintaining, improving and
+delivering the quality expected by the business, through agreements, contracts,
+measuring performance, justifying the costs related to the business. It also
+aims to ensure that current and planned IT services are delivered with tangible
+goals. This can be done through a constant cycle of negotiation, agreement,
+monitoring, reporting and review of goals and results obtained and through
+actions to correct and improve the level of service delivered.
 
-Onde estão suas funcionalidades
---------------------------------
+The main information provided by the Service Level Management process includes
+Service Level Agreement (SLA) and Operational Level Agreement (OLA). The SLA is
+the formal definition of the level of service delivered by the IT department or
+a service provider external to your customers. It should include the service
+level objectives, which will define their quality and availability. The OLA, in
+turn, is an operational agreement established between the service providers of
+the company that makes up the provision of an IT service.
 
-1. Acesse o menu principal **Processos ITIL > Gerência de Nível de Serviço**.
+Where are the features
+----------------------
 
-![Menu](images/mod-nivel.img1.jpg)
+To access the functionality click on the main menu **Process Management > Service Level Management**.
 
-**Figura 1 - Menu do Módulo Gerência de Nível de serviço**
+![figure](images/mod-nivel.img1.jpg)
 
-Principal funcionalidade (em destaque)
----------------------------------------
+**Figure 1 - Service Level Management module menu**
 
-Na seção "Veja também" é possível acessar a(s) funcionalidade(s) principal(is) deste módulo, desta forma se pode obter um
-conhecimento mais detalhado.
+Main feature (in highlight)
+---------------------------
 
-Veja também
---------------
+In the *See also* section you can access the main functionality(ies) of this
+module, in order to obtain a more detailed knowledge.
 
-- [Cadastro e pesquisa de tempo de atendimento](/pt-br/citsmart-platform-7/processes/service-level/time-attendance.html);
+See also
+--------
 
-- [Cadastro e pesquisa de requisito de acordo de nível de serviço](/pt-br/citsmart-platform-7/processes/service-level/sla-requiriment.html).
+-   [Time attendance registration and
+    search](/en-us/citsmart-platform-7/processes/service-level/time-attendance.html)
+
+-   [Service level agreement condition registration and
+    search](/en-us/citsmart-platform-7/processes/service-level/sla-requiriment.html)
+
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/29/2019 - Larissa Lourenço
+    <b>Updated:</b>08/30/2019 - Anna Martins

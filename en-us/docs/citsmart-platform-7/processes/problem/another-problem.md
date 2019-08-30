@@ -1,115 +1,113 @@
-title:Cadastro de problema a partir de outro problema
-Description:Esta funcionalidade permite realizar o registro de um problema a partir de um problema.
+title: Registering a problem from another problem
+Description: This feature allows you to log a problem from a problem.
 
-# Cadastro de problema a partir de outro problema
+# Registering a problem from another problem
 
-Esta funcionalidade permite realizar o registro de um problema a partir de um
-problema.
+This feature allows you to log a problem from a problem.
 
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de registro de problema a partir de um problema
-    através da navegação no menu principal **Processos ITIL > Gerência de
-    Problema > Gerenciamento de Problema**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Não se aplica.
+1.  Access problem logging functionality from a problem by navigating the main
+    menu **Process Management > Problem Management > Problem Management**.
 
-Filtros
+Preconditions
+-------------
+
+1.  Not applicable.
+
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -  Nº do Problema
+-   Problem Number.
 
-    ![Criar](images/another-1.png)
-    
-    **Figura 1 - Tela de pesquisa de problema**
+![figure](images/another-1.png)
 
-Listagem de itens
------------------
+**Figure 1 - Problem search screen**
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Número, Título, Contrato, Criada em, Prioridade, Prazo
-    limite, Solicitante, Status, Tarefa atual, Grupo
-    executor e Responsável atual.
+Items list
+----------
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Visualizar*, *Relatórios* e *Ação*.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard listing of the
+    functionality: Number, Title, Contract, Created on, Priority, Time
+    limit, User, Status, Current Task, Executor Group and Current
+    Responsible.
 
-    ![Criar](images/another-2.png)
+2.  There are action buttons available to the user in relation to each item in
+    the listing, they are: *View*, *Reports* and *Action*.
 
-    **Figura 2 - Tela de listagem de problema**
+![figure](images/another-2.png)
 
-Preenchimento dos campos cadastrais
------------------------------------
+**Figure 2 - Problem listing screen**
 
-1.  Na guia **Gerenciamento**, localize o problema desejado, clique no
-    botão *Ação* e selecione a opção *Iniciar/Executar tarefa* do mesmo,
-    conforme indicado na figura abaixo:
+Filling in the registration fields
+----------------------------------
 
-    ![Criar](images/another-3.png)
-    
-    **Figura 3 - Botão ação**
+1.  On the **Management **tab, locate the problem you want, click
+    the *Action* button and select the *Start/Run Task* from it, as shown in the
+    figure below:
 
-1.  Será exibida a tela de **Registro de Problema**, clique na
-    guia **Processos/Opções** e logo em seguida em **Relacionar Problema**,
-    localizada no canto direito da tela, conforme indicado na figura abaixo:
-
-    ![Criar](images/another-4.png)
-
-    **Figura 4 - Seleção de problema**
-
-1.  É apresentada a tela de relacionamento de problema;
-
-    ![Criar](images/another-5.png)
+   ![figure](images/another-3.png)
    
-    **Figura 5 - Relacionar problema**
+   **Figure 3 - Action button**
 
-1.  Clique no botão *Cadastro de Problema*, será exibida a tela de registro de
-    Problema, conforme exemplo ilustrado na figura abaixo:
+2.  The** Problem Registration screen will appear, click
+    the **Processes/Options** tab, and then click **Relate Problem**, located on
+    the right-hand corner of the screen, as shown in the figure below:
 
-    ![Criar](images/another-6.png)
-
-    **Figura 6 - Tela de registro de problema**
-
-    -  Preencha os campos com as informações necessárias e clique no
-    botão *Gravar* para efetuar o registro;
-
-    -  Será exibida uma mensagem confirmando o sucesso do registro.
-
-1.  Para vincular um problema a um problema já cadastrado clique no
-    botão *Pesquisa Problema*. Será exibida a tela para pesquisa do mesmo,
-    conforme exemplo ilustrado na figura abaixo:
-
-    !!! info "IMPORTANTE"
-
-         O sistema permite relacionar um ou mais problemas ao problema principal.
-         Os problemas a serem relacionados devem estar com o status diferente de
-         "Cancelado" e "Concluído".
-
-   ![Criar](images/another-7.png)
+   ![figure](images/another-4.png)
    
-   **Figura 7 - Tela de pesquisa de problema**
+   **Figure 4 - Problem selection**
 
-   -  Informe o número e/ou título do problema que deseja pesquisar e clique no
-    botão *Pesquisar*;
+3.  The problem relationship screen is displayed;
 
-   -  Selecione o registro desejado e o mesmo será apresentado na tela de
-    relacionamento de problema;
+   ![figure](images/another-5.png)
+   
+   **Figure 5 - Relate problem**
 
-   -  Feito isso, basta clicar no botão *Gravar e avançar o fluxo* ou *Gravar e
-    manter a tarefa atual* caso queira gravar somente as informações registradas
-    sobre o relacionamento do incidente e manter a tarefa atual da solicitação.
+4.  Click on the *Register* button, the Problem log screen will appear, as shown
+    in the figure below:
+
+   ![figure](images/another-6.png)
+   
+   **Figure 6 - Problem registration screen**
+
+   -   Fill in the fields with the required information and click the *Save* button
+    to register;
+
+   -   A message confirming the success of the registration will be displayed.
+
+5.  To link a problem to an issue you have already entered, click the *Search
+    Problem* button. The screen will be displayed to search for it, as shown in
+    the figure below:
+
+   !!! info "IMPORTANT"
+
+      The system allows you to relate one or more problems to the main
+      problem. Problems to be listed must have status other than "Canceled" and
+      "Completed".
+
+   ![figure](images/another-7.png)
+   
+   **Figure 7 - Problem search screen**
+
+-   Enter the number and/or title of the problem you want to search and click
+    the *Search* button;
+
+-   Select the desired record and it will appear on the problem relationship
+    screen;
+
+-   Once you have done this, simply click on the *Save and Forward the
+    flow* or *Save and Keep the Current Task* *button* if you want to record
+    only the recorded information about the incident relationship and keep the
+    current request task.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/15/2019 – Anna Martins
+    <b>Updated:</b>08/29/2019 – Anna Martins

@@ -1,89 +1,123 @@
-title:  Geração de relatórios - Gerência de Níveis de Serviço
-Description: Esse relatório tem o objetivo de apresentar os prazos de atendimento das solicitações de serviços.. 
-# Geração de relatórios - Gerência de Níveis de Serviço
+title: Report generation – Service level management
+Description: Report generation – Service level manageme
 
-Gerando relatório de controle de SLA
----------------------------------------
+# Report generation – Service level management
 
-*Esse relatório tem o objetivo de apresentar os prazos de atendimento das solicitações de serviços*.
+Generating SLA control report
+-----------------------------
 
-*Como acessar*
+*This report aims to present the deadlines for service requests*.
 
-1. Acesse a funcionalidade de Relatório de Controle de SLA através da navegação no menu principal 
-**Relatórios > Gerência de Níveis de Serviço > Controle SLA**.
+### How to access
 
-*Filtros*
+1.  Access SLA Control Report functionality through navigation in the main
+    menu **Reports > Service Level Management > SLA Control**.
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+### Filters
 
-    - **Período**: informe o período de abertura das solicitações de serviço que deseja verificar o SLA;
-    - **Data inicial - Data final**: informe a data inicial e data final referente ao período selecionado;
-    - **Número**: informe o número da solicitação de serviço que deseja verificar o SLA;
-    - **Contrato**: informe o contrato que deseja verificar o SLA das suas respectivas solicitações de serviços;
-    - **Prioridade**: informe a prioridade para verificar o SLA das solicitações de serviço referentes;
-    - **Tipo**: informe o tipo da solicitação de serviço que deseja verificar o SLA;
-    - **Grupo Solucionador**: informe o grupo executor da solicitação de serviço que deseja verificar o SLA;
-    - **Solicitante**: informe o solicitante da solicitação de serviço que deseja verificar o SLA;
-    - **Situação**: informe a situação da solicitação de serviço que deseja verificar o SLA;
-    - **Nome do Serviço**: informe o nome do serviço que foi solicitado que deseja verificar o SLA;
-    - **SLA**: informe o prazo de execução da solicitação de serviço.
-    
-2. Será apresentada a tela de **Relatório de Controle de SLA**, conforme ilustrada na figura a seguir:
+1.  The following filter enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to locate the desired
+    items as shown in the figure below:
 
-    ![SLA](images/rel-nivel.img1.jpg)
-    
-    **Figura 1 - Tela de geração de relatório de controle de SLA**
-    
-3. Defina os filtros conforme sua necessidade.
+-   **Period**: enter the opening period of the service requests that you want
+    to check the SLA;
 
-Gerando relatório de controle de SLA atrasado
------------------------------------------------
+-   **Start date - Final date**: inform the start date and end date for the
+    selected period;
 
-*Esse relatório tem o objetivo de apresentar a quantidade de solicitações de serviços, por prioridade, que estão com o SLA fora 
-do prazo e dentro do prazo*.
+-   **Number**: enter the service request number you want to check the SLA;
 
-*Como acessar*
+-   **Contract**: inform the contract that you want to check the SLA of your
+    respective service requests;
 
-1. Acesse a funcionalidade de Relatório de Controle de SLA Atrasado através da navegação no menu principal 
-**Relatórios > Gerência de Níveis de Serviço > Relatório de Controle SLA Atrasado**.
+-   **Priority**: enter the priority to check the SLA of the related service
+    requests;
 
-*Filtros*
+-   **Type**: enter the type of service request you want to check the SLA;
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+-   **Solution Group**: Inform the executing group of the service request that
+    you want to check the SLA;
 
-    - **Período de Abertura**: informe o período que deseja verificar a quantidade de solicitações de serviços com SLA fora e 
-    dentro do prazo;
-    - **Contrato**: informe o contrato que deseja verificar a quantidade de solicitações de serviços com SLA fora e dentro do
-    prazo;
-    - **Prioridade**: informe a prioridade que deseja verificar a quantidade de solicitações relacionadas a mesma que estão com
-    o SLA fora e dentro do prazo;
-    - **Grupo solucionador**: informe o grupo executor para verificar a quantidade de solicitações de serviços do mesmo que com 
-    SLA fora e dentro do prazo;
-    - **Unidade**: informe a unidade para verificar a quantidade de solicitações relacionados a mesma que estão com SLA fora e
-    dentro do prazo;
-    - **Serviço**: informe o serviço para verificar a quantidade de solicitações relacionadas ao mesmo que estão com SLA fora e
-    dentro do prazo;
-    - **Tipo de serviço**: informe o tipo de serviço para verificar a quantidade de solicitações referentes ao tipo selecionado
-    com SLA fora e dentro do prazo;
-    - **Situação**: informe a situação de solicitação para verificar a quantidade de solicitações referentes que estão com SLA
-    fora e dentro do prazo;
-    - **Classificação**: informe a classificação da solicitação para verificar a quantidade de solicitações referentes que estão
-    com SLA fora e dentro do prazo;
-    - **Origem**: informe a origem da solicitação para verificar a quantidade de solicitações referentes que estão com SLA fora
-    e dentro do prazo.
-    
-2. Será apresentada a tela de **Relatório de Controle de SLA Atrasado**, conforme ilustrada na figura a seguir:
+-   **User**: inform the requestor of the service request that you want to
+    verify the SLA;
 
-    ![Atrasado](images/rel-nivel.img2.jpg)
-    
-    **Figura 2 - Tela de geração de relatório de controle de SLA atrasado**
-    
-3. Defina os filtros conforme sua necessidade.
+-   **Status**: inform the situation of the service request that you want to
+    check the SLA;
+
+-   **Service Name**: enter the name of the service that was requested to check
+    the SLA;
+
+-   **SLA**: enter the deadline for the execution of the service request.
+
+2.  The **SLA Control Report** screen will be displayed, as shown in the
+    following figure:
+
+  ![figure](images/rel-nivel.img1.jpg)
+  
+  **Figure 1 - SLA control report generation screen**
+
+3.  Set the filters as needed.
+
+Generating late sla control report
+----------------------------------
+
+*This report aims to present the number of priority service requests that are
+with the SLA out of date and on time.*
+
+### How to access
+
+1.  Access the Delayed SLA Control Reporting functionality through the main menu
+    navigation **Reports > Service Level Management > Delayed SLA
+    Control Report**.
+
+### Filters
+
+1.  The following filter enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to locate the desired
+    items as shown in the figure below:
+
+-   **Opening Period**: enter the period you want to check the number of SLA
+    service requests outside and on time;
+
+-   **Contract**: inform the contract that you want to check the number of SLA
+    service requests outside and on time;
+
+-   **Priority**: tell the priority you want to check the number of related
+    requests that are with the SLA outside and on time;
+
+-   **Solution Group**: inform the executing group to check the quantity of
+    service requests of the same as with SLA outside and on time;
+
+-   **Unit**: inform the unit to check the amount of requests related to it that
+    are SLA out and on time;
+
+-   **Service**: inform the service to check the amount of requests related to
+    the same that are with SLA outside and on time;
+
+-   **Service Type**: enter the type of service to check the number of requests
+    for the type selected with SLA outside and on time;
+
+-   **Status**: inform the request situation to check the number of requests
+    that are with SLA outside and within the deadline;
+
+-   **Classification**: inform the classification of the request to verify the
+    number of requests that are with SLAs outside and within the deadline;
+
+-   **Origin**: enter the origin of the request to verify the number of requests
+    that are SLA-compliant and out-of-date.
+
+2.  The Late SLA Control Report screen will be displayed, as shown in the
+    following figure:
+
+   ![figure](images/rel-nivel.img2.jpg)
+   
+   **Figure 2 - Delayed SLA control report generation screen**
+
+3.  Set the filters as needed.
+
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/02/2019 - Larissa Lourenço
+    <b>Updated:</b>08/29/2019 - Anna Martins
     

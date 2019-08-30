@@ -1,6 +1,5 @@
 title: Rules for automatic opening of service request via e-mail
-Description: Here are some key rules related to automatic opening of Service
-Request via e-mail
+Description: Here are some key rules related to automatic opening of Service Request via e-mail
 
 # Rules for automatic opening of service request via e-mail
 

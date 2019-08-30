@@ -1,6 +1,5 @@
 title: Request approval via e-mail
-Description: This functionality aims to approve or reject the ticket request
-through the e-mail, without the need for the administrator to be logged in.
+Description: This functionality aims to approve or reject the ticket request through the e-mail, without the need for the administrator to be logged in.
 
 # Request approval via e-mail
 
