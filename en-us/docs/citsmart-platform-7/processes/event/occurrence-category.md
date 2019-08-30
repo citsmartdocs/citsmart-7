@@ -1,100 +1,97 @@
-title: Cadastro e pesquisa de categoria de ocorrência
+title: Occurrence category registration and search
 Description: Esta funcionalidade tem como objetivo realizar o cadastro de categoria de ocorrência.
-# Cadastro e pesquisa de categoria de ocorrência
+# Occurrence category registration and search
 
-Esta funcionalidade tem como objetivo realizar o cadastro de categoria de ocorrência, ou seja, através dele é permitido agrupar 
-ocorrências de eventos de um mesmo tipo. Este cadastro será associado a cada item do cadastro de gerente de eventos do CITSmart 
-Inventory, Nagios ou Zabbix.
+This functionality has the purpose of registering the occurrence category, that is, through it it is possible to group occurrences 
+of events of the same type. This registration will be associated with each item in the CITSmart Inventory, Nagios or Zabbix event 
+manager registry.
 
-Como acessar
---------------
+How to access
+-----------------
 
-1. Acesse a funcionalidade de categoria de ocorrência através da navegação no menu principal 
-**Processos ITIL > Gerência de Evento > Categoria de ocorrência**.
+1. Access the event category functionality by navigating in the main menu 
+**Process Management > Event Management > Occurrence category**.
 
-Pré-condições
----------------
+Preconditions
+------------------
 
-1. Não se aplica.
+1. Not applicable.
 
-Filtros
----------
+Filters
+-----------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados, conforme ilustrado na figura abaixo:
+1. The following filters enable the user to restrict the participation of items in the standard feature listing, making it easier 
+to locate the desired items as shown in the figure below:
 
-    - Nome;
-    - Grupo de Tipo de Evento.
+    - Name;
+    - Ocurrence category group.
     
-2. Na tela de **EVM - Categoria de Ocorrência**, clique na aba **Pesquisa de categoria de ocorrência**. Será apresentada a tela de 
-pesquisa conforme ilustrada na figura abaixo:
+2. On the **EVM - Occurrence Category** screen, click the **Occurrence category search** tab. The search screen will be displayed 
+as shown in the figure below:
 
-    ![Pesquisa](images/cat-ocorr.img1.png)
+    ![Search](images/occurrence-categ.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de categoria de ocorrência**
+    **Figure 1 - Occurrence category search screen**
     
-3. Realize a pesquisa de categoria de ocorrência;
+3. Perform the occurrence category search:
 
-    - Informe o nome da categoria de ocorrência e/ou o grupo de tipo de evento e clique no botão "Pesquisar". Após isso, será 
-    exibido o registro da categoria de ocorrência conforme os dados informados.
+    - Enter the name of the event category and/or event type group and click the *Search* button. After that, the occurrence 
+    category record will be displayed according to the reported data;
     
-    - Caso deseje listar todos os registros de categoria de ocorrência, basta clicar diretamente no botão "Pesquisar".
+    - If you want to list all occurrence category records, simply click the *Search* button directly.
     
-Listagem de itens
+Items list
 -------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: **Nome** e **Grupo de Tipo de Evento**, conforme ilustrado na figura abaixo:
+1. The following cadastral fields are available to the user to make it easier to identify the desired items in the default listing 
+of the functionality: **Name** and **Occurrence category group**:
 
-    ![Listagem](images/cat-ocorr.img2.png)
+    ![Listing](images/occurrence-categ.img2.jpg)
     
-    **Figura 2 - Tela de lista de itens**
+    **Figure 2 - Items screen**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo 
-referente ao registro selecionado;
+2. After searching, select the desired record. Once this is done, it will be directed to the registration screen displaying the 
+contents of the selected registry;
 
-3. Para alterar os dados do registro de categoria de ocorrência, basta modificar as informações dos campos desejados e clicar no
-botão "Gravar" para que seja gravada a alteração realizada no registro, onde a data, hora e usuário serão gravados automaticamente
-para uma futura auditoria.
+3. To change the occurrence category record data, simply change the information of the desired fields and click on the *Save* 
+button to save the change made to the record, where the date, time and user will be saved automatically for a future audit.
 
-Preenchimento de campos cadastrais
+Filling in the registration fields
 ------------------------------------
 
-1. Acesse a funcionalidade, após isso, será apresentada a tela de cadastro de categoria de ocorrência, conforme ilustrada na
-figura abaixo:
+1. Access the functionality, after that, the event category registration screen will be displayed, as shown in the figure below:
 
-    ![Cadastro](images/cat-ocorr.img3.png)
+    ![Register](images/occurrence-categ.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de categoria de ocorrência**
+    **Figure 3 - Occurrence category record screen**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill in the fields as directed below:
 
-    - **Nome**: informe o nome que desejar para a categoria de ocorrência;
-    - **Grupo de Tipo de Evento**: selecione o grupo que desejar para a categoria de ocorrência. Caso haja necessidade de 
-    cadastrar um grupo, proceda conforme explicação abaixo:
-        - Clicando no botão "Criar/Editar Grupo" é possível cadastrar, consultar, editar e excluir registros de grupos de eventos;
-        - Na aba **Cadastro de Grupo de Tipo de Evento**, conforme ilustração abaixo. Informe o nome do grupo e clique no botão 
-        "Gravar" para efetuar o registro;
+    - **Name**: enter the name you want for the category of occurrence;
+    - **Occurrence category group**: select the group you want for the event category. If you need to register a group, process as 
+    explained below:
+        - By clicking the *Create/Edit Group* button you can register, query, edit and delete event group records;
+        - On the **Occurrence category group** registration tab, as shown below. Enter the group name and click the Save button to 
+        register;
         
-    ![Cadastro](images/cat-ocorr.img4.png)
+    ![Entry](images/occurrence-categ.img4.jpg)
     
-    **Figura 4 - Tela de cadastro de grupo de tipo de evento**
+    **Figure 4 - Event type group master screen**
     
-    - Na aba **Pesquisa de Grupo de Tipo de Evento**, as consultas podem ser realizadas informando o nome do grupo, busca por 
-    aproximação da palavra digitada, ou através do botão "Pesquisar", onde todos os registros cadastrados serão listados. A figura
-    abaixo ilustra essa tela:
+    - In the **Occurrence category group search** tab, queries can be made by entering the name of the group, search by 
+    approximation of the word entered, or by the Search button, where all the registered records will be listed. The figure below 
+    illustrates this screen:
     
-    ![Pesquisa](images/cat-ocorr.img5.png)
+    ![Search](images/occurrence-categ.img5.jpg)
     
-    **Figura 5 - Tela de pesquisa de grupo de tipo de evento**
+    **Figure 5 - Event type group search screen**
     
-    - Selecione o registro que desejar e o mesmo será direcionado para a aba de cadastro com os campos preenchidos;
-    - Para editar o grupo de tipo de evento, basta realizar a modificação desejada e clicar no botão "Gravar".
+    - Select the record you want and it will be directed to the registration tab with the fields filled;
+    - To edit the event type group, simply make the desired modification and click the *Save* button.
     
-3. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma 
-futura auditoria.
+3. Click the *Save* button to register, where the date, time and user will be saved automatically for a future audit.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Larissa Lourenço
+    <b>Updated:</b>08/30/2019 – Larissa Lourenço

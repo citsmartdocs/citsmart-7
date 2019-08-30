@@ -1,6 +1,5 @@
 title: Registering serious problem resolution
-Description: This functionality enables you to record serious problem
-resolution.
+Description: This functionality enables you to record serious problem resolution.
 
 # Registering serious problem resolution
 

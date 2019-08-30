@@ -1,100 +1,122 @@
-title:  Geração de relatórios - Gerência de Problemas
-Description: Nos tópicos a seguir são apresentados os relatórios referentes ao gerenciamento de problemas. 
-# Geração de relatórios - Gerência de Problemas
+title: Report generation – Problem management
+Description: Report generation – Problem management
 
-Nos tópicos a seguir são apresentados os relatórios referentes ao gerenciamento de problemas:
+# Report generation – Problem management
 
-- Relatório de Problema/Incidentes;
-- Relatório Quantitativo de Problema;
-- Relatório Quantitativo de Solicitação/Problema por Serviço.
+The following topics report on problem management:
 
-Em todos os casos existem opções de exportação:
+-   Problem/Incident Report;
 
-- Clique no botão "Gerar PDF" para gerar o relatório problema/incidentes no formato PDF.
-- Clique no botão "Gerar XLS" para gerar o relatório problema/incidentes no formato Excel.
+-   Quantitative Problem Report;
 
-Gerando relatório de problema/incidentes
-------------------------------------------
+-   Quantitative Service Request/Problem Report.
 
-*Esse relatório tem o objetivo de apresentar os incidentes relacionados ao problema*.
+In all cases there are export options:
 
-*Como acessar*
+-   Click the *Generate PDF* button to generate the problem / incident report in
+    PDF format.
 
-1. Acesse a funcionalidade de Relatório de Problema/Incidentes através da navegação no menu principal 
-**Relatórios > Gerência de Problemas > Problema/Incidentes**.
+-   Click the *Generate XLS* button to generate the problem / incident report in
+    Excel format.
 
-*Filtros*
+Generating problem/incident report
+----------------------------------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+*This report is intended to present incidents related to the problem*.
 
-    - **Período de Abertura**: informe o período que deseja verificar os incidentes relacionados ao problema;
-    - **Nº Problema**: informe o número de identificação do problema para verificar os incidentes relacionados;
-    - **Contrato**: informe o contrato referente ao problema, caso seja necessário.
-    
-2. Será apresentada a tela de **Geração de Relatório de Problema/Incidentes**, conforme ilustrada na figura a seguir:
+### How to access
 
-    ![Problema](images/rel-prob.img1.jpg)
-    
-    **Figura 1 - Tela de geração do relatório de problema/incidentes**
-    
-3. Defina os filtros conforme sua necessidade.
+1.  Access Problem/Incident Reporting functionality by navigating the main
+    menu **Reports > Problem Management > Problem/Incidents**.
 
-Gerando relatório quantitativo de problema
------------------------------------------------
+### Filters
 
-*Esse relatório tem o objetivo de apresentar a quantidade de problemas ocorridos*.
+1.  The following filter enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to locate the desired
+    items as shown in the figure below:
 
-*Como acessar*
+-   **Opening Period**: Enter the period you want to check for incidents related
+    to the problem;
 
-1. Acesse a funcionalidade de Relatório Quantitativo de Problema através da navegação no menu principal
-**Relatórios > Gerência de Problemas > Quantitativo de Problema**.
+-   **Problem Number**: Enter the problem identification number to verify the
+    related incidents;
 
-*Filtros*
+-   **Contract**: Report the contract regarding the problem, if necessary.
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+2.  The **Problem/Incident Report** screen will be displayed, as shown in the
+    following figure:
 
-    - **Período de Abertura**: informe o período que deseja gerar o relatório quantitativo de problema;
-    - **Contrato**: selecione o contrato, caso queira verificar a quantidade de problemas registrados relacionados ao contrato.
-    
-2. Será apresentada a tela de **Geração de Relatório Quantitativo de Problema**, conforme ilustrada na figura a seguir:
-
-    ![Quantitativo](images/rel-prob.img2.jpg)
-    
-    **Figura 2 - Tela de geração do relatório quantitativo de problema**
-    
-3. Defina os filtros conforme sua necessidade.
-
-Gerando relatório quantitativo de solicitação/problema por serviço
---------------------------------------------------------------------
-
-*Esse relatório tem o objetivo de apresentar a quantidade de solicitações e problemas que foram registrados, por serviço*.
-
-*Como acessar*
-
-1. Acesse a funcionalidade de Relatório Quantitativo de Solicitação/Problema por Serviço através da navegação no menu principal 
-**Relatórios > Gerência de Problemas > Solicitação/Problema por Serviço**.
-
-*Filtros*
-
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
-
-    - **Período de Abertura**: informe o período desejado para verificar a quantitativo de solicitações e problemas registrados,
-    por serviço;
-    - **Contrato**: informe o contrato para verificar a quantidade de solicitações e problemas de serviços relacionados.
-
-2. Será apresentada a tela de **Geração de Relatório Quantitativo de Solicitação/Problema por Serviço**, conforme ilustrada na 
-figura a seguir:
-
-   ![Solicitação](images/rel-prob.img3.jpg)
+   ![figure](images/rel-prob.img1.jpg)
    
-   **Figura 3 - Tela de geração de relatório quantitativo de solicitação/problema por serviço**
+   **Figure 1 - Problem / Incident report generation screen**
+
+3.  Set the filters as needed.
+
+Generating quantitative problem reporting
+-----------------------------------------
+
+*This report aims to show how many problems have occurred*.
+
+### How to access
+
+1.  Access the Quantitative Problem Report feature by navigating the main
+    menu **Reports > Problem Management > Quantitative Problem**.
+
+### Filters
+
+1.  The following filter enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to locate the desired
+    items as shown in the figure below:
+
+-   **Opening Period**: Enter the period you want to generate the quantitative
+    problem report;
+
+-   **Contract**: Select the contract, if you want to check the amount of
+    registered issues related to the contract.
+
+2.  The **Quantitative Problem Report Generation** screen will be displayed, as
+    shown in the following figure:
+
+   ![figure](images/rel-prob.img2.jpg)
    
-3. Defina os filtros conforme sua necessidade.
+   **Figure 2 - Quantitative problem report generation screen**
+
+3.  Set the filters as needed.
+
+Generating quantitative service request/problem report
+------------------------------------------------------
+
+*This report aims to present the number of requests and problems that have been
+recorded, per service.*
+
+### How to access
+
+1.  Access the Quantitative Service Request/Problem Report feature by navigating
+    the main menu **Reports > Problem Management > Request/Problem per
+    Service**.
+
+### Filters
+
+1.  The following filter enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to locate the desired
+    items as shown in the figure below:
+
+-   **Opening Period**: Inform the desired period to verify the quantity of
+    requests and registered problems, per service;
+
+-   **Contract**: Enter the contract to check the amount of requests and related
+    service issues.
+
+2.  The **Quantitative Service Request / Problem Report Generation** screen will
+    be displayed, as shown in the following figure:
+
+   ![figure](images/rel-prob.img3.jpg)
+   
+   **Figure 3 - Quantitative report of service/problem generation screen**
+
+3.  Set the filters as needed.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/02/2019 - Larissa Lourenço
+    <b>Updated:</b>08/30/2019 - Anna Martins
