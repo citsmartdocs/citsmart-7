@@ -32,16 +32,13 @@ Preconditions
     Calendar** (see knowledge [Calendar registration and search][5]).
 
 6.  Each client (internal or external) that can request / contract the new
-    service must be registered in the system. Access the **Processes Management
-    > Catalog Portfolio Management > Customer** menu (see knowledge [Customer registration and search][6]).
+    service must be registered in the system. Access the **Processes Management > Catalog Portfolio Management > Customer** menu (see knowledge [Customer registration and search][6]).
 
 7.  Each provider (internal or external service provider) that can support the
-    new service must be created on the system. Access the **Processes Management
-    > Catalog Portfolio Management > Supplier** menu (see knowledge [Supplier registration and search][7]).
+    new service must be created on the system. Access the **Processes Management > Catalog Portfolio Management > Supplier** menu (see knowledge [Supplier registration and search][7]).
 
 8.  Each contract that may be related to the new service must be created in the
-    system. Access the **Processes Management > Catalog Portfolio Management >
-    Contract** menu(see knowledge [Contract registration and search][8]).
+    system. Access the **Processes Management > Catalog Portfolio Management > Contract** menu(see knowledge [Contract registration and search][8]).
 
     -   It is an agreement between two parties, which are obliged to comply with
         what was agreed between them under certain conditions. The contract may
