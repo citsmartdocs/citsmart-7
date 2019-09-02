@@ -1,105 +1,105 @@
-title: Cadastro e pesquisa de template de serviço
-Description: Esta funcionalidade permite registrar um modelo, o qual será utilizado para personalizar a tela de serviço.
+title: Service template registration and search
+Description: This feature allows you to register a template, which will be used to customize the service screen.
 
-# Cadastro e pesquisa de template de serviço
+# Service template registration and search
 
-Esta funcionalidade permite registrar um modelo, o qual será utilizado para
-personalizar a tela de serviço.
+This feature allows you to register a template, which will be used to customize
+the service screen.
 
-Como acessar
------------
+How to access
+-------------
 
-1.  Acesse a funcionalidade de Template de Serviço através da navegação no
-    menu principal **Processos ITIL > Gerência de Portfólio e
-    Catálogo > Template de Serviço**.
+1.  Access the Service Template functionality by navigating the main
+    menu **Processes Management > Portfolio and Catalog Management > Service
+    Template**.
 
-Pré-condições
-------------
+Preconditions
+-------------
 
-1.  Ter o questionário cadastrado.
+1.  Have the questionnaire registered.
 
-Filtros
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -   Nome do template de serviço
+-   Service Template Name.
 
-2.  Na tela de Template de Serviço, clique na guia **Pesquisa de Template**.
-    Será apresentada a tela de pesquisa conforme ilustrada na figura abaixo:
+2.  On the **Service Template** screen, click the **Template Search** tab. The
+    search screen will be displayed as shown in the figure below:
 
-    ![Criar](images/template-service-1.png)
+   ![figure](images/template-service-1.png)
+   
+   **Figure 1 - Service Template search screen**
 
-    **Figura 1 - Tela de pesquisa de template de serviço**
+3.  Perform service template search:
 
-3.  Realize a pesquisa do template de serviço:
+    -   Enter the name of the service template you want to search and click
+        the *Search* button. After this, the record will be displayed according
+        to the name entered;
 
-    -   Informe o nome do template de serviço que deseja pesquisar e clique no
-        botão *Pesquisar*. Após isso, será exibido o registro conforme o nome
-        informado.
+    -   If you want to list all the service template records, just click
+        directly on the *Search* button.
 
-    -   Caso deseje listar todos os registros de template de serviço, basta
-        clicar diretamente no botão *Pesquisar*.
+Items list
+----------
 
-Listagem de itens
------------------
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: **ID** and **Service Template Name**.
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Identificador e Nome do template de serviço.
+   ![figure](images/template-service-2.png)
+   
+   **Figure 2 - Service template list**
 
-    ![Criar](images/template-service-2.png)
+2.  After searching, select the desired record. Once this is done, it will be
+    directed to the registration screen displaying the contents of the selected
+    registry;
 
-    **Figura 2 - Lista de template de serviço**
+3.  To change the data of the service template record, simply modify the
+    information of the desired fields and click the *Save* button to save the
+    change made to the record, where the date, time and user will be saved
+    automatically for a future audit.
 
-2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para tela de cadastro exibindo o conteúdo referente ao registro selecionado;
+Filling in the registration fields
+----------------------------------
 
-3.  Para alterar os dados do registro de template de serviço, basta modificar as
-    informações dos campos desejados e clicar no botão *Gravar* para que seja
-    gravada a alteração realizada no registro, onde a data, hora e usuário serão
-    gravados automaticamente para uma futura auditoria.
+1.  The **Service Template** registration screen will be displayed, as shown in
+    the figure below:
 
-Preenchimento dos campos cadastrais
------------------------------------
+   ![figure](images/template-service-3.png)
+   
+   **Figure 3 - Service Template Registration screen**
 
-1.  Será apresentada a tela de Template de Serviço, conforme ilustrada na figura
-    abaixo:
+2.  Fill in the fields as directed below:
 
-    ![Criar](images/template-service-3.png)
+    -   **Service Template ID**: **inform the identification of the service
+        template;
 
-    **Figura 3 - Tela de Cadastro de Template de Serviço**
+    -   **Service Template Name**: **enter the name of the service template;
 
-2.  Preencha os campos conforme orientação abaixo:
+    -   **Dto Class Name**: **enter the name of the Dto class;
 
-    -  **Identificação do template de serviço**: informe a identificação do
-        template de serviço;
+    -   **Action Class Name**: enter the name Action class;
 
-    -  **Nome do template de serviço**: informe o nome do template de serviço;
+    -   **Service Class Name**: enter the name of the class of service;
 
-    -  **Nome da classe Dto**: informe o nome da classe Dto;
+    -   **Recovery URL**: enter the recovery URL;
 
-    -  **Nome da classe Action**: informe o nome classe Action;
+    -   **Div height**: enter the height of the div;
 
-    -  **Nome da classe de serviço**: informe o nome da classe de serviço;
+    -   **Questionnaire**: report the service questionnaire. The same is defined
+        in the Questionnaire functionality;
 
-    -  **Url de recuperação**: informe a URL de recuperação;
+    -   **Script after recovery: **report the script after recovery.
 
-    -  **Altura da div**: informe a altura da div;
+3.  After entering all the data, click the *Save* button to register, where the
+    date, time and user will be recorded automatically for a future audit.
 
-    -  **Questionário**: informe o questionário do serviço. O mesmo é definido
-        na funcionalidade de Questionário;
-
-    -  **Script após recuperação**: informe o script após recuperação;
-
-3.  Após o informar todos os dados, clique no botão *Gravar* para efetuar o
-    registro, onde a data, hora e usuário serão gravados automaticamente para
-    uma futura auditoria.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Anna Martins
+    <b>Updated:</b>09/02/2019 – Anna Martins
