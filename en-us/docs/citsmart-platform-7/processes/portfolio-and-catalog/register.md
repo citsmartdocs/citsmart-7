@@ -257,7 +257,7 @@ Portfolio Management menu;
 See also
 --------
 
--   [Cadastro de serviços][2]
+-   [Service registration][2]
 
 
 [1]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/portfolio-access.html
