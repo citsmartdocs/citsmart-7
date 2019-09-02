@@ -290,7 +290,7 @@ Preconditions
 7. Link the group to the contracts, associating the applicants (collaborators) already registered to this group, so that the 
 contracts and related applicants are listed on the problem log screen. If it is necessary to create a new employee, it is necessary 
 to include it in the group of the applicant in which it is related to the contract so that it can register a problem, that is, to 
-have its name listed on the problem registration screen (see knowledge Contract registration and search](/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract)).
+have its name listed on the problem registration screen (see knowledge [Contract registration and search](/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract)).
 
 How to access
 -----------------
