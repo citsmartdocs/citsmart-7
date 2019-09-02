@@ -81,7 +81,7 @@ Filling in the registration fields
    -  **Parent Solution Category**: select a higher solution category. If the
         category that is being registered is part of another category.
 
-4.  Click the *Save* button to save the entry, at which the date, time and user
+3.  Click the *Save* button to save the entry, at which the date, time and user
     are automatically stored for a future audit.
 
 
