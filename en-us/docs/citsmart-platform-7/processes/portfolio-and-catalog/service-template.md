@@ -74,12 +74,12 @@ Filling in the registration fields
 
 2.  Fill in the fields as directed below:
 
-    -   **Service Template ID**: **inform the identification of the service
+    -   **Service Template ID**: inform the identification of the service
         template;
 
-    -   **Service Template Name**: **enter the name of the service template;
+    -   **Service Template Name**: enter the name of the service template;
 
-    -   **Dto Class Name**: **enter the name of the Dto class;
+    -   **Dto Class Name**: enter the name of the Dto class;
 
     -   **Action Class Name**: enter the name Action class;
 
