@@ -1,114 +1,109 @@
-title:  Portal do Conhecimento
-Description: O Portal do Conhecimento é uma das telas principais da solução, que visa fornecer informações relevantes. 
-# Portal do Conhecimento
+title:  Knowledge Portal
+Description: The Knowledge Portal is one of the main screens of the solution, which aims to provide relevant information. 
+# Knowledge Portal
 
-O Portal do Conhecimento é uma das telas principais da solução, que visa fornecer informações relevantes que permitam ao 
-operador (usuário ou administrador) o entendimento e aplicação de um determinado conhecimento.
+The Knowledge Portal is one of the main screens of the solution, which aims to provide relevant information that allows the 
+operator (user or administrator) the understanding and application of a certain knowledge. It also enables it to register a new 
+knowledge in order to make the portal dynamic and up-to-date.
 
-Também possibilita que o mesmo registre um novo conhecimento, de modo a tornar o portal dinâmico e atualizado.
+![Portal](images/portal.img1.jpg)
 
-![Portal](images/portal-img1.jpg)
+**Figure 1 - Knowledge Portal**
 
-**Figura 1- Portal do Conhecimento**
+![number](images/1.png) **Identification of the user logged in**: when clicking the option, the functions to change the access 
+password and exit the portal are displayed;
 
-![número](images/num1.png) **Identificação do usuário logado**: ao clicar nesta opção, são exibidas as funções para alterar a senha
-de acesso e sair do portal;
+![number](images/2.png) **System**: clicking on the option allows to enter the system;
 
-![número](images/num2.png) **Sistema**: ao clicar nesta opção, permite entrar no sistema;
+![number](images/3.png) **Services Portal**: clicking on the option will display one of the main screens of the product, the 
+Service Portal (Smart Portal);
 
-![simbolo](images/num3.png) **Portal de Serviços**: ao clicar nesta opção, será apresentada uma das telas principais do produto, o
-Portal de Serviços (Smart Portal);
+![number](images/4.png) **Folders**: displays the folders that the logged-in user has access to view the knowledge of the same;
 
-![simbolo](images/num4.png) **Pastas**: exibe as pastas que o usuário logado tem acesso para visualização dos conhecimentos das
-mesmas;
+![number](images/5.png) **Field of search**: allows the search for knowledge;
 
-![simbolo](images/num5.png) **Campo de pesquisa**: permite a busca por conhecimentos;
+![number](images/6.png) **Favorites**: knowledge that has been marked as favorite by user the logged in;
 
-![simbolo](images/num6.png) **Favoritos**: conhecimentos que foram marcados como favorito pelo o usuário logado;
+![number](images/7.png) **Liked**: knowledge that was created by the logged in user;
 
-![simbolo](images/num7.png) **Curtidos**: conhecimentos que foram curtidos pelo usuário logado;
+![number](images/8.png) **Indicated**: knowledge indicated to the user, referring to the most accessed system features. Example: 
+the user logged-in always accesses the "Service Request" functionality, when it enters the Knowledge Portal, the system will 
+indicate the knowledge regarding the functionality;
 
-![simbolo](images/num8.png) **Indicados**: conhecimentos indicados ao usuário, referentes às funcionalidades do sistema mais 
-acessadas. Exemplo: o usuário logado acessa sempre a funcionalidade de "Solicitação de Serviço", quando o mesmo entrar no Portal do 
-Conhecimento, o sistema irá indicar os conhecimentos referentes à funcionalidade;
+![number](images/9.png) **Add Knowledge**: allows the user logged-in to post new knowledge in the Knowledge Base.
 
-![simbolo](images/num9.png) **Adicionar Conhecimento**: permite ao usuário logado registrar um novo conhecimento na Base de 
-Conhecimento.
-
-Visualizando o conteúdo de um conhecimento 
+Viewing the content of a knowledge
 ---------------------------------------------
 
-1. Após realizar a busca no Campo de pesquisa, será apresentado uma listagem:
+1. After performing the search in the Search field, a list will appear:
 
-    ![Resultado](images/portal-img2.jpg)
+    ![Result](images/portal.img2.jpg)
     
-    **Figura 2- Resultado de pesquisa**
+    **Figure 2 - Search result**
     
-    ![simbolo](images/num1.png) Mostra a quantidade de conhecimentos encontrados;
+    ![number](images/1.png) Shows the amount of knowledge found;
     
-    ![simbolo](images/num2.png) **Tipo**: mostra os tipos de conhecimentos encontrados, sendo possível refinar ainda mais a busca
-    inicial ao selecionar uma das opções;
+    ![number](images/2.png) **Type**: shows the types of knowledge found, and it is possible to further refine the initial search 
+    by selecting one of the options;
     
-    ![simbolo](images/num3.png) Relação de conhecimentos encontrados.
+    ![number](images/3.png) Relation of knowledge found.
     
-    !!! note "NOTA"
+    !!! note "NOTE"
     
-        A lista resultante é montada de acordo com determinadas prioridades de comparações (configuráveis). Por default, toda 
-        lista resultante será montada comparando o texto procurado com (nesta ordem): (a) conteúdo do conhecimento, (b) título, 
-        (c) anexos e (d) palavras-chaves (Tags).
+        The resulting list is mounted according to certain (configurable) comparisons priorities. By default, any resulting list 
+        will be assembled by comparing the searched text with (in this order): (a) content of knowledge, (b) title, (c) attachments 
+        and (d) keywords (Tags).
         
-2. Após encontrar o conhecimento desejado, clique no título para visualizar o conteúdo:
+2. After finding the desired knowledge, click on the title to view the content:
 
-    ![Visualizando](images/portal-img3.jpg)
+    ![Viewing](images/portal.img3.jpg)
     
-    **Figura 3 - Visualizando conhecimento**
+    **Figure 3 - Viewing knowledge**
     
-    ![simbolo](images/num1.png) Título do conhecimento
+    ![number](images/1.png) Knowledge title
     
-    ![simbolo](images/num2.png) Ícone para favoritar o conhecimento para que ele seja relacionado na página principal do Portal
-    do Conhecimento
+    ![number](images/2.png) Icon for favoring the knowledge to be related in the main page of the Knowledge Portal
     
-    ![simbolo](images/num3.png) Ícone para visualizar a quais módulos ITIL o conhecimento está vinculado
+    ![number](images/3.png) Icon to view which ITIL modules knowledge is linked to
     
-    ![simbolo](images/num4.png) Ícone para deixar um comentário sobre o conhecimento
+    ![number](images/4.png) Icon to leave a comment about the knowledge
     
-    ![simbolo](images/num5.png) Ícone para imprimir o conhecimento
+    ![number](images/5.png) Icon to print a knowledge
     
-    ![simbolo](images/num6.png) Caminho de pastas e sub-pastas para chegar a este conhecimento (migalha de pão)
+    ![number](images/6.png) Path of folders and sub-folders to get to this knowledge (bread crumb)
     
-    ![simbolo](images/num7.png) Lista para acesso às versões do conhecimento
+    ![number](images/7.png) List for access to versions of knowledge
     
-    ![simbolo](images/num8.png) Lista de arquivos anexados ao conhecimento
+    ![number](images/8.png) List of files attached to knowledge
     
-    ![simbolo](images/num9.png) Conteúdo do conhecimento
+    ![number](images/9.png) Content of knowledge
     
-    ![simbolo](images/num10.png) Ícones para registrar um "like" ou "unlike" sobre o conhecimento
+    ![number](images/10.png) Icons to register a "like" or "unlike" about knowledge
     
-    ![simbolo](images/num11.png) Quantidade de comentários, visualizações, nome de quem criou o conhecimento, data e horário de
-    sua última modificação
+    ![number](images/11.png) Number of comments, views, name of who created the knowledge, date and time of your last modification
     
-    ![simbolo](images/num12.png) Estratégia de avaliação quantitativa do conhecimento (uma nota), que vai variar de 1 a 5, 
-    dependendo da estrela marcada
+    ![number](images/12.png) Quantitative knowledge assessment strategy (one note), which will range from 1 to 5, depending on the 
+    star marked
     
-    ![simbolo](images/num13.png) Local onde o usuário pode registrar seus comentários
+    ![number](images/13.png) Place where user can register your comments
     
-    ![simbolo](images/num14.png) Local onde serão listados todos os conhecimentos que tiverem sido relacionados com o 
-    conhecimento visualizado
+    ![number](images/14.png) Place where all the knowledge that has been related to the visualized knowledge will be listed
     
-    ![simbolo](images/num15.png) Ícone para contribuir com a gestão de conhecimento da organização, ou seja, a maneira que o 
-    usuário tem para criar (propor) um novo conhecimento
+    ![number](images/15.png) Icon to contribute to the knowledge management of the organization, that is, the way the user has to create (propose) a new knowledge (see knowledge [Knowledge management][1]
     
-Veja também
+See also
 -------------
 
-- [Gerenciamento de Conhecimento](/pt-br/citsmart-platform-7/processes/knowledge/management.html)
+- [Knowledge management](/en-us/citsmart-platform-7/processes/knowledge/management.html)
 
-- [Dicas sobre como realizar pesquisas no Portal do Conhecimento e Guia do Usuário](/pt-br/citsmart-platform-7/processes/knowledge/tips-search-knowledge.html)
+- [Tips on how to conduct searches on Knowledge Portal and User Guide](/en-us/citsmart-platform-7/processes/knowledge/tips-search-knowledge.html)
 
-- [Regras de parametrização - Conhecimento](/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-knowledge.html)
+- [Parameterization rules - Knowledge](/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-knowledge.html)
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/29/2019 - Larissa Lourenço
+    <b>Updated:</b>09/02/2019 - Larissa Lourenço
+    
+[1]:/en-us/citsmart-platform-7/processes/knowledge/management.html
     
