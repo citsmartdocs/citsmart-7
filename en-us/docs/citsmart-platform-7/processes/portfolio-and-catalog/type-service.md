@@ -1,88 +1,87 @@
-title: Cadastro e pesquisa de tipo de serviço
-Description: Esta funcionalidade tem por objetivo registrar os tipos de serviço que serão utilizadas em outras rotinas do sistema.
+title: Service type registration and search
+Description: This functionality is intended to record the types of service that will be used in other system routines.
 
-# Cadastro e pesquisa de tipo de serviço
+# Service type registration and search
 
-Esta funcionalidade tem por objetivo registrar os tipos de serviço que serão
-utilizadas em outras rotinas do sistema.
+This functionality is intended to record the types of service that will be used
+in other system routines.
 
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de Tipo de Serviço através da navegação no menu
-    principal **Processos ITIL > Gerência de Portfólio e Catálogo > Tipo
-    Serviço**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Não se aplica.
+1.  Access the Service Type functionality by navigating the main
+    menu **Processes Management > Portfolio and Catalog Management > Service
+    Type**.
 
-Filtros
+Preconditions
+-------------
+
+1.  Not applicable.
+
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -   Nome do Tipo de Serviço
+-   Service Type Name.
 
-2.  Na tela de Tipo de Serviço, clique na aba **Pesquisa de Tipo Serviço**, será
-    apresentada a respectiva tela de pesquisa conforme ilustrada na figura
-    abaixo:
+2.  On the **Service Type** screen, click the **Service Type Search** tab, the
+    respective search screen will be displayed as shown in the figure below:
 
-    ![Criar](images/type-service-1.png)
+   ![Criar](images/type-service-1.png)
+   
+   **Figure 1 - Service Type search screen**
 
-    **Figura 1 - Tela de pesquisa de tipo de serviço**
+3.  Perform service type search:
 
-3.  Realize a pesquisa de tipo de serviço;
+    -   Enter the name of the type of service you want to search and click
+        the *Search* button. After this, the record will be displayed according
+        to the name entered;
 
-    -   Informe o nome do tipo de serviço que deseja pesquisar e clique no
-        botão *Pesquisar*. Após isso, será exibido o registro conforme o nome
-        informado.
+    -   If you want to list all service type records, simply click
+        the *Search* button directly.
 
-    -   Caso deseje listar todos os registros de tipo de serviço, basta clicar
-        diretamente no botão *Pesquisar*.
+Items list
+----------
 
-Listagem de itens
-----------------
+1.  The following cadastral field is available to the user to facilitate the
+    identification of the desired items in the standard listing of the
+    functionality: **Service Type Name**.
 
-1.  O seguinte campo cadastral está disponível ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Nome do Tipo Serviço**.
+   ![Criar](images/type-service-2.png)
+   
+   **Figure 2 - Items screen**
 
-    ![Criar](images/type-service-2.png)
+2.  After searching, select the desired record. Once this is done, you will be
+    directed to the registration screen displaying the contents of the selected
+    record;
 
-    **Figura 2 - Tela de itens**
+3.  To change the data of the service type record, simply modify the information
+    of the desired fields and click the *Save* button to save the change made in
+    the record, where the date, time and user will be saved automatically for a
+    future audit.
 
-2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a tela de cadastro exibindo o conteúdo referente ao registro
-    selecionado.
+Filling in the registration fields
+----------------------------------
 
-3.  Para alterar os dados do registro de tipo de serviço, basta modificar as
-    informações dos campos desejados e clicar no botão *Gravar* para que seja
-    gravada a alteração realizada no registro, onde a data, hora e usuário serão
-    gravados automaticamente para uma futura auditoria.
+1.  The Service Type Master screen will be displayed, as shown in the figure
+    below:
 
-Preenchimento dos campos cadastrais
------------------------------------
+   ![Criar](images/type-service-3.png)
+   
+   **Figure 3 - Service Type Master data screen**
 
-1.  Será apresentada a tela de Cadastro de Tipo de Serviço, conforme ilustrada
-    na figura abaixo:
+2.  Fill in the field as directed below:
 
-    ![Criar](images/type-service-3.png)
+-   Enter the name of the service type. E.g.: Routine.
 
-    **Figura 3 - Tela de cadastro de tipo de serviço**
+3.  Click the *Save* button to register, where the date, time and user will be
+    saved automatically for a future audit.
 
-2.  Preencha o campo conforme orientação abaixo:
-
-    -   Informe o nome do tipo de serviço. Ex.: Rotineira;
-
-3.  Clique no botão *Gravar* para efetuar o registro, onde a data, hora e
-    usuário serão gravados automaticamente para uma futura auditoria.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Anna Martins
+    <b>Updated:</b>09/02/2019 – Anna Martins
