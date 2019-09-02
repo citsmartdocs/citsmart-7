@@ -91,12 +91,12 @@ Registering business service
 
 -   **Service Phase**: select the phase of the service;
 
--   **Define**: this stage indicates that the service is on startup. At this
+   -   **Define**: this stage indicates that the service is on startup. At this
     stage, the collection of information on all existing and proposed services,
     the definition of new services, business cases and the validation of the
     portfolio data begins.
 
--   **Analyze**: this phase indicates that the service is being analyzed. At
+   -   **Analyze**: this phase indicates that the service is being analyzed. At
     this stage it is analyzed whether the service will give return to the
     business and we make a balance between supply and demand. Also identifying
     what service represents for the business. In this activity we will make a
