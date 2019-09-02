@@ -1,20 +1,20 @@
-title:  Visão geral do processo de conhecimento
-Description: Disponibiliza todos os conhecimentos do processo. 
-# Visão geral do processo de conhecimento
+title:  Knowledge Process Overview
+Description: Provides all the knowledge of the process.
+# Knowledge Process Overview
 
-[Armazenamento de imagens na galeria](/pt-br/citsmart-platform-7/processes/knowledge/store-images.html)
+[Images upload in Gallery](/en-us/citsmart-platform-7/processes/knowledge/store-images.html)
 
-[Cadastro e pesquisa de categoria de imagem](/pt-br/citsmart-platform-7/processes/knowledge/image-category.html)
+[Image category registration and search](/en-us/citsmart-platform-7/processes/knowledge/image-category.html)
 
-[Cadastro e pesquisa de pasta](/pt-br/citsmart-platform-7/processes/knowledge/folder.html)
+[Folder registration and search](/en-us/citsmart-platform-7/processes/knowledge/folder.html)
 
-[Cadastro e pesquisa de sinônimo](/pt-br/citsmart-platform-7/processes/knowledge/synonym.html)
+[Synonym registration and search](/en-us/citsmart-platform-7/processes/knowledge/synonym.html)
 
-[Gerenciamento de conhecimento](/pt-br/citsmart-platform-7/processes/knowledge/management.html)
+[Knowledge management](/en-us/citsmart-platform-7/processes/knowledge/management.html)
 
-[Relatório de tópicos ou assuntos encontrados, não encontrados e resumo de buscas](/pt-br/citsmart-platform-7/processes/knowledge/report.html)
+[[Knowledge] Content searched and found](/en-us/citsmart-platform-7/processes/knowledge/report.html)
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/31/2019 - Larissa Lourenço
+    <b>Updated:</b>09/02/2019 - Larissa Lourenço
