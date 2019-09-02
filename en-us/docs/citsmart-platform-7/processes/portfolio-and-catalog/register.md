@@ -236,24 +236,28 @@ Overview of main screen functions
 
 **Figure 15 - Service Portfolio management**
 
-**Menu button**: clicking on this button allows you to hide/display the
+- **1** : Menu button - clicking on this button allows you to hide/display the
 Portfolio Management menu;
 
-**Navigation bar**: allows you to navigate between portfolio data;
+- **2** : Navigation bar - allows you to navigate between portfolio data;
 
-**Search field**: allows the search of portfolios of services;
+- **3** : Search field - allows the search of portfolios of services;
 
-**Business**: storage of business services portfolios;
+- **4** : Business - storage of business services portfolios;
 
-**Support**: storage of portfolios of support services;
+- **5** : Support - storage of portfolios of support services;
 
-**New Portfolio**: allows to create a new portfolio of services;
+- **6** : New Portfolio - allows to create a new portfolio of services;
 
-**Edit**: allows you to edit the service portfolio record;
+- **7** : Edit - allows you to edit the service portfolio record;
 
-**Advance**: allows access to the service portfolio.
+- **8** : Advance - allows access to the service portfolio.
+ 
 
--   [Cadastro de serviços].
+See also
+--------
+
+-   [Cadastro de serviços][2]
 
 
 [1]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/portfolio-access.html
