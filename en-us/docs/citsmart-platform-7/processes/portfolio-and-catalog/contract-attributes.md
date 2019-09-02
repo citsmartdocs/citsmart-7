@@ -4,8 +4,8 @@ Description: The guidelines must be followed to configure the attributes of both
 # Service contract attributes configuration
 
 The guidelines must be followed to configure the attributes of both
-the *Business/IT Service Agreement* and the **Support/Technical Service
-Agreement.
+the *Business/IT Service Agreement* and the *Support/Technical Service
+Agreement*.
 
 Preconditions
 -------------
@@ -50,18 +50,18 @@ Configuring contract attributes
 
 ### How to access
 
-1.  To access the feature click on the main menu** Processes
+1.  To access the feature click on the main menu **Processes
     Management > Portfolio and Catalog Management > Portfolio
     Management**.
 
-2.  Access the main menu . After that, the Portfolio Management screen will be
+2.  Access the main menu. After that, the Portfolio Management screen will be
     displayed;
 
 3.  Access the Services Portfolio you want by clicking the *Advance* button of
     the same;
 
 4.  Click the *Advance* button of the service to access it. After that,
-    the **Service Informatio**n will be displayed;
+    the **Service Information** will be displayed;
 
 5.  Click **Contract** and then click the *Advance* button in the service
     contract to access it.
@@ -150,8 +150,7 @@ Linking request activities to contract
 
    ![figure](images/contract-attributes-3.png)
    
-   **Figure 3 - Registration screen of the link of the request for contract
-activity**
+   **Figure 3 - Registration screen of the link of the request for contract activity**
 
 2.  Fill in the fields as directed below:
 
@@ -248,9 +247,9 @@ activity**
 
    !!! note "NOTE"
 
-   This setting does not change the appearance of other system features at
-   all, it only restricts some records from being viewed by users who are not
-   in the released groups to the occurrence category.
+     This setting does not change the appearance of other system features at
+     all, it only restricts some records from being viewed by users who are not
+     in the released groups to the occurrence category.
 
 -   Add the request activity:
 
@@ -557,8 +556,8 @@ Business Service*.
       Apportionment with different percentages are not allowed for the same
       cycle in the same service/business/contract.
 
-     Apportionment registrations or changes whose cycles are already closed are
-     not allowed.
+      Apportionment registrations or changes whose cycles are already closed are
+      not allowed.
 
 3.  Click the *Save* button to perform the operation;
 
