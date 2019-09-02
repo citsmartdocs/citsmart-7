@@ -15,8 +15,7 @@ Preconditions
     registration]([2]);
 
 3.  Have the service category registered (see knowledge [Solution Category
-    registration and
-    search)[3]);
+    registration and search][3]);
 
 4.  Have the group registered (see knowledge [Group registration and
     search][4]).
