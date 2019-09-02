@@ -36,7 +36,7 @@ Items list
 Filling in the registrations fields
 -----------------------------------
 
-1.  After this, the** Service Requests Priority** screen will be displayed, as
+1.  After this, the **Service Requests Priority** screen will be displayed, as
     shown in the figure below:
 
    ![Criar](images/priority-1.png)
