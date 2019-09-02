@@ -91,8 +91,8 @@ The searcher strategy
 CITSmart Enterprise ITSM, as well as the best Knowledge Management tools on the market, provides a knowledge base search engine for 
 the end user, in our case using [SolR][1] technology.
 
-In the central part of the Knowledge Portal screen is a text-type field filled with the phrase "What do you want to know?". When 
-entering a word in this field and typing ENTER, the solution starts a search process on all records in the knowledge base, 
+In the central part of the Knowledge Portal screen is a text-type field filled with the phrase "**What do you want to know?**". 
+When entering a word in this field and typing ENTER, the solution starts a search process on all records in the knowledge base, 
 including within the files attached to each of those records.
 
 ![Field](images/how.img5.jpg)
