@@ -1,81 +1,73 @@
-title:  Solicitação de serviço via chat
-Description: Solicitação de serviço via chat. 
-# Solicitação de serviço via chat
+title: Service request via chat
+Description: Service request via chat
 
-Como acessar
----------------
+# Service request via chat
 
-1. No **Smart Portal**, clique em **Chat**, conforme indicado na figura abaixo:
+How to access
+-------------
 
-![Chat](images/chat.img1.jpg)
+1.  In **Smart Portal**, click **Chat**, as shown in the figure below:
 
-**Figura 1 - Smart portal - chat**
+![Interação](images/chat.img1.jpg)
 
-Pré-condições
----------------
+**Figure 1 - Smart portal - Chat**
 
-1. Ter o parâmetro “Ativar Chat” habilitado (ver conhecimento [Regras de parametrização - Chat][1]);
+Preconditions
+-------------
 
-2. Ter os parâmetros “Id da origem das solicitações criadas pelo chat” e “Id da atividade das solicitações criadas pelo chat” 
-configurados;
+1.  Have the "Enable Chat" parameter enabled (see knowledge [Parameterization
+    rules -  Chat][1]);
 
-3. Ter o portfólio com os serviços e atividades de requisição/incidente cadastradas e disponibilizados no Chat (ver conhecimento 
-[Cadastro de portfólio de serviços][2]).
+2.  Have the parameters "Id of the origin of the requests created by the chat"
+    and "Id of the activity of the requests created by the chat" configured;
 
-Solicitando serviço via chat
---------------------------------
+3.  Have the portfolio with request/incident services and activities registered
+    and made available in the Chat (see knowledge [Service portfolio
+    registration][2]).
 
-1. Será apresentada a tela inicial do Chat, conforme ilustrada na figura abaixo:
+Requesting service via chat
+---------------------------
 
-    ![Inicial](images/chat.img2.jpg)
-    
-    **Figura 2 - Tela Inicial do chat**
-    
-    - **Catálogo**: selecione o catálogo de serviço desejado;
-    - **Serviço**: selecione o serviço desejado;
-    - **Requisição/Incidente**: selecione a atividade desejada para iniciar o atendimento referente a mesma;
-    - Após os dados informados, clique no botão "Iniciar atendimento". Feito isso, a solicitação será registrada e poderá aguardar
-    o atendente para interação com o mesmo;
-    - Caso queira iniciar de imediato o atendimento, basta clicar em "Iniciar atendimento direto". Feito isso, uma solicitação será 
-    registrada e poderá aguardar o atendente;
-    
-    ![Aguardando](images/chat.img3.jpg)
-    
-    **Figura 3 - Aguardando atendente**
-    
-    - Quando o atendente iniciar o atendimento, será exibida a tela de bate-papo para interação com o mesmo, conforme exemplo 
-    ilustrado na figura abaixo:
-    
-    ![Interação](images/chat.img4.jpg)
-    
-    **Figura 4 - Interação com atendente**
-    
-    - Para encerrar a conversar, clique no ícone ![simbolo](images/simb-seta.grey.jpg).
+1.  The **Chat Home** screen will appear as shown in the figure below:
+
+   ![Interação](images/chat.img2.jpg)
+   
+   **Figure 2 - Chat home screen**
+
+-   **Catalog**: select the desired service catalog;
+
+-   **Service**: select the desired service;
+
+-   **Request/Incident**: select the desired activity to start the attendance
+    related to the same;
+
+-   After the data is entered, click the *Init attendance* button. Once this has
+    been done, the request will be registered and the attendant will be able to
+    wait for interaction with it;
+
+-   If you want to start the service immediately, just click *Init direct
+    attendance*. Once this is done, a request will be recorded and the attendant
+    can wait;
+
+   ![Interação](images/chat.img3.jpg)
+   
+   **Figure 3 - Waiting attendant**
+
+-   When the attendant initiates service, the chat screen will be displayed for
+    interaction with the same, as shown in the figure below:
+
+   ![figure](images/chat.img4.jpg)
+   
+   **Figure 4 - Interaction with attendant**
+
+-   To end the conversation, click the icon ![figure](images/simb-seta.grey.jpg) .
+
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/30/2019 - Larissa Lourenço
+    <b>Updated:</b>02/02/2019 - Anna Martins
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[1]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-chat.html
-[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+[1]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-chat.html
+[2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
