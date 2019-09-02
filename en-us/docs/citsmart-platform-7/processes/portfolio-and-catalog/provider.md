@@ -1,179 +1,175 @@
-title: Cadastro e pesquisa de fornecedor
-Description: Esta funcionalidade tem por objetivo cadastrar e pesquisar um fornecedor.
+title: Suplier registration and search
+Description: This feature is intended to register and search a supplier.
 
-# Cadastro e pesquisa de fornecedor
+# Suplier registration and search
 
-O fornecedor é uma organização ou uma pessoa física, responsável por prover
-produtos ou serviços a alguém. Ele pode ser do tipo *provedor de
-serviços*, *interno* e/ou *externo*.
+The supplier is an organization or a person, responsible for providing products
+or services to anyone. It may a *service provider*, *internal* and/or *external*.
 
-Esta funcionalidade tem por objetivo cadastrar e pesquisar um fornecedor.
+This feature is intended to register and search a supplier.
 
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de fornecedor através da navegação no menu
-    principal **Processos ITIL > Gerência de Portfólio e Catálogo > Fornecedor**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Realizar a carga de países (ver conhecimento [Carga de países][1]).
+1.  Access Supplier feature navigating through the main menu **Process
+    Management > Portfolio and Catalog Management > Supplier**.
 
-Filtros
+Preconditions
+-------------
+
+1.  Perform the country load (see knowledge [Country
+    loading][1]).
+
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filters enables the user to restrict the participation of
+    items in the standard feature listing, making it easier to find the desired
+    items:
 
-    -   Nome/Razão social;
+-   Name;
 
-    -   CPF/CNPJ
+-   SSN/EIN.
 
-2.  Na tela de **Fornecedor**, clique na guia **Pesquisa de Fornecedores, **será
-    apresentada a respectiva tela de pesquisa conforme ilustrada na figura
-    abaixo:
+2.  In the **Supplier** screen, click the **Suppliers search** tab, the search
+    screen will be displayed as illustrated on the Image below:
 
-    ![Criar](images/provider-1.png)
+   ![figure](images/provider-1.png)
+   
+   **Figure 1 - Supplier search screen**
 
-    **Figura 1 - Tela de pesquisa de fornecedor**
+3.  Perform a supplier search:
 
-3.  Realize a pesquisa de fornecedor;
+    -   **Name**: insert the supplier’s name;
 
-    -   **Nome/Razão social**: informe a razão social do fornecedor;
+    -   **SSN/EIN**: insert the supplier’s tax or social security number.
 
-    -   **CPF/CNPJ**: informe o CPF/CNPJ do fornecedor;
+4.  After setting the filters, click the *Search* button. Then, the entries will
+    be displayed according to the data provided;
 
-4.  Após o filtro definido, clique no botão *Pesquisar*. Feito isso, será
-    exibido o registro conforme os dados informados.
+5.  To list all supplier entries, just click directly on the *Search* button.
 
-5.  Caso deseje listar todos os registros de fornecedor, basta clicar
-    diretamente no botão *Pesquisar*.
+Items list
+----------
 
-Listagem de itens
------------------
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: **Name** and **SSN/EIN**.
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Nome/Razão social** e **CPF/CNPJ**.
+   ![figure](images/provider-2.png)
+   
+   **Figure 2 - Suppliers listing**
 
-    ![Criar](images/provider-2.png)
+2.  After searching, select the intended entry. Once this is done, you will be
+    directed to the registry screen displaying the content of the selected
+    entry;
 
-    **Figura 2 - Listagem de fornecedores**
+3.  To change the supplier’s registered data, just modify the information in the
+    intended fields and click the *Save* button to save the changes made to the
+    registry, at which the date, time and user are automatically stored for a
+    future audit.
 
-2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a tela de cadastro exibindo o conteúdo referente ao registro
-    selecionado;
+Filling in the registration fields
+----------------------------------
 
-3.  Para alterar os dados do registro de fornecedor, basta modificar as
-    informações dos campos desejados e clicar no botão *Gravar* para que seja
-    gravada a alteração realizada no registro, onde a data, hora e usuário serão
-    gravados automaticamente para uma futura auditoria.
+1.  In the **Supplier** screen, click the **Supplier registration** tab,
+    the **Supplier Registration** screen will be displayed, as illustrated on
+    the image below:
 
-Preenchimento dos campos cadastrais
------------------------------------
+   ![figure](images/provider-3.png)
+   
+   **Figure 3 - Supplier registration screen**
 
-1.  Na tela de **Fornecedor**, clique na guia **Cadastro de Fornecedor**,
-    será apresentada a tela de **Cadastro de Fornecedor**, conforme ilustrada na
-    figura abaixo:
+2.  Fill out the fields as instructed below:
 
-    ![Criar](images/provider-3.png)
+    -   **Supplier Type**: select the supplier type;
 
-    **Figura 3 - Tela de cadastro de fornecedor**
+        -   **Service Provider**: one that provides products or services to
+            internal or external customers;
 
-2.  Preencha os campos conforme orientação abaixo:
+        -   **Internal**: one that provides products or services to their own
+            organization;
 
-    -  **Tipo de Fornecedor**: selecione o(s) tipo(s) de fornecedor(es):
+        -   **External**: one that provides products or services to customers
+            from other organizations.
 
-        -  **Provedor de Serviços**: é aquele que fornece produtos ou serviços
-            para clientes internos ou externos;
+    -   **Name**: if the supplier is an individual, insert their full name, if
+        it is a company, insert the organization's registered name;
 
-        -  **Interno**: é aquele que fornece produtos ou serviços para sua
-            própria organização;
+    -   **Fantasy name**: insert the supplier's organization fantasy name;
 
-        -  **Externo**: é aquele que fornece produtos ou serviços para clientes
-            de outras organizações.
+    -   **Person Type**: determine if the supplier is an independent contractor
+        (individual) or a company (legal);
 
-    -  **Nome/Razão social**: caso o fornecedor seja uma pessoa física, informe
-        o nome completo do mesmo, caso seja uma pessoa jurídica, informe o nome
-        de registro da sua organização;
+    -   **SSN/EIN**: if the supplier is an individual, insert its social
+        security number, if it is a company, insert the tax registration number;
 
-    -  **Nome fantasia**: informe o nome fantasia da organização do fornecedor;
+    -   **State Registration**: insert the supplier’s state registration;
 
-    -  **Tipo de pessoa**: informe se o fornecedor é pessoa jurídica ou física;
+    -   **Municipal Inscription**: insert the supplier’s city registration;
 
-    -  **CPF/CNPJ**: se o fornecedor for pessoa física, informe o CPF, se for
-        pessoa jurídica, informe o CNPJ;
+    -   **Phone**: insert the area code and the supplier's phone number;
 
-    -  **Inscrição Estadual**: informe a inscrição estadual do fornecedor;
+    -   **FAX**: insert the area code and the supplier's fax number.
 
-    -  **Inscrição Municipal**: informe a inscrição municipal do fornecedor;
+    -   **E-mail**: insert the supplier’s e-mail;
 
-    -  **Telefone**: informe o código de área (DDD) e o número do telefone do
-        fornecedor;
+    -   **Contact Name**: insert a name for contact with supplier;;
 
-    -  **Fax**: informe o código de área (DDD) e o número do fax do fornecedor,
-        caso tenha;
+    -   **Street Address**: insert the supplier’s street address;
 
-    -  **E-mail**: informe o e-mail do fornecedor;
+    -   **Number**: insert the number of the supplier’s address;
 
-    -  **Nome do contato**: informe um nome para contato com fornecedor;
+    -   **Address Complement**: insert any information which complements the
+        address;
 
-    -  **Logradouro**: informe o endereço do fornecedor;
+    -   **District**: insert supplier’s neighborhood name;
 
-    -  **Número**: informe o número de endereço do fornecedor;
+    -   **ZIP Code**: insert the supplier’s zip code (postal address code);
 
-    -  **Complemento**: informe o complemento de endereço do fornecedor;
+    -   **Country**: select the supplier’s country;
 
-    -  **Bairro**: informe nome do bairro do fornecedor;
+   !!! info "IMPORTANTE"
 
-    -  **CEP**: informe o CEP (código de endereço postal) do fornecedor;
+      The contents of the Country, State/Province and City fields are
+      synchronized, therefore, when selecting a country, only its states will
+      appear in the State/Province field. Similarly, when selecting a
+      State/Province, only its Cities will be available.
 
-    -  **País**: selecione o país do fornecedor;
+-   **State/Province**: select the supplier’s state;
 
-    !!! info "IMPORTANTE"
+-   **City**: select the supplier’s city;
 
-        O conteúdo dos campos País, UF e Cidade são sincronizados, portanto, ao
-        selecionar um país, somente os estados deste aparecerão no campo UF. De
-        forma análoga, ao selecionar uma Unidade Federativa (UF), somente as cidades
-        desta estarão disponíveis.
+-   **Observation**: please provide any convenient notes about the supplier;
 
-    -  **UF**: selecione o estado do fornecedor;
+-   **Responsibilities**: describe the supplier's duties within the
+    organization;
 
-    -  **Cidade**: selecione a cidade do fornecedor;
+-   **Record Type**: select the supplier’s record type;
 
-    -  **Observação**: informe alguma observação que achar conveniente sobre o
-    fornecedor;
+-   **Frequency**: select the frequency the products or services will be
+    provided;
 
-    -  **Responsabilidades**: descreva as responsabilidades do fornecedor com a
-    organização;
+-   **Contact Form**: select the best way to contact the supplier;
 
-    -  **Tipo de Registro**: selecione o tipo de registro do fornecedor;
+-   **List of Activities and Responsabilities**: describe the supplier’s
+    activities and responsibilities after the contract expires. This can be a
+    normal termination (within the deadline) or early one (before the end of the
+    contracted period) and report the contract’s termination. Example: database
+    must be delivered back to the service contractor within a 24-hour-deadline,
+    etc.;
 
-    -  **Frequência**: selecione a frequência que serão fornecidos os produtos ou
-    serviços;
+-   **Management Issues**: describe which actions must be taken in case of
+    disagreement or contract disputes.
 
-    -  **Forma de Contato**: selecione a forma de contato com o fornecedor;
-
-    -  **Atividades e Responsabilidades do término normal ou antecipado**: descreva
-    as atividades e responsabilidades após o término do contrato. Este término
-    pode ser normal (dentro do prazo estabelecido) ou antecipado (antes do
-    período final contratado) e informe sobre a desmobilização do contrato.
-    Exemplo: Banco de dados deverão ser entregues de volta para a empresa
-    contratante do serviço dentro de um prazo de 24 horas, etc.;
-
-    -  **Gerenciamento de Desacordo ou Disputas Contratuais**: descreva quais
-    procedimentos a serem tomados no caso de desacordos ou disputas contratuais.
-
-3.  Após informar os dados, clique no botão *Gravar* para efetuar o registro,
-    onde a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria.
+3.  After inserting the data, click the *Save* button to confirm the entry, at
+    which date, time and user are automatically stored for a future audit.
 
 
-[1]:/pt-br/citsmart-platform-7/plataform-administration/region-and-language/load-countries.html
+
+[1]:/en-us/citsmart-platform-7/plataform-administration/region-and-language/load-countries.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Anna Martins
+    <b>Updated:</b>09/02/2019 – Anna Martins
