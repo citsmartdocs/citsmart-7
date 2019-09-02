@@ -283,7 +283,7 @@ Preconditions
 
 4. Group membership (see knowledge [Group registration and search](/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html));
 
-5. Enter category of problem, which should have the link with the flow referring to the problem (see knowledge [Problem category registration and search](/en-us/citsmart-platform-7/processes/problem/category.html);
+5. Enter category of problem, which should have the link with the flow referring to the problem (see knowledge [Problem category registration and search](/en-us/citsmart-platform-7/processes/problem/category.html));
 
 6. Link drive to contract so that the drive is listed on the problem log screen (see knowledge [Contract registration and search](/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract));
 
@@ -343,7 +343,7 @@ Filling in the registration fields
     
 2. Fill in the fields as directed below:
 
-    - **Name: enter the name of the automatic action for problem request;
+    - **Name**: enter the name of the automatic action for problem request;
     - **Contract**: select the contract for which the problem request will be made;
     - **User**: state the name of the applicant, that is, the name of the person requesting the problem request;
     - **Contact Origin**: inform the source of the problem request;
