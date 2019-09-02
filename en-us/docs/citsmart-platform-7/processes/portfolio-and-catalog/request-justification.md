@@ -1,89 +1,85 @@
-title: Cadastro e pesquisa de justificativa de solicitação
-Description: Essa funcionalidade permite registrar as justificativas de solicitação de serviços.
+title: Service request justification registration and search
+Description: This functionality allows you to record the justifications for requesting services.
 
-# Cadastro e pesquisa de justificativa de solicitação
+# Service request justification registration and search
 
-Essa funcionalidade permite registrar as justificativas de solicitação de
-serviços.
+This functionality allows you to record the justifications for requesting
+services.
 
-Como acessar
-------------
+How to access
+-------------
 
-1. Acesse a funcionalidade de Justificativa de Solicitação através da
-    navegação no menu principal **Processos ITIL > Gerência de Portfólio e
-    Catálogo > Justificativa Solicitação**.
+1.  Access the Request Justification feature by navigating to the main
+    menu **Processes Management > Portfolio and Catalog
+    Management > Request Justification**.
 
-Pré-condições
-------------
+Preconditions
+-------------
 
-1. Não se aplica.
+1.  Not applicable
 
-Filtros
+Filters
 -------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filters enables the user to restrict the participation of
+    items in the standard feature listing, making it easier to find the desired
+    items:
 
-    -  Descrição;
+-   Description;
 
-    -  Situação.
+-   Status.
 
-2. Para realizar a busca de uma justificativa de solicitação, informe a
-    descrição e/ou situação da mesma. Após isso, será exibido o registro
-    conforme os dados informados.
+2.  To carry out the search for a request justification, inform the description
+    and/or situation of the request. After that, the record will be displayed
+    according to the data entered.
 
-![Criar](images/justification-1.png)
+![figure](images/justification-1.png)
 
-**Figura 1 - Tela de pesquisa de justificativa de solicitação**
+**Figure 1 - Request justification search screen**
 
-Listagem de itens
-----------------
+Items list
+----------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Descrição** e **Situação**;
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: **Description **and** Status**.
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Excluir*.
+![figure](images/justification-2.png)
 
-![Criar](images/justification-2.png)
+**Figure 2 - Request justification list**
 
-**Figura 2 - Listagem de justificativa de solicitação**
+Filling in the registration fields
+----------------------------------
 
-Preenchimento dos campos cadastrais
----------------------------------
+1.  The request justification screen will be displayed;
 
-1. Será apresentada a tela de Justificativa de Solicitação;
+2.  Click the *New* button. Once this is done, the Reason Request screen will be
+    displayed, as shown in the following figure:
 
-2. Clique no botão *Novo*. Feito isso, será apresentada a tela de **Cadastro de
-    Justificativa de Solicitação**, conforme ilustrada na figura a seguir:
+   ![figure](images/justification-3.png)
+   
+   **Figure 3 - Request justification file screeen**
 
-    ![Criar](images/justification-3.png)
+3.  Fill in the fields as directed below:
 
-    **Figura 3 - Tela de cadastro de justificativa de solicitação**
+    -   **Description**: state the description of the request justification;
 
-3. Preencha os campos conforme orientações abaixo:
+    -   **Status**: select the situation of the request justification, active or
+        inactive;
 
-    -  **Descrição**: informe a descrição da justificativa de solicitação;
+    -   **Suspension**: define if the justification is to be used in the
+        suspension of the request;
 
-    -  **Situação**: selecione a situação da justificativa de solicitação,
-        ativo ou inativo;
+    -   **Travel**: define whether the request justification is to be used in
+        the approval of a travel request;
 
-    -  **Suspensão**: defina se a justificativa é para ser utilizada na
-        suspensão da solicitação;
+    -   **Approval**: define whether the request justification is to be used in
+        the approval phase of the service request.
 
-    -  **Viagem**: defina se a justificativa de solicitação é para ser
-        utilizada na aprovação de requisição de viagem;
-
-    -  **Aprovação**: defina se a justificativa de solicitação é para ser
-        utilizada na fase de aprovação da solicitação de serviço.
-
-4. Clique no botão *Gravar* para efetuar o registro, onde a data, hora e
-    usuário serão gravados automaticamente para uma futura auditoria
-
+4.  Click on the *Save* button to register, where the date, time and user will
+    be saved automatically for a future audit.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Anna Martins
+    <b>Updated:</b>09/01/2019 – Anna Martins
