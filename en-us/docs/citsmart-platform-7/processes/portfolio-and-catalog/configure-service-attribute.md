@@ -560,7 +560,7 @@ Creating the service map design
 !!! Abstract "TIPS"
 
     To register each activity of a service (request or incident), use the
-    knowledge [Service activity registration][1]).
+    knowledge [Service activity registration][1].
 
 Linking applications to the service
 -----------------------------------
