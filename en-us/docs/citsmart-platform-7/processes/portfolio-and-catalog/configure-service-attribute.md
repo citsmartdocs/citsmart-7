@@ -580,7 +580,7 @@ Linking applications to the service
 
 1.  The following cadastral fields are available to the user to make it easier
     to identify the desired items in the standard feature
-    listing:**ID**, **Name **and **Responsible Name**;
+    listing:**ID**, **Name** and **Responsible Name**;
 
 2.  There are action buttons available to the user for each item in the listing,
     they are: *Edit* and *Unlink*;
@@ -612,7 +612,7 @@ Registering service data schema
 
 ### How to access
 
-1.  Click **Data Schema**. After that, the** Service Data Schema Master** screen
+1.  Click **Data Schema**. After that, the **Service Data Schema Master** screen
     will be displayed, as shown in the figure below:
 
    ![figure](images/configure-13.png)
@@ -854,7 +854,7 @@ The procedure will be used at the time of disasters related to the service.
     listing: **ID** and **Procedure Name**;
 
 2.  There are action buttons available to the user in relation to each item in
-    the listing, they are: *Edit* and *Unlink.*
+    the listing, they are: *Edit* and *Unlink*.
 
 ![figure](images/configure-18.png)
 
