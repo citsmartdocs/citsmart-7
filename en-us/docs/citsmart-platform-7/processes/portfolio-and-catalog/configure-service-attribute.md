@@ -69,7 +69,7 @@ Configuring service attributes
     support services and configuration items. In this design is defined which
     support services will be used to carry out the core service;
 
--   **Business Processes: allows you to link the business processes that are
+-   **Business Processes**: allows you to link the business processes that are
     supported by the service;
 
 -   **Enable Service**: allows you to link support / technical services. These
@@ -512,7 +512,7 @@ Creating the service map design
    
    **Figure 9 - Map creation screen of services map**
 
-2.  Design the service map using the **Support Services **icons to represent the
+2.  Design the service map using the **Support Services** icons to represent the
     support/technical services and the **Configuration Items**icons to represent
     the CIs. Follow the guidelines below:
 
@@ -765,7 +765,7 @@ Linking knowledge to service
 
 1.  The following cadastral fields are available to the user to make it easier
     to identify the desired items in the standard feature
-    listing: **ID**and **Title**.
+    listing: **ID** and **Title**.
 
 2.  There is one action buttons available to the user in relation to each item
     in the listing, it is: *Unlink*.
@@ -903,10 +903,10 @@ The procedure will be used at the time of disasters related to the service.
 
     -   **Activity Type**: select the type of service;
 
-    -   **Importance of Activity to Business **: select the importance of the
+    -   **Importance of Activity to Business**: select the importance of the
         procedure to the business;
 
-    -   **Place of Execution of Activities **: select the location where the
+    -   **Place of Execution of Activities**: select the location where the
         procedure is to be performed.
 
 3.  After entering the required procedure data, click the *Save* button to
