@@ -1,9 +1,8 @@
 title: Service audit
-
 Description: This feature allows you to check the service history for auditing
 the service.
 
-\# Service audit
+# Service audit
 
 This feature allows you to check the service history for auditing the service.
 The guidelines described in this "Knowledge" may be followed to check the
@@ -51,13 +50,13 @@ Items list
 ----------
 
 1.  The following cadastral fields are available to the user to facilitate the
-    identification of the desired items in the standard feature listing: **ID,
-    Date/Time of creation, Created by, Type **and **Category.**
+    identification of the desired items in the standard feature listing: ID,
+    Date/Time of creation, Created by, Type and Category.
 
 2.  There is one action button available to the user for each item in the
     listing, they is: *Expand*.
 
-   ![figure](images/audit-1.png)
+   ![figure](images/audit-2.png)
    
    **Figure 2 - Audit service screen**
 
@@ -65,7 +64,7 @@ Items list
     the **Register occurences **tab. The registration screen will be displayed,
     as illustrated in the figure below:
 
-   ![figure](images/audit-1.png)
+   ![figure](images/audit-3.png)
    
    **Figure 3 - Audit registration screen**
 
