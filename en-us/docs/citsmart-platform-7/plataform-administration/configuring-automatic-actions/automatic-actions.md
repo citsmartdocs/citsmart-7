@@ -357,7 +357,7 @@ Filling in the registration fields
     - **Observation**: describe the additional details about the contact, if necessary;
     - **Title**: report the title to the problem;
     - **Management**: select the type of management of the problem.
-        - **Proactive: Proactive Problem Management for the prevention of the occurrence of Incidents. Worries about preventing 
+        - **Proactive**: Proactive Problem Management for the prevention of the occurrence of Incidents. Worries about preventing 
         incidents from occurring. Responsible for addressing similar issues before they happen, ensuring that such scenarios are 
         addressed as well.
         - **Reactive**: from the Incident Management process. Worries about solving problems in response to one or more incidents. 
@@ -406,7 +406,7 @@ the request registration screen (see knowledge [Contract registration and search
 
 6. Define service time for services (see knowledge [Time attendance registration and search](/en-us/citsmart-platform-7/processes/service-level/time-attendance.html));
 
-7. Define a first level group to fulfill the request, if it is not directed to a Group;
+7. Define a first level group to fulfill the request, if it is not directed to a Group; 
 
 8. Register periodic activity groups to schedule the activities of the request (see knowledge [Periodic activity group registration and search](/en-us/citsmart-platform-7/additional-features/automation-of-operation/configuration/periodic-activity-group.html)).
 
