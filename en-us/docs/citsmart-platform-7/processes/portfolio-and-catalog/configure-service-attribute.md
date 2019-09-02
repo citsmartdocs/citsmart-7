@@ -1,1011 +1,982 @@
-title: Configuração dos atributos do serviço
-Description: As orientações descritas neste documento poderão ser seguidas para configurar os atributos tanto do *Serviço de Negócio/TI* quanto do *Serviço de Apoio/Técnico*.
+title: Service attributes configuration
+Description: The guidelines described in this "knowledge" can be followed to configure the attributes of both the *Business/IT Service* and the *Support/Technical Service*.
 
-# Configuração dos atributos do serviço
+# Service attributes configuration
 
-As orientações descritas neste documento poderão ser seguidas para
-configurar os atributos tanto do *Serviço de Negócio/TI* quanto do *Serviço de
-Apoio/Técnico*.
+The guidelines described in this "knowledge" can be followed to configure the
+attributes of both the *Business/IT Service* and the *Support/Technical
+Service.*
 
-Pré-condições
-------------
+Preconditions
+-------------
 
-1.  Ter o portfólio com os serviços cadastrados (ver conhecimentos [Cadastro de
-    portfólio de serviços][1]), [Cadastro de serviços][2]);
+1.  Have the portfolio with the services registered (see knowledge [Service
+    portfolio registration][1]), [Service registration][2]);
 
-2.  Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de
-    grupo][3]);
+2.  Have the group registered (see knowledge [Group registration and search][3]);
 
-3.  Ter os itens de configuração cadastrados (ver conhecimento [Gerenciamento de
-    itens de configuração][4]);
+3.  Have the configuration items registered (see knowledge [Configuration item management][4]);
 
-4.  Ter o calendário definido (ver conhecimento [Cadastro e pesquisa de
-    calendário][5]);
+4.  Have the calendar set (see knowledge [Calendar registration and search][5]);
 
-5.  Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de
-    contrato][6]);
+5.  Have the contract registered (see knowledge [Contract registration and search][6]);
 
-6.  Ter um ciclo cadastrado (ver conhecimento [Cadastro e pesquisa de
-    ciclos][7]).
+6.  Have a cycle registered (see knowledge [Cycle registration and search][7]).
 
-Configurando os atributos do serviço
-------------------------------------
-
-### Como acessar
-
-1.  Acesse o menu principal **Processos ITIL > Gerência de Portfólio e
-    Catálogo > Gerenciamento de Portfólio e Catálogo**. Após isso, será
-    apresentada a tela de Gerenciamento de Portfólio de Serviços;
-
-2.  Acesse o Portfólio de Serviços que deseja, clicando no botão *Avançar* do
-    mesmo;
-
-3.  Clique no botão *Avançar* do serviço para acessá-lo.
-
-### Filtros
-
-1.  Não se aplica.
-
-### Listagem de itens
-
-1.  Não se aplica.
-
-### Preenchimento dos campos cadastrais
-
-1.  Será apresentada a tela de **Informações do Serviço**, onde poderá
-    configurar os atributos, conforme ilustrada na figura abaixo:
-
-    ![Criar](images/configure-1.png)
-
-    **Figura 1 - Tela de informações do serviço**
-
-    -   **Detalhes**: permite alterar/atualizar os dados do serviço;
-
-    -   **Requisitos de Nível de Serviço**: permite registrar os requisitos de nível
-    de serviço;
-
-    -   **Atributos Financeiros**: permite registrar os atributos financeiros do
-    serviço;
-
-    -   **Casos de Negócios**: permite registrar o caso de negócio referente ao
-    serviço. Esse caso de negócio é um resumo de todas as informações do
-    serviço;
-
-    -   **Mapa de Serviço**: permite definir o desenho do mapa de serviço
-    relacionando os serviços de apoio e itens de configuração. Neste desenho é
-    definido quais serviços de apoio serão utilizados para realização do serviço
-    principal;
-
-    -   **Processos de Negócio**: permite vincular os processos de negócio que são
-    suportados pelo serviço;
-
-    -   **Serviços de Apoio**: permite vincular os serviços de apoio/técnicos. Esses
-    serviços apoiam, dão suporte, ao serviço principal;
-
-    -   **Dono do Negócio**: permite vincular o dono do negócio ao serviço, o qual
-    podem ser colaboradores ou grupos;
-
-    -   **Usuário do Negócio**: permite vincular os usuários do negócio ao serviço;
-
-    -   **Requisições**: permite registrar as atividades de requisição do serviço;
-
-    -   **Aplicações**: permite vincular as aplicações que são utilizadas para
-    execução do serviço;
-
-    -   **Esquema de Dados**: permite registrar o esquema de dados referente ao
-    serviço;
-
-    -   **Incidentes**: permite registrar as atividades de incidente do serviço;
-
-    -   **Procedimentos**: permite registrar os procedimentos referente ao
-    serviço, que serão utilizados pelo gerenciamento de continuidade para
-    disparar e controlar as atividades de restauração do serviço;
-
-    -   **Contratos**: permite vincular os contratos que provê o serviço;
-
-    -   **Proprietários de TI**: permite vincular os proprietários de serviços de TI
-    ao serviço, os quais podem ser usuários ou grupos;
-
-    -   **Base de Conhecimento**: permite vincular um conhecimento ao serviço. O
-    conhecimento trata-se de uma informação do provedor de serviços para
-    entregar o serviço;
-
-    -   **Habilidade / Recurso**: permite vincular as habilidades/recursos ao
-    serviço;
-
-    -   **Capacidade / Performance**: permite vincular indicadores de capacidade /
-    performance ao serviço;
-
-    -   **Atributo da Demanda**: permite vincular atributos da demanda ao serviço;
-
-    -   **Avaliações do Serviço**: permite gerenciar as avaliações do serviço que
-    foram registradas via Smart Portal;
-
-    -   **Auditoria do Serviço**: permite verificar o histórico do serviço para
-    auditoria do mesmo.
-
-Nos itens a seguir será abordado sobre "como" configurar os principais atributos
-do serviço.
-
-Definindo os requisitos de nível de serviço
--------------------------------------------
-
-Os Requisitos de Nível de Serviço são definidos quando o serviço está na sua
-fase inicial, com status de "Definição".
-
-### Como acessar
-
-1.  Na tela **Informações do Serviço**, clique em **Requisitos de Nível de
-    Serviço**.
-
-### Filtros
-
-1.  Não se aplica.
-
-### Listagem de itens
-
-1.  Não se aplica.
-
-### Preenchimento dos campos cadastrais
-
-1.  Após o acesso a funcionalidade, será apresentada a tela **Cadastro de
-    Requisitos de Níveis de Serviço**, conforme ilustrada na figura abaixo:
-
-    ![Criar](images/configure-2.png)
-
-    **Figura 2 - Tela de cadastro de requisitos de níveis de serviço**
-
-1.  Preencha os campos conforme orientações abaixo:
-
-    a)  Informe os dados gerais:
-
-      -  **Data de criação**: informe a data de criação dos requisitos;
-
-      -  **Data de início do Serviço**: informe a data de início do serviço;
-
-      -  **Dono do Serviço**: informe o responsável pelo serviço.
-
-    b)  Informe os dados referente a utilidade do serviço:
-
-      -   **Especificação**: descreva as especificações do serviço;
-
-      -   **Contexto**: descreva o contexto do serviço;
-
-      -   **Funcionalidades Essenciais**: descreva as funcionalidades essenciais
-        do serviço.
-
-    c)  Informe os dados referente a garantia do serviço:
-
-      -   **Segurança**: descreva a segurança do serviço;
-
-      -   **Disponibilidade**: descreva a disponibilidade do serviço;
-
-      -   **Capacidade**: descreva a capacidade do serviço;
-
-      -   **Continuidade de Negócio**: descreva a continuidade de negócio do
-        serviço;
-
-      -   **Performance/Desempenho**: descreva o desempenho do serviço;
-
-      -   **Interrupções Planejadas**: descreva as interrupções planejadas.
-
-    d)  Informe os dados referente ao suporte do serviço:
-
-      -   **Gestão de Incidentes**: descreva sobre a gestão de incidentes
-        referente ao serviço;
-
-      -   **Gestão de Problemas**: descreva sobre a gestão de problemas referente
-        ao serviço;
-
-      -   **Gestão de Mudanças**: descreva sobre a gestão de mudanças referente ao
-        serviço.
-
-    e)  Informe os dados da conformidade do serviço:
-
-      -   **Interna**: descreva a conformidade do serviço interno;
-
-      -   **Externa**: descreva sobre a conformidade do serviço externo.
-
-    f)  Caso queira anexar um arquivo, clique na aba **Documento Anexos**.
-
-3.  Após o preenchimento dos campos com as informações necessárias, clique no
-    botão *Gravar* para efetuar o registro de requisitos de nível de serviço.
-
-Registrando os atributos financeiros
------------------------------------
-
-### Como acessar
-
-1.  Clique em **Atributos Financeiros**.
-
-### Filtros
-
-1.  Não se aplica.
-
-### Listagem de itens
-
-1.  Não se aplica.
-
-### Preenchimento dos campos cadastrais
-
-1.  Após o acesso a funcionalidade, será apresentada a tela **Cadastro de
-    Atributos Financeiros**, conforme ilustrada na figura abaixo:
-
-    ![Criar](images/configure-3.png)
-
-    **Figura 3 - Tela de cadastro de atributos financeiros**
-
-2.  Preencha os campos conforme orientações abaixo:
-
-    -   **Categoria**: informe a categoria do atributo financeiro. Caso não
-        exista categoria registrada, clique no botão *Adicionar / Editar
-        categoria financeiro* para registro de uma categoria;
-
-    -   **Tipo**: informe o tipo de atributo financeiro: Custo ou Receita;
-
-    -   **Classificação**: informe a classificação do atributo financeiro;
-
-    -   **Valor**: informe o valor do serviço, levando em consideração o tipo de
-        atributo financeiro informado.
-
-3.  Após informar os dados, clique no botão *Adicionar ao Serviço*. O atributo
-    financeiro será gravado e apresentado na tela.
-
-4.  Caso queira importar os dados de atributos financeiros, clique no
-    botão *Importar*. Feito isso, será exibida uma tela para anexar o arquivo de
-    atributos financeiros. Nessa tela, são apresentados os modelos de arquivos
-    para orientar na forma e ordem que os dados devem estar no arquivo.
-    Portanto, antes de selecionar o arquivo, verifique se o mesmo está de acordo
-    com o modelo, levando em consideração o formato (.xls, .xlsx, .xml ou .csv).
-    Após a verificação, informe o arquivo e clique no botão *Enviar* para
-    efetuar a importação.
-
-5.  Para alterar os dados do atributo financeiro do serviço, clique em *Editar*,
-    modifique os dados que desejar para efetuar a alteração, onde a data, hora e
-    usuário serão gravados automaticamente para uma futura auditoria;
-
-Definindo o caso de negócio
---------------------------
-
-O caso de negócio é definido na fase inicial do serviço. Ele deve apresentar os
-objetivos do negócio que devem ser atendidos pelo serviço. É com base neste caso
-de negócio que realiza a aprovação ou não do serviço, ou seja, será feito uma
-análise para aprovação, para verificar se será utilizado o serviço.
-
-### Como acessar
-
-1.  Clique em **Casos de Negócios**.
-
-### Filtros
-
-1.  Não se aplica.
-
-### Listagem de itens
-
-1.  Não se aplica.
-
-### Preenchimento dos campos cadastrais
-
-1.  Após o acesso a funcionalidade, será apresentada a tela **Cadastro de Caso
-    de Negócio**, conforme ilustrada na figura abaixo:
-
-    ![Criar](images/configure-4.png)
-
-    **Figura 4 - Tela de cadastro de caso de negócio**
-
-2.  Preencha os campos conforme orientações abaixo:
-
-    -   **Caso de Negócio**: defina o nome do caso de negócio;
-
-    -   **Sumário Executivo**: descreva a visão geral do caso de negócio do
-        serviço;
-
-    -   **Stakeholder/Entidade**: descreva as pessoas interessadas no serviço;
-
-    -   **Cenários**: descreva os cenários do serviço;
-
-    -   **Problema/Oportunidade**: descreva os problemas;
-
-    -   **Proposta de Solução**: descreva a proposta de solução do serviço para
-        o negócio;
-
-    -   **Análise Financeira**: descreva as informações sobre a análise
-        financeira;
-
-    -   **Análise de Risco**: descreva os eventos principais que poderão impedir
-        o sucesso da execução do serviço;
-
-    -   **Viabilidade Técnica**: descreva a viabilidade técnica;
-
-    -   **Conclusão**: descreva a conclusão;
-
-    -   Após informar os dados e caso queira anexar um arquivo, clique na
-        aba **Documento Anexos**.
-
-Vinculando processo de negócio ao serviço
-----------------------------------------
-
-### Como acessar
-
-1.  Clique em **Processos de Negócio**.
-
-### Filtros
-
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
-
-    -   Nome do Processo de Negócio.
-
-### Listagem de itens
-
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **ID**, **Nome do Processo de Negócio** e **Cliente**.
-
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Visualizar* e *Excluir*.
-
-    ![Criar](images/configure-5.png)
-
-    **Figura 5 - Tela de vínculo do processo de negócio**
-
-3.  Clique no botão *Vincular Processo de Negócio*. Feito isso, será exibida a
-    tela para pesquisa de processo de negócio. Realize a pesquisa, selecione os
-    processos de negócio que desejar e clique no botão *Enviar* para efetuar a
-    operação.
-
-4.  Caso não encontre o registro de processo de negócio e haja a necessidade de
-    registrar um para vincular ao serviço, poderá registrá-lo a partir dessa
-    tela, basta clicar no botão *Novo Processo de Negócio*.
-
-5.  Após o vínculo do processo de negócio ao serviço, o mesmo será apresentado
-    na tela de processos de negócio do serviço.
-
-6.  Para visualizar os dados do processo de negócio, basta clicar no
-    botão *Visualizar* do mesmo.
-
-7.  Para excluir o vínculo do processo de negócio com o serviço, basta clicar no
-    botão *Excluir* do mesmo.
-
-### Preenchimento dos campos cadastrais
-
-1.  Não se aplica.
-
-Vinculando o dono do negócio ao serviço
----------------------------------------
-
-### Como acessar
-
-1.  Clique em **Dono do Negócio**.
-
-### Filtros
-
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
-
-    -   Nome .
-
-### Listagem de itens
-
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: ID, Nome, Tipo.
-
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Desvincular*.
-
-    ![Criar](images/configure-6.png)
-
-    **Figura 6 - Tela de vínculo de dono do negócio**
-
-3.  Caso o "dono do negócio" seja um ou mais colaboradores, clique no
-    botão *Vincular Dono do Negócio - Empregado* para vincular o(s)
-    colaborador(es) ao serviço. Após isso, será exibida a tela para pesquisa de
-    colaboradores. Realize a pesquisa, selecione o(s) colaborador(es) e clique
-    no botão *Enviar* para efetuar o vínculo.
-
-4.  Caso o "dono do negócio" seja um ou mais grupos, clique no botão *Vincular
-    Grupos* para vincular o(s) grupo(s) ao serviço. Após isso, será exibida a
-    tela para pesquisa de grupos. Realize a pesquisa, selecione o(s) grupo(s) e
-    clique no botão *Enviar* para efetuar o vínculo.
-
-5.  Para excluir o vínculo do dono do negócio com o serviço, basta clicar no
-    botão *Desvincular* do mesmo.
-
-### Preenchimento dos campos cadastrais
-
-1.  Não se aplica.
-
-Vinculando usuário do negócio ao serviço
---------------------------------------
-
-### Como acessar
-
-1.  Clique em **Usuário do Negócio**.
-
-### Filtros
-
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
-
-    -   Nome.
-
-### Listagem de itens
-
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: ID, Nome e Descrição.
-
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Desvincular*.
-
-    ![Criar](images/configure-7.png)
-
-    **Figura 7 - Tela de vínculo de usuário do negócio**
-
-3.  Clique no botão *Vincular usuário* para vincular o(s) usuário(s) ao serviço.
-    Feito isso, será exibida a tela para pesquisa de usuários do sistema.
-    Realize a pesquisa, selecione o(s) usuário(s) e clique no
-    botão *Enviar* para efetuar o vínculo.
-
-4.  Caso o "usuário do negócio" seja um ou mais grupos, clique no
-    botão *Vincular grupo de usuário* para vincular o(s) grupo(s) ao serviço.
-    Feito isso, será exibida a tela para pesquisa de grupos. Realize a pesquisa,
-    selecione o(s) grupo(s) e clique no botão *Enviar* para efetuar o vínculo.
-
-5.  Para excluir o vínculo do usuário do negócio com o serviço, basta clicar no
-    botão *Desvincular* do mesmo.
-
-### Preenchimento dos campos cadastrais
-
-1.  Não se aplica.
-
-Vinculando serviço de apoio / técnico
--------------------------------------
-
-### Como acessar
-
-1.  Clique em **Serviços de Apoio**.
-
-### Filtros
-
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
-
-    -   Nome do Serviço.
-
-### Listagem de itens
-
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: ID, Nome Serviço de Apoio, Fase e Status do Serviço.
-
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Desvincular*.
-
-    ![Criar](images/configure-8.png)
-
-    **Figura 8 - Tela de vínculo de serviço de Apoio / Técnico**
-
-1.  Clique no botão *Vincular Serviço* para vincular os serviços de apoio /
-    técnico ao serviço principal. Feito isso, será exibida a tela para pesquisa
-    de serviços. Realize a pesquisa, selecione os serviços de apoio / técnico e
-    clique no botão *Enviar* para efetuar o vínculo com sucesso.
-
-2.  Após o vínculo do serviço de apoio / técnico ao serviço, o mesmo será
-    apresentado na tela de serviços de apoio do serviço;
-
-3.  Para excluir o vínculo do serviço de apoio / técnico com o serviço, basta
-    clicar no botão *Desvincular* do mesmo.
-
-### Preenchimento dos campos cadastrais
-
-1.  Não se aplica.
-
-Criando o desenho do mapa de serviço
------------------------------------
-
-1.  O desenho do mapa de serviço é criado quando o serviço for aprovado e
-    estiver no estágio de "Desenho". Neste desenho é definido o que o serviço
-    precisa para que possa atender as necessidades do negócio.
-
-    !!! info "IMPORTANTE"
-
-        Para criar o desenho do mapa de serviço, os Serviços de Apoio/Técnico já
-        devem estar definidos.
-
-### Como acessar
-
-1.  Clique em **Desenho do Mapa de Serviço**. Após isso, será apresentada a
-    respectiva tela para criação do desenho do mapa de serviço, conforme
-    ilustrada na figura abaixo:
-
-    ![Criar](images/configure-9.png)
-
-    **Figura 9 - Tela de criação do desenho do mapa de serviços**
-
-2.  Desenhe o mapa do serviço, utilizando os ícones de **Serviços de
-    Apoio** para representar os serviços de apoio/técnico e os ícones de **Itens
-    de Configuração** para representar os ICs. Siga as orientações abaixo:
-
-    -   Escolha um ícone para representar o serviço de apoio/técnico, clique e
-    arraste o mesmo para área de desenho. Após isso, será exibida a tela para
-    informar os dados do serviço de apoio/técnico que será representado pelo
-    ícone escolhido, conforme ilustrada na figura abaixo:
-
-    ![Criar](images/configure-10.png)
-
-    **Figura 10 - Tela de registro de informações do serviço de Apoio / Técnico**
-
-    -   Informe o serviço de apoio/técnico, sua descrição e clique no
-    botão *Gravar* para efetuar a operação;
-
-    -   Clique em **Itens de Configuração** e escolha um ícone para representar o
-    IC, clique e arraste o mesmo para área de desenho. Após isso, será exibida a
-    tela para informar os dados do IC que será representado pelo ícone
-    escolhido, conforme ilustrada na figura abaixo:
-
-    ![Criar](images/configure-11.png)
-
-    **Figura 11 - Tela de segistro de informações do Item de Configuração**
-
-    -   Informe o item de configuração e sua descrição. Após isso, caso queira
-    verificar as informações do IC, clique no botão *Exibir Item Configuração*;
-
-    -   Após informar todos os dados do IC, clique no botão *Gravar* para efetuar o
-    registro das informações do IC representado pelo ícone;
-
-    -   Para alterar as informações do serviço de apoio/técnico ou do IC
-    representado por um ícone, basta clicar duas vezes sobre o ícone do mesmo,
-    editar as informações e clicar em *Gravar* para efetuar a alteração.
-
-    -   Para excluir o serviço de apoio/técnico ou o IC representado por um ícone,
-    basta clicar duas vezes sobre o ícone do mesmo e clicar no botão *Excluir*.
-
-3.  Após criar o desenho do mapa de serviço, clique no botão *Gravar*,
-    localizado na parte superior da tela, para efetuar o registro.
-
-4.  Clique no botão *Gerar impressão* para gerar a impressão do desenho, caso
-    seja necessário.
-
-    !!! Abstract "SAIBA MAIS"
-
-        Para cadastrar cada atividade de um serviço (requisição ou incidente),
-        utilize o conhecimento [Cadastro da atividade de serviço][8]).
-
-Vinculando aplicações ao serviço
--------------------------------
-
-### Como acessar
-
-1.  Clique em de **Aplicações**.
-
-### Filtros
-
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
-
-    -   Nome.
-
-### Listagem de itens
-
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: ID, Nome e Nome Responsável.
-
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Desvincular*.
-
-    ![Criar](images/configure-12.png)
-
-    **Figura 12 - Tela de vínculo de aplicações ao serviço**
-
-3.  Clique no botão *Vincular Aplicação*. Feito isso, será exibida a tela para
-    pesquisa da aplicação. Realize a pesquisa e selecione a aplicação para
-    realizar o vínculo.
-
-4.  Caso não encontre o registro da aplicação e haja a necessidade de registrar
-    uma aplicação para vincular ao serviço, poderá registrá-la a partir dessa
-    tela, basta clicar no botão *Nova Aplicação*.
-
-5.  Para alterar os dados da aplicação vinculada ao serviço, clique no
-    botão *Editar* da mesma.
-
-6.  Para excluir o vínculo da aplicação com o serviço, basta clicar no
-    botão *Desvincular* do mesmo.
-
-### Preenchimento dos campos cadastrais
-
-1.  Não se aplica.
-
-Registrando esquema de dados do serviço
---------------------------------------
-
-### Como acessar
-
-1.  Clique em **Esquema de Dados**. Após isso, será apresentada a tela
-    de **Cadastro de Esquema de Dados do Serviço**, conforme ilustrada na figura
-    abaixo:
-
-    ![Criar](images/configure-13.png)
-
-    **Figura 13 - Tela de cadastro de esquema de dados do serviço**
-
-2.  Descreva os detalhes do esquema de dados do serviço;
-
-3.  Adicione o desenho do esquema de dados referente ao serviço:
-
-    -   Informe a descrição do anexo, clique no botão *Adicionar Arquivo* e
-        selecione o arquivo desejado. Feito isso, o mesmo será adicionado no
-        registro de esquema de dados.
-
-4.  Após os dados registrados, clique no botão *Gravar* para efetuar a operação.
-
-### Filtros
-
-1.  Não se aplica.
-
-### Listagem de itens
-
-1.  Não se aplica.
-
-### Preenchimento de campos cadastrais
-
-1.  Não se aplica.
-
-Vinculando contratos ao serviço
+Configuring service attributes
 ------------------------------
 
-### Como acessar
+### How to access
 
-1.  Clique em **Contratos**.
+1.  Access the main menu **Process Management > Portfolio and Catalog
+    Management > Portfolio and Catalog Management**. After that, the
+    Service Portfolio Management screen appears;
 
-### Filtros
+2.  Access the Services Portfolio you want by clicking the *Advance* button of
+    the same;
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+3.  Click the *Advance* button of the service to access it.
 
-    -   Número do contrato.
+### Filters
 
-### Listagem de itens
+1.  Not applicable.
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: ID, Descrição do Contrato, Cliente e Fornecedor.
+### Items list
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar*, *Desvincular* e *Avançar*.
+1.  Not applicable.
 
-    ![Criar](images/configure-14.png)
+### Filling in the registration fields
 
-    **Figura 14 - Tela de vínculo de contrato ao serviço**
+1.  The **Service Information** will be displayed, where you can configure the
+    attributes. The figure below illustrates this screen:
 
-3.  Clique no botão *Vincular Contrato*. Feito isso, será exibida a tela para
-    pesquisa do contrato;
+   ![figure](images/configure-1.png)
+   
+   **Figure 1 - Service information screen**
 
-    !!! info "IMPORTANTE"
+-   **Details**: allows you to change/update the service data;
 
-         Serão disponibilizados somente os contratos do tipo “contrato” para
-         vincular ao serviço de negócio/TI e somente os contratos do tipo “contrato
-         de apoio” e “acordo de nível operacional” para vincular ao serviço de
-         apoio/técnico.
+-   **Service Level Requirements**: allows you to record the service level
+    requirements;
 
-4.  Realize a pesquisa do contrato. Após a isso, basta selecionar o mesmo para
-    efetuar o vínculo com sucesso.
+-   **Financial Attributes**: it allows to register the financial attributes of
+    the service;
 
-5.  Caso não encontre o registro do contrato e haja a necessidade de registrar
-    um contrato para vincular ao serviço, poderá registrá-lo a partir dessa
-    tela, basta clicar no botão *Nova Contrato*.
+-   **Business Cases**: allows you to register the business case related to the
+    service. This business case is a summary of all service information;
 
-6.  Para alterar os dados do contrato, clique no botão *Editar* do mesmo,
-    modifique os dados que desejar e clique em *Gravar* para efetuar a
-    alteração, onde a data, hora e usuário serão gravados automaticamente para
-    uma futura auditoria.
+-   **Service Map**: allows you to define the service map design by relating
+    support services and configuration items. In this design is defined which
+    support services will be used to carry out the core service;
 
-7.  Para excluir o vínculo do contrato com o serviço, basta clicar no
-    botão *Desvincular* do mesmo.
+-   **Business Processes**: allows you to link the business processes that are
+    supported by the service;
 
-8.  Para configurar os atributos do contrato do serviço, clique no
-    botão *Avançar* do mesmo.
+-   **Enable Service**: allows you to link support / technical services. These
+    services support, support the core service;
 
-### Preenchimento dos campos cadastrais
+-   **Business Owner**: allows to link the owner of the business to the service,
+    which can be collaborators or groups;
 
-1.  Não se aplica.
+-   **Business User**: allows to link the users of the business to the
+    service;
 
-Vinculando proprietários de ti ao serviço
-----------------------------------------
+-   **Requests**: allows to register the services request activities;
 
-### Como acessar
+-   **Applications**: allows you to link the applications that are used to run
+    the service;
 
-1.  Clique em **Proprietários de TI**.
+-   **Data Schema**: allows you to register the data schema for the service;
 
-### Filtros
+-   **Incidents**: allows to record the service incident activities;
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+-   **Procedure**:*it allows registering the procedures for the service, which
+    will be used by the continuity management to trigger and control the service
+    restoration activities;
 
-    -   Nome;
+-   **Contract**: allows to link the contracts that provides the service;
 
-    -   CPF;
+-   **Stakeholders**: allows you to link IT service owners to the service, which
+    can be users or groups;
 
-    -   Situação.
+-   **Knowledge base**: allows to link a knowledge to the service. Knowledge is
+    about information from the service provider to deliver the service;
 
-### Listagem de itens
+-   **Capability**: allows linking skills/resources to service;
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **ID, Nome e Tipo**.
+-   **Capacity/Performance**: allows linking capacity/performance indicators to
+    service;
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Desvincular* .
+-   **Demand Attributes**: allows to link attributes of the demand to the
+    service;
 
-    ![Criar](images/configure-15.png)
+-   **Service Ratings**: allows you to manage the service evaluations that have
+    been registered via smart portal;
 
-    **Figura 15 - Tela de vínculo de proprietários de TI ao serviço**
+-   **Audit Service**: allows you to check the service history for audit of the
+    Service.
 
-2.  Caso o "proprietário de TI" seja um usuário, clique no botão *Vincular
-    Usuários*. Feito isso, será exibida a tela para pesquisa de usuários.
-    Realize a pesquisa, selecione os usuários e clique no botão *Enviar* para
-    efetuar o vínculo.
+2.  In the following items will be discussed on "how to" configure the main
+    attributes of the service.
 
-3.  Caso o "proprietário de TI" seja um grupo, clique no botão *Vincular
-    Grupos*. Feito isso, será exibida a tela para pesquisa de grupos. Realize a
-    pesquisa, selecione os grupos e clique no botão *Enviar* para efetuar o
-    vínculo.
+Defining service level requiriments
+-----------------------------------
 
-4.  Para excluir o vínculo do usuário ou grupo com o serviço, basta clicar no
-    botão *Desvincular* do mesmo.
+Service Level Requirements are defined when the service is in its initial phase,
+with status of "Definition".
 
-### Preenchimento dos campos cadastrais
+### How to access
 
-1.  Não se aplica.
+1.  On the **Service Information Screen**, click **Service Level Requirements**.
 
-Vinculando conhecimento ao serviço
----------------------------------
+### Filters
 
-### Como acessar
+1.  Not applicable.
 
-1.  Clique em **Base de Conhecimento**.
+### Items list
 
-### Filtros
+1.  Not applicable.
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+### Filling in the registration fields
 
-    -   Título;
+1.  After accessing functionality, the **Service Level Requirements
+    Master** screen will be displayed, as shown in the figure below:
 
-### Listagem de itens
+   ![figure](images/configure-2.png)
+   
+   **Figure 2 - Service level requirements master data sheet**
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **ID e Título.**
+2.  Fill in the fields as shown below:
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Desvincular*.
+3.  Enter the general data:
 
-    ![Criar](images/configure-16.png)
+    -   **Creation Date**: inform the creation date of the requirements;
 
-    **Figura 16 - Tela de vínculo de conhecimento ao serviço**
+    -   **Service Start Date**: inform the start date of the service;
 
-    !!! note "NOTA"
+    -   **Service Owner**: inform the person responsible for the service.
 
-        Se o serviço estiver disponibilizado no Smart Portal, os conhecimentos
-        relacionados ao mesmo também serão exibidos no Smart Portal.
+4.  Enter the usefulness of the service:
 
-3.  Clique no botão *Vincular Conhecimento*. Feito isso, será exibida a tela
-    para pesquisa de conhecimentos. Realize a pesquisa, selecione os
-    conhecimentos desejados e clique botão *Enviar* para efetuar o vínculo.
+    -   **Specification**: describe the service specifications;
 
-4.  Para excluir o vínculo do conhecimento com o serviço, basta clicar no
-    botão *Desvincular* do mesmo.
+    -   **Context**: describe the context of the service;
 
-### Preenchimento dos campos cadastrais
+    -   **Essential Features**: describe the essential functionality of the
+        service.
 
-1.  Não se aplica.
+5.  Enter the data concerning the guarantee of the service:
 
-Vinculando habilidades ao serviço
+    -   **Security**: describe the security of the service;
+
+    -   **Availability**: describe the availability of the service;
+
+    -   **Capacity**: describe the capacity of the service;
+
+    -   **Business Continuity**: describe the business continuity of the
+        service;
+
+    -   **Performance**: describe the performance of the service;
+
+    -   **Planned Service Interruptions**: describe planned outages.
+
+6.  Enter the data for the service support:
+
+    -   **Incidents Management**: describe about the management of incidents
+        related to the service;
+
+    -   **Problems Management**: describe the management of problems related to
+        the service;
+
+    -   **Change Management**: describe change management related to the
+        service.
+
+7.  Enter service compliance data:
+
+    -   **Internal**: describe the conformity of the internal service;
+
+    -   **External**: describe the compliance of the external service.
+
+8.  If you want to attach a file, click the **Attachments** tab.
+
+9.  After filling in the fields with the required information, click
+    the *Save* button to register service level requirements.
+
+Recording financial attributes
+------------------------------
+
+### How to access
+
+1.  Click **Financial Attributes**.
+
+### Filters
+
+1.  Not applicable.
+
+### Items list
+
+1.  Not applicable.
+
+### Filling in the registration fields
+
+1.  After accessing the functionality, the **Financial Attributes Master
+    Data** screen will be displayed, as shown in the figure below:
+
+   ![figure](images/configure-3.png)
+   
+   **Figure 3 - Financial attributes registration data screen**
+
+2.  Fill in the fields as shown below:
+
+    -   **Category**: enter the category of the financial attribute. If there is
+        no registered category, click the *Add/Edit Financial category
+        button* to register a category;
+
+    -   **Type**: report the type of financial attribute: Cost or Revenue;
+
+    -   **Classification**: enter the classification of the financial attribute;
+
+    -   **Value**: enter the value of the service, taking in to account the type
+        of financial attribute informed.
+
+    -   **Cycle**: enter the service's cycle.
+
+3.  After entering the data, click the *Add to Service* button. The financial
+    attribute will be saved and displayed on the screen;
+
+4.  If you want to import the financial attribute data, click
+    the *Import* button. Once this is done, a screen will be displayed to attach
+    the financial attributes file. In this screen, the file templates are
+    presented to guide you in the form and order that the data should be in the
+    file. Therefore, before selecting the file, make sure that it conforms to
+    the template, taking into account the format (.xls, .xlsx, .xml, or .csv).
+    After verification, enter the file and click the *Add* button to import;
+
+5.  To change the service's financial attribute data, click the *Edit* button,
+    modify the data you want and make the change, where the date, time and user
+    will be saved automatically for a future audit.
+
+Defining the business case
+--------------------------
+
+The business case is defined in the initial phase of the service. The same must
+present the business objectives that must be fulfilled by the service. It is
+based on this business case that performs the approval or not of the service,
+that is, an analysis will be done for approval, to verify if the service will be
+used.
+
+### How to access
+
+1.  Click **Business Cases**.
+
+### Filters
+
+1.  Not applicable.
+
+### Items list
+
+1.  Not applicable.
+
+### Filling in the registration fields
+
+1.  After accessing the functionality, the **Business Case Registration** screen
+    will be displayed, as shown in the figure below:
+
+   ![figure](images/configure-4.png)
+   
+   **Figure 4 - Business case registration screen**
+
+2.  Fill in the fields as shown below:
+
+    -   **Business Case**: define the name of the business case;
+
+    -   **Executive Summary**: describe the business case overview of the
+        service;
+
+    -   **Stakeholder**: describe people interested in the service;
+
+    -   **Scenarios**: describe the service scenarios;
+
+    -   **Opportunity**: describe problems;
+
+    -   **Proposed Solution**: describe the proposed service solution for the
+        business;
+
+    -   **Financial Analysis**: describe the information about the financial
+        analysis;
+
+    -   **Risk Analysis**: describe the main events that may prevent the
+        successful execution of the service;
+
+    -   **Technical Feasibility**: describe the technical feasibility;
+
+    -   **Conclusion**: describe the conclusion;
+
+    -   After entering the data and if you want to attach a file, click
+        the **Attachments** tab.
+
+Linking business process to service
+-----------------------------------
+
+### How to access
+
+1.  Click **Business Processes**.
+
+### Filters
+
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
+
+-   Business Process Name.
+
+### Items list
+
+1.  The following cadastral fields are available to the user to make it easier
+    to identify the desired items in the default listing of the
+    functionality: **ID**, **Business Process Name**, and **Customer**;
+
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *View* and* Delete*;
+
+   ![figure](images/configure-5.png)
+   
+   **Figure 5 - Business process link screen**
+
+3.  Click the *Link Business Process* button. Once this is done, the screen for
+    business process search will be displayed. Perform the search, select the
+    business processes you want, and click the *Add* button to perform the
+    operation;
+
+4.  If you do not find the business process record and need to register one to
+    link to the service, you can register it from this screen by clicking
+    the *New Business Process* button;
+
+5.  After the link from the business process to the service, the same will be
+    displayed on the service business process screen;
+
+6.  To view the business process data, simply click the *View* button;
+
+7.  To delete the link from the business process to the service, simply click on
+    the *Delete* button from the same.
+
+### Filling in the registration fields
+
+1.  Not applicable.
+
+Linking business owner o service
 --------------------------------
 
-### Como acessar
+### How to access
 
-1.  Clique em **Habilidade/Recurso**.
+1.  Click **Business Owner**.
 
-### Filtros
+### Filters
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -   Nome da Habilidade.
+-   Name.
 
-### Listagem de itens
+### Items list
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: ID e Nome da Habilidade.
+1.  The following cadastral fields are available to the user to make it easier
+    to identify the desired items in the standard feature
+    listing: **ID**, **Name** and **Type**;
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Desvincular*.
+2.  There is one action button available to the user in relation to each item in
+    the listing, it is: *Unlink*;
 
-    ![Criar](images/configure-17.png)
+   ![figure](images/configure-6.png)
+   
+   **Figure 6 - Business owner link screen**
 
-    **Figura 17 - Tela de vínculo de habilidade ao serviço**
+3.  If the "business owner" is one or more employees, click on the *Link
+    Owner* button to link the employee (s) to the service. After that, the
+    employee search screen will be displayed. Perform the search, select the
+    contributor (s) and click the *Add* button to make the link;
 
-3.  Clique no botão *Vincular Habilidade*. Feito isso, será exibida a tela de
-    pesquisa de habilidade. Realize a pesquisa, selecione as habilidades
-    desejadas e clique no botão *Enviar* para efetuar o vínculo.
+4.  If the "business owner" is one or more groups, click the *Link
+    Groups* button to link the group (s) to the service. After that, the group
+    search screen will be displayed;
 
-4.  Caso não encontre o registro da habilidade e haja a necessidade de registrar
-    uma habilidade para vincular ao serviço, poderá registrá-la a partir dessa
-    tela, basta clicar no botão *Nova Habilidade* e proceder com o preenchimento
-    dos campos.
+5.  Perform the search, select the group (s) and click the *Add* button to make
+    the link.
 
-5.  Para excluir o vínculo da habilidade com o serviço, basta clicar no
-    botão *Desvincular* do registro da mesma.
+### Filling in the registration fields
 
-### Preenchimento dos campos cadastrais
+1.  Not applicable.
 
-1.  Não se aplica.
+Linking business user to service
+--------------------------------
 
-Registrando procedimento do serviço
-----------------------------------
+### How to access
 
-O procedimento será utilizado no momento de ocorrência de desastres relacionado
-ao serviço.
+1.  Click **Business User**.
 
-### Como acessar
+### Filters
 
-1.  Clique em **Procedimentos**.
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-### Filtros
+-   Name.
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+### Items list
 
-    -   Nome do Serviço.
+1.  The following cadastral fields are available to the user to make it easier
+    to identify the desired items in the standard feature
+    listing: **ID**, **Name** and **Description**;
 
-### Listagem de itens
+2.  There is one action button available to the user in relation to each item in
+    the listing, it is: *Unlink*;
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **ID e Nome Serviço de Procedimento**.
+   ![figure](images/configure-7.png)
+   
+   **Figure 7 - Business user link screen**
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Desvincular*.
+3.  Click the *Link User* button to link the user (s) to the service. Once this
+    is done, the system user search screen will be displayed. Perform the
+    search, select the user (s) and click the *Add* button to make the link;
 
-    ![Criar](images/configure-18.png)
+4.  If the "business user" is one or more groups, click the *Link Group* button
+    to link the group (s) to the service. Once this is done, the group search
+    screen will be displayed. Perform the search, select the group (s) and click
+    the *Add* button to make the link;
 
-    **Figura 18 - Tela de procedimento do serviço**
+5.  To delete the user's link from the business to the service, simply click
+    the *Unlink*.
 
-### Preenchimento dos campos cadastrais
+### Filling in the registration fields
 
-1.  Clique no botão *Novo Serviço de Procedimento*. Feito isso, será apresentada
-    a tela de Cadastro de Procedimento, conforme ilustrada na figura abaixo:
+1.  Not applicable.
 
-    ![Criar](images/configure-19.png)
+Linking support - technical service
+-----------------------------------
 
-    **Figura 19 - Tela de cadastro de procedimento do serviço**
+### How to access
 
-2.  Preencha os campos conforme orientações abaixo:
+1.  Click **Enable Service**.
 
-    -   **Nome do Serviço**: defina o nome do procedimento;
+### Filters
 
-    -   **Sigla/Abreviação**: informe a sigla ou abreviação que representará da
-        atividade de procedimento;
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -   **Situação do Serviço**: selecione a situação do procedimento;
+-   Service Name.
 
-    -   **Data de Implantação**: informe a data da implantação do procedimento;
+### Items list
 
-    -   **Tipo de Demanda**: não é necessário o preenchimento deste campo, pois
-        o mesmo já vem preenchido automaticamente com o tipo "Procedimento";
+1.  The following registration fields are available to the user to facilitate
+    the identification of the desired items in the standard listing of the
+    functionality: **ID**, **Enabling Service Name**, **Phase** and **Status**;
 
-    -   **Categoria**: informe a categoria do procedimento;
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Edit* and *Unlink*;
 
-    -   **Template acompanhamento**: selecione, caso exista, o template de
-        acompanhamento do procedimento;
+   ![figure](images/configure-8.png)
+   
+   **Figure 8 - Support/Technical service link screen**
 
-    -   **Template criação**: selecione, caso exista, o template do
-        procedimento;
+3.  Click the *Link Service* button to link the support/technical services to
+    the core service. Once this is done, the service search screen will be
+    displayed. Perform the survey, select support/technical services and click
+    the *Add* button to successfully link;
 
-    -   **Detalhamento**: descreva os detalhes sobre como o procedimento deverá
-        ser executado;
+4.  After the support/technical service link to the service, it will be
+    displayed on the service support screen;
 
-    -   **Objetivo**: descreva o objetivo do procedimento;
+5.  To exclude the support/technical service link with the service, simply click
+    the *Unlink* from the same service.
 
-    -   **Tipo de Evento**: selecione o tipo de evento para o procedimento;
+### Filling in the registration fields
 
-    -   **SCRIPT de Orientação (Base de Conhecimento)**: informe, caso exista, o
-        script de apoio armazenado na Base de Conhecimento para orientação na
-        execução do procedimento;
+1.  Not applicable.
 
-    -   **Tipo de Serviço**: selecione o tipo de serviço;
+Creating the service map design
+-------------------------------
 
-    -   **Importância do Serviço ao Negócio**: selecione a importância do
-        procedimento ao negócio;
+1.  The service map design is created when the service is approved, and you are
+    in the "Design" stage. In this design is defined what the service needs so
+    that it can meet the needs of the business.
 
-    -   **Lugar de Execução dos Serviços**: selecione o local de execução do
-        procedimento.
+   !!! info "IMPORTANT"
 
-3.  Após informar os dados necessários do procedimento, clique no
-    botão *Gravar* para efetuar o registro. Feito isso, o procedimento será
-    gravado e vinculado ao serviço.
+     To create the service map design, the Support/Technical Services must
+     already be defined.
 
-4.  Para alterar os dados do procedimento, clique no botão *Editar* do mesmo,
-    modifique os dados que desejar e clique em *Gravar*para efetuar a alteração,
-    onde a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria.
+### How to access
 
-5.  Para excluir o procedimento do serviço, clique no botão *Editar* do mesmo e
-    logo em seguida clique no botão *Excluir*.
+1.  Click **Service Map**. After that, the respective map for creating the
+    service map will be displayed, as shown in the figure below:
 
-6.  Para desvincular a procedimento do serviço, basta clicar no
-    botão *Desvincular* do mesmo.
+   ![figure](images/configure-9.png)
+   
+   **Figure 9 - Map creation screen of services map**
 
-7.  Para vincular novamente um procedimento ao serviço, clique no
-    botão *Vincular Serviço de Procedimento*. Feito isso, será exibida a tela
-    para pesquisa dos procedimentos que foram desvinculados do serviço. Realize
-    a pesquisa e selecione o procedimento para realizar o vínculo com sucesso.
+2.  Design the service map using the **Support Services** icons to represent the
+    support/technical services and the **Configuration Items**icons to represent
+    the CIs. Follow the guidelines below:
 
-Administração das avaliações do serviço
---------------------------------------
+-   Choose an icon to represent the support/technical service, click and drag it
+    to the design area. After that, the screen will be displayed to inform the
+    support/technical service data that will be represented by the icon chosen,
+    as shown in the figure below:
 
-### Como acessar
+   ![figure](images/configure-10.png)
+   
+   **Figure 10 - Support/Technical service information registration screen**
 
-1.  Clique em **Avaliações do Serviço**.
+-   Inform the support/technical service, its description and click on the
+    button *Save* to carry out the operation;
 
-### Filtros
+-   Click **Configuration Items** and choose an icon to represent the IC, and
+    then drag it to the design area. After that, the screen will be displayed to
+    inform the IC data that will be represented by the chosen icon, as shown in
+    the figure below:
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+   ![figure](images/configure-11.png)
+   
+   **Figure 11 - Configuration item information registration screen**
 
-    -   Data.
+-   Enter the configuration item and its description. After that, if you want to
+    check the IC information, click the Display **Item Configuration** button;
 
-### Listagem de itens
+-   After entering all the IC data, click on the *Save* button to register the
+    IC information represented by the icon;
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **ID, Usuário, Nota Avaliação, Comentário,
-    Aprovado e Data Criação**.
+-   To change the suppor technical information or IC represented by an icon,
+    simply double-click the icon of the service, or edit the information and
+    click *Save* to make the change.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Excluir* e *Aprovar Avaliação*.
+-   To exclude the support/technical service or the IC represented by an icon,
+    simply double click on the icon of the same and click on
+    the *Delete* button.
 
-    ![Criar](images/configure-20.png)
+3.  After creating the service map design, click the *Save* button, located at
+    the top of the screen, to register;
 
-    **Figura 20 - Tela de administração de avaliações**
+4.  Click the *Generate Print* button to generate the impression of the design,
+    if necessary.
 
-3.  Informe o período do registro da avaliação do serviço e clique no
-    botão *Buscar*. Após isso, serão listadas as avaliações (nota e comentário)
-    do serviço.
+!!! Abstract "TIPS"
 
-4.  Para aprovar a avaliação do serviço, basta clicar no ícone ![Criar](images/configure-21.png) da mesma.
+    To register each activity of a service (request or incident), use the
+    knowledge [Service activity registration][1].
 
-### Preenchimento dos campos cadastrais
+Linking applications to the service
+-----------------------------------
 
-1.  Não se aplica.
+### How to access
 
+1.  Click **Applications**.
 
-[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
-[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/services.html
-[3]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
-[4]:/pt-br/citsmart-platform-7/processes/configuration/IC-management.html
-[5]:/pt-br/citsmart-platform-7/plataform-administration/time/create-calendar.html
-[6]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
-[7]:/pt-br/citsmart-platform-7/plataform-administration/time/create-cycle.html
-[8]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/activity.html
+### Filters
+
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
+
+-   Name.
+
+### Items list
+
+1.  The following cadastral fields are available to the user to make it easier
+    to identify the desired items in the standard feature
+    listing:**ID**, **Name** and **Responsible Name**;
+
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Edit* and *Unlink*;
+
+   ![figure](images/configure-12.png)
+   
+   **Figure 12 - Application link to service screen**
+
+3.  Click the *Link Application* button. Once this is done, the application
+    search screen will be displayed. Perform the search and select the
+    application to make the link;
+
+4.  If you do not find the application registration and need to register an
+    application to link to the service, you can register it from this screen by
+    clicking the *New Application* button;
+
+5.  To change the data of the application linked to the service, click
+    the *Edit* button of the service;
+
+6.  To exclude the link from the application to the service, simply click on
+    the *Unlink* button.
+
+### Filling in the registration fields
+
+1.  Not applicable.
+
+Registering service data schema
+-------------------------------
+
+### How to access
+
+1.  Click **Data Schema**. After that, the **Service Data Schema Master** screen
+    will be displayed, as shown in the figure below:
+
+   ![figure](images/configure-13.png)
+   
+   **Figure 13 - Service data schema master data screen**
+
+2.  Describe the details of the service data schema;
+
+3.  Add the data schema design for the service:
+
+    -   Enter the description of the attachment, click the *Add File* button and
+        select the file you want. Once this is done, it will be added to the
+        data schema record.
+
+4.  After the recorded data, click the *Save* button to perform the operation.
+
+### Filters
+
+1.  Not applicable.
+
+### Items list
+
+1.  Not applicable.
+
+### Filling in the registration fields
+
+1.  Not applicable.
+
+Linking contracts to the service
+--------------------------------
+
+### How to access
+
+1.  Click **Contract**.
+
+### Filters
+
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
+
+-   Contract Number.
+
+### Items list
+
+1.  The following cadastral fields are available to the user to make it easier
+    to identify the desired items in the standard feature
+    listing: **ID**, **Contract Description**, **Customer** and **Provider**;
+
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Edit*, *Unlink* and *Advance*;
+
+   ![figure](images/configure-14.png)
+   
+   **Figure 14 - Service contract link screen**
+
+3.  Click the *Link Contract* button. Once this is done, the contract search
+    screen will be displayed.
+
+   !!! info "IMPORTANT"
+
+      Only contracts of the type "contract" will be made available to link to
+      the business/IT service and only contracts of the type "support contract"
+      and "operational level agreement" to link to the support/technical
+      service. 
+
+4.  Perform contract search. After that, just select the one to make the link
+    successfully;
+
+5.  If you do not find the contract record and need to register a contract to
+    link to the service, you can register it from this screen, just click on
+    the *New Contract* button;
+
+6.  To change the contract data, click the *Edit* button of the contract, modify
+    the data you want and click *Save* to make the change, where the date, time
+    and user will be saved automatically for a future audit;
+
+7.  To delete the link from the service contract, simply click
+    the *Unlink* button from the service;
+
+8.  To configure the service contract attributes, click the *Advance* button of
+    the service contract.
+
+### Filling in the registration fields
+
+1.  Not applicable.
+
+Liking it owners to service
+---------------------------
+
+### How to access
+
+1.  Click **Stakeholders**.
+
+### Filters
+
+1.  The following filters enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to locate the desired
+    items:
+
+-   Name;
+
+-   ID;
+
+-   Status.
+
+### Items list
+
+1.  The following cadastral fields are available to the user to make it easier
+    to identify the desired items in the default listing of
+    functionality: **ID**, **Name** and **Type**;
+
+2.  There is one action button available to the user in relation to each listing
+    item, it is: *Unlink*;
+
+   ![figure](images/configure-16.png)
+   
+   **Figure 15 -Stakeholders link to service screen**
+
+3.  If the "IT owner" is a user, click the *Link Users* button. Once this is
+    done, the user search screen will be displayed. Perform the search, select
+    the users and click the *Add* button to make the link;
+
+4.  If the "IT owner" is a group, click the *Link Groups* button. Once this is
+    done, the group search screen will be displayed. Perform the search, select
+    the groups and click the *Add* button to make the link;
+
+5.  To delete the user or group link with the service, simply click
+    the *Unlink*.
+
+### Filling in the registration fields
+
+1.  Not applicable.
+
+Linking knowledge to service
+----------------------------
+
+### How to access
+
+1.  Click **Knowledge Base**.
+
+### Filters
+
+1.  The following filters enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to locate the desired
+    items:
+
+-   Title.
+
+### Items list
+
+1.  The following cadastral fields are available to the user to make it easier
+    to identify the desired items in the standard feature
+    listing: **ID** and **Title**.
+
+2.  There is one action buttons available to the user in relation to each item
+    in the listing, it is: *Unlink*.
+
+   ![figure](images/configure-16.png)
+   
+   **Figure 16 - Service link screen**
+
+   !!! note "NOTE"
+
+       If the service is available in the Smart Portal, the knowledge related to
+       it will also be displayed in the Smart Portal.
+
+3.  Click the *Link Knowledge* button. Once this is done, the knowledge search
+    screen will be displayed. Perform the search, select the desired knowledge
+    and click the *Add* button to make the link;
+
+4.  To exclude the knowledge link with the service, simply click the *Unlink*.
+
+### Filling in the registration fields
+
+1.  Not applicable.
+
+Linking skills to service
+-------------------------
+
+### How to access
+
+1.  Click **Capability**.
+
+### Filters
+
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
+
+-   Skill (Capability) Name.
+
+### Items list
+
+1.  The following cadastral fields are available to the user to make it easier
+    to identify the desired items in the default list of
+    functionality:**ID** and **Skill (Capability) Name**;
+
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Edit* and *Unlink*;
+
+   ![figure](images/configure-17.png)
+   
+   **Figure 17 - Service capability link screen**
+
+3.  Click the *Link Capability* button. Once this is done, the skill search
+    screen will be displayed. Perform the search, select the skills you want,
+    and click the *Add* button to make the link;
+
+4.  If you do not find the skill record and need to register an capability to
+    link to the service, you can register it from this screen, just click on
+    the *New Capability* button and proceed to fill in the fields;
+
+5.  To exclude the link from the capability with the service, simply click
+    the *Unlink* from the same service's registry.
+
+### Filling in the registration fields
+
+1.  Not applicable.
+
+Registering service procedure
+-----------------------------
+
+The procedure will be used at the time of disasters related to the service.
+
+### How to access
+
+1.  Click **Procedure**.
+
+### Filters
+
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
+
+-   Service Name.
+
+### Items list
+
+1.  The following cadastral fields are available to the user to make it easier
+    to identify the desired items in the standard feature
+    listing: **ID** and **Procedure Name**;
+
+2.  There are action buttons available to the user in relation to each item in
+    the listing, they are: *Edit* and *Unlink*.
+
+![figure](images/configure-18.png)
+
+**Figure 18 - Service procedure screen**
+
+### Filling in the registration fields
+
+1.  Click the *New Procedure* button. Once this is done, the Procedure Record
+    screen will be displayed, as shown in the figure below:
+
+   ![figure](images/configure-19.png)
+   
+   **Figure 19 - Service procedure record screen**
+
+2.  Fill in the fields as shown below:
+
+    -   **Activity Name**: set the name of the procedure;
+
+    -   **Acronym/Abbreviation**: enter the acronym or abbreviation that will
+        represent the activity of the procedure;
+
+    -   **Activity Status**: select the status of the procedure;
+
+    -   **Deployment**: inform the date of the implementation of the procedure;
+
+    -   **Type**: it is not necessary to fill in this field, since it is already
+        filled automatically with the type "Procedure";
+
+    -   **Category**: report the category of the procedure;
+
+    -   **Follow-up Template**: select, if there is one, the procedure follow-up
+        template;
+
+    -   **Creation Template**: select, if it exists, the procedure template;
+
+    -   **Details**: describe the details of how the procedure should be
+        performed;
+
+    -   **Objective**: describe the purpose of the procedure;
+
+    -   **Event Type**: select the event type for the procedure;
+
+    -   **Orientation Script (Knowledge Base)**: report, if available, the
+        support script stored in the Knowledge Base for guidance on the
+        execution of the procedure;
+
+    -   **Activity Type**: select the type of service;
+
+    -   **Importance of Activity to Business**: select the importance of the
+        procedure to the business;
+
+    -   **Place of Execution of Activities**: select the location where the
+        procedure is to be performed.
+
+3.  After entering the required procedure data, click the *Save* button to
+    register. Once this is done, the procedure will be saved and linked to the
+    service.
+
+4.  To change the procedure data, click the *Edit* button of the procedure,
+    modify the data you want and click *Save* to make the change, where the
+    date, time and user will be saved automatically for a future audit.
+
+5.  To delete the service procedure, click the *Edit* button of the service, and
+    then click the *Delete* button.
+
+6.  To unlink the service procedure, simply click the *Unlink* button on it.
+
+7.  To re-link a procedure to the service, click the *Link Procedure* button.
+    Once this is done, the screen for searching the procedures that have been
+    disconnected from the service will be displayed. Perform the search and
+    select the procedure to successfully complete the link .
+
+Administration of service assessments
+-------------------------------------
+
+### How to access
+
+1.  Click **Service Ratings**.
+
+### Filters
+
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
+
+-   Date.
+
+### Items list
+
+1.  The following cadastral fields are available to the user to make it easier
+    to identify the desired items in the standard feature
+    listing: **ID**, **User**, **Evaluation Grade**, **Comment,
+    Aproved** and **Creation date**;
+
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Delete Evaluation* and *Approve Rating* *(Evaluation)*;
+
+   ![figure](images/configure-20.png)
+   
+   **Figure 20 - Assessment management screen**
+
+3.  Enter the service evaluation registration period and click
+    the *Search* button. After this, the evaluations (note and comment) of the
+    service will be listed;
+
+4.  To approve the evaluation of the service, just click on the icon ![figure](images/configure-21.png).
+
+### Filling in the registration fields
+
+1.  Not applicable.
+
+
+
+[1]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+[2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/services.html
+[3]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[4]:/en-us/citsmart-platform-7/processes/configuration/IC-management.html
+[5]:/en-us/citsmart-platform-7/plataform-administration/time/create-calendar.html
+[6]:/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[7]:/en-us/citsmart-platform-7/plataform-administration/time/create-cycle.html
+[8]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/activity.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Anna Martins
+    <b>Updated:</b>08/30/2019 – Anna Martins

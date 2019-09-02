@@ -1,49 +1,46 @@
-title: Homologação de liberação
+title: Release Homologation
 
-Description:Esta funcionalidade permite realizar homologação da liberação de mudanças que foram executadas e testadas.
+Description:This functionality allows to homologate the release of changes that have been performed and tested.
 
-# Homologação de liberação
+# Release Homologation
 
-Esta funcionalidade permite realizar homologação da liberação de mudanças que
-foram executadas e testadas.
+functionality allows to homologate the release of changes that have been
+performed and tested.
 
-Como acessar
+How to access it
 ------------
 
-1.  Acesse a funcionalidade de Gerenciamento de Liberação através da
-    navegação no menu principal **Processos ITIL > Gerência de
-    Liberação > Gerenciamento de Liberação**.
+1.  Access the functionality Release Management through the main menu
+    **ITIL Processes > Release Management > Release Management**.
 
-Pré-condições
+Preconditions
 -------------
 
-1.  Ter a requisição de liberação na fase de homologação;
+1.  Have the release request in the homologation phase;
 
-2.  Ter permissão para executar a homologação da requisição de liberação.
+2.  Have permission to execute the homologation of the release request.
 
-Filtros
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filters allow the user to restrict item participation in 
+    the default functionality listing, making it easy to find items:
 
-    -  Número da Requisição;
+    -  Number of the Request;
 
-    -  Atribuída/Compartilhada.
+    -  Assigned/Shared.
 
-![Criar](images/homologation-1.png)
+![Create](images/homologation-1.png)
 
-**Figura 1 - Tela de pesquisa de liberação**
+**Figure 1 - Release search screen**
 
-Listagem de itens
+List of items
 -----------------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Número, Solicitante, Criada
-    em, Prioridade, Prazo Limite, Atraso, Situação, Tarefa
-    atual, Grupo Executor, Responsável atual e Compartilhada com.
+1.  The following registration fields are available to the user to facilitate 
+    identification of items in the default functionality listing: Number, 
+    Requester, Created On, Priority, Deadline, Delay, Status, Current Task, 
+    Executing Group, Current Responsible, and Shared With.
 
 2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
     listagem, são eles: *Visualizar*, *Relatórios*, *Agendar Requisição de
