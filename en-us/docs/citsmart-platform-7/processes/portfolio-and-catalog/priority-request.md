@@ -70,7 +70,7 @@ Filling in the registrations fields
    !!! note "NOTE"
 
        You can add several levels of urgency according to your need, just click on
-       the icon ![Criar](images/priority-2.png).  
+       the positive "+" icon.  
 
 -   After reporting the urgency levels, click the *Urgency Record *button to
     perform the operation.
@@ -112,4 +112,3 @@ Filling in the registrations fields
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
     <b>Updated:</b>09/02/2019 – Anna Martins
-
