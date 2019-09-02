@@ -1,134 +1,130 @@
-title: Cadastro e pesquisa de conexões LDAP
-Description: Essa funcionalidade permite cadastrar múltiplas conexões LDAP e definir as configurações para cada uma delas.
-# Cadastro e pesquisa de conexões LDAP
+title: LDAP connections registration and search
+Description: LDAP (Lightweight Directory Access Protocol) is a standard protocol that allows you to manage directories.
+# LDAP connections registration and search
 
-O LDAP (*Lightweight Directory Access Protocol* - Protocolo de acesso aos diretórios leves) é um protocolo padrão que permite
-gerenciar diretórios, ou seja, acessar bancos de informações sobre os usuários de uma rede por meio de protocolos TCP/IP.
+LDAP (*Lightweight Directory Access Protocol*) is a standard protocol that allows you to manage directories, that is, access 
+databases of users on a network through TCP/IP protocols.
 
-Essa funcionalidade permite cadastrar múltiplas conexões LDAP e definir as configurações para cada uma delas.
+This feature allows you to register multiple LDAP connections and configure the settings for each LDAP connection.
 
-Como acessar
---------------
+How to access
+-----------------
 
-1. Acesse o menu principal **Parametrização > Configuração LDAP**.
+1. Access the main menu **Parameterization > LDAP Setup**.
 
-Pré-condições
+Preconditions
 ---------------
 
-1. Cadastrar horários para agendamento da sincronização automática (ver [Cadastro e Pesquisa de Horários][1])
+1. Enter schedules for scheduling automatic synchronization (see knowledge [Schedule registration and search][1])
 
-Filtros
+Filters
 ----------
 
-Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando
-a localização dos itens desejados:
+The following filters enable the user to restrict the participation of items in the standard feature listing, making it easier to 
+locate the desired items:
 
-- Url Conexão;
+- Connection URL;
 - DN Base.
     
-![Conexão](images/con-ldap.img1.jpg)
+![Connection](images/ldap.img1.jpg)
 
-**Figura 1 - Tela de pesquisa de conexão LDAP**
+**Figure 1 - LDAP connection search screen**
 
-Listagem de itens
+Items list
 --------------------
 
-Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem padrão 
-da funcionalidade: **ID, URL Conexão** e **DN Base**.
+1. The following cadastral fields are available to the user to make it easier to identify the desired items in the default listing 
+of the functionality: **ID, URL Connection**, and **Base DN**.
 
-Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Editar" e "Excluir".
+2. There are action buttons available to the user for each item in the listing, they are: *Edit* and *Delete*.
 
-![Listagem](images/con-ldap.img2.jpg)
+![Listing](images/ldap.img2.jpg)
 
-**Figura 2 - Tela de lista de conexões LDAP**
+**Figure 2 - LDAP connections list screen**
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 ------------------------------------
 
-!!! warning "ATENÇÃO"
+!!! warning "WARNING"
 
-    Todos os campos são igualmente relevantes para viabilizar a conexão com o LDAP, enquanto o teste não for bem-sucedido o
-    procedimento de configuração não pode ser considerado completado.
+    All fields are equally relevant to enable LDAP connection, while the test is not successful the configuration procedure can not 
+    be considered complete.
     
-1. Será apresentada a tela de LDAP;
+1. The LDAP screen will be displayed;
 
-2. Clique no botão "Novo" (conforme a figura anterior). Feito isso, será apresentada a tela de Cadastro de Conexão LDAP, conforme 
-ilustrada na figura a seguir:
+2. Click the *New* button (according to the previous figure). Once this is done, the LDAP Connection Master screen will be 
+displayed, as shown in the following figure:
 
-    ![Cadastro](images/con-ldap.img3.jpg)
+    ![Entry](images/ldap.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de conexão LDAP**
+    **Figure 3 - LDAP connection master data sheet**
     
-3. Preencha os campos conforme orientações abaixo:
+3. Fill in the fields as directed below:
 
-    - **Implementação**: informe o tipo de implementação LDAP: AD ou OpenLDAP;
-    - **URL de conexão**: informe a URL de conexão com a porta correspondente. A mesma é responsável pelo sincronismo com o LDAP;
-    - **DN Base**: informe o DN (*Distinguished Name*) do domínio;
-    - **Filtro**: defina o filtro para busca de informações;
-    - **DN Manager**: informe o usuário com permissão de administrador no LDAP;
-    - **Pwd Manager**: informe a senha do usuário mencionado no campo acima.
+    - **Implementation**: enter the type of LDAP implementation: AD or OpenLDAP;
+    - **Connection URL**: enter the connection URL with the corresponding port. It is responsible for synchronizing with LDAP;
+    - **Base DN**: enter the DN (Distinguished Name) of the domain;
+    - **Filter**: set the filter to search for information;
+    - **Manager DN**: inform the user with administrator permission in LDAP;
+    - **Manager Pwd**: enter the password of the user mentioned in the field above
     
-4. Clique no botão "Adicionar novo grupo" e após isso, será apresentada a tela para cadastro dos dados, conforme ilustrada na
-figura abaixo:
+4. Click the *Add new group* button and after that, the data record screen will be displayed, as shown in the figure below:
 
-    ![Grupo](images/con-ldap.img4.jpg)
+    ![Group](images/ldap.img4.jpg)
     
-    **Figura 4 - Tela de cadastro de grupo LDAP**
+    **Figure 4 - LDAP Group master register screen**
     
-    !!! note "NOTA"
+    !!! note "NOTE"
     
-        Caso não exista grupos LDAP, preencher o campo “DN Grupo” apenas com um asterisco. Isto fará com que o sistema 
-        verifique todo o domínio.
+        Iif there are no LDAP groups, fill in the "DN Group" field with only one asterisk. This will cause the system to scan the 
+        entire domain.
         
-    - **DN Grupo**: informe o grupo LDAP, local onde estão as subpastas, onde os usuários estão localizados;
-    - **Agendamento**: selecione o horário desejado. Essa opção só estará disponível se a configuração do *quartz* estiver 
-    correta;
-    - **Atributo para nome**: informe o atributo do LDAP que será setado como nome do usuário CITSmart;
-    - **Atualizar vínculos**: por padrão o valor selecionado é “NÃO”. Serve para não atualizar os itens: Perfil de Acesso e 
-    Grupo;
-        - Sempre: o sistema atualiza os vínculos de Perfil de Acesso e Grupo sempre que o sistema sincronizar o LDAP;
-        - Nunca: o sistema nunca atualiza os vínculos de Perfil de Acesso e Grupo nem mesmo na 1ª criação, ou seja, a carga
-        de colaboradores é feita, porém, nenhum usuário estará em um Grupo ou Perfil de Acesso pré estabelecido;
-        - Somente na criação: o sistema atualiza os vínculos de Perfil de Acesso e Grupo somente na criação de um novo usuário 
-        quando o sistema sincronizar com LDAP.
-    - **Perfil de acesso**: selecione o perfil de acesso que será atribuído automaticamente a cada sincronização;
+    - **Group DN**: report the LDAP group, where the subfolders are, where the users are located;
+    - **Scheduler**: select the desired time. This option is only available if the quartz configuration is correct;
+    - **Name attr**: enter the LDAP attribute that will be set as the CITSmart user name;
+    - **Update links**: the following options will be displayed:
+        - Always: the system updates the Access Profile and Group links whenever the system synchronizes LDAP;
+        - Never: the system never updates the Access Profile and Group links even in the first creation, that is, the employee load 
+        is made, however, no user will be in a pre-established Group or Access Profile;
+        - Creation only: the system updates the Access Profile and Group links only when creating a new user when the system 
+        synchronizes with LDAP.
+    - **Access profile**: select the access profile that will be automatically assigned to each synchronization;
     
-    !!! info "IMPORTANTE"
+    !!! info "IMPORTANT"
     
-        O sistema não permite excluir um usuário que tem origem no LDAP.
+        The system does not allow you to delete a user that originates in LDAP.
         
-    - **Grupo**: informe o grupo que os usuários serão vinculados;
-    - **Paginação**: defina o número máximo de usuários que a rotina de sincronização irá retornar;
-    - **Ativo**: defina se o grupo LDAP será ativado. Por padrão o valor selecionado é “SIM”;
-    - Após os dados informados, clique no botão "Adicionar". O grupo LDAP será adicionado na tela de conexão LDAP, conforme 
-    exemplo ilustrado na figura abaixo:
+    - **Group**: inform the group that the users will be linked;
+    - **Pagination**: set the maximum number of users that the synchronization routine will return;
+    - **Active**: set whether the LDAP group is enabled. By default the selected value is "YES";
+    - After the data is entered, click the *Add* button. The LDAP group will be added in the LDAP connection screen, with the 
+    example shown in the figure below:
     
-    ![LDAP](images/con-ldap.img5.jpg)
+    ![LDAP](images/ldap.img5.jpg)
     
-    **Figura 5 - Grupos LDAP**
+    **Figure 5 - LDAP groups**
     
-5. Após os dados informados, clique no botão "Gravar" para gravar a conexão do LDAP, onde a data, hora e usuário também serão
-gravados automaticamente para uma futura auditoria.
+5. After the data is entered, click on the *Save* button to save the LDAP connection, where the date, time and user will also be 
+saved automatically for a future audit.
 
-6. Teste a conexão, para tanto basta clicar no botão "Testar Conexão".
+6. Test the connection by clicking the **Test Connection** button.
 
-    !!! warning "ATENÇÃO"
+    !!! warning "WARNING"
     
-        Observe que antes de pedir para testar DEVE ser clicado o botão "Gravar" para salvar a configuração, caso contrário o 
-        teste usará os dados anteriores às alterações feitas na tela.
+        Note that before asking to test MUST be clicked on the Save button to save the setting, otherwise the test will use the 
+        data prior to the changes made on the screen.
         
-7. Clique no botão "Sincronizar" para realizar a sincronização com LDAP, o que fará que efetivamente os dados fiquem 
-equivalentes.
+7. Click the **Synchronize** button to perform the synchronization with LDAP
 
-!!! abstract "SAIBA MAIS"
+!!! abstract "KNOW MORE"
 
-    Quando há um pedido de autenticação na tela de identificação do sistema (login e senha) é executado um ciclo de busca da 
-    conexão correta com base nesta configuração, ou seja, há uma tentativa de autenticação para cada domínio aqui cadastrado
-    (isso se houver mais de um).
+    Wwhen an authentication request is made on the system identification screen (login and password) a search cycle of the correct 
+    connection is executed based on this configuration, ie, there is an authentication attempt for each domain registered here (if 
+    there is more than one).
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/19/2019 – Larissa Lourenço
+    <b>Updated:</b>02/09/2019 – Larissa Lourenço
     
-[1]:/pt-br/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
+[1]:/en-us/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
