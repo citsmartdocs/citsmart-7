@@ -77,7 +77,7 @@ Filling in the registrations fields
 
    c)  Priority Matrix Registration:
 
-    -  Click the Register Priority Matrix button. Once this is done, the fields
+   - Click the Register Priority Matrix button. Once this is done, the fields
         to define the priority matrix;
 
         -  **Impact Level**: select the impact level;
