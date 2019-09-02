@@ -25,7 +25,7 @@ Filters
 
 -   Portfolio Descripton.
 
-![figura](images/service-1.png)
+![figura](images/portfolio-1.png)
 
 **Figure 1 - Portfolio search screen**
 
@@ -39,7 +39,7 @@ Items list
 2.  There are action buttons available to the user for each item in the listing,
     they are: *Edit* and *Advance*.
 
-![figura](images/service-2.png)
+![figura](images/portfolio-2.png)
 
 **Figure 2 - Portfolio listing screen**
 
@@ -49,7 +49,7 @@ Filling in the registration fields
 1.  Click the *New Portfolio* button, the **Portfolio Register** screen will be
     displayed, as shown in the figure below:
 
-   ![figura](images/service-3.png)
+   ![figura](images/portfolio-3.png)
    
    **Figure 3 - Portfolio master screen**
 
@@ -78,7 +78,7 @@ Filling in the registration fields
 3.  If you want to make the services portfolio available in the 3 available
     languages, the corresponding tab will appear, as shown below:
 
-   ![figura](images/service-4.png)
+   ![figura](images/portfolio-4.png)
    
    **Figure 4 - Internationalization of the portfolio**
 
@@ -90,7 +90,7 @@ Filling in the registration fields
 4.  If you want to make the service portfolio available in Smart Portal and/or
     Chat, click on the **Presentation tab**;
 
-   ![figura](images/service-5.png)
+   ![figura](images/portfolio-5.png)
    
    **Figure 5 - Portfolio availability in the Portal and Chat**
 
@@ -110,7 +110,7 @@ Filling in the registration fields
 -   Click the *Select an image* button and a screen will appear to select an
     image that will represent the service portfolio:
 
-   ![figura](images/service-6.png)
+   ![figura](images/portfolio-6.png)
    
    **Figure 6 - Image selection screen**
 
@@ -123,7 +123,7 @@ Filling in the registration fields
 5.  Click on the **Access Permission** tab, the linkage screen of the groups
     will be displayed, as shown in the figure below:
 
-   ![figura](images/service-7.png)
+   ![figura](images/portfolio-7.png)
    
    **Figure 7 - Group access permission**
 
@@ -156,14 +156,14 @@ By registering a portfolio, you can link it to previously registered surveys.
     Presentation tab, select "*Yes*" in the "available in the portal" option, as
     shown in the figure below. The "Surveys" tab will then be displayed:
 
-    ![figura](images/service-8.png)
+    ![figura](images/portfolio-8.png)
     
     **Figure 8 - Presentation screen**
 
 2.  Click on the *Surveys *tab. The Search Link screen will be displayed, as
     shown in the figure below:
 
-   ![figura](images/service-9.png)
+   ![figura](images/portfolio-9.png)
    
    **Figure 9 - Search linking screen**
 
@@ -184,7 +184,7 @@ A quick overview of the main functionality of the module
     access the Services Portfolio. The **Services Portfolio** screen will be
     displayed, as shown in the figure below:
 
-   ![figura](images/service-10.png)
+   ![figura](images/portfolio-10.png)
    
    **Figure 10 - Services portfolio**
 
@@ -194,7 +194,7 @@ A quick overview of the main functionality of the module
     development. These services are to be applied in the production phase via
     the service transition phase.
 
-   ![figura](images/service-11.png)
+   ![figura](images/portfolio-11.png)
    
    **Figure 11 - Services Pipeline**
 
@@ -203,7 +203,7 @@ A quick overview of the main functionality of the module
     In this part of the service portfolio the services that are in use in
     production and those available for deployment are presented.
 
-   ![figura](images/service-12.png)
+   ![figura](images/portfolio-12.png)
    
    **Figure 12 - Services Catalog**
 
@@ -212,7 +212,7 @@ A quick overview of the main functionality of the module
     registered the services that are no longer in operation. It is used to
     maintain a history of services.
 
-   ![figura](images/service-13.png)
+   ![figura](images/portfolio-13.png)
    
    **Figure 13 - Obsolete services**
 
@@ -220,7 +220,7 @@ A quick overview of the main functionality of the module
     cycle. The following figure presents a vision of the management of the
     Services Portfolio:
 
-   ![figura](images/service-14.png)
+   ![figura](images/portfolio-14.png)
    
    **Figure 14- Service Portfolio Management**
 
@@ -232,7 +232,7 @@ A quick overview of the main functionality of the module
 Overview of main screen functions
 ---------------------------------
 
-![figura](images/service-15.png)
+![figura](images/portfolio-15.png)
 
 **Figure 15 - Service Portfolio management**
 
