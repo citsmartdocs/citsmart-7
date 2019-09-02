@@ -1,274 +1,269 @@
-title: Cadastro de portfolio de serviços
-Description: Permite cadastrar portrfólios de serviço.
+title: Service portfolio registration
+Description: Service portfolio registration
 
-# Cadastro de portfólio de serviços
+# Service portfolio registration
 
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de Gerenciamento de Portfólio de Serviços através da
-    navegação no menu principal **Processos ITIL > Gerência de Portfólio e
-    Catálogo > Gerenciamento de Portfólio e Catálogo**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter definido a permissão de acesso às funcionalidades do Gerenciamento de
-    Portfólio (ver conhecimento [Permissão de acesso do gerenciamento de
-    portfólio][1]).
+1.  Access the Services Portfolio Management functionality by navigating the
+    main menu **Processes Management > Portfolio and Catalog
+    Management > Portfolio and Catalog Management**.
 
-Filtros
+Preconditions
+-------------
+
+1.  You have defined the access permission to the Portfolio Management features
+    (see knowledge [Portfolio management access
+    permission][1]).
+
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -   Descrição portfólio
+-   Portfolio Descripton.
 
-    ![Criar](images/portfolio-1.png)
+![figura](images/portfolio-1.png)
 
-**Figura 1 - Tela de pesquisa de portfólio de serviços**
+**Figure 1 - Portfolio search screen**
 
-Listagem de itens
------------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **ID** e **Descrição Portfólio**.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: **ID** and **Portfolio Description**.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Avançar*.
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Edit* and *Advance*.
 
-    ![Criar](images/portfolio-2.png)
+![figura](images/portfolio-2.png)
 
-**Figura 2 - Tela de listagem de portfólio de serviços**
+**Figure 2 - Portfolio listing screen**
 
-Preenchimento dos campos cadastrais
------------------------------------
+Filling in the registration fields
+----------------------------------
 
-1.  Clique no botão *Novo Portfólio*, será apresentada a tela de **Cadastro de
-    Portfólio**, conforme ilustrada na figura abaixo:
+1.  Click the *New Portfolio* button, the **Portfolio Register** screen will be
+    displayed, as shown in the figure below:
 
-    ![Criar](images/portfolio-3.png)
-
-    **Figura 3 - Tela de cadastro de portfólio**
-
-2.  Preencha os campos conforme orientação abaixo:
-
-    -  **Nome Portfólio**: informe o nome do portfólio de serviços;
-
-    -  **Tipo**: informe o tipo do portfólio de serviços:
-
-        -  **Negócio**: provê os serviços de negócios/TI;
-
-        -  **Apoio**: provê os serviços de apoio/técnico.
-
-    -  **Multi-idiomas**: escolha se o portfólio terá ou não disponibilidade em
-    três línguas diferentes (Português/Inglês/Espanhol). Ao clicar em SIM, uma
-    nova aba aparecerá para o cadastro nos idiomas.
-
-    !!! note "NOTA"
-
-        A escolha do tipo Negócio/Apoio deve estar alinhada com o tipo do contrato
-        que se pretende vincular ao Portfólio. Somente contratos do tipo “Contrato”
-        são vinculados ao tipo "Negócio" e somente contratos do tipo “Contrato de
-        Apoio” e “Acordo de Nível Operacional” são vinculados ao tipo "Apoio".
-
-3.  Caso queira disponibilizar o portfólio de serviços nos 3 idiomas disponíveis
-    a aba correspondente aparecerá, conforme figura abaixo:
-
-    ![Criar](images/portfolio-4.png)
-
-    **Figura 4 - Internacionalização do portfólio**
-
-    !!! info "IMPORTANTE"
-
-        Caso uma das 3 línguas nessa aba ficar em branco, as informações serão
-        preenchidas com as que estiver contidas na aba "Apresentação".
-
-4.  Caso queira disponibilizar o portfólio de serviços no Portal Smart e/ou
-    Chat, clique na aba **Apresentação**;
-
-    ![Criar](images/portfolio-5.png)
-
-     **Figura 5 - Disponibilização do portfólio no Smart Portal e chat**
-
-       -  **Disponível no portal**: selecione a opção "Sim" para disponibilizar o
-           portfólio no Smart Portal. Ao selecionar a opção "Sim", duas novas abas
-           chamadas "Permissão de Acesso" e " Pesquisas" ficarão disponíveis (para
-           maiores informações, leia a seção "Vinculando com Pesquisas");
-
-       -  **Disponível via chat**: selecione a opção “Sim” para disponibilizar o
-            portfólio no Chat;
-
-       -  **Nome**: informe o nome do portfólio que será exibido no Smart Portal e
-           Chat;
-
-       -  **Descrição**: informe uma breve descrição do portfólio de serviços, a qual
-           será exibida no Smart Portal e Chat;
-
-    -  Clique no botão *Selecione uma imagem* e será apresentada uma tela para
-       selecionar uma imagem que representará o Portfólio de Serviços:
-
-    ![Criar](images/portfolio-6.png)
-
-    **Figura 6 - Tela de seleção de imagem**
-
-    !!! note "NOTA"
-
-        A configuração da permissão de acesso do grupo para visualização do Portfólio
-        no Smart Portal, somente será aplicada caso o parâmetro 293 “Habilita permissão
-        de acesso para grupos de usuário no portal” esteja habilitado.
-
-5.  Clique na aba **Permissão de Acesso**, será apresentada a tela para vínculo
-    dos grupos, conforme ilustrada na figura abaixo:
-
-    ![Criar](images/portfolio-7.png)
-
-    **Figura 7 - Permissão de acesso por grupo**
-
-    -  Clique no botão *Vincular Grupos*. Após isso, será exibida a tela de
-    pesquisa de grupos;
-
-    -  Realize a pesquisa, selecione os grupos que terão permissão para visualizar
-    o portfólio no Smart Portal e no Chat, e clique no botão *Enviar* para
-    efetuar a operação;
-
-    -  Para desvincular o grupo, basta clicar no botão *Desvincular* do mesmo.
-
-    !!! note "NOTA"
-
-        Podem ser adicionados vários grupos, quantos desejar
-
-6.  Após informar os dados do portfólio, clique no botão *Gravar* para efetuar o
-    registro.
-
-Vinculando com pesquisas
-------------------------
-
-Ao cadastrar um portfólio, é possível vinculá-lo a pesquisas previamente
-cadastradas.
-
-!!! Abstract "SAIBA MAIS"
-
-     Para maiores informações sobre como cadastrar uma pesquisa, ver
-     conhecimento [Cadastro e pesquisa de pesquisa de
-     satisfação]()
-
-1.  Preencha os campos cadastrais referentes ao novo portfólio. Logo após, na
-    aba Apresentação, selecione "*Sim*" na opção "disponível no portal",
-    conforme a figura abaixo. Será apresentado então, a aba "Pesquisas":
- 
-    ![Criar](images/portfolio-8.png)
+   ![figura](images/portfolio-3.png)
    
-    **Figura 8 - Tela de apresentação**
+   **Figure 3 - Portfolio master screen**
 
-2.  Clique na aba *Pesquisas*. Será apresentada a tela de vínculo de pesquisas,
-    conforme ilustrada na figura abaixo:
+2.  Fill in the fields as directed below:
 
-    ![Criar](images/portfolio-9.png)
+-   **Name**: enter the name of the service portfolio;
+
+-   **Type**: inform the type of service portfolio;
+
+    -   **Business**: provides business/IT services;
+
+    -   **Technical**: provides support/technical services.
+
+-   **Multi-languages**: choose whether or not the portfolio will be available
+    in three different languages (Portuguese/English/Spanish). Selecting *YES*,
+    a new tab will appear for registering the portfolio on those languages.
+
+   !!! note "NOTE"
+
+      The choice of Business/Technical type must be in line with the type of
+      contract to be linked to the portfolio, only contracts of the type
+      "Contract" are linked to the type "Business" and only contracts of the type
+     "Technical Contract" and "Operational Level Agreement" are linked to the
+      "Support" type.
+
+3.  If you want to make the services portfolio available in the 3 available
+    languages, the corresponding tab will appear, as shown below:
+
+   ![figura](images/portfolio-4.png)
    
-    **Figura 9 - Tela de vinculação de pesquisas**
+   **Figure 4 - Internationalization of the portfolio**
 
-3.  Vincule pesquisas ao portfólio;
+   !!! note "NOTE"
 
-    -  Clique no botão *Vincular pesquisas*. Após isso, será apresentada a tela de
-    pesquisa de pesquisas;
+     If one of the 3 languages on this tab is left blank, the information will
+      be filled out with the information contained in the "Presentation".
 
-    -  Realize a pesquisa, selecione a pesquisa que deseja vincular ao portfólio e
-    clique no botão *Enviar* para efetuar a operação;
+4.  If you want to make the service portfolio available in Smart Portal and/or
+    Chat, click on the **Presentation tab**;
 
-    -  Para remover o vínculo da pesquisa selecionada com o portfólio, clique
-    em *Excluir*.
+   ![figura](images/portfolio-5.png)
+   
+   **Figure 5 - Portfolio availability in the Portal and Chat**
 
-Uma visão rápida da principal funcionalidade do módulo
-------------------------------------------------------
+-   **Available in the portal**: select the "Yes" option to make the portfolio
+    available on the portal. Selecting the "Yes" option, a new tab called
+    "Survey" will appear (For more information, read the section" Linking with
+    Surveys ");
 
-1.  Após criar o **Portfólio de Serviços**, clique no botão *Avançar* para
-    acessar o mesmo. Será apresentada a tela do **Portfólio de Serviços**,
-    conforme ilustrada na figura abaixo:
+-   **Available via chat**: select the "Yes" option to make the portfolio
+    available in the chat;
 
-    ![Criar](images/portfolio-10.png)
+-   **Name**: enter the name of the portfolio to display;
 
-    **Figura 10 - Portfólio de serviços**
+-   **Description**: provide a brief description of the service portfolio, which
+    will be displayed;
 
-2.  Note que o **Portfólio de Serviços** é dividido em três partes, sendo:
+-   Click the *Select an image* button and a screen will appear to select an
+    image that will represent the service portfolio:
 
-    -   **Funil de Serviços**: inclui todos os serviços que estão propostos ou em
-    desenvolvimento. Esses serviços são para ser aplicados na fase de produção
-    via fase de transição de serviço.
+   ![figura](images/portfolio-6.png)
+   
+   **Figure 6 - Image selection screen**
 
-    ![Criar](images/portfolio-11.png)
+   !!! note "NOTE"
 
-    **Figura 11 - Funil de serviços**
+    The configuration of the group access permission to view the Service
+    Portfolio in the Portal will only be applied if the parameter 293 "Enable
+    access permission for user groups in the portal" is enabled.
 
-    -   **Catálogo de Serviços**: inclui todos os serviços que a TI oferece aos seus
-    clientes e serviços que já foram liberados e vão entrar em operação. Nesta
-    parte do portfólio de serviços são apresentados os serviços que estão em uso
-    na produção e aqueles disponíveis para implantação.
+5.  Click on the **Access Permission** tab, the linkage screen of the groups
+    will be displayed, as shown in the figure below:
 
-    ![Criar](images/portfolio-12.png)
+   ![figura](images/portfolio-7.png)
+   
+   **Figure 7 - Group access permission**
 
-    **Figura 12 - Catálogo de serviços**
+-   Click the *Link Groups* button. After that, the group search screen appears;
 
-    -   **Serviços Obsoletos**: inclui os serviços que estão aposentados e os que
-    estão fora de operação. Nesta parte do portfólio de serviços estão
-    registrados os serviços que não estão mais na operação. É utilizado para
-    manter um histórico dos serviços.
+-   Perform the search, select the groups that will be allowed to view the
+    portfolio in Portal Smart and/or Chat and click the *Add*button to perform
+    the operation;
 
-    ![Criar](images/portfolio-13.png)
+-   To unlink the group, just click on the *Delete* button.
 
-    **Figura 13 - Serviços obsoletos**
+   !!! info "IMPORTANT"
 
-3.  O Portfólio é responsável por gerenciar o serviço durante o seu ciclo de
-    vida. A figura abaixo apresenta uma visão da gestão do Portfólio de
-    Serviços:
+       You can add as many groups as you want.
 
-    ![Criar](images/portfolio-14.png)
+6.  After entering your portfolio data, click the *Save* button to register.
 
-    **Figura 14 - Gestão do portfólio de serviços**
+Linking with surveys
+--------------------
 
-!!! info "IMPORTANTE"
+By registering a portfolio, you can link it to previously registered surveys.
 
-     O Portfólio de Serviços irá fazer o controle de todos novos serviços
-     propostos, em desenvolvimento, em produção e aposentado.
+   !!! Abstract "TIPS"
 
-Visão geral das funções da tela principal
------------------------------------------
+      For more information on how to register a survey, see
+      knowledge [Satisfaction survey registration and
+      search][1])
 
-![Criar](images/portfolio-15.png)  
+1.  Fill in the cadastral fields referring to the new portfolio. Then, in the
+    Presentation tab, select "*Yes*" in the "available in the portal" option, as
+    shown in the figure below. The "Surveys" tab will then be displayed:
+
+    ![figura](images/portfolio-8.png)
     
-**Figura 15 - Gerenciamento de portfólio de serviços**
+    **Figure 8 - Presentation screen**
 
--   **1**: Botão de menu - ao clicar neste botão, permite esconder/exibir o menu
-    do Gerenciamento de Portfólio;
+2.  Click on the *Surveys *tab. The Search Link screen will be displayed, as
+    shown in the figure below:
 
--   **2**: Barra de navegação - permite navegar entre os dados do portfólio;
+   ![figura](images/portfolio-9.png)
+   
+   **Figure 9 - Search linking screen**
 
--   **3**: Campo de pesquisa - permite realizar a busca de portfólios de
-    serviços;
+3.  Link surveys to portfolio:
 
--   **4**: Negócio - local para armazenar os portfólios de serviços de negócio;
+-   Click the *Link Surveys* button. After that, the search query screen will
+    appear;
 
--   **5**: Apoio - local para armazenar os portfólios de serviços de apoio;
+-   Perform the search, select the survey you want to link to the portfolio, and
+    click the *Add* button to perform the operation;
 
--   **6**: Novo Portfólio - permite criar um novo portfólio de serviços;
+-   To remove the selected survey link from the portfolio, click *Delete*.
 
--   **7**: Editar - permite editar o registro de portfólio de serviços;
+A quick overview of the main functionality of the module
+--------------------------------------------------------
 
--   **8**: Avançar - permite acessar o portfólio de serviços.
+1.  After creating the **Services Portfolio**, click the *Advance* button to
+    access the Services Portfolio. The **Services Portfolio** screen will be
+    displayed, as shown in the figure below:
 
-Veja também
------------
+   ![figura](images/portfolio-10.png)
+   
+   **Figure 10 - Services portfolio**
 
--   [Cadastro de serviços].
+2.  Note that the **Services Portfolio** is divided into three parts:
+
+-   **Service Pipeline**: includes all services that are proposed or under
+    development. These services are to be applied in the production phase via
+    the service transition phase.
+
+   ![figura](images/portfolio-11.png)
+   
+   **Figure 11 - Services Pipeline**
+
+-   **Services Catalog**: includes all the services that IT offers its customers
+    and services that have already been released and will come into operation.
+    In this part of the service portfolio the services that are in use in
+    production and those available for deployment are presented.
+
+   ![figura](images/portfolio-12.png)
+   
+   **Figure 12 - Services Catalog**
+
+-   **Obsolete (Retired) Services**: includes services that are retired and
+    those that are out of service. In this part of the portfolio of services are
+    registered the services that are no longer in operation. It is used to
+    maintain a history of services.
+
+   ![figura](images/portfolio-13.png)
+   
+   **Figure 13 - Obsolete services**
+
+3.  The Portfolio is responsible for managing the service throughout its life
+    cycle. The following figure presents a vision of the management of the
+    Services Portfolio:
+
+   ![figura](images/portfolio-14.png)
+   
+   **Figure 14- Service Portfolio Management**
+
+!!! info "IMPORTANT"
+
+    The Service Portfolio will control all new services proposed, in
+    development, production and retirees.
+
+Overview of main screen functions
+---------------------------------
+
+![figura](images/portfolio-15.png)
+
+**Figure 15 - Service Portfolio management**
+
+- **1** : Menu button - clicking on this button allows you to hide/display the
+Portfolio Management menu;
+
+- **2** : Navigation bar - allows you to navigate between portfolio data;
+
+- **3** : Search field - allows the search of portfolios of services;
+
+- **4** : Business - storage of business services portfolios;
+
+- **5** : Support - storage of portfolios of support services;
+
+- **6** : New Portfolio - allows to create a new portfolio of services;
+
+- **7** : Edit - allows you to edit the service portfolio record;
+
+- **8** : Advance - allows access to the service portfolio.
+ 
+
+See also
+--------
+
+-   [Service registration][2]
 
 
-[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/portfolio-access.html
-[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/services.html
+[1]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/portfolio-access.html
+[2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/services.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/16/2019 – Anna Martins
+    <b>Updated:</b>09/02/2019 – Anna Martins

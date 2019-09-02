@@ -1,88 +1,87 @@
-title: Manual de configuração de ação automática via e-mail
-Description: A finalidade desta funcionalidade é programar a abertura automática de solicitações de serviço via e-mail.
-# Manual de configuração de ação automática via e-mail
+title: Automatic actions via e-mail setup guide
+Description: The purpose of this feature is to automatically open service requests via e-mail.
+# Automatic actions via e-mail setup guide
 
-Como acessar
--------------
+The purpose of this feature is to automatically open service requests via e-mail.
 
-1. Acesse a funcionalidade de configuração de ação automática via e-mail através da navegação no menu principal
-**Sistema > Configurações > Configuração de ação automática via e-mail**.
+How to access
+-----------------
 
-Pré-condições
---------------
+1. Access the automatic action configuration feature via e-mail via navigation in the main menu 
+**System > Settings > Automatic action setting via e-mail**.
 
-1. Cadastrar ação automática de incidente/requisição/procedimento (ver conhecimento [Cadastro e pesquisa de ações automáticas][1], 
-seção "Ações Automáticas - Incidentes/Requisições/Procedimentos").
+Preconditions
+----------------
 
-Filtros
+1. Register automatic incident/request/procedure action (see knowledge [Automatic actions registration and search][1], 
+section "Automatic Actions - Incidents/Requests/Procedures").
+
+Filters
 ---------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a 
-localização dos itens desejados:
+1. The following filter enable the user to restrict the participation of items in the standard feature listing, making it easier to 
+locate the desired items as shown in the figure below:
 
-    - Nome.
+    - Name.
     
-2. Na tela de **Configuração de Ação Automática via E-mail**, clique na aba **Pesquisa**, será apresentada a respectiva tela de
-pesquisa conforme ilustrada na figura abaixo:
+2. In the **E-mail Automatic Action Configuration** screen, click on the **Search** tab, the respective search screen will be 
+displayed as shown in the figure below:
 
-    ![Pesquisa](images/acao-auto.img1.png)
+    ![Search](images/email.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de configuração de ação automática via e-mail**
+    **Figure 1 - E-mail automatic action configuration search screen**
     
-3. Realize a pesquisa da configuração de ação automática via e-mail;
+3. Perform automatic action configuration search via e-mail;
 
-4. Informe o nome da ação automática via e-mail que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o 
-registro conforme o nome informado;
+4. Enter the name of the automatic action via e-mail that you want to search and click the *Search* button. After this, the record 
+will be displayed according to the name entered;
 
-5. Caso deseje listar todos os registros, basta clicar diretamente no botão "Pesquisar".
+5. If you want to list all the records, just click directly on the *Search* button;
 
-Listagem de itens
+Items list
 -------------------
 
-1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens desejados na listagem padrão 
-da funcionalidade: **Nome**.
+1. The following cadastral field is available to the user to facilitate the identification of the desired items in the standard 
+listing of the functionality: **Name**.
 
-    ![Listagem](images/acao-auto.img2.png)
+    ![Listing](images/email.img2.jpg)
     
-    **Figura 2 - Tela de listagem de configuração de ação automática via e-mail**
+    **Figure 2 - E-mail automatic action configuration listing screen**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo 
-referente ao registro selecionado;
+2. After searching, select the desired record. Once this is done, it will be directed to the registration screen displaying the 
+contents of the selected registry;
 
-3. Para alterar os dados do registro de configuração da ação automática via e-mail, basta modificar as informações desejadas e
-clicar no botão "Gravar".
+3. To change the automatic action registration data via e-mail, simply modify the information you want and click the *Save* button.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Será apresentada a tela de **Configuração de ação automática via e-mail**, onde poderá registrar a configuração da ação 
-automática via e-mail, conforme ilustrada na figura abaixo:
+1. The **Automatic action setup via e-mail** screen will appear, where you can register the automatic action configuration via e-
+mail, as shown in the figure below:
 
-    ![Configuração](images/acao-auto.img3.png)
+    ![Configuration](images/email.img3.jpg)
     
-    **Figura 3 - Tela de configuração de ação automática via e-mail**
+    **Figure 3 - E-mail automatic action configuration screen**
     
-2. Preencha os campos conforme orientação abaixo:
+2. Fill in the fields as directed below:
 
-    - **Nome**: informe o nome da ação automática;
-    - **Ação**: informe a ação automática de incidentes/requisições/procedimentos. Essa ação será utilizada como template para a 
-    abertura da solicitação de serviço, pois a mesma possui informações relevantes para a abertura de uma solicitação de 
-    serviço;
-    - **Servidor de entrada**: informe o servidor de entrada de e-mail, conforme mencionado no parâmetro 23;
-    - **Provedor do servidor (impas, pops, imap, pop)**: informe o provedor do servidor de e-mails, conforme mencionado no 
-    parâmetro 26;
-    - **Usuário**: informe o usuário da conta de e-mail, conforme mencionado no parâmetro 24;
-    - **Senha**: informe a senha de acesso de e-mail, conforme mencionado no parâmetro 25;
-    - **Porta do servidor**: informe a porta do servidor de e-mails, conforme mencionado no parâmetro 27;
-    - **Pasta de caixa de entrega**: informe a pasta da caixa de entrada de e-mails, conforme mencionado no parâmetro 28;
-    - **Status**: informe o status da ação automática via e-mail.
+    - **Name**: enter the name of the automatic action;
+    - **Action**: inform the automatic action of incidents / requests / procedures. This action will be used as a template for the 
+    opening of the service request, since it has information relevant to the opening of a service request;
+    - **Incoming mail server**: inform the incoming mail server, as mentioned in parameter 23;
+    - **Server Provider (impas, pops, imap, pop)**: Inform the provider of the mail server, as mentioned in parameter 26;
+    - **User**: inform the user of the e-mail account, as mentioned in parameter 24;
+    - **Password**: enter the password for the e-mail access, as mentioned in parameter 25;
+    - **Server port**: enter the port of the mail server, as mentioned in parameter 27;
+    - **Inbox folder**: enter the e-mail inbox folder as mentioned in parameter 28;
+    - **Status**: report the status of the automatic action via e-mail;
     
-3. Após preenchimento dos campos clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados 
-automaticamente para uma futura auditoria.
+3. After completing the fields, click the *Save* button to register, where the date, time and user will be saved automatically for 
+a future audit.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/19/2019 – Larissa Lourenço
+    <b>Updated:</b>09/02/2019 – Larissa Lourenço
     
-[1]:/pt-br/citsmart-platform-7/plataform-administration/configuring-automatic-actions/automatic-actions.html
+[1]:/en-us/citsmart-platform-7/plataform-administration/configuring-automatic-actions/automatic-actions.html
