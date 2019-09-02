@@ -1,382 +1,380 @@
-title:Cadastro de serviços
-Description: O cadastro de serviços é dividido em dois tipos: Negócio e Apoio.
+title: Service registration
+Description: The service register is divided into two types: Business and Support.
 
-# Cadastro de serviços
+# Service registration
 
-O cadastro de serviços é dividido em dois tipos: Negócio e Apoio.
+The service register is divided into two types: Business and Support.
 
-Pré-condições
+Preconditions
 -------------
 
-1.  Ter permissão de acesso às funcionalidades do Gerenciamento de Portfólio
-    (ver conhecimento [Permissão de acesso do gerenciamento de portfólio][1]);
+1.  Have access permission to portfolio management functionality (see
+    knowledge [Portfolio Management access permission][1]);
 
-2.  Ter o portfólio de serviços cadastrado (ver conhecimento [Cadastro de
-    portfólio de serviços][2]);
+2.  Have the portfolio of services registered (see knowledge [Service Portfolio
+    registration]([2]);
 
-3.  Ter a categoria de serviço cadastrada (ver conhecimento [Cadastro e pesquisa
-    de categoria de serviço][3]);
+3.  Have the service category registered (see knowledge [Solution Category
+    registration and search][3]);
 
-4.  Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de grupo][4]).
+4.  Have the group registered (see knowledge [Group registration and
+    search][4]).
 
-Como acessar
-------------
+How to access
+-------------
 
-1.  Acesse a funcionalidade de Gerenciamento de Portfólio de Serviços através da
-    navegação no menu principal **Processos ITIL > Gerência de Portfólio e
-    Catálogo > Gerenciamento de Portfólio e Catálogo**.
+1.  Access the Services Portfolio Management functionality by navigating the
+    main menu **Processes Management > Portfolio
+    Management > Portfolio Management**.
 
-Filtros
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -   Descrição Portfólio
+-   Portfolio Description.
 
-![Criar](images/service-1.png)
+![figure](images/service-1.png)
 
-**Figura 1 - Tela de pesquisa de serviço**
+**Figure 1 - Portfolio search screen**
 
-Cadastrando serviço de negócio
-------------------------------
-
-### Listagem de itens
-
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: ID e Descrição Portfólio.
-
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Avançar*.
-
-3.  Será apresentada a tela de Gerenciamento de Portfólio, clique
-    em **Negócio**, serão exibidos os Portfólios de Serviços de Negócio,
-    conforme exemplo ilustrado na figura abaixo:
-
-    ![Criar](images/service-2.png)
-
-    **Figura 2 - Tela de gerenciamento de portfólio de serviços de negócio**
-
-4.  Clique no botão *Avançar* do portfólio para acessá-lo. Feito isso, será
-    apresentada a tela do **Portfólio de Serviços de Negócio**;
-
-    ![Criar](images/service-3.png)
-
-    **Figura 3 - Portfólio de serviços de negócio**
-
-### Preenchimento dos campos cadastrais
-
-
-1.  Clique no botão *Novo Serviço*, será apresentada a tela de **Cadastro de
-    Serviço de Negócio**, conforme ilustrada na figura abaixo:
-
-    ![Criar](images/service-4.png)
-
-    **Figura 4 - Tela de cadastro de serviço**
-
-2.  Preencha os campos conforme orientação abaixo:
-
-    -  **Nome do Serviço**: informe o nome do serviço;
-
-    -  **Processo de Iniciação**: informe de qual processo o serviço se originou;
-
-    -  **Categoria**: informe a categoria do serviço. Ao clicar neste campo, será
-    apresentada a tela de pesquisa de categoria, realize a pesquisa da categoria
-    desejada e selecione a mesma. Mas, caso não tenha uma categoria registrada,
-    poderá registrar uma a partir dessa tela, basta clicar na aba “Cadastro de
-    Categoria de Serviço”;
-
-    -  **Data da Implantação**: informe a data de implantação do serviço;
-
-    -  **Fase do Serviço**: selecione a fase do serviço:
-
-          -  **Definir**: esta fase indica que o serviço está em inicialização. Nesta
-             fase se inicia a coleta de informações sobre todos os serviços existentes e
-             propostos, a definição de novos serviços, casos de negócio e validação dos
-             dados do portfólio.
-
-          -  **Analisar**: esta fase indica que o serviço está sendo analisado. Nesta
-             fase é analisado se o serviço vai dar retorno ao negócio e fazemos um
-             balanceamento entre oferta e demanda. Identificando também o que serviço
-             representa para o negócio. Nesta atividade faremos um levantamento macro
-             prévio de quais recursos serão utilizados por estes serviços: pessoas,
-             hardware, software, treinamento, etc. Quando essa opção for selecionada,
-             serão apresentados campos para serem preenchidos, conforme ilustrado na
-             figura abaixo:
-
-      ![Criar](images/service-5.png)
-
-      **Figura 5 - Tela de análise do serviço**
-
-       -  **Tipo de Investimento**: indique o tipo de investimento referente ao
-          serviço;
-
-       -  **Demanda**: indique o tipo de demanda do serviço;
-
-       -  **Retorno Financeiro do Serviço**: indique o retorno financeiro do serviço.
-
-          -  **Aprovar**: esta fase indica que o serviço proposto está em aprovação. Fase
-             para finalizar o serviço proposto, autorizar serviços e recursos e tomar
-             decisões para o futuro. Nesta fase é feita a aprovação do serviço proposto,
-             o serviço é analisado e verifica-se se o mesmo está dando retorno para o
-             negócio. Se ele não der retorno, significa que virou custo, e aí devemos
-             considerá-los como obsoleto.
-
-          -  **Termo de Abertura**: esta fase indica que o serviço está seguindo para
-             fase de desenho de serviços e os serviços existentes são renovados no
-             catálogo de serviços. Nesta fase comunica-se as decisões, aloca recursos e
-             contrata serviços.
-
-    -  **Status do Serviço**: informe o status do serviço;
-
-    -  **Criticidade**: este campo será ativado quando o serviço estiver na fase de
-    análise para informar o nível crítico do serviço;
-
-    -  **Importância do Serviço ao Negócio**: informe a importância do serviço ao
-    negócio:
-
-       -  **Alta**: informá-lo caso o serviço seja imprescindível para o funcionamento
-    do negócio.
-
-       -  **Média**: informá-la caso o serviço seja importante para o negócio, mas a
-    produtividade não seja totalmente dependente dele.
-
-       -  **Baixa**: informá-lo se o serviço a ser realizado for necessário para o
-    dia-a-dia da empresa, mas a sua ausência não cause situações drásticas.
-
-       -  **Normal**: informá-lo caso o serviço a ser realizado não interfira no
-    cotidiano produtivo da organização.
-
-       -  **A combinar**: informá-lo quando não se sabe o tipo de importância do
-    serviço ao negócio no momento do registro.
-
-    -  **Tipo de Serviço**: informe o tipo do serviço;
-
-    -  **Lugar de Execução dos Serviços**: informe o local onde o serviço será
-    executado;
-
-       -  **Interno**: o serviço será realizado dentro da organização;
-
-       -  **Externo**: o serviço será realizado fora da organização. Por exemplo: em
-        outra organização ou em uma filial;
-
-       -  **Interno/Externo**: o serviço poderá ser realizado dentro da organização
-        como fora.
-
-    -  **Detalhamento**: descreva os detalhes do serviço;
-
-    -  **Objetivo**: descreva o objetivo do serviço;
-
-    -  **Valor**: informe o valor do serviço para o negócio;
-
-    -  **Template de Serviço**: informe o template do serviço para personalização
-    da tela de registro do serviço, por exemplo: ao selecionar um template que
-    consta um questionário, será apresentada na tela de registro de serviço uma
-    aba de "questionário" para inserção de informações a respeito do serviço;
-
-3.  Caso queira anexar um arquivo, clique na aba **Documentos Anexos**. Será
-    exibida a tela para anexo de arquivos, conforme ilustrada na figura abaixo:
-
-    ![Criar](images/service-6.png)
-
-    **Figura 6 - Tela de anexo de documentos**
-
-    -  Selecione o tipo de anexo, clique no botão *Adicionar Arquivo* e selecione o
-    arquivo desejado.
-
-4.  Caso queira disponibilizar o serviço no Portal Smart e Chat, clique na
-    aba **Apresentação:**
-
-    ![Criar](images/service-7.png)
-
-    **Figura 7 - Disponibilização do serviço no Smart Portal e chat**
-
-    -  **Disponível no portal**: selecione a opção "Sim" para disponibilizar o
-    serviço no Smart Portal. Ao selecionar a opção "Sim", uma nova aba chamada
-    "Pesquisas " aparecerá (Para maiores informações, leia a seção "Vinculando
-    com Pesquisas").
-
-    -  **Disponível via chat**: selecione a opção “Sim” para disponibilizar o
-    serviço no Chat;
-
-    -  **Aprovação automática de avaliação do serviço**: defina se a avaliação do
-    serviço, realizada no Smart Portal, passará por uma aprovação automática;
-
-    -  **Nome**: informe o nome do serviço para ser exbido no Smart Portal e Chat;
-
-    -  **Descrição**: informe uma breve descrição do serviço, a qual será exibida
-    no Smart Portal e Chat;
-
-    -  Clique no botão *Selecione uma imagem* e será apresentada uma tela para
-    selecionar uma imagem que representará o serviço:
-
-    ![Criar](images/service-8.png)
-
-    **Figura 8 - Tela de seleção de imagem**
-
-    -  Vincule os grupos que terão acesso ao serviço no Portal e no Chat:
-
-    !!! note "NOTA"
-
-        A configuração da permissão de acesso do grupo para visualização do
-        Serviço no Portal, somente será aplicada caso o parâmetro “Habilita
-        permissão de acesso para grupos de usuário no portal” esteja habilitado.
-
-5.  Clique na aba **Permissão de Acesso**, será apresentada a tela para vincular
-    os grupos, conforme ilustrada na figura abaixo:
-
-    ![Criar](images/service-9.png)
-
-    **Figura 9 - Permissão de acesso por grupo**
-
-    -  Clique no botão *Vincular Grupos*, será exibida a tela de pesquisa de grupo.
-    Nesta tela, serão listados somente os grupos que foram vinculados no
-    registro do portfólio de serviço;
-
-    -  Realize a pesquisa, selecione os grupos que terão permissão para visualizar
-    o serviço no Portal Smart e no Chat, e clique no botão *Enviar* para efetuar
-    a operação.
-
-    -  Para desvincular o grupo, basta clicar no botão *Desvincular* do mesmo.
-
-6.  Após informar os dados do serviço de negócio, clique no botão *Gravar*.
-    Feito isso, o serviço será gravado e apresentado no **Portfólio de Serviços
-    de Negócio**. Será apresentada tela com listagem de serviços.
-
-7.  Para configurar os atributos do Serviço de Negócio, clique no
-    botão *Avançar*.
-
-8.  Para excluir o Serviço de Negócio, clique no botão *Editar* do mesmo e logo
-    em seguida clique no botão *Excluir* para efetuar a operação.
-
-    !!! note "NOTA"
-
-        Quando o serviço estiver com status em "requisitos", "definição",
-        "análise", "aprovado", "termo de abertura", "desenho", "desenvolvimento",
-        "construção" ou "teste", ele se encontrará na parte de "Funil de
-        Serviços". Quando o serviço estiver com o status em "liberação" ou
-        "produção", ele se encontrará na parte de "Catálogo de Serviços". Quando o
-        serviço estiver com o status em "aposentando" ou "aposentado", ele se
-        encontrará na parte de "Serviço Obsoletos".
-
-
-9.  Caso queira disponibilizar o serviço nas 3 línguas disponíveis
-    (Português/Inglês/Espanhol), clique na aba Multi-idiomas conforme figura
-    abaixo:
-    
-!!! info "IMPORTANTE"
-         
-     O campo Multi-idiomas somente aparecerá no cadastro/edição de serviço se o mesmo estiver com opção SIM na aba        principal do portfólio escolhido.
-
-    
-   ![Criar](images/service-10.png)
-   
-   **Figura 10 - Tela de internacionalização de serviços**
-
-!!! note "NOTA"
-
-     Caso uma das 3 línguas nessa aba ficar em branco, as informações serão
-     preenchidas com as que estiver contidas na aba "Apresentação".
-
-Vinculando com pesquisas
-------------------------
-
-Ao cadastrar um serviço, é possível vinculá-lo a pesquisas previamente
-cadastradas.
-
-!!! Abstract "SAIBA MAIS"
-
-     Para maiores informações sobre como cadastrar uma pesquisa, ver
-     conhecimento [Cadastro e pesquisa de pesquisa de satisfação].
-
-1.  Preencha os campos cadastrais referentes ao novo serviço. Na aba
-    Apresentação, selecione "*Sim*" na opção "disponível no portal", conforme a
-    figura abaixo. Será apresentado então, a aba "Pesquisas":
-
-    ![Criar](images/service-11.png)
-
-    **Figura 11 - Tela de apresentação**
-
-2.  Clique na aba *Pesquisas*. Será apresentada a tela de vínculo de pesquisas,
-    conforme ilustrada na figura abaixo:
-
-    ![Criar](images/service-12.png)
-
-    **Figura 12 - Tela de vinculação de pesquisas**
-
-3.  Vincule pesquisas ao serviço:
-
-    -   Clique no botão *Vincular pesquisas*. Após isso, será apresentada a tela
-    pesquisas;
-
-    -   Realize a pesquisa, selecione a pesquisa que deseja vincular ao serviço e
-    clique no botão *Enviar* para efetuar a operação;
-
-    -   Para remover o vínculo da pesquisa selecionada com o serviço, clique
-    em *Excluir*.
-
-Registrando serviço de apoio
+Registering business service
 ----------------------------
 
-### Listagem de itens
+### Items list
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: ID e Descrição Portfólio.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: **ID** and **Portfolio Description**.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Avançar*.
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Edit* and *Advance*.
 
-3.  Após isso, será apresentada a tela de Gerenciamento de Portfólio, clique
-    em **Apoio**, serão exibidos os Portfólios de Serviços de Apoio, conforme
-    exemplo ilustrado na figura abaixo:
+3.  The Portfolio Management screen will appear, click on **Business**, the
+    Portfolio of Business Services will be displayed, as shown in the figure
+    below:
 
-    ![Criar](images/service-13.png)
+   ![figure](images/service-2.png)
+   
+   **Figure 2 - Business services portfolio listing screen**
 
-    **Figura 13 - Tela de gerenciamento de portfólio**
+4.  Click on the *Advance* portfolio button to access it. Once this is done,
+    the **Business Services Portfolio** screen will be displayed;
 
-4.  Clique no botão *Avançar* do portfólio para acessá-lo. Feito isso, será
-    apresentada a tela do **Portfólio de Serviços de Apoio**;
+![figure](images/service-3.png)
 
-    ![Criar](images/service-14.png)
+**Figure 3 - Business services portfolio**
 
-    **Figura 14 - Portfólio de serviços de apoio**
+### Filling in the registration fields
 
-### Preenchimento dos campos cadastrais
+1.  Click on the *New Service* button, the **Business Service
+    Registration** screen will be displayed, as shown in the figure below:
 
-1.  Clique no botão *Novo Serviço*, será apresentada a tela de **Cadastro de
-    Serviço de Apoio**, conforme ilustrada na figura abaixo:
+   ![figure](images/service-4.png)
+   
+   **Figure 4 - Service screen**
 
-    ![Criar](images/service-15.png)
+2.  Fill in the fields as directed below:
 
-    **Figura 15 - Tela de cadastro de serviço de apoio / técnico**
+-  **Service Name**: enter the name of the service;
 
-2.  Preencha os campos seguindo as orientações descrita no item anterior
-    “Cadastrando Serviço de Negócio”.
+-  **Process Initiation**: inform of which process the service originated;
 
-3.  Após informar os dados do Serviço de Apoio, clique no botão *Gravar* para
-    efetuar a operação. Feito isso, o serviço será gravado e apresentado na tela
-    no Portfólio de Serviços de Apoio e uma tela será apresentada com a
-    listagem de serviços.
+-  **Category**: enter the service category. Clicking on this field will
+    display the category search screen, perform the search of the desired
+    category and select it. But, if you do not have a registered category, you
+    can register one from this screen, just click on the "Category of Service"
+    tab;
 
-4.  Para configurar os atributos do Serviço de Apoio , clique no
-    botão *Avançar*.
+-  **Deployment Date**: inform the date of implementation of the service;
 
-Veja também
------------
+-  **Service Phase**: select the phase of the service;
 
--   [Configuração dos atributos do serviço][5].
+     -  **Define**: this stage indicates that the service is on startup. At this
+    stage, the collection of information on all existing and proposed services,
+    the definition of new services, business cases and the validation of the
+    portfolio data begins.
 
-[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/portfolio-access.html
-[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
-[3]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/service-category.html
-[4]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
-[5]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
+     -  **Analyze**: this phase indicates that the service is being analyzed. At
+    this stage it is analyzed whether the service will give return to the
+    business and we make a balance between supply and demand. Also identifying
+    what service represents for the business. In this activity we will make a
+    preliminary macro survey of what resources will be used by these services:
+    people, hardware, software, training, etc. When this option is selected,
+    fields will be displayed to be filled, as shown in the figure below:
+
+   ![figure](images/service-5.png)
+   
+   **Figure 5 - Service analysis screen**
+
+      -  **Type of Investment**: indicate the type of investment related to the
+    service;
+
+      -  **Demand**: indicate the type of demand for the service;
+
+      -  **Financial Return of the Service**: indicate the financial return of the
+    service.
+
+      -  **Approve**: this phase indicates that the proposed service is in approval.
+    Phase to finalize the proposed service, authorize services and resources and
+    make decisions for the future. At this stage the proposed service is
+    approved, the service is analyzed and it is verified if it is giving return
+    to the business. If it does not return, it means that it has become cost,
+    and then we must consider them as obsolete.
+
+    -  **Opening Term**: this phase indicates that the service is moving to the
+    service design phase and the existing services are renewed in the service
+    catalog. At this stage the decisions are communicated, allocates resources
+    and contracts services.
+
+-  **Service Status**: enter the status of the service;
+
+-  **Criticality**: this field will be activated when the service is in the
+    analysis phase to inform the critical level of the service;
+
+-  **Importance of the Service to the Business**: inform the importance of the
+    service to the business;
+
+    -  **High**: inform you if the service is essential for the operation of the
+    business.
+
+    -  **Average**: inform it if the service is important for the business, but
+    productivity is not totally dependent on it.
+
+   -  **Low**: inform you if the service to be performed is necessary for the
+    day-to-day business of the company, but its absence does not cause drastic
+    situations.
+
+   -  **Normal**: inform you if the service to be performed does not interfere
+    with the organization's productive daily life.
+
+   -  **To combine**: inform you when you do not know the type of importance of
+    service to the business at the time of registration.
+
+-  **Type of Service**: state the type of service;
+
+-  **Place of Execution of the Services**: inform the place where the service
+    will be executed;
+
+   -   **Internal**: the service will be performed within the organization;
+
+   -   **External**: the service will be performed outside the organization. For
+    example: in another organization or in a branch;
+
+   -   **Internal/External**: the service can be performed inside the organization
+    as outside.
+
+-   **Detailing**: describe the details of the service;
+
+-   **Objective**: describe the purpose of the service;
+
+-   **Value**: enter the value of the service for the business;
+
+-   **Service Template**: enter the service template to customize the service
+    registration screen, for example: when selecting a template that includes a
+    questionnaire, a "questionnaire" tab will be displayed on the service
+    registration screen to insert information about the service.
+
+3.  If you want to attach a file, click the **Attachments** tab. The file
+    attachment screen will be displayed, as shown in the figure below:
+
+   ![figure](images/service-6.png)
+   
+   **Figure 6 - Document attachment screen**
+
+-   Select the attachment type, click the *Add File* button and select the
+    desired file.
+
+4.  If you want to make the service available in Smart Portal and/or Chat, click
+    on the **Presentation **tab:
+
+   ![figure](images/service-7.png)
+   
+   **Figure 7 - Provision of the service in the Portal and/or chat**
+
+-   **Available on the porta**: select the "Yes" option to make the service
+    available on the portal. Selecting the "Yes" option, a new tab called
+    "Survey" will appear (For more information, read the section" Linking with
+    Surveys ");
+
+-   **Available via chat**: select the "Yes" option to make the service
+    available in the chat;
+
+-   **Automatic approval of evaluation of the service**: define if the
+    evaluation of the service, performed in the portal, will undergo an
+    automatic approval;
+
+-   **Name**: enter the name of the service to view;
+
+-   **Description**: enter a brief description of the service, which will be
+    displayed;
+
+-   Click the *Select an image* button and a screen will appear to select an
+    image that will represent the service:
+
+   ![figure](images/service-8.png)
+   
+   **Figure 8 - Image selection**
+
+-   Link the groups that will have access to the service in the Portal and/or
+    Chat.
+
+   !!! note "NOTE"
+
+    The configuration of the group access permission to view the Service in
+    the Portal will only be applied if the parameter "Enable accesspermission
+    for user groups in the portal" is enabled.
+
+5.  Click on the **Access Permission** tab, the screen to link the groups will
+    be displayed, as shown in the figure below:
+
+   ![figure](images/service-9.png)
+   
+   **Figure 9 - Access permission by group**
+
+-   Click the *Link Groups* button, the Group Search screen appears. In this
+    screen, only the groups that were linked in the service portfolio register
+    will be listed;
+
+-   Perform the search, select the groups that will be allowed to view the
+    service in Smart Portal and/or Chat and click the *Send*button to perform
+    the operation;
+
+-   To unlink the group, just click on the *Unlink* it button.
+
+6.  After entering business service data, click the *Save* button. Once this is
+    done, the service will be recorded and presented in the **Business Services
+    Portfolio**. A list of services will be displayed;
+
+7.  To configure the Business Service attributes, click the *Advance* button;
+
+8.  To delete the Business Service, click the Edit button of the business, and
+    then click the *Delete* button to perform the operation.
+
+   !!! note "NOTA"
+
+      When the service meets the status of "requirements", "definition",
+     "analysis", "approved", "opening term", "design", "development",
+     "construction", or "test" Is in the "service pipeline" part. When the
+     service meets the status of "release" or "production", it is in the "Service
+     Catalog" section. When the service meets the status of "retiring" or
+     "retired," it is in the "Obsolete Service" section.
+
+9.  If you want to make the service available in the 3 available languages
+    (Portuguese/English/Spanish), click on the Multi-languages tab as shown
+    below:
+
+!!! info "IMPORTANT"
+
+    The Multi-languages field will only appear in the service registration/edit
+    if it has a SIM option in the Main tab of the chosen portfolio.
+
+   ![figure](images/service-10.png)
+   
+   **Figure 10 - Service internationalization screen**
+
+!!! info "IMPORTANT"
+
+     If one of the 3 languages on this tab is left blank, the information will
+     be filled out with the information contained in the "Presentation" tab.
+
+Linking with surveys
+--------------------
+
+By registering a service, you can link it to previously registered surveys.
+
+!!! Abstract "TIPS"
+
+     For more information on how to register a survey, see
+     knowledge [Satisfaction survey registration and
+     search][6])
+
+1.  Fill in the cadastral fields referring to the new service. Then, in the
+    Presentation tab, select "*Yes*" in the "available in the portal" option, as
+    shown in the figure below. The "Surveys" tab will then be displayed:
+
+   ![figure](images/service-11.png)
+   
+   **Figure 11 - Presentation screen**
+
+2.  Click on the *Surveys* tab. The Search Link screen will be displayed, as
+    shown in the figure below:
+
+   ![figure](images/service-12.png)
+   
+   **Figure 12 - Search Linking screen**
+
+3.  Link surveys to service:
+
+-   Click the *Link Surveys* button. After that, the search query screen will
+    appear;
+
+-   Perform the search, select the survey you want to link to the service, and
+    click the *Add *button to perform the operation;
+
+-   To remove the selected survey link from the servie, click *Delete*.
+
+Registering support service
+---------------------------
+
+### Items list
+
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: **ID** and **Description**.
+
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Edit* and *Advance*.
+
+3.  After that, the Portfolio Management screen will appear, click
+    on **Support**, the Portfolios of Support Services will be displayed, as
+    shown in the figure below:
+
+   ![figure](images/service-13.png)
+   
+   **Figure 13 - Portfolio listing screen**
+
+4.  Click the *Advance* portfolio button to access it. Once this is done,
+    the **Support Services Portfolio** screen will be displayed;
+
+![figure](images/service-14.png)
+
+**Figure 14 - Support service portfolio**
+
+### Filling in the registration fields
+
+1.  Click the *New Service* button, the **Support Service Registration** screen
+    will be displayed, as shown in the figure below:
+
+   ![figure](images/service-15.png)
+   
+   **Figure 15 - Support Technical service registration screen**
+
+2.  Fill in the fields following the guidelines described in the item
+    "Registering Business Service";
+
+3.  After entering the Support service data, click the *Save* button to perform
+    the operation. Once this is done, the service will be saved and displayed on
+    the screen in the **Support Services Portfolio**;
+
+4.  To configure Support service attributes, click the *Advance* button.
+
+See also
+--------
+
+-   [Service Attributes configuration][5].
+
+
+[1]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/portfolio-access.html
+[2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+[3]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/service-category.html
+[4]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[5]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
+[6]:/en-us/citsmart-platform-7/additional-features/surveys-and-feedback/satisfaction-survey-registration.html
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/16/2019 – Anna Martins
+    <b>Updated:</b>09/01/2019 – Anna Martins
