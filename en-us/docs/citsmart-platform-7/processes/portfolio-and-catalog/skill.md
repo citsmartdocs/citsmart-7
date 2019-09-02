@@ -47,7 +47,7 @@ Items list
     identify the desired items in the standard feature listing: **Capability
     Name**.
 
-   ![figure](images/skill-3.png)
+   ![figure](images/skill-2.png)
    
    **Figure 2 - Items Screen**
 
@@ -66,7 +66,7 @@ Filling in the registration fields
 1.  Access the feature, after that, the** Capability Master** screen will be
     displayed, as shown below:
 
-   ![figure](images/skill-1.png)
+   ![figure](images/skill-3.png)
    
    **Figure 3 - Skill Registration screen**
 
