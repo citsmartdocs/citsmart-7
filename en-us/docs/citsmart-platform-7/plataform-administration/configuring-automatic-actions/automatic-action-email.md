@@ -13,7 +13,7 @@ How to access
 Preconditions
 ----------------
 
-1. Register automatic incident/request/procedure action (see knowledge [Automatic actions registration and search[1], 
+1. Register automatic incident/request/procedure action (see knowledge [Automatic actions registration and search][1], 
 section "Automatic Actions - Incidents/Requests/Procedures").
 
 Filters
