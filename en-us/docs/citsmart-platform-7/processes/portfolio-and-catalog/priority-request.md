@@ -55,7 +55,7 @@ Filling in the registrations fields
    !!! note "NOTE"
 
       You can add several levels of impact according to your need, just click on
-      the icon ![Criar](images/priority-2.png).
+      the positive "+" icon.
 
 -   After reporting impact levels, click the *Record Impact* button to perform
     the operation.
