@@ -1,39 +1,36 @@
-title: Módulo Gerenciamento de Conhecimento
-Description: Objetivo do módulo. 
-# Módulo Gerenciamento de Conhecimento
+title: Knowledge Management module
+Description: Module objective
+# Knowledge Management module
 
-Objetivo do módulo
+Module objective
 --------------------
 
-O Gerenciamento do Conhecimento melhora a qualidade da tomada de decisão, garantindo a
-disponibilidade das informações e conhecimento, de forma confiável e íntegra, durante 
-todo o ciclo de vida do serviço. O mesmo tem por objetivo disponibilizar e manter os 
-conhecimentos relevantes que apoiam a execução do serviço.
+Knowledge Management improves the quality of decision making, ensuring the availability of information and knowledge, reliably and 
+comprehensively, throughout the service life cycle. The purpose is to provide and maintain the relevant knowledge that support the 
+execution of the service.
 
-Nessa funcionalidade apresenta a listagem dos conhecimentos que estão gravados na Base de
-Conhecimento.
+This feature lists the knowledge that is stored in the Knowledge Base.
 
-Onde estão suas funcionalidades
+Where are the features
 ---------------------------------
 
-Acesse o menu principal **Processos ITIL > Gerência de Conhecimento**.
+To access the functionality click on the main menu **Process Management > Knowledge Management**.
 
-![Menu](images/overview-img1.png)
+![Menu](images/module.img1.jpg)
 
-**Figura 1 - Menu do módulo Gerência de Conhecimento**
+**Figure 1 -Knowledge Management module menu**
 
-Principal funcionalidade (em destaque)
+Main feature (in highlight)
 ---------------------------------------
 
-Na seção "Veja também" é possível acessar a(s) funcionalidade(s) principal(is) deste
-módulo, desta forma se pode obter um conhecimento mais detalhado.
+In the *See also* section you can access the main functionality(ies) of this module, in order to obtain a more detailed knowledge.
 
-Veja também
+See also
 -------------
 
-- [Gerenciamento de Conhecimento](/pt-br/citsmart-platform-7/processes/knowledge/management.html)
+- [Knowledge management](/en-us/citsmart-platform-7/processes/knowledge/management.html)
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/26/2019 – Larissa Lourenço
+    <b>Updated:</b>09/02/2019 – Larissa Lourenço

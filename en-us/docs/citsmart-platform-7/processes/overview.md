@@ -1,293 +1,284 @@
-title:  Visão geral (ITSM)
-Description: Disponibiliza uma visão geral do sistema ITSM. 
-# Visão geral (ITSM)
+title:  Overview (ITSM)
+Description: Explains how the knowledge base about the CITSmart Corporation solutions was structured and how to use it. 
+# Overview (ITSM)
 
-Leia-me
+Read me first
 ---------
 
-Este [link][1] explica como a base de conhecimento da CITSmart Corporation foi estruturada e como usá-la.
+This [link][1] explains how the knowledge base about the **CITSmart Corporation** solutions was structured and how to use it.
 
-
-![simbolo](images/simb-cits.jpg) CITSmart Enterprise ITSM
+![symbol](images/simb-cits.jpg) CITSmart Enterprise ITSM
 ------------------------------------------------------------
 
-É uma plataforma de governança corporativa inteligente na linha de um ITSM (*Information Technology Service Management*), cujo 
-objetivo geral é apoiar as organizações no Gerenciamento de Serviços de Tecnologia da Informação (TI) e do Negócio com a adoção 
-das melhores práticas ITIL (*Information Technology Infrastructure Library*).
+It is an intelligent corporate governance platform in line with an Information Technology Service Management (ITSM), whose overall 
+objective is to support organizations in Information Technology (IT) and Business Service Management by adopting the best practices 
+ITIL (Information Technology Infrastructure Library).
 
-**Por que adotá-lo?** Sabe-se que trabalhar com informações em tempo real na tomada de decisão torna as empresas mais 
-competitivas e qualificadas para atender as suas demandas e suas atividades, a fim de diminuir as perdas ou prejuízos nos 
-negócios já que os mesmos estão em constante monitoramento. Portanto, se bem aplicada, a tecnologia da informação faz com que os 
-gestores passem a conhecer melhor as suas atividades empresariais e empregar os fluxos enérgicos de investimentos na direção mais 
-adequada. Com isso, fornecendo às empresas uma estrutura de organização e implementação de serviços na qual aplica as melhores 
-práticas ao ambiente organizacional traduzindo objetivos e metas em realidade mensurável.
+**Why Adopt It**? It is known that working with real-time information in decision making makes companies more competitive and 
+qualified to meet their demands and their activities in order to reduce losses or business damages since they are in constant 
+monitoring. Therefore, if well applied, information technology makes managers better understand their business activities and 
+employ the energetic flows of investments in the most appropriate direction. This provides companies with an organizational 
+structure and a service implementation that applies the best practices to the organizational environment, translating objectives 
+and goals into measurable reality.
 
-A imagem abaixo mostra a cobertura significativa desta solução em relação aos processos previstos na biblioteca ITIL:
+The image below shows the significant coverage of this solution in relation to the processes foreseen in the ITIL library:IL:
 
-![visão](images/visa-geral.img1.jpg)
+![Overview](images/overview.img1.jpg)
 
-| **Estágios do ciclo de vida ITIL para serviços** | **Processos ITIL**                                                                                                                                               |
+| **Stages of the ITIL Lifecycle for services** | **ITIL processes**                                                                                                                                               |
 |----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Service Strategy                             | [Gerenciamento de Portfólio de Serviços][2]                                                                                                                      |
-| Service Design                               | [Gerenciamento de Nível de Serviços][3]; [Gerenciamento de Catálogo de Serviços][4]; [Gerenciamento de Continuidade de Serviços de TI][5]; [Gerenciamento de Disponibilidade][6] |
-| Service Transition                           | [Gerenciamento de Mudança][7]; [Gerenciamento de Configuração e Ativo de Serviço][8]; [Gerenciamento de Liberação e Entrega][9]; [Gerenciamento de Conhecimento][10]              |
-| Service Operation                            | [Gerenciamento de Requisições e Incidentes][11]; [Gerenciamento de Evento][12]; [Gerenciamento de Problema][13]                                                               |
+| Service Strategy                             | [Service Portifolio Management][2]                                                                                                                      |
+| Service Design                               | [Service Level Management][3]; [Service Catalog Management][4]; [IT Service Continuity Management][5]; [Avaliability Management][6] |
+| Service Transition                           | [Change Management][7]; [Service Assets and Configuration Management][8]; [Release & Deployment Management][9]; [Knowledge Management][10]              |
+| Service Operation                            | [Ticket Management module][11]; [Event Management][12]; [Problem Management][13]                                                               |
 
-
-Público-alvo da solução e principais benefícios
+![symbol](images/simb-people.small.jpg) Target audience of the solution and main benefits
 ---------------------------------------------------
 
-| Púlico-alvo                                      | Benefícios                                                                                                                                                                                                                                                                                                                        |
+| Target audience                                     | Benefits                                                                                                                                                                                                                                                                                                                       |
 |--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Alta Direção                                     | 1. Promover melhorias na eficiência dos processos de prestação de serviços de TI e de negócio; 2. Visualizar relatórios e dashboards que apoiem mudanças e melhorias; 3. Visualizar a saúde dos seus serviços de negócio; 4. Visualizar o monitoramento estratégico de riscos; 5. Reconhecer o valor do serviço para o negócio.             |
-| Atendimento ao Cliente                           | 1. Agilizar a solução dos problemas de seus clientes; 2. Melhorar a sua imagem; 3. Conectar equipes; 4. Corrigir problemas em tempo real; 5. Acompanhar as solicitações; 6. Usar base de conhecimento; 7. Rotear atendimentos para o serviço de campo; 8. Reduzir custos com inteligência cognitiva; 9. Monitorar eventos; 10. Identificar tendências. |
-| Gestão de Fornecedores e Contratos Terceirizados | 1. Gerenciar contratos de prestação de serviços aplicando o SIAM (Integração e Gerenciamento de Serviços); 2. Avaliar o desempenho da prestação de serviço; 3. Fixar metas de atingimento de KPIs; 4. Gerenciar o fluxo financeiro dos contratos; 5. Aplicar multas/glosas.                                                                 |
-| Gestão da Infraestrutura de TI                   | 1. Controlar os ativos, clientes, fornecedores e itens de configuração necessários para prover os serviços; 2. Administrar os acordos de nível de serviço (ANS); 3. Estruturar catálogos e portfólios de serviços; 4. Elaborar os desenhos de serviço no padrão BPMN; 5. Fazer medições de serviços com qualidade e garantia.               |
+| High direction                                    | 1. To promote improvements in the efficiency of IT and business service delivery processes; 2. To view reports and dashboards that support changes and improvements; 3. To visualize the health of your business services; 4. To view strategic risk monitoring; 5. To recognize the value of the service to the business.            |
+| Customer service                          | 1. To expedite the solution of your customers' problems; 2. To improve your image; 3. To connect teams; 4. To fix problems in real time; 5. To track requests; 6. To use knowledge base; 7. To route calls for field service; 8. To reduce costs with cognitive intelligence; 9. To monitor Events; 10. To identify trends. |
+| Management of Suppliers and Contracts third | 1. To manage service delivery contracts by applying SIAM (Service Integration and Management); 2. To evaluate service delivery performance; 3. To set goals for achieving KPIs; 4. To manage the financial flow of contracts; 5. To apply fines / glosses                                                                 |
+| IT Infrastructure management                  | 1. To control the assets, customers, vendors and configuration items needed to provide the services; 2. To manage Service Level Agreements (SLAs); 3. To structure service catalogs and portfolios; 4. To design the service designing in the BPMN standard; 5. To make service measurements with quality and assurance.               |
 
 
-![simbolo](images/simb-lupa.jpg) Preparando-se com os primeiros passos antes de começar
+![symbol](images/simb-lupa.jpg) Preparing for the first steps before you start
 ------------------------------------------------------------------------------------------
 
-1. Os termos e expressões mais relevantes: [Glossário][14]
+1. The most relevant terms and expressions: [Glossary][14]
 
-2. Antes do início da instalação, é necessário serem observadas estas principais premissas:
+2. Before the properly instalation of **CITSmart Enterprise ITSM**, it is necessary to observe these main assumptions:
 
-    - Esta solução possui duas versões no mercado, a **Community** e a **Enterprise**: [Comparação][15]    
-    - Entenda como navegar nas telas da solução: [Navegabilidade][16]
-    - Conheça os três ambientes operacionais na solução, cada um com sua finalidade e características:
-        - [Sistema][17] 
-        - Smart Portal (Portal de Serviços) - [introdução][18] e [documentação][68]
-        - [Portal do Conhecimento][19]
-    - Cabe ao Administrador da solução realizar a configuração de permissão de acesso a cada opção do menu principal do sistema 
-    para determinados usuários.
+    - This solution offers two versions in the market, a **Community** and **Enterprise**: [Comparation][15]    
+    - Understand how to navigate the solution screens: [Navegability][16]
+    - Get to know the three operating environments in the solution, each with its purpose and characteristics:
+        - [System][17] 
+        - Smart Portal (Service Portal) - [introduction ][18] and [documentation][68]
+        - [Knowledge Portal][19]
+    - It is up to the Solution Administrator to configure the access permission setting for each system main menu option for 
+    certain users.
     
-3. Manuais de instalação (por componente):
+3. Installation manuals (by component):
 
   - [CITSmart Enterprise ITSM][20]
   - [Inventory][21]
   - [EVM][22]
-  - Mobile ([Android][23] e [iOS][24])
+  - Mobile ([Android][23] and [iOS][24])
   
-4. Perguntas mais frequentes: [FAQ][47]
+4. Frequently Asked Questions: [FAQ][47]
   
-![simbolo](images/simb-conec.jpg) Entendendo a estruturação atual de sub-sistemas e funcionalidades da solução
+![symbol](images/simb-conect.jpg) Understanding the structure of subsystems and solution functionalities
 ----------------------------------------------------------------------------------------------------------------
 
-- **Menu: Processos ITIL**
-    - Objetivo geral: reúne as principais funcionalidades de todos os [Processos da ITIL][25] atendidos pela solução.
-    - Sub-sistemas/Funcionalidades (neste caso são os **13 processos ITIL**, os quais têm o selo [PinkVERIFY][26] certificado 
-    pela [Pink Elephant][27]):
-1. **Portfólio e Catálogo** - [introdução][28] e [documentação][48]
-2. **Níveis de Serviço** - [introdução][29] e [documentação][49]
-3. **Mudança** - [introdução][30] e [documentação][50]
-4. **Liberação** - [introdução][31] e [documentação][51]
-5. **Conhecimento** - [introdução][32] e [documentação][52]
-6. **Configuração e Ativo de Serviço** - [introdução][33] e [documentação][53]
-7. **Evento** - [introdução][34] e [documentação][54]
-8. **Requisições e Incidentes** - [introdução][35] e [documentação][55]
-9. **Problema** - [introdução][36] e [documentação][56]
-10. **Continuidade** - [introdução][37] e [documentação][57]
-11. **Capacidade** - [introdução][38] e [documentação][58]
-12. **Demanda** - [introdução][39] e [documentação][59]
-13. **Disponibilidade** - [introdução][40] e [documentação][60]
-- **Menu: Gerência Integrada**
-    - Objetivo geral: reúne diversos módulos de gestão com o intuito de apoiar os processos ITIL e minimizar os riscos.
-    - Documentação: [link][61]
-    - Sub-sistemas/Funcionalidades:
-        - **Automação das Operações de TI** - Refere-se às funcionalidades de verificação do agendamento das atividades 
-        relacionadas aos processos de requisição, incidentes, mudanças, problema e liberação.
-        - **Contratos** - Esse módulo tem por objetivo gerenciar o ciclo de vida dos contratos presentes na organização desde o 
-        momento da solicitação interna de um serviço até o seu distrato ou encerramento. Para tanto é necessário manter o 
-        cadastro de campos de assinaturas para serem associados a um grupo de assinatura, a fim da personalização de assinaturas 
-        presentes no relatório de Ordens de Serviço. Estes relatórios de Ordens de Serviço são utilizados para registrar, 
-        comprovar e cobrar pelos serviços prestados ao cliente.
-        - **Força de Atendimento** - Esse módulo tem por objetivo gerenciar, acompanhar e monitorar o atendimento das 
-        solicitações de serviços pelos técnicos de campo.
-        - **Projetos** - Esse módulo tem por objetivo provê a gestão e acompanhamento dos projetos da organização.
-        - **Provisionamento e Logística** - Esse módulo tem por objetivo realizar o gerenciamento das solicitações de compras de 
-        produtos e serviços.
-- **Menu: Relatórios**
-    - Objetivo geral: disponibiliza os principais recursos e opções de emissão de relatórios operacionais/gerenciais da solução.
-    - Documentação: [link][62]
-    - Sub-sistemas/Funcionalidades:
-        - Configurações
-        - Conhecimentos
-        - Contratos
-        - Eventos
-        - Incidentes/Requisição
-        - Mudanças
-        - Níveis de Serviço
-        - Pessoal
-        - Problemas
-        - Relatórios Smart
-- **Menu: Acesso e Permissão**
-    - Objetivo geral: engloba todas as funcionalidades que diz respeito à definição da permissão de acesso ao sistema, garantindo 
-    sigilo, foco e controle de quem pode o quê.
-    - Documentação: [link][63]
-    - Sub-sistemas/Funcionalidades:
-        - Perfil de Acesso
-        - Grupo
-        - Continuidade
-        - Portfólio
-        - Requisições/Incidentes
+- **Menu: ITIL process**
+    - General objective: it brings together the main functionalities of all the [Processos da ITIL][25] served by the solution.
+    - Sub-systems/Functionalities (in this case, the 13 ITIL processes, which have the [PinkVERIFY][26] seal certificated by
+    [Pink Elephant][27]):
+1. **Portfolio and Catalog** - [introduction][28] and [documentation][48]
+2. **Service Level** - [introduction][29] and [documentation][49]
+3. **Change** - [introduction][30] and [documentation][50]
+4. **Release** - [introduction][31] and [documentation][51]
+5. **Knowledge** - [introduction][32] and [documentation][52]
+6. **Configuration and Service Asset** - [introduction ][33] and [documentation][53]
+7. **Events** - [introduction][34] and [documentation][54]
+8. **Requests and Incidents** - [introduction][35] and [documentation][55]
+9. **Problems** - [introduction][36] and [documentation][56]
+10. **Continuity** - [introduction][37] and [documentation][57]
+11. **Capacity** - [introduction][38] and [documentation][58]
+12. **Demand** - [introduction][39] and [documentation][59]
+13. **Availability** - [introduction][40] and [documentation][60]
+- **Menu: Integrated Management**
+    - General objective: it gathers several management modules to support ITIL processes and minimize risks.
+    - Documentation: [link][61]
+    - Sub-systems / Functionalities:
+        - **IT Operations Automation** - Refers to the scheduling verification features of activities related to Request, incident, 
+        change, problem, and release processes.
+        - **Contracts** - This module aims to manage the life cycle of the contracts present in the organization from the moment of 
+        the internal request of a service until its distort or closure. In order to do so, it is necessary to keep the signature 
+        fields register to be associated with a signature group, in order to customize the signatures present in the Work Orders 
+        report. These Work Order reports are used to record, prove and charge for services rendered to the customer.
+        - **Service Force** - This module aims to manage, follow and monitor service requests by field technicians.
+        - **Projects** - This module aims to provide management and monitoring of the organization's projects.
+        - **Provisioning and Logistics** - This module aims to manage the requests for purchases of products and services.
+- **Menu: Reports**
+    - General objective: it provides the main resources and emission options for the operational / managerial reporting of the 
+    solution.
+    - Documentation: [link][62]
+    - Sub-systems / Functionalities:
+        - Settings
+        - Knowledge
+        - Contracts
+        - Events
+        - Incidents/Request
+        - News
+        - Service Levels
+        - Personal
+        - Problems
+        - Smart Reports
+- **Menu: Access and Permission**
+    - General objective: it encompasses all the functionality that concerns the definition of the access permission to the system, 
+    guaranteeing secrecy, focus and permission control.
+    - Documentation: [link][63]
+    - Sub-systems / Functionalities:
+        - Acess profile
+        - Group
+        - Continuity
+        - Portfolio
+        - Requests/Incidents
         - SmartDecisions
-- **Menu: Parametrização**
-    - Objetivo geral: engloba os principais parâmetros do produto para que o comportamento e as regras de negócio sejam adaptados 
-    às diversas necessidades do cliente. Permite personalizar determinada funcionalidade de acordo com os parâmetros 
-    estabelecidos, por exemplo: alterando cálculos, fórmulas, metodologia, etc..
-    - Documentação: [link][64]
-    - Sub-sistemas/Funcionalidades:
+- **Menu: Parametrization**
+    - General objective: it encompasses the main parameters of the product so that the behavior and the business rules are adapted 
+    to the diverse needs of the client. It allows to customize certain functionality according to the established parameters, for 
+    example: changing calculations, formulas, methodology, etc.
+    - Documentation: [link][64]
+    - Sub-systems / Functionalities:
         - Chat
-        - Configuração LDAP
+        - LDAP Configuration
         - E-mail
-        - Gerência de Configuração
-        - Gerência de Conhecimento
-        - Gerência de Liberação
-        - Gerência de Mudança
-        - Gerência de Problema
-        - Gerência de Requisição e Incidente
+        - Configuration Management
+        - Knowledge Management
+        - Release Management
+        - Change management
+        - Problem Management
+        - Request and Incident Management
         - Mobile
-        - Ordem de Serviço (OS)
-        - Parâmetros Citsmart
-        - Provisionamento e Logística
-        - Sistema
+        - Order of Service (OS)
+        - Parameters Citsmart
+        - Provisioning and Logistics
+        - System
         - Smart Portal
-        - Telefonia
-- **Menu: Sistema**
-    - Objetivo geral: engloba os principais recursos tecnológicos configuráveis do produto, possibilitando obter o máximo de 
-    controle e segurança no produto.
-    - Documentação: [link][65]
-    - Sub-sistemas/Funcionalidades:
-        - Acesso Remoto
-        - Banco de Dados
-        - Compatibilidade
-        - Conexões Externas
-        - Configurações
-        - Controle de contrato
-        - Controle de rendimento de Pessoal
-        - Gerência de Importação
-        - Grau de satisfação do atendimento
-        - Importação e Carga de Dados
-        - Manutenção de Fluxos
-        - Notificações
-        - Processamento Batch
-        - Template de Solicitação de Serviço
-        - Trilha de auditoria
-        - Visões e Meta dados
+        - Telephony
+- **Menu: System**
+    - General Objective: it encompasses the main configurable technological resources of the product, allowing to obtain the 
+    maximum of control and security in the product.
+    - Documentation: [link][65]
+    - Sub-systems / Functionalities:
+        - Remote access
+        - Database
+        - Compatibility
+        - External Links
+        - Settings
+        - Contract Control
+        - Control of income of Personnel
+        - Import Management
+        - Degree of service satisfaction
+        - Importing and Loading Data
+        - Flow Maintenance
+        - Notifications
+        - Batch Processing
+        - Service Request Template
+        - Audit trail
+        - Visions and Meta data
         - Web Service
-- **Recursos da solução em destaque**:
-    - **Smart Reports** - [introdução][41] e [documentação][66]
-    - **Smart Decision** - [introdução][42] e [documentação][67]
-    - **Chat** - [introdução][43]
-    - **Smart Button** - [introdução][44]
-    - **Neuro** - recurso construtor e executor de fluxos incorporado na solução ITSM para potencializar a gestão de fluxos
-    de negócio
+- *TOP* **Featured Resources**:
+    - **Smart Reports** - [introduction][41] and [documentation][66]
+    - **Smart Decision** - [introduction][42] and [documentation][67]
+    - **Chat** - [introduction][43]
+    - **Smart Button** - [introduction][44]
+    - **Neuro** - constructor and executor workflow solution embedded inside the ITSM solution to leverage the workflow management
     
-
-![simbolo](images/simb-martelo.jpg) Identificando as principais tecnologias incorparadas
+![symbol](images/simb-hammer.jpg) Identifying the main technologies incorporated
 --------------------------------------------------------------------------------------------
 
-Vários avanços tecnológicos estão sendo continuamente introduzidos no CITSmart Enterprise ITSM para melhorar seu desempenho, 
-usabilidade, segurança, portabilidade, manutenibilidade e para alcançar a máxima satisfação dos seus clientes, os principais são:
+Several technological advances are being continuously introduced in CITSmart Enterprise ITSM to improve its performance, usability, 
+security, portability, maintenance and to achieve the maximum satisfaction of its clients, the main ones are:
 
-- **DBMS**: compatibilidade com bancos: PostGreSQL, MS SQL Server e ORACLE - veja requisitos de versão mínima no manual de 
-instalação
-- **INTEGRAÇÕES**: ferramentas de Monitoração (Nagios e Zabbix), LDAP, Serviços de E-Mail e Asterisk
-- **INVENTORY**: possui um agente de inventário próprio
-- **JBOSS**: compatibilidade com JBoss 7.1.2
-- **MOBILE**: permite a mobilidade (Android e iOS)
-- **SGBD**: compatibilidade com bancos: PostGreSQL, MS SQL Server e ORACLE - veja requisitos de versão mínima no manual de 
-instalação
-- **SOLR**: adota a tecnologia bigdata para armazenamento/recuperação (buscas indexadas) na base de conhecimento e nas 
-correlações de eventos
-- **UX**: adoção de técnicas de User eXperience nas principais telas
-- **WEB**: adota Java para toda a plataforma Web, tornando compatível com os navegadores: IE, Firefox e Chrome - veja requisitos 
-de versão mínima no manual de instalação
-- **PROTOCOLOS**: totalmente compatível com os protocolos HTTPS/SSL, DNS e IPv4 (sem exigir portas especiais configuradas no 
-Firewall)
-- **PROTEÇÕES**: aplica estratégia de defesa contra SQL Injection, falhas no gerenciamento de exceções e Local File Including
+- **DBMS**: compatibility with databases: PostGreSQL, MS SQL Server and ORACLE - see minimum version requirements in the 
+installation guide
+- **INTEGRATIONS**: monitoring Tools (Nagios and Zabbix), LDAP, E-Mail Services and Asterisk
+- **INVENTORY**: own Inventory Agent
+- **JBOSS**: compatibility with JBoss 7.1.2
+- **MOBILE**: allows mobility (Android and iOS)
+- **SGBD**: compatibility with databases: PostGreSQL, MS SQL Server and ORACLE - see minimum version requirements in the 
+installation guide
+- **SOLR**: adopts bigdata technology for storage / retrieval (indexed searches) in knowledge base and event correlations
+- **UX**: adoption of User eXperience techniques in the main screens
+- **WEB**: adopts Java for the entire Web platform, making it compatible with browsers: IE, Firefox and Chrome - see minimum 
+version requirements in the installation guide
+- **PROTOCOLOS**: fully compatible with HTTPS/SSL, DNS and IPv4 protocols (without requiring special ports configured in Firewall)
+- **PROTECTIONS**: applies defense strategy against SQL Injection, failures in exception management and Local File Including
 
-!!! note "NOTA"
+!!! note "NOTE
 
-    Qualquer tipo de sugestão ou relato de problemas relacionado com o conteúdo deste Guia do Usuário, queira por gentileza 
-    acionar o equipe da CITSmart Corporation que o administra.
+    Any suggestion or problem related to the contents of this User Guide, please kindly activate the CITSmart Corporation team that 
+    manages it.
     
-Veja também
+See also
 --------------
 
-- [Dicas sobre como realizar pesquisas no Portal do Conhecimento e Guia do Usuário](/pt-br/citsmart-platform-7/processes/knowledge/tips-search-knowledge.html)
-
+- [Tips on how to conduct searches on Knowledge Portal and User Guide](/en-us/citsmart-platform-7/processes/knowledge/tips-search-knowledge.html)
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/24/2019 - Larissa Lourenço
+    <b>Updated:</b>09/02/2019 - Larissa Lourenço
    
-[1]:/pt-br/citsmart-platform-7/processes/knowledge/understanding-knowledge-base.html
-[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/overview.html
-[3]:/pt-br/citsmart-platform-7/processes/service-level/overview.html
-[4]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/overview.html
-[5]:/pt-br/citsmart-platform-7/processes/continuity/overview.html
-[6]:/pt-br/citsmart-platform-7/processes/availability/overview.html
-[7]:/pt-br/citsmart-platform-7/processes/change/overview.html
-[8]:/pt-br/citsmart-platform-7/processes/configuration/overview.html
-[9]:/pt-br/citsmart-platform-7/processes/release/overview.html
-[10]:/pt-br/citsmart-platform-7/processes/knowledge/overview.html
-[11]:/pt-br/citsmart-platform-7/processes/tickets/overview.html
-[12]:/pt-br/citsmart-platform-7/processes/event/overview.html
-[13]:/pt-br/citsmart-platform-7/processes/problem/overview.html
-[14]:/pt-br/glossary.html
-[15]:/pt-br/citsmart-platform-7/initial-settings/version-comparison.html
-[16]:/pt-br/citsmart-platform-7/get-started/navigate.html
-[17]:/pt-br/citsmart-platform-7/get-started/system.html
-[18]:/pt-br/citsmart-platform-7/get-started/smart-portal.html
-[19]:/pt-br/citsmart-platform-7/processes/knowledge/knowledge-portal.html
-[20]:/pt-br/citsmart-platform-7/get-started/installation.html
-[21]:/pt-br/citsmart-platform-7/get-started/inventory-installation.html
-[22]:/pt-br/citsmart-platform-7/additional-features/add-ons/evm-installation.html
-[23]:/pt-br/citsmart-platform-7/additional-features/mobile-and-field-service/apps/android.html
-[24]:/pt-br/citsmart-platform-7/additional-features/mobile-and-field-service/apps/ios.html
+[1]:/en-us/citsmart-platform-7/processes/knowledge/understanding-knowledge-base.html
+[2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/overview.html
+[3]:/en-us/citsmart-platform-7/processes/service-level/overview.html
+[4]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/overview.html
+[5]:/en-us/citsmart-platform-7/processes/continuity/overview.html
+[6]:/en-us/citsmart-platform-7/processes/availability/overview.html
+[7]:/en-us/citsmart-platform-7/processes/change/overview.html
+[8]:/en-us/citsmart-platform-7/processes/configuration/overview.html
+[9]:/en-us/citsmart-platform-7/processes/release/overview.html
+[10]:/en-us/citsmart-platform-7/processes/knowledge/overview.html
+[11]:/en-us/citsmart-platform-7/processes/tickets/overview.html
+[12]:/en-us/citsmart-platform-7/processes/event/overview.html
+[13]:/en-us/citsmart-platform-7/processes/problem/overview.html
+[14]:/en-us/glossary.html
+[15]:/en-us/citsmart-platform-7/initial-settings/version-comparison.html
+[16]:/en-us/citsmart-platform-7/get-started/navigate.html
+[17]:/en-us/citsmart-platform-7/get-started/system.html
+[18]:/en-us/citsmart-platform-7/get-started/smart-portal.html
+[19]:/en-us/citsmart-platform-7/processes/knowledge/knowledge-portal.html
+[20]:/en-us/citsmart-platform-7/get-started/installation.html
+[21]:/en-us/citsmart-platform-7/get-started/inventory-installation.html
+[22]:/en-us/citsmart-platform-7/additional-features/add-ons/evm-installation.html
+[23]:/en-us/citsmart-platform-7/additional-features/mobile-and-field-service/apps/android.html
+[24]:/en-us/citsmart-platform-7/additional-features/mobile-and-field-service/apps/ios.html
 [25]:https://pt.wikipedia.org/wiki/ITILv3
 [26]:https://www.pinkelephant.com/en-ca/PinkVERIFY/PinkVERIFYToolsets
 [27]:https://www.pinkelephant.com/
-[28]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/overview.html
-[29]:/pt-br/citsmart-platform-7/processes/service-level/overview.html
-[30]:/pt-br/citsmart-platform-7/processes/change/overview.html
-[31]:/pt-br/citsmart-platform-7/processes/release/overview.html
-[32]:/pt-br/citsmart-platform-7/processes/knowledge/overview.html
-[33]:/pt-br/citsmart-platform-7/processes/configuration/overview.html
-[34]:/pt-br/citsmart-platform-7/processes/event/overview.html
-[35]:/pt-br/citsmart-platform-7/processes/tickets/overview.html
-[36]:/pt-br/citsmart-platform-7/processes/problem/overview.html
-[37]:/pt-br/citsmart-platform-7/processes/continuity/overview.html
-[38]:/pt-br/citsmart-platform-7/processes/capacity/overview.html
-[39]:/pt-br/citsmart-platform-7/processes/demand/overview.html
-[40]:/pt-br/citsmart-platform-7/processes/availability/overview.html
-[41]:/pt-br/citsmart-platform-7/additional-features/reports/create/smart-reports/configuration/emit-report.html
-[42]:/pt-br/citsmart-platform-7/additional-features/reports/create/dashboard/use/template-smart-decision.html
-[43]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/chat.html
+[28]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/overview.html
+[29]:/en-us/citsmart-platform-7/processes/service-level/overview.html
+[30]:/en-us/citsmart-platform-7/processes/change/overview.html
+[31]:/en-us/citsmart-platform-7/processes/release/overview.html
+[32]:/en-us/citsmart-platform-7/processes/knowledge/overview.html
+[33]:/en-us/citsmart-platform-7/processes/configuration/overview.html
+[34]:/en-us/citsmart-platform-7/processes/event/overview.html
+[35]:/en-us/citsmart-platform-7/processes/tickets/overview.html
+[36]:/en-us/citsmart-platform-7/processes/problem/overview.html
+[37]:/en-us/citsmart-platform-7/processes/continuity/overview.html
+[38]:/en-us/citsmart-platform-7/processes/capacity/overview.html
+[39]:/en-us/citsmart-platform-7/processes/demand/overview.html
+[40]:/en-us/citsmart-platform-7/processes/availability/overview.html
+[41]:/en-us/citsmart-platform-7/additional-features/reports/create/smart-reports/configuration/emit-report.html
+[42]:/en-us/citsmart-platform-7/additional-features/reports/create/dashboard/use/template-smart-decision.html
+[43]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/chat.html
 [44]:/pt-br/citsmart-platform-7/plataform-administration/customizable-fields/smart.button.html
 [45]:
 [46]:
-[47]:/pt-br/faq.html
-[48]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/all-documentation.html
-[49]:/pt-br/citsmart-platform-7/processes/service-level/all-documentation.html
-[50]:/pt-br/citsmart-platform-7/processes/change/all-documentation.html
-[51]:/pt-br/citsmart-platform-7/processes/release/all-documentation.html
-[52]:/pt-br/citsmart-platform-7/processes/knowledge/all-documentation.html
-[53]:/pt-br/citsmart-platform-7/processes/configuration/all-documentation.html
-[54]:/pt-br/citsmart-platform-7/processes/event/all-documentation.html
-[55]:/pt-br/citsmart-platform-7/processes/tickets/all-documentation.html
-[56]:/pt-br/citsmart-platform-7/processes/problem/all-documentation.html
-[57]:/pt-br/citsmart-platform-7/processes/continuity/all-documentation.html
-[58]:/pt-br/citsmart-platform-7/processes/capacity/all-documentation.html
-[59]:/pt-br/citsmart-platform-7/processes/demand/all-documentation.html
-[60]:/pt-br/citsmart-platform-7/processes/availability/all-documentation.html
-[61]:/pt-br/citsmart-platform-7/additional-features/all-documentation.html
-[62]:/pt-br/citsmart-platform-7/additional-features/reports/all-documentation.html
-[63]:/pt-br/citsmart-platform-7/initial-settings/access-settings/all-documentation.html
-[64]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/all-documentation.html
-[65]:/pt-br/citsmart-platform-7/get-started/system-documentation.html
-[66]:/pt-br/citsmart-platform-7/additional-features/reports/create/smart-reports/configuration/all-documentation.html
-[67]:/pt-br/citsmart-platform-7/additional-features/reports/create/dashboard/use/smart-decision-documentation.html
-[68]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/smart-portal/all-documentation.html
+[47]:/en-us/faq.html
+[48]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/all-documentation.html
+[49]:/en-us/citsmart-platform-7/processes/service-level/all-documentation.html
+[50]:/en-us/citsmart-platform-7/processes/change/all-documentation.html
+[51]:/en-us/citsmart-platform-7/processes/release/all-documentation.html
+[52]:/en-us/citsmart-platform-7/processes/knowledge/all-documentation.html
+[53]:/en-us/citsmart-platform-7/processes/configuration/all-documentation.html
+[54]:/en-us/citsmart-platform-7/processes/event/all-documentation.html
+[55]:/en-us/citsmart-platform-7/processes/tickets/all-documentation.html
+[56]:/en-us/citsmart-platform-7/processes/problem/all-documentation.html
+[57]:/en-us/citsmart-platform-7/processes/continuity/all-documentation.html
+[58]:/en-us/citsmart-platform-7/processes/capacity/all-documentation.html
+[59]:/en-us/citsmart-platform-7/processes/demand/all-documentation.html
+[60]:/en-us/citsmart-platform-7/processes/availability/all-documentation.html
+[61]:/en-us/citsmart-platform-7/additional-features/all-documentation.html
+[62]:/en-us/citsmart-platform-7/additional-features/reports/all-documentation.html
+[63]:/en-us/citsmart-platform-7/initial-settings/access-settings/all-documentation.html
+[64]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/all-documentation.html
+[65]:/en-us/citsmart-platform-7/get-started/system-documentation.html
+[66]:/en-us/citsmart-platform-7/additional-features/reports/create/smart-reports/configuration/all-documentation.html
+[67]:/en-us/citsmart-platform-7/additional-features/reports/create/dashboard/use/smart-decision-documentation.html
+[68]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/smart-portal/all-documentation.html

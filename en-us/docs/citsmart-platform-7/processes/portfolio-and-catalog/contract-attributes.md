@@ -1,616 +1,599 @@
-title: Configuração dos atributos do contrato do serviço
-Description: As orientações devem ser seguidas para configurar os atributos tanto do *Contrato do Serviço de Negócio/TI* quanto do *Contrato do Serviço de Apoio/Técnico*.
+title: Service contract attributes configuration
+Description: The guidelines must be followed to configure the attributes of both the *Business/IT Service Agreement* and the Support/Technical Service Agreement.
 
-# Configuração dos atributos do contrato do serviço
+# Service contract attributes configuration
 
-As orientações devem ser seguidas para configurar os atributos tanto
-do *Contrato do Serviço de Negócio/TI* quanto do *Contrato do Serviço de
-Apoio/Técnico*.
+The guidelines must be followed to configure the attributes of both
+the *Business/IT Service Agreement* and the *Support/Technical Service
+Agreement*.
 
-Pré-condições
+Preconditions
 -------------
 
-1.  Ter permissão de acesso às funcionalidades de Gerenciamento de Portfólio e
-    Catálogo (ver conhecimento [Permissão de Acesso do Gerenciamento de
-    Portfólio][1]);
+1.  Have permission to access the Portfolio and Catalog Management features (see
+    knowledge [Portfolio management access permission][1]);
 
-2.  Ter o portfólio com os serviços cadastrados (ver conhecimentos [Cadastro de
-    Portfólio de Serviços][2]), [Cadastro de Serviços][3]);
+2.  Have the portfolio with the services registered (see knowledge [Service
+    portfolio registration][2]), [Service registration][3]);
 
-3.  Ter o contrato vinculado ao serviço (ver conhecimento [Configuração dos
-    Atributos do Serviço][4]);
+3.  Have the contract bound to the service (see knowledge [Service attributes
+    configuration][4]);
 
-4.  Ter o fornecedor cadastrado (ver conhecimento [Cadastro e Pesquisa de
-    Fornecedor][5]);
+4.  Have the supplier registered (see knowledge [Supplier registration and
+    search][5]);
 
-5.  Ter o cliente cadastrado (ver conhecimento [Cadastro e Pesquisa de
-    Cliente][6]);
+5.  Have the client registered (see knowledge [Customer registration and
+    search][6);
 
-6.  Ter a moeda cadastrada (ver conhecimento [Cadastro e Pesquisa de
-    Moeda][7]);
+6.  Have the currency registered (see knowledge [Currency registration and
+    search][7]);
 
-7.  Ter a condição de operação cadastrada (ver conhecimento [Cadastro e Pesquisa
-    de Condição de Operação][8]);
+7.  Have the registered operation condition (see knowledge [Operation condition
+    registration and search][8]);
 
-8.  Ter o calendário definido (ver conhecimento [Cadastro e Pesquisa de
-    Calendário][9]);
+8.  Have the calendar set (see knowledge [Calendar registration and
+    search][9]);
 
-9.  Ter o tempo de atendimento de serviços definido (ver conhecimento [Cadastro
-    e Pesquisa de Tempo de Atendimento][10]);
+9.  Have defined service time (see knowledge [Time attendance registration and
+    search][10]);
 
-10. Ter modelos de e-mails definidos (ver conhecimento [Cadastro e Pesquisa de
-    Configuração de Modelo de E-mail][11]);
+10. Have e-mail templates defined (see knowledge [E-mail template configuration
+    registration and search][11]);
 
-11. Ter o fluxo de trabalho definido (ver conhecimento [Manutenção de Fluxo de
-    Trabalho][12]);
+11. Have the workflow defined (see knowledge [Workflow maintenance][12]);
 
-12. Ter definidas as pesquisas (ver conhecimento [Cadastro e pesquisa de
-    Pesquisa de Satisfação][13]).
+12. Have surveys defined (see knowledge [Satisfaction survey registration and
+    search][13]).
 
-Configurando os atributos do contrato
-------------------------------------
-
-### Como acessar
-
-1.  Acesse a funcionalidade através da navegação no menu principal Processos
-    ITIL > Gerência de Portfólio e Catálogo > Gerenciamento de Portfólio e
-    Catálogo.
-
-2.  Acesse o menu principal. Após isso, será apresentada a tela de Gerenciamento
-    de Portfólio de Serviços;
-
-3.  Acesse o Portfólio de Serviços que deseja, clicando no botão *Avançar* do
-    mesmo;
-
-4.  Clique no botão *Avançar* do serviço para acessá-lo. Após isso, será
-    apresentada a tela de **Informações do Serviço**;
-
-5.  Clique em **Contratos** e logo em seguida clique no botão *Avançar* do
-    contrato do serviço para acessá-lo.
-
-    -   Nos itens a seguir será abordado sobre "como" configurar os atributos do
-    contrato.
-
-### Filtros
-
-1.  Não se aplica.
-
-### Listagem de itens
-
-1.  Não se aplica.
-
-### Preenchimento de campos cadastrais
-
-1.  Executado as orientações contidas em Como Acessar, será apresentada a tela
-    de **Informações do Contrato**, onde poderá realizar as configurações
-    necessárias, conforme ilustrada na figura abaixo:
-
-    ![Criar](images/contract-attributes-1.png)
-
-    **Figura 1 - Tela de informações do contrato**
-
-    -   **Detalhes**: permite verificar e/ou atualizar os dados do contrato;
-
-    -   **Requisições**: permite vincular as atividades de requisição do serviço ao
-    contrato;
-
-    -   **Incidentes**: permite vincular as atividades de incidente do serviço ao
-    contrato;
-
-    -   **Procedimentos**: permite vincular os procedimentos do serviço ao contrato;
-
-    -   **Custo de Indisponibilidade**: permite registrar o valor da hora da
-    indisponibilidade dos serviços do contrato;
-
-    -   **Acordo de Disponibilidade**: permite vincular um acordo de nível de
-    serviço do tipo "disponibilidade" ao contrato;
-
-    -   **Calendário**: permite vincular um calendário ao contrato.
-
-    -   **Rateio**: permite informar um percentual de rateio para um determinado
-    serviço.
-
-Vinculando atividades de requisição ao contrato
----------------------------------------------
-
-### Como acessar
-
-1.  Na tela Informações do Contrato, clique na guia **Requisições** e após isso,
-    será apresentada uma tela onde permite vincular a atividade de requisição ao
-    contrato.
-
-### Pré-condições
-
-1.  Para realizar o vínculo das atividades de requisição ao contrato, as mesmas
-    já devem estar registradas e vinculadas ao serviço.
-
-### Filtros
-
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
-
-    -   Nome Serviço de Requisição
-
-### Listagem de itens
-
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: ID e Nome Serviço de Requisição.
-
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Excluir*.
-
-    ![Criar](images/contract-attributes-2.png)
-
-    **Figura 2 - Tela de vínculo de atividade de requisição ao contrato**
-
-### Preenchimento dos campos cadastrais
-
-1.  Clique no botão *Vincular Serviço de Requisição* (segundo a figura
-    anterior). Será exibida a tela para realizar o vínculo da atividade de
-    requisição, conforme ilustrada na figura abaixo:
-
-    ![Criar](images/contract-attributes-3.png)
-
-    **Figura 3 - Tela de registro do vínculo da atividade de requisição ao
-    contrato**
-
-2.  Preencha os campos conforme orientações abaixo:
-
-    - **Condição de Operação**: selecione o período de disponibilidade da operação
-    da(s) atividade(s) de requisição. Exemplo:
-
-    -  **24 x 7**: 24 horas por dia, 7 dias por semana, ou seja, serviço disponível
-    o tempo todo, sem interrupção;
-
-    -  **Horário Comercial**: disponível de segunda-feira à sexta-feira de 8:00 às
-    18:00.
-
-    -  **Data de Início**: informe a data inicial da atividade de requisição no
-    contrato;
-
-    -  **Data Fim**: o preenchimento deste campo pode ser feito no momento do
-    cadastro, informando uma data futura para inativação da(s) atividade(s) de
-    requisição no contrato ou somente quando for inativar a(s) atividade(s) de
-    requisição;
-
-    -  **Observação**: descreva as possíveis observações referentes à(s)
-    atividade(s) de requisição no contrato;
-
-    -  **Restrições e Pressupostos**: informe as possíveis restrições e
-    pressupostos para a execução da(s) atividades(s) de requisição no contrato;
-
-    -  **Objetivo**: informe o objetivo do(s) serviço(s) de requisição no contrato;
-
-    -  **Descrição do Processo**: descreva o processo da(s) atividades(s) de
-    requisição no contrato;
-
-    -  **Link do Processo**: informe o link do desenho do processo da(s)
-    atividades(s) de requisição, caso exista;
-
-    -  **Área requisitante**: informe quem poderá solicitar as(s) atividade(s) de
-    requisição;
-
-    -  **Modelo de E-mail Abertura**: selecione o modelo de e-mail de abertura de
-    requisição para envio de notificação quando registrar as solicitações
-    referente à(s) atividade(s) de requisição;
-
-    -  **Modelo de E-mail Finalização**: selecione o modelo de e-mail de
-    finalização de solicitações para envio de notificação quando finalizar as
-    solicitações referente à(s) atividade(s) de requisição;
-
-    -  **Modelo de E-mail Demais Ações**: selecione o modelo de e-mail para envio
-    de notificação nas demais ações realizadas nas solicitações referente à(s)
-    atividade(s) de requisição;
-
-    -  **Grupo Escalação 1º Nível**: selecione o grupo de 1º nível para escalação
-    do atendimento da(s) atividade(s) de requisição;
-
-    -  **Grupo Executor**: defina o grupo executor da(s) atividade(s) de
-    requisição, caso não informe-o, será considerado o grupo definido no
-    parâmetro "ID Grupo Nível 1";
-
-    -  **Grupo Aprovador**: defina o grupo aprovador das solicitações da(s)
-    atividade(s) de requisição;
-
-    -  **Pesquisa de Satisfação**: selecione a pesquisa desejada, caso contrário a
-    pesquisa padrão do produto estará sempre disponível;
-
-    -  **Calendário**: selecione o calendário de trabalho para a(s) atividade(s) de
-    requisição.
-
-    -  **Tempo de Atendimento**: informe o tempo de atendimento das) atividade(s)
-    de requisição;
-
-    -  **Custo do Serviço**: informe o valor da(s) atividade(s) de requisição;
-
-    -  **Expandir tela de solicitação de serviço**: caso queira a tela de
-    solicitação do serviço de requisição seja ampliada, marque a opção "sim";
-
-    -  **Reiniciar SLA na reabertura**: defina se o tempo de atendimento da(s)
-    atividade(s) será reiniciado quando realizar a reabertura da(s)
-    solicitação(ões) da(s) mesma(s);
-
-    -  **Aplicar permissões de acesso nas ocorrências?**: defina se as ocorrências
-    das requisições/incidentes serão mostradas para grupos específicos de
-    usuários ou se todos os usuários visualizam todas as ocorrências. Caso o
-    campo
-
-    -  **Aplicar permissões de acesso nas ocorrências?**: tenha sua opção "Sim"
-    selecionada, uma nova aba aparece ao lado da aba Principal:
-
-    ![Criar](images/contract-attributes-4.png)
-
-    **Figura 4 - Aba de permissões**
-
-    -  Na guia Principal, ao clicar na nova aba uma lista de Grupos que já tiveram
-    sua permissão configurada:
-
-    ![Criar](images/contract-attributes-5.png)
-
-    **Figura 5 - Lista de grupos vinculados com permissão configurada**
-
-    -  Ao clicar no **Adicionar** (segundo a figura anterior) um painel com todas
-    as categorias de ocorrência surge para permitir ao Administrador marcar
-    aquelas que devem ser liberadas para o Grupo selecionado:
-
-    ![Criar](images/contract-attributes-6.png)
-
-    **Figura 6 - Painel de seleção das categorias de ocorrências e do grupo
-     desejado**
-
-    !!! note "NOTA"
-
-        Esta configuração não muda em nada o aspecto das demais funcionalidades do
-        sistema, apenas restringe alguns registros de serem visualizados por
-        usuários que não estão nos grupos liberados para a categoria de ocorrência.
-
-    -  Adicione a(s) atividade(s) de requisição:
-
-        -  Na seção **Requisição**, são apresentadas as atividades de requisição do
-           serviço, deixe somente as que irão serem vinculadas ao contrato;
-
-    -  Caso tenha removido uma atividade de requisição e queira vincular ela no
-    contrato, clique no botão *Adicionar*. Será exibida uma janela para pesquisa
-    de atividades de requisição do serviço. Realize a pesquisa, selecione a
-    atividade de requisição e clique no botão *Enviar* para vincular a atividade
-    ao contrato.
-
-    -  Adicione o fluxo de trabalho da(s) atividade(s) de requisição:
-
-       -  Na seção **Fluxo Serviço**, clique no botão *Adicionar* (segundo a figura
-          anterior). Será exibida uma tela para informar o fluxo da(s) atividade(s) de
-          requisição, conforme ilustrada na figura abaixo:
-
-    ![Criar](images/contract-attributes-7.png)
-
-    **Figura 7 - Fluxo de trabalho**
-
-    -  Selecione o fluxo que a(s) atividade(s) deverá(ão) seguir e clique no
-    botão *Gravar* para efetuar a operação.
-
-3.  Após informar os dados necessários, clique no botão *Gravar* para efetuar a
-    operação. Feito isso, a(s) atividade(s) de requisição será(ão) vinculada(s)
-    ao contrato.
-
-4.  Para alterar os dados do vínculo da atividade de requisição com o contrato,
-    clique no botão *Editar* do registro do mesmo.
-
-5.  Para excluir o vínculo da atividade de requisição com o contrato, basta
-    clicar no botão *Excluir* do registro do mesmo.
-
-Vinculando atividades de incidente ao contrato
-----------------------------------
-
-### Como acessar
-
-1.  Na guia **Contratos**, clique em *Avançar* após isso, clique na
-    aba **Incidentes**, será apresentada a tela onde permite vincular a(s)
-    atividade(s) de incidente ao contrato.
-
-### Pré-condições
-
-1.  Para realizar o vínculo das atividades de incidente ao contrato, as mesmas
-    já devem estar registradas e vinculadas ao serviço.
-
-### Filtros
-
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
-
-    -   Nome Incidente.
-
-### Listagem de itens
-
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: ID e Nome Incidente.
-
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Excluir*.
-
-    ![Criar](images/contract-attributes-8.png)
-
-    **Figura 8 - Tela de vínculo de atividade de incidente ao contrato**
-
-### Preenchimento dos campos cadastrais
-
-1.  Clique no botão *Vincular Incidente* (segundo a figura anterior). Será
-    exibida a tela para realizar o vínculo da atividade de incidente, conforme
-    ilustrada na figura abaixo:
-
-    ![Criar](images/contract-attributes-9.png)
-
-    **Figura 9 - Tela de registro do vínculo da atividade de incidente ao contrato**
-
-2.  Preencha os campos conforme orientações descritas no item anterior
-    "Vinculando Atividades de Requisição ao Contrato";
-
-3.  Após informar os dados necessários, clique no botão *Gravar* para efetuar a
-    operação. Feito isso, a(s) atividade(s) de incidente será(ão) vinculada(s)
-    ao contrato.
-
-Vinculando procedimento do serviço ao contrato
+Configuring contract attributes
 -------------------------------
 
-### Como acessar
+### How to access
 
-1.  Na guia **Contratos**, clique em *Avançar* após isso, clique na
-    guia **Procedimentos** e após isso, será apresentada a tela onde permite
-    vincular o procedimento ao contrato.
+1.  To access the feature click on the main menu **Processes
+    Management > Portfolio and Catalog Management > Portfolio
+    Management**.
 
-### Pré-condições
+2.  Access the main menu. After that, the Portfolio Management screen will be
+    displayed;
 
-1.  Para realizar o vínculo dos procedimentos ao contrato, os mesmos já devem
-    estar registrados e vinculados ao serviço.
+3.  Access the Services Portfolio you want by clicking the *Advance* button of
+    the same;
 
-### Filtros
+4.  Click the *Advance* button of the service to access it. After that,
+    the **Service Information** will be displayed;
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+5.  Click **Contract** and then click the *Advance* button in the service
+    contract to access it.
 
-   -   Nome Serviço de Procedimento.
+-   The following items will be discussed on "how to" configure contract
+    attributes.
 
-### Listagem de itens
+### Filters
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão
-    dafuncionalidade: ID e Nome Serviço de Procedimento.
+1.  Not applicable.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Excluir*.
+### Items list
 
-    ![Criar](images/contract-attributes-10.png)
+1.  Not applicable.
 
-    **Figura 10 - Tela de vínculo de procedimento ao contrato**
+### Filling in the registration fields
 
-### Preenchimento dos campos cadastrais
+1.  Following the guidelines in How to Access, the **Contract
+    Information** screen will appear, where you can make the necessary settings.
+    The figure below illustrates this screen:
 
-1.  Clique no botão *Vincular Procedimento* (segundo a figura anterior). Será
-    exibida a tela para realizar o vínculo do procedimento, conforme ilustrada
-    na figura abaixo:
+   ![figure](images/contract-attributes-1.png)
+   
+   **Figure 1 - Service agreement configuration screen**
 
-    ![Criar](images/contract-attributes-11.png)
+-   **Details**: allows you to check and/or update the contract data;
 
-    **Figura 11 - Tela de registro do vínculo do procedimento ao contrato**
+-   **Requests**: it allows to link the activities of request of the service to
+    the contract;
 
-2.  Preencha os campos conforme orientações descritas no item "Vinculando
-    Atividades de Requisição ao Contrato";
+-   **Incidents**: it allows to link the incident activities of the service to
+    the contract;
 
-3.  Após informar os dados necessários, clique no botão *Gravar* para efetuar a
-    operação. Feito isso, o(s) procedimento(s) será(ão) vinculado(s) ao
-    contrato.
+-   **Procedure**: allows to link the procedures of the service to the contract;
 
-Registrando custo de indisponibilidade
-------------------------------------
+-   **Cost of Downtime (Downtime)**: allows to record the value of the time of
+    the downtime of the contract services;
 
-### Como acessar
+-   **Availability Agreement**: it allows to link a service level agreement of
+    type "availability" to the contract;
 
-1.  Na tela Informações do Contrato, clique em **Custo de Indisponibilidade** e
-    após isso, será apresentada uma tela onde permite registar o custo da
-    disponibilidade do contrato.
+-   **Calendar**: it allows to link a calendar to the contract;
 
-    ![Criar](images/contract-attributes-12.png)
+-   **Apportionment**: it allows to report a percentage of apportionment for a
+    given service.
 
-    **Figura 12 - Tela de registro de valor da hora de indisponibilidade**
-
-2.  Informe o valor da hora da indisponibilidade dos serviços do contrato e
-    clique no botão *Gravar* para efetuar o registro.
-
-### Filtros
-
-1.  Não se aplica.
-
-### Listagem de itens
-
-1.  Não se aplica.
-
-### Preenchimento dos campos cadastrais
-
-1.  Não se aplica.
-
-Vinculando acordo de disponibilidade ao contrato
+Linking request activities to contract
 --------------------------------------
 
-### Como acessar
+### How to access
 
-1.  Na tela Informações do Contrato, clique em **Acordo de Disponibilidade** e
-    após isso, será apresentada a tela onde permite vincular o acordo de nível
-    de serviço do tipo "disponibilidade" ao contrato.
+1.  On the Contract Information screen, click on guide **Requests**. After that,
+    a screen will be displayed where you can link the request activity to the
+    contract.
 
-### Filtros
+### Preconditions
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  To link the request activities to the contract, they must already be
+    registered and linked to the service.
 
-    -   Título SLA.
+### Filters
 
-### Listagem de itens
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: ID, Título SLA, Índice de Disponibilidade, Data
-    Início e Data Fim.
+-   Service Request Name.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Desativar*.
+### Items list
 
-3.  Clique no botão *Vincular Acordo de Disponibilidade*. Feito isso, será
-    exibida a tela de pesquisa de acordo de nível de serviço do tipo
-    "disponibilidade". Realize a pesquisa e selecione o acordo de
-    disponibilidade desejado para efetuar a operação. Feito isso, o acordo será
-    vinculado ao contrato.
+1.  The following cadastral fields are available to the user to make it easier
+    to identify the desired items in the standard feature
+    listing: **ID** and **Service Request Name**.
 
-    ![Criar](images/contract-attributes-13.png)
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Edit* and *Delete*.
 
-    **Figura 13 - Tela de acordo de disponibilidade**
+![figure](images/contract-attributes-2.png)
 
-1.  Para desvincular o acordo de disponibilidade, basta clicar no
-    botão *Desativar* do mesmo.
+**Figure 2 - Contract request link screen**
 
-### Preenchimento dos campos cadastrais
+##### FILLING IN THE REGISTRATION FIELDS
 
-1.  Não se aplica.
+1.  Click on the *Link Service Request* button (according to the previous
+    figure). The screen to perform the link for the request activity will be
+    displayed, as shown in the figure below:
 
-Vinculando calendário ao contrato
----------------------
+   ![figure](images/contract-attributes-3.png)
+   
+   **Figure 3 - Registration screen of the link of the request for contract activity**
 
-### Como acessar
+2.  Fill in the fields as directed below:
 
-1.  Na tela Informações do Contrato, clique em **Calendário** e após isso, será
-    apresentada a tela onde permite vincular o calendário ao contrato.
+-   **Operation condition**: select the period of availability of the operation
+    of the request activity. Example:
 
-### Filtros
+-   **24 x 7**: 24 hours a day, 7 days a week, ie, service available all the
+    time, without interruption;
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+-   **Business hours**: available Monday through Friday from 8:00 AM to 6:00 PM.
 
-    -   Nome.
+-   **Start date**: inform the initial date of the request activity in the
+    contract;
 
-### Listagem de itens
+-   **End date**: the completion of this field can be done at the time of
+    registration, informing a future date for inactivation of the request
+    activity in the contract or only when inactivating the request activity;
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: ID, Nome, Data Início e Data Fim;
+-   **Observation**: describe the possible observations regarding the request
+    activity in the contract;
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Desativar*;
+-   **Restrictions and Suppositions**: inform the possible restrictions and
+    assumptions for the execution of the request activity in the contract;
 
-3.  Clique no botão *Vincular Calendário*. Feito isso, será exibida a tela de
-    pesquisa de calendário. Realize a pesquisa, selecione o calendário desejado
-    e clique no botão *Adicionar* para efetuar a operação. Feito isso, o
-    calendário será vinculado ao contrato;
+-   **Objective**: inform the purpose of the service of request in the contract;
 
-    ![Criar](images/contract-attributes-14.png)
+-   **Process Description**: describe the process of the request activity in the
+    contract;
 
-    **Figura 14 - Tela de vínculo de calendário ao contrato**
+-   **Process link**: inform the process designing link of the request activity,
+    if any;
 
-4.  Para desvincular o calendário, basta clicar no botão *Desativar* do mesmo.
+-   **Requesting area**: inform who can request the activity of request;
 
-### Preenchimento dos campos cadastrais
+-   **E-mail Template (Open)**: select the open e-mail request template to send
+    notification when registering the requests for the request activity;
 
-1.  Não se aplica.
+-   **E-mail Template (Closure)**: select the e-mail template for completing
+    requests for notification when you complete the requests for the request
+    activity;
 
-Vinculando rateio ao contrato
----------------------------
+-   **E-mail Template (Other Actions)**: select the e-mail template to send
+    notification in the other actions performed in the requests regarding the
+    activity of request;
 
-*Rateio é o percentual que aquele contrato paga sobre o Serviço de Negócio
-contratado*
+-   **First-line Escalation Group**: select the 1st level group to escalate the
+    attendance of the request activity;
 
-### Como acessar
+-   **Executor Group**: define the executing group of the request activity, if
+    it does not inform it, the group defined in parameter "9 - ID Group Level 1"
+    will be considered;
 
-1.  Na tela Informações do Contrato, clique na aba **Rateio** e após isso, será
-    apresentada a tela onde permite vincular o rateio ao contrato.
+-   **Approver Group**: define the approving group of the requests of the
+    activity of request;
 
-### Pré-condições
+-   **Satisfaction Survey**: define the survey linked to the activity;
 
-1.  É necessário permitir o acesso a opção rateio (ver conhecimento [Permissão
-    de acesso do gerenciamento de portfólio].
+-   **Calendar**: Select the work schedule for the request activity.
 
-### Filtros
+-   **Service Time**: inform the attendance time of the request activity;
 
-1.  Não se aplica.
+-   **Service Cost**: state the value of the request activity;
 
-### Listagem de itens
+-   **Expand service request screen**: if you want the request service request
+    screen to be enlarged, check the "yes" option;
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Percentual e Ciclo;
+-   **SLA restart in the reopening**: define whether the time for attending the
+    activity will be restarted when reopening the request of the same;
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Excluir*;
+-   **Apply access permissions on occurrences?**: define whether occurrences of
+    requests/incidents will be shown for specific groups of users, or whether
+    all users view all occurrences. If the **Apply access permissions on
+    occurrences?** has your "Yes" option selected, a new tab appears next to the
+    Main tab:
 
-    ![Criar](images/contract-attributes-15.png)
+   ![figure](images/contract-attributes-4.png)
+   
+   **Figure 4 - Permissions tab**
 
-    **Figura 15 - Tela de vínculo de rateio**
+-   When clicking on the new tab a list of Groups that have already had their
+    permission configured:
 
-### Preenchimento dos campos cadastrais
+   ![figure](images/contract-attributes-5.png)
+   
+   **Figure 5- List of linked groups with configured permission**
 
-1.  Clique no botão em *Adicionar rateio* (conforme a figura anterior). Feito
-    isso, será exibida a tela de cadastro do rateio, conforme ilustrado na
-    figura abaixo:
+-   When clicking on *Add* (according to the previous figure) a panel with all
+    occurrence categories appears to allow the Administrator to select the ones
+    that should be released to the selected Group:
 
-    ![Criar](images/contract-attributes-16.png)
+    ![figure](images/contract-attributes-6.png)
+      
+    **Figure 6- Selection panel of occurrence categories and target group**
 
-    **Figura 16 - Tela de cadastro de rateio**
+   !!! note "NOTE"
 
-2.  Preencha os campos conforme orientações abaixo:
+     This setting does not change the appearance of other system features at
+     all, it only restricts some records from being viewed by users who are not
+     in the released groups to the occurrence category.
 
-    -  **Percentual**: informe um percentual de 1 a 100%.
+-   Add the request activity:
 
-    !!! note "NOTA"
+-   In the **Request** section, the service request activities are shown, leave
+    only those that will be linked to the contract;
 
-        O percentual deve ser acima de 0%.
+-   If I have removed a request activity and want to link it to the agreement,
+    click the *Add* button. A window will appear to search for service request
+    activities. Perform the search, select the request activity, and click
+    the *Submit* button to link the activity to the contract.
 
-    -  **Ciclo**: descreva o ciclo vinculado ao rateio.
+-   Add the workflow of the request activity:
 
-    !!! note "NOTA"
+-   In the **Service Flow** section, click the *Add* button. A screen will be
+    displayed to inform the flow of the request activity (s), as shown in the
+    figure below:
 
-        Não é permitido rateios com percentuais diferentes para o mesmo ciclo no
-        mesmo serviço/negócio/contrato.
+   ![figure](images/contract-attributes-7.png)
+   
+   **Figure 7 - Workflow Log**
 
-        Não é permitido cadastros ou alterações de rateios cujos ciclos já tenham
-        se encerrado.
+-   Select the flow that the activity should follow and click the *Save* button
+    to perform the operation.
 
-3.  Clique no botão *Gravar* para efetuar a operação
+3.  After entering the required data, click the *Save* button (according to the
+    previous figure) to perform the operation. Once this has been done, the
+    request activity (y) will be linked to the contract;
 
-4.  Para alterar os dados do vínculo do rateio (já cadastrado) com o contrato,
-    clique no botão *Editar* do registro do mesmo.
+4.  To change the link activity data for the request activity with the contract,
+    click the *Edit* button of the contract record;
 
-    !!! info "IMPORTANTE"
+5.  To delete the link from the request activity with the contract, simply click
+    on the *Delete* button in the contract record.
 
-        Ao editar, é possível alterar os campos Percentual e Ciclo, porém este
-        percentual deve ser acima de 0%.
+Linking incident activities to the contract
+-------------------------------------------
 
-5.  Para excluir o vínculo do rateio com o contrato, basta clicar no
-    botão *Excluir* do registro do mesmo.
+### How to access
 
-!!! note "NOTA"
+1.  On the guide **Contract** Information screen, click on *Advance*, after this
+    click on the guide **Incidents**. After that, the screen where you can link
+    the incident activity to the contract will be displayed.
 
-    Não é possível excluir um rateio cujo ciclo tenha serviços encerrados
-    com as configurações cadastradas.
+### Preconditions
 
-[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/portfolio-access.html
-[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
-[3]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/services.html
-[4]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
-[5]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/provider.html
-[6]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/client.html
-[7]:/pt-br/citsmart-platform-7/additional-features/contract-management/configuration/currency.html
-[8]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/operating-condition.html
-[9]:/pt-br/citsmart-platform-7/plataform-administration/time/create-calendar.html
-[10]:/pt-br/citsmart-platform-7/processes/service-level/time-attendance.html
-[11]:/pt-br/citsmart-platform-7/plataform-administration/email-settings/configure-email-template.html
-[12]:/pt-br/citsmart-platform-7/workflow/workflow-management.html
-[13]:/pt-br/citsmart-platform-7/additional-features/surveys-and-feedback/satisfaction-survey-registration.html
+1.  In order to link the incident activities to the contract, they must already
+    be registered and linked to the service.
+
+### Filters
+
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
+
+-   Incident Name.
+
+### Items list
+
+1.  The following cadastral fields are available to the user to make it easier
+    to identify the desired items in the default listing of the
+    functionality: **ID** and **Incident Name**.
+
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Edit *and *Delete*.
+
+![figure](images/contract-attributes-8.png)
+
+**Figure 8 - Contract incident activity link screen**
+
+### Filling in the registration fields
+
+1.  Click on the *Link Incident* button (according to the previous figure). The
+    screen for linking the incident activity will be displayed, as shown in the
+    figure below:
+
+   ![figure](images/contract-attributes-9.png)
+   
+   **Figure 9 - Link incident activity link record screen**
+
+2.  Fill in the fields according to the guidelines described in the previous
+    item "Linking request Activities to the Contract";
+
+3.  After entering the required data, click the *Save* button to perform the
+    operation. Once this is done, the incident activity will be tied to the
+    contract.
+
+Linking service procedure to contract
+-------------------------------------
+
+### How to access
+
+1.  On the guide Contract Information screen, click on the guide **Procedure**.
+    After that, the screen will appear where you can link the procedure to the
+    contract.
+
+### Preconditions
+
+1.  In order to link the procedures to the contract, they must already be
+    registered and linked to the service.
+
+### Filters
+
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
+
+-   Procedure Name.
+
+### Items list
+
+1.  The following cadastral fields are available to the user to make it easier
+    to identify the desired items in the default listing of the
+    functionality: **ID** and **Procedure Name**.
+
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Edit* and *Delete*.
+
+![figure](images/contract-attributes-10.png)
+
+**Figure 10 - Contract procedure link screen**
+
+### Filling in the registration fields
+
+1.  Click the *Link Procedure* button (according to the previous figure). The
+    screen to perform the procedure link will be displayed, as shown in the
+    figure below:
+
+   ![figure](images/contract-attributes-11.png)
+   
+   **Figure 11 - Registration screen of the link of procedure to contract**
+
+2.  Fill in the fields as described in the item "Linking request Activities to
+    the Contract";
+
+3.  After entering the required data, click the *Save* button to perform the
+    operation. Once this is done, the procedure will be linked to the contract.
+
+Registering cost of downtime
+----------------------------
+
+### How to access
+
+1.  On the Contract Information screen, click on the guide **Cost of Downtime
+    (Downtime)**. After that, a screen will be displayed to record the cost of
+    contract downtime.
+
+   ![figure](images/contract-attributes-12.png)
+   
+   **Figure 12 - Time downtime value record screen**
+
+2.  Enter the time value of the downtime of contract services. After that, click
+    the *Save* button to register.
+
+### Filters
+
+1.  Not applicable.
+
+### Items list
+
+1.  Not applicable.
+
+### Filling in the registration fields
+
+1.  Not applicable.
+
+Linking availability agreement to contract
+------------------------------------------
+
+### How to access
+
+1.  On the Contract Information screen, click **Availability Agreement**. After
+    that, the screen where you can link the service level agreement of type
+    "availability" to the contract will be displayed.
+
+### Filters
+
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
+
+-   SLA Title .
+
+### Items list
+
+1.  The following cadastral fields are available to the user to make it easier
+    to identify the desired items in the default listing of the
+    functionality: **ID**, **SLA Title**, **Availability Index**, **Start
+    Date** and **End Date**;
+
+2.  There are action buttons available to the user in relation to each item in
+    the listing, they are: *Deactivate*;
+
+3.  Click the *Link Availability Agreement* button. Once this is done, the
+    "availability" service level agreement search screen will be displayed.
+    Perform the search and select the availability agreement you want to perform
+    the operation. Once this is done, the agreement will be tied to the
+    contract;
+
+   ![figure](images/contract-attributes-13.png)
+   
+   **Figure 13 - Availability agreement screen**
+
+4.  To delete the link from the availability agreement with the contract, simply
+    click the *Deactivate* button.
+
+### Filling in the registration fields
+
+1.  Not applicable.
+
+Linking calendar to contract
+----------------------------
+
+### How to access
+
+1.  On the Contract Information screen, click **Calendar**. After that, the
+    screen where you can link the calendar to the contract will be displayed.
+
+##### Filters
+
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
+
+-   Name.
+
+### Items list
+
+1.  The following cadastral fields are available to the user to make it easier
+    to identify the desired items in the standard feature
+    listing: **ID**, **Name**, **Start Date**, and **End Date**;
+
+2.  There are action buttons available to the user in relation to each item in
+    the listing, they are: *Deactive;*
+
+3.  Click the *Link Calendar* button. Once this is done, the calendar search
+    screen will be displayed. Perform the search, select the desired calendar,
+    and click the Add button to perform the operation. Once this is done, the
+    calendar will be linked to the contract.
+
+   ![figure](images/contract-attributes-14.png)
+   
+   **Figure 14 - Calendar link to contract screen**
+
+4.  To delete the calendar link to the contract, simply click
+    the *Deactivate* button.
+
+### Filling in the registration fields
+
+1.  Not applicable.
+
+Linking apportionment to contract
+---------------------------------
+
+*Apportionment is the percentage that the contract pays on the Contracted
+Business Service*.
+
+### How to access
+
+1.  On the Contract Information screen, click on the Apportionment tab and after
+    that, the screen where you can link the apportionment to the agreement will
+    be displayed.
+
+### Preconditions
+
+1.  It is necessary to allow access to the apportionment option
+    (see knowledge [Portfolio management access
+    permission][1]).
+
+### Filters
+
+1.  Not applicable.
+
+### Items list
+
+1.  The following cadastral fields are available to the user to make it easier
+    to identify the desired items in the standard feature
+    listing: **Percent** and **Cycle**;
+
+2.  There are action buttons available to the user in relation to each item in
+    the listing, they are: *Edit *and *Delete*;
+
+![figure](images/contract-attributes-15.png)
+
+**Figure 15 - Apportionment link Screen**
+
+### Filling in the registration fields
+
+1.  Click on the *Add Apportionment* button (according to the previous figure).
+    Once this is done, the apportionment registration screen will be displayed,
+    as shown in the figure below:
+
+   ![figure](images/contract-attributes-16.png)
+   
+   **Figure 16 - Apportionment registration screen**
+
+2.  Fill in the fields as directed below:
+
+-   **Percentage**: report a percentage from 1 to 100%.
+
+    !!! note "NOTE"
+
+        The percentage must be above 0%.
+
+-   **Cycle**: describe the cycle linked to the apportionment.
+
+   !!! note "NOTE"
+
+      Apportionment with different percentages are not allowed for the same
+      cycle in the same service/business/contract.
+
+      Apportionment registrations or changes whose cycles are already closed are
+      not allowed.
+
+3.  Click the *Save* button to perform the operation;
+
+4.  To change the data of the apportionment link (already registered) with the
+    contract, click the *Edit* button of it's record.
+
+   !!! info "IMPORTANT"
+
+     When editing, is possible to change the Percentage and Cycle fields, but
+     this percentage must be above 0%.
+
+5.  To exclude the apportionment link to the contract, simply click
+    the *Delete* button in the contract record.
+
+!!! note "NOTE"
+
+    It's no possible to exclude an apportionment whose cycle has services
+    terminated with the registered configurations.
+
+
+[1]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/portfolio-access.html
+[2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+[3]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/services.html
+[4]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
+[5]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/provider.html
+[6]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/client.html
+[7]:/en-us/citsmart-platform-7/additional-features/contract-management/configuration/currency.html
+[8]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/operating-condition.html
+[9]:/en-us/citsmart-platform-7/plataform-administration/time/create-calendar.html
+[10]:/en-us/citsmart-platform-7/processes/service-level/time-attendance.html
+[11]:/en-us/citsmart-platform-7/plataform-administration/email-settings/configure-email-template.html
+[12]:/en-us/citsmart-platform-7/workflow/workflow-management.html
+[13]:/en-us/citsmart-platform-7/additional-features/surveys-and-feedback/satisfaction-survey-registration.html
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Anna Martins
+    <b>Updated:</b>09/01/2019 – Anna Martins
