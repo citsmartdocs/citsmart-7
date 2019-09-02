@@ -1,93 +1,93 @@
-title: Cadastro e pesquisa de categoria de serviço
-Description: Permite registrar e pesquisar as categorias para posicionar os serviços de negócio, apoio, requisição, incidente e procedimento, dentro de grupos semelhantes de atuação.
+title: Service category registration and search
 
-# Cadastro e pesquisa de categoria de serviço
+Description: The Service Category feature allows you to save the categories to classify the business’ services, support, request, incident and procedures, within similar groups of operation.
 
-A funcionalidade de Categoria de Serviço permite registrar e pesquisar as
-categorias para posicionar os serviços de negócio, apoio, requisição, incidente
-e procedimento, dentro de grupos semelhantes de atuação.
+# Service category registration and search
 
-Como acessar
-------------
+The Service Category feature allows you to save the categories to classify the
+business’ services, support, request, incident and procedures, within similar
+groups of operation.
 
-1.  Acesse a funcionalidade através da navegação no menu
-    principal **Processos ITIL >  Gerência de Portfólio e Catálogo >  Categoria
-    Serviço**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Não se aplica.
+1.  Access the service category feature navigating through the main
+    menu **Processes Management > Portfolio and Catalog
+    Management > Service Category**.
 
-Filtros
+Preconditions
+-------------
+
+1.  None.
+
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -   Nome.
+-   Name.
 
-2.  Na tela de **Categoria Serviço**, clique na guia **Pesquisa Categoria
-    Serviço** conforme ilustrada na figura abaixo:
+2.  On the **Service Category** screen, click on the **Search Service
+    Category** guide as illustrated on the image below:
 
-    ![Criar](images/service-category-1.png)
+   ![figure](images/service-category-1.png)
+   
+   **Figure 1 - Service Category search screen**
 
-    **Figura 1 - Tela de pesquisa de categoria de serviço**
+3.  Perform a Service Category search:
 
-3.  Realize a pesquisa de categoria de serviço;
+    -   Insert the name of the service category and click on
+        the *Search* button. After this, the register will be displayed as the
+        given name;
 
-    -  Informe o nome da categoria de serviço e clique no botão *Pesquisar*. Após
-    isso, será exibido o registro conforme o nome informado.
+    -   To list all the service categories, just click directly on
+        the *Search* button.
 
-    -  Caso deseje listar todos os registros de categoria de serviço, basta
-    clicar diretamente no botão *Pesquisar*.
+Items list
+----------
 
-Listagem de itens
------------------
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: Name and Hierarchy.
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Nome** e **Hierarquia**.
+   ![figure](images/service-category-2.png)
+   
+   **Figure 2 - Service Category listing screen**
 
-    ![Criar](images/service-category-2.png)
+2.  After searching, select the intended entry. Once this is done, you will be
+    directed to the registry screen displaying the content of the selected
+    entry.
 
-    **Figura 2 - Tela de listagem de categoria de serviço**
+Filling in the registration fields
+----------------------------------
 
-2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a tela de cadastro exibindo o conteúdo referente ao registro
-    selecionado, podendo editar a Categoria de Serviço.
+1.  The category entry screen will be displayed, as illustrated in the image
+    below:
 
-Preenchimento dos campos cadastrais
------------------------------------
+   ![figure](images/service-category-3.png)
+   
+   **Figure 3 - Service Category entry screen**
 
-1.  Será apresentada a tela de cadastro de categoria, conforme ilustrada na
-    figura abaixo:
+2.  Fill out the fields as instructed:
 
-    ![Criar](images/service-category-3.png)
+    -   **Name**: insert the name of the service category;
 
-    **Figura 3 - Tela de cadastro de categoria de serviço**
+    -   **Type**: select the type of service category;
 
-2.  Preencha os campos conforme orientações abaixo:
+    -   **Higher Category**: insert higher service category, if the category
+        that is being registered belongs to another category. It will only be
+        available categories related to the selected "Category type";
 
-    -  **Nome**: informe o nome da categoria de serviço;
+    -   **Hierarchy**: this field is for checking purposes only. After saving
+        the data, the hierarchy of the service category will be displayed;
 
-    -  **Tipo de Categoria**: selecione o tipo de categoria do serviço;
+2.  After inserting the data, click the *Save* button to save the entry, where
+    the date, time and user are automatically saved for future audit.
 
-    -  **Categoria Serviço Superior**: informe a categoria de serviço superior,
-        caso a categoria que está sendo cadastrada pertence a outra categoria.
-        Será disponibilizado somente as categorias referentes ao "tipo de
-        categoria" selecionado;
-
-    -  **Hierarquia**: este campo é para simples conferência. Após gravar os
-        dados, será exibida a hierarquia da categoria de serviço.
-
-3.  Após informar os dados, clique no botão *Gravar* para efetuar o registro,
-    onde a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/16/2019 – Anna Martins
+    <b>Updated:</b>09/01/2019 – Anna Martins
