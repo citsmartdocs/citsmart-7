@@ -1,82 +1,79 @@
-title:  Geração de relatórios - Gerência de Conhecimentos
-Description: Esse relatório tem o objetivo de apresentar as informações referentes aos conhecimentos contidos na base de conhecimento. 
-# Geração de relatórios - Gerência de Conhecimentos
+title: Report generation - Knowledge Management
+Description: The purpose of this report is to present information on the knowledge contained in the knowledge base
+# Report generation - Knowledge Management
 
-Gerando relatório de base de conhecimento
+Generating knowledge base report
 --------------------------------------------
 
-Esse relatório tem o objetivo de apresentar as informações referentes aos conhecimentos contidos na base de conhecimento.
+The purpose of this report is to present information on the knowledge contained in the knowledge base.
 
-*Como Acessar*
+*How to access*
 
-1. Acesse a funcionalidade de Relatório de Base de Conhecimento através da navegação no menu principal 
-**Relatórios > Gerência de Conhecimentos > Base Conhecimento**.
+1. Access the Knowledge Base Reporting feature by navigating the main menu **Reports > Knowledge Management > Knowledge Base**.
 
-*Filtros*
+*Filters*
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+1. The following filters enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - **Período**: selecione o tipo de período desejado e após isso, informe o período;
-    - **Pasta**: selecione a pasta na qual está armazenado o conhecimento;
-    - **Base de Conhecimento**: selecione o conhecimento;
-    - **Status**: selecione a situação do conhecimento;
-    - **Média de Avaliação**: selecione a média de avaliação do conhecimento;
-    - **Ordenação**: selecione a ordenação que será apresentada no relatório;
-    - **Exibir último acesso**: informe se deseja exibir no relatório os últimos acessos;
-    - **Exibir apenas últimas versões**: informe se deseja exibir apenas as últimas versões no relatório;
-    - **Ocultar Campo Conteúdo**: marque este campo caso queira ocultar o conteúdo dos conhecimentos para não serem apresentados no
-    relatório.
+    - **Period**: Select the period type you want, and then enter the period;
+    - **Folder**: select the folder in which the knowledge is stored;
+    - **Knowledge Base**: select knowledge;
+    - **Status**: select the knowledge situation;
+    - **Average Rating**: select the average rating of the knowledge;
+    - **Order by**: select the sorting that will be displayed in the report;
+    - **View last access**: inform if you want to display the last accesses in the report;
+    - **Show only latest versions**: please advise if you want to display only the latest versions in the report;
+    - **Hide Field Content**: check this field if you want to hide the contents of the knowledge to not be displayed in the report.
     
-2. Será apresentada a tela de **Geração de Relatório de Base de Conhecimento**, conforme ilustrada na figura a seguir:
+2. The **Knowledge BaseReport Generation** screen will be displayed, as shown in the following figure:
 
-    ![Geração](images/rel-conh.img1.jpg)
+    ![Generation](images/report.img1.jpg)
     
-    **Figura 1 - Tela de geração de relatório de base de conhecimento**
+    **Figure 1 - Knowledge base report generation screen**
     
-3. Defina os filtros conforme sua necessidade.
+3. Set the filters as needed.
 
-!!! note "NOTA"
+!!! note "NOTE"
 
-    É exibido no relatório a quantidade de acessos ao conhecimento, essa quantidade é contabilizada por usuário, sendo contado
-    apenas 1 clique por hora.
+    The number of accesses to knowledge is displayed in the report, this amount is counted per user, counting only 1 click per 
+    hour.
     
-Gerando relatório quantitativo de base de conhecimento
+Generating quantitative knowledge base report
 ---------------------------------------------------------
 
-Esse relatório tem o objetivo de apresentar a quantidade de conhecimentos, por situação, origem, avaliação, autor e aprovador,
-contidos na base de conhecimento.
+This report has the objective of presenting the amount of knowledge, by situation, origin, evaluation, author and approver, 
+contained in the knowledge base.
 
-*Como acessar*
+*How to access*
 
-1. Acesse a funcionalidade de Relatório Quantitativo de Base de Conhecimento através da navegação no menu principal 
-**Relatórios > Gerência de Conhecimentos > Quantitativo Base Conhecimento**.
+1. Access the Quantitative Knowledge Base feature by navigating through the main menu 
+**Reports > Knowledge Management > Knowledge Base (Quantitative Report)**.
 
-*Filtros*
+*Filters*
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando 
-a localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - **Período de Abertura**: informe o período desejado.
+    - **Opening Period**: Enter the desired period.
     
-2. Será apresentada a tela de **Geração de Relatório Quantitativo de Base de Conhecimento**, conforme ilustrada na figura a 
-seguir:
+2. The Quantitative Knowledge Base Report Generation screen will be displayed, as shown in the following figure:
 
-    ![Tela](images/rel-conh.img2.jpg)
+    ![Screen](images/report.img2.jpg)
     
-    **Figura 2 - Tela de geração de relatório de base de conhecimento**
+    **Figure 2 - Knowledge base report generation screen**
     
-3. Defina os filtros conforme sua necessidade.
+3. Set the filters as needed.
 
-Gerando relatório de docmentos acessados na base de conhecimento
+Generating report of accessed documents in the knowledge base
 -------------------------------------------------------------------
 
-Esse relatório tem o objetivo de apresentar a quantidade de acessos nos documentos da base de conhecimento.
+This report aims to present the number of hits in the knowledge base documents.
 
-*Como acessar*
+*How to access*
 
-1. Acesse a funcionalidade de Relatório de Documentos Acessados na Base de Conhecimento através da navegação no menu principal 
-**Relatórios > Gerência de Conhecimentos > Documentos acessados**.
+1. Access the Reporting feature of Accessed Documents in the Knowledge Base by navigating the main menu Reports → Knowledge 
+Management → Accessed Documents.
 
 *Filtros*
 
