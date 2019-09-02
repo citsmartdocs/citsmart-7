@@ -72,7 +72,7 @@ The image below shows the significant coverage of this solution in relation to t
 ----------------------------------------------------------------------------------------------------------------
 
 - **Menu: ITIL process**
-    - Objetivo geral: reúne as principais funcionalidades de todos os [Processos da ITIL][25] served by the solution.
+    - General objective: it brings together the main functionalities of all the [Processos da ITIL][25] served by the solution.
     - Sub-systems/Functionalities (in this case, the 13 ITIL processes, which have the [PinkVERIFY][26] seal certificated by
     [Pink Elephant][27]):
 1. **Portfolio and Catalog** - [introduction][28] and [documentation][48]
