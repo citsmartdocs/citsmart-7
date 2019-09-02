@@ -63,7 +63,7 @@ Items list
 Filling in the registration fields
 ----------------------------------
 
-1.  Access the feature, after that, the** Capability Master** screen will be
+1.  Access the feature, after that, the **Capability Master** screen will be
     displayed, as shown below:
 
    ![figure](images/skill-3.png)
