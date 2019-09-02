@@ -31,7 +31,7 @@ to find the desired items:
     
     **Figure 1 - Domain items search**
     
-3. To search for a specific domain item record, simply fill in the filters as needed.
+3. To search for a specific domain item record, simply fill in the filters as needed.  
 
 Items list
 -------------------
