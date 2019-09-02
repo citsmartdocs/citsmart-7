@@ -357,7 +357,7 @@ Filling in the registration fields
     - **Observation**: describe the additional details about the contact, if necessary;
     - **Title**: report the title to the problem;
     - **Management**: select the type of management of the problem.
-        - **Proactive: Proactive Problem Management for the prevention of the occurrence of Incidents. Worries about preventing 
+        - **Proactive**: Proactive Problem Management for the prevention of the occurrence of Incidents. Worries about preventing 
         incidents from occurring. Responsible for addressing similar issues before they happen, ensuring that such scenarios are 
         addressed as well.
         - **Reactive**: from the Incident Management process. Worries about solving problems in response to one or more incidents. 
