@@ -77,26 +77,26 @@ Registering business service
 
 2.  Fill in the fields as directed below:
 
--   **Service Name**: enter the name of the service;
+-  **Service Name**: enter the name of the service;
 
--   **Process Initiation**: inform of which process the service originated;
+-  **Process Initiation**: inform of which process the service originated;
 
--   **Category**: enter the service category. Clicking on this field will
+-  **Category**: enter the service category. Clicking on this field will
     display the category search screen, perform the search of the desired
     category and select it. But, if you do not have a registered category, you
     can register one from this screen, just click on the "Category of Service"
     tab;
 
--   **Deployment Date**: inform the date of implementation of the service;
+-  **Deployment Date**: inform the date of implementation of the service;
 
--   **Service Phase**: select the phase of the service;
+-  **Service Phase**: select the phase of the service;
 
-     -   **Define**: this stage indicates that the service is on startup. At this
+     -  **Define**: this stage indicates that the service is on startup. At this
     stage, the collection of information on all existing and proposed services,
     the definition of new services, business cases and the validation of the
     portfolio data begins.
 
-     -   **Analyze**: this phase indicates that the service is being analyzed. At
+     -  **Analyze**: this phase indicates that the service is being analyzed. At
     this stage it is analyzed whether the service will give return to the
     business and we make a balance between supply and demand. Also identifying
     what service represents for the business. In this activity we will make a
@@ -108,61 +108,61 @@ Registering business service
    
    **Figure 5 - Service analysis screen**
 
--   **Type of Investment**: indicate the type of investment related to the
+      -  **Type of Investment**: indicate the type of investment related to the
     service;
 
--   **Demand**: indicate the type of demand for the service;
+      -  **Demand**: indicate the type of demand for the service;
 
--   **Financial Return of the Service**: indicate the financial return of the
+      -  **Financial Return of the Service**: indicate the financial return of the
     service.
 
--   **Approve**: this phase indicates that the proposed service is in approval.
+      -  **Approve**: this phase indicates that the proposed service is in approval.
     Phase to finalize the proposed service, authorize services and resources and
     make decisions for the future. At this stage the proposed service is
     approved, the service is analyzed and it is verified if it is giving return
     to the business. If it does not return, it means that it has become cost,
     and then we must consider them as obsolete.
 
--   **Opening Term**: this phase indicates that the service is moving to the
+    -  **Opening Term**: this phase indicates that the service is moving to the
     service design phase and the existing services are renewed in the service
     catalog. At this stage the decisions are communicated, allocates resources
     and contracts services.
 
--   **Service Status**: enter the status of the service;
+-  **Service Status**: enter the status of the service;
 
--   **Criticality**: this field will be activated when the service is in the
+-  **Criticality**: this field will be activated when the service is in the
     analysis phase to inform the critical level of the service;
 
--   **Importance of the Service to the Business**: inform the importance of the
+-  **Importance of the Service to the Business**: inform the importance of the
     service to the business;
 
--   **High**: inform you if the service is essential for the operation of the
+    -  **High**: inform you if the service is essential for the operation of the
     business.
 
--   **Average**: inform it if the service is important for the business, but
+    -  **Average**: inform it if the service is important for the business, but
     productivity is not totally dependent on it.
 
--   **Low**: inform you if the service to be performed is necessary for the
+   -  **Low**: inform you if the service to be performed is necessary for the
     day-to-day business of the company, but its absence does not cause drastic
     situations.
 
--   **Normal**: inform you if the service to be performed does not interfere
+   -  **Normal**: inform you if the service to be performed does not interfere
     with the organization's productive daily life.
 
--   **To combine**: inform you when you do not know the type of importance of
+   -  **To combine**: inform you when you do not know the type of importance of
     service to the business at the time of registration.
 
--   **Type of Service**: state the type of service;
+-  **Type of Service**: state the type of service;
 
--   **Place of Execution of the Services**: inform the place where the service
+-  **Place of Execution of the Services**: inform the place where the service
     will be executed;
 
--   **Internal**: the service will be performed within the organization;
+   -   **Internal**: the service will be performed within the organization;
 
--   **External**: the service will be performed outside the organization. For
+   -   **External**: the service will be performed outside the organization. For
     example: in another organization or in a branch;
 
--   **Internal/External**: the service can be performed inside the organization
+   -   **Internal/External**: the service can be performed inside the organization
     as outside.
 
 -   **Detailing**: describe the details of the service;
