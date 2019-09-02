@@ -9,7 +9,7 @@ Preconditions
 -------------
 
 1.  Have access permission to portfolio management functionality (see
-    knowledge [Portfolio Management access permission][1]));
+    knowledge [Portfolio Management access permission][1]);
 
 2.  Have the portfolio of services registered (see knowledge [Service Portfolio
     registration]([2]);
