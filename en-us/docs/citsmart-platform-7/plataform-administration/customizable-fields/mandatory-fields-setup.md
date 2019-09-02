@@ -1,53 +1,51 @@
-title: Configuração de campos de obrigatoriedade
-Description: Esta funcionalidade tem por objetivo configurar campos que podem ser obrigatórios.
-# Configuração de campos de obrigatoriedade
+title: Mandatory fields configuration
+Description: This functionality is intended to configure fields that may be required.
+# Mandatory fields configuration
 
-Esta funcionalidade tem por objetivo configurar campos que podem ser obrigatórios.
+This functionality is intended to configure fields that may be required.
 
-Como acessar
+How to access
 --------------
 
-1. Acesse a funcionalidade de configuração de campos através da navegação no menu principal 
-**Sistema > Configurações > Páginas - Configuração de campos**.
+1. Access the field configuration feature by navigating in the main menu **System > Settings > Pages - Field configuration**.
 
-Pré-condições
+Preconditions
 ---------------
 
-1. Não se aplica.
+1. No applicable.
 
-Filtros
+Filters
 ---------
 
-1. Não se aplica.
+1. No applicable.
 
-Listagem de itens
+Items list
 --------------------
 
-1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens desejados na listagem padrão 
-da funcionalidade: **ID** e **Nome**.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **ID** and **Name**.
 
-2. Existe um botão de ação disponível ao usuário em relação a cada item da listagem, é ele: "Editar".
+2. There are action buttons available to the user for each item in the listing, they are: *Edit*.
 
-![Páginas](images/camp-ob.img1.png)
+![Pages](images/fields.img1.jpg)
 
-**Figura 1 - Páginas**
+**Figure 1 - Pages**
 
-Preenchimentos dos campos cadastrais
+Filling in the registration fields
 --------------------------------------
 
-1. Clique no botão "Editar" (conforme ilustrado na figura anterior). Feito isso, será apresentada a tela para configuração de 
-obrigatoriedade dos campos, conforme ilustrada na figura a seguir:
+1. Click the *Edit* button (as shown in the previous figure). Once this is done, the screen for configuring the fields will be 
+displayed, as shown in the following figure:
 
-    ![Campos](images/camp-ob.img2.png)
+    ![Fields](images/fields.img2.jpg)
     
-    **Figura 2 - Campos**
+    **Figure 2 - Fields**
     
-2. Marque o(s) campo(s) que deseja que seu preenchimento seja obrigatório;
+2. Check the field (s) that you wish to fill out.
 
-3. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma futura 
-auditoria.
+3. Click the *Save* button to register, where the date, time and user will be saved automatically for a future audit.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/22/2019 – Larissa Lourenço
+    <b>Updated:</b>09/02/2019 – Larissa Lourenço
