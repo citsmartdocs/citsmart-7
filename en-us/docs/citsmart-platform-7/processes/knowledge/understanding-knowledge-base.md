@@ -1,184 +1,181 @@
-title:  Entendendo como esta solução está documentada na base de conhecimento
-Description: Assimilar os conhecimentos básicos sobre o uso e administração das soluções na base de conhecimento
-# Entendendo como esta solução está documentada na base de conhecimento
+title:  Understanding how this solution is documented in the knowledge base
+Description: There was a need to create an enlightening document on how this knowledge was structured
+# Understanding how this solution is documented in the knowledge base
 
-Desde que houve a decisão estratégica de migrar toda a documentação das soluções da CITSmart Corporation para dentro da base do 
-conhecimento do CITSmart Enterprise ITSM, surgiu a necessidade de criar um documento esclarecedor sobre como a base de conhecimento
-foi estruturada. De posse desta explicação introdutória entendemos que a navegação e as buscas dentro dessa base de conhecimento
-passam a ser mais eficientes e eficazes por parte dos colaboradores da empresa, agentes autorizados e usuários finais da solução.
+Since there was a strategic decision to migrate all documentation of CITSmart Corporation solutions to the CITSmart Enterprise ITSM 
+knowledge base, there was a need to create an enlightening document on how this knowledge was structured. With this introductory 
+explanation we understand that the navigation and the searches within this documentation become more efficient and effective on the 
+part of the employees of the company, authorized agents and end users of the solution.
 
-Atualmente identificamos quatro alternativas viáveis para acessar e assimilar os conhecimentos básicos sobre o uso e administração
-das soluções na base de conhecimento. Elas são explicadas neste documento.
+We have now identified four feasible alternatives to access and assimilate basic knowledge about the use and administration of 
+solutions in the knowledge base. They are explained in this document.
 
-A estratégia do documento Visão Geral
+The overview document strategy
 ----------------------------------------
 
-Recomenda-se que todo iniciante nesta solução primeiramente leia o documento chamado “Visão Geral” que fica na pasta “1-Introdução”.
-Trata-se de um documento muito proveitoso para os iniciantes porque consegue contextualizar e permitir uma assimilação progressiva 
-(top-down) sobre a solução, começando desde os seus objetivos e benefícios, passando pelos principais links que levam a outros 
-documentos relevantes e chegando aos manuais de instalação para que o uso da solução possa efetivamente começar.
+It is recommended that every beginner first read the document called "Overview" in the "1-Introduction" folder. It is a very useful 
+document for the beginners because it allow a top-down assimilation of the solution, starting from its objectives and benefits, 
+through the main links that lead to other relevant documents and reaching the manuals so the use of the solution can effectively 
+begin.
 
-A partir deste primeiro documento lido, é possível seguir a leitura de outros usando os hyperlinks nele contidos (exemplo: links 
-para documentos que explicam cada módulo da solução).
+From this first document read, it is possible to follow the reading of others by using hyperlinks inside (eg. links to documents 
+that explain each module of the solution).
 
-Todas as soluções da CITSmart Corporation têm seu próprio documento “Visão Geral” na base de conhecimento, apenas diferenciados no
-título pela sigla ou apelido da solução entre parênteses, exemplo: “Visão Geral (ITSM)”, “Visão Geral (Docs)”, “Visão Geral 
-(Builder)”, etc.
+All CITSmart Corporation solutions have their own "Overview" document in the knowledge base, only distinguished by the solution 
+acronym between parentheses, eg "Overview (ITSM)", "Overview (Docs)", "Overview (Builder)," etc.
 
-Para acessar e ler a Visão Geral desejada basta utilizar a forma descrita na alternativa "A ESTRATÉGIA DO BUSCADOR" (citada 
-abaixo neste documento).
+To access and read the desired Overview, simply use the form described in the alternative "THE SEARCHER STRATEGY" (quoted below).
 
-A estratégia das pastas
---------------------------
+The folders structure strategy
+----------------------------------
 
-Todas as soluções da CITSmart Corporation têm uma estrutura mínima padronizada de pastas estruturadas para organizar a documentação 
-sobre seu uso e administração.
+All CITSMart Corporation solutions have a minimum standardized structure of structured folders to organize documentation on their 
+use and administration.
 
-Os nomes dessas pastas são autoexplicativos para facilitar o acesso e a gestão desses conhecimentos no dia-a-dia.
+The names of these folders are self-explanatory to facilitate access and management of this knowledge.
 
-A estrutura padrão mínima é:
+The minimum standard structure is:
 
-![Pastas](images/base-img1.jpg)
+![Folders](images/how.img1.jpg)
 
-**Figura 1 - Estrutura de pastas**
+**Figure 1 - Folder Structure**
 
-Existem mais pastas além destas acima, porém têm outras finalidades diferentes do uso e administração básicos da solução e são 
-visíveis apenas para uso interno da empresa CITSmart Corporation e para seus Agentes Autorizados.
+There are more folders besides these, but they serve other purposes than the basic use and administration. They are visible only 
+for internal use by CITSmart Corporation and its Authorized Agents.
 
-Um exemplo real desta estrutura:
+A real example of this structure:
 
-![Estrutura](images/base-img2.jpg)
+![Structure](images/how.img2.jpg)
 
-**Figura 2 - Exemplo de uma estrutura de pastas**
+**Figure 2 - Example of a folder structure**
 
-Nem todas as soluções são internacionalizadas, portanto elas não apresentam as pastas para documentos traduzidos, somente a 
-versão nacional.
+Not all solutions are internationalized, so they do not have folders for translated documents, only the national version.
 
-Ao clicar numa pasta é montada a lista de todos os conhecimentos desta pasta, logo em seguida, para cada sub-pasta existente 
-nessa pasta, são acrescentados na lista resultante os documentos da sub-pasta, isso repetidamente e recursivamente.
+When you click on a folder the list of all the knowledge of this folder is mounted, then for each sub-folder in that folder, the 
+subfolder documents are added to the resulting list repeatedly and recursively.
 
-![Lista](images/base-img3.jpg)
+![List](images/how.img3.jpg)
 
-**Figura 3 - Lista de documentos de uma pasta**
+**Figure 2 - List of the documents of a folder**
 
-!!! info "IMPORTANTE"
+!!! info "IMPORTANT"
 
-    Apenas os colaboradores da CITSmart Corporation visualizam as pastas e documentação das soluções em todas as línguas 
-    disponíveis, os demais perfis (Agentes Autorizados, Clientes e Prospectos) são direcionados para apenas uma língua 
-    específica.
-    
-A estratégia do Smart Button
+    Only CITSmart Corporation employees view the folders and documentation of the solutions in all available languages, the other 
+    profiles (Authorized Agents, Clients and Prospectuses) are directed to only one specific language.
+
+The smart button strategy
 -----------------------------
 
-A maioria das telas do CITSmartEnterprise ITSM possui o recurso “Smart Button”. Trata-se de uma aba móvel que mostra links para
-conhecimentos escolhidos a dedo para explicar a funcionalidade atualmente aberta pelo usuário final.
+Most CITSmart Enterprise ITSM screens have the Smart Button feature. It is a mobile flap that shows a list of link to selected 
+knowledges to explain the current functionality.
 
-![Aba](images/base-img4.jpg)
+![Tab](images/how.img4.jpg)
 
-**Figura 4 - Aba do Smart Button**
+**Figure 4 - Smart Button Tab**
 
-Para que este recurso efetivamente funcione existe um pré-requisito que fica a cargo da equipe que administra a base de 
-conhecimento de sua organização, qual seja:
+In order for this resource to work effectively, there is a prerequisite for the team managing your organization's knowledge base, 
+which is:
 
-1. Cada documento que contribuir para a explicação de uma tela/funcionalidade deve ter o campo “Tags” preenchido com uma 
-palavra-chave na opção **Processos ITIL > Gerência de Conhecimento > Gerenciamento de Conhecimento**;
-2. Essa mesma palavra-chave deve ser usada no preenchimento do campo “Tags” do cadastro de cada tela/funcionalidade (opção
-**Cadastros Gerais > Menu** do ITSM) que deve ser vinculada ao conhecimento que a explica.
+1. Each document that contributes to the explanation of a screen/feature should have the "Tags" field populated with a keyword in 
+the option **ITIL Processes > Knowledge Management > Knowledge Management**;
+2. This same keyword should be used to fill in the field Tags of the register of each screen/functionality (option 
+**General Register > Menu**) that should be linked to the knowledge that explains it.
     
-O efeito final desta configuração de Tags é bastante didático e produtivo, porque reduz bastante o desgaste do usuário final que 
-sem isso tem que se deslocar para o Portal do Conhecimento para ali realizar navegações e pesquisas adicionais (overhead) para 
-somente assim conseguir entender a tela atual.
+The final effect of this configuration of Tags is quite didactic and productive, because it greatly reduces the wear and tear of 
+the end user who without this has to move to the Knowledge Portal to perform navigations and additional searches (overhead) to only 
+thus be able to understand the screen context.
 
-A estratégia do buscador
+The searcher strategy
 --------------------------
 
-O CITSmart Enterprise ITSM, assim como as melhores ferramentas de Gestão de Conhecimento do mercado, disponibiliza um "buscador
-de base de conhecimento" para o usuário final, em nosso caso usando a tecnologia SolR, um dos recursos tecnológicos mais 
-avançados do mercado.
+CITSmart Enterprise ITSM, as well as the best Knowledge Management tools on the market, provides a knowledge base search engine for 
+the end user, in our case using [SolR][1] technology.
 
-Na parte central da tela do Portal do Conhecimento localiza-se um campo tipo texto preenchido com a frase **“O que deseja 
-saber?”**. Ao digitar uma palavra neste campo e teclar ENTER, a solução inicia um processo de busca em todos os registros da base 
-de conhecimento, incluindo dentro dos arquivos anexados em cada desses registros.
+In the central part of the Knowledge Portal screen is a text-type field filled with the phrase "What do you want to know?". When 
+entering a word in this field and typing ENTER, the solution starts a search process on all records in the knowledge base, 
+including within the files attached to each of those records.
 
-![Campo](images/base-img5.jpg)
+![Field](images/how.img5.jpg)
 
-**Figura 5 - Campo de pesquisa do portal do conhecimento**
+**Figure 5 - Knowledge Portal Search Field**
 
-Esta busca pela palavra desejada leva em consideração algumas questões de segurança de acesso previamente configuradas pelos 
-administradores, basicamente ligadas ao cruzamento do perfil de acesso do usuário logado com o conjunto das pastas liberadas a 
-esse perfil para acesso de leitura e/ou gravação. Esta estrategia geral de níveis de acesso às publicações na base (para todas as
-soluções) está disposta da seguinte forma:
+This search for the desired word takes into account some access security issues previously configured by the administrators, 
+basically linked to the crossing of the user access profile logged with the set of folders released to this profile for read and/or 
+write access permission. This general strategy of access levels for publications in the database (for all solutions) is arranged as 
+follows:
 
-- **Sem restrições (Público)**: nível de acesso amplo no qual as pastas e os documentos/conhecimentos sobre uso e administração 
-básicos podem ser acessados sem restrições (basta fazer cadastro simples);
-- **Algumas restrições (Agentes Autorizados)**: nível no qual as pastas e os documentos/conhecimentos podem ser acessados somente 
-pela empresa CitSmart Corporation e por seus agentes de revenda oficiais;
-- **Restrição máxima (interna/restrita/privada/sigilosa)**: nível no qual as pastas e os documentos/conhecimentos podem ser 
-acessados somente pela empresa CitSmart Corporation.
+- **Unrestricted (public)**: wide level of access in which folders and documents/knowledge about basic use and administration can 
+be accessed without restrictions (it's necessary only a simple registration);
+- **Some restrictions (authorized Agents)**: access level at which folders and documents/knowledge can be accessed only by CITSmart 
+Corporation and its official resellers;
+- **Maximum restriction (internal/restricted/private/confidential)**: access level at which folders and documents/knowledge can 
+only be accessed by CITSmart Corporation.
 
-Também se leva em consideração como critério de seleção na busca o estado atual de cada conhecimento presente dentro dessas 
-pastas, pois conhecimentos registrados como sigilosos, não-publicados, rascunhos, arquivados e expirados (pela data de 
-vencimento) não deverão constar da lista resultante.
+Also, the current state of each knowledge present within these folders is considered as selection criteria in these searches, since 
+knowledge that is classified as confidential, unpublished, drafts, retired and expired (by the due date) should not be included in 
+the list resulting.
 
-Na seção "Veja também" é possível encontrar dicas e orientações de pesquisa.
+In *See also* section you can find tips and search guidelines.
 
-A estratégia do "tipo de documento"
+The "type of document" strategy
 ------------------------------------
 
-Os conhecimentos são classificados pelo seu conteúdo e dispostos em sua pasta adequada com a finalidade de otimizar a busca dos
-mesmo pelo usuário. São eles:
+The knowledge is classified by its content and arranged in its proper folder in order to optimize the search of the same by the 
+user. They are:
 
-| **Aplicado em**                             | **Título do “Tipo de Documento”**    | **Significado/Relevância**                                                                                                                                                                                                                                                                              |
-|----------------------------------------------|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Geral**                                    | Documento                            | É um conhecimento criado com tipo genérico, cadastrado sem qualquer preocupação ou interesse na sua categorização, recomenda-se não usar este quando existir o tipo correspondente.                                                                                                                     |
-|                                              | FAQ                                  | São os conhecimentos do tipo pergunta-resposta, mais comuns em um ambiente de suporte técnico/operacional.                                                                                                                                                                                              |
-| **Guia do Usuário(todos os produtos)**       | Apresentação de um produto           | Tipo de documento que explica de maneira geral o propósito, os benefícios e as características de um produto de software. Deve ser a primeira leitura para quem quer conhecer o produto. Todos os produtos da CITSmart devem ter pelo menos um com o padrão do nome:“Visão Geral (<sigla do produto>)” |
-|                                              | Dicionário de Dados                  | Documento gerado pelo Enterprise Architect contendo a lista de todas as tabelas e colunas do produto.                                                                                                                                                                                                   |
-|                                              | Erro Conhecido                       | Relato de problema na solução com a correspondente orientação do suporte para trata-lo ou contorna-lo.                                                                                                                                                                                                  |
-|                                              | Glossário                            | Lista em ordem alfabética de termos e expressões mais utilizadas no produto com a devida explicação.                                                                                                                                                                                                    |
-|                                              | Introdução a um Módulo               | Qualquer tipo de documento usado para introduzir conceitos, características e módulos de um produto. Deve ser a leitura a ser feita logo após a Visão Geral para quem quer conhecer o produto. Todos os produtos da CITSmart devem ter pelo menos um documento para cada módulo.                        |
-|                                              | Manual de Administração              | Procedimentos mais técnicos voltados para a administração da solução (instalação, atualização, configuração de infraestrutura, banco de dados, servidor de aplicações e sistema operacional).                                                                                                           |
-|                                              | Modelo UML                           | Diagramas usados para documentar a especificação de um software.                                                                                                                                                                                                                                        |
-|                                              | Orientação de uso                    | Explicação sobre o preenchimento de uma funcionalidade de cadastro.                                                                                                                                                                                                                                     |
-|                                              | Procedimento Operacional Padronizado | POP: documento de processo que explica os passos mínimos necessários para execução com qualidade de cada atividade do fluxo.                                                                                                                                                                            |
-|                                              | Programação                          | Qualquer tipo de conhecimento que as equipes de desenvolvedores entendem relevantes para compartilhamento (programação e arquitetura).                                                                                                                                                                  |
-|                                              | Regra de Negócio                     | Assertivas que determinam o comportamento das funcionalidades de um produto. São condições que nada têm relação com tecnologia, e sim com o funcionamento do negócio.                                                                                                                                   |
-|                                              | Relatório do Smart Report            | Especificação de relatórios dinâmicos e reprogramáveis que existem no produto sem qualquer customização adicional.                                                                                                                                                                                      |
-|                                              | Relatório Nativo do Produto          | Especificação de relatórios que existem no produto sem qualquer customização.                                                                                                                                                                                                                           |
-|                                              | Visão e Entrega de Versão            | Relação dos entregáveis pretendidos ou presentes numa versão, bem como orientações específicas e os links dos arquivos de deploy e scripts.                                                                                                                                                             |
-|                                              | Web Services                         | Application Programming Interface: Interfaces de serviços publicados ou consumidos por produtos de software.                                                                                                                                                                                            |
-| **Guia do Usuário(ITSM)**                    | Campos-chave                         | Explicações sobre os campos especiais usados para configurar e-mails e requisições no ITSM.                                                                                                                                                                                                             |
-|**Gestão das Equipes**                        | Correspondências Oficiais            | Registro de envio ou recebimento de cartas e encomendas pelo correio.                                                                                                                                                                                                                                   |
-|                                              | Documento                            | Tipo genérico para um conhecimento que não tem a classificação adequada.                                                                                                                                                                                                                                |
-|                                              | Evidência de Teste                   | Registro de trabalho de testes realizado pela equipe Qualidade.                                                                                                                                                                                                                                         |
-|                                              | GCS                                  | Registro de trabalho de gestão da configuração de software realizado pela equipe Qualidade.                                                                                                                                                                                                             |
-|                                              | White papers                         | Publicações da empresa CITSmart para divulgar características de seus serviços e produtos.                                                                                                                                                                                                              |
-|                                              | Material de Passagem de Conhecimento | Qualquer tipo de conhecimento (Video, Slides, Texto, etc.) usado para passagem de conhecimento entre as equipes CITSmart e Agentes Autorizados.                                                                                                                                                         |
-|                                              | Material para Pré-Venda              | Qualquer tipo de conhecimento (Video, Slides, Texto, etc.) usado para apoiar apresentações de interesse comercial dos produtos da CITSmart.                                                                                                                                                             |
-|                                              | Minuta de Contratos                  | Modelo de documentos para serem usados como contratos de efeito legal.                                                                                                                                                                                                                                  |
-|                                              | OKR                                  | Documentos relacionados com as iniciativas criadas e executadas com a técnica OKR.                                                                                                                                                                                                                      |
-|**Metodologias, Consultorias e serviços afins.**| HOW-TO                               | Diretório com os links para visualizar processos gerados pelo BizAgi no formato html.                                                                                                                                                                                                                   |
-|                                              | Material para Certificação           | Qualquer tipo de conhecimento (Video, Slides, Texto, etc.) usado para as certificações em produtos da CITSmart.                                                                                                                                                                                         |
-|                                              | Material para Implantação            | Qualquer tipo de conhecimento (Video, Slides, Texto, etc.) usado para as implantar os processos presentes em cada produto.                                                                                                                                                                              |
-|                                              | Material para Treinamento            | Qualquer tipo de conhecimento (Video, Slides, Texto, etc.) usado para os treinamentos oficiais de produtos da CITSmart.                                                                                                                                                                                 |
-|                                              | Material sobre Metodologia           | Qualquer tipo de conhecimento (Video, Slides, Texto, etc.) usado para as explicar metodologias aplicáveis em produtos da CITSmart.                                                                                                                                                                      |
-| **Funcionamento dos Processos ITIL**         | Erro conhecido                       | São conhecimentos com tipo atribuído automaticamente pelo módulo de Gerenciamento de Problema                                                                                                                                                                                                           |
-|                                              | Evidência de Teste                   | São conhecimentos com tipo atribuído automaticamente pelo módulo de Gerenciamento de Continuidade.                                                                                                                                                                                                      |
-|                                              | Medida de recuperação                | Conhecimento utilizado no Gerenciamento de Continuidade dentro do qual deverá existir todas as orientações de recuperação necessárias para um momento de desastre.                                                                                                                                      |
-|                                              | Plano de resposta a emergências      | Conhecimento utilizado no Gerenciamento de Continuidade dentro do qual deverá existir todas as orientações necessárias para um momento de emergência.                                                                                                                                                   |
-|                                              | Plano de avaliação de danos          | Conhecimento utilizado no Gerenciamento de Continuidade que deverá conter informações sobre possíveis danos causados no momento de desastre.                                                                                                                                                            |
-|                                              | Plano de registros vitais            | Conhecimento utilizado no Gerenciamento de Continuidade que deverá conter informações sobre funções vitais para continuidade do negócio.                                                                                                                                                                |
-|                                              | Plano de comunicação                 | É o conhecimento que informa quais os caminhos, meios e critérios de comunicação, bem como as pessoas que devem ser comunicadas (Matriz RACI).                                                                                                                                                          |
-|                                              | Plano de disponibilidade             | Conhecimento utilizado no Gerenciamento de Disponibilidade que deverá conter os critérios do que é ou não entendido como “disponível”. Ex: qual o percentual de disponibilidade de um servidor.                                                                                                         |
+| **Applied in**                                        | **"Document Type" Title**          | **Meaning/Relevance**                                                                                                                                                                                                                                                                  |
+|----------------------------------------------------|--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **General**                                         | Document                       | It is a knowledge created with generic type, registered without any concern or interest in its categorization, it is recommended not to use this when there is the corresponding type.                                                                                               |
+|                                                    | FAQ                            | It is the knowledge of the question-answer type, most common in a technical / operational support environment.                                                                                                                                                                       |
+| **User Guide(all the products)**                       | A product presentation         | Type of document that explains in general the purpose, benefits and characteristics of a software product. Should be the first reading for anyone who wants to know the product. All CITSmart products must have at least one with the default name: "Overview (<product acronym>)". |
+|                                                    | Data dictionary                | Document generated by the Enterprise Architect containing the list of all tables and columns of the product.                                                                                                                                                                         |
+|                                                    | Known Error                    | Problem report in the solution with corresponding support orientation to treat or circumvent it.                                                                                                                                                                                     |
+|                                                    | Glossary                       | List in alphabetical order of terms and expressions most used in the product with the proper explanation.                                                                                                                                                                            |
+|                                                    | A Module Introduction          | Any type of document used to introduce concepts, characteristics and modules of a product. It should be the reading to be made right after the Overview for anyone who wants to know the product. All CITSmart products must have at least one document for each module.             |
+|                                                    | Administration Manual          | More technical procedures for managing the solution (installation, upgrade, configuration of infrastructure, database, application server and operating system).                                                                                                                     |
+|                                                    | UML model                      | Diagrams used to document the specification of a software.                                                                                                                                                                                                                           |
+|                                                    | Usage guidance                 | Explanation about filling in a registration feature.                                                                                                                                                                                                                                 |
+|                                                    | Standard Operational Procedure | SOP: process document that explains the minimum steps required to execute with quality each flow activity.                                                                                                                                                                           |
+|                                                    | Programming                    | Any kind of knowledge that the developer teams understand relevant for sharing (programming and architecture).                                                                                                                                                                       |
+|                                                    | Business rule                  | Assertiveness that determines the functionalities behavior of a product. They are conditions that have nothing to do with technology, but with the operation of the business.                                                                                                        |
+|                                                    | Smart Report                   | Specifying dynamic and reprogrammable reports that exist in the product without any additional customization.                                                                                                                                                                        |
+|                                                    | Native Product Report          | Specifying reports that exist in the product without any customization.                                                                                                                                                                                                              |
+|                                                    | Vision and Release Delivery    | Deliverables list intended or present in a release, as well as specific guidelines and links to deploy files and scripts.                                                                                                                                                            |
+|                                                    | Web Services                   | Application Programming Interface: Service interfaces published or consumed by software products.                                                                                                                                                                                    |
+| **User Guide(ITSM)**                                   | Key fields                     | Explanations about the special fields used to configure e-mails and requests in ITSM.                                                                                                                                                                                                |
+| **Team Management**                                    | Official Correspondence        | Registration of mailing and receiving of letters and parcels.                                                                                                                                                                                                                        |
+|                                                    | Document                       | Generic type for a knowledge that does not have the proper classification.                                                                                                                                                                                                           |
+|                                                    | Test Evidence                  | Test work registration carried out by the Quality team.                                                                                                                                                                                                                              |
+|                                                    | GCS                            | Job record of software configuration management performed by the Quality team.                                                                                                                                                                                                       |
+|                                                    | White papers                   | CITSmart Company publications to divulge characteristics of its services and products.                                                                                                                                                                                               |
+|                                                    | Knowledge Passing Material     | Any kind of knowledge (Video, Slides, Text, etc.) used to pass knowledge between CITSmart teams and Authorized Agents.                                                                                                                                                               |
+|                                                    | Pre-sale Material              | Any kind of knowledge (Video, Slides, Text, etc.) used to support presentations of commercial interest of CITSmart products.                                                                                                                                                         |
+|                                                    | Draft Contract                 | Document template to be used as contracts of legal effect.                                                                                                                                                                                                                           |
+|                                                    | OKR                            | Documents related to initiatives created and executed with the OKR technique.                                                                                                                                                                                                        |
+| **Methodologies, Consultancies and related services.** | HOW-TO                         | Directory with links to view processes generated by BizAgi in html format.                                                                                                                                                                                                           |
+|                                                    | Certification Material         | Any kind of knowledge (Video, Slides, Text, etc.) used for certifications in CITSmart products.                                                                                                                                                                                      |
+|                                                    | Material for Deployment        | Any type of knowledge (Video, Slides, Text, etc.) used to implement the processes present in each product.                                                                                                                                                                           |
+|                                                    | Training Materials             | Any kind of knowledge (Video, Slides, Text, etc.) used for official training of CITSmart products.                                                                                                                                                                                   |
+|                                                    | Material on Methodology        | Any kind of knowledge (Video, Slides, Text, etc.) used to explain the methodologies applicable to CITSmart products.                                                                                                                                                                 |
+| **ITIL Processes Functioning**                        | Known Error                    | They are knowledge with type assigned automatically by the Problem Management module.                                                                                                                                                                                                |
+|                                                    | Test Evidence                  | They are knowledge of type assigned automatically by the module of Continuity Management.                                                                                                                                                                                            |
+|                                                    | Recovery measure               | Knowledge used in Continuity Management within which there should be all recovery guidelines necessary for a disaster.                                                                                                                                                               |
+|                                                    | Emergency Response Plan        | Knowledge used in Continuity Management within which there should be all the necessary guidelines for a moment of emergency.                                                                                                                                                         |
+|                                                    | Damage Evaluation Plan         | Knowledge used in Continuity Management that should contain information on possible damages caused at the time of disaster.                                                                                                                                                          |
+|                                                    | Vital Records Plan             | Knowledge used in Continuity Management that should contain information about functions vital to business continuity.                                                                                                                                                                |
+|                                                    | Communication Plan             | It is the knowledge that informs the ways, means and criteria of communication, as well as the people that must be communicated (Matrix RACI).                                                                                                                                       |
+|                                                    | Availability Plan              | Knowledge used in Availability Management that should contain the criteria of what is or is not understood as "available". E.g.: what is the percentage of availability of a server.                                                                                                 |
 
-**Tabela 1 - Tipo de documentos**
+**Table 1 - Documents Type**
 
-Veja também
+See also
 ---------------
 
-- [Dicas sobre como realizar pesquisas no Portal do Conhecimento e Guia do Usuário](/pt-br/citsmart-platform-7/processes/knowledge/tips-search-knowledge.html)
+- [Tips on how to conduct searches on Knowledge Portal and User Guide](/en-us/citsmart-platform-7/processes/knowledge/tips-search-knowledge.html)
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/26/2019 - Larissa Lourenço
+    <b>Updated:</b>09/02/2019 - Larissa Lourenço
+    
+[1]:http://lucene.apache.org/solr/
