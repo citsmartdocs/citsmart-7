@@ -16,7 +16,7 @@ Preconditions
 -------------
 
 1.  Have the "Enable Chat" parameter enabled (see knowledge [Parameterization
-    rules -  Chat]([1]);
+    rules -  Chat][1]);
 
 2.  Have the parameters "Id of the origin of the requests created by the chat"
     and "Id of the activity of the requests created by the chat" configured;
