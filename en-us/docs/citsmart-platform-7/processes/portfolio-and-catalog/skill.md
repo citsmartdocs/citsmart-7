@@ -1,101 +1,97 @@
-title: Cadastro e pesquisa de habilidade
-Description: Essa funcionalidade permite registrar as habilidades dos colaboradores.
+title: Skill registration and search
+Description: This feature lets you record the skills of the employees.
 
-# Cadastro e pesquisa de habilidade
+# Skill registration and search
 
+This feature lets you record the skills of the employees.
 
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de Recursos/Habilidades através da navegação no menu
-    principal **Processos ITIL > Gerência de Portfólio e
-    Catálogo > Recursos/Habilidades**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Não se aplica.
+1.  Access the Resources/Skills feature by navigating the main menu **Process
+    Management > Portfolio and Catalog Management > Capability**.
 
-Filtros
+### Preconditions
+
+1.  Not applicable.
+
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados, conforme ilustrado na figura abaixo:
+1.  The following filter enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to locate the desired
+    items as shown in the figure below:
 
-    -   Nome.
+-   Name.
 
-2.  Na tela de Recursos/Habilidades, clique na guia
-    Pesquisar Habilidades. Será apresentada a tela Pesquisa de Habilidade,
-    conforma a figura abaixo:
+2.  On the **Resources/Skills** screen, click the **Skills Search** tab. The
+    respective search screen will be displayed as shown in the figure below:
 
-    ![Criar](images/skill-1.png)
+   ![figure](images/skill-1.png)
+   
+   **Figure 1 - Skill Search Screen**
 
-    **Figura 1 - Tela de pesquisa de habilidade**
+3.  Perform skills search:
 
-3.  Realize a pesquisa de habilidades:
+    -   Enter the name of the skill you want to search and click
+        the *Search* button. After this, the record will be displayed according
+        to the name entered.
 
-    -   Informe o nome da habilidade que deseja pesquisar e clique no
-    botão *Pesquisar*. Após isso, será exibido o registro conforme o nome
-    informado.
+    -   If you want to list all the skill records, simply click
+        the *Search* button directly.
 
-    -   Caso deseje listar todos os registros de habilidades, basta clicar
-    diretamente no botão *Pesquisar*.
+Items list
+----------
 
-Listagem de itens
-----------------
+1.  The following cadastral field is available to the user to make it easier to
+    identify the desired items in the standard feature listing: **Capability
+    Name**.
 
-1.  O seguinte campo cadastral está disponível ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Nome da Habilidade**;
+   ![figure](images/skill-2.png)
+   
+   **Figure 2 - Items Screen**
 
-    ![Criar](images/skill-2.png)
+2.  After searching, select the desired record. Once this is done, it will be
+    directed to the registration screen displaying the contents of the selected
+    registry;
 
-    **Figura 2 - Tela de itens**
+3.  To change the data of the skill record, simply modify the information of the
+    desired fields and click on the *Record* button to save the change made in
+    the record, where the date, time and user will be saved automatically for a
+    future audit.
 
-2.  Depois de pesquisar, selecione o registro desejado. Uma vez feito isso, será
-    direcionado para a tela de registro exibindo o conteúdo do registro
-    selecionado;
+Filling in the registration fields
+----------------------------------
 
-3.  Para alterar os dados do registro de habilidade, basta modificar as
-    informações dos campos desejados e clicar no botão *Gravar* para que seja
-    gravada a alteração realizada no registro, onde a data, hora e usuário serão
-    gravados automaticamente para uma futura auditoria.
+1.  Access the feature, after that, the **Capability Master** screen will be
+    displayed, as shown below:
 
-Preenchimento dos campos cadastrais
------------------------------------
+   ![figure](images/skill-3.png)
+   
+   **Figure 3 - Skill Registration screen**
 
-1.  Acesse a funcionalidade, após isso, será apresentada a tela de **Cadastro de
-    Habilidades**, conforme a figura abaixo:
+2.  Fill in the fields as directed below:
 
-    ![Criar](images/skill-3.png)
+-   **Skill Name**: enter the skill name;
 
-    **Figura 3 - Tela de cadastro de habilidades**
+-   **Description**: describe the details about the skill;
 
-2.  Preencha os campos conforme orientação abaixo:
+-   Link the contributors to the skill.
 
-    -   **Nome da Habilidade**: informe o nome da habilidade;
+3.  Click the *Link Employees* button. Once this is done, a screen for employee
+    search will be displayed, as shown in the figure below:
 
-    -   **Descrição**: descreva os detalhes sobre a habilidade;
+   ![figure](images/skill-4.png)
+   
+   **Figure 4 - Employee search screen**
 
-    -   Vincule os colaboradores à habilidade.
+-   Perform the search, select the contributor (s) and click the *Add* button to
+    link the contributor (s) to the skill.
 
-3.  Clique no botão *Vincular Colaboradores*. Feito isso, será apresentada uma
-    tela para pesquisa de colaboradores, conforme ilustrada na figura abaixo:
-
-    ![Criar](images/skill-1.png)
-
-    **Figura 4 - Tela de pesquisa de colaborador**
-
-    -   Realize a pesquisa, selecione o(s) colaborador(es) e clique no
-    botão *Enviar* para efetuar o vínculo do(s) colaborador(es) à habilidade.
-
-4.  Após informar todos os dados, clique no botão *Gravar* para efetuar o
-    registro, onde a data, hora e usuário serão gravados automaticamente para
-    uma futura auditoria.
-
+4.  After entering all the data, click the *Save* button to register, where the
+    date, time and user will be saved automatically for a future audit.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/17/2019 – Anna Martins
+    <b>Updated:</b>09/02/2019 – Anna Martins

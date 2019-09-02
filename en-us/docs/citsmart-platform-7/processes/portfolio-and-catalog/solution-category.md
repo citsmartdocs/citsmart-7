@@ -1,93 +1,92 @@
-title: Cadastro e pesquisa de categoria de solução
-Description: Esta funcionalidade permite registrar e pesquisar as categorias de solução de incidentes.
+title: Solution category registration and search
+Description: This feature allows you to register and search the categories of solutions.
 
-# Cadastro e pesquisa de categoria de solução
+# Solution category registration and search
 
-Esta funcionalidade permite registrar e pesquisar as categorias de solução de
-incidentes.
+This feature allows you to register and search the categories of solutions.
 
-Como acessar
-------------
-
-1.  Acesse a funcionalidade de Categoria de Solução através da navegação no
-    menu principal **Processos ITIL > Gerência de Portfólio e
-    Catálogo > Categoria Solução**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Não se aplica.
+1.  Access the Category Solution feature navigating through the main
+    menu **Processes Management > Portfolio and Catalog
+    Management > Solution Category**.
 
-Filtros
+Preconditions
+-------------
+
+1.  None.
+
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -   Nome.
+-   Name.
 
-2.  Clique na guia de **Pesquisa de Categoria de Solução**. Feito isso, será
-    apresentada a tela de pesquisa, conforme ilustrada na figura abaixo:
+2.  Click on the **Solution Category Search** tab, then, the solution category
+    search screen will be displayed as illustrated in the image below:
 
-    ![Criar](images/solution-1.png)
+   ![figure](images/solution-1.png)
+   
+   **Figure 1 - Solution Category search screen**
 
-    **Figura 1 - Tela de pesquisa de categoria de solução**
+3.  Perform solution category search:
 
-3.  Realize a pesquisa de categoria de solução:
+    -   insert the description of the intended solution category and click
+        the *Search* button. Afterwards, the entry will be displayed according
+        to the description provided;
 
-    -   Informe a descrição da categoria de solução que deseja pesquisar e
-        clique no botão *Pesquisar*. Após isso, será exibido o registro conforme
-        a descrição informada.
+    -   To view all solution category entries, just click directly on
+        the *Search* button.
 
-    -   Caso deseje visualizar todos os registros de categoria de solução, basta
-        clicar diretamente no botão *Pesquisar*.
+Items list
+----------
 
-Listagem de itens
------------------
+1.  The following cadastral field is available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: **Name**;
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Nome**.
+   ![figure](images/solution-2.png)
+   
+   **Figure 2 - Solution Category listing**
 
-    ![Criar](images/solution-2.png)
+2.  After searching, select the intended entry. Once this is done, the user will
+    be directed to the registry screen displaying the content of the selected
+    entry;
 
-    **Figura 2 - Listagem de categoria de solução**
+3.  To change the data of the solution category entry, just modify the intended
+    information and click the *Save* button to save the changes made to the
+    registry, at which the date, time and user are automatically stored for
+    future audit.
 
-2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a tela de cadastro exibindo o conteúdo referente ao registro
-    selecionado.
+Filling in the registration fields
+----------------------------------
 
-3.  Para alterar os dados do registro de categoria de solução, basta modificar
-    as informações desejadas e clicar no botão *Gravar* para que seja gravada a
-    alteração realizada no registro, onde a data, hora e usuário serão gravados
-    automaticamente para uma futura auditoria.
+1.  The **Solution Category Registration** screen will be displayed, as
+    illustrated in the image below:
 
-Preenchimento dos campos cadastrais
------------------------------------
+   ![figure](images/solution-3.png)
+   
+   **Figure 3 - Category Solution entry screen**
 
-1.  Será apresentada a tela de Cadastro de Categoria de Solução, conforme
-    ilustrada na figura abaixo:
+2.  Fill out the fields as instructed:
 
-    ![Criar](images/solution-3.png)
+   -  **Solution Category**: insert the description of the solution category;
 
-    **Figura 3 - Tela de cadastro de categoria de solução**
+   -  **Start Date**: insert the date when the solution category is being
+        saved;
 
-2.  Preencha os campos conforme orientações abaixo:
+   -  **Parent Solution Category**: select a higher solution category. If the
+        category that is being registered is part of another category.
 
-    -  **Categoria Solução**: informe a descrição da categoria de solução;
+3.  Click the *Save* button to save the entry, at which the date, time and user
+    are automatically stored for a future audit.
 
-    -  **Data Início**: informe a data do registro da categoria de solução;
-
-    -  **Categoria de Solução Pai**: selecione uma categoria de solução
-        superior, caso a categoria que está sendo cadastrada faça parte de outra
-        categoria.
-
-3.  Clique no botão *Gravar* para efetuar o registro, onde a data, hora e
-    usuário serão gravados automaticamente para uma futura auditoria.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/16/2019 – Anna Martins
+    <b>Updated:</b>09/02/2019 – Anna Martins

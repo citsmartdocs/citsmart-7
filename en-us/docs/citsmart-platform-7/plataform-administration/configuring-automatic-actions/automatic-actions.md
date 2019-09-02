@@ -1,547 +1,514 @@
-title: Cadastro e pesquisa de ações automáticas
-Description: As ações automáticas são associadas no cadastro de gerentes de eventos.
-# Cadastro e pesquisa de ações automáticas
+title: Automatic actions registration and search
+Description: Automatic actions are associated in the event manager database.
+# Automatic actions registration and search
 
-As ações automáticas são associadas no cadastro de gerentes de eventos. Estas ações serão relacionadas de acordo com o tipo do
-evento desejado e disparadas sempre que for reconhecido um evento significativo.
+Automatic actions are associated in the event manager database. These actions will be related according to the type of the desired 
+event and triggered whenever a significant event is recognized.
 
-- Ações Automáticas;
-- Notificação;
-- Mudanças;
-- Problema;
-- Incidentes/Requisições/Procedimentos.
+- Automatic Actions;
+- Notification;
+- News;
+- Problem;
+- Incidents/Requests/Procedures.
 
-Esta funcionalidade tem como objetivo relacionar as ações de incidentes/requisições e/ou notificação às ações automáticas. É 
-importante notar que um único evento pode iniciar qualquer um ou a combinação destes processos por exemplo, uma falha é 
-registrada como um incidente, e uma notificação é registrada para informar os interessados.
+This functionality is intended to relate incident/Request and/or notification actions to automatic actions. It is important to note 
+that a single event can start any one or combination of these processes for example, a fault is logged as an incident, and a 
+notification is logged to inform those concerned.
 
-Como acessar
---------------
+How to access
+-----------------
 
-1. Acesse a funcionalidade de ações automáticas através da navegação no menu principal 
-**Sistema > Ações Automáticas > Ações Automáticas**.
+1. Access the functionality through navigation in the main menu **System > Automatic Actions > Automatic Actions**.
 
-Pré-condições
+Preconditions
 ----------------
 
-1. Cadastrar ação automática de notificação (ver seção "Ações Automáticas - Notificação");
+1. Register automatic notification action (see section "Automatic Actions - Notification");
 
-2. Cadastrar ação automática de mudança (ver seção "Ações Automáticas - Mudança");
+2. Register automatic change action (see section "Automatic Actions - Change");
 
-3. Cadastrar ação automática de problema (ver seção "Ações Automáticas - Problema");
+3. Enter automatic problem action (see section "Automatic Actions - Problem");
 
-4. Cadastrar ação automática de incidentes/requisições/procedimentos (ver seção "Ações Automáticas -
-Incidentes/Requisições/Procedimentos").
+4. Register automatic action of incidents/Requests/procedures (see section "Automatic Actions - Incidents/Requests/Procedures").
 
-Filtros
+Filters
 ---------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando
-a localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Nome.
+    - Name.
     
-    ![Pesquisa](images/auto.img1.png)
+    ![Search](images/actions.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de ação automática**
+    **Figure 1 - Automatic action search**
     
-2. Execute a busca automática de ações:
+2. Perform automatic action search:
 
-    - Digite o nome da ação automática que deseja pesquisar e clique no botão "Pesquisar". Depois disso, o registro de ação 
-    automática será exibido de acordo com o nome inserido;
+    - Enter the name of the automatic action you want to search for and click the *Search* button. After that, the automatic action 
+    record will be displayed according to the name entered;
     
-    - Se você quiser listar todos os registros de ação automática, basta clicar no botão "Pesquisar" diretamente.
+    - If you want to list all the automatic action records, simply click the *Search* button directly;
     
-Listagem de itens
+Items list
 -------------------
 
-1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: **Nome**.
+1. The following cadastral field is available to the user to facilitate the identification of the desired items in the standard feature listing: **Name**.
 
-    ![Listagem](images/auto.img2.png)
+    ![Listing](images/actions.img2.jpg)
     
-    **Figura 2 - Tela de listagem de tipo de ação**
+    **Figure 2 - Automatic action listing**
     
-2. Pesquise e selecione a ação que desejar conforme sua necessidade e será adicionada e exibida na tela de cadastro;
+2. Search and select the action you want according to your need and it will be added and displayed on the registration screen;
 
-3. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma futura 
-auditoria.
+3. Click the *Save* button to register, where the date, time and user will be saved automatically for a future audit.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Na aba Cadastro de Ação Automática preencha o campo, conforme figura abaixo:
+1. On Register Automatic Action guide, fill in the fileld, as the figure below:
 
-    ![Cadastro](images/auto.img3.png)
+    ![Action](images/actions.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de ação automática**
+    **Figure 3 - Notification action search screen**
     
-2. Clique no botão "Gravar" para finalizar o cadastro.
+2. Click on the *Save* button to finish the registration.
 
-Ações automáticas - Notificação
---------------------------------
+Automatic actions - notification
+-----------------------------------
 
-Esta funcionalidade tem como objetivo cadastrar ações automáticas de notificação. A notificação formaliza e comunica 
-informações sobre o evento e é importante que as informações sobre um evento sejam descritas e completas para facilitar 
-posteriormente a tomada de decisão. Este cadastro será associado às ações automáticas, e será usado nos cadastros de gerentes
-de eventos do CITSmart Nagios, Zabbix, Inventory e Eventos Correlacionados.
+This functionality is intended to record automatic notification actions. The notification formalizes and communicates information 
+about the event and it is important that information about an event is described and completed to facilitate decision making later. 
+This registration will be associated with the automatic actions, and will be used in the registrations of event managers of 
+CITSmart Nagios, Zabbix, Inventory and Correlated Events.
 
-Pré-condições
+Preconditions
 ----------------
 
-1. Cadastrar usuário (ver conhecimento [Cadastro e pesquisa de usuário](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/user-register.html));
+1. Register a user (see knowledge [User registration and search](/en-us/citsmart-platform-7/initial-settings/access-settings/user/user-register.html));
 
-2. Cadastrar grupo (ver conhecimento [Cadastro e pesquisa de grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html));
+2. Register a group (see knowledge [Group registration and search](/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html));
 
-Como acessar
---------------
+How to access
+----------------
 
-1. Acesse a funcionalidade através da navegação no menu principal **Sistema > Ações Automáticas > Ações Notificação**.
+1. Access the functionality through navigation in the main menu **System > Automatic Actions > Notification Actions**.
 
-!!! note "NOTA"
+!!! note "NOTE"
 
-    Convém que as notificações de eventos sejam enviadas somente para os responsáveis pelo tratamento das ações ou decisões 
-    relacionadas. Isto evita notificações desnecessárias para aqueles que não estão diretamente envolvidos no processo dos 
-    eventos.
+    It is recommended that event notifications be sent only to those responsible for handling related actions or decisions. This 
+    avoids unnecessary notifications to those who are not directly involved in the event process.
     
-Filtros
----------
+Filters
+-----------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando
-a localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Nome.
+    - Name.
 
-2. Na tela de **Cadastro de Ação da Notificação**, clique na aba **Pesquisa de Ação de Notificação**. Será apresentada a tela de
-pesquisa conforme ilustrada na figura abaixo:
+2. On the **Notification Action** screen, click the **Notification Action Search** tab. The search screen will be displayed as 
+shown in the figure below:
 
-    ![Pesquisa](images/auto.img4.png)
+    ![Search](images/actions.img4.jpg)
     
-    **Figura 4 - Tela de pesquisa de ação de notificação**
+    **Figure 4 - Notification action search screen**
     
-3. Realize a pesquisa de ação automática de notificação:
+3. Perform automatic notification action search;
 
-    - Informe o nome da ação automática de notificação que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido
-    o registro de ação automática de notificação conforme o nome informado;
+    - Enter the name of the automatic notification action you want to search and click the *Search* button. After this, the 
+    automatic notification action record according to the name entered will be displayed;
     
-    - Caso deseje listar todos os registros de ação automática de notificação, basta clicar diretamente no botão "Pesquisar".
+    - If you want to list all automatic notification action records, simply click the *Search* button directly;
     
-Listagem de itens
+Items list
 -------------------
 
-1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens desejados na listagem padrão 
-da funcionalidade: **Nome**.
+1. The following cadastral field is available to the user to facilitate the identification of the desired items in the standard feature listing: **Name**.
 
-    ![Notificação](images/auto.img5.png)
+    ![Notification](images/actions.img5.jpg)
     
-    **Figura 5 - Tela de listagem de ação de notificação**
+    **Figure 5 - Notification action listing screen**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo 
-referente ao registro selecionado;
+2. After searching, select the desired record. Once this is done, it will be directed to the registration screen displaying the 
+contents of the selected registry;
 
-3. Para alterar os dados do registro de ação automática de notificação, basta modificar as informações dos campos desejados e 
-clicar no botão "Gravar" para que seja gravada a alteração realizada no registro, onde a data, hora e usuário serão gravados 
-automaticamente para uma futura auditoria.
+3. To change the automatic notification action record data, simply modify the information of the desired fields and click the 
+*Save* button to save the change made to the record, where the date, time and user will be saved automatically for a future audit.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Será apresentada a tela de **Cadastro de Ação Automática de Notificação**, conforme ilustrada na figura abaixo:
+1. The **Notification Action** screen will be displayed, as shown in the figure below:
 
-    ![Cadastro](images/auto.img6.png)
+    ![Entry](images/actions.img6.jpg)
     
-    **Figura 6 - Tela de cadastro de ação automática de notificação**
+    **Figure 6 -Notification action registration screen**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill in the fields as directed below:
 
-    - **Nome**: informe o nome que desejar para a ação automática de notificação;
-    - **Assunto**: informe o assunto da notificação;
-    - **Conteúdo**: informe uma descrição com os motivos da notificação;
-    - As notificações deverão ser enviadas para as pessoas responsáveis e interessadas, podendo escolher entre usuários, e/ou 
-    grupos e/ou e-mail:
-        - Para adicionar usuários, clique na aba **Adicionar Usuários**, clique no botão "Adicionar", e será apresentada a tela
-        para pesquisa e seleção do usuário;
-        - Para adicionar grupos, clique na aba **Adicionar Grupos**, clique no botão "Adicionar", será apresentada a tela 
-        para pesquisa e seleção do grupo;
-        - Para adicionar e-mail, clique na aba **Adicionar E-mails**, informe o e-mail no campo disponível e clique no 
-        botão "Adicionar";
-    - Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma 
-    futura auditoria.
+    - **Name**: enter the name you want for the automatic notification action;
+    - **Subject**: enter the subject of the notification;
+    - **Content**: please provide a description of the reasons for the notification;
+    - The notifications should be sent to the responsible and interested people, being able to choose between users, and/or groups 
+    and/or e-mail:
+        - To add users, click the **Add Users** tab, click the *Add* button, and the screen for user search and selection will be 
+        displayed;
+        - To add groups, click the **Add Groups** tab, click the *Add* button, the screen for group search and selection will be 
+        displayed;
+        - To add e-mail, click the **Add E-mails** tab, enter the e-mail in the available field and click the Add button;
+    - Click the *Save* button to register, where the date, time and user will be saved automatically for a future audit.
     
-Ações automáticas - Mudança
+Automatic actions - change
 ------------------------------
 
-Alguns eventos irão apresentar uma situação onde a ação apropriada precisará ser tratada pelo processo de gerenciamento de
-mudança, ou seja, esta funcionalidade tem como objetivo realizar o cadastro de ações automáticas do tipo mudança. Este cadastro
-será associado às ações automáticas, onde será usado nos cadastros de gerentes de eventos do CITSmart Nagios, Zabbix, Inventory
-e Eventos Correlacionados.
+Some events will present a situation where the appropriate action will need to be addressed by the change management process, that 
+is, this functionality aims to register automatic change actions. This register will be associated with the automatic actions, 
+where it will be used in the event managers records of CITSmart Nagios, Zabbix, Inventory and Correlated Events.
 
-Pré-condições
+Preconditions
 ----------------
 
-1. Cadastrar contrato (ver conhecimento [Cadastro e pesquisa de contrato](/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract));
+1. Register contract (see knowledge [Contract registration and search](/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract));
 
-2. Cadastrar unidade (ver conhecimento [Cadastro e pesquisa de unidade](/pt-br/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html));
+2. Register unit (see knowledge [Unit registration and search](/en-us/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html));
 
-3. Cadastrar solicitante (colaborador) (ver conhecimento [Cadastro e pesquisa de colaborador](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html));
+3. Register applicant (collaborator) (see knowledge [Staff registration and search](/en-us/citsmart-platform-7/initial-settings/access-settings/user/employee.html));
 
-4. Cadastrar “Comitê Consultivo de Mudanças” (grupo) para que seja listado na tela de requisição de mudanças (ver conhecimento 
-[Cadastro e pesquisa de grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html));
+4. Register "Change Advisory Committee" (group) to be listed on the change request screen (see knowledge [Group registration and search](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html));
 
-5. Cadastrar tipo de mudança, o qual deverá ter o vínculo com o fluxo referente a requisição de mudança (ver conhecimento 
-[Cadastro e pesquisa de tipo de mudança](/pt-br/citsmart-platform-7/processes/change/change-type.html));
+5. Register type of change, which should have the link with the flow referring to the request for change (see knowledge [Change Type registration and search](/en-us/citsmart-platform-7/processes/change/change-type.html));
 
-6. Configure os parâmetros abaixo (ver conhecimento [Regras de parametrização - mudança](/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-change.html)):
+6. Configure the parameters (see knowledge [Parameterization rules - change](/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-change.html)):
 
-    - Parâmetro 47;
-    - Parâmetro 279;
-    - Parâmetro 280.
+    - Parameter 47;
+    - Parameter 279;
+    - Parameter 280.
     
-7. Vincular grupo aos contratos, associando os Solicitantes (colaboradores) já cadastrados a este grupo, para que sejam listados 
-os contratos e os solicitantes relacionados na tela de requisição de mudança. Caso seja preciso criar um novo colaborador, é
-necessário incluí-lo ao Grupo de Solicitante no qual esteja relacionado ao contrato para que o mesmo consiga realizar uma 
-requisição de mudança, ou seja, para que o nome dele seja listado na tela de requisição de mudança (ver conhecimento [Cadastro
-e pesquisa de contrato](/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract));
+7. Link the group to the contracts, associating the Applicants (collaborators) already registered to this group, so that the 
+contracts and the related applicants are listed on the change request screen. If it is necessary to create a new employee, it is 
+necessary to include it to the Applicant Group in which it is related to the contract so that it can carry out a change request, 
+that is, to have its name listed on the change Request screen (see knowledge [Contract registration and search](/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract));
 
-8. Vincular unidade ao contrato para que a unidade seja listada na tela de requisição de mudança (ver conhecimento [Cadastro e 
-pesquisa de contrato](/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract)).
+8. Link drive to contract so the drive is listed on the change Request screen (see knowledge [Contract registration and search](/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract)).
 
-Como acessar
+How to access
 --------------
 
-1. Acesse a funcionalidade através da navegação no menu principal **Sistema > Ações Automáticas > Ações Mudança**.
+1. Access the feature by navigating through the main menu **System > Automatic Actions > Change Actions**.
 
-Filtros
+Filters
 ---------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando
-a localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Nome.
+    - Name.
     
-    ![Pesquisa](images/auto.img7.png)
+    ![Search](images/actions.img7.jpg)
     
-    **Figura 7 - Tela de pesquisa de ação automática de mudança**
+    **Figure 7 - Change action search screen**
     
-2. Realize a pesquisa de ação automática de mudança;
+2. Perform automatic change action search;
 
-    - Informe o nome da ação automática de mudança que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o 
-    registro de ação automática de mudança conforme o nome informado;
+    - Enter the name of the automatic change action you want to search and click the *Search* button. After this, the automatic 
+    change action record will be displayed according to the name entered;
     
-    - Caso deseje listar todos os registros de ação automática de mudança, basta clicar diretamente no botão "Pesquisar".
+    - If you want to list all the automatic change action records, just click directly on the *Search* button;
     
-Listagem de itens
+Items list
 -------------------
 
-1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens desejados na listagem padrão 
-da funcionalidade: **Nome**.
+1. The following cadastral field is available to the user to facilitate the identification of the desired items in the standard feature listing: **Name**.
 
-2. Na tela de **Ações Automáticas - Mudança**, clique na aba **Buscar**. Será apresentada a tela de pesquisa conforme ilustrada 
-na figura abaixo:
+2. On the **Automatic Actions Registration - Change** screen, click on the **Search** tab. The search screen will be displayed as 
+shown in the figure below:
 
-    ![Listagem](images/auto.img8.png)
+    ![Listing](images/actions.img8.jpg)
     
-    **Figura 8 - Tela de listagem de ação automática de mudança**
+    **Figure 8 - Change action listing screen**
     
-3. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo 
-referente ao registro selecionado;
+3. After searching, select the desired record. Once this is done, it will be directed to the registration screen displaying the 
+contents of the selected registry;
 
-4. Para alterar os dados do registro de ação automática de mudança, basta modificar as informações dos campos desejados e clicar
-no botão "Gravar" para que seja gravada a alteração realizada no registro, onde a data, hora e usuário serão gravados 
-automaticamente para uma futura auditoria.
+4. To change the data of the automatic change action record, simply modify the information of the desired fields and click the 
+*Save* button to save the change made in the record, where the date, time and user will be automatically saved for a future audit.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Será apresentada a tela de cadastro de ação automática de mudança, conforme ilustrada na figura abaixo:
+1. The Automatic Change Action Register screen will be displayed, as shown in the figure below:
 
-    ![Cadastro](images/auto.img9.png)
+    ![Entry](images/actions.img9.jpg)
     
-    **Figura 9 - Tela de cadastro de ações automáticas de mudança**
+    **Figure 9 - Change action registration screen**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill in the fields as directed below:
 
-    - **Nome**: informe o nome da ação automática para requisição de mudança;
-    - **Contrato**: selecione o contrato para qual será feita a requisição de mudança;
-    - **Solicitante**: informe o nome do solicitante, ou seja, o nome da pessoa que está solicitando a requisição de mudança;
-    - **Nome do Contato**: informe o nome da pessoa para contato sobre a requisição de mudança;
-    - **E-mail**: informe o e-mail para contato;
-    - **Unidade**: informe a unidade do contato;
-    - **Localidade Física**: informe a localidade física do contato;
-    - **Título**: informe o título para a requisição de mudança;
-    - **Descrição**: informe a descrição para a requisição de mudança;
-    - **Tipo**: informe o tipo da requisição de mudança;
-    - **Direcionar para grupo**: selecione o grupo para o qual será direcionada a requisição de mudança para o atendimento;
-    - **Urgência**: indique a velocidade na qual a mudança precisa ser realizada;
-    - **Impacto**: indique o grau de impacto da mudança;
-    - **Prioridade**: este campo é para simples conferência. A prioridade será definida pelo sistema, após informar a urgência e 
-    impacto;
-    - Caso tenha definido no cadastro de grupo, que as opções de notificação de e-mail serão selecionadas ao registrar a 
-    requisição de mudança, marque as opções de notificação por e-mail para que o solicitante receba as notificações sobre a 
-    requisição de mudança.
+    - **Name**: enter the name of the automatic action for change request;
+    - **Contract**: select the contract for which the change request will be made;
+    - **User**: enter the name of the applicant, that is, the name of the person requesting the change request;
+    - **Username**: enter the name of the contact person about the change request;
+    - **E-mail**: inform the contact e-mail;
+    - **Unit**: enter the contact unit;
+    - **Location**: state the physical location of the contact;
+    - **Title**: enter the title for the change Request;
+    - **Description**: enter the description for the change request;
+    - **Type**: report the type of change request;
+    - **Escalate to Group**: select the group to which the request for change to the service will be directed;
+    - **Urgency**: indicate the speed at which the change needs to be performed;
+    - **Impact**: indicate the degree of impact of the change;
+    - **Priority**: this field is for simple conference. Priority shall be defined by the system, after reporting urgency and 
+    impact.
+    - If you have set in the group register, that the e-mail notification options will be selected when registering the change 
+    request, check the e-mail notification options so that the requestor receives the notifications about the change request;
     
-3. Clique no botão Gravar para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma futura 
-auditoria.
+3. Click the *Save* button to register, where the date, time and user are automatically saved for a future audit.
 
-Ações automáticas - Problema
+Automatic acions - problem
 ------------------------------
 
-Alguns eventos irão apresentar uma situação onde a ação apropriada precisará ser tratada pelo processo de gerenciamento de 
-problema, ou seja, esta funcionalidade tem como objetivo realizar o cadastro de ações automáticas do tipo problema. Este 
-cadastro será associado às ações automáticas, onde será usado nos cadastros de gerentes de eventos do CITSmart Nagios, 
-Zabbix, Inventory e Eventos Correlacionados.
+Some events will present a situation where the appropriate action will need to be handled by the problem management process, that 
+is, this functionality aims to register the automatic actions of the problem type. This register will be associated with the 
+automatic actions, where it will be used in the event managers records of CITSmart Nagios, Zabbix, Inventory and Correlated Events.
 
-Pré-condições
+Preconditions
 ----------------
 
-1. Cadastrar contrato (ver conhecimento [Cadastro e pesquisa de contrato](/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract));
+1. Register contract (see knowledge [Contract registration and search](/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract));
 
-2. Cadastrar unidade (ver conhecimento [Cadastro e pesquisa de unidade](/pt-br/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html));
+2. Register unit (see knowledge [Unit registration and search](/en-us/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html));
 
-3. Cadastrar solicitante (colaborador) (ver conhecimento [Cadastro e pesquisa de colaborador](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html));
+3. Register applicant (collaborator) (see knowledge [Staff registration and search](/en-us/citsmart-platform-7/initial-settings/access-settings/user/employee.html));
 
-4. Cadastrar grupo (ver conhecimento [Cadastro e pesquisa de grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html));
+4. Group membership (see knowledge [Group registration and search](/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html));
 
-5. Cadastrar categoria de problema, a qual deverá ter o vínculo com o fluxo referente ao problema (ver conhecimento 
-[Cadastro e pesquisa de categoria de problema)](/pt-br/citsmart-platform-7/processes/problem/category.html);
+5. Enter category of problem, which should have the link with the flow referring to the problem (see knowledge [Problem category registration and search](/en-us/citsmart-platform-7/processes/problem/category.html);
 
-6. Vincular unidade ao contrato para que a unidade seja listada na tela de registro de problema (ver conhecimento 
-[Cadastro e pesquisa de contrato](/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract));
+6. Link drive to contract so that the drive is listed on the problem log screen (see knowledge [Contract registration and search](/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract));
 
-7. Vincular grupo aos contratos, associando os solicitantes (colaboradores) já cadastrados a este grupo, para que sejam listados
-os contratos e os solicitantes relacionados na tela de registro de problema. Caso seja preciso criar um novo colaborador, é 
-necessário incluí-lo ao grupo de solicitante no qual esteja relacionado ao contrato para que o mesmo consiga registrar um 
-problema, ou seja, para que o nome dele seja listado na tela de registro de problema (ver conhecimento 
-[Cadastro e pesquisa de contrato](/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract)).
+7. Link the group to the contracts, associating the applicants (collaborators) already registered to this group, so that the 
+contracts and related applicants are listed on the problem log screen. If it is necessary to create a new employee, it is necessary 
+to include it in the group of the applicant in which it is related to the contract so that it can register a problem, that is, to 
+have its name listed on the problem registration screen (see knowledge Contract registration and search](/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract)).
 
-Como acessar
---------------
+How to access
+-----------------
 
-1. Acesse a funcionalidade através da navegação no menu principal **Sistema > Ações Automáticas > Ações Problema**.
+1. Access the feature by navigating through the main menu **System > Automatic Actions > Problem Actions**.
 
-Filtros
+Filters
 ---------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando
-a localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Nome.
+    - Name.
     
-    ![Pesquisa](images/auto.img10.png)
+    ![Search](images/actions.img10.jpg)
     
-    **Figura 10 - Tela de pesquisa de ação automática de problema**
+    **Figure 10 - Problem action search screen**
     
-2. Realize a pesquisa de ação automática de problema;
+2. Perform automatic problem action search;
 
-    - Informe o nome da ação automática de problema que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o
-    registro de ação automática de problema conforme o nome informado;
+    - Enter the name of the automatic problem action you want to search for and click the *Search* button. After this, the 
+    automatic problem action record will be displayed according to the name entered;
     
-    - Caso deseje listar todos os registros de ação automática de problema, basta clicar diretamente no botão "Pesquisar".
+    - If you want to list all the automatic action action logs, just click directly on the *Search* button.
     
-Listagem de itens
+Items list
 -------------------
 
-1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens desejados na listagem padrão
-da funcionalidade: **Nome**.
+1. The following cadastral field is available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **Name**.
 
-    ![Listagem](images/auto.img11.png)
+    ![Listing](images/actions.img11.jpg)
     
-    **Figura 11 - Tela de listagem de ação automática de problema**
+    **Figure 11 - Problem action listing screen**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo 
-referente ao registro selecionado;
+2. After searching, select the desired record. Once this is done, it will be directed to the registration screen displaying the 
+contents of the selected registry;
 
-3. Para alterar os dados do registro de ação automática de problema, basta modificar as informações dos campos desejados e clicar
-no botão "Gravar" para que seja gravada a alteração realizada no registro, onde a data, hora e usuário serão gravados
-automaticamente para uma futura auditoria.
+3. To change the automatic action action record data, simply modify the information of the desired fields and click the *Record* 
+button to save the change made to the record, where the date, time and user will be saved automatically for a future audit.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Será apresentada a tela de cadastro de ação automática de problema, conforme ilustrada na figura abaixo:
+1. The Automatic Actions Registration screen will be displayed, as shown in the figure below:
 
-    ![Cadastro](images/auto.img12.png)
+    ![Entry](images/actions.img12.jpg)
     
-    **Figura 12 - Tela de cadastro de ações automáticas de problema**
+    **Figure 12 - Automatic problem action record screen**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill in the fields as directed below:
 
-    - **Nome**: informe o nome da ação automática para requisição de problema;
-    - **Contrato**: selecione o contrato para qual será feita a requisição de problema;
-    - **Solicitante**: informe o nome do solicitante, ou seja, o nome da pessoa que está solicitando a requisição de problema;
-    - **Origem**: informe a origem da requisição do problema;
-    - **Direcionar para o grupo**: selecione o grupo para o qual será direcionada a requisição de problema para atendimento;
-    - **Nome do Contato**: informe o nome da pessoa para contato sobre a requisição de problema;
-    - **E-mail**: informe o e-mail para contato;
+    - **Name: enter the name of the automatic action for problem request;
+    - **Contract**: select the contract for which the problem request will be made;
+    - **User**: state the name of the applicant, that is, the name of the person requesting the problem request;
+    - **Contact Origin**: inform the source of the problem request;
+    - **Escalate to group**: select the group to which the problem request for assistance will be directed;
+    - **Username**: enter the name of the contact person about the problem request;
+    - **Phone**: inform the contact telephone number;
     - **Telefone**: informe o telefone do contato;
-    - **Ramal**: informe o ramal do contato;
-    - **Unidade**: informe a unidade do contato;
-    - **Localidade Física**: informe a localidade física do contato;
-    - **Observação**: descreva os detalhes adicionais sobre o contato, caso seja necessário;
-    - **Título**: informe o título para o problema;
-    - **Gerenciamento**: selecione o tipo de gerenciamento do problema:
-        - **Proativo**: proveniente do Gerenciamento Proativo de Problemas para a prevenção da ocorrência de Incidentes. Se 
-        preocupa em prevenir que incidentes ocorram. Responsável por tratar de assuntos idênticos antes que eles aconteçam,
-        garantindo que tais cenários também sejam endereçados.
-        - **Reativo**: proveniente do processo de Gerenciamento de Incidentes. Se preocupa com a resolução de problemas em 
-        resposta a um ou mais incidentes. Executa a revisão e a análise de incidentes para identificar a quais grupos devem 
-        ser endereçados e quais as ações necessárias para tratá-los.
-    - **Descrição**: informe a descrição para a requisição de problema;
-    - **Severidade**: indique a severidade do problema;
-    - **Urgência**: indique a urgência para resolução do problema;
-    - **Impacto**: indique o grau de impacto do problema;
-    - **Prioridade**: este campo é para simples conferência. A prioridade vai de 1 a 5, sendo que o 1 é a prioridade mais alta e
-    5 é a mais baixa e é definida pelo sistema, após informar a severidade, urgência e impacto.
-    - **Categoria Problema**: selecione a categoria do problema;
-    - **Solucionar/Contornar até**: defina a data limite para resolução do problema;
-    - **Causa**: selecione a causa do problema;
-    - **Categoria de Solução**: selecione a categoria de solução do problema;
-    - **Fechamento**: informe a descrição da solução ou contorno do problema.
+    - **Extension**: enter the extension of the contact;
+    - **Unit**: enter the contact unit;
+    - **Location**: state the physical location of the contact;
+    - **Observation**: describe the additional details about the contact, if necessary;
+    - **Title**: report the title to the problem;
+    - **Management**: select the type of management of the problem.
+        - **Proactive: Proactive Problem Management for the prevention of the occurrence of Incidents. Worries about preventing 
+        incidents from occurring. Responsible for addressing similar issues before they happen, ensuring that such scenarios are 
+        addressed as well.
+        - **Reactive**: from the Incident Management process. Worries about solving problems in response to one or more incidents. 
+        Performs incident review and analysis to identify which groups should be addressed and what actions are required to address 
+        them.
+    - **Description**: enter the description for the problem request;
+    - **Severity**: indicate the severity of the problem;
+    - **Urgency**: indicate the urgency to solve the problem;
+    - **Impact**: indicate the degree of impact of the problem;
+    - **Priority**: this field is for simple conference. The priority is from 1 to 5, with 1 being the highest priority and 5 being 
+    the lowest priority, and is defined by the system after reporting severity, urgency, and impact.
+    - **Problem Category**: select the category of the problem;
+    - **Resolve/Workaround until**: set the deadline for solving the problem;
+    - **Cause**: select the cause of the problem;
+    - **Solution**: select the solution category of the problem;
+    - **Closure**: enter the description of the solution or outline of the problem;
     
-3. Caso tenha definido no cadastro de grupo, que as opções de notificação de e-mail serão selecionadas ao registrar a requisição
-de problema, marque as opções de notificação por e-mail para que o solicitante receba as notificações sobre a requisição de 
-problema;
+3. If you have set in the group register, that the e-mail notification options will be selected when registering the problem 
+request, check the e-mail notification options so that the requestor receives the notifications about the problem request;
 
-4. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma futura 
-auditoria.
+4. Click the *Save* button to register, where the date, time and user are automatically saved for a future audit.
 
-
-Ações automáticas - Incidentes/Requisições/Procedimentos
+Automatic actions - incidentes/requests/procedures
 ----------------------------------------------------------
 
-Alguns eventos irão apresentar uma situação onde a ação apropriada precisará ser tratada pelo processo de gerenciamento de
-incidentes, ou seja, esta funcionalidade tem como objetivo realizar o cadastro de ações automáticas do tipo 
-incidente/requisição/procedimento. Este cadastro será associado às ações automáticas, onde será usado nos cadastros de 
-gerentes de eventos do CITSmart Nagios, Zabbix, Inventory e Eventos Correlacionados.
+Some events will present a situation where the appropriate action will need to be handled by the incident management process, ie, 
+this functionality aims to register the incident/request/procedure type automatic actions. This register will be associated with 
+the automatic actions, where it will be used in the event managers records of CITSmart Nagios, Zabbix, Inventory and Correlated 
+Events.
 
-Pré-condições
+Preconditions
 ----------------
 
-1. Cadastrar grupo (ver conhecimento [Cadastro e pesquisa de grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html));
+1. Register group (see knowledge [Group registration and search](/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html));
 
-2. Cadastrar contrato (ver conhecimento [Cadastro e pesquisa de contrato](/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract));
+2. Register contract (see knowledge [Contract registration and search)](/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract));
 
-3. Vincular grupo aos contratos, associando os solicitantes (colaboradores) já relacionado a este grupo, para que sejam listados
-os contratos e os solicitantes relacionados na tela de solicitação. Caso seja preciso criar um novo colaborador, é necessário 
-incluí-lo ao grupo no qual está relacionado ao contrato para que o mesmo consiga abrir uma solicitação, ou seja, para que o nome
-dele seja listado na tela de registro de solicitação (ver conhecimento [Cadastro e pesquisa de contrato](/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract));
+3. Link the group to the contracts, associating the applicants (collaborators) already related to this group, so that the contracts 
+and the related applicants are listed in the request screen. If it is necessary to create a new employee, it is necessary to 
+include it in the group in which it is related to the contract so that it can open a request, that is, to have its name listed on 
+the request registration screen (see knowledge [Contract registration and search](/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract));
 
-4. Vincular unidade aos contratos para que a mesma seja listada na tela de solicitação (ver conhecimento 
-[Cadastro e pesquisa de contrato](/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract));
+4. Link unit to contracts so that it is listed on the request screen (see knowledge [Contract registration and search)](/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract));
 
-5. Definir portfólio de serviços (ver conhecimento [Cadastro de portfólio de serviços](/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html));
+5. Define portfolio of services (see knowledge [Service portfolio registration](/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html));
 
-6. Definir tempo de atendimento dos serviços (ver conhecimento [Cadastro e pesquisa de tempo de atendimento](/pt-br/citsmart-platform-7/processes/service-level/time-attendance.html));
+6. Define service time for services (see knowledge [Time attendance registration and search](/en-us/citsmart-platform-7/processes/service-level/time-attendance.html));
 
-7. Definir grupo de primeiro nível para o atendimento da solicitação, caso não seja direcionado para um Grupo;
+7. Define a first level group to fulfill the request, if it is not directed to a Group;
 
-8. Cadastrar grupos de atividade periódica para agendamento das atividades da solicitação (ver conhecimento [Cadastro
-e pesquisa de grupo de atividade periódica](/pt-br/citsmart-platform-7/additional-features/automation-of-operation/configuration/periodic-activity-group.html)).
+8. Register periodic activity groups to schedule the activities of the request (see knowledge [Periodic activity group registration and search](/en-us/citsmart-platform-7/additional-features/automation-of-operation/configuration/periodic-activity-group.html)).
 
-Como acessar
---------------
+How to access
+----------------
 
-1. Acesse a funcionalidade através da navegação no menu principal **Sistema > Ações Automáticas > Ações de 
-Incidentes/Requisições/Procedimentos**.
+1. Access the feature by navigating through the main menu System → Automatic Actions → Incidents/Requests/Procedures Actions.
 
-!!! abstract "SAIBA MAIS"
+!!! abstract "KNOW MORE"
 
-    O gerenciamento de eventos apoia o processo de gerenciamento de incidentes, pois a partir dele é possível detectar com 
-    antecedência falhas nos serviços e atuar rapidamente para evitar uma indisponibilidade do serviço para o usuário final.
+    Event management supports the incident management process, since it can detect faults early in the service and act quickly to 
+    prevent downtime of the service to the end user.
     
-Filtros
+Filters
 ---------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando 
-a localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Nome.
+    - Name.
     
-    ![Pesquisa](images/auto.img13.png)
+    ![Search](images/actions.img13.jpg)
     
-    **Figura 13 - Tela de pesquisa de ações automáticas de incidentes/requisições/procedimentos**
+    **Figure 13 - Incident/Request/Procedure action search screen**
     
-2. Realize a pesquisa de ação automática de incidentes/requisições/procedimentos;
+2. Perform automatic incident/request/procedure action search;
 
-    - Informe o nome da ação automática de incidentes/requisições/procedimentos que deseja pesquisar e clique no botão "Pesquisar".
-    Após isso, será exibido o registro de ação automática de incidentes/requisições/procedimentos conforme o nome informado;
+    - Enter the name of the automatic incident/request/procedure action you want to search for and click the *Search* button. After 
+    that, the automatic action/incident/procedure action record will be displayed according to the name entered;
     
-    - Caso deseje listar todos os registros de ação automática de incidentes/requisições/procedimentos, basta clicar diretamente
-    no botão "Pesquisar".
-    
-Listagem de itens
+    - If you want to list all records of automatic action of incidents/requests/procedures, just click directly on the *Search* 
+    button;
+ 
+Items list
 -------------------
 
-1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens desejados na listagem padrão 
-da funcionalidade: **Nome**.
+1. The following cadastral field is available to the user to facilitate the identification of the desired items in the standard feature listing: **Name**.
 
-    ![Listagem](images/auto.img14.png)
+    ![Listing](images/actions.img14.jpg)
     
-    **Figura 14 - Tela de listagem de ações automáticas de incidentes/requisições/procedimentos**
+    **Figure 14 - Incident/ Request/Procedure action listing screen**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo 
-referente ao registro selecionado;
+2. After searching, select the desired record. Once this is done, it will be directed to the registration screen displaying the 
+contents of the selected registry;
 
-3. Para alterar os dados do registro de ação automática de incidentes/requisições/procedimentos, basta modificar as informações
-dos campos desejados e clicar no botão "Gravar" para que seja gravada a alteração realizada no registro, onde a data, hora e 
-usuário serão gravados automaticamente para uma futura auditoria.
+3. To change the data of the automatic action record of incidents/requests/procedures, simply modify the information of the desired 
+fields and click the *Save* button to save the change made in the registry, where the date, time and user will be automatically 
+saved to a Future audit.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Será apresentada a tela de cadastro de ação automática de incidentes/requisições/procedimentos, conforme ilustrada na figura 
-abaixo:
+1. The automatic action screen of incidents/requests/procedures will be displayed, as shown in the figure below:
 
-    ![Cadastro](images/auto.img15.png)
+    ![Entry](images/actions.img15.jpg)
     
-    **Figura 15 - Tela de cadastro de ações automáticas de incidentes/requisições/procedimentos**
+    **Figure 15 - Incident/Requests/Procedures Automatic Actions record screen**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill in the fields as directed below:
 
-    - **Nome**: informe o nome que desejar para a ação automática de incidente/requisição/procedimento;
-    - **Contrato**: selecione o contrato para qual será feita a abertura de incidente/requisição/procedimento;
-    - **Origem do contato**: selecione a origem da solicitação;
-    - **Solicitante**: selecione o nome do solicitante, ou seja, o nome da pessoa que está solicitando a abertura de incidente 
-    ou requisição de serviço;
-    - **E-mail**: informe o e-mail do solicitante;
-    - **Unidade**: informe a unidade do solicitante;
-    - **Localidade Física**: informe a localização física do solicitante;
-    - **Catálogo**: caso tenha selecionado o contrato do tipo "contrato", será exibida neste campo a informação do Catálogo de
-    Serviços de "Negócio" e caso tenha selecionado o contrato do tipo "contrato de apoio" ou "acordo de nível operacional", será
-    exibida neste campo a informação do Catálogo de Serviços "Técnico";
-    - **Serviço**: informe o serviço referente ao catálogo de serviços. Se o catálogo de serviços for de "negócio", serão 
-    disponibilizados neste campo os serviços de negócio para seleção, mas se o catálogo de serviços for "técnico", serão 
-    disponibilizados neste campo os serviços de apoio/técnico para seleção;
-    - **Utilizar a categoria de serviços**: marque este campo, se optar buscar os serviços por categoria;
-    - **Categoria de Serviços**: caso tenha optado pela busca de serviços por categoria, informe a categoria de serviço desejada.
-    A categoria do serviço irá identificar a natureza do serviço, posicionando-o dentro de grupos semelhantes de atuação, 
-    situando-o na hierarquia de sua categoria;
-    - **Tipo de solicitação**: selecione o tipo da solicitação, se é uma abertura de incidente, requisição de serviço ou 
-    procedimento;
-        - **Incidente**: indicar caso a situação apresentada seja uma interrupção não planejada, uma redução na qualidade do 
-        serviço ou falha de algum item de configuração que ainda não tenha impactado um serviço de TI. Ex.: O link de rede está
-        fora, a rede está lenta, o servidor inacessível, etc;
-        - **Requisição**: são pedidos de demandas realizados pelos usuários dentro do ambiente da Tecnologia da Informação. Podem
-        ser desde pedidos de acesso até sugestões de melhoria a baixo custo. Ex.: Solicitação de configuração de algum 
-        equipamento, requisição para adicionar algum software na estação de trabalho, etc.
-        - **Procedimento**: refere-se ao processo/procedimento de continuidade do serviço de TI, no caso de ocorrência de 
-        incidente crítico. É com o procedimento que você determinará o método que colocará o processo em pratica, ou seja, 
-        determinar as etapas da execução, criar check-list, definir em que momento cada pessoa deve realizar cada atividade e 
-        quais recursos devem ser utilizados para que haja a entrega do produto ou serviço de acordo com o esperado.
-    - **Incidente/Requisição/Procedimento**: selecione o serviço a ser realizado;
-    - **Descrição**: informe a descrição do incidente/requisição/procedimento. A descrição deve ser objetiva, incluindo toda
-    informação necessária para o atendimento da solicitação;
-    - **Urgência**: indique a velocidade na qual o serviço precisa ser realizado;
-    - **Impacto**: indique o impacto do serviço;
-    - **Direcionar para grupo**: selecione o grupo para o qual será direcionada a solicitação para o atendimento.
-    - **Notificação por e-mail**: caso tenha definido no cadastro de grupo, que as opções de notificação de e-mail serão 
-    selecionadas ao registrar a solicitação, marque as opções de "notificação por e-mail" para que o solicitante receba as 
-    notificações sobre a solicitação.
+    - **Name**: enter the name you want for the automatic incident/request/procedure action;
+    - **Contract**: select the contract for which the incident/request/procedure opening will be made;
+    - **Contact Origin**: select the origin of the request;
+    - **User**: select the name of the applicant, ie the name of the person who is requesting the opening of an incident or service 
+    request;
+    - **E-mail**: inform the requestor's e-mail;
+    - **Unit**: report the unit of the applicant;
+    - **Location**: state the physical location of the applicant;
+    - **Catalog**: If you have selected the "contract" type contract, the "Business" service catalog information will be displayed 
+    in this field and if you have selected the contract of type "support agreement" or "operational level agreement", In this field 
+    the information of the "Technical" Service Catalog;
+    - **Service**: inform the service regarding the service catalog. If the service catalog is a "business", the business services 
+    for selection will be available in this field, but if the service catalog is "technical", the support/technical services for 
+    selection will be available in this field;
+    - **Use Service Category**: check this field if you choose to search the services by category;
+    - **Service Category**: If you chose to search for services by category, enter the service category you want. The service 
+    category will identify the nature of the service, positioning it within similar groups of service, placing it in the hierarchy 
+    of its category;
+    - **Type**: select the type of request, whether it is an incident opening, service request or procedure;
+        - **Incident**: indicate if the situation presented is an unplanned outage, a reduction in the quality of the service or 
+        failure of any configuration item that has not yet impacted an IT service. Eg: The network link is out, the network is 
+        slow, the server inaccessible, etc;
+        - **Request**: are requests for demands made by users within the Information Technology environment. They can range from 
+        access requests to suggestions for improvement at low cost. e.g.: Request to configure some equipment, request to add some 
+        software to the workstation, etc.
+        - **Procedure**: refers to the IT service continuity process / procedure, in case of a critical incident. It is with the 
+        procedure that you will determine the method that will put the process into practice, that is, determine the steps of the 
+        execution, create a checklist, define when each person should perform each activity and what resources should be used for 
+        the Delivery of the product or service as expected.
+    - **Incident/Request/Procedure**: select the service to be performed;
+    - **Description**: enter the description of the incident/request/procedure. The description must be objective, including all 
+    the information necessary to fulfill the request;
+    - **Urgency**: indicate the speed at which the service needs to be performed;
+    - **Impact**: indicate the impact of the service;
+    - **Escalate to Group**: select the group to which the request for the call will be directed.
+    - **E-mail Notifications**: if you have defined the group registration, that the e-mail notification options will be selected 
+    when registering the request, check the "E-mail Notification" options so that the requester receives notifications about the 
+    solicitation.
     
-3. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma futura
-auditoria.
+3. Click on the *Save* button to register, where the date, time and user will be saved automatically for a future audit.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/19/2019 – Larissa Lourenço
+    <b>Updated:</b>09/02/2019 – Larissa Lourenço
