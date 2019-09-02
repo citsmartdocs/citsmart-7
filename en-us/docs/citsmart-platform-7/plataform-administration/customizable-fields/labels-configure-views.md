@@ -1,144 +1,140 @@
-title: Manual de configuração de visões (meta dados)
-Description: Esta funcionalidade tem por objetivo permitir a criação de visões (telas) diversas do sistema.
-# Manual de configuração de visões (meta dados)
+title: Visions (metadata) setup guide
+Description: This functionality is intended to allow the creation of different views (screens) of the system.
+# Visions (metadata) setup guide
 
-Esta funcionalidade tem por objetivo permitir a criação de visões (telas) diversas do sistema, com possibilidades de associação 
-com visões vinculadas (subtelas).
+This functionality is intended to allow the creation of different views (screens) of the system, with possibility of association 
+with linked views (sub-tiles).
 
-Como acessar
---------------
+How to access
+-----------------
 
-1. Acesse a funcionalidade de manutenção de visões através da navegação no menu principal 
-**Sistema > Visões e Meta dados > Manutenção de Visões**.
+1. Access the view maintenance feature by navigating in the main menu **System > Visions and Metadata > Visions Maintenance**.
 
-Pré-condições
+Preconditions
 ----------------
 
-1. Não se aplica.
+1. No applicable.
 
-Filtros
+Filters
 ---------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a 
-localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Descrição da Visão.
+    - Vision description.
     
-2. Na tela de **Visão**, clique na guia **Pesquisa de Visão**, será apresentada a tela de pesquisa conforme ilustrada na figura 
-abaixo:
+2. On the **View** screen, click the **View Search** tab, the search screen will be displayed as shown in the figure below:
 
-    ![Pesquisa](images/conf-vis.img1.png)
+    ![Search](images/meta.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de visão**
+    **Figure 1 - View search screen**
     
-3. Realize a pesquisa de visão. Informe a descrição da visão que deseja pesquisar e clique no botão "Pesquisar". Após isso, será 
-exibido o registro conforme o nome informado. Caso deseje listar todos os registros de visão, basta clicar diretamente no botão 
-"Pesquisar".
+3. Perform vision search. Enter the description of the view you want to search and click the *Search* button. After this, the 
+record will be displayed according to the name entered. If you want to list all the view records, simply click the *Search* button 
+directly.
 
-Listagem de itens
+Items list
 -------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem
-padrão da funcionalidade: **Descrição da visão, Identificador da Visão** e **Situação da Visão**.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **Vision description, Identifier Sight** and **Situation Overview**.
 
-    ![Listagem](images/conf-vis.img2.png)
+    ![Listagem](images/meta.img2.jpg)
     
-    **Figura 2 - Tela de listagem de visão**
+    **Figure 2 - Vision listing screen**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a aba de cadastro exibindo o conteúdo 
-referente ao registro selecionado;
+2. After searching, select the desired record. Once this is done, it will be directed to the registration tab displaying the 
+contents of the selected record;
 
-3. Para alterar os dados do registro de visão, basta modificar as informações desejadas e clicar no botão "Salvar".
+3. To change the view log data, simply modify the desired information and click on the *Save* button.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Será apresentada a tela de **Cadastro de Visão**, conforme ilustrada na figura abaixo:
+1. The **View Register** screen will be displayed, as shown in the figure below:
 
-    ![Visões](images/conf-vis.img3.png)
+    ![Visions](images/meta.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de visões**
+    **Figure 3 - Vision registration screen**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill in the fields as shown below:
 
-    - **Descrição**: informe a descrição da visão (tela);
-    - **Identificador**: informe o identificador na visão;
-    - **Tipo de Visão**: selecione o tipo de visão;
-    - **Situação da Visão**: informe a situação da visão se é Ativo ou Inativo.
+    - **Description**: Enter the vision description (screen);
+    - **ID**: enter the identifier in the view;
+    - **Type of Vision**: select the type of view;
+    - **Situation Overview**: Tell the vision situation whether it is Active or Inactive;
     
-3. Clique no botão "Adicionar Campo", para adicionar campos na visão (tela) que está sendo criada. Será aberta uma janela para 
-escrever sobre o campo que deseja adicionar na visão;
+3. Click the *Add Field* button to add fields in the view (screen) that is being created. A window will open to describe the field 
+you want to add in the view;
 
-    ![Campo](images/conf-vis.img4.png)
+    ![Field](images/meta.img4.jpg)
     
-    **Figura 4 - Campo da visão**
+    **Figure 4 - Vision field**
     
-    - **Objeto de Negócio**: selecione o objeto do negócio (tabela do campo pertencente);
-    - **Tipo de Campo**: selecione o tipo de campo;
-    - **Campo do Objeto de Negócio**, selecione o campo do objeto de negócio (campo da tabela, referente ao campo que está sendo 
-    criado);
-    - **Descrição**: informe a descrição do campo;
-    - **Tamanho**: informe o tamanho do campo;
-    - **Obrigatório**: informe se o campo será de preenchimento obrigatório, marcando Sim ou Não;
-    - **Fórmula**: descreva a fórmula do campo;
-    - **Situação**: informe a situação do campo se é Ativo ou Inativo.
+    - **Business Object**: select the business object (field table belonging);
+    - **Field Type**: select the field type;
+    - **Field of the Business Object**: select the field of the business object (field of the table, referring to the field being 
+    created);
+    - **Description**: enter the description of the field;
+    - **Size**: enter the size of the field;
+    - **Required**: enter whether the field is required by ticking Yes or No;
+    - **Formula**: describe the formula of the field;
+    - **Situation**: inform the situation of the field whether it is Active or Inactive;
     
-4. Clique no botão "Ok" para efetuar a inserção do campo na visão;
+4. Click the *Ok* button to enter the field in the view.
 
-5. Caso queira editar ou excluir algum campo existente na visão, basta dar um duplo clique no campo desejado;
+5. If you want to edit or delete some existing field in the view, simply double click on the field you want;
 
-6. Será aberta a janela com a descrição sobre o campo;
+6. The window with the description of the field will be opened;
 
-7. Edite as informações que deseja e clique no botão "Ok" ou se desejar excluir, clique no botão "Excluir Campo" para exclusão
-do campo da visão;
+7. Edit the information you want and click the *Ok* button or if you want to delete, click the *Delete Field* button to delete the 
+field from the view.
 
-8. Clique no botão "Adicionar Visão Vinculada" para adicionar uma subtela na visão, caso queira;
+8. Click the *Add Bound View* button to add a sub-screen to the view, if you like;
 
-9. Será aberta uma aba **Visão Relacionada** abaixo do botão "Adicionar Visão Vinculada", com campos para preenchimento conforme
-segue abaixo:
+9. A **Related View** tab will open below the *Add Bound View* button, with fill fields as below:
 
-    - Selecione a **visão** relacionada;
-    - Informe o **título** da visão vinculada;
-    - Selecione o **tipo** da vinculação;
-    - Selecione a **ação** em caso de visão de pesquisa;
-    - Informe a **situação** da vinculação;
-    - Selecione o **vínculo** entre as visões.
+    - Select the related **view**;
+    - Enter the **title** of the linked view;
+    - Select the **type** of binding;
+    - Select **action** in case of search view;
+    - State the linkage **situation**;
+    - Select the **link** between views;
     
-10. Clique no botão "Botões de Ação" para adicionar botões na visão que está sendo criada;
+10. Click the *Action Buttons* button to add buttons in the view you are creating;
 
-11. Ao clicar no botão será aberta uma janela para descrever informações sobre o botão que deseja criar;
+11. Clicking on the button will open a window to describe information about the button you want to create;
 
-    ![Botões](images/conf-vis.img5.png)
+    ![Buttons](images/meta.img5.jpg)
     
-    **Figura 5 - Botões**
+    **Figure 5 - Buttons**
     
-    - **Ação**: selecione a ação do botão;
-    - **Texto**: informe o texto do botão;
-    - **Script**: descreva o Script do botão;
-    - **Mensagem ao movimentar o mouse sobre o botão**: informe uma mensagem que será exibida quando posicionar o mouse sobre o
-    botão.
+    - **Action**: select the button action;
+    - **Text**: enter the text of the button;
+    - **Script**: describe Button Script;
+    - **Message to move mouse over the button**: enter a message that will be displayed when you hover the mouse over the button;
     
-12. Clique no botão "Ok" para efetuar a inserção do botão na visão;
+12. Click the *Ok* button to insert the button into the view;
 
-13. O botão "Fechar" serve para fechar a janela e retornar para tela de **Manutenção de Visões**.
+13. The *Close* button serves to close the window and return to the **View Maintenance** screen.
 
-14. Caso queria editar ou excluir algum botão existente na visão, clique no botão "Botões de Ação";
+14. If you wanted to edit or delete any existing button in the view, click the *Action button*;
 
-15. Será aberta a janela de botões;
+15. The button window will open;
 
-16. Selecione o botão que deseja editar as informações ou excluí-lo;
+16. Select the button you want to edit the information or delete it;
 
-17. Edite as informações que deseja e clique no botão "Ok" ou se desejar excluir clique no botão "Excluir" para exclusão do 
-botão da visão;
+17. Edit the information you want and click the *Ok* button or if you want to delete click the *Delete* button to delete the view 
+button.
 
-18. Clique no botão "Salvar" para efetuar o cadastro da visão (tela);
+18. Click the *Save* button to register the view (screen);
 
-19. O botão "Script" serve para incluir instruções/códigos JavaScript;
+19. The *Script* button is for including JavaScript instructions / codes;
 
-20. O botão "HTML Code (adicional)" serve para incluir instruções/códigos HTML.
+20. The *HTML Code* button is meant to include HTML instructions/codes;
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/22/2019 – Larissa Lourenço
+    <b>Updated:</b>09/02/2019 – Larissa Lourenço
 
