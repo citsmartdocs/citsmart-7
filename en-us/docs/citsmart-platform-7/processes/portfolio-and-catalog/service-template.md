@@ -92,7 +92,7 @@ Filling in the registration fields
     -   **Questionnaire**: report the service questionnaire. The same is defined
         in the Questionnaire functionality;
 
-    -   **Script after recovery: **report the script after recovery.
+    -   **Script after recovery**: report the script after recovery.
 
 3.  After entering all the data, click the *Save* button to register, where the
     date, time and user will be recorded automatically for a future audit.
