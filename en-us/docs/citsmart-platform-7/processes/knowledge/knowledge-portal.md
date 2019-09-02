@@ -89,7 +89,7 @@ Viewing the content of a knowledge
     
     ![number](images/14.png) Place where all the knowledge that has been related to the visualized knowledge will be listed
     
-    ![number](images/15.png) Icon to contribute to the knowledge management of the organization, that is, the way the user has to create (propose) a new knowledge (see knowledge [Knowledge management][1]
+    ![number](images/15.png) Icon to contribute to the knowledge management of the organization, that is, the way the user has to create (propose) a new knowledge (see knowledge [Knowledge management][1])
     
 See also
 -------------
