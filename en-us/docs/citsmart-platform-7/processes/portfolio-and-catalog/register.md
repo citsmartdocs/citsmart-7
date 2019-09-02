@@ -184,7 +184,7 @@ A quick overview of the main functionality of the module
     access the Services Portfolio. The **Services Portfolio** screen will be
     displayed, as shown in the figure below:
 
-   ![figura](images/service-8.png)
+   ![figura](images/service-10.png)
    
    **Figure 10 - Services portfolio**
 
