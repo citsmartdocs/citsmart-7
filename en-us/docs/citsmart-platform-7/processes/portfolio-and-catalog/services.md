@@ -363,7 +363,7 @@ Registering support service
 See also
 --------
 
--   [Service Attributes configuration][5]).
+-   [Service Attributes configuration][5].
 
 
 [1]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/portfolio-access.html
