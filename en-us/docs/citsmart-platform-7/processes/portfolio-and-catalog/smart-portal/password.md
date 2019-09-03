@@ -1,33 +1,34 @@
-title:  Alteração da senha via Smart Portal
-Description: Disponibiliza a mudança de senha. 
-# Alteração da senha via Smart Portal
+title: System access password change using Smart Portal
+Description: System access password change using Smart Portal
 
-Mudando a senha
------------------
+# System access password change using Smart Portal
 
-1. Na tela inicial do **Smart Portal**, clique na identificação do usuário e logo em seguida em Alterar Senha, conforme indicado na figura abaixo:
+Changing the password
+---------------------
 
-    ![Senha](images/senha-smart.img1.jpg)
-    
-    **Figura 1 - Alterar senha**
-    
-2. Será exibida a tela de alteração da senha de acesso ao sistema, conforme ilustrada na figura abaixo:
+1.  On the **Smart Portal** home screen, click on the user ID and then
+    on *Change Password*, as shown in the figure below:
 
-    ![Alteração](images/senha-smart.img2.jpg)
-    
-    **Figura 2 - Tela de alteração de senha de acesso ao sistema**
-    
-    - **Senha Antiga**: informe a senha atual de acesso ao sistema;
-    - **Nova Senha**: defina na nova senha de acesso ao sistema;
-    - **Confirmar Nova Senha**: informe a nova senha para confirmação.
+   ![Senha](images/senha-smart.img1.jpg)
+   
+   **Figure 1 - Change password**
 
-3. Após os dados informados, clique no botão "Gravar" para efetuar a operação.
+2.  The system password change screen will be displayed, as shown in the figure
+    below:
 
+   ![Senha](images/senha-smart.img2.jpg)
+   
+   **Figure 2 - System access password change screen**
+
+-   **Old Password**: enter the current system access password;
+
+-   **New Password**: set in the new system access password;
+
+-   **Confirm Password**: enter the new password for confirmation; After the
+    data is entered, click the *Save* button to perform the operation.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/06/2019 - Larissa Lourenço
-
-
+    <b>Updated:</b>09/03/2019 - Anna Martins
