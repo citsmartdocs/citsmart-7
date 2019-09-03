@@ -1,68 +1,65 @@
-title: Gerenciamento de dados (importação e exportação)
-Description: O objetivo desta funcionalidade é gerar exportação e importação de dados das tabelas do sistema.
-# Gerenciamento de dados (importação e exportação)
+title: Data Management (import and export)
+Description: The goal is to generate export and import data from the system tables.
+# Data Management (import and export)
 
-O objetivo desta funcionalidade é gerar exportação e importação de dados das tabelas do sistema.
+The goal is to generate export and import data from the system tables.
 
-Como acessar
----------------
+How to access
+-----------------
 
-1. Acesse a funcionalidade de gerenciamento de dados através da navegação no menu principal 
-**Sistema > Banco de Dados > Gerenciamento de Dados**.
+1. Access the data management functionality through navigation in the main menu **System > Database > Data Management**.
 
-Gerenciamento de dados
+Data management
 -----------------------
 
-1. Será apresentada a tela **Gerenciamento de Dados** contendo uma listagem das tabelas do sistema, conforme ilustrada na figura
-abaixo:
+1. The **Data Management** screen containing a listing of the system tables will be displayed, as shown in the figure below:
 
-    ![Gerenciamento](images/ger-dados.img1.png)
+    ![Management](images/data.img1.jpg)
     
-    **Figura 1 - Gerenciamento de dados**
+    **Figure 1 - Data management**
     
-2. Para gerar exportação das tabelas do sistema em formato ".XML", basta clicar no botão "Exportar Tudo", onde será realizada a 
-exportação de todas as tabelas do sistema no formato referente;
+2. To generate export of the system tables in ".XML" format, simply click the *Export all* button, where all the system tables will 
+be exported in the relevant format.
 
-3. Para gerar exportação das tabelas do sistema em formato ".SQL", basta clicar no botão "Exportar Tudo SQL", onde será realizada a 
-exportação de todas as tabelas do sistema com os comandos SQLs;
+3. To generate export of the system tables in ".SQL" format, simply click the *Export all SQL* button, where all the system tables 
+will be exported with the SQL commands.
 
-4. Caso deseje exportar uma tabela, proceder conforme os passos abaixo:
+4. If you want to export a table, proceed as follows:
 
-    - Clique duas vezes na tabela desejada;
-    - Será aberta uma janela exibindo os dados existentes na tabela (veja figura abaixo);
-    - Caso queira excluir a tabela após exportação, marque o campo referente;
-    - Caso queira exportar objetos relacionados, marque o campo referente;
-    - Caso queira exportar a tabela no padrão SQL, marque o campo referente;
-    - Caso seja necessário, poderá informar uma condição e o valor para os campos da tabela;
-    - Clique no botão "Processar" para realizar a exportação da tabela.
+    - Double-click the desired table;
+    - A window will open displaying the data in the table (see figure below);
+    - If you want to delete the table after export, check the referring field;
+    - If you want to export related objects, check the referring field;
+    - If you want to export the table in the SQL standard, check the referring field;
+    - If necessary, you can enter a condition and value for the table fields;
+    - Click the *Edit* button to perform the table export.
     
-    ![Configuração](images/ger-dados.img2.png)
+    ![Configuration](images/data.img2.jpg)
     
-    **Figura 2 - Tela de configuração do objeto de negócio**
+    **Figure 2 - Business object configuration screen**
     
-5. Caso deseje exportar um campo de uma tabela, proceder conforme os passos abaixo:
+5. If you want to export a field from a table, proceed as follows:
 
-    - Clique no ícone ![simbolo](images/simb-seta.png) da tabela para exibir os campos da tabela;
-    - Clique duas vezes no campo da tabela;
-    - Uma tela de objeto de negócios será aberta para o campo de tabela idêntico à figura anterior;
-    - Caso queira excluir o campo após exportação, marque o campo referente;
-    - Caso queira exportar objetos relacionados, marque o campo referente;
-    - Caso queira exportar o campo no padrão SQL, marque o campo referente;
-    - Clique no botão "Processar" para realizar a exportação do campo da tabela.
+    - Click the table icon ![symbol](images/simb-seta.jpg) to display the table fields;
+    - Double-click in the table field;
+    - A business object screen will be opened for the table field identical to the previous figure.
+    - If you want to delete the field after export, check the referring field;
+    - If you wanted to export related objects, check the referring field;
+    - If you want to export the field in the SQL standard, check the referring field;
+    - Click the *Edit* button to perform the table field export.
     
-6. Para realizar a importação de dados, clique no botão "Importar", onde será exibida uma janela para realizar o upload de 
-arquivos;
+6. To perform the data import, click on the *Import* button, where a window will be displayed to upload files;
 
-    ![Upload](images/ger-dados.img3.png)
+    ![Upload](images/data.img3.jpg)
     
-    **Figura 3 - Tela de upload de arquivos**
+    **Figure 3 - Import**
     
-    - Clique no botão "Escolher arquivo";
-    - Selecione o arquivo, o qual foi feita a exportação;
-    - Informe uma descrição para o mesmo, caso seja necessário;
-    - Clique em "Adicionar" e clique em "Importar Arquivo(s)".
+    - Click the *Choose File* button;
+    - Select the file, which was exported;
+    - Please provide a description for it, if necessary;
+    - Click *Add*, and then click *Import File (s)*.
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/22/2019 – Larissa Lourenço
+    <b>Updated:</b>03/09/2019 – Larissa Lourenço
