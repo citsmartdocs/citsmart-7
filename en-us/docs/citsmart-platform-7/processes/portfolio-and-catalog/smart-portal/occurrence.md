@@ -47,8 +47,8 @@ Items list
 
 1.  The following cadastral fields are available to the user to facilitate the
     identification of the desired items in the standard feature
-    listing: **Ticket, Type, Service, Incident/Request, Created on, Task,
-    Current group, Situation, SLA, Time limit, SLA status **and **Priority.**
+    listing: Ticket, Type, Service, Incident/Request, Created on, Task,
+    Current group, Situation, SLA, Time limit, SLA status and Priority.
 
 2.  There are action buttons available to the user for each item in the listing,
     they are: *Register opinion*, *Reopen service request*, *Satisfaction
@@ -69,7 +69,7 @@ Filling in the registration fields
      occurrence to be registered.
 
 1.  Find the service request (in progress) that you want to record an occurrence
-    and click the ![figure](images/simb.plus.jpg) of the same. Once this is done, the**Occurrence
+    and click the ![figure](images/simb.plus.jpg) of the same. Once this is done, the **Occurrence
     Register** screen will be displayed, as shown in the figure below:
 
    ![Pesquisa](images/ocorren.img3.jpg)
