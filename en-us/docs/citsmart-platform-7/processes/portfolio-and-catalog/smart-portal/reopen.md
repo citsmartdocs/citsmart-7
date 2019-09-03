@@ -1,66 +1,79 @@
-title:  Reabertura de solicitação de serviço via Smart Portal
-Description: Disponibiliza a reabertura de solicitação de serviço via Smart Portal. 
-# Reabertura de solicitação de serviço via Smart Portal
+title: Reopen service request using Smart Portal
+Description: Reopen service request using Smart Portal
 
-Como acessar
-----------------
+# Reopen service request using Smart Portal
 
-1. Na tela inicial do **Smart Portal**, clique no botão de menu ![simbolo](images/simb-meno.white.jpg) e logo após clique em **Minhas 
-solicitações**.
+How to access
+-------------
 
-Pré-condições
-----------------
+1.  On the **Smart Portal** home screen, click the menu button ![figure](images/simb-meno.white.jpg), and then
+    click **My Requests**.
 
-1. A solicitação de serviço deverá estar com a situação “fechada” (ver conhecimento [Gerenciamento de ticket (serviços)][1], 
-precisamente a seção "Preenchimento Dos Campos Cadastrais - Cadastro De Ticket");
+Preconditions
+-------------
 
-2. Ter permissão no fluxo de trabalho que faz vínculo com a atividade de requisição/incidente para reabrir solicitação. Essa permissão
-é definida no cadastro de grupo (ver conhecimento [Cadastro e pesquisa de grupo][2]);
+1.  The service request must be "closed" (see knowledge [Ticket management
+    (services)][1]), precisely the section Filling In The Registration Fields - Ticket
+    Registration);
 
-3. Configure o parâmetro abaixo (ver conhecimento [Regras de parametrização - ticket][3]):
+2.  Have permission in the workflow that links to the Request/incident activity
+    to reopen request. This permission is defined in the group register (see
+    knowledge [Group registration and search][2]);
 
-    - Parâmetro 171.
-    
-Filtros
+3.  Configure the parameter (see knowledge [Parameterization rules -
+    ticket][3]):
+
+-   Parameter 171.
+
+Filters
+-------
+
+1.  The following filters enables the user to restrict the participation of
+    items in the standard feature listing, making it easier to find the desired
+    items:
+
+-   Search;
+
+-   Situation;
+
+-   Sort by;
+
+-   Order.
+
+![figure](images/reaber.img1.jpg)
+
+**Figure 1 - Request search screen**
+
+Items list
 ----------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando
-a localização dos itens desejados:
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: Ticket, Type, Service, Incident/Request, Title, Created on, Task,
+    Current group, Situation, SLA, Time limit, SLA status*and Priority.
 
-    - Pesquisa;
-    - Situação;
-    - Ordenar por;
-    - Ordem.
-    
-    ![Pesquisa](images/reaber.img1.jpg)
-    
-    **Figura 1 - Tela de pesquisa de solicitação**
-    
-Listagem de itens
-------------------
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Register opinion*, *Reopen service request*, *Satisfaction
+    Survey,* *Description*, *Attachments*, *Occurrence*, *Register
+    occurrence*, *Cancel Request* and *Message.*
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem padrão
-da funcionalidade: **Ticket, Tipo, Serviço, Atividade, Criada em, Tarefa, Grupo atual, Situação, SLA, Prazo limite, Status do SLA**
-e **Prioridade**.
+![figure](images/reaber.img1.jpg)
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: *Registar opinião, Reabrir 
-solicitação, Pesquisa de satisfação, Descrição, Anexos, Ocorrências, Registrar Ocorrência, Cancelar Solicitação* e *Mensagem*.
+**Figure 2- Request listing screen**
 
-![Listagem](images/reaber.img2.jpg)
+Reopening the service request
+-----------------------------
 
-**Figura 2 - Tela de listagem de solicitação**
+1.  Find the (closed) service request you want to reopen, click on the service
+    request , and confirm the reopening. Once this is done, the request will be
+    reopened to allow a new service to be performed.
 
-Reabertura da solicitação de serviço
-----------------------------------------
-
-1. Busque a solicitação de serviço (fechada) que deseja reabrir, clique no ícone ![simbolo](images/simb-atual.jpg) da mesma e 
-confirme a reabertura. Feito isso, a solicitação será reaberta para ser realizado um novo atendimento.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/07/2019 - Larissa Lourenço
+    <b>Updated:</b>09/03/2019 - Anna Martins
 
-[1]:/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html
-[2]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
-[3]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrizaion-ticket.html
+[1]:/en-us/citsmart-platform-7/processes/tickets/ticket-management.html
+[2]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[3]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrizaion-ticket.html
