@@ -70,7 +70,7 @@ Filling in the registration fields
 3. Click the *Save* button to register, where the date, time and user will be saved automatically for a future audit;
 
 4. After registering the Script, click the *Execute* button to execute the Script, where you will see the execution result in the 
-History field.
+**History** field.
 
 !!! tip "About"
 
