@@ -31,80 +31,76 @@ Items list
 Registering spreadsheet template for import - filling in the registration fields
 ---------------------------------------------------------------------------------------
 
-1. The Service Port Loading screen will appear for spreadsheet template registration for import, as shown in the figure below:
+1. The **Service Port Loading** screen will appear for spreadsheet template registration for import, as shown in the figure below:
 
-    ![Cadastro](images/car-port.img1.png)
+    ![Entry](images/portfolio.img1.jpg)
     
-    **Figura 1 - Tela de cadastro de modelo de planilha para importação**
+    **Figure 1 - Spreadsheet template registration screen for import**
     
-2. O cadastro de planilha para importação está estruturado conforme o passo a passo para se criar um portfólio de serviços com as
-etapas Portfólio, Serviço e Atividade (Incidente/Requisição). De acordo com o campo, os valores a se preencher podem ser:
+2. The spreadsheet for import is structured step by step to create a portfolio of services with the *Portfolio, Service* and *Activity* (*Incident/Request*) steps. According to the field, the values to be filled in can be:
 
-    - **Valor Padrão**: Será apresentado um valor padrão já pré-definido;
-    - **A Informar**: Ao gerar a planilha esse campo estará disponível para preenchimento;
-    - **Informado**: Será apresentado um campo para escolha do valor com o qual se deseja preencher.
+    - **Default Value**: an already pre-defined default value will be displayed;
+    - **To be Inform**: when generating the worksheet this field will be available for completion;
+    - **Informed**: a field will be displayed to choose the value with which to fill.
     
-    - Portfólio:
-        - **Tipo**: selecione se o tipo de portfólio, que pode ser de “Negócio” ou “Apoio”;
-        - **Portfólio**: selecione a opção de preenchimento do campo;
-        - **Disponível no portal (Portfólio)**: selecione a opção de preenchimento do campo.
+    - Portfolio:
+        - **Type**: select whether the portfolio type, which can be "Business" or "Support";
+        - **Portfolio**: select the field fill option;
+        - **Available on portal (Portfolio)**: select the option to fill the field.
         
-    - Serviço:
-        - **Nome do Serviço**: selecione a opção de preenchimento do campo;
-        - **Categoria de Negócio**: selecione a opção de preenchimento do campo;
-        - **Data de Implantação**: selecione a opção de preenchimento do campo;
-        - **Fase do Serviço**: selecione a opção de preenchimento do campo;
-            - Se a opção escolhida for "Á informar", será apresentada a opção "Adicionar campos de Classificação". Caso queira 
-            adicionar os campos de classificação, basta clicar na opção referente. Feito isso, serão apresentados os respectivos
-            campos para serem preenchidos com as opções desejadas;
-            - Se a opção escolhida for "Informado" será apresentado um campo para escolha da fase. Ao informar a fase "Analisar" 
-            serão exibidos os campos de classificação para serem preenchidos.
-        - **Status do Serviço**: se a opção escolhida no campo anterior "Fase do Serviço" for "Á informar", esse campo será 
-        preenchido de forma automática com a mesma opção escolhida, mas caso não seja, selecione a opção de preenchimento do
-        campo;
-        - **Disponível no portal (Serviço Negócio)**: selecione a opção de preenchimento do campo.
+    - Service:
+        - **Service Name**: select the field fill-in option;
+        - **Business Category**: select the field fill option;
+        - **Deployment**: select the field fill option;
+        - **Service Phase**: select the field fill option;
+            - If the option chosen is "To inform", the option *Add classification fields* will be displayed. Only the 
+            classification fields are required if the user enters the Service Phase field as "Analyze" and the Service Status as 
+            "Analysis".
+            - If the option chosen is "Informed", the phases to choose will be displayed. When entering the value, if the option 
+            chosen for the phase is Analyze will be displayed the fields to select the desired option, as shown below:
+        - **Status**: select the field fill option;
+        - **Available on portal (Business Service)**: select the option to fill the field.
         
-    - Incidente/Requisição:
-        - **Nome da Atividade (Incidente/Requisição)**: selecione a opção de preenchimento do campo;
-        - **Situação do Serviço (Incidente/Requisição)**: selecione a opção de preenchimento do campo;
-        - **Data de Implantação (Incidente/Requisição)**: selecione a opção de preenchimento do campo;
-        - **Tipo de Demanda**: selecione a opção de preenchimento do campo;
-        - **Categoria da Atividade (Incidente/Requisição)**: selecione a opção de preenchimento do campo;
-        - **Disponível no Portal**: selecione a opção de preenchimento do campo.
+    - Incident/Request:
+        - **Activity Name (Incident/Request)**: select the field fill option;
+        - **Service Status (Incident/Request)**: select the option to fill the field;
+        - **Implantation date (Incident/Request)**: select the field fill option;
+        - **Type**: select the field fill option;
+        - **Activity Category (Incident/Request)**: select the field fill option;
+        - **Available in the Portal**: select field fill option.
         
-3. Para gerar modelo de planilha em formato ".xls", basta clicar no botão Gerar Modelo .xls.
+3. To generate ".xls" spreadsheet template, simply click the *Generate Model .xls* button;
 
-4. Para gerar modelo de planilha em formato ".xlsx", basta clicar no botão Gerar Modelo .xlsx.
+4. To generate spreadsheet template in ".xlsx" format, just click the *Generate Model .xlsx* button.
 
-!!! note "NOTA"
+!!! note "NOTE"
 
-    Ao gerar as planilhas independente do formato, o usuário encontrará campos com hiperlink. Esses campos recuperam a referência
-    do enumerado com a descrição do campo. Nesses casos o usuário utilizará o enumerado para preenchimento correto da lista.
+    When generating spreadsheets regardless of format, the user will find fields with hyperlink. These fields retrieve the 
+    enumerated reference with the field description. In these cases the user will use the enumerated one to fill the correct list.
     
-Realizando importação de portfólio de serviço
+Realizing service portfolio import
 ------------------------------------------------
 
-1. Na tela de **Carga do Portfólio de Serviços**, na aba **Importação**, é apresentada a respectiva tela, conforme ilustração 
-abaixo:
+1. In the Service Portfolio Load screen, in the Import tab, the respective screen is displayed, as shown below:
 
-    ![Importação](images/car-port.img2.png)
+    ![Import](images/portfolio.img2.jpg)
     
-    **Figura 2 - Importação de portfólio de serviços**
+    **Figure 2 - Import of portfolio of services**
     
-2. Clique no botão "Escolher arquivo" e será exibida uma janela para escolha do arquivo;
+2. Click the *Choose File* button and a window will appear to choose the file;
 
-3. Selecione o arquivo, o qual deve estar em formato ".xls" ou ".xlsx";
+3. Select the file, which should be in ".xls" or ".xlsx;
 
-4. Clique no botão "Importar";
+4. Click the *Import* button;
 
-5. Os dados importados poderão ser visualizados no Portfólio de Serviços.
+5. The imported data can be viewed in the Service Portfolio.
 
-!!! info "IMPORTANTE"
+!!! info "IMPORTANT"
 
-    Ao realizar a importação, caso haja alguma inconsistência entre os valores adotados no sistema e os valores informados na 
-    planilha, o sistema exibirá um alerta.
+    When performing the import, if there is any inconsistency between the values adopted in the system and the values entered in 
+    the worksheet, the system will display an alert.
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/22/2019 – Larissa Lourenço
+    <b>Updated:</b>09/03/2019 – Larissa Lourenço
