@@ -1,62 +1,60 @@
-title: Verificação do log do sistema
-Description: Esta funcionalidade tem por objetivo verificar o log do sistema para trilha de auditoria.
-# Verificação do log do sistema
+title: System log check
+Description: This functionality is intended to check the system log for audit trail.
+# System log check
 
-Esta funcionalidade tem por objetivo verificar o log do sistema para trilha de auditoria.
+This functionality is intended to check the system log for audit trail.
 
-Como acessar
--------------
+How to access
+----------------
 
-1. Acesse a funcionalidade de logs do sistema através da navegação no menu principal 
-**Sistema > Trilha de Auditoria > Logs do Sistema**.
+1. Access system logging functionality by navigating the main menu **System > Audit Trail > System Logs**.
 
-Pré-condições
+Preconditions
 ---------------
 
-1. Não se aplica.
+1. No applicable.
 
-Filtros
+Filters
 --------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando
-a localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - **Período**: informe o período que deseja verificar o log do sistema;
-    - **Nome tabela**: selecione uma tabela, caso queira verificar o log de uma tabela específica do sistema;
+    - **Period**: enter the period you want to check the system log;
+    - **Name table**: select a table, if you want to check the log of a specific table of the system;
     
-    !!! warning "ATENÇÃO"
+    !!! warning "WARNING"
     
-        Caso os nomes das tabelas não estejam atualizados, acesse a funcionalidade Parâmetros CITSmart e defina o nome do banco 
-        de dados utilizado no parâmetro ' DB - nome do SHEMA do banco de dados '. Após isto, acesse funcionalidade Carrega Meta 
-        Dados e atualize todas as tabelas.
+        If the table names are not updated, access the CITSmart Parameters feature and define the name of the database used in the 
+        'DB - database SCHEMA name' parameter. After that, access Load Data Meta functionality and update all tables.
         
-    - **Usuário**: informe o nome do usuário, caso queira verificar o log do sistema referente ao usuário;
-    - **Quantidade de logs por página**: selecione a quantidade de logs que serão exibidos por página.
+    - **Name**: enter the name of the user, if you want to check the system log for the user;
+    - **Number of logs per page**: select the number of logs that will be displayed per page;
     
-2. Clique no botão " Pesquisar" e será exibido o log do sistema conforme os dados informados;
+2. Click the *Search* button and the system log will be displayed according to the data entered;
 
-3. Caso queira gerar o relatório do log do sistema, clique no botão "Gerar Relatório".
+3. If you want to generate the system log report, click the *Generate Report* button.
 
-    ![Logs](images/log-sis.img1.jpg)
+    ![Logs](images/log.img1.jpg)
     
-    **Figura 1 - Tela de log do sistema**
+    **Figure 1 - System log screen**
     
-Listagem de itens
+Items list
 -------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: **Usuário, Tabela, Operação, Data/Hora e Dados**.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **Name, Table, Operation, Date/Time** and **Data**.
 
-![Listagem](images/log-sis.img2.jpg)
+![Listing](images/log.img2.jpg)
 
-**Figura 2 - Tela de listagem de log do sistema**
+**Figure 2 - System log listing screen**
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 --------------------------------------
 
-1. Não se aplica.
+1. No applicable.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/23/2019 – Larissa Lourenço
+    <b>Updated:</b>09/03/2019 – Larissa Lourenço
