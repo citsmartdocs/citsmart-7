@@ -1,71 +1,70 @@
-title: Cadastro e pesquisa de domínios
-Description: A funcionalidade de Domínio tem por objetivo permitir o cadastro de domínios para inserção de novos itens de domínio.
-# Cadastro e pesquisa de domínios
+title: Domain registration and search
+Description: The Domain feature is intended to allow the registration of domains for insertion of new domain items.
+# Domain registration and search
 
-A funcionalidade de Domínio tem por objetivo permitir o cadastro de domínios para inserção de novos itens de domínio, ou seja, 
-novas opções no campo de uma determinada tela do sistema. Para utilizar a mesma, deverá ter conhecimento sobre a codificação do
-sistema.
+The Domain feature is intended to allow the registration of domains for insertion of new domain items, that is, new options in the 
+field of a particular screen of the system. To use it, you should be aware of system coding.
 
-Como acessar
----------------
+How to access
+------------------
 
-1. Acesse o menu principal **Sistema > Configurações de Domínio > Domínios**.
+1. Access the main menu **System > Domain Configurations > Domains**.
 
-Pré-condições
----------------
+Preconditions
+-----------------
 
-1. Não se aplica.
+1. No applicable.
 
-Filtros
+Filters
 ---------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando
-a localização dos itens desejados:
+1. The following filters enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Nome;
-    - Processo;
-    - Ativo.
+    - Name;
+    - Process;
+    - Active.
     
-2. Na tela de **Domínios**, são exibidos os registros de domínios listados, conforme ilustrada na figura abaixo:
+2. In the **Domains** screen, the listed domain records are displayed, as shown in the figure below:
 
-    ![Pesquisa](images/domi.img1.png)
+    ![Search](images/domain.img1.jpg)
     
-    **Figura 1 -Tela de pesquisa de domínio**
+    **Figure 1 - Domains search screen**
     
-3. Para buscar um registro de domínio específico, basta preencher os filtros conforme sua necessidade.
+3. To search for a specific domain registration, simply fill in the filters as needed.
 
-Listagem de itens
+Items list
 -------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem
-padrão da funcionalidade: **Nome, Processo** e **Ativo**.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **Name, Process** and **Active**.
 
-    ![Listagem](images/domi.img2.png)
+    ![Listing](images/domain.img2.jpg)
     
-    **Figura 2 - Tela de listagem de domínio**
+    **Figure 2 - Domain listing screen**
     
-2. Existe um botão de ação disponível ao usuário em relação a cada item da listagem, é ele: "Editar".
+2. There is an action button available to the user for each item in the listing, it is: *Edit*.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Será apresentada a tela de Domínios. Clique no botão "Novo". Feito isso, será apresentada a respectiva tela de **Cadastro 
-de Domínio**, conforme ilustrada na figura abaixo:
+1. The **Domains** screen will be displayed. Click the *New* button. Once this is done, the respective **Domain Registration** 
+screen will be displayed, as shown in the figure below:
 
-    ![Cadastro](images/domi.img3.png)
+    ![Entry](images/domain.img3.jpg)
     
-    **Figura 3 - Cadastro de domínio**
+    **Figure 3 - Domain registration**
     
-2. Preencha os campos conforme orientação abaixo:
+2. Fill in the fields as follows:
 
-    - **Nome**: informe o nome do domínio. O mesmo deverá ter uma relação com algum enumerado especificado no código do sistema;
-    - **Processo**: selecione o processo referente ao domínio;
-    - **Tipo**: selecione o tipo de domínio;
-    - **Ativo**: selecione a situação domínio.
+    - **Name**: enter the domain name. It should have a relationship with some enumerated specified in the system code;
+    - **Process**: select the process related to the domain;
+    - **Type**: select the domain type;
+    - **Active**: select the domain situation.
     
-3. Após os dados informados, clique no botão "Gravar" para efetuar a operação.
+3. After the data is entered, click the *Save* button to perform the operation.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/22/2019 – Larissa Lourenço
+    <b>Updated:</b>09/03/2019 – Larissa Lourenço
