@@ -39,8 +39,8 @@ Items list
 
 1.  The following cadastral fields are available to the user to facilitate the
     identification of the desired items in the standard feature
-    listing: **Ticket, Type, Service, Incident/Request, Title, Created on, Task,
-    Current group, Situation, SLA, Time limit, SLA status **and **Priority.**
+    listing: Ticket, Type, Service, Incident/Request, Title, Created on, Task,
+    Current group, Situation, SLA, Time limit, SLA status and Priority.
 
 2.  There are action buttons available to the user for each item in the listing,
     they are: *Register opinion*, *Reopen service request*, *Satisfaction
