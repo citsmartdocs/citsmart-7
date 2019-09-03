@@ -56,12 +56,12 @@ Below are examples of using the key fields available for insertion into the prob
 
 **Figure 1 - Example of insertion**
 
+Example of key fields displayed in e-mail
+---------------------------------------------
+
 ![Result](Images/problem.img2.jpg)
 
 **Figure 2 - Example of shipping result**
-
-Example of key fields displayed in e-mail
----------------------------------------------
 
 ![Example](Images/problem.img3.jpg)
 
