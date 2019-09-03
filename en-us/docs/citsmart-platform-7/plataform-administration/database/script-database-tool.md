@@ -51,5 +51,5 @@ Adding fields to the table
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>09/03/2019 – Anna Martins
+    <b>Updated:</b>09/03/2019 – Larissa Lourenço
 
