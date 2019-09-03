@@ -1,53 +1,51 @@
-Title: Manual de configurações de ambiente
-Descrição: Objetivo facilitar uma eventual intervenção (correção) direto no ambiente (servidor) e alterar os logos do sistema.
-# Manual de configurações de ambiente
+Title: Environment setup guide
+Descrição: The Environment Setup feature is intended to facilitate a direct intervention.
+# Environment setup guide
 
-A funcionalidade de Configuração de Ambiente tem por objetivo facilitar uma eventual intervenção (correção) direto no ambiente
-(servidor) e alterar os logos do sistema.
+The Environment Setup feature is intended to facilitate a direct intervention (correction) in the environment (server) and to 
+change the system logos.
 
-Como acessar
--------------
+How to access
+-----------------
 
-1. Acesse o menu principal **Sistema > Configurações > Configurações de Ambiente**.
+1. Access the main menu **System > Settings > Environment Settings**.
 
-Pré-condições
+Preconditions
 ---------------
 
-1. Não se aplica.
+1. No applicable.
 
-Filtros
+Filters
 ---------
 
-1. Não se aplica.
+1. No applicable.
 
-Listagem de itens
+Items list
 ------------------
 
-1. Não se aplica.
+1. No applicable.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 ------------------------------------
 
-1. Não se aplica.
+1. No applicable.
 
-Verificando as configurações do ambiente
+Verifying the environment settings
 ------------------------------------------
 
-1. Será apresentada a tela de **Configurações de Ambiente**, na qual poderá alterar o logo do sistema, verificar as informações do 
-ambiente e realizar o download do Log do Jboss. A figura abaixo ilustra essa tela:
+1. The **Environment Settings** screen appears, where you can change the system logo, check the environment information and 
+download the Jboss Log. The figure below illustrates this screen:
 
-    ![Configuração](images/logo.img1.jpg)
+    ![Configuration](images/envi.img1.jpg)
     
-    **Figura 1 - Tela de configuração de ambiente**
+    **Figure 1 - Environment configuration screen**
     
-2. Para trocar os logos do sistema (**logo início** - exibida na tela de login do sistema, **logo portal** - exibida no smart 
-portal, **logo sistema** - exibida nas demais telas do sistema), basta clicar no botão "Selecionar uma imagem";
+2. To change the system logos (**logo home** - displayed in the login screen of the system, **logo portal** - displayed in the 
+smart portal, **logo system** - displayed in the other screens of the system), just click on the *Select an image* button;
 
-3. Para realizar o download do Log do Jboss, basta clicar no botão "Download" referente. O Log do Jboss possibilita uma correção
-rápida de um eventual problema.
-
+3. To download the Jboss Log, just click the *Download* button for the Jboss Log. The Jboss Log enables a quick fix of a problem.
 	
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/23/2019 - Larissa Lourenço
+    <b>Updated:</b>03/09/2019 - Larissa Lourenço
