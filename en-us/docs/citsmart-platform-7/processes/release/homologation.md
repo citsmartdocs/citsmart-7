@@ -42,66 +42,59 @@ List of items
     Requester, Created On, Priority, Deadline, Delay, Status, Current Task, 
     Executing Group, Current Responsible, and Shared With.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Visualizar*, *Relatórios*, *Agendar Requisição de
-    Liberação*, *Suspender liberação*, *Iniciar/Executar
-    tarefa* e *Delegar/Compartilhar tarefa*.
+2.  There are action buttons available to the user for each item of the list,
+    they are: *View*, *Reports*, *Schedule Release Request*, *Suspend release*,
+    *Start/Execute task* and *Delegate/Share task*.
 
-3.  Para homologar a requisição de Liberação, acesse a guia **Gerenciamento**,
-    localize a requisição de liberação que será homologada, clique no
-    botão *Ações* e selecione a opção *Iniciar/Executar tarefa*, conforme
-    indicado na figura abaixo:
+3.  To homologate the Release request, access the **Management** tab, 
+    find the release request that will be homologated, click on *Actions* 
+    and select the *Start/Execute Task* option, as shown in the figure below:
 
-    ![Criar](images/homologation-2.png)
+    ![Create](images/homologation-2.png)
 
-    **Figura 2 - Executar tarefa atual da requisição de liberação**
+    **Figure 2 - Execute the current task of the release request**
 
-1.  Será exibida a tela de **Registro da Requisição de Liberação** com os campos
-    preenchidos, com o conteúdo referente à requisição selecionada;
+1.  It'll be presented the screen **Release Request Registration** with the fields
+    completed, with the content about the request selected;
 
-    -  Certifique-se que a execução da liberação de mudanças ocorreu conforme
-    solicitado;
+    -  Make sure that the change release was performed as requested;
 
-    -  Na área de **Requisição**, no campo **Situação**, informe a situação da
-    requisição de liberação (Resolvido ou Não Resolvido);
+    -  In the **Request** area, the field **Status**, inform the status of the
+    release request (Solved or Not Solved);
 
-    -  Registre as informações necessárias sobre a execução da homologação:
+    -  Register the information necessary about the execution of homologation:
 
-        -  Na área de **Fechamento**, clique no botão *Adicionar registro de
-           execução*. Feito isso, descreva as informações sobre a execução de sua
-           atividade.
+        -  In the **Closure** field, click on *Add execution registration*
+           Once done, describe the information abut the execution of your
+           activity.
 
-1.  Caso tenha informado a situação **Não Resolvida**:
+1.  If you have informed the status as **Not Solved**:
 
-    -  No campo **Fechamento**, informe o motivo pelo qual não foi realizada a
-    liberação das mudanças;
+    -  In the **Closure** field, enter the reazon why it was not performed the change
+    release;
 
-    -  Clique no botão *Gravar e avançar o fluxo* para efetuar a operação, onde a
-    requisição de liberação será encaminhada para o solicitante liberar a mesma
-    para uma nova execução da atividade.
+    -  Click on *Save and advance flow* to perform the operation, where the release
+    request will be directed to the requester to release it for a new activity execution.
 
-1.  Caso tenha informado a situação **Resolvida**:
+1.  If you have informed the status as **Solved**:
 
-    -  No campo **Data da liberação**, informe a data em que foi realizada a
-    liberação das mudanças;
+    -  In the field **Release date**, inform the date which was performed the change release;
 
-    -  No campo **Categoria de Solução**, informe a categoria de solução, ou seja,
-    informe o que foi feio para realizar a liberação das mudanças;
+    -  In the field **Solution Category**, inform the solution category, that is,
+    inform what was done to release the changes;
 
-    -  No campo **Fechamento**, informe os detalhes sobre realização da liberação
-    das mudanças;
+    -  In the field **Closure**, inform the details about the release of changes;
 
-        -  Clique no botão *Gravar e avançar o fluxo* para efetuar a operação, onde a
-          requisição de liberação será encaminhada para o solicitante finalizá-la.
+         -  Click on *Save and Advance Flow* to perform the operation, where the release
+            request will be forwarded to the requester to complete it.
 
-         -  Caso queira gravar somente as informações registradas sobre a homologação
-         realizada e manter a tarefa atual, clique no botão *Gravar e manter a tarefa
-         atual*.
+         -  If you only want to record the information registered about the homologation 
+            performed and keep the current task, click on *Record and keep the current task*
 
-Preenchimento dos campos cadastrais
+Completing registration fields
 -----------------------------------
 
-1.  Não se aplica.
+1.  Not applicable.
 
 !!! tip "About"
 
