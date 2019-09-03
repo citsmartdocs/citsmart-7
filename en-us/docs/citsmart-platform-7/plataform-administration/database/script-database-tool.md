@@ -1,56 +1,55 @@
-title: Ferramenta de base de dados (criação de tabelas e campos)
-Description: O objetivo é manter registro de scripts para a execução dos mesmos no sistema.
-# Ferramenta de base de dados (criação de tabelas e campos)
+title: Database tool (creation of tables and fields)
+Description: The goal is to keep track of scripts for executing them on the system.
+# Database tool (creation of tables and fields)
 
-O objetivo é manter registro de scripts para a execução dos mesmos no sistema.
+The goal is to keep track of scripts for executing them on the system.
 
-Como acessar
---------------
+How to access
+------------------
 
-1. Acesse a funcionalidade de ferramenta de base de dados através da navegação no menu principal 
-**Sistema > Banco de Dados > Ferramenta Base Dados**.
+1. Access the database tool functionality by navigating in the main menu **System > Data base > Data base Tool**.
 
-Ferramenta de base de dados
+Database tool
 -----------------------------
 
-1. Será apresentada a Ferramenta de Base de Dados contendo as informações do SGBD, Banco e URL em que está sendo utilizado e uma
-listagem das tabelas do sistema, conforme ilustrada na figura abaixo:
+1. The Data base Tool will be displayed containing the DBMS, Data base and URL information in which it is being used and a listing 
+of the system tables, as shown in the figure below:
 
-    ![Ferramenta](images/ferr-dados.img1.png)
+    ![Tool](images/tables.img1.jpg)
     
-    **Figura 1 - Ferramenta base dados**
+    **Figure 1 - Data base tool**
     
-2. Com essa ferramenta é possível criar e associar novas tabelas e campos ao sistema.
+2. With this tool you can create and associate new tables and fields with the system.
 
-Criando tabela
+Creating table
 ----------------
 
-1. Na Ferramenta Base Dados, clique em "Criar Tabela";
+1. In the Data Base Tool, click *Create Table*;
 
-2. Será inserida uma linha de comando SQL na área de Console de Scripts SQL para criação da tabela;
+2. An SQL command line will be inserted in the SQL Scripts Console area to create the table;
 
-3. Informe os dados necessários e clique no botão "Executar";
+3. Enter the required data and click the *Run* button;
 
-4. Será exibido o resultado da execução da criação da tabela na área de Resultados scripts SQL.
+4. The result of the creation of the table in the Results area of SQL scripts is displayed.
 
-Adicionando campos na tabela
+Adding fields to the table
 ------------------------------
 
-1. Na **Ferramenta Base Dados**, clique sobre a tabela que deseja inserir um campo;
+1. In the **Data base Tool**, click on the table you want to insert a field;
 
-2. Será exibida uma janela apresentando as ações que podem ser realizadas:
+2. A window will appear showing the actions that can be performed;
 
-    ![Ações](images/ferr-dados.img2.png)
+    ![Actions](images/tables.img2.jpg)
     
-    **Figura 2 - Ações**
+    **Figure 2 - Actions**
     
-    - Clique em "Adicionar Campos na Tabela";
-    - Será inserida uma linha de comando SQL na área de **Console de Scripts SQL** para inserção do campo na tabela;
-    - Informe os dados necessários e clique no botão "Executar";
-    - Será exibido o resultado da execução da adição do campo na tabela, na área de **Resultados scripts SQL**.
+    - Click *Add Fields to Table*;
+    - An SQL command line will be inserted in the **SQL Scripts Console** area to insert the field into the table;
+    - Enter the required data and click the *Run* button;
+    - You will see the result of executing the addition of the field in the table in the **Results area of SQL scripts**.
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/22/2019 – Anna Martins
+    <b>Updated:</b>09/03/2019 – Larissa Lourenço
 

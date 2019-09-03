@@ -1,73 +1,72 @@
-title:  Verificação dos conhecimentos relacionados aos serviços via Smart portal
-Description: Disponibiliza a verificação dos conhecimentos relacionados aos serviços via Smart portal. 
-# Verificação dos conhecimentos relacionados aos serviços via Smart portal
+title: Check knowledge related to services using Smart Portal
+Description: Check knowledge related to services using Smart Portal
 
-Como acessar
---------------
+# Check knowledge related to services using Smart Portal
 
-1. Na tela inicial do **Smart Portal**, clique no botão de menu ![simbolo](images/simb-meno.white.jpg)  e logo em seguida em 
-**Portal**.
+How to access
+-------------
 
-Pré-condições
-----------------
+1.  On the **Smart Portal** home screen, click the menu button ![figure](images/simb-meno.white.jpg),
+and then click on the **Portal**.
 
-1. Ter o portfólio com os serviços e as atividades de requisição/incidente cadastrados e disponibilizados no Smart Portal (ver 
-conhecimento [Cadastro de portfólio de serviços][1]; [Cadastro de serviços][2]; [Cadastro da atividade de serviço][3]);
+Preconditions
+-------------
 
-2. Ter conhecimentos relacionados ao serviço (ver conhecimento [Configuração dos atributos do serviço][4], seção "Vinculando 
-conhecimento ao serviço");
+1.  Have the portfolio with the services and request / incident activities
+    registered and made available in the Smart Portal (see knowledge [Service
+    portfolio registration][1]); [Service registration][2]); [Service
+    activity registration][3]);
 
-3. Ter conhecimentos relacionados à solicitação referente à atividade de requisição/incidente (ver conhecimento 
-[Cadastro da atividade de serviço][5]).
+2.  Have knowledge related to the service (see knowledge [Service attributes
+    configuration][4], section "Linking knowledge to service");
 
-Filtros
------------
+3.  Have knowledge related to the request regarding the request/incident
+    activity (see knowledge [Service activity registration][5]).
 
-1. Não se aplica.
+Filters
+-------
 
-Listagem de itens
--------------------
+1.  No applicable.
 
-1. Não se aplica.
+Items list
+----------
 
-Preenchimento dos campos cadastrais
---------------------------------------
+1.  No applicable.
 
-1. Não se aplica.
+Filling in the registration fields
+----------------------------------
 
-Verificando os conhecimentos relacionados aos serviços
----------------------------------------------------------
+1.  No applicable.
 
-1. Serão apresentados os Catálogos de Serviços;
+Verifying the knowledge related to the services
+-----------------------------------------------
 
-2. Selecione o Catálogo desejado e clique na aba **Conhecimentos**, para verificar os conhecimentos relacionados aos serviços e 
-atividades (requisição/incidente) do catálogo, conforme exemplo ilustrado na figura abaixo:
+1.  The Service Catalogs will be presented;
 
-    ![Conhecimentos](images/ver-conh.img1.jpg)
-    
-    **Figura 1 - Conhecimentos relacionados aos serviços do catálogo**
-    
-3. Para verificar os conhecimentos de um determinado serviço, clique na aba **Serviços**, selecione o serviço desejado e logo após 
-clique na aba **Conhecimentos**;
+2.  Select the desired Catalog and click on the **Knowledge** tab to check the
+    knowledge related to the services and activities (request/incident) of the
+    catalog, as shown in the figure below:
 
-4. Feito isso, serão apresentados os conhecimentos relacionados ao serviço e às atividades (requisição/incidente) do mesmo, conforme
-exemplo ilustrado na figura abaixo:
+   ![figure](images/ver-conh.img1.jpg)
+   
+   **Figure 1 - Knowledge related to catalog services**
 
-![Relacionados](images/ver-conh.img2.jpg)
+3.  To check the knowledge of a particular service, click the **Services** tab,
+    select the service you want and then click on the **Knowledge** tab.
 
-**Figura 2 - Conhecimentos relacionados ao serviço**
+4.  The knowledge related to the service and its activities (request/incident)
+    will be presented, as shown in the figure below:
 
-!!! tip "About"
+![figure](images/ver-conh.img2.jpg)
+
+**Figure 2 - Service-related knowledge**
+
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/07/2019 - Larissa Lourenço
+    <b>Updated:</b>09/03/2019 - Anna Martins
     
-[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
-
-[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/services.html
-
-[3]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/activity.html
-
-[4]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
-
-[5]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/activity.html
+[1]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+[2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/services.html
+[3]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/activity.html
+[4]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
+[5]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/activity.html
