@@ -1,123 +1,121 @@
-title: Cadastro e pesquisa de configuração de modelo de e-mail
-Description: Esta funcionalidade tem por objetivo criar modelos de e-mail para notificações do sistema.
-# Cadastro e pesquisa de configuração de modelo de e-mail
+title: E-mail template configuration registration and search
+Description: This feature is intended to create e-mail templates for system notifications.
+# E-mail template configuration registration and search
 
-Esta funcionalidade tem por objetivo criar modelos de e-mail para notificações do sistema.
+This feature is intended to create e-mail templates for system notifications.
 
-Como acessar
---------------
+How to access
+-----------------
 
-1. Acesse a funcionalidade de modelo de e-mail através da navegação no menu principal **Sistema > Configurações > Modelo de E-mail**.
+1. Access the e-mail template functionality by navigating in the main menu **System > Settings > E-mail Model**.
 
-Pré-condições
+Preconditions
 ---------------
 
-1. Não se aplica.
+1. No applicable.
 
-Filtros
+Filters
 ---------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando
-a localização dos itens desejados:
+1. The following filters enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
     - ID;
-    - Título;
-    - ID do Modelo de E-mail;
-    - Processo de Negócio.
+    - Title;
+    - E-mail Model;
+    - Business Process.
     
-2. Na tela de **Modelo de E-mail**, clique na guia **Pesquisa de Modelo de E-mail**, será apresentada a tela de pesquisa conforme 
-ilustrada na figura abaixo:
+2. In the **E-mail Template** screen, click the **E-mail Template Search** tab, the search screen will be displayed as shown in the 
+figure below:
 
-    ![Pesquisa](images/mod-email.img1.png)
+    ![Search](images/template.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de modelo de e-mail**
+    **Figure 1 - E-mail template search screen**
     
-3. Realize a pesquisa de modelo de e-mail;
+3. Perform e-mail template search;
 
-    - Informe o ID, título, identificador e/ou processo de negócio do modelo de e-mail e clique no botão "Pesquisar". Após isso, 
-    será exibido o registro conforme os dados informados;
+    - Enter the ID, title, identifier and/or business process of the e-mail template and click the *Search* button. After this, the 
+    record will be displayed according to the data entered.
     
-    - Caso deseje listar todos os registros de modelo de e-mail, basta clicar diretamente no botão "Pesquisar".
+    - If you want to list all the e-mail template records, simply click the *Search* button directly.
     
-Listagem de itens
+Items list
 ------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: **ID, Título, ID do Modelo de E-mail** e **Processo de Negócio**.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **ID, Title, E-mail Model ID** and **Business Process**.
 
-    ![Listagem](images/mod-email.img2.png)
+    ![Listing](images/template.img2.jpg)
     
-    **Figura 2 - Tela de listagem de modelo de e-mail**
+    **Figure 2 - E-mail template listing screen**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a aba de cadastro exibindo o conteúdo 
-referente ao registro selecionado;
+2. After searching, select the desired record. Once this is done, it will be directed to the registration tab displaying the 
+contents of the selected record;
 
-3. Para alterar os dados de modelo de e-mail, basta modificar as informações desejadas e clicar no botão "Gravar".
+3. To change your e-mail template data, simply change the information you want and click the *Save* button.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Será apresentada a tela de **Cadastro de Modelo de E-mail**, conforme ilustrada na figura abaixo:
+1. The **E-mail Template Registration** screen will be displayed, as shown in the figure below:
 
-    ![Cadastro](images/mod-email.img3.png)
+    ![Entry](images/template.img3.jpg)
     
-    **Figura 3 - Cadastro de modelo de e-mail**
+    **Figure 3 - E-mail template registration**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill in the fields as directed below:
 
-    - **Título**: informe o título do modelo de e-mail;
-    - **Situação**: informe a situação do modelo de e-mail, marcando uma das opções: ativo ou inativo;
-    - **Texto**: descreva o modelo de e-mail;
-    - **ID do Modelo de E-mail**: informe o identificador do modelo de e-mail;
-    - **Vincular Processo**: informe o processo referente ao modelo de e-mail;
+    - **Title**: enter the title of the e-mail template;
+    - **Situation**: enter the status of the e-mail template by checking one of the options: active or inactive;
+    - **Text**: describe the e-mail template;
+    - **E-mail Template ID**: enter the e-mail template identifier;
+    - **Link Process**: enter the process for the e-mail template;
     
-3. Caso queira adicionar uma imagem ao modelo de e-mail que está sendo criado, proceda da seguinte forma:
+3. If you want to add an image to the e-mail template being created, do the following:
 
-    - Na tela de **Galeria de Imagens**, selecione a categoria na qual foi adicionada a imagem. Feito isso, clique no botão "URL"
-    da imagem para exibição do endereço da imagem;
-    - Copie o endereço da imagem, feche a tela de galeria;
-    - Na tela de **Modelo de E-mail**, no campo **Texto**, clique no ícone ![simbolo](images/simb-img.jpg) para inserção da 
-    imagem;
-    - Será exibida uma tela para informar a URL da imagem que deseja adicionar no modelo de e-mail, conforme ilustrada na figura 
-    abaixo:
+    - On the **Image Gallery** screen, select the category in which the image was added. Once this is done, click the Image URL 
+    button to display the image address;
+    - Copy the image address, close the gallery screen;
+    - On the **E-mail Template** screen, in the **Text** field, click the ![symbol](images/simb-img.jpg) for image insertion;
+    - A screen will appear to enter the URL of the image you want to add in the e-mail template, as shown in the figure below:
     
-    ![Inserção](images/mod-email.img4.png)
+    ![Insertion](images/template.img4.jpg)
     
-    **Figura 4 - Inserção de imagem no modelo de e-mail**
+    **Figure 4 - Insertion of image in e-mail model**
     
-    - No campo **URL**, cole o endereço da imagem, o qual foi copiado da imagem na galeria de imagens. Após isso, será 
-    apresentada a imagem no campo **Visualização**;
-    - Caso seja necessário, informe um texto alternativo para imagem;
-    - Clique em "Ok" para efetuar a operação;
-    - Será inserida a imagem no modelo de e-mail, conforme exemplo ilustrado na figura abaixo:
+    - In the **URL** field, paste the image address, which was copied from the image in the image gallery. After that, the image 
+    will be displayed in the **Preview** field;
+    - If necessary, enter alternative text for image;
+    - Click *OK* to perform the operation;
+    - The image will be inserted in the e-mail template, as shown in the figure below:
     
-    ![Modelo](images/mod-email.img5.png)
+    ![Model](images/template.img5.jpg)
     
-    **Figura 5 - Modelo de e-mail com imagem**
+    **Figure 5 - Image e-mail template**
     
-4. Após definição do modelo de e-mail, clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão 
-gravados automaticamente para uma futura auditoria.
+4. After defining the e-mail template, click the *Save* button to register, where the date, time and user will be saved 
+automatically for a future audit.
 
-Criando um novo modelo de e-mail a partir de HTML
+Creating a new e-mail model from HTML
 ---------------------------------------------------
 
-Caso o modelo de e-mail tenha sido feito em HTML, basta seguir os passos abaixo para transcrevê-lo no campo **Texto**:
+If the e-mail template was made in HTML, simply follow the steps below to transcribe it in the **Text** field:
 
-1. Copie (crtl +C) o conteúdo HTLM;
+1. Copy (ctrl + C) the HTML content;
 
-2. Clique no botão ![simbolo](images/simb-cod.jpg);
+2. Click on the button ![symbol](images/simb-source.jpg);
 
-3. Cole (crtl + V) o conteúdo;
+3. Paste (ctrl + V) the content;
 
-4. Clique novamente no botão ![simbolo](images/simb-cod.jpg);
+4. Click the button ![symbol](images/simb-source.jpg) again;
 
-5. Verifique se o resultado final foi o esperado.
+5. Verify if the final result was as expected.
 
-!!! note "NOTA"
+!!! note "NOTE"
 
-    Todas as demais orientações das seções anteriores são igualmente válidas neste cenário.
+    All the other orientations described on the previous sections are equally valid in this scenario.
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/23/2019 – Larissa Lourenço
+    <b>Updated:</b>09/03/2019 – Larissa Lourenço
