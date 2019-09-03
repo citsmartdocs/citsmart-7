@@ -1,76 +1,74 @@
-title: Campos-chave dos e-mails de solicitação
-Description: Fornecer a relação dos campos chave disponíveis para o cadastro de modelo de e-mail de Solicitação de serviço.
-# Campos-chave dos e-mails de solicitação
+title: Request e-mail key fields
+Description: This document is intended to provide the list of key fields available for the Service Request e-mail.
+# Request e-mail key fields
 
-Este documento tem o objetivo de fornecer a relação dos campos chave disponíveis para o cadastro de modelo de e-mail de Solicitação 
-de Serviço.
+This document is intended to provide the list of key fields available for the Service Request e-mail template registration.
 
-Relação dos Campos Chave
+List of key fields
 ----------------------------
 
-São relacionados abaixo os campos chave disponíveis para inserção no cadastro de modelo de e-mail relacionado à Solicitação
-de Serviço:
+The key fields available for insertion in the e-mail template file related to the Service Request are listed below:
 
-|        Campo-Chave        |                                                           Descrição                                                           |
-|:-------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|
-|      ${ATRASOSLASTR}      |                     Tempo de Atraso do SLA.Informa o tempo de atraso do SLA (Acordo de Nível de Serviço).                     |
-|        ${CONTRATO}        |                Contrato da Solicitação.Informa o nome do contrato referente à solicitação de serviço/incidente.               |
-|     ${DATAHORAINICIO}     | Data e hora de início do registro da solicitação.Informa a data e hora que foi registrado a solicitação de serviço/incidente. |
-|       ${DATAHORAFIM}      |          Data da finalização da Solicitação.Informa a data em que foi finalizada a solicitação de serviço/incidente.          |
-|  ${DATAHORAINICIOSLASTR}  |               Data e hora de início do SLA.Informa a data e hora de início do SLA (Acordo de Nível de Serviço).               |
-|    ${DATAHORALIMITESTR}   |       Prazo limite para atendimento da solicitação.Informa o prazo limite (data e hora) para atendimento da solicitação.      |
-| ${DATAHORASOLICITACAOSTR} |      Data e hora do atendimento da solicitação.Informa a data e hora do atendimento da solicitação de serviço/incidente.      |
-|         ${DEMANDA}        |                          Tipo de Solicitação.Informa o tipo de solicitação (Incidente ou Requisição).                         |
-|        ${DESCRICAO}       |                            Descrição da Solicitação.Informa a descrição da solicitação de serviço.                            |
-|      ${DESCRSITUACAO}     |             Descrição da Situação da Solicitação.Informa a descrição da Situação em que a Solicitação se encontra.            |
-|    ${DETALHAMENTOCAUSA}   |                        Detalhamento da Causa do Incidente.Informa o detalhamento da causa do incidente.                       |
-|      ${EMAILCONTATO}      |                              E-mail do Solicitante para Contato.Informa o e-mail do solicitante.                              |
-|        ${FASEATUAL}       |                           Fase Atual da Solicitação.Informa a fase atual da solicitação de serviço.                           |
-|       ${GRUPOATUAL}       |    Grupo Atual de Atendimento da Solicitação.Informa o grupo atual, responsável pelo atendimento da solicitação de serviço.   |
-|       ${GRUPONIVEL1}      |                    Grupo de Nível 1.Informa o grupo de nível 1 configurado para atendimento da solicitação.                   |
-|  ${IDSOLICITACAOSERVICO}  |                               Número da Solicitação.Informa o número da solicitação de serviço.                               |
-|         ${IMPACTO}        |          Impacto da Solicitação de Serviço / Incidente.Informa a identificação do impacto da solicitação de serviço.          |
-| ${LINKPESQUISASATISFACAO} |        Link para pesquisa de satisfação.Informa o link para fazer a avaliação do atendimento da solicitação de serviço.       |
-| ${LINKSOLICITACAOSERVICO} |             Link para a solicitação de serviço.Informa o link para exibição do registro da solicitação de serviço.            |
-|       ${NOMECONTATO}      |                          Nome do Solicitante para Contato.Informa o nome do solicitante para contato.                         |
-|     ${NOMEGRUPOATUAL}     |                  Retorna a descrição do Nome do grupo em que se encontra atualmente a solicitação de serviço.                  |
-|       ${NOMESERVICO}      |                                     Nome do Serviço.Informa o nome do serviço solicitado.                                     |
-| ${NOMEUNIDADERESPONSAVEL} |                Unidade do Responsável.Informa a unidade do responsável pelo registro da solicitação de serviço.               |
-| ${NOMEUNIDADESOLICITANTE} |                                    Unidade do Solicitante.Informa a unidade do solicitante.                                   |
-|       ${OBSERVACAO}       |                 Observação do Contato do Solicitante.Informa a observação descrita na solicitação de serviço.                 |
-|         ${ORIGEM}         |                               Origem da Solicitação.Informa a origem da solicitação de serviço.                               |
-|       ${PRIORIDADE}       |            Prioridade do Atendimento da Solicitação.Informa a prioridade do atendimento da solicitação de serviço.            |
-|       ${RESPONSAVEL}      |            Responsável pelo Registro da Solicitação.Informa o responsável pelo registro da solicitação de serviço.            |
-|        ${RESPOSTA}        |              Descrição do Fechamento da Solicitação.Informa a descrição do fechamento da solicitação de serviço.              |
-|         ${SERVICO}        |                                Serviço Solicitado.Informa o nome do serviço que foi solicitado.                               |
-|        ${SITUACAO}        |                    Situação da Solicitação;Informa a situação em que a solicitação de serviço se encontra.                    |
-|      ${SLAACOMBINAR}      |                                        SLA “A Combinar”.Informa se o SLA é a combinar.                                        |
-|       ${SOLICITANTE}      |                                       Nome do Solicitante.Informa o nome do solicitante.                                      |
-|   ${SOLICITANTEUNIDADE}   |               Nome do Solicitante e Unidade.Informa o nome do solicitante e a unidade em que o mesmo é alocado.               |
-|     ${TELEFONECONTATO}    |                 Telefone do Solicitante para Contato.Informa o número de telefone do solicitante para contato.                |
-|        ${URGENCIA}        |                     Urgência da Solicitação.Informa a identificação da urgência da solicitação de serviço.                    |
+| Key Field                 | Description                                                                                                         |
+|---------------------------|---------------------------------------------------------------------------------------------------------------------|
+| ${ATRASOSLASTR}           | SLA Delay Time.Reports the SLA (Service Level Agreement) delay time.                                                |
+| ${CONTRATO}               | Contract of the Request.Informs the name of the contract regarding the service/incident request.                    |
+| ${DATAHORAINICIO}         | Start date and time of request record.Informs the date and time the service/incident request was recorded.          |
+| ${DATAHORAFIM}            | End date of the Request.Informs the date the service/incident request was completed.                                |
+| ${DATAHORAINICIOSLASTR}   | SLA start date and time.Informs the start date and time of SLA (Service Level Agreement).                           |
+| ${DATAHORALIMITESTR}      | Deadline for request.Informs the deadline (date and time) to attend the request.                                    |
+| ${DATAHORASOLICITACAOSTR} | Date and time of request.Informs the date and time of service of the service/incident request.                      |
+| ${DEMANDA}                | Type of Request.Informs the type of request (Incident or Request).                                                  |
+| ${DESCRICAO}              | Description of the Request.Informs the description of the service request.                                          |
+| ${DESCRSITUACAO}          | Description of the Request Status.It informs the description of the Situation in which the Request is.              |
+| ${DETALHAMENTOCAUSA}      | Detail of the Cause of the Incident.Informs the details of the cause of the incident.                               |
+| ${EMAILCONTATO}           | Applicant's E-mail for Contact.Inform the e-mail of the applicant.                                                  |
+| ${FASEATUAL}              | Current Phase of the Request.Reports the current phase of the service request.                                      |
+| ${GRUPOATUAL}             | Current Attendance Group.Informs the current group, responsible for the service request.                            |
+| ${GRUPONIVEL1}            | Level 1 Group.Informs the Level 1 group configured to fulfill the request.                                          |
+| ${IDSOLICITACAOSERVICO}   | Request Number.Informs the service request number.                                                                  |
+| ${IMPACTO}                | Impact of Service Request/Incident.Informs the identification of the impact of the service request.                 |
+| ${LINKPESQUISASATISFACAO} | Link to satisfaction survey.Informs the link to evaluate the service request.                                       |
+| ${LINKSOLICITACAOSERVICO} | Link to the service request.Reports the link to view the service request record.                                    |
+| ${NOMECONTATO}            | Name of Applicant for Contact.Please provide the name of the requestor for contact.                                 |
+| ${NOMEGRUPOATUAL}         | Returns the description of the Group Name in whichthe service request is currently located.                         |
+| ${NOMESERVICO}            | Service Name.Informs the name of the requested service.                                                             |
+| ${NOMEUNIDADERESPONSAVEL} | Responsible Unit.Informs the unit of the person responsible for registering the service request.                    |
+| ${NOMEUNIDADESOLICITANTE} | Applicant's Unit.Informs the applicant's unit.                                                                      |
+| ${OBSERVACAO}             | Applicant Contact Notice.Informs the notice described in the service request.                                       |
+| ${ORIGEM}                 | Origin of the Request.Informs the source of the service request.                                                    |
+| ${PRIORIDADE}             | Priority of the Request of the Request.Informs the priority of service request fulfillment.                         |
+| ${RESPONSAVEL}            | Responsible for the Registration of the Request.Informs the person responsible for registering the service request. |
+| ${RESPOSTA}               | Description of the Closing of the Request.Informs the description of the closing of the service request.            |
+| ${SERVICO}                | Service Requested.Enter the name of the service you requested.                                                      |
+| ${SITUACAO}               | Status of the Request;Informs the situation where the service request is.                                           |
+| ${SLAACOMBINAR}           | SLA "To Combine".Informs if the SLA is to match.                                                                    |
+| ${SOLICITANTE}            | Name of Applicant.Please state the name of the applicant.                                                           |
+| ${SOLICITANTEUNIDADE}     | Name of Applicant and Unit.It informs the name of the applicant and the unit in which it is allocated.              |
+| ${TELEFONECONTATO}        | Applicant's Telephone for Contact.Please provide the contact's telephone number for contact.                        |
+| ${URGENCIA}               | Urgency of the Request.Informs the identification of the urgency of the service request.                            |
 
-**Tabela 1 - Lista de campos chave**
+**Table 1 - List of Key Fields**
 
-Utilização dos campos chaves
+Use of key fields
 ------------------------------
 
-Segue abaixo os exemplos de utilização dos campos chave disponíveis para inserção no cadastro de modelo de e-mail relacionado à 
-Solicitação de Serviço.
+The following is an example of using the key fields available for insertion into the e-mail template associated with the Service 
+Request.
 
-![Exemplo](Images/key-sol.img1.png)
+![Example](Images/request.img1.jpg)
 
-**Figura 1 - Exemplo da inserção dos campos chave no modelo de e-mail**
+**Figure 1 - Example of insertion of key fields in the e-mail model**
 
-![Exemplo](Images/key-sol.img2.png)
+![Example](Images/request.img2.jpg)
 
-**Figura 2 - Exemplo do resultado de envio do modelo de e-mail**
+**Figure 2 - Example of the sending result of the e-mail template**
 
-![Exemplo](Images/key-sol.img3.png)
+![Example](Images/request.img3.jpg)
 
-**Figura 3 - Exemplo de campos chave preenchidos**
+**Figure 3 - Example of key fields filled in**
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/23/2019 – Larissa Lourenço
+    <b>Updated:</b>09/03/2019 – Larissa Lourenço
