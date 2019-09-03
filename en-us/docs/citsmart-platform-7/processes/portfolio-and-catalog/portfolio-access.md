@@ -101,4 +101,3 @@ Filling in the registration fields
     <b>Updated:</b>09/03/2019 - Anna Martins
 
 [1]: /en-us/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
-
