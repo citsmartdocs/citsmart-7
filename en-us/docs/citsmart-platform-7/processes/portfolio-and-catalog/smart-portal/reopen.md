@@ -65,7 +65,7 @@ Reopening the service request
 -----------------------------
 
 1.  Find the (closed) service request you want to reopen, click on the service
-    request , and confirm the reopening. Once this is done, the request will be
+    request ![figure](images/simb-atual.jpg), and confirm the reopening. Once this is done, the request will be
     reopened to allow a new service to be performed.
 
 
