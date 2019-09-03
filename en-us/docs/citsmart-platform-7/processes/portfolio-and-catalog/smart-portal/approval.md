@@ -82,10 +82,7 @@ Service request approval
     justification and complement the justification.
 
 3.  After recording the information about the approval of the request, click the
-    radio button (images/simb-3dots.jpg) and then click the button (images/simb-go.jpg) to save and advance the flow. Once
-    the request has been approved, it will be sent to the execution phase, that
-    is, to attend the request. But, if the request is not approved, it will be
-    closed.
+    radio button ![figure](images/simb-3dots.jpg) and then click the button ![figure](images/simb-go.jpg) to save and advance the     flow. Once the request has been approved, it will be sent to the execution phase, that is, to attend the request. But, if the     request is not approved, it will be closed.
 
 !!! tip "About"
 
