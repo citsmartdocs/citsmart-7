@@ -1,168 +1,170 @@
-title: Cadastro e pesquisa de caixa de e-mail
-Description:Configurar o envio e o recebimento de e-mail a partir de diferentes servidores com vistas a atender contratos distintos.
-# Cadastro e pesquisa de caixa de e-mail
+title: E-mail box registration and search
+Description: This feature is designed to configure the sending and receiving of e-mail from different servers for each contract
+# E-mail box registration and search
 
-Esta funcionalidade tem por objetivo configurar o envio e recebimento de e-mail de servidores diferentes para cada contrato, assim 
-um mesmo CITSmart poderá atender vários clientes diferentes e cada um com a sua própria caixa de e-mail.
+This feature is designed to configure the sending and receiving of e-mail from different servers for each contract, so a same 
+CITSmart can serve several different clients and each with its own e-mail box.
 
-Como acessar
---------------
+How to access
+-----------------
 
-1. Acesse a funcionalidade através da navegação no menu principal **Parametrização > Caixa de e-mail**.
+1. Access the feature by navigating the main menu **Parameterization > E-mail box**.
 
-Pré-condições
+Preconditions
 ---------------
 
-1. Não se aplica.
+1. No applicable.
 
-Filtros
+Filters
 ---------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a 
-localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Servidor.
+    - Server.
     
-    ![Pesquisa](images/caix-email.img1.jpg)
+    ![Search](images/box.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de caixa de e-mail**
+    **Figure 1 - E-mail box search screen**
     
-Listagem de itens
+Items list
 ------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem padrão
-da funcionalidade: **ID** e **Servidor**.
+1. The following cadastral fields are available to the user to make it easier to identify the desired items in the default listing 
+of the functionality: **ID** and **Server**.
 
-    ![Listagem](images/caix-email.img2.jpg)
+    ![Listing](images/box.img2.jpg)
     
-    **Figura 2 - Tela de listagem de caixa de e-mail**
+    **Figure 2 - E-mail box listing screen**
     
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Editar" e "Excluir".
+2. There are action buttons available to the user for each item in the listing, they are: *Edit* and *Delete*.
 
-Preenchimento dos campos cadastrais
+Filling in the ragistration fields
 -------------------------------------
 
-1. Clique no botão "Novo". Será apresentada tela de cadastro de caixa de e-mail, conforme figura abaixo:
+1. Click the *New* button. An e-mail box registration screen will be displayed, as shown below:
 
-    ![Cadastro](images/caix-email.img3.jpg)
+    ![Entry](images/box.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de caixa de e-mail**
+    **Figure 3 - E-mail box registration screen**
     
-2. Preencha os campos, conforme orientação abaixo:
+2. Fill in the fields, as indicated below:
 
-    - **Descrição**: descrição da Caixa de e-mail - A caixa de e-mail pode ser de Entrada ou de Saída, por isso a descrição é
-    necessária em ambos os tipos;
-    - **Tipo**:
-        - **Entrada**: ao escolher essa opção, significa que o usuário irá parametrizar uma rota por onde os e-mails que precisam
-        ser lidos pelo sistema chegarão (por isso chamado caixa de entrada). Serão abertos novos campos cadastrais ao escolher 
-        essa opção, são eles:
+    - **Description**: e-mail box Description - the e-mail box can be either Inbox or Outbox, so the description is required on 
+    both types;
+    - **Type**:
+        - **Inbox**: choosing this option means that the user will parameterize a route where the e-mails that need to be read by 
+        the system will arrive (hence called inbox). New registration fields will be opened when choosing this option, they are:
         
-    ![Cadastro](images/caix-email.img4.jpg)
+    ![Reister](images/box.img4.jpg)
     
-    **Figura 4 - Tela de cadastro de caixa de e-mail tipo entrada**
+    **Figure 4 - Input type e-mail box register screen**
     
-    - **Servidor**: nome do servidor de e-mail;
-    - **Porta do servidor**: é o canal por onde o servidor enviará as informações (ex: 25);
-    - **Usuário**: nome ou login do usuário para autenticação no servidor de e-mail;
-    - **Senha**: identificação única para entrada do servidor de e-mail;
-    - **Provider**: tipo de provedor de e-mail;
-    - **Pasta da caixa de entrada**: descrever o nome da caixa de entrada. Exemplificado na figura abaixo:
+    - **Server**: name of the mail server;
+    - **Server port**: is the channel where the server will send the information (e.g.: 25);
+    - **User**: name or user login for authentication on the mail server;
+    - **Password**: unique identification for incoming mail server;
+    - **Provider**: type of e-mail provider;
+    - **Inbox folder**: describe the name of the inbox. Exemplified in the figure below:
     
-    ![Exemplo](images/caix-email.img5.jpg)
+    ![Example](images/box.img5.jpg)
     
-    **Figura 5 - Exemplo de caixa de e-mail**
+    **Figure 5 - Example of an e-mail box**
     
-    - **Saída**: ao escolher essa opção, significa que o usuário irá parametrizar uma rota por onde os e-mails que precisam 
-    ser enviados a partir do sistema sairão (por isso chamado de caixa de saída). Serão abertos novos campos cadastrais ao 
-    escolher essa opção, são eles:
+    - **Outbox**: by choosing this option, it means that the user will parameterize a route where the e-mails that need to be sent 
+    from the system will exit (hence called the outbox). New registration fields will be opened when choosing this option, they 
+    are:
         
-    ![Cadastro](images/caix-email.img6.jpg)
+    ![Entry](images/box.img6.jpg)
     
-    **Figura 6 - Tela de cadastro de caixa de e-mail de saída**
+    **Figure 6 - Outgoing e-mail box register screen**
     
-    - **Requer autenticação TLS/SSL?**
-        - Os certificados SSL (Secure Sockets Layer) fazem parte da segurança de sites. Ao acessar um site com SSL, o certificado
-        SSL do site permite que você criptografe os dados que envia.
-        - O Transport Layer Security (TLS), assim como o seu antecessor Secure Sockets Layer (SSL), é um protocolo de segurança
-        que protege as telecomunicações via internet para serviços como e-mail (SMTP), navegação por páginas (HTTPS) e outros 
-        tipos de transferência de dados.
-    - **Requer autenticação de usuário?**
-        - Sim - ao marcar Sim, significa que o ISP identificará o remetente do e-mail. Nesse caso será necessário informar os 
-        campos usuário e senha;
-        - Não - ao marcar Não, significa que o ISP poderá não identificar o remetente do e-mail. Nesse caso não será necessário 
-        informar os campos usuário e senha;
-    - **Servidor**: endereço do servidor (ex: 127.0.0.1);
-    - **Porta do servidor**: é o canal por onde o servidor enviará as informações (ex: 25);
-    - **Usuário**: nome ou login do usuário para autenticação no servidor de e-mail;
-    - **Senha**: identificação única para entrada do servidor de e-mail;
-    - **Remetente**: endereço de e-mail que será usado como remetente, poderá ser cadastrado mais de um e-mail.
+    - **Requires TLS/SSL authentication?**
+        - Secure Sockets Layer (SSL) certificates are part of site security. When you access a site with SSL, the site's SSL 
+        certificate allows you to encrypt the data you send.
+        - Transport Layer Security (TLS), as well as its predecessor Secure Sockets Layer (SSL), is a security protocol that 
+        protects telecommunications over the Internet for services such as e-mail (SMTP), page navigation (HTTPS), and other types 
+        of data transfer.
+    - **Requires user authentication?**
+        - Yes - Checking Yes means that the ISP will identify the sender of the e-mail. In this case you will need to enter the 
+        user and password fields;
+        - No - Checking No means that your ISP may not identify the sender of the e-mail. In this case it will not be necessary to 
+        enter the user and password fields;
+    - **Server**: server address (e.g 127.0.0.1);
+    - **Server port**: is the channel where the server will send the information (e.g: 25);
+    - **User**: name or user login for authentication on the mail server;
+    - **Password**: unique identification for incoming mail server;
+    - **Sender**: e-mail address that will be used as sender, more than one e-mail can be registered.
     
-3. Feito isso o próximo passo será identificar em quais contratos serão usados a informação de caixa de e-mail, para isso o
-usuário deverá acessar a tela de Cadastro de Contrato.
+3. Once this is done, the next step will be to identify in which contracts will be used the e-mail box information, for this the 
+user must access the Contract Register screen.
 
-Vinculando caixa de e-mail ao contrato
+Linking e-mail box to contract
 -----------------------------------------
 
-1. Acesse a funcionalidade através da navegação no menu principal 
-**Processos ITIL > Gerência de Portfólio e Catálogo > Cadastro de Contratos** (ver conhecimento Cadastro e pesquisa de contrato);
+1. Access the functionality through navigation in the main menu 
+**ITIL Processes > Portfolio and Catalog Management > Contract Registration**. (see knowledge [Contract registration and search][1]);
 
-2. Localize o contrato (novo ou já existente) que deseja vincular a caixa de e-mail cadastrada e selecione-o;
+2. Locate the contract (new or preexisting) that you want to link to the registered e-mail box and select it;
 
-3. No campo "Caixa de saída de e-mail", o usuário poderá selecionar as opções:
+3. In the E-mail Outbox field, the user can select the following options:
 
-    - **Padrão** (já parametrizado) (ver conhecimento Regras de parametrização - E-mail );
-    - **Outras caixas de e-mail parametrizadas como saída** (ver seção anterior) - utilizado nos casos em que o usuário tiver
-    mais de uma caixa de saída por contrato, o sistema utilizará o servidor e informações cadastradas na tela 
-    **Parametrização > Caixa de E-mail**;
+    - **Standard** (already parameterized) - (see knowledge [Parameterization rules - E-mail][2]);
+    - **Other e-mail boxes parameterized as outbox** (see previous section) - Used in cases where the user has more than one outbox 
+    per contract, the system will use the server and registered information in the screen **Parameterization > E-mail box**;
     
-    ![Vínculo](images/caix-email.img7.jpg)
+    ![Link](images/box.img7.jpg)
     
-    **Figura 7 - Tela de vínculo de caixa de e-mail ao contrato**
+    **Figure 7 - E-mail box link to the contract screen**
     
-4. Feito isso o usuário poderá identificar diferentes caixas de e-mail de saída que será utilizada no fluxo de trabalho que são 
-carregados durante as solicitações de serviços.
+4. Once this is done, the user can identify different outgoing e-mail boxes that will be used in the workflow that are loaded 
+during service requests.
 
-Vinculando caixa de e-mail a um fluxo
+Linking e-mail box to a flow
 ----------------------------------------
 
-!!! note "NOTA"
+!!! note "NOTE"
 
-    Esse passo não é obrigatório. Essa funcionalidade somente será necessária se durante o cadastrar de fluxo o usuário sentir 
-    necessidade de direcionar o e-mail para uma caixa de saída diferente da padrão. O e-mail de saída padrão do sistema 
-    continuará funcionando, mesmo que essa parametrização não seja feita.
+    This step is not required. This functionality is only necessary if during the flow register the user feels the need to direct 
+    the e-mail to an output box other than the default one. The system's default outgoing e-mail will continue to work, even if you 
+    do not configure this setting.
     
-1. Acesse a funcionalidade através da navegação no menu principal **Sistema > Manutenção de fluxos** (ver conhecimento
-Aprovação de solicitação via e-mail);
+1. Access the functionality through navigation in the main menu **System > Flow maintenance** (see knowledge [Request approval via e-mail][3]);
 
-2. Ao cadastrar um novo fluxo:
+2. When registering a *New* flow:
 
-    ![Fluxo](images/caix-email.img8.jpg)
+    ![Flow](images/box.img8.jpg)
     
-    **Figura 8 - Tela de novo fluxo**
+    **Figure 8 - New flow screen**
     
-3. Ao editar um fluxo existente, localize a figura ![simbolo](images/simb-enve.jpg) no fluxo, clique para editar e as seguintes
-telas serão apresentadas:
+3. When editing an existing flow, locate the ![symbol](images/simb-box.jpg) on the flow, click to edit and the following screens 
+will be displayed:
 
-    ![Configuração](images/caix-email.img9.jpg)
+    ![Configuration](images/box.img9.jpg)
     
-    **Figura 9 - Tela de configuração de caixa de saída de e-mail**
+    **Figure 9 - E-mail outbox configuration screen**
     
-    - Na opção Configuração da caixa de saída de e-mail, selecione a opção "Contrato" para utilizar a caixa de e-mail configurada
-    no contrato;
+    - In the E-mail Outbox Setup option, select the *Contract* option to use the e-mail box configured in the contract;
     
-    ![Caixa](images/caix-email.img10.jpg)
+    ![Box](images/box.img10.jpg)
     
-    **Figura 10 - Tela de configuração de caixa de saída de e-mail**
+    **Figure 10 - E-mail outbox setup screen**
     
-    - Na opção Configuração da caixa de saída de e-mail a opção "Específica", o sistema abre o campo 'Caixa de saída de e-mail' 
-    com as caixas de saída cadastradas.
+    - In the E-mail Outbox Setup option, select the *Specific* option, this way the system opens the 'E-mail Outbox' field with the 
+    registered outboxes;
     
-4. Conclua a parametrização do fluxo incluindo os "Destinatários" selecionados;
+4. Complete the flow parameterization, including the selected *Recipients*;
 
-5. O uso de diferentes caixas de e-mail de saída poderá ser percebida após aberta uma solicitação de serviço, que possui 
-parametrizado o fluxo que possui a Caixa de e-mail selecionada.
+5. The use of different outgoing e-mail boxes can be noticed after a service request is opened, which has parameterized the flow 
+that has the selected e-mail box.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/23/2019 – Larissa Lourenço
+    <b>Updated:</b>09/03/2019 – Larissa Lourenço
+
+[1]:/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+
+[2]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-email.html
+
+[3]:/en-us/citsmart-platform-7/processes/tickets/approve-request.html
