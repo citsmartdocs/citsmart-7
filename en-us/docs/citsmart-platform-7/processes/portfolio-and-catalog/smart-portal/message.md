@@ -10,7 +10,7 @@ Preconditions
 -------------
 
 1.  Enter the content below into the parameters (see knowledge [Parameterization
-    rules - ticket][1]));
+    rules - ticket][1]);
 
 -   Parameter 299: must be set to 'Yes' ;
 
@@ -151,4 +151,3 @@ Exchanging message - attendant
 [1]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrizaion-ticket.html
 [2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/smart-portal/service-request.html
 [3]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html
-
