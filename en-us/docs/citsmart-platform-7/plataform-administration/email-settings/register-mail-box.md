@@ -162,3 +162,9 @@ that has the selected e-mail box.
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
     <b>Updated:</b>09/03/2019 – Larissa Lourenço
+
+[1]:/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+
+[2]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-email.html
+
+[3]:/en-us/citsmart-platform-7/processes/tickets/approve-request.html
