@@ -1,38 +1,37 @@
-title: Carga do portfólio de serviços
-Description: O objetivo desta funcionalidade é otimizar a criação de vários serviços e consequentemente de suas atividades.
-# Carga do portfólio de serviços
+title: Service portfolio import
+Description: The purpose of this functionality is to optimize the creation of various services and consequently their activities.
+# Service portfolio import
 
-O objetivo desta funcionalidade é otimizar a criação de vários serviços e consequentemente de suas atividades dentro de um ou 
-mais portfólios de serviços.
+The purpose of this functionality is to optimize the creation of various services and consequently their activities within one or 
+more service portfolios.
 
-Como acessar
---------------
+How to access
+-----------------
 
-1. Acesse a funcionalidade de carga do portfólio de serviços através da navegação no menu principal 
-**Sistema > Importação e Carga de Dados > Carga do Portfólio de Serviços**.
+1. Access the service portfolio loading functionality by navigating the main menu 
+**System > Import and Data Upload > Service Portfolio Upload**.
 
-Pré-condições
+Preconditions
 ----------------
 
-1. Cadastrar tipo de serviço (ver conhecimento [Cadastro e pesquisa de tipo de serviço](/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/type-service.html));
+1. Create the type of service (see knowledge [Service Type registration and search](/en-us/citsmart-platform-7/processes/portfolio-and-catalog/type-service.html));
 
-2. Cadastrar a categoria de serviço (ver conhecimento [Cadastro e pesquisa de categoria de serviço](/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/service-category.html)).
+2. Create the category service (see knowledge Service [Category registration and search](/en-us/citsmart-platform-7/processes/portfolio-and-catalog/service-category.html)).
 
 Filtros
 ---------
 
-1. Não se aplica.
+1. Not applicable.
 
-Listagem de itens
+Items list
 -------------------
 
-1. Não se aplica.
+1. Not applicable.
 
-Cadastrando modelo de planilha para importação - Preenchimento dos campos cadastrais
+Registering spreadsheet template for import - filling in the registration fields
 ---------------------------------------------------------------------------------------
 
-1. Após isso, será apresentada a tela de **Carga do Portfólio de Serviços** para registro de modelo de planilha para importação, 
-conforme ilustrada na figura abaixo:
+1. The Service Port Loading screen will appear for spreadsheet template registration for import, as shown in the figure below:
 
     ![Cadastro](images/car-port.img1.png)
     
