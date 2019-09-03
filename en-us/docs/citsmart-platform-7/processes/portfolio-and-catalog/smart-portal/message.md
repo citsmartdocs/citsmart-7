@@ -1,9 +1,7 @@
 title: Message communication within a ticket by Smart Portal
+Description: This functionality aims the exchange of messages between the Requester (Sender) and the Recipient (Receiver) within the service request.
 
-Description: This functionality aims the exchange of messages between the
-Requester (Sender) and the Recipient (Receiver) within the service request.
-
-\# Message communication within a ticket by Smart Portal
+# Message communication within a ticket by Smart Portal
 
 This functionality aims the exchange of messages between the Requester (Sender)
 and the Recipient (Receiver) within the service request.
@@ -18,21 +16,21 @@ Preconditions
 
 -   Parameter 300: must be set to 'Yes' .
 
-1.  There is at least one service request open by the Service Portal (see
+2.  There is at least one service request open by the Service Portal (see
     knowledge [Service request registration using Smart Portal][2]);
 
-2.  Have permission to execute service request (see knowledge [Group
+3.  Have permission to execute service request (see knowledge [Group
     registration and search][3]);
 
-3.  To have a message exchange, the request must be captured by the attendant.
+4.  To have a message exchange, the request must be captured by the attendant.
 
 Exchanging message - applicant
 ------------------------------
 
 ### How to access
 
-1.  On the **Smart Portal** home screen, click the menu button ![simbolo](images/simb-meno.white.jpg) and then click
-    on **My Requests**, locate the request you want, and then click on ![simbolo](images/simb-mens.jpg) it's
+1.  On the **Smart Portal** home screen, click the menu button ![figure](images/simb-meno.white.jpg) and then click
+    on **My Requests**, locate the request you want, and then click on ![figure](images/simb-mens.jpg) it's
     icon.
 
 ### Filters
