@@ -1,93 +1,93 @@
-title: Manual de configuração de conexões externas de banco de dados
-Description: Finalidade: Permitir a criação de conexões com outros bancos de dados seja ele interno ou externo.
-# Manual de configuração de conexões externas de banco de dados
+title: External database connections setup guide
+Description: The purpose of this functionality is to allow the creation of connections to other (internal or external) databases.
+# External database connections setup guide
 
-Finalidade: Permitir a criação de conexões com outros bancos de dados seja ele interno ou externo.
+The purpose of this functionality is to allow the creation of connections to other (internal or external) databases.
 
-Como acessar
---------------
+How to access
+-----------------
 
-1. Acesse a funcionalidade de conexão externa através da navegação no menu principal **Sistema > Conexões Externas**.
+1. Access the external connection functionality through navigation in the main menu **System > External Connections**.
 
-Pré-condições
+Preconditions
 ----------------
 
-1. Não se aplica.
+1. Not applicable.
 
-Filtros
+Filters
 ----------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a 
-localização dos itens desejados:
+1. The following filter enable the user to restrict the participation of items in the standard feature listing, making it easier to 
+locate the desired items as shown in the figure below:
 
-    - Nome.
+    - Name.
     
-2. Na tela de **Conexões Externas**, clique na guia **Pesquisa de Conexão**, será apresentada a tela de pesquisa conforme ilustrada
-na figura abaixo:
+2. On the External Connections screen, click the Connection Search tab, the search screen will be displayed as shown in the figure 
+below:
 
-    ![Pesquisa](images/cone-ext.img1.png)
+    ![Search](images/external.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de conexão externa**
+    **Figure 1 - External connection search screen**
     
-3. Realize a pesquisa de conexão externa;
+3. Perform the external connection search;
 
-4. Informe o nome da conexão externa que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o registro
-conforme o nome informado. Caso deseje listar todos os registros de conexões externas, basta clicar diretamente no botão "Pesquisar".
+4. Enter the name of the external connection you want to search and click the *Search* button. After this, the record will be 
+displayed according to the name entered. If you want to list all external connection records, simply click the *Search* button 
+directly;
 
-Listagem de itens
+Items list
 -------------------
 
-1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens desejados na listagem padrão da 
-funcionalidade: **Nome**.
+1. The following cadastral field is available to the user to make it easier to identify the desired items in the standard feature 
+listing: **Name**.
 
-    ![Listagem](images/cone-ext.img2.png)
+    ![Listing](images/external.img2.jpg)
     
-    **Figura 2 - Tela de listagem de conexão externa**
+    **Figure 2 - External connection listing screen**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a aba de cadastro exibindo o conteúdo 
-referente ao registro selecionado;
+2. After searching, select the desired record. Once this is done, it will be directed to the registration tab displaying the 
+contents of the selected record;
 
-3. Para alterar os dados do registro da conexão externa, basta modificar as informações desejadas e clicar no botão "Gravar".
+3. To change the external connection registration data, simply modify the desired information and click the *Save* button.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Será apresentada a tela **Conexões Externas**, para realização do cadastro de conexão externa, conforme ilustrada na figura 
-abaixo:
+1. The **External Connections** screen will be displayed, to perform the external connection register, as shown in the figure 
+below:
 
-    ![Cadastro](images/cone-ext.img3.png)
+    ![Entry](images/external.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de conexões externas**
+    **Figure 3 - External connections registration screen**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill in the fields as directed below:
 
-    - **Nome**: informe a nome da conexão;
-    - **Tipo**: selecione o tipo de conexão:
+    - **Name**: enter the name of the connection;
+    - **Type**: select the connection type:
         - JDBC;
-    - **Banco**: informe o nome do banco de dados;
-    - **URL**: informe a URL do banco de dados;
-    - **Driver**: informe o driver do banco de dados:
+    - **Database**: enter the name of the database;
+    - **URL**: report to database link;
+    - **Driver**: enter the driver:
         - MySQL;
         - Oracle;
         - MS-SQLServer;
         - PostgreSQL.
-    - **Schema**: informe o esquema do banco de dados;
-    - **Usuário**: informe o usuário para login no banco de dados;
-    - **Senha**: informe a senha para login no banco de dados.
+    - **Schema**: enter the database schema;
+    - **User**: inform the database login user;
+    - **Password**: enter the database login password;
     
-3. Após o preenchimento dos campos, clique no botão "Teste Conexão" para verificar se a conexão foi estabelecida com sucesso;
+3. After completing the fields, click the *Connection Test* button to verify that the connection is established successfully;
 
-4. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão armazenados automaticamente para uma 
-futura auditoria.
+4. Click the *Save* button to register, where the date, time and user will be stored automatically for a future audit.
 
-    !!! note "NOTA"
+    !!! note "NOTE"
     
-        É  apresentado a seguinte mensagem caso os dados do campo Url, Usuário e Senha não forem válidos: "Dados incorretos e/ou 
-        Banco inacessível! Deseja salvar assim mesmo?".
+        The following message is displayed if the data in the Url, User and Password field are not valid: "Incorrect data and/or 
+        database inaccessible! Do you want to save anyway?".
         
-5. Será exibida uma mensagem confirmando o sucesso do registro da conexão externa.
+5. A message confirming the successful registration of the external connection will be displayed.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/22/2019 - Larissa Lourenço
+    <b>Updated:</b>09/03/2019 - Larissa Lourenço

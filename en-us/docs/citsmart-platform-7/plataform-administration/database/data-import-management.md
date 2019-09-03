@@ -1,91 +1,89 @@
-title: Gerência de importação (execução)
-Description: Gerência de importação (execução)
-# Gerência de importação (execução)
+title: Import Management (execution)
+Description: Import Management (execution)
+# Import Management (execution)
 
-Como acessar
---------------
-
-1. Acesse a funcionalidade de gerência de importação através da navegação no menu principal **Sistema > Gerência de Importação**.
-
-Pré-condições
+How to access
 ----------------
 
-1. Não se aplica.
+1. Access the import management functionality through navigation in the main menu **System > Import Management**.
 
-Filtros
+Preconditions
+----------------
+
+1. Not applicable.
+
+Filters
 ---------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando
-a localização dos itens desejados:
+1. The following filters enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Nome;
-    - Tabela Origem;
-    - Tabela Destino.
+    - Name;
+    - Origin Table;
+    - Destination table.
     
-2. Na tela de **Gerência de Importação**, clique na guia **Pesquisa**, será apresentada a tela de pesquisa conforme ilustrada na 
-figura abaixo:
+2. The screen for **Import Management** will be displayed, as shown in the figure below:
 
-    ![Pesquisa](images/ger-imp.img1.png)
+    ![Search](images/management.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de importação**
+    **Figure 1 - Import management**
     
-3. Realize a pesquisa de importação;
+3. Perform import search;
 
-    - Informe o nome, tabela origem e/ou tabela destino da importação e clique no botão "Pesquisar". Após isso, será exibido o 
-    registro conforme os dados informados;
+    - Enter the name, source table, and/or import target table and click the *Search* button. After this, the record will be 
+    displayed according to the data entered;
     
-    - Caso deseje listar todos os registros de importação, basta clicar diretamente no botão "Pesquisar".
+    - If you want to list all import records, simply click the *Search* button directly.
     
-Listagem de itens
+Items list
 --------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: **Nome, Tabela Origem** e **Tabela Destino**.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **Name, Origin Table** and **Destination table**.
 
-    ![Listagem](images/ger-imp.img2.png)
+    ![Listing](images/management.img2.jpg)
     
-    **Figura 2 - Tela de listagem de importação**
+    **Figure 2 - Import listing screen**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a aba de cadastro exibindo o conteúdo 
-referente ao registro selecionado;
+2. After the search, select the desired record. Once this is done, it will be directed to the registration tab displaying the 
+contents of the selected record;
 
-3. Para alterar os dados da importação, basta modificar as informações desejadas e clicar no botão "Gravar".
+3. To change the import data, simply modify the desired information and click the *Save* button;
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Será apresentada a tela para **Gerência de Importação**, conforme ilustrada na figura abaixo:
+1. The **Import Management** screen will be displayed, as shown in the figure below:
 
-    ![Gerência](images/ger-imp.img3.png)
+    ![Management](images/management.img3.jpg)
     
-    **Figura 3 - Gerência de importação**
+    **Figure 3 - Import management**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill in the fields as directed below:
 
-    - **Tipo**: selecione o tipo de importação.
+    - **Type**: select the type of import;
     
-3. Informe os dados de Origem da Importação:
+3. Enter the Import Source data:
 
-    - **Conexão**: selecione a conexão;
-    - **Tabela**: selecione a tabela.
+    - **Connection**: select the connection;
+    - **Table**: select the table;
     
-4. Informe os dados de Destino da Importação:
+4. Enter Import Destination data:
 
-    - **Tabela**: selecione a tabela;
-    - **Nome**: informe o nome da importação.
+    - **Table**: select the table;
+    - **Name**: enter the name of the import;
     
-5. Informe os dados para Importação:
+5. Enter the data for Import:
 
-    - Clique em **append**;
-    - Será listado uns campos abaixo para preenchimento;
-    - Informe a **origem, destino** e **script de conversão** para importação.
+    - Click **append**;
+    - Will be listed some fields below to fill;
+    - Enter **source, destination**, and **conversion** script for import;
     
-6. Clique no botão "Executar" para execução da importação de dados;
+6. Click the *Execute* button to run the data import;
 
-7. Clique no botão "Gravar" para efetuar o registro, neste caso a data, hora e usuário serão armazenados automaticamente para uma 
-futura auditoria.
+7. Click on the *Save* button to register, in this case the date, time and user will be stored automatically for a future audit.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/22/2019 – Larissa Lourenço
+    <b>Updated:</b>03/09/2019 – Larissa Lourenço

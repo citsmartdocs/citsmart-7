@@ -1,131 +1,146 @@
-title:  Cadastro de solicitação de serviço via Smart Portal
-Description: Disponibiliza o cadastro de solicitações via Smart Portal. 
-# Cadastro de solicitação de serviço via Smart Portal
+title: Service request registration using Smart Portal
+Description: Service request registration using Smart Portal
 
-Como acessar
---------------
+# Service request registration using Smart Portal
 
-1. Na tela inicial do **Smart Portal**, clique no botão de menu ![simbolo](images/simb-meno.white.jpg), selecione o tipo de catálogo 
-de serviços (Negócio ou Apoio) e selecione o catálogo de serviços desejado. 
+How to access
+-------------
 
-Pré-condições
-------------------
+1.  On the **Smart Portal** home screen, click the menu button ![figure](images/simb-meno.white.jpg) and select the
+    services you want.
 
-1. Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de contrato][1]);
+Preconditions
+-------------
 
-2. Ter o portfólio com os serviços e as atividades de requisição/incidente cadastrados e disponibilizados no Smart Portal (ver 
-conhecimento [Cadastro de portfólio de serviços][2], [Cadastro de serviços][3] e [Cadastro da atividade de serviço][4]);
+1.  Have the contract registered (see knowledge [Contract registration and
+    search][1]);
 
-3. Ter o tempo de atendimento das atividades de requisição/incidente definido (ver conhecimento [Cadastro e pesquisa de tempo de 
-atendimento][5]);
+2.  Have the portfolio with the services and Request/incident activities
+    registered and made available in the Smart Portal (see knowledge [Service
+    portfolio registration][2]); [Service registration][3]); [Service
+    activity registration][4]);
 
-4. Ter permissão no fluxo de trabalho que faz vínculo com a atividade de requisição/incidente para criar solicitação. Essa permissão é definida no cadastro de grupo (ver conhecimento [Cadastro e pesquisa de grupo][6]) ;
+3.  Have the time of attendance of the Request/incident activities defined (see
+    knowledge [Time attendance registration and search][5]);
 
-5. Ser membro do grupo que tem permissão de acesso ao portfólio, serviços e atividades de requisição/incidente que estão 
-disponibilizados no Smart Portal, caso o parâmetro “**Habilita permissão de acesso para grupos de usuário no portal**” esteja
-habilitado;
+4.  Have permission in the workflow that links to the Request/incident activity
+    to create request. This permission is defined in the group register (see
+    knowledge [Group registration and search][6]);
 
-6. Ter configurado o parâmetro "**Identifica o id de origem do chamado padrão da solicitação de serviço**" com o número de identificação
-da origem;
+5.  Be a member of the group that is allowed access to the portfolio, services
+    and Request/incident activities that are available in Smart Portal, if the
+    parameter "**Enable access permission for user groups in the portal**" is
+    enabled;
 
-7. Ter a unidade (a qual o usuário logado está relacionado) vinculada ao contrato relacionado à atividade de requisição/incidente do serviço, caso o parâmetro "**Vincula contratos a unidade**" esteja habilitado (ver conhecimento 
-[Como relacionar unidade ao contrato?][7]);
+6.  You have set the parameter "**Identifies the origin id of the service
+    request default call**" with the origin identification number;
 
-8. Ser membro do grupo que faz vínculo ao contrato relacionado à atividade de requisição/incidente do serviço, caso o parâmetro “Faz o controle de vínculo de colaboradores aos contratos" esteja habilitado (ver conhecimento 
-[Como relacionar grupo ao contrato?][8]);
+7.  Have the unit (to which the logged-in user is related) bound to the contract
+    related to the service request/incident activity, if the "**Binds unit
+    contracts**" parameter is enabled (see knowledge [How to relate unit to
+    contract?][7]);
 
-9. Ter parametrizado a prioridade e data limite da solicitação (ver conhecimento [Cadastro da atividade de serviço][9]).
+8.  Be a member of the group that makes the contract related to the service
+    request/incident activity, if the parameter "**Make the employee control of
+    contracts**" is enabled (see knowledge [How to relate group to contract?][8]).
 
-Filtros
+9.  Have parameterized the priority and request deadline (see knowledge [Service
+    activity registration][9])
+
+Filters
+-------
+
+1.  No applicable.
+
+List items
 ----------
 
-1. Não se aplica.
+1.  No applicable.
 
-Listagem de itens
--------------------
+Filling in he registration fields
+---------------------------------
 
-1. Não se aplica.
+1.  After this, your respective services will be presented, as shown in the
+    figure below:
 
-Preenchimento dos campos cadastrais
--------------------------------------
+   ![figure](images/solici-img1.jpg)
+   
+   **Figure 1 - Service catalog**
 
-1. Serão apresentados seus respectivos serviços, conforme exemplo ilustrado na figura abaixo:
+2.  Select the desired service. After that, the Request and/or incident related
+    activities will be displayed, as shown in the figure below:
 
-    ![Catálogo](images/solici-img1.jpg)
-    
-    **Figura 1 - Catálogo de serviços**
-    
-2. Selecione o serviço desejado. Após isso, serão exibidas as atividades de requisição e/ou incidente relacionadas ao mesmo, 
-conforme exemplo ilustrado na figura abaixo:
+   ![figure](images/solici-img2.jpg)
+   
+   **Figure 2 - Service**
 
-    ![Serviço](images/solici-img2.jpg)
-    
-    **Figura 2 - Serviço**
-    
-3. Selecione a atividade do serviço para solicitação da mesma e após isso, será apresentada a tela de registro da solicitação, 
-conforme ilustrada na figura abaixo:
+3.  Select the service activity to request the service and after that, the
+    request registration screen will be displayed, as shown in the figure below:
 
-    ![Registro](images/solici-img3.jpg)
-    
-    **Figura 3 - Tela de registro da solicitação**
-    
-4. Informe os dados da solicitação;
+   ![figure](images/solici-img3.jpg)
+   
+   **Figure 3 - Request register screen**
 
-    !!! note "NOTA"
-    
-        Os campos referentes à Impacto, Urgência, Descrição, Item de Configuração e Anexo, somente serão exibidos na tela de 
-        registro de solicitação se no registro da atividade de requisição/incidente estiver habilitado para apresentação dos mesmos.
-        
-    - As informações dos campos **impacto** e **urgência** são estabelecidas conforme configurado no registro do tempo de 
-    atendimento vinculado à atividade de requisição/incidente;
-    - **Título**: informe o título da solicitação;
-    - Adicione o item de configuração referente à solicitação, se for necessário;
-    - **Descrição**: informe a descrição da solicitação. A descrição deve ser objetiva, incluindo toda informação necessária para o
-    atendimento da mesma;
-    - Após informar a descrição da solicitação, o sistema faz a busca dos conhecimentos referentes à descrição e exibe os mesmos 
-    para visualização;
-    - Anexe um arquivo à solicitação, se achar necessário.
-    
-    !!! info "IMPORTANTE"
-    
-        Se o parâmetro “Habilita botão “Adicionar e continuar” na popup de nova solicitação no portal” estiver habilitado, será 
-        exibido o botão “Adicionar e continuar” na tela de registro de solicitação de serviço. Esse botão permite adicionar o 
-        serviço no Smartbox e continuar selecionando mais serviços para solicitação.
-        
-5. Após os dados informados, clique no botão "Adicionar e concluir" para efetuar a operação.
+4.  Enter request data:
 
-6. Ao cadastrar uma nova solicitação de serviço via Smart Portal é aberta uma nova aba com as informações referentes a mesma, tais
-como seu número, prioridade e data limite , conforme a figura abaixo:
+!!! note "NOTE"
 
-    ![Criadas](images/solici-img4.jpg)
-    
-    **Figura 4 - Tela de solicitações criadas**
-    
-    !!! note "NOTA"
-    
-        As informações sobre o prazo da solicitação criada (prioridade e data limite) podem ser excluídas conforme a necessidade do
-        cliente.
+    The fields related to Impact, Urgency, Description, Configuration Item and
+    Attachment will only be displayed in the request log screen if the
+    request/incident activity log is enabled to display them.
+
+-   The information on the impact and urgency fields is established as
+    configured in the time service record linked to the Request/incident
+    activity;
+
+-   **Title**: enter the title of the request;
+
+-   Add the configuration item for the request, if necessary;
+
+-   **Description**: enter the description of the request. The description must
+    be objective, including all the information necessary to attend to it;
+
+-   After informing the description of the request, the system searches for the
+    knowledge related to the description and displays them for visualization;
+
+-   Attach a file to the request if you find it necessary.
+
+   !!! info "IMPORTANT"
+
+     If the "Enable Add and Continue" button in the new request popup in the
+     portal is enabled, the "Add and Continue" button will be displayed on the
+     service request log screen. This button allows you to add the service in
+     Smartbox and continue selecting more services for request.
+
+5.  After the data is entered, click the *Add and Finish* button to perform the
+    operation.
+
+6.  When registering a new service request via Smart Portal a new tab with the
+    information related to it is opened, such as its number, priority and
+    deadline, as shown below:
+
+![figure](images/solici-img4.jpg)
+
+**Figure 4 - Created requests screen**
+
+!!! note "NOTE"
+
+    Information about the deadline of the request created (priority and
+    deadline) can be removed according to the customer's needs.
+
         
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/06/2019 - Larissa Lourenço
+    <b>Updated:</b>09/03/2019 - Anna Martins
     
-[1]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
-
-[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
-
-[3]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/services.html
-
-[4]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/activity.html
-
-[5]:/pt-br/citsmart-platform-7/processes/service-level/time-attendance.html
-
-[6]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
-
-[7]:/pt-br/citsmart-platform-7/processes/tickets/relate-unit.html
-
-[8]:/pt-br/citsmart-platform-7/processes/tickets/relate-group.html
-
-[9]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/activity.html
+[1]:/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+[3]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/services.html
+[4]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/activity.html
+[5]:/en-us/citsmart-platform-7/processes/service-level/time-attendance.html
+[6]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[7]:/en-us/citsmart-platform-7/processes/tickets/relate-unit.html
+[8]:/en-us/citsmart-platform-7/processes/tickets/relate-group.html
+[9]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/activity.html
         
