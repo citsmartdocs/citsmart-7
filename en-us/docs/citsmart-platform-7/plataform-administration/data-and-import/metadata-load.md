@@ -1,56 +1,56 @@
-title: Carga de metadados
-Description: Esta funcionalidade tem o objetivo de carregar as informações de tabelas do banco de dados.
-# Carga de metadados
+title: Metadata loading
+Description: This functionality is intended to load the information from database tables.
+# Metadata loading
 
-Esta funcionalidade tem o objetivo de carregar as informações de tabelas do banco de dados.
+This functionality is intended to load the information from database tables.
 
-Como acessar
--------------
+How to access
+-----------------
 
-1. Acesse a funcionalidade de carregar meta dados através da navegação no menu principal 
-**Sistema > Visões e Meta dados > Carrega Metadados**.
+1. Access the functionality of loading metadata through navigation in the main menu 
+**System > Visions and Metadata > Load Metadata**.
 
-Pré-condições
+Preconditions
 ---------------
 
-1. Não se aplica.
+1. Not applicable.
 
-Filtros
+Filters
 ---------
 
-1. Não se aplica.
+1. Not applicable.
 
-Listagem de itens
+Items list
 -------------------
 
-1. Não se aplica.
+1. Not applicable.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 --------------------------------------
 
-1. Não se aplica.
+1. Not applicable.
 
-Carregando meta dados
+Loading Metadata
 ----------------------
 
-1. Será apresentada a tela onde poderá ser carregada as tabelas armazenadas no banco de dados, conforme ilustrada na figura abaixo:
+1. The screen will be displayed where you can load the tables stored in the database, as shown in the figure below:
 
     ![Metadados](images/metadados.img1.png)
     
-    **Figura 1 - Tela de metadados**
+    **Figure 1 - Metadata screen**
     
-2. Informe o **Nome da Tabela** e clique no botão "Carregar";
+2. Enter the **Name of the Table** and click the *Load* button;
 
-3. Será carregada a tabela, conforme o nome informado;
+3. The table will be loaded, according to the name entered;
 
-4. Se preferir carregar todos os meta dados, basta marcar o campo **Carregar todas as tabelas** e clicar no botão "Carregar". 
-Serão carregadas todas as tabelas, conforme exemplo apresentado na figura abaixo:
+4. If you prefer to load all the metadata, simply check the **Load all tables field** and click on the *Load* button. All tables 
+will be loaded, as shown in the figure below:
 
-![Metadados](images/metadados.img2.png)
+![Metadados](images/metadados.img2.jpg)
 
-**Figura 2 - Metadados**
+**Figure 2 - Metadata**
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/22/2019 – Larissa Lourenço
+    <b>Updated:</b>09/03/2019 – Larissa Lourenço
