@@ -114,7 +114,7 @@ Exchanging message - attendant
 
 3.  If you perform the search using other filters, simply click on the icon 
 
-   ![simbolo](images/simb-seta-down.jpg)  of the search field.
+   ![simbolo](images/simb-seta.down.jpg)  of the search field.
 
 ![figure](images/mensa.img5.jpg)
 
