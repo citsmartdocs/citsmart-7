@@ -3,7 +3,7 @@ Description: Recommended steps to publish the services catalog in Smart Portal
 
 # Recommended steps to publish the services catalog in Smart Portal
 
-Standard Operating Procedure (SOP) for publication of service catalog in smart portal
+Standard Operating Procedure (SOP) for publication of service catalog in Smart Portal
 -------------------------------------------------------------------------------------
 
 ![figure](images/passos.img1.jpg)
@@ -80,7 +80,7 @@ Configure specific availability parameters for portal
         linked to the service) and file attachment;
 
 8.  Configure the parameter "**Enable access permission for user groups in the
-    portal - Values:" Y "or" N "Default:" N **"
+    portal - Values:" Y "or" N "Default:" N**"
 
 9.  Configure the "**Enable Add and Continue" button in the new request popup in
     the portal - Values: "Y" or "N" Default: "N**".
