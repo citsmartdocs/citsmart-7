@@ -1,6 +1,5 @@
 title: Gerenciamento de ticket (serviços)
-Description: Tem por objetivo elucidar de forma clara e didática a funcionalidade ticket como um todo, explicando concisamente suas
-opções.
+Description: Tem por objetivo elucidar de forma clara e didática a funcionalidade ticket como um todo, explicando concisamente suas opções.
 # Gerenciamento de ticket (serviços)
 
 Este conhecimento tem por objetivo elucidar de forma clara e didática a funcionalidade ticket como um todo, explicando concisamente

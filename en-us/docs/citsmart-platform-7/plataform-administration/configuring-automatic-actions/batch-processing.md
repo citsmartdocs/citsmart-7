@@ -1,80 +1,82 @@
-title: Cadastro e pesquisa de processamento batch
+title: Batch processing registration and search
 Description: Esta funcionalidade tem o objetivo de registrar o processamento batch, que poderá ser utilizado em outras rotinas 
-# Cadastro e pesquisa de processamento batch
+# Batch processing registration and search
 
-Esta funcionalidade tem o objetivo de registrar o processamento batch, que poderá ser utilizado em outras rotinas do sistema.
+This functionality is intended to record batch processing, which can be used in other system routines.
 
-Como acessar
--------------
+How to access
+----------------
 
-1. Acesse a funcionalidade de Processamento Batch através da navegação no menu principal **Sistema > Processamento Batch**.
+1. Access the Batch Processing feature by navigating in the main menu **System > Batch Processing**.
 
-Pré-condições
+Preconditions
 ---------------
 
-1. Não se aplica.
+1. No applicable.
 
-Filtros
+Filters
 ---------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando
-a localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Descrição;
-    - Situação.
+    - Description;
+    - Status.
     
-2. Na tela de Processamento Batch, clique na guia **Pesquisa Batch**, será apresentada a tela de pesquisa conforme ilustrada na
-figura abaixo:
+2. On the **Batch Processing** screen, click the **Batch Search** tab, the search screen will be displayed as shown in the figure 
+below:
 
-    ![Pesquisa](images/batch.img1.png)
+    ![Search](images/batch.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de processamento batch**
+    **Figure 1 - Batch processing search screen**
     
-3. Realize a pesquisa do processamento batch:
+3. Perform batch processing search;
 
-    - Informe a descrição e/ou situação do processamento batch e clique no botão "Pesquisar". Após isso, será exibido o registro 
-    conforme os dados informados;
+    - Enter the description and/or batch processing status and click the *Search* button. After that, the record will be displayed 
+    according to the data entered.
     
-    - Caso deseje listar todos os registros de processamento batch, basta clicar diretamente no botão "Pesquisar".
+    - If you want to list all the batch processing records, simply click the *Search* button directly.
     
-Listagem de itens
+4. After searching, select the desired record. Once this is done, it will be directed to the registration tab displaying the 
+contents of the selected record;
+    
+Items list
 --------------------
 
-1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: **Descrição**.
+1. The following cadastral field is available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **Description**.
 
-    ![Listagem](images/batch.img2.png)
+    ![Listing](images/batch.img2.jpg)
     
-    **Figura 2 - Tela de listagem de processamento batch**
+    **Figure 2 - Batch processing listing screen**
     
-2. Para alterar os dados do processamento batch, basta modificar as informações desejadas e clicar no botão "Gravar";
+2. To change the batch processing data, simply modify the desired information and click the *Save* button;
 
-3. Para mostrar as execuções do processamento batch, basta clicar no botão "Mostrar Execuções" e será aberta uma janela
-mostrando as últimas execuções.
+3. To show the batch processing runs, simply click the *Show Executions* button and a window will open showing the latest 
+executions.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 --------------------------------------
 
-1. Será apresentada a tela de **Cadastro de Processamento Batch**, conforme ilustrada na figura abaixo:
+1. The **Batch Processing Master** screen will be displayed, as shown in the figure below:
 
-    ![Cadastro](images/batch.img3.png)
+    ![Entry](images/batch.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de processamento batch**
+    **Figure 3 - Batch processing master screen**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill in the fields as directed below:
 
-    - **Descrição**: informe a descrição do processamento batch;
-    - **Situação**: informe a situação do processamento batch;
-    - **Tipo**: para esse cadastro o tipo deverá ser Classe Java;
+    - **Description**: enter the description of batch processing;
+    - **Situation**: inform the batch processing situation;
+    - **Type**:for this register the type should be Java Class;
     
-3. Selecione o(s) **segundos, minutos, horas, dia do mês, mês, dia da semana** e **ano** para o processamento batch:
+3. Select the **seconds, minutes, hours, day of the month, month, day of the week** and **year for batch processing**;
 
-    - **Conteúdo**: descreva o conteúdo do processamento batch.
+    - **Content**: describe the content of batch processing.
     
-4. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma futura
-auditoria.
+4. Click the *Save* button to register, where the date, time and user will be saved automatically for a future audit.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/19/2019 – Larissa Lourenço
+    <b>Updated:</b>02/09/2019 – Larissa Lourenço
