@@ -81,7 +81,7 @@ Registering spreadsheet template for import - filling in the registration fields
 Realizing service portfolio import
 ------------------------------------------------
 
-1. In the Service Portfolio Load screen, in the Import tab, the respective screen is displayed, as shown below:
+1. In the **Service Portfolio Load** screen, in the **Import** tab, the respective screen is displayed, as shown below:
 
     ![Import](images/portfolio.img2.jpg)
     
