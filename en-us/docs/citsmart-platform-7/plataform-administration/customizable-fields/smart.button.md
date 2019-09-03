@@ -1,142 +1,140 @@
 title:  Smart Button
-Description: O Smart Button facilita a busca de conhecimentos relacionados à determinada funcionalidade. 
+Description: The Smart Button facilitates the search of knowledge related to a certain functionality. 
 # Smart Button
 
-O Smart Button facilita a busca de conhecimentos relacionados à determinada funcionalidade. Por isso, o mesmo é exibido em todas as 
-funcionalidades do sistema.
+The **Smart Button** facilitates the search of knowledge related to a certain functionality. This is why it is displayed in all 
+system features.
 
-Ao configurar as tags no registro do item de menu de uma determinada funcionalidade e no registro do conhecimento referente à 
-funcionalidade, quando estiver navegando na mesma e clicar no Smart Button, serão apresentados os conhecimentos indicados 
-referentes à funcionalidade. No item abaixo é apresentado o passo a passo de como configurar essas tags.
+When configuring the tags in the registry of the menu item of a certain functionality and in the registration of the knowledge 
+related to the certain functionality, when navigating in the certain functionality and clicking on the Smart Button, the indicated 
+knowledge regarding the functionality will be presented. The following is a step-by-step guide on how to configure these tags.
 
-Pré-condições
+Preconditions
 ---------------
 
-1. Não se aplica.
+1. No applicable.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 ---------------------------------------
 
-1. Não se aplica.
+1. No applicable.
 
-Configuração das tags para utilização do Smart Button
+Configure the tags to use the Smart Button
 --------------------------------------------------------
 
-Como acessar
---------------
+How to access
+----------------
 
-1. Acesse o menu principal **Cadastros Gerais > Menu**
+1. Go to main menu **General Registration > Menu**.
 
-Filtros
+Filters
 ----------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a 
-localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Nome.
+    - Name.
     
     ![Menu](images/smart.button.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de menu**
+    **Figure 1 - Menu search screen**
     
-Listagem de itens
+Items list
 ------------------
 
-1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens desejados na listagem padrão da
-funcionalidade: **Descrição**.
+1. The following cadastral field is available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **Description**.
 
-    ![Listagem](images/smart.button.img2.jpg)
+    ![Listing](images/smart.button.img2.jpg)
     
-    **Figura 2 - Tela de listagem de itens**
+    **Figure 2 - Item listing screen**
     
-Configurando as tags
+Configuring the tags
 ------------------------
 
-1. Configure as tags no registro do item de menu da determinada funcionalidade:
+1. Configure the tags in the registry of the menu item of the given functionality;
 
-    - Na guia de **Pesquisa de Menus**, busque pelo registro do item de menu referente a funcionalidade desejada. Feito isso, 
-    será exibido registro do item de menu;
-    - Informe as tags desejadas, conforme exemplo ilustrado na figura abaixo:
+    - On the **Menu Search** tab, search for the menu item record for the desired feature. Once this is done, the menu item record 
+    will be displayed;
+    - Enter the desired tags, as shown in the figure below:
     
     ![Item](images/smart.button.img3.jpg)
     
-    **Figura 3 - Item de menu**
+    **Figure 3 - Menu item**
     
-Configurando as tags dos conhecimentos referentes à determinada funcionalidade
+Seetting the referential knowledge tags to a given functionality
 --------------------------------------------------------------------------------
 
-Como acessar
+How to access
 --------------
 
-1. Acesse o menu principal **Processos ITIL > Gerência de Conhecimento > Gerenciamento de Conhecimento**.
+1. Access the main menu **ITIL Processes > Knowledge Management > Knowledge Management**.
 
-Filtros
+Filters
 ----------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando
-a localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Título;
-    - Tipo de documento;
-    - Conteúdo;
-    - Publicado;
-    - Situação;
-    - Pasta.
+    - Title;
+    - Document Type;
+    - Content;
+    - Published;
+    - Status;
+    - Folder.
     
-    ![Pesquisa](images/smart.button.img4.jpg)
+    ![Search](images/smart.button.img4.jpg)
     
-    **Figura 4 - Tela de pesquisa de conhecimentos**
+    **Figure 4 - Knowledge search screen**
     
-Listagem de itens
+Items list
 ---------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem
-padrão da funcionalidade: **ID, Título, Tipo de documento, Versão, Publicado, Arquivado** e **Pasta**.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **Title, Document type, Version, Published, Retired** and **Folder**.
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Editar" e "Excluir".
+2. There are action buttons available to the user for each item in the listing, they are: *Edit* and *Delete*.
 
-![Listagem](images/smart.button.img5.jpg)
+![Listing](images/smart.button.img5.jpg)
 
-**Figura 5 - Tela de listagem de conhecimentos**
+**Figure 5 - Knowledge listing screen**
 
-Configurando as Tags
+Configuring the tags
 -----------------------
 
-1. Ao acessar a funcionalidade, será apresentada a tela de Gerenciamento de Conhecimentos:
+1. When you access the feature, the Knowledge Management screen will be displayed:
 
-- Busque pelo conhecimento desejado;
-- Informe a tag de acordo com a que foi informada no registro do item de menu da funcionalidade. A figura abaixo ilustra um 
-exemplo:
+- Search for the desired knowledge;
+- Enter the tag as it was entered in the feature menu entry record. The figure below illustrates an example:
 
-![Registro](images/smart.button.img6.jpg)
+![Entry](images/smart.button.img6.jpg)
 
-**Figura 6 - Registro de conhecimento**
+**Figure 6 - Knowledge registry**
 
-!!! warning "ATENÇÃO"
+!!! warning "WARNING"
 
-    Ao realizar a configuração das tags no registro do item de menu e no registro do conhecimento, será necessário aguardar o 
-    tempo de sincronização (talvez tenha que sair e entrar novamente do sistema) para que os conhecimentos sejam exibidos no
-    Smart Button.
+    When you configure the tags in the menu item record and in the knowledge record, you must wait for the synchronization time 
+    (you may have to log out and log back in) so that the knowledge is displayed on the Smart Button.
     
-Verificando a integração das tags dos conhecimentos referente à determinada funcionalidade
+Checking the tags of knowledge regarding certain functionality
 ---------------------------------------------------------------------------------------------
 
-1. Após a configuração das tags, ao entrar na determinada funcionalidade, basta clicar no **Smart Button** conforme indicado na 
-figura abaixo:
+1. After setting the tags, when entering the certain functionality, just click on the **Smart Button** as indicated in the figure 
+below:
 
     ![Smart](images/smart.button.img7.jpg)
     
-    **Figura 7 - Smart button**
+    **Figure 7 - Smart button**
     
-2. Serão apresentados os conhecimentos indicados referentes à funcionalidade, conforme exemplo ilustrado na figura abaixo:
+2. The indicated knowledge regarding the functionality will be presented, as shown in the figure below:
 
-    ![Conhecimentos](images/smart.button.img8.jpg)
+    ![Knowledges](images/smart.button.img8.jpg)
     
-    **Figura 8 - Conhecimentos indicados**
+    **Figure 8 - Indicated knowledge**
     
-3. Para visualizar o conteúdo do conhecimento, bastar clicar no mesmo.
+3. To view the knowledge content, simply click on it.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/30/2019 - Larissa Lourenço
+    <b>Updated:</b>08/03/2019 - Larissa Lourenço
