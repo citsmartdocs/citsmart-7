@@ -1,72 +1,70 @@
-title: Importação de funcionários
-Description: Esta funcionalidade tem por objetivo otimizar a criação de novos cadastros de colaboradores.
-# Importação de funcionários
+title: Employee import
+Description: This functionality is intended to optimize the creation of new employee records.
+# Employee import
 
-Esta funcionalidade tem por objetivo otimizar a criação de novos cadastros de colaboradores.
+This functionality is intended to optimize the creation of new employee records.
 
-Como acessar
---------------
+How to access
+------------------
 
-1. Acesse a funcionalidade de carga do colaborador através da navegação no menu principal 
-**Sistema > Importação e Carga de Dados > Carga Colaborador**.
+1. Access the employee load functionality by navigating the main menu **System > Import and Data Loading > Load of employee**.
 
-Pré-condições
+Preconditions
 ----------------
 
-1. Não se aplica.
+1. No applicable.
 
-Filtros
+Filters
 ----------
 
-1. Não se aplica.
+1. No applicable.
 
-Listagem de itens
+Items list
 -------------------
 
-1. Não se aplica.
+1. No applicable.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Será apresentada a tela de **Carga do Colaborador** para registro de modelo de planilha para importação, conforme ilustrada na 
-figura abaixo:
+1. The **Employee Load** screen for spreadsheet template record for import will be displayed, as shown in the figure below:
 
-    ![Modelo](images/car-cola.img1.png)
+    ![Model](images/employee.img1.jpg)
     
-    **Figura 1 - Tela de cadastro de modelo de planilha para importação**
+    **Figure 1 - Spreadsheet template registration screen for import**
     
- 2. O modelo está estruturado conforme o cadastro de colaborador, indicando os campos obrigatórios e os opcionais que são possíveis 
- excluir antes de gerar o modelo de planilha;
+ 2. The template is structured according to the employee register, indicating the mandatory and optional fields that can be 
+ excluded before generating the template.
  
- 3. Para gerar modelo de planilha em formato ".xls", basta clicar no botão "Gerar Modelo .xls";
+ 3. To generate ".xls" spreadsheet template, simply click the *Generate Model .xls* button;
  
- 4. Para gerar modelo de planilha em formato ".xlsx", basta clicar no botão "Gerar Modelo .xlsx";
+ 4. To generate spreadsheet template in ".xlsx" format, just click the *Generate Model .xlsx* button ;
  
- 5. O modelo de planilha terá os campos para preenchimento e algumas informações de valores permitidos.
+ 5. The worksheet template will have fill fields and some allowable value information.
  
-Realizando importação de colaborador
+Performing employee importation
 ---------------------------------------
 
-1. Na tela de **Carga do Colaborador**, na aba **Importação**, é apresentada a respectiva tela, conforme ilustração abaixo:
+1. In the **Employee Load** screen, in the **Import** tab, the respective screen is displayed, as shown below:
 
-    ![Importação](images/car-cola.img2.png)
+    ![Import](images/employee.img2.jpg)
     
-    **Figura 2 - Importação de colaborador**
+    **Figure 2 - Employee import**
     
-2. Clique no botão "Escolher arquivo" e será exibida uma janela para escolha do arquivo;
+2. Click the *Choose File* button and a window will appear to choose the file;
 
-3. Selecione o arquivo, o qual deve estar em formato ".xls" ou ".xlsx;
+3. Select the file, which should be in ".xls" or ".xlsx;
 
-4. Clique no botão "Importar";
+4. Click the *Import* button;
 
-5. Os dados importados poderão ser visualizados na pesquisa de registro de colaboradores.
+5. The imported data can be viewed in the employee registration survey.
 
-!!! info "IMPORTANTE"
+!!! info "IMPORTANT"
 
-    Ao realizar a importação, caso haja alguma inconsistência entre os valores adotados no sistema e os valores informados na
-    planilha, o sistema exibirá um alerta.
+    When performing the import, if there is any inconsistency between the values adopted in the system and the values entered in 
+    the worksheet, the system will display an alert.
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/22/2019 – Larissa Lourenço
+    <b>Updated:</b>09/03/2019 – Larissa Lourenço

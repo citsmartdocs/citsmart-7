@@ -1,131 +1,154 @@
-title:  Comunicação por mensagens dentro de um ticket pelo Smart Portal
-Description: Tem por objetivo a troca de mensagem entre o Solicitante (Emissor) e o Atendente (Receptor). 
-# Comunicação por mensagens dentro de um ticket pelo Smart Portal
+title: Message communication within a ticket by Smart Portal
+Description: This functionality aims the exchange of messages between the Requester (Sender) and the Recipient (Receiver) within the service request.
 
-Esta funcionalidade tem por objetivo a troca de mensagem entre o Solicitante (Emissor) e o Atendente (Receptor) dentro da solicitação
-de serviço.
+# Message communication within a ticket by Smart Portal
 
-Pré-condições
----------------
+This functionality aims the exchange of messages between the Requester (Sender)
+and the Recipient (Receiver) within the service request.
 
-1. Informe o conteúdo abaixo nos parâmetros (ver conhecimento [Regras de parametrização - ticket][1]);
+Preconditions
+-------------
 
-    - Parâmetro 299: deverá estar setado em 'S';
-    - Parâmetro 300: deverá estar setado em 'S'.
-    
-2. Existir ao menos uma solicitação de serviço aberta pelo Portal de Serviços (ver conhecimento 
-[Cadastro de solicitação de serviço via smart portal][2]);
+1.  Enter the content below into the parameters (see knowledge [Parameterization
+    rules - ticket][1]));
 
-3. Ter permissão para executar a solicitação de serviço (ver conhecimento [Cadastro e pesquisa de grupo][3]);
+-   Parameter 299: must be set to 'Yes' ;
 
-4. Para haver troca de mensagens a solicitação deverá estar capturada pelo atendente.
+-   Parameter 300: must be set to 'Yes' .
 
-Trocando mensagem - solicitante
-----------------------------------
+2.  There is at least one service request open by the Service Portal (see
+    knowledge [Service request registration using Smart Portal][2]);
 
-*Como acessar*
+3.  Have permission to execute service request (see knowledge [Group
+    registration and search][3]);
 
-1. Na tela inicial do **Smart Portal**, clique no botão de menu ![simbolo](images/simb-meno.white.jpg)  e logo após clique em 
-**Minhas solicitações**, localize a solicitação desejada e clique no ícone ![simbolo](images/simb-mens.jpg) da mesma.
+4.  To have a message exchange, the request must be captured by the attendant.
 
-*Filtros*
+Exchanging message - applicant
+------------------------------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando
-a localização dos itens desejados:
+### How to access
 
-    - Pesquisa;
-    - Situação;
-    - Ordenar Por;
-    - Ordem.
-    
-    ![Pesquisa](images/mensa.img1.jpg)
-    
-    **Figura 1 - Tela de pesquisa de solicitação**
-    
-*Listagem de itens*
+1.  On the **Smart Portal** home screen, click the menu button ![figure](images/simb-meno.white.jpg) and then click
+    on **My Requests**, locate the request you want, and then click on ![figure](images/simb-mens.jpg) it's
+    icon.
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem padrão
-da funcionalidade:**Ticket, Tipo, Serviço, Atividade, Título, Criada em, Tarefa, Grupo atual, Situação, SLA, Prazo limite, Status do
-SLA** e **Prioridade**.
+### Filters
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: *Registar opinião, Reabrir 
-solicitação, Pesquisa de satisfação, Descrição, Anexos, Ocorrências, Registrar Ocorrência, Cancelar Solicitação* e *Mensagem*.
+1.  The following filters enables the user to restrict the participation of
+    items in the standard feature listing, making it easier to find the desired
+    items:
 
-    ![Listagem](images/mensa.img2.jpg)
-    
-    **Figura 2 - Tela de listagem de solicitação**
-    
-3. Clique no ícone destacado na figura anterior, logo após será aberta a tela de troca de mensagens e envie a informação desejada.
+-   Search;
 
-    ![Tela](images/mensa.img3.jpg)
-    
-    **Figura 3 - Tela de mensagem**
-    
-*Preenchimento dos campos cadastrais*
+-   Situation;
 
-1. Não se aplica.
+-   Sirt by;
 
-Trocando mensagem - atendente
---------------------------------
+-   Order.
 
-1. Após o solicitante enviar a mensagem, o atendente (receptor) será notificado sobre a mesma em sua janela de trabalho, conforme a
-figura abaixo (para que as notificações enviadas pelo solicitante seja visualizada pelo atendente e respondida em menor tempo, a
-tela de trabalho necessita ser atualizada periodicamente):
+![figure](images/mensa.img1.jpg)
 
-    ![Notificações](images/mensa.img4.jpg)
-    
-    **Figura 4 - Tela de notificações de mensagem**
-    
-2. Posteriormente, o atendente clica no botão "Visualizar". Feito isso, será aberta uma nova tela, informando o conteúdo da 
-mensagem enviada previamente pelo Solicitante;
+**Figure 1 - Ticket search screen**
 
-3. Para responder alguma mensagem, é necessário seguir os passos das próximas sub-seções.
+### Items list
 
-*Como acessar*
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: Ticket, Type, Service, Incident/Request, Title, Created on, Task,
+    Current group, Situation, SLA, Time limit, SLA status and Priority.
 
-1. Acesse o menu principal **Processos ITIL > Gerência de Requisição e Incidente > Requisição de Serviços e Incidentes**;
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Record opinion*, *Reopen service request*, *Satisfaction
+    Survey*, *Description*, *Attachments*, *Occurrence*, *Register
+    occurrence*, *Cancel Request* and *Message*.
 
-*Filtros*
+   ![figure](images/mensa.img2.jpg)
+   
+   **Figure 2 - Request list screen**
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a 
-localização dos itens desejados:
+3.  Click on the icon highlighted in the previous figure, soon after the message
+    exchange screen will appear and then send the desired information.
 
-    - Número
-    
-2. No campo de pesquisa, é permitido a busca por número, descrição da tarefa e responsável pelo atendimento;
+![figure](images/mensa.img3.jpg)
 
-3. Caso realizar a busca utilizando outros filtros, basta clicar no ícone ![simbolo](images/simb-seta.down.jpg) do campo de 
-pesquisa.
+**Figure 3 - Message screen**
 
-    ![Pesquisa](images/mensa.img5.jpg)
-    
-    **Figura 5 - Tela de pesquisa rápida de solicitação**
+### Filling in the registration fields
 
-*Listagem de itens*
+1.  No applicable.
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: **Número, Prioridade, Serviço, Atividade, Solicitante, Contrato, Criado por, Data criação** e **Tarefa**.
+Exchanging message - attendant
+------------------------------
 
-    ![Listagem](images/mensa.img6.jpg)
-    
-    **Figura 6 - Tela de listagem de solicitações**
-    
-2. Ao clicar no botão destacado na figura anterior, será aberta a tela de troca de mensagem entre o solicitante e o receptor;
+1.  After the requestor sends the message, the attendant (receiver) will be
+    notified about it in his/her work window, as shown in the figure below (in
+    order for the notifications sent by the applicant to be viewed by the
+    attendant and answered in the shortest amount of time, the work window must
+    be updated periodically):
 
-3. A comunicação entre o emissor e receptor também pode ser iniciada clicando no ícone ![simbolo](images/simb-eye.jpg) da 
-solicitação. Feito isso, a tela de requisição e incidente será aberta, clique em ![simbolo](images/simb-talk.jpg) para iniciar a 
-troca de mensagens.
+   ![figure](images/mensa.img4.jpg)
+   
+   **Figure 4 - Message notifications screen**
 
-    ![Serviço](images/mensa.img7.jpg)
-    
-    **Figura 7 - Tela de troca de mensagem pelo modo de visualização de serviço**
+2.  The attendant then clicks the *View* button. Once this is done, a new screen
+    will open, informing the content of the message previously sent by the
+    Applicant.
+
+3.  To reply to some message, you must follow the steps in the next subsections.
+
+### How to access
+
+1.  Access the main menu **ITIL Processes > Request and Incident Management >
+    Service request and incident**;
+
+### Filters
+
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
+
+-   Number
+
+2.  In the search field, it is possible to search by number, task description
+    and responsible for the service.
+
+3.  If you perform the search using other filters, simply click on the icon 
+   ![simbolo](images/simb-seta.down.jpg)  of the search field.
+
+
+![figure](images/mensa.img5.jpg)
+
+**Figure 5 - Quick request search screen**
+
+### Items list
+
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the default listing of the
+    functionality: **Number**, **Priority**, **Activity**, **Creation
+    date**, **Task**, **Current group** and **Responsible**.
+
+   ![figure](images/mensa.img6.jpg)
+   
+   **Figure 6 - Request list screen**
+
+2.  Clicking on the button highlighted in the previous figure will open the
+    message exchange screen between the applicant and receiver.
+
+3.  The communication between the sender and receiver can also be initiated by
+    clicking on the ![simbolo](images/simb-eye.jpg) of the request. Once this is done, the request and incident
+    screen opens, click on ![simbolo](images/simb-talk.jpg) to start exchanging messages.
+
+![figure](images/mensa.img7.jpg)
+
+**Figure 7 - Message exchange screen by service view mode**
+
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/06/2019 - Larissa Lourenço
+    <b>Updated:</b>09/03/2019 - Anna Martins
 
-[1]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrizaion-ticket.html
-[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/smart-portal/service-request.html
-[3]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[1]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrizaion-ticket.html
+[2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/smart-portal/service-request.html
+[3]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html
 
