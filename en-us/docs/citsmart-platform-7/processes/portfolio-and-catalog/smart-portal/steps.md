@@ -3,7 +3,7 @@ Description: Recommended steps to publish the services catalog in Smart Portal
 
 # Recommended steps to publish the services catalog in Smart Portal
 
-Standard operating procedure (sop) for publication of service catalog in smart portal
+Standard Operating Procedure (SOP) for publication of service catalog in smart portal
 -------------------------------------------------------------------------------------
 
 ![figure](images/passos.img1.jpg)
