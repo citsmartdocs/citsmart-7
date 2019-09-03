@@ -66,7 +66,7 @@ Service request approval
    
    **Figure 3 - Approval of service request**
 
-2.  Click the icon ![figure](images/sim-check.jpg) of the request that you will approve to be answered. After
+2.  Click the icon ![figure](images/simb-check.jpg) of the request that you will approve to be answered. After
     that, the information registration screen for the approval of the same will
     be displayed, as shown in the following image:
 
