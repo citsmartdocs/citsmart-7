@@ -35,7 +35,7 @@ Loading Metadata
 
 1. The screen will be displayed where you can load the tables stored in the database, as shown in the figure below:
 
-    ![Metadados](images/metadados.img1.png)
+    ![Metadados](images/metadados.img1.jpg)
     
     **Figure 1 - Metadata screen**
     
