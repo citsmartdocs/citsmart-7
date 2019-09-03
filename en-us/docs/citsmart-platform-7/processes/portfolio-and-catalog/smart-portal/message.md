@@ -10,7 +10,7 @@ Preconditions
 -------------
 
 1.  Enter the content below into the parameters (see knowledge [Parameterization
-    rules - ticket][1]));
+    rules - ticket][1]);
 
 -   Parameter 299: must be set to 'Yes' ;
 
