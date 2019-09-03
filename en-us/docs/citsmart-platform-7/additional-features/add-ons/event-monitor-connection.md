@@ -1,112 +1,109 @@
-title: Conexão CITSmart Event Monitor
-Description: Esta funcionalidade tem como objetivo cadastrar todas as propriedades referentes à conexão do CITSmart Event Monitor, de acordo com o IP e porta onde está instalado o Jboss do CITSmart Event Monitor.
+title: CITSmart Event Monitor connection
+Description: The goal of this feature is to register all properties related to the CITSmart Event Monitor connection, according to the IP and port where the CITSmart Event Monitor JBoss is installed.
 
-# Conexão CITSmart Event Monitor
+# CITSmart Event Monitor connection
 
-Esta funcionalidade tem como objetivo cadastrar todas as propriedades referentes
-à conexão do CITSmart Event Monitor, de acordo com o IP e porta onde está
-instalado o Jboss do CITSmart Event Monitor.
+The goal of this feature is to register all properties related to the CITSmart
+Event Monitor connection, according to the IP and port where the CITSmart Event
+Monitor JBoss is installed.
 
-Como acessar
-------------
+How to access
+-------------
 
-1.  Acesse a funcionalidade de conexão do CITSmart event monitor através da
-    navegação no menu principal **Processos ITIL > Gerência de Evento > Conexões
-    Event Monitor**.
+1.  Access the **Event Monitor Connections** feature navigating through the main
+    menu **Process Management > Event Management > Event Monitor
+    Connections**.
 
-Pré-condições
-------------
+Preconditions
+-------------
 
-1.  Não se aplica.
+1.  Not applicable.
 
-Filtros
-------
+Filters
+-------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados, conforme ilustrado na figura abaixo:
+1.  The following filters enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to locate the desired
+    items as shown in the figure below:
 
-    -   Nome;
+-   Name;
 
-    -   Identificador;
+-   Identifier;
 
-    -   Protocolo;
+-   Protocol;
 
-    -   IP;
+-   IP;
 
-    -   Porta;
+-   Port;
 
-    -   Conexão.
+-   Context.
 
-1.  Na tela de **EVM - Conexão do CITSmart Event Monitor**, clique na
-    aba **Pesquisa de Conexão do CITSmart Event Monitor**. Será apresentada a
-    tela de pesquisa conforme ilustrada na figura abaixo:
+2.  On the **Event Monitor Connections** screen, click on the **Connection
+    Search CITSmart Event Monitor** tab, as shown bellow:
 
-    ![Criar](images/conexao-1.png)    
+   ![figure](images/conexao-1.png)
+   
+   **Figure 1 - CITSmart event monitor connection search screen**
 
-    **Figura 1 - Tela de pesquisa de conexão do CITSmart event monitor**
+3.  Perform a event monitor connection search:
 
-1.  Realize a pesquisa de conexão do CITSmart event monitor:
+-   Insert the filters (name, identifier, protocolo, IP address, port and/or
+    application context) as needed and click on the *Search*button. Afterwards,
+    the CITSmart Event Monitor Connection entry will be displayed according to
+    the description provided;
 
--   Informe os filtros (nome da conexão, identificador da conexão, protocolo,
-    endereço IP do servidor, porta da conexão e/ou contexto da aplicação)
-    conforme sua necessidade e clique no botão *Pesquisar*. Após isso, será
-    exibido o registro da conexão do CITSmart event monitor conforme os dados
-    informados.
+-   To list all connections, just click directly on the *Search* button, if
+    needed.
 
--   Caso deseje listar todos os registros, basta clicar diretamente no
-    botão *Pesquisar.*
+Items list
+----------
 
-Listagem de itens
-----------------
+1.  The following cadastral fields are available to the user to make it easier
+    to identify the desired items in the default listing of the
+    functionality: **Name**, **Identifier**, **IP**, **Port** and **Context**.
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Nome, Identificador, IP, Porta e Contexto.
+   ![figure](images/conexao-2.png)
+   
+   **Figure 2 - CITSmart event monitor connection items list screen**
 
-    ![Criar](images/conexao-2.png)
-    
-    **Figura 2 - Tela de listagem de conexão do CITSmart event monitor**
+2.  After searching, select the intended entry. Afterwards, they will be
+    redirected to the registry screen displaying the content belonging to the
+    selected entry;
 
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a tela de cadastro exibindo o conteúdo referente ao registro
-    selecionado;
+3.  To edit a connection entry, just modify the information on the intended
+    fields and click on the *Save* button to confirm the changes to the
+    database, at which date, time and user will be stored automatically for a
+    future audit.
 
-2.  Para alterar os dados do registro de conexão do CITSmart Event Monitor,
-    basta modificar as informações dos campos desejados e clicar no
-    botão *Gravar*
-
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 ----------------------------------
 
-1.  Acesse a funcionalidade, após isso, será apresentada a tela de cadastro
-    de **Conexão do CITSmart Event Monitor**, conforme ilustrada na figura
-    abaixo:
+1.  Access the feature, afterwards, the risk category entry screen will be
+    displayed, as illustrated on the image below:
 
-    ![Criar](images/conexao-3.png)
-    
-    **Figura 3 - Tela de cadastro de conexão do CITSmart event monitor**
+   ![figure](images/conexao-3.png)
+   
+   **Figure 3 - CITSmart event monitor connections entry screen**
 
-1.  Nesta tela, os campos são autoexplicativos. Basta posicionar o mouse sobre o
-    campo escolhido e será apresentada uma breve descrição. Portanto serão
-    abordadas somente as informações principais para efetuar o registro da
-    conexão;
+2.  On the screen, the field are self explanatory. Just place the cursor over
+    the intended field and a brief description will be displayed. Therefore,
+    only the main information to perform a connection entry will be displayed;
 
-2.  Informe os dados da conexão;
+3.  Insert the connection data;
 
-3.  O campo **Identificador** corresponde à propriedade
-    “**idCitsmartEventMonitor**” do arquivo de propriedades
-    “**evm_config.properties**”.
+4.  The Identifier fileld corresponds to the “**idCitsmartEventMonitor**”
+    property of the properties file “**evm_config.properties**”;
 
-4.  Após informar os dados da conexão, clique no botão **Testar Conexão** para
-    testar conexão com CITSmart Event Monitor.
+5.  After inserting the connection data, click on the *Test Connection* button
+    to test the connection to the CITSmart Event Monitor;
 
-5.  Clique no botão *Gravar* para efetuar o registro, onde a data, hora e
-    usuário serão gravados automaticamente para uma futura auditoria.
+6.  Click on the *Save* the button to confirm the entry, at which date, time and
+    user will automatically be stored for a future audit.
+
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/18/2019 – Anna Martins
+    <b>Updated:</b>09/03/2019 – Anna Martins
 
