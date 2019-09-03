@@ -1,47 +1,49 @@
-title:  Cadastro da opinião sobre o atendimento de uma solicitação de serviço via smart Portal
-Description: Disponibiliza o cadastro de opiniões via Smart Portal. 
-# Cadastro da opinião sobre o atendimento de uma solicitação de serviço via smart Portal
+title: Register opinion about service request for a service using Smart Portal
+Description: Register opinion about service request for a service using Smart Portal
 
-Como acessar
----------------
+# Register opinion about service request for a service using Smart Portal
 
-1. Na tela inicial do **Smart Portal**, clique no botão de menu ![simbolo](images/simb-meno.white.jpg)  e logo após clique em 
-**Minhas solicitações**.
+How to access
+-------------
 
-Pré-condições
-----------------
+1.  On the **Smart Portal** home screen, click the menu button ![figure](images/simb-excla.jpg) and then
+    click **My Requests**.
 
-1. A solicitação de serviço deverá estar com a situação “fechada” (ver conhecimento [Gerenciamento de ticket (serviços)][1], seção 
-"Preenchimento Dos Campos Cadastrais - Cadastro De Ticket").
+Preconditions
+-------------
 
-Filtros
+1.  The service request must be "closed" (see knowledge [Ticket management
+    (Services)][1]), section "Filling In The Registration Fields - Ticket Registration") .
+
+Filters
+-------
+
+1.  Not applicable.
+
+Items list
 ----------
 
-1. Não se aplica.
+1.  Not applicable.
 
-Listagem de itens
---------------------
+Filling in the registration fields
+----------------------------------
 
-1. Não se aplica.
+1.  The service requests will be displayed;
 
-Registrando opinião sobre o atendimento da solicitação de serviço
--------------------------------------------------------------------
+2.  Find the service request (closed) that you want to register your opinion and
+    click icon   of the same. Once this is done, the Opinion Registration screen
+    will be displayed, as shown in the figure below:
 
-1. Serão exibidas as solicitações de serviço;
+   ![Registro](images/opiniao.img1.jpg)
+   
+   **Figure 1 - Opinion log screen**
 
-2. Busque a solicitação de serviço (fechada) que deseja registrar sua opinião e clique ícone ![simbolo](images/simb-excla.jpg) da 
-mesma. Feito isso, será apresentada a tela de **Registro de Opinião**, conforme ilustrada na figura abaixo:
-
-    ![Registro](images/opiniao.img1.jpg)
-    
-    **Figura 1 - Tela de registro de opinião**
-    
-3. Preencha os campos necessários e clique no botão "Gravar" para efetuar o registro. Após isso, será exibida uma mensagem 
-agradecendo a opinião registrada.
+3.  Fill in the required fields and click the *Save* button to register. After
+    that, a message will be displayed thanking registered opinion.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/06/2019 - Larissa Lourenço
+    <b>Updated:</b>09/03/2019 - Anna Martins
         
-[1]:/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html
+[1]:/en-us/citsmart-platform-7/processes/tickets/ticket-management.html
