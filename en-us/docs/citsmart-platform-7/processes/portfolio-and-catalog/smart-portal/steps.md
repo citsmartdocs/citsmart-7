@@ -1,74 +1,91 @@
-title:  Passos recomendados para publicar o catálogo de serviços no smart portal
-Description: Disponibiliza os passos recomendados para publicar serviços no smart portal. 
-# Passos recomendados para publicar o catálogo de serviços no smart portal
+title: Recommended steps to publish the services catalog in Smart Portal
+Description: Recommended steps to publish the services catalog in Smart Portal
 
-Procedimento operacional padronizado (POP) para publicação de catálogo de serviços no Smart Portal
------------------------------------------------------------------------------------------------------
+# Recommended steps to publish the services catalog in Smart Portal
 
-![POP](images/passos.img1.jpg)
+Standard Operating Procedure (SOP) for publication of service catalog in Smart Portal
+-------------------------------------------------------------------------------------
 
-**Figura 1 - Diagrama do POP para publicar catálogo de serviços no Smart Portal**
+![figure](images/passos.img1.jpg)
 
-Pré-condições
-----------------
+**Figure 1 - SOP diagram to publish catalog in the Portal**
 
-1. O Portfólio com seus Serviços e Atividades, desejados no Portal, já devem estar criados e disponíveis ao uso dentro do sistema (ver
-conhecimento [Cadastro de portfólio de serviços][1]).
+Preconditions
+-------------
 
-Detalhes das atividades/tarefas do fluxo
--------------------------------------------
+1.  The Portfolio with its Services and Activities, desired in the Portal, must
+    already be created and available for use within the system (see
+    knowledge [Service portfolio registration][1]).
 
-*Indicar no portfólio de serviços a disponibilização para portal*
+Details of activities/tasks flow
+--------------------------------
 
-1. Acesse o menu (**Processos ITIL > Gerência de Portfólio e Catálogo > Gerenciamento de Portfólio**) e configure o portfólio de 
-serviços para ser liberado no portal.
+Indicate in the service portfolio the availability for portal
+-------------------------------------------------------------
 
-*Indicar nos serviços a disponibilização para portal*
+1.  Access the **ITIL Processes menu > Portfolio and Catalog Management >
+    Portfolio Management** and configure the portfolio of services to be
+    released on the portal.
 
-1. Acesse o menu (**Processos ITIL > Gerência de Portfólio e Catálogo > Gerenciamento de Portfólio**), clique no botão avançar 
-Portfólio e configure cada serviço para ser liberado no portal.
+Indicate in the services the availability for portal
+----------------------------------------------------
 
-*Indicar nas atividades a disponibilização para portal*
+1.  Access the **ITIL Processes menu > Portfolio and Catalog Management >
+    Portfolio Management** click the *Next Portfolio* button, and configure each
+    service to be released on the portal.
 
-1. Para cada Serviço de Negócio/TI são cadastradas as atividades de requisição e incidente. Acesse a tela de Gerenciamento de 
-Portfólio (**Processos ITIL > Gerência de Portfólio e Catálogo > Gerenciamento de Portfólio**), clique no botão "Avançar Portfolio",
-"Avançar Serviço" e configure cada atividade para ser liberada no portal.
+Indicate in the activities the availability for portal
+------------------------------------------------------
 
-*Configurar parâmetros específicos de disponibilização para portal*
+1.  For each Business/IT Service, the request and incident activities are
+    registered. Access the Portfolio Management screen (**ITIL Processes >
+    Portfolio and Catalog Management > Portfolio Management**), click the *Next
+    Portfolio* button, advance Service, and configure each activity to be
+    released in the portal.
 
-1. Configurar o parâmetro "**Identifica o id do serviço para solicitações de serviços e incidentes**" informando a identificação do
-serviço padrão para abertura da solicitação de serviços/incidentes;
+Configure specific availability parameters for portal
+-----------------------------------------------------
 
-2. Configurar o parâmetro "**Identifica o id de origem do chamado padrão da solicitação de serviço**" informando a identificação da
-origem para abertura de solicitação de serviços/incidentes;
+1.  Configure the "**Identifies service id for service requests and incidents**"
+    parameter by informing the default service ID for opening the
+    service/incident request;
 
-3. Configurar o parâmetro "**[Portal] ID do Contrato padrão para abertura de chamados**" informando a identificação do contrato 
-padrão para abertura da solicitação de serviços/incidentes;
+2.  Configure the parameter "**Identifies the source id of the service request's
+    default call**", informing the source identification for opening the request
+    for services/incidents;
 
-4. Configurar o parâmetro “**Habilitar Portal como tela inicial do Citsmart? (Ex: S ou N)**” deverá estar habilitado em 'S', para
-apresentar a URL do Portal como página principal;
+3.  Configure the "**[Portal] Default Contract ID for Call Opening**" setting
+    the default agreement ID for opening the service/incident request;
 
-5. Configurar o parâmetro “**Vincula contratos a unidade (Ex: S ou N)**” esteja setado em 'S' , então a Unidade do usuário deverá 
-estar vinculado ao contrato para que o mesmo possa abrir solicitação de serviço por meio do Portal;
+4.  Configure the "**Enable Portal as Citsmart home screen? (Ex: Y or N)** "
+    must be enabled in 'Y', to display the Portal URL as the main page;
 
-6. Configurar o parâmetro “**Filtrar por Solicitação em Andamento**” retorna uma lista de solicitações somente com requisição cuja
-tarefa atual esteja igual a 'Em Andamento';
+5.  To set the "**Binds contracts to unit (Ex: Y or N)" parameter is set to
+    'Y**', then the User Unit must collapse bound to the contract so that it can
+    open service request through Portal;
 
-7. Configurar o parâmetro “**Habilitar novo portal?**” Somente se o parâmetro estiver igual a N então pode usar esse outro 
-parâmetro que não é obrigatório:
+6.  Configuring the "**Filter by Request in Progress**" parameter returns a list
+    of requests only with a request whose task is equal to 'In Progress';
 
-    - Configurar o parâmetro "**Ocultar Botão 'Nova Solicitação' no Portal**", o qual define a exibição do botão "Nova Solicitação".
-    Informar o valor "N", para ser apresentado o botão "Nova Solicitação" para registro da solicitação de serviço.
-    - Configurar o parâmetro "**Apresentar tela lista de serviço completa no Portal**", o qual define a exibição das colunas de
-    "Serviço". Informar o valor "N" para serem exibidos as opções para responder questionário (caso esteja vinculado ao serviço) e 
-    de anexo de arquivos;
-    
-8. Configurar o parâmetro “**Habilita permissão de acesso para grupos de usuário no portal - Valores: "S" ou "N" Default: "N**”
+7.  Configure the "**Enable New Portal**?" Parameter Only if the parameter is
+    equal to N can you use this other parameter that is not required:
 
-9. Configurar o parâmetro “**Habilita botão "Adicionar e continuar" na popup de nova solicitação no portal - Valores: "S" ou "N" 
-Default: "N"**.
+    -   Configure the "**Hide New Request**" button in the "Portal" parameter,
+        which sets the display of the "New Request" button. Enter the "N" value,
+        to display the "New Request" button to register the service request.
 
-Anexos
+    -   Configure the "**Display full service list screen in Portal"
+        parameter**, which defines the display of the "Service" columns. Enter
+        the "N" value to display the options for answering a questionnaire (if
+        linked to the service) and file attachment;
+
+8.  Configure the parameter "**Enable access permission for user groups in the
+    portal - Values:" Y "or" N "Default:" N**"
+
+9.  Configure the "**Enable Add and Continue" button in the new request popup in
+    the portal - Values: "Y" or "N" Default: "N**".
+
+Attachment
 -----------
 
 ![Download](images/passos.bpm)
@@ -77,6 +94,6 @@ Anexos
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/06/2019 - Larissa Lourenço
+    <b>Updated:</b>09/03/2019 - Anna Martins
 
-[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+[1]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
