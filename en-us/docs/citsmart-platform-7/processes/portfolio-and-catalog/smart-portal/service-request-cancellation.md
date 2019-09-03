@@ -1,72 +1,84 @@
-title:  Cancelamento de solicitação de serviço via Smart Portal
-Description: Disponibiliza o cancelamento de solicitações de serviço via Smart Portal. 
-# Cancelamento de solicitação de serviço via Smart Portal
+title: Service request cancellation using Smart Portal
+Description: Service request cancellation using Smart Portal
 
-Como acessar
---------------
+# Service request cancellation using Smart Portal
 
-1. Na tela inicial do **Smart Portal**, clique no botão de menu
-![Registro](images/simb-meno.white.jpg) e logo após, clique em **Minhas solicitações**.
+How to access
+-------------
 
-Pré-condições
-----------------
+1.  On the **Smart Portal** home screen, click the menu button ![figure](images/simb-meno.white.jpg), and then
+    click **My Requests**.
 
-1. Ter a solicitação de serviço registrada (ver conhecimento [Gerenciamento de ticket (serviços)][1]);
+Preconditions
+-------------
 
-2. Ter permissão no fluxo de trabalho que faz vínculo com a atividade de requisição/incidente para cancelar a solicitação. Essa 
-permissão é definida no cadastro de grupo (ver conhecimento [Cadastro e pesquisa de grupo][2]);
+1.  Have the service request registered (see knowledge [Ticket management
+    (services)][1]);
 
-3. Informe o conteúdo abaixo no parâmetro (ver conhecimento [Regras de parametrização - Smart Portal][3]);
+2.  Have permission in the workflow that links to the Request/incident activity
+    to cancel the request. This permission is defined in the group register (see
+    knowledge [Group registration and search][2]);
 
-    - Parâmetro 302: setar valor "S".
-    
-Filtros
------------
+3.  Enter the content below into the parameter (see knowledge [Parameterization
+    rules - Smart Portal][3]);
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando
-a localização dos itens desejados:
+-   Parameter 302: with the value "Y".
 
-    - Pesquisa; 
-    - Situação;
-    - Ordenar por;
-    - Ordem.
-    
-    ![Pesquisa](images/canc.img1.jpg)
-    
-    **Figura 1 - Tela de pesquisa de solicitação**
-    
-Listagem de itens
----------------------
+Filters
+-------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: **Ticket, Tipo, Serviço, Atividade, Criada em, Tarefa, Grupo atual, Situação, SLA, Prazo limite, Status 
-do SLA** e **Prioridade**.
+1.  The following filters enables the user to restrict the participation of
+    items in the standard feature listing, making it easier to find the desired
+    items:
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: *Registar opinião, Reabrir 
-solicitação, Pesquisa de satisfação, Descrição, Anexos, Ocorrências, Registrar Ocorrência, Cancelar Solicitação* e *Mensagem*.
+-   Search;
 
-    ![Listagem](images/canc.img2.jpg)
+-   Situation;
 
-    **Figura 2 - Tela de listagem de solicitação**
+-   Sort by;
 
-Preenchimento dos campos cadastrais
-------------------------------------- 
+-   Order.
 
-1. Não se aplica.
+![figure](images/canc.img1.jpg)
 
-Cancelando a solicitação de serviço
---------------------------------------
+**Figure 1 - Ticket search screen**
 
-1. Feito isso, serão exibidas as solicitações de serviço;
+Items list
+----------
 
-2. Busque a solicitação de serviço que deseja cancelar, clique no ícone ![simbolo](images/simb-stop.jpg) da mesma e confirme o 
-cancelamento. Após isso, a solicitação será cancelada.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: Ticket, Type, Service, Incident/Request, Title, Created on, Task,
+    Current group, Situation, SLA, Time limit, SLA status and Priority.
+
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Register opinion*, *Reopen service request*, *Satisfaction
+    Survey*, *Description*, *Attachments*, *Occurrence*, *Register
+    occurrence*, *Cancel Request* and *Message*.
+
+![figure](images/canc.img2.jpg)
+
+**Figure 2 - Ticket listing screen**
+
+Filling in the registration fields
+----------------------------------
+
+1.  Not applicable.
+
+Canceling the service request
+-----------------------------
+
+1.  Once this is done, service requests will be displayed;
+
+2.  Find the service request you want to cancel, click the service icon ![figure](images/simb-stop.jpg) and
+    confirm the cancellation. After this, the request will be canceled.
+
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/06/2019 - Larissa Lourenço
+    <b>Updated:</b>09/03/2019 - Anna Martins
 
-[1]:/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html
-[2]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
-[3]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-smart-portal.html
+[1]:/en-us/citsmart-platform-7/processes/tickets/ticket-management.html
+[2]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[3]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-smart-portal.html
