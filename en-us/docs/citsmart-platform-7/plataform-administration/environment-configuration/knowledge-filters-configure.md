@@ -1,56 +1,53 @@
-title: Configuração de filtros do portal do conhecimento
-Description: Objetivo configurar os filtros que irão aparecer habilitados para pesquisa de um conhecimento.
-# Configuração de filtros do portal do conhecimento
+title: Knowledge Portal Filters configuration
+Description: This functionality aims to personalize the filters that will appear enabled to search for a knowledge.
+# Knowledge Portal Filters configuration
 
-Esta funcionalidade tem por objetivo configurar os filtros que irão aparecer habilitados para pesquisa de um conhecimento no Portal 
-do Conhecimento.
+This functionality aims to personalize the filters that will appear enabled to search for a knowledge in the knowledge Portal.
 
-Como acessar
+How to access
 --------------
 
-1. Acesse a funcionalidade de personalizar os filtros do portal do conhecimento através da navegação no menu principal 
-**Sistema > Configurações > Configuração de Filtros do Portal do Conhecimento**.
+1. Access the knowledge portal filter setup feature by navigating through the main menu 
+**System > Settings > Knowledge Portal Filters Configuration**.
 
-Pré-condições
+Preconditions
 ---------------
 
-1. Não se aplica.
+1. No applicable.
 
-Filtros
+Filters
 ----------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando
-a localização dos itens desejados:
+1. The following filterS enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Privacidade;
-    - Aprovador;
-    - Autor;
-    - Origem;
-    - Tipo.
+    - Privacy;
+    - Approver;
+    - Author;
+    - Origin;
+    - Type.
     
-2. Nesta tela, são exibidos os filtros que podem ser apresentados para facilitar a pesquisa de um conhecimento no Portal do 
-Conhecimento.
+2. On this screen, the filters that can be presented to facilitate the search of a knowledge in the Knowledge Portal are displayed.
 
-    ![Filtros](images/filtros.con.img1.jpg)
+    ![Filters](images/filters.img1.jpg)
     
-    **Figura 1 - Configuração de filtros do portal do conhecimento**
+    **Figure 1 - Knowledge portal filters setup**
     
-3. Selecione os filtros que deseja que sejam apresentados na pesquisa de um conhecimento;
+3. Select the filters you want to be presented in the search of a knowledge;
 
-4. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma futura 
-auditoria.
+4. Click the *Save* button to register, where the date, time and user will be automatically saved for a future audit.
 
-Listagem de itens
+Items list
 ------------------
 
-1. Não se aplica.
+1. No applicable.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Não se aplica.
+1. No applicable.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/23/2019 – Larissa Lourenço
+    <b>Updated:</b>09/03/2019 – Larissa Lourenço
