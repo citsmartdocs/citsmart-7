@@ -85,11 +85,6 @@ Configure specific availability parameters for portal
 9.  Configure the "**Enable Add and Continue" button in the new request popup in
     the portal - Values: "Y" or "N" Default: "N**".
 
-Attachment
------------
-
-![Download](images/passos.bpm)
-
 
 !!! tip "About"
 
