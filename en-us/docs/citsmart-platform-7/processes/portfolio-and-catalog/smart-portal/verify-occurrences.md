@@ -12,11 +12,9 @@ How to access
 Preconditions
 -------------
 
-1.  Have the service request registered (see knowledge [Service request
-    registration using Smart Portal][1]);
+1.  Have the service request registered (see knowledge [Service request registration using Smart Portal][1]);
 
-2.  You have enabled the parameter below (see knowledge [Parameterization rules
-    - Smart portal][2]):
+2.  You have enabled the parameter below (see knowledge [Parameterization rules - Smart Portal][2]):
 
 -   Parameter 298: "Y".
 
