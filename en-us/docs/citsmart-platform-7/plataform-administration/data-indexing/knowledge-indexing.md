@@ -1,57 +1,56 @@
-title:  Indexação de conhecimentos
-Description: A funcionalidade de Indexação de Conhecimentos tem por objetivo criar índices. 
-# Indexação de conhecimentos
+title:  Knowledge Indexing
+Description: The Knowledge Indexing functionality aims to create indexes. 
+# Knowledge Indexing
 
-A funcionalidade de Indexação de Conhecimentos tem por objetivo criar índices, ou seja, conhecer o conteúdo dos conhecimentos 
-publicados na base de conhecimento, identificando termos que representem seu assunto, para referenciá-los e garantir um retorno
-preciso do conhecimento, quando pesquisado.
+The Knowledge Indexing functionality aims to create indexes, that is, to know the content of the knowledge published in the 
+knowledge base, identifying terms that represent its subject, to refer them and ensure a precise return of knowledge, when 
+searched.
 
-Como acessar
+How to access
 ---------------
 
-1. Acesse o menu principal **Sistema > Configurações > Gerência do Conhecimento [Indexação]**.
+1. Access the main menu **System > Configuration > Knowledge Management [Indexing]**.
 
-Pré-condições
+Preconditions
 -----------------
 
-1. Configure os parâmetros abaixo (ver conhecimento [Regras de parametrização - conhecimento][1]):
+1. Configure the parameters bellow (see knowledge [Parameterization rules - knowledge][1]):
 
-- Parâmetro 304;
-- Parâmetro 308;
-- Parâmetro 332.
+- Parameter 304;
+- Parameter 308;
+- Parameter 332.
 
-Indexando conhecimentos
+Indexing knowledge
 ----------------------------
 
-1. Será apresentada a tela para **Indexação de Conhecimentos**, conforme ilustrada na figura abaixo:
+1. After that, the screen for **Indexing Knowledge** will be displayed, as shown in the figure below:
 
-    ![Indexação](images/index-con.img1.jpg)
+    ![Index](images/index.img1.jpg)
     
-    **Figura 1 - Tela de indexação de conhecimentos**
+    **Figure 1 - Knowledge indexing screen**
     
-2. Clique no botão "Indexar Base de Conhecimento" e confirme a operação para realizar a indexação dos conhecimentos publicados na 
-Base de Conhecimento. Após isso, serão exibidos os conhecimentos que foram indexados, conforme exemplo ilustrado na figura abaixo:
+2. Click the *Index knowledge base* button and confirm the operation to index knowledge published in the Knowledge Base. After 
+this, the knowledge that has been indexed will be displayed, as shown in the figure below:
 
-    ![Conhecimento](images/index-con.img2.jpg)
+    ![Knowledge](images/index.img2.jpg)
     
-    **Figura 2 - Conhecimento indexado**
+    **Figure 2 - Indexed knowledge**
     
-    !!! info "IMPORTANTE"
+    !!! info "IMPORTANT"
     
-        Será indexado a quantidade de conhecimentos conforme configurado no parâmetro “Total de itens a serem importados por vez ao 
-        indexar documentos no Solr (Ex: 1000)”.
+        The amount of knowledge as configured in the parameter "Total items to be imported at a time when indexing documents in 
+        Solr (Ex: 1000)" will be indexed.
         
-3. Para remover a indexação dos conhecimentos, basta clicar no botão "Remover Indexação de Base de Conhecimento" e confirmar a
-operação.
+3. To remove knowledge indexing, simply click the *Remove indexing knowledge base* button and confirm the operation.
 
 !!! note "NOTA"
 
-    Ao publicar novos conhecimentos, não é necessário remover a indexação atual e indexar novamente, o procedimento é automático.
+    When publishing new knowledge, it is not necessary to remove the current indexing and index again, the procedure is automatic.
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/05/2019 - Larissa Lourenço
+    <b>Updated:</b>03/09/2019 - Larissa Lourenço
 
 
 
@@ -65,4 +64,4 @@ operação.
 
 
 
-[1]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-knowledge.html
+[1]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-knowledge.html
