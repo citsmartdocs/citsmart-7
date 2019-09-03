@@ -65,7 +65,7 @@ Filling in the registration fields
 !!! info "IMPORTANT"
 
      Only if the "Record Occurrence Per Portal" parameter is enabled, the   
-     icon ![figure](images/simb-plus.jpg) will be displayed in the "in progress" request, which allows the
+     icon will be displayed in the "in progress" request, which allows the
      occurrence to be registered.
 
 1.  Find the service request (in progress) that you want to record an occurrence
