@@ -1,86 +1,104 @@
-title:  Permissão de acesso do gerenciamento de portfólio
-Description: Definir quem terá acesso às funcionalidades do Gerenciamento de Portfólio de Serviços. 
-# Permissão de acesso do gerenciamento de portfólio
+title: Portfolio management access permission
+Description: The Portfolio Management feature allows to determine who will have access to the features of the Portfolio Management and which access type is allowed.
 
-A ITIL recomenda que um produto ITSM seja capaz de atribuir níveis de responsabilidades específicos para um Gerente de Portfólio ou
-outros, com base nesta recomendação, o CITSmart adota esta forma diferenciada de controle de permissões, por módulo. Vale a pena
-ressaltar que a funcionalidade ‘Perfil de Acesso’ continua existindo e controlando todos os tipos de acessos sem separação por módulos
-para que o administrador do produto possa intervir com mais propriedade, sempre que necessário.
+# Portfolio management access permission
 
-A funcionalidade de Gerência de Portfólio permite definir quem terá acesso às funcionalidades do Gerenciamento de Portfólio de 
-Serviços e qual tipo de acesso é permitido (visualização, gravação e/ou exclusão).
+ITIL recommends that an ITSM product be able to assign specific levels of
+responsibilities to a Portfolio Manager or others, based on this recommendation,
+CITSmart adopts this differentiated form of permissions control, per module. It
+is worth mentioning that the 'Access Profile' functionality continues to exist
+and it controls all types of access without unbundling by modules so that the
+product administrator can intervene more properly whenever necessary.
 
-Como acessar
---------------
+The Portfolio Management feature allows to determine who will have access to the
+features of the Portfolio Management and which access type is allowed (view,
+save and/or delete).
 
-1. Acesse a funcionalidade de permissão de acesso do Gerenciamento de Portfólio através da navegação no menu principal 
-**Acesso e Permissão > Gerência de Portfólio**.
+How to access
+-------------
 
-Pré-condições
----------------
+1.  Access the Portfolio Management access permission feature navigating through
+    the main menu **Access and Permission > Portfolio Management**.
 
-1. Ter o perfil de acesso cadastrado (ver conhecimento [Cadastro e pesquisa de perfil de acesso][1]).
+Preconditions
+-------------
 
-Filtros
----------
+1.  Have an Access Profile registered (see knowledge [Acess profile registration
+    and search][1]).
 
-1. Não se aplica.
+Filters
+-------
 
-Listagem de itens
--------------------
+1.  Not applicable.
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem padrão
-da funcionalidade: **ID** e **Nome**;
+Items list
+----------
 
-2. Existe um botão de ação disponível ao usuário em relação a cada item da listagem, é ele: "Editar";
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: **ID** and **Name**.
 
-3. Será apresentada a tela para definição da **Permissão de Acesso** às funcionalidades do **Gerenciamento de Portfólio**, na qual 
-exibe os **Perfis de Acesso** já registrados no sistema. A figura a seguir ilustra essa tela:
+2.  There is an action button available to the user in relation to each item in
+    the listing, it is: *Edit*.
 
-    ![Permissão](images/acess-port.img1.jpg)
-    
-    **Figura 1 - Tela de permissão de acesso - Gerenciamento de portfólio**
-    
-4. Clique no botão "Editar" do Perfil de Acesso para o qual irá definir o tipo de acesso ao Gerenciamento de Portfólio. Feito isso, 
-serão apresentadas as funcionalidades do Gerenciamento de Portfólio.
+3.  The screen to determine the **Access Permission** will be displayed, which
+    lists the **Access Profiles** already registered in the database.The image
+    below illustrates this screen:
 
-Preenchimento dos campos cadastrais
---------------------------------------
+   ![figure](images/acess-port.img1.jpg)
+   
+   **Figure 1 - Access permission screen - Portfolio manager**
 
-1. Para cada funcionalidade do Gerenciamento de Portfólio, selecione as ações (visualizar, gravar e/ou deletar) que o perfil poderá 
-realizar:
+4.  Click on the *Edit* button of an access profile to determine the type of
+    access to the Portfolio Management. Afterwards, the features of the
+    Portfolio Management will be displayed, as illustrated on the image below:
 
-    ![Definição](images/acess-port.img2.jpg)
-    
-    **Figura 2 - Definição do tipo de acesso**
-    
-    - **Visualizar**: o usuário com este perfil poderá fazer consultas e visualizar os dados;
-    - **Gravar**: o usuário com este perfil poderá fazer o “Pesquisar” e ainda incluir e alterar os dados;
-    - **Deletar**: o usuário com este perfil poderá fazer o “Gravar” e ainda excluir os dados do sistema.
-    
-    !!! warning "ATENÇÃO"
-    
-        Ao determinar o tipo de perfil de acesso, marcando/desmarcando um checkbox, todos os checkboxs subordinados a este na 
-        estrutura são igualmente marcados/desmarcados em cascata.
-        
-    !!! info "IMPORTANTE"
-    
-        Os perfis de acesso ficarão desabilitados (os checkbox de todos os perfis de acessos pré-existentes ficarão desmarcados), 
-        por default, quando for criadas novas funcionalidades, exigindo, portanto, que o administrador explicitamente habilite 
-        esta para os perfis que desejar, tornando-a disponível para os perfis pretendidos.
-        
-2. Após definição da permissão de acesso, clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão 
-gravados automaticamente para uma futura auditoria.
+Filling in the registration fields
+----------------------------------
 
-!!! info "IMPORTANTE"
+1.  For each feature of the Portfolio Management, select the actions (view, sabe
+    and/or delete) available to the user:
 
-    As exclusões executadas no produto são exclusões lógicas (e não físicas), portanto em casos extremos há como recuperar algo 
-    excluído, porém isso exigirá apoio técnico de um analista/consultor.
+   ![figure](images/acess-port.img2.jpg)
+   
+   **Figure 2 - Access type determination**
+
+-   **View**: the user with this profile can make queries and view the data;
+
+-   **Save**: the user with this profile can do the "Search" and also include
+    and change the data;
+
+-   **Delete**: the user with this profile can "Save" and delete the system
+    data.
+
+   !!! warning "ATTENTION"
+
+      When determining the type of access profile, by marking/unmarking a
+     checkbox, all checkboxes that are subordinate to it in the structure are
+     also marked/unmarked cascade.
+
+   !!! info "IMPORTANT"
+
+     The access profiles will be disabled (the checkboxes of all pre-existing
+     access profiles will be unchecked), by default, when new features are
+     created, thus requiring the administrator to explicitly enable this for the
+     profiles you want, making it available for the desired profiles.
+
+2.  After determining the access permission, click on the *Save* button to
+    confirm the entry, where date, time and user will be stored automatically
+    for a future audit.
+
+!!! info "IMPORTANT"
+
+    The exclusions executed in the product are logical (and not physical), so
+    in extreme cases there is how to recover something excluded, but this will
+    require technical support from an analyst/consultant.
+
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/05/2019 - Larissa Lourenço
+    <b>Updated:</b>09/03/2019 - Anna Martins
 
-[1]: /pt-br/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
+[1]: /en-us/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
 
