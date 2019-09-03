@@ -1,612 +1,660 @@
-title:  Manual de instalação do componente EVM
-Description: Neste documento, será apresentado o processo de Gerenciamento de Eventos. 
-# Manual de instalação do componente EVM
+title: EVM component installation guide
+Description: This document is intended to provide guidance on installing and configuring the EVM component.
 
-Neste documento, será apresentado o processo de Gerenciamento de Eventos.
+# EVM component installation guide
 
-Segundo a ITIL, eventos é uma mudança de estado que possui significado para o gerenciamento de um item de configuração (IC) ou 
-serviço de TI.
+This document is intended to provide guidance on installing and configuring the EVM component.
 
-Exemplos de eventos:
+According to ITIL, events is a state change that has significance for the
+management of a configuration item (IC) or IT service.
 
-- Um usuário logou no sistema;
-- Um backup agendado não ocorreu;
-- O sistema está sendo acessado pelo dobro de usuários do que o normal;
-- Um usuário não autorizado acessou um local da rede;
-- Um sistema está mais lento do que o normal;
-- Excesso de ligações por engano para o service desk;
-- Qualquer outro que tenha relevância para quem está gerindo os serviços de ti.
+Examples of events:
 
-Eventos são tipicamente reconhecidos por meio de notificações criadas por um serviço de TI, IC (Item de Configuração) ou
-ferramenta de monitoração.
+-   A user has logged into the system;
 
-O objetivo do Gerenciamento de Eventos é prover a capacidade de detectar eventos, analisá-los e determinar ações de controle
-apropriadas. O Gerenciamento de Eventos é, portanto, a base para monitoração e controle operacional.
+-   A scheduled backup did not occur;
 
-O Gerenciamento de Eventos pode ser relacionado com outros processos, como o Gerenciamento de Ativos e Configuração. Em relação a 
-este processo, o Gerenciamento de Eventos poderá ajudar a determinar o status do ciclo de vida dos ativos. Por exemplo, um evento 
-pode ser gerado para sinalizar que um ativo foi configurado de forma errada, impactando na operação e na entrega do serviço. Além
-disso, a Gestão de Eventos pode ser uma rica fonte de informações para os Sistemas de Gestão de Conhecimento. Por exemplo, os 
-padrões de desempenho podem ser correlacionados com as atividades empresariais e utilizados como embasamento para decisões 
-estratégicas futuras.
+-   The system is being accessed by twice as many users as usual;
 
-Rotina do gerenciamento de eventos
+-   An unauthorized user has accessed a network location;
+
+-   A system is slower than normal;
+
+-   Excessive connections by mistake to the servicedesk;
+
+-   Any other that has relevance to who is managing the services of you.
+
+Events are typically recognized through notifications created by an IT service,
+Configuration Item (CI), or monitoring tool.
+
+The purpose of Event Management is to provide the capability to detect events,
+analyze them, and determine appropriate control actions. Event Management is
+therefore the basis for monitoring and operational control.
+
+Event Management can be related to other processes, such as Asset Management and
+Configuration. Regarding this process, Event Management can help you determine
+the asset lifecycle status. For example, an event can be generated to signal
+that an asset has been misconfigured, impacting the operation and delivery of
+the service. In addition, Event Management can be a rich source of information
+for Knowledge Management Systems. For example, performance standards can be
+correlated with business activities and used as a basis for future strategic
+decisions.
+
+Event management routine
+------------------------
+
+Below is the explanatory designing of the Event Management routine:
+
+   ![figure](images/evm.img1.jpg)
+   
+   **Figure 1 - Event management routine**
+
+-   **CMDB**: It is a repository of information related to all components of
+    CITSmart ITSM. It contains the details of the [configuration (IC)
+    items](http://en.wikipedia.org/wiki/Configuration_item) in the IT
+    infrastructure.
+
+-   **Citsmart Event Monitor**: Application responsible for capturing the events
+    that occur in the IT infrastructure.
+
+-   Citsmart Inventory: Application responsible for performing the asset
+    inventory and configuration items on the network and send the obtained data
+    to the CITSmart ITSM store in the database.
+
+-   **MongoDB**: Document-oriented database, different from traditional
+    databases that follow the relational model. It is [large data
+    storage](http://en.wikipedia.org/wiki/Very_large_database)and higher speed.
+
+-   **Nagios**: Network monitoring tool. It can monitor both Hosts and Services,
+    alerting when problems occur and also when problems are resolved. Hosts are
+    the equipments and the Services are the resources offered by the equipments.
+
+-   **Zabbix**: Monitoring tool for networks, servers and services, designed to
+    monitor availability, user experience and quality of services. The Zabbix
+    architecture and the flexibility of the modules allow the tool to be used
+    for conventional monitoring (on / off), monitoring of application
+    performance, user experience analysis and root cause analysis in complex
+    environments through the Zabbix server and Rules of correlation.
+
+Operation of event management routine
+-------------------------------------
+
+The Event Management routine works as follows:
+
+-   The Citsmart Event Monitor communicates with the monitoring tool (Nagios and
+    / or Zabbix) to receive the event information from the network assets and
+    send to CITSmart ITSM to trigger the appropriate control actions.
+
+-   Citsmart Inventory collects assets and configuration items from the network
+    and communicates with Citsmart Event Monitor to send this information so
+    that it can process the rules that have been defined in CITSmart ITSM and
+    send event instances, Which are stored in the MongoDB, for the CITSmart ITSM
+    to trigger the appropriate actions. In addition, Citsmart Inventory also
+    communicates with CITSmart ITSM and passes the captured asset data to the
+    registry of configuration items.
+
+!!! note "NOTE"
+
+    The rules used by Citsmart Event Monitor are created by a language called
+    EPL (Event Processing Language).
+
+!!! info "IMPORTANT"
+
+    In order for this routine to work perfectly, it is necessary to perform
+    all the configuration, correctly, of the inputs of the Event Management
+    module in CITSmart ITSM.*
+
+Integration of event management module
 --------------------------------------
 
-Abaixo segue o desenho explicativo da rotina do Gerenciamento de Eventos:
+Event Management consists of the following applications:
 
-![Rotina](images/evm.img1.jpg)
+-   CITSmart ITSM - CMDB and opensource platform of ITSM;
 
-**Figura 1 - Rotina do gerenciamento de eventos**
+-   Citsmart EVM - Event Management;
 
-- **CMDB**: É um repositório de informações relacionadas a todos os componentes do CITSmart. Ele contém os detalhes dos [itens de 
-configuração][1] (IC) na infraestrutura de TI.
-- **Citsmart Event Monitor**: Aplicação responsável por capturar os eventos que ocorre na infraestrutura de TI.
-- **Citsmart Inventory**: Aplicação responsável por realizar o inventário dos ativos e itens de configuração na rede e enviar os 
-dados obtidos para o CITSmart armazenar no banco de dados.
-- **MongoDB**: Banco de dados orientado a documentos, diferente dos bancos de dados tradicionais que seguem o modelo relacional.
-Ele é de [grande armazenamento][2] de dados e de maior velocidade.
-- **Nagios**: Ferramenta de monitoramento de rede. Ele pode monitorar tanto Hosts quanto Serviços, alertando quando ocorrerem 
-problemas e também quando os problemas são resolvidos. Os hosts são os equipamentos e os Serviços são os recursos oferecidos 
-pelos equipamentos.
-- **Zabbix**: Ferramenta de monitoramento de redes, servidores e serviços, pensada para monitorar a disponibilidade, experiência
-de usuário e qualidade de serviços. A arquitetura Zabbix e a flexibilidade dos módulos permitem que a ferramenta seja utilizada
-para o monitoramento convencional (on/off), acompanhamento de desempenho de aplicações, análise de experiência de usuário e 
-análise de causa raiz em ambientes complexos, através do servidor Zabbix e as regras de correlacionamento.
+-   Citsmart Inventory - Inventory.
 
-Funcionamento da rotina de gerenciamento de eventos
--------------------------------------------------------
+!!! info "IMPORTANT"
 
-A rotina do Gerenciamento de Eventos funciona da seguinte forma:
+   Each application must be installed on a separate instance of JBoss.
 
-- O Citsmart Event Monitor se comunica com a ferramenta de monitoração (Nagios e/ou Zabbix) para receber as informações de 
-eventos dos ativos da rede e enviar para o CITSmart disparar as ações de controle apropriadas.
-- O Citsmart Inventory faz o levantamento de inventário dos ativos e itens de configuração da rede e se comunica com o Citsmart
-Event Monitor para enviar essas informações, para que o mesmo processe as regras as quais foram definidas no CITSmart e envie as
-ocorrências de eventos, que estão armazenadas no MongoDB, para o CITSmart disparar as devidas ações. Além disso o Citsmart 
-Inventory também se comunica com o CITSmart e repassa os dados dos ativos capturados para o registro dos itens de configuração.
+!!! note "NOTE"
 
-!!! note "NOTA"
+   Instances should be downloaded to CITSMART FTP.
 
-    As regras utilizadas pelo Citsmart Event Monitor são criadas por uma linguagem chamada EPL (Linguagem de Processamento de
-    Eventos).
-    
-!!! info "IMPORTANTE"
+To integrate you must take into account the following points:
 
-    Para que essa rotina funcione perfeitamente, é necessário realizar toda a configuração, corretamente, dos insumos do módulo
-    de Gerenciamento de Eventos no CITSmart ITSM.
-    
-Integração do módulo de gerenciamento de eventos
--------------------------------------------------------
+-   If you do not have CITSmart Enterprise ITSM installed, in the case of a new
+    client, you must install it, and the Citsmart Inventory and Citsmart Event
+    Monitor applications.
 
-O Gerenciamento de Eventos é composto pelas seguintes aplicações:
+-   If you already have CITSmart Enterprise ITSM installed, you must update it
+    to the latest official version that has Event Management and install the
+    Citsmart Inventory and Citsmart Event Monitor applications.
 
-- CITSmart - CMDB e plataforma ITSM;
-- Citsmart EVM - Gerenciamento de Eventos;
-- Citsmart Inventory - Inventário.
+Initial procedures
+------------------
 
-!!! info "IMPORTANTE"
+CITSMART.NET and SNMP Capture Agent
 
-    Cada aplicação deverá ser instalada em uma instância separada do JBoss.
-    
-!!! note "NOTA"
+*CITSMART.NET Capture Agent*: It is a component of the CITSmart solution, which
+runs on Windows machines (it is the same component that runs on the Inventory
+Collection Server, the difference being that it runs locally with Local System
+Account policies - without permissions Access to the network and other
+equipment).
 
-    As instâncias deverão ser baixadas no FTP da Central IT.
-    
-Para integrar o Módulo de Gerenciamento de Eventos deve levar em consideração os seguintes pontos:
+*SNMP*: The Simple Network Management Protocol (SNMP) is an application-layer
+protocol for typical IP network management that facilitates the exchange of
+information between network devices such as cards And computers (switches) and
+printers. For SNMP to work in both Windows and Linux environments, you need to
+install the components / packages and enable permissions.
 
-- Se não possuir o CITSmart instalado, no caso de um cliente novo, deverá instalar o mesmo, e as aplicações Citsmart Inventory e
-Citsmart Event Monitor.
-- Caso já tenha o CITSmart instalado, deverá realizar a atualização do mesmo para a última versão oficial que possui o 
-Gerenciamento de Eventos e instalar as aplicações Citsmart Inventory e Citsmart Event Monitor.
+The Inventory application captures the data through the SNMP port (161) and / or
+the Capture Agent Citsmart.Net (port 7103, developed by Central IT). Initially,
+Inventory performs a "ping" command to verify that the machine is active. If you
+can perform the command, try to access the SNMP port of the configuration item.
+If access to the port is not successful, Inventory tries to access through the
+capture agent.
 
-Procedimentos iniciais
-------------------------
+!!! note "NOTE"
 
-Agente de Captura CITSMART.NET e SNMP
+    The configurations related to Citsmart Inventory are performed in CITSmart
+    ITSM, in the menu ITIL Processes > Event Management > Inventory
+    Connections.
 
-*Agente de Captura CITSMART.NET* : é um componente da solução CITSmart, que é executado em máquinas Windows (é o mesmo componente
-que é executado no Inventory Collection Server, a diferença é que ele é executado localmente com as políticas da Conta do 
-Sistema Local - sem permissões Acesso à rede e outros equipamentos).
+Capture Agent Citsmart.Net can be used as a capture "centralizer", to which the
+Inventory capture requests for all other machines in a network would be
+directed. This is even the most suitable way for networks with a large number of
+machines. You can also perform Inventory without the Citsmart.Net Capture Agent.
+In this case, it is necessary to configure the "SNMP" service of each machine.
+On the other hand, the Capture Agent Citsmart.Net can also be installed
+individually on each machine (in this case eliminating the need to configure the
+SNMP port of each machine).
 
-*SNMP*: o Protocolo de Gerenciamento de Rede Simples (SNMP) é um protocolo de camada de aplicação para gerenciamento de rede IP
-típico que facilita a troca de informações entre dispositivos de rede, como cartões e computadores (switches) e impressoras. Para
-que o SNMP funcione nos ambientes Windows e Linux, você precisa instalar os componentes / pacotes e habilitar as permissões.
+If you use Citsmart Inventory to capture events, follow the information about
+the CITSMART.NET and SNMP Capture Agent that is contained in the "Inventory
+component installation guide" knowledge.
 
-O aplicativo Inventário captura os dados através da porta SNMP (161) e / ou do Agente de captura Citsmart.Net (porta 7103, 
-desenvolvida pela Central IT). Inicialmente, o inventário executa um comando "ping" para verificar se a máquina está ativa. Se
-você pode executar o comando, tente acessar a porta SNMP do item de configuração. Se o acesso à porta não for bem-sucedido, o 
-Inventory tentará acessar através do agente de captura.
+Installing / configuring snmp in the windows environment
+--------------------------------------------------------
 
-!!! note "NOTA"
+To install / configure the SNMP service in the Windows environment, proceed as
+described below:
 
-    As configurações relacionadas ao Inventário Citsmart são realizadas no CITSmart ITSM, no menu 
-    Processos ITIL > Gerenciamento de Eventos > Conexões de Inventário.
-    
-O Agente de captura Citsmart.Net pode ser usado como um "centralizador" de captura, ao qual os pedidos de captura de inventário
-para todas as outras máquinas em uma rede seriam direcionados. Este é mesmo o caminho mais adequado para redes com uma grande 
-quantidade de máquinas. Você também pode realizar o inventário sem o Agente de captura Citsmart.Net. Neste caso, é necessário
-configurar o serviço "SNMP" de cada máquina. Por outro lado, o Capture Agent Citsmart.Net também pode ser instalado
-individualmente em cada máquina (neste caso, eliminando a necessidade de configurar a porta SNMP de cada máquina).
+1.  Open the Windows features screen **Control Panel > Programs and Features >
+    Enable or disable Windows features**;
 
-Se for utilizado o Citsmart Inventory para a captura de Eventos, seguir as informações sobre o Agente de Captura CITSMART.NET e 
-SNMP que está contido no conhecimento “Manual de instalação do componente Inventory”.
+   ![figure](images/evm.img2.jpg)
+   
+   **Figure 2 - Windows resource screen**
 
-Instalando/Configurando SNMP no ambiente Windows
+2.  Check if the SNMP Protocol feature is active, that is, if it is selected, if
+    it is not, select it and click OK to activate the SNMP protocol, as
+    indicated in the figure below;
+
+   ![figure](images/evm.img3.jpg)
+   
+   **Figure 3 - Windows feature activation screen**
+
+3.  Once this is done, open the Windows services screen to configure SNMP;
+
+   ![figure](images/evm.img4.jpg)
+   
+   **Figure 4 - Windows services search**
+
+4.  After opening the Windows services screen, right-click on the SNMP service,
+    and then click Properties as shown in the figure below;
+
+   ![figure](images/evm.img5.jpg)
+   
+   **Figure 5 - Windows services screen**
+
+5.  The SNMP Service Properties screen will be displayed. Click the Security
+    tab, check Accept SNMP packets from any host and click Add to create a new
+    community, as indicated in the figure below;
+
+   ![figure](images/evm.img6.jpg)
+   
+   **Figure 6 - SNMP service properties screen**
+
+6.  The screen for entering the data for the new community will be displayed.
+    Enter the public name for the community and remain with the Read Only option
+    for community rights and click Add as indicated in the figure below;
+
+   ![figure](images/evm.img7.jpg)
+   
+   **Figure 7 - SNMP service community configuration screen**
+
+7.  Once this is done, the new community will be displayed on the SNMP Service
+    Properties screen, as shown in the figure below;
+
+   ![figure](images/evm.img8.jpg)
+   
+   **Figure 8 - SNMP service configuration**
+
+8.  To configure the SNMP Service, simply click on the *Ok* button.
+
+Installing / configuring snmp in the linux environment
 ------------------------------------------------------
 
-Para realizar a instalação/configuração do serviço SNMP no ambiente Windows, proceda conforme os passos descritos abaixo:
+To install / configure SNMP in the Linux environment, proceed as described
+below:
 
-1. Abra a tela de recursos do Windows **Painel de Controle > Programas e Recursos > Ativar ou desativar recursos do Windows**;
+*Installing SNMP on the CentOS Operating System*
 
-    ![Windows](images/evm.img2.jpg)
-    
-    **Figura 2 - Tela de recurso do Windows**
-    
-2. Verifique se o recurso Protocolo SNMP está ativo, ou seja, se está selecionado, caso não esteja, selecione o mesmo e clique 
-em Ok para ativação do protocolo SNMP, conforme indicado na figura abaixo;
+1.  Run the following command to install the net-snmp package:
 
-    ![Ativação](images/evm.img3.jpg)
-    
-    **Figura 3 - Tela de ativação de recursos do Windows**
-    
-3. Feito isso, abra a tela de serviços do Windows para configurar o SNMP;
+2.  The following command will back up the original SNMP configuration file:
 
-    ![Busca](images/evm.img4.jpg)
-    
-    **Figura 4 - Busca do serviços do Windows**
-    
-4. Após abrir a tela de serviços do Windows, clique com o botão direito do mouse sobre o serviço SNMP e logo em seguida clique
-em Propriedades, conforme indicado na figura abaixo;
+*Configuring the snmpd.conf file*
 
-    ![Serviços](images/evm.img5.jpg)
-    
-    **Figura 5 - Tela de serviços do Windows**
-    
-5. Será apresentada a tela de Propriedades do Serviço SNMP. Clique na aba Segurança, marque a opção Aceitar pacotes SNMP de
-qualquer host e clique em Adicionar para cria uma nova comunidade, conforme indicado na figura abaixo;
+1.  Edit the file **/etc/snmp/snmpd.conf;**
 
-    ![Propriedades](images/evm.img6.jpg)
-    
-    **Figura 6 - Tela de propriedades de serviço SNMP**
-    
-6. Será apresentada a tela para informar os dados da nova comunidade. Informe o nome public para a comunidade e permaneça com a 
-opção Somente Leitura para os direitos da comunidade e clique em Adicionar, conforme indicado na figura abaixo;
+>   There are some basic assumptions when configuring SNMP, they are:
 
-    ![Configuração](images/evm.img7.jpg)
-    
-    **Figura 7 - Tela de configuração da comunidade do serviço SNMP**
-    
-7. Feito isso, será apresentada a nova comunidade na tela de Propriedades do Serviço SNMP, conforme ilustrado na figura abaixo;
+1.  Community configuration
 
-    ![SNMP](images/evm.img8.jpg)
-    
-    **Figura 8 - Configuração do serviço SNMP**
-    
-8. Para efetuar a configuração do Serviço SNMP, basta clicar no botão "Ok".
+   If this line does not exist you should create it, but if it exists, leave it
+   as shown below:
 
-Instalação/Configuração do SNMP no ambiente Linux
--------------------------------------------------------
+1.  Group setup
 
-Para realizar a instalação/configuração do SNMP no ambiente Linux, proceda conforme os passos descritos abaixo:
+   If these lines do not exist you should create them, but if they exist, leave
+   them in agreement as shown below:
 
-*Instalação do SNMP no Sistema Operacional CentOS*
+1.  SNMP tree configuration
 
-1. Execute o seguinte comando para instalar o pacote net-snmp:
+   If this line does not exist you should create it, but if it exists, leave it
+   as shown below:
 
-    ![Código](images/cod.img1.jpg)
-    
-2. O comando seguinte fará o backup do arquivo de configuração original do SNMP:
+1.  Group access setup
 
-    ![Código](images/cod.img2.jpg)
-    
-*Configurando o Arquivo snmpd.conf*
+   If this line does not exist you should create it, but if it exists, leave it
+   as shown below:
 
-1. Edite o arquivo /etc/snmp/snmpd.conf;
+1.  The complete configuration should look similar to the one below:
 
-Existem algumas premissas básicas ao configurar o SNMP, são elas:
+2.  Restart the SNMP service with the following command:
 
-a. Configuração da comunidade
-    
-Caso esta linha não exista você deverá criá-la, porém caso ela exista, deixe-a de acordo como está mostrado abaixo:
-    
-![Código](images/cod.img3.jpg)
-    
-b. Configuração do grupo
-    
-Caso estas linhas não existam você deverá criá-las, porém caso elas existem, deixe-as de acordo como está demonstrado abaixo:
-    
-![Código](images/cod.img4.jpg)
-    
-c. Configuração da árvore SNMP
-    
-Caso esta linha não exista você deverá criá-la, porém caso ela exista, deixe-a de acordo como está mostrado abaixo:
-    
-![Código](images/cod.img5.jpg)
-    
-d. Configuração de acesso do grupo
-    
-Caso esta linha não exista você deverá criá-la, porém caso ela exista, deixe-a de acordo como está mostrado abaixo:
-    
-![Código](images/cod.img6.jpg)
-    
-e. A configuração completa deverá ficar similar ao apresentado abaixo:
-    
-![Código](images/cod.img7.jpg)
-    
-f. Reinicie o serviço SNMP com o seguinte comando:
-    
-![Código](images/cod.img8.jpg)
-    
-g. Após restartar o SNMP, realize o teste local com o objetivo de verificar se o SNMP está rodando:
-    
-![Código](images/cod.img9.jpg)
-    
-h. O teste deverá retornar o seguinte resultado:
-    
-![Código](images/cod.img10.jpg)
-    
-Instalação do MongoDB
-------------------------
+3.  After restarting SNMP, perform the local test to verify that SNMP is
+    running:
 
-Instale o MongoDB através do link: [https://www.mongodb.org/][3].
+4.  The test should return the following result:
 
-Para mais detalhes sobre a instalação e configuração de serviços verifique a documentação através do link:
-[https://docs.mongodb.com/manual/administration/install-community/][4].
+Mongodb installation
+--------------------
 
-Configuração das aplicações
--------------------------------
+Install MongoDB via the link: <https://www.mongodb.org/>.
 
-Para realizar a integração do Módulo de Gerenciamento de Eventos, é necessário, proceder conforme os passos indicados abaixo:
+For more details on installing and configuring services, check the documentation
+through the link:
 
-1. Baixar o JBoss para ITSM no seguinte link: jboss-as-7.1.2.Final - CITSmart ITSM;
+<https://docs.mongodb.com/manual/administration/install-community/>.
 
-2. Baixe o JBoss para Event Monitor: jboss-as-7.1.2.Final - EVM;
+### Application configuration
 
-3. Baixe o JBoss para Inventory no seguinte link: jboss-as-7.1.2.Final - Inventory;
+To perform the integration of the Event Management Module, proceed as follows:
 
-4. Copie as últimas versões das aplicações (arquivos com extensão .war) para a pasta deployments das respectivas instâncias do
-JBoss;
+1.  Download JBoss for ITSM Community 6.1.0+ and ITSM Enterprise 7.0.0+:
+    jboss-as-7.1.2.Final - CITSmart ITSM;
 
-5. Altere o arquivo standalone-full.xml das respectivas instâncias do Jboss:
+2.  Download JBoss for Event Monitor: jboss-as-7.1.2.Final - EVM;
 
-Os arquivos de configuração do JBoss se encontram na pasta configuration de cada instância do JBoss, disponibilizadas pela 
-Central IT.
+3.  Download JBoss for Inventory: jboss-as-7.1.2.Final - Inventory;
+
+4.  Copy the latest versions of Event Management applications (.war extension
+    files) into the deployments folder of your JBoss instances;
+
+5.  Change the standalone-full.xml file for the respective instances of Jboss:
+
+The JBoss configuration files are located in the configuration folder of each
+JBoss instance, available from CITSMART.
 
 **standalone-full.xml (CITSmart ITSM)**
 
-1. Altere a seguinte seção deste arquivo, conforme indicado abaixo.
+1.  Change the following section of this file, as indicated below.
 
-    ![Standalone](images/standalone.img1.jpg)
-    
-    **standalone-full.xml (Citsmart Inventory)**
-    
-2. Altere a seguinte seção deste arquivo, conforme indicado abaixo.
+>   **standalone-full.xml (Citsmart Inventory)**
 
-    ![Monitor](images/standalone.img2.jpg)
-    
-    **standalone-full.xml (Citsmart Event Monitor)**
-    
-3. Altere a seguinte seção deste arquivo, conforme indicado abaixo.
+1.  Change the following section of this file, as indicated below.
 
-    ![Sistema](images/standalone.img3.jpg)
-    
-    !!! info "IMPORTANTE"
-    
-        As configurações de cada aplicação (Citsmart ITSM, Citsmart EVM e Citsmart Inventory) estão contidas no arquivo 
-        standalone-full.xml.
-        
-    !!! warning "ATENÇÃO"
-    
-        Na tag property das configurações acima <property name="citsmart.login" value=""/> , tanto da seção standalone-full.xml
-        (Citsmart Inventory) quanto da seção standalone-full.xml (Citsmart Event Monitor), na propriedade “nome” o valor que 
-        normalmente é o login do usuário, desde a versão 7.2.2.0 é preciso informar o contexto.
-        
-Configuração do módulo de gerenciamento de eventos
----------------------------------------------------------
+>   **standalone-full.xml (Citsmart Event Monitor)**
 
-![Processo](images/evm.img9.jpg)
+1.  Change the following section of this file, as indicated below.
 
-**Figura 9- Processo de configuração de eventos com Inventory**
+!!! info "IMPORTANT"
 
-![Nagios](images/evm.img10.jpg)
+    The settings of each application (CITSmart ITSM, Citsmart EVM and Citsmart
+    Inventory) are contained in the standalone-full.xml file.
 
-**Figura 10 - Processo de configuração de eventos com Nagios/Zabbix**
+!!! warning "ATTENTION"
 
-![Global](images/evm.img11.jpg)
+    In the property tag of the above settings <property name="citsmart.login" value=""/>. both in the standalone-full.xml         (Citsmart Inventory) section and in the standalone-full.xml section (Citsmart Event Monitor), on the property "name" the       value that is usually the user's login, since version 7.2.2.0 it's required the context.
 
-**Figura 11 - Processo de configuração de eventos Global**
+Configuration of the event management module
+--------------------------------------------
 
-![Inventory](images/evm.img12.jpg)
+**Figure 9 - Inventory configuration process with Inventory**
 
-**Figura 12- Processo de configuração do Inventory**
+**Figure 10 - Event configuration process with Nagios / Zabbix**
 
-Configuração dos cadastros
------------------------------
+**Figure 11 - Process of configuring events with Correlation**
 
-!!! note "NOTA"
+**Figure 12 - Inventory configuration process without Event Management**
 
-    Todas as configurações para as aplicações do Gerenciamento de Eventos devem ser feitas no CITSmart ITSM.
-    
-Após as instâncias do JBoss de cada aplicação estiverem inicializadas, acesse o CITSmart no endereço:
-http://<ip>[:<porta>]/citsmart, feito isso, realize as configurações dos cadastros mencionados abaixo.
+Registration settings
+---------------------
 
-Cadastro de horários
-------------------------
+!!! note "NOTE"
 
-1. Acesse o menu **Processos ITIL > Gerência de Evento > Horário**;
+    All settings for Event Management applications must be made in CITSmart
+    ITSM.
 
-    ![Horário](images/evm.img13.jpg)
-    
-    **Figura 13 - Cadastro de horário**
-    
-2. Cadastre a frequência com que as ferramentas de monitoração serão consultadas sobre o status dos itens de configuração 
-pré-cadastrados. Exemplo: a cada 2 minutos; a cada 40 minutos.
+After the JBoss instances of each application are initialized, access CITSmart
+ITSM at the address: http: // \<ip\> [: \<port\>] / citsmart, then do the
+settings for the registers mentioned below.
 
-    !!! info "IMPORTANTE"
-    
-        Os horários cadastrados são convertidos em expressões cron.
-        
-    !!! note "NOTA"
-    
-        Por meio de expressões cron, é possível criar horários flexíveis, tais como “toda terça às 15:00”.
-        
-Cadastro de categoria de ocorrência
+Time registration
+-----------------
+
+1.  Access the **ITIL Processes menu \> Event Management \> Schedule**;
+
+   ![figure](images/evm.img13.jpg)
+   
+   **Figure 13 - Time registration**
+
+2.  Record the frequency with which monitoring tools are queried about the
+    status of pre-registered configuration items. Example: every 2 minutes;
+    Every 40 minutes.
+
+!!! info "IMPORTANT"
+
+    The times are converted into cron expressions.
+
+!!! note "NOTE"
+
+    Using cron expressions, you can create flexible schedules, such as "every
+    Tuesday at 3:00 PM".
+
+Occurrence category registration
+--------------------------------
+
+1.  In CITSmart ITSM, access the menu **ITIL Processes \> Event Management \>
+    Occurrence Category**;
+
+   ![figure](images/evm.img14.jpg)
+   
+   **Figure 14 - Event type master**
+
+2.  Record event categories.
+
+!!! note "NOTE"
+
+    Event types allow you to group occurrences of events of the same type.
+
+!!! info "IMPORTANT"
+
+    This registration will be associated with each item in the Citsmart
+    Inventory, Nagios or Zabbix event manager registry.
+
+Automatic actions registers - incidents / requests
+--------------------------------------------------
+
+1.  Access the **System \> Automatic Actions \> Incident Actions/Requests
+    /Procedures actions**;
+
+   ![figure](images/evm.img15.jpg)
+   
+   **Figure 15 - Incident / Request action register**
+
+2.  Record the incident or request data that will be opened during the execution
+    of an action.
+
+Automatic actions registers - problem
 -------------------------------------
 
-1. No CITSmart ITSM, acesse o menu **Processos ITIL > Gerência de Evento > Categoria de Ocorrência**;
+1.  Access the menu **System \> Automatic Actions \> Problem Actions**;
 
-    ![Ocorrência](images/evm.img14.jpg)
-    
-    **Figura 14 - Cadastro de categoria de ocorrência**
-    
-2. Cadastre as categorias de ocorrências.
+   ![figure](images/evm.img16.jpg)
+   
+   **Figure 16 - Problem action register**
 
-    !!! note "NOTA"
-    
-        Os tipos de eventos permitem agrupar ocorrências de eventos de um mesmo tipo.
-        
-    !!! abstract "SAIBA MAIS"
-    
-        Este tipos de eventos permitem agrupar ocorrências de eventos de um mesmo tipo.
-        
-Cadastro de ações automáticas - incidente/requisições
---------------------------------------------------------
+2.  Record the data of the problem that will be opened during the execution of
+    an action.
 
-1. Acesse o menu **Sistema > Ações Automáticas > Ações Incidentes / Requisições / Procedimentos**;
+Automatic actions registers - change
+------------------------------------
 
-    ![Ações](images/evm.img15.jpg)
-    
-    **Figura 15- Cadastro de ações de incidente/requisições**
-    
-2. Cadastre os dados do incidente ou requisição que será aberto durante a execução de uma ação.
+1.  Access the menu **System \> Automatic Actions \> Change Actions**;
 
-Cadastro de ações automáticas - problema
---------------------------------------------
+   ![figure](images/evm.img17.jpg)
+   
+   **Figure 17 - Register of shares of change**
 
-1. Acesse o menu **Sistema > Ações Automáticas > Ações Problema**;
+2.  Record the change data that will be opened during the execution of an
+    action.
 
-    ![Problema](images/evm.img16.jpg)
-    
-    **Figura 16 - Cadastro de ações de problema**
-    
-2. Cadastre os dados do problema que será aberto durante a execução de uma ação.
+Notification action register
+----------------------------
 
-Cadastros de ações automáticas - mudança
-------------------------------------------
+1.  Access the **System > Automatic Actions > Notification Actions**;
 
-1. Acesse o menu **Sistema > Ações Automáticas > Ações Mudança**;
+   ![figure](images/evm.img18.jpg)
+   
+   **Figure 18 - Notification action register**
 
-    ![Mudança](images/evm.img17.jpg)
-    
-    **Figura 17 - Cadastro de ações de mudança**
-    
-2. Cadastre os dados da mudança que será aberta durante a execução de uma ação.
+2.  Record the users, groups or e-mails that will be notified during the
+    execution of an action.
 
-Cadastro de ação de notificação
----------------------------------
-
-1. Acesse o menu **Sistema > Ações Automáticas > Ações Notificação**;
-
-    ![Notificação](images/evm.img18.jpg)
-    
-    **Figura 18- Cadastro de ação de notificação**
-    
-2. Cadastre os usuários, grupos ou e-mails que serão notificados durante a execução de uma ação.
-
-Cadastro de ação automática
+Automatic action registration
 -----------------------------
 
-1. Acessar **Sistema > Ações Automáticas > Ações Automáticas**;
+1.  Access **System > Automatic Actions > Automatic Actions**;
 
-    ![Ação](images/evm.img19.jpg)
-    
-    **Figura 19 - Cadastro de ação automática**
-    
-2. Relacione as ações de notificação ou incidentes / requisições às ações automáticas.
+   ![figure](images/evm.img19.jpg)
+   
+   **Figure 19 - Automatic action register**
 
-    !!! note "NOTA"
-    
-        As ações automáticas são associadas no cadastro de gerentes de eventos. Estas ações serão disparadas sempre que ocorrer
-        um evento, e deverão ser relacionadas de acordo com o tipo do evento. Exemplo: WARNING (advertência), EXCEPTION (exceção),
-        etc.
-        
-Cadastro de conexões do CITSmart Inventory
---------------------------------------------
+2.  Relate the notification actions or incidents / requests to automatic
+    actions.
 
-1. Acesse o menu **Processos ITIL > Gerência de Evento > Conexões Inventory**;
+!!! note "NOTE"
 
-    ![Inventory](images/evm.img20.jpg)
-    
-    **Figura 20 - Cadastro de conexão do Citsmart Inventory**
-    
-2. Cadastre todas as propriedades referentes à conexão do Citsmart Inventory, de acordo com o IP e porta onde está instalado o 
-JBoss do Citsmart Inventory.
+    Automatic actions are associated in the event managers registry. These
+    actions will be triggered whenever an event occurs, and should be listed
+    according to the event type. Example: WARNING, EXCEPTION, etc.
 
-!!! note "NOTA"
+Citsmart inventory connections registry
+---------------------------------------
 
-    O campo Identificador Inventory corresponde à propriedade citsmart.inventory.id do standalone-full.xml do servidor de 
-    aplicações onde está instalado o CITSmart Inventory.
-    O campo IP Servidor Agente de Captura refere-se ao IP do servidor onde está instalado o Agente de Captura das informações das 
-    máquinas.
-    
-Cadastro de conexões do CITSmart Event Monitor
--------------------------------------------------
+1.  Access the **ITIL Processes menu \> Event Management \> Inventory
+    Connections**;
 
-1. Acesse o menu **Processo > Gerência de Evento > Conexões Event Monitor**;
+    ![figure](images/evm.img20.jpg) 
+      
+    **Figure 20 - Citsmart Inventory connection register**
 
-    ![Monitor](images/evm.img21.jpg)
-    
-    **Figura 21 - Cadastro de conexão do Citsmart Event Monitor**
-    
-2. Cadastre todas as propriedades referentes à conexão do Citsmart Event Monitor, de acordo com o IP e porta onde está instalado 
-o JBoss do Citsmart Event Monitor.
+2.  Record all properties related to the Citsmart Inventory connection,
+    according to the IP and port where the JBoss of the Citsmart Inventory is
+    installed.
 
-Cadastro de Check
---------------------
+!!! note "NOTE"
 
-1. Acesse o menu **Processos ITIL > Gerência de Evento > Check**.
+     The Inventory Identifier field corresponds to the standalone-full.xml
+     citsmart.inventory.id property of the application server where CITSmart
+     Inventory is installed.
 
-    ![Checks](images/evm.img22.jpg)
-    
-    **Figura 22 - Cadastro de checks**
-    
-2. Realize o cadastro dos Checks que serão utilizados para monitoração dos itens de configuração.
+     The Capture Agent Server IP field refers to the IP of the server where the
+     Capture Agent is installed.
 
-Cadastro de gerentes de eventos Inventory
--------------------------------------------
+Citsmart event monitor connection registration
+----------------------------------------------
 
-1. Acesse o menu **Processos ITIL > Gerência de Evento > Gerente Inventory**;
+1.  Access the **ITIL Process menu > Event Management > Event Monitor
+    Connections**;
 
-    ![Gerente](images/evm.img23.jpg)
-    
-    **Figura 23 - Cadastro de gerente de eventos Inventory**
-    
-2. Cadastre tantos gerentes quantos forem necessários para monitorar os itens de configuração cujos status serão consultados no
-Citsmart Inventory.
+   ![figure](images/evm.img21.jpg)
+   
+   **Figure 21 - Connection registration of the Citsmart Event Monitor**
 
-    !!! info "IMPORTANTE"
-    
-        Cada gerente Inventory contém uma lista de itens de configuração que são associados aos seus respectivos checks que estão
-        cadastrados no próprio Citsmart ITSM.
-        
-    !!! note "NOTA"
-    
-        Para cada item de configuração, é associada uma ação para warning (advertência) e/ou uma ação para exception (exceção).
-        
-Cadastro de ferramentas de monitoração
---------------------------------------------
+2.  Record all properties related to the connection of the Citsmart Event
+    Monitor, according to the IP and port where the JBoss of the Citsmart Event
+    Monitor is installed.
 
-1. Acesse o menu **Processos ITIL > Gerência de Evento > Ferramentas de Monitoração**;
+Check registration
+------------------
 
-    ![Monitoração](images/evm.img24.jpg)
-    
-    **Figura 24 - Cadastro de ferramenta de monitoração**
-    
-2. Cadastre as ferramentas que serão vinculadas ao Gerenciamento de Eventos (Event Monitor) para realizar a monitoração dos
-diversos itens de configuração.
+1.  Access the **ITIL Processes > Event Management > Check**.
 
-    !!! note "NOTA"
-    
-        Atualmente, o Gerenciamento de Eventos (Event Monitor) integra com as ferramentas Nagios, Zabbix e Citsmart Inventory 
-        para realizar a monitoração dos ativos da rede.
-        
-    !!! info "IMPORTANTE"
-    
-        O Citsmart Inventory acumula a função de ferramenta de monitoração e inventário.
-        
-Cadastro de gerentes de eventos Zabbix
------------------------------------------
+   ![figure](images/evm.img22.jpg)
+   
+   **Figure 22 - Check register**
 
-1. Acesse o menu **Processos ITIL > Gerência de Evento > Gerente Zabbix**;
+2.  Perform the registration of the Checks that will be used to monitor the
+    configuration items.
 
-    ![Zabbix](images/evm.img25.jpg)
+Inventory event manager registers
+---------------------------------
 
-    **Figura 25 - Cadastro de gerente de eventos Zabbix**
-    
-2. Cadastre o Gerente de Eventos Zabbix, quantos forem necessários para monitorar os itens de configuração cujos status serão
-consultados no Zabbix.
+1.  Access the menu **ITIL Processes \> Event Management \> Inventory Manager**;
 
-    !!! info "IMPORTANTE"
-    
-        Cada gerente Zabbix contém uma lista de itens de configuração que são associados às suas respectivas triggers que estão 
-        cadastradas no Zabbix.
-       
-    !!! note "NOTA"
-    
-        Para cada item de configuração, é associada uma ação para warning (advertência) e/ou uma ação para exception (exceção).
-        
-Cadastro de gerente de eventos Nagios
-----------------------------------------
+   ![figure](images/evm.img23.jpg)
+   
+   **Figure 23 - Event manager Inventory**
 
-1. Acesse o menu **Processos ITIL > Gerência de Evento > Gerente Nagios**;
+2.  Register as many managers as needed to monitor the configuration items whose
+    statuses will be queried in Citsmart Inventory.
 
-    ![Nagios](images/evm.img26..jpg)
-    
-    **Figura 26 - Cadastro de gerente de eventos Nagios**
-    
-2. Cadastre o Gerente de Eventos Nagios, quantos forem necessários para monitorar os itens de configuração cujos status serão 
-consultados no Nagios.
+!!! info "IMPORTANT"
 
-    !!! info "IMPORTANTE"
-    
-        Cada gerente Nagios contém uma lista de itens de configuração que são associados aos seus respectivos serviços que estão
-        cadastrados no Nagios.
-        
-    !!! note "NOTA"
-    
-        Para cada item de configuração, é associada uma ação para warning (advertência) e/ou uma ação para exception (exceção).
-        
-Cadastro de gerente de eventos Global
------------------------------------------
+    Each inventory manager contains a list of configuration items that are
+    associated with their respective checks that are registered in the ITSM
+    Citsmart itself.
 
-1. Acesse o menu **Processo > Gerência de Evento > Gerente de Eventos Global**;
+!!! note "NOTE"
 
-    ![Eventos](images/evm.img27.jpg)
-    
-    **Figura 27 - Cadastro de gerente de eventos correlacionados**
-    
-2. Cadastre o Gerente de Eventos Correlacionados, quantos forem necessários.
+    For each configuration item, an action for warning and / or an action for
+    exception is associated.
 
-    !!! info "IMPORTANTE"
-    
-        Cada gerente de Eventos Correlacionados contém uma EPL para Warning (advertência) e/ou Exception (exceção)
-        
-    !!! abstract "SAIBA MAIS"
-    
-        EPL é uma linguagem de correlação de eventos utilizada pelo Esper (Espertech). Na inicialização do Citsmart Event Monitor,
-        estes EPL são importados para a engine do Esper, de modo que um novo evento correlacionado será criado toda vez que a
-        condição definida na EPL for satisfeita.
-        
-Abaixo segue o exemplo de uma EPL que faz uma correlação entre os eventos do Citsmart Inventory e Nagios:
+Monitoring tools registration
+-----------------------------
 
-*@Description('Para qualquer evento do Nagios que ocorrer depois de um evento qualquer do Inventory, nos últimos 10 minutos')
-select * from pattern [every a=EventoCheckInventory-> b=EventoServicoNagios where timer:within(10 minutes)]*
+1.  Access the **ITIL Processes > Event Management > Monitoring Tools**;
 
-Esquema de Webservice para sistemas legados (monitoramento de negócios)
-----------------------------------------------------------------------------
+   ![figure](images/evm.img24.jpg)
+   
+   **Figure 24 - Monitoring tool register**
 
-É a possibilidade de conexão com qualquer ferramenta, diferente das que o módulo de Gerenciamento de Eventos atualmente se 
-integra (Nagios, Zabbix e Inventory). A ideia é que qualquer ferramenta possa se integrar ao módulo de Gerenciamento de Eventos,
-desde que os dados enviados (via webservice) seguem um padrão pré-estabelecido. Uma vez que os dados são enviados para o Citsmart
-Event Monitor, podem ser criadas regras (por exemplo, com o EPL do Esper) para que determinados eventos sejam disparados de 
-acordo com alguma condição observada nos dados.
+2.  Record the tools that will be linked to Event Monitor to perform the
+    monitoring of the various configuration items.
 
-!!! example "EXEMPLO"
+!!! note "NOTE"
 
-    Um caso de uso que podemos usar é de folha de pagamentos.
-    Digamos que seja regra de uma empresa não contratar mais de 5 funcionários por setor.
-    O programa de folha de pagamento poderia enviar os dados mínimos de cada contratação por departamento (definido no plano 
-    orçamentário da empresa), de modo que sempre que o número de contração por departamento ultrapassar o limite 
-    pré-estabelecido, um evento de “excesso de contratação” poderia ser disparado.
-    
-[Download][5]
+   Currently, Event Monitor integrates with the Nagios, Zabbix and Citsmart
+  Inventory tools to monitor the assets of the network.
+
+   !!! info "IMPORTANT"
+
+   **Citsmart Inventory accumulates the monitoring and inventory tool
+   function**
+
+Zabbix event manager registration
+---------------------------------
+
+1.  Access the menu **ITIL Processes \> Event Management \> Zabbix Manager**;
+
+**Figure 25 - Zabbix event manager register**
+
+1.  Record the Zabbix Event Manager, as many as are needed to monitor the
+    configuration items whose statuses will be queried in Zabbix.
+
+**!!! info "IMPORTANT"**
+
+>   **Each Zabbix manager contains a list of configuration items that are
+>   associated with their respective triggers that are registered in Zabbix.**
+
+!!! note "NOTE"
+
+>   **For each configuration item, an action for warning and / or an action for
+>   exception is associated.**
+
+Nagios event manager registration
+---------------------------------
+
+1.  Access the menu **ITIL Processes \> Event Management \> Nagios Manager**;
+
+**Figure 26 - Nagios event manager register**
+
+1.  Register the Nagios Event Manager as many as needed to monitor the
+    configuration items whose statuses will be queried in Nagios.
+
+**!!! info "IMPORTANT"**
+
+>   **Each Nagios manager contains a list of configuration items that are
+>   associated with their respective services that are registered in Nagios.**
+
+!!! note "NOTE"
+
+>   **For each configuration item, an action for warning and / or an action for
+>   exception is associated.**
+
+Correlated event manager registration
+-------------------------------------
+
+1.  Access the **ITIL Process \> Event Management \> Manager of Global Events**;
+
+**Figure 27 - Global event manager register**
+
+1.  Register the Global Events Manager, as many as needed.
+
+!!! info "IMPORTANT"
+
+>   **Each Correlated Events manager contains an EPL for Warning and / or
+>   Exception.**
+
+>   !!! Abstract "TIPS"
+
+>   EPL is an event correlation language used by Esper (Espertech). Upon
+>   initialization of the Citsmart Event Monitor, these EPLs are imported into
+>   the Esper engine so that a new correlated event is created each time the
+>   condition set in the EPL is satisfied.
+
+>   Here is an example of an EPL that correlates between the Citsmart Inventory
+>   and Nagios events:
+
+*\@Description('For any Nagios event that occurs after any Inventory event in
+the last 10 minutes') select \* from pattern [every a=EventoCheckInventory-\>
+b=EventoServicoNagios where timer:within(10 minutes)]*
+
+Webservice scheme for legacy systems (business monitoring)
+----------------------------------------------------------
+
+It is the possibility of connecting to any tool, other than the Event Management
+module currently integrates (Nagios, Zabbix and Inventory). The idea is that any
+tool can integrate with the Event Management module, since the data sent (via
+webservice) follow a pre-established pattern. Once the data is sent to the
+Citsmart Event Monitor, rules can be created (for example, with the Esper EPL)
+so that certain events are triggered according to some condition observed in the
+data.
+
+!!! example "EXAMPLE"
+
+>   Example: One use case we can use is payroll.
+
+>   Let's say it's the rule for a company not to hire more than 5 employees per
+>   industry.
+
+>   The payroll program could send the minimum data of each hiring by department
+>   (defined in the company's budget plan), so that whenever the number of
+>   contraction per department exceeds the pre-established threshold, an event
+>   of "excess hiring "Could be fired.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/30/2019 - Larissa Lourenço
+    <b>Updated:</b>09/03/2019 - Anna Martins
               
 [1]:https://pt.wikipedia.org/wiki/Item_de_configura%C3%A7%C3%A3o
 [2]:https://pt.wikipedia.org/wiki/Very_Large_Database
