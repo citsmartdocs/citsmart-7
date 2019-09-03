@@ -1,100 +1,114 @@
-title:  Visualização das minhas solicitações (tickets) pelo Smart Portal
-Description: Disponibiliza a visualização de próprias solicitações pelo Smart Portal. 
-# Visualização das minhas solicitações (tickets) pelo Smart Portal
+title: View my requests (tickets) by Smart Portal
+Description: View my requests (tickets) by Smart Portal
 
-Como acessar
-------------------
+# View my requests (tickets) by Smart Portal
 
-1. Na tela inicial do **Smart Portal**, clique no botão de menu ![simbolo](images/simb-meno.white.jpg)  e logo após clique em **Minhas
-solicitações**. 
+How to access
+-------------
 
-Pré-condições
-----------------
+1.  On the **Smart Portal** home screen, click the menu button ![figure](images/simb-meno.white.jpg) and then
+    click **My Requests**.
 
-1. Ter solicitações de serviços registradas (ver conhecimento [Cadastro de solicitação de serviço via smart portal][1]).
+Preconditions
+-------------
 
-Filtros
+1.  Have registered service requests (see knowledge [Service request
+    registration using Smart Portal][1]).
+
+Filters
+-------
+
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
+
+-   Search;
+
+-   Situation;
+
+-   Sort by;
+
+-   Order.
+
+![figure](images/visualizar.img1.jpg)
+
+**Figure 1 - Request search screen**
+
+Items list
 ----------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando
-a localização dos itens desejados:
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature listing:
+    **Ticket, Type, Service, Incident/Request, Title, Created on, Task, Current
+    group, Situation, SLA, Time limit, SLA status **and **Priority.**
 
-     - Pesquisa;
-     - Situação;
-     - Ordenar Por;
-     - Ordem.
-     
-     ![Pesquisa](images/visualizar.img1.jpg)
-     
-     **Figura 1 - Tela de pesquisa de solicitação**
-     
-Listagem de itens
---------------------
+2.  There are action buttons available to the user for each item in the listing,
+    they are:
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: **Ticket, Tipo, Serviço, Solicitação, Criada em, Tarefa, Grupo atual, Situação, SLA, Prazo limite, Status 
-do SLA** e **Prioridade**.
+   ![figure](images/visualizar.img2.jpg)
+   
+   **Figure 2 - Request listing screen**
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles:
+![figure](images/simb-folha.jpg) - Check the description of the service request;
 
-    ![Listagem](images/visualizar.img2.jpg)
-    
-    **Figura 2 - Tela de listagem de solicitação**
-    
-    ![simbolo](images/simb-folha.jpg) - Verificar a descrição da solicitação de serviço;
-    
-    ![simbolo](images/simb-3linhas.jpg) - Verificar as ocorrências da solicitação de serviço. Esse ícone somente será exibido na 
-    solicitação, se o parâmetro “Exibir as ocorrências da Solicitação/Incidente” estiver habilitado;
-    
-    ![simbolo](images/simb-plus.jpg) - Registrar as ocorrências referente à solicitação de serviço. Esse ícone somente será exibido
-    na solicitação, se o parâmetro “Registrar Ocorrência pelo Portal” estiver habilitado;
-    
-    ![simbolo](images/simb-stop.jpg) - Cancelar a solicitação de serviço. Esse ícone somente será exibido na solicitação, se o 
-    parâmetro “Habilitar cancelamento de solicitação/incidente pelo portal” estiver habilitado;
-    
-    ![simbolo](images/simb-mens.jpg) - Interagir, através da troca de mensagens, com o responsável pelo atendimento da solicitação
-    de serviço. Esse ícone somente será exibido na solicitação, se a mesma já estiver sido capturada para o atendimento e o 
-    parâmetro “Requisição/Incidente - Ativar troca de mensagens” estiver habilitado;
-    
-    ![simbolo](images/simb-excla.jpg) - Registrar opinião referente ao atendimento da solicitação de serviço;
-    
-    ![simbolo](images/simb-2dedos.jpg) - Registrar o grau de satisfação em relação ao atendimento da solicitação de serviço;
-    
-    ![simbolo](images/simb-atual.jpg) - Reabrir a solicitação de serviço. Esse ícone somente será exibido na solicitação, se o 
-    parâmetro “Limite de dias para a reabertura de Incidentes/Requisição de serviços” estiver configurado corretamente.
-    
-    !!! note "NOTA"
-    
-        É  necessário ter permissão para executar essas ações. Para que o título da atividade apareça na listagem das solicitações 
-        de serviço é necessário a configuração do parâmetro 301 - Exibir o título da solicitação/incidente (Valores: "S" ou "N" 
-        Default: "N") em Sim e que o título já esteja cadastrado anteriormente.
-        
-Preenchimento dos campos cadastrais
--------------------------------------
+![figure](images/simb-3linhas.jpg) - Check the occurrences of the service request. This icon will only be
+displayed in the request if the "Show Request/Incident Occurrences"
+parameter is enabled;
 
-1. Não se aplica.
+![figure](images/simb-plus.jpg) - Record the occurrences related to the service request. This icon will
+only be displayed in the request if the "Log Occurrence Per Portal"
+parameter is enabled;
 
-Veja também
+![figure](images/simb-stop.jpg) - Cancel the service request. This icon will only be displayed in the
+request if the "Enable request cancellation/incident by portal" parameter is
+enabled;
 
-- [Cadastro da Opinião sobre o Atendimento de uma Solicitação de Serviço via Smart Portal][2];
+![figure](images/simb-mens.jpg)- Interact, through the exchange of messages, with the person responsible
+for the service request. This icon will only be displayed in the request, if
+it has already been captured for the service and the parameter
+"Request/Incident - Activate exchange of messages" is enabled;
 
-- [Cadastro da Satisfação sobre o Atendimento de uma Solicitação de Serviço via Smart Portal][3];
+![figure](images/simb-excla.jpg) - Record opinion regarding the fulfillment of the service request;
 
-- [Verificação das Ocorrências de uma Solicitação de Serviço via Smart Portal][4];
+![figure](images/simb-2dedos.jpg)- Record the degree of satisfaction regarding the fulfillment of the
+service request;
 
-- [Cancelamento de Solicitação de Serviço via Smart Portal][5];
+![figure](images/simb-atual.jpg) - Reopen the service request. This icon will only be displayed in the
+request if the "Limit, in days, to reopen na incident or service request."
+parameter is configured correctly.
 
-- [Reabertura de Solicitação de Serviço via Smart Portal][6].
+![figure](images/simb-clips.jpg) - Attachments
+
+!!! note "NOTE"
+
+    You must have permission to perform these actions. For the title of the
+    activity to appear in the list of service requests, it is necessary to
+    configure parameter 301 - Display request/incident title (Values: "Y" for
+    "Yes" or "N" for "No" ) in Yes and that the title has already been
+    registered previously.
+
+Filling in the registration fields
+----------------------------------
+
+1.  No applicable.
+
+See also
+--------
+
+-   [Register Opinion about Service Request for a Service using Smart Portal][2]);
+-   [Service Request Satisfaction for a Service registration using the Smart Portal][3]);
+-   [Service Request Occurrences check using Smart Portal][4]);
+-   [Service Request cancellation using Smart Portal][5]);
+-   [Reopen Service Request using Smart Portal][6]).
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/07/2019 - Larissa Lourenço
+    <b>Updated:</b>09/03/2019 - Anna Martins
     
-[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/smart-portal/service-request.html
-[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/smart-portal/opinion.html
-[3]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/smart-portal/satisfaction.html
-[4]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/smart-portal/verify-occurrences.html
-[5]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/smart-portal/service-request-cancellation.html
-[6]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/smart-portal/reopen.html
+[1]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/smart-portal/service-request.html
+[2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/smart-portal/opinion.html
+[3]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/smart-portal/satisfaction.html
+[4]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/smart-portal/verify-occurrences.html
+[5]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/smart-portal/service-request-cancellation.html
+[6]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/smart-portal/reopen.html
 
