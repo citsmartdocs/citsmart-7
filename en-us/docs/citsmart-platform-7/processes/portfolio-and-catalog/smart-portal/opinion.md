@@ -6,7 +6,7 @@ Description: Register opinion about service request for a service using Smart Po
 How to access
 -------------
 
-1.  On the **Smart Portal** home screen, click the menu button ![figure](images/simb-excla.jpg) and then
+1.  On the **Smart Portal** home screen, click the menu button ![figure](images/simb-meno.white.jpg) and then
     click **My Requests**.
 
 Preconditions
