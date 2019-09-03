@@ -73,8 +73,8 @@ below:
         - MS-SQLServer;
         - PostgreSQL.
     - **Schema**: enter the database schema;
-    - **Usuário**: inform the database login user;
-    - **Senha**: enter the database login password;
+    - **User**: inform the database login user;
+    - **Password**: enter the database login password;
     
 3. After completing the fields, click the *Connection Test* button to verify that the connection is established successfully;
 
