@@ -16,7 +16,7 @@ Preconditions
 
 1. Create the type of service (see knowledge [Service Type registration and search](/en-us/citsmart-platform-7/processes/portfolio-and-catalog/type-service.html));
 
-2. Create the category service (see knowledge Service [Category registration and search](/en-us/citsmart-platform-7/processes/portfolio-and-catalog/service-category.html)).
+2. Create the category service (see knowledge [Service Category registration and search](/en-us/citsmart-platform-7/processes/portfolio-and-catalog/service-category.html)).
 
 Filtros
 ---------
