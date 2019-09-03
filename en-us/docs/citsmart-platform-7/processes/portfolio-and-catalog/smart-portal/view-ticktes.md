@@ -94,11 +94,11 @@ Filling in the registration fields
 See also
 --------
 
--   [Register Opinion about Service Request for a Service using Smart Portal][2]);
--   [Service Request Satisfaction for a Service registration using the Smart Portal][3]);
--   [Service Request Occurrences check using Smart Portal][4]);
--   [Service Request cancellation using Smart Portal][5]);
--   [Reopen Service Request using Smart Portal][6]).
+-   [Register Opinion about Service Request for a Service using Smart Portal][2];
+-   [Service Request Satisfaction for a Service registration using the Smart Portal][3];
+-   [Service Request Occurrences check using Smart Portal][4];
+-   [Service Request cancellation using Smart Portal][5];
+-   [Reopen Service Request using Smart Portal][6].
 
 !!! tip "About"
 
