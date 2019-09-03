@@ -1,107 +1,109 @@
-title:  Gerenciamento de anexos no Smart Portal
-Description: Tem por objetivo o gerenciamento de anexos de solicitação via Smart Portal.. 
-# Gerenciamento de anexos no Smart Portal
+title: Management attachments in Smart Portal
+Description: This feature is intended to manage request attachments.
 
-Como acessar
---------------
+# Management attachments in Smart Portal
 
-1. Na página inicial clique no ícone no canto superior esquerdo ![simbolo](images/simb-meno.white.jpg), selecione a opção Minhas
-Solicitações.
+This feature is intended to manage request attachments.
 
-Pré-condições
-----------------
+How to access
+-------------
 
-1. Informe o conteúdo abaixo nos parâmetros:
+1.  On the homepage click the icon ![figure](images/simb-meno.white.jpg) in the upper left corner, select the My
+    Requests option.
 
-    - Parâmetro 44: Ex: Windows - C:/temp (ver conhecimento [Regras de parametrização - Sistema][1]);
-    
-    - Parâmetro 46: deverá estar setado em 'S' (ver conhecimento [Regras de parametrização - Smart portal][2]);
-    
-2. O usuário deverá possuir solicitações de serviço abertas em seu nome (ver conhecimento 
-[Cadastro de solicitação de serviço via smart portal][3]);
+Preconditions
+-------------
 
-3. A solicitação deverá estar com o status "aberta";
+1.  Enter the following content in the parameters:
 
-4. O acesso às pastas quando se sobe o JBOSS deve estar liberado.
+-   Parameter 44: e.g: Windows - C:/temp (see knowledge [Parameterization rules - system][1]);
 
-Filtros
----------
+-   Parameter 46: should be set to 'S' (see knowledge [Parameterization rules -
+    Smart Portal][2]);
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando
-a localização dos itens desejados, conforme ilustrado na figura abaixo:
+2.  The user must have service requests opened on his name (see
+    knowledge [Service request registration using Smart Portal][3]);
 
-    - Pesquisa;
-    - Situação;
-    - Ordenar por;
-    - Ordem.
-    
-    ![Pesquisa](images/anexos.img1.jpg)
-    
-    **Figura 1 - Tela de pesquisa de solicitação**
-    
-Listagem de itens
+3.  The request should be "open";
+
+4.  Access to folders when uploading JBOSS must be enabled.
+
+Filters
+-------
+
+1.  The following filters enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to locate the desired
+    items as shown in the figure below:
+
+-   Search,;
+
+-   Situation;
+
+-   Sort by ;
+
+-   Order.
+
+![figure](images/anexos.img1.jpg)
+
+**Figure 1 - Request search screen**
+
+Items list
+----------
+
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard listing of the
+    functionality: Number, Type, Service, Ticket, Title, Created on, SLA, Time
+    limit, Priority and Situation.
+
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Description*, *Attachments*, *Occurrences*, *Register
+    Occurrence* and *Cancel Request*.
+
+![figure](images/anexos.img2.jpg)
+
+**Figure 2 - Request list**
+
+Filling in the registration fields
+----------------------------------
+
+1.  No applicable.
+
+Managing attachments
 --------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem padrão
-da funcionalidade: **Ticket, Tipo, Serviço, Atividade, Criada em, Tarefa, Grupo atual, Situação, SLA, Prazo limite, Status do SLA**
-e **Prioridade**.
+1.  Clicking the icon ![figure](images/simb-clips.jpg) allows you to attach or remove files.
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: *Registar opinião, Reabrir 
-solicitação, Pesquisa de satisfação, Descrição, Anexos, Ocorrências, Registrar Ocorrência, Cancelar Solicitação* e *Mensagem*.
+Viewing the history of a ticket
+-------------------------------
 
-![Lista](images/anexos.img2.jpg)
+1.  In **Processes management > Request and Incident Management > Service
+    request and incidents**, search for the request in which the attachment was
+    added and click the *View* button, as shown on the figure below:
 
-**Figura 2 - Lista de solicitação**
+   ![figure](images/anexos.img3.jpg)
+   
+   **Figure 3 - Request screen**
 
-Preenchimento dos campos cadastrais
---------------------------------------
+2.  The ticket will be opened, click on the *Request Occurrence* button, as
+    shown below:
 
-1. Não se aplica.
+   ![figure](images/anexos.img4.jpg)
+   
+   **Figure 4 - Request view screen**
 
-Gerenciando anexos
-----------------------
+3.  Then all the ticket record history will be demonstrated:
 
-1. Ao clicar no ícone ![simbolo](images/simb-clips.jpg) é possível anexar ou remover arquivos.
+![figure](images/anexos.img5.jpg)
 
-Visualizando o histórico de um ticket
-----------------------------------------
+**Figure 5 - Request log sheet**
 
-1. Em **Processos ITIL > Gerência de Requisição e Incidente > Requisição de Serviços e Incidentes**, pesquise pela solicitação em que
-foi adicionado o anexo e clique no botão "Visualizar", como na figura abaixo:
-
-    ![Solicitação](images/anexos.img3.jpg)
-    
-    **Figura 3 - Tela de solicitação**
-    
-2. Será aberta o ticket, clique no botão "Ocorrência da Solicitação", conforme figura abaixo:
-
-    ![Visualização](images/anexos.img4.jpg)
-    
-    **Figura 4 - Tela de visualização de solicitação**
-    
-3. Então todo o histórico de registros do ticket será demonstrado:
-
-    ![Registros](images/anexos.img5.jpg)
-    
-    **Figura 5 -Tela de registros da solicitação**
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/06/2019 - Larissa Lourenço
-
-
-
-
+    <b>Updated:</b>09/03/2019 - Anna Martins
+   
     
-    
-    
-    
-    
-    
-    
-    
-    
-[1]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-system.html
-[2]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-smart-portal.html
-[3]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/smart-portal/service-request.html
+[1]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-system.html
+[2]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-smart-portal.html
+[3]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/smart-portal/service-request.html
