@@ -1,73 +1,87 @@
-title:  Cadastro da satisfação sobre o atendimento de uma solicitação de serviço via Smart Portal
-Description: Disponibiliza o cadastro de satisfação sobre o atendimento. 
-# Cadastro da satisfação sobre o atendimento de uma solicitação de serviço via Smart Portal
+title: Service request satisfaction for a service registration using the Smart Portal
+Description: Service request satisfaction for a service registration using the Smart Portal
 
-Como acessar
----------------
+# Service request satisfaction for a service registration using the Smart Portal
 
-1. Na tela inicial do **Smart Portal**, clique no botão de menu ![simbolo](images/simb-meno.white.jpg) e logo após clique em **Minhas
-solicitações**. Após isso, serão exibidas as solicitações de serviço;
+How to access
+-------------
 
-Pré-condições
----------------
+1.  On the **Smart Portal** home screen, click the menu button ![figure](images/simb-meno.white.jpg) and then
+    click **My Requests**. After this, the service requests will be displayed;
 
-1. A solicitação de serviço deverá estar com a situação “fechada” (ver conhecimento [Gerenciamento de ticket (serviços)][1], seção "Preenchimento Dos Campos Cadastrais - Cadastro De Ticket").
+Preconditions
+-------------
 
-Filtros
+1.  The service request must be "closed" (see knowledge [Ticket management
+    (services)][1]), section "Filling In The Registration Fields - Ticket Registration").
+
+Filters
+-------
+
+1.  The following filters enables the user to restrict the participation of
+    items in the standard feature listing, making it easier to find the desired
+    items:
+
+-   Search;
+
+-   Situation;
+
+-   Sort by;
+
+-   Order.
+
+![figure](images/satis.img1.jpg)
+
+**Figure 1 - Ticket search screen**
+
+Items list
 ----------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a
-localização dos itens desejados:
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: Ticket, Type, Service, Incident/Request, Title, Created on, Task,
+    Current group, Situation, SLA, Time limit, SLA status and Priority.
 
-    - Pesquisa;
-    - Situação;
-    - Ordenar Por;
-    - Ordem.
-    
-    ![Pesquisa](images/satis.img1.jpg)
-    
-    **Figura 1 - Tela de pesquisa de solicitação**
-    
-Listagem de itens
----------------------
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Register opinion*, *Reopen service request*, *Satisfaction
+    Survey*, *Description*, *Attachments*, *Occurrence*, *Register
+    occurrence*, *Cancel Request* and *Message*.
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem padrão 
-da funcionalidade: **Ticket, Tipo, Serviço, Atividade, Criada em, Tarefa, Grupo atual, Situação, SLA, Prazo limite, Status do SLA** e
-**Prioridade**.
+![figure](images/satis.img2.jpg)
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: *Registar opinião, Reabrir solicitação,
-Pesquisa de satisfação, Descrição, Anexos, Ocorrências, Registrar Ocorrência, Cancelar Solicitação* e *Mensagem*.
+**Figure 2 - Ticket listing screen**
 
-![Listagem](images/satis.img2.jpg)
+Filling in the registration fields
+----------------------------------
 
-**Figura 2 - Tela de listagem de solicitação**
+1.  Find the (closed) service request you want to evaluate and click the ![figure](images/simb-2dedos.jpg) of the
+    same. Once this is done, the **Satisfaction Survey** screen will be
+    displayed, as shown in the figure below:
 
-Preenchimento dos campos cadastrais
---------------------------------------
+   ![figure](images/satis.img3.jpg)
+   
+   **Figure 3- Satisfaction record screen**
 
-1. Busque a solicitação de serviço (fechada) que deseja avaliar e clique no ícone ![simbolo](images/simb-2dedos.jpg) da mesma. Feito
-isso, será apresentada a tela de **Pesquisa de Satisfação**, conforme ilustrada na figura abaixo:
+2.  Record satisfaction survey information;
 
-    ![Registro](images/satis.img3.jpg)
-    
-    **Figura 3 - Tela de registro de satisfação**
-    
-2. Registre as informações da pesquisa de satisfação;
+-   **Evaluation**: select the degree of satisfaction of the service request
+    fulfillment;
 
-    - **Avaliação**: selecione o grau de satisfação do atendimento da solicitação de serviço;
-    - **Comentário/Sugestão de Melhoria**: descreva suas observações referente ao atendimento da solicitação de serviço, se achar 
-    necessário.
-    
-3. Após os dados informados, clique no botão "Gravar" para efetuar o registro.
+-   **Comment/Suggestion of Improvement**: describe your observations regarding
+    the service request fulfillment, if necessary.
 
-!!! info "IMPORTANTE"
+3.  After the data is entered, click the *Save* button to register.
 
-    Caso o parâmetro “Reabrir Solicitação Pela Pesquisa de Satisfação” esteja habilitado, será apresentado no campo Avaliação a 
-    opção “Não atendida” que ao ser selecionada exibe o botão que permite reabrir a solicitação de serviço.
-    
+!!! info "IMPORTANT"
+
+    If the "Reopen Request by Satisfaction Survey" parameter is enabled, the
+    "Unanswered" option will be displayed in the "Evaluation" field which, when
+    selected, displays the button that allows the reopening of the service
+    request.
+
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/06/2019 - Larissa Lourenço
+    <b>Updated:</b>09/03/2019 - Anna Martins
 
-[1]:/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html
+[1]:/en-us/citsmart-platform-7/processes/tickets/ticket-management.html
