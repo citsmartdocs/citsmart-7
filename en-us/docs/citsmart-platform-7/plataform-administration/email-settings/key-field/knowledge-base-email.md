@@ -1,53 +1,71 @@
-title: Campos-chave dos e-mails de base de conhecimento
-Description: fornecer a relação dos campos chave disponíveis para o cadastro de modelo de e-mail relacionada à base de conhecimento.
-# Campos-chave dos e-mails de base de conhecimento
+title: Knowledge base e-mail key fields
+Description: This document is intended to provide the list of key fields available for the knowledge base-related e-mail template.
+# Knowledge base e-mail key fields
 
-Este documento tem o objetivo de fornecer a relação dos campos chave disponíveis para o cadastro de modelo de e-mail relacionada 
-à base de conhecimento.
+This document is intended to provide the list of key fields available for the knowledge base-related e-mail template.
 
-Relação dos Campos Chave
+List of key fields
 ----------------------------
 
-São relacionados abaixo os campos chave disponíveis para inserção no cadastro de modelo de e-mail relacionado à base de 
-conhecimento:
+The key fields available for insertion in the knowledge base-related e-mail template are listed below:
 
-|         CAMPO-CHAVE        |                                         DESCRIÇÃO                                         |
-|:--------------------------:|:-----------------------------------------------------------------------------------------:|
-|        ${APROVADOR}        |           Aprovador do Conhecimento. Informa o nome do aprovador do conhecimento.          |
-|          ${AUTOR}          |               Autor do Conhecimento. Informa o nome do autor do conhecimento.              |
-|         ${CONTEUDO}        |         Conteúdo do Conhecimento. Informa a descrição do conteúdo do conhecimento.         |
-|      ${DATAEXPIRACAO}      |               Data de Expiração. Informa a data de expiração do conhecimento.              |
-|        ${DATAINICIO}       |         Data de Criação do Conhecimento. Informa a data de criação do conhecimento.        |
-|      ${DATAPUBLICACAO}     |              Data de Publicação. Informa a data de publicação do conhecimento.             |
-|     ${FONTEREFERENCIA}     |       Fonte/Referência do Conhecimento. Informa a descrição da fonte do conhecimento.      |
-| ${JUSTIFICATIVAOBSERVACAO} | Justificativa/Observação. Informa a descrição da justificativa/observação do conhecimento. |
-|        ${ORIGEM}           |       Origem do conhecimento.Informa a identificação da origem do nome do conhecimento.    |
-|       ${PRIVACIDADE}       |    Privacidade do Conhecimento. Informa a identificação da privacidade do conhecimento.    |
-|         ${SITUACAO}        |       Situação do Conhecimento. Informa a identificação da situação do conhecimento.       |
-|          ${TITULO}         |           Título do Conhecimento. Informa a descrição do título do conhecimento.           |
-|          ${VERSAO}         |                  Versão do Conhecimento. Informa a versão do conhecimento.                 |
+| Key Field                  | Description                                                                                                              |
+|----------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| ${ATRASOSTR}               | Delay time.Reports the delay time of the request for change request.                                                     |
+| ${DATAACEITACAO}           | Date of Acceptance.Informs the date of acceptance of the change request.                                                 |
+| ${DATACONCLUSAOSTR}        | Date of the conclusion.Informs the date of completion of the request for change request.                                 |
+| ${DATAHORACAPTURA}         | Date and Time of request Capture.Informs the date and time of the capture of the change request.                         |
+| ${DATAHORAINICIOSTR}       | Request Record Date and Time.Reports the date and time the change request was recorded.                                  |
+| ${DATAHORAINICIOAGENDADA}  | Scheduled Start Date and Time.Informs the start date and time of the attendance of the change request that was scheduled |
+| ${DATAHORASOLICITACAOSTR}  | Request Record Date and Time.Reports the date and time the change request was recorded.                                  |
+| ${DATAHORATERMINOAGENDADA} | Scheduled End Date and Time.Informs the date and time of the end of the change request that has been scheduled.          |
+| ${DATAHORATERMINOSTR}      | Limit date.Informs the deadline to meet the request for change.                                                          |
+| ${DATAINICIO}              | Meeting Start Date.Reports the start date of the scheduled meeting.                                                      |
+| ${DATAVOTACAO}             | Date of Voting.Informs the date of the vote to approve the change request.                                               |
+| ${DESCRICAO}               | Description of Change Request.Reports the description of the change request.                                             |
+| ${DESCRSITUACAO}           | Situation.Informs the status of the change request.                                                                      |
+| ${DURACAOESTIMADA}         | Estimated duration.Reports the estimated duration of the scheduled meeting.                                              |
+| ${EMAILSOLICITANTE}        | Applicant's e-mail address.Inform the requestor's e-mail of the change request.                                          |
+| ${FECHAMENTO}              | Closing.Informs the description of the closing of the change request.                                                    |
+| ${HORAINICIO}              | Meeting Start Time.Reports the start time of the scheduled meeting.                                                      |
+| ${IDREQUISICAOMUDANCA}     | Change Request Number.Informs the identification number of the change request.                                           |
+| ${NIVELIMPACTO}            | Impact.Reports the impact of the change request.                                                                         |
+| ${LOCALREUNIAO}            | Place of the Meeting.Informs the location of the scheduled meeting.                                                      |
+| ${NIVELURGENCIA}           | Urgency.Informs the urgency of the request for change.                                                                   |
+| ${NOMECATEGORIAMUDANCA}    | Category of Change.Reports the change request category.                                                                  |
+| ${NOMECONTATO}             | Contact name.Enter the name of the requester to contact.                                                                 |
+| ${NOMEGRUPOATUAL}          | Current Group.Informs the current group responsible for meeting the request for change.                                  |
+| ${NOMEGRUPONIVEL1}         | Level 1 Group.Informs the level 1 group configured to meet the change request.                                           |
+| ${NOMESOLICITANTE}         | Name of Applicant.Informs the name of the requestor of the change request.                                               |
+| ${NOMETAREFA}              | Assignment.Reports the current job of the change request.                                                                |
+| ${PRIORIDADE}              | Priority.Informs the priority of the change request.                                                                     |
+| ${STATUS}                  | Status of Change.Reports the status of the change request.                                                               |
+| ${TIPO}                    | Type of Request for Change.Informs the type of change request that has been registered.                                  |
+| ${TITULO}                  | Title of Change.Informs the title of the change request that has been registered.                                        |
 
-**Tabela 1 - Tabela de Campos-Chave**
+**Table 1 - List of key fields**
 
-Utilização dos campos-chave
+Use of key fields
 ------------------------------
 
-Segue abaixo os exemplos de utilização dos campos chave disponíveis para inserção no cadastro de modelo de e-mail relacionado à 
-base de conhecimento.
+The following is an example of using the key fields available for insertion into the knowledge base-related e-mail template.
 
-![Exemplo](Images/key-conhec.img1.png)
+![Example](Images/know.img1.jpg)
 
-**Figura 1 - Exemplo de inserção dos campos-chave no modelo de e-mail**
+**Figure 1 - Example of insertion of key fields in the email model**
 
-![Exemplo](Images/key-conhec.img2.png)
+![Example](Images/know.img2.jpg)
 
-**Figura 2 - Exemplo do Resultado de Envio do Modelo de E-mail**
+**Figure 2 - Example of the E-mail Template Send Result**
 
-![Campos](Images/key-conhec.img3.png)
+Example of key fields displayed in e-mail
+-----------------------------------------------
 
-**Figura 3 -Exemplos de campos-chave exibidos no e-mail**
+![Fields](Images/know.img3.jpg)
+
+**Table 2 - Examples of key fields displayed in the email**
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/22/2019 - Larissa Lourenço
+    <b>Updated:</b>09/03/2019 - Larissa Lourenço
