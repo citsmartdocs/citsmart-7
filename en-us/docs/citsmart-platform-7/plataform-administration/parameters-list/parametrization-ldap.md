@@ -1,24 +1,25 @@
-title: Regras de parametrização - LDAP
-Description: Esta configuração de parâmetros ligados à integração com o LDAP ocorre de uma forma implícita usando a funcionalidade.
-# Regras de parametrização - LDAP
+title: Parameterization rules - LDAP
+Description: Unlike other product parameters, this configuration of parameters connected to LDAP integration occurs implicitly using. 
+# Parameterization rules - LDAP
 
-Ao contrário dos demais parâmetros do produto, esta configuração de parâmetros ligados à integração com o LDAP ocorre de uma forma
-implícita usando a funcionalidade **Configuração LDAP** ou de forma explícita usando a funcionalidade **Parâmetros do CITSmart** 
-(ambas dentro da opção **Parametrização**):
+Unlike other product parameters, this configuration of parameters connected to LDAP 
+integration occurs implicitly using the **LDAP Configuration** menu option or explicitly 
+using the **CITSmart's Parameters** menu option (both under **Parameterization** menu 
+option):
 
-|  #  |                                               Nome                                              | Valores possíveis |                                                   Finalidade                                                   |                                                                                                                                             Orientações complementares                                                                                                                                            |
-|:---:|:-----------------------------------------------------------------------------------------------:|:-----------------:|:--------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| 22  |                MÉTODO DE AUTENTICAÇÃO (1 - Próprio, 2 - LDAP) (Ex: 1)                           |       Ex: 1       |               Definir qual método de autenticação será utilizado no sistema: 1 (Próprio) ou 2 (LDAP).          | Se o método de autenticação de LDAP for alterado de 1 (Próprio) para LDAP, então, deverá existir um sincronismo entre LDAP e Citsmart, nesse momento é comum haver duplicação de empregados e usuários na base dados podendo causar problemas de autenticação e perfil de acesso.                                 |
-|  39 | Id do perfil de acesso que será setado automaticamente caso o usuário não possua nenhum.        |       Ex: 2       |               Informar o número de identificação (ID) do Perfil de Acesso padrão para o usuário.               | Ao cadastrar um usuário e caso não seja informado o perfil de acesso, quando o mesmo realizar login na aplicação, será estabelecido o perfil de acesso (definido no valor do parâmetro). Essa regra vale para os usuários importados do AD. Esse ID do Perfil de Acesso é definido na tela de “Perfil de Acesso”. |
-|  45 |                                      LDAP - ID Grupo Padrão                                     |                   |       Informar o número de identificação (ID) do grupo padrão, ao qual os usuários do AD serão associados      |                                                                                                                            Esse ID do grupo é definido na tela de "Cadastro de Grupo".                                                                                                                            |
-| 68  |                  Inativo                                                                        |        Inativo    |                                           Inativo                                                              |                                                                                                                          Inativo                                                                                                                                                                                  |
+| #  | Name                                                                             | Possible values | Goal                                                                                        | Additional Guidance                                                                                                                                                                                                                                                                             |
+|----|----------------------------------------------------------------------------------|-----------------|---------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 22 | Authentication Method ( 1 - Day 2 - LDAP ) (e.g.: 1)                             | E.g.: 1         | Define which authentication method will be used in the system: 1 (Own) or 2 (LDAP)          | If the LDAP authentication method is changed from 1 (Proper) to LDAP, then there must be a synchronization between LDAP and Citsmart, at that time it is common to have duplication of employees and users in the database, which can cause authentication problems and access profile          |
+| 39 | Id access profile that will be set automatically if the user does not have any . | E.g.: 2         | Enter the default Access Profile ID for the user                                            | When registering a user and if the access profile is not informed, when the user logs into the application, the access profile (defined in the parameter value) will be established. This rule applies to users imported from AD. This Access Profile ID is set in the "Access Profile" screen. |
+| 45 | Standard Group ID                                                                |                 | Enter the identification number (ID) of the default group to which AD users are associated. | This group ID is set on the "Group Registration" screen.                                                                                                                                                                                                                                        |
+| 68 | Inactive                                                                         | Inactive        | Inactive                                                                                    | Inactive                                                                                                                                                                                                                                                                                        |
 
-**Tabela 1 - Lista de parâmetros**
+**Table 1 - List of Parameters**
 
-Veja também
--------------
+See also
+------------
 
-- [Cadastro e pesquisa de conexões LDAP](/pt-br/citsmart-platform-7/plataform-administration/authentication/ldap.html).
+- [LDAP connections registration and search](//citsmart-platform-7/plataform-administration/authentication/ldap.html).
 
 !!! tip "About"
 
