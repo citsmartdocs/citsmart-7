@@ -313,6 +313,10 @@ f)  Restart the SNMP service with the following command:
 
 g)  After restarting SNMP, perform the local test to verify that SNMP is
     running:
+    
+```sh
+snmpwalk -v2c -c public localhost |head
+```
 
 h)  The test should return the following result:
 
