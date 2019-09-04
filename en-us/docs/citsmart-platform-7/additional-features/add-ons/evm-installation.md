@@ -266,6 +266,10 @@ a)  Community configuration
    If this line does not exist you should create it, but if it exists, leave it
    as shown below:
 
+```sh
+com2sec notConfigUser  default       public
+```
+
 b)  Group setup
 
    If these lines do not exist you should create them, but if they exist, leave
