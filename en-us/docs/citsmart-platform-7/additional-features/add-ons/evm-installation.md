@@ -95,14 +95,14 @@ The Event Management routine works as follows:
 
 !!! note "NOTE"
 
-    The rules used by Citsmart Event Monitor are created by a language called
-    EPL (Event Processing Language).
+     The rules used by Citsmart Event Monitor are created by a language called
+     EPL (Event Processing Language).
 
 !!! info "IMPORTANT"
 
-    In order for this routine to work perfectly, it is necessary to perform
-    all the configuration, correctly, of the inputs of the Event Management
-    module in CITSmart ITSM.*
+     In order for this routine to work perfectly, it is necessary to perform
+     all the configuration, correctly, of the inputs of the Event Management
+     module in CITSmart ITSM.
 
 Integration of event management module
 --------------------------------------
@@ -117,11 +117,11 @@ Event Management consists of the following applications:
 
 !!! info "IMPORTANT"
 
-   Each application must be installed on a separate instance of JBoss.
+     Each application must be installed on a separate instance of JBoss.
 
 !!! note "NOTE"
 
-   Instances should be downloaded to CITSMART FTP.
+     Instances should be downloaded to CITSMART FTP.
 
 To integrate you must take into account the following points:
 
