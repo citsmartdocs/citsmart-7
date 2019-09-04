@@ -19,9 +19,9 @@ option):
 See also
 ------------
 
-- [LDAP connections registration and search](//citsmart-platform-7/plataform-administration/authentication/ldap.html).
+- [LDAP connections registration and search](/en-us/citsmart-platform-7/plataform-administration/authentication/ldap.html).
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/23/2019 - Larissa Lourenço
+    <b>Updated:</b>09/04/2019 - Larissa Lourenço
