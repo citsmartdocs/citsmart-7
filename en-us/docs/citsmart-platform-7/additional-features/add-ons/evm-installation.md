@@ -779,8 +779,8 @@ data.
     <b>Updated:</b>09/03/2019 - Anna Martins
       
       
-[1]:https://pt.wikipedia.org/wiki/Item_de_configura%C3%A7%C3%A3o
-[2]:https://pt.wikipedia.org/wiki/Very_Large_Database
+[1]:https://en.wikipedia.org/wiki/Configuration_item
+[2]:https://en.wikipedia.org/wiki/Very_Large_Database
 [3]:https://www.mongodb.com/
 [4]:https://docs.mongodb.com/manual/administration/install-community/
 [5]:https://itsm.citsmartcloud.com/citsmart/pages/visualizarUploadTemp/visualizarUploadTemp.load?path=ID=11897
