@@ -1,143 +1,112 @@
-title: Cadastro e pesquisa de atividade periódica
-Description: Esta funcionalidade permite registrar e verificar as atividades periódicas relacionadas aos contratos.
+title: Periodic activity registration and search
+Description: This feature allows to register and view contract related periodic activities.
 
-# Cadastro e pesquisa de atividade periódica
+# Periodic activity registration and search
 
-Esta funcionalidade permite registrar e verificar as atividades periódicas
-relacionadas aos contratos.
+This feature allows to register and view contract related periodic activities.
 
-Como acessar
+How to access
 -----------
 
-1.  Acesse a funcionalidade de Atividade Periódica através da navegação no
-    menu principal **Gestão Integrada > Automação das Operações de TI > Atividade
-    Periódica.**
+1.  Access the Periodic Activity feature navigating through the main menu **Integrated Management > Automation of IT Operations > Periodic Activity**.
 
-Pré-condições
+Preconditions
 ------------
 
-1.  Ter contrato cadastrado (ver conhecimento [Cadastro e pesquisa de
-    contrato](/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html));
+1.  A registered contract (see knowledge [Contract registration and search][1]);
 
-2.  Ter grupo de atividade periódica cadastrado (ver conhecimento [Cadastro e
-    pesquisa de grupo de atividade periódica](/pt-br/citsmart-platform-7/additional-features/automation-of-operation/configuration/periodic-activity-group.html)).
+2.  A registered periodic activity group (see knowledge [Periodic activity group registration and search)][2].
 
-Filtros
+Filters
 ------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier to find the desired items:
 
-     -   Título da Atividade.
+- Activity Title.
 
-1.  Clique na aba **Pesquisa**. Feito isso, será apresentada a respectiva tela
-    de pesquisa, conforme ilustrada na figura abaixo:
+2. Click on the Search tab. Afterwards, the search screen will be displayed, as illustrated on the image below:
 
-    ![Criar](images/periodic-1.png)
+    ![figure](images/periodic-1.png)
     
-    **Figura 1 - Tela de pesquisa de atividade**
+    **Figure 1 - Activity search screen**
 
-1.  Realize a pesquisa da atividade periódica:
+3.  Perform a Periodic Activity Search:
 
--   Informe o título da atividade que deseja pesquisar e clique no
-    botão *Pesquisar*. Após isso, será exibido o registro conforme o título
-    informado;
+- Insert the name of the intended activity and click on the Search button. Afterwards, the activity entry will be displayed according to the description provided.
 
--   Caso deseje listar todos os registros, basta clicar diretamente no
-    botão *Pesquisar*.
+- To list all activities, just click directly on the Search button, if needed.
 
-Listagem de itens
+Itens list
 ----------------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Título da Atividade e Contrato.
+1.  The following cadastral fields are available to the user to make it easier to identify the desired items in the standard feature listing: Activity Title and Contract.
 
-    ![Criar](images/periodic-2.png)
+    ![figure](images/periodic-2.png)
     
-    **Figura 2 - Tela de listagem de atividade**
+    **Figure 2 - Activity listing screen**
 
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a tela de cadastro exibindo o conteúdo referente ao registro
-    selecionado;
+2.  After searching, select the intended entry. Afterwards, they will be redirected to the registry screen displaying the content belonging to the selected entry.
 
-2.  Para alterar os dados do registro de atividade periódica, basta modificar as
-    informações desejadas e clicar no botão *Gravar*.
+3. To edit a periodic activity entry, just modify the information on the intended fields and click on the Save button to confirm the changes to the database.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 ----------------------------------
 
-1.  Após isso, será apresentada a tela de **Cadastro de Atividade Periódica**,
-    conforme ilustrada na figura abaixo:
+1.  The Periodic Activity Entry screen will be displayed, as illustrated on the image below:
 
-    ![Criar](images/periodic-3.png)
+    ![figure](images/periodic-3.png)
     
-    **Figura 3 - Tela de cadastro de atividade periódica**
+    **Figure 3 - Periodic activity entry screen**
 
-1.  Preencha os campos conforme orientações abaixo:
+2.  Fillout the fields as instructed below:
 
-    -   **Contrato**: selecione o contrato para o qual será cadastrada a atividade
-    periódica;
+- Contract: select the contract which will a periodic activity scheduled ;
 
-    -   **Grupo de Atividade**: selecione o grupo de atividades, o qual será
-    responsável pela execução da atividade;
+- Activity Group: select the activity group, which will be tasked to perform the activity;
 
-    -   **Título da Atividade**: informe o título da atividade;
+- Activity Title: insert the activity title;
 
-    -   **Requisição de Mudança**: informe a requisição de mudança, caso a atividade
-    seja referente a uma requisição;
+- Change Request: insert the change request, in case the activity is related to a request;
 
-    -   **Blackout**: marque este campo se a atividade for referente a um blackout;
+- Blackout: check this box if it is related to a blackout;
 
-    -   **Descrição da Atividade**: informe a descrição da atividade;
+- Activity Description: insert the activity description;
 
-    -   **Orientação Técnica**: informe a orientação técnica para execução da
-    atividade;
+- Technical Guidance: insert the technical guidelines to perform the task;
 
-    -   Relacione uma OS à atividade, caso seja necessário;
+- Link a SO to an activity, if necessary;
 
-        -   Clique no botão *Vincular OS* Feito isso, será apresenta a tela de
-        pesquisa de OS. Realize a pesquisa e selecione a OS que deseja associar
-        a atividade;
+   - Click on the Link S.O. button. Afterwards, the
 
-        -   Caso queira remover a OS que foi vinculada à atividade, basta clicar no
-        ícone ![Criar](images/periodic-6.png) .
+   - To remove a S.O. linked to an activity, just click on the  icon.
 
-    -   Clique no botão *Novo Agendamento* para definir a periodicidade da
-    atividade. Feito isso, será exibida a tela de agendamento, conforme
-    ilustrada na figura abaixo:
-
-    ![Criar](images/periodic-4.png)
+- Click on the New Appointment button to determine the activity period. Afterwards, the appointment screen will be displayed, as illustrated on the image below:
     
-    **Figura 4 - Agendamento de atividades**
+    ![figure](images/periodic-4.png)
+    
+   **Figure 4 - Activity appointments**
 
-       -  **Tipo de agendamento**: informe o tipo do agendamento da atividade
-        (diariamente, semanalmente, mensalmente ou uma vez);
+   -  Appointment Type: insert the activity appointment type (daily, weekly, monthly or once);
 
-       -  **Inicia em**: informe a data e horário de início;
+   - Starts in: insert the activity start date and time;
 
-       -  **Expira em**: informe a data de expiração;
+   - Expires in: insert the expire date;
 
-       -  **Duração estimada**: informe a duração estimada, em minutos;
+   - Estimated Time: insert the activity estimated duration, in minutes;
 
-       -  Informe os dados para agendar a atividade, de acordo com o tipo de
-    agendamento escolhido;
+   - Insert the information to schedule the activity, according to the appointment type chosen;
 
-      -   **Repetir o agendamento no dia**: marque essa opção, somente se desejar
-    realizar esta ação;
+   - Repeat Appointment On: check this box only if they wish to perform this procedure;
 
-      -   Após os campos preenchidos, clique no botão *Gravar* para efetuar a
-    operação;
+   - After all fields are filled out, click on the Save button to confirm the procedure.
 
-      -   Caso queira editar o agendamento da atividade, basta clicar no ícone ![Criar](images/periodic-5.png)  .
+   - To edit the activity appointment, just click on the  icon;
 
-1.  Após os dados informados, clique no botão *Gravar* para registrar a
-    operação, onde a data, hora e usuário serão gravados automaticamente para
-    uma futura auditoria.
+3. After providing all information, click on the Save the button to confirm the entry, at which date, time and user will automatically be stored for a future audit.
+-
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/18/2019 – Anna Martins
+    <b>Updated:</b>09/05/2019 – Anna Martins
