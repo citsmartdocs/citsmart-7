@@ -1,108 +1,71 @@
-title: Cadastro e pesquisa de notificação
-Description: A funcionalidade de Notificação tem por objetivo criar mensagem de alerta no intuito de notificar os usuários sobre eventos que irão ocorrer no sistema.
+title: Notification registration and search
+Description: The Notification feature is intended to create an alert message to notify users about events that will occur on the system.
 
-# Cadastro e pesquisa de notificação
+# Notification registration and search
 
-A funcionalidade de Notificação tem por objetivo criar mensagem de alerta no
-intuito de notificar os usuários sobre eventos que irão ocorrer no sistema.
+The Notification feature is intended to create an alert message to notify users about events that will occur on the system.
 
-Como acessar
+How to access
 ----------
 
-1.  Acesse a funcionalidade de Notificação através da navegação no menu
-    principal **Sistema > Notificações > Notificação**.
+1.  Access the notifications feature navigating through the main menu **System > Notifications > Notification**.
 
-Pré-condições
+Preconditions
 ------------
 
-1.  Não se aplica.
+1.  Not applicable.
 
-Filtros
+Filters
 ------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados, conforme ilustrado na figura abaixo:
+1.  The following filters enables the user to restrict the participation of items in the standard feature listing, making it easier to find the desired items:
 
-    -   Título;
+    - Title;
+    - Start date;
+    - Final Date;
+    - Status.
 
-    -   Data Inicial;
-
-    -   Data Final;
-
-    -   Situação.
-
-    ![Criar](images/notification-1.png)
+    ![figure](images/notification-1.png)
     
-    **Figura 1 - Tela de pesquisa de notificação**
+    **Figure 1 - Notification search**
 
-1.  Para verificar uma notificação específica, basta preencher os filtros
-    conforme necessário e clicar no botão *Pesquisar*.
+2.  To verify a specific notification, simply fill in the filters as needed and click the Search button.
 
-Listagem de itens
-----------------
+Itens list
+-----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Título, Data inicial, Data final e Situação.
+1.  The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard feature listing: Title, Start Date, Final date and Status.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Excluir*.
+2. There are action buttons available to the user for each item in the listing, they are: Edit and Delete.
 
-![Criar](images/notification-2.png)
+![figure](images/notification-2.png)
 
-**Figura 2 - Tela de listagem de notificação**
+**Figure 2 - Notification list screen**
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 ----------------------------------
 
-1.  Acesse o menu principal. Após isso, será apresentada a funcionalidade de
-    Notificação;
+1.  Go to the main menu. After this, the Notification feature will be displayed;
 
-2.  Na tela **Notificações**, clique no botão *Novo* (conforme a figura
-    anterior). Feito isso, será apresentada a respectiva tela de cadastro de
-    notificação, conforme ilustração abaixo:
+2.On the Notifications screen, click the New button (according to the previous figure). Once this is done, the respective notification form screen will be displayed, as shown below:
 
-    ![Criar](images/notification-3.png)    
+   ![figure](images/notification-3.png)    
     
-    **Figura 3 - Cadastro de notificação**
+   **Figure 3 - Registration notification**
 
-1.  Preencha os campos conforme orientações abaixo:
-
-    -   **Título**: informe o título da notificação;
-
-    -   **Processo**: selecione o processo referente a notificação;
-
-    -   **Exige confirmação**: defina se a notificação exige confirmação de
-        leitura do usuário. Se informado sim, ao gravar as informações será
-        apresentado um botão que permite verificar os usuários que confirmaram a
-        leitura da notificação;
-
-    -   **Situação**: informe a situação da notificação;
-
-    -   **Data inicial publicação**: informe a data inicial que será exibida a
-        notificação para o usuário;
-
-    -   **Hora inicial publicação**: informe a hora inicial que será exibida a
-        notificação;
-
-    -   **Data final publicação**: informe a data final da exibição da
-        notificação;
-
-    -   **Hora final publicação**: informe a hora final da exibição da
-        notificação;
-
-    -   Adicione os grupos e/ou usuários que irão visualizar a notificação;
-
-    -   **Descrição breve**: informe uma descrição resumida da notificação;
-
-    -   **Descrição da notificação**: informe a descrição detalhada da
-        notificação.
-
-2.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
-    neste caso a data, hora e horário serão armazenados automaticamente para uma
-    futura auditoria.
-
+1.  Fill in the fields as directed below:
+Title: report the title of the notification;
+Process: select the notification process;
+Confirmation Required: set whether notification requires user read confirmation. If yes, when recording the information will be presented a button that allows to verify the users who confirmed the reading of the notification;
+Status: inform the status of the notification;
+Initial date publication : enter the start date that the notification will be displayed to the user;
+Initial time publication: enter the start time the notification will be displayed;
+End date publication: please inform the final date of the notification;
+End time publication: enter the end time of the notification display;
+Add the groups and/or users who will see the notification;
+Short Description: provide a brief description of the notification;
+Notification Description: enter the detailed description of the notification.
+After the data has been entered, click the Save button to register, in this case the date, time and time will be stored automatically for a future audit.
 !!! note "NOTA"
 
     As notificações registradas, serão exibidas durante o período estabelecido
@@ -123,8 +86,7 @@ Visualizando as notificações
 
     !!! info "IMPORTANTE"
 
-        No determinado período, que foi configurado no registro da notificação,
-        será apresentada a mensagem de alerta.
+        the registered notifications will be displayed during the period established in this registry. After passing the period, the system will inactivate the notifications.
 
 1.  Para visualizar todas as notificações do sistema, clique na
     opção **Notificações**, localizada na parte superior da tela. Será
