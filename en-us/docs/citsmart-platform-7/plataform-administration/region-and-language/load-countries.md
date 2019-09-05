@@ -1,68 +1,69 @@
-title:  Carga de países 
-Description: O objetivo é realizar a carga de países nas telas de Fornecedor e Unidade. 
-# Carga de países
+title: Country loading
+Description: The goal is to load countries on the Supplier and Unit screens.
+# Country loading
 
-O objetivo é realizar a carga de países nas telas de Fornecedor e Unidade.
+The goal is to load countries on the Supplier and Unit screens.
 
-Como acessar
---------------
+How to access
+-----------------
 
-1. Acesse a funcionalidade de carga de países através da navegação no menu principal **Sistema > Banco de Dados > Carga Países**.
+1. Access the country loading feature by navigating the main menu 
+**System > Database > Country Load**.
 
-Pré-condições
+Preconditions
 ----------------
 
-1. Não se aplica.
+1. No applicable.
 
-Filtros
+Filters
 ---------
 
-1. Não se aplica.
+1. No applicable.
 
-Listagem de itens
+Items list
 --------------------
 
-1. Não se aplica.
+1. No applicable.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Não se aplica.
+1. No applicable.
 
-Carga de países
+Country loading
 ------------------
 
-1. Será apresentada a tela Carga Países contendo uma listagem dos países, conforme ilustrada na figura abaixo:
+1. The **Countries Load** screen will be displayed containing a list of countries, as 
+shown in the figure below:
 
-    ![Carga](images/car-pais.img1.jpg)
+    ![Load](images/country.img1.jpg)
     
-    **Figura 1 - Tela de carga países**
+    **Figure 1 - Loading countries screen**
     
-2. Selecione o país desejado e clique no botão "Carregar";
+2. Select the desired country and click the *Load* button;
 
-3. Será exibida uma mensagem confirmando o sucesso da carga do país.
+3. A message confirming the success of the country charge will be displayed.
 
-Exemplificando uma carga de país
+Exemplifying a country load
 ---------------------------------
 
-1. Selecione o país desejado:
+1. Select the desired country;
 
-    ![Carga](images/car-pais.img2.jpg)
+    ![Load](images/country.img2.jpg)
     
-    **Figura 2 - Tela de carga países**
+    **Figure 2 - Countries load screen**
     
-    ![País](images/car-pais.img3.jpg)
+    ![Countries](images/country.img3.jpg)
     
-    **Figura 3 - Tela de carga países**
+    **Figure 3 - Countries load screen**
     
-2. Verifique se o mesmo se encontra nas funcionalidades de Cadastro de Fornecedores e Cadastro de Unidades, em 
-**Processos ITIL > Gerência de Portfólio e Catálogo > Fornecedor**:
+2. Verify if it is found in the Supplier Registration and Unit Registration features.
 
-![Cadastro](images/car-pais.img4.jpg)
+![Entry](images/country.img4.jpg)
 
-**Figura 4 - Tela de cadastro de fornecedor**
+**Figure 4 - Supplier registration screen**
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/24/2019 - Larissa Lourenço
+    <b>Updated:</b>09/05/2019 - Larissa Lourenço
