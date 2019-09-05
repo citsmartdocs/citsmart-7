@@ -1,87 +1,96 @@
-title: Cadastro e pesquisa de questionários
-Description: Disponibiliza ações diversas, tais como, incluir, alterar e excluir questionários (formulários).
-# Cadastro e pesquisa de questionários
+title: Questionnaires registration and search
+Description: This feature allows you to create questionnaires (forms) in a very generic.
+# Questionnaires registration and search
 
-Esta funcionalidade permite criar questionários (formulários) de uma forma muito genérica, multi-propósito e fácil para serem 
-utilizados em outras rotinas do sistema.
+This feature allows you to create questionnaires (forms) in a very generic, multi-purpose and easy way to be used in other routines of 
+the system.
 
-!!! abstract "SAIBA MAIS"
+!!! abstract "KNOW MORE"
 
-    Esta é a segunda geração tecnológica desta funcionalidade, ela surge mais poderosa e mais flexível, porém de uma maneira muito 
-    fácil é possível importar os questionários construídos na primeira geração, evitando retrabalho aos cliente e consultores. 
-    Explicações mais detalhadas estão neste documento.
+    This is the second technological generation of this functionality, it appears more powerful and more flexible, but in a very easy 
+    way it is possible to import the questionnaires built in the first generation, avoiding rework to the clients and consultants. More 
+    detailed explanations are in this document.
     
-Como acessar
--------------
+How to access
+------------------
 
-1. Acesse a funcionalidade através da navegação no menu principal **Sistema > Visões e Metadados > Questionário**.
+1. Access the functionality through navigation in the main menu **System > Visions and Metadata > Questionnaire**.
 
-Pré-condições
+Preconditions
 ---------------
 
-1. Ter pelo menos uma categoria de Questionário cadastrada no sistema ([Cadastro e pesquisa de Categoria de Questionário](/pt-br/citsmart-platform-7/plataform-administration/questionnaires/questionnaires-management/questionnaire-category.html)).
+1. Have at least one category of Questionnaire registered in the system ([Questionnaire Category registration and search](/en-us/citsmart-platform-7/plataform-administration/questionnaires/questionnaires-management/questionnaire-category.html)).
 
-Filtros
----------
+Filters
+------------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a
-localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier to 
+find the desired items:
 
-    - Título.
+    - Title.
     
-    ![Pesquisa](images/cad-quest.img1.jpg)
+    ![Search](images/survey.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de questionário**
+    **Figure 1 - Questionnaire search screen**
     
-Listagem de itens
+Items listing
 -------------------
 
-1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens desejados na listagem padrão da
-funcionalidade: **Título**.
+1. The following cadastral field is available to the user to facilitate the 
+identification of the desired items in the standard listing of the functionality: 
+**Title**.
 
-2. Existe um botão de ação disponível ao usuário em relação a cada item da listagem, é ele: "Editar".
+2. There is an action button available to the user in relation to each listing item, 
+it is: *Edit*.
 
-![Listagem](images/cad-quest.img2.jpg)
+![Listing](images/survey.img2.jpg)
 
-**Figura 2 - Tela de listagem de questionário**
+**Figure 2 - Questionnaire listing screen**
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 ------------------------------------
 
-1. Ao clicar nos botões "Novo" e "Editar" estão disponíveis os campos de preenchimento do cadastro, conforme figura abaixo:
+1. By clicking on the *New* and *Edit* buttons, the fill fields of the cadastre are available, as shown below:
 
-    ![Detalhes](images/cad-quest.img3.jpg)
+    ![Details](images/survey.img3.jpg)
     
-    **Figura 3 - Detalhes do questionário**
+    **Figura 3 - Questionnaire details**
     
-    - **Título**: texto curto que identifica facilmente o propósito do questionário;
-    - **Categoria**: lista de categorias pré-cadastradas que ajudam a gerenciar conjuntos de Questionários;
-    - **Grupo**: um Questionário organiza seus itens de forma agrupada por algum critério subjetivo do consultor ou cliente, pode
-    haver mais de um grupo no questionário (como se fossem vários assuntos);
-        - **Título do Grupo**: logo em frente da palavra "Grupo" é possível editar e trocar a expressão "sem título 1" por um
-        título significativo para descrever a finalidade/critério do agrupamento;
-        - Um grupo pode ter uma ou mais Questões, cada uma composta por:
-            - **Questão**: título da Questão para que seja possível o leitor entender o que deve responder;
-            - **Tipo**: existem diversos tipos de questões, cada um provocará um comportamento diferente quando o Questionário 
-            for executado;
-            - **Obrigatório**: indica se a questão pode ou não aceitar ser gravada sem preenchimento.
+    - **Title**: short text that easily identifies the purpose of the questionnaire;
+    - **Category**: list of pre-registered categories that help manage Questionnaire 
+    sets;
+    - **Group**: a Questionnaire organizes its items in a way grouped by some 
+    subjective criterion of the consultant or client, there may be more than one group 
+    in the questionnaire (as if they were several subjects);
+        - **<Group Title>**: just in front of the word "Group" you can edit and change 
+    the expression "without title 1" by a significant title to describe the 
+    purpose/criterion of the grouping;
+        - A group can have one or more questions, each composed of:
+            - **Question**: title of the Question so that it is possible for the 
+    reader to understand what he should answer;
+            - **Type**: there are several types of questions, each one will cause 
+    different behavior when the Questionnaire is executed;
+            - **Required**: indicates whether or not the question can be accepted 
+    without being completed;
             
-2. O botão "Adicionar uma questão" permite inserir mais uma questão logo após a última delas;
+2. The *Add Question* button allows you to enter one more question right after the 
+last one;
 
-3. O botão "Adicionar um texto" permite editar um conteúdo numa caixa de texto para que orientações possam ser mostradas no
-Questionário, quando da sua execução;
+3. The *Add Text* button allows you to edit a content in a text box so that guidelines 
+can be shown in the Questionnaire when it is run;
 
-4. O botão "Adicionar um grupo" acrescenta outro Grupo logo após o último para ser preenchido;
+4. The *Add a Group* button adds another Group just after the last to be filled ;
 
-5. O botão "Exportar" permite gravar em um disco um arquivo eletrônico contendo todas as características do Questionário 
-selecionado.
+5. The *Export* button allows you to record on a disk an electronic file containing 
+all the characteristics of the selected Questionnaire.
 
-!!! note "NOTA"
+!!! note "NOTE"
 
-    Para garantir maior produtividade, o botão "Copiar de outro questionário" permite ao Administrador que importe Questionários 
-    construídos tanto na forma anterior, quanto na forma atual.
+    To ensure greater productivity, the Copy button of another questionnaire allows 
+    the Administrator to import Questionnaires built either in the previous form or in 
+    the current form.
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/24/2019 – Larissa Lourenço
+    <b>Updated:</b>09/05/2019 – Larissa Lourenço
