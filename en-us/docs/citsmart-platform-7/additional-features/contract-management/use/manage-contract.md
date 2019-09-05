@@ -1,364 +1,227 @@
-title: Administração de contratos
+title: Contract administration
 
-Description: A administração dos contratos é utilizada com o objetivo de gerenciar os contratos já cadastrados no sistema.
+Description: Contract management is used to manage the contracts already registered in the system. 
 
-# Administração de contratos
+# Contract administration
 
-A administração dos contratos é utilizada com o objetivo de gerenciar os
-contratos já cadastrados no sistema. Este processo permite verificar, adicionar
-e excluir serviços, além de dispor de vínculos para a criação de OS, de fatura e
-notificações.
+Contract management is used to manage the contracts already registered in the system. This process allows you to check, add, and delete services, as well as having links to creating Service Order (SO), billing, and notifications.
 
-Como acessar
+How to access
 -----------
 
-1.  Acesse a funcionalidade de Administração de Contratos através da navegação
-    no menu principal **Gestão Integrada > Gerência de Contratos > Administração
-    de Contratos**.
+1.  Access the Contract Administration feature by navigating the main menu Integrated Management > Contracts Management > Contract Administration.
 
-Pré-condições
+Preconditions
 ------------
 
-1.  Cadastrar grupo (ver conhecimento [Cadastro e pesquisa de
-    grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html));
+1.  Register a group (see knowledge Group registration and search);
 
-2.  Cadastrar contrato (ver conhecimento [Cadastro e pesquisa de
-    contrato](/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html));
+2. Register contract (see knowledge Contract registration and search);
 
-3.  Cadastrar serviços (ver conhecimento [Cadastro de portfólio de serviços][1]; [Cadastro de serviço][2]; 
-[Cadastro da atividade serviço][3]);
+3. Register services (see knowledge Service portfolio registration; Service registration ; Service activity registration);
 
-4.  Cadastrar acordo de nível de serviço (geral) (ver conhecimento [Cadastro e
-    pesquisa de acordo de nível de serviço geral](/pt-br/citsmart-platform-7/processes/service-level/register-sla.html));
+4. Enter service level agreement (general) (see knowledge General service level agreement registration and search);
 
-5.  Cadastrar modelo de e-mail (ver conhecimento [Cadastro e pesquisa de
-    configuração de modelo de e-mail](/pt-br/citsmart-platform-7/plataform-administration/email-settings/configure-email-template.html)).
+5. Enter e-mail template (see knowledge E-mail template configuration registration and search).
 
-Filtros
+
+Filters
 ------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1. The following filters enables the user to restrict the participation of items in the standard feature listing, making it easier to find the desired items:
 
-    -   Contrato;
+- Contract;
+- Contract ID;
+- Add services to the Contract.
 
-    -   Identificação do Contrato;
+2. The Contract Administration screen will be displayed, as shown in the figure below:
 
-    -   Pesquisar Serviços Contrato.
+![figure](images/manage-1.png)
 
-1.  Será apresentada a tela de Administração de Contratos, conforme ilustrada na
-    figura abaixo:
+**Figure 1 - Contract search screen**
 
-![Criar](images/manage-1.png)
+Itens list
+----------
 
-**Figura 1 - Tela de pesquisa de contrato**
+1.  The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard feature listing: Service, Status, Type, Is there any SLA?, Start date and End date.
 
-Listagem de itens
-----------------
+2. There are action buttons available to the user for each item in the listing, they are: Edit service, Service Level Agreements and Service Activities.
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Serviço, Situação, Tipo de demanda do Serviço, Tem SLA?,
-    Data início e Data fim.
-
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar o serviço*, *Acordos de Nível de
-    Serviço* e *Atividades do Serviço*.
-
-    ![Criar](images/manage-2.png)
+    ![figure](images/manage-2.png)
     
-    **Figura 2 - Tela de listagem de contrato**
+    **Figure 2 - Contract listing screen**
 
-1.  Nesta tela, permite realizar uma série de ações referentes aos contratos
-    existentes, sendo:
+3.  In this screen, it allows to perform a series of actions regarding the existing contracts, being:
 
-    -   Adicionar Serviço ao Contrato;
+- Add Service to Contract;
+- Add Services to the Contract;
+- Contract Performance;
+- Remove Services;
+- Manage Global SLAs;
 
-    -   Adicionar VÁRIOS Serviços ao Contrato;
-
-    -   Desempenho do Contrato;
-
-    -   Remover Serviço(s) do Contrato;
-
-    -   Gerenciar SLAs Globais.
-
-Vinculando um serviço ao contrato
+Linking a service to the contract
 -------------------------------
 
-1.  Para vincular um serviço ao contrato, proceda conforme os passos descritos
-    abaixo:
+1.  To link a service to the agreement, follow the steps below:
 
-2.  Na guia de **Serviços do Contrato**, clique no botão *Adicionar Serviço ao
-    Contrato*, conforme indicado na figura abaixo:
+2. On the Contract Services tab, click the Add Service to Contract button, as shown in the figure below:
 
     ![Criar](images/manage-3.png)
     
-    **Figura 3 - Botão Adicionar Serviço ao Contrato**
+    **Figure 3 - Add service to contract button**
 
-1.  Será apresentada a tela de registro de vínculo do serviço ao contrato,
-    conforme ilustrada na figura abaixo:
+3.  The service contract link registration screen will be displayed, as shown in the figure below:
 
     ![Criar](images/manage-4.png)
     
-    **Figura 4 - Tela de Registro de Serviço do Contrato**
+    **Figure 4 - Contract service registration screen**
 
-1.  Preencha os campos conforme orientação abaixo:
+4.  Fill in the fields as directed below:
 
-    -   **Serviços do Contrato**: informe o serviço que será vinculado ao contrato;
+   -  Contract Services: inform the service that will be linked to the contract;
+   -  Operation Condition : select the period of execution of the service;
+   -  Start date: enter the start date of the service link to the contract;
+   -  End date: filling in this field can be done at the time of registration, informing a future date for inactivation of the service or only when it is inactivating the service;
+   -  Observation: describe the possible observations regarding the service;
+   -  Restrictions and Suppositions: inform the possible restrictions and assumptions for the execution of the service in the contract;
+   -  Objective: inform the purpose of the service in the contract;
+   -  Process Description: describe the service process in the contract;
+   -  Process Link: inform the service process design link, if it exists;
+   -  Requesting area: inform who can request the service;
+   -  E-mail Template for Incident/request (Open): select the request-opening e-mail template to send notification when registering a service request;
+   -  E-mail Template for Incident/Request (Closure): select the request completion template for sending notification at the end of a service request;
+   -  E-mail Template for Incident/request (Other Actions): select the e-mail template of request progress for sending notification in the other actions performed in the service requests;
+   -  First-line Escalation Group: select the group for 1st level attendance escalation;
+   -  Executor group: define the executor group of the service, if it does not inform it, the group defined in parameter "Group ID Level 1" will be considered;
+   -  Approver Group: define the approving group of the service;
+   -  Calendar: select the calendar of work;
+   -  Expand service request screen: if you want the service request screen to be enlarged, check the "yes" option;
+   -  Enter the service workflow
+        
+        *  Click the service flow icon ;
 
-    -   **Condição de Operação**: selecione o período de execução do serviço;
+        *  A window will appear for information on the flow of the service, as shown in the figure below:
 
-    -   **Data de Início**: informe a data inicial do vínculo do serviço ao
-    contrato;
-
-    -   **Data Fim**: o preenchimento deste campo pode ser feito no momento do
-    cadastro, informando uma data futura para inativação do serviço ou somente
-    quando for inativar o serviço;
-
-    -   **Observação**: descreva as possíveis observações referentes ao serviço;
-
-    -   **Restrições e Pressupostos**: informe as possíveis restrições e
-    pressupostos para a execução do serviço no contrato;
-
-    -   **Objetivo**: informe o objetivo do serviço no contrato;
-
-    -   **Descrição do Processo**: descreva o processo do serviço no contrato;
-
-    -   **Link do Processo**: informe o link do desenho do processo do serviço, caso
-    exista;
-
-    -   **Área requisitante**: informe quem poderá solicitar o serviço;
-
-    -   **Modelo de E-mail Abertura Incidente/Requisição**: selecione o modelo de
-    e-mail de abertura de solicitação para envio de notificação ao registrar uma
-    solicitação do serviço;
-
-    -   **Modelo de E-mail Finalização Incidente/Requisição**: selecione o modelo de
-    e-mail de finalização de solicitação para envio de notificação ao finalizar
-    uma solicitação do serviço;
-
-    -   **Modelo de E-mail Demais Ações Incidente/Requisição**: selecione o modelo
-    de e-mail de andamento de solicitação para envio de notificação nas demais
-    ações realizadas nas solicitações de serviço;
-
-    -   **Grupo Escalação 1º Nível**: selecione o grupo para escalação do
-    atendimento de 1º Nível;
-
-    -   **Grupo Executor**: defina o grupo executor do serviço, caso não o informe,
-    será considerado o grupo definido no parâmetro "**ID Grupo Nível 1**";
-
-    -   **Grupo Aprovador**: defina o grupo aprovador do serviço;
-
-    -   **Calendário**: selecione o calendário de trabalho;
-
-    -   **Expandir tela de solicitação serviço**: caso queira a tela de solicitação
-    do serviço seja ampliada, marque a opção "sim";
-
-    -   Informe o fluxo de trabalho do serviço:
-
-        a)  Clique no ícone  ![Criar](images/manage-5.png)  de fluxo do serviço;
-
-        b)  Será exibida uma janela para informação do fluxo do serviço, conforme
-        apresentado na figura abaixo:
-
-    ![Criar](images/manage-6.png)
+   ![Criar](images/manage-6.png)
     
-    **Figura 5 - Registro de fluxo de trabalho do serviço**
+   **Figure 5 - Service workflow record**
 
-    -   **Fluxo**, selecione o fluxo que o serviço deverá seguir;
+   -   Flow: select the flow that the service should follow;
+   -   Phase: enter the phase at which the flow will start;
+   -   Main Flow: inform if flow is main;
 
-    -   **Fase**, informe a fase em que o fluxo será iniciado;
+   !!! info "IMPORTANT"
 
-    -   **Fluxo Principal**, informe se o fluxo é o principal.
-
-    !!! info "IMPORTANTE"
-
-         Caso seja necessário fazer uso de mais de um fluxo, é importante informar
-         qual é o principal.
+         If it is necessary to make use of more than one flow, it is important to inform which is            the main one.
 
 
-    c)  Clique em *Gravar* para efetuar a operação.
+   *  Click Save to perform the operation.
 
-5.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
-    onde a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria.
+5.  After the data is entered, click on the Save button to register, where the date, time and user will be saved automatically for a future audit.
 
-Vinculando vários serviços ao contrato
+Linking multiple services to the contract
 -------------------------------------
 
-1.  Para vincular vários serviços ao contrato, proceda conforme os passos
-    descritos abaixo:
+1. To link multiple services to the agreement, follow the steps below:
 
-2.  Na guia de **Serviços do Contrato**, clique no botão *Adicionar VÁRIOS
-    Serviços ao Contrato*, conforme indicado na figura abaixo:
+2. On the Contract Services tab, click the Add services to the Contract button, as shown in the figure below:
 
     ![Criar](images/manage-7.png)
 
-    **Figura 6 - Botão Adicionar Vários Serviços ao Contrato**
+    **Figure 6 - Add multiple services to contract button**
 
-1.  Será apresentada a tela de registro de vínculo dos serviços ao contrato,
-    conforme ilustrada na figura abaixo:
+3.  The service link registration screen for the contract will be displayed, as shown in the figure below:
 
     ![Criar](images/manage-8.png)
     
-    **Figura 7 - Tela de registro de serviços do contrato**
+    **Figure 7 - Contract services registration screen**
 
-1.  Preencha os campos conforme orientação abaixo:
+4.  Fill in the fields as directed below:
 
-    -   **Condição de Operação**: selecione o período de execução dos serviços;
+- Operation Condition: select the period of execution of the services;
+- Start date: inform the initial date of the services in the contract;
+- End date: the filling of this field can be done at the time of registration, informing a future date for inactivation of the services or only when it is inactivating the services;
+- Observation: please provide us with any information you consider pertinent;
+- Restrictions and Suppositions: inform the possible restrictions and assumptions for the execution of the services in the contract;
+- Objective: state the objective of the services in the contract;
+- Process Description: describe the process of services in the contract;
+- Process link: inform the process design link of the services;
+- Requesting area: inform who can request the service;
+- E-mail Template for Incident/request (Open): select the request-opening e-mail template to send notification when registering a service request;
+- E-mail Template for Incident/Request (Closure): select the request completion template for sending notification at the end of a service request;
+- E-mail Template for Incident/request (Other Actions): select the e-mail template of request progress for sending notification in the other actions performed in the service request;
+- First-line Escalation Group: select the 1st level escalation group;
+- Executor Group: define the executing group of the services, if it does not inform it, the group defined in the parameter "Group ID Level 1" will be considered;
+- Approver Group: select the approving group of the services;
+Calendar: select the calendar of work;
 
-    -   **Data de Início**: informe a data inicial dos serviços no contrato;
-
-    -   **Data Fim**: o preenchimento deste campo pode ser feito no momento do
-    cadastro, informando uma data futura para inativação dos serviços ou somente
-    quando for inativar os serviços;
-
-    -   **Observação**: informe alguma informação que achar pertinente;
-
-    -   **Restrições e Pressupostos**: informe as possíveis restrições e
-    pressupostos para a execução dos serviços no contrato;
-
-    -   **Objetivo**: informe o objetivo dos serviços no contrato;
-
-    -   **Descrição do Processo**: descreva o processo dos serviços no contrato;
-
-    -   **Link do Processo**: informe o link do desenho do processo dos serviços;
-
-    -   **Área requisitante**: informe quem poderá solicitar o serviço;
-
-    -   **Modelo de E-mail Abertura Incidente/Requisição**: selecione o modelo de
-    e-mail de abertura de solicitação para envio de notificação ao registrar uma
-    solicitação do serviço;
-
-    -   **Modelo de E-mail Finalização Incidente/Requisição**: selecione o modelo de
-    e-mail de finalização de solicitação para envio de notificação ao finalizar
-    uma solicitação do serviço;
-
-    -   **Modelo de E-mail Demais Ações Incidente/Requisição**: selecione o modelo
-    de e-mail de andamento de solicitação para envio de notificação nas demais
-    ações realizadas na solicitação de serviço;
-
-    -   **Grupo Escalação 1º Nível**: selecione o grupo para escalação do
-    atendimento 1º Nível;
-
-    -   **Grupo Executor**: defina o grupo executor dos serviços, caso não o
-    informe, será considerado o grupo definido no parâmetro "**ID Grupo Nível
-    1**";
-
-    -   **Grupo Aprovador**: selecione o grupo aprovador dos serviços;
-
-    -   **Calendário**: selecione o calendário de trabalho;
-
-    -   Informe os serviços que receberão a configuração:
-
-        -   Clique no ícone ![Criar](images/manage-5.png) ;
-
-        -   Será exibida uma janela para pesquisa do serviço;
-
-        -   Realize a pesquisa e selecione os serviços desejados.
-
-    -   Informe o fluxo de trabalho dos serviços:
-
-        a)  Clique no ícone  ![Criar](images/manage-5.png)  de fluxo do serviço;
-
-        b)  Será exibida uma janela para informação do fluxo do serviço, conforme
-        apresentado na figura abaixo:
+  - Please tell the services that will receive the configuration:
+      - Click the icon ;
+      - A window will appear for service search;
+      - Perform the search and select the services you want.
+  - Enter the service workflow:
+      - Click the service flow icon;
+      - A window will appear for information on the flow of the service, as shown in the figure below:
 
     ![Criar](images/manage-9.png)
 
-    **Figura 8 - Registro de fluxo de trabalho do serviço**
+    **Figure 8 - Service workflow record**
 
-    -   **Fluxo**: selecione o fluxo que os serviços deverão seguir;
+    -   Flow: select the flow that the services should follow;
+    -   Phase: enter the phase at which the flow will start;
+    -   Main Flow: inform if the flow is the main one;
 
-    -   **Fase**: informe a fase em que o fluxo será iniciado;
+    !!! info "IMPORTANT"
 
-    -   **Fluxo Principal**: informe se o fluxo é o principal;
+         If it is necessary to make use of more than one flow, it is important to inform which will be the main one.
 
-    !!! info "IMPORTANTE"
+    - Click Save to perform the operation.
 
-         Caso seja necessário fazer uso de mais de um fluxo, é importante informar
-         qual será o principal.
+5. After the data has been entered, click the Save button to register, where the date, time and user will be saved automatically for a future audit.
 
-    c)  Clique em *Gravar* para efetuar a operação.
+Verifying contract services
+---------------------------
 
-5.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
-    onde a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria.
+1. To check the services already linked in the contract, follow the steps below:
 
-Verificando os serviços do contrato
-----------------------------------
-
-1.  Para verificar os serviços já vinculados no contrato, proceda conforme os
-    passos descritos abaixo:
-
-2.  Na guia de **Serviços do Contrato**, são apresentados todos os serviços que
-    estão vinculados ao contrato, conforme ilustrado na figura abaixo:
+2. In the Contract Service tab, all the services that are linked to the contract are shown, as shown in the figure below:
 
     ![Criar](images/manage-10.png)
     
-    **Figura 9 - Serviços do contrato**
+    **Figure 9 - Contract services**
 
-1.  Caso queira pesquisar um serviço específico, basta informar o nome dele no
-    campo **Pesquisa Serviços Contrato** e clicar no botão *Pesquisar*.
+3.  If you want to search for a specific service, simply enter its name in the Search Services Contract field and click the Search button..
 
-Editando informações do vínculo do serviço ao contrato
------------------------------------------------------
+Editing service link information to contract
+--------------------------------------------
 
-1.  Clique no ícone ![Criar](images/manage-11.png)  do serviço que deseja editar;
+1.  Click the service icon  you want to edit;
 
-2.  Será exibida a tela registro do vínculo do serviço do contrato com os campos
-    preenchidos com o conteúdo referente ao serviço escolhido;
+2. The contract service link registration screen will appear with the fields filled with the content of the chosen service;
 
-3.  Altere os dados desejados e clique no botão *Gravar* para que seja gravada a
-    alteração realizada no serviço do contrato, onde a data, hora e usuário
-    serão gravados automaticamente para uma futura auditoria.
+3. Change the desired data and click the Record button to save the change made to the contract service, where the date, time and user will be saved automatically for a future audit.
 
-Vinculando SLA específico ao serviço do contrato
------------------------------------------------
+Linking specific SLA to contract service
+----------------------------------------
 
-1.  Na guia de **Serviço do Contrato**, são apresentados os serviços que estão
-    vinculados ao contrato;
+1.  In the Contract Service tab, the services that are linked to the agreement are displayed.
 
-2.  Clique no ícone ![Criar](images/manage-12.png)  do serviço desejado. Feito isso, serão exibidos dois
-    botões *Vincular Acordo* e *Criar Acordo específico para este serviço*;
+2. Click the desired service icon . This will bring up two Link Agreement and Create Agreement specific for this service buttons;
 
-3.  Clique no botão *Criar Acordo específico para este serviço*;
+3. Click the Create specific agreement for this service button .
 
-4.  Após isso, será apresentada a tela de registro de acordo de nível de serviço
-    específico, conforme ilustrada na figura abaixo:
+4. After that, the specific service level agreement registration screen will be displayed, as shown in the figure below:
 
     ![Criar](images/manage-13.png)
     
-    **Figura 10 - Tela de registro de acordo de nível de serviço**
+    **Figure 10 - Service level agreement record screen**
 
-1.  Preencha os campos conforme orientação abaixo:
-
-    -   **Tipo de Acordo**: informe o tipo de acordo de serviço;
-
-        -   **Disponibilidade**: esse tipo de acordo indica a disponibilidade do
-            serviço, ou seja, se está acessível durante um período de tempo
-            acordado. Ex.: ter o prestador de serviço monitorando o site da empresa
-            cliente em tempo integral para ter certeza que os usuários possam ter
-            acesso ao conteúdo do site em tempo integral;
-
-        -   **Falhas repetitivas**: medir a quantidade de falhas ocorridas durante
-        certo tempo acordado e se porventura ultrapassar a quantidade combinada,
-        impor as devidas penalidades;
-
-        -   **OS - Resultados Esperados**: OS (Ordem de Serviço) é um documento que
-        irá fornecer a permissão de execução relativa a algum serviço. Este tipo
-        de acordo estipula os limites desta modalidade de documento ao serviço
-        escolhido;
-
-        -   **Tempo (por fases)**: esse tipo de acordo vincula o tempo de
-        atendimento a uma fase, ou seja, no lugar de calcular por tempo, o SLA
-        será calculado por uma fase que corresponde a um período acordado para o
-        período de captura e período de execução;
-
-        -   **Informações diversas capturadas de outras fontes**: esse tipo de
-        acordo estipula os limites da OS (Ordem de Serviço) ao serviço
-        escolhido.
+-  Agreement Type : state the type of service agreement;
+   -  Availability : this type of agreement indicates the availability of the service, that is, if it is accessible for an agreed period of time. Eg: Have the service provider monitoring the client's company site full time to make sure that users can access the content of the site full time;
+   -  Repeated failures: to measure the number of failures occurring during an agreed time and if it exceeds the combined quantity, impose the due penalties;
+   -  OS - Expected Results: SO (Service Order) is a document that will provide execution permission for some service. This type of agreement stipulates the limit of this modality of document to the chosen service;
+   -  Time (in stages): this type of agreement links the service time to a phase, that is, instead of calculating by time, the SLA will be calculated by a phase that corresponds to an agreed period for the capture period and execution;
+   -  Information captured from several other sources: this type of agreement stipulates the limit of the OS (Service Order) to the chosen service.
 
     -   **Título do Acordo**: informe o título do acordo de nível de serviço;
 
