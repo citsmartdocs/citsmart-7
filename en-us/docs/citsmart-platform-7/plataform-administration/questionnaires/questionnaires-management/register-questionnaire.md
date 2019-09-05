@@ -62,7 +62,7 @@ Filling in the registration fields
     - **Group**: a Questionnaire organizes its items in a way grouped by some 
     subjective criterion of the consultant or client, there may be more than one group 
     in the questionnaire (as if they were several subjects);
-        - **<Group Title>**: just in front of the word "Group" you can edit and change 
+        - **Group Title**: just in front of the word "Group" you can edit and change 
     the expression "without title 1" by a significant title to describe the 
     purpose/criterion of the grouping;
         - A group can have one or more questions, each composed of:
