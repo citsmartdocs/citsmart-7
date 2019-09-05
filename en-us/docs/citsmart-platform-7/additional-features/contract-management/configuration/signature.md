@@ -1,97 +1,72 @@
-title: Cadastro e pesquisa de assinatura
+title: Signature registration and search
 
-Description: Esta funcionalidade tem o objetivo de registrar campos de assinaturas para serem associados a um grupo de assinatura, a fim da personalização de assinaturas presentes no relatório de Ordens de Serviço.
+Description: The goal of this feature is to register signatures to be associated to a signature group, in order to personalize the signatures on the Service Orders report.
 
-# Cadastro e pesquisa de assinatura
+# Signature registration and search
 
-Esta funcionalidade tem o objetivo de registrar campos de assinaturas para serem
-associados a um grupo de assinatura, a fim da personalização de assinaturas
-presentes no relatório de Ordens de Serviço. Estes relatórios de Ordens de
-Serviço são utilizados para registrar, comprovar e cobrar pelos serviços
-prestados ao cliente.
+The goal of this feature is to register signatures to be associated to a signature group, in order to personalize the signatures on the Service Orders report. These Service Order reports are used to register, verify and charge for the services provided to clients.
 
-Como acessar
+How to access
 -----------
 
-1.  Acesse a funcionalidade de Assinaturas através da navegação no menu
-    principal **Gestão Integrada > Gerência de Contratos > Assinaturas**.
+1.  Access the signature feature navigating through the main menu Integrated Management > Contracts Management > Signature.
 
-Pré-condições
+Preconditions
 -------------
 
-1.  Para cadastrar a assinatura é necessário ter o colaborador cadastrado (ver
-    conhecimento [Cadastro e pesquisa de colaborador](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html)).
+1.  o register the signature, the staff member must be registered (see knowledge [Staff registration and search][1]).
 
-Filtros
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filters enables the user to restrict the participation of items in the standard feature listing, making it easier to find the desired items:
 
-    -   Responsável
+- Responsible;
+- Phase;
+- Roles.
 
-    -   Fase
-
-    -   Papel
-
-    ![Criar](images/signature-1.png)
+    ![figure](images/signature-1.png)
     
-    **Figura 1 - Tela de pesquisa de assinaturas**
+    **Figure 1 - Signature search screen**
 
-1.  Realize a pesquisa de assinaturas:
+1.  Perform a signature search:
 
-    -   Informe o nome do responsável da assinatura, fase do processo e/ou papel
-    desempenhado pelo responsável, e clique no botão *Pesquisar*. Após isso,
-    será exibido o registro conforme os dados informados;
+- Insert the signature responsible name, procedure phase and/or role and click on the Search button. Afterwards, the entries will be displayed according to the information provided.
+- To list all signatures, just click directly on the Search button, if needed.
 
-    -   Caso deseje listar todos os registros de assinaturas, basta clicar
-    diretamente no botão *Pesquisar*.
+Itens list
+---------
 
-Listagem de itens
-----------------
+1.  The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard feature listing: Responsible, Phase and Roles.
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Responsável, Fase e Papel.
-
-    ![Criar](images/signature-2.png)
+    ![figure](images/signature-2.png)
     
-    **Figura 2- Tela de listagem de assinatura**
+    **Figure 2 - Signature listing screen**
 
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a aba de cadastro exibindo o conteúdo referente ao registro
-    selecionado;
+2.  After searching, select the intended entry. Afterwards, they will be redirected to the registry screen displaying the content belonging to the selected entry.
 
-2.  Para alterar os dados da assinatura, basta modificar as informações
-    desejadas e clicar no botão *Gravar*.
+3. To edit a signature entry, just modify the information on the intended fields and click on the Save button to confirm the changes to the database.
 
-Preenchimento dos campos cadastrais
+
+Filling in the registrtion fields
 ----------------------------------
 
-1.  Será apresentada a tela de **Cadastro de Assinatura**, conforme ilustrada na
-    figura abaixo:
+1.  The Signature entry screen will be displayed, as illustrated on the image below:
 
-    ![Criar](images/signature-3.png)
+    ![figure](images/signature-3.png)
     
-    **Figura 3 - Cadastro de assinaturas**
+    **Figure 3 - Signature registration screen**
 
-1.  Preencha os campos conforme orientações abaixo:
+2.  Fill out the fields as instructed below:
 
-    -   **Responsável**: informe o colaborador responsável pela assinatura;
+- Responsible: insert the staff member responsible for the signature;
+- Phase (choose or type a new phase): insert the procedure phase, at the signing moment;
+- Roles (choose or type a new role): insert the responsible's role.
 
-    -   **Fase (escolha ou digite uma nova fase)**: informe a fase do processo, no
-    momento da assinatura;
-
-    -   **Papel (escolha ou digite um novo papel)**: informe o nome do papel
-    desempenhado pelo responsável.
-
-1.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
-    neste caso a data, hora e horário serão armazenados automaticamente para uma
-    futura auditoria.
+3. Click on the Save the button to confirm the entry, at which date, time and user will automatically be stored for a future audit.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/19/2019 – Anna Martins
+    <b>Updated:</b>09/05/2019 – Anna Martins
