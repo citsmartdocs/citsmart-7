@@ -1,97 +1,78 @@
-title: Cadastro e pesquisa de grupo de assinaturas
-Description: Esta funcionalidade permite registrar os grupos de assinaturas que serão impressos em relatórios.
+title: Group signatures registration and search
+Description: This feature allows registering group signatures to be printed on reports.
 
-# Cadastro e pesquisa de grupo de assinaturas
+# Group signatures registration and search
 
-Como acessar
+This feature allows registering group signatures to be printed on reports.
+
+How to access
 -----------
 
-1.  Acesse a funcionalidade de Grupo de Assinatura através da navegação no
-    menu principal **Gestão Integrada > Gerência de Contratos > Grupo
-    de Assinaturas**.
+1.  Access the Group Signature feature navigating through the main menu **Integrated Management > Contracts Management > Group Signatures**.
 
-Pré-condições
+
+Preconditions
 ------------
 
-1.  Para registrar o grupo de assinaturas é necessário ter a assinatura
-    cadastrada (ver conhecimento [Cadastro e pesquisa de assinatura](/pt-br/citsmart-platform-7/additional-features/contract-management/configuration/signature.html)).
+1.  To register group signatures it is necessary to have a registered signature (see knowledge Signature registration and search).
 
-Filtros
+Filters
 ------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier to find the desired items:
 
-    -   Título.
+- Title
 
-1.  Na tela de Grupo de Assinatura, clique na guia **Pesquisa de Grupos de
-    Assinaturas**, será apresentada a tela de pesquisa conforme ilustrada na
-    figura abaixo:
+2. On the Group Subscription screen, click on the Search Group Subscription tab. The search screen will be displayed as illustrated on the image below:
 
-    ![Criar](images/group-1.png)
+    ![figure](images/group-1.png)
     
-    **Figura 1 - Tela de pesquisa de grupo de assinaturas**
+    **Figure 1 - Group subscription search screen**
 
-1.  Realize a pesquisa do grupo de assinaturas:
+3.  Conduct a company search:
 
--   Informe o título do grupo de assinaturas que deseja pesquisar e clique no
-    botão *Pesquisar*. Após isso, será exibido o registro conforme o nome
-    informado;
+- Insert the name of the intended group subscription and click on the Search button. Afterwards, the group subscription entry will be displayed according to the description provided.
 
--   Caso deseje listar todos os registros de grupos de assinaturas, basta clicar
-    diretamente no botão *Pesquisar*.
+- To list all group subscription, just click directly on the Search button, if needed.
 
-Listagem de itens
-----------------
+Itens list
+----------
 
-1.  O seguinte campo cadastral está disponível ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Título**.
+1.  The following cadastral field is available to the user to make it easier to identify the desired items in the standard feature listing: Title.
 
-    ![Criar](images/group-2.png)
+    ![figure](images/group-2.png)
     
-    **Figura 2 - Tela de listagem de grupo de assinatura**
+    **Figure 2 - Group subscription listing screen**
 
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a aba de cadastro exibindo o conteúdo referente ao registro
-    selecionado;
+2.  After searching, select the intended entry. Afterwards, they will be redirected to the registry screen displaying the content belonging to the selected entry.
 
-2.  Para alterar os dados do registro de grupo de assinaturas, basta modificar
-    as informações desejadas e clicar no botão *Gravar*.
+3. To edit a company entry, just modify the information on the intended fields and click on the Save button to confirm the changes to the database, at which date, time and user will be stored automatically for a future audit.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 ----------------------------------
 
-1.  Será apresentada a tela de **Cadastro de Grupo de Assinaturas**, conforme
-    ilustrada na figura abaixo:
+1.  The Group Signatures entry screen will be displayed, as illustrated on the image below:
 
-    ![Criar](images/group-3.png)
+    ![Figure](images/group-3.png)
     
-    **Figura 3 - Tela cadastro de grupo de assinaturas**
+    **Figure 3 - Group subscription entry screen**
 
-1.  Preencha os campos conforme orientações abaixo:
+2.  Fill out the fields as instructed below:
 
-    -   **Título**: informe um título do grupo de assinaturas;
+- Title: insert a title for the group signature;
+- Signature: selecione the signature;
+- Order by: insert an order the signature will be displayed on the report signature board ;
+- Click on the Add button to add a signature to the group. According to the signature board featured on the service order report, many signatures can be added to each group.
 
-    -   **Assinatura**: selecione a assinatura;
 
-    -   **Ordenação**: informe a ordem em que a assinatura aparecerá no quadro de
-    assinaturas do relatório de OS. Ex.: 1;
-
-    -   Clique no botão *Adicionar* para adição da assinatura ao grupo. De acordo
-    com os quadros de assinaturas presentes no relatório de Ordem de Serviço,
-    poderá ser adicionada várias assinaturas em cada grupo.
-
-    ![Criar](images/group-4.png)
+    ![figure](images/group-4.png)
     
-    **Figura 4 - Assinaturas adicionadas ao grupo**
+    **Figure 4 - Signatures added to the group**
 
-1.  Clique no botão *Gravar* para efetuar o registro, neste caso a data, hora e
-    horário serão armazenados automaticamente para uma futura auditoria.
+4.  Click on the Save the button to confirm the entry, at which date, time and user will automatically be stored for a future audit..
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/19/2019 – Anna Martins
+    <b>Updated:</b>09/05/2019 – Anna Martins
