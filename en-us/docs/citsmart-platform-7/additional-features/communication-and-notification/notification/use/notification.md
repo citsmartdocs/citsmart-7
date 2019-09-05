@@ -53,78 +53,65 @@ Filling in the registration fields
     
    **Figure 3 - Registration notification**
 
-1.  Fill in the fields as directed below:
-Title: report the title of the notification;
-Process: select the notification process;
-Confirmation Required: set whether notification requires user read confirmation. If yes, when recording the information will be presented a button that allows to verify the users who confirmed the reading of the notification;
-Status: inform the status of the notification;
-Initial date publication : enter the start date that the notification will be displayed to the user;
-Initial time publication: enter the start time the notification will be displayed;
-End date publication: please inform the final date of the notification;
-End time publication: enter the end time of the notification display;
-Add the groups and/or users who will see the notification;
-Short Description: provide a brief description of the notification;
-Notification Description: enter the detailed description of the notification.
-After the data has been entered, click the Save button to register, in this case the date, time and time will be stored automatically for a future audit.
-!!! note "NOTA"
+3.  Fill in the fields as directed below:
 
-    As notificações registradas, serão exibidas durante o período estabelecido
-    neste registro. Após passar o período, o sistema irá inativar as
-    notificações.
+- Title: report the title of the notification;
+- Process: select the notification process;
+- Confirmation Required: set whether notification requires user read confirmation. If yes, when recording the information will be presented a button that allows to verify the users who confirmed the reading of the notification;
+- Status: inform the status of the notification;
+- Initial date publication : enter the start date that the notification will be displayed to the user;
+- Initial time publication: enter the start time the notification will be displayed;
+- End date publication: please inform the final date of the notification;
+- End time publication: enter the end time of the notification display;
+- Add the groups and/or users who will see the notification;
+- Short Description: provide a brief description of the notification;
+- Notification Description: enter the detailed description of the notification.
 
-Visualizando as notificações
+4. After the data has been entered, click the Save button to register, in this case the date, time and time will be stored automatically for a future audit.
+
+!!! note "NOTE"
+
+    the registered notifications will be displayed during the period established in this registry. After passing the period, the system will inactivate the notifications.
+
+
+Viewing notifications
 ---------------------------
 
-1.  No momento em que apresentar a mensagem de alerta (conforme exemplo
-    ilustrado na figura abaixo), clique no botão *Visualizar*, caso queira
-    visualizar a notificação. Mas, caso queira visualizar a notificação, em um
-    momento posterior, clique no botão *Fechar* da mensagem de alerta.
+1.  When you display the alert message (as shown in the figure below), click the Preview button if you want to view the notification. But if you want to view the notification at a later time, click the Close button in the alert message.
 
-    ![Criar](images/notification-4.png)
+    ![figure](images/notification-4.png)
     
-    **Figura 4 - Alerta de notificação**
+    **Figure 4 - Notification alert**
 
-    !!! info "IMPORTANTE"
+    !!! info "IMPORTANT"
 
-        the registered notifications will be displayed during the period established in this registry. After passing the period, the system will inactivate the notifications.
+        The registered notifications will be displayed during the period established in this registry. After passing the period, the system will inactivate the notifications.
 
-1.  Para visualizar todas as notificações do sistema, clique na
-    opção **Notificações**, localizada na parte superior da tela. Será
-    apresentada as notificações que ainda não foram visualizadas, conforme
-    exemplo ilustrado na figura abaixo:
+2.  To view all system notifications, click the Notifications option at the top of the screen. You will see notifications that have not yet been viewed, as shown in the figure below:
     
-    ![Criar](images/notification-5.png)
+    ![figure](images/notification-5.png)
     
-    **Figura 5 - Notificações**
+    **Figura 5 - Notifications**
 
-    !!! info "IMPORTANTE"
+    !!! info "IMPORTANT"
 
-         O sistema mostra o contador de notificação incrementado somente quando
-         existir notificação que exige confirmação de leitura.
+         The system displays the notification counter incremented only when there is notification that requires read confirmation.
 
-1.  Para ver todas as notificações, clique na opção "+VER TODOS", será
-    apresentada a tela para verificação das notificações, conforme ilustrada na
-    figura abaixo:
+3.  To see all the notifications, click on the "+ SEE ALL" option, the notifications verification screen will be displayed, as shown in the figure below:
 
     ![Criar](images/notification-6.png)
     
-    **Figura 6 - Minhas notificações**
+    **Figure 6 - My notification**
 
-    -   A notificação com o ícone ![Criar](images/notification-7.png) , indica que a mesma foi visualizada;
+    - The notification with the icon  indicates that it has been displayed;
+    - Notification with the icon  indicates that the icon was not displayed;
+    - Notification with the icon  indicates that it requires read confirmation;
+    - The notification with the icon  indicates that the message has been confirmed.
 
-    -   A notificação com o ícone ![Criar](images/notification-8.png) , indica que a mesma não foi visualizada;
-
-    -   A notificação com o ícone ![Criar](images/notification-9.png) , indica que a mesma exija confirmação de
-    leitura;
-
-    -   A notificação com o ícone ![Criar](images/notification-10.png) , indica que a leitura da mesma foi confirmada.
-
-1.  Clique no botão *Visualizar* da notificação. Após isso, será apresentada as
-    informações da mesma. Caso a notificação exija a confirmação da leitura,
-    basta clicar no botão *Marcar como lida*.
+4.  Click the Notification View button. After that, the information will be displayed. If the notification requires the confirmation of the reading, simply click on the Mark as read button.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/18/2019 – Anna Martins
+    <b>Updated:</b>09/05/2019 – Anna Martins
