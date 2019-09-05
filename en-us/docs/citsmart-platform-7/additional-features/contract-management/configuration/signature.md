@@ -29,7 +29,7 @@ Filters
     
     **Figure 1 - Signature search screen**
 
-1.  Perform a signature search:
+2.  Perform a signature search:
 
 - Insert the signature responsible name, procedure phase and/or role and click on the Search button. Afterwards, the entries will be displayed according to the information provided.
 - To list all signatures, just click directly on the Search button, if needed.
