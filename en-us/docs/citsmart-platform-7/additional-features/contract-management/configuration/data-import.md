@@ -33,7 +33,7 @@ Importing data
 
 4. A message to confrm the import will be displayed, click on Ok to execute the procedure.
 
-!!! note “NOTA”
+!!! note “NOTE”
 
        As the data is imported, the system will maintain the existing data and add only the new data.
 
