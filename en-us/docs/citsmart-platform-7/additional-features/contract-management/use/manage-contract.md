@@ -287,14 +287,14 @@ Linking specific SLA to contract service
 
 **Figure 12 - Agreement by failure**
 
-8.  If you wish to enter other service agreement data due to repetitive faults,
+-  If you wish to enter other service agreement data due to repetitive faults,
     simply click on the icon ![Criar](images/manage-5.png) and fill in the fields.
 
-9.  **Discount percentage**: enter the percentage of discount;
+-  **Discount percentage**: enter the percentage of discount;
 
-10.  **Amount of Glosses**: enter the number of glosses;
+-  **Amount of Glosses**: enter the number of glosses;
 
-11.  If the type of agreement informed is **OS - Expected results**, please
+-  If the type of agreement informed is **OS - Expected results**, please
     report expected performance data and required quality levels:
 
 ![Criar](images/manage-16.png)
@@ -309,10 +309,10 @@ Linking specific SLA to contract service
 
 -   **Gloss of limit**: enter the gloss limit.
 
-12.  If you wish to inform other expected results and required quality levels,
+8.  If you wish to inform other expected results and required quality levels,
     simply click on the icon ![Criar](images/manage-5.png)  and fill in the fields.
 
-13.  If the type of informed agreement is **Time (in stages)**, set SLA (Service
+9.  If the type of informed agreement is **Time (in stages)**, set SLA (Service
     Level Agreement) deadlines, taking priority into account:
 
 ![Criar](images/manage-17.png)
@@ -337,9 +337,9 @@ Linking specific SLA to contract service
      action on the service request, the system assigns the Priority and scales
      the Group that has been configured to execute the service request.
 
-14.  Indicate the service priority for each unit;
+10.  Indicate the service priority for each unit;
 
-15.  If the type of agreement informed is **Information captured from several
+11.  If the type of agreement informed is **Information captured from several
     other sources**, please inform service agreement data:
 
 ![Criar](images/manage-18.png)
@@ -355,17 +355,17 @@ Linking specific SLA to contract service
 
 -   **Gloss limit**: enter the gloss limit.
 
-16.  After the data is entered, click the *Save* button to perform the operation,
+12.  After the data is entered, click the *Save* button to perform the operation,
     where the date, time and user will be saved automatically for a future
     audit.
 
-17.  To edit a service level agreement that has been added to the contract
+13.  To edit a service level agreement that has been added to the contract
     service, simply click the icon ![Criar](images/manage-11.png) next to the agreement.
 
-18.  To copy the service level agreement for other contract services, simply
+14.  To copy the service level agreement for other contract services, simply
     click the icon ![Criar](images/manage-19.png)next to the agreement.
 
-4.  To delete a service level agreement that was added to the contract service,
+15.  To delete a service level agreement that was added to the contract service,
     click the icon ![Criar](images/manage-11.png) next to the agreement, where the service level agreement screen opens, and
     click the *Delete* button.
 
