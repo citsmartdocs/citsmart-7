@@ -108,7 +108,7 @@ screen will be available:
     - **Action Class Name**: inform the Action class name;
     - **Service Class Name**: inform the Service class name;
     - **URL recovery**: inform the URL recovery;
-    - **Approval: check this option when registering service request template that 
+    - **Approval**: check this option when registering service request template that 
     requires approvals from higher instances;
     - **Enables targeting**: enables functionality for targeting a ticket for a 
     specific group;
