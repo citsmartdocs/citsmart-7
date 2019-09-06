@@ -70,7 +70,7 @@ Preenchimento dos campos cadastrais
     
     **Figura 3 - Tela de cadastro de fórmula OS**
 
-1.  Preencha os campos conforme orientações abaixo:
+2.  Preencha os campos conforme orientações abaixo:
 
     -   **Descrição**: informe o nome da fórmula;
 
@@ -81,23 +81,27 @@ Preenchimento dos campos cadastrais
     
     **Tabela 1 - Variáveis de fórmula**
     
+    
+    
+    
     ![Criar](images/wo-5.png)
 
     **Figura 4 - Exemplo 1 de fórmula**
+    
 
     -   **Fórmula**: neste campo, permite descrever a personalização da fórmula
     utilizando as variáveis pré-definidas (explicado acima).
 
-1.  Após descrever a fórmula, clique no botão *Visualizar Fórmula;*
+3.  Após descrever a fórmula, clique no botão *Visualizar Fórmula;*
 
-2.  Este botão faz a validação da fórmula onde verifica se a mesma está descrita
+4.  Este botão faz a validação da fórmula onde verifica se a mesma está descrita
     de forma correta e logo a seguir é apresentado o processo para o cálculo,
     que consistirá em substituir o nome das variáveis pelo valor informado por
     usuário ou método de retorno correspondente à variável, transformando o
     texto da fórmula numa expressão matemática e retornando o seu resultado
     calculado, depois de clicar em *Simular;*
 
-3.  Tudo isso para o usuário ter uma ideia se a estrutura do cálculo é o
+5.  Tudo isso para o usuário ter uma ideia se a estrutura do cálculo é o
     esperado.
 
     ![Criar](images/wo-6.png)
