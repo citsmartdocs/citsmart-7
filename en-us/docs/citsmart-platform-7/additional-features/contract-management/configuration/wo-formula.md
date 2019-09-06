@@ -59,11 +59,11 @@ Filling in the registration fields
 - Description: enter the name of the formula;
 - Options: variables available to describe the formula. In the table below the purpose of these variables is presented for a better understanding.
 
-    ![figure](images/wo-.png)
+    ![figure](images/wo-4.png)
 
     **Table 1 - Formula Variables**
     
-     ![figure](images/wo-4.png)
+     ![figure](images/wo-5.png)
     
     **Figure 4 - Example 1 of formula**
 
@@ -76,7 +76,7 @@ Filling in the registration fields
 
 5. All this for the user to have an idea if the calculation structure is as expected;
 
-    ![figure](images/wo-5.png)
+    ![figure](images/wo-6.png)
    
     **Figura 5 - Exemplo 2 de fórmula**
 
