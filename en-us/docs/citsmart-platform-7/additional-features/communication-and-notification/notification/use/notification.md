@@ -8,17 +8,17 @@ The Notification feature is intended to create an alert message to notify users 
 How to access
 ----------
 
-1.  Access the notifications feature navigating through the main menu **System > Notifications > Notification**.
+1. Access the notifications feature navigating through the main menu **System > Notifications > Notification**.
 
 Preconditions
 ------------
 
-1.  Not applicable.
+1. Not applicable.
 
 Filters
 ------
 
-1.  The following filters enables the user to restrict the participation of items in the standard feature listing, making it easier to find the desired items:
+1. The following filters enables the user to restrict the participation of items in the standard feature listing, making it easier to find the desired items:
 
     - Title;
     - Start date;
@@ -29,12 +29,12 @@ Filters
     
     **Figure 1 - Notification search**
 
-2.  To verify a specific notification, simply fill in the filters as needed and click the Search button.
+2. To verify a specific notification, simply fill in the filters as needed and click the Search button.
 
 Itens list
 -----------
 
-1.  The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard feature listing: Title, Start Date, Final date and Status.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard feature listing: Title, Start Date, Final date and Status.
 
 2. There are action buttons available to the user for each item in the listing, they are: Edit and Delete.
 
@@ -45,7 +45,7 @@ Itens list
 Filling in the registration fields
 ----------------------------------
 
-1.  Go to the main menu. After this, the Notification feature will be displayed;
+1. Go to the main menu. After this, the Notification feature will be displayed;
 
 2.On the Notifications screen, click the New button (according to the previous figure). Once this is done, the respective notification form screen will be displayed, as shown below:
 
