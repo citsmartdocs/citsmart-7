@@ -14,15 +14,15 @@ How to access
 Preconditions
 ------------
 
-1.  Register a group (see knowledge Group registration and search);
+1.  Register a group (see knowledge [Group registration and search][1]);
 
-2. Register contract (see knowledge Contract registration and search);
+2. Register contract (see knowledge [Contract registration and search][2]);
 
-3. Register services (see knowledge Service portfolio registration; Service registration ; Service activity registration);
+3. Register services (see knowledge [Service portfolio registration][3]; [Service registration][4] ; [Service activity registration][5]);
 
-4. Enter service level agreement (general) (see knowledge General service level agreement registration and search);
+4. Enter service level agreement (general) (see knowledge [General service level agreement registration and search][6]);
 
-5. Enter e-mail template (see knowledge E-mail template configuration registration and search).
+5. Enter e-mail template (see knowledge [E-mail template configuration registration and search][7]).
 
 
 Filters
@@ -216,718 +216,766 @@ Linking specific SLA to contract service
     
     **Figure 10 - Service level agreement record screen**
 
--  Agreement Type : state the type of service agreement;
-   -  Availability : this type of agreement indicates the availability of the service, that is, if it is accessible for an agreed period of time. Eg: Have the service provider monitoring the client's company site full time to make sure that users can access the content of the site full time;
-   -  Repeated failures: to measure the number of failures occurring during an agreed time and if it exceeds the combined quantity, impose the due penalties;
-   -  OS - Expected Results: SO (Service Order) is a document that will provide execution permission for some service. This type of agreement stipulates the limit of this modality of document to the chosen service;
-   -  Time (in stages): this type of agreement links the service time to a phase, that is, instead of calculating by time, the SLA will be calculated by a phase that corresponds to an agreed period for the capture period and execution;
-   -  Information captured from several other sources: this type of agreement stipulates the limit of the OS (Service Order) to the chosen service.
+5.  Fill in the fields as directed below:
 
-    -   **Título do Acordo**: informe o título do acordo de nível de serviço;
+-   **Agreement Type**: state the type of service agreement;
 
-    -   **Impacto**: informe o impacto que causa a ausência do funcionamento do
-    serviço dentro do ambiente organizacional;
+    -   **Availability**: this type of agreement indicates the availability of
+        the service, that is, if it is accessible for an agreed period of time.
+        Eg: Have the service provider monitoring the client's company site full
+        time to make sure that users can access the content of the site full
+        time;
 
-    -   **Urgência**: informe a urgência do restabelecimento do serviço dentro do
-    ambiente organizacional;
+    -   **Repeated failures**: to measure the number of failures occurring
+        during an agreed time and if it exceeds the combined quantity, impose
+        the due penalties;
 
-    -   **Permite a mudança de Impacto e Urgência no registro da solicitação?**:
-    defina se será permitido a mudança do impacto e urgência no registro de
-    solicitação de serviço;
+    -   **OS - Expected Results**: SO (Service Order) is a document that will
+        provide execution permission for some service. This type of agreement
+        stipulates the limit of this modality of document to the chosen service;
 
-    -   **Descrição do Acordo**: descreva os detalhes sobre o acordo de nível de
-    serviço;
+    -   **Time (in stages)**: this type of agreement links the service time to a
+        phase, that is, instead of calculating by time, the SLA will be
+        calculated by a phase that corresponds to an agreed period for the
+        capture period and execution;
 
-    -   **Escopo do Acordo**: descreva uma visão macro sobre o acordo de nível de
-    serviço;
+    -   **Information captured from several other sources**: this type of
+        agreement stipulates the limit of the OS (Service Order) to the chosen
+        service.
 
-    -   **Data de Início**: informe a data de início do acordo de nível de serviço;
+-   **Agreement Title**: enter the title of the service level agreement;
 
-    -   **Data Fim**: informe a data de encerramento do acordo de nível de serviço.
-    A mesma pode ser informada no momento de encerramento do acordo;
+-   **Impact**: report the impact that causes the absence of service operation
+    within the organizational environment;
 
-    -   **Avaliar Em**: informe a data na qual o acordo de nível de serviço será
-    avaliado;
+-   **Urgency**: report the urgency of restoring service within the
+    organizational environment;
 
-    -   **Situação**: informe a situação do acordo de nível de serviço: Ativo (em
-    uso corrente) ou Inativo (desabilitado);
+-   **Allow impact/urgency change?**: define if it will be allowed to change the
+    impact and urgency in the registration of service request;
 
-    -   Se o tipo de acordo informado for **Disponibilidade**, informe o índice de
-    disponibilidade do serviço:
-    
-    ![Criar](images/manage-14.png)
-    
-    **Figura 11 - Índice**
+-   **Agreement description **: describe the details of the service level
+    agreement;
 
-6.  Informe o percentual de disponibilidade do serviço, isto é, se definir 90%
-    significa que a partir de 10% de indisponibilidade sobre o serviço o
-    contrato poderá sofrer algum tipo de penalidade acordada sobre ele;
+-   **Agreement Scope**: describe a macro view on the service level agreement;
 
-7.  Se o tipo de acordo informado for **Falhas repetitivas**, informe os dados
-    do acordo de serviço por falhas repetitivas:
+-   **Start date**: enter the start date of the service level agreement;
 
-    ![Criar](images/manage-15.png)
-    
-    **Figura 12 - Acordo por falha**
+-   **End date**: enter the end date of the service level agreement. It may be
+    informed at the time of closure of the agreement;
 
-    -   Caso deseje informar outros dados do acordo de serviço por falhas
-    repetitiva, basta clicar no ícone ![Criar](images/manage-5.png) e preencher os campos;
+-   **Evaluate**: enter the date on which the service level agreement will be
+    evaluated;
 
-    -   **Percentual de desconto**: Informe o percentual de desconto;
+-   **Situation**: report the service level agreement status: active (in current
+    use) or Inactive (disabled);
 
-    -   **Quantidade de Glosas**: informe a quantidade de glosas;
+-   If the type of informed agreement is **Availability**, enter the service
+    availability index:
 
-    -   Se o tipo de acordo informado for **OS - Resultados esperados**, informe os
-    dados de resultados esperados e níveis de qualidade exigidos:
+![Criar](images/manage-14.png)
 
-    ![Criar](images/manage-16.png)
-    
-    **Figura 13 - Acordo por falha**
+**Figure 11 - Index**
 
-    -   **Resultados esperados**: informe os resultados que se espera do serviço;
+1.  Inform the percentage of availability of the service, that is, if you define
+    90% means that from 10% of downtime on the service the contract may suffer
+    some type of agreed penalty on it.
 
-    -   **Limites**: informe o valor limite da glosa;
+2.  If the reported agreement type is **Repetitive Failures**, enter service
+    agreement data for repetitive faults:
 
-    -   **Glosa**: descreva sobre a glosa;
+![Criar](images/manage-14.png)
 
-    -   **Limite Glosa**: informe o limite da glosa;
+**Figure 12 - Agreement by failure**
 
-8.  Caso deseje informar outros dados de resultados esperados e níveis de
-    qualidade exigidos, basta clicar no ícone ![Criar](images/manage-5.png) e preencher os campos;
+1.  If you wish to enter other service agreement data due to repetitive faults,
+    simply click on the icon 
 
-9.  Se o tipo de acordo informado for **Tempo (por fase)**, defina os prazos de
-    SLA (acordo de nível de serviço), levando em consideração a prioridade:
+    ![](media/874f5d82e0e206435da3474c077a4692.png)
 
-    ![Criar](images/manage-17.png)
+     and fill in the fields.
 
-    **Figura 14 - Prazos de SLA**
+2.  **Discount percentage**: enter the percentage of discount;
 
-    -   **Captura**: defina o tempo de captura da solicitação do serviço, conforme a
-    prioridade;
+3.  **Amount of Glosses**: enter the number of glosses;
 
-    -   **Resolução**: defina o tempo de resolução do serviço, conforme a
-    prioridade;
+4.  If the type of agreement informed is **OS - Expected results**, please
+    report expected performance data and required quality levels:
 
-    -   **Tempo de Ação**: informe o tempo para execução da solicitação do serviço;
+**Figure 13 - Agreement by failure**
 
-    -   **Prioridade**: informe a prioridade do serviço;
+-   **Expected results**: report the results expected from the service;
 
-    -   **Grupo**: informe o grupo executor do serviço.
+-   **Limit**: enter the limit value of the gloss;
 
-    !!! note "NOTA"
+-   **Gloss**: describe on the gloss;
 
-        Após os N minutos configurados e caso não tenha realizado nenhuma ação na
-        solicitação do serviço, o sistema atribuirá a Prioridade e escalará o Grupo
-        que foram configurados para execução da solicitação do serviço.
+-   **Gloss of limit**: enter the gloss limit.
 
-1.  Indique a prioridade do serviço para cada unidade;
+1.  If you wish to inform other expected results and required quality levels,
+    simply click on the icon 
 
-2.  Se o tipo de acordo informado for **Informações diversas capturadas de
-    outras fontes**, informe os dados de **acordo de serviço**:
+    ![](media/874f5d82e0e206435da3474c077a4692.png)
 
-    ![Criar](images/manage-18.png)
-    
-    **Figura 15 - Acordo de serviço**
+     and fill in the fields.
 
-    -   **Valor Limite**: informe o valor limite da glosa;
+2.  If the type of informed agreement is **Time (in stages)**, set SLA (Service
+    Level Agreement) deadlines, taking priority into account:
 
-    -   **Unidade (do Valor Limite)**: informe a unidade monetário do valor limite
-    da glosa;
+**Figure 14 - SLA deadlines**
 
-    -   **Glosa**: descreva sobre a glosa;
+-   **Capture: **set the capture time of the service request, according to the
+    priority;
 
-    -   **Limite Glosa**: informe o limite da glosa.
+-   **Resolution**: set the resolution time of the service, according to
+    priority;
 
-1.  Após os dados informados, clique no botão *Gravar Dados* para efetuar a
-    operação, onde a data, hora e usuário serão gravados automaticamente para
-    uma futura auditoria;
+-   **Action Time**: enter the time for executing the service request;
 
-2.  Para editar um acordo de nível de serviço que foi adicionado ao serviço de
-    contrato, basta clicar no ícone ![Criar](images/manage-11.png)  ao lado do acordo;
+-   **Priority**: enter the priority of the service;
 
-3.  Para copiar o acordo de nível de serviço para outros serviços do contrato,
-    basta clicar no ícone ![Criar](images/manage-19.png)  ao lado do acordo;
+-   **Group**: report the executing group of the service;
 
-4.  Para excluir um acordo de nível de serviço que foi adicionado ao serviço de
-    contrato, clique no ícone ![Criar](images/manage-11.png)  ao lado do acordo, onde será aberta a tela de
-    acordo de nível de serviço e clique no botão *Excluir Dados*.
+>   !!! note "NOTE"
 
-Vinculando SLA global ao serviço do contrato
--------------------------------------------
+>   **After the N minutes are configured and if you have not performed any
+>   action on the service request, the system assigns the Priority and scales
+>   the Group that has been configured to execute the service request**
 
-1.  Para vincular um SLA global ao Serviço do Contrato é necessário ter
-    realizado o cadastro do Acordo de Nível de Serviço Global.
+1.  Indicate the service priority for each unit;
 
-2.  Há duas formas de vincular o SLA global ao Serviço do Contrato, sendo:
+2.  If the type of agreement informed is **Information captured from several
+    other sources**, please inform service agreement data:
 
-**Primeira forma:**
+**Figure 15 - Service agreement**
 
-1.  Na guia de **Serviços do Contrato**, clique no botão *Gerenciar SLAs
-    Globais*, conforme indicado na figura abaixo:
+-   **Value limit: **enter the lmit value of the gloss;
 
-    ![Criar](images/manage-20.png)
+-   **Unit (Limit Value)**: inform the monetary unit of the limit value of the
+    gloss;
 
-    **Figura 16 - Acordo de nível de serviço global**
+-   **Gloss**: describe on the gloss;
 
-1.  Será apresentada a tela de Acordo de Nível de Serviço Global para realização
-    do vínculo do SLA Global com Serviço do Contrato:
+-   **Gloss limit**: enter the gloss limit.
 
-    ![Criar](images/manage-21.png)
+1.  After the data is entered, click the *Save* button to perform the operation,
+    where the date, time and user will be saved automatically for a future
+    audit.
 
-    **Figura 17 -** **Vínculo do acordo de nível de serviço global ao serviço do
-    contrato**
+2.  To edit a service level agreement that has been added to the contract
+    service, simply click the icon 
 
-1.  Selecione o Acordo de Nível de Serviço que deseja vincular ao Serviço do
-    Contrato;
+    ![](media/5d42a88c3327e0839536296d3816dfd1.png)
 
-2.  Ao selecionar o acordo de nível de serviço será exibida uma lista de
-    Serviços do Contrato;
+     next to the agreement.
 
-3.  Selecione os serviços desejados e clique no botão *Gravar* para realização
-    do vínculo do SLA com os serviços.
+3.  To copy the service level agreement for other contract services, simply
+    click the icon 
 
-**Segunda forma**:
+    ![](media/0abbd73285575a0f4a2e4c9319d141d2.png)
 
-1.  Na guia de **Serviço do Contrato**, são apresentados os serviços que estão
-    vinculados ao contrato. Clique no ícone ![Criar](images/manage-12.png)  do serviço desejado;
+     next to the agreement.
 
-2.  Feito isso, serão exibidos dois botões *Vincular Acordo* e *Criar Acordo
-    específico para este serviço*;
+4.  To delete a service level agreement that was added to the contract service,
+    click the icon 
 
-3.  Clique no botão *Vincular Acordo;*
+    ![](media/5d42a88c3327e0839536296d3816dfd1.png)
 
-4.  Após isso, será apresentada a tela para realização do vínculo do SLA com
-    Serviço, conforme ilustrada na figura abaixo:
+     next to the agreement, where the service level agreement screen opens, and
+    click the *Delete* button.
 
-    ![Criar](images/manage-22.png)
-    
-    **Figura 18 - Vínculo do acordo de nível de serviço global ao serviço do
-     contrato**
+Linking global sla to contract service
+--------------------------------------
 
-1.  Preencha os campos conforme orientação abaixo:
+1.  To link a global SLA to the Contract Service you must have completed the
+    Global Service Level Agreement.
 
-    -   **Acordo de Nível de Serviço**: selecione o acordo de nível de serviço;
+2.  There are two ways to link the global SLA to the Contract Service:
 
-    -   **Data Início**: informe a data de início do vínculo do acordo de nível de
-    serviço ao serviço do contrato;
+**First way:**
 
-    -   **Data Fim**: informe a data final do vínculo do acordo de nível de serviço
-    ao serviço do contrato, caso seja necessário;
+1.  On the** Contract Services** tab, click the *Manage Global SLAs* button, as
+    shown in the figure below:
 
-    -   **Recursos (Disponibilidade)**: informe os recursos, caso o acordo de nível
-    de serviço selecionado seja do tipo "Disponibilidade".
+**Figure 16 - Global service level agreement**
 
-1.  Após os dados informados, clique no botão *Gravar Dados* para realização do
-    vínculo do SLA com Serviço do Contrato, onde a data, hora e usuário serão
-    gravados automaticamente para uma futura auditoria;
+1.  The Global Service Level Agreement screen for performing the global SLA link
+    with Contract Service will be displayed:
 
-2.  Após o vínculo do acordo de nível de serviço ao serviço, clique
-    em *Habilita* para que o SLA seja habilitado;
+**Figure 17 - Linking the global service level agreement to the contract
+service**
 
-3.  Para editar um acordo de nível de serviço que foi vinculado ao serviço de
-    contrato, basta clicar no ícone ![Criar](images/manage-11.png)  ao lado do acordo.
+1.  Select the Service Level Agreement you wish to link to the Contract Service;
 
-Registrando atividades do serviço do contrato
---------------------------------------------
+2.  Selecting the service level agreement will display a list of Contract
+    Services;
 
-1.  Na guia de  **Serviço do Contrato**, são apresentados os serviços que estão
-    vinculados ao contrato;
+3.  Select the desired services and click the *Save* button to perform the SLA
+    link with the services.
 
-2.  Clique no ícone ![Criar](images/manage-23.png)  do serviço desejado;
+**Second way:**
 
-3.  Feito isso, será exibido o botão *Adicionar Nova Atividade* acima das
-    atividades já existentes, clique no mesmo;
+1.  In the Contract Service tab, the services that are linked to the agreement
+    are displayed. Click *the desired service icon* 
 
-4.  Após isso, será exibida a tela de registro de atividade, conforme ilustrada
-    na figura abaixo:
+    ![](media/41945b21fdf583c5768fc225b0855df2.png)
 
-    ![Criar](images/manage-24.png)
-    
-    **Figura 19 - Registro de atividades do serviço**
+    .
 
-1.  Preencha os campos conforme orientação abaixo:
+2.  This will bring up two buttons for this service: *Link
+    Agreement* and *Create specific agreement for this service*;
 
-    -   **Descrição de Atividade**: descreva a atividade que será executada para
-    entrega do serviço;
+3.  Click the *Link Agreement* button.
 
-    -   **Observações**: descreva as observações da atividade, caso seja necessário;
+4.  After that, the screen for performing the SLA link with Service will be
+    displayed, as shown in the figure below:
 
-    -   **Contabilizar**: informe se a atividade é para contabilizar as solicitações
-    do serviço do contrato. Se "sim", informe o serviço do contrato;
+**Figure 18 - Linking the global service level agreement to the contract
+service**
 
-    !!! info "IMPORTANTE"
+1.  Fill in the fields as directed below:
 
-         A contabilização será feita das solicitações "fechadas", no período da OS
-         (Ordem de Serviço), do serviço do tipo requisição/incidente informado.
+    -   **Service Level Agreement (Contract)**: select the service level
+        agreement;
 
-   - **Tipo custo**: selecione o tipo de custo da atividade.
+    -   **Start date**: enter the start date of the service level agreement link
+        to the contract service;
 
-6.  Se o tipo de custo selecionado for **Custo Total**, proceda da seguinte
-    forma:
+    -   **End date**: report the end date of the service level agreement link to
+        the contract service, if necessary;
 
-    ![Criar](images/manage-25.png)
+    -   **Features (Availability)**: enter features if the selected service
+        level agreement is of the "Availability" type.
 
-    **Figura 20 - Custo Total**
+2.  After the data entered, click the *Savr* button to perform the SLA link with
+    Contract Service, where the date, time and user will be automatically saved
+    for a future audit.
 
-    -   **Custo Total**: indicar o valor quantitativo corresponde ao custo da
-    atividade acordado no contrato;
+3.  After the service level agreement link to the service, click *Enable* to
+    have the SLA enabled.
 
-    -   **Complexidade**: informar o nível de complexidade (dificuldade)
-    correspondente que a atividade requer para o desenvolvimento da tarefa.
+4.  To edit a service level agreement that was linked to the contract service,
+    simply click the 
 
-7.  Se o tipo de custo selecionado for **Fórmula**, proceda da seguinte forma:
+    ![](media/5d42a88c3327e0839536296d3816dfd1.png)
 
-    ![Criar](images/manage-25.png)
-    
-    **Figura 21 - Fórmula**
+     .
 
-    -   Selecione a **fórmula** que será utilizada para obter o custo total da
-    atividade do serviço, conforme estabelecida no contrato. Após isso, serão
-    exibidos campos para serem preenchidos com os valores para o cálculo;
+Registering contract service activities
+---------------------------------------
 
-    -   **Horas**: definir as horas por dia, a serem trabalhadas dentro do período
-    necessário para executar a tarefa;
+1.  In the Contract Service tab, the services that are linked to the agreement
+    are displayed.
 
-    -   **Complexidade**: informar o nível de complexidade (dificuldade)
-    correspondente que a atividade requer para o desenvolvimento da tarefa,
-    lembre-se que os valores para este item já devem ter sido previamente
-    cadastrados na tela de cadastro de contrato;
+2.  Click the icon 
 
-    -   **Quantidade**: campo referente ao período. Serve para indicar o número de
-    vezes que essa atividade foi executada dentro do período. Exemplo:
+    ![](media/415ea9e510e8401197ec17217629ef8b.png)
 
-    -   **Quantidade: 1. Período Mensal**: a atividade é realizada uma vez por mês;
+     of the desired service.
 
-    -   **Quantidade: 1. Período Semanal**: a atividade é realizada uma vez por
-    semana;
+3.  Once this is done, the *Add New Activity* button above the existing
+    activities will be displayed, click on it.
 
-    -   **Quantidade: 2. Período Diário**: a atividade é executada durante dois
-    períodos por dia.
+4.  After that, the activity log screen will be displayed, as shown in the
+    figure below:
 
-8.  Após os dados informados, clique no botão *Gravar* para efetuar a operação,
-    onde a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria;
+**Figure 19 - Register of service activities**
 
-9.  Para editar uma atividade que foi adicionada ao serviço do contrato, basta
-    clicar no ícone ![Criar](images/manage-11.png)  ao lado da mesma;
+1.  Fill in the fields as directed below:
 
-10.  Para excluir uma atividade que foi adicionada ao serviço do contrato, basta
-    clicar no ícone ![Criar](images/manage-11.png)  ao lado da mesma, onde será aberta a tela de atividade do
-    serviço e clicar no botão *Excluir Dados* para efetuar a operação.
+-   **Activity description**: describe the activity that will be performed for
+    delivery of the service;
 
-Verificando o desempenho do contrato
-----------------------------------
+-   **Observation**: describe the observations of the activity, if necessary;
 
-1.  Na guia de  **Serviço do Contrato**, clique no botão *Desempenho do
-    Contrato*. Feito isso, serão apresentadas as informações sobre o desempenho
-    do contrato por serviço, conforme exemplo ilustrado na figura abaixo:
+-   **Couting**: tell whether the activity is to account for contract service
+    requests. If "yes", inform the contract service;
 
-    ![Criar](images/manage-27.png)
-    
-    **Figura 22 - Desempenho do contrato por serviço**
+>   !!! info "IMPORTANT"
 
-Excluindo vínculo dos serviços com o contrato
---------------------------------------------
+>   **The accounting will be made of the "closed" requests, in the period of the
+>   SO (Service Order), the service of the request/incident type informed.**
 
-1.  Na guia de **Serviço do Contrato**, são apresentados os serviços que estão
-    vinculados ao contrato;
+-   **Cost type**: select the type of cost of the activity;
 
-2.  Selecione os serviços que deseja excluir e clique no botão *Remover
-    Serviço(s) do Contrato*, conforme indicado na figura abaixo:
+1.  If the selected cost type is** Total Cost**, proceed as follows:
 
-    ![Criar](images/manage-28.png)
+**Figure 20 - Total cost**
 
-    **Figura 23 - Exclusão de serviços do contrato**
+-   **Total Cost:** indicate the quantitative value corresponds to the cost of
+    the activity agreed in the contract;
 
-1.  Será exibida uma mensagem para confirmação da exclusão dos serviços, basta
-    clicar em *OK* para efetuar a operação;
+-   **Complexity**: to inform the corresponding level of complexity (difficulty)
+    that the activity requires for the development of the task.
 
-2.  Feito isso, será excluído com sucesso o vínculo dos serviços com o contrato.
+1.  If the selected cost type is** Formula**, proceed as follows:
 
-Ordens de serviços (os)
-----------------------
+**Figure 21 - Formula**
 
-*Ordem de Serviço é um documento que irá fornecer a permissão de execução
-relativa a algum serviço*.
+-   Select the** formula** that will be used to obtain the total cost of the
+    service activity as set forth in the agreement. After that, fields will be
+    displayed to be filled with the values for the calculation;
 
-1.  Na tela de **Administração de Contrato**, informe o contrato desejado e
-    clique na guia **Ordens de Serviço**. Feito isso, será apresentada a tela
-    onde permite verificar e gerenciar as ordens de serviços, conforme ilustrada
-    na figura abaixo:
+-   **Hours**: set the hours per day, to be worked within the period required to
+    perform the task;
 
-    ![Criar](images/manage-29.png)
-    
-    **Figura 24 - Ordens de serviço**
+-   **Complexity**: to inform the corresponding level of complexity (difficulty)
+    that the activity requires for the development of the task, remember that
+    the values for this item must already have been previously registered in the
+    contract record screen;
 
-1.  Nesta tela, é possível criar novas Ordens de Serviços, verificar as Ordens
-    de Serviços do contrato e executar uma série de ações nas Ordens de Serviços
-    existentes, sendo:
+-   **Quantity**: field referring to the period. Serves to indicate the number
+    of times this activity was performed within the period. Example:
 
-    -   Gerar Relatório de Atividade;
+-   **Quantity**: 1. Monthly Period - The activity is performed once a month.
 
-    -   Executar Ordem de Serviço;
+-   **Quantity**: 1. Weekly Period - The activity is performed once a week.
 
-    -   Imprimir Relatório de Atividade.
+-   **Quantity**: 2. Daily Period - The activity is performed during two periods
+    per day.
 
-1.  Nos próximos tópicos será abordado sobre como proceder com essas ações.
+1.  After the data is entered, click on the *Save* button to perform the
+    operation, where the date, time and user will be saved automatically for a
+    future audit.
 
-Criando ordem de serviço (os)
-----------------------------
+2.  To edit an activity that has been added to the contract service, simply
+    click the icon 
 
-1.  Para criar uma OS é necessário que o usuário tenha permissão para abertura
-    de OS e que os seguintes procedimentos tenham sido realizados:
+    ![](media/e73d615fd5aa857d9ca11f3d6b7f891e.png)
 
-    -   Cadastro do serviço do tipo "Ordem de Serviço";
+     next to it.
 
-    -   Vínculo do serviço ao contrato (ver sessão *Vinculando um Serviço ao
-    Contrato*);
+3.  To delete an activity that was added to the contract service, simply click
+    the icon 
 
-    -   Vínculo do acordo de nível de serviço do tipo "OS - Resultados Esperados" ao
-    serviço do contrato (ver sessão *Vinculando SLA Global ao Serviço do
-    Contrato*);
+    ![](media/5d42a88c3327e0839536296d3816dfd1.png)
 
-    -   Registro das atividades, com os seus respectivos valores, sendo um custo
-    total ou calculado por fórmula, do serviço do contrato (ver
-    sessão *Registrando Atividades do Serviço do Contrato*).
+     next to it, where the service activity screen will open and click
+    the *Delete Data* button to perform the operation.
 
-1.  Na guia de **Ordem de Serviço**, clique no botão *Criar Ordem de Serviço*.
-    Será apresentada a tela de registro de Ordem de Serviço, conforme ilustrada
-    na figura abaixo:
+Verifying contract performance
+------------------------------
 
-    ![Criar](images/manage-30.png)
-    
-    **Figura 25 - Registro de ordem de serviço**
+1.  On the **Contract Service** tab, click the *Contract Performance* button.
+    Once this is done, the information about the performance of the service
+    contract will be presented, as shown in the figure below:
 
-1.  Preencha os campos conforme orientação abaixo:
+**Figure 22 - Service contract performance**
 
-    -   **Data Início**: informe a data de início da ordem de serviço;
+Excluding the services link with contract
+-----------------------------------------
 
-    -   **Data Fim**: informe a data final da ordem de serviço;
+1.  In the **Contract Service** tab, the services that are linked to the
+    agreement are displayed.
 
-    -   **Serviço**: selecione o serviço. Após selecionar o serviço, as informações
-    referentes ao mesmo irão aparecer, incluindo suas atividades e seus
-    respectivos valores;
+2.  Select the services you want to delete and click the *Remove
+    Services* button in the Agreement, as shown in the figure below:
 
-    !!! info "IMPORTANTE"
+**Figure 23 - Exclusion of contract services**
 
-        Será realizado o arredondamento do custo total da OS, após a soma dos
-        custos totais de cada atividade do serviço.
+1.  A message will appear to confirm the deletion of the services, just
+    click *Ok* to carry out the operation.
 
-   -   **Número**: informe o número da ordem de serviço;
+2.  Once this is done, the service link with the contract will be successfully
+    deleted.
 
-   -   **Área requisitante**: informe a área requisitante da ordem de serviço;
+Service orders (so)
+-------------------
 
-   -   **Tarefa/Demanda**: descreva a tarefa/demanda da ordem de serviço;
+*Service Order is a document that will provide the execution permission related
+to some service.*
 
-   -   **Objetivo**: descreve o objetivo da ordem de serviço;
+1.  On the **Contract Administration** screen, enter the agreement you want and
+    click the **Service Orders** tab. Once this is done, the screen where you
+    can check and manage the service orders will be displayed, as shown in the
+    figure below:
 
-   -   **Situação**: selecione a situação da ordem de serviço;
+**Figure 24 - Service orders**
 
-   -   Caso o parâmetro "**243 - Ativar assinaturas personalizadas no relatório de
-    Ordens de Serviço**" esteja habilitado, será exibido o campo **Grupo de
-    Assinaturas**, onde deverá selecionar o grupo de assinaturas a ser
-    utilizadas na impressão do relatório de ordem de serviço. A figura abaixo
-    ilustra esse campo:
+1.  In this screen, you can create new Orders of Service, check the Service
+    Orders of the contract and perform a series of actions on the existing
+    Orders of Service, being:
 
-   ![Criar](images/manage-31.png)
-    
-   **Figura 26 - Campo grupo de assinaturas**
+-   Generate Activity Report;
 
-4.  Após os dados informados, clique no botão *Gravar Dados* para efetuar o
-    registro, onde a data, hora e usuário serão gravados automaticamente para
-    uma futura auditoria.
+-   Perform Order of Service;
 
-Verificando as informações de ordem de serviço
----------------------------------------------
+-   Print Activity Report.
 
-1.  Na guia de **Ordem de Serviço**, são apresentadas as ordens de serviços do
-    contrato, conforme ilustrado na figura abaixo:
+1.  In the next topics will be discussed on how to proceed with these actions.
 
-    ![Criar](images/manage-32.png)
-    
-    **Figura 27 - Consulta de ordens de serviço**
+Creating service order (so)
+---------------------------
 
-1.  Utilize os botões contidos na barra (todas, em criação, solicitada,
-    autorizada, aprovadas, em execução, executada e canceladas) para verificar
-    as ordens de serviço por situação. Também poderá ser feita a busca das
-    ordens de serviço por período.
+1.  To create an OS it is necessary that the user has permission to open the OS
+    and that the following procedures have been performed:
 
-    -   Ao clicar em um dos botões, serão listadas as Ordens de Serviços de
-        acordo com a situação selecionada;
+-   Registration of the service of the type "Order of Service";
 
-    -   Caso queira realizar uma consulta de Ordens de Serviços por período,
-        basta informar o período desejado nos campos referentes e clicar em um
-        dos botões;
+-   Service Link to Contract (see session *Linking a Service to the Contract*);
 
-    -   Ao lado de cada registro de Ordem de Serviço, serão exibidos ícones que
-        possibilitarão a edição da OS, impressão da OS e RA, geração de RA e
-        execução da OS.
+-   Link of the service level agreement of type "OS - Expected Results" to the
+    service of the contract (see session *Linking Global SLA to the Contract
+    Service*);
 
-Editando ordem de serviço
+-   Record of activities, with their respective values, being a total cost or
+    calculated by formula, of the service of the contract (see
+    session *Registering Contract Service Activities*).
+
+1.  On the **Service Order** tab, click the *Create Service Order* button. The
+    Service Order registration screen will be displayed, as shown in the figure
+    below:
+
+**Figure 25 - Service order record**
+
+1.  Fill in the fields as directed below:
+
+-   **Start date**: enter the start date of the service order;
+
+-   **End date**: enter the end date of the service order;
+
+-   **Service**: select the service. After selecting the service, the
+    information about it will appear, including its activities and their
+    respective values;
+
+>   !!! info "IMPORTANT"
+
+>   The total cost of the OS will be rounded up after the sum of the total costs
+>   of each service activity
+
+-   **Number**: enter the service order number;
+
+-   **Requesting area**: inform the ordering area of ​​the service order;
+
+-   T**ask**: describe the task/demand of the service order;
+
+-   **Objective**: describes the purpose of the service order;
+
+-   **Situation**: select the status of the service order;
+
+-   If the "**243 -** **Enable custom signatures in the Work Orders Report**"
+    parameter is enabled, the Subscription Group field is displayed, where you
+    must select the group of signatures to be used when printing the work order
+    report. The figure below illustrates this field:
+
+**Figure 26 - Subscription group field**
+
+1.  After the data has been entered, click the *Save Data* button to register,
+    where the date, time and user will be saved automatically for a future
+    audit.
+
+Verifying the service order information
+---------------------------------------
+
+1.  In the **Service Order** tab, the service orders of the contract are shown,
+    as shown in the figure below:
+
+**Figure 27 - Service orders consultation**
+
+1.  Use the buttons on the bar (all created, requested, authorized, approved,
+    running, executed, and canceled) to check service orders by situation. You
+    can also search for service orders by period.
+
+-   Clicking on one of the buttons will list the Service Orders according to the
+    selected situation;
+
+-   If you would like to make a Service Orders query by period, simply enter the
+    desired period in the referring fields and click on one of the buttons;
+
+-   Next to each Service Order record, icons will be displayed that will enable
+    OS editing, OS and RA printing, RA generation and OS execution.
+
+Editing service order
+---------------------
+
+1.  To edit an OS, proceed as follows:
+
+-   Click the icon 
+
+    ![](media/72cfbe8a20a00882fd23ccbb3e5f8fb1.png)
+
+     of the SO you want to edit. Once this is done, the service order
+    registration screen will be displayed with the fields filled with the SO
+    content chosen for editing;
+
+-   Change the data you need, such as the status of the SO and click on
+    the *Save* button to perform the operation, where the date, time and user
+    will be saved automatically for a future audit.
+
+Generating service order printing
+---------------------------------
+
+1.  To generate an OS impression, proceed as follows:
+
+-   Click the icon 
+
+    ![](media/cde87c4d02ab617fdb546998057e7891.png)
+
+    >    to open the SO report in PDF format for printing.
+
+-   Click the icon 
+
+    ![](media/64ef853c424c87cc4398ab5df8a77b25.png)
+
+    >    to open the SO report in Excel format for printing
+
+>   !!! note "NOTE"
+
+>   **The A.R. can only be generated from the Service Orders with an "Approved"
+>   situation**
+
+Generating a.r. (activity report)
+---------------------------------
+
+1.  Click the **Approved SO** icon 
+
+    ![](media/aa3e2c88122ae661d8420edaaf9c7e55.png)
+
+    . Once this is done, a window will appear to record the information
+    regarding the generation of the activity report;
+
+**Figure 28 - Generation screen of A.R.**
+
+-   **Start date:** inform the initial date of the execution of the activities
+    of the service;
+
+-   **End date**: inform the final date of the execution of the activities of
+    the service;
+
+-   **Quantity**: enter the amount of service activities performed. The amount
+    reported in this field will multiply the cost of OS in R.A.
+
+-   After the data is entered, click on the *Save Data* button to perform the
+    operation, where the date, time and user will be saved automatically for a
+    future audit.
+
+!!! note "NOTE"
+
+>   The A.R. (Activity Report) serves to prove that the service was delivered.
+
+Running order of service
 ------------------------
 
-1.  Para editar uma OS, proceda da seguinte forma:
+>   !!! note "NOTE"
 
--   Clique no ícone ![Criar](images/manage-33.png)  ao da OS que deseja editar. Feito isso, será apresentada a
-    tela de registro da ordem de serviço com os campos preenchidos com o
-    conteúdo referente à OS escolhida para edição;
+>   **Only the Service Orders that were generated A.R. (Activity Report) may be
+>   executed.**
 
--   Altere os dados que achar necessário, como por exemplo, a situação da OS e
-    clique no botão *Gravar* para efetuar a operação, onde a data, hora e
-    usuário serão gravados automaticamente para uma futura auditoria.
+1.  After generating the A.R. from the SO, click *Running* and right after the
+    SO icon to expand the area. Once this is done, the SO will be displayed, as
+    shown in the figure below:
 
-Gerando impressão de ordem de serviço
-------------------------------------
+**Figure 29 - A.R. of the service order**
 
-1.  Para gerar impressão de uma OS, proceda da seguinte forma:
+1.  Click the SO icon 
 
--   Clique no ícone ![Criar](images/manage-34.png)  da OS. Feito isso, será aberto o relatório da OS em
-    formato PDF para impressão;
+    ![](media/a32d6a9209ac895ba826981ec9f73c46.png)
 
--   Clique no ícone ![Criar](images/manage-34.png)  da OS. Feito isso, será aberto o relatório da OS em
-    formato Excel para impressão.
+    . After that, the Service Order registration screen will be displayed;
 
-   !!! note "NOTA"
+2.  Record the required SO execution data, modify the status of the SO to
+    "Executed" and click the *Record Data* button to perform the operation,
+    where the date, time and user will be automatically saved for a future
+    audit.
 
-       O R.A. só pode ser gerado a partir das ordens de serviço com uma situação
-       "Aprovado".
+3.  Click on the A.R. SO icon
 
-Gerando R.A. (relatório de atividade)
-------------------------------------
+    ![](media/cde87c4d02ab617fdb546998057e7891.png)
 
-1.  Clique no ícone ![Criar](images/manage-36.png)  da OS aprovada. Feito isso, será exibida uma janela para
-    registro das informações a respeito da geração do relatório de atividade;
+     to generate the A.R. report in PDF format.
 
-    ![Criar](images/manage-37.png)
-    
-    **Figura 28 - Tela de geração de R.A.**
+4.  Click the SO A.R. icon 
 
-    -   **Data de início**: informe a data inicial da execução das atividades do
-    serviço;
+    ![](media/64ef853c424c87cc4398ab5df8a77b25.png)
 
-    -   **Data final**: informe a data final da execução das atividades do serviço;
+     to generate the A.R. report in Excel format.
 
-    -   **Quantidade**: informe a quantidade executada das atividades do serviço. A
-    quantidade informada neste campo, multiplicará o custo da OS no R.A.;
+!!! info "IMPORTANT"
 
-    -   Após os dados informados, clique no botão *Gravar* para efetuar a operação,
-    onde a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria.
+>   After running the SO, an invoice can be generated for it.
 
-     !!! note "NOTA"
+Invoices
+--------
 
-          O R.A. (Relatório de Atividade) serve para comprovar que o serviço foi
-          entregue.
+1.  On the Contract Administration screen, enter the agreement you want and
+    click the Invoices tab. Once this is done, you will be presented with the
+    screen where you can check and manage the invoices of the contract, as shown
+    in the figure below:
 
-Executando ordem de serviço
---------------------------
+**Figure 30 - Contract invoices**
 
-!!! note "NOTA"
+1.  On this screen, you can create new invoices, check contract invoices, and
+    update invoice status. In the next topics will be discussed on how to
+    proceed with these actions.
 
-    Somente as Ordens de Serviço que foram geradas R.A. (Relatório de
-    atividades) podem ser executadas.
+Creating invoice
+----------------
 
-1.  Após geração do R.A da OS, clique em *Em execução* e logo após no ícone ![Criar](images/manage-38.png)  da
-    OS para expandir a área. Feito isso, serão exibidos os R.A. da OS, conforme
-    exemplo ilustrado na figura abaixo:
+1.  On the **Invoice** tab, click the *Create Invoice* button. The invoice
+    registration screen will be displayed, as shown in the figure below:
 
-    ![Criar](images/manage-39.png)
-    
-    **Figura 29 - R.A. da ordem de serviço**
+**Figure 31 - Creating invoices**
 
-1.  Clique no ícone do R.A. da OS. Após isso, será apresentada a tela de
-    registro da Ordem de Serviço;
+1.  Fill in the fields as directed below:
 
-2.  Registre os dados necessários da execução da OS, modifique a situação da
-    mesma para "Executada" e clique no botão *Gravar Dados*para efetuar a
-    operação, onde a data, hora e usuário serão gravados automaticamente para
-    uma futura auditoria;
+-   **Description: **enter the description of the invoice;
 
-3.  Clique no ícone ![Criar](images/manage-34.png)  do R.A. da OS para geração do relatório de R.A. em formato
-    PDF;
+-   **Start date**: enter the invoice start date;
 
-4.  Clique no ícone ![Criar](images/manage-35.png)  do R.A. da OS para geração do relatório de R.A. em formato
-    Excel.
+-   **End date**: enter the end date of the invoice;
 
-!!! info "IMPORTANTE"
+-   **Observation**: please provide any comments you may have;
 
-    Após execução da OS, pode ser gerada uma fatura para mesma.
+-   **Status**: select the invoice status (in creation, awaiting approval,
+    approved, rejected, received, received or canceled);
 
-Faturas
--------
+1.  Add the Service Order (OS) to the invoice:
 
-1.  Na tela de **Administração de Contrato**, informe o contrato desejado e
-    clique na guia **Faturas**. Feito isso, será apresentada a tela onde permite
-    verificar e gerenciar as faturas do contrato, conforme ilustrada na figura
-    abaixo:
+    -   Click the *Add Service Order* button;
 
-    ![Criar](images/manage-40.png)
-    
-    **Figura 30 - Faturas do contrato**
+    -   A window will appear containing the OSs that were executed to associate
+        with the invoice;
 
-1.  Nesta tela, é possível criar novas faturas, verificar as faturas do contrato
-    e atualizar a situação das mesmas. Nos próximos tópicos será abordado sobre
-    como proceder com essas ações.
+    -   Select the desired OS;
 
-Criando fatura
---------------
+    -   Click *Associate* to perform the operation;
 
-1.  Na guia de **Faturas**, clique no botão *Criar Fatura*. Será apresentada a
-    tela de registro de fatura, conforme ilustrada na figura abaixo:
+    -   A message confirming the success of the operation will be displayed.
 
-    ![Criar](images/manage-41.png)
+-   At the bottom of the** Invoice** screen, the Contract Service Level
+    Agreements will be displayed. For each agreement, please state
+    the **breakdown, calculated value,% applied** and **glossed value**;
 
-    **Figura 31 - Criação de faturas**
+-   The Invoice **Total Amount**, **Value Amount, Invoice Total
+    Amount** and **Amount Invoice Amount** fields will be calculated after the
+    invoice has been saved;
 
-1.  Preencha os campos conforme orientação abaixo:
+1.  After the data has been entered, click the *Save* button to register, where
+    the date, time and user will be saved automatically for a future audit.
 
-    -   **Descrição**: informe a descrição da fatura;
+Checking invoice information
+----------------------------
 
-    -   **Data Início**: informe a data de início da fatura;
+1.  In the **Invoices** tab, the invoices of the contract are shown, as shown in
+    the figure below:
 
-    -   **Data Fim**: informe a data final da fatura;
+**Figure 32 - Invoice search**
 
-    -   **Observação**: informe alguma observação que achar necessária;
+1.  Use the buttons on the bar (all created, waiting for approval, approved,
+    received, received, rejected, and canceled) to check status invoices. You
+    can also search for invoices by period.
 
-    -   **Situação**: selecione a situação da fatura (em criação, aguardando
-    aprovação, aprovada, rejeitada, em recebimento, recebida ou cancelada);
+-   By clicking one of the buttons, the invoices will be listed according to the
+    selected situation;
 
-1.  Adicione a Ordem de Serviço (OS) à fatura:
+-   If you want to perform the invoice search by period, simply enter the
+    desired period in the referring fields and click one of the buttons;
 
-    -   Clique no botão *Adicionar OS*;
+-   Next to each invoice, icons will be displayed that will allow you to edit
+    the invoice (in creation), invoice printing and invoice statusing.
 
-    -   Será apresentada uma janela contendo as OS que foram executadas para
-        associar à fatura;
+Editing invoice
+---------------
 
-    -   Selecione a OS desejada;
+>   !!! info "IMPORTANT"
 
-    -   Clique em *Associar* para efetuar a operação;
+>   Only invoices that are "in creation" can be edited.
 
-    -   Será exibida uma mensagem confirmando o sucesso da operação.
+1.  Click the icon 
 
-        -   Na parte inferior da tela de **Fatura**, serão exibidos os Acordos
-            de Nível de Serviço do Contrato. Para cada acordo, informe
-            o **detalhamento**, **valor apurado**, **% aplicado** e **valor
-            glosado**;
+    ![](media/50f8f123e97264c422eb40bf5013f7d2.png)
 
-        -   Os campos **Valor total da Fatura**, **Valor Executado**, **Valor de
-            Total de Glosas da Fatura** e **Valor a receber** serão calculados
-            após a gravação da fatura.
+     for the invoice you want to edit. Once this is done, the invoice record
+    will be displayed with the fields filled with the contents of the invoice
+    chosen for editing;
 
-2.  Após os dados informados, clique no botão *Gravar Dados* para efetuar o
-    registro, onde a data, hora e usuário serão gravados automaticamente para
-    uma futura auditoria.
+2.  Change the required data and click *Write Data* to perform the operation,
+    where the date, time and user will be automatically saved for a future
+    audit.
 
-Verificando as informações de faturas
-------------------------------------
+Generating invoice print
+------------------------
 
-1.  Na guia de **Faturas**, são apresentadas as faturas do contrato, conforme
-    ilustrado na figura abaixo:
+1.  Click the invoice icon 
 
-    ![Criar](images/manage-42.png)
+    ![](media/cde87c4d02ab617fdb546998057e7891.png)
 
-    **Figura 32 - Consulta de faturas**
+    . Once this is done, the invoice report will be displayed in PDF format.
 
-1.  Utilize os botões contidos na barra (todas, em criação, aguardando
-    aprovação, aprovadas, em recebimento, recebidas, rejeitadas e canceladas)
-    para verificar as faturas por situação. Também poderá ser feita a busca das
-    faturas por período.
+2.  Click the invoice icon 
 
-    -   Ao clicar em um dos botões, serão listadas as faturas de acordo com a
-    situação selecionada;
+    ![](media/64ef853c424c87cc4398ab5df8a77b25.png)
 
-    -   Caso queira realizar a pesquisa da fatura por período, basta informar o
-    período desejado nos campos referentes e clicar em um dos botões;
+    . Once this is done, the invoice report will be displayed in Excel format.
 
-    -   Ao lado de cada fatura, serão exibidos ícones que possibilitarão a edição da
-    fatura (em criação), impressão da fatura e apontamento da situação para
-    fatura.
+Assigning a situation to invoice
+--------------------------------
 
-Editando fatura
---------------
+1.  To assign a situation to an invoice, that is, change the invoice status,
+    proceed as follows:
 
-!!! info "IMPORTANTE"
+-   Click the invoice icon 
 
-    Somente as faturas que estão "na criação" podem ser editadas.
+    ![](media/e33cd2b2d46dd3a0be8691049b64386d.png)
 
-1.  Clique no ícone ![Criar](images/manage-33.png) da fatura que deseja editar. Feito isso, será apresentada
-    o registro de fatura com os campos preenchidos com o conteúdo referente à
-    fatura escolhida para edição;
+    >    that you want to pinpoint a situation. Once this is done, the invoice
+    >   registration will be displayed with the fields filled with the content
+    >   of the invoice chosen to indicate a situation;
 
-2.  Altere os dados necessários e clique em *Gravar Dados* para efetuar a
-    operação, onde a data, hora e usuário serão gravados automaticamente para
-    uma futura auditoria.
+-   Point the situation you want to the invoice and click Update Invoice Status
+    to complete the operation.
 
-Gerando impressão da fatura
---------------------------
+Notifications
+-------------
 
-1.  Clique no ícone ![Criar](images/manage-34.png)  da fatura. Feito isso, será exibido o relatório da fatura
-    em formato PDF;
+1.  On the **Contract Administration **screen, enter the agreement you want and
+    click the **Notifications** tab.
 
-2.  Clique no ícone ![Criar](images/manage-35.png)  da fatura. Feito isso, será exibido o relatório da fatura
-    em formato Excel.
+2.  Once this is done, the notification box for the contract will be displayed,
+    as shown in the figure below:
 
-Apontando situação para fatura
------------------------------
+**Figure 33 - Notification of contract**
 
-1.  Para apontar uma situação para uma fatura, ou seja, alterar a situação da
-    fatura, proceda da seguinte forma:
+1.  The next topic will be about adding notifications to the contract.
 
--   Clique no ícone ![Criar](images/manage-43.png)  da fatura que deseja apontar uma situação. Feito isso,
-    será apresentado o registro da fatura com os campos preenchidos com o
-    conteúdo referente à fatura escolhida para apontar uma situação;
+Adding notification
+-------------------
 
--   Aponte a situação que deseja para a fatura e clique em *Atualizar Situação
-    da Fatura* para efetuar a operação.
+1.  On the **Notification** tab, click the *Add Notification* button.
 
-Notificações
------------
+2.  The notification screen will be displayed, as shown in the figure below:
 
-1.  Na tela de **Administração de Contratos**, informe o contrato desejado e
-    clique na guia **Notificações;**
+**Figure 34 - Notification**
 
-2.  Feito isso, será apresentada a tela onde permite adicionar notificações
-    referente ao contrato, conforme ilustrada na figura abaixo:
+-   **Title**: report the title of the notification;
 
-    ![Criar](images/manage-44.png)
-    
-    **Figura 33 - Notificação do contrato**
+-   **Notify me only when**: select the situation of when to notify the user
+    and/or group;
 
-1.  No próximo tópico será abordado sobre como adicionar notificações ao
-    contrato.
+-   Tell users they will be notified;
 
-Adicionando notificação
-----------------------
+1.  Click the icon 
 
-1.  Na guia de **Notificação**, clique no botão *Adicionar Notificação*;
+    ![](media/e5a7da63440aaa957528cbebff340cd1.png)
 
-2.  Será apresentada a tela de notificação, conforme ilustrada na figura abaixo:
+    . Once this is done, the screen for user search will be displayed. Perform
+    the desired user search and select the same one.
 
-    ![Criar](images/manage-45.png)
-    
-    **Figura 34 - Notificação**
+2.  Inform the groups that will be notified;
 
-    -   **Título**: informe o título da notificação;
+3.  Click the icon 
 
-    -   **Notifica-me somente quando**: selecione a situação de quando deve ser
-    notificado o usuário e/ou grupo;
+    ![](media/e5a7da63440aaa957528cbebff340cd1.png)
 
-    -   Informe os usuários que serão notificados.
+    . Once this is done, the group search screen will be displayed. Perform the
+    desired group search and select the group.
 
-1.  Clique no ícone ![Criar](images/manage-46.png)  . Feito isso, será exibida a tela para pesquisa de
-    usuário. Realize a pesquisa do usuário desejado e selecione o mesmo;
+4.  Select contract services, which you want to receive notifications about your
+    changes.
 
-2.  Informe os grupos que serão notificados;
+5.  After the data is entered, click on the *Save* button to register, where the
+    date, time and user will be saved automatically for a future audit.
 
-3.  Clique no ícone ![Criar](images/manage-46.png)  . Feito isso, será exibida a tela para pesquisa de grupo.
-    Realize a pesquisa do grupo desejado e selecione o mesmo;
-
-4.  Selecione os serviços do contrato, os quais deseja receber notificações
-    sobre suas alterações;
-
-5.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
-    onde a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria.
 
 
 !!! tip "About"
@@ -935,8 +983,10 @@ Adicionando notificação
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
     <b>Updated:</b>07/19/2019 – Anna Martins
 
-[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
-
-[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/services.html
-
-[3]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/activity.html
+[1]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/contract.html
+[3]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+[4]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/services.html
+[5]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/activity.html
+[6]:/en-us/citsmart-platform-7/processes/service-level/register-sla.html
+[7]:/en-us/citsmart-platform-7/plataform-administration/email-settings/configure-email-template.html
