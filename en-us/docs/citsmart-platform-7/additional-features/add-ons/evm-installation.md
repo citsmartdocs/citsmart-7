@@ -95,14 +95,14 @@ The Event Management routine works as follows:
 
 !!! note "NOTE"
 
-    The rules used by Citsmart Event Monitor are created by a language called
-    EPL (Event Processing Language).
+     The rules used by Citsmart Event Monitor are created by a language called
+     EPL (Event Processing Language).
 
 !!! info "IMPORTANT"
 
-    In order for this routine to work perfectly, it is necessary to perform
-    all the configuration, correctly, of the inputs of the Event Management
-    module in CITSmart ITSM.*
+     In order for this routine to work perfectly, it is necessary to perform
+     all the configuration, correctly, of the inputs of the Event Management
+     module in CITSmart ITSM.
 
 Integration of event management module
 --------------------------------------
@@ -117,11 +117,11 @@ Event Management consists of the following applications:
 
 !!! info "IMPORTANT"
 
-   Each application must be installed on a separate instance of JBoss.
+     Each application must be installed on a separate instance of JBoss.
 
 !!! note "NOTE"
 
-   Instances should be downloaded to CITSMART FTP.
+     Instances should be downloaded to CITSMART FTP.
 
 To integrate you must take into account the following points:
 
@@ -245,42 +245,82 @@ below:
 
 1.  Run the following command to install the net-snmp package:
 
+```sh
+yum install -y net-snmp*
+```
+
 2.  The following command will back up the original SNMP configuration file:
+
+```sh
+cp /etc/snmp/snmpd.conf /etc/snmp/snmpd.conf_original
+```
 
 *Configuring the snmpd.conf file*
 
 1.  Edit the file **/etc/snmp/snmpd.conf;**
 
->   There are some basic assumptions when configuring SNMP, they are:
+   There are some basic assumptions when configuring SNMP, they are:
 
-1.  Community configuration
+a)  Community configuration
 
    If this line does not exist you should create it, but if it exists, leave it
    as shown below:
 
-1.  Group setup
+```sh
+com2sec notConfigUser  default       public
+```
+
+b)  Group setup
 
    If these lines do not exist you should create them, but if they exist, leave
    them in agreement as shown below:
 
-1.  SNMP tree configuration
+```sh
+group notConfigGroup v1 notConfigUser
+```
+```sh
+group notConfigGroup v2c notConfigUser
+```
+
+c)  SNMP tree configuration
 
    If this line does not exist you should create it, but if it exists, leave it
    as shown below:
 
-1.  Group access setup
+```sh
+view    systemview           included      .1
+
+```
+
+d)  Group access setup
 
    If this line does not exist you should create it, but if it exists, leave it
    as shown below:
+   
+   ```sh
+   access notConfigGroup "" any noauth exact systemview none none
+   ```
 
-1.  The complete configuration should look similar to the one below:
+e)  The complete configuration should look similar to the one below:
 
-2.  Restart the SNMP service with the following command:
+![figure](images/evm.img9.jpg)
 
-3.  After restarting SNMP, perform the local test to verify that SNMP is
+f)  Restart the SNMP service with the following command:
+
+```sh
+/etc/init.d/snmpd restart
+```
+
+g)  After restarting SNMP, perform the local test to verify that SNMP is
     running:
+    
+```sh
+snmpwalk -v2c -c public localhost |head
+```
 
-4.  The test should return the following result:
+h)  The test should return the following result:
+
+![figure](images/evm.img10.jpg)
 
 Mongodb installation
 --------------------
@@ -315,13 +355,83 @@ JBoss instance, available from CITSMART.
 
 1.  Change the following section of this file, as indicated below.
 
->   **standalone-full.xml (Citsmart Inventory)**
+```sh
+<system-properties>
+<property name="org.apache.tomcat.util.http.Parameters.MAX_COUNT" value="2000"/>
+<!-- IP of the MongoDB server -->
+<property name="mongodb.host" value=""/>
+<!-- MongoDB server port -->
+<property name="mongodb.port" value="27017"/>
+<!-- MongoDB User Login -->
+<property name="mongodb.user" value="admin"/>
+<!-- MongoDB user password -->
+<property name="mongodb.password" value="admin"/>
+<!-- Field to inform if EVM Citsmart will be enabled -->
+<property name="citsmart.evm.enable" value="false"/>
+<!-- Field to inform if Citsmart Inventory will be enabled -->
+<property name="citsmart.inventory.enable" value="false"/>
+</system-properties>
+```
 
-1.  Change the following section of this file, as indicated below.
+   **standalone-full.xml (Citsmart Inventory)**
 
->   **standalone-full.xml (Citsmart Event Monitor)**
+2.  Change the following section of this file, as indicated below.
 
-1.  Change the following section of this file, as indicated below.
+```sh
+<system-properties>
+<!-- IP of the CTSmart ITSM server -->
+<property name="citsmart.host" value=""/>
+<!-- ITSM Citsmart server port -->
+<property name="citsmart.port" value="8080"/>
+<!-- ITSM Citsmart Server Context -->
+<property name="citsmart.context" value="citsmart"/>
+<!—- CTSmart ITSM User Login -->
+<property name="citsmart.login" value=""/>
+<!—- CTSmart server user password ITSM -->
+<property name="citsmart.password" value=""/>
+<!-- IP of the MongoDB server -->
+<property name="mongodb.host" value=""/>
+<!-- MongoDB server port -->
+<property name="mongodb.port" value="27017"/>
+<!-- MongoDB User Login -->
+<property name="mongodb.user" value="admin"/>
+<!-- MongoDB user password -->
+<property name="mongodb.password" value="admin"/>
+<!-- Citsmart Inventory connection ID-->
+<property name="citsmart.inventory.id" value=""/>
+<!-- Rhino script directory -->
+<property name="rhino.scripts.directory" value=""/>
+</system-properties>
+```
+
+  **standalone-full.xml (Citsmart Event Monitor)**
+
+3.  Change the following section of this file, as indicated below.
+
+```sh
+<system-properties>
+<!-- IP of the CTSmart ITSM server -->
+<property name="citsmart.host" value=""/>
+<!-- ITSM Citsmart server port -->
+<property name="citsmart.port" value="8080"/>
+<!-- ITSM Citsmart Server Context -->
+<property name="citsmart.context" value="citsmart"/>
+<!—- CTSmart ITSM User Login -->
+<property name="citsmart.login" value=""/>
+<!—- CTSmart server user password ITSM -->
+<property name="citsmart.password" value=""/>
+<!-- IP of the MongoDB server -->
+<property name="mongodb.host" value=""/>
+<!-- MongoDB server port -->
+<property name="mongodb.port" value="27017"/>
+<!-- MongoDB User Login -->
+<property name="mongodb.user" value="admin"/>
+<!-- MongoDB user password -->
+<property name="mongodb.password" value="admin"/>
+<!-- EVM Cmitmart connection ID -->
+<property name="citsmart.evm.id" value=""/>
+</system-properties>
+```
 
 !!! info "IMPORTANT"
 
@@ -334,12 +444,19 @@ JBoss instance, available from CITSMART.
 
 Configuration of the event management module
 --------------------------------------------
+![figure](images/evm.img11.jpg)
 
 **Figure 9 - Inventory configuration process with Inventory**
 
+![figure](images/evm.img12.jpg)
+
 **Figure 10 - Event configuration process with Nagios / Zabbix**
 
+![figure](images/evm.img13.jpg)
+
 **Figure 11 - Process of configuring events with Correlation**
+
+![figure](images/evm.img14.jpg)
 
 **Figure 12 - Inventory configuration process without Event Management**
 
@@ -358,9 +475,9 @@ settings for the registers mentioned below.
 Time registration
 -----------------
 
-1.  Access the **ITIL Processes menu \> Event Management \> Schedule**;
+1.  Access the **ITIL Processes menu > Event Management > Schedule**;
 
-   ![figure](images/evm.img13.jpg)
+   ![figure](images/evm.img15.jpg)
    
    **Figure 13 - Time registration**
 
@@ -383,7 +500,7 @@ Occurrence category registration
 1.  In CITSmart ITSM, access the menu **ITIL Processes \> Event Management \>
     Occurrence Category**;
 
-   ![figure](images/evm.img14.jpg)
+   ![figure](images/evm.img16.jpg)
    
    **Figure 14 - Event type master**
 
@@ -401,10 +518,9 @@ Occurrence category registration
 Automatic actions registers - incidents / requests
 --------------------------------------------------
 
-1.  Access the **System \> Automatic Actions \> Incident Actions/Requests
-    /Procedures actions**;
+1.  Access the **System > Automatic Actions > Incident Actions/Requests/Procedures actions**;
 
-   ![figure](images/evm.img15.jpg)
+   ![figure](images/evm.img17.jpg)
    
    **Figure 15 - Incident / Request action register**
 
@@ -414,9 +530,9 @@ Automatic actions registers - incidents / requests
 Automatic actions registers - problem
 -------------------------------------
 
-1.  Access the menu **System \> Automatic Actions \> Problem Actions**;
+1.  Access the menu **System > Automatic Actions > Problem Actions**;
 
-   ![figure](images/evm.img16.jpg)
+   ![figure](images/evm.img18.jpg)
    
    **Figure 16 - Problem action register**
 
@@ -426,9 +542,9 @@ Automatic actions registers - problem
 Automatic actions registers - change
 ------------------------------------
 
-1.  Access the menu **System \> Automatic Actions \> Change Actions**;
+1.  Access the menu **System > Automatic Actions > Change Actions**;
 
-   ![figure](images/evm.img17.jpg)
+   ![figure](images/evm.img19.jpg)
    
    **Figure 17 - Register of shares of change**
 
@@ -440,7 +556,7 @@ Notification action register
 
 1.  Access the **System > Automatic Actions > Notification Actions**;
 
-   ![figure](images/evm.img18.jpg)
+   ![figure](images/evm.img20.jpg)
    
    **Figure 18 - Notification action register**
 
@@ -452,7 +568,7 @@ Automatic action registration
 
 1.  Access **System > Automatic Actions > Automatic Actions**;
 
-   ![figure](images/evm.img19.jpg)
+   ![figure](images/evm.img21.jpg)
    
    **Figure 19 - Automatic action register**
 
@@ -471,7 +587,7 @@ Citsmart inventory connections registry
 1.  Access the **ITIL Processes menu \> Event Management \> Inventory
     Connections**;
 
-    ![figure](images/evm.img20.jpg) 
+    ![figure](images/evm.img22.jpg) 
       
     **Figure 20 - Citsmart Inventory connection register**
 
@@ -494,7 +610,7 @@ Citsmart event monitor connection registration
 1.  Access the **ITIL Process menu > Event Management > Event Monitor
     Connections**;
 
-   ![figure](images/evm.img21.jpg)
+   ![figure](images/evm.img23.jpg)
    
    **Figure 21 - Connection registration of the Citsmart Event Monitor**
 
@@ -507,7 +623,7 @@ Check registration
 
 1.  Access the **ITIL Processes > Event Management > Check**.
 
-   ![figure](images/evm.img22.jpg)
+   ![figure](images/evm.img24.jpg)
    
    **Figure 22 - Check register**
 
@@ -517,9 +633,9 @@ Check registration
 Inventory event manager registers
 ---------------------------------
 
-1.  Access the menu **ITIL Processes \> Event Management \> Inventory Manager**;
+1.  Access the menu **ITIL Processes > Event Management > Inventory Manager**;
 
-   ![figure](images/evm.img23.jpg)
+   ![figure](images/evm.img25.jpg)
    
    **Figure 23 - Event manager Inventory**
 
@@ -542,7 +658,7 @@ Monitoring tools registration
 
 1.  Access the **ITIL Processes > Event Management > Monitoring Tools**;
 
-   ![figure](images/evm.img24.jpg)
+   ![figure](images/evm.img26.jpg)
    
    **Figure 24 - Monitoring tool register**
 
@@ -551,77 +667,83 @@ Monitoring tools registration
 
 !!! note "NOTE"
 
-   Currently, Event Monitor integrates with the Nagios, Zabbix and Citsmart
-  Inventory tools to monitor the assets of the network.
+    Currently, Event Monitor integrates with the Nagios, Zabbix and Citsmart
+    Inventory tools to monitor the assets of the network.
 
-   !!! info "IMPORTANT"
+!!! info "IMPORTANT"
 
-   **Citsmart Inventory accumulates the monitoring and inventory tool
-   function**
+    Citsmart Inventory accumulates the monitoring and inventory tool
+    function.
 
 Zabbix event manager registration
 ---------------------------------
 
-1.  Access the menu **ITIL Processes \> Event Management \> Zabbix Manager**;
+1.  Access the menu **ITIL Processes > Event Management > Zabbix Manager**;
 
-**Figure 25 - Zabbix event manager register**
+   ![figure](images/evm.img27.jpg)
+   
+   **Figure 25 - Zabbix event manager register**
 
 1.  Record the Zabbix Event Manager, as many as are needed to monitor the
     configuration items whose statuses will be queried in Zabbix.
 
-**!!! info "IMPORTANT"**
+!!! info "IMPORTANT"
 
->   **Each Zabbix manager contains a list of configuration items that are
->   associated with their respective triggers that are registered in Zabbix.**
+    Each Zabbix manager contains a list of configuration items that are
+    associated with their respective triggers that are registered in Zabbix.**
 
 !!! note "NOTE"
 
->   **For each configuration item, an action for warning and / or an action for
->   exception is associated.**
+    For each configuration item, an action for warning and / or an action for
+    exception is associated.
 
 Nagios event manager registration
 ---------------------------------
 
-1.  Access the menu **ITIL Processes \> Event Management \> Nagios Manager**;
+1.  Access the menu **ITIL Processes > Event Management > Nagios Manager**;
 
-**Figure 26 - Nagios event manager register**
+    ![figure](images/evm.img28.jpg)
+   
+   **Figure 26 - Nagios event manager register**
 
-1.  Register the Nagios Event Manager as many as needed to monitor the
+2.  Register the Nagios Event Manager as many as needed to monitor the
     configuration items whose statuses will be queried in Nagios.
 
-**!!! info "IMPORTANT"**
+!!! info "IMPORTANT"
 
->   **Each Nagios manager contains a list of configuration items that are
->   associated with their respective services that are registered in Nagios.**
+    Each Nagios manager contains a list of configuration items that are
+    associated with their respective services that are registered in Nagios.
 
 !!! note "NOTE"
 
->   **For each configuration item, an action for warning and / or an action for
->   exception is associated.**
+    For each configuration item, an action for warning and / or an action for
+    exception is associated.
 
 Correlated event manager registration
 -------------------------------------
 
-1.  Access the **ITIL Process \> Event Management \> Manager of Global Events**;
+1.  Access the **ITIL Process > Event Management > Manager of Global Events**;
 
-**Figure 27 - Global event manager register**
+   ![figure](images/evm.img29.jpg)
+   
+   **Figure 27 - Global event manager register**
 
-1.  Register the Global Events Manager, as many as needed.
+2.  Register the Global Events Manager, as many as needed.
 
 !!! info "IMPORTANT"
 
->   **Each Correlated Events manager contains an EPL for Warning and / or
->   Exception.**
+    Each Correlated Events manager contains an EPL for Warning and / or
+    Exception.
 
->   !!! Abstract "TIPS"
+!!! Abstract "TIPS"
 
->   EPL is an event correlation language used by Esper (Espertech). Upon
->   initialization of the Citsmart Event Monitor, these EPLs are imported into
->   the Esper engine so that a new correlated event is created each time the
->   condition set in the EPL is satisfied.
+    EPL is an event correlation language used by Esper (Espertech). Upon
+    initialization of the Citsmart Event Monitor, these EPLs are imported into
+    the Esper engine so that a new correlated event is created each time the
+    condition set in the EPL is satisfied.
 
->   Here is an example of an EPL that correlates between the Citsmart Inventory
->   and Nagios events:
+Here is an example of an EPL that correlates between the Citsmart Inventory
+and Nagios events:
 
 *\@Description('For any Nagios event that occurs after any Inventory event in
 the last 10 minutes') select \* from pattern [every a=EventoCheckInventory-\>
@@ -640,24 +762,25 @@ data.
 
 !!! example "EXAMPLE"
 
->   Example: One use case we can use is payroll.
+    Example: One use case we can use is payroll.
 
->   Let's say it's the rule for a company not to hire more than 5 employees per
->   industry.
+    Let's say it's the rule for a company not to hire more than 5 employees per
+    industry.
 
->   The payroll program could send the minimum data of each hiring by department
->   (defined in the company's budget plan), so that whenever the number of
->   contraction per department exceeds the pre-established threshold, an event
->   of "excess hiring "Could be fired.
+    The payroll program could send the minimum data of each hiring by department
+    (defined in the company's budget plan), so that whenever the number of
+    contraction per department exceeds the pre-established threshold, an event
+    of "excess hiring" Could be fired.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
     <b>Updated:</b>09/03/2019 - Anna Martins
-              
-[1]:https://pt.wikipedia.org/wiki/Item_de_configura%C3%A7%C3%A3o
-[2]:https://pt.wikipedia.org/wiki/Very_Large_Database
+      
+      
+[1]:https://en.wikipedia.org/wiki/Configuration_item
+[2]:https://en.wikipedia.org/wiki/Very_Large_Database
 [3]:https://www.mongodb.com/
 [4]:https://docs.mongodb.com/manual/administration/install-community/
 [5]:https://itsm.citsmartcloud.com/citsmart/pages/visualizarUploadTemp/visualizarUploadTemp.load?path=ID=11897

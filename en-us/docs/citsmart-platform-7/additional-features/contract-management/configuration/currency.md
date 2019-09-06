@@ -1,85 +1,68 @@
-title: Cadastro e pesquisa de moeda
-Description: Esta funcionalidade permite registrar as moedas que serão utilizadas em outras rotinas do sistema.
+title: Currency registration and search
+Description: The goal of this feature is to register the currencies which will be used during other system routines.
 
-# Cadastro e pesquisa de moeda
+# Currency registration and search
 
-Esta funcionalidade permite registrar as moedas que serão utilizadas em outras
-rotinas do sistema.
+The goal of this feature is to register the currencies which will be used during other system routines.
 
-Como acessar
+How to access
 -----------
 
-1.  Acesse a funcionalidade de Moeda através da navegação no menu
-    principal **Gestão Integrada > Gerência de Contratos > Moeda**.
+1.  Access the currency feature navigating through the main menu **Integrated Management > Contracts Management > Currency**.
 
-Pré-condições
+Preconditions
 ------------
 
-1.  Não se aplica.
+1.  Not applicable.
 
-Filtros
+Filters
 ------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier to find the desired items:
 
-    -   Nome Moeda.
+- Currency
 
-    ![Criar](images/moeda-1.png)
+    ![figure](images/moeda-1.png)
     
-    **Figura 1 – Tela de pesquisa de moeda**
+    **Figure 1 – Currency search screen**
 
-1.  Realize a pesquisa de moeda:
+2.  Conduct a currency search;
 
-    -   Informe o nome da moeda que deseja pesquisar e clique no botão *Pesquisar*.
-    Após isso, será exibido o registro da moeda conforme o nome informado;
+- Insert the name of the intended currency and click on the Search button. Afterwards, the currency entry will be displayed according to the description provided.
 
-    -   Caso deseje listar todos os registros de moeda, basta clicar diretamente no
-    botão *Pesquisar*.
+- To list all currencies, just click directly on the Search button, if needed.
 
-Listagem de itens
+Itens list
 ----------------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade:** Nome Moeda **e** Usar Cotação.**
+1.  The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard feature listing: Currency and Use Quotation.
 
-    ![Criar](images/moeda-2.png)
+    ![figure](images/moeda-2.png)
     
-    **Figura 2 - Tela de listagem de moeda**
+    **Figure 2 - Currency listing screen**
 
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a tela de cadastro exibindo o conteúdo referente ao registro
-    selecionado;
+2.  After searching, select the intended entry. Afterwards, they will be redirected to the registry screen displaying the content belonging to the selected entry, as illustrated on the image below:
 
-2.  Para alterar os dados do registro de moeda, basta modificar as informações
-    dos campos desejados e clicar no botão *Gravar* para que seja gravada a
-    alteração realizada no registro, onde a data, hora e usuário serão gravados
-    automaticamente para uma futura auditoria.
+3. To edit a currency entry, just modify the information on the intended fields and click on the Save button to confirm the changes to the database, at which date, time and user will be stored automatically for a future audit.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 ---------------------------------
 
-1.  Será apresentada a tela de **Cadastro de Moeda**, conforme ilustrada na
-    figura abaixo:
+1.  The Currency Registration screen will be displayed, as illustrated on the image below::
 
-    ![Criar](images/moeda-3.png)
+    ![figure](images/moeda-3.png)
     
-    **Figura 3 - Tela de cadastro de moeda**
+    **Figure 3 - Currency entry screen**
 
-1.  Preencha os campos conforme orientações abaixo:
+2.  Fill out the fields as instructed below:
 
-    -   **Nome Moeda**: informe a descrição da moeda. Ex.: Real;
+- Currency: insert the currency description. ie.: Dollar;
+- Use Quotation: check this box to use the currency quotation.
 
-    -   **Usar Cotação**: marque este campo caso irá utilizar a cotação.
-
-1.  Após informar os dados, clique no botão *Gravar* para efetuar o registro,
-    onde a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria.
+3. Click on the Save the button to confirm the entry, at which date, time and user will automatically be stored for a future audit.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/18/2019 – Anna Martins
+    <b>Updated:</b>09/05/2019 – Anna Martins

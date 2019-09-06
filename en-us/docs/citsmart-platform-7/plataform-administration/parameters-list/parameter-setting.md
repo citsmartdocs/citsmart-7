@@ -1,54 +1,54 @@
-title:  Configuração de parâmetro
-Description: Visa permitir a automatização dos processos com base em parâmetros definidos pelo usuário.. 
-# Configuração de parâmetro
+title: Parameter setup
+Description: The goal of this feature is to automate processes based on user-defined parameters. 
+# Parameter setup
 
-Esta funcionalidade visa permitir a automatização dos processos com base em parâmetros definidos pelo usuário.
+The goal of this feature is to automate processes based on user-defined parameters.
 
-Como acessar
+How to access
 --------------
 
-1. Acesse a funcionalidade de Parâmetros do CITSmart através da navegação no menu principal **Parametrização > Parâmetros CITSmart**.
+1. Access the parameters feature navigating through the main menu **Parameterization > CITSmart Parameters**.
 
-Pré-condições
+Preconditions
 ---------------
 
-1. Não se aplica.
+1. Not applicable.
 
-Filtros
+Filters
 ----------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a
-localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Pesquise aqui.
+    - Search here.
     
-    ![Pesquisa](images/conf-para.img1.jpg)
+    ![Search](images/para.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de parâmetros do CITSmart**
+    **Figure 1 - Parameters search screen**
     
-2. Realize a pesquisa do parâmetro;
+2. Perform a parameter search;
 
-    - **Parâmetro CITSmart**: informe o nome do parâmetro, caso deseje filtrar pelo nome;
-    - **ID**: informe o número de identificação do parâmetro, caso deseje filtrar pelo ID.
+    - **CITSmart Parameter**: to filter by name, insert the parameter name;
+    - **ID**: to filter by id, insert the parameter identification number;
     
-3. Selecionado o parâmetro, informe o devido valor do parâmetro para efetuar a configuração.
+3. Once the parameter is selected, enter the appropriate parameter value to complete the configuration.
 
-Listagem de itens
+Items list
 -------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: **ID, Atributo** e **Valor**.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **ID, Attribute** and **Value**.
 
-![Listagem](images/conf-para.img2.jpg)
+![Listing](images/para.img2.jpg)
 
-**Figura 2 - Tela de listagem de parâmetros**
+**Figure 2 - Parameters listing screen**
 
-Preenchimento dos campos cadastrais
+Filling in the registrations fields
 ---------------------------------------
 
-1. Não se aplica.
+1. Not applicable.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/05/2019 - Larissa Lourenço
+    <b>Updated:</b>09/03/2019 - Larissa Lourenço

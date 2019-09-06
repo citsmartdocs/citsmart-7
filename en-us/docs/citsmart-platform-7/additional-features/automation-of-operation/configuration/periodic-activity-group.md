@@ -1,91 +1,72 @@
-title: Cadastro e pesquisa de grupo de atividade periódica
-Description: Esta funcionalidade tem o objetivo de registrar os grupos de atividades periódica, os quais são responsáveis por executar as atividades periódicas.
+title: Periodic activity group registration and search
+Description: This functionality is intended to record the periodic activity groups, which are responsible for performing the periodic activities.
 
-# Cadastro e pesquisa de grupo de atividade periódica
+# Periodic activity group registration and search
 
 Esta funcionalidade tem o objetivo de registrar os grupos de atividades
 periódica, os quais são responsáveis por executar as atividades periódicas.
 
-Como acessar
+How to access
 -----------
 
-1.  Acesse a funcionalidade de Grupo de Atividade Periódica através da navegação
-    no menu principal **Processos ITIL > Gerência de Portfólio e Catálogo > Grupo Ativ. Periódica.**
+1.  Access the Periodic Group functionality through navigation in the main menu **Processes Management > Portfolio and Catalog Management > Periodic Activation Group**.
 
-Pré-condições
+Preconditions
 -------------
 
-1.  Não se aplica.
+1.  Not applicable.
 
-Filtros
+Filters
 ------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados, conforme ilustrado na figura abaixo:
+1.  The following filter enable the user to restrict the participation of items in the standard feature listing, making it easier to locate the desired items as shown in the figure below:
 
-    -   Nome.
+- Name.
 
-1.  Na tela de Grupo de Atividade Periódica, clique na guia
-    de **Pesquisa**. Será apresentada a tela de pesquisa, conforme ilustrada na
-    figura abaixo:
+2. On the Periodic Group Group screen, click the Search tab. The respective search screen will be displayed as shown in the figure below:
 
-    ![Criar](images/group-1.png)
+    ![figure](images/group-1.png)
     
-    **Figura 1 - Tela de pesquisa de grupo de atividade periódica**
+    **Figure 1 - Periodic activity group search screen**
 
-1.  Realize a pesquisa do grupo de atividade periódica:
+3.  Perform periodic activity group search:
 
-2.  Informe o nome do grupo de atividade periódica e clique no
-    botão *Pesquisar*. Após isso, será exibido o registro conforme o nome
-    informado.
+- Enter the name of the periodic activity group and click the Search button. After this, the record will be displayed according to the name entered;
 
-    -   Caso deseje visualizar todos os registros de grupo de atividade
-        periódica, basta clicar diretamente no botão *Pesquisar*.
+- If you want to view all periodic activity group records, simply click directly on the Search button.
 
-Listagem de itens
+Itens list
 ----------------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Código, Nome e Descrição**, conforme a figura abaixo:
+1.  The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard list of functionality: Code, Name and Description, as shown in the figure below:
 
-    ![Criar](images/group-2.png)
+    ![figure](images/group-2.png)
     
-    **Figura 2 - Tela de itens**
+    **Figure 2 - Items screen**
 
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a tela de cadastro exibindo o conteúdo referente ao registro
-    selecionado.
+2.  After searching, select the desired record. Once this is done, you will be directed to the registration screen displaying the contents of the selected record;
 
-2.  Para alterar os dados do registro do grupo de atividade periódica, basta
-    modificar as informações desejadas e clicar no botão *Gravar* para que seja
-    gravada a alteração realizada no registro, onde a data, hora e usuário serão
-    gravados automaticamente para uma futura auditoria;
+3. To change the periodic activity group record data, simply modify the desired information and click the Record button to save the change made to the record, where the date, time and user will be saved automatically for a future audit.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 ---------------------------------
 
-1.  Acesse a funcionalidade, após isso, será apresentada a tela de **Cadastro de
-    Grupo de Atividade Periódica**, conforme ilustrada na figura abaixo:
+1.  Access the feature, after that, the Periodic Activity Group Master screen will be displayed, as shown in the figure below:
 
-     ![Criar](images/group-3.png)
+     ![figure](images/group-3.png)
      
-     **Figura 3 - Tela de cadastro de grupo de atividade periódica**
+     **Figure 3 - Periodic activity group master record screen**
 
-1.  Preencha os campos conforme orientações abaixo:
+2.  Fill in the fields as shown below:
 
-    -   **Nome**: informe o nome do grupo de atividade periódica;
+- **Name**: enter the name of the periodic activity group;
+- **Description**: enter the description of the periodic activity group;
+- **Start Date**: enter the start date of the periodic activity group.
 
-    -   **Descrição**: informe a descrição do grupo de atividade periódica;
-
-    -   **Data Início**: informe a data inicial do grupo de atividade periódica.
-
-1.  Clique no botão *Gravar Dados* para efetuar o registro, onde a data, hora e
-    usuário serão gravados automaticamente para uma futura auditoria.
+3. Click the Save button to register, where the date, time and user will be saved automatically for a future audit.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/18/2019 – Anna Martins
+    <b>Updated:</b>09/04/2019 – Anna Martins

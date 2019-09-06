@@ -1,30 +1,29 @@
-title: Regras de parametrização - Ordem de Serviço (OS)
-Description: Permite definir a fórmula de cálculo da glosa de ordem de serviço, habilitar assinaturas personalizadas no relatório.
-# Regras de parametrização - Ordem de Serviço (OS)
+title: Parameterization rules - service order (SO)
+Description: Parameterization rules - service order (SO)
+# Parameterization rules - service order (SO)
 
-Siga as instruções abaixo:
+Follow the instructions below:
 
-1. Acesse a funcionalidade através da navegação no menu principal;
+1. Access the feature by browsing the main menu;
 
-2. Posicione o mouse na opção **Parametrização**;
+2. Position the mouse in the **Parameterization**;
 
-3. Clique na opção **Ordem de Serviço (OS)**;
+3. CClick the **Service Order (SO)**;
 
-4. É apresentado uma lista de parâmetros para serem configurados, defina os valores dos parâmetros (atributos);
+4. A list of parameters to be configured is displayed, set the parameter values (attributes);
 
-5. Clique no botão "Gravar" para efetuar a operação, onde a data, hora e usuário serão gravados automaticamente para uma futura
-auditoria. 
+5. Click the *Save* button to perform the operation, where the date, time and user are automatically saved for a future audit. 
 
-| #   | Nome                                                                                     | Valores possíveis   | Finalidade                                                                                                                                                                                                                                                                                                                                                                                 | Orientações complementares                                                                                                                       |
-|-----|------------------------------------------------------------------------------------------|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| 51  | FORMULA GLOSA OS - Código Padrão                                                         |                     | Definir a fórmula de Cálculo da Glosa de Ordem de Serviço. Por padrão a fórmula já está definida na ferramenta.                                                                                                                                                                                                                                                                            | Não se aplica                                                                                                                                    |
-| 130 | Permitir a listagem de Ordem de Serviços com data retroativa (Ex: S ou N - Default: 'N') | S ou N (Default: N) | Definir se será permitida a listagem de Ordem de Serviços com data retroativa.                                                                                                                                                                                                                                                                                                             | Caso não informe o valor do parâmetro, será utilizado o valor padrão do sistema: “N” (Não).                                                      |
-| 229 | Reconfigurar Fórmulas das Atividades (S ou N - Default: 'S')                             | S ou N (Default: S) | Modificar a estrutura da fórmula das atividades já cadastradas para a nova estrutura que é configurável de na tela de Fórmula OS. Ao informar o valor padrão “S”, o sistema irá executar a rotina de reconfiguração da fórmula das atividades no momento que o JBoss for reiniciado numa atualização do sistema CITSmart e atribuir “N” para este parâmetro no momento de sua finalização. | Uma vez informado o valor “S”, a fórmula das atividades do contrato, ainda não configurada, ficará de acordo com a nova estrutura de Fórmula OS. |
-| 243 | Ativar assinaturas personalizadas no relatório de Ordens de Serviço                      |                     | Habilitar assinaturas para serem utilizadas na impressão dos relatórios de Ordem de Serviço. Quando o parâmetro estiver ativado (valor = S) o sistema exibirá um campo na tela de cadastro de Ordem de Serviço e o usuário poderá escolher qual configuração dos quadros de assinaturas será usada na impressão de seus relatórios.                                                        | Quando habilitado o parâmetro, obriga o usuário definir e configurar mais um campo antes de gravar uma Ordem de Serviço.                         |
+| #   | Name                                                                        | Possible values     | Goal                                                                                                                                                                                                                                                                                                                                                              | Additional Guidance                                                                                                                              |
+|-----|-----------------------------------------------------------------------------|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| 51  | FORMULA disallowance OS - Standard Code                                     |                     | Define the Order of Service Calculation formula. By default the formula is already defined in the tool.                                                                                                                                                                                                                                                           | Not applicable                                                                                                                                   |
+| 130 | Allow Retroactive Service Orders to be listed (e.g. Y or N - Default : 'N') | Y or N (Default: N) | Definir se será permitida a listagem de Ordem de Serviços com data retroativa.                                                                                                                                                                                                                                                                                    | If you do not enter the parameter value, the system default value will be used: "N" (No).                                                        |
+| 229 | Activities Formules Reconfiguration (From: Y or N - Default: 'Y')           | Y or N (Default: Y) | Modify the formula structure of the activities already registered for the new structure that is configurable from the SO Formula screen. When reporting the default value "Y", the system will perform the activity formula reset routine at the time JBoss restarts on a CITSmart system update and assigns "N" to this parameter at the time of its completion. | Once the "Y" value has been entered, the contract activity formula, not yet configured, will be in accordance with the new Formula SO structure. |
+| 243 | Service Order Signature                                                     |                     | Enable signatures to be used when printing the Work Order reports. When the parameter is enabled (value = Y), the system displays a field in the Work Order form and the user can choose which signature frame configuration to use when printing their reports.                                                                                                  | When the parameter is enabled, it forces the user to define and configure one more field before recording a Service Order.                       |
 
-**Tabela 1 - Lista de parâmetros**
+**Table 1 - List of Parameters**
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/23/2019 – Larissa Lourenço
+    <b>Updated:</b>09/05/2019 – Larissa Lourenço

@@ -1,28 +1,27 @@
-title: Regras de parametrização - liberação
-Description: Permitir a execução/uso deste processo, podendo ser possível, definir se será enviado notificações ao solicitante.
-# Regras de parametrização - liberação
+title: Parameterization rules - release
+Description: Parameterization rules - release.
+# Parameterization rules - release
 
-Siga as instruções abaixo:
+Follow the instructions below:
 
-1. Acesse a funcionalidade através da navegação no menu principal;
+1. Access the feature by navigating the main menu;
 
-2. Posicione o mouse na opção **Parametrização**;
+2. Position the mouse in the **Parameterization**;
 
-3. Clique na opção **Gerência de Liberação**;
+3. Click the **Release Management** option;
 
-4. É apresentado uma lista de parâmetros para serem configurados, defina os valores dos parâmetros (atributos);
+4. A list of parameters is displayed to be configured, set the parameter values (attributes);
 
-5. Clique no botão "Gravar" para efetuar a operação, onde a data, hora e usuário serão gravados automaticamente para uma futura 
-auditoria.
+5. Click the *Record* button to perform the operation, where the date, time and user will be saved automatically for a future audit.
 
-|  #  |                                     Nome                                    | Valores possíveis |                                                                                               Finalidade                                                                                              | Orientações complementares |
-|:---:|:---------------------------------------------------------------------------:|:-----------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------:|
-|  31 | Envia e-mail na execução dos fluxos de solicitações/incidentes (Ex: S ou N) |       S ou N      | Definir se será feito o envio de notificações por e-mail para o solicitante ao realizar a execução dos fluxos de solicitação de serviços/incidentes.                                                  |        Não se aplica       | 
-| 146 |                         Id template do questionário                         |       Ex: 13      | Informar o número de identificação (ID) do template para o questionário (checklist) referente à mudanças e liberação. Esse ID do template é definido na tela de “Template de Solicitação de Serviço”. |        Não se aplica       |
+| #   | Name                                                             | Possible values | Goal                                                                                                                                                                  | Additional Guidance |
+|-----|------------------------------------------------------------------|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
+| 31  | Send email when running requests / incidents flows (e.g. Y or N) | Y or N          | Define whether email notifications will be sent to the requestor when performing service request / incident flows.                                                    | Not applicable      |
+| 146 | Questionnaire Template ID                                        | e.g.: 13        | Enter the identification number (ID) of the template for the checklist for the changes and release. This template ID is set on the "Service Request Template" screen. | Not applicable      |
 
-**Tabela 1 - Lista de parâmetros**
+**Table 1 - List of Parameters**
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/23/2019 – Larissa Lourenço
+    <b>Updated:</b>09/04/2019 – Larissa Lourenço

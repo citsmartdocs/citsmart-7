@@ -1,63 +1,64 @@
-title: Cadastro e pesquisa de unidade
-Description: Tem por objetivo registrar as unidades onde os colaboradores estão alocados. 
-# Cadastro e pesquisa de unidade
+title: Unit registration and search
+Description: The goal of this feature is to register the units where the staff members are located.
+# Unit registration and search
 
-Esta funcionalidade tem por objetivo registrar as unidades onde os colaboradores estão alocados.
+The goal of this feature is to register the units where the staff members are located.
 
-Como acessar
---------------
-
-1. Acesse a funcionalidade de unidade através da navegação no menu principal **Cadastros Gerais > Gerência de Pessoal > Unidade**.
-
-Pré-condições
-----------------
-
-1. Informe o conteúdo abaixo no parâmetro (ver conhecimento [Regras de parametrização - Sistema](/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-system.html)):
-
-    - Parâmetro 254: "AIzaSyBuu_v0DeKsL1w-2FY6E-PZHYsw6ghuKJY".
-    
-2. Realizar a carga de países (ver conhecimento [Carga de países](/pt-br/citsmart-platform-7/plataform-administration/region-and-language/load-countries.html)).
-
-Filtros
-----------
-
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a 
-localização dos itens desejados:
-
-    - Nome.
-    
-    ![Pesquisa](images/uni-img1.jpg)
-    
-    **Figura 1 - Tela de pesquisa de unidade**
-    
-2. Realize a pesquisa de unidade:
-
-    - Informe o nome da unidade que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o registro de unidade
-    conforme a descrição informada;
-    
-    - Caso deseje listar todos os registros de unidade, basta clicar diretamente no botão "Pesquisar".
-    
-Listagem de itens
+How to access
 -------------------
 
-1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens desejados na listagem padrão da
-funcionalidade: **Nome**.
+1. Access the unit feature navigating through the main menu 
+**General Registration > Staff Management > Unit**.
 
-    ![Listagem](images/uni-img2.jpg)
+Preconditions
+----------------
+
+1. Enter the content below into the parameter (see knowledge [Parameterization rules - system)](/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-system.html)):
+
+    - Parameter 254 : "API Key to use Google services" with the "AIzaSyBuu_v0DeKsL1w-2FY6E-PZHYsw6ghuKJY".
     
-    **Figura 2 - Tela de listagem de unidade**
+2. Perform the country load (see knowledge [Country loading](/en-us/citsmart-platform-7/plataform-administration/region-and-language/load-countries.html)).
+
+Filters
+----------
+
+1. OThe following filter enables the user to restrict the participation of items in 
+the standard feature listing, making it easier to find the desired items:
+
+    - Name.
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo
-referente ao registro selecionado;
+    ![Search](images/unit.img1.jpg)
+    
+    **Figure 1 - Unit search screen**
+    
+2. Conduct a unit search:
 
-3. Para alterar os dados do registro de unidade, basta modificar as informações dos campos desejados e clicar no botão "Gravar" 
-para que seja gravada a alteração realizada no registro, onde a data, hora e usuário serão gravados automaticamente para uma 
-futura auditoria.
+    - Informe o nome da unidade que deseja pesquisar e Insert the name of the intended 
+    unit and click on the *Search* button. Afterwards, the unit entry will be 
+    displayed according to the description provided.
+  
+    - To list all units, just click directly on the Search button, if needed.
+    
+Items list
+-------------------
 
-Preenchimento dos campos cadastrais
+1. The following cadastral field is available to the user to facilitate the identification of the desired items in the standard feature listing: **Name**.
+
+    ![Listing](images/unit.img2.jpg)
+    
+    **Figure 2 - Unit listing screen**
+    
+2. After searching, select the intended entry. Afterwards, they will be redirected to 
+the registry screen displaying the content belonging to the selected entry.
+
+3. To edit a unit entry, just modify the information on the intended fields and click 
+on the *Save* button to confirm the changes to the database, at which date, time and 
+user will be stored automatically for a future audit.
+
+Filling in the registration fields
 ------------------------------------
 
-1. Será apresentada a tela de **Cadastro de Unidade**, conforme ilustrada na figura abaixo:
+1. The **Register Unit** screen will be displayed, as illustrated on the image below:
 
     ![Cadastro](images/uni-img3.jpg)
     

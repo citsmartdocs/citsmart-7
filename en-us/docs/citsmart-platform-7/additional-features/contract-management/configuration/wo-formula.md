@@ -1,128 +1,103 @@
-title: Cadastro e pesquisa de formula de ordem de serviços (OS)
-Description: Esta funcionalidade tem o objetivo de registrar as fórmulas personalizadas para configurar "como" será o cálculo do valor do custo total da atividade do serviço do contrato.
+title: Service order formula registration and search
+Description: This functionality is intended to record the custom formulas to configure "how" will be the calculation of the total cost value of the contract service activity.
 
-# Cadastro e pesquisa de formula de ordem de serviços (OS)
+# Service order formula registration and search
 
-Esta funcionalidade tem o objetivo de registrar as fórmulas personalizadas para
-configurar "como" será o cálculo do valor do custo total da atividade do serviço
-do contrato.
+This functionality is intended to record the custom formulas to configure "how" will be the calculation of the total cost value of the contract service activity.
 
-Como acessar
+How to access
 -----------
 
-1.  Acesse a funcionalidade de Fórmula OS através da navegação no menu
-    principal **Gestão Integrada > Gerência de Contratos >  Fórmula OS**.
+1.  Access the SO Formula functionality through navigation in the main menu **Integrated Management > Contract Management > SO Formula**.
 
-Pré-condições
+Preconditions
 ------------
 
-1.  Não se aplica.
+1.  Not applicable.
 
-Filtros
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filters enables the user to restrict the participation of items in the standard feature listing, making it easier to find the desired items:
 
-    -   Descrição;
+- Description;
+- Status.
 
-    -   Situação.
-
-    ![Criar](images/wo-1.png)
+    ![figure](images/wo-1.png)
     
-    **Figura 1- Tela de pesquisa de fórmula OS**
+    **Figure 1 - Formula search screen**
 
-1.  Realize a pesquisa de fórmula OS:
+2.  Perform the formula search:
 
-    -   Informe a descrição e/ou a situação da fórmula OS que deseja pesquisar e
-    clique no botão *Pesquisar*. Após isso, será exibido o registro conforme os
-    dados informados;
+- Enter the description and/or status of the formula you want to search for and click the Search button. After that, the record will be displayed according to the data entered.
+- If you want to list all the formula records, simply click the Search button directly.
 
-    -   Caso deseje listar todos os registros de fórmula, basta clicar diretamente
-    no botão *Pesquisar*.
-
-Listagem de itens
+Itens list
 ----------------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Descrição e Fórmula.
+1.  The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard feature listing: Description and Formula.
 
-    ![Criar](images/wo-2.png)
+    ![figure](images/wo-2.png)
     
-    **Figura 2 - Tela de listagem de fórmula OS**
+    **Figure 2 - OS formula listing screen**
 
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a tela de cadastro exibindo o conteúdo referente ao registro
-    selecionado;
+2.  After searching, select the desired record. Once this is done, it will be directed to the registration screen displaying the contents of the selected registry;
 
-2.  Para alterar os dados da fórmula OS, basta modificar as informações
-    desejadas e clicar no botão *Gravar*.
+3.To change the formula data, simply modify the information you want and click the Save button.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 ---------------------------------
 
-1.  Será apresentada a tela de **Cadastro de Fórmula,** conforme ilustrada na
-    figura abaixo:
+1.  The Formula Master screen will be displayed, as shown in the figure below:
 
-    ![Criar](images/wo-3.png)
+    ![figure](images/wo-3.png)
     
-    **Figura 3 - Tela de cadastro de fórmula OS**
+    **Figure 3- SO formula registration screen**
 
-1.  Preencha os campos conforme orientações abaixo:
+2.  Fill in the fields as directed below:
 
-    -   **Descrição**: informe o nome da fórmula;
+- Description: enter the name of the formula;
+- Options: variables available to describe the formula. In the table below the purpose of these variables is presented for a better understanding.
 
-    -   **Opções**: variáveis disponíveis para descrever a fórmula. Na tabela abaixo
-    é apresentado a finalidade dessas variáreis para melhor entendimento.
+    ![figure](images/wo-.png)
 
-    ![Criar](images/wo-4.png)
-
-    **Figura 4 - Exemplo 1 de fórmula**
+    **Table 1 - Formula Variables**
+    
+     ![figure](images/wo-4.png)
+    
+    **Figure 4 - Example 1 of formula**
 
     -   **Fórmula**: neste campo, permite descrever a personalização da fórmula
     utilizando as variáveis pré-definidas (explicado acima).
 
-1.  Após descrever a fórmula, clique no botão *Visualizar Fórmula;*
+3.  After describing the formula, click the Show Formula button.
 
-2.  Este botão faz a validação da fórmula onde verifica se a mesma está descrita
-    de forma correta e logo a seguir é apresentado o processo para o cálculo,
-    que consistirá em substituir o nome das variáveis pelo valor informado por
-    usuário ou método de retorno correspondente à variável, transformando o
-    texto da fórmula numa expressão matemática e retornando o seu resultado
-    calculado, depois de clicar em *Simular;*
+4. This button validates the formula where it verifies if it is correctly described and the following is the process for the calculation, which will consist of replacing the name of the variables with the value entered by the user or method of return corresponding to the variable, Transforming the formula text into a mathematical expression and returning its calculated result after you click Simulate.
 
-3.  Tudo isso para o usuário ter uma ideia se a estrutura do cálculo é o
-    esperado.
+5. All this for the user to have an idea if the calculation structure is as expected;
 
-    ![Criar](images/wo-5.png)
+    ![figure](images/wo-5.png)
    
     **Figura 5 - Exemplo 2 de fórmula**
 
-    !!! info "IMPORTANTE"
+    !!! info "IMPORTANT"
 
-         Pode-se utilizar as chaves "{}" para delimitar um texto que deseje incluir
-         na fórmula, onde o mesmo não influenciará o cálculo do valor da atividade
+         You can use the "{}" keys to delimit a text you wish to include in the formula, where it will not influence the calculation of the activity value.
 
-6.  Caso adicione um valor numérico próximo a uma variável, ele será concatenado
-    com ela.
+6.  If you add a numeric value next to a variable, it will be concatenated with it.
 
-    -  **Situação**: informe a situação da fórmula.
+- Status: inform the situation of the formula.
 
-7.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
-    onde a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria;
+7. After the data is entered, click the Save button to register, where the date, time and user will be saved automatically for a future audit;
+    
+    !!! note "NOTE"
 
-    !!! note "NOTA"
+        Before writing the formula the system must validate the syntax and only allow the recording if it is correct.
 
-        Antes de gravar a fórmula, o sistema deve validar a sintaxe e só permitir
-        a gravação se estiver correta.
-
-8.  Será exibida uma mensagem confirmando o sucesso do registro de fórmula.
+8.  You will see a message confirming the success of the formula record.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/19/2019 – Anna Martins
+    <b>Updated:</b>09/05/2019 – Anna Martins

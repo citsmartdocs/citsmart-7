@@ -1,29 +1,30 @@
-title: Regras de parametrização - chat
-Description: Permite o usuário ter contato direto ao atendente do sistema afim de dirimir dúvidas, realizar solicitações.
-# Regras de parametrização - chat
+title: Parameterization rules - chat
+Description: Parameterization rules - chat
+# Parameterization rules - chat
 
-Siga as instruções abaixo:
+Follow the instructions below:
 
-1. Acesse a funcionalidade através da navegação no menu principal;
+1. Access the feature by browsing the main menu
 
-2. Posicione o mouse na opção **Parametrização**;
+2. Position the mouse in the **Parameterization**;
 
-3. Clique na opção **Chat**;
+3. Click the **Chat** option;
 
-4. É apresentado uma lista de parâmetros para serem configurados, defina os valores dos parâmetros (atributos);
+4. A list of parameters to be configured is displayed, set the parameter values 
+(attributes);
 
-5. Clique no botão "Gravar" para efetuar a operação, onde a data, hora e usuário serão gravados automaticamente para uma futura
-auditoria.
+5. Click the *Record* button to perform the operation, where the date, time and user are 
+automatically saved for a future audit
 
-|  #  |                        Nome                        | Valores posssíveis |                             Finalidade                            | Orientações complementares |
-|:---:|:--------------------------------------------------:|:------------------:|:-----------------------------------------------------------------:|:--------------------------:|
-| 315 |   ID da origem das solicitações criadas pelo chat  |                    |          ID da origem das solicitações criadas pelo chat          |        Não se aplica       |
-| 316 |                     Ativar Chat                    |       S ou N       |                            Ativar Chat                            |        Não se aplica       |
-| 317 | ID da atividade das solicitações criadas pelo chat |                    |         ID da atividade das solicitações criadas pelo chat        |        Não se aplica       |
+| #   | Name                                            | Possible values | Goal                                    | Additional Guidance |
+|-----|-------------------------------------------------|-----------------|-----------------------------------------|---------------------|
+| 315 | Origin Id of requests created via chat          |                 | Id of the requests created by the chat  | Not applicable      |
+| 316 | Enable Chat                                     | "Y" or "N"      | Turn on the Chat feature                | Not applicable      |
+| 317 | Activity id of the requests created by the chat |                 | Activity id of requests created by chat | Not applicable      |
 
-**Tabela 1 - Lista de parâmetros**
+**Table 1 - List of Parameters**
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/23/2019 – Larissa Lourenço
+    <b>Updated:</b>09/04/2019 – Larissa Lourenço

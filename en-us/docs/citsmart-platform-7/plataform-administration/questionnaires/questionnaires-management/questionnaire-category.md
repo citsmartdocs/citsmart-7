@@ -1,56 +1,58 @@
-title: Cadastro e pesquisa de categoria de questionários
-Description: Disponibiliza ações diversas, tais como, incluir, alterar e excluir categorias de questionários.
-# Cadastro e pesquisa de categoria de questionários
+title: Questionnaire Category registration and search
+Description: This functionality aims to create categories of questionnaires.
+# Questionnaire Category registration and search
 
-Esta funcionalidade tem por objetivo criar categorias de questionários que serão utilizadas para filtragem e organização dos mesmos
-registrados na base.  
+This functionality aims to create categories of questionnaires that will be used for 
+filtering and organization of the same registered 
+in the database.
 
-Como acessar
--------------
+How to access
+------------------
 
-1. Acesse a funcionalidade através da navegação no menu principal **Sistema > Visões e Metadados > Categoria Questionário**.
+1. Access the functionality through navigation in the main menu **System > Visions and Metadata > Questionnaire Category**.
 
-Pré-condições
+Preconditions
 ----------------
 
-1. Não se aplica.
+1. No applicable.
  
-Filtros
+Filters
 ----------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a 
-localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier to 
+find the desired items:
 
-    - Descrição
+    - Description
     
-    ![Pesquisa](images/cat-quest.img1.jpg)
+    ![Search](images/category.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de categoria de questionário**
+    **Figure 1 - Questionnaire category search screen**
     
-Listagem de itens
+Items list
 -------------------
 
-1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens desejados na listagem padrão da
-funcionalidade: **Descrição**.
+1. The following cadastral field is available to the user to facilitate the 
+identification of the desired items in the standard feature listing: **Description**.
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Editar" e "Excluir".
+2. There are action buttons available to the user for each item in the listing, they 
+are: *Edit* and *Delete*.
 
-![Listagem](images/cat-quest.img2.jpg)
+![Listing](images/category.img2.jpg)
 
-**Figura 2 - Tela de listagem de categoria de questionário**
+**Figure 2 - Questionnaire category listing screen**
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Nos botões "Novo" e "Editar" estão disponíveis:
+1. The *New* and *Edit* buttons are available:
 
-    ![Categoria](images/cat-quest.img3.jpg)
+    ![Category](images/category.img3.jpg)
     
-    **Figura 3 - Tela de categoria de questionário**
+    **Figure 3 - Questionnaire category screen**
     
-    - **Descrição**: define o título usado nas listas de Categoria Questionário
+    - **Description**: defines the title used in the Questionnaire Category lists.
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>01/24/2019 – Larissa Lourenço
+    <b>Updated:</b>09/05/2019 – Larissa Lourenço

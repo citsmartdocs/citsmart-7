@@ -1,94 +1,87 @@
-title:  Manual de criação de formulário no CITSmart Neuro para pesquisas de satisfação de atendimentos no CITSmart Enterprise ITSM
-Description: Tem por objetivo a elaboração de pesquisa de satisfação a ser respondida pelo solicitante de um ticket. 
-# Manual de criação de formulário no CITSmart Neuro para pesquisas de satisfação de atendimentos no CITSmart Enterprise ITSM
+title: Form creation manual on CITSmart Neuro for CITSmart Enterprise ITSM customer satisfaction survey
+Description: This functionality aims for the elaboration a satisfaction survey to be answered by the ticket requestor, where the search fields are personalized by a CITSmart Neuro form. 
+# Form creation manual on CITSmart Neuro for CITSmart Enterprise ITSM customer satisfaction survey
 
-Esta funcionalidade tem por objetivo a elaboração de pesquisa de satisfação a ser respondida pelo solicitante de um ticket, cujos 
-campos da pesquisa são personalizados por um formulário CITSmart Neuro.
+This functionality aims for the elaboration a satisfaction survey to be answered by the ticket requestor, where the search fields are personalized by a CITSmart Neuro form.
 
-Passos para personalizar uma pesquisa de satisfação
+Steps to customize a satisfaction survey
 ------------------------------------------------------
 
-Criando o formulário no CITSmart Neuro
+Creating the form on CITSmart Neuro
 ------------------------------------------
 
-1. Acesse a funcionalidade através do menu **Neuro > Gerenciamento > Formulário**;
+1. Access the functionality through the menu **Neuro > Management > Form**;
 
-2. Conforme está descrito nos conhecimentos Formulário e Desenvolvendo aplicações, preencha os campos da primeira aba de acordo com a
-sua necessidade;
+2. As described in the knowledges Form, Developing Applications, fill in the fields of the first tab according to your needs;
 
-    ![Cadastro](images/form-neuro.img1.jpg)
+    ![figure](images/form-neuro.img1.jpg)
     
-    **Figura 1 - Tela de cadastro de formulário**
+    **Figure 1 - Form register screen**
     
-    !!! info "IMPORTANTE"
+    !!! info "IMPORTANT"
     
-        Especificamente para a empresa CITSmart Corporation, deverá ser informado Integração ITSM_Builder no campo Aplicação e
-        itsm_builder no campo Pasta.
+        Specifically for the CITSmart Corporation, you must inform Integração ITSM - Builder in the Application field and itsm_builder in the Folder field.
         
-3. Crie o lay-out do formulário será criado na aba Desenho de tela, conforme o exemplo abaixo.
+3. Create the form layout that will be created on the Screen Design tab, as shown in the example below:
 
-    ![Exemplo](images/form-neuro.img2.jpg)
+    ![figure](images/form-neuro.img2.jpg)
     
-    **Figura 2 - Exemplo de desenho de formulário Neuro**
+    **Figure 2 - Neuro form design example**
     
-4. Na opção de menu "Adicionar página", selecionar "Página de form padrão".
+4. On the Add Page menu option, select "Default form page".
 
-Vinculando o template de solicitação de serviço ao formulário CITSmart Neuro
+Linking the service request template to the CITSmart Neuro
 -------------------------------------------------------------------------------
 
-1. Acesse a funcionalidade através do menu **Sistema > Template de Solicitação de Serviço**;
+1. Access the functionality through the menu **System > Service Request Template**;
 
-2. Crie um novo template, preenchendo os campos abaixo (ver conhecimento 
-[Cadastro e pesquisa de template de solicitação de serviço](/pt-br/citsmart-platform-7/plataform-administration/questionnaires/ticket-template.html));
+2. Create a new template by filling in the fields below (according to knowledge [Service request template registration and search][1]);
 
-    ![Exemplo](images/form-neuro.img3.jpg)
+    ![figure](images/form-neuro.img3.jpg)
     
-    **Figura 3 - Exemplo de criação de template de serviço**
+    **Figure 3 - Service template creation example**
     
-    !!! warning "ATENÇÃO"
+    !!! warning "ATTENTION"
     
-        O Tipo de Template deverá ser sempre Neuro.
+        The Template Type will always be Neuro.
         
-3. No campo Formulário Neuro, selecione o formulário Neuro criado anteriormente.
+3. In the Neuro Form field, select the previously created Neuro form;
 
-!!! note "NOTA"
+!!! note "NOTE"
 
-    No campo Página Neuro deverá ser selecionado o tipo: default.
+    In the Neuro Page field, select the type default.
     
-Vinculando o cadastro de atividades de serviços (portfólio) ao novo template de solicitação de serviço
----------------------------------------------------------------------------------------------------------
+Linking the service activity (portfolio) registration tothe new service request template
+----------------------------------------------------------------------------------------
 
-1. Acesse a funcionalidade através do menu **Processos ITIL > Gerência de Portfólio e Catálogo > Gerenciamento de Portfólio e
-Catálogo**.
+1. Access the functionality through the menu **Process Management > Portfolio and Catalog Management > Portfolio Management**;
 
-2. Selecione o portfólio desejado e clique em "Avançar";
+2. Select the desired portfolio and click *Advance*;
 
-3. Selecione o serviço desejado e clique em "Avançar";
+3. Select the desired service and click *Advance*;
 
-4. Na aba Requisições, selecione a atividade desejada e clique em "Editar";
+4. In the Request tab, select the desired activity and click *Edit*;
 
-5. No campo **Template visualização**, vincule o template elaborado anteriormente, conforme a figura abaixo:
+![figure](images/form-neuro.img4.jpg)
 
-![Template](images/form-neuro.img4.jpg)
+**Figure 4 - Link template to activity**
 
-**Figura 4 - Vínculo de template à atividade**
-
-Validando a personalização da pesquisa
+Validating the search customization
 -----------------------------------------
 
-1. Acesse a funcionalidade **Processos ITIL > Gerência de Requisição e Incidente > Requisição de Serviços e Incidentes**.
+1. Access the functionality through the menu **Process Management > Ticket Management > Service Request and Incident**.
 
-2. Inicie o cadastramento de um novo ticket (ver conhecimento [Gerenciamento de ticket (serviços)](/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html));
+2. tart the registration of a new ticket (see knowledge [Ticket management (services)][2]);
 
-!!! note "NOTA"
+!!! note "NOTE"
 
-    O  ticket desta validação deve usar a atividade na qual foi vinculado o novo template.
+    The ticket of this validation must use the activity in which the new template has been linked.
     
-![Visualização](images/form-neuro.img5.jpg)
+![figure](images/form-neuro.img5.jpg)
 
-**Figura 5 - Visualização da pesquisa de satisfação no ticket**
+**Figure 5 - Ticket satisfaction survey visualization**
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/07/2019 - Larissa Lourenço
+    <b>Updated:</b>09/04/2019 - Anna Martins

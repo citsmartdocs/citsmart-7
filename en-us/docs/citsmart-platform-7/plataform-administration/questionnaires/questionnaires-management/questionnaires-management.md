@@ -1,18 +1,19 @@
-Title: Manutenção de Questionários
+Title: Questionnaire Maintenance
 
-# Manutenção de Questionários
+# Questionnaire Maintenance
 
-Questionários são instrumentos que podem ser usados para coletar informações. No CITSmart Platform, eles podem ser usados para
-capturar informações no início de um atendimento (Gerenciamento de Ticket) e servir como recurso para a aplicação de listas de 
-verificação nos processos de Mudança, Liberação e Problema.
+Questionnaires are instruments that can be used to gather information. In CITSmart 
+Platform they can be used to capture information at the beginning of a call (Ticket 
+Management) and serve as a resource for
+verification in the Change, Release and Problem processes.
 
-## Relacionado
+## Related
 
-[Cadastro e pesquisa de questionários][1]
+[Questionnaires registration and search][1]
 
-[1]:/pt-br/citsmart-platform-7/plataform-administration/questionnaires/questionnaires-management/register-questionnaire.html
+[1]:/en-us/citsmart-platform-7/plataform-administration/questionnaires/questionnaires-management/register-questionnaire.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/24/2019 - Larissa Lourenço 
+    <b>Updated:</b>09/05/2019 - Larissa Lourenço 

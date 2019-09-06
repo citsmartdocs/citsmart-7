@@ -1,184 +1,169 @@
-title:  Manual de integração com o CITSmart Enterprise Neuro (ITSM)
-Description: Disponibiliza a integração do CITSmart com o Neuro. 
-# Manual de integração com o CITSmart Enterprise Neuro (ITSM)
+title: Integration guide with CITSmart Enterprise Neuro (ITSM))
+Description: Integration guide with CITSmart Enterprise Neuro (ITSM) 
+# Integration guide with CITSmart Enterprise Neuro (ITSM)
 
-Premissas
+Assumptions
 -----------
 
-1. O Neuro é implementado pelos pacotes cit-portal-web.war e cit-esi-web.war. Para que a integração ITSM/Neuro funcione, é necessário
-que:
+1. The Neuro is implemented by the packages cit-portal-web.war and cit-esi-web.war. For ITSM / Neuro integration to work, you must:
 
-    - A versão do ITSM seja 7.1.0.0 ou superior home;
-    - A versão do cit-portal-web seja 3.0.29 ou superior;
-    - A versão do cit-esi-web seja 3.1.2 ou superior;
-    - O ITSM esteja configurado para acesso HTTPS://
-    - O Neuro esteja instalado no mesmo servidor ITSM ou que o servidor ITSM tenha acesso ao ambiente Neuro em outro domínio;
-    - Para o caso de acesso ao Neuro em outro domínio, o servidor ITSM deve ter o certificado do Neuro devidamente instalado;
-    - Os parâmetros de integração estejam configurados no ITSM;
-    - Para que a integração funcione, o usuário logado no ITSM deve existir na base de dados do cit-portal-web. Ou seja, a 
-    autenticação do ITSM no Neuro não é feita pela conta de serviço especificada no parâmetro 311, e sim, pelo usuário logado no 
-    ITSM.
+- The ITSM version is 7.1.0.0 or higher
+- The version of the cit-portal-web is 3.0.29 or higher
+- The version of cit-esi-web is 3.1.2 or higher
+- ITSM is configured for HTTPS access: //
+- The Neuro is installed on the same ITSM server or the ITSM server has access to the Neuro environment in another domain.
+- In the case of access to the Neuro in another domain, the ITSM server must have the Neuro certificate properly installed
+- The integration parameters are configured in the ITSM
+- For the integration to work, the user logged into ITSM must exist in the cit-portal-web database. - That is, the authentication of the ITSM in the Neuro is not made by the service account specified in parameter 311, but by the user logged in to ITSM.
     
-Parametrização
+Parametrization
 -----------------
 
-1. No ITSM existem quatro parâmetros que configuram a integração com o Neuro:
+1. In ITSM there are four parameters that configure integration with Neuro:
 
-    ![Parâmetros](images/integ-neuro.img1.jpg)
+    ![figure](images/integ-neuro.img1.jpg)
     
-    **Figura 1 - Parâmetros CITSmart**
+    **Figure 1 - CITSmart parameters**
     
-    - O parâmetro 309 indica se a integração com o Neuro está habilitada;
-    - O parâmetro 310 define a URL do Neuro. Essa URL inclui o contexto da aplicação, que geralmente é cit-esi-web;
-    - O parâmetro 311 indica a conta de serviço (usuário) para integração com o Neuro. Esse usuário deve estar cadastrado na base 
-    de dados do cit-portal-web do ambiente Neuro.
+- Parameter 309 indicates whether integration with Neuro is enabled;
+- Parameter 310 defines the Neuro URL. This URL includes the context of the application, which is usually cit-esi-web;
+- Parameter 311 indicates the service (user) account for integration with Neuro. This user must be registered in the cit-portal-web database of the Neuro environment.
     
-Formas de integração 
+Forms of integration 
 ---------------------
 
-1. Existem oito formas de integração do ITSM com o Neuro
+1. There are eight ways to integrate ITSM with Neuro
 
-    - Acesso às telas do Neuro pelo ITSM;
-    - Acesso a formulários do Neuro pelo menu do ITSM;
-    - Utilização de formulários Neuro na abertura de solicitações ITSM;
-    - Utilização de formulários Neuro nas tarefas de fluxo ITSM;
-    - Execução de regras de negócio do Neuro pelo ITSM;
-    - Execução de fluxos ESI pelo ITSM;
-    - Execução de transações de objeto de negócio pelo ITSM;
-    - Utilização de fluxos do Neuro no ITSM.
-    
-2. Cada uma das formas de integração é detalhada a seguir.
+- Access to Neuro screens by ITSM
+- Accessing Neuro forms from the ITSM menu
+- Using Neuro forms to open ITSM requests
+- Using Neuro forms in ITSM flow jobs
+- Execution of Neuro business rules by ITSM
+- Execution of ESI flows by ITSM
+- Execution of business object transactions by ITSM
+- Using Neuro streams in ITSM
 
-Acesso às telas do Neuro pelo ITSM
+2. Each of the forms of integration is detailed below.
+
+Access to Neuro fabrics by ITSM
 ------------------------------------
 
-1. Caso o parâmetro de integração 309 indique que a integração está habilitada e o usuário logado no ITSM tenha acesso à 
-integração (usuário consultor já tem acesso default), o menu “Neuro” será apresentado conforme tela abaixo:
+1. If the integration parameter 309 indicates that the integration is enabled and the user logged in to ITSM has access to the integration (consultant user already has default access), the "Neuro" menu will be displayed as shown below:
 
-    ![Menu](images/integ-neuro.img2.jpg)
+    ![figure](images/integ-neuro.img2.jpg)
     
-    **Figura 2 - Menu principal**
+    **Figure 2 - Main menu**
     
-2. Atendidas as condições de autenticação e perfil, o usuário tem acesso a todas as telas de gerenciamento e recursos do Neuro.
+2. Given the authentication and profile conditions, the user has access to all Neuro management screens and features.
 
-    ![Desenho](images/integ-neuro.img3.jpg)
+    ![figure](images/integ-neuro.img3.jpg)
     
-    **Figura 3 - Desenho da tela**
+    **Figure 3 - Screen drawing**
     
-    !!! note "NOTA"
+    !!! note "NOTE"
     
-        As telas do Neuro são renderizadas dentro de um iframe. Isso implica que o CSS obedece ao padrão do GRP e, portanto, é 
-        diferente do padrão ITSM.
+        Neuro screens are rendered within an iframe. This implies that CSS conforms to the GRP standard and therefore is different from the ITSM standard.
         
-Acesso aos formulários do Neuro pelo menu do ITSM
----------------------------------------------------
+Accessing Neuro forms from the ITSM menu
+-----------------------------------------
 
-1. Para acessar os formulários do Neuro pelo menu do ITSM, basta criar uma novo menu informando o caminho :
+1. To access the Neuro forms from the ITSM menu, simply create a new menu telling the path :
 */dynamicFormBuilder/dynamicFormBuilder.load?formName={nome do formulário do Neuro}&page={tipo de página do Neuro}*
 
-    ![Cadastro](images/integ-neuro.img4.jpg)
+   ![figure](images/integ-neuro.img4.jpg)
     
-    **Figura 4 - Cadastro de menu**
+   **Figure 4 -Menu master**
     
-2. Nesse caso de integração, o tipo de página do Neuro geralmente é crud (para cadastros CRUD) ou default (para formulários
-gerais);
+2. In this integration case, the Neuro page type is usually crud (for CRUD entries) or default (for general forms);
 
-3. Depois de configurado o menu, o formulário do Neuro é acessado normalmente no ITSM, obedecendo os padrões de CSS locais. Nesse
-caso, a autenticação do ITSM no Neuro é feita utilizando a conta de serviço especificada no parâmetro 311.
+3. After the menu is configured, the Neuro form is usually accessed in ITSM, obeying local CSS standards. In this case, ITSM authentication in Neuro is done using the service account specified in parameter 311.
 
-![Dados](images/integ-neuro.img5.jpg)
+![figure](images/integ-neuro.img5.jpg)
 
 **Figura 5 - Dados cadastrais**
 
-Utilização dos formulários Neuro na abertura de solicitação ITSM
---------------------------------------------------------------------
+Using the Neuro forms in the ITSM request opening
+---------------------------------------------
 
-1. Depois de construído o formulário no Neuro, basta:
+1. Once you've built the form in Neuro, just:
 
-    - Cadastrar um template do tipo Neuro no ITSM e associá-lo ao formulário, conforme tela a seguir:
+- Register a Neuro type template in ITSM and associate it with the form, as shown below:
 
-    ![Template](images/integ-neuro.img6.jpg)
-    
-    **Figura 6 - Template de solicitação**
-    
-2. Para os casos em que a atividade inicia um fluxo do próprio ITSM (que é a maioria dos casos), o campo “Página Neuro” deve ser 
-preenchido com “Default”;
+![figure](images/integ-neuro.img6.jpg)
 
-    - Associar o template à atividade do portfólio
+**Figure 6 - Request template**
+  
+2. For cases where the activity initiates a stream from the ITSM itself (which is the majority of cases), the "Page Neuro" field must be filled with "Default" 
 
-    ![Cadastro](images/integ-neuro.img7.jpg)
+- Link template to portfolio activity
     
-    **Figura 7 - Cadastro/Edição serviço**
+   ![figure](images/integ-neuro.img7.jpg)
     
-3. Depois de associado o template à atividade, o formulário do Neuro aparecerá automaticamente na tela de solicitação do ITSM do 
-portal ou na tela de requisições/incidentes. Nesse caso, a autenticação do ITSM no Neuro é feita utilizando a conta de serviço 
-especificada no parâmetro 311.
+   **Figure 7 - Service registration / edition**
+    
+3. Once the template is associated with the activity, the Neuro form will automatically appear on the portal's ITSM request screen or the requests / incident screen. In this case, ITSM authentication in Neuro is done using the service account specified in parameter 311.
 
-    ![Formulário](images/integ-neuro.img8.jpg)
+    ![figure](images/integ-neuro.img8.jpg)
     
-    **Figura 8 - Formulário montado**
+    **Figure 8 - Mounted Form**
     
-Utilização dos formulários Neuro nas tarefas de fluxo
-----------------------------------------------------------
+Using Neuro forms in ITSM flow tasks
+------------------------------------
 
-1. Depois de construído o formulário no Neuro, basta:
+1. Once you've built the form in Neuro, just:
 
-    - Editar o fluxo do ITSM;
-    - Selecionar a tarefa de usuário que deve exibir o formulário do Neuro e clicar em propriedades;
-    - Na aba “Interface”, escolher “Formulário Neuro” no campo “Tipo de interação”;
-    - Selecionar o formulário do Neuro (auto-complete) no campo “Nome do formulário”.
+- Edit the ITSM stream
+- Select the user task that should display the Neuro form and click Properties
+- In the "Interface" tab, choose "Neuro Form" in the "Interaction type"
+- Select the Neuro form (auto-complete) in the "Form Name" field
     
-    ![Tarefas](images/integ-neuro.img9.jpg)
+    ![figure](images/integ-neuro.img9.jpg)
     
-    **Figura 9 - Tarefas**
+    **Figure 9 - Tasks**
     
-2. Na execução da tarefa, o formulário do Neuro associado no desenho do fluxo será exibido automaticamente. Também nesse caso, a 
-autenticação do ITSM no Neuro é feita utilizando a conta de serviço especificada no parâmetro 311.
+2. In the execution of the task, the associated Neuro form in the flow drawing will be displayed automatically. In this case, ITSM authentication in the Neuro is also done using the service account specified in parameter 311.
 
-    ![Formulário](images/integ-neuro.img10.jpg)
+    ![Figure](images/integ-neuro.img10.jpg)
     
-    **Figura 10 - Formulário associado**
+    **Figure 10 - Associated form**
     
-Execução de regras de negócio do Neuro pelo ITSM
+Execution of Neuro business rules by ITSM
 ----------------------------------------------------
 
-1. Para execução de regras de negócio do Neuro, deve ser feito o seguinte:
+1. For execution of Neuro business rules, the following must be done:
 
-    - Adicionar um componente Regra de Negócio no fluxo do ITSM;
-    - Criar ou referenciar uma regra de negócio do Neuro na aba de propriedades.
+- Add a Business Rule component in the ITSM stream
+- Create or reference a Neuro business rule on the properties tab.
 
-    ![Regra](images/integ-neuro.img11.jpg)
+    ![figure](images/integ-neuro.img11.jpg)
+        
+    **Figure 11 - Business rule**
     
-    ![Negócio](images/integ-neuro.img11.1.jpg)
-    
-    **Figura 11 - Regra de Negócio**
-    
-Execução de fluxos ESI pelo ITSM
------------------------------------
+Execution of ESI by ITSM
+------------------------
 
-1. Para execução de fluxos ESI do Neuro, deve ser feito o seguinte:
+1. To run Neuro ESI streams, you must do the following:
 
-    - Adicionar um componente Fluxo ESI no fluxo do ITSM;
-    - Referenciar um fluxo ESI na aba de propriedades.
+- Add an ESI Flow component in the ITSM workflow
+- Referencing an ESI flow in the properties tab
     
-    ![Fluxos](images/integ-neuro.img12.jpg)
+   ![figure](images/integ-neuro.img12.jpg)
     
-    **Figura 12 - Fluxo ESI**
+    **Figure 12 - ESI flow**
     
-Execução de transações de objeto de negócio pelo ITSM
+Execution of business object trasanctions by ITSM
 --------------------------------------------------------
 
-1. Para execução de transações de objeto de negócio do Neuro, deve ser feito o seguinte:
+1. For execution of Neuro business object transactions, the following must be done:
 
-    - Adicionar um componente Transação de Banco de Dados no fluxo do ITSM;
-    - Preencher as propriedades obrigatórias: nome da conexão, nome do objeto de banco de dados, tipo do SQL, variável JSON de
-    entrada e variável JSON de saída.
+- Add a Database Transaction component to the ITSM stream
+- Fill in the required properties: connection name, database object name, SQL type, input JSON variable, and output JSON variable
     
-    ![Transação](images/integ-neuro.img13.jpg)
+    ![figure](images/integ-neuro.img13.jpg)
     
-    **Figura 13 - Transação de BD**
+    **Figure 13 - DB transaction**
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/07/2019 - Larissa Lourenço
+    <b>Updated:</b>09/04/2019 - Anna Martins

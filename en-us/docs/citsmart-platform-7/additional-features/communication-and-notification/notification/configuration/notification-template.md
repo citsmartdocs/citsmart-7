@@ -1,93 +1,71 @@
-title: Cadastro e pesquisa de template de notificação
-Description: A funcionalidade Template de Notificação tem por objetivo cria um template de notificação para vincular ao Gerenciamento de Eventos e Base de Conhecimento.
+title: Template notification registration and search
+Description: The Notification Template feature aims to create a notification template to link to Event Management and Knowledge Base.
 
-# Cadastro e pesquisa de template de notificação
+# Template notification registration and search
 
-A funcionalidade Template de Notificação tem por objetivo cria um template de
-notificação para vincular ao Gerenciamento de Eventos e Base de Conhecimento.
+The Notification Template feature aims to create a notification template to link to Event Management and Knowledge Base.
 
-Como acessar
+How to access
 -----------
 
-1.  Acesse a funcionalidade de Template de Notificação através da navegação no
-    menu principal **Sistema > Notificações > Template de Notificação**.
+1.  Access the notification template feature navigating through the main menu **System > Notifications > Notification Type**.
 
-Pré-condições
+Preconditions
 ------------
 
-1.  Não se aplica.
+1.  Not applicable.
 
-Filtros
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados, conforme ilustrado na figura abaixo:
+1.  The following filters enables the user to restrict the participation of items in the standard feature listing, making it easier to find the desired items:
 
-    -   Título;
+- Title;
+- ID;
+- Status.
 
-    -   Identificador;
+2. On the Notification Templates screen, the notification templates that have been registered are listed, as shown in the figure below:
 
-    -   Situação.
-
-1.  Na tela de Templates de Notificação, são listados os templates de
-    notificação que foram registrados, conforme ilustrada na figura abaixo:
-
-    ![Criar](images/notification-1.png)
+    ![figure](images/notification-1.png)
     
-    **Figura 1 - Tela de pesquisa de templates de notificação**
+    **Figure 1 - Notification type search screen**
 
-1.  Para realizar a busca de um registro de template de notificação específico,
-    basta preencher os filtros conforme sua necessidade.
+3.  To search for a specific notification template record, simply fill in the filters as needed.
 
-Listagem de itens
+Itens list
 ----------------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Título, Identificador e Situação.
+1.  The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard feature listing: Title, ID and Status.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Excluir*.
+2. There are action buttons available to the user for each item in the listing, they are: Edit and Delete.
 
-    ![Criar](images/notification-2.png)
+    ![figure](images/notification-2.png)
     
-    **Figura 2 - Tela de listagem de template de notificação**
+    **Figure 2 - Notification template listing screen**
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 ----------------------------------
 
-1.  Acesse o menu principal. Após isso, será apresentada a tela de Template de
-    Notificação;
+1.  The Notification Template Screen will be displayed;
 
-2.  Clique no botão *Novo* (conforme a figura 2). Feito isso, será apresentada a
-    tela de Cadastro de Template de Notificação, conforme ilustrada na figura
-    abaixo:
+2. Click the New button (according to the previous figure). Once this is done, the Notification Template Master screen will be displayed, as shown in the figure below:
 
-    ![Criar](images/notification-3.png)
+    ![figure](images/notification-3.png)
 
-    **Figura 3 - Cadastro de template de notificação**
+    **Figure 3 - Notification template registration**
 
-1.  Preencha os campos conforme orientações abaixo:
+3.  Fill in the fields as directed below:
 
-    -   **Título**: informe o título do template de notificação;
+- Title: enter the title of the notification template;
+- Process: inform the process regarding the notification template;
+- Status: inform the status of the notification template;
+- Short Description: provide a brief description of the notification template;
+- Notification Description: enter the detailed description of the notification.
 
-    -   **Processo**: informe o processo referente ao template de notificação;
-
-    -   **Situação**: informe a situação do template de notificação;
-
-    -   **Descrição breve**: informe uma descrição resumida do template de
-        notificação;
-
-    -   **Descrição da notificação**: informe a descrição detalhada da
-        notificação.
-
-2.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
-    neste caso a data, hora e horário serão armazenados automaticamente para uma
-    futura auditoria.
+4. After the data has been entered, click the Save button to register, in this case the date, time and time will be stored automatically for a future audit.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/18/2019 – Anna Martins
+    <b>Updated:</b>09/05/2019 – Anna Martins

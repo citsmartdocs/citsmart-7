@@ -1,119 +1,87 @@
-title: Cadastro e pesquisa de notificação via email
-Description: A funcionalidade de Notificação via E-mail tem por objetivo enviar mensagens via e-mail no intuito de notificar os usuários sobre eventos que irão ocorrer no sistema.
+title: Notification via e-mail registration and search
+Description: The E-mail Notification feature aims to send a message via e-mail in order to notify users about events that will occur in the system.
 
-# Cadastro e pesquisa de notificação via email
+# Notification via e-mail registration and search
 
-A funcionalidade de Notificação via E-mail tem por objetivo enviar mensagens via
-e-mail no intuito de notificar os usuários sobre eventos que irão ocorrer no
-sistema.
+The E-mail Notification feature aims to send a message via e-mail in order to notify users about events that will occur in the system.
 
-Como acessar
+How to access
 -----------
 
-1.  Acesse o menu principal **Sistema > Notificações > Notificação via E-mail**.
+1.  Access the functionality through navigation in the main menu **System > Notifications > Notification via E-mail**.
 
-Pré-condições
+Preconditions
 ------------
 
-1.  Não se aplica.
+1.  Not applicable.
 
-Filtros
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filters enables the user to restrict the participation of items in the standard feature listing, making it easier to find the desired items:
 
-    -   Título;
+- Title;
+- Start Date;
+- Status.
 
-    -   Data inicial;
+2. In the E-mail Notifications screen, the E-mail Notifications that have been registered are listed, as shown in the figure below:
 
-    -   Situação.
+![figure](images/notification-1.png)
 
-1.  Na tela de Notificações via E-mail, são listadas as **Notificações via
-    E-mail** que foram registradas, conforme exemplo ilustrado na figura abaixo:
+**Figure 1 - E-mail notification search screen**
 
-![Criar](images/notification-1.png)
-
-**Figura 1 - Tela de pesquisa de notificação via e-mail**
-
-Listagem de itens
+Itens list
 ----------------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Título, Data inicial e Situação.
+1.  The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard feature listing: Title, Start Date and Status.
 
-    ![Criar](images/notification-2.png)
+    ![figure](images/notification-2.png)
 
-    **Figura 2 - Tela de listagem de notificação via e-mail**
+    **Figure 2 - E-mail notification list screen**
 
-1.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Excluir*.
+2.  There are action buttons available to the user for each item in the listing, they are: Edit and Delete.
 
-Preenchimento dos campos cadastrais
+
+Filling in the registration fields
 ----------------------------------
 
-1.  Será apresentada a tela de Notificações via E-mail;
+1. The E-mail Notifications screen will be displayed;
 
-2.  Clique no botão *Novo*. Feito isso, será apresentada a tela de Cadastro de
-    Notificação via E-mail, conforme ilustrada na figura abaixo:
+2. Click the New button. Once this is done, the E-mail Notification Registration screen will be displayed, as shown in the figure below:
 
-    ![Criar](images/notification-3.png)
-    
-    **Figura 3 - Cadastro de notificação via e-mail**
+   ![figure](images/notification-3.png)
+   
+   **Figure 3 - E-mail notification registration**
 
-1.  Preencha os campos conforme orientações abaixo:
+3.  Fill in the fields as directed below:
 
-    -   **Título**: informe o título da notificação via e-mail;
+- Title: report the title of the notification via e-mail;
+- Process: inform the process regarding notification by e-mail;
+- Initial date publication: enter the starting date that the notification will be displayed via e-mail to the user;
+- Status: inform the status of the notification via e-mail;
 
-    -   **Processo**: informe o processo referente a notificação via e-mail;
+4. Link group (s) to notification via e-mail;
 
-    -   **Data inicial publicação**: informe a data inicial que será exibida a
-        notificação via e-mail para o usuário;
+- Click the Link Group button. After that, the group search screen will be displayed;
+- Perform the search, select the group you want to link to the e-mail notification, and click the Add button to perform the operation;
+- To remove the group link with the e-mail notification, click Remove. If you want to remove all linked groups, click the Remove All button.
 
-    -   **Situação**: informe a situação da notificação via e-mail.
+5. Link user (s) to notification via e-mail;
 
-2.  Vincule grupo(s) à notificação via e-mail;
+- Click the Link User button. After that, the user search screen will be displayed;
+- Perform the search, select the user (s) you want to link to the e-mail notification and click the Add button to perform the operation;
+- To remove the user's link with the e-mail notification, click Remove. If you want to remove all linked users, click the Remove All button.
+   
+   !!! info "IMPORTANT"
 
-    -   Clique no botão *Vincular grupo*. Após isso, será apresentada a tela de
-    pesquisa de grupos;
+         If e-mail notification is not assigned to any group and/or user, all system users will be notified.
 
-    -   Realize a pesquisa, selecione o grupo que deseja vincular à notificação via
-    e-mail e clique no botão *Enviar* para efetuar a operação;
+   - Short description: provide a brief description of the notification via e-mail;
+- Description of notification: enter the detailed description of the notification via e-mail.
 
-    -   Para remover o vínculo do grupo com a notificação via e-mail, clique
-    em *Remover*. Se desejar remover todos os grupos vinculados, clique no
-    botão *Remover todos*.
-
-5.  Vincule usuário(s) à notificação via e-mail;
-
-    -   Clique no botão *Vincular usuário*. Após isso, será apresentada a tela de
-    pesquisa de usuários;
-
-    -   Realize a pesquisa, selecione o(s) usuário(s) que deseja vincular à
-    notificação de e-mail e clique no botão *Enviar* para efetuar a operação;
-
-    -   Para remover o vínculo do usuário com a notificação via e-mail, clique
-    em *Remover*. Se desejar remover todos os usuários vinculados, clique no
-    botão *Remover todos*.
-
-    !!! info "IMPORTANTE"
-
-         Se a notificação via e-mail não for atribuída a nenhum grupo e/ou usuário,
-         todos os usuários do sistema serão notificados.
-
-   -  **Descrição breve**: informe uma descrição resumida da notificação via
-    e-mail;
-
-   -  **Descrição da notificação**: informe a descrição detalhada da notificação
-    via e-mail.
-
-6.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
-    neste caso a data, hora e horário serão armazenados automaticamente para uma
-    futura auditoria.
+6. After the data has been entered, click the Save button to register, in this case the date, time and time will be stored automatically for a future audit.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/18/2019 – Anna Martins
+    <b>Updated:</b>09/05/2019 – Anna Martins

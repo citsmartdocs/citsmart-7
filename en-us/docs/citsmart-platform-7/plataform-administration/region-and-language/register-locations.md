@@ -1,74 +1,79 @@
-title: Cadastro e pesquisa de localidade
-Description: Disponibiliza ações diversas, tais como, incluir, alterar e excluir os locais em que os solicitantes de serviços.
-# Cadastro e pesquisa de localidade
+title: Location registration and search
+Description: The goal of this feature is to register the location of the service applicants.
+# Location registration and search
 
-Esta funcionalidade tem por objetivo registrar os locais em que os solicitantes de serviços estão alocados, podendo ser o nome da
-unidade, cidade, nome do órgão etc.
+The goal of this feature is to register the location of the service applicants, it 
+could be the name of the unit, city, name of the 
+government entitie, etc.
 
-Como acessar
--------------
-
-1. Acesse a funcionalidade de localidade através da navegação no menu principal
-**Cadastros Gerais > Gerência de Pessoal > Localidade**.
-
-Pré-condições
----------------
-
-1. Não se aplica.
-
-Filtros
----------
-
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a
-localização dos itens desejados:
-
-    - Nome.
-    
-    ![Pesquisa](images/local.img1.jpg)
-    
-    **Figura 1 - Tela de pesquisa de localidade**
-    
-2. Realize a pesquisa de localidade:
-
-    - Informe o nome da localidade que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o registro de 
-    localidade conforme a descrição informada;
-    
-    - Caso deseje listar todos os registros de localidade, basta clicar diretamente no botão "Pesquisar".
-    
-Listagem de itens
+How to access
 ------------------
 
-1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens desejados na listagem padrão da
-funcionalidade: **Localidade**.
+1. Access the location feature navigating through the main menu 
+**General Registration > Staff Management > Location**.
 
-    ![Listagem](images/local.img2.jpg)
+Preconditions
+---------------
+
+1. No applicable.
+
+Filters
+---------
+
+1. The following filter enables the user to restrict the participation of items in the 
+standard feature listing, making it easier to 
+find the desired items:
+
+    - Name.
     
-    **Figura 2 - Tela de listagem de localidade**
+    ![Search](images/local.img1.jpg)
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo
-referente ao registro selecionado;
+    **Figure 1 - Location search screen**
+    
+2. Conduct a location search:
 
-3. Para alterar os dados do registro de localidade, basta modificar as informações dos campos desejados e clicar no botão 
-"Gravar" para que seja gravada a alteração realizada no registro, onde a data, hora e usuário serão gravados automaticamente
-para uma futura auditoria.
+    - Insert the name of the intended location and click on the Search button. 
+    Afterwards, the location entry will be displayed according to the description 
+    provided;
+    
+    - To list all location entries, just click directly on the *Search* button, if 
+    needed.
+    
+Items list
+------------------
 
-Preenchimento dos campos cadastrais
+1. The following cadastral field is available to the user to facilitate the 
+identification of the desired items in the standard feature 
+listing: **Locality**.
+
+    ![Listing](images/local.img2.jpg)
+    
+    **Figure 2 - Location listing screen**
+    
+2. After searching, select the intended entry. Afterwards, they will be redirected to 
+the registry screen displaying the selected entry's content.
+
+3. To edit the entry information, just edit the intended fields and click on the 
+*Save* button to confirm the changes, at which date, time 
+and user will be automatically stored for a future audit.
+
+Filling in the registration fields
 -------------------------------------
 
-1. Clique na aba **Cadastro de Localidade**, conforme ilustrada na figura abaixo:
+1. Click on the **Register Location** tab, as illustrated on the image below:
 
-    ![Cadastro](images/local.img3.jpg)
+    ![Entry](images/local.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de localidade**
+    **Figure 3 - Location entry screen**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill out the fields as instructed below::
 
-    - **Nome Localidade**: informe o nome da localidade.
+    - **Name**: insert the location's name;
     
-3. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma futura
-auditoria.
+3. Click on the *Save* button to confirm the entry, at which date, time and user will 
+automatically be stored for a future audit.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/24/2019 - Larissa Lourenço
+    <b>Updated:</b>09/05/2019 - Larissa Lourenço
