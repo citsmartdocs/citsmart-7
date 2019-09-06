@@ -15,7 +15,7 @@ Preconditions
 
 1.  A registered contract (see knowledge [Contract registration and search][1]);
 
-2.  A registered periodic activity group (see knowledge [Periodic activity group registration and search)][2].
+2.  A registered periodic activity group (see knowledge [Periodic activity group registration and search][2]).
 
 Filters
 ------
@@ -78,7 +78,7 @@ Filling in the registration fields
 
    - Click on the Link S.O. button. Afterwards, the
 
-   - To remove a S.O. linked to an activity, just click on the  icon.
+   - To remove a S.O. linked to an activity, just click on the ![figure](images/periodic-4.png) icon.
 
 - Click on the New Appointment button to determine the activity period. Afterwards, the appointment screen will be displayed, as illustrated on the image below:
     
@@ -86,7 +86,7 @@ Filling in the registration fields
     
    **Figure 4 - Activity appointments**
 
-   -  Appointment Type: insert the activity appointment type (daily, weekly, monthly or once);
+   - Appointment Type: insert the activity appointment type (daily, weekly, monthly or once);
 
    - Starts in: insert the activity start date and time;
 
@@ -100,10 +100,13 @@ Filling in the registration fields
 
    - After all fields are filled out, click on the Save button to confirm the procedure.
 
-   - To edit the activity appointment, just click on the  icon;
+   - To edit the activity appointment, just click on the ![figure](images/periodic-6.png) icon;
 
 3. After providing all information, click on the Save the button to confirm the entry, at which date, time and user will automatically be stored for a future audit.
--
+
+
+[1]:/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[2]:/en-us/citsmart-platform-7/additional-features/automation-of-operation/use/activity-periodic.html
 
 
 !!! tip "About"
