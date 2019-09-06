@@ -770,7 +770,7 @@ Invoices
 
 **Figure 30 - Contract invoices**
 
-1.  On this screen, you can create new invoices, check contract invoices, and
+2.  On this screen, you can create new invoices, check contract invoices, and
     update invoice status. In the next topics will be discussed on how to
     proceed with these actions.
 
