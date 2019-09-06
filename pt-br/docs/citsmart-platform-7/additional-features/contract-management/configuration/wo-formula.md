@@ -78,6 +78,10 @@ Preenchimento dos campos cadastrais
     é apresentado a finalidade dessas variáreis para melhor entendimento.
 
     ![Criar](images/wo-4.png)
+    
+    **Tabela 1 - Variáveis de fórmula**
+    
+    ![Criar](images/wo-5.png)
 
     **Figura 4 - Exemplo 1 de fórmula**
 
@@ -96,7 +100,7 @@ Preenchimento dos campos cadastrais
 3.  Tudo isso para o usuário ter uma ideia se a estrutura do cálculo é o
     esperado.
 
-    ![Criar](images/wo-5.png)
+    ![Criar](images/wo-6.png)
    
     **Figura 5 - Exemplo 2 de fórmula**
 
