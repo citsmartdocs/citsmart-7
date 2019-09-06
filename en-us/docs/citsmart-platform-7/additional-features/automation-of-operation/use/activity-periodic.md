@@ -15,7 +15,7 @@ Preconditions
 
 1.  A registered contract (see knowledge [Contract registration and search][1]);
 
-2.  A registered periodic activity group (see knowledge [Periodic activity group registration and search)][2].
+2.  A registered periodic activity group (see knowledge [Periodic activity group registration and search][2]).
 
 Filters
 ------
