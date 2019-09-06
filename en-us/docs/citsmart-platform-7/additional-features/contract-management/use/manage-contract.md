@@ -766,7 +766,7 @@ Invoices
     screen where you can check and manage the invoices of the contract, as shown
     in the figure below:
 
-![Criar](images/manage-44.png)
+![Criar](images/manage-40.png)
 
 **Figure 30 - Contract invoices**
 
@@ -780,7 +780,7 @@ Creating invoice
 1.  On the **Invoice** tab, click the *Create Invoice* button. The invoice
     registration screen will be displayed, as shown in the figure below:
 
-![Criar](images/manage-45.png)
+![Criar](images/manage-41.png)
 
 **Figure 31 - Creating invoices**
 
@@ -827,7 +827,7 @@ Checking invoice information
 1.  In the **Invoices** tab, the invoices of the contract are shown, as shown in
     the figure below:
 
-![Criar](images/manage-17.png)
+![Criar](images/manage-42.png)
 
 **Figure 32 - Invoice search**
 
