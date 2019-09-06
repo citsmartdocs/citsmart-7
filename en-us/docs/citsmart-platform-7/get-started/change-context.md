@@ -63,31 +63,30 @@ If you are using the EVM - Event Monitor module, change the JBoss application se
 1. Open the JBoss evm_config.properties configuration file (\standalone\configuration\evm_config.properties). Once this is done, 
 the script will be displayed as shown in the figure below:
 
-    ![Criar](images/context-5.png)
+    ![EVM](images/context.img5.jpg)
     
-    **Figura 5 - Propriedades do EVM**
+    **Figure 5 - EVM properties**
 
-2.  Na linha “**ws_citsmart_contexto**”, informe o novo contexto do CITSmart ,
-    conforme exemplo ilustrado na figura abaixo:
+2. In the "ws_citsmart_context" line, inform the new context of the ITSM CITSmart, as shown in the figure below:
 
-    ![Criar](images/context-6.png)
+    ![Properties](images/context.img6.jpg)
     
-    **Figura 6 - Propriedades do EVM**
+    **Figure 6 - EVM properties**
 
-3.  Após a alteração, salve o arquivo.
+3. After the change, save the file.
 
-Novo contexto
+New context
 ------------
 
-Após realizada a configuração para alteração do contexto, ao subir o sistema
-será apresentado o novo contexto conforme exemplo ilustrado na figura abaixo.
+After the configuration to change the context, when the system is uploaded, the new context will be presented, as shown in the 
+figure below.
 
-![Criar](images/context-7.png)
+![New](images/context.img7.jpg)
     
-**Figura 7 - Novo contexto**
+**Figure 7 - New context**
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/26/2019 – Anna Martins
+    <b>Updated:</b>09/06/2019 – Larissa Lourenço
