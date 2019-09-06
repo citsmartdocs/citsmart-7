@@ -47,7 +47,7 @@ Filling in the registration fields
 
 1. Go to the main menu. After this, the Notification feature will be displayed;
 
-2.On the Notifications screen, click the New button (according to the previous figure). Once this is done, the respective notification form screen will be displayed, as shown below:
+2. On the Notifications screen, click the New button (according to the previous figure). Once this is done, the respective notification form screen will be displayed, as shown below:
 
    ![figure](images/notification-3.png)    
     
@@ -77,7 +77,7 @@ Filling in the registration fields
 Viewing notifications
 ---------------------------
 
-1.  When you display the alert message (as shown in the figure below), click the Preview button if you want to view the notification. But if you want to view the notification at a later time, click the Close button in the alert message.
+1. When you display the alert message (as shown in the figure below), click the Preview button if you want to view the notification. But if you want to view the notification at a later time, click the Close button in the alert message.
 
     ![figure](images/notification-4.png)
     
@@ -87,7 +87,7 @@ Viewing notifications
 
         The registered notifications will be displayed during the period established in this registry. After passing the period, the system will inactivate the notifications.
 
-2.  To view all system notifications, click the Notifications option at the top of the screen. You will see notifications that have not yet been viewed, as shown in the figure below:
+2. To view all system notifications, click the Notifications option at the top of the screen. You will see notifications that have not yet been viewed, as shown in the figure below:
     
     ![figure](images/notification-5.png)
     
@@ -97,7 +97,7 @@ Viewing notifications
 
          The system displays the notification counter incremented only when there is notification that requires read confirmation.
 
-3.  To see all the notifications, click on the "+ SEE ALL" option, the notifications verification screen will be displayed, as shown in the figure below:
+3. To see all the notifications, click on the "+ SEE ALL" option, the notifications verification screen will be displayed, as shown in the figure below:
 
     ![Criar](images/notification-6.png)
     
@@ -108,7 +108,7 @@ Viewing notifications
     - Notification with the icon  indicates that it requires read confirmation;
     - The notification with the icon  indicates that the message has been confirmed.
 
-4.  Click the Notification View button. After that, the information will be displayed. If the notification requires the confirmation of the reading, simply click on the Mark as read button.
+4. Click the Notification View button. After that, the information will be displayed. If the notification requires the confirmation of the reading, simply click on the Mark as read button.
 
 
 !!! tip "About"
