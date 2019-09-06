@@ -1,249 +1,222 @@
-title: Manual de configuração da integração com Asterisk e Atendimento VoIP
-Description: Este documento tem o objetivo de orientar na configuração e utilização da funcionalidade de Atendimento (VoIP) que integra o CITSmart ao
-framework de PABX Asterisk.
+title: Asterisk integration configuration manual and VoIP service
+Description: This document is intended to guide the configuration and use of the Attendance (VoIP) functionality
+# Asterisk integration configuration manual and VoIP service
 
-# Manual de configuração da integração com Asterisk e Atendimento VoIP
-
-Este documento tem o objetivo de orientar na configuração e utilização da
-funcionalidade de Atendimento (VoIP) que integra o CITSmart ao framework de PABX
-Asterisk.
+This document is intended to guide the configuration and use of the Attendance (VoIP) functionality that integrates CITSmart with 
+the Asterisk PBX framework.
 
 Asterisk
 --------
 
-O Asterisk é um software de PABX que usa o conceito de software livre (GPL),
-criado pela Digium Inc. e uma base de usuários em contínuo crescimento. O
-Asterisk roda em plataforma Linux e outras plataformas Unix com ou sem hardware
-conectando a rede pública de telefonia, PSTN (Public Service Telephony Network).
+Asterisk is a PABX software that uses the concept of free software (GPL), created by Digium Inc. and a growing user base. Asterisk 
+runs on Linux platform and other Unix platforms with or without hardware connecting the public telephone network, PSTN (Public 
+Service Telephony Network).
 
-O Asterisk permite conectividade em tempo real entre as redes PSTN e redes VoIP.
+Asterisk enables real-time connectivity between PSTN networks and VoIP networks.
 
-Para esta funcionalidade estar disponível no CITSmart foi necessário a junção do
-mesmo com a tecnologia Asterisk.
+For this functionality to be available in CITSmart it was necessary to join it with Asterisk technology.
 
-Dependendo do modo que foi implementado o PABX, o CITSmart irá conseguir obter
-as informações da origem e destino das ligações das seguintes formas:
+Depending on how the PBX has been implemented, CITSmart will be able to obtain the source and destination information for the 
+connections in the following ways:
 
--   Ramal para ramal;
+-   Extension to extension;
 
--   Ramal para fila de atendimento;
+-   Extension to service queue;
 
--   Número externo PSTN para ramal e fila de atendimento;
+-   PSTN external number for extension to service queue;
 
--   Agente estático e dinâmico.
+-   Static and dynamic agent.
 
-Integração citsmart-asterisk
------------------------------
+CITSmart-Asterisk integration
+----------------------------------
 
-A integração do CITSmart com o Asterisk permite alertar o atendente sobre uma
-ligação recebida, o colaborador que originou a chamada e permitir o registro de
-uma nova solicitação de serviço, atribuindo este colaborador identificado como
-solicitante.
+The integration of CITSmart with Asterisk allows alerting the attendant about an incoming call, the collaborator who originated the 
+call and allowing the registration of a new service request, assigning this collaborator identified as the requestor.
 
-Configuração do log do jboss 7
+Configuring JBOSS 7 log
 ------------------------------
 
-Para que não sejam apresentadas as mensagens de INFO do Asterisk, que são
-constantes, no LOG do JBoss, proceda conforme os passos descritos abaixo:
+In order to not display the Asterisk INFO messages, which are constants, in the JBoss LOG, follow the steps below:
 
-1.  Entre no servidor de aplicação JBoss, clique em Administration Console
-    conforme indicado na figura abaixo:
+1.  Enter the JBoss application server, click Administration Console as shown in the figure below:
 
-2.  Será apresentada a tela de administração do console do servidor de aplicação
-    JBoss 7;
+    ![JBOSS](images/asterik.img1.jpg)
 
-3.  Adicione o console handler para o asterisk;
+    **Figure 1 - JBoss 7 application server**
 
-    -   Clique em Profile > Core > Logging > Handler > Console e no botão *Add* conforme indicado na figura abaixo:
+2.  The JBoss 7 application server console administration screen will be displayed.
 
-    ![Criar](images/asterisk-2.png)
+3.  Add the console handler for asterisk;
+
+    -  Click Profile > Core > Logging > Handler > Console and the Add button as indicated in the figure below:
+
+    ![Console](images/asterik.img2.jpg)
     
-    **Figura 2 – Inserção do console Handler**
+    **Figure 2 - Inserting console Handler**
 
-    -   Será exibida uma janela para informar os dados do console handler asterisk,
-    informe os mesmos conforme apresentados na figura abaixo:
+    - A window will appear to inform the data of the console handler asterisk, inform them as shown in the figure below:
 
-    ![Criar](images/asterisk-3.png)
+    ![Registration](images/asterik.img3.jpg)
     
-    **Figura 3 – Cadastro do console Handler**
+    **Figure 3 - Console Handler registration**
 
-    -   Após informar os dados, clique no botão *Save*;
+    - After entering the data, click the *Save* button;
 
-    -   Clique em AsteriskConsole que acabou de adicionar e edite suas informações;
+    - Click on AsteriskConsole you just added and edit your information;
 
-    ![Criar](images/asterisk-4.png)
+    ![Handler](images/asterik.img4.jpg)
     
-    **Figura 4 – Edição do console Handler**
+    **Figure 4 - Console Handler edition**
 
-    -   Marque o campo Auto flush e clique no botão *Save* conforme indicado na
-    figura abaixo:
+    - Check the Auto flush field and click the *Save* button as indicated in the figure below:
 
-    ![Criar](images/asterisk-5.png)
+    ![Edition](images/asterik.img5.jpg)
     
-    **Figura 5 – Edição das informações do console Handler**
+    **Figure 5 - Console Handler information edition**
 
-    ![Criar](images/asterisk-6.png)
+    ![Console](images/asterik.img6.jpg)
     
-    **Figura 6 – Console Handler para Asterisk**
+    **Figure 6 - Console Handler for Asterisk**
 
-4.  Registre o handler de arquivo para o asterisk (essa configuração define o
-    handler que criará o arquivo de LOG para o asterisk);
+4. Register the file handler for asterisk (this setting defines the handler that will create the LOG file for asterisk);
 
-    -   Clique em File e logo em seguida clique no botão *Add*;
+    - Click File and then click the *Add* button;
 
-    ![Criar](images/asterisk-7.png)
+    ![File](images/asterik.img7.jpg)
     
-    **Figura 7 – Inserção do Handler de arquivo**
+    **Figure 7 - Insert the file Handler**
 
-    -   Será exibida uma janela para informar os dados do handler de arquivo para o
-    asterisk, informe os mesmos conforme apresentados na figura abaixo:
+    - A window will be displayed to inform the file handler data for asterisk, inform them as shown in the figure below:
 
-    ![Criar](images/asterisk-8.png)
+    ![File](images/asterik.img8.jpg)
     
-    **Figura 8 – Cadastro do Handler de arquivo**
+    **Figure 8 - File Handler master file**
 
-    -   Após informar os dados, clique no botão *Save*;
+    - After entering the data, click the *Save* button;
 
-    -   Clique em AsteriskFile que acabou de adicionar e edite suas informações;
+    - Click AsteriskFile that you just added and edit your information;
 
-    ![Criar](images/asterisk-9.png)
+    ![File](images/asterik.img9.jpg)
     
-    **Figura 9 – Edição do Handler de arquivo**
+    **Figure 9 - File Handler editing**
 
-    -   Marque os campos Append e Auto flush e clique no botão *Save* conforme
-    indicado na imagem abaixo:
+    - Check the Append and Auto flush fields and click the *Save* button as indicated in the image below:
 
-    ![Criar](images/asterisk-10.png)
+    ![Information](images/asterik.img10.jpg)
     
-    **Figura 10 – Edição das informações do Handler de arquivo**
+    **Figure 10 - Editing file Handler information**
 
-    ![Criar](images/asterisk-11.png)
+    ![File](images/asterik.img11.jpg)
     
-    **Figura 11 – Handlers de arquivo para Asterisk**
+    **Figure 11 – File Handlers for Asterisk**
 
-5.  Configure as categorias de LOG:
+5. Configure the LOG categories;
 
-    -   Clique em Log Categories e logo em seguida clique no botão *Add* para
-    adicionar uma categoria;
+    - Click Log Categories and then click the *Add* button to add a category;
 
-    ![Criar](images/asterisk-12.png)
+    ![LOG](images/asterik.img12.jpg)
     
-    **Figura 12 – Inserção de categorias de LOG**
+    **Figure 12 - Inserting LOG categories**
 
-    -   Será exibida uma janela para informar dos dados da categoria, informe os
-    mesmos conforme apresentados na figura abaixo:
+    - A window will appear to inform the data of the category, inform them as shown in the figure below:
 
-    ![Criar](images/asterisk-13.png)
+    ![Master](images/asterik.img13.jpg)
     
-    **Figura 13 – Cadastro de categoria de LOG**
+    **Figure 13 - LOG category master**
 
-    -   Após informar os dados, clique no botão *Save*;
+    - After entering the data, click the *Save* button;
 
-    ![Criar](images/asterisk-14.png)
+    ![Category](images/asterik.img14.jpg)
     
-    **Figura 14 – Categoria de LOG**
+    **Figure 14 - LOG category**
 
-    -   Clique na aba Handlers e logo em seguida no botão *Add*;
+    - Click the Handlers tab and then the *Add* button;
 
-    ![Criar](images/asterisk-15.png)
+    ![Add](images/asterik.img15.jpg)
     
-    **Figura 15 – Adição de Handlers da categoria de LOG**
+    **Figure 15 - Adding LOG category Handlers**
 
-    -   Será exibida uma janela para informar o handler da categoria. Adicione o
-    handler AsteriskConsole e AsteriskFile;
+    - A window will appear to inform the category handler. Add the AsteriskConsole and AsteriskFile handler;
 
-    ![Criar](images/asterisk-16.png)
+    ![Adding](images/asterik.img16.jpg)
     
-    **Figura 16 – Adição do Handler AsteriskConsole**
+    **Figure 16 - Adding the AsteriskConsole Handler**
 
-     ![Criar](images/asterisk-17.png)
+     ![File](images/asterik.img17.jpg)
      
-    **Figura 17 – Adição do Handler AsteriskFile**
+    **Figure 17 - Addition of the AsteriskFile Handler**
 
-    ![Criar](images/asterisk-18.png)
+    ![Category](images/asterik.img18.jpg)
    
-    **Figura 18 – Categoria de LOG para o Asterisk**
+    **Figure 18 - LOG category for Asterisk**
 
-6.  Feito isso, feche a página de administração do console do servidor de
-    aplicação JBoss 7 e reinicie o mesmo.
+6. After that, close the JBoss 7 application server console administration page and restart it.
 
-Configuração dos parâmetros do CITSmart
+Configuring CITSmart parameters
 --------------------------------------
 
-Para executar a funcionalidade de VoIP, é necessário configurar os parâmetros do
-sistema:
+To perform VoIP functionality, you must configure the system parameters:
 
-1.  Preencher os parâmetros conforme conhecimento relacionado "Regras de
-    parametrização - Telefonia".
+1. Fill in the parameters according to related knowledge "Parameterization rules - Telephony".
 
-!!! warning "ATENÇÃO"
+!!! warning "WARNING"
 
-    O CITSmart só emitirá alerta de ligação das filas de atendimento
-    configuradas.
+    CITSmart will only issue a call alert for configured service queues.
 
-Utilização da funcionalidade de VoIP
+Using VoIP functionality
 -----------------------------------
 
-Para trabalhar com a funcionalidade de VoIP é necessário registrar o ramal a ser
-utilizado para o atendimento, conforme os passos descritos abaixo:
+To work with the VoIP functionality, it is necessary to register the extension to be used for the service, according to the steps 
+described below:
 
-1.  Na tela inicial do CITSmart, clique em Atendimento, conforme indicado na
-    imagem abaixo:
+1. From the CITSmart home screen, click Call, as shown in the image below:
 
-    ![Criar](images/asterisk-19.png)
+    ![VOIP](images/asterik.img19.jpg)
     
-    **Figura 19 - Funcionalidade de atendimento (VoIP)**
+    **Figure 19 - Attendance functionality (VoIP)**
 
-2.  É apresentada a janela Ramal contendo um campo, onde se informa o número do
-    ramal a ser utilizado para o atendimento;
+2. The Extension window containing a field is displayed, which tells you the extension number to be used for the service;
 
-    ![Criar](images/asterisk-20.png)
+    ![Extension](images/asterik.img20.jpg)
     
-    **Figura 20 - Tela de configuração do ramal**
+    **Figure 20 - Extension configuration screen**
 
-3.  Informe o número do ramal e clique no botão *Gravar* para efetuar a
-    operação.
+3. Enter the extension number and click the *Save* button to perform the operation.
 
-4.  Após a inserção do número do ramal, o sistema irá monitorá-lo, quando
-    ocorrer uma chamada recebida, ou seja, quando uma ligação for direcionada
-    para o número do ramal configurado, será exibida uma janela apresentando o
-    número do telefone e o nome da pessoa que está ligando, conforme apresentada
-    na imagem abaixo:
+4. After entering the extension number, the system will monitor it, when a call occurs, ie when a call is directed to the 
+configured extension number, a window will be displayed showing the telephone number and the person's name That is linking, as 
+shown in the image below:
 
-    ![Criar](images/asterisk-21.png)
+    ![Connection](images/asterik.img21.jpg)
     
-    **Figura 21 - Tela de aviso de ligação**
+    **Figure 21 - Connection warning screen**
 
-    !!! note "NOTA"
+    !!! note "NOTE"
 
-        É necessário que a pessoa que está ligando já possua cadastro no CITSmart,
-        com os dados referentes.
+        It is necessary that the person that is calling already has a registration in CITSmart, with the referring data.
 
-5.  Caso o atendente queira registrar um ticket, basta clicar no
-    botão *Cadastrar* nova solicitação que será aberta uma janela para que uma
-    nova solicitação seja criada;
+5. If the attendant wants to register a service/incident request, simply click on the Register new request button that will open a 
+window for a new request to be created;
 
-!!! note "NOTA"
+!!! note "NOTE"
 
-     Para efetuar o registro da solicitação de serviço, o solicitante, ou seja,
-     a pessoa que está solicitando o serviço deve estar cadastro no sistema e
-     vinculado ao mesmo contrato do atendente.
+     In order to register the service request, the requestor, that is, the person requesting the service must be registered in the 
+     system and linked to the same contract as the attendant.
 
-![Criar](images/asterisk-22.png)
+![Record](images/asterik.img22.jpg)
 
-**Figura 22 - Tela de registro de ticket**
+**Figure 22 - Service request/incident recording screen**
 
-
-Veja também
+See also
 -----------
 
-[Regras de parametrização - Telefonia](1).
+[Parameterization rules - Telephony](1).
 
 
-[1]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-telephony.html
+[1]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-telephony.html
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>7/26/2019 – Anna Martins
+    <b>Updated:</b>09/06/2019 – Larissa Lourenço
