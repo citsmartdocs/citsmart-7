@@ -1,50 +1,49 @@
-title: Importação
-Description: Esta funcionalidade tem por objetivo otimizar a criação de novos cadastros de colaboradores.
-# Importação
+title: Importing
+Description: This functionality is intended to optimize the creation of new employees registration.
+# Importing
 
-Esta funcionalidade tem por objetivo otimizar a criação de novos cadastros de colaboradores.
+This functionality is intended to optimize the creation of new employees registration.
 
-Cadastro modelo de planilha para importação
+Registering spreadsheet template for importing
 ---------------------------------------------
 
-1. Acesse a funcionalidade de carga do colaborador através da navegação no menu principal 
-(**Sistema > Importação e Carga de Dados > Carga Colaborador**). Após isso, será apresentada a tela de **Carga do Colaborador** para
-registro de modelo de planilha para importação, conforme ilustrada na figura abaixo:
+1.  Access the functionality of employee load through the mani navigation menu 
+(**System > Data Importing and Loading > Employee Load**). After that, it'll be presented the screen of **Employee Load** to
+register spreadsheet template to importing, according to the figure below:
 
-    ![Cadastro](images/mode-plan.img1.png)
+    ![Registration](images/mode-plan.img1.png)
     
-    **Figura 1 - Tela de cadastro de modelo de planilha para importação**
+    **Figure 1 - Screen of spreadsheet template registration for importing**
     
-2. O modelo está estruturado conforme o cadastro de colaborador, indicando os campos obrigatórios e os opcionais que são possíveis 
-excluir antes de gerar o modelo de planilha.
+2. The template is structured according to the employee registration, indicating the required and optional fields that are possible to delete before generating the spreadsheet template.
 
-3. Para gerar modelo de planilha em formato ".xls", basta clicar no botão "Gerar Modelo .xls";
+3. To create the spreadsheet template in ".xls", just click on "Generate .xls template";
 
-4. Para gerar modelo de planilha em formato ".xlsx", basta clicar no botão "Gerar Modelo .xlsx";
+4. To create the spreadsheet template in ".xlsx", just click on "Generate .xlsx template";
 
-5. O modelo de planilha terá os campos para preenchimento e algumas informações de valores permitidos.
+5. The spreadsheet template will have fields to complete, and some allowed value information.
 
-Realizando importação de colaborador
--------------------------------------
+Importing employee
+------------------
 
-1. Na tela de **Carga do Colaborador**, na aba **Importação**, é apresentada a respectiva tela, conforme ilustração abaixo:
+1. In the screen of **Employee load**, the tab **Import**, will present its screen, according to the figure below:
 
-    ![Importação](images/mode-plan.img2.png)
+    ![Importing](images/mode-plan.img2.png)
     
-    **Figura 2 - Importação de Colaborador**
+    **Figure 2 - Employee Importing**
     
-2. Clique no botão "Escolher arquivo" e será exibida uma janela para escolha do arquivo;
+2. Click on "Choose file" and will be presented the window to choose the file;
 
-3. Selecione o arquivo, o qual deve estar em formato ".xls" ou ".xlsx;
+3. Select the file, which have to be ".xls" or ".xlsx;
 
-4. Clique no botão "Importar";
+4. Click on "Import";
 
-5. Os dados importados poderão ser visualizados na pesquisa de registro de colaboradores.
+5. Imported data can be viewed in the employee registration search.
 
-!!! info "IMPORTANTE"
+!!! info "IMPORTANT"
 
-    Ao realizar a importação, caso haja alguma inconsistência entre os valores adotados no sistema e os valores informados na 
-    planilha, o sistema exibirá um alerta.
+    When importing, if there are any inconsistencies between the values adopted in the system and the values informed in the            
+    spreadsheet, the system will display an alert.
     
 !!! tip "About"
 
