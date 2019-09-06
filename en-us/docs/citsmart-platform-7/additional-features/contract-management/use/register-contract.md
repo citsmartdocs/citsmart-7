@@ -127,9 +127,9 @@ h)  **Status**: select the situation of the contract;
 
 i)  **Currency**: select currency;
 
-    -   **Real**: official Brazilian currency;
+   -  **Real**: official Brazilian currency;
 
-    -   **UST**: Technical Service Unit, monetary quantification regarding the
+   -  **UST**: Technical Service Unit, monetary quantification regarding the
         services used in certain federal public contracts, according to IN04, or
         others that may serve as metrics for the valuation of service.
 
