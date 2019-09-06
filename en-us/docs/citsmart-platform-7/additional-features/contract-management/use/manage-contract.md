@@ -8,7 +8,7 @@ Contract management is used to manage the contracts already registered in the sy
 How to access
 -----------
 
-1.  Access the Contract Administration feature by navigating the main menu Integrated Management > Contracts Management > Contract Administration.
+1.  Access the Contract Administration feature by navigating the main menu **Integrated Management > Contracts Management > Contract Administration**.
 
 Preconditions
 ------------
