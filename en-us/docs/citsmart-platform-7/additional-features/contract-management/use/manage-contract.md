@@ -647,7 +647,7 @@ Creating service order (so)
 
 **Figure 26 - Subscription group field**
 
-1.  After the data has been entered, click the *Save Data* button to register,
+4.  After the data has been entered, click the *Save Data* button to register,
     where the date, time and user will be saved automatically for a future
     audit.
 
@@ -752,7 +752,7 @@ Running order of service
 
 4.  Click on the A.R. SO icon ![Criar](images/manage-34.png) to generate the A.R. report in PDF format.
 
-4.  Click the SO A.R. icon ![Criar](images/manage-35.png) to generate the A.R. report in Excel format.
+5.  Click the SO A.R. icon ![Criar](images/manage-35.png) to generate the A.R. report in Excel format.
 
 !!! info "IMPORTANT"
 
