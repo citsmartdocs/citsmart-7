@@ -7,7 +7,7 @@ The goal of this feature is to register the unit types.
 How to access
 ------------------
 
-1. Access the unit type feature navigating through the main menu **General Registration → Staff Management → Unit Type.
+1. Access the unit type feature navigating through the main menu **General Registration > Staff Management > Unit Type**.
 
 Preconditions
 ---------------
