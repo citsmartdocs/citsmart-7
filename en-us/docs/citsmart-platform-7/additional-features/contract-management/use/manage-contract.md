@@ -155,11 +155,11 @@ Linking multiple services to the contract
 Calendar: select the calendar of work;
 
   - Please tell the services that will receive the configuration:
-      - Click the icon ;
+      - Click the icon ![Criar](images/manage-5.png);
       - A window will appear for service search;
       - Perform the search and select the services you want.
   - Enter the service workflow:
-      - Click the service flow icon;
+      - Click the service flow icon (images/manage-5.png);
       - A window will appear for information on the flow of the service, as shown in the figure below:
 
     ![Criar](images/manage-9.png)
