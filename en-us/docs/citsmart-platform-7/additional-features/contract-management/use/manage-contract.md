@@ -369,7 +369,7 @@ Linking specific SLA to contract service
     click the icon ![Criar](images/manage-11.png) next to the agreement, where the service level agreement screen opens, and
     click the *Delete* button.
 
-Linking global sla to contract service
+Linking global SLA to contract service
 --------------------------------------
 
 1.  To link a global SLA to the Contract Service you must have completed the
@@ -377,7 +377,7 @@ Linking global sla to contract service
 
 2.  There are two ways to link the global SLA to the Contract Service:
 
-**First way:**
+**First way**:
 
 1.  On the **Contract Services** tab, click the *Manage Global SLAs* button, as
     shown in the figure below:
@@ -402,7 +402,7 @@ service**
 3.  Select the desired services and click the *Save* button to perform the SLA
     link with the services.
 
-**Second way:**
+**Second way**:
 
 1.  In the Contract Service tab, the services that are linked to the agreement
     are displayed. Click *the desired service icon* ![Criar](images/manage-12.png).
@@ -497,7 +497,7 @@ Registering contract service activities
 
 **Figure 21 - Formula**
 
--   Select the** formula** that will be used to obtain the total cost of the
+-   Select the **formula** that will be used to obtain the total cost of the
     service activity as set forth in the agreement. After that, fields will be
     displayed to be filled with the values for the calculation;
 
