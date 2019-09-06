@@ -13,7 +13,7 @@ How to access
 Preconditions
 ------------
 
-1.  Not applicable.
+1. Not applicable.
 
 Filters
 -------
@@ -43,7 +43,7 @@ Itens list
 
 2. After searching, select the desired record. Once this is done, it will be directed to the registration screen displaying the contents of the selected registry;
 
-3.To change the formula data, simply modify the information you want and click the Save button.
+3. To change the formula data, simply modify the information you want and click the Save button.
 
 Filling in the registration fields
 ---------------------------------
