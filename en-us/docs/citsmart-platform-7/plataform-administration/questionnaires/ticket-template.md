@@ -94,7 +94,7 @@ Filling in the registration fields
 1. In the **Template Type** field, by selecting the **JSP** option, the following 
 screen will be available:
 
-    [JSP](images/serv.temp.img4.jpg)
+    ![JSP](images/serv.temp.img4.jpg)
     
     **Figure 4 - JSP type template**
     
