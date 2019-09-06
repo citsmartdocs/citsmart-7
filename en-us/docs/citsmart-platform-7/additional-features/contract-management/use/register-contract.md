@@ -95,13 +95,13 @@ a)  **Type of Agreement/Contract**: select the type of agreement/contract;
     "service provider" will be available in the "supplier" field, and in the
     "client" field only "external" clients will be available for selection.
 
-    -   **Operational Level Agreement**: refers to the internal agreement
+-   **Operational Level Agreement**: refers to the internal agreement
         between the departments of the same company. When selecting this type,
         only the "internal" type suppliers will be available in the "supplier"
         field and in the "client" field only the "internal" type clients for
         selection.
 
-    -   **Underpinning Contract**: refers to the contract between the service
+-   **Underpinning Contract**: refers to the contract between the service
         provider and a third party, external supplier. When selecting this type,
         only suppliers of the "external" type will be available in the
         "supplier" field and in the "client" field only the "internal" clients
