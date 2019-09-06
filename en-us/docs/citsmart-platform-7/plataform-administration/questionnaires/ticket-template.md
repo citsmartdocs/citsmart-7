@@ -18,6 +18,7 @@ standard feature listing, making it easier to find the desired items:
     - Identification of Service Template Request;
     - Name of Service Template Request.
     
+    ![Search](images/serv.temp.img1.jpg)
     
     **Figure 1 - Template search**
     
@@ -34,6 +35,7 @@ listing: **ID, Identification os Service Template Request** and **Name Service T
 
 2. There are action buttons available to the user for each item in the listing, they are: *Edit* and *Delete*.
 
+    ![Listing](images/serv.temp.img2.jpg)
     
     **Figure 2 - Notification template listing screen**
     
@@ -47,6 +49,7 @@ Filling in the registration fields
 Request Template Registration** screen will be displayed, as shown in the figure 
 below:
 
+    ![Entry](images/serv.temp.img3.jpg)
     
     **Figure 3 - Template master screen**
     
@@ -91,6 +94,7 @@ Filling in the registration fields
 1. In the **Template Type** field, by selecting the **JSP** option, the following 
 screen will be available:
 
+    ![JSP](images/serv.temp.img4.jpg)
     
     **Figure 4 - JSP type template**
     
@@ -104,7 +108,7 @@ screen will be available:
     - **Action Class Name**: inform the Action class name;
     - **Service Class Name**: inform the Service class name;
     - **URL recovery**: inform the URL recovery;
-    - **Approval: check this option when registering service request template that 
+    - **Approval**: check this option when registering service request template that 
     requires approvals from higher instances;
     - **Enables targeting**: enables functionality for targeting a ticket for a 
     specific group;
@@ -121,7 +125,7 @@ screen will be available:
     - **Enables related service request**: enables the functionality of linking a 
     request related to the ticket in the ticket management screen;
     - **Enables record and continue button**: enable the "Save and forward the flow" 
-    button  located in the lower right corner of the service request management 
+    button ![symbol](images/simb-go.jpg) located in the lower right corner of the service request management 
     screen.
     
     !!! info "IMPORTANT"
@@ -147,6 +151,7 @@ Filling in the registration fields
 1. In the **Template Type** field, by selecting the **Quiz** option, the following 
 screen will be available:
 
+    ![Type](images/serv.temp.img5.jpg)
     
     **Figure 5 - Questionnaire type template**
     
@@ -199,7 +204,7 @@ screen will be available:
     - **Enables related service request**: enables the functionality of linking a 
     request related to the ticket in the ticket management screen;
     - **Enables record and continue button**: enable the "Save and forward the flow" 
-    button  located in the lower right corner of the service request management 
+    button  located ![symbol](images/simb-go.jpg) in the lower right corner of the service request management 
     screen.
     
     !!! note "NOTE"
@@ -211,7 +216,7 @@ screen will be available:
     !!! note "NOTE"
     
         At the time of the ticket registration that has a standard type form, will be 
-        available in the button (located in the upper left corner) only the 
+        available in the button ![symbol](images/simb-menu.jpg) (located in the upper left corner) only the 
         functionalities: Applicant's CI, Attachments, Calendar, Release, Project, 
         Knowledge and E-mails.
         
@@ -248,6 +253,7 @@ Filling in the registration fields
 1. In the **Template Type** field, by selecting the **Neuro** option, the following 
 screen will be available:
 
+    ![Neuro](images/serv.temp.img6.jpg)
      
     **Figure 6 - Neuro type template**
     
@@ -276,7 +282,7 @@ screen will be available:
     - **Enables related service request**: enables the functionality of linking a 
     request related to the ticket in the ticket management screen;
     - **Enables record and continue button**: enable the "Save and forward the flow" 
-    button  located in the lower right corner of the service request management 
+    button  located ![symbol](images/simb-go.jpg) in the lower right corner of the service request management 
     screen.
     
     !!! warning "WARNING"
