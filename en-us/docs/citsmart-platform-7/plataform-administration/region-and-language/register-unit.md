@@ -37,7 +37,7 @@ the standard feature listing, making it easier to find the desired items:
     unit and click on the *Search* button. Afterwards, the unit entry will be 
     displayed according to the description provided.
   
-    - To list all units, just click directly on the Search button, if needed.
+    - To list all units, just click directly on the *Search* button, if needed.
     
 Items list
 -------------------
@@ -60,58 +60,63 @@ Filling in the registration fields
 
 1. The **Register Unit** screen will be displayed, as illustrated on the image below:
 
-    ![Cadastro](images/uni-img3.jpg)
+    ![Entry](images/unit.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de unidade**
+    **Figure 3 - Unit entry screen**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill out the fields as instructed below:
 
-    - **Nome**: informe o nome da unidade de negócio;
-    - **Sigla**: informe a sigla a qual se referirá a unidade cadastrada;
-    - **Unidade Pai**: selecione uma unidade, caso a unidade que está sendo cadastrada faça parte de outra unidade cadastrada 
-    anteriormente;
-    - **Aceita Entrega de Produto**: marque este campo, caso a unidade aceitar entrega de produtos (compras);
-    - **E-mail**: informe o e-mail da unidade de negócio;
-    - **Calendário**: informe o calendário da unidade de negócio;
-    - **Grupo**: informe a qual grupo a unidade cadastrada estará vinculada;
-    - **Descrição**: descreva os detalhes da unidade de negócio;
+    - **Name**: insert the name of the business unit;
+    - **Initials**: inform the acronym that will refer to the unit registered;
+    - **Unit**: select a unit, if the unit being registered is part of another unit that already has been registered;
+    - **Accept Product Delivery**: check this box if the unit accepts product deliveries;
+    - **E-mail**: insert the business unit's e-mail;
+    - **Calendar**: insert the calendar of the business unit;
+    - **Group**: inform to which group the registered unit will be linked;
+    - **Description**: describe the details of the business unit;
     
-3. Informe os dados de endereço da unidade de negócio:
+3. Insert the address information of the business unit:
 
-    - **País**: selecione o país da unidade;
-    - **UFs**: informe a unidade da federação, ou seja, o estado em que a unidade que está sendo cadastrada se encontra;
-    - **Cidades**: informe a cidade da unidade;
-    - **Logradouro** informe o logradouro, ex.: nome da rua, avenida;
-    - **CEP**: informe o CEP;
+    - **Country**: select the country where the unit is located;
+    - **State/Province**: insert the state, that is, the province where the unit being registered is located
+    - **City**: insert the city where the unit is located;
+    - **Street Address**: insert the address, i.e.: street/avenue names;
+    - **Zip Code**: insert the zip code;
     
-    !!! note "NOTA"
+    !!! note "NOTE"
     
-        Os campos Latitude e Longitude serão buscados apenas quando o campo CEP já estiver preenchido.
+        The Latitude and Longitude fields will be searched only when the Zip Code field is already filled.
         
-    - **Número**: informe o número da unidade;
-    - **Complemento**: informe o complemento do endereço da unidade;
-    - **Latitude**: o sistema preencherá o campo com as coordenadas após escolha de cidade;
-    - **Longitude**:o sistema preencherá o campo com as coordenadas após escolha de cidade;
+    - **Number**: insert the number of the address;
+    - **Address Complement**: insert the complement of the address;
+    - **Latitude**: the system will fill in the field with the coordinates after city choice;
+    - **Longitude**: the system will fill in the field with the coordinates after city choice.
     
-4. Após informar preencher os campos acima, clique no botão "Obter Coordenadas" para exibição das coordenadas geográficas
-(Latitude e Longitude) e do mapa.
+4. After filling out the fields above, click on the *Get Coordinates* button to view the geographical coordinates (Latitude and 
+Longitude) and the map.
 
-    - **Acesso aos contratos**: selecione os contratos em que a unidade que está sendo cadastrada terá acesso. Lembrando que, 
-    este campo é exibido caso o parâmetro **"61 - Vincula contratos a unidade"** esteja habilitado, ou seja, configurado com o
-    valor "S" (ver conhecimento Regras de parametrização - ticket);
-    - O botão "Serviço" é disponibilizado caso o parâmetro **"40 - Faz o controle de acessos do catálogo de serviço por unidade"**
-    esteja habilitado, ou seja, configurado com o valor "S". Esse botão serve para adição de serviços à unidade (ver
-    conhecimento Regras de parametrização - ticket);
-    - **Localidade**: adicione a localidade à unidade de negócio. Clique no ícone ![simbolo](images/simb-mais.green.jpg) para 
-    adição da localidade à unidade. Caso não encontre a localidade desejada, é possível realizar um cadastro rápido a partir 
-    desta tela, basta clicar no ícone ![simbolo](images/simb-paper.jpg). Lembrando que, este campo é disponibilizado se o 
-    parâmetro **"115 - Tirar vínculo de localidade física com unidade"** estiver desabilitado, ou seja, configurado com o valor
-    "N"(ver conhecimento Regras de parametrização - ticket).
+    - **Access To The Contracts**: select which contracts the unit being registered will have access to. Remember, this field will 
+    only be displayed if the parameter "**61** - Link contract to units (e.g. Y or N)" has been activated, that is, configured with 
+    a "Y" value (see know ledge [Parameterization rules - request and incident][1]);
+    - The *Service* button is available when the parameter "**40** - Control service catalog access per unit ( e.g. Y or N )" has 
+    been activated, that is, configured with a "Y" value. The feature of this button is to add services to the unit (see knowledge 
+    [Parameterization rules - request and incident][2]);
+    - **Location**: add the location of the business unit. Click on the ![symbol](images/simb-plus.jpg) icon to add the location to 
+    the unit. If the intended location cannot be found, it is possible to create a quick entry through the same screnn, just click 
+    on the ![symbol](images/simb-sheet.jpg) icon; Remember, this field is only available if the "115 - Remove link Between Unit and 
+    Physical Location. (e.g. : Y or N - Default : 'N')" parameter has been disabled, that is, configured with a "N" value (see 
+    knowledge [Parameterization rules - request and incident][3]).
     
-5. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma futura 
-auditoria.
+5. Click on the *Save* the button to confirm the entry, at which date, time and user will automatically be stored for a future 
+audit.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/24/2019 - Larissa Lourenço
+    <b>Updated:</b>09/06/2019 - Larissa Lourenço
+    
+[1]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrizaion-ticket.html
+
+[2]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrizaion-ticket.html
+
+[3]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrizaion-ticket.html

@@ -1,77 +1,72 @@
-title: Cadastro e pesquisa de tipo de unidade
-Description: Disponibiliza ações diversas, tais como, incluir, alterar e excluir os tipos de unidade. 
-# Cadastro e pesquisa de tipo de unidade
+title: Unit type registration and search
+Description: The goal of this feature is to register the unit types.
+# Unit type registration and search
 
-Esta funcionalidade tem por objetivo registrar os tipos de unidade.
+The goal of this feature is to register the unit types.
 
-Como acessar
----------------
-
-1. Acesse a funcionalidade de tipos de unidade através da navegação no menu principal 
-**Cadastros Gerais > Gerência de Pessoal > Tipo de Unidade**.
-
-Pré-condições
----------------
-
-1. Não se aplica.
-
-Filtros
----------
-
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a
-localização dos itens desejados:
-
-    - Nome.
-    
-2. Clique na aba **Pesquisa de Tipos de Unidade**, será apresentada a tela de **Pesquisa de Tipo de Unidade**, conforme ilustrada na
-figura abaixo:
-
-    ![Tipos](images/tipo-uni.img1.jpg)
-    
-    **Figura 1 - Tela de pesquisa de tipos de unidade**
-    
-3. Realize a pesquisa de tipo de unidade:
-
-    - Informe o nome do tipo de unidade que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o registro de
-    tipo de unidade conforme a descrição informada;
-    
-    - Caso deseje listar todos os registros de tipo de unidade, basta clicar diretamente no botão "Pesquisar".
-    
-Listagem de itens
+How to access
 ------------------
 
-1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens desejados na listagem padrão 
-da funcionalidade: **Nome**.
+1. Access the unit type feature navigating through the main menu **General Registration > Staff Management > Unit Type**.
 
-    ![Listagem](images/tipo-uni.img2.jpg)
+Preconditions
+---------------
+
+1. No applicable.
+
+Filters
+---------
+
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
+
+    - Name.
     
-    **Figura 2 - Tela de listagem de tipos de unidade**
+2. Click on the **Search Unit type** tab, the **Unit type Search** screen will be displayed, as illustrated on the image below:
+
+    ![Types](images/type.img1.jpg)
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo 
-referente ao registro selecionado;
+    **Figure 1 - Unit type search screen**
+    
+3. Conduct a unit type search:
 
-3. Para alterar os dados do registro de tipo de unidade, basta modificar as informações dos campos desejados e clicar no botão
-"Gravar" para que seja gravada a alteração realizada no registro, onde a data, hora e usuário serão gravados automaticamente
-para uma futura auditoria.
+    - Insert the name of the intended unit type and click on the *Search* button. Afterwards, the unit type entry will be displayed 
+    according to the description provided.
+    
+    - To list all unit types, just click directly on the *Search* button, if needed.
+    
+Items list
+------------------
 
-Preenchimento dos campos cadastrais
+1. The following cadastral field is available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **Name**.
+
+    ![Listing](images/type.img2.jpg)
+    
+    **Figure 2 - Unit type listing screen**
+    
+2. After searching, select the intended entry. Afterwards, they will be redirected to the registry screen displaying the content 
+belonging to the selected entry.
+
+3. To edit a unit type entry, just modify the information on the intended fields and click on the *Save* button to confirm the 
+changes to the database, at which date, time and user will be stored automatically for a future audit.
+
+Filling in the registration fields
 --------------------------------------
 
-1. Clique na aba **Cadastro Tipo Unidade**, será apresentada a tela de **Cadastro de Tipo de Unidade**, conforme ilustrada na 
-figura abaixo:
+1. Click on the **Register Unit** tab, the **Unit Type Registration** screen will be displayed, as illustrated on the image below:
 
-    ![Cadastro](images/tipo-uni.img3.jpg)
+    ![Entry](images/type.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de tipo de unidade**
+    **Figure 3 - Unit type entry screen**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill out the fields as instructed below:
 
-    - **Nome**: informe o nome do tipo de unidade.
+    - **Name**: insert the unit type name;
     
-3. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para uma futura
-auditoria.
+3. Click on the *Save* button to create the entry, at which date, time and user will be automatically stored for a future audit.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/24/2019 - Larissa Lourenço
+    <b>Updated:</b>09/06/2019 - Larissa Lourenço
