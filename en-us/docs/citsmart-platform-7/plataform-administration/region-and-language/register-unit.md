@@ -37,7 +37,7 @@ the standard feature listing, making it easier to find the desired items:
     unit and click on the *Search* button. Afterwards, the unit entry will be 
     displayed according to the description provided.
   
-    - To list all units, just click directly on the Search button, if needed.
+    - To list all units, just click directly on the *Search* button, if needed.
     
 Items list
 -------------------
@@ -60,7 +60,7 @@ Filling in the registration fields
 
 1. The **Register Unit** screen will be displayed, as illustrated on the image below:
 
-    ![Cadastro](images/uni-img3.jpg)
+    ![Entry](images/unit.img3.jpg)
     
     **Figure 3 - Unit entry screen**
     
