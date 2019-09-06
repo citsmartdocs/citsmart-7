@@ -2,20 +2,18 @@ Title: Mobile
 
 # Mobile
 
-A funcionalidade Mobile foi desenvolvida para permitir maior autonomia no gerenciamento de serviços, pois permite a provisão de 
-serviços em diferentes perspectivas, seja como portal de atendimento ao usuário final, seja como instância flexível para o analista
-realizar o serviço de campo.
+Mobile functionality is designed to allow greater autonomy in service management by allowing the provision of
+services from different perspectives, either as an end-user service portal or as a flexible instance for the analyst
+perform field service.
 
-Relacionado
+Related
 -------------
 
-- [Manual de confirguração do servidor CITSmart Enterprise ITSM para uso de APPs (iOS e Android)](/pt-br/citsmart-platform-7/additional-features/mobile-and-field-service/configuration/app-android-ios.html)
+- [CITSmart Enterprise ITSM server configuration manual for use of APP (iOS and Android)](/en-us/citsmart-platform-7/additional-features/mobile-and-field-service/configuration/app-android-ios.html)
 
-- [Manual do usuário do aplicativo mobile CITSmart Enterprise ITSM (Android)](/pt-br/citsmart-platform-7/additional-features/mobile-and-field-service/apps/android.html)
+- [CITSmart Enterprise ITSM Mobile application user guide (Android)](/en-us/citsmart-platform-7/additional-features/mobile-and-field-service/apps/android.html)
 
-- [Manual do usuário do aplicativo mobile CITSmart Enterprise ITSM (Android)](/pt-br/citsmart-platform-7/additional-features/mobile-and-field-service/apps/android.html)
-
-- [Cadastro e pesquisa das configurações das opções de mobile](/pt-br/citsmart-platform-7/additional-features/mobile-and-field-service/configuration/options.html)
+- [Mobile options configuration registration and search](/en-us/citsmart-platform-7/additional-features/mobile-and-field-service/configuration/options.html)
 
 !!! tip "About"
 
