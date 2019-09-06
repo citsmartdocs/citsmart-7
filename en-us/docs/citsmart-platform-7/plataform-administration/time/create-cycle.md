@@ -1,77 +1,77 @@
-title:  Cadastro e pesquisa de ciclos
-Description: Disponibiliza ações diversas, tais como, incluir, alterar e excluir os ciclos de período com data inicial.
-# Cadastro e pesquisa de ciclos
+title:  Cycle registration and search
+Description: This functionality aims to create period cycles with start and end dates to be used in financial control.
+# Cycle registration and search
 
-Esta funcionalidade tem por objetivo criar ciclos de período com data inicial e final a ser usado no controle financeiro.
+This functionality aims to create period cycles with start and end dates to be used in financial control.
 
-!!! info "IMPORTANTE"
+!!! info "IMPORTANT"
 
-    O 'Relatório de Lucratividade dos Atendimentos por Contrato' depende do cadastramento de ciclos.
+    The system 'Report of Profitability of the attendance by Contract' depends on the registration of cycles.
     
-!!! note "NOTA"
+!!! note "NOTE"
 
-    Cada item cadastrado na opção "Atributos Financeiros" dentro de "Serviço de Negócio" de um Portfólio qualquer tem como um dos 
-    seus campos o Ciclo, um ciclo deverá ser selecionado em uma lista naquele formulário.
+    Each item registered in the "Financial Attributes" option within "Business Service" of any Portfolio has as one of its fields 
+    the Cycle, a cycle must be selected in a list on that form.
     
-Como acessar
+How to access
 --------------
 
-1. Acesse a funcionalidade através da navegação no menu principal **Cadastros Gerais > Gerência de Pessoal > Ciclo**.
+1. Access the functionality by navigating in the main menu **General Registration > Staff Management > Cycle**.
 
-Pré-condições
+Preconditions
 ----------------
 
-1. Não se aplica.
+1. Not applicable.
 
-Filtros
+Filters
 ---------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando
-a localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, facilitating the 
+search of the desired items:
 
-    - Título;
-    - Data inicial;
-    - Data final.
+    - Title;
+    - Start Date;
+    - Final date.
     
-    ![Pesquisa](images/ciclo.img1.jpg)
+    ![Search](images/cycle.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de ciclos**
+    **Figure 1 - Cycle search screen**
     
-Listagem de itens
+Items list
 -------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem
-padrão da funcionalidade: **ID, Título, Data inicial** e **Data final**.
+1. The following cadastral field (s) are available to the user to facilitate the identification of the desired items in the 
+standard listing of the functionality: **ID, Title, Start date** and **Final date**.
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Editar" e "Excluir".
+2. There are action buttons available to the user for each item in the listing, they are: *Edit*, and *Delete*.
 
-![Listagem](images/ciclo.img2.jpg)
+![Listing](images/cycle.img2.jpg)
 
-**Figura 2 - Tela de listagem de ciclos**
+**Figure 2 - Cycle listing screen**
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Ao clicar no boão "Novo" (conforme ilustrado na figura anterior) é possível cadastrar um novo ciclo
+1. To register click on the *New* button (as shown in the previous figure), fill in the registration fields:
 
-    ![Cadastro](images/ciclo.img3.jpg)
+    ![Entry](images/cycle.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de ciclos**
+    **Figure 3 - Cycle registration screen**
     
-    - **Título**: define o título usado nas listas de ciclos;
-    - **Data inicial**: define a data que o ciclo começa;
-    - **Data final**: define a data que o ciclo termina.
+    - **Title**: sets the title used in the cycles lists;
+    - **Start date**: sets the date the cycle starts;
+    - **Final date**: sets the date the cycle ends.
     
-    !!! warning "ATENÇÃO"
+    !!! warning "WARNING"
     
-        Cada intervalo de datas deve ser único, mesmo com títulos diferentes e o sistema cuida de impedir este tipo de 
-        redundância e inconsistência.
+        Each date range must be unique, even with different titles, and the system takes care to prevent this type of redundancy 
+        and inconsistency.
         
-    !!! info "IMPORTANTE"
+    !!! info "IMPORTANT"
     
-        Não é permitido a exclusão do ciclo, caso este esteja vinculado a alguma receita ou despesa do controle financeiro.
+        It is not allowed to exclude the cycle, if it is linked to some income or expense of the financial control.
         
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/24/2019 - Larissa Lourenço
+    <b>Updated:</b>09/06/2019 - Larissa Lourenço
