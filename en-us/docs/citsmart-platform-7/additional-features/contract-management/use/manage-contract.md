@@ -810,12 +810,12 @@ Creating invoice
 
 -   A message confirming the success of the operation will be displayed.
 
-    -  At the bottom of the** Invoice** screen, the Contract Service Level
+    -  At the bottom of the **Invoice** screen, the Contract Service Level
     Agreements will be displayed. For each agreement, please state
     the **breakdown, calculated value,% applied** and **glossed value**;
 
-    -  The Invoice **Total Amount**, **Value Amount, Invoice Total
-    Amount** and **Amount Invoice Amount** fields will be calculated after the
+    -  The Invoice **Total Amount**, Value Amount, Invoice Total
+    Amount and Amount Invoice Amount** fields will be calculated after the
     invoice has been saved;
 
 4.  After the data has been entered, click the *Save* button to register, where
