@@ -194,7 +194,7 @@ Verifying contract services
 Editing service link information to contract
 --------------------------------------------
 
-1.  Click the service icon  you want to edit;
+1.  Click the service icon (images/manage-11.png) you want to edit;
 
 2. The contract service link registration screen will appear with the fields filled with the content of the chosen service;
 
@@ -205,7 +205,7 @@ Linking specific SLA to contract service
 
 1.  In the Contract Service tab, the services that are linked to the agreement are displayed.
 
-2. Click the desired service icon . This will bring up two Link Agreement and Create Agreement specific for this service buttons;
+2. Click the desired service icon (images/manage-12.png). This will bring up two Link Agreement and Create Agreement specific for this service buttons;
 
 3. Click the Create specific agreement for this service button .
 
