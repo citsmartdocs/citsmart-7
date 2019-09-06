@@ -1,5 +1,4 @@
 title: Contract administration
-
 Description: Contract management is used to manage the contracts already registered in the system. 
 
 # Contract administration
@@ -14,7 +13,7 @@ How to access
 Preconditions
 ------------
 
-1.  Register a group (see knowledge [Group registration and search][1]);
+1. Register a group (see knowledge [Group registration and search][1]);
 
 2. Register contract (see knowledge [Contract registration and search][2]);
 
@@ -277,30 +276,28 @@ Linking specific SLA to contract service
 
 **Figure 11 - Index**
 
-1.  Inform the percentage of availability of the service, that is, if you define
+6.  Inform the percentage of availability of the service, that is, if you define
     90% means that from 10% of downtime on the service the contract may suffer
     some type of agreed penalty on it.
 
-2.  If the reported agreement type is **Repetitive Failures**, enter service
+7.  If the reported agreement type is **Repetitive Failures**, enter service
     agreement data for repetitive faults:
 
-![Criar](images/manage-14.png)
+![Criar](images/manage-15.png)
 
 **Figure 12 - Agreement by failure**
 
-1.  If you wish to enter other service agreement data due to repetitive faults,
-    simply click on the icon 
+8.  If you wish to enter other service agreement data due to repetitive faults,
+    simply click on the icon ![Criar](images/manage-5.png) and fill in the fields.
 
-    ![](media/874f5d82e0e206435da3474c077a4692.png)
+9.  **Discount percentage**: enter the percentage of discount;
 
-     and fill in the fields.
+10.  **Amount of Glosses**: enter the number of glosses;
 
-2.  **Discount percentage**: enter the percentage of discount;
-
-3.  **Amount of Glosses**: enter the number of glosses;
-
-4.  If the type of agreement informed is **OS - Expected results**, please
+11.  If the type of agreement informed is **OS - Expected results**, please
     report expected performance data and required quality levels:
+
+![Criar](images/manage-16.png)
 
 **Figure 13 - Agreement by failure**
 
@@ -312,19 +309,17 @@ Linking specific SLA to contract service
 
 -   **Gloss of limit**: enter the gloss limit.
 
-1.  If you wish to inform other expected results and required quality levels,
-    simply click on the icon 
+12.  If you wish to inform other expected results and required quality levels,
+    simply click on the icon ![Criar](images/manage-5.png)  and fill in the fields.
 
-    ![](media/874f5d82e0e206435da3474c077a4692.png)
-
-     and fill in the fields.
-
-2.  If the type of informed agreement is **Time (in stages)**, set SLA (Service
+13.  If the type of informed agreement is **Time (in stages)**, set SLA (Service
     Level Agreement) deadlines, taking priority into account:
+
+![Criar](images/manage-17.png)
 
 **Figure 14 - SLA deadlines**
 
--   **Capture: **set the capture time of the service request, according to the
+-   **Capture**: set the capture time of the service request, according to the
     priority;
 
 -   **Resolution**: set the resolution time of the service, according to
@@ -336,20 +331,22 @@ Linking specific SLA to contract service
 
 -   **Group**: report the executing group of the service;
 
->   !!! note "NOTE"
+   !!! note "NOTE"
 
->   **After the N minutes are configured and if you have not performed any
->   action on the service request, the system assigns the Priority and scales
->   the Group that has been configured to execute the service request**
+     After the N minutes are configured and if you have not performed any
+     action on the service request, the system assigns the Priority and scales
+     the Group that has been configured to execute the service request.
 
-1.  Indicate the service priority for each unit;
+14.  Indicate the service priority for each unit;
 
-2.  If the type of agreement informed is **Information captured from several
+15.  If the type of agreement informed is **Information captured from several
     other sources**, please inform service agreement data:
+
+![Criar](images/manage-18.png)
 
 **Figure 15 - Service agreement**
 
--   **Value limit: **enter the lmit value of the gloss;
+-   **Value limit**: enter the lmit value of the gloss;
 
 -   **Unit (Limit Value)**: inform the monetary unit of the limit value of the
     gloss;
@@ -358,30 +355,18 @@ Linking specific SLA to contract service
 
 -   **Gloss limit**: enter the gloss limit.
 
-1.  After the data is entered, click the *Save* button to perform the operation,
+16.  After the data is entered, click the *Save* button to perform the operation,
     where the date, time and user will be saved automatically for a future
     audit.
 
-2.  To edit a service level agreement that has been added to the contract
-    service, simply click the icon 
+17.  To edit a service level agreement that has been added to the contract
+    service, simply click the icon ![Criar](images/manage-11.png) next to the agreement.
 
-    ![](media/5d42a88c3327e0839536296d3816dfd1.png)
-
-     next to the agreement.
-
-3.  To copy the service level agreement for other contract services, simply
-    click the icon 
-
-    ![](media/0abbd73285575a0f4a2e4c9319d141d2.png)
-
-     next to the agreement.
+18.  To copy the service level agreement for other contract services, simply
+    click the icon ![Criar](images/manage-19.png)next to the agreement.
 
 4.  To delete a service level agreement that was added to the contract service,
-    click the icon 
-
-    ![](media/5d42a88c3327e0839536296d3816dfd1.png)
-
-     next to the agreement, where the service level agreement screen opens, and
+    click the icon ![Criar](images/manage-11.png) next to the agreement, where the service level agreement screen opens, and
     click the *Delete* button.
 
 Linking global sla to contract service
@@ -394,13 +379,17 @@ Linking global sla to contract service
 
 **First way:**
 
-1.  On the** Contract Services** tab, click the *Manage Global SLAs* button, as
+1.  On the **Contract Services** tab, click the *Manage Global SLAs* button, as
     shown in the figure below:
+
+![Criar](images/manage-20.png)
 
 **Figure 16 - Global service level agreement**
 
 1.  The Global Service Level Agreement screen for performing the global SLA link
     with Contract Service will be displayed:
+
+![Criar](images/manage-21.png)
 
 **Figure 17 - Linking the global service level agreement to the contract
 service**
@@ -416,11 +405,7 @@ service**
 **Second way:**
 
 1.  In the Contract Service tab, the services that are linked to the agreement
-    are displayed. Click *the desired service icon* 
-
-    ![](media/41945b21fdf583c5768fc225b0855df2.png)
-
-    .
+    are displayed. Click *the desired service icon* ![Criar](images/manage-12.png).
 
 2.  This will bring up two buttons for this service: *Link
     Agreement* and *Create specific agreement for this service*;
@@ -430,10 +415,12 @@ service**
 4.  After that, the screen for performing the SLA link with Service will be
     displayed, as shown in the figure below:
 
+![Criar](images/manage-22.png)
+
 **Figure 18 - Linking the global service level agreement to the contract
 service**
 
-1.  Fill in the fields as directed below:
+5.  Fill in the fields as directed below:
 
     -   **Service Level Agreement (Contract)**: select the service level
         agreement;
@@ -447,19 +434,15 @@ service**
     -   **Features (Availability)**: enter features if the selected service
         level agreement is of the "Availability" type.
 
-2.  After the data entered, click the *Savr* button to perform the SLA link with
+6.  After the data entered, click the *Savr* button to perform the SLA link with
     Contract Service, where the date, time and user will be automatically saved
     for a future audit.
 
-3.  After the service level agreement link to the service, click *Enable* to
+7.  After the service level agreement link to the service, click *Enable* to
     have the SLA enabled.
 
-4.  To edit a service level agreement that was linked to the contract service,
-    simply click the 
-
-    ![](media/5d42a88c3327e0839536296d3816dfd1.png)
-
-     .
+8.  To edit a service level agreement that was linked to the contract service,
+    simply click the ![Criar](images/manage-11.png).
 
 Registering contract service activities
 ---------------------------------------
@@ -467,11 +450,7 @@ Registering contract service activities
 1.  In the Contract Service tab, the services that are linked to the agreement
     are displayed.
 
-2.  Click the icon 
-
-    ![](media/415ea9e510e8401197ec17217629ef8b.png)
-
-     of the desired service.
+2.  Click the icon ![Criar](images/manage-23.png) of the desired service.
 
 3.  Once this is done, the *Add New Activity* button above the existing
     activities will be displayed, click on it.
@@ -479,9 +458,11 @@ Registering contract service activities
 4.  After that, the activity log screen will be displayed, as shown in the
     figure below:
 
+![Criar](images/manage-24.png)
+
 **Figure 19 - Register of service activities**
 
-1.  Fill in the fields as directed below:
+5.  Fill in the fields as directed below:
 
 -   **Activity description**: describe the activity that will be performed for
     delivery of the service;
@@ -491,24 +472,28 @@ Registering contract service activities
 -   **Couting**: tell whether the activity is to account for contract service
     requests. If "yes", inform the contract service;
 
->   !!! info "IMPORTANT"
+   !!! info "IMPORTANT"
 
->   **The accounting will be made of the "closed" requests, in the period of the
->   SO (Service Order), the service of the request/incident type informed.**
+     The accounting will be made of the "closed" requests, in the period of the
+     SO (Service Order), the service of the request/incident type informed.
 
 -   **Cost type**: select the type of cost of the activity;
 
-1.  If the selected cost type is** Total Cost**, proceed as follows:
+6.  If the selected cost type is** Total Cost**, proceed as follows:
+
+![Criar](images/manage-25.png)
 
 **Figure 20 - Total cost**
 
--   **Total Cost:** indicate the quantitative value corresponds to the cost of
+-   **Total Cost**: indicate the quantitative value corresponds to the cost of
     the activity agreed in the contract;
 
 -   **Complexity**: to inform the corresponding level of complexity (difficulty)
     that the activity requires for the development of the task.
 
-1.  If the selected cost type is** Formula**, proceed as follows:
+7.  If the selected cost type is **Formula**, proceed as follows:
+
+![Criar](images/manage-26.png)
 
 **Figure 21 - Formula**
 
@@ -534,23 +519,15 @@ Registering contract service activities
 -   **Quantity**: 2. Daily Period - The activity is performed during two periods
     per day.
 
-1.  After the data is entered, click on the *Save* button to perform the
+8.  After the data is entered, click on the *Save* button to perform the
     operation, where the date, time and user will be saved automatically for a
     future audit.
 
-2.  To edit an activity that has been added to the contract service, simply
-    click the icon 
+9.  To edit an activity that has been added to the contract service, simply
+    click the icon ![Criar](images/manage-11.png) next to it.
 
-    ![](media/e73d615fd5aa857d9ca11f3d6b7f891e.png)
-
-     next to it.
-
-3.  To delete an activity that was added to the contract service, simply click
-    the icon 
-
-    ![](media/5d42a88c3327e0839536296d3816dfd1.png)
-
-     next to it, where the service activity screen will open and click
+10.  To delete an activity that was added to the contract service, simply click
+    the icon ![Criar](images/manage-11.png) next to it, where the service activity screen will open and click
     the *Delete Data* button to perform the operation.
 
 Verifying contract performance
@@ -559,6 +536,8 @@ Verifying contract performance
 1.  On the **Contract Service** tab, click the *Contract Performance* button.
     Once this is done, the information about the performance of the service
     contract will be presented, as shown in the figure below:
+
+![Criar](images/manage-27.png)
 
 **Figure 22 - Service contract performance**
 
@@ -571,15 +550,17 @@ Excluding the services link with contract
 2.  Select the services you want to delete and click the *Remove
     Services* button in the Agreement, as shown in the figure below:
 
+![Criar](images/manage-28.png)
+
 **Figure 23 - Exclusion of contract services**
 
-1.  A message will appear to confirm the deletion of the services, just
+3.  A message will appear to confirm the deletion of the services, just
     click *Ok* to carry out the operation.
 
-2.  Once this is done, the service link with the contract will be successfully
+4.  Once this is done, the service link with the contract will be successfully
     deleted.
 
-Service orders (so)
+Service Orders (SO)
 -------------------
 
 *Service Order is a document that will provide the execution permission related
@@ -590,9 +571,11 @@ to some service.*
     can check and manage the service orders will be displayed, as shown in the
     figure below:
 
+![Criar](images/manage-29.png)
+
 **Figure 24 - Service orders**
 
-1.  In this screen, you can create new Orders of Service, check the Service
+2.  In this screen, you can create new Orders of Service, check the Service
     Orders of the contract and perform a series of actions on the existing
     Orders of Service, being:
 
@@ -602,7 +585,7 @@ to some service.*
 
 -   Print Activity Report.
 
-1.  In the next topics will be discussed on how to proceed with these actions.
+3.  In the next topics will be discussed on how to proceed with these actions.
 
 Creating service order (so)
 ---------------------------
@@ -622,13 +605,15 @@ Creating service order (so)
     calculated by formula, of the service of the contract (see
     session *Registering Contract Service Activities*).
 
-1.  On the **Service Order** tab, click the *Create Service Order* button. The
+2.  On the **Service Order** tab, click the *Create Service Order* button. The
     Service Order registration screen will be displayed, as shown in the figure
     below:
 
+![Criar](images/manage-30.png)
+
 **Figure 25 - Service order record**
 
-1.  Fill in the fields as directed below:
+3.  Fill in the fields as directed below:
 
 -   **Start date**: enter the start date of the service order;
 
@@ -638,25 +623,27 @@ Creating service order (so)
     information about it will appear, including its activities and their
     respective values;
 
->   !!! info "IMPORTANT"
+   !!! info "IMPORTANT"
 
->   The total cost of the OS will be rounded up after the sum of the total costs
->   of each service activity
+     The total cost of the OS will be rounded up after the sum of the total costs
+     of each service activity
 
 -   **Number**: enter the service order number;
 
 -   **Requesting area**: inform the ordering area of ​​the service order;
 
--   T**ask**: describe the task/demand of the service order;
+-   **Task**: describe the task/demand of the service order;
 
 -   **Objective**: describes the purpose of the service order;
 
 -   **Situation**: select the status of the service order;
 
--   If the "**243 -** **Enable custom signatures in the Work Orders Report**"
+-   If the "**243 - Enable custom signatures in the Work Orders Report**"
     parameter is enabled, the Subscription Group field is displayed, where you
     must select the group of signatures to be used when printing the work order
     report. The figure below illustrates this field:
+
+![Criar](images/manage-31.png)
 
 **Figure 26 - Subscription group field**
 
@@ -670,9 +657,11 @@ Verifying the service order information
 1.  In the **Service Order** tab, the service orders of the contract are shown,
     as shown in the figure below:
 
+![Criar](images/manage-32.png)
+
 **Figure 27 - Service orders consultation**
 
-1.  Use the buttons on the bar (all created, requested, authorized, approved,
+2.  Use the buttons on the bar (all created, requested, authorized, approved,
     running, executed, and canceled) to check service orders by situation. You
     can also search for service orders by period.
 
@@ -690,11 +679,7 @@ Editing service order
 
 1.  To edit an OS, proceed as follows:
 
--   Click the icon 
-
-    ![](media/72cfbe8a20a00882fd23ccbb3e5f8fb1.png)
-
-     of the SO you want to edit. Once this is done, the service order
+-   Click the icon ![Criar](images/manage-33.png) of the SO you want to edit. Once this is done, the service order
     registration screen will be displayed with the fields filled with the SO
     content chosen for editing;
 
@@ -707,32 +692,21 @@ Generating service order printing
 
 1.  To generate an OS impression, proceed as follows:
 
--   Click the icon 
+-   Click the icon ![Criar](images/manage-34.png) to open the SO report in PDF format for printing.
 
-    ![](media/cde87c4d02ab617fdb546998057e7891.png)
+-   Click the icon ![Criar](images/manage-35.png) to open the SO report in Excel format for printing
 
-    >    to open the SO report in PDF format for printing.
+   !!! note "NOTE"
 
--   Click the icon 
+    The A.R. can only be generated from the Service Orders with an "Approved"
+    situation.
 
-    ![](media/64ef853c424c87cc4398ab5df8a77b25.png)
-
-    >    to open the SO report in Excel format for printing
-
->   !!! note "NOTE"
-
->   **The A.R. can only be generated from the Service Orders with an "Approved"
->   situation**
-
-Generating a.r. (activity report)
+Generating A.R. (Activity Report)
 ---------------------------------
 
-1.  Click the **Approved SO** icon 
+1.  Click the **Approved SO** icon ![Criar](images/manage-36.png). Once this is done, a window will appear to record the information regarding the generation of the activity report;
 
-    ![](media/aa3e2c88122ae661d8420edaaf9c7e55.png)
-
-    . Once this is done, a window will appear to record the information
-    regarding the generation of the activity report;
+![Criar](images/manage-37.png)
 
 **Figure 28 - Generation screen of A.R.**
 
@@ -751,48 +725,38 @@ Generating a.r. (activity report)
 
 !!! note "NOTE"
 
->   The A.R. (Activity Report) serves to prove that the service was delivered.
+    The A.R. (Activity Report) serves to prove that the service was delivered.
 
 Running order of service
 ------------------------
 
->   !!! note "NOTE"
+   !!! note "NOTE"
 
->   **Only the Service Orders that were generated A.R. (Activity Report) may be
->   executed.**
+     Only the Service Orders that were generated A.R. (Activity Report) may be
+     executed.
 
 1.  After generating the A.R. from the SO, click *Running* and right after the
     SO icon to expand the area. Once this is done, the SO will be displayed, as
     shown in the figure below:
 
+![Criar](images/manage-39.png)
+
 **Figure 29 - A.R. of the service order**
 
-1.  Click the SO icon 
+2.  Click the SO icon ![Criar](images/manage-43.png). After that, the Service Order registration screen will be displayed;
 
-    ![](media/a32d6a9209ac895ba826981ec9f73c46.png)
-
-    . After that, the Service Order registration screen will be displayed;
-
-2.  Record the required SO execution data, modify the status of the SO to
+3.  Record the required SO execution data, modify the status of the SO to
     "Executed" and click the *Record Data* button to perform the operation,
     where the date, time and user will be automatically saved for a future
     audit.
 
-3.  Click on the A.R. SO icon
+4.  Click on the A.R. SO icon ![Criar](images/manage-34.png) to generate the A.R. report in PDF format.
 
-    ![](media/cde87c4d02ab617fdb546998057e7891.png)
-
-     to generate the A.R. report in PDF format.
-
-4.  Click the SO A.R. icon 
-
-    ![](media/64ef853c424c87cc4398ab5df8a77b25.png)
-
-     to generate the A.R. report in Excel format.
+4.  Click the SO A.R. icon ![Criar](images/manage-35.png) to generate the A.R. report in Excel format.
 
 !!! info "IMPORTANT"
 
->   After running the SO, an invoice can be generated for it.
+    After running the SO, an invoice can be generated for it.
 
 Invoices
 --------
@@ -801,6 +765,8 @@ Invoices
     click the Invoices tab. Once this is done, you will be presented with the
     screen where you can check and manage the invoices of the contract, as shown
     in the figure below:
+
+![Criar](images/manage-44.png)
 
 **Figure 30 - Contract invoices**
 
@@ -814,11 +780,13 @@ Creating invoice
 1.  On the **Invoice** tab, click the *Create Invoice* button. The invoice
     registration screen will be displayed, as shown in the figure below:
 
+![Criar](images/manage-45.png)
+
 **Figure 31 - Creating invoices**
 
-1.  Fill in the fields as directed below:
+2.  Fill in the fields as directed below:
 
--   **Description: **enter the description of the invoice;
+-   **Description**: enter the description of the invoice;
 
 -   **Start date**: enter the invoice start date;
 
@@ -829,7 +797,7 @@ Creating invoice
 -   **Status**: select the invoice status (in creation, awaiting approval,
     approved, rejected, received, received or canceled);
 
-1.  Add the Service Order (OS) to the invoice:
+3.  Add the Service Order (OS) to the invoice:
 
     -   Click the *Add Service Order* button;
 
@@ -850,7 +818,7 @@ Creating invoice
     Amount** and **Amount Invoice Amount** fields will be calculated after the
     invoice has been saved;
 
-1.  After the data has been entered, click the *Save* button to register, where
+4.  After the data has been entered, click the *Save* button to register, where
     the date, time and user will be saved automatically for a future audit.
 
 Checking invoice information
@@ -859,9 +827,11 @@ Checking invoice information
 1.  In the **Invoices** tab, the invoices of the contract are shown, as shown in
     the figure below:
 
+![Criar](images/manage-17.png)
+
 **Figure 32 - Invoice search**
 
-1.  Use the buttons on the bar (all created, waiting for approval, approved,
+2.  Use the buttons on the bar (all created, waiting for approval, approved,
     received, received, rejected, and canceled) to check status invoices. You
     can also search for invoices by period.
 
@@ -877,15 +847,11 @@ Checking invoice information
 Editing invoice
 ---------------
 
->   !!! info "IMPORTANT"
+!!! info "IMPORTANT"
 
->   Only invoices that are "in creation" can be edited.
+    Only invoices that are "in creation" can be edited.
 
-1.  Click the icon 
-
-    ![](media/50f8f123e97264c422eb40bf5013f7d2.png)
-
-     for the invoice you want to edit. Once this is done, the invoice record
+1.  Click the icon ![Criar](images/manage-33.png) for the invoice you want to edit. Once this is done, the invoice record
     will be displayed with the fields filled with the contents of the invoice
     chosen for editing;
 
@@ -896,17 +862,9 @@ Editing invoice
 Generating invoice print
 ------------------------
 
-1.  Click the invoice icon 
+1.  Click the invoice icon ![Criar](images/manage-34.png). Once this is done, the invoice report will be displayed in PDF format.
 
-    ![](media/cde87c4d02ab617fdb546998057e7891.png)
-
-    . Once this is done, the invoice report will be displayed in PDF format.
-
-2.  Click the invoice icon 
-
-    ![](media/64ef853c424c87cc4398ab5df8a77b25.png)
-
-    . Once this is done, the invoice report will be displayed in Excel format.
+2.  Click the invoice icon ![Criar](images/manage-35.png). Once this is done, the invoice report will be displayed in Excel format.
 
 Assigning a situation to invoice
 --------------------------------
@@ -914,13 +872,7 @@ Assigning a situation to invoice
 1.  To assign a situation to an invoice, that is, change the invoice status,
     proceed as follows:
 
--   Click the invoice icon 
-
-    ![](media/e33cd2b2d46dd3a0be8691049b64386d.png)
-
-    >    that you want to pinpoint a situation. Once this is done, the invoice
-    >   registration will be displayed with the fields filled with the content
-    >   of the invoice chosen to indicate a situation;
+-   Click the invoice icon ![Criar](images/manage-43.png) that you want to pinpoint a situation. Once this is done, the invoice registration will be displayed with the fields filled with the content  of the invoice chosen to indicate a situation;
 
 -   Point the situation you want to the invoice and click Update Invoice Status
     to complete the operation.
@@ -928,15 +880,17 @@ Assigning a situation to invoice
 Notifications
 -------------
 
-1.  On the **Contract Administration **screen, enter the agreement you want and
+1.  On the **Contract Administration** screen, enter the agreement you want and
     click the **Notifications** tab.
 
 2.  Once this is done, the notification box for the contract will be displayed,
     as shown in the figure below:
 
+![Criar](images/manage-44.png)
+
 **Figure 33 - Notification of contract**
 
-1.  The next topic will be about adding notifications to the contract.
+3.  The next topic will be about adding notifications to the contract.
 
 Adding notification
 -------------------
@@ -944,6 +898,8 @@ Adding notification
 1.  On the **Notification** tab, click the *Add Notification* button.
 
 2.  The notification screen will be displayed, as shown in the figure below:
+
+![Criar](images/manage-45.png)
 
 **Figure 34 - Notification**
 
@@ -954,26 +910,18 @@ Adding notification
 
 -   Tell users they will be notified;
 
-1.  Click the icon 
-
-    ![](media/e5a7da63440aaa957528cbebff340cd1.png)
-
-    . Once this is done, the screen for user search will be displayed. Perform
+3.  Click the icon ![Criar](images/manage-46.png). Once this is done, the screen for user search will be displayed. Perform
     the desired user search and select the same one.
 
-2.  Inform the groups that will be notified;
+4.  Inform the groups that will be notified;
 
-3.  Click the icon 
-
-    ![](media/e5a7da63440aaa957528cbebff340cd1.png)
-
-    . Once this is done, the group search screen will be displayed. Perform the
+5.  Click the icon ![Criar](images/manage-46.png). Once this is done, the group search screen will be displayed. Perform the
     desired group search and select the group.
 
-4.  Select contract services, which you want to receive notifications about your
+6.  Select contract services, which you want to receive notifications about your
     changes.
 
-5.  After the data is entered, click on the *Save* button to register, where the
+7.  After the data is entered, click on the *Save* button to register, where the
     date, time and user will be saved automatically for a future audit.
 
 
