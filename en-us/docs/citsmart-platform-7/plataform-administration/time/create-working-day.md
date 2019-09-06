@@ -1,84 +1,81 @@
-title: Cadastro e pesquisa de jornadas de trabalho
-Description: Disponibiliza ações diversas, tais como, incluir, alterar e excluir a jornada de trabalho da organização.
-# Cadastro e pesquisa de jornadas de trabalho
+title: Workday registration and search
+Description: The goal of this feature is to register the organization's workday schedule.
+# Workday registration and search
 
-Esta funcionalidade tem por objetivo registrar a jornada de trabalho da organização.
+The goal of this feature is to register the organization's workday schedule.
 
-Como acessar
+How to access
+------------------
+
+1. Access the Workday feature navigating through the main menu **General Registration > Staff Management > Workday**.
+
+Preconditions
 --------------
 
-1. Acesse a funcionalidade de Jornada de Trabalho através da navegação no menu principal 
-**Cadastros Gerais > Gerência de Pessoal > Jornada de Trabalho**.
+1. No applicable.
 
-Pré-condições
---------------
-
-1. Não se aplica.
-
-Filtros
+Filters
 ---------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a 
-localização dos itens desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    - Descrição.
+    - Description.
     
-2. Clique na aba **Pesquisa de Jornada de Trabalho**, será apresentada a tela de **Pesquisa de Jornada de Trabalho**, conforme
-ilustrado na figura abaixo:
+2. Click on the **Working Hours Search** tab, the **Working Hours Search** screen will be presented, as shown in the figure below:
 
-    ![Jornada](images/jornadas-img1.jpg)
+    ![Work](images/workday.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de jornada de trabalho**
+    **Figure 1 - Working hours search screen**
     
-3. Realize a pesquisa de jornada de trabalho:
+3. Conduct a working hours search:
 
-    - Informe a descrição da jornada de trabalho que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o 
-    registro da jornada de trabalho conforme a descrição informada;
+    - Insert the working hours description intended and click on the *Search* button. Afterwards the working hours entry will be 
+    displayed according to the description provided.
     
-    - Caso deseje listar todos os registros de jornada de trabalho, basta clicar diretamente no botão "Pesquisar".
+    - To list all working hours entries, just click directly on the *Search* button, if needed.
     
-Listagem de itens
+Items list
 -------------------
 
-1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens desejados na listagem padrão da
-funcionalidade: **Descrição**.
+1. The following cadastral field is available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **Description**.
 
-    ![Listagem](images/jornadas-img2.jpg)
+    ![Listing](images/workday.img2.jpg)
     
-    **Figura 2 - Tela de listagem de jornada**
+    **Figure 2 - Day listing screen**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo 
-referente ao registro selecionado;
+2. After searching, select the intended entry. Afterwards, they will be redirected to the registry screen displaying the content 
+belonging to the selected entry.
 
-3. Para alterar os dados do registro de jornada de trabalho, basta modificar as informações dos campos desejados e clicar no botão
-"Gravar" para que seja gravada a alteração realizada no registro, onde a data, hora e usuário serão gravados automaticamente
-para uma futura auditoria.
+3. To edit the working hours entry, just edit the intended fields and click on the *Save* button to confirm the changes, at which 
+date, time and user will be stored for a future audit.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 -------------------------------------
 
-1. Clique na aba **Cadastro de Jornada de Trabalho**, será apresentada a tela de **Cadastro de Jornada de Trabalho**, conforme
-ilustrada na figura abaixo:
+1. Click on the **Register Working Hours** tab, the **Workday Registration** screen will be displayed, as illustrated on the image 
+below:
 
-    ![Cadastro](images/jornadas-img3.jpg)
+    ![Entry](images/workday.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de jornada de trabalho**
+    **Figure 3 - Workday entry screen**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Fill out the fields as instructed below:
 
-    - **Descrição**: informe a descrição da nova jornada de trabalho;
-    - **Carga Horária**: esse campo é para simples conferência, o mesmo será preenchido pelo sistema com a carga horária de 
-    trabalho, após gravar o registro. O montante das horas a serem trabalhadas será calculado em função dos horários informados;
-    - **Jornada de Trabalho**: defina o formato de hora. O formato de horas a serem definidos são:
-        - **24 Hs**: representação das horas de forma contínua, ou seja, 24 horas por dia;
-        - **AM/PM**: representação das horas num ciclo de 0 a 12 horas, diferenciando- as por AM e PM.
-    - **Hora Início**: informe a hora de início da jornada de trabalho;
-    - **Hora Final**: informe a hora final da jornada de trabalho.
+    - **Description**: insert the description of the new workday schedule;
+    - **Working Hours**: this field is for checking purposes only, the system will fill it out with the working hours, after saving 
+    the entry. The amount of hours that should be spent will be calculated according to the registered schedule;
+    - **Workday**: determine the time format. The time format to be defined are:
+        - **24 Hs**: the representation of the hours in an ongoing format, that is, 24 hours per day;
+        - **AM/PM**: representation of the hours in a cycle of 0 to 12 hours, differentiating them by AM and PM.
+    - **Start Time**: insert the shift start time;
+    - **End Time**: insert the shift end time;
     
-3. Após os dados informados, clique no botão "Gravar para efetuar o registro, onde a data, hora e usuário serão gravados 
-automaticamente para uma futura auditoria.
+3. After inserting the information, click on the *Save* button, at which time, date and user will be automatically stored for a 
+future audit.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/24/2019 - Larissa Lourenço
+    <b>Updated:</b>06/09/2019 - Larissa Lourenço
