@@ -97,7 +97,7 @@ Linking a service to the contract
    -  Expand service request screen: if you want the service request screen to be enlarged, check the "yes" option;
    -  Enter the service workflow
         
-        *  Click the service flow icon ;
+        *  Click the service flow icon ![Criar](images/manage-5.png);
 
         *  A window will appear for information on the flow of the service, as shown in the figure below:
 
