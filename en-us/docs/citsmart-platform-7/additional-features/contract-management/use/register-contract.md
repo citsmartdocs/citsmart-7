@@ -219,11 +219,11 @@ Registration**
 Liking vision of contract complexity
 ------------------------------------
 
-**Vision of Contract Complexity: **allows to identify the values of complexity
+**Vision of Contract Complexity**: allows to identify the values of complexity
 referring to the operational costs of the contract. It is widely used in the
 case of the management of the Orders of Services related to the UST currency.
 
-1.  Click the** Complexity By Contract** tab, and after that, click on the
+1.  Click the **Complexity By Contract** tab, and after that, click on the
     complexity that you want to enter the value;
 
 ![figure](images/register-5.png)
@@ -261,7 +261,7 @@ will be fundamental for the development of a project related to the contract;
 Liking user groups
 ------------------
 
-**User Groups: **allows you to link groups to the contract.
+**User Groups**: allows you to link groups to the contract.
 
 1.  Click the **User Groups** tab, and then click *New*. Once this is done, the
     screen will be displayed to link employee group (s) to the contract, as
