@@ -799,22 +799,22 @@ Creating invoice
 
 3.  Add the Service Order (OS) to the invoice:
 
-    -   Click the *Add Service Order* button;
+-   Click the *Add Service Order* button;
 
-    -   A window will appear containing the OSs that were executed to associate
+-   A window will appear containing the OSs that were executed to associate
         with the invoice;
 
-    -   Select the desired OS;
+-   Select the desired OS;
 
-    -   Click *Associate* to perform the operation;
+-   Click *Associate* to perform the operation;
 
-    -   A message confirming the success of the operation will be displayed.
+-   A message confirming the success of the operation will be displayed.
 
--   At the bottom of the** Invoice** screen, the Contract Service Level
+    -  At the bottom of the** Invoice** screen, the Contract Service Level
     Agreements will be displayed. For each agreement, please state
     the **breakdown, calculated value,% applied** and **glossed value**;
 
--   The Invoice **Total Amount**, **Value Amount, Invoice Total
+    -  The Invoice **Total Amount**, **Value Amount, Invoice Total
     Amount** and **Amount Invoice Amount** fields will be calculated after the
     invoice has been saved;
 
