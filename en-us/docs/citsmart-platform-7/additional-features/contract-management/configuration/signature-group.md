@@ -14,7 +14,7 @@ How to access
 Preconditions
 ------------
 
-1.  To register group signatures it is necessary to have a registered signature (see knowledge Signature registration and search).
+1.  To register group signatures it is necessary to have a registered signature (see knowledge [Signature registration and search][1]).
 
 Filters
 ------
@@ -71,6 +71,8 @@ Filling in the registration fields
 
 4.  Click on the Save the button to confirm the entry, at which date, time and user will automatically be stored for a future audit..
 
+
+[1]:/en-us/citsmart-platform-7/additional-features/contract-management/configuration/signature.html
 
 !!! tip "About"
 

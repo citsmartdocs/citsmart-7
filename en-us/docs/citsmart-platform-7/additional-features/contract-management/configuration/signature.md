@@ -65,6 +65,7 @@ Filling in the registrtion fields
 
 3. Click on the Save the button to confirm the entry, at which date, time and user will automatically be stored for a future audit.
 
+[1]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/employee.html
 
 !!! tip "About"
 
