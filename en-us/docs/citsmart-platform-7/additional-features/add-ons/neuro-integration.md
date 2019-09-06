@@ -136,9 +136,7 @@ Execution of Neuro business rules by ITSM
 - Create or reference a Neuro business rule on the properties tab.
 
     ![figure](images/integ-neuro.img11.jpg)
-    
-    ![figure](images/integ-neuro.img11.1.jpg)
-    
+        
     **Figure 11 - Business rule**
     
 Execution of ESI by ITSM
