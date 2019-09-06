@@ -253,7 +253,7 @@ Linking specific SLA to contract service
 -   **Allow impact/urgency change?**: define if it will be allowed to change the
     impact and urgency in the registration of service request;
 
--   **Agreement description **: describe the details of the service level
+-   **Agreement description**: describe the details of the service level
     agreement;
 
 -   **Agreement Scope**: describe a macro view on the service level agreement;
