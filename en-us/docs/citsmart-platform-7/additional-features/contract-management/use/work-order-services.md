@@ -129,6 +129,7 @@ Filling in the registration fields
 [1]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/service-category.html
 [2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/type-service.html
 
+
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
