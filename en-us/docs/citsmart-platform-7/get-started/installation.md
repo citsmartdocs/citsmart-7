@@ -614,7 +614,7 @@ With the deploys in hand, move them to the deployments directory of Jboss.
 cp <deploy 1>.war /opt/jboss-7.1.2/standalone/deployments/
 cp <deploy 2>.war /opt/jboss-7.1.2/standalone/deployments/
 cp <deploy 3>.war /opt/jboss-7.1.2/standalone/deployments/
-<continue conforme os deploys disponíveis para sua subscrição>
+<Continue to conform to the deploys available for your subscription>
 ```
 
 ### Creating directories for installation
@@ -622,15 +622,15 @@ cp <deploy 3>.war /opt/jboss-7.1.2/standalone/deployments/
 Create the directories below to be configured in the 3 steps of web installation.
 
 ```sh
-Para GED:
+EDM:
 mkdir /opt/citsmart/ged
-Para Base de Conhecimento:
+Knowledge base:
 mkdir /opt/citsmart/kb
-Para Palavras Gêmeas:
+Twin words:
 mkdir /opt/citsmart/twinwords
-Para Anexos de Base de Conhecimento:
+Knowledge Base Attachments:
 mkdir /opt/citsmart/attachkb
-Para Upload:
+Upload:
 mkdir /opt/citsmart/upload
 ```
 
