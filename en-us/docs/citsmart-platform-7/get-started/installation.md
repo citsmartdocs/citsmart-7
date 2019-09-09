@@ -77,7 +77,7 @@ these**:
 
 |                          Requirement                        |                     Specification                    |
 |:-----------------------------------------------------------:|:----------------------------------------------------:|
-|                       Operational System                    | 1 x GNU/Linux RedHat ou Debian (incluindo derivados) |
+|                       Operational System                    | 1 x GNU/Linux RedHat or Debian (including derivatives) |
 |                           Memory                            |                         4 GB                         |
 |                            Disk                             |                        120 GB                        |
 |                        Processors                           |                       2 (vCPU)                       |
@@ -91,7 +91,7 @@ these**:
 
 |                          Requirement                       |                     Specification                    |
 |:----------------------------------------------------------:|:----------------------------------------------------:|
-|                   Operational System                       | 1 x GNU/Linux RedHat ou Debian (incluindo derivados) |
+|                   Operational System                       | 1 x GNU/Linux RedHat or Debian (including derivatives) |
 |                           Memory                           |                         4 GB                         |
 |                            Disk                            |                        120 GB                        |
 |                        Processors                          |                       2 (vCPU)                       |
@@ -105,7 +105,7 @@ these**:
 
 |                          Requirement                        |                     Specification                    |
 |:-----------------------------------------------------------:|:----------------------------------------------------:|
-|                       Operational System                    | 1 x GNU/Linux RedHat ou Debian (incluindo derivados) |
+|                       Operational System                    | 1 x GNU/Linux RedHat or Debian (including derivatives) |
 |                           Memory                            |                         4 GB                         |
 |                            Disk                             |                        120 GB                        |
 |                        Processors                           |                       2 (vCPU)                       |
@@ -539,8 +539,8 @@ make the following settings:
 
     - If the environment is clustered the org.quartz.jobStore.isClustered property must be **true**;
 
-    -  Alterar a propriedade *org.quartz.dataSource.citsmart.jndiURL* para a
-        mesma URL do **jndi-name** presente no arquivo de configuração do JBoss.
+    - Change the *org.quartz.dataSource.citsmart.jndiURL* property to the same jndi-name URL present in the JBoss configuration 
+    file.
 
 2. Change the org.quartz.dataSource.citsmart.jndiURL property to the same jndi-name URL present in the JBoss configuration file.
 
