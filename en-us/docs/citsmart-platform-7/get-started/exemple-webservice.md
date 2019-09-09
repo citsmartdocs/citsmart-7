@@ -298,136 +298,121 @@ CITSmart service catalog parameters.
     - **code**: code of the situation.
 
     - **name**: name of the situation.
-
-**Exemplo de atributos de entrada utilizando JSON**
+    
+**Input Attributes Example Using JSON**
 
 - {"userID": "ciclano.de.tal ","startDate":
     "2015-09-16T03:00:00.000Z","endDate": "2015-09-19T03:00:00.000Z"}
 
-Exemplo: detalha incidente/requisição do solicitante
+Example: incident detail/request of applicant
 ----------------------------------------------------
 
 **URL**: /services/request/getById
 
-**Atributos de entrada**
+**Input Attributes**
 
-- **number**: número da solicitação no Citsmart ITSM. Obrigatório quando o
-    atributo **numberOrigin** não for informado.
+- **number** - request number in CITSmart. Required when the **numberOrigin** attribute is not informed.
 
-- **numberOrigin**: número da solicitação no sistema de origem. Obrigatório
-    quando o atributo **number** não for informado.
+- **numberOrigin**: request number in the source system. Required when the **number** attribute is not entered.
 
-**Atributos de Saída**
+**Output Attributes**
 
-- Idem ao /services/request/create
+- Same as /services/request/create
 
-**Exemplo de atributos de entrada utilizando JSON**
+**Input Attributes Example Using JSON**
 
 - {"numberOrigin":"9999"}
 
-Exemplo: inclui ocorrência na solicitação
+Example: includes occurence on request
 ----------------------------------------
 
 **URL**: /services/request/createOccurrence
 
-**Atributos de entrada**
+**Input Attributes**
 
-- **requestNumber**: número da solicitação no CITSmart. Obrigatório quando o
-    atributo **requestNumberOrigin** não for informado.
+- **requestNumber**: request number in CITSmart. Required when the **requestNumberOrigin** attribute is not informed.
 
-- **requestNumberOrigin**: número da solicitação no sistema de origem.
-    Obrigatório quando o atributo **requestNumber** não for informado.
+- **requestNumberOrigin**: request number in the source system. Required when the **requestNumber** attribute is not informed.
 
-- **ocurrence**: objeto da classe **CtOccurrence**, contendo:
+- **ocurrence**: object of class **CtOccurrence**, containing:
 
-    - **numberOrigin**: número da ocorrência no sistema de origem (opcional).
+    - **numberOrigin**: occurrence number in the source system (optional).
 
-    - **description**: descrição da ocorrência.
+    - **description**:  occurrence description.
 
-    - **date**: data de registro da ocorrência.
+    - **date**: date of record of occurrence.
 
-    - **hour**: hora de registro da ocorrência no formato HH:MM.
+    - **hour**:  time to record the occurrence in the format HH: MM.
 
-    - **category**: categoria da ocorrência. Valores possíveis:
-        Acompanhamento, Atualização, Diagnostico, Investigação, Memorando,
-        Informação, Retorno, Sintoma, Contorno, Agendamento.
+    - **category**: category of occurrence. Possible values: Monitoring, Update, Diagnostics, Investigation, Memo, Information, 
+    Return, Symptom, Outline, Scheduling.
 
-    - **reason**: motivo da ocorrência.
+    - **reason**: reason for occurrence.
 
-**Atributos de Saída**
+**Output Attributes**
 
-Objeto da classe **CtOcurrence** contendo:
+Object of class CtOcurrence containing:
 
-- **number**: número da ocorrência no CITSmart.
+- **number**: event number in CITSmart.
 
-- **numberOrigin**: número da ocorrência no sistema de origem.
+- **numberOrigin**: occurrence number in the source system.
 
-- **description**: descrição da ocorrência.
+- **description**: occurrence description.
 
-- **date**: data de registro da ocorrência.
+- **date**: date of record of occurrence.
 
-- **Hour**: hora de registro da ocorrência no formato HH:MM.
+- **Hour**: time to record the occurrence in the format HH: MM.
 
-- **userID**: identificação do usuário responsável pelo registro da
-    ocorrência.
+- **userID**: identification of the user responsible for recording the occurrence.
 
-- **origin**: origem da ocorrência. Valores possíveis: EMAIL, FONE_FAX,
-    VOICE_MAIL, PESSOALMENTE, OUTROS.
+- **origin**: origin of occurrence. Possible values: EMAIL, FONE_FAX, VOICE_MAIL, PERSONALLY, OTHERS.
 
-- **category**: categoria da ocorrência. Valores possíveis: Criacao,
-    Acompanhamento, Atualizacao, Diagnostico, Investigacao, Memorando,
-    Informacao, Retorno, Sintoma, Contorno, Execucao, MudancaSLA,
-    Reclassificacao, Agendamento, Suspensao, Reabertura, Direcionamento,
-    Compartilhamento, CancelamentoTarefa, InicioSLA, SuspensaoSLA, Aprovacao,
-    ReativacaoSLA
+- **category**: category of occurrence. Possible Values: Creation, Monitoring, Update, Diagnosis, Investigation, Memo, Information, 
+Return, Symptom, Outline, Executing, Exchanging, Reclaiming, Reclassification, Schedule, Suspend, Reopen, Targeting, Sharing, 
+Cancellation Task, HomeSLA, SuspensoSLA, Approval, ReactivationSLA
 
-- **elapsedTime**: tempo decorrido (para categoria do tipo Execucao)
+- **elapsedTime**: elapsed time (for Category of Executing type)
 
-- **reason**: motivo da ocorrência.
+- **reason**: reason for occurrence.
 
-- **task**: tarefa associada à ocorrência, contendo:
+- **task**: the task associated with the occurrence, containing:
 
-    - **number**: número da tarefa.
+    - **number**: task number.
 
-    - **name**: nome da tarefa.
+    - **name**: name of the task.
 
-    - **startDateTime**: data e hora de início.
+    - **startDateTime**: start date and time.
 
-    - **endDateTime**: data e hora de execução.
+    - **endDateTime**: date and time of execution.
 
-    - **status**: situação da tarefa, contendo:
+    - **status**: status of the task, containing:
 
-        - **code**: código da situação.
+        - **code**:  location code.
 
-        - **name**: nome da situação.
+        - **name**: name of the situation.
 
-    - **userId**: login do usuário responsável pela execução da tarefa.
+    - **userId**: login of the user responsible for the execution of the task.
 
-**Exemplo de atributos de entrada utilizando JSON**
+**Input Attributes Example Using JSON**
 
-- {"requestNumberOrigin": "9999","occurrence": {"description": "Teste de
-    ocorrência","category": {"code": "Contorno"},"date":
-    "2015-08-20T03:00:00.000Z","hour": "2219"}}
+- {"requestNumberOrigin": "9999","occurrence": {"description": "Occurrence test","category": {"code": "Workaround solution"},"date": "2015-08-20T03:00:00.000Z","hour": "2219"}}
 
-Exemplo: consulta ocorrências da solicitação
+Example: query request occurences
 ------------------------------------------
 
 **URL**: /services/request/listOccurrences
 
-**Atributos de entrada**
+**Input Attributes**
 
-- **requestNumber**: número da solicitação no CITSmart. Obrigatório quando o
-    atributo **requestNumberOrigin** não for informado.
+- **requestNumber**: request number in CITSmart. Required when the **requestNumberOrigin** attribute is not informed.
 
-- **requestNumberOrigin**: número da solicitação no sistema de origem.
-    Obrigatório quando o atributo **requestNumber** não for informado.
+- **requestNumberOrigin**: request number in the source system. Required when the **requestNumber** attribute is not informed.
 
-**Atributos de saída**
+**Output Attributes**
 
-- Coleção de objetos da classe **CtOcurrence**, com os mesmos atributos
-    da /services/request/createOccurrence
+- Collection of objects of class CtOcurrence, with the same attributes of the /services/request/createOccurrence
 
-**Exemplo de atributos de entrada utilizando JSON**
+**Example of input attributes using JSON**
 
 - {"requestNumberOrigin":"9999"}
 
@@ -435,4 +420,4 @@ Exemplo: consulta ocorrências da solicitação
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>7/26/2019 – Anna Martins
+    <b>Updated:</b>09/09/2019 – Larissa Lourenço
