@@ -737,7 +737,7 @@ sudo -u solr /opt/solr/bin/solr start
 
    - The citsmart context is the CITSmart Enterprise ITSM standard.
 
-   **First Access: Enter the URL
+   **First Access: Enter the URL**
 
    ![Access](images/onpremissess.img2.jpg)
 
