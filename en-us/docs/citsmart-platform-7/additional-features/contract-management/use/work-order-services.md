@@ -1,137 +1,135 @@
-title: Cadastro e pesquisa de serviços de ordens de serviço (OS)
-Description: Esta funcionalidade tem o objetivo de cadastrar os serviços de ordens de serviço (OS).
+title: SO service registration and search
+Description: This functionality aims registering the SO service.
 
-# Cadastro e pesquisa de serviços de ordens de serviço (OS)
+# SO service registration and search
 
-Esta funcionalidade tem o objetivo de cadastrar os serviços de ordens de serviço
-(OS).
+This functionality aims registering the SO service.
 
-Como acessar
+How to access
+-------------
+
+1.  Access the **SO Services** feature navigating through the main
+    menu **Integrated Management > Contracts Management > SO Services
+    Registration**.
+
+Preconditions
+-------------
+
+1.  Have a registered service category (see knowledge [Service Category
+    registration and search][1]);
+
+2.  Have a registered service type (see knowledge [Service Type registration and
+    search][2]).
+
+Filters
+-------
+
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
+
+-   Name;
+
+-   Acronym/Abbreviation;
+
+-   Situation;
+
+-   Implantation date.
+
+![Criar](images/service-1.png)
+
+**Figure 1 - SO service screen**
+
+2.  To search for an SO service insert the acronym/abbreviation, name, situation
+    and/or its entry date.
+
+Items list
 ----------
 
-1.  Acesse o menu principal **Gestão Integrada  > Gerência de Contratos >
-    Cadastro de Serviços OS**. Após isso, será apresentada a tela de **Serviço
-    Ordem de Serviço**.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard listing of the
+    functionality: **Name,** **Acronym**, **Situation** and **Implantation
+    date**.
 
-Pré-condições
-------------
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Edit* and *Delete*.
 
-1.  Ter a categoria de serviço cadastrada (ver conhecimento [Cadastro e pesquisa
-    de categoria de serviço](/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/service-category.html));
+![Criar](images/service-2.png)
 
-2.  Ter o tipo de serviço cadastrado (ver conhecimento [Cadastro e pesquisa de
-    tipo de serviço](/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/type-service.html)).
+**Figure 2 - SO service listing screen**
 
-Filtros
-------
+1.  After the search, select the desired record. Once this is done, it will be
+    directed to the registration screen displaying the contents of the selected
+    registry;
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+2.  To edit an SO service entry, click on the *Edit* button. Then, the user will
+    be redirected to the registry screen displaying the content belonging to the
+    selected entry.
 
-    -   Nome;
-
-    -   Sigla/Abreviação;
-
-    -   Situação;
-
-    -   Data de implantação.
-
-    ![Criar](images/service-1.png)
-
-    **Figura 1 - Tela de serviço de OS**
-
-1.  Para realizar a busca de um serviço de OS, informe a sigla/abreviação, nome,
-    situação e/ou data de registro do mesmo.
-
-Listagem de itens
-----------------
-
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Nome, Sigla/Abreviação, Situação** e **Data de
-    implantação**.
-
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Excluir*.
-
-    ![Criar](images/service-2.png)
-    
-    **Figura 2 - Tela de listagem de serviços de OS**
-
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a tela de cadastro exibindo o conteúdo referente ao registro
-    selecionado;
-
-2.  Para alterar os dados do registro de serviço de OS, clique no
-    botão *Editar*. Feito isso, será direcionado para a tela de cadastro
-    exibindo o conteúdo do determinado serviço.
-
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 ----------------------------------
 
-1.  Clique no botão *Novo* (segundo a figura anterior). Feito isso, será
-    apresentada a tela de **Cadastro de Serviço de Ordem de Serviço**, conforme
-    ilustrada na figura a seguir:
+1.  Click on the *New* button (according to the previous figure). Then, the **SO
+    Services Entry Screen** will be displayed, as illustrated on the image
+    below:
 
-    ![Criar](images/service-3.png)
-    
-    **Figura 3 - Tela de cadastro de serviço de OS**
+![Criar](images/service-3.png)
 
-1.  Preencha os campos conforme orientação abaixo:
+**Figure 3 - SO services entry screen**
 
-    -  **Nome do Serviço**: informe o nome do serviço de OS;
+2.  Fill out the fields as instructed below:
 
-    -  **Sigla/Abreviação**: informe uma sigla ou uma abreviação para identificar o
-    serviço, caso achar necessário;
+-   **Service Name**: insert the SO Service name;
 
-    -  **Situação**: informe situação do serviço de OS;
+-   **Acronym/Abbreviation**: insert an acronym or an Abbreviation to identify
+    the service, if necessary;
 
-    -  **Data de implantação**: definir a data que será implementado o serviço;
+-   **Situation**: insert the SO service current status;
 
-    -  **Categoria do Serviço**: informe a categoria do serviço de OS;
+-   **Implantation date**: define the date the service will be implemented;
 
-    -  **Detalhamento do Serviço**: descreva os detalhes do serviço de OS;
+-   **Service Category**: insert the SO service category;
 
-    -  **Objetivo do Serviço**: descreva o objetivo do serviço de OS;
+-   **Service Details**: describe the SO service details;
 
-    -  **Tipo de Evento**: informe o tipo de evento do serviço de OS;
+-   **Objective of Service/Goal of Service**: describe the SO service goal;
 
-    -  **Importância do Serviço ao Negócio**: informe a importância do serviço de
-    OS ao negócio;
+-   **Event Type**: insert the SO service event type;
 
-        -  **Alta**: informá-lo caso o serviço seja imprescindível para o
-        funcionamento do negócio;
+-   **Importante of Bussiness Service**: insert the importance of the SO
+    service to the businesse;
 
-        -  **Média**: informá-la caso o serviço seja importante para o negócio, mas
-        a produtividade não seja totalmente dependente dele;
+    -   **High**: the service is indispensable to the keep the business running.
 
-        -  **Baixa**: informá-lo se o serviço a ser realizado for necessário para o
-        dia-a-dia da empresa, mas a sua ausência não cause situações drásticas;
+    -   **Medium**: the service is important, but productivity is not entirely
+        dependant on it.
 
-        -  **Normal**: informá-lo caso o serviço a ser realizado não interfira no
-        cotidiano produtivo da organização;
+    -   **Low**: the service is necessary for the business' daily operations,
+        but its absence will not cause dramatic issues.
 
-        -  **A combinar**: informá-lo quando não se sabe o tipo de importância do
-        serviço ao negócio no momento do registro.
+    -   **Normal**: the service to be performed will not affect the business'
+        daily productivity.
 
-    -  **Local de Execução dos Serviços**: informe o local onde o serviço de OS
-    será executado;
+    -   **To be defined**: the service importance is unknown on the moment of
+        the request.
 
-        -  **Interno**: o serviço será realizado dentro da organização;
+-   **Service Execution Location**: insert the location the service will be
+    performed;
 
-        -  **Externo**: o serviço será realizado fora da organização. Por exemplo:
-        em outra organização ou em uma filial;
+    -   **Internal**: the service will be executed within the organization;
 
-        -  **Interno/Externo**: o serviço poderá ser realizado dentro da
-        organização como fora.
+    -   **External**: the service will be executed outside the organization. For
+        example: in another organization ou branch office;
 
-1.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
-    onde a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria.
+    -   **Internal/External**: the service can be executed within or outside the
+        organization.
 
+3.  Click on the *Save* the button to confirm the entry, at which date, time and
+    user will automatically be stored for a future audit.
+
+[1]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/service-category.html
+[2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/type-service.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/19/2019 – Anna Martins
+    <b>Updated:</b>09/09/2019 – Anna Martins
