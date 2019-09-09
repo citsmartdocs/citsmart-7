@@ -682,7 +682,7 @@ mkdir /opt/citsmart/upload
     -->
     ```
 
-    ***Remove the “<!-- SET YOUR SSL OPTIONS” e “-->”***:
+    Remove the “<!-- SET YOUR SSL OPTIONS” e “-->”:
 
     ```sh
     <connector name="https" protocol="HTTP/1.1" scheme="https" socket-binding="https" secure="true">
