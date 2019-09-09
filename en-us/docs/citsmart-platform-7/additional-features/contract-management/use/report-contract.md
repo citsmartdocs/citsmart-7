@@ -1,62 +1,71 @@
-title:  Geração de relatórios - Gerência de Contratos
-Description: Esse relatório tem o objetivo de apresentar as informações da utilização de UST nos contratos. 
-# Geração de relatórios - Gerência de Contratos
+title: Report generation – Contract management
+Description: Report generation – Contract management
 
-Gerando relatório de uilização de UST
------------------------------------------
+# Report generation – Contract management
 
-*Esse relatório tem o objetivo de apresentar as informações da utilização de UST nos contratos.*
+Generating tsus usage report
+----------------------------
 
-*Como acessar*
+*This report is intended to present information on the use of TSU in contracts*.
 
-1. Acesse a funcionalidade de Relatório de Utilização de USTs através da navegação no menu principal 
-**Relatórios > Gerência de Contratos > Utilização de USTs**.
+### How to access
 
-*Filtros*
+1.  Access the TSUs Usage Reporting feature by navigating the main
+    menu **Reports > Contracts Management > TSU Use**.
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+### Filters
 
-    - Ano;
-    - Contrato.
-    
-2. Será apresentada a tela de **Geração de Relatório de Utilização de USTs**, conforme ilustrada na figura a seguir:
+1.  The following filter enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to locate the desired
+    items as shown in the figure below:
 
-    ![USTs](images/rel-contr.img1.jpg)
-    
-    **Figura 1 - Tela de geração de relatório de utilização de USTs**
-    
-3. Defina os filtros conforme sua necessidade:
+-   Year;
 
-   - **Ano**: selecione o ano desejado;
-   - **Contrato**: selecione o contrato para verificar as informações sobre a utilização de UST no mesmo.
-   
-Gerando relatório de acompanhamento de USTS
-----------------------------------------------
+-   Contract.
 
-*Esse relatório tem o objetivo de apresentar as informações de acompanhamento do uso das USTs.*
+2.  The **Usage Report Generation** screen will be displayed, as shown in the
+    following figure:
 
-*Como acessar*
+![USTs](images/rel-contr.img1.jpg)
 
-1. Acesse a funcionalidade de Relatório de Acompanhamento de USTs através da navegação no menu principal 
-**Relatórios > Gerência de Contratos > Acompanhamento USTs**.
+**Figure 1 - TSU usage report generation screen**
 
-*Filtros*
+3.  Set the filters as needed:
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+    -   **Year**: select the desired year;
 
-    - Contrato.
-    
-2. Será apresentada a tela de **Geração de Relatório de Acompanhamento de USTs**, conforme ilustrada na figura a seguir:
+    -   **Contract**: Select the agreement to verify information about the use
+        of TSU in it.
 
-    ![Acompanhamento](images/rel-contr.img2.jpg)
-    
-    **Figura 2 - Tela de geração de relatório de acompanhamento de USTs**
-    
-3. Selecione o contrato para verificar o uso de USts no mesmo.
+Generating tsu follow-up report
+-------------------------------
+
+*This report aims to present information monitoring the use of the TSUs*.
+
+### How to access
+
+1.  Access the TSU Tracking Report functionality by navigating the main
+    menu **Reports > Contracts Management > TSU Monitoring**.
+
+### Filters
+
+1.  The following filter enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to locate the desired
+    items as shown in the figure below:
+
+   -   Contract
+
+2.  The **TSU Monitoring Report Generation** screen will be displayed, as shown
+    in the following figure:
+
+![USTs](images/rel-contr.img1.jpg)
+
+**Figure 2 - TSU tracking report generation screen**
+
+3.  Select the contract to verify the use of TSU in it.
+
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/02/2019 - Larissa Lourenço
+    <b>Updated:</b>09/09/2019 - Anna Martins
