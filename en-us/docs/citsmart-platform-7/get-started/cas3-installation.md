@@ -1,34 +1,31 @@
-title: Manual de instalação do Central Authentication Service (CAS) - versão 3.0 (ITSM)
-Description: Trata-se de um pacote de software que implementa um protocolo de autenticação única para a web, para permitir que um usuário acesse múltiplas aplicações depois de fornecer suas credenciais (como usuário e senha) apenas uma vez.
+title: Central Authentication Service (CAS) installation guide - version 3.0 (ITSM)
+Description: This is a software package that implements a single authentication protocol for the web.
 
-# Manual de instalação do Central Authentication Service (CAS) - versão 3.0 (ITSM)
+# Central Authentication Service (CAS) installation guide - version 3.0 (ITSM)
 
-Trata-se de um pacote de software que implementa um protocolo de autenticação
-única para a web, para permitir que um usuário acesse múltiplas aplicações
-depois de fornecer suas credenciais (como usuário e senha) apenas uma vez.
+This is a software package that implements a single authentication protocol for the web, to allow a user to access multiple 
+applications after providing their credentials (such as username and password) only once.
 
-!!! info "IMPORTANTE"
+!!! info "IMPORTANT"
 
-    Esta versão (3.0) é aplicável exclusivamente para o produto ITSM, já a
-    linha GRP deve usar a [versão 5.0](1)
+    This version (3.0) is only applicable for ITSM solution, since GRP solutions must use [version 5.0](1).
 
 Download
 -------
 
-Deve ser usada a versão customizada pela CITSmart Corporation, pois é a adequada
-para uso em nossas soluções: [http://files.citsmart.com](http://files.citsmart.com/)
+The version customized by CITSmart Corporarion must be used as it is suitable for use in our 
+solutions: [http://files.citsmart.com](http://files.citsmart.com/)
 
-!!! info "IMPORTANTE"
+!!! info "IMPORTANT"
 
-    Este acesso exigirá login e senha controlados pela CITSmart Corporation.
+    This access will require login and password controlled by CITSmart Corporation.
 
-Banco de dados
+Database
 -------------
 
-Para realizar autenticação no banco de dados:
+To perform authentication on the database:
 
-1.  Adicionar os parâmetros a seguir no arquivo de configuração do
-    cas.properties:
+1.  **Add** the following parameters to the cas.properties configuration file:
 
     -   cas.database.jdbc.driver=org.postgresql.Driver
 
@@ -38,14 +35,14 @@ Para realizar autenticação no banco de dados:
 
     -   cas.database.jdbc.password=postgres
 
-2.  Pronto, agora é apenas realizar as demais configurações típicas do CAS.
+2.  All you have to do now is to perform the other typical CAS configurations.
 
 
-[1]:/pt-br/citsmart-platform-7/get-started/cas5-installation.html
+[1]:/en-us/citsmart-platform-7/get-started/cas5-installation.html
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/26/2019 – Anna Martins
+    <b>Updated:</b>09/06/2019 – Larissa Lourenço
 

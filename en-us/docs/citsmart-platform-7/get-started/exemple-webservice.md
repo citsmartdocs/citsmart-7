@@ -1,354 +1,307 @@
-title: Exemplos reais de utilização de webservices para inegração com o
-Gerenciamento de Serviços
+title: Real-world examples of using web services to integrate with service management
 
-Description: Exemplos reais de utilização de webservices para inegração com o Gerenciamento de Serviços
+Description: Real-world examples of using web services to integrate with service management
 
-# Exemplos reais de utilização de webservices para inegração com o Gerenciamento de Serviços
+# Real-world examples of using web services to integrate with service management
 
-Pré-condições
+Preconditions
 ------------
 
-1.  Antes de se utilizar qualquer operação REST do CITSmart, é necessário que o
-    usuário esteja autenticado.
+1. Before using any REST operation of CITSmart, it is necessary that the user is authenticated.
 
-2.  A autenticação é feita através da operação REST login na
-    URL **/services/login**, que recebe um objeto **CtLogin** contendo os
-    atributos **userName**, **password** e **platform**.
+2. Authentication is done through the REST login operation in the URL **/services/login**, which receives a **CtLogin** object 
+containing the **userName, password**, and **platform** attributes.
 
-3.  O atributo **platform** deve conter a identificação do site que está
-    solicitando o serviço.
+3. The **platform** attribute must contain the ID of the site that is requesting the service.
 
-4.  A operação login retorna um valor alfanumérico no atributo **SessionID**.
-    Este mesmo **SessionID** deve ser utilizado nas outras chamadas REST. O
-    objeto retornado contém o código e descrição do erro em caso de problemas na
-    execução da operação login.
+4. The login operation returns an alphanumeric value in the **SessionID** attribute. This same **SessionID** must be used in the 
+other REST calls. The returned object contains the code and description of the error in case of problems in executing the login 
+operation.
 
-5.  O usuário autenticado compõe a chave para sincronização dos dados, quando o
-    atributo **synchronize** tiver o valor **true**.
+5. The authenticated user composes the key for data synchronization, when the **synchronize** attribute is set to **true**.
 
-6.  Os serviços de inclusão e atualização de solicitações contam com o
-    atributo **synchronize**. Quando este atributo for **true**, o
-    cadastro de usuário e o catálogo serviços serão automaticamente criados ou
-    atualizados no CITSmart a partir das informações enviadas na solicitação do
-    WebService.
+6. The request inclusion and update services rely on the **synchronize** attribute. When this attribute is true, the user 
+registration and catalog services are automatically created or updated in ITSM Citsmart from the information sent in the Web 
+Service request.
 
-!!! note "NOTA"
+!!! note "NOTE"
 
-     Todos os serviços REST criados no CITSmart recebem um objeto de entrada e
-     retornam um objeto. Em caso de erro, o objeto de retorno contém o código e a
-     descrição do erro. Quando não houver erro, além dos atributos definidos para
-     cada serviço, o objeto de retorno contém a data e hora de execução e o id da
-     operação. O CITSmart garante que toda solicitação é registrada na sua base
-     de dados e um ID da operação é retornado para o solicitante, mesmo em caso
-     de erro.
+     All REST services created in Citsmart receive an input object and return an object. In case of error, the return object 
+     contains the code and description of the error. When there is no error, in addition to the attributes defined for each 
+     service, the return object contains the date and time of execution and the id of the operation. Citsmart guarantees that every 
+     request is recorded in its database and an operation ID is returned to the requester, even in case of an error.
 
-Exemplo: criação de incidente/requisição
+Example: incident/request creation
 ---------------------------------------
 
 **URL**: /services/request/create
 
-**Atributos de Entrada**
+**Input Attributes**
 
--   **synchronize**: indica se as informações de usuário e/ou serviço serão
-    sincronizadas.
+-   **synchronize**: indicates whether the user and / or service information will be synchronized.
 
--   **sourceRequest**: informações da solicitação origem da
-    classe **CtRequest**, contendo:
+-   **sourceRequest**: request information from the **CtRequest** class, containing:
 
-    -   **numberOrigin**: número da solicitação no sistema de origem
-        (obrigatório. Este atributo é necessário para que o CITSmart mantenha o
-        DE-PARA entre sua base de dados e o número original do sistema origem.
+    -   **numberOrigin**: the request number in the source system (mandatory. This attribute is required for CITSmart to keep DE-
+    PARA between its database and the original source system number.
 
-    -   **type**: tipo da solicitação (obrigatório). Valores possíveis:
-        I=Incidente ou R=Requisição.
+    -   **type**: request type (required). Possible values: I = Incident or R = Request.
 
-    -   **description**: descrição do incidente ou requisição (obrigatório).
+    -   **description**: description of the incident or request (required).
 
-    -   **userID**: identificação de usuário do solicitante (obrigatório). Será
-        incluído se não existir na base do Citsmart e o
-        atributo **synchronize** for igual a true.
+    -   **userID**: applicant's user ID (required). It will be included if it does not exist in the Citsmart database and the 
+    synchronize attribute is equal to true.
 
-    -   **contact**: dados do solicitante. Obrigatório quando o solicitante não
-        existir no CITSmart e o atribut o**synchronize** for igual a true.
+    -   **contact**: data of the applicant. Required when the requestor does not exist in CITSmart and the synchronize attribute is 
+    equal to true).
 
-        -   **name**: nome do solicitante (obrigatório).
+        -   **name**: applicant name (required).
 
-        -   **phoneNumber**: telefone do solicitante (obrigatório).
+        -   **phoneNumber**: applicant's phone number (required).
 
-        -   **e-mail**: e-mail do solicitante (obrigatório).
+        -   **e-mail**: applicant's e-mail (required).
 
-    -   **contractID**: número do contrato no CITSmart (opcional). Se não for
-        informado, o Citsmart vai incluir a solicitação vinculada ao contrato
-        default parametrizado no serviço.
+    -   **contractID**: contract number in CITSmart (optional). If not informed, Citsmart will include the request linked to the 
+    default contract parameterized in the service.
 
-    -   **service**: dados do serviço (opcional). Se não for informado, o
-        Citsmart vai incluir a solicitação vinculada ao serviço default
-        parametrizado no cadastro de WebService.
+    -   **service**: service data (optional). If not informed, Citsmart will include the request linked to the default service 
+    parameterized in the WebService registry.
 
-        -   **code**: código do serviço. Opcional, se nome do serviço for
-            informado).
+        -   **code**: service code. Optional, if service name is given).
 
-        -   **name**: nome do serviço. Obrigatório quando o serviço não existir
-            no CITSmart e o atributo **synchronize** for igual a true.
+        -   **name**: service Name. Required when the service does not exist in CITSmart and the synchronize attribute is true.
 
-        -   **category**: categoria do serviço. Obrigatório quando o serviço não
-            existir no CITSmart e o atributo **synchronize** for igual a true.
+        -   **category**: category of service. Required when the service does not exist in CITSmart and the synchronize attribute 
+        is true.
 
-            -   **code**: código da categoria.
+            -   **code**: category code.
 
-            -   **name**: nome da categoria.
+            -   **name**: category name.
 
-    -   **urgency**: urgência da solicitação (opcional). Valores possíveis:
-        H=Alta, M=Média, L=Baixa. Se não for informada, a urgência será
-        calculada partir dos parâmetros do catálogo de serviço do CITSmart.
+    -   **urgency**: urgency of the request (optional). Possible values: H = High, M = Average, L = Low. If not informed, the 
+    urgency will be calculated from the CITSmart service catalog parameters.
 
-    -   **impact**: impacto da solicitação (opcional). Valores possíveis:
-        H=Alto, M=Médio, L=Baixo. Se não for informado, o impacto será calculado
-        a partir dos parâmetros do catálogo de serviço do CITSmart.
+    -   **impact of request (optional)**: Possible values: H = High, M = Medium, L = Low. If not informed, the impact will be 
+    calculated from the CITSmart service catalog parameters.
 
-    -   **groupId**: sigla do grupo executor no CITSmart (opcional). Se não for
-        informada, o grupo executor será obtido a partir dos parâmetros do
-        catálogo de serviço do CITSmart.
+    -   **groupId**: execution group acronym in CITSmart (optional). If not informed, the executor group will be obtained from the 
+    CITSmart service catalog parameters.
 
-**Atributos de Saída**
+**Output Attributes**
 
-Os atributos de saída são compostos de todos os atributos de entrada da
-classe **CtRequest**, mais as seguintes informações:
+Output Attributes are composed of all Input Attributes of the **CtRequest** class plus the following information:
 
--   **number**: número da solicitação criada no Citsmart ITSM.
+- **number**: number of the request created in CITSmart.
 
--   **startSLA**: data e hora de início do SLA.
+- **startSLA**: SLA start date and time.
 
--   **endSLA**: data e hora de término do SLA.
+- **endSLA**: SLA end date and time.
 
--   **status**: situação da solicitação, contendo:
+- **status**: status of the request, containing:
 
-    -   **code**: código da situação.
+    - **code**: code of the situation.
 
-    -   **name**: nome da situação.
+    - **name**: name of the situation.
 
--   **currentTask**: tarefa atual, contendo:
+- **currentTask**: current task, containing:
 
-    -   **number**: número da tarefa
+    - **number**: task number
 
-    -   **name**: nome da tarefa.
+    - **name**: name of the task.
 
-    -   **startDateTime**: data e hora de início
+    - **startDateTime**: start date and time
 
-    -   **status**: situação da tarefa, contendo:
+    - **status**: task status, containing:
 
-        -   **code**: código da situação.
+        - **code**: code of the situation.
 
-        -   **name**: nome da situação.
+        - **name**: name of the situation.
 
-    -   **userId**: login do usuário responsável pela tarefa.
+    - **userId**: login of the user responsible for the task.
 
-    -   **groupId**: sigla do grupo responsável pela tarefa.
+    - **groupId**: acronym of the group responsible for the task.
 
-**Exemplo de atributos de entrada utilizando JSON**
+**Input Attributes Example Using JSON**
 
--   {"synchronize": true,"sourceRequest": {"numberOrigin": "9999", "type": "R",
-    "userID": "fulano.de.tal", "contact": { "phoneNumber": "61 84460708",
-    "email": "fulano.de.tal\@centralit.com.br", "department": "Departamento do
-    Fulano","name": "Fulano de tal"}, "description": "Inclusão de solicitação
-    utilizando REST v3","service": {"name": "SERVICO.TESTE.1","category":
-    {"name": "Categoria 1"}},"contractID": "1","urgency": "H","impact": "H" }}
+- {"Synchronize": true, "sourceRequest": {"numberOrigin": "9999", "type": "R", "userID": " 61 84460708 "," email ":" 
+fulano.de.tal@centralit.com.br "," department ":" Department of the So-and-so "," name ":" So-and-so "}," description ":" REST v3 
+"," service ": {" name ":" SERVICO.TESTE.1 "," category ": {" name ":" Category 1 "}}," contractID ":" 1 "," urgency " : "H", 
+"impact": "H"}}
 
-Supondo que no atributo **platform** no login foi informado **ENAP** e
-considerando o atributo synchronize igual a **true**, o CITSmart irá:
+Assuming that the **platform** attribute in the login was informed by **ENAP** and considering the synchronize attribute equal to 
+true, the CITSmart will:
 
--   Verificar se existe um DE-PARA do contrato 1 para o usuário ENAP;
+- Check if there is an DE-PARA of contract 1 for the ENAP user;
 
--   Incluir o solicitante no cadastro de usuários, caso não exista na base;
+- Include the applicant in the user registry, if it does not exist in the database;
 
--   Incluir o serviço no catálogo de serviços do contrato 1, caso não exista na
-    base e registrar o DE-PARA de serviços para o cliente ENAP;
+- Include the service in the service catalog of contract 1, if it does not exist in the database and register the service DE-PARA 
+for the ENAP client;
 
--   Incluir a solicitação com número de origem 9999;
+- Include request with source number 9999;
 
--   Registrar o DE-PARA da solicitação de origem 9999 para o cliente ENAP.
+- Register the DEPUT from the 9999 source request to the ENAP client.
 
-Exemplo: alteração de informações do incidente/requisição
+Example: change incident/request information
 ------------------------------------------------------
 
 **URL**: /services/request/update
 
-**Atributos de Entrada**
+**Input Attributes**
 
--   **synchronize**: indica se as informações de usuário e/ou serviço serão
-    sincronizadas.
+- **synchronize**: indicates whether the user and / or service information will be synchronized.
 
--   **request**: informações da solicitação origem da classe **CtRequest**,
-    contendo:
+- **request**: request information from the **CtRequest** class, containing:
 
-    -   quando o atributo **numberOrigin** não for informado.
+    - when the **numberOrigin** attribute is not informed.
 
-    -   **numberOrigin**: número da solicitação no sistema de origem.
-        Obrigatório quando o atributo **number** não for informado.
+    - **numberOrigin**: the request number on the source system. Required when the **number** attribute is not entered.
 
-    -   **description**: descrição do incidente ou requisição (opcional).
+    - **description**: description of the incident or request (optional).
 
-    -   **userID**: identificação de usuário do solicitante (obrigatório). Será
-        incluído se não existir na base do CITSmart e o
-        atributo**synchronize** for igual a true.
+    - **userID**: applicant's user ID (required). It will be included if it does not exist in the Citsmart database and the 
+    synchronize attribute is equal to true.
 
-    -   **number**: número da solicitação no CITSmart (obrigatório).
+    - **number**: request number in CITSmart (required).
 
-    -   **contact**: dados do solicitante. Obrigatório quando o solicitante não
-        existir no CITSmart e o atributo **synchronize** for igual a true.
+    - **contact**: data of the applicant. Required when the requestor does not exist in CITSmart and the synchronize attribute is 
+    equal to true).
 
-        -   **name**: nome do solicitante (obrigatório).
+        - **name**: applicant name (required).
 
-        -   **phoneNumber**: telefone do solicitante (obrigatório).
+        - **phoneNumber**: applicant's phone number (required).
 
-        -   **e-mail**: e-mail do solicitante (obrigatório).
+        - **e-mail**: applicant's e-mail (required)).
 
-    -   **service**: dados do serviço (opcional).
+    - **service**: service data (optional).
 
-        -   **code**: código do serviço. Opcional, se nome do serviço for
-            informado).
+        - **code**: service code. Optional, if service name is given).
 
-        -   **name**: nome do serviço. Obrigatório quando o serviço não existir
-            no CITSmart e o atributo **synchronize** for igual a true.
+        - **name**: service Name. Required when the service does not exist in CITSmart and the synchronize attribute is true.
 
-        -   **category**: categoria do serviço. Obrigatório quando o serviço não
-            existir no CITSmart e o atributo **synchronize** for igual a true.
+        - **category**: category of service. Required when the service does not exist in CITSmart and the synchronize attribute is 
+        true.
 
-            -   **code**: código da categoria.
+            - **code**: category code.
 
-            -   **name**: nome da categoria.
+            - **name**: category name.
 
-    -   **urgency**: urgência da solicitação (opcional). Valores possíveis:
-        H=Alta, M=Média, L=Baixa. Se não for informada, a urgência será
-        calculada partir dos parâmetros do catálogo de serviço do CITSmart ITSM.
+    - **urgency**: urgency of the request (optional). Possible values: H = High, M = Average, L = Low. If not informed, the urgency 
+    will be calculated from the CITSmart service catalog parameters.
 
-    -   **impact**: impacto da solicitação (opcional). Valores possíveis:
-        H=Alto, M=Médio, L=Baixo. Se não for informado, o impacto será calculado
-        a partir dos parâmetros do catálogo de serviço do CITSmart ITSM.
+    - **impact**: impact of request (optional). Possible values: H = High, M = Medium, L = Low. If not informed, the impact will be 
+    calculated from the CITSmart service catalog parameters.
 
-**Atributos de Saída**
+**Output Attributes**
 
--   Idem ao anterior.
+- Same as above
 
-**Exemplo de atributos de entrada utilizando JSON**
+**Input Attributes Example Using JSON**
 
--   {"synchronize": true,"request": {"numberOrigin": "9999", "userID":
-    "ciclano.de.tal", "contact": {"phoneNumber": "61 84460709", "email":
-    "ciclano.de.tal\@centralit.com.br", "department": "Departamento do
-    Ciclano","name": "Ciclano de tal"}, "description": "Inclusão de solicitação
-    utilizando REST v3 - Alterada","service": {"name":
-    "SERVICO.TESTE.2","category": {"name": "Categoria 2"}}}}
+- {"Synchronize": true, "request": {"numberOrigin": "9999", "userID": "ciclano.de.tal", "contact": {"phoneNumber": "61 84460709", 
+"email" "Cyclone", "name": "Cyclone of such"}, "description": "Inclusion of request using REST v3 - Changed", 
+"cyclano.de.tal@centralit.com.br", "department" "Service": {"name": "SERVICO.TESTE.2", "category": {"name": "Category 2"}}}}
 
-Supondo que no atributo **platform** no login foi informado **ENAP** e
-considerando o atributo synchronize igual a **true**, o CITSmart irá:
+Assuming that the **platform** attribute in the login was informed by **ENAP** and considering the synchronize attribute equal to 
+true, the CITSmart will:
 
--   Incluir o solicitante no cadastro de usuários, caso não exista na base;
+- Include the applicant in the user registry, if it does not exist in the database;
 
--   Incluir o serviço no catálogo de serviços do contrato 1, caso não exista na
-    base e registrar o DE-PARA de serviços para o cliente ENAP;
+- Include the service in the service catalog of contract 1, if it does not exist in the database and register the service DE-PARA 
+for the ENAP client;
 
--   Alterar o solicitante e serviço da solicitação com número de origem 9999.
+- Change the requestor and service from the request with source number 9999.
 
-Exemplo: alteração da situação de um incidente/requisição
+Example: changing the status of an incident/request
 --------------------------------------------------------
 
 **URL**: /services/request/updateStatus
 
-**Atributos de Entrada**
+**Input Attributes**
 
--   **number**: número da solicitação no Citsmart ITSM. Obrigatório quando o
-    atributo **numberOrigin** não for informado.
+- **number**: request number in CITSmart. Required when the **numberOrigin** attribute is not informed.
 
--   **numberOrigin**: número da solicitação no sistema de origem. Obrigatório
-    quando o atributo **number** não for informado.
+- **numberOrigin**: the request number on the source system. Required when the **number** attribute is not entered.
 
--   **status**: situação da solicitação, contendo:
+- **status**: status of the request, containing:
 
-    -   **code**: código da situação (obrigatório). Valores possíveis:
-        EmAndamento, Suspensa, Cancelada, Resolvida, Reaberta, Fechada.
+    - **code**: situation code (required). Possible values: On End, Suspended, Canceled, Resolved, Reopened, Closed.
 
-    -   **Details**: complemento da justificativa para alteração da situação
-        (opcional).
+    - **Details**: complement of justification to change the situation (optional).
 
-**Atributos de Saída**
+**Output Attributes**
 
--   Idem ao anterior
+- Same as above
 
-**Exemplo de atributos de entrada utilizando JSON**
+**Input Attributes Example Using JSON**
 
--   {"numberOrigin": "9999","status": {"code": "Suspensa","details": "Teste de
-    Integração"}}
+- {"numberOrigin": "9999","status": {"code": "Suspended","details": "Integration Testing"}}
 
-Exemplo: consulta incidentes e requisições do solicitante
------------------------------------------------------
+Example: inquire the applicant's incidents and requests
+---------------------------------------------------------
 
 **URL**: /services/request/getByUser
 
-**Atributos de Entrada**
+**Input Attributes**
 
--   **userID**: identificação de usuário do solicitante (obrigatório).
+- **userID**: applicant's user ID (required).
 
--   **description**: descrição do incidente ou requisição (opcional).
+- **description**: description of the incident or request (optional).
 
--   **startDate**: data de início da solicitação (opcional).
+- **startDate**: start date of the request (optional).
 
--   **endDate**: data de finalização da solicitação (opcional).
+- **endDate**: end date of the request (optional).
 
--   **service**: dados do serviço (opcional).
+- **service**: service data (optional).
 
-    -   **code**: código do serviço.
+    - **code**: service code.
 
-    -   **name**: nome do serviço.
+    - **name**: name of the service.
 
--   **contractID**: número do contrato no CITSmart (opcional).
+- **contractID**: contract number in CITSmart (optional).
 
--   **status**: situação da solicitação (opcional), contendo:
+- **status**:  request status (optional), containing:
 
-    -   **code**: código da situação. Valores possíveis: *Em Andamento*,
-        *Suspensa, Cancelada, Resolvida, Reaberta, Fechada, Reclassificada*.
+    - **code**: location code. Possible values: **Ending, Suspended, Canceled, Resolved, Reopened, Closed, Reclassified**.
 
-**Atributos de saída**
+**Output Attributes**
 
-Coleção de objetos da classe **CtRequest** contendo:
+Collection of objects of class **CtRequest** containing:
 
--   **number**: número da solicitação no Citsmart ITSM.
+- **number**: request number in CITSmart.
 
--   **numberOrigin**: número da solicitação no sistema de origem.
+- **numberOrigin**: the request number on the source system.
 
--   **type**: Tipo da solicitação. Valores possíveis: I=Incidente ou
-    R=Requisição
+- **type**: type of request. Possible values: I = Incident or R = Request
 
--   **description**: descrição do incidente ou requisição.
+- **description**: description of the incident or request.
 
--   **userID**: identificação de usuário do solicitante.
+- **userID**: user ID of the requester.
 
--   **urgency**: urgência da solicitação (opcional). Valores possíveis: H=Alta,
-    M=Média, L=Baixa. Se não for informada, a urgência será calculada partir dos
-    parâmetros do catálogo de serviço do CITSmart.
+- **urgency**:  urgency of the request (optional). Possible values: H = High, M = Average, L = Low. If not informed, the urgency 
+will be calculated from the CITSmart service catalog parameters.
 
--   **impact**: impacto da solicitação (opcional). Valores possíveis: H=Alto,
-    M=Médio, L=Baixo. Se não for informado, o impacto será calculado a partir
-    dos parâmetros do catálogo de serviço do CITSmart.
+- **impact**: impact of request (optional). Possible values: H = High, M = Medium, L = Low. If not informed, the impact will be 
+calculated from the CITSmart service catalog parameters.
 
--   **groupId**: sigla do grupo executor no CITSmart (opcional). Se não for
-    informada, o grupo executor será obtido a partir dos parâmetros do catálogo
-    de serviço do CITSmart.
+- **groupId**: execution group acronym in CITSmart (optional). If not informed, the executor group will be obtained from the 
+CITSmart service catalog parameters.
 
--   **startDateTime**: data e hora de início da solicitação.
+- **startDateTime**: the start date and time of the request.
 
--   **startSLA**: data e hora de início do SLA.
+-  **startSLA**: SLA start date and time.
 
--   **endSLA**: data e hora de término do SLA.
+- **endSLA**: end date and time of the SLA.
 
--   **status**: situação da solicitação, contendo:
+- **status**: status of the request, containing:
 
-    -   **code**: código da situação.
+    - **code**: code of the situation.
 
-    -   **name**: nome da situação.
+    - **name**: name of the situation.
 
 **Exemplo de atributos de entrada utilizando JSON**
 
--   {"userID": "ciclano.de.tal ","startDate":
+- {"userID": "ciclano.de.tal ","startDate":
     "2015-09-16T03:00:00.000Z","endDate": "2015-09-19T03:00:00.000Z"}
 
 Exemplo: detalha incidente/requisição do solicitante
@@ -358,19 +311,19 @@ Exemplo: detalha incidente/requisição do solicitante
 
 **Atributos de entrada**
 
--   **number**: número da solicitação no Citsmart ITSM. Obrigatório quando o
+- **number**: número da solicitação no Citsmart ITSM. Obrigatório quando o
     atributo **numberOrigin** não for informado.
 
--   **numberOrigin**: número da solicitação no sistema de origem. Obrigatório
+- **numberOrigin**: número da solicitação no sistema de origem. Obrigatório
     quando o atributo **number** não for informado.
 
 **Atributos de Saída**
 
--   Idem ao /services/request/create
+- Idem ao /services/request/create
 
 **Exemplo de atributos de entrada utilizando JSON**
 
--   {"numberOrigin":"9999"}
+- {"numberOrigin":"9999"}
 
 Exemplo: inclui ocorrência na solicitação
 ----------------------------------------
@@ -379,80 +332,80 @@ Exemplo: inclui ocorrência na solicitação
 
 **Atributos de entrada**
 
--   **requestNumber**: número da solicitação no CITSmart. Obrigatório quando o
+- **requestNumber**: número da solicitação no CITSmart. Obrigatório quando o
     atributo **requestNumberOrigin** não for informado.
 
--   **requestNumberOrigin**: número da solicitação no sistema de origem.
+- **requestNumberOrigin**: número da solicitação no sistema de origem.
     Obrigatório quando o atributo **requestNumber** não for informado.
 
--   **ocurrence**: objeto da classe **CtOccurrence**, contendo:
+- **ocurrence**: objeto da classe **CtOccurrence**, contendo:
 
-    -   **numberOrigin**: número da ocorrência no sistema de origem (opcional).
+    - **numberOrigin**: número da ocorrência no sistema de origem (opcional).
 
-    -   **description**: descrição da ocorrência.
+    - **description**: descrição da ocorrência.
 
-    -   **date**: data de registro da ocorrência.
+    - **date**: data de registro da ocorrência.
 
-    -   **hour**: hora de registro da ocorrência no formato HH:MM.
+    - **hour**: hora de registro da ocorrência no formato HH:MM.
 
-    -   **category**: categoria da ocorrência. Valores possíveis:
+    - **category**: categoria da ocorrência. Valores possíveis:
         Acompanhamento, Atualização, Diagnostico, Investigação, Memorando,
         Informação, Retorno, Sintoma, Contorno, Agendamento.
 
-    -   **reason**: motivo da ocorrência.
+    - **reason**: motivo da ocorrência.
 
 **Atributos de Saída**
 
 Objeto da classe **CtOcurrence** contendo:
 
--   **number**: número da ocorrência no CITSmart.
+- **number**: número da ocorrência no CITSmart.
 
--   **numberOrigin**: número da ocorrência no sistema de origem.
+- **numberOrigin**: número da ocorrência no sistema de origem.
 
--   **description**: descrição da ocorrência.
+- **description**: descrição da ocorrência.
 
--   **date**: data de registro da ocorrência.
+- **date**: data de registro da ocorrência.
 
--   **Hour**: hora de registro da ocorrência no formato HH:MM.
+- **Hour**: hora de registro da ocorrência no formato HH:MM.
 
--   **userID**: identificação do usuário responsável pelo registro da
+- **userID**: identificação do usuário responsável pelo registro da
     ocorrência.
 
--   **origin**: origem da ocorrência. Valores possíveis: EMAIL, FONE_FAX,
+- **origin**: origem da ocorrência. Valores possíveis: EMAIL, FONE_FAX,
     VOICE_MAIL, PESSOALMENTE, OUTROS.
 
--   **category**: categoria da ocorrência. Valores possíveis: Criacao,
+- **category**: categoria da ocorrência. Valores possíveis: Criacao,
     Acompanhamento, Atualizacao, Diagnostico, Investigacao, Memorando,
     Informacao, Retorno, Sintoma, Contorno, Execucao, MudancaSLA,
     Reclassificacao, Agendamento, Suspensao, Reabertura, Direcionamento,
     Compartilhamento, CancelamentoTarefa, InicioSLA, SuspensaoSLA, Aprovacao,
     ReativacaoSLA
 
--   **elapsedTime**: tempo decorrido (para categoria do tipo Execucao)
+- **elapsedTime**: tempo decorrido (para categoria do tipo Execucao)
 
--   **reason**: motivo da ocorrência.
+- **reason**: motivo da ocorrência.
 
--   **task**: tarefa associada à ocorrência, contendo:
+- **task**: tarefa associada à ocorrência, contendo:
 
-    -   **number**: número da tarefa.
+    - **number**: número da tarefa.
 
-    -   **name**: nome da tarefa.
+    - **name**: nome da tarefa.
 
-    -   **startDateTime**: data e hora de início.
+    - **startDateTime**: data e hora de início.
 
-    -   **endDateTime**: data e hora de execução.
+    - **endDateTime**: data e hora de execução.
 
-    -   **status**: situação da tarefa, contendo:
+    - **status**: situação da tarefa, contendo:
 
-        -   **code**: código da situação.
+        - **code**: código da situação.
 
-        -   **name**: nome da situação.
+        - **name**: nome da situação.
 
-    -   **userId**: login do usuário responsável pela execução da tarefa.
+    - **userId**: login do usuário responsável pela execução da tarefa.
 
 **Exemplo de atributos de entrada utilizando JSON**
 
--   {"requestNumberOrigin": "9999","occurrence": {"description": "Teste de
+- {"requestNumberOrigin": "9999","occurrence": {"description": "Teste de
     ocorrência","category": {"code": "Contorno"},"date":
     "2015-08-20T03:00:00.000Z","hour": "2219"}}
 
@@ -463,20 +416,20 @@ Exemplo: consulta ocorrências da solicitação
 
 **Atributos de entrada**
 
--   **requestNumber**: número da solicitação no CITSmart. Obrigatório quando o
+- **requestNumber**: número da solicitação no CITSmart. Obrigatório quando o
     atributo **requestNumberOrigin** não for informado.
 
--   **requestNumberOrigin**: número da solicitação no sistema de origem.
+- **requestNumberOrigin**: número da solicitação no sistema de origem.
     Obrigatório quando o atributo **requestNumber** não for informado.
 
 **Atributos de saída**
 
--   Coleção de objetos da classe **CtOcurrence**, com os mesmos atributos
+- Coleção de objetos da classe **CtOcurrence**, com os mesmos atributos
     da /services/request/createOccurrence
 
 **Exemplo de atributos de entrada utilizando JSON**
 
--   {"requestNumberOrigin":"9999"}
+- {"requestNumberOrigin":"9999"}
 
 
 !!! tip "About"
