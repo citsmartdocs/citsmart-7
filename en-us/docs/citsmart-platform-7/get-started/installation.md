@@ -542,7 +542,7 @@ make the following settings:
     - Change the *org.quartz.dataSource.citsmart.jndiURL* property to the same jndi-name URL present in the JBoss configuration 
     file.
 
-2. Change the org.quartz.dataSource.citsmart.jndiURL property to the same jndi-name URL present in the JBoss configuration file.
+2. Below is an image illustrating the locations of the ***quartz.properties*** file that should be evaluated:
 
     ![File](images/onpremissess.img1.jpg)
 
