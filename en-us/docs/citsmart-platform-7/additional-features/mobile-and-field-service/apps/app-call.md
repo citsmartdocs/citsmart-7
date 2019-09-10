@@ -1,171 +1,189 @@
-title:  Manual do usuário do aplicativo mobile CITSmart Call (iOS)
-Description: Configurar e utilizar o aplicativo mobile CITSmart Call na plataforma iOS. 
-# Manual do usuário do aplicativo mobile CITSmart Call (iOS)
+title: CITSmart call mobile application user guide (iOS)
+Description: This document is intended to provide guidance for installing, configuring, and using the **CITSmart Call mobile** application on the iOS plataform.
 
-Este documento tem o propósito de fornecer orientações necessárias para instalar, configurar e utilizar o aplicativo mobile **CITSmart
-Call** na plataforma iOS.
+# CITSmart call mobile application user guide (iOS)
 
-Ele oferece vários recursos, tais como:
+This document is intended to provide guidance for installing, configuring, and
+using the **CITSmart Call mobile** application on the iOS plataform.
 
-1. Realizar ligações via VoIP (somente áudio);
-2. Realizar ligações via VoIP (áudio e vídeo);
+It offers several features such as:
 
-Este documento foi estruturado em **cinco** seções:
+1.  Make calls via VoIP (audio only);
 
-1. Pré-condições;
-2. Instalação e Configuração do App no mobile;
-3. Assistente SIP Account;
-4. Assistente Remote Configuration;
-5. Configuração do usuário logado.
+2.  Make connections via VoIP (audio and video);
 
-Pré-condições
-----------------
+This document was structured in **five** sections:
 
-1. O usuário deverá estar registrado no CITSmart (ver conhecimento [Cadastro e pesquisa de usuário][1]);
+1.  Preconditions;
 
-2. Configurar e instalar o servidor de JANUS (ex.: https://janus.conf.meetecho.com/docs/deploy.html);
+2.  Installing and configuring the App on mobile;
 
-3. Configurar os parâmetros CITSmart conforme conhecimento relacionado.
+3.  SIP Account Wizard;
 
-Instalação e configuração do App no Mobile
---------------------------------------------
+4.  Remote Configuration Wizard;
 
-Para instalar o **CITSmart Call**, deve ser realizada a busca do aplicativo na loja on-line (App Store).
+5.  User configuration logged in.
 
-1. Pesquise por **CITSmart Call** na App Store, selecione e baixe o aplicativo;
+Preconditions
+-------------
 
-2. Após a instalação aparecerá em seus aplicativos o ícone do **CITSmart Call**:
+1.  The user must be registered in CITSmart (see knowledge [User registration
+    and search][1]);
 
-    ![App](images/app-call.img1.jpg)
-    
-    **Figura 1 - App instalado**
-    
-3. Ao acessar o aplicativo, aparecerão mensagens de permissão para realização de chamadas usando contatos salvos no mobile, o
-sistema de vídeo e se o app pode enviar mensagens de notificação referente ao App, conforme figuras abaixo;
+2.  Configure and install the JANUS server (e.g.:https://janus.conf.meetecho.com/docs/deploy.html);
 
-4. Clicar em "OK" para todas as opções;
+3.  Configure the CITSmart parameters according to related knowledge.
 
-    ![Acesso](images/app-call.img2.jpg)
-    
-    **Figura 2 - Tela de acesso a contatos do mobile**
-    
-    ![Câmera](images/app-call.img3.jpg)
-    
-    **Figura 3 - Tela de acesso à câmera do mobile**
-    
-    ![Permissão](images/app-call.img4.jpg)
-    
-    **Figura 4 - Tela de permissão para envio de notificação**
-    
-5. Após configurar as permissões será apresentada a tela com as duas opções de assistente de configuração do aplicativo, conforme
-figura abaixo:
+Mobile app installation and configuration
+-----------------------------------------
 
-    ![Assistente](images/app-call.img5.jpg)
-    
-    **Figura 5 - Tela de assistente de configuração**
-    
-Assistente SIP Account
-------------------------
+To install **CITSmart Call**, the application must be searched in the online
+store (App Store).
 
-1. O assistente SIP é um sistema de configuração de voz sobre IP (VoIP) que não depende do JANUS. Ao clicar nessa opção, será
-apresentada a seguinte tela:
+1.  Search for **CITSmart Call** in the App Store, select and download the
+    application;
 
-    ![SIP](images/app-call.img6.jpg)
-    
-    **Figura 6 - Tela de acesso via SIP**
-    
-    ![Acesso](images/app-call.img7.jpg)
-    
-    **Figura 7 - Tela de acesso via SIP (continuação)**
-    
-2. Informe os dados:
+2.  After installation the **CITSmart Call** icon will appear in your
+    applications:
 
-    - **Username**: informe o nome do usuário já cadastrado;
-    - **Password**: informe a senha já cadastrada;
-    - **Domain**: informe o endereço do servidor para conexão. Deve ser colocado o protocolo (https) na URL;
-    - **Display name**: informe um nome para se personalizar a sessão;
-    - **Transport**: selecione o tipo de protocolo:
-        - **UDP**: é um protocolo simples da camada de transporte, mas não há qualquer tipo de garantia que o pacote irá chegar ou
-        não:
-        - **TCP**: é o principal protocolo de envio e recebimento de dados na internet, possui maior confiabilidade em relação a
-        segurança que o UDP;
-        - **TLS**: é um protocolo de criptografia projetados para internet. Permite a comunicação segura entre os lados cliente e 
-        servidor de uma aplicação web.
-        
-3. Clicar em "Login".
+![Tela](images/app-call.img1.jpg)
 
-Assistente Remote Configuration
---------------------------------
+**Figure 1 - App installed**
 
-1. A segunda opção assistente "Remote Configuration" serve para configuração do App em relação ao JANUS. Ao realizar a configuração
-e instalação do JANUS. Ao se clicar nesse assistente, será apresentada a tela abaixo:
+1.  When accessing the application, you will see permission messages to make
+    calls using contacts saved on the mobile, the video system and if the app
+    can send notification messages related to the App, as shown below.
 
-    ![Acesso](images/app-call.img8.jpg)
-    
-    **Figura 8 - Tela de acesso via Remote Configuration**
-    
-2. Informe os dados:
+2.  Click *OK* for all options.
 
-    - **URL**: informe o endereço da conexão CITSmart que se deseja acessar:
-    - **Username**: informe o nome do usuário CITSmart;
-    - **Password**: informe a senha CITSmart.
-    
-3. Clicar em "Fetch and Apply" (buscar e aplicar).
+![Tela](images/app-call.img2.jpg)
 
-Configuração do usuário logado
-----------------------------------
+**Figure 2 - Mobile contact access screen**
 
-1. Quando o usuário está logado em algum das opções de assistentes é possível modificar algumas configurações pré-estabelecidas, 
-isso é feito clicando no ícone ![simbolo](images/simb-menu.green.jpg)  localizado no canto superior esquerdo, então as seguintes
-telas de configuração serão apresentadas:
+![Tela](images/app-call.img3.jpg)
 
-    ![Configuração](images/app-call.img9.jpg)
-    
-    **Figura 9 - Tela de configuração de conta**
-    
-2. Na opção **Assistant**, é possível a troca de assistente;
+**Figure 3 - Mobile camera access screen**
 
-3. Na opção **Settings**, é possível configurar as seguintes opções:
+![Tela](images/app-call.img4.jpg)
 
-    ![Configuração](images/app-call.img10.jpg)
-    
-    **Figura 10 - Tela de configuração de conta**
-    
-4. É possível a configuração de itens de Áudio(Áudio), Vídeo (Vídeo), Call (Chamada), Network (Rede) e Advanced (Configurações 
-Avançadas);
+**Figure 4 - Permission to send notification screen**
 
-5. É importante ressaltar que dentro da guia Network (Rede), existe a opção de cadastrar um outro usuário e senha e salvar, 
-conforme figura abaixo:
+3.  After configuring the permissions, the screen with the two application
+    configuration assistant options will appear, as shown below:
 
-    ![Senha](images/app-call.img11.jpg)
-    
-    **Figura 11 - Tela de cadastro de outro usuário e senha**
-    
-6. Na opção **Turn's Username**, digite o novo usuário;
+![Tela](images/app-call.img5.jpg)
 
-7. Na opção **Turn's Password**, digite a nova senha;
+**Figure 5 - Configuration assistant screen**
 
-8. O teclado estará então disponível para realizar ligações:
+SIP account assistant
+---------------------
 
-    ![Tela](images/app-call.img12.jpg)
-    
-    **Figura 12 - Tela do teclado**
-    
-    !!! note "NOTA"
-    
-        Além das opções Turn's Username e Turn's Password, os demais itens de configuração são opcionais, a cargo das necessidades
-        de cada usuário.
-        
-Veja também
---------------
+1.  The SIP assistant is a voice over IP (VoIP) configuration system that does
+    not depend on JANUS. Clicking on this option will display the following
+    screen:
 
-- [Regras de parametrização - VoIP][2]
+![Tela](images/app-call.img6.jpg)
+
+**Figure 6 - SIP access screen**
+
+![Tela](images/app-call.img7.jpg)
+
+**Figure 7 - SIP access screen (continuation)**
+
+2.  Enter the data:
+
+-   **Username**: enter the name of the user already registered;  
+    **Password**: enter the password already registered;  
+    **Domain**: enter the server address for the connection. The protocol
+    (https) must be placed in the URL;  
+    **Display name**: enter a name to customize the session;  
+    **Transport**: select the protocol type:
+
+    -   **UDP**: this is a simple transport layer protocol, but there is no
+        guarantee that the package will arrive or not:
+
+    -   **TCP**: it is the main protocol of sending and receiving data on the
+        internet, it has greater security reliability than UDP;
+
+    -   **TLS**: is an encryption protocol designed for the internet. Allows
+        secure communication between the client and server sides of a web
+        application.
+
+3.  Click on *Login.*
+
+Remote configuration assistant
+------------------------------
+
+1.  The second "Remote Configuration" assistant option is for configuring the
+    App in relation to JANUS. When configuring and installing JANUS. Clicking on
+    this assistant will display the screen below:
+
+![Tela](images/app-call.img8.jpg)
+
+**Figure 8 - Access screen via Remote Configuration**
+
+1.  Enter the data:
+
+-   **URL**: enter the address of the CITSmart connection you want to access:
+
+-   **Username**: enter the user name CITSmart;
+
+-   **Password**: enter the CITSmart password.
+
+1.  Click on *Fetch and Apply*.
+
+User logged configuration
+-------------------------
+
+1.  When the user is logged in to any of the assistant options it is possible to
+    modify some pre-set settings, this is done by clicking the icon ![Tela](images/app-call.img9.jpg)  located in the upper left corner, then the following configuration screens
+    will be displayed:
+
+![Tela](images/app-call.img10.jpg)
+
+**Figure 9 - Account setup screen**
+
+2.  In the **Assistant** option, you can change the assistant;
+
+3.  In the **Settings** option, you can configure the following options:
+
+![Tela](images/app-call.img11.jpg)
+
+**Figure 10 - Account setup screen**
+
+4.  You can configure the items for Audio, Video, Call, Network, and Advanced;
+
+5.  It is important to note that within the Network tab, there is the option to
+    register another user and password and save, as shown below:
+
+**Figure 11 - Another user's password and password screen**
+
+6.  In the **Turn's Username** option, type the new user;
+
+7.  In the **Turn's Password** option, type the new password;
+
+8.  The keypad will then be available to make connections:
+
+![Tela](images/app-call.img12.jpg)
+
+**Figure 12 - Keyboard screen**
+
+!!! note "NOTE"
+
+    In addition to the Turn's Username and Turn's Password options, the other
+    configuration items are optional, depending on the needs of each user.
+
+See also
+--------
+
+-   [Parameterization rules - Voip][1].
+
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/06/2019 - Larissa Lourenço
+    <b>Updated:</b>09/10/2019 - Anna Martins
     
-[1]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/user-register.html
-[2]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-voip.html
+[1]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/user-register.html
+[2]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-voip.html
