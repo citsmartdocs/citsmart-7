@@ -182,7 +182,7 @@ request and Print Request).
 
 ### Creating service request
 
-1.  To create a service request, press the icon ![Criar](images/ios-18.jpg) located in the lower right corner of the screen and select the ![Criar](images/ios-19.jpg) "New ticket" option, as illustrated below:
+1.  To create a service request, press the icon ![Criar](images/ios-18.jpg) located in the lower right corner of the screen and select the ![Criar](images/ios-19.jpg) "New ticket" option, as ilustrated below:
 
 ![Criar](images/ios-12.png)
 
@@ -276,7 +276,7 @@ request and Print Request).
 -   **Activity (Request / Incident)**: Inform the activity that will be
     performed referring to the type of request. If the reported activity has a
     "Guidance Script" associated with it, it will be displayed in the "Scripts"
-    tab represented by the icon ![Criar](images/ios-25.png) located in the upper right corner of the screen;
+    tab represented by the icon ![Criar](images/ios-25.jpg) located in the upper right corner of the screen;
 
 -   **Contract**: after informing the activity (Request / incident), the
     contract will be displayed for which the opening of an incident or service
@@ -346,7 +346,7 @@ Some requests need approval, so to meet them you need to approve them.
 
 **Figure 18 - Request rejection screen justified**
 
--   Choose the justification for rejecting/approve the request and press the ![Criar](images/ios-28.png) button *Save and forward the Flow*.
+-   Choose the justification for rejecting/approve the request and press the ![Criar](images/ios-28.jpg) button *Save and forward the Flow*.
 
 
 !!! tip "About"
