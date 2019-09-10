@@ -174,15 +174,15 @@ actions, which will be explained later.
 7.  In each request a symbol with the color representing your situation is
     displayed, being:
 
-![figure](images/android-17.png) Green (normal / in progress) - Indicates that the request is in service, within
+ - ![figure](images/android-17.png) Green (normal / in progress) - Indicates that the request is in service, within
 the established time;
 
-![figure](images/android-18.png) Yellow (to win) - Indicates that the deadline for requesting the request is
+ - ![figure](images/android-18.png) Yellow (to win) - Indicates that the deadline for requesting the request is
 close to being exceeded;
 
-![figure](images/android-19.png) Gray (suspended) - Indicates that the request has been suspended;
+ - ![figure](images/android-19.png) Gray (suspended) - Indicates that the request has been suspended;
 
-![figure](images/android-20.png) Red (expired) - Indicates that the deadline for requesting the request has been
+ - ![figure](images/android-20.png) Red (expired) - Indicates that the deadline for requesting the request has been
 exceeded;
 
 8.  To view the details of the service request, click on the desired request
