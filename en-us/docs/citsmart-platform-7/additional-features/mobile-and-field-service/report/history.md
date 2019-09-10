@@ -68,7 +68,7 @@ Checking the service history
 
 2.  Set the filters according to your need:
 
--   **State: **inform the state of the service requests that you want to check
+-   **State**: inform the state of the service requests that you want to check
     the history of your service by the field technician (s);
 
 -   **Cities**: inform the city about the requests for services that wish to
