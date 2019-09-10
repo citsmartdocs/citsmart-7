@@ -61,7 +61,7 @@ Filling in the registration fields
 
 **Figure 3 - Web service registration screen for Citsmart mobile**
 
-Viewing the web service configurations for citsmart mobile
+Viewing the web service configurations for CITSmart mobile
 ----------------------------------------------------------
 
 1.  To view the Web Service information, click the *View* button. When selecting
