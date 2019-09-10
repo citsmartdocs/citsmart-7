@@ -27,7 +27,7 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   **Technician: **inform the name of the technician responsible for service
+-   **Technician**: inform the name of the technician responsible for service
     requests;
 
 -   **Opening Period**: inform the opening period of service requests;
@@ -127,6 +127,6 @@ Route settings
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/22/2019 – Anna Martins
+    <b>Updated:</b>09/10/2019 – Anna Martins
 
 [1]:/pt-br/citsmart-platform-7/additional-features/mobile-and-field-service/configuration/app-android-ios.html
