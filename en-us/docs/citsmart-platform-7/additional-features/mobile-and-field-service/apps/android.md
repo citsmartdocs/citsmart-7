@@ -44,9 +44,8 @@ Preconditions
 1.  Deploy version 7.2.2.0 (or later) of **CITSmart Enterprise Mobile**
 
 2.  Configure the server to use the mobile application **CITSmart Enterprise
-    Mobile** (see knowledge: [Server Setup Guide for using CITSmart ITSM
-    Enterprise mobile application (iOS and
-    Android)][1])
+    Mobile** (see knowledge [Server Setup Guide for using CITSmart ITSM
+    Enterprise mobile application (iOS and Android)][1])
 
 Installing and configuring the app on the mobile (smartphone)
 -------------------------------------------------------------
@@ -56,55 +55,57 @@ searched in the Google online store.
 
 1.  Search and select the application, as indicated in the figure below:
 
+![figure](images/android-1.png)
+
 **Figure 1 - Search for App Citsmart Enterprise**
 
 2.  Press the Install button to download the application;
+
+![figure](images/android-2.png)
 
 **Figure 2 - Google Play - Installing the CITSmart Enterprise App**
 
 3.  After installation, the CITSmart Enterprise Mobile icon will appear in your
     applications.
 
+![figure](images/android-3.png)
+
 **Figure 3 - Installed CITSmart Enterprise application**
 
-4.  To create a connection, press the key-shaped icon 
+4.  To create a connection, press the key-shaped icon ![figure](images/android-4.png), located in the upper right corner of the screen, as shown in the figure below:
 
-    ![](media/6aec89ad3bf3cb1deaa1362b61bb90cb.png)
-
-     , located in the upper right corner of the screen, as shown in the figure
-    below:
+![figure](images/android-5.png)
 
 **Figure 4 - CITSmart Enterprise (Android mobile from Play Store) screen -
 Create connection**
 
-5.  The connections screen will be displayed, press the 
+5.  The connections screen will be displayed, press the ![figure](images/android-6.png), located in the upper right corner of the screen, as shown in the figure below:
 
-    ![](media/4073a8391d6fcc0ac494eb6011cfc60a.png)
-
-     , located in the upper right corner of the screen, as shown in the figure
-    below:
+![figure](images/android-7.png)
 
 **Figure 5 - Connections screen**
 
-6.  The "New connection" screen for connection registration will be displayed.;
+6.  The "New connection" screen for connection registration will be displayed;
+
+![figure](images/android-8.png)
 
 **Figure 6 - Connection log screen**
 
 7.  Enter the relevant data:
 
-    -   **Connection name: **Enter the name of the connection you want to
+    -   **Connection name**: Enter the name of the connection you want to
         connect to;
 
-    -   **Server URL: **Enter the server address for the connection. The
+    -   **Server URL**: Enter the server address for the connection. The
         protocol (http) must be placed in the URL;
 
-    -   **User:** enter the username;
+    -   **User**: enter the username;
 
-    -   **Password: **enter the access password.
+    -   **Password**: enter the access password.
 
    !!! warning "ATTENTION"
 
->   If the device is changed, this connection must be deleted.
+     If the device is changed, this connection must be deleted.
 
 8.  After entering the desired connection data, press the Add button;
 
@@ -114,6 +115,8 @@ Create connection**
 
 10.  To connect, just select the connection, in the initial screen of the
     application;
+
+![figure](images/android-9.png)
 
 **Figure 7 - CITSmart Enterprise (Android mobile from Play Store) login screen**
 
@@ -126,18 +129,18 @@ After the connection is made, the "Service Requests" screen will be displayed
 where you can view the requests according to the chosen filter and perform other
 actions, which will be explained later.
 
-1.  To choose the type of request you want to view, click the bar-shaped icon 
+1.  To choose the type of request you want to view, click the bar-shaped icon ![figure](images/android-10.png)located in the upper left corner;
 
-    ![](media/9a954df093443a477f31340bba9ec0b9.png)
-
-     located in the upper left corner;
+![figure](images/android-11.png)
 
 **Figure 8 - Service requests screen**
 
 2.  A list with the types and quantities of requests of each type is presented,
     as shown in the figure below:
 
-**Figure 9 - Request types filte**r
+![figure](images/android-12.png)
+
+**Figure 9 - Request types filter**
 
 3.  Select the type of request you want;
 
@@ -148,48 +151,39 @@ actions, which will be explained later.
 5.  The list of service requests will be displayed, depending on the filter
     chosen:
 
+![figure](images/android-13.png)
+
 **Figure 10 - Personal request list**
+
+![figure](images/android-14.png)
 
 **Figure 11 - Group request list**
 
-6.  To view specific requests, click the search icon 
+6.  To view specific requests, click the search icon ![figure](images/android-15.png). A field will be displayed to inform the desired request data (request number, contract name, unit name or executor group name). After entering the data, press "Enter". Once this is done, it will be redirected to the search screen, containing a list of requests resulting from the query performed,
+ according to the example illustrated in the figure below:
 
-    ![](media/95126b28dcc0048da9ff6e2b6148d59a.png)
-
-     . A field will be displayed to inform the desired request data (request
-    number, contract name, unit name or executor group name). After entering the
-    data, press "Enter". Once this is done, it will be redirected to the search
-    screen, containing a list of requests resulting from the query performed,
-    according to the example illustrated in the figure below:
+![figure](images/android-16.png)
 
 **Figure 12 - List of requests**
 
    !!! note "NOTE"
 
-     In order for the search functionality to work, it is necessary to
-     configure the corresponding web service (notices) in the "Web Service
-     Operation Register" screen in CITSmart Enterprise Web.
+      In order for the search functionality to work, it is necessary to
+      configure the corresponding web service (notices) in the "Web Service
+      Operation Register" screen in CITSmart Enterprise Web.
 
 7.  In each request a symbol with the color representing your situation is
     displayed, being:
 
-![](media/73f75aa860ef2211a614fb54bf45cae5.png)
-
-Green (normal / in progress) - Indicates that the request is in service, within
+![figure](images/android-17.png) Green (normal / in progress) - Indicates that the request is in service, within
 the established time;
 
-![](media/1e422c9bc58a877e9e9dfede33bbefee.png)
-
-Yellow (to win) - Indicates that the deadline for requesting the request is
+![figure](images/android-18.png) Yellow (to win) - Indicates that the deadline for requesting the request is
 close to being exceeded;
 
-![](media/a3b6dffc489ede69753b22f89e087d52.png)
+![figure](images/android-19.png) Gray (suspended) - Indicates that the request has been suspended;
 
-Gray (suspended) - Indicates that the request has been suspended;
-
-![](media/5160571a3d396ebb658351f26a20d8fd.png)
-
-Red (expired) - Indicates that the deadline for requesting the request has been
+![figure](images/android-20.png) Red (expired) - Indicates that the deadline for requesting the request has been
 exceeded;
 
 8.  To view the details of the service request, click on the desired request
@@ -200,55 +194,53 @@ exceeded;
 9.  When pulling down the screen, the existing requests will be updated and new
     requests will be displayed;
 
+![figure](images/android-21.png)
+
 **Figure 13 - Updating the list with new requests**
 
 10.  Pulling up on the screen will update existing requests and display old
     requests;
 
+![figure](images/android-22.png)
+
 **Figure 14 - Updating the list with old requests**
 
-11.  To sort the requests, click the sort icon 
+11.  To sort the requests, click the sort icon ![figure](images/android-23.png). You will be presented with a list of options for sorting (as shown in the figure below), select a desired option and click Ok;
 
-    ![](media/1d82e73c442fdde40006f907c6e89d32.png)
-
-    . You will be presented with a list of options for sorting (as shown in the
-    figure below), select a desired option and click Ok;
+![figure](images/android-24.png)
 
 **Figure 15 - Ordering of requests**
 
--   **Request number:** Sorts the requests by the number, in descending order;
+-   **Request number**: Sorts the requests by the number, in descending order;
 
--   **Responsible (without first responsible):** Order the requests, first,
+-   **Responsible (without first responsible)**: Order the requests, first,
     without the current responsible. Then follows the ordering criteria by the
     request number, in descending order;
 
--   **Creation Date:** Sorts the requests, first, by the creation date, in
+-   **Creation Date**: Sorts the requests, first, by the creation date, in
     ascending order. Then it follows the ordering criteria by the request
     number, in descending order;
 
--   **Expiration:** Orders the requests for applications due, close to maturity,
+-   **Expiration**: Orders the requests for applications due, close to maturity,
     on time and suspended. Then it follows the ordering criteria by the request
     number, in ascending order.
 
-##### **CREATING SERVICE REQUEST**
+##### CREATING SERVICE REQUEST
 
-12.  To create a service request, press the icon 
+1.  To create a service request, press the icon ![figure](images/android-25.png) located in the upper right corner of the screen and select the "New Incident / Request" option, depending on the screen resolution, the sign ![figure](images/android-26.png), just press the same one to create the request, as illustrated below:
 
-    ![](media/a4626c6b6a866677e57897635c832779.png)
-
-     Located in the upper right corner of the screen and select the "New
-    Incident / Request" option, depending on the screen resolution, the sign 
-
-    ![](media/88346c4bd38a0eec1686832cbf808857.png)
-
-     , just press the same one to create the request, as illustrated below:
+![figure](images/android-27.png)
 
 **Figure 16 - Creating a service request**
 
+![figure](images/android-28.png)
+
 **Figure 17 - Create service request icon**
 
-13.  The screen for creating the request will be displayed, as shown in the
+2.  The screen for creating the request will be displayed, as shown in the
     figure below:
+
+![figure](images/android-29.png)
 
 **Figure 18 - New request creation screen**
 
@@ -257,15 +249,17 @@ exceeded;
     The request registered by CITSmart Enterprise (Android mobile from Play
     Store) uses services that are configured in CITSmart Enterprise Web.
 
-14.  Enter the description of the service request and press the Send button to
+3.  Enter the description of the service request and press the Send button to
     perform the operation;
 
-15.  After performing the operation, the request registration message will be
+4.  After performing the operation, the request registration message will be
     displayed.
+
+![figure](images/android-30.png)
 
 **Figure 19 - Created request**
 
-### Approving / rejecting service request
+### Approving/rejecting service request
 
 Some requests need approval, so to meet them you need to approve them.
 
@@ -274,13 +268,17 @@ Some requests need approval, so to meet them you need to approve them.
 2.  The "Details" screen will be displayed displaying the description of the
     request for approval / rejection of the request;
 
+![figure](images/android-31.png)
+
 **Figure 20 - Request approval / reject screen**
 
-1.  To approve the request, just press the Approve button;
+3.  To approve the request, just press the Approve button;
 
-2.  To reject the request, press the Reject button. A tea- la will be displayed
+4.  To reject the request, press the Reject button. A tea- la will be displayed
     to choose the justification for this rejection, as shown in the figure
     below:
+
+![figure](images/android-32.png)
 
 **Figure 21 - Request rejection screen justified**
 
@@ -289,30 +287,32 @@ Some requests need approval, so to meet them you need to approve them.
 Advanced use of mobile app (smartphone) - with maps
 ---------------------------------------------------
 
-Updating the coordinates of a unit
+### Updating the coordinates of a unit
 
 Update the coordinates of a unit so that the system can identify the location of
 the unit
 
 1.  To view job requests on the map, press the Personal or Group option, and
-    then press the 
+    then press the ![figure](images/android-33.png). The map will be displayed showing the location of the requests;
 
-    ![](media/ec608435760ec105c355245fa17e76bb.png)
-
-     . The map will be displayed showing the location of the requests;
+![figure](images/android-34.png)
 
 **Figure 22 - Request on map**
 
-2.  To update the coordinates, press the icon  located in the upper right corner
-    of the screen and press the "Get Coordinates" option, depending on the
-    screen resolution, the icon with the shape of a flag  , just press it to
-    update the coordinates;
+2.  To update the coordinates, press the icon ![figure](images/android-35.png) located in the upper right corner
+    of the screen and press the "Get Coordinates" option, depending on the screen resolution, the icon with the shape of a flag ![figure](images/android-36.png) , just press it to update the coordinates;
+
+![figure](images/android-37.png)
 
 **Figure 23 - Get coordinates**
+
+![figure](images/android-38.png)
 
 **Figure 24 - Icon for get coordinates**
 
 3.  The "Get Coordinates" screen will appear:
+
+![figure](images/android-39.png)
 
 **Figure 25 - Get coordinates screen**
 
@@ -337,15 +337,21 @@ the unit
     more than one service request, pressing the location location of the request
     will be directed to the personal or group request list.
 
+![figure](images/android-40.png)
+
 **Figure 26 - Request for service via map**
 
 3.  After selecting the request, the "Details" screen will be displayed,
     according to the example shown in the figure below:
 
+![figure](images/android-41.png)
+
 **Figure 27 - Answer service request**
 
 4.  Press the Answer button. You will be directed to the screen of the request,
     on-you will be able to check in;
+
+![figure](images/android-42.png)
 
 **Figure 28 - Service request**
 
@@ -353,6 +359,8 @@ the unit
     Route button;
 
 -   A screen will appear to choose the route visualization application;
+
+![figure](images/android-43.png)
 
 **Figure 29 - Application to view the route**
 
@@ -363,15 +371,19 @@ the unit
 -   O caminho será mostrado a partir da sua localização até o local da
     solicitação.
 
-**RULE: in order to visualize the route, it is necessary that the unit has the
-coordinates configured from a longitude and latitude.**
+!!!note "NOTE"
+
+     In order to visualize the route, it is necessary that the unit has the
+     coordinates configured from a longitude and latitude.
 
 6.  After checking the route and arriving at the place to meet the service
     request, check the request;
 
-7.  To check in, press  Located in the top bar of the screen;
+7.  To check in, press ![figure](images/android-43.png) Located in the top bar of the screen;
 
 -   The "Check-in" screen will be displayed, as shown in the figure below:
+
+![figure](images/android-44.png)
 
 **Figure 30 - Check-in screen**
 
@@ -382,9 +394,13 @@ and captured.
 
 8.  After checking in, the check-out screen will be displayed;
 
+![figure](images/android-45.png)
+
 **Figure 31 - Check-out screen**
 
 -   Enter request fulfillment status;
+
+![figure](images/android-46.png)
 
 **Figure 32 - Check-out - Service request status**
 
@@ -394,11 +410,15 @@ and captured.
     reason for the suspension, as shown in the example shown in the figure
     below:
 
+![figure](images/android-47.png)
+
 **Figure 33 - Check-out - Reason request suspend registration**
 
 -   If you have selected the status "Solved", a window will be displayed to
     register the request termination, as shown in the example shown in the
     figure below:
+
+![figure](images/android-48.png)
 
 **Figure 34 - Check-out - Request closing record**
 
@@ -410,10 +430,14 @@ so you automatically receive notifications that are actionable.
 1.  Whenever you are close to the place of service of a service request, you
     will receive a notification, as shown in the illustration below:
 
+![figure](images/android-49.png)
+
 **Figure 35 - Notification of proximity to the request location**
 
 -   Select the notification, where you will see a screen asking if you want to
     check in, as shown in the illustration below:
+
+![figure](images/android-50.png)
 
 **Figure 36 - Request rejection justification screen**
 
@@ -424,6 +448,8 @@ so you automatically receive notifications that are actionable.
 -   When you press the No button, you will be directed to the check-in negation
     screen, as shown in the figure below:
 
+![figure](images/android-51.png)
+
 **Figure 37 - Check denial screen**
 
 -   Please state the reason for denial of Request Check-In.
@@ -432,16 +458,22 @@ so you automatically receive notifications that are actionable.
     will receive a notification containing the number of requests, according to
     the example shown in the figure below:
 
+![figure](images/android-52.png)
+
 **Figure 38 - Notification of proximity to the multiple requests service
 location**
 
 -   When you select the notification, you will see a list of requests near your
     location, as shown in the figure below:
 
+![figure](images/android-54.png)
+
 **Figure 39 - Upcoming requests**
 
 1.  When a requestor delegates a service request, you will receive a
     notification, as shown in the figure below:
+
+![figure](images/android-55.png)
 
 **Figure 40 - Incoming request notification**
 
@@ -453,4 +485,4 @@ location**
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/22/2019 – Anna Martins
+    <b>Updated:</b>09/10/2019 – Anna Martins
