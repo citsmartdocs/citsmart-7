@@ -2,8 +2,7 @@ title: CITSmart Enterprise ITSM server configuration manual for use os app (iOS
 and Android)
 Description: This document is intended to provide guidance for configuring the server for using CITSmart ITSM Enterprise mobile application (iOS and Android plataform).
 
-# CITSmart Enterprise ITSM server configuration manual for use os app (iOS and
-Android)
+# CITSmart Enterprise ITSM server configuration manual for use os app (iOS and Android)
 
 This document is intended to provide guidance for configuring the server for
 using CITSmart ITSM Enterprise mobile application (iOS and Android plataform).
