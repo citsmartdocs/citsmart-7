@@ -1,110 +1,108 @@
-title: Cadastro e pesquisa das configurações das opções de mobile
-Description:Esta funcionalidade tem por objetivo a configuração das opções de Menu para o uso via mobile.
+title: Mobile options configuration registration and search
 
-# Cadastro e pesquisa das configurações das opções de mobile
+Description: This feature is intended to configure the Menu options for mobile use.
 
-Esta funcionalidade tem por objetivo a configuração das opções de Menu para o
-uso via mobile.
+# Mobile options configuration registration and search
 
-Como acessar
------------
+This feature is intended to configure the Menu options for mobile use.
 
-1.  Acesse a funcionalidade pela navegação no menu principal **Acesso e
-    permissão > Configuração das opções mobile**.
+How to access
+-------------
 
-Pré-condições
-------------
+1.  Access the feature by browsing the main menu **Access and Permission \>
+    Mobile Options Configuration**.
 
-1.  Ter o aplicativo CITSmart Enterprise ITSM Mobile instalado no dispositivo
-    mobile (ver conhecimento [Manual do usuário do aplicativo mobile CITSmart
-    ITSM Enterprise (iOS)][1], [Manual do usuário do aplicativo mobile CITSmart Enterprise ITSM
+Preconditions
+-------------
+
+1.  Have the CITSmart Enterprise ITSM Mobile application installed on the mobile
+    device (see knowledge [CITSmart ITSM Enterprise mobile application user
+    guide (iOS)][1]), [CITSmart Enterprise ITSM Mobile application user guide
     (Android)][2]);
 
-Filtros
-------
+Filters
+-------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -   Título;
+  -   Title;
 
-    -   Situação.
+  -   Status
 
-1.  Na tela inicial da funcionalidade **Configuração das opções de mobile**, é
-    possível realizar a pesquisa de configuração das opções de mobile:
+2.  On the Mobile Options Configuration home screen, you can perform the mobile
+    options configuration search:
 
-    -   Informe o nome e a situação da configuração que deseja pesquisar.
+-   Enter the name and status of the configuration you want to search.
 
-    ![Criar](images/options-1.png)
-    
-    **Figura 1 - Tela de pesquisa de configuração das opções de mobile**
+![Criar](images/options-1.png)
 
-Listagem de itens
------------------
+**Figure 1 - Mobile options configuration search screen**
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Título e Situação**.
+Items list
+----------
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Excluir*.
+1.  The following cadastral fields are available to the user to make it easier
+    to identify the desired items in the default listing of the
+    functionality: **Title** and **Status**.
 
-    ![Criar](images/options-2.png)
-    
-    **Figura 2 - Tela de listagem de configuração das opções de mobile**
+2.  There are action buttons available to the user in relation to each item in
+    the listing, they are: *Edit* and *Delete*.
 
-1.  Para alterar os dados do registro de configuração das opções de mobile,
-    basta modificar as informações dos campos desejados e clicar no
-    botão *Gravar* para que seja gravada a alteração realizada no registro, onde
-    a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria.
+![Criar](images/options-2.png)
 
-Preenchimento dos campos cadastrais
----------------------------------
+**Figure 2 - Mobile options configuration listing screen**
 
-1.  Ao acessar a tela de Configuração das opções de mobile clique no
-    botão *Novo* (conforme ilustrado na figura 2), será então apresentada a tela
-    abaixo:
+3.  To change the registry data of Mobile Options Configuration, simply modify
+    the information of the desired fields and click the *Save* button to save
+    the change made to the record, where the date, time and user will be saved
+    automatically for a future audit.
 
-    ![Criar](images/options-3.png)
-    
-    **Figura 3 - Tela de configuração de mobile**
+Filling in the registration fields
+----------------------------------
 
-1.  Preencha os campos:
+1.  By accessing the Mobile Options Configuration screen, click on the New
+    button (as shown in figure 2), then it will be displayed the following
+    screen :
 
--   **Título**: preencher com o nome da prática a ser utilizada (ex: NOC);
+![Criar](images/options-3.png)
 
--   **Situação**: selecionar opção "Ativo";
+**Figure 3 - Mobile options configuration screen**
 
--   **Descrição em português**: título da opção de Menu a ser utilizado na
-    língua portuguesa no mobile;
+2.  Fill in the fields:
 
--   **Descrição em inglês**: título da opção de Menu a ser utilizado na língua
-    inglesa;
+-   **Title**: fill in the name of the practice to be used (eg NOC);
 
--   **Descrição em espanhol**: título da opção de Menu a ser utilizado na língua
-    espanhola;
+-   **Status**: select option "Active";
 
--   **Menu**: selecione a opção que melhor a se ajusta à funcionalidade
-    desejada.
+-   **Description in portuguese**: title of the Menu option to be used in the
+    Portuguese language in mobile;
 
-Verificando o portal de serviços no mobile
------------------------------------------
+-   **Description in english**: title of the Menu option to be used in the
+    English language;
 
-1.  Uma vez já feito a configuração via sistema (seção anterior), a seguinte
-    tela será apresentada no mobile:
+-   **Description in spanish**: title of the Menu option to be used in the
+    Spanish language;
 
-   ![Criar](images/options-4.png)
-   
-   **Figura 4 - Portal de serviços no mobile**
+-   **Menu**: Select the option that best fits the desired functionality.
+
+Checking the services portal on the mobile
+------------------------------------------
+
+1.  Once the system configuration has already been done (previous section), the
+    following screen will be displayed in the mobile:
+
+![Criar](images/options-4.png)
+
+**Figure 4 - Services portal on mobile**
+
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/22/2019 – Anna Martins
+    <b>Updated:</b>09/10/2019 – Anna Martins
     
-[1]:/pt-br/citsmart-platform-7/additional-features/mobile-and-field-service/apps/ios.html
+[1]:/en-us/citsmart-platform-7/additional-features/mobile-and-field-service/apps/ios.html
 
-[2]:/pt-br/citsmart-platform-7/additional-features/mobile-and-field-service/apps/android.html
+[2]:/en-us/citsmart-platform-7/additional-features/mobile-and-field-service/apps/android.html
