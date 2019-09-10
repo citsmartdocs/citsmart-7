@@ -46,7 +46,7 @@ store (App Store).
 2.  After installation the **CITSmart Call** icon will appear in your
     applications:
 
-![Tela](images/app-call.img1.jpg)
+![Tela](images/app-call.img1.png)
 
 **Figure 1 - App installed**
 
@@ -56,22 +56,22 @@ store (App Store).
 
 2.  Click *OK* for all options.
 
-![Tela](images/app-call.img2.jpg)
+![Tela](images/app-call.img2.png)
 
 **Figure 2 - Mobile contact access screen**
 
-![Tela](images/app-call.img3.jpg)
+![Tela](images/app-call.img3.png)
 
 **Figure 3 - Mobile camera access screen**
 
-![Tela](images/app-call.img4.jpg)
+![Tela](images/app-call.img4.png)
 
 **Figure 4 - Permission to send notification screen**
 
 3.  After configuring the permissions, the screen with the two application
     configuration assistant options will appear, as shown below:
 
-![Tela](images/app-call.img5.jpg)
+![Tela](images/app-call.img5.png)
 
 **Figure 5 - Configuration assistant screen**
 
@@ -82,11 +82,11 @@ SIP account assistant
     not depend on JANUS. Clicking on this option will display the following
     screen:
 
-![Tela](images/app-call.img6.jpg)
+![Tela](images/app-call.img6.png)
 
 **Figure 6 - SIP access screen**
 
-![Tela](images/app-call.img7.jpg)
+![Tela](images/app-call.img7.png)
 
 **Figure 7 - SIP access screen (continuation)**
 
@@ -118,7 +118,7 @@ Remote configuration assistant
     App in relation to JANUS. When configuring and installing JANUS. Clicking on
     this assistant will display the screen below:
 
-![Tela](images/app-call.img8.jpg)
+![Tela](images/app-call.img8.png)
 
 **Figure 8 - Access screen via Remote Configuration**
 
@@ -136,10 +136,10 @@ User logged configuration
 -------------------------
 
 1.  When the user is logged in to any of the assistant options it is possible to
-    modify some pre-set settings, this is done by clicking the icon ![Tela](images/app-call.img9.jpg)  located in the upper left corner, then the following configuration screens
+    modify some pre-set settings, this is done by clicking the icon ![Tela](images/app-call.img9.png)  located in the upper left corner, then the following configuration screens
     will be displayed:
 
-![Tela](images/app-call.img10.jpg)
+![Tela](images/app-call.img10.png)
 
 **Figure 9 - Account setup screen**
 
@@ -147,7 +147,7 @@ User logged configuration
 
 3.  In the **Settings** option, you can configure the following options:
 
-![Tela](images/app-call.img11.jpg)
+![Tela](images/app-call.img11.png)
 
 **Figure 10 - Account setup screen**
 
@@ -164,7 +164,7 @@ User logged configuration
 
 8.  The keypad will then be available to make connections:
 
-![Tela](images/app-call.img12.jpg)
+![Tela](images/app-call.img12.png)
 
 **Figure 12 - Keyboard screen**
 
