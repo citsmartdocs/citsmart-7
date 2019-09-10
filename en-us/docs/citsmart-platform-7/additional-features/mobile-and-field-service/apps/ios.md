@@ -184,7 +184,7 @@ request and Print Request).
 
 1.  To create a service request, press the icon ![Criar](images/ios-18.jpg) located in the lower right corner of the screen and select the ![Criar](images/ios-19.jpg) "New ticket" option, as illustrated below:
 
-![Criar](images/ios-20.png)
+![Criar](images/ios-20.jpg)
 
 **Figure 12 - Creating a service request**
 
