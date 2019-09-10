@@ -44,8 +44,7 @@ Preconditions
 1.  Deploy version 7.2.2.0 (or later) of **CITSmart Enterprise Mobile**
 
 2.  Configure the server to use the mobile application **CITSmart Enterprise
-    Mobile** (see knowledge [Server Setup Guide for using CITSmart ITSM
-    Enterprise mobile application (iOS and Android)][1])
+    Mobile** (see knowledge [Server Setup Guide for using CITSmart ITSM Enterprise mobile application (iOS and Android)][1])
 
 Installing and configuring the app on the mobile (smartphone)
 -------------------------------------------------------------
