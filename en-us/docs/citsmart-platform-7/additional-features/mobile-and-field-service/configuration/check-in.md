@@ -30,7 +30,7 @@ Filters
 
 **Figure 1 - Checkin denied reason search screen**
 
-1.  Perform a checkin denied reason search;
+2.  Perform a checkin denied reason search;
 
 -   Insert the name of the intended checkin denied reason and click on
     the *Search* button. Afterwards, the checkin denied reason entry will be
