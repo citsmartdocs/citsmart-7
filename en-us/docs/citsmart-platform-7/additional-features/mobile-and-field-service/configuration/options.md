@@ -9,7 +9,7 @@ This feature is intended to configure the Menu options for mobile use.
 How to access
 -------------
 
-1.  Access the feature by browsing the main menu** Access and Permission \>
+1.  Access the feature by browsing the main menu **Access and Permission \>
     Mobile Options Configuration**.
 
 Preconditions
