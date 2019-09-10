@@ -44,7 +44,7 @@ Filters
 
 -   **Type**: enter the type of service request you want to check.
 
-![Criar](images/daily-1.jpg)
+![Criar](images/daily-1.png)
 
 **Figure 1 - Route search screen**
 
@@ -67,7 +67,7 @@ Route settings
     need, in order to direct the open requests to be answered by the field
     technician:
 
-![Criar](images/daily-2.jpg)
+![Criar](images/daily-2.png)
 
 **Figure 2 - Route configuration screen**
 
@@ -85,7 +85,7 @@ Route settings
 
 -   **Attendance with Pending** : request that is suspended.
 
-![Criar](images/daily-3.jpg)
+![Criar](images/daily-3.png)
 
 **Figure 3 - Service requests**
 
@@ -105,7 +105,7 @@ Route settings
 -   After selecting the request, the map marker of the route that the technician
     will follow will be displayed on the map.
 
-![Criar](images/daily-4.jpg)
+![Criar](images/daily-4.png)
 
 **Figure 4 - Service requests**
 
