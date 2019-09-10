@@ -204,11 +204,11 @@ request and Print Request).
 
 **Figure 14 - Create request (continuation)**
 
-![Criar](images/ios-15.png)
+![Criar](images/ios-18.png)
 
 **Figure 15 - Create request (continuation)**
 
-![Criar](images/ios-16.png)
+![Criar](images/ios-15.png)
 
 **Figure 16 - Create request (continuation)**
 
@@ -332,7 +332,7 @@ Some requests need approval, so to meet them you need to approve them.
 2.  The "Details" screen will be displayed displaying the description of the
     request for approval / rejection of the request;
 
-![Criar](images/ios-17.png)
+![Criar](images/ios-16.png)
 
 **Figure 17 - Request approval /reject screen**
 
@@ -342,7 +342,7 @@ Some requests need approval, so to meet them you need to approve them.
     to choose the justification for this rejection, as shown in the figure
     below:
 
-![Criar](images/ios-18.png)
+![Criar](images/ios-17.png)
 
 **Figure 18 - Request rejection screen justified**
 
