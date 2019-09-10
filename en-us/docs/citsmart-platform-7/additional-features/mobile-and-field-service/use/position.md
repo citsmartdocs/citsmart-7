@@ -1,105 +1,100 @@
-title: Verificação do posicionamento dos atendentes
+title: Verification of the position of the attendants
+Description:
 
-Description: Esta funcionalidade tem por objetivo verificar o posicionamento dos técnicos, ou seja, a localização atual dos técnicos de campo, responsáveis pelo atendimento das solicitações de serviço.
+# Verification of the position of the attendants
 
-# Verificação do posicionamento dos atendentes
+This functionality has the objective of verifying the positioning of the technicians, that is, the current location of field technicians, responsible for service requests.
 
-Esta funcionalidade tem por objetivo verificar o posicionamento dos técnicos, ou
-seja, a localização atual dos técnicos de campo, responsáveis pelo atendimento
-das solicitações de serviço.
+How to access
+-------------
 
-Como acessar
------------
+1.  Access the Attendant Positioning feature by navigating the main
+    menu **Integrated Management > Attendance Management > Attendant
+    Positioning**.
 
-1.  Acesse a funcionalidade de Posicionamento dos Atendentes através da
-    navegação no menu principal **Gestão Integrada > Gerência de Força de
-    Atendimento > Posicionamento dos Atendentes**.
+Preconditions
+-------------
 
-Pré-condições
-------------
+1.  Configure the system connection with the Google APIs (see
+    knowledge [CITSmart Enterprise ITSM server configuration manual for use of
+    APP (iOS and Android)][1])
 
-1.  Configurar a conexão do sistema com as API's do Google (ver
-    conhecimento [Manual de configuração do servidor para uso do CITSmart ITSM
-    Enterprise (iOS e Android)][1]).
+Filters
+-------
 
-Filtros
-------
+1.  The following filters enables the user to restrict the participation of
+    items in the standard feature listing, making it easier to find the desired
+    items:
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+-   Contract;
 
-    -   Contrato;
+-   Executor group;
 
-    -   Grupo executor;
+-   Unit;
 
-    -   Unidade;
+-   Technician;
 
-    -   Técnico;
+-   Start date:
 
-    -   Data início;
+-   End date.
 
-    -   Data fim.
+![Criar](images/position-1.png)
 
-    ![Criar](images/position-1.png)
+**Figure 1 - Attendant location filter**
 
-    **Figura 1 - Tela de filtro de posição de técnico**
+Items list
+----------
 
-Listagem de itens
-----------------
+1.  No applicable.
 
-1.  Não se aplica.
-
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 ----------------------------------
 
-1.  Não se aplica.
+1.  No applicable.
 
-Verificando o posicionamento dos atendentes
-------------------------------------------
+Verifying the position of attendants
+------------------------------------
 
-1.  Será apresentada a tela de **Verificação da Posição do Técnico**, conforme
-    ilustrada na figura a seguir. Nesta tela, poderá visualizar a localização
-    do(s) técnico(s) no mapa, de acordo com os filtros informados;
+1.  The Technician **Position Verification** screen will be displayed, as shown
+    in the following figure. In this screen, you can see the location of the
+    technician (s) on the map, according to the filters;
 
-    ![Criar](images/position-2.png)
-    
-    **Figura 2 - Tela de posicionamento dos técnicos**
+![Criar](images/position-2.png)
 
-2.  Defina os filtros conforme sua necessidade:
+**Figure 2 - Technicians positioning screen**
 
-    -   **Contrato**: informar o contrato do técnico para verificar sua localização;
+2.  Set the filters as you need them:
 
-    -   **Grupo Executor**: informar o grupo executor ao qual o técnico pertence
-    para verificar sua localização;
+-   **Contract**: inform the technician contract to verify its location;
 
-    -   **Unidade**: informar a unidade do técnico para verificar sua localização;
+-   **Executor Group**: inform the executor group to which the technician
+    belongs to verify their location;
 
-    -   **Técnico**: informar o técnico que deseja verificar sua localização no
-    mapa;
+-   **Unit**: inform the technician unit to verify its location;
 
-    -   **Data início**: informar a data inicial do atendimento da solicitação de
-    serviço;
+-   **Technician**: inform the technician that you want to check your location
+    on the map;
 
-    -   **Data fim**: informar a data final do atendimento da solicitação de
-    serviço.
+-   **Start date**: inform the initial date of service request;
 
-3.  Após os filtros definidos, clique no botão *Pesquisar*. Feito isso, serão
-    exibidos no mapa os pontos de localização dos técnicos, conforme exemplo
-    ilustrado na figura abaixo:
+-   **End date**: inform the end date of the service request fulfillment;
 
-    ![Criar](images/position-3.png)
-    
-    **Figura 3 - Visualização do posicionamento (localização) dos técnicos de
-    campo**
+3.  After the filters are set, click the *Search* button. Once this is done, the
+    location of the technicians will be displayed on the map, as shown in the
+    figure below:
 
-4.  Clique no ponto de localização do técnico para verificar as informações
-    referentes ao atendimento da solicitação de serviço.
+![Criar](images/position-3.png)
+
+**Figure 3 - Positioning visualization (location) of field technicians**
+
+4.  Click on the location of the technician to verify the information regarding
+    the fulfillment of the service request.
+
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/22/2019 – Anna Martins
+    <b>Updated:</b>09/10/2019 – Anna Martins
     
-[1]:/pt-br/citsmart-platform-7/additional-features/mobile-and-field-service/configuration/app-android-ios.html
+[1]:/en-us/citsmart-platform-7/additional-features/mobile-and-field-service/configuration/app-android-ios.html
