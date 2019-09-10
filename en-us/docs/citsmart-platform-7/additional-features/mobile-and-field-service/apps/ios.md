@@ -276,7 +276,7 @@ request and Print Request).
 -   **Activity (Request / Incident)**: Inform the activity that will be
     performed referring to the type of request. If the reported activity has a
     "Guidance Script" associated with it, it will be displayed in the "Scripts"
-    tab represented by the icon ![Criar](images/ios-25.png) located in the upper right corner of the screen;
+    tab represented by the icon ![Criar](images/ios-25.jpg) located in the upper right corner of the screen;
 
 -   **Contract**: after informing the activity (Request / incident), the
     contract will be displayed for which the opening of an incident or service
