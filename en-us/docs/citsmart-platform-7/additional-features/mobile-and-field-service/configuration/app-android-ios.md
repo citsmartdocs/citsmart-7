@@ -1,248 +1,258 @@
-title: Manual de confirguraçãodo servidor CITSmart ENterprise ITSM para uso de APPs (iOS e Android)
+title: CITSmart Enterprise ITSM server configuration manual for use os app (iOS
+and Android)
+Description: This document is intended to provide guidance for configuring the server for using CITSmart ITSM Enterprise mobile application (iOS and Android plataform).
 
-Description:Este documento tem o propósito de fornecer orientações necessárias para configurar o servidor para o uso adequado do CITSmart ITSM Enterprise na plataforma iOS e Android.
+# CITSmart Enterprise ITSM server configuration manual for use os app (iOS and Android)
 
-# Manual de confirguração do servidor CITSmart Enterprise ITSM para uso de APPs (iOS e Android)
+This document is intended to provide guidance for configuring the server for
+using CITSmart ITSM Enterprise mobile application (iOS and Android plataform).
 
-Este documento tem o propósito de fornecer orientações necessárias para
-configurar o servidor para o uso adequado do CITSmart ITSM Enterprise na
-plataforma iOS e Android.
+Valid procedures for iOS and Android
+------------------------------------
 
-## Procedimentos válidos para iOS e Android
+Preconditions
+-------------
 
-Pré-condições
-------------
+1.  Deploy **CITSmart Enterprise Web** in version 7.2.2.0 or higher;
 
-1.  Implantar a versão 7.2.2.0 (ou superior) do **CITSmart Enterprise ITSM**.
+2.  Setup the parameter 257 - for return on paged REST services: set the amount
+    of records returned in list services concatenated by Mobile (see
+    knowledge [Parameterization rules - Mobile][1]);
 
-2.  Configurar o parâmetro 257 - Tamanho de página para retorno nos serviços
-    REST paginados: definir a quantidade de registros retornado em serviços de
-    listagem consumidos pelo Mobile (Padrão: 10) (ver conhecimento [Configurar
-    parametrização - Mobile](/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-mobile.html));
+3.  Setup the parameter 272 - determines whether to notify only requests
+    that are not responsible for CITSmart ITSM Enterprise:
 
-3.  Configurar o parâmetro 272 - Determina se serão notificados somente
-    solicitações sem responsável no CITSmart ITSM Enterprise :
+   -   Values: "Y" or "N" Default: "N";
 
-    -   Valores: "S" ou "N" Default: "N"
+   -   If the value of the parameter is "Y", only notifications of requests without
+    a current controller can be shown;
 
-    -   Caso o valor do parâmetro seja “S”, poderão ser mostradas somente as
-        notificações de solicitações sem responsável atual.
+   -   If the value of the parameter is "N", notifications of all the requests can
+    be shown;
 
-    -   Caso o valor do parâmetro seja “N”, poderão ser mostradas as
-        notificações de todas as solicitações;
+4.  Setup the parameter 255 - Radius of Action / Display of the attendant in
+    Mobile: define the radius of action of an attendant;
 
-4.  Configurar o parâmetro 255 - Raio de Ação/Visualização do atendente no
-    Mobile: definir o raio de ação de um atendente (Padrão: 30);
+5.  Setup the parameter 256 - Interval (in minutes) of Attendant position
+    report time:  set the interval that the Mobile application should report
+    to the server the geographic positioning of the attendant;
 
-5.  Configurar o parâmetro 256 - Intervalo (em minutos) de tempo para reporte de
-    posição do Atendente: definir o intervalo que o aplicativo Mobile deve
-    reportar ao servidor o posicionamento geográfico do atendente (Padrão:10);
+6.  Configure parameter 258 - Maximum Days Interval to search (Default: 30);
 
-6.  Configurar o parâmetro 258 – Intervalo máximo de dias para consulta (Padrão:
-    30);
+7.  Configure parameter 267 - Size of page to return in REST V1 mobile services
+    (Default: 200);
 
-7.  Configurar o parâmetro 267 – Tamanho de página para retorno nos serviços
-    REST V1 mobile (Padrão: 200);
+8.  Setup the parameter 284 - ID of the default agreement for creating new
+    incidents / Requests :  enter the contract ID to initiate service
+    requests;
 
-8.  Configurar o parâmetro 284 - ID do contrato padrão para a criação de novos
-    incidentes/requisições no CITSmart Enterprise Mobile: informar o ID do
-    contrato para realizar a abertura de solicitações de serviço;
+9.  Setup the parameter 285 - default service ID parameter for service
+    requests and incidents creation :  Enter the service ID that will be the
+    default for service request registration;
 
-9.  Configurar o parâmetro 285 - ID do serviço padrão para solicitações de
-    serviços e incidentes criados no CITSmart Enterprise Mobile: informar o ID
-    do serviço que será padrão para registro de solicitações de serviços;
+10.  Setup the parameter 286 - default Source ID for service requests and
+    incidents creation: Enter the default source ID to open service request;
 
-10. Configurar o parâmetro 286 - ID de origem padrão para as solicitações de
-    serviço e incidentes criados no CITSmart Enterprise Mobile: informar o ID da
-    origem padrão para abertura de solicitação de serviço.
+11.  Configure parameter 350 - Enable sending notifications to mobile phones (No
+    default).
 
-11. Configurar o parâmetro 350 – Habilita o envio de notificações para celulares
-    (Sem default).
+12.  Setup the parameter 254 - Google Services API Key: inform the key API to
+    use Google's MAPS services (see knowledge [Parameterization rules -
+    system][1]).
 
-12. Configurar o parâmetro 254 - API Key para uso de serviços Google: informar a
-    API key (chave) para utilizar os serviços MAPS da Google (ver
-    conhecimento [Configurar parametrização - sistema](/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-system.html)).
+Configuring web services
+------------------------
 
-Configurando os web services
----------------------------
+Configure CITSmart Enterprise Web Services to access the functionality of the
+CITSmart ITSM Enterprise application.
 
-A configuração dos Web services são fundamentais para o acesso a todas as
-funcionalidades do aplicativo. Siga os passos para melhor configurá-lo:
+1.  On CITSmart Enterprise Web, access the Web Services feature for the mobile
+    (System > Settings > Citsmart Mobile Web Service);
 
-1.  No CITSmart Enterprise (Web), acesse a funcionalidade de Web Services
-    referente ao mobile (Sistema > Configurações > Web Services Citsmart
-    Mobile);
+2.  Click on the "Link Groups" tab and link the activity executing group to the
+    CITSmart ITSM Enterprise Web Services.
 
-2.  Clique na aba “Vincular Grupos” e vincule o grupo executor de atividades aos
-    Web Services do CITSmart ITSM Mobile.
+!!! note "NOTE"
 
-**No momento que o grupo for selecionado ele será vinculado a todos os Web
-Services do CITSmart ITSM Enterprise de forma automatizada.**
+    In the time the group is selected, it will be linked to all CITSmart ITSM
+    Enterprise Web Services in an automated way.
 
-Instalação do certificado intermediário globalsign
--------------------------------------------------------
+Installing Globalsign intermediate certificate
+----------------------------------------------
 
-Para reconhecer o certificado intermediário da GlobalSign (Emissora do
-Certificado Digital) é necessário a instalação do mesmo. Segue os procedimentos
-abaixo:
+In order to recognize the intermediate certificate of the GlobalSign (Digital
+Certification Issuer), it must be installed. Follow the procedures below:
 
-1.  Acesso o endereço: <https://support.globalsign.com/customer/portal/articles/1464460-domainssl-intermediate-certificates>;
+1.  Access address: <https://support.globalsign.com/customer/portal/articles/1464460-domainssl-intermediate-certificates> ;
 
-2.  Realize o download do primeiro certificado, conforme indicado na figura
-    abaixo:
+2.  Download the first certificate, as shown in the figure below:
 
-    ![Criar](images/android-ios-1.jpg)
-    
-    **Figura 1 - Certificado intermediário da GlobalSign**
+![Criar](images/android-ios-1.jpg)
 
-3.  No mobile: informar o nome genérico (sugestão: GlobalSign) e clicar em
-    avançar.
+**Figure 1 - GlobalSign intermediate certificate**
 
-4.  No desktop: clicar com botão direito no certificado baixado (conforme figura
-    abaixo), clicar em instalar certificado e avançar até concluir.
+-  **On mobile**: you will be asked to install the certificate, just enter the
+    generic name (suggestion: GlobalSign) and click on forward.
 
-    ![Criar](images/android-ios-2.jpg)
-    
-    **Figura 2 - Instalação do certificado no Windows**
+-  **In desktop**: right-click the downloaded certificate (as shown below),
+    click on install certificate, and proceed to finish.
 
-5.  Depois de instalado, basta alterar o endereço do aplicativo para suas
-    necessidades (exemplo:
-    “[https://citsmart.empresa.com.br/citsmart](https://citsmart.centralit.com.br/citsmart)”).
+![Criar](images/android-ios-2.jpg)
 
-Procedimentos válidos somente para Android
-----------------------------------------
+**Figure 2 - Certificate installation on desktop**
 
-### Instalação do app Android
+3.  Once installed, simply change the application's address to
+    “<https://citsmart.centralit.com.br/citsmart>”.
 
-1.  Acesse o Google Play (Play Store) para abaixar o aplicativo CITSmart
-    Enterprise Mobile;
+Valid procedures for Android only
+---------------------------------
 
-2.  Pesquise por CITSmart Enterprise e após a pesquisa, selecione o aplicativo;
+Android app installation
+------------------------
 
-3.  Pressione o botão *Instalar* para baixar o aplicativo.
+1.  Go to Google Play (Play Store) to download the Citsmart Enterprise Mobile
+    application;
 
-### Criando chave para uso e consumo das APIs Google
+2.  Search for Citsmart Enterprise and after the search, select the application;
 
-Para que seja possível o uso e consumo das APIs Google é necessário que uma API
-Key seja criada. Para isso, os seguintes passos devem ser seguidos:
+3.  Press the *Install* button to download the application.
 
-Para realizar esses procedimentos é necessário estar logado com uma conta
-Google.
+Creating key for use and consumption of Google APIs
+---------------------------------------------------
 
-1.  Acesse o console do desenvolvedor
-    Google [https://console.developers.google.com](https://console.developers.google.com/);
+In order for the use and consumption of the Google APIs to be possible, a Key
+API must be created. For this, the following steps must be followed:
 
-2.  Clique em Criar um projeto, conforme indicado na figura abaixo:
+!!! warning "ATTENTION"
 
-    ![Criar](images/android-ios-3.jpg)
-    
-    **Figura 3 - Console do desenvolvedor Google**
+    To peform these procedures, you must be logged in with a Google account.
 
-3.  Será apresentada uma janela, conforme ilustrada na figura abaixo, para
-    informar os dados do novo projeto;
+1.  Go to the Google Developer
+    Console [https://console.developers.google.com](https://console.developers.google.com/);
 
-    ![Criar](images/android-ios-4.jpg)
-    
-    **Figura 4 - Tela de criação de projeto**
+2.  Click *Create project*, as shown in the figure below:
 
-4.  Informe o nome do projeto e clique no botão Criar para criação do projeto.
+![Criar](images/android-ios-3.jpg)
 
-5.  Após criar o projeto, clique em APIs e serviços. Para criar a API Key,
-    clique em APIs e serviços > Credenciais > Criar credenciais > Chave de API,
-    conforme indicado na figura abaixo:
+**Figure 3 - Google developer console**
 
-    ![Criar](images/android-ios-5.jpg)
-    
-    **Figura 5 - Tela de criação de API Key**
+3.  A window will appear, as shown in the figure below, to inform the data of
+    the new project;
 
-6.  Feito isso, a chave de API será apresentada:
+![Criar](images/android-ios-4.jpg)
 
-    ![Criar](images/android-ios-6.jpg)
-    
-    **Figura 6 - Tela de opções de API Key para criação**
+**Figure 4 - Project creation screen**
 
-7.  Escolha a opção que melhor lhe atenda. Para mais informações sobre qual
-    chave irá lhe atender,
-    acesse <https://developers.google.com/console/help/new/#generatingdevkeys>.
+4.  Enter the name of the project and click the Create button to create the
+    project.
 
-8.  Após as chaves criadas, as APIs já poderão ser consumidas.
+5.  After creating the project, click APIs and Services. To create the API Key,
+    click APIs and Services > Credentials > Create Credentials > API Key, as
+    shown in the figure below:
 
-APIs a serem utilizadas nas soluções
------------------------------------
+![Criar](images/android-ios-5.jpg)
 
-Segue abaixo as APIs do Google a serem consideradas nas soluções:
+**Figure 5 - API Key creation screen**
 
-![Criar](images/android-ios-7.jpg) 
-    
-**Figura 7 - APIs**
+6.  Once this is done, the API key will be displayed:
 
--   **Directions API**: a API de direções do Google é consumida através de
-    requisições HTTP. Tal API calcula direções entre dois pontos informados, a
-    origem e o destino, possuindo outras diversas opções. Para maiores
-    informações sobre o uso dessa API,
-    acesse: <https://developers.google.com/maps/documentation/directions>.
+![Criar](images/android-ios-6.jpg)
 
--   **Distance Matrix API**: a API Google Distance Matrix permite a recuperação
-    de matrizes de distâncias entre dois pontos, ou seja, retorna também
-    resultado aproximados. A diferença para a Google Directions API é que a
-    Distance Matrix não retorna informações tão detalhadas, como os passos a
-    serem realizados. Para maiores informações sobre o uso dessa API,
-    acesse: <https://developers.google.com/maps/documentation/distancematrix>.
+**Figure 6 - API Key options screen for creation**
 
--   **Geocoding API**: a Google geocoding API é uma API que ajuda a recuperar
-    posições geográficas enviando como argumento um endereço por extenso. O
-    consume da API é feito por HTTP e os resultados podem ser obtidos em XML ou
-    JSON. Para maiores informações sobre o uso dessa API,
-    acesse: <https://developers.google.com/maps/documentation/geocoding>.
+7.  Choose the men option that best suits you. For more information on which key
+    will answer you, go
+    to [https://developers.google.com/console/help/new/\#generatingdevkeys](http://developers.google.com/console/help/new/#generatingdevkeys)
 
--   **Statics Maps API**: a API para mapas estáticos do Google será utilizada em
-    casos que não será necessário a interação como mapa, apenas visualização. É
-    interessante seu uso uma vez que é mais leve, visto que não é necessário o
-    download de recurso JS e imagens que não serão utilizadas. Para maiores
-    informações sobre o uso dessa API,
-    acesse: <https://developers.google.com/maps/documentation/staticmaps>.
+8.  After the keys are created, the APIs can already be consumed.
 
--   **Google Maps JavaScript API**: o uso da API é feito por meio de uma API JS.
-    Para seu uso, basta linkar o JS na página que irá usar o maps. Para maiores
-    informações sobre o uso dessa API,
-    acesse: <https://developers.google.com/maps/documentation/javascript>.
+### APIs to be used in the solutions
 
-Ativando uma API
----------------
+Below are the Google APIs to consider in the solutions:
 
-Para ativar uma API para uso, proceda conforme os passos descritos abaixo:
+![Criar](images/android-ios-7.jpg)
 
-1.  Após de executar os passos descritos na seção "Criando chave para uso e
-    consumo das APIs Google";
+**Figure 7 - APIs**
 
-2.  Clique em APIs e serviços > Ativar APIs e serviços , conforme indicado na
-    figura abaixo:
+-   **Directions API**: The Google Directions API is consumed through HTTP
+    requests. This API calculates directions between two points informed, the
+    source and the destination, having several other options.
 
-    ![Criar](images/android-ios-8.jpg)
-    
-    **Figura 8 - APIs Google**
+    -   For more information about using this API,
+        access: <https://developers.google.com/maps/documentation/directions>.
 
-3.  Será apresentada a biblioteca de APIs. Selecione a API que deseja ativar ( a
-    figura abaixo representa um exemplo de API) e clique no botão Ativar API
-    conforme indicado na figura abaixo:
+-   **Distance Matrix API**: The Google Distance Matrix API allows the retrieval
+    of arrays of distances between two points, that is, returns approximate
+    result as well. The difference for the Google Directions API is that the
+    Distance Matrix does not return such detailed information as the steps to be
+    performed.
 
-    ![Criar](images/android-ios-9.jpg)
-    
-    **Figura 9 - Ativação da APIs Google**
+    -   For more information about using this API,
+        access: <https://developers.google.com/maps/documentation/distancematrix>.
 
-4.  Feito isso, a API estará habilitada para uso.
+-   **Geocoding API**: The Google geocoding API is an API that helps you
+    retrieve geographic positions by sending an extended address as an argument.
+    The consumption of the API is done by HTTP and the results can be obtained
+    in XML or JSON.
 
-Utilizando o aplicativo
-----------------------
+    -   For more information about using this API,
+        access: <https://developers.google.com/maps/documentation/geocoding>.
 
-[Manual do usuário do aplicativo mobile CITSmart Enterprise ITSM (Android)](/pt-br/citsmart-platform-7/additional-features/mobile-and-field-service/apps/android.html)
+-   **Statics Maps API**: The Google Static Maps API will be used in cases where
+    interaction will not be required as a map, only view. It is interesting to
+    use since it is lighter, since it is not necessary to download JS resource
+    and images that will not be used.
 
-[Manual do usuário do aplicativo mobile CITSmart Enterprise ITSM (iOS)](/pt-br/citsmart-platform-7/additional-features/mobile-and-field-service/apps/ios.html)
+    -   For more information about using this API,
+        access: <https://developers.google.com/maps/documentation/staticmaps>.
 
+-   **Google Maps JavaScript API**: The use of the API is done through a JS API.
+    For your use, simply link to JS on the page that will use the maps.
+
+    -   For more information about using this API,
+        access: <https://developers.google.com/maps/documentation/javascript>
+
+Activating an API
+-----------------
+
+To enable an API for use, proceed as described below:
+
+1.  After performing the steps described in the section 'Creating key for use
+    and consumption of Google APIs';
+
+2.  Click APIs and Services > Enable APIs and Services, as shown in the figure
+    below:
+
+![Criar](images/android-ios-8.jpg)
+
+**Figure 8 - Google APIs**
+
+3.  The API library will be displayed. Select the API you want to enable (the
+    figure below represents an example of API) and click the Activate API button
+    as indicated in the figure below:
+
+![Criar](images/android-ios-9.jpg)
+
+**Figure 9 - Google APIs activation**
+
+4.  Once this is done, the API will be enabled for use.
+
+Using the application
+---------------------
+
+-   [CITSmart Enterprise ITSM Mobile Application user guide (Android)][3];
+
+-   [CITSmart Enterprise ITSM Mobile Application user guide (iOS)][4].
+
+
+[1]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-mobile.html
+[2]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-system.html
+[3]:/en-us/citsmart-platform-7/additional-features/mobile-and-field-service/apps/android.html
+[4]:/en-us/citsmart-platform-7/additional-features/mobile-and-field-service/apps/ios.html
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/22/2019 – Anna Martins
+    <b>Updated:</b>09/10/2019 – Anna Martins
 
