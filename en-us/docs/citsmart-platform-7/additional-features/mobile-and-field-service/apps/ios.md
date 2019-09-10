@@ -16,7 +16,7 @@ It offers several features, such as:
 
 4.  Receipt of notifications.
 
-This document is structured in **three **major sections:
+This document is structured in **three** major sections:
 
 1.  Preconditions
 
