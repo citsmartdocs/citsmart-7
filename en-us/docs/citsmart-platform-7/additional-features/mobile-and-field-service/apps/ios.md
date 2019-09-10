@@ -242,7 +242,7 @@ request and Print Request).
 -   **Other Information**: Describe the observations about the applicant, if
     necessary.
 
-1.  Record service request information:
+4.  Record service request information:
 
     -   **Catalog**: select the catalog of services;
 
