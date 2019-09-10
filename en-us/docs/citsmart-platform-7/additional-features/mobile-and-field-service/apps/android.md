@@ -467,14 +467,14 @@ location**
 -   When you select the notification, you will see a list of requests near your
     location, as shown in the figure below:
 
-![figure](images/android-54.png)
+![figure](images/android-53.png)
 
 **Figure 39 - Upcoming requests**
 
 1.  When a requestor delegates a service request, you will receive a
     notification, as shown in the figure below:
 
-![figure](images/android-55.png)
+![figure](images/android-54.png)
 
 **Figure 40 - Incoming request notification**
 
