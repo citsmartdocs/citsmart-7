@@ -346,7 +346,7 @@ Some requests need approval, so to meet them you need to approve them.
 
 **Figure 18 - Request rejection screen justified**
 
--   Choose the justification for rejecting/approve the request and press the ![Criar](images/ios-28.png) button *Save and forward the Flow*.
+-   Choose the justification for rejecting/approve the request and press the ![Criar](images/ios-28.jpg) button *Save and forward the Flow*.
 
 
 !!! tip "About"
