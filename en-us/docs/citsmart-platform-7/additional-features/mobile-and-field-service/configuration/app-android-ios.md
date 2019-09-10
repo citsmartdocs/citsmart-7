@@ -22,43 +22,43 @@ Preconditions
 3.  Setup the parameter 272 - determines whether to notify only requests
     that are not responsible for CITSmart ITSM Enterprise:
 
--   Values: "Y" or "N" Default: "N";
+   -   Values: "Y" or "N" Default: "N";
 
--   If the value of the parameter is "Y", only notifications of requests without
+   -   If the value of the parameter is "Y", only notifications of requests without
     a current controller can be shown;
 
--   If the value of the parameter is "N", notifications of all the requests can
+   -   If the value of the parameter is "N", notifications of all the requests can
     be shown;
 
-1.  Setup the parameter 255 - Radius of Action / Display of the attendant in
+4.  Setup the parameter 255 - Radius of Action / Display of the attendant in
     Mobile: define the radius of action of an attendant;
 
-2.  Setup the parameter 256 - Interval (in minutes) of Attendant position
+5.  Setup the parameter 256 - Interval (in minutes) of Attendant position
     report time:  set the interval that the Mobile application should report
     to the server the geographic positioning of the attendant;
 
-3.  Configure parameter 258 - Maximum Days Interval to search (Default: 30);
+6.  Configure parameter 258 - Maximum Days Interval to search (Default: 30);
 
-4.  Configure parameter 267 - Size of page to return in REST V1 mobile services
+7.  Configure parameter 267 - Size of page to return in REST V1 mobile services
     (Default: 200);
 
-5.  Setup the parameter 284 - ID of the default agreement for creating new
+8.  Setup the parameter 284 - ID of the default agreement for creating new
     incidents / Requests :  enter the contract ID to initiate service
     requests;
 
-6.  Setup the parameter 285 - default service ID parameter for service
+9.  Setup the parameter 285 - default service ID parameter for service
     requests and incidents creation :  Enter the service ID that will be the
     default for service request registration;
 
-7.  Setup the parameter 286 - default Source ID for service requests and
+10.  Setup the parameter 286 - default Source ID for service requests and
     incidents creation: Enter the default source ID to open service request;
 
-8.  Configure parameter 350 - Enable sending notifications to mobile phones (No
+11.  Configure parameter 350 - Enable sending notifications to mobile phones (No
     default).
 
-9.  Setup the parameter 254 - Google Services API Key: inform the key API to
+12.  Setup the parameter 254 - Google Services API Key: inform the key API to
     use Google's MAPS services (see knowledge [Parameterization rules -
-    system][2]).
+    system][1]).
 
 Configuring web services
 ------------------------
@@ -240,17 +240,19 @@ To enable an API for use, proceed as described below:
 Using the application
 ---------------------
 
--   [CITSmart Enterprise ITSM Mobile Application user guide (Android)][1]);
+-   [CITSmart Enterprise ITSM Mobile Application user guide (Android)][3]);
 
--   [CITSmart Enterprise ITSM Mobile Application user guide (iOS)][2]).
+-   [CITSmart Enterprise ITSM Mobile Application user guide (iOS)][4]).
 
 
-[1]:/en-us/citsmart-platform-7/additional-features/mobile-and-field-service/apps/android.html
+[1]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-mobile.html
+[2]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-system.html
+[3]:/en-us/citsmart-platform-7/additional-features/mobile-and-field-service/apps/android.html
 [2]:/en-us/citsmart-platform-7/additional-features/mobile-and-field-service/apps/ios.html
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/22/2019 – Anna Martins
+    <b>Updated:</b>09/10/2019 – Anna Martins
 
