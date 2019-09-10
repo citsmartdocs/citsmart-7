@@ -240,9 +240,9 @@ To enable an API for use, proceed as described below:
 Using the application
 ---------------------
 
--   [CITSmart Enterprise ITSM Mobile Application user guide (Android)][3]);
+-   [CITSmart Enterprise ITSM Mobile Application user guide (Android)][3];
 
--   [CITSmart Enterprise ITSM Mobile Application user guide (iOS)][4]).
+-   [CITSmart Enterprise ITSM Mobile Application user guide (iOS)][4].
 
 
 [1]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-mobile.html
