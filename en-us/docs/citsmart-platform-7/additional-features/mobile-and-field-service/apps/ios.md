@@ -65,7 +65,7 @@ store (App Store).
 
 5.  Enter the relevant data:
 
-    -   **Connection name: enter the name of the connection you want to
+    -   **Connection name**: enter the name of the connection you want to
         connect to;
 
     -   **Server URL**: enter the server address for the connection. The
