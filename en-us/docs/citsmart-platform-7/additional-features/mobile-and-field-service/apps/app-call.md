@@ -136,10 +136,10 @@ User logged configuration
 -------------------------
 
 1.  When the user is logged in to any of the assistant options it is possible to
-    modify some pre-set settings, this is done by clicking the icon ![Tela](images/app-call.img9.png)  located in the upper left corner, then the following configuration screens
+    modify some pre-set settings, this is done by clicking the icon ![Tela](images/app-call.img13.png)  located in the upper left corner, then the following configuration screens
     will be displayed:
 
-![Tela](images/app-call.img10.png)
+![Tela](images/app-call.img9.png)
 
 **Figure 9 - Account setup screen**
 
@@ -147,7 +147,7 @@ User logged configuration
 
 3.  In the **Settings** option, you can configure the following options:
 
-![Tela](images/app-call.img11.png)
+![Tela](images/app-call.img10.png)
 
 **Figure 10 - Account setup screen**
 
@@ -155,6 +155,8 @@ User logged configuration
 
 5.  It is important to note that within the Network tab, there is the option to
     register another user and password and save, as shown below:
+
+![Tela](images/app-call.img11.png)
 
 **Figure 11 - Another user's password and password screen**
 
