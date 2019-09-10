@@ -32,12 +32,12 @@ Items list
 
 **Figure 1 - Role listing screen**
 
-1.  There are action buttons available to the user for each item in the listing,
+2.  There are action buttons available to the user for each item in the listing,
     they are: *Edit* and *Delete*.
 
-2.  To edit a role entry, click on the *Edit* button.
+3.  To edit a role entry, click on the *Edit* button.
 
-3.  Afterwards, they will be redirected to the registry screen displaying the
+4.  Afterwards, they will be redirected to the registry screen displaying the
     content belonging to the selected entry.
 
 Filling in the registration fields
