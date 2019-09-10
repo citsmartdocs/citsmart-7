@@ -184,7 +184,7 @@ request and Print Request).
 
 1.  To create a service request, press the icon ![Criar](images/ios-18.jpg) located in the lower right corner of the screen and select the ![Criar](images/ios-19.jpg) "New ticket" option, as illustrated below:
 
-![Criar](images/ios-20.jpg)
+![Criar](images/ios-12.png)
 
 **Figure 12 - Creating a service request**
 
@@ -196,25 +196,25 @@ request and Print Request).
 2.  After performing the operation, the request registration message will be
     displayed.
 
-![Criar](images/ios-21-.png)
+![Criar](images/ios-13.png)
 
 **Figure 13 - Create request**
 
-![Criar](images/ios-22-.png)
+![Criar](images/ios-14-.png)
 
 **Figure 14 - Create request (continuation)**
 
-![Criar](images/ios-23-.png)
+![Criar](images/ios-15-.png)
 
 **Figure 15 - Create request (continuation)**
 
-![Criar](images/ios-24.png)
+![Criar](images/ios-16.png)
 
 **Figure 16 - Create request (continuation)**
 
 3.  Fill in the fields as described below:
 
--   **Applicant: **Enter the name of the applicant, that is, the name of the
+-   **Applicant**: Enter the name of the applicant, that is, the name of the
     person requesting the opening of an incident or service request.
 
 !!! info "IMPORTANT"
@@ -332,7 +332,7 @@ Some requests need approval, so to meet them you need to approve them.
 2.  The "Details" screen will be displayed displaying the description of the
     request for approval / rejection of the request;
 
-![Criar](images/ios-26.png)
+![Criar](images/ios-17.png)
 
 **Figure 17 - Request approval /reject screen**
 
@@ -342,7 +342,7 @@ Some requests need approval, so to meet them you need to approve them.
     to choose the justification for this rejection, as shown in the figure
     below:
 
-![Criar](images/ios-27.png)
+![Criar](images/ios-18.png)
 
 **Figure 18 - Request rejection screen justified**
 
