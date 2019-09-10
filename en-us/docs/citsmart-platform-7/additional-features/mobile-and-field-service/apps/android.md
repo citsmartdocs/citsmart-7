@@ -388,8 +388,10 @@ the unit
 
 -   Press the Check-in button to perform the operation;
 
-When checking in, if the request is suspended, it will be reactivated
-and captured.
+!!! note "NOTE"
+
+    When checking in, if the request is suspended, it will be reactivated
+    and captured.
 
 8.  After checking in, the check-out screen will be displayed;
 
