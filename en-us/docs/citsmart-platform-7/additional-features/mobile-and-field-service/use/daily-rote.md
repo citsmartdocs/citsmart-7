@@ -129,4 +129,4 @@ Route settings
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
     <b>Updated:</b>09/10/2019 – Anna Martins
 
-[1]:/pt-br/citsmart-platform-7/additional-features/mobile-and-field-service/configuration/app-android-ios.html
+[1]:/en-us/citsmart-platform-7/additional-features/mobile-and-field-service/configuration/app-android-ios.html
