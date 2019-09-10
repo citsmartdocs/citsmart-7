@@ -1,68 +1,67 @@
-title: Cadastro e pesquisa de papel
-Description: Esta funcionalidade tem o objetivo de cadastrar os papéis dos colaboradores relacionados aos projetos.
+title: Role registration and search
+Description: The goal of this feature is to register the roles of each staff member related to projects.
 
-# Cadastro e pesquisa de papel
+# Role registration and search
 
-Esta funcionalidade tem o objetivo de cadastrar os papéis dos colaboradores
-relacionados aos projetos.
+The goal of this feature is to register the roles of each staff member related to projects.
 
-Como acessar
------------
+How to access
+-------------
 
-1.  Acesse a funcionalidade de Cadastro de Papel através da navegação no
-    menu principal **Gestão Integrada > Gerência de Projetos > Papel**.
+1.  Access the **Role Entry** feature navigating through the main
+    menu **Integrated Management > Project Management > Role**.
 
-Pré-condições
-------------
+Preconditions
+-------------
 
-1.  Não se aplica.
+1.  No applicable.
 
-Filtros
+Filters
 -------
 
-1.  Não se aplica.
+1.  No applicable.
 
-Listagem de itens
-----------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Título e Ativo**.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: **Title** and **Active**.
 
-    ![Criar](images/papel-1.png)
-    
-    **Figura 1 - Tela de listagem de papel**
+![Criar](images/papel-1.png)
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Excluir;*
+**Figure 1 - Role listing screen**
 
-3.  Para alterar os dados do registro de papel, clique no botão *Editar*;
+1.  There are action buttons available to the user for each item in the listing,
+    they are: *Edit* and *Delete*.
 
-4.  Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo
-    referente ao registro selecionado.
+2.  To edit a role entry, click on the *Edit* button.
 
-Preenchimento dos campos cadastrais
----------------------------------
+3.  Afterwards, they will be redirected to the registry screen displaying the
+    content belonging to the selected entry.
 
-1.  Será apresentada a tela de **Papel**. Clique no botão *Novo* (conforme
-    ilustrado na figura anterior);
+Filling in the registration fields
+----------------------------------
 
-2.  Feito isso, será apresentada a tela de **Cadastro de Papel**, conforme
-    ilustrada na figura a seguir:
+1.  The Role screen will be displayed. Click on the *New* (as shown in the
+    previous figure) button.
 
-    ![Criar](images/papel-2.png)
-    
-    **Figura 2 - Tela de cadastro de papel**
+2.  Then, the **Role Entry** screen will be displayed, as illustrated on the
+    image below:
 
-3.  Preencha os campos conforme orientações abaixo:
+![Criar](images/papel-2.png)
 
-    -   **Nome**: informe o nome do papel;
+**Figure 2 - Role entry screen**
 
-    -   **Ativo**: informe a situação do papel.
+3.  Fill out the fields as instructed below:
 
-4.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
-    onde a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria.
+-   **Name**: name the role;
+
+-   **Active**: insert the role current situation.
+
+4.  Click on the *Save* the button to confirm the entry, at which date, time and
+    user will automatically be stored for a future audit.
+
 
 
 !!! tip "About"
