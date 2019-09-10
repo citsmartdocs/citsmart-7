@@ -161,7 +161,7 @@ Using the app on the mobile
 6.  In each request, when you click on it, a list of options is displayed,
     being:
 
-![Criar](images/ios-1.png)
+![Criar](images/ios-11.png)
 
 **Figure 11 - Ticket list**
 
@@ -184,7 +184,7 @@ request and Print Request).
 
 1.  To create a service request, press the icon ![Criar](images/ios-18.jpg) located in the lower right corner of the screen and select the ![Criar](images/ios-19.jpg) "New ticket" option, as illustrated below:
 
-![Criar](images/ios-18.png)
+![Criar](images/ios-20.png)
 
 **Figure 12 - Creating a service request**
 
@@ -196,19 +196,19 @@ request and Print Request).
 2.  After performing the operation, the request registration message will be
     displayed.
 
-![Criar](images/ios-.png)
+![Criar](images/ios-21-.png)
 
 **Figure 13 - Create request**
 
-![Criar](images/ios-.png)
+![Criar](images/ios-22-.png)
 
 **Figure 14 - Create request (continuation)**
 
-![Criar](images/ios-.png)
+![Criar](images/ios-23-.png)
 
 **Figure 15 - Create request (continuation)**
 
-![Criar](images/ios-1.png)
+![Criar](images/ios-24.png)
 
 **Figure 16 - Create request (continuation)**
 
@@ -276,7 +276,7 @@ request and Print Request).
 -   **Activity (Request / Incident)**: Inform the activity that will be
     performed referring to the type of request. If the reported activity has a
     "Guidance Script" associated with it, it will be displayed in the "Scripts"
-    tab represented by the icon ![Criar](images/ios-1.png) located in the upper right corner of the screen;
+    tab represented by the icon ![Criar](images/ios-25.png) located in the upper right corner of the screen;
 
 -   **Contract**: after informing the activity (Request / incident), the
     contract will be displayed for which the opening of an incident or service
@@ -289,7 +289,7 @@ request and Print Request).
 -   **Impact**: After informing the activity (Request / incident), the impact
     information of the service to the business will be displayed;
 
-!!! note "NOTA"
+!!! note "NOTE"
 
     After informing the Request / incident activity, the expected time to
     fulfill the request will be established, as configured in the record of the
@@ -332,7 +332,7 @@ Some requests need approval, so to meet them you need to approve them.
 2.  The "Details" screen will be displayed displaying the description of the
     request for approval / rejection of the request;
 
-![Criar](images/ios-1.png)
+![Criar](images/ios-26.png)
 
 **Figure 17 - Request approval /reject screen**
 
@@ -342,11 +342,11 @@ Some requests need approval, so to meet them you need to approve them.
     to choose the justification for this rejection, as shown in the figure
     below:
 
-![Criar](images/ios-1.png)
+![Criar](images/ios-27.png)
 
 **Figure 18 - Request rejection screen justified**
 
--   Choose the justification for rejecting/approve the request and press the ![Criar](images/ios-1.png) button *Save and forward the Flow*.
+-   Choose the justification for rejecting/approve the request and press the ![Criar](images/ios-28.png) button *Save and forward the Flow*.
 
 
 !!! tip "About"
