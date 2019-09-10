@@ -53,7 +53,7 @@ Items list
 
 **Figure 2 - Mobile options configuration listing screen**
 
-1.  To change the registry data of Mobile Options Configuration, simply modify
+3.  To change the registry data of Mobile Options Configuration, simply modify
     the information of the desired fields and click the *Save* button to save
     the change made to the record, where the date, time and user will be saved
     automatically for a future audit.
