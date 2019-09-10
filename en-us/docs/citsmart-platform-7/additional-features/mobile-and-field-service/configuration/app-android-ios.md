@@ -91,17 +91,17 @@ Certification Issuer), it must be installed. Follow the procedures below:
 
 **Figure 1 - GlobalSign intermediate certificate**
 
-3.  **On mobile**: you will be asked to install the certificate, just enter the
+-  **On mobile**: you will be asked to install the certificate, just enter the
     generic name (suggestion: GlobalSign) and click on forward.
 
-4.  **In desktop**: right-click the downloaded certificate (as shown below),
+-  **In desktop**: right-click the downloaded certificate (as shown below),
     click on install certificate, and proceed to finish.
 
 ![Criar](images/android-ios-2.jpg)
 
 **Figure 2 - Certificate installation on desktop**
 
-5.  Once installed, simply change the application's address to
+3.  Once installed, simply change the application's address to
     “<https://citsmart.centralit.com.br/citsmart>”.
 
 Valid procedures for Android only
