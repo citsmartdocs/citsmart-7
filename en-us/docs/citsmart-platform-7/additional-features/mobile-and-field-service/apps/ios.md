@@ -200,11 +200,11 @@ request and Print Request).
 
 **Figure 13 - Create request**
 
-![Criar](images/ios-14-.png)
+![Criar](images/ios-14.png)
 
 **Figure 14 - Create request (continuation)**
 
-![Criar](images/ios-15-.png)
+![Criar](images/ios-15.png)
 
 **Figure 15 - Create request (continuation)**
 
