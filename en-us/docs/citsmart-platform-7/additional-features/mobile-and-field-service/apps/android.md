@@ -298,20 +298,20 @@ the unit
 
 **Figure 22 - Request on map**
 
-2.  To update the coordinates, press the icon ![figure](images/android-35.png) located in the upper right corner
-    of the screen and press the "Get Coordinates" option, depending on the screen resolution, the icon with the shape of a flag ![figure](images/android-36.png) , just press it to update the coordinates;
+2.  To update the coordinates, press the icon ![figure](images/android-25.png) located in the upper right corner
+    of the screen and press the "Get Coordinates" option, depending on the screen resolution, the icon with the shape of a flag ![figure](images/android-35.png) , just press it to update the coordinates;
 
-![figure](images/android-37.png)
+![figure](images/android-36.png)
 
 **Figure 23 - Get coordinates**
 
-![figure](images/android-38.png)
+![figure](images/android-37.png)
 
 **Figure 24 - Icon for get coordinates**
 
 3.  The "Get Coordinates" screen will appear:
 
-![figure](images/android-39.png)
+![figure](images/android-38.png)
 
 **Figure 25 - Get coordinates screen**
 
@@ -336,21 +336,21 @@ the unit
     more than one service request, pressing the location location of the request
     will be directed to the personal or group request list.
 
-![figure](images/android-40.png)
+![figure](images/android-39.png)
 
 **Figure 26 - Request for service via map**
 
 3.  After selecting the request, the "Details" screen will be displayed,
     according to the example shown in the figure below:
 
-![figure](images/android-41.png)
+![figure](images/android-40.png)
 
 **Figure 27 - Answer service request**
 
 4.  Press the Answer button. You will be directed to the screen of the request,
     on-you will be able to check in;
 
-![figure](images/android-42.png)
+![figure](images/android-41.png)
 
 **Figure 28 - Service request**
 
@@ -359,7 +359,7 @@ the unit
 
 -   A screen will appear to choose the route visualization application;
 
-![figure](images/android-43.png)
+![figure](images/android-42.png)
 
 **Figure 29 - Application to view the route**
 
