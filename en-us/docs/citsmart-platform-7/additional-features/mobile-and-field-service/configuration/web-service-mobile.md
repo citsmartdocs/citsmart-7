@@ -1,91 +1,108 @@
-title:  Cadastro e pesquisa de web services do CITSmart Enterprise ITSM Mobile
-Description: Tem por objetivo vincular os grupos executores de solicitações aos Web Services do Citsmart Mobile. 
-# Cadastro e pesquisa de web services do CITSmart Enterprise ITSM Mobile
+title: CITSmart Enterprise ITSM mobile web services registration and search
+Description: This functionality is intended to link request execution groups to CITSmart Enterprise ITSM Web Services to gain access to Mobile features.
 
-Esta funcionalidade tem por objetivo vincular os grupos executores de solicitações aos Web Services do Citsmart Mobile para ter acesso às funcionalidades do 
-Mobile.
+# CITSmart Enterprise ITSM mobile web services registration and search
 
-Como acessar
---------------
+This functionality is intended to link request execution groups to CITSmart
+Enterprise ITSM Web Services to gain access to Mobile features.
 
-1. Acesse a funcionalidade de web services do CITsmart mobile através da navegação no menu principal 
-**Sistema > Configurações > Web Services CITSmart Mobile**.
+How to access
+-------------
 
-Pré-condições
-----------------
+1.  Access the citsmart mobile web services functionality by navigating the main
+    menu **System** > **Settings > Citsmart Mobile Web Service**.
 
-1. Não se aplica.
+Preconditions
+-------------
 
-Filtros
------------
+1.  Not applicable.
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a 
-localização dos itens desejados:
+Filters
+-------
 
-    - Filtrar Web Service.
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    ![Pesquisa](images/web-service.img1.jpg)
-    
-    **Figura 1 - Tela de pesquisa de web service para CITSmart mobile**
-    
-Listagem de itens
---------------------
+-   Web Service's Filter
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem padrão 
-da funcionalidade: **ID, Nome** e **Descrição**.
+![Pesquisa](images/web-service.img1.jpg)
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Visualizar" e "Editar".
+**Figure 1 - Citsmart mobile's web service settings search screen**
 
-![Listagem](images/web-service.img2.jpg)
+2.  Perform the web services configuration search for CITSmart Mobile. Enter the
+    name of the web service configuration for CITSmart Mobile that you want to
+    search, after which you will see the it's registration.
 
-**Figura 2 - Tela de listagem de web service para CITSmart mobile**
+Items list
+----------
 
-Preenchmento dos campos cadastrais
---------------------------------------
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard listing of the
+    functionality: **ID**, **Name** and **Description**.
 
-1. Ao acessar a funcionalidade, será apresentada a tela **Configuração de Web Services para o CITSmart Mobile**, contendo duas abas;
+2.  There are action buttons available to the user in relation to each item in
+    the listing, they are: *View* and *Edit*, as shown in the figure below:
 
-2. Na aba **Listar Web Services** são apresentados os web services;
+![Pesquisa](images/web-service.img2.jpg)
 
-3. Para editar os dados do Web Service, clique no botão "Editar", conforme a figura abaixo:
+**Figure 2 - Citsmart mobile's web service listing screen**
 
-![Cadastro](images/web-service.img3.jpg)
+Filling in the registration fields
+----------------------------------
 
-**Figura 3 - Tela de cadastro de web service para CITSmart mobile**
+1.  When accessing the feature, the **Web Services Configuration for CITSmart
+    Mobile** screen, containing two tabs, will be displayed.
 
-Visualizando as configurações de web service para o CITSmart Mobile
----------------------------------------------------------------------
+2.  The** List Web Services** tab displays the web services.
 
-1. Para visualizar as informações do Web Service, clique no botão "Visualizar". Ao selecionar essa opção, será aberta a aba de 
-Cadastro do Web Service para a observação de suas informações, não permitindo a alteração do mesmo, conforme a figura abaixo:
+3.  To edit the Web Service data, click the *Edit* button, as shown below:
 
-![Visualização](images/web-service.img4.jpg)
+![Pesquisa](images/web-service.img3.jpg)
 
-**Figura 4 - Visualização de configuração de web services do CITSmart mobile**
+**Figure 3 - Web service registration screen for Citsmart mobile**
 
-Realizando a configuração de grupo de web services
-------------------------------------------------------
+Viewing the web service configurations for citsmart mobile
+----------------------------------------------------------
 
-1. A aba Vincular Grupos permite vincular os grupos aos web services e outra que apresenta os web services do CITSmart Mobile, 
-conforme ilustrado na figura abaixo:
+1.  To view the Web Service information, click the *View* button. When selecting
+    this option, the Web Service Registration tab will be opened for the
+    observation of it's registration information , not allowing you to change
+    it, as shown below:
 
-    ![Configuração](images/web-service.img5.jpg)
-    
-    **Figura 5 - Tela de configuração de web services do CITSmart mobile**
-    
-2. Na aba **Vincular Grupos**, vincule o grupo executor de atividades aos Web Services do CITSmart Mobile;
+![Pesquisa](images/web-service.img4.jpg)
 
-3. Selecione o grupo desejado. Após isso, o grupo será vinculado aos Web Services do CITSmart Mobile;
+**Figure 4 - Citsmart mobile web services configuration view**
 
-4. Caso queira remover o vínculo do grupo com os web services, basta clicar no ícone ![simbolo](images/simb-menos.jpg).
+Performing web services configuration
+-------------------------------------
 
-!!! warning "ATENÇÃO"
+1.  The Web Services Configuration screen for CITSmart Mobile will appear,
+    containing two tabs, one that allows you to link the groups to the web
+    services and another one that presents the CITSmart Mobile web services, as
+    shown in the figure below:
 
-    No momento em que o grupo for selecionado, será vinculado a todos os Web Services do CITSmart Mobile de forma automatizada.
-    
+![Pesquisa](images/web-service.img5.jpg)
+
+**Figure 5 - Citsmart mobile web services configuration screen**
+
+1.  In the Link Groups tab, link the activity executing group to CITSmart Mobile
+    Web Services.
+
+2.  Select the desired group. After this, the group will be linked to the Web
+    Services of CITSmart Mobile;
+
+3.  If you want to remove the group link with web services, just click on the
+    icon ![Pesquisa](images/simb-menos.jpg).
+
+!!! warning "ATTENTION"
+
+    At the time the group is selected, it will be linked to all CITSmart
+    Mobile Web Services in an automated way.
+
+       
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/05/2019 - Larissa Lourenço
+    <b>Updated:</b>09/10/2019 - Anna Martins
 
 
