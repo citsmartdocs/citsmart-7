@@ -1,224 +1,204 @@
-title: Manual de instalação on-premise (ITSM)
-Description: Esse guia prático visa demostrar o passo a passo da instalação e atualização da ferramenta CITSmart Enterprise.
+title: On-premise installation guide (ITSM)
+Description: This practical guide aims to demonstrate the step-by-step installation of the CITSmart Enterprise tool.
 
-# Manual de instalação on-premise (ITSM)
+# On-premise installation guide (ITSM)
 
-Esse guia prático visa demostrar o passo a passo da instalação e atualização da
-ferramenta CITSmart Enterprise.
+This practical guide aims to demonstrate the step-by-step installation of the CITSmart Enterprise tool.
 
-## Pré-condições
+## Preconditions
 
-1.  O protocolo **https** é obrigatório, porém o Administrador pode optar por um
-    certificado auto assinado.
+1. The **https** protocol is mandatory, but the Administrator can choose a self-signed certificate.
 
-2.  Segue a versão de cada Sistema Gerenciador de Banco de Dados compatível com
-    a solução:
+2. Here is the minimum version of each Database Management System that is compatible with the solution:
 
-    -   PostGreSQL (9.2+)
+    - PostGreSQL (9.2+)
 
-    -   Microsoft SQL Server (2008+)
+    - Microsoft SQL Server (2008+)
 
-    -   ORACLE (10g+)
+    - ORACLE (10g+)
 
-    -   MongoDB (3.4.5)
+    - MongoDB (3.4.5)
 
-3.  Segue a versão de cada navegador compatível com a solução:
+3. Here is the minimum version of each browser compatible with the solution:
 
-    -   Internet Explorer (10+)
+    - Internet Explorer (10+)
 
-    -   Mozilla Firefox (50+)
+    - Mozilla Firefox (50+)
 
-    -   Google Chrome (50+)
+    - Google Chrome (50+)
 
-4.  Segue a versão de cada software básico compatível com a solução:
+4. The following is the version of each basic software that is compatible with the solution:
 
-    -   Sistema operacional GNU / Linux com um kernel de 3.10+
+    - GNU / Linux operating system with a kernel of 3.10+
 
-    -   JBoss (7.1.2)
+    - JBoss (7.1.2)
 
-    -   Apache Solr (6.4.2)
+    - Apache Solr (6.4.2)
 
-    -   Java (1.7.0.80+)
+    - Java (1.7.0.80+)
 
-    -   JMS Apache ActiceMQ (5.14.5+)
+    - JMS Apache ActiceMQ (5.14.5+)
 
-5.  A instalação do CITSmart é um processo automatizado e sua principal premissa
-    é que a integridade do resultado só pode ser garantida se a instalação
-    estiver completa e bem sucedida, desde o início até o fim. Em caso de falha,
-    desligamento ou falha no ambiente operacional durante o processo de
-    instalação, quando esta instalação for disparada novamente, uma mensagem
-    será exibida para a equipe responsável pela instalação **("AVISO IMPORTANTE:
-    Identificamos que algum tipo de problema ocorreu em uma execução anterior
-    desse mesmo processo de instalação do Citsmart, que pode ter causado danos
-    ao banco de dados. Portanto, como precaução, o arquivo de banco de dados
-    atual não pode mais ser usado. Recomendamos que, manualmente, a equipe
-    responsável por esta instalação substitua esse banco de dados por um novo e
-    reinicia o processo de instalação")**. As etapas mais detalhadas são estas:
+5. The installation of CITSmart ITSM is an automated process and its main premise is that the integrity of the result can only be 
+guaranteed if the installation is complete and successful, from its beginning to its end. In the event of any crash, shutdown or 
+crash in the operating environment during the installation process, when this installation is triggered again the following 
+message will appear for the team responsible for the installation.("**IMPORTANT NOTICE: We have identified that some type of 
+problem occurred in a previous execution of this same Citsmart installation process, which may have caused damage to the database. 
+Therefore, as a precaution, the current database file can no longer be used. We recommend that, manually, the team responsible for 
+this installation replaces that database with a new one and restarts the installation process.") The most detailed steps are 
+these**:
 
-    -   Termine este processo de instalação;
+    - Terminate this installation process;
 
-    -   Exclua (manualmente) o arquivo de banco de dados;
+    - Delete (manually) the database file;
 
-    -   Crie o arquivo de banco de dados novamente;
+    - Create the database file again;
+    
+    - Rerun the installation process.
 
-    -   Reinicie o processo de instalação.
+## Minimum requirements
 
-## Requisitos mínimos
+   - The Jboss 7.1.2 **application server** running environment and the Apache JMS server ActiceMQ must have the following minimum requirements:
 
-   -   O ambiente de execução do **servidor de aplicação** Jboss e o servidor de
-    JMS Apache ActiceMQ deve possuir como requisitos mínimos:
-
-|                           Requisito                           |                     Especificação                    |
+|                           Requirement                         |                     Specification                    |
 |:-------------------------------------------------------------:|:----------------------------------------------------:|
-|                            Máquina                            | 1 x GNU/Linux RedHat ou Debian (incluindo derivados) |
-|                            Memória                            |                       16 GB RAM                      |
-|                             Disco                             |                        120 GB                        |
-|                         Processadores                         |                       4 (vCPU)                       |
-|                 Leitura/Escrita em disco (I/O)                |                      > 150 MB/s                      |
-|                              Rede                             |                      > 100 Mbps                      |
-| Saltos para soluções (Bancos, EVM, INV, MongoDB, Coletor WMI) |                Mesma rede, sem saltos                |
+|                          Operational System                   |1 x GNU/Linux RedHat or Debian (including derivatives) |
+|                            Memory                             |                       16 GB RAM                      |
+|                             Disk                              |                        120 GB                        |
+|                         Processors                            |                       4 (vCPU)                       |
+|                 Read/Write on Disk (I/O)                      |                      > 150 MB/s                      |
+|                              Network                          |                      > 100 Mbps                      |
+|Jumps to solutions (Databases, EVM, INV, MongoDB, WMI collector)|                Same network, no jumps               |
 
 
-**Tabela 1 - Requisitos Mínimos**
+**Table 1 - Minimum requirements**
 
--   O ambiente de execução do **servidor de banco de dados** deve possuir como
-    requisitos mínimos:
+- The **database server running** environment must have the following minimum requirements:
 
-|                          Requisito                          |                     Especificação                    |
+|                          Requirement                        |                     Specification                    |
 |:-----------------------------------------------------------:|:----------------------------------------------------:|
-|                           Máquina                           | 1 x GNU/Linux RedHat ou Debian (incluindo derivados) |
-|                           Memória                           |                         4 GB                         |
-|                            Disco                            |                        120 GB                        |
-|                        Processadores                        |                       2 (vCPU)                       |
-|                Leitura/Escrita em disco (I/O)               |                      > 150 MB/s                      |
-|                             Rede                            |                      > 100 Mbps                      |
-| Saltos para soluções (ISTM, EVM, INV, MongoDB, Coletor WMI) |                Mesma rede, sem saltos                |
+|                       Operational System                    | 1 x GNU/Linux RedHat or Debian (including derivatives) |
+|                           Memory                            |                         4 GB                         |
+|                            Disk                             |                        120 GB                        |
+|                        Processors                           |                       2 (vCPU)                       |
+|                Read/ Write on Disk (I/O)                    |                      > 150 MB/s                      |
+|                             Network                         |                      > 100 Mbps                      |
+|Jumps to solutions (ISTM, EVM, INV, MongoDB, WMI collector)  |                Same network, no jumps                |
 
+**Table 2 - Minimum requirements**
 
-**Tabela 2 - Requisitos Mínimos**
+- The execution environment of the **non-relational database server** MongoDB should have as minimum requirements:
 
-   O ambiente de execução do **servidor de banco de dados
-   não-relacional** MongoDB deve possuir como requisitos mínimos:
-
-|                          Requisito                         |                     Especificação                    |
+|                          Requirement                       |                     Specification                    |
 |:----------------------------------------------------------:|:----------------------------------------------------:|
-|                           Máquina                          | 1 x GNU/Linux RedHat ou Debian (incluindo derivados) |
-|                           Memória                          |                         4 GB                         |
-|                            Disco                           |                        120 GB                        |
-|                        Processadores                       |                       2 (vCPU)                       |
-|               Leitura/Escrita em disco (I/O)               |                      > 150 MB/s                      |
-|                            Rede                            |                      > 100 Mbps                      |
-| Saltos para soluções (Bancos, EVM, INV, ITSM, Coletor WMI) |                Mesma rede, sem saltos                |
+|                   Operational System                       | 1 x GNU/Linux RedHat or Debian (including derivatives) |
+|                           Memory                           |                         4 GB                         |
+|                            Disk                            |                        120 GB                        |
+|                        Processors                          |                       2 (vCPU)                       |
+|               Read/ Write on Disk (I/O)                    |                      > 150 MB/s                      |
+|                            Network                         |                      > 100 Mbps                      |
+|Jumps to solutions (Bancos, EVM, INV, ITSM, WMI collector)  |                Same network, no jumps                |
 
+**Table 3 - Minimum requirements**
 
-**Tabela 3 - Requisitos Mínimos**
+- The execution environment of the **Apache Solr index server** must have as minimum requirements:
 
--   O ambiente de execução do **servidor de indexação** Apache Solr deve
-    possuir como requisitos mínimos:
-
-|                          Requisito                          |                     Especificação                    |
+|                          Requirement                        |                     Specification                    |
 |:-----------------------------------------------------------:|:----------------------------------------------------:|
-|                           Máquina                           | 1 x GNU/Linux RedHat ou Debian (incluindo derivados) |
-|                           Memória                           |                         4 GB                         |
-|                            Disco                            |                        120 GB                        |
-|                        Processadores                        |                       2 (vCPU)                       |
-|                Leitura/Escrita em disco (I/O)               |                      > 150 MB/s                      |
-|                             Rede                            |                      > 100 Mbps                      |
-| Saltos para soluções (ISTM, EVM, INV, MongoDB, Coletor WMI) |                Mesma rede, sem saltos                |
+|                       Operational System                    | 1 x GNU/Linux RedHat or Debian (including derivatives) |
+|                           Memory                            |                         4 GB                         |
+|                            Disk                             |                        120 GB                        |
+|                        Processors                           |                       2 (vCPU)                       |
+|                Read/ Write on Disk (I/O)                    |                      > 150 MB/s                      |
+|                         Network                             |                      > 100 Mbps                      |
+|Jumps to solutions (ISTM, EVM, INV, MongoDB, WMI collector)  |                Same network, no jumps                |
 
-**Tabela 4 - Requisitos Mínimos**
+**Table 4 - Minimum requirements**
 
--   O ambiente de execução do **servidor ms-windows para coletas via WMI** deve
-    possuir como requisitos mínimos:
+- The execution environment of the **ms-windows server for collections via WMI** must have as minimum requirements:
 
-|                        Requisito                       |      Especificação     |
+|                        Requirement                     |      Specification     |
 |:------------------------------------------------------:|:----------------------:|
-|                         Máquina                        |       1 x Windows      |
-|                         Memória                        |          8 GB          |
-|                          Disco                         |          80 GB         |
-|                      Processadores                     |        8 (vCPU)        |
-|             Leitura/Escrita em disco (I/O)             |       > 150 MB/s       |
-|                          Rede                          |       > 100 Mbps       |
-| Saltos para soluções (Bancos, EVM, INV, ITSM, MongoDB) | Mesma rede, sem saltos |
+|             Operational System                         |       1 x Windows      |
+|                       Memory                           |          8 GB          |
+|                       Disk                             |          80 GB         |
+|                      Processors                        |        8 (vCPU)        |
+|             Read/ Write on Disk (I/O)                  |       > 150 MB/s       |
+|                      Network                           |       > 100 Mbps       |
+|Jumps to solutions (Databases, EVM, INV, ITSM, MongoDB) | Same network, no jumps |
 
-**Tabela 5 - Requisitos Mínimos**
+**Table 5 - Minimum requirements**
 
-## Software e download
+## Software and download
 
-!!! info "IMPORTANTE"
+!!! info "IMPORTANT"
 
-     Recomendamos Red Hat, CentOS, Debian ou Ubuntu.
+     We recommend RedHat, Cent / OS, Debian or Ubuntu.
 
-!!! Abstract "SAIBA MAIS"
+!!! Abstract "KNOW MORE"
 
-     Todos os nossos arquivos citados neste documento podem ser baixados
-     acessando a área de download da CITSmart Corporation
+     All our files mentioned in this document can be downloaded by accessing the download area of CITSmart Corporation
      ([http://files.citsmart.com](http://files.citsmart.com/))
 
-Para execução do CITSmart, baixaremos os pacotes necessários conforme o
-procedimento relativo ao produto.
+To run CITSmart Enterprise, we will download the required packages according to the product procedure.
 
-### Servidor de Aplicação Jboss
+### Jboss Application Server
 
-Download do pacote conforme seu banco de dados (no manual utilizaremos o pacote
-com PostgreSQL):
+Download the package according to your database (in the manual we will use the package with PostgreSQL):
 
-   -   Jboss (PostgreSQL) : jboss-7.1.2_postgres.tar.gz
+   - Jboss (PostgreSQL) : jboss-7.1.2_postgres.tar.gz
 
-   -   Jboss (Oracle): jboss-7.1.2_oracle.tar.gz
+   - Jboss (Oracle): jboss-7.1.2_oracle.tar.gz
 
-   -   Jboss (MSSQL): jboss-7.1.2_mssql.tar.gz
+   - Jboss (MSSQL): jboss-7.1.2_mssql.tar.gz
 
-   -   Java JDK (qualquer banco): jdk1.7.0_80_x64.tar.gz
+   - Java JDK (qualquer banco): jdk1.7.0_80_x64.tar.gz
 
-### Servidor de JMS Apache ActiveMQ
+### JMS Apache ActiveMQ Server
 
-   -   Apache ActiveMQ 5.14.5: apache-activemq-5.14.5.tar.gz
+   - Apache ActiveMQ 5.14.5: apache-activemq-5.14.5.tar.gz
 
-   -   Java JDK: jdk1.7.0_80_x64.tar.gz
+   - Java JDK: jdk1.7.0_80_x64.tar.gz
 
-### Servidor de Banco de Dados MongoDB
+### MongoDB Database Server
 
-   -   Para localizar o download conforme sua
-    distribuição: <https://www.mongodb.com/download-center#community>
+   - To find the download according to your distribution: <https://www.mongodb.com/download-center#community>
 
-   -   Para o download do MongoDB para Ubuntu Server LTS
-    16.04: <https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1604-3.4.5.tgz>
+   - To download MongoDB for Ubuntu Server LTS 16.04:
+   <https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1604-3.4.5.tgz>
 
-### Servidor de Banco de Dados PostgreSQL/Oracle/MSSQL
+### PostgreSQL / Oracle / MSSQL Database Server
 
-O CITSmart é compatível com o PostgreSQL ou superior e o download será feito no
-momento da configuração dos pacotes.
+CITSmart Enterprise is compatible with PostgreSQL or higher and will be downloaded at the time of package configuration.
 
-Recomenda-se que instalações de Oracle ou MSSQL sejam efetuados conforme
-informações e melhores práticas de cada fabricante:
+It is recommended that Oracle or MSSQL installations be performed according to information and best practices of each 
+manufacturer:
 
--   *Oracle:* <https://docs.oracle.com/cd/E11882_01/server.112/e10897/toc.htm>
+- *Oracle:* <https://docs.oracle.com/cd/E11882_01/server.112/e10897/toc.htm>
 
--   *MSSQL:* <https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server>.
+- *MSSQL:* <https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server>.
 
-### Servidor de Indexação Apache Solr
+### Apache Solr Indexing Server
 
--   Configurações para base de conhecimento:
-    http://files.citsmart.com/base_conhecimento_configs.zip
+- Solr
 
-## Configuração dos pacotes
+- Knowledge Base Settings:
+  http://files.citsmart.com/base_conhecimento_configs.zip
 
-!!! note "NOTA"
+## Package configuration
 
-     Utilizaremos o diretório /opt para instalação de todos os pacotes. O
-     GNU/Linux com instalação mínima deve estar configurado nas 4 máquinas. Neste
-     exemplo usaremos Unbuntu, caso queira usar outra distribuição altere os
-     comandos conforme o gerenciamento de pacotes.
+!!! note "NOTE"
 
-Com os downloads finalizados podemos dar início a instalação da solução
-CITSmart.
+     We will use the / opt directory to install all packages for CITSmart Enterprise ITSM. GNU / Linux with minimal installation 
+     must be configured on the 4 machines. In the examples we used Ubuntu Server LTS 16.04. If you want another distribution, use 
+     the commands.
 
-### Servidor de Aplicação Jboss
+With the finished downloads we can start the installation of the CITSmart Enterprise ITSM solution.
 
-1. Devemos descompactar o pacote JAVA JDK no diretório /opt e criar dois links
-  simbólicos para o /usr/bin. Recomendamos que seu ambiente não possua nenhum
-  JAVA instalado. Execute java –version e confira a versão do java.
+### Jboss Application Server
+
+1. We must unzip the JAVA JDK package in the / opt directory and create two symbolic links for / usr / bin. We recommend that your 
+environment does not have any JAVA installed. Run java -version and check out the java version.
 
     ```sh
     tar -xvzf jdk-1.7.0_80-linux-x64.tar.gz -C /opt/
@@ -230,18 +210,17 @@ CITSmart.
     Java HotSpot(TM) 64-Bit Server VM (build 24.80-b11, mixed mode)
     ```
 
-2. Extraia o Jboss para o diretório /opt.
+2. Extract Jboss to the / opt directory.
 
-3. No exemplo abaixo utilizamos o Jboss com o PostgreSQL configurado.
+3. In the example below we use Jboss with the configured PostgreSQL.
 
     ```sh
     tar -xvzf jboss-7.1.2_postgres.tar.gz -C /opt/
     ```
 
-4.  Agora devemos configurar o arquivo standalone-full.xml.
+4.  Now we must configure the standalone-full.xml file.
 
-    Algumas configurações só serão possíveis após a instalação de todos os
-componentes da solução.
+    **Some configurations will only be possible after installing all components of the solution**.
 
     ```java
     <!-- SET TRUE TO ENABLE EVM -->
@@ -272,13 +251,11 @@ componentes da solução.
     <property name="citsmart.evm.id" value="evm_local"/>
     ```
 
-5.  As seções necessárias de configuração estão demonstradas abaixo e estarão
-    explicadas na seção **"Parâmetros CITSmart"**.
+5. The necessary configuration sections are demonstrated below and will be explained in the "**CITSmart Parameters**" section.
 
-6.  Para o banco de dados precisaremos de duas bases, chamadas de
-    CITSMART_NAME_DB e CITGRP_NAME_DB.
+6. For the database we will need two bases, called CITSMART_NAME_DB and CITGRP_NAME_DB.
 
-7.  Existem **4 entradas** de datasource para o **CITSMART_NAME_DB**.
+7. There are **4 datasource** entries for CITSMART_NAME_DB.
 
     ```sh
     <!-- SET YOUR DATABASE INFORMATION - CHANGE IP_DB, PORT_DB, CITSMART_NAME_DB, CITGRP_NAME_DB, USER_DB,      PASSWD_DB -->
@@ -295,7 +272,7 @@ componentes da solução.
     <password>PASSWD_DB</password>
     ```
 
-8.  Existem **9 entradas** de datasource para o **CITGRP_NAME_DB**.
+8.  There are 9 datasource entries for CITGRP_NAME_DB.
 
     ```sh
     <!-- SET YOUR DATABASE INFORMATION - CHANGE IP_DB, PORT_DB, CITSMART_NAME_DB, CITGRP_NAME_DB, USER_DB, PASSWD_DB -->
@@ -311,9 +288,9 @@ componentes da solução.
     <password>PASSWD_DB</password>
     ```
 
-### Servidor de JMS Apache ActiveMQ
+### JMS Apache ActiveMQ Server
 
-Descomprima o ActiveMQ e JAVA no diretório /opt e crie o link simbólico do JAVA.
+Unzip ActiveMQ and JAVA in the / opt directory and create the symbolic JAVA link.
 
 ```sh
 tar -xvzf apache-activemq-5.14.5.tar.gz -C /opt/
@@ -321,17 +298,16 @@ tar -xvzf jdk-1.7.0_80-linux-x64.tar.gz -C /opt/
 ln -s /opt/jdk1.7.0_80/bin/java /usr/bin
 ```
 
-### Servidor de Banco de Dados MongoDB
+### MongoDB Database Server
 
-1.  Após baixar o MongoDB para sua correta distribuição, deve-se efetuar a
-    descompressão para o diretório /opt.
+1. After downloading MongoDB from version 3.4.5 for its correct distribution, decompression should be done for the / opt 
+directory.
 
     ```sh
     tar -xvzf mongodb-linux-x86_64-ubuntu1604-3.4.5.tgz -C /opt/
     ```
 
-2.  Devemos criar um diretório para a base e iniciar o MongoDB. Repare que ele
-    irá subir com permissões irrestritas de acesso.
+2. We should create a directory for the base and start MongoDB. Note that it will come up with unrestricted access permissions.
 
     ```sh
     mkdir -p /data/db
@@ -340,12 +316,12 @@ ln -s /opt/jdk1.7.0_80/bin/java /usr/bin
     <mensagens de acesso irrestrito>
     ```
 
-3.  Com o MongoDB iniciado, abra outro terminal, acesse o diretório bin do
-    MongoDB e crie a base CITSmart definindo seu usuário e senha.
+3. With MongoDB started, open another terminal, access the MongoDB bin directory and create the citsmart database by setting your 
+user name and password.
 
-4.  O retorno “**Successfully added user**” deve ser observado.
+4. The return "**Successfully added user**" should be noted.
 
-5.  Digite exit para sair do console do MongoDB.
+5. Type exit to exit the MongoDB console.
 
     ```sh
     cd /opt/mongodb-linux-x86_64-ubuntu1604-3.4.5/bin/
@@ -364,22 +340,20 @@ ln -s /opt/jdk1.7.0_80/bin/java /usr/bin
     })
     ```
 
-6. Retorne ao terminal anterior e finalize o processo do mongodb com um CTRL+C.
+6. Return to the previous terminal and end the mongodb process with a CTRL + C.
 
-### Servidor de banco de dados Postgresql/Oracle/Mssql
+### PostgreSQL/ Oracle/ MSSQL database server
 
-1.  O PostgreSQL podemos instalar diretamente do repositório da distribuição
-    caso seja igual ou superior a versão 9.2.
+1. PostgreSQL can be installed directly from the distribution repository if it is equal to or greater than version 9.2.
 
-2.  No manual estamos utilizando o Ubuntu Server LTS 16.0.4 que possuí a versão
-    9.5 no repositório.
+2. In the manual we are using the Ubuntu Server LTS 16.0.4 that has version 9.5 in the repository.
 
     ```sh
     apt-get update
     apt-get install postgresql-9.5
     ```
 
-3.	Após instalar o PostgreSQL precisamos criar a base de dados, usuário e senha.
+3. After installing PostgreSQL we need to create the database, user and password.
 
     ```sh
     systemctl start postgresql
@@ -396,36 +370,37 @@ ln -s /opt/jdk1.7.0_80/bin/java /usr/bin
     postgres=#exit
     ```
 
-    !!! info "IMPORTANTE"
+    !!! info "IMPORTANT"
 
-        Observe o retorno dos comandos analisando a correta execução.
+        Observe the return of the commands by analyzing the correct execution.
 
-4.	Agora iremos configurar o /etc/postgresql/9.5/main/pg_hba.conf para permitir a conexão do Jboss para a database e usuário do citsmart. No final do arquivo altere as linhas:    
+4. Now we will configure **/etc/postgresql/9.5/main/pg_hba.conf** to allow the Jboss connection to the database and citsmart user. 
+At the end of the file change the lines:   
 
     ```sh
-    Padrão:
+    Default:
     host all all 127.0.0.1/32 md5
-    Alterado:
+    Updated:
     host CITSMART_NAME_DB USER_DB IP_JBOSS/32 md5
     host CITGRP_NAME_DB USER_DB IP_JBOSS/32 md5
     ```
 
-5.	Hora de abrir o listening no arquivo /etc/postgresql/9.5/main/postgresql.conf .
-6.	Após as configurações, de um restart no postgresql.
+5. Time to open listening in the **/etc/postgresql/9.5/main/postgresql.conf** file.
+6. After the settings, a restart in postgresql.
 
     ```sh
-    Padrão está comentado:
+    Default is commented:
     #listen_addresses = 'localhost'
-    Alterado:
+    Updated:
     listen_addresses = '0.0.0.0'
     systemctl restart postgresql
     ```
 
-### Servidor de indexação apache Solr
+### Apache Solr indexing server
 
-1.  Instale o pacote unzip conforme sua distribuição.
+1. Install the unzip package according to your distribution.
 
-2.  Descompacte o JAVA e Solr para /opt/.
+2. Unzip JAVA and Solr to / opt /.
 
     ```sh
     apt-get install unzip
@@ -438,7 +413,7 @@ ln -s /opt/jdk1.7.0_80/bin/java /usr/bin
     Java HotSpot(TM) 64-Bit Server VM (build 25.131-b11, mixed mode)
     ```
 
-3.	Crie um usuário para execução do Solr com shell falso e de permissão no diretório do Solr para ele e inicie.
+3. Create a user to run Solr with false shell and permission in the Solr directory for it and start.
 
     ```sh
     useradd -s /bin/false solr
@@ -446,7 +421,7 @@ ln -s /opt/jdk1.7.0_80/bin/java /usr/bin
     sudo -u solr /opt/solr-6.4.2/bin/solr start
     ```
 
-4.	Descomprima o arquivo para configurações da base de conhecimento e execute a criação da collection.
+4. Unzip the file to knowledge base settings and run the collection creation.
 
     ```sh
     unzip -x base_conhecimento_configs.zip -d /opt/solr-6.4.2/
@@ -454,70 +429,67 @@ ln -s /opt/jdk1.7.0_80/bin/java /usr/bin
     sudo -u solr /opt/solr-6.4.2/bin/solr create -c base_conhecimento -d base_conhecimento_configs -s 2 -rf 2
     ```
 
-5.	Observe o retorno do comando com “Creating new core 'base_conhecimento” e o “status”:0.
+5. Note the return of the command with "Creating new core 'knowledge_base' and 'status': 0.
 
+## CITSmart parameters
 
-## Parâmetros CITSmart
+!!! warning "WARNING"
 
-!!! warning "ATENÇÃO"
+    All parameters must be configured before the solution is fully started.
 
-    Todos os parâmetros devem ser configurados antes do start completo da
-    solução.
-
-
--   ***False ou true para habilitar/desabilitar o EVM. Padrão false.***
+- ***False or true to enable / disable EVM. Default: false.***
 
        *\<property name="citsmart.evm.enable" value="false"/\>*
 
--   ***False ou true para habilitar/desabilitar o INV. Padrão False.***
+- ***False or true to enable / disable INV. Default: False.***
 
        *\<property name="citsmart.inventory.enable" value="false"/\>*
 
--   ***Configure o IP do MongoDB conforme rede do servidor do MongoDB.***
+- ***Configure the MongoDB IP according to the MongoDB server network.***
 
        *\<property name="mongodb.host" value="IP_MONGODB"/\>*
 
--   ***Configure a PORTA do MongoDB conforme sua instalação. Padrão 27017.***
+- ***Configure the MongoDB PORT according to your installation. Default: 27017.***
 
        *\<property name="mongodb.port" value="PORT_MONGODB"/\>*
 
--   ***Configure o USER do MongoDB conforme. Manual padrão admin.***
+- ***Set the MongoDB USER accordingly. Default: admin.***
 
        *\<property name="mongodb.user" value="USER_MONGODB"/\>*
 
--   ***Configure a SENHA do MongoDB conforme. Manual padrão yourpassword.***
+- ***Set the MongoDB PASSWORD accordingly. Default: yourpassword.***
 
        *\<property name="mongodb.password" value="PASSWD_MONGODB"/\>*
 
--   ***Configure o IP do Jboss conforme sua rede. Manual padrão 127.0.0.1.***
+- ***Configure Jboss IP according to your network. Default: 127.0.0.1.***
 
        *\<property name="citsmart.host" value="127.0.0.1"/\>*
 
--   ***Configure a PORTA do Jboss conforme sua rede. Manual padrão 8080.***
+- ***Configure the Jboss PORT according to your network. Default: 8080.***
 
        *\<property name="citsmart.port" value="8080"/\>*
 
--   ***Configure o contexto do deploy citsmart. Manual padrão citsmart.***
+- ***Configure the citsmart deploy context. Default: citsmart.***
 
        *\<property name="citsmart.context" value="citsmart"/\>*
 
--   ***Configure o contexto do deploy citsmart. Manual padrão consultor.***
+- ***Configure the citsmart deploy context. Default: consultor.***
 
        *\<property name="citsmart.login" value="consultor"/\>*
 
--   ***Configure a SENHA do citsmart. Manual padrão password.***
+- ***Set the cpmmart PASSWORD. Default: password.***
 
        *\<property name="citsmart.password" value="password"/\>*
 
--   ***INV ID para criação no citsmart. Padrão inventory_local.***
+- ***INV ID for creation in citsmart. Default: inventory_local.***
 
        *\<property name="citsmart.inventory.id" value="inventory_local"/\>*
 
--   ***EVM ID para criação no citsmart. Padrão evm_local.***
+- ***EVM ID for creation in citsmart. Default evm_local.***
 
        *\<property name="citsmart.evm.id" value="evm_local"/\>*
 
--   ***DataSource do standalone-full.xml***
+- ***DataSource of the standalone-full.xml***
 
        *\<connection-url\>jdbc:postgresql://IP_DB:PORT_DB/CITSMART_NAME_DB\</connection-url\>*
 
@@ -527,66 +499,57 @@ ln -s /opt/jdk1.7.0_80/bin/java /usr/bin
 
        *\<password\>PASSWD_DB\</password\>*
 
--   ***IP_DB: configuração de rede do servidor de banco de dados PostgreSQL.***
+- ***IP_DB: PostgreSQL database server network configuration***
 
--   ***PORT_DB: Padrão 5432(PostgreSQL).***
+- ***PORT_DB: Default 5432 (PostgreSQL).***
 
--   ***CITGRP_NAME_DB: Manual criado como citgrpdb.***
+- ***CITGRP_NAME_DB: Default: citgrpdb.***
 
--   ***CITSMART_NAME_DB: Manual criado como citsmartdb.***
+- ***CITSMART_NAME_DB: Default: citsmartdb.***
 
--   ***USER_DB: Usuário de acesso a base. Manual criado com citsmart.***
+- ***USER_DB: Base Access User. Default: citsmart.***
 
--   ***PASSWD_DB: Senha de acesso do usuário de banco. Manual criado com
-    yourpassword.***
+- ***PASSWD_DB: Database user password. Default: yourpassword.***
 
-## Configuração do processamento batch (arquivo quartz.properties)
+## Batch processing configuration (quartz.properties file)
 
-### Ambiente Cluster
+### Cluster environment
 
-Abaixo são apresentados os passos que devem ser realizados para configurar a
-rotina de **processamento batch** do CITSmart para ambiente clusterizado.
+The following are the steps that must be taken to configure the CITSmart ITSM batch routine for the clustered environment.
 
-!!! warning "ATENÇÃO"
+!!! warning "WARNING"
 
-    Nunca utilize a rotina de processamento batch em ambiente clusterizado,
-    sem que o horário dos servidores seja sincronizado. Portanto, não realize as
-    configurações sem que, primeiramente, os servidores estejam com esta
-    sincronização ativa.
+    Never use the batch processing routine in a clustered environment, without synchronizing the server time. Therefore, do not 
+    perform the settings without first having the servers running with this active synchronization.
 
-1.  Adicionar o arquivo *quartz.properties* disponibilizado no deploy da versão
-    e correspondente ao banco de dados utilizado, diretamente na pasta
-    “configuration” do diretório standalone ou domain do JBoss, dependendo da
-    instalação desejada. Edite este arquivo e realize as seguintes
-    configurações:
+1. Add the quartz.properties file available in the version deploy and corresponding to the database used, directly in the 
+"configuration" folder of the standalone directory or JBoss domain, depending on the installation you want. Edit this file and 
+make the following settings:
 
-    -  Verificar se a propriedade *org.quartz.jobStore.driverDelegateClass* é
-    correspondente ao banco de dados da instalação:
+    - Verify that the *org.quartz.jobStore.driverDelegateClass* property corresponds to the installation database:
 
-       -  Postgresql = *org.quartz.impl.jdbcjobstore.PostgreSQLDelegate*
+       - Postgresql = *org.quartz.impl.jdbcjobstore.PostgreSQLDelegate*
 
-       -  Oracle = *org.quartz.impl.jdbcjobstore.oracle.OracleDelegate*
+       - Oracle = *org.quartz.impl.jdbcjobstore.oracle.OracleDelegate*
 
-       -  Microsoft SQL Server = *org.quartz.impl.jdbcjobstore.MSSQLDelegate*
+       - Microsoft SQL Server = *org.quartz.impl.jdbcjobstore.MSSQLDelegate*
 
-    -  Alterar a propriedade *org.quartz.jobStore.dataSource* para que seja
-        exatamente igual ao **pool-name** que foi informado no arquivo de
-        configuração do JBoss: standalone.xml ou domain.xml;
+    - Change the org.quartz.jobStore.dataSource property so that it is exactly the same as the pool-name that was entered in the 
+    JBoss configuration file: standalone.xml or domain.xml;
 
-    -  Se o ambiente for clusterizado a
-        propriedade *org.quartz.jobStore.isClustered* deverá estar *true*;
+    - If the environment is clustered the org.quartz.jobStore.isClustered property must be **true**;
 
-    -  Alterar a propriedade *org.quartz.dataSource.citsmart.jndiURL* para a
-        mesma URL do **jndi-name** presente no arquivo de configuração do JBoss.
+    - Change the *org.quartz.dataSource.citsmart.jndiURL* property to the same jndi-name URL present in the JBoss configuration 
+    file.
 
-2.  Abaixo é apresentada uma imagem ilustrando os locais do
-    arquivo *quartz.properties *que devem ser avaliados:
+2. Below is an image illustrating the locations of the ***quartz.properties*** file that should be evaluated:
 
-    ![Criar](images/installation-1.png)
+    ![File](images/onpremissess.img1.jpg)
 
-    **Figura 1 - Arquivo quartz.properties**
+    **Figure 1 - File quartz.properties**
 
-3.	No arquivo de configuração do JBoss standalone.xml ou domain.xml, incluir na tag system-properties a propriedade org.quartz.properties, conforme indicado abaixo:
+3. In the JBoss **standalone.xml** or **domain.xml** configuration file, include the ***org.quartz.properties*** property in the 
+**system-properties** tag as follows:
 
     ```sh
     <system-properties>
@@ -602,18 +565,16 @@ rotina de **processamento batch** do CITSmart para ambiente clusterizado.
     </system-properties>
     ```
 
-### Ambiente Standalone
+### Standalone environment
 
-Abaixo são apresentados os passos que devem ser realizados para configurar a
-rotina de **processamento batch** do CITSmart em ambiente standalone.
+The following are the steps that must be taken to configure the CITSmart ITSM batch processing routine in a standalone 
+environment.
 
-1.  Adicionar o arquivo *quartz.properties* disponibilizado no deploy da versão
-    para ambiente standalone, diretamente na pasta “configuration” do diretório
-    standalone do JBoss.
+1. Add the ***quartz.properties*** file available in the version deploy to standalone environment, directly in the "configuration" 
+folder of the standalone directory of JBoss.
 
-2.  No arquivo de configuração do JBoss *standalone.xml*, incluir na
-    tag *system-properties* a propriedade **org.quartz.properties**, conforme
-    indicado abaixo:
+2. In the JBoss ***standalone.xml*** configuration file, include in the ***system-properties*** tag the 
+***org.quartz.properties*** property, as indicated below:
 
     ```java
     \<system-properties\>
@@ -641,80 +602,77 @@ rotina de **processamento batch** do CITSmart em ambiente standalone.
     \</system-properties\>
     ```
 
-3.  Configure o arquivo *citsmart.cfg*. A configuração padrão do CITSmart não
-    utiliza o banco de dados para armazenar os Jobs do quartz, portanto,
-    torna-se necessária a carga deles, na memória, durante a inicialização. Para
-    isso, é necessário adicionar no arquivo *citsmart.cfg* o
-    parâmetro: *INICIAR_PROCESSAMENTOS_BATCH=TRUE*
+3. Configure the **citsmart.cfg** file. The default configuration of CITSmart ITSM does not use the database to store quartz Jobs, 
+so it becomes necessary to load them in memory during startup. To do this, it is necessary to add in the **citsmart.cfg** file the 
+parameter: START_PROCESSAMENTOS_BATCH = TRUE
 
-## Download dos deploys do CITSmart
+## CITSmart enterprise deploys download
 
-Com os deploys em mãos, mova-os para o diretório deployments do Jboss.
+With the deploys in hand, move them to the deployments directory of Jboss.
 
 ```sh
 cp <deploy 1>.war /opt/jboss-7.1.2/standalone/deployments/
 cp <deploy 2>.war /opt/jboss-7.1.2/standalone/deployments/
 cp <deploy 3>.war /opt/jboss-7.1.2/standalone/deployments/
-<continue conforme os deploys disponíveis para sua subscrição>
+<Continue to conform to the deploys available for your subscription>
 ```
 
-### Criação de diretórios para instalação
+### Creating directories for installation
 
-Crie os diretórios abaixo para serem configurados nos 3 passos de instalaçãoweb.
+Create the directories below to be configured in the 3 steps of web installation.
 
 ```sh
-Para GED:
+EDM:
 mkdir /opt/citsmart/ged
-Para Base de Conhecimento:
+Knowledge base:
 mkdir /opt/citsmart/kb
-Para Palavras Gêmeas:
+Twin words:
 mkdir /opt/citsmart/twinwords
-Para Anexos de Base de Conhecimento:
+Knowledge Base Attachments:
 mkdir /opt/citsmart/attachkb
-Para Upload:
+Upload:
 mkdir /opt/citsmart/upload
 ```
 
-### Geração de certificado auto assinado SSL
+### Self-signed certificate generation SSL
 
-!!! info "IMPORTANTE"
+!!! info "IMPORTANT"
 
-    Para o JBoss será gerado um certificado auto-assinado. Caso você possua um
-    certificado é importante usá-lo.
+    A self-signed certificate will be generated for Jboss. If you have a certificate it is important to use it.
 
-1.  Conecte no servidor do Jboss.
+1. Connect to the Jboss server.
 
-    ***Deletando alias antigos***.
+    ***Deleting old aliases***.
 
     ```sh
     /opt/jdk1.7.0_80/bin/keytool -keystore /opt/jdk1.7.0_80/jre/lib/security/cacerts -delete -alias GRPv1
     ```
 
-    ***Criando alias novo com DNS (exemplo sub.example.com)***:
+    ***Creating new alias with DNS (example sub.example.com)***:
 
     ```sh
     /opt/jdk1.7.0_80/bin/keytool -genkey -alias GRPv1 -keyalg RSA -keystore /opt/jboss-                 7.1.2/standalone/configuration/GRPv1.keystore -ext san=dns:sub.example.com -validity 3650 -storepass 123456
     ```
 
-    ***Criando alias com IP do serviodor do Jboss (exemplo 10.2.1.82)***:
+    ***Creating IP aliases for the Jboss server (example 10.2.1.82)***:
 
     ```sh
     /opt/jdk1.7.0_80/bin/keytool -genkey -alias GRPv1 -keyalg RSA -keystore /opt/jboss-  7.1.2/standalone/configuration/GRPv1.keystore -ext san=ip:10.2.1.82 -validity 3650 -storepass 123456
     ```
 
-    ***Exportando certificado para extensão .cer***:
+    ***Exporting certificate to .cer extension:***:
 
     ```sh
     /opt/jdk1.7.0_80/bin/keytool -export -alias GRPv1 -keystore /opt/jboss-7.1.2/standalone/configuration/GRPv1.keystore -    validity 3650 -file /opt/jboss-7.1.2/standalone/configuration/GRPv1.cer
     ```
 
-    ***Adicionando certificado no cacerts do Java***:
+    ***Adding Certificate in Java Cacerts***:
 
     ```sh
     /opt/jdk1.7.0_80/bin/keytool -keystore /opt/jdk1.7.0_80/jre/lib/security/cacerts -importcert -alias GRPv1 -file /opt/jboss-7.1.2/standalone/configuration/GRPv1.cer
     ```
 
-    ***Atual***:
+    ***Now***:
 
     ```sh
     <!-- SET YOUR SSL OPTIONS
@@ -724,7 +682,7 @@ mkdir /opt/citsmart/upload
     -->
     ```
 
-    ***Remova o “!-- SET YOUR SSL OPTIONS” e “-->”***:
+    Remove the “<!-- SET YOUR SSL OPTIONS” e “-->”:
 
     ```sh
     <connector name="https" protocol="HTTP/1.1" scheme="https" socket-binding="https" secure="true">
@@ -732,160 +690,143 @@ mkdir /opt/citsmart/upload
     </connector>
     ```
 
-2.  Após a geração do certificado, descomente
-    no **/opt/jboss-7.1.2/standalone/configuration/standalone-full.xml** do
-    jboss.
+2. After certificate generation, uncomment in jboss **/opt/jboss-7.1.2/standalone/configuration/standalone-full.xml**.
 
-### Iniciando as soluções seguindo dependências
+### Starting solutions following dependencies
 
-Você pode criar as daemons conforme padrão de sua empresa ou iniciar as soluções
-no terminal.
+You can create the daemons according to the standard of your company or start the solutions in the terminal.
 
-***Servidor de Banco de Dados PostgreSQL***
+***PostgreSQL Database Server***
 
 ```sh
 systemctl postgresql start
 ```
 
-***Servidor de Banco de Dados MongoDB***
+***MongoDB Database Server***
 
 ```sh
 systemctl postgresql start
 ```
-***Servidor de Indexação Apache Solr***
+***Apache Solr Indexing Server***
 
 ```sh
 sudo -u solr /opt/solr/bin/solr start
 ```
 
-***Servidor de JMS Apache ActiveMQ***
+***JMS Apache ActiveMQ Server***
 
 ```sh
 /opt/apache-activemq-5.14.5/bin/activemq start
 ```
 
-***Servidor de Aplicação Jboss***
+***Jboss Application Server***
 
 ```sh
 /opt/jboss-7.1.2/bin/standalone.sh -Djboss.bind.address=0.0.0.0
 ```
 
 
-### Acesso ao CITSmart Enterprise
+### Access to CITSmart Enterprise
 
-   -  Para acessar o CITSmart, devemos acessar o IP ou DNS seguido da porta e
-    contexto.
+   - To access the CITSmart Enterprise ITSM, we must access the IP or DNS followed by the port and context.
 
-   **Exemplo de URL: https://10.2.1.82:8080/citsmart**
+   **URL example: https://10.2.1.82:8080/citsmart**
 
-   -  O IP é o endereçamento da máquina onde o Jboss está em execução. Ao invés do
-    IP pode-se utilizar um endereço DNS. O IP 10.2.1.82 é um exemplo de ip
-    utilizado para a criação desse ambiente.
+   - The IP is the address of the machine where Jboss is running. Instead of IP you can use a DNS address. IP 10.2.1.82 is an 
+   example of ip used to create this environment.
 
-   -  O contexto citsmart é o padrão do CITSmart Enterprise ITSM.
+   - The citsmart context is the CITSmart Enterprise ITSM standard.
 
-   **Primeiro Acesso**: Digite a URL
+   **First Access: Enter the URL**
 
-   ![Criar](images/installation-2.png)
+   ![Access](images/onpremissess.img2.jpg)
 
-   **Figura 2 - Tela inicial da instalação**
+   **Figure 2 - Installation start screen**
 
-1.  Aceite o termo de uso e clique em *Próximo*;
+1. Accept the term of use and click *Next*;
 
-    ![Criar](images/installation-3.png)
+    ![Access](images/onpremissess.img3.jpg)
 
-    **Figura 3 - Tela de ativação de licença**
+    **Figure 3 - License activation screen**
 
-2.  Informe a licença e clique em *Próximo*.
+2. Enter the license and click *Next*.
 
-    ![Criar](images/installation-4.png)
+    ![Configuration](images/onpremissess.img4.jpg)
 
-    **Figura 4 - Tela de configuração**
+    **Figure 4 - Configuration screen**
 
-3.  Configure os parâmetros do sistema, informando para cada atributo seu
-    respectivo valor e clique em *Concluir*;
+3. Configure the system parameters, informing each attribute its value and click *Finish*;
 
-    -   **32 - DB - nome do SCHEMA do Banco de dados - (Ex: Postgres - public)**;
+    - **32 - DB - database SCHEMA name - (eg: Postgres - public)**;
 
-    -   **33 - URL de acesso ao sistema**: informe a URL do sistema;
+    - **33 - System access URL**: Enter the system URL;
 
-    -   **52 - Ativar log no sistema (Ex: ‘true’ ou ‘false’)**: defina se deseja
-    ativar o LOG de auditoria no sistema;
+    - **52 - Enable system logging (Ex: 'true' or 'false')**: Set whether to enable the audit LOG on the system;
 
-    -   **55 - Nome do arquivo de log (Ex: log_citsmart)**: informe o nome para o
-    arquivo de LOG. Os arquivos de LOG serão gravados com nome conforme definido
-    neste parâmetro;
+    - **55 - Log file name (Ex: log_citsmart)**: Enter the name for the LOG file. The LOG files will be written with name as 
+    defined in this parameter;
 
-    -   **54 - Caminho da pasta que ficará o arquivo de LOG (Ex: Linux -**
-    **/var/tmp/)**: informe o diretório para armazenar os arquivos de LOG;
+    - **54 - Path of the folder that will be the LOG file (Ex: Linux - /var/tmp/)**: Inform the directory to store the LOG 
+    files;
 
-    -   **53 - Tipos: 'CIT_LOG' (arquivo de log), 'DB_LOG' (grava no banco)**:
-    Defina o tipo de LOG. Se o tipo de LOG selecionado for 'CIT_LOG', será salvo
-    o arquivo de LOG no diretório (definido no parâmetro anterior). Se for
-    selecionado 'DB_LOG', será gravado o arquivo de LOG em banco de dados;
+    - **53 - Types: 'CIT_LOG' (log file), 'DB_LOG' (writes to the database)**: Set the type of LOG. If the selected LOG type is 
+    'CIT_LOG', the LOG file in the directory (defined in the previous parameter) will be saved. If 'DB_LOG' is selected, the LOG 
+    file will be saved to the database;
 
-    -   **56 - Extensão do arquivo de log (Ex: txt)**: informe a extensão do
-    arquivo de LOG: txt;
+    - **56 - Extension of the log file (Ex: txt)**: enter the extension of the LOG file: txt;
 
-    -   **44 - Diretório Upload repositório path (Ex: Windows -**
-    **C:/temp)**: informe o diretório padrão para armazenar os arquivos que
-    serão feitos upload;
+    - **44 - Directory Upload repository path (Ex: Windows - C: / temp)**: enter the default directory to store the files that 
+    will be uploaded;
 
-    -  **18 - GED Diretório (Ex: Windows - C:/gedCitsmart)**: informe o diretório
-    para manipulação dos arquivos do GED (Gerenciamento Eletrônico de
-    Documento).
+    - **18 - GED Directory (Ex: Windows - C: / gedCitsmart)**: Enter the directory for manipulation of the Electronic Document 
+    Management (GED) files.
 
-    -   **363 - URL do Help (Ex.: https://help.citsmart.com/citsmart)**: informe
-    exatamente o conteúdo **https://help.citsmart.com/citsmart)** para que esta
-    nova instalação possa usufruir do Guia do Usuário (o help do produto).
+    - **363 - Help URL (eg https://help.citsmart.com/citsmart)**: please report exactly the content 
+    https://help.citsmart.com/citsmart) so that this new installation can take advantage of the User's Guide ( the product help).
 
-    !!! note "NOTA"
+    !!! note "NOTE"
 
-        Se for utilizado um servidor de arquivos separado, incluir no caminho
-        do diretório o link de acesso ao servidor.
+        If a separate file server is used, include the server access link in the directory path.
+        
+4. After the installation process is completed, the CITSmart Enterprise login screen will appear, as shown in the image below:
+        
+    ![Login](images/onpremissess.img5.jpg)
 
-4.  Depois de concluído o processo de instalação, será exibida a tela de login
-    do CITSmart, conforme apresentada na imagem abaixo:
+    **Figure 5 - Login screen**
 
-    ![Criar](images/installation-5.png)
+5. Enter the system access cNetworkntials (login: admin, password: citsmart) and click the *Enter* button. Once this is done, the 
+CITSmart Enterprise home screen will be displayed, as shown in the image below:
 
-    **Figura 5 - Tela de login**
+    ![System](images/onpremissess.img6.jpg)
 
-5.  Informe as credenciais de acesso ao sistema (login: admin, senha: citsmart)
-    e clique no botão *Entrar*. Feito isso, será exibida a tela inicial do
-    CITSmart, conforme ilustrada na imagem abaixo:
+    **Figure 6 - System home screen**
 
-    ![Criar](images/installation-2.png)
-
-    **Figura 6 - Tela inicial do sistema**
-
-Utilizando o postfix no centos7 para envio de e-mails a partir do citsmart (apenas para versão community)
+Using postfix in cents7 for sending e-mails from CITSmart (Community version only)
 --------------------------------------------------------------------------------------------------------
 
-#### Pré-condições
+#### Preconditions
 
-1.  Ter acesso como root no servidor.
+1. Have root access on the server.
 
-#### Instalando e configurando o postfix
+#### Installing and configuring the postfix
 
-Siga os passos:
+Follow the steps:
 
-1.  Atualizar o sistema: **yum update –y;**
+1. Update system: **yum update –y**;
 
-2.  Instalação dos pacotes centos: **yum -y install postfix cyrus-sasl-plain
-    mailx;**
+2. Installation of the centos packages: **yum -y install postfix cyrus-sasl-plain mailx**;
 
-3.  Reiniciar o sistema: **systemctl restart postfix;**
+3. Restart the system: **systemctl restart postfix**;
 
-4.  Habilitar no boot do sistema: **systemctl enable postfix;**
+4. Enable system boot: **systemctl enable postfix**;
 
-5.  Entre no diretório**: cd /etc/postfix:**
+5. Enter on the directory: **cd /etc/postfix**:
 
-6.  Fazer uma cópia dos arquivos: **cp main.cf main.cf.original;**
+6. Make a copy of the files: **cp main.cf main.cf.original**;
 
-7.  Limpar todo o conteúdo do: **rm –rf /etc/postfix.main.cf;**
+7. Clear all content from: **rm –rf /etc/postfix.main.cf**;
 
-8.  Após apagar os arquivos adicionamos essas configurações:
+8. After deleting the files we added these settings:
 
     ***vim /etc/postfix/main.cf**
 
@@ -905,67 +846,60 @@ Siga os passos:
 
     **smtp_sasl_tls_security_options = noanonymous***
 
-9.  Entre no diretório do postfix: **cd /etc/postfix;**
+9. Enter the postfix directory: **cd /etc/postfix**;
 
-10.  Criar o Arquivo de Senha: **touch sasl_passwd;**
+10. Create the Password File: **touch sasl_passwd**;
 
-11.  Adicionar o seguinte conteúdo: **vim
+11. Add the following content: **vim
     /etc/postfix/sasl_passwd[smtp.gmail.com]:587 seuemail :sua senha**;
 
-12.  Permissão usuário dono para postfix: **chown root:postfix
+12. Permission user owner for postfix: **chown root:postfix
     /etc/postfix/sasl_passwd\* ;**
 
-13.  Permissão para o grupo dono: **chmod -Rvf 640 /etc/postfix/sasl_passwd ;**
+13. Permission for the owner group: **chmod -Rvf 640 /etc/postfix/sasl_passwd ;**
 
-14.  Validar as configurações. Após executar esse comando se não der erro
-    significa que as configurações, estão corretas: **postmap
-    /etc/postfix/sasl_passwd ;**
+14. Validate the settings. After executing this command if it does not give an error it means that the settings are 
+correct: **postmap/etc/postfix/sasl_passwd ;**
 
-15.  Reiniciar o postfix: **systemctl restart postfix** ;
+15. Restart postfix: **systemctl restart postfix** ;
 
-16.  Testar o envio com o comando: **echo "This is a test." \| mail -s "test
+16. Test the submission with the command: **echo "This is a test." \| mail -s "test
     message" seuemail**;
 
-17.  Ver os logs de envio: **tail -f /var/log/maillog**;
+17. View the upload logs: **tail -f /var/log/maillog**;
 
-18. Observar a linha Status=sent 250.2.0.0 OK significa que o e-mail foi enviado
-    corretamente ao destinatário:
+18. Note the line Status = sent 250.2.0.0 OK means that the e-mail was sent correctly to the recipient:
 
-    ![Criar](images/installation-7.png)
+    ![Status](images/onpremissess.img7.jpg)
 
-    **Figura 7 - Status=sent 250.2.0.0 OK**
+    **Figure 7 - Status=sent 250.2.0.0 OK**
 
-19.  Configurar os parâmetros do CITSmart:
+19. Configure the CITSmart parameters:
 
-   -  10, 11, 12, 13, 14, 199 e 269 (ver conhecimento [Regras de parametrização -
-     e-mail](1)).
+   - 10, 11, 12, 13, 14, 199 and 269 (see knowledge [Parameterization rules - e-mail](1)).
 
-20.  Desta forma, o CITSmart utiliza o servidor local como relay para envio de
-    e-mails.
+20. In this way, CITSmart Enterprise ISTM uses the local server as a relay for sending e-mails.
 
-Utilizando o postfix no Ubuntu para envio de e-mails a partir do citsmart (apenas para versão Community)
+Using postfix on ubuntu for sending e-mails from CITSmart (for Community version only)
 ----------------------------------------------------------------------------------------------------
 
-#### Pré-condições
+#### Preconditions
 
-1.  Possuir acesso ao admin ao Postfix e garantir relação de confiança entre
-    servidores.
+1. Have admin access to Postfix and ensure trust between servers.
 
-### Instalação e configuração do postfix
+### Postfix installation and configuration
 
-Siga os passos:
+Follow the steps:
 
-1.  Atualizar o sistema: **apt update && apt upgrade -y;**
+1. Update system: **apt update && apt upgrade -y**;
 
-2.  Instalação dos pacotes Ubuntu Server 16.04: **apt-get install postfix
-    mailutils libsasl2-2 ca-certificates libsasl2-modules -y;**
+2. Installing Ubuntu Server packages 16.04: **apt-get install postfix mailutils libsasl2-2 ca-certificates libsasl2-modules -y**;
 
-3.  Escolha a opção **Site da Internet;**
+3. Choose the **Internet site** option;
 
-4.  Colocar **hostname;**
+4. Place **hostname**;
 
-5.  Edite as configurações do postfix adcione a linha e abaixo dela, coloque o
-    resto das configurações:
+5. Edit the postfix settings add the line and below it, put the rest of the settings:
 
     **vim /etc/postfix/main.cf**
 
@@ -981,291 +915,244 @@ Siga os passos:
 
     **smtp_use_tls = yes**
 
-6.  Criar password e db files colocar e-mail válido e senha que substitua o
-    exemplo\@gmail.com pelo e-mail. Depois coloque a senha e e-mail. Entre no
-    diretório: **cd /etc/postfix/sasl** e depois crie o arquivo: **touch
-    sasl_passwd**;
+6. Create password and db files put valid e-mail and password that replace example@gmail.com by e-mail. Then enter the password 
+and e-mail. Enter the directory: **cd / etc / postfix / sasl** and then create the file: **touch sasl_passwd**;
 
-7.  Editar: **vim sasl_passwd**;
+7. Edit: **vim sasl_passwd**;
 
-8.  Coloque o e-mail real logo depois seguido dois pontos e a
-    senha: **[smtp.gmail.com]:587 exemplo\@gmail.com:123** ;
+8. Put the real e-mail soon after followed colon and the password:**[smtp.gmail.com]:587 exemplo@gmail.com:123**;
 
-9.  Criar o hash e database do postfix, após executar esse comando se não
-    apresentar erro significa, que as configurações foram adicionadas de forma
-    correta: **postmap /etc/postfix/sasl/sasl_passwd**;
+9. Create the postfix hash and database, after running this command if it does not show error means that the settings have been 
+added correctly: **postmap /etc/postfix/sasl/sasl_passwd**;
 
-10.  Adicionar usuário root criando o dono e suas permissões: **chmod 400 -Rvf
-    /etc/postfix/sasl/sasl_passwd**:
+10. Add root user by creating the owner and its permissions: **chmod 400 -Rvf /etc/postfix/sasl/sasl_passwd**;
 
-11.  Criar o certificado de cadeia: **cat
-    /etc/ssl/certs/thawte_Primary_Root_CA.pem \| sudo tee -a
-    /etc/postfix/cacert.pem** :
+11. Create the chain certificate:**cat /etc/ssl/certs/thawte_Primary_Root_CA.pem | sudo tee -a /etc/postfix/cacert.pem**:
 
-   ![Criar](images/installation-8.png)
+   ![Certificate](images/onpremissess.img8.jpg)
 
-   **Figura 8 - Certificado gerado**
+   **Figure 8 - Certificate generated**
 
-12.  Testando o envio de e-mail substitua, pelo meu e-mail que foi atribuído:
-    echo "**Test Email message cerbody" \| mail -s "Email test subject"**
-    **test\@example.com**;
+12. Testing the sending of e-mail replace, by my e-mail that has been assigned: echo "**Test Email message cerbody" | mail -s "Email test subject" test@example.com**;
 
-13.  Checar se realmente o e-mail foi enviado: **tail -f /var/log/mail.log**:
+13. Check if the e-mail was actually sent: **tail -f /var/log/mail.log**:
 
-   ![Criar](images/installation-9.png)
+   ![Status](images/onpremissess.img9.jpg)
 
-   **Figura 9 - Observar status=sent 250.2.0.0 OK**
+   **Figure 9 - Observe status=sent 250.2.0.0 OK**
 
-14.  Configurar os parâmetros do CITSmart:
+14. Configure the CITSmart Enterprise ISTM parameters:
 
-   -  10, 11, 12, 13, 14, 199, 269 (ver conhecimento [Regras de parametrização -
-    e-mail](1)
+   - 10, 11, 12, 13, 14, 199, 269 (see knowledge [Parameterization rules - e-mail)](1)
 
-15.  Desta forma, o CITSmart utiliza o servidor local como relay para envio de
-    e-mails.
+15. In this way, CITSmart uses the local server as a relay for sending e-mails.
 
-Recomendações para a atualização de versão deste produto
+Procedures for updating version of this product
 ------------------------------------------------------
 
-#### Pré-condições
+#### Preconditions
 
-Para realizar o processo de atualização do Citsmart deve realizar os
-procedimentos de segurança que são:
+In order to carry out the process of updating Citsmart you must perform the security procedures which are:
 
--   Backup das Visões;
+- Visions Backup;
 
--   Backup da Aplicação;
+- Application Backup;
 
--   Backup do Servidor.
+- Server Backup.
 
-!!! note "NOTA"
+!!! note "NOTE"
 
-     A partir da versão 7.2.2.0 o parâmetro 363 passou a ser essencial para o
-     acesso automático da sua instância com o Guia do Usuário (o help do
-     produto). Ele deve ser preenchido com: https://help.citsmart.com/citsmart
+     As of version 7.2.2.0, parameter 363 became essential for automatic link your instance to the User Guide (the product help). 
+     It should be filled in with: https://help.citsmart.com/citsmart: https://help.citsmart.com/citsmart
 
-Backup das visões
+Backup visions
 -----------------
 
-1.  No menu principal, posicione o mouse nas opções **Sistema > Visões e
-    Meta dados > Manutenção de Visões**;
+1. In the main menu, position the mouse in the **System > Visions and Meta data > Visions Maintenance**;
 
-2.  Será exibida tela de Visão;
+2. A View screen will be displayed;
 
-    ![Criar](images/installation-10.png)
+    ![Visions](images/onpremissess.img10.jpg)
 
-    **Figura 10 - Visões**
+    **Figure 10 - Export visions**
 
-3.  Clique no botão “Exportar Visões XML”;
+3. Click the "Export Views XML" button;
 
-4.  Será exibida uma janela para seleção das visões a serem exportadas;
+4. A window will appear to select the views to be exported;
 
-    ![Criar](images/installation-11.png)
+    ![Export](images/onpremissess.img11.jpg)
 
-    **Figura 11 - Exportação de visões**
+    **Figure 11 - Export visions**
 
-5.  Selecione todas as visões, marcando a opção “Marcar todos” e clique no botão
-    “Exportar Arquivo(s)”.
+5. Select all views by checking the "Mark all" option and click the "Export File (s)" button.
 
-6.  Será exibida uma janela para realização da exportação (download) do arquivo
-    de visões;
+6. A window will be displayed for exporting (downloading) the view file;
 
-7.  Realize o download do arquivo de visões;
+7. Download the visions file;
 
-8.  O arquivo será salvo no local de download padrão no computador.
+8. The file will be saved to the default download location on the computer.
 
-Backup da aplicação
+Application backup 
 -------------------
 
-Realize o backup da aplicação conforme os passos descritos abaixo:
+Back up the application as described below:
 
--   Entre na pasta deployments do JBoss (\\standalone\\deployments);
+- Enter the JBoss deployments folder (\ standalone \ deployments);
 
--   Copie o projeto “citsmart_\*\*\*.war” para um local seguro.
+- Copy the project "citsmart _ ***. War" to a safe place.
 
-Backup do servidor
+Server backup 
 ------------------
 
-É recomendado realizar o backup da base de dados do CITSmart e utilizar a
-prática de snapshot da máquina virtual para acelerar o processo de rollback,
-pois é uma prática segura e disponível em todas as plataformas de virtualização
-disponíveis no mercado.
+It is recommended that you back up the Citsmart database and use virtual machine snapshot practice to speed up the rollback 
+process as it is a safe practice and available on all virtualization platforms available on the market.
 
-Caso tenha alguma dúvida para realizar o backup da base de dados, entre em
-contato com a equipe de suporte do CITSmart.
+If you have any questions regarding the database backup, please contact the Citsmart support team.
 
-Backup de integrações
+Integration backup
 ---------------------
 
-É recomendado verificar integrações e realizar backup da base independente de
-cada uma. Consultar orientações de backup diretamente do proprietário do
-serviço.
+It is recommended to check for integrations and to back up the independent base of each. Consult backup guidance directly from the 
+service owner.
 
-Possíveis integrações:
+Possible integrations:
 
--   Nagios;
+- Nagios;
 
--   Zabbix;
+- Zabbix;
 
--   Asterisk;
+- Asterisk;
 
--   Solr;
+- Solr;
 
--   MongoDB.
+- MongoDB.
 
 Checklist
 ---------
 
-Para realização da atualização da versão, proceder conforme as rotinas descritas
-abaixo:
+To perform the update of the version, proceed according to the routines described below:
 
-1.  Realize o download dos arquivos: Software CITSmart, CITSmart help e
-    documentação atualizada, conforme os passos abaixo:
+1. Download the files: Citsmart Software, Citsmart help and updated documentation, according to the steps below:
 
-2.  Acesse o site, realize o login e clique na aba “Downloads”;
+2. Access the site, log in and click on the "Downloads" tab;
 
-    -   Será exibida uma página contendo os links para download dos arquivos
-    necessários para atualização do Software CITSmart que são:
+    - A page will be displayed containing the download links for the files needed to update the Citsmart software that are:
 
-       -   Documentação da versão;
+       - Version documentation;
 
-       -   Versão do CITSmart atualizado.
+       - Citsmart version updated.
 
-3.  Efetue o download de todos os arquivos citados acima;
+3.  Download all of the above files;
 
-    -   Será exibida uma janela para realização do download do arquivo. As
-    documentações no formato.pdf e o arquivo de atualização (.zip);
+    - A window will appear for downloading the file. Documentations in .pdf format and the update file (.zip);
 
-4.  Realize o download do arquivo;
+4. Download the file;
 
-    -   O arquivo será salvo no local de download padrão no computador;
+    - The file will be saved to the default download location on the computer;
 
-5.  Após conclusão do download, abra a pasta na qual o arquivo está armazenado e
-    descompacte o mesmo.
+5. After the download is complete, open the folder in which the file is stored and unzip the file.
 
-6.  Pare o JBoss (Esta rotina é necessária devido às várias rotinas feitas no
-    momento em que o JBoss é iniciado);
+6. Stop JBoss (This routine is required due to the various routines done at the time JBoss is started);
 
-7.  Na pasta deployments do JBoss (\\standalone\\deployments), copie o arquivo
-    citsmart_\*\*\*.war para um diretório de backup, caso seja necessário voltar
-    à versão, este arquivo será necessário;
+7. In the JBoss deployments folder (\ standalone \ deployments), copy the citsmart _ ***. War file to a backup directory, if it is 
+necessary to go back to the version, this file will be needed;
 
-8.  Copie o arquivo (citsmart_\*\*\*.war), o qual foi feito download e
-    descompactado para a pasta deployments do JBoss
-    (jboss-as-7.1.1.Final\\standalone\\deployments)
+8. Copy the file (citsmart _ ***. War), which has been downloaded and uncompressed to the JBoss deployments folder (jboss-as-7.1.1.Final \ standalone \ deployments)
 
-9.  Delete as pastas “tmp/” do diretório
-    (jboss-as-7.1.1.Final\\standalone\\deployments);
+9. Delete the "tmp /" folders in the directory (jboss-as-7.1.1.Final \ standalone \ deployments);
 
-10.  Feito isso, inicie o JBoss;
+10. Start JBoss;
 
-11.  Realize a validação da atualização conforme tópico seguinte.
+11. Perform the update validation as per the next topic.
 
-   !!! warning "ATENÇÃO"
+   !!! warning "WARNING"
 
-        Siga corretamente a validação do passo 11, pois o sistema ficará bloqueado
-        aos usuários até este passo tenha sido realizado.
+        Run the step 11 validation correctly, as the system will be locked to users until this step has been performed.
 
-Validação da atualização
+Update validation
 ------------------------
 
-1.  É necessário que o Administrador realize a validação da atualização para que
-    o sistema opere de forma correta.
+1. It is necessary for the Administrator to perform the validation of the update so that the system operates correctly.
 
-2.  Após realizar o Login no sistema, será exibida uma tela para validação da
-    atualização;
+2. After logging in to the system, you will be presented with a screen for validating the update;
 
-3.  Clique no botão *Validar Atualização* para que seja concluída a atualização;
+3. Click the *Validate Update* button to complete the update;
 
-    ![Criar](images/installation-12.png)
+    ![Update](images/onpremissess.img12.jpg)
 
-    **Figura 12 - Validando a atualização**
+    **Figure 12 - Validating the update**
 
-4.  Caso ocorra alguma inconsistência durante a execução de scripts automática
-    no sistema, será exibida uma tela, onde serão indicados os scripts com
-    inconsistência, conforme abaixo:
+4. If there is any inconsistency during the execution of automatic scripts in the system, a screen will be displayed, where the 
+scripts will be indicated with inconsistency, as follows:
 
-    ![Criar](images/installation-13.png)
+    ![Scripts](images/onpremissess.img13.jpg)
 
-    **Figura 13 - Scripts**
+    **Figure 13 - Scripts**
 
-5.  Para realizar as tratativas dos scripts com inconsistência, selecione a
-    versão desejada no campo Baixe aqui o documento de script da versão para
-    visualizar o script;
+5. To perform the script handling with inconsistency, select the desired version in the Download the version script document here 
+field to view the script;
 
-    ![Criar](images/installation-14.png)
+    ![Choice](images/onpremissess.img14.jpg)
 
-    **Figura 14 - Escolha da versão**
+    **Figure 14 - Version choice**
 
-6.  Após selecionar a versão desejada, será exibida uma janela apresentando os
-    scripts;
+6. After selecting the desired version, a window will appear showing the scripts;
 
-    ![Criar](images/installation-15.png)
+    ![Details](images/onpremissess.img15.jpg)
 
-    **Figura 15 - Detalhes do Script**
+    **Figure 12 - Script details**
 
-7.  Copie os scripts indicados e rode no banco de dados;
+7. Copy the indicated scripts and run it in the database;
 
-8.  Após rodar os scripts no banco de dados, clique no botão Validar Atualização
-    para que a atualização do sistema seja validada. Caso não tenha efetuado a
-    validação da atualização, o sistema ficará bloqueado para os usuários até
-    que o mesmo seja validado;
+8. After you run the scripts in the database, click the Validate Update button to validate the system update. If you did not 
+perform the update validation, the system will be blocked for users until it is validated;
 
-9.  Feito isso, a atualização do sistema será validada com sucesso e poderá ser
-    utilizado normalmente.
+9. Once this is done, the system update will be validated successfully and can be used normally.
 
-    !!! info "IMPORTANTE"
+    !!! info "IMPORTANT"
 
-        Se for necessário fazer Rollback, deverá importar as visões. As visões
-        refletem o código da versão atual, ao voltar a uma versão anterior as visões
-        também deverão voltar.
+        If you need to do Rollback, you must import the views. The views reflect the code of the current version, when returning 
+        to an earlier version the views should also come back.
 
-Refazer a indexação (reindex)
+Reindex index
 ---------------------------
 
-1.  Realize a indexação dos index da base de conhecimento, através da Plataforma
-    CITSmart, conforme os passos descritos abaixo:
+1. Perform the indexing of knowledge base indexes, through the Citsmart Platform, according to the steps described below:
 
-2.  No menu principal, posicione o mouse nas opções **Sistema >
-    Configurações > Gerência de Conhecimento (Indexação)**;
+2. From the main menu, position the mouse in the **System > Settings > Knowledge Management (Indexing)**;
 
-3.  Será exibida tela de Indexação;
+3. The Index screen will be displayed;
 
-    ![Criar](images/installation-16.png)
+    ![Index](images/onpremissess.img16.jpg)
 
-    **Figura 16 - Tela indexação**
+    **Figure 16 - Indexing screen**
 
-4.  Clicar no botão “Remover indexação base de conhecimento” e aguardar a
-    remoção;
+4. Click the "Remove knowledge base indexing" button and wait for removal;
 
-5.  Clicar no botão “Indexar base de conhecimento” e aguardar listar os
-    conhecimentos.
+5. Click the "Index Knowledge Base" button and wait to list the knowledge.
 
-Importando o certificado sms do servidor de e-mail para o JRE
+Importing the SMS certificate from the e-mail server for the JRE
 -----------------------------------------------------------
 
-Para realização da instalação do certificado SMS, proceder conforme as rotinas
-descritas abaixo:
+To carry out the installation of the SMS certificate, proceed according to the routines described below:
 
-1.  Instale o OPENSSL:
+1. Install the OPENSSL:
 
-    -   https://slproweb.com/products/Win32OpenSSL.html
+    - https://slproweb.com/products/Win32OpenSSL.html
 
-2.  Salve o certificado:
+2. Save the certificate:
 
-    -   C:\\OpenSSL-Win64\\bin\>openssl s_client -connect smtp.prf.gov.br:587
+    - C:\\OpenSSL-Win64\\bin\>openssl s_client -connect smtp.prf.gov.br:587
         -starttls smtp \> smtp.txt
 
-3.  Crie o arquivo smtp.cer:
+3. Create the smtp.cer file:
 
-    -   Abra o arquivo smtp.txt. Será apresentado uma cadeia de certificados
-        seguida por um certificado do servidor.
+    - Open the smtp.txt file. It will be presented a certificate chain followed by a server certificate.
 
-    -   Copie o bit começando com BEGIN CERTIFICATE e END CERTIFICATE em um
-        arquivo smtp.crt. Ao abrir este arquivo, será possível verificar as
-        propriedades do certificado e suas respectivas impressões digitais.
+    - Copy the bit starting with BEGIN CERTIFICATE and END CERTIFICATE into a smtp.crt file. By opening this file, is possible to 
+    verify the certificate properties and their fingerprints
 
-    **Exemplo do conteúdo:**
+    **Contents example:**
 
     -----BEGIN CERTIFICATE-----
     MIIFBjCCA+6gAwIBAgIBAzANBgkqhkiG9w0BAQUFADCBjDELMAkGA1UEBhMCQlIx
@@ -1298,40 +1185,39 @@ descritas abaixo:
     -----END CERTIFICATE-----    
 
 
-4.  Importe o arquivo cacerts da pasta /jre/lib/security:
+4. Import the cacerts file from the jre/lib/security folder:
 
-    -   keytool -import -keystore cacerts -file smtp.cer
+    - keytool -import -keystore cacerts -file smtp.cer
 
-    !!! note "NOTA"
+    !!! note "NOTE"
 
-        No Windows, é necessário copiar o arquivo cacerts para uma pasta que não
-        necessite de permissão de administrador ou abrir o console em modo
-        administrador.
+        In Windows, is necessary to copy the cacerts file to a folder that does not require administrator permission or open the 
+        console in administrator mode.
 
-5.  Reinicie o servidor.
+5. Restart the server.
 
-Veja também
+See also
 -----------
 
-[Conexão CITSmart Event Monitor](2);
+[CITSmart Event Monitor connection](2);
 
-[Configuração da conexão do Citsmart inventory](3);
+[Citsmart Inventory Connection Setup](3);
 
-[Manual de instalação do componente Inventory](4);
+[Inventory component installation guide](4);
 
-[Manual de instalação do Central Authentication Service (CAS) - versão 3.0 (ITSM)];
+[Central authentication service (CAS) installation guide - version 3.0 (ITSM)];
 
-[Manual de instalação do componente EVM].
+[EVM component installation guide].
 
 
-[1]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-email.html
-[2]:/pt-br/citsmart-platform-7/additional-features/add-ons/event-monitor-connection.html
-[3]:/pt-br/citsmart-platform-7/processes/event/inventory-connection-setup.html
-[4]:/pt-br/citsmart-platform-7/additional-features/add-ons/inventory-installation.html
+[1]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-email.html
+[2]:/en-us/citsmart-platform-7/additional-features/add-ons/event-monitor-connection.html
+[3]:/en-us/citsmart-platform-7/processes/event/inventory-connection-setup.html
+[4]:/en-us/citsmart-platform-7/additional-features/add-ons/inventory-installation.html
 [5]:#
 [6]:#
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/23/2019 – Anna Martins
+    <b>Updated:</b>09/09/2019 – Larissa Lourenço
