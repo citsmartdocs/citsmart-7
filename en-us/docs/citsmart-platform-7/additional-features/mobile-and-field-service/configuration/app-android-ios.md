@@ -248,7 +248,7 @@ Using the application
 [1]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-mobile.html
 [2]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-system.html
 [3]:/en-us/citsmart-platform-7/additional-features/mobile-and-field-service/apps/android.html
-[2]:/en-us/citsmart-platform-7/additional-features/mobile-and-field-service/apps/ios.html
+[4]:/en-us/citsmart-platform-7/additional-features/mobile-and-field-service/apps/ios.html
 
 
 !!! tip "About"
