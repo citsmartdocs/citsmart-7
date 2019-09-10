@@ -165,7 +165,7 @@ Using the app on the mobile
 
 **Figure 11 - Ticket list**
 
-![Criar](images/ios-29.png)- capture the request to the logged in user or just view the ticket without
+![Criar](images/ios-29.jpg)- capture the request to the logged in user or just view the ticket without
 capturing;
 
 ![Criar](images/ios-30.png) - view the ticket;
