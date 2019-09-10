@@ -53,7 +53,7 @@ Filling in the registration fields
 1.  When accessing the feature, the **Web Services Configuration for CITSmart
     Mobile** screen, containing two tabs, will be displayed.
 
-2.  The** List Web Services** tab displays the web services.
+2.  The **List Web Services** tab displays the web services.
 
 3.  To edit the Web Service data, click the *Edit* button, as shown below:
 
