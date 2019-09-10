@@ -92,6 +92,8 @@ Checking the services portal on the mobile
 1.  Once the system configuration has already been done (previous section), the
     following screen will be displayed in the mobile:
 
+![Criar](images/options-4.png)
+
 **Figure 4 - Services portal on mobile**
 
 
