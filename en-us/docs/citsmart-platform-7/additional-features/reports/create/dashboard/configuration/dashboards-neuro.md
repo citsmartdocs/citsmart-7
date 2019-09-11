@@ -1,225 +1,309 @@
-title:  Manual de criação e uso do componente de painéis (dashboards) sobre tickets do CITSmart Enterprise ITSM via CITSmart Neuro
-Description: Este documento contém orientações técnicas para criação de widgets customizados. 
-# Manual de criação e uso do componente de painéis (dashboards) sobre tickets do CITSmart Enterprise ITSM via CITSmart Neuro
+title: Manual for creation and use of the dashboards component about tickets of
+CITSmart Enterprise ITSM via CITSmart Neuro
+Description: This document contains technical guidelines for creating custom widgets on the CITSmart Enterprise ITSM dashboard that allow the display and execution of tasks associated with request or incident flows.
 
-Este documento contém orientações técnicas para criação de widgets customizados no dashboard do CITSmart Enterprise ITSM que permitam
-a exibição e a execução de tarefas associadas aos fluxos de requisição ou incidente.
+# Manual for creation and use of the dashboards component about tickets of
+CITSmart Enterprise ITSM via CITSmart Neuro
 
-!!! note "NOTA"
+This document contains technical guidelines for creating custom widgets on the
+CITSmart Enterprise ITSM dashboard that allow the display and execution of tasks
+associated with request or incident flows.
 
-    Este recurso está disponível apenas na versão CITSmart Enterprise ITSM 7.2.3.0 (ou acima).
+!!! note "NOTE"
 
-!!! info "IMPORTANTE"
+    This feature is only available in the CITSmart Enterprise ITSM version
+    7.2.3.0 (or above).
 
-    Este conhecimento destina-se aos consultores CITSmart com conhecimento prévio sobre os componentes CITSmart Neuro e que dominem
-    conceitos básicos de HTML e de Javascript.
-    
-Modo de usar
---------------
+!!! info "IMPORTANT"
 
-A tela abaixo exibe um exemplo com o painel “**Chamados abertos para os meus grupos**”:
+    This knowledge is intended for CITSmart consultants with prior knowledge of
+    the CITSmart Neuro components and who master basic HTML and Javascript
+    concepts.
+
+Use guide
+---------
+
+The screen below shows an example with the "**Tasks of my groups**" panel:
 
 ![Chamados](images/dashboard.img1.jpg)
-    
-**Figura 1 - Tela de chamados**
-    
-Um duplo clique numa das linhas faz exibir a tela da solicitação e permite que o usuário execute a tarefa (caso tenha permissão):
 
-![Exemplo](images/dashboard.img2.jpg)
-    
-**Figura 2 - Tela de exemplo de chamados**
-    
-Componentes Neuro
--------------------
+**Figure 1 - Call screen**
 
-O pacote neuro **itsm_tasks** contém todos os componentes necessários à criação de painéis no CITSmart Enterprise ITSM:
+A double click on one of the rows displays the request screen and allows the
+user to perform the task (if allowed):
 
-![Neuro](images/dashboard.img3.jpg)
-    
-**Figura 3 - Tela de componentes Neuro**
-    
-O pacote é composto dos seguintes elementos:
+![Chamados](images/dashboard.img2.jpg)
 
-1. Aplicação ITSM Tasks;
-2. Quatro labels para internacionalização;
-3. Recurso CSS **itsm-tasks**;
-4. Recurso Javascript com a diretiva AngularJS **itsm-tasks**;
-5. Recurso HTML **itsm-tasks**;
-6. Objeto de negócio **vw_itsm_tasks**;
-7. Três formulários pré-configurados para exibição no dashboard do ITSM:
+**Figure 2 - Call example screen**
 
-    - Chamados abertos e não iniciados (availableTasks);
-    - Chamados abertos para os meus grupos (tasksByUserGroups);
-    - Meus chamados em andamento (tasksByUser).
-    
-Objeto de negócio
+Neuro components
+----------------
+
+The **itsm_tasks** neuro package contains all the components required to create
+panels in CITSmart Enterprise ITSM:
+
+![Chamados](images/dashboard.img3.jpg)
+
+**Figure 3 - Component Neuro screen**
+
+The package is composed by of the following elements:
+
+1.  ITSM Tasks Application;
+
+2.  Four labels for internationalization;
+
+3.  CSS feature itsm-tasks;
+
+4.  Javascript resource with the AngularJS directive itsm-tasks;
+
+5.  HTML feature itsm-tasks;
+
+6.  Business object vw_itsm_tasks;
+
+7.  Three preconfigured forms for display on the ITSM dashboard:
+
+-  Open and Uninitiated Calls (availableTasks);
+
+-  Open calls to my groups (tasksByUserGroups);
+
+-  My calls in progress (tasksByUser).
+
+Business object
+---------------
+
+The **vw_itsm_tasks** business object, of VIEW type , has all the attributes
+needed to display the task rows in panels.
+
+![Chamados](images/dashboard.img4.jpg)
+
+**Figure 4 - DDL screen**
+
+As will be explained, each SQL of the business object can be associated with a
+panel through itsm-taks directive:
+
+![Chamados](images/dashboard.img5.jpg)
+
+**Figure 5 - SQL screen**
+
+The **itsm-tasks** package business object is already configured with three
+SQLs. However, as required, these SQLs can be customized or other SQL can be
+created.
+
+The **CSV report** columns exported in the dashboard are the same columns
+configured in the Business Object Form tab:
+
+![Chamados](images/dashboard.img6.jpg)
+
+**Figure 6 - Grid fields screen**
+
+CSS resources
+-------------
+
+The **itsm-tasks** CSS feature contains CSS specific classes for displaying the
+layout of the forms and was created from the **serviceRequestIncident.css** file
+of CITSmart Enterprise ITSM.
+
+JS angular directive
 --------------------
 
-O objeto de negócio **vw_itsm_tasks**, do tipo VIEW, reúne todos os atributos necessários à exibição das linhas de tarefas nos 
-painéis.
+The Itsm-tasks AngularJS directive encapsulates logic for displaying task panes
+on any Neuro form.
 
-![DDL](images/dashboard.img4.jpg)
-    
-**Figura 4 - Tela de DDL**
-    
-Conforme será explicado, cada SQL do objeto de negócio pode ser associado a um painel através da diretiva **itsm-taks**:
+The syntax for embedding the directive into HTML is as follows:
 
-![SQL](images/dashboard.img5.jpg)
-    
-**Figura 5 - Tela de SQL**
-    
-O objeto de negócio do pacote **itsm-tasks** já vem configurado com três SQLs. Porém, conforme a necessidade, esses SQLs podem ser
-customizados ou outros SQLs podem ser criados.
+*\<itsm-tasks sql-name="identificação do SQL do objeto de negócio"
+object-map="objeto JSON com parâmetros para execução do SQL"\>\</itsm-tasks\>*
 
-As colunas do **relatório CSV** exportado no painel são as mesmas colunas configuradas na aba **Formulário** do objeto de negócio:
+The directive uses the itsm-tasks HTML page feature to display the data:
 
-![Grid](images/dashboard.img6.jpg)
-    
-**Figura 6 - Tela de campos da grid**
-    
-Recursos CSS
---------------
+![Chamados](images/dashboard.img7.jpg)
 
-O recurso CSS **itsm-tasks** contém as classes CSS específicas para exibição do layout dos formulários e foi criado a partir do
-arquivo **serviceRequestIncident.css** do CITSmart Enterprise ITSM.
+**Figure 7 - Request listing screen**
 
-Diretiva Angular JS
+In addition to enabling the display and execution of tasks, the directive
+allows:
+
+1.  Filter the tasks by any keyword displayed on the grid;
+
+2.  Update screen data;
+
+3.  Generate a CSV report with the tasks displayed on the screen. The exported
+    CSV report obeys the screen filters and contains all the columns defined in
+    the business object master grid.
+
+Smart report creation
 ---------------------
 
-A diretiva AngularJS **itsm-tasks-directive** encapsula a lógica para exibição dos painéis de tarefas em qualquer formulário do 
-Neuro.
+The Smart Report displayed on the **dashboard** must be of the **Neuro** type.
 
-A sintaxe para incorporação da diretiva ao HTML é a seguinte:
+Each Smart Report must be associated with a form and its respective page:
 
-<itsm-tasks sql-name="identificação do SQL do objeto de negócio" object-map="objeto JSON com parâmetros para execução do SQL"></itsm-tasks>
+![Chamados](images/dashboard.img8.jpg)
 
-A diretiva utiliza o recurso de página HTML itsm-tasks para exibição dos dados:
+**Figure 8 - Smart Report registration screen**
 
-![Listagem](images/dashboard.img7.jpg)
+Dashboard configuration
+-----------------------
+
+To configure the CITSmart Enterprise ITSM dashboard with task panes, simply
+create a widget associated with the Smart Report with the Neuro form:
+
+![Chamados](images/dashboard.img9.jpg)
+
+**Figure 9 - Widget screen**
+
+Application of the component in flow design
+-------------------------------------------
+
+From here are technical guidelines for setting up the ticket creation flow
+component.
+
+This guidance is intended for Consultants or CITSmart users who master the
+knowledge of creating ITSM flows.
+
+The **Request / Incident** component can be accessed in the **Tasks** tab of the
+flow design:
+
+![Chamados](images/dashboard.img10.jpg)
+
+**Figure 10 - Task screen**
+
+It allows the creation of tickets or incidents related or not to the ticket of
+the stream being executed.
+
+Here is an example flow that uses the component:
+
+![Chamados](images/dashboard.img11.jpg)
+
+**Figure 11 - Flow example**
+
+In the previous example, the execution of the **Purchase
+Requests** and **Project Analysis** components is triggered in parallel after
+the **Create WBS** task runs.
+
+Flow execution is stopped until the request created by the component is finished
+or canceled.
+
+The last parallel gateway ensures that the flow is completed only after
+completion of the tickets represented by the **Purchase Request** and **Project
+Analysis** components.
+
+Detailing the component properties
+----------------------------------
+
+The following figure shows the properties of the component:
+
+![Chamados](images/dashboard.img12.jpg)
+
+**Figure 12 - Component properties screen**
+
+Here are the description of each property:
+
+-   **Type**: allows the selection of the type of the
+    request: **Request** or **Incident**;
+
+    -   If no value is entered in the **Applicant User** property, the request
+        created will assume the same requester as the request for the flow. On
+        this property can be informed:
+
+        -   The user login (e.g: carlos.santos);
+
+        -   An expression that represents the value of a flow variable or an
+            attribute of some object in the flow. Examples:
+
+-   \${requestTimeOff.days}
+
+-   \${usuarioSolicitante}
+
+-   If no value is entered in the **Group property for targeting**, the created
+    request will assume the same current group as the request for the stream.
+    The values of this property allow to inform:
+
+       -  The acronym of the user (e.g .: **SDNIVEL1**)
+
+       -   An expression that represents the value of a flow variable or an attribute of some object in the flow. Examples:
+
+             -   \${requestTimeOff.currentGroup}
+
+             -   \${grupoParaDirecionamento}
+
+       -   **Contract**: may be left blank to assume the same contract as the flow
+    request or can be informed:
+
+    -   The contract ID (table primary key)
+
+    -   An expression that represents the value of a flow variable or an
+        attribute of some object in the flow. Examples:
+
+        -   \${requestTimeOff.contract}
+
+        -   \${contratoAtual}
+
+    -   A **RHINO** script that returns the contract ID. To build the script,
+        just click the **Build expression** button.
+
+-   **Service**: can be left blank to assume the same service as the request of
+    the flow or can be informed:
+
+    -   The service ID (table primary key)
+
+    -   An expression that represents the value of a flow variable or an
+        attribute of some object in the flow. Examples:
+
+        -   \${requestTimeOff.service}
+
+        -   \${servicoAtual}
+
+    -   A **RHINO** script that returns the ID of a service. To build the
+        script, just click the **Build expression** button.
+
+-   **Impact** and **Urgency**: they are optional and accept the values:
+
+    -   High
+
+    -   Medium
+
+    -   Low
+
+-   **Related request**: allows the request you created be related to the
+    request for the flow or to the initial request that originated the flow. The
+    allowed values are:
+
+    -   Not related
+
+    -   Related to flow request
+
+    -   Related to the primary request
+
+-   **Name of the variable with the Neuro objects**: you can enter the name of
+    the object that will be used by the Neuro forms.
+
+-   **Description**: A free text and / or an expression can be informed.
+
+    -   Example: perform purchase request for the
+        requests **\${serviceRequest.idRelatedRequest}**
+
+Attachments of this knowledge
+-----------------------------
+
+The attachments of this knowledge are:
+
+-   Neuro packages with components for creating panels.
+
+-   Files with HTML, CSS and Javascript capabilities. These files are already
+    included in the Neuro packages (just so you can easily view the content).
+
+!!! note "NOTE"
+
+     It is worth mentioning that since the vw_itsm_tasks Neuro business object is
+     implemented by View, the DDL syntax varies according to each database
+     manager. Therefore, there are package attachments for each type of database.
+
+Attachments
+-----------
+
     
-**Figura 7 - Tela de listagem de solicitação**
-    
-Além de possibilitar a exibição e execução das tarefas, a diretiva permite:
-
-1. Filtrar as tarefas por qualquer palavra chave exibida na grid;
-2. Atualizar os dados da tela;
-3. Gerar um relatório CSV com as tarefas exibidas na tela. O relatório CSV exportado obedece aos filtros da tela e contém todas as
-colunas definidas na grid do cadastro do objeto de negócio.
-
-Criação de Smart Report
---------------------------
-
-Os Smart Report exibidos no **dashboard** devem ser do tipo **Neuro**.
-
-Cada Smart Report deve ser associado a um formulário e sua respectiva página:
-
-![Smart Report](images/dashboard.img8.jpg)
-
-**Figura 8 - Tela de cadastro de Smart Report**
-
-Configuração do dasboard
----------------------------
-
-Para configurar o dashboard do CITSmart Enterprise ITSM com painéis de tarefas, basta criar um **widget** associado ao Smart Report
-com o formulário do Neuro:
-
-![Widget](images/dashboard.img9.jpg)
-
-**Figura 9 - Tela de Widget**
-
-Aplicação do componente no desenho de fluxos
-----------------------------------------------
-
-A partir daqui são orientações técnicas para configuração do componente de fluxo de criação de tickets.
-
-Esta orientação é destinada a Consultores ou usuários CITSmart que dominem o conhecimento de criação de fluxos ITSM.
-
-O componente **Requisição/Incidente** pode ser acessado na aba **Tarefas** do desenho do fluxo:
-
-![Tarefas](images/dashboard.img10.jpg)
-    
-**Figura 10 - Tela de tarefas**
-    
-Ele permite a criação de tickets ou incidentes relacionados ou não ao ticket do fluxo que está sendo executado.
-
-Segue um exemplo de fluxo que utiliza o componente:
-
-![Exemplo](images/dashboard.img11.jpg)
-    
-**Figura 11 - Exemplo de fluxo**
-    
-No exemplo anterior, a execução dos componentes **Pedidos de Compra e Análise do Projeto** é disparada paralelamente após a execução
-da tarefa **Criar WBS**.
-
-A execução do fluxo é paralisada até que a solicitação criada pelo componente seja finalizada ou cancelada.
-
-O último **gateway paralelo** garante que o fluxo seja concluído somente após a conclusão dos tickets representados pelos 
-componentes **Pedidos de Compra e Análise do Projeto**.
-
-Detalhando as propriedades do componente
-------------------------------------------
-
-A figura seguinte exibe as propriedades do componente:
-
-![Propriedades](images/dashboard.img12.jpg)
-    
-**Figura 12 - Tela de propriedades do componente**
-    
-Segue a descrição de cada propriedade:
-
-- **Tipo**: permite a seleção do tipo da solicitação: **Requisição** ou **Incidente**;
-    - Se nenhum valor for informado na propriedade **Usuário solicitante**, a solicitação criada vai assumir o mesmo solicitante da
-    solicitação do fluxo. Nessa propriedade pode ser informado:
-        - O login do usuário (ex: carlos.santos, marcio.dias);
-        - Uma expressão que represente o valor de uma variável do fluxo ou um atributo de algum objeto do fluxo. Exemplos:
-            - ${requestTimeOff.days}
-            - ${usuarioSolicitante}
-    - Se nenhum valor for informado na propriedade **Grupo para direcionamento**, a solicitação criada vai assumir o mesmo grupo 
-    atual da solicitação do fluxo. Os valores dessa propriedade permitem informar:
-        - A sigla do usuário (ex.: **SDNIVEL1**).
-        - Uma expressão que represente o valor de uma variável do fluxo ou um atributo de algum objeto do fluxo. Exemplos:
-            - ${requestTimeOff.currentGroup}
-            - ${grupoParaDirecionamento}
-- **Contrato**: pode ser deixada em branco para assumir o mesmo contrato da solicitação do fluxo ou pode ser informado:
-    - O ID do contrato (chave primária da tabela)
-    - Uma expressão que represente o valor de uma variável do fluxo ou um atributo de algum objeto do fluxo. Exemplos:
-        - ${requestTimeOff.contract}
-        - ${contratoAtual}
-    - Um script **RHINO** que retorne o ID de contrato. Para construir o script, basta clicar no botão **Construir expressão**.
-- **Serviço**: pode ser deixada em branco para assumir o mesmo serviço da solicitação do fluxo ou pode ser informado:
-    - O ID do serviço (chave primária da tabela)
-    - Uma expressão que represente o valor de uma variável do fluxo ou um atributo de algum objeto do fluxo. Exemplos:
-        - ${requestTimeOff.service}
-        - ${servicoAtual}
-    - Um script **RHINO** que retorne o ID de um serviço. Para construir o script, basta clicar no botão **Construir expressão**.
-- **Impacto** e **Urgência**: são opcionais e aceitam os valores:
-    - Alto(a)
-    - Médio(a)
-    - Baixo(a)
-- **Solicitação relacionada**: permite que a solicitação criada seja relacionada à solicitação do fluxo ou à solicitação inicial 
-que deu origem ao fluxo. Os valores permitidos são:
-    - Não relacionada
-    - Relacionada à solicitação do fluxo
-    - Relacionada à solicitação principal
-- **Nome da variável com os objetos Neuro**: pode ser informado o nome do objeto quer será utilizado pelos formulários do Neuro.
-- **Descrição**: pode ser informado um texto livre e/ou uma expressão.
-    - Exemplo: Realizar pedidos de compra para a solicitação **${serviceRequest.idRelatedRequest}**
-    
-Anexos deste conhecimento
---------------------------
-
-São anexos deste conhecimento:
-
-- Pacotes Neuro com os componentes para criação de painéis
-- Arquivos com os recursos HTML, CSS e Javascript. Esses arquivos já estão incluídos nos pacotes Neuro (apenas para que seja
-possível visualizar facilmente o conteúdo)
-
-!!! note "NOTA"
-
-    Vale ressaltar que, como o objeto de negócio Neuro vw_itsm_tasks é implementado por View, a sintaxe da DDL varia de acordo com
-    cada gerenciador de banco de dados. Por isso, há anexos de pacotes para cada tipo de banco de dados.
-    
-[Posgres][1]
+[Postgres][1]
 
 [Sqlserver][2]
 
@@ -234,16 +318,16 @@ possível visualizar facilmente o conteúdo)
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/07/2019 - Larissa Lourenço
+    <b>Updated:</b>09/11/2019 - Anna Martins
 
-[1]:pt-br/citsmart-platform-7/additional-features/reports/create/dashboard/configuration/images/package_itsm_tasks_postgres.json
+[1]:en-us/citsmart-platform-7/additional-features/reports/create/dashboard/configuration/images/package_itsm_tasks_postgres.json
 
-[2]:pt-br/citsmart-platform-7/additional-features/reports/create/dashboard/configuration/images/package_itsm_tasks_sqlserver.json
+[2]:en-us/citsmart-platform-7/additional-features/reports/create/dashboard/configuration/images/package_itsm_tasks_sqlserver.json
 
-[3]:pt-br/citsmart-platform-7/additional-features/reports/create/dashboard/configuration/images/itsm-tasks-directive.js
+[3]:en-us/citsmart-platform-7/additional-features/reports/create/dashboard/configuration/images/itsm-tasks-directive.js
 
-[4]:pt-br/citsmart-platform-7/additional-features/reports/create/dashboard/configuration/images/itsm-tasks.html
+[4]:en-us/citsmart-platform-7/additional-features/reports/create/dashboard/configuration/images/itsm-tasks.html
 
-[5]:pt-br/citsmart-platform-7/additional-features/reports/create/dashboard/configuration/images/package_itsm_tasks_oracle.json
+[5]:en-us/citsmart-platform-7/additional-features/reports/create/dashboard/configuration/images/package_itsm_tasks_oracle.json
 
-[6]:pt-br/citsmart-platform-7/additional-features/reports/create/dashboard/configuration/images/itsm-tasks.css
+[6]:en-us/citsmart-platform-7/additional-features/reports/create/dashboard/configuration/images/itsm-tasks.css
