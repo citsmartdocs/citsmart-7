@@ -315,7 +315,7 @@ checked and a connection selected.
 [1]:https://pt.wikipedia.org/wiki/Very_Large_Database
 [2]:https://www.mongodb.com/
 [3]:https://docs.mongodb.com/manual/administration/install-community/
-[4]:/pt-br/citsmart-platform-7/processes/event/inventory-connection-setup.html
+[4]:/en-us/citsmart-platform-7/processes/event/inventory-connection-setup.html
 
 !!! tip "About"
 

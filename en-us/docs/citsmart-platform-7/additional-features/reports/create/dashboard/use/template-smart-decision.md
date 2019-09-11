@@ -1,71 +1,69 @@
-title: Cadastro de template de Smart decisions
+title: Smart decisions template registration
+Description: The "Smart Decisions - Templates" feature aims to create templates to be used in the creation of dashboards in the main screen of the system.
 
-Description: A funcionalidade de "Decisões Smart - Templates" tem por objetivo criar templates para serem utilizados na criação de dashboard na tela principal do sistema.
+# Smart Decisions template registration
 
-# Cadastro de template de Smart decisions
+The "Smart Decisions - Templates" feature aims to create templates to be used in
+the creation of dashboards in the main screen of the system.
 
-A funcionalidade de "Decisões Smart - Templates" tem por objetivo criar
-templates para serem utilizados na criação de dashboard na tela principal do
-sistema.
-
-Como acessar
-------------
-
-1.  Acesse o menu principal **Sistema > Configurações > Decisões Smart -
-    Templates**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Não se aplica.
+1.  Access the main menu **System > Settings > Smart Decisions - Templates**.
 
-Filtros
---------
+Preconditions
+-------------
 
-1.  Não se aplica.
+1.  Not applicable.
 
-Listagem de itens
-----------------
+Filters
+-------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **ID** e **Nome**.
+1.  Not applicable.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Excluir*.
+Items list
+----------
 
+1.  The following cadastral fields are available to the user to make it easier
+    to identify the desired items in the default listing of the
+    functionality: **ID** and **Template**.
 
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Edit* and *Delete*.
 
-**Figura 1 - Decisões Smart listagem de itens**
+![Criar](images/template-1.png)
 
-Preenchimento dos campos cadastrais
----------------------------------
+**Figure 1 - Smart decisions items list**
 
-1.  Será apresentada a tela de **Templates**;
+Filling in the registration fields
+----------------------------------
 
-2.  Clique no botão *Adicionar*. Feito isso, será apresentada a tela
-    de **Cadastro de Template**, conforme ilustrada na figura abaixo:
+1.  After that, the **Templates** screen appears;
 
-    ![Criar](images/template-2.png)
-    
-    **Figura 2 - Cadastro de template**
+2.  Click the *Add* button. Once this is done, the **Template Master** screen
+    will be displayed, as shown in the figure below:
 
-3.  Para criar um template, proceda conforme orientação abaixo:
+![Criar](images/template-2.png)
 
-    -   **Nome**: informe o nome do template;
+**Figure 2 - Template registration**
 
-    -   Para adicionar um widget ao dashboard, clique no ícone ![Criar](images/template-3.png) ;
+3.  To create a template, proceed as follows:
 
-    -   Parar salvar as alterações feitas no dashboard, clique no ícone ![Criar](images/template-4.png) ;
+-   **Name**: enter the name of the template;
 
-    -   Para alterar o formato do dashboard, clique no ícone ![Criar](images/template-5.png) ;
+-   To add a widget to the dasboard, click the icon ![Criar](images/template-3.png);
 
-    -   Para desfazer o que foi feito no dashboard, basta clicar no ícone ![Criar](images/template-6.png) .
+-   To save changes to the dashboard, click the icon ![Criar](images/template-4.png);
 
-4.  Após o template criado, clique no botão *Gravar* para efetuar a operação.
+-   To change the format of the dashboard, click the icon ![Criar](images/template-5.png);
+
+-   To undo what was done on the dashboard, just click the icon ![Criar](images/template-6.png).
+
+4.  After the template is created, click the *Save* button to perform the operation.
+
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/19/2019 – Anna Martins
+    <b>Updated:</b>09/11/2019 – Anna Martins
