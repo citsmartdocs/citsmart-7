@@ -216,7 +216,7 @@ Firewall rule configuration - release ICMPV4 on windows
 To release Ping in Windows 7 it is necessary to enter the Firewall in "Input Rules" and activate the rule "File and Printer Sharing 
 (Request for Eco - ICMPv4-In)"
 
-![Firewall](images/inventory.img10.jpg)
+![Firewall](images/inventory.img12.jpg)
 
 **Figure 10 - Windows firewall with advanced security**
 
