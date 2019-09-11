@@ -26,14 +26,14 @@ Filters
 
 -   Name
 
-1.  On the **Smart Reports** screen, a filter field is displayed to perform the
+2.  On the **Smart Reports** screen, a filter field is displayed to perform the
     search for certain records, as shown in the figure below:
 
 ![Criar](images/generate-1.png)
 
 **Figure 1 - Smart report search screen**
 
-1.  To search for a specific record, enter the name of the report. After that,
+3.  To search for a specific record, enter the name of the report. After that,
     the given record will be displayed according to the filter entered.
 
 Items list
@@ -65,12 +65,12 @@ Filling in the registration fields
 
 !!! info "IMPORTANT"
 
-    The D3 library [https://d3js.org/ ](https://d3js.org/)can be used to create
+    The D3 library ([https://d3js.org](https://d3js.org/)/) can be used to create
     JSP-type reports.
 
 ![Criar](images/generate-3.png)
 
-**Figure 3 - Smart report construction screen**
+**Figure 3 - Smart Report construction screen**
 
 2.  Fill out the fields as instructed:
 
@@ -83,12 +83,12 @@ Filling in the registration fields
 
 -   **Type**: select the query type of the report:
 
-   !!! warning "ATENÇÃO"
+   !!! warning "ATTENTION"
 
      In order to create a Sub Report it should already be registered and the
      "Query Type" should be SQL.
 
--   **SQL: **use this type to create report that returns the database
+   -   **SQL**: use this type to create report that returns the database
     information through a Query. Selecting this type will display the "Designer"
     and "SQL" tabs and the "Business Rule" field, selecting this option will
     display new fields, as shown below:
@@ -97,31 +97,31 @@ Filling in the registration fields
 
 **Figure 4 - Fields screen when select SQL Type**
 
--   **RhinoScript**: use this type to create a report that returns the database
+   -   **RhinoScript**: use this type to create a report that returns the database
     information through a script. Selecting this type will display the
     "RhinoScript" tab;
 
--   **JSP**: use this type to create report with dynamic content. Selecting this
+   -   **JSP**: use this type to create report with dynamic content. Selecting this
     type will display the "JSP" tab where you can enter the JSP code.
 
--   **Report Type: **select the type of report you want to create:
+-   **Report Type**: select the type of report you want to create:
 
 !!! warning "ATTENTION"
 
     To create a Sub Report (Drill) the "Report Type" should be " Pie Chart"or" Bar Chart ".
 
--   **Template**: use this type to create a report with the desired design and
+   -   **Template**: use this type to create a report with the desired design and
     structure. To create the report with this type, simply select the type,
     inform RhinoScript or SQL in the referring field, inform the FreeMarker
     (template framework) in the "Template" and the parameters if necessary;
 
--   **Line chart**: use this type to create a report that displays the
+   -   **Line chart**: use this type to create a report that displays the
     information in the line chart;
 
--   **Pie chart**: use this type to create a report that displays the pie chart
+   -   **Pie chart**: use this type to create a report that displays the pie chart
     information;
 
--   **Bar chart**: use this type to create a report that displays information in
+   -   **Bar chart**: use this type to create a report that displays information in
     bar chart, when selecting the option "pie" or "bar", new fields will be
     presented, as shown below:
 
@@ -129,24 +129,25 @@ Filling in the registration fields
 
 **Figure 5 - Fields screen when select "Pie chart" or "Bar chart"**
 
--   **Data table**: use this type to create a report that includes all the data
+  
+   -   **Data table**: use this type to create a report that includes all the data
     of a given table;
 
--   **Cube**: use this type to create a query that allows you to cross-reference
+   -   **Cube**: use this type to create a query that allows you to cross-reference
     information to provide data to the report;
 
--   **HTML return**: use this type to create report with HTML.
+   -   **HTML return**: use this type to create report with HTML.
 
 -   **Module where it will be displayed**: choose an option where the report
     will be displayed;
 
--   **N/A**: select this option if you want the report not to be displayed in
+    -   **N/A**: select this option if you want the report not to be displayed in
     any module;
 
--   **General**: select this option to display the report in one or more
+    -   **General**: select this option to display the report in one or more
     modules, where you want the report to be displayed;
 
--   **Specific**: select a single module where you want the report to be
+    -   **Specific**: select a single module where you want the report to be
     displayed.
 
 -   **Groups**: inform the group that will be allowed to view the report;
@@ -163,13 +164,16 @@ Filling in the registration fields
     The created reports will be displayed in the Smart Reports screen, where
     you can view the relevant data for each report.
 
-Exporting smart report
+Exporting Smart Report
 ----------------------
 
 1.  To export a report, you must first query the desired report as described in
     "Checking Smart Report Records".
 
 2.  After the query, just click the *Export* button.
+
+
+
 
 !!! tip "About"
 
