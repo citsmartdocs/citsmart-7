@@ -1,92 +1,92 @@
-title:  Carga de scripts web service
-Description: O objetivo é realizar a carga dos scripts das operações do Web Service no idioma selecionado. 
-# Carga de scripts web service
+title:  Web service scripts loading
+Description: The purpose is to load scripts for Web Service operations in the selected language.
+# Web service scripts loading
 
-O objetivo é realizar a carga dos scripts das operações do Web Service no idioma selecionado.
+The purpose is to load scripts for Web Service operations in the selected language.
 
-Pré-condições
+Preconditions
 ----------------
 
-1. Não se aplica.
+1. No applicable.
 
-Carregar scripts web service
+Load webservice scripts
 -----------------------------
 
-*Como acessar*
+*How to access*
 
-1. Acesse a funcionalidade de carregar scripts web services através da navegação no menu principal 
-**Sistema > Banco de Dados > Carregar Scripts WebService**.
+1. Access the functionality of loading webservices scripts by browsing the main menu 
+**System > Database > Upload WebService scripts**.
 
-*Filtros*
+*Filters*
 
-1. Não se aplica.
+1. Not applicable.
 
-*Listagem de itens*
+*Items list*
 
-1. Não se aplica.
+1. Not applicable.
 
-*Preenchimento dos campos cadastrais*
+*Filling in the registration fields*
 
-1. Não se aplica.
+1. Not applicable.
 
-Carregando scripts
+Charging scripts
 --------------------
 
-1. Será apresentada a tela **Carregar Scripts WebService** contendo uma listagem dos idiomas, conforme ilustrada na figura abaixo:
+1. The **Load WebService Scripts** screen containing a list of languages will be displayed, as shown in the figure below:
 
-    ![Idiomas](images/script-web.img1.jpg)
+    ![Language](images/scripts.img1.jpg)
     
-    **Figura 1 - Tela carga de idiomas**
+    **Figure 1 - Language loading screen**
     
-2. Selecione o idioma desejado e clique no botão "Carregar";
+2. Select the desired language and click the *Load* button;
 
-3. Será exibida uma mensagem confirmando o sucesso da carga do idioma ou se já foi realizada alguma carga anteriormente será 
-exibida uma mensagem perguntando se deseja sobrescrever carga de dados.
+3. A message confirming the success of the language load or a previously loaded load will be displayed asking if you want to 
+overwrite data.
 
-*Exemplo*
+*Example*
 
-![Carga](images/script-web.img2.jpg)
+![Load](images/scripts.img2.jpg)
 
-**Figura 2 - Tela carga de idiomas**
+**Figure 2 - Language loading screen**
 
-![Carga](images/script-web.img3.jpg)
+![Load](images/scripts.img3.jpg)
 
-**Figura 3 - Tela carga de idiomas**
+**Figure 3 - Language loading screen**
 
-Verificando carga de idiomas
+Checking loading languages
 ------------------------------
 
-*Como acessar*
+*How to access*
 
-1. Acesse a funcionalidade de carregar scripts web services através da navegação no menu principal 
-**Sistema > Web Service > Operação de Web Service**.
+1. Access the functionality of loading webservices scripts by navigating in the main menu 
+**System > WebService > WebService Operation**.
 
-*Filtros*
+*Filters*
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade,
-facilitando a localização dos itens desejados:
+1. The following filters enables the user to restrict the participation of items in the standard feature listing, making it 
+easier to find the desired items:
  
-    - Nome
-    - Descrição
+    - Name;
+    - Description.
     
-    ![Pesquisa](images/script-web.img4.jpg)
+    ![Search](images/scripts.img4.jpg)
     
-    **Figura 4 - Tela de pesquisa de operação web service**
+    **Figure 4 - Webservice search screen**
     
-*Listagem de itens*
+*Items list*
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: **Nome** e **Descrição**.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **Name** and **Description**.
 
-    ![Listagem](images/script-web.img5.jpg)
+    ![Listing](images/scripts.img5.jpg)
     
-    **Figura 5 - Tela de listagem de operação web service**
+    **Figure 5 - Operation listing screen**
     
-*Preenchimento dos campos cadastrais*
+*Filling in the registration fields*
 
-1. Não se aplica.
+1. Not applicable.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/05/2019 - Larissa Lourenço
+    <b>Updated:</b>09/11/2019 - Larissa Lourenço
