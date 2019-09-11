@@ -209,7 +209,7 @@ Delete or unlink
 
 4. Icon ![symbol](images/simb-fech.green.jpg)
 
-5. Icon ![symbol](images/simb-fech.grey.jpg)
+5. Icon ![symbol](images/simb-fech.grey.jpg) 
 
 6. Icon ![symbol](images/simb-fech-red-redon.jpg)
 
