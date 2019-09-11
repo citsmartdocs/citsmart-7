@@ -62,11 +62,11 @@ The package is composed by of the following elements:
 
 7.  Three preconfigured forms for display on the ITSM dashboard:
 
-   -   Open and Uninitiated Calls (availableTasks);
+-  Open and Uninitiated Calls (availableTasks);
 
-   -   Open calls to my groups (tasksByUserGroups);
+-  Open calls to my groups (tasksByUserGroups);
 
-   -   My calls in progress (tasksByUser).
+-  My calls in progress (tasksByUser).
 
 Business object
 ---------------
