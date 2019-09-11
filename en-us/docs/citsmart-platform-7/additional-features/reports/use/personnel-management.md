@@ -1,73 +1,68 @@
-title:Geração de relatórios-Gerência de pessoal
+title: Report generation – Personnel management
+Description: This report aims to present the information of the employees per unit.
 
-Description: Este relatório tem o objetivo de apresentar as informações dos colaboradores por unidade.
+# Report generation – Personnel management
 
-# Geração de relatórios-Gerência de pessoal
+This report aims to present the information of the employees per unit.
 
-Este relatório tem o objetivo de apresentar as informações dos colaboradores por
-unidade.
+How to access
+-------------
 
-Como acessar
------------
+1.  Access the Contributor Unit Report feature by navigating through the main
+    menu **Reports > Personnel Management > Collaboration Unit Report**.
 
-1.  Acesse a funcionalidade de Relatório de Unidade Colaborador através da
-   navegação no menu principal **Relatórios > Gerência de Pessoal > 
-   Relatório Unidade Colaborador**.
+Preconditions
+-------------
 
-Pré-condições
-------------
+1.  No applicable.
 
-1.  Não se aplica.
-
-Filtros
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filters enables the user to restrict the participation of
+    items in the standard feature listing, making it easier to find the desired
+    items:
 
-    -   **Contrato**: selecione o contrato desejado;
-  
-    -   **Unidade**: selecione a unidade que deseja verificar seus respectivos
-    colaboradores;
+-   **Contract**: select the desired contract;
 
-    -   **Nome do Colaborador**: informe o nome do(s) colaborador(es);
+-   **Unit**: select the unit that you want to check your respective employees;
 
-    -   **Colaborador**: será(ão) listado(s) o(s) colaborador(es) escolhido(s) no
-    campo anterior.
+-   **Employee**: enter the name of the collaborator (s);
 
-2.  Será apresentada a tela de** Geração de Relatório de Colaborador por
-    Unidade**, conforme ilustrada na figura a seguir:
+-   **Staff**: the collaborator (s) chosen in the previous field will be listed;
 
-    ![Criar](images/pessoal.png)
+2.  The **Employee Report Generation by Unit** screen will be displayed, as
+    shown in the following figure:
 
-    **Figura 1 - Tela de geração de relatório de colaborador por unidade**
+![Criar](images/pessoal.png)
 
-3.  Defina os filtros conforme sua necessidade.
+**Figure 1 - Employee report generation screen**
 
-    !!! info "IMPORTANTE"
+3.  Set the filters as needed;
 
-         Caso não seja informado um colaborador, será gerado o relatório contendo
-         as informações de todos os colaboradores ativos da(s) respectiva(s)
-         unidade(s), referente ao contrato informado.
+!!! info "IMPORTANT"
 
-4.  Se desejar remover algum colaborador, basta selecioná-lo e clicar no
-    botão *Remover*. Mas caso deseje remover todos os colaboradores, basta
-    clicar diretamente no botão *Remover Todos*;
+     If an employee is not informed, the report will be generated containing
+     the information of all active employees of the respective unit (s), related
+     to the informed contract.
 
-5.  Clique no botão *Gerar PDF* para gerar o relatório em formato PDF;
+4.  If you want to remove some collaborator, just select it and click
+    the *Remove *button. But if you want to remove all employees, just click
+    directly on the *Remove All* button;
 
-6.  Clique no botão *Gerar XLS* para gerar o relatório em formato Excel.
+5.  Click the *Generate PDF* button to generate the report in PDF format.
 
-Listagem de itens
-----------------
+6.  Click the *Generate XLS* button to generate the report in Excel format.
 
-1.  Não se aplica.
+Items list
+----------
 
-Preenchimento dos campos cadastrais
----------------------------------
+1.  No applicable.
 
-1.  Não se aplica.
+Filling in the registration fields
+----------------------------------
+
+1.  No applicable.
 
 
 !!! tip "About"
