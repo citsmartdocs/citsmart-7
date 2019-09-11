@@ -110,18 +110,18 @@ Filling in the registration fields
 
     To create a Sub Report (Drill) the "Report Type" should be " Pie Chart"or" Bar Chart ".
 
-    -   **Template**: use this type to create a report with the desired design and
+   -   **Template**: use this type to create a report with the desired design and
     structure. To create the report with this type, simply select the type,
     inform RhinoScript or SQL in the referring field, inform the FreeMarker
     (template framework) in the "Template" and the parameters if necessary;
 
-    -   **Line chart**: use this type to create a report that displays the
+   -   **Line chart**: use this type to create a report that displays the
     information in the line chart;
 
-    -   **Pie chart**: use this type to create a report that displays the pie chart
+   -   **Pie chart**: use this type to create a report that displays the pie chart
     information;
 
-    -   **Bar chart**: use this type to create a report that displays information in
+   -   **Bar chart**: use this type to create a report that displays information in
     bar chart, when selecting the option "pie" or "bar", new fields will be
     presented, as shown below:
 
