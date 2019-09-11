@@ -1,62 +1,69 @@
-title:  Permissão de acesso do Smart Decisions
-Description: Permissão de Acesso do Smart Decisions permite definir quem terá acesso aos widgets para inserção no dashboard. 
-# Permissão de acesso do Smart Decisions
+title: Smart Decisions access permission
+Description: Allows you to define who will have access to widgets for insertion into the dashboard which is displayed on the main screen of the system.
 
-A funcionalidade de Permissão de Acesso do Smart Decisions permite definir quem terá acesso aos widgets para inserção no dashboard o
-qual é exibido na tela principal do sistema.
+# Smart Decisions access permission
 
-Como acessar
----------------
+The Smart Decisions Access Permission feature allows you to define who will have
+access to widgets for insertion into the dashboard which is displayed on the
+main screen of the system.
 
-1. Acesse a funcionalidade de Permissão de Acesso do Smart Decisions através da navegação no menu principal 
-**Acesso e Permissão > SmartDecisions**.
+How to access
+-------------
 
-Pré-condições
-----------------
+1.  Access the Smart Decisions Access Permission feature by navigating the main
+    menu **Access and Permission > Smart Decision**.
 
-1. Não se aplica.
+Preconditions
+-------------
 
-Filtros
----------
+1.  No applicable.
 
-1. Não se aplica.
+Filters
+-------
 
-Listagem de itens
----------------------
+1.  No applicable.
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem padrão
-da funcionalidade: **ID** e **Nome**.
+Items list
+----------
 
-2. Existe um botão de ação disponível ao usuário em relação a cada item da listagem, é ele: "Editar".
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: **ID** and **Name**.
 
-    ![Permissão](images/acess-smart.img1.jpg)
-    
-    **Figura 1 - Tela de permissão de acesso - Smart decisions**
-    
-Preenchimento dos campos cadastrais
--------------------------------------
+2.  There is an action button available to the user for each item in the
+    listing, it is: *Edit*
 
-1. Não se aplica.
+![Permissão](images/acess-smart.img1.jpg)
 
-Definindo permissão de acesso
---------------------------------
+**Figure 1 - Access permission screen - Smart Decisions**
 
-1. Será apresentada a tela para **Definição da Permissão de Acesso aos Widgets**;
+Filling in the registration fields
+----------------------------------
 
-2. Clique no botão "Editar" do widget para o qual irá definir quem terá acesso ao mesmo. Feito isso, será exibida a tela para
-vínculo do grupo, conforme ilustrado na figura abaixo:
+1.  No applicable.
 
-    ![Definição](images/acess-smart.img2.jpg)
-    
-    **Figura 2 - Definição do tipo de acesso**
-    
-    - Clique no botão "Vincular grupo". Feito isso, será apresentada a tela de pesquisa do grupo, busque pelo grupo desejado,
-    seleciono-o e clique em "Enviar" para efetuar o vínculo.
-    
-3. Após definição da permissão de acesso, clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão 
-gravados automaticamente para uma futura auditoria.
+Defining the access permission
+------------------------------
+
+1.  The screen for **Defining the Access Permission for the Widgets** will be
+    displayed, as shown in the figure below;
+
+2.  Click the *Edit* button of the widget to define who will have access to it.
+    Once this is done, the group link screen will be displayed, as shown in the
+    figure below:
+
+![Permissão](images/acess-smart.img2.jpg)
+
+**Figure 2 - Definition of the type of access**
+
+-   Click the *Link Group* button. Once this is done, the group search screen
+    will be displayed, search for the group you want, select it and
+    click *Add* to make the link.
+
+3.  After setting the access permission, click the *Save* button to register,
+    where the date, time and user are automatically saved for a future audit.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/06/2019 - Larissa Lourenço
+    <b>Updated:</b>09/11/2019 - Anna Martins
