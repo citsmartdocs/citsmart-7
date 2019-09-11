@@ -200,7 +200,7 @@ Registering tasks
     the **Planning/Execution** tab, the project task planning screen will be
     displayed:
 
-![Criar](images/project-10.png)
+![Criar](images/project-11.png)
 
 **Figure 10 - Planning/execution screen**
 
@@ -214,7 +214,7 @@ Registering tasks
 
 2.  Click the project actions icon ![Criar](images/project-13.png). Once this is done, the Job Register screen will be displayed, as shown in the following figure:
 
-![Criar](images/project-11.png)
+![Criar](images/project-14.png)
 
 **Figure 11 - Task record screen**
 
@@ -271,7 +271,7 @@ Registering tasks
     (Task)* button. After that, the Model Register screen will be displayed, as
     shown in the figure below:
 
-![Criar](images/project-14.png)
+![Criar](images/project-15.png)
 
 **Figure 12 - Job register screen**
 
@@ -306,7 +306,7 @@ Project monitoring
     Project log, click the **Monitoring/Control** tab, the monitoring screen
     will be displayed, as shown in the following figure:
 
-![Criar](images/project-15.png)
+![Criar](images/project-19.png)
 
 **Figure 13 - Project Task monitoring screen**
 
@@ -324,7 +324,7 @@ Technical/administrative problems
     administrative/technical problems administration screen will be displayed,
     as shown in the following figure:
 
-![Criar](images/project-19.png)
+![Criar](images/project-20.png)
 
 **Figure 14 - Technical/administrative issues screen**
 
