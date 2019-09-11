@@ -22,7 +22,7 @@ Filters
 
 -   Category.
 
-![Criar](images/template-2.png)
+![Criar](images/smart-repor.img1.png)
 
 **Figure 1 - Smart Reports**
 
