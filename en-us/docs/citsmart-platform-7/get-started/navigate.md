@@ -70,7 +70,7 @@ Menu
 
 - Icon ![symbol](images/icon-menu.green.jpg)- In this case it shows a drop-down menu with other buttons
 
-Next/Back/Closr
+Next/Back/Closer
 -----------------------
 
 **Goal**
