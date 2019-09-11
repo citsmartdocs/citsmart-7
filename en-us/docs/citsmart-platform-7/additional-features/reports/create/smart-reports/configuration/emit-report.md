@@ -1,61 +1,65 @@
-title: Emissão de relatórios Smart
-Description: Emissão de relatórios Smart
+title: Smart reports printing
 
-# Emissão de relatórios Smart
+Description: This functionality is intended to provide the ease of issuance of
+reports built by Smart Report Builder.
 
-Como acessar
------------
+# Smart reports printing
 
-1.  Para acessar a funcionalidade de Relatórios Smart clique no menu
-    principal **Relatórios > Relatórios Smart > Relatórios Smart**.
+This functionality is intended to provide the ease of issuance of reports built
+by Smart Report Builder.
 
-Pré-condições
-------------
+How to access
+-------------
 
-1.  Não se aplica.
+1.  Access the Smart Reports feature by navigating the main
+    menu **Reports > Smart Reports > Smart Reports**.
 
-Filtros
-------
+Preconditions
+-------------
 
-1.  O seguinte filtro permite que o usuário restrinja a participação de itens na
-    lista de características padrão, facilitando a busca dos itens desejados:
+1.  Not applicable.
 
-    -   Pesquisar
+Filters
+-------
 
-    ![Criar](images/emit.png)
+1.  The following filter allows the user to restrict the participation of items
+    in the standard feature list, making it easier to find the desired items:
 
-    **Figura 1 - Tela de pesquisa de relatórios**
+-   Search.
 
-Listagem de itens
------------------
+![figure](images/emit-1.png)
 
-1.  Não se aplica.
+**Figure 1- Reports search screen**
 
-Preenchimento dos campos cadastrais
+Items list
+----------
+
+1.  Not applicable.
+
+Filling in the registration fields
 ----------------------------------
 
-1.  Não se aplica.
+1.  Not applicable.
 
-Uma visão rápida da principal funcionalidade do módulo
-----------------------------------------------------
+A quick vision of the module's main functionality
+-------------------------------------------------
 
-![Criar](images/emit-2.png)
+![figure](images/emit-2.png)
 
-**Figura 2 - Relatórios Smart**
+**Figure 2 - Smart reports**
 
-1.  Os relatórios são apresentados por categoria.
+1.  Reports are presented by category;
 
-2.  Clique em uma categoria e logo após clique no relatório que deseja emitir.
+2.  Click a *Category*, and then click the *Report* you want to send.
 
-!!! note "NOTA"
+>   !!! note "NOTE"
 
-     Os relatórios construídos pelo **[Gerador de relatórios
-     Smart][1]** são exibidos nesta tela de Relatórios Smart.
+Reports built by Smart Report Builder are displayed in this [Smart Reports][1]) screen.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/19/2019 – Anna Martins
+    <b>Updated:</b>09/11/2019 – Anna Martins
     
 [1]:/pt-br/citsmart-platform-7/additional-features/reports/create/smart-reports/configuration/generate-report.html
