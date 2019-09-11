@@ -1,0 +1,127 @@
+﻿<?xml version='1.0' encoding='UTF-8'?><br.com.centralit.citcorpore.bean.SmartReportDTO><identificacao>Financial - Clients</identificacao><descricao>FinCli</descricao><idCategoria>1</idCategoria><tipoConsulta>1</tipoConsulta><tipoRelatorio>1</tipoRelatorio><parametros>&lt;PARAMETERS>
+  &lt;PARAM name="cycleid" type="java.lang.Integer" typeHTML="select" size='0' value='' description='menu.nome.ciclo' fix='false' mandatory='true' reload='true' onload='true'>
+        &lt;OPTIONS type="SQL" onload="true">
+          select cycleid, title from cycles
+          &lt;/OPTIONS>
+  &lt;/PARAM>
+   &lt;PARAM name="idcliente" type="java.lang.Integer" typeHTML="select" size='0' value='' description='cliente.cliente' fix='false' mandatory='true' reload='true' onload='true'>
+        &lt;OPTIONS type="SQL" onload="true">
+          select idcliente,nomefantasia from clientes
+          &lt;/OPTIONS>
+  &lt;/PARAM>
+ &lt;/PARAMETERS></parametros><sql>select
+	nomecliente,
+	nomeservico,
+	tipo,
+	qtdesolicitacoes,
+	custoatendimento,
+	percentualrateio * custos / 100 custorateio,
+	custoatendimento + (percentualrateio * custos / 100) custoglobal,
+	receitas receitaglobal,
+	receitas - (custoatendimento + (percentualrateio * custos / 100)) resultado
+from
+	(select
+		fato.nomecliente,
+		fato.nomeservico,
+		fato.tipo,
+		fato.qtdesolicitacoes,
+		coalesce(fato.custoatendimento,0) custoatendimento,
+		coalesce(avg(scr.percentual),0) percentualrateio,
+		coalesce(sum(case when tfs.perfil = 'C' then fs.valor else 0 end),0) custos,
+		coalesce(sum(case when tfs.perfil = 'R' then fs.valor else 0 end),0) receitas
+	from
+		(select distinct
+			cli.idcliente,
+			cli.nomefantasia nomecliente,
+			serv.idservico,
+			serv.nomeservico nomeservico,
+			case serv.tiposervico when 'N' then 'Negócio' else 'Suporte' end tipo,
+			count(ss.idsolicitacaoservico) qtdesolicitacoes,
+			sum((coalesce(e.custoporhora,0) / (60 * 60)) * (sla.tempototal)) custoatendimento
+		from
+			solicitacaoservico ss
+			inner join controlesla sla on ss.idsolicitacaoservico = sla.idsolicitacaoservico
+			inner join usuario u on sla.idusuario = u.idusuario
+			inner join empregados e on u.idempregado = e.idempregado
+			inner join servicocontrato sc on ss.idservicocontrato = sc.idservicocontrato
+			inner join contratos cont on sc.idcontrato = cont.idcontrato
+			inner join clientes cli on cli.idcliente = cont.idcliente
+			inner join servico ativ on sc.idservico = ativ.idservico
+			inner join servicoautorelacionamento rel on ativ.idservico = rel.idservico
+			inner join servico serv on rel.idservicorelacionado = serv.idservico
+			inner join cycles cyc on cyc.cycleid = {PARAM.cycleid}
+		where
+			ss.datahorafim between cyc.initialdate and cyc.finaldate
+         and cli.idcliente = {PARAM.idcliente}
+		group by
+			cli.idcliente,
+			serv.idservico) fato
+		left join servicocontratorateio scr on fato.idservico = scr.idservico and fato.idcliente = scr.idcliente and scr.cycleid = {PARAM.cycleid}
+		left join financeiroservico fs on fato.idservico = fs.idservico and fs.datafim is null and fs.cycleid = {PARAM.cycleid}
+		left join tipofinanceiroservico tfs on fs.idtipo = tfs.idtipo
+	group by
+		fato.nomecliente,
+		fato.nomeservico,
+		fato.tipo,
+		fato.qtdesolicitacoes,
+		fato.custoatendimento) res </sql><script>{"tableListEdit" : [],"relationListEdit": [],"conditionListEdit" : [],"campoList" : []}</script><jsp></jsp><template>&lt;!DOCTYPE html>
+&lt;html>
+&lt;head>
+&lt;/head>
+&lt;body>
+	&lt;div class="row-fluid">
+		&lt;div class="span12 center">
+			&lt;b>Financial - Clients&lt;/b>
+		&lt;/div>
+	&lt;/div>
+	&lt;table width="100%" border="1">
+      &lt;thead>
+		&lt;tr>
+			&lt;th>Service&lt;/th>
+			&lt;th>Type&lt;/th>
+			&lt;th>Req/Inc/Procs&lt;/th>
+			&lt;th>Service Cost (U$)&lt;/th>
+			&lt;th>Shared Service Cost (U$)&lt;/th>
+			&lt;th>Global Cost (U$)&lt;/th>
+			&lt;th>Global Revenue (U$)&lt;/th>
+			&lt;th>Result&lt;/th>
+		&lt;/tr>
+      &lt;/thead>
+      &lt;#assign saldototal = 0>
+        &lt;tbody>
+      &lt;#list QUERY_RESULT as item>
+          	&lt;tr>
+				&lt;td>${item[1]!''}&lt;/td>
+				&lt;td>${item[2]!''}&lt;/td>
+              	&lt;td>${item[3]!''}&lt;/td>
+				&lt;td>${item[4]?string.currency!''}&lt;/td>
+				&lt;td>${item[5]?string.currency!''}&lt;/td>
+				&lt;td>${item[6]?string.currency!''}&lt;/td>
+				&lt;td>${item[7]?string.currency!''}&lt;/td>
+              &lt;#if item[8] gt 0>
+  					&lt;td class="bg-blue-light">${item[8]?string.currency!''}&lt;/td>
+			  &lt;#elseif item[8] == 0>
+                	&lt;td>${item[8]?string.currency!''}&lt;/td>
+              &lt;#else>
+                	&lt;td class="bg-red">${item[8]?string.currency!''}&lt;/td>
+              &lt;/#if>
+			&lt;/tr>
+            &lt;#assign saldototal = saldototal + item[8]&gt;
+		&lt;/#list>
+        &lt;/tbody>
+          &lt;tfoot>
+            &lt;tr>
+              &lt;td colspan="6">&lt;/td>
+              &lt;td>Total balance:&lt;/td>
+              &lt;#if saldototal gt 0>
+  					&lt;td class="bg-blue-light">${saldototal?string.currency!''}&lt;/td>
+			  &lt;#elseif saldototal == 0>
+                	&lt;td>${saldototal?string.currency!''}&lt;/td>
+              &lt;#else>
+                	&lt;td class="bg-red">${saldototal?string.currency!''}&lt;/td>
+              &lt;/#if>
+            &lt;/tr>
+        &lt;/tfoot>
+	&lt;/table>
+&lt;/body>
+&lt;/html></template><tipoExibicao>N</tipoExibicao></br.com.centralit.citcorpore.bean.SmartReportDTO>
