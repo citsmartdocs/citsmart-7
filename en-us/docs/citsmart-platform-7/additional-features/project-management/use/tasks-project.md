@@ -1,100 +1,93 @@
-title: Minhas tarefas de projeto
-Description: Esta funcionalidade tem o objetivo de gerenciar suas tarefas relacionadas aos projetos.
+title: My projects tasks
+Description: This functionality is intended to manage your project-related tasks.
 
-# Minhas tarefas de projeto
+# My projects tasks
 
-Esta funcionalidade tem o objetivo de gerenciar suas tarefas relacionadas aos
-projetos.
+This functionality is intended to manage your project-related tasks.
 
-Como acessar
------------
+How to access
+-------------
 
-1.  Acesse a funcionalidade de **Minhas Tarefas** através da navegação no menu
-    principal **Gestão Integrada > Gerência de Projetos > Minhas Tarefas**.
+1.  Access the My Tasks feature by navigating the main menu **Integrated
+    Management > Project Management > My Tasks**.
 
-Pré-condições
-------------
+Preconditions
+-------------
 
-1.  Ter tarefas atribuídas ao seu usuário.
+1.  Have tasks assigned to your user.
 
-Filtros
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -   Filtro.
+-   Filter
 
-    ![Criar](images/tasks-1.png)
+![Criar](images/tasks-1.png)
 
-    **Figura 1 - Tela de pesquisa de tarefas**
+**Figure 1 - Task search screen**
 
-Listagem de itens
---------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Projeto, Tarefa, Tarefa Pai, Status, Tempo gasto
-    (horas) e Percentual Executado.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: **Project**, **Task**, **Parent Task**, **Status**, **Spent time
+    (hours)** and **Executed Percent**.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar tarefa*, *Lançar horas* e *Timesheet*, conforme
-    ilustrado na figura abaixo:
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Edit task*, *Log time* and *Timesheet*, as shown in the figure
+    below:
 
-    ![Criar](images/tasks-2.png)
-    
-    **Figura 2 - Tela de listagem de tarefas**
+![Criar](images/tasks-2.png)
 
-3.  Para atualizar as informações sobre a execução da tarefa, como por exemplo,
-    o status, clique no ícone ![Criar](images/tasks-3.png)  da mesma.
+**Figure 2 - Task list screen**
 
-Registrando as horas gastas com a tarefa - preenchimento dos campos cadastrais
------------------------------------------------------------------------------
+3.  To update the information about the task execution, such as status, click
+    the icon ![Criar](images/tasks-3.png).
 
-1.  Após verificar suas tarefas, na tela de Tarefas, clique no ícone ![Criar](images/tasks-4.png) da tarefa
-    que deseja registrar as horas trabalhadas com a mesma. Feito isso, será
-    apresentada a tela para registro das horas:
+   
+Recording the hours spent with the task - filling in the registration fields
+----------------------------------------------------------------------------
 
-    ![Criar](images/tasks-5.png)
-    
-    **Figura 3 – Tela de cadastro de horas**
+1.  After checking your tasks, on the Tasks screen, click the task icon ![Criar](images/tasks-4.png) that you want to record the hours worked with. Once this is done, the time recording screen will be displayed:
 
-2.  Preencha os campos conforme orientações abaixo:
+![Criar](images/tasks-5.png)
 
-    -   **Data**: informe a data em que foi executada a tarefa;
+**Figure 3 - Time recorder screen**
 
-    -   **Tempo gasto (horas)**: informe o tempo gasto com a execução da tarefa na
-    data informada;
+2.  Fill in the fields as directed below:
 
-    -   **Comentários**: descreva o que foi feito na execução da tarefa, caso ache
-    necessário;
+-   **Date**: enter the date on which the task was executed;
 
-    -   **Atividade**: selecione o tipo de atividade executado em relação a tarefa.
+-   **Spent time (hours)**: enter the time spent on the task on the date
+    entered;
 
-3.  Após os dados informados, clique no botão *Gravar* para efetuar o registro.
+-   **Comments**: describe what was done in the execution of the task, if
+    necessary;
 
-Verificando os registros de horas gastas com as tarefas (timesheet)
------------------------------------------------------------------
+-   **Activity**: select the type of activity performed relative to the task.
 
-1.  Na tela de Tarefas, clique no ícone ![Criar](images/tasks-6.png)  localizado no canto superior direito
-    da tela para verificar o registro das horas gastas com as tarefas. Feito
-    isso, será apresentada a tela de registro de horas referente às tarefas,
-    conforme exemplo ilustrado na figura a seguir:
+3.  After the data is entered, click the *Save* button to register.
 
-    ![Criar](images/tasks-7.png)
-    
-    **Figura 4 – Registro de horas gastas com todas tarefas**
+Checking the time records spent with the tasks (timesheet)
+----------------------------------------------------------
 
-2.  Clique no ícone ![Criar](images/tasks-6.png)  da tarefa para verificar o registro das horas gastas com
-    uma tarefa. Feito isso, será apresentada a tela de registro de horas gastas
-    com a tarefa, conforme exemplo ilustrado na figura a seguir:
+1.  On the Tasks screen, click the icon ![Criar](images/tasks-6.png) in the upper right corner of the screen to check the record of the hours spent with the tasks. Once this is done, the task log screen will be displayed, as shown in the following figure:
+
+![Criar](images/tasks-7.png)
+
+**Figure 4 - Record of spent hours with all tasks**
+
+1.  Click the task icon ![Criar](images/tasks-6.png) to check the record of the hours spent with a task. Once this is done, the
+    log of hours spent with the task will be displayed, according to the example shown in the following figure:
 
 ![Criar](images/tasks-8.png)
 
-**Figura 5 – Registro de horas gastas com uma tarefa**
+**Figure 5 - Record of hours spent with a task**
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/18/2019 – Anna Martins
+    <b>Updated:</b>09/11/2019 – Anna Martins
