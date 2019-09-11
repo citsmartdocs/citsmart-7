@@ -54,7 +54,7 @@ A quick vision of the module's main functionality
 
 !!! note "NOTE"
 
-    Reports built by Smart Report Builder are displayed in this [Smart Reports][1]) screen.
+    Reports built by Smart Report Builder are displayed in this [Smart Reports][1] screen.
 
 
 !!! tip "About"
