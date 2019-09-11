@@ -286,7 +286,7 @@ CITSmart Inventory Connections Register
 
 1. Access the menu **ITIL Processes > Event Management > Inventory Connections**;
 
-    ![Connection](images/inventory.img13.jpg)
+    ![Connection](images/inventory.img15.jpg)
     
     **Figure 11 - CITSmart Inventory connection registration**
     
