@@ -88,7 +88,7 @@ Filling in the registration fields
      In order to create a Sub Report it should already be registered and the
      "Query Type" should be SQL.
 
--   **SQL: **use this type to create report that returns the database
+-   **SQL**: use this type to create report that returns the database
     information through a Query. Selecting this type will display the "Designer"
     and "SQL" tabs and the "Business Rule" field, selecting this option will
     display new fields, as shown below:
@@ -104,7 +104,7 @@ Filling in the registration fields
 -   **JSP**: use this type to create report with dynamic content. Selecting this
     type will display the "JSP" tab where you can enter the JSP code.
 
--   **Report Type: **select the type of report you want to create:
+-   **Report Type**: select the type of report you want to create:
 
 !!! warning "ATTENTION"
 
