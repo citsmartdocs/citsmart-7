@@ -1,70 +1,68 @@
-title:  Smart Portal (Portal de Serviços)
-Description: O Smart Portal é um recurso da solução que disponibiliza o Catálogo de Serviços. 
-# Smart Portal (Portal de Serviços)
+title:  Smart Portal (Service Portal)
+Description: Smart Portal is a feature of the solution that makes the Service Catalog. 
+# Smart Portal (Service Portal)
 
-O Smart Portal é um recurso da solução que disponibiliza o Catálogo de Serviços (Negócio e Apoio) aos usuários do sistema e entre 
-outras informações, como:
+Smart Portal is a feature of the solution that makes the Service Catalog (Business and Support) available to system users and 
+other information, such as:
 
-- Solicitações de Serviços;
-- Notícias referente ao sistema;
+- Service Requests;
+- News about the system;
 - Chat.
 
-Pré-condições
+Preconditions
 -----------------
 
-1. Para habilitar o Smart Portal como página principal do sistema, é necessário ativar o parâmetro **“Habilitar Portal como tela
-inicial do CITSmart”**.
+1. To enable Smart Portal as your system homepage, you must enable the "**Enable Portal as CITSmart home screen**" parameter.
 
-Conhecendo o Smart Portal
+Knowing the Smart Portal
 ---------------------------
 
-1. Após habilitar o Smart Portal, ao realizar o login será exibido o mesmo, conforme ilustrado na figura abaixo:
+1. After enabling Smart Portal, when you log in, the same will be displayed, as shown in the figure below:
 
-    ![Smart](images/smart-por.img1.jpg)
+    ![Smart](images/smart.img1.jpg)
     
-    **Figura 1 - Smart Portal**
+    **Figure 1 - Smart Portal**
     
-    ![simbolo](images/num1.png) **Botão de menu**: ao clicar neste botão, permite esconder/exibir o menu do Smart Portal;
+    ![symbol](images/1.png) **Menu Button**: clicking this button allows you to hide/display the Smart Portal menu;
     
-    ![simbolo](images/num2.png) **Barra de navegação**: permite navegar entre os serviços;
+    ![symbol](images/2.png) **Navigation bar**: navigates between services;
     
-    ![simbolo](images/num3.png) **Portal**: permite voltar à tela inicial do Smart Portal;
+    ![symbol](images/3.png) **Portal**: Allows return to the Smart Portal's start window;
     
-    ![simbolo](images/num4.png) **Minhas solicitações**: permite ao usuário logado visualizar suas solicitações de serviços e 
-    executar algumas ações nas mesmas;
+    ![symbol](images/4.png) **My requests**: allows the logged in user to view their service requests and perform some actions on 
+    them;
     
-    ![simbolo](images/num5.png) **Aprovações**: permite ao usuário logado visualizar somente as solicitações de serviços que requer
-    aprovação;
+    ![symbol](images/5.png) **Approvals**: allows the logged in user to view only those service requests that require approval;
     
-    ![simbolo](images/num6.png) **Notícias**: local onde é disponibilizado as notícias, como por exemplo, referente à organização,
-    ao sistema, etc.;
+    ![symbol](images/6.png) **News**: where the news is made available, for example, concerning the organization, the system, 
+    e.g;
     
-    ![simbolo](images/num7.png) **Investigações Ativas**: que permite buscar/acompanhar as atividades registradas ;
+    ![symbol](images/7.png) **Surveys**: allows to send / accompany registered activities;
     
-    ![simbolo](images/num8.png) **Pesquisa**: permite buscar os serviços disponíveis no portal;
+    ![symbol](images/8.png) **Search**: allows you to search the services available in the portal;
     
-    ![simbolo](images/num9.png) **WebRTC**: permite ao usuário ligar para o helpdesk usando a tecnologia Real-Time Communications
-    (RTC), visível somente se os parâmetros Voip estiverem configurados;
+    ![symbol](images/9.png) **WebRTC**: allows the user to call the helpdesk using Real-Time Communications (RTC) technology, 
+    visible only if Voip parameters is setup;
     
-    ![simbolo](images/num10.png) **Chat**: permite criar uma solicitação de serviço e interagir com o atendente sobre a mesma;
+    ![symbol](images/10.png) **Chat**: allows you to create a service request and interact with the attendant about it;
     
-    ![simbolo](images/num11.png) **Idioma**: permite escolher o idioma que deseja para o sistema (Português, Inglês ou Espanhol), 
-    o qual é representado pela bandeira do país.
+    ![symbol](images/11.png) **Language**: allows you to choose the language you want for the system (Portuguese, English or 
+    Spanish), which is represented by the country flag.
     
-    ![simbolo](images/num12.png) **Portal do Conhecimento**: ao clicar nesta opção, será apresentada a tela do portal do 
-    conhecimento, onde permite realizar a busca de informações relevantes, como por exemplo, a respeito do uso do sistema;
+    ![symbol](images/12.png) **Knowledge Portal**: clicking on this option will present the knowledge portal screen, where you 
+    can search for relevant information, for example, about the use of the system;
     
-    ![simbolo](images/num13.png) **Guia do Usuário**: ao clicar nesta opção, será apresentada a tela do portal do conhecimento,
-    onde permite realizar a busca de informações relevantes, como por exemplo, a respeito de um produto específico;
+    ![symbol](images/13.png) **User Guide**: clicking on this option will present the knowledge portal screen, where you can 
+    search for relevant information, for example, about the one specific product;
     
-    ![simbolo](images/num14.png) **Acessar o Sistema**: permite entrar no sistema;
+    ![symbol](images/14.png) **Access System**:allows enter the system;
     
-    ![simbolo](images/num15.png) **Notificações**: local onde apresenta as mensagens de alerta do sistema;
+    ![symbol](images/15.png) **Notifications**: location where system alert messages are displayed;
     
-    ![simbolo](images/num16.png) **Identificação do usuário**: ao clicar nesta opção, são exibidas as funções para alterar a 
-    senha de acesso e sair do sistema.
+    ![symbol](images/16.png) **User Identification**: clicking this option displays the functions to change the access password 
+    and exit the system.
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/29/2019 - Larissa Lourenço
+    <b>Updated:</b>11/09/2019 - Larissa Lourenço
