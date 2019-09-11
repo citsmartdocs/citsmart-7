@@ -52,9 +52,9 @@ A quick vision of the module's main functionality
 
 2.  Click a *Category*, and then click the *Report* you want to send.
 
->   !!! note "NOTE"
+!!! note "NOTE"
 
-Reports built by Smart Report Builder are displayed in this [Smart Reports][1]) screen.
+    Reports built by Smart Report Builder are displayed in this [Smart Reports][1]) screen.
 
 
 !!! tip "About"
@@ -62,4 +62,5 @@ Reports built by Smart Report Builder are displayed in this [Smart Reports][1])
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
     <b>Updated:</b>09/11/2019 – Anna Martins
     
-[1]:/pt-br/citsmart-platform-7/additional-features/reports/create/smart-reports/configuration/generate-report.html
+[1]:/en-us/citsmart-platform-7/additional-features/reports/create/smart-reports/configuration/generate-report.html
+
