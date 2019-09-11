@@ -205,19 +205,19 @@ Delete or unlink
 
 2. Icon ![symbol](images/icon-stop.red.white.jpg)
 
-3. Icon ![symbol](images/sim-fech.greenwhite.jpg)
+3. Icon ![symbol](images/icon-stop.green-white.jpg)
 
-4. Icon ![symbol](images/simb-fech.green.jpg)
+4. Icon ![symbol](images/icon-xis.green.jpg)
 
-5. Icon ![symbol](images/simb-fech.grey.jpg) 
+5. Icon ![symbol](images/icon-xis.grey.jpg) 
 
-6. Icon ![symbol](images/simb-fech-red-redon.jpg)
+6. Icon ![symbol](images/icon-stop.redondo.jpg)
 
-7. Icon ![symbol](images/simb-menos.red.jpg)
+7. Icon ![symbol](images/icon-less.jpg)
 
-8. Icon ![symbol](images/simb-xis.red.jpg)
+8. Icon ![symbol](images/icon-red.thick.jpg)
 
-9. Icon ![symbol](images/simb-xis.red.small.jpg)
+9. Icon ![symbol](images/icon-stop.red9.jpg)
 
 10. Button "Delete"
 
