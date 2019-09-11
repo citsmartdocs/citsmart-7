@@ -80,7 +80,7 @@ Checking the time records spent with the tasks (timesheet)
 
 **Figure 4 - Record of spent hours with all tasks**
 
-1.  Click the task icon ![Criar](images/tasks-6.png) to check the record of the hours spent with a task. Once this is done, the
+2.  Click the task icon ![Criar](images/tasks-6.png) to check the record of the hours spent with a task. Once this is done, the
     log of hours spent with the task will be displayed, according to the example shown in the following figure:
 
 ![Criar](images/tasks-8.png)
