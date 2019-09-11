@@ -160,14 +160,14 @@ Registering the roles/responsibility
 
 **Figure 7 - Roles/responsibilities screen**
 
-1.  Click the *Link new resource* button, done this, the link resource screen
+3.  Click the *Link new resource* button, done this, the link resource screen
     will be displayed:
 
 ![Criar](images/project-8.png)
 
 **Figure 8 - Resource master screen**
 
-1.  Click the *Select users* button, the user search screen will be displayed.
+4.  Click the *Select users* button, the user search screen will be displayed.
     Perform the search of the users who are members of the project, select the
     same ones and click on the button *Save* to carry out the operation. Select
     the role of the users and click the *Save* button to make the link.
@@ -185,7 +185,7 @@ Registering the roles/responsibility
      If you do not have the roles registered, you can make a registration from
      this screen, just click the Roles button.
 
-2.  After you link the resources, they will be displayed on the project screen,
+5.  After you link the resources, they will be displayed on the project screen,
     as shown in the following figure:
 
 ![Criar](images/project-9.png)
