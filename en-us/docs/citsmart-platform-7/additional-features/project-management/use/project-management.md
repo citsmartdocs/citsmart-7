@@ -328,6 +328,8 @@ Technical/administrative problems
 
 **Figure 14 - Technical/administrative issues screen**
 
+[1]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/employee.html
+[2]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/user-register.html
 
 !!! tip "About"
 
