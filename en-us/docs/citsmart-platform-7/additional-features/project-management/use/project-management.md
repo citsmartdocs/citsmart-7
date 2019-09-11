@@ -1,11 +1,7 @@
 title: Project registration and management
+Description: The Project is a unique process, consisting of a group of coordinated and controlled tasks with start and end dates, undertaken to achieve a goal according to specific requirements, including time, cost and resource constraints.
 
-Description: The Project is a unique process, consisting of a group of
-coordinated and controlled tasks with start and end dates, undertaken to achieve
-a goal according to specific requirements, including time, cost and resource
-constraints.
-
-\# Project registration and management
+# Project registration and management
 
 The Project is a unique process, consisting of a group of coordinated and
 controlled tasks with start and end dates, undertaken to achieve a goal
@@ -216,9 +212,9 @@ Registering tasks
     template will be displayed, and if you are going to proceed with the
     template, click the Save button and confirm the template import.
 
-2.  Click the project actions icon ![Criar](images/project-11.png). Once this is done, the Job Register screen will be displayed, as shown in the following figure:
+2.  Click the project actions icon ![Criar](images/project-13.png). Once this is done, the Job Register screen will be displayed, as shown in the following figure:
 
-![Criar](images/project-12.png)
+![Criar](images/project-11.png)
 
 **Figure 11 - Task record screen**
 
@@ -279,7 +275,7 @@ Registering tasks
 
 **Figure 12 - Job register screen**
 
-1.  Enter the name of the template and click the *Create new model* button to
+3.  Enter the name of the template and click the *Create new model* button to
     perform the operation.
 
 Creating project baseline
