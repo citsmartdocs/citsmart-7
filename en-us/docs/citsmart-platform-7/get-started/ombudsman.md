@@ -1,238 +1,198 @@
-title: Manual de configuração e utilização da ouvidoria
+title: Ombudsman configuration and user guide
 
-Description: Esta funcionalidade tem por objetivo criar um canal direto para registros de Denúncia, Reclamação, Sugestão e Elogio sobre os atendimentos da
-empresa.
+Description: This functionality aims to create a direct channel for Report, Complaint, Suggestion and Compliment
 
-# Manual de configuração e utilização da ouvidoria
+# Ombudsman configuration and user guide
 
-Esta funcionalidade tem por objetivo criar um canal direto para registros de
-Denúncia, Reclamação, Sugestão e Elogio sobre os atendimentos da empresa (de
-forma anônima ou não), desta forma a organização terá números e evidências
-suficientes para avaliar seus processos e profissionais com base nos
-atendimentos realizados, possíveis desvios de conduta, etc.
+This functionality aims to create a direct channel for Report, Complaint, Suggestion and Compliment records about the company's 
+attendance (anonymously or otherwise), this way the organization will have enough numbers and evidence to evaluate their 
+processes and professionals based on the services performed, possible deviations from conduct, etc.
 
-Pré-condições
-------------
+Preconditions
+------------------
 
-1.  Deve existir cadastrado ao menos um Portfólio com ao menos um Serviço
-    vinculado (ver conhecimentos [Cadastro de portfólio de
-    serviços](1) e [Cadastro de serviços](2));
+1. At least one Portfolio must have been registered with at least one linked Service (see knowledge [Service portfolio registration](1) and [Service registration](2));
 
-2.  Deve existir cadastrado ao menos um Acordo de Nível de Serviço (ver
-    conhecimento [Cadastro e pesquisa de acordo de nível de serviço
-    geral](3));
+2. At least one Service Level Agreement must be registered (see knowledge [General service level agreement registration and search](3));
 
-3.  Todos os pré-requisitos típicos de criação de nova Atividade dentro de um
-    Serviço em um Portfólio já devem ter sido atendidos :
+3. All typical prerequisite for creating new Activity within a Service in a Portfolio must have been met:
 
-    -   template de e-mail de notificação de abertura/finalização/ocorrências
-        (ver conhecimento [Cadastro e pesquisa de notificação via e-mail](4))
+    - Notification e-mail template of opening/finalization/occurrences (see knowledge [Notification via e-mail registration and search](4))
 
-    -   calendário (ver conhecimento [Cadastro e pesquisa de calendário](5))
+    - Calendar (see knowledge [Calendar Registration and Search](5))
 
-    -   tempo de Atendimento (ver conhecimento [Cadastro e pesquisa de tempo de
-        atendimento](6))
+    - Time attendance (see knowledge [Time attendance registration and search](6))
 
-    -   grupo de usuários (executor) (ver conhecimento [Cadastro e pesquisa de
-        grupo](7))
+    - User group (executor) (see knowledge [Group registration and search)](7))
 
-    -   fluxo (ver conhecimento [Manutenção e fluxo de trabalho](8))
+    - Flow (see knowledge [Workflow maintenance](8))
 
-    -   contrato (ver conhecimento [Cadastro e pesquisa de contrato](9))
+    - Contract (see knowledge [Contract registration and search](9))
 
-4.  Deve existir um formulário cadastrado que atenderá os seguintes motivos:
+4. There must be a registered form that will address the following reasons:
 
-    -   Denúncia
+    - Report ;
+    
+    - Complaint;
 
-    -   Reclamação
+    - Suggestion/Compliment;
 
-    -   Sugestão/Elogio
+5. The template must be configured to open the call (see knowledge [Ticket management (services)](10));
 
-5.  Deve estar configurado o template para a abertura do chamado (ver
-    conhecimento [Gerenciamento de ticket (serviços)](10));
+6. There must be at least one specific Webservice Operation registered for the opening of calls (e.g.: create_request) (see knowledge [Web service operations registration and search](11));
 
-6.  Deve existir cadastrada ao menos uma Operação de Web Service específica para
-    a abertura do chamados (ex.: create_request) (ver conhecimento [Cadastro e
-    pesquisa de operações web services](11));
+7. At least one Source must be registered (Contact Origin), registration available on the Tickets menu. (see knowledge [Ticket source registration and search](12)).
 
-7.  Deve existir cadastrada ao menos uma Origem (a origem do contato), cadastro
-    disponível no menu de Tickets (ver conhecimento [Cadastro e pesquisa de
-    origem de tickets](12)).
-
-Passos para configurar a ouvidoria
+Steps to setup the ombudsman
 ---------------------------------
 
-1.  Cadastrar três atividades (do tipo requisição) vinculadas ao
-    Portfólio/Serviço adequado à organização, as quais servirão para atender as
-    ocorrências, uma para cada tipo de ocorrência, podendo usar os nomes abaixo
-    a título de sugestão:
+1. Register three activities (of the request type) linked to the Portfolio/Service appropriate to the organization, which will 
+serve to attend the occurrences, one for each type of occurrence, you may use the names below as a suggestion:
 
-    -   Denúncia;
+    - Report;
 
-    -   Reclamação;
+    - Complaint;
 
-    -   Sugestão/Elogio.
+    - Suggestion/Compliment.
 
-2.  Vincular e configurar o vínculo dessas três atividades a um Contrato
-    existente;
+2. Link and setup the link of these three activities to an existing Contract;
 
-3.  Usar o ID das três Atividades criadas para as seguintes parametrizações:
+3. Use the ID of the three Activities created for the following parameterizations:
 
-    -   345 - Ouvidoria - ID do serviço de denúncia;
+    - 345 - Ombudsman - Reporting service ID;
 
-    -   346 - Ouvidoria - ID do serviço de reclamação;
+    - 346 - Ombudsman - Complaint Service ID;
 
-    -   347 - Ouvidoria - ID do serviço de sugestão.
+    - 347 - Ombudsman - Suggestion service ID.
 
-4.  Configurar os seguintes parâmetros (para entender o efeito deles veja
-    a **Figura 1**):
+4. Setup the following parameters (to understand their effect see **Figure 1**):
 
-    -   341 - Configuração do contato para Ouvidoria na tela de login
+    - 341 - Contact setup for Ombudsman on login screen
 
-        -   Ex.: Ouvidoria.
+        - E.g.: Ombudsman.
 
-    -   244 - Mensagem da tela inicial
+    - 244 - Login Screen Message
 
-        -   Ex.: +55 62 3003-0101.
+        - E.g.: +55 62 3003-0101.
 
-5.  Cadastrar um novo usuário para ser usado a criação de ocorrências anônimas
-    (ex.: anônimo);
+5. Register a new user to be used to create anonymous occurrences (e.g.: anonymous);
 
-6.  Configurar os seguintes parâmetros:
+6. Setup the following parameters:
 
-    -   344 - Ouvidoria - URL padrão para logo da tela (opcional);
+    - 344 - Ombudsman - default URL for screen logo (optional);
 
-        -   Sugestão da URL:
-            citsmart/pages/OmbusManregister/OmbusManregister.load\#
+        - URL Suggestion: citsmart/pages/OmbusManregister/OmbusManregister.load#
 
-    -   348 - Ouvidoria - Login do usuário para autenticação (obrigatório);
+    - 348 - Ombudsman - Username for authentication (required);
 
-    -   349 - Ouvidoria - ID da origem do contato (obrigatório).
+    - 349 - Ombudsman - Contact origin ID (required).
 
-    ![Criar](images/ombudsman-1.png)
+    ![Contact](images/ouvidoria.img1.jpg)
     
-    **Figura 1 - Informações de contato**
+    **Figure 1 - Contact information**
 
-    !!! note "NOTA"
+    !!! note "NOTE"
 
-        O usuário escolhido para o parâmetro 348 (para ocorrências anônimas)
-        deverá possuir permissão de criação no fluxo e permissão para trabalhar no
-        Contrato usado para atendimento das ocorrências de ouvidoria.
+        The user chosen for parameter 348 (for anonymous occurrences) must have creation permission in the flow and permission to 
+        work on the Contract used to attend the ombudsman occurrences.
 
-7.  Configurar os parâmetros exigidos pelo Web Service que serão usados para
-    abertura de chamados, ou seja, para a criação de Ticket de atendimento das
-    ocorrências de ouvidoria (opção **Sistema Web Service Operação de Web
-    Service**). Vincule na mesma tela o Web Service aos grupos de usuário que
-    poderão trabalhar com o recurso Ouvidoria.
+7. Setup the parameters required by the Web Service that will be used to open calls, that is, to create a Ticket of Attendance 
+for Ombudsman Occurrences (**System > Web Service > Web Service Operation** option). Link on the same screen the Web Service to 
+the user groups that can work with the Ombudsman feature..
 
-!!! note "NOTA"
+!!! note "NOTE"
 
-    A configuração do Web Service para a Ouvidoria atualmente permite apenas
-    um único Contrato.
+    The configuration of the Web Service for the Ombudsman currently allows only one Contract.
 
-    Para descobrir o ID do Acordo de Nível de Serviço (exigido na configuração
-    do Web Service) é necessário executar um comando SELECT (SQL) na tabela
-    "acordonivelservico" e identificar o ID pelo nome dado ao acordo desejado.
+    To find out the Service Level Agreement ID (required in the Web Service configuration), you need to execute a SELECT (SQL) 
+    command on the "acordonivelservico" table and identify the ID by the name given to the desired agreement.
 
-   !!! info "IMPORTANTE"
+   !!! info "IMPORTANT"
 
-       Sugestão de texto para o parâmetro "Default description complement" do Web
-       Service: "Aberto via Ouvidoria".
+       Suggestion for web service text parameter "Default description complement": "Open via Ombudsman".
 
-      Este texto vai aparecer no campo "Outras informações" do Ticket criado
+       It will appear in the "Other Information" field of the created Ticket.
 
-Passos para registrar uma ocorrência para a ouvidoria
+Steps to register an occurrence for the ombudsman
 ---------------------------------------------------
 
-1.  Na tela de login no sistema, clicar no link "Está com problemas?
-    Informe-nos", ocorrerá o redirecionamento para a tela de canais de
-    atendimento;
+1. On the system login screen, click on the "Login Problems? Contact us" link, the redirection to the service channels screen 
+will occur;
 
-    ![Criar](images/ombudsman-2.png)
+    ![Login](images/ouvidoria.img2.jpg)
     
-    **Figura 2 - Tela de login**
+    **Figure 2 - Login screen**
 
-    ![Criar](images/ombudsman-3.png)
+    ![Screen](images/ouvidoria.img3.jpg)
     
-    **Figura 3 - Tela da ouvidoria**
+    **Figure 3 - Ombudsman screen**
 
-3.  Selecionar o modo de identificação que são:
+2. Select the identification mode which are:
 
-    -   anônimo: identifica o solicitante como 'Anônimo';
+    - anonymous: identifies the requester as 'Anonymous';
 
-    -   desejo me identificar: identifica o solicitante com o nome que o mesmo
-        colocar no formulário;
+    - I want to identify myself: identify the requester with the name that the same put on the form;
 
-4.  Na opção *Desejo me identificar*, as seguintes opções serão
-    disponibilizadas:
+3. In the *I want to identify myself* option, the following options will be available:
 
-    -   nome: campo obrigatório - nome do solicitante;
+    - name: required field - requesters name;
 
-    -   telefone: campo não obrigatório que guardará o número do telefone do
-        solicitante, caso o usuário inserir a informação, então a solicitação de
-        serviço deverá possuir esse campo, conforme informado;
+    - telephone: non-mandatory field that will store the telephone number of the requestor, if the user enters the information, 
+    then the service request must have this field, as informed;
 
-    -   e-mail: campo não obrigatório que guardará o e-mail do solicitante, caso
-        o usuário inserir a informação, então a solicitação de serviço deverá
-        possuir esse campo, conforme informado;
+    - e-mail: non-mandatory field that will save the requestor's e-mail, if the user enters the information, then the service 
+    request must have this field, as informed;
 
-5.  Selecionar uma das finalidades do contato: Denúncia, Reclamação ou Sugestão;
+4. Select one of the purposes of the contact: Report, Complaint or Suggestion;
 
-6.  Digitar a descrição da ocorrência;
+5. Enter the occurrence description;
 
-7.  Autenticar a sua solicitação por meio do **Captcha** (exemplo: ![Criar](images/ombudsman-4.png) ) para
-    que o sistema tenha garantias de que não se trata de uma tentativa de
-    invasão via automação de robôs;
+6. Authenticate your request through Captcha (example: ![Captcha](images/ouvidoria.img4.jpg) ) so that the system has guarantees 
+that it is not an attempted invasion via robot automation;
 
-8.  Enviar a ocorrência (uma mensagem de envio com sucesso será apresentada).
+7. Send the occurrence (a successful sending message will be displayed).
 
-!!! info "IMPORTANTE"
+!!! info "IMPORTANT"
 
-     Recomendamos que o usuário anote o número da ocorrência (Ticket) que é
-     mostrado na mensagem de sucesso.
+     We recommend that the user write down the occurrence number (Ticket) that is shown in the success message.
 
-     Possíveis causas de uma mensagem de falha após solicitado o envio da
-     ocorrência: banco de dados indisponível, indisponibilidade de rede e falta
-     de configuração nos serviços.
+     Possible causes of a failure message after requesting the sent occurrence : downtime database, network downtime and lack of 
+     configuration in services.
 
-Passos para atender uma ocorrência enviada para a ouvidoria
+Steps to attend an occurrence sent to the ombudsman
 ----------------------------------------------------------
 
-1.  Na principal funcionalidade de controle e execução dos Tickets do sistema,
-    basta que o atendente faça parte do grupo executor da Atividade aberta
-    (chamado aberto) para que ele visualize, capture e trate das ocorrências;
+1. In the main control and execution functionality of the Tickets System , it is sufficient that the attendant is part of the 
+Open Activity (open call) executing group so that it can view, capture and handle the occurrences;
 
-2.  Se o teor (descrição) da ocorrência não estiver compatível com o tipo
-    selecionado no parâmetro de Atividade default no Web Service, basta o
-    atendente reclassificar para a Atividade adequada, exemplos:
+2. If the content (description) of the occurrence is not compatible with the type selected in the Default Activity parameter in 
+the Web Service, it is sufficient for the attendant to reclassify to the appropriate Activity, examples:
 
-    -   O ID default é de uma "Reclamação", mas o texto digitado pelo usuário é
-        de um elogio;
+    - The default ID is a "Complaint," but the text entered by the user is a compliment
 
-    -   O ID default é de uma "Denúncia", mas o texto digitado pelo usuário é de
-        uma sugestão.
+    - The default ID is a "Report", but the text entered by the user is a suggestion
 
-!!! info "IMPORTANTE"
+!!! info "IMPORTANT"
 
-    No campo "Solicitante" do Ticket estará o título "Anônimo" para quando o
-    usuário fizer esta opção na tela de abertura do chamado (ocorrência).
+    In the "Requester" field of the Ticket will be the title "Anonymous" for when the user makes this option in the call opening 
+    screen (occurrence).
 
 
-[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
-[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/services.html
-[3]:/pt-br/citsmart-platform-7/processes/service-level/register-sla.html
-[4]:/pt-br/citsmart-platform-7/additional-features/communication-and-notification/email/notification.html
-[5]:/pt-br/citsmart-platform-7/plataform-administration/time/create-calendar.html
-[6]:/pt-br/citsmart-platform-7/processes/service-level/time-attendance.html
-[7]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
-[8]:/pt-br/citsmart-platform-7/workflow/workflow-management.html
-[9]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
-[10]:/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html
+[1]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+[2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/services.html
+[3]:/en-us/citsmart-platform-7/processes/service-level/register-sla.html
+[4]:/en-us/citsmart-platform-7/additional-features/communication-and-notification/email/notification.html
+[5]:/en-us/citsmart-platform-7/plataform-administration/time/create-calendar.html
+[6]:/en-us/citsmart-platform-7/processes/service-level/time-attendance.html
+[7]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[8]:/en-us/citsmart-platform-7/workflow/workflow-management.html
+[9]:/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[10]:/en-us/citsmart-platform-7/processes/tickets/ticket-management.html
 [11]:#
-[12]:/pt-br/citsmart-platform-7/processes/tickets/register-ticket-source.html
+[12]:/en-us/citsmart-platform-7/processes/tickets/register-ticket-source.html
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>7/26/2019 – Anna Martins
+    <b>Updated:</b>09/11/2019 – Larissa Lourenço
