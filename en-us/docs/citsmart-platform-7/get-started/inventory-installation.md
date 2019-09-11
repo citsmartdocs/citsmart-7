@@ -73,7 +73,7 @@ To run the Inventory routine you must perform the settings described in the topi
 CITSMART.NET and SNMP capture agent
 -------------------------------------
 
-*CITSMART.NET Capture Agent**: It's a component of the CITSmart solution, which runs on Windows machines (it's the same component 
+*CITSMART.NET Capture Agent*: It's a component of the CITSmart solution, which runs on Windows machines (it's the same component 
 that runs on the Inventory Collection Server, the difference being that it runs locally with Local System Account policies - 
 without access permissions To the network and other equipment)
 
