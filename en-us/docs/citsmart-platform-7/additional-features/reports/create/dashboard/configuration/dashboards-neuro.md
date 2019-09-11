@@ -219,16 +219,15 @@ Here are the description of each property:
     request will assume the same current group as the request for the stream.
     The values of this property allow to inform:
 
--   The acronym of the user (e.g .: **SDNIVEL1**)
+       -  The acronym of the user (e.g .: **SDNIVEL1**)
 
--   An expression that represents the value of a flow variable or an attribute
-    of some object in the flow. Examples:
+       -   An expression that represents the value of a flow variable or an attribute of some object in the flow. Examples:
 
--   \${requestTimeOff.currentGroup}
+             -   \${requestTimeOff.currentGroup}
 
--   \${grupoParaDirecionamento}
+             -   \${grupoParaDirecionamento}
 
--   **Contract**: may be left blank to assume the same contract as the flow
+       -   **Contract**: may be left blank to assume the same contract as the flow
     request or can be informed:
 
     -   The contract ID (table primary key)
