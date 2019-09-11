@@ -1,61 +1,68 @@
-title:  Criação de template de projeto
-Description: Tem por objetivo criar um modelo de projeto a partir de um projeto para acelerar o processo de criação de projetos. 
-# Criação de template de projeto
+title: Project templates creation
+Description: The goal of this feature is to create a project model to speed up the project development process.
 
-Esta funcionalidade tem por objetivo criar um modelo de projeto a partir de um projeto para acelerar o processo de criação de 
-projetos.
+# Project templates creation
 
-Como acessar
------------------
+The goal of this feature is to create a project model to speed up the project
+development process.
 
-1. Acesse a funcionalidade de **Projeto** através da navegação no menu principal **Gestão Integrada > Gerência de Projetos > Projeto**.
+How to access
+-------------
 
-Pré-condições
----------------
+1.  Access the **Project** feature navigating through the main menu **Integrated
+    Management > Project Management > Projects**.
 
-1. Ter um projeto cadastrado (ver conhecimento [Cadastro e gerenciamento de projetos][1]). 
+Preconditions
+-------------
 
-Filtros
---------
+1.  Have a registered project (see knowledge [Project registration and
+    management][1]).
 
-1. Não se aplica.
+Filters
+-------
 
-Listagem de itens
--------------------
+1.  No applicable.
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: **Título** e **Processo**.
+Items list
+----------
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Editar" e "Excluir".
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: **Title** and **Process**.
+
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Edit* and *Delete*.
 
 ![Listagem](images/tem-proj.img1.jpg)
 
-**Figura 1 -Tela de listagem de projetos**
+**Figure 1- Projects listing screen**
 
-Preenchimento dos campos cadastrais
--------------------------------------
+Filling in the registration fields
+----------------------------------
 
-1. Será apresentada a tela de lista de **Projetos**. Clique no botão "Novo" (conforme ilustrado na figura anterior). Será
-apresentada a tela de Registro do Projeto, conforme ilustrado na figura abaixo:
+1.  The **Project** listing entry screen will be displayed. Click on
+    the *New*** button (as shown in the previous figure). The **Project Entry
+    Screen** will be displayed, as illustrated on the image below:
 
-    ![Registro](images/tem-proj.img2.jpg)
-    
-    **Figura 2 - Tela de registro de projeto**
-    
-2. Preencha os campos correspondentes. Após isso, será apresentada a tela de criação do modelo de projeto, conforme ilustrada na
-figura a seguir:
+![Listagem](images/tem-proj.img2.jpg)
 
-    ![Criação](images/tem-proj.img3.jpg)
-    
-    **Figura 3 – Tela de criação de modelo de projeto**
-    
-3. Informe o nome do modelo de projeto. Clique no botão "Gravar" para efetuar a operação. Feito isso, o modelo será criado com
-sucesso.
+**Figure 2 - Project entry screen**
+
+2.  Fill in the corresponding fields. Afterwards, the project template entry
+    screen will be displayed, as illustrated on the image below:
+
+![Listagem](images/tem-proj.img3.jpg)
+
+**Figure 3 – Project template creation screen**
+
+3.  Name the project template. Click on the *Save* button to confirm the entry.
+    Then, the template will be successfully created.
+
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/01/2019 - Larissa Lourenço
+    <b>Updated:</b>09/11/2019 - Anna Martins
 
-[1]:/pt-br/citsmart-platform-7/additional-features/project-management/use/project-management.html
+[1]:/en-us/citsmart-platform-7/additional-features/project-management/use/project-management.html
