@@ -1,334 +1,334 @@
-title:  Como navegar pelas telas usando os controles presentes no CITSmart Enterprise ITSM?
-Description:  É esclarecer algumas regras de navegabilidade e usabilidade. 
-# Como navegar pelas telas usando os controles presentes no CITSmart Enterprise ITSM?
+title:  How to navegate the screens using the CITSmart Enterprise ITSM controls?
+Description:  The purpose of this document is to clarify some rules of navigability and usability. 
+# How to navegate the screens using the CITSmart Enterprise ITSM controls?
 
-O propósito deste documento é esclarecer algumas regras de navegabilidade e usabilidade que valerão para a grande maioria das telas
-(funcionalidades) desta solução.
+The purpose of this document is to clarify some rules of navigability and usability that will be valid for the vast majority of the 
+screens (functionalities) of this solution. These rules apply to the ITIL processes that this solution is Pink Verify certified in 
+Pink Elephant, which are:
 
-Tais regras se aplicam aos processos ITIL que esta solução tem certificação Pink Verify junto a Pink Elephant, quais são:
+1. Portfolio Management (SPM)
 
-1. Gerenciamento de Portfólio (SPM)
+2. Service Catalog Management (SCM)
 
-2. Gerenciamento de Catálogo de Serviços (SCM)
+3. Service Level Management (SLM)
 
-3. Gerenciamento de Nível de Serviços (SLM)
+4. Change Management (CHG)
 
-4. Gerenciamento de Mudança (CHG)
+5. Release and Deployment Management (REL)
 
-5. Gerenciamento de Liberação (REL)
+6. Knowledge Management (KM)
 
-6. Gerenciamento de Conhecimento (KM)
+7. Service Asset & Configuration Management (SACM)
 
-7. Gerenciamento de Ativos e Configuração (SACM)
+8. Event Management (EV)
 
-8. Gerenciamento de Evento (EV)
+9. Request fulfillment (RF)
 
-9. Gerenciamento de Evento (EV)
+10. Incident Management (IM)
 
-10. Gerenciamento de Incidente (IM)
+11. Problem Management (PM)
 
-11. Gerenciamento de Problema (PM)
+12. Continuity Management (ITSCM)
 
-12. Gerenciamento de Continuidade (ITSCM)
+13. Availability Management (AVM)
 
-13. Gerenciamento de Disponibilidade (AVM)
+Combining all these rules inside only onde introducing document avoids redundancy of many basic texts that once understood, do not 
+add value diluted in all knowledge base documents.
 
-Reunindo essas regras em um só documento evita-se redundância de textos muito básicos que uma vez entendidos, não agregam valor 
-diluídos em todos os documentos da base de conhecimento.
-
-Preenchimento dos campos cadastrais
+Field filling requirement
 --------------------------------------
 
-Em todas as telas pode haver um ou mais campos obrigatórios. Para facilitar a identificação visual deles, esta solução adota um 
-asterisco em cor vermelha bem próximo ao rótulo do campo.
+On all screens there may be one or more required fields. To facilitate their visual identification, this solution adopts a red 
+asterisk close to the field label.
 
-A gravação/exclusão do registro, ou mesmo a execução da tarefa correspondente à tela não ocorrerá enquanto pelo menos um desses
-campos marcados estiverem vazios (não-preenchidos).
+Recording/deleting the record, or even the execution of the corresponding task to the screen, will not occur until at least one of 
+these fields is empty (unfilled).
 
-![Exemplo](images/nave.img1.jpg)
+![Menu](images/navegate.img1.jpg)
 
-**Figura 1 - Exemplo de campo marcado com asterisco**
+**Figure 1 - Example of field marked with asterisk**
 
-Capacidade de busca por aproximação
+Capacity to search with close lookup
 --------------------------------------
 
-Em todas as funcionalidades que têm a aba "Pesquisa" há um comportamento comum de busca pelas palavras digitas por aproximação,
-ou seja, não exige que seja exatamente a palavra digitada, podendo ser parte da palavra, por exemplo, ao digitar a palavra "falta
-de" a busca poderá retornar os títulos de Categoria de Problemas: "falta de toner", "falta de espaço em disco", etc..
+In all the features with the "Search" tab there is a common search behavior, it does not require that the word be typed exactly, it 
+can be part of the word, for example, when typing the word "lack of" the search may return these titles of Problems Category: "lack 
+of toner ", "lack of disk space", e.g.
 
-![Pesquisa](images/nave.img2.jpg)
+![Search](images/navegate.img2.jpg)
 
-**Figura 2 - Exemplo de tela que aceita pesquisa por aproximação**
+**Figure 2 - Example of screen that accepts close lookup**
 
 Menu
 -------
 
-**Objetivo**
+**Goal**
 
-- Permitir a navegação dos usuários pelas opções do menu principal
+- Allow users to navigate through the main menu options
 
-**Opções de links e ícones**
+**Link options and icons**
 
-- Ícone ![simbolo](images/simb-menu.green.jpg)- neste caso mostra um menu suspenso com outros botões
+- Icon ![symbol](images/icon-menu.green.jpg)- In this case it shows a drop-down menu with other buttons
 
-Avançar/Voltar/Fechar
+Next/Back/Closr
 -----------------------
 
-**Objetivo**
+**Goal**
 
-- Permitir a navegação dos usuários se movimentando pelas diversas telas
+- Allow users to browse through the various screens
 
-**Opções de links e ícones**
+**Link options and icons**
 
-1. Botão "Voltar"
+1. Button "Back"
 
-2. Botão "Voltar"
+2. Button "Next"
 
-3. Botão "Fechar"
+3. Button "Close"
 
-Detalhamento
+Details
 ---------------
 
-**Objetivo**
+**Goal**
 
-- Permitir mostrar ao usuário mais detalhes sobre um registro/informação
+- Allow to show the user more details about a record/information
 
-**Opções de links e ícones**
+**Link options and icons**
 
-1. Ícone ![simbolo](images/simb-seta.grey.jpg)
+1. Icon ![symbol](images/icon-seta.grey.jpg)
 
-2. Ícone ![simbolo](images/simb-seta.green.jpg)
+2. Icon ![symbol](images/icon-seta.green.jpg)
 
-3. Ícone ![simbolo](images/simb-iei.grey.jpg)
+3. Icon ![symbol](images/icon-iei.grey.jpg)
 
-4. Ícone ![simbolo](images/simb-iei.black.jpg)
+4. Icon ![symbol](images/icon-iei.black.jpg)
 
-5. Ícone ![simbolo](images/simb-mais-grey.jpg)
+5. Icon ![symbol](images/icon-plus.grey.jpg)
 
-6. Ícone ![simbolo](images/simb-olho.green.jpg)
+6. Icon ![symbol](images/icon-eye.green.jpg)
 
-7. Ícone ![simbolo](images/simb-3points.green.jpg)
+7. Icon ![symbol](images/icon-3dots.jpg)
 
-8. Ícone ![simbolo](images/simb-lupa.black.jpg) - visualiza o histórico do registro atual
+8. Icon ![symbol](images/icon-lupa.jpg) - View the current log history
 
-9. Ícone ![simbolo](images/simb-clips.grey.jpg)- visualiza os anexos do registro atual
+9. Icon ![symbol](images/icon-clips.jpg)- View the attachments of the current record
 
-Inclusão
+Add
 ----------
 
-**Objetivo**
+**Goal**
 
-- Permitir ao usuário cadastrar novo registro
+- Allow user to register new record
 
-**Opções de links e ícones**
+**Link options and icons**
 
-1. Ícone ![simbolo](images/simb-mais.green-redo.jpg)
+1. Icon ![symbol](images/icon-plus.redondo.jpg)
 
-2. Ícone ![simbolo](images/simb-mais.green-quada.jpg)- neste caso específico serve para abrir um cadastro básico
+2. Icon ![symbol](images/simb-plus.quad.jpg)- In this specific case it is used to open a basic register
 
-3. Ícone ![simbolo](images/simb-2folhas.jpg)- neste caso específico trata-se de uma inclusão de novo registro com cópia de dados 
-a partir do registro atual
+3. Icon ![symbol](images/icon-2sheets.jpg)- In this specific case this is a new record inclusion with copy of data from the current 
+record
 
-4. Botão "Adicionar"
+4. Button "Add"
 
-5. Botão "Gravar"
+5. Button "Save"
 
-6. Botão "Gravar Dados"
+6. Button "Record"
 
-Edição
+Edit
 ----------
 
-**Objetivo**
+**Goal**
 
-- Permitir ao usuário alterar dados de um registro
+- Allow user to change data from a record
 
-**Opções de links e ícones**
+**Link options and icons**
 
-1. Ícone ![simbolo](images/simb-lapis.green-quad.jpg)
+1. Icon ![symbol](images/icon-pencil.greenwhite.jpg)
 
-2. Ícone ![simbolo](images/simb-lapis.green.jpg)
+2. Icon ![symbol](images/icon-pencil.green.jpg)
 
-3. Ícone ![simbolo](images/simb-folhlapis.jpg)
+3. Icon ![symbol](images/icon.pencilsheet.jpg)
 
-4. Ícone ![simbolo](images/simb-lapis-marron.jpg)
+4. Icon ![symbol](images/icon.pencil-brown.jpg)
 
-5. Ícone ![simbolo](images/simb-lapis-grey.quad.jpg)
+5. Icon ![symbol](images/icon-pencil.thin.jpg)
 
-6. Ícone ![simbolo](images/simb-folhablue.jpg)
+6. Icon ![symbol](images/icon-sheet.blue.jpg)
 
-7. Ícone ![simbolo](images/simb-forn.jpg)
+7. Icon ![symbol](images/icon-oven.jpg)
 
-8. Ícone ![simbolo](images/simb-relo.green.jpg)
+8. Icon ![symbol](images/icon-time.jpg)
 
-9. Ícone ![simbolo](images/simb-ok-white.jpg)- neste caso especificamente a alteração se refere a aprovação de uma informação
+9. Icon ![symbol](images/icon-ok.jpg)-  In this case specifically the amendment refers to the approval of an information
 
-10. Ícone ![simbolo](images/simb-maos.jpg)- neste caso especificamente a alteração se refere a vínculos que o registro atual pode 
+10. Icon ![symbol](images/icon-hands.jpg)- In this case specifically the change refers to links that the current record may have 
+with other records
+
+11. Icon ![symbol](images/icon-lupa.black.jpg)- In this case specifically the change refers to links that the current record may 
+have with other records
+
+12. Icon ![symbol](images/icon.manuten.jpg) - In this case specifically the change refers to links that the current record may have 
+with other records
+
+13. Icon ![symbol](images/icon.sheet-seta.jpg)- In this case specifically the change refers to links that the current record may 
+have with some situation
+
+14. Icon ![symbol](images/icon-stop.grey.jpg)- In this case specifically the change refers to links that the current record may 
+have with some situation
+
+15. Icon ![symbol](images/icon-book.jpg)- In this case specifically the change refers to links that the current record may have 
+with some situation
+
+16. Icon ![symbol](images/icon-check.green.jpg)- neste caso especificamente a alteração se refere a vínculos que o registro atual 
 ter com outros registros
 
-11. Ícone ![simbolo](images/simb-lupa-grey.jpg)- neste caso especificamente a alteração se refere a vínculos que o registro atual 
-pode ter com outros registros
+17. Icon ![symbol](images/icon-atualizar.jpg)-  In this case specifically the change refers to links that the current record may 
+have with other records
 
-12. Ícone ![simbolo](images/simb-alicate.jpg) - neste caso especificamente a alteração se refere a vínculos que o registro atual 
-pode ter com outros registros
+18. Icon ![symbol](images/icon-xis.red.jpg) - In this case specifically the removal of links that the current record may have with 
+other record
 
-13. Ícone ![simbolo](images/simb-folhlapisblue.jpg)- neste caso especificamente a alteração se refere a vínculos que o registro 
-atual pode ter com alguma situação
+19. Button "Save"
 
-14. Ícone ![simbolo](images/simb-spot.grey.jpg)- neste caso especificamente a alteração se refere a vínculos que o registro atual 
-pode ter com alguma situação
+20. Button "Save data"
 
-15. Ícone ![simbolo](images/simb-livro.jpg)- neste caso especificamente a alteração se refere a vínculos que o registro atual 
-pode ter com alguma situação
-
-16. Ícone ![simbolo](images/simb-ok.green.jpg)- neste caso especificamente a alteração se refere a vínculos que o registro atual 
-ter com outros registros
-
-17. Ícone ![simbolo](images/simb-2setas.green.jpg)- neste caso especificamente a alteração se refere a vínculos que o registro 
-atual pode ter com outros registros
-
-18. Ícone ![simbolo](images/simb-fech.red.jpg) - neste caso especificamente a remoção de vínculos que o registro atual pode ter com outros registros
-
-19. Botão "Gravar"
-
-20. Botão "Gravar Dados"
-
-Exclusão ou Desvinculação
+Delete or unlink
 ---------------------------
 
-**Objetivo**
+**Goal**
 
-- Permitir ao usuário excluir um registro
+- Allow user to delete a record
 
-**Opções de links e ícones**
+**Link options and icons**
 
-1. Ícone ![simbolo](images/simb-lix.red.jpg)
+1. Icon ![symbol](images/icon-lixo.jpg)
 
-2. Ícone ![simbolo](images/simb-fech.redwhite.jpg)
+2. Icon ![symbol](images/icon-stop.red.white.jpg)
 
-3. Ícone ![simbolo](images/sim-fech.greenwhite.jpg)
+3. Icon ![symbol](images/sim-fech.greenwhite.jpg)
 
-4. Ícone ![simbolo](images/simb-fech.green.jpg)
+4. Icon ![symbol](images/simb-fech.green.jpg)
 
-5. Ícone ![simbolo](images/simb-fech.grey.jpg)
+5. Icon ![symbol](images/simb-fech.grey.jpg)
 
-6. Ícone ![simbolo](images/simb-fech-red-redon.jpg)
+6. Icon ![symbol](images/simb-fech-red-redon.jpg)
 
-7. Ícone ![simbolo](images/simb-menos.red.jpg)
+7. Icon ![symbol](images/simb-menos.red.jpg)
 
-8. Ícone ![simbolo](images/simb-xis.red.jpg)
+8. Icon ![symbol](images/simb-xis.red.jpg)
 
-9. Ícone ![simbolo](images/simb-xis.red.small.jpg)
+9. Icon ![symbol](images/simb-xis.red.small.jpg)
 
-10. Botão "Excluir"
+10. Button "Delete"
 
-11. Botão "Excluir Dados"
+11. Button "Delete Data"
 
-Gravação
+Save
 ----------
 
-**Objetivo**
+**Goal**
 
--Permitir ao usuário efetivar a gravação (inclusão ou alteração) dos dados de um registro
+- Allow the user to write (insert or change) the data of a record
 
-**Opções de links e ícones**
+**Link options and icons**
 
-1. Ícone ![simbolo](images/simb-dis.green.jpg)
+1. Icon ![symbol](images/icon-disteque.jpg)
 
-2. Ícone ![simbolo](images/simb-arq.blue.jpg) - neste caso grava com status "Arquivado"
+2. Icon ![symbol](images/icon-arquivo.jpg) - In this case it records with status "Filed"
 
-3. Ícone ![simbolo](images/simb-avan.green.jpg)- neste caso grava e avança o fluxo
+3. Icon ![symbol](images/icon-go.jpg)- In the case it ecords and advances the flow
 
-Limpar
+Clear
 ----------
 
-**Objetivo**
+**Goal**
 
-- Permitir ao usuário limpar os campos de um formulário de entrada de dados
+- Allow user to clear fields from a data entry form
 
-**Opções de links e ícones**
+**Link options and icons**
 
-1. Ícone ![simbolo](images/simb-voltar.blue.jpg)
+1. Icon ![symbol](images/icon-back.jpg)
 
-2. Botão "Limpar"
+2. Button "Clean"
 
-3. Botão "Limpar Dados"
+3. Button "Clean Data"
 
-Anexos
+Attachments
+---------------
+
+**Goal**
+
+- Allow user to add attachments to a record
+
+**Link options and icons**
+
+1. Icon ![symbol](images/icon-clips.green.jpg)
+
+Search
 ----------
 
-**Objetivo**
+**Goal**
 
-- Permitir ao usuário adicionar anexos a um registro
+- Allow user to perform log searches using filters
 
-**Opções de links e ícones**
+**Link options and icons**
 
-1. Ícone ![simbolo](images/simb-clips.green.jpg)
+1. Icon ![symbol](images/icon-seta.grey-quad.jpg)
 
-Pesquisa
-----------
+2. Icon ![symbol](images/icon-people.jpg)
 
-**Objetivo**
+3. Icon ![symbol](images/icon-lupa.black.jpg)
 
-- Permitir ao usuário realizar pesquisas de registros usando filtros
+4. Button "Search"
 
-**Opções de links e ícones**
-
-1. Ícone ![simbolo](images/simb-seta.grey.jpg)
-
-2. Ícone ![simbolo](images/simb-2pess.jpg)
-
-3. Ícone ![simbolo](images/simb-lupa-grey.jpg)
-
-4. Botão "Pesquisar"
-
-Exportação
+Export
 ------------
 
-**Objetivo**
+**Goal**
 
-- Permitir ao usuário exportar o resultado de consultas e de relatórios
+- Allow the user to export the result of queries and reports
 
-**Opções de links e ícones**
+**Link options and icons**
 
-1. Ícone ![simbolo](images/simb-pdf.jpg)- neste caso exporta para um formato compatível com Acrobat Reader (extensão PDF)
+1. Icon ![symbol](images/icon-pdf.jpg)- - In this case it exports to an format compatible with Acrobat Reader (PDF extension)
 
-2. Ícone ![simbolo](images/simb-excel.jpg)- neste caso exporta para um formato compatível com MS-Excel
+2. Icon ![symbol](images/icon-excel.jpg)- In this case it exports to an MS-Excel compatible format
 
-3. Ícone ![simbolo](images/simb-menu.jpg) - neste caso exporta gráficos para formato PDF ou formato de imagem
+3. Icon ![symbol](images/icon-3linhas.jpg) -  In this case exports graphics to PDF format or image format
 
-4. Botão "Salvar tabela" - neste caso exporta para um formato compatível com MS-Excel
+4. Button "Save table" - in this case exports to an MS-Excel compatible format
 
-5. Botão "Gerar Relatório (XLS)"
+5. Button "Export Report (XLS)"
 
-6. Botão "Gerar Relatório (PDF)"
+6. Button "Export Report (PDF)"
 
-Gráfico
+Graphics
 ------------
 
-**Objetivo**
+**Goal**
 
-- Permitir ao usuário visualizar gráfico sobre o resultado de consultas e de relatórios
+- Allow the user to view graph about the result of queries and reports
 
-**Opções de links e ícones**
+**Link options and icons**
 
-1. Ícone ![simbolo](images/simb.cimabaix.jpg)
+1. Icon ![symbol](images/icon-updown.jpg)
 
-2. Botão "Atualizar Gráficos"
+2. Button "Update Graphics"
 
-Execução
+Execution
 ------------
 
-**Objetivo**
+**Goal**
 
-- Permitir ao usuário iniciar a execução de uma atividade
+- Allow user to start running an activity
 
-**Opções de links e ícones**
+**Link options and icons**
 
-1. Ícone ![simbolo](images/simb-triang.jpg)
+1. Icon ![symbol](images/icon-green.point.jpg)
 
-2. Botão "Executar"
+2. Button"Execute"
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/29/2019 - Larissa Lourenço
+    <b>Updated:</b>09/11/2019 - Larissa Lourenço
