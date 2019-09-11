@@ -262,13 +262,13 @@ Standalone-full.xml (CITSmart)
 
 Change the following section of this file, as indicated below.
 
-![Inventory](images/inventory.img11.jpg)
+![Inventory](images/inventory.img13.jpg)
 
 **standalone-full.xml (CITSmart Inventory)**
 
 Change the following section of this file, as indicated below.
 
-![Inventory](images/inventory.img12.jpg)
+![Inventory](images/inventory.img14.jpg)
 
 !!! warning "WARNING"
 
