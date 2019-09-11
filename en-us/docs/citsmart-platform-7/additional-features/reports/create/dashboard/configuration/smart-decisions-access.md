@@ -66,4 +66,4 @@ Defining the access permission
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/06/2019 - Larissa Lourenço
+    <b>Updated:</b>09/11/2019 - Anna Martins
