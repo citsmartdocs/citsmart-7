@@ -65,7 +65,7 @@ Filling in the registration fields
 
 !!! info "IMPORTANT"
 
-    The D3 library [https://d3js.org/][1] can be used to create
+    The D3 library ([https://d3js.org](https://d3js.org/)/) can be used to create
     JSP-type reports.
 
 ![Criar](images/generate-3.png)
@@ -172,7 +172,6 @@ Exporting Smart Report
 2.  After the query, just click the *Export* button.
 
 
-[1]:https://d3js.org/
 
 
 !!! tip "About"
