@@ -1,60 +1,59 @@
-title:  Sistema
-Description: É uma das telas principais da solução. 
-# Sistema
+title:  System
+Description: It is one of the main screens of the solution. 
+# System
 
-É uma das telas principais da solução, que visa habilitar ao operador (usuário ou administrador) o acesso às funcionalidades 
-operacionais do mesmo.
+It is one of the main screens of the solution, which aims to enable the operator (user or administrator) to access the operating 
+features of the same.
 
-![Tela](images/sistema-img1.jpg)
+![Screen](images/system.img1.jpg)
 
-**Figura 1 - Tela Inicial do sistema**
+**Figure 1 - System Initial screen**
 
-![simbolo](images/num1.png) **Início**: ao clicar nesta opção, leva você de volta à tela inicial do sistema, independente do que
-estiver fazendo;
+![symbol](images/1.png) **Start**: clicking this option takes you back to the system home screen, regardless of what you're 
+doing;
 
-![simbolo](images/num2.png) **Suporte**: ao clicar nesta opção, apresenta as informações para contato com o suporte do sistema;
+![symbol](images/2.png) **Support**: clicking this option displays information for contacting system support;
 
-![simbolo](images/num3.png) **Portal do Conhecimento**: ao clicar nesta opção, será apresentada uma das telas principais do sistema,
-Portal do conhecimento, onde permite realizar a busca de informações relevantes, como por exemplo, a respeito do uso do sistema;
+![symbol](images/3.png) **Knowledge Portal**: clicking on this option will display one of the main screens of the system, 
+Knowledge Portal, where you can search for relevant information, such as regarding the use of the system;
 
-![simbolo](images/num4.png) **Notificações**: local onde apresenta as mensagens de notificação do sistema;
+![symbol](images/4.png) **Notifications**: location where you display system notification messages;
 
-![simbolo](images/num5.png) **Identificação do usuário logado**: ao clicar nesta opção, são exibidas as funções para alterar a senha
-de acesso e sair do sistema;
+![symbol](images/5.png) **Identification of the logged in user**: when clicking this option, the functions to change the access 
+password and exit the system are displayed;
 
-![simbolo](images/num6.png) **Menu principal**: estruturado em módulos e funcionalidades do sistema. E sempre quando há uma 
-funcionalidade nova no sistema, é indicado no menu a quantidade;
+![symbol](images/6.png) **Main menu**: a menu structured in modules and system features. And whenever there is new functionality 
+in the system, the quantity is indicated in the menu;
 
-![simbolo](images/num7.png) **Acesso Rápido**: dashboard que apresenta os links de atalho das funcionalidades para acesso rápido;
+![symbol](images/7.png) **Quick Access**: dashboard that displays the shortcut links of the features for quick access;
 
-![simbolo](images/num8.png) **Smart Decisions**: dashboard que apresenta os gráficos com informações relevantes;
+![symbol](images/8.png) **Smart Decisions**: dashboard that displays the charts with relevant information;
 
-![simbolo](images/num9.png) ![simbolo](images/simb-menu.jpg): exibe/esconde a descrição do menu no painel gerencial;
+![symbol](images/9.png) ![symbol](images/simb-linhas.jpg): displays / hides the menu description in the management panel;
 
-![simbolo](images/num10.png) ![simbolo](images/simb-mais.jpg): ao clicar neste ícone, permite adicionar um novo dashboard;
+![symbol](images/10.png) ![symbol](images/simb-mais.jpg): ao clicar neste ícone, permite adicionar um novo dashboard;
 
-![simbolo](images/num11.png) ![simbolo](images/simb-lapis.jpg): ao clicar neste ícone, permite editar as informações do dashboard
-selecionado;
+![symbol](images/11.png) ![symbol](images/simb-lapis.jpg): clicking this icon allows you to add a new dashboard;
 
-![simbolo](images/num12.png) ![simbolo](images/simb-lixo.jpg): ao clicar neste ícone, permite excluir o dashboard selecionado;
+![symbol](images/num12.png) ![symbol](images/simb-lixo.jpg): clicking this icon allows you to edit the information of the 
+selected dashboard;
 
-![simbolo](images/num13.png) ![simbolo](images/simb-quadro.jpg): ao clicar neste ícone, permite expandir o painel gerencial;
+![symbol](images/13.png) ![symbol](images/simb-expan.jpg): clicking on this icon allows you to expand the management panel;
 
-![simbolo](images/num14.png) ![simbolo](images/simb-3ponts.jpg): ao clicar neste ícone, permite habilitar o modo de edição para
-adicionar novos widget ao dashboard selecionado;
+![symbol](images/14.png) ![symbol](images/simb-options.jpg): clicking this icon allows you to enable editing mode to add new 
+widgets to the selected dashboard;
 
-![simbolo](images/num15.png) **Painel Gerencial**: exibe o dashboard selecionado;
+![symbol](images/15.png) **Management Pane**: displays the selected dashboard;
 
-![simbolo](images/num16.png) **Smart Button**: ao clicar neste botão, permite realizar a busca de conhecimentos. Esse botão é
-apresentado em todas as funcionalidades do sistema, pois facilita a busca de conhecimentos relacionados à uma determinada 
-funcionalidade. Por exemplo, ao configurar as tags no registro do item de menu “Cadastro de Usuário” e no registro do 
-conhecimento de “Cadastro de Usuário”, quando estiver navegando na tela de Cadastro de Usuário e clicar no Smart Button, o mesmo 
-indica o conhecimento referente à funcionalidade;
+![symbol](images/16.png) **Smart Button**: clicking this button allows you to search for knowledge. This button is displayed in 
+all the system's functionalities, since it facilitates the search of knowledge related to a certain functionality. For example, 
+when configuring the tags in the "User Registration" menu item record and in the "User Registration" knowledge record, when you 
+are browsing the User Registration screen and clicking on the Smart Button, it indicates the knowledge Functionality;
 
-![simbolo](images/num17.png) **Idioma**: permite escolher o idioma que deseja para o sistema (Português, Inglês ou Espanhol), o 
-qual é representado pela bandeira do país.
+![symbol](images/17.png) **Language**: allows you to choose the language you want for the system (Portuguese, English or 
+Spanish), which is represented by the country flag.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/29/2019 - Larissa Lourenço
+    <b>Updated:</b>09/11/2019 - Larissa Lourenço
