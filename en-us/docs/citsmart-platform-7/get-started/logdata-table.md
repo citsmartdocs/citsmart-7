@@ -41,7 +41,7 @@ the same one, as indicated in the image below:
 
     ![Batch](images/logdata.img3.jpg)
     
-    *Figure 3 - BATCH**
+    **Figure 3 - BATCH**
 
 5. Set the desired time:
 
