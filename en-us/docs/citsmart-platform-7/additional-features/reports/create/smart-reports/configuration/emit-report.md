@@ -27,7 +27,7 @@ Filters
 
 -   Search.
 
-![figure](images/emit-1.png)
+![figure](images/emit.png)
 
 **Figure 1- Reports search screen**
 
