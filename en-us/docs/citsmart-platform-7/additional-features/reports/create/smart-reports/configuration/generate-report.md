@@ -70,7 +70,7 @@ Filling in the registration fields
 
 ![Criar](images/generate-3.png)
 
-**Figure 3 - Smart report construction screen**
+**Figure 3 - Smart Report construction screen**
 
 2.  Fill out the fields as instructed:
 
@@ -83,7 +83,7 @@ Filling in the registration fields
 
 -   **Type**: select the query type of the report:
 
-   !!! warning "ATENÇÃO"
+   !!! warning "ATTENTION"
 
      In order to create a Sub Report it should already be registered and the
      "Query Type" should be SQL.
@@ -163,7 +163,7 @@ Filling in the registration fields
     The created reports will be displayed in the Smart Reports screen, where
     you can view the relevant data for each report.
 
-Exporting smart report
+Exporting Smart Report
 ----------------------
 
 1.  To export a report, you must first query the desired report as described in
