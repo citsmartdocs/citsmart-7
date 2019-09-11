@@ -1,320 +1,315 @@
-title:  Manual de instalação do componente Inventory
-Description: Tem por objetivo fornecer as orientações necessárias para a instalação e configuração do CITSmart Inventory.. 
-# Manual de instalação do componente Inventory
+title:  Inventory component installation guide
+Description: This document is intended to provide guidance for the installation and configuration of CITSmart Inventory. 
+# Inventory component installation guide
 
-Este documento tem por objetivo fornecer as orientações necessárias para a instalação e configuração do CITSmart Inventory.
+This document is intended to provide guidance for the installation and configuration of CITSmart Inventory.
 
-Rotina de inventório
+Inventory routine
 ----------------------
 
-A rotina de Inventário quando em execução localiza os ativos e itens de configuração na rede e grava ou atualiza as informações, 
-obtidas de cada hardware, no banco de dados de itens de configuração.
+The Inventory routine when running locates the assets and configuration items on the network and writes or updates the information 
+obtained from each hardware in the configuration items database.
 
-A aplicação de Inventário realiza a captura dos dados por meio da porta SNMP (161) e/ou pelo Agente de Captura Citsmart.Net (porta
-7103, desenvolvido pela Central IT). Inicialmente, o Inventory realiza um comando “ping” para verificar se a máquina está ativa. Se
-conseguir realizar o comando, tenta acessar a porta SNMP do item de configuração. Se o acesso à porta não for obtido com sucesso, o 
-Inventory tenta realizar o acesso através do agente de captura.
+The Inventory application captures the data through the SNMP port (161) and/or the Capture Agent Citsmart.Net (port 7103, developed 
+by Central IT). Initially, Inventory performs a "ping" command to verify that the machine is active. If you can perform the 
+command, try to access the SNMP port of the configuration item. If access to the port is not successful, Inventory tries to access 
+through the capture agent.
 
-!!! note "NOTA"
+!!! note "NOTE"
 
-    As configurações relativas ao CITSmart Inventory são realizadas no CITSmart, no menu 
-    Processos ITIL > Gerência de Eventos > Conexões Inventory.
+    The settings for CITSmart Inventory are performed in CITSmart ITSM in the menu ITIL Processes → Event Management → Inventory 
+    Connections.
     
-O Agente de Captura Citsmart.Net pode ser utilizado como um “centralizador” de captura, para o qual seriam direcionadas as
-solicitações de captura de Inventário para todas as demais máquinas de uma rede. É possível realizar o Inventário também sem o 
-Agente de Captura Citsmart.Net. Neste caso, é necessário configurar o serviço “SNMP” de cada máquina. Por outro lado, o Agente de 
-Captura Citsmart.Net também pode ser instalado individualmente em cada máquina (neste caso eliminando a necessidade de configurar a 
-porta SNMP de cada máquina).
+Capture Agent Citsmart.Net can be used as a capture "centralizer", to which the Inventory capture requests for all other machines 
+in a network would be directed. You can also perform Inventory without the Ctsmart.Net Capture Agent. In this case, it is necessary 
+to configure the "SNMP" service of each machine. On the other hand, the Capture Agent Citsmart.Net can also be installed 
+individually on each machine (in this case eliminating the need to configure the SNMP port of each machine).
 
-Abaixo segue os desenhos explicativos da rotina de inventório
+Here are the explanatory design of the inventory routine
 ----------------------------------------------------------------
 
-![Rotina](images/inventory.img1.jpg)
+![Routine](images/inventory.img1.jpg)
 
-**Figura 1 - Rotina de execução do agente CITSmart**
+**Figure 1 - CITSmart agent execution routine**
 
-![Execução](images/inventory.img2.jpg)
+![Execution](images/inventory.img2.jpg)
 
-**Figura 2 - Rotina de execução do CITSmart Inventory**
+**Figure 2 - CITSmart inventory execution routine**
 
-Detalhamento dos componentes e tecnologias
+Detailing of components and technologies
 ----------------------------------------------
 
-- **Servidor CITSmart**: É o servidor onde o sistema CITSmart é executado, ou seja, servidor de aplicação Java (geralmente JBOSS
-ou compatível) com a aplicação CITSmart instalada.
--  **Servidor de Coleta de Inventário CITSmart (Windows)**: É um servidor Windows com o Agente Server instalado com serviço que
-tem a função de coletar informações de outras estações Windows remotas. A conversa do Servidor CITSmart com este servidor é feita
-através de Protocolo TCP/IP, conexão TCP, pela porta 7103. Devem ser feitas as devidas liberações nos firewalls para que este 
-processo de comunicação funcione corretamente. Deve-se também atribuir um usuário e senha com permissões de administração de rede
-para a execução do Serviço do Windows (Windows Service), pois este componente fará acesso às máquinas remotas utilizando o 
-recurso WMI, disponibilizado pela plataforma Windows.
-- O WMI (instrumentação de gerenciamento do Windows) é a implementação da Microsoft do WBEM, uma iniciativa da indústria que visa
-estabelecer padrões para acessar e compartilhar informações de gerenciamento por meio de uma rede empresarial. O WMI é compatível
-com WBEM e fornece suporte integrado ao modelo CIM (modelo de informação comum), o modelo de dados que descreve os objetos 
-existentes em um ambiente de gerenciamento.
-- WBEM - Web-Based Enterprise Management, é um conjunto de gerenciamento de sistemas e tecnologias desenvolvidas para unificar o
-gerenciamento de ambientes de computação distribuída.
-- **Agente CITSMART.NET**: É um componente da solução CITSmart, que executa em equipamentos Windows (é o mesmo componente que
-roda no Servidor de Coleta de Inventário, a diferença é que executa localmente com diretivas de Local System Account – sem 
-permissões de acesso à rede e outros equipamentos).
-- **SNMP**: O protocolo SNMP (do inglês *Simple Network Management Protocol* - Protocolo Simples de Gerência de Rede) é um 
-protocolo, da camada de aplicação, de gerência típica de redes IP, que facilita o intercâmbio de informação entre os dispositivos
-de rede, como placas e computadores (*switches*) e impressoras. Para que o SNMP funcione em ambiente Windows e Linux é necessário
-instalar os componentes/pacotes e habilitar permissões.
-- **CMDB**: É um repositório de informações relacionadas a todos os componentes do CITSmart. Ele contém os detalhes dos itens de
-configuração (IC) na infraestrutura de TI.
-- **Citsmart Inventory**: Aplicação responsável por realizar o inventário dos ativos e itens de configuração na rede e enviar os 
-dados obtidos para o CITSmart armazenar no banco de dados.
-- Loja CITSmart no banco de dados.
-- **MongoDB**: Banco de dados orientado a documentos, diferente dos bancos de dados tradicionais que seguem o modelo relacional.
-Ele é de [grande armazenamento de dados][1] e de maior velocidade. Utilizado para o controle de fila e comunicação entre as 
-aplicações.
+- **CITSmart server**: This is the server where the Citsmart system runs, that is, Java application server (usually JBOSS or 
+compatible) with the Citsmart application installed.
+-  **CITSmart Inventory Collection Server (Windows)**: This is a Windows server with Agent Server installed with service that 
+collects information from other remote Windows stations. The CITSmart Server conversation with this server is done through TCP / IP 
+Protocol, TCP connection, through port 7103. Due diligence must be made in the firewalls for this communication process to work 
+correctly. You must also assign a user and password with network administration permissions to run the Windows Service, because 
+this component will access remote machines using the WMI feature provided by the Windows platform.
+- Windows Management Instrumentation (WMI) is Microsoft's implementation of WBEM, an industry initiative that aims to establish 
+standards for accessing and sharing management information across an enterprise network. WMI supports WBEM and provides integrated 
+support for the CIM (Common Information Model) model, the data model that describes objects in a management environment.
+- WBEM - Web-Based Enterprise Management is a set of management systems and technologies developed to unify the management of 
+distributed computing environments.
+- **CITSMART.NET agent**: It is a component of the CITSmart solution, which runs on Windows machines (it is the same component that 
+runs on the Inventory Collection Server, the difference being that it runs locally with Local System Account policies - without 
+network access permissions And other equipment).
+- **SNMP**: The Simple Network Management Protocol (SNMP) is an application-layer protocol for typical IP network management that 
+facilitates the exchange of information between network devices such as cards And computers (switches) and printers. For SNMP to 
+work in both Windows and Linux environments, you need to install the components / packages and enable permissions.
+- **CMDB**: It is a repository of information related to all components of CITSmart ITSM. It contains the details of the 
+configuration (IC) items in the IT infrastructure.
+- **Citsmart Inventory**: Application responsible for inventorying assets and configuration items on the network and sending the 
+data obtained to CITSmart to store in the database.
+- CITSmart ITSM store in the database.
+- **MongoDB**: Document-oriented database, different from traditional databases that follow the relational model. It is large data 
+storage and higher speed. Used for queue control and communication between applications.
 
-Configurações iniciais
+Initial settings
 -------------------------
 
-Para executar a rotina de Inventário é necessário realizar as configurações descritas nos tópicos abaixo.
+To run the Inventory routine you must perform the settings described in the topics below.
 
-Agente de captura CITSMARTNET e SNMP
+CITSMART.NET and SNMP capture agent
 -------------------------------------
 
-*Agente de Captura CITSMART.NET*: É um componente da solução CITSmart, que roda em equipamentos Windows (é o mesmo componente que
-roda no Servidor de Coleta de Inventário, a diferença é que executa localmente com diretivas de Local System Account – sem 
-permissões de acesso à rede e outros equipamentos).
+*CITSMART.NET Capture Agent**: It's a component of the CITSmart solution, which runs on Windows machines (it's the same component 
+that runs on the Inventory Collection Server, the difference being that it runs locally with Local System Account policies - 
+without access permissions To the network and other equipment)
 
-1. Instale o Agente CITSmart. Para realizar essa instalação, bastar utilizar o setup **SetupAgCITSMART.msi**. (Para downloads 
-acesse o http://files.citsmart.com).
+1. Install the CITSmart Agent. To perform this installation, it can be downloaded by accessing the downloads area of CITSmart 
+Corporation. (http://files.citsmart.com).
 
-Ao terminar a instalação do Agente, **não esqueça** de iniciar o serviço no Windows. No caso do Servidor de Coleta de Inventário,
-utilize um usuário e senha com permissões de Administração da rede Windows (somente assim será feito a coleta remota).
+When you finish installing the Agent, **do not forget** to start the service in Windows. In the case of the Inventory Collection 
+Server, use a user and password with Windows Network Administration permissions (only so remote collection will be done).
 
-Caso o Agente já esteja instalado e você queira desinstalar para instalação de uma nova versão, basta proceder da seguinte forma:
+If the Agent is already installed and you want to uninstall it to install a new version, just proceed as follows:
 
-- Em “Painel de Controle” > “Ferramenta Administrativas” → “Serviços”, clique em Parar no Serviço agCITSmart.NET;
-- Em “Painel de Controle” → “Programas e Recursos”, localize o software AgentCITSmart.NET e escolha a opção Desinstalar;
-- Caso o serviço ainda esteja instalado, basta entrar em uma janela de comandos (Prompt do DOS) e digitar o comando 
-**sc delete agCITSmart.NET**. Após isso, dê um refresh na janela de serviços do Windows.
+- In "Control Panel" > "Administrative Tools" → "Services", click Stop in the agCITSmart.NET Service;;
+- Under "Control Panel" > "Programs and Features", locate the AgentCITSmart.NET software and choose the Uninstall option;
+- If the service is still installed, simply enter a command window (DOS Prompt) and enter the **sc delete agCITSmart.NET** command. 
+After that, refresh the Windows services window.
     
-*SNMP*: O protocolo SNMP (do inglês Simple Network Management Protocol - Protocolo Simples de Gerência de Rede) é um protocolo, 
-da camada de aplicação, de gerência típica de redes IP, que facilita o intercâmbio de informação entre os dispositivos de rede, 
-como placas e computadores (switches) e impressoras. Para que o SNMP funcione em ambiente Windows e Linux é necessário instalar 
-os componentes/pacotes e habilitar permissões.
+*SNMP*: The Simple Network Management Protocol (SNMP) is an application-layer protocol for typical IP network management that 
+facilitates the exchange of information between network devices such as cards And computers (switches) and printers. For SNMP to 
+work in both Windows and Linux environments, you need to install the components/packages and enable permissions.
 
-Instalação/Configuração do SNMP no ambiente Windows
------------------------------------------------------
+Installing/configuring SNMP in the windows environment
+----------------------------------------------------------
 
-Para realizar a instalação/configuração do serviço SNMP no ambiente *Windows*, proceda conforme os passos descritos abaixo:
+To install / configure the SNMP service in the Windows environment, proceed as described below:
 
-1. Abra a tela de recursos do Windows **Painel de Controle > Programas e Recursos > Ativar ou desativar recursos do Windows**;
+1. Open the Windows features screen **Control Panel > Programs and Features > Enable or disable Windows features**;
 
     ![Windows](images/inventory.img3.jpg)
     
-    **Figura 3 - Tela de recurso do Windows**
+    **Figure 3 - Windows resource screen**
     
-2. Verifique se o recurso **Protocolo SNMP** está ativo, ou seja, se está selecionado, caso não esteja, selecione o mesmo e 
-clique em Ok para ativação do protocolo SNMP, conforme indicado na figura abaixo;
+2. Check if the **SNMP Protocol** feature is active, that is, if it is selected, if it is not, select it and click *OK* to activate 
+the SNMP protocol, as indicated in the figure below;
 
-    ![Ativação](images/inventory.img4.jpg)
+    ![Activation](images/inventory.img4.jpg)
     
-    **Figura 4 - Tela de ativação de recursos do Windows**
+    **Figure 4 - Windows feature activation screen**
     
-3. Feito isso, abra a tela de serviços do Windows para configurar o SNMP;
+3. Once this is done, open the Windows services screen to configure SNMP;
 
-    ![Busca](images/inventory.img5.jpg)
+    ![Search](images/inventory.img5.jpg)
     
-    **Figura 5 - Busca do serviços do Windows**
+    **Figure 5 - Windows services search**
     
-4. Após abrir a tela de serviços do Windows, clique com o botão direito do mouse sobre o serviço SNMP e logo em seguida clique 
-em **Propriedades**, conforme indicado na figura abaixo;
+4. After opening the Windows services screen, right-click on the SNMP service, and then click **Properties** as shown in the figure 
+below;
 
-    ![Serviços](images/inventory.img6.jpg)
+    ![Services](images/inventory.img6.jpg)
     
-    **Figura 6 - Tela de serviços do Windows**
+    **Figure 6 - Windows services screen**
     
-5. Será apresentada a tela de Propriedades do Serviço SNMP. Clique na aba **Segurança**, marque a opção **Aceitar pacotes SNMP de 
-qualquer host** e clique em "Adicionar" para cria uma nova comunidade, conforme indicado na figura abaixo;
+5. The SNMP Service Properties screen will be displayed. Click the **Security** tab, check **Accept SNMP packets from any host** 
+and click *Add* to create a new community, as indicated in the figure below;
 
-    ![Propriedades](images/inventory.img7.jpg)
+    ![Properties](images/inventory.img7.jpg)
     
-    **Figura 7 - Tela de propriedades de serviço SNMP**
+    **Figure 7 - SNMP service properties screen**
     
-6. Será apresentada a tela para informar os dados da nova comunidade. Informe o nome **public** para a comunidade e permaneça com
-a opção **Somente Leitura** para os direitos da comunidade e clique em Adicionar, conforme indicado na figura abaixo;
+6. The screen for entering the data for the new community will be displayed. Enter the **public** name for the community and remain 
+with the **Read Only** option for community rights and click *Add* as indicated in the figure below;
 
-    ![Comunidade](images/inventory.img8.jpg)
+    ![Community](images/inventory.img8.jpg)
     
-    **Figura 8 - Tela de configuração da comunidade do serviço SNMP**
+    **Figure 8 - SNMP service community configuration screen**
     
-7. Feito isso, será apresentada a nova comunidade na tela de Propriedades do Serviço SNMP, conforme ilustrado na figura abaixo;
+7. Once this is done, the new community will be displayed on the SNMP Service Properties screen, as shown in the figure below;
 
     ![SNMP](images/inventory.img9.jpg)
     
-    **Figura 9 - Configuração do serviço SNMP**
+    **Figure 9 - SNMP service configuration**
     
-8. Para efetuar a configuração do Serviço SNMP, basta clicar no botão "Ok".
+8. To configure the SNMP Service, simply click on the *Ok* button.
     
-Instalação/Configuração do SNMP no ambiente Linux
------------------------------------------------------
+Installing/configuring SNMP in the Linux environment
+--------------------------------------------------------
 
-Para realizar a instalação/configuração do SNMP no ambiente *Linux*, proceda conforme os passos descritos abaixo:
+To install / configure SNMP in the Linux environment, proceed as described below:
 
-*Instalação do SNMP no Sistema Operacional CentOS*
+*Installing SNMP on the CentOS Operation System*
 
-1. Execute o seguinte comando para instalar o pacote net-snmp:
+1. Run the following command to install the net-snmp package:
 
-    ![Código](images/cod-img1.jpg)
+    ![Code](images/symbol.1.jpg)
     
-2. O comando seguinte fará o backup do arquivo de configuração original do SNMP:
+2. The following command will back up the original SNMP configuration file:
 
-    ![Código](images/cod-img2.jpg)
+    ![Code](images/symbol.2.jpg)
     
-*Configurando o Arquivo snmpd.conf*
+*Configuring the snmpd.conf file*
 
-1. Edite o arquivo /etc/snmp/snmpd.conf;
+1. Edit the file /etc/snmp/snmpd.conf;
 
-    - Existem algumas premissas básicas ao configurar o SNMP, são elas:
-        - Configuração da comunidade
+    - The following command will back up the original SNMP configuration file:
+    
+        - Community configuration
         
-        - Caso esta linha não exista você deverá criá-la, porém caso ela exista, deixe-a de acordo como está mostrado abaixo:
+        - If this line does not exist you should create it, but if it exists, leave it as shown below:
         
-    ![Código](images/cod-img3.jpg)
+    ![Code](images/symbol.3.jpg)
     
-2. Configuração do grupo
+2. Group setup
 
-    - Caso estas linhas não existam você deverá criá-las, porém caso elas existem, deixe-as de acordo como está demonstrado abaixo:
+    - If these lines do not exist you should create them, but if they exist, leave them in agreement as shown below:
     
-    ![Código](images/cod-img4.jpg)
+    ![Code](images/symbol.4.jpg)
     
-    ![Código](images/cod-img5.jpg)
+    ![Code](images/symbol.5.jpg)
     
-3. Configuração da árvore SNMP
+3. SNMP tree configuration
 
-    - Caso esta linha não exista você deverá criá-la, porém caso ela exista, deixe-a de acordo como está mostrado abaixo:
+    - If this line does not exist you should create it, but if it exists, leave it as shown below:
+   
+    ![Code](images/symbol.6.jpg)
     
-    ![Código](images/cod-img6.jpg)
-    
-4. Configuração de acesso do grupo
+4. Group access setup
 
-    - Caso esta linha não exista você deverá criá-la, porém caso ela exista, deixe-a de acordo como está mostrado abaixo:
+    - If this line does not exist you should create it, but if it exists, leave it as shown below:
     
-    ![Código](images/cod-img7.jpg)
+    ![Code](images/symbol.7.jpg)
     
-5. A configuração completa deverá ficar similar ao apresentado abaixo:
+5. The complete configuration should look similar to the one below:
 
-    ![Código](images/cod-img8.jpg)
+    ![Code](images/symbol.11.jpg)
     
-6. Reinicie o serviço SNMP com o seguinte comando:
+6. Restart the SNMP service with the following command:
 
-    ![Código](images/cod-img9.jpg)
+    ![Code](images/symbol.8.jpg)
     
 7. Após “restartar” o SNMP, realize o teste local com o objetivo de verificar se o SNMP está rodando:
 
-    ![Código](images/cod-img10.jpg)
+    ![Code](images/symbol.9.jpg)
     
-8.  teste deverá retornar o seguinte resultado:
+8.  The test should return the following result:
 
-    ![Código](images/cod-img11.jpg)
+    ![Code](images/symbol.10.jpg)
      
-Configuração de regra de Firewall - liberação de ICMPV4 no Windows
+Firewall rule configuration - release ICMPV4 on windows
 --------------------------------------------------------------------
 
-Para liberar o Ping no Windows 7 é necessário entrar no Firewall em “Regras de Entrada” e ativar a regra “Compartilhamento de 
-Arquivo e Impressora (Solicitação de Eco - ICMPv4-In)”
+To release Ping in Windows 7 it is necessary to enter the Firewall in "Input Rules" and activate the rule "File and Printer Sharing 
+(Request for Eco - ICMPv4-In)"
 
 ![Firewall](images/inventory.img10.jpg)
 
-**Figura 10 - Firewall do Windows com segurança avançada**
+**Figure 10 - Windows firewall with advanced security**
 
-Instalação do MongoDB
+MongoDB installation
 ------------------------
 
-Instale o MongoDB através do link: [https://www.mongodb.org/][2].
+Install MongoDB via the link: [https://www.mongodb.org/][2].
 
-Para mais detalhes sobre a instalação e configuração de serviços verifique a documentação através do link:
+For details on installing and configuring services, check the documentation through the link:
 [https://docs.mongodb.com/manual/administration/install-community/][3].
 
-Configuração das aplicações
+Application configuration
 ------------------------------
 
-*Servidor de aplicação*
+*Application server*
 
-!!! info "IMPORTANTE"
+!!! info "IMPORTANT"
 
-    Não é necessário realizar configurações em arquivos “.properties”.
+    It is not necessary to make settings in ".properties" files.
     
-Para realizar a configuração do CITSmart Inventory, é necessário, proceder conforme os passos indicados abaixo:
+To configure CITSmart Inventory, proceed as follows:
 
-1. Baixar o JBoss para ITSM Community 6.0+ e ITSM Enterprise 7.0.0+: **jboss-as-7.2.Final - Citsmart**;
+1. Download JBoss for ITSM Community 6.0+ and ITSM Enterprise 7.0.0+, called **jboss-as-7.2.Final - Citsmart**;
 
-2. Baixar o JBoss para Inventory: **jboss-as-7.1.Final - Inventory**;
+2. Download JBoss for Inventory, called **jboss-as-7.1.Final - Inventory**;
 
-3. Copie as últimas versões das aplicações CITSmart e CITSmart Inventory (arquivos com extensão **.war**) para a pasta 
-**deployments** das respectivas instâncias do JBoss;
+3. Copy the latest versions of the CITSmart ITSM and CITSmart Inventory applications (files with .**war** extension) to the 
+**deployments** folder of their JBoss instances;
 
-4. Altere o arquivo **standalone-full.xml** das respectivas instâncias do Jboss:
+4. Change the **standalone-full.xml** file for the respective instances of Jboss:
 
-!!! note "NOTA"
+!!! note "NOTE"
 
-    Esses downloads podem ser executados acessando a área de downloads da CITSmart Corporation (http://files.citsmart.com);
+    These downloads may be executed by accessing the downloads area of CITSmart Corporation (http://files.citsmart.com);
     
-!!! warning "ATENÇÃO"
+!!! warning "WARNING"
 
-    Os arquivos de configuração do JBoss se encontram na pasta configuration (jboss\standalone\configuration) de cada instância 
-    do JBoss, disponibilizadas pela CITSmart Corporation.
+    The JBoss configuration files are located in the configuration (jboss \ standalone \ configuration) folder of each JBoss 
+    instance, provided by Central IT.
     
 Standalone-full.xml (CITSmart)
 ---------------------------------
 
-Altere a seguinte seção deste arquivo, conforme indicado abaixo.
+Change the following section of this file, as indicated below.
 
-![Inventory](images/cod-img12.jpg)
+![Inventory](images/inventory.img11.jpg)
 
 **standalone-full.xml (CITSmart Inventory)**
 
-Altere a seguinte seção deste arquivo, conforme indicado abaixo.
+Change the following section of this file, as indicated below.
 
-![Inventory](images/cod-img13.jpg)
+![Inventory](images/inventory.img12.jpg)
 
-!!! warning "ATENÇÃO"
+!!! warning "WARNING"
 
-    Na tag property das configurações acima <property name="citsmart.login" value=""/>  , referente a seção 
-    tandalone-full.xml (CITSmart Inventory), na propriedade "nome" o valor que normalmente é o login do usuário, desde a
-    versão 7.2.2.0 é preciso informar o "contexto".
+    In the property tag of the above settings <property name="citsmart.login" value=""/>, referring to the standalone-full.xml 
+    section (CITSmart Inventory), in the property "name" the value that is usually the login of the user, since the version 7.2.2.0 
+    is necessary to inform the context.
     
-Cadastro de conexão
------------------------
+Connection registration
+---------------------------
 
-Após as instâncias do JBoss de cada aplicação estiverem inicializadas, acesse o CITSmart no endereço:
-http://<ip>[:<porta>]/citsmart, feito isso, realize a configuração do cadastro mencionado abaixo:
+After the JBoss instances of each application are initialized, access the ITSM CITSmart at the address: 
+http: // <ip> [: <port>] / citsmart, then do the configuration of the registry mentioned below:
 
-Cadastro de Conexões do CITSmart Inventory
+CITSmart Inventory Connections Register
 
-1. Acesse o menu **Processos ITIL > Gerência de Evento > Conexões Inventory**;
+1. Access the menu **ITIL Processes > Event Management > Inventory Connections**;
 
-    ![Conexão](images/inventory.img11.jpg)
+    ![Connection](images/inventory.img13.jpg)
     
-    **Figura 11 - Cadastro de conexão do CITSmart Inventory**
+    **Figure 11 - CITSmart Inventory connection registration**
     
-2. Cadastre todas as propriedades referentes à conexão do CITSmart Inventory, de acordo com o IP e porta onde está instalado o 
-JBoss do CITSmart Inventory.
+2. Record all the properties pertaining to the CITSmart Inventory connection, according to the IP and port where the CITSmart 
+Inventory JBoss is installed.
 
-3. Caso deseje utilizar o Citsmart Inventory para geração de eventos, a opção “Adicionar conexão com o Citsmart Event Monitor” 
-deve ser checada e selecionada uma conexão.
+3. If you want to use Citsmart Inventory for event generation, the option "Add connection to Citsmart Event Monitor" must be 
+checked and a connection selected.
 
-!!! note "NOTA"
+!!! note "NOTE"
 
-    O campo “Identificador Inventory” corresponde à propriedade “citsmart.inventory.id” do “standalone-full.xml” do servidor de 
-    aplicações onde está instalado o CITSmart Inventory.
+    The "Inventory Identifier" field corresponds to the "citsmart.inventory.id" "standalone-full.xml" property of the application 
+    server where CITSmart Inventory is installed. 
     
-!!! note "NOTA"
+!!! note "NOTE"
 
-    O campo “IP Servidor Agente de Captura” refere-se ao IP do servidor onde está instalado o Agente de Captura das informações
-    das máquinas.
+    The "Capture Agent Server IP" field refers to the IP of the server where the Capture Agent is installed for the machine 
+    information.
     
-!!! warning "ATENÇÃO"
+!!! warning "WARNING"
 
-    Caso seja adotada a integração do CITSmart Inventory com o OCS Inventory, é obrigatório observar as instruções contidas no
-    conhecimento [Configuração da Conexão do CITSmart Inventory][4].
+    If CIT Smart Inventory integration with OCS Inventory is adopted, it is mandatory to observe the instructions contained in the 
+    [CITSmart Inventory Connection Setup knowledge][4].
 
 
 [1]:https://pt.wikipedia.org/wiki/Very_Large_Database
@@ -325,4 +320,4 @@ deve ser checada e selecionada uma conexão.
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/29/2019 - Larissa Lourenço
+    <b>Updated:</b>09/11/2019 - Larissa Lourenço
