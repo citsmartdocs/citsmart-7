@@ -92,7 +92,6 @@ Adding widget to the dashboard
 2.  If you want to modify the dashboard layout, click the icon ![Criar](images/panel-12.png).
 
 
-
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
