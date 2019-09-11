@@ -110,18 +110,18 @@ Filling in the registration fields
 
     To create a Sub Report (Drill) the "Report Type" should be " Pie Chart"or" Bar Chart ".
 
-   -   **Template**: use this type to create a report with the desired design and
+    -   **Template**: use this type to create a report with the desired design and
     structure. To create the report with this type, simply select the type,
     inform RhinoScript or SQL in the referring field, inform the FreeMarker
     (template framework) in the "Template" and the parameters if necessary;
 
-   -   **Line chart**: use this type to create a report that displays the
+    -   **Line chart**: use this type to create a report that displays the
     information in the line chart;
 
-   -   **Pie chart**: use this type to create a report that displays the pie chart
+    -   **Pie chart**: use this type to create a report that displays the pie chart
     information;
 
-   -   **Bar chart**: use this type to create a report that displays information in
+    -   **Bar chart**: use this type to create a report that displays information in
     bar chart, when selecting the option "pie" or "bar", new fields will be
     presented, as shown below:
 
@@ -129,6 +129,7 @@ Filling in the registration fields
 
 **Figure 5 - Fields screen when select "Pie chart" or "Bar chart"**
 
+  
    -   **Data table**: use this type to create a report that includes all the data
     of a given table;
 
@@ -140,13 +141,13 @@ Filling in the registration fields
 -   **Module where it will be displayed**: choose an option where the report
     will be displayed;
 
-   -   **N/A**: select this option if you want the report not to be displayed in
+    -   **N/A**: select this option if you want the report not to be displayed in
     any module;
 
-   -   **General**: select this option to display the report in one or more
+    -   **General**: select this option to display the report in one or more
     modules, where you want the report to be displayed;
 
-   -   **Specific**: select a single module where you want the report to be
+    -   **Specific**: select a single module where you want the report to be
     displayed.
 
 -   **Groups**: inform the group that will be allowed to view the report;
