@@ -1,8 +1,8 @@
-title: Cadastro e pesquisa de motive de negação do check in
+title: Cadastro e pesquisa de motivo de negação do check in
 
 Description: Esta funcionalidade permite registrar o motivo de negação do check in o qual será utilizado ao realizar o check in através do aplicativo CITSmart Enterprise ITSM Mobile.
 
-# Cadastro e pesquisa de motive de negação do check in
+# Cadastro e pesquisa de motivo de negação do check in
 
 Esta funcionalidade permite registrar o motivo de negação do check in o qual
 será utilizado ao realizar o check in através do aplicativo CITSmart Enterprise

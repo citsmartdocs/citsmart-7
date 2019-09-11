@@ -1,82 +1,82 @@
-title: Cadastro e pesquisa de motive de negação do check in
+title: Check in denied reason registration and search
+Description: This feature allows registering a checkin denied reason, which will be used to check in through the app (CITSmart Enterprise ITSM Mobile).
 
-Description: Esta funcionalidade permite registrar o motivo de negação do check in o qual será utilizado ao realizar o check in através do aplicativo CITSmart Enterprise ITSM Mobile.
+# Check in denied reason registration and search
 
-# Cadastro e pesquisa de motive de negação do check in
+This feature allows registering a checkin denied reason, which will be used to
+check in through the app (CITSmart Enterprise ITSM Mobile).
 
-Esta funcionalidade permite registrar o motivo de negação do check in o qual
-será utilizado ao realizar o check in através do aplicativo CITSmart Enterprise
-ITSM Mobile.
+How to access
+-------------
 
-Como acessar
------------
+1.  Access the checkin denied reason feature navigating through the main
+    menu **Integrated Management > Labour Force Management > Register Checkin
+    Denied Reason**.
 
-1.  Acesse a funcionalidade de Motivo de Negação do Check in através da
-    navegação no menu principal **Gestão Integrada > Gerência de Força de
-    Atendimento > Cadastro de Motivo de Negação de Check in**.
+Preconditions
+-------------
 
-Pré-condições
-------------
+1.  No applicable.
 
-1.  Não se aplica.
-
-Filtros
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -   Nome.
+-   Name
 
-    ![Criar](images/checkin-1.png)
-    
-    **Figura 1 - Tela de pesquisa de motivo de negação do check in**
+![Criar](images/checkin-1.png)
 
-1.  Realize a pesquisa de motivo de negação de check in;
+**Figure 1 - Checkin denied reason search screen**
 
--   Informe o nome do motivo de negação do check in que deseja pesquisar e
-    clique no botão *Pesquisar*. Após isso, será exibido o registro conforme o
-    nome informado;
+2.  Perform a checkin denied reason search;
 
--   Caso deseje listar todos os registros, basta clicar diretamente no
-    botão *Pesquisar*.
+-   Insert the name of the intended checkin denied reason and click on
+    the *Search* button. Afterwards, the checkin denied reason entry will be
+    displayed according to the description provided.
 
-Listagem de itens
-----------------
+-   To list all checkin denied reasons, just click directly on
+    the *Search* button, if needed.
 
-1.  O seguinte campo cadastral está disponível ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Nome**.
+Items list
+----------
 
-    ![Criar](images/checkin-2.png)
-    
-    **Figura 2 - Tela de listagem de motivo de negação de check in**
+1.  The following cadastral field is available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: **Name**.
 
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a aba de cadastro exibindo o conteúdo referente ao registro
-    selecionado;
+![Criar](images/checkin-2.png)
 
-2.  Para alterar os dados do motivo de negação de check in, basta modificar as
-    informações desejadas e clicar no botão *Gravar*.
+**Figure 2 - Deny check in reason list screen**
 
-Preenchimento dos campos cadastrais
----------------------------------
+2.  After searching, select the intended entry. Afterwards, they will be
+    redirected to the registry screen displaying the content belonging to the
+    selected entry.
 
-1.  Será apresentada a tela de **Cadastro de Motivo de Negação de check in**,
-    conforme ilustrada na figura abaixo:
+3.  To edit a checkin denied reason entry, just modify the information on the
+    intended fields and click on the *Save* button to confirm the changes to the
+    database, at which date, time and user will be stored automatically for a
+    future audit.
 
-    ![Criar](images/checkin-3.png)
+Filling in the registration fields
+----------------------------------
 
-    **Figura 3 - Tela de cadastro de motivo de negação do check in**
+1.  The **Checkin Denied Reason** screen will be displayed, as
+    illustrated on the image below:
 
-1.  Informe a descrição do motivo de negação do check in;
+![Criar](images/checkin-3.png)
 
-2.  Clique no botão *Gravar* para efetuar o registro, onde a data, hora e
-    usuário serão gravados automaticamente para uma futura auditoria.
+**Figure 3 - Checkin denied reason entry screen**
+
+2.  Insert the description of the checkin denied reason.
+
+3.  Click on the *Save* the button to confirm the entry, at which date, time and
+    user will automatically be stored for a future audit.
+
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/22/2019 – Anna Martins
+    <b>Updated:</b>09/10/2019 – Anna Martins

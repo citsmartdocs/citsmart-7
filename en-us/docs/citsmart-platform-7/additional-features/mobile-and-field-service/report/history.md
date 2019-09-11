@@ -1,119 +1,118 @@
-title: Verificação do histórico de atendimento
-Description: Esta funcionalidade tem por objetivo verificar o histórico de atendimento das solicitações de serviços feito pelos técnicos de campo.
+title: Checking service history
+Description: This functionality has the objective of verifying the history of service requests made by the field technicians.
 
-# Verificação do histórico de atendimento
+# Checking service history
 
-Esta funcionalidade tem por objetivo verificar o histórico de atendimento das
-solicitações de serviços feito pelos técnicos de campo.
+This functionality has the objective of verifying the history of service
+requests made by the field technicians.
 
-Como acessar
------------
+How to access
+-------------
 
-1.  Acesse a funcionalidade de Histórico de Atendimento através da navegação no
-    menu principal **Gestão Integrada > Gerência de Força de
-    Atendimento > Histórico de Atendimento**.
+1.  Access the Call History feature by navigating in the main menu **Integrated
+    Management > Workforce Management > History Service**.
 
-Pré-condições
-------------
+Preconditions
+-------------
 
-1.  Configurar a conexão do sistema com as API's do Google (ver
-    conhecimento [Manual de configuração do servidor para uso do CITSmart ITSM
-    Enterprise (iOS e Android)][1] - seções 5 a 7).
+1.  Configure the system connection with the Google APIs (see [CITSmart
+    Enterprise ITSM server configuration manual for use of APP (iOS and
+    Android)][1] - sections 5 to 7)
 
-Filtros
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filters enables the user to restrict the participation of
+    items in the standard feature listing, making it easier to find the desired
+    items:
 
-    -   Contrato;
+-   Contract;
 
-    -   Unidade;
+-   Unit;
 
-    -   Grupo executor;
+-   Executor group;
 
-    -   Técnico;
+-   Technician;
 
-    -   Data início;
+-   Start date;
 
-    -   Data fim;
+-   End date;
 
-    -   Situação da solicitação;
+-   Status of Request.
 
-    ![Criar](images/history-1.png)
+![Criar](images/history-1.png)
 
-    **Figura 1 - Tela de pesquisa de histórico de atendimento**
+**Figure 1 - History service search screen**
 
-Listagem de itens
------------------
+Items list
+----------
 
-1.  Não se aplica.
+1.  No applicable.
 
-Preenchimento dos campos cadastrais
------------------------------------
+Filling in the registration fields
+----------------------------------
 
-1.  Não se aplica.
+1.  No applicable.
 
-Verificando o histórico de atendimento
--------------------------------------
+Checking the service history
+----------------------------
 
-1.  Será apresentada a tela de Verificação do Histórico de Atendimento, conforme
-    ilustrada na figura a seguir. Nesta tela, poderá visualizar o histórico de
-    atendimento de solicitação de serviço feito pelo(s) técnico(s) de campo, de
-    acordo com os filtros informados:
+1.  The **Call History Verification** screen will be displayed, as shown in the
+    following figure. In this screen, you can view the service request
+    fulfillment history made by the field technician (s), according to the
+    filters provided:
 
-    ![Criar](images/history-2.png)
-    
-    **Figura 2 - Tela de histórico de atendimento**
+![Criar](images/history-2.png)
 
-2.  Defina os filtros de acordo com sua necessidade:
+**Figure 2 - Checking the service history**
 
-    -  **Estado**: informar o estado das solicitações de serviços que deseja
-    verificar o histórico de seu atendimento pelo(s) técnico(s) de campo;
+2.  Set the filters according to your need:
 
-    -  **Cidades**: informar a cidade referente às solicitações de serviços que
-    deseja verificar o histórico de seu atendimento pelo(s) técnico(s) de campo;
+-   **State**: inform the state of the service requests that you want to check
+    the history of your service by the field technician (s);
 
-    -  **Contrato**: informar o contrato referente às solicitações de serviços que
-    deseja verificar o histórico de seu atendimento pelo(s) técnico(s) de campo;
+-   **Cities**: inform the city about the requests for services that wish to
+    verify the history of their service by the field technician (s);
 
-    -  **Unidade**: informar a unidade referente às solicitações de serviços que
-    deseja verificar o histórico de seu atendimento pelo(s) técnico(s) de campo;
+-   **Contract**: inform the contract regarding the requests for services that
+    wish to verify the history of their service by the field technician (s);
 
-    -  **Grupo Executor**: informar o grupo executor de solicitações de serviços
-    para verificar o atendimento;
+-   **Unit**: inform the unit about the requests for services that wish to
+    verify the history of their service by the field technician (s);
 
-    -  **Técnico**: informar o técnico para verificar o histórico de atendimento
-    das solicitações de serviços;
+-   **Executor Group**: informing the executing group of service requests to
+    verify attendance;
 
-    !!! note "NOTA"
+-   **Technician**: inform the technician to check the history of service
+    requests;
 
-         Ao selecionar o técnico, serão apresentadas as solicitações de serviços
-         que o mesmo atendeu e que faz referência ao(s) contrato(s) que ele pertence.
+ !!! note "NOTE" 
 
-    -  **Data início**: informar a data inicial que faz referência ao dia
-    trabalhado do técnico;
+    When selecting the technician, will be presented the requests for services
+    that the same attended and that makes reference to the contract (s) that he
+    belongs.
 
-    -  **Data fim**: informar a data final que faz referência ao dia trabalhado do
-    técnico;
+-   **Start date**: inform the start date that refers to the day worked by the
+    technician;
 
-    -  **Situação da Solicitação**: selecionar a situação de atendimento da
-    solicitação de serviço.
+-   **Date end**: inform the end date that refers to the day worked by the
+    technician;
 
-3.  Após os filtros definido, clique no botão *Pesquisar*. Feito isso, serão
-    exibidos no mapa o histórico de atendimento das solicitações de serviço pelo
-    técnico de campo, conforme exemplo ilustrado na figura a seguir:
+-   **Request Status**: select the service request fulfillment situation;
 
-   ![Criar](images/history-3.png)
-   
-   **Figura 3 - Histórico de atendimento de solicitações de serviço pelo
-    técnico de campo**
+3.  After the filters are set, click the *Search* button. Once this is done, the
+    history of service requests will be displayed on the map by the field
+    technician, as shown in the following figure:
+
+![Criar](images/history-3.png)
+
+**Figure 3 - Service requests history of service requests by field technician**
+
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/22/2019 – Anna Martins
+    <b>Updated:</b>09/10/2019 – Anna Martins
     
-[1]:/pt-br/citsmart-platform-7/additional-features/mobile-and-field-service/configuration/app-android-ios.html
+[1]:/en-us/citsmart-platform-7/additional-features/mobile-and-field-service/configuration/app-android-ios.html

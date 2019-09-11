@@ -1,136 +1,132 @@
-title: Configuração das rotas diárias
-Description: Esta funcionalidade tem por objetivo configurar a agenda diárias dos técnicos de campo.
+title: Daily routes configuration
+Description: This functionality is intended to configure the daily schedule of field technicians. After configuration, the technician will have a list of requests that will be answered by him via Mobile.
 
-# Configuração das rotas diárias
+# Daily routes configuration
 
-Esta funcionalidade tem por objetivo configurar a agenda diárias dos técnicos de
-campo. Após a configuração, o técnico terá uma lista de solicitações que serão
-atendidas por ele via Mobile.
+This functionality is intended to configure the daily schedule of field
+technicians. After configuration, the technician will have a list of requests
+that will be answered by him via Mobile.
 
-Como acessar
------------
+How to access
+-------------
 
-1.  Acesse a funcionalidade de Configuração de Rotas Diárias através da
-    navegação no menu principal **Gestão Integrada > Gerência de Força de
-    Atendimento > Gerência de Rotas Diárias**.
+1.  Access the Daily Routes Configuration feature by navigating the main
+    menu **Integrated Management > Workforce Management > Daily Routes
+    Management**.
 
-Pré-condições
-------------
+Preconditions
+-------------
 
-1.  Configurar a conexão do sistema com as API's do Google (ver
-    conhecimento [Manual de configuração do servidor para uso do CITSmart ITSM
-    Enterprise (iOS e Android)][1] - seções 5 a 7).
+1.  Configure the system connection with the Google APIs (see
+    knowledge [CITSmart Enterprise ITSM server configuration manual for use of
+    APP (iOS and Android)][1])- sections 5 to 7)
 
-Filtros
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -   **Técnico**: informar o nome do técnico responsável pelo atendimento de
-    solicitações de serviços;
+-   **Technician**: inform the name of the technician responsible for service
+    requests;
 
-    -   **Período de Abertura**: informar o período de abertura das solicitações de
-    serviços;
+-   **Opening Period**: inform the opening period of service requests;
 
-    -   **Estado**: informar o estado da unidade da solicitação de serviço;
+-   **State**: inform the state of the unit of the service request;
 
-    -   **Cidades**: informar a cidade da unidade da solicitação de serviço;
+-   **City**: inform the city of the unit of the service request;
 
-    -   **Contrato**: informar o contrato da solicitação de serviço;
+-   **Contract**: inform the contract of the service request;
 
-    -   **Unidade**: informar a unidade de negócio do contrato da solicitação de
-    serviço;
+-   **Unit**: inform the business unit of the service request contract;
 
-    -   **Localidade**: informar a localidade da unidade;
+-   **Location**: inform the locality of the unit;
 
-    -   **Tipo de solicitação**: informar o tipo de solicitação de serviço que
-    deseja verificar.
+-   **Type**: enter the type of service request you want to check.
 
-    ![Criar](images/daily-1.png)
+![Criar](images/daily-1.png)
 
-    **Figura 1 - Tela de pesquisa de rota**
+**Figure 1 - Route search screen**
 
-Listagem de itens
-----------------
+Items list
+----------
 
-1.  Não se aplica.
+1.  No applicable.
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 ----------------------------------
 
-1.  Não se aplica.
+1.  No applicable.
 
-Configuração das rotas
----------------------
+Route settings
+--------------
 
-1.  Será apresentada a tela de **Configuração das Rotas**, conforme ilustrada na
-    figura a seguir. Nesta tela, permite realizar a pesquisa de solicitações de
-    acordo com os filtros informados, ou seja, de acordo com sua necessidade, a
-    fim de direcionar as solicitações abertas para serem atendidas pelo técnico
-    de campo:
+1.  The **Routes Configuration** screen will be displayed, as shown in the
+    following figure. In this screen, it allows to perform the search of
+    requests according to the filters informed, that is, according to their
+    need, in order to direct the open requests to be answered by the field
+    technician:
 
-    ![Criar](images/daily-2.png)
-    
-    **Figura 2 - Tela de configuração das rotas**
+![Criar](images/daily-2.png)
 
-2.  Defina os filtros conforme sua necessidade;
+**Figure 2 - Route configuration screen**
 
-3.  Após os filtros definidos para pesquisa das solicitações de serviços, clique
-    no botão *Pesquisar*. Serão apresentadas as solicitações, as quais o técnico
-    tem permissão de execução, com a seguinte situação:
+2.  Set the filters as you need them:
 
-    -   **Não Atendida**: solicitação que foi direcionada para um técnico e está
-    disponível para o atendimento;
+3.  After the filters are set to search for service requests, click
+    the *Search* button. The requests will be presented, which the technician is
+    allowed to execute, with the following situation:
 
-    -   **Em Atendimento**: solicitação que está em andamento, ou seja, que está
-    sendo atendida pelo técnico;
+-   **Unattended** : request that was directed to a technician attending and is
+    available for service.
 
-    -   **Atendida com Pendência**: solicitação que está com o atendimento suspenso.
+-   **In Service** : request that is in progress, that is, that is being
+    answered by the technician;
 
-    ![Criar](images/daily-3.png)
-    
-    **Figura 3 - Solicitações de serviços**
+-   **Attendance with Pending** : request that is suspended.
 
-4.  Direcione a(s) solicitação(ões) de serviço(s) disponível(is) para o técnico
-    realizar o atendimento:
+![Criar](images/daily-3.png)
 
-    -   Caso seja necessário visualizar os detalhes de uma solicitação de serviço,
-    clique sobre o número da mesma;
+**Figure 3 - Service requests**
 
-    -   Selecione a(s) solicitação(ões) que será(ão) atendida(s) pelo técnico;
+4.  Direct the service request available to the technician to perform the
+    service;
 
-    -   Informe a prioridade do atendimento da(s) solicitação(ões) de serviço(s);
+-   If you need to view the details of a service request, click on the service
+    number;
 
-    -   No campo **Data de execução**, informe a data prevista para execução da(s)
-    solicitação(ões);
+-   Select the request that will be answered by the technician;
 
-    -   Após selecionar a(s) solicitação(ões), será(ão) apresentado(s) no mapa o(s)
-    marcador(es) da rota que o técnico deverá seguir.
+-   Inform the priority of the attendance of the service request;
 
-    ![Criar](images/daily-4.png)
-    
-    **Figura 4 - Solicitações de serviços**
+-   In the **Execution Date** field, enter the expected date of execution of the
+    request;
 
-   !!! note "NOTA"
+-   After selecting the request, the map marker of the route that the technician
+    will follow will be displayed on the map.
 
-       Ao clicar no marcador da rota, no mapa, serão apresentadas as informações
-       da solicitação de serviço.
+![Criar](images/daily-4.png)
 
-5.  Clique no botão *Gravar* para efetuar a operação, onde a data, hora e
-    usuário serão gravados automaticamente para uma futura auditoria.
+**Figure 4 - Service requests**
 
-    !!! info "IMPORTANTE"
+   !!! note "NOTE"
 
-        Após a gravação, será enviada uma notificação para o técnico, onde ele
-        poderá verificar pelo aplicativo CITSmart Enterprise ITSM Mobile a(s)
-        solicitação(ões) que será(ão) atendida(s) por ele.
+      Clicking the route marker on the map will display the service request
+      information.
+
+5.  Click the *Save* button to perform the operation, where the date, time and
+    user will be saved automatically for a future audit.
+
+!!! info "IMPORTANT"
+
+    After the recording, a notification will be sent to the technician, where
+    the technician can verify the request that will be answered by the CITSmart
+    Enterprise ITSM Mobile application.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/22/2019 – Anna Martins
+    <b>Updated:</b>09/10/2019 – Anna Martins
 
-[1]:/pt-br/citsmart-platform-7/additional-features/mobile-and-field-service/configuration/app-android-ios.html
+[1]:/en-us/citsmart-platform-7/additional-features/mobile-and-field-service/configuration/app-android-ios.html
