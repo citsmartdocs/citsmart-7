@@ -26,14 +26,14 @@ Filters
 
 -   Name
 
-1.  On the **Smart Reports** screen, a filter field is displayed to perform the
+2.  On the **Smart Reports** screen, a filter field is displayed to perform the
     search for certain records, as shown in the figure below:
 
 ![Criar](images/generate-1.png)
 
 **Figure 1 - Smart report search screen**
 
-1.  To search for a specific record, enter the name of the report. After that,
+3.  To search for a specific record, enter the name of the report. After that,
     the given record will be displayed according to the filter entered.
 
 Items list
