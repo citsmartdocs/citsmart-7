@@ -35,7 +35,7 @@ in the system, the quantity is indicated in the menu;
 
 ![symbol](images/11.png) ![symbol](images/simb-lapis.jpg): clicking this icon allows you to add a new dashboard;
 
-![symbol](images/num12.png) ![symbol](images/simb-lixo.jpg): clicking this icon allows you to edit the information of the 
+![symbol](images/12.png) ![symbol](images/simb-lixo.jpg): clicking this icon allows you to edit the information of the 
 selected dashboard;
 
 ![symbol](images/13.png) ![symbol](images/simb-expan.jpg): clicking on this icon allows you to expand the management panel;
