@@ -1,48 +1,51 @@
-title:  Smart Reports
-Description: Permite criar Smart Reports. 
+title: Smart Reports
+Description: Smart Reports
+
 # Smart Reports
 
-Como acessar
----------------
+How to access
+-------------
 
-1. Acesse o menu principal **Relatórios > Relatórios Smart > Relatórios Smart**.
+To access the feature click on the main menu **Reports > Smart Reports > Smart
+Reports**.
 
-Pré-condições
----------------
+Precondition
+------------
 
-1. Não se aplica.
+1.  No applicable.
 
-Filtros
+Filters
+-------
+
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
+
+-   Category.
+
+![Criar](images/smart-repor.img1.jpg)
+
+**Figure 1 - Smart Reports**
+
+2.  Reports are presented by category;
+
+3.  Click a category and then click the report you want to issue.
+
+!!! note "NOTE"
+
+     Reports built by the Smart Report Neuro are displayed in this Smart
+     Reports screen.
+
+Items list
 ----------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a
-localização dos itens desejados:
+1.  No applicable.
 
-    - Categoria
-    
-    ![Smart](images/smart-repor.img1.jpg)
-    
-    **Figura 1 - Smart Reports**
-    
-2. Os relatórios são apresentados por categoria.
+Filling in the basic fields
+---------------------------
 
-3. Clique em uma categoria e clique no relatório que deseja emitir.
-
-!!! note "NOTA"
-
-    Os relatórios criados pelo Smart Report Neuro são exibidos nesta tela Smart Reports.
-    
-Listagem de itens
--------------------
-
-1. Não se aplica.
-
-Preenchimento dos campos cadastrais
---------------------------------------
-
-1. Não se aplica.
+1.  No applicable.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/29/2019 - Larissa Lourenço
+    <b>Updated:</b>09/11/2019 - Anna Martins

@@ -1,185 +1,177 @@
-title: Gerador de relatórios Smart
-Description: Esta funcionalidade tem o objetivo de prover a facilidade de elaboração de relatórios personalizados com os dados das funcionalidades requeridas.
+title: Smart Report generator
+Description: This functionality is intended to provide the ease of custom reporting with the required functionality data, without the need for further updates or additional software.
 
-# Gerador de relatórios Smart
+# Smart Report generator
 
-Esta funcionalidade tem o objetivo de prover a facilidade de elaboração de
-relatórios personalizados com os dados das funcionalidades requeridas, sem
-necessidade de novas atualizações ou softwares adicionais.
+This functionality is intended to provide the ease of custom reporting with the
+required functionality data, without the need for further updates or additional
+software.
 
-Como acessar
------------
-
-1.  Acesse o menu principal **Relatórios > Relatórios Smart > Gerador de
-    Relatórios Smart**.
-
-Pré-condições
+How to access
 -------------
 
-1.  Ter um sub relatório cadastrado.
+1.  Access the main menu **Reports > Smart Reports > Smart Report
+    Generator**.
 
-Filtros
-------
+Preconditions
+-------------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados.
+1.  Have a sub report registered.
 
-    -   Nome.
+Filters
+-------
 
-2.  Na tela de **Relatórios Smart**, é apresentado um campo de filtro para
-    realizar a busca de determinados registros, conforme ilustrada na figura
-    abaixo:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    ![Criar](images/generate-1.png)
-    
-    **Figura 1 - Tela de pesquisa de relatórios**
+-   Name
 
-3.  Para realizar a busca de um registro específico, informe o nome do
-    relatório. Após isso, será exibido o determinado registro conforme o filtro
-    informado.
+1.  On the **Smart Reports** screen, a filter field is displayed to perform the
+    search for certain records, as shown in the figure below:
 
-Listagem de itens
------------------
+![Criar](images/generate-1.png)
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: ID, Nome, Categoria, Tipo de Consulta e Tipo de
-    Relatório.
+**Figure 1 - Smart report search screen**
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Excluir*.
+1.  To search for a specific record, enter the name of the report. After that,
+    the given record will be displayed according to the filter entered.
 
-    ![Criar](images/generate-2.png)
-    
-    **Figura 2 - Tela de listagem de relatório smart**
+Items list
+----------
 
-3.  Para verificar e/ou alterar os dados do registro de relatório, clique no
-    botão *Editar* e após isso, será direcionado para a tela de cadastro
-    exibindo o conteúdo referente ao registro selecionado.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature listing: ID,
+    Name, Category, Type of query and Type of report;
 
-4.  Para importar um relatório (arquivo .citreport), clique no botão *Importar*.
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Edit* and *Delete*.
 
-Preenchimento dos campos cadastrais
+![Criar](images/generate-2.png)
+
+**Figure 2 - Smart report listing**
+
+3.  To check and / or change the report log data, click the *Edit* button and
+    after that you will be directed to the registration screen displaying the
+    contents of the selected record.
+
+4.  To import a report (.citreport file), click the *Import* button.
+
+Filling in the registration fields
 ----------------------------------
 
-1.  Selecionado o botão *Novo* (conforme a figura anterior ), será exibida a
-    tela de **Construção de Relatórios** **Smart**, conforme ilustrada na figura
-    a seguir:
+1.  Click the *New* button (as the previous figure). Once this is done,
+    the **Smart Report Construction** screen will be displayed, as shown in the
+    following figure:
 
-    !!! info "IMPORTANTE"
+!!! info "IMPORTANT"
 
-         A biblioteca D3 ([https://d3js.org](https://d3js.org/)/) de gráficos poderá
-         ser utilizada na criação de relatórios do tipo JSP.
+    The D3 library [https://d3js.org/ ](https://d3js.org/)can be used to create
+    JSP-type reports.
 
-    ![Criar](images/generate-3.png)
-    
-    **Figura 3 - Tela de construção de relatórios smart**
+![Criar](images/generate-3.png)
 
-2.  Preencha os campos conforme orientações abaixo:
+**Figure 3 - Smart report construction screen**
 
-    -   **Identificação**: informe a identificação do relatório que deseja criar;
+2.  Fill out the fields as instructed:
 
-    -   **Descrição**: informe o nome do relatório que deseja criar;
+-   **Identification**: enter the identification of the report you want to
+    create;
 
-    -   **Categoria**: selecione a categoria em que o relatório pertencerá;
+-   **Description**: enter the name of the report you want to create;
 
-    -   **Tipo**: selecione o tipo de consulta do relatório:
+-   **Category**: select the category in which the report will belong;
 
-    !!! warning "ATENÇÃO"
+-   **Type**: select the query type of the report:
 
-        Para se criar um Sub Relatório o mesmo já deve estar cadastrado e o "Tipo
-        de consulta" deverá ser SQL.
+   !!! warning "ATENÇÃO"
 
-    -   **SQL** - Utilizar esse tipo para criar relatório que retorna as informações
-    do Banco de Dados através de uma Query. Ao selecionar esse tipo serão
-    exibidas as abas "Designer" e "SQL" e campo de "Regra de Negócio", ao
-    selecionar essa opção serão apresentados novos campos, conforme figura
-    abaixo:
+     In order to create a Sub Report it should already be registered and the
+     "Query Type" should be SQL.
 
-    ![Criar](images/generate-4.png)
-    
-    **Figura 4 - Tela de campos ao selecionar Tipo SQL**
+-   **SQL: **use this type to create report that returns the database
+    information through a Query. Selecting this type will display the "Designer"
+    and "SQL" tabs and the "Business Rule" field, selecting this option will
+    display new fields, as shown below:
 
-    -   **RhinoScript** - Utilizar esse tipo para criar relatório que retorna as
-    informações do Banco de Dados através de um Script. Ao selecionar esse tipo
-    será exibido a aba "RhinoScript";
+![Criar](images/generate-4.png)
 
-    -   **JSP** - Utilizar esse tipo para criar relatório com conteúdo dinâmico. Ao
-    selecionar esse tipo será exibido a aba "JSP" na qual poderá informar o
-    código JSP.
+**Figure 4 - Fields screen when select SQL Type**
 
-    -   **Tipo de relatório**: selecione o tipo de relatório que deseja criar:
+-   **RhinoScript**: use this type to create a report that returns the database
+    information through a script. Selecting this type will display the
+    "RhinoScript" tab;
 
-    !!! warning "ATENÇÃO"
+-   **JSP**: use this type to create report with dynamic content. Selecting this
+    type will display the "JSP" tab where you can enter the JSP code.
 
-         Para se criar um Sub Relatório (Drill) o " Tipo de relatório" deverá
-         ser "Gráfico de pizza" ou " Gráfico de Barra".
+-   **Report Type: **select the type of report you want to create:
 
-       -  **Template**- Utilizar esse tipo para criar um relatório com design e
-    estrutura desejada. Para criação do relatório com esse tipo, basta
-    selecionar o tipo, informar o RhinoScript ou SQL no campo referente,
-    informar o FreeMarker (framework de template) no em "Template" e os
-    parâmetros se for necessário;
+!!! warning "ATTENTION"
 
-       -   **Gráfico de linha**- Utilizar esse tipo para criar relatório que exibe
-    as informações em gráfico de linha;
+    To create a Sub Report (Drill) the "Report Type" should be " Pie Chart"or" Bar Chart ".
 
-       -   **Gráfico de pizza**- Utilizar esse tipo para criar relatório que exibe
-    as informações em gráfico de pizza:
+-   **Template**: use this type to create a report with the desired design and
+    structure. To create the report with this type, simply select the type,
+    inform RhinoScript or SQL in the referring field, inform the FreeMarker
+    (template framework) in the "Template" and the parameters if necessary;
 
-       -   **Gráfico de barra**- Utilizar esse tipo para criar relatório que exibe
-    as informações em gráfico de barra, ao selecionar a opção "pizza" ou
-    "barra", serão apresentados novos campos, conforme figura abaixo:
+-   **Line chart**: use this type to create a report that displays the
+    information in the line chart;
 
-    ![Criar](images/generate-5.png)
+-   **Pie chart**: use this type to create a report that displays the pie chart
+    information;
 
-    **Figura 5 - Tela de campos ao selecionar "Gráfico de pizza" ou "Gráfico de barra"**
+-   **Bar chart**: use this type to create a report that displays information in
+    bar chart, when selecting the option "pie" or "bar", new fields will be
+    presented, as shown below:
 
-       -  **Data table** - Utilizar esse tipo para criar relatório que inclua
-    todos os dados de uma determinada tabela;
+![Criar](images/generate-5.png)
 
-       -  **Cubo** - Utilizar esse tipo para criar uma consulta que permite o
-    cruzamento de informações para fornecer dados ao relatório;
+**Figure 5 - Fields screen when select "Pie chart" or "Bar chart"**
 
-       -  **Retorna HTML** - Utilizar esse tipo para criar relatório com HTML.
+-   **Data table**: use this type to create a report that includes all the data
+    of a given table;
 
-    -   **Módulo onde será exibido**: escolha uma opção onde o relatório será
-    exibido;
+-   **Cube**: use this type to create a query that allows you to cross-reference
+    information to provide data to the report;
 
-       -  **N/A**: selecione essa opção, caso queira que o relatório não seja exibido
-    em nenhum módulo;
+-   **HTML return**: use this type to create report with HTML.
 
-       -  **Geral**: selecione essa opção para exibição do relatório em um ou mais
-    módulos, onde deseja que o relatório seja exibido;
+-   **Module where it will be displayed**: choose an option where the report
+    will be displayed;
 
-       -  **Específico**: selecione um único módulo onde deseja que o relatório seja
-    exibido.
+-   **N/A**: select this option if you want the report not to be displayed in
+    any module;
 
-    -   **Grupos**: informe o grupo que terá permissão para visualizar o relatório;
+-   **General**: select this option to display the report in one or more
+    modules, where you want the report to be displayed;
 
-    -   Na aba "Parâmetros", informe os parâmetros referentes ao tipo de consulta e
-    relatório selecionado.
+-   **Specific**: select a single module where you want the report to be
+    displayed.
 
-3.  Após construção do relatório, clique no botão *Gravar* para efetuar o
-    registro, neste caso a data, hora e usuário serão armazenados
-    automaticamente para uma futura auditoria.
+-   **Groups**: inform the group that will be allowed to view the report;
 
-    !!! info "IMPORTANTE"
+-   On the "**Parameters**" tab, enter the parameters for the selected query
+    type and report.
 
-        Os relatórios criados serão exibidos na tela de Relatórios Smart, onde
-        poderá visualizar os dados pertinentes de cada relatório.
+3.  After the report has been built, click the *Save* button to register, in
+    this case the date, time and user will be stored automatically for a future
+    audit.
 
-Exportando relatório smart
-------------------------
+!!! info "IMPORTANT"
 
-1.  Para exportar um relatório, é necessário, primeiramente realizar a consulta
-    do relatório desejado, conforme descrito no item “Verificando os Registros
-    de Relatórios Smart”.
+    The created reports will be displayed in the Smart Reports screen, where
+    you can view the relevant data for each report.
 
-2.  Após a consulta, basta clicar no botão *Exportar*.
+Exporting smart report
+----------------------
+
+1.  To export a report, you must first query the desired report as described in
+    "Checking Smart Report Records".
+
+2.  After the query, just click the *Export* button.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/19/2019 – Anna Martins
+    <b>Updated:</b>09/11/2019 – Anna Martins
