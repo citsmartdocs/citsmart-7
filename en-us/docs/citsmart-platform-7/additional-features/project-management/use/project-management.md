@@ -1,339 +1,339 @@
-title: Cadastro e gerenciamento de projetos
-Description: O Projeto é um processo único, consistindo de um grupo de tarefas coordenadas e controladas com datas para início e término.
+title: Project registration and management
 
-# Cadastro e gerenciamento de projetos
+Description: The Project is a unique process, consisting of a group of
+coordinated and controlled tasks with start and end dates, undertaken to achieve
+a goal according to specific requirements, including time, cost and resource
+constraints.
 
-O Projeto é um processo único, consistindo de um grupo de tarefas coordenadas e
-controladas com datas para início e término, empreendido para alcance de um
-objetivo conforme requisitos específicos, incluindo limitações de tempo, custo e
-recursos.
+\# Project registration and management
 
-Como acessar
-----------
+The Project is a unique process, consisting of a group of coordinated and
+controlled tasks with start and end dates, undertaken to achieve a goal
+according to specific requirements, including time, cost and resource
+constraints.
 
-1.  Acesse a funcionalidade de **Projeto** através da navegação no menu
-    principal **Gestão Integrada > Gerência de Projetos > Projeto**.
+How to access
+-------------
 
-Pré-condições
-------------
+1.  Access the Project functionality through navigation in the main
+    menu **Integrated Management > Project Management > Project**.
 
-1.  Cadastrar colaborador (ver conhecimento [Cadastro e pesquisa de
-    colaborador](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html));
+Preconditions
+-------------
 
-2.  Cadastrar usuário (ver conhecimento [Cadastro e pesquisa de
-    usuário](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/user-register.html)).
+1.  Register employee (see knowledge [Staff registration and
+    search][1]);
 
-Filtros
+2.  Register user (see knowledge [User registration and
+    search][2]).
+
+Filters
 -------
 
-1.  Não se aplica.
+1.  No applicable.
 
-Listagem de itens
-----------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Título e Processo.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: **Title** and **Process**.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Excluir*.
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Edit* and *Delete*.
 
 ![Criar](images/project-1.png)
 
-**Figura 1 - Tela de projetos**
+**Figure 1 - Projects screen**
 
-Preenchimento dos campos cadastrais
+Filling in the registration fields
 ----------------------------------
 
-1.  Será apresentada a tela de **Projetos**. Clique no botão *Novo* (segundo a
-    figura anterior). Feito isso, é apresentada a tela de Cadastro de Projeto,
-    conforme ilustrada na figura a seguir:
+1.  The **Projects** screen will be displayed. Click the *New* button. Once this
+    is done, the Project Master screen is displayed, as shown in the following
+    figure:
 
-     ![Criar](images/project-2.png)
-     
-     **Figura 2 - Tela de cadastro de projeto**
+![Criar](images/project-2.png)
 
-2.  Preencha os campos conforme orientações abaixo:
+**Figure 2 - Project registration screen**
 
-    -   **Nome**: informe o nome do projeto;
+2.  Fill in the fields as directed below:
 
-    -   **Nome do gestor**: informe o nome do gerente do projeto;
+-   **Name**: enter the name of the project;
 
-    -   **Processo**: selecione o processo que provê o projeto. Feito isso, será
-    exibido um campo para informar o registro referente ao processo que originou
-    a criação do projeto.
+-   **Responsible**: enter the name of the project manager;
 
-3.  O botão *Importar modelo*, permite importar um modelo de projeto para
-    criação um projeto a partir do mesmo;
+-   **Process**: select the process that provides the project. Once this is
+    done, a field will be displayed to inform the record of the process that
+    originated the creation of the project.
 
-4.  Após os dados iniciais do projeto informados, clique no botão *Gravar* para
-    efetuar o registro, onde a data, hora e usuário serão gravados
-    automaticamente para uma futura auditoria.
+3.  The *Import template* button allows you to import a project template to
+    create a project from it.
 
-Cadastrando informações complementares do projeto
------------------------------------------------
+4.  After the initial project data is entered, click the *Save* button to
+    register, where the date, time and user will be automatically saved for a
+    future audit.
 
-1.  Após registrar os dados iniciais do projeto, poderá cadastrar as informações
-    complementares do mesmo. A figura abaixo ilustra a tela de Projeto, após a
-    gravação dos dados iniciais:
+Enrolling additional project information
+----------------------------------------
+
+1.  After registering the initial data of the project, you can register the
+    complementary information of the same one. The figure below illustrates the
+    Project screen after recording the initial data:
 
 ![Criar](images/project-3.png)
 
-**Figura 3 - Tela de gerenciamento de projeto**
+**Figure 3 - Project management screen**
 
-Vinculando conhecimentos
-----------------------
+Linking knowledge
+-----------------
 
-1.  Vincule um conhecimento ao projeto, caso seja necessário. No registro do
-    Projeto, na área de **Conhecimentos**, clique em *Vincular conhecimento*,
-    será apresentada a tela de pesquisa de base de conhecimento. Realize a
-    pesquisa do conhecimento desejado, selecione o mesmo e clique no
-    botão *Enviar* para efetuar o vínculo.
+1.  Link knowledge to the project if needed. In the Project log, in the
+    Knowledge area, click *Link knowledge*, the knowledge base search screen
+    will be displayed. Perform the search of the desired knowledge, select the
+    same one and click on the *Add* button to make the link.
 
-Adicionando documentos
----------------------
+Adding documents
+----------------
 
-1.  Adicione um documento ao projeto, caso seja necessário.
+1.  Add a document to the project, if necessary:
 
-    -   No registro do Projeto, na área de **Documentos**, clique em *Novo
-    documento*, será apresentada a tela de adição de documentos;
+-   In the Project record, in the **Documents** area, click *New document*, the
+    document addition screen will be displayed;
 
-    -   Informe os dados do documento, anexe o mesmo e clique no botão *Gravar* para
-    efetuar a operação.
+-   Enter the data of the document, attach it and click on the *Save* button to
+    carry out the operation.
 
-Definindo a matriz de comunicação do projeto
-------------------------------------------
+Defining the project communication matrix
+-----------------------------------------
 
-1.  Na tela de registro do Projeto, clique na aba **Pontos de Contato**. Feito
-    isso, será apresentada uma tela conforme ilustrada na figura abaixo:
+1.  On the **Project** registration screen, click the **Contact Points** tab.
+    Once this is done, a screen will be displayed as shown in the figure below:
 
-    ![Criar](images/project-4.png)
-    
-    **Figura 4 – Tela de pontos de contato**
+![Criar](images/project-4.png)
 
-2.  Clique no botão *Novo*, será apresentada a tela de cadastro de pontos de
-    contato:
+**Figure 4 - Contact points screen**
 
-    ![Criar](images/project-5.png)
-    
-    **Figura 5 - Tela de cadastro de pontos de contato**
+2.  Click the *New* button, the contact points registration screen will be
+    displayed:
 
-3.  Preencha os campos conforme orientações abaixo:
+![Criar](images/project-5.png)
 
-    -   **Empregado**: informe o nome do colaborador que faz parte do projeto;
+**Figure 5 - Contact points master screen**
 
-    -   **Responsabilidade**: selecione a responsabilidade do colaborador dentro do
-    projeto;
+3.  Fill in the fields as directed below:
 
-    -   **Responsável**: pessoa responsável pela execução da tarefa;
+-   **Employee**: enter the name of the employee that is part of the project;
 
-    -   **Prestador de conta**: pessoa que responde pela tarefa;
+-   **Responsibility**: select the responsibility of the employee within the
+    project;
 
-    -   **Consultado**: pessoa que deve ser consultada para auxílio da execução da
-    tarefa;
+    -   **Responsible**: person responsible for the execution of the task;
 
-    -   **Informado**: pessoa que deve ser informada sobre o progresso e status da
-    tarefa;
+    -   **Accountable**: person who answers for the task;
 
-    -   **Ativo**: informe se o colaborador está ativo. Caso não esteja, escalone
-    outro colaborador.
+    -   **Consulted**: person who must be consulted for the execution of the
+        task;
 
-    !!! info "IMPORTANTE"
+    -   **Informed**: person who must be informed about the progress and status
+        of the task.
 
-        Somente poderá ser escalonado um colaborador que está ativo no projeto.
+-   **Active**: notify if employee is active. If not, escalone another employee.
 
-4.  Após os dados informados, clique em *Gravar* para efetuar o registro. Após
-    isso, será exibido o registro na tela de Projeto.
+   !!! info "IMPORTANT"
 
-    ![Criar](images/project-7.png)
-    
-    **Figura 6 - Tela de cadastro de pontos de contato**
+      Only one collaborator who is active in the project can be scaled.
 
-Cadastrando os papéis/responsabilidades
---------------------------------------
+4.  After the data is entered, click *Save* to register. After that, the
+    registration will be displayed on the Project screen.
 
-1.  Cadastre as pessoas (recursos) que irão executar as tarefas do projeto;
+![Criar](images/project-6.png)
 
-2.  Na tela de registro do Projeto, clique na aba **Papéis/Responsabilidades**,
-    será apresentada uma tela conforme ilustrada na figura abaixo:
+**Figure 6 - Contact point master screen**
 
-    ![Criar](images/project-6.png)
-    
-    **Figura 7 – Tela de papéis/responsabilidades**
+Registering the roles/responsibility
+------------------------------------
 
-3.  Clique no botão *Vincular novo recurso*, feito isso, será apresentada a tela
-    para vínculo dos recursos:
+1.  Sign the people (resources) that will perform the project tasks.
 
-    ![Criar](images/project-8.1.png)
-    
-    **Figura 8 – Tela de cadastro de recursos**
+2.  On the Project registration screen, click
+    the **Roles/Responsibilities** tab, a screen will be displayed as shown in
+    the figure below:
 
-4.  Realize a pesquisa dos usuários os quais são membros do projeto, selecione
-    os mesmos e clique no botão *Enviar* para efetuar a operação. Selecione o
-    papel dos usuários e clique no botão *Salvar* para efetuar o vínculo.
+![Criar](images/project-7.png)
 
-    !!! note "NOTA"
+**Figure 7 - Roles/responsibilities screen**
 
-         É permitido a seleção de vários usuários para o vínculo.
-
-    !!! example "EXEMPLO"
-
-         Para selecionar vários usuários para o vínculo, realize a busca de um
-         usuário e selecione-o e logo após busque por outro usuário e selecione-o. E
-         depois disso, basta clicar no botão *Enviar*.
-
-         Caso não tenha os papéis registrados, poderá realizar um cadastro a partir
-         dessa tela, basta clicar no botão *Papéis*.
-
-5.  Após vincular os recursos, eles serão exibidos na tela de projeto, conforme
-    exemplo ilustrado na figura a seguir:
+1.  Click the *Link new resource* button, done this, the link resource screen
+    will be displayed:
 
 ![Criar](images/project-8.png)
 
-**Figura 9 – Recursos do projeto**
+**Figure 8 - Resource master screen**
 
-Cadastrando as tarefas
----------------------
+1.  Click the *Select users* button, the user search screen will be displayed.
+    Perform the search of the users who are members of the project, select the
+    same ones and click on the button *Save* to carry out the operation. Select
+    the role of the users and click the *Save* button to make the link.
 
-1.  Defina as tarefas do projeto a serem realizadas durante o período estimado
-    para execução do mesmo. Na tela de registro do Projeto, clique na
-    aba **Planejamento/Execução**, será apresentada a tela de planejamento de
-    tarefas do projeto:
+!!! note "NOTE"
 
-    ![Criar](images/project-9.png)
-    
-    **Figura 10 – Tela de planejamento/execução**
+    You are allowed to select multiple users for the link.
 
-    !!! info "IMPORTANTE"
+   !!! example "EXAMPLE"
 
-        Caso queira importar um modelo de tarefa para facilitar o registro das
-        tarefas, clique no botão Importar modelo, será exibida a tela de Modelo de
-        Tarefa, clique no botão *Aplicar* do modelo desejado. Feito isso, será
-        exibido o modelo de tarefa, e caso irá proceder com o modelo, clique no
-        botão *Gravar* e confirme a importação do mesmo
+     Example: To select multiple users for the link, perform a user search and
+     select it and then search for another user and select it. And after that,
+     just click the Add button.
 
-2.  Clique no ícone de ações ![Criar](images/project-10.png)  do projeto. Feito isso, será exibida a tela de
-    Cadastro de Tarefa, conforme ilustrada na figura a seguir:
+     If you do not have the roles registered, you can make a registration from
+     this screen, just click the Roles button.
 
-    ![Criar](images/project-11.png)
-    
-    **Figura 11 – Tela de cadastro de tarefa**
+2.  After you link the resources, they will be displayed on the project screen,
+    as shown in the following figure:
 
-3.  Preencha os campos conforme orientações abaixo:
+![Criar](images/project-9.png)
 
-    -   **Título**: informe o título da tarefa;
+**Figure 9 - Project resources**
 
-    -   **Descrição**: informe a descrição da tarefa. A descrição deve ser objetiva,
-    incluindo a informação necessária para a execução da tarefa;
+Registering tasks
+-----------------
 
-    -   **Atribuído a**: informe o recurso que irá executar a tarefa.
+1.  Define the project tasks to be performed during the estimated time to
+    execute the project. On the Project registration screen, click on
+    the **Planning/Execution** tab, the project task planning screen will be
+    displayed:
 
-4.  Realize o **planejamento** da tarefa:
+![Criar](images/project-10.png)
 
-    -   **Início**: informe a data prevista para o início da execução da tarefa.
-    Marque o campo no momento da execução da atividade;
+**Figure 10 - Planning/execution screen**
 
-    -   **Fim**: informe a data prevista para o final da execução da tarefa;
+   !!! info "IMPORTANT"
 
-    -   **Prioridade**: selecione a prioridade da tarefa para execução;
+    If you want to import a task template to make it easier to register tasks,
+    click the Import template button, the Task template screen appears, click
+    the Apply button of the template you want. Once this is done, the task
+    template will be displayed, and if you are going to proceed with the
+    template, click the Save button and confirm the template import.
 
-    -   **Tempo estimado (horas)**: informe a quantidade de horas que levará para
-    execução da atividade.
+2.  Click the project actions icon ![Criar](images/project-11.png). Once this is done, the Job Register screen will be displayed, as shown in the following figure:
 
-5.  Alguns campos da área de “**execução**” são para simples conferência,
-    portanto não é necessário o preenchimento dos mesmos:
+![Criar](images/project-12.png)
 
-    -   **Início**: será exibida a data que iniciou a execução da tarefa;
+**Figure 11 - Task record screen**
 
-    -   **Fim**: será exibida a data que finalizou a execução da tarefa;
+3.  Fill in the fields as directed below:
 
-    -   **Status**: informe a situação da tarefa;
+-   **Title**: report the title of the task;
 
-    -   **Percentual executado**: será exibido o quanto foi executado da tarefa;
+-   **Description**: enter the job description. The description must be
+    objective, including the information necessary for the execution of the
+    task;
 
-    -   **Tempo gasto (horas)**: serão apresentadas as horas gastas com a tarefa;
+-   **Assigned to**: enter the resource that will perform the task.
 
-6.  Após informar os dados da tarefa, clique no botão *Adicionar tarefa* para
-    efetuar a operação;
+4.  Carry out the task planning:
 
-7.  Após registro da tarefa, caso queira realizar uma edição na mesma, basta
-    clicar no ícone ![Criar](images/project-12.png)  ;
+-   **Start**: enter the expected start date of the task. Check the field at the
+    time of activity execution;
 
-8.  Se for necessário registrar uma sub-tarefa, basta clicar no ícone ![Criar](images/project-10.png)  da
-    tarefa e prosseguir com o registro.
+-   **End**: enter the due date for the completion of the task.
 
-Criando modelo de tarefa
-------------------------
+-   **Priority**: select the priority of the task to execute;
 
-1.  Após os registros das tarefas do projeto, caso queira criar um modelo das
-    tarefas para ser utilizado posteriormente com intuito de acelerar o processo
-    de criação de tarefas, proceda da seguinte forma:
+-   **Estimated time (hours)**: enter the amount of hours it will take to
+    perform the activity.
 
-2.  Na tela de Planejamento de Tarefas do Projeto, clique no botão *Criar modelo
-    (Tarefa)*. Após isso, será apresentada a tela de Cadastro de Modelo,
-    conforme ilustrada na figura abaixo:
+5.  Some fields in the "**execution**" area are for simple conference, so it is
+    not necessary to fill them out:
 
-    ![Criar](images/project-14.png)
-    
-    **Figura 12 – Tela de cadastro de tarefa**
+-   **Start**: the date that started the task execution will be displayed;
 
-3.  Informe o nome do modelo e clique no botão *Criar novo modelo* para efetuar
-    a operação.
+-   **End**: the date that the task is finished is displayed;
 
-Criando linha de base do projeto
--------------------------------
+-   **Status**: report the task status;
 
-Uma linha de base de projeto pode ser usada para comparar planos de projeto
-iniciais, ou o estado de um projeto em certos pontos chave a medida que ele
-avança, com o seu estado atual. Quando você define uma linha de base para um
-projeto, os dados em vários campos-chave de tarefas, são capturados e salvos
-como um conjunto numerado de dados de linha de base. À medida que o projeto
-avança, você pode consultar esses dados capturados para compará-los aos seus
-dados atuais.
+-   **Executed Percent**: will be displayed how much has been executed of the
+    task;
 
-1.  Para criar uma linha de base das tarefas do projeto, proceda da seguinte
-    forma:
+6.  **Spent time (hours)**: the hours spent with the task will be displayed.
 
-    -   Na tela de Planejamento de Tarefas do Projeto, clique no botão *Criar linha
-    de base* e confirme a criação da mesma. Feito isso, será apresentada a linha
-    de base;
+7.  After entering the task data, click the *Add Task* button to perform the
+    operation.
 
-    -   Clique em *Voltar* para retornar ao planejamento das tarefas do projeto;
+8.  After registering the task, if you want to edit it, just click on the icon ![Criar](images/project-12.png)
 
-    -   Após retornar para a tela de planejamento das tarefas, para visualizar a
-    linha de base, basta clicar no botão *Visualizar linha de base*.
+9.  If you need to register a subtask, simply click on the task icon ![Criar](images/project-13.png) and proceed with the registration.
 
-Monitoramento do projeto
------------------------
+### Creating task model
 
-1.  Essa funcionalidade permite monitorar/controlar as tarefas do projeto. No
-    registro do Projeto, clique na aba **Monitoramento/Controle**, será
-    apresentada a tela de monitoramento, conforme ilustrada na figura a seguir:
+1.  After logging the project tasks, if you want to create a task template for
+    later use in order to speed up the task creation process, proceed as
+    follows:
 
-    ![Criar](images/project-15.png)
-    
-    **Figura 13 – Tela de monitoramento de tarefas do projeto**
+2.  On the Project Tasks Planning screen, click the *Create Model
+    (Task)* button. After that, the Model Register screen will be displayed, as
+    shown in the figure below:
 
-    - ![Criar](images/project-16.png)  - Permite editar as informações da tarefa;
+![Criar](images/project-14.png)
 
-    - ![Criar](images/project-17.png) - Permite registrar as horas gastas com a tarefa;
+**Figure 12 - Job register screen**
 
-    - ![Criar](images/project-18.png) - Permite visualizar as horas que foram registradas na tarefa do projeto.
+1.  Enter the name of the template and click the *Create new model* button to
+    perform the operation.
 
-Problemas técnicos/administrativos
+Creating project baseline
+-------------------------
+
+A project baseline can be used to compare initial project plans, or the state of
+a project at certain key points as it progresses, with its current state. When
+you define a baseline for a project, data in multiple task key fields is
+captured and saved as a numbered set of baseline data. As the project
+progresses, you can query this captured data to compare it with your current
+data.
+
+1.  To create a baseline of project tasks, do the following:
+
+-   On the Project Tasks Planning screen, click the *Create Baseline* button and
+    confirm the creation of the baseline. Once this has been done, the baseline
+    will be displayed;
+
+-   Click *Back* to return to the project task schedule.
+
+-   After returning to the task planning screen, to view the baseline, simply
+    click the *View baseline* button.
+
+Project monitoring
+------------------
+
+1.  This functionality allows you to monitor/control project tasks. In the
+    Project log, click the **Monitoring/Control** tab, the monitoring screen
+    will be displayed, as shown in the following figure:
+
+![Criar](images/project-15.png)
+
+**Figure 13 - Project Task monitoring screen**
+
+-  ![Criar](images/project-16.png)  - Allows you to edit the task information;
+
+-  ![Criar](images/project-17.png)  - Allows to record the hours spent with the task;
+
+-  ![Criar](images/project-18.png)  - Allows you to view the times that were recorded in the project task.
+
+Technical/administrative problems
 ---------------------------------
 
-1.  Essa funcionalidade apresenta os incidentes que foram registrados referente
-    ao projeto. No registro do Projeto, clique na aba **Problemas
-    Técnicos/Administrativos**, será apresentada a tela de administração de
-    problemas técnicos/administrativos, conforme ilustrada na figura a seguir:
+1.  This feature shows the incidents that were logged for the project. In the
+    Project log, click on the **Technical/Administrative Issues** tab, the
+    administrative/technical problems administration screen will be displayed,
+    as shown in the following figure:
 
 ![Criar](images/project-19.png)
 
-**Figura 14 – Tela de problemas técnico/administrativos**
+**Figure 14 - Technical/administrative issues screen**
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/18/2019 – Anna Martins
+    <b>Updated:</b>09/11/2019 – Anna Martins
