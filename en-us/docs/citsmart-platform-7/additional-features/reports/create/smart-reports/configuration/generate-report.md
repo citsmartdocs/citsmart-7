@@ -129,6 +129,7 @@ Filling in the registration fields
 
 **Figure 5 - Fields screen when select "Pie chart" or "Bar chart"**
 
+  
    -   **Data table**: use this type to create a report that includes all the data
     of a given table;
 
@@ -140,13 +141,13 @@ Filling in the registration fields
 -   **Module where it will be displayed**: choose an option where the report
     will be displayed;
 
-   -   **N/A**: select this option if you want the report not to be displayed in
+    -   **N/A**: select this option if you want the report not to be displayed in
     any module;
 
-   -   **General**: select this option to display the report in one or more
+    -   **General**: select this option to display the report in one or more
     modules, where you want the report to be displayed;
 
-   -   **Specific**: select a single module where you want the report to be
+    -   **Specific**: select a single module where you want the report to be
     displayed.
 
 -   **Groups**: inform the group that will be allowed to view the report;
