@@ -202,7 +202,7 @@ To install / configure SNMP in the Linux environment, proceed as described below
 
     ![Code](images/symbol.8.jpg)
     
-7. Após “restartar” o SNMP, realize o teste local com o objetivo de verificar se o SNMP está rodando:
+7. After "restarting" SNMP, perform the local test to verify that SNMP is running:
 
     ![Code](images/symbol.9.jpg)
     
