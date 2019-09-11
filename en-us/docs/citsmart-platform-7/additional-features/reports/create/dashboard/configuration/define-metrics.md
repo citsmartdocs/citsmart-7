@@ -1,70 +1,71 @@
-title: Definição de métricas e KPIs
-Description: A funcionalidade de Definição de Métricas e KPIs tem por objetivo definir os alvos dos indicadores do processo de Gerenciamento de Incidentes para análise gerencial.
+title: Metrics and KPIs definition
+Description: The Metrics and KPIs Definition feature aims to define the targets of the Incident Management process indicators for managerial analysis, which are displayed in the "General Incident Management - KPIs" widget that can be added to the dashboard to be displayed In the management panel, on the main screen of the system.
 
-# Definição de métricas e KPIs
+# Metrics and KPIs definition
 
-A funcionalidade de Definição de Métricas e KPIs tem por objetivo definir os
-alvos dos indicadores do processo de Gerenciamento de Incidentes para análise
-gerencial, os quais são exibidos no widget de "Gestão de Incidentes Gerencial -
-KPIs" que pode ser adicionado no dashboard para ser apresentado no painel
-gerencial, na tela principal do sistema.
+The Metrics and KPIs Definition feature aims to define the targets of the
+Incident Management process indicators for managerial analysis, which are
+displayed in the "General Incident Management - KPIs" widget that can be added
+to the dashboard to be displayed In the management panel, on the main screen of
+the system.
 
-Como acessar
------------
+How to access
+-------------
 
-1.  Acesse o menu principal **Sistema > Configurações > Definição de Métricas e
-    KPIs**.
+1.  Access the main menu **System > Settings > Metrics and KPIs Definitions**.
 
-Pré-condições
------------
+Preconditions
+-------------
 
-1.  Não se aplica.
+1.  No applicable.
 
-Filtros
+Filters
 -------
 
-1.  Não se aplica.
+1.  No applicable.
 
-Listagem de itens
-----------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **ID** e **Nome**.
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: **ID** and **Name**.
 
-2.  Existe um botão de ação disponível ao usuário em relação a cada item da
-    listagem, é ele: *Editar*.
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Edit*.
 
 ![Criar](images/kpi-1.png)
 
-**Figura 1 - Tela de listagem de definição de métricas e KPIs**
+**Figure 1 - Metrics and KPIs definition listing screen**
 
-Definindo as métricas do processo de gerenciamento de incidentes - preenchimento dos campos cadastrais
--------------------------------------------------------------------------------------------------
+Defining the metrics of the incident management process - Filling in the registration fields
+--------------------------------------------------------------------------------------------
 
-1.  Após o acesso a funcionalidade, clique em *Editar* (conforme a figura
-    anterior), será apresentada a tela de **Definição de Métricas e KPIs**,
-    conforme ilustrada na figura abaixo;
+1.  After accessing the functionality, click *Edit* (as shown in previus
+    figure). The **Metrics and KPIs Definition** screen will be displayed, as
+    shown in the figure below:
 
-    ![Criar](images/kpi-2.png)
-    
-    **Figura 2 - Definição de métricas e KPIs**
+![Criar](images/kpi-2.png)
 
-2.  Preencha os campos conforme orientação abaixo:
+**Figure 2 - Definition of metrics and KPIs**
 
-    -   Nos campos "**Sucesso**", informe o valor aceitável para o negócio;
+2.  Fill in the fields as directed below:
 
-    -   Nos campos "**Aviso**", informe o valor crítico para o negócio.
+-   In the "**Success**" fields, enter the acceptable value for the business;
 
-3.  Após os dados informados, clique no botão *Gravar* para efetuar a operação.
+-   In the "**Warning**" fields, enter the critical value for the business.
 
-Veja também
------------
+3.  After the data is entered, click the *Save* button to perform the operation.
 
--   [Cadastro de Template de Smart Decisions](/pt-br/citsmart-platform-7/additional-features/reports/create/dashboard/use/template-smart-decision.html).
+
+See also
+--------
+
+-   [Smart Decisions Template
+    registration](/en-us/citsmart-platform-7/additional-features/reports/create/dashboard/use/template-smart-decision.html).
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/19/2019 – Anna Martins
+    <b>Updated:</b>09/11/2019 – Anna Martins
