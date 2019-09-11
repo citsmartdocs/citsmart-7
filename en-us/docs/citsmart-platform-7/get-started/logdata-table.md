@@ -1,75 +1,66 @@
-title: Manual de execução de backup da tabela Logdados
+title: Logdata table backup guide
 
-Description: Este documento tem o objetivo de fornecer as orientações necessárias para configurar a rotina de backup da Tabela LogDados.
+Description: This document is intended to provide guidance for configuring the LogData Table backup routine.
 
-# Manual de execução de backup da tabela Logdados
+# Logdata table backup guide
 
-Tabela logdados
+Logdata table
 -------------
 
-É uma tabela que contém o registro de eventos relevante do CITSmart. Esse
-registro pode ser utilizado para auxiliar o suporte a restabelecer o estado
-original do sistema ou para que um administrador conheça o seu comportamento no
-passado. O arquivo de LogDados pode ser utilizado para auditoria e diagnóstico
-de problemas no sistema.
+It is a table that contains the relevant Citsmart event log. This record can be used to help support reestablish the original state 
+of the system or for an administrator to know its behavior in the past. The LogData file can be used for auditing and diagnosing 
+system problems.
 
-Backup da tabela logdados
+The backup
 ------------------------
 
-Para realizar o backup da Tabela LogDados, proceda conforme os passos descritos
-abaixo:
+To back up the LogDados Table, proceed as described below:
 
-1.  Em **Sistema > Parâmetros CITSmart**, realize a pesquisa do parâmetro “117 –
-    Informar o caminho para salvar a tabela LOGDADOS” (ver conhecimento [Regras
-    de parametrização - Sistema](1));
+1. Acess **System > Citsmart Parameters**, search the parameter "117 - Enter the path to save the LogDados table" (see knowledge 
+[Parameterization rules - system](1));
 
-    ![Criar](images/logdata-1.png)
+    ![Create](images/logdata.img1.jpg)
     
-    **Figura 1 - Parâmetro do LOGDADOS**
+    **Figure 1 - LOGDADOS parameter**
 
-2.  Informe no campo Valor o caminho do diretório, onde será salvo o arquivo de
-    LogDados e clique no botão Gravar para efetuar a operação;
+2. Enter in the Value field the path of the directory where the LogData file will be saved and click the Save button to perform the 
+operation;
 
-    !!! info "IMPORTANTE"
+    !!! info "IMPORTANT"
 
-        Caso não seja informado o caminho do diretório, o arquivo de LogDados será
-        salvo na raiz do projeto, na pasta “exportXML.
+        If the directory path is not informed, the LogData file will be saved to the project root in the "exportXML" folder;
 
-3.  Após configuração do parâmetro, em **Sistema > Processamento Batch**,
-    realize a pesquisa da rotina de Backup de LogDados e selecione a mesma,
-    conforme indicado na imagem abaixo:
+3. After setting the parameter, under **System > Batch Processing**, perform the search for the LogDatas Backup routine and select 
+the same one, as indicated in the image below:
 
-    ![Criar](images/logdata-2.png)
+    ![Batch](images/logdata.img2.jpg)
     
-    **Figura 2 - Processamento BATCH**
+    **Figure 2 - BATCH processing**
 
-4.  Será exibida a tela de Cadastro Batch para configuração do horário de
-    execução da rotina de backup da Tabela LogDados;
+4. The Batch Master Record screen will be displayed to configure the schedule of the backup routine of the LogDados Table;
 
-    ![Criar](images/logdata-3.png)
+    ![Batch](images/logdata.img3.jpg)
     
-    **Figura 3 - Processamento BATCH**
+    *Figure 3 - BATCH**
 
-5.  Defina o horário desejado:
+5. Set the desired time:
 
-    -   Informe os segundos, minutos, horas, dia do mês, mês, dia da semana e ano
-    para execução da rotina de backup da Tabela LogDados.
+    - Inform the seconds, minutes, hours, day of the month, month, day of the week and year to execute the backup routine of the 
+    LogDados Table.
 
-6.  Após fornecer as informações necessárias, clique no botão Gravar para
-    efetuar a operação;
+6. After providing the required information, click the Save button to perform the operation;
 
-7.  Feito isso, no determinado horário configurado, será gerado o arquivo de
-    LogDados e gravado no diretório que foi informado no parâmetro 177, conforme
-    apresentado na imagem abaixo:
+7. Once this is done, the LogData file will be generated and recorded in the directory that was informed in parameter, as shown in 
+the image below:
 
-![Criar](images/logdata-4.png)
+![File](images/logdata.img4.jpg)
 
-**Figura 4 - O arquivo**
+**Figure 4 - The file**
 
 
-[1]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-system.html
+[1]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-system.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/26/2019 – Anna Martins
+    <b>Updated:</b>09/11/2019 – Larissa Lourenço
