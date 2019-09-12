@@ -709,11 +709,11 @@ Liking it owners to service
     in the standard feature listing, making it easier to locate the desired
     items:
 
--   Name;
+    - Name;
 
--   ID;
+    - ID;
 
--   Status.
+    - Status.
 
 ### Items list
 
