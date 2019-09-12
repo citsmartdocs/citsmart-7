@@ -99,7 +99,7 @@ Filling in the registration fields
 
 !!! note "NOTE"
 
-    The button  ("Copy") is available to the right of the Link field, allowing
+    The button ![Pesquisa](images/simb-copiar.jpg) ("Copy") is available to the right of the Link field, allowing
     the user to easily have the URL correctly mounted, by clicking on it the
     content is copied to the clipboard.
 
