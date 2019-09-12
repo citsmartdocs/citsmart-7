@@ -134,7 +134,7 @@ Definition of the scope and responsibilities of the teams covering the activitie
 Impact Analysis (BAI), determination of controls according to customer and regulatory requirements, considering audit points and 
 compliance with ISO 27001 .
 
-1. On the **Continuity Management**screen, in the **Initiation** phase, click the **Scope** tab. Once this is done, the respective 
+1. On the **Continuity Management** screen, in the **Initiation** phase, click the **Scope** tab. Once this is done, the respective 
 scope register screen will be displayed, as shown in the figure below:
 
     ![Scope](images/management.img8.jpg)
