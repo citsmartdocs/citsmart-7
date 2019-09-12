@@ -1,6 +1,6 @@
-title:  Visão geral do Sistema
-Description: Disponibiliza todos os conhecimentos sobre o sistema. 
-# Visão geral do Sistema
+title:  System Overview
+Description: Provides all the knowledge about the system.
+# System Overview
 
 [Automatic actions registration and search](/en-us/citsmart-platform-7/plataform-administration/configuring-automatic-actions/automatic-actions.html)
 
