@@ -154,7 +154,7 @@ Registering service request activities
     !!! note "NOTE"
 
         In order for the deadline to be displayed, an SLA must be registered for
-        the activity (see knowledge [Service contract attributes configuration][1]),
+        the activity (see knowledge Service contract attributes configuration, available at the end of this document)
         in the section Linking request activities to contract). The parameters "Show
         priority" and "Show final date" have their default value equal to "Yes".
 
@@ -365,8 +365,8 @@ Registering service incident activities
     !!! note "NOTE"
 
         In order for the deadline to be displayed, an SLA must be registered for the activity (see knowledge
-        [Service contract attributes configuration][7]), in the section Linking request activities to contract). The
-        parameters "Show priority" and "Show final date" have their default value equal to "Yes".
+        Service contract attributes configuration, available at the end of this document), in the section Linking request 
+        activities to contract). The parameters "Show priority" and "Show final date" have their default value equal to "Yes".
 
 -   **Name**: enter the name of the incident activity for viewing on the portal
     and/or chat;
@@ -424,13 +424,13 @@ Registering service incident activities
     survey and select the incident activity to successfully complete the link.
 
 
-[1]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+[Service contract attributes configuration]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
 [2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/services.html
 [3]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html
 [4]:/en-us/citsmart-platform-7/processes/configuration/IC-management.html
 [5]:/en-us/citsmart-platform-7/plataform-administration/time/create-calendar.html
 [6]:/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
-[7]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/contract-attributes.html
+[Service contract attributes configuration]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/contract-attributes.html
 
 !!! tip "About"
 
