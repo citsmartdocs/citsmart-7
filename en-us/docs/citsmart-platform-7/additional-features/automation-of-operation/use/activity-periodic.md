@@ -106,7 +106,7 @@ Filling in the registration fields
 
 
 [1]:/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
-[2]:/en-us/citsmart-platform-7/additional-features/automation-of-operation/use/activity-periodic.html
+[2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/periodic-activity.html
 
 
 !!! tip "About"
