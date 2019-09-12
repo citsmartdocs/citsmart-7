@@ -8,12 +8,19 @@ Assumptions
 1. The Neuro is implemented by the packages cit-portal-web.war and cit-esi-web.war. For ITSM / Neuro integration to work, you must:
 
 - The ITSM version is 7.1.0.0 or higher
+
 - The version of the cit-portal-web is 3.0.29 or higher
+
 - The version of cit-esi-web is 3.1.2 or higher
+
 - ITSM is configured for HTTPS access: //
+
 - The Neuro is installed on the same ITSM server or the ITSM server has access to the Neuro environment in another domain.
+
 - In the case of access to the Neuro in another domain, the ITSM server must have the Neuro certificate properly installed
+
 - The integration parameters are configured in the ITSM
+
 - For the integration to work, the user logged into ITSM must exist in the cit-portal-web database. - That is, the authentication of the ITSM in the Neuro is not made by the service account specified in parameter 311, but by the user logged in to ITSM.
     
 Parametrization
@@ -26,7 +33,9 @@ Parametrization
     **Figure 1 - CITSmart parameters**
     
 - Parameter 309 indicates whether integration with Neuro is enabled;
+
 - Parameter 310 defines the Neuro URL. This URL includes the context of the application, which is usually cit-esi-web;
+
 - Parameter 311 indicates the service (user) account for integration with Neuro. This user must be registered in the cit-portal-web database of the Neuro environment.
     
 Forms of integration 
@@ -34,14 +43,21 @@ Forms of integration
 
 1. There are eight ways to integrate ITSM with Neuro
 
-- Access to Neuro screens by ITSM
-- Accessing Neuro forms from the ITSM menu
-- Using Neuro forms to open ITSM requests
-- Using Neuro forms in ITSM flow jobs
-- Execution of Neuro business rules by ITSM
-- Execution of ESI flows by ITSM
-- Execution of business object transactions by ITSM
-- Using Neuro streams in ITSM
+   - Access to Neuro screens by ITSM
+
+   - Accessing Neuro forms from the ITSM menu
+
+   - Using Neuro forms to open ITSM requests
+
+   - Using Neuro forms in ITSM flow jobs
+
+   - Execution of Neuro business rules by ITSM
+
+   - Execution of ESI flows by ITSM
+
+   - Execution of business object transactions by ITSM
+
+   - Using Neuro streams in ITSM
 
 2. Each of the forms of integration is detailed below.
 
@@ -62,7 +78,7 @@ Access to Neuro fabrics by ITSM
     
     !!! note "NOTE"
     
-        Neuro screens are rendered within an iframe. This implies that CSS conforms to the GRP standard and therefore is different from the ITSM standard.
+        Neuro screens are rendered within an iframe. This implies that CSS conforms to the GRP standard and therefore is different         from the ITSM standard.
         
 Accessing Neuro forms from the ITSM menu
 -----------------------------------------
@@ -112,10 +128,13 @@ Using Neuro forms in ITSM flow tasks
 
 1. Once you've built the form in Neuro, just:
 
-- Edit the ITSM stream
-- Select the user task that should display the Neuro form and click Properties
-- In the "Interface" tab, choose "Neuro Form" in the "Interaction type"
-- Select the Neuro form (auto-complete) in the "Form Name" field
+   - Edit the ITSM stream
+
+   - Select the user task that should display the Neuro form and click Properties
+
+   - In the "Interface" tab, choose "Neuro Form" in the "Interaction type"
+
+   - Select the Neuro form (auto-complete) in the "Form Name" field
     
     ![figure](images/integ-neuro.img9.jpg)
     
@@ -132,8 +151,9 @@ Execution of Neuro business rules by ITSM
 
 1. For execution of Neuro business rules, the following must be done:
 
-- Add a Business Rule component in the ITSM stream
-- Create or reference a Neuro business rule on the properties tab.
+   - Add a Business Rule component in the ITSM stream
+
+   - Create or reference a Neuro business rule on the properties tab.
 
     ![figure](images/integ-neuro.img11.jpg)
         
@@ -144,8 +164,9 @@ Execution of ESI by ITSM
 
 1. To run Neuro ESI streams, you must do the following:
 
-- Add an ESI Flow component in the ITSM workflow
-- Referencing an ESI flow in the properties tab
+   - Add an ESI Flow component in the ITSM workflow
+   
+   - Referencing an ESI flow in the properties tab
     
    ![figure](images/integ-neuro.img12.jpg)
     
@@ -156,8 +177,9 @@ Execution of business object trasanctions by ITSM
 
 1. For execution of Neuro business object transactions, the following must be done:
 
-- Add a Database Transaction component to the ITSM stream
-- Fill in the required properties: connection name, database object name, SQL type, input JSON variable, and output JSON variable
+   - Add a Database Transaction component to the ITSM stream
+   
+   - Fill in the required properties: connection name, database object name, SQL type, input JSON variable, and output JSON variable
     
     ![figure](images/integ-neuro.img13.jpg)
     
