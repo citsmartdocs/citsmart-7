@@ -90,7 +90,7 @@ Configuring service attributes
 
 -   **Incidents**: allows to record the service incident activities;
 
--   **Procedure**:*it allows registering the procedures for the service, which
+-   **Procedure**: it allows registering the procedures for the service, which
     will be used by the continuity management to trigger and control the service
     restoration activities;
 
