@@ -189,26 +189,24 @@ associated answers and confidence scores, which are based on acquired knowledge.
 
     -   **Input text**: text that will appear in the input.
 
-   !!! info "IMPORTANTE"
+   !!! info "IMPORTANT"
 
-         Para usar este componente, a organização deve possuir a arquitetura IBM
-         BlueMIX, possibilitando assim acesso à API Conversation do Watson.**
+         To use this component, the organization must have the IBM BlueMIX architecture, thus allowing access to the Watson API 
+         Conversation.
 
-   !!! note "NOTA"
+   !!! note "NOTE"
 
-         IBM Bluemix é uma implementação da arquitetura de nuvem aberta da IBM,
-         baseada em Cloud Foundry, que permite criar, implementar e gerenciar
-         rapidamente seus aplicativos na nuvem. Como o Bluemix está baseado em Cloud
-         Foundry, é possível aproveitar o ecossistema de frameworks e serviços de
-         tempo de execução.
+       IBM Bluemix is an implementation of IBM's open cloud architecture based on Cloud Foundry that enables you to quickly 
+       create, deploy, and manage your applications in the cloud. Because Bluemix is based on Cloud Foundry, you can leverage the 
+       ecosystem of frameworks and runtime services.
 
-Veja também
+See also
 ----------
 
--   [Gerenciamento de ticket (serviços)](/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html).
+-   [Ticket management (services)](/en-us/citsmart-platform-7/processes/tickets/ticket-management.html).
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/24/2019 – Anna Martins
+    <b>Updated:</b>09/12/2019 – Larissa Lourenço
