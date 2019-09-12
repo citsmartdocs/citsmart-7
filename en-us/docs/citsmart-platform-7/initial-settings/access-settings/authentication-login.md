@@ -43,7 +43,7 @@ will be done:
 
     This list of custom domains will contain items if and only if: (i) the
     administrator creates custom at least one LDAP authentication domain
-    (see **[LDAP connections registration and search][2]);
+    (see [LDAP connections registration and search][2]);
     and (ii) parameter 383 - Enable domain listing in login is configured to
     show the list.
 
