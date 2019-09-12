@@ -19,8 +19,7 @@ Preconditions
 
 6. Enter Configuration Item type (see knowledge [Configuration item type registration and search](/en-us/citsmart-platform-7/processes/configuration/IC-type.html));
 
-7. Register at least one Main Configuration Item if you need to create another related Configuration Item (see section "Registering 
-configuration item related to a configuration item).  
+7. Register at least one Main Configuration Item if you need to create another related Configuration Item (see section "Registering configuration item related to a configuration item").  
 
 How to access
 --------------
@@ -178,7 +177,7 @@ hour downtime* button, as indicated in the figure below:
     
     **Figure 12 - Recording of cost per hour of downtime**
     
-3. Enter the value of the CI group downtime. After that, click the Add button to register.
+3. Enter the value of the CI group downtime. After that, click the *Add* button to register.
 
 Registering a new configuration item
 ------------------------------------------
@@ -253,7 +252,7 @@ shown in the figure below:
     
     **Figure 16 - Warranty registration screen**
     
-    - **Start dat**e: enter the start date of the guarantee;
+    - **Start date**: enter the start date of the guarantee;
     - **End date**: please inform the end date of the guarantee;
     - If you want to exclude the warranty, just click on the warranty icon ![simbolo](images/simb-close.grey.jpg).
     
@@ -751,7 +750,7 @@ Exporting CMDB
 See also
 -------------
 
-- How do I design the assets that make up my service?
+- [How do I design the assets that make up my service?](/en-us/faq.html)
 
 !!! tip "About"
 
