@@ -84,7 +84,7 @@ Filling in the registration fields
    
    !!! info "IMPORTANT"
 
-         If e-mail notification is not assigned to any group and/or user, all system users will be notified.
+        If e-mail notification is not assigned to any group and/or user, all system users will be notified.
 
    - Short description: provide a brief description of the notification via e-mail;
    
