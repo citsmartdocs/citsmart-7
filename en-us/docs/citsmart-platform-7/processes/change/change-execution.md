@@ -100,7 +100,7 @@ Liking incidents/requests to change
     
     **Figure 6 - Incidents/requests selection**
     
-    - Click on icone ![simbolo](images/simb-lupa.jpg) to link the incident/service request;;
+    - Click on icone ![simbolo](images/simb-lupa.jpg) to link the incident/service request;
     - A window will appear for Incident search/service request, perform the search and select the incident/request;
     - Will the incident/request be related to the change;
     
