@@ -74,9 +74,10 @@ displayed. Therefore, only the main information to perform a connection entry wi
     
     !!! warning "WARNING"
     
-        Selecting the "Ignore already inventoried machine" option (In the case of inventoried machines it is possible to define how 
-        many days this machine will be without new inventory and therefore its Status will be set to Ignored until the total number 
-        of days has been parameterized). refer to Period and Period format, select the option that best fits and save the settings.
+        Selecting the "Ignore already inventoried machine" option (In the case of inventoried machines it is possible to 
+        define  how many days this machine will be without new inventory and therefore its Status will be set to Ignored
+        until the total number of days has been parameterized). refer to Period and Period format, select the option that
+        best fits and save the settings.
         
 OCS Inventory assumptions
 -----------------------------
@@ -124,12 +125,13 @@ option;
     
     !!! warning "WARNING"
     
-       The Inventory application captures the data through the SNMP Agent (161) port and / or the Capture Agent (port 7103 eveloped 
-       by CITSmart Corporation, in .Net). Initially, Inventory performs a "ping" command to verify that the machine is active. If 
-       you can perform the command, try to access the SNMP port of the configuration item. If access to the port is not obtained 
-       successfully, Inventory tries to access through the capture agent.
+        The Inventory application captures the data through the SNMP Agent (161) port and / or the Capture Agent (port 7103 
+        eveloped by CITSmart Corporation, in .Net). Initially, Inventory performs a "ping" command to verify that the machine
+        is active. If you can perform the command, try to access the SNMP port of the configuration item. If access to the 
+        port is not obtained successfully, Inventory tries to access through the capture agent.
         
-7. Click on the *Save and Apply Configurations* to confirm the entry, at which date, time and user will automatically be stored for a future audit.
+7. Click on the *Save and Apply Configurations* to confirm the entry, at which date, time and user will automatically be stored 
+for a future audit.
 
 !!! tip "About"
 
