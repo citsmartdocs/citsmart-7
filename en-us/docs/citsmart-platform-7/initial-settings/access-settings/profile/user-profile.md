@@ -1,135 +1,122 @@
-title: Cadastro e pesquisa de perfil de acesso
+title: Access profile registration and search
+Description:The access profile establishes the permissions and rights of a system user.
 
-Description: O perfil de acesso define quais direitos e permissões tem o usuário do sistema.
+# Access profile registration and search
 
-# Cadastro e pesquisa de perfil de acesso
+The access profile establishes the permissions and rights of a system user.
 
-O perfil de acesso define quais direitos e permissões tem o usuário do sistema.
+After authenticating the user, the access definition process determines what can
+be done within the system.
 
-Após o usuário ser autenticado o processo de definição de acesso determina o que
-ele pode fazer no sistema.
+How to access
+-------------
 
-Como acessar
-------------
+1.  Navigate to the Access Profile feature through the main menu **Access and
+    Permission > Access Profile**.
 
-1.  Acesse a funcionalidade de Perfil de Acesso através da navegação no menu
-    principal **Acesso e Permissão > Perfil de Acesso**.
+Preconditions
+-------------
 
-Pré-condições
-------------
+1.  Not applicable.
 
-1.  Não se aplica.
-
-Filtros
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados, conforme ilustrado na figura abaixo:
+1.  The following filter enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to locate the desired
+    items as shown in the figure below:
 
-    -   Nome
+-   Name
 
-2.  Na tela de Cadastro de Perfil de Acesso, clique na aba **Pesquisa de Perfil
-    de Acesso**. Será apresentada a tela de pesquisa conforme ilustrada na
-    figura abaixo:
+2.  On the access profile search screen, click on the **Search Profile** tab.
+    The search screen will be displayed, as illustrated on image bellow:
 
-    ![Criar](images/profile-1.png)
-    
-    **Figura 1 - Tela de pesquisa de perfil de acesso**
+![Criar](images/profile-1.png)
 
-3.  Realize a pesquisa do perfil de acesso:
+**Figure 1 - Access profile search screen**
 
-    -   Informe o nome do perfil de acesso que deseja pesquisar e clique no
-    botão *Pesquisar*. Após isso, será exibido o registro de perfil de acesso
-    conforme o nome informado;
+3.  Search the access profile;
 
-    -   Caso deseje listar todos os registros de perfil de acesso, basta clicar
-    diretamente no botão *Pesquisar*.
+    -   Insert the intended access profile name and click on
+        the *Search* button. Afterwards, the matching access profile will be
+        displayed.
 
-Listagem de itens
-----------------
+    -   In case all the entries are intended to be listed, just click directly
+        on the *Search* button;
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da funcionalidade: **ID
-    Perfil** e **Nome**.
+Items list
+----------
 
-    ![Criar](images/profile-2.png)
-    
-    **Figura 2 - Tela de listagem de perfil de acesso**
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard listing of the
+    functionality: **ID* Profile** and **Name**.
 
-2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a tela de cadastro exibindo o conteúdo referente ao registro
-    selecionado;
+![Criar](images/profile-2.png)
 
-3.  Para alterar os dados do registro de perfil de acesso, basta modificar as
-    informações dos campos desejados e clicar no botão *Gravar* para que seja
-    gravada a alteração realizada no registro, onde a data, hora e usuário serão
-    gravados automaticamente para uma futura auditoria;
+**Figure 2 - Access profile listing screen**
 
-4.  Para excluir o registro de perfil de acesso, basta clicar no
-    botão *Excluir* e confirmar a exclusão.
+2.  After searching, select the intended entry; then, the user will be
+    redirected to the registry screen displaying the content of the selected
+    entry.
 
-Preenchimento dos campos cadastrais
+3.  To edit the data in the access profile, just modify the information of the
+    intended fields and click on the *Save* button in order to register the
+    change made to the database.
+
+4.  To delete an access profile entry, just click on the *Delete* button to
+    confirm the exclusion.
+
+Filling in the registration fields
 ----------------------------------
 
-1.  Será apresentada a tela de **Cadastro de Perfil de Acesso**, conforme
-    ilustrada na figura abaixo:
+1.  The **Register Access Profile** will be displayed, as illustrated below:
 
-    ![Criar](images/profile-3.png)
-    
-    **Figura 3 - Tela de cadastro de perfil de acesso**
+![Criar](images/profile-3.png)
 
-2.  Preencha os campos conforme orientações abaixo:
+**Figure 3 - Access profile entry screen**
 
-    -   **Nome**: informe o nome do perfil de acesso;
+2.  Fill out the fields as instructed below:
 
-    -   Selecione os itens de menu que o perfil terá acesso, marcando o que o
-        perfil pode realizar em cada item:
+    -   **Name**: insert the access profile's name;
 
-        -   **Pesquisar**: o usuário com este perfil poderá fazer consultas e
-            visualizar os dados;
+    -   Select the menu items that the profile will have access to by checking
+        what the profile can perform on each item:
 
-        -   **Gravar**: o usuário com este perfil poderá fazer o “Pesquisar” e
-            ainda incluir e alterar os dados;
+-   **Search**: the user with this profile can make queries and view the data;
 
-        -   **Delete**: o usuário com este perfil poderá fazer o “Gravar” e
-            ainda excluir os dados do sistema.
+-   **Save**: the user with this profile can do the "Search" also include and
+    change the data;
 
-    !!! info "IMPORTANTE"
+-   **Delete**: the user with this profile can "Save" and delete the system
+    data;
 
-        As exclusões executadas no produto são exclusões lógicas (e não físicas),
-        portanto em casos extremos há como recuperar algo excluído, porém isso
-        exigirá apoio técnico de um analista/consultor.
+!!! info "IMPORTANT"
 
-    !!! note "NOTA"
+     The exclusions executed in the product are logical (and not physical), so
+     in extreme cases there is how to recover something excluded, but this will
+     require technical support from an analyst/consultant.
 
-        Ao determinar o tipo de perfil de acesso, marcando/desmarcando um
-        checkbox, todos os checkboxs subordinados a este na estrutura são igualmente
-        marcados/desmarcados em cascata.
+   !!! note "NOTE"
 
-     !!! note "NOTA"
+     When determining the type of access profile, by marking/unmarking a
+     checkbox, all checkboxes that are subordinate to it in the structure are
+     also marked/unmarked cascade.
 
-         Os perfis de acesso ficarão desabilitados (os checkboxs de todos os perfis
-         de acessos pré-existentes ficarão desmarcados), por default, quando for
-         criadas novas funcionalidades, exigindo, portanto, que o administrador
-         explicitamente habilite esta para os perfis que desejar, tornando-a
-         disponível para os perfis pretendidos.
+   !!! note "NOTE"
 
-    -   **Acesso ao sistema CITSmart**: defina se o perfil terá acesso ao sistema a
-    partir do portal;
+     The access profiles will be disabled (the checkboxes of all pre-existing
+     access profiles will be unchecked), by default, when new features are
+     created, thus requiring the administrator to explicitly enable this for the
+     profiles you want, making it available for the desired profiles.
 
-    -   **Acesso por situação de OS**: selecione as situações de OS que o perfil
-    terá acesso;
+-   **Can the user access the system**: determine if the profile will be able to
+    access the system through the portal;
 
-    -   **Acesso por situação de Fatura**: selecione as situações da fatura que o
-    perfil terá acesso.
-
-3.  Após informar os dados, clique no botão *Gravar* para efetuar o registro,
-    onde a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria.
+3.  After inserting the data, click on the  button to confirm the entry, where
+    the date, time and user will be stored for a future audit.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/23/2019 – Anna Martins
+    <b>Updated:</b>09/12/2019 – Anna Martins
