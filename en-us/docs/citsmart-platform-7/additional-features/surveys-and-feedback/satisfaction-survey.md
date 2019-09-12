@@ -1,94 +1,91 @@
-title: Cadastro e pesquisa de grau de satisfação
+title: Degree of satisfaction registration and search
+Description: The purpose of this functionality is to allow the configuration of the degree of satisfaction of the service attendance.
 
-Description: A finalidade desta funcionalidade é permitir a configuração do grau de satisfação do atendimento de serviço.
+# Degree of satisfaction registration and search
 
-# Cadastro e pesquisa de grau de satisfação
+The purpose of this functionality is to allow the configuration of the degree of
+satisfaction of the service attendance.
 
-A finalidade desta funcionalidade é permitir a configuração do grau de
-satisfação do atendimento de serviço.
+How to access
+-------------
 
-Como acessar
------------
+1.  Access the satisfaction level feature by navigating through the main
+    menu **System > Customer Satisfaction**.
 
-1.  Acesse a funcionalidade de grau de satisfação através da navegação no
-    menu principal **Sistema > Grau de satisfação do atendimento**.
+Preconditions
+-------------
 
-Pré-condições
-------------
+1.  Not applicable.
 
-1.  Não se aplica.
+Filters
+-------
 
-Filtros
-------
+1.  The following filters enables the user to restrict the participation of
+    items in the standard feature listing, making it easier to find the desired
+    items:
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados, conforme ilustrado na figura abaixo:
+-   Satisfaction degree;
 
-    -   Grau de satisfação;
+-   Language.
 
-    -   Idioma.
+2.  On the **Satisfaction Degree Record** screen, click on the *Search* tab, the
+    respective search screen will be displayed as shown in the figure below:
 
-2.  Na tela de **Cadastro de Grau de Satisfação**, clique na aba **Pesquisa**,
-    será apresentada a respectiva tela de pesquisa conforme ilustrada na figura
-    abaixo:
+![Criar](images/satisfaction-1.png)
 
-    ![Criar](images/satisfaction-1.png)
-    
-    **Figura 1 - Tela de pesquisa de grau de satisfação**
+**Figure 1 - Satisfaction degree search screen**
 
-3.  Realize a pesquisa do grau de satisfação;
+3.  Conduct the search on the degree of satisfaction;
 
-    -   Informe a descrição do grau de satisfação, selecione o idioma e clique no
-    botão *Pesquisar*. Após isso, será exibido o registro conforme os dados
-    informados;
+-   Enter the description of the degree of satisfaction, select the language and
+    click the *Search* button. After that, the record will be displayed
+    according to the data entered;
 
-    -   Caso deseje listar todos os registros, basta clicar diretamente no
-    botão *Pesquisar*.
+-   If you want to list all the records, just click directly on
+    the *Search* button.
 
-Listagem de itens
-----------------
+Items list
+----------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Grau de satisfação** e **ID**.
+1.  The following cadastral fields are available to the user to make it easier
+    to identify the desired items in the standard feature
+    listing: **Satisfaction degree and ID**.
 
-    ![Criar](images/satisfaction-2.png)
-    
-    **Figura 2 - Tela de listagem de pesquisa de grau de satisfação**
+![Criar](images/satisfaction-2.png)
 
-2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a tela de cadastro exibindo o conteúdo referente ao registro
-    selecionado;
+**Figure 2 - Satisfaction degree list screen**
 
-3.  Para alterar os dados do registro de grau de satisfação, basta modificar as
-    informações desejadas e clicar no botão *Gravar*.
+2.  After searching, select the desired record. Once this is done, it will be
+    directed to the registration screen displaying the contents of the selected
+    registry;
 
-Preenchimento dos campos cadastrais
----------------------------------
+3.  To change the data of the record of degree of satisfaction, simply modify
+    the desired information and click the *Save* button.
 
-1.  Será apresentada a tela de **Cadastro de Grau de Satisfação**, conforme
-    ilustrada na figura abaixo:
+Filling in the registration fields
+----------------------------------
 
-    ![Criar](images/satisfaction-3.png)
-    
-    **Figura 3 - Tela de cadastro de grau de satisfação**
+1.  The **Satisfaction Level Registration** screen will be displayed, as shown
+    in the figure below:
 
-2.  Preencha os campos conforme orientação abaixo:
+![Criar](images/satisfaction-3.png)
 
-    -   **Grau de satisfação**: defina o grau de satisfação do atendimento de
-    serviço;
+**Figure 3 - Satisfaction degree registrationn screen**
 
-    -   **Avaliação**: informe avaliação referente ao grau de satisfação;
+2.  Fill in the fields as directed below:
 
-    -   **Idioma**: informe o idioma do sistema.
+-   **Satisfaction degree**: define the degree of satisfaction of the service
+    attendance;
 
-3.  Após preenchimento dos campos, clique no botão *Gravar* para efetuar o
-    registro, onde a data, hora e usuário serão gravados automaticamente para
-    uma futura auditoria.
+-   **Evaluate**: report evaluation regarding the degree of satisfaction;
+
+-   **Language**: enter the system language.
+
+3.  After completing the fields, click the *Save* button to register, where the
+    date, time and user will be saved automatically for a future audit.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/22/2019 – Anna Martins
+    <b>Updated:</b>09/12/2019 – Anna Martins

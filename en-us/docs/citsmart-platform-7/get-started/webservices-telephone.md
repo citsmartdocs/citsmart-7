@@ -1,110 +1,108 @@
-title:  Manual de configuração e uso de web services para integração com sistemas de telefonia.
-Description: Tem o objetivo de fornecer orientações a respeito da configuração e utilização dos web services. 
-# Manual de configuração e uso de web services para integração com sistemas de telefonia.
+title:  Web services for integration with telephone systems setup and user guide
+Description: This document is intended to provide guidance on the configuration and use of web services for integration. 
+# Web services for integration with telephone systems setup and user guide
 
-Este documento tem o objetivo de fornecer orientações a respeito da configuração e utilização dos web services para integração com 
-sistemas de telefonia.
+This document is intended to provide guidance on the configuration and use of web services for integration with telephony 
+systems.
 
-Pré-condições
+Preconditions
 ---------------
 
-1. Informe o conteúdo abaixo nos parâmetros (ver conhecimento [Regras de parametrização - Smart portal][1]):
+1. Enter the content below into the parameters (see knowledge [Parameterization rules - Smart portal][1]):
 
-    - Parâmetro 281: com valor "S";
-    - Parâmetro 282: com valor "S";
-    - Parâmetro 283: informar o número de identificação do serviço de requisição, o qual será utilizado para lançar a solicitação 
-    filha referente à visualização de informações de uma solicitação já existente.
+    - Parameter 281: with the value "Y";
+    - Parameter 282: with the value "Y";
+    - Parameter 283: enter the identification number of the request service, which will be used to launch the request for the 
+    daughter to view information of an existing request.
     
-2. É importante que o solicitante, ou seja, a pessoa que efetuar a ligação, já possua cadastro no CITSmart.
+2. It is important that the applicant, that is, the person making the call, already has a CITSmart registration.
 
-Configuração da telefonia
+Configuration
 ----------------------------
 
-Para utilizar a funcionalidade de telefonia é necessário registrar o ramal a ser utilizado para o atendimento, conforme os passos
-descritos abaixo:
+To use the telephony feature, it is necessary to register the extension to be used for the service, according to the steps described below:
 
-1. Na tela inicial do CITSmart, clique em "Atendimento", conforme indicado na imagem abaixo:
+1. From the CITSmart home screen, click *Assistance*, as shown in the image below:
 
-    ![Funcionalidade](images/webserv-tele.img1.jpg)
+    ![Functionality](images/integration.img1.jpg)
     
-    **Figura 1 - Funcionalidade de atendimento**
+    **Figure 1 - Attendance functionality**
     
-2. É apresentada a tela Ramal contendo um campo, no qual se informa o número do ramal a ser utilizado para o atendimento;
+2. The Extension screen containing a field is displayed, which tells you the extension number to be used for the service;
 
-    ![Ramal](images/webserv-tele.img2.jpg)
+    ![Extension](images/integration.img2.jpg)
     
-    **Figura 2 - Tela de Configuração do Ramal**
+    **Figure 2 - Extension configuration screen**
     
-    - Informe o número do ramal e clique no botão Gravar para efetuar a operação.
+    - Enter the extension number and click the *Save* button to perform the operation.
 
-3. Após a inserção do número do ramal, o sistema irá monitorá-lo, quando ocorrer uma chamara recebida, ou seja, quando uma ligação
-for direcionada para o número do ramal configurado.
+3. After inserting the extension number, the system will monitor it when a received call has occurred, that is, when a call is 
+directed to the configured extension number.
 
+!!! info "IMPORTANT"
 
-!!! info "IMPORTANTE"
-
-    É importante que o requerente, ou seja, a pessoa que faz a conexão, já tenha um registro no CITSmart.
+    It is important that the applicant, that is, the person making the connection, already has a registration in CITSmart.
     
-Webservice de registro de nova solicitação
+New request registration webservice
 ---------------------------------------------
 
-1. Após a ligação ser direcionada para o número do ramal configurado, o webservice novaSolicitacao recebe o CPF do solicitante e 
-apresenta uma tela para visualização dos dados do solicitante e permitir a abertura de uma nova solicitação, conforme exemplo 
-ilustrado na figura abaixo:
+1. After the connection is directed to the configured extension number, the webservice novaSolicitacao receives the SSN from the 
+requestor and displays a screen to view the data of the requestor and allows the opening of a new request, as shown in the figure 
+below:
 
-    ![Registro](images/webserv-tele.img3.jpg)
+    ![Entry](images/integration.img3.jpg)
     
-    **Figura 3 - Tela para registro de nova solicitação**
+    **Figure 3 - Screen for new request registration**
     
-2. Caso o solicitante não tenha o CPF registrado no CITSmart, ao apresentar a tela para abertura de nova solicitação, será exibida uma mensagem informando que o solicitante não possui identificação, conforme exemplo ilustrado na figura abaixo:
+2. If the applicant does not have the SSN registered in CITSmart, when presenting the screen to open a new request, a message 
+will be displayed stating that the applicant has no identification, according to the example shown in the figure below:
 
-    ![Nova](images/webserv-tele.img4.jpg)
+    ![New](images/integration.img4.jpg)
     
-    **Figura 4 - Tela para registro de nova solicitação**
+    **Figure 4 - Screen for new request registration**
     
-Webservice de visualizar solicitação
+Request view webservice
 ---------------------------------------
 
-1. Após a ligação direcionada para o número do ramal configurado, o webservice visualizarSolicitacao recebe o ID da solicitação,
-CPF do solicitante e apresenta a tela de visualização/execução da solicitação, conforme exemplo ilustrado nas figuras abaixo:
+1. After the call is directed to the configured extension number, the webservice visualizarSolicitacao is given the request ID, 
+requestor's SSN and displays the request display/execution screen, as shown in the figures below:
 
-    ![Execução](images/webserv-tele.img5.jpg)
+    ![Execute](images/integration.img5.jpg)
     
-    **Figura 5 - Tela para execução da solicitação**
+    **Figure 5 - Screen to execute the request**
     
-    ![Visualização](images/webserv-tele.img6.jpg)
+    ![View](images/integration.img6.jpg)
     
-    **Figura 6 - Tela para visualização da solicitação**
+    **Figure 6 - Screen for request visualization**
     
-2. Para execução da solicitação é necessário que o usuário tenha permissão.
+2. To execute the request, the user must have permission.
 
-3. Quando é clicado no botão visualizar da solicitação, caso o parâmetro "A telefonia deve lançar uma solicitação filha, referente
-à visualização de informações de uma solicitação já existente?" esteja ativado, será feito o lançamento de uma solicitação de 
-serviço relacionada à solicitação visualizada. Essa será encerrada automaticamente.
+3. When the request view button is clicked, should the "The telephony should launch a child request, referring to display 
+information from an existing service request? " Is activated, a service request related to the displayed request will be 
+launched. This will exit automatically.
 
-Webservice de obter quantidade de solicitações
+Get number of requests webservice
 -----------------------------------------------
 
-O webservice obterQtdeSolicitacoes recebe o CPF do solicitante e retorna à quantidade de solicitações de serviço “em andamento” na
-forma de texto.
+The webservice obterQtdeSolicitacoes receives the requestor's SSN and returns the number of "in progress" service requests in 
+text form.
 
-Esse webservice é requisitado pelo sistema de telefonia para que ele devolva a quantidade de solicitações, em andamento do usuário
-que possui o CPF passado como parâmetro.
+This webservice is requested by the telephone system to return the amount of requests, in progress of the user who has the SSN 
+passed as a parameter.
 
-Quando o solicitante possuir apenas uma solicitação, será retornado o texto “1?” seguido do número da solicitação de serviço “em 
-andamento”, exemplo: 1?34534. Do contrário será a quantidade estabelecida. E quando o solicitando não possuir solicitação, será 
-retornado vazio.
+When the requestor has only one request, the text "1?" Will be returned followed by the "in progress" service request number, for 
+example: 1?34534. Otherwise it will be the amount set. And when the requesting has no request, it will be returned empty.
 
-Webservice de obter dados da solicitação
+Get request data webservice
 -------------------------------------------
 
-O webservice obterDadosSolicitação recebe o ID da solicitação e retorna os dados da solicitação: ID, data de abertura, prazo limite,
-situação e se está dentro do prazo.
+The webservice obterDadosSolicitação receives the request ID and returns the request data: ID, opening date, deadline, situation 
+and if it is on time.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/07/2019 - Larissa Lourenço
+    <b>Updated:</b>09/12/2019 - Larissa Lourenço
 
-[1]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-smart-portal.html
+[1]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-smart-portal.html
 
