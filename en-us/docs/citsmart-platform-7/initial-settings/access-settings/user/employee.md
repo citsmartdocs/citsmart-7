@@ -1,190 +1,187 @@
-title: Cadastro e pesquisa de colaborador
+title: Staff registration and search
+Description: This feature allows registering every person who has any ties to the organization, such as: an employee, an associate, etc.
 
-Description: Esta funcionalidade permite cadastrar cada pessoa que possuir algum tipo de vínculo com a organização, tais como: um funcionário, um parceiro, etc.
+# Staff registration and search
 
-# Cadastro e pesquisa de colaborador
+This feature allows registering every person who has any ties to the
+organization, such as: an employee, an associate, etc.
 
-Esta funcionalidade permite cadastrar cada pessoa que possuir algum tipo de
-vínculo com a organização, tais como: um funcionário, um parceiro, etc.
+How to access
+-------------
 
-Como acessar
------------
+1.  Access the staff feature navigating through the main menu **General
+    Registration > Staff Management > Staff**.
 
-1.  Acesse a funcionalidade de colaborador através da navegação no menu
-    principal **Cadastro Gerais > Gerência de Pessoal > Colaborador**.
+Preconditions
+-------------
 
-Pré-condições
-------------
+1.  Register the unit (see knowledge [Unit registration and
+    search][1]);
 
-1.  Cadastrar unidade (ver conhecimento [Cadastro e pesquisa de
-    unidade](/pt-br/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html));
+2.  Register a position (see knowledge [Position registration and
+    search][2]).
 
-2.  Cadastrar cargo (ver conhecimento [Cadastro e pesquisa de
-    cargo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/position.html)).
-
-Filtros
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filters enables the user to restrict the participation of
+    items in the standard feature listing, making it easier to find the desired
+    items:
 
-    -   Nome;
+    -   Name;
 
-    -   CPF;
+    -   ID;
 
-    -   Situação.
+    -   Status.
 
-2.  Clique na aba **Pesquisa de Colaborador**, será apresentada a tela
-    de **Pesquisa de Colaborador**, conforme ilustrado na figura abaixo:
+2.  Click on the **Search Staff** tab, the **Staff Search** screen will be
+    displayed as shown in the figure below:
 
-    ![Criar](images/employee-1.png)
-    
-    **Figura 1 - Tela de pesquisa de colaborador**
+![Criar](images/employee-1.png)
 
-3.  Realize a pesquisa de colaborador:
+**Figure 1 - Staff member search**
 
-    -   Informe o nome, CPF e/ou situação do colaborador e clique no
-    botão *Pesquisar*. Após isso, será exibido o registro de colaborador
-    conforme os dados informados;
+3.  Conduct a staff member search;
 
-    -   Caso deseje listar todos os registros de colaborador, basta clicar
-    diretamente no botão *Pesquisar*.
+-   Insert the name, identification number and/or the staff member's current
+    status and click on the *Search* button;
 
-Listagem de itens
-----------------
+-   To list all the staff member entries, just click directly on
+    the *Search* button, if needed.
 
-1.  O seguinte campo cadastral está disponível ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Nome**.
+Items list
+----------
 
-     ![Criar](images/employee-2.png)
-     
-     **Figura 2 - Tela de listagem de colaborador**
+1.  The following cadastral field is available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: **Name**.
 
-2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a tela de cadastro exibindo o conteúdo referente ao registro
-    selecionado;
+![Criar](images/employee-2.png)
 
-3.  Para alterar os dados do registro do colaborador, basta modificar as
-    informações dos campos desejados e clicar no botão *Gravar*para que seja
-    gravada a alteração realizada no registro, onde a data, hora e usuário serão
-    gravados automaticamente para uma futura auditoria.
+**Figure 2 - Staff list screen**
 
-Preenchimento dos campos cadastrais
+2.  After searching, select the intended entry. Afterwards, they will be
+    redirected to the registry screen displaying the content belonging to the
+    selected entry.
+
+3.  To edit a staff member's information, just edit the data on the intended
+    fields and click on the *Save* button to confirm the changes to the
+    database, at which the date, time and user will be stored automatically for
+    a future audit.
+
+Filling in the registration fields
 ----------------------------------
 
-1.  Clique na aba **Cadastro de Colaborador**, será apresentada a tela
-    de **Cadastro de Colaborador**, conforme ilustrada na figura abaixo:
+1.  Click on the **Register Staff** tab, the **Staff Registration** screen will
+    be displayed, as shown in the figure below:
 
-    ![Criar](images/employee-3.png)
-    
-    **Figura 3 - Tela de cadastro de colaborador**
+![Criar](images/employee-3.png)
 
-2.  Preencha os campos conforme orientações abaixo:
+**Figure 3 - Staff entry screen**
 
-    -   **Nome**: informe o nome do novo colaborador;
+2.  Fill out the fields as instructed below:
 
-    -   **Tipo de Parceiro**: informe o tipo de vínculo que o colaborador possui
-        com a empresa;
+-   **Name**: insert the staff member name;
 
-    -   **Situação**: informe se o colaborador está atuando ou não na empresa,
-        em caso positivo informar “*Ativo*” ou se estiver afastado por algum
-        motivo, informar “*Inativo*”;
+-   **Partner type**: insert the staff member's type of ties to the company;
 
-    -   **E-mail**: informe o e-mail do colaborador para estabelecer um canal de
-        comunicação;
+-   **Status**: insert if the staff member currently works or not at the
+    company, if it is so select "Active", if not or if the member is on leave
+    for some reason select "Inactive";
 
-    -   **Telefone**: informe o código de área (DDD) e o número do telefone do
-        colaborador;
+-   **E-mail**: insert the staff member's e-mail address to establish a means of
+    communication;
 
-    -   **Ramal**: informe o número do ramal (divisão interna de um sistema
-        telefônico) do colaborador
+-   **Phone**: insert the area code and the staff member's phone number;
 
-    -   **Unidade**: informe a unidade na qual o colaborador está alocado. Caso
-        não encontre a unidade, é possível realizar um cadastro rápido a partir
-        desta tela, basta clicar no ícone ![Criar](images/employee-4.png)  ;
+-   **Extension**: insert the extension (internal division of a telephone
+    system) number of the staff member;
 
-    -   **Cargos**: selecione o cargo que o colaborador ocupará. Caso não
-        encontre o cargo, é possível realizar um cadastro rápido a partir desta
-        tela, basta clicar no ícone ![Criar](images/employee-4.png)  ;
+-   **Unit**: insert the unit where the staff member is assigned to. If the unit
+    cannot be found, perform a quick registration from this screen by simply
+    clicking the ![Criar](images/employee-4.png) button;
 
-    -   Preencha as informações a respeito do pagamento do colaborador:
+-   **Position**: select the staff member's position. If the position cannot be
+    found, a quick entry can be created on this screen by clicking on the ![Criar](images/employee-4.png) button ;
 
-        -   **Valor Salário(R\$)**: informe o valor do salário do colaborador;
+-   Fill out the information concerning the staff member's payment:
 
-        -   **Valor Produtividade Média(R\$)**: informe o valor da
-                produtividade média do colaborador;
+    -   **Salary**: insert the staff member's salary;
 
-        -   **Valor Plano de Saúde (Valor pago pela empresa) (R\$)**:
-                informe o valor do plano de saúde pago pela empresa;
+    -   **Average Productivity Cost**: insert the staff member average
+        productivity cost;
 
-        -   **Valor Vale Transporte (Média)(R\$)**: informe o valor do vale
-                transporte pago pela empresa para o colaborador;
+    -   **Health Care Plan**: insert the health care plan cost paid by the
+        company;
 
-        -   **Valor Vale Refeição/Alim. (Média) (R\$)**: informe o valor do
-                vale refeição/alimentação pago pela empresa para o colaborador;
+    -   **Transportation Benefits**: insert the cost of the transportation
+        benefits paid by the company to the staff member;
 
-        -   **Custo por Hora (Calculado pelo sistema) (R\$) e Custo
-                Total Mensal (Calculado pelo sistema)**: estes campos serão
-                preenchidos após a realização dos cálculos feitos pelo sistema;
+    -   **Food Benefits**: insert the cost of the food benefits paid by the
+        company to the staff member;
 
-        -   **Agência**: informe a agência bancária do colaborador;
+    -   **Cost per Hour and Total Monthly Cost (Calculated by the system)**:
+        these fields will be filled out after the system calculations;
 
-        -   **Conta**: informe o número da conta bancária do colaborador.
+    -   **Bank Agency**: insert the staff member's bank agency number;
 
-    -   Informe os dados pessoais do colaborador:
+    -   **Bank Account**: insert the staff member's bank account number;
 
-        -   **CPF/CNPJ**: informar o número do CPF/CNPJ do colaborador;
+-   Insert the staff member's personal data
 
-        -   **Data de Nascimento**: informe a data de nascimento do colaborador;
+    -   **ID (Social Security or Company ID Number)**: insert the staff member's
+        social security number or company ID number;
 
-        -   **Sexo**: marque uma das opções referentes ao sexo do colaborador:
-            Masculino ou Feminino;
+    -   **Date of Birth**: insert the staff member's date of birth;
 
-        -   **RG**: informe o número do RG do colaborador;
+    -   **Gender**: check the option related to the staff member's gender: Male
+        or Female;
 
-        -   **Data Emissão RG**: informe a data de emissão do RG do colaborador;
+    -   **Identification Number (ID Number)**: insert the staff member's ID
+        number ;
 
-        -   **Órgão Exp. RG**: informe o órgão expedidor do RG;
+    -   **ID Issue Date**: insert the ID issue date ;
 
-        -   **UF Exped. RG**: informe o estado, onde foi emitido o RG;
+    -   **ID Issue Bureau**: insert the government branch responsible for
+        issuing the ID;
 
-        -   **Número CTPS**: informe o número da CTPS (Carteira de Trabalho e
-             Previdência Social) do colaborador;
+    -   **State Issued**: insert the state where the ID was issued;
 
-        -   **Data Emissão CTPS**: informe a data de emissão da CTPS do colaborador;
+    -   **Working Card Number**: insert the number of the staff member's working
+        card;
 
-        -   **Série CTPS**: informe a série da CTPS;
+    -   **Issue Date**: insert the issue date of the staff member's working
+        card;
 
-        -   **UF CTPS**: selecione o estado, onde foi emitida a CTPS;
+    -   **Series**: insert the series of the CTPS (working card) ;
 
-        -   **Matrícula - NIT (PIS ou PASEP)**: informe o número de identificação do
-            trabalhador (PIS ou PASEP);
+    -   **State**: select the state where the CTPS (working card) was issued;
 
-        -   **Data de Admissão**: informe a data de admissão do colaborador;
+    -   **Enrollment - NIT**: insert the staff member's employment ID number ;
 
-        -   **Data Desligamento**: informe a data de desligamento do colaborador,
-            quando o mesmo for desligado;
+    -   **Issue date**: insert the staff member's hiring date;
 
-        -   **Cônjuge**: informe o nome do cônjuge do colaborador, ou seja, o nome
-             da pessoa que em que se tem uma união estável;
+    -   **Date of Termination**: insert the staff member's termination date, the
+        moment they are discharged ;
 
-        -   **Estado Civil**: selecione o estado civil do colaborador;
+    -   **Partner**: insert the name of the staff member's spouse, that is, the
+        name of the person married to the employee;
 
-        -   **Nome do Pai**: informe o nome do pai do colaborador;
+    -   **Marital Status**: select the staff member's marital status;
 
-        -   **Nome da Mãe**: informe o nome da mãe do colaborador;
+    -   **Father's Name**: insert the name of the staff member's father;
 
-        -   **Observação**: informe alguma observação que achar conveniente sobre o
-             colaborador.
+    -   **Mother's Name**: insert the name of the staff member's mother;
 
-3.  Após informar os dados, clique no botão *Gravar* para efetuar o registro,
-    onde a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria.
+    -   **Observation**: insert relevant information about the staff member;
+
+3.  After inserting the information, click on the *Save* button to confirm the
+    entry, at which date, time and user will be store automatically for a future
+    audit.
+
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/23/2019 – Anna Martins
+    <b>Updated:</b>09/12/2019 – Anna Martins
