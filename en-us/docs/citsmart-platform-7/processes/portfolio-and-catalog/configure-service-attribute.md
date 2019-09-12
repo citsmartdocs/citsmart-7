@@ -767,14 +767,13 @@ Linking knowledge to service
 2.  There is one action buttons available to the user in relation to each item
     in the listing, it is: *Unlink*.
 
-   ![figure](images/configure-16.png)
+    ![figure](images/configure-16.png)
    
-   **Figure 16 - Service link screen**
+    **Figure 16 - Service link screen**
 
-   !!! note "NOTE"
+    !!! note "NOTE"
 
-       If the service is available in the Smart Portal, the knowledge related to
-       it will also be displayed in the Smart Portal.
+        If the service is available in the Smart Portal, the knowledge related to it will also be displayed in the Smart Portal.
 
 3.  Click the *Link Knowledge* button. Once this is done, the knowledge search
     screen will be displayed. Perform the search, select the desired knowledge
@@ -798,7 +797,7 @@ Linking skills to service
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Skill (Capability) Name.
+    - Skill (Capability) Name.
 
 ### Items list
 
@@ -809,9 +808,9 @@ Linking skills to service
 2.  There are action buttons available to the user for each item in the listing,
     they are: *Edit* and *Unlink*;
 
-   ![figure](images/configure-17.png)
+    ![figure](images/configure-17.png)
    
-   **Figure 17 - Service capability link screen**
+    **Figure 17 - Service capability link screen**
 
 3.  Click the *Link Capability* button. Once this is done, the skill search
     screen will be displayed. Perform the search, select the skills you want,
@@ -842,7 +841,7 @@ The procedure will be used at the time of disasters related to the service.
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Service Name.
+    - Service Name.
 
 ### Items list
 
@@ -862,9 +861,9 @@ The procedure will be used at the time of disasters related to the service.
 1.  Click the *New Procedure* button. Once this is done, the Procedure Record
     screen will be displayed, as shown in the figure below:
 
-   ![figure](images/configure-19.png)
+    ![figure](images/configure-19.png)
    
-   **Figure 19 - Service procedure record screen**
+    **Figure 19 - Service procedure record screen**
 
 2.  Fill in the fields as shown below:
 
@@ -936,7 +935,7 @@ Administration of service assessments
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Date.
+    - Date.
 
 ### Items list
 
@@ -948,9 +947,9 @@ Administration of service assessments
 2.  There are action buttons available to the user for each item in the listing,
     they are: *Delete Evaluation* and *Approve Rating* *(Evaluation)*;
 
-   ![figure](images/configure-20.png)
+    ![figure](images/configure-20.png)
    
-   **Figure 20 - Assessment management screen**
+    **Figure 20 - Assessment management screen**
 
 3.  Enter the service evaluation registration period and click
     the *Search* button. After this, the evaluations (note and comment) of the
