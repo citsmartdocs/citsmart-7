@@ -20,8 +20,9 @@ Filters
 
 1. The following filters enables the user to restrict the participation of items in the standard feature listing, making it easier to find the desired items:
 
-- Description;
-- Status.
+   - Description;
+
+   - Status.
 
     ![figure](images/wo-1.png)
     
@@ -29,8 +30,9 @@ Filters
 
 2. Perform the formula search:
 
-- Enter the description and/or status of the formula you want to search for and click the Search button. After that, the record will be displayed according to the data entered.
-- If you want to list all the formula records, simply click the Search button directly.
+   - Enter the description and/or status of the formula you want to search for and click the Search button. After that, the record will be displayed according to the data entered.
+   
+   - If you want to list all the formula records, simply click the Search button directly.
 
 Itens list
 ----------------
@@ -56,8 +58,9 @@ Filling in the registration fields
 
 2. Fill in the fields as directed below:
 
-- Description: enter the name of the formula;
-- Options: variables available to describe the formula. In the table below the purpose of these variables is presented for a better understanding.
+   - Description: enter the name of the formula;
+   
+   - Options: variables available to describe the formula. In the table below the purpose of these variables is presented for a better understanding.
 
     ![figure](images/wo-4.png)
 
@@ -82,11 +85,11 @@ Filling in the registration fields
 
     !!! info "IMPORTANT"
 
-         You can use the "{}" keys to delimit a text you wish to include in the formula, where it will not influence the calculation of the activity value.
+         You can use the "{}" keys to delimit a text you wish to include in the formula, where it will not influence the                    calculation of the activity value.
 
 6. If you add a numeric value next to a variable, it will be concatenated with it.
 
-- Status: inform the situation of the formula.
+   - Status: inform the situation of the formula.
 
 7. After the data is entered, click the Save button to register, where the date, time and user will be saved automatically for a future audit;
     
