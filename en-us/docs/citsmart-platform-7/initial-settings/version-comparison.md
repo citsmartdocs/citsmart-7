@@ -1,8 +1,8 @@
 title:  Comparing the versions (ITSM)
-Description: Disponibiliza a comparação das versões Provides the Comparing the versions. 
+Description:Provides the Comparing the versions. 
 # Comparing the versions (ITSM)
 
-![Comparação](images/compa-img1.jpg)
+![Comparing](images/compa-img1.jpg)
 
 Click to access PDF version.
 
