@@ -1,92 +1,112 @@
-title: Autenticação (login)
-Description: Esta funcionalidade tem por objetivo explicar a autenticação (login) de usuários em diversos ambientes.
-# Autenticação (login)
+title: Authentication (login)
+Description: This functionality is intended to explain the authentication of users in different environments.
 
-Esta funcionalidade tem por objetivo explicar a autenticação (login) de usuários em diversos ambientes.
+# Authentication (login)
 
-Como acessar
----------------
+This functionality is intended to explain the authentication of users in
+different environments.
 
-1. Digitar URL da instância que deseja acessar, exemplo: https://itsm.citsmartcloud.com\citsmart
+How to access
+-------------
 
-Pré-condições
----------------
+1.  Enter URL of the instance you want to access, for example:
+    https://itsm.citsmartcloud.com\\citsmart
 
-1. Ter pelo menos um usuário ativo no sistema (ver conhecimento [Cadastro e pesquisa de usuário](/pt-br/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html)).
+Preconditions
+-------------
 
-Logando no ambiente
-----------------------
+1.  Have at least one active user on the system (see knowledge [User
+    registration and search][1]).
 
-![Tela](images/autenti-img1.jpg)
+Logging in the environment
+--------------------------
 
-**Figura 1 - Tela de autenticação**
+![Informações](images/autenti-img1.jpg)
 
-![simbolo](images/num1.png) permite o usuário escolher de uma lista em qual ambiente será feita a autenticação:
+**Figure 1 - Authentication screen**
 
-- citsmart.local: ambiente default onde os usuários são cadastrados no banco de dados da aplicação;
-- <domínio1>
-- <domínio2>
-- ...
-- <domínioN>
-    
-    !!! warning "ATENÇÃO"
-    
-        Esta lista de domínios personalizados conterá itens se e somente se: (i) o Administrador criar personalizar ao menos um 
-        domínio de autenticação LDAP (ver conhecimento Cadastro e pesquisa de conexões LDAP); e (ii) o parâmetro 383 - Habilitar 
-        listagem de domínios no login estiver configurado para mostrar a lista.
-        
-![simbolo](images/num2.png) login previamente cadastrado por um administrador.
+- **1**: allows the user to choose from a list in which environment the authentication
+will be done:
 
-![simbolo](images/num3.png) previamente cadastrada por um administrador.
+-   citsmart.local: default environment where users are registered in the
+    application database;
 
-![simbolo](images/num4.png) permite o usuário recuperar sua senha.
+-   \<domain1\>
 
-![Recuperação](images/autenti-img2.jpg)
-    
-**Figura 2- Tela para recuperação de senha**
-    
-![simbolo](images/num5.png) disponibiliza os meios de contato com o administrador.
+-   \<domain2\>
+
+-   ...
+
+-   \<domainN\>
+
+!!! warning "ATTENTION"
+
+    This list of custom domains will contain items if and only if: (i) the
+    administrator creates custom at least one LDAP authentication domain
+    (see **[LDAP connections registration and search][1]);
+    and (ii) parameter 383 - Enable domain listing in login is configured to
+    show the list.
+
+- **2**: login previously registered by an administrator.
+
+- **3**: previously registered by an administrator.
+
+- **4**: allows the user to recover their password.
+
+![Informações](images/autenti-img2.jpg)
+
+**Figure 2- Password recovery screen**
+
+- **5**: provides the means of contact with the administrator.
 
 ![Informações](images/autenti-img3.jpg)
-    
-**Figura 3 - Tela de informações de contato**
-    
-Esqueci minha senha
+
+**Figure 3 - Contact information screen**
+
+I forgot my password
 --------------------
 
-Esta é uma opção importante porque não é incomum esquecermos nossa senha, afinal são muitas em muitos aplicativos.
+This is an important option because it is not uncommon we forget our password,
+because there are many in many applications.
 
-Pré-condições
----------------
+Preconditions
+-------------
 
-1. Deve existir ao menos um modelo de e-mail (ver conhecimento [Cadastro e pesquisa de configuração de modelo de e-mail](/pt-br/citsmart-platform-7/plataform-administration/email-settings/configure-email-template.html))
+1.  There must be at least one e-mail template (see [E-mail template
+    configuration registration and search][2])
 
-2. As palavras-chave indicadas para serem inseridas no modelo de e-mail são:
+2.  The keywords you enter to enter the e-mail template are:
 
-    - ${NOMEEMPREGADO} : retorna o nome do usuário que solicitou o reset de senha;
-    - ${LOGIN} : login do usuário que solicitou o rset de senha;
-    - ${NOVASENHA} : nova senha gerada pelo sistema.
-    
-3. Dever ser configurado o parâmetro: 116 - ID do modelo de e-mail para alteração da senha de acesso ao CITSmart
+    -   \${NOMEEMPREGADO} - Returns the name of the user who requested the
+        password reset;
 
-Como restaurar a senha
------------------------
+    -   \${LOGIN} - User login that requested password reset;
 
-1. Acessar a tela de login do CITSmart;
+    -   \${NOVASENHA} - New password generated by the system.
 
-2. Clicar no link **Esqueci minha senha**;
+3.  The parameter must be configured: 116 - E-mail template ID to change the
+    access password to CITSmart
 
-3. Informar o e-mail para onde será enviada a nova senha;
+How to restore the password
+---------------------------
 
-4. Após estes passos, o sistema atribui novo conteúdo provisório à senha do usuário e a envia por e-mail conforme modelo de 
-e-mail cadastrado.
+1.  Access the CITSmart login screen;
 
-!!! warning "ATENÇÃO"
+2.  Click on the link I forgot my password;
 
-    Caso a integração do CITSmart seja com LDAP, não será possível atribuir conteúdos à senha do usuário, Neste caso deve-se 
-    enviar ao usuário os meios de solicitar a restauração (reset) da senha.
+3.  Inform the e-mail where the new password will be sent;
+
+4.  After these steps, the system assigns new provisional content to the user's
+    password and sends it by e-mail according to the registered e-mail template.
+
+!!! warning "ATTENTION"
+
+    If the integration of CITSmart is with LDAP, it will not be possible to
+    assign contents to the user's password. In this case, the user must be sent
+    the means to request the password reset.
+
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/26/2019 - Larissa Lourenço
+    <b>Updated:</b>09/12/2019 - Anna Martins
