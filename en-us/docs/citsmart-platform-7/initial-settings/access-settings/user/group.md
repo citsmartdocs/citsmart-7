@@ -213,9 +213,10 @@ already selected, not allowing you to change them.
     information, at which the date, time and user will be stored automatically
     for a future audit.
 
-
+[1]:/en-us/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
+[2]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/employee.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/23/2019 – Anna Martins
+    <b>Updated:</b>09/12/2019 – Anna Martins
