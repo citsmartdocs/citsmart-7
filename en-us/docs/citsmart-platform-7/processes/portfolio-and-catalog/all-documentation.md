@@ -1,6 +1,6 @@
-title:  Visão geral do processo Portfólio e Catálogo
-Description: Disponibiliza todos os conhecimentos do processo. 
-# Visão geral do processo Portfólio e Catálogo
+title:  Portfolio and Catalog Process Overview
+Description: Provides all process knowledge. 
+# Portfolio and Catalog Process Overview
 
 [Service audit](/en-us/citsmart-platform-7/processes/portfolio-and-catalog/audit.html#auditoria-de-servicos)
 
