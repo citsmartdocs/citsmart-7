@@ -258,6 +258,8 @@ On the **Chart and Report Panel** screen, select the **Service
 Catalog** information group. The existing report in the group for generation of
 the same will be presented, as shown in the figure below:
 
+![Gráficos](images/painel.img10.jpg)
+
 **Figure 10 - Graphs and reports catalog catalog**
 
 !!! note "NOTE"
