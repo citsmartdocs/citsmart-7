@@ -1,224 +1,193 @@
-title: Manutenção de fluxo de trabalho
+title: Workflow maintenance
 
 Description: A funcionalidade de Manutenção de Fluxos tem a finalidade de modelar seus objetivos de negócio.
 
-# Manutenção de fluxo de trabalho
+# Workflow maintenance
 
-A funcionalidade de Manutenção de Fluxos tem a finalidade de modelar seus
-objetivos de negócio, descrevendo os passos que precisam ser executados para
-atingir esses objetivos, através de um fluxograma.
+The Flow Maintenance feature is intended to model your business objectives, describing the steps that need to be taken to achieve 
+those goals through a flowchart.
 
-Como acessar
+How to acess
 -----------
 
-1.  Acesse o menu principal **Sistema > Manutenção de Fluxos**.
+1. Access the main menu **System > Flow Maintenance**.
 
-Pré-condições
+Preconditions
 ------------
 
-1.  Não se aplica.
+1. No applicable.
 
-Filtros
-------
+Filters
+---------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-    -   Pesquisa.
+    - Search.
 
-    ![Criar](images/workflow-1.png)
+    ![Flow](images/workflow.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa fluxo**
+    **Figure 1 - Flow search screen**
 
-Listagem de itens
+Items list
 ----------------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Nome, Descrição, Processo, Versão e Data de início.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **Name, Description, Process, Version** and **Start data**.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar*, *Exportar* e *Excluir*.
+2. There are action buttons available to the user for each item in the listing, they are: *Edit, Export* and *Delete*.
 
-    ![Criar](images/workflow-2.png)
+    ![Listing](images/workflow.img2.jpg)
     
-    **Figura 2 - Tela de listagem de fluxo**
+    **Figure 2 - Flow listing screen**
 
-Criação de fluxo
+Flow creation
 ----------------
 
-### Preenchimento dos campos cadastrais
+### Filling in the registration fields
 
-1.  Clique no botão *Novo*. Após isso, será exibida a tela para definir as
-    informações do fluxo, conforme apresentada na figura abaixo:
+1. Click the *New* button. After that, the screen will be displayed to define the flow information, as shown in the figure below:
 
-    ![Criar](images/workflow-3.png)
+    ![Entry](images/workflow.img3.jpg)
     
-    **Figura 3 - Cadastro das informações do fluxo**
+    **Figure 3 - Flow information record**
 
-2.  Informe os dados do fluxo:
+2. Enter flow data:
 
-    -   **Nome**: informe o nome do fluxo;
+    - **Name**: enter the name of the stream;
 
-    -   **Descrição**: informe uma breve descrição do fluxo;
+    - **Description**: provide a brief description of the flow;
 
-    -   **Versão**: é apresentado a versão do fluxo neste campo;
+    - **Version**: the version of the stream in this field is displayed;
 
-    -   **Processo**: selecione o processo para qual será feito o desenho do fluxo.
+    - **Process**: select the process for which to design the flow.
 
-3.  Após os dados do fluxo registrados, clique na aba **Diagrama** para desenho
-    do fluxo. Após isso, será apresentada a área de desenho, conforme ilustrada
-    na figura abaixo:
+3. After the recorded flow data, click the Flow Chart **Diagram** tab. After that, the drawing area will be displayed, as shown 
+in the figure below
 
-    ![Criar](images/workflow-4.png)
+    ![Flow](images/workflow.img4.jpg)
    
-    **Figura 4 - Cadastro das informações do fluxo**
+    **Figure 4 - Flow information record**
 
-    -  **Eventos:** apresenta os elementos de eventos para ser utilizado no desenho
-       do fluxo;
+    - **Events**: presents the elements of events to be used in the flow design;
 
-    -  **Tarefas:** apresenta os elementos de tarefas para ser utilizado no desenho
-      do fluxo;
+    - **Tasks**: presents the elements of tasks to be used in the design of the flow;
 
-    -  **Gateways:** apresenta os elementos de condições para ser utilizado no
-      desenho do fluxo.
+    - **Gateways**: presents the elements of conditions to be used in flow design.
 
-        -  Para inserir os elementos, basta clicar no elemento desejado e arrastá-lo
-    para a área de desenho. Ao arrastar e soltar o elemento na área de desenho,
-    será exibida uma tela para definição das propriedades, conforme exemplo
-    ilustrado na figura abaixo.
+        - To insert the elements, simply click on the desired element and drag it to the drawing area. Dragging and dropping the 
+        element into the drawing area will display a screen for setting properties, as shown in the figure below:
 
-    ![Criar](images/workflow-5.png)
+    ![Definition](images/workflow.img5.jpg)
     
-    **Figura 5 - Definição das propriedades do elemento "Tarefa" do fluxo**
+    **Figure 5 - Definition of the properties of the "Task" element of the flow**
 
-    -  As propriedades de um elemento também podem ser definidas ao clicar duas
-    vezes no elemento ou clicar no elemento e logo após clicar no ícone
-    apresentado ao lado do mesmo, conforme indicado na figura abaixo:
+    - The properties of an element can also be defined by double-clicking on the element or clicking on the element and then 
+    clicking on the icon next to it as shown in the figure below:
 
-    ![Criar](images/workflow-6.png)
+    ![Element](images/workflow.img6.jpg)
     
-    **Figura 6 - Elemento do fluxo**
+    **Figure 6 - Flow element**
 
-      -  Caso queira excluir um elemento que foi inserido no desenho do fluxo, clique
-    no mesmo e pressione a tela Ctrl + Delete.
+      - If you want to delete an element that was inserted in the drawing of the flow, click on it and press the Ctrl + Delete 
+      screen.
 
-4.  Após o fluxo definido, clique no botão *Gravar* para efetuar a operação.
+4. After the stream is set, click the *Save* button to perform the operation.
 
-Vinculando a um conhecimento
+Linking to a knowledge
 ---------------------------
 
-1.  Ao clicar na aba "Base de Conhecimento" o usuário pode preencher o campo de
-    filtro com parte do título ou número do conhecimento desejado. Uma vez
-    selecionado, esse conhecimento ficará gravado associado à atividade do
-    fluxo,
+1. By clicking on the tab "Knowledge Base" the user can fill the filter field with part of the title or number of the desired 
+knowledge. Once selected, this knowledge will be recorded associated with the activity of the flow,
 
-!!! note "NOTA"
+!!! note "NOTE"
 
-     O objetivo principal desta vinculação de conhecimento é permitir que o
-     atendente de uma requisição/incidente tenha facilmente acesso a ele. Assim
-     que o fluxo chegue na atividade do fluxo vinculado a um conhecimento, o
-     ícone que é mostrado no canto superior direito da tela de Requisição/Incidente
-     para dar acesso de leitura ao conteúdo, para tanto, tal conhecimento
-     geralmente é um escrito na forma de um passo a passo.
+     The main purpose of this knowledge binding is to allow the attendant of a request/incident to have easy access to it. As 
+     soon as the flow arrives at the flow activity bound to a knowledge, the icon ![symbol](images/simb-books.jpg) is shown in 
+     the upper right corner of the Request/Incident screen to give read access to the content, for such, such knowledge is 
+     usually written in the form of a step at step. 
 
-   ![Criar](images/workflow-7.png)
+   ![Knowledge](images/workflow.img7.jpg)
     
-   **Figura 7 - Aba do conhecimento**
+   **Figure 7 - Knowledge tab**
 
-Implementando funcionalidades no fluxo sobre a atividade
-------------------------------------------------------
+Implementing the functionality in the flow on the activity
+------------------------------------------------------------------
 
-1.  Ao clicar nas propriedades da Tarefa de usuário localizada no fluxo,
-    selecionando a aba Interface, a seguinte tela será apresentada:
+1. When you click on the properties of the User Task located in the stream, selecting the **Interface** tab, the following screen 
+will be displayed:
 
-    ![Criar](images/workflow-8.png)
+    ![Interface](images/workflow.img8.jpg)
     
-    **Figura 8 - Aba interface**
+    **Figure 8 - Interface tab**
 
-2.  Preencha os campos conforme direcionamento abaixo:
+2. Fill in the fields as directed below:
 
-    -   **Tipo de interação**: é o modo com que a interface
-    de **Questionário** ou **Neuro **vai ser aplicada na solicitação de serviço;
+    - **Type of interaction**: is the way the Questionnaire or Neuro interface will be applied in the service request;
 
-    -   **Template**: permite a vinculação de template de solicitação de serviço
-    previamente cadastrada (ver conhecimento [Cadastro e pesquisa de template de
-    solicitação de serviço];
+    -   **Template**: allows the linking of previously registered service request template (see knowledge [Service request 
+    template registration and search][1];
 
-    !!! note "NOTA"
+    !!! note "NOTE"
 
-         Caso não ocorra a vinculação de nenhum template de solicitação de serviço na
-         aba interface, o sistema subentenderá e aplicará as configurações de um
-         formulário padrão, habilitando a vinculação de item de configuração,
-         mudança, problema e solicitação relacionada ao ticket tela de gerenciamento
-         de solicitação de serviço
+         If there is no binding of a service request template in the interface tab, the system will subtend and apply the 
+         settings of a standard form, enabling configuration, change, problem, and request related item linking service.
 
-    -   **Permite direcionar para grupo**: possibilita a ativação da opção
-    "Direcionar para grupo" no cadastro de um ticket;
+    - **Allows escalate to group**: enables the activation of the "Escalate to group" option in the registration of a ticket;
 
-    -   **Permite alteração da situação**: possibilita a escolha da etapa em que se
-    encontra o ticket na tela de solicitação de serviço (Registrada/Em
-    andamento; Resolvida e Cancelada);
+    - **Allows change of situation**: allows you to choose the stage in which the ticket is located on the service request screen (Registered, Solved and Canceled).
 
-    -   **Habilita notificação e-mail**: habilita a notificação por e-mail quando
-    criar novos tickets;
+    -   **Enables e-mail notification**: enables e-mail notification when creating new tickets;
 
-    -   **Permite delegar atendimento**: possibilita a ativação da opção "Delegar"
-    para que esta esteja visível no menu opções do gerenciamento de um ticket;
+    -  **Allows delegate service**: allows the activation of the "Delegate" option so that it is visible in the options menu of 
+    the management of a ticket;
 
-    -   **Permite alterar dados da tela**: possibilita a edição de questionários na
-    tela de gerenciamento do ticket.
+    - **Allows to change data**: allows you to edit questionnaires on the ticket management screen.
 
-    !!! note "NOTA"
+    !!! note "NOTE"
 
-        As normativas configuradas no fluxo terão prioridade em relação às
-        marcações do template de solicitação de serviço, pois esta é um complemento
-        do fluxo.
+        The rules configured in the flow will have priority over the service request template markings, as this is a complement 
+        to the flow.
 
-Exportação de fluxo
+Flow export
 ------------------
 
-1.  Na tela de **Manutenção de Fluxos**, busque pelo fluxo que deseja exportar.
-    Após isso, basta clicar no botão *Exportar* do registro do fluxo.
+1. On the **Flow Maintenance** screen, search for the flow you want to export. After that, just click on the *Export* tab of the 
+flow record.
 
-Importação de fluxo
+Flow import
 -------------------
 
-1.  Na tela de **Manutenção de Fluxos**, clique no botão *Novo*. Após isso, será
-    exibida a tela de cadastro, conforme ilustrada na figura 2;
+1. On the **Flow Maintenance** screen, click the *New* button. After that, the registration screen will be displayed, as shown in 
+figure 2.
 
-2.  Clique no botão *Importar JSON* para importar o arquivo no formato ".txt"
-    ou clique no botão *Importar XML* para importar o arquivo no formato ".xml";
+2. Click the Import JSON button to import the file in the ".txt" format or click the *Import XML* button to import the file in 
+the ".xml" format.
 
-3.  Após a importação do fluxo, clique no botão *Gravar* para efetuar a
-    operação.
+3. After importing the stream, click the *Save* button to perform the operation.
 
-Componente IBM WATSON
--------------------
+IBM WATSON component
+-----------------------
 
-1.  A partir da versão 7.2.2.0 um novo componente que interage com a **API
-    Conversation** do **IBM Watson** passou a estar disponível na barra de
-    ferramentas (grupo **Tarefa**), chamado de **Watson conversation** ![Criar](images/workflow-9.png).
+1. Starting with version 7.2.2.0 a new component that interacts with the IBM Watson Conversation API is now available on the 
+taskbar (Task group), called **Watson conversation** ![symbol](images/simb-world.jpg).
 
-2.  A solução **IBM Watson** é um sistema de resposta a perguntas em linguagem
-    natural que não usa respostas preparadas, mas determina suas respostas e
-    pontuações de confiança associadas, que são baseadas em conhecimento
-    adquirido;
+2. The IBM Watson solution is a natural language answering system that does not use prepared answers, but determines its 
+associated answers and confidence scores, which are based on acquired knowledge.
 
-3.  Ao incluir este componente em um fluxo, deve-se preencher seus atributos:
+3. When you include this component in a flow, you must fill in its properties:
 
-    -   **Nome**: nome que vem preenchido com "Conversação Watson";
+    -   **Name**: name that is filled in with "Watson Conversation" by default
 
-    -   **ID Workspace**: identificador a servir para referências;
+    -   **ID Workspace**: indentifier for references;
 
-    -   **Data da versão**: data que deve ser preenchida no formato aaaa-mm-dd;
+    -   **Version date**: date to be completed in the format yyyy-mm-dd;
 
-    -   **Usuário para conexão**: credencial de conexão;
+    -   **Username for connection**: connection credential;
 
-    -   **Senha para conexão**: credencial de conexão;
+    -   **Password for connection**: connection credential;
 
-    -   **Texto de entrada**: texto que aparecerá na entrada.
+    -   **Input text**: text that will appear in the input.
 
    !!! info "IMPORTANTE"
 
