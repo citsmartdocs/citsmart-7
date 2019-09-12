@@ -756,7 +756,7 @@ Linking knowledge to service
     in the standard feature listing, making it easier to locate the desired
     items:
 
--   Title.
+    - Title.
 
 ### Items list
 
