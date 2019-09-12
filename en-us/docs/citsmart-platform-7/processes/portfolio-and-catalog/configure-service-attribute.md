@@ -652,7 +652,7 @@ Linking contracts to the service
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Contract Number.
+    - Contract Number.
 
 ### Items list
 
