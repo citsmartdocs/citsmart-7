@@ -22,7 +22,7 @@ Filters
 
 1.  The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier to find the desired items:
 
-- Activity Title.
+   - Activity Title.
 
 2. Click on the Search tab. Afterwards, the search screen will be displayed, as illustrated on the image below:
 
@@ -60,27 +60,27 @@ Filling in the registration fields
 
 2.  Fillout the fields as instructed below:
 
-- Contract: select the contract which will a periodic activity scheduled ;
+   - Contract: select the contract which will a periodic activity scheduled ;
 
-- Activity Group: select the activity group, which will be tasked to perform the activity;
+   - Activity Group: select the activity group, which will be tasked to perform the activity;
 
-- Activity Title: insert the activity title;
+   - Activity Title: insert the activity title;
 
-- Change Request: insert the change request, in case the activity is related to a request;
+   - Change Request: insert the change request, in case the activity is related to a request;
 
-- Blackout: check this box if it is related to a blackout;
+   - Blackout: check this box if it is related to a blackout;
 
-- Activity Description: insert the activity description;
+   - Activity Description: insert the activity description;
 
-- Technical Guidance: insert the technical guidelines to perform the task;
+   - Technical Guidance: insert the technical guidelines to perform the task;
 
-- Link a SO to an activity, if necessary;
+   - Link a SO to an activity, if necessary;
 
-   - Click on the Link S.O. button. Afterwards, the
+      - Click on the Link S.O. button. Afterwards, the
 
-   - To remove a S.O. linked to an activity, just click on the ![figure](images/periodic-4.png) icon.
+      - To remove a S.O. linked to an activity, just click on the ![figure](images/periodic-4.png) icon.
 
-- Click on the New Appointment button to determine the activity period. Afterwards, the appointment screen will be displayed, as illustrated on the image below:
+   - Click on the New Appointment button to determine the activity period. Afterwards, the appointment screen will be displayed, as illustrated on the image below:
     
     ![figure](images/periodic-4.png)
     
