@@ -62,7 +62,7 @@ Cancelling a change request
 request;
 
     - In the closure area, in the field **Status**, select the **Cancelled** option;
-    - No campo **Fechamento**, descreva os detalhes do cancelamento da requisição de mudança;
+    - In the **Closure** field, describe the change request cancellation details;
     - In the **Closure** field, describe the change request cancellation details;
     - After registering the change request cancellation information, click on the *Save and Forward Flow* button to perform 
     the operation, at which the change request will be successfully cancelled;

@@ -1,114 +1,106 @@
-title: Cadastro e pesquisa de menu
-Description: Esta funcionalidade tem por objetivo permitir ao usuário a
-configuração dos itens de menu de acordo com as suas preferências.
+title: Menu registration and search
+Description:The goal of this feature is to allow the user to configure the menu items according to their preferences and improve the menu accessibility, where items can be arranged according to their needs.
 
-# Cadastro e pesquisa de menu
+# Menu registration and search
 
-Esta funcionalidade tem por objetivo permitir ao usuário a configuração dos
-itens de menu de acordo com as suas preferências. Prover melhor usabilidade no
-acesso aos menus, onde os itens podem ser organizados conforme a sua
-necessidade.
+The goal of this feature is to allow the user to configure the menu items
+according to their preferences and improve the menu accessibility, where items
+can be arranged according to their needs.
 
-Como acessar
-------------
+How to access
+-------------
 
-1.  Acesse o menu principal **Cadastros Gerais > Menu**.
+1.  Access the unit feature navigating through the main menu **General
+    Registration > Menu.**
 
-Pré-condições
-------------
+Preconditions
+-------------
 
-1.  Não se aplica.
+1.  No applicable.
 
-Filtros
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-   ![Criar](images/menu-1.png)
-   
-   **Figura 1 - Tela de pesquisa de menu**
+-   Name.
 
-2.  Realize a pesquisa do item de menu;
+![Criar](images/menu-1.png)
 
-    -   Informe a descrição do menu que deseja pesquisar e clique no
-    botão *Pesquisar*. Após isso, será exibido o registro de menu conforme a
-    descrição informada;
+**Figure 1 - Menu search screen**
 
-    -   Caso deseje listar todos os registros de menu, basta clicar diretamente no
-    botão *Pesquisar*.
+2.  Perform a menu search;
 
-Listagem de itens
-----------------
+-   Insert the name of the intended menu and click on the *Search* button.
+    Afterwards, the menu entry will be displayed according to the description
+    provided.;
 
-1.  O seguinte campo cadastral está disponível ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Descrição**.
+-   To list all menus, just click directly on the *Search* button, if needed.
 
-    ![Criar](images/menu-2.png)
-    
-    **Figura 2 - Tela de listagem de menu**
+Items list
+----------
 
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a tela de cadastro exibindo o conteúdo referente ao registro
-    selecionado;
+1.  The following cadastral field is available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: **Description**.
 
-2.  Para alterar os dados do registro de menu, basta modificar as informações
-    dos campos desejados e clicar no botão *Gravar* para que seja gravada a
-    alteração realizada no registro, onde a data, hora e usuário serão gravados
-    automaticamente para uma futura auditoria.
+![Criar](images/menu-2.png)
 
-Preenchimento dos campos cadastrais
+**Figure 2 - Menu listing screen**
+
+2.  After searching, select the intended entry. Afterwards, they will be
+    redirected to the registry screen displaying the content belonging to the
+    selected entry.
+
+3.  To edit a unit entry, just modify the information on the intended fields and
+    click on the *Save* button to confirm the changes to the database, at which
+    date, time and user will be stored automatically for a future audit.
+
+Filling in the registration fields
 ----------------------------------
 
-1.  Será apresentada a tela de **Cadastro de Menu**, conforme ilustrada na
-    figura abaixo:
+1.  The **Menu Registration** screen will be displayed, as illustrated on the
+    image below:
 
-    ![Criar](images/menu-3.png)
-    
-    **Figura 3 - Tela de Cadastro de Menu**
+![Criar](images/menu-3.png)
 
-1.  Preencha os campos conforme orientações abaixo:
+**Figure 3 - Menu entry screen**
 
-    -   **Nome**: informe a palavra-chave do item de menu, ex.: \$menu.nome.Menu;
+2.  Fill out the fields as instructed below:
 
-    -   **Descrição**: informe a descrição do novo item de menu, ex.: Cadastro de
-    Menu;
+-   **Name**: insert the keyword of the menu item , e.g.: \$menu.name.Menu;
 
-    -   **Menu Pai**: selecione um menu pai, caso o novo item seja um sub-menu;
+-   **Description**: insert the description of the menu item, e.g.: Menu Entry;
 
-    -   **Link**: informe o link de acesso ao novo item de menu, ex.:
+-   **Parent Menu**: select a parent menu, in case the new item is a
+    submenu;
+
+-   **Link**: insert the access link of the new menu item, e.g.:
     /menu/menu.load;
 
-    -   **Ordem dos Menus**: informe a posição do menu, ex.: 5;
+-   **Menu Order**: insert the menu position, e.g.: 5;
 
-    -   **Tags**: informe as tags para o item de menu (funcionalidade). As tags são
-    palavras-chave que servem justamente como uma etiqueta e ajudam na hora de
-    organizar informações, agrupando aquelas que receberam a mesma marcação,
-    facilitando encontrar outras relacionadas.
+-   **Tags**: insert the menu item tags (feature). Tags are keywords that act as
+    labels and assist in organizing information, joining those who have the same
+    label, making it easier to find other related items.
 
-1.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
-    onde a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria.
+3.  After inserting the data, click on the *Save* button to create the entry, at
+    which date, time and user will be automatically stored for a future audit.
 
-    -   O botão *Gerar XML* serve para gerar um arquivo no formato ".xml" dos menus;
+-   The *Generate XML* button generates a ".xml" extension menu.
 
-    -   O botão *Atualizar Menus* serve para atualizar os menus.
+-   The *Refresh Menus* button is for updating menus.
 
-    !!! warning "ATENÇÃO"
+!!! warning "ATTENTION"
 
-        Se faz necessário ter muito cuidado em relação à execução do
-        botão Atualizar Menus, pois todas as alterações cadastrais dos menus serão
-        perdidas desde a última vez que houve a geração de XML. Recomenda-se,
-        portanto, a seguinte sequência de execução: 
-        
-        (1) botão Gerar XML 
-        
-        (2) botão Atualizar Menus.
-
+    It is necessary to be very careful about executing the Update
+    Menus button, because all the cadastral changes of the menus will be lost
+    since the last generation of XML. It is recommended, therefore, the
+    following execution sequence: (1) Generate XML button and (2) Refresh
+    Menus button.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/23/2019 – Anna Martins
+    <b>Updated:</b>09/12/2019 – Anna Martins
