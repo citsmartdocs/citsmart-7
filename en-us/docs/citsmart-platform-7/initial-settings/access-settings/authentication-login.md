@@ -43,7 +43,7 @@ will be done:
 
     This list of custom domains will contain items if and only if: (i) the
     administrator creates custom at least one LDAP authentication domain
-    (see **[LDAP connections registration and search][1]);
+    (see **[LDAP connections registration and search][2]);
     and (ii) parameter 383 - Enable domain listing in login is configured to
     show the list.
 
@@ -73,7 +73,7 @@ Preconditions
 -------------
 
 1.  There must be at least one e-mail template (see [E-mail template
-    configuration registration and search][2])
+    configuration registration and search][3])
 
 2.  The keywords you enter to enter the e-mail template are:
 
@@ -105,7 +105,11 @@ How to restore the password
     assign contents to the user's password. In this case, the user must be sent
     the means to request the password reset.
 
-    
+[1]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/user-register.html
+[2]:/en-us/citsmart-platform-7/plataform-administration/authentication/ldap.html
+[3]:/en-us/citsmart-platform-7/plataform-administration/email-settings/configure-email-template.html
+   
+   
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
