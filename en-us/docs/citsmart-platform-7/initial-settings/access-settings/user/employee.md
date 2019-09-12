@@ -179,7 +179,8 @@ Filling in the registration fields
     entry, at which date, time and user will be store automatically for a future
     audit.
 
-
+[1]:/en-us/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html
+[2]:/en-us/citsmart-platform-7/plataform-administration/region-and-language/register-locations.html
 
 !!! tip "About"
 
