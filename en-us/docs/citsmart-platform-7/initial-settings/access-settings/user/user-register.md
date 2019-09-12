@@ -1,133 +1,126 @@
-title: Cadastro e pesquisa de usuário
-Description: Para que o colaborador possa acessar o sistema, é necessário criar um usuário que irá receber as credenciais para acessar o sistema e determinar o seu perfil de acesso.
+title: User registration and search
+Description: In order to allow the staff member to access the system, it is necessary to create a user entry to receive the credentials and create their access profile.
 
-# Cadastro e pesquisa de usuário
+# User registration and search
 
-Para que o colaborador possa acessar o sistema, é necessário criar um usuário
-que irá receber as credenciais para acessar o sistema e determinar o seu perfil
-de acesso.
+In order to allow the staff member to access the system, it is necessary to
+create a user entry to receive the credentials and create their access profile.
 
-Como acessar
------------
+How to access
+-------------
 
-1.  Acesse a funcionalidade de Usuário através da navegação no menu
-    principal **Cadastro Gerais > Gerência de Pessoal > Usuário**.
+1.  Access the user feature navigating through the main menu **General
+    Registration > Staff Management > User.**
 
-Pré-condições
------------
+Preconditions
+-------------
 
-1.  Ter um perfil de acesso definido (ver conhecimento [Cadastro e pesquisa de
-    perfil de acesso](/pt-br/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html));
+1.  Have an access profile (see knowledge [Access profile registration and
+    search][1]).
 
-2.  Ter o colaborador cadastrado (ver conhecimento [Cadastro e pesquisa de
-    colaborador](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html)).
+2.  The staff member needs to be registered (see knowledge [Staff registration
+    and
+    search][2]).
 
-Filtros
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filters enables the user to restrict the participation of
+    items in the standard feature listing, making it easier to find the desired
+    items:
 
-    -  Nome do Usuário;
+-   Name;
 
-    -  Login.
+-   Login.
 
-2.  Clique na aba **Pesquisa de Usuário**. Após isso, será apresentada a tela de
-    pesquisa, conforme ilustrada na figura abaixo:
+2.  Click on the **Search User** tab. The search screen will be displayed as
+    illustrated on the image below:
 
-    ![Criar](images/user-1.png)
-    
-    **Figura 1 - Tela de pesquisa de usuário**
+![Criar](images/user-1.png)
 
-3.  Realize a pesquisa do usuário.
+**Figure 1 - User search screen**
 
-    -   Informe o nome e/ou login do usuário que deseja pesquisar e clique no
-    botão *Pesquisar*. Após isso, será exibido o registro conforme os dados
-    informados;
+3.  Conduct a user search:
 
-    -   Caso deseje listar todos os registros, basta clicar diretamente no
-    botão *Pesquisar*.
+-   Insert the name of the intended user and click on the *Search* button.
+    Afterwards, the user entry will be displayed according to the description
+    provided.
 
-Listagem de itens
------------------
+-   To list all users, just click directly on the *Search* button, if needed.
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Nome do Usuário, Login e Usuário LDAP.
+Items list
+----------
 
-    ![Criar](images/user-2.png)
-    
-    **Figura 2 - Tela de listagem de usuário**
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature listing: **Name,
+    Login** and **LDAP User.**
 
-2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a tela de cadastro exibindo o conteúdo referente ao registro
-    selecionado;
+![Criar](images/user-2.png)
 
-3.  Para alterar os dados do registro de usuário, basta modificar as informações
-    dos campos desejados e clicar no botão *Gravar* para que seja gravada a
-    alteração realizada no registro, onde a data, hora e usuário serão gravados
-    automaticamente para uma futura auditoria.
+**Figure 2 - User listing screen**
 
-Preenchimento dos campos cadastrais
----------------------------------
+2.  After searching, select the intended entry. Afterwards, they will be
+    redirected to the registry screen displaying the content belonging to the
+    selected entry;
 
-1.  Será apresentada a tela de **Cadastro de Usuário**, conforme ilustrada na
-    figura abaixo:
+3.  To edit a user entry, just modify the information on the intended fields and
+    click on the *Save* button to confirm the changes to the database, at which
+    date, time and user will be stored automatically for a future audit.
 
-    !!! note "NOTA"
+Filling in the registration fields
+----------------------------------
 
-         Nos casos de autenticação LDAP, quando o usuário logar pela primeira vez,
-         o "perfil de acesso" do mesmo será definido pelo sistema, o qual é
-         configurado no parâmetro "39" - LDAP - Id do perfil de acesso que será
-         setado automaticamente caso o usuário não possua nenhum" (ver
-         conhecimento [Regras de parametrização - LDAP]().
+1.  The **Register User** screen will be displayed, as illustrated on the image
+    below:
 
-    ![Criar](images/user-3.png)
-    
-    **Figura 3 - Tela de cadastro de usuário**
+!!! note "NOTE"
 
-2.  Preencha os campos conforme orientações abaixo:
+    In cases of LDAP authentication, when the user logs in for the first time,
+    the "access profile" of the LDAP will be defined by the system, which is
+    configured in parameter "39" - LDAP - Id of the access profile that will be
+    set automatically if user does not have any "(see
+    knowledge **[Parameterization rules - LDAP][1]).
 
-    -  **Colaborador**: informe o nome do colaborador que terá acesso ao sistema;
+![Criar](images/user-3.png)
 
-    -  **Login**: informe o login que servirá para o acesso do colaborador ao
-    sistema;
+**Figure 3 - User registration screen**
 
-    -  **Perfil de Acesso**: selecione o perfil de acesso que irá determinar as
-    ações que o usuário poderá executar ao longo do sistema, assim como as
-    funcionalidades do mesmo que ele poderá acessar;
+2.  Fill out the fields as instructed below:
 
-    -  **Senha**: informe uma senha para acesso ao sistema;
+-   **Staff**: insert the name of the staff member accessing the system;
 
-    -  **Confirmação de senha**: informe a senha de acesso novamente;
+-   **Login**: insert the login which will be used to log in the system.
 
-    !!! note "NOTA"
+-   **Access Profile**: select the acess profile to determine the activies the
+    user will be able to perform within the system;
 
-         A digitação feita nos campos ‘Senha’ e ‘Confirmação de senha’ devem ser
-         literalmente a mesma para aceitar o cadastro, inclusive a questão de caixa
-         alta e caixa baixa.
+-   **Password**: insert a password to log in the system.
 
-    -  **Grupo**: adicione o(s) grupo(s) em que o usuário fará parte, para que o
-    mesmo tenha permissão para trabalhar nos fluxos de trabalhos dos processos
-    de gerenciamento;
+-   **Confirm Password**: insert the password again;
 
-       -  Clique no ícone ![Criar](images/user-4.png) . Será exibida uma janela para pesquisa do grupo que
-        deseja relacionar ao usuário;
+!!! note "NOTE"
 
-       -  Realize a pesquisa do grupo desejado e selecione o mesmo. Feito isso,
-        será adicionado o grupo ao cadastro do usuário;
+    Typing in the 'Password' and 'Confirm Password' fields should be literally
+    the same to accept the registration, include capital letter and low case.
 
-    -  O sistema importa a carga na tabela de colaboradores e usuário na tabela de
-    usuário através do botão *Importar* (ver conhecimento [Importação de
-    funcionários];
+-   **Group**: select the groups the user will be a part of, so they have
+    permission to work on the Management Processes Workflow;
 
-3.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
-    onde a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria.
+    -   Click on the,  ![Criar](images/user-4.png) icon . A search screen will be displayed so a group can be linked
+       to the user;
+
+    -   Perfrom a search for the intended group and select it. Afterwards, the
+        group will be added to the user's registry.
+
+3.  The system imports the load into the employee table and the user into the
+    user table via the *Import* button (see knowledge [Employee
+    import][2])
+
+4.  Click on the *Save* button to create the entry, at which date, time and user
+    will be automatically stored for a future audit.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/23/2019 – Anna Martins
+    <b>Updated:</b>09/12/2019 – Anna Martins
