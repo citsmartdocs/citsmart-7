@@ -38,7 +38,7 @@ necessary to create a new employee, it must be included in the Applicant Group i
 
 9. Have the change registered;
 
-10. Have the questionnaire registered (see knowledge [Questionnaires registration and search](/en-us/plataform-administration/questionnaires/questionnaires-management/register-questionnaire.html))
+10. Have the questionnaire registered (see knowledge [Questionnaires registration and search](/en-us/citsmart-platform-7/plataform-administration/questionnaires/questionnaires-management/register-questionnaire.html))
 
 Filters
 ----------
