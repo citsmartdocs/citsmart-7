@@ -13,7 +13,7 @@ How to access
 Preconditions
 --------------
 
-1. Register a Calendar (see knowledge Calendar registration and search).
+1. Register a Calendar (see knowledge [Calendar registration and search][1]).
 
 Filters
 ----------
@@ -91,3 +91,5 @@ automatically for a future audit.
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
     <b>Updated:</b>08/21/2019 – Larissa Lourenço
+    
+[1]:/en-us/citsmart-platform-7/plataform-administration/time/create-calendar.html
