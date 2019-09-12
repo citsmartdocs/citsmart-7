@@ -663,19 +663,17 @@ Linking contracts to the service
 2.  There are action buttons available to the user for each item in the listing,
     they are: *Edit*, *Unlink* and *Advance*;
 
-   ![figure](images/configure-14.png)
+    ![figure](images/configure-14.png)
    
-   **Figure 14 - Service contract link screen**
+    **Figure 14 - Service contract link screen**
 
 3.  Click the *Link Contract* button. Once this is done, the contract search
     screen will be displayed.
 
-   !!! info "IMPORTANT"
+    !!! info "IMPORTANT"
 
-      Only contracts of the type "contract" will be made available to link to
-      the business/IT service and only contracts of the type "support contract"
-      and "operational level agreement" to link to the support/technical
-      service. 
+        Only contracts of the type "contract" will be made available to link to the business/IT service and only contracts of 
+        the type "support contract" and "operational level agreement" to link to the support/technical service. 
 
 4.  Perform contract search. After that, just select the one to make the link
     successfully;
