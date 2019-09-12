@@ -29,9 +29,11 @@ Filters
 
 1. The following filters enables the user to restrict the participation of items in the standard feature listing, making it easier to find the desired items:
 
-- Contract;
-- Contract ID;
-- Add services to the Contract.
+   - Contract;
+   
+   - Contract ID;
+   
+   - Add services to the Contract.
 
 2. The Contract Administration screen will be displayed, as shown in the figure below:
 
@@ -52,18 +54,22 @@ Itens list
 
 3.  In this screen, it allows to perform a series of actions regarding the existing contracts, being:
 
-- Add Service to Contract;
-- Add Services to the Contract;
-- Contract Performance;
-- Remove Services;
-- Manage Global SLAs;
+   - Add Service to Contract;
+   
+   - Add Services to the Contract;
+   
+   - Contract Performance;
+   
+   - Remove Services;
+   
+   - Manage Global SLAs;
 
 Linking a service to the contract
 -------------------------------
 
 1.  To link a service to the agreement, follow the steps below:
 
-2. On the Contract Services tab, click the Add Service to Contract button, as shown in the figure below:
+2.  On the Contract Services tab, click the Add Service to Contract button, as shown in the figure below:
 
     ![Criar](images/manage-3.png)
     
@@ -78,23 +84,41 @@ Linking a service to the contract
 4.  Fill in the fields as directed below:
 
    -  Contract Services: inform the service that will be linked to the contract;
+   
    -  Operation Condition : select the period of execution of the service;
+   
    -  Start date: enter the start date of the service link to the contract;
+   
    -  End date: filling in this field can be done at the time of registration, informing a future date for inactivation of the service or only when it is inactivating the service;
+   
    -  Observation: describe the possible observations regarding the service;
+   
    -  Restrictions and Suppositions: inform the possible restrictions and assumptions for the execution of the service in the contract;
+   
    -  Objective: inform the purpose of the service in the contract;
+   
    -  Process Description: describe the service process in the contract;
+   
    -  Process Link: inform the service process design link, if it exists;
+   
    -  Requesting area: inform who can request the service;
+   
    -  E-mail Template for Incident/request (Open): select the request-opening e-mail template to send notification when registering a service request;
+   
    -  E-mail Template for Incident/Request (Closure): select the request completion template for sending notification at the end of a service request;
+   
    -  E-mail Template for Incident/request (Other Actions): select the e-mail template of request progress for sending notification in the other actions performed in the service requests;
+   
    -  First-line Escalation Group: select the group for 1st level attendance escalation;
+   
    -  Executor group: define the executor group of the service, if it does not inform it, the group defined in parameter "Group ID Level 1" will be considered;
+   
    -  Approver Group: define the approving group of the service;
+   
    -  Calendar: select the calendar of work;
+   
    -  Expand service request screen: if you want the service request screen to be enlarged, check the "yes" option;
+   
    -  Enter the service workflow
         
         *  Click the service flow icon ![Criar](images/manage-5.png);
@@ -106,12 +130,14 @@ Linking a service to the contract
    **Figure 5 - Service workflow record**
 
    -   Flow: select the flow that the service should follow;
+   
    -   Phase: enter the phase at which the flow will start;
+   
    -   Main Flow: inform if flow is main;
 
    !!! info "IMPORTANT"
 
-         If it is necessary to make use of more than one flow, it is important to inform which is            the main one.
+         If it is necessary to make use of more than one flow, it is important to inform which is the main one.
 
 
    *  Click Save to perform the operation.
@@ -137,37 +163,59 @@ Linking multiple services to the contract
 
 4.  Fill in the fields as directed below:
 
-- Operation Condition: select the period of execution of the services;
-- Start date: inform the initial date of the services in the contract;
-- End date: the filling of this field can be done at the time of registration, informing a future date for inactivation of the services or only when it is inactivating the services;
-- Observation: please provide us with any information you consider pertinent;
-- Restrictions and Suppositions: inform the possible restrictions and assumptions for the execution of the services in the contract;
-- Objective: state the objective of the services in the contract;
-- Process Description: describe the process of services in the contract;
-- Process link: inform the process design link of the services;
-- Requesting area: inform who can request the service;
-- E-mail Template for Incident/request (Open): select the request-opening e-mail template to send notification when registering a service request;
-- E-mail Template for Incident/Request (Closure): select the request completion template for sending notification at the end of a service request;
-- E-mail Template for Incident/request (Other Actions): select the e-mail template of request progress for sending notification in the other actions performed in the service request;
-- First-line Escalation Group: select the 1st level escalation group;
-- Executor Group: define the executing group of the services, if it does not inform it, the group defined in the parameter "Group ID Level 1" will be considered;
-- Approver Group: select the approving group of the services;
+      - Operation Condition: select the period of execution of the services;
+   
+   - Start date: inform the initial date of the services in the contract;
+   
+   - End date: the filling of this field can be done at the time of registration, informing a future date for inactivation of the services or only when it is inactivating the services;
+   
+   - Observation: please provide us with any information you consider pertinent;
+   
+   - Restrictions and Suppositions: inform the possible restrictions and assumptions for the execution of the services in the contract;
+   
+   - Objective: state the objective of the services in the contract;
+   
+   - Process Description: describe the process of services in the contract;
+   
+   - Process link: inform the process design link of the services;
+   
+   - Requesting area: inform who can request the service;
+   
+   - E-mail Template for Incident/request (Open): select the request-opening e-mail template to send notification when registering a service request;
+   
+   - E-mail Template for Incident/Request (Closure): select the request completion template for sending notification at the end of a service request;
+   
+   - E-mail Template for Incident/request (Other Actions): select the e-mail template of request progress for sending notification in the other actions performed in the service request;
+   
+   - First-line Escalation Group: select the 1st level escalation group;
+   
+   - Executor Group: define the executing group of the services, if it does not inform it, the group defined in the parameter "Group ID Level 1" will be considered;
+   
+   - Approver Group: select the approving group of the services;
 Calendar: select the calendar of work;
 
   - Please tell the services that will receive the configuration:
+      
       - Click the icon ![Criar](images/manage-5.png);
+      
       - A window will appear for service search;
+      
       - Perform the search and select the services you want.
+  
   - Enter the service workflow:
-      - Click the service flow icon ![figure](images/manage-5.png);
-      - A window will appear for information on the flow of the service, as shown in the figure below:
+     
+     - Click the service flow icon ![figure](images/manage-5.png);
+     
+     - A window will appear for information on the flow of the service, as shown in the figure below:
 
     ![Criar](images/manage-9.png)
 
     **Figure 8 - Service workflow record**
 
     -   Flow: select the flow that the services should follow;
+    
     -   Phase: enter the phase at which the flow will start;
+    
     -   Main Flow: inform if the flow is the main one;
 
     !!! info "IMPORTANT"
@@ -812,7 +860,7 @@ Creating invoice
 
     -  At the bottom of the **Invoice** screen, the Contract Service Level
     Agreements will be displayed. For each agreement, please state
-    the **breakdown, calculated value,% applied** and **glossed value**;
+    the **breakdown, calculated value, % applied** and **glossed value**;
 
     -  The Invoice **Total Amount**, Value Amount, Invoice Total
     Amount and Amount Invoice Amount** fields will be calculated after the
