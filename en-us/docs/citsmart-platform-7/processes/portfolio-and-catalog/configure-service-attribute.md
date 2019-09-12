@@ -507,12 +507,12 @@ Creating the service map design
 1.  Click **Service Map**. After that, the respective map for creating the
     service map will be displayed, as shown in the figure below:
 
-   ![figure](images/configure-9.png)
+    ![figure](images/configure-9.png)
    
-   **Figure 9 - Map creation screen of services map**
+    **Figure 9 - Map creation screen of services map**
 
 2.  Design the service map using the **Support Services** icons to represent the
-    support/technical services and the **Configuration Items**icons to represent
+    support/technical services and the **Configuration Items** icons to represent
     the CIs. Follow the guidelines below:
 
 -   Choose an icon to represent the support/technical service, click and drag it
