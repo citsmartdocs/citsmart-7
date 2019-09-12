@@ -175,11 +175,11 @@ Filling in the registration fields
 
 **Figure 5 - Workflow permissions**
 
--   To remove an activity allowed in the workflow, just click on the ![Criar](images/group-7.png) button;
+-   To remove an activity allowed in the workflow, just click on the ![Criar](images/group-6.png) button;
 
 -   To remove a permission from the workflow, select it and click on *Remove;*
 
--   To edit any permission in all Workflows information click on ![Criar](images/group-8.png).
+-   To edit any permission in all Workflows information click on ![Criar](images/group-7.png).
 -   **Employees**: add the group employees;
 
 -   Insert the name and SSN of the employee so they can be searched, then select
@@ -199,7 +199,7 @@ Filling in the registration fields
 -   If an external e-mail address needs to be included, click on *Add*. An
     e-mail entry screen will be displayed, as illustrated below:
 
-![Criar](images/group-9.png)
+![Criar](images/group-8.png)
 
 **Figure 6 - External e-mail entry**
 
