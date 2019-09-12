@@ -1,10 +1,10 @@
-title:  Especificação das interfaces web services (ITSM)
-Description: Disponibiliza a especificação dos web services. 
-# Especificação das interfaces web services (ITSM)
+title:  Web services interface specification (ITSM)M)
+Description: Provides the specification of web services. 
+# Web services interface specification (ITSM)
 
-Especificação de Application Programmable Interfaces (API)
+Application programmable interfaces (API) specification
 
-| URL                                                     | Parâmetros                                                                                                                                                                                                                                                                        | Retorno                                                                                                                                                                                                                         |
+| URL                                                     | Parameters                                                                                                                                                                                                                                                                        | Return                                                                                                                                                                                                                         |
 |---------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | /mobile/notification/feedback                           | sessionID, messageID, taskId, feedback, reasonId, comments                                                                                                                                                                                                                        | dateTime, operationID, error                                                                                                                                                                                                    |
 | /mobile/notification/getById                            | sessionID, messageID, taskId                                                                                                                                                                                                                                                      | site, notification, dateTime, operationID, error                                                                                                                                                                                |
@@ -60,4 +60,4 @@ Especificação de Application Programmable Interfaces (API)
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/07/2019 - Larissa Lourenço
+    <b>Updated:</b>09/12/2019 - Larissa Lourenço

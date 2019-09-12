@@ -1,151 +1,131 @@
-title: Cadastro e pesquisa de operações webservice
-Description: Os Web Services do CITSmart estão configurados para inclusão, atualização, consulta e cancelamento de solicitações de serviço (incidentes e
-requisições).
+title: Web service operations registration and search
+Description: Web service is a solution used in systems integration and communication between different applications.
 
-# Cadastro e pesquisa de operações webservice
+# Web service operations registration and search
 
-Web Service é uma solução utilizada na integração de sistemas e na comunicação
-entre aplicações diferentes, que permitem o envio e recebimento de dados no
-formato XML. Os Web Services do CITSmart estão configurados para inclusão,
-atualização, consulta e cancelamento de solicitações de serviço (incidentes e
-requisições).
+Web service is a solution used in systems integration and communication between different applications, which allows the sending 
+and receiving of data without XML format. The CTSmart ITSM Web Services are configured to include, update, query, and cancel 
+service requests (incidents and requests).
 
-Como acessar
-------------
+How to access
+--------------------
 
-1.  Acesse a funcionalidade de operação web service através da navegação no
-    menu principal **Sistema > Web Service > Operação de Web Service**.
+1. Access the web service operation functionality through navigation in the main menu 
+**System > Web Service > Web Service Operation**.
 
-Pré-condições
-------------
-
-1.  Não se aplica.
-
-Filtros
--------
-
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
-
-    -   Nome;
-
-    -   Descrição.
-
-2.  Na tela de **Operação Web Service**, clique na guia **Pesquisa de
-    Operações**, será apresentada a tela de pesquisa conforme ilustrada na
-    figura abaixo:
-
-    ![Criar](images/operation-1.png)
-    
-    **Figura 1 - Tela de pesquisa de operações**
-
-3.  Realize a pesquisa de operação;
-
-4.  Informe o nome e/ou descrição da operação e clique no botão *Pesquisar*.
-    Após isso, será exibido o registro conforme os dados informados;
-
-5.  Caso deseje listar todos os registros de operações, basta clicar diretamente
-    no botão *Pesquisar*.
-
-Listagem de itens
+Preconditions
 ----------------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Nome e Descrição.
+1. No applicable.
 
-    ![Criar](images/operation-2.png)
+Filters
+-----------
+
+1. The following filters enables the user to restrict the participation of items in the standard feature listing, making it 
+easier to find the desired items:
+
+    - Name;
+
+    - Description.
+
+2. On the **Web Service Operation** screen, click the **Operations Search** tab, the search screen will be displayed as shown in 
+the figure below:
+
+    ![Search](images/operation.img1.jpg)
     
-    **Figura 2 - Tela de listagem de operação web service**
+    **Figure 1 - Operations search screen**
 
-2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a tela de cadastro exibindo o conteúdo referente ao registro
-    selecionado;
+3. Perform the operation search.
 
-3.  Para alterar os dados da operação, basta modificar as informações desejadas
-    e clicar no botão *Gravar*.
+4. Enter the name and/or description of the operation and click the *Search* button. After that, the record will be displayed 
+according to the data entered;
 
-Preenchimento dos campos cadastrais
----------------------------------
+5. If you want to list all the operations logs, just click directly on the *Search* button;
 
-1.  Será apresentada a tela **Operação Web Service**, para realização do
-    cadastro de operação web service, conforme ilustrada na figura abaixo:
+Items list
+----------------
 
-    ![Criar](images/operation-3.png)
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **Name** and **Description**.
+
+    ![Listing](images/operation.img2.jpg)
     
-    **Figura 3 - Tela de cadastro de operação Web Service**
+    **Figure 2 - Web service operation listing screen**
 
-2.  Preencha os campos conforme orientações abaixo:
+2. After searching, select the desired record. Once this is done, it will be directed to the registration screen displaying the 
+contents of the selected registry;
 
-    -   **Nome**: informe o nome da operação;
+3. To change the operation data, simply modify the desired information and click the *Save* button.
 
-    -   **Tipo de Operação**: informe o tipo de operação, marcando umas das opções:
-    Síncrona ou Assíncrona;
+Filling in the registration fields
+--------------------------------------
 
-    -   **Descrição**: informe a descrição da operação;
+1. The **Web Service Operation** screen will be displayed to perform the web service operation register, as shown in the figure 
+below:
 
-    -   **Gera log**: informe se será gerado log, marcando umas das opções: Sim ou
-    Não;
-
-    -   **Situação**: selecione a situação da operação, marcando umas das opções:
-    Ativo ou Inativa;
-
-    -   **Tipo de Classe**: informe o tipo de classe, marcando umas das opções: Java
-    Script ou Java;
-
-    -   **Parâmetros**: se houver, defina os parâmetros da operação.
-
-3.  Para adicionar um parâmetro, clique no botão *Adicionar Parâmetro*, e será
-    apresentada a tabela para preenchimento do mesmo, conforme ilustração
-    abaixo:
-
-    ![Criar](images/operation-4.png)
+    ![Entry](images/operation.img3.jpg)
     
-    **Figura 4 - Preenchimento de parâmetro**
+    **Figure 3 - Web service operation registration screen**
 
-    -   Selecione o parâmetro desejado;
+2. Fill in the fields as directed below:
 
-    -   Informe um valor para o parâmetro;
+    - **Name**: enter the name of the operation;
 
-    -   Se desejar excluir o parâmetro, basta clicar no ícone ![Criar](images/operation-5.png)  e confirmar a
-    exclusão do mesmo;
+    - **Type of operation**: inform the type of operation, marking one of the options: Synchronous or Asynchronous;
 
-    -   Para cadastrar novo parâmetro, clique no botão *Cadastrar novo parâmetro*, e
-    será apresentada a tela para cadastro de novo parâmetro, conforme ilustração
-    abaixo:
+    - **Description**: enter the description of the operation;
 
-    ![Criar](images/operation-6.png)
+    - **Generates log**: inform if log will be generated, selecting one of the options: Yes or No;
+
+    - **Status**: select the situation of the operation, marking one of the options: Active or Inactive;
+
+
+    - **Class Type**: enter the class type by checking one of the options: Java Script or Java;
+
+    - **Parameters**: if there are, set the operation parameters.
+
+3. To add a parameter, click the *Add Parameter* button, and the table will be displayed to fill it, as shown below:
+
+    ![Filling](images/operation.img4.jpg)
     
-    **Figura 5 - Tela de cadastro de parâmetro**
+    **Figure 4 - Parameter filling**
 
-    -   **Identificador**: informe o identificador do parâmetro;
+    - Select the desired parameter;
 
-    -   **Descrição**: informe a descrição do parâmetro;
+    - Enter a value for the parameter;
 
-4.  Clique no botão *Gravar* para efetuar o registro de novo parâmetro.
+    - If you want to delete the parameter, simply click the ![symbol](images/sim-xis.red.jpg) and confirm the deletion;
 
-    -   **Permissões**: vincule o(s) grupo(s) que poderá(ão) executar a operação do
-    web service.
+    - To register a new parameter, click the *Create new parameter* button, and the screen for registering a new parameter will 
+    be displayed, as shown below:
 
-5.  Clique no botão *Adicionar Grupo*. Feito isso, será apresentada uma tela
-    para pesquisa de grupos;
+    ![Entry](images/operation.img5.jpg)
+    
+    **Figure 5 - Parameter register screen**
 
-6.  Realize a pesquisa, selecione o grupo e o mesmo será apresentado no quadro
-    de permissões;
+    - **Identifier**: enter the parameter identifier;
 
-7.  Para excluir o vínculo do grupo com a permissão, clique no ícone do mesmo;
+    - **Description**: enter the description of the parameter;
 
-8.  Clique no botão *Gravar* para efetuar o registro, onde a data, hora e
-    usuário serão gravados automaticamente para uma futura auditoria.
+4. Click the *Save* button to register the new parameter.
 
-!!! note "NOTA"
+    - **Permissions**: link the group (s) that will be able to execute the web service operation;
+
+5. Click the *Add Group* button. Once this is done, a screen for group search will be displayed;
+
+6. Perform the search, select the group and it will be displayed in the permissions box;
+
+7. To delete the group link with the permission, click the group's link.
+
+8. Click the *Save* button to register, where the date, time and user will be saved automatically for a future audit.
+
+!!! note "NOTE"
    
-     Para inserir no sistema as operações default do web service, deve-se
-     executar a carga dos scripts web service.
+     To insert the default web service operations into the system, you must load the web service scripts.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>7/26/2019 – Anna Martins
+    <b>Updated:</b>09/12/2019 – Larissa Lourenço
+    

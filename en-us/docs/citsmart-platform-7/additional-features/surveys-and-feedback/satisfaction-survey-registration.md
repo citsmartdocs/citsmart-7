@@ -1,179 +1,240 @@
-title:  Cadastro e pesquisa de pesquisa de satisfação
-Description: Possibilita ao usuário criar e configurar pesquisas de satisfação de acordo com suas necessidades.. 
-# Cadastro e pesquisa de pesquisa de satisfação
+title: Satisfaction survey registration and search
+Description: This feature enables the user to create and configure satisfaction surveys according to their needs.The survey form is constructed in the form of a Questionnaire.
 
-Esta funcionalidade possibilita ao usuário criar e configurar pesquisas de satisfação de acordo com suas necessidades.
+# Satisfaction survey registration and search
 
-O formulário da pesquisa é construído na forma de um questionário.
+This feature enables the user to create and configure satisfaction surveys
+according to their needs.The survey form is constructed in the form of a
+Questionnaire.
 
-Como acessar
----------------
+How to access
+-------------
 
-1. Acesse a funcionalidade: **Cadastros Gerais > Cadastro de Pesquisas**.
+1.  Access the functionality: **General Registration > Survey Register.**
 
-Pré-condições
-----------------
+Preconditions
+-------------
 
-1. Usuário precisa ter um Questionário cadastrado no sistema (ver conhecimento [Cadastro e pesquisa de categoria de questionários](/pt-br/citsmart-platform-7/plataform-administration/questionnaires/questionnaires-management/questionnaire-category.html));
+1.  User must have a Questionnaire registered in the system (see
+    knowledge [Questionnaire Category registration and search][1]);
 
+2.  Enter the content below into the parameter (see knowledge [Parameterization
+    rules - system][2]):
 
-2. Informe o conteúdo abaixo no parâmetro (ver conhecimento [Regras de parametrização - Sistema](/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-system.html)):
+-   Parameter 33: system URL.
 
-    - Parâmetro 33: URL do Sistema.
+Filters
+-------
 
-Filtros
+1.  The following filters enable the user to restrict the participation of items
+    in the standard feature listing, making it easier to locate the desired
+    items:
+
+-   **Title**
+
+-   **Type** (single choice)
+
+-   **Situation** (single choice)
+
+![Pesquisa](images/satis.img1.jpg)
+
+**Figure 1 - Survey search screen**
+
+Items list
 ----------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando
-a localização dos itens desejados:
+1.  The following cadastral fields are available to the user to make it easier
+    to identify the desired items in the standard feature
+    listing: **Title**, **Type** and **Status**.
 
-    - Título;
-    - Tipo (escolha única);
-    - Situação (escolha única).
+2.  There are action buttons available to the user in relation to each item in
+    the listing, they are: *Edit* and *Delete*.
 
-    ![Pesquisa](images/satis.img1.jpg)
-    
-    **Figura 1 - Tela de pesquisa de pesquisas**
-    
-Listagem de registros
----------------------------
+![Pesquisa](images/satis.img2.jpg)
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem
-padrão da funcionalidade: **Título, Tipo** e **Situação**.
+**Figure 2 - Survey listing screen**
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Editar" e "Excluir".
+Filling in the registration fields
+----------------------------------
 
-    ![Listagem](images/satis.img2.jpg)
-    
-    **Figura 2 - Tela de listagem de pesquisas**
-    
-Preenchimento dos campos cadastrais
--------------------------------------
+1.  Regardless of the type of record, the following fields must be completed:
 
-1. Independentemente do tipo do registro, os seguintes campos devem ser preenchidos:
+![Pesquisa](images/satis.img3.jpg)
 
-    ![Cadastro](images/satis.img3.jpg)
-    
-    **Figura 3 - Tela de cadastro de pesquisas**
-    
-    - **Título**: a pesquisa deve ter um título único no sistema;
-    - **Situação**: os valores possíveis são Ativo e Inativo;
-    - **Questionário**: o sistema permite que ocorra o vínculo da pesquisa a um Questionário cadastrado;
-    - **Tipo**: os valores possíveis são Público, Global, Catálogo, Serviço e Atividade/Satisfação;
-    - **Data inicial e Hora inicial**: restringem o momento inicial da aplicação da pesquisa;
-    - **Data final** e **Hora final**: restringem o momento final da aplicação da pesquisa;
-    - **Grupos interessados**: o sistema permite que ocorra o vínculo da pesquisa a um Questionário cadastrado;
-    - **Quantidade de pesquisas**: é um limitador opcional, ou seja, se for do interesse do solicitante da pesquisa limitar a
-    quantidade de aplicações, basta informar um número. Deixar este campo em branco significa que apenas a data/horário finais 
-    servirão para encerrar a pesquisa ;
-    - **Grupos interessados**: para definir quem está interessado nas respostas da pesquisa, o sistema permite que ocorra o vínculo 
-    da pesquisa a um ou mais Grupos cadastrados;
-    - **Usuários interessados**: o sistema também permite que ocorra o vínculo da pesquisa a um ou mais Usuários interessados, 
-    independente de grupos;
-    - **Link**: trata-se de um campo somente de saída (sem digitações). Assim que a pesquisa é criada (gravada) neste campo surge
-    o link completo, baseado na URL do Sistema devidamente parametrizada.
-    
-    !!! note "NOTA"
-    
-        O botão ![simbolo](images/simb-copiar.jpg) ("Copiar") fica disponível à direita do campo Link, permitindo que o usuário
-        facilmente tenha em mãos a URL corretamente montada, ao clicar nele o conteúdo é copiado para a área de transferência.
-        
-Pesquisa do tipo "Público"
-----------------------------
+**Figure 3 -Survey registration screen**
 
-Este tipo permite a participação de todos os usuários sem nenhum tipo de restrição, inclusive eles nem precisam estar autenticados
-no sistema
-Nesta modalidade, a URL do Sistema (parametrizada) é fornecida ao público-alvo para que participem da pesquisa.
+-   **Title**: the search must have a unique title in the system;
 
-Pesquisa do tipo "Global"
----------------------------
+-   **Status**: possible values ​​are Active and Inactive;
 
-Este tipo restringe a participação de usuários àqueles que se autenticarem no sistema, podendo ser acessada de duas maneiras:
+-   **Questionnaire**: the system allows the link of the survey to occur to a
+    registered Questionnaire;
 
-- quando se identificam receberão uma notificação automática (incluindo os passos para responder);
-- no Portal de Serviços (menu na lateral esquerda) na opção "Campanhas ativas".
+-   **Type**: possible values ​​are Public, Global, Catalog, Service, Activity, or
+    Satisfaction;
 
-1. Ao selecionar este tipo alguns novos campos surgirão para preenchimento:
+-   **Start date and Start hour**: restrict the initial time of the search
+    application;
 
-    - **Grupos alvos**: para definir quem responderá a pesquisa, o sistema permite que ocorra o vínculo da pesquisa a um ou mais 
-    Grupos cadastrados;
-    - **Usuários alvos**: o sistema também permite que ocorra o vínculo da pesquisa a um ou mais usuários que responderão,
-    independente de seus grupos;
-    - **Utilizar notificação do sistema**: os valores possíveis são: Sim ou Não. Ao indicar Sim outros campos surgirão para 
-    preenchimento;
-    - **Processo**: o sistema permite que ocorra o vínculo da pesquisa a um Processo cadastrado;
-    - **Exige confirmação**: os valores possíveis são: Sim ou Não;
-    - **Situação**: os valores possíveis são Ativo e Inativo;
-    - **Data inicial** e **Hora inicial**: restringem o momento inicial das notificações ;
-    - **Data final** e **Hora final**: restringem o momento final das notificações;
-    - **Descrição breve**: assunto da notificação para o público-alvo;
-    - **Descrição da notificação**: corpo da notificação com um texto que levará orientações ao público-alvo.
-    
-Pesquisas do tipo "Catálogo"
+-   **Final date and Final hour**: restrict the final time of the
+    application of the survey;
+
+-   **Number of Surveys**: is an optional limiter, ie if it is in the interest
+    of the search request to limit the number of applications, simply enter a
+    number. Leaving this field blank means that only the end date/time will be
+    used to terminate the search;
+
+-   **Interested groups**: the system allows the search link to occur to a
+    registered Questionnaire;
+
+-   **Interested groups**: to define who is interested in the survey responses,
+    the system allows the search link to occur to one or more registered groups;
+
+-   **Interested users**: the system also allows the search link to occur to one
+    or more interested Users, regardless of groups;
+
+-   **Link**: this is an output-only field (no typing). Once the search is
+    created (recorded) in this field the complete link appears, based on the URL
+    of the System properly parameterized.
+
+!!! note "NOTE"
+
+    The button ![Pesquisa](images/simb-copiar.jpg) ("Copy") is available to the right of the Link field, allowing
+    the user to easily have the URL correctly mounted, by clicking on it the
+    content is copied to the clipboard.
+
+Searches of the 'public' type
 -----------------------------
 
-Este tipo se destina à avaliação junto ao cliente sobre a eficácia do catálogo implantado para ele.
+This type allows the participation of all users without any type of restriction,
+even they do not even need to be authenticated in the system.  
+In this mode, the System URL (parameterized) is provided to the target audience
+to participate in the search.
 
-1. Ao selecionar este tipo um novo campo surgirá para preenchimento:
-
-    - **Catálogo**: o sistema permite que ocorra o vínculo da pesquisa a um Catálogo cadastrado.
-    
-2. O catálogo escolhido deve estar disponível no Portal de Serviços, pois surgirá a nova aba "Campanhas ativas", além das abas
-fixas (Serviços e Conhecimentos).
-
-Pesquisas do tipo "Serviço"
+Searches of the 'global' type
 -----------------------------
 
-Este tipo se destina à avaliação junto ao cliente sobre a eficácia de um serviço implantado para ele.
+This type restricts the participation of users to those that authenticate
+themselves in the system, and can be accessed in two ways:
 
-1. Ao selecionar este tipo um novo campo surgirá para preenchimento:
+-   when they identify they will receive an automatic notification (including
+    steps to respond)
 
-    - **Serviço**: o sistema permite que ocorra o vínculo da pesquisa a um Serviço de um Catálogo cadastrado.
-    
-2. O serviço escolhido deve estar disponível no Portal de Serviços, pois surgirá a nova aba "Campanhas ativas", além das abas
-fixas (Solicitações, Conhecimentos e Avaliações).
+-   in the Service Portal (menu on the left side) in the option "Active
+    campaigns"
 
-Pesquisas do tipo 'Atividade/Satisfação'
-------------------------------------------
+1.  When selecting this type some new fields will appear to fill:
 
-Este tipo é mais uma opção de pesquisa de satisfação junto ao cliente (além do default do sistema) sobre o desfecho do atendimento
-de uma requisição ou incidente.
+-   **Target groups**: to define who will respond to the survey, the system
+    allows the search link to occur to one or more registered groups
 
-1. Ao selecionar este tipo um novo campo surgirá para preenchimento:
+-   **Target users**: the system also allows the search link to occur to one or
+    more Users who will respond, regardless of their groups
 
-    - **Grupos interessados**: para definir quem está interessado nas respostas da pesquisa, o sistema permite que ocorra o vínculo
-    da pesquisa a um ou mais Grupos cadastrados;
-    - **Usuários interessados**: o sistema também permite que ocorra o vínculo da pesquisa a um ou mais Usuários interessados, 
-    independente de grupos;
-    - **Atividade**: o sistema permite que ocorra o vínculo da pesquisa a uma Atividade de um Serviço cadastrado.
-    
-2. A forma da pesquisa de satisfação original do sistema não foi eliminada, continua funcionando normalmente.
+-   **Use system notification**: possible values are: Yes or No. When you
+    indicate Yes, other fields will appear for filling:
 
-!!! info "IMPORTANTE"
+-   **Process**: the system allows the link of the survey to occur to a
+    registered Process
 
-    No campo Processo podem estar relacionados todos os processos ITIL e também o processo default "Pesquisa". A estratégia de 
-    notificação do CITSmart Enterprise ITSM exige a vinculação a um processo quando as notificações são por processo, nesta 
-    situação o sistema verifica se o usuário tem acesso ao processo para receber a notificação, isso evita notificações 
-    desnecessárias. Ainda não existe uma tela de cadastro para esses processos, deve haver intervenção direta no banco (somente
-    autorizados).
-    
-!!! note "NOTA"
+-   **Confirmation required**: possible values are: Yes or No
 
-    Como o cliente pode desenvolver seus próprios questionários com infinitas possibilidades de campos e lógica, o desenvolvimento
-    de relatórios que recuperam dados dessas pesquisas é um esforço que necessariamente requer uma consultoria especializada a ser 
-    planejada e contratada.
-    
-Regras gerais
-----------------
+-   **Status**: possible values are Active and Inactive
 
-1. Antes do momento inicial configurado, qualquer tentativa de responder a pesquisa causará uma mensagem informando o horário exato
-para a liberação;
+-   **Start date and Start hour**: restrict the initial timing of
+    notifications
 
-2. Ao responder uma pesquisa o sistema impede que o mesmo usuário realize novamente o preenchimento das respostas.
+-   **Final date and Final hour**: restrict the final timing of
+    notifications
+
+-   **Short description**: notification subject for the target audience
+
+-   **Notification description**: body of the notification with a text that will
+    guide the audience
+
+Searches of the 'catalog' type
+------------------------------
+
+This type is intended for evaluation with the client about the effectiveness of
+the catalog deployed for him
+
+1.  When you select this type a new field will pop up to fill:
+
+-   **Catalog**: the system allows the search link to occur to a registered
+    Catalog
+
+2.  The chosen catalog must be available in the Service Portal, as the new tab
+    "Active campaigns" will appear, besides the fixed tabs (Services and
+    Knowledge).
+
+Searches of the 'service' type
+------------------------------
+
+This type is intended for evaluation with the client about the effectiveness of
+a service deployed for him
+
+1.  When you select this type a new field will pop up to fill:
+
+-   **Service**: the system allows the search link to occur to a Service of a
+    registered Catalog
+
+2.  The chosen service must be available in the Service Portal, as the new tab
+    "Active campaigns" will appear, in addition to the fixed tabs (Requests,
+    Knowledge and Evaluations).
+
+Searches of the 'activity/satisfaction' type
+--------------------------------------------
+
+This type is another option of customer satisfaction survey (besides the system
+default) on the outcome of a request or incident attendance.
+
+1.  When you select this type a new field will pop up to fill:
+
+-   **Interested groups**: to define who is interested in the survey responses,
+    the system allows the search link to occur to one or more registered groups
+
+-   **Interested users**: the system also allows the search link to occur to one
+    or more interested Users, regardless of groups
+
+-   **Activity**: the system allows the search link to occur to an Activity of a
+    registered service
+
+2.  The original satisfaction survey form of the system has not been deleted,
+    continues to function normally.
+
+!!! info "IMPORTANT"
+
+    In the Process field, all ITIL processes and the default "Survey" can be
+    related. The CITSmart notification strategy requires linking each survey to
+    a process when notification is per process, in this case the system checks
+    if the user has access to the process to receive the notification, this
+    avoids unnecessary notifications. There is still no registration screen for
+    these processes, there should be direct intervention in the database (only
+    authorized users).
+
+ !!! note "NOTE"
+
+    As the client can develop his own questionnaires with infinite
+    possibilities of fields and logic, the development of reports that retrieve
+    data from these surveys is an effort that necessarily requires a specialized
+    consultancy to be planned and contracted.
+
+General rules
+-------------
+
+1.  Prior to the initial moment configured, any attempt to respond to the search
+    will cause a message telling you the exact time for the release.
+
+2.  When answering a survey the system prevents the same user from re-filling
+    the answers.
+
+[1]:/en-us/citsmart-platform-7/plataform-administration/questionnaires/questionnaires-management/questionnaire-category.html
+[2]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-system.html
+
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/12/2019 - Larissa Lourenço
+    <b>Updated:</b>09/12/2019 - Anna Martins
 
 
