@@ -82,7 +82,7 @@ Filling in the registration fields
 
    - Click on the New Appointment button to determine the activity period. Afterwards, the appointment screen will be displayed, as illustrated on the image below:
     
-    ![figure](images/periodic-4.png)
+   ![figure](images/periodic-4.png)
     
    **Figure 4 - Activity appointments**
 
