@@ -125,19 +125,19 @@ Filling in the registration fields
 
 -   **Contracts**: bind the contracts belonging to the group.
 
--   Click on *Add*. Afterwards, the contract search screen will be displayed.
+       -   Click on *Add*. Afterwards, the contract search screen will be displayed.
 
--   Search, select the contracts contracts to be linked to the group and click
-    on *Add* to confirm the procedure.
+       -   Search, select the contracts contracts to be linked to the group and click
+      on *Add* to confirm the procedure.
 
--   To remove a contract from a group, select the contract and click
+       -   To remove a contract from a group, select the contract and click
     on *Remove.*
 
 -   **Permission in all Workflows**: determines the workflow activities of a
     group.
 
--   Click on *Add*. Afterwards, the workflow permissions screen will be
-    displayed, as illustrated below:
+       -   Click on *Add*. Afterwards, the workflow permissions screen will be
+       displayed, as illustrated below:
 
 ![Criar](images/group-4.png)
 
