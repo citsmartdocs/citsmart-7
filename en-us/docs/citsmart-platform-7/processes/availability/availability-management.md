@@ -16,9 +16,9 @@ Preconditions
 
 To check availability graphs, you must first perform the following procedures:
 
-1. Enter the availability group (see knowledge Availability group registration and search);
+1. Enter the availability group (see knowledge [Availability group registration and search](/en-us/citsmart-platform-7/processes/availability/availability-group.html));
 
-2. Link calendar, service level agreement of type "availability" and cost per hour of downtime to the Configuration Item (see knowledge Configuration item management);
+2. Link calendar, service level agreement of type "availability" and cost per hour of downtime to the Configuration Item (see knowledge [Configuration item management](/en-us/citsmart-platform-7/processes/configuration/IC-management.html));
 
 3. Link the calendar, service level agreement of type "availability" and cost per hour of downtime to the CI Group;
 
