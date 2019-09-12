@@ -19,15 +19,17 @@ Importing data
     
     **Figure 1 - Contract import screen**
 
-    !!! note “NOTE”
+   !!! note “NOTE”
 
-         if the file does not concern a contract, do not select the contract, just add the file for data import.
+        If the file does not concern a contract, do not select the contract, just add the file for data import.
 
 2.  Add the file for data import;
 
-- Click on the Choose File button;
-- Select the intended file;
-- Insert a description for the file and click on Add.
+   - Click on the Choose File button;
+   
+   - Select the intended file;
+   
+   - Insert a description for the file and click on Add.
 
 3. After editing the file, click on the Import button;
 
