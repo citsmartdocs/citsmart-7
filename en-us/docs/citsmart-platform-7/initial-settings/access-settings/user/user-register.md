@@ -79,7 +79,7 @@ Filling in the registration fields
     the "access profile" of the LDAP will be defined by the system, which is
     configured in parameter "39" - LDAP - Id of the access profile that will be
     set automatically if user does not have any "(see
-    knowledge **[Parameterization rules - LDAP][1]).
+    knowledge **[Parameterization rules - LDAP][3]).
 
 ![Criar](images/user-3.png)
 
@@ -114,11 +114,16 @@ Filling in the registration fields
 
 3.  The system imports the load into the employee table and the user into the
     user table via the *Import* button (see knowledge [Employee
-    import][2])
+    import][4])
 
 4.  Click on the *Save* button to create the entry, at which date, time and user
     will be automatically stored for a future audit.
 
+
+[1]:/en-us/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
+[2]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/employee.html
+[3]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-ldap.html
+[4]:/en-us/citsmart-platform-7/plataform-administration/data-and-import/employee-import.html
 
 !!! tip "About"
 
