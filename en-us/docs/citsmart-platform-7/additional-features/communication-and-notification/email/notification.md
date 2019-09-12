@@ -20,9 +20,11 @@ Filters
 
 1.  The following filters enables the user to restrict the participation of items in the standard feature listing, making it easier to find the desired items:
 
-- Title;
-- Start Date;
-- Status.
+  - Title;
+
+  - Start Date;
+
+  - Status.
 
 2. In the E-mail Notifications screen, the E-mail Notifications that have been registered are listed, as shown in the figure below:
 
@@ -55,29 +57,38 @@ Filling in the registration fields
 
 3.  Fill in the fields as directed below:
 
-- Title: report the title of the notification via e-mail;
-- Process: inform the process regarding notification by e-mail;
-- Initial date publication: enter the starting date that the notification will be displayed via e-mail to the user;
-- Status: inform the status of the notification via e-mail;
+   - Title: report the title of the notification via e-mail;
+   
+   - Process: inform the process regarding notification by e-mail;
+   
+   - Initial date publication: enter the starting date that the notification will be displayed via e-mail to the user;
+   
+   - Status: inform the status of the notification via e-mail;
 
 4. Link group (s) to notification via e-mail;
 
-- Click the Link Group button. After that, the group search screen will be displayed;
-- Perform the search, select the group you want to link to the e-mail notification, and click the Add button to perform the operation;
-- To remove the group link with the e-mail notification, click Remove. If you want to remove all linked groups, click the Remove All button.
+   
+   - Click the Link Group button. After that, the group search screen will be displayed;
+   
+   - Perform the search, select the group you want to link to the e-mail notification, and click the Add button to perform the operation;
+   
+   - To remove the group link with the e-mail notification, click Remove. If you want to remove all linked groups, click the Remove All button.
 
 5. Link user (s) to notification via e-mail;
 
-- Click the Link User button. After that, the user search screen will be displayed;
-- Perform the search, select the user (s) you want to link to the e-mail notification and click the Add button to perform the operation;
-- To remove the user's link with the e-mail notification, click Remove. If you want to remove all linked users, click the Remove All button.
+   - Click the Link User button. After that, the user search screen will be displayed;
+   
+   - Perform the search, select the user (s) you want to link to the e-mail notification and click the Add button to perform the operation;
+   
+   - To remove the user's link with the e-mail notification, click Remove. If you want to remove all linked users, click the Remove All button.
    
    !!! info "IMPORTANT"
 
          If e-mail notification is not assigned to any group and/or user, all system users will be notified.
 
    - Short description: provide a brief description of the notification via e-mail;
-- Description of notification: enter the detailed description of the notification via e-mail.
+   
+   - Description of notification: enter the detailed description of the notification via e-mail.
 
 6. After the data has been entered, click the Save button to register, in this case the date, time and time will be stored automatically for a future audit.
 
