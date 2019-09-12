@@ -1,87 +1,86 @@
-title: Cadastro e pesquisa de cargo
+title: Position registration and search
+Description: The goal of this feature is to register the existing positions within the organization.
 
-Description: Esta funcionalidade tem por objetivo registrar os cargos existentes na organização.
+# Position registration and search
 
-# Cadastro e pesquisa de cargo
+The goal of this feature is to register the existing positions within the
+organization.
 
-Esta funcionalidade tem por objetivo registrar os cargos existentes na
-organização.
+How to access
+-------------
 
-Como acessar
------------
+1.  Access the profile feature navigating through the main menu **General
+    Registration > Staff Management > Position**.
 
-1.  Acesse a funcionalidade de cargo através da navegação no menu
-    principal **Cadastros Gerais > Gerência de Pessoal > Cargos**.
+Preconditions
+-------------
 
-Pré-condições
------------
+1.  Not applicable.
 
-1.  Não se aplica.
-
-Filtros
+Filters
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  The following filter enables the user to restrict the participation of items
+    in the standard feature listing, making it easier to find the desired items:
 
-    -   Nome cargo.
+-   Name
 
-2.  Na tela de **Cargos**, clique na aba **Pesquisa de cargos**. Será
-    apresentada a tela de pesquisa conforme ilustrada na figura abaixo:
+2.  On the **Position** screen, click on the **Search** tab. A search screen
+    will be displayed as illustrated on the image below:
 
-    ![Criar](images/position-1.png)
-    
-    **Figura 1 - Tela de pesquisa de cargo**
+![Criar](images/position-1.png)
 
-3.  Realize a pesquisa de cargo.
+**Figure 1 - Position search screen**
 
-    -   Informe o nome do cargo que deseja pesquisar e clique no botão *Pesquisar*;
+3.  Conduct a position search.
 
-    -   Após isso, será exibido o registro de cargo conforme a descrição informada;
+-   Insert the name of the intended profile and click on *Search*
 
-    -   Caso deseje listar todos os registros de cargo, basta clicar diretamente no
-    botão *Pesquisar*.
+-   Afterwards, the entry will be displayed according to the inserted
+    information
 
-Listagem de itens
-----------------
+-   To list all positions entries, just click directly on the *Search* button,
+    if needed.
 
-1.  O seguinte campo cadastral está disponível ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Nome Cargo.
+Items list
+----------
 
-    ![Criar](images/position-2.png)
-    
-    **Figura 2 - Tela de listagem de cargo**
+1.  The following registration field is available to the user to facilitate the
+    identification of the desired items in the standard listing of the
+    functionality: **Name**.
 
-2.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a tela de cadastro exibindo o conteúdo referente ao registro
-    selecionado;
+![Criar](images/position-2.png)
 
-3.  Para alterar os dados do registro de cargo, basta modificar as informações
-    dos campos desejados e clicar no botão *Gravar* para que seja gravada a
-    alteração realizada no registro, onde a data, hora e usuário serão gravados
-    automaticamente para uma futura auditoria.
+**Figure 2 - Position listing screen**
 
-Preenchimento dos campos cadastrais
----------------------------------
+2.  After searching, select the intended entry. Afterwards, they will be
+    redirected to the entry screen displaying the content regarding the selected
+    entry
 
-1.  Clique na aba **Cadastro de Cargos**, será apresentado a tela de **Cadastro
-    de Cargos**, conforme ilustrada na figura abaixo:
+3.  To edit a profile entry information, just edit the intended fiels an click
+    on the *Save* button to confirm the changes to the entry, at which date,
+    time and user will be stored automatically for a future audit
 
-    ![Criar](images/position-3.png)
-    
-    **Figura 3 - Tela de cadastro de cargo**
+Filling in the registration fields
+----------------------------------
 
-2.  Preencha os campos conforme orientações abaixo:
+1.  Click on the **Register** tab, then the **Position** **Registration **screen
+    will be displayed, as illustrated on the image below:
 
-    -   **Nome do Cargo**: informe o nome do cargo, ex: Analista de Sistemas.
+![Criar](images/position-3.png)
 
-3.  Clique no botão *Gravar* para efetuar o registro, onde a data, hora e
-    usuário serão gravados automaticamente para uma futura auditoria.
+**Figure 3 - Position entry screen**
+
+2.  Fill out the field as instructed below:
+
+-   **Name**: insert the position's name, e.g: Systems Analyst.
+
+3.  Click the *Save* button to register, where the date, time and user will be
+    automatically saved for a future audit.
+
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/23/2019 – Anna Martins
+    <b>Updated:</b>09/12/2019 – Anna Martins
