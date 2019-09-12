@@ -112,14 +112,14 @@ Filling in the registration fields
 -   **Suspension/Reactivation**: determine if the group will have permission to
     discontinue or reactivate mutiple services requests;
 
--   **E-mail Notifications Required**:** **select the options (opening, progress
+-   **E-mail Notifications Required**: select the options (opening, progress
     and / or closing), if you want e-mail notifications referring to service
     requests to be mandatory;
 
 !!! note "NOTE"
 
-When you register a service request, the e-mail notification options are
-already selected, not allowing you to change them.
+    When you register a service request, the e-mail notification options are
+    already selected, not allowing you to change them.
 
 -   **Description**: insert a brief description about the purpose of the group;
 
