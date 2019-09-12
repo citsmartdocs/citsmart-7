@@ -724,9 +724,9 @@ Liking it owners to service
 2.  There is one action button available to the user in relation to each listing
     item, it is: *Unlink*;
 
-   ![figure](images/configure-16.png)
+    ![figure](images/configure-16.png)
    
-   **Figure 15 -Stakeholders link to service screen**
+    **Figure 15 -Stakeholders link to service screen**
 
 3.  If the "IT owner" is a user, click the *Link Users* button. Once this is
     done, the user search screen will be displayed. Perform the search, select
