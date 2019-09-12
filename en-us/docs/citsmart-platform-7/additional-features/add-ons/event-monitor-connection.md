@@ -26,17 +26,17 @@ Filters
     in the standard feature listing, making it easier to locate the desired
     items as shown in the figure below:
 
--   Name;
+   -   Name;
 
--   Identifier;
+   -   Identifier;
 
--   Protocol;
+   -   Protocol;
 
--   IP;
+   -   IP;
 
--   Port;
+   -   Port;
 
--   Context.
+   -   Context.
 
 2.  On the **Event Monitor Connections** screen, click on the **Connection
     Search CITSmart Event Monitor** tab, as shown bellow:
@@ -47,12 +47,12 @@ Filters
 
 3.  Perform a event monitor connection search:
 
--   Insert the filters (name, identifier, protocolo, IP address, port and/or
+   -   Insert the filters (name, identifier, protocolo, IP address, port and/or
     application context) as needed and click on the *Search*button. Afterwards,
     the CITSmart Event Monitor Connection entry will be displayed according to
     the description provided;
 
--   To list all connections, just click directly on the *Search* button, if
+   -   To list all connections, just click directly on the *Search* button, if
     needed.
 
 Items list

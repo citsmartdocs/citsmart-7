@@ -13,13 +13,13 @@ How to access
 Preconditions
 ---------------
 
-1. Have registered at least one change request (see knowledge [Change request registration](/pt-br/citsmart-platform-7/processes/change/register-change.html)).
+1. Have registered at least one change request (see knowledge [Change request registration](/en-us/citsmart-platform-7/processes/change/register-change.html)).
 
 Filters
 ---------
 
-1. The following filters enable the user to restrict the participation of items in the standard feature listing, making it easier to 
-locate the desired items:
+1. The following filters enable the user to restrict the participation of items in the standard feature listing, making it easier 
+to locate the desired items:
 
     - Change Number;
 

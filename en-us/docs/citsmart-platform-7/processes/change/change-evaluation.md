@@ -37,8 +37,7 @@ standard listing of the functionality: **Number, Applicant Name, Created on, Pri
 Current task,Executor Group** and **Currently Responsible**.
 
 2. There are action buttons available to the user in relation to each item in the listing, they are: *View, Reports* and 
-*Action* (Create Activity, Suspend change and Start/Run task).Existem botões de ação disponíveis ao usuário em relação a cada 
-item da listagem, são eles: "Visualizar", "Relatórios" e "Ação"(Criar Atividade, Suspender mudança e Iniciar/Executar tarefa)
+*Action* (Create Activity, Suspend change and Start/Run task).
 
 ![Listing](images/evaluation.img2.jpg)
 

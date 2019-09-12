@@ -326,23 +326,26 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
         informado o grupo para atendimento do serviço, será escalado o grupo, o qual foi definido no parâmetro para atendimento
         de 1º nível.
         
-!!! Question "Como faço o desenho de ativos que compõem o meu serviço?"
+!!! Question "How do I design the assets that make up my service?"
 
-    É feito o desenho de ativos que compõem o serviço utilizando a ferramenta de Desenho de Mapa de Serviço que proporciona 
-    desenhos eficientes e eficazes para gerenciamento do serviço durante seu ciclo de vida, demonstrando os itens de configuração
-    relacionados.
+    The design of the assets that make up the service is done using the Service Map Design tool that provides efficient and 
+    effective drawings for managing the service during its life cycle, demonstrating the related configuration items.
+ 
+    To carry out this design, proceed as follows (see knowledge Service attributes configuration][2])
     
-    Para realizar esse desenho, proceda conforme as orientações abaixo (ver conhecimento [Configuração dos atributos do serviço][2])
+    1. Access the Service Map Design feature for the Business Service **Portfolio and Catalog Management** > Portfolio and Catalog Management > Support Menu > Advanced Portfolio > Service Catalog > Next Service > Service Map**;
     
-    1. Acesse a funcionalidade de **Desenho de Mapa do Serviço** referente ao Serviço de Negócio Gerência de Portfólio e 
-    Catálogo > Gerenciamento de Portfólio e Catálogo > Menu Apoio > Avançar Portfólio > Catálogo de Serviços > Avançar Serviço > Mapa de Serviço;
+    2. The screen for designing the assets that make up the business service will be presented;
     
-    2. Será apresentada a tela para desenho dos ativos que compõem o serviço de negócio;
+    3. Perform the design;
     
-    3. Realize o desenho;
-    
-    4. Salvar o desenho.
-    
+    4. Access the Service Asset Map Design functionality for the Support/Technical Service **Portfolio and Catalog Management > 
+    Portfolio and Catalog Management > Support Menu > Advanced Portfolio > Service Catalog > Next Service > Service Map**.
+
+    5. The screen for designing the assets that make up the support / technical service will be presented;
+
+    6. Perform the design.
+
 !!! Question "Como habilitar a pesquisa de satisfação?"
 
     A pesquisa de satisfação é a avaliação do atendimento da solicitação feita através da notificação por e-mail.

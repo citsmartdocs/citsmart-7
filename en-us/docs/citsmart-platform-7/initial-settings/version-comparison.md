@@ -1,12 +1,12 @@
-title:  Comparação das versões (ITSM)
-Description: Disponibiliza a comparação das versões
-# Comparação das versões (ITSM)
+title:  Comparing the versions (ITSM)
+Description:Provides the Comparing the versions. 
+# Comparing the versions (ITSM)
 
-![Comparação](images/compa-img1.jpg)
+![Comparing](images/compa-img1.jpg)
 
-Clique para acessar versão em PDF.
+Click to access PDF version.
 
-Anexo
+Attachment
 ------
 
 [PDF][1]
@@ -14,6 +14,6 @@ Anexo
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/26/2019 – Larissa Lourenço
+    <b>Updated:</b>09/12/2019 – Anna Martins
     
 [1]:Comparacao%20das%20versoes%20(ITSM).pdf

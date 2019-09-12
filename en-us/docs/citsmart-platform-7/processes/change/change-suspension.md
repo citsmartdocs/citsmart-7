@@ -13,7 +13,7 @@ How to access
 Preconditions
 ---------------
 
-1. Have the justification for change request registered (see knowledge [Reason for change request registration and search](/pt-br/citsmart-platform-7/processes/change/change-justification.html))
+1. Have the justification for change request registered (see knowledge [Reason for change request registration and search](/en-us/citsmart-platform-7/processes/change/change-justification.html))
 
 Filters
 ----------
@@ -35,7 +35,7 @@ Items list
 -------------------
 
 1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard 
-listing of the functionality: **Number, User, Created on, Priority, Dead line, Time limit, Expired, Situation, Current task, Executor Group** and **Current responsible**.
+listing of the functionality: **Number, User, Created on, Priority, Deadline, Time limit, Expired, Situation, Current task, Executor Group** and **Current responsible**.
 
 2. There are action buttons available to the user in relation to each item in the listing, they are: *View, Reports* and *Action*.
 

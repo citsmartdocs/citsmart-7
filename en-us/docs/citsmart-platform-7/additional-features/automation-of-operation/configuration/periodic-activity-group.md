@@ -21,7 +21,7 @@ Filters
 
 1.  The following filter enable the user to restrict the participation of items in the standard feature listing, making it easier to locate the desired items as shown in the figure below:
 
-- Name.
+   - Name.
 
 2. On the Periodic Group Group screen, click the Search tab. The respective search screen will be displayed as shown in the figure below:
 
@@ -31,9 +31,9 @@ Filters
 
 3.  Perform periodic activity group search:
 
-- Enter the name of the periodic activity group and click the Search button. After this, the record will be displayed according to the name entered;
+   - Enter the name of the periodic activity group and click the Search button. After this, the record will be displayed according    to the name entered;
 
-- If you want to view all periodic activity group records, simply click directly on the Search button.
+   - If you want to view all periodic activity group records, simply click directly on the Search button.
 
 Itens list
 ----------------
@@ -59,9 +59,11 @@ Filling in the registration fields
 
 2.  Fill in the fields as shown below:
 
-- **Name**: enter the name of the periodic activity group;
-- **Description**: enter the description of the periodic activity group;
-- **Start Date**: enter the start date of the periodic activity group.
+   - **Name**: enter the name of the periodic activity group;
+   
+   - **Description**: enter the description of the periodic activity group;
+   
+   - **Start Date**: enter the start date of the periodic activity group.
 
 3. Click the Save button to register, where the date, time and user will be saved automatically for a future audit.
 
