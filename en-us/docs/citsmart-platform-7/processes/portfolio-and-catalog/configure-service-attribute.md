@@ -498,10 +498,9 @@ Creating the service map design
     in the "Design" stage. In this design is defined what the service needs so
     that it can meet the needs of the business.
 
-   !!! info "IMPORTANT"
+    !!! info "IMPORTANT"
 
-     To create the service map design, the Support/Technical Services must
-     already be defined.
+        To create the service map design, the Support/Technical Services must already be defined.
 
 ### How to access
 
