@@ -79,7 +79,7 @@ Filling in the registration fields
     the "access profile" of the LDAP will be defined by the system, which is
     configured in parameter "39" - LDAP - Id of the access profile that will be
     set automatically if user does not have any "(see
-    knowledge **[Parameterization rules - LDAP][3]).
+    knowledge [Parameterization rules - LDAP][3]).
 
 ![Criar](images/user-3.png)
 
