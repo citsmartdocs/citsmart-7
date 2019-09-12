@@ -228,6 +228,9 @@ General rules
 2.  When answering a survey the system prevents the same user from re-filling
     the answers.
 
+[1]:/en-us/citsmart-platform-7/plataform-administration/questionnaires/questionnaires-management/questionnaire-category.html
+[2]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-system.html
+
 
 !!! tip "About"
 
