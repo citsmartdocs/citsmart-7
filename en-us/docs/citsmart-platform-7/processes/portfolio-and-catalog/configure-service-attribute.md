@@ -11,7 +11,7 @@ Preconditions
 -------------
 
 1.  Have the portfolio with the services registered (see knowledge [Service
-    portfolio registration][1]), [Service registration][2]);
+    portfolio registration][1], [Service registration][2]);
 
 2.  Have the group registered (see knowledge [Group registration and search][3]);
 
