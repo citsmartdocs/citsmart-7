@@ -28,16 +28,16 @@ Logging in the environment
 - **1**: allows the user to choose from a list in which environment the authentication
 will be done:
 
--   citsmart.local: default environment where users are registered in the
-    application database;
+     -   citsmart.local: default environment where users are registered in the
+        application database;
 
--   \<domain1\>
+     -   \<domain1\>
 
--   \<domain2\>
+     -   \<domain2\>
 
--   ...
+     -   ...
 
--   \<domainN\>
+     -   \<domainN\>
 
 !!! warning "ATTENTION"
 
