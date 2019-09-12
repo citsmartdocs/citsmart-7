@@ -1,231 +1,218 @@
-title: Cadastro e pesquisa de grupo
-Description: Esta funcionalidade permite o cadastro de grupos e o vínculo deles com usuários, um perfil, contratos e e-mails para notificação.
+title: Group registration and search
+Description: This feature allows you to register groups and their link with users, a profile, contracts and e-mails for notification.
 
-# Cadastro e pesquisa de grupo
+# Group registration and search
 
-Um grupo é um conjunto de um ou mais colaboradores que têm os mesmos objetivos
-relacionados as suas funções.
+A group is a set of one or more employees who have the same goals related to
+their functions.
 
-Os dois usos mais comuns para os grupos criados são:
+The two most common uses for groups created are:
 
-1.  Programação de notificação automática com base em alguma situação/evento
-    específico;
+1.  Automatic notification scheduling based on some specific event/situation;
 
-2.  Gestão da segurança/sigilo de acessos a vários tipos de cadastros (ex.:
-    pastas da base de conhecimento, portfólios de serviços, etc.).
+2.  Security management / secrecy of access to various types of registries (eg:
+    knowledge base folders, service portfolios, etc.).
 
-Esta funcionalidade permite o cadastro de grupos e o vínculo deles com usuários,
-um perfil, contratos e e-mails para notificação.
+This feature allows you to register groups and their link with users, a profile,
+contracts and e-mails for notification.
 
-Como acessar
-------------
+How to access
+-------------
 
-1.  Acesse a funcionalidade de Grupo através da navegação no menu
-    principal **Acesso e Permissão > Grupo**.
+1.  Access the **Group** feature navigating through the main menu **Access and
+    Permission > Group**.
 
-Pré-condições
-------------
+Preconditions
+-------------
 
-1.  Cadastrar perfil de acesso (ver conhecimento [Cadastro e pesquisa de perfil
-    de acesso](/pt-br/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html));
+1.  Register an access profile (see knowledge [Access profile registration and
+    search][1]);
 
-2.  Cadastrar colaborador (ver conhecimento [Cadastro e pesquisa de
-    colaborador](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html)).
+2.  Register the employee (see knowledge [Staff registration and
+    search][2]).
 
-Filtros
+Filters
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  The following filters enables the user to restrict the participation of
+    items in the standard feature listing, making it easier to find the desired
+    items:
 
-    -   Nome;
+-   Name;
 
-    -   Sigla.
+-   Acronym.
 
-2.  Na tela de Cadastro de Grupo, são exibidos os grupos já registrados e os
-    filtros que permitem realizar uma busca específica de acordo com sua
-    necessidade:
+2.  On the Group register screen, group list screen will be displayed and
+    filters that allow to conduct a specific search are displayed, as needed.
 
-    ![Criar](images/group-1.png) 
-    
-    **Figura 1 - Tela de pesquisa de grupo**
+![Criar](images/group-1.png)
 
-3.  Para realizar a busca de um grupo específico, informe o nome e/ou sigla do
-    grupo que deseja. Após isso, será exibido o registro conforme os dados
-    informados.
+**Figure 1 - Group search screen**
 
-Listagem de itens
-----------------
+3.  To conduct a search for a specific group, insert the name and/or acronym of
+    the intended group. Afterwards, the database will be displayed according to
+    the data provided.
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da funcionalidade: **ID
-    Grupo, Nome e Sigla**.
+Items list
+----------
 
-    ![Criar](images/group-2.png)
-    
-    **Figura 2 - Tela de listagem de grupo**
+1.  The following cadastral fields are available to the user to facilitate the
+    identification of the desired items in the standard feature
+    listing: **Group's ID, Name** and **Acronym**.
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Excluir;*
+![Criar](images/group-2.png)
 
-    !!! info "IMPORTANTE"
+**Figure 2 - Group listing screen**
 
-        A exclusão de grupo depende de não existir portfólios, colaboradores e
-        contratos vinculados ao mesmo.
+2.  There are action buttons available to the user for each item in the listing,
+    they are: *Edit* and *Delete;*
 
-3.  Para alterar os dados do registro de grupo, clique no botão *Editar*. Feito
-    isso, será direcionado para a tela de cadastro exibindo o conteúdo referente
-    ao registro selecionado.
+!!! info "IMPORTANT"
 
-Preenchimento dos campos cadastrais
+    The group exclusion depends on there being no portfolios, staff and
+    contracts linked to it.
+
+3.  To edit a group's registry, click on the *Edit* button. Afterwards, they
+    will be redirected to the entry screen displaying the selected group's
+    information.
+
+Filling in the registration fields
 ----------------------------------
 
-1.  Clique no botão *Novo*. Feito isso, é apresentada a tela de **Cadastro de
-    Grupo**, conforme ilustrada na figura a seguir:
+1.  Click on the *New* button. Afterwards, the **Register Group** screen
+    will be displayed, as illustrated below:
 
-    ![Criar](images/group-3.png)
-    
-    **Figura 3 - Tela de cadastro de grupo**
+![Criar](images/group-3.png)
 
-2.  Preencha os campos conforme orientações abaixo:
+**Figure 3 - Group creation screen**
 
-    -  **Nome**: informe o nome do grupo;
+2.  Fill out the fields as instructed below:
 
-    -  **Sigla**: informe uma sigla para identificação do grupo;
+-   **Name**: insert the name of the group;
 
-    -  **Líder**: informe o líder do grupo, ou seja, o responsável pelo grupo;
+-   **Acronym**: insert an acronym to identify the group;
 
-    -  **Perfil de Acesso**: selecione o perfil de acesso, que servirá para definir
-    quais funcionalidades ficarão disponíveis ao grupo e colaboradores
-    pertencentes a ele;
+-   **Leader**: insert the leader of the group, that is, the person responsible
+    for the group;
 
-    -  **Grupo de Service Desk**: defina se é um grupo de Service Desk* *(Central
-    de Serviços de Atendimento), se sim, ele poderá ser visualizado para o
-    direcionamento do grupo executor durante o registro de solicitação de
-    serviço;
+-   **Access Profile**: select the access profile, which will determine the
+    features available to the group and its members;
 
-    -  **Solicitante do Chat**: permite que o grupo a ser cadastrado seja
-    solicitante do chat ou não;
+-   **Service Desk Group**: determine if it is a Service Desk group (Support
+    Services Branch), if so, it can be viewed to address the performer group
+    during a service request;
 
-    -  **Comitê Consultivo de Mudanças**: defina se é um grupo de Comitê Consultivo
-    de Mudanças, ou seja, um grupo de pessoas que se reúnem para autorizar a
-    mudança no serviço de TI;
+-   **Chat Requester**: allows the group to be registered whether it is a chat
+    requestor or not;
 
-    -  **Suspensão/Reativação**: defina se o grupo terá permissão para suspender e
-    reativar múltiplas solicitações de serviço;
+-   **Change Advisory Board**: determine if it is a [Change Advisory
+    Board](http://itsm.citsmart.com/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/1056) group,
+    that is, a group of people assembled to approve changes on the IT Service;
 
-    -  **Notificações de e-mail Obrigatórias**: selecione as opções (abertura,
-    andamento e/ou encerramento), caso queira que as notificações de e-mail
-    referentes às solicitações de serviço sejam de envio obrigatório;
+-   **Suspension/Reactivation**: determine if the group will have permission to
+    discontinue or reactivate mutiple services requests;
 
-    !!! note "NOTA"
+-   **E-mail Notifications Required**:** **select the options (opening, progress
+    and / or closing), if you want e-mail notifications referring to service
+    requests to be mandatory;
 
-        Ao registrar uma solicitação de serviço, as opções de notificação de
-        e-mail já estarão selecionadas, não permitindo a sua alteração.
+!!! note "NOTE"
 
-    -  **Descrição**: informe uma breve descrição sobre o que o grupo se propõe;
+When you register a service request, the e-mail notification options are
+already selected, not allowing you to change them.
 
-    -  **Contratos**: vincule os contratos, os quais o grupo pertence;
+-   **Description**: insert a brief description about the purpose of the group;
 
-        -   Clique em *Adicionar*. Após isso, será apresentada a tela de pesquisa de
-            contratos;
+-   **Contracts**: bind the contracts belonging to the group.
 
-        -   Realize a pesquisa, selecione os contratos que deseja vincular ao grupo e
-            clique no botão *Enviar* para efetuar a operação;
+-   Click on *Add*. Afterwards, the contract search screen will be displayed.
 
-        -   Para remover o vínculo do contrato com o grupo, selecione o contrato e
-            clique em *Remover*.
+-   Search, select the contracts contracts to be linked to the group and click
+    on *Add* to confirm the procedure.
 
-    -  **Permissões nos fluxos de trabalho**: define as ações que o grupo poderá
-    realizar nos fluxos de trabalho;
+-   To remove a contract from a group, select the contract and click
+    on *Remove.*
 
-       -  Clique em *Adicionar*. Após isso, será apresentada a tela de permissões nos
-       fluxos de trabalho, conforme ilustrada na figura abaixo:
+-   **Permission in all Workflows**: determines the workflow activities of a
+    group.
 
-    
-    ![Criar](images/group-4.png)
-    
-    **Figura 4 - Definição da permissão nos fluxos de trabalho**
+-   Click on *Add*. Afterwards, the workflow permissions screen will be
+    displayed, as illustrated below:
 
-    -  **Nome**: informe o nome do fluxo de trabalho para busca do mesmo, caso seja
-    necessário filtrar a lista de fluxos pelo nome (ou parte dele);
+![Criar](images/group-4.png)
 
-    -  Selecione as ações que o grupo poderá executar:
+**Figure 4 - Workflow permissions determination**
 
-        -  **Criar**: o grupo poderá criar permissões nos fluxos de trabalho;
+-   **Name**: insert the name of the workflow so it can be searched, if
+    necessary;
 
-        -  **Executar**: o grupo poderá executar permissões nos fluxos de trabalho;
+-   Select the activities a group will be able to perform:
 
-        -  **Delegar**: o grupo poderá delegar permissões nos fluxos de trabalho;
+    -   **Create**: the group can create permissions on the workflows;
 
-        -  **Suspender**: o grupo poderá suspender permissões nos fluxos de
-           trabalho;
+    -   **Execute**: the group can execute permissions on workflows;
 
-        -  **Reativar**: o grupo poderá reativar permissões nos fluxos de trabalho;
+    -   **Delegate**: the group can delegate permissions on workflows;
 
-        -  **Alterar SLA**: o grupo poderá alterar o SLA das permissões nos fluxos
-           de trabalho;
+    -   **Suspend**: the group can suspend permissions on workflows;
 
-        -  **Reabrir**: o grupo poderá reabrir permissões nos fluxos de trabalho;
+    -   **Reactive**: the group can reactivate permissions on workflows;
 
-        -  **Cancelar**: o grupo poderá cancelar permissões nos fluxos de trabalho.
+    -   **Change SLA**: the group can change the permissions SLA in the
+        workflows;
 
-    -  Selecione os fluxos de trabalho, nos quais o grupo poderá executar as ações
-    que foram selecionadas;
+    -   **Reopen**: the group can reopen permissions on workflows;
 
-    -  Clique no botão *Enviar* para efetuar a operação. Após isso, será exibido na
-    tela de grupo as permissões no(s) fluxo(s) de trabalho definidas, conforme
-    exemplo ilustrado na figura abaixo:
+    -   **Cancel**: the group can cancel permissions on workflows.
 
-    ![Criar](images/group-5.png)
-    
-    **Figura 5 - Permissão nos fluxos de trabalho**
+-   Select the workflows, at which the users may perform the selected
+    activities;
 
-    -  Para remover uma ação permitida no fluxo de trabalho, bastar clicar ![Criar](images/group-6.png)  da
-    mesma;
+-   Click on *Add*. Afterwards, the chosen workflow permissions will be
+    displayed on the group's screen, as illustrated below:
 
-    -  Para remover a permissão no fluxo de trabalho, selecione a mesma e clique
-    em *Remover;*
+![Criar](images/group-5.png)
 
-    -  Para editar alguma informação na permissão de fluxo de trabalho clique em ![Criar](images/group-7.png) .
+**Figure 5 - Workflow permissions**
 
-    -  **Colaboradores**: adicione os membros (colaboradores) do grupo;
+-   To remove an activity allowed in the workflow, just click on the ![Criar](images/group-7.png) button;
 
-       -  Informe o nome ou CPF do colaborador para busca do mesmo, e logo em seguida
-          selecione-o para adição no grupo;
+-   To remove a permission from the workflow, select it and click on *Remove;*
 
-       -  Após adição do colaborador no grupo, caso queira que o mesmo receba
-          notificações relacionadas ao grupo, marque o campo referente ao e-mail;
+-   To edit any permission in all Workflows information click on ![Criar](images/group-8.png).
+-   **Employees**: add the group employees;
 
-       -  Para remover o colaborador do grupo, selecione o mesmo e clique
-          em *Remover*.
+-   Insert the name and SSN of the employee so they can be searched, then select
+    them to be added to the group.
 
-     -  **E-mail**: adicione o(s) e-mail(s) para recebimento de notificações
-    relacionadas ao grupo;
+-   After adding the employee to the group, tick the e-mail box so they can
+    receive notifications related to the group;
 
-       -  Informe o nome ou CPF do colaborador para busca do mesmo e logo após
-       selecione-o. Após isso, será adicionado o e-mail do colaborador na tela de
-       registro;
+-   To remove a employee from a group, select them and click on *Remove*.
 
-       - Caso tenha a necessidade de incluir um e-mail externo para recebimento das
-       notificações, clique em *Adicionar*. Será apresentada a tela de cadastro de
-       e-mail, conforme ilustrada na figura abaixo:
+-   **E-mail**: add the e-mail addresses which will receive notifications
+    related to the group;
 
-    ![Criar](images/group-8.png)
-    
-    **Figura 6 - Cadastro de e-mail externo**
+-   Insert the name or SSN of the employee to search and select
+    them. Afterwards, the employee's e-mail will be added to the registry.
 
-    
-       -  Informe o nome do responsável do e-mail, o e-mail e clique no
-       botão *Enviar* para efetuar a operação;
+-   If an external e-mail address needs to be included, click on *Add*. An
+    e-mail entry screen will be displayed, as illustrated below:
 
-       -  Caso queira remover algum e-mail que foi adicionado ao grupo, basta
-       selecionar o mesmo e clicar em *Remover*.
+![Criar](images/group-9.png)
 
-3.  Após informar todos os dados, clique no botão *Gravar* para efetuar o
-    registro, onde a data, hora e usuário serão gravados automaticamente para
-    uma futura auditoria.
+**Figure 6 - External e-mail entry**
+
+-   Insert the name of the e-mail address' owner, the e-mail address and click
+    on the *Add* button to confirm the operation.
+
+-   An e-mail address added to a group can be removed, if needed, by clicking on
+    it and then clicking on *Remove*.
+
+3.  After inserting all data, click on the *Save* button to register the
+    information, at which the date, time and user will be stored automatically
+    for a future audit.
+
 
 
 !!! tip "About"
