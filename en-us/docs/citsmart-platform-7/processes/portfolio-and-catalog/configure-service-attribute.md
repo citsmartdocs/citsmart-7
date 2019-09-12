@@ -336,7 +336,7 @@ Linking business process to service
     functionality: **ID**, **Business Process Name**, and **Customer**;
 
 2.  There are action buttons available to the user for each item in the listing,
-    they are: *View* and* Delete*;
+    they are: *View* and *Delete*;
 
    ![figure](images/configure-5.png)
    
