@@ -1,6 +1,5 @@
 title: Service audit
-Description: This feature allows you to check the service history for auditing
-the service.
+Description: This feature allows you to check the service history for auditing the service.
 
 # Service audit
 
@@ -61,7 +60,7 @@ Items list
    **Figure 2 - Audit service screen**
 
 -   If you need to record the details of the audit performed, click on
-    the **Register occurences **tab. The registration screen will be displayed,
+    the **Register occurences** tab. The registration screen will be displayed,
     as illustrated in the figure below:
 
    ![figure](images/audit-3.png)
