@@ -161,7 +161,7 @@ Flow import
 1. On the **Flow Maintenance** screen, click the *New* button. After that, the registration screen will be displayed, as shown in 
 figure 2.
 
-2. Click the Import JSON button to import the file in the ".txt" format or click the *Import XML* button to import the file in 
+2. Click the *Import JSON* button to import the file in the ".txt" format or click the *Import XML* button to import the file in 
 the ".xml" format.
 
 3. After importing the stream, click the *Save* button to perform the operation.
