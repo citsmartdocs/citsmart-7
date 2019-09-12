@@ -20,11 +20,15 @@ Filters
 
 1.  The following filters enable the user to restrict the participation of items in the standard feature listing, making it easier to locate the desired items:
 
-- Activity Group;
-- Search Group;
-- Monthly;
-- Weekly;
-- Daily.
+   - Activity Group;
+   
+   - Search Group;
+   
+   - Monthly;
+   
+   - Weekly;
+   
+   - Daily.
 
 2. The Periodic Activity Schedule will be displayed. It will be displayed in a calendar format, where all activities can be seen. The image below illustrates this screen:
     
@@ -55,20 +59,27 @@ Filling in the registration fields
     Figure 2 - Activity execution entry
 
    - Situation: select the current activity status;
+  
    - Click on the Technical Guidelines button, to check the activity guidelines;
+   
    - If the selected situation is "In Execution" or "Executed", fill out the fields:
 
      - Details: describe the details of the activity execution;
+     
      - Execution Date: insert the date when the activity was executed;
+     
      - Execution Hour: insert the time when the activity was executed.
    
    - If the selected situation is "Suspended", fill out the fields:
 
      - Reason: select the activity suspension reason;
+     
      - Complement: insert further details on the activity suspension;
+     
      - Insert the activity suspension date and time.
 
    - After filling out all the requested information, click on the Save the button to confirm the entry.
+   
    - The activity being performed will be displayed as blue, as illustrated on the image below:
     
    ![figure](images/schedule-3.png)
