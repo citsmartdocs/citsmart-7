@@ -291,8 +291,8 @@ Impact and risk analysis by targets
         
     !!! note "NOTE"
     
-        It is possible, after recording the data of the treatment plan, to check the risk assessment chart (see Knowledge [Change 
-        Request Execution][1]), in the section Monitoring Risk Development.
+        It is possible, after recording the data of the treatment plan, to check the risk assessment chart (see Knowledge Change 
+        Request Execution, available at the end of this document), in the section Monitoring Risk Development.
          
 Impact and simplified risk analysis
 ----------------------------------------
@@ -317,7 +317,7 @@ Impact and simplified risk analysis
     - **Impact Analysis**: describe the impacts that the change will have;
     - **Risk analysis**: describe the analysis of the risks involved in the change.  
     
-[1](/en-us/citsmart-platform-7/processes/change/change-execution.html)
+[Change Request Execution](/en-us/citsmart-platform-7/processes/change/change-execution.html)
         
 !!! tip "About"
 
