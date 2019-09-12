@@ -60,7 +60,7 @@ Items list
 Filling in the registration fields
 ----------------------------------
 
-1.  The **Menu Registration **screen will be displayed, as illustrated on the
+1.  The **Menu Registration** screen will be displayed, as illustrated on the
     image below:
 
 ![Criar](images/menu-3.png)
