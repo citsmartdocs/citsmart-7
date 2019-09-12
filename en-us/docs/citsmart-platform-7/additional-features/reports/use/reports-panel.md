@@ -41,8 +41,8 @@ Button captions
 -   The icon ![Gráficos](images/simb-planil.jpg) when clicked generates a table with information.
 
 -   The clickable icon ![Gráficos](images/simb-graf.jpg) displays the graphics options (3D Pizza, 2D Pizza, 3D Bar, 2D Bar, 3D
-    >   Line and 2D Line) so you can select the shape of the chart you want to
-    >   view;
+    Line and 2D Line) so you can select the shape of the chart you want to
+    view;
 
 -   Clicking icon ![Gráficos](images/simb-pdf.jpg) generates report in ".pdf" format;
 
