@@ -44,10 +44,10 @@ task, Executor Group** and **Current Responsible**.
 
 **Figure 2 - Change listing screen**
 
-Filling in te registration fields
+Filling in the registration fields
 -------------------------------------
 
-!!! info "IMPORTANTE"
+!!! info "IMPORTANT"
 
     Only members of the "Change Advisory Board" may approve a change request.To approve a Change Request the parameter 
     configuration must be taken into account: "RFC voting using the rule of absolute majority (50% +1) (Values: "Y" or "N")", 
