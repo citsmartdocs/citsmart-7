@@ -30,7 +30,7 @@ Filters
 
 **Figure 1 - Menu search screen**
 
-1.  Perform a menu search;
+2.  Perform a menu search;
 
 -   Insert the name of the intended menu and click on the *Search* button.
     Afterwards, the menu entry will be displayed according to the description
