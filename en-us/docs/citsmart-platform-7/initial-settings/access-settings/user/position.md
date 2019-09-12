@@ -64,7 +64,7 @@ Items list
 Filling in the registration fields
 ----------------------------------
 
-1.  Click on the **Register** tab, then the **Position** **Registration **screen
+1.  Click on the **Register** tab, then the **Position Registration** screen
     will be displayed, as illustrated on the image below:
 
 ![Criar](images/position-3.png)
