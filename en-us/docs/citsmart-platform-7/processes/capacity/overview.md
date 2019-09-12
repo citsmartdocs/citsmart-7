@@ -42,11 +42,11 @@ Main feature (in highlight)
 In the *See also* section you can access the main functionality(ies) of this module, in order to obtain a more detailed 
 knowledge.
 
-SEE ALSO
+See also
 --------------
 
 - [Capacity Indicators registration and search](/en-us/citsmart-platform-7/processes/capacity/capacity-indicators.html);
-- [Capacity indicator data import](/pt-br/citsmart-platform-7/processes/capacity/data-import-capacity.html).
+- [Capacity indicator data import](/en-us/citsmart-platform-7/processes/capacity/data-import-capacity.html).
 
 !!! tip "About"
 
