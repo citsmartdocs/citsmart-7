@@ -30,10 +30,6 @@ Filters
 
     -  Assigned/Shared.
 
-![Create](images/homologation-1.png)
-
-**Figure 1 - Release search screen**
-
 List of items
 -----------------
 
@@ -48,35 +44,28 @@ List of items
 
 3.  To homologate the Release request, access the **Management** tab, 
     find the release request that will be homologated, click on *Actions* 
-    and select the *Start/Execute Task* option, as shown in the figure below:
+    and select the *Start/Execute Task* option;
 
-    ![Create](images/homologation-2.png)
-
-    **Figure 2 - Execute the current task of the release request**
-
-1.  It'll be presented the screen **Release Request Registration** with the fields
+4.  It'll be presented the screen **Release Request Registration** with the fields
     completed, with the content about the request selected;
 
-    -  Make sure that the change release was performed as requested;
+    - Make sure that the change release was performed as requested;
 
-    -  In the **Request** area, the field **Status**, inform the status of the
-    release request (Solved or Not Solved);
+    - In the **Request** area, the field **Status**, inform the status of the release request (Solved or Not Solved);
 
-    -  Register the information necessary about the execution of homologation:
+    - Register the information necessary about the execution of homologation:
 
-        -  In the **Closure** field, click on *Add execution registration*
-           Once done, describe the information abut the execution of your
-           activity.
+        -  In the **Closure** field, click on *Add execution registration*. Once done, describe the information abut the 
+        execution of your activity.
 
-1.  If you have informed the status as **Not Solved**:
+5.  If you have informed the status as **Not Solved**:
 
-    -  In the **Closure** field, enter the reazon why it was not performed the change
-    release;
+    - In the **Closure** field, enter the reazon why it was not performed the change release;
 
-    -  Click on *Save and advance flow* to perform the operation, where the release
-    request will be directed to the requester to release it for a new activity execution.
+    - Click on *Save and advance flow* to perform the operation, where the release request will be directed to the requester
+    to release it for a new activity execution.
 
-1.  If you have informed the status as **Solved**:
+6.  If you have informed the status as **Solved**:
 
     -  In the field **Release date**, inform the date which was performed the change release;
 
