@@ -23,11 +23,11 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Problem Number.
+    - Problem Number.
 
-![figure](images/execution-1.png)
+    ![figure](images/execution-1.png)
 
-**Figure 1 - Problem search screen**
+    **Figure 1 - Problem search screen**
 
 Items list
 ----------
@@ -77,9 +77,9 @@ Executing problem
     log the task execution to, click the *Action*button and the *Start/Run
     Task* option, as shown in the image below:
 
-   ![figure](images/execution-3.png)
+    ![figure](images/execution-3.png)
    
-   **Figure 3 - Problem management screen**
+    **Figure 3 - Problem management screen**
 
 2.  The Problem Log screen appears with the fields filled in, with the contents
     of the selected record;
@@ -96,9 +96,8 @@ Linking configuration items to the problem
 
 1.  Enter the configuration items (CIs) affected by the problem:
 
-   -   Click the **Processes/Options** tab, and then click **Configuration Items**,
-    located on the right-hand corner of the screen, as shown in the figure
-    below:
+    - Click the **Processes/Options** tab, and then click **Configuration Items**, located on the right-hand corner of the 
+    screen, as shown in the figure below:
 
    ![figure](images/execution-4.png)
    
@@ -128,8 +127,8 @@ Linking a knowledge to the problem
 
 1.  Relate knowledge about the problem:
 
-   -   Click on the Processes/Options tab and then on Knowledge Base, located in
-    the right corner of the screen, as shown in the figure below:
+    - Click on the Processes/Options tab and then on Knowledge Base, located in the right corner of the screen, as shown in the 
+    figure below:
 
    ![figure](images/execution-8.png)
    
@@ -155,8 +154,7 @@ Linking attachments
 
 1.  If you want to attach a file to the problem, proceed as follows:
 
-   -   Click the **Attachments** tab, located in the upper right corner of the
-    screen, as shown in the figure below:
+    - Click the **Attachments** tab, located in the upper right corner of the screen, as shown in the figure below:
 
    ![figure](images/execution-10.png)
 
@@ -180,46 +178,39 @@ Linking occurrence to the problem
 
 1.  If you want to insert an instance of the problem log, proceed as follows:
 
-   -   Click the **Occurrence** tab, located in the upper right corner of the
-    screen, as shown in the figure below:
+    - Click the **Occurrence** tab, located in the upper right corner of the screen, as shown in the figure below:
 
-   ![figure](images/execution-12.png)
+    ![figure](images/execution-12.png)
    
-   **Figure 10 - Selection of occurrence**
+    **Figure 10 - Selection of occurrence**
 
-   -   The **Occurrences** screen containing two tabs will be displayed, one for
-    displaying the list of recorded occurrences and another for recording new
-    occurrences. Click on the **Register of Occurrences** tab and fill in the
-    fields as below:
+    - The **Occurrences** screen containing two tabs will be displayed, one for displaying the list of recorded occurrences and 
+    another for recording new occurrences. Click on the **Register of Occurrences** tab and fill in the fields as below:
 
-   ![figure](images/execution-13.png)
+    ![figure](images/execution-13.png)
    
-   **Figure 11 - Occurrence record**
+    **Figure 11 - Occurrence record**
 
-   -   **Category**: select the category of the occurrence. If the category is not
-    found, it is possible to perform a quick registration by clicking the
-    Category icon ![figure](images/register-4.png);
+    - **Category**: select the category of the occurrence. If the category is not found, it is possible to perform a quick 
+    registration by clicking the Category icon ![figure](images/register-4.png);
 
-   -   **Origin**: select the source of the occurrence. If the source is not
-    found, you can perform a quick registration by clicking the Source icon ![figure](images/register-4.png);
+    - **Origin**: select the source of the occurrence. If the source is not found, you can perform a quick registration by 
+    clicking the Source icon ![figure](images/register-4.png);
 
-   -   **Spent time (min)**: report the time spent in minutes;
+    - **Spent time (min)**: report the time spent in minutes;
 
-   -   **Registered by**: automatically populated by the user who is running the
-    activity;
+    - **Registered by**: automatically populated by the user who is running the activity;
 
-   -   **Description**: report the description of the occurrence;
+    - **Description**: report the description of the occurrence;
 
-   -   **Occurrence**: report the occurrence;
+    - **Occurrence**: report the occurrence;
 
-   -   **User Information**: describe the contact information;
+    - **User Information**: describe the contact information;
 
-   -   After the data has been entered, click on the *Save* button to perform the
-    operation, where the date, time and user will be saved automatically for a
-    future audit;
+    - After the data has been entered, click on the *Save* button to perform the operation, where the date, time and user will 
+    be saved automatically for a  future audit;
 
-   -   A message confirming the success of the operation will be displayed and will
-    return to the problem log screen.
+    - A message confirming the success of the operation will be displayed and will return to the problem log screen.
 
 2.  After recording the information of the execution of the problem task, click
     on the button *Save and Forward*, to carry out the operation, where the
