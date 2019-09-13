@@ -27,22 +27,22 @@ Filters
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   Name;
+   - Name;
 
--   SSN/EIN.
+   - SSN/EIN.
 
-2.  In the **Supplier** screen, click the **Suppliers search** tab, the search
-    screen will be displayed as illustrated on the Image below:
+2. In the **Supplier** screen, click the **Suppliers search** tab, the search screen will be displayed as illustrated on the 
+Image below:
 
-   ![figure](images/provider-1.png)
+    ![figure](images/provider-1.png)
    
-   **Figure 1 - Supplier search screen**
+    **Figure 1 - Supplier search screen**
 
 3.  Perform a supplier search:
 
-    -   **Name**: insert the supplier’s name;
+   - **Name**: insert the supplier’s name;
 
-    -   **SSN/EIN**: insert the supplier’s tax or social security number.
+   - **SSN/EIN**: insert the supplier’s tax or social security number.
 
 4.  After setting the filters, click the *Search* button. Then, the entries will
     be displayed according to the data provided;
@@ -52,13 +52,12 @@ Filters
 Items list
 ----------
 
-1.  The following cadastral fields are available to the user to facilitate the
-    identification of the desired items in the standard feature
-    listing: **Name** and **SSN/EIN**.
+1. The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard 
+feature listing: **Name** and **SSN/EIN**.
 
-   ![figure](images/provider-2.png)
+    ![figure](images/provider-2.png)
    
-   **Figure 2 - Suppliers listing**
+    **Figure 2 - Suppliers listing**
 
 2.  After searching, select the intended entry. Once this is done, you will be
     directed to the registry screen displaying the content of the selected
@@ -72,15 +71,14 @@ Items list
 Filling in the registration fields
 ----------------------------------
 
-1.  In the **Supplier** screen, click the **Supplier registration** tab,
-    the **Supplier Registration** screen will be displayed, as illustrated on
-    the image below:
+1. In the **Supplier** screen, click the **Supplier registration** tab, the **Supplier Registration** screen will be displayed, 
+as illustrated on the image below:
 
-   ![figure](images/provider-3.png)
+    ![figure](images/provider-3.png)
    
-   **Figure 3 - Supplier registration screen**
+    **Figure 3 - Supplier registration screen**
 
-2.  Fill out the fields as instructed below:
+2. Fill out the fields as instructed below:
 
     -   **Supplier Type**: select the supplier type;
 
@@ -129,12 +127,11 @@ Filling in the registration fields
 
     -   **Country**: select the supplier’s country;
 
-   !!! info "IMPORTANTE"
+    !!! info "IMPORTANT"
 
-      The contents of the Country, State/Province and City fields are
-      synchronized, therefore, when selecting a country, only its states will
-      appear in the State/Province field. Similarly, when selecting a
-      State/Province, only its Cities will be available.
+        The contents of the Country, State/Province and City fields are synchronized, therefore, when selecting a country, only 
+        its states will appear in the State/Province field. Similarly, when selecting a State/Province, only its Cities will be 
+        available.
 
 -   **State/Province**: select the supplier’s state;
 
