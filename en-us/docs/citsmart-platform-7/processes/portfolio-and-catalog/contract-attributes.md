@@ -14,7 +14,7 @@ Preconditions
     knowledge [Portfolio management access permission][1]);
 
 2.  Have the portfolio with the services registered (see knowledge [Service
-    portfolio registration][2]), [Service registration][3]);
+    portfolio registration][2], [Service registration][3]);
 
 3.  Have the contract bound to the service (see knowledge [Service attributes
     configuration][4]);
@@ -23,7 +23,7 @@ Preconditions
     search][5]);
 
 5.  Have the client registered (see knowledge [Customer registration and
-    search][6);
+    search][6]);
 
 6.  Have the currency registered (see knowledge [Currency registration and
     search][7]);
