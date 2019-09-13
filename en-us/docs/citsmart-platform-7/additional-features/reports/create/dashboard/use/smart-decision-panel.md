@@ -49,43 +49,43 @@ Adding widget to the dashboard
 3. Click one of the options and then click on the widget you want to add to the
     dashboard;
 
-    -   **Quick access**: allows you to add links for quick access.
+    -  **Quick access**: allows you to add links for quick access.
 
-    -   **Smart Reports**: allows you to add dynamic reports.
+    -  **Smart Reports**: allows you to add dynamic reports.
 
-    -   **Widgets**: allows you to add graphs with relevant information.
+    -  **Widgets**: allows you to add graphs with relevant information.
 
 4. If you have added the "links" widget, please enter the desired links;
 
-    -   Click the widget's configuration icon ![Criar](images/panel-8.png);
+    -  Click the widget's configuration icon ![Criar](images/panel-8.png);
 
-    -   The link addition screen will be displayed, as shown in the figure below:
+    -  The link addition screen will be displayed, as shown in the figure below:
 
 ![Criar](images/panel-9.png)
 
 **Figure 4 - Links registration**
 
-   -   **Title**: the widget description is displayed. Modify the same case as you
+   -  **Title**: the widget description is displayed. Modify the same case as you
     need;
 
-   -   Click the *Add* button. After that, the fields will be displayed to inform
+   -  Click the *Add* button. After that, the fields will be displayed to inform
     the data of the link;
 
 ![Criar](images/panel-10.png)
 
 **Figure 5 - Links registration details**
 
-   -   **Type**: report the type of link;
+   -  **Type**: report the type of link;
 
-   -   **Internal**: choose this type if the link that will be added refers to a
+   -  **Internal**: choose this type if the link that will be added refers to a
     system functionality -\> select the menu that corresponds to the desired
     system functionality;
 
-   -   **External**: choose this type if the link that will be added refers to an
+   -  **External**: choose this type if the link that will be added refers to an
     external source, such as a website-\> enter the description of the link and
     the URL.
 
-   -   Click on the *Apply* button to register.
+   -  Click on the *Apply* button to register.
 
 5. After the widgets have been added and configured, click the icon ![Criar](images/panel-11.png) to save the changes made to the dashboard.
 
