@@ -58,9 +58,9 @@ In this stage, the investigation of the problem and the diagnosis of the main
 cause is carried out. All available resources and problem-solving techniques
 will be used to identify the root cause, the identified failure, and a solution.
 
-    !!! info "IMPORTANT"
+!!! info "IMPORTANT"
 
-        The group member assigned to conduct the investigation and diagnosis must capture the problem and start the activity.
+    The group member assigned to conduct the investigation and diagnosis must capture the problem and start the activity.
 
 1.  On the **Management** tab, locate the problem log that you want to log the
     investigation and diagnosis, click the *Action* button and select
