@@ -28,11 +28,11 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Problem number.
+    -  Problem number.
 
-![figure](images/schedule-activity-1.png)
+    ![figure](images/schedule-activity-1.png)
 
-**Figure 1 - Problem search screen**
+    **Figure 1 - Problem search screen**
 
 Items list
 ----------
@@ -57,9 +57,9 @@ Activity scheduling
     schedule the activity, click the *Action* button and select the *Schedule
     Activity* option, as shown in the image below:
 
-   ![figure](images/schedule-activity-3.png)
+    ![figure](images/schedule-activity-3.png)
    
-   **Figure 3 - Problem management screen**
+    **Figure 3 - Problem management screen**
 
 2.  A window will appear to schedule activities containing two tabs, one
     for **Scheduling History** and one for **Create Scheduling**;
@@ -79,17 +79,16 @@ Filling in the registration fields
 
    ![figure](images/schedule-activity-5.png)
    
-   **Figure 5 - Creating activity scheduling**
+    **Figure 5 - Creating activity scheduling**
 
-   -   **Activity Group:** select the Activity Group to schedule the activity;
+    - **Activity Group:** select the Activity Group to schedule the activity;
 
-   -   **Technical Guidance**: inform the Technical Guidance of the activity;
+    - **Technical Guidance**: inform the Technical Guidance of the activity;
 
-   -   **Schedule for**: inform the date and time, period that will be scheduled to
+    - **Schedule for**: inform the date and time, period that will be scheduled to
     carry out the activity;
 
-   -   **Estimated Time**: enter the estimated duration in minutes, ie the time it
-    will take to perform the activity.
+    - **Estimated Time**: enter the estimated duration in minutes, ie the time it will take to perform the activity.
 
 2.  Click the *Save* button to perform the operation, where the date, time and
     user will be saved automatically for a future audit;
