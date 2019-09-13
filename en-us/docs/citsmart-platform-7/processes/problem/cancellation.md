@@ -23,11 +23,11 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Problem Number
+    - Problem Number
 
-![figure](images/cancel-1.png)
+    ![figure](images/cancel-1.png)
 
-**Figure 1 - Filters screen**
+    **Figure 1 - Filters screen**
 
 Items list
 ----------
@@ -57,27 +57,25 @@ Cancelling
     click the *Action* button and the *Start/Run task* option, as shown in the
     image below:
 
-   ![figure](images/cancel-3.png)
+    ![figure](images/cancel-3.png)
    
-   **Figure 3 - Problem Management Screen**
+    **Figure 3 - Problem Management Screen**
 
 2.  The **Problem Log** screen will appear with the fields filled, with content
     related to the selected problem. In the **Closing** table, record the
     necessary information;
 
--   In the **Status** field, select the option "Canceled";
+    - In the **Status** field, select the option "Canceled";
 
--   In the **Closing** field, describe the details of the problem cancellation;
+    - In the **Closing** field, describe the details of the problem cancellation;
 
--   After recording the trouble-cancelling information, click the *Save and
-    Forward Flow* to perform the operation, where the trouble ticket will be
-    canceled successfully;
+    - After recording the trouble-cancelling information, click the *Save and Forward Flow* to perform the operation, where the 
+    trouble ticket will be canceled successfully;
 
--   If you want to save only the logged information about cancelling the problem
-    and keep the current job, click the *Save and Keep the Current Task*;
+    - If you want to save only the logged information about cancelling the problem and keep the current job, click the
+    *Save and Keep the Current Task*;
 
--   In both cases above, clicking the *Save* button will automatically record
-    the date, time and user for a future audit.
+    - In both cases above, clicking the *Save* button will automatically record the date, time and user for a future audit.
 
 [1]:/en-us/citsmart-platform-7/processes/problem/register-problem.html
 
