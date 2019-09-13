@@ -25,9 +25,9 @@ Filters
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   Description;
+    - Description;
 
--   Status.
+    - Status.
 
 2.  To carry out the search for a request justification, inform the description
     and/or situation of the request. After that, the record will be displayed
@@ -42,7 +42,7 @@ Items list
 
 1.  The following cadastral fields are available to the user to facilitate the
     identification of the desired items in the standard feature
-    listing: **Description **and** Status**.
+    listing: **Description** and **Status**.
 
 ![figure](images/justification-2.png)
 
@@ -56,9 +56,9 @@ Filling in the registration fields
 2.  Click the *New* button. Once this is done, the Reason Request screen will be
     displayed, as shown in the following figure:
 
-   ![figure](images/justification-3.png)
+    ![figure](images/justification-3.png)
    
-   **Figure 3 - Request justification file screeen**
+    **Figure 3 - Request justification file screeen**
 
 3.  Fill in the fields as directed below:
 
