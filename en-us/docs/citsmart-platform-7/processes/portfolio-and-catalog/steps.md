@@ -136,7 +136,7 @@ activity and report The defined service time for these activities.
 [1]:/en-us/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
 [2]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/employee.html
 [3]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/user-register.html
-[4]:/en-us/citsmart-platform-7/plataform-administration/time/create-working-day.html
+[4]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/portfolio-access.html
 [5]:/en-us/citsmart-platform-7/plataform-administration/time/create-calendar.html
 [6]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/client.html
 [7]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/provider.html
