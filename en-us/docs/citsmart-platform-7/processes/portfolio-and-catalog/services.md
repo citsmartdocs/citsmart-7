@@ -105,11 +105,11 @@ Registering business service
    
     **Figure 5 - Service analysis screen**
 
-            - **Type of Investment**: indicate the type of investment related to the service;
+    - **Type of Investment**: indicate the type of investment related to the service;
 
-            - **Demand**: indicate the type of demand for the service;
+    - **Demand**: indicate the type of demand for the service;
 
-            - **Financial Return of the Service**: indicate the financial return of the service.
+    - **Financial Return of the Service**: indicate the financial return of the service.
 
     - **Approve**: this phase indicates that the proposed service is in approval.
     Phase to finalize the proposed service, authorize services and resources and
