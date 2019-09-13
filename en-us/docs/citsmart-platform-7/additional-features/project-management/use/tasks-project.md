@@ -22,7 +22,7 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Filter
+   -  Filter
 
 ![Criar](images/tasks-1.png)
 
@@ -59,15 +59,15 @@ Recording the hours spent with the task - filling in the registration fields
 
 2.  Fill in the fields as directed below:
 
--   **Date**: enter the date on which the task was executed;
+    -   **Date**: enter the date on which the task was executed;
 
--   **Spent time (hours)**: enter the time spent on the task on the date
+    -   **Spent time (hours)**: enter the time spent on the task on the date
     entered;
 
--   **Comments**: describe what was done in the execution of the task, if
+    -   **Comments**: describe what was done in the execution of the task, if
     necessary;
 
--   **Activity**: select the type of activity performed relative to the task.
+    -   **Activity**: select the type of activity performed relative to the task.
 
 3.  After the data is entered, click the *Save* button to register.
 
