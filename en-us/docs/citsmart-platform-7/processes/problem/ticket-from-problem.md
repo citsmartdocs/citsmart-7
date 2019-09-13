@@ -66,7 +66,7 @@ Filling in the registration fields
 
 3.  The incident/Request relationship screen is displayed;
 
-   ![figure](images/ticket-5.png)
+    ![figure](images/ticket-5.png)
    
     **Figure 5 - Relate Incidents/Requests**
 
