@@ -175,7 +175,7 @@ Registering business service
     - Select the attachment type, click the *Add File* button and select the desired file.
 
 4.  If you want to make the service available in Smart Portal and/or Chat, click
-    on the **Presentation **tab:
+    on the **Presentation** tab:
 
     ![figure](images/service-7.png)
    
