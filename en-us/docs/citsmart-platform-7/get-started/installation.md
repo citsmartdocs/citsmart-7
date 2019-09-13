@@ -828,7 +828,7 @@ Follow the steps:
 
 8. After deleting the files we added these settings:
 
-    ***vim /etc/postfix/main.cf**
+    **vim /etc/postfix/main.cf**
 
     **myhostname = hostname.example.com**
 
@@ -1065,9 +1065,9 @@ necessary to go back to the version, this file will be needed;
 
 11. Perform the update validation as per the next topic.
 
-   !!! warning "WARNING"
+!!! warning "WARNING"
 
-        Run the step 11 validation correctly, as the system will be locked to users until this step has been performed.
+     Run the step 11 validation correctly, as the system will be locked to users until this step has been performed.
 
 Update validation
 ------------------------
@@ -1214,8 +1214,8 @@ See also
 [2]:/en-us/citsmart-platform-7/additional-features/add-ons/event-monitor-connection.html
 [3]:/en-us/citsmart-platform-7/processes/event/inventory-connection-setup.html
 [4]:/en-us/citsmart-platform-7/additional-features/add-ons/inventory-installation.html
-[5]:#
-[6]:#
+[5]:/en-us/citsmart-platform-7/get-started/cas3-installation.html
+[6]:/en-us/citsmart-platform-7/additional-features/add-ons/evm-installation.html
 
 !!! tip "About"
 
