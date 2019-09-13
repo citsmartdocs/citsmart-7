@@ -23,11 +23,11 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Problem Number.
+    - Problem Number.
 
-![figure](images/resolution-1.png)
+    ![figure](images/resolution-1.png)
 
-**Figure 1 - Filters screen**
+    **Figure 1 - Filters screen**
 
 Items list
 ----------
@@ -58,20 +58,20 @@ complete details of the solution and actions in the Problem.
     resolution to, click the *Action* button and select the Start/Execute task
     option, as shown in the image below:
 
-   ![figure](images/resolution-3.png)
-   
-   **Figure 3 - Problem management screen**
+    ![figure](images/resolution-3.png)
+
+    **Figure 3 - Problem management screen**
 
 2.  The **Problem Log** screen with the filled fields for the selected record
     will be displayed.
 
-   -  In the **Closure** frame, record the information needed to complete the  task:
+    - In the **Closure** frame, record the information needed to complete the  task:
 
-      -  Click the *Add an Execution Register button*;
+        -  Click the *Add an Execution Register button*;
 
-      -  Describe the information about the execution of your activity.
+        -  Describe the information about the execution of your activity.
 
-   -  Record the serious problem review information;
+    -  Record the serious problem review information;
 
        -  Click the **Processes/Options** tab, and then click **Review Major Problem**, located on the right-hand corner of the screen, as shown in the figure below:
 
