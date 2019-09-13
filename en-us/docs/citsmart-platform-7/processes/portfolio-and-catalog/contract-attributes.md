@@ -142,7 +142,7 @@ Linking request activities to contract
 
 **Figure 2 - Contract request link screen**
 
-##### FILLING IN THE REGISTRATION FIELDS
+### FILLING IN THE REGISTRATION FIELDS
 
 1.  Click on the *Link Service Request* button (according to the previous
     figure). The screen to perform the link for the request activity will be
