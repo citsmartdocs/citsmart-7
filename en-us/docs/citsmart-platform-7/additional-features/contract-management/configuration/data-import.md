@@ -13,7 +13,7 @@ How to access
 Importing data
 --------------
 
-1.  Afterwards, the Contract Import screen will be displayed, as illustrated on the image below:
+1. Afterwards, the Contract Import screen will be displayed, as illustrated on the image below:
 
     ![figure](images/import.png)
     
@@ -21,15 +21,15 @@ Importing data
 
    !!! note “NOTE”
 
-        If the file does not concern a contract, do not select the contract, just add the file for data import.
+       If the file does not concern a contract, do not select the contract, just add the file for data import.
 
-2.  Add the file for data import;
+2. Add the file for data import;
 
-   - Click on the Choose File button;
+     - Click on the Choose File button;
    
-   - Select the intended file;
+     - Select the intended file;
    
-   - Insert a description for the file and click on Add.
+     - Insert a description for the file and click on Add.
 
 3. After editing the file, click on the Import button;
 
@@ -37,7 +37,7 @@ Importing data
 
 !!! note “NOTE”
 
-       As the data is imported, the system will maintain the existing data and add only the new data.
+    As the data is imported, the system will maintain the existing data and add only the new data.
 
 
 !!! tip "About"
