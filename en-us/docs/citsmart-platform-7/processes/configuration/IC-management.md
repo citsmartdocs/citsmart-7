@@ -9,11 +9,13 @@ Preconditions
 
 1. Enter Service Level Agreement (General) of type "Availability" (see knowledge [General service level agreement registration and search](/en-us/citsmart-platform-7/processes/service-level/register-sla.html));
 
-2. Enter locality (see knowledge [Location registration and search])(/en-us/citsmart-platform-7/plataform-administration/region-and-language/register-locations.html));
+2. Enter locality (see knowledge
+[Location registration and search])(/en-us/citsmart-platform-7/plataform-administration/region-and-language/register-locations.html));
 
 3. Register employee (see knowledge [Staff registration and search](/en-us/citsmart-platform-7/initial-settings/access-settings/user/employee.html));
 
-4. Group membership (see knowledge [Group registration and search])(/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html));
+4. Group membership (see knowledge 
+[Group registration and search])(/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html));
 
 5. Register contract (see knowledge [Contract registration and search](/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract.html));
 
