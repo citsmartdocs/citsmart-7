@@ -142,9 +142,9 @@ with status of "Definition".
 1.  After accessing functionality, the **Service Level Requirements
     Master** screen will be displayed, as shown in the figure below:
 
-   ![figure](images/configure-2.png)
+    ![figure](images/configure-2.png)
    
-   **Figure 2 - Service level requirements master data sheet**
+    **Figure 2 - Service level requirements master data sheet**
 
 2.  Fill in the fields as shown below:
 
@@ -222,9 +222,9 @@ Recording financial attributes
 1.  After accessing the functionality, the **Financial Attributes Master
     Data** screen will be displayed, as shown in the figure below:
 
-   ![figure](images/configure-3.png)
+    ![figure](images/configure-3.png)
    
-   **Figure 3 - Financial attributes registration data screen**
+    **Figure 3 - Financial attributes registration data screen**
 
 2.  Fill in the fields as shown below:
 
@@ -282,9 +282,9 @@ used.
 1.  After accessing the functionality, the **Business Case Registration** screen
     will be displayed, as shown in the figure below:
 
-   ![figure](images/configure-4.png)
+    ![figure](images/configure-4.png)
    
-   **Figure 4 - Business case registration screen**
+    **Figure 4 - Business case registration screen**
 
 2.  Fill in the fields as shown below:
 
@@ -338,9 +338,9 @@ Linking business process to service
 2.  There are action buttons available to the user for each item in the listing,
     they are: *View* and *Delete*;
 
-   ![figure](images/configure-5.png)
+    ![figure](images/configure-5.png)
    
-   **Figure 5 - Business process link screen**
+    **Figure 5 - Business process link screen**
 
 3.  Click the *Link Business Process* button. Once this is done, the screen for
     business process search will be displayed. Perform the search, select the
@@ -386,9 +386,9 @@ Linking business owner o service
 2.  There is one action button available to the user in relation to each item in
     the listing, it is: *Unlink*;
 
-   ![figure](images/configure-6.png)
-   
-   **Figure 6 - Business owner link screen**
+    ![figure](images/configure-6.png)
+
+    **Figure 6 - Business owner link screen**
 
 3.  If the "business owner" is one or more employees, click on the *Link
     Owner* button to link the employee (s) to the service. After that, the
@@ -429,9 +429,9 @@ Linking business user to service
 2.  There is one action button available to the user in relation to each item in
     the listing, it is: *Unlink*;
 
-   ![figure](images/configure-7.png)
-   
-   **Figure 7 - Business user link screen**
+    ![figure](images/configure-7.png)
+
+    **Figure 7 - Business user link screen**
 
 3.  Click the *Link User* button to link the user (s) to the service. Once this
     is done, the system user search screen will be displayed. Perform the
@@ -465,16 +465,15 @@ Linking support - technical service
 
 ### Items list
 
-1.  The following registration fields are available to the user to facilitate
-    the identification of the desired items in the standard listing of the
-    functionality: **ID**, **Enabling Service Name**, **Phase** and **Status**;
+1. The following registration fields are available to the user to facilitate
+   the identification of the desired items in the standard listing of the
+   functionality: **ID**, **Enabling Service Name**, **Phase** and **Status**;
 
-2.  There are action buttons available to the user for each item in the listing,
-    they are: *Edit* and *Unlink*;
+2. There are action buttons available to the user for each item in the listing, they are: *Edit* and *Unlink*;
 
-   ![figure](images/configure-8.png)
+    ![figure](images/configure-8.png)
    
-   **Figure 8 - Support/Technical service link screen**
+    **Figure 8 - Support/Technical service link screen**
 
 3.  Click the *Link Service* button to link the support/technical services to
     the core service. Once this is done, the service search screen will be
@@ -584,9 +583,9 @@ Linking applications to the service
 2.  There are action buttons available to the user for each item in the listing,
     they are: *Edit* and *Unlink*;
 
-   ![figure](images/configure-12.png)
+    ![figure](images/configure-12.png)
    
-   **Figure 12 - Application link to service screen**
+    **Figure 12 - Application link to service screen**
 
 3.  Click the *Link Application* button. Once this is done, the application
     search screen will be displayed. Perform the search and select the
@@ -614,9 +613,9 @@ Registering service data schema
 1.  Click **Data Schema**. After that, the **Service Data Schema Master** screen
     will be displayed, as shown in the figure below:
 
-   ![figure](images/configure-13.png)
+    ![figure](images/configure-13.png)
    
-   **Figure 13 - Service data schema master data screen**
+    **Figure 13 - Service data schema master data screen**
 
 2.  Describe the details of the service data schema;
 
