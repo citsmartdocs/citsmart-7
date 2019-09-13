@@ -28,13 +28,13 @@ Filters
     in the standard feature listing, making it easier to locate the desired
     items as shown in the figure below:
 
-   -   Request number;
+    - Request number;
 
-   -   Assigned/Shared.
+    - Assigned/Shared.
 
-![Figura](images/schedule-1.png)
+    ![Figura](images/schedule-1.png)
 
-**Figure 1 - Search screen**
+    **Figure 1 - Search screen**
 
 Items list
 ----------
@@ -68,7 +68,7 @@ Scheduling an activity
 Filling in the registration fields
 ----------------------------------
 
-1.  When you select the *Request Release Schedule *option (according to the
+1.  When you select the *Request Release Schedule* option (according to the
     previous figure), the Activity Schedule screen will be displayed. Click on
     the **Scheduling Creation** tab;
 
