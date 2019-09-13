@@ -200,19 +200,18 @@ Portfolio** screen will be displayed, as shown in the figure below:
 3. The Portfolio is responsible for managing the service throughout its life cycle. The following figure presents a vision of the 
 management of the Services Portfolio:
 
-![figura](images/portfolio.img14.jpg)
+    ![figura](images/portfolio.img14.jpg)
    
-   **Figure 14- Service Portfolio Management**
+    **Figure 14- Service Portfolio Management**
 
-!!! info "IMPORTANT"
+    !!! info "IMPORTANT"
 
-    The Service Portfolio will control all new services proposed, in
-    development, production and retirees.
+        The Service Portfolio will control all new services proposed, in development, production and retirees.
 
 Overview of main screen functions
 ---------------------------------
 
-![figura](images/portfolio-15.png)
+![figura](images/portfolio.img15.jpg)
 
 **Figure 15 - Service Portfolio management**
 
