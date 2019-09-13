@@ -10,20 +10,18 @@ Generating TSUS usage report
 
 ### How to access
 
-1.  Access the TSUs Usage Reporting feature by navigating the main
+1. Access the TSUs Usage Reporting feature by navigating the main
     menu **Reports > Contracts Management > TSU Use**.
 
 ### Filters
 
-1.  The following filter enable the user to restrict the participation of items
-    in the standard feature listing, making it easier to locate the desired
-    items as shown in the figure below:
+1. The following filter enable the user to restrict the participation of items in the standard feature listing, making it easier to locate the desired items as shown in the figure below:
 
-     -  Year;
+      - Year;
 
-     -  Contract.
+      - Contract.
 
-2.  The **Usage Report Generation** screen will be displayed, as shown in the
+2. The **Usage Report Generation** screen will be displayed, as shown in the
     following figure:
 
 ![USTs](images/rel-contr.img1.jpg)
@@ -32,9 +30,9 @@ Generating TSUS usage report
 
 3.  Set the filters as needed:
 
-    -   **Year**: select the desired year;
+     -  **Year**: select the desired year;
 
-    -   **Contract**: Select the agreement to verify information about the use
+     -  **Contract**: Select the agreement to verify information about the use
         of TSU in it.
 
 Generating tsu follow-up report
@@ -49,20 +47,20 @@ Generating tsu follow-up report
 
 ### Filters
 
-1.  The following filter enable the user to restrict the participation of items
+1. The following filter enable the user to restrict the participation of items
     in the standard feature listing, making it easier to locate the desired
     items as shown in the figure below:
 
      -  Contract
 
-2.  The **TSU Monitoring Report Generation** screen will be displayed, as shown
+2. The **TSU Monitoring Report Generation** screen will be displayed, as shown
     in the following figure:
 
 ![USTs](images/rel-contr.img1.jpg)
 
 **Figure 2 - TSU tracking report generation screen**
 
-3.  Select the contract to verify the use of TSU in it.
+3. Select the contract to verify the use of TSU in it.
 
 
 !!! tip "About"
