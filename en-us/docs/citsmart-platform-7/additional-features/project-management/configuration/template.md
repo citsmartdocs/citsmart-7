@@ -41,7 +41,7 @@ Filling in the registration fields
 ----------------------------------
 
 1. The **Project** listing entry screen will be displayed. Click on
-    the *New** button (as shown in the previous figure). The **Project Entry
+    the *New* button (as shown in the previous figure). The **Project Entry
     Screen** will be displayed, as illustrated on the image below:
 
 ![Listagem](images/tem-proj.img2.jpg)
