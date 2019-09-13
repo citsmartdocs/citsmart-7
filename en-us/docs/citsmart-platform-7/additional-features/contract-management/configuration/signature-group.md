@@ -65,14 +65,14 @@ Filling in the registration fields
    
    - Order by: insert an order the signature will be displayed on the report signature board ;
    
-   - Click on the Add button to add a signature to the group. According to the signature board featured on the service order report, many signatures can be added to each group.
+3. Click on the Add button to add a signature to the group. According to the signature board featured on the service order report, many signatures can be added to each group;
 
 
    ![figure](images/group-4.png)
     
    **Figure 4 - Signatures added to the group**
 
-3. Click on the Save the button to confirm the entry, at which date, time and user will automatically be stored for a future audit..
+4. Click on the Save the button to confirm the entry, at which date, time and user will automatically be stored for a future audit.
 
 
 [1]:/en-us/citsmart-platform-7/additional-features/contract-management/configuration/signature.html
