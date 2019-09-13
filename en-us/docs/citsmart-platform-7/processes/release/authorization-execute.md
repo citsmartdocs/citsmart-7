@@ -24,13 +24,13 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Request Nº;
+    - Request Nº;
 
--   Assigned/Shared.
+    - Assigned/Shared.
 
-![figure](images/execute-1.png)
+    ![figure](images/execute-1.png)
 
-**Figure 1 - Release search screen**
+    **Figure 1 - Release search screen**
 
 Items list
 ----------
@@ -44,13 +44,13 @@ Items list
 2.  There are action buttons available to the user for each item in the listing,
     they are: *View*, *Reports*, and *Action*.
 
-    ![figure](images/execute-2.png)
+   ![figure](images/execute-2.png)
  
     **Figure 2 - Release listing screen**
 
-   !!! info "IMPORTANT"
+    !!! info "IMPORTANT"
 
-      Only the "applicant" may authorize the release request execution.
+        Only the "applicant" may authorize the release request execution.
 
 3.  The release management screen will be displayed;
 
@@ -58,9 +58,9 @@ Items list
     to be executed, click on the *Action* button and select the *Start/Run
     Task* option;
 
-   ![figure](images/execute-3.png)
+    ![figure](images/execute-3.png)
    
-   **Figure 3 - Authorize release request for execution**
+    **Figure 3 - Authorize release request for execution**
 
 5.  The **Release Request Entry** screen will be displayed with all the fields
     filled out with the content related to the selected request;
