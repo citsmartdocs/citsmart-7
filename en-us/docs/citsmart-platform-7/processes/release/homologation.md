@@ -4,7 +4,7 @@ Description:This functionality allows to homologate the release of changes that 
 
 # Release Homologation
 
-functionality allows to homologate the release of changes that have been
+This functionality allows to homologate the release of changes that have been
 performed and tested.
 
 How to access it
