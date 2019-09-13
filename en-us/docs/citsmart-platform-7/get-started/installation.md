@@ -1205,9 +1205,9 @@ See also
 
 [Inventory component installation guide](4);
 
-[Central authentication service (CAS) installation guide - version 3.0 (ITSM)];
+[Central authentication service (CAS) installation guide - version 3.0 (ITSM)][5];
 
-[EVM component installation guide].
+[EVM component installation guide][6].
 
 
 [1]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-email.html
