@@ -23,13 +23,13 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Description;
+    - Description;
 
--   Status.
+    - Status.
 
-![figure](images/justification-1.png)
+    ![figure](images/justification-1.png)
 
-**Figure 1 - Search for reason for release request**
+    **Figure 1 - Search for reason for release request**
 
 Items list
 ----------
@@ -41,9 +41,9 @@ Items list
 2.  There are action buttons available to the user for each item in the listing,
     they are: *Edit* and *Delete.*
 
-   ![figure](images/justification-2.png)
+    ![figure](images/justification-2.png)
    
-   **Figure 2 - Listing of release request justification**
+    **Figure 2 - Listing of release request justification**
 
 3.  To edit a release request justification entry, click on the *Edit* button.
     Afterwards, the user will be redirected to the registry screen displaying
@@ -58,18 +58,17 @@ Filling in the registration fields
     Justification** entry screen will be displayed, as illustrated on the image
     below:
 
-   ![figure](images/justification-3.png)
+    ![figure](images/justification-3.png)
    
-   **Figure 3 - Release request justification entry screen**
+    **Figure 3 - Release request justification entry screen**
 
 3.  Fill out the fields as instructed below:
 
-    -   **Description**: describe the reason for the release request;
+    - **Description**: describe the reason for the release request;
 
-    -   **Status**: insert the release request justification status;
+    - **Status**: insert the release request justification status;
 
-    -   **Suspended**: insert if the justification will be used to suspend a release
-    request; check one of the options (Yes or No).
+    - **Suspended**: insert if the justification will be used to suspend a release request; check one of the options (Yes or No).
 
 4.  Click on the *Save* the button to confirm the entry, at which date, time and
     user will automatically be stored for a future audit.
