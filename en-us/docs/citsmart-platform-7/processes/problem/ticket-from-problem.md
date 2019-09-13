@@ -17,14 +17,17 @@ Preconditions
 
 1.  No applicable.
 
-2.  The following filter enables the user to restrict the participation of items
+Filters
+-----------
+
+1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Problem Number.
+     - Problem Number.
 
-![figure](images/ticket-1.png)
+    ![figure](images/ticket-1.png)
 
-**Figure 1 - Problem search screen**
+    **Figure 1 - Problem search screen**
 
 Items list
 ----------
@@ -49,23 +52,23 @@ Filling in the registration fields
     the *Action* button and select the *Start/Run task* from it, as shown in the
     figure below:
 
-   ![figure](images/ticket-3.png)
+    ![figure](images/ticket-3.png)
    
-   **Figure 3 - Action button**
+    **Figure 3 - Action button**
 
 2.  The **Problem Log** screen appears, click the **Processes/Options** tab, and
     then click on **Incidents/Requests**, located on the right-hand corner of
     the screen, as shown in the figure below:
 
-   ![figure](images/ticket-4.png)
+    ![figure](images/ticket-4.png)
    
-   **Figure 4 - Selection of Incidents/Requests**
+    **Figure 4 - Selection of Incidents/Requests**
 
 3.  The incident/Request relationship screen is displayed;
 
    ![figure](images/ticket-5.png)
    
-   **Figure 5 - Relate Incidents/Requests**
+    **Figure 5 - Relate Incidents/Requests**
 
 4.  To register a service request, click the icon ![figure](images/ticket-6.png). The Service Request/Incident
     registration screen appears, as shown in the figure below:
