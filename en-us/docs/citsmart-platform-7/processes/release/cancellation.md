@@ -26,13 +26,13 @@ Filters
     in the standard feature listing, making it easier to locate the desired
     items:
 
--   Request number;
+    - Request number;
 
--   Assigned/Shared.
+    - Assigned/Shared.
 
-![figure](images/cancellation-1.png)
+    ![figure](images/cancellation-1.png)
 
-**Figure 1 - Filters screen**
+    **Figure 1 - Filters screen**
 
 Items list
 ----------
@@ -64,18 +64,16 @@ Cancelling the release request
     cancelled, click on the *Action* button and select
     the *Start/RunTask* option, as indicated on the image below:
 
-   ![figure](images/cancellation-3.png)
+    ![figure](images/cancellation-3.png)
    
-   **Figure 3 - Cancel the release request**
+    **Figure 3 - Cancel the release request**
 
 3.  The **Release Request Entry** screen will be displayed with all the fields
     filled out with the content related to the selected request;
 
-   -   On the **Request** area, on the Status field, change the release request
-    status to "Cancelled";
+    - On the **Request** area, on the Status field, change the release request status to "Cancelled";
 
-   -   On the **Closure** area, on the Closure field, describe the release request
-    cancellation reason.
+    - On the **Closure** area, on the Closure field, describe the release request cancellation reason.
 
 4.  After registering the information concerning the release cancellation, click
     on the *Save and Forward Flow* button to perform the operation, at which the
