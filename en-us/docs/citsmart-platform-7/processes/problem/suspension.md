@@ -26,11 +26,11 @@ Filters
     in the standard feature listing, making it easier to locate the desired
     items:
 
--   Problem Number
+    - Problem Number
 
-![figure](images/suspension-1.png)
+    ![figure](images/suspension-1.png)
 
-**Figure 1 - Problem Search Screen**
+    **Figure 1 - Problem Search Screen**
 
 Items list
 ----------
@@ -60,9 +60,9 @@ Suspending problem
     click the *Action* button and the Suspend/Reactivate option, as shown in the
     figure below:
 
-   ![figure](images/suspension-3.png)
+    ![figure](images/suspension-3.png)
    
-   **Figure 3 - Problem management screen**
+    **Figure 3 - Problem management screen**
 
 2.  A window will appear to record the justification for suspending the problem:
 
