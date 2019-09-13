@@ -22,7 +22,7 @@ Description: Provides all the knowledge of the process.
 
 [Release execution](/en-us/citsmart-platform-7/processes/release/execution.html)
 
-[Homologação de liberação](/en-us/citsmart-platform-7/processes/release/homologation.html)
+[Release Homologation](/en-us/citsmart-platform-7/processes/release/homologation.html)
 
 [Release record search](/en-us/citsmart-platform-7/processes/release/log-search.html)
 
