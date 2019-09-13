@@ -33,23 +33,21 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
-   -   Name.
+    - Name.
 
 2.  On the **Release Type** screen, click the **Search Release** tab. The search
     screen will be displayed as illustrated on the image below:
 
-   ![figure](images/type-1.png)
+    ![figure](images/type-1.png)
    
-   **Figure 1 - Release type search screen**
+    **Figure 1 - Release type search screen**
 
 3.  Perform a release type search:
 
--   Insert the name of the intended release type and click on
-    the *Search* button. Afterwards, the release type entry will be displayed
-    according to the description provided;
+    - Insert the name of the intended release type and click on the *Search* button. Afterwards, the release type entry will
+    be displayed according to the description provided;
 
--   If you want to list all release type entries, just click directly on
-    the *Search* button.
+    - If you want to list all release type entries, just click directly on the *Search* button.
 
 Items list
 ----------
@@ -58,9 +56,9 @@ Items list
     identify the desired items in the default listing of the
     functionality: **Name**.
 
-   ![figure](images/type-2.png)
+    ![figure](images/type-2.png)
    
-   **Figure 2 - Items screen**
+    **Figure 2 - Items screen**
 
 2.  After searching, select the intended entry. Afterwards, they will be
     redirected to the registry screen displaying the content belonging to the
@@ -77,30 +75,29 @@ Filling in the registration fields
 1.  On the **Release Type** screen, click the **Search Release** tab. The search
     screen will be displayed as illustrated on the image below:
 
-   ![figure](images/type-3.png)
+    ![figure](images/type-3.png)
    
-   **Figure 3 - Release type registration screen**
+    **Figure 3 - Release type registration screen**
 
 2.  Fill out the fields as instructed below:
 
-   -   **Name**: insert the name of the release type;
+    - **Name**: insert the name of the release type;
 
-   -   **Flow**: select the release flow so it can be associated to the release
-    type being registered;
+    - **Flow**: select the release flow so it can be associated to the release type being registered;
 
-   -   **Creation Template**: select the creation e-mail template which will be
-    used to notify the applicant the release has been registered;
+    - **Creation Template**: select the creation e-mail template which will be used to notify the applicant the release has
+    been registered;
 
-   -   **Closure Template**: select the closure e-mail template which will be used
-    to notify the applicant the release has been completed;
+    - **Closure Template**: select the closure e-mail template which will be used to notify the applicant the release has
+    been completed;
 
-   -   **Actions Template**: select the actions e-mail template which will be used
-    to notify the applicant of the release's progress;
+    - **Actions Template**: select the actions e-mail template which will be used to notify the applicant of the release's 
+    progress;
 
-   -   **Executor Group**: insert the executor group, which will be the default
-    group for this release type, responsible for executing the change request;
+    - **Executor Group**: insert the executor group, which will be the default group for this release type, responsible for 
+    executing the change request;
 
-   -   **Calendar**: insert the release type's calendar.
+    - **Calendar**: insert the release type's calendar.
 
 3.  Click on the *Save* the button to confirm the entry, at which date, time and
     user will automatically be stored for a future audit.
