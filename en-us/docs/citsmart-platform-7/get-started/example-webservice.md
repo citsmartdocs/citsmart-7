@@ -124,7 +124,7 @@ Output Attributes are composed of all Input Attributes of the **CtRequest** clas
 **Input Attributes Example Using JSON**
 
 - {"Synchronize": true, "sourceRequest": {"numberOrigin": "9999", "type": "R", "userID": " 61 84460708 "," email ":" 
-fulano.de.tal@centralit.com.br "," department ":" Department of the So-and-so "," name ":" So-and-so "}," description ":" REST v3 
+centralit@centralit.com.br "," department ":" Department of the So-and-so "," name ":" So-and-so "}," description ":" REST v3 
 "," service ": {" name ":" SERVICO.TESTE.1 "," category ": {" name ":" Category 1 "}}," contractID ":" 1 "," urgency " : "H", 
 "impact": "H"}}
 
