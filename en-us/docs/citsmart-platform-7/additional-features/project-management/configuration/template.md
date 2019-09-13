@@ -40,7 +40,7 @@ Items list
 Filling in the registration fields
 ----------------------------------
 
-1.  The **Project** listing entry screen will be displayed. Click on
+1. The **Project** listing entry screen will be displayed. Click on
     the *New*** button (as shown in the previous figure). The **Project Entry
     Screen** will be displayed, as illustrated on the image below:
 
@@ -48,14 +48,14 @@ Filling in the registration fields
 
 **Figure 2 - Project entry screen**
 
-2.  Fill in the corresponding fields. Afterwards, the project template entry
+2. Fill in the corresponding fields. Afterwards, the project template entry
     screen will be displayed, as illustrated on the image below:
 
 ![Listagem](images/tem-proj.img3.jpg)
 
 **Figure 3 – Project template creation screen**
 
-3.  Name the project template. Click on the *Save* button to confirm the entry.
+3. Name the project template. Click on the *Save* button to confirm the entry.
     Then, the template will be successfully created.
 
 
