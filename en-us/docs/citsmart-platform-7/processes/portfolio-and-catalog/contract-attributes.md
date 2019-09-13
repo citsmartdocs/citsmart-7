@@ -142,7 +142,7 @@ Linking request activities to contract
 
 **Figure 2 - Contract request link screen**
 
-### FILLING IN THE REGISTRATION FIELDS
+### Filling in the registration fields
 
 1. Click on the *Link Service Request* button (according to the previous figure). The screen to perform the link for the
 request activity will be displayed, as shown in the figure below:
@@ -310,7 +310,7 @@ Linking incident activities to the contract
     functionality: **ID** and **Incident Name**.
 
 2.  There are action buttons available to the user for each item in the listing,
-    they are: *Edit *and *Delete*.
+    they are: *Edit* and *Delete*.
 
 ![figure](images/contract-attributes-8.png)
 
@@ -476,9 +476,9 @@ Linking calendar to contract
     and click the Add button to perform the operation. Once this is done, the
     calendar will be linked to the contract.
 
-   ![figure](images/contract-attributes-14.png)
+    ![figure](images/contract-attributes-14.png)
    
-   **Figure 14 - Calendar link to contract screen**
+    **Figure 14 - Calendar link to contract screen**
 
 4.  To delete the calendar link to the contract, simply click
     the *Deactivate* button.
