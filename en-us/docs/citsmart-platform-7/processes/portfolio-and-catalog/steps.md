@@ -142,8 +142,8 @@ activity and report The defined service time for these activities.
 [7]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/provider.html
 [8]:/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
 [9]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html
-[10]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
-[11]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/portfolio-access.html
+[10]:/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[11]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
 [12]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/portfolio-access.html
 
 
