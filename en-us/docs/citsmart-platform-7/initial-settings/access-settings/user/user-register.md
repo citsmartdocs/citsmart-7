@@ -29,9 +29,9 @@ Filters
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   Name;
+   - Name;
 
--   Login.
+   - Login.
 
 2.  Click on the **Search User** tab. The search screen will be displayed as
     illustrated on the image below:
@@ -42,11 +42,11 @@ Filters
 
 3.  Conduct a user search:
 
--   Insert the name of the intended user and click on the *Search* button.
+    - Insert the name of the intended user and click on the *Search* button.
     Afterwards, the user entry will be displayed according to the description
     provided.
 
--   To list all users, just click directly on the *Search* button, if needed.
+    - To list all users, just click directly on the *Search* button, if needed.
 
 Items list
 ----------
@@ -55,9 +55,9 @@ Items list
     identification of the desired items in the standard feature listing: **Name,
     Login** and **LDAP User.**
 
-![Criar](images/user-2.png)
+    ![Criar](images/user-2.png)
 
-**Figure 2 - User listing screen**
+     **Figure 2 - User listing screen**
 
 2.  After searching, select the intended entry. Afterwards, they will be
     redirected to the registry screen displaying the content belonging to the
@@ -87,30 +87,28 @@ Filling in the registration fields
 
 2.  Fill out the fields as instructed below:
 
--   **Staff**: insert the name of the staff member accessing the system;
+    -  **Staff**: insert the name of the staff member accessing the system;
 
--   **Login**: insert the login which will be used to log in the system.
+    -  **Login**: insert the login which will be used to log in the system.
 
--   **Access Profile**: select the acess profile to determine the activies the
+    -  **Access Profile**: select the acess profile to determine the activies the
     user will be able to perform within the system;
 
--   **Password**: insert a password to log in the system.
+    -  **Password**: insert a password to log in the system.
 
--   **Confirm Password**: insert the password again;
+    -  **Confirm Password**: insert the password again;
 
 !!! note "NOTE"
 
     Typing in the 'Password' and 'Confirm Password' fields should be literally
     the same to accept the registration, include capital letter and low case.
 
--   **Group**: select the groups the user will be a part of, so they have
+   -  **Group**: select the groups the user will be a part of, so they have
     permission to work on the Management Processes Workflow;
-
-    -   Click on the,  ![Criar](images/user-4.png) icon . A search screen will be displayed so a group can be linked
+                                                                                                                                      -  Click on the  ![Criar](images/user-4.png) icon . A search screen will be displayed so a group can be linked
        to the user;
 
-    -   Perfrom a search for the intended group and select it. Afterwards, the
-        group will be added to the user's registry.
+   -  Perform a search for the intended group and select it. Afterwards, the group will be added to the user's registry.
 
 3.  The system imports the load into the employee table and the user into the
     user table via the *Import* button (see knowledge [Employee
