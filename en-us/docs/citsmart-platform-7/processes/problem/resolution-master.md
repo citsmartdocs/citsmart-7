@@ -92,9 +92,9 @@ complete details of the solution and actions in the Problem.
    -   Click on the **Processes/Options** tab and then on **Changes**, located in
     the right corner of the screen, as indicated in the figure below:
 
-    ![figure](images/resolution-6.png)
+![figure](images/problem.img6.jpg)
    
-    **Figure 6 - Change guide**
+**Figure 6 - Change guide**
 
    -   Click on the icon ![figure](images/simb-lupa.jpg) to search for the change that will be made to solve the
     problem;
