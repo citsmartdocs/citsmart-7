@@ -22,15 +22,15 @@ Selecting information group
 
 2.  Select the reporting group for the report:
 
--   Incidents and Requests;
+   -   Incidents and Requests;
 
--   Configuration Items;
+   -   Configuration Items;
 
--   Service Catalog;
+   -   Service Catalog;
 
--   Changes;
+   -   Changes;
 
--   Change Request.
+   -   Change Request.
 
 Button captions
 ---------------
@@ -38,15 +38,15 @@ Button captions
 1.  In the area of representation of the graphs contains four icons, in which it
     allows the visualization of a different form of it.
 
--   The icon ![Gráficos](images/simb-planil.jpg) when clicked generates a table with information.
+   -   The icon ![Gráficos](images/simb-planil.jpg) when clicked generates a table with information.
 
--   The clickable icon ![Gráficos](images/simb-graf.jpg) displays the graphics options (3D Pizza, 2D Pizza, 3D Bar, 2D Bar, 3D
+   -   The clickable icon ![Gráficos](images/simb-graf.jpg) displays the graphics options (3D Pizza, 2D Pizza, 3D Bar, 2D Bar, 3D
     Line and 2D Line) so you can select the shape of the chart you want to
     view;
 
--   Clicking icon ![Gráficos](images/simb-pdf.jpg) generates report in ".pdf" format;
+   -   Clicking icon ![Gráficos](images/simb-pdf.jpg) generates report in ".pdf" format;
 
--   The icon ![Gráficos](images/simb-excel.jpg) when clicked generates the report in Excel format ".xls".
+   -   The icon ![Gráficos](images/simb-excel.jpg) when clicked generates the report in Excel format ".xls".
 
 Incidents and requests
 ----------------------
@@ -108,28 +108,28 @@ Incident and request capture performance (closed)
 1.  To verify the performance in capturing incidents and service requests,
     proceed as described below:
 
--   In the Incidents and Requests and Graphs dashboard, click on
+   -   In the Incidents and Requests and Graphs dashboard, click on
     the **Performance treatment of incidents and requests (closed)** report;
 
--   You will see a screen containing filters where you can define them as needed
+   -   You will see a screen containing filters where you can define them as needed
     to generate the report. After defining the filters, click
     the *Generate* button.
 
--   The report will be presented according to the defined filters, according to
+   -   The report will be presented according to the defined filters, according to
     the example shown in the figure below:
 
 ![Gráficos](images/painel.img5.jpg)
 
 **Figure 5 - SLA Control Chart**
 
--   The Incidents and Requests Capture report shows the time taken to capture
+   -   The Incidents and Requests Capture report shows the time taken to capture
     closed requests. The capture time is the time elapsed between the beginning
     of the SLA and the execution of the first task that counts SLA.
 
--   The Incidents and Requests Capture Performance report shows a summary table
+   -   The Incidents and Requests Capture Performance report shows a summary table
     with the percentage of requests captured on a per-priority basis.
 
--   In the representation area of the report there are four icons, in which you
+   -   In the representation area of the report there are four icons, in which you
     can see a different form of it.
 
 Quality of service and SLA
