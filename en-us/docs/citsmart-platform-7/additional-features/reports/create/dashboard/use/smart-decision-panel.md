@@ -18,12 +18,12 @@ Adding dashboard
 
 2.  Enter dashboard data;
 
--   **Name/Key**: enter the name of the dashboard;
+    -  **Name/Key**: enter the name of the dashboard;
 
--   **Template**: select a template to create the dashboard based on it, if
+    -  **Template**: select a template to create the dashboard based on it, if
     necessary;
 
--   **Icon**: select an icon to represent the dashboard.
+    -  **Icon**: select an icon to represent the dashboard.
 
 3.  After the data is entered, click the *Save* button to register.
 
@@ -33,63 +33,63 @@ Adding dashboard
 Adding widget to the dashboard
 ------------------------------
 
-1.  Select the dashboard and click the icon ![Criar](images/panel-4.png) to enable editing mode that allows you to add new widgets. Once this is done, the editing screen will be displayed;
+1. Select the dashboard and click the icon ![Criar](images/panel-4.png) to enable editing mode that allows you to add new widgets. Once this is done, the editing screen will be displayed;
 
 ![Criar](images/panel-5.png)
 
 **Figure 2 - Edition of the dashboard**
 
-1.  Click the icon ![Criar](images/panel-6.png) to add a widget. The screen for choosing the desired widget will be
+2. Click the icon ![Criar](images/panel-6.png) to add a widget. The screen for choosing the desired widget will be
     displayed.
 
 ![Criar](images/panel-7.png)
 
 **Figure 3 - Widgets**
 
-2.  Click one of the options and then click on the widget you want to add to the
+3. Click one of the options and then click on the widget you want to add to the
     dashboard;
 
--   **Quick access**: allows you to add links for quick access.
+    -   **Quick access**: allows you to add links for quick access.
 
--   **Smart Reports**: allows you to add dynamic reports.
+    -   **Smart Reports**: allows you to add dynamic reports.
 
--   **Widgets**: allows you to add graphs with relevant information.
+    -   **Widgets**: allows you to add graphs with relevant information.
 
-3.  If you have added the "links" widget, please enter the desired links;
+4. If you have added the "links" widget, please enter the desired links;
 
--   Click the widget's configuration icon ![Criar](images/panel-8.png);
+    -   Click the widget's configuration icon ![Criar](images/panel-8.png);
 
--   The link addition screen will be displayed, as shown in the figure below:
+    -   The link addition screen will be displayed, as shown in the figure below:
 
 ![Criar](images/panel-9.png)
 
 **Figure 4 - Links registration**
 
--   **Title**: the widget description is displayed. Modify the same case as you
+   -   **Title**: the widget description is displayed. Modify the same case as you
     need;
 
--   Click the *Add* button. After that, the fields will be displayed to inform
+   -   Click the *Add* button. After that, the fields will be displayed to inform
     the data of the link;
 
 ![Criar](images/panel-10.png)
 
 **Figure 5 - Links registration details**
 
--   **Type**: report the type of link;
+   -   **Type**: report the type of link;
 
--   **Internal**: choose this type if the link that will be added refers to a
+   -   **Internal**: choose this type if the link that will be added refers to a
     system functionality -\> select the menu that corresponds to the desired
     system functionality;
 
--   **External**: choose this type if the link that will be added refers to an
+   -   **External**: choose this type if the link that will be added refers to an
     external source, such as a website-\> enter the description of the link and
     the URL.
 
--   Click on the *Apply* button to register.
+   -   Click on the *Apply* button to register.
 
-1.  After the widgets have been added and configured, click the icon ![Criar](images/panel-11.png) to save the changes made to the dashboard.
+5. After the widgets have been added and configured, click the icon ![Criar](images/panel-11.png) to save the changes made to the dashboard.
 
-2.  If you want to modify the dashboard layout, click the icon ![Criar](images/panel-12.png).
+6. If you want to modify the dashboard layout, click the icon ![Criar](images/panel-12.png).
 
 
 !!! tip "About"
