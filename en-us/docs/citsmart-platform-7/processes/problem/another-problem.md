@@ -22,11 +22,11 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Problem Number.
+    - Problem Number.
 
-![figure](images/another-1.png)
+    ![figure](images/another-1.png)
 
-**Figure 1 - Problem search screen**
+    **Figure 1 - Problem search screen**
 
 Items list
 ----------
@@ -47,27 +47,27 @@ Items list
 Filling in the registration fields
 ----------------------------------
 
-1.  On the **Management **tab, locate the problem you want, click
+1.  On the **Management** tab, locate the problem you want, click
     the *Action* button and select the *Start/Run Task* from it, as shown in the
     figure below:
 
-   ![figure](images/another-3.png)
+    ![figure](images/another-3.png)
    
-   **Figure 3 - Action button**
+    **Figure 3 - Action button**
 
-2.  The** Problem Registration screen will appear, click
+2.  The **Problem Registration** screen will appear, click
     the **Processes/Options** tab, and then click **Relate Problem**, located on
     the right-hand corner of the screen, as shown in the figure below:
 
-   ![figure](images/another-4.png)
+    ![figure](images/another-4.png)
    
-   **Figure 4 - Problem selection**
+    **Figure 4 - Problem selection**
 
 3.  The problem relationship screen is displayed;
 
-   ![figure](images/another-5.png)
+    ![figure](images/another-5.png)
    
-   **Figure 5 - Relate problem**
+    **Figure 5 - Relate problem**
 
 4.  Click on the *Register* button, the Problem log screen will appear, as shown
     in the figure below:
@@ -85,11 +85,10 @@ Filling in the registration fields
     Problem* button. The screen will be displayed to search for it, as shown in
     the figure below:
 
-   !!! info "IMPORTANT"
+    !!! info "IMPORTANT"
 
-      The system allows you to relate one or more problems to the main
-      problem. Problems to be listed must have status other than "Canceled" and
-      "Completed".
+        The system allows you to relate one or more problems to the main problem. Problems to be listed must have status 
+        other than "Canceled" and "Completed".
 
    ![figure](images/another-7.png)
    
