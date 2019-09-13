@@ -45,13 +45,12 @@ Items list
     lists the **Access Profiles** already registered in the database.The image
     below illustrates this screen:
 
-   ![figure](images/acess-port.img1.jpg)
+    ![figure](images/acess-port.img1.jpg)
    
-   **Figure 1 - Access permission screen - Portfolio manager**
+    **Figure 1 - Access permission screen - Portfolio manager**
 
-4.  Click on the *Edit* button of an access profile to determine the type of
-    access to the Portfolio Management. Afterwards, the features of the
-    Portfolio Management will be displayed, as illustrated on the image below:
+4. Click on the *Edit* button of an access profile to determine the type of access to the Portfolio Management. Afterwards, the 
+features of the Portfolio Management will be displayed.
 
 Filling in the registration fields
 ----------------------------------
@@ -59,9 +58,9 @@ Filling in the registration fields
 1.  For each feature of the Portfolio Management, select the actions (view, sabe
     and/or delete) available to the user:
 
-   ![figure](images/acess-port.img2.jpg)
+    ![figure](images/acess-port.img2.jpg)
    
-   **Figure 2 - Access type determination**
+**Figure 2 - Access type determination**
 
 -   **View**: the user with this profile can make queries and view the data;
 
@@ -71,18 +70,16 @@ Filling in the registration fields
 -   **Delete**: the user with this profile can "Save" and delete the system
     data.
 
-   !!! warning "ATTENTION"
+    !!! warning "ATTENTION"
 
-      When determining the type of access profile, by marking/unmarking a
-     checkbox, all checkboxes that are subordinate to it in the structure are
-     also marked/unmarked cascade.
+        When determining the type of access profile, by marking/unmarking a checkbox, all checkboxes that are subordinate to it 
+        in the structure are also marked/unmarked cascade.
 
-   !!! info "IMPORTANT"
+    !!! info "IMPORTANT"
 
-     The access profiles will be disabled (the checkboxes of all pre-existing
-     access profiles will be unchecked), by default, when new features are
-     created, thus requiring the administrator to explicitly enable this for the
-     profiles you want, making it available for the desired profiles.
+        The access profiles will be disabled (the checkboxes of all pre-existing access profiles will be unchecked), by default, 
+        when new features are created, thus requiring the administrator to explicitly enable this for the profiles you want, 
+        making it available for the desired profiles.
 
 2.  After determining the access permission, click on the *Save* button to
     confirm the entry, where date, time and user will be stored automatically
