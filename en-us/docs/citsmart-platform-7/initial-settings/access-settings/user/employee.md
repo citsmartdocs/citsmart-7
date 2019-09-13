@@ -24,29 +24,29 @@ Preconditions
 Filters
 -------
 
-1.  The following filters enables the user to restrict the participation of
+1. The following filters enables the user to restrict the participation of
     items in the standard feature listing, making it easier to find the desired
     items:
 
-    -   Name;
+     -  Name;
 
-    -   ID;
+     -  ID;
 
-    -   Status.
+     -  Status.
 
-2.  Click on the **Search Staff** tab, the **Staff Search** screen will be
+2. Click on the **Search Staff** tab, the **Staff Search** screen will be
     displayed as shown in the figure below:
 
 ![Criar](images/employee-1.png)
 
 **Figure 1 - Staff member search**
 
-3.  Conduct a staff member search;
+3. Conduct a staff member search;
 
--   Insert the name, identification number and/or the staff member's current
+    -  Insert the name, identification number and/or the staff member's current
     status and click on the *Search* button;
 
--   To list all the staff member entries, just click directly on
+    -  To list all the staff member entries, just click directly on
     the *Search* button, if needed.
 
 Items list
@@ -81,27 +81,27 @@ Filling in the registration fields
 
 2.  Fill out the fields as instructed below:
 
--   **Name**: insert the staff member name;
+    -   **Name**: insert the staff member name;
 
--   **Partner type**: insert the staff member's type of ties to the company;
+    -   **Partner type**: insert the staff member's type of ties to the company;
 
--   **Status**: insert if the staff member currently works or not at the
+    -   **Status**: insert if the staff member currently works or not at the
     company, if it is so select "Active", if not or if the member is on leave
     for some reason select "Inactive";
 
--   **E-mail**: insert the staff member's e-mail address to establish a means of
+    -   **E-mail**: insert the staff member's e-mail address to establish a means of
     communication;
 
--   **Phone**: insert the area code and the staff member's phone number;
+    -   **Phone**: insert the area code and the staff member's phone number;
 
--   **Extension**: insert the extension (internal division of a telephone
+    -   **Extension**: insert the extension (internal division of a telephone
     system) number of the staff member;
 
--   **Unit**: insert the unit where the staff member is assigned to. If the unit
+    -   **Unit**: insert the unit where the staff member is assigned to. If the unit
     cannot be found, perform a quick registration from this screen by simply
     clicking the ![Criar](images/employee-4.png) button;
 
--   **Position**: select the staff member's position. If the position cannot be
+    -   **Position**: select the staff member's position. If the position cannot be
     found, a quick entry can be created on this screen by clicking on the ![Criar](images/employee-4.png) button ;
 
 -   Fill out the information concerning the staff member's payment:
