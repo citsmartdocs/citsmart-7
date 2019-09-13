@@ -144,13 +144,12 @@ Linking request activities to contract
 
 ### FILLING IN THE REGISTRATION FIELDS
 
-1.  Click on the *Link Service Request* button (according to the previous
-    figure). The screen to perform the link for the request activity will be
-    displayed, as shown in the figure below:
+1. Click on the *Link Service Request* button (according to the previous figure). The screen to perform the link for the
+request activity will be displayed, as shown in the figure below:
 
-   ![figure](images/contract-attributes-3.png)
+    ![figure](images/contract-attributes-3.png)
    
-   **Figure 3 - Registration screen of the link of the request for contract activity**
+    **Figure 3 - Registration screen of the link of the request for contract activity**
 
 2.  Fill in the fields as directed below:
 
@@ -245,11 +244,10 @@ Linking request activities to contract
       
     **Figure 6- Selection panel of occurrence categories and target group**
 
-   !!! note "NOTE"
+    !!! note "NOTE"
 
-     This setting does not change the appearance of other system features at
-     all, it only restricts some records from being viewed by users who are not
-     in the released groups to the occurrence category.
+        This setting does not change the appearance of other system features at all, it only restricts some records from
+        being viewed by users who are not in the released groups to the occurrence category.
 
 -   Add the request activity:
 
@@ -320,13 +318,12 @@ Linking incident activities to the contract
 
 ### Filling in the registration fields
 
-1.  Click on the *Link Incident* button (according to the previous figure). The
-    screen for linking the incident activity will be displayed, as shown in the
-    figure below:
+1. Click on the *Link Incident* button (according to the previous figure). The screen for linking the incident activity will be 
+displayed, as shown in the figure below:
 
-   ![figure](images/contract-attributes-9.png)
+    ![figure](images/contract-attributes-9.png)
    
-   **Figure 9 - Link incident activity link record screen**
+    **Figure 9 - Link incident activity link record screen**
 
 2.  Fill in the fields according to the guidelines described in the previous
     item "Linking request Activities to the Contract";
@@ -371,13 +368,12 @@ Linking service procedure to contract
 
 ### Filling in the registration fields
 
-1.  Click the *Link Procedure* button (according to the previous figure). The
-    screen to perform the procedure link will be displayed, as shown in the
-    figure below:
+1. Click the *Link Procedure* button (according to the previous figure). The screen to perform the procedure link will be 
+displayed, as shown in the figure below:
 
-   ![figure](images/contract-attributes-11.png)
+    ![figure](images/contract-attributes-11.png)
    
-   **Figure 11 - Registration screen of the link of procedure to contract**
+    **Figure 11 - Registration screen of the link of procedure to contract**
 
 2.  Fill in the fields as described in the item "Linking request Activities to
     the Contract";
@@ -390,13 +386,11 @@ Registering cost of downtime
 
 ### How to access
 
-1.  On the Contract Information screen, click on the guide **Cost of Downtime
-    (Downtime)**. After that, a screen will be displayed to record the cost of
-    contract downtime.
+1. On the Contract Information screen, click on the guide **Cost of Downtime (Downtime)**. After that, a screen will be displayed to record the cost of contract downtime.
 
-   ![figure](images/contract-attributes-12.png)
+    ![figure](images/contract-attributes-12.png)
    
-   **Figure 12 - Time downtime value record screen**
+    **Figure 12 - Time downtime value record screen**
 
 2.  Enter the time value of the downtime of contract services. After that, click
     the *Save* button to register.
@@ -439,15 +433,12 @@ Linking availability agreement to contract
 2.  There are action buttons available to the user in relation to each item in
     the listing, they are: *Deactivate*;
 
-3.  Click the *Link Availability Agreement* button. Once this is done, the
-    "availability" service level agreement search screen will be displayed.
-    Perform the search and select the availability agreement you want to perform
-    the operation. Once this is done, the agreement will be tied to the
-    contract;
+3. Click the *Link Availability Agreement* button. Once this is done, the "availability" service level agreement search screen 
+will be displayed. Perform the search and select the availability agreement you want to perform the operation. Once this is done, the agreement will be tied to the contract;
 
-   ![figure](images/contract-attributes-13.png)
+    ![figure](images/contract-attributes-13.png)
    
-   **Figure 13 - Availability agreement screen**
+    **Figure 13 - Availability agreement screen**
 
 4.  To delete the link from the availability agreement with the contract, simply
     click the *Deactivate* button.
@@ -464,7 +455,7 @@ Linking calendar to contract
 1.  On the Contract Information screen, click **Calendar**. After that, the
     screen where you can link the calendar to the contract will be displayed.
 
-##### Filters
+### Filters
 
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
@@ -533,41 +524,36 @@ Business Service*.
 
 ### Filling in the registration fields
 
-1.  Click on the *Add Apportionment* button (according to the previous figure).
-    Once this is done, the apportionment registration screen will be displayed,
-    as shown in the figure below:
+1. Click on the *Add Apportionment* button (according to the previous figure). Once this is done, the apportionment registration screen will be displayed, as shown in the figure below:
 
-   ![figure](images/contract-attributes-16.png)
+    ![figure](images/contract-attributes-16.png)
    
-   **Figure 16 - Apportionment registration screen**
+    **Figure 16 - Apportionment registration screen**
 
 2.  Fill in the fields as directed below:
 
--   **Percentage**: report a percentage from 1 to 100%.
+    - **Percentage**: report a percentage from 1 to 100%.
 
     !!! note "NOTE"
 
         The percentage must be above 0%.
 
--   **Cycle**: describe the cycle linked to the apportionment.
+    - **Cycle**: describe the cycle linked to the apportionment.
 
-   !!! note "NOTE"
+    !!! note "NOTE"
 
-      Apportionment with different percentages are not allowed for the same
-      cycle in the same service/business/contract.
+        Apportionment with different percentages are not allowed for the same cycle in the same service/business/contract.
 
-      Apportionment registrations or changes whose cycles are already closed are
-      not allowed.
+        Apportionment registrations or changes whose cycles are already closed are not allowed.
 
 3.  Click the *Save* button to perform the operation;
 
 4.  To change the data of the apportionment link (already registered) with the
     contract, click the *Edit* button of it's record.
 
-   !!! info "IMPORTANT"
+    !!! info "IMPORTANT"
 
-     When editing, is possible to change the Percentage and Cycle fields, but
-     this percentage must be above 0%.
+        When editing, is possible to change the Percentage and Cycle fields, but this percentage must be above 0%.
 
 5.  To exclude the apportionment link to the contract, simply click
     the *Delete* button in the contract record.
