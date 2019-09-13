@@ -22,20 +22,20 @@ Preconditions
 Filters
 -------
 
-1.  The following filter enable the user to restrict the participation of items
+1. The following filter enable the user to restrict the participation of items
     in the standard feature listing, making it easier to locate the desired
     items as shown in the figure below:
 
--   Name
+    -   Name
 
-2.  On the access profile search screen, click on the **Search Profile** tab.
+2. On the access profile search screen, click on the **Search Profile** tab.
     The search screen will be displayed, as illustrated on image bellow:
 
 ![Criar](images/profile-1.png)
 
 **Figure 1 - Access profile search screen**
 
-3.  Search the access profile;
+3. Search the access profile;
 
     -   Insert the intended access profile name and click on
         the *Search* button. Afterwards, the matching access profile will be
@@ -69,25 +69,25 @@ Items list
 Filling in the registration fields
 ----------------------------------
 
-1.  The **Register Access Profile** will be displayed, as illustrated below:
+1. The **Register Access Profile** will be displayed, as illustrated below:
 
 ![Criar](images/profile-3.png)
 
 **Figure 3 - Access profile entry screen**
 
-2.  Fill out the fields as instructed below:
+2. Fill out the fields as instructed below:
 
     -   **Name**: insert the access profile's name;
 
     -   Select the menu items that the profile will have access to by checking
         what the profile can perform on each item:
 
--   **Search**: the user with this profile can make queries and view the data;
+    -   **Search**: the user with this profile can make queries and view the data;
 
--   **Save**: the user with this profile can do the "Search" also include and
+    -   **Save**: the user with this profile can do the "Search" also include and
     change the data;
 
--   **Delete**: the user with this profile can "Save" and delete the system
+    -   **Delete**: the user with this profile can "Save" and delete the system
     data;
 
 !!! info "IMPORTANT"
@@ -109,10 +109,10 @@ Filling in the registration fields
      created, thus requiring the administrator to explicitly enable this for the
      profiles you want, making it available for the desired profiles.
 
--   **Can the user access the system**: determine if the profile will be able to
+   -   **Can the user access the system**: determine if the profile will be able to
     access the system through the portal;
 
-3.  After inserting the data, click on the  button to confirm the entry, where
+3. After inserting the data, click on the  button to confirm the entry, where
     the date, time and user will be stored for a future audit.
 
 
