@@ -115,12 +115,11 @@ complete details of the solution and actions in the Problem.
    -   In the **Closure** table, record the information about the solution that was
     performed:
 
-   -   **Cause**: select the cause of the problem;
+       - **Cause**: select the cause of the problem;
 
-   -   **Solution**: select the problem solution category, that is, what was used
-    to solve the problem;
+       - **Solution**: select the problem solution category, that is, what was used to solve the problem;
 
-   -   **Closure**: enter the details of the solution found for the problem.
+       - **Closure**: enter the details of the solution found for the problem.
 
    -   After recording the problem resolution information, click the *Save and
     Forward Flow* button to perform the operation, where the problem and related
