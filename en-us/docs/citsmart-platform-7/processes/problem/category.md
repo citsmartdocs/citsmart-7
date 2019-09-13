@@ -30,20 +30,18 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
-   -   Problem Category Name.
+    - Problem Category Name.
 
-   ![figure](images/category-1.png)
+    ![figure](images/category-1.png)
    
-   **Figure 1 - Category search screen**
+    **Figure 1 - Category search screen**
 
 2.  Perform the problem category search;
 
--   Enter the name of the problem category you want to search for and click
-        the *Search* button. After this, the problem category record will be
-        displayed according to the name entered;
+    - Enter the name of the problem category you want to search for and click the *Search* button. After this, the problem 
+    category record will be displayed according to the name entered;
 
--   If you want to list all of the problem category records, simply click
-        the *Search* button directly;
+    - If you want to list all of the problem category records, simply click the *Search* button directly;
 
 Items list
 ----------
@@ -52,9 +50,9 @@ Items list
     identification of the desired items in the standard feature
     listing: **Problem Category Name**.
 
-   ![figure](images/category-2.png)
+    ![figure](images/category-2.png)
    
-   **Figure 2 - Category listing screen**
+    **Figure 2 - Category listing screen**
 
 2.  After searching, select the desired record. Once this is done, it will be
     directed to the registration screen displaying the contents of the selected
@@ -71,9 +69,9 @@ Filling in the registration fields
 1.  The problem category registration screen will be displayed, as shown in the
     figure below:
 
-   ![figure](images/category-3.png)
+    ![figure](images/category-3.png)
    
-   **Figure 3- Problem category registration screen**
+    **Figure 3- Problem category registration screen**
 
 2.  Fill in the fields as shown below:
 
