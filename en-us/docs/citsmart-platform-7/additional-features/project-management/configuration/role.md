@@ -24,7 +24,7 @@ Filters
 Items list
 ----------
 
-1.  The following cadastral fields are available to the user to facilitate the
+1. The following cadastral fields are available to the user to facilitate the
     identification of the desired items in the standard feature
     listing: **Title** and **Active**.
 
@@ -32,34 +32,33 @@ Items list
 
 **Figure 1 - Role listing screen**
 
-2.  There are action buttons available to the user for each item in the listing,
+2. There are action buttons available to the user for each item in the listing,
     they are: *Edit* and *Delete*.
 
-3.  To edit a role entry, click on the *Edit* button.
+3. To edit a role entry, click on the *Edit* button.
 
-4.  Afterwards, they will be redirected to the registry screen displaying the
-    content belonging to the selected entry.
+4. Afterwards, they will be redirected to the registry screen displaying the content belonging to the selected entry.
 
 Filling in the registration fields
 ----------------------------------
 
-1.  The Role screen will be displayed. Click on the *New* (as shown in the
+1. The Role screen will be displayed. Click on the *New* (as shown in the
     previous figure) button.
 
-2.  Then, the **Role Entry** screen will be displayed, as illustrated on the
+2. Then, the **Role Entry** screen will be displayed, as illustrated on the
     image below:
 
 ![Criar](images/papel-2.png)
 
 **Figure 2 - Role entry screen**
 
-3.  Fill out the fields as instructed below:
+3. Fill out the fields as instructed below:
 
--   **Name**: name the role;
+    -  **Name**: name the role;
 
--   **Active**: insert the role current situation.
+    -  **Active**: insert the role current situation.
 
-4.  Click on the *Save* the button to confirm the entry, at which date, time and
+4. Click on the *Save* the button to confirm the entry, at which date, time and
     user will automatically be stored for a future audit.
 
 
