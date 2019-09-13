@@ -68,89 +68,78 @@ Filling in the registration fields
 
 2.  Record the contract information, as indicated below:
 
-   ![figure](images/register-1.png)
+    ![figure](images/register-1.png)
    
-   **Figure 1 - Problem registration screen**
+    **Figure 1 - Problem registration screen**
 
-   -   **Contract**: select the contract for which the problem log will be made;
+    - **Contract**: select the contract for which the problem log will be made;
 
-   -   **Catalog**: if you have selected a "contract" type contract, the "Business"
-    service catalog information will be displayed in this field and if you have
-    selected a contract of type "support contract" or "operational level
-    agreement" it will appear In this field the information of the "Technical"
-    Service Catalog;
+    - **Catalog**: if you have selected a "contract" type contract, the "Business" service catalog information will be displayed 
+    in this field and if you have selected a contract of type "support contract" or "operational level agreement" it will 
+    appear In this field the information of the "Technical" Service Catalog;
 
-   -   **Service Category**: if you choose to search for services by category,
-    select the category of service you want. The service category will identify
-    the nature of the service, positioning it within similar groups of service,
-    placing it in the hierarchy of its category;
+    - **Service Category**: if you choose to search for services by category, select the category of service you want. The 
+    service category will identify the nature of the service, positioning it within similar groups of service, placing it in the 
+    hierarchy of its category;
 
-   -   **Service**: select the service for the service catalog. If the service
-    catalog is "business", business services will be available in this field for
-    selection, but if the service catalog is "technical", the support/technical
-    services for selection will be available in this field.
+    - **Service**: select the service for the service catalog. If the service catalog is "business", business services will
+    be available in this field for selection, but if the service catalog is "technical", the support/technical services
+    for selection will be available in this field.
 
 3.  Record the information of the applicant, as indicated below:
 
-   ![figure](images/register-2.png)
+    ![figure](images/register-2.png)
    
-   **Figure 2 - Problem registration screen**
+    **Figure 2 - Problem registration screen**
 
-   -   **User**: inform the applicant, that is, the person who is requesting the
-    resolution of the problem identified;
+    - **User**: inform the applicant, that is, the person who is requesting the resolution of the problem identified;
 
-   -   **Username**: enter the name of the contact;
+    - **Username**: enter the name of the contact;
 
-   -   **E-mail**: enter the e-mail address of this contact;
+    - **E-mail**: enter the e-mail address of this contact;
 
-   -   **Phone**: enter area code and contact phone number;
+    - **Phone**: enter area code and contact phone number;
 
-   -   **Extension**: enter the extension number of the contact, if any;
+    - **Extension**: enter the extension number of the contact, if any;
 
-   -   **Unit**: select the unit on which the requestor is allocated;
+    - **Unit**: select the unit on which the requestor is allocated;
 
-   -   **Location**: enter the location of the unit;
+    - **Location**: enter the location of the unit;
 
-   -   **Observation**: describe the additional details about the contact, if
-    necessary.
+    - **Observation**: describe the additional details about the contact, if necessary.
 
 4.  Record the request information, as indicated below:
 
-   ![figure](images/register-3.png)
+    ![figure](images/register-3.png)
    
-   **Figure 3 - Problem registration screen**
+    **Figure 3 - Problem registration screen**
 
-   -   **Title**: set the title for the problem that occurred;
+    - **Title**: set the title for the problem that occurred;
 
-   -   **Problem Category**: enter the category of the problem. This category must
-    already be previously registered in the system so that you can select it. If
-    the desired category is not found you can register by clicking on the
-    category icon problem ![figure](images/register-4.png).
+    - **Problem Category**: enter the category of the problem. This category must already be previously registered in the
+    system so that you can select it. If the desired category is not found you can register by clicking on the category icon 
+    problem ![figure](images/register-4.png).  
 
-    
-
-   -   **Contact Origin: **enter the source, that is, the source of the problem
+    - **Contact Origin**: enter the source, that is, the source of the problem
     resolution request;
 
-   -   **Executor Group**: inform the group responsible for solving the problem;
+    - **Executor Group**: inform the group responsible for solving the problem;
 
-   -   **Severity**: define the severity of the problem, that is, the complexity to
-    solve the problem;
+    - **Severity**: define the severity of the problem, that is, the complexity to solve the problem;
 
-   -   **Impact**: point out the impact that the problem causes to the business;
+    - **Impact**: point out the impact that the problem causes to the business;
 
-   -   **Urgency**: report urgency to solve the problem;
+    - **Urgency**: report urgency to solve the problem;
 
-   -   **Resolve/Workaround until**: set the deadline for solving the problem;
+    - **Resolve/Workaround until**: set the deadline for solving the problem;
 
-   -   **Priority**: is defined after reporting impact and urgency. Priority is
-    used to identify the relative importance of the problem and to identify the
-    times required for appropriate action to be taken. The priority is from 1 to
+    - **Priority**: is defined after reporting impact and urgency. Priority is used to identify the relative importance of the 
+    problem and to identify the times required for appropriate action to be taken. The priority is from 1 to
     5, with 1 being the highest priority and 5 being the lowest.
 
-   ![figure](images/register-5.png)
+    ![figure](images/register-5.png)
    
-   **Figure 4 - Impact and urgency matrix**
+    **Figure 4 - Impact and urgency matrix**
 
 5.  The combination of this information will define the priority needed to
     address the problem.
@@ -202,19 +191,17 @@ Linking knowledge base
 1.  If you need to access the knowledge base to verify knowledge about the
     problem, proceed as follows:
 
-   -   Click the **Knowledge Base** tab, located in the upper right corner of the
-    screen, as shown in the figure below:
+    - Click the **Knowledge Base** tab, located in the upper right corner of the screen, as shown in the figure below:
 
-   ![figure](images/register-8.png)
+    ![figure](images/register-8.png)
    
-   **Figure 7 - Knowledge Base Guide**
+    **Figure 7 - Knowledge Base Guide**
 
-   -   The Knowledge Base query screen will be displayed as shown in the figure
-    below:
+    - The Knowledge Base query screen will be displayed as shown in the figure below:
 
-   ![figure](images/register-9.png)
+    ![figure](images/register-9.png)
    
-   **Figure 8 - Knowledge Base**
+    **Figure 8 - Knowledge Base**
 
 2.  After the data is entered, click the *Save* button to register, where the
     date, time and user will be saved automatically for a future audit;
