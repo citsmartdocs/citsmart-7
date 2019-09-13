@@ -480,7 +480,7 @@ location**
 
 -   Select the notification to be directed to your personal request list.
 
-
+[1]:/en-us/citsmart-platform-7/additional-features/mobile-and-field-service/configuration/app-android-ios.html
 
 
 !!! tip "About"
