@@ -96,13 +96,13 @@ Filling in the registration fields
      in extreme cases there is how to recover something excluded, but this will
      require technical support from an analyst/consultant.
 
-   !!! note "NOTE"
+!!! note "NOTE"
 
      When determining the type of access profile, by marking/unmarking a
      checkbox, all checkboxes that are subordinate to it in the structure are
      also marked/unmarked cascade.
 
-   !!! note "NOTE"
+!!! note "NOTE"
 
      The access profiles will be disabled (the checkboxes of all pre-existing
      access profiles will be unchecked), by default, when new features are
