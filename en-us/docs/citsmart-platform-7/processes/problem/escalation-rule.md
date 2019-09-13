@@ -99,63 +99,63 @@ Filling in the registration fields
 
     a. Enter Filters data:
 
-        - **Type of Management**: select the "Request" option for which the rule will be applied;
+    - **Type of Management**: select the "Request" option for which the rule will be applied;
 
-        - **Contract**: select the contract;
+    - **Contract**: select the contract;
 
-        - **Requesting User**: report or applicant, if you wish to filter by applicant;
+    - **Requesting User**: report or applicant, if you wish to filter by applicant;
 
-        - **Type of request**: enter a request type if you want to filter by request type;
+    - **Type of request**: enter a request type if you want to filter by request type;
 
-        - **Catalog**: select the type of catalog, if you want to filter by catalog;
+    - **Catalog**: select the type of catalog, if you want to filter by catalog;
 
-        - **Service**: inform the catalog service, if you wish to filter by service;
+    - **Service**: inform the catalog service, if you wish to filter by service;
 
-        - **Activity (Request/Incident)**: inform the type of service (Request or incident) to which the filter will be applied;
+    - **Activity (Request/Incident)**: inform the type of service (Request or incident) to which the filter will be applied;
 
-        - **Executor group**: report an executor group, if you want to filter by executor group;
+    - **Executor group**: report an executor group, if you want to filter by executor group;
 
-        - **Urgency**: inform the level of urgency, if you wish to filter by degree of urgency;
+    - **Urgency**: inform the level of urgency, if you wish to filter by degree of urgency;
 
-        - **Impact**: enter the impact level if you wish to filter by impact level.
+    - **Impact**: enter the impact level if you wish to filter by impact level.
 
     b. Enter Classification/Notification Rule data:
 
-        - **Classification/Event**: select the desired option to be sent notification to the person in charge:
+    - **Classification/Event**: select the desired option to be sent notification to the person in charge:
 
-        -   If the option selected is "Winning", the field "Remaining time for execution (min)" will be enabled. Enter the 
-        time, in minutes, that must remain for the end of the activity from the creation date to be sent a notification;
+    -   If the option selected is "Winning", the field "Remaining time for execution (min)" will be enabled. Enter the 
+    time, in minutes, that must remain for the end of the activity from the creation date to be sent a notification;
 
-        - If the option selected is "SLA Percentage", the field "Value (%)" will be enabled. Report, in percentage, how long 
-        the SLA of the activity must be to be sent a notification;
+    - If the option selected is "SLA Percentage", the field "Value (%)" will be enabled. Report, in percentage, how long 
+    the SLA of the activity must be to be sent a notification;
 
-        - **Send e-mail**: enable this option if you want to send notification messages via e-mail to the requesting user of 
-        the activity;
+    - **Send e-mail**: enable this option if you want to send notification messages via e-mail to the requesting user of 
+    the activity;
 
-        - **Interval for sending notification e-mails (min)**: inform the time, in minutes, that the user will be informed by e-
-        mail of the occurrences of the selected items;
+    - **Interval for sending notification e-mails (min)**: inform the time, in minutes, that the user will be informed by e-
+    mail of the occurrences of the selected items;
 
-        - **Reference date**: enter the reference date for sending the e-mail;
+    - **Reference date**: enter the reference date for sending the e-mail;
 
-        - **Create Problem**: enable this option if you want to launch a problem type occurrence, obeying the deadline for 
-        creating a problem;
+    - **Create Problem**: enable this option if you want to launch a problem type occurrence, obeying the deadline for 
+    creating a problem;
 
-        - **Deadline to create a Problem (min)**: enter the deadline, in minutes, that the system will issue a problem type 
-        instance, provided the Create Problem field is enabled;
+    - **Deadline to create a Problem (min)**: enter the deadline, in minutes, that the system will issue a problem type 
+    instance, provided the Create Problem field is enabled;
 
-        - **Reference date**: enter the reference date for creating the problem.
+    - **Reference date**: enter the reference date for creating the problem.
 
     c. Enter the data of the Scheduling Rules:
 
-        - **Executor Group**: inform to which group will be scaled the items filtered by the scheduling rule;
+    - **Executor Group**: inform to which group will be scaled the items filtered by the scheduling rule;
 
-        - **Time of execution (min)**: define when to schedule the filtered items to the Executor Group informed;
+    - **Time of execution (min)**: define when to schedule the filtered items to the Executor Group informed;
 
-         - **Escalated By**: define the date of the activity that will be used to calculate the execution time for scheduling;
+    - **Escalated By**: define the date of the activity that will be used to calculate the execution time for scheduling;
 
-        - **Priority**: set escalation priority;
+    - **Priority**: set escalation priority;
 
-        - Click *Add* to insert the escalation rule.
+    - Click *Add* to insert the escalation rule.
 
 3.  After the data is entered, click on the *Save* button to register, where the
     date, time and user will be saved automatically for a future audit.
