@@ -17,7 +17,7 @@ The backup
 To back up the LogDados Table, proceed as described below:
 
 1. Acess **System > Citsmart Parameters**, search the parameter "117 - Enter the path to save the LogDados table" (see knowledge 
-[Parameterization rules - system](1));
+[Parameterization rules - system][1]);
 
     ![Create](images/logdata.img1.jpg)
     
