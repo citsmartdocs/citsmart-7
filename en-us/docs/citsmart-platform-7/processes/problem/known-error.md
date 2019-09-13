@@ -22,11 +22,11 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Problem Number.
+    - Problem Number.
 
- ![Criar](images/errors-1.png)
+    ![Criar](images/errors-1.png)
 
-**Figure 1 - Filters screen**
+    **Figure 1 - Filters screen**
 
 Items list
 ----------
@@ -52,35 +52,34 @@ the known error log is recorded in the knowledge base, allowing support staff,
 including Service Desk, to access the information to assist in the resolution of
 incidents or problems
 
-   !!! info "IMPORTANT"
+!!! info "IMPORTANT"
 
-      The group member assigned to register known errors must capture the
-      problem and start the activity.
+    The group member assigned to register known errors must capture the problem and start the activity.
 
 1.  On the **Management** tab, locate the problem record that you want to record
     the known error, click the *Action* button and select the *Start/Run
     Task* option, as shown in the image below:
 
-   ![Criar](images/errors-3.png)
+    ![Criar](images/errors-3.png)
 
-   **Figure 3 - Problem management screen**
+    **Figure 3 - Problem management screen**
 
 2.  The **Problem Registration** screen will appear with the fields filled, with
     the content of the problem selected;
 
 3.  Record the information needed to perform the known error logging task;
 
-    -   In the **Closure** frame, click the *Add an Execution Register* button
-        and describe the information about the execution of your activity.
+    - In the **Closure** frame, click the *Add an Execution Register* button and describe the information about the execution
+    of your activity.
 
 4.  Run a known error log in the knowledge base:
 
-    -   Click the **Processes/Options** tab, and then **Known Errors**, located
-        on the right-hand corner of the screen, as shown in the figure below:
+    - Click the **Processes/Options** tab, and then **Known Errors**, located on the right-hand corner of the screen, as shown
+    in the figure below:
 
     ![Criar](images/errors-4.png)
    
-   **Figure 4 - Selection of known errors**
+    **Figure 4 - Selection of known errors**
 
 5.  The known error screen is displayed. Click the icon and the Knowledge Base
     screen will appear to record the known error information;
@@ -92,13 +91,13 @@ incidents or problems
 
     ![Criar](images/errors-5.png)
    
-   **Figure 5 - List of errors with known problems**
+    **Figure 5 - List of errors with known problems**
 
-   -   To edit the known error information in the knowledge base, simply click on
-    the knowledge base icon ![Criar](images/errors-7.png);
+    - To edit the known error information in the knowledge base, simply click on the knowledge base icon
+    ![Criar](images/errors-7.png);
 
-   -   If you want to remove a known error related to the problem, simply click on
-    the error icon ![Criar](images/errors-8.png).
+    - If you want to remove a known error related to the problem, simply click on the error 
+    icon ![Criar](images/errors-8.png).
 
 6.  After recording the known error information, click the *Save and Forward
     Flow* button and advance the flow to perform the operation, where the
