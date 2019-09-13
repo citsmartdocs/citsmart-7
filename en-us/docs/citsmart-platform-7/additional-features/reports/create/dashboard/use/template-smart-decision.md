@@ -49,15 +49,15 @@ Filling in the registration fields
 
 3.  To create a template, proceed as follows:
 
--   **Name**: enter the name of the template;
+   -  **Name**: enter the name of the template;
 
--   To add a widget to the dasboard, click the icon ![Criar](images/template-3.png);
+   -  To add a widget to the dasboard, click the icon ![Criar](images/template-3.png);
 
--   To save changes to the dashboard, click the icon ![Criar](images/template-4.png);
+   -  To save changes to the dashboard, click the icon ![Criar](images/template-4.png);
 
--   To change the format of the dashboard, click the icon ![Criar](images/template-5.png);
+   -  To change the format of the dashboard, click the icon ![Criar](images/template-5.png);
 
--   To undo what was done on the dashboard, just click the icon ![Criar](images/template-6.png).
+   -  To undo what was done on the dashboard, just click the icon ![Criar](images/template-6.png).
 
 4.  After the template is created, click the *Save* button to perform the operation.
 
