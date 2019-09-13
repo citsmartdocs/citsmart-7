@@ -308,8 +308,7 @@ checked and a connection selected.
     
 !!! warning "WARNING"
 
-    If CIT Smart Inventory integration with OCS Inventory is adopted, it is mandatory to observe the instructions contained in the 
-    [CITSmart Inventory Connection Setup knowledge][4].
+    If CIT Smart Inventory integration with OCS Inventory is adopted, it is mandatory to observe the instructions contained in       the [CITSmart Inventory Connection Setup knowledge][4].
 
 
 [1]:https://pt.wikipedia.org/wiki/Very_Large_Database
