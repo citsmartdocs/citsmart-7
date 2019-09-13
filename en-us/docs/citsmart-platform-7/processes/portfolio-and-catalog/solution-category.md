@@ -23,14 +23,14 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Name.
+    - Name.
 
 2.  Click on the **Solution Category Search** tab, then, the solution category
     search screen will be displayed as illustrated in the image below:
 
-   ![figure](images/solution-1.png)
+    ![figure](images/solution-1.png)
    
-   **Figure 1 - Solution Category search screen**
+    **Figure 1 - Solution Category search screen**
 
 3.  Perform solution category search:
 
@@ -48,9 +48,9 @@ Items list
     identification of the desired items in the standard feature
     listing: **Name**;
 
-   ![figure](images/solution-2.png)
+    ![figure](images/solution-2.png)
    
-   **Figure 2 - Solution Category listing**
+    **Figure 2 - Solution Category listing**
 
 2.  After searching, select the intended entry. Once this is done, the user will
     be directed to the registry screen displaying the content of the selected
@@ -67,22 +67,20 @@ Filling in the registration fields
 1.  The **Solution Category Registration** screen will be displayed, as
     illustrated in the image below:
 
-   ![figure](images/solution-3.png)
+    ![figure](images/solution-3.png)
    
-   **Figure 3 - Category Solution entry screen**
+    **Figure 3 - Category Solution entry screen**
 
 2.  Fill out the fields as instructed:
 
-   -  **Solution Category**: insert the description of the solution category;
+    - **Solution Category**: insert the description of the solution category;
 
-   -  **Start Date**: insert the date when the solution category is being
-        saved;
+    - **Start Date**: insert the date when the solution category is being saved;
 
-   -  **Parent Solution Category**: select a higher solution category. If the
-        category that is being registered is part of another category.
+    - **Parent Solution Category**: select a higher solution category. If the category that is being registered is part of 
+    another category.
 
-3.  Click the *Save* button to save the entry, at which the date, time and user
-    are automatically stored for a future audit.
+3.  Click the *Save* button to save the entry, at which the date, time and user are automatically stored for a future audit.
 
 
 
