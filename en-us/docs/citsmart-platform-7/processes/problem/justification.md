@@ -25,18 +25,18 @@ Filters
     in the standard feature listing, making it easier to locate the desired
     items as shown in the figure below:
 
-   -   Description;
+    - Description;
 
-   -   Status.
+    - Status.
 
 2.  On the Issue Rationale screen, click *Search*. Once this is done,
     the **Problem Justification** screen will be displayed, as shown in the
     following figure. In this screen, the justifications of problems registered
     for visualization are displayed.
 
-   ![figure](images/justification-1.png)
+    ![figure](images/justification-1.png)
    
-   **Figure 1 - Problem justification search screen**
+    **Figure 1 - Problem justification search screen**
 
 3.  To carry out the search for a problem justification, inform the description
     and/or situation of the same.
@@ -51,9 +51,9 @@ Items list
 2.  There are action buttons available to the user for each item in the listing,
     they are: *Edit* and *Delete;*
 
-   ![figure](images/justification-2.png)
+    ![figure](images/justification-2.png)
    
-   **Figure 2 - Items screen**
+    **Figure 2 - Items screen**
 
 3.  After the search, the record will be displayed according to the data
     entered.
@@ -65,18 +65,18 @@ Filling in the registration fields
     the *New* button. Once this is done, the **Problem Justification
     Registration** screen will be displayed, as shown in the following figure:
 
-   ![figure](images/justification-3.png)
+    ![figure](images/justification-3.png)
    
-   **Figure 3 - Problem justification registration screen**
+    **Figure 3 - Problem justification registration screen**
 
 2.  Fill in the fields as directed below:
 
-    -   **Description**: report the description of the problem justification;
+    - **Description**: report the description of the problem justification;
 
-    -   **Suspension**: define whether the justification is for suspension of
+    - **Suspension**: define whether the justification is for suspension of
         the problem;
 
-    -   **Status**: select the situation of the problem justification.
+    - **Status**: select the situation of the problem justification.
 
 3.  After the data has been entered, click the *Save* button to register, where
     the date, time and user will be saved automatically for a future audit.
