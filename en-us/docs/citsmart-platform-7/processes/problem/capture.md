@@ -20,11 +20,11 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Problem Number.
+    - Problem Number.
 
-![figure](images/capture-1.png)
+    ![figure](images/capture-1.png)
 
-**Figure 1 - Problem search screen**
+    **Figure 1 - Problem search screen**
 
 Items list
 ----------
@@ -54,9 +54,9 @@ Capturing problems
     click the *Action* button and select the *Capture task* option, as indicated
     in the image below:
 
-   ![figure](images/capture-3.png)
+    ![figure](images/capture-3.png)
    
-   **Figure 3 - Problem management screen**
+    **Figure 3 - Problem management screen**
 
 2.  A task capture confirmation message will be displayed. Click *OK* to perform
     the operation. The current person responsible for attending the problem will
