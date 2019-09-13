@@ -35,20 +35,18 @@ Generating problem/incident report
     in the standard feature listing, making it easier to locate the desired
     items as shown in the figure below:
 
--   **Opening Period**: Enter the period you want to check for incidents related
-    to the problem;
+    - **Opening Period**: Enter the period you want to check for incidents related to the problem;
 
--   **Problem Number**: Enter the problem identification number to verify the
-    related incidents;
+    - **Problem Number**: Enter the problem identification number to verify the related incidents;
 
--   **Contract**: Report the contract regarding the problem, if necessary.
+    - **Contract**: Report the contract regarding the problem, if necessary.
 
 2.  The **Problem/Incident Report** screen will be displayed, as shown in the
     following figure:
 
-   ![figure](images/rel-prob.img1.jpg)
+    ![figure](images/rel-prob.img1.jpg)
    
-   **Figure 1 - Problem / Incident report generation screen**
+    **Figure 1 - Problem / Incident report generation screen**
 
 3.  Set the filters as needed.
 
@@ -68,18 +66,16 @@ Generating quantitative problem reporting
     in the standard feature listing, making it easier to locate the desired
     items as shown in the figure below:
 
--   **Opening Period**: Enter the period you want to generate the quantitative
-    problem report;
+    - **Opening Period**: Enter the period you want to generate the quantitative problem report;
 
--   **Contract**: Select the contract, if you want to check the amount of
-    registered issues related to the contract.
+    - **Contract**: Select the contract, if you want to check the amount of registered issues related to the contract.
 
 2.  The **Quantitative Problem Report Generation** screen will be displayed, as
     shown in the following figure:
 
-   ![figure](images/rel-prob.img2.jpg)
+    ![figure](images/rel-prob.img2.jpg)
    
-   **Figure 2 - Quantitative problem report generation screen**
+    **Figure 2 - Quantitative problem report generation screen**
 
 3.  Set the filters as needed.
 
@@ -101,18 +97,16 @@ recorded, per service.*
     in the standard feature listing, making it easier to locate the desired
     items as shown in the figure below:
 
--   **Opening Period**: Inform the desired period to verify the quantity of
-    requests and registered problems, per service;
+    - **Opening Period**: Inform the desired period to verify the quantity of requests and registered problems, per service;
 
--   **Contract**: Enter the contract to check the amount of requests and related
-    service issues.
+    - **Contract**: Enter the contract to check the amount of requests and related service issues.
 
 2.  The **Quantitative Service Request / Problem Report Generation** screen will
     be displayed, as shown in the following figure:
 
-   ![figure](images/rel-prob.img3.jpg)
+    ![figure](images/rel-prob.img3.jpg)
    
-   **Figure 3 - Quantitative report of service/problem generation screen**
+    **Figure 3 - Quantitative report of service/problem generation screen**
 
 3.  Set the filters as needed.
 
