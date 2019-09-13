@@ -24,14 +24,14 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Service Template Name.
+    - Service Template Name.
 
 2.  On the **Service Template** screen, click the **Template Search** tab. The
     search screen will be displayed as shown in the figure below:
 
-   ![figure](images/template-service-1.png)
+    ![figure](images/template-service-1.png)
    
-   **Figure 1 - Service Template search screen**
+    **Figure 1 - Service Template search screen**
 
 3.  Perform service template search:
 
@@ -49,9 +49,9 @@ Items list
     identification of the desired items in the standard feature
     listing: **ID** and **Service Template Name**.
 
-   ![figure](images/template-service-2.png)
+    ![figure](images/template-service-2.png)
    
-   **Figure 2 - Service template list**
+    **Figure 2 - Service template list**
 
 2.  After searching, select the desired record. Once this is done, it will be
     directed to the registration screen displaying the contents of the selected
@@ -68,9 +68,9 @@ Filling in the registration fields
 1.  The **Service Template** registration screen will be displayed, as shown in
     the figure below:
 
-   ![figure](images/template-service-3.png)
+    ![figure](images/template-service-3.png)
    
-   **Figure 3 - Service Template Registration screen**
+    **Figure 3 - Service Template Registration screen**
 
 2.  Fill in the fields as directed below:
 
