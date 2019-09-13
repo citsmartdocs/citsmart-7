@@ -116,3 +116,4 @@ Checking the service history
     <b>Updated:</b>09/10/2019 – Anna Martins
     
 [1]:/en-us/citsmart-platform-7/additional-features/mobile-and-field-service/configuration/app-android-ios.html
+
