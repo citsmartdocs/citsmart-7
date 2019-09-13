@@ -23,11 +23,11 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Problem number.
+    - Problem number.
 
-![figure](images/reactivation-1.png)
+    ![figure](images/reactivation-1.png)
 
-**Figure 1 - Filters screen**
+    **Figure 1 - Filters screen**
 
 Items list
 ----------
@@ -57,9 +57,9 @@ Reactivating a problem
     re-enable, click the *Action* button and the *Reactivate* option, as shown
     in the image below:
 
-   ![figure](images/reactivation-3.png)
+    ![figure](images/reactivation-3.png)
    
-   **Figure 3 - Problem management screen**
+    **Figure 3 - Problem management screen**
 
 2.  A message will be displayed to confirm reactivation. Click *OK* to perform
     the operation. The problem status will be updated in the trouble log list.
