@@ -133,8 +133,8 @@ will be used to identify the root cause, the identified failure, and a solution.
    
    **Figure 9 - Change relationship screen**
 
-    - If you want to remove a change that was related to solve the problem, just click the change icon
-    ![figure](images/investigation-11.png).
+    - If you want to remove a change that was related to solve the problem, just click the change
+    icon ![figure](images/investigation-11.png).
 
     - If you do not find the change and need to register a change request, you can register it in the system from this 
     screen, just click the change icon ![figure](images/investigation-12.png).
