@@ -186,8 +186,7 @@ Example: change incident/request information
 
             - **name**: category name.
 
-    - **urgency**: urgency of the request (optional). Possible values: H = High, M = Average, L = Low. If not informed, the urgency 
-    will be calculated from the CITSmart service catalog parameters.
+    - **urgency**: urgency of the request (optional). Possible values: H = High, M = Average, L = Low. If not informed, the urgency will be calculated from the CITSmart service catalog parameters.
 
     - **impact**: impact of request (optional). Possible values: H = High, M = Medium, L = Low. If not informed, the impact will be 
     calculated from the CITSmart service catalog parameters.
@@ -200,7 +199,7 @@ Example: change incident/request information
 
 - {"Synchronize": true, "request": {"numberOrigin": "9999", "userID": "ciclano.de.tal", "contact": {"phoneNumber": "61 84460709", 
 "email" "Cyclone", "name": "Cyclone of such"}, "description": "Inclusion of request using REST v3 - Changed", 
-"cyclano.de.tal@centralit.com.br", "department" "Service": {"name": "SERVICO.TESTE.2", "category": {"name": "Category 2"}}}}
+"centralit@centralit.com.br", "department" "Service": {"name": "SERVICO.TESTE.2", "category": {"name": "Category 2"}}}}
 
 Assuming that the **platform** attribute in the login was informed by **ENAP** and considering the synchronize attribute equal to 
 true, the CITSmart will:
