@@ -1,9 +1,7 @@
-title: Manual for creation and use of the dashboards component about tickets of
-CITSmart Enterprise ITSM via CITSmart Neuro
+title: Manual for creation and use of the dashboards component about tickets of CITSmart Enterprise ITSM via CITSmart Neuro
 Description: This document contains technical guidelines for creating custom widgets on the CITSmart Enterprise ITSM dashboard that allow the display and execution of tasks associated with request or incident flows.
 
-# Manual for creation and use of the dashboards component about tickets of
-CITSmart Enterprise ITSM via CITSmart Neuro
+# Manual for creation and use of the dashboards component about tickets of CITSmart Enterprise ITSM via CITSmart Neuro
 
 This document contains technical guidelines for creating custom widgets on the
 CITSmart Enterprise ITSM dashboard that allow the display and execution of tasks
@@ -62,11 +60,11 @@ The package is composed by of the following elements:
 
 7.  Three preconfigured forms for display on the ITSM dashboard:
 
--  Open and Uninitiated Calls (availableTasks);
+    -  Open and Uninitiated Calls (availableTasks);
 
--  Open calls to my groups (tasksByUserGroups);
+    -  Open calls to my groups (tasksByUserGroups);
 
--  My calls in progress (tasksByUser).
+    -  My calls in progress (tasksByUser).
 
 Business object
 ---------------
