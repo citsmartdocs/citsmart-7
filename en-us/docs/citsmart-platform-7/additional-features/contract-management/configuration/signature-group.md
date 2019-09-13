@@ -31,9 +31,9 @@ Filters
 
 3. Conduct a company search:
 
-- Insert the name of the intended group subscription and click on the Search button. Afterwards, the group subscription entry will be displayed according to the description provided.
+   - Insert the name of the intended group subscription and click on the Search button. Afterwards, the group subscription entry will be displayed according to the description provided.
 
-- To list all group subscription, just click directly on the Search button, if needed.
+   - To list all group subscription, just click directly on the Search button, if needed.
 
 Itens list
 ----------
