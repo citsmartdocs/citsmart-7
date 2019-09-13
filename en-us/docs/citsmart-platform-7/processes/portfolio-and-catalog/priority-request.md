@@ -21,7 +21,7 @@ Preconditions
 1.  Set the parameter bellow (see knowledge [Parameterization rules -
     Ticket][1]):
 
--   Parameter 104: value Y.
+   - Parameter 104: value Y.
 
 Filters
 -------
@@ -36,14 +36,13 @@ Items list
 Filling in the registrations fields
 -----------------------------------
 
-1.  After this, the **Service Requests Priority** screen will be displayed, as
-    shown in the figure below:
+1. After this, the **Service Requests Priority** screen will be displayed, as shown in the figure below:
 
    ![Criar](images/priority-1.png)
    
-   **Figure 1 - Service requests priority master record screen**
+    **Figure 1 - Service requests priority master record screen**
 
-2.  Fill in the fields as shown below:
+2. Fill in the fields as shown below:
 
     a)  Impact Register:
 
@@ -52,10 +51,9 @@ Filling in the registrations fields
        -  **Impact Level**: describe the level of impact. Example: High,
             Medium, Low;
 
-   !!! note "NOTE"
+    !!! note "NOTE"
 
-      You can add several levels of impact according to your need, just click on
-      the positive "+" icon.
+        You can add several levels of impact according to your need, just click on the positive "+" icon.
 
 -   After reporting impact levels, click the *Record Impact* button to perform
     the operation.
@@ -67,24 +65,22 @@ Filling in the registrations fields
 
    -  **Acronym**: enter the acronym for the level of urgency;
 
-   !!! note "NOTE"
+    !!! note "NOTE"
 
-       You can add several levels of urgency according to your need, just click on
-       the positive "+" icon.  
+        You can add several levels of urgency according to your need, just click on the positive "+" icon.  
 
 -   After reporting the urgency levels, click the *Urgency Record *button to
     perform the operation.
 
    c)  Priority Matrix Registration:
 
-   - Click the Register Priority Matrix button. Once this is done, the fields
-        to define the priority matrix;
+    - Click the Register Priority Matrix button. Once this is done, the fields to define the priority matrix;
 
-        -  **Impact Level**: select the impact level;
+        - **Impact Level**: select the impact level;
 
-        -  **Emergency Level**: select the level of urgency;
+        - **Emergency Level**: select the level of urgency;
 
-        -  **Priority Value**: define the priority value, based on the impact
+        - **Priority Value**: define the priority value, based on the impact
             and urgency informed. Remembering that this value should be from 1
             to 5, with 1 being the highest priority and 5 being the lowest;
 
