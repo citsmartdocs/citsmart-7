@@ -1,4 +1,4 @@
-.title: Graphics and reporting panel
+title: Graphics and reporting panel
 Description: Graphics and reporting panel
 
 # Graphics and reporting panel
