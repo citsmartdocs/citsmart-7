@@ -19,9 +19,9 @@ Generating TSUS usage report
     in the standard feature listing, making it easier to locate the desired
     items as shown in the figure below:
 
--   Year;
+   -  Year;
 
--   Contract.
+   -  Contract.
 
 2.  The **Usage Report Generation** screen will be displayed, as shown in the
     following figure:
@@ -53,7 +53,7 @@ Generating tsu follow-up report
     in the standard feature listing, making it easier to locate the desired
     items as shown in the figure below:
 
-   -   Contract
+     -  Contract
 
 2.  The **TSU Monitoring Report Generation** screen will be displayed, as shown
     in the following figure:
