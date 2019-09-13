@@ -48,7 +48,7 @@ Items list
     the icon ![Criar](images/tasks-3.png).
 
    
-Recording the hours spent with the task - filling in the registration fields
+Recording the hours spent with the task - Filling in the registration fields
 ----------------------------------------------------------------------------
 
 1.  After checking your tasks, on the Tasks screen, click the task icon ![Criar](images/tasks-4.png) that you want to record the hours worked with. Once this is done, the time recording screen will be displayed:
