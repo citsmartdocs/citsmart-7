@@ -22,14 +22,14 @@ Filters
     in the standard feature listing, making it easier to locate the desired
     items as shown in the figure below:
 
--   Name.
+    - Name.
 
 2.  On the **Resources/Skills** screen, click the **Skills Search** tab. The
     respective search screen will be displayed as shown in the figure below:
 
-   ![figure](images/skill-1.png)
+    ![figure](images/skill-1.png)
    
-   **Figure 1 - Skill Search Screen**
+    **Figure 1 - Skill Search Screen**
 
 3.  Perform skills search:
 
@@ -47,9 +47,9 @@ Items list
     identify the desired items in the standard feature listing: **Capability
     Name**.
 
-   ![figure](images/skill-2.png)
+    ![figure](images/skill-2.png)
    
-   **Figure 2 - Items Screen**
+    **Figure 2 - Items Screen**
 
 2.  After searching, select the desired record. Once this is done, it will be
     directed to the registration screen displaying the contents of the selected
@@ -66,30 +66,29 @@ Filling in the registration fields
 1.  Access the feature, after that, the **Capability Master** screen will be
     displayed, as shown below:
 
-   ![figure](images/skill-3.png)
+    ![figure](images/skill-3.png)
    
-   **Figure 3 - Skill Registration screen**
+    **Figure 3 - Skill Registration screen**
 
 2.  Fill in the fields as directed below:
 
--   **Skill Name**: enter the skill name;
+    - **Skill Name**: enter the skill name;
 
--   **Description**: describe the details about the skill;
+    - **Description**: describe the details about the skill;
 
--   Link the contributors to the skill.
+    - Link the contributors to the skill.
 
 3.  Click the *Link Employees* button. Once this is done, a screen for employee
     search will be displayed, as shown in the figure below:
 
-   ![figure](images/skill-4.png)
+    ![figure](images/skill-4.png)
    
-   **Figure 4 - Employee search screen**
+    **Figure 4 - Employee search screen**
 
--   Perform the search, select the contributor (s) and click the *Add* button to
-    link the contributor (s) to the skill.
+    - Perform the search, select the contributor (s) and click the *Add* button to link the contributor (s) to the skill.
 
-4.  After entering all the data, click the *Save* button to register, where the
-    date, time and user will be saved automatically for a future audit.
+4.  After entering all the data, click the *Save* button to register, where the date, time and user will be saved automatically 
+for a future audit.
 
 !!! tip "About"
 
