@@ -23,13 +23,13 @@ Filters
 1.  The following filters enable the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Request Number;
+    - Request Number;
 
--   Assigned/Shared.
+    - Assigned/Shared.
 
-![figure](images/approval-1.png)
+    ![figure](images/approval-1.png)
 
-**Figure 1 - Release search screen**
+    **Figure 1 - Release search screen**
 
 Items list
 ----------
