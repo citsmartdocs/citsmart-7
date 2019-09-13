@@ -56,7 +56,7 @@ Itens list
 
 1.  No applicable.
 
-Felling in the registration fields
+Filling in the registration fields
 ----------------------------------
 
 1.  After the configured parameters, in the **Problem Management** screen click
@@ -65,16 +65,16 @@ Felling in the registration fields
     the *E-mails* button located at the top of the problem log screen as shown
     in the figure below:
 
-   ![figure](images/email-1.png)
+    ![figure](images/email-1.png)
    
-   **Figure 1 - Selection of reading e-mails**
+    **Figure 1 - Selection of reading e-mails**
 
 2.  A screen will appear to check incoming e-mails, as shown in the figure
     below:
 
-   ![figure](images/email-2.png)
+    ![figure](images/email-2.png)
   
-   **Figure 2 - E-mail reading screen**
+    **Figure 2 - E-mail reading screen**
 
    -   Click the *Verify E-mails* button. The e-mails will be displayed, as shown
     in the figure below:
