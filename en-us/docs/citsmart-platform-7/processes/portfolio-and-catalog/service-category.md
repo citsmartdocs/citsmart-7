@@ -26,14 +26,14 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Name.
+    - Name.
 
 2.  On the **Service Category** screen, click on the **Search Service
     Category** guide as illustrated on the image below:
 
-   ![figure](images/service-category-1.png)
-   
-   **Figure 1 - Service Category search screen**
+    ![figure](images/service-category-1.png)
+
+    **Figure 1 - Service Category search screen**
 
 3.  Perform a Service Category search:
 
@@ -51,9 +51,9 @@ Items list
     identification of the desired items in the standard feature
     listing: Name and Hierarchy.
 
-   ![figure](images/service-category-2.png)
+    ![figure](images/service-category-2.png)
    
-   **Figure 2 - Service Category listing screen**
+    **Figure 2 - Service Category listing screen**
 
 2.  After searching, select the intended entry. Once this is done, you will be
     directed to the registry screen displaying the content of the selected
@@ -65,9 +65,9 @@ Filling in the registration fields
 1.  The category entry screen will be displayed, as illustrated in the image
     below:
 
-   ![figure](images/service-category-3.png)
+    ![figure](images/service-category-3.png)
    
-   **Figure 3 - Service Category entry screen**
+    **Figure 3 - Service Category entry screen**
 
 2.  Fill out the fields as instructed:
 
