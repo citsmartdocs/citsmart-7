@@ -26,17 +26,17 @@ Filters
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   Contract;
+    -   Contract;
 
--   Executor group;
+    -   Executor group;
 
--   Unit;
+    -   Unit;
 
--   Technician;
+    -   Technician;
 
--   Start date:
+    -   Start date:
 
--   End date.
+    -   End date.
 
 ![Criar](images/position-1.png)
 
@@ -55,7 +55,7 @@ Filling in the registration fields
 Verifying the position of attendants
 ------------------------------------
 
-1.  The Technician **Position Verification** screen will be displayed, as shown
+1. The Technician **Position Verification** screen will be displayed, as shown
     in the following figure. In this screen, you can see the location of the
     technician (s) on the map, according to the filters;
 
@@ -63,21 +63,21 @@ Verifying the position of attendants
 
 **Figure 2 - Technicians positioning screen**
 
-2.  Set the filters as you need them:
+2. Set the filters as you need them:
 
--   **Contract**: inform the technician contract to verify its location;
+    -   **Contract**: inform the technician contract to verify its location;
 
--   **Executor Group**: inform the executor group to which the technician
+    -   **Executor Group**: inform the executor group to which the technician
     belongs to verify their location;
 
--   **Unit**: inform the technician unit to verify its location;
+    -   **Unit**: inform the technician unit to verify its location;
 
--   **Technician**: inform the technician that you want to check your location
+    -   **Technician**: inform the technician that you want to check your location
     on the map;
 
--   **Start date**: inform the initial date of service request;
+    -   **Start date**: inform the initial date of service request;
 
--   **End date**: inform the end date of the service request fulfillment;
+    -   **End date**: inform the end date of the service request fulfillment;
 
 3.  After the filters are set, click the *Search* button. Once this is done, the
     location of the technicians will be displayed on the map, as shown in the
