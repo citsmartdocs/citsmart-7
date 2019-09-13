@@ -27,9 +27,9 @@ Filters
     items in the standard feature listing, making it easier to find the desired
     items:
 
-   - Name;
+    - Name;
 
-   - SSN/EIN.
+    - SSN/EIN.
 
 2. In the **Supplier** screen, click the **Suppliers search** tab, the search screen will be displayed as illustrated on the 
 Image below:
