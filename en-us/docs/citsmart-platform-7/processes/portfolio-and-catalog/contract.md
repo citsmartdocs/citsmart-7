@@ -1,6 +1,5 @@
 title: Contract registration
-Description: The contract is an agreement between two parties, which undertake
-to comply with what was agreed between them under certain conditions.
+Description: The contract is an agreement between two parties, which undertake to comply with 
 
 # Contract registration
 
@@ -40,33 +39,31 @@ Filters
     in the standard feature listing, making it easier to locate the desired
     items as shown in the figure below:
 
--   Contact number.
+    - Contact number.
 
 2.  On the **Contracts** screen, click the **List** tab. The search screen will
     be displayed, as shown in the figure below:
 
-   ![figure](images/contract-1.png)
+    ![figure](images/contract-1.png)
    
-   **Figure 1 - Contract search screen**
+    **Figure 1 - Contract search screen**
 
 3.  Perform contract search;
 
--   Enter the contract number and click the *Search* button. After that, the
-    contract record will be displayed according to the number entered.
+    - Enter the contract number and click the *Search* button. After that, the contract record will be displayed according to the 
+    number entered.
 
--   If you want to list all the contract records, simply click
-    the *Search* button directly.
+    - If you want to list all the contract records, simply click the *Search* button directly.
 
 Items list
 ----------
 
-1.  The following registration fields are available to the user to make it
-    easier to identify the desired items in the standard feature
-    listing: Contract Number, Customer Name, and Supplier.
+1. The following registration fields are available to the user to make it easier to identify the desired items in the standard 
+feature listing: Contract Number, Customer Name, and Supplier.
 
-   ![figure](images/contract-2.png)
+    ![figure](images/contract-2.png)
    
-   **Figure 2 - Item screen**
+    **Figure 2 - Item screen**
 
 2.  After searching, select the desired record. Once this is done, it will be
     directed to the registration screen displaying the contents of the selected
@@ -79,12 +76,11 @@ Items list
 Filling in the registration fields
 ----------------------------------
 
-1.  After accessing the functionality, the Contract Master screen will be
-    displayed, as shown in the figure below:
+1. After accessing the functionality, the Contract Master screen will be displayed, as shown in the figure below:
 
-   ![figure](images/contract-3.png)
+    ![figure](images/contract-3.png)
    
-   **Figure 3 - Contract Master Screen**
+    **Figure 3 - Contract Master Screen**
 
 2.  Fill in the fields as directed below:
 
@@ -362,17 +358,16 @@ Liking attachaments
 
 **Attachments Contract**: allows you to attach files to the contract.
 
-1.  Click the Attachments tab, and after that, the file attachment area will be
-    displayed, as shown in the figure below:
+1. Click the Attachments tab, and after that, the file attachment area will be displayed, as shown in the figure below:
 
-  ![figure](images/contract-12.png)
+    ![figure](images/contract-12.png)
   
-  **Figure 12 - Additional Information - File Attachment**
+    **Figure 12 - Additional Information - File Attachment**
 
 2.  Enter the description of the attachment, click the *Add File* button and
     select the desired file;
 
-    -   After that, the file will be added to the contract.
+    - After that, the file will be added to the contract.
 
 3.  After the entered contract data, click the *Record* button to register,
     where the date, time and user will be saved automatically for a future
