@@ -40,7 +40,7 @@ Filters
     in the standard feature listing, making it easier to locate the desired
     items as shown in the figure below:
 
--   Contact number.
+   -   Contact number.
 
 2.  On the **Contracts** screen, click the **List** tab. The search screen will
     be displayed, as shown in the figure below:
@@ -51,10 +51,10 @@ Filters
 
 3.  Perform contract search;
 
--   Enter the contract number and click the *Search* button. After that, the
+   -   Enter the contract number and click the *Search* button. After that, the
     contract record will be displayed according to the number entered.
 
--   If you want to list all the contract records, simply click
+   -   If you want to list all the contract records, simply click
     the *Search* button directly.
 
 Items list
@@ -79,14 +79,14 @@ Items list
 Filling in the registration fields
 ----------------------------------
 
-1.  After accessing the functionality, the Contract Master screen will be
+1. After accessing the functionality, the Contract Master screen will be
     displayed, as shown in the figure below:
 
 ![figure](images/register-3.png)
 
 **Figure 3 - Contract Master Screen**
 
-2.  Fill in the fields as directed below:
+2. Fill in the fields as directed below:
 
 a)  **Type of Agreement/Contract**: select the type of agreement/contract;
 
