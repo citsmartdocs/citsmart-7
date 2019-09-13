@@ -34,12 +34,12 @@ Filters
 
 3.  Conduct a position search.
 
-   -   Insert the name of the intended profile and click on *Search*
+    -  Insert the name of the intended profile and click on *Search*
 
-   -   Afterwards, the entry will be displayed according to the inserted
+    -  Afterwards, the entry will be displayed according to the inserted
     information
 
-   -   To list all positions entries, just click directly on the *Search* button,
+    -  To list all positions entries, just click directly on the *Search* button,
     if needed.
 
 Items list
