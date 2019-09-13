@@ -24,11 +24,11 @@ Filters
     in the standard feature listing, making it easier to locate the desired
     items:
 
--   Problem Number
+    - Problem Number
 
-![figure](images/visualization-1.png)
+    ![figure](images/visualization-1.png)
 
-**Figure 1 - Problem search screen**
+    **Figure 1 - Problem search screen**
 
 Items list
 ----------
@@ -57,9 +57,9 @@ Viewing a problem
 1.  On the Management tab, locate the problem record that you want to view, and
     then click to *View*. As shown in the image below:
 
-   ![figure](images/visualization-3.png)
+    ![figure](images/visualization-3.png)
    
-   **Figure 3 - Problem management screen**
+    **Figure 3 - Problem management screen**
 
 2.  The screen will be opened to display the necessary information;
 
