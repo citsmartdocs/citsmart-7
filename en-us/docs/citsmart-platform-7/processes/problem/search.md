@@ -25,14 +25,14 @@ Filters
     in the standard feature listing, making it easier to locate the desired
     items:
 
-   -   Problem Number.
+    - Problem Number.
 
 2.  On the Management tab, click the *Problem Search* button as indicated in the
     figure below:
 
-   ![figure](images/search-1.png)
+    ![figure](images/search-1.png)
 
-   **Figure 1 - Problem management screen**
+    **Figure 1 - Problem management screen**
 
 3.  The **Problem Search** screen is displayed containing fields where you can
     define the filters necessary for your search;
