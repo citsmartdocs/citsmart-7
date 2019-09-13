@@ -74,12 +74,12 @@ Filling in the registration fields
 
 2.  Fill in the fields as directed below:
 
-   -   **Satisfaction degree**: define the degree of satisfaction of the service
+   -  **Satisfaction degree**: define the degree of satisfaction of the service
     attendance;
 
-   -   **Evaluate**: report evaluation regarding the degree of satisfaction;
+   -  **Evaluate**: report evaluation regarding the degree of satisfaction;
 
-   -   **Language**: enter the system language.
+   -  **Language**: enter the system language.
 
 3.  After completing the fields, click the *Save* button to register, where the
     date, time and user will be saved automatically for a future audit.
