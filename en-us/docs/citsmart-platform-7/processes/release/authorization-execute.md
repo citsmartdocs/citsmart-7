@@ -44,7 +44,7 @@ Items list
 2.  There are action buttons available to the user for each item in the listing,
     they are: *View*, *Reports*, and *Action*.
 
-   ![figure](images/execute-2.png)
+    ![figure](images/execute-2.png)
  
     **Figure 2 - Release listing screen**
 
