@@ -1,5 +1,4 @@
-title: CITSmart Enterprise ITSM server configuration manual for use os app (iOS
-and Android)
+title: CITSmart Enterprise ITSM server configuration manual for use os app (iOS and Android)
 Description: This document is intended to provide guidance for configuring the server for using CITSmart ITSM Enterprise mobile application (iOS and Android plataform).
 
 # CITSmart Enterprise ITSM server configuration manual for use os app (iOS and Android)
@@ -22,12 +21,12 @@ Preconditions
 3.  Setup the parameter 272 - determines whether to notify only requests
     that are not responsible for CITSmart ITSM Enterprise:
 
-   -   Values: "Y" or "N" Default: "N";
+     -  Values: "Y" or "N" Default: "N";
 
-   -   If the value of the parameter is "Y", only notifications of requests without
+     -  If the value of the parameter is "Y", only notifications of requests without
     a current controller can be shown;
 
-   -   If the value of the parameter is "N", notifications of all the requests can
+     -  If the value of the parameter is "N", notifications of all the requests can
     be shown;
 
 4.  Setup the parameter 255 - Radius of Action / Display of the attendant in
@@ -58,7 +57,7 @@ Preconditions
 
 12.  Setup the parameter 254 - Google Services API Key: inform the key API to
     use Google's MAPS services (see knowledge [Parameterization rules -
-    system][1]).
+    system][2]).
 
 Configuring web services
 ------------------------
