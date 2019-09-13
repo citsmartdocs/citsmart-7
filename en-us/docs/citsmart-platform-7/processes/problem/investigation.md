@@ -24,11 +24,11 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Description
+    - Description
 
-![figure](images/investigation-1.png)
+    ![figure](images/investigation-1.png)
 
-**Figure 1 - Problem search screen**
+    **Figure 1 - Problem search screen**
 
 Items list
 ----------
@@ -58,10 +58,9 @@ In this stage, the investigation of the problem and the diagnosis of the main
 cause is carried out. All available resources and problem-solving techniques
 will be used to identify the root cause, the identified failure, and a solution.
 
-   !!! info "IMPORTANT"
+    !!! info "IMPORTANT"
 
-      The group member assigned to conduct the investigation and diagnosis must
-      capture the problem and start the activity.
+        The group member assigned to conduct the investigation and diagnosis must capture the problem and start the activity.
 
 1.  On the **Management** tab, locate the problem log that you want to log the
     investigation and diagnosis, click the *Action* button and select
@@ -113,12 +112,12 @@ will be used to identify the root cause, the identified failure, and a solution.
     -   **Error Message Associated**: describe the error message associated with the
     problem;
 
-   -   **Diagnosis**: describe the diagnosis of the problem.
+    - **Diagnosis**: describe the diagnosis of the problem.
 
 6.  Inform the change if necessary to solve the problem:
 
-   -   Click on the **Processes/Options** tab and then on **Changes**, located in
-    the right corner of the screen, as indicated in the figure below:
+    - Click on the **Processes/Options** tab and then on **Changes**, located in the right corner of the screen, as indicated in 
+    the figure below:
 
    ![figure](images/investigation-8.png)
    
@@ -134,19 +133,18 @@ will be used to identify the root cause, the identified failure, and a solution.
    
    **Figure 9 - Change relationship screen**
 
--   If you want to remove a change that was related to solve the problem, just
-    click the change icon ![figure](images/investigation-11.png).
+    - If you want to remove a change that was related to solve the problem, just click the change icon
+    ![figure](images/investigation-11.png).
 
--   If you do not find the change and need to register a change request, you can
-    register it in the system from this screen, just click the change icon ![figure](images/investigation-12.png).
+    - If you do not find the change and need to register a change request, you can register it in the system from this 
+    screen, just click the change icon ![figure](images/investigation-12.png).
 
 7.  After recording the evaluation and diagnostic information, inform the
     workaround solution:
 
-   !!! info "IMPORTANT"
+    !!! info "IMPORTANT"
 
-      A boundary solution should be temporary until a definitive solution to the
-      problem is found.
+        A boundary solution should be temporary until a definitive solution to the problem is found.
 
    -   Click the **Processes/Options** tab, and then click **Solution**, located on
     the right-hand corner of the screen, as shown in the figure below:
