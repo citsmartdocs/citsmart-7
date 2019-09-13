@@ -133,30 +133,30 @@ as illustrated on the image below:
         its states will appear in the State/Province field. Similarly, when selecting a State/Province, only its Cities will be 
         available.
 
--   **State/Province**: select the supplier’s state;
+    -   **State/Province**: select the supplier’s state;
 
--   **City**: select the supplier’s city;
+    -   **City**: select the supplier’s city;
 
--   **Observation**: please provide any convenient notes about the supplier;
+    -   **Observation**: please provide any convenient notes about the supplier;
 
--   **Responsibilities**: describe the supplier's duties within the
+    -   **Responsibilities**: describe the supplier's duties within the
     organization;
 
--   **Record Type**: select the supplier’s record type;
+    -   **Record Type**: select the supplier’s record type;
 
--   **Frequency**: select the frequency the products or services will be
+    -   **Frequency**: select the frequency the products or services will be
     provided;
 
--   **Contact Form**: select the best way to contact the supplier;
+    -   **Contact Form**: select the best way to contact the supplier;
 
--   **List of Activities and Responsabilities**: describe the supplier’s
+    -   **List of Activities and Responsabilities**: describe the supplier’s
     activities and responsibilities after the contract expires. This can be a
     normal termination (within the deadline) or early one (before the end of the
     contracted period) and report the contract’s termination. Example: database
     must be delivered back to the service contractor within a 24-hour-deadline,
     etc.;
 
--   **Management Issues**: describe which actions must be taken in case of
+    -   **Management Issues**: describe which actions must be taken in case of
     disagreement or contract disputes.
 
 3.  After inserting the data, click the *Save* button to confirm the entry, at
