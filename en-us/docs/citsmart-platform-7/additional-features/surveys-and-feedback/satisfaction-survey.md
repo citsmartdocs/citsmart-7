@@ -37,11 +37,11 @@ Filters
 
 3.  Conduct the search on the degree of satisfaction;
 
-   -   Enter the description of the degree of satisfaction, select the language and
+    -  Enter the description of the degree of satisfaction, select the language and
     click the *Search* button. After that, the record will be displayed
     according to the data entered;
 
-   -   If you want to list all the records, just click directly on
+    -  If you want to list all the records, just click directly on
     the *Search* button.
 
 Items list
