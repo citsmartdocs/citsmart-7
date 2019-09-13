@@ -23,13 +23,13 @@ Filters
 1.  The following filters enable the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Request Number;
+    - Request Number;
 
--   Assigned/Shared.
+    - Assigned/Shared.
 
-![figure](images/reactivate-1.png)
+    ![figure](images/reactivate-1.png)
 
-**Figure 1 - Release search screen**
+    **Figure 1 - Release search screen**
 
 Items list
 ----------
@@ -49,9 +49,9 @@ Items list
     the *Action* button and select the *Reactivate Release* option, as indicated
     on the image below:
 
-  ![figure](images/reactivate-2.png)
+    ![figure](images/reactivate-2.png)
   
-  **Figure 2 - Reactivate release request**
+    **Figure 2 - Reactivate release request**
 
 1.  A message will be displayed confirming the reactivation;
 
