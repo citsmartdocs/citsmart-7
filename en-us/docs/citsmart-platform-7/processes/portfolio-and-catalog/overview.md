@@ -1,48 +1,48 @@
-title:  Módulo Gerenciamento de Portfólio e Catálogo
-Description: O processo de Gerenciamento de Portfólio de Serviço é responsável por gerenciar o portfólio de serviços. 
-# Módulo Gerenciamento de Portfólio e Catálogo
+title:  Portfolio and Catalog Management module
+Description: The Service Portfolio Management process is responsible for managing the service portfolio . 
+# Portfolio and Catalog Management module
 
-Objetivo do módulo
+Module objective
 ---------------------
 
-*Gerenciamento de portfólio de serviço*
+*Service portfolio management*
 
-O processo de Gerenciamento de Portfólio de Serviço é responsável por gerenciar o portfólio de serviços durante todo o ciclo de vida
-de um serviço, focando no valor que os serviços entregam ao negócio.
+The Service Portfolio Management process is responsible for managing the service portfolio throughout the life cycle of a 
+service, focusing on the value that services deliver to the business.
 
-O Portfólio é a representação de todos os serviços e seus status. O comando do mesmo é um método dinâmico para administrar os
-investimentos em gerenciamento de serviços por toda a organização e dirigir esses investimentos para gerar valor.
+The Portfolio is the representation of all services and their status. It's command is a dynamic method for managing investment in 
+service management throughout the organization and directing those investments to generate value.
 
-*Gerenciamento de catálogo de serviços*
+*Service catalog management*
 
-O Gerenciamento de Catálogo de Serviços tem por objetivo manter os serviços prestados aos clientes de forma integrada com todas as
-atividades do gerenciamento de serviços e prover aos clientes uma visão de quais serviços o provedor de serviços oferece.
+Service Catalog Management is intended to maintain the services provided to customers in an integrated manner with all service 
+management activities and to provide customers with a view of what services the service provider provides.
 
-O Catálogo de Serviço é um subconjunto do portfólio, listando todos os serviços de TI em produção, incluindo os disponíveis para
-liberação. É a única parte do Portfólio publicada para os clientes usada para apoiar a venda e entrega dos serviços de TI e incluir
-informações sobre os entregáveis, preços e pontos de contato.
+The Service Catalog is a subset of the portfolio, listing all IT services in production, including those available for release. 
+It is the only part of the Portfolio published for customers used to support the sale and delivery of IT services and includes 
+information on deliverables, pricing and contact points.
 
-Onde estão suas funcionalidades
+Where are the features
 ---------------------------------
 
-Acesse a funcionalidade através da navegação no menu principal **Processos ITIL > Gerência de Portfólio e Catálogo**.
+To access the functionality click on the main menu **Process Management > Portfolio and Catalog Management**.
 
-![Menu](images/mod-port.img1.jpg)
+![Menu](images/module.img1.jpg)
 
-**Figura 1 - Menu do módulo Gerência de Portfólio e Catálogo**
+**Figure 1 -Portfolio and Catalog Management module menu**
 
-Principal funcionalidade (em destaque)
+Main feature (in highlight)
 ----------------------------------------
 
-Na seção "Veja também" é possível acessar a(s) funcionalidade(s) principal(is) deste módulo, desta forma se pode obter um
-conhecimento mais detalhado.
+In the *See also* section you can access the main functionality(ies) of this module, in order to obtain a more detailed 
+knowledge.
 
-Veja também
+See also
 --------------
 
-- [Cadastro de portfólio de serviço](/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html)
+- [Service portfolio registration](/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html)
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/29/2019 - Larissa Lourenço
+    <b>Updated:</b>09/13/2019 - Larissa Lourenço
