@@ -40,9 +40,9 @@ Image below:
 
 3.  Perform a supplier search:
 
-   - **Name**: insert the supplier’s name;
+    - **Name**: insert the supplier’s name;
 
-   - **SSN/EIN**: insert the supplier’s tax or social security number.
+    - **SSN/EIN**: insert the supplier’s tax or social security number.
 
 4.  After setting the filters, click the *Search* button. Then, the entries will
     be displayed according to the data provided;
