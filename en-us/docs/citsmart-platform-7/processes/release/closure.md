@@ -27,13 +27,13 @@ Filters
 1.  The following filters enable the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Request Number;
+    - Request Number;
 
--   Assigned/Shared.
+    - Assigned/Shared.
 
-![figure](images/closure-1.png)
+    ![figure](images/closure-1.png)
 
-**Figure 1 - Release search screen**
+    **Figure 1 - Release search screen**
 
 Items list
 ---------
@@ -52,9 +52,9 @@ Items list
     release request which will closed down, click on the *Action*button and
     select the *Start/Run Task* option, as indicated on the image below:
 
-   ![figure](images/closure-2.png)
+    ![figure](images/closure-2.png)
    
-   **Figure 2 - Execute current release management task**
+    **Figure 2 - Execute current release management task**
 
 4.  The **Release Request Entry** screen will be displayed with all the fields
     filled out with the content related to the selected request
