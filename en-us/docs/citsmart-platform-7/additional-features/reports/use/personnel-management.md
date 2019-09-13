@@ -19,26 +19,26 @@ Preconditions
 Filters
 -------
 
-1.  The following filters enables the user to restrict the participation of
+1.  he following filters enables the user to restrict the participation of
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   **Contract**: select the desired contract;
+    -   **Contract**: select the desired contract;
 
--   **Unit**: select the unit that you want to check your respective employees;
+    -   **Unit**: select the unit that you want to check your respective employees;
 
--   **Employee**: enter the name of the collaborator (s);
+    -   **Employee**: enter the name of the collaborator (s);
 
--   **Staff**: the collaborator (s) chosen in the previous field will be listed;
+    -   **Staff**: the collaborator (s) chosen in the previous field will be listed;
 
-2.  The **Employee Report Generation by Unit** screen will be displayed, as
+2. The **Employee Report Generation by Unit** screen will be displayed, as
     shown in the following figure:
 
 ![Criar](images/pessoal.png)
 
 **Figure 1 - Employee report generation screen**
 
-3.  Set the filters as needed;
+3. Set the filters as needed;
 
 !!! info "IMPORTANT"
 
@@ -46,13 +46,13 @@ Filters
      the information of all active employees of the respective unit (s), related
      to the informed contract.
 
-4.  If you want to remove some collaborator, just select it and click
+4. If you want to remove some collaborator, just select it and click
     the *Remove *button. But if you want to remove all employees, just click
     directly on the *Remove All* button;
 
-5.  Click the *Generate PDF* button to generate the report in PDF format.
+5. Click the *Generate PDF* button to generate the report in PDF format.
 
-6.  Click the *Generate XLS* button to generate the report in Excel format.
+6. Click the *Generate XLS* button to generate the report in Excel format.
 
 Items list
 ----------
