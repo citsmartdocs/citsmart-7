@@ -24,19 +24,19 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Name.
+    -  Name.
 
-![Criar](images/menu-1.png)
+    ![Criar](images/menu-1.png)
 
-**Figure 1 - Menu search screen**
+    **Figure 1 - Menu search screen**
 
 2.  Perform a menu search;
 
--   Insert the name of the intended menu and click on the *Search* button.
+    - Insert the name of the intended menu and click on the *Search* button.
     Afterwards, the menu entry will be displayed according to the description
     provided.;
 
--   To list all menus, just click directly on the *Search* button, if needed.
+    - To list all menus, just click directly on the *Search* button, if needed.
 
 Items list
 ----------
@@ -45,9 +45,9 @@ Items list
     identification of the desired items in the standard feature
     listing: **Description**.
 
-![Criar](images/menu-2.png)
+    ![Criar](images/menu-2.png)
 
-**Figure 2 - Menu listing screen**
+    **Figure 2 - Menu listing screen**
 
 2.  After searching, select the intended entry. Afterwards, they will be
     redirected to the registry screen displaying the content belonging to the
@@ -63,34 +63,34 @@ Filling in the registration fields
 1.  The **Menu Registration** screen will be displayed, as illustrated on the
     image below:
 
-![Criar](images/menu-3.png)
+    ![Criar](images/menu-3.png)
 
-**Figure 3 - Menu entry screen**
+    **Figure 3 - Menu entry screen**
 
 2.  Fill out the fields as instructed below:
 
--   **Name**: insert the keyword of the menu item , e.g.: \$menu.name.Menu;
+    -   **Name**: insert the keyword of the menu item , e.g.: \$menu.name.Menu;
 
--   **Description**: insert the description of the menu item, e.g.: Menu Entry;
+    -   **Description**: insert the description of the menu item, e.g.: Menu Entry;
 
--   **Parent Menu**: select a parent menu, in case the new item is a
+    -   **Parent Menu**: select a parent menu, in case the new item is a
     submenu;
 
--   **Link**: insert the access link of the new menu item, e.g.:
+    -   **Link**: insert the access link of the new menu item, e.g.:
     /menu/menu.load;
 
--   **Menu Order**: insert the menu position, e.g.: 5;
+    -   **Menu Order**: insert the menu position, e.g.: 5;
 
--   **Tags**: insert the menu item tags (feature). Tags are keywords that act as
+    -   **Tags**: insert the menu item tags (feature). Tags are keywords that act as
     labels and assist in organizing information, joining those who have the same
     label, making it easier to find other related items.
 
 3.  After inserting the data, click on the *Save* button to create the entry, at
     which date, time and user will be automatically stored for a future audit.
 
--   The *Generate XML* button generates a ".xml" extension menu.
+    -   The *Generate XML* button generates a ".xml" extension menu.
 
--   The *Refresh Menus* button is for updating menus.
+    -   The *Refresh Menus* button is for updating menus.
 
 !!! warning "ATTENTION"
 
