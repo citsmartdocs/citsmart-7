@@ -60,15 +60,13 @@ Filling in the registration fields
 
     ![figure](images/acess-port.img2.jpg)
    
-**Figure 2 - Access type determination**
+    **Figure 2 - Access type determination**
 
--   **View**: the user with this profile can make queries and view the data;
+    - **View**: the user with this profile can make queries and view the data;
 
--   **Save**: the user with this profile can do the "Search" and also include
-    and change the data;
+    - **Save**: the user with this profile can do the "Search" and also include and change the data;
 
--   **Delete**: the user with this profile can "Save" and delete the system
-    data.
+    - **Delete**: the user with this profile can "Save" and delete the system data.
 
     !!! warning "ATTENTION"
 
@@ -81,9 +79,8 @@ Filling in the registration fields
         when new features are created, thus requiring the administrator to explicitly enable this for the profiles you want, 
         making it available for the desired profiles.
 
-2.  After determining the access permission, click on the *Save* button to
-    confirm the entry, where date, time and user will be stored automatically
-    for a future audit.
+2. After determining the access permission, click on the *Save* button to confirm the entry, where date, time and user will be 
+stored automatically for a future audit.
 
 !!! info "IMPORTANT"
 
