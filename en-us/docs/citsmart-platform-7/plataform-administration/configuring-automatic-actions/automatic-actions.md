@@ -169,7 +169,7 @@ where it will be used in the event managers records of CITSmart Nagios, Zabbix, 
 Preconditions
 ----------------
 
-1. Register contract (see knowledge [Contract registration and search](/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract));
+1. Register contract (see knowledge [Contract registration](/en-us/citsmart-platform-7/processes/portfolio-and-catalog/contract.html));
 
 2. Register unit (see knowledge [Unit registration and search](/en-us/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html));
 
@@ -188,9 +188,9 @@ Preconditions
 7. Link the group to the contracts, associating the Applicants (collaborators) already registered to this group, so that the 
 contracts and the related applicants are listed on the change request screen. If it is necessary to create a new employee, it is 
 necessary to include it to the Applicant Group in which it is related to the contract so that it can carry out a change request, 
-that is, to have its name listed on the change Request screen (see knowledge [Contract registration and search](/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract));
+that is, to have its name listed on the change Request screen (see knowledge [Contract registration](/en-us/citsmart-platform-7/processes/portfolio-and-catalog/contract.html));
 
-8. Link drive to contract so the drive is listed on the change Request screen (see knowledge [Contract registration and search](/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract)).
+8. Link drive to contract so the drive is listed on the change Request screen (see knowledge [Contract registration](/en-us/citsmart-platform-7/processes/portfolio-and-catalog/contract.html)).
 
 How to access
 --------------
@@ -275,7 +275,7 @@ automatic actions, where it will be used in the event managers records of CITSma
 Preconditions
 ----------------
 
-1. Register contract (see knowledge [Contract registration and search](/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract));
+1. Register contract (see knowledge [Contract registration](/en-us/citsmart-platform-7/processes/portfolio-and-catalog/contract.html));
 
 2. Register unit (see knowledge [Unit registration and search](/en-us/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html));
 
@@ -285,12 +285,12 @@ Preconditions
 
 5. Enter category of problem, which should have the link with the flow referring to the problem (see knowledge [Problem category registration and search](/en-us/citsmart-platform-7/processes/problem/category.html));
 
-6. Link drive to contract so that the drive is listed on the problem log screen (see knowledge [Contract registration and search](/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract));
+6. Link drive to contract so that the drive is listed on the problem log screen (see knowledge [Contract registration](/en-us/citsmart-platform-7/processes/portfolio-and-catalog/contract.html));
 
 7. Link the group to the contracts, associating the applicants (collaborators) already registered to this group, so that the 
 contracts and related applicants are listed on the problem log screen. If it is necessary to create a new employee, it is necessary 
 to include it in the group of the applicant in which it is related to the contract so that it can register a problem, that is, to 
-have its name listed on the problem registration screen (see knowledge [Contract registration and search](/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract)).
+have its name listed on the problem registration screen (see knowledge [Contract registration](/en-us/citsmart-platform-7/processes/portfolio-and-catalog/contract.html)).
 
 How to access
 -----------------
@@ -393,14 +393,14 @@ Preconditions
 
 1. Register group (see knowledge [Group registration and search](/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html));
 
-2. Register contract (see knowledge [Contract registration and search)](/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract));
+2. Register contract (see knowledge [Contract registration)](/en-us/citsmart-platform-7/processes/portfolio-and-catalog/contract.html));
 
 3. Link the group to the contracts, associating the applicants (collaborators) already related to this group, so that the contracts 
 and the related applicants are listed in the request screen. If it is necessary to create a new employee, it is necessary to 
 include it in the group in which it is related to the contract so that it can open a request, that is, to have its name listed on 
 the request registration screen (see knowledge [Contract registration and search](/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract));
 
-4. Link unit to contracts so that it is listed on the request screen (see knowledge [Contract registration and search)](/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract));
+4. Link unit to contracts so that it is listed on the request screen (see knowledge [Contract registration)](/en-us/citsmart-platform-7/processes/portfolio-and-catalog/contract.html));
 
 5. Define portfolio of services (see knowledge [Service portfolio registration](/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html));
 
@@ -413,7 +413,7 @@ the request registration screen (see knowledge [Contract registration and search
 How to access
 ----------------
 
-1. Access the feature by navigating through the main menu System → Automatic Actions → Incidents/Requests/Procedures Actions.
+1. Access the feature by navigating through the main menu System > Automatic Actions > Incidents/Requests/Procedures Actions.
 
 !!! abstract "KNOW MORE"
 
