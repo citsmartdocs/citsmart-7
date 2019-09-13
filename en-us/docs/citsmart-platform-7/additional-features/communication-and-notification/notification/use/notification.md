@@ -55,23 +55,33 @@ Filling in the registration fields
 
 3.  Fill in the fields as directed below:
 
-- Title: report the title of the notification;
-- Process: select the notification process;
-- Confirmation Required: set whether notification requires user read confirmation. If yes, when recording the information will be presented a button that allows to verify the users who confirmed the reading of the notification;
-- Status: inform the status of the notification;
-- Initial date publication : enter the start date that the notification will be displayed to the user;
-- Initial time publication: enter the start time the notification will be displayed;
-- End date publication: please inform the final date of the notification;
-- End time publication: enter the end time of the notification display;
-- Add the groups and/or users who will see the notification;
-- Short Description: provide a brief description of the notification;
-- Notification Description: enter the detailed description of the notification.
+   - Title: report the title of the notification;
+   
+   - Process: select the notification process;
+   
+   - Confirmation Required: set whether notification requires user read confirmation. If yes, when recording the information will be presented a button that allows to verify the users who confirmed the reading of the notification;
+   
+   - Status: inform the status of the notification;
+   
+   - Initial date publication : enter the start date that the notification will be displayed to the user;
+   
+   - Initial time publication: enter the start time the notification will be displayed;
+   
+   - End date publication: please inform the final date of the notification;
+   
+   - End time publication: enter the end time of the notification display;
+   
+   - Add the groups and/or users who will see the notification;
+   
+   - Short Description: provide a brief description of the notification;
+   
+   - Notification Description: enter the detailed description of the notification.
 
 4. After the data has been entered, click the Save button to register, in this case the date, time and time will be stored automatically for a future audit.
 
 !!! note "NOTE"
 
-    the registered notifications will be displayed during the period established in this registry. After passing the period, the system will inactivate the notifications.
+    The registered notifications will be displayed during the period established in this registry. After passing the period, the system will inactivate the notifications.
 
 
 Viewing notifications
@@ -104,8 +114,11 @@ Viewing notifications
     **Figure 6 - My notification**
 
     - The notification with the icon  indicates that it has been displayed;
+    
     - Notification with the icon  indicates that the icon was not displayed;
+    
     - Notification with the icon  indicates that it requires read confirmation;
+    
     - The notification with the icon  indicates that the message has been confirmed.
 
 4. Click the Notification View button. After that, the information will be displayed. If the notification requires the confirmation of the reading, simply click on the Mark as read button.

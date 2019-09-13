@@ -7,7 +7,7 @@ The goal of this feature is to display the configuration items collected during 
 How to access
 ----------------
 
-1. Access the Asset View feature navigating through the main menu ITIL **Processes > Configuration Management > Asset View**.
+1. Access the Asset View feature navigating through the main menu **ITIL Processes > Configuration Management > Asset View**.
 
 Preconditions
 ---------------

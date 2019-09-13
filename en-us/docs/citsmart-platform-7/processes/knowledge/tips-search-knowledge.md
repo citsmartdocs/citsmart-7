@@ -61,7 +61,7 @@ Search tips
 See also
 --------------
 
-- [Portal do conhecimento](/en-us/citsmart-platform-7/processes/knowledge/knowledge-portal.html).
+- [Knowledge Portal](/en-us/citsmart-platform-7/processes/knowledge/knowledge-portal.html).
 
 !!! tip "About"
 

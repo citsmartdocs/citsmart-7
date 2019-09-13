@@ -14,7 +14,7 @@ How to access
 Preconditions
 ----------------
 
-1. Register staff members (see knowledge [Staff registration and search](/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html));
+1. Register staff members (see knowledge [Staff registration and search](/en-us/citsmart-platform-7/initial-settings/access-settings/user/employee.html));
 
 2. Register groups (see knowledge [Group registration and search](/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html)).
 

@@ -21,11 +21,15 @@ Performing data export
 
 2.  Enter the data to be exported:
 
-- Contract: select the contract that will be used as the export basis, if you want to export the data relating to a contract;
-- Groups: select the desired group (s) to export the data;
-- Export units?: define whether to export the unit data;
-- Export SLA?: define whether the service level agreement data will be exported;
-- Export service catalog?: define whether to export service catalog data.
+   - Contract: select the contract that will be used as the export basis, if you want to export the data relating to a contract;
+   
+   - Groups: select the desired group (s) to export the data;
+   
+   - Export units?: define whether to export the unit data;
+   
+   - Export SLA?: define whether the service level agreement data will be exported;
+   
+   - Export service catalog?: define whether to export service catalog data.
 
 3. After the data is entered, click on the Export button;
 

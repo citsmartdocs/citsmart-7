@@ -554,7 +554,7 @@ to find the desired items:
     - Title;
     - Status.
     
-2. In the  **Generic Manager Zabbix**screen, the search screen appears as illustrated in the following figure. In this screen, the 
+2. In the  **Generic Manager Zabbix** screen, the search screen appears as illustrated in the following figure. In this screen, the 
 Generic Zabbix Manager already registered and the filter fields are displayed to search certain records;
 
 

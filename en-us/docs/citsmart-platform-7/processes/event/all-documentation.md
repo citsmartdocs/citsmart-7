@@ -22,9 +22,9 @@ Description: Provides all the knowledge of the process.
 
 [CITSmart Event Monitor connection](/en-us/citsmart-platform-7/processes/event/event-monitor-connection.html)
 
-[Configuração da conexão do Citsmart inventory](/pt-br/citsmart-platform-7/processes/event/inventory-connection-setup.html)
+[CITSmart Inventory Connection setup](/en-us/citsmart-platform-7/processes/event/inventory-connection-setup.html)
 
-[CITSmart Inventory Connection setup](/en-us/citsmart-platform-7/processes/event/notifications-recipients.html)
+[Notification recipients setup](/en-us/citsmart-platform-7/processes/event/notifications-recipients.html)
 
 [Event management](/en-us/citsmart-platform-7/processes/event/event-management.html)
 

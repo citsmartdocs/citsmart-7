@@ -11,7 +11,7 @@ Preconditions
 -------------
 
 1.  Have the portfolio with the services registered (see knowledge [Service
-    portfolio registration][1]), [Service registration][2]);
+    portfolio registration][1], [Service registration][2]);
 
 2.  Have the group registered (see knowledge [Group registration and search][3]);
 
@@ -90,7 +90,7 @@ Configuring service attributes
 
 -   **Incidents**: allows to record the service incident activities;
 
--   **Procedure**:*it allows registering the procedures for the service, which
+-   **Procedure**: it allows registering the procedures for the service, which
     will be used by the continuity management to trigger and control the service
     restoration activities;
 
@@ -336,7 +336,7 @@ Linking business process to service
     functionality: **ID**, **Business Process Name**, and **Customer**;
 
 2.  There are action buttons available to the user for each item in the listing,
-    they are: *View* and* Delete*;
+    they are: *View* and *Delete*;
 
    ![figure](images/configure-5.png)
    
@@ -375,7 +375,7 @@ Linking business owner o service
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Name.
+    - Name.
 
 ### Items list
 
@@ -498,22 +498,21 @@ Creating the service map design
     in the "Design" stage. In this design is defined what the service needs so
     that it can meet the needs of the business.
 
-   !!! info "IMPORTANT"
+    !!! info "IMPORTANT"
 
-     To create the service map design, the Support/Technical Services must
-     already be defined.
+        To create the service map design, the Support/Technical Services must already be defined.
 
 ### How to access
 
 1.  Click **Service Map**. After that, the respective map for creating the
     service map will be displayed, as shown in the figure below:
 
-   ![figure](images/configure-9.png)
+    ![figure](images/configure-9.png)
    
-   **Figure 9 - Map creation screen of services map**
+    **Figure 9 - Map creation screen of services map**
 
 2.  Design the service map using the **Support Services** icons to represent the
-    support/technical services and the **Configuration Items**icons to represent
+    support/technical services and the **Configuration Items** icons to represent
     the CIs. Follow the guidelines below:
 
 -   Choose an icon to represent the support/technical service, click and drag it
@@ -653,7 +652,7 @@ Linking contracts to the service
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Contract Number.
+    - Contract Number.
 
 ### Items list
 
@@ -664,19 +663,17 @@ Linking contracts to the service
 2.  There are action buttons available to the user for each item in the listing,
     they are: *Edit*, *Unlink* and *Advance*;
 
-   ![figure](images/configure-14.png)
+    ![figure](images/configure-14.png)
    
-   **Figure 14 - Service contract link screen**
+    **Figure 14 - Service contract link screen**
 
 3.  Click the *Link Contract* button. Once this is done, the contract search
     screen will be displayed.
 
-   !!! info "IMPORTANT"
+    !!! info "IMPORTANT"
 
-      Only contracts of the type "contract" will be made available to link to
-      the business/IT service and only contracts of the type "support contract"
-      and "operational level agreement" to link to the support/technical
-      service. 
+        Only contracts of the type "contract" will be made available to link to the business/IT service and only contracts of 
+        the type "support contract" and "operational level agreement" to link to the support/technical service. 
 
 4.  Perform contract search. After that, just select the one to make the link
     successfully;
@@ -712,11 +709,11 @@ Liking it owners to service
     in the standard feature listing, making it easier to locate the desired
     items:
 
--   Name;
+    - Name;
 
--   ID;
+    - ID;
 
--   Status.
+    - Status.
 
 ### Items list
 
@@ -727,9 +724,9 @@ Liking it owners to service
 2.  There is one action button available to the user in relation to each listing
     item, it is: *Unlink*;
 
-   ![figure](images/configure-16.png)
+    ![figure](images/configure-16.png)
    
-   **Figure 15 -Stakeholders link to service screen**
+    **Figure 15 -Stakeholders link to service screen**
 
 3.  If the "IT owner" is a user, click the *Link Users* button. Once this is
     done, the user search screen will be displayed. Perform the search, select
@@ -759,7 +756,7 @@ Linking knowledge to service
     in the standard feature listing, making it easier to locate the desired
     items:
 
--   Title.
+    - Title.
 
 ### Items list
 
@@ -770,14 +767,13 @@ Linking knowledge to service
 2.  There is one action buttons available to the user in relation to each item
     in the listing, it is: *Unlink*.
 
-   ![figure](images/configure-16.png)
+    ![figure](images/configure-16.png)
    
-   **Figure 16 - Service link screen**
+    **Figure 16 - Service link screen**
 
-   !!! note "NOTE"
+    !!! note "NOTE"
 
-       If the service is available in the Smart Portal, the knowledge related to
-       it will also be displayed in the Smart Portal.
+        If the service is available in the Smart Portal, the knowledge related to it will also be displayed in the Smart Portal.
 
 3.  Click the *Link Knowledge* button. Once this is done, the knowledge search
     screen will be displayed. Perform the search, select the desired knowledge
@@ -801,7 +797,7 @@ Linking skills to service
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Skill (Capability) Name.
+    - Skill (Capability) Name.
 
 ### Items list
 
@@ -812,9 +808,9 @@ Linking skills to service
 2.  There are action buttons available to the user for each item in the listing,
     they are: *Edit* and *Unlink*;
 
-   ![figure](images/configure-17.png)
+    ![figure](images/configure-17.png)
    
-   **Figure 17 - Service capability link screen**
+    **Figure 17 - Service capability link screen**
 
 3.  Click the *Link Capability* button. Once this is done, the skill search
     screen will be displayed. Perform the search, select the skills you want,
@@ -845,7 +841,7 @@ The procedure will be used at the time of disasters related to the service.
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Service Name.
+    - Service Name.
 
 ### Items list
 
@@ -865,9 +861,9 @@ The procedure will be used at the time of disasters related to the service.
 1.  Click the *New Procedure* button. Once this is done, the Procedure Record
     screen will be displayed, as shown in the figure below:
 
-   ![figure](images/configure-19.png)
+    ![figure](images/configure-19.png)
    
-   **Figure 19 - Service procedure record screen**
+    **Figure 19 - Service procedure record screen**
 
 2.  Fill in the fields as shown below:
 
@@ -939,7 +935,7 @@ Administration of service assessments
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Date.
+    - Date.
 
 ### Items list
 
@@ -951,9 +947,9 @@ Administration of service assessments
 2.  There are action buttons available to the user for each item in the listing,
     they are: *Delete Evaluation* and *Approve Rating* *(Evaluation)*;
 
-   ![figure](images/configure-20.png)
+    ![figure](images/configure-20.png)
    
-   **Figure 20 - Assessment management screen**
+    **Figure 20 - Assessment management screen**
 
 3.  Enter the service evaluation registration period and click
     the *Search* button. After this, the evaluations (note and comment) of the

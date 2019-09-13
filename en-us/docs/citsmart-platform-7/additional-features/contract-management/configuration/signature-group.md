@@ -21,7 +21,7 @@ Filters
 
 1.  The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier to find the desired items:
 
-- Title
+   - Title
 
 2. On the Group Subscription screen, click on the Search Group Subscription tab. The search screen will be displayed as illustrated on the image below:
 
@@ -59,15 +59,18 @@ Filling in the registration fields
 
 2.  Fill out the fields as instructed below:
 
-- Title: insert a title for the group signature;
-- Signature: selecione the signature;
-- Order by: insert an order the signature will be displayed on the report signature board ;
-- Click on the Add button to add a signature to the group. According to the signature board featured on the service order report, many signatures can be added to each group.
+   - Title: insert a title for the group signature;
+   
+   - Signature: selecione the signature;
+   
+   - Order by: insert an order the signature will be displayed on the report signature board ;
+   
+   - Click on the Add button to add a signature to the group. According to the signature board featured on the service order report, many signatures can be added to each group.
 
 
-    ![figure](images/group-4.png)
+   ![figure](images/group-4.png)
     
-    **Figure 4 - Signatures added to the group**
+   **Figure 4 - Signatures added to the group**
 
 4.  Click on the Save the button to confirm the entry, at which date, time and user will automatically be stored for a future audit..
 

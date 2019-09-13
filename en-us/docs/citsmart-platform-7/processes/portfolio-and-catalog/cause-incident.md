@@ -36,7 +36,7 @@ Items list
 
 1.  The following cadastral fields are available to the user to facilitate the
     identification of the desired items in the standard feature
-    listing: **Cause **and** Start Date.**
+    listing: **Cause**and **Start Date**.
 
    ![figure](images/cause-incident-2.png)
    

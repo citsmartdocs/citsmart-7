@@ -10,7 +10,7 @@ Preconditions
 -------------
 
 1.  Have the portfolio with the services registered (see knowledge [Service
-    portfolio registration][1], [Service registration][2]);
+    portfolio registration](en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html), [Service registration][2]);
 
 2.  Have the group registered (see knowledge [Group registration and
     search][3]);
@@ -57,7 +57,7 @@ Registering service request activities
 2.  There are action buttons available to the user for each item in the listing,
     they are: *Edit* and *Unlink*.
 
-![Criar](images/activity-1.png)
+![Criar](images/activity.img1.jpg)
 
 **Figure 1 - Service request activity screen**
 
@@ -67,7 +67,7 @@ Registering service request activities
     Request Activity Master screen will be displayed, as shown in the figure
     below:
 
-   ![Criar](images/activity-2.png)
+   ![Criar](images/activity.img2.jpg)
    
    **Figure 2 - Request activity registration screen**
 
@@ -119,7 +119,7 @@ Registering service request activities
 3.  If you want to make the request activity available in Smart Portal and/or
     Chat for request, click the **Presentation** tab;
 
-   ![Criar](images/activity-3.png)
+   ![Criar](images/activity.img3.jpg)
    
    **Figure 3 - Availability of request activity in the portal and/or chat**
 
@@ -151,12 +151,12 @@ Registering service request activities
 -   **Show final date**: define whether the service request open by the Service
     Portal will be provided the date and time limit information;
 
-   !!! note "NOTE"
+    !!! note "NOTE"
 
-     In order for the deadline to be displayed, an SLA must be registered for
-     the activity (see knowledge [Service contract attributes configuration][1]),
-     in the section Linking request activities to contract). The parameters "Show
-     priority" and "Show final date" have their default value equal to "Yes".
+        In order for the deadline to be displayed, an SLA must be registered for
+        the activity (see knowledge Service contract attributes configuration, available at the end of this document)
+        in the section Linking request activities to contract). The parameters "Show
+        priority" and "Show final date" have their default value equal to "Yes".
 
 -   **Name**: enter the name of the request activity for display on the portal
     and/or chat;
@@ -167,23 +167,22 @@ Registering service request activities
 -   Click the *Select an Image* button and a screen will appear to select an
     image that will represent the request activity:
 
-   ![Criar](images/activity-4.png)
+   ![Criar](images/activity.img4.jpg)
    
    **Figure 4 - Image selection screen**
 
 4.  Link the executor group, which will have access to the request activity in
     the portal and/or chat:
 
-   !!! note "NOTE"
+    !!! note "NOTE"
 
-      Configuring the group access permission to view the request activity in
-      the portal will only be applied if the parameter "Enable access permission
-     for user groups in the portal" is enabled.
+        Configuring the group access permission to view the request activity in the portal will only be applied if 
+        the parameter "Enable access permission for user groups in the portal" is enabled.
 
 -   Click on the **Access Permission** tab, the link screen of the groups will
     be displayed, as shown in the figure below:
 
-   ![Criar](images/activity-5.png)
+   ![Criar](images/activity.img5.jpg)
    
    **Figure 5 - Access by group permission**
 
@@ -191,10 +190,10 @@ Registering service request activities
     search, select the groups and click on the *Add* button to perform the
     operation;
 
-   !!! info "IMPORTANT"
+    !!! info "IMPORTANT"
 
-      If one of the 3 languages on this tab is left blank, the information will
-      be filled out with the information contained in the "Presentation" tab.
+        If one of the 3 languages on this tab is left blank, the information will be filled out with the information c
+        contained in the "Presentation" tab.
 
 -   To unlink the group, simply click the *Unlink*.
 
@@ -223,20 +222,19 @@ Registering service request activities
     languages (Portuguese/English/Spanish), click on the Multi-languages tab as
     shown below:
 
-   !!! info "IMPORTANT"
+    !!! info "IMPORTANT"
 
-      The Multi-languages field will only appear in the order activity
-      edit/registration if it has a YES option in the Main tab of the chosen
-      portfolio.
+        The Multi-languages field will only appear in the order activity edit/registration if it has a YES option in the
+        Main tab of the chosen portfolio.
 
-   ![Criar](images/activity-6.png)
+   ![Criar](images/activity.img6.jpg)
    
    **Figure 6 - Request activity internationalization screen**
 
 !!! note "NOTE"
 
-    If one of the 3 languages on this tab is left blank, the information will
-    be filled out with the information contained in the "Presentation" tab.
+    If one of the 3 languages on this tab is left blank, the information will be filled out with the information contained in 
+    the "Presentation" tab.
 
 Registering service incident activities
 ---------------------------------------
@@ -271,7 +269,7 @@ Registering service incident activities
 2.  There are action buttons available to the user for each item in the listing,
     they are: *Edit* and *Unlink*.
 
-![Criar](images/activity-7.png)
+![Criar](images/activity.img7.jpg)
 
 **Figure 7 - Service incident activity screen**
 
@@ -280,7 +278,7 @@ Registering service incident activities
 1.  Click the *New Incident* button. Once this is done, the **Incident Activity
     Master** screen will be displayed, as shown in the figure below:
 
-   ![Criar](images/activity-8.png)
+   ![Criar](images/activity.img8.jpg)
    
    **Figure 8 - Incident activity master record screen**
 
@@ -331,7 +329,7 @@ Registering service incident activities
 3.  If you want to make available the incident activity in the Smart Portal
     and/or Chat for request, click the **Presentation** tab;
 
-   ![Criar](images/activity-9.png)
+   ![Criar](images/activity.img9.jpg)
    
    **Figure 9 - Availability of incident activity in portal and / or chat**
 
@@ -364,12 +362,11 @@ Registering service incident activities
 -   **Show final date**: define whether the service request open by the Service
     Portal will be provided the date and time limit information ;
 
-   !!! note "NOTE"
+    !!! note "NOTE"
 
-       In order for the deadline to be displayed, an SLA must be registered for
-       the activity (see knowledge [Service contract attributes configuration][7]),
-       in the section Linking request activities to contract). The parameters "Show
-       priority" and "Show final date" have their default value equal to "Yes".
+        In order for the deadline to be displayed, an SLA must be registered for the activity (see knowledge
+        Service contract attributes configuration, available at the end of this document), in the section Linking request 
+        activities to contract). The parameters "Show priority" and "Show final date" have their default value equal to "Yes".
 
 -   **Name**: enter the name of the incident activity for viewing on the portal
     and/or chat;
@@ -380,23 +377,22 @@ Registering service incident activities
 -   Click the *Select an image* button and a screen will appear to select an
     image that will represent the incident activity:
 
-   ![Criar](images/activity-10.png)
+   ![Criar](images/activity.img10.jpg)
    
    **Figure 10 - Image selection screen**
 
 4.  Link the executor group, which will have access to incident activity in the
     portal and/or chat:
 
-   !!! note "NOTE"
+    !!! note "NOTE"
 
-       Setting the group access permission to view the service activity in the
-       portal will only be applied if the parameter "Enable access permission for
-      user groups in the portal" is enabled.
+        Setting the group access permission to view the service activity in the portal will only be applied if the 
+        parameter "Enable access permission for user groups in the portal" is enabled.
 
 -   Click on the **Access Permission** tab, the link screen of the groups will
     be displayed, as shown in the figure below:
 
-   ![Criar](images/activity-11.png)
+   ![Criar](images/activity.img11.jpg)
    
    **Figure 11 - Access by group permission**
 
@@ -404,10 +400,9 @@ Registering service incident activities
     search, select the groups and click on the *Add* button to perform the
     operation;
 
-   !!! info "IMPORTANT"
+    !!! info "IMPORTANT"
 
-     In the group search screen, only the groups that have been linked in the
-     service portfolio record will be listed.
+        In the group search screen, only the groups that have been linked in the service portfolio record will be listed.
 
 5.  After entering the required data for the incident activity, click
     the *Save* button to register. Once this is done, the incident activity will
@@ -429,13 +424,13 @@ Registering service incident activities
     survey and select the incident activity to successfully complete the link.
 
 
-[1]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+[Service contract attributes configuration]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
 [2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/services.html
 [3]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html
 [4]:/en-us/citsmart-platform-7/processes/configuration/IC-management.html
 [5]:/en-us/citsmart-platform-7/plataform-administration/time/create-calendar.html
 [6]:/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
-[7]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/contract-attributes.html
+[Service contract attributes configuration]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/contract-attributes.html
 
 !!! tip "About"
 

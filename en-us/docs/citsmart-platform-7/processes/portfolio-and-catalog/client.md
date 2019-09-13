@@ -27,18 +27,18 @@ Filters
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   Company;
+    - Company;
 
--   ID;
+    - ID;
 
--   Status.
+    - Status.
 
 2.  In the **Customer** screen, click on the **Search** tab, the **Customer
     Search** screen will be displayed as illustrated in the image below:
 
-   ![figure](images/client-1.png)
+    ![figure](images/client-1.png)
    
-   **Figure 1 - Customer search screen**
+    **Figure 1 - Customer search screen**
 
 3.  Perform a customer search. Set the filters as needed:
 
