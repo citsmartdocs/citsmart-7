@@ -3,7 +3,7 @@ Description: Report generation – Contract management
 
 # Report generation – Contract management
 
-Generating tsus usage report
+Generating TSUS usage report
 ----------------------------
 
 *This report is intended to present information on the use of TSU in contracts*.
