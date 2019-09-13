@@ -119,9 +119,9 @@ Route settings
 
 !!! info "IMPORTANT"
 
-    After the recording, a notification will be sent to the technician, where
-    the technician can verify the request that will be answered by the CITSmart
-    Enterprise ITSM Mobile application.
+     After the recording, a notification will be sent to the technician, where
+     the technician can verify the request that will be answered by the CITSmart
+     Enterprise ITSM Mobile application.
 
 
 !!! tip "About"
