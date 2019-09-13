@@ -210,7 +210,7 @@ window for a new request to be created;
 See also
 -----------
 
-[Parameterization rules - Telephony](1).
+[Parameterization rules - Telephony][1].
 
 
 [1]:/en-us/citsmart-platform-7/plataform-administration/parameters-list/parametrization-telephony.html
