@@ -22,11 +22,11 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Problem Number.
+    - Problem Number.
 
-![figure](images/resolve-1.png)
+    ![figure](images/resolve-1.png)
 
-**Figure 1 - Filters screen**
+    **Figure 1 - Filters screen**
 
 Items list
 ----------
@@ -53,18 +53,17 @@ to the Change Management process. If a change is not required, take the
 necessary actions to solve the problem and recover the service. Record the
 complete details of the solution and actions in the Problem.
 
-   !!! note "NOTE"
+!!! note "NOTE"
 
-       The member of the group designated for resolution must capture the problem
-       and start the activity.
+    The member of the group designated for resolution must capture the problem and start the activity.
 
 1.  On the Management tab, locate the problem record that you want to log the
     resolution to, click the *Action* button and select the *Start/Execute
     task* option, as shown in the image below:
 
-   ![figure](images/resolve-3.png)
+    ![figure](images/resolve-3.png)
    
-   **Figure 3 - Problem management screen**
+    **Figure 3 - Problem management screen**
 
 2.  The **Problem Registration** screen with the filled fields for the selected
     problem will be displayed. In the **Closing** table, record the necessary
@@ -77,11 +76,11 @@ complete details of the solution and actions in the Problem.
 
 -   Record the information about the solution that was performed:
 
--   **Cause**: select the cause of the problem;
+    - **Cause**: select the cause of the problem;
 
--   **Closure**: enter the details of the solution found for the problem.
+   -  **Closure**: enter the details of the solution found for the problem.
 
--   **Solution**: select the problem solution category, that is, what was used
+   - **Solution**: select the problem solution category, that is, what was used
     to solve the problem;
 
 -   After recording the problem resolution information, click the *Save and
