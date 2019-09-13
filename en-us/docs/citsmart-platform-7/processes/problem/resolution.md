@@ -78,10 +78,9 @@ complete details of the solution and actions in the Problem.
 
     - **Cause**: select the cause of the problem;
 
-   -  **Closure**: enter the details of the solution found for the problem.
+    - **Closure**: enter the details of the solution found for the problem.
 
-   - **Solution**: select the problem solution category, that is, what was used
-    to solve the problem;
+    - **Solution**: select the problem solution category, that is, what was used to solve the problem;
 
 -   After recording the problem resolution information, click the *Save and
     Forward Flow* button and advance the flow to perform the operation, where
