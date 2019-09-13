@@ -51,9 +51,9 @@ Defining the metrics of the incident management process - Filling in the registr
 
 2.  Fill in the fields as directed below:
 
-   -  In the "**Success**" fields, enter the acceptable value for the business;
+    -  In the "**Success**" fields, enter the acceptable value for the business;
 
-   -  In the "**Warning**" fields, enter the critical value for the business.
+    -  In the "**Warning**" fields, enter the critical value for the business.
 
 3.  After the data is entered, click the *Save* button to perform the operation.
 
