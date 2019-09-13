@@ -23,11 +23,11 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Problem number
+    - Problem number
 
-![figure](images/change-1.png)
+    ![figure](images/change-1.png)
 
-**Figure 1 - Problem search screen**
+    **Figure 1 - Problem search screen**
 
 Items list
 ----------
@@ -52,23 +52,23 @@ Filling in the registration fields
     the *Action* button and select the *Start/Execute task* from it, as shown in
     the figure below:
 
-   ![figure](images/change-3.png)
+    ![figure](images/change-3.png)
    
-   **Figure 3- Action button**
+    **Figure 3- Action button**
 
 2.  The **Problem Log** screen appears, click the **Processes/Options** tab, and
     then click **Changes** in the right corner of the screen, as shown in the
     figure below:
 
-   ![figure](images/change-4.png)
+    ![figure](images/change-4.png)
    
-   **Figure 4 - Selection of changes**
+    **Figure 4 - Selection of changes**
 
 3.  The change relationship screen is displayed;
 
-  ![figure](images/change-5.png)
+    ![figure](images/change-5.png)
   
-  **Figure 5 - Relating change**
+    **Figure 5 - Relating change**
 
 4.  To register a change, click the icon ![figure](images/change-6.png) . The Change Request registration
     screen will be displayed, as shown in the figure below:
