@@ -178,7 +178,7 @@ User logged configuration
 See also
 --------
 
--   [Parameterization rules - Voip][1].
+-   [Parameterization rules - Voip][2].
 
 
 
