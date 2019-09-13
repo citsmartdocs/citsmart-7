@@ -24,14 +24,14 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Service Type Name.
+    - Service Type Name.
 
 2.  On the **Service Type** screen, click the **Service Type Search** tab, the
     respective search screen will be displayed as shown in the figure below:
 
-   ![Criar](images/type-service-1.png)
+    ![Criar](images/type-service-1.png)
    
-   **Figure 1 - Service Type search screen**
+    **Figure 1 - Service Type search screen**
 
 3.  Perform service type search:
 
@@ -49,9 +49,9 @@ Items list
     identification of the desired items in the standard listing of the
     functionality: **Service Type Name**.
 
-   ![Criar](images/type-service-2.png)
+    ![Criar](images/type-service-2.png)
    
-   **Figure 2 - Items screen**
+    **Figure 2 - Items screen**
 
 2.  After searching, select the desired record. Once this is done, you will be
     directed to the registration screen displaying the contents of the selected
@@ -68,13 +68,13 @@ Filling in the registration fields
 1.  The Service Type Master screen will be displayed, as shown in the figure
     below:
 
-   ![Criar](images/type-service-3.png)
+    ![Criar](images/type-service-3.png)
    
-   **Figure 3 - Service Type Master data screen**
+    **Figure 3 - Service Type Master data screen**
 
 2.  Fill in the field as directed below:
 
--   Enter the name of the service type. E.g.: Routine.
+    - Enter the name of the service type. E.g.: Routine.
 
 3.  Click the *Save* button to register, where the date, time and user will be
     saved automatically for a future audit.
