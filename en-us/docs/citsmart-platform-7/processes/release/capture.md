@@ -22,13 +22,13 @@ Filters
 1.  The following filters enable the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Request Number;
+    - Request Number;
 
--   Assigned/Shared.
+    - Assigned/Shared.
 
-![figure](images/capture-1.png)
+    ![figure](images/capture-1.png)
 
-**Figure 1 - Filters screen**
+    **Figure 1 - Filters screen**
 
 Items list
 ----------
@@ -60,9 +60,9 @@ Capturing a release request
     the *Action* button and click on the *Capture Task* option, as indicated on
     the image below:
 
-  ![figure](images/capture-3.png)
+    ![figure](images/capture-3.png)
   
-  **Figure 3 - Release request capture**
+    **Figure 3 - Release request capture**
 
 1.  A message confirming the task capture will be displayed;
 
