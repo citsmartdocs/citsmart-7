@@ -8,28 +8,28 @@ This functionality aims to export the data to facilitate the initial loading of 
 How to access
 -----------
 
-1.  Access the Contract Export feature by navigating through the main menu **Integrated Management > Contract Management > Export Contracts**.
+1. Access the Contract Export feature by navigating through the main menu **Integrated Management > Contract Management > Export Contracts**.
 
 Performing data export
 ----------------------
 
-1.  The Contract Data Export screen will be displayed, as shown in the figure below:
+1. The Contract Data Export screen will be displayed, as shown in the figure below:
 
     ![figure](images/export.png)
     
     **Figure 1 - Data export screen**
 
-2.  Enter the data to be exported:
+2. Enter the data to be exported:
 
-   - Contract: select the contract that will be used as the export basis, if you want to export the data relating to a contract;
+     - Contract: select the contract that will be used as the export basis, if you want to export the data relating to a contract;
    
-   - Groups: select the desired group (s) to export the data;
+     - Groups: select the desired group (s) to export the data;
    
-   - Export units?: define whether to export the unit data;
+     - Export units?: define whether to export the unit data;
    
-   - Export SLA?: define whether the service level agreement data will be exported;
+     - Export SLA?: define whether the service level agreement data will be exported;
    
-   - Export service catalog?: define whether to export service catalog data.
+     - Export service catalog?: define whether to export service catalog data.
 
 3. After the data is entered, click on the Export button;
 
