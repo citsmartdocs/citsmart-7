@@ -96,7 +96,7 @@ complete details of the solution and actions in the Problem.
    
     **Figure 6 - Change guide**
 
-   -   Click on the icon ![figure](images/resolution-7.png) to search for the change that will be made to solve the
+   -   Click on the icon ![figure](images/simb-lupa.jpg) to search for the change that will be made to solve the
     problem;
 
    -   A change search screen will be displayed. Perform the search and select the
