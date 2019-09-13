@@ -26,9 +26,9 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
-  -   Title;
+    -  Title;
 
-  -   Status
+    -  Status
 
 2.  On the Mobile Options Configuration home screen, you can perform the mobile
     options configuration search:
@@ -71,20 +71,20 @@ Filling in the registration fields
 
 2.  Fill in the fields:
 
--   **Title**: fill in the name of the practice to be used (eg NOC);
+    -  **Title**: fill in the name of the practice to be used (eg NOC);
 
--   **Status**: select option "Active";
+    -  **Status**: select option "Active";
 
--   **Description in portuguese**: title of the Menu option to be used in the
+    -  **Description in portuguese**: title of the Menu option to be used in the
     Portuguese language in mobile;
 
--   **Description in english**: title of the Menu option to be used in the
+    -  **Description in english**: title of the Menu option to be used in the
     English language;
 
--   **Description in spanish**: title of the Menu option to be used in the
+    -  **Description in spanish**: title of the Menu option to be used in the
     Spanish language;
 
--   **Menu**: Select the option that best fits the desired functionality.
+    -  **Menu**: Select the option that best fits the desired functionality.
 
 Checking the services portal on the mobile
 ------------------------------------------
