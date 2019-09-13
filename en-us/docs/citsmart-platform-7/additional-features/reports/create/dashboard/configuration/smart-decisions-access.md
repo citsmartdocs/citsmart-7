@@ -56,7 +56,7 @@ Defining the access permission
 
 **Figure 2 - Definition of the type of access**
 
--   Click the *Link Group* button. Once this is done, the group search screen
+   -   Click the *Link Group* button. Once this is done, the group search screen
     will be displayed, search for the group you want, select it and
     click *Add* to make the link.
 
