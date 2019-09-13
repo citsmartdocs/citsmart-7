@@ -8,7 +8,7 @@ applications after providing their credentials (such as username and password) o
 
 !!! info "IMPORTANT"
 
-    This version (3.0) is only applicable for ITSM solution, since GRP solutions must use [version 5.0](1).
+    This version (3.0) is only applicable for ITSM solution, since GRP solutions must use [version 5.0][1].
 
 Download
 -------
