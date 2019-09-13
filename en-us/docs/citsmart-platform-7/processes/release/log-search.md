@@ -23,42 +23,38 @@ Filters
 1.  The following filters enable the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
-   -   **Opening Period**: insert the release request entry period;
+    - **Opening Period**: insert the release request entry period;
 
-   -   **Closing Period**: insert the release request closing period to search for
-    requests that were closed in the given period;
+    - **Closing Period**: insert the release request closing period to search for requests that were closed in the given period;
 
-   -   **Number**: enter the identification number of the release request, to
+    - **Number**: enter the identification number of the release request, to
     search for a specific request;
 
-   -   **Contract**: insert the contract to look for related release requests;
+    - **Contract**: insert the contract to look for related release requests;
 
-   -   **Order By**: define the order that the requests will be presented;
+    - **Order By**: define the order that the requests will be presented;
 
-   -   **Unit**: insert the intended unit to check the release requests related to
-    it;
+    - **Unit**: insert the intended unit to check the release requests related to it;
 
-   -   **User**: insert the employee which will verify the change releases
-    requested by them;
+    - **User**: insert the employee which will verify the change releases requested by them;
 
-   -   **Situation**: insert a situation to check for related release requests;
+    - **Situation**: insert a situation to check for related release requests;
 
-   -   **Priority**: insert the priority to check for related release requests;
+    - **Priority**: insert the priority to check for related release requests;
 
-   -   **Solution Group**: insert the perfrormer group to check the release
+    - **Solution Group**: insert the perfrormer group to check the release
     requests that were forwarded to it;
 
-   -   **Would you like to see the description on the report?**: if you want the
-    description of the release request to appear in the report, check this
-    option.
+    - **Would you like to see the description on the report?**: if you want the description of the release request to appear in 
+    the report, check this option.
 
 2.  To perform the search: access the functionality, soon after the **Release
     Request Search** screen will be displayed, where necessary search filters
     can be defined, according to the figure below:
 
-   ![figure](images/log-1.png)
+    ![figure](images/log-1.png)
    
-   **Figure** **1 - Release request search screen**
+    **Figure 1 - Release request search screen**
 
 3.  After the filters are set, click the *Search* button. Afterwards, the
     release requests will be listed, according to the chosen filters;
@@ -82,9 +78,9 @@ Items list
     the listing, they are: *Search Ticket history*, *View* and *Occurrence
     Release*;
 
-   ![figure](images/log-2.png)
+    ![figure](images/log-2.png)
    
-   **Figure 2 - Release request listing screen**
+    **Figure 2 - Release request listing screen**
 
 3.  Next to each release request entry, there are icons which can be used to
     check the releases' history, reopen the release request and view its
