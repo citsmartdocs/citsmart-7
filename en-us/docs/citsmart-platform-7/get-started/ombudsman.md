@@ -11,23 +11,23 @@ processes and professionals based on the services performed, possible deviations
 Preconditions
 ------------------
 
-1. At least one Portfolio must have been registered with at least one linked Service (see knowledge [Service portfolio registration](1) and [Service registration](2));
+1. At least one Portfolio must have been registered with at least one linked Service (see knowledge [Service portfolio registration][1] and [Service registration][2]);
 
-2. At least one Service Level Agreement must be registered (see knowledge [General service level agreement registration and search](3));
+2. At least one Service Level Agreement must be registered (see knowledge [General service level agreement registration and search][3]);
 
 3. All typical prerequisite for creating new Activity within a Service in a Portfolio must have been met:
 
-    - Notification e-mail template of opening/finalization/occurrences (see knowledge [Notification via e-mail registration and search](4))
+    - Notification e-mail template of opening/finalization/occurrences (see knowledge [Notification via e-mail registration and search][4])
 
-    - Calendar (see knowledge [Calendar Registration and Search](5))
+    - Calendar (see knowledge [Calendar Registration and Search][5])
 
-    - Time attendance (see knowledge [Time attendance registration and search](6))
+    - Time attendance (see knowledge [Time attendance registration and search][6])
 
-    - User group (executor) (see knowledge [Group registration and search)](7))
+    - User group (executor) (see knowledge [Group registration and search)]([7])
 
-    - Flow (see knowledge [Workflow maintenance](8))
+    - Flow (see knowledge [Workflow maintenance][8])
 
-    - Contract (see knowledge [Contract registration and search](9))
+    - Contract (see knowledge [Contract registration and search][9])
 
 4. There must be a registered form that will address the following reasons:
 
@@ -37,11 +37,11 @@ Preconditions
 
     - Suggestion/Compliment;
 
-5. The template must be configured to open the call (see knowledge [Ticket management (services)](10));
+5. The template must be configured to open the call (see knowledge [Ticket management (services)][10]);
 
-6. There must be at least one specific Webservice Operation registered for the opening of calls (e.g.: create_request) (see knowledge [Web service operations registration and search](11));
+6. There must be at least one specific Webservice Operation registered for the opening of calls (e.g.: create_request) (see knowledge [Web service operations registration and search][11]);
 
-7. At least one Source must be registered (Contact Origin), registration available on the Tickets menu. (see knowledge [Ticket source registration and search](12)).
+7. At least one Source must be registered (Contact Origin), registration available on the Tickets menu. (see knowledge [Ticket source registration and search][12]).
 
 Steps to setup the ombudsman
 ---------------------------------
@@ -90,11 +90,10 @@ serve to attend the occurrences, one for each type of occurrence, you may use th
     ![Contact](images/ouvidoria.img1.jpg)
     
     **Figure 1 - Contact information**
-
+    
     !!! note "NOTE"
 
-        The user chosen for parameter 348 (for anonymous occurrences) must have creation permission in the flow and permission to 
-        work on the Contract used to attend the ombudsman occurrences.
+         The user chosen for parameter 348 (for anonymous occurrences) must have creation permission in the flow and permission            to work on the Contract used to attend the ombudsman occurrences.
 
 7. Setup the parameters required by the Web Service that will be used to open calls, that is, to create a Ticket of Attendance 
 for Ombudsman Occurrences (**System > Web Service > Web Service Operation** option). Link on the same screen the Web Service to 
@@ -188,7 +187,7 @@ the Web Service, it is sufficient for the attendant to reclassify to the appropr
 [8]:/en-us/citsmart-platform-7/workflow/workflow-management.html
 [9]:/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
 [10]:/en-us/citsmart-platform-7/processes/tickets/ticket-management.html
-[11]:#
+[11]:/en-us/citsmart-platform-7/get-started/webservice-operation.html
 [12]:/en-us/citsmart-platform-7/processes/tickets/register-ticket-source.html
 
 
