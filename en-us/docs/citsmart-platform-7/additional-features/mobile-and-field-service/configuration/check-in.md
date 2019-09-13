@@ -24,7 +24,7 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Name
+    -  Name
 
 ![Criar](images/checkin-1.png)
 
@@ -32,11 +32,11 @@ Filters
 
 2.  Perform a checkin denied reason search;
 
--   Insert the name of the intended checkin denied reason and click on
+   -  Insert the name of the intended checkin denied reason and click on
     the *Search* button. Afterwards, the checkin denied reason entry will be
     displayed according to the description provided.
 
--   To list all checkin denied reasons, just click directly on
+   -  To list all checkin denied reasons, just click directly on
     the *Search* button, if needed.
 
 Items list
