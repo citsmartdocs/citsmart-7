@@ -24,9 +24,9 @@ Filters
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   Satisfaction degree;
+    -  Satisfaction degree;
 
--   Language.
+    -  Language.
 
 2.  On the **Satisfaction Degree Record** screen, click on the *Search* tab, the
     respective search screen will be displayed as shown in the figure below:
@@ -37,11 +37,11 @@ Filters
 
 3.  Conduct the search on the degree of satisfaction;
 
--   Enter the description of the degree of satisfaction, select the language and
+   -   Enter the description of the degree of satisfaction, select the language and
     click the *Search* button. After that, the record will be displayed
     according to the data entered;
 
--   If you want to list all the records, just click directly on
+   -   If you want to list all the records, just click directly on
     the *Search* button.
 
 Items list
@@ -74,12 +74,12 @@ Filling in the registration fields
 
 2.  Fill in the fields as directed below:
 
--   **Satisfaction degree**: define the degree of satisfaction of the service
+   -   **Satisfaction degree**: define the degree of satisfaction of the service
     attendance;
 
--   **Evaluate**: report evaluation regarding the degree of satisfaction;
+   -   **Evaluate**: report evaluation regarding the degree of satisfaction;
 
--   **Language**: enter the system language.
+   -   **Language**: enter the system language.
 
 3.  After completing the fields, click the *Save* button to register, where the
     date, time and user will be saved automatically for a future audit.
