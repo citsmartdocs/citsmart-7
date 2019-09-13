@@ -23,7 +23,7 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Web Service's Filter
+   -  Web Service's Filter
 
 ![Pesquisa](images/web-service.img1.jpg)
 
@@ -85,13 +85,13 @@ Performing web services configuration
 
 **Figure 5 - Citsmart mobile web services configuration screen**
 
-1.  In the Link Groups tab, link the activity executing group to CITSmart Mobile
+2.  In the Link Groups tab, link the activity executing group to CITSmart Mobile
     Web Services.
 
-2.  Select the desired group. After this, the group will be linked to the Web
+3.  Select the desired group. After this, the group will be linked to the Web
     Services of CITSmart Mobile;
 
-3.  If you want to remove the group link with web services, just click on the
+4.  If you want to remove the group link with web services, just click on the
     icon ![Pesquisa](images/simb-menos.jpg).
 
 !!! warning "ATTENTION"
