@@ -44,16 +44,16 @@ Filling in the registration fields
     the *New* button (as shown in the previous figure). The **Project Entry
     Screen** will be displayed, as illustrated on the image below:
 
-![Listagem](images/tem-proj.img2.jpg)
+    ![Listagem](images/tem-proj.img2.jpg)
 
-**Figure 2 - Project entry screen**
+    **Figure 2 - Project entry screen**
 
 2. Fill in the corresponding fields. Afterwards, the project template entry
     screen will be displayed, as illustrated on the image below:
 
-![Listagem](images/tem-proj.img3.jpg)
+    ![Listagem](images/tem-proj.img3.jpg)
 
-**Figure 3 – Project template creation screen**
+    **Figure 3 – Project template creation screen**
 
 3. Name the project template. Click on the *Save* button to confirm the entry.
     Then, the template will be successfully created.
