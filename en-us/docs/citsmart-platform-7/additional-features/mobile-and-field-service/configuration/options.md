@@ -17,7 +17,7 @@ Preconditions
 
 1.  Have the CITSmart Enterprise ITSM Mobile application installed on the mobile
     device (see knowledge [CITSmart ITSM Enterprise mobile application user
-    guide (iOS)][1]), [CITSmart Enterprise ITSM Mobile application user guide
+    guide (iOS)][1], [CITSmart Enterprise ITSM Mobile application user guide
     (Android)][2]);
 
 Filters
@@ -49,9 +49,9 @@ Items list
 2.  There are action buttons available to the user in relation to each item in
     the listing, they are: *Edit* and *Delete*.
 
-![Criar](images/options-2.png)
+    ![Criar](images/options-2.png)
 
-**Figure 2 - Mobile options configuration listing screen**
+    **Figure 2 - Mobile options configuration listing screen**
 
 3.  To change the registry data of Mobile Options Configuration, simply modify
     the information of the desired fields and click the *Save* button to save
@@ -65,9 +65,9 @@ Filling in the registration fields
     button (as shown in figure 2), then it will be displayed the following
     screen :
 
-![Criar](images/options-3.png)
+    ![Criar](images/options-3.png)
 
-**Figure 3 - Mobile options configuration screen**
+    **Figure 3 - Mobile options configuration screen**
 
 2.  Fill in the fields:
 
@@ -104,5 +104,4 @@ Checking the services portal on the mobile
     <b>Updated:</b>09/10/2019 – Anna Martins
     
 [1]:/en-us/citsmart-platform-7/additional-features/mobile-and-field-service/apps/ios.html
-
 [2]:/en-us/citsmart-platform-7/additional-features/mobile-and-field-service/apps/android.html
