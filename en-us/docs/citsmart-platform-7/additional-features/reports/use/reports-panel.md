@@ -16,9 +16,9 @@ Selecting information group
 1.  The **Graphs and Reports Panel** screen is displayed, in which graphs and
     reports can be generated according to the chosen filters.
 
-![Gráficos](images/painel.img1.jpg)
+    ![Gráficos](images/painel.img1.jpg)
 
-**Figure 1 - Graphs and reports panel**
+    **Figure 1 - Graphs and reports panel**
 
 2.  Select the reporting group for the report:
 
@@ -116,9 +116,9 @@ Incident and request capture performance (closed)
    -   The report will be presented according to the defined filters, according to
     the example shown in the figure below:
 
-![Gráficos](images/painel.img5.jpg)
+   ![Gráficos](images/painel.img5.jpg)
 
-**Figure 5 - SLA Control Chart**
+   **Figure 5 - SLA Control Chart**
 
    -   The Incidents and Requests Capture report shows the time taken to capture
     closed requests. The capture time is the time elapsed between the beginning
@@ -291,9 +291,9 @@ On the **Chart and Report Panel** screen, select the **Changes** information
 group. The graphs and reports in the group will be presented for their
 generation, as shown in the figure below:
 
-![Gráficos](images/painel.img12.jpg)
+   ![Gráficos](images/painel.img12.jpg)
 
-**Figure 12 - Changes**
+   **Figure 12 - Changes**
 
 !!! note "NOTE"
 
@@ -347,9 +347,9 @@ On the **Chart and Report Panel** screen, select the **Change
 Request** information group. The graphs and reports in the group will be
 presented for their generation, as shown in the figure below:
 
-![Gráficos](images/painel.img15.jpg)
+   ![Gráficos](images/painel.img15.jpg)
 
-**Figure 15 - Request for change**
+   **Figure 15 - Request for change**
 
 !!! note "NOTE"
 
