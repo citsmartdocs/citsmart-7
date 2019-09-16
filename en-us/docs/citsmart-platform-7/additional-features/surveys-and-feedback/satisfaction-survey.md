@@ -51,9 +51,9 @@ Items list
     to identify the desired items in the standard feature
     listing: **Satisfaction degree and ID**.
 
-![Criar](images/satisfaction-2.png)
+    ![Criar](images/satisfaction-2.png)
 
-**Figure 2 - Satisfaction degree list screen**
+    **Figure 2 - Satisfaction degree list screen**
 
 2.  After searching, select the desired record. Once this is done, it will be
     directed to the registration screen displaying the contents of the selected
@@ -68,9 +68,9 @@ Filling in the registration fields
 1.  The **Satisfaction Level Registration** screen will be displayed, as shown
     in the figure below:
 
-![Criar](images/satisfaction-3.png)
+    ![Criar](images/satisfaction-3.png)
 
-**Figure 3 - Satisfaction degree registrationn screen**
+    **Figure 3 - Satisfaction degree registrationn screen**
 
 2.  Fill in the fields as directed below:
 
