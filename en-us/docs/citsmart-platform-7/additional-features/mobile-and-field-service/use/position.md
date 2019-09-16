@@ -59,9 +59,9 @@ Verifying the position of attendants
     in the following figure. In this screen, you can see the location of the
     technician (s) on the map, according to the filters;
 
-![Criar](images/position-2.png)
+    ![Criar](images/position-2.png)
 
-**Figure 2 - Technicians positioning screen**
+    **Figure 2 - Technicians positioning screen**
 
 2. Set the filters as you need them:
 
@@ -83,9 +83,9 @@ Verifying the position of attendants
     location of the technicians will be displayed on the map, as shown in the
     figure below:
 
-![Criar](images/position-3.png)
+    ![Criar](images/position-3.png)
 
-**Figure 3 - Positioning visualization (location) of field technicians**
+    **Figure 3 - Positioning visualization (location) of field technicians**
 
 4.  Click on the location of the technician to verify the information regarding
     the fulfillment of the service request.
