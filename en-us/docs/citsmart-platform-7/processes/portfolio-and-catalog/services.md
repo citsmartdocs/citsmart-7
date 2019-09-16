@@ -92,14 +92,14 @@ Registering business service
     -  **Service Phase**: select the phase of the service;
 
         - **Define**: this stage indicates that the service is on startup. At this stage, the collection of information on
-        all existing and proposed services, the definition of new services, business cases and the validation of the
-        portfolio data begins.
+           all existing and proposed services, the definition of new services, business cases and the validation of the
+           portfolio data begins.
 
         - **Analyze**: this phase indicates that the service is being analyzed. At this stage it is analyzed whether the service 
-        will give return to the business and we make a balance between supply and demand. Also identifying what service 
-        represents for the business. In this activity we will make a preliminary macro survey of what resources will be used by 
-        these services: people, hardware, software, training, etc. When this option is selected, fields will be displayed to be 
-        filled, as shown in the figure below:
+          will give return to the business and we make a balance between supply and demand. Also identifying what service 
+          represents for the business. In this activity we will make a preliminary macro survey of what resources will be used by 
+          these services: people, hardware, software, training, etc. When this option is selected, fields will be displayed to be 
+          filled, as shown in the figure below:
 
     ![figure](images/service-5.png)
    
@@ -260,7 +260,7 @@ Linking with surveys
 
 By registering a service, you can link it to previously registered surveys.
 
-!!! Abstract "TIPS"
+!!! Abstract "KNOW MORE"
 
      For more information on how to register a survey, see
      knowledge [Satisfaction survey registration and
