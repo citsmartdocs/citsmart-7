@@ -40,21 +40,21 @@ Filters
     in the standard feature listing, making it easier to locate the desired
     items as shown in the figure below:
 
-   -   Contact number.
+    -  Contact number.
 
 2.  On the **Contracts** screen, click the **List** tab. The search screen will
     be displayed, as shown in the figure below:
 
-![figure](images/register-1.png)
+    ![figure](images/register-1.png)
 
-**Figure 1 - Contract search screen**
+    **Figure 1 - Contract search screen**
 
 3.  Perform contract search;
 
-   -   Enter the contract number and click the *Search* button. After that, the
+    -  Enter the contract number and click the *Search* button. After that, the
     contract record will be displayed according to the number entered.
 
-   -   If you want to list all the contract records, simply click
+    -  If you want to list all the contract records, simply click
     the *Search* button directly.
 
 Items list
@@ -64,9 +64,9 @@ Items list
     easier to identify the desired items in the standard feature
     listing: **Contract Number**, **Customer Name**, and **Supplier**.
 
-![figure](images/register-2.png)
+    ![figure](images/register-2.png)
 
-**Figure 2 - Item screen**
+    **Figure 2 - Item screen**
 
 2.  After searching, select the desired record. Once this is done, it will be
     directed to the registration screen displaying the contents of the selected
@@ -82,9 +82,9 @@ Filling in the registration fields
 1. After accessing the functionality, the Contract Master screen will be
     displayed, as shown in the figure below:
 
-![figure](images/register-3.png)
+    ![figure](images/register-3.png)
 
-**Figure 3 - Contract Master Screen**
+    **Figure 3 - Contract Master Screen**
 
 2. Fill in the fields as directed below:
 
@@ -182,10 +182,9 @@ the contract between the service provider and the customer.
     the *New* button. Once this is done, the service level agreement screen will
     be displayed, as shown in the figure below:
 
-![figure](images/register-4.png)
+    ![figure](images/register-4.png)
 
-**Figure 4 - Additional Information - Contract Service Level Agreement
-Registration**
+    **Figure 4 - Additional Information - Contract Service Level Agreement Registration**
 
 -   **Agreement Description**: describe what was agreed in the agreement, in a
     macro manner. Example: Monthly availability of services to critical services
@@ -226,14 +225,14 @@ case of the management of the Orders of Services related to the UST currency.
 1.  Click the **Complexity By Contract** tab, and after that, click on the
     complexity that you want to enter the value;
 
-![figure](images/register-5.png)
+   ![figure](images/register-5.png)
 
-**Figure 5 - Complementary Information - Complexity View**
+   **Figure 5 - Complementary Information - Complexity View**
 
--   **Value Complexity**: tell how much each level of complexity is worth for
+-  **Value Complexity**: tell how much each level of complexity is worth for
     organization. Example: high = 6, low = 1, expert = 10.
 
--   If you want to remove complexity value, click *Clear*.
+-  If you want to remove complexity value, click *Clear*.
 
 Liking contract profiles
 ------------------------
@@ -245,9 +244,9 @@ will be fundamental for the development of a project related to the contract;
     this is done, the screen will be displayed to register the profile of the
     professional, as shown in the figure below:
 
-![figure](images/register-6.png)
+    ![figure](images/register-6.png)
 
-**Figure 6 - Supplementary Information - Contract Profiles Registration**
+    **Figure 6 - Supplementary Information - Contract Profiles Registration**
 
 -   **Cost per Hour**: enter the cost of the working time relative to the
     function that will be performed in the project;
@@ -267,9 +266,9 @@ Liking user groups
     screen will be displayed to link employee group (s) to the contract, as
     shown in the figure below:
 
-![figure](images/register-7.png)
+    ![figure](images/register-7.png)
 
-**Figure 7 - Additional Information - Group Link**
+    **Figure 7 - Additional Information - Group Link**
 
 -   Enter the group and click the *Add* button to link it to the agreement.
 
@@ -283,9 +282,9 @@ contract.
     that, the screen for product registration will be displayed, as shown in the
     figure below:
 
-![figure](images/register-8.png)
+    ![figure](images/register-8.png)
 
-**Figure 8 - Supplementary Information - Product Registration**
+    **Figure 8 - Supplementary Information - Product Registration**
 
 -   Inform the product description, referring to the project, that will be
     delivered. Example: documentation, deploy, script, workflow and so on.
@@ -302,9 +301,9 @@ to which stakeholders, at what frequency (when) and by what means (like).
     After that, the communication matrix register screen will be displayed, as
     shown in the figure below:
 
-![figure](images/register-9.png)
+    ![figure](images/register-9.png)
 
-**Figure 9 - Complementary Information - Communication Matrix Registration**
+    **Figure 9 - Complementary Information - Communication Matrix Registration**
 
 -   **Group involved**: inform the group that should receive the information.
     Example: users, stakeholders, suppliers, sponsors, etc.;
@@ -364,14 +363,14 @@ Liking attachaments
 1.  Click the Attachments tab, and after that, the file attachment area will be
     displayed, as shown in the figure below:
 
-![figure](images/register-12.png)
+    ![figure](images/register-12.png)
 
-**Figure 12 - Additional Information - File Attachment**
+    **Figure 12 - Additional Information - File Attachment**
 
--   Enter the description of the attachment, click the *Add File* button and
+    -  Enter the description of the attachment, click the *Add File* button and
     select the desired file;
 
--   After that, the file will be added to the contract.
+    -  After that, the file will be added to the contract.
 
 2.  After the entered contract data, click the *Record* button to register,
     where the date, time and user will be saved automatically for a future
