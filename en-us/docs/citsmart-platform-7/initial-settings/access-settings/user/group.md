@@ -45,9 +45,9 @@ Filters
 2.  On the Group register screen, group list screen will be displayed and
     filters that allow to conduct a specific search are displayed, as needed.
 
-![Criar](images/group-1.png)
+    ![Criar](images/group-1.png)
 
-**Figure 1 - Group search screen**
+    **Figure 1 - Group search screen**
 
 3.  To conduct a search for a specific group, insert the name and/or acronym of
     the intended group. Afterwards, the database will be displayed according to
@@ -67,10 +67,10 @@ Items list
 2.  There are action buttons available to the user for each item in the listing,
     they are: *Edit* and *Delete;*
 
-!!! info "IMPORTANT"
+    !!! info "IMPORTANT"
 
-    The group exclusion depends on there being no portfolios, staff and
-    contracts linked to it.
+        The group exclusion depends on there being no portfolios, staff and
+        contracts linked to it.
 
 3.  To edit a group's registry, click on the *Edit* button. Afterwards, they
     will be redirected to the entry screen displaying the selected group's
@@ -116,25 +116,25 @@ Filling in the registration fields
     and / or closing), if you want e-mail notifications referring to service
     requests to be mandatory;
 
-!!! note "NOTE"
+    !!! note "NOTE"
 
-    When you register a service request, the e-mail notification options are
-    already selected, not allowing you to change them.
+        When you register a service request, the e-mail notification options are
+        already selected, not allowing you to change them.
 
   
-   -  **Description**: insert a brief description about the purpose of the group;
+    -  **Description**: insert a brief description about the purpose of the group;
 
-   -  **Contracts**: bind the contracts belonging to the group.
+    -  **Contracts**: bind the contracts belonging to the group.
 
         -  Click on *Add*. Afterwards, the contract search screen will be displayed.
 
         -  Search, select the contracts contracts to be linked to the group and click
-         on *Add* to confirm the procedure.
+           on *Add* to confirm the procedure.
 
         -  To remove a contract from a group, select the contract and click
-    on *Remove.*
+           on *Remove*.
 
-   -  **Permission in all Workflows**: determines the workflow activities of a
+     -  **Permission in all Workflows**: determines the workflow activities of a
     group.
 
    - Click on *Add*. Afterwards, the workflow permissions screen will be
@@ -172,9 +172,9 @@ Filling in the registration fields
    -   Click on *Add*. Afterwards, the chosen workflow permissions will be
     displayed on the group's screen, as illustrated below:
 
-![Criar](images/group-5.png)
+   ![Criar](images/group-5.png)
 
-**Figure 5 - Workflow permissions**
+   **Figure 5 - Workflow permissions**
 
    -  To remove an activity allowed in the workflow, just click on the ![Criar](images/group-6.png) button;
 
@@ -201,9 +201,9 @@ Filling in the registration fields
    -  If an external e-mail address needs to be included, click on *Add*. An
     e-mail entry screen will be displayed, as illustrated below:
 
-![Criar](images/group-8.png)
+   ![Criar](images/group-8.png)
 
-**Figure 6 - External e-mail entry**
+   **Figure 6 - External e-mail entry**
 
    -  Insert the name of the e-mail address' owner, the e-mail address and click
     on the *Add* button to confirm the operation.
