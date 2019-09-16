@@ -397,7 +397,7 @@ Preconditions
 3. Link the group to the contracts, associating the applicants (collaborators) already related to this group, so that the contracts 
 and the related applicants are listed in the request screen. If it is necessary to create a new employee, it is necessary to 
 include it in the group in which it is related to the contract so that it can open a request, that is, to have its name listed on 
-the request registration screen (see knowledge [Contract registration and search](/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract));
+the request registration screen (see knowledge [Contract registration and search](/en-us/citsmart-platform-7/processes/portfolio-and-catalog/contract.html));
 
 4. Link unit to contracts so that it is listed on the request screen (see knowledge [Contract registration)](/en-us/citsmart-platform-7/processes/portfolio-and-catalog/contract.html));
 
