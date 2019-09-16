@@ -67,9 +67,9 @@ Route settings
     need, in order to direct the open requests to be answered by the field
     technician:
 
-![Criar](images/daily-2.png)
+    ![Criar](images/daily-2.png)
 
-**Figure 2 - Route configuration screen**
+    **Figure 2 - Route configuration screen**
 
 2. Set the filters as you need them:
 
@@ -85,9 +85,9 @@ Route settings
 
     -   **Attendance with Pending** : request that is suspended.
 
-![Criar](images/daily-3.png)
+    ![Criar](images/daily-3.png)
 
-**Figure 3 - Service requests**
+    **Figure 3 - Service requests**
 
 4. Direct the service request available to the technician to perform the
     service;
@@ -105,14 +105,14 @@ Route settings
     -   After selecting the request, the map marker of the route that the technician
     will follow will be displayed on the map.
 
-![Criar](images/daily-4.png)
+    ![Criar](images/daily-4.png)
 
-**Figure 4 - Service requests**
+    **Figure 4 - Service requests**
 
-   !!! note "NOTE"
+    !!! note "NOTE"
 
-      Clicking the route marker on the map will display the service request
-      information.
+       Clicking the route marker on the map will display the service request
+       information.
 
 5. Click the *Save* button to perform the operation, where the date, time and
     user will be saved automatically for a future audit.
