@@ -175,7 +175,7 @@ Preconditions
 
 3. Register applicant (collaborator) (see knowledge [Staff registration and search](/en-us/citsmart-platform-7/initial-settings/access-settings/user/employee.html));
 
-4. Register "Change Advisory Committee" (group) to be listed on the change request screen (see knowledge [Group registration and search](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html));
+4. Register "Change Advisory Committee" (group) to be listed on the change request screen (see knowledge [Group registration and search](/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html));
 
 5. Register type of change, which should have the link with the flow referring to the request for change (see knowledge [Change Type registration and search](/en-us/citsmart-platform-7/processes/change/change-type.html));
 
@@ -358,8 +358,7 @@ Filling in the registration fields
     - **Title**: report the title to the problem;
     - **Management**: select the type of management of the problem.
         - **Proactive**: Proactive Problem Management for the prevention of the occurrence of Incidents. Worries about preventing 
-        incidents from occurring. Responsible for addressing similar issues before they happen, ensuring that such scenarios are 
-        addressed as well.
+          incidents from occurring. Responsible for addressing similar issues before they happen, ensuring that such scenarios             are addressed as well.
         - **Reactive**: from the Incident Management process. Worries about solving problems in response to one or more incidents. 
         Performs incident review and analysis to identify which groups should be addressed and what actions are required to address 
         them.
