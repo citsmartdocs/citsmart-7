@@ -45,9 +45,9 @@ Defining the metrics of the incident management process - Filling in the registr
     figure). The **Metrics and KPIs Definition** screen will be displayed, as
     shown in the figure below:
 
-![Criar](images/kpi-2.png)
+    ![Criar](images/kpi-2.png)
 
-**Figure 2 - Definition of metrics and KPIs**
+    **Figure 2 - Definition of metrics and KPIs**
 
 2.  Fill in the fields as directed below:
 
