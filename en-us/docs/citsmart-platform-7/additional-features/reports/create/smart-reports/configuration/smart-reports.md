@@ -22,9 +22,9 @@ Filters
 
    -   Category.
 
-![Criar](images/smart-repor.img1.jpg)
+    ![Criar](images/smart-repor.img1.jpg)
 
-**Figure 1 - Smart Reports**
+    **Figure 1 - Smart Reports**
 
 2. Reports are presented by category;
 
