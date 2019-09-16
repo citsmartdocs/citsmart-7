@@ -49,7 +49,7 @@ Items list
 
 1.  The following cadastral fields are available to the user to facilitate the
     identification of the desired items in the standard listing of the
-    functionality: **ID* Profile** and **Name**.
+    functionality: **ID Profile** and **Name**.
 
     ![Criar](images/profile-2.png)
 
