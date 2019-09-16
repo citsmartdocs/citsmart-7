@@ -372,7 +372,7 @@ user name and password.
 
     !!! info "IMPORTANT"
 
-        Observe the return of the commands by analyzing the correct execution.
+         Observe the return of the commands by analyzing the correct execution.
 
 4. Now we will configure **/etc/postgresql/9.5/main/pg_hba.conf** to allow the Jboss connection to the database and citsmart user. 
 At the end of the file change the lines:   
@@ -876,12 +876,12 @@ correct: **postmap/etc/postfix/sasl_passwd ;**
 
 19. Configure the CITSmart parameters:
 
-   - 10, 11, 12, 13, 14, 199 and 269 (see knowledge [Parameterization rules - e-mail](1)).
+   - 10, 11, 12, 13, 14, 199 and 269 (see knowledge [Parameterization rules - e-mail][1]).
 
 20. In this way, CITSmart Enterprise ISTM uses the local server as a relay for sending e-mails.
 
 Using postfix on ubuntu for sending e-mails from CITSmart (for Community version only)
-----------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
 
 #### Preconditions
 
@@ -943,7 +943,7 @@ added correctly: **postmap /etc/postfix/sasl/sasl_passwd**;
 
 14. Configure the CITSmart Enterprise ISTM parameters:
 
-   - 10, 11, 12, 13, 14, 199, 269 (see knowledge [Parameterization rules - e-mail)](1)
+   - 10, 11, 12, 13, 14, 199, 269 (see knowledge [Parameterization rules - e-mail)][1]
 
 15. In this way, CITSmart uses the local server as a relay for sending e-mails.
 
@@ -1199,11 +1199,11 @@ To carry out the installation of the SMS certificate, proceed according to the r
 See also
 -----------
 
-[CITSmart Event Monitor connection](2);
+[CITSmart Event Monitor connection][2];
 
-[Citsmart Inventory Connection Setup](3);
+[Citsmart Inventory Connection Setup][3];
 
-[Inventory component installation guide](4);
+[Inventory component installation guide][4];
 
 [Central authentication service (CAS) installation guide - version 3.0 (ITSM)][5];
 
