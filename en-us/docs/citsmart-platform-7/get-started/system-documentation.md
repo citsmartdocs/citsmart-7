@@ -54,7 +54,7 @@ Description: Provides all the knowledge about the system.
 
 [Knowledge Indexing](/en-us/citsmart-platform-7/plataform-administration/data-indexing/knowledge-indexing.html)
 
-[Manual de configuração de conexões externas de banco de dados](/pt-br/citsmart-platform-7/plataform-administration/database/register-external-connections.html)
+[Manual de configuração de conexões externas de banco de dados](/en-us/citsmart-platform-7/plataform-administration/database/register-external-connections.html)
 
 [CITSmart Call mobile application user guide (iOS)](en-us/citsmart-platform-7/additional-features/mobile-and-field-service/apps/app-call.html)
 
