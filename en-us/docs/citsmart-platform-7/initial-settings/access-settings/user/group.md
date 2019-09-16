@@ -126,12 +126,12 @@ Filling in the registration fields
 
    -  **Contracts**: bind the contracts belonging to the group.
 
-         -  Click on *Add*. Afterwards, the contract search screen will be displayed.
+        -  Click on *Add*. Afterwards, the contract search screen will be displayed.
 
-         -  Search, select the contracts contracts to be linked to the group and click
+        -  Search, select the contracts contracts to be linked to the group and click
          on *Add* to confirm the procedure.
 
-         -  To remove a contract from a group, select the contract and click
+        -  To remove a contract from a group, select the contract and click
     on *Remove.*
 
    -  **Permission in all Workflows**: determines the workflow activities of a
@@ -140,9 +140,9 @@ Filling in the registration fields
    - Click on *Add*. Afterwards, the workflow permissions screen will be
        displayed, as illustrated below:
 
-![Criar](images/group-4.png)
+   ![Criar](images/group-4.png)
 
-**Figure 4 - Workflow permissions determination**
+   **Figure 4 - Workflow permissions determination**
 
    -  **Name**: insert the name of the workflow so it can be searched, if
     necessary;
@@ -159,12 +159,12 @@ Filling in the registration fields
 
         -  **Reactive**: the group can reactivate permissions on workflows;
 
-       -  **Change SLA**: the group can change the permissions SLA in the
+        -  **Change SLA**: the group can change the permissions SLA in the
         workflows;
 
-       -  **Reopen**: the group can reopen permissions on workflows;
+        -  **Reopen**: the group can reopen permissions on workflows;
 
-       -  **Cancel**: the group can cancel permissions on workflows.
+        -  **Cancel**: the group can cancel permissions on workflows.
 
    -   Select the workflows, at which the users may perform the selected
     activities;
