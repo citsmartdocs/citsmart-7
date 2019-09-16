@@ -23,9 +23,9 @@ Use guide
 
 The screen below shows an example with the "**Tasks of my groups**" panel:
 
-![Chamados](images/dashboard.img1.jpg)
+   ![Chamados](images/dashboard.img1.jpg)
 
-**Figure 1 - Call screen**
+    **Figure 1 - Call screen**
 
 A double click on one of the rows displays the request screen and allows the
 user to perform the task (if allowed):
@@ -40,9 +40,9 @@ Neuro components
 The **itsm_tasks** neuro package contains all the components required to create
 panels in CITSmart Enterprise ITSM:
 
-![Chamados](images/dashboard.img3.jpg)
+   ![Chamados](images/dashboard.img3.jpg)
 
-**Figure 3 - Component Neuro screen**
+   **Figure 3 - Component Neuro screen**
 
 The package is composed by of the following elements:
 
@@ -72,16 +72,16 @@ Business object
 The **vw_itsm_tasks** business object, of VIEW type , has all the attributes
 needed to display the task rows in panels.
 
-![Chamados](images/dashboard.img4.jpg)
+   ![Chamados](images/dashboard.img4.jpg)
 
-**Figure 4 - DDL screen**
+   **Figure 4 - DDL screen**
 
 As will be explained, each SQL of the business object can be associated with a
 panel through itsm-taks directive:
 
-![Chamados](images/dashboard.img5.jpg)
+   ![Chamados](images/dashboard.img5.jpg)
 
-**Figure 5 - SQL screen**
+   **Figure 5 - SQL screen**
 
 The **itsm-tasks** package business object is already configured with three
 SQLs. However, as required, these SQLs can be customized or other SQL can be
@@ -114,9 +114,9 @@ object-map="objeto JSON com parâmetros para execução do SQL"\>\</itsm-tasks\>
 
 The directive uses the itsm-tasks HTML page feature to display the data:
 
-![Chamados](images/dashboard.img7.jpg)
+   ![Chamados](images/dashboard.img7.jpg)
 
-**Figure 7 - Request listing screen**
+   **Figure 7 - Request listing screen**
 
 In addition to enabling the display and execution of tasks, the directive
 allows:
@@ -162,18 +162,18 @@ knowledge of creating ITSM flows.
 The **Request / Incident** component can be accessed in the **Tasks** tab of the
 flow design:
 
-![Chamados](images/dashboard.img10.jpg)
+   ![Chamados](images/dashboard.img10.jpg)
 
-**Figure 10 - Task screen**
+   **Figure 10 - Task screen**
 
 It allows the creation of tickets or incidents related or not to the ticket of
 the stream being executed.
 
 Here is an example flow that uses the component:
 
-![Chamados](images/dashboard.img11.jpg)
+   ![Chamados](images/dashboard.img11.jpg)
 
-**Figure 11 - Flow example**
+   **Figure 11 - Flow example**
 
 In the previous example, the execution of the **Purchase
 Requests** and **Project Analysis** components is triggered in parallel after
@@ -191,9 +191,9 @@ Detailing the component properties
 
 The following figure shows the properties of the component:
 
-![Chamados](images/dashboard.img12.jpg)
+   ![Chamados](images/dashboard.img12.jpg)
 
-**Figure 12 - Component properties screen**
+   **Figure 12 - Component properties screen**
 
 Here are the description of each property:
 
@@ -305,13 +305,13 @@ Attachments
 
 [Sqlserver][2]
 
-![Directive][3]
+[Directive][3]
 
-![Tasks][4]
+[Tasks][4]
 
-![Oracle][5]
+[Oracle][5]
 
-![Css][6]
+[Css][6]
 
 !!! tip "About"
 
@@ -319,13 +319,9 @@ Attachments
     <b>Updated:</b>09/11/2019 - Anna Martins
 
 [1]:en-us/citsmart-platform-7/additional-features/reports/create/dashboard/configuration/images/package_itsm_tasks_postgres.json
-
 [2]:en-us/citsmart-platform-7/additional-features/reports/create/dashboard/configuration/images/package_itsm_tasks_sqlserver.json
-
 [3]:en-us/citsmart-platform-7/additional-features/reports/create/dashboard/configuration/images/itsm-tasks-directive.js
-
 [4]:en-us/citsmart-platform-7/additional-features/reports/create/dashboard/configuration/images/itsm-tasks.html
-
 [5]:en-us/citsmart-platform-7/additional-features/reports/create/dashboard/configuration/images/package_itsm_tasks_oracle.json
 
 [6]:en-us/citsmart-platform-7/additional-features/reports/create/dashboard/configuration/images/itsm-tasks.css
