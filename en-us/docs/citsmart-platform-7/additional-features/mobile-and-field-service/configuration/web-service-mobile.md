@@ -23,11 +23,11 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
-   -  Web Service's Filter
+     -  Web Service's Filter
 
-![Pesquisa](images/web-service.img1.jpg)
+    ![Pesquisa](images/web-service.img1.jpg)
 
-**Figure 1 - Citsmart mobile's web service settings search screen**
+    **Figure 1 - Citsmart mobile's web service settings search screen**
 
 2.  Perform the web services configuration search for CITSmart Mobile. Enter the
     name of the web service configuration for CITSmart Mobile that you want to
@@ -81,9 +81,9 @@ Performing web services configuration
     services and another one that presents the CITSmart Mobile web services, as
     shown in the figure below:
 
-![Pesquisa](images/web-service.img5.jpg)
+    ![Pesquisa](images/web-service.img5.jpg)
 
-**Figure 5 - Citsmart mobile web services configuration screen**
+    **Figure 5 - Citsmart mobile web services configuration screen**
 
 2.  In the Link Groups tab, link the activity executing group to CITSmart Mobile
     Web Services.
