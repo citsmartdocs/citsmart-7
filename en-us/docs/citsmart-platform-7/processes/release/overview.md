@@ -56,7 +56,7 @@ Main feature (in highlight)
 In the *See also* section you can access the main functionality(ies) of this
 module, in order to obtain a more detailed knowledge.
 
-!!! Abstract "TIPS"
+!!! Abstract "KNOW MORE"
 
     Depending on your access permission, you can perform a series of actions on
     the existing release requests, such as: viewing the registration information
