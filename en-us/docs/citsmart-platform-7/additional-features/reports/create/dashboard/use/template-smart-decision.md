@@ -43,9 +43,9 @@ Filling in the registration fields
 2.  Click the *Add* button. Once this is done, the **Template Master** screen
     will be displayed, as shown in the figure below:
 
-![Criar](images/template-2.png)
+    ![Criar](images/template-2.png)
 
-**Figure 2 - Template registration**
+    **Figure 2 - Template registration**
 
 3.  To create a template, proceed as follows:
 
