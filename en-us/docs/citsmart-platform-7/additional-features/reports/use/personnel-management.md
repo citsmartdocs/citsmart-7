@@ -34,9 +34,9 @@ Filters
 2. The **Employee Report Generation by Unit** screen will be displayed, as
     shown in the following figure:
 
-![Criar](images/pessoal.png)
+    ![Criar](images/pessoal.png)
 
-**Figure 1 - Employee report generation screen**
+     **Figure 1 - Employee report generation screen**
 
 3. Set the filters as needed;
 
