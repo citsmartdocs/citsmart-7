@@ -31,9 +31,9 @@ Filters
 2. On the access profile search screen, click on the **Search Profile** tab.
     The search screen will be displayed, as illustrated on image bellow:
 
-![Criar](images/profile-1.png)
+    ![Criar](images/profile-1.png)
 
-**Figure 1 - Access profile search screen**
+    **Figure 1 - Access profile search screen**
 
 3. Search the access profile;
 
@@ -51,9 +51,9 @@ Items list
     identification of the desired items in the standard listing of the
     functionality: **ID* Profile** and **Name**.
 
-![Criar](images/profile-2.png)
+    ![Criar](images/profile-2.png)
 
-**Figure 2 - Access profile listing screen**
+    **Figure 2 - Access profile listing screen**
 
 2.  After searching, select the intended entry; then, the user will be
     redirected to the registry screen displaying the content of the selected
@@ -71,9 +71,9 @@ Filling in the registration fields
 
 1. The **Register Access Profile** will be displayed, as illustrated below:
 
-![Criar](images/profile-3.png)
+    ![Criar](images/profile-3.png)
 
-**Figure 3 - Access profile entry screen**
+    **Figure 3 - Access profile entry screen**
 
 2. Fill out the fields as instructed below:
 
