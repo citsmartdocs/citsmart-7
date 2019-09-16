@@ -19,8 +19,7 @@ Preconditions
     search][1]).
 
 2.  The staff member needs to be registered (see knowledge [Staff registration
-    and
-    search][2]).
+    and search][2]).
 
 Filters
 -------
@@ -29,16 +28,16 @@ Filters
     items in the standard feature listing, making it easier to find the desired
     items:
 
-   - Name;
+    - Name;
 
-   - Login.
+    - Login.
 
 2.  Click on the **Search User** tab. The search screen will be displayed as
     illustrated on the image below:
 
-![Criar](images/user-1.png)
+    ![Criar](images/user-1.png)
 
-**Figure 1 - User search screen**
+    **Figure 1 - User search screen**
 
 3.  Conduct a user search:
 
@@ -53,11 +52,11 @@ Items list
 
 1.  The following cadastral fields are available to the user to facilitate the
     identification of the desired items in the standard feature listing: **Name,
-    Login** and **LDAP User.**
+    Login** and **LDAP User**.
 
     ![Criar](images/user-2.png)
 
-     **Figure 2 - User listing screen**
+    **Figure 2 - User listing screen**
 
 2.  After searching, select the intended entry. Afterwards, they will be
     redirected to the registry screen displaying the content belonging to the
@@ -73,17 +72,16 @@ Filling in the registration fields
 1.  The **Register User** screen will be displayed, as illustrated on the image
     below:
 
-!!! note "NOTE"
+    !!! note "NOTE"
 
-    In cases of LDAP authentication, when the user logs in for the first time,
-    the "access profile" of the LDAP will be defined by the system, which is
-    configured in parameter "39" - LDAP - Id of the access profile that will be
-    set automatically if user does not have any "(see
-    knowledge [Parameterization rules - LDAP][3]).
+        In cases of LDAP authentication, when the user logs in for the first time,
+        the "access profile" of the LDAP will be defined by the system, which is
+        configured in parameter "39" - LDAP - Id of the access profile that will be
+        set automatically if user does not have any "(see knowledge [Parameterization rules - LDAP][3]).
 
-![Criar](images/user-3.png)
+    ![Criar](images/user-3.png)
 
-**Figure 3 - User registration screen**
+    **Figure 3 - User registration screen**
 
 2.  Fill out the fields as instructed below:
 
