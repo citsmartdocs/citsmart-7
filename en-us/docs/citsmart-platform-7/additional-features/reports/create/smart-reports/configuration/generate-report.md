@@ -24,14 +24,14 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Name
+    -   Name
 
 2.  On the **Smart Reports** screen, a filter field is displayed to perform the
     search for certain records, as shown in the figure below:
 
-![Criar](images/generate-1.png)
+    ![Criar](images/generate-1.png)
 
-**Figure 1 - Smart report search screen**
+    **Figure 1 - Smart report search screen**
 
 3.  To search for a specific record, enter the name of the report. After that,
     the given record will be displayed according to the filter entered.
@@ -46,9 +46,9 @@ Items list
 2.  There are action buttons available to the user for each item in the listing,
     they are: *Edit* and *Delete*.
 
-![Criar](images/generate-2.png)
+    ![Criar](images/generate-2.png)
 
-**Figure 2 - Smart report listing**
+    **Figure 2 - Smart report listing**
 
 3.  To check and / or change the report log data, click the *Edit* button and
     after that you will be directed to the registration screen displaying the
@@ -68,91 +68,91 @@ Filling in the registration fields
     The D3 library ([https://d3js.org](https://d3js.org/)/) can be used to create
     JSP-type reports.
 
-![Criar](images/generate-3.png)
-
-**Figure 3 - Smart Report construction screen**
+   ![Criar](images/generate-3.png)
+ 
+   **Figure 3 - Smart Report construction screen**
 
 2.  Fill out the fields as instructed:
 
--   **Identification**: enter the identification of the report you want to
+    -   **Identification**: enter the identification of the report you want to
     create;
 
--   **Description**: enter the name of the report you want to create;
+    -   **Description**: enter the name of the report you want to create;
 
--   **Category**: select the category in which the report will belong;
+    -   **Category**: select the category in which the report will belong;
 
--   **Type**: select the query type of the report:
+    -   **Type**: select the query type of the report:
 
-   !!! warning "ATTENTION"
+    !!! warning "ATTENTION"
 
-     In order to create a Sub Report it should already be registered and the
-     "Query Type" should be SQL.
+        In order to create a Sub Report it should already be registered and the
+        "Query Type" should be SQL.
 
-   -   **SQL**: use this type to create report that returns the database
-    information through a Query. Selecting this type will display the "Designer"
-    and "SQL" tabs and the "Business Rule" field, selecting this option will
-    display new fields, as shown below:
+     -   **SQL**: use this type to create report that returns the database
+      information through a Query. Selecting this type will display the "Designer"
+      and "SQL" tabs and the "Business Rule" field, selecting this option will
+      display new fields, as shown below:
 
-![Criar](images/generate-4.png)
+    ![Criar](images/generate-4.png)
 
-**Figure 4 - Fields screen when select SQL Type**
+    **Figure 4 - Fields screen when select SQL Type**
 
-   -   **RhinoScript**: use this type to create a report that returns the database
+     -   **RhinoScript**: use this type to create a report that returns the database
     information through a script. Selecting this type will display the
     "RhinoScript" tab;
 
-   -   **JSP**: use this type to create report with dynamic content. Selecting this
+     -   **JSP**: use this type to create report with dynamic content. Selecting this
     type will display the "JSP" tab where you can enter the JSP code.
 
--   **Report Type**: select the type of report you want to create:
+     -   **Report Type**: select the type of report you want to create:
 
-!!! warning "ATTENTION"
+    !!! warning "ATTENTION"
 
-    To create a Sub Report (Drill) the "Report Type" should be " Pie Chart"or" Bar Chart ".
+        To create a Sub Report (Drill) the "Report Type" should be " Pie Chart"or" Bar Chart ".
 
-   -   **Template**: use this type to create a report with the desired design and
+     -   **Template**: use this type to create a report with the desired design and
     structure. To create the report with this type, simply select the type,
     inform RhinoScript or SQL in the referring field, inform the FreeMarker
     (template framework) in the "Template" and the parameters if necessary;
 
-   -   **Line chart**: use this type to create a report that displays the
+     -   **Line chart**: use this type to create a report that displays the
     information in the line chart;
 
-   -   **Pie chart**: use this type to create a report that displays the pie chart
+     -   **Pie chart**: use this type to create a report that displays the pie chart
     information;
 
-   -   **Bar chart**: use this type to create a report that displays information in
+     -   **Bar chart**: use this type to create a report that displays information in
     bar chart, when selecting the option "pie" or "bar", new fields will be
     presented, as shown below:
 
-![Criar](images/generate-5.png)
+     ![Criar](images/generate-5.png)
 
-**Figure 5 - Fields screen when select "Pie chart" or "Bar chart"**
+     **Figure 5 - Fields screen when select "Pie chart" or "Bar chart"**
 
   
-   -   **Data table**: use this type to create a report that includes all the data
+     -  **Data table**: use this type to create a report that includes all the data
     of a given table;
 
-   -   **Cube**: use this type to create a query that allows you to cross-reference
+     -  **Cube**: use this type to create a query that allows you to cross-reference
     information to provide data to the report;
 
-   -   **HTML return**: use this type to create report with HTML.
+     -  **HTML return**: use this type to create report with HTML.
 
--   **Module where it will be displayed**: choose an option where the report
+   -  **Module where it will be displayed**: choose an option where the report
     will be displayed;
 
-    -   **N/A**: select this option if you want the report not to be displayed in
+   -   **N/A**: select this option if you want the report not to be displayed in
     any module;
 
-    -   **General**: select this option to display the report in one or more
+   -  **General**: select this option to display the report in one or more
     modules, where you want the report to be displayed;
 
-    -   **Specific**: select a single module where you want the report to be
+   -  **Specific**: select a single module where you want the report to be
     displayed.
 
--   **Groups**: inform the group that will be allowed to view the report;
+   -  **Groups**: inform the group that will be allowed to view the report;
 
--   On the "**Parameters**" tab, enter the parameters for the selected query
+   -  On the "**Parameters**" tab, enter the parameters for the selected query
     type and report.
 
 3.  After the report has been built, click the *Save* button to register, in
