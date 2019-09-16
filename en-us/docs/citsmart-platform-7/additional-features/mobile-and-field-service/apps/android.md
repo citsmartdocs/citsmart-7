@@ -442,18 +442,18 @@ so you automatically receive notifications that are actionable.
 
    **Figure 36 - Request rejection justification screen**
 
-   -   Please reply if you want to check in;
+   -  Please reply if you want to check in;
 
-   -   Pressing the Yes button will take you to the Check-in screen;
+   -  Pressing the Yes button will take you to the Check-in screen;
 
-   -   When you press the No button, you will be directed to the check-in negation
+   -  When you press the No button, you will be directed to the check-in negation
     screen, as shown in the figure below:
 
-   ![figure](images/android-51.png)
+    ![figure](images/android-51.png)
 
-   **Figure 37 - Check denial screen**
+    **Figure 37 - Check denial screen**
 
-   -   Please state the reason for denial of Request Check-In.
+   -  Please state the reason for denial of Request Check-In.
 
 1.  When you are near the place of service of more than one service request, you
     will receive a notification containing the number of requests, according to
