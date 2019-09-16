@@ -1,18 +1,15 @@
 title: Smart reports printing
 
-Description: This functionality is intended to provide the ease of issuance of
-reports built by Smart Report Builder.
+Description: This functionality is intended to provide the ease of issuance of reports built by Smart Report Builder.
 
 # Smart reports printing
 
-This functionality is intended to provide the ease of issuance of reports built
-by Smart Report Builder.
+This functionality is intended to provide the ease of issuance of reports built by Smart Report Builder.
 
 How to access
 -------------
 
-1.  Access the Smart Reports feature by navigating the main
-    menu **Reports > Smart Reports > Smart Reports**.
+1.  Access the Smart Reports feature by navigating the main  menu **Reports > Smart Reports > Smart Reports**.
 
 Preconditions
 -------------
@@ -44,9 +41,9 @@ Filling in the registration fields
 A quick vision of the module's main functionality
 -------------------------------------------------
 
-![figure](images/emit-2.png)
+   ![figure](images/emit-2.png)
 
-**Figure 2 - Smart reports**
+   **Figure 2 - Smart reports**
 
 1.  Reports are presented by category;
 
