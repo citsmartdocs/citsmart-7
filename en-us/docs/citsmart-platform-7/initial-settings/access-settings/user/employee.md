@@ -37,9 +37,9 @@ Filters
 2. Click on the **Search Staff** tab, the **Staff Search** screen will be
     displayed as shown in the figure below:
 
-![Criar](images/employee-1.png)
+    ![Criar](images/employee-1.png)
 
-**Figure 1 - Staff member search**
+    **Figure 1 - Staff member search**
 
 3. Conduct a staff member search;
 
@@ -56,9 +56,9 @@ Items list
     identification of the desired items in the standard feature
     listing: **Name**.
 
-![Criar](images/employee-2.png)
+    ![Criar](images/employee-2.png)
 
-**Figure 2 - Staff list screen**
+    **Figure 2 - Staff list screen**
 
 2.  After searching, select the intended entry. Afterwards, they will be
     redirected to the registry screen displaying the content belonging to the
@@ -75,9 +75,9 @@ Filling in the registration fields
 1.  Click on the **Register Staff** tab, the **Staff Registration** screen will
     be displayed, as shown in the figure below:
 
-![Criar](images/employee-3.png)
+    ![Criar](images/employee-3.png)
 
-**Figure 3 - Staff entry screen**
+    **Figure 3 - Staff entry screen**
 
 2.  Fill out the fields as instructed below:
 
