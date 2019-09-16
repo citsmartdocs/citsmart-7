@@ -31,7 +31,7 @@ Preconditions
 
 2.  To setup the server for using **CITSmart ITSM Enterprise** mobile
     application (see the knowledges: [CITSmart Enterprise ITSM server
-    configuration manual for use of APP (iOS and Android)][1]) and [Mobile Options Configuration Registration and
+    configuration manual for use of APP (iOS and Android)][1] and [Mobile Options Configuration Registration and
     Search][2]).
 
 Installing and configuring the app on the mobile
