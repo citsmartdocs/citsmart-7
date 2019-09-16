@@ -735,7 +735,7 @@ Correlated event manager registration
     Each Correlated Events manager contains an EPL for Warning and / or
     Exception.
 
-!!! Abstract "TIPS"
+!!! Abstract "KNOW MORE"
 
     EPL is an event correlation language used by Esper (Espertech). Upon
     initialization of the Citsmart Event Monitor, these EPLs are imported into
