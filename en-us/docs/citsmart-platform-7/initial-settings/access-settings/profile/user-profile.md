@@ -90,25 +90,26 @@ Filling in the registration fields
     -   **Delete**: the user with this profile can "Save" and delete the system
     data;
 
-!!! info "IMPORTANT"
+   !!! info "IMPORTANT"
 
-     The exclusions executed in the product are logical (and not physical), so
-     in extreme cases there is how to recover something excluded, but this will
-     require technical support from an analyst/consultant.
+       The exclusions executed in the product are logical (and not physical), so
+       in extreme cases there is how to recover something excluded, but this will
+       require technical support from an analyst/consultant.
 
-!!! note "NOTE"
+   !!! note "NOTE"
 
-     When determining the type of access profile, by marking/unmarking a
-     checkbox, all checkboxes that are subordinate to it in the structure are
-     also marked/unmarked cascade.
+       When determining the type of access profile, by marking/unmarking a
+       checkbox, all checkboxes that are subordinate to it in the structure are
+       also marked/unmarked cascade.
 
-!!! note "NOTE"
+   !!! note "NOTE"
 
-     The access profiles will be disabled (the checkboxes of all pre-existing
-     access profiles will be unchecked), by default, when new features are
-     created, thus requiring the administrator to explicitly enable this for the
-     profiles you want, making it available for the desired profiles.
+       The access profiles will be disabled (the checkboxes of all pre-existing
+       access profiles will be unchecked), by default, when new features are
+       created, thus requiring the administrator to explicitly enable this for the
+       profiles you want, making it available for the desired profiles.
 
+  
    -   **Can the user access the system**: determine if the profile will be able to
     access the system through the portal;
 
