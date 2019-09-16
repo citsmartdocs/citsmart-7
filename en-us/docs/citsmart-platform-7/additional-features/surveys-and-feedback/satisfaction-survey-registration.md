@@ -212,7 +212,7 @@ default) on the outcome of a request or incident attendance.
     these processes, there should be direct intervention in the database (only
     authorized users).
 
- !!! note "NOTE"
+!!! note "NOTE"
 
     As the client can develop his own questionnaires with infinite
     possibilities of fields and logic, the development of reports that retrieve
