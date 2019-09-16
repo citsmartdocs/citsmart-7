@@ -33,8 +33,7 @@ locate the desired items:
 Items list
 --------------------
 
-1. The following cadastral fields are available to the user to make it easier to identify the desired items in the default listing 
-of the functionality: **ID, URL Connection**, and **Base DN**.
+1. The following cadastral fields are available to the user to make it easier to identify the desired items in the default listing of the functionality: **ID, URL Connection**, and **Base DN**.
 
 2. There are action buttons available to the user for each item in the listing, they are: *Edit* and *Delete*.
 
@@ -127,4 +126,4 @@ saved automatically for a future audit.
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
     <b>Updated:</b>02/09/2019 – Larissa Lourenço
     
-[1]:/en-us/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
+[1]:/en-us/citsmart-platform-7/processes/event/time-registration.html
