@@ -66,7 +66,7 @@ Configure CITSmart Enterprise Web Services to access the functionality of the
 CITSmart ITSM Enterprise application.
 
 1.  On CITSmart Enterprise Web, access the Web Services feature for the mobile
-    (System > Settings > Citsmart Mobile Web Service);
+    (**System > Settings > Citsmart Mobile Web Service**);
 
 2.  Click on the "Link Groups" tab and link the activity executing group to the
     CITSmart ITSM Enterprise Web Services.
@@ -86,19 +86,19 @@ Certification Issuer), it must be installed. Follow the procedures below:
 
 2.  Download the first certificate, as shown in the figure below:
 
-![Criar](images/android-ios-1.jpg)
+    ![Criar](images/android-ios-1.jpg)
 
-**Figure 1 - GlobalSign intermediate certificate**
+    **Figure 1 - GlobalSign intermediate certificate**
 
--  **On mobile**: you will be asked to install the certificate, just enter the
+    -  **On mobile**: you will be asked to install the certificate, just enter the
     generic name (suggestion: GlobalSign) and click on forward.
 
--  **In desktop**: right-click the downloaded certificate (as shown below),
+    -  **In desktop**: right-click the downloaded certificate (as shown below),
     click on install certificate, and proceed to finish.
 
-![Criar](images/android-ios-2.jpg)
+    ![Criar](images/android-ios-2.jpg)
 
-**Figure 2 - Certificate installation on desktop**
+    **Figure 2 - Certificate installation on desktop**
 
 3.  Once installed, simply change the application's address to
     “<https://citsmart.centralit.com.br/citsmart>”.
@@ -131,16 +131,16 @@ API must be created. For this, the following steps must be followed:
 
 2.  Click *Create project*, as shown in the figure below:
 
-![Criar](images/android-ios-3.jpg)
+    ![Criar](images/android-ios-3.jpg)
 
-**Figure 3 - Google developer console**
+    **Figure 3 - Google developer console**
 
 3.  A window will appear, as shown in the figure below, to inform the data of
     the new project;
 
-![Criar](images/android-ios-4.jpg)
+    ![Criar](images/android-ios-4.jpg)
 
-**Figure 4 - Project creation screen**
+    **Figure 4 - Project creation screen**
 
 4.  Enter the name of the project and click the Create button to create the
     project.
@@ -149,15 +149,15 @@ API must be created. For this, the following steps must be followed:
     click APIs and Services > Credentials > Create Credentials > API Key, as
     shown in the figure below:
 
-![Criar](images/android-ios-5.jpg)
+    ![Criar](images/android-ios-5.jpg)
 
-**Figure 5 - API Key creation screen**
+    **Figure 5 - API Key creation screen**
 
 6.  Once this is done, the API key will be displayed:
 
-![Criar](images/android-ios-6.jpg)
+    ![Criar](images/android-ios-6.jpg)
 
-**Figure 6 - API Key options screen for creation**
+     **Figure 6 - API Key options screen for creation**
 
 7.  Choose the men option that best suits you. For more information on which key
     will answer you, go
@@ -222,17 +222,17 @@ To enable an API for use, proceed as described below:
 2.  Click APIs and Services > Enable APIs and Services, as shown in the figure
     below:
 
-![Criar](images/android-ios-8.jpg)
+    ![Criar](images/android-ios-8.jpg)
 
-**Figure 8 - Google APIs**
+    **Figure 8 - Google APIs**
 
 3.  The API library will be displayed. Select the API you want to enable (the
     figure below represents an example of API) and click the Activate API button
     as indicated in the figure below:
 
-![Criar](images/android-ios-9.jpg)
+    ![Criar](images/android-ios-9.jpg)
 
-**Figure 9 - Google APIs activation**
+    **Figure 9 - Google APIs activation**
 
 4.  Once this is done, the API will be enabled for use.
 
