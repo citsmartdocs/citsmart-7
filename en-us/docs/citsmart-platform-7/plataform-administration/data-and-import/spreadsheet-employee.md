@@ -42,8 +42,7 @@ Importing employee
 
 !!! info "IMPORTANT"
 
-    When importing, if there are any inconsistencies between the values adopted in the system and the values informed in the            
-    spreadsheet, the system will display an alert.
+    When importing, if there are any inconsistencies between the values adopted in the system and the values informed in       the spreadsheet, the system will display an alert.
     
 !!! tip "About"
 
