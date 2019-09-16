@@ -46,22 +46,22 @@ store (App Store).
 2. After installation, the CITSmart ITSM Enterprise icon will appear in your
     applications:
 
-![Criar](images/ios-1.png)
+    ![Criar](images/ios-1.png)
 
-**Figure 1 - Installed app**
+    **Figure 1 - Installed app**
 
 3. The connections screen will be displayed, press the *Create connection*, as
     shown in the figure below:
 
-![Criar](images/ios-2.png)
+    ![Criar](images/ios-2.png)
 
-**Figure 2 - Connection screen**
+    **Figure 2 - Connection screen**
 
 4. The "New connection" screen for connection registration will be displayed:
 
-![Criar](images/ios-3.png)
+    ![Criar](images/ios-3.png)
 
-**Figure 3 - Connection log screen**
+    **Figure 3 - Connection log screen**
 
 5. Enter the relevant data:
 
@@ -121,49 +121,49 @@ Using the app on the mobile
 1. After the connection is made, the menu screen will be displayed, where you
     can click on the Service Ticket:
 
-![Criar](images/ios-6.png)
+    ![Criar](images/ios-6.png)
 
-**Figure 6 - Menu screen**
+    **Figure 6 - Menu screen**
 
 2. To choose the type of request you want to view, click on the icon ![Criar](images/ios-6.1.png) located in the upper left corner;
 
-![Criar](images/ios-7.png)
+    ![Criar](images/ios-7.png)
 
-**Figure 7 - Request search screen**
+    **Figure 7 - Request search screen**
 
 3. Will be presented filters ( Number, Requester, Request Type, Status,
     Contract, Executor group, Current work, Responsible, SLA Status, Sort by,
     View, Exhibition and Show sub request ), as shown in the figure below:
 
-![Criar](images/ios-8.png)
+    ![Criar](images/ios-8.png)
 
-**Figure 8 - Filters**
+    **Figure 8 - Filters**
 
-![Criar](images/ios-9.png)
+    ![Criar](images/ios-9.png)
 
-**Figure 9 - Filters (continuation)**
+    **Figure 9 - Filters (continuation)**
 
 4. Select the filter of request you want and click on the ![Criar](images/ios-6.1.png) , in the lower left corner;
 
 5. The list of service requests will be displayed, depending on the filter
     chosen:
 
-![Criar](images/ios-10.png)
+    ![Criar](images/ios-10.png)
 
-**Figure 10 - Ticket list**
+    **Figure 10 - Ticket list**
 
-!!! note "NOTE"
+    !!! note "NOTE"
 
-    In order for the search functionality to work, it is necessary to
-    configure the corresponding web service (notices) in the "Web Service
-    Operation Register" screen in CITSmart Enterprise Web.
+        In order for the search functionality to work, it is necessary to
+        configure the corresponding web service (notices) in the "Web Service
+        Operation Register" screen in CITSmart Enterprise Web.
 
 6. In each request, when you click on it, a list of options is displayed,
     being:
 
-![Criar](images/ios-11.png)
+    ![Criar](images/ios-11.png)
 
-**Figure 11 - Ticket list**
+    **Figure 11 - Ticket list**
 
 ![Criar](images/ios-29.jpg)- capture the request to the logged in user or just view the ticket without
 capturing;
@@ -184,9 +184,9 @@ request and Print Request).
 
 1. To create a service request, press the icon ![Criar](images/ios-18.jpg) located in the lower right corner of the screen and select the ![Criar](images/ios-19.jpg) "New ticket" option, as ilustrated below:
 
-![Criar](images/ios-12.png)
+    ![Criar](images/ios-12.png)
 
-**Figure 12 - Creating a service request**
+    **Figure 12 - Creating a service request**
 
    !!! info "IMPORTANT"
 
@@ -196,21 +196,21 @@ request and Print Request).
 2. After performing the operation, the request registration message will be
     displayed.
 
-![Criar](images/ios-13.png)
+    ![Criar](images/ios-13.png)
 
-**Figure 13 - Create request**
+    **Figure 13 - Create request**
 
-![Criar](images/ios-14.png)
+    ![Criar](images/ios-14.png)
 
-**Figure 14 - Create request (continuation)**
+    **Figure 14 - Create request (continuation)**
 
-![Criar](images/ios-18.png)
+    ![Criar](images/ios-18.png)
 
-**Figure 15 - Create request (continuation)**
+    **Figure 15 - Create request (continuation)**
 
-![Criar](images/ios-15.png)
+    ![Criar](images/ios-15.png)
 
-**Figure 16 - Create request (continuation)**
+    **Figure 16 - Create request (continuation)**
 
 3. Fill in the fields as described below:
 
@@ -332,9 +332,9 @@ Some requests need approval, so to meet them you need to approve them.
 2.  The "Details" screen will be displayed displaying the description of the
     request for approval / rejection of the request;
 
-![Criar](images/ios-16.png)
+    ![Criar](images/ios-16.png)
 
-**Figure 17 - Request approval /reject screen**
+    **Figure 17 - Request approval /reject screen**
 
 1.  To approve the request, just press the Approve button;
 
@@ -342,9 +342,9 @@ Some requests need approval, so to meet them you need to approve them.
     to choose the justification for this rejection, as shown in the figure
     below:
 
-![Criar](images/ios-17.png)
+    ![Criar](images/ios-17.png)
 
-**Figure 18 - Request rejection screen justified**
+    **Figure 18 - Request rejection screen justified**
 
    -   Choose the justification for rejecting/approve the request and press the ![Criar](images/ios-28.jpg) button *Save and forward the Flow*.
 
