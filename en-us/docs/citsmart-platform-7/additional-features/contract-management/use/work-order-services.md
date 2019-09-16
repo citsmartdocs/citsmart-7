@@ -35,9 +35,9 @@ Filters
 
     -  Implantation date.
 
-![Criar](images/service-1.png)
+    ![Criar](images/service-1.png)
 
-**Figure 1 - SO service screen**
+    **Figure 1 - SO service screen**
 
 2.  To search for an SO service insert the acronym/abbreviation, name, situation
     and/or its entry date.
@@ -53,9 +53,9 @@ Items list
 2.  There are action buttons available to the user for each item in the listing,
     they are: *Edit* and *Delete*.
 
-![Criar](images/service-2.png)
+    ![Criar](images/service-2.png)
 
-**Figure 2 - SO service listing screen**
+    **Figure 2 - SO service listing screen**
 
 3.  After the search, select the desired record. Once this is done, it will be
     directed to the registration screen displaying the contents of the selected
@@ -72,9 +72,9 @@ Filling in the registration fields
     Services Entry Screen** will be displayed, as illustrated on the image
     below:
 
-![Criar](images/service-3.png)
+    ![Criar](images/service-3.png)
 
-**Figure 3 - SO services entry screen**
+    **Figure 3 - SO services entry screen**
 
 2.  Fill out the fields as instructed below:
 
