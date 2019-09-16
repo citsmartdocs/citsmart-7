@@ -3,7 +3,7 @@ Description: Manual de integração com o CITSmart Enterprise Neuro (ITSM)
 
 # Manual de integração com o CITSmart Enterprise Neuro (ITSM)
 
-Precondições
+Pré-condições
 -----------
 
 1.  O Neuro é implementado pelos pacotes cit-portal-web.war e cit-esi-web.war.
