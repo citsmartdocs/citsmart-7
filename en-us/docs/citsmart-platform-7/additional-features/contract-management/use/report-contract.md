@@ -24,9 +24,9 @@ Generating TSUS usage report
 2. The **Usage Report Generation** screen will be displayed, as shown in the
     following figure:
 
-![USTs](images/rel-contr.img1.jpg)
+    ![USTs](images/rel-contr.img1.jpg)
 
-**Figure 1 - TSU usage report generation screen**
+    **Figure 1 - TSU usage report generation screen**
 
 3.  Set the filters as needed:
 
@@ -35,7 +35,7 @@ Generating TSUS usage report
      -  **Contract**: Select the agreement to verify information about the use
         of TSU in it.
 
-Generating tsu follow-up report
+Generating TSU follow-up report
 -------------------------------
 
 *This report aims to present information monitoring the use of the TSUs*.
@@ -56,9 +56,9 @@ Generating tsu follow-up report
 2. The **TSU Monitoring Report Generation** screen will be displayed, as shown
     in the following figure:
 
-![USTs](images/rel-contr.img1.jpg)
+    ![USTs](images/rel-contr.img1.jpg)
 
-**Figure 2 - TSU tracking report generation screen**
+    **Figure 2 - TSU tracking report generation screen**
 
 3. Select the contract to verify the use of TSU in it.
 
