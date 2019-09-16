@@ -323,5 +323,4 @@ Attachments
 [3]:en-us/citsmart-platform-7/additional-features/reports/create/dashboard/configuration/images/itsm-tasks-directive.js
 [4]:en-us/citsmart-platform-7/additional-features/reports/create/dashboard/configuration/images/itsm-tasks.html
 [5]:en-us/citsmart-platform-7/additional-features/reports/create/dashboard/configuration/images/package_itsm_tasks_oracle.json
-
 [6]:en-us/citsmart-platform-7/additional-features/reports/create/dashboard/configuration/images/itsm-tasks.css
