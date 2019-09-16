@@ -35,16 +35,16 @@ Adding widget to the dashboard
 
 1. Select the dashboard and click the icon ![Criar](images/panel-4.png) to enable editing mode that allows you to add new widgets. Once this is done, the editing screen will be displayed;
 
-![Criar](images/panel-5.png)
+    ![Criar](images/panel-5.png)
 
-**Figure 2 - Edition of the dashboard**
+    **Figure 2 - Edition of the dashboard**
 
 2. Click the icon ![Criar](images/panel-6.png) to add a widget. The screen for choosing the desired widget will be
     displayed.
 
-![Criar](images/panel-7.png)
+    ![Criar](images/panel-7.png)
 
-**Figure 3 - Widgets**
+    **Figure 3 - Widgets**
 
 3. Click one of the options and then click on the widget you want to add to the
     dashboard;
@@ -61,19 +61,19 @@ Adding widget to the dashboard
 
     -  The link addition screen will be displayed, as shown in the figure below:
 
-![Criar](images/panel-9.png)
+    ![Criar](images/panel-9.png)
 
-**Figure 4 - Links registration**
+    **Figure 4 - Links registration**
 
-   -  **Title**: the widget description is displayed. Modify the same case as you
+    -  **Title**: the widget description is displayed. Modify the same case as you
     need;
 
-   -  Click the *Add* button. After that, the fields will be displayed to inform
+    -  Click the *Add* button. After that, the fields will be displayed to inform
     the data of the link;
 
-![Criar](images/panel-10.png)
+    ![Criar](images/panel-10.png)
 
-**Figure 5 - Links registration details**
+    **Figure 5 - Links registration details**
 
    -  **Type**: report the type of link;
 
