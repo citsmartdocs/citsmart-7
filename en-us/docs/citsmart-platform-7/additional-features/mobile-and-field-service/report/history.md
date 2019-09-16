@@ -26,19 +26,19 @@ Filters
     items in the standard feature listing, making it easier to find the desired
     items:
 
-   -  Contract;
+    -  Contract;
 
-   -  Unit;
+    -  Unit;
 
-   -  Executor group;
+    -  Executor group;
 
-   -  Technician;
+    -  Technician;
 
-   -  Start date;
+    -  Start date;
 
-   -  End date;
+    -  End date;
 
-   -  Status of Request.
+    -  Status of Request.
 
 ![Criar](images/history-1.png)
 
@@ -68,37 +68,37 @@ Checking the service history
 
 2. Set the filters according to your need:
 
-   -  **State**: inform the state of the service requests that you want to check
+    -  **State**: inform the state of the service requests that you want to check
     the history of your service by the field technician (s);
 
-   -  **Cities**: inform the city about the requests for services that wish to
+    -  **Cities**: inform the city about the requests for services that wish to
     verify the history of their service by the field technician (s);
 
-   -  **Contract**: inform the contract regarding the requests for services that
+    -  **Contract**: inform the contract regarding the requests for services that
     wish to verify the history of their service by the field technician (s);
 
-   -  **Unit**: inform the unit about the requests for services that wish to
+    -  **Unit**: inform the unit about the requests for services that wish to
     verify the history of their service by the field technician (s);
 
-   -  **Executor Group**: informing the executing group of service requests to
+    -  **Executor Group**: informing the executing group of service requests to
     verify attendance;
 
-   -  **Technician**: inform the technician to check the history of service
+    -  **Technician**: inform the technician to check the history of service
     requests;
 
- !!! note "NOTE" 
+    !!! note "NOTE" 
 
-    When selecting the technician, will be presented the requests for services
-    that the same attended and that makes reference to the contract (s) that he
-    belongs.
+        When selecting the technician, will be presented the requests for services
+        that the same attended and that makes reference to the contract (s) that he
+        belongs.
 
-   -  **Start date**: inform the start date that refers to the day worked by the
+    -  **Start date**: inform the start date that refers to the day worked by the
     technician;
 
-   -  **Date end**: inform the end date that refers to the day worked by the
+    -  **Date end**: inform the end date that refers to the day worked by the
     technician;
 
-   -  **Request Status**: select the service request fulfillment situation;
+    -  **Request Status**: select the service request fulfillment situation;
 
 3. After the filters are set, click the *Search* button. Once this is done, the
     history of service requests will be displayed on the map by the field
