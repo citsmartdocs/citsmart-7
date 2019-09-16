@@ -26,9 +26,9 @@ Filters
 
     -  Name
 
-![Criar](images/checkin-1.png)
+    ![Criar](images/checkin-1.png)
 
-**Figure 1 - Checkin denied reason search screen**
+    **Figure 1 - Checkin denied reason search screen**
 
 2.  Perform a checkin denied reason search;
 
@@ -46,9 +46,9 @@ Items list
     identification of the desired items in the standard feature
     listing: **Name**.
 
-![Criar](images/checkin-2.png)
+    ![Criar](images/checkin-2.png)
 
-**Figure 2 - Deny check in reason list screen**
+    **Figure 2 - Deny check in reason list screen**
 
 2.  After searching, select the intended entry. Afterwards, they will be
     redirected to the registry screen displaying the content belonging to the
@@ -65,9 +65,9 @@ Filling in the registration fields
 1.  The **Checkin Denied Reason** screen will be displayed, as
     illustrated on the image below:
 
-![Criar](images/checkin-3.png)
+    ![Criar](images/checkin-3.png)
 
-**Figure 3 - Checkin denied reason entry screen**
+    **Figure 3 - Checkin denied reason entry screen**
 
 2.  Insert the description of the checkin denied reason.
 
