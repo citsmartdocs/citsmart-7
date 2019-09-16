@@ -23,7 +23,7 @@ Preconditions
 
     - Time attendance (see knowledge [Time attendance registration and search][6])
 
-    - User group (executor) (see knowledge [Group registration and search)]([7])
+    - User group (executor) (see knowledge [Group registration and search)][7])
 
     - Flow (see knowledge [Workflow maintenance][8])
 
