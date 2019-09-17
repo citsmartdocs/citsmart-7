@@ -23,11 +23,9 @@ e-mail:
 6.  The attachments in the e-mail will be attached to the service request
     created, observed:
 
--   The parameter 318: List of file extensions that cannot be attached (For more
-    than one extension separate with semicolons);
+    - The parameter 318: List of file extensions that cannot be attached (For more than one extension separate with semicolons);
 
--   The parameter 278: Maximum size of file, in bytes to upload. Default
-    [1073741824] = 1GB.
+    - The parameter 278: Maximum size of file, in bytes to upload. Default [1073741824] = 1GB.
 
 
 
