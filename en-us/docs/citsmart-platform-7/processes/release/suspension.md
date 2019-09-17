@@ -27,13 +27,13 @@ Filters
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   Request Nº;
+    - Request Nº;
 
--   Assigned/Shared.
+    - Assigned/Shared.
 
-![figure](images/suspension-1.png)
+    ![figure](images/suspension-1.png)
 
-**Figure 1 - Release search screen**
+    **Figure 1 - Release search screen**
 
 Items list
 ----------
@@ -59,24 +59,22 @@ Filling in the registration fields
     the *Action* button and click on the *Suspend Release* option, as indicated
     on the image below:
 
-   ![figure](images/suspension-3.png)
+    ![figure](images/suspension-3.png)
    
-   **Figure 3 - Release request suspension**
+    **Figure 3 - Release request suspension**
 
 2.  The release request suspension justification entry screen will be displayed:
 
-   ![figure](images/suspension-4.png)
+    ![figure](images/suspension-4.png)
    
-   **Figure 4 - Release request suspension justification entry screen**
+    **Figure 4 - Release request suspension justification entry screen**
 
-   -   **Justification**: select the reason for the release request suspension (an
-    option **must** be selected);
+    - **Justification**: select the reason for the release request suspension (an option **must** be selected);
 
-   -   **Justification Complement**: insert a complimentary information on the
-    release request's suspension;
+    - **Justification Complement**: insert a complimentary information on the release request's suspension;
 
-   -   After inserting all data, click on the *Save* button, at which date, time
-    and user will be automatically stored for a future audit.
+    - After inserting all data, click on the *Save* button, at which date, time and user will be automatically stored for a 
+    future audit.
 
 3.  After suspending the release request, the situation will be updated to
     Suspended, as indicated on the image below:
