@@ -1649,10 +1649,9 @@ Registration and linking of related ticket
 
     The Create related by copy button is only available if parameter 385 is enabled.
 
-    - The Applicant (with their automatic extension, telephone and unit actions) and Description fields are automatically filled 
-    in;
+- The Applicant (with their automatic extension, telephone and unit actions) and Description fields are automatically filled in;
 
-    - The tabs are also automatically filled in: Attachment, Configuration Items and Knowledge Base;
+- The tabs are also automatically filled in: Attachment, Configuration Items and Knowledge Base;
 
 !!! info "IMPORTANT"
 
