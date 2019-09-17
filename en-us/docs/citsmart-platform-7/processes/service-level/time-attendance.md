@@ -11,7 +11,7 @@ Preconditions
 -------------
 
 1.  Have defined the portfolio of services to apply the time of service to the
-    services (see knowledge [Service Portfolio registration][1]), [Service
+    services (see knowledge [Service Portfolio registration][1], [Service
     registration][2]), [Service Attributes configuration][3]).
 
 How to access
@@ -26,7 +26,7 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
-   -   SLA Title.
+    - SLA Title.
 
 2.  On the Time of Service screen, click the Search tab, the respective
     search screen will be displayed as shown in the figure below:
@@ -127,8 +127,9 @@ Filling in the registrations fields
 
         Before filling in the fields of the "Automation" tab it must be properly
         parameterized, for this it is necessary to perform the steps in the FAQ
-        knowledge "[How to enable the service requests scheduling
-        rule?][4]", except for parameter 190 which should be equal to 'N' in this context.
+        knowledge, "How to enable the service requests scheduling
+        rule?" (available at the end of this knowledge), except for parameter 190 which should be equal to 'N' in this 
+        context.
 
 3.  Define the automation data:
 
@@ -206,10 +207,11 @@ Filling in the registrations fields
 [1]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
 [2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/services.html
 [3]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
-[4]:/en-us/citsmart-docs/user-guide/faq/faq.html
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
     <b>Updated:</b>08/27/2019 – Anna Martins
+
+[How to enable the service requests scheduling rule]:/en-us/citsmart-docs/user-guide/faq/faq.html
