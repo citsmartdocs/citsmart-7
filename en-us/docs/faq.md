@@ -572,11 +572,11 @@ Description: Here you have the answers to the most common questions when talking
 
     Check the zabbix context
 
-Example:
+    Example:
 
-Evm looks for zabbix.
+    Evm looks for zabbix.
 
-Zabbix needs to point to the zabbix context.
+    Zabbix needs to point to the zabbix context.
     
     See also
     
