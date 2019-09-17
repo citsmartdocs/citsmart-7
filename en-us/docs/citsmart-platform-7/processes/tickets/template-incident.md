@@ -53,9 +53,10 @@ Filters
 
 2.  Perform template search;
 
--   Enter the name of the template you want to search and click the Search button. After this, the template registration will be displayed according to the name entered;
+    - Enter the name of the template you want to search and click the Search button. After this, the template registration will be 
+    displayed according to the name entered;
 
--   If you want to list all the template records, just click directly on the Search button.
+    - If you want to list all the template records, just click directly on the Search button.
 
 Items list
 -----------------
