@@ -104,25 +104,25 @@ Items list
 
         - **ID, Configuration Item** and **Critical Quantity**.
 
-![figure](images/event-trends-3.png)
+    ![figure](images/event-trends-3.png)
    
-   **Figure 3 - Events listing screen - Configuration Item tab**
+    **Figure 3 - Events listing screen - Configuration Item tab**
 
--   Technical Service tab:
+    - Technical Service tab:
 
-    -   **ID, Configuration Item** and **Critical Quantity**.
+        - **ID, Configuration Item** and **Critical Quantity**.
 
-   ![figure](images/event-trends-4.png)
+    ![figure](images/event-trends-4.png)
    
-   **Figure 4 - Events listing screen - Technical Service tab**
+    **Figure 4 - Events listing screen - Technical Service tab**
 
--   Business Catalog tab:
+    - Business Catalog tab:
 
-    -   **ID, Configuration Item** and **Critical Quantity**.
+        - **ID, Configuration Item** and **Critical Quantity**.
 
-   ![figure](images/event-trends-5.png)
+    ![figure](images/event-trends-5.png)
    
-   **Figure 5 - Events listing screen - Business Catalog tab**
+    **Figure 5 - Events listing screen - Business Catalog tab**
 
 3.  Each result tab will contain a button for generating the trend analysis
     chart, which displays the dates that comprise the period reported in the
