@@ -34,7 +34,7 @@ Items list
     listing: **ID** and **Name**.
 
 2.  There is an action button available to the user for each item in the
-    listing, it is: *Edit:*
+    listing, it is: *Edit*
 
 3.  The screen for defining the **Access Permission** to the functionalities of
     the **Request and Incident Management** screen will be displayed, in which
