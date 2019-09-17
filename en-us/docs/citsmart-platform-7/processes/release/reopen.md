@@ -33,44 +33,44 @@ Filters
 1.  The following filters enable the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
-   -   Opening Period;
+    - Opening Period;
 
-   -   Closing Period;
+    - Closing Period;
 
-   -   Number;
+    - Number;
 
-   -   Contract;
+    - Contract;
 
-   -   Order by;
+    - Order by;
 
-   -   Unity;
+    - Unity;
 
-   -   User;
+    - User;
 
-   -   Situation;
+    - Situation;
 
-   -   Priority;
+    - Priority;
 
-   -   Solution Group;
+    - Solution Group;
 
-   -   Would you like to see the description report?.
+    - Would you like to see the description report?.
 
-2.  By accessing the functionality, the **Release Request Search** window will
-    be displayed, at which the necessary search filters can be inserted
+2. By accessing the functionality, the **Release Request Search** window will be displayed, at which the necessary search filters 
+can be inserted
 
-   ![figure](images/reopen-2.png)
+![figure](images/reopen-2.png)
    
-   **Figure 2 - Release request search screen**
+**Figure 2 - Release request search screen**
 
--   Search the intended release request to be reopened;
+- Search the intended release request to be reopened;
 
--   Afterwards, click the reopen ![figure](images/reopen-3.png) icon on the release request. Once this is
+- Afterwards, click the reopen ![figure](images/reopen-3.png) icon on the release request. Once this is
     done, a message will be displayed to confirm the reopening of the release
     request;
 
--   Click *Ok* to perform the operation;
+- Click *Ok* to perform the operation;
 
--   The release request will be reopened and sent to the applicant in order to
+- The release request will be reopened and sent to the applicant in order to
     be executed again.
 
 Items list
