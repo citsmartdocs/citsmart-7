@@ -26,39 +26,31 @@ Filters
     items in the standard feature listing, making it easier to find the desired
     items:
 
-   -   **Opening Period**: inform the period of registration of service requests;
+    - **Opening Period**: inform the period of registration of service requests;
 
-   -   **Contract**: inform the contract to verify the service requests related to
-    the same;
+    - **Contract**: inform the contract to verify the service requests related to the same;
 
-   -   **Type**: select the type of request you want to check;
+    - **Type**: select the type of request you want to check;
 
-   -   **Service Name**: inform the service to verify the amount of requests
-    related to the same;
+    - **Service Name**: inform the service to verify the amount of requests related to the same;
 
-   -   **Executor Group**: select the executor group to check the service requests
-    that were directed to it;
+    - **Executor Group**: select the executor group to check the service requests that were directed to it;
 
-   -   **User**: inform the requesting user name to verify the service requests
-    requested by the same;
+    - **User**: inform the requesting user name to verify the service requests requested by the same;
 
-   -   **Urgency**: select the degree of urgency to verify the service requests
-    related to the same;
+    - **Urgency**: select the degree of urgency to verify the service requests related to the same;
 
-   -   **Impact**: select the degree of impact to verify service requests related
-    to it;
+    - **Impact**: select the degree of impact to verify service requests related to it;
 
-   -   **Configuration Item**: inform the configuration item to check the service
-    requests related to it;
+    - **Configuration Item**: inform the configuration item to check the service requests related to it;
 
-   -   **Cause**: inform the cause to verify the service requests caused by it;
+    - **Cause**: inform the cause to verify the service requests caused by it;
 
-   -   **Critical Quantity**: report the critical number of service requests that
-    deserve attention and analysis.
+    - **Critical Quantity**: report the critical number of service requests that deserve attention and analysis.
 
-   ![figure](images/request-trends-1.png)
+    ![figure](images/request-trends-1.png)
    
-   **Figure 1 - Service requests trend analysis screen**
+    **Figure 1 - Service requests trend analysis screen**
 
 2.  Fill in the filters as needed;
 
@@ -77,15 +69,14 @@ Items list
 3.  Once this is done, the system will filter and total the number of requests
     that satisfy the selected filters and generate three results guides;
 
-   ![figure](images/request-trends-2.png)
+    ![figure](images/request-trends-2.png)
    
-   **Figure 2 - Results for trend analysis**
+    **Figure 2 - Results for trend analysis**
 
-   !!! warning "ATTENTION"
+     !!! warning "ATTENTION"
 
-        The critical amount of requests equal to or greater than the minimum
-        critical amount reported in the filter will be displayed on each tab
-        (Service, Cause and Configuration Item).
+        The critical amount of requests equal to or greater than the minimum critical amount reported in the filter will be 
+        displayed on each tab (Service, Cause and Configuration Item).
 
 4.  Each tab will display the results for each type (service, cause and
     configuration item) and in each item two buttons will be displayed, one
@@ -131,7 +122,7 @@ Filling in the registration fields
 See also
 --------
 
--   [Event trend analysis][4])
+-   [Event trend analysis][4]
 
 
 
