@@ -25,13 +25,13 @@ Filters
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   Request Nº;
+    - Request Nº;
 
--   Assigned/Shared.
+    - Assigned/Shared.
 
-![figure](images/test-1.png)
+    ![figure](images/test-1.png)
 
-**Figure 1 - Release search screen**
+    **Figure 1 - Release search screen**
 
 Items list
 ----------
@@ -50,9 +50,9 @@ Items list
     click on the *Action* button and click on the *Start/Run Task* option, as
     indicated on the image below:
 
-   ![figure](images/test-2.png)
+    ![figure](images/test-2.png)
    
-   **Figure 2 - Execute current release request task**
+    **Figure 2 - Execute current release request task**
 
 4.  The **Release Request Registration** screen appears with the fields filled,
     with the contents of the selected request:
@@ -67,28 +67,23 @@ Linking attachments
 
 1.  To attach a file to the release request, proceed as explained below:
 
-   -   On the right side of the release request screen, click on
-    the **Attachments** tab, as illustrated on the image:
+    - On the right side of the release request screen, click on the **Attachments** tab, as illustrated on the image:
 
-   ![figure](images/test-3.png)
+    ![figure](images/test-3.png)
    
-   **Figure 3 - Attachments guide**
+    **Figure 3 - Attachments guide**
 
-   -   The file attachment screen will be displayed, as illustrated on the image
-    below:
+    - The file attachment screen will be displayed, as illustrated on the image below:
 
-   ![figure](images/test-4.png)
+    ![figure](images/test-4.png)
    
-   **Figure 4 - File addition screen**
+    **Figure 4 - File addition screen**
 
-   -   To add a file, click the *Choose File* button. The screen will appear to
-    select the desired file;
+    - To add a file, click the *Choose File* button. The screen will appear to select the desired file;
 
-   -   Select the file and after that, enter the description of the file and click
-    the *Add* button;
+    - Select the file and after that, enter the description of the file and click the *Add* button;
 
-   -   After adding the file, click the *Close* button to return to the release
-    request screen.
+    - After adding the file, click the *Close* button to return to the release request screen.
 
 2.  After saving the information regarding the test performed, click on
     the *Save and Forward Flow* button perform the operation, at which the
@@ -97,8 +92,7 @@ Linking attachments
 3.  To save only the registerec information on the test performed and keep the
     current task, click the *Save and Keep the Current Task* button:
 
--   In both cases prior to clicking the *Save* button the date, time and user
-    will be automatically stored for a future audit.
+    - In both cases prior to clicking the *Save* button the date, time and user will be automatically stored for a future audit.
 
 Filling in the registration fields
 ----------------------------------
