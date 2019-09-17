@@ -41,18 +41,18 @@ Items list
     it displays the **Access Profiles** already registered in the system. The
     following figure illustrates this screen:
 
-   ![figure](images/permission-1.png)
+    ![figure](images/permission-1.png)
    
-   **Figure 1 - Access permission screen - Request and incident management**
+    **Figure 1 - Access permission screen - Request and incident management**
 
 4.  Click the *Edit* button of the Access Profile to define the type of access
     to the features of the Request and Incident Management screen. Once this is
     done, the Request and Incident Management features will be presented, as
     shown in the figure below:
 
-   ![figure](images/permission-2.png)
+    ![figure](images/permission-2.png)
    
-   **Figure 2 - Definition of the type of access**
+    **Figure 2 - Definition of the type of access**
 
 5.  For each Request and Incident Management feature, select the actions (view,
     save and/or delete) that the Profile can perform;
