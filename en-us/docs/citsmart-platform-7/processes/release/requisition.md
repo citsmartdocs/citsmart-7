@@ -46,13 +46,13 @@ Filters
     in the standard feature listing, making it easier to locate the desired
     items:
 
--   Request number;
+    - Request number;
 
--   Assigned/Shared.
+    - Assigned/Shared.
 
-![figure](images/requisition-1.png)
+    ![figure](images/requisition-1.png)
 
-**Figure 1 - Release search screen**
+    **Figure 1 - Release search screen**
 
 Items list
 ----------
@@ -80,38 +80,36 @@ Filling in the registration fields
 
 2.  Understanding the main screen of the feature:
 
-   ![figure](images/requisition-3.png)
+    ![figure](images/requisition-3.png)
    
-   **Figure 3 - Release Management screen**
+    **Figure 3 - Release Management screen**
 
-A quick overview of the functionality:
+    A quick overview of the functionality:
 
-- **1**  ![figure](images/requisition-17.png) : extends the Release Management screen;
+    - **1**  ![figure](images/requisition-17.png) : extends the Release Management screen;
 
-- **2**:  Management - the release Request records for attendance and management
-    are presented;
+    - **2**:  Management - the release Request records for attendance and management are presented;
 
-- **3**:  Graphs - graphs the information of the release Requests by situation (in
-    progress, suspended and delayed), by priority and by group;
+    - **3**:  Graphs - graphs the information of the release Requests by situation (in progress, suspended and delayed), by 
+    priority and by group;
 
-- **4**: Filters - displays the filters for search of release Request;
+    - **4**: Filters - displays the filters for search of release Request;
 
-- **5**: Actions - allows you to register a new problem and perform a quick
-    search for a release request;
+    - **5**: Actions - allows you to register a new problem and perform a quick search for a release request;
 
-- **6**: Reports - displays the release reports for release management.
+    - **6**: Reports - displays the release reports for release management.
 
-   ![figure](images/requisition-4.png)
+    ![figure](images/requisition-4.png)
    
-   **Figure 4 - Release management screen**
+    **Figure 4 - Release management screen**
 
 3.  Record the contract information as indicated below:
 
-   ![figure](images/requisition-5.png)
+    ![figure](images/requisition-5.png)
    
-   **Figure 5 - Release request record - contract information**
+    **Figure 5 - Release request record - contract information**
 
-   -  **Contract**-: report the contract regarding the release request.
+    - **Contract**-: report the contract regarding the release request.
 
 4.  Record the information of the requester, as indicated below:
 
@@ -122,12 +120,11 @@ A quick overview of the functionality:
    -   **Requested by**: enter the name of the person requesting the release
     request;
 
-   !!! note "NOTE"
+    !!! note "NOTE"
 
-      After informing the requesting party, if they already have the personal
-      data (contact information, e-mail, telephone, extension and/or unit)
-      registered in the system, the fields referring to this data will be filled
-      by the system with the information.
+        After informing the requesting party, if they already have the personal data (contact information, e-mail, telephone, 
+        extension and/or unit) registered in the system, the fields referring to this data will be filled by the system with
+        the information.
 
    -   **Username**: enter the name of a contact person about the release request;
 
