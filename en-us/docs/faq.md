@@ -1,7 +1,7 @@
 Title: FAQ
-Description: Aqui você tem as respostas das pergundas mais comuns quando se fala da ferramenta CITSmart.
+Description: Here you have the answers to the most common questions when talking about the CITSmart tool.
 
-# Perguntas Frequentes - FAQ
+# Frequently Asked Questions - FAQ
 
 !!! Question "Error: digital certificate not signed by the authority (CA)"
 
@@ -151,7 +151,7 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     
         From the moment of the entry, at the scheduled time and date, the unanswered requests (beyond the deadline defined on parameter 139) will automatically be answered (according to the value determined on parameter 152), in case parameter 151 has an "Y" value.
         
-!!! Question "Como configurar as notificações de e-mail de solicitação de serviços?"
+!!! Question "How to configure the service request notification e-mails?"
 
     When registering a service request, perform determined activities and its execution, the petitioner will be notified.
 
@@ -287,8 +287,7 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     
     3. Perform the design;
     
-    4. Access the Service Asset Map Design functionality for the Support/Technical Service **Portfolio and Catalog Management > 
-    Portfolio and Catalog Management > Support Menu > Advanced Portfolio > Service Catalog > Next Service > Service Map**.
+    4. Access the Service Asset Map Design functionality for the Support/Technical Service **Portfolio and Catalog Management > Portfolio and Catalog Management > Support Menu > Advanced Portfolio > Service Catalog > Next Service > Service Map**.
 
     5. The screen for designing the assets that make up the support / technical service will be presented;
 
@@ -314,7 +313,7 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     
     7. Click on the Save button to confirm the procedure.
     
-    8. Access the request, incident and contract services for the business service Portfolio and Catalog Management > Portfolio and Catalog Management > Support Menu > Advanced Portfolio > Service Catalog →> Next Service and technical service Portfolio Management and Catalog > Portfolio and Catalog Management > Support Menu > Advanced Portfolio > Service Catalog > Next Service and verify if the e-mail template that has been created is entered in the field "E-mail Template at Completion of Requests/Incidents"
+    8. Access the request, incident and contract services for the business service Portfolio and Catalog Management > Portfolio and Catalog Management > Support Menu > Advanced Portfolio > Service Catalog > Next Service and technical service Portfolio Management and Catalog > Portfolio and Catalog Management > Support Menu > Advanced Portfolio > Service Catalog > Next Service and verify if the e-mail template that has been created is entered in the field "E-mail Template at Completion of Requests/Incidents"
     
     9. When an e-mail notification is received warning the service request has been executed, a link to the satisfaction survey will be displayed. Clicking on the link opens a screen to evaluate the attendance.
     
@@ -491,9 +490,9 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
         
         - JDBC_ALIAS_BPM_EVENTOS = java: / jdbc / $ {value} (This parameter defines the name of the BPM event datasource. Enter the name of the datasource, eg java: / jdbc / citsmartBpmEvents).
         
-!!! Question "How to navegate the screens using the CITSmart Enterprise ITSM controls?"
+!!! Question "How to navigate the screens using the CITSmart Enterprise ITSM controls?"
 
-    [Navegation](/en-us/citsmart-platform-7/get-started/navigate.html)
+    [Navigation](/en-us/citsmart-platform-7/get-started/navigate.html)
     
 !!! Question "How can Event Management become a business monitoring tool?"
 
@@ -537,149 +536,143 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     
     Boosters are open for use, but to use them requires a better analysis of the importance of fields and documents added to Solr, by the knowledge base.
     
-!!! Question "Como vincular colaboradores (usuários) a um grupo?"
+!!! Question "How to link staff members (users) to a group?"
 
-    Há duas formas de vincular os colaboradores (usuários) aos grupos, sendo:
+    There are two ways to link staff members (users) to groups, being:
     
-    a. A partir do cadastro de grupo
+    a. From the group´s registry
     
-    1. Acesse a funcionalidade de Cadastro de Grupo através da navegação no menu principal. Posicione o mouse na opção Acesso e 
-    Permissão e clique na opção Grupo (ver conhecimento [Cadastro e pesquisa de grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html));
+    1. Access the Group Entry feature navigating through the main menu. Place the cursor on the option Access and Permissions, and click on the Group option (see knowledge [Group registration and search](/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html));
     
-    2. Será apresentada a tela de Cadastro de Grupo. Caso o grupo já esteja registrado no sistema, realize a pesquisa do grupo e 
-    selecione o mesmo. Feito isso, será exibida a tela de registro do determinado grupo;
+    2. The Group Entry screen will be displayed. If the group is already registered in the system, perform a group search and select it. Then, the intended group entry screen will be displayed;
+
+    3. Click on the add icon of the Staff Member field, the staff member search screen will be displayed;
+
+    4. Search for the intended staff member and select the entry to add them to the group. Afterwards, the staff member will be linked to the group as exemplified on the following image:
     
-    3. Clique no ícone de adicionar do campo Colaboradores, será exibida a tela para pesquisa de colaboradores;
-    
-    4. Realize a pesquisa do colaborador que deseja vincular ao grupo e selecione o mesmo. Após isso, o colaborador será 
-    vinculado ao grupo conforme indicado no exemplo ilustrado na figura abaixo:
-    
-        ![Colaboradores](images/cola.img1.jpg)
+        ![staff](images/cola.img1.jpg)
         
         **Figura 1 - Tela de Colaboradores**
         
-    5. Após o vínculo, clique no botão "Gravar" para efetuar a operação, neste caso a data, hora e usuário serão armazenados 
-    automaticamente para uma futura auditoria.
+    5. After linking, click on the Save button to confirm the entry, at which date, time and user will be automatically stored for a future audit.
     
-!!! Question "[Eventos] Erro: "Falha ao tentar conectar à ferramenta de monitoração" para Zabixx"
+    b. From the user´s registry
+    
+      1. Access the User Entry feature navigating through the main menu. Place the cursor on the option General Registration, Staff Management and click on the User option (see knowledge [Staff registration and search](/en-us/citsmart-platform-7/initial-settings/access-settings/user/employee.html);
 
-    Verifique o contexto zabbix:
-    
-    Exemplo:
-    
-    O Evm procura o zabbix.
-    
-    O Zabbix precisa apontar para o contexto /zabbix.
-    
-    Veja também:
-    
-    - [Cadastro e pesquisa das ferramentas de monitoração de eventos](/pt-br/citsmart-platform-7/processes/event/event-monitoring-tools.html)
-    
-!!! Question "O arquivo de backup será sobrescrito ou terá um arquivo para cada dia?"
+      2. The User Entry screen will be displayed. If the user is already registered in the system, perform a user search and select it;
 
-    Se a sua rotina for um backup por dia, vai ser criado um arquivo por dia, contendo no nome a data do respectivo arquivo.
-    
-!!! Question "O que é preciso para configurar um IC que está fisicamente na rede da empresa do cliente para ser inventariado pelo CITSmart Enterprise ITSM que está na cloud ofertada pela CITSmart Corporation?"
+      3. Click on the add icon of the Group field, the group search screen will be displayed;
 
-    [Original] Na cloud, o mongodb e evm/inv ficam na estrutura do cliente, devido não ser possível se conectar em um range 
-    interno com origem da cloud.
-    
-    [Para validação] Neste cenário específico, os componentes MongoDB, CITSmart EVM e CITSmart Inventory devem ser instalados e 
-    configurados dentro da estrutura de rede do cliente, pois não é possível ao CITSmart Enterprise ITSM (Cloud) se conectar a um 
-    range interno de um cliente.
-    
-!!! Question "Para qual destinatário será feito envio de notificações de ICs?"
+      4. Search for the intended group and select it. Afterwards, the user will be linked to the group;
 
-    As notificações de ICs serão enviadas para o destinatário definido na tela de Parâmetro do Citsmart.
+      5.After linking, click on the Save button to confirm the entry, at which date, time and user will be automatically stored for a future audit
     
-    Para definir o destinatário, proceda conforme orientações abaixo:
-    
-    1. Acesse a funcionalidade de Parâmetros do Citsmart através da navegação no menu principal Parametrização > Parâmetros 
-    Citsmart;
-    
-    2. Será apresentada a tela de Parâmetros do Citsmart, clique na aba Pesquisa de Parâmetros do Citsmart;
-    
-    3. Será apresenta a tela para pesquisa de parâmetros;
-    
-    4. Realize a pesquisa do parâmetro "90 - Envio de e-mails de Notificação de ICs (1-Grupo, 2-Proprietário, 3-Todos)";
-    
-    5. Selecione o mesmo;
-    
-    6. Será apresentada a tela de registro do parâmetro com o conteúdo referente ao registro selecionado, no campo valor, informe 
-    o número de identificação do destinatário (1 - Grupo, 2 - Proprietário ou 3 - Todos);
-    
-    7. Clique no botão "Gravar" para efetuar a operação, neste caso a data, hora e usuário serão armazenados automaticamente para 
-    uma futura auditoria;
-    
-    8. Após configuração do parâmetro, será realizado o envio de e-mails de notificações de ICs para o destinatário (grupo, 
-    proprietário ou todos), conforme especificado no valor do parâmetro.
-    
-!!! Question "Por que a numeração de solicitação de serviço nem sempre seguirá uma ordem sequencial rigorosa/perfeita na tela de solicitação de serviços ou em alguns relatórios?"
+!!! Question "[Events] Error: "Failed to connect to monitoring tool" for Zabixx"
 
-    Tanto a tela de Solicitação de Serviços quanto em alguns relatórios (tais como "Qualidade de Atendimento - SLA"), a ordenação 
-    do número das solicitações segue uma ordem sequencial crescente, exceto quando:
-    
-    1. Os relatórios agrupam os dados por algum critério especial (ex.: pelo prazo de SLA, que é o que acontece no caso do 
-    relatório "Qualidade de Atendimento - SLA")
-    
-    2. Quando o recurso denominado Sequence Block é impactado por um fator externo, isso ocorre se:
-    
-    - Há uma parada da aplicação para atualização de versão, ou manutenção de ambiente e posterior retorno.
-    - O ambiente é clusterizado.
-    
-!!! Question "Por que em alguns relatórios a mesma solicitação aparece mais de uma vez?"
+    Check the zabbix context
 
-    Em alguns relatórios como por exemplo o "Relatório Incidentes / Solicitações de Serviços - Detalhado", tanto no formato pdf 
-    como no xls, pode existir sim a mesma solicitação mais de uma vez, contudo são detalhamentos distintos porque trata de cada 
-    etapa da solicitação, então cada vez que ela "repete" é porque muda-se a tarefa, ou o responsável, ou a fase, ou a situação, 
-    ou o grupo solucionador ou a data hora final de atendimento.
-    
-    Já em outros relatórios, tais como o "Relatório Incidentes / Solicitações de Serviços" não há detalhamento da solicitação de 
-    acordo com as atividades e por isso não é mostrada a solicitação mais de uma vez.
-    
-!!! Question "Por que o resultado é "Relatório Vazio" ao gerar o relatorioControlePercentualQuantitativoSla selecionando no filtro a situação "em Andamento" e o "grupo solucionador"?"
+Example:
 
-    Não se trata de um erro, o campo de grupo solucionador é preenchido somente quando a solicitação é encerrada, isso faz com 
-    que só traga resultados para as situações do tipo "Fechada", incompatível com o que se está pedindo/informando nos filtros.
-    
-!!! Question "Por que os horários criados pela ferramenta estão diferentes da hora atual?"
+Evm looks for zabbix.
 
-    *Cenário*
+Zabbix needs to point to the zabbix context.
     
-    1. Ao criar um chamado, a hora fica diferente da hora real, alternando entre 1 (uma) à 3 (três) horas de atraso ou 
-    adiantamento.
+    See also
     
-    *O que verificar*
+    - [Event monitoring tools registration and search](/en-us/citsmart-platform-7/processes/event/event-monitoring-tools.html)
     
-    1. Arquivo de configuração do Banco Postgresql:
+!!! Question "Will the backup be overwritten or will there be a file for every day?"
+
+    If your routine has a daily backup, a file will be created every day, containing the name and date of the file.
+    
+!!! Question "What does it take to configure an IC that is physically on the client's corporate network to be inventoried by the CITSmart Enterprise ITSM that is in the cloud offered by CITSmart Corporation?"
+
+    [Original] In the cloud, mongodb and EVM / IVN are in the client structure, because it is not possible to connect in an internal range with source from the cloud.
+
+    [For validation] In this particular scenario, the MongoDB, CITSmart EVM, and CITSmart Inventory components must be installed and configured within the client's network framework because CITSmart Enterprise ITSM (Cloud) can not connect to a client's internal range.
+    
+!!! Question "To which recipient will be sent notifications of ICs?"
+
+    IC notifications will be sent to the recipient defined in the Citsmart Parameter screen.
+
+    To set the recipient, proceed as follows:
+    
+    1. Access the Citsmart Parameters feature by navigating in the main menu Parameterization → Citsmart Parameters.
+
+    2. The Citsmart Parameters screen will appear, click the Citsmart Parameters Search tab.
+
+    3. It will display the screen for parameter search;
+
+    4. Perform the search for parameter "90 - Sending Notification E-mails from ICs (1-Group, 2-Owner, 3-All)"
+
+    5. Select the same.
+
+    6. The parameter registration screen with the contents of the selected record will be displayed, in the value field, enter the identification number of the recipient (1 - Group, 2 - Owner or 3 - All)
+
+    7. Click the Record button to perform the operation, in which case the date, time and user will be stored automatically for a future audit;
+
+    8. After configuration of the parameter, notifications of IC notifications will be sent to the recipient (group, owner or all), as specified in the parameter value.
+
+    
+!!! Question "Why will service request numbering not always follow a strict / perfect sequential order on the service request screen or in some reports?"
+
+    Both the Service Request screen and some reports (such as "Quality of Service - SLA"), the ordering of the number of requests follows an increasing sequential order, except when:
+    
+    1. The reports group the data by some special criteria (eg, by SLA, which is what happens in the case of the report "Quality of Service - SLA")
+
+    2. When the feature called Sequence Block is impacted by an external factor, this occurs if:
+
+      - There is an application stop for version upgrade, or environment maintenance and later return.
+    
+      - The environment is clustered.
+    
+!!! Question "Why in some reports does the same request appear more than once?"
+
+    In some reports such as "Report Incidents / Service Requests - Detailed", both in pdf format and in xls format, the same request may exist more than once, however they are distinct details because it deals with each step of the request, so each time it "repeats" is because it changes the task, or the responsible, or the phase, or the situation, or the group solver or the final hour of service.
+
+    In other reports, such as the "Report Incidents / Service Requests", there is no detail of the request according to the activities and therefore the request is not shown more than once.
+    
+!!! Question "Why is the result "Empty Report" when generating the reportQuantitativeControlPercentual when selecting in the filter the situation "in progress" and the "solver group"?"
+
+    This is not an error, the solver group field is populated only when the request is terminated, this causes to only brings results to situations such as "Closed", incompatible with what is being requested / reported in the filters.
+    
+!!! Question "Why are the schedules created by the tool different from the current time?"
+
+    *Scenario*
+    
+    1. When creating a ticket, the time is different from the actual time, alternating between 1 (one) and 3 (three) hours of delay or advance.
+    
+    *What to check*
+    
+    1. Postgresql database configuration file:
     
         - Postgresql.conf
         - timezone = 'BRAZIL/EAST'
         
-    2. No container cloud:
-    
-        - Configuração de timezone no sistema operacional.
+    2. On the container cloud:
+
+        - Setting timezone on the operating system.
         
-    3. Configuração do TimeZone no JRE:
+    3. Setting up the TimeZone on the JRE:
     
         - https://docs.oracle.com/javase/9/troubleshoot/time-zone-settings-jre.htm#JSTGD362
         
-!!! Question "Quais as permissões necessárias na pasta de destino do backup da tabela Logdados?"
+!!! Question "What is the type of permission for the Logdados table backup folder?"
 
-    A permissões na pasta devem ser de leitura e gravação para o usuário que o JBoss utiliza.
+    The folder permissions must be to read and write for the JBoss user.
     
-!!! Question "Quais o significado de cada status do inventário de ICs?"
+!!! Question "What is the meaning of each inventory status of CIs?"
 
-    - **Inventariado**: o inventário conseguiu ler as informações do IC e se encerrou com sucesso;
-    - **Ignorado**: na tela de citsmart/pages/evmInventoryConfiguracao/evmInventoryConfiguracao.load temos uma opção para ignorar 
-    as máquinas já inventariadas, essa marcação aparece quando isso ocorre;
-    - **Inacessível**: quando o servidor encontra o IC, mas não consegue trazer as informações;
-    - **Não inventariado: quando nem encontra o IC na rede, mas tem conhecimento de que ele já existiu;
-    - **Em execução**: durante a leitura do inventário, o IC fica nesse status.
+    - **Inventory** - the inventory was able to read the CI information and ended successfully;
+    - **Ignored** - In the citsmart / pages / evmInventoryConfiguracao / evmInventoryConfiguracao.load screen we have an option to ignore the machines being inventoried, this markup appears when this occurs;
+    - **Unreachable** - When the server encounters the IC but can not bring the information;
+    - **Not inventoried** - When neither it finds the IC in the network, but knows that it already existed;
+    - **Running** - While reading the inventory, the IC is in this status.
     
-!!! Question "Qual é o conjunto de scripts indicado para a exclusão completa de um portfólio?"
+!!! Question "What is the set of scripts indicated for the complete exclusion of a portfolio?"
 
-    Supondo que o número do Portfólio seja 1 apenas para exemplificar.
+    Assuming the Portfolio number is 1 just to exemplify.
     
     DELETE FROM ocorrenciaservicocontrato osc WHERE osc.ID IN(
     SELECT osc.id from ocorrenciaservicocontrato osc
@@ -747,7 +740,7 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     
     DELETE FROM portfolioservico p WHERE p.idportfolioservico = 2;
     
-!!! Question  "Qual é o conjunto de scripts indicado para limpar todos os dados de inventário e de itens de configuração?"
+!!! Question  "What is the set of scripts set to clear all inventory data and configuration items?"
 
     1. update evm_gerente set iditemconfiguracaopai = null;
     2. update parametrocorpore set valor = 'NAME' where idparametrocorpore = 4;
@@ -775,65 +768,60 @@ Description: Aqui você tem as respostas das pergundas mais comuns quando se fal
     24. delete from tipoitemconfiguracao;
     25. delete from itemconfiguracao;
     
-!!! Question "Qual o limite de tamanho de arquivo para upload nas funcionalidades com este recurso?"
+!!! Question "What is the attachment upload features file size limit?"
 
-    O upload dos anexos especifica o tamanho limite de 15 Mbytes para cada arquivo carregado no sistema. Porém, na tela do Portal 
-    continua com o limite de 5 Mbytes para o tamanho do arquivo.
+    The attachment upload features specify a 15 MB size limit for each file loaded into the system. However, on the portal screen the size limit remains at 5 MB.
     
-!!! Question "Qual o significado de cada privacidade que um conhecimento pode ter na base de conhecimento?"
+!!! Question "What is the meaning of each privacy a knowledge can have in the knowledge base?"
 
-    - **Público**: todos os usuários com acesso no Portal do Conhecimento possuem acesso, independente se têm acesso à pasta do 
-    conhecimento;
-    - **Confidencial**: somente o autor e o aprovador podem visualizar o conhecimento;
-    - **Interno**: somente pessoas com permissão na pasta do conhecimento podem visualizar.
+    - **Public**: all users with access to the Knowledge Portal have access, regardless of whether they have access to the knowledge folder.
+    - **Confidential**: only author and approver can view knowledge.
+    - **Internal**: only people with permission in the knowledge folder can view.
     
-!!! Question "Quando ocorre a limpeza dos dados da tabela Logdados?"
+!!! Question "When is removed the data from the Logdata table?"
 
-    A rotina de backup da tabela LogDados retira os dados da tabela e salva em arquivo, ou seja, a tabela fica limpa após o 
-    processamento.
-    
-!!! Question "Quando ocorre a sincronização dos dados com o LDAP?"
+    The backup routine of the LogData table removes the data from the table and saves it to a file, that is, the table becomes clean after processing.
+  
+!!! Question "When does data synchronization occur with LDAP?"
 
-    O sistema sincroniza os dados das credenciais de seus usuários com o LDAP em três situações distintas:
-    
-    1. Na ativação da aplicação, geralmente em sequência ao procedimento de atualização de versão do produto;
-    
-    2. Quando o usuário faz o logon (o acesso ao sistema com seu login e senha), nesse momento o sistema automaticamente verifica 
-    a autenticação e permissão do usuário;
-    
-    3. Na funcionalidade Configuração de LDAP, quando o usuário clica na opção 'Sincronizar'.
-    
-!!! Question "[Ticket/Tarefa] Erro: horário de cadastro de ticket/tarefa diferente de um servidor"
+    The system synchronizes the credential data of its users with LDAP in three different situations:
 
-    *Descrição*:
+    1. On application activation, usually in sequence to the product version update procedure;
+
+    2. When the user logs in (access to the system with its login and password), then the system automatically checks the user's authentication and permission;
+
+    3. In the LDAP Configuration menu option, when the user clicks its 'Synchronize' link.
     
-    O cliente informa que o horário da criação de um chamado está com o horário diferente de um servidor.
+!!! Question "[Ticket/task] Error: Ticket / task registration time different from a server"
+
+    *Description*:
     
-    *Solução/Resposta*:
+    The client informs that the time of the creation of a call is with the different time of a server.
     
-    Para verificar a hora que está no banco de dados, siga os seguintes passos:
+    *Solution/response*:
     
-    1. Acesse a funcionalidade de execução de scripts através da navegação no menu principal Sistema > Banco de Dados > Execução 
-    de Scripts.;
-    
-    2. Será apresentada a tela de Cadastro de Scripts;
-    
-    3. Inserir no campo SQL Query a seguinte consulta: SELECT CURRENT_TIMESTAMP ;
-    
-    4. Clique em Executar;
-    
-    5. O sistema retorna os seguintes resultados:
-    
-        - Primeiro o resultado da data e hora do banco de dados;
-        - Segundo o horário do Servidor.
-        
-    6. Verifique as horas e se elas não baterem com a hora atual de sua localização abra um chamado com essas evidências à 
-    Infraestrutura.
+    To check the time in the database, follow these steps:
+
+    1. Access the scripting functionality by navigating in the main menu System → Database → Scripts Execution;
+
+    2. The Scripts Execution screen will be displayed;
+
+    3. Insert in the SQL Query field the the following query: SELECT CURRENT_TIMESTAMP ;
+
+    4. Click on the Execute;
+
+    5. The system returns the following results:
+
+       - First the result of the date and time of the database;
+
+       - According to the Server's schedule.
+
+    6. Check the times and if they do not match the current time of your location open a call with this evidence to the Infrastructure.
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/31/2019 - Larissa Lourenço
+    <b>Updated:</b>09/17/2019 - Anna Martins
     
 
-[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
+[2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
