@@ -1,9 +1,9 @@
 Title: Environment setup guide
 Descrição: The Environment Setup feature is intended to facilitate a direct intervention.
+
 # Environment setup guide
 
-The Environment Setup feature is intended to facilitate a direct intervention (correction) in the environment (server) and to 
-change the system logos.
+The Environment Setup feature is intended to facilitate a direct intervention (correction) in the environment (server) and to change the system logos.
 
 How to access
 -----------------
