@@ -38,7 +38,7 @@ To relate the group to the contract, proceed as follows:
 
 
 
-[1]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[1]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html
 
 !!! tip "About"
 
