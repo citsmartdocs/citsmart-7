@@ -26,13 +26,13 @@ Filters
     in the standard feature listing, making it easier to locate the desired
     items as shown in the figure below:
 
-   -   Subject;
+    - Subject;
 
-   -   Status.
+    - Status.
 
-   ![figura](images/sla-requiriment-1.png)
+    ![figura](images/sla-requiriment-1.png)
    
-   **Figure 1 - Service Level Agreement Condition search screen**
+    **Figure 1 - Service Level Agreement Condition search screen**
 
 2.  To search for a service level agreement condition entry, insert the subject
     and/or status of the service level agreement condition. Afterwards, the
@@ -90,7 +90,7 @@ Filling in the registration fields
     audit.
 
 
-[1]:/en-us/citsmart-platform-7/processes/tickets/ticket-management.html
+[1]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/employee.html
 
 
 !!! tip "About"
