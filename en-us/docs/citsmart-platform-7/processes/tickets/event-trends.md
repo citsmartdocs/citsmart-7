@@ -51,29 +51,26 @@ Filters
 
 2.  Fill in the fields according to the following guidelines:
 
--   **EVM - CITSmart Event Monitor Connection**: connection of the CITSmart
-    Event Monitor: inform the connection of the CITSmart Event Monitor;
+    - **EVM - CITSmart Event Monitor Connection**: connection of the CITSmart Event Monitor: inform the connection of the
+    CITSmart Event Monitor;
 
--   **Global Events**: select the desired option;
+    - **Global Events**: select the desired option;
 
--   **Classification**: enter the classification of the event you want to
-    analyze;
+    - **Classification**: enter the classification of the event you want to analyze;
 
--   **Monitoring Tool - Connection**: inform the monitoring tool;
+    - **Monitoring Tool - Connection**: inform the monitoring tool;
 
--   **Parent Configuration Item**: enter the parent configuration item;
+    - **Parent Configuration Item**: enter the parent configuration item;
 
--   **Managed Configuration Item**: report the managed configuration item;
+    - **Managed Configuration Item**: report the managed configuration item;
 
--   **Occurrence group category**: select the category of event occurrence
-    category;
+    - **Occurrence group category**: select the category of event occurrence category;
 
--   **Occurrence category**: select the occurrence category of events;
+    - **Occurrence category**: select the occurrence category of events;
 
--   **Critical Quantity**: enter the critical quantity;
+    - **Critical Quantity**: enter the critical quantity;
 
--   **Occurrence Period**: enter the desired period, with the start date and end
-    date of event occurrence.
+    - **Occurrence Period**: enter the desired period, with the start date and end date of event occurrence.
 
 Items list
 ----------
@@ -87,31 +84,27 @@ Items list
     the system will filter and totalize the events that meet the selected
     filters and generate four results:
 
--   **Classification**: this tab shows the occurrence of events by
-    classification;
+    - **Classification**: this tab shows the occurrence of events by classification;
 
--   **Configuration Item**: this tab shows the occurrence of events by
-    configuration item;
+    - **Configuration Item**: this tab shows the occurrence of events by configuration item;
 
--   **Technical Service**: this tab shows the occurrences of events by technical
-    service;
+    - **Technical Service**: this tab shows the occurrences of events by technical service;
 
--   **Business Catalog**: this tab shows the occurrences of events by business
-    services.
+    - **Business Catalog**: this tab shows the occurrences of events by business services.
 
--   Cassification tab:
+    - Cassification tab:
 
-    -   **Classification** and **Critical Quantity**.
+        -   **Classification** and **Critical Quantity**.
 
-   ![figure](images/event-trends-2.png)
+    ![figure](images/event-trends-2.png)
    
-   **Figure 2 - Events listing screen - Classification tab**
+    **Figure 2 - Events listing screen - Classification tab**
 
--   Configuration Item tab:
+    - Configuration Item tab:
 
-    -   **ID, Configuration Item** and **Critical Quantity**.
+        - **ID, Configuration Item** and **Critical Quantity**.
 
-   ![figure](images/event-trends-3.png)
+![figure](images/event-trends-3.png)
    
    **Figure 3 - Events listing screen - Configuration Item tab**
 
@@ -152,7 +145,7 @@ See also
 [1]:/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
 [2]:/en-us/citsmart-platform-7/processes/tickets/ticket-management.html
 [3]:/en-us/citsmart-platform-7/additional-features/add-ons/event-monitor-connection.html
-[4]:/en-us/citsmart-platform-7/additional-features/add-ons/inventory-installation.html
+[4]:/en-us/citsmart-platform-7/get-started/inventory-installation.html
 [5]:/en-us/citsmart-platform-7/processes/tickets/service-request-trends.html
 
 !!! tip "About"
