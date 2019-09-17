@@ -54,7 +54,7 @@ Items list
 
 1.  The following cadastral fields are available to the user to facilitate the
     identification of the desired items in the standard listing of the
-    functionality: Ticket, Opening Date, Deadline, **Description, Answer, Status, Time
+    functionality: Ticket, Opening Date, Deadline, Description, Answer, Status, Time
     limit and Remaining Time.
 
 ![Criar conta](images/verify-ticket-3.png)
