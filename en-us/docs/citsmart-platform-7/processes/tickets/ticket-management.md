@@ -2146,10 +2146,10 @@ Advanced search
    -   **Service Time**: time spent between the closing hour and the opening date
     and time within the calendar;
 
-    !!! info "IMPORTANT"
+!!! info "IMPORTANT"
 
-        In case the SLA has exceeded the service time, the system will count from the opening of the call to the closing and will 
-        disregard the schedule.
+    In case the SLA has exceeded the service time, the system will count from the opening of the call to the closing and will 
+disregard the schedule.
    
    -   **Description**: what was requested in the activity;
 
