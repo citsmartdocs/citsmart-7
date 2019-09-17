@@ -20,70 +20,54 @@ This report aims to present the causes and solutions of service requests.
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   **Closing Period**: Enter the desired closing period;
+    - **Closing Period**: Enter the desired closing period;
 
--   **Contract**: inform the desired contract;
+    - **Contract**: inform the desired contract;
 
--   **Type**: select the type of service;
+    - **Type**: select the type of service;
 
--   **Status**: select the situation of the service requests;
+    - **Status**: select the situation of the service requests;
 
--   **Name Request/Incident**: Enter the name of the service. Choose a specific
-    service or leave it blank for all services;
+    - **Name Request/Incident**: Enter the name of the service. Choose a specific service or leave it blank for all services;
 
--   **Request/Incident**: will be listed all the services chosen in the previous
-    field, "Request Name / Incident";
+    - **Request/Incident**: will be listed all the services chosen in the previous field, "Request Name / Incident";
 
-    -   If you want to remove some service, just select it and click
-        the *Remove* button. But if you want to remove all the services, just
-        click directly on the *Remove All* button.
+        - If you want to remove some service, just select it and click the *Remove* button. But if you want to remove all
+        the services, just click directly on the *Remove All* button.
 
--   **Select Group**: a list of active groups for the selected contract is
-    displayed, where you can select the desired group (s);
+    - **Select Group**: a list of active groups for the selected contract is displayed, where you can select the desired group (s);
 
-    -   Select the desired group and click the *Add* button, it will be added in
-        the **Group (s)** field. But if you want to add all groups, just click
-        directly on the *Add All* button;
+        - Select the desired group and click the *Add* button, it will be added in the **Group (s)** field. But if you want to 
+        add all groups, just click directly on the *Add All* button;
 
-    -   If you want to remove a group, just select it and click
-        the *Remove* button. But if you want to remove all groups, just click
-        the Remove All button directly.
+        - If you want to remove a group, just select it and click the *Remove* button. But if you want to remove all groups, 
+        just click the Remove All button directly.
 
--   **Select Cause**: A list of causes is displayed, where you can select the
-    desired cause (s);
+    - **Select Cause**: A list of causes is displayed, where you can select the desired cause (s);
 
-    -   To list items with no cause, check the "Shows items wihout cause"
-        option;
+        - To list items with no cause, check the "Shows items wihout cause" option;
 
-    -   Select the desired cause and click the *Add* button, it will be added in
-        the **Cause** field. But if you want to add all the causes, just click
-        the *Add All* button directly;
+        - Select the desired cause and click the *Add* button, it will be added in the **Cause** field. But if you want to add all 
+        the causes, just click the *Add All* button directly;
 
-    -   If you want to remove a cause, simply select it and click
-        the *Remove* button. But if you want to remove all the causes, just
-        click directly on the *Remove All* button.
+        - If you want to remove a cause, simply select it and click 
+        the *Remove* button. But if you want to remove all the causes, just click directly on the *Remove All* button.
 
--   **Select Solution**: a list of solutions is displayed, where you can select
-    the desired solution (s);
+    - **Select Solution**: a list of solutions is displayed, where you can select  the desired solution (s);
 
-    -   To list items without solution, check the option "Show items without
-        solution";
+        - To list items without solution, check the option "Show items without solution";
 
-    -   Select the desired solution and click the *Add* button, it will be added
-        in the **Solution** field. But if you want to add all the solutions,
-        just click the *Add All* button directly;
+        - Select the desired solution and click the *Add* button, it will be added in the **Solution** field. But if you want to add 
+        all the solutions, just click the *Add All* button directly;
 
-    -   If you want to remove some solution, just select it and click
-        the *Remove* button. But if you want to remove all the solutions, just
-        click directly on the *Remove All* button.
+        - If you want to remove some solution, just select it and click the *Remove* button. But if you want to remove all the 
+        solutions, just click directly on the *Remove All* button.
 
-2.  The Causes and Solutions Control Report screen will be displayed, as shown
-    in the following figure:
-
+2. The Causes and Solutions Control Report screen will be displayed, as shown in the following figure:
    
-   ![figure](images/rel.tick.img1.jpg)
+    ![figure](images/rel.tick.img1.jpg)
    
-   **Figure 1 - Generic report of causes and solutions control report**
+    **Figure 1 - Generic report of causes and solutions control report**
 
 3.  Set the filters as needed.
 
@@ -113,24 +97,23 @@ chart.
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   **Period**: enter the period you want to view the requests;
+    - **Period**: enter the period you want to view the requests;
 
--   **Start date**: Enter the start date for the selected period;
+    - **Start date**: Enter the start date for the selected period;
 
--   **Final date**: Inform the end date for the selected period;
+    - **Final date**: Inform the end date for the selected period;
 
--   **Type**: select the type of service;
+    - **Type**: select the type of service;
 
--   **Group**: inform the group to view your specific requests;
+    - **Group**: inform the group to view your specific requests;
 
--   **Status**: Enter the status of the request you want to view.
+    - **Status**: Enter the status of the request you want to view.
 
 2.  The Gantt Report screen will be displayed, as shown in image below:
 
+    ![figure](images/rel.tick.img2.jpg)
    
-![figure](images/rel.tick.img2.jpg)
-   
-   **Figure 2 - Gantt**
+    **Figure 2 - Gantt**
 
 3.  Set the filters as needed.
 
@@ -154,27 +137,24 @@ each employee and / or group.
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   **Type**: enter the period you want to view;
+    - **Type**: enter the period you want to view;
 
--   **Start date**: Enter the start date for the selected period;
+    - **Start date**: Enter the start date for the selected period;
 
--   **End date**: Enter the end date for the selected period;
+    - **End date**: Enter the end date for the selected period;
 
--   **Contract**: inform the contract that you want to verify the workload
-    worked;
+    - **Contract**: inform the contract that you want to verify the workload worked;
 
--   **Group**: inform the group that wishes to check the workload;
+    - **Group**: inform the group that wishes to check the workload;
 
--   **Type of User**: Enter the report type, user, or group. User type report
-    will show the workload of each employee and Report group type will show the
-    workload worked by the group.
+    - **Type of User**: Enter the report type, user, or group. User type report will show the workload of each employee and 
+    Report group type will show the workload worked by the group.
 
 2.  The Working Hours Report screen will be displayed, as shown in image below:
 
+    ![figure](images/rel.tick.img3.jpg)
    
-   ![figure](images/rel.tick.img3.jpg)
-   
-   **Figure 3 - Worked hours report screen**
+    **Figure 3 - Worked hours report screen**
 
 3.  Set the filters as needed.
 
@@ -202,32 +182,29 @@ situation reported.
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   **Type**: enter the desired period;
+    - **Type**: enter the desired period;
 
--   **Start date**: Enter the start date for the selected period;
+    - **Start date**: Enter the start date for the selected period;
 
--   **End date**: Enter the end date for the selected period;
+    - **End date**: Enter the end date for the selected period;
 
--   **Contract**: inform the contract regarding the request / incident that you
-    want to generate the quantitative report, if necessary;
+    - **Contract**: inform the contract regarding the request / incident that you want to generate the quantitative report, if 
+    necessary;
 
--   **Situation**: inform the situation regarding the request / incident that
-    you want to generate the quantitative report, if necessary;
+    - **Situation**: inform the situation regarding the request / incident that you want to generate the quantitative report, if 
+    necessary;
 
--   **Type of user**: Enter the type of user to check the amount of requests /
-    incidents that have been logged by the user.
+    - **Type of user**: Enter the type of user to check the amount of requests / incidents that have been logged by the user.
 
-    -   **Vip user**: user who has priority 1 defined in the service level
-        agreement;
+        - **Vip user**: user who has priority 1 defined in the service level agreement;
 
-    -   **Standard user**: user that has the default priority set.
+        - **Standard user**: user that has the default priority set.
 
 2.  The Quantitative Report screen will be displayed, as shown in image below:
-
+  
+    ![figure](images/rel.tick.img4.jpg)
    
-   ![figure](images/rel.tick.img4.jpg)
-   
-   **Figure 4 - Generation of incident / requests quantitative reporting screen**
+    **Figure 4 - Generation of incident / requests quantitative reporting screen**
 
 3.  Set the filters as needed.
 
@@ -247,20 +224,18 @@ This report aims to present the quantity of services completed.
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   **Closing Period**: enter the desired period;
+    - **Closing Period**: enter the desired period;
 
--   **Contract**: inform the contract regarding the service that wants to
-    generate the quantitative report;
+    - **Contract**: inform the contract regarding the service that wants to generate the quantitative report;
 
--   **TOP List**: enter the number of records you want to see in the report.
+    - **TOP List**: enter the number of records you want to see in the report.
 
 2.  The Completed Services Quantitative Report (Synthetic) screen will be
     displayed, as shown in image below:
-
  
-  ![figure](images/rel.tick.img5.jpg)
+    ![figure](images/rel.tick.img5.jpg)
     
-   **Figure 5 - Complete services quantitative report generation screen**
+    **Figure 5 - Complete services quantitative report generation screen**
 
 3.  Set the filters as needed.
 
@@ -279,21 +254,20 @@ Generating quantitative reporting of completed services (analytical)
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   **Closing Period**: enter the desired period;
+    - **Closing Period**: enter the desired period;
 
--   **Contract**: select the contract;
+    - **Contract**: select the contract;
 
--   **Type**: select the type of service;
+    - **Type**: select the type of service;
 
--   **TOP List**: enter the number of records you want to see in the report.
+    - **TOP List**: enter the number of records you want to see in the report.
 
 2.  The Quantitative Report of Completed Services (Analytic) screen will be
     displayed, as shown in Image below:
-
    
-   ![figure](images/rel.tick.img6.jpg)
+    ![figure](images/rel.tick.img6.jpg)
    
-   **Figure 6 - Generation of quantitative service reporting screen**
+    **Figure 6 - Generation of quantitative service reporting screen**
 
 3.  Set the filters as needed.
 
@@ -319,33 +293,26 @@ satisfaction survey in relation to service requests.
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   **Based on what date?**: select the search criteria of the request period,
-    ie whether the period is opening or closing;
+    - **Based on what date?**: select the search criteria of the request period, ie whether the period is opening or closing;
 
--   **Period**: report the period of the satisfaction survey regarding the
-    attendance of the requested service;
+    - **Period**: report the period of the satisfaction survey regarding the attendance of the requested service;
 
--   **Evaluate**: enter the evaluation criteria to verify the requests for
-    related services;
+    - **Evaluate**: enter the evaluation criteria to verify the requests for related services;
 
--   **TOP List**: enter the number of records you want to view in the report;
+    - **TOP List**: enter the number of records you want to view in the report;
 
--   **Number**: enter the number of the service request that you want to check
-    the evaluation of your service;
+    - **Number**: enter the number of the service request that you want to check the evaluation of your service;
 
--   **Contract**: inform the contract that you want to verify the evaluation of
-    the service of your requested services;
+    - **Contract**: inform the contract that you want to verify the evaluation of the service of your requested services;
 
--   **User**: enter the name of the person who requested the service to verify
-    the evaluation of your service.
+    - **User**: enter the name of the person who requested the service to verify the evaluation of your service.
 
 2.  The Satisfaction Survey Report screen will be displayed, as shown in image
     below:
-
+ 
+    ![figure](images/rel.tick.img7.jpg)
    
-   ![figure](images/rel.tick.img7.jpg)
-   
-   **Figure 7 - Satisfaction survey report generation screen**
+    **Figure 7 - Satisfaction survey report generation screen**
 
 3.  Set the filters as needed.
 
@@ -369,13 +336,11 @@ This report is intended to present the history of service request records.
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   **Opening Date**: enter the period you want to check the service request
-    records;
+    - **Opening Date**: enter the period you want to check the service request records;
 
--   **Closing date**: enter the service request closure period to check the
-    requests that were closed in the given period;
+    - **Closing date**: enter the service request closure period to check the requests that were closed in the given period;
 
--   **Number**: enter the service request ID number if you want to verify a
+    **Number**: enter the service request ID number if you want to verify a
     specific request;
 
 -   **Order by**: enter the order that the requests will be displayed;
