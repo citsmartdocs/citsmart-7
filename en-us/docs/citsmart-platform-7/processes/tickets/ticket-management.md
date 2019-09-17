@@ -399,19 +399,19 @@ Possible links to ticket
 
     **Figure 6 - Ticket registration - side menu**
 
-   -   To add files to the ticket, click **Attachments**;
+    - To add files to the ticket, click **Attachments**;
 
-   -   To relate a problem to the ticket, click **Problem**;
+    - To relate a problem to the ticket, click **Problem**;
 
-   -   To relate a change request to the ticket, click **Change**;
+    - To relate a change request to the ticket, click **Change**;
 
-   -   To relate a release request to the ticket, click **Release**;
+    - To relate a release request to the ticket, click **Release**;
 
-   -   To relate an IC to the ticket, click **Configuration Items**;
+    - To relate an IC to the ticket, click **Configuration Items**;
 
-   -   To relate a project to the ticket, click **Project**;
+    - To relate a project to the ticket, click **Project**;
 
-   -   To relate a knowledge to the ticket, click **Knowledge**.
+    - To relate a knowledge to the ticket, click **Knowledge**.
 
 !!! warning "ATTENTION"
 
@@ -436,9 +436,9 @@ Linking the applicant's configuration item (CI)
 
 3.  The Applicant Configuration Items screen wil appear, as shown below:
 
-   ![figure](images/management-14.png)
+    ![figure](images/management-14.png)
    
-   **Figure 7 - User configuration items**
+    **Figure 7 - User configuration items**
 
 4.  It's possible to view information about this CI by clicking on the icon ![figure](images/management-15.png). To
     link the CI, just click on ![figure](images/management-16.png) to perform the operation.
@@ -454,9 +454,9 @@ Linking sub-requests
 3.  The **Sub-tickets** screen will appear, click the *Search Requests* button
     and a list of registered tickets will be displayed, as shown below:
 
-   ![figure](images/management-17.png)
+    ![figure](images/management-17.png)
    
-   **Figure 8 - Sub-tickets link screen**
+    **Figure 8 - Sub-tickets link screen**
 
 4.  Select the desired ticket and click *Link requests* to perform the
     operation.
@@ -516,11 +516,11 @@ Linking problems
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Search Problem.
+    - Search Problem.
 
-   ![figure](images/management-20.png)
+    ![figure](images/management-20.png)
    
-   **Figure 11 - Related problems search screen**
+    **Figure 11 - Related problems search screen**
 
 2.  In the search field , it is allowed to search for the title of problem
     previously registered;
@@ -548,9 +548,9 @@ Linking problems
     Problem button, and the problem log screen appears, as shown in the figure
     below:
 
-   ![figure](images/management-22.png)
+    ![figure](images/management-22.png)
    
-   **Figure 12 - Problem registration screen**
+    **Figure 12 - Problem registration screen**
 
 4.  Fill in the fields with the required information and click on
     the *Save* button to register.
@@ -568,11 +568,11 @@ Linking change request
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Search for change number.
+    - Search for change number.
 
-   ![figure](images/management-23.png)
+    ![figure](images/management-23.png)
    
-   **Figure 13 - Search for related changes screen**
+    **Figure 13 - Search for related changes screen**
 
 2.  In the search field, the search for the change number is allowed;
 
@@ -599,9 +599,9 @@ Linking change request
     Change* button, and then the change request registration screen appears, as
     shown in the figure below:
 
-   ![figure](images/management-24.png)
+    ![figure](images/management-24.png)
 
-   **Figure 14 - Change request registration screen**
+    **Figure 14 - Change request registration screen**
 
 4.  Fill in the fields with the required information and click on
     the *Save* button to register.
@@ -619,11 +619,11 @@ Linking of release request
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Search Release.
+    - Search Release.
 
-   ![figure](images/management-25.png)
+    ![figure](images/management-25.png)
 
-   **Figure 15 - Related release search screen**
+    **Figure 15 - Related release search screen**
 
 2.  In the search field, the search for the release title or its number is
     allowed. The releases previously registered are searched;
@@ -652,9 +652,9 @@ Linking of release request
     Release button, and then the release request registration screen appears,
     as shown in the figure below:
 
-   ![figure](images/management-26.png)
+    ![figure](images/management-26.png)
    
-   **Figure 16 - Release request registration screen**
+    **Figure 16 - Release request registration screen**
 
 4.  Fill in the fields with the required information and click the *Save* button
     to register.
@@ -672,28 +672,27 @@ Linking related CI (configuration item)
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Identification;
+    - Identification;
 
--   Group;
+    - Group;
 
--   Start date;
+    - Start date;
 
--   End date;
+    - End date;
 
--   Status;
+    - Status;
 
--   Service Criticality;
+    - Service Criticality;
 
--   Show Related Items.
+    - Show Related Items.
 
-   ![figure](images/management-27.png)
+    ![figure](images/management-27.png)
    
-   **Figure 17 - Related configuration item search screen**
+    **Figure 17 - Related configuration item search screen**
 
 2.  Perform the search for configuration item:
 
--   If you want to list all the configuration items, simply click
-    the Search button directly.
+    - If you want to list all the configuration items, simply click the Search button directly.
 
 ### Items list
 
@@ -741,11 +740,11 @@ Linking project
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
-   -   Project.
+    - Project.
 
-   ![figure](images/management-29.png)
+    ![figure](images/management-29.png)
    
-   **Figure 19 - Project search screen**
+    **Figure 19 - Project search screen**
 
 2.  To show the available projects, just click on the filter.
 
@@ -784,13 +783,13 @@ Linking knowledge
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
-   -   Title;
+    - Title;
 
-   -   Content;
+    - Content;
 
-   ![figure](images/management-30.png)
+    ![figure](images/management-30.png)
    
-   **Figure 20 - Knowledge search screen**
+    **Figure 20 - Knowledge search screen**
 
 2.  Search the desired knowledge.
 
@@ -811,7 +810,7 @@ Linking knowledge
 2.  The registration screen regarding the given ticket will be displayed. Click
     the menu ![figure](images/management-11.png) button and then click **Knowledge**;
 
-3.  The** Knowledge** screen will appear, click the *Search Knowledges* button.
+3.  The **Knowledge** screen will appear, click the *Search Knowledges* button.
     The knowledge base Search screen wil be open;
 
 4.  Search and select the desired knowledge to link to the ticket;
@@ -837,7 +836,7 @@ Linking read e-mails
 
 7.  Have the unit bound to the contract (see knowledge [How to relate unit to contract?][8]);
 
-8.  Have the portfolio with the service and the request and incident activities registered (see knowledge [Service Portfolio registration][9]), [Service registration][10], [Service Attributes configuration][11]);
+8.  Have the portfolio with the service and the request and incident activities registered (see knowledge [Service Portfolio registration][9], [Service registration][10], [Service Attributes configuration][11]);
 
 9.  Have the time of attendance of the request and incidentt activities defined
     (see knowledge [Time Attendance registration and search][12]);
@@ -866,16 +865,16 @@ Linking read e-mails
 3.  A screen will appear to check incoming e-mails, as shown in the figure
     below:
 
-   ![figure](images/management-32.png)
+    ![figure](images/management-32.png)
    
-   **Figure 22 - E-mail reading screen**
+    **Figure 22 - E-mail reading screen**
 
 4.  Click on the *Check E-mails* button. The e-mails will be displayed, as shown
     in the figure below:
 
-   ![figure](images/management-33.png)
+    ![figure](images/management-33.png)
    
-   **Figure 23 - Reading e-mails**
+    **Figure 23 - Reading e-mails**
 
 5.  Click on the e-mail icon ![figure](images/management-34.png) to create the ticket based on it. Once this is
     done, the ticket register screen will be displayed;
@@ -916,9 +915,9 @@ Ticket capture
     confirm that it is responsible for executing the ticket, as shown in the
     following figure:
 
-   ![figure](images/management-36.png)
+    ![figure](images/management-36.png)
    
-   **Figure 25 - Ticket capture confirmation screen**
+    **Figure 25 - Ticket capture confirmation screen**
 
 4.  Confirm the capture of the ticket. After that, the ticket registration
     screen will be displayed to verify your information.
@@ -1049,41 +1048,38 @@ Ticket occurrence registry
     screen. After that, the occurrences of the ticket will be displayed, with
     the example shown in the figure below:
 
-   ![figure](images/management-41.png)
+    ![figure](images/management-41.png)
    
-   **Figure 28 - Ticket occurrences**
+    **Figure 28 - Ticket occurrences**
 
 3.  Click *Add Occurrence*. Once this is done, the **Occurrences** screen will
     be displayed, click on the **Register of Occurrences** tab;
 
-   ![figure](images/management-42.png)
+    ![figure](images/management-42.png)
    
-   **Figure 29 - Ticket occurrences registration**
+    **Figure 29 - Ticket occurrences registration**
 
 4.  Fill in the fields as directed below:
 
-    -   **Category**: enter the category of the occurrence. If the category is not
-    found, it is possible to perform a quick registration from this screen, just
-    click on the icon ![figure](images/management-90.png);
+    - **Category**: enter the category of the occurrence. If the category is not found, it is possible to perform a quick 
+    registration from this screen, just click on the icon ![figure](images/management-90.png);
 
-    -   **Origin**: enter the source of the occurrence. If the source is not found,
-    it is possible to perform a quick registration from this screen, just click
-    the icon ![figure](images/management-90.png) ;
+    - **Origin**: enter the source of the occurrence. If the source is not found, it is possible to perform a quick registration 
+    from this screen, just click the icon ![figure](images/management-90.png) ;
 
-    -   **Recorded by**: inform by whom the occurrence is being recorded;
+    - **Recorded by**: inform by whom the occurrence is being recorded;
 
-    -   **Spent Time**: enter the amount of minutes spent on the occurrence;
+    - **Spent Time**: enter the amount of minutes spent on the occurrence;
 
-    -   **Description**: provide a brief description of the occurrence;
+    - **Description**: provide a brief description of the occurrence;
 
-    -   **Occurrence**: describe occurrences;
+    - **Occurrence**: describe occurrences;
 
-    -   **User Information**: describe the contact information;
+    - **User Information**: describe the contact information;
 
-    -   **Notify Applicant**: check this field if you wish to communicate to the
-    requestor the registration of the occurrence, so an e-mail of notification
-    of occurrence will be sent to the requestor using the e-mail template linked
-    to the parameter that defines it.
+    - **Notify Applicant**: check this field if you wish to communicate to the requestor the registration of the occurrence, so an 
+    e-mail of notification of occurrence will be sent to the requestor using the e-mail template linked to the parameter that 
+    defines it.
 
 5.  After the data has been entered, click on the *Save* button to perform the
     operation, as a complement to the operation, the date, time and user will be
@@ -1113,19 +1109,20 @@ Ticket approval
 3.  The registration screen regarding the given ticket will be displayed. Check
     the ticket and record the necessary information regarding its approval;
 
-   ![figure](images/management-43.png)
+    ![figure](images/management-43.png)
    
-   **Figure 30 - Ticket approval record**
+    **Figure 30 - Ticket approval record**
 
-   -   Check one of the approval options: Approved or Not Approved;
+    - Check one of the approval options: Approved or Not Approved;
 
-   -   If you have marked "Approved", describe the observations, if necessary;
+    - If you have marked "Approved", describe the observations, if necessary;
 
-   -   If you have marked "Not approved", describe the observations, inform the
-    justification and complement the justification.
+    - If you have marked "Not approved", describe the observations, inform the justification and complement the justification.
 
-4.  After you have registered the information about the approval of the ticket,
-    click the radio button ![figure](images/management-6.png) and then click the button ![figure](images/management-39.png) to         record and advance the flow. Once the ticket has been approved, it will be sent to the execution phase, that is, to attend  the request. But, if the ticket is not approved, it will be closed.
+4. After you have registered the information about the approval of the ticket, click the radio button
+![figure](images/management-6.png) and then click the button ![figure](images/management-39.png) to record and advance the flow. 
+Once the ticket has been approved, it will be sent to the execution phase, that is, to attend  the request. But, if the ticket is 
+not approved, it will be closed.
 
 Ticket cancellation
 -------------------
@@ -1144,17 +1141,18 @@ Ticket cancellation
 3.  The registration screen regarding the given ticket will be displayed. Record
     the necessary information regarding its cancellation;
 
-   ![figure](images/management-44.png)
+    ![figure](images/management-44.png)
    
-   **Figure 31 - Recording the ticket cancellation**
+    **Figure 31 - Recording the ticket cancellation**
 
--   Change the ticket situation to "Canceled", just click on the situation to
-    change;
+    - Change the ticket situation to "Canceled", just click on the situation to change;
 
--   In the **Solution** field, describe why you are canceling the ticket.
+    - In the **Solution** field, describe why you are canceling the ticket.
 
-4.  After you have logged the ticket cancellation information, click the radio
-    button ![figure](images/management-6.png) and then click the button ![figure](images/management-39.png) to save and advance       the flow, where the ticket will be canceled. But if you want to save only the logged information about canceling the ticket and keep the current job, click the ![figure](images/management-10.png).
+4. After you have logged the ticket cancellation information, click the radio button ![figure](images/management-6.png) and
+then click the button ![figure](images/management-39.png) to save and advance the flow, where the ticket will be canceled. But 
+if you want to save only the logged information about canceling the ticket and keep the current job, click the
+![figure](images/management-10.png).
 
 Ticket direction
 ----------------
@@ -1165,7 +1163,7 @@ Ticket direction
 
 ### Directing the ticket for service
 
-1.  The **Ticket Managemen**t screen will be displayed.Locate the desired
+1.  The **Ticket Management** screen will be displayed.Locate the desired
     ticket, press on it and then click on the icon ![figure](images/management-13.png);
 
 2.  The ticket registration screen will be displayed with the fields filled,
@@ -1193,25 +1191,24 @@ Ticket delegation
 1.  Locate the ticket you will delegate, click on it and then click on the
     "options" icon and on Delegate, as indicated in the figure below:
 
-   ![figure](images/management-45.png)
+    ![figure](images/management-45.png)
    
-   **Figure 32 - Delegate the ticket**
+    **Figure 32 - Delegate the ticket**
 
 2.  The assignment screen will be displayed, as shown in the figure below:
 
-   ![figure](images/management-46.png)
+    ![figure](images/management-46.png)
    
-   **Figure 33 - Assignment screen**
+    **Figure 33 - Assignment screen**
 
 3.  Tell the group or user that you want to delegate the ticket;
 
 4.  Describe the justification for delegating the ticket;
 
-   !!! info "IMPORTANT"
+    !!! info "IMPORTANT"
 
-      In the "Assign to group" field, only the groups in which you belong will
-      be available. In the field where the user is informed, only the members of
-      the groups in which they belong will be available.
+        In the "Assign to group" field, only the groups in which you belong will be available. In the field where the user
+        is informed, only the members of the groups in which they belong will be available.
 
 5.  After entering the data, click the Save button. Once this is done, a
     message will appear asking the delegation of the task, just click *Ok* to
@@ -1241,27 +1238,25 @@ Ticket suspension
 1.  Select the ticket which will be suspended, click on it and then click on the
     "Options" button and on *Suspend*, as illustrated on the image below:
 
-   ![figure](images/management-48.png)
+    ![figure](images/management-48.png)
    
-   **Figure 35 - Suspending ticket**
+    **Figure 35 - Suspending ticket**
 
 2.  The ticket suspension justification entry screen will be displayed;
 
-  ![figure](images/management-49.png)
+    ![figure](images/management-49.png)
   
-  **Figure 36 - Justification record of the ticket suspension**
+    **Figure 36 - Justification record of the ticket suspension**
 
-   -   **Justification**: select the ticket suspension justification;
+    - **Justification**: select the ticket suspension justification;
 
-   -   **Justification Complement:** describe the selected justification
-    complement, if necessary.
+    - **Justification Complement:** describe the selected justification complement, if necessary.
 
-3.  After inserting the data, click on the *Save* button to perform the
-    operation, at which date, time and user will be automatically stored for a
-    future audit;
+3. After inserting the data, click on the *Save* button to perform the operation, at which date, time and user will be 
+automatically stored for a future audit;
 
-4.  After suspending the ticket, it will be refreshed and its status will be
-    changed to "Suspended", as illustrated on the example below:
+4. After suspending the ticket, it will be refreshed and its status will be changed to "Suspended", as illustrated on the example 
+below:
 
 ![figure](images/management-50.png)
 
@@ -1295,93 +1290,78 @@ Suspension and reactivation of multiple ticket
 2.  Click on the icon ![figure](images/management-51.png)  and on *Suspension/Reactivation*, as indicated on the
     image below:
 
-   ![figure](images/management-52.png)
+    ![figure](images/management-52.png)
    
-   **Figure 38 - Tickets suspension**
+    **Figure 38 - Tickets suspension**
 
 3.  The Multiple Ticket Suspension screen will be displayed as illustrated
     on the immage below:
 
-   ![figure](images/management-53.png)
+    ![figure](images/management-53.png)
    
-   **Figure 39 - Multiple tickets suspension screen**
+    **Figure 39 - Multiple tickets suspension screen**
 
 4.  All fields on this screen are actually filters,that is, the user who will
     suspend mass filters:
 
--   **Contract**: select the contract (the system filters through the contracts
-    that the logged in user has access permission), in which the ticket
-    suspension will be performed;
+    - **Contract**: select the contract (the system filters through the contracts that the logged in user has access permission), 
+    in which the ticket suspension will be performed;
 
--   **Suspension Applicant**: insert the responsible for requesting the ticket
-    suspension (this field filters the requests that the applicant is in). Just
-    click on the text box and type the applicant’s initials that the users
-    linked to the selected contract will be searched. Another way to perform a
-    search is to use the *Advanced Search* button, which will display a search
-    screen where the necessary data can be inserted to search for users and
-    after inserting it, click on Search and select the staff member responsible
-    for the suspension ticket;
+    - **Suspension Applicant**: insert the responsible for requesting the ticket suspension (this field filters the requests that 
+    the applicant is in). Just click on the text box and type the applicant’s initials that the users linked to the selected 
+    contract will be searched. Another way to perform a search is to use the *Advanced Search* button, which will display a search
+    screen where the necessary data can be inserted to search for users and after inserting it, click on Search and select the 
+    staff member responsible for the suspension ticket;
 
--   **Group**: select the group responsible for attending the requests which
-    will be suspended. On this field, only the active Service Desk groups
-    belonging to the applicant will be available;
+    - **Group**: select the group responsible for attending the requests which will be suspended. On this field, only the active 
+    Service Desk groups belonging to the applicant will be available;
 
     !!! warning "ATTENTION"
 
-        When registering the group of which the user is a member (via the Access
-        and Permission > Group feature), in the "Suspend/Reactivate" field select
-        the value "No". The fact that user selects "No" for this field
-        Suspend/Reactivate the group register screen does not influence the
-        appearance of the "Suspension/Reactivation" button of the ticket screen.
+        When registering the group of which the user is a member (via the Access and Permission > Group feature), in the 
+        "Suspend/Reactivate" field select the value "No". The fact that user selects "No" for this field Suspend/Reactivate the 
+        group register screen does not influence the appearance of the "Suspension/Reactivation" button of the ticket screen.
 
-   -  **Justification**: select a ticket suspension justification;
+    - **Justification**: select a ticket suspension justification;
 
-   - **Justification Complement**: describe the selected justification complement.
+    - **Justification Complement**: describe the selected justification complement.
 
-!!! warning "ATTENTION"
+    !!! warning "ATTENTION"
 
-    The logged in user is always placed in charge of suspending or
-    reactivating the ticket.
+        The logged in user is always placed in charge of suspending or reactivating the ticket.
 
-5.  After inserting the data, click on the *Suspend* button to perform the
-    operation, at which all the ticket from the selected performer group in
-    execution will be suspended.
+5. After inserting the data, click on the *Suspend* button to perform the operation, at which all the ticket from the selected 
+performer group in execution will be suspended.
 
 ### Reactivating multiple suspended ticket
 
 1.  On the **Request/Incident Management** screen, click on the ![figure](images/management-51.png) icon and
     on *Suspension/Reactivation*, as indicated on the image below:
 
-   ![figure](images/management-54.png)
+    ![figure](images/management-54.png)
    
-   **Figure 40 - Tickets reactivation**
+    **Figure 40 - Tickets reactivation**
 
 2.  The **Multiple Tickets Suspension/Reactivation** screen will be displayed.
     Select the “*Reactivate Request*” option. Afterwards, the ticket
     reactivation screen will be displayed, as illustrated on the image below:
 
-   ![figure](images/management-55.png)
+    ![figure](images/management-55.png)
    
-   **Figure 41 - Suspended tickets reactivation**
+    **Figure 41 - Suspended tickets reactivation**
 
-   -   **Contract**: select the contract, in which the suspended ticket
-    reactivation will be performed;
+    - **Contract**: select the contract, in which the suspended ticket reactivation will be performed;
 
-   -   **Reactivation Applicant**: insert the responsible for requesting the
-    reactivation. Just click on the textbox and type the applicant’s initials
-    that users linked to the contract will be searched. Another way to perform a
-    search is to use the *Advanced Search* button, which will display a search
-    screen where the necessary data can be inserted to search for users and
-    after inserting it, click on Search and select the staff member responsible
-    for the ticket reactivation;
+    - **Reactivation Applicant**: insert the responsible for requesting the reactivation. Just click on the textbox and type the 
+    applicant’s initials that users linked to the contract will be searched. Another way to perform a search is to 
+    use the *Advanced Search* button, which will display a search screen where the necessary data can be inserted to search for 
+    users and after inserting it, click on Search and select the staff member responsible for the ticket reactivation;
 
-   -   **Group**: select the group responsible for attending the ticket which will
-    be reactivated. On this field, only the active Service Desk groups belonging
-    to the applicant will be available.
+    - **Group**: select the group responsible for attending the ticket which will be reactivated. On this field, only the active 
+    Service Desk groups belonging to the applicant will be available.
 
-3.  After inserting the data, click on the Reactivate button to perform the
-    operation, at which all the suspended ticket from the selected performer
-    group will be reactivated.
+3. After inserting the data, click on the Reactivate button to perform the operation, at which all the suspended ticket from the 
+selected performer group will be reactivated.
 
 Reactivating a suspended ticket
 -------------------------------
@@ -1398,9 +1378,9 @@ Reactivating a suspended ticket
 2.  Select the suspended ticket which will be reactivated, click it and then
     click on the “options” icon and on *Reactivate*.
 
-   ![figure](images/management-56.png)
+    ![figure](images/management-56.png)
    
-   **Figure 42 - Reactivate the ticket**
+    **Figure 42 - Reactivate the ticket**
 
 3.  A message confirming the ticket reactivation will be displayed, just click
     on *Confirm* to perform the operation.
@@ -1421,33 +1401,29 @@ Changing the ticket SLA
 1.  Locate the ticket that will modify the service time, click on it and then
     click the options icon and *Change SLA*, as indicated in the figure below:
 
-   ![figure](images/management-58.png)
+    ![figure](images/management-58.png)
    
-   **Figure 43 - Attendance time change**
+    **Figure 43 - Attendance time change**
 
 2.  The screen will appear to modify the service time of the given ticket, fill
     the fields:
 
-   ![figure](images/management-59.png)
+    ![figure](images/management-59.png)
    
-   **Figure 44 - Altering the SLA of the ticket**
+    **Figure 44 - Altering the SLA of the ticket**
 
-   -   **SLA type**: define the type of service level agreement;
+    - **SLA type**: define the type of service level agreement;
 
-   -   **Time**: set the amount of hours it will take to meet the ticket;
+    - **Time**: set the amount of hours it will take to meet the ticket;
 
-   -   **Calendar**: inform the calendar that will follow to account the time of
-    service;
+    - **Calendar**: inform the calendar that will follow to account the time of service;
 
-   -   **Justification**: select the justification for changing the time of service
-    of the ticket;
+    - **Justification**: select the justification for changing the time of service of the ticket;
 
-   -   **Justification Complement**: describe the details of the justification
-    selected, if necessary.
+    - **Justification Complement**: describe the details of the justification selected, if necessary.
 
-3.  After the data is entered, click on the *Save* button to perform the
-    operation, where the date, time and user will be saved automatically for a
-    future audit.
+3. After the data is entered, click on the *Save* button to perform the operation, where the date, time and user will be saved 
+automatically for a future audit.
 
 Ticket reclassification
 -----------------------
@@ -1469,14 +1445,14 @@ Ticket reclassification
 1.  Locate the ticket which will be reclassified, click on it and then click on
     the options icon. Click on *Reclassify*.
 
-   ![figure](images/management-60.png)
+    ![figure](images/management-60.png)
    
-   **Figure 45 - Reclassify ticket**
+    **Figure 45 - Reclassify ticket**
 
-2.  The intended request registry screen will be displayed;
+2. The intended request registry screen will be displayed;
 
-3.  Reclassify the service information. Afterwards, click on the options ![figure](images/management-6.png) button
-    and then on the save ![figure](images/management-10.png)  button. Afterwards, the request will be reclassified.
+3. Reclassify the service information. Afterwards, click on the options ![figure](images/management-6.png) button and then on
+the save ![figure](images/management-10.png)  button. Afterwards, the request will be reclassified.
 
 !!! warning "ATTENTION"
 
@@ -1505,63 +1481,54 @@ Sub-request creation and visualization
 
 ### Creating sub-requests
 
-1.  Locate the ticket that will create a sub-ticket, click on it and then click
-    the "options" icon and *Create sub-requests*, as indicated in the figure
-    below:
+1. Locate the ticket that will create a sub-ticket, click on it and then click the "options" icon and *Create sub-requests*, as
+indicated in the figure below:
 
-   ![figure](images/management-61.png)
+    ![figure](images/management-61.png)
    
-   **Figure 46 - Create sub-ticket**
+    **Figure 46 - Create sub-ticket**
 
-2.  The Sub-Request Creation screen will be displayed, as shown in the figure
-    below:
+2. The Sub-Request Creation screen will be displayed, as shown in the figure below:
 
-   ![figure](images/management-62.png)
+    ![figure](images/management-62.png)
    
-   **Figure 47 - Sub-ticket registration**
+    **Figure 47 - Sub-ticket registration**
 
-3.  Fill in the fields with the applicant's information:
+3. Fill in the fields with the applicant's information:
 
-   -   **Applicant Name**: enter the name of the applicant, that is, the name of
-    the person requesting the service for the ticket;
+    - **Applicant Name**: enter the name of the applicant, that is, the name of the person requesting the service for the ticket;
 
-   !!! note "NOTE"
+    !!! note "NOTE"
 
-      If the applicant already has the personal data (telephone, e-mail and/or
-      unit) registered in the system, after informing it, the data fields will be
-      filled with the respective information.
+        If the applicant already has the personal data (telephone, e-mail and/or unit) registered in the system, after
+        informing it, the data fields will be filled with the respective information.
 
   
-   -   **Phone**: inform the contact's telephone number for contact;
+    - **Phone**: inform the contact's telephone number for contact;
 
-   -   **E-mail**: inform the requestor's e-mail address for contact;
+    - **E-mail**: inform the requestor's e-mail address for contact;
 
-   -   **Contact Origin**: enter the origin of the contact for registration of the
-    sub-ticket;
+    - **Contact Origin**: enter the origin of the contact for registration of the  sub-ticket;
 
-   -   **Unit**: report the unit of the applicant;
+    - **Unit**: report the unit of the applicant;
 
-   -   **Location**: state the location of the applicant;
+    - **Location**: state the location of the applicant;
 
-   -   **Other Information**: describe the observations about the applicant, if
-    necessary.
+    - **Other Information**: describe the observations about the applicant, if necessary.
 
-4.  After the data is entered, click on the record button to perform the
-    operation, where the date, time and user will be saved automatically for a
-    future audit.
+4. After the data is entered, click on the record button to perform the operation, where the date, time and user will be saved 
+automatically for a future audit.
 
 ### Viewing sub-requests
 
-1.  Locate the ticket that will view the sub-ticket, click on it and then click
-    on the "options" icon and on Display sub-requests, as indicated in the
-    figure below:
+1. Locate the ticket that will view the sub-ticket, click on it and then click on the "options" icon and on Display sub-requests, 
+as indicated in the figure below:
 
-   ![figure](images/management-63.png)
+    ![figure](images/management-63.png)
    
-   **Figure 48 - Display sub-ticket**
+    **Figure 48 - Display sub-ticket**
 
-2.  You will see a screen containing the sub-ticket, as shown in the figure
-    below:
+2. You will see a screen containing the sub-ticket, as shown in the figure below:
 
 ![figure](images/management-64.png)
 
@@ -1577,35 +1544,28 @@ Ticket activity schedule
 
 ### Scheduling activity
 
-1.  Locate the ticket you want to schedule an activity, click on it, and then
-    click on the options icon and on Schedule Activity.
+1. Locate the ticket you want to schedule an activity, click on it, and then click on the options icon and on Schedule Activity.
 
-   ![figure](images/management-65.png)
+    ![figure](images/management-65.png)
    
-   **Figure 50 - Schedule ticket activity**
+    **Figure 50 - Schedule ticket activity**
 
-2.  The **Schedule Activities** screen will appear, click on
-    the Scheduling Creation tab, and fill in the fields:
+2. The **Schedule Activities** screen will appear, click on the Scheduling Creation tab, and fill in the fields:
 
-   ![figure](images/management-66.png)
+    ![figure](images/management-66.png)
    
-   **Figure 51 - Scheduling activities**
+    **Figure 51 - Scheduling activities**
 
-   -   **Activity Group**: select the group that will be responsible for performing
-    the activity;
+    - **Activity Group**: select the group that will be responsible for performing the activity;
 
-   -   **Technical Guidelines**: describe the technical orientation needed to
-    perform the activity;
+    - **Technical Guidelines**: describe the technical orientation needed to perform the activity;
 
-   -   **Schedule for**: inform the date and time, period that will be scheduled
-    the activity for its execution;
+    - **Schedule for**: inform the date and time, period that will be scheduled the activity for its execution;
 
-   -   **Estimated Time**: enter the estimated duration in minutes, ie the time it
-    will take to complete the activity.
+    - **Estimated Time**: enter the estimated duration in minutes, in the time it will take to complete the activity.
 
-3.  After the data is entered, click on the Save button to perform the
-    operation, where the date, time and user will be saved automatically for a
-    future audit.
+3. After the data is entered, click on the Save button to perform the operation, where the date, time and user will be saved 
+automatically for a future audit.
 
 !!! info "IMPORTANT"
 
@@ -1644,7 +1604,7 @@ Registration and linking of related ticket
 
 11. Enter the content below into the parameter (see knowledge [Parameterization rules - system][30]):
 
-   -   Parameter 385: with the value "Y".
+    -  Parameter 385: with the value "Y".
 
 !!! note "NOTE"
 
@@ -1664,160 +1624,138 @@ Registration and linking of related ticket
 
 3.  The **Related Ticket** screen will appear, as shown in the figure below:
 
-   ![figure](images/management-67.png)
+    ![figure](images/management-67.png)
    
-   **Figure 52 - Related requests screen**
+    **Figure 52 - Related requests screen**
 
 4.  By clicking the Create new related request button, the related ticket
     registration screen will appear, as shown in the figure below:
 
-   ![figure](images/management-68.png)
+    ![figure](images/management-68.png)
    
-   **Figure 53 - Related ticket registration screen**
+    **Figure 53 - Related ticket registration screen**
 
 5.  Fill in the fields with the required information and click on
     the *Save* button to register;
 
-   !!! warning "ATTENTION"
+    !!! warning "ATTENTION"
 
-      The completion of the answers of any questionnaire previously registered
-      can only be answered on this screen as it provides a larger ticket
-      register.
+        The completion of the answers of any questionnaire previously registered can only be answered on this screen as it
+        provides a larger ticket register.
 
-6.  Selecting the *Create related by copy* button, the fields described in the
-    original (parent) request are reused.
+6.  Selecting the *Create related by copy* button, the fields described in the original (parent) request are reused.
 
-   !!! warning "ATTENTION"
+!!! warning "ATTENTION"
 
-      The Create related by copy button is only available if parameter 385 is
-      enabled.
+    The Create related by copy button is only available if parameter 385 is enabled.
 
-   -  The Applicant (with their automatic extension, telephone and unit actions)
-    and Description fields are automatically filled in;
+    - The Applicant (with their automatic extension, telephone and unit actions) and Description fields are automatically filled 
+    in;
 
-   -  The tabs are also automatically filled in: Attachment, Configuration Items
-    and Knowledge Base;
+    - The tabs are also automatically filled in: Attachment, Configuration Items and Knowledge Base;
 
-   !!! info "IMPORTANTE"
+!!! info "IMPORTANT"
 
-       The information entered automatically comes from the request considered as
-       the parent, that is, the request that enabled the origin of the related
-       request.
+    The information entered automatically comes from the request considered as the parent, that is, the request that enabled the 
+    origin of the related request.
 
--   Inform the activity and if it has a questionnaire, the system will make the
-    questionnaire available for answer;
+- Inform the activity and if it has a questionnaire, the system will make the questionnaire available for answer;
 
--   Click the *Save* button and then the open ticket number will be available.
+- Click the *Save* button and then the open ticket number will be available.
 
 ### Creating the related ticket by the shortcut
 
 1.  Locate the ticket that will register a related ticket, click on it and then
     click on the "options" icon and on *Create related request;*
 
-   ![figure](images/management-69.png)
+    ![figure](images/management-69.png)
    
-   **Figure 54 - Create related ticket**
+    **Figure 54 - Create related ticket**
 
 2.  The **Related Request** Master screen will be displayed. Fill in the fields
     as directed below:
 
-   ![figure](images/management-70.png)
+    ![figure](images/management-70.png)
    
-   **Figure 55 - Related ticket registration**
+    **Figure 55 - Related ticket registration**
 
 3.  Fill in the fields as directed below:
 
--   **User**: enter the applicant's name, that is, the name of the person
-    requesting the opening of an incident or service request:
+    - **User**: enter the applicant's name, that is, the name of the person requesting the opening of an incident or service 
+    request:
 
-    -  ![figure](images/management-71.png) : by clicking the icon, allows to link the ticket related to the user
-        logged in;
+        - ![figure](images/management-71.png) : by clicking the icon, allows to link the ticket related to the user logged in;
 
-    -   ![figure](images/management-72.png): by clicking the icon, allows you to link the user-related responsible
-        for the main task.
+        -  ![figure](images/management-72.png): by clicking the icon, allows you to link the user-related responsible for the main 
+        task.
 
-   !!! note "NOTE"
+    !!! note "NOTE"
 
-     If the applicant already has the personal data (telephone, extension,
-     e-mail and/or unit) registered in the system, after informing it, the data
-     fields will be filled with the respective information.
+        If the applicant already has the personal data (telephone, extension, e-mail and/or unit) registered in the system, after 
+        informing it, the data fields will be filled with the respective information.
 
-   -  **Phone**: enter the applicant's telephone number;
+    - **Phone**: enter the applicant's telephone number;
 
-   -  **E-mail**: inform the requestor's e-mail;
+    - **E-mail**: inform the requestor's e-mail;
 
-   -  **Contact Origin**: enter the contact origin of the ticket;
+    - **Contact Origin**: enter the contact origin of the ticket;
 
-   -  **Catalog**: select the catalog of services;
+    - **Catalog**: select the catalog of services;
 
-   -  **Service**: inform the service regarding the service catalog. If the
-    service catalog is "Business", the business services for selection will be
-    available in this field, but if the service catalog is "Technical", the
-    support/technical services for selection will be available in this field;
+    - **Service**: inform the service regarding the service catalog. If the service catalog is "Business", the business services 
+    for selection will be available in this field, but if the service catalog is "Technical", the support/technical services for 
+    selection will be available in this field;
 
-   -  **Category**: report the service category to facilitate the search of the
-    activity (request/incident);
+    - **Category**: report the service category to facilitate the search of the activity (request/incident);
 
-   -  **Type**: select the ticket type, if it is an incident or request;
+    - **Type**: select the ticket type, if it is an incident or request;
 
-       -  **Incident**: if the situation presented is an unplanned outage, a
-        reduction in the quality of the service or failure of any configuration
-        item that has not yet impacted an IT service. e.g.: The network link is
-        out, the network is slow, the server is inaccessible, etc.
+        - **Incident**: if the situation presented is an unplanned outage, a reduction in the quality of the service or failure of 
+        any configuration item that has not yet impacted an IT service. e.g.: The network link is out, the network is slow, the 
+        server is inaccessible, etc.
 
-       -  **Request**: refers to requests for demands made by users within the
-        Information Technology environment. They can range from access requests
-        to suggestions for improvement at low cost. e.g.: network access request
-        for a new user, request for configuration of some equipment, request to
-        add some software to the workstation, etc.
+        - **Request**: refers to requests for demands made by users within the Information Technology environment. They can range 
+        from access requests to suggestions for improvement at low cost. e.g.: network access request for a new user, request for 
+        configuration of some equipment, request to add some software to the workstation, etc.
 
-   -  **Activity (Request/Incident)**: inform the activity that will be performed
-    referring to the ticket type;
+    - **Activity (Request/Incident)**: inform the activity that will be performed referring to the ticket type;
 
-   -  **SLA**: after informing the activity (request/incident) will be established
-    the time of attendance of the same;
+    - **SLA**: after informing the activity (request/incident) will be established the time of attendance of the same;
 
-   -  **Contract**: after informing the activity (request/incident), the contract
-    will be displayed for which the opening of an incident or service request
-    will be made;
+    - **Contract**: after informing the activity (request/incident), the contract will be displayed for which the opening of an 
+    incident or service request will be made;
 
-   -  **Unit**: report the applicant's unit ;
+    - **Unit**: report the applicant's unit ;
 
-   -  **Impact**: after informing the activity (request/incident), the business
-    impact information will be displayed;
+    - **Impact**: after informing the activity (request/incident), the business impact information will be displayed;
 
-   -  **Urgency**: after informing the activity (request/incident), the urgency
-    information will be displayed, which indicates the speed that service
-    activity needs to be performed;
+    - **Urgency**: after informing the activity (request/incident), the urgency information will be displayed, which indicates the 
+    speed that service activity needs to be performed;
 
-   -  **Title**: enter the ticket title;
+    - **Title**: enter the ticket title;
 
-   -  **Description**: enter the ticket description. The description must be
-    objective, including all the information necessary to attend to it;
+    - **Description**: enter the ticket description. The description must be objective, including all the information necessary to 
+    attend to it;
 
-   -  **Escalate to Group**: allows you to choose a group, linked to the ticket,
-    so that the related request is directed;
+    - **Escalate to Group**: allows you to choose a group, linked to the ticket, so that the related request is directed;
 
-   -  If you want to link a Configuration Item, click on the Search Configuration
-    Item button, perform the search and select the IC;
+    - If you want to link a Configuration Item, click on the Search Configuration Item button, perform the search and select the 
+    IC;
 
-   -  **Status**: select the option that fits with the current status of the
-    request: Registered, Solved and Canceled.
+    - **Status**: select the option that fits with the current status of the request: Registered, Solved and Canceled.
 
-4.  After the data is entered, click the ![figure](images/management-10.png). After that, the related request will
-    be created successfully and an icon representing the main request will be
-    displayed in the same order, as shown in the following figure.
+4. After the data is entered, click the ![figure](images/management-10.png). After that, the related request will be created 
+successfully and an icon representing the main request will be displayed in the same order, as shown in the following figure.
 
-   !!! info "IMPORTANT"
+    !!! info "IMPORTANT"
 
-       The related ticket will be directed to the executor group defined in the
-       link record of the request/incident activity to the service contract. But if
-       the executor group is not defined in the activity link register, it will be
-       directed to the executor group defined in parameter "Group ID Level 1".
+        The related ticket will be directed to the executor group defined in the link record of the request/incident activity to 
+        the service contract. But if the executor group is not defined in the activity link register, it will be directed to the 
+        executor group defined in parameter "Group ID Level 1".
 
-   ![figure](images/management-73.png)
+    ![figure](images/management-73.png)
    
-   **Figure 56 - Related ticket**
+    **Figure 56 - Related ticket**
 
 5.  To view the main ticket (source ticket), simply click the ![figure](images/management-74.png) .
 
@@ -1833,9 +1771,9 @@ Ticket printing
 1.  Locate the ticket which will be printed, click on it and then click on the
     "options" icon and on *Print Request*, as illustrated on the image below:
 
-   ![figure](images/management-75.png)
+    ![figure](images/management-75.png)
    
-   **Figure 57- Printing the ticket**
+    **Figure 57- Printing the ticket**
 
 2.  The selected ticket entry will be printed.
 
@@ -1962,15 +1900,15 @@ Ticket audit
     in the standard feature listing, making it easier to find the desired items,
     as shown below:
 
-   -   Number;
+    - Number;
 
-   -   Start date;
+    - Start date;
 
-   -   Final date.
+    - Final date.
 
-   ![figure](images/management-81.png)
+    ![figure](images/management-81.png)
    
-   **Figure 61 - Ticket audit screen**
+    **Figure 61 - Ticket audit screen**
 
 2.  After completing the search, click the icon ![figure](images/management-82.png) to set the filters required to
     check the ticket history (incident and request) instances for the audit.
@@ -2034,79 +1972,66 @@ Advanced search
 1.  The following filters enable the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
-   -   **Opening date**: insert the intended period of the ticket search;
+    - **Opening date**: insert the intended period of the ticket search;
 
-   -   **Closing date**: insert the ticket closure date to check for ticket which
-    were closed in the given period;
+    - **Closing date**: insert the ticket closure date to check for ticket which were closed in the given period;
 
-   -   **Number**: insert the ticket identification number to check for specific
-    ticket;
+    - **Number**: insert the ticket identification number to check for specific ticket;
 
-   -   **Order By**: determine the order in which the ticket will be displayed;
+    - **Order By**: determine the order in which the ticket will be displayed;
 
-   -   **Contract**: insert the contract to check for ticket related to it;
+    - **Contract**: insert the contract to check for ticket related to it;
 
-   -   **Catalog**: insert the service catalog type to check for ticket related to
-    it;
+    - **Catalog**: insert the service catalog type to check for ticket related to it;
 
-   -   **Service/Enabling Service**: insert the service to check for ticket related
-    to it;
+    - **Service/Enabling Service**: insert the service to check for ticket related to it;
 
-   -   **Type**: insert the ticket type to check for ticket;
+    - **Type**: insert the ticket type to check for ticket;
 
-   -   **Activity (Request/Incident)**: insert the service to check for ticket
-    related to it;
+    - **Activity (Request/Incident)**: insert the service to check for ticket related to it;
 
-   -   **Consider Hierarchy**: check this box to consider the service hierarchy;
+    - **Consider Hierarchy**: check this box to consider the service hierarchy;
 
-   -   **Configuration Item**: insert the configuration item to check for ticket
-    related to it;
+    - **Configuration Item**: insert the configuration item to check for ticket related to it;
 
-   -   **Situation**: insert the situation to check for ticket related to it;
+    - **Situation**: insert the situation to check for ticket related to it;
 
-   -   **Priority**: insert the priority to check for related ticket;
+    - **Priority**: insert the priority to check for related ticket;
 
-   -   **Execution/Solver group**: insert the executor group to check for ticket
-    that were forwarded to it;
+    - **Execution/Solver group**: insert the executor group to check for ticket that were forwarded to it;
 
-   -   **Phase**: insert the ticket phase to check for ticket which are in a
-    certain stage;
+    - **Phase**: insert the ticket phase to check for ticket which are in a certain stage;
 
-   -   **Origin**: insert the source of the ticket contact to check for related
-    ticket;
+    - **Origin**: insert the source of the ticket contact to check for related ticket;
 
-   -   **Unit**: insert the unit to check for related ticket;
+    - **Unit**: insert the unit to check for related ticket;
 
-   !!! note "NOTE"
+    !!! note "NOTE"
 
-      If the parameter 61 "Link contract to units" is enabled, only units linked
-      to the contract which has ties to the group it belong to will be
-      available.
+        If the parameter 61 "Link contract to units" is enabled, only units linked to the contract which has ties to the group it 
+        belong to will be available.
 
-   -   **Location**: insert the location to check for related ticket;
+    - **Location**: insert the location to check for related ticket;
 
-   -   **Keywords**: insert the keyword to check for related ticket;
+    - **Keywords**: insert the keyword to check for related ticket;
 
-   -   **User**: insert the ticket applicant name to search their ticket;
+    - **User**: insert the ticket applicant name to search their ticket;
 
-   -   **Created by**: insert the name of the applicant who registered the ticket
-    to check for ticket created by them;
+    - **Created by**: insert the name of the applicant who registered the ticket to check for ticket created by them;
 
-   -   **Current Responsible**: insert the current responsible for attending a
-    ticket to check for ticket attended by them;
+    - **Current Responsible**: insert the current responsible for attending a ticket to check for ticket attended by them;
 
-   -   **Would you like to see the description on the report?**: check this box to
-    display the content of the ticket “description” field on the report.
+    - **Would you like to see the description on the report?**: check this box to display the content of the ticket “description” 
+    field on the report.
 
-!!! info "IMPORTANT"
+    !!! info "IMPORTANT"
 
-    The effectiveness of the search depends on following certain permission
-    rules through the filter, such as: execution, delegation, monitoring,
-    visualization, user groups, contract link, units and logged in collaborator.
+        The effectiveness of the search depends on following certain permission rules through the filter, such as: execution, 
+        delegation, monitoring, visualization, user groups, contract link, units and logged in collaborator.
 
-   ![figure](images/management-84.png)
+    ![figure](images/management-84.png)
    
-   **Figure 63 - Ticket advanced search**
+    **Figure 63 - Ticket advanced search**
 
 2.  After setting the filters, click on the Search button. Then, the ticket
     will be displayed according to the filters chosen;
@@ -2145,57 +2070,49 @@ Advanced search
     Opening, Service Time, Description, Solution/Answer, Situation, Date/Time
     limit, Group, Date/ime Ending, Remaining Time and Current Responsible.
 
-   ![figure](images/management-85.png)
+    ![figure](images/management-85.png)
    
-   **Figure 64 - Tickets list screen**
+    **Figure 64 - Tickets list screen**
 
-2.  In each item on listing it is possible to realize the following actions:
+2. In each item on listing it is possible to realize the following actions:
 
--   To view the ticket history (events), just click the Action button and then
-    on Search Ticket History;
+    - To view the ticket history (events), just click the Action button and then on Search Ticket History;
 
--   To view the ticket log, just click on the Action button and then on View
-    Ticket;
+    - To view the ticket log, just click on the Action button and then on View Ticket;
 
--   To view a ticket attachments, just click on the Action button and then
-    on View Attachments;
+    - To view a ticket attachments, just click on the Action button and then on View Attachments;
 
--   To reopen a ticket, just click on the Action button and then on Reopen
-    Ticket.
+    - To reopen a ticket, just click on the Action button and then on Reopen Ticket.
 
 ### Export of the result of advanced search
 
 1.  To generate a report with *summed* up information on the search:
 
-   -   click on the *Generate PDF* button to generate an PDF format report;
+    - click on the *Generate PDF* button to generate an PDF format report;
 
-   -  click on the *Generate XLS* button to generate an Excel format report .
+    - click on the *Generate XLS* button to generate an Excel format report .
 
 2.  To generate a report with *detailed* information on the search:
 
-   -   click on the *Generate Detailed Report (PDF)* button to generate a PDF
-    format report;
+    - click on the *Generate Detailed Report (PDF)* button to generate a PDF format report;
 
-   -   click on the *Generate Detailed Report (XLS)* button to generate a Excel
-    format report.
+    - click on the *Generate Detailed Report (XLS)* button to generate a Excel format report.
 
 3.  After performing the advanced search the user inserts one of the required
     filters and can click the Exportar CSV button.
 
-!!! note "NOTE"
+    !!! note "NOTE"
 
-    To export the data to CSV, by deleting any special characters, you must,
-    when opening the file in Excel, toggle the source of the file that will be
-    set in the preview mode Western European (Windows) to Unicode (UFT-8).
+        To export the data to CSV, by deleting any special characters, you must, when opening the file in Excel, toggle the source 
+        of the file that will be set in the preview mode Western European (Windows) to Unicode (UFT-8).
 
-   ![figure](images/management-86.png)
+    ![figure](images/management-86.png)
    
-   **Figure 65 - Screen view mode configuration file**
+    **Figure 65 - Screen view mode configuration file**
 
-4.  The system exports the result in the desired format, with the following
-    fields:
+4. The system exports the result in the desired format, with the following fields:
 
-    -   **ID Service Request: **open ticket number;
+    -   **ID Service Request**: open ticket number;
 
     -   **Service**: Business Service description;
 
@@ -2232,11 +2149,10 @@ Advanced search
    -   **Service Time**: time spent between the closing hour and the opening date
     and time within the calendar;
 
-   !!! info "IMPORTANT"
+    !!! info "IMPORTANT"
 
-      In case the SLA has exceeded the service time, the system will count from
-      the opening of the call to the closing and will disregard the schedule.
-
+        In case the SLA has exceeded the service time, the system will count from the opening of the call to the closing and will 
+        disregard the schedule.
    
    -   **Description**: what was requested in the activity;
 
@@ -2388,7 +2304,7 @@ Ticket registration via template
 
 1.  Have the templates registered to register a ticket using this functionality
     (see knowledge [Incidents, Requests and Procedures Template registration and
-    search][33]);
+    search][32]);
 
 2.  Have permission to register ticket (see knowledge [Group registration and
     search][3]);
@@ -2432,9 +2348,9 @@ Ticket registration via template
     template screen containing the listed templates will be displayed, as shown
     in the figure below:
 
-   ![figure](images/management-89.png)
+    ![figure](images/management-89.png)
    
-   **Figure 67 - Template screen**
+    **Figure 67 - Template screen**
 
 2.  Select the desired template and will be directed to the Ticket
     Register screen with the fields filled in according to the chosen
