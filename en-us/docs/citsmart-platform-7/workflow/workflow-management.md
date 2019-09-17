@@ -125,7 +125,7 @@ will be displayed:
     - **Type of interaction**: is the way the Questionnaire or Neuro interface will be applied in the service request;
 
     -   **Template**: allows the linking of previously registered service request template (see knowledge [Service request 
-    template registration and search][1];
+    template registration and search][1]);
 
     !!! note "NOTE"
 
