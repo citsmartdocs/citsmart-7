@@ -340,76 +340,63 @@ This report is intended to present the history of service request records.
 
     - **Closing date**: enter the service request closure period to check the requests that were closed in the given period;
 
-    **Number**: enter the service request ID number if you want to verify a
-    specific request;
+    - **Number**: enter the service request ID number if you want to verify a specific request;
 
--   **Order by**: enter the order that the requests will be displayed;
+    - **Order by**: enter the order that the requests will be displayed;
 
--   **Contract**: inform the contract to verify the requests of related
-    services;
+    - **Contract**: inform the contract to verify the requests of related services;
 
--   **Catalog**: report the type of services catalog;
+    - **Catalog**: report the type of services catalog;
 
--   **Service/Enabling Service**: inform the service if you want to check the
-    requests regarding the same;
+    - **Service/Enabling Service**: inform the service if you want to check the requests regarding the same;
 
--   **Type**: enter the type of request to verify the requests;
+    - **Type**: enter the type of request to verify the requests;
 
--   **Activity (Request/Incident)**: inform the service if you want to verify
-    the requests regarding the same;
+    - **Activity (Request/Incident)**: inform the service if you want to verify the requests regarding the same;
 
--   **Consider Hierarchy**: check this field if you want to consider the
-    hierarchy of the service;
+    - **Consider Hierarchy**: check this field if you want to consider the hierarchy of the service;
 
--   **Configuration Item**: inform the configuration item if you want to check
-    the service requests related to it;
+    - **Configuration Item**: inform the configuration item if you want to check the service requests related to it;
 
--   **Situation**: report a situation if you want to check the related service
-    requests;
+    - **Situation**: report a situation if you want to check the related service requests;
 
--   **Priority**: Inform the priority if you want to check the related service
-    requests;
+    - **Priority**: Inform the priority if you want to check the related service requests;
 
--   **Execution/Solver Group**: inform the executing group if you want to check
-    the service requests that were directed to it;
+    - **Execution/Solver Group**: inform the executing group if you want to check the service requests that were directed to it;
 
--   **Phase**: inform the phase of the request if you want to verify the
-    requests for services that are in the determined phase;
+    - **Phase**: inform the phase of the request if you want to verify the requests for services that are in the determined phase;
 
--   **Origin**: Enter the origin of the request if you want to check the related
-    service requests;
+    - **Origin**: Enter the origin of the request if you want to check the related service requests;
 
--   **Unit**: enter the desired unit to check the related service requests;
+    - **Unit**: enter the desired unit to check the related service requests;
 
--   **Location**: inform the locality to check the requests for related
-    services;
+    - **Location**: inform the locality to check the requests for related services;
 
--   **Keywords**: enter the keyword to check the service requests related to it;
+    - **Keywords**: enter the keyword to check the service requests related to it;
 
--   **User**: inform the service requestor to verify your requests;
+    - **User**: inform the service requestor to verify your requests;
 
--   **Created by**: inform the responsible party who registered the request to
-    verify the service requests that were registered by the same;
+    - **Created by**: inform the responsible party who registered the request to verify the service requests that were registered
+    by the same;
 
--   **Current Responsible**: inform the person responsible for the request.
+    - **Current Responsible**: inform the person responsible for the request.
 
 2.  The Service Requests Report Generation screen will be displayed, as shown in
     Image below:
 
+    ![figure](images/rel.tick.img8.jpg)
    
-   ![figure](images/rel.tick.img8.jpg)
-   
-   **Figure 8 - Generation report service requests screen**
+    **Figure 8 - Generation report service requests screen**
 
 3.  Set the filters as needed;
 
 4.  After the filters are set, click the *Search* button. Once this is done, the
     requests will be displayed;
 
-!!! info "IMPORTANT"
+    !!! info "IMPORTANT"
 
-    The number of requests listed, per page, refers to the quantity configured
-    in parameter "261 - Number of Registers returned in Advanced Search".
+        The number of requests listed, per page, refers to the quantity configured in parameter "261 - Number of Registers
+        returned in Advanced Search".
 
 5.  In the requests listed, you can perform the following actions: consult
     request / incident history, view request / incident, view attachments and
@@ -441,23 +428,22 @@ This report is intended to present service requests per performer.
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   **Closing Period**: enter the desired period;
+    - **Closing Period**: enter the desired period;
 
--   **Number**: enter the request number;
+    - **Number**: enter the request number;
 
--   **Performed by**: inform the person responsible for the request;
+    - **Performed by**: inform the person responsible for the request;
 
--   **Contract**: select the contract;
+    - **Contract**: select the contract;
 
--   **TOP List**: enter the number of records you want to see in the report.
+    - **TOP List**: enter the number of records you want to see in the report.
 
 2.  The Execution Requests Report Generation screen will be displayed, as shown
     in the following image:
 
+    ![figure](images/rel.tick.img9.jpg)
    
-   ![figure](images/rel.tick.img9.jpg)
-   
-   **Figure 9 - Generate request per user report generation screen**
+    **Figure 9 - Generate request per user report generation screen**
 
 3.  Set the filters as needed.
 
@@ -479,27 +465,24 @@ those that have not been approved.
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   **Type**: enter the desired period;
+    - **Type**: enter the desired period;
 
--   **Start date**: enter the start date for the selected period;
+    - **Start date**: enter the start date for the selected period;
 
--   **End date**: enter the end date for the selected period;
+    - **End date**: enter the end date for the selected period;
 
--   **Contract**: inform the contract that you want to verify the approvals of
-    the requests related to the same;
+    - **Contract**: inform the contract that you want to verify the approvals of the requests related to the same;
 
--   **Records**: enter the type of record (approved or unapproved) of requests
-    you want to verify;
+    - **Records**: enter the type of record (approved or unapproved) of requests you want to verify;
 
--   **TOP List**: enter the number of records you want to see in the report.
+    - **TOP List**: enter the number of records you want to see in the report.
 
 2.  The Generation of Requests Report Generation screen will be displayed, as
     shown in the Image below:
 
+    ![figure](images/rel.tick.img10.jpg)
    
-   ![figure](images/rel.tick.img10.jpg)
-   
-   **Figure 10 - Generation of approval report generation screen**
+    **Figure 10 - Generation of approval report generation screen**
 
 3.  Set the filters as needed.
 
@@ -520,30 +503,24 @@ This report aims to introduce those responsible for executing service requests.
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   **Opening Period**: enter the opening period that you want to check for
-    service requests;
+    - **Opening Period**: enter the opening period that you want to check for service requests;
 
--   **Number**: Enter the identification number of the request you want to
-    verify;
+    - **Number**: Enter the identification number of the request you want to verify;
 
--   **Performed by**: search and select the person responsible for service
-    requests for verification;
+    - **Performed by**: search and select the person responsible for service requests for verification;
 
--   **Contract**: inform the contract that you want to check the service
-    requests;
+    - **Contract**: inform the contract that you want to check the service requests;
 
--   **Approver Group**: inform the approving group to verify the requests that
-    have been approved by the group;
+    - **Approver Group**: inform the approving group to verify the requests that have been approved by the group;
 
--   **TOP List**: Enter the number of records you want to see in the report.
+    - **TOP List**: Enter the number of records you want to see in the report.
 
 2.  The Generation of Requests Execution Report screen will be displayed, as
     shown in the following Image:
-
+  
+    ![figure](images/rel.tick.img11.jpg)
    
-   ![figure](images/rel.tick.img11.jpg)
-   
-   **Figure 11 - Generation of request execution report generation screen**
+    **Figure 11 - Generation of request execution report generation screen**
 
 3.  Set the filters as needed.
 
@@ -566,26 +543,23 @@ given period.
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   **Date of Reopening**: enter the period that the service request was
-    reopened;
+    - **Date of Reopening**: enter the period that the service request was reopened;
 
--   **Closing Date**: enter the period that the service request ended;
+    - **Closing Date**: enter the period that the service request ended;
 
--   **Contract**: report the contract regarding service request;
+    - **Contract**: report the contract regarding service request;
 
--   **Group**: inform the group responsible for executing service request;
+    - **Group**: inform the group responsible for executing service request;
 
--   **Status**: report the status of reopened service requests that you want to
-    check;
+    - **Status**: report the status of reopened service requests that you want to check;
 
--   **Type of Service**: enter the type of service you want to check;
+    - **Type of Service**: enter the type of service you want to check;
 
--   **TOP List**: enter the number of records you want to see in the report.
-
+    - **TOP List**: enter the number of records you want to see in the report.
    
-   ![figure](images/rel.tick.img12.jpg)
+    ![figure](images/rel.tick.img12.jpg)
    
-   **Figure 12 - Report generation screen reopened requests**
+    **Figure 12 - Report generation screen reopened requests**
 
 2.  Set the filters as needed.
 
@@ -607,68 +581,60 @@ filters chosen by the user.
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   **Report**: Select the type of report you want:
+    - **Report**: Select the type of report you want:
 
-    -   Report Top 10 Applicant who opened most calls;
+        -   Report Top 10 Applicant who opened most calls;
 
-    -   Report Top 10 Groups that solved more requests/incidents;
+        -   Report Top 10 Groups that solved more requests/incidents;
 
-    -   Report Top 10 most opened requests/incidents;
+        -   Report Top 10 most opened requests/incidents;
 
-    -   Report Top 10 Units that opened more requests/incidents;
+        -   Report Top 10 Units that opened more requests/incidents;
 
-    -   Report Top 10 locations that opened more requests/incidents.
+        -   Report Top 10 locations that opened more requests/incidents.
 
--   **Top List**: Select the amount of data you want to return in the report;
+    - **Top List**: Select the amount of data you want to return in the report;
 
-   !!! info "IMPORTANT"
+    !!! info "IMPORTANT"
 
-      When the user wants to analyze all requests by setting the "All" value for
-      the "Top List" filter, there may be a difference between the number of
-      requests in the "Report Top10 most open requests / incidents" requests with
-      The number that was found in other reports, because a request is not
-      required to be linked to a location.
+        When the user wants to analyze all requests by setting the "All" value for the "Top List" filter, there may be a difference 
+        between the number of requests in the "Report Top10 most open requests / incidents" requests with. The number that was
+        found in other reports, because a request is not required to be linked to a location.
 
--   **Opening Period**: enter the start date and end date;
+    - **Opening Period**: enter the start date and end date;
 
-   !!! info "IMPORTANT"
+    !!! info "IMPORTANT"
 
-      The "end date" field will be used to filter the "Top 10 Report of solver
-      groups that have solved most requests / Incidents", so it may be different
-       from the number of requests opened in the period
+        The "end date" field will be used to filter the "Top 10 Report of solver groups that have solved most requests / Incidents", 
+        so it may be different from the number of requests opened in the period
 
--   **Contract**: select the contract;
+    - **Contract**: select the contract;
 
--   **Service**: report the service performed;
+    - **Service**: report the service performed;
 
--   **User**: select the requestor of the service;
+    - **User**: select the requestor of the service;
 
--   **Unit**: select the unit of the contract;
+    - **Unit**: select the unit of the contract;
 
--   **Status**: select the status of the service request;
+    - **Status**: select the status of the service request;
 
--   **Service Type**: Select the type of service, which may be Incident and / or
-    Request;
+    - **Service Type**: Select the type of service, which may be Incident and / or Request;
 
--   **Contact Origin**: Select the contact origin of the service request;
+    - **Contact Origin**: Select the contact origin of the service request;
 
--   **Priority**: Select the execution priority.
+    - **Priority**: Select the execution priority.
 
-   !!! note "NOTE"
+    !!! note "NOTE"
 
-     The system will present all active units and services related to the
-      selected contract
+        The system will present all active units and services related to the selected contract.
 
--   Choose a view type for the report, which can be either "Preview", "Brief" or
-    "Analytical".
+    - Choose a view type for the report, which can be either "Preview", "Brief" or "Analytical".
 
-2.  The Incident/Requests Top 10 Report Generation screen will be displayed, as
-    shown in the Image below:
+2. The Incident/Requests Top 10 Report Generation screen will be displayed, as shown in the Image below:
 
-   
-   ![figure](images/rel.tick.img13.jpg)
+    ![figure](images/rel.tick.img13.jpg)
      
-   **Figure 13 - Report generation screen Top 10 incidents / requests**
+    **Figure 13 - Report generation screen Top 10 incidents / requests**
 
 3.  Set the filters as needed.
 
@@ -691,28 +657,23 @@ that was requested regarding the portfolio catalog service.
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   **Closing Period**: report the service request closure period;
+    - **Closing Period**: report the service request closure period;
 
--   **Portfolio**: select the portfolio to verify the services requests of the
-    same;
+    - **Portfolio**: select the portfolio to verify the services requests of the same;
 
--   **Catalog**: Select the catalog type. If the type chosen is "Business", only
-    the business services will be presented and if the type chosen is
-    "Technical", only the support services will be presented;
+    - **Catalog**: Select the catalog type. If the type chosen is "Business", only the business services will be presented and if 
+    the type chosen is "Technical", only the support services will be presented;
 
--   **Service**: Select the service you want to check. If you have informed the
-    catalog, the services will be presented according to the type selected;
+    - **Service**: Select the service you want to check. If you have informed the catalog, the services will be presented
+    according to the type selected;
 
--   **TOP List**: Select the amount of data you want to return in the report.
+    - **TOP List**: Select the amount of data you want to return in the report.
 
-2.  The Incident / Request Report by Portfolio and Service screen will be
-    displayed, as shown in Image below:
+2.  The Incident / Request Report by Portfolio and Service screen will be displayed, as shown in Image below:
 
-   
-![figure](images/rel.tick.img14.jpg)
+    ![figure](images/rel.tick.img14.jpg)
 
-**Figure 14 - Quantitative incident/requests by portfolio and service report
-screen**
+    **Figure 14 - Quantitative incident/requests by portfolio and service report screen**
 
 3.  Set the filters as needed.
 
