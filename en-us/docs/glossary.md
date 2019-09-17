@@ -1,143 +1,121 @@
-title: Glossário (ITSM)
-Description: Lista dos principais termos e expressões usados.
-# Glossário (ITSM)
+title: Glossary (ITSM)
+Description: List of the main terms and expressions used.
+# Glossary (ITSM)
 
-Glossário geral
+General glossary
 -----------------
 
-Lista dos principais termos e expressões usados:
+List of the main terms and expressions used:
 
-1. **Administração de contratos**: um banco de dados ou documento estruturado usado para gerenciar contratos ou contratos de serviço entre
-um provedor de serviços de TI e seus clientes. Cada serviço de TI entregue a um cliente deve ter um contrato ou outro contrato que faça 
-parte da Administração de Contratos.
+1. **Active**: any resource or skill. The assets of a service provider include anything that can contribute to the delivery of a 
+service. The assets can be any of the following types: Management, Organization, Process, Knowledge, People, Information, 
+Applications, Infrastructure and Financial Capital.
 
-2. **Atividade**: conjunto de ações definidas para alcançar um resultado específico. Atividades são geralmente definidas como parte de 
-processos ou planos e documentadas em procedimentos.
+2. **Activity**: set of actions defined to achieve a specific result. Activities are normally defined as part of processes or plans and documented in procedures.
 
-3. **Ativo**: qualquer recurso ou habilidade. Os ativos de um provedor de serviços incluem qualquer coisa que possa contribuir para a 
-entrega de um serviço. Os ativos podem ser qualquer um dos seguintes tipos: Gerenciamento, Organização, Processo, Conhecimento, Pessoas, 
-Informações, Aplicativos, Infraestrutura e Capital Financeiro.
+3. **Audit**: inspection and formal verification to confirm if a standard or a set of recommendations are being followed, what 
+records are accurate or if the efficiency and effectiveness goals are being met. An audit can be conducted by internal or external 
+groups.
 
-4. **Auditoria**: inspeção e verificação formal para confirmar se um padrão ou um conjunto de recomendações está sendo seguido, quais 
-registros são precisos ou se as metas de eficiência e eficácia estão sendo atendidas. Uma auditoria pode ser conduzida por grupos internos 
-ou externos.
+4. **Baseline**: the reference used as a starting point for a comparison in the future, that is, initial data that represent the 
+situation of the process, where this information is used to compare with the current situation to know if the service or process 
+needs improvement . For example, a baseline of configuration management can be used to allow the IT infrastructure to recover its 
+previous known configuration after a change or failure in the release.
 
-5. **Avaliação**: o processo responsável por verificar um serviço de TI novo ou modificado para garantir que os riscos foram gerenciados 
-e ajudar a determinar se deve continuar com uma alteração. Avaliação é também o termo usado quando se quer comparar um resultado real com 
-um desejado, ou comparar uma alternativa com outra.
+5. **Best practices**: activities or processes that have proven successful when used in several organizations.
 
-6. **Classificação**: o ato de associar uma categoria a algo. A classificação é usada para garantir consistência na administração e 
-geração de relatórios. ICs, incidentes, problemas, alterações, etc. eles são classificados normalmente.
+6. **Business**: a corporate entity in general or an organization constituted by a certain number of business units.
 
-7. **Colaborador**: uma pessoa que tenha algum tipo de vínculo com a organização, como: 
-um funcionário, um parceiro etc.
+7. **Classification**: the act of associating a category with something. The classification is used to ensure consistency in the 
+administration and generation of reports. ICs, Incidents, Problems, Changes, etc. They are classified normally.
 
-8. **Contrato**: um acordo que legalmente vincula duas ou mais entidades.
+8. **Collaborator**: a person who has some type of link with the organization, such as: an employee, a partner, etc.
 
-9. **Event Pattern Language**: é uma linguagem computacional com uma padronização 
-aplicável à análise dos eventos normalmente monitorados da infraestrutura de TI, que
-adota os mesmos princípios SQL, ou seja, inclui as cláusulas SELECT , FROM, WHERE, GROUP 
-BY, HAVING y ORDER BY. Como os eventos são compostos de dados, esses conceitos de SQL
-podem ser aplicados a correlações, junções, filtros e agregações.
+9. **Contract**: an agreement that legally binds two or more entities.
 
-10. **Fornecedor**: um terceiro responsável pelo fornecimento de produtos ou serviços 
-necessários para a prestação de serviços de TI.
+10. **Contract administration**: a database or structured document that is used to manage contracts or service agreements between an 
+IT service provider and its customers. Each IT service delivered to a client must have a Contract or other Agreement that is part of 
+the Contract Administration.
 
-11. **Impacto**: medição do efeito de um incidente, problema ou alteração nos processos
-de negócios. O impacto geralmente é baseado em como os níveis de serviço serão afetados.
+11. **Evaluation**: the process responsible for verifying a new or modified IT Service to ensure that the risks have been managed 
+and to help determine if we should continue with a change. Evaluation is also the term used when we want to compare an actual result 
+with a desired one, or compare one alternative with another.
 
-12. **Indisponibilidade**: duração em que um serviço de TI ou outro item de 
-configuração não está disponível durante o tempo de serviço acordado.
+12. **Event Pattern Language**: it is a computer language with a standardization applicable to the analysis of the normally 
+monitored events of the IT infrastructure, which adopts the same SQL (Structured Query Language) principles, that is, includes the 
+clauses SELECT, FROM , WHERE, GROUP BY, HAVING and ORDER BY. Because events are data composites, these SQL concepts can be applied 
+to correlations, joins, filters, and aggregations.
 
-13. **Infraestrutura de TI**: todo o hardware, software, redes, instalações, etc., 
-necessários para desenvolver, testar, fornecer, monitorar, controlar ou dar suporte aos
-serviços de TI. O termo Infraestrutura de TI inclui toda a tecnologia da informação, 
-exceto pessoas, processos e documentação associada.
+13. **Impact**: measurement of the effect of an incident, problem or change in business processes. The impact is usually based on 
+how service levels will be affected.
 
-14. **Linha de base**: a referência usada como ponto de partida para uma comparação no
-futuro, ou seja, dados iniciais que representam a situação do processo, onde essa 
-informação é usada para comparar com a situação atual para saber se o serviço ou 
-processo precisa de melhorias. Por exemplo, uma linha de base de gerenciamento de 
-configuração pode ser usada para permitir que a infraestrutura de TI recupere sua 
-configuração anterior conhecida após uma alteração ou falha na liberação.
+14. **Improvement plan**: formal plan to implement improvements in an IT process or service.
 
-15. **Melhores práticas**: atividades ou processos que se mostraram bem-sucedidos
-quando usados em várias organizações.
+15. **Information Technology**: set of all activities and solutions provided by computing resources that seek to allow storage, 
+communication, access and use of information.
 
-16. **Monitoração**: observação repetitiva de um item de configuração, serviço de TI ou
-processo para detectar eventos e garantir que o estado atual seja conhecido.
+16. **Information technolog infrastructure**: all the hardware, software, networks, facilities, etc., that are necessary to develop, 
+test, deliver, monitor, control or support IT services. The term IT Infrastructure includes all information technology, except 
+people, processes and associated documentation.
 
-17. **Negócio**: uma entidade corporativa em geral ou organização constituída por um determinado número de unidades de 
-negócios.
+17. **LDAP**: is an open application protocol, free of provider and industry standard to access and maintain directory information 
+services distributed in an IP network.
 
-18. **Número de Identificação do Trabalhador**: é a numeração eletrônica exclusiva do governo brasileiro para identificar cada 
-trabalhador e controlar seu tempo de serviço para a aposentadoria.
+18. **Monitoring**: repetitive observation of a configuration item, IT service or process to detect events and ensure that the 
+current status is known.
 
-19. **Ordem de Serviço**: documento ou registro que autoriza a execução de um serviço
-dentro de uma relação contratual.
+19. **Order of Service**: document or record that authorizes the execution of a service within a contractual relationship.
 
-20. **Plano de melhoria**: plano formal para implementar melhorias em um processo ou 
-serviço de TI.
+20. **Priority**: category used to identify the relative importance of an incident, problem or change. The priority is based on 
+impact and urgency, and is used to identify the times required to take appropriate action.
 
-21. **Prioridade**: categoria usada para identificar a importância relativa de um 
-incidente, problema ou alteração. A prioridade é baseada no impacto e na urgência e é 
-usada para identificar os tempos necessários para tomar as medidas apropriadas.
+21. **Problem**: is the cause of one or more incidents.
 
-22. **Problema**: é a causa de um ou mais incidentes.
+22. **Process**: set of coordinated activities combining and implementing resources and skills in order to produce an output, which, 
+directly or indirectly, creates value for a client or interested party.
 
-23. **Processo**: conjunto de atividades coordenadas combinando e implementando 
-recursos e habilidades para produzir uma saída que, direta ou indiretamente, crie valor
-para um cliente ou parte interessada.
+23. **Provider**: a third party responsible for providing products or services that are necessary for the delivery of IT services.
 
-24. **Registro**: documento que contém os resultados ou outra saída de um processo ou atividade. Os registros são evidência de fato de
-que a atividade realmente aconteceu e pode ser feita em papel ou em formato eletrônico.
+24. **Registration**: document that contains the results or other output of a process or activity. The records are evidence of fact 
+that the activity actually happened and can be done in paper or electronic format.
 
-25. **Serviço**: ato essencialmente intangível. Representa um conjunto de atividades que visam agregar valor aos clientes, facilitando
-os resultados que eles querem alcançar.
+25. **Service**: essentially intangible act. Represents a set of activities that aim to deliver value to customers, facilitating the 
+results they want to achieve
 
 26. **SQL**: Structured Query Language.
 
-27. **Status**: o nome de um campo requerido em muitos tipos de registros no sistema. 
-Mostra a situação atual do ciclo de vida de um item de configuração, um incidente, um
-problema etc.
+27. **Status**: the name of a field required in many types of records in the system. It shows the current situation of the life 
+cycle of a configuration item, an incident, a problem, etc.
 
-28. **Tecnología da Informação**: conjunto de todas as atividades e soluções fornecidas
-por recursos de computação que buscam permitir o armazenamento, a comunicação, o acesso
-e o uso de informações.
+28. **Unavailability**: time in which an IT service or other configuration item is not available during the agreed service time.
 
-29. **Usuário**: uma pessoa que usa o serviço de TI diariamente. Os usuários são 
-diferentes dos clientes, pois alguns clientes não usam o serviço de TI diretamente.
+29. **User**: a person who uses the IT Service on a day-to-day basis. Users are different from customers, since some customers do 
+not use the IT service directly.
 
-30. **Versão**: identificação de uma linha de base de um item de configuração. As 
-versões geralmente usam uma convenção de nomenclatura para identificar a sequência ou a
-data de cada linha de base. Por exemplo, a versão 3 do aplicativo de folha de pagamento
-contém recursos aprimorados em relação à versão 2.
+30. **Version**: identification of a baseline of a configuration item. Versions typically use a naming convention to identify the 
+sequence or date of each baseline. For example, version 3 of the payroll application contains improved features with respect to 
+version 2 
 
-31. **Web Service**: uma solução utilizada na integração de sistemas e na comunicação 
-entre diferentes aplicações. Com essa tecnologia é possível que novos aplicativos 
-possam interagir com aqueles que já existem e que sistemas desenvolvidos em diferentes
-plataformas sejam compatíveis. Web Services são componentes que permitem que os 
-aplicativos enviem e recebam dados no formato XML. Cada aplicativo pode ter sua própria
-"linguagem", que é traduzida em uma linguagem universal, o formato XML.
+31. **Web Service**: a solution used in the integration of systems and communication between different applications. With this 
+technology it is possible that new applications can interact with those that already exist and that systems developed on different 
+platforms are compatible. Web Services are components that allow applications to send and receive data in XML format. Each 
+application can have its own "language", which is translated into a universal language, the XML format.
 
-32. **WebRTC**: é um projeto aberto e gratuito que fornece recursos de comunicação em
-tempo real a navegadores e aplicativos móveis por meio de APIs simples. Com a função 
-WebRTC, é possível fazer uma chamada telefônica da solução Web usando apenas o 
-navegador, desde que um servidor do tipo Janus configurado para receber solicitações
-Voip esteja disponível. Normalmente, essa conexão cairá em um tipo central do 
-ServiceDesk.
+32. **WebRTC**: it is an open and free project that provides navigators and mobile applications real-time communication resources 
+through simple APIs. With the WebRTC function it is possible to make a telephone call from the Web solution using only the browser, 
+provided that a Janus-type server configured to receive Voip requests is available. Generally this connection will fall into a 
+central ServiceDesk type.
 
-33. **XML**: é uma linguagem de marcação recomendada pelo W3C para a criação de documentos com dados
-organizados hierarquicamente, como textos, bases de dados ou desenhos vetoriais. A linguagem XML é
-classificada como extensível porque permite definir os elementos de marcação.
+33. **XML**: is a markup language recommended by the W3C for the creation of documents with hierarchically organized data, such as 
+texts, databases or vector drawings. The XML language is classified as extensible because it allows to define the marking elements.
 
-Glossário ITIL
+ ITIL Glossary
 ---------------
 
-Lista dos principais termos e expressões ITIL usados:
+List of main ITIL terms and expressions used:
 
-1. **Acordo de Nível de Serviço**: documento em que o contrato entre o Cliente e o 
-Provedor de Serviços de TI é descrito em relação ao serviço que será fornecido.
+1. **Application Compliance: process responsible for managing the life cycle of all service requests.
+Service Design: phase in the life cycle of an IT Service. Service design includes a certain number of processes and functions.
 
 2. **Acordo de Nível Operacional**: acordo entre o Provedor de Serviços de TI e outra
 parte da mesma organização que suporta a prestação de serviços.
