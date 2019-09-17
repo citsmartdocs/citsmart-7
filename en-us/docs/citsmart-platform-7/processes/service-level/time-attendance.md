@@ -214,4 +214,4 @@ Filling in the registrations fields
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
     <b>Updated:</b>08/27/2019 – Anna Martins
 
-[How to enable the service requests scheduling rule]:/en-us/citsmart-docs/user-guide/faq/faq.html
+[How to enable the service requests scheduling rule]:(/en-us/citsmart-docs/user-guide/faq/faq.html)
