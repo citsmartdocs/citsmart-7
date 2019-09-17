@@ -2040,8 +2040,7 @@ Advanced search
     parameter 261 and finding records larger than the allowed amount, the
     following message will be displayed:
 
-   -   "The amount of records found exceeds the maximum allowed viewing amount.
-    Please reset the search filters."
+    - "The amount of records found exceeds the maximum allowed viewing amount. Please reset the search filters."
 
 4.  However, if the amount of record returned from the search is less than that
     limited in parameter 261, then the system checks the setting of parameter
@@ -2051,8 +2050,7 @@ Advanced search
     the quantity is greater than the parameterized quantity, then the system
     displays the following message:
 
-    -   "The report is being processed. A notification will be sent to you when you
-    are ready".
+    - "The report is being processed. A notification will be sent to you when you are ready".
 
 6.  If the file to be generated is too long, the system will trigger a
     notification on the main screen, informing that the download is ending. When
