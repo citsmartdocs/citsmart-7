@@ -70,11 +70,10 @@ resolution;
 current ticket (in the creation of the report via Smart Reports this option is
 defined);
 
-   !!! warning "ATTENTION"
+    !!! warning "ATTENTION"
 
-       Viewing these reports depends on the configuration (registration) of
-       specific reports in the Reports > Smart Reports > Smart Report Generator
-       (see knowledge [Smart Report generator][2])
+        Viewing these reports depends on the configuration (registration) of specific reports in the 
+        Reports > Smart Reports > Smart Report Generator (see knowledge [Smart Report generator][2])
 
 - **21**: Click to show the flow referring to the ticket, being possible then to observe
 the position of the user inside it;
@@ -139,10 +138,10 @@ Ticket registration
     registration and search][3]);
 
 2.  Have the staff registered (see knowledge [Staff registration and
-    search][3]);
+    search][4]);
 
 3.  Have the group registered (see knowledge [Group registration and
-    search][4]);
+    search][3]);
 
 4.  Have the contract registered (see knowledge [Contract registration and
     search][5]);
@@ -194,12 +193,12 @@ Ticket registration
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
-   -   Search here: on the search field, it is possible to search by number,
-    description of the task and responsible for the service;
+    - Search here: on the search field, it is possible to search by number, description of the task and responsible for
+    the service;
 
-   ![figure](images/management-2.png)
+    ![figure](images/management-2.png)
    
-   **Figure 2 - Quick search**
+    **Figure 2 - Quick search**
 
 2.  To perform a search using other filters, just click on the ![figure](images/management-3.png)
      icon by the search field. A screen with multiple filters will be displayed,
@@ -219,7 +218,7 @@ Ticket registration
 
    -   **Status**: inform the situation to verify the related tickets;
 
-   -   **Contrac**t: inform the contract to verify the tickets related to it;
+   -   **Contract**: inform the contract to verify the tickets related to it;
 
    -   **Executor group**: inform the executor group to verify the tickets that
     were directed to the same;
@@ -275,9 +274,9 @@ Ticket registration
 3.  Once this is done, the **Ticket Registration** screen will be displayed, as
     shown in the following figure:
 
-   ![figure](images/management-8.png)
-   
-   **Figure 5 - Ticket registration screen**
+    ![figure](images/management-8.png)
+
+    **Figure 5 - Ticket registration screen**
 
 4.  Fill in the fields as described below:
 
@@ -295,20 +294,19 @@ Ticket registration
         forward/backward to view all the information preserving performance and
         screen lay-out.
 
--   **Phone**: enter the telephone number of the applicant;
+    - **Phone**: enter the telephone number of the applicant;
 
--   **Extension**: enter the extension number of the applicant, if applicable;
+    - **Extension**: enter the extension number of the applicant, if applicable;
 
--   **E-mail**: inform the requestor's e-mail;
+    - **E-mail**: inform the requestor's e-mail;
 
--   **Contact Origin**: inform the contact origin for ticket registration;
+    - **Contact Origin**: inform the contact origin for ticket registration;
 
--   **Unit**: select the unit on which the requester is positioned on;
+    - **Unit**: select the unit on which the requester is positioned on;
 
--   **Location**: state the applicant's location;
+    - **Location**: state the applicant's location;
 
--   **Other Information**: describe the observations about the applicant, if
-    necessary.
+    - **Other Information**: describe the observations about the applicant, if necessary.
 
     !!! warning "ATTENTION"
 
@@ -339,56 +337,45 @@ Ticket registration
            network for a new user, request of configuration of some equipment, request
            to add some software in the workstation, etc.
 
-   -   **Category**: enter the category of service to facilitate the search of the
-    activity (Request/incident). The category will identify the nature of the
-    activity, positioning it within similar groups of action, placing it in the
-    hierarchy of its category;
+    - **Category**: enter the category of service to facilitate the search of the activity (Request/incident). The category will 
+    identify the nature of the activity, positioning it within similar groups of action, placing it in the hierarchy of its 
+    category;
 
-   -   **Activity (Request/Incident)**: inform the activity that will be performed
-    regarding the ticket type. If the reported activity has a "Guidance Script"
-    associated with it, it will be displayed in the "Scripts" tab represented by
+    - **Activity (Request/Incident)**: inform the activity that will be performed regarding the ticket type. If the reported 
+    activity has a "Guidance Script" associated with it, it will be displayed in the "Scripts" tab represented by
     the icon ![figure](images/management-9.png) located in the upper right corner of the screen;
 
-   -   **Contract**: after informing the activity (Request/incident), the contract
-    will be displayed for which the opening of an incident or service request
-    will be made;
+    - **Contract**: after informing the activity (Request/incident), the contract will be displayed for which the opening of an 
+    incident or service request will be made;
 
-   -   **Impact**: after informing the activity (Request/incident), the impact
-    information of the service to the business will be displayed;
+    - **Impact**: after informing the activity (Request/incident), the impact information of the service to the business will be 
+    displayed;
 
-   -   **Urgency**: after informing the activity (Request/incident), the urgency
-    information will be displayed which indicates the speed at which the service
-    needs to be performed;
+    - **Urgency**: after informing the activity (Request/incident), the urgency information will be displayed which indicates the 
+    speed at which the service needs to be performed;
 
-   !!! warning "ATTENTION"
+    !!! warning "ATTENTION"
 
-       After informing the ticket activity, the expected time to fulfill the
-       request will be established, as configured in the record of the time of
-       service related to the activity. The service time will be counted according
-       to what was defined in the calendar linked to the unit, but if the unit does
-       not have a linked calendar, it will be accounted according to the calendar
-       linked to the service. However, when closing the expected time of attendance
-       is counted the delay in time, being disregarded the calendar.
+         After informing the ticket activity, the expected time to fulfill the request will be established, as configured in the 
+         record of the time of service related to the activity. The service time will be counted according to what was defined in 
+         the calendar linked to the unit, but if the unit does not have a linked calendar, it will be accounted according to the 
+         calendar linked to the service. However, when closing the expected time of attendance is counted the delay in time, being 
+         disregarded the calendar.
 
-   -   **Title**: inform the ticket title;
+    - **Title**: inform the ticket title;
 
-   -   **Description**: enter the ticket´s description. The description must be
-    objective, including all the information necessary to attend to it;
+    - **Description**: enter the ticket´s description. The description must be objective, including all the information necessary 
+    to attend to it;
 
-   -   **Escalate to group**: inform the group to which the ticket will be
-    directed. If you do not inform the group, the ticket will be directed to the
-    group defined in the request/incident flow. If the group is not defined in
-    the flow, the ticket will be directed to the group defined in the link
-    record of the request/incident activity to the contract. But if the group is
-    not defined in the activity link record to the contract, the ticket will be
-    directed to the group defined in the parameter "Group ID Level 1" (for this
-    field to be enabled you need to configure the functionality - see
-    knowledge [Workflow maintenance][14]),
+    - **Escalate to group**: inform the group to which the ticket will be directed. If you do not inform the group, the ticket will 
+    be directed to the group defined in the request/incident flow. If the group is not defined in the flow, the ticket will be 
+    directed to the group defined in the link record of the request/incident activity to the contract. But if the group is not 
+    defined in the activity link record to the contract, the ticket will be directed to the group defined in the parameter "Group 
+    ID Level 1" (for this field to be enabled you need to configure the functionality - see knowledge [Workflow maintenance][14]),
     section Implementing the functionality escalate to group the flow on the
     activity);
 
-   -   **Notifications**: check the options for sending notification of the
-    ticket to be sent to the applicant;
+    - **Notifications**: check the options for sending notification of the ticket to be sent to the applicant;
 
    -   **Register Execution**: it is not necessary to complete this field, as it is
     indicated for the technician who will answer the ticket and will describe
