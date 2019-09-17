@@ -12,7 +12,7 @@ Preconditions
 
 1.  Have defined the portfolio of services to apply the time of service to the
     services (see knowledge [Service Portfolio registration][1], [Service
-    registration][2]), [Service Attributes configuration][3]).
+    registration][2], [Service Attributes configuration][3]).
 
 How to access
 -------------
