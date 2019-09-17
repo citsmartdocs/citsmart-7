@@ -2,8 +2,6 @@ title: Request and Incident Process Overview
 Description: Provides all process knowledge. 
 # Request and Incident Process Overview
 
-[Analyze event trends](/en-us/citsmart-platform-8/processes/tickets/use/analyze-event-trends.html)
-
 [Trend analysis of service requests](/en-us/citsmart-platform-7/processes/tickets/service-request-trends.html)
 
 [Request approval via e-mail](/en-us/citsmart-platform-7/processes/tickets/approve-request.html)
