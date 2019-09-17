@@ -30,10 +30,9 @@ already registered.
 Items list
 --------------------
 
-1.The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard feature 
-listing: **ID, Identification os Service Template Request** and **Name Service Template Request**.
+1.The following cadastral fields are available to the user to facilitate the identification of the desired items in the standard feature listing: **ID, Identification os Service Template Request** and **Name Service Template Request**.
 
-2. There are action buttons available to the user for each item in the listing, they are: *Edit* and *Delete*.
+2.There are action buttons available to the user for each item in the listing, they are: *Edit* and *Delete*.
 
     ![Listing](images/serv.temp.img2.jpg)
     
