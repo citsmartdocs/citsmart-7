@@ -50,18 +50,18 @@ Steps to setup e-mail on the flow
 4.  Configure, in the Recipients tab, the recipients (group/user) of the e-mail
     to be sent;
 
-!!! warning "ATTENTION"
+    !!! warning "ATTENTION"
 
-    The system does not search for recipients via "Expression".
+        The system does not search for recipients via "Expression".
 
   ![figure](images/approve-request-2.png)  
 
 **Figure 1 - Recipient configuration screen**
 
-   !!! warning "ATTENTION"
+!!! warning "ATTENTION"
 
-       If you choose the recipient to be "group", you must link the sending of the
-       e-mail to the users of the selected group (Access and Permission → Group).
+    If you choose the recipient to be "group", you must link the sending of the e-mail to the users of the selected group 
+    (Access and Permission → Group).
 
    !!! warning "ATTENTION"
 
@@ -80,16 +80,14 @@ Setting the approval notification e-mail
 
 3.  Record the approval notification e-mail.
 
-   !!! warning "ATTENTION"
+    !!! warning "ATTENTION"
 
-      This e-mail is made by HTML.
+        This e-mail is made by HTML.
 
-      The e-mail approval notification model to be used is available in the
-      attachements.
+        The e-mail approval notification model to be used is available in the attachements.
 
-      For more details on how to download the HTLM template when registering for a
-      new notification, see knowledge [E-mail template configuration registration
-      and search][5].
+        For more details on how to download the HTLM template when registering for a new notification, see knowledge
+        [E-mail template configuration registration and search][5].
 
 4.  Once you have passed the HTML model for the notification template, check the
     following guidelines:
