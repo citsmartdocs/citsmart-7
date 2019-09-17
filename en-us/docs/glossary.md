@@ -329,11 +329,14 @@ List of the main acronyms used:
 
 23. **UF**: Unidade Federativa (brazilian).
 
-24. **XML: eXtensible Markup Language.
+24. **XML**: eXtensible Markup Language.
 
-25. **XML**: eXtensible Markup Language.
+25. **ZIP**: Zone Improvement Plan.
+
+    - Portuguese (pt-BR): **CEP** (Código de Endereçamento Postal).
+    - Espanhol (es): **CP** (Código Postal).
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/26/2019 - Larissa Lourenço
+    <b>Updated:</b>17/09/2019 - Larissa Lourenço
