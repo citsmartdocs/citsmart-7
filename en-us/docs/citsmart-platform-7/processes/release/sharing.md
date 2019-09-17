@@ -27,13 +27,13 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Request Nº;
+    - Request Nº;
 
--   Assigned/Shared.
+    - Assigned/Shared.
 
-![figure](images/sharing-1.png)
+    ![figure](images/sharing-1.png)
 
-**Figure 1 - Release search screen**
+    **Figure 1 - Release search screen**
 
 Items list
 ----------
@@ -52,16 +52,16 @@ Items list
 4.  On the management tab, locate the release request which will be shared,
     click on the *Action* button and select the *Delegate/Job Share* option;
 
-   ![figure](images/sharing-2.png)
+    ![figure](images/sharing-2.png)
    
-   **Figure 2 - Shared release request**
+    **Figure 2 - Shared release request**
 
 5.  A screen to select the group or user whom the request will be shared with
     will be displayed.
 
-   ![figure](images/sharing-3.png)
+    ![figure](images/sharing-3.png)
    
-   **Figure 3 - Request release sharing**
+    **Figure 3 - Request release sharing**
 
 6.  Select the group or or user who wants to share the request. Once this is
     done, click the *Save* button;
