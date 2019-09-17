@@ -26,9 +26,9 @@ Filters
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   Contract;
+    - Contract;
 
--   Period.
+    - Period.
 
 Items list
 ----------
