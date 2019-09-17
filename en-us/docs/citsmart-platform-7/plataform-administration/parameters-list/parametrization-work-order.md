@@ -8,7 +8,7 @@ Follow the instructions below:
 
 2. Position the mouse in the **Parameterization**;
 
-3. CClick the **Service Order (SO)**;
+3. Click the **Service Order (SO)**;
 
 4. A list of parameters to be configured is displayed, set the parameter values (attributes);
 
