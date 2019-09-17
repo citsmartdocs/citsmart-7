@@ -202,7 +202,7 @@ Filling in the registrations fields
 5.  After recording the data, click on the *Save* button to register, where the
     date, time and user will be saved automatically for a future audit.
 
-[How to enable the service requests scheduling rule]:(/en-us/citsmart-docs/user-guide/faq/faq.html)
+[How to enable the service requests scheduling rule](/en-us/citsmart-docs/user-guide/faq/faq.html)
 
 [1]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
 [2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/services.html
