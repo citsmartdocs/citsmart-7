@@ -317,7 +317,7 @@ satisfaction survey in relation to service requests.
 3.  Set the filters as needed.
 
 4.  Select the form in which report is elaborated. To do this, click *Generate
-    PDF*,* Generate XLS* or *Export CSV*.
+    PDF*, *Generate XLS* or *Export CSV*.
 
 Generating report service requests
 ----------------------------------
@@ -407,9 +407,9 @@ This report is intended to present the history of service request records.
     in Excel format;
 
 7.  If you want to generate the report with detailed information of the survey
-    that was performed, click the *Generate Detailed Report PDF *button to
+    that was performed, click the *Generate Detailed Report PDF* button to
     generate the detailed report in PDF format and/or the *Generate Detailed
-    Report XLS *button to generate the detailed report in Excel format.
+    Report XLS* button to generate the detailed report in Excel format.
 
 Generating request per performer report
 ---------------------------------------
