@@ -6,7 +6,7 @@ Description: Parameterization rules - telephony.
 
 2. Position the mouse in the **Parameterization**;
 
-3 Click the ***Telephony** option;
+3. Click the **Telephony** option;
 
 4. A list of parameters to be configured is displayed, set the parameter values (attributes);
 
