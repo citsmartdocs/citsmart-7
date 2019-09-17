@@ -20,8 +20,7 @@ Preconditions
 Filters
 ---------
 
-1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
-to find the desired items:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier to find the desired items:
 
     - Search.
 
@@ -189,22 +188,22 @@ associated answers and confidence scores, which are based on acquired knowledge.
 
     -   **Input text**: text that will appear in the input.
 
-   !!! info "IMPORTANT"
+!!! info "IMPORTANT"
 
-         To use this component, the organization must have the IBM BlueMIX architecture, thus allowing access to the Watson API 
-         Conversation.
+      To use this component, the organization must have the IBM BlueMIX architecture, thus allowing access to the Watson           API Conversation.
 
-   !!! note "NOTE"
+!!! note "NOTE"
 
-       IBM Bluemix is an implementation of IBM's open cloud architecture based on Cloud Foundry that enables you to quickly 
-       create, deploy, and manage your applications in the cloud. Because Bluemix is based on Cloud Foundry, you can leverage the 
-       ecosystem of frameworks and runtime services.
+     IBM Bluemix is an implementation of IBM's open cloud architecture based on Cloud Foundry that enables you to quickly 
+     create, deploy, and manage your applications in the cloud. Because Bluemix is based on Cloud Foundry, you can leverage      the ecosystem of frameworks and runtime services.
 
 See also
 ----------
 
 -   [Ticket management (services)](/en-us/citsmart-platform-7/processes/tickets/ticket-management.html).
 
+
+[1]:/en-us/citsmart-platform-7/plataform-administration/questionnaires/ticket-template.html
 
 !!! tip "About"
 
