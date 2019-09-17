@@ -32,19 +32,17 @@ Preconditions
 Filters
 -------
 
-1.  The following filter allows the user to restrict the participation of items
-    in the standard listing of the functionality, facilitating the location of
-    the desired items, as shown in the figure below:
+1. The following filter allows the user to restrict the participation of items in the standard listing of the functionality, 
+facilitating the location of the desired items, as shown in the figure below:
 
-   -   Title;
+    - Title;
 
-   -   Status;
+    - Status;
 
-   -   Agreement Type.
+    - Agreement Type.
 
-2.  On the General Service Level Agreement screen, click the Search Service
-    Level Agreement (General) tab. The search screen will be displayed as shown
-    in the figure below:
+2. On the General Service Level Agreement screen, click the Search Service Level Agreement (General) tab. The search screen
+will be displayed as shown in the figure below:
 
     ![figure](images/register-sla-1.png)
     
@@ -190,25 +188,25 @@ priority and escalate the group to execute the service request.
 
    -  Select the units and assign a priority to each;
 
-         -  **Search Unit**: enter the unit that receives priority;
+    -  **Search Unit**: enter the unit that receives priority;
 
-         -  **Priority**: Indicate the priority of the service for the unit;
+    -  **Priority**: Indicate the priority of the service for the unit;
 
-         -  Once this is done, click the ![figure](images/register-sla-6.png) to add unit priority information;
+    -  Once this is done, click the ![figure](images/register-sla-6.png) to add unit priority information;
 
-         -  If you want to remove some priority information from the drive that was
-        added, just click the ![figure](images/register-sla-7.png) .
+    -  If you want to remove some priority information from the drive that was added, just click the
+    ![figure](images/register-sla-7.png) .
 
    -  Select the users and assign a priority to each;
 
-         -   **Search User**: inform the user; 
+    -   **Search User**: inform the user; 
     
-         -   **Priority**: indicate the priority of the service for the user;
+    -   **Priority**: indicate the priority of the service for the user;
 
-         -   Once this is done, click the ![figure](images/register-sla-6.png) for adding user priority information;
+    -   Once this is done, click the ![figure](images/register-sla-6.png) for adding user priority information;
 
-         -   If you want to remove some priority information from the user that
-            was added, just click on the icon ![figure](images/register-sla-7.png).
+    -   If you want to remove some priority information from the user that was added, just click on the icon
+    ![figure](images/register-sla-7.png).
 
    -  If the type of agreement informed is Information captured from several
     other sources, please inform the service agreement data:
