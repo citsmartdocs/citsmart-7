@@ -1,7 +1,8 @@
-Title: Bem-vindo
+Title: Welcome
 
-# Estamos aqui para ajudá-lo!
+# We are here to help you!
 
-Bem-vindo ao Centro de Documentação do CITSmart. Aqui você encontrará informações úteis sobre nossos produtos, guias de instalação, configuração da plataforma e implantação dos processos. Veja também nosso site para desenvolvedores: https://developers.citsmart.com.
+Welcome to the CITSmart Documentation Center. Here you will find useful information about our product, installation guides, platform 
+configuration and process deployment. See also our developer site: https://developers.citsmart.com.
 
-Clique no menu acima para entrar na árvore de documentação dos nossos produtos.
+Click the menu above to enter the documentation tree for our products.
