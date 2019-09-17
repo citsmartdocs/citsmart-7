@@ -25,23 +25,21 @@ How to access
 Filters
 -------
 
-1.  The following filter enables the user to restrict the participation of items
-    in the standard feature listing, making it easier to find the desired items:
+1. The following filter enables the user to restrict the participation of items in the standard feature listing, making it easier 
+to find the desired items:
 
-  -   Title.
+    - Title.
 
-   ![figure](images/improve-plan-1.png)
+    ![figure](images/improve-plan-1.png)
     
-   **Figure 1 - Improvement plans search screen**
+    **Figure 1 - Improvement plans search screen**
 
-2.  Perform the improvement plan search;
+2. Perform the improvement plan search;
 
-3.  Enter the title of the improvement plan you want to search for and click
-    the *Search* button. After that, the registration of the improvement plan
-    will be displayed according to the title informed;
+3. Enter the title of the improvement plan you want to search for and click the *Search* button. After that, the registration of 
+the improvement plan will be displayed according to the title informed;
 
-4.  If you want to list all the improvement plan records, simply click
-    the *Search* button directly.
+4. If you want to list all the improvement plan records, simply click the *Search* button directly.
 
 Items list
 ----------
