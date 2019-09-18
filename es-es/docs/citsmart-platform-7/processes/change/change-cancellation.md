@@ -1,74 +1,76 @@
-title: Cancelamento de requisição de mudança
-Description: Esta funcionalidade permite realizar o cancelamento da requisição de mudança.
-# Cancelamento de requisição de mudança
+title: Cancelamiento de la solicitud de cambio
+Description: Esta funcionalidad permite realizar la cancelación de la solicitud de cambio.
+# Cancelamiento de la solicitud de cambio
 
-Esta funcionalidade permite realizar o cancelamento da requisição de mudança.
+Esta funcionalidad permite realizar la cancelación de la solicitud de cambio.
 
-Como acessar
+Cómo acceder
 --------------
 
-1. Acesse a funcionalidade de cancelamento de requisição de mudança através da navegação no menu principal
-**Processos ITIL > Gerência de Mudança > Gerência de Mudança**.
+1. Acceda a la funcionalidad de cancelación de solicitud de cambio a través de la navegación en el menú principal 
+**Procesos ITIL > Gestión de Cambios > Gestión del Cambio**.
 
-Pré-condições
----------------
+Condiciones previas
+----------------------
 
-1. Não se aplica.
+1. No se aplica.
 
 Filtros
 ---------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade,
-facilitando a localização dos itens desejados:
+1. Los siguientes filtros posibilitan al usuario restringir la participación de ítems en el listado default de la funcionalidad, 
+facilitando la localización de los ítems deseados:
 
-    - Número da mudança;
-    - Atribuída/Compartilhada
-    - Itens por página.
+    - Número del cambio;
+    - Asignada/Compartida;
+    - Ítems por página.
     
-    ![Filtros](images/canc-mud.img1.png)
+    ![Filtros](images/cancelar.img1.jpg)
     
-    **Figura 1 - Tela de filtros**
+    **Figura 1 - Pantalla de filtros**
     
-Listagem de itens
+Listado de ítems
 --------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem padrão da 
-funcionalidade: Número, Solicitante, Criada em, Prioridade, Prazo, Prazo limite, Atraso, Situação, Tarefa atual, Grupo Executor e Responsável atual.
+1. El(Los) siguiente (s) campo (s) de registro está (n) disponible (s) para facilitar al usuario la identificación de los 
+elementos deseados en el listado default de la funcionalidad: **Número, Solicitante, Creada en, Prioridad, Plazo, Plazo límite, 
+Situación, Tarea Actual, Grupo Ejecutor** y **Responsable actual**.
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Visualizar", "Relatórios" e "Ação".
+2. Hay botones de acción disponibles para el usuario en relación con cada elemento de la lista, que son: *Ver, Informes* y 
+*Acción*.
 
-![Listagem](images/canc-mud.img2.png)
+![Listagem](images/cancelar.img2.jpg)
 
-**Figura 2 - Tela de listagem de mudanças**
+**Figura 2 - Pantalla de Listado de Cambio**
 
-Preenchimento dos campos cadastrais
+Completar los campos de registro
 -------------------------------------
 
-1. Não se aplica.
+1. No se aplica.
 
-Cancelando requisição de mudança
+Cancelando registros de cambio
 ----------------------------------
 
-1. Na guia **Gerenciamento**, localize a requisição de mudança que deseja cancelar, clique no botão "Ação" e selecione a opção 
-"Iniciar/Executar tarefa" da mesma, conforme indicado na imagem abaixo:
+1. En la ficha Gestión, busque la solicitud de cambio que desea cancelar, haga clic en el botón *Acción* y seleccione la opción 
+Iniciar / Ejecutar tarea de la misma, como se indica en la siguiente imagen:
 
-    ![Cancelar](images/canc-mud.img3.png)
+    ![Cancelar](images/cancelar.img3.jpg)
     
-    **Figura 3 - Cancelar requisição de mudanças**
+    **Figura 3 - Cancelar solicitud de cambio**
     
-2. Será exibida a tela de **Registro da Requisição de Mudança** com os campos preenchidos, com o conteúdo referente a 
-requisição selecionada;
+2. Se mostrará la pantalla de Registro de la Solicitud de Cambio con los campos rellenados, con el contenido referente a la 
+solicitud seleccionada;
 
-    - Na área de fechamento, no campo **Status**, marque a opção **Cancelada**;
-    - No campo **Fechamento**, descreva os detalhes do cancelamento da requisição de mudança;
-    - Após registro das informações do cancelamento da requisição de mudança, clique no botão "Gravar e avançar o fluxo"
-    para efetuar a operação, onde a requisição de mudança será cancelada com sucesso;
-    - Caso queira gravar somente as informações registradas sobre o cancelamento de requisição de mudança e manter a tarefa 
-    atual, clique no botão "Gravar e manter a tarefa atual".
-    - Em ambos os casos anteriores, ao clicar no botão "Gravar" a data, hora e usuário serão gravados automaticamente
-    para uma futura auditoria.
+    - En el área de cierre, en el campo **Status**, marque la opción **Cancelada**;
+    - En el campo **Cierre**, describa los detalles de la cancelación de la solicitud de cambio;
+    - Después de registrar la información de cancelación de la solicitud de cambio, haga clic en el botón *Grabar y avanzar el 
+    flujo* para efectuar la operación, donde la solicitud de cambio será cancelada con éxito;
+    - Si desea grabar sólo la información registrada sobre la cancelación de la solicitud de cambio y mantener la tarea actual, 
+    haga clic en el botón *Grabar y mantener la tarea actual*.
+    - En ambos casos anteriores, al hacer clic en el botón *Grabar* la fecha, hora y usuario se guardarán automáticamente para 
+    una futura auditoría.
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Larissa Lourenço
+    <b>Updated:</b>09/18/2019 – Larissa Lourenço
