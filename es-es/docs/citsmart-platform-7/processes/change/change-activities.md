@@ -1,62 +1,63 @@
-title: Gerenciamento de atividades de mudança
-Description: Esta funcionalidade tem o objetivo de gerenciar suas atividades relacionadas às requisições de mudança.
-# Gerenciamento de atividades de mudança
+title: Gestión de actividades de cambios
+Description: Esta funcionalidad tiene el objetivo de administrar sus actividades relacionadas con las solicitudes de cambio.
+# Gestión de actividades de cambios
 
-Esta funcionalidade tem o objetivo de gerenciar suas atividades relacionadas às requisições de mudança.
+Esta funcionalidad tiene el objetivo de administrar sus actividades relacionadas con las solicitudes de cambio.
 
-Como acessar
+Como acceder
 ---------------
 
-1. Acesse a funcionalidade de minhas atividades através da navegação no menu principal 
-**Processos ITIL > Gerência de Mudança > Minhas Atividades**.
+1. Accede a la funcionalidad de mis actividades a través de la navegación en el menú principal 
+**Procesos ITIL > Gestión de Cambios > Mis Actividades**.
 
-Pré-condições
----------------
+Condiciones previas
+----------------------
 
-1. Ter atividades atribuídas ao seu usuário.
+1. Tener actividades asignadas a su usuario.
 
 Filtros
 --------
 
-1. Não se aplica.
+1. No se aplica.
 
-Listagem de itens
+Listado de ítems
 ------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na 
-listagem padrão da funcionalidade: Nº da Mudança, Requisição de Mudança, Atividade, Data/Hora Fim e Situação.
+1. El(Los) siguiente (s) campo (s) de registro está (n) disponible (s) para facilitar al usuario la identificación de los 
+elementos deseados en el listado default de la funcionalidad: **Número del Cambio, Solicitación de Cambio, Actividad, Fecha/Hora 
+Inicial, Fecha/Hora Final** y **Situación**.
 
-2. Existe um botão de ação disponível ao usuário em relação a cada item da listagem, é ele: "Executar".
+2. Hay un botón de acción disponible para el usuario en relación con cada elemento de la lista, es él: *Ejecutar*.
 
-3. Será apresentada a tela **Minhas Atividades**, conforme ilustrada na figura abaixo:
+3. Se mostrará la pantalla **Mis Actividades**, como se muestra en la figura siguiente:
 
-![Atividades](images/ativi-mud.img1.png)
+![Atividades](images/actividad.img1.jpg)
 
-**Figura 1 - Minhas atividades**
+**Figura 1 - Mis actividades**
 
-Preenchimento dos campos cadastrais
+Completar los campos de registro
 ------------------------------------
 
-1. Para registrar informações da execução da atividade, basta clicar no botão "Executar" e será apresentada a tela,
-conforme ilustrado abaixo:
+1. Para registrar información de la ejecución de la actividad, basta con hacer clic en el botón Ejecutar y aparecerá la pantalla, 
+como se muestra a continuación:
 
-    ![Execução](images/ativi-mud.img2.png)
+    ![Execução](images/actividad.img2.jpg)
     
-    **Figura 2 - Registro de execução de atividade**
+    **Figura 2 - Registro de ejecución de actividad**
     
-    - **Situação**: selecione a situação da atividade, para facilitar o gerenciamento da mudança;
+    - **Situación**: seleccione la situación de la actividad, para facilitar la gestión del cambio;
     
-2. Clique no botão "Orientações técnicas" para visualizar o que foi informado da descrição da requisição de mudança;
+2. Haga clic en el botón *Orientaciones técnicas* para ver lo que se ha informado de la descripción de la solicitud de cambio;
 
-    - **Detalhamento**: informe os detalhes sobre a execução da atividade;
-    - **Data/Hora Início Execução**: informe a data e o horário de início da execução da atividade;
+    - **Detallamiento**: informe los detalles sobre la ejecución de la actividad;
+    - **Fecha/Hora Inicio Ejecución**: informe la fecha y el horario de inicio de la ejecución de la actividad;
     
-3. Para anexar um arquivo à atividade, informe a descrição do anexo, clique no botão "Adicionar Arquivo", e 
-selecione o arquivo que desejar;
+3. Para adjuntar un archivo a la actividad, introduzca la descripción del archivo adjunto, haga clic en el botón *Adicionar 
+archivo* y seleccione el archivo que desee;
 
-4. Clique no botão "Executar" para salvar as informações preenchidas referente a atividade.
+4. Haga clic en el botón Ejecutar para guardar la información completada referente a la actividad.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Larissa Lourenço
+    <b>Updated:</b>09/18/2019 – Larissa Lourenço
