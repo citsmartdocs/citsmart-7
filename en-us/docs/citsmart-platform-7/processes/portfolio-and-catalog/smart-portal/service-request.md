@@ -17,7 +17,7 @@ Preconditions
 
 2.  Have the portfolio with the services and Request/incident activities
     registered and made available in the Smart Portal (see knowledge [Service
-    portfolio registration][2]); [Service registration][3]); [Service
+    portfolio registration][2]; [Service registration][3]); [Service
     activity registration][4]);
 
 3.  Have the time of attendance of the Request/incident activities defined (see
@@ -63,54 +63,51 @@ Filling in he registration fields
 1.  After this, your respective services will be presented, as shown in the
     figure below:
 
-   ![figure](images/solici-img1.jpg)
+    ![figure](images/solici-img1.jpg)
    
-   **Figure 1 - Service catalog**
+    **Figure 1 - Service catalog**
 
 2.  Select the desired service. After that, the Request and/or incident related
     activities will be displayed, as shown in the figure below:
 
-   ![figure](images/solici-img2.jpg)
+    ![figure](images/solici-img2.jpg)
    
-   **Figure 2 - Service**
+    **Figure 2 - Service**
 
 3.  Select the service activity to request the service and after that, the
     request registration screen will be displayed, as shown in the figure below:
 
-   ![figure](images/solici-img3.jpg)
+    ![figure](images/solici-img3.jpg)
    
-   **Figure 3 - Request register screen**
+    **Figure 3 - Request register screen**
 
 4.  Enter request data:
 
-!!! note "NOTE"
+    !!! note "NOTE"
 
-    The fields related to Impact, Urgency, Description, Configuration Item and
-    Attachment will only be displayed in the request log screen if the
-    request/incident activity log is enabled to display them.
+        The fields related to Impact, Urgency, Description, Configuration Item and Attachment will only be displayed in the 
+        request log screen if the request/incident activity log is enabled to display them.
 
--   The information on the impact and urgency fields is established as
-    configured in the time service record linked to the Request/incident
-    activity;
+    - The information on the impact and urgency fields is established as configured in the time service record linked to the 
+    Request/incident activity;
 
--   **Title**: enter the title of the request;
+    - **Title**: enter the title of the request;
 
--   Add the configuration item for the request, if necessary;
+    - Add the configuration item for the request, if necessary;
 
--   **Description**: enter the description of the request. The description must
-    be objective, including all the information necessary to attend to it;
+    - **Description**: enter the description of the request. The description must be objective, including all the information 
+    necessary to attend to it;
 
--   After informing the description of the request, the system searches for the
-    knowledge related to the description and displays them for visualization;
+    - After informing the description of the request, the system searches for the knowledge related to the description and 
+    displays them for visualization;
 
--   Attach a file to the request if you find it necessary.
+    - Attach a file to the request if you find it necessary.
 
-   !!! info "IMPORTANT"
+    !!! info "IMPORTANT"
 
-     If the "Enable Add and Continue" button in the new request popup in the
-     portal is enabled, the "Add and Continue" button will be displayed on the
-     service request log screen. This button allows you to add the service in
-     Smartbox and continue selecting more services for request.
+        If the "Enable Add and Continue" button in the new request popup in the portal is enabled, the "Add and Continue" button 
+        will be displayed on the service request log screen. This button allows you to add the service in Smartbox and continue 
+        selecting more services for request.
 
 5.  After the data is entered, click the *Add and Finish* button to perform the
     operation.
