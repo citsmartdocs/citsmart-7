@@ -219,7 +219,7 @@ Description: Here you have the answers to the most common questions when talking
     
     6. Click on the Save button to confirm the entry, at which time, date and user will be stored for a future audit;
     
-    7. Search for the parameter "93 - Name of The CIs Group in Production Phase (e.g.: ICs em Produção)";
+    7. Search for the parameter "93 - Name of The CIs Group in Production Phase";
     
     8. Select it. Then, the parameter registry screen featuring the selected entry data will be displayed;
     
@@ -227,7 +227,7 @@ Description: Here you have the answers to the most common questions when talking
     
     10. Click on the Save button to confirm the entry, at which time, date and user will be stored for a future audit;
     
-    11. Search for the parameter "93 - Name of The CIs Group in Confirmation Phase (e.g.: ICs em Produção)";
+    11. Search for the parameter "93 - Name of The CIs Group in Confirmation Phase";
     
     12. On the Value field, insert the name of the CI group in confirmation phase;
     
@@ -282,7 +282,7 @@ Description: Here you have the answers to the most common questions when talking
     The design of the assets that make up the service is done using the Service Map Design tool that provides efficient and 
     effective drawings for managing the service during its life cycle, demonstrating the related configuration items.
  
-    To carry out this design, proceed as follows (see knowledge Service attributes configuration][2])
+    To carry out this design, proceed as follows (see knowledge [Service attributes configuration]9/en-us/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html))
     
     1. Access the Service Map Design feature for the Business Service **Portfolio and Catalog Management** > Portfolio and Catalog Management > Support Menu > Advanced Portfolio > Service Catalog > Next Service > Service Map**;
     
@@ -366,7 +366,7 @@ Description: Here you have the answers to the most common questions when talking
 
     The problem scaling rule is enabled on the Citsmart Parameter screen. To enable this rule, proceed as follows:
       
-    1. Access the Citsmart Parameters feature by navigating in the main menu Parameterization → Citsmart Parameters.
+    1. Access the Citsmart Parameters feature by navigating in the main menu Parameterization > Citsmart Parameters.
     
     2. The Citsmart Parameters screen will appear, click the Citsmart Parameters Search tab.
     
@@ -436,9 +436,9 @@ Description: Here you have the answers to the most common questions when talking
     
     2. Perform the parameter search "46 - Enable Portal as Citsmart home screen?" And select the same. After that, the parameter registration screen with the contents of the selected registry will be displayed, as shown in the figure below:
     
-    ![figure](images/para.img1.jpg)
+        ![figure](images/para.img1.jpg)
     
-    **Figure 1 - Citsmart parameter search screen**
+        **Figure 1 - Citsmart parameter search screen**
     
     3. In the Value field, enter the value "Y" to enable the portal as the home screen. Once this is done, click on the Save button to perform the operation, in which case the date, time and user will be stored automatically for a future audit.
 
@@ -569,7 +569,7 @@ Description: Here you have the answers to the most common questions when talking
 
       4. Search for the intended group and select it. Afterwards, the user will be linked to the group;
 
-      5.After linking, click on the Save button to confirm the entry, at which date, time and user will be automatically stored for a future audit
+      5. After linking, click on the Save button to confirm the entry, at which date, time and user will be automatically stored for a future audit
     
 !!! Question "[Events] Error: "Failed to connect to monitoring tool" for Zabixx"
 
@@ -805,7 +805,7 @@ Description: Here you have the answers to the most common questions when talking
     
     To check the time in the database, follow these steps:
 
-    1. Access the scripting functionality by navigating in the main menu System → Database → Scripts Execution;
+    1. Access the scripting functionality by navigating in the main menu System > Database > Scripts Execution;
 
     2. The Scripts Execution screen will be displayed;
 
@@ -827,4 +827,4 @@ Description: Here you have the answers to the most common questions when talking
     <b>Updated:</b>09/17/2019 - Anna Martins
     
 
-[2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
+
