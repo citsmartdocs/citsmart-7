@@ -1,69 +1,68 @@
-title: Captura de requisição de mudança
-Description: Esta funcionalidade refere-se ao ato de atribuir a determinada tarefa para o próprio usuário, tornando-se o 
-# Captura de requisição de mudança
+title: Captura de solicitud de cambios
+Description: Esta funcionalidad se refiere al acto de asignar una determinada tarea al propio usuario
+# Captura de solicitud de cambios
 
-Esta funcionalidade refere-se ao ato de atribuir a determinada tarefa para o próprio usuário, tornando-se o responsável 
-atual pela requisição de mudança.
+Esta funcionalidad se refiere al acto de asignar una determinada tarea al propio usuario, convirtiéndose en el responsable actual 
+de la solicitud de cambio.
 
-Como acessar
+Cómo acceder
 -------------
 
-1. Acesse a funcionalidade de captura de requisição de mudança através da navegação no menu principal
-**Processos ITIL > Gerência de Mudança > Gerenciamento de Mudança**.
+1. Acceda a la funcionalidad de captura de solicitud de cambio a través de la navegación en el menú principal 
+**Procesos ITIL > Gestión de Cambios > Gestión del Cambio**.
 
-Pré-condições
+Condiciones previas
 ----------------
 
-1. Não se aplica.
+1. No se aplica.
 
 Filtros
 ----------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+1. Los siguientes filtros posibilitan al usuario restringir la participación de ítems en el listado default de la funcionalidad, 
+facilitando la localización de los ítems deseados:
 
-    - Número da mudança;
-    - Atribuída/Compartilhada;
-    - Itens por página.
+    - Número del cambio;
+    - Asignada/Compartida;
+    - Ítens por página.
     
-    ![Filtros](images/cap-mud.img1.png)
+    ![Filtros](images/captura.img1.jpg)
     
-    **Figura 1 - Tela de filtros**
+    **Figura 1 - Pantalla de filtros**
     
-Listagem de itens
+Listado de itens
 ------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na 
-listagem padrão da funcionalidade: Número, Solicitante, Criada em, Prioridade, Prazo, Prazo limite, Atraso, Situação, 
-Tarefa atual, Grupo Executor e Responsável atual.
+1. El(Los) siguiente (s) campo (s) de registro está (n) disponible (s) para facilitar al usuario la identificación de los 
+elementos deseados en el listado default de la funcionalidad: **Número, Solicitante, Creada en, Prioridade, Plazo, Plazo limite, 
+Atraso, Situación, Tarea actual, Grupo Ejecutor** y **Responsable actual**.
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Visualizar", "Relatórios"
-e "Ação".
+2. Hay botones de acción disponibles para el usuario en relación con cada elemento de la lista, que son: *Ver* y *Informes*.
 
-![Listagem](images/cap-mud.img2.png)
+![Listagem](images/captura.img2.jpg)
 
-**Figura 2 - Tela de listagem de tarefas**
+**Figura 2 - Pantalla de listado de tareas**
 
-Preenchimento dos campos cadastrais
+Completar los campos de registro
 -------------------------------------
 
-1. Não se aplica.
+1. No se aplica.
 
-Capturando tarefa
+Capturando tareas
 ------------------
 
-1. Na guia **Gerenciamento**, localize a requisição de mudança que deseja capturar, clique no botão "Ação" e selecione a opção 
-"Capturar tarefa", conforme indicado na imagem abaixo:
+1. En la ficha Gestión, busque la solicitud de cambio que desea capturar, haga clic en el botón *Acción* y seleccione la opción 
+*Capturar tarea* como se muestra en la siguiente imagen:
 
-    ![Capturar](images/cap-mud.img3.png)
+    ![Capturar](images/captura.img3.jpg)
     
-    **Figura 3 - Capturar tarefa**
+    **Figura 3 - Capturar tarea**
     
-2. Será exibida uma mensagem de confirmação da captura da tarefa. Clique em "OK" para efetuar a operação;
+2. Aparecerá un mensaje de confirmación de la captura de la tarea. Haga clic en Aceptar para realizar la operación;
 
-3. Será apresentado o responsável atual pelo atendimento da requisição de mudança na lista de requisições.
+3. Se presentará el responsable actual por la atención de la solicitud de cambio en la lista de requisiciones.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Larissa Lourenço
+    <b>Updated:</b>09/18/2019 – Larissa Lourenço
