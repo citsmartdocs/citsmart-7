@@ -38,7 +38,7 @@ Inicial, Fecha/Hora Final** y **Situación**.
 Completar los campos de registro
 ------------------------------------
 
-1. Para registrar información de la ejecución de la actividad, basta con hacer clic en el botón Ejecutar y aparecerá la pantalla, 
+1. Para registrar información de la ejecución de la actividad, basta con hacer clic en el botón *Ejecutar* y aparecerá la pantalla, 
 como se muestra a continuación:
 
     ![Execução](images/actividad.img2.jpg)
