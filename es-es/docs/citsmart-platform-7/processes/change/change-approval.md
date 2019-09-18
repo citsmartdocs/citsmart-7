@@ -1,109 +1,111 @@
-title: Aprovação de requisição de mudança
-Description: Essa funcionalidade permite realizar aprovação da requisição de mudança.
-# Aprovação de requisição de mudança
+title: Aprobación de solicitud de cambio
+Description: Esta funcionalidad permite realizar la aprobación de la solicitud de cambio.
+# Aprobación de solicitud de cambio
 
-Essa funcionalidade permite realizar aprovação da requisição de mudança.
+Esta funcionalidad permite realizar la aprobación de la solicitud de cambio.
 
-Como acessar
+Cómo acceder
 ---------------
 
-1. Acesse a funcionalidade de aprovação de requisição de mudança através da navegação no menu 
-principal **Processos ITIL > Gerência de Mudança > Gerenciamento de Mudança**.
+1. Acceda a la funcionalidad de aprobación de solicitud de cambio a través de la navegación en el menú principal 
+**Procesos ITIL > Gestión de Cambios > Gestión del Cambio**.
 
-Pré-condições
----------------
+Condiciones previas
+----------------------
 
-1. O grupo ao qual o usuário está cadastrado deve ter o valor igual a "SIM" do Comitê Consultivo 
-de Mudanças (ver conhecimento [Cadastro e pesquisa de grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html));
+1. El grupo al que el usuario está registrado debe tener el valor igual a "SI" del CAC (ver conocimiento [Registro y consulta de grupo](/es-es/citsmart-platform-7/initial-settings/access-settings/user/group.html));
 
-2. Para tipos de fluxo não emergencial nem padrão (Normal), as "Permissões nos fluxos de trabalho" do
-grupo ao qual o usuário está cadastrado devem estar todas ativadas (ver conhecimento [Cadastro e pesquisa de grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html)).
+2. Para los tipos de flujo que no sean de emergencia o de padrón (Normal), los "permisos en los flujos de trabajo" del grupo al que el usuario está registrado deben estar todos habilitados (ver conocimiento del [Registro y consulta de grupo](/es-es/citsmart-platform-7/initial-settings/access-settings/user/group.html)).
 
 Filtros
 --------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+1. Los siguientes filtros posibilitan al usuario restringir la participación de ítems en el listado default de la funcionalidad, 
+facilitando la localización de los ítems deseados:
 
-     - Número da mudança;
-     - Atribuída/Compartilhada;
-     - Itens por página.
+     - Número del cambio;
+     - Asignada/Compartida;
+     - Ítems por página
 
-![Pesquisa](images/aprov-mud.img1.png)
+![Pesquisa](images/aprobacion.img1.jpg)
 
-**Figura 1 - Tela de pesquisa de mudança**
+**Figura 1 - Pantalla de consulta de SDC**
 
-Listagem de itens
+Listado de ítems
 -------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados
-na listagem padrão da funcionalidade: Número, Solicitante, Criada em, Prioridade, Prazo, Prazo limite, Atraso, Situação,
-Tarefa atual, Grupo Executor e Responsável atual.
+1. El(Los) siguiente (s) campo (s) de registro está (n) disponible (s) para facilitar al usuario la identificación de los 
+elementos deseados en el listado default de la funcionalidad : **Número, Solicitante, Creada en, Prioridad, Plazo, Plazo límite, 
+Atraso, Situación, Tarea Actual, Grupo Ejecutor** y **Responsable actual**.
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Visualizar" e "Relatórios".
+2. Existen botones de acción disponibles para el usuario en relación con cada elemento de la lista, que son: *Ver* e *Informes*.
 
-![Listagem](images/aprov-mud.img2.png)
+![Listagem](images/aprobacion.img2.jpg)
 
-**Figura 2 - Tela de listagem de mudança**
+**Figura 2 - Pantalla de lista de SDC**
 
-Preenchimento dos campos cadastrais
+Completar los campos de registro
 -------------------------------------
 
-!!! info "REGRA"
+!!! info "IMPORTANTE"
 
-    Somente os membros do "Comitê Consultivo de Mudança (CCM)" podem realizar a aprovação da Requisição de Mudança. Para
-    aprovar uma Requisição de Mudança deve se atentar na configuração do parâmetro "Votação da RDM utilizando a regra 
-    da maioria absoluta (50% + 1) (Valores: "S" ou "N" Default: "S")", onde o valor "S" define a aprovação da Requisição
-    de Mudança quando há mais de 50% de aprovação do CCM e o valor "N" define a aprovação da Requisição de Mudança quando 
-    há 100% de aprovação do CCM.
+    Sólo los miembros del CAC pueden realizar la aprobación de la SDC. Para aprobar una SDC debe observarse en la configuración 
+    del parámetro "Votación SDC usando la regla de la mayoría absoluta (50% + 1) (Valores:" S "o" N "Default:" S "), donde el 
+    valor "S" define la aprobación de la SDC cuando hay más del 50% de aprobación del CAC y el valor "N" define la aprobación de 
+    la SDC cuando hay un 100% de aprobación del CAC.
     
-1. Na guia **Requisições para votação**, localize a requisição de mudança que deseja aprovar, clique no botão Votar da mesma,
-conforme indicado na figura abaixo:
+1. Para votar busque la solicitud de cambio que desea aprobar, haga clic en el botón *Votar* de la misma, como se indica en la 
+figura siguiente:
 
-    ![Botão](images/aprov-mud.img3.png)
+    ![Botão](images/aprobacion.img3.jpg)
 
-    **Figura 3 - Botão votar**
+    **Figura 3 - Botón**
 
-2. Será exibida a tela para votação da requisição de mudança, conforme indicado na figura abaixo:
+2. Se mostrará la pantalla para la votación de la solicitud de cambio, como se indica en la figura siguiente:
 
-![Aprovar](images/aprov-mud.img4.png)
+![Aprovar](images/aprobacion.img4.jpg)
 
-**Figura 4 - Aprovar requisição de mudanças**
+**Figura 4 - Aprobar la SDC**
 
-- **Nome**: é preenchido automaticamente com o nome do membro do CCM que está votando da requisição de mudança;
-- **Votação**:  selecione a sua escolha de votação para a requisição de mudança, Aprovada ou Rejeitada;
-- **Comentários**: se desejar, faça um comentário sobre a votação da requisição de mudança;
-- **Data/Hora**: é preenchido automaticamente quando for realizada a consulta da votação da requisição de com a informação
-de data e hora da aprovação/rejeição da mesma;
-- Clique no botão "Gravar" para efetuar o registro da votação.
+- **Nombre**: se rellena automáticamente con el nombre del miembro del CAC que está votando de la SDC;
+- **Votación**: seleccione su elección de votación para la SDC, aprobada o rechazada;
+- **Comentarios**: si lo desea, haga un comentario sobre la votación de la solicitud de cambio;
+- **Fecha/Hora**: se rellenará automáticamente cuando se realiza la consulta de la votación de la solicitud con la información de 
+fecha y hora de la aprobación/rechazo de la misma;
+- Haga clic en el botón *Grabar* para registrar la votación.
 
-Verificação da aprovação do comitê de mudança consultiva
----------------------------------------------------------
+Vericación de la aprobación del comité asesor de cambios
+-----------------------------------------------------------
 
-1. Para prosseguir com a aprovação, o responsável pela requisição de mudança, que faz parte do grupo executor, deve verificar
-a aprovação do Comitê Consultivo de Mudanças.
+1. Para proseguir con la aprobación, el responsable de la solicitud de cambio, que forma parte del grupo ejecutor, debe verificar 
+la aprobación del Comité Asesor de Cambios.
 
-    - Na aba **Gerenciamento**, localize a requisição de mudança, clique no botão "Ação", selecione a opção "Iniciar/Executar tarefa" e será exibida a tela de requisição de mudança com os campos preenchidos, com o conteúdo referente à requisição selecionada;
+    - En la pestaña **Gestión**, busque la solicitud de cambio, haga clic en el botón *Acción*, seleccione la opción 
+    Iniciar/Ejecutar tarea y aparecerá la pantalla de solicitud de cambio con los campos rellenados, con el contenido referente a 
+    la solicitud seleccionada;
 
-    - Ao lado direito da tela de requisição de mudança, clique na opção **Votação RDM**;
+    - Al lado derecho de la pantalla de solicitud de cambio, haga clic en la opción **Votación SDC**;
 
-    ![Seleção](images/aprov-mud.img5.png)
+    ![Seleção](images/aprobacion.img5.jpg)
 
-    **Figura 5 - Seleção de Votação RDM**
+    **Figura 5 - Selección de votación SDC**
 
-    - Será apresentada a tela de consulta de votação da requisição de mudança, conforme exemplo ilustrado abaixo:
+    - Se mostrará la pantalla de consulta de votación de la solicitud de cambio, como se muestra a continuación:
 
-    ![Consulta](images/aprov-mud.img6.png)
+    ![Consulta](images/aprobacion.img6.jpg)
 
-    **Figura 6 - Consulta de aprovação da requisição de mudança**
+    **Figura 6 - Consulta de aprobación de la SDC**
 
-    - Caso já tenha obtido a aprovação necessária, clique no botão "Gravar e avançar o fluxo" para efetuar a operação, onde a requisição de mudança será aprovada e encaminhada para fase de planejamento;
+    - Si ya ha obtenido la aprobación necesaria, haga clic en el botón *Grabar y Avanzar* el flujo para efectuar la operación, 
+    donde la solicitud de cambio será aprobada y encaminada a la fase de planificación;
 
 !!! note "NOTA"
 
-    O sistema permite alterar o Comitê Consultivo de Mudança (CCM) em qualquer momento, desde que, não tenha sido iniciada a votação da Requisição de Mudança. A partir do momento que se inicia a votação da Requisição de Mudança, ainda que se altere os membros do CCM, o sistema não altera os votantes da Requisição.
+    El sistema permite modificar el Comité Asesor de Cambios (CAC) en cualquier momento, siempre que no se haya iniciado la 
+    votación de la Solicitud de Cambio (SDC). A partir del momento en que se inicia la votación de la Solicitud de Cambio aunque 
+    se alteren los miembros del CAC, el sistema no altera los votantes de la Solicitud.
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/11/2019 – Larissa Lourenço
+    <b>Updated:</b>09/18/2019 – Larissa Lourenço
