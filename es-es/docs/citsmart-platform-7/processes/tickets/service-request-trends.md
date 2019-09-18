@@ -59,37 +59,37 @@ Filtros
 
 2.  Llene los filtros según su necesidad:
 
-    -   **Período de apertura: **informar el período del registro de solicitudes de
+    -   **Período de apertura**: informar el período del registro de solicitudes de
         servicio;
 
-    -   **Contrato: **informar el contrato para verificar las solicitudes de
+    -   **Contrato**: informar el contrato para verificar las solicitudes de
         servicio referentes al mismo;
 
-    -   **Tipo de solicitación: **seleccionar el tipo de solicitud que desea
+    -   **Tipo de solicitación**: seleccionar el tipo de solicitud que desea
         comprobar;
 
-    -   **Nombre del Servicio:** informar al servicio para verificar la cantidad
+    -   **Nombre del Servicio**: informar al servicio para verificar la cantidad
         de solicitudes referentes al mismo;
 
-    -   **Grupo ejecutor: **seleccionar el grupo ejecutor para verificar las
+    -   **Grupo ejecutor**: seleccionar el grupo ejecutor para verificar las
         solicitudes de servicio que se han asignado al mismo;
 
-    -   **Solicitante: **informar el nombre del usuario solicitante para
+    -   **Solicitante**: informar el nombre del usuario solicitante para
         verificar las solicitudes de servicio solicitadas por el mismo;
 
-    -   **Urgencia: **seleccionar el grado de urgencia para verificar las
+    -   **Urgencia**: seleccionar el grado de urgencia para verificar las
         solicitudes de servicio referentes al mismo;
 
-    -   **Impacto: **seleccionar el grado del impacto para verificar las
+    -   **Impacto**: seleccionar el grado del impacto para verificar las
         solicitudes de servicio referentes al mismo;
 
-    -   **Ítem de configuración: **indicar el ítem de configuración para
+    -   **Ítem de configuración**: indicar el ítem de configuración para
         comprobar las solicitudes de servicios relacionadas con el mismo;
 
-    -   **Causa:** informar la causa para verificar las solicitudes de servicio
+    -   **Causa**: informar la causa para verificar las solicitudes de servicio
         ocasionadas por la misma;
 
-    -   **Cantidad Crítica: **informar el número crítico de solicitudes de
+    -   **Cantidad Crítica**: informar el número crítico de solicitudes de
         servicios que merecen atención y análisis.
 
 3.  Después de los filtros informados, haga clic en el botón *Consultar*.
