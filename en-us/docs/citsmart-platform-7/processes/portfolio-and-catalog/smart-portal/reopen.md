@@ -23,7 +23,7 @@ Preconditions
 3.  Configure the parameter (see knowledge [Parameterization rules -
     ticket][3]):
 
--   Parameter 171.
+    - Parameter 171.
 
 Filters
 -------
@@ -32,17 +32,17 @@ Filters
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   Search;
+    - Search;
 
--   Situation;
+    - Situation;
 
--   Sort by;
+    - Sort by;
 
--   Order.
+    - Order.
 
-![figure](images/reaber.img1.jpg)
+    ![figure](images/reaber.img1.jpg)
 
-**Figure 1 - Request search screen**
+    **Figure 1 - Request search screen**
 
 Items list
 ----------

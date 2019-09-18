@@ -9,9 +9,9 @@ Changing the password
 1.  On the **Smart Portal** home screen, click on the user ID and then
     on *Change Password*, as shown in the figure below:
 
-   ![Senha](images/senha-smart.img1.jpg)
+    ![Senha](images/senha-smart.img1.jpg)
    
-   **Figure 1 - Change password**
+    **Figure 1 - Change password**
 
 2.  The system password change screen will be displayed, as shown in the figure
     below:

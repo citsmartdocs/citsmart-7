@@ -118,7 +118,7 @@ below:
     - Click the *Link Groups* button. After that, the group search screen appears;
 
     - Perform the search, select the groups that will be allowed to view the portfolio in Portal Smart and/or Chat and click 
-    the *Add*button to perform the operation;
+    the *Add* button to perform the operation;
 
     - To unlink the group, just click on the *Delete* button.
 
@@ -133,10 +133,10 @@ Linking with surveys
 
 By registering a portfolio, you can link it to previously registered surveys.
 
-    !!! Abstract "TIPS"
+!!! Abstract "TIPS"
 
-        For more information on how to register a survey, see knowledge 
-        [Satisfaction survey registration and search][1])
+    For more information on how to register a survey, see knowledge 
+    [Satisfaction survey registration and search][1])
 
 1.  Fill in the cadastral fields referring to the new portfolio. Then, in the
     Presentation tab, select "*Yes*" in the "available in the portal" option, as
@@ -195,7 +195,7 @@ Portfolio** screen will be displayed, as shown in the figure below:
 
    ![figura](images/portfolio.img13.jpg)
    
-    **Figure 13 - Obsolete services**
+   **Figure 13 - Obsolete services**
 
 3. The Portfolio is responsible for managing the service throughout its life cycle. The following figure presents a vision of the 
 management of the Services Portfolio:

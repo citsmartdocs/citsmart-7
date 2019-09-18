@@ -10,7 +10,7 @@ Preconditions
 -------------
 
 1.  Have the portfolio with the services registered (see knowledge [Service
-    portfolio registration](en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html), [Service registration][2]);
+    portfolio registration][1], [Service registration][2]);
 
 2.  Have the group registered (see knowledge [Group registration and
     search][3]);
@@ -46,7 +46,7 @@ Registering service request activities
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Service Request Name.
+    - Service Request Name.
 
 ### Items list
 
@@ -67,89 +67,72 @@ Registering service request activities
     Request Activity Master screen will be displayed, as shown in the figure
     below:
 
-   ![Criar](images/activity.img2.jpg)
+    ![Criar](images/activity.img2.jpg)
    
-   **Figure 2 - Request activity registration screen**
+    **Figure 2 - Request activity registration screen**
 
 2.  Fill in the fields as shown below:
 
--   **Activity Name**: define the name of the request activity;
+    - **Activity Name**: define the name of the request activity;
 
--   **Acronym/Abbreviation**: enter the acronym or abbreviation that will
-    represent the request activity;
+    - **Acronym/Abbreviation**: enter the acronym or abbreviation that will represent the request activity;
 
--   **Activity Status**: select the status of the request activity;
+    - **Activity Status**: select the status of the request activity;
 
--   **Type**: it is not necessary to fill this field, since it is already filled
-    automatically with the type "request";
+    - **Type**: it is not necessary to fill this field, since it is already filled automatically with the type "request";
 
--   **Category**: enter the category of the request activity;
+    - **Category**: enter the category of the request activity;
 
--   **Deployment**: inform the date of the implementation of the request
-    activity;
+    - **Deployment**: inform the date of the implementation of the request activity;
 
--   **Visualization Template**: linking the activity to a personalized
-    satisfaction survey through a Neuro form.
+    - **Visualization Template**: linking the activity to a personalized satisfaction survey through a Neuro form.
 
--   **Follow-up Template**: select, if there is one, the template for monitoring
-    the request activity;
+    - **Follow-up Template**: select, if there is one, the template for monitoring the request activity;
 
--   **Creation Template**: select, if one exists, the request activity
-    template;
+    - **Creation Template**: select, if one exists, the request activity template;
 
--   **Details**: describe the details of how the request activity should be
-    performed;
+    - **Details**: describe the details of how the request activity should be performed;
 
--   **Objective**: describe the objectives of the request activity;
+    - **Objective**: describe the objectives of the request activity;
 
--   **Event Type**: select when the request activity will occur;
+    - **Event Type**: select when the request activity will occur;
 
--   **Orientation Script (KB -Knowledge Base)**: report, if available, the
-    support script stored in the Knowledge Base for guidance in the execution of
-    the request activity;
+    - **Orientation Script (KB -Knowledge Base)**: report, if available, the support script stored in the Knowledge Base for 
+    guidance in the execution of  the request activity;
 
--   **Activity Type**: select the type of the request activity;
+    - **Activity Type**: select the type of the request activity;
 
--   **Importance of Activity to Business**: select the importance of the request
-    activity to the business;
+    - **Importance of Activity to Business**: select the importance of the request activity to the business;
 
--   **Place of Execution of Activities**: select the place of execution of the
-    request activity.
+    - **Place of Execution of Activities**: select the place of execution of the request activity.
 
-3.  If you want to make the request activity available in Smart Portal and/or
-    Chat for request, click the **Presentation** tab;
+3. If you want to make the request activity available in Smart Portal and/or Chat for request, click the **Presentation** tab;
 
-   ![Criar](images/activity.img3.jpg)
+    ![Criar](images/activity.img3.jpg)
    
-   **Figure 3 - Availability of request activity in the portal and/or chat**
+    **Figure 3 - Availability of request activity in the portal and/or chat**
 
--   **Available in the portal**: select the "Yes" option to make the service
-    request activity available on the portal;
+    - **Available in the portal**: select the "Yes" option to make the service request activity available on the portal;
 
--   **Available for request by chat**: select the "Yes" option to make the
-    service request activity available in the chat;
+    - **Available for request by chat**: select the "Yes" option to make the service request activity available in the chat;
 
--   **Show field to select impact/urgency**: define whether the "impact" and
-    "urgency" fields are displayed in the portal on the activity request log
-    screen;
+    - **Show field to select impact/urgency**: define whether the "impact" and "urgency" fields are displayed in the portal on the 
+    activity request log screen;
 
--   **Show field to select a configuration item**: define whether the
-    configuration item functionality in the portal is displayed in the activity
-    request log screen, which allows the selection of the configuration item;
+    - **Show field to select a configuration item**: define whether the configuration item functionality in the portal is displayed 
+    in the activity request log screen, which allows the selection of the configuration item;
 
--   **Show field to set a description**: define whether the "description" field
-    in the portal will be displayed in the activity request log screen, which
-    allows you to describe the request in more detail;
+    - **Show field to set a description**: define whether the "description" field in the portal will be displayed in the activity 
+    request log screen, which allows you to describe the request in more detail;
 
--   **Show field to upload an attachment**: define whether the add attachment
-    field will appear in the portal on the activity request log screen, which
-    allows you to add files in the request;
+    - **Show field to upload an attachment**: define whether the add attachment field will appear in the portal on the activity 
+    request log screen, which allows you to add files in the request;
 
--   **Show priority**: define whether the service request open by the Service
-    Portal will be provided with the Priority information;
+    - **Show priority**: define whether the service request open by the Service Portal will be provided with the Priority  
+    information;
 
--   **Show final date**: define whether the service request open by the Service
-    Portal will be provided the date and time limit information;
+    - **Show final date**: define whether the service request open by the Service Portal will be provided the date and time limit 
+    information;
 
     !!! note "NOTE"
 
@@ -158,69 +141,55 @@ Registering service request activities
         in the section Linking request activities to contract). The parameters "Show
         priority" and "Show final date" have their default value equal to "Yes".
 
--   **Name**: enter the name of the request activity for display on the portal
-    and/or chat;
+    - **Name**: enter the name of the request activity for display on the portal and/or chat;
 
--   **Description**: provide a brief description of the request activity, which
-    will be displayed on the portal.
+    - **Description**: provide a brief description of the request activity, which will be displayed on the portal.
 
--   Click the *Select an Image* button and a screen will appear to select an
-    image that will represent the request activity:
+    - Click the *Select an Image* button and a screen will appear to select an image that will represent the request activity:
 
-   ![Criar](images/activity.img4.jpg)
+    ![Criar](images/activity.img4.jpg)
    
-   **Figure 4 - Image selection screen**
+    **Figure 4 - Image selection screen**
 
-4.  Link the executor group, which will have access to the request activity in
-    the portal and/or chat:
+4. Link the executor group, which will have access to the request activity in the portal and/or chat:
 
     !!! note "NOTE"
 
         Configuring the group access permission to view the request activity in the portal will only be applied if 
         the parameter "Enable access permission for user groups in the portal" is enabled.
 
--   Click on the **Access Permission** tab, the link screen of the groups will
-    be displayed, as shown in the figure below:
+    - Click on the **Access Permission** tab, the link screen of the groups will be displayed, as shown in the figure below:
 
-   ![Criar](images/activity.img5.jpg)
+    ![Criar](images/activity.img5.jpg)
    
-   **Figure 5 - Access by group permission**
+    **Figure 5 - Access by group permission**
 
--   Click the *Link Groups* button. The Group Search screen appears. Perform the
-    search, select the groups and click on the *Add* button to perform the
-    operation;
+    - Click the *Link Groups* button. The Group Search screen appears. Perform the search, select the groups and click on the
+    *Add* button to perform the operation;
 
     !!! info "IMPORTANT"
 
-        If one of the 3 languages on this tab is left blank, the information will be filled out with the information c
-        contained in the "Presentation" tab.
+        If one of the 3 languages on this tab is left blank, the information will be filled out with the information contained in 
+        the "Presentation" tab.
 
--   To unlink the group, simply click the *Unlink*.
+    - To unlink the group, simply click the *Unlink*.
 
-5.  After entering the required data for the request activity, click
-    the *Save* button to register. Once this is done, the request activity will
-    be recorded and linked to the service;
+5. After entering the required data for the request activity, click the *Save* button to register. Once this is done, the request 
+activity will be recorded and linked to the service;
 
-6.  To change the request activity data, click the *Edit* button of the request
-    activity, modify the data you want and click *Save* to make the change,
-    where the date, time and user will be saved automatically for a future
-    audit;
+6. To change the request activity data, click the *Edit* button of the request activity, modify the data you want and 
+click *Save* to make the change, where the date, time and user will be saved automatically for a future audit;
 
-7.  To delete the request activity, click the *Edit* button on it, and then
-    click the *Delete* button;
+7. To delete the request activity, click the *Edit* button on it, and then click the *Delete* button;
 
-8.  To unlink the service request activity, simply click on the *Unlink* button
-    of the service;
+8. To unlink the service request activity, simply click on the *Unlink* button of the service;
 
-9.  To re-link a request activity to the service, click the *Link Service
-    Request* button. Once this is done, the screen for searching the request
-    activities that have been disconnected from the service will be displayed.
-    Perform the search and select the request activity to successfully complete
-    the link;
+9. To re-link a request activity to the service, click the *Link Service Request* button. Once this is done, the screen for 
+searching the request activities that have been disconnected from the service will be displayed. Perform the search and select the 
+request activity to successfully complete the link;
 
-10.  If you want to make the request activity available in the 3 available
-    languages (Portuguese/English/Spanish), click on the Multi-languages tab as
-    shown below:
+10. If you want to make the request activity available in the 3 available languages (Portuguese/English/Spanish), click on the 
+Multi-languages tab as shown below:
 
     !!! info "IMPORTANT"
 
@@ -258,7 +227,7 @@ Registering service incident activities
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Incident Name.
+    - Incident Name.
 
 ### Items list
 
@@ -278,89 +247,73 @@ Registering service incident activities
 1.  Click the *New Incident* button. Once this is done, the **Incident Activity
     Master** screen will be displayed, as shown in the figure below:
 
-   ![Criar](images/activity.img8.jpg)
+    ![Criar](images/activity.img8.jpg)
    
-   **Figure 8 - Incident activity master record screen**
+    **Figure 8 - Incident activity master record screen**
 
-2.  Fill in the fields as shown below:
+2. Fill in the fields as shown below:
 
--   **Activity Name**: define the name of the incident activity;
+    - **Activity Name**: define the name of the incident activity;
 
--   **Acronym/Abbreviation**: enter the acronym or abbreviation that will
-    represent the incident activity;
+    - **Acronym/Abbreviation**: enter the acronym or abbreviation that will represent the incident activity;
 
--   **Activity Status**: select the status of the incident activity;
+    - **Activity Status**: select the status of the incident activity;
 
--   **Deployment**: enter the date of deployment of the incident activity;
+    - **Deployment**: enter the date of deployment of the incident activity;
 
--   **Type**: it is not necessary to fill in this field, since it is already
-    filled automatically with the type "Incident";
+    - **Type**: it is not necessary to fill in this field, since it is already filled automatically with the type "Incident";
 
--   **Category**: report the category of incident activity;
+    -   **Category**: report the category of incident activity;
 
--   **Follow-up Template**: select, if applicable, the Incident Activity
-    Tracking Template;
+    - **Follow-up Template**: select, if applicable, the Incident Activity Tracking Template;
 
--   **Creation Template**: select, if any, the template of the incident
-    activity;
+    - **Creation Template**: select, if any, the template of the incident activity;
 
--   **Details**: describe the details of how the incident activity should be
-    performed;
+    - **Details**: describe the details of how the incident activity should be performed;
 
--   **Objective**: describe the purpose of the incident activity;
+    - **Objective**: describe the purpose of the incident activity;
 
--   **Event Type**: select when the incident activity will occur;
+    - **Event Type**: select when the incident activity will occur;
 
--   **Orientation Script (Knowledge Base)**: report, if any, the support script
-    stored in the Knowledge Base for guidance on the execution of the incident
-    activity;
+    - **Orientation Script (Knowledge Base)**: report, if any, the support script stored in the Knowledge Base for guidance on the 
+    execution of the incident activity;
 
--   **Critical**: report whether the incident activity is for "critical
-    incident" resolution;
+    - **Critical**: report whether the incident activity is for "critical incident" resolution;
 
--   **Activity Type**: select the type of incident activity;
+    - **Activity Type**: select the type of incident activity;
 
--   **Importance of Activity to Business**: select the importance of incident
-    activity to the business;
+    - **Importance of Activity to Business**: select the importance of incident activity to the business;
 
--   **Place of Execution of Activities**: select the location where the incident
-    activity is to be run.
+    - **Place of Execution of Activities**: select the location where the incident activity is to be run.
 
 3.  If you want to make available the incident activity in the Smart Portal
     and/or Chat for request, click the **Presentation** tab;
 
-   ![Criar](images/activity.img9.jpg)
+    ![Criar](images/activity.img9.jpg)
    
-   **Figure 9 - Availability of incident activity in portal and / or chat**
+    **Figure 9 - Availability of incident activity in portal and / or chat**
 
--   **Available in the portal**: select the "Yes" option to make the incident
-    activity available in the portal;
+    - **Available in the portal**: select the "Yes" option to make the incident activity available in the portal;
 
--   **Available for request by chat**: select the "Yes" option to make the
-    incident activity available in the chat;
+    - **Available for request by chat**: select the "Yes" option to make the incident activity available in the chat;
 
--   **Show field to select impact/urgency**: Define whether the "impact" and
-    "urgency" fields will be displayed in the portal on the request log of the
-    incident activity;
+    - **Show field to select impact/urgency**: Define whether the "impact" and "urgency" fields will be displayed in the portal 
+    on the request log of the incident activity;
 
--   **Show field to select a configuration item**: define whether the
-    configuration item functionality in the portal is displayed on the Incident
-    Activity Request Log screen, which allows the selection of the configuration
-    item;
+    - **Show field to select a configuration item**: define whether the configuration item functionality in the portal is displayed 
+    on the Incident Activity Request Log screen, which allows the selection of the configuration  item;
 
--   **Show field to set a description**: define whether the "description" field
-    in the portal will be displayed on the request activity log screen, which
-    allows you to describe the request in more detail;
+    -  **Show field to set a description**: define whether the "description" field in the portal will be displayed on the request 
+    activity log screen, which allows you to describe the request in more detail;
 
--   **Show field to upload an attachment**: define whether the Add Attachment
-    field will appear in the portal on the Incident Activity Request Log screen,
-    which allows you to add files in the request;
+    - **Show field to upload an attachment**: define whether the Add Attachment field will appear in the portal on the Incident 
+    Activity Request Log screen, which allows you to add files in the request;
 
--   **Show priority**: define whether the service request open by the Service
-    Portal will be provided with the Priority information;
+    - **Show priority**: define whether the service request open by the Service Portal will be provided with the Priority 
+    information;
 
--   **Show final date**: define whether the service request open by the Service
-    Portal will be provided the date and time limit information ;
+    - **Show final date**: define whether the service request open by the Service Portal will be provided the date and time limit 
+    information ;
 
     !!! note "NOTE"
 
@@ -368,18 +321,15 @@ Registering service incident activities
         Service contract attributes configuration, available at the end of this document), in the section Linking request 
         activities to contract). The parameters "Show priority" and "Show final date" have their default value equal to "Yes".
 
--   **Name**: enter the name of the incident activity for viewing on the portal
-    and/or chat;
+    - **Name**: enter the name of the incident activity for viewing on the portal and/or chat;
 
--   **Description**: please provide a brief description of the incident
-    activity, which will be displayed on the portal;
+    - **Description**: please provide a brief description of the incident activity, which will be displayed on the portal;
 
--   Click the *Select an image* button and a screen will appear to select an
-    image that will represent the incident activity:
+    - Click the *Select an image* button and a screen will appear to select an image that will represent the incident activity:
 
-   ![Criar](images/activity.img10.jpg)
+    ![Criar](images/activity.img10.jpg)
    
-   **Figure 10 - Image selection screen**
+    **Figure 10 - Image selection screen**
 
 4.  Link the executor group, which will have access to incident activity in the
     portal and/or chat:
@@ -389,16 +339,14 @@ Registering service incident activities
         Setting the group access permission to view the service activity in the portal will only be applied if the 
         parameter "Enable access permission for user groups in the portal" is enabled.
 
--   Click on the **Access Permission** tab, the link screen of the groups will
-    be displayed, as shown in the figure below:
+    - Click on the **Access Permission** tab, the link screen of the groups will be displayed, as shown in the figure below:
 
-   ![Criar](images/activity.img11.jpg)
+    ![Criar](images/activity.img11.jpg)
    
-   **Figure 11 - Access by group permission**
+    **Figure 11 - Access by group permission**
 
--   Click the *Link Groups* button. The Group Search screen appears. Perform the
-    search, select the groups and click on the *Add* button to perform the
-    operation;
+    - Click the *Link Groups* button. The Group Search screen appears. Perform the search, select the groups and click on the *Add* 
+    button to perform the operation;
 
     !!! info "IMPORTANT"
 
@@ -424,7 +372,7 @@ Registering service incident activities
     survey and select the incident activity to successfully complete the link.
 
 
-[Service contract attributes configuration]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+[1]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
 [2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/services.html
 [3]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html
 [4]:/en-us/citsmart-platform-7/processes/configuration/IC-management.html

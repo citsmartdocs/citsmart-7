@@ -33,11 +33,11 @@ Filters
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Portfolio Description.
+    - Portfolio Description.
 
-![figure](images/service-1.png)
+    ![figure](images/service-1.png)
 
-**Figure 1 - Portfolio search screen**
+    **Figure 1 - Portfolio search screen**
 
 Registering business service
 ----------------------------

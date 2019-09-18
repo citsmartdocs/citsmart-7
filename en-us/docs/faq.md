@@ -15,9 +15,9 @@ Description: Here you have the answers to the most common questions when talking
    
     The command syntax:
 
-    keytool-exportação-alias <existing_alias_in_keystore>-file
+     keytool-exportação-alias <existing_alias_in_keystore>-file
 
-    <any_filename_here>-keystore <path/to/keystore>
+     <any_filename_here>-keystore <path/to/keystore>
 
     For example:
    
@@ -95,7 +95,10 @@ Description: Here you have the answers to the most common questions when talking
     2. Open the e-mail notification for the service request;
     3. The notification will have the request number with a hyperlink, just click on the number, which will then be redirected to the Service Management screen presenting the request information.
     
-    ![Download](images/neuro (1).jpg)
+    !!! note "NOTE"
+    
+        Features of interactions with Neuro form.
+        The app should fully display and interact with all controls on the Neuro form.
 
 !!! Question "How to configure Nagios authentication via LDAP?"
     
@@ -135,9 +138,9 @@ Description: Here you have the answers to the most common questions when talking
         - Parameter 152: Default rating which will be attributed to surveys that have been automatically filled out. Options: EXCELLENT, GOOD, REGULAR, POOR;
         - Parameter 151: Activates or deactivates system automatic responses. Y to activate and N to deactivate.
         
-     2. Access the Batch Processing feature (System → Batch Processing).
+    2. Access the Batch Processing feature (System > Batch Processing).
      
-     3.The batch processing entry screen will be displayed, fill out the fields:
+    3. The batch processing entry screen will be displayed, fill out the fields:
     
         - Description: insert the description which will identify the processing. For example: "Automatic satisfaction survey response";
         - Situation: the situation determines if this processing will be active or inactive. When it is inactive the requests will not be answered;
@@ -145,7 +148,7 @@ Description: Here you have the answers to the most common questions when talking
         - Schedule: determines when the activity will be executed, it is up to the administrator to determine the best time and recurrence ;
         - Content: insert the text: br.com.centralit.citcorpore.quartz.job.AvaliarSolicitacoesNaoRespondidas;
         
-    4. Click on the Save button to confirm the entry.
+     4. Click on the Save button to confirm the entry.
     
     !!! info "IMPORTANT"
     
@@ -158,13 +161,14 @@ Description: Here you have the answers to the most common questions when talking
     In order for the notification be sent it is necessary to perform the following procedures :
     
     1. Access the Contract Services related to the business service Portfolio Management > Services Portfolio > Business Service > Contract > Services and technical service Portfolio Management > Service Portfolio > Business Service > Support/Technical Service > Contract > Services e and insert the e-mail template in the fields:
+    
         - "Incident/Request Opening E-mail Template"
         - "Incident/Requistion Execution E-mail Template"
         - "Incident/Request Ongoing Activities E-mail Template"
         
-    !!! info "IMPORTANT"
+        !!! info "IMPORTANT"
     
-        If e-mail templates are not inserted, the notification will not be sent.
+            If e-mail templates are not inserted, the notification will not be sent.
         
     2. Access the Group Register feature General Registration > Staff Management > Group.
 
@@ -174,15 +178,15 @@ Description: Here you have the answers to the most common questions when talking
 
     5. The intended group entry screen will be displayed, determine if the e-mail notifications (opening, in progress and execution) related to the requests will be mandatory.
     
-    !!! warning "ATTENTION"
+        !!! warning "ATTENTION"
     
-         If it is determined that notifications will be mandatory, when registering a service request, on the Incident/Request Service entry screen, these options will be selected already, not allowing any changes. But if it has been determined that notifications will not be mandatory, when registering a service request, these options will be available to be determined by the petitioner.
+             If it is determined that notifications will be mandatory, when registering a service request, on the Incident/Request                Service entry screen, these options will be selected already, not allowing any changes. But if it has been determined                that notifications will not be mandatory, when registering a service request, these options will be available to be                  determined by the petitioner.
         
     6. On the Incident/Request Service Request screen, when registering a service request the rules related to the e-mail notifications will be established, determined in the group entry.
     
     !!! note "NOTE"
     
-        When registering a service request, the notification will only be sent to the performer group, which is responsible for attending to the request. When the activities are in progress and then finished, the notifications will only be sent to the petitioner.
+         When registering a service request, the notification will only be sent to the performer group, which is responsible for attending to the request. When the activities are in progress and then finished, the notifications will only be sent to the petitioner.
         
 !!! Question "How to configure the configuration Items lifecycle phases names?"
 
@@ -192,7 +196,7 @@ Description: Here you have the answers to the most common questions when talking
     
     1. Access the GCAS Configuration feature navigating through the main menu ITIL Processes > Configuration Management > GCAS Configuration. Afterwards, the service assets and the management parameters (attributes) configuration screen will be displayed;
     
-     2. Insert the parameters value (attributes):
+    2. Insert the parameters value (attributes):
      
         - Name of the CIs Group which are in the Development Phase (i.e.: CIs in Development)
         - Name of the CIs Group which are in the Production Phase (i.e.: CIs in Production)
@@ -216,7 +220,7 @@ Description: Here you have the answers to the most common questions when talking
     
     6. Click on the Save button to confirm the entry, at which time, date and user will be stored for a future audit;
     
-    7. Search for the parameter "93 - Name of The CIs Group in Production Phase (e.g.: ICs em Produção)";
+    7. Search for the parameter "93 - Name of The CIs Group in Production Phase";
     
     8. Select it. Then, the parameter registry screen featuring the selected entry data will be displayed;
     
@@ -224,7 +228,7 @@ Description: Here you have the answers to the most common questions when talking
     
     10. Click on the Save button to confirm the entry, at which time, date and user will be stored for a future audit;
     
-    11. Search for the parameter "93 - Name of The CIs Group in Confirmation Phase (e.g.: ICs em Produção)";
+    11. Search for the parameter "93 - Name of The CIs Group in Confirmation Phase";
     
     12. On the Value field, insert the name of the CI group in confirmation phase;
     
@@ -252,7 +256,7 @@ Description: Here you have the answers to the most common questions when talking
 
     To set the default group for 1st level attendance, proceed as follows:
     
-    1. Access the Group Registration feature by navigating in the main menu Access and Permission → Group. The group registration screen will be displayed, displaying the contracts;
+    1. Access the Group Registration feature by navigating in the main menu Access and Permission > Group. The group registration screen will be displayed, displaying the contracts;
     
     2. Make the registration of the group of 1st level, if not registered, and proceed with the completion of the fields;
     
@@ -279,15 +283,15 @@ Description: Here you have the answers to the most common questions when talking
     The design of the assets that make up the service is done using the Service Map Design tool that provides efficient and 
     effective drawings for managing the service during its life cycle, demonstrating the related configuration items.
  
-    To carry out this design, proceed as follows (see knowledge Service attributes configuration][2])
+    To carry out this design, proceed as follows (see knowledge [Service attributes configuration](/en-us/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html))
     
-    1. Access the Service Map Design feature for the Business Service **Portfolio and Catalog Management** > Portfolio and Catalog Management > Support Menu > Advanced Portfolio > Service Catalog > Next Service > Service Map**;
+    1. Access the Service Map Design feature for the Business Service Portfolio and Catalog Management > Portfolio and Catalog Management > Support Menu > Advanced Portfolio > Service Catalog > Next Service > Service Map;
     
     2. The screen for designing the assets that make up the business service will be presented;
     
     3. Perform the design;
     
-    4. Access the Service Asset Map Design functionality for the Support/Technical Service **Portfolio and Catalog Management > Portfolio and Catalog Management > Support Menu > Advanced Portfolio > Service Catalog > Next Service > Service Map**.
+    4. Access the Service Asset Map Design functionality for the Support/Technical Service Portfolio and Catalog Management > Portfolio and Catalog Management > Support Menu > Advanced Portfolio > Service Catalog > Next Service > Service Map.
 
     5. The screen for designing the assets that make up the support / technical service will be presented;
 
@@ -363,7 +367,7 @@ Description: Here you have the answers to the most common questions when talking
 
     The problem scaling rule is enabled on the Citsmart Parameter screen. To enable this rule, proceed as follows:
       
-    1. Access the Citsmart Parameters feature by navigating in the main menu Parameterization → Citsmart Parameters.
+    1. Access the Citsmart Parameters feature by navigating in the main menu Parameterization > Citsmart Parameters.
     
     2. The Citsmart Parameters screen will appear, click the Citsmart Parameters Search tab.
     
@@ -433,9 +437,9 @@ Description: Here you have the answers to the most common questions when talking
     
     2. Perform the parameter search "46 - Enable Portal as Citsmart home screen?" And select the same. After that, the parameter registration screen with the contents of the selected registry will be displayed, as shown in the figure below:
     
-    ![figure](images/para.img1.jpg)
+        ![figure](images/para.img1.jpg)
     
-    **Figure 1 - Citsmart parameter search screen**
+        **Figure 1 - Citsmart parameter search screen**
     
     3. In the Value field, enter the value "Y" to enable the portal as the home screen. Once this is done, click on the Save button to perform the operation, in which case the date, time and user will be stored automatically for a future audit.
 
@@ -552,13 +556,13 @@ Description: Here you have the answers to the most common questions when talking
     
         ![staff](images/cola.img1.jpg)
         
-        **Figura 1 - Tela de Colaboradores**
+         **FigurE 1 - Staff screen**
         
     5. After linking, click on the Save button to confirm the entry, at which date, time and user will be automatically stored for a future audit.
     
     b. From the user´s registry
     
-      1. Access the User Entry feature navigating through the main menu. Place the cursor on the option General Registration, Staff Management and click on the User option (see knowledge [Staff registration and search](/en-us/citsmart-platform-7/initial-settings/access-settings/user/employee.html);
+      1. Access the User Entry feature navigating through the main menu. Place the cursor on the option General Registration, Staff Management and click on the User option (see knowledge [Staff registration and search](/en-us/citsmart-platform-7/initial-settings/access-settings/user/employee.html));
 
       2. The User Entry screen will be displayed. If the user is already registered in the system, perform a user search and select it;
 
@@ -566,7 +570,7 @@ Description: Here you have the answers to the most common questions when talking
 
       4. Search for the intended group and select it. Afterwards, the user will be linked to the group;
 
-      5.After linking, click on the Save button to confirm the entry, at which date, time and user will be automatically stored for a future audit
+      5. After linking, click on the Save button to confirm the entry, at which date, time and user will be automatically stored for a future audit
     
 !!! Question "[Events] Error: "Failed to connect to monitoring tool" for Zabixx"
 
@@ -802,7 +806,7 @@ Description: Here you have the answers to the most common questions when talking
     
     To check the time in the database, follow these steps:
 
-    1. Access the scripting functionality by navigating in the main menu System → Database → Scripts Execution;
+    1. Access the scripting functionality by navigating in the main menu System > Database > Scripts Execution;
 
     2. The Scripts Execution screen will be displayed;
 
@@ -823,5 +827,3 @@ Description: Here you have the answers to the most common questions when talking
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
     <b>Updated:</b>09/17/2019 - Anna Martins
     
-
-[2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html

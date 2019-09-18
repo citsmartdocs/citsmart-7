@@ -8,7 +8,7 @@ Description: Standarized operational procedure (SOP) for creation of new service
 
 **Figure 1 - SOP diagram for creation of new services**
 
-Preconditions
+Preconditions  
 -------------
 
 1.  The access profile must have been created to control user access to system
@@ -125,7 +125,7 @@ activity and report The defined service time for these activities.
 
 -   [Group registration and search][9];
 
--   [Access profile registration and search][4];
+-   [Access profile registration and search][13];
 
 -   [Staff registration and search][2];
 
@@ -136,7 +136,7 @@ activity and report The defined service time for these activities.
 [1]:/en-us/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
 [2]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/employee.html
 [3]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/user-register.html
-[4]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/portfolio-access.html
+[4]:/en-us/citsmart-platform-7/plataform-administration/time/create-working-day.html
 [5]:/en-us/citsmart-platform-7/plataform-administration/time/create-calendar.html
 [6]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/client.html
 [7]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/provider.html
@@ -145,6 +145,7 @@ activity and report The defined service time for these activities.
 [10]:/en-us/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
 [11]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
 [12]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/portfolio-access.html
+[13]:/en-us/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
 
 
 

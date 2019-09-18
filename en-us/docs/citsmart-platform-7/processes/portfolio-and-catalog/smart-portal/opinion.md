@@ -34,9 +34,9 @@ Filling in the registration fields
     click icon   of the same. Once this is done, the Opinion Registration screen
     will be displayed, as shown in the figure below:
 
-   ![Registro](images/opiniao.img1.jpg)
+    ![Registro](images/opiniao.img1.jpg)
    
-   **Figure 1 - Opinion log screen**
+    **Figure 1 - Opinion log screen**
 
 3.  Fill in the required fields and click the *Save* button to register. After
     that, a message will be displayed thanking registered opinion.

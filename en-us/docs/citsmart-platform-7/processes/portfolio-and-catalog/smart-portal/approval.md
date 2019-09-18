@@ -10,6 +10,7 @@ How to access
     on the tab **Approvals**.
 
 Preconditions
+------------------
 
 1.  Have the service request registered (see knowledge [Ticket management
     (services)][1]);
@@ -23,15 +24,15 @@ Filters
     in the standard feature listing, making it easier to locate the desired
     items:
 
--   Search;
+    - Search;
 
--   Sort by;
+    - Sort by;
 
--   Order.
+    - Order.
 
-![figure](images/aprov-smart.img1.jpg)
+    ![figure](images/aprov-smart.img1.jpg)
 
-**Figure 1 - Requests search screen**
+    **Figure 1 - Requests search screen**
 
 Items list
 ----------
@@ -62,24 +63,23 @@ Service request approval
 1.  The **Service Requests** will be displayed for approval, as shown in the
     figure below:
 
-   ![figure](images/aprov-smart.img3.jpg)
+    ![figure](images/aprov-smart.img3.jpg)
    
-   **Figure 3 - Approval of service request**
+    **Figure 3 - Approval of service request**
 
 2.  Click the icon ![figure](images/simb-check.jpg) of the request that you will approve to be answered. After
     that, the information registration screen for the approval of the same will
     be displayed, as shown in the following image:
 
-   ![figure](images/aprov-smart.img4.jpg)
+    ![figure](images/approve.img4.jpg)
    
-   **Figure 4 - Service request approval record**
+    **Figure 4 - Service request approval record**
 
--   Check one of the approval options: **Approved** or **Not Approved**;
+    - Check one of the approval options: **Approved** or **Not Approved**;
 
--   If you have marked "*Approved*", describe the observations, if necessary;
+    - If you have marked "*Approved*", describe the observations, if necessary;
 
--   If you have marked "*Not approved*", describe the observations, inform the
-    justification and complement the justification.
+    - If you have marked "*Not approved*", describe the observations, inform the justification and complement the justification.
 
 3.  After recording the information about the approval of the request, click the
     radio button ![figure](images/simb-3dots.jpg) and then click the button ![figure](images/simb-go.jpg) to save and advance the     flow. Once the request has been approved, it will be sent to the execution phase, that is, to attend the request. But, if the     request is not approved, it will be closed.

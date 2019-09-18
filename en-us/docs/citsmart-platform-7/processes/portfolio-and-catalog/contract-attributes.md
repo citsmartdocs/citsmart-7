@@ -1,11 +1,11 @@
 title: Service contract attributes configuration
 Description: The guidelines must be followed to configure the attributes of both the *Business/IT Service Agreement* and the Support/Technical Service Agreement.
 
-# Service contract attributes configuration
+# Service contract attributes configuration  
 
 The guidelines must be followed to configure the attributes of both
 the *Business/IT Service Agreement* and the *Support/Technical Service
-Agreement*.
+Agreement*.  
 
 Preconditions
 -------------
@@ -66,8 +66,7 @@ Configuring contract attributes
 5.  Click **Contract** and then click the *Advance* button in the service
     contract to access it.
 
--   The following items will be discussed on "how to" configure contract
-    attributes.
+    - The following items will be discussed on "how to" configure contract attributes.
 
 ### Filters
 
@@ -127,7 +126,7 @@ Linking request activities to contract
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Service Request Name.
+    - Service Request Name.
 
 ### Items list
 
@@ -153,92 +152,75 @@ request activity will be displayed, as shown in the figure below:
 
 2.  Fill in the fields as directed below:
 
--   **Operation condition**: select the period of availability of the operation
-    of the request activity. Example:
+    - **Operation condition**: select the period of availability of the operation of the request activity. Example:
 
--   **24 x 7**: 24 hours a day, 7 days a week, ie, service available all the
-    time, without interruption;
+        - **24 x 7**: 24 hours a day, 7 days a week, ie, service available all the time, without interruption;
 
--   **Business hours**: available Monday through Friday from 8:00 AM to 6:00 PM.
+        - **Business hours**: available Monday through Friday from 8:00 AM to 6:00 PM.
 
--   **Start date**: inform the initial date of the request activity in the
-    contract;
+    - **Start date**: inform the initial date of the request activity in the contract;
 
--   **End date**: the completion of this field can be done at the time of
-    registration, informing a future date for inactivation of the request
-    activity in the contract or only when inactivating the request activity;
+    - **End date**: the completion of this field can be done at the time of registration, informing a future date for inactivation 
+    of the request activity in the contract or only when inactivating the request activity;
 
--   **Observation**: describe the possible observations regarding the request
+    - **Observation**: describe the possible observations regarding the request activity in the contract;
+
+    - **Restrictions and Suppositions**: inform the possible restrictions and assumptions for the execution of the request 
     activity in the contract;
 
--   **Restrictions and Suppositions**: inform the possible restrictions and
-    assumptions for the execution of the request activity in the contract;
+    - **Objective**: inform the purpose of the service of request in the contract;
 
--   **Objective**: inform the purpose of the service of request in the contract;
+    - **Process Description**: describe the process of the request activity in the contract;
 
--   **Process Description**: describe the process of the request activity in the
-    contract;
+    - **Process link**: inform the process designing link of the request activity, if any;
 
--   **Process link**: inform the process designing link of the request activity,
-    if any;
+   - **Requesting area**: inform who can request the activity of request;
 
--   **Requesting area**: inform who can request the activity of request;
+   - **E-mail Template (Open)**: select the open e-mail request template to send notification when registering the requests for the 
+    request activity;
 
--   **E-mail Template (Open)**: select the open e-mail request template to send
-    notification when registering the requests for the request activity;
+  - **E-mail Template (Closure)**: select the e-mail template for completing requests for notification when you complete the 
+    requests for the request activity;
 
--   **E-mail Template (Closure)**: select the e-mail template for completing
-    requests for notification when you complete the requests for the request
-    activity;
+  - **E-mail Template (Other Actions)**: select the e-mail template to send notification in the other actions performed in the 
+    requests regarding the activity of request;
 
--   **E-mail Template (Other Actions)**: select the e-mail template to send
-    notification in the other actions performed in the requests regarding the
-    activity of request;
+  - **First-line Escalation Group**: select the 1st level group to escalate the attendance of the request activity;
 
--   **First-line Escalation Group**: select the 1st level group to escalate the
-    attendance of the request activity;
+  - **Executor Group**: define the executing group of the request activity, if it does not inform it, the group defined in 
+    parameter "9 - ID Group Level 1" will be considered;
 
--   **Executor Group**: define the executing group of the request activity, if
-    it does not inform it, the group defined in parameter "9 - ID Group Level 1"
-    will be considered;
+  - **Approver Group**: define the approving group of the requests of the activity of request;
 
--   **Approver Group**: define the approving group of the requests of the
-    activity of request;
+  - **Satisfaction Survey**: define the survey linked to the activity;
 
--   **Satisfaction Survey**: define the survey linked to the activity;
+  -   **Calendar**: Select the work schedule for the request activity.
 
--   **Calendar**: Select the work schedule for the request activity.
+  - **Service Time**: inform the attendance time of the request activity;
 
--   **Service Time**: inform the attendance time of the request activity;
+  - **Service Cost**: state the value of the request activity;
 
--   **Service Cost**: state the value of the request activity;
+  - **Expand service request screen**: if you want the request service request screen to be enlarged, check the "yes" option;
 
--   **Expand service request screen**: if you want the request service request
-    screen to be enlarged, check the "yes" option;
+  - **SLA restart in the reopening**: define whether the time for attending the activity will be restarted when reopening the 
+    request of the same;
 
--   **SLA restart in the reopening**: define whether the time for attending the
-    activity will be restarted when reopening the request of the same;
+ - **Apply access permissions on occurrences?**: define whether occurrences of requests/incidents will be shown for specific 
+    groups of users, or whether all users view all occurrences. If the **Apply access permissions on occurrences?** has your "Yes" 
+    option selected, a new tab appears next to the Main tab:
 
--   **Apply access permissions on occurrences?**: define whether occurrences of
-    requests/incidents will be shown for specific groups of users, or whether
-    all users view all occurrences. If the **Apply access permissions on
-    occurrences?** has your "Yes" option selected, a new tab appears next to the
-    Main tab:
-
-   ![figure](images/contract-attributes-4.png)
+    ![figure](images/contract-attributes-4.png)
    
-   **Figure 4 - Permissions tab**
+    **Figure 4 - Permissions tab**
 
--   When clicking on the new tab a list of Groups that have already had their
-    permission configured:
+    - When clicking on the new tab a list of Groups that have already had their permission configured:
 
-   ![figure](images/contract-attributes-5.png)
+    ![figure](images/contract-attributes-5.png)
    
-   **Figure 5- List of linked groups with configured permission**
+    **Figure 5- List of linked groups with configured permission**
 
--   When clicking on *Add* (according to the previous figure) a panel with all
-    occurrence categories appears to allow the Administrator to select the ones
-    that should be released to the selected Group:
+    - When clicking on *Add* (according to the previous figure) a panel with all occurrence categories appears to allow the 
+    Administrator to select the ones that should be released to the selected Group:
 
     ![figure](images/contract-attributes-6.png)
       
@@ -249,28 +231,24 @@ request activity will be displayed, as shown in the figure below:
         This setting does not change the appearance of other system features at all, it only restricts some records from
         being viewed by users who are not in the released groups to the occurrence category.
 
--   Add the request activity:
+    - Add the request activity:
 
--   In the **Request** section, the service request activities are shown, leave
-    only those that will be linked to the contract;
+    - In the **Request** section, the service request activities are shown, leave only those that will be linked to the contract;
 
--   If I have removed a request activity and want to link it to the agreement,
-    click the *Add* button. A window will appear to search for service request
-    activities. Perform the search, select the request activity, and click
-    the *Submit* button to link the activity to the contract.
+    - If I have removed a request activity and want to link it to the agreement, click the *Add* button. A window will appear to 
+    search for service request activities. Perform the search, select the request activity, and click the *Submit* button to link 
+    the activity to the contract.
 
--   Add the workflow of the request activity:
+    - Add the workflow of the request activity:
 
--   In the **Service Flow** section, click the *Add* button. A screen will be
-    displayed to inform the flow of the request activity (s), as shown in the
-    figure below:
+    - In the **Service Flow** section, click the *Add* button. A screen will be displayed to inform the flow of the request 
+    activity (s), as shown in the figure below:
 
-   ![figure](images/contract-attributes-7.png)
+    ![figure](images/contract-attributes-7.png)
    
-   **Figure 7 - Workflow Log**
+    **Figure 7 - Workflow Log**
 
--   Select the flow that the activity should follow and click the *Save* button
-    to perform the operation.
+    - Select the flow that the activity should follow and click the *Save* button to perform the operation.
 
 3.  After entering the required data, click the *Save* button (according to the
     previous figure) to perform the operation. Once this has been done, the
@@ -301,7 +279,7 @@ Linking incident activities to the contract
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Incident Name.
+    - Incident Name.
 
 ### Items list
 
@@ -351,7 +329,7 @@ Linking service procedure to contract
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Procedure Name.
+    - Procedure Name.
 
 ### Items list
 
@@ -421,7 +399,7 @@ Linking availability agreement to contract
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   SLA Title .
+    - SLA Title.
 
 ### Items list
 
@@ -460,7 +438,7 @@ Linking calendar to contract
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Name.
+   - Name.
 
 ### Items list
 

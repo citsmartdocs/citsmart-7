@@ -21,7 +21,7 @@ Preconditions
 1.  Set the parameter bellow (see knowledge [Parameterization rules -
     Ticket][1]):
 
-   - Parameter 104: value Y.
+    - Parameter 104: value Y.
 
 Filters
 -------
@@ -38,7 +38,7 @@ Filling in the registrations fields
 
 1. After this, the **Service Requests Priority** screen will be displayed, as shown in the figure below:
 
-   ![Criar](images/priority-1.png)
+    ![Criar](images/priority-1.png)
    
     **Figure 1 - Service requests priority master record screen**
 
@@ -46,10 +46,9 @@ Filling in the registrations fields
 
     a)  Impact Register:
 
-       -  **Acronym**: report the acronym related to the impact level;
+-  **Acronym**: report the acronym related to the impact level;
 
-       -  **Impact Level**: describe the level of impact. Example: High,
-            Medium, Low;
+-  **Impact Level**: describe the level of impact. Example: High,Medium, Low;
 
     !!! note "NOTE"
 
@@ -74,15 +73,14 @@ Filling in the registrations fields
 
    c)  Priority Matrix Registration:
 
-    - Click the Register Priority Matrix button. Once this is done, the fields to define the priority matrix;
+- Click the Register Priority Matrix button. Once this is done, the fields to define the priority matrix;
 
-        - **Impact Level**: select the impact level;
+    - **Impact Level**: select the impact level;
 
-        - **Emergency Level**: select the level of urgency;
+    - **Emergency Level**: select the level of urgency;
 
-        - **Priority Value**: define the priority value, based on the impact
-            and urgency informed. Remembering that this value should be from 1
-            to 5, with 1 being the highest priority and 5 being the lowest;
+    - **Priority Value**: define the priority value, based on the impact and urgency informed. Remembering that this value should 
+    be from 1 to 5, with 1 being the highest priority and 5 being the lowest;
 
    d)  Once this is done, click the icon ![Criar](images/priority-2.png) to add the priority information in the
     array;

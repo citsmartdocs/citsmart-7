@@ -62,9 +62,9 @@ Items list
     identification of the desired items in the standard feature
     listing: **Company** and **ID**:
 
-   ![figure](images/client-2.png)
+    ![figure](images/client-2.png)
    
-   **Figure 2 - Customers Listing**
+    **Figure 2 - Customers Listing**
 
 2.  After searching, select the intended entry. Once this is done, you will be
     directed to the registry screen displaying the content of the selected
@@ -81,9 +81,9 @@ Filling in the registration fields
 1.  In the **Customer** screen, click on the **Register** tab, the **Customer
     Registration** screen will be displayed, as illustrated in the image below:
 
-   ![figure](images/client-3.png)
+    ![figure](images/client-3.png)
    
-   **Figure 3 - Customer Entry Screen**
+    **Figure 3 - Customer Entry Screen**
 
 2.  Fill out the fields as instructed:
 

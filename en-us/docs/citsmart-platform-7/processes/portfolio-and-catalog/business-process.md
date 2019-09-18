@@ -32,15 +32,15 @@ Filters
     in the standard feature listing, making it easier to locate the desired
     items as shown in the figure below:
 
--   Name.
+    - Name.
 
 2.  On the Business Process screen, click the **Business Process Lookup** tab.
     The respective search screen will be displayed, as shown in the figure
     below:
 
-   ![figure](images/business-1.png)
+    ![figure](images/business-1.png)
 
-   **Figure 1 - Business Process lookup screen**
+    **Figure 1 - Business Process lookup screen**
 
 3.  Perform business process search:
 
@@ -58,9 +58,9 @@ Items list
     the identification of the desired items in the standard listing of the
     functionality: **Name** and **Customer**.
 
-   ![figure](images/business-2.png)
+    ![figure](images/business-2.png)
    
-   **Figure 2 - Items screen**
+    **Figure 2 - Items screen**
 
 2.  After searching, select the desired record. Once this is done, it will be
     directed to the registration screen displaying the contents of the selected
@@ -77,47 +77,39 @@ Filling in the registration fields
 1.  The **Business Process Registration** screen will be displayed, as shown in
     the figure below:
 
-   ![figure](images/business-3.png)
+    ![figure](images/business-3.png)
    
-   **Figure 3 - Business Process Master Screen**
+    **Figure 3 - Business Process Master Screen**
 
 2.  Fill in the fields as directed below:
 
-    -  **Name**: enter the name of the business process;
+    - **Name**: enter the name of the business process;
 
-    -  **Customer**: inform the client of the business process;
+    - **Customer**: inform the client of the business process;
 
-    -  **Responsible group**: inform the group responsible for the business
-        process;
+    - **Responsible group**: inform the group responsible for the business process;
 
-    -  **Administrator group**: inform the business process administrator
-        group;
+    - **Administrator group**: inform the business process administrator group;
 
-    -  **Flows**: select the workflow (s) of the business process. Remembering
-        that these flows are defined in the flow designing screen;
+    - **Flows**: select the workflow (s) of the business process. Remembering that these flows are defined in the flow designing 
+    screen;
 
-    -  **Important function**: inform if the business process is referring to a
-        vital function. Vital function is a part of a business process that is
-        critical to business success, ie it is the part of running the business
-        that can not stop. Imagine, for example, software that takes care of the
-        process of an automatic teller machine for cash withdrawals: the
-        function of issuing banknotes for the customer will probably have a
-        greater criticality than the function of issuing extracts. Therefore,
-        the former is more likely to be considered a vital function. Vital role
-        is an important consideration in managing service continuity;
+    - **Important function**: inform if the business process is referring to a vital function. Vital function is a part of a 
+    business process that is critical to business success, ie it is the part of running the business that can not stop. Imagine,
+    for example, software that takes care of the process of an automatic teller machine for cash withdrawals: the function of 
+    issuing banknotes for the customer will probably have a greater criticality than the function of issuing extracts. Therefore,
+    the former is more likely to be considered a vital function. Vital role is an important consideration in managing service 
+    continuity;
 
-    -  If the business process relates to a vital function, inform the business
-        impact and urgency.
+    - If the business process relates to a vital function, inform the business impact and urgency.
 
-    -  **Unit**: link the unit (s) to the business process;
+    - **Unit**: link the unit (s) to the business process;
 
--   Click the *Link Unit* button. Once this is done, a screen will be displayed
-    to search for the desired unit;
+    - Click the *Link Unit* button. Once this is done, a screen will be displayed to search for the desired unit;
 
--   Perform the search, select the unit (s) and click *Add* to link the drive
-    (s) to the business process;
+    - Perform the search, select the unit (s) and click *Add* to link the drive(s) to the business process;
 
--   To delete the link from the drive to the business process, simply click
+    - To delete the link from the drive to the business process, simply click
     the ![figure](images/business-4.png) .
 
 3.  After entering the data, click the *Save* button to register, where the

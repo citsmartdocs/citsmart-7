@@ -37,13 +37,13 @@ Filters
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   Opening Period;
+    - Opening Period;
 
--   Category.
+    - Category.
 
-![figure](images/audit-1.png)
+    ![figure](images/audit-1.png)
 
-**Figure 1 - Audit service search screen**
+    **Figure 1 - Audit service search screen**
 
 Items list
 ----------
@@ -55,22 +55,20 @@ Items list
 2.  There is one action button available to the user for each item in the
     listing, they is: *Expand*.
 
-   ![figure](images/audit-2.png)
+    ![figure](images/audit-2.png)
    
-   **Figure 2 - Audit service screen**
+    **Figure 2 - Audit service screen**
 
--   If you need to record the details of the audit performed, click on
-    the **Register occurences** tab. The registration screen will be displayed,
-    as illustrated in the figure below:
+    - If you need to record the details of the audit performed, click on the **Register occurences** tab. The registration
+    screen will be displayed, as illustrated in the figure below:
 
-   ![figure](images/audit-3.png)
+    ![figure](images/audit-3.png)
    
    **Figure 3 - Audit registration screen**
 
--   **Category**: select the category of service in which the audit was
-    performed;
+- **Category**: select the category of service in which the audit was performed;
 
--   **Description**: inform the details of the audit performed.
+- **Description**: inform the details of the audit performed.
 
 3.  After the data is informed, click the *Save* button to register.
 

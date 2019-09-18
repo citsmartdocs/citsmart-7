@@ -21,7 +21,7 @@ Preconditions
 3.  Have set the parameter bellow (see knowledge [Parameterization rules - Smart
     Portal][2]):
 
--   Parameter 253.
+   - Parameter 253.  
 
 Filters
 -------
@@ -30,13 +30,13 @@ Filters
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   Search;
+    - Search;
 
--   Situation;
+    - Situation;
 
--   Sort by;
+    - Sort by;
 
--   Order.
+    - Order.
 
 ![Pesquisa](images/ocorren.img1.jpg)
 
@@ -72,20 +72,20 @@ Filling in the registration fields
     and click the ![figure](images/simb-plus.jpg) of the same. Once this is done, the **Occurrence
     Register** screen will be displayed, as shown in the figure below:
 
-   ![Pesquisa](images/ocorren.img3.jpg)
+    ![Pesquisa](images/ocorren.img3.jpg)
    
-   **Figure 3 - Record of occurrence screen**
+    **Figure 3 - Record of occurrence screen**
 
 2.  Enter the occurrence data;
 
--   **Category**: select the category of the service request occurrence;
+    - **Category**: select the category of the service request occurrence;
 
--   **Origin**: select the origin of the occurrence of the service request;
+    - **Origin**: select the origin of the occurrence of the service request;
 
--   **Occurrence**: describe the occurrence related to the service request;
+    - **Occurrence**: describe the occurrence related to the service request;
 
--   **Notify Responsible**: check this option if you want the service requestor
-    to receive an e-mail notification regarding the occurrence of the request.
+    - **Notify Responsible**: check this option if you want the service requestor to receive an e-mail notification regarding the 
+    occurrence of the request.
 
 3.  After entering the data, click the *Save* button to register.
 
