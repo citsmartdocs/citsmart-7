@@ -22,7 +22,7 @@ Preconditions
 3.  Enter the content below into the parameter (see knowledge [Parameterization
     rules - Smart Portal][3]);
 
--   Parameter 302: with the value "Y".
+    - Parameter 302: with the value "Y".
 
 Filters
 -------
@@ -31,17 +31,17 @@ Filters
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   Search;
+    - Search;
 
--   Situation;
+    - Situation;
 
--   Sort by;
+    - Sort by;
 
--   Order.
+    - Order.
 
-![figure](images/canc.img1.jpg)
+    ![figure](images/canc.img1.jpg)
 
-**Figure 1 - Ticket search screen**
+    **Figure 1 - Ticket search screen**
 
 Items list
 ----------
