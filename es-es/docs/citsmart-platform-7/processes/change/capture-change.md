@@ -58,7 +58,7 @@ Capturando tareas
     
     **Figura 3 - Capturar tarea**
     
-2. Aparecerá un mensaje de confirmación de la captura de la tarea. Haga clic en Aceptar para realizar la operación;
+2. Aparecerá un mensaje de confirmación de la captura de la tarea. Haga clic en *Aceptar* para realizar la operación;
 
 3. Se presentará el responsable actual por la atención de la solicitud de cambio en la lista de requisiciones.
 
