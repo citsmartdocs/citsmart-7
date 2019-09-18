@@ -22,17 +22,17 @@ Filters
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   Search;
+    - Search;
 
--   Situation;
+    - Situation;
 
--   Sort by;
+    - Sort by;
 
--   Order.
+    - Order.
 
-![figure](images/satis.img1.jpg)
+    ![figure](images/satis.img1.jpg)
 
-**Figure 1 - Ticket search screen**
+    **Figure 1 - Ticket search screen**
 
 Items list
 ----------
@@ -58,17 +58,15 @@ Filling in the registration fields
     same. Once this is done, the **Satisfaction Survey** screen will be
     displayed, as shown in the figure below:
 
-   ![figure](images/satis.img3.jpg)
+    ![figure](images/satis.img3.jpg)
    
-   **Figure 3- Satisfaction record screen**
+    **Figure 3- Satisfaction record screen**
 
-2.  Record satisfaction survey information;
+2. Record satisfaction survey information;
 
--   **Evaluation**: select the degree of satisfaction of the service request
-    fulfillment;
+    - **Evaluation**: select the degree of satisfaction of the service request fulfillment;
 
--   **Comment/Suggestion of Improvement**: describe your observations regarding
-    the service request fulfillment, if necessary.
+    - **Comment/Suggestion of Improvement**: describe your observations regarding the service request fulfillment, if necessary.
 
 3.  After the data is entered, click the *Save* button to register.
 
