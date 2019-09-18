@@ -827,5 +827,3 @@ Description: Here you have the answers to the most common questions when talking
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
     <b>Updated:</b>09/17/2019 - Anna Martins
     
-
-
