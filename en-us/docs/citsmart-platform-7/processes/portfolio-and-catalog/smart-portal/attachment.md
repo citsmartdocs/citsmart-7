@@ -16,10 +16,9 @@ Preconditions
 
 1.  Enter the following content in the parameters:
 
--   Parameter 44: e.g: Windows - C:/temp (see knowledge [Parameterization rules - system][1]);
+    - Parameter 44: e.g: Windows - C:/temp (see knowledge [Parameterization rules - system][1]);
 
--   Parameter 46: should be set to 'S' (see knowledge [Parameterization rules -
-    Smart Portal][2]);
+    -   Parameter 46: should be set to 'S' (see knowledge [Parameterization rules - Smart Portal][2]);
 
 2.  The user must have service requests opened on his name (see
     knowledge [Service request registration using Smart Portal][3]);
@@ -35,17 +34,17 @@ Filters
     in the standard feature listing, making it easier to locate the desired
     items as shown in the figure below:
 
--   Search,;
+    - Search,;
 
--   Situation;
+    - Situation;
 
--   Sort by ;
+    - Sort by ;
 
--   Order.
+    - Order.
 
-![figure](images/anexos.img1.jpg)
+    ![figure](images/anexos.img1.jpg)
 
-**Figure 1 - Request search screen**
+    **Figure 1 - Request search screen**
 
 Items list
 ----------
@@ -80,16 +79,16 @@ Viewing the history of a ticket
     request and incidents**, search for the request in which the attachment was
     added and click the *View* button, as shown on the figure below:
 
-   ![figure](images/anexos.img3.jpg)
+    ![figure](images/anexos.img3.jpg)
    
-   **Figure 3 - Request screen**
+    **Figure 3 - Request screen**
 
 2.  The ticket will be opened, click on the *Request Occurrence* button, as
     shown below:
 
-   ![figure](images/anexos.img4.jpg)
+    ![figure](images/anexos.img4.jpg)
    
-   **Figure 4 - Request view screen**
+    **Figure 4 - Request view screen**
 
 3.  Then all the ticket record history will be demonstrated:
 
