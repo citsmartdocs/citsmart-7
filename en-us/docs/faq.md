@@ -283,15 +283,15 @@ Description: Here you have the answers to the most common questions when talking
     The design of the assets that make up the service is done using the Service Map Design tool that provides efficient and 
     effective drawings for managing the service during its life cycle, demonstrating the related configuration items.
  
-    To carry out this design, proceed as follows (see knowledge [Service attributes configuration]9/en-us/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html))
+    To carry out this design, proceed as follows (see knowledge [Service attributes configuration](/en-us/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html))
     
-    1. Access the Service Map Design feature for the Business Service **Portfolio and Catalog Management** > Portfolio and Catalog Management > Support Menu > Advanced Portfolio > Service Catalog > Next Service > Service Map**;
+    1. Access the Service Map Design feature for the Business Service Portfolio and Catalog Management** > Portfolio and Catalog Management > Support Menu > Advanced Portfolio > Service Catalog > Next Service > Service Map;
     
     2. The screen for designing the assets that make up the business service will be presented;
     
     3. Perform the design;
     
-    4. Access the Service Asset Map Design functionality for the Support/Technical Service **Portfolio and Catalog Management > Portfolio and Catalog Management > Support Menu > Advanced Portfolio > Service Catalog > Next Service > Service Map**.
+    4. Access the Service Asset Map Design functionality for the Support/Technical Service Portfolio and Catalog Management > Portfolio and Catalog Management > Support Menu > Advanced Portfolio > Service Catalog > Next Service > Service Map.
 
     5. The screen for designing the assets that make up the support / technical service will be presented;
 
@@ -562,7 +562,7 @@ Description: Here you have the answers to the most common questions when talking
     
     b. From the user´s registry
     
-      1. Access the User Entry feature navigating through the main menu. Place the cursor on the option General Registration, Staff Management and click on the User option (see knowledge [Staff registration and search](/en-us/citsmart-platform-7/initial-settings/access-settings/user/employee.html);
+      1. Access the User Entry feature navigating through the main menu. Place the cursor on the option General Registration, Staff Management and click on the User option (see knowledge [Staff registration and search](/en-us/citsmart-platform-7/initial-settings/access-settings/user/employee.html));
 
       2. The User Entry screen will be displayed. If the user is already registered in the system, perform a user search and select it;
 
