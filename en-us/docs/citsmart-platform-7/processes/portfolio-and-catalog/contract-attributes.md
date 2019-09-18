@@ -1,7 +1,7 @@
 title: Service contract attributes configuration
 Description: The guidelines must be followed to configure the attributes of both the *Business/IT Service Agreement* and the Support/Technical Service Agreement.
 
-# Service contract attributes configuration
+# Service contract attributes configuration  
 
 The guidelines must be followed to configure the attributes of both
 the *Business/IT Service Agreement* and the *Support/Technical Service
