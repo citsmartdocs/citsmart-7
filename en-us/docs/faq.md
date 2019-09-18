@@ -161,13 +161,14 @@ Description: Here you have the answers to the most common questions when talking
     In order for the notification be sent it is necessary to perform the following procedures :
     
     1. Access the Contract Services related to the business service Portfolio Management > Services Portfolio > Business Service > Contract > Services and technical service Portfolio Management > Service Portfolio > Business Service > Support/Technical Service > Contract > Services e and insert the e-mail template in the fields:
+    
         - "Incident/Request Opening E-mail Template"
         - "Incident/Requistion Execution E-mail Template"
         - "Incident/Request Ongoing Activities E-mail Template"
         
-    !!! info "IMPORTANT"
+        !!! info "IMPORTANT"
     
-        If e-mail templates are not inserted, the notification will not be sent.
+            If e-mail templates are not inserted, the notification will not be sent.
         
     2. Access the Group Register feature General Registration > Staff Management > Group.
 
@@ -177,15 +178,15 @@ Description: Here you have the answers to the most common questions when talking
 
     5. The intended group entry screen will be displayed, determine if the e-mail notifications (opening, in progress and execution) related to the requests will be mandatory.
     
-    !!! warning "ATTENTION"
+        !!! warning "ATTENTION"
     
-         If it is determined that notifications will be mandatory, when registering a service request, on the Incident/Request Service entry screen, these options will be selected already, not allowing any changes. But if it has been determined that notifications will not be mandatory, when registering a service request, these options will be available to be determined by the petitioner.
+             If it is determined that notifications will be mandatory, when registering a service request, on the Incident/Request                Service entry screen, these options will be selected already, not allowing any changes. But if it has been determined                that notifications will not be mandatory, when registering a service request, these options will be available to be                  determined by the petitioner.
         
     6. On the Incident/Request Service Request screen, when registering a service request the rules related to the e-mail notifications will be established, determined in the group entry.
     
     !!! note "NOTE"
     
-        When registering a service request, the notification will only be sent to the performer group, which is responsible for attending to the request. When the activities are in progress and then finished, the notifications will only be sent to the petitioner.
+         When registering a service request, the notification will only be sent to the performer group, which is responsible for attending to the request. When the activities are in progress and then finished, the notifications will only be sent to the petitioner.
         
 !!! Question "How to configure the configuration Items lifecycle phases names?"
 
@@ -555,7 +556,7 @@ Description: Here you have the answers to the most common questions when talking
     
         ![staff](images/cola.img1.jpg)
         
-        **FigurE 1 - Staff screen**
+         **FigurE 1 - Staff screen**
         
     5. After linking, click on the Save button to confirm the entry, at which date, time and user will be automatically stored for a future audit.
     
