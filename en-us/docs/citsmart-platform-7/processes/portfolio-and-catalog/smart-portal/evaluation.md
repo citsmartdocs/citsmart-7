@@ -22,26 +22,25 @@ Evaluating the services
 1.  Clic on Portal, your respective services will be presented, as shown in the
     figure below:
 
-   ![figure](images/aval-smart.img1.jpg)
+    ![figure](images/aval-smart.img1.jpg)
    
-   **Figure 1 - Service catalog**
+    **Figure 1 - Service catalog**
 
 2.  Select the service you will evaluate;
 
-   ![figure](images/aval-smart.img2.jpg)
+    ![figure](images/aval-smart.img2.jpg)
    
-   **Figure 2 - Service**
+    **Figure 2 - Service**
 
 3.  Click *Evaluate*. After that, the service evaluation screen will be
     displayed, as shown in the figure below:
 
-   ![figure](images/aval-smart.img3.jpg)
+    ![figure](images/aval-smart.img3.jpg)
    
-   **Figure 3 - Service evaluation**
+    **Figure 3 - Service evaluation**
 
--   Report a note to the service by scoring the stars and write a review if you
-    feel you need to. Once this is done, click the *Save*button to perform the
-    operation.
+    - Report a note to the service by scoring the stars and write a review if you feel you need to. Once this is done, click
+    the *Save* button to perform the operation.
 
 4.  To view the service evaluations that have been performed,
     click *Evaluations*.
