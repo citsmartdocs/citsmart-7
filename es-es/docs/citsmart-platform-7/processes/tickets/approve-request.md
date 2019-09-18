@@ -94,9 +94,8 @@ Configuración del e-mail de notificación de aprobación
         utilizará está disponible en el anexo.
 
         Para más detalles sobre cómo transferir el modelo HTLM al registrar una
-        nueva notificación, vea el conocimiento[ Registro y consulta de la
-        configuración del modelo de
-        e-mail][1])
+        nueva notificación, vea el conocimiento [Registro y consulta de la
+        configuración del modelo de e-mail][1])
 
 4.  Después de traspasar el modelo HTML al registro de la notificación,
     verifique las siguientes directrices:
