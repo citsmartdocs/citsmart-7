@@ -28,15 +28,15 @@ Donde están sus funcionalidades
 Principal funcionalidad (en destaque)
 ----------------------------------------
 
-En la sección Véase también es posible acceder a la (s) funcionalidad (es) principal (es) de este módulo, para obtener un 
+En la sección *Véase también* es posible acceder a la (s) funcionalidad (es) principal (es) de este módulo, para obtener un 
 conocimiento más detallado.
 
-Veja também
--------------
+Véase también
+-----------------
 
-- [Gerenciamento de disponibilidade](/pt-br/citsmart-platform-7/processes/availability/availability-management.html)
+- [Gestión de Disponibilidad](/es-es/citsmart-platform-7/processes/availability/availability-management.html)
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/10/2019 – Larissa Lourenço
+    <b>Updated:</b>09/18/2019 – Larissa Lourenço
