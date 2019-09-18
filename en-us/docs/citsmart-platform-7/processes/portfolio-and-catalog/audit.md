@@ -66,9 +66,9 @@ Items list
    
    **Figure 3 - Audit registration screen**
 
-    - **Category**: select the category of service in which the audit was performed;
+- **Category**: select the category of service in which the audit was performed;
 
-    - **Description**: inform the details of the audit performed.
+- **Description**: inform the details of the audit performed.
 
 3.  After the data is informed, click the *Save* button to register.
 
