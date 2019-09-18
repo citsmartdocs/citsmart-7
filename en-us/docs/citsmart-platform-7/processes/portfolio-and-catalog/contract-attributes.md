@@ -399,7 +399,7 @@ Linking availability agreement to contract
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   SLA Title .
+    - SLA Title .
 
 ### Items list
 
