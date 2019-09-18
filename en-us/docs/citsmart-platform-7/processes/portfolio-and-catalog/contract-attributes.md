@@ -329,7 +329,7 @@ Linking service procedure to contract
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Procedure Name.
+    - Procedure Name.
 
 ### Items list
 
