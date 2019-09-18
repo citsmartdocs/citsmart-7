@@ -1,56 +1,54 @@
-title: Módulo Gerenciamento de Capacidade
-Description: O Gerenciamento de Capacidade é o processo responsável por tornar possível o 
-# Módulo Gerenciamento de Capacidade
+title: Módulo Gestión de la Capacidad
+Description: La Gestión de la Capacidad es el proceso encargado de asegurar que se cubren los requisitos de capacidad  
+# Módulo Gestión de la Capacidad
 
-Objetivo do módulo
+Objetivo del módulo
 --------------------
 
-O Gerenciamento de Capacidade é o processo responsável por tornar possível o atendimento dos requisitos relacionados
-à capacidade e desempenho do ambiente de TI dentro de um acordo de serviço. O mesmo considera todos os recursos 
-necessários para entregar os serviços de TI, planos e requisitos de negócio a curto, médio e longo prazo.
+La Gestión de la Capacidad es el proceso encargado de asegurar que se cubren los requisitos de capacidad y el rendimiento de la 
+infraestructura de TI del acuerdo de servicio. Esta gestión toma en cuenta todos los recursos necesarios para llevar a cabo los 
+servicios de TI, planes y requisitos de negocio a corto, mediano y largo plazo.
 
-O propósito do Gerenciamento de Capacidade é garantir que a capacidade dos serviços de TI e a infraestrutura de TI sejam
-capazes de atender aos requisitos relacionados à capacidade e ao desempenho acordados de maneira oportuna e eficaz em custo.
+El objetivo de la Gestión de la Capacidad es garantizar que las capacidades del servicio de TI y la infraestructura de TI sean 
+capaces de cumplir con los requisitos de capacidad y rendimiento acordados de manera oportuna y rentable.
 
-O Gerenciamento de Capacidade possui três sub processos, nos quais se pode considerar a capacidade:
+La Gestión de la Capacidad tiene tres subprocesos, en los que se puede considerar la capacida
 
-- **Gestão da capacidade do negócio**: garante que as necessidades futuras do negócio sejam consideradas, planejadas e atendidas em
-tempo apropriado. Isso pode ser feito através de análise de tendências, previsões e modelagens. O foco está nas necessidades
-atuais e futuras do negócio;
+- **Gestión de la Capacidad de Negocio**: Asegura que las necesidades de negocio futuras sean consideradas, planificadas y 
+satisfechas de manera oportuna. Esto se puede hacer mediante análisis de tendencias, pronósticos y modelado. El foco está en las 
+necesidades comerciales actuales y futuras;o;
 
-- **Gestão da capacidade de serviços**: gerencia o desempenho dos serviços de TI em operação. São suas responsabilidades garantir, 
-monitorar e reportar os níveis de desempenho definidos nos acordos de nível de serviço (SLA) e nos requisitos de nível de serviço (SLR).
-Seu foco está nos serviços atuais suportados pelo negócio;
+- **Gestión de la Capacidad de los Servicios**: gestiona el rendimiento de los servicios de TI en funcionamiento. Es su responsabilidad garantizar, controlar e informar los niveles de rendimiento definidos en nivel de servicio SLA y requisitos de nivel de servicio SLR. Su enfoque está en la tecnología responsable por mantener la actual provisión de servicios;
 
-- **Gestão da capacidade de recursos**: monitora e reporta os níveis de desempenho,
-individuais, dos recursos (componentes) de infraestrutura de TI. Seu foco está na
-tecnologia responsável por sustentar toda a provisão de serviços.
+- **Gestión de la Capacidad de Recursos**: supervisa e informa los niveles de rendimiento individuales de los recursos de 
+infraestructura de TI (componentes). Se enfoca en la tecnología responsable de mantener toda la provisión del servicio
 
-Neste módulo serão definidos os indicadores de capacidade (performance/desempenho)
-que serão vinculados aos Serviços e Itens de Configuração.
+En este módulo se definirán los indicadores de capacidad (rendimiento / desempeño), que estarán vinculados a los Servicios y 
+ítems de configuración.
 
-Onde estão suas funcionalidades
+Donde están sus funcionalidades
 ---------------------------------
 
-Acesse o menu principal **Processos ITIL > Gerência de Capacidade**.
+Acceder al menú principal de **Procesos ITIL > Gestión de la Capacidad**.
 
-![Menu](images/mod-cap.img1.png)
+![Menu](images/modulo.img1.jpg)
 
-**Figura 1 - Menu do módulo gerência de capacidade**
+**Figura 1 - Menú del módulo de gestión de capacidad**
 
-Principal funcionalidade (em destaque)
+Principal funcionalidad (en destaque)
 ----------------------------------------
 
-Na seção "Veja também" é possível acessar a(s) funcionalidade(s) principal(is) deste módulo, desta forma se pode obter um conhecimento mais detalhado.
+En la sección *Véase también* es posible acceder a la (s) funcionalidad (es) principal (es) de este módulo, para obtener un 
+conocimiento más detallado.
 
-Veja também
+Véase también
 --------------
 
-- [Cadastro e pesquisa de indicadores de capacidade](/pt-br/citsmart-platform-7/processes/capacity/capacity-indicators.html);
-- [Importação de dados de indicadores de capacidade](/pt-br/citsmart-platform-7/processes/capacity/data-import-capacity.html).
+- [Registro y consulta de indicadores de capacidad](/es-es/citsmart-platform-7/processes/capacity/capacity-indicators.html);
+- [Importación de datos de indicadores de capacidad](/es-es/citsmart-platform-7/processes/capacity/data-import-capacity.html).
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/11/2019 – Larissa Lourenço
+    <b>Updated:</b>09/18/2019 – Larissa Lourenço
 
