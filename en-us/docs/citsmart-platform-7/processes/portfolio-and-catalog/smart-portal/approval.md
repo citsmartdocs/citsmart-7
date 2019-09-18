@@ -71,7 +71,7 @@ Service request approval
     that, the information registration screen for the approval of the same will
     be displayed, as shown in the following image:
 
-    ![figure](images/aprov-smart.img4.jpg)
+    ![figure](images/approve.img4.jpg)
    
     **Figure 4 - Service request approval record**
 
