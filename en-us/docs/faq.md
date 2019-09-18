@@ -95,7 +95,10 @@ Description: Here you have the answers to the most common questions when talking
     2. Open the e-mail notification for the service request;
     3. The notification will have the request number with a hyperlink, just click on the number, which will then be redirected to the Service Management screen presenting the request information.
     
-    ![Download](images/neuro (1).jpg)
+    !!! note "NOTE"
+    
+        Features of interactions with Neuro form.
+        The app should fully display and interact with all controls on the Neuro form.
 
 !!! Question "How to configure Nagios authentication via LDAP?"
     
