@@ -10,7 +10,7 @@ Preconditions
 -------------
 
 1.  Have the portfolio with the services registered (see knowledge [Service
-    portfolio registration](en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html), [Service registration][2]);
+    portfolio registration][1], [Service registration][2]);
 
 2.  Have the group registered (see knowledge [Group registration and
     search][3]);
@@ -372,7 +372,7 @@ Registering service incident activities
     survey and select the incident activity to successfully complete the link.
 
 
-[Service contract attributes configuration]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+[1]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/register.html
 [2]:/en-us/citsmart-platform-7/processes/portfolio-and-catalog/services.html
 [3]:/en-us/citsmart-platform-7/initial-settings/access-settings/user/group.html
 [4]:/en-us/citsmart-platform-7/processes/configuration/IC-management.html
