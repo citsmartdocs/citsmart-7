@@ -176,36 +176,36 @@ request activity will be displayed, as shown in the figure below:
 
    - **Requesting area**: inform who can request the activity of request;
 
-    - **E-mail Template (Open)**: select the open e-mail request template to send notification when registering the requests for the 
+   - **E-mail Template (Open)**: select the open e-mail request template to send notification when registering the requests for the 
     request activity;
 
-    - **E-mail Template (Closure)**: select the e-mail template for completing requests for notification when you complete the 
+  - **E-mail Template (Closure)**: select the e-mail template for completing requests for notification when you complete the 
     requests for the request activity;
 
-    - **E-mail Template (Other Actions)**: select the e-mail template to send notification in the other actions performed in the 
+  - **E-mail Template (Other Actions)**: select the e-mail template to send notification in the other actions performed in the 
     requests regarding the activity of request;
 
-    - **First-line Escalation Group**: select the 1st level group to escalate the attendance of the request activity;
+  - **First-line Escalation Group**: select the 1st level group to escalate the attendance of the request activity;
 
-    - **Executor Group**: define the executing group of the request activity, if it does not inform it, the group defined in 
+  - **Executor Group**: define the executing group of the request activity, if it does not inform it, the group defined in 
     parameter "9 - ID Group Level 1" will be considered;
 
-    - **Approver Group**: define the approving group of the requests of the activity of request;
+  - **Approver Group**: define the approving group of the requests of the activity of request;
 
-    - **Satisfaction Survey**: define the survey linked to the activity;
+  - **Satisfaction Survey**: define the survey linked to the activity;
 
-    -   **Calendar**: Select the work schedule for the request activity.
+  -   **Calendar**: Select the work schedule for the request activity.
 
-    - **Service Time**: inform the attendance time of the request activity;
+  - **Service Time**: inform the attendance time of the request activity;
 
-    - **Service Cost**: state the value of the request activity;
+  - **Service Cost**: state the value of the request activity;
 
-    - **Expand service request screen**: if you want the request service request screen to be enlarged, check the "yes" option;
+  - **Expand service request screen**: if you want the request service request screen to be enlarged, check the "yes" option;
 
-    - **SLA restart in the reopening**: define whether the time for attending the activity will be restarted when reopening the 
+  - **SLA restart in the reopening**: define whether the time for attending the activity will be restarted when reopening the 
     request of the same;
 
-    - **Apply access permissions on occurrences?**: define whether occurrences of requests/incidents will be shown for specific 
+ - **Apply access permissions on occurrences?**: define whether occurrences of requests/incidents will be shown for specific 
     groups of users, or whether all users view all occurrences. If the **Apply access permissions on occurrences?** has your "Yes" 
     option selected, a new tab appears next to the Main tab:
 
