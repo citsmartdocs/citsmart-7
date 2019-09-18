@@ -138,7 +138,7 @@ Description: Here you have the answers to the most common questions when talking
         - Parameter 152: Default rating which will be attributed to surveys that have been automatically filled out. Options: EXCELLENT, GOOD, REGULAR, POOR;
         - Parameter 151: Activates or deactivates system automatic responses. Y to activate and N to deactivate.
         
-    2. Access the Batch Processing feature (System → Batch Processing).
+    2. Access the Batch Processing feature (System > Batch Processing).
      
     3.The batch processing entry screen will be displayed, fill out the fields:
     
