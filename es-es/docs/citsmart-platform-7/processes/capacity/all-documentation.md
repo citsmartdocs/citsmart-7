@@ -1,12 +1,12 @@
-title: Visão geral do processo de Capacidade
-Description: Disponibiliza todos os conhecimentos do processo.
-# Visão geral do processo de Capacidade
+title: Visión general del proceso de capacidad
+Description: Proporciona todo el conocimiento del proceso.
+# Visión general del proceso de capacidad
 
-[Cadastro e pesquisa de indicadores de capacidade](/pt-br/citsmart-platform-7/processes/capacity/capacity-indicators.html)
+[Importación de datos de indicadores de capacidad](/es-es/citsmart-platform-7/processes/capacity/capacity-indicators.html)
 
-[Importação de dados de indicadores de capacidade](/pt-br/citsmart-platform-7/processes/capacity/data-import-capacity.html)
+[Importación de datos de indicadores de capacidad](/es-es/citsmart-platform-7/processes/capacity/data-import-capacity.html)
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/01/2019 – Larissa Lourenço
+    <b>Updated:</b>09/18/2019 – Larissa Lourenço
