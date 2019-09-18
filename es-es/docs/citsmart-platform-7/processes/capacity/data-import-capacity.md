@@ -28,7 +28,7 @@ estar en el archivo;
 5. Por lo tanto, antes de seleccionar el archivo, compruebe que el mismo está de acuerdo con el modelo, teniendo en cuenta el 
 formato (.xls, .xlsx, .xml o .csv);
 
-6. spués de la verificación, haga clic en el botón Seleccionar archivo, seleccione el archivo y haga clic en el botón *Enviar* 
+6. Después de la verificación, haga clic en el botón Seleccionar archivo, seleccione el archivo y haga clic en el botón *Enviar* 
 para efectuar la importación;
 
 7. Hecho esto, los datos se importarán con éxito.
