@@ -12,9 +12,9 @@ Preconditions
 1.  Enter the content below into the parameters (see knowledge [Parameterization
     rules - ticket][1]);
 
--   Parameter 299: must be set to 'Yes' ;
+    - Parameter 299: must be set to 'Yes' ;
 
--   Parameter 300: must be set to 'Yes' .
+    - Parameter 300: must be set to 'Yes' .
 
 2.  There is at least one service request open by the Service Portal (see
     knowledge [Service request registration using Smart Portal][2]);
@@ -39,17 +39,17 @@ Exchanging message - applicant
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   Search;
+    - Search;
 
--   Situation;
+    - Situation;
 
--   Sirt by;
+    - Sort by;
 
--   Order.
+    - Order.
 
-![figure](images/mensa.img1.jpg)
+    ![figure](images/message.img1.jpg)
 
-**Figure 1 - Ticket search screen**
+    **Figure 1 - Ticket search screen**
 
 ### Items list
 
@@ -63,14 +63,14 @@ Exchanging message - applicant
     Survey*, *Description*, *Attachments*, *Occurrence*, *Register
     occurrence*, *Cancel Request* and *Message*.
 
-   ![figure](images/mensa.img2.jpg)
+    ![figure](images/message.img2.jpg)
    
-   **Figure 2 - Request list screen**
+    **Figure 2 - Request list screen**
 
 3.  Click on the icon highlighted in the previous figure, soon after the message
     exchange screen will appear and then send the desired information.
 
-![figure](images/mensa.img3.jpg)
+![figure](images/message.img3.jpg)
 
 **Figure 3 - Message screen**
 
@@ -87,9 +87,9 @@ Exchanging message - attendant
     attendant and answered in the shortest amount of time, the work window must
     be updated periodically):
 
-   ![figure](images/mensa.img4.jpg)
+    ![figure](images/message.img4.jpg)
    
-   **Figure 4 - Message notifications screen**
+    **Figure 4 - Message notifications screen**
 
 2.  The attendant then clicks the *View* button. Once this is done, a new screen
     will open, informing the content of the message previously sent by the
@@ -107,7 +107,7 @@ Exchanging message - attendant
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Number
+    - Number
 
 2.  In the search field, it is possible to search by number, task description
     and responsible for the service.
@@ -116,7 +116,7 @@ Exchanging message - attendant
    ![simbolo](images/simb-seta.down.jpg)  of the search field.
 
 
-![figure](images/mensa.img5.jpg)
+![figure](images/message.img5.jpg)
 
 **Figure 5 - Quick request search screen**
 
@@ -127,9 +127,9 @@ Exchanging message - attendant
     functionality: **Number**, **Priority**, **Activity**, **Creation
     date**, **Task**, **Current group** and **Responsible**.
 
-   ![figure](images/mensa.img6.jpg)
+    ![figure](images/message.img6.jpg)
    
-   **Figure 6 - Request list screen**
+    **Figure 6 - Request list screen**
 
 2.  Clicking on the button highlighted in the previous figure will open the
     message exchange screen between the applicant and receiver.
@@ -138,7 +138,7 @@ Exchanging message - attendant
     clicking on the ![simbolo](images/simb-eye.jpg) of the request. Once this is done, the request and incident
     screen opens, click on ![simbolo](images/simb-talk.jpg) to start exchanging messages.
 
-![figure](images/mensa.img7.jpg)
+![figure](images/message.img7.jpg)
 
 **Figure 7 - Message exchange screen by service view mode**
 
