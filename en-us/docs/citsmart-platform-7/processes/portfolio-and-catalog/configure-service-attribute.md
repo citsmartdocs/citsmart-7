@@ -461,7 +461,7 @@ Linking support - technical service
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Service Name.
+    - Service Name.
 
 ### Items list
 
@@ -514,40 +514,34 @@ Creating the service map design
     support/technical services and the **Configuration Items** icons to represent
     the CIs. Follow the guidelines below:
 
--   Choose an icon to represent the support/technical service, click and drag it
-    to the design area. After that, the screen will be displayed to inform the
-    support/technical service data that will be represented by the icon chosen,
-    as shown in the figure below:
+    - Choose an icon to represent the support/technical service, click and drag it to the design area. After that, the screen will 
+    be displayed to inform the support/technical service data that will be represented by the icon chosen, as shown in the figure 
+    below:
 
-   ![figure](images/configure-10.png)
+    ![figure](images/configure-10.png)
    
-   **Figure 10 - Support/Technical service information registration screen**
+    **Figure 10 - Support/Technical service information registration screen**
 
--   Inform the support/technical service, its description and click on the
-    button *Save* to carry out the operation;
+    - Inform the support/technical service, its description and click on the button *Save* to carry out the operation;
 
--   Click **Configuration Items** and choose an icon to represent the IC, and
-    then drag it to the design area. After that, the screen will be displayed to
-    inform the IC data that will be represented by the chosen icon, as shown in
+    - Click **Configuration Items** and choose an icon to represent the IC, and then drag it to the design area. After that, the 
+    screen will be displayed to inform the IC data that will be represented by the chosen icon, as shown in
     the figure below:
 
-   ![figure](images/configure-11.png)
+    ![figure](images/configure-11.png)
    
-   **Figure 11 - Configuration item information registration screen**
+    **Figure 11 - Configuration item information registration screen**
 
--   Enter the configuration item and its description. After that, if you want to
-    check the IC information, click the Display **Item Configuration** button;
+    - Enter the configuration item and its description. After that, if you want to check the IC information, click the 
+    Display **Item Configuration** button;
 
--   After entering all the IC data, click on the *Save* button to register the
-    IC information represented by the icon;
+    - After entering all the IC data, click on the *Save* button to register the IC information represented by the icon;
 
--   To change the suppor technical information or IC represented by an icon,
-    simply double-click the icon of the service, or edit the information and
-    click *Save* to make the change.
+    - To change the suppor technical information or IC represented by an icon, simply double-click the icon of the service, or edit 
+    the information and click *Save* to make the change.
 
--   To exclude the support/technical service or the IC represented by an icon,
-    simply double click on the icon of the same and click on
-    the *Delete* button.
+    - To exclude the support/technical service or the IC represented by an icon, simply double click on the icon of the same and 
+    click on the *Delete* button.
 
 3.  After creating the service map design, click the *Save* button, located at
     the top of the screen, to register;
@@ -572,7 +566,7 @@ Linking applications to the service
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
--   Name.
+   - Name.
 
 ### Items list
 
