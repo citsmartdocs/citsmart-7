@@ -18,7 +18,7 @@ Para verificar los gráficos de disponibilidad es necesario, primero, realizar l
 
 1. Registrar el grupo de disponibilidad (ver conocimiento [Registro y consulta del grupo de disponibilidad](/es-es/citsmart-platform-7/processes/availability/availability-group.html));
 
-2. Vincular el calendario, acuerdo de nivel de servicio del tipo "disponibilidad" y costo por hora de indisponibilidad al ítem de configuración (ver conocimiento [Gestión de ítems de configuración]/es-es/citsmart-platform-7/processes/configuration/IC-management.html));
+2. Vincular el calendario, acuerdo de nivel de servicio del tipo "disponibilidad" y costo por hora de indisponibilidad al ítem de configuración (ver conocimiento [Gestión de ítems de configuración](/es-es/citsmart-platform-7/processes/configuration/IC-management.html));
 
 3. Vincular el calendario, acuerdo de nivel de servicio del tipo "disponibilidad" y costo por hora de indisponibilidad al Grupo 
 de ICs;
