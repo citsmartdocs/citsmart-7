@@ -138,9 +138,9 @@ Description: Here you have the answers to the most common questions when talking
         - Parameter 152: Default rating which will be attributed to surveys that have been automatically filled out. Options: EXCELLENT, GOOD, REGULAR, POOR;
         - Parameter 151: Activates or deactivates system automatic responses. Y to activate and N to deactivate.
         
-     2. Access the Batch Processing feature (System → Batch Processing).
+    2. Access the Batch Processing feature (System → Batch Processing).
      
-     3.The batch processing entry screen will be displayed, fill out the fields:
+    3.The batch processing entry screen will be displayed, fill out the fields:
     
         - Description: insert the description which will identify the processing. For example: "Automatic satisfaction survey response";
         - Situation: the situation determines if this processing will be active or inactive. When it is inactive the requests will not be answered;
@@ -148,7 +148,7 @@ Description: Here you have the answers to the most common questions when talking
         - Schedule: determines when the activity will be executed, it is up to the administrator to determine the best time and recurrence ;
         - Content: insert the text: br.com.centralit.citcorpore.quartz.job.AvaliarSolicitacoesNaoRespondidas;
         
-    4. Click on the Save button to confirm the entry.
+     4. Click on the Save button to confirm the entry.
     
     !!! info "IMPORTANT"
     
