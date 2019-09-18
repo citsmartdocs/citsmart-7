@@ -2,9 +2,9 @@ title:  Cadastro e pesquisa de grupo de disponibilidade
 Description: Disponibiliza todos os conhecimentos do processo. 
 # Cadastro e pesquisa de grupo de disponibilidade
 
-[Cadastro e pesquisa de grupo de disponibilidade](/pt-br/citsmart-platform-7/processes/availability/availability-group.html)
+[Registro y consulta del grupo de disponibilidad](/es-es/citsmart-platform-7/processes/availability/availability-group.html)
 
-[Gerenciamento de disponibilidade](/pt-br/citsmart-platform-7/processes/availability/availability-management.html)
+[Gerenciamiento de disponibilidad](/es-es/citsmart-platform-7/processes/availability/availability-management.html)
 
 !!! tip "About"
 
