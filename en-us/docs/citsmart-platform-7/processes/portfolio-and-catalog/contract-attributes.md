@@ -5,7 +5,7 @@ Description: The guidelines must be followed to configure the attributes of both
 
 The guidelines must be followed to configure the attributes of both
 the *Business/IT Service Agreement* and the *Support/Technical Service
-Agreement*.
+Agreement*.  
 
 Preconditions
 -------------
@@ -399,7 +399,7 @@ Linking availability agreement to contract
 1.  The following filter enables the user to restrict the participation of items
     in the standard feature listing, making it easier to find the desired items:
 
-    - SLA Title .
+    - SLA Title.
 
 ### Items list
 
