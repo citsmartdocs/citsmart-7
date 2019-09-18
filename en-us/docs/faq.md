@@ -15,9 +15,9 @@ Description: Here you have the answers to the most common questions when talking
    
     The command syntax:
 
-    keytool-exportação-alias <existing_alias_in_keystore>-file
+     keytool-exportação-alias <existing_alias_in_keystore>-file
 
-    <any_filename_here>-keystore <path/to/keystore>
+     <any_filename_here>-keystore <path/to/keystore>
 
     For example:
    
