@@ -195,7 +195,7 @@ Description: Here you have the answers to the most common questions when talking
     
     1. Access the GCAS Configuration feature navigating through the main menu ITIL Processes > Configuration Management > GCAS Configuration. Afterwards, the service assets and the management parameters (attributes) configuration screen will be displayed;
     
-     2. Insert the parameters value (attributes):
+    2. Insert the parameters value (attributes):
      
         - Name of the CIs Group which are in the Development Phase (i.e.: CIs in Development)
         - Name of the CIs Group which are in the Production Phase (i.e.: CIs in Production)
