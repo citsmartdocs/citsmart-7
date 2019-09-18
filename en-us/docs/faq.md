@@ -140,7 +140,7 @@ Description: Here you have the answers to the most common questions when talking
         
     2. Access the Batch Processing feature (System > Batch Processing).
      
-    3.The batch processing entry screen will be displayed, fill out the fields:
+    3. The batch processing entry screen will be displayed, fill out the fields:
     
         - Description: insert the description which will identify the processing. For example: "Automatic satisfaction survey response";
         - Situation: the situation determines if this processing will be active or inactive. When it is inactive the requests will not be answered;
@@ -555,7 +555,7 @@ Description: Here you have the answers to the most common questions when talking
     
         ![staff](images/cola.img1.jpg)
         
-        **Figura 1 - Tela de Colaboradores**
+        **FigurE 1 - Staff screen**
         
     5. After linking, click on the Save button to confirm the entry, at which date, time and user will be automatically stored for a future audit.
     
