@@ -46,10 +46,9 @@ Filling in the registrations fields
 
     a)  Impact Register:
 
-       -  **Acronym**: report the acronym related to the impact level;
+-  **Acronym**: report the acronym related to the impact level;
 
-       -  **Impact Level**: describe the level of impact. Example: High,
-            Medium, Low;
+-  **Impact Level**: describe the level of impact. Example: High,Medium, Low;
 
     !!! note "NOTE"
 
