@@ -55,7 +55,7 @@ como se muestra a continuación:
 3. Para adjuntar un archivo a la actividad, introduzca la descripción del archivo adjunto, haga clic en el botón *Adicionar 
 archivo* y seleccione el archivo que desee;
 
-4. Haga clic en el botón Ejecutar para guardar la información completada referente a la actividad.
+4. Haga clic en el botón *Ejecutar* para guardar la información completada referente a la actividad.
 
 !!! tip "About"
 
