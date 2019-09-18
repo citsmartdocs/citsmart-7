@@ -1,223 +1,196 @@
-title: Gerenciamento de disponibilidade
-Description: Esta funcionalidade tem por objetivo verificar a disponibilidade de ICs.
-# Gerenciamento de disponibilidade
+title: Gerenciamiento de disponibilidad
+Description: Esta funcionalidad tiene por objeto verificar la disponibilidad de ICs, disponibilidad del Grupo de IC.
+# Gerenciamiento de disponibilidad
 
-Esta funcionalidade tem por objetivo verificar a disponibilidade de ICs, 
-disponibilidade do Grupo de ICs, disponibilidade do Grupo de Disponibilidade 
-e disponibilidade do Serviço de Negócio.
+Esta funcionalidad tiene por objeto verificar la disponibilidad de ICs, disponibilidad del Grupo de IC, disponibilidad del Grupo 
+de Disponibilidad y disponibilidad del Servicio de Negocio.
 
-Como acessar
+Cómo acceder
 --------------
 
-1. Acesse a funcionalidade de Gerenciamento de Disponibilidade através 
-da navegação no menu principal **Processos ITIL > Gerência de
-Disponibilidade > Gerenciamento de Disponibilidade**.
+1. Acceda a la funcionalidad de Gerenciamiento de Disponibilidad mediante la navegación en el menú principal **Procesos ITIL > 
+Gestión de Disponibilidad > Gerenciamiento de Disponibilidad**.
 
-Pré-condições
----------------
+Condiciones previas
+----------------------
 
-Para verificar os gráficos de disponibilidade é necessário, primeiramente,
-realizar os seguintes procedimentos:
+Para verificar los gráficos de disponibilidad es necesario, primero, realizar los siguientes procedimientos:
 
-1. Cadastrar o grupo de disponibilidade (ver conhecimento 
-[Cadastro e pesquisa de grupo de disponibilidade](/pt-br/citsmart-platform-7/processes/availability/availability-group.html));
+1. Registrar el grupo de disponibilidad (ver conocimiento [Registro y consulta del grupo de disponibilidad](/es-es/citsmart-platform-7/processes/availability/availability-group.html));
 
-2. Vincular o calendário, acordo de nível de serviço do tipo "disponibilidade" 
-e custo por hora de indisponibilidade ao Item de Configuração
-(ver conhecimento [Gerenciamento de itens de configuração](/pt-br/citsmart-platform-7/processes/configuration/IC-management.html));
+2. Vincular el calendario, acuerdo de nivel de servicio del tipo "disponibilidad" y costo por hora de indisponibilidad al ítem de configuración (ver conocimiento [Gestión de ítems de configuración]/es-es/citsmart-platform-7/processes/configuration/IC-management.html));
 
-3. Vincular o calendário, acordo de nível de serviço do tipo "disponibilidade" 
-e custo por hora de indisponibilidade ao Grupo de ICs;
+3. Vincular el calendario, acuerdo de nivel de servicio del tipo "disponibilidad" y costo por hora de indisponibilidad al Grupo 
+de ICs;
 
-4. Vincular o calendário, acordo de nível de serviço do tipo "disponibilidade" e 
-custo por hora de indisponibilidade ao Contrato do Serviço.
+4. Vincular el calendario, acuerdo de nivel de servicio del tipo "disponibilidad" y costo por hora de indisponibilidad al 
+Contrato del Servicio.
 
-Gerenciamento de disponibilidade
+Gerenciamiento de disponibilidad
 -----------------------------------
 
-1. Será apresentada a tela de **Gerenciamento de Disponibilidade**, 
-conforme ilustrada na figura abaixo:
+1. Se mostrará la pantalla de **Gerenciamiento de Disponibilidad**, como se muestra en la figura siguiente:
 
-    ![Gerenciamento](images/ger-disp.img1.png)
+    ![Gerenciamento](images/geren-disp.img1.jpg)
 
-    **Figura 1 - Tela de gerenciamento de disponibilidade**
+    **Figura 1 - Pantalla de administración de disponibilidad**
 
-2. Nesta tela de Gerenciamento de Disponibilidade, é possível verificar a 
-disponibilidade de ICs, disponibilidade do Grupo de ICs, disponibilidade do
-Grupo de Disponibilidade e disponibilidade do Serviço de Negócio. 
-Nos próximos tópicos será abordado sobre como executar essas ações.
+2. En esta pantalla de administración de disponibilidad, puede comprobar la disponibilidad de ICs, disponibilidad del grupo de 
+IC, disponibilidad del grupo de disponibilidad y disponibilidad del servicio de negocio. En los próximos temas se abordará cómo 
+realizar estas acciones.
 
-Verificando a disponibilidade de item de configuração
--------------------------------------------------------
+Verificación de la disponibilidad de ítem de configuración
+-------------------------------------------------------------
 
-1. a tela de **Gerenciamento de Disponibilidade**, clique em **Item de Configuração**. 
-Feito isso, será apresentado o filtro de IC, conforme ilustrado na figura abaixo:
+1. En la pantalla de **Gerenciamiento de Disponibilidad**, haga clic en *Ítem de configuración*. Hecho esto, se mostrará el 
+filtro de IC, como se muestra en la figura siguiente:
 
-    ![Item de configuração](images/ger-disp.img2.png)
+    ![Item de configuração](images/geren-disp.img2.jpg)
 
-    **Figura 2 - Gerenciamento de disponibilidade - Item de configuração**
+    **Figura 2 - Gestión de disponibilidad - Ítem de configuración**
 
-2. Clique no campo **Item de Configuração**, será apresenta a tela de pesquisa de ICs.
-Realize a pesquisa e selecione o IC desejado. Após isso, o IC será adicionado na tela,
-conforme exemplo ilustrado na figura abaixo:
+2. Haga clic en el campo ítem de configuración, aparecerá la pantalla de investigación de IC. Realice la investigación y 
+seleccione el IC deseado. Después de eso, el IC será agregado en la pantalla, como ejemplo ilustrado en la figura abajo:
 
-    ![Filtros IC](images/ger-disp.img3.png)
+    ![Filtros IC](images/geren-disp.img3.jpg)
 
     **Figura 3 - Filtros de IC**
 
-    !!! warning "ATENÇÃO"
+    !!! warning "ATENCIÓN"
     
-        Pode ser adicionado vários itens, quantos desejar, para verificação.
+        Se pueden añadir varios ítems, como desee, para la verificación.
         
-3. Após o filtro definido, clique no botão "Atualizar Gráficos". Feito isso, 
-serão exibidas as informações do(s) IC(s) em gráficos, conforme exemplo 
-ilustrado na figura abaixo:
+3. Después del filtro definido, haga clic en el botón *Actualizar gráficos*. Hecho esto, se mostrará la información del (los) IC 
+(s) en gráficos, como ejemplo ilustrado en la figura abajo:
 
-    ![Gráficos IC](images/ger-disp.img4.png)
+    ![Gráficos IC](images/geren-disp.img4.jpg)
 
-    **Figura 4 - Gráficos de disponibilidade por item de configuração**
+    **Figura 4 - Gráficos de disponibilidad por ítem de configuración**
 
-    - **Disponibilidade por Período**: apresenta a disponibilidade por dia de cada IC,
-    dentro do período informado;
-    - **Disponibilidade Total**: apresenta a disponibilidade total de cada IC, 
-    dentro do período informado;
-    - **Ocorrências de Indisponibilidade**: apresenta as ocorrências de indisponibilidade
-    de cada IC, dentro do período informado;
-    - Para download da tabela de disponibilidade total e/ou ocorrências
-    de indisponibilidade, basta clicar no botão "Salvar tabela" referente;
-    - Para download da imagem ou PDF dos gráficos, basta clicar no 
-    ícone ![icone](images/ger-disp.img14.png) do gráfico referente.
+    - **Disponibilidad para el Período**: presenta la disponibilidad por día de cada IC, dentro del período informado.
+    - **Disponibilidad Total**: presenta la disponibilidad total de cada IC, dentro del período informado.
+    - **Ocurrencia de tiempo de inactividad**: presenta las ocurrencias de indisponibilidad de cada IC, dentro del período 
+    informado.
+    - Para descargar la tabla de disponibilidad total y/o las instancias de indisponibilidad, simplemente haga clic en el botón 
+    *Guardar tabla* correspondiente.
+    - Para descargar la imagen o PDF de los gráficos, basta con hacer clic en el icono![icone](images/simb-menu.jpg) del 
+    gráfico correspondiente.
     
-Verificando a disponibilidade de grupo de item de configuração
+Verificando la disponibilidad de grupo de ítem de configuración
 ----------------------------------------------------------------
 
-1. Na tela de **Gerenciamento de Disponibilidade**, clique em 
-**Grupo de Item de Configuração**. Feito isso, será apresentado o filtro de
-grupo de ICs, conforme ilustrado na figura abaixo:
+1. En la pantalla de **Gerenciamiento de disponibilidad**, haga clic en **Grupo de ítem de configuración**. Hecho esto, se 
+mostrará el filtro de grupo de ICs, como se muestra en la figura siguiente:
 
-    ![Disponibilidade - IC](images/ger-disp.img5.png)
+    ![Disponibilidade - IC](images/geren-disp.img5.jpg)
 
-    **Figura 5 - Gerenciamento de disponibilidade - Item de configuração**
+    **Figura 5 - Gestión de disponibilidad - ítem de configuración**
 
-2. Clique no campo **Grupo Item de Configuração**, será apresenta a tela
-de pesquisa de grupo de ICs. Realize a pesquisa e selecione o grupo de ICs
-desejado. Após isso, o Grupo de ICs será adicionado na tela conforme 
-exemplo ilustrado na figura abaixo:
+2. Haga clic en el campo **Grupo de ítem de configuración**, aparecerá la pantalla de investigación de grupo de IC. Realice la 
+investigación y seleccione el grupo de ICs deseado. Después de eso, el Grupo de ICs será agregado en la pantalla como ejemplo 
+ilustrado en la figura abajo:
 
-    ![Filtros de grupo IC](images/ger-disp.img6.png)
+    ![Filtros de grupo IC](images/geren-disp.img6.jpg)
 
     **Figura 6 - Filtros de grupo de IC**
 
-    !!! warning "ATENÇÃO"
+    !!! warning "ATENCIÓN"
     
-        Pode ser adicionado vários grupos, quantos desejar, para verificação.
+        Se pueden agregar varios grupos, como desee, para la verificación.
         
-3. Após o filtro definido, clique no botão "Atualizar Gráficos". Feito isso,
-serão exibidas as informações do(s) grupo(s) de ICs em gráficos, conforme 
-exemplo ilustrado na figura abaixo:
+3. Después del filtro definido, haga clic en el botón *Actualizar gráficos*. En este caso, se mostrará la información del grupo o 
+grupos de IC en gráficos, como se muestra en la figura siguiente:
 
-    ![Gráficos grupo de IC](images/ger-disp.img7.png)
+    ![Gráficos grupo de IC](images/geren-disp.img7.jpg)
 
-    **Figura 7 - Gráficos de disponibilidade por grupo de IC**
+    **Figura 7 - Gráficos de disponibilidad por grupo de IC**
 
-    - **Disponibilidade por Período**: apresenta a disponibilidade por dia de 
-    cada grupo de ICs, dentro do período informado;
-    - **Disponibilidade Total**: apresenta a disponibilidade total de cada 
-    grupo de ICs, dentro do período informado;
-    - **Ocorrências de Indisponibilidade**: apresenta as ocorrências de 
-    indisponibilidade de cada grupo de ICs, dentro do período informado;
-    - Para download da tabela de disponibilidade total e/ou ocorrências de
-    indisponibilidade, basta clicar no botão "Salvar tabela" referente;
-    - Para download da imagem ou PDF dos gráficos, basta clicar no 
-    ícone ![icone](images/ger-disp.img14.png) do gráfico referente.
+    - **Disponibilidad para el Período**: presenta la disponibilidad por día de cada grupo de ICs, dentro del período informado.
+    - **Disponibilidad Total**: presenta la disponibilidad total de cada grupo de ICs, dentro del período informado.
+    - **Ocurrencia de tiempo de inactividad**: presenta las ocurrencias de indisponibilidad de cada grupo de ICs, dentro del 
+    período informado.
+    - Para descargar la tabla de disponibilidad total y/o las instancias de indisponibilidad, simplemente haga clic en el botón 
+    Guardar tabla correspondiente.
+    - Para descargar la imagen o PDF de los gráficos, basta con hacer clic en el icono ![icone](images/simb-menu.jpg)  del 
+    gráfico correspondiente.
 
-Verificando a disponibilidade de grupo de disponibilidade
------------------------------------------------------------
+Verificación de la disponibilidad de grupo de disponibilidad
+----------------------------------------------------------------
 
-1. Na tela de **Gerenciamento de Disponibilidade**, clique em **Grupo de 
-Disponibilidade**. Feito isso, será apresentado o filtro de grupo de 
-disponibilidade, conforme ilustrado na figura abaixo:
+1. En la pantalla de **Gerenciamiento de disponibilidad** haga clic en *Grupo de disponibilidad*. Hecho esto, se mostrará el 
+filtro de grupo de disponibilidad, como se muestra en la figura siguiente:
 
-    ![Grupo de disponibilidade](images/ger-disp.img8.png)
+    ![Grupo de disponibilidade](images/geren-disp.img8.jpg)
 
-    **Figura 8 - Gerenciamento de disponibilidade - Grupo de disponibilidade**
+    **Figura 8 - Gestión de disponibilidad - Grupo de disponibilidad**
 
-2. Clique no campo **Grupo de Disponibilidade**, será apresenta a tela 
-de pesquisa de grupo de disponibilidade. Realize a pesquisa e selecione
-o grupo de disponibilidade desejado. Após isso, o grupo de disponibilidade
-será adicionado na tela conforme exemplo ilustrado na figura abaixo:
+2. Haga clic en el campo *Grupo de disponibilidad*, aparecerá la pantalla de investigación de grupo de disponibilidad. Realice la 
+investigación y seleccione el grupo de disponibilidad deseado. Después de eso, el grupo de disponibilidad será agregado en la 
+pantalla como ejemplo ilustrado en la figura abajo:
 
-    ![Filtros grupos](images/ger-disp.img9.png)
+    ![Filtros grupos](images/geren-disp.img9.jpg)
 
-    **Figura 9 - Filtros de grupo de disponibilidade**
+    **Figura 9 - Filtros de grupo de disponibilidad**
 
-    !!! warning "ATENÇÃO"
+    !!! warning "ATENCIÓN"
     
-        Pode ser adicionado vários grupos, quantos desejar, para verificação.
+        Se pueden agregar varios grupos, como desee, para la verificación.
        
-3. Após o filtro definido, clique no botão "Atualizar Gráficos". Feito isso, 
-serão exibidas as informações do(s) grupo(s) de disponibilidade em gráficos,
-conforme exemplo ilustrado na figura abaixo:
+3. Después del filtro definido, haga clic en el botón *Actualizar gráficos*. En este caso, se mostrará la información del grupo o 
+grupos de disponibilidad en gráficos, como se muestra en la figura siguiente:
 
-    ![Gráficos grupos de disponibilidade](images/ger-disp.img10.png)
+    ![Gráficos grupos de disponibilidade](images/geren-disp.img10.jpg)
 
-    **Figura 10 - Gráficos de disponibilidade por grupo de disponibilidade**
+    **Figura 10 - Gráficos de disponibilidad por grupo de disponibilidad**
 
-    - **Disponibilidade por Período**: apresenta a disponibilidade por dia 
-    de cada grupo de disponibilidade, dentro do período informado;
-    - **Disponibilidade Total** : apresenta a disponibilidade total de cada
-    grupo de disponibilidade, dentro do período informado; 
-    - **Ocorrências de Indisponibilidade**: apresenta as ocorrências de 
-    indisponibilidade de cada grupo de disponibilidade, dentro do período
+    - **Disponibilidad para el Período**: presenta la disponibilidad por día de cada grupo de disponibilidad, dentro del período 
     informado;
-    - Para download da tabela de disponibilidade total e/ou ocorrências de 
-    indisponibilidade, basta clicar no botão "Salvar tabela" referente;
-    - Para download da imagem ou PDF dos gráficos, basta clicar no 
-    ícone ![icone](images/ger-disp.img14.png)  do gráfico referente.
+    - **Disponibilidad Total**: presenta la disponibilidad total de cada grupo de disponibilidad, dentro del período informado;
+    - **Ocurrencias de tiempo de inactividad**: presenta las ocurrencias de indisponibilidad de cada grupo de disponibilidad, 
+    dentro del período informado;
+    - Para descargar la tabla de disponibilidad total y/o las instancias de indisponibilidad, simplemente haga clic en el botón 
+    *Guardar tabla* correspondiente;
+    - Para descargar la imagen o PDF de los gráficos, basta con hacer clic en el icono ![icone](images/simb-menu.jpg) del 
+    gráfico correspondiente.
 
-Verificando a disponibilidade de serviço
--------------------------------------------
+Verificación de la disponibilidad de servicio
+----------------------------------------------
 
-1. Na tela de **Gerenciamento de Disponibilidade**, clique em **Serviço**. 
-Feito isso, será apresentado o filtro de serviço, conforme ilustrado
-na figura abaixo:
+1. En la pantalla de **Gerenciamiento de disponibilidad**, haga clic en *Servicio*. Hecho esto, se mostrará el filtro de 
+servicio, como se muestra en la figura siguiente:
 
-    ![Serviço](images/ger-disp.img11.png)
+    ![Servicio](images/geren-disp.img11.jpg)
 
-    **Figura 11 - Gerenciamento de disponibilidade - Serviço**
+    **Figura 11 - Gestión de disponibilidad - Servicio**
 
-2. Clique no campo **Serviço**, será apresenta a tela de pesquisa de serviços.
-Realize a pesquisa e selecione o serviço desejado. Após isso, o serviço 
-será adicionado na tela conforme exemplo ilustrado na figura abaixo:
+2. Haga clic en el campo **Servicio**, aparecerá la pantalla de investigación de servicios. Realice la investigación y seleccione 
+el servicio deseado. Después de eso, el servicio será agregado en la pantalla como ejemplo ilustrado en la figura abajo:
 
-    ![Filtros serviço](images/ger-disp.img12.png)
+    ![Filtros serviço](images/geren-disp.img12.jpg)
     
-    **Figura 12 - Filtros de serviço**
+    **Figura 12 - Filtros de servicio**
 
-    !!! warning "ATENÇÃO"
+    !!! warning "ATENCIÓN"
     
-        Pode ser adicionado vários serviços, quantos desejar, para verificação.
+        Se pueden agregar varios servicios, como desee, para la verificación.
        
-3. Após o filtro definido, clique no botão "Atualizar Gráficos". 
-Feito isso, serão exibidas as informações do(s) Serviço(s) em gráficos,
-conforme exemplo ilustrado na figura abaixo:
+3. Después del filtro definido, haga clic en el botón *Actualizar gráficos*. Hecho esto, se mostrará la información del (s) 
+Servicio (s) en gráficos, como ejemplo ilustrado en la figura abajo:
 
-    ![Gráficos serviços](images/ger-disp.img13.png)
+    ![Gráficos serviços](images/geren-disp.img13.jpg)
 
-    **Figura 13 - Gráficos de disponibilidade por serviço**
+    **Figura 13 - Gráficos de disponibilidad por servicio**
 
-    - **Disponibilidade por Período**: apresenta a disponibilidade por 
-    dia de cada serviço, dentro do período informado;
-    - **Disponibilidade Total**: apresenta a disponibilidade total de cada 
-    serviço, dentro do período informado;
-    - **Ocorrências de Indisponibilidade**: apresenta as ocorrências de 
-    indisponibilidade de cada serviço, dentro do período informado;
-    - Para download da tabela de disponibilidade total e/ou ocorrências de 
-    indisponibilidade, basta clicar no botão "Salvar tabela" referente;
-    - Para download da imagem ou PDF dos gráficos, basta clicar no
-    ícone ![icone](images/ger-disp.img14.png) do gráfico referente.
+    - **Disponibilidad para el Período**: presenta la disponibilidad por día de cada servicio, dentro del período informado;
+    - **Disponibilidad Total**: presenta la disponibilidad total de cada servicio, dentro del período informado;
+    - **Ocurrencias de tiempo de inactividad**: presenta las ocurrencias de indisponibilidad de cada servicio, dentro del período 
+    informado;
+    - Para descargar la tabla de disponibilidad total y/o ocurrencias de indisponibilidad, basta con hacer clic en el botón 
+    *Guardar tabla* correspondiente;
+    - Para descargar la imagen o PDF de los gráficos, basta con hacer clic en el icono ![icone](images/simb-menu.jpg) del gráfico 
+    correspondiente.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/10/2019 – Larissa Lourenço
+    <b>Updated:</b>09/18/2019 – Larissa Lourenço
