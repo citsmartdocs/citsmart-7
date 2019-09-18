@@ -16,7 +16,7 @@ Preconditions
 
 2.  You have enabled the parameter below (see knowledge [Parameterization rules - Smart Portal][2]):
 
--   Parameter 298: "Y".
+    - Parameter 298: "Y".
 
 Filters
 -------
@@ -25,17 +25,17 @@ Filters
     items in the standard feature listing, making it easier to find the desired
     items:
 
--   Search;
+    - Search;
 
--   Situation;
+    - Situation;
 
--   Sort by;
+    - Sort by;
 
--   Order.
+    - Order.
 
-![figure](images/verifi.img1.jpg)
+    ![figure](images/verifi.img1.jpg)
 
-**Figure 1 - Occurrences search screen**
+    **Figure 1 - Occurrences search screen**
 
 Items list
 ----------
@@ -65,15 +65,15 @@ Checking the occurrences
 1.  Click the icon ![figure](images/simb-3linhas.jpg) desired request. Once this is done,
     the **Occurrences** screen will be displayed, as shown in the figure below:
 
-![figure](images/verifi.img3.jpg)
+    ![figure](images/verifi.img3.jpg)
 
-**Figure 3 - Occurrences screen**
+    **Figure 3 - Occurrences screen**
 
-!!! note "NOTE"
+    !!! note "NOTE"
 
-    Only the last 10 occurrences of the request are displayed.
+        Only the last 10 occurrences of the request are displayed.
 
-1.  To check the details of the occurrence, click on the icon ![figure](images/simb-mais.green.jpg) .
+2.  To check the details of the occurrence, click on the icon ![figure](images/simb-mais.green.jpg) .
 
 
 

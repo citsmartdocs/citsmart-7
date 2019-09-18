@@ -14,7 +14,7 @@ Preconditions
 
 1.  Have the portfolio with the services and request / incident activities
     registered and made available in the Smart Portal (see knowledge [Service
-    portfolio registration][1]); [Service registration][2]); [Service
+    portfolio registration][1]; [Service registration][2]; [Service
     activity registration][3]);
 
 2.  Have knowledge related to the service (see knowledge [Service attributes
@@ -47,9 +47,9 @@ Verifying the knowledge related to the services
     knowledge related to the services and activities (request/incident) of the
     catalog, as shown in the figure below:
 
-   ![figure](images/ver-conh.img1.jpg)
+    ![figure](images/ver-conh.img1.jpg)
    
-   **Figure 1 - Knowledge related to catalog services**
+    **Figure 1 - Knowledge related to catalog services**
 
 3.  To check the knowledge of a particular service, click the **Services** tab,
     select the service you want and then click on the **Knowledge** tab.
@@ -61,6 +61,7 @@ Verifying the knowledge related to the services
 
 **Figure 2 - Service-related knowledge**
 
+!!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
     <b>Updated:</b>09/03/2019 - Anna Martins

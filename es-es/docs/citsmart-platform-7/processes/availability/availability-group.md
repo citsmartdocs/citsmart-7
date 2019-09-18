@@ -1,105 +1,93 @@
-title: Cadastro e pesquisa de grupo de disponibilidade
-Description: Esta funcionalidade tem por objetivo agrupar itens de configuração para gerar índice de disponibilidades.
-# Cadastro e pesquisa de grupo de disponibilidade
+title: Registro y consulta del grupo de disponibilidad
+Description: Esta funcionalidad tiene por objetivo agrupar ítems de configuración para generar índice de disponibilidad.
+# Registro y consulta del grupo de disponibilidad
 
-Esta funcionalidade tem por objetivo agrupar itens
-de configuração para gerar índice de disponibilidades.
+Esta funcionalidad tiene por objetivo agrupar ítems de configuración para generar índice de disponibilidad.
 
-Como acessar
+Cómo acceder
 ---------------
 
-1. Acesse a funcionalidade de grupo de disponibilidade através da navegação no menu principal 
-**Processos ITIL > Gerência de Disponibilidade > Grupo de Disponibilidade**.
+1. Acceda a la funcionalidad de grupo de disponibilidad mediante la navegación en el menú principal **Procesos ITIL > Gestión de Disponibilidad > Grupo de Disponibilidad**.
 
-Pré-condições
+Condiciones previas
 --------------
 
-1. Cadastrar calendário (ver conhecimento [Cadastro e pesquisa de calendário](/pt-br/citsmart-platform-7/plataform-administration/time/create-calendar)).
+1. Registro de calendario (ver conocimiento [Registro y consulta de calendario](/es-es/citsmart-platform-7/plataform-administration/time/create-calendar)).
 
 Filtros
 ----------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação 
-de itens na listagem padrão da funcionalidade, facilitando a 
-localização dos itens desejados:
+1. El siguiente filtro permite al usuario restringir la participación de ítems en el listado default de la funcionalidad, 
+facilitando la localización de los ítems deseados:
 
-    - Nome.
+    - Nombre.
  
- 2. Na tela de **Grupo de Disponibilidade**, clique na aba **Pesquisa**.
- Será apresentada a tela de pesquisa conforme ilustrada na figura abaixo:
+ 2. En la pantalla de **Grupo de disponibilidad**, haga clic en la pestaña Búsqueda. Se mostrará la pantalla de búsqueda como se 
+ muestra en la figura siguiente:
  
-     ![Grupo disponibilidade](images/grupo-disponibilidade.img01.png)
+     ![Grupo disponibilidade](images/grupo.img1.jpg)
      
-     **Figura 1 - Tela de pesquisa de grupo de disponibilidade**
+     **Figura 1 - Pantalla de consulta de grupo de disponibilidad**
  
- 3. Realize a pesquisa de grupo de disponibilidade;
+ 3. Realice la búsqueda de grupo de disponibilidad;
  
-     - Informe o nome do grupo de disponibilidade que deseja pesquisar
-     e clique no botão "Pesquisar". Após isso, será exibido o registro do
-     grupo de disponibilidade conforme o nome informado;
+     - Introduzca el nombre del grupo de disponibilidad que desea buscar y haga clic en el botón *Consultar*. Después de eso, se 
+     mostrará el registro del grupo de disponibilidad según el nombre informado;
      
-     - Caso deseje listar todos os registros de grupo de disponibilidade, 
-     basta clicar diretamente no botão "Pesquisar".
+     - Si desea listar todos los registros de grupo de disponibilidad, simplemente haga clic directamente en el botón 
+     *Consultar*.
      
-Listagem de itens
+Listado de ítems
 -------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar
-a identificação dos itens desejados na listagem padrão da funcionalidade:
-**Nome** e **Acordo de disponibilidade (percentual)**.
+1. El(Los) siguiente (s) campo (s) de registro está (n) disponible (s) para facilitar al usuario la identificación de los 
+elementos deseados en el listado default de la funcionalidad: **Nombre** y **Acuerdo de disponibilidad (percentual)**.
 
-    ![Tela de listagem](images/grupo-disponibilidade.img02.png)
+    ![Tela de listagem](images/grupo.img2.jpg)
     
-    **Figura 2 - Tela de listagem de grupo de disponibilidade**
+    **Figura 2 - Pantalla de lista de grupos de disponibilidad**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será 
-direcionado para a tela de cadastro exibindo o conteúdo referente
-ao registro selecionado;
+2. Después de la búsqueda, seleccione el registro deseado. Hecho esto, será dirigido a la pantalla de registro exhibiendo el 
+contenido referente al registro seleccionado;
 
-3. Para alterar os dados do registro de grupo de disponibilidade, basta modificar
-as informações dos campos desejados e clicar no botão "Gravar" para que seja gravada
-a alteração realizada no registro, onde a data, hora e usuário serão gravados
-automaticamente para uma futura auditoria.
+3. Para cambiar los datos del registro de grupos de disponibilidad, basta con modificar la información de los campos deseados y 
+hacer clic en el botón *Grabar* para que se grabe el cambio realizado en el registro, donde la fecha, hora y usuario serán 
+grabados automáticamente para una futura auditoría.
 
-Preenchimento dos campos cadastrais
+Completar los campos de registro
 -------------------------------------
 
-1. Será apresentada a tela de Cadastro de **Grupo de Disponibilidade**, 
-conforme ilustrada na figura abaixo:
+1. Se mostrará la pantalla de registro de **Grupo de Disponibilidad**, como se muestra en la figura siguiente:
 
-    ![Tela de cadastro](images/grupo-disponibilidade.img03.png)
+    ![Tela de cadastro](images/grupo.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de grupo de disponibilidade**
+    **Figura 3 - Pantalla de registro de grupo de disponibilidad**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Complete los campos según las instrucciones a continuación:
 
-    - **Nome**: informe o nome do grupo de disponibilidade;
-    - **Calendário**: informe o calendário do grupo de disponibilidade;
-    - **Custo por hora de indisponibilidade**: informe o custo da hora de 
-    indisponibilidade do grupo;
-    - **Acordo de Disponibilidade (percentual)**: informe o percentual de
-    disponibilidade acordado;
-    - **Itens de Configuração**: adicione os itens de configuração para
-    o grupo de disponibilidade.
+    - **Nombre**: introduzca el nombre del grupo de disponibilidad;
+    - **Calendario**: informe el calendario del grupo de disponibilidad;
+    - **Costo por hora de indisponibilidad**: informe el costo de la hora de indisponibilidad del grupo;
+    - **Acuerdo de Disponibilidad (porcentual)**: informe el porcentaje de disponibilidad acordado;
+    - **Ítems de configuración**: agregue los ítems de configuración al grupo de disponibilidad:
     
-3. Clique no botão "Pesquisar Item de Configuração", será apresentada a tela de pesquisa
-de IC, realize a pesquisa e selecione o IC. Feito isso, o IC será adicionado
-ao grupo, conforme exemplo ilustrado na figura abaixo:
+3. Haga clic en el botón *Búsqueda de ítems de configuración*, aparecerá la pantalla de búsqueda de IC, realice la búsqueda y 
+seleccione el IC. Hecho esto, el IC será agregado al grupo, como ejemplo ilustrado en la figura abajo:
 
-    ![Tela de pesquisa](images/grupo-disponibilidade.img04.png)
+    ![Tela de pesquisa](images/grupo.img4.jpg)
     
-    **Figura 4 - Pesquisa item de configuração**  
+    **Figura 4 - Búsqueda de ítems de configuración**  
     
-4. Para verificar as informações do IC, basta clicar no botão "Visualizar" do mesmo;
+4. Para comprobar la información del IC, basta con hacer clic en el botón *Ver* del mismo;
 
-    ![Detalhamento](images/grupo-disponibilidade.img05.png)
+    ![Detalhamento](images/grupo.img5.jpg)
     
-    **Figura 5 - Detalhamento de item de configuração**
+    **Figura 5 - Detalle de ítem de configuración**
     
-5. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário 
-serão gravados automaticamente para uma futura auditoria.
+5. Haga clic en el botón *Grabar* para registrar, donde la fecha, la hora y el usuario se guardarán automáticamente para una 
+futura auditoría;
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/10/2019 – Larissa Lourenço
+    <b>Updated:</b>09/18/2019 – Larissa Lourenço
