@@ -21,7 +21,7 @@ Preconditions
 3.  Have set the parameter bellow (see knowledge [Parameterization rules - Smart
     Portal][2]):
 
-   - Parameter 253.
+   - Parameter 253.  
 
 Filters
 -------
