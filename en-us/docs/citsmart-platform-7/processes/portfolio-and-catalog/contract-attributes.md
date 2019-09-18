@@ -66,8 +66,7 @@ Configuring contract attributes
 5.  Click **Contract** and then click the *Advance* button in the service
     contract to access it.
 
--   The following items will be discussed on "how to" configure contract
-    attributes.
+    - The following items will be discussed on "how to" configure contract attributes.
 
 ### Filters
 
