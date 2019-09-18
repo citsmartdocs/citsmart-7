@@ -1,37 +1,35 @@
-title: Módulo Gerenciamento de Disponibilidade
-Description: O Gerenciamento de Disponibilidade é o processo responsável por garantir que os serviços de TI 
-# Módulo Gerenciamento de Disponibilidade
+title: Módulo Gestión de Disponibilidad
+Description: La gestión de disponibilidad es el proceso responsable de asegurar que los servicios de TI 
+# Módulo Gestión de Disponibilidad
 
-Objetivo do módulo
----------------------
+Objetivos del módulo
+-----------------------
 
-O Gerenciamento de Disponibilidade é o processo responsável por garantir que os serviços de TI 
-atendam às necessidades atuais e futuras de disponibilidade do negócio de uma maneira mais 
-efetiva com custo adequado. O mesmo garante que todos os processos, infraestruturas, ferramentas,
-papéis, etc. de TI sejam adequados para as metas de nível de serviço acordadas para disponibilidade.
+La gestión de disponibilidad es el proceso responsable de asegurar que los servicios de TI estén disponibles en conformidad con 
+las necesidades del negocio, actuales y futuras, de una manera más rentable. Esta gestión se encarga de asegurar que la 
+infraestructura, los procesos, las herramientas, los roles, etc. de TI sean adecuados para cumplir con los objetivos de 
+disponibilidad acordados.
 
-O principal objetivo do Gerenciamento da Disponibilidade é o fornecimento de um determinado nível de
-disponibilidade dos serviços de TI, proporcionando ao cliente atingir seus objetivos
-com eficiência de custo.
+El objetivo principal de la Gestión de Disponibilidad es proporcionar un cierto nivel de disponibilidad de servicios de TI, 
+permitiendo que el cliente alcanzar sus objetivos con la mejor relación costo-beneficio.
 
-Esta funcionalidade tem por objetivo verificar a disponibilidade de ICs, disponibilidade do 
-Grupo de ICs,disponibilidade do Grupo de Disponibilidade e disponibilidade do 
-Serviço de Negócio.
+Esta funcionalidad tiene como objetivo verificar la disponibilidad de los ICs, la disponibilidad del Grupo ICs, la Disponibilidad 
+del Grupo Disponibilidad y la Disponibilidad del Servicio de Negocio.
 
-Onde estão suas funcionalidades
+Donde están sus funcionalidades
 ---------------------------------
 
-Acesse o menu principal **Processos ITIL > Gerência de Disponibilidade**.
+1. Para acceder a la funcionalidad, haga clic en el menú principal **Procesos ITIL > Gestión de Disponibilidad**.
 
-![Menu](images/modulo-disp.png)
+![Menu](images/modulo.img1.jpg)
 
-**Figura 1 - Menu do módulo gerência de disponibilidade**
+**Figura 1 - Menú del módulo de gestión de disponibilidad**
 
-Principal funcionalidade (em destaque)
+Principal funcionalidad (en destaque)
 ----------------------------------------
 
-Na seção "Veja também" é possível acessar a(s) funcionalidade(s)
-principal(is) deste módulo, desta forma se pode obter um conhecimento mais detalhado.
+En la sección Véase también es posible acceder a la (s) funcionalidad (es) principal (es) de este módulo, para obtener un 
+conocimiento más detallado.
 
 Veja também
 -------------
