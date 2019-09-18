@@ -256,7 +256,7 @@ Description: Here you have the answers to the most common questions when talking
 
     To set the default group for 1st level attendance, proceed as follows:
     
-    1. Access the Group Registration feature by navigating in the main menu Access and Permission → Group. The group registration screen will be displayed, displaying the contracts;
+    1. Access the Group Registration feature by navigating in the main menu Access and Permission > Group. The group registration screen will be displayed, displaying the contracts;
     
     2. Make the registration of the group of 1st level, if not registered, and proceed with the completion of the fields;
     
@@ -285,7 +285,7 @@ Description: Here you have the answers to the most common questions when talking
  
     To carry out this design, proceed as follows (see knowledge [Service attributes configuration](/en-us/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html))
     
-    1. Access the Service Map Design feature for the Business Service Portfolio and Catalog Management** > Portfolio and Catalog Management > Support Menu > Advanced Portfolio > Service Catalog > Next Service > Service Map;
+    1. Access the Service Map Design feature for the Business Service Portfolio and Catalog Management > Portfolio and Catalog Management > Support Menu > Advanced Portfolio > Service Catalog > Next Service > Service Map;
     
     2. The screen for designing the assets that make up the business service will be presented;
     
