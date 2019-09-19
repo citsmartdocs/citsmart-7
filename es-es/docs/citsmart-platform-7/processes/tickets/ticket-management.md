@@ -52,17 +52,17 @@ La siguiente pantalla muestra la pantalla principal del módulo tickets:
     lista de tickets; el conjunto de columnas definidas permanece incluso
     después de cerrar la sesión del usuario);
 
--   **12: Listado - filtra la vista de ticket por lista;
+-   **12: Listado** - filtra la vista de ticket por lista;
 
--   **13: Por assistente - filtra el modo de visualización de ticket por
+-   **13: Por assistente** - filtra el modo de visualización de ticket por
     empleado en modo kanban;
 
--   **14: Por situación - filtra la vista de ticket por situación SLA. Para
+-   **14: Por situación** - filtra la vista de ticket por situación SLA. Para
     que esta opción sea visible es necesario habilitar el permiso de acceso para
     el usuario entrante, marque el ítem "Gestión del equipo". (ver
     conocimiento *Permiso de acceso de Gestión de Tickets*)
 
--   **15: Por estado del flujo - filtra la vista de ticket por estado del
+-   **15: Por estado del flujo** - filtra la vista de ticket por estado del
     flujo;
 
 -   **16**: Haga clic para capturar y ser responsable del ticket;
