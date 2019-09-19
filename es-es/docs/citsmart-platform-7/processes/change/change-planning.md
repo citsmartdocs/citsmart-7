@@ -1,334 +1,339 @@
-title: Planejamento de requisição de mudança
-Description: Esta funcionalidade permite realizar o planejamento de execução da requisição de mudança.
-# Planejamento de requisição de mudança
+title: Planeamiento de solicitud de cambios
+Description: Esta funcionalidad permite realizar la planificación de ejecución de la solicitud de cambio.
+# Planeamiento de solicitud de cambios
 
-Esta funcionalidade permite realizar o planejamento de execução da requisição de mudança.
+Esta funcionalidad permite realizar la planificación de ejecución de la solicitud de cambio.
 
-Pré-condições
----------------
+Condiciones previas
+-----------------------
 
-1. Ter cadastrado uma requisição de mudança (ver conhecimento [Cadastro de requisição de mudança](/pt-br/citsmart-platform-7/processes/change/register-change.html)).
+1. Se ha registrado una solicitud de cambio (ver conocimiento [Registro de solicitud de cambio](/es-es/citsmart-platform-7/processes/change/register-change.html)).
 
-Planejando requisições de mudança
------------------------------------
+Planificación de requisitos de cambio
+-------------------------------------------
 
 !!! note "NOTA"
 
-    Somente as Requisições de Mudança do tipo "Normal" são planejadas.
+    Sólo se planifican las solicitudes de cambio de tipo "normal".
     
-1. Acesse a funcionalidade de planejamento de requisição de mudança através da navegação no menu principal 
-**Processos ITIL > Gerência de Mudança > Gerenciamento de Mudança**.
+1. Acceda a la funcionalidad de planificación de solicitud de cambio a través de la navegación en el menú principal 
+**Procesos ITIL > Gestión de Cambios > Gestión del Cambio**.
 
-2. Na guia **Gerenciamento**, localize a requisição de mudança que deseja registrar o planejamento, clique no botão
-"Ação" da mesma e logo em seguida em "Criar Atividade" conforme indicado na figura abaixo:
+2. En la ficha Administración, busque la solicitud de cambio que desea registrar la planificación, haga clic en el botón Acción 
+de la misma y luego en *Crear actividad* como se indica en la figura siguiente:
 
-    ![Planejar](images/planej-mud.img1.png)
+    ![Planejar](images/plan.img1.jpg)
     
-    **Figura 1 - Planejar execução da requisição de mudança**
+    **Figura 1 - Planear la ejecución de la solicitud de cambio**
     
-3. Será apresentada a tela abaixo:
+3. Se mostrará la siguiente pantalla:
 
-    ![Lista](images/planej-mud.img2.png)
+    ![Lista](images/plan.img2.jpg)
     
-    **Figura 2 - Lista de atividades**
+    **Figura 2 - Lista de actividades**
     
-    - Para remover uma atividade da lista de atividades, basta clicar no botão "Excluir";
-    - Para editar as informações da atividade, basta clicar no botão "Editar";
-    - Para executar uma atividade, basta clicar no botão "Executar", será apresentada a tela abaixo:
+    - Para eliminar una actividad de la lista de actividades, simplemente haga clic en el botón *Eliminar*;
+    - Para editar la información de la actividad, basta con hacer clic en el botón *Editar*;
+    - Para realizar una actividad, basta con hacer clic en el botón *Ejecutar*, aparecerá la siguiente pantalla:
     
-    ![Execução](images/planej-mud.img3.png)
+    ![Execução](images/plan.img3.jpg)
     
-    **Figura 3 - Tela de execução de atividade**
+    **Figura 3 - Pantalla de ejecución de actividad**
     
     !!! info "IMPORTANTE"
     
-        O responsável pela atividade deve preencher as informações de execução da atividade.
+        El responsable de la actividad debe rellenar la información de ejecución de la actividad.
         
-    - **Situação**: selecione a situação da atividade, para facilitar o gerenciamento da mudança;
-    - Clique no botão "Orientações técnicas" para visualizar o que foi informado da descrição da requisição de mudança;
-    - **Detalhamento**: informe os detalhes sobre a execução da atividade;
-    - **Data/Hora Início Execução**: informe a data e o horário de início da execução da atividade;
-    - **Data/Hora Fim Execução**: informe a data e o horário de término da execução da atividade;
-    - Para anexar um arquivo à atividade, informe a descrição do anexo, clique no botão "Adicionar Arquivo", e selecione
-    o arquivo que desejar;
-    - Clique no botão "Executar" para salvar as informações preenchidas referente a atividade.
+    - **Situación**: seleccione la situación de la actividad, para facilitar la gestión del cambio;
+    - Haga clic en el botón Orientaciones técnicas para ver lo que se ha informado de la descripción de la solicitud de cambio;
+    - **Detallamiento**: informe los detalles sobre la ejecución de la actividad;
+    - **Fecha/Hora Inicial Ejecución**: informe la fecha y el horario de inicio de la ejecución de la actividad;
+    - **Fecha/Hora Final Ejecución**: informe la fecha y el horario de finalización de la ejecución de la actividad;
+    - Para adjuntar un archivo a la actividad, introduzca la descripción del archivo adjunto, haga clic en el botón Agregar 
+    archivo y seleccione el archivo que desee;
+    - Haga clic en el botón Ejecutar para guardar la información rellenada referente a la actividad.
     
-4. Para remover todas as atividades da lista de atividades, basta clicar no botão "Remover todas atividades";
+4. Para eliminar todas las actividades de la lista de actividades, basta con hacer clic en el botón *Eliminar todas las 
+actividades*;
 
-5. Para importar atividades a partir de um arquivo padrão MS Project, basta clicar no botão "Importar MS Project" 
-(acessar seção "Importando Cronogramas MS-Project para Atividades de Mudança" neste conhecimento);
+5. Para importar actividades desde un archivo default de MS Project, simplemente haga clic en el botón *Importar MS Project* 
+(acceder a la sección *Importación de Cronogramas MS-Project para Actividades de cambio* en este conocimiento);
 
-6. Para cadastrar as atividades manualmente, clique em "Adicionar", será apresentada a tela para cadastrar a atividade:
+6. Para registrar las actividades manualmente, haga clic en *Agregar*, aparecerá la pantalla para registrar la actividad:
 
-    ![Atividade](images/planej-mud.img4.png)
+    ![Atividade](images/plan.img4.jpg)
     
-    **Figura 4 - Adicionar atividade**
+    **Figura 4 - Añadir la actividad**
     
-    - **Atividade**: informe o nome da atividade;
+    - **Actividad**: informe el nombre de la actividad;
 
-    - **Responsável**: informe o responsável pela atividade;
+    - **Responsable**: informe al responsable de la actividad;
 
-    - **Situação**: este campo será preenchido de acordo com a andamento da atividade;
+    - **Situación**: este campo será rellenado de acuerdo con la marcha de la actividad;
 
-    - **Data/Hora Início**: informe a data e hora planejada para início da execução da atividade;
+    - **Fecha/Hora Inicial**: informe la fecha y hora planificadas para iniciar la ejecución de la actividad;
 
-    - **Data/Hora Fim**: informe a data e hora planejada para o fim da execução da atividade;
+    - **Fecha/Hora Final**: informe la fecha y hora planificada para el fin de la ejecución de la actividad;
 
-    - **Tempo estimado (minutos)**: informe o prazo planejado para execução da atividade, em minutos.
+    - **Tiempo estimado (minutos)**: informe el plazo plan para la ejecución de la actividad, en minutos.
 
-Importando cronogramas MS-Project para atividades de mudança
---------------------------------------------------------------
+Importación de conogramas MS-Project para actividades de cambio
+-------------------------------------------------------------------
 
-1. Na "Lista de Atividades" é possível cadastrar as atividades manualmente ou utilizando o aplicativo Microsoft Project;
+1. En la "Lista de Actividades" es posible registrar las actividades manualmente o utilizando la aplicación Microsoft Project;
 
-    - Para importar atividades cadastradas no aplicativo Microsoft Project, clique em "Importar MS Project";
-        - Será apresentada a tela para importar o arquivo MS Project:
+    - Para importar actividades registradas en la aplicación de Microsoft Project, haga clic en *Importar MS Project*;
+        - Se mostrará la pantalla para importar el archivo de MS Project:
         
-    ![MSProject](images/planej-mud.img5.png)
+    ![MSProject](images/plan.img5.jpg)
     
     **Figura 5 - Importar MS Project**
     
-    - Clique no botão "Escolher arquivo". Será apresentada uma janela, onde poderá selecionar o arquivo desejado;
-    - Selecione o arquivo;
-    - Informe a descrição do arquivo e clique no botão "Adicionar";
-    - Após adição do arquivo, clique no botão Importar e confirme a execução da importação.
+    - Haga clic en el botón *Elegir el archivo*. Se mostrará una ventana, donde podrá seleccionar el archivo deseado;
+    - Seleccione el archivo;
+    - Introduzca la descripción del archivo y haga clic en el botón *Agregar*;
+    - Después de agregar el archivo, haga clic en el botón *Importar* y confirme la ejecución de la importación.
 
-Anexando plano reversão
---------------------------
+Anexando plan de reversa (back-out)
+----------------------------------------
 
-1. Na tela de listagem de **Gerenciamento de Mudanças > botão Ação > Iniciar/Executar tarefa**;
+1. En la pantalla de lista de Gestión de Cambios → Botón Acción → Iniciar/Ejecutar tarea;
 
-    ![Gerenciamento](images/planej-mud.img6.png)
+    ![Gerenciamento](images/plan.img6.jpg)
     
-    **Figura 6 - Tela de gerenciamento de mudanças**
+    **Figura 6 - Pantalla de gestión de cambios**
     
-2. Informe o plano de reversão da mudança, clicando ao lado direito da tela de requisição de mudança, na opção **Plano
-Reversão**;
+2. Informe el plan de reversa del cambio, haciendo clic en el lado derecho de la pantalla de solicitud de cambio, en la opción 
+**Plan de Reversión**;
 
-    ![Plano de reversão](images/planej-mud.img7.png)
+    ![Plano de reversão](images/plan.img7.jpg)
     
-    **Figura 7 - Seleção de plano de reversão**
+    **Figura 7 - Selección de plan de reversión**
     
-3. Será apresentada a tela de anexos de plano de reversão, conforme ilustrada na figura abaixo:
+3. Se mostrará la pantalla de datos adjuntos de plan de reversión, como se presenta en la figura siguiente:
 
-    ![Anexos](images/planej-mud.img8.png)
+    ![Anexos](images/plan.img8.jpg)
     
-    **Figura 8 - Tela de anexos de plano de reversão**
+    **Figura 8 - Pantalla de datos adjuntos de plan de reversión**
     
-    - Clique no botão "Escolher arquivo". Será apresentada uma janela, onde poderá selecionar o arquivo (plano de reversão);
-    - Selecione o arquivo, informe a descrição e a versão do arquivo. Feito isso, clique no botão "Adicionar".
+    - Haga clic en el botón *Seleccionar archivo*. Se mostrará una ventana, donde podrá seleccionar el archivo (back-out);
+    - Seleccione el archivo, introduzca la descripción y la versión del archivo. Haga clic en el botón *Agregar*.
     
-Lista de projetos
-------------------
+Lista de proyectos
+----------------------
 
-1. Na tela de listagem de **Gerenciamento de Mudanças > botão Ação > Iniciar/Executar tarefa**;
+1. En la pantalla de lista de **Gestión del Cambio > Botón Acciones > Iniciar/Ejecutar tarea**;
 
-2. Na guia "Planejamento", clique no ícone ![simbolo](images/simb-mais.cinza.png) ;
+2. En la ficha "Planificación", haga clic en el icono ![simbolo](images/simb-mais.cinza.jpg);
 
-3. Clique em Adicionar:
+3. Haga clic en *Agregar*:
 
-    ![Projeto](images/planej-mud.img9.png)
+    ![Projeto](images/plan.img9.jpg)
     
-    **Figura 9 - Adicionar projeto à requisição de mudança**
+    **Figura 9 - Agregar proyecto a la solicitud de cambio**
     
-    - Informe o(s) Projeto(s) vinculado(s) à requisição de mudança;
-    - Será apresentada a janela para cadastrar e pesquisar projeto;
-    - Na tela **Projeto**, na aba **Cadastro**, é apresentada a respectiva tela de cadastro, conforme ilustração abaixo:
+    - Informe el (los) Proyecto (s) vinculado (s) a la solicitud de cambio;
+    - Se mostrará la ventana para registrar y buscar proyecto;
+    - En la pantalla **Proyecto**, en la pestaña **Registro**, se muestra la respectiva pantalla de registro, como se muestra a 
+    continuación:
     
-    ![Projeto](images/planej-mud.img10.png)
+    ![Projeto](images/plan.img10.jpg)
     
-    **Figura 10- Vincular projeto**
+    **Figura 10 - Vincular proyecto**
     
-    - **Nome do Projeto**: informe o nome do projeto;
-    - **Nome do gestor**: informe o nome do gestor;
-    - Clique no botão "Gravar" para efetuar o registro e o mesmo será apresentado na "Lista de Projetos".
+    - **Nombre del Proyecto**: informe el nombre del proyecto;
+    - **Nombre del Gestor**: informe el nombre del gestor;
+    - Haga clic en el botón *Grabar* para realizar el registro y el mismo aparecerá en la "Lista de Proyectos".
     
-4. Na tela **Projeto**, clique na aba **Pesquisa**, será apresentada a tela de pesquisa conforme ilustrada na figura abaixo:
+4. En la pantalla Proyecto, haga clic en la pestaña Consulta, aparecerá la pantalla de consulta como se muestra en la figura 
+siguiente:
 
-    ![Pesquisar](images/planej-mud.img11.png)
+    ![Pesquisar](images/plan.img11.jpg)
     
-    **Figura 11 - Pesquisar projeto**
+    **Figura 11 - Buscar proyecto**
     
-    - Informe o nome do projeto que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido o 
-    registro do projeto conforme o nome informado;
-    - Caso deseje listar todos os registros de projeto, basta clicar diretamente no botão "Pesquisar";
-    - Selecione o projeto que desejar e o mesmo será apresentado na "Lista de Projetos";
-    - O botão "Limpar" quando acionado, limpa a pesquisa, preparando o ambiente para uma nova pesquisa;
+    - Introduzca el nombre del proyecto que desea buscar y haga clic en el botón *Consultar*. Después de eso, se mostrará el 
+    registro del proyecto según el nombre informado;
+    - Si desea listar todos los registros de proyecto, simplemente haga clic directamente en el botón *Consultar*;
+    - Seleccione el proyecto que desee y el mismo será presentado en la "Lista de Proyectos";
+    - El botón *Limpiar* cuando se activa, limpia la búsqueda, preparando el entorno para una nueva búsqueda;
     
-![Lista](images/planej-mud.img12.png)
+![Lista](images/plan.img12.jpg)
 
-**Figura 12 - Lista de projetos**
+**Figura 12 - Lista de proyectos**
 
-Planejando a análise de impacto e risco por alvos
----------------------------------------------------
+Planeando el análisis de impacto y riesgo por alvos
+--------------------------------------------------------
 
-Pré-condições
---------------
+Condiciones previas
+-----------------------
 
-1. Depende do tipo cadastrado em tipo de mudança (ver conhecimento [Cadastro e pesquisa de Tipo de Mudança](/pt-br/citsmart-platform-7/processes/change/change-type.html));
+1. Depende del tipo registrado en tipo de cambio (ver conocimiento [Registro y consulta del tipo de cambios](/es-es/citsmart-platform-7/processes/change/change-type.html));
 
-2. Informe a "análise de impacto e risco" envolvido na mudança, que pode ser "por alvo" ou "simplificado".
+2. Informe el "análisis de impacto y riesgo" implicado en el cambio, que puede ser "por objetivo" o "simplificado".
 
-Análise de Impacto e Risco Por Alvos
+Análisis de Impacto y Riesgo por objetivos
 --------------------------------------
 
-1. Na tela de listagem de **Gerenciamento de Mudanças > botão Ação > Iniciar/Executar tarefa**;
+1. En la pantalla de lista de **Gestión del Cambios > botón Acciones > Iniciar/Ejecutar tarea**;
 
-    - Ao lado direito da tela de requisição de mudança, clique na opção "Análise de Impacto e Risco por Alvos":
+    - Al lado derecho de la pantalla de solicitud de cambio, haga clic en la opción "Análisis de Impacto y Riesgo para 
+    objetivos":
     
-    ![Seleção](images/planej-mud.img13.png)
+    ![Seleção](images/plan.img13.jpg)
     
-    **Figura 13 - Seleção de análise de impacto e risco por alvos**
+    **Figura 13 - Selección de análisis de impacto y riesgo por objetivos**
     
-    - Na aba Alvos, informe os alvos da mudança que serão considerados para análise de impacto e avaliação de riscos. 
-    Os alvos podem ser Item de Configuração, Serviço e Função Vital.
+    - En la pestaña **Objetivos**, introduzca los objetivos del cambio que se considerarán para el análisis de impacto y la 
+    evaluación de riesgos. Los objetivos pueden ser Item de Configuración, Servicio y Función Vital.
     
     !!! info "IMPORTANTE"
     
-        Para adicionar um alvo do tipo Função Vital, é necessário vincular um serviço da mudança que possua processo de 
-        negócio com o tipo função vital.
+        Para añadir un objetivo del tipo Función Vital, es necesario vincular un servicio del cambio que posea proceso de negocio 
+        con el tipo función vital.
         
-    ![Alvos](images/planej-mud.img14.png)
+    ![Alvos](images/plan.img14.jpg)
     
-    **Figura 14 - Alvos**
+    **Figura 14 - Objetivos**
     
-    - Clique em "Adicionar";
-    - Será apresentada a janela para pesquisa do(s) alvo(s);
-    - Selecione o(s) alvo(s) desejado(s) e clique no botão "Enviar";
-    - Se desejar anexar um arquivo ao alvo, clique no ícone ![simbolo](images/simb-clips.png), pesquise e adicione o arquivo;
-    - Para salvar as informações preenchidas e prosseguir, clique em "Gravar".
+    - Haga clic en Agregar;
+    - Se mostrará la ventana de búsqueda del objetivo (s);
+    - Seleccione el (los) objetivo (s) deseado (s) y haga clic en el botón *Avanzar*;
+    - Si desea adjuntar un archivo al objetivo, haga clic en el icono ![simbolo](images/simb-clips.jpg), busque y agregue el 
+    archivo;
+    - Para guardar la información rellenada y continuar, haga clic en *Grabar*.
     
-    !!! warning "ATENÇÃO"
+    !!! warning "ATENCIÓN"
     
-        É  obrigatório informar pelo menos um alvo para prosseguir com a análise de impacto e avaliação de riscos, lembrando 
-        que o(s) alvo(s) do tipo "função vital", serão apresentados de acordo com o(s) serviço(s) da mudança que foi vinculado 
-        à requisição de mudança.
+        Es obligatorio informar al menos a un objetivo para proseguir el análisis de impacto y la evaluación de riesgos, 
+        recordando que el objetivo objetivo del tipo "función vital" se presentará de acuerdo con el (los) servicio (s) el cambio 
+        que se vinculó a la solicitud de cambio.
         
-    - Na aba **Análise de Impacto**, faça a análise de impacto para os alvos da mudança;
+    - En la pestaña Análisis de Impacto, haga el análisis de impacto para los blancos del cambio;
     
-    ![Análise](images/planej-mud.img15.png)
+    ![Análise](images/plan.img15.jpg)
     
-    **Figura 15 - Análise de impacto**
+    **Figura 15 - Análisis de impacto**
     
-    - Selecione o tipo de alvo e clique no botão "Alvo", para pesquisar os alvos de acordo com o tipo de alvo escolhido;
-    - Será apresentado somente o(s) alvo(s) que foram informados antecipadamente na aba "Alvos";
-    - Selecione o alvo desejado para preencher a análise de impacto do mesmo, conforme indicado na imagem abaixo:
+    - Seleccione el tipo de Objetivo blanco y haga clic en el botón *Objetivo* para buscar los objetivos según el tipo de destino 
+    elegido;
+    - Se mostrará solamente el (los) objetivo (s) que fueron informados por adelantado en la pestaña "Objetivos";
+    - Seleccione el objetivo deseado para rellenar el análisis de impacto del mismo, como se indica en la siguiente imagen:
     
-    ![Seleção](images/planej-mud.img16.png)
+    ![Seleção](images/plan.img16.jpg)
     
-    **Figura 16 - Seleção de alvos**
+    **Figura 16 - Selección de blancos**
     
-    - **Possíveis Impactos**: informe os possíveis impactos do alvo para a mudança;
-    - **Gravidade**: informe a gravidade do alvo para a mudança;
-    - **Objetivo do tempo de recuperação**: informe o tempo esperado para recuperação do alvo durante a mudança;
-    - **Objetivo para ponto de recuperação**: informe o tempo que começará a recuperação do alvo durante a mudança;
-    - **Custo por hora de inatividade**: defina o custo por hora quando houver indisponibilidade desse alvo; dessa função
-        vital;
-    - **Máximo tolerável de inatividade**: informe o tempo máximo que o alvo poderá ficar inativo;
-    - **Custo do impacto**: defina o custo por impacto quando houver indisponibilidade desse alvo, dessa função vital;
-    - **Estratégia 1**: descreva a primeira estratégia para continuidade do serviço;
-    - **Estratégia 2**: descreva a segunda estratégia para continuidade do serviço;
-    - **Estratégia 3**: descreva a terceira estratégia para continuidade do serviço;
+    - **Posibles Impactos**: informe los posibles impactos del blanco para el cambio;
+    - **Severidad**: informe la gravedad del blanco para el cambio;
+    - **Propósito del tiempo de recuperación**: informe el tiempo esperado para la recuperación del objetivo durante el cambio;
+    - **Objetivo de punto de recuperación**: informe el tiempo que comenzará la recuperación del blanco durante el cambio;
+    - **Costo por hora de inactividad**: defina el costo por hora cuando haya indisponibilidad de ese blanco; de esa función 
+    vital;
+    - **Máximo tolerable de inactividad**: informe el tiempo máximo que el blanco puede quedar inactivo;
+    - **Costes del impacto**: defina el costo por impacto cuando hay indisponibilidad de ese objetivo, de esa función vital;
+    - **Estrategia 1**: describir la primera estrategia para la continuidad del servicio;
+    - **Estrategia 2**: describa la segunda estrategia para la continuidad del servicio;
+    - **Estrategia 3**: describa la tercera estrategia para la continuidad del servicio;
         
-    - Na aba **Avaliação de Riscos**, faça a avaliação de riscos para os alvos da mudança;
+    - En la pestaña **Evaluación de Riesgos**, haga la evaluación de riesgos para los objetivos del cambio;
     
-    ![Avaliação](images/planej-mud.img17.png)
+    ![Avaliação](images/plan.img17.jpg)
     
-    **Figura 17 - Avaliação de riscos**
+    **Figura 17 - Evaluación de riesgos**
     
-    - Clique no botão "Adicionar cenário" para preencher informações de cenários de riscos;
+    - Haga clic en el botón *Añadir el escenario* para rellenar información de escenarios de riesgo;
     
-    ![Cenário](images/planej-mud.img18.png)
+    ![Cenário](images/plan.img18.jpg)
     
-    **Figura 18 - Adicionar cenário**
+    **Figura 18 - Añadir escenario**
     
-    - **Nome cenário**: informe o nome do cenário;
-    - **Tipo de Alvo**: selecione o tipo de alvo;
-    - **Alvo**: selecione o alvo. Caso queira limpar o dado informado no campo, clique no 
-    ícone ![simbolo](images/simb-fechar.png);
-    - Adicione os riscos à avaliação:
-        - Clique no botão "Adicionar risco" e será apresentada a tela de cadastro e/ou pesquisa de riscos, 
-        conforme ilustrada na figura abaixo:
+    - **Escenario Nombre**: informe el nombre del escenario;
+    - **Tipo de objetivo**: seleccione el tipo de blanco;
+    - **Objetivo**: seleccione el objetivo. Si desea borrar el dato informado en el campo, haga clic en el icono
+    ![simbolo](images/simb-xis.greenwhite.jpg);
+    - Agregue los riesgos a la evaluación:
+        - Haga clic en el botón *Añadir riesgo* y aparecerá la pantalla de registro y / o búsqueda de riesgos, como se muestra en 
+        la figura siguiente:
             
-    ![Cadastro](images/planej-mud.img19.png)
+    ![Cadastro](images/plan.img19.jpg)
     
-    **Figura 19 - Tela de cadastro e pesquisa de risco**
+    **Figura 19 - Pantalla de registro e investigación de riesgo**
     
-     - Realize a pesquisa e selecione o risco desejado. Após isso, será adicionado o risco na tela, conforme 
-     exemplo ilustrado na figura abaixo:
+     - Realice la búsqueda y seleccione el riesgo deseado. Después de eso, se añadirá el riesgo en la pantalla, como ejemplo 
+     ilustrado en la figura abajo:
             
-    ![Ameaças](images/planej-mud.img20.png)
+    ![Ameaças](images/plan.img20.jpg)
     
-    **Figura 20 - Ameaças**
+    **Figura 20 - Amenazas**
     
-    - Clique no botão "Selecionar ameaça" para adicionar a ameaça do risco. Será apresentado o campo para informar a 
-    ameaça. Após selecionar a ameaça clique no ícone para expandir a tela e informar a probabilidade, o impacto da
-    ameaça e justificativa sobre o risco;
+    - Haga clic en el botón *Seleccionar amenaza* para agregar la amenaza de riesgo. Se presentará el campo para informar de la 
+    amenaza. Después de seleccionar la amenaza, haga clic en el icono para expandir la pantalla e informar la probabilidad, el 
+    impacto de la amenaza y la justificación sobre el riesgo;
         
-    ![Ameaças](images/planej-mud.img21.png)
+    ![Ameaças](images/plan.img21.jpg)
     
-    **Figura 21 - Ameaças**
+    **Figura 21 - amenazas**
     
-    - Após informar a(s) ameaça(s), clique na guia **Planos de Tratativa**. Será apresenta a tela de plano de tratativa conforme ilustrada na figura abaixo:
+    - Después de informar a la (s) amenaza (s), haga clic en la ficha Los planes de Tratamiento. Se presentará la pantalla de 
+    plan de tratamiento como se muestra en la figura siguiente:
         
-    ![Planos](images/planej-mud.img22.png)
+    ![Planos](images/plan.img22.jpg)
     
-    **Figura 22 - Planos de tratativa**
+    **Figura 22 - Planos de tratamiento**
     
-    - Clique no botão Adicionar tratativa, para registrar a tratativa da ameaça. Será apresentado o campo para 
-    informar a descrição do plano de tratativa. Após informar o nome do plano clique no 
-    ícone ![simbolo](images/simb-mais.cinza.png) para expandir a tela e informar a probabilidade e o impacto 
-    da tratativa sobre a ameaça;
+    - Haga clic en el botón Añadir el tratamiento para registrar el trata de la amenaza. Se mostrará el campo para informar la 
+    descripción del plan de trata. Después de informar el nombre del plan haga clic en el icono
+    ![simbolo](images/simb-mais.cinzabranco.jpg) para expandir la pantalla e informar la probabilidad y el impacto de la trata 
+    sobre la amenaza;
         
-    ![Tratativa](images/planej-mud.img23.png)
+    ![Tratativa](images/plan.img23.jpg)
     
-    **Figura 23 - Planos de tratativa**
+    **Figura 23 - Planos de tratamiento**
     
-    - **Nome do plano de tratativa**: informe no nome do plano de tratativa das ameaças;
-    - **Ameaças relacionadas**: informe as ameaças relacionadas ao risco;
-    - **Probabilidade**: informe a probabilidade de tratativa das ameaças;
-    - **Impacto**: informe o impacto da tratativa sobre as ameaças;
-    - **Proposta de medida de recuperação**: descreva a proposta da medida de recuperação;
-    - **Proposta de plano de mitigação**: descreva a proposta do plano de mitigação;
+    - **Nombre del plan de tratamiento**: informe en el nombre del plan de trata de las amenazas;
+    - **Amenazas relacionadas**: informe las amenazas relacionadas con el riesgo;
+    - **Probabilidad**: informe la probabilidad de tratar las amenazas;
+    - **Impacto**: informe el impacto de la trata sobre las amenazas;
+    - **Propuesta de medida de recuperación**: describa la propuesta de la medida de recuperación;
+    - **Propuesta de plan de mitigación**: describa la propuesta del plan de mitigación;
         
     !!! note "NOTA"
     
-        É possível, após registro dos dados do plano de tratativa, verificar o gráfico de avaliação de riscos.
-        (ver conhecimento [Execução de Requisição de Mudança][1]), 
-        na seção Acompanhando o Desenvolvimento dos Riscos.
+        Es posible, después del registro de los datos del plan de trata, verificar el gráfico de evaluación de riesgos (ver 
+        conocimiento [Ejecución de solicitud de cambios][1]), en la sección de Seguimiento del desarrollo de los riesgos.
         
-    - Após a definição de ameaças e planos de tratativa, a avaliação de risco estará completa, diante disso, 
-    clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente para
-    uma futura auditoria.
+    - Después de la definición de amenazas y planes de trata, la evaluación de riesgos estará completa, a continuación, haga clic 
+    en el botón *Grabar* para registrar, donde la fecha, hora y usuario se guardarán automáticamente para una futura auditoría.
     
-Análise de Impacto e Risco Simplificado
+Análisis de Impacto y Riesgo Simplificado
 ----------------------------------------
 
-- Ao lado direito da tela de requisição de mudança, clique na opção **Análise de Impacto e Risco Simplificado**;
+- Al lado derecho de la pantalla de solicitud de cambio, haga clic en la opción **Análisis de Impacto y Riesgo Simplificado**;
     
-    ![Risco](images/planej-mud.img24.png)
+    ![Risco](images/plan.img24.jpg)
     
-    **Figura 24 - Análise de impacto e risco simplificado**
+    **Figura 24 - Análisis de impacto y riesgo simplificado**
     
-- Clique no ícone ![simbolo](images/simb-lupa.png) para relacionar os riscos à requisição de mudança;
-    - Será exibida uma janela para pesquisa de riscos. Realize a pesquisa e selecione o risco referente à 
-    mudança. Feito isso, o risco será relacionado a requisição de mudança;
+- Haga clic en el icono ![simbolo](images/simb-lupa.jpg) para relacionar los riesgos con la solicitud de cambio;
+    - Aparecerá una ventana de búsqueda de riesgos. Realice la búsqueda y seleccione el riesgo de cambio. Hecho esto, el riesgo 
+    será relacionado con la solicitud de cambio;
         
-    ![Riscos](images/planej-mud.img25.png)
+    ![Riscos](images/plan.img25.jpg)
     
-    **Figura 25 - Registro dos riscos envolvidos na mudança**
+    **Figura 25 - Registro de los riesgos implicados en el cambio**
     
-- Caso queira registrar um novo risco a partir desta tela, clique no ícone ![simbolo](images/exec-mais.png) ;
+- Si desea registrar un nuevo riesgo desde esta pantalla, haga clic en el icono ![simbolo](images/simb-mais.greenwhite.jpg);
     
-    - **Razão da mudança**: descreva qual a razão para a mudança;
-    - **Análise de impacto**: descreva os impactos que a mudança terá;
-    - **Análise dos riscos**: descreva a análise dos riscos envolvidos na mudança.  
+    - **Razón del Cambio**: describa cuál es la razón del cambio;
+    - **Análisis de Impacto**: describa los impactos que el cambio tendrá;
+    - **Análisis de Riesgos**: describa el análisis de los riesgos involucrados en el cambio.  
     
-[1](/pt-br/citsmart-platform-7/processes/change/change-execution.html)
+[1][/pt-br/citsmart-platform-7/processes/change/change-execution.html]
         
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Larissa Lourenço
+    <b>Updated:</b>09/19/2019 – Larissa Lourenço
     
  
