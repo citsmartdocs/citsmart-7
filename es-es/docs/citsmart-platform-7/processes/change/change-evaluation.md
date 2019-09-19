@@ -1,79 +1,85 @@
-title: Avaliação e finalização de requisição de mudança
-Description: Essa funcionalidade permite realizar a avaliação da requisição de mudança e finalizar a mesma.
-# Avaliação e finalização de requisição de mudança
+title: Evaluación y finalización de solicitud de cambios
+Description: Esta funcionalidad permite realizar la evaluación de la solicitud de cambio y finalizar la misma.
+# Evaluación y finalización de solicitud de cambios
 
-Essa funcionalidade permite realizar a avaliação da requisição de mudança e finalizar a mesma.
+Esta funcionalidad permite realizar la evaluación de la solicitud de cambio y finalizar la misma.
 
-Como acessar
+Cómo acceder
 --------------
 
-1. Acesse a funcionalidade de avaliação e finalização de requisição de mudança através da navegação no menu principal
-**Processos ITIL > Gerência de Mudança > Gerência de Mudança**.
+1. Acceda a la funcionalidad de evaluación y finalización de solicitud de cambio a través de la navegación en el menú principal 
+**Procesos ITIL > Gestión de Cambios > Gestión del Cambio**.
 
-Pré-condições
+Condiciones previas
 --------------
 
-1. Não se aplica.
+1. No se aplica.
 
 Filtros
 ---------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+1. Los siguientes filtros posibilitan al usuario restringir la participación de ítems en el listado default de la funcionalidad, 
+facilitando la localización de los ítems deseados:
 
-    - Número de mudança;
-    - Atribuída/Compartilhada;
-    - Itens por página
+    - Número de cambio;
+    - Asignada/Compartida;
+    - Ítems por página
 
-![Pesquisa](images/ava-mud.img1.png)
+![Pesquisa](images/evaluación.img1.jpg)
 
-**Figura 1 - Tela de pesquisa de mudança**
+**Figura 1 - Pantalla de consulta de cambio**
 
-Listagem de itens
+Listado de ítems
 ------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: Número, Solicitante, Criada em, Prioridade, Prazo, Prazo limite, Atraso, Situação, Tarefa atual,
-Grupo Executor e Responsável atual.
+1. El siguiente campos de registro estan disponibles al usuario para facilitar la identificación de los ítems deseados en el 
+listado default de la funcionalidad: **Número, Solicitante, Creada en, Prioridad, Plazo, Plazo límite, Atraso, Situación, Tarea 
+actual, Grupo Ejecutor, Responsable actual**.
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Visualizar", "Relatórios" e "Ação" 
-(Criar Atividade, Suspender mudança e Iniciar/Executar tarefa)
+2. Existen botones de acción disponibles para el usuario con respecto a cada ítem de la lista, que son: *Ver* e *Informes*.
 
-![Listagem](images/ava-mud.img2.png)
+![Listagem](images/evaluación.img2.jpg)
 
-**Figura 2 - Tela de listagem de mudança**
+**Figura 2 - Pantalla de listado de cambio**
 
-Preenchimento dos campos cadastrais
+Completar los campos de registro
 ------------------------------------
 
-1. Não se aplica
+1. No se aplica
 
-Avaliando e finalizando requisição de mudança
+Avaliando y finalizando requisitos de cambio
 -----------------------------------------------
 
-1. Na guia Gerenciamento, localize a requisição de mudança que será avaliada e finalizada, clique no botão "Ação" e selecione a 
-opção "Iniciar/Executar tarefa" da mesma, conforme indicado na imagem abaixo:
+1. En la ficha Administración, busque la solicitud de cambio que se evaluará y finalizará, haga clic en el botón *Acción* y 
+seleccione la opción *Iniciar/Ejecutar* tarea de la misma, como se indica en la siguiente imagen:
 
-    ![Avaliação](images/ava-mud.img3.png)
+    ![Avaliação](images/evaluación.img3.jpg)
 
-    **Figura 3 - Realizar avaliação da requisição de mudança**
+    **Figura 3 - Realizar evaluación de la solicitud de cambio**
 
-2. Será exibida a tela de Requisição de Mudança com os campos preenchidos, com o conteúdo referente à requisição selecionada;
+2. Se mostrará la pantalla de **Solicitud de Cambio** con los campos rellenados, con el contenido referente a la solicitud 
+seleccionada;
     
-    - Verifique se a requisição de mudança foi atendida conforme solicitado;
-    - Registre as informações necessárias sobre a avaliação da requisição de mudança:
-        - Clique no botão "Adicionar registro de execução";
-        - Descreva as informações sobre a execução de sua atividade.
-    - No campo **Fechamento**, informe o fechamento da requisição de mudança, ou seja, os detalhes da finalização da execução da requisição de mudança;
-    -  Após registro das informações sobre a avaliação e finalização da requisição de mudança, clique no botão "Gravar e avançar o fluxo" para efetuar a operação, onde a requisição de mudança e os problemas, incidentes e itens de configuração relacionados serão finalizados com sucesso;
-    - Caso queira gravar somente as informações registradas sobre a avaliação e finalização da requisição de mudança e manter a tarefa atual, clique no botão "Gravar e manter a tarefa atual";
-    - Em ambos os casos anteriores, ao clicar no botão Gravar a data, hora e usuário serão armazenados automaticamente para uma futura auditoria.
+    - Compruebe que la solicitud de cambio ha sido atendida como se solicita;
+    - Registre la información necesaria sobre la evaluación de la solicitud de cambio:
+        - Haga clic en el botón *Agregar registro de ejecución*;
+        - Describa la información sobre la ejecución de su actividad.
+    - En el campo **Cierre**, informe el cierre de la solicitud de cambio, es decir, los detalles de la finalización de la 
+    ejecución de la solicitud de cambio;
+    -  Después del registro de las informaciones sobre la evaluación y finalización de la solicitud de cambio, haga clic en el 
+    botón Grabar y avanzar el flujo para efectuar la operación, donde la solicitud de cambio y los problemas, incidentes e ítems 
+    de configuración relacionados serán finalizados con éxito;
+    - Si desea grabar sólo la información registrada sobre la evaluación y finalización de la solicitud de cambio y mantener la tarea actual, haga clic en el botón *Grabar y mantener la tarea actual*;
+    - En ambos casos anteriores, al hacer clic en el botón *Grabar* la fecha, hora y usuario se almacenan automáticamente para 
+    una futura auditoría.
 
-!!! note "REGRA"
+!!! note "NOTA"
 
-    Todos "Erros conhecidos" relacionados à um problema ao qual foi relacionado à mudança que está sendo encerrada, serão arquivados, caso o Parâmetro 232 (ERRO CONHECIDO - Arquivar Erro Conhecido ao concluir Mudança? (S ou N - Default: 'N')) esteja definido com o valor "S".
+    Todos los "errores conocidos" relacionados con un problema al que se refiere al cambio que se está cerrando, se archivarán, 
+    caso el Parámetro 232 (ERRO CONOCIDO - Archivar Error Conocido al concluir el Cambio? (S o N - Default: 'N')) esté definido 
+    con el valor "S".
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/11/2019 – Larissa Lourenço
+    <b>Updated:</b>09/19/2019 – Larissa Lourenço
