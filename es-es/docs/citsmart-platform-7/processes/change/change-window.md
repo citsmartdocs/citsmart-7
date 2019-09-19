@@ -62,7 +62,7 @@ de cambio, como se muestra a continuación:
         - **Semanal**:  informe la fecha límite para la repetición semanal y seleccione los días de la semana que desee, además 
         del día de la semana que está siendo registrada la ventana de cambio;
         - **Mensual**: informe la fecha límite para la recurrencia mensual;
-        - **Anualmente: informe la fecha límite para la recurrencia anual.
+        - **Anualmente**: informe la fecha límite para la recurrencia anual.
         
 !!! tip "About"
 
