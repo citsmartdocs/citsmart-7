@@ -1,101 +1,100 @@
-title: Cadastro e pesquisa de tipo de mudança
-Description: Esta funcionalidade tem por objetivo registrar o tipo de mudança que será utilizado para definir toda a configuração do fluxo de trabalho que a requisição irá seguir.
-# Cadastro e pesquisa de tipo de mudança
+title: Registro y consulta del tipo de cambios
+Description: Esta funcionalidad tiene por objeto registrar el tipo de cambio
+# Registro y consulta del tipo de cambios
 
-Esta funcionalidade tem por objetivo registrar o tipo de mudança que será utilizado para definir toda a configuração do fluxo de
-trabalho que a requisição irá seguir.
+Esta funcionalidad tiene por objeto registrar el tipo de cambio que se utilizará para definir toda la configuración del flujo de 
+trabajo que la solicitud seguirá.
 
-Como acessar
+Cómo acceder
 --------------
 
-1. Acesse a funcionalidade de tipo de mudança através da navegação no menu principal 
-**Processos ITIL > Gerência de Mudança > Tipo de Mudança**.
+1. Acceda a la funcionalidad de tipo de cambio a través de la navegación en el menú principal 
+**Procesos ITIL > Gestión de Cambios > Tipo de Cambio**.
 
-Pré-condições
---------------
+Condiciones previas
+-----------------------
 
-1. Ter o fluxo referente ao gerenciamento de mudança cadastrado (ver conhecimento [Manutenção de fluxo de trabalho](/pt-br/citsmart-platform-7/workflow/workflow-management.html))
+1. Tener el flujo referente a la gestión de cambio registrado (ver conocimiento [Mantenimiento del flujo de trabajo](/es-es/citsmart-platform-7/workflow/workflow-management.html))
 
-2. Configurar os modelos de e-mails (ver conhecimento [Cadastro e pesquisa de configuração de modelo de e-mail](/pt-br/citsmart-platform-7/plataform-administration/email-settings/configure-email-template.html))
+2. Configurar las plantillas de correo electrónico (ver conocimiento [Registro y consulta de la configuración del modelo de e-mail](/es-es/citsmart-platform-7/plataform-administration/email-settings/configure-email-template.html))
 
-3. Ter o grupo executor cadastrado (ver conhecimento [Cadastro e pesquisa de grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html))
+3. Tener el grupo ejecutor registrado (ver conocimiento [Registro y consulta de grupo](/es-es/citsmart-platform-7/initial-settings/access-settings/user/group.html))
 
-4. Ter o calendário cadastrado (ver conhecimento [Cadastro e pesquisa de calendário](/pt-br/citsmart-platform-7/plataform-administration/time/create-calendar.html))
+4. Han registrado calendario (ver conocimiento [Registro y consulta de calendario](/es-es/citsmart-platform-7/plataform-administration/time/create-calendar.html))
 
 Filtros
 ---------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da
-funcionalidade, facilitando a localização dos itens desejados:
+1. El siguiente filtro permite al usuario restringir la participación de elementos en el listado default de la funcionalidad, 
+facilitando la localización de los elementos deseados:
 
-    - Nome.
+    - Nombre.
     
-    ![Pesquisa](images/tip-mud.img1.png)
+    ![Pesquisa](images/tipo.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de tipo de mudança**
+    **Figura 1 - Pantalla de consulta de tipo de cambio**
     
-2. Realize a pesquisa de tipo de mudança. Informe o nome do tipo de mudança que deseja pesquisar e clique no botão 
-"Pesquisar". Após isso, será exibido o registro do tipo de mudança conforme o nome informado;
+2. Realice la consulta de tipo de cambio. Introduzca el nombre del tipo de cambio que desea consultar y haga clic en el botón 
+*Consultar*. Después de eso, se mostrará el registro del tipo de cambio según el nombre informado;
 
-    - Realize a pesquisa de tipo de mudança. Informe o nome do tipo de mudança que deseja pesquisar e clique no botão "Pesquisar". 
-    Após isso, será exibido o registro do tipo de mudança conforme o nome informado;
+    - Si desea listar todos los registros de tipo de cambio, basta con hacer clic directamente en el botón *Consultar*;
     
-Listagem de itens
+Listado de ítems
 -------------------
 
-1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens desejados na
-listagem padrão da funcionalidade: **Nome**.
+1. El(Los) siguiente (s) campo (s) de registro está (n) disponible (s) para facilitar al usuario la identificación de los 
+elementos deseados en el listado default de la funcionalidad: **Nombre**.
 
-    ![Listagem](images/tip-mud.img2.png)
+    ![Listagem](images/tipo.img2.jpg)
     
-    **Figura 2 - Listagem de tipo de mudança**
+    **Figura 2 - Listado de tipo de cambio**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo
-o conteúdo referente ao registro selecionado;
+2. Después de la consulta, seleccione el registro deseado. Hecho esto, será dirigido a la pantalla de registro exhibiendo el 
+contenido referente al registro seleccionado;
 
-3. Para alterar os dados do registro de tipo de mudança, basta modificar as informações dos campos desejados e
-clicar no botão "Gravar" para que seja gravada a alteração realizada no registro, onde a data, hora e usuário serão 
-gravados automaticamente para uma futura auditoria.
+3. Para cambiar los datos del registro de tipo de cambio, basta con modificar la información de los campos deseados y hacer clic 
+en el botón *Grabar* para que se grabe el cambio realizado en el registro, donde la fecha, hora y usuario serán grabados 
+automáticamente para una futura auditoría.
 
-Preenchimento dos campos cadastrais
+Completar los campos de registro
 -------------------------------------
 
-1. Será apresentada a tela de cadastro de **Tipo de Mudança**, conforme ilustrada na figura abaixo:
+1. Se mostrará la pantalla de registro de **Tipo de Cambio**, como se muestra en la figura siguiente:
 
-    ![Cadastro](images/tip-mud.img3.png)
+    ![Cadastro](images/tipo.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de tipo de mudança**
+    **Figura 3 - Pantalla de registro de tipo de cambio**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Rellene los campos según las instrucciones a continuación:
 
-    - **Nome**: informe o nome do tipo de mudança;
+    - **Nombre**: introduzca el nombre del tipo de cambio;
     
-    - **Fluxo**: selecione o fluxo para que o mesmo seja associado ao tipo de mudança que está sendo cadastrado;
+    - **Flujo**: seleccione el flujo para que el mismo sea asociado al tipo de cambio que está siendo registrado;
     
-    - **Grupo Executor**: informe o grupo executor, o qual será o grupo padrão do tipo de mudança, responsável pela
-    execução da requisição de mudança;
+    - **Grupo Ejecutor**: informe al grupo ejecutor, el cual será el grupo default del tipo de cambio, responsable por la 
+    ejecución de la solicitud de cambio;
     
-    - **E-mail Criação**: selecione o modelo de e-mail de registro de requisição de mudança que servirá para 
-    notificar ao solicitante que a requisição de mudança foi registrada;
+    - **E-mail Creación**: seleccione el modelo de e-mail de registro de solicitud de cambio que servirá para notificar al 
+    solicitante que la solicitud de cambio ha sido registrada;
     
-    - **E-mail Finalização**: selecione o modelo de e-mail de finalização da requisição de mudança que servirá 
-    para notificar ao solicitante que a requisição de mudança foi finalizada;
+    - **E-mail Finalización**: seleccione el modelo de e-mail de finalización de la solicitud de cambio que servirá para 
+    notificar al solicitante que la solicitud de cambio ha finalizado;
     
-    - **E-mail Ações**: selecione o modelo de e-mail de andamento da requisição de mudança que servirá para
-    notificar ao solicitante sobre o andamento da requisição de mudança;
+    - **E-mail Acciones**: seleccione el modelo de e-mail de progreso de la solicitud de cambio que servirá para notificar al 
+    solicitante sobre el progreso de la solicitud de cambio;
     
-    - **Impacto**: informe o impacto do tipo de mudança;
+    - **Impacto**: informe el impacto del tipo de cambio;
     
-    - **Urgência**: informe a urgência do tipo de mudança;
+    - **Urgencia**: informe la urgencia del tipo de cambio;
     
-    - **Calendário**: informe o calendário do tipo de mudança;
+    - **Calendario**: informe el calendario del tipo de cambio;
     
-    - **Tipo de Análise de Impacto e Risco**: selecione o tipo de análise de impacto e risco, simplificado ou por alvos;
+    - **Tipo de Impacto y Análisis de Riesgos**: seleccione el tipo de análisis de impacto y riesgo, simplificado o por blancos;
     
-    - Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados automaticamente
-    para uma futura auditoria.
+    - Haga clic en el botón *Grabar* para registrar, donde la fecha, la hora y el usuario se guardarán automáticamente para una 
+    futura auditoría;
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/11/2019 – Larissa Lourenço
+    <b>Updated:</b>09/19/2019 – Larissa Lourenço
