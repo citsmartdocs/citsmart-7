@@ -737,7 +737,7 @@ Vinculación de item de configuración relacionada
 ### Condiciones previas
 
 1.  Tener al menos un ítem de configuración registrado (ver
-    conocimiento Gestión de ítems de configuración][20]).
+    conocimiento [Gestión de ítems de configuración][20]).
 
 ### Filtros
 
