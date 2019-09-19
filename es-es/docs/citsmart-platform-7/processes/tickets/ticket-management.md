@@ -424,7 +424,7 @@ Registro de ticket
 
 -   **Título**: informe el título del ticket;
 
--   **Descripción: informe la descripción del ticket. La descripción debe ser
+-   **Descripción**: informe la descripción del ticket. La descripción debe ser
     objetiva, incluyendo toda la información necesaria para la atención de la
     misma;
 
