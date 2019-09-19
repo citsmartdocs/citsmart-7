@@ -1,85 +1,86 @@
-title:Cadastro e pesquisa de origem de tickets
-Description:Tem o objetivo de registrar diversos tipos de equipes ou áreas que podem gerar um ticket.
+title: Registro y consulta del origen de los tickets
+Description: Esta funcionalidad tiene el objetivo de registrar diversos tipos de equipos o áreas que pueden generar un ticket.
 
-# Cadastro e pesquisa de origem de tickets
+# Registro y consulta del origen de los tickets
 
-Esta funcionalidade tem o objetivo de registrar diversos tipos de equipes ou
-áreas que podem gerar um ticket.
+Esta funcionalidad tiene el objetivo de registrar diversos tipos de equipos o
+áreas que pueden generar un ticket.
 
-Como acessar
+Cómo acceder
 ------------
 
-1.  Acesse a funcionalidade de Origem de Tickets através da navegação no menu
-    principal **Processos ITIL > Gerência de Ticket > Origem de
-    Solicitações**.
+1.  Acceder a la funcionalidad de Origen de Tickets a través de la navegación
+    del menú principal **Procesos ITIL** > **Gestión de Ticket** > **Origen de
+    Tickets**.
 
-Pré-condições
-------------
+Condiciones previas
+-------------------
 
-1.  Não se aplica.
+1.  No se aplica.
 
 Filtros
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  El siguiente filtro permite al usuario restringir la participación de
+    elementos en el listado default de la funcionalidad, facilitando la
+    localización de los elementos deseados:
 
-    -   Origem.
+   -   Origen.
 
-1.  Na tela de **Origem**, clique na guia **Pesquisar Origem**, será apresentada
-    a tela de pesquisa conforme ilustrada na figura abaixo:
+2.  En la pantalla de **Origen**, haga clic en la ficha **Consultar Origen**,
+    aparecerá la pantalla de búsqueda como se muestra en la figura siguiente:
 
-    ![pesquisa de origem](images/ticket-source-1.png)
+   ![pesquisa de origem](images/ticket-source-1.png)
+   
+   **Figura 1 - Pantalla de consulta de origen**
 
-    **Figura 1 - Tela de pesquisa de origem**
+3.  Realice la búsqueda de origen;
 
-1.  Realize a pesquisa de origem:
+-   Introduzca el nombre del origen que desee buscar y haga clic en el
+    botón *Consultar*. Después de eso, se mostrará el registro del origen según
+    el nombre informado.
 
-    -   Informe o nome da origem que deseja pesquisar e clique no botão *Pesquisar*.
-    Após isso, será exibido o registro da origem conforme o nome informado.
+-   Si desea listar todos los registros de origen, simplemente haga clic
+    directamente en el botón *Consultar*.
 
-    -   Caso deseje listar todos os registros de origem, basta clicar
-        diretamente no botão *Pesquisar*.
-
-Listagem de itens
+Listado de ítems
 ----------------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da funcionalidade:** ID
-    Origem e Origem**.
+1.  El(Los) siguiente (s) campo (s) de registro está (n) disponible (s) para
+    facilitar al usuario la identificación de los elementos deseados en el
+    listado default de la funcionalidad: **ID Origen** y **Origen**, como se
+    muestra a continuación:
 
-    ![pesquisa de origem](images/ticket-source-2.png)
+   ![pesquisa de origem](images/ticket-source-2.png)
+   
+   **Figura 2 - Pantalla de Ítems**
 
-    **Figura 2 - Tela de listagem de origem**
+2.  Después de la búsqueda, seleccione el registro deseado. Hecho esto, será
+    dirigido a la pestaña de registro mostrando el contenido referente al
+    registro seleccionado.
 
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a aba de cadastro exibindo o conteúdo referente ao registro
-    selecionado;
+3.  Para cambiar los datos del registro de origen, basta con modificar la
+    información de los campos deseados y hacer clic en el botón *Grabar* para
+    que se grabe el cambio realizado en el registro, donde la fecha, hora y
+    usuario serán grabados automáticamente para una futura auditoría.
 
-2.  Para alterar os dados do registro de origem, basta procurar a origem,
-    selecioná-la, modificar as informações dos campos desejados e clicar no
-    botão *Gravar* para que seja gravada a alteração realizada no registro, onde
-    a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria.
+Completar los campos de registro
+--------------------------------
 
-Preenchimento dos campos cadastrais
-------------------------------------
+1.  En la pantalla de **Origen**, haga clic en la ficha **Registro Origen**, se
+    mostrará la pantalla de **Registro de Origen de Tickets**, como se muestra
+    en la figura siguiente:
 
-1.  Na tela de **Origem**, clique na guia **Cadastro Origem**, será apresentada
-    a tela de **Cadastro de Origem de Solicitações**, conforme ilustrada na
-    figura abaixo:
+   ![pesquisa de origem](images/ticket-source-3.png)
+   
+   **Figura 3 - Pantalla de registro de origen**
 
-    ![pesquisa de origem](images/ticket-source-3.png)
-
-     **Figura 3 - Tela de cadastro de origem**
-
-1.  Informe o nome da origem de tickets de serviço e clique no
-    botão *Gravar* para efetuar o registro, onde a data, hora e usuário serão
-    gravados automaticamente para uma futura auditoria.
+2.  Introduzca el nombre del origen de las solicitudes de servicio y haga clic
+    en el botón *Grabar* para registrarlo, donde la fecha, hora y usuario se
+    guardarán automáticamente para una futura auditoría.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/10/2019 – Anna Martins
+    <b>Updated:</b>09/19/2019 – Anna Martins

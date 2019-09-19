@@ -1,69 +1,69 @@
-title: Reativação de requisição de mudança
-Description: Esta funcionalidade permite reativar requisição de mudança que foi suspensa.
-# Reativação de requisição de mudança
+title: Reactivación de solicitud de cambios
+Description: Esta característica permite reactivar la solicitud de cambio que se ha suspendido.
+# Reactivación de solicitud de cambios
 
-Esta funcionalidade permite reativar requisição de mudança que foi suspensa.
+Esta característica permite reactivar la solicitud de cambio que se ha suspendido.
 
-Como acessar
+Cómo acceder
 --------------
 
-1. Acesse a funcionalidade de reativação de requisição de mudança através da navegação no menu principal 
-**Processos ITIL > Gerência de Mudança > Gerenciamento de Mudança**.
+1. Acceda a la funcionalidad de reactivación de solicitud de cambio a través de la navegación en el menú principal 
+**Procesos ITIL > Gestión de Cambios > Gestión del Cambio**.
 
-Pré-condições
----------------
+Condiciones previas
+------------------------
 
-1. Ter ao menos uma requisição de mudança cadastrada. (ver o conhecimento [Cadastro de requisição de mudança](/pt-br/citsmart-platform-7/processes/change/register-change.html)).
+1. Tener registro por lo menos una solicitud de cambio (ver conocimiento [Registro de solicitud de cambio](/es-es/citsmart-platform-7/processes/change/register-change.html)).
 
 Filtros
 ---------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+1. Los siguientes filtros posibilitan al usuario restringir la participación de ítems en el listado default de la funcionalidad, 
+facilitando la localización de los ítems deseados:
 
-    - Número da mudança;
+    - Número del Cambio;
 
-    - Atribuída/Compartilhada;
+    - Asignada/Compartida;
 
-    - Itens por página.
+    - Ítems por página.
 
-    ![Pesquisa](images/reat-mud.img1.png)
+    ![Pesquisa](images/react.img1.jpg)
 
-    **Figura 1 - Tela de pesquisa de mudança**
+    **Figura 1 - Pantalla de consulta de cambio**
 
-Listagem de itens
+Listado de ítems
 ------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: Número, Solicitante, Criada em, Prioridade, Prazo, Prazo limite, Atraso, Situação, Tarefa atual, 
-Grupo Executor e Responsável atual.
+1. El(Los) siguiente (s) campo (s) de registro está (n) disponible (s) para facilitar al usuario la identificación de los 
+elementos deseados en el listado default de la funcionalidad: **Número, Solicitante, Creada en, Prioridad, Plazo, Plazo límite, 
+Atraso, Situación, Tarea actual, Grupo Ejecutor** y **Responsable actual**.
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Visualizar" e "Relatórios".
+2. Existen botones de acción disponibles para el usuario en relación con cada elemento de la lista, que son: *Ver* e *Informes*.
 
-![Listagem](images/reat-mud.img2.png)
+![Listagem](images/react.img2.jpg)
 
-**Figura 2 - Tela de listagem de mudança**
+**Figura 2 - Pantalla de lista de cambio**
 
-Preenchimento dos campos cadastrais
+Completar los campos de registro
 -------------------------------------
 
-1. Não se aplica.
+1. No se aplica.
 
-Reativando requisição de mudança
----------------------------------
+Reactivación de la solicitud de cambio
+-----------------------------------------
 
-1. Na guia **Gerenciamento**, localize a requisição de mudança que está suspensa e deseja reativar, clique no botão "Ação"
-e selecione a opção "Reativar mudança", conforme indicado na imagem abaixo:
+1. En la ficha Gestión, busque la solicitud de cambio que está suspendida y desea reactivar, haga clic en el botón *Acción* y 
+seleccione la opción *Reactivar Cambio*, como se indica en la siguiente imagen:
 
-    ![Reativar](images/reat-mud.img3.png)
+    ![Reativar](images/react.img3.jpg)
     
-    **Figura 3 - Botão reativar mudança**
+    **Figura 3 - Botón Reactivar cambio**
     
-    - Será exibida uma mensagem para confirmação da reativação.
-    - Clique em "OK" para efetuar a operação.
-    - A situação da requisição será atualizada na lista de requisições de mudança.
+    - Aparecerá un mensaje para confirmar la reactivación.
+    - Haga clic en *OK* para realizar la operación.
+    - La situación de la solicitud se actualizará en la lista de solicitudes de cambio.
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Larissa Lourenço
+    <b>Updated:</b>09/19/2019 – Larissa Lourenço
