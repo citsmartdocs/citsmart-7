@@ -1626,7 +1626,7 @@ Creación y visualización de sub-solicitud
     consulta de grupo][3]);
 
 2.  Tener el colaborador registrado (ver conocimiento [Registro y consulta de
-    colaborador][4];
+    colaborador][4]);
 
 3.  Tener la unidad registrada (ver conocimiento [Registro y consulta de
     unidad][6]).
@@ -1661,7 +1661,7 @@ Creación y visualización de sub-solicitud
 
     -   **Teléfono**: informe el teléfono del solicitante de contacto;
 
-    -   **E-mail**:** informe el e-mail del solicitante para contacto;
+    -   **E-mail**: informe el e-mail del solicitante para contacto;
 
     -   **Origen Contacto**: informe el origen del contacto para el registro del
     sub-ticket;
