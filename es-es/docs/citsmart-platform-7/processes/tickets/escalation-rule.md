@@ -1,142 +1,139 @@
-title: Cadastro e pesquisa de regras de escalonamento de um ticket
-Description: Tem o objetivo de registrar diversos tipos de equipes ou áreas que podem gerar um ticket.
+title: Registro e consulta de reglas de escalonamiento de un ticket
+Description: Registro e consulta de reglas de escalonamiento de un ticket
 
-# Cadastro e pesquisa de regras de escalonamento de um ticket
+# Registro e consulta de reglas de escalonamiento de un ticket
 
-Como acessar
------------
+Cómo acceder
+------------
 
-1.  Acesse o menu principal **Processos ITIL > Gerência de
-    Ticket > Regras de escalonamento**.
+1.  Acceda al menú principal **Procesos ITIL > Gestión de Ticket > Reglas de
+    escalonamiento**.
 
-Pré-condições
--------------
+Condiciones previas
+-------------------
 
-1.  No arquivo citsmart.cfg, ter configurado a
-    propriedade **START_MONITORA_INCIDENTES** informando o
-    parâmetro **TRUE**, para esse ajuste neste arquivo somente o administrador
-    do sistema operacional do servidor da aplicação (ver conhecimento [Manual de
-    instalação on-premise (ITSM)](1));
+1.  En el archivo citsmart.cfg, ha configurado la
+    propiedad **START_MONITORA_INCIDENTES** que indica el
+    parámetro **TRUE** (ver conocimiento [Manual de instalación on-premise
+    (ITSM)][1]);
 
-2.  Informe o conteúdo abaixo no parâmetro (ver conhecimento [Regras de
-    parametrização -ticket](2));
+2.  Introduzca el contenido debajo del parámetro (ver conocimiento [Reglas de
+    parametrización - ticket][2]):
 
-    -   Parâmetro 190: com o valor S
+      -   Parámetro 190: con el valor S
 
-1.  Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de
-    contrato](3));
+3.  Tener el contrato registrado (ver conocimiento [Registro y consulta de
+    contrato][3]);
 
-2.  Ter o colaborador cadastrado (ver conhecimento [Cadastro e pesquisa de
-    colaborador](4));
+4.  Tener el colaborador registrado (ver conocimiento [Registro y consulta de
+    colaborador][4]);
 
-3.  Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de
-    grupo](5));
+5.  Tener el grupo registrado (ver conocimiento [Registro y consulta de grupo][5]);
 
-4.  Ter o portfólio de serviços definido (ver conhecimento [Cadastro de
-    portfólio de serviços](6)).
+6.  Tener el portafolio de servicios definida (ver conocimiento [Registro del
+    portafolio de servicios][6]).
 
 Filtros
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  Los siguientes filtros posibilitan al usuario restringir la participación de
+    ítems en el listado default de la funcionalidad, facilitando la localización
+    de los ítems deseados:
 
-    -   Título;
+      -   Título;
 
-    -   Situação.
-    
-    ![escalonamento](images/escalation-rule1.png)
-    
-    **Figura 1 - Tela de pesquisa de regra de escalonamento**
+      -   Situación.
 
-1.  Realize a pesquisa do registro de regras de escalonamento, informando o nome
-    da regra, o filtro *Situação* pode ser usado para refinar mais ainda a
-    pesquisa.
+   ![escalonamento](images/escalation-rule1.png)
+   
+   **Figura 1 - Pantalla de consulta de regla de escalonamiento**
 
-Listagem de itens
------------------
+2.  Realice la consulta del registro de reglas de escalonamiento, indicando el
+    nombre de la regla, el filtro *Situación* puede ser usado para refinar aún
+    más la consulta.
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Título e Situação.
+Listado de ítens
+----------------
 
-2.  Existem botões de ação disponíveis ao usuário em relação a cada item da
-    listagem, são eles: *Editar* e *Excluir*.
+1.  El(Los) siguiente (s) campo (s) de registro está (n) disponible (s) para
+    facilitar al usuario la identificación de los elementos deseados en el
+    listado default de la funcionalidad: **Título** y **Situación**.
 
-    ![escalonamento](images/escalation-rule2.png)
+2.  Hay botones de acción disponibles para el usuario en relación con cada
+    elemento de la lista, que son: *Editar* y *Eliminar*.
 
-    **Figura 2 - Tela de lista de itens**
+   ![escalonamento](images/escalation-rule2.png)
+   
+   **Figura 2 - Pantalla de lista de elementos**
 
-1.  Após a pesquisa, selecione o registro desejado clicando no botão *Editar*.
-    Feito isso, será direcionado para tela de cadastro exibindo o conteúdo
-    referente ao registro selecionado.
+3.  Después de la búsqueda, seleccione el registro deseado haciendo clic en el
+    botón *Editar*. Hecho esto, será dirigido a pantalla de registro mostrando
+    el contenido referente al registro seleccionado.
 
-Preenchimento dos campos cadastrais
------------------------------------
+Completar los campos de registro
+--------------------------------
 
-1.  Ao clicar no botão *Novo*, a tela de cadastro das **Regras de Escalonamento
-    e notificações automáticas** será exibida, conforme ilustrada na figura
-    abaixo:
+1.  Al hacer clic en el botón *Nuevo*, se muestra la pantalla de registro de
+    las **Reglas de escalonamiento y notificaciones automáticas**, como se
+    muestra en la siguiente figura:
 
-    ![escalonamento](images/escalation-rule3.png)
+   ![escalonamento](images/escalation-rule3.png)
+   
+   **Figura 3 - Pantalla de registro de reglas de escalonamiento**
 
-    **Figura 3 - Tela de cadastro de regras de escalonamento**
+2.  Rellene los campos según la siguiente orientación:
 
-1.  Preencha os campos conforme orientação abaixo:
+      -   **Título:** introduzca el nombre en la nueva regla de escalonamiento;
 
-    -   **Título**: informe o nome na nova regra de escalonamento;
+      -   **Situación**: informe la situación de la regla (activo o inactivo);
 
-    -   **Situação**:informe a situação da regra (ativo ou inativo);
+      -   **Solicitante**: informe al solicitante de la regla;
 
-    -   **Solicitante**: informe o solicitante da regra;
+      -   **Grupo ejecutor**: informe el nombre del grupo ejecutor;
 
-    -   **Grupo executor**: informe o nome do grupo executor;
+      -   **Catálogo**: seleccione el tipo de catálogo (negocio o técnico);
 
-    -   **Catálogo**: selecione o tipo de catálogo (Negócio ou Técnico);
+      -   **Servicio**: informe el servicio del catálogo;
 
-    -   **Serviço**: informe o serviço do catálogo;
+      -   **Tipo**: informe un tipo de servicio (solicitud o incidente);
 
-    -   **Tipo**: informe um tipo de solicitação (Requisição ou Incidente);
+      -   **Categoría**: seleccione un tipo de categoría;
 
-    -   **Categoria**: selecione um tipo de categoria;
+      -   **Actividad (Solicitud/Incidente)**: introduzca el nombre del tipo de
+    servicio (solicitud o incidente);
 
-    -   **Atividade (Requisição/Incidente)**: informe o nome do tipo de serviço
-    (requisição ou incidente);
+      -   **Contrato**: seleccione el contrato a ser vinculado;
 
-    -   **Contrato**: selecione o contrato a ser vinculado;
+      -   **Impacto**: informe el nivel de impacto (Bajo, Medio o Alto);
 
-    -   **Impacto**: informe o nível de impacto (Baixo, Médio ou Alto);
+      -   **Urgencia**: informe el nivel de urgencia (Bajo, Medio o Alto);
 
-    -   **Urgência**: informe o nível de urgência (Baixo, Médio ou Alto);
+   -   Reglas
 
-    -   Regras
+       -   **Tiempo**: escribir la cantidad de tiempo referente a la regla;
 
-        -   **Tempo**:digitar a quantidade de tempo referente a regra;
+       -   **Formato**: elegir se refiere a minutos (tiempo de la regla) o porcentual (referente al tiempo del SLA);
 
-        -   **Formato**: escolher se refere a minutos (tempo da regra) ou percentual
-            (referente ao tempo do SLA);
+       -   **Condición**: informe la condición (antes o después);
 
-        -   **Condição**: informe a condição (Antes ou Depois);
+       -   **Fecha**: seleccione la fecha de referencia (fecha de creación, fecha de la  última ocurrencia o fecha límite);
 
-        -   **Data**: escolha a data de referência (data de criação, data da última
-            ocorrência ou data limite);
+       -   **Acción**: informe el tipo de acción.
 
-        -   **Ação**: informe o tipo de ação.
+3.  Haga clic en *Agregar* y la nueva regla de escalonamiento se mostrará en una
+    nueva lista para chequear, si la regla es correcta, haga clic en *Grabar*.
 
-1.  Clique em *Adicionar* e a nova regra de escalonamento será exibida em uma
-    nova listagem para checagem, se regra estiver correta, clicar em *Gravar*.
 
-[1]:/pt-br/citsmart-platform-7/get-started/installation.html
-[2]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrizaion-ticket.html
-[3]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
-[4]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html
-[5]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
-[6]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+[1]:/es-es/citsmart-platform-7/get-started/installation.html
+[2]:/es-es/citsmart-platform-7/plataform-administration/parameters-list/parametrizaion-ticket.html
+[3]:/es-es/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[4]:/es-es/citsmart-platform-7/initial-settings/access-settings/user/employee.html
+[5]:/es-es/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[6]:/es-es/citsmart-platform-7/processes/portfolio-and-catalog/register.html
 
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/10/2019 – Anna Martins
+    <b>Updated:</b>09/19/2019 – Anna Martins
