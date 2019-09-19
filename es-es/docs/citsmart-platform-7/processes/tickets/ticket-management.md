@@ -1888,10 +1888,10 @@ Registro y vinculación de ticket relacionado
 
     !!! note "NOTA"
 
-    Si el solicitante ya tiene los datos personales (teléfono, extensión,
-    e-mail y/o unidad) registrados en el sistema, después de informarle, los
-    campos referentes a los datos serán llenados con la respectiva
-    información.
+        Si el solicitante ya tiene los datos personales (teléfono, extensión,
+        e-mail y/o unidad) registrados en el sistema, después de informarle, los
+        campos referentes a los datos serán llenados con la respectiva
+        información.
 
     -   **Teléfone**: introduzca el número de teléfono del solicitante;
 
