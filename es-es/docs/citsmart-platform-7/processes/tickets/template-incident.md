@@ -21,37 +21,37 @@ Condiciones previas
     Incidentes/Solicitudes/Procedimientos (ver conocimiento [Registro y consulta
     de perfil de acceso[1]);
 
-2.  Tener el grupo registrado (ver conocimiento [Registro y consulta de grupo[2]);
+2.  Tener el grupo registrado (ver conocimiento [Registro y consulta de grupo][2]);
 
 3.  Tener el contrato registrado (ver conocimiento [Registro y consulta de
-    contrato[3]);
+    contrato][3]);
 
 4.  Tener la unidad registrada (ver conocimiento [Registro y consulta de
-    unidad[4]);
+    unidad][4]);
 
 5.  Tener el grupo vinculado al contrato (ver conocimiento [¿Cómo relacionar el
-    grupo al contrato?[5]);
+    grupo al contrato?][5]);
 
 6.  Tener la unidad vinculada al contrato (ver conocimiento [¿Cómo relacionar la
-    unidad al contrato?[6]);
+    unidad al contrato?][6]);
 
 7.  Tener el portafolio con el servicio y las actividades de solicitud e
     incidente registrados (ver conocimientos [Registro del portafolio de
-    servicios[7], [Registro de servicios[8], [Configuración de los atributos de
-    servicio[9]);
+    servicios][7], [Registro de servicios][8], [Configuración de los atributos de
+    servicio][9]);
 
 8.  Tener el tiempo de atención de las actividades de solicitud e incidente
     definidas (ver conocimiento [Registro y consulta del tiempo de atención][10]);
 
 9.  Tener el contrato vinculado al servicio (ver conocimiento [Configuración de
-    los atributos de servicio[11]);
+    los atributos de servicio][11]);
 
 10. Tener las actividades de solicitud e incidente vinculadas al contrato del
     servicio (ver conocimiento [Configuraciones de los atributos del contrato
-    del servicio[12]);
+    del servicio][12]);
 
 11. Introduzca el contenido debajo del parámetro (ver conocimiento [Reglas de
-    parametrización - Ticket[13]):
+    parametrización - Ticket][13]):
 
    -   Parámetro 9: definir el grupo de 1º nivel para la atención de la solicitud.
 
@@ -85,7 +85,7 @@ Listado de ítems
 
 1.  El(Los) siguiente (s) campo (s) de registro está (n) disponible (s) para
     facilitar al usuario la identificación de los elementos deseados en el
-    listado default de la funcionalidad:** Nombre.**
+    listado default de la funcionalidad: **Nombre**.
    
    ![template](images/template-incident-2.png)
    
@@ -143,24 +143,23 @@ Completar los campos de registro
     servicio identificará la naturaleza del servicio, colocándolo dentro de
     grupos similares de actuación, situándolo en la jerarquía de su categoría;
 
-    -   **Tipo de solicitación**: informe el tipo de solicitud, si es una apertura
-    de incidente, solicitud de servicio o procedimiento;
+    -   **Tipo de solicitación**: informe el tipo de solicitud, si es una apertura de incidente, solicitud de servicio o procedimiento;
 
         -   **Incidente**: si la situación presentada es una interrupción no
-        planificada, una reducción en la calidad del servicio o el fallo de
-        algún ítem de configuración que aún no haya impactado en un servicio de
-        TI. Ejemplo: El vínculo de red está fuera, la red es lenta, el servidor
-        inaccesible, etc.
+            planificada, una reducción en la calidad del servicio o el fallo de
+            algún ítem de configuración que aún no haya impactado en un servicio de
+            TI. Ejemplo: El vínculo de red está fuera, la red es lenta, el servidor
+            inaccesible, etc.
 
         -   **Solicitud**: se refiere a las solicitudes de demandas realizadas por
-        los usuarios dentro del ambiente de la Tecnología de la Información.
-        Pueden ser desde solicitudes de acceso hasta sugerencias de mejora a
-        bajo costo. Ejemplo: solicitud de acceso a la red para un nuevo usuario,
-        solicitud de configuración de algún equipo, solicitud para agregar algún
-        software en la estación de trabajo, etc.
+            los usuarios dentro del ambiente de la Tecnología de la Información.
+            Pueden ser desde solicitudes de acceso hasta sugerencias de mejora a
+            bajo costo. Ejemplo: solicitud de acceso a la red para un nuevo usuario,
+            solicitud de configuración de algún equipo, solicitud para agregar algún
+            software en la estación de trabajo, etc.
 
         -   **Procedimento**: se refiere al procedimiento de continuidad del
-        servicio de TI en caso de incidencia crítica.
+            servicio de TI en caso de incidencia crítica.
 
     -   **Incidente/Solicitud/Procedimiento**: informe el servicio que se realizará;
 
