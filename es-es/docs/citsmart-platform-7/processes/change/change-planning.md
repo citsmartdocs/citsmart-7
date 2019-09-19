@@ -49,12 +49,12 @@ de la misma y luego en *Crear actividad* como se indica en la figura siguiente:
     - **Detallamiento**: informe los detalles sobre la ejecución de la actividad;
     - **Fecha/Hora Inicial Ejecución**: informe la fecha y el horario de inicio de la ejecución de la actividad;
     - **Fecha/Hora Final Ejecución**: informe la fecha y el horario de finalización de la ejecución de la actividad;
-    - Para adjuntar un archivo a la actividad, introduzca la descripción del archivo adjunto, haga clic en el botón Agregar 
-    archivo y seleccione el archivo que desee;
-    - Haga clic en el botón Ejecutar para guardar la información rellenada referente a la actividad.
+    - Para adjuntar un archivo a la actividad, introduzca la descripción del archivo adjunto, haga clic en el botón 
+    *Agregar archivo* y seleccione el archivo que desee;
+    - Haga clic en el botón *Ejecutar* para guardar la información rellenada referente a la actividad.
     
 4. Para eliminar todas las actividades de la lista de actividades, basta con hacer clic en el botón *Eliminar todas las 
-actividades*;
+actividades*;  
 
 5. Para importar actividades desde un archivo default de MS Project, simplemente haga clic en el botón *Importar MS Project* 
 (acceder a la sección *Importación de Cronogramas MS-Project para Actividades de cambio* en este conocimiento);
