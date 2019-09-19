@@ -59,7 +59,7 @@ actividades*;
 5. Para importar actividades desde un archivo default de MS Project, simplemente haga clic en el botón *Importar MS Project* 
 (acceder a la sección *Importación de Cronogramas MS-Project para Actividades de cambio* en este conocimiento);
 
-6. Para registrar las actividades manualmente, haga clic en *Agregar*, aparecerá la pantalla para registrar la actividad:
+6. Para registrar las actividades manualmente, haga clic en *Agregar*, aparecerá la pantalla para registrar la actividad: 
 
     ![Atividade](images/plan.img4.jpg)
     
