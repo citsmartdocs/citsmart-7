@@ -2068,24 +2068,24 @@ para todo el equipo.
 
 **Figura 59 - Detalles**
 
--   **1**: Responsable -  indica para qué trabajador se ha asignado
+-   **1: Responsable** -  indica para qué trabajador se ha asignado
 
--   **2**: Cantidad - contabiliza los tickets asignados al operador
+-   **2: Cantidad** - contabiliza los tickets asignados al operador
 
--   **3**: ID - identificador único
+-   **3: ID** - identificador único
 
--   **4**: Tipo - indica si es una solicitud o un incidente
+-   **4: Tipo** - indica si es una solicitud o un incidente
 
--   **5**: Prioridad - indica el nivel de urgencia (Baja, Media o Alta)
+-   **5: Prioridad** - indica el nivel de urgencia (Baja, Media o Alta)
 
--   **6**: Estado de la SLA - indica la situación en relación a su plazo de
+-   **6: Estado de la SLA** - indica la situación en relación a su plazo de
     solución (En el plazo, A vencer, Vencida).
 
--   **7**: Solicitante - es quien pidió la ejecución
+-   **7: Solicitante** - es quien pidió la ejecución
 
--   **8**: Servicio - indica el tipo de servicio vinculado
+-   **8: Servicio** - indica el tipo de servicio vinculado
 
--   **9**: Actividad - indica el tipo de actividad vinculada
+-   **9: Actividad** - indica el tipo de actividad vinculada
 
 -   **10**: Límite indica la fecha y la hora límite de finalización
 
