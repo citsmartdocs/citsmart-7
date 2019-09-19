@@ -97,7 +97,7 @@ Importación de conogramas MS-Project para actividades de cambio
 Anexando plan de reversa (back-out)
 ----------------------------------------
 
-1. En la pantalla de lista de Gestión de Cambios → Botón Acción → Iniciar/Ejecutar tarea;
+1. En la pantalla de lista de **Gestión de Cambios > Botón Acción > Iniciar/Ejecutar tarea**;
 
     ![Gerenciamento](images/plan.img6.jpg)
     
