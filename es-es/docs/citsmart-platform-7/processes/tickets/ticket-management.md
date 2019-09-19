@@ -2037,7 +2037,7 @@ para todo el equipo.
     agrupan los tickets de cada asistente;
 
 3.  Haga clic en el icono ![ticket](images/management-91.png) . Se mostrará la pantalla principal de la
-    funcionalidad en modo de visualización "cuadro kaban", como se muestra en la
+    funcionalidad en modo de visualización "cuadro Kaban", como se muestra en la
     figura siguiente:
 
     ![ticket](images/management-76.png)
