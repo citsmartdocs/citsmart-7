@@ -19,7 +19,7 @@ Condiciones previas
 
 1.  Tener acceso a la funcionalidad de Plantillas
     Incidentes/Solicitudes/Procedimientos (ver conocimiento [Registro y consulta
-    de perfil de acceso[1]);
+    de perfil de acceso][1]);
 
 2.  Tener el grupo registrado (ver conocimiento [Registro y consulta de grupo][2]);
 
