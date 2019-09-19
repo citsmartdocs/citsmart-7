@@ -1,19 +1,20 @@
-title: Cadastro e pesquisa de risco de mudança
-Description: Esta funcionalidade tem por objetivo registrar os riscos envolvidos na mudança que serão utilizadas em outras rotinas do sistema.
-# Cadastro e pesquisa de risco de mudança
+title: Registro y consulta de riesgo de cambios
+Description: Esta funcionalidad tiene como objetivo registrar los riesgos involucrados en el cambio
+# Registro y consulta de riesgo de cambios
 
-Esta funcionalidade tem por objetivo registrar os riscos envolvidos na mudança que serão utilizadas em outras rotinas do sistema.
+Esta funcionalidad tiene como objetivo registrar los riesgos involucrados en el cambio que se utilizar en otras rutinas del 
+sistema.
 
-Como acessar
+Cómo aceder
 --------------
 
-1. Acesse a funcionalidade de risco através da navegação no menu principal **Processos ITIL > 
-Gerência de Mudança > Cadastrar Risco**.
+1. Acceda a la funcionalidad de riesgo a través de la navegación en el menú principal 
+**Procesos ITIL > Gestión de Cambios > Registrar Riesgo**.
 
-Pré-condições
----------------
+Condiciones previas
+-------------------------
 
-1. Ter a categoria de risco cadastrada (ver conhecimento [Cadastro e Pesquisa de Categoria de Risco](/pt-br/citsmart-platform-7/processes/continuity/risk-category.html));
+1. Tener la categoría de riesgo registrada (ver conocimiento Registro y consulta de categoría de riesgo](/pt-br/citsmart-platform-7/processes/continuity/risk-category.html));
 
 2. Ter a ameaça cadastrada (ver conhecimento [Cadastro e Pesquisa de Ameaça](/pt-br/citsmart-platform-7/processes/continuity/threat-registration.html)).
 
