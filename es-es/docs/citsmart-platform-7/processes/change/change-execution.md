@@ -87,7 +87,7 @@ Vinculación del problema al cambio
     **Figura 5 - Relacionamento de problema à mudança**
     
     - Si desea ver el registro de problemas relacionados con el cambio, simplemente haga clic en el icono 
-    ![simbolo](images/sim-iei.png) del mismo;
+    ![simbolo](images/simb-iei.jpg) del mismo;
     - Si desea eliminar un problema relacionado con el cambio, simplemente haga clic en el icono 
     ![simbolo](images/simb-menos.jpg) del mismo.
     
