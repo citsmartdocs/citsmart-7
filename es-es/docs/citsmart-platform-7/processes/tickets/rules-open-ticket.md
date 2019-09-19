@@ -1,36 +1,29 @@
-title: Regras sobre a abertura automática de solicitação de serviço via e-mail
-Description:Regras sobre a abertura automática de solicitação de serviço via e-mail
+title: Reglas sobre la apertura automática de la solicitud de servicio vía e-mail
+Description:Reglas sobre la apertura automática de la solicitud de servicio vía e-mail
 
-# Regras sobre a abertura automática de solicitação de serviço via e-mail
+# Reglas sobre la apertura automática de la solicitud de servicio vía e-mail
 
-[RN] Segue algumas das principais regras relacionadas com a abertura automática
-de solicitação de serviço via e-mail:
+[RN] Sigue algunas de las principales reglas relacionadas con la apertura automática de Solicitud de servicio vía e-mail:
 
-1.  Os e-mails que estiverem na caixa de entrada sem marcação de leitura serão
-    lidos e deles serão abertas solicitações de serviços.
+1.  Los mensajes de correo electrónico que se encuentren en la bandeja de entrada sin marcación de lectura se leerán y se abrirán solicitudes de servicio.
 
-2.  O sistema marca o e-mail como lido para que não haja duplicação de cadastro.
+2.  El sistema marca el e-mail como leído para que no haya duplicación de registro.
 
-3.  O sistema compara o e-mail do remetente com os cadastros internos para
-    verificar se é usuário.
+3.  El sistema compara el e-mail del remitente con los registros internos para verificar si es usuario.
 
-4.  Caso o remetente seja usuário do sistema: a solicitação é criada com ele
-    como solicitante.
+4.  Si el remitente es usuario del sistema: la solicitud se crea con él como solicitante.
 
-5.  Caso o remetente não seja usuário do sistema: a solicitação é criada com o
-    solicitante indicado na tela de configuração de abertura automática.
+5.  Si el remitente no es usuario del sistema: la solicitud se crea con el solicitante indicado en la pantalla de configuración de apertura automática.
 
-6.  Os anexos constantes do e-mail serão anexados à solicitação de serviço
-    criadas, observadas:
+6.  The attachments in the e-mail will be attached to the service request created, observed:
 
-    -  O parâmetro 318: Lista de extensões de arquivos que não poderão ser anexados
-    (Para mais de uma extensão separar por ponto e vírgula);
+    -  El parámetro 318: Lista de extensiones de archivos que no se pueden adjuntar (Para más de una extensión separar por punto y coma);
 
-    -  O parâmetro 278 : Tamanho máximo de arquivo, em bytes, para upload.
-    Default[1073741824] = 1GB
+    -  El parámetro 278: El tamaño máximo de archivo, en bytes para la carga. por default [1073741824] = 1 GB.
+
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Anna Martins
+    <b>Updated:</b>09/19/2019 – Anna Martins

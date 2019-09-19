@@ -1,202 +1,205 @@
-title: Cadastro e pesquisa de template de incidentes, requisições e procedimentos
-Description: Tem o objetivo de cadastrar um template para facilitar a abertura de uma nova solicitação.
+title: Registro y consuta de plantillas de incidents/solicitudes/procedimientos
+Description: Esta funcionalidad tiene por objetivo registrar una plantilla para facilitar la apertura de una nueva solicitud.
 
-# Cadastro e pesquisa de template de incidentes, requisições e procedimentos
+# Registro y consuta de plantillas de incidents/solicitudes/procedimientos
 
-Esta funcionalidade tem por objetivo cadastrar um template para facilitar a
-abertura de uma nova solicitação.
+Esta funcionalidad tiene por objetivo registrar una plantilla para facilitar la
+apertura de una nueva solicitud.
 
-Como acessar
+Cómo acceder
 ------------
 
-1.  Acesse a funcionalidade de Template de Incidentes/Requisições/Procedimentos
-    através da navegação no menu principal **Processos ITIL > Gerência de
-    Ticket > Templates Incidentes/Requisições/Procedimentos**.
+1.  Acceder a la funcionalidad de Plantillas de
+    Incidentes/Solicitud/Procedimentos a través de la navegación en el menú
+    principal **Procesos ITIL > Gestión de Ticket > Plantillas
+    Incidentes/Solicitudes/Procedimentos**.
 
-Pré-condições
--------------
+Condiciones previas
+-------------------
 
-1.  Ter acesso à funcionalidade de Templates
-    Incidentes/Requisições/Procedimentos (ver conhecimento [Cadastro e pesquisa
-    de perfil de acesso](1));
+1.  Tener acceso a la funcionalidad de Plantillas
+    Incidentes/Solicitudes/Procedimientos (ver conocimiento [Registro y consulta
+    de perfil de acceso][1]);
 
-2.  Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de
-    grupo](2));
+2.  Tener el grupo registrado (ver conocimiento [Registro y consulta de grupo][2]);
 
-3.  Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de
-    contrato](3));
+3.  Tener el contrato registrado (ver conocimiento [Registro y consulta de
+    contrato][3]);
 
-4.  Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de
-    unidade](4));
+4.  Tener la unidad registrada (ver conocimiento [Registro y consulta de
+    unidad][4]);
 
-5.  Ter o grupo vinculado ao contrato (ver conhecimento [Como relacionar grupo
-    ao contrato?](5));
+5.  Tener el grupo vinculado al contrato (ver conocimiento [¿Cómo relacionar el
+    grupo al contrato?][5]);
 
-6.  Ter a unidade vinculada ao contrato (ver conhecimento [Como relacionar
-    unidade ao contrato?](6));
+6.  Tener la unidad vinculada al contrato (ver conocimiento [¿Cómo relacionar la
+    unidad al contrato?][6]);
 
-7.  Ter o portfólio com o serviço e as atividades de requisição e incidente
-    cadastrados (ver conhecimentos [Cadastro de portfólio de serviços](7), [Cadastro
-    de serviços](8)), [Configuração dos atributos do serviço](9));
+7.  Tener el portafolio con el servicio y las actividades de solicitud e
+    incidente registrados (ver conocimientos [Registro del portafolio de
+    servicios][7], [Registro de servicios][8], [Configuración de los atributos de
+    servicio][9]);
 
-8.  Ter o tempo de atendimento das atividades de requisição e incidente
-    definidos (ver conhecimento [Cadastro e pesquisa de tempo de
-    atendimento](10));
+8.  Tener el tiempo de atención de las actividades de solicitud e incidente
+    definidas (ver conocimiento [Registro y consulta del tiempo de atención][10]);
 
-9.  Ter o contrato vinculado ao serviço (Ver conhecimento [Configuração dos
-    atributos do serviço](11));
+9.  Tener el contrato vinculado al servicio (ver conocimiento [Configuración de
+    los atributos de servicio][11]);
 
-10. Ter as atividades de requisição e incidente vinculadas ao contrato do
-    serviço (ver conhecimento [Configuração dos atributos do contrato do
-    serviço](12));
+10. Tener las actividades de solicitud e incidente vinculadas al contrato del
+    servicio (ver conocimiento [Configuraciones de los atributos del contrato
+    del servicio][12]);
 
-11. Informe o conteúdo abaixo no parâmetro (ver conhecimento [Regras de
-    parametrização - Ticket](13)):
+11. Introduzca el contenido debajo del parámetro (ver conocimiento [Reglas de
+    parametrización - Ticket][13]):
 
-    -   Parâmetro 9: definir o grupo de 1º nível para o atendimento da solicitação.
+      -   Parámetro 9: definir el grupo de 1º nivel para la atención de la solicitud.
 
-1.  O solicitante deve estar incluído no grupo que está vinculado ao contrato
-    para que seja possível registrar a solicitação.
+12.  El solicitante debe estar incluido en el grupo que está vinculado al
+    contrato para que sea posible registrar la solicitud.
 
 Filtros
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  El siguiente filtro permite al usuario restringir la participación de
+    elementos en el listado default de la funcionalidad, facilitando la
+    localización de los elementos deseados:
 
-    -   Nome.
+  -   Nombre
 
-    ![template](images/template-incident-1.png)
+   ![template](images/template-incident-1.png)
+   
+   **Figura 1 - Pantalla de consulta de plantillas incidentes/solicitudes/procedimientos**
 
-    **Figura 1 - Tela de pesquisa de template incidentes/requisições/procedimentos**
+2.  Realiza la búsqueda dela plantilla;
 
-1.  Realize a pesquisa do template;
+   -   Introduzca el nombre de la plantilla que desea buscar y haga clic en el
+    botón *Consultar*. Después de eso, se mostrará el registro de la plantilla
+    según el nombre informado;
 
--   Informe o nome do template que deseja pesquisar e clique no
-    botão *Pesquisar*. Após isso, será exibido o registro do template conforme o
-    nome informado;
+   -   Si desea listar todos los registros de plantilla, simplemente haga clic
+    directamente en el botón *Consultar*;
 
--   Caso deseje listar todos os registros de template, basta clicar diretamente
-    no botão *Pesquisar.*
+Listado de ítems
+----------------
 
-Listagem de itens
------------------
+1.  El(Los) siguiente (s) campo (s) de registro está (n) disponible (s) para
+    facilitar al usuario la identificación de los elementos deseados en el
+    listado default de la funcionalidad: **Nombre**.
+   
+   ![template](images/template-incident-2.png)
+   
+   **Figura 2 - Pantalla de la lista de plantillas incidentes/solicitudes/procedimientos**
 
-1.  O seguinte campo cadastral está disponível ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Nome.**
+2.  Despues de la búsqueda, selccione el registro deseado. Hechos esto, será
+    redireccionado para una nueva pestaña de registro mostrando el contenido
+    referente al registro seleccionado.
 
-    ![template](images/template-incident-2.png)
+3.  Para cambiar los datos del registro de plantilla, basta con modificar la
+    información de los campos deseados y hacer clic en el botón *Grabar* para
+    que se grabe el cambio realizado en el registro, donde la fecha, hora y
+    usuario serán grabados automáticamente para una futura auditoría;
 
-    **Figura 2 - Tela de listagem de templates incidentes/requisições/procedimentos**
+Completar los campos de registro
+--------------------------------
 
-1.  Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado
-    para a aba de cadastro exibindo o conteúdo referente ao registro
-    selecionado;
+1.  Se mostrará la pantalla de registro de Plantillas de
+    Incidentes/Solicitud/Procedimientos, como se muestra en la figura siguiente:
 
-2.  Para alterar os dados do registro de template, basta modificar as
-    informações dos campos desejados e clicar no botão *Gravar* para que seja
-    gravada a alteração realizada no registro, onde a data, hora e usuário serão
-    gravados automaticamente para uma futura auditoria.
+   ![template](images/template-incident-3.png)
+   
+   **Figura 3 - Pantalla de registro de plantillas**
 
-Preenchimento dos campos cadastrais
------------------------------------
+2.  Complete los campos según la siguiente orientación:
 
-1.  Será apresentada a tela de cadastro de Template de
-    Incidentes/Requisições/Procedimentos, conforme ilustrada na figura abaixo:
-    
-    ![template](images/template-incident-3.png)
+    -   **Nombre**: informe el nombre del Incidente, Solicitud o Procedimiento;
 
-    **Figura 3 - Tela de cadastro de template**
+    -   **Solicitante**: informe el nombre del solicitante, es decir, el nombre de
+    la persona que está solicitando la apertura de incidente o solicitud de
+    servicio;
 
-1.  Preencha os campos conforme orientação abaixo:
+    -   **E-mail**: informe el e-mail del solicitante;
 
-    -   **Nome**: informe o nome do Incidente, Requisição ou Procedimento;
+    -   **Origen Contacto**: informe el origen de la solicitud;
 
-    -   **Solicitante**: informe o nome do solicitante, ou seja, o nome da pessoa
-    que está solicitando a abertura de incidente ou requisição de serviço;
+    -   **Catálogo**: este campo será establecido por el sistema después de informar
+    al solicitante y el contrato. En caso de que el contrato seleccionado sea
+    del tipo "contrato", se mostrará en este campo la información del Catálogo
+    de Servicios de "Negocio" y si el contrato seleccionado es del tipo
+    "contrato de apoyo" o "acuerdo de nivel operacional", se mostrará en este
+    campo la información del Catálogo de Servicios "Técnico";
 
-    -   **E-mail**: informe o e-mail do solicitante;
+    -   **Servicio**: informe al servicio del catálogo de servicios. Si el catálogo
+    de servicios es de "negocio", se pondrán a disposición en este campo los
+    servicios de negocio para selección, pero si el catálogo de servicios es
+    "técnico", estarán disponibles en este campo los servicios de apoyo /
+    técnico para selección;
 
-    -   **Origem do Contato**: informe a origem da solicitação;
+    -   **Servicio categoría de uso**: marque este campo, si decide buscar los
+    servicios por categoría;
 
-    -   **Catálogo**: esse campo será estabelecido pelo sistema após informar o
-    solicitante e contrato. Caso o contrato selecionado seja do tipo "contrato",
-    será exibida neste campo a informação do Catálogo de Serviços de "Negócio" e
-    caso o contrato selecionado seja do tipo "contrato de apoio" ou "acordo de
-    nível operacional", será exibida neste campo a informação do Catálogo de
-    Serviços "Técnico";
+    -   **Categoría del Servicio**: si ha optado por la búsqueda de servicios por
+    categoría, introduzca la categoría de servicio deseada. La categoría del
+    servicio identificará la naturaleza del servicio, colocándolo dentro de
+    grupos similares de actuación, situándolo en la jerarquía de su categoría;
 
-    -   **Serviço**: informe o serviço referente ao catálogo de serviços. Se o
-    catálogo de serviços for de "negócio", serão disponibilizados neste campo os
-    serviços de negócio para seleção, mas se o catálogo de serviços for
-    "técnico", serão disponibilizados neste campo os serviços de apoio/técnico
-    para seleção;
+    -   **Tipo de solicitación**: informe el tipo de solicitud, si es una apertura de incidente, solicitud de servicio o procedimiento;
 
-    -   **Utilizar a categoria de serviço**: marque este campo, se optar buscar os
-    serviços por categoria;
+        -   **Incidente**: si la situación presentada es una interrupción no
+            planificada, una reducción en la calidad del servicio o el fallo de
+            algún ítem de configuración que aún no haya impactado en un servicio de
+            TI. Ejemplo: El vínculo de red está fuera, la red es lenta, el servidor
+            inaccesible, etc.
 
-    -   **Categoria de Serviço**: caso tenha optado pela busca de serviços por
-    categoria, informe a categoria de serviço desejado. A categoria do serviço
-    irá identificar a natureza do serviço, posicionando-o dentro de grupos
-    semelhantes de atuação, situando-o na hierarquia de sua categoria;
+        -   **Solicitud**: se refiere a las solicitudes de demandas realizadas por
+            los usuarios dentro del ambiente de la Tecnología de la Información.
+            Pueden ser desde solicitudes de acceso hasta sugerencias de mejora a
+            bajo costo. Ejemplo: solicitud de acceso a la red para un nuevo usuario,
+            solicitud de configuración de algún equipo, solicitud para agregar algún
+            software en la estación de trabajo, etc.
 
-    -   **Tipo de solicitação**: informe o tipo da solicitação, se é uma abertura de
-    incidente, requisição de serviço ou procedimento;
+        -   **Procedimento**: se refiere al procedimiento de continuidad del
+            servicio de TI en caso de incidencia crítica.
 
-        -   **Incidente**: caso a situação apresentada seja uma interrupção não
-        planejada, uma redução na qualidade do serviço ou falha de algum item de
-        configuração que ainda não tenha impactado um serviço de TI. Ex: o link
-        de rede está fora, a rede está lenta, o servidor inacessível, etc.
+    -   **Incidente/Solicitud/Procedimiento**: informe el servicio que se realizará;
 
-        -   **Requisição**: refere-se aos pedidos de demandas realizados pelos
-        usuários dentro do ambiente da Tecnologia da Informação. Podem ser desde
-        pedidos de acesso até sugestões de melhoria a baixo custo. Ex: pedido de
-        acesso à rede para um novo usuário, solicitação de configuração de algum
-        equipamento, requisição para adicionar algum software na estação de
-        trabalho, etc.
+    -   **Contrato**: informe el contrato para el cual se hará la solicitud;
 
-        -   **Procedimento**: refere-se ao procedimento de continuidade do serviço
-        de TI, no caso de ocorrência de incidente crítico.
+    -   **Unidad**: informe a la unidad del solicitante;
 
-    -   **Incidente/Requisição/Procedimento**: informe o serviço que será realizado;
+    -   **Urgencia**: indique la velocidad en la cual el servicio necesita ser
+    realizado;
 
-    -   **Contrato**: informe o contrato para qual será feita a solicitação;
+    -   **Impacto**: indique el impacto en el negocio;
 
-    -   **Unidade**: informe a unidade do solicitante;
+    -   **Descripción**: informe la descripción de la solicitud. La descripción debe
+    ser objetiva, incluyendo toda la información necesaria para la atención de
+    la solicitud;
 
-    -   **Urgência**: indique a velocidade na qual o serviço precisa ser realizado;
+    -   **Ítem Configuración**: introduzca el item de configuración correspondiente
+    a la solicitud.
 
-    -   **Impacto**: indique o impacto ao negócio;
+3.  Después de los datos informados, haga clic en el botón *Grabar* para
+    efectuar el registro, donde la fecha, hora y usuario se guardarán
+    automáticamente para una futura auditoría.
 
-    -   **Descrição**: informe a descrição da solicitação. A descrição deve ser
-    objetiva, incluindo toda informação necessária para o atendimento da
-    solicitação;
 
-    -   **Item Configuração**: informe o item de configuração referente a
-    solicitação.
-
-1.  Após os dados informados, clique no botão *Gravar* para efetuar o registro,
-    onde a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria.
-
-[1]:/pt-br/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
-[2]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
-[3]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
-[4]:/pt-br/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html
-[5]:#
-[6]:#
-[7]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
-[8]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/services.html
-[9]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
-[10]:/pt-br/citsmart-platform-7/processes/service-level/time-attendance.html
-[11]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
-[12]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/contract-attributes.html
-[13]:/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrizaion-ticket.html
+[1]:/es-es/citsmart-platform-7/initial-settings/access-settings/profile/user-profile.html
+[2]:/es-es/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[3]:/es-es/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[4]:/es-es/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html
+[5]:/en-us/citsmart-platform-7/processes/tickets/relate-group.html
+[6]:/en-us/citsmart-platform-7/processes/tickets/relate-unit.html
+[7]:/es-es/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+[8]:/es-es/citsmart-platform-7/processes/portfolio-and-catalog/services.html
+[9]:/es-es/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
+[10]:/es-es/citsmart-platform-7/processes/service-level/time-attendance.html
+[11]:/es-es/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
+[12]:/es-es/citsmart-platform-7/processes/portfolio-and-catalog/contract-attributes.html
+[13]:/es-es/citsmart-platform-7/plataform-administration/parameters-list/parametrizaion-ticket.html
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/10/2019 – Anna Martins
+    <b>Updated:</b>09/19/2019 – Anna Martins

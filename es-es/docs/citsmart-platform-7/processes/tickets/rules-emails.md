@@ -1,25 +1,25 @@
-title: Regras para envio de e-mails automáticos com ou sem os anexos do ticket
-Description: Tem o objetivo de orientar quanto aos anexos do ticket por email.
+title: Reglas para el envío de correos electrónicos con o sin los anexos del Ticket
+Description: Reglas para el envío de correos electrónicos con o sin los anexos del Ticket.
 
-# Regras para envio de e-mails automáticos com ou sem os anexos do ticket
+# Reglas para el envío de correos electrónicos con o sin los anexos del Ticket
 
-Notificação automática **com** os anexos:
+Notificación automática **con** los adjuntos:
 
-  a)  Ao cadastrar um Ticket pelo Smart Portal ou pela funcionalidade de Ticket
+a) Al registrar un Ticket por el Smart Portal o por la funcionalidad de Ticket
 
-  b)  Ao suspender um solicitação
+b) Al suspender una solicitud
 
-  c)  Quando Encerra um Ticket
+c) Cuando cierra un Ticket
 
-Notificação automática **sem** os anexos:
+Notificación automática **sin** los adjuntos:
 
-  a)  Ao reativar um Ticket
+a) Al reactivar un Ticket
 
-  b)  Ao reabrir um Ticket
+b) Al reabrir un Ticket
 
-  c)  Ao delegar um Ticket
+c) Al delegar un Ticket
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Anna Martins
+    <b>Updated:</b>09/19/2019 – Anna Martins

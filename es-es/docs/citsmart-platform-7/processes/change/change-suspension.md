@@ -1,87 +1,86 @@
-title: Suspensão de requisição de mudança
-Description: Esta funcionalidade permite suspender requisição de mudança.
-# Suspensão de requisição de mudança
+title: Suspensión de solicitud de cambios
+Description: Esta característica permite suspender la solicitud de cambio.
+# Suspensión de solicitud de cambios
 
-Esta funcionalidade permite suspender requisição de mudança.
+Esta característica permite suspender la solicitud de cambio.
 
-Como acessar
+Cómo acceder
 --------------
 
-1. Acesse a funcionalidade de suspensão de requisição de mudança através da navegação no menu principal
-**Processos ITIL > Gerência de Mudança > Gerenciamento de Mudança**. Na guia **Gerenciamento**, localize a requisição de
-mudança que deseja suspender, clique no botão "Ação" e selecione a opção "Suspender mudança".
+1. Acceda a la funcionalidad de suspensión de solicitud de cambio a través de la navegación en el menú principal 
+**Procesos ITIL > Gestión de Cambios > Gestión de Cambios**. En la ficha Gerenciamiento, busque la solicitud de cambio que desea 
+suspender, haga clic en el botón *Acción* y seleccione la opción *Suspender cambio*.
 
-Pré-condições
----------------
+Condiciones previas
+----------------------
 
-1. Ter a justificativa de requisição de mudança cadastrada (ver conhecimento 
-[Cadastro e Pesquisa de Justificativa de Requisição de Mudança](/pt-br/citsmart-platform-7/processes/change/change-justification.html))
+1. Tener la justificación de solicitud de cambio catastrada (ver conocimiento [Registro y consulta de justificación de solicitud de cambio](/es-es/citsmart-platform-7/processes/change/change-justification.html))
 
 Filtros
 ----------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+1. Los siguientes filtros posibilitan al usuario restringir la participación de ítems en el listado default de la funcionalidad, 
+facilitando la localización de los ítems deseados:
 
-    - Número da mudança;
+    - Número del cambio;
 
-    - Atribuída/Compartilhada;
+    - Asignada/Compartida;
 
-    - Itens por página.
+    - Ítems por página.
 
-    ![Pesquisa](images/susp-mud.img1.png)
+    ![Pesquisa](images/suspen.img1.jpg)
 
-    **Figura 1 - Tela de pesquisa de mudança**
+    **Figura 1 - Pantalla de consulta de cambio**
 
-Listagem de itens
+Listado de ítens
 -------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na
-listagem padrão da funcionalidade: Número, Solicitante, Criada em, Prioridade, Prazo, Prazo limite, Atraso, Situação,
-Tarefa atual, Grupo Executor e Responsável atual.
+1. El(Los) siguiente (s) campo (s) de registro está (n) disponible (s) para facilitar al usuario la identificación de los 
+elementos deseados en el listado default de la funcionalidad: **Número, Solicitante, Creada en, Prioridad, Plazo, Plazo límite, 
+Atraso, Situación, Tarea Actual, Grupo Ejecutor** y **Responsable actual**.
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Visualizar", "Relatórios" 
-e "Ação".
+2. Hay botones de acción disponibles para el usuario en relación con cada elemento de la lista, que son: *Ver*, *Informes* y *Acción*.
 
-![Listagem](images/susp-mud.img2.png)
+![Listagem](images/suspen.img2.jpg)
 
-**Figura 2 - Tela de listagem de mudança**
+**Figura 2 - Pantalla de lista de cambio**
 
-Preenchimento dos campos cadastrais
+Completar los campos de registro
 ------------------------------------
 
-1. Não se aplica.
+1. No se aplica.
 
-Suspendendo requisição de mudança
------------------------------------
+Suspendiendo requisitos de cambio
+---------------------------------------
 
-1. Na guia **Gerenciamento**, localize a requisição de mudança que deseja suspender, clique no botão "Ação" e selecione a opção
-"Suspender mudança", conforme indicado na imagem abaixo:
+1. En la ficha **Gestión**, busque la solicitud de cambio que desea suspender, haga clic en el botón *Acción* y seleccione la 
+opción *Suspender cambio*, como se indica en la siguiente imagen:
 
-    ![Botão](images/susp-mud.img3.png)
+    ![Botão](images/suspen.img3.jpg)
     
-    **Figura 3 - Botão suspender mudança**
+    **Figura 3 - Botón de suspensión**
     
-2. Será exibida uma janela para registro da justificativa de suspensão da requisição de mudança:
+2. Se mostrará una ventana para el registro de la justificación de suspensión de la solicitud de cambio:
 
-    ![Suspensão](images/susp-mud.img4.png)
+    ![Suspensão](images/suspen.img4.jpg)
     
-    **Figura 4 - Registro de suspensão de requisição de mudança**
+    **Figura 4 - Registro de suspensión de solicitud de cambio**
     
-    - **Justificativa**: selecione a Justificativa da suspensão da requisição de mudança;
-    - **Complemento da justificativa**: informe o complemento da justificativa de suspensão da requisição de mudança;
-    - Após informar os dados, clique no botão "Gravar" e será exibida uma mensagem para confirmação da suspensão, clique em "OK" 
-    para efetuar a operação, onde a data, hora e usuário serão gravados automaticamente para uma futura auditoria;
-    - O botão "Cancelar", ao ser clicado, cancela a operação e retorna à tela de Gerenciamento de Mudanças.
+    - **Justificación**: seleccione la Justificación de la suspensión de la solicitud de cambio;
+    - **Complemento de la justificación**: informe el complemento de la justificación de suspensión de la solicitud de cambio;
+    - Después de informar los datos, haga clic en el botón *Grabar* y aparecerá un mensaje para confirmar la suspensión, haga 
+    clic en Aceptar para efectuar la operación, donde la fecha, hora y usuario se guardarán automáticamente para una futura 
+    auditoría;
+    - El botón *Cancelar*, al hacer clic, cancela la operación y vuelve a la pantalla de Gestión de cambios.
     
-3. Após a suspensão da requisição de mudança, a mesma será atualizada na lista de requisições de mudança, mudando a
-situação para **Suspensa**, conforme indicado na imagem abaixo:
+3. Después de la suspensión de la solicitud de cambio, la misma será actualizada en la lista de requisiciones de cambio, 
+cambiando la situación a **Suspendida**, como se indica en la siguiente imagen:
 
-![Suspensa](images/susp-mud.img5.png)
+![Suspensa](images/suspen.img5.jpg)
 
-**Figura 5 - Requisição de mudança suspensa**
+**Figura 5 - Solicitud de cambio suspendido**
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Larissa Lourenço
+    <b>Updated:</b>09/19/2019 – Larissa Lourenço
