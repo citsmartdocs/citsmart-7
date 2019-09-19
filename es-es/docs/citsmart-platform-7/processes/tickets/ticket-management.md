@@ -1129,7 +1129,7 @@ Validación y cierre del ticket
     
     **Figura 27 - Registro del ticket**
 
-3.  En el campo** Registro de ejecución**, describa la información sobre la
+3.  En el campo **Registro de ejecución**, describa la información sobre la
     ejecución de su actividad;
 
 4.  Después de la validación de la atención del ticket, haga clic en el botón de
