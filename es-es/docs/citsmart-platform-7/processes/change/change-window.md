@@ -1,71 +1,71 @@
-title: Janela de mudança
-Description: Gerenciar os períodos em que a organização passa por um momento de manutenção ou blackout e assim ajudar no planejamento de uma mudança.
-# Janela de mudança
+title: Ventana de Cambios
+Description: Gerenciar los períodos en que la organización pasa por un momento de mantenimiento
+# Ventana de Cambios
 
-Gerenciar os períodos em que a organização passa por um momento de manutenção ou
-blackout e assim ajudar no planejamento de uma mudança.
+Gerenciar los períodos en que la organización pasa por un momento de mantenimiento o apagón y así ayudar en la planificación de 
+un cambio.
 
-Como acessar
+Cómo acceder
 -------------
 
-1. Acesse a funcionalidade de janela de mudança através da navegação no menu principal 
-**Processos ITIL > Gerência de Mudanças > Janela de Mudança**.
+1. Acceda a la funcionalidad de ventana de cambio a través de la navegación en el menú principal 
+**Procesos ITIL > Gestión de Cambios > Ventanas para el Cambios**.
 
-Pré-condições
+Condiciones previas
 ---------------
 
-1. Não se aplica.
+1. No se aplica.
 
 Filtros
 ---------
 
-1. Não se aplica.
+1. No se aplica.
 
-Listagem de itens
+Listado de ítems
 -------------------
 
-1. Não se aplica.
+1. No se aplica.
 
-Preenchimento dos campos cadastrais
+Completar los campos de registro
 -------------------------------------
 
-1. Será apresentada a tela de janela de mudança em formato de calendário, onde poderão ser
-visualizados períodos de manutenção e blackout, conforme ilustrada na figura abaixo:
+1. Se mostrará la pantalla de ventana de cambio en formato de calendario, donde podrán visualizarse períodos de mantenimiento y 
+blackout, como se muestra en la figura siguiente:
 
-    ![Janela](images/jane-mud.img1.png)
+    ![Janela](images/janela.img1.jpg)
     
-    **Figura 1 - Calendário de janela de mudança**
+    **Figura 1 - Calendario de ventana de cambio**
     
-2. Para cadastrar nova janela de mudança, clique na data que desejar que será apresentada a tela para cadastro de 
-janela de mudança, conforme ilustrado abaixo:
+2. Para registrar una nueva ventana de cambio, haga clic en la fecha que desea que aparezca la pantalla para registro de ventana 
+de cambio, como se muestra a continuación:
 
-    ![Janela](images/jane-mud.img2.png)
+    ![Janela](images/janela.img2.jpg)
     
-    **Figura 2 - Janela de mudança**
+    **Figura 2 - Ventana de cambio**
     
-    - **Janela de Mudança**: informe a descrição para identificar a janela de mudança;
-    - **Tipo**: selecione o tipo da janela de mudança:
-        - **Manutenção**: estabelece períodos de tempo em que as mudanças no IC ocorrerão;
-        - **Blackout**: estabelecem períodos de tempo em que as mudanças no IC não devem ocorrer.
-    - **Global**: esse campo deve ser marcado para uma janela de manutenção que não pode ter IC's associados;
+    - **Ventana para el Cambio**: informe la descripción para identificar la ventana de cambio;
+    - **Tipo**: seleccione el tipo de ventana de cambio:
+        - **Mantenimiento**: establece períodos de tiempo en que los cambios en el IC ocurrirá;
+        - **Desactivación**: establecen períodos de tiempo en que los cambios en el IC no deben ocurrir.
+    - **Global**: este campo se debe marcar para una ventana de mantenimiento que no puede tener IC asociados;
     
     !!! info "IMPORTANTE"
     
-        Esse campo só deve ser marcado para janela de mudança do tipo "Manutenção".
+        Este campo sólo se debe marcar para la ventana de cambio del tipo "Mantenimiento".
         
-    - **Data/Hora Início**: informe a data e o horário de início de interrupção para execução da janela de mudança;
-    - **Data/Hora Fim**: informe a data e o horário final de interrupção para execução da janela de mudança;
-    - **Detalhes**: informe os detalhes da janela de mudança, por exemplo, causa raiz, propósito etc;
-    - **Recorrência**: se houver, informe a recorrência dessa janela de mudança, assim poderá reprogramar automaticamente
-    a janela de mudança com as seguintes recorrências:
-        - **Diária**: informe a data limite para a recorrência diária;
-        - **Semanal**: informe a data limite para a recorrência semanal e selecione os dias da semana que desejar, além 
-        do dia da semana que está sendo cadastrada a janela de mudança;
-        - **Mensal**: informe a data limite para a recorrência mensal;
-        - **Anual**: informe a data limite para a recorrência anual.
+    - **Fecha/Hora Inicial**: introduzca la fecha y la hora de inicio de interrupción para ejecutar la ventana de cambio;
+    - **Fecha/Hora Final**: informe la fecha y la hora final de interrupción para la ejecución de la ventana de cambio;
+    - **Detalles**: informe los detalles de la ventana de cambio, por ejemplo, causa raíz, propósito, etc.
+    - **Repetición**: si existe, informe la recurrencia de esa ventana de cambio, así podrá reprogramar automáticamente la 
+    ventana de cambio con las siguientes recurrencias:
+        - **Diária**: informe la fecha límite para la recurrencia diaria;
+        - **Semanal**:  informe la fecha límite para la repetición semanal y seleccione los días de la semana que desee, además 
+        del día de la semana que está siendo registrada la ventana de cambio;
+        - **Mensual**: informe la fecha límite para la recurrencia mensual;
+        - **Anualmente: informe la fecha límite para la recurrencia anual.
         
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Larissa Lourenço
+    <b>Updated:</b>09/19/2019 – Larissa Lourenço
        
