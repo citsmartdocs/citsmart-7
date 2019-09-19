@@ -28,16 +28,16 @@ Condiciones previas
 -------------------
 
 1.  Tener un contrato registrado y activo (ver conocimiento [Registro y consulta
-    de contrato][]);
+    de contrato][1]);
 
 2.  Tener una solicitud de servicio registrada (ver conocimiento [Gestión de
-    ticket (servicios)][]) y estar vinculada al contrato;
+    ticket (servicios)][2]) y estar vinculada al contrato;
 
 3.  Configurar la conexión de CITSmart Event Monitor (ver conocimiento [Conexión
-    CITSmart Event Monitor][]);
+    CITSmart Event Monitor][3]);
 
 4.  Configurar e instalar la herramienta de supervisión (ver
-    conocimiento [Manual de instalación del componente CITSmart Inventory][]).
+    conocimiento [Manual de instalación del componente CITSmart Inventory][4]).
 
 Filtros
 -------
@@ -52,30 +52,30 @@ Filtros
 
 2.  Llene los campos de acuerdo con las siguientes directrices:
 
-    -   **EVM - CITSmart Event Mnoitor Conexión: **Conexión del Citsmart Event
+    -   **EVM - CITSmart Event Mnoitor Conexión**: Conexión del Citsmart Event
     Monitor: informe la conexión del Citsmart Event Monitor;
 
-    -   **Eventos Globais: **seleccione la opción deseada;
+    -   **Eventos Globais**: seleccione la opción deseada;
 
-    -   **Clasificación: **informe la clasificación del evento que desea analizar;
+    -   **Clasificación**: informe la clasificación del evento que desea analizar;
 
-    -   **Herramienta de Monitoración - Conexión: **informe a la herramienta de
+    -   **Herramienta de Monitoración - Conexión**: informe a la herramienta de
     monitoreo;
 
-    -   **Ítem de Configuración Padre:** informe el ítem de configuración padre;
+    -   **Ítem de Configuración Padre**: informe el ítem de configuración padre;
 
-    -   **Ítem de Configuración Gestionado: **introduzca el ítem de configuración
+    -   **Ítem de Configuración Gestionado**: introduzca el ítem de configuración
     administrado;
 
-    -   **Grupo de categoría de ocurrencia: **seleccione el grupo de categorías de
+    -   **Grupo de categoría de ocurrencia**: seleccione el grupo de categorías de
     eventos.
 
-    -   **Categoría de ocurrencia: **seleccione la categoría de ocurrencia de
+    -   **Categoría de ocurrencia**: seleccione la categoría de ocurrencia de
     eventos;
 
-    -   **Cantidad Crítica: **informe la cantidad crítica;
+    -   **Cantidad Crítica**: informe la cantidad crítica;
 
-    -   **Período de ocurrencia:** informe el período deseado, con la fecha de
+    -   **Período de ocurrencia**: informe el período deseado, con la fecha de
         inicio y fecha final de ocurrencia de evento.
 
 Listado de ítems
@@ -90,16 +90,16 @@ Listado de ítems
     esto, el sistema filtrar y totalizar los eventos que atiendan a los filtros
     seleccionados y generará cuatro guías de resultados, siendo:
 
-    -   **Clasificación: **en esta guía se presentan las ocurrencias de eventos por
+    -   **Clasificación**: en esta guía se presentan las ocurrencias de eventos por
     clasificación
 
-    -   **Ítem de Configuración: **en esta guía se muestran las ocurrencias de
+    -   **Ítem de Configuración**: en esta guía se muestran las ocurrencias de
     eventos por ítem de configuración.
 
-    -   **Servicio Técnico: **en esta guía se presentan las ocurrencias de eventos
+    -   **Servicio Técnico**: en esta guía se presentan las ocurrencias de eventos
     por servicio técnico.
 
-    -   **Catálogo de Negocios: **en esta guía se presentan las ocurrencias de
+    -   **Catálogo de Negocios**: en esta guía se presentan las ocurrencias de
     eventos por servicios de negocios.
 
     -   Pantalla Classificación:
@@ -150,4 +150,4 @@ Listado de ítems
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/10/2019 – Anna Martins
+    <b>Updated:</b>09/19/2019 – Anna Martins
