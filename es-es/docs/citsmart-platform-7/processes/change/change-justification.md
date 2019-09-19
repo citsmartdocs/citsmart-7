@@ -1,79 +1,80 @@
-title: Cadastro e pesquisa de justificativa de requisição de mudança
-Description: Esta funcionalidade tem por objetivo registrar a justificativa de requisição de mudança que será utilizado em outras rotinas do sistema.
-# Cadastro e pesquisa de justificativa de requisição de mudança
+title: Registro y consulta de justificación de solicitud de cambio
+Description: Esta funcionalidad tiene por objeto registrar la justificación de solicitud de cambio
+# Registro y consulta de justificación de solicitud de cambio
 
-Esta funcionalidade tem por objetivo registrar a justificativa de requisição de mudança que será utilizado em outras rotinas do sistema.
+Esta funcionalidad tiene por objeto registrar la justificación de solicitud de cambio que se utilizará en otras rutinas del 
+sistema.
 
-Como acessar
+Cómo acceder
 ---------------
 
-1. Acesse a funcionalidade de Pesquisa de Liberação através da navegação no menu principal 
-**Processos ITIL > Gerência de Mudança > Justificativa Requisição Mudança**.
+1. Acceda a la funcionalidad de búsqueda de liberación mediante la navegación en el menú principal 
+**Procesos ITIL > Gestión de Cambios > Justificación Solicitud Cambio**.
 
-Pré-condições
----------------
+Condiciones previas
+---------------------
 
-1. Não se aplica.
+1. No se aplica.
 
 Filtros
 ---------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados, conforme ilustrado na figura abaixo:
+1. Los siguientes filtros permiten al usuario restringir la participación de ítems en el listado default de la funcionalidad, 
+facilitando la localización de los ítems deseados, como se muestra en la figura siguiente:
 
-    - Descrição;
-    - Situação.
+    - Descripción;
+    - Situación.
     
-    ![Pesquisa](images/just-mud.img1.png)
+    ![Pesquisa](images/justificacion.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de justificativa de requisição de mudança**
+    **Figura 1 - Pantalla de búsqueda de justificación de solicitud de cambio**
     
-2. Na tela de cadastro de justificativa de requisição de mudança, clique no botão "Pesquisa". Será apresentada a tela de
-justificativa de requisição mudança, conforme ilustrada na figura a seguir. Nesta tela, são exibidas as justificativas 
-de requisição mudança registradas para visualização.
+2. En la pantalla de registro de justificación de solicitud de cambio, haga clic en el botón *Consulta*. Se mostrará la pantalla 
+de justificación de solicitud de cambio, como se muestra en la figura siguiente. En esta pantalla, se muestran las 
+justificaciones de solicitud de cambio registradas para la visualización.
 
-Listagem de itens
+Listado de ítems
 -------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem 
-padrão da funcionalidade: **Descrição** e **Situação**.
+1. El(Los) siguiente (s) campo (s) de registro está (n) disponible (s) para facilitar al usuario la identificación de los 
+elementos deseados en el listado default de la funcionalidad: **Descripción** y **Situación**.
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Editar" e "Excluir".
+2. Hay botones de acción disponibles para el usuario en relación con cada elemento de la lista, que son: *Editar* y *Eliminar*.
 
-    ![Itens](images/just-mud.img2.png)
+    ![Itens](images/justificacion.img2.jpg)
     
-    **Figura 2 - Tela de itens**
+    **Figura 2 - Pantalla de ítems**
     
-3. Para realizar a pesquisa de uma justificativa de requisição de mudança, informe a descrição e/ou situação da mesma. Após
-isso, será exibido o registro conforme os dados informados;
+3. Para realizar la investigación de una justificación de solicitud de cambio, informe la descripción y/o situación de la misma. 
+Después de eso, se mostrará el registro según los datos informados;
 
-4. Para alterar os dados do registro de justificativa de requisição de mudança, clique no botão "Editar". Feito isso, será 
-direcionado para a tela de cadastro exibindo o conteúdo referente ao registro selecionado.
+4. Para cambiar los datos del registro de justificación de solicitud de cambio, haga clic en el botón Editar. Hecho esto, será 
+dirigido a la pantalla de registro mostrando el contenido referente al registro seleccionado.
 
-Preenchimento dos campos cadastrais
+Completar los campos de registro
 -------------------------------------
 
-1. Clique no botão "Novo". Feito isso, será apresentada a tela de cadastro de justificativa de requisição de mudança,
-conforme ilustrada na figura a seguir:
+1. Haga clic en el botón *Nuevo*. Hecho esto, se presentará la pantalla de registro de justificación de solicitud de cambio, como 
+se muestra en la figura siguiente:
 
-    ![Cadastro](images/just-mud.img3.png)
+    ![Cadastro](images/justificacion.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de justificativa de requisição de mudança**
+    **Figura 3 - Pantalla de registro de justificación de solicitud de cambio**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Rellene los campos según las instrucciones a continuación:
 
-    - **Descrição**: informe a descrição da justificativa de requisição de mudança;
-    - **Situação**: selecione a situação da justificativa de requisição de mudança.
-    - **Suspenso**: informe se a justificativa será para suspensão da requisição de mudança, 
-    selecionando uma das opções (Não ou Sim);
+    - **Descripción**: informe la descripción de la justificación de la solicitud de cambio;
+    - **Suspensión**: informe si la justificación será para suspensión de la solicitud de cambio, seleccionando una de las 
+    opciones (No o Sí);
+    - **Situación**: seleccione la situación de la justificación de solicitud de cambio.
     
-3. Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão
-gravados automaticamente para uma futura auditoria.
+3. Haga clic en el botón *Grabar* para realizar el registro, donde la fecha, hora y usuario se guardarán automáticamente para una 
+futura auditoría.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/11/2019 – Larissa Lourenço
+    <b>Updated:</b>09/19/2019 – Larissa Lourenço
 
 
 
