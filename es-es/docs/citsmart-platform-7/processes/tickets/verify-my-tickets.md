@@ -67,7 +67,7 @@ Listado de ítems
     listado default de la funcionalidad: **Solicitud, Fecha de apertura, Plazo,
     Descripción, Respuesta, Situación**, **Hora límite** y **Tiempo restante**.
 
-![Criar conta](images/verify-ticket-2.png)
+![Criar conta](images/verify-ticket-3.png)
 
 **Figura 2 - Pantalla de ítems**
 
