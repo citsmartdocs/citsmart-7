@@ -1113,7 +1113,7 @@ Validación y cierre del ticket
 
 ### Condiciones previas
 
-1.  Tener permiso para validar el ticket (ver conocimiento Registro y consulta
+1.  Tener permiso para validar el ticket (ver conocimiento [Registro y consulta
     de grupo][3]).
 
 ### Validando el ticket
