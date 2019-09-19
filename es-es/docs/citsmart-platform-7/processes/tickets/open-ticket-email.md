@@ -34,7 +34,7 @@ Detalles de las actividades
     de configuración de acción automática vía e-mail][2]), Este registro se
     utilizará para vincular el template registrado.
 
-### Realizar las configuraciones del procesamiento batch**
+### Realizar las configuraciones del procesamiento batch
 
 1.  Realizar las configuraciones del proceso batch (ver conocimiento [Registro y
     consulta de procesamiento batch][3]);
