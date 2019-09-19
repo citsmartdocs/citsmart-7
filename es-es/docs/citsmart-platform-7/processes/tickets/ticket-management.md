@@ -94,9 +94,9 @@ La siguiente pantalla muestra la pantalla principal del módulo tickets:
     Cambiar SLA, Reclasificar, Crear sub-solicitudes, Mostrar sub-solicitudes,
     Programar actividad, Crear solicitud relacionada e Imprimir solicitud.
 
--   **23**: Solicitud - listado de registros de tickets;
+-   **23: Solicitud** - listado de registros de tickets;
 
--   **24**: Botón de Opciones - al ser accionado presenta el botón paro registro
+-   **24: Botón de Opciones** - al ser accionado presenta el botón paro registro
     de nuevos tickets y el botón paro registro de ticket vía template.
 
 La siguiente lista muestra las 28 posibles operaciones de esta pantalla, en
