@@ -1,86 +1,88 @@
-title: Verificação de meus tickets
-Description: Tem o objetivo fornecer um resumo das solicitações de serviços (tickets) feitas pelo usuário
+title: Verificación de mis tickets
+Description: sta funcionalidad tiene como objetivo proporcionar un resumen de las solicitudes de servicios (tickets) realizadas por el usuario.
 
-# Verificação de meus tickets
+# Verificación de mis tickets
 
-Esta funcionalidade tem por objetivo fornecer um resumo das solicitações de
-serviços (tickets) feitas pelo usuário.
+Esta funcionalidad tiene como objetivo proporcionar un resumen de las
+solicitudes de servicios (tickets) realizadas por el usuario.
 
-O acesso às solicitações do usuário também pode ser realizado no Portal de
-Serviços, tornando a consulta mais rápida sem ter que entrar no sistema.
+El acceso a las solicitudes del usuario también puede ser realizado en el Portal
+de Servicios, haciendo la consulta más rápida sin tener que entrar en el
+sistema.
 
-Como acessar
+Cómo acceder
 ------------
 
-1.  Acesse a funcionalidade de Minhas Requisições através da navegação no menu
-    principal **Processos ITIL > Gerência de Ticket > Minhas
-    Requisições**.
+1.  Acceder a la funcionalidad de mis solicitudes a través de la navegación en
+    el menú principal **Procesos ITIL > Gestión de Ticket > Mis
+    Requerimientos**.
 
-Pré-condições
--------------
+Condiciones previas
+-------------------
 
-1.  Ter um item de configuração cadastrado (ver conhecimento [Gerenciamento de
-    itens de configuração][1] seção Registrando um novo item de configuração) e estar vinculado a uma
-    solicitação de serviço (ver conhecimento [Gerenciamento de ticket
-    (serviços)][2] seção Vinculação itens de configuração do solicitante);
+1.  Tener un elemento de configuración registrado (ver conocimiento [Gestión de
+    ítems de configuración][1] sección Registrando un nuevo ítem de configuración)
+    y estar vinculado a una solicitud de servicio (ver conocimiento [Gestión de
+    ticket (servicios)][2] sección Vinculación de ítems de configuración del
+    solicitante);
 
-2.  Ter solicitações de serviço cadastradas (ver conhecimento [Gerenciamento de
-    ticket (serviços)][2] seção Cadastro de ticket).
+2.  Tener solicitudes de servicio registradas (ver conocimiento [Gestión de
+    ticket (servicios)][2] sección Registro de ticket).
 
 Filtros
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados, conforme ilustrado na figura abaixo:
+1.  El siguiente filtro permite al usuario restringir la participación de ítems
+    en el listado default de la funcionalidad, facilitando la localización de
+    los ítems deseados, como se muestra en la figura siguiente:
 
-    -  Item Configuração
+    -   Ítem Configuración
 
-1.  Será apresentada a tela de verificação de Tickets solicitados por mim,
-    conforme ilustrada na figura abaixo:
+2.  Se mostrará la pantalla de verificación de tickets, como se muestra en la
+    figura siguiente:
 
     ![Criar conta](images/verify-ticket-1.png)
+    
+    **Figura 1 - Pantalla de Filtros**
 
-    **Figura 1 - Tela de pesquisa de tickets**
+   -   Introduzca el ítem de configuración y haga clic en *Consultar*. Hecho esto,
+    se enumeran los resúmenes de las solicitudes de servicio (tickets)
+    relacionadas al ítem de configuración;
 
-    -   Informe o item de configuração e clique em *Pesquisar*. Feito isso, serão
-    listados os resumos das solicitações de serviço (tickets) relacionadas ao
-    item de configuração;
+   -   Si desea comprobar todas las solicitudes de servicio (tickets), haga clic
+    directamente en el botón *Consultar.*
 
-    -   Caso deseje verificar todas as solicitações de serviço (tickets), clique
-    diretamente no botão *Pesquisar*
+!!! info "IMPORTANTE"
 
-    !!! info "IMPORTANTE"
+     En esta pantalla tiene un temporizador que, al activarse con un solo clic,
+     presenta un cronómetro sobre el tiempo gastado y el tiempo restante para
+     finalizar la atención de la solicitud en el campo Tiempo restante del
+     listado de ítems.
 
-        Esta tela possui um temporizador (imagem de relógio) que, ao ser ativado com um clique,
-        apresenta um cronômetro sobre o tempo gasto e o tempo restante para
-        finalizar o atendimento da solicitação no campo Tempo restante da listagem
-        de itens.
+Listado de ítems
+----------------
 
-Listagem de itens
------------------
-
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da funcionalidade:
-    **Solicitação**, **Data de abertura**, **Prazo**, **Descrição**,
-    **Resposta**, **Situação**, **Hora limite** e **Tempo Restante**.
+1.  El(Los) siguiente (s) campo (s) de registro está (n) disponible (s) para
+    facilitar al usuario la identificación de los elementos deseados en el
+    listado default de la funcionalidad: **Solicitud, Fecha de apertura, Plazo,
+    Descripción, Respuesta, Situación**, **Hora límite** y **Tiempo restante**.
 
 ![Criar conta](images/verify-ticket-3.png)
 
-**Figura 2 - Tela de listagem de tickets**
-    
+**Figura 2 - Pantalla de ítems**
 
-Preenchimento dos campos cadastrais
------------------------------------
+Completar los campos de registro
+--------------------------------
 
-1.  Não se aplica.
+1.  No se aplica.
 
-[1]:/pt-br/citsmart-platform-7/processes/configuration/IC-management.html
-[2]:/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html
+
+[1]:/es-es/citsmart-platform-7/processes/configuration/IC-management.html
+[2]:/es-es/citsmart-platform-7/processes/tickets/ticket-management.html
 
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Anna Martins
+    <b>Updated:</b>09/19/2019 – Anna Martins
