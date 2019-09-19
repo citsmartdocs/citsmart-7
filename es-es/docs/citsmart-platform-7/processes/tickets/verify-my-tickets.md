@@ -14,7 +14,7 @@ Cómo acceder
 ------------
 
 1.  Acceder a la funcionalidad de mis solicitudes a través de la navegación en
-    el menú principal **Procesos ITIL** > **Gestión de Ticket > **Mis
+    el menú principal **Procesos ITIL > Gestión de Ticket > Mis
     Requerimientos**.
 
 Condiciones previas
