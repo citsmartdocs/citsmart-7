@@ -855,7 +855,7 @@ Vinculando conocimiento
 
 ### Condiciones previas
 
-1.  Tener al menos un conocimiento registrado. (ver conocimiento Gestión de
+1.  Tener al menos un conocimiento registrado. (ver conocimiento [Gestión de
     conocimiento][22]).
 
 ### Filtros
