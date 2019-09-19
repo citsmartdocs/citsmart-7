@@ -7,14 +7,14 @@ Cómo acceder
 ------------
 
 1.  Acceda al menú principal **Procesos ITIL > Gestión de Ticket > Reglas de
-    escalonamiento.**
+    escalonamiento**.
 
 Condiciones previas
 -------------------
 
 1.  En el archivo citsmart.cfg, ha configurado la
     propiedad **START_MONITORA_INCIDENTES** que indica el
-    parámetro **TRUE **(ver conocimiento *Manual de instalación on-premise
+    parámetro **TRUE** (ver conocimiento *Manual de instalación on-premise
     (ITSM)*);
 
 2.  Introduzca el contenido debajo del parámetro (ver conocimiento *Reglas de
