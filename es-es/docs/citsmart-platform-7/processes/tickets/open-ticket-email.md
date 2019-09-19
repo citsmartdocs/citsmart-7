@@ -24,20 +24,20 @@ Detalles de las actividades
 ### Registro de template de acción automática - Incident/socilitud/procedimiento
 
 1.  Registro de plantillas de Acción automática -
-    Incidente/Solicitud/Procedimiento (ver conocimiento *Registro y consulta de
-    acciónes automáticas*), pues será utilizado como plantilla para la apertura
+    Incidente/Solicitud/Procedimiento (ver conocimiento [Registro y consulta de
+    acciónes automáticas][1]), pues será utilizado como plantilla para la apertura
     de la solicitud de servicio.
 
 ### Realizar la configuraciones de e-mail
 
-1.  Realizar las configuraciones de correo electrónico (ver conocimiento *Manual
-    de configuración de acción automática vía e-mail*), Este registro se
+1.  Realizar las configuraciones de correo electrónico (ver conocimiento [Manual
+    de configuración de acción automática vía e-mail][2]), Este registro se
     utilizará para vincular el template registrado.
 
 ### Realizar las configuraciones del procesamiento batch**
 
-1.  Realizar las configuraciones del proceso batch (ver conocimiento *Registro y
-    consulta de procesamiento batch*);
+1.  Realizar las configuraciones del proceso batch (ver conocimiento [Registro y
+    consulta de procesamiento batch][3]);
 
 2.  Este registro informa a cada cuánto tiempo el sistema lee la lectura de los
     e-mails.
@@ -59,8 +59,8 @@ Informaciones adicionales
     leídos y de ellos serán abiertos Solicitudes de Servicios;
 
 3.  El sistema marca automáticamente el e-mail como leído para que no haya
-    duplicación de registro (Ver conocimiento *Reglas sobre la apertura
-    automática de la solicitud de servicio vía e-mail*);
+    duplicación de registro (Ver conocimiento [Reglas sobre la apertura
+    automática de la solicitud de servicio vía e-mail][4]);
 
 4.  Si el sistema identifica que el colaborador es usuario del sistema, a través
     del correo electrónico del remitente y el usuario está en un grupo vinculado
