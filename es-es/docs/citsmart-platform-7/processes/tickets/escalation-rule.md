@@ -14,24 +14,24 @@ Condiciones previas
 
 1.  En el archivo citsmart.cfg, ha configurado la
     propiedad **START_MONITORA_INCIDENTES** que indica el
-    parámetro **TRUE** (ver conocimiento *Manual de instalación on-premise
-    (ITSM)*);
+    parámetro **TRUE** (ver conocimiento [Manual de instalación on-premise
+    (ITSM)][1]);
 
-2.  Introduzca el contenido debajo del parámetro (ver conocimiento *Reglas de
-    parametrización - ticket*):
+2.  Introduzca el contenido debajo del parámetro (ver conocimiento [Reglas de
+    parametrización - ticket][2]):
 
    -   Parámetro 190: con el valor S
 
-3.  Tener el contrato registrado (ver conocimiento *Registro y consulta de
-    contrato*);
+3.  Tener el contrato registrado (ver conocimiento [Registro y consulta de
+    contrato][3]);
 
-4.  Tener el colaborador registrado (ver conocimiento *Registro y consulta de
-    colaborador*);
+4.  Tener el colaborador registrado (ver conocimiento [Registro y consulta de
+    colaborador][4]);
 
-5.  Tener el grupo registrado (ver conocimiento *Registro y consulta de grupo*);
+5.  Tener el grupo registrado (ver conocimiento [Registro y consulta de grupo][5]);
 
-6.  Tener el portafolio de servicios definida (ver conocimiento *Registro del
-    portafolio de servicios*).
+6.  Tener el portafolio de servicios definida (ver conocimiento [Registro del
+    portafolio de servicios][6]).
 
 Filtros
 -------
