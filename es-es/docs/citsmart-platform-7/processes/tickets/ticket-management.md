@@ -55,7 +55,7 @@ La siguiente pantalla muestra la pantalla principal del módulo tickets:
 -   **12: Listado** - filtra la vista de ticket por lista;
 
 -   **13: Por assistente** - filtra el modo de visualización de ticket por
-    empleado en modo kanban;
+    empleado en modo Kanban;
 
 -   **14: Por situación** - filtra la vista de ticket por situación SLA. Para
     que esta opción sea visible es necesario habilitar el permiso de acceso para
