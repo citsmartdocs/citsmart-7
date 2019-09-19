@@ -2089,7 +2089,7 @@ para todo el equipo.
 
 -   **10**: Límite indica la fecha y la hora límite de finalización
 
--   **11**: Situación **indica la etapa general del ticket (En respuesta,
+-   **11**: Situación indica la etapa general del ticket (En respuesta,
     Resuelta, etc.)
 
 -   **12**: Haga clic para mostrar un resumen de los datos del ticket
@@ -2141,7 +2141,7 @@ Auditoría del ticket
 
 ### Listado de ítems
 
-1.  El(Los) siguiente (s) campo (s) de registro está (n) disponible (s) para facilitar al usuario la identificación de los elementos deseados en el listado default de la funcionalidad: **Descripción**, **Registradopor**, **Fecha**/**Hora**, **Origen**, **Contrato**, **Servicio**, **Situación**, **Responsable**, **SLA **y **Descripción**.
+1.  El(Los) siguiente (s) campo (s) de registro está (n) disponible (s) para facilitar al usuario la identificación de los elementos deseados en el listado default de la funcionalidad: **Descripción**, **Registradopor**, **Fecha**/**Hora**, **Origen**, **Contrato**, **Servicio**, **Situación**, **Responsable**, **SLA** y **Descripción**.
 
 ![ticket](images/management-83.png)
 
@@ -2218,7 +2218,7 @@ Consulta avanzada
     -   **Tipo de solicitación**: informar el tipo de ticket para verificación de
     los tickets;
 
-    -   **Actividad (Solicitud/Incidente):** informar al servicio si desea verificar
+    -   **Actividad (Solicitud/Incidente)**: informar al servicio si desea verificar
     los tickets referentes al mismo;
 
     -   **Considerar la Jerarquía**: marcar este campo si desea considerar la
@@ -2243,7 +2243,7 @@ Consulta avanzada
     -   **Unidad**: informar la unidad deseada para verificar los tickets
     relacionados a la misma;
 
-    !!! note "NOTA"**
+    !!! note "NOTA"
 
         En caso de que el parámetro "61 - Vincula contratos a unidad" esté
         habilitado, sólo estarán disponibles las unidades vinculadas al contrato al
@@ -2472,8 +2472,7 @@ Consulta avanzada
 
         -   Las urgencias pueden ser: Alta, Media o Baja (sin el parámetro 104);
 
-        -   Las urgencias pueden ser: Crítica, Alta, Media o Baja (con el parámetro
-        104);
+        -   Las urgencias pueden ser: Crítica, Alta, Media o Baja (con el parámetro 104);
 
     -   **Causa**: motivos que ocasionaron el reporte del ticket;
 
