@@ -60,7 +60,7 @@ La siguiente pantalla muestra la pantalla principal del módulo tickets:
 -   **14: Por situación** - filtra la vista de ticket por situación SLA. Para
     que esta opción sea visible es necesario habilitar el permiso de acceso para
     el usuario entrante, marque el ítem "Gestión del equipo". (ver
-    conocimiento *Permiso de acceso de Gestión de Tickets*)
+    conocimiento [Permiso de acceso de Gestión de Tickets][1])
 
 -   **15: Por estado del flujo** - filtra la vista de ticket por estado del
     flujo;
@@ -85,7 +85,7 @@ La siguiente pantalla muestra la pantalla principal del módulo tickets:
 
         La visualización de estos informes depende de la configuración (registro) de
         informes específicos en la función Informes > Informes Smart > Generador de
-        informes Smart (ver conocimiento Generador de informes Smart).
+        informes Smart (ver conocimiento [Generador de informes Smart][2]).
 
 -   **21**: Haga clic para mostrar el flujo referente al ticket, siendo posible
     entonces observar la posición del usuario dentro del mismo;
@@ -175,48 +175,48 @@ Registro de ticket
 
 ### Condiciones previas
 
-1.  Tener permiso para registrar el ticket (ver conocimiento Registro y
-    consulta de grupo);
+1.  Tener permiso para registrar el ticket (ver conocimiento [Registro y
+    consulta de grupo][3]);
 
-2.  Tener el colaborador registrado (ver conocimiento Registro y consulta de
-    colaborador);
+2.  Tener el colaborador registrado (ver conocimiento [Registro y consulta de
+    colaborador][4]);
 
-3.  Tener el grupo registrado (ver conocimiento Registro y consulta de grupo);
+3.  Tener el grupo registrado (ver conocimiento [Registro y consulta de grupo][3]);
 
-4.  Tener el contrato registrado (ver conocimiento Registro y consulta de
-    contrato);
+4.  Tener el contrato registrado (ver conocimiento [Registro y consulta de
+    contrato][5]);
 
-5.  Tener la unidad registrada (ver conocimiento Registro y consulta de
-    unidad);
+5.  Tener la unidad registrada (ver conocimiento [Registro y consulta de
+    unidad][6]);
 
 6.  Tener el usuario vinculado a la unidad;
 
 7.  Tener el usuario vinculado al grupo;
 
-8.  Tener el grupo vinculado al contrato (ver conocimiento ¿Cómo relacionar el
-    grupo al contrato?);
+8.  Tener el grupo vinculado al contrato (ver conocimiento [¿Cómo relacionar el
+    grupo al contrato?][7]);
 
-9.  Tener la unidad vinculada al contrato (ver conocimiento ¿Cómo relacionar la
-    unidad al contrato?);
+9.  Tener la unidad vinculada al contrato (ver conocimiento [¿Cómo relacionar la
+    unidad al contrato?][8]);
 
 10. Tener el portafolio con el servicio y las actividades de tickets registrados
-    (ver conocimientos Registro del portafolio de servicios, Registro de
-    servicios, Configuración de los atributos de servicio);
+    (ver conocimientos [Registro del portafolio de servicios][9], [Registro de
+    servicios][10], [Configuración de los atributos de servicio][11]);
 
 11. Tener el tiempo de atención de las actividades de tickets definidas (ver
-    conocimiento Registro y consulta del tiempo de atención);
+    conocimiento [Registro y consulta del tiempo de atención][12]);
 
-12. Tener el contrato vinculado al servicio (ver conocimiento Configuración de
-    los atributos de servicio);
+12. Tener el contrato vinculado al servicio (ver conocimiento [Configuración de
+    los atributos de servicio][11]);
 
 13. Tener las actividades de tickets vinculadas al contrato del servicio (ver
-    conocimiento Configuraciones de los atributos del contrato del servicio);
+    conocimiento [Configuraciones de los atributos del contrato del servicio][13]);
 
 14. El solicitante debe estar incluido en el grupo que está vinculado al
     contrato para que sea posible registrar el ticket;
 
-15. Informe los contenidos abajo en los parámetros (ver conocimiento Reglas de
-    parametrización - ticket):
+15. Informe los contenidos abajo en los parámetros (ver conocimiento [Reglas de
+    parametrización - ticket][14]):
 
     -   Parámetro 9;
 
@@ -436,7 +436,7 @@ Registro de ticket
     definido en el registro del vínculo de la actividad al contrato, el ticket
     será dirigido al grupo definido en el parámetro "**ID Grupo Nivel 1**"(para
     que ese campo esté activado es necesario configurar la funcionalidad - ver
-    conocimiento *Mantenimiento del flujo de trabajo*, sección Implementando la
+    conocimiento [Mantenimiento del flujo de trabajo][15], sección Implementando la
     funcionalidad delegar em el flujo sobre la actividad)
 
 -   **Notificaciones**: marque las opciones de envío de notificación sobre el
@@ -493,7 +493,7 @@ Vinculación de ítems de configuración del solicitante
 ### Condiciones previas
 
 1.  Tener al menos un ítem de configuración registrado (ver
-    conocimiento *Gestión de ítems de configuración*).
+    conocimiento [Gestión de ítems de configuración][16]).
 
 ### Vinculación de un item de configuración del solicitante
 
@@ -582,8 +582,8 @@ Vinculación de problemas
 
 ### Condiciones previas
 
-1.  Tener al menos un problema registrado (ver conocimiento *Registro del
-    problema*).
+1.  Tener al menos un problema registrado (ver conocimiento [Registro del
+    problema][17]).
 
 ### Filtros
 
@@ -637,7 +637,7 @@ Vinculando solicitudes de cambio
 ### Condiciones previas
 
 1.  Tener al menos una solicitud de cambio registrada (ver
-    conocimiento *Registro de solicitud de cambio*).
+    conocimiento [Registro de solicitud de cambio][18]).
 
 ### Filtros
 
@@ -691,7 +691,7 @@ Vinculación de registro de liberación
 ### Condiciones previas
 
 1.  Tener al menos una registro de liberación registrada (ver
-    conocimiento *Registro y consulta de liberaciones*).
+    conocimiento [Registro y consulta de liberaciones][19]).
 
 ### Filtros
 
@@ -737,7 +737,7 @@ Vinculación de item de configuración relacionada
 ### Condiciones previas
 
 1.  Tener al menos un ítem de configuración registrado (ver
-    conocimiento *Gestión de ítems de configuración*).
+    conocimiento Gestión de ítems de configuración][20]).
 
 ### Filtros
 
@@ -806,10 +806,10 @@ Vinculación proyecto
 ### Condiciones previas
 
 1.  Tener permiso para ejecutar la solicitud de servicio. (ver
-    conocimiento *Registro y consulta de grupo*);
+    conocimiento Registro y consulta de grupo][3]);
 
-2.  Tener al menos un proyecto registrado. (ver conocimiento *Registro y gestión
-    de proyectos*).
+2.  Tener al menos un proyecto registrado. (ver conocimiento [Registro y gestión
+    de proyectos][21]).
 
 ### Filtros
 
@@ -855,8 +855,8 @@ Vinculando conocimiento
 
 ### Condiciones previas
 
-1.  Tener al menos un conocimiento registrado. (ver conocimiento *Gestión de
-    conocimiento*).
+1.  Tener al menos un conocimiento registrado. (ver conocimiento Gestión de
+    conocimiento][22]).
 
 ### Filtros
 
@@ -908,49 +908,49 @@ Vinculando e-mails leídos
 
 ### Condiciones previas
 
-1.  Tener permiso para registrar el ticket (ver conocimiento *Registro y
-    consulta de grupo*);
+1.  Tener permiso para registrar el ticket (ver conocimiento [Registro y
+    consulta de grupo][3]);
 
-2.  Tener el colaborador registrado (ver conocimiento *Registro y consulta de
-    colaborador*);
+2.  Tener el colaborador registrado (ver conocimiento [Registro y consulta de
+    colaborador][4]);
 
-3.  Tener el grupo registrado (ver conocimiento *Registro y consulta de grupo*);
+3.  Tener el grupo registrado (ver conocimiento [Registro y consulta de grupo][3]);
 
-4.  Tener el contrato registrado (ver conocimiento *Registro y consulta de
-    contrato*);
+4.  Tener el contrato registrado (ver conocimiento [Registro y consulta de
+    contrato][5]);
 
-5.  Tener la unidad registrada (ver conocimiento *Registro y consulta de
-    unidad*);
+5.  Tener la unidad registrada (ver conocimiento [Registro y consulta de
+    unidad][8]);
 
-6.  Tener el grupo vinculado al contrato (ver conocimiento *¿Cómo relacionar el
-    grupo al contrato?*);
+6.  Tener el grupo vinculado al contrato (ver conocimiento [¿Cómo relacionar el
+    grupo al contrato?][7]);
 
-7.  Tener la unidad vinculada al contrato (ver conocimiento *¿Cómo relacionar la
-    unidad al contrato?*);
+7.  Tener la unidad vinculada al contrato (ver conocimiento [¿Cómo relacionar la
+    unidad al contrato?][8]);
 
 8.  Tener el portafolio con el servicio y las actividades de solicitud e
-    incidente registrados (ver conocimientos *Registro del portafolio de
-    servicios*, *Registro de servicios*, *Configuración de los atributos de
-    servicio*);
+    incidente registrados (ver conocimientos [Registro del portafolio de
+    servicios][9], [Registro de servicios][10], [Configuración de los atributos de
+    servicio][11]);
 
 9.  Tener el tiempo de atención de las actividades de solicitud e incidente
-    definidas (ver conocimiento *Registro y consulta del tiempo de atención*);
+    definidas (ver conocimiento [Registro y consulta del tiempo de atención][12]);
 
-10. Tener el contrato vinculado al servicio (ver conocimiento *Configuración de
-    los atributos de servicio*);
+10. Tener el contrato vinculado al servicio (ver conocimiento [Configuración de
+    los atributos de servicio][11]);
 
 11. Tener las actividades de solicitud e incidente vinculadas al contrato del
-    servicio. (ver conocimiento *Configuraciones de los atributos del contrato
-    del servicio*);
+    servicio. (ver conocimiento [Configuraciones de los atributos del contrato
+    del servicio][13]);
 
-12. Configurar el parámetro 9 (ver conocimento *Reglas de parametrización -
-    ticket*);
+12. Configurar el parámetro 9 (ver conocimento [Reglas de parametrización -
+    ticket][14]);
 
 13. El solicitante debe estar incluido en el grupo que está vinculado al
     contrato para que sea posible registrar el ticket;
 
-14. Configurar los parámetros 23,24,25,26,27,28 y 72 (ver conocimiento *Reglas
-    de parametrización - E-mail*).
+14. Configurar los parámetros 23,24,25,26,27,28 y 72 (ver conocimiento [Reglas
+    de parametrización - E-mail][25]).
 
 ### Vinculación de lecturas de e-mail
 
@@ -1005,8 +1005,8 @@ Captura de ticket
 
 ### Condiciones previas
 
-1.  Tener permiso para ejecutar el ticket (ver conocimiento *Registro y consulta
-    de grupo*).
+1.  Tener permiso para ejecutar el ticket (ver conocimiento [Registro y consulta
+    de grupo][3]).
 
 ### Capturando ticket
 
@@ -1040,14 +1040,14 @@ Registro de la ejecución del ticket
 
 ### Condiciones previas
 
-1.  Tener permiso para ejecutar el ticket (ver conocimiento *Registro y consulta
-    de grupo*);
+1.  Tener permiso para ejecutar el ticket (ver conocimiento [Registro y consulta
+    de grupo][3]);
 
-2.  Tener la causa de incidentes registradas (ver conocimiento *Registro y
-    consulta de causas de incidentes*);
+2.  Tener la causa de incidentes registradas (ver conocimiento [Registro y
+    consulta de causas de incidentes][26]);
 
-3.  Tener la categoría de solución catastrada (ver conocimiento *Registro y
-    consulta de la categoría de la solución*).
+3.  Tener la categoría de solución catastrada (ver conocimiento [Registro y
+    consulta de la categoría de la solución][27]).
 
 ### Registro de la ejecución del ticket
 
@@ -1113,8 +1113,8 @@ Validación y cierre del ticket
 
 ### Condiciones previas
 
-1.  Tener permiso para validar el ticket (ver conocimiento *Registro y consulta
-    de grupo*).
+1.  Tener permiso para validar el ticket (ver conocimiento Registro y consulta
+    de grupo][3]).
 
 ### Validando el ticket
 
@@ -1143,8 +1143,8 @@ Registro de ocurrencia referente al ticket
 
 ### Condiciones previas
 
-1.  Tener permiso para ejecutar el ticket (ver conocimiento *Registro y consulta
-    de grupo*).
+1.  Tener permiso para ejecutar el ticket (ver conocimiento [Registro y consulta
+    de grupo][3]).
 
 ### Registro de mantenimiento referente al ticket
 
@@ -1201,8 +1201,8 @@ Aprobación de ticket
 
 ### Condiciones previas
 
-1.  Tener permiso para aprobar el ticket (ver conocimiento *Registro y consulta
-    de grupo*).
+1.  Tener permiso para aprobar el ticket (ver conocimiento [Registro y consulta
+    de grupo][3]).
 
 ### Aprobando el ticket
 
@@ -1243,8 +1243,8 @@ Cancelación de ticket
 
 ### Condiciones previas
 
-1.  Tener permiso para cancelar el ticket (ver conocimiento *Registro y consulta
-    de grupo*).
+1.  Tener permiso para cancelar el ticket (ver conocimiento [Registro y consulta
+    de grupo][3]).
 
 ### Cancelando el ticket
 
@@ -1274,8 +1274,8 @@ Dirección del ticket
 
 ### Condiciones previas
 
-1.  Tener permiso para ejecutar el ticket (ver conocimiento *Registro y consulta
-    de grupo*).
+1.  Tener permiso para ejecutar el ticket (ver conocimiento [Registro y consulta
+    de grupo][3]).
 
 ### Dirección del ticket para la atención
 
@@ -1296,11 +1296,11 @@ Delegación del ticket
 
 ### Condiciones previas
 
-1.  Tener permiso para delegar el ticket (ver conocimiento *Registro y consulta
-    de grupo*);
+1.  Tener permiso para delegar el ticket (ver conocimiento [Registro y consulta
+    de grupo][3]);
 
 2.  Para que esta opción sea visible es necesario su configuración en el flujo
-    vinculado (ver conocimiento *Mantenimiento del flujo de trabajo*, sección
+    vinculado (ver conocimiento [Mantenimiento del flujo de trabajo][15], sección
     Implementando la funcionalidad delegar em el flujo sobre la actividad).
 
 ### Delegando un ticket
@@ -1347,10 +1347,10 @@ Suspensión del ticket
 ### Condiciones previas
 
 1.  Tener permiso para suspender la solicitud de servicio (ver
-    conocimiento *Registro y consulta de grupo*);
+    conocimiento [Registro y consulta de grupo][3]);
 
 2.  Tener la justificación de suspensión de solicitud registrada (ver
-    conocimiento *Registro y consulta de justificación de solicitud*).
+    conocimiento [Registro y consulta de justificación de solicitud][28]).
 
 ### Suspendiendo el ticket
 
@@ -1391,18 +1391,18 @@ Suspensión y reactivación de múltiples tickets
 ### Condiciones previas
 
 1.  Tener permiso para realizar la suspensión y reactivación de múltiples
-    tickets (ver conocimiento *Registro y consulta de grupo*);
+    tickets (ver conocimiento [Registro y consulta de grupo][3]);
 
-2.  Tener el contrato registrado (ver conocimiento *Registro y consulta de
-    contrato*);
+2.  Tener el contrato registrado (ver conocimiento [Registro y consulta de
+    contrato][5]);
 
-3.  Tener el colaborador registrado (ver conocimiento *Registro y consulta de
-    colaborador*);
+3.  Tener el colaborador registrado (ver conocimiento [Registro y consulta de
+    colaborador][4]);
 
-4.  Tener el grupo registrado (ver conocimiento *Registro y consulta de grupo*);
+4.  Tener el grupo registrado (ver conocimiento [Registro y consulta de grupo][3]);
 
-5.  Tener la justificación de ticket registrada (ver conocimiento *Registro y
-    consulta de justificación de solicitud*).
+5.  Tener la justificación de ticket registrada (ver conocimiento [Registro y
+    consulta de justificación de solicitud][28]).
 
 ### Suspendiendo múltiples tickets
 
@@ -1512,7 +1512,7 @@ Reactivación de un ticket suspendido
 ### Condiciones previas
 
 1.  Tenga permiso para volver a habilitar el ticket suspendido (ver
-    conocimiento *Registro y consulta de grupo*).
+    conocimiento [Registro y consulta de grupo][3]).
 
 ### Reactivando el ticket
 
@@ -1534,11 +1534,11 @@ Cambiando el SLA del ticket
 
 ### Condiciones previas
 
-1.  Tener permiso para cambiar el SLA de lo ticket (ver conocimiento *Registro y
-    consulta de grupo*);
+1.  Tener permiso para cambiar el SLA de lo ticket (ver conocimiento [Registro y
+    consulta de grupo][3]);
 
-2.  Tener la justificación de ticket registrada (ver conocimiento *Registro y
-    consulta de justificación de solicitud*).
+2.  Tener la justificación de ticket registrada (ver conocimiento [Registro y
+    consulta de justificación de solicitud][28]).
 
 ### Alterando la SLA
 
@@ -1622,14 +1622,14 @@ Creación y visualización de sub-solicitud
 
 ### Condiciones previas
 
-1.  Tener permiso para registrar el ticket (ver conocimiento *Registro y
-    consulta de grupo*);
+1.  Tener permiso para registrar el ticket (ver conocimiento [Registro y
+    consulta de grupo][3]);
 
-2.  Tener el colaborador registrado (ver conocimiento *Registro y consulta de
-    colaborador*);
+2.  Tener el colaborador registrado (ver conocimiento [Registro y consulta de
+    colaborador][4];
 
-3.  Tener la unidad registrada (ver conocimiento *Registro y consulta de
-    unidad*).
+3.  Tener la unidad registrada (ver conocimiento [Registro y consulta de
+    unidad][6]).
 
 ### Creando la sub-solicitud
 
@@ -1702,8 +1702,8 @@ Agenda de actividad de ticket
 ### Condiciones previas
 
 1.  Tener los grupos de actividad periódica registrados para programar las
-    actividades del ticket (ver conocimiento *Registro y consulta del grupo de
-    actividad periódica*).
+    actividades del ticket (ver conocimiento [Registro y consulta del grupo de
+    actividad periódica][29]).
 
 ### Agendando actividad
 
@@ -1752,41 +1752,41 @@ Registro y vinculación de ticket relacionado
 
 ### Condiciones previas
 
-1.  Tener permiso para registrar el ticket (ver conocimiento *Registro y
-    consulta de grupo*);
+1.  Tener permiso para registrar el ticket (ver conocimiento [Registro y
+    consulta de grupo][3]);
 
-2.  Tener el colaborador registrado (ver conocimiento *Registro y consulta de
-    colaborador*);
+2.  Tener el colaborador registrado (ver conocimiento [Registro y consulta de
+    colaborador][4]);
 
-3.  Tener el contrato registrado (ver conocimiento *Registro y consulta de
-    contrato*);
+3.  Tener el contrato registrado (ver conocimiento [Registro y consulta de
+    contrato][5]);
 
-4.  Tener la unidad registrada (ver conocimiento *Registro y consulta de
-    unidad*);
+4.  Tener la unidad registrada (ver conocimiento [Registro y consulta de
+    unidad][6]);
 
-5.  Tener el grupo vinculado al contrato (ver conocimiento *¿Cómo relacionar el
-    grupo al contrato?*);
+5.  Tener el grupo vinculado al contrato (ver conocimiento [¿Cómo relacionar el
+    grupo al contrato?][7]);
 
-6.  Tener la unidad vinculada al contrato (ver conocimiento *¿Cómo relacionar la
-    unidad al contrato?*);
+6.  Tener la unidad vinculada al contrato (ver conocimiento [¿Cómo relacionar la
+    unidad al contrato?][8]);
 
 7.  Tener el portafolio con el servicio y las actividades de solicitud e
-    incidente registrados (ver conocimientos *Registro del portafolio de
-    servicios*, *Registro de servicios*, *Configuración de los atributos de
-    servicio*);
+    incidente registrados (ver conocimientos [Registro del portafolio de
+    servicios][9], [Registro de servicios][10], [Configuración de los atributos de
+    servicio][11]);
 
 8.  Tener el tiempo de atención de las actividades de solicitud e incidente
-    definidas (ver conocimiento *Registro y consulta del tiempo de atención*);
+    definidas (ver conocimiento [Registro y consulta del tiempo de atención][12]);
 
-9.  Tener el contrato vinculado al servicio (ver conocimiento *Configuración de
-    los atributos de servicio*);
+9.  Tener el contrato vinculado al servicio (ver conocimiento [Configuración de
+    los atributos de servicio][11]);
 
 10. Tener las actividades de solicitud e incidente vinculadas al contrato del
-    servicio (ver conocimiento *Configuraciones de los atributos del contrato
-    del servicio*);
+    servicio (ver conocimiento [Configuraciones de los atributos del contrato
+    del servicio][13]);
 
-11. Introduzca el contenido debajo del parámetro (ver conocimiento *Reglas de
-    parametrización - sistema*):
+11. Introduzca el contenido debajo del parámetro (ver conocimiento [Reglas de
+    parametrización - sistema][30]):
 
 -   Parámetro 385: con el valor "S".
 
@@ -2008,7 +2008,7 @@ Cuadro Kanban
 
 Esta opción tiene por objetivo auxiliar gestores en el seguimiento detallado de
 sus filas de atención de tickets/tareas, haciendo uso de la técnica de gestión
-llamada de Kanban. Según el sitio Significados, Kanban es el uso de tarjetas
+llamada de Kanban. Según el sitio [Significados][31], Kanban es el uso de tarjetas
 (post-it y otros) para indicar el progreso de los flujos de producción en
 empresas de fabricación en serie.
 
@@ -2024,8 +2024,8 @@ para todo el equipo.
 
 1.  Tener un ticket registrado.
 
-2.  Dar permiso para el Perfil de Acceso deseado (ver conocimiento *Permiso de
-    acceso de Gestión de Tickets*).
+2.  Dar permiso para el Perfil de Acceso deseado (ver conocimiento [Permiso de
+    acceso de Gestión de Tickets][1]).
 
 ### Explicando el cuadro Kanban
 
@@ -2165,8 +2165,8 @@ Consulta avanzada
 
 1.  Posee llamados abiertos, en cualquier situación.
 
-2.  Informe los contenidos abajo en los parámetros (ver conocimiento *Reglas de
-    parametrización - ticket*):
+2.  Informe los contenidos abajo en los parámetros (ver conocimiento [Reglas de
+    parametrización - ticket][24]):
 
     -   Parámetro 40;
 
@@ -2178,8 +2178,8 @@ Consulta avanzada
 
     -   Parámetro 343: default: "S";
 
-3.  Configurar el parámetro 378 (ver conocimiento *Reglas de parametrización -
-    sistema*).
+3.  Configurar el parámetro 378 (ver conocimiento [Reglas de parametrización -
+    sistema][30]).
 
 !!! note "NOTA"
 
@@ -2565,40 +2565,40 @@ Registro de ticket via plantilla
 ### Condiciones previas
 
 1.  Tener las plantillas registradas para registrar una solicitud utilizando
-    esta funcionalidad (ver conocimiento *Registro y consulta de plantillas de
-    incidentes/solicitudes/procedimientos*);
+    esta funcionalidad (ver conocimiento [Registro y consulta de plantillas de
+    incidentes/solicitudes/procedimientos][32]);
 
-2.  Tener permiso para registrar uno ticket (ver conocimiento *Registro y
-    consulta de grupo*);
+2.  Tener permiso para registrar uno ticket (ver conocimiento [Registro y
+    consulta de grupo][3]);
 
-3.  Tener el grupo registrado (ver conocimiento *Registro y consulta de grupo*);
+3.  Tener el grupo registrado (ver conocimiento [Registro y consulta de grupo][3]);
 
-4.  Tener la unidad registrada (ver conocimiento *Registro y consulta de
-    unidad*);
+4.  Tener la unidad registrada (ver conocimiento [Registro y consulta de
+    unidad][8]);
 
-5.  Tener el contrato registrado (ver conocimiento *Registro y consulta de
-    contrato*);
+5.  Tener el contrato registrado (ver conocimiento [Registro y consulta de
+    contrato][5]);
 
 6.  Tener el portafolio con el servicio y las actividades de solicitudes e
-    incidentes registrados (ver conocimientos *Registro del portafolio de
-    servicios*, *Registro de servicios*, *Configuración de los atributos de
-    servicio*);
+    incidentes registrados (ver conocimientos [Registro del portafolio de
+    servicios][9], [Registro de servicios][10], [Configuración de los atributos de
+    servicio][11]);
 
 7.  Tener el tiempo de atención de las actividades de solicitudes e incidentes
-    definidas. (ver conocimiento *Registro y consulta del tiempo de atención*);
+    definidas. (ver conocimiento [Registro y consulta del tiempo de atención][12]);
 
-8.  Tener el contrato vinculado al servicio (ver conocimiento *Configuración de
-    los atributos del servicio*);
+8.  Tener el contrato vinculado al servicio (ver conocimiento [Configuración de
+    los atributos del servicio][11]);
 
 9.  Tener las actividades de solicitud e incidente vinculadas al contrato del
-    servicio (ver conocimiento *Configuraciones de los atributos del contrato
-    del servicio*);
+    servicio (ver conocimiento [Configuraciones de los atributos del contrato
+    del servicio][13]);
 
-10. Tener el grupo vinculado al contrato (ver conocimiento *¿Cómo relacionar el
-    grupo al contrato?*);
+10. Tener el grupo vinculado al contrato (ver conocimiento [¿Cómo relacionar el
+    grupo al contrato?][7]);
 
-11. Tener la unidad vinculada al contrato (ver conocimiento *¿Cómo relacionar la
-    unidad al contrato?*);
+11. Tener la unidad vinculada al contrato (ver conocimiento [¿Cómo relacionar la
+    unidad al contrato?][8]);
 
 12. Tener el usuario vinculado a la unidad;
 
@@ -2624,8 +2624,6 @@ Registro de ticket via plantilla
     haga clic en el botón de grabación  para efectuar el registro, donde la
     fecha, hora y usuario se guardarán automáticamente para una futura
     auditoría.
-
-
 
 
 [1]:/es-es/citsmart-platform-7/processes/tickets/permission.html
