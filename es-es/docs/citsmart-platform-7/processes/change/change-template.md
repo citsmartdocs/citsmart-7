@@ -1,113 +1,116 @@
-title: Cadastro e pesquisa de template de mudança
-Description: Esta funcionalidade tem por objetivo cadastrar um template para facilitar a abertura de uma nova requisição de mudança.
-# Cadastro e pesquisa de template de mudança
+title: Registro y consulta de plantilla de cambios
+Description: Esta funcionalidad tiene por objetivo registrar una plantilla
+# Registro y consulta de plantilla de cambios
 
-Esta funcionalidade tem por objetivo cadastrar um template para facilitar a abertura de uma nova requisição de mudança.
+Esta funcionalidad tiene por objetivo registrar una plantilla para facilitar la apertura de una nueva solicitud de cambio.
 
-Como acessar
+Cómo acceder
 ---------------
 
-1. Acesse a funcionalidade de template de mudança através da navegação no menu principal 
-**Processos ITIL > Gerência de Mudança > Template de Mudança**.
+1. Acceda a la funcionalidad de plantilla de cambio a través de la navegación en el menú principal 
+**Procesos ITIL > Gestión de Cambios > Plantilla de Cambio**.
 
-Pré-condições
----------------
+Condiciones previas
+--------------------
 
-1. Não se aplica.
+1. No se aplica.
 
 Filtros
 ---------
 
-1. O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da 
-funcionalidade, facilitando a localização dos itens desejados:
+1. El siguiente filtro permite al usuario restringir la participación de elementos en el listado default de la funcionalidad, 
+facilitando la localización de los elementos deseados:
 
-    - Nome
+    - Nombre.
     
-    ![Pesquisa](images/temp-mud.img1.png)
+    ![Pesquisa](images/template.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de template de mudança**
+    **Figura 1 - Pantalla de búsqueda de plantilla de cambio**
     
-2. Realize a pesquisa de template de mudança;
+2. Realiza la búsqueda de plantilla de cambio;
 
-    - Informe o nome do template de mudança que deseja pesquisar e clique no botão "Pesquisar". Após isso,
-    será exibido o registro do template de mudança conforme o nome informado;
+    - Introduzca el nombre de la plantilla de cambio que desea buscar y haga clic en el botón *Consultar*. Después de eso, se 
+    mostrará el registro de la plantilla de cambio según el nombre informado;
     
-    - Caso deseje listar todos os registros de risco, basta clicar diretamente no botão "Pesquisar".
+    - Si desea listar todos los registros de riesgo, simplemente haga clic directamente en el botón *Consultar*;
     
-Listagem de itens
+Listado de ítems
 -------------------
 
-1. O seguinte campo cadastral está disponível ao usuário para facilitar a identificação dos itens
-desejados na listagem padrão da funcionalidade: **Nome**.
+1. El(Los) siguiente (s) campo (s) de registro está (n) disponible (s) para facilitar al usuario la identificación de los 
+elementos deseados en el listado default de la funcionalidad: **Nombre**.
 
-2. Na tela de **Template mudança**, clique na aba **Pesquisa**.
+2. En la pantalla de plantilla de cambio, haga clic en la pestaña **Consulta**. Se mostrará la pantalla de búsqueda como se 
+muestra en la figura siguiente:
 
-    ![Listagem](images/temp-mud.img2.png)
+    ![Listagem](images/template.img2.jpg)
     
-    **Figura 2 - Listagem de template de mudança**
+    **Figura 2 - Listado de plantilla de cambio**
     
-3. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro
-exibindo o conteúdo referente ao registro selecionado;
+3. Después de la búsqueda, seleccione el registro deseado. Hecho esto, será dirigido a la pantalla de registro exhibiendo el 
+contenido referente al registro seleccionado;
 
-4. Para alterar os dados do registro de template de mudança, basta modificar as informações dos campos 
-desejados e clicar no botão "Gravar" para que seja gravada a alteração realizada no registro, onde a data,
-hora e usuário serão gravados automaticamente para uma futura auditoria.
+4. Para cambiar los datos del registro de plantilla de cambio, basta con modificar la información de los campos deseados y hacer 
+clic en el botón *Grabar* para que se grabe el cambio realizado en el registro, donde la fecha, hora y usuario serán grabados 
+automáticamente para una futura auditoría.
 
-Preenchimento dos campos cadastrais
+Completar los campos de registro
 --------------------------------------
 
-1. Será apresentada a tela de cadastro de template de mudança, conforme ilustrada na figura abaixo:
+1. Se mostrará la pantalla de registro de plantilla de cambio, como se muestra en la figura siguiente:
 
-    ![Cadastro](images/temp-mud.img3.png)
+    ![Cadastro](images/template.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de template de mudança**
+    **Figura 3 - Pantalla de registro de plantilla de cambio**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Rellene los campos según las instrucciones a continuación:
 
-    - **Nome**: informe o nome do template de mudança;
+    - **Nombre**: introduzca el nombre de la plantilla de cambio;
     
-    - **Contrato**: selecione o contrato para qual será feita a requisição de mudança;
+    - **Contrato**: seleccione el contrato para el cual se realizará la solicitud de cambio;
     
-    - **Solicitante**: informe o nome do solicitante, ou seja, o nome da pessoa que está solicitando a
-    abertura de requisição de mudança;
+    - **Solicitante**: informe el nombre del solicitante, es decir, el nombre de la persona que está solicitando la apertura de 
+    solicitud de cambio;
     
-    - **Título**: informe o título da requisição de mudança;
+    - **Título**: informe el título de la solicitud de cambio;
     
-    - **Descrição**: informe a descrição da requisição de mudança. A descrição deve ser objetiva, incluindo toda 
-    informação necessária para o atendimento da requisição;
+    - **Descripción**: informe la descripción de la solicitud de cambio. La descripción debe ser objetiva, incluyendo toda la 
+    información necesaria para la atención de la solicitud;
     
-    - **Tipo**: selecione o tipo de mudança;
+    - **Tipo**: seleccione el tipo de cambio;
     
-        - **Mudança padrão**: é uma mudança que é previamente pré-aprovada pelo Gerenciamento de Mudança e já possui
-        procedimentos aceitos e estabelecidos;
+        - **Cambio default**: es un cambio que es previamente pre-aprobado por la Gestión del Cambio y ya tiene procedimientos 
+        aceptados y establecidos;
         
-        - **Mudança normal**: é uma mudança que segue um fluxo normal de avaliação, aprovação e autorização;
+        - **Cambio normal**: es un cambio que sigue un flujo normal de evaluación, aprobación y autorización;
         
-        - **Mudança emergencial**: é uma mudança em um serviço que pretende reparar emergencialmente um erro no serviço de TI.
+        - **Cambio de emergencia**: es un cambio en un servicio que pretende reparar de forma inesperada un error en el servicio 
+        de TI.
         
-    - **Grupo**: selecione o grupo executor, o qual será responsável pelo atendimento da requisição de mudança. Caso não seja 
-    informado o grupo, o mesmo será estabelecido conforme definido no cadastro de Tipo de Mudança de acordo com o fluxo;
+    - **Grupo**: seleccione el grupo ejecutor, el cual será responsable por el atendimiento de la solicitud de cambio. En caso de 
+    no ser informado el grupo, el mismo será establecido conforme definido en el registro de Tipo de Cambio de acuerdo con el 
+    flujo;
     
-    - **Comitê Consultivo de Mudança**: selecione o Comitê Consultivo de Mudanças, grupo responsável por avaliar, executar 
-    análise de risco e garantir o envolvimento de todas as áreas relacionadas às mudanças, aprovando ou não sua execução;
+    - **Comité Asesor del Cambio**: seleccione el Comité Consultivo de Cambio, grupo responsable de evaluar, ejecutar análisis de 
+    riesgo y garantizar la participación de todas las áreas relacionadas con los cambios, aprobando o no su ejecución;
     
-    - **Urgência**: selecione a urgência da mudança;
+    - **Urgencia**: seleccione la urgencia del cambio;
     
-    - **Impacto**: selecione o impacto da mudança;
+    - **Impacto**: seleccione el impacto del cambio;
     
-    - **Prioridade**: a prioridade será estabelecida pelo sistema, após informar a urgência e impacto;
+    - **Prioridad**: la prioridad será establecida por el sistema, tras informar de la urgencia e impacto;
     
-    - **Item Configuração**: selecione o(s) item(s) de configuração referente a requisição;
+    - **Ítem Configuración**: seleccione el (los) ítem (s) de configuración referente a la solicitud;
     
-    - **Base de Conhecimento**: selecione o(s) conhecimento(s) referente a requisição;
+    - **Base de Conocimiento**: seleccione el (los) conocimiento (s) referente a la solicitud;
     
-    - Clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão gravados
-    automaticamente para uma futura auditoria.
+    - Haga clic en el botón *Grabar* para realizar el registro, donde la fecha, hora y usuario se guardarán automáticamente para 
+    una futura auditoría.
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/11/2019 – Larissa Lourenço
+    <b>Updated:</b>09/19/2019 – Larissa Lourenço
       
     
     
