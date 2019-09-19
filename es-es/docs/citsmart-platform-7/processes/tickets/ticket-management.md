@@ -1279,7 +1279,7 @@ Dirección del ticket
 
 ### Dirección del ticket para la atención
 
-1.  Se mostrará la pantalla de** Gestión de Ticket**. Consulte el ticket
+1.  Se mostrará la pantalla de **Gestión de Ticket**. Consulte el ticket
     deseado, presione sobre el mismo y luego haga clic en el icono ![ticket](images/management-13.png);
 
 2.  Se mostrará la pantalla de registro del ticket con los campos completados,
