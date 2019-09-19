@@ -53,7 +53,7 @@ Condiciones previas
 11. Introduzca el contenido debajo del parámetro (ver conocimiento [Reglas de
     parametrización - Ticket][13]):
 
-   -   Parámetro 9: definir el grupo de 1º nivel para la atención de la solicitud.
+      -   Parámetro 9: definir el grupo de 1º nivel para la atención de la solicitud.
 
 12.  El solicitante debe estar incluido en el grupo que está vinculado al
     contrato para que sea posible registrar la solicitud.
