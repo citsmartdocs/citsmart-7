@@ -1446,7 +1446,7 @@ Suspensión y reactivación de múltiples tickets
     !!! warning "ATENCIÓN"
 
         Al registrar el grupo del cual el usuario es miembro (a través de la
-        función Acceso y Permiso → Grupo), en el campo "Suspensión/Reactivación"
+        función Acceso y Permiso > Grupo), en el campo "Suspensión/Reactivación"
         seleccione el valor "No". El hecho de que el usuario seleccione "No" para
         este campo Suspensión/Reactivación de la pantalla de registro de grupo no
         influye en la aparición del botón "Suspensión/Reactivación" de la pantalla
