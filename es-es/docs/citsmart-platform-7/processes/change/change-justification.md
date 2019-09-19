@@ -48,7 +48,7 @@ elementos deseados en el listado default de la funcionalidad: **Descripción** y
 3. Para realizar la investigación de una justificación de solicitud de cambio, informe la descripción y/o situación de la misma. 
 Después de eso, se mostrará el registro según los datos informados;
 
-4. Para cambiar los datos del registro de justificación de solicitud de cambio, haga clic en el botón Editar. Hecho esto, será 
+4. Para cambiar los datos del registro de justificación de solicitud de cambio, haga clic en el botón *Editar*. Hecho esto, será 
 dirigido a la pantalla de registro mostrando el contenido referente al registro seleccionado.
 
 Completar los campos de registro
