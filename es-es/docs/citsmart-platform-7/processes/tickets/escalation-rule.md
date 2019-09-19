@@ -20,7 +20,7 @@ Condiciones previas
 2.  Introduzca el contenido debajo del parámetro (ver conocimiento [Reglas de
     parametrización - ticket][2]):
 
-   -   Parámetro 190: con el valor S
+      -   Parámetro 190: con el valor S
 
 3.  Tener el contrato registrado (ver conocimiento [Registro y consulta de
     contrato][3]);
@@ -40,9 +40,9 @@ Filtros
     ítems en el listado default de la funcionalidad, facilitando la localización
     de los ítems deseados:
 
-   -   Título;
+      -   Título;
 
-   -   Situación.
+      -   Situación.
 
    ![escalonamento](images/escalation-rule1.png)
    
