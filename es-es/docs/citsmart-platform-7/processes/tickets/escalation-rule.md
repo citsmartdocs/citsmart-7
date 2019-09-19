@@ -74,7 +74,7 @@ Completar los campos de registro
 --------------------------------
 
 1.  Al hacer clic en el botón *Nuevo*, se muestra la pantalla de registro de
-    las** Reglas de escalonamiento y notificaciones automáticas**, como se
+    las **Reglas de escalonamiento y notificaciones automáticas**, como se
     muestra en la siguiente figura:
 
    ![escalonamento](images/escalation-rule3.png)
