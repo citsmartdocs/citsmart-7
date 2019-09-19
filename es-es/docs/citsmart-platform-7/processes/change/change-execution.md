@@ -1,234 +1,233 @@
-title: Execução de requisição de mudança
-Description: Essa funcionalidade permite realizar a execução da requisição de mudança.
-# Execução de requisição de mudança
+title: Ejecución de solicitud de cambios
+Description: Esta funcionalidad permite realizar la ejecución de la solicitud de cambio.
+# Ejecución de solicitud de cambios
 
-Essa funcionalidade permite realizar a execução da requisição de mudança.
+Essa funcionalidade permite realizaEsta funcionalidad permite realizar la ejecución de la solicitud de cambio.
 
-Como acessar
+Cómo acceder
 --------------
 
-1. Acesse a funcionalidade de execução de requisição de mudança através da navegação no menu principal 
-**Processos ITIL > Gerência de Mudança > Gerenciamento de Mudança**.
+1. Acceda a la funcionalidad de ejecución de solicitud de cambio a través de la navegación en el menú principal 
+**Procesos ITIL > Gestión de Cambio > Gestión de Cambio**.
 
-Pré-condições
+Condiciones previas
 ---------------
 
-1. Ter cadastrado ao menos uma requisição de mudança (ver conhecimento [Cadastro de requisição de mudança](/pt-br/citsmart-platform-7/processes/change/register-change.html)).
+1. Tener registro por lo menos una solicitud de cambio (ver conocimiento [Registro de solicitud de cambio](/es-es/citsmart-platform-7/processes/change/register-change.html)).
 
 Filtros
 --------
 
-1.Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da
-funcionalidade, facilitando a localização dos itens desejados:
+1. Los siguientes filtros posibilitan al usuario restringir la participación de ítems en el listado default de la funcionalidad, 
+facilitando la localización de los ítems deseados:
 
-- Número da mudança;
+    - Número del cambio;
     
-- Atribuída/Compartilhada;
+    - Asignada/Compartida;
     
-- Itens por página.
+    - Ítems por página.
     
-![Filtros](images/exec-mud.img1.png)
+    ![Filtros](images/execução.img1.jpg)
     
-**Figura 1 - Tela de filtros**
+    **Figura 1 - Pantalla de filtros**
     
-Listagem de itens
+Listado de ítems
 -------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na
-listagem padrão da funcionalidade: Número, Solicitante, Criada em, Prioridade, Prazo, Prazo limite, Atraso, Situação,
-Tarefa atual, Executor e Responsável atual.
+1. El(Los) siguiente (s) campo (s) de registro está (n) disponible (s) para facilitar al usuario la identificación de los 
+elementos deseados en el listado default de la funcionalidad: **Número, Solicitante, Creada en, Prioridad, Plazo, Plazo límite, Atraso, Situación, Tarea actual, Grupo Ejecutor** y **Responsable actual**.
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Visualizar", "Relatórios" 
-e "Ação'.
+2. Hay botones de acción disponibles para el usuario en relación con cada elemento de la lista, que son: *Ver, Informes* y 
+*Acción*.
 
-![Listagem](images/exec-mud.img2.png)
+![Listagem](images/execução.img2.jpg)
 
-**Figura 2 - Tela de listagem de mudança**
+**Figura 2 - Pantalla de lista de cambio**
 
-Preenchimento dos campos cadastrais
+Completar los campos de registro
 ------------------------------------
 
-1. Não se aplica.
+1. No se aplica.
 
-Executando requisição de mudança
+Ejecutando solicitudes de cambio
 ---------------------------------
 
-1. Na guia **Gerenciamento**, localize a requisição de mudança que deseja registrar as informações de sua execução, 
-clique no botão "Ação" e selecione a opção "Iniciar/Executar" tarefa da mesma, conforme indicado na imagem abaixo:
+1. En la ficha Gestión, busque la solicitud de cambio que desea registrar la información de su ejecución, haga clic en el botón 
+*Acción* y seleccione la opción *Iniciar/Ejecutar* tarea de la misma, como se indica en la siguiente imagen:
 
-    ![Execução](images/exec-mud.img3.png)
+    ![Execução](images/execução.img3.jpg)
     
-    **Figura 3 - Registrar execução da requisição de mudança**
+    **Figura 3 - Registrar la ejecución de la solicitud de cambio**
     
-2. Será exibida a tela de **Requisição de Mudança** com os campos preenchidos com o conteúdo referente à requisição selecionada;
+2. Se mostrará la pantalla de **solicitud de cambio** con los campos a ser completados con el contenido correspondiente a la 
+solicitud seleccionada;
 
-    - Registre as informações necessárias sobre a execução da requisição de mudança:
+    - Registre la información necesaria sobre la ejecución de la solicitud de cambio:
     
-        - Clique no botão "Adicionar registro de execução";
-        - Descreva as informações sobre a execução de sua atividade.
+        - Haga clic en el botón *Agregar registro de ejecución*;
+        - Describa la información sobre la ejecución de su actividad.
         
-Vinculando problema à mudança
-------------------------------
+Vinculación del problema al cambio
+-------------------------------------
 
-1. Informe o(s) problema(s) referente à mudança:
+1. Informe el problema (s) referente al cambio:
 
-    - Ao lado direito da tela de requisição de mudança, clique na opção **Problema**;
+    - Al lado derecho de la pantalla de solicitud de cambio, haga clic en la opción **Problema**;
     
-    ![Problema](images/exec-mud.img4.png)
+    ![Problema](images/execução.img4.jpg)
     
-    **Figura 4 - Seleção de problema**
+    **Figura 4 - Selección de problemas**
     
-    - Clique no ícone ![simbolo](images/simb-lupa.png) para vincular um problema;
-    - Será exibida uma janela para pesquisa de problemas. Realize a pesquisa e selecione o 
-    problema. Feito isso, será relacionado o problema à mudança;
+    - Haga clic en el icono ![simbolo](images/simb-lupa.jpg) para vincular un problema;
+    - Aparecerá una ventana de consulta de problemas. Realice la consulta y seleccione el problema. Hecho esto, se relacionará el 
+    problema al cambio;
     
-    ![Relacionamento](images/exec-mud.img5.png)
+    ![Relacionamento](images/execução.img5.jpg)
     
     **Figura 5 - Relacionamento de problema à mudança**
     
-    - Caso queira visualizar o registro de problema que foi relacionado à mudança, basta clicar no
-    ícone ![simbolo](images/sim-iei.png) do mesmo;
-    - Caso queira remover um problema que foi relacionado à mudança, basta clicar no 
-    ícone ![simbolo](images/simb-menos.png) do mesmo.
+    - Si desea ver el registro de problemas relacionados con el cambio, simplemente haga clic en el icono 
+    ![simbolo](images/sim-iei.png) del mismo;
+    - Si desea eliminar un problema relacionado con el cambio, simplemente haga clic en el icono 
+    ![simbolo](images/simb-menos.jpg) del mismo.
     
-Vinculando os incidentes/requisições à mudança
+Vinculación de las solicitudes/incidentes al cambio
+-------------------------------------------------------
+
+1. Informe las solicitudes de servicio/incidentes referentes al cambio:
+
+    - Al lado derecho de la pantalla de solicitud de cambio, haga clic en la opción Solicitudes/Incidentes;
+    
+    ![Incidentes](images/execução.img6.jpg)
+    
+    **Figura 6 - Selección de solicitudes/incidentes**
+    
+    - Haga clic en el icono ![simbolo](images/simb-lupa.jpg)  para vincular el Solicitud de Servicio/Incidente;
+    - Se mostrará una ventana para la consulta de Solicitud de Servicio/Incidente, realice la consulta y seleccione el 
+    solicitud/incidente;
+    - Se relacionará el solicitud/incidente al cambio;
+    
+    ![Incidente](images/execução.img7.jpg)
+    
+    **Figura 7 - Relación de solicitud/incidente al cambio**
+    
+    - Si desea crear un nuevo incidente referente al cambio, simplemente haga clic en el icono ![simbolo](images/simb-mais.jpg);
+    - Si desea eliminar una solicitud/incidente que se ha relacionado, simplemente haga clic en el icono
+    ![simbolo](images/simb-menos.jpg).
+    
+Vinculación de la liberación al cambio
+--------------------------------------------
+
+1. Informe la liberación referente al cambio:
+
+    - Al lado derecho de la pantalla de solicitud de cambio, haga clic en la opción **Liberación**;
+    
+    ![Liberação](images/execução.img8.jpg)
+    
+    **Figura 8 - Selección de liberación**
+    
+    - Haga clic en el icono ![simbolo](images/simb-lupa.jpg) para vincular la liberación;
+    - Aparecerá una ventana de consulta de liberación. Realice la consulta y seleccione la liberación. Hecho esto, se relaciona 
+    la liberación al cambio;
+    
+    ![Liberação](images/execução.img9.jpg)
+    
+    **Figura 9 - Relación de liberación al cambio**
+    
+    - Si desea eliminar una liberación que se ha relacionado, simplemente haga clic en el icono 
+    ![simbolo](images/simb-menos.jpg). 
+    
+Vinculando conocimiento al cambio
+---------------------------------------
+
+1. Informe el conocimiento referente al cambio:
+
+    - Al lado derecho de la pantalla de solicitud de cambio, haga clic en la opción **Base de conocimiento**;
+    
+    ![Conhecimento](images/execução.img10.jpg)
+    
+    **Figura 10 - Selección de base de conocimiento**
+    
+    - Haga clic en el botón *Agregar conocimientos* para agregar el conocimiento;
+    - Se mostrará una ventana de consulta de conocimientos. Realice la consulta y seleccione el conocimiento. Hecho esto, se 
+    relacionará el conocimiento al cambio;
+    - Si desea crear un nuevo conocimiento referente al cambio, basta con hacer clic en el botón *Registro de Conocimiento*;
+    
+    ![Conhecimento](images/execução.img11.jpg)
+    
+    **Figura 11 - Relación de conocimiento al cambio**
+    
+    - Si desea eliminar un conocimiento que se ha relacionado, simplemente haga clic en el icono Relación de conocimiento al cambio ![simbolo](images/simb-menos.jpg).
+    
+Vinculando papeles/responsabilidades al cambio
 -----------------------------------------------
 
-1. Informe os incidentes/requisições de serviço referente à mudança:
+1. Informe los roles/responsabilidades, es decir, las personas involucradas en la ejecución de la solicitud de cambio:
 
-    - Ao lado direito da tela de requisição de mudança, clique na opção **Incidentes/Requisições**;
+    - Al lado derecho de la pantalla de solicitud de cambio, haga clic en la opción **Papeles/Responsabilidades**;
     
-    ![Incidentes](images/exec-mud.img6.png)
+    ![Responsabilidades](images/execução.img12.jpg)
     
-    **Figura 6 - Seleção de incidentes/requisições**
+    **Figura 12 - Selección de papeles/responsabilidades**
     
-    - Clique no ícone ![simbolo](images/simb-lupa.png) para vincular o Incidente/Requisição de Serviço;
-    - Será exibida uma janela para pesquisa de Incidente/requisição de serviços, realize a pesquisa e selecione o
-    incidente/requisição;
-    - Será relacionado o incidente/requisição à mudança;
-    
-    ![Incidente](images/exec-mud.img7.png)
-    
-    **Figura 7 - Relacionamento de incidente/requisição à mudança**
-    
-    - Caso queira criar registrar um novo incidente referente à mudança, basta clicar 
-    no ícone ![simbolo](images/exec-mais.png) ;
-    - Caso queira remover um incidente/requisição que foi relacionado, basta clicar no
-    ícone ![simbolo](images/simb-menos.png) .
-    
-Vinculando liberação à mudança
--------------------------------
-
-1. Informe a liberação referente à mudança:
-
-    - Ao lado direito da tela de requisição de mudança, clique na opção **Liberação**;
-    
-    ![Liberação](images/exec-mud.img8.png)
-    
-    **Figura 8 - Seleção de liberação**
-    
-    - Clique no ícone ![simbolo](images/simb-lupa.png) para vincular a liberação;
-    - Será exibida uma janela para pesquisa de liberação. Realize a pesquisa e selecione a liberação. 
-    Feito isso, será relacionada a liberação à mudança;
-    
-    ![Liberação](images/exec-mud.img9.png)
-    
-    **Figura 9 - Relacionamento de liberação à mudança**
-    
-    - Caso queira remover uma liberação que foi relacionada, basta clicar
-    no ícone ![simbolo](images/simb-menos.png) . 
-    
-Vinculando conhecimento à mudança
-----------------------------------
-
-1. Informe o conhecimento referente à mudança:
-
-    - Ao lado direito da tela de requisição de mudança, clique na opção **Base de Conhecimento**;
-    
-    ![Conhecimento](images/exec-mud.img10.png)
-    
-    **Figura 10 - Seleção de base de conhecimento**
-    
-    - Clique no botão "Adicionar Conhecimento" para adicionar o conhecimento;
-    - Será exibida uma janela para pesquisa de conhecimento. Realize a pesquisa e selecione o 
-    conhecimento. Feito isso, será relacionado o conhecimento à mudança;
-    - Caso queira criar registrar um novo conhecimento referente à mudança, basta clicar no botão "Cadastro de Conhecimento";
-    
-    ![Conhecimento](images/exec-mud.img11.png)
-    
-    **Figura 11 - Relacionamento de conhecimento à mudança**
-    
-    - Caso queira remover um conhecimento que foi relacionado, basta clicar 
-    no ícone ![simbolo](images/simb-menos.png) .
-    
-Vinculando papéis/responsabilidades à mudança
------------------------------------------------
-
-1. Informe os papéis/responsabilidades, ou seja, as pessoas envolvidas na execução da requisição de mudança:
-
-    - Ao lado direito da tela de requisição de mudança, clique na opção **Papéis/Responsabilidades**;
-    
-    ![Responsabilidades](images/exec-mud.img12.png)
-    
-    **Figura 12 - Seleção de papéis/responsabilidades**
-    
-    - Será exibida uma janela para realizar a pesquisa das pessoas envolvidas na execução da requisição de mudança;
+    - Se mostrará una ventana para realizar la investigación de las personas involucradas en la ejecución de la solicitud de 
+    cambio;
     
     !!! note "NOTA"
     
-        Os responsáveis pelo IC vinculado a requisição de mudança já serão apresentados automaticamente.
+        Los responsables del IC vinculados a la solicitud de cambio ya se presentarán automáticamente.
         
-    - Realize a pesquisa e selecione o empregado envolvido na execução da requisição de mudança;
-    - Informe o papel do empregado na execução de mudança;
-    - Selecione a responsabilidade e clique em Adicionar para efetuar a operação;
+    - Realice la consulta y seleccione el empleado implicado en la ejecución de la solicitud de cambio;
+    - Informe el papel del empleado en la ejecución de cambio;
+    - Seleccione la responsabilidad y haga clic en *Agregar* para realizar la operación;
     
-    ![Responsabilidades](images/exec-mud.img13.png)
+    ![Responsabilidades](images/execução.img13.jpg)
     
-    **Figura 13 - Relacionamento de papéis/responsabilidades à mudança**
+    **Figura 13 - Relación de papeles/responsabilidades al cambio**
     
-    - Caso queira excluir a informação sobre a pessoa envolvida na execução da requisição de mudança que foi 
-    adicionada, basta clicar no ícone ![simbolo](images/sim-exe.xis.png) da mesma. Com exceção dos responsáveis que
-    foram trazidos automaticamente do vínculo com o IC.
+    - Si desea excluir la información sobre la persona involucrada en la ejecución de la solicitud de cambio que se ha agregado, 
+    basta con hacer clic en el icono ![simbolo](images/simb-close.red.jpg) de la misma. Con excepción de los responsables que 
+    fueron traídos automáticamente del vínculo con el IC.
     
-Vinculando ocorrência à mudança
----------------------------------
+Vinculación de la ocurrencia del cambio
+--------------------------------------------
 
-1. Caso queira inserir uma ocorrência à requisição de mudança, proceda da seguinte maneira:
+1. Si desea insertar una instancia a la solicitud de cambio, proceda de la siguiente manera:
 
-    - Ao lado direito da tela de requisição de mudança, clique na opção **Ocorrência**;
+    - Al lado derecho de la pantalla de solicitud de cambio, haga clic en la opción **Ocurrencia**;
     
-    ![Ocorrência](images/exec-mud.img14.png)
+    ![Ocorrência](images/execução.img14.jpg)
     
-    **Figura 14 - Seleção de ocorrência**
+    **Figura 14 - Selección de ocurrencia**
     
-    - Será apresentada a tela de **Ocorrências** contendo duas abas, uma para visualização da
-    relação das ocorrências registradas e outra para cadastro de ocorrência;
-    - Clique na aba **Cadastro de Ocorrência**, será apresentada tela de cadastro conforme ilustrada na figura abaixo:
+    - Se mostrará la pantalla de **Ocurrencias** conteniendo dos fichas, una para visualización de la relación de las ocurrencias 
+    registradas y otra para registro de ocurrencia;
+    - Haga clic en la pestaña **Registro de Ocurrencia**, aparecerá pantalla de registro como se muestra en la figura siguiente:
     
-    ![Ocorrência](images/exec-mud.img15.png)
+    ![Ocorrência](images/execução.img15.jpg)
     
-    **Figura 15 - Registro de ocorrência**
+    **Figura 15 - Registro de ocurrencia**
     
-    - Preencha os campos de acordo a orientação abaixo:
-        - **Categoria**: selecione a categoria da ocorrência. Caso não seja encontrada a categoria, é possível realizar
-        um cadastro rápido clicando no ícone ![simbolo](images/sim-exe.mais.png) ;
-        - **Origem**: selecione a origem da ocorrência. Caso não seja encontrada a origem, é possível realizar um cadastro 
-        rápido clicando no ícone;
-        - **Tempo Gasto (min)**: informe o tempo gasto (em minutos);
-        - **Registrado por**: informe por quem está sendo registrada a ocorrência;
-        - **Descrição**: informe a descrição da ocorrência;
-        - **Ocorrências**: descreva os detalhes da ocorrência;
-        - **Informações de Contato**: descreva as informações para contato;
-        - Após informar todos os dados da ocorrência, clique no botão "Gravar" para efetuar a operação, onde a data, hora
-        e usuário serão armazenados automaticamente para uma futura auditoria.
-    - Após o registro das informações sobre a execução da requisição de mudança, clique no botão "Gravar e avançar o fluxo"
-    para efetuar a operação, onde a liberação será encaminhada para fase de avaliação;
-    - Caso queira gravar somente as informações registradas da execução da requisição de mudança e manter a tarefa atual,
-    clique no botão "Gravar e manter a tarefa atual";
-    - Em ambos os casos anteriores, ao clicar no botão "Gravar" a data, hora e usuário serão armazenados automaticamente
-    para uma futura auditoria.
+    - Complete los campos de acuerdo a la siguiente orientación:
+        - **Categoría**: seleccione la categoría de la instancia. Si no se encuentra la categoría, es posible realizar un 
+        registro rápido haciendo clic en el icono ![simbolo](images/simb-plus.green.jpg);
+        - **Origen**: seleccione el origen de la instancia. Si no se encuentra el origen, es posible realizar un registro rápido 
+        haciendo clic en el icono;
+        - **Tiempo Gasto (min)**: informe el tiempo gastado (en minutos);
+        - **Registrado por**: informe por quién se registra la ocurrencia;
+        - **Descripción**: informe la descripción de la ocurrencia;
+        - **Ocurrencias**: describa los detalles de la ocurrencia;
+        - **Información de contacto**: describa la información de contacto;
+        - Después de informar todos los datos de la instancia, haga clic en el botón *Grabar* para realizar la operación, donde 
+        la fecha, hora y usuario se almacenan automáticamente para una futura auditoría.
+    - Después del registro de las informaciones sobre la ejecución de la solicitud de cambio, haga clic en el botón *Grabar y 
+    avanzar* el flujo para efectuar la operación, donde la liberación será encaminada a la fase de evaluación;
+    - Si desea grabar sólo la información registrada de la ejecución de la solicitud de cambio y mantener la tarea actual, haga 
+    clic en el botón *Grabar y mantener la tarea actual*;
+    - En ambos casos anteriores, al hacer clic en el botón *Grabar* la fecha, hora y usuario se almacenan automáticamente para 
+    una futura auditoría.
     
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Larissa Lourenço
+    <b>Updated:</b>09/19/2019 – Larissa Lourenço
