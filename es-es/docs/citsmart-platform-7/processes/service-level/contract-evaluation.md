@@ -1,67 +1,68 @@
-title: Avaliação de contrato
-Description:  Verificar o desempenho do contrato por serviço.
+title: Evaluación de contrato
+Description: Esta funcionalidad tiene por objeto verificar el desempeño del contrato por servicio.
 
-# Avaliação de contrato
+# Evaluación de contrato
 
-Esta funcionalidade tem por objetivo verificar o desempenho do contrato por
-serviço.
+Esta funcionalidad tiene por objeto verificar el desempeño del contrato por servicio.
 
-Como acessar
+Cómo acceder
 ------------
 
-1.  Acesse a funcionalidade de Avaliação de Contrato através da navegação no
-    menu principal **Processos ITIL > Gerência de Nível de
-    Serviço > Avaliação de Contrato**.
+1.  Acceda a la funcionalidad de Evaluación de Contrato mediante la navegación
+    en el menú principal **Procesos ITIL > Gestión de Nivel de
+    Servicio > Evaluación de Contrato**.
 
-Pré-condições
--------------
+Condiciones previas
+-------------------
 
-1.  Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de
-    contrato][1]);
+1.  Tener el contrato registrado (ver conocimiento *Registro y consulta de
+    contrato*);
 
-2.  Ter atividades cadastradas (ver conhecimento [Cadastro da atividade de
-    serviço][2]).
+2.  Tener actividades catastradas (ver conocimiento *Registro de la actividad de
+    servicio*).
 
 Filtros
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados:
+1.  Los siguientes filtros posibilitan al usuario restringir la participación de
+    ítems en el listado default de la funcionalidad, facilitando la localización
+    de los ítems deseados:
 
-    -  Contrato;
+   -   Contrato;
 
-    -  Período.
+   -   Período.
 
-Listagem de itens
------------------
+Listado de ítems
+----------------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Atividade, Situação, Tipo de demanda do Serviço, Tem SLA?,
-    Data de Início, Data Fim e Quantidade Requisições/Incidentes.
+1.  El(Los) siguiente (s) campo (s) de registro está (n) disponible (s) para
+    facilitar al usuario la identificación de los elementos deseados en el
+    listado default de la funcionalidad: **Actividad, Situación, Tipo de demanda
+    del Servicio, ¿Tiene SLA?, Fecha de Inicio, Fecha Final** y **Cantidad
+    Solicitudes/Incidentes**.
 
-2.  Será apresentada a tela de **Avaliação de Contrato**, conforme ilustrada na
-    figura a seguir:
+2.  Se mostrará la pantalla de Evaluación de Contrato, como se muestra en la
+    siguiente figura:
 
-    ![Criar conta](images/contract-evaluation.png)
+    ![Menu](images/mod-ticket.img1.jpg)
+    
+    **Figura 1 - Pantalla de Consulta de Desempeño del Contrato por Servicio**
 
-    **Figura 1 - Tela de consulta de desempenho do contrato por serviço**
+3.  Seleccione el contrato e informe el período deseado;
 
-1.  Selecione o contrato e informe o período desejado;
+4.  Después de los filtros definidos, haga clic en el botón *Generar
+    información*. Hecho esto, se generará el informe de desempeño del contrato
+    por servicio.
 
-2.  Após os filtros definidos, clique no botão *Gerar Informações*. Feito isso,
-    será gerado o relatório de desempenho do contrato por serviço.
+Completar los campos de registro
+--------------------------------
 
-Preenchimento dos campos cadastrais
------------------------------------
+1.  No se aplica.
 
-1.  Não se aplica.
-
-[1]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
-[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/activity.html
+[1]:/es-es/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[2]:/es-es/citsmart-platform-7/processes/portfolio-and-catalog/activity.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 - Anna.Martins
+    <b>Updated:</b>09/20/2019 - Anna Martins
