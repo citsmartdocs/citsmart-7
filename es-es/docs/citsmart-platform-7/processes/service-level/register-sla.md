@@ -27,7 +27,7 @@ Condiciones previas
     e-mail][2]);
 
 4.  Tener la unidad registrada (ver conocimiento [Registro y consulta de
-    unidad[[3]);
+    unidad][[3]);
 
 5.  El usuario registrado (ver conocimiento [Registro y consulta de usuario][4]);
 
