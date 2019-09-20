@@ -1,50 +1,47 @@
-title: Módulo Gerenciamento de Mudança
-Description: O Gerenciamento de Mudanças é o processo responsável por avaliar, coordenar e decidir sobre a realização de mudanças 
-# Módulo Gerenciamento de Mudança
+title: Módulo Gestión de Cambios
+Description: La gestión de cambios es el proceso responsable de evaluar, coordinar y decidir sobre la realización de cambios 
+# Módulo Gestión de Cambios
 
-Objetivo do módulo
+Objetivo del módulo
 --------------------
 
-O Gerenciamento de Mudanças é o processo responsável por avaliar, coordenar e decidir sobre a realização de
-mudanças propostas a Itens de Configuração (ICs).
+La gestión de cambios es el proceso responsable de evaluar, coordinar y decidir sobre la realización de cambios propuestos a los 
+items de configuración (IC).
 
-Segundo a ITIL, o principal objetivo desde processo é assegurar que mudanças sejam feitas de uma forma controlada,
-e sejam avaliadas, priorizadas, planejadas, testadas, implantadas e documentadas.
+Según ITIL, el objetivo principal del proceso es garantizar que los cambios se realicen de forma controlada, que sean evaluados, 
+priorizados, planificados, probados, implementados y documentados.
 
-As mudanças podem ser categorizadas da seguinte forma: Mudança Padrão, Mudança Normal e Mudança Emergencial.
+Los cambios se pueden clasificar de la siguiente manera: Cambio default, Cambio normal y Cambio de emergencia.
 
-- **Mudança Padrão**: pré-autorizada de baixo risco, ocorre com frequência. Inicia-se por um gatilho definido que segue
-um procedimento ou instrução de trabalho para a realização das atividades - bastante conhecidas - possuem um orçamento
-pré-determinado. Ex.: Instalação de um pacote padrão de aplicativos para desktop.
+- **Cambio default**: preautorizado de bajo riesgo, ocurre con frecuencia. Se inicia con un desencadenante definido que sigue un 
+procedimiento o instrucción de trabajo para llevar a cabo las actividades, bien conocidas, tienen un presupuesto predeterminado. 
+Ejemplo: instalar un paquete de aplicaciones de escritorio default.
 
-- **Mudança Normal**: qualquer alteração de serviços que não seja emergencial ou padrão. Segue as políticas, prazos e procedimentos
-definidos pela organização.
+- **Cambio Normal**: cualquier cambio de servicio que no sea de emergencia o default. Sigue las políticas, los plazos y los 
+procedimientos definidos por la organización.
 
-- **Mudança Emergencial**: mudança que precisa ser realizada o quanto antes. Ex.: Mudança para resolver um Incidente Grave 
-ou implementar uma correção de segurança. O processo de Gerenciamento de Mudança normalmente tem um procedimento específico
-para tratar mudanças emergenciais.
+- **Cambio de Emergencia**: cambio que debe lograrse lo antes posible. Por ejemplo: cambo que resuelve un incidente grave o 
+corregir un problema de seguridad. El proceso de administración de cambios generalmente tiene un procedimiento específico para 
+manejar los cambios de emergencia.
 
-Onde estão suas funcionalidades
+Donde están sus funcionalidades
 ---------------------------------
 
-Acesse o menu principal **Processos ITIL > Gerência de Mudança**.
+Acceder al menú principal de **Procesos ITIL > Gestión de Cambio**.
 
-![Menu](images/mud-mod.img1.png)
+![Menu](images/modulo.img1.jpg)
 
-**Figura 1 - Menu do módulo gerência de mudança**
+**Figura 1 - Menú del Módulo de Gestión de Cambios**
 
-Principal funcionalidade (em destaque)
+Principal funcionalidad (en destaque)
 ---------------------------------------
 
-Na seção "Veja também" é possível acessar a(s) funcionalidade(s) principal(is) deste módulo, desta forma se pode obter 
-um conhecimento mais detalhado.
+En la sección *Véase también*Dependiendo de su permiso de acceso, puede realizar una serie de acciones en las solicitudes de cambio existentes, como: ver la información de solicitud de cambio, programar actividades para la solicitud de cambio, suspender la solicitud de cambio, reactivar la solicitud de cambio que se ha suspendido para el servicio , captura la solicitud de cambio para la ejecución, ejecuta la solicitud de cambio, etc. es posible acceder a la (s) funcionalidad (es) principal (es) de este módulo, para obtener un 
+conocimiento más detallado.
 
 !!! note "NOTA"
 
-    Dependendo da sua permissão de acesso, é possível realizar uma série de ações nas requisições de mudança existentes, 
-    sendo: visualizar as informações da requisição de mudança, agendar atividades referente à requisição de mudança, 
-    suspender o atendimento da requisição de mudança, reativar a requisição de mudança que foi suspensa para atendimento, 
-    capturar requisição de mudança para execução, executar requisição de mudança e entre outras.
+Dependiendo de su permiso de acceso, puede realizar una serie de acciones en las solicitudes de cambio existentes, como: ver la información de solicitud de cambio, programar actividades para la solicitud de cambio, suspender la solicitud de cambio, reactivar la solicitud de cambio que se ha suspendido para el servicio , captura la solicitud de cambio para la ejecución, ejecuta la solicitud de cambio, etc.
     
 Veja também
 ------------
