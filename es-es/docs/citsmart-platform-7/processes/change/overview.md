@@ -36,19 +36,21 @@ Acceder al menú principal de **Procesos ITIL > Gestión de Cambio**.
 Principal funcionalidad (en destaque)
 ---------------------------------------
 
-En la sección *Véase también*Dependiendo de su permiso de acceso, puede realizar una serie de acciones en las solicitudes de cambio existentes, como: ver la información de solicitud de cambio, programar actividades para la solicitud de cambio, suspender la solicitud de cambio, reactivar la solicitud de cambio que se ha suspendido para el servicio , captura la solicitud de cambio para la ejecución, ejecuta la solicitud de cambio, etc. es posible acceder a la (s) funcionalidad (es) principal (es) de este módulo, para obtener un 
-conocimiento más detallado.
+En la sección *Véase también* es posible acceder a la (s) funcionalidad (es) principal (es) de este módulo, para obtener un conocimiento más detallado.
 
 !!! note "NOTA"
 
-Dependiendo de su permiso de acceso, puede realizar una serie de acciones en las solicitudes de cambio existentes, como: ver la información de solicitud de cambio, programar actividades para la solicitud de cambio, suspender la solicitud de cambio, reactivar la solicitud de cambio que se ha suspendido para el servicio , captura la solicitud de cambio para la ejecución, ejecuta la solicitud de cambio, etc.
+    Dependiendo de su permiso de acceso, puede realizar una serie de acciones en las solicitudes de cambio existentes, como: ver 
+    la información de solicitud de cambio, programar actividades para la solicitud de cambio, suspender la solicitud de cambio, 
+    reactivar la solicitud de cambio que se ha suspendido para el servicio , captura la solicitud de cambio para la ejecución, 
+    ejecuta la solicitud de cambio, etc.
     
-Veja também
+Véase también
 ------------
 
-- [Cadastro de requisição de mudança](/pt-br/citsmart-platform-7/processes/change/register-change.html).
+- [Registro de Solicitud de Cambio](/es-es/citsmart-platform-7/processes/change/register-change.html).
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Larissa Lourenço
+    <b>Updated:</b>09/20/2019 – Larissa Lourenço
