@@ -16,7 +16,7 @@ Condiciones previas
 
 1. Tener la categoría de riesgo registrada (ver conocimiento [Registro y consulta de categoría de riesgo](/es-es/citsmart-platform-7/processes/continuity/risk-category.html));
 
-2. Tener la amenaza catastrada (ver conocimiento Registro y consulta de amenazas](/es-es/citsmart-platform-7/processes/continuity/threat-registration.html)).
+2. Tener la amenaza catastrada (ver conocimiento [Registro y consulta de amenazas](/es-es/citsmart-platform-7/processes/continuity/threat-registration.html)).
 
 Filtros
 ---------
