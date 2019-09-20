@@ -15,11 +15,11 @@ Cómo acceder
 Condiciones previas
 -------------------
 
-1.  Tener el contrato registrado (ver conocimiento *Registro y consulta de
-    contrato*);
+1.  Tener el contrato registrado (ver conocimiento [Registro y consulta de
+    contrato][1]);
 
-2.  Tener actividades catastradas (ver conocimiento *Registro de la actividad de
-    servicio*).
+2.  Tener actividades catastradas (ver conocimiento [Registro de la actividad de
+    servicio][2]).
 
 Filtros
 -------
