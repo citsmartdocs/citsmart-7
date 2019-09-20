@@ -176,11 +176,11 @@ servicio específico).
         
         **Figura 6 - Aplicación del tiempo de atención al servicio de solicitud/incidente**
 
-    4.  Si el tipo de tiempo de atención seleccionado es cliente o Incidente/Solicitud/Procedimiento, relacione las unidades y los colaboradores;
+4.  Si el tipo de tiempo de atención seleccionado es cliente o Incidente/Solicitud/Procedimiento, relacione las unidades y los colaboradores;
 
-        ![Criar](images/attendance-7.png)
+      ![Criar](images/attendance-7.png)
         
-        **Figura 7 - Relaciones de Unidad y colaborador**
+      **Figura 7 - Relaciones de Unidad y colaborador**
 
     -   Introduzca la unidad y asigne una prioridad;
 
