@@ -1,287 +1,287 @@
-title: Cadastro e pesquisa de acordo de nível de serviço geral
-Description:Esta funcionalidade tem por objetivo registrar o acordo de nível de serviço do tipo *disponibilidade*, *tempo (por fases)* e *informações diversas capturadas de outras fontes*.
+title: Registro y consulta de acuerdo de nivel de servicio general
+Description: Esta funcionalidad permite registrar el acuerdo de nivel de servicio del tipo disponibilidad, tiempo (por fases) e información diversa capturada de otras fuentes.
 
-# Cadastro e pesquisa de acordo de nível de serviço geral
+# Registro y consulta de acuerdo de nivel de servicio general
 
+Esta funcionalidad permite registrar el acuerdo de nivel de servicio del tipo
+disponibilidad, tiempo (por fases) e información diversa capturada de otras
+fuentes.
 
-Essa funcionalidade permite registrar o acordo de nível de serviço do
-tipo *disponibilidade*, *tempo (por fases)* e *informações diversas capturadas
-de outras fontes*.
-
-Como acessar
+Cómo acceder
 ------------
 
-1.  Acesse a funcionalidade de Acordo de Nível de Serviço Geral através da
-    navegação no menu principal **Processos ITIL \> Gerência de Nível de
-    Serviço \> Acordo de Nível de Serviço**.
+1.  Acceda a la funcionalidad de acuerdo de nivel de servicio general a través
+    de la navegación en el menú principal **Procesos ITIL > Gestión de
+    Nivel de Servicio > Acuerdo de Nível de Servicio**.
 
-Pré-condições
--------------
+Condiciones previas
+-------------------
 
-1.  Ter a prioridade cadastrada (ver conhecimento [Cadastro e pesquisa de
-    prioridade][1]).
+1.  Tener la prioridad registrada (ver conocimiento [Registro y consulta de
+    prioridad][1]);
 
-2.  Ter o grupo cadastrado (ver conhecimento [Cadastro e pesquisa de
-    grupo][2]).
+2.  Tener el grupo registrado (ver conocimiento [Registro y consulta de grupo][2]);
 
-3.  Ter definido os modelos de e-mail (ver conhecimento [Cadastro e pesquisa de
-    configuração de modelo de e-mail][3]).
+3.  Se han definido las plantillas de correo electrónico (ver
+    conocimiento [Registro y consulta de la configuración del modelo de
+    e-mail][3]);
 
-4.  Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de unidade][4]).
+4.  Tener la unidad registrada (ver conocimiento [Registro y consulta de
+    unidad][4]);
 
-5.  Ter o usuário cadastrado (ver conhecimento [Cadastro e pesquisa de usuário][5]).
+5.  El usuario registrado (ver conocimiento [Registro y consulta de usuario][5]);
 
-6.  Ter o requisito de acordo de nível de serviço cadastrado (ver conhecimento [Cadastro e pesquisa de requisito de acordo de nível de serviço][6]).
+6.  Tener el requisito de acuerdo de nivel de servicio registrado (ver
+    conocimiento [Registro y consulta de requisitos de acuerdo de nivel de
+    servicio][6]).
 
 Filtros
 -------
 
-1.  Os seguintes filtros possibilitam ao usuário restringir a participação de
-    itens na listagem padrão da funcionalidade, facilitando a localização dos
-    itens desejados, conforme ilustrado na figura abaixo:
+1.  Los siguientes filtros permiten al usuario restringir la participación de
+    ítems en el listado default de la funcionalidad, facilitando la localización
+    de los ítems deseados, como se muestra en la figura siguiente:
 
-    -  Título;
+    -   Título;
 
-    -  Situação;
+    -   Situación;
 
-    -  Tipo de Acordo.
+    -   Tipo de Acuerdo.
 
-2.  Na tela Acordo de nível de serviço geral, clique na guia **Acordo de nível
-    de serviço de pesquisa** (Geral). A tela de pesquisa será exibida conforme
-    mostrado na figura abaixo:
+2.  En la pantalla Acuerdo de nivel de servicio general, haga clic en la
+    ficha **Acuerdo de nivel de servicio** de consulta (General). La pantalla de
+    consulta aparecerá como se muestra en la figura siguiente:
 
     ![Criar](images/register-sla-1.png)
+    
+    **Figura 1 - Pantalla de consulta de acuerdo de nivel de servicio general**
 
-    **Figura 1 - Tela de pesquisa de Acordo de Nível de Serviço geral**
+3.  Realización de consulta de acuerdo de nivel de servicio;
 
-3.  Realizar pesquisa de acordo de nível de serviço;
+    -   **Título**: introduzca el título del contrato de nivel de servicio que desea
+    buscar;
 
-    -   **Título**: insira o título do contrato de nível de serviço que deseja
-    pesquisar;
+    -   **Situación**: seleccione el estado del contrato de nivel de servicio;
 
-    -   **Situação**: selecione o status do contrato de nível de serviço;
+    -   Una vez que el filtro está configurado, haga clic en el botón *Consultar*.
+    Una vez hecho esto, el registro del acuerdo de nivel de servicio se mostrará
+    de acuerdo con los datos reportados.
 
-    -   Depois que o filtro estiver configurado, clique no botão *Pesquisar*. Uma
-    vez feito isso, o registro do acordo de nível de serviço será exibido de
-    acordo com os dados relatados.
+    -   Si desea enumerar todos los registros del acuerdo de nivel de servicio,
+    simplemente haga clic en el botón *Consultar* directamente.
 
-    -   Se deseja listar todos os registros do acordo de nível de serviço, basta
-    clicar no botão *Pesquisar* diretamente.
+4.  Para cambiar los datos de registro de acuerdo con el acuerdo de nivel de
+    servicio, basta con modificar la información de los campos deseados y hacer
+    clic en el botón *Grabar* para guardar el cambio en la grabación, donde la
+    fecha, la hora y el usuario se guardarán automáticamente auditoría futura.
 
-4.  Para alterar os dados de registro de acordo com o acordo de nível de
-    serviço, basta modificar as informações dos campos desejados e clicar no
-    botão *Gravar* para salvar a alteração feita na gravação, onde a data, a
-    hora e o usuário serão salvos automaticamente para uma auditoria futura.
+Listado de ítems
+----------------
 
-Listagem de itens
------------------
-
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da funcionalidade: Título, Situação, Data de Início, Data
-    fim e Avaliar em.
+1.  El(Los) siguiente (s) campo (s) de registro está (n) disponible (s) para
+    facilitar al usuario la identificación de los elementos deseados en el
+    listado default de la funcionalidad: **Título, Situación, Fecha de inicio,
+    Fecha** y **Evaluar En**.
 
 ![Criar](images/register-sla-2.png)
 
-**Figura 2 - Tela de itens**
+**Figura 2 - Pantalla de Ítems**
 
-Preenchimento dos campos cadastrais
------------------------------------
+Completar los campos de registro
+--------------------------------
 
-1.  Será apresentada a tela de **Cadastro de Acordo de Nível de Serviço Geral**,
-    conforme ilustrada na figura a seguir:
+1.  Se mostrará la pantalla de **Registro de Acuerdo de Nivel de Servicio
+    General**, tal como se muestra en la siguiente figura:
 
     ![Criar](images/register-sla-3.png)
+    
+    **Figura 3 - Pantalla de registro de acuerdo de nivel de servicio general**
 
-    **Figura 3 - Tela de cadastro de Acordo de Nível de Serviço geral**
+2.  Rellene los campos según las instrucciones a continuación:
 
-2.  Preencha os campos conforme orientações abaixo:
+    a)  **Título del Acuerdo**: informe del título del acuerdo de nivel de servicio;
 
-    -  **Título do Acordo**: informe o título do acordo de nível de serviço;
+    b)  **Tipo de acuerdo**: seleccione el tipo de acuerdo de nivel de servicio;
 
-    -  **Tipo de Acordo**: selecione o tipo de acordo de nível de serviço;
+       -   **Disponibilidad**: este tipo de acuerdo indica la disponibilidad del
+    servicio, es decir, si es accesible durante un período de tiempo acordado.
+    Por ejemplo: tener el proveedor de servicio monitoreando el sitio de la
+    empresa cliente a tiempo completo para asegurarse de que los usuarios puedan
+    acceder al contenido del sitio a tiempo completo;
 
-       -  **Disponibilidade**: esse tipo de acordo indica a disponibilidade do
-           serviço, ou seja, se está acessível durante um período de tempo acordado.
-           Ex.: ter o prestador de serviço monitorando o site da empresa cliente em
-           tempo integral para ter certeza que os usuários possam ter acesso ao
-           conteúdo do site em tempo integral;
+       -   **Tiempo (por fases)**: este tipo de acuerdo vincula el tiempo de respuesta
+    a una fase, es decir, en lugar de calcular por tiempo, el SLA se calculará
+    por una fase que corresponda a un período acordado para el período de
+    captura y período de tiempo ejecución;
 
-        -  **Tempo (por fases)**: esse tipo de acordo vincula o tempo de atendimento a
-           uma fase, ou seja, no lugar de calcular por tempo, o SLA será calculado por
-           uma fase que corresponde a um período acordado para o período de captura e
-           período de execução;
+       -   **Información diversa capturada de otras fuentes**: este tipo de acuerdo
+    estipula los límites de la OS (Orden de servicio) al servicio elegido.
 
-        -  **Informações diversas capturadas de outras fontes**: esse tipo de acordo
-           estipula os limites da OS (Ordem de Serviço) ao serviço escolhido.
+    c)  **Estacionalidad**: informe la época en que los servicios y acuerdo de nivel
+    de servicio se desarrollarán de acuerdo con el negocio;
 
-    -   **Sazonalidade**: informe a época em que os serviços e acordo de nível de
-    serviço serão evoluídos em conformidade com o negócio;
+    d)  **Impacto**: informe el impacto que causa la ausencia del funcionamiento del
+    servicio dentro del ambiente organizacional. Ejemplo: la red local para
+    funcionar, el impacto en la organización es muy alto, ya que nadie accede a
+    los servicios ofrecidos por los servidores;
 
-    -   **Impacto**: informe o impacto que causa a ausência do funcionamento do
-    serviço dentro do ambiente organizacional. Exemplo: a rede local para de
-    funcionar, o impacto na organização é muito alto, já que ninguém acessa os
-    serviços disponibilizados pelos servidores;
+    e)  **Urgencia**: informe la urgencia del restablecimiento del servicio dentro
+    del ambiente organizacional. Ejemplo: siguiendo el ejemplo citado arriba, la
+    urgencia de restauración del enlace de la red local es alta ya que la
+    empresa es dependiente de la comunicación con los servidores para el
+    almacenamiento de su información operacional perjudicando toda la
+    productividad de la empresa en esta parada;
 
-    -   **Urgência**: informe a urgência do restabelecimento do serviço dentro do
-    ambiente organizacional. Exemplo: seguindo o exemplo citado acima, a
-    urgência de restabelecimento do link da rede local é alta já que a empresa é
-    dependente da comunicação com os servidores para o armazenamento de suas
-    informações operacionais prejudicando toda a produtividade da empresa nesta
-    parada;
+    f)  **¿Permite el cambio de Impacto y Urgencia en el registro de la solicitud
+    ?**: defina si se permitirá el cambio del impacto y la urgencia en el
+    registro de la solicitud de servicio;
 
-    -   **Permite a mudança de Impacto e Urgência no registro da solicitação?**:
-    defina se será permitido a mudança do impacto e urgência no registro da
-    solicitação de serviço;
+    g)  **Situación**: informe la situación del acuerdo de nivel de servicio: Activo
+    (en uso habilitado) o Inactivo (deshabilitado);
 
-    -   **Situação**: informe a situação do acordo de nível de serviço: Ativo (em
-    uso corrente) ou Inativo (desabilitado);
+    h)  **Descripción del Acuerdo**: describa los detalles sobre el acuerdo de nivel
+    de servicio;
 
-    -   **Descrição do Acordo**: descreva os detalhes sobre o acordo de nível de
-    serviço;
+    i)  **Ámbito (Alcances, metas y procesos) del Acuerdo**: describa una visión
+    macro sobre el acuerdo de nivel de servicio;
 
-    -   **Escopo do Acordo**: descreva uma visão macro sobre o acordo de nível de
-    serviço;
+    j)  **Fecha de inicio**: informe la fecha de inicio del acuerdo de nivel de
+    servicio;
 
-    -   **Data de Início**: informe a data de início do acordo de nível de serviço;
+    k)  **Fecha Final**: informe la fecha futura para cerrar el acuerdo de nivel de
+    servicio. La misma podrá ser informada en el momento del cierre del acuerdo;
 
-    -   **Data Fim**: informe a data futura para encerramento do acordo de nível de
-    serviço. A mesma pode ser informada no momento do encerramento do acordo;
+    l) **Evaluar En**: informe la fecha en que se evaluará el acuerdo de nivel de
+    servicio;
 
-    -   **Avaliar Em**: informe a data na qual o acordo de nível de serviço será
-    avaliado;
+    m) **Contactos**: describa la información de contacto sobre el acuerdo de nivel
+    de servicio;
 
-    -   **Contatos**: descreva as informações para contato sobre o acordo de nível
-    de serviço;
-
-    -   Se o tipo de acordo informado for **Disponibilidade**, informe o índice de
-    disponibilidade do serviço:
+    n) Si el tipo de acuerdo informado es **Disponibilidad**, indique el índice de
+        disponibilidad del servicio:
 
     ![Criar](images/register-sla-4.png)
+    
+    **Figura 4 - Registro de índice de disponibilidad**
 
-    **Figura 4 - Registro de índice de disponibilidade**
+     -   Informe el porcentaje de disponibilidad del servicio, es decir, si define el
+    90% significa que a partir del 10% de indisponibilidad sobre el servicio el
+    contrato podrá sufrir algún tipo de penalidad acordada sobre él.
 
-       -  Informe o percentual de disponibilidade do serviço, isto é, se definir 90%
-          significa que a partir de 10% de indisponibilidade sobre o serviço o
-          contrato poderá sofrer algum tipo de penalidade acordada sobre ele.
-
-    -  Se o tipo de acordo informado for Tempo (por fase), defina os prazos de SLA
-    (acordo de nível de serviço), levando em consideração a prioridade. A
-    prioridade vai de 1 a 5, sendo que o 1 é a prioridade mais alta e 5 é a mais
-    baixa:
+    o)  Si el tipo de acuerdo informado es Tiempo (por fase), defina los plazos de SLA (acuerdo de nivel de servicio),       teniendo en cuenta la prioridad. La prioridad va de 1 a 5, siendo que el 1 es la prioridad más alta y 5 es la más baja:
 
     ![Criar](images/register-sla-5.png)
+   
+    **Figura 5 - Registro de tiempo (por fase)**
 
-    **Figura 5 - Registro de tempo (por fase)**
+     -   **Captura**: defina el tiempo de captura de la solicitud de servicio, según la prioridad;
 
-       -  **Captura**: defina o tempo de captura da solicitação de serviço, conforme a
-    prioridade;
+     -   **Resolución**: defina el tiempo de resolución del servicio, según la prioridad;
 
-       -  **Resolução**: defina o tempo de resolução do serviço, conforme a
-    prioridade;
+     -   **Tiempo de Acción**: informe el tiempo para la ejecución de la solicitud de servicio;
 
-       -  **Tempo de Ação**: informe o tempo para execução da solicitação de serviço;
+     -   **Prioridad**: informe la prioridad del servicio;
 
-       -  **Prioridade**: informe a prioridade do serviço;
+     -   **Grupo**: informe al grupo ejecutor del servicio;
 
-       -  **Grupo**: informe o grupo executor do serviço;
-
-       -  **Modelo de E-mail**: selecione o modelo de e-mail, o qual será enviado
-    quando a solicitação de serviço não for atendida pelo prazo de SLA
-    determinado.
+     -   **Modelo de e-mail**: seleccione la plantilla de correo electrónico, que se enviará cuando la solicitud de             servicio no se cumpla con el plazo de SLA determinado.
 
     !!! info "IMPORTANTE"
 
-        Após os N minutos (informado no tempo de ação) e caso não tenha realizado
-        nenhuma ação na solicitação do serviço vinculado a este SLA, o sistema
-        atribuirá a prioridade e escalará o grupo para execução da solicitação do
-        serviço.
+        Después de los N minutos (informado en el tiempo de acción) y si no ha
+        realizado ninguna acción en la solicitud del servicio vinculado a este SLA, el
+        sistema asignará la prioridad y escalará el grupo para ejecutar la solicitud del
+        servicio.
 
-    -   Selecione as unidades e atribua uma prioridade para cada;
+   -   Seleccione las unidades y asigne una prioridad para cada una;
 
-         -  **Buscar Unidade**: informe a unidade que receberá a prioridade;
+       -   **Buscar unidad**: informe a la unidad que recibirá la prioridad;
 
-         -   **Prioridade**: indique a prioridade do serviço para a unidade;
+           -   **Prioridad**: indique la prioridad del servicio para la unidad;
 
-        -   Feito isso, clique no ícone ![Criar](images/register-sla-6.png) para adição das informações de
-            prioridade da unidade;
+           -   Hecho esto, haga clic en el icono ![Criar](images/register-sla-6.png)para agregar la información de
+                prioridad de la unidad;
 
-        -   Caso queira remover alguma informação de prioridade da unidade que
-              foi adicionada, basta clicar no ícone ![Criar](images/register-sla-7.png).
+           -   Si desea remover alguna información de prioridad de la unidad
+                que se ha agregado, simplemente haga clic en el icono ![Criar](images/register-sla-7.png) .
 
-    -  Selecione os usuários e atribua uma prioridade para cada;
+         -   Seleccione los usuarios y asigne una prioridad a cada uno;
 
-       -   **Buscar Usuário**: informe o usuário;
+               -   **Buscar usuario**: informe al usuario;
 
-       -   **Prioridade**: indique a prioridade do serviço para o usuário;
+               -   **Prioridad**: indique la prioridad del servicio para el
+                   usuario;
 
-       -   Feito isso, clique no ícone ![Criar](images/register-sla-6.png) para adição das informações de
-            prioridade do usuário;
+               -   Hecho esto, haga clic en el icono ![Criar](images/register-sla-6.png) para agregar la información de
+                   prioridad del usuario;  
+                   Si desea remover alguna información de prioridad del usuario que
+                   se ha agregado, simplemente haga clic en el icono ![Criar](images/register-sla-7.png).
 
-       -   Caso queira remover alguma informação de prioridade do usuário que
-            foi adicionada, basta clicar no ícone ![Criar](images/register-sla-7.png).
+   p)  Si el tipo de acuerdo informado es Informaciones diversas capturadas de otras fuentes, informe los datos de acuerdo de servicio:
 
-    -   Se o tipo de acordo informado for Informações diversas capturadas de outras
-    fontes, informe os dados de acordo de serviço:
+   ![Criar](images/register-sla-8.png)
+   
+   **Figura 6 - Registro de información múltiple capturada de otras fuentes**
 
-    ![Criar](images/register-sla-8.png)
+   -   **Valor límite**: introduzca el valor límite de glosa. Este valor puede ser
+    un porcentaje de atención o cantidad de eventos. Ejemplo: el servicio debe
+    alcanzar mensualmente un 99,7% de disponibilidad o puede ocurrir en el mes
+    hasta 4 incidentes causados por la organización contratada. El excedente de
+    este límite será penalizado con el valor especificado en el campo Límite de
+    Glosa;
 
-    **Figura 6 - Registro de informações diversas capturadas de outras fontes**
+   -   **Unidad (del valor límite)**: informe a la unidad del valor límite de
+    glosa. Ejemplo: porcentaje o cantidad de eventos;
 
-    -   **Valor Limite**: informe o valor limite para glosa. Esse valor pode ser um
-    percentual de atendimento ou quantidade de eventos. Exemplo: o serviço deve
-    alcançar mensalmente 99,7 % de disponibilidade ou podem ocorrer no mês até 4
-    incidentes causados pela organização contratada. O excedente deste limite
-    será penalizado com o valor especificado no campo Limite de Glosa;
-
-    -   **Unidade (do Valor Limite)**: informe a unidade do valor limite para glosa.
-    Exemplo: percentual ou quantidade de eventos;
-
-    -   **Glosa**: informe os detalhes do que foi acordado referente a glosa.
-    Exemplo: A disponibilidade de uso para os serviços críticos deve ser de
+   -   **Glosa**: informe los detalles de lo que fue acordado referente a la glosa.
+    Ejemplo: La disponibilidad de uso para los servicios críticos debe ser de
     24x7;
 
-    -   **Limite Glosa**: informe os percentuais a serem pagos sobre o valor do
-    contrato no caso do não cumprimento do acordo. Exemplo: 0,5% de glosa para
-    cada décimo de falha no serviço ou 0,2% para cada falha de notificação
-    superior à meta até 10 ocorrências, 0,5% até 20 ocorrências, etc.
+   -   **Límite Glosa**: informe los porcentajes a ser pagados sobre el valor del
+    contrato en el caso del incumplimiento del acuerdo. Ejemplo: 0,5% de glosa
+    para cada décima de error en el servicio o 0,2% para cada fallo de
+    notificación superior a la meta hasta 10 ocurrencias, 0,5% hasta 20
+    ocurrencias, etc.
 
-3.  Após informar os dados, clique no botão *Gravar* para efetuar o registro,
-    onde a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria.
+  3.  Después de informar los datos, haga clic en el botón *Grabar* para
+    registrar, donde la fecha, hora y usuario se guardarán automáticamente para
+    una futura auditoría.
 
-Verificando o histórico de auditoria do acordo de nível de serviço
-------------------------------------------------------------------
+Verificando el historial de auditoría del acuerdo de nivel de servicio
+----------------------------------------------------------------------
 
-1.  Depois de pesquisar, selecione o registro desejado. Uma vez feito isso, será
-    direcionado para a tela de registro exibindo o conteúdo do registro
-    selecionado:
+1.  Después de buscar, seleccione el registro deseado. Una vez hecho esto, se
+    dirigirá a la pantalla de registro mostrando el contenido del registro
+    seleccionado:
 
-    -  A relação entre o acordo de nível de serviço e os contratos de clientes é
-    fornecida na guia Contratos do Cliente;
+      -   La relación entre el acuerdo de nivel de servicio y los contratos de
+       clientes se proporciona en la ficha Contratos del Cliente;
 
-    -  A relação entre o acordo de nível de serviço e o acordo de nível operacional
-    é fornecida na guia Acordo de Nível Operacional;
+      -   La relación entre el acuerdo de nivel de servicio y el acuerdo de nivel
+       operativo se proporciona en la guía Acuerdo de Nivel Operativo;
 
-    -  A guia Contratos de terceiros é a associação entre o contrato de nível de
-    serviço com contratos de terceiros;
+      -   La ficha Contratos de terceros es la asociación entre el contrato de nivel
+       de servicio con contratos de terceros;
 
-    -  O histórico das mudanças feitas no registro do acordo de nível de serviço é
-    exibido na guia Histórico, conforme mostrado na figura abaixo:
+      -   El historial de los cambios realizados en el registro del acuerdo de nivel
+       de servicio se muestra en la ficha Historial, como se muestra en la figura
+       siguiente:
 
 ![Criar](images/register-sla-9.png)
 
- **Figura 7 -Tela de histórico de auditoria**
+**Figura 7 - Pantalla de historial de auditoría**
 
-[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/priority-register.html
-[2]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html
-[3]:/pt-br/citsmart-platform-7/plataform-administration/email-settings/configure-email-template.html
-[4]:/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html
-[5]:/pt-br/citsmart-platform-7/initial-settings/access-settings/user/user-register.html
-[6]:/pt-br/citsmart-platform-7/processes/service-level/sla-requiriment.html
+
+[1]:/es-es/citsmart-platform-7/processes/portfolio-and-catalog/priority-register.html
+[2]:/es-es/citsmart-platform-7/initial-settings/access-settings/user/group.html
+[3]:/es-es/citsmart-platform-7/plataform-administration/email-settings/configure-email-template.html
+[4]:/es-es/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html
+[5]:/es-es/citsmart-platform-7/initial-settings/access-settings/user/user-register.html
+[6]:/es-es/citsmart-platform-7/processes/service-level/sla-requiriment.html
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Anna Martins
+    <b>Updated:</b>09/20/2019 – Anna Martins
 
