@@ -33,7 +33,7 @@ facilitando la localización de los ítems deseados:
 
 4. Haga clic en el botón *Generar PDF* para generar el informe cuantitativo de cambios en formato PDF;
 
-5. Haga clic en el botón Generar XSL para generar el informe cuantitativo de cambios en formato de Excel.
+5. Haga clic en el botón *Generar XSL* para generar el informe cuantitativo de cambios en formato de Excel.
 
 *Listado de ítems*
 
