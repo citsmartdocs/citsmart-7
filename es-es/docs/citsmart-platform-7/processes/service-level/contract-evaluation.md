@@ -28,9 +28,9 @@ Filtros
     ítems en el listado default de la funcionalidad, facilitando la localización
     de los ítems deseados:
 
-   -   Contrato;
+    -   Contrato;
 
-   -   Período.
+    -   Período.
 
 Listado de ítems
 ----------------
@@ -44,7 +44,7 @@ Listado de ítems
 2.  Se mostrará la pantalla de Evaluación de Contrato, como se muestra en la
     siguiente figura:
 
-    ![Menu](images/mod-ticket.img1.jpg)
+    ![Menu](images/contract-evaluation.png)
     
     **Figura 1 - Pantalla de Consulta de Desempeño del Contrato por Servicio**
 
