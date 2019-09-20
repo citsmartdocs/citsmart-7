@@ -170,7 +170,7 @@ Registrando acciones y monitoreo del objetivo del plan de mejora
     para registrar la información de la acción como se muestra en la figura
     siguiente:
 
-    ![Criar](images/improve-plan-9.png)
+    ![Criar](images/improve-plan-7.1.png)
     
     **Figura 7 - Pantalla de registro de acción**:
 
@@ -196,7 +196,7 @@ Registrando acciones y monitoreo del objetivo del plan de mejora
     y agregar la acción del objetivo en el registro de plan de mejora.
 
 3.  Para cambiar la información del registro de acción, haga clic en el
-    icono ![Criar](images/improve-plan-10.png) del mismo, modifique los datos que desee y haga clic
+    icono ![Criar](images/improve-plan.10.png) del mismo, modifique los datos que desee y haga clic
     en *Guardar* para realizar el cambio, donde la fecha, hora y usuario se
     guardarán automáticamente para una futura auditoría;
 
@@ -206,7 +206,7 @@ Registrando acciones y monitoreo del objetivo del plan de mejora
     pantalla para registro de las informaciones del monitoreo como se muestra en
     la figura siguiente:
 
-    ![Criar](images/improve-plan-11.png)
+    ![Criar](images/improve-plan-9.png)
     
     **Figura 8 - Pantalla de registro de monitoreo**
 
@@ -234,7 +234,7 @@ Registrando acciones y monitoreo del objetivo del plan de mejora
     y agregar el seguimiento del objetivo en el registro de plan de mejora.
 
 3.  Para cambiar la información del registro de seguimiento, haga clic en el
-    icono ![Criar](images/improve-plan-12.png) del mismo, modifique los datos que desee y haga clic
+    icono ![Criar](images/improve-plan.10.png) del mismo, modifique los datos que desee y haga clic
     en *Guardar* para realizar el cambio, donde la fecha, la hora y el usuario
     se guardarán automáticamente para una futura auditoría.
 
