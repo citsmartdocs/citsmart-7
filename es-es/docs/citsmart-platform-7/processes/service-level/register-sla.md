@@ -99,154 +99,151 @@ Completar los campos de registro
 
 2.  Rellene los campos según las instrucciones a continuación:
 
-a)  **Título del Acuerdo**: informe del título del acuerdo de nivel de servicio;
+    a)  **Título del Acuerdo**: informe del título del acuerdo de nivel de servicio;
 
-b)  **Tipo de acuerdo**: seleccione el tipo de acuerdo de nivel de servicio;
+    b)  **Tipo de acuerdo**: seleccione el tipo de acuerdo de nivel de servicio;
 
-    -   **Disponibilidad**: este tipo de acuerdo indica la disponibilidad del
+       -   **Disponibilidad**: este tipo de acuerdo indica la disponibilidad del
     servicio, es decir, si es accesible durante un período de tiempo acordado.
     Por ejemplo: tener el proveedor de servicio monitoreando el sitio de la
     empresa cliente a tiempo completo para asegurarse de que los usuarios puedan
     acceder al contenido del sitio a tiempo completo;
 
-    -   **Tiempo (por fases)**: este tipo de acuerdo vincula el tiempo de respuesta
+       -   **Tiempo (por fases)**: este tipo de acuerdo vincula el tiempo de respuesta
     a una fase, es decir, en lugar de calcular por tiempo, el SLA se calculará
     por una fase que corresponda a un período acordado para el período de
     captura y período de tiempo ejecución;
 
-    -   **Información diversa capturada de otras fuentes**: este tipo de acuerdo
+       -   **Información diversa capturada de otras fuentes**: este tipo de acuerdo
     estipula los límites de la OS (Orden de servicio) al servicio elegido.
 
-c)  **Estacionalidad**: informe la época en que los servicios y acuerdo de nivel
+    c)  **Estacionalidad**: informe la época en que los servicios y acuerdo de nivel
     de servicio se desarrollarán de acuerdo con el negocio;
 
-d)  **Impacto**: informe el impacto que causa la ausencia del funcionamiento del
+    d)  **Impacto**: informe el impacto que causa la ausencia del funcionamiento del
     servicio dentro del ambiente organizacional. Ejemplo: la red local para
     funcionar, el impacto en la organización es muy alto, ya que nadie accede a
     los servicios ofrecidos por los servidores;
 
-e)  **Urgencia**: informe la urgencia del restablecimiento del servicio dentro
+    e)  **Urgencia**: informe la urgencia del restablecimiento del servicio dentro
     del ambiente organizacional. Ejemplo: siguiendo el ejemplo citado arriba, la
     urgencia de restauración del enlace de la red local es alta ya que la
     empresa es dependiente de la comunicación con los servidores para el
     almacenamiento de su información operacional perjudicando toda la
     productividad de la empresa en esta parada;
 
-f)  **¿Permite el cambio de Impacto y Urgencia en el registro de la solicitud
+    f)  **¿Permite el cambio de Impacto y Urgencia en el registro de la solicitud
     ?**: defina si se permitirá el cambio del impacto y la urgencia en el
     registro de la solicitud de servicio;
 
-g)  **Situación**: informe la situación del acuerdo de nivel de servicio: Activo
+    g)  **Situación**: informe la situación del acuerdo de nivel de servicio: Activo
     (en uso habilitado) o Inactivo (deshabilitado);
 
-h)  **Descripción del Acuerdo**: describa los detalles sobre el acuerdo de nivel
+    h)  **Descripción del Acuerdo**: describa los detalles sobre el acuerdo de nivel
     de servicio;
 
-i)  **Ámbito (Alcances, metas y procesos) del Acuerdo**: describa una visión
+    i)  **Ámbito (Alcances, metas y procesos) del Acuerdo**: describa una visión
     macro sobre el acuerdo de nivel de servicio;
 
-j)  **Fecha de inicio**: informe la fecha de inicio del acuerdo de nivel de
+    j)  **Fecha de inicio**: informe la fecha de inicio del acuerdo de nivel de
     servicio;
 
-k)  **Fecha Final**: informe la fecha futura para cerrar el acuerdo de nivel de
+    k)  **Fecha Final**: informe la fecha futura para cerrar el acuerdo de nivel de
     servicio. La misma podrá ser informada en el momento del cierre del acuerdo;
 
-l) **Evaluar En**: informe la fecha en que se evaluará el acuerdo de nivel de
+    l) **Evaluar En**: informe la fecha en que se evaluará el acuerdo de nivel de
     servicio;
 
-m) **Contactos**: describa la información de contacto sobre el acuerdo de nivel
+    m) **Contactos**: describa la información de contacto sobre el acuerdo de nivel
     de servicio;
 
-n) Si el tipo de acuerdo informado es **Disponibilidad**, indique el índice de
-    disponibilidad del servicio:
+    n) Si el tipo de acuerdo informado es **Disponibilidad**, indique el índice de
+        disponibilidad del servicio:
 
     ![Criar](images/register-sla-4.png)
     
     **Figura 4 - Registro de índice de disponibilidad**
 
-    -   Informe el porcentaje de disponibilidad del servicio, es decir, si define el
+     -   Informe el porcentaje de disponibilidad del servicio, es decir, si define el
     90% significa que a partir del 10% de indisponibilidad sobre el servicio el
     contrato podrá sufrir algún tipo de penalidad acordada sobre él.
 
-o)  Si el tipo de acuerdo informado es Tiempo (por fase), defina los plazos de
-    SLA (acuerdo de nivel de servicio), teniendo en cuenta la prioridad. La
-    prioridad va de 1 a 5, siendo que el 1 es la prioridad más alta y 5 es la
-    más baja:
+    o)  Si el tipo de acuerdo informado es Tiempo (por fase), defina los plazos de SLA (acuerdo de nivel de servicio),       teniendo en cuenta la prioridad. La prioridad va de 1 a 5, siendo que el 1 es la prioridad más alta y 5 es la más baja:
 
-##### **Figura 5 - Registro de tiempo (por fase)**
+    ![Criar](images/register-sla-5.png)
+   
+    **Figura 5 - Registro de tiempo (por fase)**
 
--   **Captura: **defina el tiempo de captura de la solicitud de servicio, según
-    la prioridad;
+     -   **Captura**: defina el tiempo de captura de la solicitud de servicio, según la prioridad;
 
-    -   **Resolución: **defina el tiempo de resolución del servicio, según la
-        prioridad;
+     -   **Resolución**: defina el tiempo de resolución del servicio, según la prioridad;
 
-    -   **Tiempo de Acción: **informe el tiempo para la ejecución de la
-        solicitud de servicio;
+     -   **Tiempo de Acción**: informe el tiempo para la ejecución de la solicitud de servicio;
 
-    -   **Prioridad: **informe la prioridad del servicio;
+     -   **Prioridad**: informe la prioridad del servicio;
 
-    -   **Grupo: **informe al grupo ejecutor del servicio;
+     -   **Grupo**: informe al grupo ejecutor del servicio;
 
-    -   **Modelo de e-mail: **seleccione la plantilla de correo electrónico, que
-        se enviará cuando la solicitud de servicio no se cumpla con el plazo de
-        SLA determinado.
+     -   **Modelo de e-mail**: seleccione la plantilla de correo electrónico, que se enviará cuando la solicitud de             servicio no se cumpla con el plazo de SLA determinado.
 
-**REGLA: después de los N minutos (informado en el tiempo de acción) y si no ha
-realizado ninguna acción en la solicitud del servicio vinculado a este SLA, el
-sistema asignará la prioridad y escalará el grupo para ejecutar la solicitud del
-servicio.**
+    !!! info "IMPORTANTE"
 
--   Seleccione las unidades y asigne una prioridad para cada una;
+        Después de los N minutos (informado en el tiempo de acción) y si no ha
+        realizado ninguna acción en la solicitud del servicio vinculado a este SLA, el
+        sistema asignará la prioridad y escalará el grupo para ejecutar la solicitud del
+        servicio.
 
-    -   **Buscar unidad: **informe a la unidad que recibirá la prioridad;
+   -   Seleccione las unidades y asigne una prioridad para cada una;
 
-        -   **Prioridad:** indique la prioridad del servicio para la unidad;
+       -   **Buscar unidad**: informe a la unidad que recibirá la prioridad;
 
-            -   Hecho esto, haga clic en el icono para agregar la información de
+           -   **Prioridad**: indique la prioridad del servicio para la unidad;
+
+           -   Hecho esto, haga clic en el icono ![Criar](images/register-sla-6.png)para agregar la información de
                 prioridad de la unidad;
 
-            -   Si desea remover alguna información de prioridad de la unidad
-                que se ha agregado, simplemente haga clic en el icono .
+           -   Si desea remover alguna información de prioridad de la unidad
+                que se ha agregado, simplemente haga clic en el icono ![Criar](images/register-sla-7.png) .
 
-        -   Seleccione los usuarios y asigne una prioridad a cada uno;
+         -   Seleccione los usuarios y asigne una prioridad a cada uno;
 
-            -   **Buscar usuario: **informe al usuario;
+               -   **Buscar usuario**: informe al usuario;
 
-            -   **Prioridad: **indique la prioridad del servicio para el
-                usuario;
+               -   **Prioridad**: indique la prioridad del servicio para el
+                   usuario;
 
-            -   Hecho esto, haga clic en el icono para agregar la información de
-                prioridad del usuario;  
-                Si desea remover alguna información de prioridad del usuario que
-                se ha agregado, simplemente haga clic en el icono .
+               -   Hecho esto, haga clic en el icono ![Criar](images/register-sla-6.png) para agregar la información de
+                   prioridad del usuario;  
+                   Si desea remover alguna información de prioridad del usuario que
+                   se ha agregado, simplemente haga clic en el icono ![Criar](images/register-sla-7.png).
 
-1.  Si el tipo de acuerdo informado es Informaciones diversas capturadas de
-    otras fuentes, informe los datos de acuerdo de servicio:
+   p)  Si el tipo de acuerdo informado es Informaciones diversas capturadas de otras fuentes, informe los datos de acuerdo de servicio:
 
-**Figura 6 - Registro de información múltiple capturada de otras fuentes**
+   ![Criar](images/register-sla-8.png)
+   
+   **Figura 6 - Registro de información múltiple capturada de otras fuentes**
 
--   **Valor límite:** introduzca el valor límite de glosa. Este valor puede ser
+   -   **Valor límite**: introduzca el valor límite de glosa. Este valor puede ser
     un porcentaje de atención o cantidad de eventos. Ejemplo: el servicio debe
     alcanzar mensualmente un 99,7% de disponibilidad o puede ocurrir en el mes
     hasta 4 incidentes causados por la organización contratada. El excedente de
     este límite será penalizado con el valor especificado en el campo Límite de
     Glosa;
 
--   **Unidad (del valor límite): **informe a la unidad del valor límite de
+   -   **Unidad (del valor límite)**: informe a la unidad del valor límite de
     glosa. Ejemplo: porcentaje o cantidad de eventos;
 
--   **Glosa:** informe los detalles de lo que fue acordado referente a la glosa.
+   -   **Glosa**: informe los detalles de lo que fue acordado referente a la glosa.
     Ejemplo: La disponibilidad de uso para los servicios críticos debe ser de
     24x7;
 
--   **Límite Glosa:** informe los porcentajes a ser pagados sobre el valor del
+   -   **Límite Glosa**: informe los porcentajes a ser pagados sobre el valor del
     contrato en el caso del incumplimiento del acuerdo. Ejemplo: 0,5% de glosa
     para cada décima de error en el servicio o 0,2% para cada fallo de
     notificación superior a la meta hasta 10 ocurrencias, 0,5% hasta 20
     ocurrencias, etc.
 
-1.  Después de informar los datos, haga clic en el botón *Grabar* para
+  3.  Después de informar los datos, haga clic en el botón *Grabar* para
     registrar, donde la fecha, hora y usuario se guardarán automáticamente para
     una futura auditoría.
 
@@ -257,18 +254,20 @@ Verificando el historial de auditoría del acuerdo de nivel de servicio
     dirigirá a la pantalla de registro mostrando el contenido del registro
     seleccionado:
 
--   La relación entre el acuerdo de nivel de servicio y los contratos de
+   -   La relación entre el acuerdo de nivel de servicio y los contratos de
     clientes se proporciona en la ficha Contratos del Cliente;
 
--   La relación entre el acuerdo de nivel de servicio y el acuerdo de nivel
+   -   La relación entre el acuerdo de nivel de servicio y el acuerdo de nivel
     operativo se proporciona en la guía Acuerdo de Nivel Operativo;
 
--   La ficha Contratos de terceros es la asociación entre el contrato de nivel
+   -   La ficha Contratos de terceros es la asociación entre el contrato de nivel
     de servicio con contratos de terceros;
 
--   El historial de los cambios realizados en el registro del acuerdo de nivel
+   -   El historial de los cambios realizados en el registro del acuerdo de nivel
     de servicio se muestra en la ficha Historial, como se muestra en la figura
     siguiente:
+
+![Criar](images/register-sla-9.png)
 
 **Figura 7 - Pantalla de historial de auditoría**
 
