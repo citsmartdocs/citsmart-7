@@ -1,7 +1,9 @@
-Title: Bem-vindo
+Title: Bienvenido
 
-# Estamos aqui para ajudá-lo!
+# ¡Estamos aquí para ayudarlo!
 
-Bem-vindo ao Centro de Documentação do CITSmart. Aqui você encontrará informações úteis sobre nossos produtos, guias de instalação, configuração da plataforma e implantação dos processos. Veja também nosso site para desenvolvedores: https://developers.citsmart.com.
+Bienvenido al Centro de Documentación de CITSmart. Aquí encontrará información útil sobre nuestros productos, guías de instalación, configuración de la plataforma e implementación de los procesos. Vea también nuestro sitio para desarrolladores: https://developers.citsmart.com.
 
-Clique no menu acima para entrar na árvore de documentação dos nossos produtos.
+Haga clic en el menú de arriba para entrar en el árbol de documentación de nuestros productos.
+
+🔤 Interfaz de búsqueda accesible a través de teclas de acceso rápido (F o S).
