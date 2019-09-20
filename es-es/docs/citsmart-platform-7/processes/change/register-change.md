@@ -1,305 +1,314 @@
-title: Cadastro de requisição de mudança
-Description: Esta funcionalidade tem por objetivo registrar requisição de mudança.
-# Cadastro de requisição de mudança
+title: Registro de solicitud de cambio
+Description: Esta funcionalidad tiene por objeto registrar la solicitud de cambio.
+# Registro de solicitud de cambio
 
-Esta funcionalidade tem por objetivo registrar requisição de mudança.
+Esta funcionalidad tiene por objeto registrar la solicitud de cambio.
 
-Antes de começar
+Cómo acceder
 --------------------
 
-1. Acesse a funcionalidade de registro de requisição de mudança através da navegação no menu principal 
-**Processos ITIL > Gerência de Mudança > Gerência de Mudança**. Na guia de Gerenciamento, clique no botão
-"Cadastrar nova mudança".
+1. Acceda a la funcionalidad de registro de solicitud de cambio a través de la navegación en el menú principal 
+**Procesos ITIL > Gestión de Cambios > Gestión del Cambio**. En la guia de **Gestión**, haga clic en el botón *Registrar nuevo 
+cambio*.
 
-Pré-condições
----------------
+Condiciones previas
+-------------------------
 
-1. Ter o contrato cadastrado (ver conhecimento [Cadastro e pesquisa de contrato](/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html))
+1. Tener el contrato registrado (ver conocimiento [Registro y consulta de contrato](/es-es/citsmart-platform-7/additional-features/contract-management/use/register-contract.html))
 
-2. Ter a unidade cadastrada (ver conhecimento [Cadastro e pesquisa de unidade](/pt-br/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html))
+2. Tener la unidad registrada (ver conocimiento [Registro y consulta de unidad](/es-es/citsmart-platform-7/plataform-administration/region-and-language/register-unit.html))
 
-3. Ter solicitante cadastrado (ver conhecimento [Cadastro e pesquisa de colaborador](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html))
+3. Tener solicitante registrado (ver conocimiento [Registro y consulta de colaborador](/es-es/citsmart-platform-7/initial-settings/access-settings/user/employee.html))
 
-4. Ter o “Comitê Consultivo de Mudanças” cadastrado (ver conhecimento [Cadastro e pesquisa de grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html))
+4. Tener el "Comité Consultivo de Cambios" registrado (ver conocimiento [Registro y consulta de grupo](/es-es/citsmart-platform-7/initial-settings/access-settings/user/group.html))
 
-5. Ter o tipo de mudança cadastrado, o qual deverá ter o vínculo com o fluxo referente a requisição de mudança
-(ver conhecimento [Cadastro e pesquisa de tipo de mudança](/pt-br/citsmart-platform-7/processes/change/change-type.html))
+5. Tener el tipo de cambio catastrado, el cual deberá tener el vínculo con el flujo referente a la solicitud de cambio (ver 
+conocimiento [Registro y consulta del tipo de cambios](/es-es/citsmart-platform-7/processes/change/change-type.html))
 
-6. Configurar os parâmetros abaixo ([Regras de parametrização - mudança](/pt-br/citsmart-platform-7/plataform-administration/parameters-list/parametrization-change.html)):
+6. Configurar los parámetros (ver conocimiento [Reglas de parametrización - cambios](/es-es/citsmart-platform-7/plataform-administration/parameters-list/parametrization-change.html)):
 
-    - Parâmetro 47;
-    - Parâmetro 279;
-    - Parâmetro 280.
+    - Parámetro 47;
+    - Parámetro 279;
+    - Parámetro 280.
    
-7. Ter o grupo vinculado ao contrato, associando os Solicitantes (colaboradores) já cadastrados a este grupo. 
-Caso seja preciso criar um novo colaborador, é necessário incluí-lo ao Grupo de Solicitante no qual esteja 
-relacionado ao contrato (ver conhecimento [Como relacionar grupo ao contrato?](/pt-br/citsmart-platform-7/processes/tickets/relate-group.html));
+7. Tener el grupo vinculado al contrato, asociando a los Solicitantes (colaboradores) ya registrados a este grupo. En caso de que 
+sea necesario crear un nuevo colaborador, es necesario incluirlo al Grupo de Solicitante en el cual esté relacionado con el 
+contrato (ver conocimiento [¿Cómo relacionar el grupo al contrato?](/es-es/citsmart-platform-7/processes/tickets/relate-group.html));
 
-8. Ter a unidade vinculada ao contrato (ver conhecimento [Como relacionar unidade ao contrato?](/pt-br/citsmart-platform-7/processes/tickets/relate-unit.html))
+8. Tener la unidad vinculada al contrato (ver conocimiento [¿Cómo relacionar la unidad al contrato?](/es-es/citsmart-platform-7/processes/tickets/relate-unit.html))
 
-9. Ter a mudança cadastrada
+9. Tener el cambio registrado;
 
-10. Ter o questionário cadastrado (ver conhecimento [Cadastro e pesquisa de questionários](/plataform-administration/questionnaires/questionnaires-management/register-questionnaire.html))
+10. Tener el cuestionario registrado (ver conocimiento Registro y consulta de cuestionarios](es-es/plataform-administration/questionnaires/questionnaires-management/register-questionnaire.html))
 
 Filtros
 ----------
 
-1. Não se aplica.
+1. No se aplica.
 
-Listagem de itens
+Listado de ítems
 -------------------
 
-1. Não se aplica.
+1. No se aplica.
 
-Preenchimento de campos cadastrais
+Completar campos de registro
 ------------------------------------
 
-1. Para ter uma melhor visão das opções da funcionalidade, segue imagem:
+1. Para tener una mejor visión de las opciones de funcionalidad, sigue la imagen:
 
-    ![Gerenciamento de mudança](images/cad-mud.img1.png)
+    ![Gerenciamento de mudança](images/cambio.img1.jpg)
 
-    **Figura 1 - Tela de gerenciamento de mudança**
+    **Figura 1 - Pantalla de gestión de cambios**
 
-    ![num](images/num1.png) ![amplia](images/sim-aum.png) : amplia a tela de Gerenciamento de Mudanças;
+    ![num](images/1.png) ![amplia](images/simb-ampliar.jpg) : amplía la pantalla de **Gestión del Cambio**;
 
-    ![num](images/num2.png) **Gerenciamento**: apresentada os registros de requisições de mudança para atendimento e gerenciamento;
+    ![num](images/2.png) **Gestión**: muestra los registros de solicitudes de cambio para atención y gestión;
 
-    ![num](images/num3.png) **Gráficos**: apresenta os gráficos de informações das requisições de mudanças por situação 
-(em andamento, suspensas e atrasadas), por prioridade e por grupo;
+    ![num](images/3.png) **Gráficos**: presenta los gráficos de información de las solicitudes de cambio por situación (en curso, suspendidas y atrasadas), por prioridad y por grupo;
 
-    ![num](images/num4.png) **Requisições para votação**: apresentada os registros de requisições de mudança para aprovação;
+    ![num](images/4.png) **Solicitudes de votación**: se presentan los registros de solicitudes de cambio para su aprobación;
 
-    ![num](images/num5.png) **Filtros**: apresenta os filtros para pesquisa de requisições de mudança;
+    ![num](images/5.png) **Filtros**: presenta los filtros para la consulta de solicitudes de cambio;
 
-    ![num](images/num6.png) **Ações**: permite registrar novas requisições de mudança e realizar uma pesquisa rápida de
-requisição de mudança;
+    ![num](images/6.png) **Acciones**: permite registrar nuevas solicitud de cambio y realizar una consulta rápida de solicitud de 
+    cambio;
 
-    ![num](images/num7.png) **Relatórios**: apresenta os relatórios dinâmicos referentes ao gerenciamento de mudança.
+    ![num](images/7.png) **Informes**: presenta los informes dinámicos referentes a la gestión del cambio.
 
-2. Após o acesso a funcionalidade, será apresentada a respectiva tela de "Cadastrar nova mudança", contendo uma série de passos a 
-serem seguidos para realizar o registro:
+2. Después de acceder a la funcionalidad, se mostrará su pantalla de registro nuevo cambio, que contiene una serie de pasos a 
+seguir para realizar el registro:
 
-    - Registre as informações do solicitante, conforme indicadas abaixo:
+    - Registre la información del solicitante, como se indica a continuación:
     
-    ![Cadastro](images/cad-mud.img2.png)
+    ![Cadastro](images/cambio.img2.jpg)
     
-    **Figura 2 - Tela de cadastro de nova mudança**
+    **Figura 2 - Pantalla de registro de nuevo cambio**
     
-    - **Contrato**: informe o contrato referente a requisição de mudança;
-    - **Solicitante**: informe o solicitante, ou seja, a pessoa que está solicitando a mudança;
-        - Clique no campo solicitante. Após isso, será exibida uma tela para pesquisa de solicitante, realize a pesquisa e selecione o solicitante;
-        - Caso não encontre o registro do solicitante, é possível realizar um cadastro rápido clicando no 
-        ícone ![simbolo](images/simb-mais.png).
-    - **Nome do Contato**: informe o nome do contato;
-    - **E-mail**: informe o e-mail do solicitante para contato;
-    - **Telefone**: informe código de área (DDD) e o número de telefone do solicitante, para contato;
-    - **Ramal**: informe o número do ramal do solicitante para contato;
-    - **Unidade**: selecione a unidade do solicitante;
-    - **Localidade Física**: informe a localização física do solicitante;
-    - **Observação**: descreva as observações sobre o contato, caso seja necessário.
+    - **Contrato**: informe el contrato referente a la solicitud de cambio;
+    - **Solicitante**: informe al solicitante, es decir, a la persona que está solicitando el cambio;
+        - Haga clic en el campo solicitante. Después de eso, se mostrará una pantalla para consulta de solicitante, realice la 
+        consulta y seleccione el solicitante;
+        - Si no encuentra el registro del solicitante, es posible realizar un registro rápido haciendo clic en el icono
+        ![simbolo](images/simb-mais.verde.qua.jpg).
+    - **Nombre del contacto**: informe el nombre del contacto;
+    - **E-mail**: informe el e-mail del solicitante para contacto;
+    - **Teléfono**: informe código de área (DDD) y el número de teléfono del solicitante, para contacto;
+    - **Extensión**: informe el número del interno del solicitante para contacto;
+    - **Unidad**: seleccione la unidad del solicitante;
+    - **Localidad Física**: informe la ubicación física del solicitante;
+    - **Observación**: describa las observaciones sobre el contacto, si es necesario.
     
-    - Registre as informações da requisição, conforme indicadas abaixo:
+    - Registre la información de la solicitud, como se indica a continuación:
     
-    ![Cadastro](images/cad-mud.img3.png)
+    ![Cadastro](images/cambio.img3.jpg)
     
-    **Figura 3 - Tela de cadastro de nova mudança**
+    **Figura 3 - Pantalla de registro de nuevo cambio**
     
-    - **Título**: informe o título da requisição de mudança;
-    - **Tipo**: informe o tipo de mudança que está sendo solicitada;
-        - **Mudança Padrão**: é uma mudança que é previamente pré-aprovada pelo Gerenciamento de Mudança e já possui procedimentos aceitos e estabelecidos;
-        - **Mudança Normal**: é uma mudança que segue um fluxo normal de avaliação, aprovação e autorização;
-        - **Mudança Emergencial**: é uma mudança em um serviço que pretende reparar emergencialmente um erro no serviço de TI.
+    - **Título**: informe el título de la solicitud de cambio;
+    - **Tipo**: informe el tipo de cambio que se está solicitando;
+        - **Cambio default**: es un cambio que es previamente pre-aprobado por la Gestión de Cambio y ya tiene procedimientos 
+        aceptados y establecidos;
+        - **Cambio normal**: es un cambio que sigue un flujo normal de evaluación, aprobación y autorización;
+        - **Cambio de emergencia**: es un cambio en un servicio que pretende reparar de forma inesperada un error en el servicio 
+        de TI.
        
     !!! note "NOTA"
        
-        Mudança Padrão e Mudança Emergencial não requer informações da categoria e comitê consultivo de mudança, pois as mesmas não participam do Votação da Requisição de Mudança.
+        El cambio default y el cambio de emergencia no requieren información de la categoría y el comité consultivo de cambio, ya 
+        que no participan en la votación de la solicitud de cambio.
            
-    - Se o tipo de requisição de mudança informado for "Normal", informe a **Categoria**;
-    - **Impacto**: informe o impacto da mudança;
-    - **Urgência**: informe a urgência da mudança;
-    - **Prioridade**: a prioridade será estabelecida pelo sistema, após informar o impacto e urgência;
-    - **Descrição**: informe a descrição da mudança que está sendo solicitada. A descrição deve ser objetiva, incluindo toda informação necessária para realização da mudança;
-    - **Grupo Executor**: informe o grupo executor, o qual será responsável pelo atendimento da requisição de mudança. Caso não seja informado o grupo, o mesmo será estabelecido conforme definido no cadastro de Tipo de Mudança de acordo com o fluxo;
-    - **Comitê Consultivo de Mudanças**: informe o Comitê Consultivo de Mudanças, grupo responsável por avaliar, executar análise de risco e garantir o envolvimento de todas as áreas relacionadas às mudanças, aprovando ou não sua execução;
+    - Si el tipo de solicitud de cambio informado es "Normal", introduzca la categoría.
+    - **Impacto**: informe el impacto del cambio;
+    - **Urgencia**: informe la urgencia del cambio;
+    - **Prioridad**: la prioridad será establecida por el sistema, después de informar el impacto y urgencia;
+    - **Descripción**: informe la descripción del cambio que se está solicitando. La descripción debe ser objetiva, incluyendo 
+    toda la información necesaria para la realización del cambio;
+    - **Grupo Ejecutor**: informe al grupo ejecutor, el cual será responsable por la atención de la solicitud de cambio. En caso 
+    de no ser informado el grupo, el mismo será establecido conforme definido en el registro de Tipo de Cambio de acuerdo con el 
+    flujo;
+    - **Comité Asesor del Cambios**: informe al Comité Consultivo de Cambios, grupo responsable de evaluar, ejecutar análisis de 
+    riesgo y garantizar la participación de todas las áreas relacionadas con los cambios, aprobando o no su ejecución;
    
-3. Clique no botão "Gravar" para efetuar o registro da requisição de mudança, onde a data, hora e usuário serão gravados automaticamente para uma futura auditoria;
+3. Haga clic en el botón *Grabar* para registrar la solicitud de cambio, donde la fecha, hora y usuario se guardarán automáticamente para una futura auditoría;
 
-4. Será exibida uma mensagem confirmando o sucesso do registro da requisição de mudança.
+4. Se mostrará un mensaje confirmando el éxito del registro de la solicitud de cambio.
 
-![Confirmação](images/cad-mud.img4.png)
+![Confirmação](images/cambio.img4.jpg)
 
-**Figura 4 - Confirmação do registro da requisição de mudança**
+**Figura 4 - Confirmación del registro de la solicitud de cambio**
 
-Vinculando IC's da mudança
-----------------------------
+Vinculación de los IC's del cambio
+------------------------------------
 
-1. Informe os itens de configuração (IC's) referente à mudança:
+1. Introduzca los ítems de configuración (IC) referentes al cambio:
 
-    - Ao lado direito da tela de requisição de mudança, clique em **IC's da Mudança**;
+    - Al lado derecho de la pantalla de solicitud de cambio, haga clic en **IC's del Cambio**;
     
-    ![Seleção](images/cad-mud.img5.png)
+    ![Seleção](images/cambio.img5.jpg)
     
-    **Figura 5 - Seleção de IC’s da mudança**
+    **Figura 5 - Selección de IC's del cambio**
     
-    - Será apresentada a tela de adição de item de configuração. Clique no ícone ![simbolo](images/simb-lupa.png) para adicionar os itens de configuração.
-    - Será apresentada a janela para pesquisa de itens de configuração. Realize a pesquisa, selecione o item de 
-    configuração referente à mudança;
-    - Será exibida a mensagem "Deseja vincular o IC?", clique em "OK";
-    - Será exibida a mensagem "Deseja informar o que será alterado?". Se desejar realizar alguma alteração no IC, clique
-    no botão "Sim" e será direcionado para a tela contendo informações gerais, características e itens relacionados ao 
-    IC selecionado. Realize as alterações necessárias e clique em "Gravar". Se não desejar realizar nenhuma alteração
-    no IC selecionado, clique no botão "Não";
-    - Será apresentada a mensagem de que o item de configuração foi gravado com sucesso, clique em "OK" para efetuar 
-    a operação. Feito isso, será relacionado o item de configuração à requisição de mudança;
+    - Se mostrará la pantalla de adición de ítem de configuración. Haga clic en el icono ![simbolo](images/simb-lupa.jpg) para 
+    agregar los ítems de configuración.
+    - Aparecerá la ventana de consulta de ítems de configuración. Realice la consulta, seleccione el ítem de configuración 
+    referente al cambio;
+    - Aparecerá el mensaje "¿Desea vincular IC?", Haga clic en OK;
+    - Aparecerá el mensaje "¿Desea informarle qué cambiará?". Si desea realizar algún cambio en el IC, haga clic en el botón Sí y 
+    se dirigirá a la pantalla que contiene información general, características y ítems relacionados con el IC seleccionado. 
+    Realice los cambios necesarios y haga clic en *Grabar*. Si no desea realizar ningún cambio en el IC seleccionado, haga clic 
+    en el botón No;
+    - Aparecerá el mensaje de que el ítem de configuración se ha guardado correctamente, haga clic en *Aceptar* para realizar la 
+    operación. Hecho esto, se relacionará el ítem de configuración a la solicitud de cambio;
 
-    ![Relacionamento](images/cad-mud.img6.png)
+    ![Relacionamento](images/cambio.img6.jpg)
     
-    **Figura 6 - Relacionamento de Item de Configuração à Requisição de Mudança**
+    **Figura 6 - Relación de ítem de Configuración a la Solicitud de Cambio**
     
-    - Para editar as informações do item de configuração, basta clicar no ícone ![simbolo](images/simb-lapis.png) do
-    mesmo;
-    - Para visualizar as informações do item de configuração, basta clicar no ícone ![simbolo](images/simb-prancheta.png)
-    do mesmo;
-    - Caso queira remover um item de configuração que foi relacionado à requisição de mudança, basta clicar no ícone
-    ![simbolo](images/simb-menos.png) do mesmo.
+    - Para editar la información del ítem de configuración, haga clic en el icono ![simbolo](images/simb-folha.jpg) del mismo;
+    - Para ver la información del ítem de configuración, basta con hacer clic en el icono ![simbolo](images/simb-prancha.jpg)
+    del mismo;
+    - Si desea remover un ítem de configuración que se ha relacionado con la solicitud de cambio, simplemente haga clic en el 
+    icono ![simbolo](images/simb-menos.verm.jpg) del mismo.
     
     !!! note "NOTA"
     
-        Os itens de configuração relacionados à mudança serão automaticamente relacionados e apresentados na Análise de Impacto e Risco por Alvos.
+        Los ítems de configuración relacionados con el cambio se relacionarán automáticamente y se presentarán en el análisis de 
+        impacto y riesgo por objetivos.
         
-Vinculando serviços do IC
---------------------------
+Vinculación de servicios del IC
+-----------------------------------
 
-1. Se houver serviços relacionados ao(s) IC(s) escolhido(s) na requisição de mudança, para consultá-lo(s), proceda da
-seguinte maneira:
+1. Si hay servicios relacionados con el (los) IC (s) elegido (s) en la solicitud de cambio, para consultarlo, proceda de la 
+siguiente manera:
     
-    - Ao lado direito da tela de requisição de mudança, clique em **Serviços do IC**;
+    - A la derecha de la pantalla de solicitud de cambio, haga clic en **Servicios de IC**;
     
-    ![Seleção](images/cad-mud.img7.png)
+    ![Seleção](images/cambio.img7.jpg)
     
-    **Figura 7 - Seleção de serviços do IC**
+    **Figura 7 - Selección de servicios del IC**
     
-    - Será apresentada a tela de consulta de serviços do IC, conforme ilustrada na figura abaixo:
+    - Se mostrará la pantalla de consulta de servicios del IC, como se muestra en la figura siguiente:
     
-    ![Relacionamento](images/cad-mud.img8.png)
+    ![Relacionamento](images/cambio.img8.jpg)
     
-    **Figura 8 - Relacionamento de serviços ao item de configuração**
+    **Figura 8 - Relación de servicios con el ítem de configuración**
     
-    - Clique no botão ![simbolo](images/simb-atual.png) , caso queira vincular esse serviço à requisição de mudança;
-    - Clique no botão "Fechar" para retornar à tela de Registro de Requisição de Mudança;
+    - Haga clic en el botón ![simbolo](images/simb-2setas.jpg) , si desea vincular ese servicio a la solicitud de cambio;
+    - Haga clic en el botón *Cerrar* para volver a la pantalla del Registro de solicitud de cambio;
     
-Vinculando serviços da mudança
+Vinculación de los servicios del cambio
 -------------------------------
 
-1. Informe o(s) serviço(s) referente à mudança:
+1. Introduzca el (los) servicio (s) referente al cambio:
 
-    - Ao lado direito da tela de requisição de mudança, clique na opção **Serviços da Mudança**;
+    - Al lado derecho de la pantalla de solicitud de cambio, haga clic en la opción **Servicios de Cambio**;
    
-    ![Seleção](images/cad-mud.img9.png)
+    ![Seleção](images/cambio.img9.jpg)
    
-    **Figura 9 - Seleção serviço**
+    **Figura 9 - Selección de servicio**
    
-    - Clique no ícone ![simbolo](images/simb-lupa.png) para adicionar o serviço;
+    - Haga clic en el icono ![simbolo](images/simb-lupa.jpg) para agregar el servicio;
     
-    - Será exibida uma janela para pesquisa do serviço. Realize a pesquisa e selecione o serviço. Feito isso, o serviço
-   será relacionado à mudança;
+    - Aparecerá una ventana de consulta del servicio. Realice la consulta y seleccione el servicio. Hecho esto, el servicio 
+    estará relacionado con el cambio;
    
-   ![Relacionamento](images/cad-mud.img10.png)
+   ![Relacionamento](images/cambio.img10.jpg)
    
-   **Figura 10 - Relacionamento de serviços à mudança**
+   **Figura 10 - Relación de los servicios al cambio**
    
-   - Caso queira visualizar o desenho do mapa do serviço, basta clicar no ícone ![simbolo](images/simb-lupa.png) ;
-   - Caso queira remover um serviço que foi relacionado à mudança, basta clicar no ícone ![simbolo](images/simb-menos.png) .
+   - Si desea ver el diseño del mapa del servicio, basta con hacer clic en el icono ![simbolo](images/simb-lupa.jpg);
+   - Si desea remover un servicio relacionado con el cambio, simplemente haga clic en el icono 
+   ![simbolo](images/simb-menos.verm.jpg).
    
 !!! note "NOTA"
 
-    Os serviços relacionados à mudança serão automaticamente relacionados e apresentados na Análise de Impacto e Risco por Alvos.
+    Los servicios relacionados con el cambio serán automáticamente relacionados y presentados en el Análisis de Impacto y Riesgo 
+    por objetivos.
     
-Vinculando IC's do serviço da mudança
+Vinculando IC's del servicio del cambio
 ---------------------------------------
 
-1. Se houver IC's relacionados ao(s) serviço(s) da mudança escolhido(s) na requisição de mudança, para consultá-lo(s),
-proceda da seguinte maneira:
+1. Si hay IC's relacionados con el (los) servicio (s) del cambio elegido (s) en la solicitud de cambio, para consultarlo, proceda 
+de la siguiente manera:
 
-    - Ao lado direito da tela de requisição de mudança, clique em **IC's dos Serviços da Mudança**;
+    - Al lado derecho de la pantalla de solicitud de cambio, haga clic en **IC's de los Servicios de Cambio**;
  
-    ![Seleção](images/cad-mud.img11.png)
+    ![Seleção](images/cambio.img11.jpg)
  
-    **Figura 11 - Seleção de IC's dos serviços da mudança**
+    **Figura 11 - Selección de IC's de los servicios del cambio**
  
-    - Será apresentada a tela de consulta de IC's do Serviço da Mudança, conforme ilustrada na figura abaixo:
+    - Se mostrará la pantalla de consulta de IC del Servicio del Cambio, como se muestra en la figura siguiente:
  
- ![Itens de configuração](images/cad-mud.img12.png)
+ ![Itens de configuração](images/cambio.img12.jpg)
  
- **Figura 12 - IC's do serviço da mudança**
+ **Figura 12 - IC's del servicio del cambio**
  
- - Clique no botão ![simbolo](images/simb-atual.png) , caso queira vincular o IC à mudança;
- - Clique no botão "Fechar" para retornar à tela de Registro de Requisição de Mudança.
+ - Haga clic en el botón ![simbolo](images/simb-2setas.jpg), si desea vincular el IC al cambio;
+ - Haga clic en el botón *Cerrar* para volver a la pantalla del Registro de solicitud de cambio.
  
 Vinculando anexos
 ------------------
 
-1. Caso queira anexar um arquivo na requisição de mudança, proceda da seguinte maneira:
+1. Si desea adjuntar un archivo en la solicitud de cambio, proceda de la siguiente manera:
 
-    - Ao lado direito da tela de requisição de mudança, clique em **Anexos**;
+    - Al lado derecho de la pantalla de solicitud de cambio, haga clic en **Anexos**;
   
-    ![Anexos](images/cad-mud.img13.png)
+    ![Anexos](images/cambio.img13.jpg)
   
-    **Figura 13 - Seleção de anexos**
+    **Figura 13 - Selección de archivos adjuntos**
   
-    - Será apresentada a tela de anexo de arquivos, conforme ilustrada abaixo:
+    - Se mostrará la pantalla adjunta de archivos, como se muestra a continuación:
   
-  ![Tela de anexos](images/cad-mud.img14.png)
+  ![Tela de anexos](images/cambio.img14.jpg)
   
-  **Figura 14 - Tela de anexos**
+  **Figura 14 - Pantalla de archivos adjuntos**
   
-  - Clique no botão "Escolher arquivo". Será apresentada uma janela, onde poderá selecionar os arquivos 
-  desejados;
-  - Selecione o arquivo;
-  - Informe a descrição do arquivo e clique no botão "Adicionar";
-  - Após adição do arquivo, clique no botão "Fechar" para retornar à tela de Registro de Requisição de Mudança;
+  - Haga clic en el botón *Elegir archivo*. Se mostrará una ventana, donde podrá seleccionar los archivos deseados;
+  - Seleccione el archivo;
+  - Introduzca la descripción del archivo y haga clic en el botón *Agregar*;
+  - Después de agregar el archivo, haga clic en el botón *Cerrar* para volver a la pantalla del Registro de solicitud de cambio;
  
 Vinculando checklist
 ---------------------
 
-1. Caso queira adiciona um Checklist à mudança, proceda da seguinte maneira:
+1. Si desea añadir un Checklist al cambio, proceda de la siguiente manera:
 
-     - Ao lado direito da tela de requisição de mudança, clique em **Checklist**;
+     - Al lado derecho de la pantalla de solicitud de cambio, haga clic en **Lista de Verificación**;
   
-    ![Checklist](images/cad-mud.img15.png)
+    ![Checklist](images/cambio.img15.jpg)
   
-     **Figura 15 - Seleção de checklist**
+     **Figura 15 - Selección de checklist**
   
-    - Será apresentada a tela de checklist, conforme ilustrada abaixo:
+    - Se mostrará la pantalla de checklist, como se muestra a continuación:
   
-  ![Vinculando](images/cad-mud.img16.png)
+  ![Vinculando](images/cambio.img16.jpg)
   
-  **Figura 16 - Tela de checklist**
+  **Figura 16 - Pantalla de checklist**
   
-  - Selecione um questionário vinculado à mudança cadastrada. Responda os campos nele contido. Feito isso, o 
-  checklist será vinculado à mudança.
+  - Seleccione un cuestionario vinculado al cambio registrado. Responde los campos en él contenidos. Hecho esto, el checklist 
+  será vinculado al cambio.
   
-Vinculando base de conhecimento
+Vinculando base de conocimiento
 ---------------------------------
 
-1. Caso queira consultar a Base de Conhecimento, proceda da seguinte maneira:
+1. Si desea consultar la Base de Conocimientos, proceda de la siguiente manera:
 
-    - Ao lado direito da tela de requisição de mudança, clique em **Base de Conhecimento**;
+    - Al lado derecho de la pantalla de solicitud de cambio, haga clic en **Base de conocimientos**;
  
-    ![Seleção](images/cad-mud.img17.png)
+    ![Seleção](images/cambio.img17.jpg)
  
-    **Figura 17 - Seleção de base de conhecimento**
+    **Figura 17 - Selección de base de conocimiento**
  
-    - Será apresentada a tela de consulta à Base de Conhecimento, conforme ilustrada na figura abaixo:
+    - Se mostrará la pantalla del portal de conocimiento, como se muestra en la figura siguiente:
   
-  ![Pesquisa](images/cad-mud.img18.png)
+  ![Pesquisa](images/cambio.img18.jpg)
   
-  **Figura 18 - Tela de consulta à base de conhecimento**
+  **Figura 18 - Pantalla de consulta a la base de conocimiento**
   
-  - Realize a pesquisa do conhecimento desejado;
-  - Após a pesquisa, feche a janela para retornar à tela de Registro de Requisição de Mudanças.
+  - Realice la consulta del conocimiento deseado;
+  - Después de la consulta, cierre la ventana para volver a la pantalla del Registro de solicitud de cambio.
   
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/11/2019 – Larissa Lourenço
+    <b>Updated:</b>09/19/2019 – Larissa Lourenço

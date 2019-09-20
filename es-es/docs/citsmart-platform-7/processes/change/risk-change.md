@@ -1,102 +1,107 @@
-title: Cadastro e pesquisa de risco de mudança
-Description: Esta funcionalidade tem por objetivo registrar os riscos envolvidos na mudança que serão utilizadas em outras rotinas do sistema.
-# Cadastro e pesquisa de risco de mudança
+title: Registro y consulta de riesgo de cambios
+Description: Esta funcionalidad tiene como objetivo registrar los riesgos involucrados en el cambio
+# Registro y consulta de riesgo de cambios
 
-Esta funcionalidade tem por objetivo registrar os riscos envolvidos na mudança que serão utilizadas em outras rotinas do sistema.
+Esta funcionalidad tiene como objetivo registrar los riesgos involucrados en el cambio que se utilizar en otras rutinas del 
+sistema.
 
-Como acessar
+Cómo aceder
 --------------
 
-1. Acesse a funcionalidade de risco através da navegação no menu principal **Processos ITIL > 
-Gerência de Mudança > Cadastrar Risco**.
+1. Acceda a la funcionalidad de riesgo a través de la navegación en el menú principal 
+**Procesos ITIL > Gestión de Cambios > Registrar Riesgo**.
 
-Pré-condições
----------------
+Condiciones previas
+-------------------------
 
-1. Ter a categoria de risco cadastrada (ver conhecimento [Cadastro e Pesquisa de Categoria de Risco](/pt-br/citsmart-platform-7/processes/continuity/risk-category.html));
+1. Tener la categoría de riesgo registrada (ver conocimiento [Registro y consulta de categoría de riesgo](/es-es/citsmart-platform-7/processes/continuity/risk-category.html));
 
-2. Ter a ameaça cadastrada (ver conhecimento [Cadastro e Pesquisa de Ameaça](/pt-br/citsmart-platform-7/processes/continuity/threat-registration.html)).
+2. Tener la amenaza catastrada (ver conocimiento Registro y consulta de amenazas](/es-es/citsmart-platform-7/processes/continuity/threat-registration.html)).
 
 Filtros
 ---------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados, conforme ilustrado na figura abaixo:
+1. Los siguientes filtros permiten al usuario restringir la participación de ítems en el listado detalhe de la funcionalidad, 
+facilitando la localización de los ítems deseados, como se muestra en la figura siguiente:
 
-    - Nome do risco
+    - Nombre del riesgo
 
-    - Descrição
+    - Descripción
 
-2. Na tela de **Risco**, clique na aba **Pesquisa Risco**. Será apresentada a tela de pesquisa conforme ilustrada na figura abaixo:
+2. En la pantalla de Riesgo, haga clic en la pestaña Búsqueda de Riesgos. Se mostrará la pantalla de búsqueda como se muestra en 
+la figura siguiente:
 
-    ![Pesquisa](images/risc-mud.img1.png)
+    ![Pesquisa](images/risco.im1.jpg)
     
-    **Figura 1 - Tela de pesquisa de risco**
+    **Figura 1 - Pantalla de búsqueda de riesgo**
     
-3. Realize a pesquisa de risco:
+3. Realice la búsqueda de riesgo:
 
-    - Informe o nome e/ou descrição do risco que deseja pesquisar e clique no botão "Pesquisar". Após isso, será exibido
-    o registro do risco conforme o nome informado;
+    - Introduzca el nombre y/o descripción del riesgo que desea buscar y haga clic en el botón *Consultar*. Después de eso, se 
+    mostrará el registro del riesgo según el nombre informado;
     
-    - Caso deseje listar todos os registros de risco, basta clicar diretamente no botão "Pesquisar";
+    - Si desea listar todos los registros de riesgo, simplemente haga clic directamente en el botón *Consultar*;
     
-Listagem de itens
+Listado de ítems
 ------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem
-padrão da funcionalidade: **Nome do Risco, Categoria de Risco** e **Descrição**.
+1. El(Los) siguiente (s) campo (s) de registro está (n) disponible (s) para facilitar al usuario la identificación de los 
+elementos deseados en el listado default de la funcionalidad: **Nombre de Riesgo, Categoría de Riesgo** y **Descripción**.
 
-    ![Itens](images/risc-mud.img2.png)
+    ![Itens](images/risco.im2.jpg)
     
-    **Figura 2 - Tela de itens**
+    **Figura 2 - Pantalla de ítems**
     
-2. Após a pesquisa, selecione o registro desejado. Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo
-referente ao registro selecionado;
+2. Después de la búsqueda, seleccione el registro deseado. Hecho esto, será dirigido a la pantalla de registro exhibiendo el 
+contenido referente al registro seleccionado;
 
-3. Para alterar os dados do registro de risco, basta modificar as informações dos campos desejados e clicar no botão "Gravar"
-para que seja gravada a alteração realizada no registro, onde a data, hora e usuário serão gravados automaticamente para
-uma futura auditoria.
+3. Para cambiar los datos del registro de riesgos, basta con modificar la información de los campos deseados y hacer clic en el 
+botón *Grabar* para que se grabe el cambio realizado en el registro, donde la fecha, hora y usuario serán grabados 
+automáticamente para una futura auditoría.
 
-Preenchimento dos campos cadastrais
+Completar los campos de registro
 -------------------------------------
 
-1. Será apresentada a tela de **Cadastro de Risco**, conforme ilustrada na figura abaixo:
+1. Se mostrará la pantalla de **Registro de Riesgos**, como se muestra en la figura siguiente:
 
-    ![Cadastro](images/risc-mud.img3.png)
+    ![Cadastro](images/risco.im3.jpg)
     
-    **Figura 3 - Tela de cadastro de risco**
+    **Figura 3 - Pantalla de registro de riesgo**
     
-2. Preencha os campos conforme orientações abaixo:
+2. Rellene los campos según las instrucciones a continuación:
 
-    - **Nome da Categoria**: selecione a categoria do risco;
+    - **Nombre de Riesgos**: informe el nombre del Riesgo
     
-    - **Nível do Risco**: selecione o nível do risco;
+    - **Nombre de la categoría**: seleccione la categoría de riesgo;
     
-    - **Descrição**: informe a descrição do risco;
+    - **Nivel de riesgo**: seleccione el nivel de riesgo;
     
-Vnculando ameaças ao risco
+    - **Descripción**: informe la descripción del riesgo;
+    
+Vnculando amenazas al riesgo
 -----------------------------
 
-1. Vincule ameaça(s) ao risco:
+1. Vincule amenaza con el riesgo:
 
-    - Clique no botão "Vincular Ameaça". Feito isso, será exibida a tela de pesquisa de ameaça. 
-    Realize a pesquisa, selecione a(s) ameaça(s) desejada(s) e clique no botão "Enviar" para efetuar a operação. 
-    Caso não encontre o registro da ameaça e haja a necessidade de registrar uma ameaça para vincular ao risco,
-    poderá registrá-la a partir dessa tela, basta clicar no botão "Nova Ameaça";
+    - Haga clic en el botón *Vincular Amenaza*. Hecho esto, aparecerá la pantalla de búsqueda de amenaza. Realice la búsqueda, 
+    seleccione la (s) amenaza (s) deseada (s) y haga clic en el botón *Enviar* para realizar la operación. Si no encuentra el 
+    registro de la amenaza y existe la necesidad de registrar una amenaza para obligar al riesgo, puede registrarla desde esa 
+    pantalla, simplemente haga clic en el botón *Nueva Amenaza*;
     
-    - Após o vínculo da(s) ameaça(s) ao risco, a(s) mesma(s) será(ão) apresentada(s) na tela de registro de risco, 
-    conforme exemplo ilustrado na figura abaixo:
+    - Después del vínculo de la (s) amenaza (s) al riesgo, la (s) misma (s) será (s) mostrada (s) en la pantalla de registro de 
+    riesgo, como ejemplo ilustrado en la figura abajo:
     
-    ![Ameaças](images/risc-mud.img4.png)
+    ![Ameaças](images/risco.im4.jpg)
     
-    **Figura 4 - Ameaças vinculadas ao risco**
+    **Figura 4 - Amenazas vinculadas al riesgo**
     
-    - Para excluir o vínculo da ameaça com o risco, basta clicar no botão "Remover" da mesma.
+    - Para eliminar el vínculo de la amenaza con el riesgo, simplemente haga clic en el botón *Eliminar* de la misma.
     
-2. Após os dados informados, clique no botão "Gravar" para efetuar o registro, onde a data, hora e usuário serão 
-gravados automaticamente para uma futura auditoria.
+2. ADespués de los datos informados, haga clic en el botón *Grabar* para efectuar el registro, donde la fecha, hora y usuario se 
+guardarán automáticamente para una futura auditoría.
+
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/11/2019 – Larissa Lourenço
+    <b>Updated:</b>09/19/2019 – Larissa Lourenço
