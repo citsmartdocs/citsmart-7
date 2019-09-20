@@ -28,8 +28,8 @@ facilitando la localización de los ítems deseados, como se muestra en la figur
 
     - Descripción
 
-2. En la pantalla de Riesgo, haga clic en la pestaña Búsqueda de Riesgos. Se mostrará la pantalla de búsqueda como se muestra en 
-la figura siguiente:
+2. En la pantalla de Riesgo, haga clic en la pestaña **Búsqueda de Riesgos**. Se mostrará la pantalla de búsqueda como se muestra 
+en la figura siguiente:
 
     ![Pesquisa](images/risco.im1.jpg)
     
