@@ -126,7 +126,7 @@ servicio específico).
         Antes de rellenar los campos de la pestaña "Automatización" debe estar
         adecuadamente parametrizada, para ello se hace necesario realizar los pasos
         contenidos en el conocimiento [¿Cómo habilitar la regla de escalabilidad de
-        las solicitudes de servicio?][], con excepción del parámetro "190 - Activa
+        las solicitudes de servicio?][4], con excepción del parámetro "190 - Activa
         el funcionamiento de las reglas de programación" (Ej: S o N - Default:'N')
         "que debe ser igual a 'N' en este contexto.
 
@@ -209,6 +209,7 @@ servicio específico).
 [1]:/es-es/citsmart-platform-7/processes/portfolio-and-catalog/register.html
 [2]:/es-es/citsmart-platform-7/processes/portfolio-and-catalog/services.html
 [3]:/es-es/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
+[4]:/es-es/faq.html
 
 !!! tip "About"
 
