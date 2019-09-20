@@ -1,49 +1,49 @@
-title:  Geração de relatórios - Gerência de Mudanças
-Description: Este relatório tem o objetivo de apresentar a quantidade de requisição de mudanças. 
-# Geração de relatórios - Gerência de Mudanças
+title:  Generación de informes - Gestión de Cambios
+Description: Este informe tiene el objetivo de presentar la cantidad de solicitud de cambio. 
+# Generación de informes - Gestión de Cambios
 
-Gerando relatório de quantitativo de mudança
+Generando informe de cuantitativo de cambio
 -----------------------------------------------
 
-Este relatório tem o objetivo de apresentar a quantidade de requisição de mudanças.
+Este informe tiene el objetivo de presentar la cantidad de solicitud de cambio.
 
-*Como acessar*
+*Cómo acceder*
 
-1. Acesse a funcionalidade de Relatório Quantitativo de Mudança através da navegação no menu principal 
-**Relatórios > Gerência de Mudanças > Quantitativo de Mudança**.
+1. Acceder a la funcionalidad de Informe Cuantitativo de Cambio a través de la navegación en el menú principal
+**Informes > Gestión de Cambios > Cuantitativo de Cambio**.
 
-*Pré-condições*
+*Condiciones previas*
 
-1. Não se aplica.
+1. No se aplica.
 
 *Filtros*
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+1. Los siguientes filtros posibilitan al usuario restringir la participación de ítems en el listado default de la funcionalidad, 
+facilitando la localización de los ítems deseados:
 
-    - **Período de Abertura**: informe o período desejado.
+    - **Período de apertura**: informe el período deseado.
     
-2. Será apresentada a tela de **Geração de Relatório Quantitativo de Mudança**, conforme ilustrada na figura a seguir:
+2. Se mostrará la pantalla de **Generación de Informe Cuantitativo de Cambio**, como se muestra en la figura siguiente:
 
-    ![Mudanças](images/rel-mud.img1.jpg)
+    ![Mudanças](images/informes.img1.jpg)
     
-    **Figura 1 - Tela de geração do relatório quantitativo de mudanças**
+    **Figura 1 - Pantalla de generación del informe cuantitativo de cambios**
     
-3. Defina os filtros conforme sua necessidade;
+3. Defina los filtros según su necesidad;
 
-4. Clique no botão "Gerar PDF" para gerar o relatório quantitativo de mudanças no formato PDF;
+4. Haga clic en el botón *Generar PDF* para generar el informe cuantitativo de cambios en formato PDF;
 
-5. Clique no botão "Gerar XSL" para gerar o relatório quantitativo de mudanças no formato Excel.
+5. Haga clic en el botón Generar XSL para generar el informe cuantitativo de cambios en formato de Excel.
 
-*Listagem de itens*
+*Listado de ítems*
 
-1. Não se aplica.
+1. No se aplica.
 
-*Preenchimento dos campos cadastrais*
+*Completar los campos de registro*
 
-1. Não se aplica.
+1. No se aplica.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>08/02/2019 - Larissa Lourenço
+    <b>Updated:</b>09/20/2019 - Larissa Lourenço
