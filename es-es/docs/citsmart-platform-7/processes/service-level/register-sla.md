@@ -254,18 +254,18 @@ Verificando el historial de auditoría del acuerdo de nivel de servicio
     dirigirá a la pantalla de registro mostrando el contenido del registro
     seleccionado:
 
-   -   La relación entre el acuerdo de nivel de servicio y los contratos de
-    clientes se proporciona en la ficha Contratos del Cliente;
+      -   La relación entre el acuerdo de nivel de servicio y los contratos de
+       clientes se proporciona en la ficha Contratos del Cliente;
 
-   -   La relación entre el acuerdo de nivel de servicio y el acuerdo de nivel
-    operativo se proporciona en la guía Acuerdo de Nivel Operativo;
+      -   La relación entre el acuerdo de nivel de servicio y el acuerdo de nivel
+       operativo se proporciona en la guía Acuerdo de Nivel Operativo;
 
-   -   La ficha Contratos de terceros es la asociación entre el contrato de nivel
-    de servicio con contratos de terceros;
+      -   La ficha Contratos de terceros es la asociación entre el contrato de nivel
+       de servicio con contratos de terceros;
 
-   -   El historial de los cambios realizados en el registro del acuerdo de nivel
-    de servicio se muestra en la ficha Historial, como se muestra en la figura
-    siguiente:
+      -   El historial de los cambios realizados en el registro del acuerdo de nivel
+       de servicio se muestra en la ficha Historial, como se muestra en la figura
+       siguiente:
 
 ![Criar](images/register-sla-9.png)
 
