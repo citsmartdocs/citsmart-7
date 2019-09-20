@@ -127,8 +127,8 @@ servicio específico).
         adecuadamente parametrizada, para ello se hace necesario realizar los pasos
         contenidos en el conocimiento [¿Cómo habilitar la regla de escalabilidad de
         las solicitudes de servicio?][4], con excepción del parámetro "190 - Activa
-        el funcionamiento de las reglas de programación" (Ej: S o N - Default:'N')
-        "que debe ser igual a 'N' en este contexto.
+        el funcionamiento de las reglas de programación" (Ej: S o N - Default:'N')"
+        que debe ser igual a 'N' en este contexto.
 
 3.  Defina los datos de la automatización:
 
