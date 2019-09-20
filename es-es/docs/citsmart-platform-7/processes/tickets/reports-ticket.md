@@ -241,9 +241,7 @@ Este informe tiene por objeto presentar la cantidad de servicios concluidos.
 ### Cómo acceder
 
 1.  Acceder a la funcionalidad de Informe Cuantitativo por Servicios Concluidos
-    (Sintético) a través de la navegación en el menú principal **Informes
-    > Gestión de Incidentes/Solicitudes > Cuantitativo Completado por
-    Servicio (Sintético)**.
+    (Sintético) a través de la navegación en el menú principal **Informes > Gestión de Incidentes/Solicitudes > Cuantitativo Completado     por Servicio (Sintético)**.
 
 ### Filtros
 
