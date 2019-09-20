@@ -41,8 +41,8 @@ servicio específico).
 
 1.  El(Los) siguiente (s) campo (s) de registro está (n) disponible (s) para
     facilitar al usuario la identificación de los elementos deseados en el
-    listado default de la funcionalidad:** Título SLA,
-    Descripción **y** Situación.**
+    listado default de la funcionalidad: **Título SLA,
+    Descripción** y **Situación**.
 
     ![Criar](images/attendance-2.png)
     
