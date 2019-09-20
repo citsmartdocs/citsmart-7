@@ -1,79 +1,80 @@
-title: Pesquisa de requisição de mudança
-Description: Realizar a pesquisa das requisições de mudança de acordo com filtros definidos pelo usuário.
-# Pesquisa de requisição de mudança
+title: Consulta de solicitud de cambios
+Description: Realizar la consulta de las solicitudes de cambio de acuerdo con filtros definidos por el usuario.
+# Consulta de solicitud de cambios
 
-Realizar a pesquisa das requisições de mudança de acordo com filtros definidos pelo usuário.
+Realizar la consulta de las solicitudes de cambio de acuerdo con filtros definidos por el usuario.
 
-Como acessar
+Cómo acceder
 --------------
 
-1. Acesse a funcionalidade de pesquisa de requisição de mudança através da navegação no menu principal
-**Processos ITIL > Gerência de Mudanças > Pesquisar Requisição Mudança** ou **Processos ITIL > Gerência de Mudanças > Gerenciamento 
-de Mudança** e clique no botão "Pesquisa Mudança".
+1. Acceda a la funcionalidad de búsqueda de solicitud de cambio a través de la navegación en el menú principal 
+**Procesos ITIL > Gestión de Cambios > Consultar Solicitud de Cambio o Procesos ITIL > Gestión de Cambios > Gestión del Cambios** 
+y haga clic en la opción **Consulta Cambio**.
 
-Pré-condições
+Condiciones previas
 ---------------
 
-1. Não se aplica.
+1. No se aplica.
 
 Filtros
 ---------
 
-1. Os seguintes filtros possibilitam ao usuário restringir a participação de itens na listagem padrão da funcionalidade, 
-facilitando a localização dos itens desejados:
+1. Los siguientes filtros posibilitan al usuario restringir la participación de ítems en el listado default de la funcionalidad, 
+facilitando la localización de los ítems deseados:
 
-    - **Período de Abertura**: informe o período desejado;
-    - **Número**: informe o número de identificação da requisição de mudança;
-    - **Ordenação**: selecione a ordenação;
-    - **Item de Configuração**: informe o item de configuração referente à requisição de mudança que deseja pesquisar;
-    - **Solicitante**: informe o solicitante referente à requisição de mudança que deseja pesquisar;
-    - **Responsável atual**: informe o responsável referente à requisição de mudança que deseja pesquisar;
-    - **Status**: selecione o status referente à requisição de mudança que deseja pesquisar;
-    - **Grupo Solucionador**: selecione o grupo solucionador referente à requisição de mudança que deseja pesquisar;
-    - **Tipo**: selecione o tipo de mudança;
-    - Caso queira que a descrição da requisição de mudança seja exibida no relatório, marque a opção 
-    **Exibir Campo Descrição em Relatórios?**;
+    - **Período de apertura**: informe el período deseado;
+    - **Número**: informe el número de identificación de la solicitud de cambio;
+    - **Ordenación**: seleccione la ordenación;
+    - **Ítem de Configuración**: informe el ítem de configuración referente a la solicitud de cambio que desea buscar;
+    - **Solicitante**: informe al solicitante referente a la solicitud de cambio que desea investigar;
+    - **Responsable actual**: informe al responsable referente a la solicitud de cambio que desea buscar;
+    - **Status**: seleccione el estado de la solicitud de cambio que desea buscar;
+    - **Grupo Solucionador**: seleccione el grupo solucionador referente a la solicitud de cambio que desea buscar;
+    - **Tipo**: seleccione el tipo de cambio;
+    - Si desea que la descripción de la solicitud de cambio aparezca en el informe, marque la opción **¿Exhibir espacio de 
+    descripción en informe?**;
     
-2. Será apresentada a tela de pesquisa de requisição de mudança contendo campos onde poderá definir os 
-filtros necessários para sua pesquisa, conforme ilustração abaixo:
+2. Se mostrará la pantalla de consulta de solicitud de cambio que contiene campos donde podrá definir los filtros necesarios para 
+su búsqueda, como se muestra a continuación:
 
-    ![Pesquisa](images/pesq-mud.img1.png)
+    ![Pesquisa](images/consulta.img1.jpg)
     
-    **Figura 1 - Tela de pesquisa de requisição de mudança**
+    **Figura 1 - Pantalla de consulta de solicitud de cambio**
     
-3. Preencha os campos conforme orientações abaixo:
+3. Rellene los campos según las instrucciones a continuación:
 
-    - Após os filtros definidos, clique no botão "Pesquisar" para efetuar a operação;
-    - Serão listados os registros de requisição de mudança, conforme os filtros escolhidos, abaixo dos botões "Pesquisar",
-"Limpar" e "Gerar Relatório".
-    - Ao lado de cada registro de requisição de mudança da lista, há ícones que permite realizar as seguintes ações:
-visualizar as informações e os anexos da requisição de mudança;
-        - Para visualizar as informações da requisição de mudança, clique em "Visualizar";
-            - Será exibida a tela de registro da determinada requisição de mudança para visualização.
-        - Para visualizar os anexos da solicitação de serviço, clique no ícone ![simbolo](images/simb-clips.png) ;
-            - Será aberta uma janela exibindo os anexos da requisição de mudança para visualização.
-    - Caso seja necessário, clique no botão "Gerar (PDF)" para gerar o relatório de requisição de mudança em formato PDF.
-    - Caso seja necessário, clique no botão "Gerar (XLS)" para gerar o relatório de requisição de mudança em formato Excel.
+    - Después de los filtros definidos, haga clic en el botón *Consultar* para realizar la operación;
+    - Se enumeran los registros de solicitud de cambio, según los filtros elegidos, debajo de los botones *Consultar, Limpiar 
+    Datos* y *Generar informe*.
+    - Al lado de cada registro de solicitud de cambio de la lista, hay iconos que permiten realizar las siguientes acciones: 
+    visualizar las informaciones y los anexos de la solicitud de cambio;
+        - Para ver la información de la solicitud de cambio, haga clic en *Ver*;
+            - Se mostrará la pantalla de registro de la determinada solicitud de cambio para la visualización.
+        - Para ver los datos adjuntos de la solicitud de servicio, haga clic en el icono ![simbolo](images/simb-clips.grey.jpg) ;
+            - Se abrirá una ventana que muestra los datos adjuntos de la solicitud de cambio para la visualización.
+    - Si es necesario, haga clic en el botón *Generar (PDF)* para generar el informe de solicitud de cambio en formato PDF.
+    - Si es necesario, haga clic en el botón *Generar (XLS)* para generar el informe de solicitud de cambio en formato Excel.
 
-Listagem de itens
+Listado de ítems
 ------------------
 
-1. Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados 
-na listagem padrão da funcionalidade: Contrato, Número da mudança, Tipo, Status, Título, Motivo, Descrição,
-Responsável atual, Solicitante, Categoria, Data/Hora Início, Conclusão, Grupo e Fechamento.
+1. El(Los) siguiente (s) campo (s) de registro está (n) disponible (s) para facilitar al usuario la identificación de los 
+elementos deseados en el listado default de la funcionalidad: **Contrato, Número del cambio, Tipo, Status, Título, Descripción, 
+Responsable actual, Solicitante, Categoría, Fecha/Hora Inicial, Conclusión, Grupo** y **Cierre**.
 
-2. Existem botões de ação disponíveis ao usuário em relação a cada item da listagem, são eles: "Visualizar" e "Visualizar Anexos".
+2. Existen botones de acción disponibles para el usuario en relación con cada uno de los elementos de la lista, que son: *Ver* y 
+*Ver datos adjuntos*.
 
-![Itens](images/pesq-mud.img2.png)
+![Itens](images/cancelar.img2.jpg)
 
-**Figura 2 - Tela de itens**
+**Figura 2 - Pantalla de ítems**
 
-Preenchimento dos campos cadastrais
+Completar los campos de registro
 ------------------------------------
 
-1. Não se aplica.
+1. No se aplica.
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Larissa Lourenço
+    <b>Updated:</b>09/20/2019 – Larissa Lourenço
