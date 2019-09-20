@@ -1,40 +1,26 @@
-title: Como relaciona unidade ao contrato?
-Description: Como relaciona unidade ao contrato
+title: ¿Cómo relacionar la unidad al contrato?
+Description: Cómo relacionar la unidad al contrato
 
-# Como relacionar unidade ao contrato?
+# ¿Cómo relacionar la unidad al contrato?
 
-Para relacionar unidade ao contrato, proceda conforme as orientações abaixo:
+Para relacionar unidad al contrato, proceda de acuerdo con las siguientes directrices:
 
-1.  Acesse a funcionalidade de **Parâmetros do CITSmart** através da navegação
-    no menu principal. Posicione o mouse na opção **Parametrização** e clique na
-    opção **Parâmetros CITSmart**. Após isso, será apresentada a tela
-    de **Parâmetros do CITSmart**, clique na aba **Pesquisa de Parâmetros do
-    CITSmart**. Feito isso, será apresenta a tela para pesquisa de parâmetros;
+1.  Acceda a la funcionalidad de **Parámetros de CITSmart** a través de la navegación en el menú principal. Coloque el puntero en la opción **Parametrización** y haga clic en la opción Parámetros CITSmart. Después de eso, aparecerá la pantalla de **Parámetros de CITSmart**, haga clic en la pestaña de búsqueda de **parámetros de CITSmart**. Hecho esto, se mostrará la pantalla para la búsqueda de parámetros;
 
-2.  Realize a pesquisa do parâmetro "**61 - Vincula contratos a unidade**" e
-    selecione o mesmo. Após isso, será apresentada a tela de registro do
-    parâmetro com o conteúdo referente ao registro selecionado;
+2.  Realice la búsqueda del parámetro **"61 - Vincula contratos a unidad"** y seleccione el mismo. Después de eso, aparecerá la pantalla de registro del parámetro con el contenido referente al registro seleccionado;
 
-3.  No campo **valor**, informe o valor "S" para que seja exibido os contratos
-    na tela de cadastro de unidade. Feito isso, clique no botão Gravar para
-    efetuar a operação;
+3.  En el campo valor, introduzca el valor "S" para que se muestren los contratos en la pantalla de registro de unidad. Hecho esto, haga clic en el botón Grabar para efectuar la operación;
 
-4.  Após configurar o parâmetro, acesse a funcionalidade de Cadastro de
-    Unidade através da navegação no menu principal **Cadastros
-    Gerais > Gerência de Pessoal > Unidade**. Será apresentada a tela de
-    cadastro de unidade, exibindo os contratos;
+4.  Después de configurar el parámetro, acceda a la funcionalidad de registro de unidad a través de la navegación en el menú principal **Registros Generales > Gestión de personal > Unidad**. Se mostrará la pantalla de registro de unidad, mostrando los contratos;
 
-5.  Caso a unidade que deseja vincular ao contrato já esteja registrada no
-    sistema, realize a pesquisa da unidade e selecione a mesma. Feito isso, será
-    exibida a tela de registro da determinada unidade;
+5.  Si la unidad que desea vincular al contrato ya está registrada en el sistema, realice la búsqueda de la unidad y seleccione la misma. Hecho esto, se mostrará la pantalla de registro de la determinada unidad;
 
-6.  Selecione os contratos, os quais a unidade será vinculada.
+6.  Seleccione los contratos, a los que se vinculará la unidad.
 
-7.  Clique no botão "Gravar" para efetuar a operação, neste caso a data, hora e
-    usuário serão armazenados automaticamente para uma futura auditoria.
+7.  Haga clic en el botón *Grabar* para realizar la operación, en este caso la fecha, hora y usuario serán almacenados automáticamente para una futura auditoría.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/26/2019 – Anna Martins
+    <b>Updated:</b>09/20/2019 – Anna Martins
