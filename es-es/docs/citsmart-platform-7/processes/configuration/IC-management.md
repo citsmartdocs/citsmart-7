@@ -1,630 +1,656 @@
-title: Gerenciamento de itens de configuração
-Description: Esta funcionalidade permite identificar, registrar e gerenciar os Itens de Configuração presentes na organização.
-# Gerenciamento de itens de configuração
+title: Gestión de ítems de configuración
+Description: Esta funcionalidad permite identificar, registrar y administrar los ítems de configuración presentes en la 
+# Gestión de ítems de configuración
 
-Esta funcionalidade permite identificar, registrar e gerenciar os Itens de Configuração presentes na organização.
+Esta funcionalidad permite identificar, registrar y administrar los ítems de configuración presentes en la organización.
 
-Pré-condições
+Condiciones previas
+----------------------
+
+1. Registrar el Acuerdo de Nivel de Servicio (General) del tipo "Disponibilidad" (ver conocimiento [Registro y consulta de acuerdo de nivel de servicio general](/es-es/citsmart-platform-7/processes/service-level/register-sla.html));
+
+2. Registro de la localidad (ver conocimiento [Registro y consulta de la localidad](/es-es/citsmart-platform-7/plataform-administration/region-and-language/register-locations.html));
+
+3. Registro de colaborador (ver conocimiento [Registro y consulta de colaborador](/es-es/citsmart-platform-7/initial-settings/access-settings/user/employee.html));
+
+4. Registrar grupo (ver conocimiento [Registro y consulta de grupo](/es-es/citsmart-platform-7/initial-settings/access-settings/user/group.html));
+
+5. Registro de contrato (ver conocimiento [Registro y consulta de contrato](/es-es/citsmart-platform-7/additional-features/contract-management/use/register-contract.html));
+
+6. Registrar el tipo de ítem de configuración (ver conocimiento [Registro y consulta de tipo de ítem de configuración](/es-es/citsmart-platform-7/processes/configuration/IC-type.html));
+
+7. Registrar al menos un ítem de configuración principal si necesita crear otro ítem de configuración relacionado (Consulte la 
+sección "Registrando ítem de configuración relacionado a un ítem de configuración)
+
+Cómo acceder
 --------------
 
-1. Cadastrar Acordo de Nível de Serviço (Geral) do tipo "Disponibilidade" (ver conhecimento [Cadastro e pesquisa de acordo
-de nível de serviço geral](/pt-br/citsmart-platform-7/processes/service-level/register-sla.html));
+1. Acceda a la funcionalidad de Gestión de ítems de configuración mediante la navegación en el menú principal 
+**Procesos ITIL > Gestión de la configuración > Gestión de la configuración.**.
 
-2. Cadastrar localidade (ver conhecimento [Cadastro e pesquisa de localidade](/pt-br/citsmart-platform-7/plataform-administration/region-and-language/register-locations.html));
-
-3. Cadastrar colaborador (ver conhecimento [Cadastro e pesquisa de colaborador](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/employee.html));
-
-4. Cadastrar grupo (ver conhecimento [Cadastro e pesquisa de grupo](/pt-br/citsmart-platform-7/initial-settings/access-settings/user/group.html));
-
-5. Cadastrar contrato (ver conhecimento [Cadastro e pesquisa de contrato](/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html));
-
-6. Cadastrar tipo de Item de Configuração (ver conhecimento [Cadastro e pesquisa de tipo de item de configuração](/pt-br/citsmart-platform-7/processes/configuration/IC-type.html));
-
-7. Cadastrar ao menos um Item de Configuração principal caso necessite criar outro Item de Configuração relacionado (ver seção 
-"Registrando item de configuração relacionado a um item de configuração").
-
-Como acessar
---------------
-
-1. Acesse a funcionalidade de Gerenciamento de Item de Configuração através da navegação no menu principal 
-**Processos ITIL > Gerência de Configuração > Gerenciamento de Configuração**.
-
-Gerenciamento de itens de configuração
+Gestión de ítems de configuración
 ----------------------------------------
 
-1. Será apresentada a tela de **Gerenciamento de Item de Configuração**, conforme ilustrada na figura abaixo:
+1. Se mostrará la pantalla de **Gestión de Ítems de Configuración**, como se muestra en la figura siguiente:
 
-    ![Gerenciamento](images/geren-IC.img1.png)
+    ![Gerenciamento](images/gestion.img1.jpg)
     
-    **Figura 1 - Tela de gerenciamento de itens de configuração**
+    **Figura 1 - Pantalla de administración de ítems de configuración**
     
-    ![simbolo](images/num1.png) ![simbolo](images/simb-ampl.png): amplia a tela de Gerenciamento de Itens de Configuração;
+    ![simbolo](images/1.png) ![simbolo](images/simb-ampliar.jpg): amplía la pantalla de administración de ítems de configuración;
     
-    ![simbolo](images/num2.png) ![simbolo](images/simb-dash.png): permite visualizar o status de execução do inventário;
+    ![simbolo](images/2.png) ![simbolo](images/simb-dash.jpg): permite ver el estado de ejecución del inventario;
     
-    ![simbolo](images/num3.png) **Dashboard**: apresenta os itens de configurações relacionados aos processos de Incidente,
-    Problema, Mudança e Liberação;
+    ![simbolo](images/3.png) **Dashboard**: presenta los ítems de configuración relacionados con los procesos de Incidente, 
+    Problema, Cambio y Liberación;
     
-    ![Número](images/num4.png) **Relatórios**: apresenta os relatórios dinâmicos referentes ao Gerenciamento de Configuração 
-    e Ativos de Serviços;
+    ![Número](images/4.png) **Informes**: presenta los informes dinámicos referentes a la gestión de la configuración y los 
+    activos de servicio;
     
-    ![Número](images/num5.png) **Filtros**: apresenta os demais filtros para pesquisa dos Itens de Configuração;
+    ![Número](images/5.png) **Filtros**: se presenta los demás filtros para la búsqueda de los ítems de configuración;
     
-    ![Número](images/num6.png) **Ações**: permite registrar novo Item de Configuração, criar, alterar e excluir grupo de Item
-    de Configuração, vincular calendário, acordo de nível de serviço e custo por hora de indisponibilidade ao grupo de Item
-    de Configuração, e exportar CMDB;
+    ![Número](images/6.png) **Acciones**: permite registrar nuevo ítem de configuración, crear, cambiar y eliminar grupo de ítems 
+    de configuración, vincular calendario, acuerdo de nivel de servicio y costo por hora de inactividad al grupo de ítems de 
+    configuración, y exportar CMDB;
     
-    ![Número](images/num7.png) **Banco de Dados de Gerenciamento de Configuração**: repositório usado para armazenar os registros
-    de Itens de Configuração organizados em grupos.
+    ![Número](images/7.png) **Base de datos de gestión de la configuración**: repositorio utilizado para almacenar los registros 
+    de ítems de configuración organizados en grupos.
     
-2. Nesta tela de **Gerenciamento de Itens de Configuração**, é possível criar um novo grupo de IC, registrar um novo item de 
-configuração, consultar os itens de configuração (IC) existentes, e ao selecionar um item de configuração existente também é 
-possível editar suas informações, criar itens relacionado, consultar os itens relacionados e entre outras ações. Nos próximos
-tópicos será abordado sobre como realizar essas ações.
+2. En esta pantalla de **Gestión de ítems de configuración**, puede crear un nuevo grupo de IC, registrar un nuevo ítem de 
+configuración, consultar los ítems de configuración (IC) existentes, y al seleccionar un ítem de configuración existente también 
+puede editar su información, crear ítems relacionados, consultar los ítems relacionados y entre otras acciones. En los próximos 
+temas se abordará cómo realizar estas acciones.
 
-Criando um novo grupo de item de configuração
+Creando un nuevo grupo de ítem de configuración
 -----------------------------------------------
 
-!!! abstract "SAIBA MAIS"
+!!! abstract "SEPA MAS"
 
-    Existe uma outra maneira para se cadastrar e pesquisar um Grupo de Item de Configuração apresentado no conhecimento "Cadastro
-    e pesquisa de grupo de item de configuração".
+    Hay otra manera para registrar y buscar un grupo de ítems de configuración presentado en el conocimiento de Registro y 
+    consulta de grupo de ítems de configuración.
     
-1. Na tela de **Gerenciamento de Itens de Configuração**, em **Ações**, clique no botão "Criar novo grupo":
+1. En la pantalla de Administración de ítems de configuración, en Acciones, haga clic en el botón *Crear nuevo grupo*:
 
-    ![Botão](images/geren-IC.img2.png)
+    ![Botão](images/gestion.img2.jpg)
     
-    **Figura 2 - Botão criar novo grupo**
+    **Figura 2 - Botón crear nuevo grupo**
     
-2. Será apresentada a tela de cadastro de grupo de item de configuração, conforme ilustrada na figura abaixo:
+2. Se mostrará la pantalla de registro de grupo de ítem de configuración, como se muestra en la figura siguiente:
 
-    ![Registro](images/geren-IC.img3.png)
+    ![Registro](images/gestion.img3.jpg)
     
-    **Figura 3 - Registro de grupo de item de configuração**
+    **Figura 3 - Registro de grupo de ítems de configuración**
     
-    - **Nome**: informe o nome do novo grupo de IC;
-    - **Grupo pai**: informe o grupo pai, ou seja, grupo superior ao qual o grupo que está sendo criado faz parte;
-    - **Ícone**: selecione um ícone para representar o novo grupo de IC;
-    - **Cor de fundo**: essa função permite definir a cor de fundo do grupo de IC. Para selecionar uma cor, basta posicionar 
-    o mouse na cor desejada e clicar na mesma;
-    - **Cor do Ícone/Texto**: essa função permite definir a cor do ícone e do texto do grupo de IC. Para selecionar uma cor, 
-    basta posicionar o mouse na cor desejada e clicar na mesma;
-    - Feito isso, clique no botão "Gravar" para efetuar o registro. A figura abaixa apresenta os grupos de ICs depois de criados:
+    - **Nombre**: introduzca el nombre del nuevo grupo de IC;
+    - **Grupo padre**: informe al grupo principal, es decir, grupo superior al cual el grupo que está siendo creado forma parte;
+    - **Icono**: seleccione un icono para representar el nuevo grupo de IC;
+    - **Color de fondo**: esta función permite definir el color de fondo del grupo IC. Para seleccionar un color, basta con 
+    colocar el puntero en el color deseado y hacer clic;
+    - **Color del Icono/Texto**: esta función permite definir el color del icono y del texto del grupo IC. Para seleccionar un 
+    color, basta con posicionar el puntero en el color deseado y hacer clic;
+    - Haga clic en el botón *Grabar* para realizar el registro. La figura abajo muestra los grupos de ICs después de creados:
     
-    ![Grupos](images/geren-IC.img4.png)
+    ![Grupos](images/gestion.img4.jpg)
     
-    **Figura 4 - Grupos de itens de configuração**
+    **Figura 4 - Grupos de ítems de configuración**
     
-Alterando grupo de item de configuração
+Cambio grupo de ítem de configuración
 -----------------------------------------
 
-1. Clique no grupo desejado e na área de **Ações**, clique no botão "Alterar grupo";
+1. Haga clic en el grupo deseado y en el área de **Acciones**, haga clic en el botón *Cambiar grupo*;
 
-    ![Botão](images/geren-IC.img5.png)
+    ![Botão](images/gestion.img5.jpg)
     
-    **Figura 5 - Botão alterar grupo**
+    **Figura 5 - Botón cambiar grupo**
     
-2. Será exibida a tela de registro do determinado grupo de IC;
+2. Se mostrará la pantalla de registro del determinado grupo de IC;
 
-3. Altere os dados do grupo e clique em "Gravar" para efetuar a alteração, onde a data, hora e usuário serão gravados 
-automaticamente para uma futura auditoria.
+3. Cambie los datos del grupo y haga clic en *Grabar* para realizar el cambio, donde la fecha, la hora y el usuario se guardarán 
+automáticamente para una futura auditoría.
 
-Excluindo grupo de item de configuração
------------------------------------------
+Eliminando el grupo de ítem de configuración
+------------------------------------------------
 
 !!! info "IMPORTANTE"
 
-    Somente pode ser excluído o grupo que não item relacionados (grupos e/ou itens de configuração).
+    Sólo se puede eliminar el grupo que no está relacionado (grupos y/o ítems de configuración).
     
-1. Clique no grupo desejado e na área de **Ações** clique no botão "Excluir grupo";
+1. Haga clic en el grupo deseado y en el área de **Acciones** haga clic en el botón *Eliminar grupo*;
 
-    ![Excluir](images/geren-IC.img6.png)
+    ![Excluir](images/gestion.img6.jpg)
     
-    **Figura 6 - Botão excluir grupo**
+    **Figura 6 - Botón eliminar grupo**
     
-2. Será exibida uma mensagem para confirmação da exclusão do grupo;
+2. Se mostrará un mensaje para confirmar la eliminación del grupo;
 
-3. Clique em "Confirmar" para efetuar a operação;
+3. Haga clic en *Confirmar* para realizar la operación;
 
-4. Será realizada com sucesso a exclusão do grupo de IC.
+4. Se realizará con éxito la eliminación del grupo de IC.
 
-Vinculando calendário ao grupo de IC's
-----------------------------------------
+Vinculando el calendario al grupo de IC's
+---------------------------------------------
 
-1. Na tela de **Gerenciamento de Itens de Configuração**, selecione o Grupo que deseja vincular o calendário. Feito isso,
-em **Ações**, clique no botão "Vincular calendário", conforme indicado na figura abaixo:
+1. En la pantalla de **Gestión de ítems de configuración**, seleccione el grupo que desea vincular el calendario. Hecho esto, en 
+**Acciones**, haga clic en el botón *Vincular calendario*, como se indica en la figura siguiente:
 
-    ![Vincular](images/geren-IC.img7.png)
+    ![Vincular](images/gestion.img7.jpg)
     
-    **Figura 7 - Botão Vincular Calendário**
+    **Figura 7 - Botón de enlace de calendario**
     
-2. Será apresentada a tela para vínculo do calendário, conforme ilustrada na figura abaixo:
+2. Se mostrará la pantalla para el vínculo del calendario, como se muestra en la figura siguiente:
 
-    ![Vínculo](images/geren-IC.img8.png)
+    ![Vínculo](images/gestion.img8.jpg)
     
-    **Figura 8 - Tela de vínculo de calendário**
+    **Figura 8 - Pantalla de vínculo de calendario**
     
-3. Pesquise e selecione o calendário que deseja vincular e após isso, clique no botão "Adicionar" para efetuar o vínculo
-do calendário com o Grupo de ICs.
+3. Busque y seleccione el calendario que desea vincular y después de eso, haga clic en el botón Agregar para establecer el 
+vínculo de calendario con el grupo de IC.
 
-Vinculando acordo de nível de serviço ao grupo de IC's
+Vinculando acuerdo de nivel de servicio al grupo de IC's
 --------------------------------------------------------
 
-1. Na tela de **Gerenciamento de Itens de Configuração**, selecione o **Grupo** que deseja vincular o acordo de nível de serviço. 
-Feito isso, em **Ações**, clique no botão "Vincular acordo de nível de serviço", conforme indicado na figura abaixo:
+1. En la pantalla de **Gestión de ítems de configuración**, seleccione el **Grupo** que desea vincular el acuerdo de nivel de 
+servicio. En Acciones, haga clic en el botón *Vincular Acuerdo de nivel del servicio*, como se indica en la figura siguiente:
 
-    ![Acordo](images/geren-IC.img9.png)
+    ![Acordo](images/gestion.img9.jpg)
     
-    **Figura 9 - Botão vincular acordo de nível de serviço**
+    **Figura 9 - Botón vincular acuerdo de nivel de servicio**
     
-2. Será apresentada a tela para vínculo do acordo de nível de serviço do tipo "disponibilidade", conforme ilustrada na figura 
-abaixo:
+2. Se mostrará la pantalla para vincular el acuerdo de nivel de servicio del tipo "disponibilidad", como se muestra en la figura 
+siguiente:
 
-    ![Vínculo](images/geren-IC.img10.png)
+    ![Vínculo](images/gestion.img10.jpg)
     
-    **Figura 10 - Tela de vínculo de ANS**
+    **Figura 10 - Pantalla de vínculo de ANS**
     
-3. Pesquise e selecione o acordo de nível de serviço que deseja vincular e após isso, clique no botão "Adicionar" para efetuar 
-o vínculo do acordo de nível de serviço com o Grupo de ICs.
+3. Busque y seleccione el acuerdo de nivel de servicio que desea vincular y después de eso, haga clic en el botón Agregar para 
+establecer el vínculo del acuerdo de nivel de servicio con el grupo de IC.
 
-Registrando custo por hora de indisponibilidade do grupo de IC's
+Registrando costo por hora de indisponibilidad del grupo de IC's
 ------------------------------------------------------------------
 
-1. Na tela de **Gerenciamento de Itens de Configuração**, selecione o Grupo desejado. Feito isso, em **Ações**, clique no botão 
-"Custo por hora de indisponibilidade", conforme indicado na figura abaixo:
+1. En la pantalla de **Gestión de ítems de configuración**, seleccione el grupo que desee. En **Acciones**, haga clic en el botón *Costo por hora de inactividad*, como se indica en la figura siguiente:
 
-    ![Custo](images/geren-IC.img11.png)
+    ![Custo](images/gestion.img11.jpg)
     
-    **Figura 11 - Botão custo**
+    **Figura 11 - Botón de costo**
     
-2. Será apresentada a tela de registro do custo por hora de indisponibilidade, conforme ilustrada na figura abaixo:
+2. Se mostrará la pantalla de registro del costo por hora de inactividad, como se muestra en la figura siguiente:
 
-    ![Registrar](images/geren-IC.img12.png)
+    ![Registrar](images/gestion.img12.jpg)
     
-    **Figura 12 - Registro de custo por hora de indisponibilidade**
+    **Figura 12 - Registro de costos por hora de indisponibilidad**
     
-3. Informe o valor da hora de indisponibilidade do grupo de ICs. Após isso, clique no botão "Adicionar" para efetuar o registro.
+3. Introduzca el valor de la hora de inactividad del grupo de IC. Después de eso, haga clic en el botón Agregar para registrarlo.
 
-Registrando um novo item de configuração
+Registrando un nuevo ítem de configuración
 ------------------------------------------
 
-1. Na tela de **Gerenciamento de Itens de Configuração**, em **Ações**, clique no botão "Criar novo item de configuração";
+1. En la pantalla de **Gestión de ítems de configuración**, en **Acciones**, haga clic en el botón *Crear nuevo ítem de 
+configuración*;
 
-    ![Novo](images/geren-IC.img13.png)
+    ![Novo](images/gestion.img13.jpg)
     
-    **Figura 13 - Botão criar novo item de configuração**
+    **Figura 13 - Botón Crear nuevo ítem de configuración**
     
-2. É apresentada a tela **Cadastro de Item de Configuração**, conforme ilustrada na figura abaixo:
+2. Se muestra la pantalla **Registro de ítem de Configuración**, como se muestra en la figura siguiente:
 
-    ![Registro](images/geren-IC.img14.png)
+    ![Registro](images/gestion.img14.jpg)
     
-    **Figura 14 - Tela de registro de item de configuração (IC)**
+    **Figura 14 - Pantalla de registro de ítems de configuración (IC)**
     
-3. Preencha os campos conforme orientações abaixo:
+3. Complete los campos según las instrucciones a continuación:
 
-    - **Identificação**: informe a identificação do novo item de configuração;
-    - **Nome**: informe o nome do novo item de configuração;
-    - **Contrato**: selecione o contrato ao qual o item de configuração pertence;
-    - **Família**: informe a família a qual o item de configuração pertence;
-    - **Classe**: informe o nome da classe do item de configuração;
-    - **Versão**: informe a versão do item de configuração;
-    - **Número Série**: informe o número de série do item de configuração;
-    - **Unidade**: informe a unidade de negócio/departamento/lotação em que o item de configuração está alocado;
-    - **Localidade**: informe o local onde o item de configuração se encontra;
-    - **Data Expiração**: informe a data de expiração da licença do item de configuração;
-    - **Mídia**: informe a mídia definitiva (local em que as versões definitivas e autorizadas de ICs de “softwares” são 
-    armazenadas de maneira segura) do IC, se for necessário. Caso queira limpar o dado informado no campo, clique
-    no ícone ![simbolo](images/simb-fech-cin.png);
-    - **Tipo Item Configuração**: informe o tipo de item de configuração;
+    - **Identificación**: informe la identificación del nuevo ítem de configuración;
+    - **Nombre**: introduzca el nombre del nuevo ítem de configuración;
+    - **Contrato**: seleccione el contrato al que pertenece el ítem de configuración;
+    - **Familia**: informe a la familia a la que pertenece el ítem de configuración;
+    - **Clase**: introduzca el nombre de la clase del ítem de configuración;
+    - **Versión**: informe la versión del ítem de configuración;
+    - **Número serie**: introduzca el número de serie del ítem de configuración;
+    - **Unidad**: informe a la unidad de negocio / departamento / asignación en que se asigna el ítem de configuración;
+    - **Localidad**: introduzca el lugar donde se encuentra el ítem de configuración;
+    - **Fecha Expiración**: introduzca la fecha de expiración de la licencia del ítem de configuración;
+    - **Multimedia**: informe a los medios definitivos (donde las versiones definitivas y autorizadas de ICs de software se 
+    almacenan de forma segura) del IC, si es necesario. Si desea borrar el dato informado en el campo, haga clic en el icono
+    ![simbolo](images/simb-close.greywhi.jpg);
+    - **Tipo de ítem configuración**: introduzca el tipo de ítem de configuración;
 
-    !!! abstract "SAIBA MAIS"
+    !!! abstract "SEPA MAS"
     
-        Ao ser informado o tipo de item de configuração, serão exibidas as características relacionadas na guia de 
-        características, onde poderá ser registrado o valor para cada característica.
+        Al ser informado el tipo de ítem de configuración, se exhibir las características relacionadas en la guía de 
+        características, donde podrá ser registrado el valor para cada característica.
         
-    - **Status**: selecione o estado do item de configuração;
-    - **Ativo Fixo**: Se o IC for um ativo fixo (ativo de negócio tangível que tem uma vida útil de longa duração, por exemplo, 
-    um servidor ou uma licença de software), informe a identificação do patrimônio do mesmo;
-    - **Criticidade do Serviço**: informe a importância que o IC tem para a organização;
-    - **Impacto**: informe o impacto que causa a ausência do funcionamento do IC dentro do ambiente organizacional;
-    - **Urgência**: informe a urgência do restabelecimento do IC dentro do ambiente organizacional;
-    - **Colaborador**: informe o colaborador que utiliza ou irá utilizar o item de configuração;
-    - **Grupo**: informe o grupo de IC ao qual o IC fará parte;
-        - **Mudanças**: relacione uma mudança ao IC, quando for necessário. Caso queira limpar o dado informado no campo, clique
-        no ícone ![simbolo](images/simb-fech-cin.png);
-        - **Tipo de Responsável**: selecione o tipo de responsável: usuário ou grupo;
-        - **Responsável**: informe o responsável do item de configuração, de acordo com o tipo de responsável. Caso queira 
-        limpar o dado informado no campo, clique no ícone ![simbolo](images/simb-fech-cin.png);
-        - **Item de Configuração Pai**: se o IC que está sendo cadastrado faz parte de outro IC, informe-o. Caso queira limpar 
-        o dado informado no campo, clique no ícone ![simbolo](images/simb-fech-cin.png);
-        - **Custo por hora de indisponibilidade**: informe o valor da hora de indisponibilidade do IC;
-        - **Informações Adicionais**: descreva as demais informações sobre o item de configuração, caso seja importante;
+    - **Status**: seleccione el estado del ítem de configuración;
+    - **Activo Fijo**: Si el IC es un activo fijo (activo de negocio tangible que tiene una vida útil de larga duración, por 
+    ejemplo, un servidor o una licencia de software), informe la identificación del patrimonio del mismo;
+    - **Criticidad del Servicio**: informe la importancia que el IC tiene para la organización;
+    - **Impacto**: informe el impacto que causa la ausencia del funcionamiento del IC dentro del ambiente organizacional;
+    - **Urgencia**: informe la urgencia del restablecimiento del IC dentro del ambiente organizacional;
+    - **Colaborador**: informe al colaborador que utiliza o utilizará el ítem de configuración;
+    - **Grupo**: informe al grupo de IC al cual el IC formará parte;
+        - **Cambios**: relacione un cambio al IC, cuando sea necesario. Si desea borrar el dato informado en el campo, haga clic 
+        en el icono ![simbolo](images/simb-close.greywhi.jpg);
+        - **Tipo de Responsable**: seleccione el tipo de responsable: usuario o grupo;
+        - **Responsable**: informe al responsable del ítem de configuración, de acuerdo con el tipo de responsable. Si desea 
+        borrar el dato informado en el campo, haga clic en el icono ![simbolo](images/simb-close.greywhi.jpg);
+        - **Ítem de Configuración Padre**: si el IC que está siendo registrado forma parte de otro IC, infórmelo. Si desea borrar 
+        el dato informado en el campo, haga clic en el icono ![simbolo](images/simb-close.greywhi.jpg);
+        - **El coste por hora de inactividad**: informe el valor de la hora de indisponibilidad del IC;
+        - **Información adicional**: describa las demás informaciones sobre el ítem de configuración, si es importante;
         
-4. Após informar todos os dados, clique no botão "Gravar" para efetuar o registro do Item de Configuração, onde a data, hora e usuário serão gravados automaticamente para uma futura auditoria.
+4. Después de informar todos los datos, haga clic en el botón *Grabar* para registrar el ítem de configuración, donde la fecha, 
+hora y usuario se guardarán automáticamente para una futura auditoría.
 
-Registrando garantia do item de configuração
+Registrando garantía del ítem de configuración
 ----------------------------------------------
 
-1. Na tela de **Cadastro de Item de Configuração**, clique na guia **Garantias**, conforme ilustrada na figura abaixo:
+1. En la pantalla de **Registro de ítems de configuración**, haga clic en la ficha Garantías, como se muestra en la figura 
+siguiente:
 
-    ![Registro](images/geren-IC.img15.png)
+    ![Registro](images/gestion.img15.jpg)
     
-    **Figura 15 - Tela de registro de garantias**
+    *Figura 15 - Pantalla de registro de garantías**
     
-2. Clique no botão "Adicionar". Será apresentada a tela de pesquisa de Fornecedor, pesquise e selecione o mesmo e serão apresentados os campos para preenchimento, conforme ilustrado na figura abaixo:
+2. Haga clic en el botón *Agregar*. Se mostrará la pantalla de consulta de Proveedor, busque y seleccione el mismo y se mostrarán 
+los campos para ser completados, como se muestra en la figura siguiente:
 
-    ![Registro](images/geren-IC.img16.png)
+    ![Registro](images/gestion.img16.jpg)
     
-    **Figura 16 - Tela de registro de garantias**
+    **Figura 16 - Pantalla de registro de garantías**
     
-    - **Data de início**: informe a data inicial da garantia;
-    - **Data fim**: informe a data final da garantia;
-    - Caso queira excluir a garantia, basta clicar no ícone ![simbolo](images/simb-fech-cin.png) da mesma.
+    - **Fecha inicio**: introduzca la fecha de inicio de la garantía;
+    - **Fecha final**: informe la fecha final de la garantía;
+    - Si desea eliminar la garantía, simplemente haga clic en el icono ![simbolo](images/simb-close.greywhi.jpg) de la misma.
     
-3. Após os dados informados, clique no botão "Gravar".
+3. Después de los datos informados, haga clic en el botón *Grabar*.
 
-Consultando os itens de configuração
+Consultando de los ítems de configuración
+---------------------------------------------
+
+1. En la pantalla de **Gestión de ítem de configuración**, se permite realizar consultas de IC en las siguientes formas:
+
+    - **Por proceso**: permite visualizar los ítems de configuración relacionados con los procesos: Incidente, Problema, Cambio y 
+    Liberación;
+    - **Por grupo**: permite ver los ítems de configuración de un determinado grupo;
+    - **Por filtros**: permite ver los ítems de configuración de acuerdo con el filtro informado.
+
+Consultando IC's por procedimiento
 --------------------------------------
 
-1. Na tela de **Gerenciamento de Itens de Configuração**, é permitido realizar consultas de ICs nas seguintes formas:
+1. En el área de **Dashboard** se presentan en cada proceso la cantidad de ICs relacionados, como ejemplo ilustrado en la figura 
+abajo:
 
-    - **Por processo**: permite visualizar os itens de configuração relacionados com os processos: Incidente, Problema, Mudança 
-    e Liberação;
-    - **Por grupo**: permite visualizar os itens de configuração de um determinado grupo;
-    - **Por filtros**: permite visualizar os itens de configuração de acordo com o filtro informado.
-
-Consultando IC's por processo
--------------------------------
-
-1. Na área de **Dashboard** são apresentados em cada processo a quantidade de ICs relacionados, conforme exemplo ilustrado na figura abaixo:
-
-    ![Dashboard](images/geren-IC.img17.png)
+    ![Dashboard](images/gestion.img17.jpg)
     
     **Figura 17 - Dashboard**
     
-2. Clique em um processo para verificar os ICs relacionados. Feito isso, serão apresentados os ICs, os quais estão relacionados com o determinado processo. A figura abaixo ilustra um exemplo:
+2. Haga clic en un proceso para comprobar los IC relacionados. Hecho esto, se presentarán los ICs, los cuales están relacionados 
+con el determinado proceso. La figura siguiente ilustra un ejemplo:
 
-    ![IC](images/geren-IC.img18.png)
+    ![IC](images/gestion.img18.jpg)
     
-    **Figura 18 - IC (Item de Configuração) relacionado ao processo de incidente**
+    **Figura 18 - IC (ítem de configuración) relacionado con el proceso de incidente**
     
-3. É permitido também verificar os ICs relacionados a dois ou mais processos, basta selecionar os processos que deseja e logo 
-em seguida serão apresentadas os ICs que estão relacionados com os processos. A figura a seguir ilustra um exemplo:
+3. Se permite también verificar los IC relacionados con dos o más procesos, basta con seleccionar los procesos que desea y luego 
+serán presentados los IC que están relacionados con los procesos. La figura siguiente ilustra un ejemplo:
 
-!!! warning "ATENÇÃO"
+!!! warning "ATENCIÓN"
 
-    Serão apresentados somente os ICs que estão relacionados com os processos selecionados, por exemplo: caso tenha 
-    selecionado dois processos e não é apresentado nenhum IC, isso significa que não existe IC relacionado com os processos.
+    Se mostrará sólo los IC que se relacionan con los procesos seleccionados, por ejemplo: si ha seleccionado dos procesos y no 
+    se muestra ningún IC, esto significa que no existe IC relacionado con los procesos.
     
-![Relacionado](images/geren-IC.img19.png)
+![Relacionado](images/gestion.img19.jpg)
 
-**Figura 19 - IC relacionado aos processos de incidente e problema**
+**Figura 19 - IC relacionados con los procesos de incidentes y problemas**
 
 Consultando IC's por grupo
 ----------------------------
 
-1. Na área de **Banco de Dados de Gerenciamento de Configuração** é apresentado por padrão três Grupos de ICs: 
-"Desenvolvimento", "Homologação" e "Produção". Estes grupos têm como filhos outros Grupos de ICs e/ou Itens de Configuração;
+1. En el área de **Base de Datos de Gestión de Configuración** se muestra de forma predeterminada tres grupos de IC: *Desarrollo, 
+Homologación* y *Producción*. Estos grupos tienen como hijos otros grupos de ICs y/o ítems de configuración;
 
-2. Clique no(s) grupo(s) desejado(s) para visualização dos ICs. Feito isso, serão apresentados os ICs do determinado 
-grupo, conforme o exemplo ilustrado na figura a seguir;
+2. Haga clic en el grupo (s) deseado (s) para ver los IC. Serán presentados los IC del determinado grupo, según el ejemplo 
+ilustrado en la figura siguiente;
 
-3. Após entrar em um grupo de IC e caso queira voltar para o grupo anterior, ou seja, o grupo superior, clique sobre a descrição
-do mesmo apresentada na barra de navegação, localizada na parte superior da tela. O exemplo ilustrado na figura abaixo 
-apresenta a barra de navegação, onde permite navegar entre os grupos de ICs.
+3. Después de entrar en un grupo de IC y si desea volver al grupo anterior, es decir, el grupo superior, haga clic en la 
+descripción del mismo que aparece en la barra de navegación, que se encuentra en la parte superior de la pantalla. El ejemplo 
+ilustrado en la figura siguiente muestra la barra de navegación, donde permite navegar entre los grupos de IC.
 
-![Grupo](images/geren-IC.img20.png)
+![Grupo](images/gestion.img20.jpg)
 
-**Figura 20 - Itens de configuração por grupo**
+**Figura 20 - Ítems de configuración por grupo**
 
 Consultando IC's por filtros
 -----------------------------
 
-1. Na área de **Filtros**, clique no ícone ![simbolo](images/simb-mais-cinz.png) da mesma para expandir a área. Feito isso,
-serão apresentados os filtros para realizar a consulta do IC de acordo com sua necessidade, conforme ilustrado na figura abaixo:
+1. En el área **Filtros**, haga clic en el icono ![simbolo](images/simb-plus.white.jpg) de la misma para expandir el área. Se 
+presentarán los filtros para realizar la consulta del IC de acuerdo con su necesidad, como se muestra en la figura siguiente:
 
-    ![Filtros](images/geren-IC.img21.png)
+    ![Filtros](images/gestion.img21.jpg)
     
     **Figura 21 - Filtros para consulta de IC**
     
-    - **Status**: informe o status do IC para consulta dos ICs referente ao status;**
-    - **Criticidade**: informe a criticidade para consulta dos ICs referente à criticidade;
-    - **Identificação**: informe a identificação do IC para consulta de um IC específico;
-    - **Pesquisar somente no grupo atual**: caso queira visualizar somente os ICs do grupo atual, ou seja, o grupo em que 
-    está acessando no momento, habilite o filtro;
-    - **Exibir itens filhos**: caso queira visualizar os ICs filhos, habilite o filtro;
+    - **Estado**: informe el estado del IC para la consulta de los ICs referentes al estado;
+    - **Criticidad**: informe a la criticidad para la consulta de los ICs referentes a la criticidad;
+    - **Identificación**: informe la identificación del IC para la consulta de un IC específico;
+    - **Buscar sólo en el grupo actual**: si desea ver sólo los IC del grupo actual, es decir, el grupo en el que está accediendo 
+    en el momento, habilite el filtro;
+    - **Mostrar ítems hijos**: si desea ver los IC hijos, habilite el filtro;
     
-2. Após os filtros definidos, clique no botão "Filtrar" para efetuar a operação. Feito isso, serão exibidos os ICs 
-conforme os filtros definidos. A figura abaixo ilustra um exemplo:
+2. Después de los filtros definidos, haga clic en el botón *Filtrar* para realizar la operación. Se visualizan los IC según los 
+filtros definidos.
 
-![Itens](images/geren-IC.img22.png)
+3. La figura siguiente ilustra un ejemplo:
 
-**Figura 22 - Itens de configuração**
+![Itens](images/gestion.img22.jpg)
 
-Alterando os dados do item de configuração
+**Figura 22 - Ítem de configuración**
+
+Cambio de los datos del ítem de configuración
 --------------------------------------------
    
-1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**.
-Após a consulta, clique sobre o item de configuração, será apresentada a tela de informações do determinado Item de
-Configuração,conforme ilustrada na figura a seguir:
+1. Realice la consulta del ítem de configuración que desee, tal como se describe en el apartado **Consulta de los ítems de 
+configuración**. Haga clic en el *Ítem de configuración*, aparecerá la pantalla de información del determinado ítem de 
+configuración, como se muestra en la siguiente figura:
 
-    ![Informações](images/geren-IC.img23.png)
+    ![Informações](images/gestion.img23.jpg)
     
-    **Figura 23 - Tela de informações de item de configuração**
+    **Figura 23 - Pantalla de información de ítem de configuración**
     
-2. Clique no botão "Lista de Ações" e logo em seguida clique em "Editar", conforme indicado na figura abaixo:
+2. Haga clic en el botón *Lista de acciones* y, a continuación, haga clic en *Editar*, como se indica en la figura siguiente:
 
-    ![Editar](images/geren-IC.img24.png)
+    ![Editar](images/gestion.img24.jpg)
     
-    **Figura 24 - Seleção da ação "Editar"**
+    **Figura 24 - Selección de la acción "Editar""**
     
-3. Será apresentada a tela de registro do Item de Configuração, conforme exemplo ilustrado na figura abaixo:
+3. Se mostrará la pantalla de registro del ítem de configuración, como se muestra en la figura siguiente:
 
-    ![Registro](images/geren-IC.img25.png)
+    ![Registro](images/gestion.img25.jpg)
     
-    **Figura 25 - Tela de registro de item de configuração**
+    **Figura 25 - Pantalla de registro de ítems de configuración**
     
-4. Altere os dados que desejar e clique no botão "Gravar" para que seja gravada a alteração realizada no registro de IC, onde
-a data, hora e usuário serão gravados automaticamente para uma futura auditoria.
+4. Cambie los datos que desee y haga clic en el botón *Grabar* para que se grabe el cambio realizado en el registro IC, donde la 
+fecha, hora y usuario se guardarán automáticamente para una futura auditoría.
 
-!!! abstract "SAIBA MAIS"
+!!! abstract "SEPA MAS"
 
-    As alterações de itens de configuração são gravadas em um histórico. Todas as vezes que o item é modificado, uma nova
-    versão é inserida com as mudanças.
+    Los cambios de ítems de configuración se guardan en un historial. Cada vez que se modifica el ítem, se inserta una nueva 
+    versión con los cambios.
     
-Registrando item de configuração relacionado a um item de configuração
+Registrando ítem de configuración relacionado a un ítem de configuración
 ------------------------------------------------------------------------
 
-1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**. 
-Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+1. Realice la consulta del ítem de configuración que desee, tal como se describe en el apartado **Consulta de los ítems de 
+configuración**. Haga clic en el ítem de configuración. Se mostrará la pantalla de información del determinado ítem de 
+configuración.
 
-2. Clique no botão "Lista de Ações" e logo em seguida clique em "Criar item de configuração relacionado", conforme indicado na 
-figura a seguir:
+2. Haga clic en el botón *Lista de acciones* y, a continuación, haga clic en *Crear ítem de configuración relacionado*, como se 
+indica en la siguiente figura:
 
-    ![Criar](images/geren-IC.img26.png)
+    ![Criar](images/gestion.img26.jpg)
     
-    **Figura 26 - Seleção da ação "Criar item de configuração relacionado"**
+    **Figura 26 - Selección de la acción "Crear ítem de configuración relacionado"**
     
-3. Será apresentada a tela de Cadastro de Item de Configuração para registro das informações do IC relacionado. Registre 
-as informações conforme as orientações contidas no item **Registrando um novo Item de Configuração**.
+3. Se mostrará la pantalla de registro de ítems de configuración para el registro de la información del IC relacionada. Registre 
+la información de acuerdo con las instrucciones del ítem **Registrando un nuevo ítem de configuración**.
 
-!!! warning "ATENÇÃO"
+!!! warning "ATENCIÓN"
 
-    Os campos "Identificação", "Nome" e "Contrato" não estarão preenchidos, pois seu conteúdo difere do IC pai. Esse preenchimento automático estende-se à opção "Características" (menu lateral à esquerda).
+    Los campos "Identificación", "Nombre" y "Contrato" no estarán completados, ya que su contenido difiere del IC padre. Este 
+    llenado automático se extiende a la opción "Características" (menú lateral a la izquierda).
     
-Executando script referente ao item de configuração
+Ejecutando script referente al ítem de configuración
 -----------------------------------------------------
 
-1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**. 
-Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+1. Realice la consulta del ítem de configuración que desee, tal como se describe en el apartado **Consulta de los ítems de 
+configuración**. Haga clic en el *Ítem de configuración*. Se mostrará la pantalla de información del determinado ítem de 
+configuración;
 
-2. Clique no botão "Lista de Ações" e logo em seguida clique em "Executar script", conforme indicado na figura abaixo:
+2. Haga clic en el botón *Lista de acciones* y, a continuación, haga clic en *Ejecutar* secuencia de comandos, como se muestra en 
+la siguiente figura:
 
-    ![Seleção](images/geren-IC.img27.png)
+    ![Seleção](images/gestion.img27.jpg)
     
-    **Figura 27 - Seleção da ação "Criar item de configuração relacionado"**
+    **Figura 27 - Selección de la acción "Crear ítem de configuración relacionado"**
     
-3. Será apresentada a tela de **Execução de Scripts** conforme ilustrada na figura abaixo:
+3. Se mostrará la pantalla de **Ejecución de scripts** de comandos como se muestra en la figura siguiente:
 
-    ![Execução](images/geren-IC.img28.png)
+    ![Execução](images/gestion.img28.jpg)
     
-    **Figura 28 - Tela de execução de scripts**
+    **Figura 28 - Pantalla de ejecución de secuencias de comandos**
     
-4. Descreva os scripts que deseja executar e clique no botão "Executar Script" para efetuar a operação.
+4. Describa las scripts de comandos que desea ejecutar y haga clic en el botón Ejecutar secuencia de comandos para realizar la 
+operación.
 
-Verificando os processos (requisição, incidente, problemas, mudanças, liberação e base de conhecimento) relacionados ao IC
+Verificación de los procesos (solicitudes de servicio, incidentes, problemas, cambios, liberación y base de conocimiento) relacionados al IC
 ----------------------------------------------------------------------------------------------------------------------------
 
-1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**. 
-Após a consulta, clique sobre o Item de Configuração. Será apresentada a tela de informações do determinado Item de Configuração.
-Nessa tela é apresentado a quantidade de requisições, incidentes, problemas, mudanças, liberações e conhecimentos relacionados 
-ao IC, conforme exemplo ilustrado na figura abaixo:
+1. Realice la consulta del ítem de configuración que desee, tal como se describe en el apartado **Consulta de los ítems de 
+configuración**. Haga clic en el *Ítem de configuración*. Se mostrará la pantalla de información del determinado ítem de 
+configuración. En esta pantalla se presenta la cantidad de solicitudes, incidentes, problemas, cambios, liberaciones y 
+conocimientos relacionados con el IC, como se muestra en la figura siguiente:
 
-    ![Informações](images/geren-IC.img29.png)
+    ![Informações](images/gestion.img29.jpg)
     
-    **Figura 29 - Tela de informações de item de configuração**
+    **Figura 29 - Pantalla de información de ítem de configuración**
     
-2. Para verificar as requisições relacionadas ao IC, basta clicar na guia **Requisições**.
+2. Para comprobar las solicitudes relacionadas con el IC, basta con hacer clic en la guía **Solicitudes**.
 
-3. Para verificar os incidentes relacionados ao IC, basta clicar na guia **Incidentes**.
+3. Para comprobar los incidentes relacionados con el IC, basta con hacer clic en la guía **Incidentes**.
 
-4. Para verificar os problemas relacionados ao IC, basta clicar na guia **Problemas**.
+4. Para comprobar los problemas relacionados con el IC, simplemente haga clic en la guía **Problemas**.
 
-5. Para verificar as requisições de mudanças relacionadas ao IC, basta clicar na guia **Mudanças**.
+5. Para verificar las solicitudes de cambio relacionadas con el IC, basta con hacer clic en la guía **Cambios**.
 
-6. Para verificar as liberações relacionadas ao IC, basta clicar na guia **Liberações**.
+6. Para comprobar las liberaciones relacionadas con el IC, basta con hacer clic en la guía **Liberaciones**.
 
-7. Para verificar ou relacionar conhecimentos ao IC, basta clicar na guia **Base de Conhecimento**.
+7. Para comprobar o relacionar conocimientos con IC, simplemente haga clic en la guía **Base de Conocimientos**.
 
-Verificando ocorrências de eventos do IC
+Verificando de las ocurrencias de eventos del IC
 ------------------------------------------
 
-1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**.
-Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+1. Realice la consulta del ítem de configuración que desee, tal como se describe en el apartado **Consulta de los ítems de 
+configuración**. Haga clic en el ítem de configuración. Se mostrará la pantalla de información del determinado ítem de 
+configuración;
 
-2. Clique na guia de **Eventos**, conforme indicado na figura abaixo:
+2. Haga clic en la ficha **Eventos**, como se muestra en la siguiente figura:
 
-    ![Eventos](images/geren-IC.img30.png)
+    ![Eventos](images/gestion.img30.jpg)
     
-    **Figura 30 - Guia de eventos**
+    **Figura 30 - Guía de eventos**
     
-3. Serão apresentados os filtros para busca de eventos que foram gerados para o IC, conforme ilustrado na figura abaixo:
+3. Se mostrarán los filtros para consulta de eventos que se generaron para el IC, como se muestra en la figura siguiente:
 
-    ![Ocorrências](images/geren-IC.img31.png)
+    ![Ocorrências](images/gestion.img31.jpg)
     
-    **Figura 31 - Pesquisa de ocorrências de eventos do IC**
+    **Figura 31 - Consulta de ocurrencias de eventos del IC**
     
-4. Defina os filtros de acordo com sua necessidade e clique no botão "Pesquisar".Feito isso, serão exibidos os eventos ocorridos.
+4. Defina los filtros de acuerdo con su necesidad y haga clic en el botón *Consulta*. Hecho esto, se muestran los eventos 
+ocurridos.
 
-Registrando o valor financeiro do IC
+Registrando el valor financiero del IC
 --------------------------------------
 
-1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**.
-Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+1. Realice la consulta del ítem de configuración que desee, tal como se describe en el apartado **Consulta de los ítems de 
+configuración**. Haga clic en el ítem de configuración. Se mostrará la pantalla de información del determinado ítem de 
+configuración;
 
-2. Clique na guia de **Financeiro**, conforme indicado na figura abaixo:
+2. Haga clic en la ficha **Financiera**, como se indica en la figura siguiente:
 
-    ![Guia](images/geren-IC.img32.png)
+    ![Guia](images/gestion.img32.jpg)
     
-    **Figura 32 - Guia financeiro**
+    **Figura 32 - Guía financiera**
     
-3. Serão apresentados os campos para preenchimento com as informações do valor financeiro do Item de Configuração, conforme 
-ilustrado na figura abaixo:
+3. Se mostrarán los campos para rellenar la información del valor financiero del ítem de configuración, como se muestra en la 
+figura siguiente:
 
-    ![Valor](images/geren-IC.img33.png)
+    ![Valor](images/gestion.img33.jpg)
     
-    **Figura 33 - Tela de registro de valor financeiro do IC**
+    **Figura 33 - Pantalla de registro de valor financiero del IC**
     
-    - **Data de início**: informe a data inicial do valor do IC;
-    - **Data fim**: informe a data final do valor do IC;
-    - **Valor do item de configuração**: informe o valor do IC;
+    - **Fecha inicio**: informe la fecha de inicio del valor del IC;
+    - **Fecha final**: informe la fecha final del valor del IC;
+    - **Valor del ítem de configuración**: informe el valor del IC;
     
-4. Após os dados informados, clique no botão "Gravar". Feito isso, será gravado e apresentado na tela o valor financeiro do
-Item de Configuração.
+4. Después de los datos informados, haga clic en el botón *Grabar*. Será grabado y presentado en la pantalla el valor financiero 
+del ítem de configuración.
 
-5. Caso queira alterar os dados o valor financeiro do IC, basta clicar no ícone ![simbolo](images/simb-lapis.png) do mesmo.
+5. Si desea cambiar los datos del valor financiero del IC, simplemente haga clic en el icono ![simbolo](images/simb-caneta.jpg) 
+del mismo.
 
-6. Caso queira excluir o valor financeiro do IC, basta clicar no ícone ![simbolo](images/simb.fech-red.png) do mesmo.
+6. Si desea eliminar el valor financiero del IC, simplemente haga clic en el icono ![simbolo](images/simb-close.redwh.jpg) del 
+ mismo.
 
-Verificando indicadores de capacidade/performance ao IC
----------------------------------------------------------
+Verificación de indicadores de capacidad/rendimiento al IC
+--------------------------------------------------------------
 
-1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**.
-Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+1. Realice la consulta del ítem de configuración que desee, tal como se describe en el apartado **Consulta de los ítems de 
+configuración**. Haga clic en el *Ítem de configuración*. Se mostrará la pantalla de información del determinado ítem de 
+configuración;
 
-2. Clique na guia de **Capacidade**, conforme indicado na figura abaixo:
+2. Haga clic en la guía de *Capacidad*, como se indica en la figura siguiente:
 
-    ![Capacidade](images/geren-IC.img34.png)
+    ![Capacidade](images/gestion.img34.jpg)
     
-    **Figura 34 - Guia de capacidade**
+    **Figura 34 - Guía de capacidad**
     
-3. Será apresentada a tela para vínculo de indicadores de capacidade ao Item de Configuração, conforme ilustrada na figura 
-abaixo:
+3. Se mostrará la pantalla para el vínculo de indicadores de capacidad al ítem de configuración, como se muestra en la figura 
+siguiente:
 
-    ![Vínculo](images/geren-IC.img35.png)
+    ![Vínculo](images/gestion.img35.jpg)
     
-    **Figura 35 - Vínculo de indicadores de capacidade ao IC**
+    **Figura 35 - Vínculo de indicadores de capacidad al IC**
     
-4. Clique no botão "Vincular indicadores de capacidade/performance". Feito isso, será exibida a tela de pesquisa de indicadores
-de capacidade. Realize a pesquisa, selecione os indicadores e clique no botão "Adicionar" para efetuar a operação.
+4. Haga clic en el botón *Enlace indicadores de la Capacidad/Rendimiento*. Se mostrará la pantalla de consulta de indicadores de 
+capacidad. Realice la consulta, seleccione los indicadores y haga clic en el botón *Agregar* para realizar la operación.
 
-5. Caso queira excluir o vínculo de um indicador de capacidade com o IC, basta clicar no ícone
-![simbolo](images/simb.fech-red.png) do mesmo.
+5. Si desea eliminar el vínculo de un indicador de capacidad con el IC, simplemente haga clic en el icono
+![simbolo](images/simb-close.redwh.jpg) del mismo.
 
-Vinculando atributos de demanda ao IC
+Vinculación de atributos de demanda al IC
 ---------------------------------------
 
-1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**. 
-Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+1. Realice la consulta del ítem de configuración que desee, tal como se describe en el apartado **Consulta de los ítems de 
+configuración**. Haga clic en el *Ítem de configuración*. Se mostrará la pantalla de información del determinado ítem de 
+configuración;
 
-2. Clique na guia de **Demanda**, conforme indicado na figura abaixo:
+2. Haga clic en la ficha Demanda, como se indica en la figura siguiente:
 
-    ![Demanda](images/geren-IC.img36.png)
+    ![Demanda](images/gestion.img36.jpg)
     
     **Figura 36 - Guia de demanda**
     
-3. Será apresentada a tela para vínculo de atributos da demanda ao Item de Configuração, conforme ilustrada na figura abaixo:
+3. Se mostrará la pantalla para el vínculo de atributos de la demanda al ítem de configuración, como se muestra en la figura 
+siguiente:
 
-    ![Atributos](images/geren-IC.img37.png)
+    ![Atributos](images/gestion.img37.jpg)
     
-    **Figura 37 - Vínculo de atributos da demanda ao IC**
+    **Figura 37 - Vínculo de atributos de la demanda al IC**
     
-4. Clique no botão "Vincular atributos da demanda". Feito isso, será exibida a tela de pesquisa de atributos. Realize a pesquisa, 
-selecione os atributos e clique no botão "Adicionar" para efetuar a operação.
+4. Haga clic en el botón *Enlace atributos de la demanda*. Hecho esto, se mostrará la pantalla de cosulta de atributos. Realice 
+la búsqueda, seleccione los atributos y haga clic en el botón *Agregar* para realizar la operación.
 
-5. Caso queira excluir o vínculo de um atributo de demanda com o IC, basta clicar no ícone ![simbolo](images/simb.fech-red.png)
-do mesmo.
+5. Si desea excluir el vínculo de un atributo de demanda con el IC, simplemente haga clic en el icono
+![simbolo](images/simb-close.redwh.jpg) del mismo.
 
-Verificando item de configuração pai
+Verificando ítem de configuración padre
 --------------------------------------
 
-1. Realize a consulta do Item de Configuração Pai que deseja, conforme descrito no item **Consultando os Itens de Configuração**.
-Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+1. Realice la consulta del ítem de configuración padre que desee, tal como se describe en el apartado **Consulta de los ítems de 
+configuración**. Haga clic en el *Ítem de configuración*. Se mostrará la pantalla de información del determinado ítem de 
+configuración;
 
-2. Clique na guia de **Item de Configuração Pai**, conforme indicado na figura abaixo:
+2. Haga clic en la guía **Ítem de Configuración Padre**, como se muestra en la figura siguiente:
 
-    ![Guia](images/geren-IC.img38.png)
+    ![Guia](images/gestion.img38.jpg)
     
-    **Figura 38 - Guia de item de configuração pai**
+    **Figura 38 - Guía de ítem de configuración principal**
     
-3. Será apresentado o Item de Configuração Pai que está relacionado ao Item de Configuração.
+3. Se mostrará el ítem de configuración padre que está relacionado con el ítem de configuración.
 
-    ![Item](images/geren-IC.img39.png)
+    ![Item](images/gestion.img39.jpg)
     
-    **Figura 39 - Item de configuração pai**
+    **Figura 39 - ítem de configuración principal**
     
-Verificando itens de configuração relacionados a um item de configuração
+Verificación de ítems de configuración relacionados a un tiempo de configuración
 --------------------------------------------------------------------------
 
-1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**.  
-Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+1. Realice la consulta del ítem de configuración que desee, tal como se describe en el apartado **Consulta de los ítems de 
+configuración**. Haga clic en el *Ítem de configuración*. Se mostrará la pantalla de información del determinado ítem de 
+configuración;
 
-2. Clique na guia de **Itens Relacionados**, conforme indicado na figura abaixo:
+2. Haga clic en la guía **Artículos relacionados**, como se muestra en la figura siguiente:
 
-    ![Itens](images/geren-IC.img40.png)
+    ![Itens](images/gestion.img40.jpg)
     
-    **Figura 40 - Guia de itens relacionados**
+    **Figura 40 - Guía de Artículos relacionados**
     
-3. Serão apresentados os Itens de Configuração que estão relacionados ao Item de Configuração.
+3. Se mostrarán los ítems de configuración que se relacionan con el ítem de configuración.
 
-    ![Relacionados](images/geren-IC.img41.png)
+    ![Relacionados](images/gestion.img41.jpg)
     
-    **Figura 41 - Itens relacionados**
+    **Figura 41 - ítems relacionados**
     
-4. Para verificar as informações do IC relacionado, basta clicar em "Visualizar".
+4. Para comprobar la información del IC relacionada, simplemente haga clic en *Ver*.
 
-5. Um dos tipos de relação entre IC é explicada no conhecimento sobre o "[Mapa de Serviço][1]". Abaixo segue exemplo de 2 
-tipos de relação que os IC podem ter:
+5. Uno de los tipos de relación entre IC es explicado en el conocimiento sobre el [Mapa de Servicio][1]". 
 
-![Detalhes](images/geren-IC.img42.png)
+6. A continuación se muestra el ejemplo de 2 tipos de relación que los IC pueden tener:
 
-**Figura 42 - Detalhes das duas seções visíveis em itens relacionados (IC-filhos e relacionados pelo mapa de serviço)**
+![Detalhes](images/gestion.img42.jpg)
 
-Realizando análise de impacto do item de configuração
+**Figura 42 - Detalles de las dos secciones visibles en ítems relacionados (IC-hijos y relacionados por el mapa de servicio)**
+
+Realizando análisis de impacto del ítem de configuración
 -------------------------------------------------------
 
-1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**. 
-Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+1. Realice la consulta del ítem de configuración que desee, tal como se describe en el apartado **Consulta de los ítems de 
+configuración**. Haga clic en el *Ítem de configuración*. Se mostrará la pantalla de información del determinado ítem de 
+configuración;
 
-2. Clique na guia de **Serviços Impactados**, conforme indicado na figura abaixo:
+2. Haga clic en la guía **Servicios Impactados**, como se indica en la figura siguiente:
 
-    ![Serviços](images/geren-IC.img43.png)
+    ![Serviços](images/gestion.img43.jpg)
     
-    **Figura 43 - Guia de serviços impactados**
+    **Figura 43 - Guía de servicios impactados**
     
-3. Será exibida uma tela apresentando os serviços que utilizam o IC, conforme exemplo ilustrado na figura abaixo:
+3. Se mostrará una pantalla que muestra los servicios que utilizan el IC, como se muestra en la figura siguiente:
 
-    ![Serviços](images/geren-IC.img44.png)
+    ![Serviços](images/gestion.img44.jpg)
     
-    **Figura 44 - Serviços impactados**
+    **Figura 44 - Servicios afectados**
     
-4. Caso queira verificar o desenho do mapa de ativos do serviço, basta clicar no botão "Mapa" do serviço desejado.
+4. Si desea comprobar el diseño del mapa de activos del servicio, basta con hacer clic en el botón *Mapa* del servicio deseado.
 
-Vinculando calendário ao item de configuração
------------------------------------------------
+Vinculación calendario al ítem de configuración
+--------------------------------------------------
 
-1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**. 
-Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+1. Realice la consulta del ítem de configuración que desee, tal como se describe en el apartado **Consulta de los ítems de 
+configuración**. Haga clic en el *Ítem de configuración*. Se mostrará la pantalla de información del determinado ítem de 
+configuración;
 
-2. Clique na guia de **Calendário**, conforme indicado na figura abaixo:
+2. Haga clic en la ficha **Calendario**, como se muestra en la figura siguiente:
 
-    ![Calendário](images/geren-IC.img45.png)
+    ![Calendário](images/gestion.img45.jpg)
     
-    **Figura 45 - Guia de calendário**
+    **Figura 45 - Guía del calendario**
     
-3. Será apresentada a tela para vínculo do calendário, conforme ilustrada na figura abaixo:
+3. Se mostrará la pantalla para el vínculo del calendario, como se muestra en la figura siguiente:
 
-    ![Vínculo](images/geren-IC.img46.png)
+    ![Vínculo](images/gestion.img46.jpg)
     
-    **Figura 46 - Tela de vínculo de calendário**
+    **Figura 46 - Pantalla de vínculo de calendario**
     
-4. Informe o calendário que deseja vincular e após isso, clique no botão "Adicionar" para efetuar o vínculo do calendário ao IC.
+4. Introduzca el calendario que desea vincular y después de ello, haga clic en el botón *Agregar* para que el vínculo de 
+calendario se haya ajustado al IC.
 
-Vinculando acordo de nível de serviço ao item de configuração
+Vinculando acuerdo de nivel de servicio al ítem de configuración
 ---------------------------------------------------------------
 
-1. Realize a consulta do Item de Configuração que deseja, conforme descrito no item **Consultando os Itens de Configuração**. 
-Após a consulta, clique sobre o item de configuração. Será apresentada a tela de informações do determinado Item de Configuração;
+1. Realice la consulta del ítem de configuración que desee, tal como se describe en el apartado **Consulta de los ítems de 
+configuración**. Haga clic en el ítem de configuración. Se mostrará la pantalla de información del determinado ítem de 
+configuración;
 
 2. Clique na guia de **Acordo de Nível de Serviço**, conforme indicado na figura abaixo:
 
