@@ -234,7 +234,7 @@ Registrando acciones y monitoreo del objetivo del plan de mejora
     y agregar el seguimiento del objetivo en el registro de plan de mejora.
 
 3.  Para cambiar la información del registro de seguimiento, haga clic en el
-    icono ![Criar](images/improve-plan-10.png) del mismo, modifique los datos que desee y haga clic
+    icono ![Criar](images/improve-plan.10.png) del mismo, modifique los datos que desee y haga clic
     en *Guardar* para realizar el cambio, donde la fecha, la hora y el usuario
     se guardarán automáticamente para una futura auditoría.
 
