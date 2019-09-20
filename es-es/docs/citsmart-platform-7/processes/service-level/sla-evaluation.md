@@ -1,55 +1,55 @@
-title: Avaliação de SLA
-Description:Esta funcionalidade tem por objetivo gerar informações de acordo de nível de serviço, onde as mesmas auxiliarão na confecção de plano de qualidade.
+title: Evaluación SLA
+Description: Esta funcionalidad tiene como objetivo generar informaciones de acuerdo de nivel de servicio, donde las mismas auxiliarán en la confección de plan de calidad.
 
-# Avaliação de SLA
+# Evaluación SLA
 
-Esta funcionalidade tem por objetivo gerar informações de acordo de nível de
-serviço, onde as mesmas auxiliarão na confecção de plano de qualidade.
+Esta funcionalidad tiene como objetivo generar informaciones de acuerdo de nivel
+de servicio, donde las mismas auxiliarán en la confección de plan de calidad.
 
-Como acessar
+Cómo acceder
 ------------
 
-1.  Acesse a funcionalidade de Avaliação de SLA através da navegação no menu
-    principal **Processos ITIL \> Gerência de Níveis de
-    Serviço \> Avaliação de SLA**.
+1.  Acceda a la funcionalidad de evaluación de SLA mediante la navegación en el
+    menú principal **Procesos ITIL > Gestión de Niveles de
+    Servicio > Evaluación de SLA**.
 
-Pré-condições
--------------
+Condiciones previas
+-------------------
 
-1.  Não se aplica.
+1.  No se aplica.
 
 Filtros
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  El siguiente filtro permite al usuario restringir la participación de
+    elementos en el listado default de la funcionalidad, facilitando la
+    localización de los elementos deseados:
 
-    -   Período.
+     -   Período
 
-1.  Será apresentada a tela de Geração de Informações de SLA, conforme ilustrada
-    na figura a seguir:
+2.  Se mostrará la pantalla de Generación de Información de SLA, como se muestra
+    en la siguiente figura:
 
     ![Criar sla](images/sla-evaluation.png)
 
-    **Figura 1 - Tela de geração de informações de SLA**
+     **Figura 1 - Pantalla de generación de información de SLA**
 
-1.  Informe o período desejado e clique no botão *Gerar Informações*;
+3.  Introduzca el período deseado y haga clic en el botón *Generar información*;
 
-2.  Será exibida as informações do SLA conforme o período informado.
+4.  Se mostrará la información del SLA según el período informado.
 
-Listagem de itens
------------------
+Listado de ítems
+----------------
 
-1.  Não se aplica.
+1.  No se aplica.
 
-Preenchimento dos campos cadastrais
------------------------------------
+Completar los campos de registro
+--------------------------------
 
-1.  Não se aplica.
+1.  No se aplica.
 
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Anna Martins
+    <b>Updated:</b>09/20/2019 – Anna Martins
