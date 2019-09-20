@@ -1,242 +1,249 @@
-title: Cadastro e pesquisa de plano de melhoria
-Description: Esta funcionalidade tem por objetivo registrar os planos de melhoria que visa implementar melhorias ao serviço de TI.
+title: Registro y consulta del plan de mejora
+Description: Esta funcionalidad tiene el objetivo de registrar los planes de mejora que pretende implementar mejoras al servicio de TI.
 
-# Cadastro e pesquisa de plano de melhoria
+# Registro y consulta del plan de mejora
 
-Esta funcionalidade tem o objetivo de registrar os planos de melhoria que visa
-implementar melhorias ao serviço de TI.
+Esta funcionalidad tiene el objetivo de registrar los planes de mejora que
+pretende implementar mejoras al servicio de TI.
 
-Pré-condições
--------------
+Condiciones previas
+-------------------
 
-1.  Ter o fornecedor cadastrado (ver conhecimento [Cadastro e Pesquisa de
-    Fornecedor][1]);
+1.  Tener el proveedor registrado (ver conocimiento [Registro y consulta del
+    proveedor][1]);
 
-2.  Ter o contrato cadastrado (ver conhecimento [Cadastro e Pesquisa de
-    Contrato][2]).
+2.  Tener el contrato registrado (ver conocimiento [Registro y consulta de
+    contrato][2]).
 
-Como acessar
+Cómo acceder
 ------------
 
-1.  Acesse a funcionalidade de Plano de Melhoria através da navegação no menu
-    principal **Processos ITIL > Gerência de Níveis de Serviço > Plano
-    Melhoria**.
+1.  Acceda a la funcionalidad de Plan de mejora mediante la navegación en el
+    menú principal **Procesos ITIL > Gestión de Nivel de
+    Servicio > Plan de Mejora**.
 
 Filtros
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  El siguiente filtro permite al usuario restringir la participación de
+    elementos en el listado default de la funcionalidad, facilitando la
+    localización de los elementos deseados:
 
-    -  Título.
+    -   Título.
 
     ![Criar](images/improve-plan-1.png)
+    
+    **Figura 1 - Pantalla de búsqueda de planes de mejora**
 
-    **Figura 1 - Tela de pesquisa de planos de melhoria**
+2.  Realice la consulta del plan de mejora;
 
-2.  Realize a pesquisa do plano de melhoria;
+3.  Introduzca el título del plan de mejora que desea buscar y haga clic en el
+    botón *Consultar*. Después de eso, se mostrará el registro del plan de
+    mejora conforme el título informado.
 
-3.  Informe o título do plano de melhoria que deseja pesquisar e clique no
-    botão *Pesquisar*. Após isso, será exibido o registro do plano de melhoria
-    conforme o título informado.
+4.  Si desea listar todos los registros de plan de mejora, simplemente haga clic
+    directamente en el botón *Consultar*.
 
-4.  Caso deseje listar todos os registros de plano de melhoria, basta clicar
-    diretamente no botão *Pesquisar*.
+Listado de ítems
+----------------
 
-Listagem de itens
------------------
+1.  El(Los) siguiente (s) campo (s) de registro está (n) disponible (s) para
+    facilitar al usuario la identificación de los elementos deseados en el
+    listado default de la funcionalidad: **Título**.
 
-1.  O seguinte campo cadastral está disponível ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: **Título**.
-
-2.  Na tela de Plano de Melhoria, clique na guia **Pesquisa**. Será apresentada
-    a tela de pesquisa conforme ilustrada na figura abaixo:
+2.  En la pantalla de plan de mejora, haga clic en la ficha **Búsqueda**. Se
+    mostrará la pantalla de búsqueda como se muestra en la figura siguiente:
 
     ![Criar](images/improve-plan-2.png)
+    
+    **Figura 2 - Listado de títulos de planes de mejora**
 
-    **Figura 2 - Listagem de títulos de planos de melhoria**
+3.  Después de la búsqueda, seleccione el registro de plan de mejora deseado.
+    Hecho esto, será dirigido a pantalla de registro mostrando el contenido
+    referente al registro seleccionado.
 
-3.  Após a pesquisa, selecione o registro de plano de melhoria desejado. Feito
-    isso, será direcionado para tela de cadastro exibindo o conteúdo referente
-    ao registro selecionado.
+4.  Para cambiar los datos del registro de plan de mejora, basta con modificar
+    la información de los campos deseados y hacer clic en el botón *Grabar* para
+    que se grabe el cambio realizado en el registro, donde la fecha, hora y
+    usuario serán grabados automáticamente para una futura auditoría.
 
-4.  Para alterar os dados do registro de plano de melhoria, basta modificar as
-    informações dos campos desejados e clicar no botão *Gravar*para que seja
-    gravada a alteração realizada no registro, onde a data, hora e usuário serão
-    gravados automaticamente para uma futura auditoria.
+Completar los campos de registro
+--------------------------------
 
-Preenchimento dos campos cadastrais
------------------------------------
-
-1.  Será apresentada a tela de **Cadastro de Plano de Melhoria**, conforme
-    ilustrada na figura a seguir:
+1.  Se mostrará la pantalla de **Planes de Mejoramiento**, como se muestra en la
+    siguiente figura:
 
     ![Criar](images/improve-plan-3.png)
+    
+    **Figura 3 - Pantalla de registro de plan de mejora**
 
-    **Figura 3 - Tela de cadastro de plano de melhoria**
+2.  Rellene los campos según las instrucciones a continuación:
 
-2.  Preencha os campos conforme orientações abaixo:
+    -   **Título**: informe del título del plan de mejora;
 
-    -  **Título**: informe o título do plano de melhoria;
+    -   **Proveedor**: informe al proveedor;
 
-    -  **Fornecedor**: informe o fornecedor;
+    -   **Contrato**: informe del contrato;
 
-    -  **Contrato**: informe o contrato;
+    -   **Fecha Início**: informe la fecha de inicio del plan de mejora;
 
-    -  **Data Início**: informe a data de início do plano de melhoria;
+    -   **Fecha Final**: informe la fecha de cierre del plan de mejora;
 
-    -  **Data Fim**: informe a data de encerramento do plano de melhoria;
+    -   **Situación**: seleccione la situación en la que se encuentra el plan de
+    mejora;
 
-    -  **Situação**: selecione a situação em que o plano de melhoria se encontra;
+    -   **Meta**: describa el objetivo del plan de mejora, es decir, lo que se
+    espera obtener tras la implantación del plan de mejora;
 
-    -  **Objetivo**: descreva o objetivo do plano de melhoria, ou seja, o que se
-    espera obter após implantação do plano de melhoria;
+    -   **Visión general**: describa la visión general del plan de mejora;
 
-    -  **Visão Geral**: descreva a visão geral do plano de melhoria;
+    -   **Ámbito (Alcances, metas y procesos del proyecto)**: describa el alcance
+    del plan de mejora;
 
-    -  **Escopo**: descreva o escopo do plano de melhoria;
+    -   **Visión**: describa la visión del plan de mejora;
 
-    -  **Visão**: descreva a visão do plano de melhoria;
+    -   **Misión**: describa la misión del plan de mejora;
 
-    -  **Missão**: descreva a missão do plano de melhoria;
+    -   **Notas**: informe las notas del plan de mejora.
 
-    -  **Notas**: informe as notas do plano de melhoria.
+3.  Haga clic en el botón *Grabar* para realizar la operación, donde la fecha,
+    hora y usuario se guardarán automáticamente para una futura auditoría.
 
-3.  Clique no botão *Gravar* para efetuar a operação, onde a data, hora e
-    usuário serão gravados automaticamente para uma futura auditoria.
+Registrando objetivos del plan de mejora
+----------------------------------------
 
-Registrando objetivos do plano de melhoria
-------------------------------------------
-
-1.  Após a gravação do plano de melhoria, será apresentada uma área para
-    registro do objetivo, conforme ilustrado na figura abaixo:
+1.  Después de la grabación del plan de mejora, se mostrará un área para
+    registro del objetivo, como se muestra en la figura siguiente:
 
     ![Criar](images/improve-plan-4.png)
+    
+    **Figura 4 - Pantalla de registro de plan de mejora**
 
-    **Figura 4 - Tela de cadastro de plano de melhoria**
-
-2.  Clique no botão *Cadastrar Objetivo*. Feito isso, será apresentada uma tela
-    para registro das informações do objetivo do plano de melhoria, conforme
-    ilustrado na figura abaixo:
+2.  Haga clic en el botón *Registrar Objetivo*. Hecho esto, aparecerá una
+    pantalla para registro de las informaciones del objetivo del plan de mejora,
+    como se muestra en la figura siguiente:
 
     ![Criar](images/improve-plan-5.png)
+    
+    **Figura 5 - Pantalla de registro de objetivos del plan de mejora**
 
-    **Figura 5 - Tela de cadastro de objetivo do plano de melhoria**
+    -   **Objetivo**: informe la descripción del objetivo específico del plan de
+    mejora;
 
-    -  **Objeto**: informe a descrição do objetivo específico do plano de melhoria;
+    -   **Detallamiento**: informe los detalles del objetivo del plan de mejora;
 
-    -  **Detalhamento**: informe os detalhes do objetivo do plano de melhoria;
+    -   **Resultado esperado**: informe el resultado esperado del objetivo del plan
+    de mejora;
 
-    -  **Resultado Esperado**: informe o resultado esperado do objetivo do plano de
-    melhoria;
+    -   **Medición**: informe la medición del objetivo del plan de mejora;
 
-    -  **Medição**: informe a medição do objetivo do plano de melhoria;
+    -   **Tipo de Responsable**: informe el tipo de responsable por el objetivo del
+    plan de mejora: usuario o grupo;
 
-    -  **Tipo de Responsável**: informe o tipo de responsável pelo objetivo do
-    plano de melhoria: usuário ou grupo;
+    -   **Responsable**: informe al responsable del objetivo del plan de mejora.
 
-    -  **Responsável**: informe o responsável pelo objetivo do plano de melhoria.
+3.  Después de los datos informados, haga clic en el botón *Grabar* para grabar
+    y añadir el objetivo en el registro de plan de mejora.
 
-3.  Após os dados informados, clique no botão *Gravar* para gravação e adição do
-    objetivo no registro de plano de melhoria.
+4.  Para cambiar la información del registro del objetivo del plan de mejora,
+    haga clic en el icono ![Criar](images/improve-plan-6.png) modifique los datos que desee y haga clic
+    en *Guardar* para realizar el cambio, donde la fecha, la hora y el usuario
+    se guardarán automáticamente para una futura auditoría.
 
-4.  Para alterar as informações do registro do objetivo do plano de melhoria,
-    clique no ícone ![Criar](images/improve-plan-6.png) do mesmo, modifique os dados que desejar e clique
-    em *Gravar* para efetuar a alteração, onde a data, hora e usuário serão
-    gravados automaticamente para uma futura auditoria.
+5.  Para comprobar/registrar las acciones y monitoreo de la meta, haga clic en
+    el icono ![Criar](images/improve-plan-7.png)   del mismo.
 
-5.  Para verificar/registrar as ações e monitoramento do objetivo, clique no
-    ícone ![Criar](images/improve-plan-7.png) do mesmo.
+Registrando acciones y monitoreo del objetivo del plan de mejora
+----------------------------------------------------------------
 
-Registrando ações e monitoramento do objetivo do plano de melhoria
-------------------------------------------------------------------
+1.  Después de la definición del objetivo del plan de mejora, se presentará un
+    área para registro de acciones y otra para registro de monitoreo como se
+    muestra en la figura siguiente:
 
-1.  Após a definição do objetivo do plano de melhoria, será apresentada uma área
-    para registro de ações e outra para registro de monitoramento conforme
-    ilustrado na figura abaixo:
+![Criar](images/improve-plan-1.png)
 
-![Criar](images/improve-plan-8.png)
+**Figura 6 - Área para Registro de Acciones y Monitoreo**
 
-**Figura 6 - Área para registro de ações e monitoramento**
+### Acciones
 
-### Ações
+1.  Haga clic en el botón *Registrar Acción*. Hecho esto, aparecerá una pantalla
+    para registrar la información de la acción como se muestra en la figura
+    siguiente:
 
-1.  Clique no botão *Cadastrar Ação*. Feito isso, será apresentada uma tela para
-    registro das informações da ação conforme ilustrado na figura abaixo:
+    ![Criar](images/improve-plan-8.png)
+    
+    **Figura 7 - Pantalla de registro de acción**:
+
+    -   **Acción**: informe la descripción de la acción del objetivo del plan de
+    mejora;
+
+    -   **Fecha de inicio**: informe la fecha de inicio de la acción del objetivo
+    del plan de mejora;
+
+    -   **Fecha Final**: informe la fecha final de la acción del objetivo del plan
+    de mejora
+
+    -   **Tipo de Responsable**: informe el tipo de responsable de la acción del
+    objetivo del plan de mejora: usuario o grupo;
+
+    -   **Responsable**: informe al responsable de la acción del objetivo del plan
+    de mejora;
+
+    -   **Detallamiento**: describa lo que se hará para alcanzar el objetivo y cómo
+    será hecho;
+
+2.  Después de los datos informados, haga clic en el botón *Grabar* para grabar
+    y agregar la acción del objetivo en el registro de plan de mejora.
+
+3.  Para cambiar la información del registro de acción, haga clic en el
+    icono ![Criar](images/improve-plan-1.png) del mismo, modifique los datos que desee y haga clic
+    en *Guardar* para realizar el cambio, donde la fecha, hora y usuario se
+    guardarán automáticamente para una futura auditoría;
+
+### Monitoramiento
+
+1.  Haga clic en el botón *Registrar Monitoreo*. Hecho esto, aparecerá una
+    pantalla para registro de las informaciones del monitoreo como se muestra en
+    la figura siguiente:
 
     ![Criar](images/improve-plan-9.png)
+    
+    **Figura 8 - Pantalla de registro de monitoreo**
 
-    **Figura 7 - Tela de cadastro de ação**
+    -   **Título**: informe el título del monitoreo;
 
-    -  **Ação**: informe a descrição da ação do objetivo do plano de melhoria;
+    -   **Factor Crítico de Suceso**: informe el factor crítico de éxito del
+    monitoreo;
 
-    -  **Data de Início**: informe a data de início da ação do objetivo do plano de
-    melhoria;
+    -   **Tipo de Responsable**: informe el tipo de responsable por el monitoreo:
+    usuario o grupo;
 
-    -  **Data Fim**: informe a data final da ação do objetivo do plano de melhoria
+    -   **Responsable**: informe al responsable del monitoreo;
 
-    -  **Tipo de Responsável**: informe o tipo de responsável pela ação do objetivo
-    do plano de melhoria: usuário ou grupo;
+    -   **Métrica**: describa la métrica del monitoreo;
 
-    -  **Responsável**: informe o responsável pela ação do objetivo do plano de
-    melhoria;
+    -   **Medición**: describa la medición del monitoreo;
 
-    -  **Detalhamento**: descreva o que será feito para atingir o objetivo e como
-    será feito;
+    -   **Informes**: informe el informe del monitoreo;
 
-2.  Após os dados informados, clique no botão *Gravar* para gravação e adição da
-    ação do objetivo no registro de plano de melhoria.
+    -   **KPI**: informe al KPI del monitoreo y haga clic en el
+    botón *Insertar* para insertar el KPI en el registro de seguimiento. Se
+    pueden insertar varios KPI en el registro, cuantos sean necesarios.
 
-3.  Para alterar as informações do registro de ação, clique no ícone 
-    ![Criar](images/improve-plan-6.png) do mesmo, modifique os dados que desejar e clique em *Gravar*para efetuar a
-    alteração, onde a data, hora e usuário serão gravados automaticamente para
-    uma futura auditoria;
+2.  Después de los datos informados, haga clic en el botón *Grabar* para grabar
+    y agregar el seguimiento del objetivo en el registro de plan de mejora.
 
-### Monitoramento
+3.  Para cambiar la información del registro de seguimiento, haga clic en el
+    icono ![Criar](images/improve-plan-10.png) del mismo, modifique los datos que desee y haga clic
+    en *Guardar* para realizar el cambio, donde la fecha, la hora y el usuario
+    se guardarán automáticamente para una futura auditoría.
 
-1.  Clique no botão *Cadastrar Monitoramento*. Feito isso, será apresentada uma
-    tela para registro das informações do monitoramento conforme ilustrado na
-    figura abaixo:
 
-    ![Criar](images/improve-plan.11.png)
-
-    **Figura 8 - Tela de cadastro de monitoramento**
-
-    -   **Título**: informe o título do monitoramento;
-
-    -   **Fator Crítico de Sucesso**: informe o fator crítico de sucesso do
-    monitoramento;
-
-    -   **Tipo de Responsável**: informe o tipo de responsável pelo monitoramento:
-    usuário ou grupo;
-
-    -   **Responsável**: informe o responsável pelo monitoramento;
-
-    -   **Métrica**: descreva a métrica do monitoramento;
-
-    -   **Medição**: descreva a medição do monitoramento;
-
-    -   **Relatórios**: informe o relatório do monitoramento;
-
-    -   **KPI**: informe o KPI do monitoramento e clique no botão *Inserir* para
-    inserção do KPI no registro de monitoramento. Pode ser inserido vários KPIs
-    no registro, quantos forem necessários.
-
-2.  Após os dados informados, clique no botão *Gravar* para gravação e adição do
-    monitoramento do objetivo no registro de plano de melhoria.
-
-3.  Para alterar as informações do registro de monitoramento, clique no ícone 
-    ![Criar](images/improve-plan-6.png) do mesmo, modifique os dados que desejar e
-    clique em *Gravar* para efetuar a alteração, onde a data, hora e usuário
-    serão gravados automaticamente para uma futura auditoria.
-
-[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/provider.html
-[2]:/pt-br/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
+[1]:/es-es/citsmart-platform-7/processes/portfolio-and-catalog/provider.html
+[2]:/es-es/citsmart-platform-7/additional-features/contract-management/use/register-contract.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Anna Martins
+    <b>Updated:</b>09/20/2019 – Anna Martins
 
