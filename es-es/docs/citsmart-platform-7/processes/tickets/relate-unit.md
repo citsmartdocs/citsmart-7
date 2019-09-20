@@ -17,7 +17,7 @@ Para relacionar unidad al contrato, proceda de acuerdo con las siguientes direct
 
 6.  Seleccione los contratos, a los que se vinculará la unidad.
 
-7.  Haga clic en el botón Grabar para realizar la operación, en este caso la fecha, hora y usuario serán almacenados automáticamente para una futura auditoría.
+7.  Haga clic en el botón *Grabar* para realizar la operación, en este caso la fecha, hora y usuario serán almacenados automáticamente para una futura auditoría.
 
 
 !!! tip "About"
