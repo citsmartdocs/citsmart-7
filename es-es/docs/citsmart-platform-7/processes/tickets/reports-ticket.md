@@ -93,7 +93,7 @@ solicitudes de servicios.
     formato PDF y/o en el botón *Generar informe analítico XLS* para generar el
     informe detallado en formato Excel.
 
-Generando el informe de gantt
+Generando el informe de Gantt
 -----------------------------
 
 Este informe tiene el objetivo de presentar los incidentes y solicitudes de
