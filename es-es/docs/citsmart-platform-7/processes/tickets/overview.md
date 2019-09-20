@@ -1,69 +1,52 @@
-title:  Módulo Gerenciamento de Requisições e Incidente
-Description: Cumprimento de Requisição é responsável por gerenciar o ciclo de vida de todas as requisições. 
-# Módulo Gerenciamento de Requisições e Incidente
+title:  Módulo Solicitudes de Servicio e Incidentes
+Description: Cumplimiento de Solicitudes de Servicio es responsable de administrar el ciclo de vida de todas las solicitudes de servicios. 
+# Módulo Solicitudes de Servicio e Incidentes
 
-Objetivo de módulo
+Objetivos del módulo
 ---------------------
 
-Cumprimento de requisição
+Cumplimiento de solicitudes de servicio
 ---------------------------
 
-Segundo a ITIL, o processo de Cumprimento de Requisição é responsável por gerenciar o ciclo de vida de todas as requisições de 
-serviços efetuadas pelos usuários e busca manter a satisfação dos mesmos por meio do tratamento eficiente e profissional de todas
-as requisições de serviço, assim como providencia um canal para os usuários requisitarem e receberem serviços padrão, com os 
-controles de acesso e qualidade definidos. Esse processo também provê informações para usuários e clientes sobre a 
-disponibilidade de serviços e procedimentos para obtê-los, além de ajudar com informações gerais, reclamações ou comentários.
+Según ITIL, el proceso de Cumplimiento de Solicitudes de Servicio es responsable de administrar el ciclo de vida de todas las solicitudes de servicios efectuadas por los usuarios y busca mantener la satisfacción de los mismos por medio del tratamiento eficiente y profesional de todas las solicitudes de servicio, así como proporciona un canal para que los usuarios soliciten y reciban servicios estandarizados, con los controles de acceso y calidad definidos. Este proceso también provee información para usuarios y clientes sobre la disponibilidad de servicios y procedimientos para obtenerlos, además de ayudar con informaciones generales, quejas o comentarios.
 
-As atividades deste processo variam de acordo com o que está sendo requisitado. As requisições de serviço são tratadas por um 
-processo específico.
+Las actividades de este proceso varían de acuerdo con lo que se está solicitando. Las solicitudes de servicio se tratan mediante un proceso específico.
 
-Gerenciamento de incidentes
+Gestión de incidentes
 -----------------------------
 
-O Gerenciamento de Incidentes é o processo responsável por gerenciar todo o ciclo de vida dos incidentes. Os incidentes podem ser
-informados pela equipe técnica, por ferramentas de detecção de eventos – sistemas de monitoramento e alarmismo - pelos usuários e
-por fornecedores.
+La Gestión de Incidentes es el proceso responsable de gestionar todo el ciclo de vida de los incidentes. Los incidentes pueden ser informados por el equipo técnico, por herramientas de detección de eventos - sistemas de monitoreo y alarmismo - por los usuarios y por proveedores.
 
-O Gerenciamento de Incidentes tem como objetivo restaurar a operação normal do serviço de maneira rápida e garantir, desta forma, 
-os melhores níveis de qualidade e disponibilidade do serviço.
+La Gestión de Incidentes tiene como objetivo restaurar la operación normal del servicio de manera rápida y garantizar de esta forma los mejores niveles de calidad y disponibilidad del servicio.
 
-Onde estão suas funcionalidades
+Donde están sus funcionalidades
 ---------------------------------
 
-Para acessar a funcionalidade clique no menu principal **Processos ITIL > Gerência de Requisição e Incidente**.
+Acceder el menú principal de **Procesos ITIL > Gestión de Solicitudes e Incidentes**.
 
 ![Menu](images/mod-ticket.img1.jpg)
 
-**Figura 1 - Menu do módulo Gerência de Requisição e Incidente**
+**Figura 1 - Menú del Módulo de Gestión de Solicitudes e Incidentes**
 
-Principal funcionalidade (em destaque)
+Principal funcionalidad (en destaque)
 ---------------------------------------
 
-Na seção "Veja também" é possível acessar a(s) funcionalidade(s) principal(is) deste módulo, desta forma se pode obter um 
-conhecimento mais detalhado.
+En la sección Véase también es posible acceder a la (s) funcionalidad (es) principal (es) de este módulo, para obtener un conocimiento más detallado.
 
 !!! info "IMPORTANTE"
 
-    Da versão 7.1.0.8 em diante, o CITSmart Enterprise ITSM não mais apresenta nesta funcionalidade o ícone "Gráficos", pois 
-    trata-se de uma opção poderosa que merece bastante atenção em relação ao consumo de recursos computacionais, decidiu-se por
-    sua transferida para dentro da opção Smart Decision para que lá o Administrador possa configurar de maneira prudente a 
-    permissão de acesso a cada tipo de gráfico gerencial, conforme o usuário logado.
+    De la versión 7.1.0.8 en adelante, el CITSmart Enterprise ITSM ya no presenta en esta funcionalidad el icono "Gráficos", pues se trata de una opción poderosa que merece mucha atención en el consumo de recursos computacionales, se decidió por su transferencia a dentro de la opción Smart Decision para que allí el Administrador pueda configurar de manera prudente el permiso de acceso a cada tipo de gráfico gerencial, conforme el usuario conectado.
     
-!!! abstract "SAIBA MAIS"
+!!! abstract "SEPA MAS"
 
-    Dependendo da sua permissão de acesso, é possível realizar uma série de ações nas Solicitações (requisições e incidentes)
-    existentes, sendo: visualizar a descrição da solicitação de serviço, reclassificar as informações da solicitação, delegar a
-    solicitação para outra pessoa ou grupo, suspender o atendimento da solicitação, reativar a solicitação que foi suspensa para
-    atendimento, alterar o SLA (tempo de atendimento) da solicitação, criar sub-solicitações, exibir sub-solicitações, criar 
-    solicitação relacionada, agendar atividade referente à solicitação para ser executada (atendida) em uma data programada; 
-    Imprimir solicitação, cancelar solicitação, executar atendimento da solicitação e entre outras.
+    Dependiendo de su permiso de acceso, es posible realizar una serie de acciones en las solicitudes (solicitudes de servicio e incidentes) existentes, siendo: visualizar la descripción de la solicitud de servicio, reclasificar la información de la solicitud, delegar la solicitud a otra persona o grupo, suspender la solicitud, volver a habilitar la solicitud que fue suspendida para la atención, cambiar el SLA (tiempo de atención) de la solicitud, crear sub-solicitudes, mostrar sub-solicitudes, crear solicitud relacionada, programar actividad referente a la solicitud para ser ejecutada (atendida) en la solicitud una fecha programada; Imprimir solicitud, cancelar la solicitud, ejecutar la atención de la solicitud y entre otras.
     
-Veja também
+Véase también
 -------------
 
-- [Gerenciamento de ticket (serviços)](/pt-br/citsmart-platform-7/processes/tickets/ticket-management.html).
+- [Gestión de ticket (servicios)](/es-es/citsmart-platform-7/processes/tickets/ticket-management.html).
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 7.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/29/2019 - Larissa Lourenço
+    <b>Updated:</b>07/29/2019 - Anna Martins
