@@ -18,7 +18,7 @@ Condiciones previas
 1.  Tener el proveedor registrado (ver conocimiento [Registro y consulta del
     proveedor][1]);
 
-2.  Tener un servicio registrado ( ver conocimiento [Registro de la actividad de
+2.  Tener un servicio registrado (ver conocimiento [Registro de la actividad de
     servicio][2]).
 
 Filtros
