@@ -1,68 +1,67 @@
-title: Avaliação de fornecedor
-Description:Esta funcionalidade tem por objetivo verificar o desempenho do fornecedor por serviço.
+title: Evaluación del proveedor
+Description: Esta función tiene como objetivo verificar el rendimiento del proveedor por servicio.
 
-# Avaliação de fornecedor
+# Evaluación del proveedor
 
-Esta funcionalidade tem por objetivo verificar o desempenho do fornecedor por
-serviço.
+Esta función tiene como objetivo verificar el rendimiento del proveedor por
+servicio.
 
-Como acessar
+Cómo acceder
 ------------
 
-1.  Acesse a funcionalidade de Avaliação de Fornecedor através da navegação no
-    menu principal **Processos ITIL > Gerência de Nível de
-    Serviço > Avaliação por Fornecedor**.
+1.  Acceda a la funcionalidad de evaluación de proveedores accediendo al menú
+    principal **Procesos ITIL > Gestión de Nivel de Servicio > Evaluación por Proveedor**.
 
-Pré-condições
--------------
+Condiciones previas
+-------------------
 
-1.  Ter o fornecedor cadastrado (ver conhecimento [Cadastro e pesquisa de
-    fornecedor][1]);
+1.  Tener el proveedor registrado (ver conocimiento [Registro y consulta del
+    proveedor][1]);
 
-2.  Ter um serviço cadastrado (ver conhecimento [Cadastro da atividade de
-    serviço][2]).
+2.  Tener un servicio registrado (ver conocimiento [Registro de la actividad de
+    servicio][2]).
 
 Filtros
 -------
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens
-    na listagem padrão da funcionalidade, facilitando a localização dos itens
-    desejados:
+1.  El siguiente filtro permite al usuario restringir la participación de
+    elementos en el listado default de la funcionalidad, facilitando la
+    localización de los elementos deseados:
 
-     - Pesquisar Fornecedor.
+    -   Consultar Proveedor.
 
-2.  Será apresentada a tela de **Avaliação de Fornecedor**, conforme ilustrada
-    na figura a seguir:
+2.  Se mostrará la pantalla de **Evaluación del Proveedor**, como se muestra en
+    la siguiente figura:
 
-![Criar conta](images/provider-evaluation-1.png)
+![Menu](images/provider-evaluation-1.png)
 
-**Figura 1 - Tela de avaliação de desempenho do fornecedor por serviço**
+**Figura 1 - Pantalla de evaluación de rendimiento del proveedor por servicio**
 
-Listagem de itens
------------------
+Listado de ítems
+----------------
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a
-    identificação dos itens desejados na listagem padrão da
-    funcionalidade: Serviço, Situação, Tipo de Demanda do Serviço, Tem SLA?,
-    Data de Início e Data Fim.
+1.  El(Los) siguiente (s) campo (s) de registro está (n) disponible (s) para
+    facilitar al usuario la identificación de los elementos deseados en el
+    listado default de la funcionalidad: **Servicio, Situación, Tipo de demanda
+    del Servicio, ¿Tiene SLA?, Fecha de Inicio** y **Fecha Fin**.
 
-2.  Será gerado o relatório de desempenho do fornecedor por serviço, conforme
-    exemplo ilustrado na figura abaixo:
+2.  Se generará el informe de rendimiento del proveedor por servicio, como se
+    muestra en la figura siguiente:
 
-![Criar conta](images/provider-evaluation-2.png)
+![Menu](images/provider-evaluation-2.png)
 
-**Figura 2 - Relatório de avaliação do fornecedor**
+**Figura 2 - Informe de evaluación del proveedor**
 
-Preenchimento dos campos cadastrais
------------------------------------
+Completar los campos de registro
+--------------------------------
 
-1.  Não se aplica.
+1.  No se aplica.
 
 
-[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/provider.html
-[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/activity.html
+[1]:/es-es/citsmart-platform-7/processes/portfolio-and-catalog/provider.html
+[2]:/es-es/citsmart-platform-7/processes/portfolio-and-catalog/activity.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Anna Martins
+    <b>Updated:</b>09/20/2019 – Anna Martins
