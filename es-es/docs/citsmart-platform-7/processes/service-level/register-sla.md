@@ -20,20 +20,20 @@ Condiciones previas
 1.  Tener la prioridad registrada (ver conocimiento [Registro y consulta de
     prioridad][1]);
 
-2.  Tener el grupo registrado (ver conocimiento *Registro y consulta de grupo*);
+2.  Tener el grupo registrado (ver conocimiento [Registro y consulta de grupo][2]);
 
 3.  Se han definido las plantillas de correo electrónico (ver
     conocimiento [Registro y consulta de la configuración del modelo de
-    e-mail][2]);
+    e-mail][3]);
 
 4.  Tener la unidad registrada (ver conocimiento [Registro y consulta de
-    unidad][[3]);
+    unidad][[4]);
 
-5.  El usuario registrado (ver conocimiento [Registro y consulta de usuario][4]);
+5.  El usuario registrado (ver conocimiento [Registro y consulta de usuario][5]);
 
 6.  Tener el requisito de acuerdo de nivel de servicio registrado (ver
     conocimiento [Registro y consulta de requisitos de acuerdo de nivel de
-    servicio][5]).
+    servicio][6]).
 
 Filtros
 -------
