@@ -1,186 +1,216 @@
-title:Cadastro e pesquisa de tempo de atendimento
-Description:Permite registrar o tempo de atendimento do tipo *Global* (aplica-se a todos os serviços), *Cliente*(aplica-se aos serviços de um contrato) e *Incidente/Requisição/Procedimento* (aplica-se a um serviço específico).
+title: Registro y consulta del tiempo de atención
+Description: La funcionalidad de tiempo de respuesta permite registrar el tiempo de respuesta del tipo *Global* el cliente.
 
-# Cadastro e pesquisa de tempo de atendimento
+# Registro y consulta del tiempo de atención
 
-A funcionalidade de tempo de atendimento permite registrar o tempo de atendimento do tipo *Global* (aplica-se a todos os serviços), *Cliente* (aplica-se aos serviços de um contrato) e *Incidente/Requisição/Procedimento* (aplica-se a um serviço específico).
+La funcionalidad de tiempo de respuesta permite registrar el tiempo de respuesta
+del tipo *Global* (se aplica a todos los servicios), el cliente (se aplica a los
+servicios de un contrato) e Incidente/Solicitud/Procedimiento (se aplica a un
+servicio específico).
 
-Pré-condições
--------------
+### Condiciones previas
 
-1.  Ter definido o portfólio de serviços para aplicar o tempo de atendimento aos serviços (ver conhecimentos [Cadastro de Portfólio de Serviços][1], [Cadastro de Serviços][2], [Configuração dos Atributos do Serviço][3].
+1.  Tener definido el portafolio de servicios para aplicar el tiempo de atención
+    a los servicios (ver conocimientos [Registro del portafolio de
+    servicios][1], [Registro de servicios][2], [Configuración de los atributos
+    de servicio][3]).
 
-Como acessar
-------------
+### Cómo acceder
 
-1.  Acesse a funcionalidade de Tempo de Atendimento através da navegação no menu principal **Processos ITIL \> Gerência de Níveis de
-    Serviço \> Tempo de Atendimento**.
+1.  Acceda a la funcionalidad de Tiempo de respuesta a través de la navegación
+    en el menú principal **Procesos ITIL > Gestión de Niveles de
+    Servicio > Tiempo de Servicio**.
 
-Filtros
--------
+### Filtros
 
-1.  O seguinte filtro possibilita ao usuário restringir a participação de itens na listagem padrão da funcionalidade, facilitando a localização dos itens desejados:
+1.  El siguiente filtro permite al usuario restringir la participación de
+    elementos en el listado default de la funcionalidad, facilitando la
+    localización de los elementos deseados:
 
-    -  Título SLA
+    -   **Título SLA**
 
-2.  Na tela de **Tempo de Atendimento**, clique na guia **Pesquisa**, será apresentada a respectiva tela de pesquisa conforme ilustrada na figura abaixo:
+2.  En la pantalla de **Tiempo de servicio**, haga clic en la
+    pestaña **Búsqueda**, aparecerá la pantalla de **Consultar** como se muestra
+    en la figura siguiente:
 
 ![Criar](images/attendance-1.png)
 
-**Figura 1 - Tela de pesquisa de tempo de atendimento**
+**Figura 1 - Pantalla de búsqueda de tiempo de respuesta**
 
-Listagem de items
------------------
+### Listado de ítems
 
-1.  Os seguintes campos cadastrais estão disponíveis ao usuário para facilitar a identificação dos itens desejados na listagem padrão da
-    funcionalidade: Título SLA, Descrição e Situação.
+1.  El(Los) siguiente (s) campo (s) de registro está (n) disponible (s) para
+    facilitar al usuario la identificación de los elementos deseados en el
+    listado default de la funcionalidad:** Título SLA,
+    Descripción **y** Situación.**
 
     ![Criar](images/attendance-2.png)
+    
+    **Figura 2 - Pantalla de lista de tiempo de respuesta**
 
-    **Figura 2 - Tela de listagem de tempo de atendimento**
+2.  Realizar la búsqueda del tiempo de atención;
 
-2.  Realize a pesquisa do tempo de atendimento:
+     -  La consulta se realiza por tipo de atención (Global, Cliente e
+        Incidente/Solicitud/Procedimiento). Seleccione el tipo de respuesta que
+        desee, introduzca el título del registro y haga clic en el
+        botón *Consultar*. Hecho esto, se mostrará el registro según el título
+        informado;
 
-    -  A consulta é realizada por tipo de atendimento (Global, Cliente e
-    Requisição/Incidente/Procedimento). Selecione o tipo de atendimento que
-    desejar, informe o título do registro e clique no botão *Pesquisar*. Feito
-    isso, será exibido o registro conforme o título informado;
+    -   Si desea listar todos los registros de tiempo de respuesta de un tipo de
+        respuesta, simplemente haga clic directamente en el botón *Consultar*,
+        donde se mostrarán todos los registros correspondientes al tipo de
+        respuesta seleccionado.
 
-    -  Caso queira listar todos os registros de tempo de atendimento de um tipo
-       de atendimento, basta clicar diretamente no botão *Pesquisar*, onde
-       todos os registros referentes ao tipo de atendimento selecionado serão
-       exibidos.
+3.  Seleccione el registro de tiempo de respuesta deseado. Será dirigido a la
+    pantalla de registro mostrando el contenido referente al registro
+    seleccionado.
 
-3.  Após a pesquisa, selecione o registro de tempo de atendimento desejado.
-    Feito isso, será direcionado para a tela de cadastro exibindo o conteúdo
-    referente ao registro selecionado.
+4.  Para cambiar los datos del registro de tiempo de respuesta, basta con
+    modificar la información de los campos deseados y hacer clic en el
+    botón *Grabar* para que se grabe el cambio realizado en el registro, donde
+    la fecha, hora y usuario serán grabados automáticamente para una futura
+    auditoría.
 
-4.  Para alterar os dados do registro de tempo de atendimento, basta modificar
-    as informações dos campos desejados e clicar no botão *Gravar* para que seja
-    gravada a alteração realizada no registro, onde a data, hora e usuário serão
-    gravados automaticamente para uma futura auditoria.
+### Completar los campos de registro
 
-Preenchimento de campos cadastrais
-----------------------------------
-
-1.  Será apresentada a tela de **Cadastro de Tempo de Atendimento**, conforme ilustrada na figura abaixo:
+1.  Se mostrará la pantalla de registro de **Tiempo de Atención**, como se
+    muestra en la figura siguiente:
 
     ![Criar](images/attendance-3.png)
+    
+    **Figura 3 -Pantalla de registro de tiempo de atención**
 
-    **Figura 3 - Tela de cadastro de tempo de atendimento**
+2.  Rellene los campos según la siguiente orientación:
 
-2.  Preencha os campos conforme orientação abaixo:
+    -   Seleccione el tipo de tiempo de atención que desea crear: Global, Cliente o Incidente/Solicitud/Procedimiento;
 
-    -  Selecione o tipo de tempo de atendimento que deseja criar: **Global**, **Cliente** ou **Incidente/Requisição/Procedimento**;
+        -   **Título**: informe el título del tiempo de atención;
 
-    -  **Título**: informe o título do tempo de atendimento;
+        -   **Situación**: seleccione la situación del tiempo de atención: Activo (en uso corriente) o Inactivo (deshabilitado);
 
-    -  **Situação**: selecione a situação do tempo de atendimento: Ativo (em uso corrente) ou Inativo (desabilitado);
+        -   **Impacto**: informe el impacto que causa la ausencia del funcionamiento del servicio dentro del ambiente organizacional;
 
-    -  **Impacto**: informe o impacto que causa a ausência do funcionamento do serviço dentro do ambiente organizacional;
+        -   **Urgencia**: informe la urgencia del restablecimiento del servicio dentro del ambiente organizacional;
 
-    -  **Urgência**: informe a urgência do restabelecimento do serviço dentro do ambiente organizacional;
+        -   **Cambio del Impacto/Urgencia**: defina si se permitirá la alteración del impacto y urgencia en el registro de solicitud de servicio;
 
-    -  **Mudança de Impacto / Urgência**: defina se será permitido a alteração do impacto e urgência no registro de solicitação de serviço;
+        -   **Estacional**: marque esta opción si el tiempo de respuesta es temporal. Al marcar esta opción, el relleno del campo "Fecha final" se vuelve obligatorio;
 
-    -  **Sazonal**: marque essa opção caso o tempo de atendimento seja temporário. Ao marcar essa opção, o preenchimento do campo "Data fim" se torna obrigatório;
+        -   **Fecha inicio**: informe la fecha de inicio del tiempo de atención de servicios;
 
-    -  **Data de início**: informe a data de início do tempo de atendimento de serviços;
+        -   **Fecha final**: informe una fecha futura para desactivar el tiempo de atención o informe la fecha en el momento que se deshabilita;
 
-    -  **Data fim**: informe uma data futura para desativação do tempo de atendimento ou informe a data no momento que for desativar o mesmo;
+        -   **Evaluada en**: informe la fecha en la cual el tiempo de atención de servicios será evaluado;
 
-    -  **Avaliar em**: informe a data na qual o tempo de atendimento de serviços será avaliado;
+        -   **Descripción**: describa los detalles sobre el tiempo de atención de servicios;
 
-    -  **Descrição**: descreva os detalhes sobre o tempo de atendimento de serviços;
+        -   **Alcance**: describa una visión macro sobre el tiempo de atención de servicios;
 
-    -  **Escopo**: descreva uma visão macro sobre o tempo de atendimento de serviços;
+        -   **Contactos**: describa las informaciones de contacto referentes al tiempo de atención;
 
-    -  **Contatos**: descreva as informações para contato referente ao tempo de atendimento;
+    -   Seleccione la prioridad para la definición del tiempo:
 
-    -  Defina o tempo de atendimento dos serviços, levando em consideração a prioridade. A prioridade é usada para identificar os tempos    requeridos para  que ações adequadas sejam tomadas. A prioridade vai de 1 a 5, sendo que o 1 é a prioridade mais alta e 5 é a mais      baixa. Selecione a prioridade para definição do tempo:
+        -   **Captura**: defina el tiempo de captura de la solicitud del servicio, según la prioridad seleccionada;
 
-        -  **Captura**: defina o tempo de captura da solicitação do serviço, conforme a prioridade selecionada;
+        -   **Resolución**: defina el tiempo de resolución del servicio, según la prioridad seleccionada.
 
-        -  **Resolução**: defina o tempo de resolução do serviço, conforme a prioridade selecionada.
+    !!! warning "ATENCIÓN"
 
-    !!! warning "ATENÇÃO"
+        Defina el tiempo de atención de los servicios, teniendo en cuenta la
+        prioridad. La prioridad se utiliza para identificar los tiempos requeridos
+        para que se tomen las medidas apropiadas. La prioridad va de 1 a 5, siendo
+        que el 1 es la prioridad más alta y 5 es la más baja.
 
-        Antes de preencher os campos da aba "Automação" ela deve estar adequadamente parametrizada, para isso se faz necessário executar         os passos contidos no conhecimento [Como habilitar a regra de escalonamento das Solicitações de Serviço?](),com exceção do               parâmetro "190 - Liga o funcionamento das regras de escalonamento? (Ex: S ou N - Default:´N´)" que deverá estar igual a ‘N’             neste contexto.
+    !!! warning "ATENCIÓN"
 
-3.  Defina os dados da automação:
+        Antes de rellenar los campos de la pestaña "Automatización" debe estar
+        adecuadamente parametrizada, para ello se hace necesario realizar los pasos
+        contenidos en el conocimiento [¿Cómo habilitar la regla de escalabilidad de
+        las solicitudes de servicio?][], con excepción del parámetro "190 - Activa
+        el funcionamiento de las reglas de programación" (Ej: S o N - Default:'N')
+        "que debe ser igual a 'N' en este contexto.
 
-    -   **Grupo**: informe o grupo executor do serviço.
+3.  Defina los datos de la automatización:
 
-    -   **Prioridade**: informe a prioridade de execução do serviço;
+    -   **Grupo**: informe al grupo ejecutor del servicio.
 
-    -   **Modelo de E-mail**: selecione o modelo de e-mail, o qual será enviado quando a solicitação do serviço não for atendida no         tempo de atendimento determinado.
+    -   **Prioridad**: informe la prioridad de ejecución del servicio;
 
-    -   **Tempo de Ação**: informe o tempo para execução da solicitação do serviço;
+    -   **Modelo de E-mail**: seleccione la plantilla de correo electrónico que
+        se enviará cuando la solicitud del servicio no se cumpla en el tiempo de
+        respuesta determinado.
+
+    -   **Tiempo de Acción**: informe el tiempo para la ejecución de la
+        solicitud del servicio;
 
     !!! note "NOTA"
 
-        Após os N minutos (informado no tempo de ação) e caso não tenha realizado nenhuma ação na solicitação do serviço vinculado a             este tempo de atendimento, o sistema atribuirá a prioridade e escalará o grupo para execução da solicitação do serviço.
+        Después de los N minutos (informado en el tiempo de acción) y si no ha
+        realizado ninguna acción en la solicitud del servicio vinculado a este
+        tiempo de atención, el sistema asignará la prioridad y escalará el grupo
+        para ejecutar la solicitud del servicio.
 
-    -  No quadro de **Incidente/Requisição/Procedimento**, selecione os serviços para aplicar as configurações, levando em consideração o tipo de tempo de atendimento selecionado:
+    -   En el cuadro de Incidente/Solicitud/Procedimiento, seleccione los servicios para aplicar la configuración, teniendo en cuenta el tipo de tiempo de respuesta seleccionado:
 
-    -  **Global**: permite selecionar todos os contratos, quantos desejar, para aplicar a configuração do tempo de atendimento nos serviços dos mesmos, conforme exemplo ilustrado na figura abaixo:
+        -   **Global**: permite seleccionar todos los contratos, como desee, para
+            aplicar la configuración del tiempo de atención en los servicios de los
+            mismos, como se muestra en la figura siguiente:
 
-    ![Criar](images/attendance-4.png)
+         ![Criar](images/attendance-4.png)
+    
+         **Figura 4 - Aplicación del tiempo de servicios de los contratos**
 
-    **Figura 4 - Aplicação do Tempo de Atendimento aos Serviços dos Contratos**
+        -   **Cliente**: permite seleccionar sólo un contrato para dejar de aplicar la
+            configuración del tiempo de servicio en del mismo, como se muestra en la
+            figura siguiente:
 
-    -   **Cliente**: permite selecionar somente um contrato parar aplicar a
-    configuração do tempo de atendimento nos serviços do mesmo, conforme exemplo
-    ilustrado na figura abaixo:
+         ![Criar](images/attendance-5.png)
+         
+         **Figura 5 - Aplicación del tiempo de servicio de un cliente (contrato)**
 
-    ![Criar](images/attendance-5.png)
+        -   **Incidente/Solicitud/Procedimiento**: permite seleccionar solamente un
+            servicio para aplicar la configuración del tiempo de atención, como ejemplo
+            ilustrado en la figura abajo:
 
-    **Figura 5 - Aplicação do tempo de atendimento aos serviços de um cliente
-(Contrato)**
+        ![Criar](images/attendance-6.png)
+        
+        **Figura 6 - Aplicación del tiempo de atención al servicio de solicitud/incidente**
 
-    - **Requisição/Incidente/Procedimento**: permite selecionar somente um serviço
-    para aplicar a configuração do tempo de atendimento, conforme exemplo
-    ilustrado na figura abaixo:
+    4.  Si el tipo de tiempo de atención seleccionado es cliente o Incidente/Solicitud/Procedimiento, relacione las unidades y los colaboradores;
 
-    ![Criar](images/attendance-6.png)
+        ![Criar](images/attendance-7.png)
+        
+        **Figura 7 - Relaciones de Unidad y colaborador**
 
-    **Figura 6 - Aplicação do tempo de atendimento ao serviço de requisição/incidente**
+    -   Introduzca la unidad y asigne una prioridad;
 
-4.  Se tipo o tipo de tempo de atendimento selecionado for **Cliente** ou **Incidente/Requisição/Procedimento**, relacione as
-    unidades e os empregados (colaboradores);
+        -   **Unidad**: informe la unidad deseada;
 
-    ![Criar](images/attendance-7.png)
+        -   **Prioridad**: indique la prioridad del servicio para la unidad;
 
-    **Figura 7 - Relacionamento de unidade e empregado**
+        -   Haga clic en el botón *Incluir* para realizar la operación.
 
-    -  Informe a unidade e atribua uma prioridade;
+    -   Informe al colaborador y asigne una prioridad;
 
-        -  **Unidade**: informe a unidade desejada;
+        -   **Empleado**: informe al colaborador;
 
-        -  **Prioridade**: indique a prioridade do serviço para a unidade;
+        -   **Prioridad**: indique la prioridad del servicio para el colaborador;
 
-    -  Feito isso, clique no botão *Incluir* para efetuar a operação.
+        -   **Crítico**: indique si el colaborador es del tipo "crítico" al negocio, o sea, que debe tener la atención del servicio con prioridad alta.
 
-    -  Informe o empregado e atribua uma prioridade;
+        -   Haga clic en el botón *Incluir* para realizar la operación.
 
-        -  **Empregados**: informe o empregado;
-
-        -  **Prioridade**: indique a prioridade do serviço para o empregado;
-
-        -  **Crítico**: indique se o empregado é do tipo "crítico" ao negócio, ou seja, que deve ter o atendimento do serviço com               prioridade alta.
-
-    -  Feito isso, clique no botão *Incluir* para efetuar a operação.
-
-5.  Após o cadastro dos dados, clique no botão *Gravar* para efetuar o registro,
-    onde a data, hora e usuário serão gravados automaticamente para uma futura
-    auditoria.
+5.  Después del registro de los datos, haga clic en el botón *Grabar* para
+    efectuar el registro, donde la fecha, hora y usuario serán grabados
+    automáticamente para una futura auditoría.
 
 
-[1]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/register.html
-[2]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/services.html
-[3]:/pt-br/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
+
+[1]:/es-es/citsmart-platform-7/processes/portfolio-and-catalog/register.html
+[2]:/es-es/citsmart-platform-7/processes/portfolio-and-catalog/services.html
+[3]:/es-es/citsmart-platform-7/processes/portfolio-and-catalog/configure-service-attribute.html
 
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/12/2019 – Anna Martins
+    <b>Updated:</b>09/20/2019 – Anna Martins
