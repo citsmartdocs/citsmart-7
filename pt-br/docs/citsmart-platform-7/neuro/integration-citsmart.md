@@ -34,8 +34,6 @@ Parametrização
 
 1.  No ITSM existem quatro parâmetros que configuram a integração com o Neuro:
 
-**Figura 1 - Parâmetros CITSmart**
-
 -   O parâmetro 309 indica se a integração com o Neuro está habilitada;
 
 -   O parâmetro 310 define a URL do Neuro. Essa URL inclui o contexto da
@@ -73,12 +71,8 @@ Acesso às telas do neuro pelo itsm
     e o usuário logado no ITSM tenha acesso à integração (usuário consultor já
     tem acesso default), o menu “Neuro” será apresentado conforme tela abaixo:
 
->   **Figura 2 - Menu principal**
-
 1.  Atendidas as condições de autenticação e perfil, o usuário tem acesso a
     todas as telas de gerenciamento e recursos do Neuro.
-
->   **Figura 3 - Desenho da tela**
 
 !!! note "NOTA"
 
@@ -92,8 +86,6 @@ Acesso aos formulários do neuro pelo menu do ITSM
     :*/dynamicFormBuilder/dynamicFormBuilder.load?formName={nome do formulário
     do Neuro}&page={tipo de página do Neuro}*
 
->   **Figura 4 - Cadastro de menu**
-
 1.  Nesse caso de integração, o tipo de página do Neuro geralmente é crud (para
     cadastros CRUD) ou default (para formulários gerais);
 
@@ -102,8 +94,6 @@ Acesso aos formulários do neuro pelo menu do ITSM
     ITSM no Neuro é feita utilizando a conta de serviço especificada no
     parâmetro 311.
 
->   **Figura 5 - Dados cadastrais**
-
 Utilização dos formulários neuro na abertura de solicitação itsm
 
 1.  Depois de construído o formulário no Neuro, basta:
@@ -111,22 +101,16 @@ Utilização dos formulários neuro na abertura de solicitação itsm
 -   Cadastrar um template do tipo Neuro no ITSM e associá-lo ao formulário,
     conforme tela a seguir:
 
->   **Figura 6 - Template de solicitação**
-
 1.  Para os casos em que a atividade inicia um fluxo do próprio ITSM (que é a
     maioria dos casos), o campo “Página Neuro” deve ser preenchido com
     “Default”;
 
 -   Associar o template à atividade do portfólio
 
->   **Figura 7 - Cadastro/Edição serviço**
-
 1.  Depois de associado o template à atividade, o formulário do Neuro aparecerá
     automaticamente na tela de solicitação do ITSM do portal ou na tela de
     requisições/incidentes. Nesse caso, a autenticação do ITSM no Neuro é feita
     utilizando a conta de serviço especificada no parâmetro 311.
-
-**Figura 8 - Formulário montado**
 
 Utilização dos formulários neuro nas tarefas de fluxo
 
@@ -143,13 +127,9 @@ Utilização dos formulários neuro nas tarefas de fluxo
 >   \-Selecionar o formulário do Neuro (auto-complete) no campo “Nome do
 >   formulário”.
 
->   **Figura 9 - Tarefas**
-
 1.  Na execução da tarefa, o formulário do Neuro associado no desenho do fluxo
     será exibido automaticamente. Também nesse caso, a autenticação do ITSM no
     Neuro é feita utilizando a conta de serviço especificada no parâmetro 311.
-
->   **Figura 10 - Formulário associado**
 
 Execução de regras de negócio do neuro pelo itsm
 
@@ -159,10 +139,6 @@ Execução de regras de negócio do neuro pelo itsm
 
 -   Criar ou referenciar uma regra de negócio do Neuro na aba de propriedades.
 
->   **Figura 10 - Formulário associado**
-
->   **Figura 11 - Regra de Negócio**
-
 Execução de fluxos esi pelo itsm
 
 1.  Para execução de fluxos ESI do Neuro, deve ser feito o seguinte:
@@ -170,8 +146,6 @@ Execução de fluxos esi pelo itsm
 -   Adicionar um componente Fluxo ESI no fluxo do ITSM;
 
 -   Referenciar um fluxo ESI na aba de propriedades.
-
->   **Figura 12 - Fluxo ESI**
 
 Execução de transações de objeto de negócio pelo itsm
 
@@ -183,5 +157,3 @@ Execução de transações de objeto de negócio pelo itsm
 -   Preencher as propriedades obrigatórias: nome da conexão, nome do objeto de
     banco de dados, tipo do SQL, variável JSON de entrada e variável JSON de
     saída.
-
-**Figura 13 - Transação de BD**
